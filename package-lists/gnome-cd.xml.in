@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<test>
+<setup arch="i586">
+	<source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
+	<locale name="en_US" />
+<lock package="release-notes-sled"/>
+<lock package="release-notes-sledsp1"/>
+
+<!-- ignoring some recommends -->
+<lock package="OpenOffice_org-base"/>
+<lock package="OpenOffice_org-hyphen"/>
+<lock package="OpenOffice_org-mailmerge"/>
+<lock package="OpenOffice_org-math"/>
+<lock package="OpenOffice_org-pyuno"/>
+<lock package="alsa-plugins"/>
+<lock package="enscript"/>
+<lock package="ft2demos"/>
+<lock package="ispell"/>
+<lock package="ispell_dictionary"/>
+<lock package="readline-doc"/>
+<lock package="nfs-kernel-server"/>
+<lock package="vim-data"/>
+<lock package="xml-commons-apis"/>
+<lock package="RealPlayer"/>
+<lock package="gnome2-NLD"/>
+<!-- INTERNALS -->
+</setup>
+<trial>
+<install kind="package" name="java-1_4_2-gcj-compat"/>
+<install kind="pattern" name="gnome_multimedia"/>
+<install kind="pattern" name="apparmor"/>
+<install kind="pattern" name="sw_management_gnome"/>
+<install kind="pattern" name="imaging"/>
+<install kind="pattern" name="base"/>
+<install kind="pattern" name="xgl"/>
+<install kind="pattern" name="gnome_laptop"/>
+<install kind="pattern" name="gnome_imaging"/>
+<install kind="pattern" name="fonts"/>
+<install kind="pattern" name="laptop"/>
+<install kind="pattern" name="gnome_basis"/>
+<install kind="pattern" name="yast2_install_wf"/>
+<install kind="pattern" name="gnome_xgl"/>
+<install kind="pattern" name="x11"/>
+<install kind="pattern" name="sw_management"/>
+<install kind="pattern" name="gnome"/>
+<install kind="pattern" name="gnome_yast"/>
+<install kind="pattern" name="gnome_internet"/>
+<install kind="pattern" name="office"/>
+<install kind="pattern" name="gnome_office"/>
+<install kind="pattern" name="multimedia"/>
+<install kind="pattern" name="default"/>
+<install kind="pattern" name="enhanced_base"/>
+<install kind="pattern" name="rest_cd"/>
+<install kind="pattern" name="yast2_basis"/>
+</trial>
+</test>
