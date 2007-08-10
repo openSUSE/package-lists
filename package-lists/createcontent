@@ -1,0 +1,8 @@
+rm -f /space/sld/kiwi/full-i386/suse/setup/descr/*.pat
+cp /space/sld/kiwi/$1/CD1//suse/setup/descr/*.pat /space/sld/kiwi/full-i386/suse/setup/descr/
+cp /space/sld/kiwi/content.small /space/sld/kiwi/full-i386/content
+cd /space/sld/kiwi/full-i386/suse/setup/descr
+for i in *; do echo -n "META SHA1 "; sha1sum $i|awk '{ORS=""; print $1}'; echo -n " "; basename $i; done >> /space/sld/kiwi/full-i386/content
+rm /space/sld/kiwi/full-i386/content.asc
+gpg  --batch -a -b --sign /space/sld/kiwi/full-i386/content
+rm -rf /tmp/myrepos/
