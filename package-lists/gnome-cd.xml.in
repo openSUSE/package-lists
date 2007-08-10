@@ -26,31 +26,6 @@
 <!-- INTERNALS -->
 </setup>
 <trial>
-<install kind="package" name="java-1_4_2-gcj-compat"/>
-<install kind="pattern" name="gnome_multimedia"/>
-<install kind="pattern" name="apparmor"/>
-<install kind="pattern" name="sw_management_gnome"/>
-<install kind="pattern" name="imaging"/>
-<install kind="pattern" name="base"/>
-<install kind="pattern" name="xgl"/>
-<install kind="pattern" name="gnome_laptop"/>
-<install kind="pattern" name="gnome_imaging"/>
-<install kind="pattern" name="fonts"/>
-<install kind="pattern" name="laptop"/>
-<install kind="pattern" name="gnome_basis"/>
-<install kind="pattern" name="yast2_install_wf"/>
-<install kind="pattern" name="gnome_xgl"/>
-<install kind="pattern" name="x11"/>
-<install kind="pattern" name="sw_management"/>
-<install kind="pattern" name="gnome"/>
-<install kind="pattern" name="gnome_yast"/>
-<install kind="pattern" name="gnome_internet"/>
-<install kind="pattern" name="office"/>
-<install kind="pattern" name="gnome_office"/>
-<install kind="pattern" name="multimedia"/>
-<install kind="pattern" name="default"/>
-<install kind="pattern" name="enhanced_base"/>
-<install kind="pattern" name="rest_cd"/>
-<install kind="pattern" name="yast2_basis"/>
+<install kind="pattern" name="rest_cd_gnome"/>
 </trial>
 </test>

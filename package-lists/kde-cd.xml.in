@@ -30,32 +30,6 @@
 <trial>
 <install kind="package" name="java-1_4_2-gcj-compat"/>
 <install kind="package" name="NetworkManager-vpnc-kde"/>
-<install kind="pattern" name="rest_cd"/>
-<install kind="pattern" name="apparmor"/>
-<install kind="pattern" name="sw_management_kde"/>
-<install kind="pattern" name="imaging"/>
-<install kind="pattern" name="base"/>
-<install kind="pattern" name="xgl"/>
-<install kind="pattern" name="fonts"/>
-<install kind="pattern" name="laptop"/>
-<install kind="pattern" name="kde_imaging"/>
-<install kind="pattern" name="yast2_install_wf"/>
-<install kind="pattern" name="kde_office"/>
-<install kind="pattern" name="kde_utilities"/>
-<install kind="pattern" name="x11"/>
-<install kind="pattern" name="sw_management"/>
-<install kind="pattern" name="kde_games"/>
-<install kind="pattern" name="games"/>
-<install kind="pattern" name="office"/>
-<install kind="pattern" name="kde_xgl"/>
-<install kind="pattern" name="multimedia"/>
-<install kind="pattern" name="default"/>
-<install kind="pattern" name="kde_internet"/>
-<install kind="pattern" name="kde_multimedia"/>
-<install kind="pattern" name="enhanced_base"/>
-<install kind="pattern" name="kde"/>
-<install kind="pattern" name="kde_basis"/>
-<install kind="pattern" name="rest_cd"/>
-<install kind="pattern" name="yast2_basis"/>
+<install kind="pattern" name="rest_cd_kde"/>
 </trial>
 </test>
