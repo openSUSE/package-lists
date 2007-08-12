@@ -1,0 +1,75 @@
+--- /etc/sysconfig/windowmanager	2007-08-10 19:49:32.000000000 +0200
++++ /etc/sysconfig/windowmanager	2007-08-02 16:52:26.000000000 +0200
+@@ -15,7 +15,7 @@
+ #
+ # Here you can set the default window manager (kde, fvwm, ...)
+ # changes here require at least a re-login
+-DEFAULT_WM="kde"
++DEFAULT_WM="gnome"
+ 
+ ## Type:	yesno
+ ## Default:	yes
+--- /etc/inittab.orig	2007-08-10 19:54:25.000000000 +0200
++++ /etc/inittab	2007-08-02 17:42:32.000000000 +0200
+@@ -17,7 +17,7 @@
+ #
+ 
+ # The default runlevel is defined here
+-id:3:initdefault:
++id:5:initdefault:
+ 
+ # First script to be executed, if not booting in emergency (-b) mode
+ si::bootwait:/etc/init.d/boot
+--- /etc/init.d/xdm.orig	2007-08-10 21:13:51.000000000 +0200
++++ /etc/init.d/xdm	2007-08-10 21:14:00.000000000 +0200
+@@ -14,7 +14,7 @@
+ ### BEGIN INIT INFO
+ # Provides:          xdm
+ # Required-Start:    $remote_fs
+-# Should-Start: ypbind $syslog gpm firstboot kbd resmgr earlykdm winbind
++# Should-Start: ypbind $syslog gpm firstboot kbd resmgr earlyxdm winbind
+ # Required-Stop:
+ # Default-Start:     5
+ # Default-Stop:
+--- /etc/init.d/earlyxdm.orig	2007-08-10 22:16:03.000000000 +0200
++++ /etc/init.d/earlyxdm	2007-08-10 22:16:14.000000000 +0200
+@@ -12,7 +12,7 @@
+ ### BEGIN INIT INFO
+ # Provides:          earlyxdm
+ # Required-Start:    earlysyslog $local_fs
+-# Should-Start:      gpm firstboot resmgr
++# Should-Start:      gpm firstboot resmgr create_xconf
+ # Required-Stop:
+ # Default-Start:     5
+ # Default-Stop:
+--- /etc/sysconfig/displaymanager.orig	2007-08-11 10:04:13.000000000 +0200
++++ /etc/sysconfig/displaymanager	2007-08-11 12:26:53.000000000 +0200
+@@ -39,7 +39,7 @@
+ # Here you can set the default Display manager (kdm/xdm/gdm/wdm/console).
+ # all changes in this file require a restart of the displaymanager
+ #
+-DISPLAYMANAGER=""
++DISPLAYMANAGER="gdm"
+ 
+ ## Type:	yesno
+ ## Default:	no
+@@ -87,7 +87,7 @@
+ # Define the user whom should get logged in without request. If string
+ # is empty, display standard login dialog.
+ #
+-DISPLAYMANAGER_AUTOLOGIN=""
++DISPLAYMANAGER_AUTOLOGIN="linux"
+ 
+ ## Type:        yesno
+ ## Default:     no
+--- /etc/sysconfig/network/config.orig	2007-08-11 12:33:48.000000000 +0200
++++ /etc/sysconfig/network/config	2007-08-11 12:33:55.000000000 +0200
+@@ -215,7 +215,7 @@
+ # If you are used to SCPM then you might probably stay with NetControl. But at
+ # least try NetworkManager, because it can replace SCPM in some usage scenarios.
+ # 
+-NETWORKMANAGER=no
++NETWORKMANAGER=yes
+ 
+ ## Type:	int
+ ## Default:	0
