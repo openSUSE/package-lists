@@ -1,5 +1,6 @@
 915resolution
 CheckHardware
+ConsoleKit
 DirectFB
 LibVNCServer
 Mesa
@@ -16,6 +17,11 @@ OpenOffice_org-draw
 OpenOffice_org-icon-themes
 OpenOffice_org-impress
 OpenOffice_org-kde
+OpenOffice_org-templates-en
+OpenOffice_org-templates-labels-a4
+OpenOffice_org-templates-labels-letter
+OpenOffice_org-templates-presentation-layouts
+OpenOffice_org-thesaurus-en
 OpenOffice_org-writer
 PolicyKit
 SDL
@@ -40,6 +46,7 @@ arts
 aspell
 aspell-en
 atk
+atk-lang
 attr
 audiofile
 audit-libs
@@ -93,6 +100,7 @@ dbus-1
 dbus-1-glib
 dbus-1-qt3
 dbus-1-x11
+dcraw
 dejavu
 desktop-data-SuSE
 desktop-file-utils
@@ -132,6 +140,7 @@ gawk
 gcc-gij
 gcc42-gij
 gconf2
+gconf2-lang
 gdb
 gdbm
 genisoimage
@@ -274,7 +283,9 @@ libasound2
 libattr
 libblkid1
 libbonobo
+libbonobo-lang
 libbonoboui
+libbonoboui-lang
 libbz2-1
 libcap
 libcdio7
@@ -290,6 +301,7 @@ libexif
 libexiv2
 libexpat1
 libext2fs2
+libfuse2
 libgcc42
 libgcj42
 libgcrypt
@@ -333,7 +345,7 @@ libmng
 libmpcdec5
 libmtp
 libmusicbrainz4
-libnetpbm
+libnetpbm10
 libnjb
 libnl
 libnscd
@@ -501,6 +513,7 @@ pwdutils
 qca
 qt3
 qtcurve-gtk2
+qtcurve-kde
 recode
 reiserfs
 release-notes
