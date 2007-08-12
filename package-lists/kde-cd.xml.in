@@ -1,35 +1,34 @@
 <?xml version="1.0"?>
 <test>
-<setup arch="i586">
-	<source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
-	<locale name="en_US" />
-<lock package="release-notes-sled"/>
-<lock package="release-notes-sledsp1"/>
-
+  <setup arch="i586">
+    <source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
+    <locale name="en_US"/>
+    <lock package="release-notes-sled"/>
+    <lock package="release-notes-sledsp1"/>
 <!-- ignoring some recommends -->
-<lock package="OpenOffice_org-base"/>
-<lock package="OpenOffice_org-hyphen"/>
-<lock package="OpenOffice_org-mailmerge"/>
-<lock package="OpenOffice_org-math"/>
-<lock package="OpenOffice_org-pyuno"/>
-<lock package="alsa-plugins"/>
-<lock package="digikamimageplugins-superimpose"/>
-<lock package="enscript"/>
-<lock package="ft2demos"/>
-<lock package="ispell"/>
-<lock package="ispell_dictionary"/>
-<lock package="kdelibs3-doc"/>
-<lock package="kdelibs4-icons-scalable"/>
-<lock package="readline-doc"/>
-<lock package="nfs-kernel-server"/>
-<lock package="spamassassin"/>
-<lock package="vim-data"/>
-<lock package="xml-commons-apis"/>
+    <lock package="OpenOffice_org-base"/>
+    <lock package="OpenOffice_org-hyphen"/>
+    <lock package="OpenOffice_org-mailmerge"/>
+    <lock package="OpenOffice_org-math"/>
+    <lock package="OpenOffice_org-pyuno"/>
+    <lock package="alsa-plugins"/>
+    <lock package="digikamimageplugins-superimpose"/>
+    <lock package="enscript"/>
+    <lock package="ft2demos"/>
+    <lock package="ispell"/>
+    <lock package="ispell_dictionary"/>
+    <lock package="kdelibs3-doc"/>
+    <lock package="kdelibs4-icons-scalable"/>
+    <lock package="readline-doc"/>
+    <lock package="nfs-kernel-server"/>
+    <lock package="spamassassin"/>
+    <lock package="vim-data"/>
+    <lock package="xml-commons-apis"/>
+    <lock package="bundle-lang-gnome-en"/>
 <!-- INTERNALS -->
-</setup>
-<trial>
-<install kind="package" name="java-1_4_2-gcj-compat"/>
-<install kind="package" name="NetworkManager-vpnc-kde"/>
-<install kind="pattern" name="rest_cd_kde"/>
-</trial>
+  </setup>
+  <trial>
+    <install kind="package" name="NetworkManager-vpnc-kde"/>
+    <install kind="pattern" name="rest_cd_kde"/>
+  </trial>
 </test>

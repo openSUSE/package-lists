@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 <test>
-<setup arch="i586">
-	<source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
-	<locale name="en_US" />
-<lock package="release-notes-sled"/>
-<lock package="release-notes-sledsp1"/>
-
+  <setup arch="i586">
+    <source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
+    <locale name="en_US"/>
+    <lock package="release-notes-sled"/>
+    <lock package="release-notes-sledsp1"/>
 <!-- ignoring some recommends -->
-<lock package="OpenOffice_org-base"/>
-<lock package="OpenOffice_org-hyphen"/>
-<lock package="OpenOffice_org-mailmerge"/>
-<lock package="OpenOffice_org-math"/>
-<lock package="OpenOffice_org-pyuno"/>
-<lock package="alsa-plugins"/>
-<lock package="enscript"/>
-<lock package="ft2demos"/>
-<lock package="ispell"/>
-<lock package="ispell_dictionary"/>
-<lock package="readline-doc"/>
-<lock package="nfs-kernel-server"/>
-<lock package="vim-data"/>
-<lock package="xml-commons-apis"/>
-<lock package="RealPlayer"/>
-<lock package="gnome2-NLD"/>
+    <lock package="OpenOffice_org-base"/>
+    <lock package="OpenOffice_org-hyphen"/>
+    <lock package="OpenOffice_org-mailmerge"/>
+    <lock package="OpenOffice_org-math"/>
+    <lock package="OpenOffice_org-pyuno"/>
+    <lock package="alsa-plugins"/>
+    <lock package="enscript"/>
+    <lock package="ft2demos"/>
+    <lock package="ispell"/>
+    <lock package="ispell_dictionary"/>
+    <lock package="readline-doc"/>
+    <lock package="nfs-kernel-server"/>
+    <lock package="vim-data"/>
+    <lock package="xml-commons-apis"/>
+    <lock package="RealPlayer"/>
+    <lock package="gnome2-NLD"/>
+    <lock package="bundle-lang-kde-en"/>
 <!-- INTERNALS -->
-</setup>
-<trial>
-<install kind="pattern" name="rest_cd_gnome"/>
-</trial>
+  </setup>
+  <trial>
+    <install kind="pattern" name="rest_cd_gnome"/>
+  </trial>
 </test>
