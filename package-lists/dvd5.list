@@ -376,6 +376,7 @@ clamav
 clanbomber
 clanlib
 classpath
+classpath-webplugin
 clisp
 cloop
 cloop-kmp-bigsmp
@@ -980,7 +981,6 @@ hfsutils
 hicolor-icon-theme
 hk_classes
 hmconv
-hostap
 hostap-utils
 hostapd
 hotkey-setup
@@ -1908,6 +1908,7 @@ lirc-kmp-xen
 lirc-kmp-xenpae
 log4net
 logrotate
+lomoco
 loudmouth
 loudmouth-devel
 loudmouth-doc
@@ -2693,6 +2694,11 @@ sqlite
 sqlite-devel
 sqlite2
 sqlite2-devel
+squashfs
+squashfs-kmp-bigsmp
+squashfs-kmp-default
+squashfs-kmp-xen
+squashfs-kmp-xenpae
 squid
 squidGuard
 src_vipa
@@ -3147,6 +3153,7 @@ yast2-perl-bindings
 yast2-phone-services
 yast2-pkg-bindings
 yast2-printer
+yast2-product-creator
 yast2-profile-manager
 yast2-qt
 yast2-registration

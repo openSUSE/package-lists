@@ -37,12 +37,15 @@
     <lock package="libmudflap41"/>
     <lock package="libgcc41"/>
     <lock package="libstdc++41"/>
+    <lock package="libffi41"/>
     <lock package="novell-ipsec-tools"/>
     <lock package="xerces-j2-xml-resolver"/>
+    <lock package="xerces-j2-xml-apis"/>
     <lock package="gnu-javamail"/>
 <!-- INTERNALS -->
   </setup>
   <trial>
     <install kind="pattern" name="rest_dvd"/>
+    <reportProblems/>
   </trial>
 </test>
