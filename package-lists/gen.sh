@@ -1,7 +1,7 @@
 #! /bin/sh
 
 file=$1
-for pack in `pdb query --filter status:internal` `pdb query --filter status:candidate`; do
+for pack in `pdb query --filter status:internal` `pdb query --filter status:candidate` `pdb query --filter status:frozen`; do
   grep -x $pack overwrites && continue
   LOCK="$LOCK <lock package=\"$pack\"/>"
   case $pack in
