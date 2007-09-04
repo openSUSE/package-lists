@@ -5,6 +5,9 @@
     <locale name="en_US"/>
     <lock package="release-notes-sled"/>
     <lock package="release-notes-sledsp1"/>
+<!-- ignoring some lang provides -->
+    <lock package="apparmor-admin_en-pdf"/>
+    <lock package="apparmor-admin_en"/>
 <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
     <lock package="oxygen-icon-theme-scalable"/>
