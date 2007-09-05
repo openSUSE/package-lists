@@ -5,6 +5,8 @@
     <!-- Tier 1 -->
     <locale name="en_US"/>
     <locale name="en_GB"/>
+    <locale name="pt"/>
+    <locale name="pt_BR"/>
     <locale name="en"/>
     <locale name="de"/>
     <locale name="es"/>
@@ -14,17 +16,16 @@
     <locale name="zh"/>
     <locale name="zh_TW"/>
     <locale name="zh_CN"/>
-    <locale name="nl"/>
-    <locale name="cs"/>
-    <locale name="pt"/>
-    <locale name="pl"/>
-    <locale name="ca"/>
-    <locale name="ar"/>
-    <locale name="hu"/>
-    <locale name="ko"/>
-    <locale name="da"/>
-    <locale name="sv"/>
+    <!-- Tier 2 -->
     <locale name="ru"/>
+    <locale name="cs"/>
+    <locale name="hu"/>
+    <locale name="pl"/>
+    <locale name="fi"/>
+    <locale name="da"/>
+    <locale name="nb"/>
+    <locale name="sv"/>
+    <locale name="nl"/>
     <lock package="release-notes-sled"/>
     <lock package="release-notes-sledsp1"/>
     <lock package="novell-ipsec-tools"/>
@@ -38,5 +39,12 @@
     <install kind="package" name="gdk-pixbuf"/>
     <install kind="package" name="xerces-j2-xml-resolver"/>
     <install kind="package" name="xerces-j2-xml-apis"/>
+    <install kind="package" name="helix-banshee"/>
+    <install kind="package" name="helix-banshee-devel"/>
+    <install kind="package" name="helix-banshee-engine-gst"/>
+    <install kind="package" name="helix-banshee-engine-helix"/>
+    <install kind="package" name="helix-banshee-plugins-DAAP"/>
+    <install kind="package" name="helix-banshee-plugins-default"/>
+    <install kind="package" name="helix-banshee-plugins-extra"/>
   </trial>
 </test>
