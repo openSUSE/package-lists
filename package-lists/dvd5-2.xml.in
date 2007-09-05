@@ -2,42 +2,28 @@
 <test>
   <setup arch="i586">
     <source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
-    <locale name="ja"/>
-    <locale name="cs"/>
-    <locale name="da"/>
-    <locale name="de"/>
-    <locale name="en"/>
-    <locale name="es"/>
-    <locale name="fr"/>
-    <locale name="hu"/>
-    <locale name="it"/>
-    <locale name="nb"/>
-    <locale name="nl"/>
-    <locale name="pl"/>
-    <locale name="zh"/>
-    <locale name="en_GB"/>
-    <locale name="zh_TW"/>
-    <locale name="km"/>
-    <locale name="zh_CN"/>
+    <!-- Tier 1 -->
     <locale name="en_US"/>
-    <lock package="bundle-lang-kde-de"/>
-    <lock package="bundle-lang-kde-en"/>
-    <lock package="bundle-lang-kde-es"/>
-    <lock package="bundle-lang-kde-fr"/>
-    <lock package="bundle-lang-kde-pt"/>
-    <lock package="bundle-lang-kde"/>
-    <lock package="bundle-lang-gnome-de"/>
-    <lock package="bundle-lang-gnome-en"/>
-    <lock package="bundle-lang-gnome-es"/>
-    <lock package="bundle-lang-gnome-fr"/>
-    <lock package="bundle-lang-gnome-pt"/>
-    <lock package="bundle-lang-gnome"/>
+    <locale name="en"/>
+    <locale name="de"/>
+    <locale name="es"/>
+    <locale name="it"/>
+    <locale name="fr"/>
+    <locale name="ja"/>
+    <locale name="zh"/>
+    <locale name="nl"/>
+    <locale name="cs"/>
+    <locale name="pt"/>
+    <locale name="pl"/>
+    <locale name="ca"/>
+    <locale name="ar"/>
+    <locale name="hu"/>
+    <locale name="ko"/>
+    <locale name="da"/>
+    <locale name="sv"/>
+    <locale name="ru"/>
     <lock package="release-notes-sled"/>
     <lock package="release-notes-sledsp1"/>
-    <lock package="libmudflap41"/>
-    <lock package="libgcc41"/>
-    <lock package="libstdc++41"/>
-    <lock package="libffi41"/>
     <lock package="novell-ipsec-tools"/>
 <!-- INTERNALS -->
   </setup>
@@ -45,5 +31,9 @@
     <install kind="package" name="cracklib-dict-full"/>
     <install kind="package" name="sendmail"/>
     <install kind="package" name="notification-daemon"/>
+    <install kind="package" name="sendfax"/>
+    <install kind="package" name="gdk-pixbuf"/>
+    <install kind="package" name="xerces-j2-xml-resolver"/>
+    <install kind="package" name="xerces-j2-xml-apis"/>
   </trial>
 </test>
