@@ -26,6 +26,7 @@ aaa_skel
 aalib
 acl
 acpid
+adaptec-firmware
 alsa
 alsa-oss
 alsa-utils
@@ -37,8 +38,10 @@ aspell
 aspell-en
 at-spi
 atk
+atmel-firmware
 attr
 audiofile
+audit
 audit-libs
 autofs
 autoyast2
@@ -60,12 +63,17 @@ beagle-firefox
 beagle-gui
 bind-libs
 bind-utils
+binutils
+blktrace
 blocxx
 bluez-firmware
 boost
 bootsplash
 bootsplash-theme-SuSE
+brasero
+brasero-lang
 bug-buddy
+bundle-lang-common-en
 bundle-lang-gnome-en
 bzip2
 cairo
@@ -115,6 +123,7 @@ dhcpcd
 dialog
 diffutils
 dirmngr
+dmraid
 docbook_4
 dockutils
 dosfstools
@@ -155,6 +164,7 @@ gawk
 gcalctool
 gcc-gij
 gcc42-gij
+gconf-editor
 gconf-sharp2
 gconf2
 gdb
@@ -163,6 +173,7 @@ gdm
 gedit
 genisoimage
 gettext
+ggreeter
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
@@ -182,6 +193,7 @@ gmime-sharp
 gmp
 gnome-applets
 gnome-audio
+gnome-commander
 gnome-cups-manager
 gnome-desktop
 gnome-doc-utils
@@ -219,6 +231,7 @@ gpg2
 gpgme
 gpm
 grep
+groff
 grub
 gsf-sharp
 gstreamer010
@@ -269,6 +282,7 @@ kdelibs3-default-style
 kernel-default
 keyutils-libs
 klogd
+kpartx
 krb5
 krb5-client
 ldapcpplib
@@ -292,6 +306,7 @@ libcroco
 libcurl4
 libdaemon
 libdb-4_5
+libdjvulibre15
 libdrm
 libelf1
 libevent
@@ -301,6 +316,7 @@ libexpat1
 libext2fs2
 libfuse2
 libgadu
+libgail-gnome
 libgalago
 libgcc42
 libgcj42
@@ -310,6 +326,7 @@ libgimpprint
 libglade2
 libgmime-2_0-2
 libgnome
+libgnome-certauth0
 libgnomecanvas
 libgnomecups
 libgnomekbd
@@ -367,9 +384,11 @@ libsndfile
 libsnmp15
 libsoup
 libspeex
+libssui
 libstdc++42
 libstroke
 libtheora0
+libthinkfinger
 libtiff3
 libusb
 libuuid1
@@ -399,10 +418,13 @@ lirc
 logrotate
 lomoco
 lua-libs
+lvm2
 lzo
 mailx
+man
 master-boot-code
 mdadm
+memtest86+
 metacity
 microcode_ctl
 mingetty
@@ -417,6 +439,7 @@ mono-winforms
 mozilla-nspr
 mozilla-nss
 mozilla-xulrunner181
+mpt-firmware
 myspell-american
 nautilus
 nautilus-cd-burner
@@ -451,16 +474,21 @@ openssh
 openssh-askpass
 openssl
 openssl-certs
+opensuse-codecs-installer
 opensuse-gnomeuser_en
+opensuse-gnomeuser_en-pdf
 opensuse-manual_en
+opensuse-manual_en-pdf
 opensuse-updater-gnome
 orbit2
 orca
+p54-kmp-default
 pam
 pam-config
 pam-modules
 pam_krb5
 pam_ldap
+pam_thinkfinger
 pango
 parted
 patch
@@ -496,6 +524,7 @@ perl-Net_SSLeay
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
+perl-TermReadKey
 perl-TimeDate
 perl-URI
 perl-X500-DN
@@ -505,6 +534,7 @@ perl-XML-Writer
 perl-XML-XPath
 perl-base
 perl-gettext
+perl-libapparmor
 perl-libwww-perl
 perl-spamassassin
 permissions
@@ -538,6 +568,7 @@ python-gtk
 python-numeric
 python-orbit
 python-xml
+qlogic-firmware
 qt3
 rarian
 recode
@@ -561,6 +592,7 @@ scrollkeeper
 scsi
 sed
 sensors
+setserial
 sgml-skel
 shared-mime-info
 siga
@@ -573,6 +605,7 @@ spamassassin
 splashy
 sqlite
 startup-notification
+strace
 sudo
 sumf
 suse-build-key
@@ -584,6 +617,7 @@ sysconfig
 sysfsutils
 syslog-ng
 sysvinit
+t1lib
 taglib
 tango-icon-theme
 tar
@@ -624,6 +658,7 @@ x11-input-fujitsu
 x11-input-synaptics
 x11-input-wacom
 x11-input-wacom-tools
+x11-tools
 xalan-j2
 xaw3d
 xdg-menu
@@ -681,6 +716,7 @@ yast2-control-center
 yast2-control-center-gnome
 yast2-core
 yast2-country
+yast2-fingerprint-reader
 yast2-firewall
 yast2-gtk
 yast2-hardware-detection
