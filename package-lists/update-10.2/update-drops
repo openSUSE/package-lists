@@ -1,0 +1,57 @@
+Obsoletes:      zmd <= 7.1.100.0
+Obsoletes:      zen-updater <= 7.1.100
+Obsoletes:      sqlite-zmd <= 3.2.8
+Obsoletes:      sqlite-zmd-devel <= 3.2.8
+Obsoletes:      libzypp-zmd-backend <= 7.1.1.0_0.7
+Obsoletes:      rug <= 7.1.100.0
+Obsoletes:      yast2-powertweak <=  2.15.1
+Obsoletes:      zaptel-kmp-default <= 1.2.10_2.6.18.2_34
+Obsoletes:      wlan-kmp-xen <= 1_2.6.18.2_34
+Obsoletes:      zaptel <= 1.2.10
+Obsoletes:      wlan-kmp <= 1_2.6.18.2_34
+Obsoletes:      ipw3945d <= 1.7.18
+Obsoletes:      asterisk-zaptel <= 1.2.13
+Obsoletes:      ant-jai <= 1.6.5
+Obsoletes:      asterisk <= 1.2.13
+Obsoletes:      asterisk-alsa <= 1.2.13
+Obsoletes:      asterisk-capi <= 0.7.1
+Obsoletes:      asterisk-spandsp <= 1.2.13
+Obsoletes:      libpri <= 1.2.4
+# These gcc41 obsoletes might look strange, but the reasoning is as follows:
+# The default is to not deinstall packages which aren't on the media anymore
+# The gcc41 packages are not on the CD/DVD, hence they would not be
+# deinstalled automatically.  This is no problem, as they don't conflict with
+# the gcc42 packages, but it would lead to accumulate old gcc packages.
+# So we obsolete them from here.  But we do want to enable some users to
+# install gcc41 packages in addition (from the ftp tree, or the build service).
+# So we obsolete only old versions of the gcc41 packages, namely those which
+# were on the 10.2.
+Obsoletes:      cpp41 <= 4.1.2
+Obsoletes:      gcc41 <= 4.1.2
+Obsoletes:      gcc41-32bit <= 4.1.2
+Obsoletes:      gcc41-ada <= 4.1.2
+Obsoletes:      gcc41-c++ <= 4.1.2
+Obsoletes:      gcc41-fortran <= 4.1.2
+Obsoletes:      gcc41-fortran-32bit <= 4.1.2
+Obsoletes:      gcc41-gij <= 4.1.2
+Obsoletes:      gcc41-java <= 4.1.2
+Obsoletes:      gcc41-objc <= 4.1.2
+Obsoletes:      gcc41-objc-32bit <= 4.1.2
+Obsoletes:      gcc41-obj-c++ <= 4.1.2
+Obsoletes:      libgcj41 <= 4.1.2
+Obsoletes:      libgcj41-devel <= 4.1.2
+Obsoletes:      libstdc++41-devel <= 4.1.2
+Obsoletes:      tomcat5 <= 5.0.30
+
+# GTK 1.0 is dead - as are the C sharp bindings
+Obsoletes: art-sharp <= 1.0.10
+Obsoletes: gconf-sharp <= 1.0.10
+Obsoletes: gecko-sharp <= 0.6
+Obsoletes: glade-sharp <= 1.0.10
+Obsoletes: glib-sharp <= 1.0.10
+Obsoletes: gnome-sharp <= 1.0.10
+Obsoletes: gtk-sharp <= 1.0.10
+Obsoletes: gtk-sharp-complete <= 1.0.10
+Obsoletes: gtk-sharp-gapi <= 1.0.10
+Obsoletes: vte-sharp <= 1.0.10
+
