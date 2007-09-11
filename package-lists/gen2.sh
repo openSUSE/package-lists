@@ -37,7 +37,8 @@ for pack in `pdb query --filter status:internal` `pdb query --filter status:cand
   esac
 done
 
-for i in ${GEN_ARCH};
+mkdir -p /tmp/rw
+for i in $GEN_ARCH;
 do
   arch=$i
   echo "processing $arch..."
@@ -45,13 +46,13 @@ do
   eval VAR2="\$RO_URL_${i}"
   sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,$VAR," $file.xml.in | grep -v "!$arch" | xmllint --format - > $file.$arch.xml
 
-  mkdir -p /tmp/rw
   rm -rf /tmp/rw/*
   rm -rf /tmp/myrepos/*
+  sleep 1
 
   cp -a $VAR2/suse/setup/descr/* /tmp/rw/
-  rm -f /tmp/rw/*.pat
-  cp /home/kiwi/$base.$arch/CD1/suse/setup/descr/*.pat /tmp/rw/
+  rm -f /tmp/rw/*.pat*
+  cp -a /home/kiwi/$base.$arch/CD1/suse/setup/descr/*.pat* /tmp/rw/
   cp /home/kiwi/content.$arch.small /tmp/rw/content
   mount -o bind /tmp/rw/ $VAR2/suse/setup/descr/
 
@@ -86,4 +87,4 @@ done
 
 rm -rf /tmp/rw/*
 rm -rf /tmp/myrepos/*
-echo "done"
+echo "all done"
