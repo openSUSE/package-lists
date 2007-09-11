@@ -13,7 +13,17 @@ if test -f config.sh; then
 fi
 
 file=$1
-base=${file/-*/}
+
+
+# no ppc cds
+if (echo $file | grep "cd" > /dev/null); then
+  GEN_ARCH=${GEN_ARCH/ppc/}
+  base=$file
+else
+  # multiple dvd setups (dvd5, dvd5-2, etc.)
+  base=${file/-*/}
+fi
+
 for pack in `pdb query --filter status:internal` `pdb query --filter status:candidate` `pdb query --filter status:frozen`; do
   grep -x $pack overwrites && continue
   LOCK="$LOCK <lock package=\"$pack\"/>"
