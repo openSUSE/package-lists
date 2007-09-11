@@ -33,7 +33,7 @@ do
   echo "processing $arch..."
   eval VAR="\$GEN_URL_${i}"
   eval VAR2="\$RO_URL_${i}"
-  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,$VAR," $file.xml.in | xmllint --format - > $file.$arch.xml
+  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,$VAR," $file.xml.in | grep -v "!$arch" | xmllint --format - > $file.$arch.xml
 
   mkdir -p /tmp/rw
   rm -rf /tmp/rw/*
