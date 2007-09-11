@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
-  <setup arch="i586">
-    <source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
     <lock package="release-notes-sled"/>
     <lock package="release-notes-sledsp1"/>
