@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
-  <setup arch="i586">
-    <source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
     <!-- Tier 1 -->
     <locale name="en_US"/>
     <locale name="en_GB"/>
@@ -39,6 +39,7 @@
     <lock package="gnuchess"/>
     <lock package="atftp"/>
     <lock package="notification-daemon-xfce"/>
+    <lock package="ICAClient"/>
 <!-- INTERNALS -->
   </setup>
   <trial>

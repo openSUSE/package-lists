@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
-  <setup arch="i586">
-    <source url="dir:///space/sld/kiwi/full-i386" name="tmp"/>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
     <!-- Tier 1 -->
     <locale name="en_US"/>
     <locale name="en_GB"/>
@@ -43,13 +43,13 @@
     <install kind="package" name="gdk-pixbuf"/>
     <install kind="package" name="xerces-j2-xml-resolver"/>
     <install kind="package" name="xerces-j2-xml-apis"/>
-    <install kind="package" name="helix-banshee"/>
-    <install kind="package" name="helix-banshee-devel"/>
-    <install kind="package" name="helix-banshee-engine-gst"/>
-    <install kind="package" name="helix-banshee-engine-helix"/>
-    <install kind="package" name="helix-banshee-plugins-DAAP"/>
-    <install kind="package" name="helix-banshee-plugins-default"/>
-    <install kind="package" name="helix-banshee-plugins-extra"/>
+    <install kind="package" name="helix-banshee"/> <!-- !ppc -->
+    <install kind="package" name="helix-banshee-devel"/> <!-- !ppc -->
+    <install kind="package" name="helix-banshee-engine-gst"/> <!-- !ppc -->
+    <install kind="package" name="helix-banshee-engine-helix"/> <!-- !ppc -->
+    <install kind="package" name="helix-banshee-plugins-DAAP"/> <!-- !ppc -->
+    <install kind="package" name="helix-banshee-plugins-default"/> <!-- !ppc -->
+    <install kind="package" name="helix-banshee-plugins-extra"/> <!-- !ppc -->
     <install kind="package" name="gnuchess"/>
     <install kind="package" name="lsb"/>
     <install kind="package" name="atftp"/>
