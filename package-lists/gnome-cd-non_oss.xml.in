@@ -58,6 +58,12 @@
     <lock package="xml-commons-apis"/>
     <lock package="gnome2-NLD"/>
     <lock package="jarnal"/>
+    <!-- to get helix-banshee in -->
+    <lock package="banshee"/>
+    <lock package="banshee-engine-gst"/>
+    <lock package="banshee-plugins-default"/>
+    <lock package="banshee-plugins-extra"/>
+    <lock package="banshee-plugins-DAAP"/>
 <!-- INTERNALS -->
   </setup>
   <trial>
