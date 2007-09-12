@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
+    <locale name="en_US"/>
+    <lock package="release-notes-sled"/>
+    <lock package="release-notes-sledsp1"/>
+<!-- ignoring some lang provides -->
+    <lock package="apparmor-admin_en-pdf"/>
+    <lock package="apparmor-admin_en"/>
+<!-- ignoring some recommends -->
+    <lock package="opensuse-manual_en-pdf"/>
+    <lock package="oxygen-icon-theme-scalable"/>
+    <lock package="OpenOffice_org-base"/>
+    <lock package="OpenOffice_org-hyphen"/>
+    <lock package="OpenOffice_org-mailmerge"/>
+    <lock package="OpenOffice_org-math"/>
+    <lock package="OpenOffice_org-pyuno"/>
+    <lock package="kdegames4-carddecks-other"/>
+    <lock package="OpenOffice_org-thesaurus-en"/>
+    <lock package="OpenOffice_org-templates-presentation-layouts"/>
+    <lock package="OpenOffice_org-templates-en"/>
+    <lock package="notification-daemon-xfce"/>
+    <lock package="alsa-plugins"/>
+    <lock package="digikamimageplugins-superimpose"/>
+    <lock package="enscript"/>
+    <lock package="ft2demos"/>
+    <lock package="ispell"/>
+    <lock package="ispell-american"/>
+    <lock package="ispell-swedish"/>
+    <lock package="ispell-brazilian"/>
+    <lock package="ispell-british"/>
+    <lock package="ispell-bulgarian"/>
+    <lock package="ispell-catalan"/>
+    <lock package="ispell-czech"/>
+    <lock package="ispell-danish"/>
+    <lock package="ispell-dutch"/>
+    <lock package="ispell-estonian"/>
+    <lock package="ispell-finnish"/>
+    <lock package="ispell-french"/>
+    <lock package="ispell-german"/>
+    <lock package="ispell-greek"/>
+    <lock package="ispell-hungarian"/>
+    <lock package="ispell-italian"/>
+    <lock package="ispell-ngerman"/>
+    <lock package="ispell-norsk"/>
+    <lock package="ispell-nswiss"/>
+    <lock package="ispell-polish"/>
+    <lock package="ispell-portuguese"/>
+    <lock package="ispell-russian"/>
+    <lock package="ispell-slovak"/>
+    <lock package="ispell-slovene"/>
+    <lock package="ispell-spanish"/>
+    <lock package="ispell-esperanto"/>
+    <lock package="kdelibs3-doc"/>
+    <lock package="kdelibs4-icons-scalable"/>
+    <lock package="readline-doc"/>
+    <lock package="nfs-kernel-server"/>
+    <lock package="spamassassin"/>
+    <lock package="vim-data"/>
+    <lock package="xml-commons-apis"/>
+    <lock package="RealPlayer"/>
+    <lock package="gnome2-NLD"/>
+    <lock package="jarnal"/>
+<!-- INTERNALS -->
+  </setup>
+  <trial>
+    <install kind="pattern" name="rest_cd_kde"/>
+    <install kind="pattern" name="non_oss"/>
+    <install kind="pattern" name="non_oss_java"/>
+    <reportProblems/>
+  </trial>
+</test>
