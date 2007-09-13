@@ -1,12 +1,12 @@
 #!/bin/sh
 
 GEN_ARCH="i586 x86_64 ppc"
-GEN_URL_i586="dir:///mounts/machcd2/dists/full-i386"
-RO_URL_i586="/mounts/machcd2/dists/full-i386"
-GEN_URL_x86_64="dir:///mounts/machcd2/dists/full-x86_64"
-RO_URL_x86_64="/mounts/machcd2/dists/full-x86_64"
-GEN_URL_ppc="dir:///mounts/machcd2/dists/full-ppc"
-RO_URL_ppc="/mounts/machcd2/dists/full-ppc"
+GEN_URL_i586="dir:///home/kiwi/full-i386"
+RO_URL_i586="/home/kiwi/full-i386"
+GEN_URL_x86_64="dir:///home/kiwi/full-x86_64"
+RO_URL_x86_64="/home/kiwi/full-x86_64"
+GEN_URL_ppc="dir:///home/kiwi/full-ppc"
+RO_URL_ppc="/home/kiwi/full-ppc"
 
 if test -f config.sh; then
   . config.sh
