@@ -36,8 +36,6 @@ MozillaFirefox
 MozillaFirefox-translations
 MozillaSunbird
 MozillaSunbird-translations
-MozillaThunderbird
-MozillaThunderbird-translations
 NX
 NetworkManager
 NetworkManager-devel
@@ -141,6 +139,7 @@ aeolus
 agfa-fonts
 aide
 alacarte
+alacarte-lang
 alevt
 alien
 alsa
@@ -159,6 +158,7 @@ amarok-xine
 amarok-yauap
 amavisd-new
 anjuta
+anjuta-lang
 ant
 ant-antlr
 ant-apache-bcel
@@ -203,6 +203,7 @@ apparmor-profiles
 apparmor-utils
 aqbanking
 aqbanking-devel
+aqbanking-lang
 armagetron
 arpwatch
 arpwatch-ethercodes
@@ -417,7 +418,6 @@ cdrdao
 cdrkit-cdrtools-compat
 cecilia
 cedict
-cedilla
 chasen
 chasen-devel
 check
@@ -435,7 +435,6 @@ classpath
 classpath-devel
 classpath-jta
 classpath-webplugin
-clisp
 cloop
 cloop-kmp-default
 clucene-core
@@ -455,7 +454,9 @@ compiz
 compiz-gnome
 compiz-kde
 conglomerate
+conglomerate-lang
 contact-lookup-applet
+contact-lookup-applet-lang
 control-center2
 control-center2-devel
 convert
@@ -505,10 +506,10 @@ dante-devel
 dar
 darts
 dasher
+dasher-lang
 datakiosk
 db-utils
 db1
-db43
 dbench
 dbus-1
 dbus-1-64bit
@@ -540,6 +541,7 @@ desktop-translations
 detex
 devhelp
 devhelp-devel
+devhelp-lang
 device-mapper
 devs
 dhcdbd
@@ -551,6 +553,7 @@ dhcp-tools
 dhcp6
 dhcpcd
 dia
+dia-lang
 dialog
 diffmk
 diffstat
@@ -578,6 +581,7 @@ doxygen
 dragonegg
 drbd-kmp-default
 drgeo
+drgeo-lang
 dvb
 dvd+rw-tools
 dvi2tty
@@ -619,6 +623,8 @@ epiphany
 epiphany-devel
 epiphany-doc
 epiphany-extensions
+epiphany-extensions-lang
+epiphany-lang
 epos
 esound
 esound-devel
@@ -631,9 +637,11 @@ evolution-data-server
 evolution-data-server-devel
 evolution-devel
 evolution-exchange
+evolution-exchange-lang
 evolution-pilot
 evolution-sharp
 evolution-webcal
+evolution-webcal-lang
 exiftool
 exo
 expat
@@ -643,6 +651,7 @@ fam
 fam-devel
 fam-server
 fast-user-switch-applet
+fast-user-switch-applet-lang
 fastjar
 fbiterm
 fbset
@@ -752,8 +761,10 @@ genisoimage
 gettext
 gettext-devel
 gftp
+gftp-lang
 ggreeter
 ghex
+ghex-lang
 ghostscript-cjk
 ghostscript-fonts-other
 ghostscript-fonts-rus
@@ -803,8 +814,10 @@ gnome-applets-devel
 gnome-audio
 gnome-backgrounds
 gnome-blog
+gnome-blog-lang
 gnome-bluetooth
 gnome-bluetooth-devel
+gnome-bluetooth-lang
 gnome-certauth-devel
 gnome-commander
 gnome-common
@@ -815,6 +828,7 @@ gnome-desktop-devel
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-games
+gnome-games-lang
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-devel
@@ -830,14 +844,18 @@ gnome-menus
 gnome-menus-devel
 gnome-mount
 gnome-netstatus
+gnome-netstatus-lang
 gnome-nettool
 gnome-panel
 gnome-panel-devel
 gnome-panel-doc
 gnome-phone-manager
+gnome-phone-manager-lang
 gnome-pilot
 gnome-pilot-conduits
+gnome-pilot-conduits-lang
 gnome-pilot-devel
+gnome-pilot-lang
 gnome-power-manager
 gnome-printer-add
 gnome-python-desktop
@@ -861,22 +879,28 @@ gnome-web-photo
 gnome2-SuSE
 gnome2-user-docs
 gnomeicu
+gnomeicu-lang
 gnopernicus
 gnopernicus-devel
+gnopernicus-lang
 gnu-getopt
 gnu-jaf
 gnu-regexp
 gnu-regexp-demo
 gnucash
 gnucash-docs
+gnucash-lang
 gnuchess
 gnumeric
+gnumeric-lang
 gnuplot
 gnutls
 gnutls-devel
 gob2
 goffice
+goffice-lang
 gok
+gok-lang
 gpart
 gperf
 gpg2
@@ -893,8 +917,10 @@ grass
 grep
 grepmail
 grip
+grip-lang
 groff
 gscpm
+gscpm-lang
 gsf-sharp
 gsl
 gspcav-kmp-default
@@ -908,6 +934,7 @@ gstreamer010-plugins-good
 gstreamer010-plugins-good-doc
 gstreamer010-plugins-good-extra
 gthumb
+gthumb-lang
 gtk
 gtk-devel
 gtk-doc
@@ -923,6 +950,7 @@ gtk2-doc
 gtk2-engines
 gtk2-themes
 gtkam
+gtkam-lang
 gtkglarea
 gtkhtml-sharp2
 gtkhtml2
@@ -950,6 +978,7 @@ gwenhywfar
 gwenhywfar-devel
 gwenview
 gwget
+gwget-lang
 gxmhtml
 gzip
 hal
@@ -1019,12 +1048,14 @@ info
 info2html
 initviocons
 inkscape
+inkscape-lang
 inn
 input-utils
 insserv
 inst-source-utils
 install-initrd
 intlclock
+intlclock-lang
 intlfnts
 intlfonts-ttf
 intltool
@@ -1096,12 +1127,11 @@ jakarta-commons-modeler
 jakarta-commons-pool
 jakarta-commons-validator
 jamin
-jarnal
 java-1_4_2-cacao
 java-1_4_2-cacao-devel
 java-1_4_2-gcj-compat
 java-1_4_2-gcj-compat-devel
-java-1_5_0-ibm
+java-1_4_2-ibm
 javamail
 jdepend
 jedit
@@ -1491,6 +1521,7 @@ libbonoboui-devel
 libbonoboui-doc
 libbtctl
 libbtctl-devel
+libbtctl-lang
 libbz2-1
 libbz2-devel
 libcap
@@ -1552,6 +1583,7 @@ libgadu
 libgail-gnome
 libgail-gnome-devel
 libgalago
+libgcc41
 libgcc42
 libgcj-devel
 libgcj42
@@ -1561,6 +1593,7 @@ libgcrypt
 libgcrypt-devel
 libgda
 libgda-devel
+libgda-lang
 libgdiplus
 libgfortran42
 libghttp
@@ -1580,6 +1613,7 @@ libgnomecups
 libgnomecups-devel
 libgnomedb
 libgnomedb-devel
+libgnomedb-lang
 libgnomekbd
 libgnomekbd-devel
 libgnomeprint
@@ -1751,7 +1785,6 @@ libraw1394-devel
 libreadline5
 libreiserfs
 librpcsecgss
-librsaref2
 librsvg
 librsvg-devel
 librtas
@@ -1794,6 +1827,7 @@ libtidy
 libtiff-devel
 libtiff3
 libtomoe-gtk
+libtomoe-gtk-lang
 libtool
 libtunepimp
 libtunepimp5
@@ -1913,12 +1947,14 @@ man-pages-ru
 man-pages-zh_CN
 manufacturer-PPDs
 mc
+mc-lang
 mcpp
 mdadm
 meanwhile
 meanwhile-devel
 meanwhile-doc
 mergeant
+mergeant-lang
 metacity
 metacity-devel
 metacity-themes
@@ -2043,6 +2079,7 @@ notification-daemon-xfce
 nscd
 nspluginwrapper
 nss-mdns
+nss-mdns-64bit
 nss_ldap
 ntfs-3g
 ntfsprogs
@@ -2120,6 +2157,7 @@ pam_smb
 pam_ssh
 pam_thinkfinger
 pan
+pan-lang
 pango
 pango-devel
 pango-doc
@@ -2349,6 +2387,7 @@ perl-spamassassin
 perlref
 permissions
 pessulus
+pessulus-lang
 pfscalibration
 pfstmo
 pfstools
@@ -2423,6 +2462,7 @@ pixmap
 pkg-config
 planner
 planner-devel
+planner-lang
 plib
 plotutils
 plptools
@@ -2551,6 +2591,7 @@ rekall
 rekall-xbase
 release-notes
 resapplet
+resapplet-lang
 resmgr
 rfb
 rfbplaymacro
@@ -2587,6 +2628,7 @@ rxvt-unicode
 rzsz
 sabayon
 sabayon-admin
+sabayon-lang
 sablot
 samba
 samba-client
@@ -2631,12 +2673,7 @@ scrollkeeper
 scsi
 scsirastools
 seahorse
-seamonkey
-seamonkey-dom-inspector
-seamonkey-irc
-seamonkey-mail
-seamonkey-spellchecker
-seamonkey-venkman
+seahorse-lang
 seccheck
 sed
 semi-xemacs
@@ -2686,6 +2723,7 @@ socat
 solarwolf
 solfege
 sound-juicer
+sound-juicer-lang
 soundtouch
 sox
 spamassassin
@@ -2899,6 +2937,9 @@ wbxml2
 wdfs
 wdiff
 websh
+wesnoth
+wesnoth-data-base
+wesnoth-data-full
 wget
 whois
 wiggle
@@ -2943,6 +2984,7 @@ xbase
 xboard
 xbsql
 xchat
+xchat-lang
 xclass
 xcompmgr
 xdelta
