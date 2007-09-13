@@ -19,7 +19,6 @@ FA_clthreads
 FA_clxclient
 FreeNX
 GraphicsMagick
-ICAClient
 IPAGothic
 IPAMincho
 IPAPGothic
@@ -354,7 +353,6 @@ at-spi-doc
 at-spi-lang
 at76_usb-kmp-default
 at76_usb-kmp-xen
-atftp
 atk
 atk-32bit
 atk-devel
@@ -370,6 +368,9 @@ audit-devel
 audit-libs
 audit-libs-32bit
 audit-visualize
+aufs
+aufs-kmp-default
+aufs-kmp-xen
 aumix
 autoconf
 autofs
@@ -1124,6 +1125,7 @@ gqcam
 gramofile
 graphviz
 graphviz-devel
+graphviz-gd
 grass
 grep
 grepmail
@@ -1694,7 +1696,6 @@ kiwi-desc-oemboot
 kiwi-desc-usbboot
 kiwi-desc-vmxboot
 kiwi-desc-xenboot
-kiwi-desc-xennetboot
 kiwi-pxeboot
 klipsi
 klogd
@@ -1931,6 +1932,7 @@ libdv-devel
 libdv4
 libdvdnav
 libdvdread3
+libedit0
 libelf0
 libelf1
 liberation-fonts
@@ -2185,7 +2187,6 @@ libraw1394-devel
 libreadline5
 libreiserfs
 librpcsecgss
-librsaref2
 librsvg
 librsvg-32bit
 librsvg-devel
@@ -2570,9 +2571,8 @@ nicolatter
 nkf
 nmap
 noteedit
+notification-daemon
 notification-daemon-lang
-notification-daemon-xfce
-novell-NLDAPsdk-dyn-32bit
 novfs-kmp-default
 novfs-kmp-xen
 nscd
@@ -2613,7 +2613,6 @@ openldap2-client-32bit
 openldap2-devel
 openmotif
 openmotif-libs
-openmotif22-libs-32bit
 openobex
 openobex-devel
 openobex-glib
@@ -3239,6 +3238,7 @@ smart-gui
 smartmontools
 smolt
 smpppd
+snack
 snd_sf2
 snmp-mibs
 socat
@@ -3348,6 +3348,7 @@ texlive-metapost
 texlive-omega
 texlive-xetex
 textmaker
+tftp
 tgt
 thinkeramik
 thinkeramik-style
@@ -3477,6 +3478,9 @@ wbxml2
 wdfs
 wdiff
 websh
+wesnoth
+wesnoth-data-base
+wesnoth-data-full
 wget
 whois
 wiggle

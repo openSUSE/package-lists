@@ -355,7 +355,6 @@ at76_usb-kmp-bigsmp
 at76_usb-kmp-default
 at76_usb-kmp-xen
 at76_usb-kmp-xenpae
-atftp
 atk
 atk-devel
 atk-doc
@@ -369,6 +368,11 @@ audit
 audit-devel
 audit-libs
 audit-visualize
+aufs
+aufs-kmp-bigsmp
+aufs-kmp-default
+aufs-kmp-xen
+aufs-kmp-xenpae
 aumix
 autoconf
 autofs
@@ -1689,7 +1693,6 @@ kiwi-desc-oemboot
 kiwi-desc-usbboot
 kiwi-desc-vmxboot
 kiwi-desc-xenboot
-kiwi-desc-xennetboot
 kiwi-pxeboot
 klipsi
 klogd
@@ -1918,6 +1921,7 @@ libdv-devel
 libdv4
 libdvdnav
 libdvdread3
+libedit0
 libelf0
 libelf1
 liberation-fonts
@@ -2155,7 +2159,6 @@ libraw1394-devel
 libreadline5
 libreiserfs
 librpcsecgss
-librsaref2
 librsvg
 librsvg-devel
 libsamplerate
@@ -2533,8 +2536,8 @@ nicolatter
 nkf
 nmap
 noteedit
+notification-daemon
 notification-daemon-lang
-notification-daemon-xfce
 novfs-kmp-bigsmp
 novfs-kmp-default
 novfs-kmp-xen
@@ -2575,7 +2578,6 @@ openldap2-client
 openldap2-devel
 openmotif
 openmotif-libs
-openmotif22-libs
 openobex
 openobex-devel
 openobex-glib
@@ -3203,6 +3205,7 @@ smartlink-softmodem-kmp-default
 smartmontools
 smolt
 smpppd
+snack
 snd_sf2
 snmp-mibs
 socat
@@ -3312,6 +3315,7 @@ texlive-metapost
 texlive-omega
 texlive-xetex
 textmaker
+tftp
 tgt
 thinkeramik
 thinkeramik-style
@@ -3447,6 +3451,9 @@ wbxml2
 wdfs
 wdiff
 websh
+wesnoth
+wesnoth-data-base
+wesnoth-data-full
 wget
 whois
 wiggle

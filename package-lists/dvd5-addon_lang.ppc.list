@@ -357,6 +357,8 @@ audit-devel
 audit-libs
 audit-libs-64bit
 audit-visualize
+aufs
+aufs-kmp-default
 aumix
 autoconf
 autofs
@@ -541,7 +543,6 @@ cdrdao
 cdrkit-cdrtools-compat
 cecilia
 cedict
-cedilla
 chasen
 chasen-devel
 check
@@ -559,7 +560,6 @@ classpath
 classpath-devel
 classpath-jta
 classpath-webplugin
-clisp
 cloop
 cloop-kmp-default
 clucene-core
@@ -597,6 +597,9 @@ cracklib-64bit
 cracklib-dict-small
 createrepo
 cron
+cross-spu-binutils
+cross-spu-gcc
+cross-spu-newlib
 cryptconfig
 cryptsetup
 cscope
@@ -636,7 +639,6 @@ dasher-lang
 datakiosk
 db-utils
 db1
-db43
 dbench
 dbus-1
 dbus-1-64bit
@@ -1317,12 +1319,11 @@ jakarta-commons-modeler
 jakarta-commons-pool
 jakarta-commons-validator
 jamin
-jarnal
 java-1_4_2-cacao
 java-1_4_2-cacao-devel
 java-1_4_2-gcj-compat
 java-1_4_2-gcj-compat-devel
-java-1_5_0-ibm
+java-1_4_2-ibm
 javamail
 jdepend
 jedit
@@ -2089,7 +2090,6 @@ libraw1394-devel
 libreadline5
 libreiserfs
 librpcsecgss
-librsaref2
 librsvg
 librsvg-devel
 librtas
@@ -2113,6 +2113,7 @@ libsnmp15
 libsoprano3
 libsoup
 libsoup-devel
+libspe
 libspeex
 libssui
 libssui-lang
@@ -2453,6 +2454,7 @@ notification-daemon-lang
 nscd
 nspluginwrapper
 nss-mdns
+nss-mdns-64bit
 nss_ldap
 ntfs-3g
 ntfsprogs
@@ -3328,6 +3330,9 @@ wbxml2
 wdfs
 wdiff
 websh
+wesnoth
+wesnoth-data-base
+wesnoth-data-full
 wget
 whois
 wiggle
