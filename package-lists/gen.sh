@@ -49,7 +49,7 @@ do
   cp -av $VAR/suse $TESTTRACK/$base.$arch/CD1/
   cp -av $VAR/media.1 $TESTTRACK/$base.$arch/CD1/
   
-  pushd $TESTTRACK/CD1/suse/setup/descr/ > /dev/null
+  pushd $TESTTRACK/$base.$arch/CD1/suse/setup/descr/ > /dev/null
   for i in *; 
     do echo -n "META SHA1 "; 
     sha1sum $i | awk '{ORS=""; print $1}'; 
