@@ -45,7 +45,7 @@ do
 
   rm -rf /tmp/myrepos/*
   mkdir -p $TESTTRACK/$base.$arch/CD1/
-  cp -a $VAR/content $TESTTRACK/$base.$arch/CD1/
+  cp -a $TESTTRACK/content.$arch.small $TESTTRACK/$base.$arch/CD1/
   cp -a $VAR/suse $TESTTRACK/$base.$arch/CD1/
   cp -a $VAR/media.1 $TESTTRACK/$base.$arch/CD1/
   
