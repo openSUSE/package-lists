@@ -56,6 +56,7 @@ do
     echo -n " "; basename $i; 
   done >> $TESTTRACK/$base.$arch/CD1/content
   popd > /dev/null
+  rm $TESTTRACK/$base.$arch/CD1/content.asc
   gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/CD1/content
 
   /usr/lib/zypp/testsuite/bin/deptestomatic.multi $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list -
