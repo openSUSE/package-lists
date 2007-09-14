@@ -45,9 +45,9 @@ do
 
   rm -rf /tmp/myrepos/*
   mkdir -p $TESTTRACK/$base.$arch/CD1/
-  cp -av $VAR/content* $TESTTRACK/$base.$arch/CD1/
-  cp -av $VAR/suse $TESTTRACK/$base.$arch/CD1/
-  cp -av $VAR/media.1 $TESTTRACK/$base.$arch/CD1/
+  cp -a $VAR/content $TESTTRACK/$base.$arch/CD1/
+  cp -a $VAR/suse $TESTTRACK/$base.$arch/CD1/
+  cp -a $VAR/media.1 $TESTTRACK/$base.$arch/CD1/
   
   pushd $TESTTRACK/$base.$arch/CD1/suse/setup/descr/ > /dev/null
   for i in *; 
