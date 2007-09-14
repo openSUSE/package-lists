@@ -11,7 +11,7 @@ do
   pushd full-$i > /dev/null
 # ln -s /work/CDs/all/full-$i/suse susex
   mkdir -p .cache
-  /work/users/ro/create_package_descr -c .cache -i /work/cd/lib/put_built_to_cd/locations-stable/meta/ \
+  /work/cd/bin/tools/create_package_descr -c .cache -i /work/cd/lib/put_built_to_cd/locations-stable/meta/ \
     -i /work/cd/lib/put_built_to_cd/locations-stable/debug/ \
     -P -C -K -S -x /work/built/dists/all/$i/data/EXTRA_PROV -o suse/setup/descr/ -d susex/ -l english
   popd > /dev/null
