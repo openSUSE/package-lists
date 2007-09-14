@@ -1,0 +1,21 @@
+PRODUCT openSUSE-fulltree
+VERSION 10.3
+DISTPRODUCT openSuSE-full-i386
+DISTVERSION 10.3-0
+VENDOR SUSE LINUX Products GmbH, Nuernberg, Germany
+RELNOTESURL http://www.suse.com/relnotes/i386/openSUSE-fulltree/10.3/release-notes.rpm
+ARCH.i686 i686 i586 i486 i386 noarch
+ARCH.i586 i586 i486 i386 noarch
+ARCH.i486 i486 i386 noarch
+ARCH.i386 i386 noarch
+DEFAULTBASE i586
+REQUIRES openSUSE-release = 10.3
+PROVIDES openSUSE = 10.3
+OBSOLETES SUSE_LINUX <= 10.2 openSUSE <= 10.2
+SHORTLABEL openSUS 10.3
+LABEL openSUSE-fulltree 10.3
+LABEL.de openSUSE-fulltree 10.3
+DESCRDIR suse/setup/descr
+DATADIR suse
+FLAGS update volatile_content
+LANGUAGE de_DE
