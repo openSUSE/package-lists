@@ -5,7 +5,7 @@ BASEDIR=`pwd`
 GEN_URL_i586="$BASEDIR/testtrack/full-i386"
 GEN_URL_x86_64="$BASEDIR/testtrack/full-x86_64"
 GEN_URL_ppc="$BASEDIR/testtrack/full-ppc"
-TESTTRACK="`pwd`/testtrack/"
+TESTTRACK="`pwd`/testtrack"
 
 if test -f config.sh; then
   . config.sh
