@@ -41,7 +41,7 @@ do
   arch=$i
   echo "processing $arch..."
   eval VAR="\$GEN_URL_${i}"
-  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$VAR/CD1," $file.xml.in | grep -v "!$arch" | xmllint --format - > $file.$arch.xml
+  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | grep -v "!$arch" | xmllint --format - > $file.$arch.xml
 
   rm -rf /tmp/myrepos/*
   mkdir -p $TESTTRACK/$base.$arch/CD1/
