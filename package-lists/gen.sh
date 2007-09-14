@@ -41,19 +41,22 @@ do
   arch=$i
   echo "processing $arch..."
   eval VAR="\$GEN_URL_${i}"
-  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,$VAR," $file.xml.in | grep -v "!$arch" | xmllint --format - > $file.$arch.xml
+  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$VAR/CD1," $file.xml.in | grep -v "!$arch" | xmllint --format - > $file.$arch.xml
 
   rm -rf /tmp/myrepos/*
-  cp -av $VAR/* $TESTTRACK/$base.$arch/
+  mkdir -p $TESTTRACK/$base.$arch/CD1/
+  cp -av $VAR/content* $TESTTRACK/$base.$arch/CD1/
+  cp -av $VAR/suse $TESTTRACK/$base.$arch/CD1/
+  cp -av $VAR/media.1 $TESTTRACK/$base.$arch/CD1/
   
-  pushd $VAR/suse/setup/descr/ > /dev/null
+  pushd $VAR/CD1/suse/setup/descr/ > /dev/null
   for i in *; 
     do echo -n "META SHA1 "; 
     sha1sum $i | awk '{ORS=""; print $1}'; 
     echo -n " "; basename $i; 
-  done >> $TESTTRACK/$base.$arch/content
+  done >> $TESTTRACK/$base.$arch/CD1/content
   popd > /dev/null
-  gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/content
+  gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/CD1/content
 
   /usr/lib/zypp/testsuite/bin/deptestomatic.multi $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list -
 
