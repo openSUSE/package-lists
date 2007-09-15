@@ -43,6 +43,9 @@ alsa-utils
 ant
 ant-antlr
 ant-javamail
+antivir
+antivir-avguard
+antivir-gui
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -61,7 +64,6 @@ autofs
 autoyast2
 autoyast2-installation
 avahi
-avahi-compat-howl
 avahi-compat-mDNSResponder
 avahi-glib
 awesfx
@@ -122,6 +124,8 @@ cyrus-sasl-digestmd5
 cyrus-sasl-plain
 cyrus-sasl-saslauthd
 dante
+dazuko
+dazuko-kmp-debug
 db-utils
 dbus-1
 dbus-1-glib
@@ -243,6 +247,7 @@ gnome-web-photo
 gnome2-SuSE
 gnome2-user-docs
 gnu-jaf
+gnu-javamail
 gnutls
 gpart
 gpg2
@@ -253,6 +258,7 @@ grep
 groff
 grub
 gsf-sharp
+gst-fluendo-mp3
 gstreamer010
 gstreamer010-plugins-base
 gstreamer010-plugins-good
@@ -267,8 +273,10 @@ gtksourceview
 gtkspell
 gucharmap
 guile
+gutenprint
 gzip
 hal
+hal-palm
 hal-resmgr
 hdparm
 helix-banshee
@@ -290,7 +298,6 @@ input-utils
 insserv
 inst-source-utils
 intlclock
-intlclock-lang
 iproute2
 iptables
 iputils
@@ -318,7 +325,6 @@ java-1_5_0-sun-devel
 java-1_5_0-sun-jdbc
 java-1_5_0-sun-plugin
 java-1_5_0-sun-src
-javamail
 javamail-demo
 javamail-javadoc
 javamail-monolithic
@@ -331,6 +337,7 @@ kdegraphics3-pdf
 kdegraphics3-postscript
 kdelibs3
 kdelibs3-default-style
+kernel-debug
 kernel-default
 keyutils-libs
 klogd
@@ -744,7 +751,6 @@ xdg-menu
 xdg-utils
 xerces-j2
 xerces-j2-xml-apis
-xerces-j2-xml-resolver
 xfsprogs
 xgl
 xgl-hardware-list
@@ -752,6 +758,7 @@ xinetd
 xkeyboard-config
 xli
 xml-commons
+xml-commons-resolver
 xmlcharent
 xntp
 xorg-x11
