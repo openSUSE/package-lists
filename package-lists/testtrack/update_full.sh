@@ -1,11 +1,11 @@
 #!/bin/bash
 
-if test -z "$*"; then
+arch=$*
+if test -z "$arch"; then
   echo "usage: $0 <arch> <arch...>"
   exit
 fi
 
-arch="$*"
 for i in $arch;
 do
   pushd full-$i > /dev/null
