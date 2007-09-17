@@ -1,6 +1,7 @@
 #! /bin/sh
 
-if false; then
+diffonly=$1
+if ! test -z "$diffonly"; then
 cd testtrack/
 ./update_full.sh i386 x86_64 ppc
 ./unpack_patterns.sh
