@@ -172,6 +172,7 @@ aaa_base
 aaa_skel
 aalib
 aalib-devel
+abcde
 abiword
 acct
 acl
@@ -558,7 +559,6 @@ clanlib
 classpath
 classpath-devel
 classpath-jta
-classpath-webplugin
 cloop
 cloop-kmp-default
 clucene-core
@@ -794,6 +794,7 @@ fbset
 fcwnn
 fcwnncom
 fcwnndev
+fdupes
 festival
 fetchmail
 fftw
@@ -924,7 +925,13 @@ gimp-cmyk
 gimp-devel
 gimp-help
 gimp-lang
+git
+git-arch
 git-core
+git-cvs
+git-email
+git-svn
+gitk
 gjdoc
 gjiten
 glade
@@ -1521,6 +1528,7 @@ kdebase4-nsplugin
 kdebase4-runtime
 kdebase4-session
 kdebase4-workspace
+kdebase4-workspace-devel
 kdebindings3
 kdebindings3-javascript
 kdebindings3-perl
@@ -1931,6 +1939,7 @@ libgnomeui-lang
 libgomp42
 libgpg-error
 libgpg-error-devel
+libgpgme-devel
 libgpgme11
 libgphoto2
 libgphoto2-devel
@@ -2002,6 +2011,7 @@ liblo
 liblrdf
 libltdl-3
 libmal
+libmal-devel
 libmcal
 libmcrypt
 libmikmod
@@ -2016,6 +2026,7 @@ libmtp
 libmudflap42
 libmusicbrainz-devel
 libmusicbrainz4
+libmysqlclient-devel
 libmysqlclient15
 libmysqlclient_r15
 libnet
@@ -2070,6 +2081,8 @@ libpqxx
 libpurple
 libpurple-devel
 libpurple-lang
+libqimageblitz-devel
+libqimageblitz4
 libqt4
 libqt4-dbus-1
 libqt4-devel
@@ -2083,11 +2096,16 @@ libqt4-x11
 libqtpod
 libquicktime
 libquicktime-devel
+libraptor-devel
 libraptor1
+librasqal-devel
+librasqal0
 libraw1394
 libraw1394-8
 libraw1394-devel
 libreadline5
+libredland-devel
+libredland0
 libreiserfs
 librpcsecgss
 librsvg
@@ -2110,6 +2128,7 @@ libsmbsharemodes-devel
 libsndfile
 libsndfile-progs
 libsnmp15
+libsoprano-devel
 libsoprano3
 libsoup
 libsoup-devel
@@ -2932,6 +2951,7 @@ pyxml
 qamix
 qca
 qemacs
+qemu
 qjackconnect
 qjackctl
 qlogic-firmware
@@ -3107,6 +3127,7 @@ snmp-mibs
 socat
 solarwolf
 solfege
+soprano
 sound-juicer
 sound-juicer-lang
 soundtouch
@@ -3119,6 +3140,7 @@ sqlite
 sqlite-devel
 sqlite2
 sqlite2-devel
+squashfs
 squid
 squidGuard
 src_vipa
@@ -3282,12 +3304,6 @@ unsermake
 unzip
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upx
 usbutils
 usbview
@@ -3646,7 +3662,6 @@ yast2-trans-fi
 yast2-trans-fr
 yast2-trans-gl
 yast2-trans-gu
-yast2-trans-he
 yast2-trans-hi
 yast2-trans-hr
 yast2-trans-hu

@@ -101,7 +101,6 @@ check
 cifs-mount
 classpath
 classpath-jta
-classpath-webplugin
 clucene-core
 compat-libstdc++
 compiz
@@ -133,8 +132,10 @@ dbus-1-qt3
 dbus-1-x11
 dcraw
 dejavu
+deltarpm
 desktop-data-SuSE
 desktop-file-utils
+desktop-translations
 device-mapper
 dhcdbd
 dhcp
@@ -265,8 +266,6 @@ javamail-demo
 javamail-javadoc
 javamail-monolithic
 jfsutils
-jms
-jms-javadoc
 jpackage-utils
 jpeg
 k3b
@@ -442,6 +441,7 @@ librpcsecgss
 librsvg
 libsamplerate
 libsmbclient
+libsmbios-bin
 libsmbios-libs
 libsndfile
 libsnmp15
@@ -499,7 +499,6 @@ mono-web
 mono-winforms
 mozilla-nspr
 mozilla-nss
-mozilla-xulrunner181
 mpt-firmware
 mx4j
 myspell-american
@@ -674,6 +673,8 @@ textmaker
 tightvnc
 timezone
 tk
+tpctl
+tpctl-kmp-default
 ttf-founder-simplified
 ttf-founder-traditional
 udev

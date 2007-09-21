@@ -82,7 +82,6 @@ cdrkit-cdrtools-compat
 check
 cifs-mount
 classpath
-classpath-webplugin
 compiz
 compiz-gnome
 control-center2
@@ -111,6 +110,7 @@ dbus-1-glib
 dbus-1-x11
 dcraw
 dejavu
+deltarpm
 desktop-data-SuSE
 desktop-file-utils
 device-mapper
@@ -381,6 +381,7 @@ librsvg
 libsexy
 libsigc++2
 libsmbclient
+libsmbios-bin
 libsmbios-libs
 libsndfile
 libsnmp15
@@ -628,6 +629,8 @@ tk
 tomboy
 totem
 totem-plugin
+tpctl
+tpctl-kmp-default
 udev
 ufraw
 ufraw-gimp

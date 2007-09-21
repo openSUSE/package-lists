@@ -130,6 +130,7 @@ aaa_base
 aaa_skel
 aalib
 aalib-devel
+abcde
 abiword
 acct
 acl
@@ -458,7 +459,6 @@ clanlib
 classpath
 classpath-devel
 classpath-jta
-classpath-webplugin
 clisp
 cloop
 cloop-kmp-bigsmp
@@ -498,6 +498,9 @@ cracklib
 cracklib-dict-small
 createrepo
 cron
+cross-spu-binutils
+cross-spu-gcc
+cross-spu-newlib
 cryptconfig
 cryptsetup
 cscope
@@ -692,6 +695,7 @@ fbset
 fcwnn
 fcwnncom
 fcwnndev
+fdupes
 festival
 fetchmail
 fftw
@@ -814,7 +818,13 @@ gimp
 gimp-cmyk
 gimp-devel
 gimp-help
+git
+git-arch
 git-core
+git-cvs
+git-email
+git-svn
+gitk
 gjdoc
 gjiten
 glade
@@ -1199,7 +1209,6 @@ jedit
 jfbterm
 jfsutils
 jhead
-jms
 joe
 joy2key
 jpackage-utils
@@ -1322,6 +1331,7 @@ kdebase4-nsplugin
 kdebase4-runtime
 kdebase4-session
 kdebase4-workspace
+kdebase4-workspace-devel
 kdebindings3
 kdebindings3-javascript
 kdebindings3-perl
@@ -1487,6 +1497,8 @@ kpartx
 kpl
 kpowersave
 kpsion
+kqemu-kmp-bigsmp
+kqemu-kmp-default
 kradio
 krb5
 krb5-apps-clients
@@ -1700,6 +1712,7 @@ libgnomeui-doc
 libgomp42
 libgpg-error
 libgpg-error-devel
+libgpgme-devel
 libgpgme11
 libgphoto2
 libgphoto2-devel
@@ -1768,6 +1781,7 @@ liblo
 liblrdf
 libltdl-3
 libmal
+libmal-devel
 libmcal
 libmcrypt
 libmikmod
@@ -1782,6 +1796,7 @@ libmtp
 libmudflap42
 libmusicbrainz-devel
 libmusicbrainz4
+libmysqlclient-devel
 libmysqlclient15
 libmysqlclient_r15
 libnet
@@ -1836,6 +1851,8 @@ libpng-devel
 libpqxx
 libpurple
 libpurple-devel
+libqimageblitz-devel
+libqimageblitz4
 libqt4
 libqt4-dbus-1
 libqt4-devel
@@ -1849,11 +1866,16 @@ libqt4-x11
 libqtpod
 libquicktime
 libquicktime-devel
+libraptor-devel
 libraptor1
+librasqal-devel
+librasqal0
 libraw1394
 libraw1394-8
 libraw1394-devel
 libreadline5
+libredland-devel
+libredland0
 libreiserfs
 librpcsecgss
 librsvg
@@ -1870,12 +1892,14 @@ libsigc++2
 libsigc++2-devel
 libsmbclient
 libsmbclient-devel
+libsmbios-bin
 libsmbios-libs
 libsmbsharemodes
 libsmbsharemodes-devel
 libsndfile
 libsndfile-progs
 libsnmp15
+libsoprano-devel
 libsoprano3
 libsoup
 libsoup-devel
@@ -2827,6 +2851,7 @@ snmp-mibs
 socat
 solarwolf
 solfege
+soprano
 sound-juicer
 sound-juicer-lang
 soundtouch
@@ -2840,6 +2865,7 @@ sqlite
 sqlite-devel
 sqlite2
 sqlite2-devel
+squashfs
 squid
 squidGuard
 src_vipa
@@ -3006,12 +3032,6 @@ unsermake
 unzip
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upx
 usbutils
 usbview
@@ -3389,7 +3409,6 @@ yast2-trans-fi
 yast2-trans-fr
 yast2-trans-gl
 yast2-trans-gu
-yast2-trans-he
 yast2-trans-hi
 yast2-trans-hr
 yast2-trans-hu

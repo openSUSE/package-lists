@@ -82,7 +82,6 @@ cdrkit-cdrtools-compat
 check
 cifs-mount
 classpath
-classpath-webplugin
 clucene-core
 compiz
 compiz-kde
@@ -111,6 +110,7 @@ dbus-1-qt3
 dbus-1-x11
 dcraw
 dejavu
+deltarpm
 desktop-data-SuSE
 desktop-file-utils
 device-mapper
@@ -393,6 +393,7 @@ librpcsecgss
 librsvg
 libsamplerate
 libsmbclient
+libsmbios-bin
 libsmbios-libs
 libsndfile
 libsnmp15
@@ -448,7 +449,6 @@ mono-web
 mono-winforms
 mozilla-nspr
 mozilla-nss
-mozilla-xulrunner181
 mpt-firmware
 myspell-american
 ncurses
@@ -604,6 +604,8 @@ tar
 tcpd
 tightvnc
 timezone
+tpctl
+tpctl-kmp-default
 udev
 ufraw
 ufraw-gimp

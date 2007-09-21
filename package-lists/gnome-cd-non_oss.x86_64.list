@@ -101,7 +101,6 @@ check
 cifs-mount
 classpath
 classpath-jta
-classpath-webplugin
 compat-libstdc++
 compiz
 compiz-gnome
@@ -136,8 +135,10 @@ dbus-1-glib-32bit
 dbus-1-x11
 dcraw
 dejavu
+deltarpm
 desktop-data-SuSE
 desktop-file-utils
+desktop-translations
 device-mapper
 dhcdbd
 dhcp
@@ -341,7 +342,6 @@ javamail-javadoc
 javamail-monolithic
 jfsutils
 jms
-jms-javadoc
 jpackage-utils
 kbd
 kdelibs3-default-style
@@ -468,6 +468,7 @@ libsexy
 libsigc++2
 libsmbclient
 libsmbclient-32bit
+libsmbios-bin
 libsmbios-libs
 libsndfile
 libsnmp15

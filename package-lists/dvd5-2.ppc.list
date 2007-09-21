@@ -110,17 +110,21 @@ dbus-1-glib
 dbus-1-qt3
 dejavu
 desktop-file-utils
+desktop-translations
 dhcdbd
 dhcp
 dhcp-client
 dialog
 diffutils
+e2fsprogs
 ed
 edict
 eel
+eel-lang
 enscript
 esound
 evolution-data-server
+evolution-data-server-lang
 fam
 fbiterm
 fftw
@@ -155,10 +159,12 @@ glibc-i18ndata
 glitz
 gnome-audio
 gnome-desktop
+gnome-desktop-lang
 gnome-icon-theme
 gnome-keyring
 gnome-main-menu
 gnome-menus
+gnome-menus-lang
 gnome-panel
 gnome-themes
 gnome-vfs2
@@ -174,8 +180,10 @@ gstreamer010-plugins-base
 gtk
 gtk2
 gtk2-engines
+gtk2-engines-lang
 gtkiterm
 gucharmap
+gucharmap-lang
 gzip
 hal
 handedict
@@ -237,6 +245,7 @@ libart_lgpl
 libasound2
 libattr
 libbeagle
+libblkid1
 libbonobo
 libbonoboui
 libbz2-1
@@ -251,6 +260,7 @@ libdrm
 liberation-fonts
 libexif
 libexpat1
+libext2fs2
 libgcc41
 libgcrypt
 libgimpprint
@@ -260,6 +270,7 @@ libgnome-certauth0
 libgnomecanvas
 libgnomecups
 libgnomekbd
+libgnomekbd-lang
 libgnomeprint
 libgnomeprintui
 libgnomesu
@@ -306,6 +317,7 @@ libvolume_id
 libvorbis
 libwnck
 libwnck-1-22
+libwnck-lang
 libxcrypt
 libxcrypt-64bit
 libxfce4mcs
@@ -347,6 +359,7 @@ module-init-tools
 mozilla-nspr
 mozilla-nss
 nautilus
+nautilus-lang
 ncurses
 net-tools
 netcfg
@@ -470,6 +483,7 @@ xorg-x11-libICE
 xorg-x11-libSM
 xorg-x11-libX11
 xorg-x11-libXau
+xorg-x11-libXdmcp
 xorg-x11-libXext
 xorg-x11-libXfixes
 xorg-x11-libXmu
