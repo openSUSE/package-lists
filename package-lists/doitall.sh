@@ -1,10 +1,10 @@
 #! /bin/sh
 
 diffonly=$1
-if ! test -z "$diffonly"; then
+if test -z "$diffonly" || test -d "$diffonly"; then
 cd testtrack/
 ./update_full.sh i386 x86_64 ppc
-./unpack_patterns.sh
+./unpack_patterns.sh $diffonly
 cd ..
 cd autobuild-lists/
 ./update_lists.sh
