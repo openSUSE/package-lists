@@ -23,6 +23,11 @@ else
   base=${file/-*/}
 fi
 
+if (echo $file | grep "promo" > /dev/null); then
+  GEN_ARCH="i586"
+  base=${file/-*/}
+fi
+
 for pack in `pdb query --filter status:internal` `pdb query --filter status:candidate` `pdb query --filter status:frozen`; do
   grep -x $pack overwrites && continue
   LOCK="$LOCK <lock package=\"$pack\"/>"
