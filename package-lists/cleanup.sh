@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rm -f *.error *.output *~
+rm -f *.error *.output *.xml *~
