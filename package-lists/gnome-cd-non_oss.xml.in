@@ -3,8 +3,6 @@
   <setup arch="GEN_ARCH">
     <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
-    <lock package="release-notes-sled"/>
-    <lock package="release-notes-sledsp1"/>
 <!-- ignoring some lang provides -->
     <lock package="apparmor-admin_en-pdf"/>
     <lock package="apparmor-admin_en"/>
@@ -56,7 +54,6 @@
     <lock package="nfs-kernel-server"/>
     <lock package="vim-data"/>
     <lock package="xml-commons-apis"/>
-    <lock package="gnome2-NLD"/>
     <lock package="jarnal"/>
     <!-- to get helix-banshee in -->
     <lock package="banshee"/>
