@@ -17,7 +17,7 @@
     <locale name="zh_CN"/>
     <!-- Tier 2 -->
     <locale name="ru"/>
-    <locale name="cs"/>   
+    <locale name="cs"/>
     <locale name="hu"/>
     <locale name="pl"/>
     <locale name="fi"/>
@@ -25,10 +25,10 @@
     <locale name="nb"/>
     <locale name="sv"/>
     <locale name="nl"/>
-<!-- ignoring some lang provides -->
+    <!-- ignoring some lang provides -->
     <lock package="apparmor-admin_en-pdf"/>
     <lock package="apparmor-admin_en"/>
-<!-- ignoring some recommends -->
+    <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
     <lock package="oxygen-icon-theme-scalable"/>
     <lock package="notification-daemon-xfce"/>
@@ -37,7 +37,8 @@
     <lock package="xml-commons-apis"/>
     <lock package="jarnal"/>
     <lock package="libgcc41-32bit"/>
-<!-- INTERNALS -->
+    <lock package="cracklib-dict-small"/>
+    <!-- INTERNALS -->
   </setup>
   <trial>
     <install kind="pattern" name="rest_cd_kde"/>
@@ -49,6 +50,16 @@
     <install kind="pattern" name="multimedia"/>
     <install kind="pattern" name="office"/>
     <install kind="pattern" name="lamp_server"/>
+    <install kind="package" name="cracklib-dict-full"/>
+    <install kind="package" name="acx-kmp-default"/>
+    <install kind="package" name="adm8211-kmp-default"/>
+    <install kind="package" name="at76_usb-kmp-default"/>
+    <install kind="package" name="gspcav-kmp-default"/>
+    <install kind="package" name="ivtv-kmp-default"/>
+    <install kind="package" name="lirc-kmp-default"/>
+    <install kind="package" name="omnibook-kmp-default"/>
+    <install kind="package" name="rfswitch-kmp-default"/>
+    <install kind="package" name="uvcvideo-kmp-default"/>
     <reportProblems/>
   </trial>
 </test>
