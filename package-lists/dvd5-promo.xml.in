@@ -15,26 +15,28 @@
     <locale name="zh"/>
     <locale name="zh_TW"/>
     <locale name="zh_CN"/>
+    <!-- Tier 2 -->
+    <locale name="ru"/>
+    <locale name="cs"/>   
+    <locale name="hu"/>
+    <locale name="pl"/>
+    <locale name="fi"/>
+    <locale name="da"/>
+    <locale name="nb"/>
+    <locale name="sv"/>
+    <locale name="nl"/>
 <!-- ignoring some lang provides -->
     <lock package="apparmor-admin_en-pdf"/>
     <lock package="apparmor-admin_en"/>
 <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
     <lock package="oxygen-icon-theme-scalable"/>
-    <lock package="kdegames4-carddecks-other"/>
     <lock package="notification-daemon-xfce"/>
     <lock package="alsa-plugins"/>
-    <lock package="digikamimageplugins-superimpose"/>
-    <lock package="enscript"/>
-    <lock package="kdelibs3-doc"/>
-    <lock package="kdelibs4-icons-scalable"/>
-    <lock package="readline-doc"/>
     <lock package="nfs-kernel-server"/>
     <lock package="xml-commons-apis"/>
     <lock package="jarnal"/>
     <lock package="libgcc41-32bit"/>
-    <lock package="kernel-bigsmp"/>
-    <lock package="desktop-translations"/>
 <!-- INTERNALS -->
   </setup>
   <trial>
@@ -42,6 +44,11 @@
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="pattern" name="non_oss"/>
     <install kind="pattern" name="non_oss_java"/>
+    <install kind="pattern" name="devel_kernel"/>
+    <install kind="pattern" name="games"/>
+    <install kind="pattern" name="multimedia"/>
+    <install kind="pattern" name="office"/>
+    <install kind="pattern" name="lamp_server"/>
     <reportProblems/>
   </trial>
 </test>
