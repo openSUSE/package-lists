@@ -35,6 +35,9 @@
     <lock package="novell-NLDAPsdk-dyn"/>
     <lock package="java-1_5_0-ibm"/>
     <lock package="libgcc41-32bit"/>
+    <lock package="myspell-german"/>
+    <lock package="sled-release"/>
+    <lock package="yast2-boot-server"/>
 <!-- INTERNALS -->
   </setup>
   <trial>
@@ -59,6 +62,6 @@
     <install kind="package" name="lprng"/>
     <install kind="package" name="gnu-javamail"/>
     <install kind="package" name="antivir"/>
+    <install kind="package" name="myspell-german-old"/>
   </trial>
 </test>
-
