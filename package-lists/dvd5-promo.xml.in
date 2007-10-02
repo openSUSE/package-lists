@@ -63,11 +63,19 @@
     <install kind="pattern" name="devel_ruby"/>
     <install kind="pattern" name="devel_web"/>
     <install kind="pattern" name="devel_yast"/>
-
     <install kind="pattern" name="devel_gnome"/>
     <install kind="pattern" name="devel_kde"/>
-
+    <install kind="pattern" name="devel_rpm_build"/>
+    <install kind="pattern" name="network_admin"/>
+    <install kind="pattern" name="xen_server"/>
+    <install kind="pattern" name="dhcp_dns_server"/>
+    <install kind="pattern" name="mail_server"/>
+    <install kind="pattern" name="directory_server"/>
+    <install kind="pattern" name="voip"/>
     <install kind="pattern" name="xml"/>
+    <install kind="pattern" name="devel_tcl"/>
+    <install kind="pattern" name="devel_ide"/>
+    <install kind="pattern" name="devel_perl"/>
     <install kind="package" name="cracklib-dict-full"/>
     <install kind="package" name="acx-kmp-default"/>
     <install kind="package" name="adm8211-kmp-default"/>

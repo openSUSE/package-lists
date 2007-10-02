@@ -113,6 +113,9 @@ amarok
 amarok-libvisual
 amarok-xine
 amarok-yauap
+amavisd-new
+anjuta
+anjuta-lang
 anthy
 apache2
 apache2-devel
@@ -131,6 +134,8 @@ apparmor-profiles
 apparmor-utils
 aqbanking
 aqbanking-lang
+arpwatch
+arpwatch-ethercodes
 art-sharp2
 arts
 arts-devel
@@ -175,6 +180,7 @@ avahi-compat-mDNSResponder-devel
 avahi-devel
 avahi-glib
 avahi-mono
+avmailgate
 awesfx
 banshee
 banshee-devel
@@ -194,6 +200,7 @@ beagle-index
 bin86
 bind
 bind-chrootenv
+bind-doc
 bind-libs
 bind-utils
 binutils
@@ -214,6 +221,7 @@ bootcycle
 bootsplash
 bootsplash-theme-SuSE
 brasero
+bridge-utils
 bug-buddy
 bundle-lang-common-cs
 bundle-lang-common-da
@@ -266,6 +274,7 @@ bundle-lang-kde-pt
 bundle-lang-kde-ru
 bundle-lang-kde-sv
 bundle-lang-kde-zh
+bwidget
 bytefx-data-mysql
 bzip2
 cabextract
@@ -287,6 +296,7 @@ check
 check-devel
 chromium
 cifs-mount
+clamav
 classpath
 clucene-core
 cm-unicode
@@ -319,6 +329,7 @@ cups-libs
 curl
 curl-ca-bundle
 cvs
+cyrus-imapd
 cyrus-sasl
 cyrus-sasl-crammd5
 cyrus-sasl-devel
@@ -356,6 +367,10 @@ device-mapper
 dhcdbd
 dhcp
 dhcp-client
+dhcp-relay
+dhcp-server
+dhcp-tools
+dhcp6
 dhcpcd
 dia
 dia-lang
@@ -384,6 +399,7 @@ eel
 eel-devel
 efont-unicode
 eject
+ekiga
 emacs
 emacs-auctex
 emacs-info
@@ -450,6 +466,7 @@ freetype
 freetype2
 freetype2-devel
 fribidi
+frink
 frozen-bubble
 ft2demos
 ftgl
@@ -600,6 +617,8 @@ gpg2
 gpgme
 gphoto
 gpm
+graphviz
+graphviz-gd
 grass
 grep
 groff
@@ -667,6 +686,7 @@ ifnteuro
 ifntjapa
 ifntjapb
 ifplugd
+iftop
 ikvm
 imlib
 imlib2
@@ -677,6 +697,7 @@ info2html
 initviocons
 inkscape
 inkscape-lang
+inn
 input-utils
 insserv
 inst-source-utils
@@ -712,8 +733,10 @@ ispell-portuguese
 ispell-russian
 ispell-spanish
 ispell-swedish
+itcl
 ivman
 ivtv-kmp-default
+iwidgets
 iwl3945-ucode
 iwl4965-ucode
 iwlwifi-kmp-default
@@ -731,6 +754,7 @@ kaffeine
 kasumi
 kbd
 kcm_gtk
+kdbg
 kde3-i18n-cs
 kde3-i18n-da
 kde3-i18n-de
@@ -778,6 +802,7 @@ kde4-l10n-ru
 kde4-l10n-sv
 kde4-l10n-zh_CN
 kde4-l10n-zh_TW
+kdeaddons3-kate
 kdeaddons3-kicker
 kdeaddons3-konqueror
 kdeartwork3-kscreensaver
@@ -785,12 +810,15 @@ kdeartwork3-xscreensaver
 kdebase3
 kdebase3-SuSE
 kdebase3-beagle
+kdebase3-devel
 kdebase3-kdm
 kdebase3-ksysguardd
 kdebase3-nsplugin
 kdebase3-samba
 kdebase3-session
 kdebase4-runtime
+kdebindings3
+kdebindings3-ruby
 kdebluetooth
 kdegames4
 kdegames4-carddecks-default
@@ -804,6 +832,7 @@ kdelibs3
 kdelibs3-arts
 kdelibs3-default-style
 kdelibs3-devel
+kdelibs3-devel-doc
 kdelibs3-doc
 kdelibs4
 kdelibs4-core
@@ -823,6 +852,7 @@ kdesdk3-profile
 kdesdk3-translate
 kdetv
 kdeutils3
+kdevelop3
 kernel-default
 kernel-source
 kerry
@@ -889,6 +919,7 @@ lbreakout
 ldapcpplib
 less
 lessons4lizards_en
+lha
 libEMF
 libFLAC++6
 libFLAC8
@@ -947,6 +978,7 @@ libdaemon
 libdb-4_5
 libdb-4_5-devel
 libdjvulibre15
+libdnet
 libdrm
 libdrm-devel
 libdv4
@@ -1155,6 +1187,8 @@ libusb
 libusb-devel
 libuuid-devel
 libuuid1
+libvirt
+libvirt-python
 libvisual
 libvisual-devel
 libvisual-plugins
@@ -1190,6 +1224,8 @@ licenses
 liferea
 lilo
 limal
+limal-ca-mgm
+limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -1211,6 +1247,7 @@ lzo-devel
 m17n-db
 m17n-lib
 m4
+mailman
 mailx
 make
 man
@@ -1271,6 +1308,8 @@ mozilla-xulrunner181-devel
 mpt-firmware
 mpt-status
 mtools
+mtr
+multipath-tools
 multisync-gui
 myspell-american
 myspell-brazilian
@@ -1290,6 +1329,7 @@ myspell-spanish
 myspell-swedish
 mysql
 mysql-client
+nagios
 nant
 nautilus
 nautilus-cd-burner
@@ -1313,6 +1353,7 @@ nfs-client
 nfs-kernel-server
 nfsidmap
 nkf
+nmap
 notification-daemon
 novell-ipsec-tools
 nscd
@@ -1325,10 +1366,12 @@ numlockx
 obexftp
 ocrad
 omnibook-kmp-default
+opal
 openSUSE-release
 openal
 openct
 openjade
+openldap2
 openldap2-client
 openldap2-devel
 openmotif-libs
@@ -1377,14 +1420,24 @@ pcre-devel
 pcsc-lite
 perl
 perl-Archive-Tar
+perl-Archive-Zip
+perl-BerkeleyDB
+perl-Bit-Vector
 perl-Bootloader
+perl-Carp-Clan
 perl-Compress-Raw-Zlib
 perl-Compress-Zlib
 perl-Config-Crontab
+perl-Config-IniFiles
+perl-Convert-TNEF
+perl-Convert-UUlib
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
+perl-Cyrus-IMAP
+perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
+perl-Date-Calc
 perl-DateManip
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -1396,11 +1449,16 @@ perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-IO-Compress-Base
 perl-IO-Compress-Zlib
+perl-IO-Multiplex
 perl-IO-Socket-SSL
 perl-IO-Zlib
+perl-IO-stringy
+perl-MIME-tools
+perl-MailTools
 perl-Net-DNS
 perl-Net-Daemon
 perl-Net-IP
+perl-Net-Server
 perl-Net_SSLeay
 perl-Parse-RecDescent
 perl-PlRPC
@@ -1411,6 +1469,7 @@ perl-Tie-IxHash
 perl-TimeDate
 perl-Tk
 perl-URI
+perl-Unix-Syslog
 perl-X500-DN
 perl-XML-Bare
 perl-XML-LibXML
@@ -1425,6 +1484,7 @@ perl-gettext
 perl-libapparmor
 perl-libwww-perl
 perl-spamassassin
+perlref
 permissions
 pessulus
 pessulus-lang
@@ -1480,20 +1540,24 @@ pstoedit
 psutils
 pth
 pwdutils
+pwlib
 pychecker
 python
 python-cairo
+python-curses
 python-gnome
 python-gnome-extras
 python-gobject2
 python-gtk
 python-imaging
+python-kde3
 python-ldap
 python-numeric
 python-orbit
 python-qt
 python-sip
 python-tk
+python-urlgrabber
 python-xml
 pyxml
 qca
@@ -1596,6 +1660,7 @@ slib
 smartlink-softmodem
 smartmontools
 smpppd
+snack
 snmp-mibs
 soprano
 sox
@@ -1606,6 +1671,7 @@ sqlite-devel
 sqlite2
 squid
 squidGuard
+star
 startup-notification
 startup-notification-devel
 strace
@@ -1638,9 +1704,14 @@ taglib
 tango-icon-theme
 tar
 tcl
+tcl-devel
+tcllib
+tcludp
+tclx
 tcpd
 tcpdump
 tcsh
+tdom
 telnet
 terminfo
 terminus-font
@@ -1657,6 +1728,11 @@ tightvnc
 timezone
 tix
 tk
+tk-devel
+tkcon
+tkimg
+tktable
+tls
 tomboy
 tomoe
 totem
@@ -1679,6 +1755,8 @@ ufraw-gimp
 uim
 uim-qt
 ulimit
+unace
+unarj
 unclutter
 unixODBC
 unrar
@@ -1698,8 +1776,10 @@ vim
 vim-base
 vim-data
 vino
+virt-manager
 vlan
 vlna
+vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -1708,6 +1788,7 @@ vte-devel
 w3m
 wdiff
 wget
+whois
 wireless-tools
 wireshark
 wlan-ng-kmp-default
@@ -1733,6 +1814,12 @@ xaw3d
 xdg-menu
 xdg-utils
 xdmbgrd
+xen
+xen-doc-html
+xen-doc-pdf
+xen-libs
+xen-tools
+xen-tools-ioemu
 xerces-j2
 xerces-j2-xml-apis
 xfce-mcs-manager
@@ -1827,6 +1914,7 @@ yast2-apparmor
 yast2-backup
 yast2-bluetooth
 yast2-bootloader
+yast2-ca-management
 yast2-control-center
 yast2-control-center-gnome
 yast2-control-center-qt
@@ -1835,6 +1923,7 @@ yast2-core-devel
 yast2-country
 yast2-devel-doc
 yast2-devtools
+yast2-dhcp-server
 yast2-dns-server
 yast2-fingerprint-reader
 yast2-firewall
@@ -1852,6 +1941,7 @@ yast2-iscsi-server
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
+yast2-ldap-server
 yast2-mail
 yast2-metapackage-handler
 yast2-mouse
@@ -1924,6 +2014,7 @@ yast2-tune
 yast2-tv
 yast2-update
 yast2-users
+yast2-vm
 yast2-x11
 yast2-xml
 yauap
@@ -1935,6 +2026,7 @@ zip
 zisofs-tools
 zlib
 zlib-devel
+zoo
 zsh
 zvbi
 zypper
