@@ -33,7 +33,6 @@
     <lock package="oxygen-icon-theme-scalable"/>
     <lock package="notification-daemon-xfce"/>
     <lock package="alsa-plugins"/>
-    <lock package="nfs-kernel-server"/>
     <lock package="xml-commons-apis"/>
     <lock package="jarnal"/>
     <lock package="libgcc41-32bit"/>
@@ -45,11 +44,30 @@
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="pattern" name="non_oss"/>
     <install kind="pattern" name="non_oss_java"/>
+    <install kind="pattern" name="xfce"/>
+    <install kind="pattern" name="console"/>
     <install kind="pattern" name="devel_kernel"/>
     <install kind="pattern" name="games"/>
     <install kind="pattern" name="multimedia"/>
     <install kind="pattern" name="office"/>
+    <install kind="pattern" name="remote_desktop"/>
     <install kind="pattern" name="lamp_server"/>
+    <install kind="pattern" name="print_server"/>
+    <install kind="pattern" name="file_server"/>
+    <install kind="pattern" name="misc_server"/>
+    <install kind="pattern" name="gateway_server"/>
+    <install kind="pattern" name="devel_C_C++"/>
+    <install kind="pattern" name="devel_mono"/>
+    <install kind="pattern" name="devel_python"/>
+    <install kind="pattern" name="devel_rails"/>
+    <install kind="pattern" name="devel_ruby"/>
+    <install kind="pattern" name="devel_web"/>
+    <install kind="pattern" name="devel_yast"/>
+
+    <install kind="pattern" name="devel_gnome"/>
+    <install kind="pattern" name="devel_kde"/>
+
+    <install kind="pattern" name="xml"/>
     <install kind="package" name="cracklib-dict-full"/>
     <install kind="package" name="acx-kmp-default"/>
     <install kind="package" name="adm8211-kmp-default"/>
@@ -66,8 +84,8 @@
     <install kind="package" name="hylafax-client"/>
     <install kind="package" name="capi4hylafax"/>
     <install kind="package" name="hylafax"/>
-    <install kind="package" name="cups-drivers-stp"/>
-    <install kind="package" name="nfs-utils"/>
+    <install kind="package" name="cups-drivers"/>
+    <install kind="package" name="nfs-client"/>
     <install kind="package" name="xournal"/>
     <reportProblems/>
   </trial>
