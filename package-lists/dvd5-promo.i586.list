@@ -100,8 +100,10 @@ aalib-devel
 acl
 acpid
 acx-kmp-default
+acx-kmp-xen
 adaptec-firmware
 adm8211-kmp-default
+adm8211-kmp-xen
 agfa-fonts
 alacarte
 alacarte-lang
@@ -161,6 +163,7 @@ at
 at-spi
 at-spi-devel
 at76_usb-kmp-default
+at76_usb-kmp-xen
 atk
 atk-devel
 atmel-firmware
@@ -625,6 +628,7 @@ groff
 grub
 gsf-sharp
 gspcav-kmp-default
+gspcav-kmp-xen
 gst-fluendo-mp3
 gstreamer010
 gstreamer010-devel
@@ -701,6 +705,7 @@ inn
 input-utils
 insserv
 inst-source-utils
+install-initrd
 intlclock
 intlfnts
 intltool
@@ -709,6 +714,7 @@ iptables
 iputils
 ipw-firmware
 ipw3945-kmp-default
+ipw3945-kmp-xen
 ipw3945d
 irda
 irqbalance
@@ -736,10 +742,12 @@ ispell-swedish
 itcl
 ivman
 ivtv-kmp-default
+ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
 iwl4965-ucode
 iwlwifi-kmp-default
+iwlwifi-kmp-xen
 jack-devel
 java-1_4_2-gcj-compat
 java-1_5_0-sun
@@ -855,6 +863,7 @@ kdeutils3
 kdevelop3
 kernel-default
 kernel-source
+kernel-xen
 kerry
 keyutils-devel
 keyutils-libs
@@ -1233,6 +1242,7 @@ linux-atm-lib
 linux-kernel-headers
 lirc
 lirc-kmp-default
+lirc-kmp-xen
 logrotate
 lomoco
 lsb
@@ -1343,6 +1353,7 @@ ncurses
 ncurses-devel
 ndiswrapper
 ndiswrapper-kmp-default
+ndiswrapper-kmp-xen
 neon
 neon-devel
 net-tools
@@ -1366,6 +1377,7 @@ numlockx
 obexftp
 ocrad
 omnibook-kmp-default
+omnibook-kmp-xen
 opal
 openSUSE-release
 openal
@@ -1398,6 +1410,7 @@ orbit2-devel
 orca
 oxygen-icon-theme
 p54-kmp-default
+p54-kmp-xen
 pam
 pam-config
 pam-devel
@@ -1581,10 +1594,12 @@ reiserfs
 release-notes
 resmgr
 rfswitch-kmp-default
+rfswitch-kmp-xen
 rpm
 rrdtool
 rsync
 rt2x00-kmp-default
+rt2x00-kmp-xen
 ruby
 ruby-devel
 rubygem-actionmailer
@@ -1768,6 +1783,7 @@ usbutils
 utempter
 util-linux
 uvcvideo-kmp-default
+uvcvideo-kmp-xen
 v4l-conf
 vacation
 valgrind
@@ -1792,6 +1808,7 @@ whois
 wireless-tools
 wireshark
 wlan-ng-kmp-default
+wlan-ng-kmp-xen
 wodim
 wol
 words
