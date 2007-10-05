@@ -1,0 +1,297 @@
+List of extra packages installed by various YaST modules
+
+*** Changes here should be mailed to autobuild@suse.de ASAP ***
+
+yast2-installation:
+
+  - On architecture 'axp'
+    milo
+    aboot
+    cpml_ev5
+    cpml_ev6
+
+  - On architecture 'ppc'
+    ibmsis
+    scsi
+    mouseemu
+    pbbuttonsd
+    powerprefs
+    mol
+    sudo
+    powerpc-utils
+
+  - On architecture 'ia64'
+    fpswa
+
+  - On architecture 'x86-64'
+    numactl
+
+  - VNC installation
+    tightvnc
+    xorg-x11-Xvnc
+    xorg-x11
+    xorg-x11-Mesa
+    yast2-qt
+
+  - Braille installation
+    sbl
+    yast2-ncurses
+
+  - VGA16 display (no framebuffer)
+    yast2-qt
+    xorg-x11-server
+
+  - Framebuffer display
+    yast2-qt
+    xorg-x11-server
+
+  - Textmode (ncurses)
+    yast2-ncurses
+
+yast2-bluetooth
+    bluez-utils
+
+yast2-printer: (Default: Install by default, YaST: Will be installed by yast2-printer)
+  - for CUPS
+    cups-libs          (Default)
+    cups-client        (YaST, Default)
+    cups               (YaST, Default)
+    foomatic-filters   (YaST, Default)
+    filters            (YaST, Default)
+    cups-drivers       (YaST, Default)
+    cups-drivers-stp   (YaST, Default)
+    manufacturer-PPDs  (YaST, Default)
+    hp-officeJet       (YaST, Default)
+    hplib	       (YaST, Default)
+
+  - for the "reinstall spooler feature" it installs
+    ghostscript-library
+    ghostscript-x11
+    ghostscript-fonts-std
+    ghostscript-fonts-other
+    a2ps
+    cups-libs
+
+  - for both
+    samba-client	(printing via samba)
+    ncpfs		(printing via novell ipx)
+
+yast2-bootloader:
+  - grub
+    lilo
+    elilo
+    ... (all must be included for particular architecture, just checks for being sure)
+
+yast2-power-management:
+    powersave
+
+yast2-ntp-client:
+    xntp
+    (additionally xntp-doc is mentioned in helps)
+
+yast2-dns-server:
+    bind
+
+yast2-dhcp-server:
+    dhcp-server
+
+autoyast2:
+    alice-compat
+
+yast2-instserver:		(via respective yast2 packages; so this should be removed?)
+    xinetd
+    vsftpd
+    apache(2)
+    nfs-kernel-server
+
+yast2-cd-creator:
+    mkisofs
+
+yast2-scanner:
+    sane			(mandatory)
+    hplip			(optionally, this should be already installed by default)
+    hp-officeJet		(optionally)
+    iscan			(optionally, proprietary binary-only i386-only software from Epson Kowa)
+    iscan-free			(optionally, open source, derived from iscan)
+
+yast2-samba-client:
+    samba-client
+    samba-client-x86		(ia64 only)
+    samba-client-32bit		(s390x, x86_64)
+    samba-client-64bit		(ppc64 only)
+    samba-winbind
+    samba-winbind-x86		(ia64 only)
+    samba-winbind-32bit		(s390x, x86_64)
+    samba-winbind-64bit		(ppc64 only)
+    krb5
+    krb5-x86			(ia64 only)
+    krb5-32bit			(s390x, x86_64)
+    krb5-64bit			(ppc64 only)
+
+yast2-samba-server:
+    samba
+    samba-pdb
+
+yast2-http-server:
+    apache2
+    apache2-mod_php5
+    apache2-mod_perl
+    apache2-mod_python
+    apache2-mod_ruby
+
+yast2-ldap-client:
+    pam_ldap
+    nss_ldap
+    autofs4
+    openldap2-client
+    pam_ldap-x86		(ia64 only)
+    pam_ldap-64bit		(ppc64 only
+    pam_ldap-32bit		(s390x, x86_64)
+    nss_ldap-x86		(ia64 only)
+    nss_ldap-64bit		(ppc64 only
+    nss_ldap-32bit		(s390x, x86_64)
+
+yast2-kerberos-client:
+    pam_krb5
+    pam_krb5-x86		(ia64 only)
+    pam_krb5-32bit		(s390x, x86_64)
+    pam_krb5-64bit		(ppc64 only)
+    krb5
+    krb5-x86			(ia64 only)
+    krb5-32bit			(s390x, x86_64)
+    krb5-64bit			(ppc64 only)
+    krb5-client
+    yast2-ntp-client
+
+yast2-tv:
+    kdetv			(if KDE)
+    zapping			(if GNOME)
+    motv			(plain X11)
+    alevt
+    nxtvepg
+    kradio
+    lirc			(for Infra Red Control configuration)
+    v4l-tools			(TV channel scan)
+
+yast2-users:
+    yast2-kerberos-client	(if kerberos authentication)
+    yast2-nis-client		(if NIS authentication)
+    yast2-samba-client		(if Windows authentication)
+
+yast2-sound:
+    input-utils
+
+yast2-network:
+    smpppd
+    ifplugd
+    wireless-tools		(wlan interfaces)
+    wpa_supplicant		(for WPA-PSK)
+
+  - For remote administration
+    xinetd
+    tightvnc
+    xorg-x11
+    xorg-x11-Xvnc
+    fvwm2			(a windowmanager, in case kdebase3 is not installed)
+
+  - For DSL
+    smpppd
+    ppp
+    pptp
+    linux-atm-lib
+
+  - For modem
+    smpppd
+
+  - For ISDN (depending on card and driver)
+    i4l-base
+    capi4linux
+    i4l-isdnlog
+    i4lfirmware
+    avm_fcdsl
+
+yast2-you-server:
+    apache2
+    openslp
+
+yast2-inetd:
+    inetd
+    xinetd
+    (plus many packages for individual services
+     There is a script in YaST CVS that looks through all rpms in autobuild for
+     (x)inetd configurations and collects them. Then it is displayed to the
+     user at runtime and if he wants to enable a service that is not
+     installed, it is installed.
+     See source/inetd/{src/all-services.sh,doc/README.maintainer})
+
+yast2-mail:
+    amavisd-new
+    fetchmail
+
+yast2-nfs-client:
+    portmap
+    nfs-client
+
+yast2-nfs-server:
+    nfs-kernel-server		(or nfs-server, the userspace one)
+
+yast2-nis-client:
+    ypbind
+    autofs4
+
+yast2-nis-server:
+    ypserv
+
+yast2-tftp-server:
+    xinetd
+    tftp
+
+yast2-phoneservices:
+    capisuite
+
+yast2-powertweak:
+    powertweak
+    powertweak-extra		(optional)
+
+yast2-backup:
+    star
+
+yast2-restore:
+    star
+
+yast2-uml:
+    um-host-kernel
+    um-host-install-initrd
+    uml-utilities
+    bridge-utils
+    xf86tools
+
+yast2-storage
+    lvm2			(if lvm is used)
+    ntfsprogs			(if an ntfs filesystem needs resizing)
+
+yast2-vm:
+    install-initrd		(installation initrd with linuxrc and libraries)
+    kernel-xen			(XEN kernel)
+    xen				(XEN hypervisor)
+    xen-tools			(Xen management tools)
+    xen-tools-ioemu		(HW emulation for fully virtualized hosts)
+    bridge-utils		(required for bridging)
+    xorg-x11			(X Window System)
+    xterm			(a virtual machine is started in xterm window)
+
+yast2-kdump:
+    kexec-tools
+    kdump-helpers		(i386, x86_64, ia64)
+    kernel-kdump 		(ppc64 only)
+    
+yast2-ftp-server:
+    xinetd
+    vsftpd
+
+yast2-fingerprint-reader:
+    pam_thinkfinger
+    pam_thinkfinger-x86		(ia64 only)
+    pam_thinkfinger-64bit	(ppc64 only
+    pam_thinkfinger-32bit	(s390x, x86_64)
+
