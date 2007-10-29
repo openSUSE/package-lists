@@ -2,13 +2,12 @@
 <test>
   <setup arch="i686">
     <system file="10.2-i386-system.xml"/>
-    <source url="dir:///mounts/dist/factory/FACTORY/inst-source/" name="factory"/>
-    <source url="dir:///mounts/dist/factory/FACTORY-E/inst-source-extra/" name="factory-nonoss"/>
+    <source url="dir:///mounts/machcd2/consistent/full-i386/" name="factory"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>
   <trial>
-    <install kind="product" name="openSUSE-factory"/>
+    <install kind="product" name="openSUSE-fulltree"/>
     <install kind="pattern" name="default"/>
     <!-- can't have it on FTP -->
     <uninstall kind="package" name="agfa-fonts"/>

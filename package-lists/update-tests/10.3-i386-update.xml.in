@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<test>
+<setup arch="i686">
+  <system file="10.3-i386-system.xml"/>
+  <source url="dir:///mounts/machcd2/consistent/full-i386/" name="factory-nonoss"/>
+  <locale name="de_DE"/>
+  <locale name="de"/>
+</setup>
+<trial>
+  <install kind="product" name="openSUSE-fulltree" />
+  <uninstall kind="package" name="libredland-devel"/>
+  <uninstall name="libredland0"/>
+  <uninstall name="libsoprano3"/>
+  <distupgrade delete_unmaintained="false"/>
+
+  <reportproblems/>
+</trial>
+</test>
