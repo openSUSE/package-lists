@@ -19,9 +19,9 @@ difflist()
    echo ""
 }
 
-difflist dvd-all.list "DVD"
+#difflist dvd-all.list "DVD"
 difflist gnome-cd-all.list "GNOME CD"
 difflist kde-cd-all.list "KDE CD"
-difflist langaddon-all.list "Lang Addon CD"
-difflist non_oss-all.list "NON-OSS Addon CD"
-difflist dvd-promo.list "PROMO DVD"
+#difflist langaddon-all.list "Lang Addon CD"
+#difflist non_oss-all.list "NON-OSS Addon CD"
+#difflist dvd-promo.list "PROMO DVD"
