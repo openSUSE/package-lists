@@ -14,8 +14,8 @@ echo "dvd5:"
 ./gen.sh dvd5
 ./gen.sh dvd5-2
 
-echo "promo-dvd5:"
-./gen.sh dvd5-promo
+#echo "promo-dvd5:"
+#./gen.sh dvd5-promo
 
 echo "language addon:"
 ./gen.sh dvd5-addon_lang
