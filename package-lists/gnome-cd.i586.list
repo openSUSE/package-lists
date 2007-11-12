@@ -65,8 +65,8 @@ blktrace
 blocxx
 bluez-firmware
 bluez-gnome
-bluez-gnome-lang
 bluez-libs
+bluez-utils
 boost
 bootsplash
 bootsplash-theme-SuSE
@@ -90,7 +90,7 @@ control-center2
 coreutils
 cpio
 cpp
-cpp42
+cpp43
 cracklib
 cracklib-dict-small
 cron
@@ -164,7 +164,7 @@ galago-sharp
 gawk
 gcalctool
 gcc-gij
-gcc42-gij
+gcc43-gij
 gconf-editor
 gconf-sharp2
 gconf2
@@ -241,7 +241,6 @@ gstreamer010
 gstreamer010-plugins-base
 gstreamer010-plugins-good
 gsynaptics
-gsynaptics-lang
 gtk-sharp2
 gtk2
 gtk2-engines
@@ -275,15 +274,12 @@ iproute2
 iptables
 iputils
 ipw-firmware
-ipw3945-kmp-default
-ipw3945d
 irda
 irqbalance
 iso-codes
 iso_ent
 iwl3945-ucode
 iwl4965-ucode
-iwlwifi-kmp-default
 java-1_4_2-gcj-compat
 jfsutils
 jpackage-utils
@@ -335,7 +331,7 @@ libgadu
 libgail-gnome
 libgalago
 libgcc43
-libgcj42
+libgcj43
 libgcrypt
 libgda
 libgda-3_0
@@ -376,12 +372,14 @@ libipoddevice
 libipoddevice0
 libiso9660-5
 libjack
+libjasper
 libjpeg
 libksba
 liblazy
 liblcms0
 libltdl-3
 libmng
+libmpfr1
 libmusicbrainz4
 libneon27
 libnetpbm10
@@ -418,7 +416,7 @@ libsoup
 libspeex
 libssui
 libssui0
-libstdc++42
+libstdc++43
 libstroke
 libtheora0
 libthinkfinger
@@ -482,8 +480,6 @@ nautilus-sendto
 nautilus-share
 ncpfs
 ncurses
-ndiswrapper
-ndiswrapper-kmp-default
 net-tools
 netcat
 netcfg
@@ -603,10 +599,8 @@ recode
 reiserfs
 release-notes
 resapplet
-resapplet-lang
 resmgr
 rpm
-rt2x00-kmp-default
 samba
 samba-client
 sane-backends
