@@ -141,12 +141,7 @@ acroread-fonts-ja
 acroread-fonts-zh_CN
 acroread-fonts-zh_TW
 acx-kmp-default
-acx-kmp-xen
-acx-kmp-xenpae
 adaptec-firmware
-adm8211-kmp-default
-adm8211-kmp-xen
-adm8211-kmp-xenpae
 aelfred
 aeolus
 agfa-fonts
@@ -249,8 +244,6 @@ at-spi
 at-spi-devel
 at-spi-doc
 at76_usb-kmp-default
-at76_usb-kmp-xen
-at76_usb-kmp-xenpae
 atftp
 atk
 atk-devel
@@ -266,8 +259,6 @@ audit-libs
 audit-visualize
 aufs
 aufs-kmp-default
-aufs-kmp-xen
-aufs-kmp-xenpae
 aumix
 autoconf
 autofs
@@ -318,13 +309,10 @@ bison
 black-box
 blackbox
 blktrace
-blocxx
-blocxx-devel
 blt
 bluez-cups
 bluez-firmware
 bluez-gnome
-bluez-gnome-lang
 bluez-hcidump
 bluez-libs
 bluez-test
@@ -479,7 +467,7 @@ convmv
 coreutils
 cpio
 cpp
-cpp42
+cpp43
 cpufrequtils
 cracklib
 cracklib-dict-full
@@ -489,6 +477,7 @@ cron
 cross-spu-binutils
 cross-spu-gcc
 cross-spu-newlib
+cross-spu-newlib-headers
 cryptconfig
 cryptsetup
 cscope
@@ -526,8 +515,6 @@ dasher
 dasher-lang
 datakiosk
 dazuko
-dazuko-kmp-default
-dazuko-kmp-xen
 db-utils
 db1
 db43
@@ -598,8 +585,6 @@ dos2unix
 dosbootdisk
 dosfstools
 doxygen
-drbd-kmp-default
-drbd-kmp-xen
 drgeo
 drgeo-lang
 dvb
@@ -628,7 +613,6 @@ eject
 ekiga
 elilo
 emacs
-emacs-auctex
 emacs-info
 emacs-nox
 emacs-x11
@@ -710,7 +694,6 @@ fonts-config
 fonts-thryomanes
 fonttools
 foomatic-filters
-fop
 fortune
 fping
 free-ttf-fonts
@@ -746,7 +729,6 @@ g3utils
 gail
 gail-devel
 gail-doc
-gaim-otr
 galago-daemon
 galago-sharp
 gamix
@@ -762,12 +744,12 @@ gcc-fortran
 gcc-gij
 gcc-info
 gcc-java
-gcc42
-gcc42-c++
-gcc42-fortran
-gcc42-gij
-gcc42-java
+gcc43
+gcc43-c++
+gcc43-fortran
+gcc43-gij
 gcc43-info
+gcc43-java
 gconf-editor
 gconf-sharp2
 gconf2
@@ -783,8 +765,8 @@ gdm
 gecko-sharp2
 gedit
 genisoimage
-gettext
-gettext-devel
+gettext-runtime
+gettext-tools
 gftp
 gftp-lang
 gfxboot
@@ -796,6 +778,7 @@ ghostscript-fonts-other
 ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
+ghostscript-omni
 ghostscript-x11
 giflib
 giflib-devel
@@ -968,7 +951,6 @@ gstreamer010-plugins-good
 gstreamer010-plugins-good-doc
 gstreamer010-plugins-good-extra
 gsynaptics
-gsynaptics-lang
 gthumb
 gthumb-lang
 gtk
@@ -1149,14 +1131,9 @@ ivman
 ivtv
 ivtv-firmware
 ivtv-kmp-default
-ivtv-kmp-xen
-ivtv-kmp-xenpae
 iwidgets
 iwl3945-ucode
 iwl4965-ucode
-iwlwifi-kmp-default
-iwlwifi-kmp-xen
-iwlwifi-kmp-xenpae
 jaaa
 jack
 jack-devel
@@ -1243,9 +1220,7 @@ kde3-i18n-zh_CN
 kde3-i18n-zh_TW
 kde4-dolphin
 kde4-filesystem
-kde4-kalzium
 kde4-katomic
-kde4-kbackgammon
 kde4-kbattleship
 kde4-kblackbox
 kde4-kbounce
@@ -1404,8 +1379,6 @@ kernel-docs
 kernel-pae
 kernel-source
 kernel-syms
-kernel-xen
-kernel-xenpae
 kerry
 kexec-tools
 keychain
@@ -1523,7 +1496,6 @@ kwatch
 kwin-decor-suse2
 kxmleditor
 kyum
-lacheck
 ladspa
 ladspa-devel
 lash
@@ -1594,6 +1566,8 @@ libbeagle-devel
 libbeagle-python
 libblkid-devel
 libblkid1
+libblocxx-devel
+libblocxx6
 libbonobo
 libbonobo-devel
 libbonobo-doc
@@ -1659,7 +1633,7 @@ libexpat0
 libexpat1
 libext2fs-devel
 libext2fs2
-libffi42
+libffi43
 libfluidsynth1
 libfreebob
 libfuse2
@@ -1667,11 +1641,11 @@ libgadu
 libgail-gnome
 libgail-gnome-devel
 libgalago
-libgcc42
+libgcc43
 libgcj-devel
-libgcj42
-libgcj42-devel
-libgcj_bc42
+libgcj43
+libgcj43-devel
+libgcj_bc43
 libgcrypt
 libgcrypt-devel
 libgda
@@ -1684,7 +1658,7 @@ libgda-3_0-postgres
 libgda-3_0-sqlite
 libgda-lang
 libgdiplus
-libgfortran42
+libgfortran43
 libghttp
 libgimpprint
 libglade2
@@ -1722,8 +1696,8 @@ libgnomeui-doc
 libgnutls-devel
 libgnutls13
 libgomp43
-libgpg-error
 libgpg-error-devel
+libgpg-error0
 libgpgme-devel
 libgpgme11
 libgphoto2
@@ -1785,12 +1759,11 @@ libkdepimlibs4-devel
 libkexiv2
 libkexiv2-devel
 libkipi0
-libkipi0-lang
 libkonq4
 libkonq4-devel
 libksba
 libksba-devel
-liblazy
+liblazy1
 liblcms-devel
 liblcms0
 liblo
@@ -1837,7 +1810,6 @@ libogg-devel
 liboggz
 liboil
 liboil-devel
-libopenbabel2
 libopencdk-devel
 libopencdk10
 libopenct1
@@ -1863,7 +1835,7 @@ libopensync-tools
 libosip2
 libotf
 libotf-devel
-libotr
+libotr2
 libpcap
 libpisock-devel
 libpisock9
@@ -1930,9 +1902,8 @@ libspeex
 libssui
 libssui0
 libstdc++-devel
-libstdc++42
-libstdc++42-devel
 libstdc++43
+libstdc++43-devel
 libstroke
 libstroke-devel
 libsvg
@@ -1994,8 +1965,6 @@ libxml2-python
 libxslt
 libxslt-devel
 libxslt-python
-liby2util
-liby2util-devel
 libyaz
 libzio
 libzrtpcpp
@@ -2022,9 +1991,6 @@ linphone-applet
 linux-atm-lib
 linux-kernel-headers
 lirc
-lirc-kmp-default
-lirc-kmp-xen
-lirc-kmp-xenpae
 log4j
 log4net
 logrotate
@@ -2189,7 +2155,6 @@ ncurses
 ncurses-devel
 ndiswrapper
 ndiswrapper-kmp-default
-ndiswrapper-kmp-xen
 net-snmp
 net-tools
 netacct
@@ -2212,7 +2177,6 @@ noteedit
 notification-daemon
 notification-daemon-xfce
 novfs-kmp-default
-novfs-kmp-xen
 nscd
 nspluginwrapper
 nss-mdns
@@ -2227,14 +2191,11 @@ nxml-mode
 nxtvepg
 obconf
 obexftp
-ocaml-facile
 ocfs2-tools
 ocfs2console
 ocrad
 oggztools
 omnibook-kmp-default
-omnibook-kmp-xen
-omnibook-kmp-xenpae
 opal
 open-iscsi
 openSUSE-release
@@ -2304,7 +2265,6 @@ pango-devel
 pango-doc
 par
 parted
-passivetex
 patch
 patchrpm
 patchutils
@@ -2598,6 +2558,7 @@ physfs
 pia
 pico
 pidgin
+pidgin-otr
 pilot
 pilot-link
 pin
@@ -2647,13 +2608,11 @@ procinfo
 procmail
 procps
 providers
-psgml
 psgplay
 psiconv
 psmisc
 pstoedit
 pstoedit-devel
-psutils
 pth
 pwdutils
 pwgen
@@ -2679,6 +2638,7 @@ python-kde-extensions
 python-kde3
 python-ldap
 python-numeric
+python-opengl
 python-openssl
 python-opensync
 python-orbit
@@ -2735,14 +2695,10 @@ rekall
 rekall-xbase
 release-notes
 resapplet
-resapplet-lang
 resmgr
 rfb
 rfbplaymacro
 rfbproxy
-rfswitch-kmp-default
-rfswitch-kmp-xen
-rfswitch-kmp-xenpae
 rinetd
 ripit
 rlog
@@ -2755,9 +2711,6 @@ rsh
 rsh-server
 rsvg-sharp2
 rsync
-rt2x00-kmp-default
-rt2x00-kmp-xen
-rt2x00-kmp-xenpae
 ruby
 ruby-devel
 rubygem-actionmailer
@@ -2923,7 +2876,6 @@ susehelp_hu
 susehelp_it
 susevbox
 suspend
-svg-schema
 swig
 sysconfig
 sysfsutils
@@ -3063,8 +3015,6 @@ usbview
 utempter
 util-linux
 uvcvideo-kmp-default
-uvcvideo-kmp-xen
-uvcvideo-kmp-xenpae
 v4l-conf
 v4l-tools
 vacation
@@ -3116,8 +3066,6 @@ wireshark
 wl-xemacs
 wlan-ng
 wlan-ng-kmp-default
-wlan-ng-kmp-xen
-wlan-ng-kmp-xenpae
 wm-icons
 wodim
 wol
@@ -3246,8 +3194,6 @@ xml-commons-resolver
 xml-commons-which
 xmlcharent
 xmlstarlet
-xmltex
-xmlto
 xmoto
 xmset
 xntp
@@ -3310,7 +3256,6 @@ xrestop
 xsane
 xscreensaver
 xsidplay
-xslide
 xsp
 xstroke
 xterm

@@ -138,7 +138,6 @@ eel
 enscript
 esound
 evolution-data-server
-expat
 fam
 fbiterm
 fftw
@@ -164,11 +163,12 @@ gd
 gdbm
 gdk-pixbuf
 genisoimage
-gettext
+gettext-runtime
 ghostscript-cjk
 ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
+ghostscript-omni
 giflib
 gjiten
 glade-sharp2
@@ -306,7 +306,6 @@ libcdio7
 libchewing
 libcom_err-devel
 libcom_err2
-libcroco
 libcroco-0_6-3
 libcurl4
 libdaemon
@@ -319,7 +318,7 @@ libexpat-devel
 libexpat1
 libext2fs-devel
 libext2fs2
-libgcc42
+libgcc43
 libgcrypt
 libgdiplus
 libgimpprint
@@ -335,9 +334,8 @@ libgnomesu
 libgnomesu0
 libgnomeui
 libgnutls13
-libgpg-error
+libgpg-error0
 libgphoto2
-libgsf
 libgsf-1-114
 libgtop
 libgtop-2_0-7
@@ -380,7 +378,7 @@ libsnmp15
 libsoup
 libssui
 libssui0
-libstdc++42
+libstdc++43
 libtheora0
 libtiff3
 libtomoe-gtk
@@ -441,7 +439,6 @@ mono-web
 mono-winforms
 mozilla-nspr
 mozilla-nss
-mozilla-xulrunner181
 myspell-german-old
 nautilus
 nautilus-cd-burner
@@ -476,6 +473,7 @@ perl
 perl-base
 permissions
 pinentry
+pinentry-qt
 pkg-config
 pm-utils
 pmtools
@@ -517,6 +515,7 @@ scim-tables-zh
 scim-tomoe
 scim-uim
 scsi
+seamonkey
 sed
 sendfax
 sendmail
@@ -565,7 +564,6 @@ udev
 uim
 uim-qt
 unixODBC
-update-alternatives
 utempter
 util-linux
 vacation

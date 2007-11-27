@@ -63,7 +63,6 @@ bind-libs
 bind-utils
 binutils
 blktrace
-blocxx
 bluez-firmware
 bluez-libs
 bluez-utils
@@ -154,9 +153,10 @@ gconf2
 gdb
 gdbm
 genisoimage
-gettext
+gettext-runtime
 ghostscript-fonts-std
 ghostscript-library
+ghostscript-omni
 ghostscript-x11
 giflib
 glib-sharp2
@@ -209,6 +209,8 @@ iproute2
 iptables
 iputils
 ipw-firmware
+ipw3945-kmp-default
+ipw3945d
 irda
 irqbalance
 iwl3945-ucode
@@ -221,6 +223,7 @@ k3b
 kaffeine
 kbd
 kcm_gtk
+kde4-filesystem
 kde4-kdialog
 kde4-kmahjongg
 kde4-kmines
@@ -249,6 +252,8 @@ kdegraphics3-pdf
 kdegraphics3-postscript
 kdelibs3
 kdelibs3-default-style
+kdelibs4
+kdelibs4-core
 kdemultimedia3
 kdemultimedia3-CD
 kdemultimedia3-mixer
@@ -298,13 +303,13 @@ libavahi-core5
 libavahi-glib1
 libbeagle
 libblkid1
+libblocxx6
 libbonobo
 libbonoboui
 libbz2-1
 libcap
 libcdio7
 libcom_err2
-libcroco
 libcroco-0_6-3
 libcurl4
 libdaemon
@@ -334,15 +339,13 @@ libgnomesu
 libgnomesu0
 libgnomeui
 libgnutls13
-libgpg-error
+libgpg-error0
 libgpgme11
 libgphoto2
 libgpod2
-libgsf
 libgsf-1-114
 libgssapi
 libgtkhtml
-libicu
 libidl
 libidn
 libieee1284
@@ -356,7 +359,7 @@ libkdegames4
 libkexiv2
 libkipi0
 libksba
-liblazy
+liblazy1
 liblcms0
 libltdl-3
 libmal
@@ -423,7 +426,6 @@ libx86
 libxcrypt
 libxml2
 libxslt
-liby2util
 libzio
 libzypp
 licenses
@@ -457,6 +459,8 @@ mozilla-nss
 mpt-firmware
 myspell-american
 ncurses
+ndiswrapper
+ndiswrapper-kmp-default
 net-tools
 netcat
 netcfg
@@ -556,7 +560,6 @@ qlogic-firmware
 qt3
 qtcurve-gtk2
 qtcurve-kde
-rdesktop
 recode
 reiserfs
 release-notes

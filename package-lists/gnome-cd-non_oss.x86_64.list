@@ -79,11 +79,10 @@ bind-libs
 bind-utils
 binutils
 blktrace
-blocxx
 bluez-firmware
 bluez-gnome
-bluez-gnome-lang
 bluez-libs
+bluez-utils
 boost
 bootsplash
 bootsplash-theme-SuSE
@@ -101,7 +100,6 @@ cdrdao
 cdrkit-cdrtools-compat
 check
 cifs-mount
-classpath
 classpath-jta
 compat-libstdc++
 compiz
@@ -110,7 +108,7 @@ control-center2
 coreutils
 cpio
 cpp
-cpp42
+cpp43
 cracklib
 cracklib-32bit
 cracklib-dict-small
@@ -195,8 +193,6 @@ galago-daemon
 galago-sharp
 gawk
 gcalctool
-gcc-gij
-gcc42-gij
 gconf-editor
 gconf-sharp2
 gconf2
@@ -206,10 +202,11 @@ gdbm
 gdm
 gedit
 genisoimage
-gettext
+gettext-runtime
 ggreeter
 ghostscript-fonts-std
 ghostscript-library
+ghostscript-omni
 ghostscript-x11
 giflib
 gimp
@@ -284,7 +281,6 @@ gstreamer010
 gstreamer010-plugins-base
 gstreamer010-plugins-good
 gsynaptics
-gsynaptics-lang
 gtk-sharp2
 gtk2
 gtk2-32bit
@@ -334,11 +330,9 @@ iso-codes
 iso_ent
 iwl3945-ucode
 iwl4965-ucode
-iwlwifi-kmp-default
 jakarta-commons-discovery
 jakarta-commons-httpclient3
 jakarta-commons-logging
-java-1_4_2-gcj-compat
 java-1_5_0-sun
 java-1_5_0-sun-alsa
 java-1_5_0-sun-demo
@@ -383,6 +377,7 @@ libavahi-glib1
 libavahi-glib1-32bit
 libbeagle
 libblkid1
+libblocxx6
 libbonobo
 libbonobo-32bit
 libbonoboui
@@ -393,7 +388,6 @@ libcap
 libcdio7
 libcom_err2
 libcom_err2-32bit
-libcroco
 libcroco-0_6-3
 libcurl4
 libdaemon
@@ -414,9 +408,8 @@ libfuse2
 libgadu
 libgail-gnome
 libgalago
-libgcc42-32bit
 libgcc43
-libgcj42
+libgcc43-32bit
 libgcrypt
 libgda
 libgda-3_0
@@ -444,9 +437,8 @@ libgnomesu0
 libgnomeui
 libgnomeui-32bit
 libgnutls13
-libgpg-error
+libgpg-error0
 libgphoto2
-libgsf
 libgsf-1-114
 libgsm
 libgssapi
@@ -454,7 +446,6 @@ libgtkhtml
 libgtksourceview-2_0-0
 libgtop
 libgtop-2_0-7
-libicu
 libidl
 libidl-32bit
 libidn
@@ -464,15 +455,17 @@ libipoddevice
 libipoddevice0
 libiso9660-5
 libjack
+libjasper
 libjpeg
 libjpeg-32bit
 libksba
-liblazy
+liblazy1
 liblcms0
 liblcms0-32bit
 libltdl-3
 libmng
 libmng-32bit
+libmpfr1
 libmusicbrainz4
 libneon27
 libnetpbm10
@@ -513,7 +506,7 @@ libsoup
 libspeex
 libssui
 libssui0
-libstdc++42
+libstdc++43
 libstdc++43-32bit
 libstroke
 libtheora0
@@ -537,7 +530,6 @@ libxml2
 libxml2-32bit
 libxml2-python
 libxslt
-liby2util
 libzio
 libzypp
 licenses
@@ -726,10 +718,8 @@ regexp
 reiserfs
 release-notes
 resapplet
-resapplet-lang
 resmgr
 rpm
-rt2x00-kmp-default
 samba
 samba-client
 sane-backends
@@ -935,7 +925,7 @@ yast2-storage-lib
 yast2-sudo
 yast2-support
 yast2-sysconfig
-yast2-theme-openSUSE
+yast2-theme-openSUSE-Crystal
 yast2-trans-en_US
 yast2-trans-stats
 yast2-transfer

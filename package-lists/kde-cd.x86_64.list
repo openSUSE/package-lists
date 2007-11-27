@@ -71,7 +71,6 @@ bind-libs
 bind-utils
 binutils
 blktrace
-blocxx
 bluez-firmware
 bluez-libs
 bluez-utils
@@ -169,9 +168,10 @@ gconf2
 gdb
 gdbm
 genisoimage
-gettext
+gettext-runtime
 ghostscript-fonts-std
 ghostscript-library
+ghostscript-omni
 ghostscript-x11
 giflib
 glib-sharp2
@@ -229,6 +229,8 @@ iproute2
 iptables
 iputils
 ipw-firmware
+ipw3945-kmp-default
+ipw3945d
 irda
 irqbalance
 iwl3945-ucode
@@ -241,6 +243,7 @@ k3b
 kaffeine
 kbd
 kcm_gtk
+kde4-filesystem
 kde4-kdialog
 kde4-kmahjongg
 kde4-kmines
@@ -271,6 +274,8 @@ kdelibs3
 kdelibs3-32bit
 kdelibs3-default-style
 kdelibs3-default-style-32bit
+kdelibs4
+kdelibs4-core
 kdemultimedia3
 kdemultimedia3-CD
 kdemultimedia3-mixer
@@ -328,6 +333,7 @@ libavahi-core5
 libavahi-glib1
 libbeagle
 libblkid1
+libblocxx6
 libbonobo
 libbonoboui
 libbz2-1
@@ -336,7 +342,6 @@ libcap
 libcdio7
 libcom_err2
 libcom_err2-32bit
-libcroco
 libcroco-0_6-3
 libcurl4
 libdaemon
@@ -372,16 +377,14 @@ libgnomesu
 libgnomesu0
 libgnomeui
 libgnutls13
-libgpg-error
-libgpg-error-32bit
+libgpg-error0
+libgpg-error0-32bit
 libgpgme11
 libgphoto2
 libgpod2
-libgsf
 libgsf-1-114
 libgssapi
 libgtkhtml
-libicu
 libidl
 libidn
 libidn-32bit
@@ -398,7 +401,7 @@ libkdegames4
 libkexiv2
 libkipi0
 libksba
-liblazy
+liblazy1
 liblcms0
 liblcms0-32bit
 libltdl-3
@@ -474,7 +477,6 @@ libxml2
 libxml2-32bit
 libxslt
 libxslt-32bit
-liby2util
 libzio
 libzypp
 licenses
@@ -510,6 +512,8 @@ mpt-firmware
 myspell-american
 ncurses
 ncurses-32bit
+ndiswrapper
+ndiswrapper-kmp-default
 net-tools
 netcat
 netcfg
@@ -616,7 +620,6 @@ qt3-32bit
 qtcurve-gtk2
 qtcurve-gtk2-32bit
 qtcurve-kde
-rdesktop
 recode
 reiserfs
 release-notes

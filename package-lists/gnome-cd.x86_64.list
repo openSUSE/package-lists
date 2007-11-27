@@ -67,7 +67,6 @@ bind-libs
 bind-utils
 binutils
 blktrace
-blocxx
 bluez-firmware
 bluez-gnome
 bluez-libs
@@ -184,10 +183,11 @@ gdbm
 gdm
 gedit
 genisoimage
-gettext
+gettext-runtime
 ggreeter
 ghostscript-fonts-std
 ghostscript-library
+ghostscript-omni
 ghostscript-x11
 giflib
 gimp
@@ -290,6 +290,8 @@ iproute2
 iptables
 iputils
 ipw-firmware
+ipw3945-kmp-default
+ipw3945d
 irda
 irqbalance
 iso-codes
@@ -323,13 +325,13 @@ libavahi-core5
 libavahi-glib1
 libbeagle
 libblkid1
+libblocxx6
 libbonobo
 libbonoboui
 libbz2-1
 libcap
 libcdio7
 libcom_err2
-libcroco
 libcroco-0_6-3
 libcurl4
 libdaemon
@@ -374,9 +376,8 @@ libgnomesu
 libgnomesu0
 libgnomeui
 libgnutls13
-libgpg-error
+libgpg-error0
 libgphoto2
-libgsf
 libgsf-1-114
 libgsm
 libgssapi
@@ -384,7 +385,6 @@ libgtkhtml
 libgtksourceview-2_0-0
 libgtop
 libgtop-2_0-7
-libicu
 libidl
 libidn
 libieee1284
@@ -393,10 +393,11 @@ libipoddevice
 libipoddevice0
 libiso9660-5
 libjack
+libjasper
 libjpeg
 libjpeg-32bit
 libksba
-liblazy
+liblazy1
 liblcms0
 libltdl-3
 libmng
@@ -462,7 +463,6 @@ libxklavier
 libxml2
 libxml2-python
 libxslt
-liby2util
 libzio
 libzypp
 licenses
@@ -508,6 +508,8 @@ nautilus-share
 ncpfs
 ncurses
 ncurses-32bit
+ndiswrapper
+ndiswrapper-kmp-default
 net-tools
 netcat
 netcfg
@@ -830,7 +832,7 @@ yast2-storage-lib
 yast2-sudo
 yast2-support
 yast2-sysconfig
-yast2-theme-openSUSE-Crystal
+yast2-theme-openSUSE
 yast2-trans-en_US
 yast2-trans-stats
 yast2-transfer
