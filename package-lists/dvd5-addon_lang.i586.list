@@ -184,6 +184,7 @@ acroread-fonts-ko
 acroread-fonts-zh_CN
 acroread-fonts-zh_TW
 acx-kmp-default
+acx-kmp-pae
 adaptec-firmware
 aelfred
 aeolus
@@ -212,26 +213,10 @@ ami
 amidic
 ant
 ant-antlr
-ant-apache-bcel
-ant-apache-bsf
-ant-apache-log4j
-ant-apache-oro
-ant-apache-regexp
-ant-apache-resolver
 ant-commons-logging
-ant-javadoc
 ant-javamail
-ant-jdepend
-ant-jmf
-ant-junit
-ant-manual
-ant-nodeps
-ant-scripts
-ant-swing
-ant-trax
 anthy
 anthy-devel
-antlr
 apache2
 apache2-devel
 apache2-doc
@@ -348,6 +333,7 @@ at-spi-devel
 at-spi-doc
 at-spi-lang
 at76_usb-kmp-default
+at76_usb-kmp-pae
 atk
 atk-devel
 atk-doc
@@ -363,6 +349,7 @@ audit-libs
 audit-visualize
 aufs
 aufs-kmp-default
+aufs-kmp-pae
 aumix
 autoconf
 autofs
@@ -559,8 +546,6 @@ cifs-mount
 circuslinux
 ckermit
 clamav
-classpath
-classpath-devel
 classpath-jta
 clisp
 clucene-core
@@ -724,7 +709,6 @@ ebdev
 eblook
 ebview
 ec-fonts-mftraced
-ecj-bootstrap
 ed
 edict
 edict-emacs
@@ -787,7 +771,6 @@ fam-server
 farsifonts
 fast-user-switch-applet
 fast-user-switch-applet-lang
-fastjar
 fbiterm
 fbset
 fcwnn
@@ -934,7 +917,6 @@ git-cvs
 git-email
 git-svn
 gitk
-gjdoc
 gjiten
 glade
 glade-lang
@@ -1103,6 +1085,7 @@ gscpm-lang
 gsf-sharp
 gsl
 gspcav-kmp-default
+gspcav-kmp-pae
 gst-fluendo-mp3
 gstreamer010
 gstreamer010-devel
@@ -1137,6 +1120,7 @@ gtk2-themes
 gtkam
 gtkam-lang
 gtkglarea
+gtkglext
 gtkhtml-sharp2
 gtkhtml2
 gtkhtml2-devel
@@ -1265,11 +1249,11 @@ iptraf
 iputils
 ipw-firmware
 ipw3945-kmp-default
+ipw3945-kmp-pae
 ipw3945d
 ipxrip
 ircd
 irda
-irqbalance
 irssi
 isapnp
 iscan
@@ -1310,6 +1294,7 @@ ivman
 ivtv
 ivtv-firmware
 ivtv-kmp-default
+ivtv-kmp-pae
 iwidgets
 iwl3945-ucode
 iwl4965-ucode
@@ -1339,10 +1324,7 @@ jakarta-commons-pool
 jakarta-commons-validator
 jamin
 jarnal
-java-1_4_2-cacao
-java-1_4_2-cacao-devel
-java-1_4_2-gcj-compat
-java-1_4_2-gcj-compat-devel
+java-1_5_0-gcj-compat
 java-1_5_0-sun
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
@@ -1360,7 +1342,6 @@ joy2key
 jpackage-utils
 jpeg
 jtools
-junit
 k3b
 k3b-lang
 kadslwatch
@@ -1453,7 +1434,6 @@ kde4-katomic
 kde4-kbattleship
 kde4-kblackbox
 kde4-kbounce
-kde4-kdialog
 kde4-keditbookmarks
 kde4-kgoldrunner
 kde4-kiriki
@@ -1738,6 +1718,7 @@ kpowersave
 kpowersave-lang
 kpsion
 kqemu-kmp-default
+kqemu-kmp-pae
 kradio
 krb5
 krb5-apps-clients
@@ -1925,6 +1906,7 @@ libgcc43
 libgcj-devel
 libgcj43
 libgcj43-devel
+libgcj43-jar
 libgcj_bc43
 libgcrypt
 libgcrypt-devel
@@ -2170,6 +2152,7 @@ librsvg-devel
 libsamplerate
 libsap
 libsensors3
+libsensors4
 libsexy
 libshout
 libsidplay
@@ -2287,6 +2270,8 @@ linphone-applet
 linux-atm-lib
 linux-kernel-headers
 lirc
+lirc-kmp-default
+lirc-kmp-pae
 lklug
 log4j
 log4net
@@ -2366,7 +2351,6 @@ mirror
 mjpegtools
 mjpegtools-devel
 mkinitrd
-mktemp
 mlterm
 mlterm-scim
 mlterm-uim
@@ -2516,6 +2500,7 @@ ncurses
 ncurses-devel
 ndiswrapper
 ndiswrapper-kmp-default
+ndiswrapper-kmp-pae
 net-snmp
 net-tools
 netacct
@@ -2538,6 +2523,7 @@ noteedit
 notification-daemon
 notification-daemon-lang
 novfs-kmp-default
+novfs-kmp-pae
 nscd
 nspluginwrapper
 nss-mdns
@@ -2557,6 +2543,7 @@ ocfs2console
 ocrad
 oggztools
 omnibook-kmp-default
+omnibook-kmp-pae
 opal
 open-iscsi
 openSUSE-release
@@ -2996,6 +2983,7 @@ python-gnome
 python-gnome-extras
 python-gobject2
 python-gtk
+python-gtkglext
 python-httplib2
 python-imaging
 python-kde-extensions
@@ -3024,7 +3012,6 @@ qamix
 qca
 qemacs
 qemu
-qjackconnect
 qjackctl
 qlogic-firmware
 qnotify
@@ -3323,12 +3310,6 @@ tla
 tls
 tomboy
 tomboy-lang
-tomcat55
-tomcat55-common-lib
-tomcat55-jasper
-tomcat55-jsp-2_0-api
-tomcat55-server-lib
-tomcat55-servlet-2_4-api
 tomoe
 toshutils
 totem
@@ -3337,12 +3318,12 @@ totem-plugin
 tpb
 tpctl
 tpctl-kmp-default
+tpctl-kmp-pae
 traffic-vis
 transfig
 transset
 tree
 treeline
-tsclient
 tse3
 ttf-alee
 ttf-arphic
@@ -3389,6 +3370,7 @@ usbview
 utempter
 util-linux
 uvcvideo-kmp-default
+uvcvideo-kmp-pae
 v4l-conf
 v4l-tools
 vacation
@@ -3406,6 +3388,7 @@ vino-lang
 virt-manager
 virtualbox
 virtualbox-kmp-default
+virtualbox-kmp-pae
 vkeybd
 vlan
 vlna
@@ -3442,6 +3425,7 @@ wireshark
 wl-xemacs
 wlan-ng
 wlan-ng-kmp-default
+wlan-ng-kmp-pae
 wm-icons
 wodim
 wol
@@ -3566,7 +3550,6 @@ xmgrace
 xml-commons
 xml-commons-apis
 xml-commons-resolver
-xml-commons-which
 xmlcharent
 xmlstarlet
 xmoto
@@ -3731,7 +3714,7 @@ yast2-support
 yast2-sysconfig
 yast2-testsuite
 yast2-tftp-server
-yast2-theme-openSUSE-Crystal
+yast2-theme-openSUSE
 yast2-trans-af
 yast2-trans-ar
 yast2-trans-bg

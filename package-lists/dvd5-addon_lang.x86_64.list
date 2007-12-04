@@ -210,30 +210,12 @@ amarok-yauap
 amavisd-new
 ami
 amidic
-anjuta
-anjuta-lang
 ant
 ant-antlr
-ant-apache-bcel
-ant-apache-bsf
-ant-apache-log4j
-ant-apache-oro
-ant-apache-regexp
-ant-apache-resolver
 ant-commons-logging
-ant-javadoc
 ant-javamail
-ant-jdepend
-ant-jmf
-ant-junit
-ant-manual
-ant-nodeps
-ant-scripts
-ant-swing
-ant-trax
 anthy
 anthy-devel
-antlr
 apache2
 apache2-devel
 apache2-doc
@@ -371,7 +353,6 @@ aufs-kmp-default
 aumix
 autoconf
 autofs
-autogen
 automake
 autotrace
 autotrace-devel
@@ -565,8 +546,6 @@ cifs-mount
 circuslinux
 ckermit
 clamav
-classpath
-classpath-devel
 classpath-jta
 clisp
 clucene-core
@@ -735,7 +714,6 @@ ebdev
 eblook
 ebview
 ec-fonts-mftraced
-ecj-bootstrap
 ed
 edict
 edict-emacs
@@ -799,7 +777,6 @@ fam-server
 farsifonts
 fast-user-switch-applet
 fast-user-switch-applet-lang
-fastjar
 fbiterm
 fbset
 fcwnn
@@ -914,8 +891,6 @@ gdbm
 gdbm-devel
 gdk-pixbuf
 gdk-pixbuf-gnome
-gdl
-gdl-lang
 gdm
 gdm-lang
 gecko-sharp2
@@ -952,13 +927,10 @@ git-cvs
 git-email
 git-svn
 gitk
-gjdoc
 gjiten
 glade
 glade-lang
 glade-sharp2
-glade3
-glade3-lang
 gle
 glib
 glib-devel
@@ -999,8 +971,6 @@ gnome-blog
 gnome-blog-lang
 gnome-bluetooth
 gnome-bluetooth-lang
-gnome-build
-gnome-build-lang
 gnome-certauth-devel
 gnome-commander
 gnome-commander-lang
@@ -1166,6 +1136,7 @@ gtk2-themes
 gtkam
 gtkam-lang
 gtkglarea
+gtkglext
 gtkhtml-sharp2
 gtkhtml2
 gtkhtml2-devel
@@ -1366,10 +1337,7 @@ jakarta-commons-pool
 jakarta-commons-validator
 jamin
 jarnal
-java-1_4_2-cacao
-java-1_4_2-cacao-devel
-java-1_4_2-gcj-compat
-java-1_4_2-gcj-compat-devel
+java-1_5_0-gcj-compat
 java-1_5_0-sun
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
@@ -1386,7 +1354,6 @@ joy2key
 jpackage-utils
 jpeg
 jtools
-junit
 k3b
 k3b-lang
 kadslwatch
@@ -1479,7 +1446,6 @@ kde4-katomic
 kde4-kbattleship
 kde4-kblackbox
 kde4-kbounce
-kde4-kdialog
 kde4-keditbookmarks
 kde4-kgoldrunner
 kde4-kiriki
@@ -1968,6 +1934,7 @@ libgcc43-32bit
 libgcj-devel
 libgcj43
 libgcj43-devel
+libgcj43-jar
 libgcj_bc43
 libgcrypt
 libgcrypt-32bit
@@ -1989,7 +1956,6 @@ libglade2
 libglade2-32bit
 libglade2-devel
 libglade2-doc
-libgladeui-1-5
 libgmime-2_0-2
 libgnome
 libgnome-32bit
@@ -2231,6 +2197,7 @@ librsvg-devel
 libsamplerate
 libsap
 libsensors3
+libsensors4
 libsexy
 libshout
 libsidplay
@@ -2357,6 +2324,7 @@ linux-atm-lib
 linux-kernel-headers
 linux32
 lirc
+lirc-kmp-default
 lklug
 log4j
 log4net
@@ -2436,7 +2404,6 @@ mirror
 mjpegtools
 mjpegtools-devel
 mkinitrd
-mktemp
 mlterm
 mlterm-scim
 mlterm-uim
@@ -3077,6 +3044,7 @@ python-gnome
 python-gnome-extras
 python-gobject2
 python-gtk
+python-gtkglext
 python-httplib2
 python-imaging
 python-kde-extensions
@@ -3105,7 +3073,6 @@ qamix
 qca
 qemacs
 qemu
-qjackconnect
 qjackctl
 qlogic-firmware
 qnotify
@@ -3406,12 +3373,6 @@ tla
 tls
 tomboy
 tomboy-lang
-tomcat55
-tomcat55-common-lib
-tomcat55-jasper
-tomcat55-jsp-2_0-api
-tomcat55-server-lib
-tomcat55-servlet-2_4-api
 tomoe
 totem
 totem-lang
@@ -3422,7 +3383,6 @@ transfig
 transset
 tree
 treeline
-tsclient
 tse3
 ttf-alee
 ttf-arphic
@@ -3645,7 +3605,6 @@ xmgrace
 xml-commons
 xml-commons-apis
 xml-commons-resolver
-xml-commons-which
 xmlcharent
 xmlstarlet
 xmoto
@@ -3827,7 +3786,7 @@ yast2-support
 yast2-sysconfig
 yast2-testsuite
 yast2-tftp-server
-yast2-theme-openSUSE-Crystal
+yast2-theme-openSUSE
 yast2-trans-af
 yast2-trans-ar
 yast2-trans-bg
