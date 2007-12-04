@@ -28,7 +28,7 @@ if (echo $file | grep "promo" > /dev/null); then
   base=${file/-*/}
 fi
 
-for pack in `pdb query --filter status:internal` `pdb query --filter status:candidate` `pdb query --filter status:frozen` \
+for pack in `pdb query --filter status:internal` `pdb query --filter status:candidate` `pdb query --filter status:frozen` `pdb query --filter distributable:no` \
   `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done`; do
   grep -x $pack overwrites && continue
   LOCK="$LOCK <lock package=\"$pack\"/>"
