@@ -65,7 +65,12 @@ do
   rm -f $TESTTRACK/$base.$arch/CD1/content.asc
   gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/CD1/content
 
-  /usr/lib/zypp/testsuite/bin/deptestomatic.multi $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list -
+  /usr/lib/zypp/testsuite/bin/deptestomatic.multi $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list.new -
+  if test -s "$file.$arch.list.new"; then
+     mv "$file.$arch.list.new" "$file.$arch.list"
+  else
+     grep -C5 === $file.$arch.output
+  fi
 
   echo "done"
 done
