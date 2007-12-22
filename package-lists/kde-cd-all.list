@@ -28,11 +28,9 @@ OpenOffice_org-templates-labels-letter
 OpenOffice_org-writer
 PolicyKit
 SDL
-SDL_mixer
 SuSEfirewall2
 a2ps
 aaa_base
-aaa_skel
 aalib
 acl
 acpid
@@ -62,11 +60,10 @@ audit-libs-32bit
 autofs
 autoyast2-installation
 avahi
+avahi-lang
 bash
 bash-doc
 bcm43xx-fwcutter
-beagle
-beagle-firefox
 bind-libs
 bind-utils
 binutils
@@ -107,6 +104,7 @@ cups-libs-32bit
 curl
 curl-ca-bundle
 cyrus-sasl
+cyrus-sasl-32bit
 cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-plain
@@ -139,7 +137,7 @@ dvb
 dvd+rw-tools
 e2fsprogs
 eject
-esound
+enchant
 ethtool
 expat
 fam
@@ -173,7 +171,6 @@ ghostscript-library
 ghostscript-omni
 ghostscript-x11
 giflib
-glib-sharp2
 glib2
 glib2-32bit
 glibc
@@ -183,8 +180,6 @@ glibc-locale
 glibc-locale-32bit
 glitz
 glitz-32bit
-gmime
-gmime-sharp
 gmp
 gnome-icon-theme
 gnome-keyring
@@ -197,11 +192,9 @@ gpm
 grep
 groff
 grub
-gsf-sharp
 gstreamer010
 gstreamer010-plugins-base
 gstreamer010-plugins-good
-gtk-sharp2
 gtk2
 gtk2-32bit
 gwenview
@@ -243,18 +236,12 @@ kaffeine
 kbd
 kcm_gtk
 kde4-filesystem
-kde4-kmahjongg
-kde4-kmines
-kde4-kpat
 kde4-krdc
-kde4-kreversi
 kde4-krfb
-kde4-ksudoku
 kdeaddons3-konqueror
 kdeartwork3-kscreensaver
 kdebase3
 kdebase3-SuSE
-kdebase3-beagle
 kdebase3-kdm
 kdebase3-ksysguardd
 kdebase3-nsplugin
@@ -262,8 +249,6 @@ kdebase3-samba
 kdebase3-session
 kdebase4-runtime
 kdebluetooth
-kdegames4
-kdegames4-carddecks-default
 kdegraphics3
 kdegraphics3-kamera
 kdegraphics3-pdf
@@ -283,14 +268,13 @@ kdenetwork3-news
 kdepim3
 kdepim3-kpilot
 kdepim3-notes
+kdepimlibs4
 kdetv
 kdeutils3
 kernel-default
-kerry
 keyutils-libs
 keyutils-libs-32bit
 kinternet
-kio_beagle
 kio_ipodslave
 kio_iso
 kio_slp
@@ -305,9 +289,9 @@ krb5
 krb5-32bit
 krb5-client
 krecord
+kscpm
 ktorrent
 kwin-decor-suse2
-lbreakout
 ldapcpplib
 less
 libFLAC++6
@@ -329,7 +313,6 @@ libavahi-common3
 libavahi-common3-32bit
 libavahi-core5
 libavahi-glib1
-libbeagle
 libblkid1
 libblocxx6
 libbonobo
@@ -342,7 +325,7 @@ libcom_err2
 libcom_err2-32bit
 libcroco-0_6-3
 libcurl4
-libdaemon
+libdaemon0
 libdb-4_5
 libdb-4_5-32bit
 libdns_sd
@@ -350,6 +333,8 @@ libdns_sd-32bit
 libdrm
 libdrm-32bit
 libdvdread3
+libenchant1
+libesd0
 libevent
 libexif
 libexiv2
@@ -363,10 +348,8 @@ libgcj43
 libgcj43-jar
 libgcrypt
 libgcrypt-32bit
-libgdiplus
 libgimpprint
 libglade2
-libgmime-2_0-2
 libgnome
 libgnomecanvas
 libgnomecups
@@ -396,7 +379,7 @@ libjpeg-32bit
 libkdcraw2
 libkde4
 libkdecore4
-libkdegames4
+libkdepimlibs4
 libkexiv2
 libkipi0
 libksba
@@ -405,13 +388,13 @@ liblcms0
 liblcms0-32bit
 libltdl-3
 libmal
-libmikmod
 libmng
 libmng-32bit
 libmpcdec5
 libmpfr1
 libmtp7
 libmusicbrainz4
+libmysqlclient15
 libneon27
 libnetpbm10
 libnjb
@@ -419,7 +402,7 @@ libnjb5
 libnl
 libnscd
 libofa0
-libogg
+libogg0
 liboil
 libopencdk10
 libopenct1
@@ -429,8 +412,8 @@ libopenssl0_9_8-32bit
 libopensync
 libpcap
 libpisock9
-libpng
-libpng-32bit
+libpng12-0
+libpng12-0-32bit
 libpoppler-qt2
 libpoppler2
 libqt4
@@ -439,7 +422,10 @@ libqt4-qt3support
 libqt4-sql
 libqt4-x11
 libqtpod
+libraptor1
+librasqal0
 libreadline5
+libredland0
 librpcsecgss
 librsvg
 libsamplerate
@@ -453,6 +439,7 @@ libsoprano4
 libspeex
 libstdc++43
 libstdc++43-32bit
+libstrigi0
 libstroke
 libtheora0
 libthinkfinger
@@ -467,7 +454,6 @@ libvisual-plugins
 libvolume_id
 libvorbis
 libwavpack1
-libwmf
 libx86
 libxcrypt
 libxcrypt-32bit
@@ -498,11 +484,6 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
-mono-core
-mono-data
-mono-data-sqlite
-mono-web
-mono-winforms
 mozilla-nspr
 mozilla-nss
 mpt-firmware
@@ -522,6 +503,7 @@ nspluginwrapper
 nss-mdns
 nss-mdns-32bit
 nss_ldap
+nss_ldap-32bit
 ntfs-3g
 ntfsprogs
 numactl
@@ -530,6 +512,7 @@ obexftp
 openSUSE-release
 openct
 openldap2-client
+openldap2-client-32bit
 openobex
 opensc
 openslp
@@ -547,7 +530,9 @@ pam-32bit
 pam-config
 pam-modules
 pam_krb5
+pam_krb5-32bit
 pam_ldap
+pam_ldap-32bit
 pam_thinkfinger
 pango
 pango-32bit
@@ -601,6 +586,7 @@ popt
 portaudio
 portmap
 postfix
+postgresql-libs
 powersave
 powersave-libs
 ppp
@@ -639,6 +625,7 @@ siga
 slang
 smpppd
 snmp-mibs
+soprano
 splashy
 sqlite
 sqlite2
@@ -681,7 +668,6 @@ wireless-tools
 wlan-ng-kmp-default
 wodim
 wpa_supplicant
-wv
 wvdial
 wvstreams
 x11-input-fujitsu
@@ -707,6 +693,7 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-unichrome
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit
@@ -753,12 +740,12 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-backup
-yast2-bluetooth
 yast2-bootloader
 yast2-control-center
 yast2-control-center-qt
 yast2-core
 yast2-country
+yast2-country-data
 yast2-fingerprint-reader
 yast2-firewall
 yast2-hardware-detection

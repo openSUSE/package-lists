@@ -31,7 +31,6 @@ SDL
 SuSEfirewall2
 a2ps
 aaa_base
-aaa_skel
 aalib
 acl
 acpid
@@ -65,6 +64,7 @@ audit-libs-32bit
 autofs
 autoyast2-installation
 avahi
+avahi-lang
 awesfx
 axis
 bash
@@ -100,7 +100,6 @@ cdrdao
 cdrkit-cdrtools-compat
 check
 cifs-mount
-classpath-jta
 compat-libstdc++
 compiz
 compiz-gnome
@@ -158,8 +157,6 @@ eel
 eject
 enchant
 eog
-esound
-esound-32bit
 ethtool
 evince
 evolution
@@ -193,6 +190,8 @@ galago-daemon
 galago-sharp
 gawk
 gcalctool
+gcc-gij
+gcc43-gij
 gconf-editor
 gconf-sharp2
 gconf2
@@ -333,6 +332,7 @@ iwl4965-ucode
 jakarta-commons-discovery
 jakarta-commons-httpclient3
 jakarta-commons-logging
+java-1_5_0-gcj-compat
 java-1_5_0-sun
 java-1_5_0-sun-alsa
 java-1_5_0-sun-demo
@@ -390,7 +390,7 @@ libcom_err2
 libcom_err2-32bit
 libcroco-0_6-3
 libcurl4
-libdaemon
+libdaemon0
 libdb-4_5
 libdb-4_5-32bit
 libdjvulibre15
@@ -398,6 +398,8 @@ libdrm
 libdrm-32bit
 libelf1
 libenchant1
+libesd0
+libesd0-32bit
 libevent
 libexif
 libexiv2
@@ -410,6 +412,8 @@ libgail-gnome
 libgalago
 libgcc43
 libgcc43-32bit
+libgcj43
+libgcj43-jar
 libgcrypt
 libgda
 libgda-3_0
@@ -422,7 +426,7 @@ libgdiplus
 libgimpprint
 libglade2
 libglade2-32bit
-libgmime-2_0-2
+libgmime-2_0-3
 libgnome
 libgnome-32bit
 libgnome-certauth0
@@ -478,7 +482,7 @@ libnotify1
 libnscd
 libnscd-32bit
 libnvtv
-libogg
+libogg0
 liboil
 libopencdk10
 libopenct1
@@ -486,11 +490,16 @@ libopensc2
 libopenssl0_9_8
 libopenssl0_9_8-32bit
 libpcap
-libpng
-libpng-32bit
+libpng12-0
+libpng12-0-32bit
 libpoppler-glib2
 libpoppler2
 libpurple
+libqt4
+libqt4-dbus-1
+libqt4-qt3support
+libqt4-sql
+libqt4-x11
 libreadline5
 librpcsecgss
 librsvg
@@ -595,6 +604,7 @@ nspluginwrapper
 nss-mdns
 nss-mdns-32bit
 nss_ldap
+nss_ldap-32bit
 ntfs-3g
 ntfsprogs
 numactl
@@ -623,7 +633,9 @@ pam-32bit
 pam-config
 pam-modules
 pam_krb5
+pam_krb5-32bit
 pam_ldap
+pam_ldap-32bit
 pam_thinkfinger
 pango
 pango-32bit
@@ -745,6 +757,7 @@ sox
 spamassassin
 splashy
 sqlite
+sqlite2
 startup-notification
 strace
 sudo
@@ -799,8 +812,6 @@ wodim
 wpa_supplicant
 wsdl4j
 wv
-wvdial
-wvstreams
 x11-input-fujitsu
 x11-input-synaptics
 x11-input-wacom
@@ -826,6 +837,7 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-unichrome
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit
@@ -876,12 +888,12 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-backup
-yast2-bluetooth
 yast2-bootloader
 yast2-control-center
 yast2-control-center-gnome
 yast2-core
 yast2-country
+yast2-country-data
 yast2-fingerprint-reader
 yast2-firewall
 yast2-gtk

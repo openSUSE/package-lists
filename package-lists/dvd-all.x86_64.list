@@ -24,6 +24,7 @@ IPAPMincho
 IPAUIGothic
 IlmBase
 IlmBase-32bit
+IlmBase-devel
 ImageMagick
 ImageMagick-devel
 LibVNCServer
@@ -55,6 +56,7 @@ NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde
 OpenEXR
 OpenEXR-32bit
+OpenEXR-devel
 OpenOffice_org
 OpenOffice_org-Quickstarter
 OpenOffice_org-base
@@ -131,7 +133,6 @@ a2ps
 a2ps-h
 a2ps-perl-ja
 aaa_base
-aaa_skel
 aalib
 aalib-devel
 abcde
@@ -141,6 +142,7 @@ acl
 acpid
 acroread
 acx-kmp-default
+acx-kmp-xen
 adaptec-firmware
 aelfred
 aeolus
@@ -150,7 +152,6 @@ alacarte
 alacarte-lang
 alevt
 alien
-alpine
 alsa
 alsa-devel
 alsa-firmware
@@ -166,13 +167,31 @@ amarok
 amarok-libvisual
 amarok-yauap
 amavisd-new
+anjuta
+anjuta-lang
 ant
 ant-antlr
+ant-apache-bcel
+ant-apache-bsf
+ant-apache-log4j
+ant-apache-oro
+ant-apache-regexp
+ant-apache-resolver
 ant-commons-logging
+ant-javadoc
 ant-javamail
+ant-jdepend
+ant-jmf
+ant-junit
+ant-manual
+ant-nodeps
+ant-scripts
+ant-swing
+ant-trax
 anthy
 anthy-devel
 antivir
+antlr
 apache2
 apache2-devel
 apache2-doc
@@ -229,6 +248,7 @@ at-spi
 at-spi-devel
 at-spi-doc
 at76_usb-kmp-default
+at76_usb-kmp-xen
 atftp
 atk
 atk-32bit
@@ -247,9 +267,11 @@ audit-libs-32bit
 audit-visualize
 aufs
 aufs-kmp-default
+aufs-kmp-xen
 aumix
 autoconf
 autofs
+autogen
 automake
 autotrace
 autotrace-devel
@@ -257,6 +279,7 @@ autoyast2
 autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
+avahi-lang
 avahi-mono
 awesfx
 axis
@@ -269,6 +292,7 @@ banshee-plugins-extra
 barcode
 bash
 bash-doc
+batik
 bayonne2
 bayonne2-UsEng
 bayonne2-devel
@@ -426,7 +450,6 @@ cifs-mount
 circuslinux
 ckermit
 clamav
-classpath-jta
 clisp
 clucene-core
 clucene-core-devel
@@ -508,6 +531,7 @@ db-utils
 db1
 db43
 dbench
+dbsplit-tools
 dbus-1
 dbus-1-32bit
 dbus-1-devel
@@ -567,15 +591,17 @@ docbook-dsssl-stylesheets
 docbook-toys
 docbook-utils
 docbook-xml-website
-docbook-xsl-stylesheets
 docbook2x
 docbook_3
 docbook_4
+docbook_5
 dockutils
 dos2unix
 dosbootdisk
 dosfstools
 doxygen
+drbd-kmp-default
+drbd-kmp-xen
 drgeo
 drgeo-lang
 dvb
@@ -592,6 +618,7 @@ ebdev
 eblook
 ebview
 ec-fonts-mftraced
+ecj-bootstrap
 ed
 edict
 edict-emacs
@@ -621,7 +648,6 @@ epiphany-extensions-lang
 epiphany-lang
 epos
 esound
-esound-32bit
 esound-devel
 ethtool
 evince
@@ -685,6 +711,7 @@ fonts-config
 fonts-thryomanes
 fonttools
 foomatic-filters
+fop
 fortune
 fping
 free-ttf-fonts
@@ -755,6 +782,8 @@ gdbm
 gdbm-devel
 gdk-pixbuf
 gdk-pixbuf-gnome
+gdl
+gdl-lang
 gdm
 gecko-sharp2
 gedit
@@ -787,9 +816,12 @@ git-cvs
 git-email
 git-svn
 gitk
+gjdoc
 gjiten
 glade
 glade-sharp2
+glade3
+glade3-lang
 gle
 glib
 glib-devel
@@ -828,6 +860,8 @@ gnome-blog
 gnome-blog-lang
 gnome-bluetooth
 gnome-bluetooth-lang
+gnome-build
+gnome-build-lang
 gnome-certauth-devel
 gnome-commander
 gnome-common
@@ -1034,7 +1068,6 @@ html2ps
 html2text
 hwinfo
 hwinfo-devel
-hydrogen
 hylafax
 hylafax-client
 i4l-base
@@ -1130,6 +1163,7 @@ ivman
 ivtv
 ivtv-firmware
 ivtv-kmp-default
+ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
 iwl4965-ucode
@@ -1137,7 +1171,6 @@ jaaa
 jack
 jack-devel
 jack-freebob
-jack-rack
 jackEQ
 jadetex
 jakarta-commons-beanutils
@@ -1160,6 +1193,7 @@ jakarta-commons-validator
 jamin
 jarnal
 java-1_5_0-gcj-compat
+java-1_5_0-gcj-compat-devel
 java-1_5_0-sun
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
@@ -1170,12 +1204,14 @@ jedit
 jfbterm
 jfsutils
 jhead
+jing
 jms
 joe
 joy2key
 jpackage-utils
 jpeg
 jtools
+junit
 k3b
 kadslwatch
 kaffeine
@@ -1240,7 +1276,6 @@ kde4-kspaceduel
 kde4-ksquares
 kde4-ksudoku
 kde4-kwin
-kde4-kwin4
 kde4-kwrite
 kde4-l10n-cs
 kde4-l10n-da
@@ -1372,6 +1407,7 @@ kernel-default
 kernel-docs
 kernel-source
 kernel-syms
+kernel-xen
 kerry
 kexec-tools
 keychain
@@ -1604,7 +1640,7 @@ libcroco-0_6-3
 libcroco-devel
 libcurl-devel
 libcurl4
-libdaemon
+libdaemon0
 libdar-4
 libdb-4_4
 libdb-4_5
@@ -1629,6 +1665,8 @@ libelf0
 libelf1
 libenchant1
 liberation-fonts
+libesd0
+libesd0-32bit
 libevent
 libexif
 libexif-32bit
@@ -1677,7 +1715,8 @@ libglade2
 libglade2-32bit
 libglade2-devel
 libglade2-doc
-libgmime-2_0-2
+libgladeui-1-5
+libgmime-2_0-3
 libgnome
 libgnome-32bit
 libgnome-certauth0
@@ -1790,7 +1829,6 @@ liblcms-devel
 liblcms0
 liblcms0-32bit
 liblo
-liblrdf
 libltdl-3
 libltdl-3-32bit
 libmal
@@ -1817,6 +1855,7 @@ libneon-devel
 libneon27
 libnet
 libnetpbm10
+libnewt0_52
 libnjb
 libnjb5
 libnl
@@ -1831,8 +1870,8 @@ libofa0
 libofx
 libofx-devel
 libofx3
-libogg
 libogg-devel
+libogg0
 liboggz
 liboil
 liboil-devel
@@ -1859,7 +1898,6 @@ libopensync-plugin-python-module
 libopensync-plugin-sunbird
 libopensync-plugin-syncml
 libopensync-tools
-libosip2
 libotf
 libotf-devel
 libotr2
@@ -1867,9 +1905,9 @@ libpcap
 libpisock-devel
 libpisock9
 libpisync0
-libpng
-libpng-32bit
 libpng-devel
+libpng12-0
+libpng12-0-32bit
 libpoppler-devel
 libpoppler-glib2
 libpoppler-qt2
@@ -1894,10 +1932,12 @@ libquicktime
 libquicktime-devel
 libraptor-devel
 libraptor1
+librasqal0
 libraw1394
 libraw1394-8
 libraw1394-devel
 libreadline5
+libredland0
 libreiserfs
 librpcsecgss
 librsvg
@@ -1907,7 +1947,7 @@ libsap
 libsensors3
 libsensors4
 libsexy
-libshout
+libshout3
 libsidplay
 libsidplay1
 libsigc++12
@@ -1935,6 +1975,7 @@ libstdc++-devel
 libstdc++43
 libstdc++43-32bit
 libstdc++43-devel
+libstrigi0
 libstroke
 libstroke-devel
 libsvg
@@ -2023,13 +2064,12 @@ lineak_kde
 lineak_xosdplugin
 lineakd
 links
-linphone
-linphone-applet
 linux-atm-lib
 linux-kernel-headers
 linux32
 lirc
 lirc-kmp-default
+lirc-kmp-xen
 log4j
 log4net
 logrotate
@@ -2196,6 +2236,7 @@ ncurses-32bit
 ncurses-devel
 ndiswrapper
 ndiswrapper-kmp-default
+ndiswrapper-kmp-xen
 net-snmp
 net-tools
 netacct
@@ -2205,7 +2246,6 @@ netcfg
 netdate
 netdiag
 netpbm
-newt
 nfs-client
 nfs-kernel-server
 nfsidmap
@@ -2218,11 +2258,13 @@ noteedit
 notification-daemon
 notification-daemon-xfce
 novfs-kmp-default
+novfs-kmp-xen
 nscd
 nspluginwrapper
 nss-mdns
 nss-mdns-32bit
 nss_ldap
+nss_ldap-32bit
 ntfs-3g
 ntfsprogs
 ntfsprogs-fuse
@@ -2239,6 +2281,7 @@ ocfs2console
 ocrad
 oggztools
 omnibook-kmp-default
+omnibook-kmp-xen
 opal
 open-iscsi
 openSUSE-release
@@ -2280,6 +2323,7 @@ openvpn
 opera
 opie
 oprofile
+optipng
 orage
 orbit
 orbit2
@@ -2299,7 +2343,9 @@ pam-doc
 pam-modules
 pam_cifs
 pam_krb5
+pam_krb5-32bit
 pam_ldap
+pam_ldap-32bit
 pam_mount
 pam_smb
 pam_ssh
@@ -2312,6 +2358,7 @@ pango-devel
 pango-doc
 par
 parted
+passivetex
 patch
 patchrpm
 patchutils
@@ -2594,6 +2641,7 @@ php5-sysvmsg
 php5-sysvsem
 php5-sysvshm
 php5-tidy
+php5-timezonedb
 php5-tokenizer
 php5-wddx
 php5-xmlreader
@@ -2610,6 +2658,7 @@ pidgin-otr
 pilot
 pilot-link
 pin
+pine
 pinentry
 pinentry-gtk2
 pinentry-qt
@@ -2657,11 +2706,13 @@ procinfo
 procmail
 procps
 providers
+psgml
 psgplay
 psiconv
 psmisc
 pstoedit
 pstoedit-devel
+psutils
 pth
 pwdutils
 pwgen
@@ -2796,6 +2847,7 @@ sax2-ident
 sax2-libsax
 sax2-libsax-perl
 sax2-tools
+saxon
 sazanami-fonts
 sbl
 scim
@@ -2825,8 +2877,6 @@ screen
 scrollkeeper
 scsi
 scsirastools
-seahorse
-seahorse-lang
 seamonkey
 seamonkey-dom-inspector
 seamonkey-irc
@@ -2856,7 +2906,6 @@ siga
 sil-charis
 sil-doulos
 silc-toolkit
-siproxd
 sisctrl
 sitar
 skencil
@@ -2880,6 +2929,7 @@ snmp-mibs
 socat
 solarwolf
 solfege
+soprano
 sound-juicer
 sound-juicer-lang
 soundtouch
@@ -2917,6 +2967,7 @@ sumf
 supertux
 suse-build-key
 suseRegister
+susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -2927,6 +2978,7 @@ susehelp_hu
 susehelp_it
 susevbox
 suspend
+svg-schema
 swig
 sysconfig
 sysfsutils
@@ -2956,6 +3008,7 @@ tcpd-devel
 tcpdump
 tcsh
 tdom
+tei-roma
 tei-xsl-stylesheets
 tei_4
 tellico
@@ -3003,11 +3056,18 @@ tktable
 tla
 tls
 tomboy
+tomcat55
+tomcat55-common-lib
+tomcat55-jasper
+tomcat55-jsp-2_0-api
+tomcat55-server-lib
+tomcat55-servlet-2_4-api
 tomoe
 totem
 totem-plugin
 tpb
 traffic-vis
+trang
 transfig
 transset
 tree
@@ -3056,6 +3116,7 @@ usbview
 utempter
 util-linux
 uvcvideo-kmp-default
+uvcvideo-kmp-xen
 v4l-conf
 v4l-tools
 vacation
@@ -3106,6 +3167,7 @@ wireshark
 wl-xemacs
 wlan-ng
 wlan-ng-kmp-default
+wlan-ng-kmp-xen
 wm-icons
 wodim
 wol
@@ -3231,8 +3293,12 @@ xmgrace
 xml-commons
 xml-commons-apis
 xml-commons-resolver
+xml-commons-which
 xmlcharent
+xmlformat
 xmlstarlet
+xmltex
+xmlto
 xmoto
 xmset
 xntp
@@ -3241,6 +3307,7 @@ xorg-x11-Xvnc
 xorg-x11-devel
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-unichrome
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-fonts-devel
@@ -3312,6 +3379,7 @@ xrestop
 xsane
 xscreensaver
 xsidplay
+xslide
 xsp
 xstroke
 xterm
@@ -3327,7 +3395,6 @@ yast2-add-on-creator
 yast2-apparmor
 yast2-autofs
 yast2-backup
-yast2-bluetooth
 yast2-bootloader
 yast2-ca-management
 yast2-control-center
@@ -3336,6 +3403,7 @@ yast2-control-center-qt
 yast2-core
 yast2-core-devel
 yast2-country
+yast2-country-data
 yast2-devel-doc
 yast2-devtools
 yast2-dhcp-server
@@ -3412,7 +3480,7 @@ yast2-support
 yast2-sysconfig
 yast2-testsuite
 yast2-tftp-server
-yast2-theme-openSUSE
+yast2-theme-openSUSE-Crystal
 yast2-trans-af
 yast2-trans-ar
 yast2-trans-bg

@@ -24,7 +24,6 @@ SDL
 SuSEfirewall2
 a2ps
 aaa_base
-aaa_skel
 aalib
 acl
 acpid
@@ -51,6 +50,7 @@ audit-libs-32bit
 autofs
 autoyast2-installation
 avahi
+avahi-lang
 awesfx
 banshee
 banshee-engine-gst
@@ -108,6 +108,7 @@ cups-libs-32bit
 curl
 curl-ca-bundle
 cyrus-sasl
+cyrus-sasl-32bit
 cyrus-sasl-digestmd5
 cyrus-sasl-plain
 cyrus-sasl-saslauthd
@@ -142,7 +143,6 @@ eel
 eject
 enchant
 eog
-esound
 ethtool
 evince
 evolution
@@ -304,9 +304,11 @@ kbd
 kdelibs3-default-style
 kernel-default
 keyutils-libs
+keyutils-libs-32bit
 klogd
 kpartx
 krb5
+krb5-32bit
 krb5-client
 ldapcpplib
 less
@@ -331,9 +333,10 @@ libbz2-1
 libcap
 libcdio7
 libcom_err2
+libcom_err2-32bit
 libcroco-0_6-3
 libcurl4
-libdaemon
+libdaemon0
 libdb-4_5
 libdb-4_5-32bit
 libdjvulibre15
@@ -341,6 +344,7 @@ libdrm
 libdrm-32bit
 libelf1
 libenchant1
+libesd0
 libevent
 libexif
 libexiv2
@@ -364,7 +368,7 @@ libgda-lang
 libgdiplus
 libgimpprint
 libglade2
-libgmime-2_0-2
+libgmime-2_0-3
 libgnome
 libgnome-certauth0
 libgnomecanvas
@@ -413,7 +417,7 @@ libnotify
 libnotify1
 libnscd
 libnvtv
-libogg
+libogg0
 liboil
 libopencdk10
 libopenct1
@@ -421,11 +425,16 @@ libopensc2
 libopenssl0_9_8
 libopenssl0_9_8-32bit
 libpcap
-libpng
-libpng-32bit
+libpng12-0
+libpng12-0-32bit
 libpoppler-glib2
 libpoppler2
 libpurple
+libqt4
+libqt4-dbus-1
+libqt4-qt3support
+libqt4-sql
+libqt4-x11
 libreadline5
 librpcsecgss
 librsvg
@@ -522,6 +531,7 @@ nspluginwrapper
 nss-mdns
 nss-mdns-32bit
 nss_ldap
+nss_ldap-32bit
 ntfs-3g
 ntfsprogs
 numactl
@@ -529,6 +539,7 @@ numlockx
 openSUSE-release
 openct
 openldap2-client
+openldap2-client-32bit
 openobex
 opensc
 openslp
@@ -547,7 +558,9 @@ pam-32bit
 pam-config
 pam-modules
 pam_krb5
+pam_krb5-32bit
 pam_ldap
+pam_ldap-32bit
 pam_thinkfinger
 pango
 pango-32bit
@@ -660,6 +673,7 @@ sox
 spamassassin
 splashy
 sqlite
+sqlite2
 startup-notification
 strace
 sudo
@@ -710,8 +724,6 @@ wlan-ng-kmp-default
 wodim
 wpa_supplicant
 wv
-wvdial
-wvstreams
 x11-input-fujitsu
 x11-input-synaptics
 x11-input-wacom
@@ -735,6 +747,7 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-unichrome
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit
@@ -785,12 +798,12 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-backup
-yast2-bluetooth
 yast2-bootloader
 yast2-control-center
 yast2-control-center-gnome
 yast2-core
 yast2-country
+yast2-country-data
 yast2-fingerprint-reader
 yast2-firewall
 yast2-gtk
