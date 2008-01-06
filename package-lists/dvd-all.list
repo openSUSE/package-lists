@@ -107,6 +107,7 @@ OpenOffice_org-writer
 OpenOffice_org-zh-CN
 OpenOffice_org-zh-TW
 PolicyKit
+PolicyKit-doc
 QtDMM
 RealPlayer
 SDL
@@ -135,6 +136,7 @@ a2ps
 a2ps-h
 a2ps-perl-ja
 aaa_base
+aaa_skel
 aalib
 aalib-devel
 abcde
@@ -164,6 +166,7 @@ alacarte
 alacarte-lang
 alevt
 alien
+alpine
 alsa
 alsa-devel
 alsa-firmware
@@ -477,6 +480,7 @@ cifs-mount
 circuslinux
 ckermit
 clamav
+classpath-jta
 clisp
 cloop-kmp-iseries64
 cloop-kmp-ppc64
@@ -614,6 +618,7 @@ diffmk
 diffstat
 diffutils
 digikam
+digikam-lang
 digikamimageplugins
 digikamimageplugins-superimpose
 ding
@@ -625,6 +630,7 @@ docbook-dsssl-stylesheets
 docbook-toys
 docbook-utils
 docbook-xml-website
+docbook-xsl-stylesheets
 docbook2x
 docbook_3
 docbook_4
@@ -876,6 +882,7 @@ glib2-doc
 glib2-x86
 glibc
 glibc-32bit
+glibc-64bit
 glibc-devel
 glibc-html
 glibc-i18ndata
@@ -979,6 +986,7 @@ gnomeicu-lang
 gnopernicus
 gnopernicus-devel
 gnopernicus-lang
+gnu-crypto
 gnu-getopt
 gnu-jaf
 gnu-javamail
@@ -1121,6 +1129,7 @@ html2ps
 html2text
 hwinfo
 hwinfo-devel
+hydrogen
 hylafax
 hylafax-client
 i4l-base
@@ -1217,6 +1226,8 @@ ispell-russian
 ispell-spanish
 ispell-swedish
 itcl
+itrace
+itrace-kmp-ppc64
 ivman
 ivtv
 ivtv-firmware
@@ -1231,6 +1242,7 @@ jaaa
 jack
 jack-devel
 jack-freebob
+jack-rack
 jackEQ
 jadetex
 jakarta-commons-beanutils
@@ -1262,6 +1274,7 @@ java-1_5_0-sun-plugin
 javamail
 jdepend
 jedit
+jessie
 jfbterm
 jfsutils
 jhead
@@ -1337,6 +1350,7 @@ kde4-kspaceduel
 kde4-ksquares
 kde4-ksudoku
 kde4-kwin
+kde4-kwin4
 kde4-kwrite
 kde4-l10n-cs
 kde4-l10n-da
@@ -1469,6 +1483,7 @@ kdump
 kernel-default
 kernel-docs
 kernel-pae
+kernel-ppc64
 kernel-source
 kernel-syms
 kernel-xen
@@ -1493,6 +1508,7 @@ kio_slp
 kio_sysinfo
 kiosktool
 kipi-plugins
+kipi-plugins-lang
 kisdnwatch
 kismet
 kitchensync
@@ -1714,6 +1730,7 @@ libcroco-devel
 libcroco-x86
 libcurl-devel
 libcurl4
+libdaemon
 libdaemon0
 libdar-4
 libdb-4_4
@@ -1795,6 +1812,7 @@ libglade2-32bit
 libglade2-devel
 libglade2-doc
 libgladeui-1-5
+libgmime-2_0-2
 libgmime-2_0-3
 libgnome
 libgnome-32bit
@@ -1904,6 +1922,7 @@ libkdegames4-devel
 libkdepimlibs4
 libkdepimlibs4-devel
 libkexiv2
+libkexiv2-3
 libkexiv2-devel
 libkipi0
 libkonq4
@@ -1914,8 +1933,11 @@ liblazy1
 liblcms-devel
 liblcms-x86
 liblcms0
-liblcms0-32bit
+liblcms1
+liblcms1-32bit
 liblo
+liblrdf
+liblrdf2
 libltdl-3
 libltdl-3-32bit
 libmal
@@ -1959,6 +1981,7 @@ libofa0
 libofx
 libofx-devel
 libofx3
+libogg
 libogg-devel
 libogg0
 liboggz
@@ -1987,6 +2010,7 @@ libopensync-plugin-python-module
 libopensync-plugin-sunbird
 libopensync-plugin-syncml
 libopensync-tools
+libosip2
 libotf
 libotf-devel
 libotr2
@@ -1994,6 +2018,7 @@ libpcap
 libpisock-devel
 libpisock9
 libpisync0
+libpng
 libpng-devel
 libpng-x86
 libpng12-0
@@ -2033,11 +2058,13 @@ librpcsecgss
 librsvg
 librsvg-devel
 librsvg-x86
+librtas
 libsamplerate
 libsap
 libsensors3
 libsensors4
 libsexy
+libshout
 libshout3
 libsidplay
 libsidplay1
@@ -2060,6 +2087,7 @@ libsoprano-devel
 libsoprano4
 libsoup
 libsoup-devel
+libspe
 libspeex
 libssui
 libssui0
@@ -2078,6 +2106,8 @@ libsyncml-tools
 libsyncml0
 libtabe
 libtabe-devel
+libtasn1
+libtasn1-3
 libtheora0
 libthinkfinger
 libtidy
@@ -2161,6 +2191,8 @@ lineak_kde
 lineak_xosdplugin
 lineakd
 links
+linphone
+linphone-applet
 linux-atm-lib
 linux-kernel-headers
 linux32
@@ -2274,6 +2306,7 @@ mono-winforms
 monodevelop
 monodoc-core
 motv
+mouseemu
 mousepad
 mozilla-nspr
 mozilla-nspr-32bit
@@ -2369,6 +2402,7 @@ nscd
 nspluginwrapper
 nss-mdns
 nss-mdns-32bit
+nss-mdns-64bit
 nss_ldap
 nss_ldap-32bit
 ntfs-3g
@@ -2489,6 +2523,7 @@ pcsc-ccid
 pcsc-cyberjack
 pcsc-lite
 pcsc-lite-devel
+pdisk
 penguin-command
 perl
 perl-Algorithm-Diff
@@ -2804,6 +2839,8 @@ postgresql-contrib
 postgresql-devel
 postgresql-libs
 postgresql-server
+powerpc-utils
+powerpc32
 powerprefs
 powersave
 powersave-devel
@@ -2997,6 +3034,8 @@ screen
 scrollkeeper
 scsi
 scsirastools
+seahorse
+seahorse-lang
 seamonkey
 seamonkey-dom-inspector
 seamonkey-irc
@@ -3027,6 +3066,7 @@ siga
 sil-charis
 sil-doulos
 silc-toolkit
+siproxd
 sisctrl
 sitar
 skencil
@@ -3544,6 +3584,7 @@ yast2-add-on-creator
 yast2-apparmor
 yast2-autofs
 yast2-backup
+yast2-bluetooth
 yast2-bootloader
 yast2-ca-management
 yast2-control-center
@@ -3630,7 +3671,7 @@ yast2-support
 yast2-sysconfig
 yast2-testsuite
 yast2-tftp-server
-yast2-theme-openSUSE-Crystal
+yast2-theme-openSUSE
 yast2-trans-af
 yast2-trans-ar
 yast2-trans-bg

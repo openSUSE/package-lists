@@ -17,6 +17,11 @@ do
   rm -rf $i/CD1
 done
 
+if test -z `ls -1 $dir_i586/patterns-openSUSE-KDE-cd*.rpm 2> /dev/null`; then
+  echo "No patterns: $dir_i586/patterns-openSUSE-KDE-cd*.rpm"
+  exit 1
+fi
+
 pushd kde-cd.i586
   unrpm $dir_i586/patterns-openSUSE-KDE-cd*.rpm
 popd
