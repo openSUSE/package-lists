@@ -11,7 +11,7 @@ IlmBase
 Mesa
 Mesa-devel
 NetworkManager
-NetworkManager-gnome
+NetworkManager-glib
 OpenEXR
 PolicyKit
 PolicyKit-doc
@@ -22,7 +22,6 @@ aaa_base
 aalib
 acroread
 acroread-cmaps
-acroread-fonts-ja
 acroread-fonts-zh_CN
 acroread-fonts-zh_TW
 anthy
@@ -126,7 +125,6 @@ dbus-1-x11
 dejavu
 desktop-file-utils
 desktop-translations
-dhcdbd
 dhcp
 dhcp-client
 dialog
@@ -232,7 +230,6 @@ icedax
 indent
 info
 insserv
-iproute2
 iso-codes
 ispell
 ispell-american
@@ -377,6 +374,7 @@ libsmbclient
 libsmbios-libs
 libsnmp15
 libsoup
+libsqlite3-0
 libssui
 libssui0
 libstdc++-devel
@@ -454,7 +452,6 @@ netcfg
 netpbm
 nkf
 notification-daemon-xfce
-nscd
 nss-mdns
 openSUSE-release
 openldap2-client
@@ -536,10 +533,8 @@ skim-scim-skk
 skkdic
 slang
 snmp-mibs
-sqlite
 startup-notification
 sudo
-sysconfig
 sysfsutils
 sysvinit
 tack

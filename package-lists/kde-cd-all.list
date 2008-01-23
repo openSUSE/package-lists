@@ -1,6 +1,5 @@
 3ddiag
 915resolution
-CheckHardware
 ConsoleKit
 ConsoleKit-32bit
 DirectFB
@@ -11,9 +10,8 @@ Mesa
 Mesa-32bit
 MozillaFirefox
 NetworkManager
+NetworkManager-glib
 NetworkManager-kde
-NetworkManager-vpnc
-NetworkManager-vpnc-kde
 OpenEXR
 OpenEXR-32bit
 OpenOffice_org
@@ -49,6 +47,7 @@ apparmor-utils
 arts
 aspell
 aspell-32bit
+aspell-de
 aspell-en
 atk
 atk-32bit
@@ -74,7 +73,9 @@ bluez-libs
 bluez-utils
 bootsplash
 bootsplash-theme-SuSE
+bundle-lang-common-de
 bundle-lang-common-en
+bundle-lang-kde-de
 bundle-lang-kde-en
 bzip2
 cabextract
@@ -118,17 +119,15 @@ dbus-1-x11
 dcraw
 dejavu
 deltarpm
-desktop-data-SuSE
+desktop-data-openSUSE
 desktop-file-utils
 device-mapper
-dhcdbd
 dhcp
 dhcp-client
 dhcpcd
 dialog
 diffutils
 digikam
-digikam-lang
 digikamimageplugins
 dirmngr
 dmraid
@@ -160,8 +159,6 @@ fribidi
 fvwm2
 gail
 gawk
-gcc-gij
-gcc43-gij
 gconf2
 gdb
 gdbm
@@ -228,7 +225,6 @@ irda
 irqbalance
 iwl3945-ucode
 iwl4965-ucode
-java-1_5_0-gcj-compat
 jfsutils
 jpackage-utils
 jpeg
@@ -239,6 +235,7 @@ kcm_gtk
 kde4-filesystem
 kde4-krdc
 kde4-krfb
+kde4-l10n-de
 kdeaddons3-konqueror
 kdeartwork3-kscreensaver
 kdebase3
@@ -281,7 +278,6 @@ kio_iso
 kio_slp
 kio_sysinfo
 kipi-plugins
-kipi-plugins-lang
 kitchensync
 klogd
 konversation
@@ -330,6 +326,7 @@ libcurl4
 libdaemon0
 libdb-4_5
 libdb-4_5-32bit
+libdbus-1-qt3-0
 libdns_sd
 libdns_sd-32bit
 libdrm
@@ -346,10 +343,8 @@ libext2fs2
 libfuse2
 libgcc43
 libgcc43-32bit
-libgcj43
-libgcj43-jar
-libgcrypt
-libgcrypt-32bit
+libgcrypt11
+libgcrypt11-32bit
 libgimpprint
 libglade2
 libgnome
@@ -396,7 +391,6 @@ libmpcdec5
 libmpfr1
 libmtp7
 libmusicbrainz4
-libmysqlclient15
 libneon27
 libnetpbm10
 libnjb
@@ -439,6 +433,7 @@ libsndfile
 libsnmp15
 libsoprano4
 libspeex
+libsqlite3-0
 libstdc++43
 libstdc++43-32bit
 libstrigi0
@@ -447,11 +442,13 @@ libtasn1
 libtasn1-3
 libtheora0
 libthinkfinger
+libthinkfinger-32bit
 libtiff3
 libtiff3-32bit
 libtunepimp
 libtunepimp5
 libusb
+libusb-32bit
 libuuid1
 libvisual
 libvisual-plugins
@@ -510,6 +507,7 @@ nss_ldap
 nss_ldap-32bit
 ntfs-3g
 ntfsprogs
+ntp
 numactl
 numlockx
 obexftp
@@ -538,6 +536,7 @@ pam_krb5-32bit
 pam_ldap
 pam_ldap-32bit
 pam_thinkfinger
+pam_thinkfinger-32bit
 pango
 pango-32bit
 parted
@@ -550,20 +549,14 @@ pcre-32bit
 pcsc-lite
 perl
 perl-Bootloader
-perl-Compress-Raw-Zlib
-perl-Compress-Zlib
 perl-Config-Crontab
 perl-Crypt-SSLeay
-perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
-perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
-perl-IO-Compress-Base
-perl-IO-Compress-Zlib
 perl-Net-Daemon
 perl-Parse-RecDescent
 perl-PlRPC
@@ -590,7 +583,6 @@ popt
 portaudio
 portmap
 postfix
-postgresql-libs
 powersave
 powersave-libs
 ppp
@@ -607,6 +599,7 @@ qt3-32bit
 qtcurve-gtk2
 qtcurve-gtk2-32bit
 qtcurve-kde
+quota
 recode
 reiserfs
 release-notes
@@ -631,8 +624,8 @@ smpppd
 snmp-mibs
 soprano
 splashy
-sqlite
 sqlite2
+sqlite3
 startup-notification
 strace
 strigi
@@ -641,6 +634,7 @@ sumf
 suse-build-key
 suseRegister
 susehelp
+susehelp_de
 susehelp_en
 suspend
 sysconfig
@@ -652,19 +646,17 @@ tar
 tcpd
 tightvnc
 timezone
-tpctl
-tpctl-kmp-default
 udev
 ulimit
 unzip
 update-alternatives
 utempter
 util-linux
+uuid-runtime
 v4l-conf
 vim
 vim-base
 vorbis-tools
-vpnc
 w3m
 wdiff
 wget
@@ -692,7 +684,6 @@ xine-lib
 xinetd
 xkeyboard-config
 xli
-xntp
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
@@ -781,8 +772,6 @@ yast2-registration
 yast2-repair
 yast2-restore
 yast2-runlevel
-yast2-samba-client
-yast2-samba-server
 yast2-scanner
 yast2-schema
 yast2-security
@@ -794,6 +783,7 @@ yast2-sudo
 yast2-support
 yast2-sysconfig
 yast2-theme-openSUSE
+yast2-trans-de
 yast2-trans-en_US
 yast2-trans-stats
 yast2-transfer

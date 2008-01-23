@@ -3,6 +3,7 @@
   <setup arch="GEN_ARCH">
     <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
+    <locale name="de"/>
 <!-- ignoring some lang provides -->
     <lock package="apparmor-admin_en-pdf"/>
     <lock package="apparmor-admin_en"/>
@@ -73,6 +74,17 @@
     <lock package="java-1_6_0-sun"/>
     <lock package="gimp"/>
     <lock package="ufraw"/>
+    <!-- recommended by Ooo -->
+    <lock package="java-1_5_0-gcj-compat"/>
+    <lock package="OpenOffice_org-de"/>
+    <lock package="man-pages-de"/>
+    <lock package="opensuse-manual_de"/>
+    <lock package="OpenOffice_org-templates-de"/>
+    <lock package="OpenOffice_org-thesaurus-de"/>
+    <lock package="myspell-german"/>
+    <lock package="MozillaFirefox-translations"/>
+    <lock package="kde3-i18n-de"/>
+    <lock package="hplip-hpijs"/>
 <!-- INTERNALS -->
   </setup>
   <trial>

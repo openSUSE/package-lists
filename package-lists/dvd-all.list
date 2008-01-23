@@ -5,7 +5,6 @@ BitTorrent
 CID-keyed-fonts-MOE
 CID-keyed-fonts-Wada
 CID-keyed-fonts-WadaH
-CheckHardware
 ConsoleKit
 ConsoleKit-32bit
 Crystalcursors
@@ -51,10 +50,8 @@ NetworkManager-gnome
 NetworkManager-kde
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
-NetworkManager-openvpn-kde
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
-NetworkManager-vpnc-kde
 OpenEXR
 OpenEXR-32bit
 OpenEXR-devel
@@ -136,7 +133,6 @@ a2ps
 a2ps-h
 a2ps-perl-ja
 aaa_base
-aaa_skel
 aalib
 aalib-devel
 abcde
@@ -146,7 +142,6 @@ acl
 acpid
 acroread
 acroread-cmaps
-acroread-fonts-ja
 acroread-fonts-zh_CN
 acroread-fonts-zh_TW
 acx-kmp-default
@@ -312,12 +307,6 @@ avahi-x86
 avmailgate
 awesfx
 axis
-banshee
-banshee-devel
-banshee-engine-gst
-banshee-plugins-DAAP
-banshee-plugins-default
-banshee-plugins-extra
 barcode
 bash
 bash-doc
@@ -348,6 +337,7 @@ binutils
 bison
 black-box
 blackbox
+blender
 blktrace
 blt
 bluez-cups
@@ -480,7 +470,6 @@ cifs-mount
 circuslinux
 ckermit
 clamav
-classpath-jta
 clisp
 cloop-kmp-iseries64
 cloop-kmp-ppc64
@@ -563,6 +552,9 @@ dasher
 dasher-lang
 datakiosk
 dazuko
+dazuko-kmp-default
+dazuko-kmp-pae
+dazuko-kmp-xen
 db-utils
 db1
 db43
@@ -595,7 +587,7 @@ delayacct-utils
 delta
 deltarpm
 deskbar-applet
-desktop-data-SuSE
+desktop-data-openSUSE
 desktop-file-utils
 desktop-translations
 detex
@@ -603,14 +595,13 @@ devhelp
 devhelp-devel
 devhelp-lang
 device-mapper
-dhcdbd
 dhcp
 dhcp-client
 dhcp-relay
 dhcp-server
 dhcp-tools
-dhcp6
 dhcpcd
+dhcpv6
 dia
 dia-lang
 dialog
@@ -618,7 +609,6 @@ diffmk
 diffstat
 diffutils
 digikam
-digikam-lang
 digikamimageplugins
 digikamimageplugins-superimpose
 ding
@@ -626,12 +616,14 @@ dirdiff
 dirmngr
 djvulibre
 dmraid
+dnsmasq
 docbook-dsssl-stylesheets
 docbook-toys
 docbook-utils
 docbook-xml-website
 docbook-xsl-stylesheets
 docbook2x
+docbook5-xsl-stylesheets
 docbook_3
 docbook_4
 docbook_5
@@ -692,7 +684,6 @@ epiphany-extensions-lang
 epiphany-lang
 epos
 esound
-esound-devel
 ethtool
 evince
 evms
@@ -700,9 +691,11 @@ evms-gui
 evolution
 evolution-data-server
 evolution-data-server-devel
+evolution-data-server-lang
 evolution-devel
 evolution-exchange
 evolution-exchange-lang
+evolution-lang
 evolution-pilot
 evolution-sharp
 evolution-webcal
@@ -797,7 +790,6 @@ gail-32bit
 gail-devel
 gail-doc
 galago-daemon
-galago-sharp
 gamix
 garlic
 gau
@@ -1019,7 +1011,6 @@ graphviz-devel
 graphviz-gd
 grass
 grep
-grepmail
 grip
 grip-lang
 groff
@@ -1067,6 +1058,7 @@ gtkglext
 gtkhtml-sharp2
 gtkhtml2
 gtkhtml2-devel
+gtkhtml2-lang
 gtkiterm
 gtklp
 gtkmm2
@@ -1182,7 +1174,6 @@ intlfnts
 intlfonts-ttf
 intltool
 ipadic
-ipod-sharp
 iproute2
 ipsec-tools
 iptables
@@ -1329,6 +1320,7 @@ kde4-kbattleship
 kde4-kblackbox
 kde4-kbounce
 kde4-keditbookmarks
+kde4-kfourinline
 kde4-kgoldrunner
 kde4-kiriki
 kde4-kjumpingcube
@@ -1350,10 +1342,7 @@ kde4-kspaceduel
 kde4-ksquares
 kde4-ksudoku
 kde4-kwin
-kde4-kwin4
 kde4-kwrite
-kde4-l10n-cs
-kde4-l10n-da
 kde4-l10n-de
 kde4-l10n-en_GB
 kde4-l10n-es
@@ -1508,7 +1497,6 @@ kio_slp
 kio_sysinfo
 kiosktool
 kipi-plugins
-kipi-plugins-lang
 kisdnwatch
 kismet
 kitchensync
@@ -1638,6 +1626,7 @@ libMagick10
 libPropList
 libQtTapioca0
 libQtTelepathy0
+libQtWebKit4
 libWand10
 libXalan-c-110
 libXerces-c-27
@@ -1730,7 +1719,6 @@ libcroco-devel
 libcroco-x86
 libcurl-devel
 libcurl4
-libdaemon
 libdaemon0
 libdar-4
 libdb-4_4
@@ -1738,8 +1726,9 @@ libdb-4_5
 libdb-4_5-32bit
 libdb-4_5-devel
 libdb-4_5-x86
+libdbus-1-qt3-0
 libdc1394
-libdc1394-20
+libdc1394-22
 libdigikam-devel
 libdjvulibre15
 libdnet1
@@ -1753,11 +1742,13 @@ libdv-devel
 libdv4
 libdvdnav
 libdvdread3
+libeXosip2-4
 libedit0
 libelf0
 libelf1
 libenchant1
 liberation-fonts
+libesd-devel
 libesd0
 libesd0-32bit
 libevent
@@ -1791,9 +1782,10 @@ libgcj43-devel
 libgcj43-jar
 libgcj_bc43
 libgcrypt
-libgcrypt-32bit
 libgcrypt-devel
 libgcrypt-x86
+libgcrypt11
+libgcrypt11-32bit
 libgda
 libgda-3_0
 libgda-3_0-3
@@ -1804,6 +1796,7 @@ libgda-3_0-postgres
 libgda-3_0-sqlite
 libgda-lang
 libgdiplus
+libgdiplus0
 libgfortran43
 libghttp
 libgimpprint
@@ -1812,7 +1805,7 @@ libglade2-32bit
 libglade2-devel
 libglade2-doc
 libgladeui-1-5
-libgmime-2_0-2
+libgluezilla0
 libgmime-2_0-3
 libgnome
 libgnome-32bit
@@ -1921,7 +1914,6 @@ libkdegames4
 libkdegames4-devel
 libkdepimlibs4
 libkdepimlibs4-devel
-libkexiv2
 libkexiv2-3
 libkexiv2-devel
 libkipi0
@@ -1932,11 +1924,9 @@ libksba-devel
 liblazy1
 liblcms-devel
 liblcms-x86
-liblcms0
 liblcms1
 liblcms1-32bit
 liblo
-liblrdf
 liblrdf2
 libltdl-3
 libltdl-3-32bit
@@ -1953,7 +1943,7 @@ libmng-devel
 libmng-x86
 libmpcdec5
 libmpfr1
-libmspack
+libmspack0
 libmsrpc
 libmtp7
 libmudflap43
@@ -1981,7 +1971,6 @@ libofa0
 libofx
 libofx-devel
 libofx3
-libogg
 libogg-devel
 libogg0
 liboggz
@@ -2018,7 +2007,6 @@ libpcap
 libpisock-devel
 libpisock9
 libpisync0
-libpng
 libpng-devel
 libpng-x86
 libpng12-0
@@ -2064,7 +2052,6 @@ libsap
 libsensors3
 libsensors4
 libsexy
-libshout
 libshout3
 libsidplay
 libsidplay1
@@ -2089,6 +2076,7 @@ libsoup
 libsoup-devel
 libspe
 libspeex
+libsqlite3-0
 libssui
 libssui0
 libstdc++-devel
@@ -2110,6 +2098,7 @@ libtasn1
 libtasn1-3
 libtheora0
 libthinkfinger
+libthinkfinger-32bit
 libtidy
 libtiff-devel
 libtiff3
@@ -2244,7 +2233,6 @@ man-pages
 man-pages-cs
 man-pages-de
 man-pages-es
-man-pages-fr
 man-pages-it
 man-pages-ja
 man-pages-pl
@@ -2286,6 +2274,7 @@ mlterm-uim
 mmv
 module-init-tools
 moneyplex
+mono-addins
 mono-basic
 mono-core
 mono-data
@@ -2409,6 +2398,7 @@ ntfs-3g
 ntfsprogs
 ntfsprogs-fuse
 ntop
+ntp
 numactl
 numlockx
 nvtv
@@ -2441,6 +2431,7 @@ openldap2-client-x86
 openldap2-devel
 openmotif
 openmotif-libs
+openntpd
 openobex
 openobex-devel
 openobex-glib
@@ -2495,6 +2486,7 @@ pam_mount
 pam_smb
 pam_ssh
 pam_thinkfinger
+pam_thinkfinger-32bit
 pan
 pan-lang
 pango
@@ -2534,7 +2526,6 @@ perl-Apache-DBI
 perl-Apache-Session
 perl-Apache-SessionX
 perl-AppConfig
-perl-Archive-Tar
 perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
@@ -2552,12 +2543,9 @@ perl-Chart
 perl-Class-Accessor
 perl-Class-Data-Inheritable
 perl-Class-Date
-perl-Class-Inspector
 perl-Class-MethodMaker
 perl-Class-Multimethods
 perl-Class-WhiteHole
-perl-Compress-Raw-Zlib
-perl-Compress-Zlib
 perl-Config-Crontab
 perl-Config-General
 perl-Config-IniFiles
@@ -2590,7 +2578,6 @@ perl-Encode-HanExtra
 perl-Encode-JIS2K
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
-perl-ExtUtils-ParseXS
 perl-ExtUtils-PkgConfig
 perl-File-HomeDir
 perl-File-MMagic
@@ -2618,13 +2605,10 @@ perl-HTML-Template-JIT
 perl-HTML-Tree
 perl-HTTP-DAV
 perl-HTTPS-Daemon
-perl-IO-Compress-Base
-perl-IO-Compress-Zlib
 perl-IO-Multiplex
 perl-IO-Socket-SSL
 perl-IO-String
 perl-IO-Stty
-perl-IO-Zlib
 perl-IO-stringy
 perl-IPC-Run
 perl-Image-Size
@@ -2641,9 +2625,7 @@ perl-MP3-Info
 perl-Mail-Mbox-MessageParser
 perl-MailTools
 perl-Mcrypt
-perl-Module-Build
 perl-Module-Info
-perl-Module-Pluggable
 perl-NKF
 perl-Net-DNS
 perl-Net-Daemon
@@ -2658,10 +2640,6 @@ perl-Net-XMPP
 perl-NetAddr-IP
 perl-Net_SSLeay
 perl-NetxAP
-perl-OpenCA-CRL
-perl-OpenCA-OpenSSL
-perl-OpenCA-REQ
-perl-OpenCA-X509
 perl-PDA-Pilot
 perl-PDL
 perl-Params-Validate
@@ -2669,11 +2647,8 @@ perl-Parse-RecDescent
 perl-Parse-Yapp
 perl-PerlMagick
 perl-PlRPC
-perl-Pod-Escapes
 perl-Pod-HtmlPsPdf
-perl-Pod-Simple
 perl-PostScript-Simple
-perl-Qt
 perl-Quantum-Superpositions
 perl-RPC-XML
 perl-SGMLS
@@ -2688,8 +2663,6 @@ perl-Socket6
 perl-Spreadsheet-WriteExcel
 perl-Template-Toolkit
 perl-TermReadKey
-perl-TermReadLine-Gnu
-perl-Test-Pod
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
@@ -2734,7 +2707,6 @@ perl-libapparmor
 perl-libconfigfile
 perl-libwww-perl
 perl-libxml-perl
-perl-razor-agents
 perl-spamassassin
 perlref
 permissions
@@ -2789,7 +2761,6 @@ php5-sysvmsg
 php5-sysvsem
 php5-sysvshm
 php5-tidy
-php5-timezonedb
 php5-tokenizer
 php5-wddx
 php5-xmlreader
@@ -2806,7 +2777,6 @@ pidgin-otr
 pilot
 pilot-link
 pin
-pine
 pinentry
 pinentry-gtk2
 pinentry-qt
@@ -3100,13 +3070,12 @@ spandsp
 spectcl
 speex
 splashy
-sqlite
-sqlite-devel
 sqlite2
 sqlite2-devel
+sqlite3
+sqlite3-devel
 squashfs
-squid
-squidGuard
+squid3
 src_vipa
 sshfs
 star
@@ -3216,7 +3185,6 @@ tkimg
 tktable
 tla
 tls
-tomboy
 tomcat55
 tomcat55-common-lib
 tomcat55-jasper
@@ -3228,9 +3196,6 @@ toshutils
 totem
 totem-plugin
 tpb
-tpctl
-tpctl-kmp-default
-tpctl-kmp-pae
 traffic-vis
 trang
 transfig
@@ -3280,6 +3245,7 @@ usbutils
 usbview
 utempter
 util-linux
+uuid-runtime
 uvcvideo-kmp-default
 uvcvideo-kmp-pae
 uvcvideo-kmp-ppc64
@@ -3473,7 +3439,6 @@ xmltex
 xmlto
 xmoto
 xmset
-xntp
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-devel
@@ -3578,13 +3543,13 @@ xvkbd
 xyaku
 xzgv
 yafc
+yafray
 yast2
 yast2-add-on
 yast2-add-on-creator
 yast2-apparmor
 yast2-autofs
 yast2-backup
-yast2-bluetooth
 yast2-bootloader
 yast2-ca-management
 yast2-control-center

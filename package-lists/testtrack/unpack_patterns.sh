@@ -65,13 +65,13 @@ popd
 
 
 pushd dvd5.i586
-  unrpm $dir_i586/patterns-openSUSE-dvd5*.rpm
+  unrpm `ls -1 $dir_i586/patterns-openSUSE.rpm $dir_i586/patterns-openSUSE-11*.i586.rpm 2> /dev/null`
 popd
 
 pushd dvd5.x86_64
-  unrpm $dir_x86_64/patterns-openSUSE-dvd5*.rpm
+  unrpm `ls -1 $dir_x86_64/patterns-openSUSE.rpm $dir_x86_64/patterns-openSUSE-11*.x86_64.rpm 2> /dev/null`
 popd
 
 pushd dvd5.ppc
-  unrpm $dir_ppc/patterns-openSUSE-dvd5*.rpm
+  unrpm `ls -1 $dir_ppc/patterns-openSUSE.rpm $dir_ppc/patterns-openSUSE-11*.ppc.rpm 2> /dev/null`
 popd

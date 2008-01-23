@@ -1,6 +1,5 @@
 3ddiag
 915resolution
-CheckHardware
 ConsoleKit
 DirectFB
 IlmBase
@@ -8,9 +7,8 @@ LibVNCServer
 Mesa
 MozillaFirefox
 NetworkManager
+NetworkManager-glib
 NetworkManager-kde
-NetworkManager-vpnc
-NetworkManager-vpnc-kde
 OpenEXR
 OpenOffice_org
 OpenOffice_org-Quickstarter
@@ -43,6 +41,7 @@ apparmor-profiles
 apparmor-utils
 arts
 aspell
+aspell-de
 aspell-en
 atk
 atmel-firmware
@@ -66,7 +65,9 @@ bluez-libs
 bluez-utils
 bootsplash
 bootsplash-theme-SuSE
+bundle-lang-common-de
 bundle-lang-common-en
+bundle-lang-kde-de
 bundle-lang-kde-en
 bzip2
 cabextract
@@ -105,17 +106,15 @@ dbus-1-x11
 dcraw
 dejavu
 deltarpm
-desktop-data-SuSE
+desktop-data-openSUSE
 desktop-file-utils
 device-mapper
-dhcdbd
 dhcp
 dhcp-client
 dhcpcd
 dialog
 diffutils
 digikam
-digikam-lang
 digikamimageplugins
 dirmngr
 dmraid
@@ -144,8 +143,6 @@ fribidi
 fvwm2
 gail
 gawk
-gcc-gij
-gcc43-gij
 gconf2
 gdb
 gdbm
@@ -206,7 +203,6 @@ ipw3945d
 irda
 iwl3945-ucode
 iwl4965-ucode
-java-1_5_0-gcj-compat
 jfsutils
 jpackage-utils
 jpeg
@@ -217,6 +213,7 @@ kcm_gtk
 kde4-filesystem
 kde4-krdc
 kde4-krfb
+kde4-l10n-de
 kdeaddons3-konqueror
 kdeartwork3-kscreensaver
 kdebase3
@@ -256,7 +253,6 @@ kio_iso
 kio_slp
 kio_sysinfo
 kipi-plugins
-kipi-plugins-lang
 kitchensync
 klogd
 konversation
@@ -295,6 +291,7 @@ libcroco-0_6-3
 libcurl4
 libdaemon0
 libdb-4_5
+libdbus-1-qt3-0
 libdns_sd
 libdrm
 libdvdread3
@@ -307,9 +304,7 @@ libexpat1
 libext2fs2
 libfuse2
 libgcc43
-libgcj43
-libgcj43-jar
-libgcrypt
+libgcrypt11
 libgimpprint
 libglade2
 libgnome
@@ -350,7 +345,6 @@ libmpcdec5
 libmpfr1
 libmtp7
 libmusicbrainz4
-libmysqlclient15
 libneon27
 libnetpbm10
 libnjb
@@ -391,6 +385,7 @@ libsndfile
 libsnmp15
 libsoprano4
 libspeex
+libsqlite3-0
 libstdc++43
 libstrigi0
 libstroke
@@ -453,6 +448,7 @@ nss-mdns
 nss_ldap
 ntfs-3g
 ntfsprogs
+ntp
 numlockx
 obexftp
 openSUSE-release
@@ -486,20 +482,14 @@ pcre
 pcsc-lite
 perl
 perl-Bootloader
-perl-Compress-Raw-Zlib
-perl-Compress-Zlib
 perl-Config-Crontab
 perl-Crypt-SSLeay
-perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
-perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
-perl-IO-Compress-Base
-perl-IO-Compress-Zlib
 perl-Net-Daemon
 perl-Parse-RecDescent
 perl-PlRPC
@@ -526,7 +516,6 @@ popt
 portaudio
 portmap
 postfix
-postgresql-libs
 powersave
 powersave-libs
 ppp
@@ -541,6 +530,7 @@ qlogic-firmware
 qt3
 qtcurve-gtk2
 qtcurve-kde
+quota
 recode
 reiserfs
 release-notes
@@ -565,8 +555,8 @@ smpppd
 snmp-mibs
 soprano
 splashy
-sqlite
 sqlite2
+sqlite3
 startup-notification
 strace
 strigi
@@ -575,6 +565,7 @@ sumf
 suse-build-key
 suseRegister
 susehelp
+susehelp_de
 susehelp_en
 suspend
 sysconfig
@@ -586,19 +577,17 @@ tar
 tcpd
 tightvnc
 timezone
-tpctl
-tpctl-kmp-default
 udev
 ulimit
 unzip
 update-alternatives
 utempter
 util-linux
+uuid-runtime
 v4l-conf
 vim
 vim-base
 vorbis-tools
-vpnc
 w3m
 wdiff
 wget
@@ -626,7 +615,6 @@ xine-lib
 xinetd
 xkeyboard-config
 xli
-xntp
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
@@ -698,8 +686,6 @@ yast2-registration
 yast2-repair
 yast2-restore
 yast2-runlevel
-yast2-samba-client
-yast2-samba-server
 yast2-scanner
 yast2-schema
 yast2-security
@@ -711,6 +697,7 @@ yast2-sudo
 yast2-support
 yast2-sysconfig
 yast2-theme-openSUSE
+yast2-trans-de
 yast2-trans-en_US
 yast2-trans-stats
 yast2-transfer

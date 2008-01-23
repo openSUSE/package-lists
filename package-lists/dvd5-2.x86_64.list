@@ -13,7 +13,7 @@ Mesa
 Mesa-32bit
 Mesa-devel
 NetworkManager
-NetworkManager-gnome
+NetworkManager-glib
 OpenEXR
 PolicyKit
 PolicyKit-doc
@@ -130,7 +130,6 @@ dbus-1-x11
 dejavu
 desktop-file-utils
 desktop-translations
-dhcdbd
 dhcp
 dhcp-client
 dialog
@@ -242,7 +241,6 @@ icedax
 indent
 info
 insserv
-iproute2
 iso-codes
 ispell
 ispell-american
@@ -394,6 +392,7 @@ libsmbclient
 libsmbios-libs
 libsnmp15
 libsoup
+libsqlite3-0
 libssui
 libssui0
 libstdc++-devel
@@ -474,7 +473,6 @@ netcfg
 netpbm
 nkf
 notification-daemon-xfce
-nscd
 nss-mdns
 nss-mdns-32bit
 openSUSE-release
@@ -558,10 +556,8 @@ skim-scim-skk
 skkdic
 slang
 snmp-mibs
-sqlite
 startup-notification
 sudo
-sysconfig
 sysfsutils
 sysvinit
 tack
