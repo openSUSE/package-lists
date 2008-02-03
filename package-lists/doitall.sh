@@ -14,3 +14,7 @@ cd ..
 fi
 
 ./difflist.sh
+
+cd update-tests
+./testall.sh
+

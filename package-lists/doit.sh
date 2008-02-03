@@ -2,11 +2,14 @@
 
 echo "kde-cd:"
 ./gen.sh kde-cd
+echo "kde-cd-non-oss:"
 ./gen.sh kde-cd-non_oss
 echo "gnome-cd:"
 ./gen.sh gnome-cd
+echo "gnome-cd-non-oss:"
 ./gen.sh gnome-cd-non_oss
 
+echo "non-oss:"
 ./non_oss.sh
 ./join.sh
 
