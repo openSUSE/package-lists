@@ -122,8 +122,6 @@ alsa-utils
 amarok
 amarok-libvisual
 amarok-yauap
-anjuta
-anjuta-lang
 ant
 ant-antlr
 ant-apache-bcel
@@ -163,8 +161,6 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-aqbanking
-aqbanking-lang
 arpwatch
 arpwatch-ethercodes
 art-sharp2
@@ -205,7 +201,6 @@ aufs
 aufs-kmp-default
 autoconf
 autofs
-autogen
 automake
 autoyast2
 autoyast2-installation
@@ -244,6 +239,7 @@ blktrace
 blt
 bluez-firmware
 bluez-gnome
+bluez-gnome-lang
 bluez-libs
 bluez-utils
 boo
@@ -258,6 +254,7 @@ brasero-lang
 bsd-games
 bsf
 bug-buddy
+bug-buddy-lang
 build
 bundle-lang-common-cs
 bundle-lang-common-da
@@ -458,6 +455,7 @@ enchant
 enchant-devel
 enscript
 eog
+eog-lang
 epiphany
 epiphany-devel
 epiphany-doc
@@ -481,6 +479,7 @@ exiftool
 exo
 expat
 expect
+extragear-plasma
 f-spot
 fam
 fam-devel
@@ -495,6 +494,7 @@ fetchmail
 fftw3
 file
 file-roller
+file-roller-lang
 fileshareset
 filesystem
 fillup
@@ -533,6 +533,7 @@ galago-daemon
 galago-sharp
 gawk
 gcalctool
+gcalctool-lang
 gcc
 gcc-c++
 gcc-fortran
@@ -554,11 +555,10 @@ gd
 gdb
 gdbm
 gdbm-devel
-gdl
-gdl-lang
 gdm
 gecko-sharp2
 gedit
+gedit-lang
 genisoimage
 gettext-runtime
 gettext-tools
@@ -591,8 +591,6 @@ gjdoc
 gjiten
 glade
 glade-sharp2
-glade3
-glade3-lang
 gle
 glib
 glib-devel
@@ -621,8 +619,6 @@ gnome-applets-lang
 gnome-audio
 gnome-bluetooth
 gnome-bluetooth-lang
-gnome-build
-gnome-build-lang
 gnome-certauth-devel
 gnome-commander
 gnome-common
@@ -641,6 +637,7 @@ gnome-keyring-devel
 gnome-keyring-manager
 gnome-keyring-pam
 gnome-mag
+gnome-mag-lang
 gnome-main-menu
 gnome-main-menu-devel
 gnome-media
@@ -668,6 +665,7 @@ gnome-speech-devel
 gnome-spell2
 gnome-spell2-lang
 gnome-system-monitor
+gnome-system-monitor-lang
 gnome-terminal
 gnome-terminal-lang
 gnome-themes
@@ -677,7 +675,6 @@ gnome-vfs-sharp2
 gnome-vfs2
 gnome-vfs2-devel
 gnome-vfs2-doc
-gnome-vfs2-lang
 gnome-volume-manager
 gnome-web-photo
 gnome2-SuSE
@@ -687,9 +684,6 @@ gnopernicus-devel
 gnopernicus-lang
 gnu-crypto
 gnu-jaf
-gnucash
-gnucash-docs
-gnucash-lang
 gnumeric
 gnumeric-lang
 gnutls
@@ -709,7 +703,6 @@ grep
 groff
 gsf-sharp
 gsl
-gst-fluendo-mp3
 gstreamer-0_10
 gstreamer-0_10-devel
 gstreamer-0_10-doc
@@ -739,15 +732,16 @@ gtkmm2
 gtksourceview
 gtksourceview-devel
 gtksourceview-doc
+gtksourceview-lang
 gtksourceview-sharp2
 gtksourceview18
 gtkspell
 gucharmap
 gucharmap-devel
+gucharmap-lang
 guile
 gutenprint
 gvfs
-gwenhywfar
 gwenview
 gzip
 hal
@@ -770,6 +764,8 @@ i4l-base
 icecream
 icecream-monitor
 icedax
+icewm
+icewm-default
 id3lib
 ifntchia
 ifntchib
@@ -899,6 +895,7 @@ kde4-keditbookmarks
 kde4-kmahjongg
 kde4-kmines
 kde4-konqueror
+kde4-konqueror-plugins
 kde4-konsole
 kde4-kpat
 kde4-krdc
@@ -907,6 +904,8 @@ kde4-krfb
 kde4-ksudoku
 kde4-kwin
 kde4-kwrite
+kde4-l10n-cs
+kde4-l10n-da
 kde4-l10n-de
 kde4-l10n-en_GB
 kde4-l10n-es
@@ -939,6 +938,7 @@ kdebase3-nsplugin
 kdebase3-samba
 kdebase3-session
 kdebase4
+kdebase4-SuSE
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-runtime
@@ -1058,7 +1058,6 @@ kscpm
 ksh
 ksudoku
 ksymoops
-ktoblzcheck
 ktorrent
 kwin-decor-suse2
 latex2html
@@ -1191,11 +1190,11 @@ libgimpprint
 libglade2
 libglade2-devel
 libglade2-doc
-libgladeui-1-5
 libgluezilla0
 libgmime-2_0-3
 libgnome
 libgnome-certauth0
+libgnome-desktop-2-2
 libgnome-devel
 libgnome-doc
 libgnome-menu2
@@ -1253,7 +1252,6 @@ libgweather
 libgweather-devel
 libgweather-lang
 libgweather0
-libgwenhywfar38
 libical0
 libicu
 libidl
@@ -1315,8 +1313,6 @@ libnotify-devel
 libnotify1
 libnscd
 libofa0
-libofx
-libofx3
 libogg-devel
 libogg0
 liboil
@@ -1388,6 +1384,7 @@ libsnmp15
 libsoprano-devel
 libsoprano4
 libsoup
+libsoup-2_4-0
 libsoup-devel
 libspe
 libspeex
@@ -1578,6 +1575,7 @@ nautilus-devel
 nautilus-lang
 nautilus-open-terminal
 nautilus-sendto
+nautilus-sendto-lang
 nautilus-share
 ncftp
 ncpfs
@@ -1641,6 +1639,7 @@ orage
 orbit2
 orbit2-devel
 orca
+orca-lang
 oro
 oxygen-icon-theme
 oxygen-icon-theme-scalable
@@ -1724,7 +1723,6 @@ perl-File-HomeDir
 perl-File-MMagic
 perl-File-Tail
 perl-Filter
-perl-Finance-Quote
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d
@@ -1736,7 +1734,6 @@ perl-HTML-FillInForm
 perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
-perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Template-Expr
@@ -1893,7 +1890,6 @@ plotutils
 pm-utils
 popt
 popt-devel
-portaudio
 portmap
 posix_cc
 postfix
@@ -2049,7 +2045,6 @@ skim-scim-canna
 skim-scim-skk
 skkdic
 slang
-slib
 slrn
 smartmontools
 smpppd
@@ -2189,6 +2184,7 @@ vim
 vim-base
 vim-data
 vino
+vino-lang
 vlan
 vlna
 vlock
@@ -2197,6 +2193,7 @@ vpnc
 vsftpd
 vte
 vte-devel
+vte-lang
 w3m
 wdiff
 websh

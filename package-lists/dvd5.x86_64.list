@@ -131,8 +131,6 @@ amarok
 amarok-libvisual
 amarok-yauap
 amavisd-new
-anjuta
-anjuta-lang
 ant
 ant-antlr
 ant-apache-bcel
@@ -153,7 +151,7 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
-antlr
+antlr-bootstrap
 apache2
 apache2-devel
 apache2-doc
@@ -172,8 +170,6 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-aqbanking
-aqbanking-lang
 arpwatch
 arpwatch-ethercodes
 art-sharp2
@@ -217,7 +213,6 @@ aufs-kmp-default
 aufs-kmp-xen
 autoconf
 autofs
-autogen
 automake
 autoyast2
 autoyast2-installation
@@ -267,7 +262,6 @@ bootcycle
 bootsplash
 bootsplash-theme-SuSE
 brasero
-bridge-utils
 bsd-games
 bsf
 bug-buddy
@@ -447,7 +441,6 @@ digikamimageplugins
 digikamimageplugins-superimpose
 dirmngr
 dmraid
-dnsmasq
 docbook-dsssl-stylesheets
 docbook-xml-website
 docbook-xsl-stylesheets
@@ -497,6 +490,7 @@ exiftool
 exo
 expat
 expect
+extragear-plasma
 f-spot
 fam
 fam-32bit
@@ -519,7 +513,6 @@ filters
 findutils
 findutils-locate
 finger
-flash-player
 flex
 fontconfig
 fontconfig-32bit
@@ -576,8 +569,6 @@ gd
 gdb
 gdbm
 gdbm-devel
-gdl
-gdl-lang
 gdm
 gecko-sharp2
 gedit
@@ -612,8 +603,6 @@ gjdoc
 gjiten
 glade
 glade-sharp2
-glade3
-glade3-lang
 gle
 glib
 glib-devel
@@ -644,8 +633,6 @@ gnome-applets
 gnome-audio
 gnome-bluetooth
 gnome-bluetooth-lang
-gnome-build
-gnome-build-lang
 gnome-certauth-devel
 gnome-commander
 gnome-common
@@ -704,9 +691,6 @@ gnopernicus
 gnopernicus-devel
 gnopernicus-lang
 gnu-jaf
-gnucash
-gnucash-docs
-gnucash-lang
 gnumeric
 gnumeric-lang
 gnutls
@@ -727,7 +711,6 @@ groff
 grub
 gsf-sharp
 gsl
-gst-fluendo-mp3
 gstreamer-0_10
 gstreamer-0_10-devel
 gstreamer-0_10-doc
@@ -764,7 +747,6 @@ gucharmap-devel
 guile
 gutenprint
 gvfs
-gwenhywfar
 gwenview
 gzip
 hal
@@ -880,7 +862,6 @@ java-1_5_0-sun
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
 java-1_5_0-sun-jdbc
-java-1_6_0-sun
 javamail
 jdepend
 jfsutils
@@ -924,6 +905,7 @@ kde4-keditbookmarks
 kde4-kmahjongg
 kde4-kmines
 kde4-konqueror
+kde4-konqueror-plugins
 kde4-konsole
 kde4-kpat
 kde4-krdc
@@ -932,6 +914,8 @@ kde4-krfb
 kde4-ksudoku
 kde4-kwin
 kde4-kwrite
+kde4-l10n-cs
+kde4-l10n-da
 kde4-l10n-de
 kde4-l10n-en_GB
 kde4-l10n-es
@@ -964,6 +948,7 @@ kdebase3-nsplugin
 kdebase3-samba
 kdebase3-session
 kdebase4
+kdebase4-SuSE
 kdebase4-libkonq
 kdebase4-runtime
 kdebase4-session
@@ -1095,7 +1080,6 @@ kscpm
 ksh
 ksudoku
 ksymoops
-ktoblzcheck
 ktorrent
 kwin-decor-suse2
 latex2html
@@ -1247,12 +1231,12 @@ libglade2
 libglade2-32bit
 libglade2-devel
 libglade2-doc
-libgladeui-1-5
 libgluezilla0
 libgmime-2_0-3
 libgnome
 libgnome-32bit
 libgnome-certauth0
+libgnome-desktop-2-2
 libgnome-devel
 libgnome-doc
 libgnome-menu2
@@ -1311,7 +1295,6 @@ libgtop-devel
 libgweather
 libgweather-devel
 libgweather0
-libgwenhywfar38
 libical0
 libicu
 libidl
@@ -1382,8 +1365,6 @@ libnscd
 libnscd-32bit
 libnvtv
 libofa0
-libofx
-libofx3
 libogg-devel
 libogg0
 liboil
@@ -1459,6 +1440,7 @@ libsnmp15
 libsoprano-devel
 libsoprano4
 libsoup
+libsoup-2_4-0
 libsoup-devel
 libspeex
 libsqlite3-0
@@ -1491,8 +1473,6 @@ libusb-devel
 libuuid-devel
 libuuid1
 libuuid1-32bit
-libvirt
-libvirt-python
 libvisual
 libvisual-devel
 libvisual-plugins
@@ -1822,7 +1802,6 @@ perl-File-HomeDir
 perl-File-MMagic
 perl-File-Tail
 perl-Filter
-perl-Finance-Quote
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d
@@ -1834,7 +1813,6 @@ perl-HTML-FillInForm
 perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
-perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Template-Expr
@@ -1997,7 +1975,6 @@ pmtools
 popt
 popt-32bit
 popt-devel
-portaudio
 portmap
 posix_cc
 postfix
@@ -2023,7 +2000,6 @@ pwlib
 pychecker
 python
 python-cairo
-python-curses
 python-gnome
 python-gnome-extras
 python-gobject2
@@ -2040,7 +2016,6 @@ python-qt
 python-qt4
 python-sip
 python-tk
-python-urlgrabber
 python-xml
 pyxml
 qca
@@ -2156,7 +2131,6 @@ skim-scim-canna
 skim-scim-skk
 skkdic
 slang
-slib
 slrn
 smart
 smartmontools
@@ -2299,12 +2273,10 @@ vim
 vim-base
 vim-data
 vino
-virt-manager
 virtualbox-kmp-default
 vlan
 vlna
 vlock
-vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -2351,11 +2323,6 @@ xemacs-info
 xemacs-packages
 xemacs-packages-info
 xen
-xen-doc-html
-xen-doc-pdf
-xen-libs
-xen-tools
-xen-tools-ioemu
 xerces-j2
 xfce-mcs-manager
 xfce-mcs-plugins
@@ -2646,7 +2613,6 @@ yast2-tune
 yast2-tv
 yast2-update
 yast2-users
-yast2-vm
 yast2-x11
 yast2-xml
 yauap

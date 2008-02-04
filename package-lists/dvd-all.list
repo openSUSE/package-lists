@@ -140,8 +140,6 @@ amarok
 amarok-libvisual
 amarok-yauap
 amavisd-new
-anjuta
-anjuta-lang
 ant
 ant-antlr
 ant-apache-bcel
@@ -163,7 +161,6 @@ ant-swing
 ant-trax
 anthy
 antivir
-antlr
 antlr-bootstrap
 apache2
 apache2-devel
@@ -183,8 +180,6 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-aqbanking
-aqbanking-lang
 arcad_eval
 arpwatch
 arpwatch-ethercodes
@@ -239,7 +234,6 @@ aufs-kmp-xen
 aufs-kmp-xenpae
 autoconf
 autofs
-autogen
 automake
 autoyast2
 autoyast2-installation
@@ -284,6 +278,7 @@ blktrace
 blt
 bluez-firmware
 bluez-gnome
+bluez-gnome-lang
 bluez-libs
 bluez-utils
 boo
@@ -296,10 +291,10 @@ bootsplash
 bootsplash-theme-SuSE
 brasero
 brasero-lang
-bridge-utils
 bsd-games
 bsf
 bug-buddy
+bug-buddy-lang
 build
 bundle-lang-common-cs
 bundle-lang-common-da
@@ -486,7 +481,6 @@ digikamimageplugins
 digikamimageplugins-superimpose
 dirmngr
 dmraid
-dnsmasq
 docbook-dsssl-stylesheets
 docbook-xml-website
 docbook-xsl-stylesheets
@@ -519,6 +513,7 @@ enchant
 enchant-devel
 enscript
 eog
+eog-lang
 epiphany
 epiphany-devel
 epiphany-doc
@@ -542,6 +537,7 @@ exiftool
 exo
 expat
 expect
+extragear-plasma
 f-spot
 fam
 fam-32bit
@@ -559,6 +555,7 @@ fftw
 fftw3
 file
 file-roller
+file-roller-lang
 fileshareset
 filesystem
 fillup
@@ -566,7 +563,6 @@ filters
 findutils
 findutils-locate
 finger
-flash-player
 flex
 fontconfig
 fontconfig-32bit
@@ -604,6 +600,7 @@ galago-daemon
 galago-sharp
 gawk
 gcalctool
+gcalctool-lang
 gcc
 gcc-c++
 gcc-fortran
@@ -629,11 +626,10 @@ gdbm
 gdbm-devel
 gdbm-x86
 gdk-pixbuf
-gdl
-gdl-lang
 gdm
 gecko-sharp2
 gedit
+gedit-lang
 genisoimage
 gettext-runtime
 gettext-tools
@@ -666,8 +662,6 @@ gjdoc
 gjiten
 glade
 glade-sharp2
-glade3
-glade3-lang
 gle
 glib
 glib-devel
@@ -704,8 +698,6 @@ gnome-applets-lang
 gnome-audio
 gnome-bluetooth
 gnome-bluetooth-lang
-gnome-build
-gnome-build-lang
 gnome-certauth-devel
 gnome-commander
 gnome-common
@@ -725,6 +717,7 @@ gnome-keyring-devel
 gnome-keyring-manager
 gnome-keyring-pam
 gnome-mag
+gnome-mag-lang
 gnome-main-menu
 gnome-main-menu-devel
 gnome-media
@@ -752,6 +745,7 @@ gnome-speech-devel
 gnome-spell2
 gnome-spell2-lang
 gnome-system-monitor
+gnome-system-monitor-lang
 gnome-terminal
 gnome-terminal-lang
 gnome-themes
@@ -762,7 +756,6 @@ gnome-vfs2
 gnome-vfs2-32bit
 gnome-vfs2-devel
 gnome-vfs2-doc
-gnome-vfs2-lang
 gnome-vfs2-x86
 gnome-volume-manager
 gnome-web-photo
@@ -774,9 +767,6 @@ gnopernicus-lang
 gnu-crypto
 gnu-jaf
 gnu-javamail
-gnucash
-gnucash-docs
-gnucash-lang
 gnuchess
 gnumeric
 gnumeric-lang
@@ -800,7 +790,6 @@ grub
 gsf-sharp
 gsl
 gspcav-kmp-ppc64
-gst-fluendo-mp3
 gstreamer-0_10
 gstreamer-0_10-devel
 gstreamer-0_10-doc
@@ -838,15 +827,16 @@ gtkmm2
 gtksourceview
 gtksourceview-devel
 gtksourceview-doc
+gtksourceview-lang
 gtksourceview-sharp2
 gtksourceview18
 gtkspell
 gucharmap
 gucharmap-devel
+gucharmap-lang
 guile
 gutenprint
 gvfs
-gwenhywfar
 gwenview
 gzip
 hal
@@ -975,8 +965,6 @@ java-1_5_0-sun
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
 java-1_5_0-sun-jdbc
-java-1_6_0-sun
-java-1_6_0-sun-plugin
 javamail
 jdepend
 jessie
@@ -1021,6 +1009,7 @@ kde4-keditbookmarks
 kde4-kmahjongg
 kde4-kmines
 kde4-konqueror
+kde4-konqueror-plugins
 kde4-konsole
 kde4-kpat
 kde4-krdc
@@ -1029,6 +1018,8 @@ kde4-krfb
 kde4-ksudoku
 kde4-kwin
 kde4-kwrite
+kde4-l10n-cs
+kde4-l10n-da
 kde4-l10n-de
 kde4-l10n-en_GB
 kde4-l10n-es
@@ -1061,6 +1052,7 @@ kdebase3-nsplugin
 kdebase3-samba
 kdebase3-session
 kdebase4
+kdebase4-SuSE
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-runtime
@@ -1200,7 +1192,6 @@ kscpm
 ksh
 ksudoku
 ksymoops
-ktoblzcheck
 ktorrent
 kwin-decor-suse2
 latex2html
@@ -1367,12 +1358,12 @@ libglade2
 libglade2-32bit
 libglade2-devel
 libglade2-doc
-libgladeui-1-5
 libgluezilla0
 libgmime-2_0-3
 libgnome
 libgnome-32bit
 libgnome-certauth0
+libgnome-desktop-2-2
 libgnome-devel
 libgnome-doc
 libgnome-menu2
@@ -1437,7 +1428,6 @@ libgweather
 libgweather-devel
 libgweather-lang
 libgweather0
-libgwenhywfar38
 libical0
 libicu
 libidl
@@ -1515,8 +1505,6 @@ libnscd-32bit
 libnscd-x86
 libnvtv
 libofa0
-libofx
-libofx3
 libogg-devel
 libogg0
 liboil
@@ -1596,6 +1584,7 @@ libsnmp15
 libsoprano-devel
 libsoprano4
 libsoup
+libsoup-2_4-0
 libsoup-devel
 libspe
 libspeex
@@ -1631,8 +1620,6 @@ libusb-x86
 libuuid-devel
 libuuid1
 libuuid1-32bit
-libvirt
-libvirt-python
 libvisual
 libvisual-devel
 libvisual-plugins
@@ -1818,6 +1805,7 @@ nautilus-devel
 nautilus-lang
 nautilus-open-terminal
 nautilus-sendto
+nautilus-sendto-lang
 nautilus-share
 ncftp
 ncpfs
@@ -1893,6 +1881,7 @@ orbit2-32bit
 orbit2-devel
 orbit2-x86
 orca
+orca-lang
 oro
 oxygen-icon-theme
 oxygen-icon-theme-scalable
@@ -1985,7 +1974,6 @@ perl-File-HomeDir
 perl-File-MMagic
 perl-File-Tail
 perl-Filter
-perl-Finance-Quote
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d
@@ -1997,7 +1985,6 @@ perl-HTML-FillInForm
 perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
-perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Template-Expr
@@ -2160,7 +2147,6 @@ pmtools
 popt
 popt-32bit
 popt-devel
-portaudio
 portmap
 posix_cc
 postfix
@@ -2188,7 +2174,6 @@ pwlib
 pychecker
 python
 python-cairo
-python-curses
 python-gnome
 python-gnome-extras
 python-gobject2
@@ -2205,7 +2190,6 @@ python-qt
 python-qt4
 python-sip
 python-tk
-python-urlgrabber
 python-xml
 pyxml
 qca
@@ -2331,7 +2315,6 @@ skim-scim-canna
 skim-scim-skk
 skkdic
 slang
-slib
 slrn
 smart
 smartmontools
@@ -2477,18 +2460,18 @@ vim
 vim-base
 vim-data
 vino
-virt-manager
+vino-lang
 virtualbox-kmp-default
 virtualbox-kmp-pae
 vlan
 vlna
 vlock
-vm-install
 vorbis-tools
 vpnc
 vsftpd
 vte
 vte-devel
+vte-lang
 w3m
 wdiff
 websh
@@ -2531,11 +2514,6 @@ xemacs-info
 xemacs-packages
 xemacs-packages-info
 xen
-xen-doc-html
-xen-doc-pdf
-xen-libs
-xen-tools
-xen-tools-ioemu
 xerces-j2
 xerces-j2-xml-apis
 xerces-j2-xml-resolver
@@ -2846,7 +2824,6 @@ yast2-tune
 yast2-tv
 yast2-update
 yast2-users
-yast2-vm
 yast2-x11
 yast2-xml
 yauap
