@@ -1,6 +1,5 @@
 3ddiag
 915resolution
-AdobeICCProfiles
 CID-keyed-fonts-MOE
 CID-keyed-fonts-Wada
 CID-keyed-fonts-WadaH
@@ -126,7 +125,6 @@ acx-kmp-ppc64
 adaptec-firmware
 adm8211-kmp-iseries64
 adm8211-kmp-ppc64
-agfa-fonts
 alacarte
 alacarte-lang
 alpine
@@ -141,7 +139,6 @@ amarok-libvisual
 amarok-yauap
 amavisd-new
 ant
-ant-antlr
 ant-apache-bcel
 ant-apache-bsf
 ant-apache-log4j
@@ -150,7 +147,6 @@ ant-apache-regexp
 ant-apache-resolver
 ant-commons-logging
 ant-javadoc
-ant-javamail
 ant-jdepend
 ant-jmf
 ant-junit
@@ -161,7 +157,7 @@ ant-swing
 ant-trax
 anthy
 antivir
-antlr-bootstrap
+antlr
 apache2
 apache2-devel
 apache2-doc
@@ -180,7 +176,6 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-arcad_eval
 arpwatch
 arpwatch-ethercodes
 art-sharp2
@@ -218,10 +213,8 @@ atk
 atk-32bit
 atk-devel
 atk-x86
-atmel-firmware
 attr
 audiofile
-audiofile-32bit
 audiofile-devel
 audit
 audit-libs
@@ -246,7 +239,6 @@ avahi-mono
 avahi-x86
 avmailgate
 awesfx
-axis
 banshee
 banshee-devel
 banshee-engine-gst
@@ -593,7 +585,6 @@ ftgl
 fvwm2
 g3utils
 gail
-gail-32bit
 gail-devel
 gail-doc
 galago-daemon
@@ -616,7 +607,6 @@ gcc43-java
 gconf-editor
 gconf-sharp2
 gconf2
-gconf2-32bit
 gconf2-devel
 gconf2-doc
 gconf2-x86
@@ -712,7 +702,6 @@ gnome-games
 gnome-games-lang
 gnome-icon-theme
 gnome-keyring
-gnome-keyring-32bit
 gnome-keyring-devel
 gnome-keyring-manager
 gnome-keyring-pam
@@ -753,7 +742,6 @@ gnome-utils
 gnome-vfs-obexftp
 gnome-vfs-sharp2
 gnome-vfs2
-gnome-vfs2-32bit
 gnome-vfs2-devel
 gnome-vfs2-doc
 gnome-vfs2-x86
@@ -764,8 +752,6 @@ gnome2-user-docs
 gnopernicus
 gnopernicus-devel
 gnopernicus-lang
-gnu-crypto
-gnu-jaf
 gnu-javamail
 gnuchess
 gnumeric
@@ -870,7 +856,7 @@ icecream
 icecream-monitor
 icedax
 icewm
-icewm-default
+icewm-lite
 id3lib
 ifntchia
 ifntchib
@@ -902,7 +888,6 @@ iproute2
 ipsec-tools
 iptables
 iputils
-ipw-firmware
 ipw3945-kmp-default
 ipw3945-kmp-iseries64
 ipw3945-kmp-pae
@@ -910,7 +895,6 @@ ipw3945d
 irda
 irqbalance
 irssi
-iscan-firmware
 iscan-free
 isns
 iso-codes
@@ -954,24 +938,16 @@ jakarta-commons-httpclient3
 jakarta-commons-lang
 jakarta-commons-launcher
 jakarta-commons-logging
-jakarta-commons-modeler
 jakarta-commons-pool
 jakarta-commons-validator
 jakarta-taglibs-standard
 jarnal
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
-java-1_5_0-sun
-java-1_5_0-sun-alsa
-java-1_5_0-sun-devel
-java-1_5_0-sun-jdbc
-javamail
 jdepend
-jessie
 jfsutils
 jhead
 jing
-jms
 joe
 jpackage-utils
 jpeg
@@ -1248,7 +1224,6 @@ libavahi-core5
 libavahi-devel
 libavahi-glib-devel
 libavahi-glib1
-libavahi-glib1-32bit
 libavahi-ui0
 libavc1394-0
 libavc1394-devel
@@ -1261,11 +1236,9 @@ libblkid1
 libblocxx-devel
 libblocxx6
 libbonobo
-libbonobo-32bit
 libbonobo-devel
 libbonobo-doc
 libbonoboui
-libbonoboui-32bit
 libbonoboui-devel
 libbonoboui-doc
 libbtctl
@@ -1311,14 +1284,12 @@ libenchant1
 liberation-fonts
 libesd-devel
 libesd0
-libesd0-32bit
 libevent
 libexif
 libexif-32bit
 libexif-x86
 libexiv2
 libexpat-devel
-libexpat0
 libexpat1
 libexpat1-32bit
 libext2fs-devel
@@ -1355,13 +1326,11 @@ libgdiplus0
 libgfortran43
 libgimpprint
 libglade2
-libglade2-32bit
 libglade2-devel
 libglade2-doc
 libgluezilla0
 libgmime-2_0-3
 libgnome
-libgnome-32bit
 libgnome-certauth0
 libgnome-desktop-2-2
 libgnome-devel
@@ -1370,7 +1339,6 @@ libgnome-menu2
 libgnomebt-devel
 libgnomebt0
 libgnomecanvas
-libgnomecanvas-32bit
 libgnomecanvas-devel
 libgnomecanvas-doc
 libgnomecups
@@ -1391,7 +1359,6 @@ libgnomesu
 libgnomesu-devel
 libgnomesu0
 libgnomeui
-libgnomeui-32bit
 libgnomeui-devel
 libgnomeui-doc
 libgnutls-devel
@@ -1431,7 +1398,6 @@ libgweather0
 libical0
 libicu
 libidl
-libidl-32bit
 libidl-devel
 libidl-x86
 libidn
@@ -1501,7 +1467,6 @@ libnotify
 libnotify-devel
 libnotify1
 libnscd
-libnscd-32bit
 libnscd-x86
 libnvtv
 libofa0
@@ -1574,7 +1539,6 @@ libsensors4
 libsexy
 libsigc++2
 libsmbclient
-libsmbclient-32bit
 libsmbclient-devel
 libsmbclient-x86
 libsmbios-bin
@@ -1732,7 +1696,6 @@ mlterm
 mlterm-scim
 mlterm-uim
 module-init-tools
-moneyplex
 mono-addins
 mono-basic
 mono-core
@@ -1756,13 +1719,10 @@ monodoc-core
 mouseemu
 mousepad
 mozilla-nspr
-mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
-mozilla-nss-32bit
 mozilla-nss-devel
 mozilla-xulrunner181
-mozilla-xulrunner181-32bit
 mozilla-xulrunner181-devel
 mpfr-devel
 mpt-firmware
@@ -1773,7 +1733,6 @@ mtr
 multipath-tools
 multisync-gui
 mutt
-mx4j
 mxml
 myspell-american
 myspell-brazilian
@@ -1873,11 +1832,9 @@ opensuse-manual_ru
 opensuse-updater-gnome
 opensuse-updater-kde
 openvpn
-opera
 optipng
 orage
 orbit2
-orbit2-32bit
 orbit2-devel
 orbit2-x86
 orca
@@ -2137,7 +2094,6 @@ pinentry-qt
 pinepg
 pinfo
 pkg-config
-planmaker
 planner
 planner-devel
 planner-lang
@@ -2145,7 +2101,6 @@ plotutils
 pm-utils
 pmtools
 popt
-popt-32bit
 popt-devel
 portmap
 posix_cc
@@ -2194,7 +2149,6 @@ python-xml
 pyxml
 qca
 qemu
-qlogic-firmware
 qt3
 qt3-32bit
 qt3-devel
@@ -2299,7 +2253,6 @@ sendfax
 sendmail
 sensors
 servletapi5
-sesam_srv
 setserial
 sgml-skel
 shared-mime-info
@@ -2342,7 +2295,6 @@ sumf
 supertux
 suse-build-key
 suseRegister
-susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -2384,7 +2336,6 @@ texlive
 texlive-bin
 texlive-bin-latex
 texlive-latex
-textmaker
 tftp
 thunar
 thunar-volman
@@ -2481,7 +2432,6 @@ wesnoth-data-full
 wget
 whois
 wine
-wink
 wireless-tools
 wireshark
 wlan-ng-kmp-default
@@ -2489,7 +2439,6 @@ wodim
 wol
 words
 wpa_supplicant
-wsdl4j
 wv
 wv2
 wv2-devel
