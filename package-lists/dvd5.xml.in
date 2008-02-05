@@ -44,6 +44,8 @@
     <lock package="squid"/>
     <lock package="antlr-bootstrap"/>
     <lock package="icewm-default"/>
+    <lock pakcage="libstdc++41"/>
+    <lock pakcage="libstdc++41-32bit"/>
     <!-- Lock non-oss -->
     <lock package="acroread"/>
     <lock package="AdobeICCProfiles"/>
@@ -54,7 +56,6 @@
     <lock package="ant-javamail"/>
     <lock package="arcad_eval"/>
     <lock package="atmel-firmware"/>
-    <lock package="#endif"/>
     <lock package="flash-player"/>
     <lock package="gst-fluendo-mp3"/>
     <lock package="ia32el"/>
@@ -94,6 +95,7 @@
     <lock package="ttf-founder-simplified"/>
     <lock package="ttf-founder-traditional"/>
     <lock package="wink"/>
+    <lock package="helix-dbus-server"/>
     <!-- INTERNALS -->
   </setup>
   <trial>

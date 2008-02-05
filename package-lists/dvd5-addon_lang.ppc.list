@@ -1,7 +1,6 @@
 3ddiag
 844-ksc-pcf
 915resolution
-AdobeICCProfiles
 CID-keyed-fonts-MOE
 CID-keyed-fonts-Munhwa
 CID-keyed-fonts-Wada
@@ -9,11 +8,6 @@ CID-keyed-fonts-WadaH
 ConsoleKit
 DirectFB
 FreeNX
-IPAGothic
-IPAMincho
-IPAPGothic
-IPAPMincho
-IPAUIGothic
 IlmBase
 IlmBase-devel
 ImageMagick
@@ -152,7 +146,6 @@ abcde
 abiword
 acl
 adaptec-firmware
-agfa-fonts
 alacarte
 alacarte-lang
 alpine
@@ -168,7 +161,6 @@ amarok-yauap
 ami
 amidic
 ant
-ant-antlr
 ant-apache-bcel
 ant-apache-bsf
 ant-apache-log4j
@@ -177,7 +169,6 @@ ant-apache-regexp
 ant-apache-resolver
 ant-commons-logging
 ant-javadoc
-ant-javamail
 ant-jdepend
 ant-jmf
 ant-junit
@@ -187,7 +178,7 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
-antlr-bootstrap
+antlr
 apache2
 apache2-devel
 apache2-doc
@@ -296,7 +287,6 @@ at-spi-lang
 atk
 atk-devel
 atk-lang
-atmel-firmware
 attr
 audiofile
 audiofile-devel
@@ -314,7 +304,6 @@ avahi-compat-mDNSResponder-devel
 avahi-lang
 avahi-mono
 awesfx
-axis
 baekmuk
 baekmuk-ttf
 banshee
@@ -805,6 +794,8 @@ gnome-screensaver
 gnome-screensaver-lang
 gnome-session
 gnome-session-lang
+gnome-settings-daemon
+gnome-settings-daemon-lang
 gnome-sharp2
 gnome-speech
 gnome-speech-devel
@@ -831,8 +822,6 @@ gnome2-user-docs
 gnopernicus
 gnopernicus-devel
 gnopernicus-lang
-gnu-crypto
-gnu-jaf
 gnumeric
 gnumeric-lang
 gnutls
@@ -960,10 +949,8 @@ iproute2
 ipsec-tools
 iptables
 iputils
-ipw-firmware
 irda
 irssi
-iscan-firmware
 iscan-free
 isns
 iso-codes
@@ -1014,20 +1001,16 @@ jakarta-commons-httpclient3
 jakarta-commons-lang
 jakarta-commons-launcher
 jakarta-commons-logging
-jakarta-commons-modeler
 jakarta-commons-pool
 jakarta-commons-validator
 jakarta-taglibs-standard
 jarnal
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
-javamail
 jdepend
-jessie
 jfsutils
 jhead
 jing
-jms
 joe
 jpackage-utils
 jpeg
@@ -1845,7 +1828,6 @@ mtools
 mtr
 multisync-gui
 mutt
-mx4j
 mxml
 myspell-african
 myspell-american
@@ -1995,7 +1977,6 @@ opensuse-manual_ru
 opensuse-updater-gnome
 opensuse-updater-kde
 openvpn
-opera
 optipng
 orage
 orbit2
@@ -2303,7 +2284,6 @@ python-xml
 pyxml
 qca
 qemu
-qlogic-firmware
 qt3
 qt3-devel
 qt3-devel-doc
@@ -2443,7 +2423,6 @@ sumf
 supertux
 suse-build-key
 suseRegister
-susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -2530,8 +2509,6 @@ ttf-arphic-ukai
 ttf-arphic-uming
 ttf-cmex-kai
 ttf-cmex-song
-ttf-founder-simplified
-ttf-founder-traditional
 twinkle
 udev
 ufraw
@@ -2586,7 +2563,6 @@ wol
 wordcut
 words
 wpa_supplicant
-wsdl4j
 wv
 wv2
 wv2-devel

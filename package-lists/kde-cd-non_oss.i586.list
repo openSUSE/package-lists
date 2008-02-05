@@ -115,7 +115,7 @@ cyrus-sasl-digestmd5
 cyrus-sasl-plain
 cyrus-sasl-saslauthd
 dazuko
-dazuko-kmp-default
+dazuko-kmp-pae
 db-utils
 dbus-1
 dbus-1-glib
@@ -183,7 +183,6 @@ gnome-icon-theme
 gnome-keyring
 gnome-vfs2
 gnu-jaf
-gnu-javamail
 gnutls
 gpart
 gpg2
@@ -246,6 +245,7 @@ java-1_6_0-sun-alsa
 java-1_6_0-sun-devel
 java-1_6_0-sun-jdbc
 java-1_6_0-sun-plugin
+javamail
 javamail-demo
 javamail-javadoc
 javamail-monolithic
@@ -292,6 +292,7 @@ kdepimlibs4
 kdetv
 kdeutils3
 kernel-default
+kernel-pae
 keyutils-libs
 kinternet
 kio_ipodslave
@@ -678,6 +679,7 @@ xdg-menu
 xdg-utils
 xerces-j2
 xerces-j2-xml-apis
+xerces-j2-xml-resolver
 xfsprogs
 xgl
 xgl-hardware-list
@@ -685,7 +687,6 @@ xine-lib
 xinetd
 xkeyboard-config
 xml-commons
-xml-commons-resolver
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input

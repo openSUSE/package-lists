@@ -1,7 +1,6 @@
 3ddiag
 844-ksc-pcf
 915resolution
-AdobeICCProfiles
 CID-keyed-fonts-MOE
 CID-keyed-fonts-Munhwa
 CID-keyed-fonts-Wada
@@ -10,11 +9,6 @@ ConsoleKit
 ConsoleKit-32bit
 DirectFB
 FreeNX
-IPAGothic
-IPAMincho
-IPAPGothic
-IPAPMincho
-IPAUIGothic
 IlmBase
 IlmBase-32bit
 IlmBase-devel
@@ -133,7 +127,6 @@ OpenOffice_org-zu
 PolicyKit
 PolicyKit-doc
 PolicyKit-gnome-libs
-RealPlayer
 SDL
 SDL-devel
 SDL_Pango
@@ -157,9 +150,7 @@ abcde
 abiword
 acl
 acpid
-acroread
 adaptec-firmware
-agfa-fonts
 alacarte
 alacarte-lang
 alpine
@@ -177,7 +168,6 @@ amavisd-new
 ami
 amidic
 ant
-ant-antlr
 ant-apache-bcel
 ant-apache-bsf
 ant-apache-log4j
@@ -186,7 +176,6 @@ ant-apache-regexp
 ant-apache-resolver
 ant-commons-logging
 ant-javadoc
-ant-javamail
 ant-jdepend
 ant-jmf
 ant-junit
@@ -196,7 +185,7 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
-antlr-bootstrap
+antlr
 apache2
 apache2-devel
 apache2-doc
@@ -306,10 +295,8 @@ at-spi-lang
 atk
 atk-devel
 atk-lang
-atmel-firmware
 attr
 audiofile
-audiofile-32bit
 audiofile-devel
 audit
 audit-libs
@@ -327,7 +314,6 @@ avahi-compat-mDNSResponder-devel
 avahi-lang
 avahi-mono
 awesfx
-axis
 baekmuk
 baekmuk-ttf
 banshee
@@ -471,7 +457,6 @@ clucene-core-devel
 cm-unicode
 cmake
 commoncpp2
-compat-libstdc++
 compiz
 compiz-gnome
 compiz-kde
@@ -526,7 +511,6 @@ dbus-1
 dbus-1-32bit
 dbus-1-devel
 dbus-1-glib
-dbus-1-glib-32bit
 dbus-1-glib-devel
 dbus-1-mono
 dbus-1-python
@@ -680,7 +664,6 @@ ft2demos
 ftgl
 fvwm2
 gail
-gail-32bit
 gail-devel
 gail-doc
 gail-lang
@@ -705,7 +688,6 @@ gconf-editor
 gconf-editor-lang
 gconf-sharp2
 gconf2
-gconf2-32bit
 gconf2-devel
 gconf2-doc
 gconf2-lang
@@ -801,7 +783,6 @@ gnome-games
 gnome-games-lang
 gnome-icon-theme
 gnome-keyring
-gnome-keyring-32bit
 gnome-keyring-devel
 gnome-keyring-lang
 gnome-keyring-manager
@@ -836,6 +817,8 @@ gnome-screensaver
 gnome-screensaver-lang
 gnome-session
 gnome-session-lang
+gnome-settings-daemon
+gnome-settings-daemon-lang
 gnome-sharp2
 gnome-speech
 gnome-speech-devel
@@ -851,7 +834,6 @@ gnome-utils-lang
 gnome-vfs-obexftp
 gnome-vfs-sharp2
 gnome-vfs2
-gnome-vfs2-32bit
 gnome-vfs2-devel
 gnome-vfs2-doc
 gnome-vfs2-lang
@@ -863,7 +845,6 @@ gnome2-user-docs
 gnopernicus
 gnopernicus-devel
 gnopernicus-lang
-gnu-jaf
 gnumeric
 gnumeric-lang
 gnutls
@@ -994,13 +975,11 @@ iproute2
 ipsec-tools
 iptables
 iputils
-ipw-firmware
 ipw3945-kmp-default
 ipw3945d
 irda
 irqbalance
 irssi
-iscan-firmware
 iscan-free
 isns
 iso-codes
@@ -1049,23 +1028,16 @@ jakarta-commons-httpclient3
 jakarta-commons-lang
 jakarta-commons-launcher
 jakarta-commons-logging
-jakarta-commons-modeler
 jakarta-commons-pool
 jakarta-commons-validator
 jakarta-taglibs-standard
 jarnal
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
-java-1_5_0-sun
-java-1_5_0-sun-alsa
-java-1_5_0-sun-devel
-java-1_5_0-sun-jdbc
-javamail
 jdepend
 jfsutils
 jhead
 jing
-jms
 joe
 jpackage-utils
 jpeg
@@ -1439,7 +1411,6 @@ libavahi-core5
 libavahi-devel
 libavahi-glib-devel
 libavahi-glib1
-libavahi-glib1-32bit
 libavahi-ui0
 libavc1394-0
 libavc1394-devel
@@ -1451,12 +1422,10 @@ libblkid1
 libblocxx-devel
 libblocxx6
 libbonobo
-libbonobo-32bit
 libbonobo-devel
 libbonobo-doc
 libbonobo-lang
 libbonoboui
-libbonoboui-32bit
 libbonoboui-devel
 libbonoboui-doc
 libbonoboui-lang
@@ -1500,7 +1469,6 @@ libenchant1
 liberation-fonts
 libesd-devel
 libesd0
-libesd0-32bit
 libevent
 libexif
 libexif-32bit
@@ -1539,13 +1507,11 @@ libgdiplus0
 libgfortran43
 libgimpprint
 libglade2
-libglade2-32bit
 libglade2-devel
 libglade2-doc
 libgluezilla0
 libgmime-2_0-3
 libgnome
-libgnome-32bit
 libgnome-certauth0
 libgnome-desktop-2-2
 libgnome-devel
@@ -1555,7 +1521,6 @@ libgnome-menu2
 libgnomebt-devel
 libgnomebt0
 libgnomecanvas
-libgnomecanvas-32bit
 libgnomecanvas-devel
 libgnomecanvas-doc
 libgnomecanvas-lang
@@ -1581,7 +1546,6 @@ libgnomesu-devel
 libgnomesu-lang
 libgnomesu0
 libgnomeui
-libgnomeui-32bit
 libgnomeui-devel
 libgnomeui-doc
 libgnomeui-lang
@@ -1622,7 +1586,6 @@ libhangul
 libical0
 libicu
 libidl
-libidl-32bit
 libidl-devel
 libidn
 libidn-32bit
@@ -1688,7 +1651,6 @@ libnotify
 libnotify-devel
 libnotify1
 libnscd
-libnscd-32bit
 libnvtv
 libofa0
 libogg-devel
@@ -1758,7 +1720,6 @@ libsensors4
 libsexy
 libsigc++2
 libsmbclient
-libsmbclient-32bit
 libsmbclient-devel
 libsmbios-bin
 libsmbios-libs
@@ -1910,7 +1871,6 @@ mlterm
 mlterm-scim
 mlterm-uim
 module-init-tools
-moneyplex
 mono-addins
 mono-basic
 mono-core
@@ -1933,13 +1893,10 @@ monodevelop
 monodoc-core
 mousepad
 mozilla-nspr
-mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
-mozilla-nss-32bit
 mozilla-nss-devel
 mozilla-xulrunner181
-mozilla-xulrunner181-32bit
 mozilla-xulrunner181-devel
 mpfr-devel
 mpt-firmware
@@ -1950,7 +1907,6 @@ mtr
 multipath-tools
 multisync-gui
 mutt
-mx4j
 mxml
 myspell-african
 myspell-american
@@ -2106,11 +2062,9 @@ opensuse-manual_ru
 opensuse-updater-gnome
 opensuse-updater-kde
 openvpn
-opera
 optipng
 orage
 orbit2
-orbit2-32bit
 orbit2-devel
 orca
 orca-lang
@@ -2368,7 +2322,6 @@ pinentry-qt
 pinepg
 pinfo
 pkg-config
-planmaker
 planner
 planner-devel
 planner-lang
@@ -2376,7 +2329,6 @@ plotutils
 pm-utils
 pmtools
 popt
-popt-32bit
 popt-devel
 portmap
 posix_cc
@@ -2424,7 +2376,6 @@ python-xml
 pyxml
 qca
 qemu
-qlogic-firmware
 qt3
 qt3-32bit
 qt3-devel
@@ -2569,7 +2520,6 @@ sumf
 supertux
 suse-build-key
 suseRegister
-susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -2611,7 +2561,6 @@ texlive
 texlive-bin
 texlive-bin-latex
 texlive-latex
-textmaker
 tftp
 thunar
 thunar-volman
@@ -2658,8 +2607,6 @@ ttf-arphic-ukai
 ttf-arphic-uming
 ttf-cmex-kai
 ttf-cmex-song
-ttf-founder-simplified
-ttf-founder-traditional
 twinkle
 udev
 ufraw
@@ -2717,7 +2664,6 @@ wol
 wordcut
 words
 wpa_supplicant
-wsdl4j
 wv
 wv2
 wv2-devel

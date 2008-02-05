@@ -7,11 +7,6 @@ ConsoleKit
 ConsoleKit-32bit
 DirectFB
 FreeNX
-IPAGothic
-IPAMincho
-IPAPGothic
-IPAPMincho
-IPAUIGothic
 IlmBase
 IlmBase-32bit
 IlmBase-devel
@@ -92,7 +87,6 @@ OpenOffice_org-zh-TW
 PolicyKit
 PolicyKit-doc
 PolicyKit-gnome-libs
-RealPlayer
 SDL
 SDL-devel
 SDL_Pango
@@ -116,10 +110,7 @@ abcde
 abiword
 acl
 acpid
-acroread
 acroread-cmaps
-acroread-fonts-zh_CN
-acroread-fonts-zh_TW
 acx-kmp-iseries64
 acx-kmp-ppc64
 adaptec-firmware
@@ -210,7 +201,6 @@ at76_usb-kmp-iseries64
 at76_usb-kmp-ppc64
 atftp
 atk
-atk-32bit
 atk-devel
 atk-x86
 attr
@@ -234,7 +224,6 @@ avahi
 avahi-compat-mDNSResponder-devel
 avahi-compat-mDNSResponder-x86
 avahi-glib-x86
-avahi-lang
 avahi-mono
 avahi-x86
 avmailgate
@@ -372,7 +361,6 @@ clucene-core-devel
 cm-unicode
 cmake
 commoncpp2
-compat-libstdc++
 compiz
 compiz-gnome
 compiz-kde
@@ -429,7 +417,6 @@ dbus-1
 dbus-1-32bit
 dbus-1-devel
 dbus-1-glib
-dbus-1-glib-32bit
 dbus-1-glib-devel
 dbus-1-glib-x86
 dbus-1-mono
@@ -543,7 +530,6 @@ fbset
 fdupes
 festival
 fetchmail
-fftw
 fftw3
 file
 file-roller
@@ -728,6 +714,8 @@ gnome-python-desktop
 gnome-screensaver
 gnome-session
 gnome-session-lang
+gnome-settings-daemon
+gnome-settings-daemon-lang
 gnome-sharp2
 gnome-speech
 gnome-speech-devel
@@ -769,7 +757,6 @@ gpm
 graphviz
 graphviz-devel
 graphviz-gd
-grass
 grep
 groff
 grub
@@ -782,11 +769,6 @@ gstreamer-0_10-doc
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
-gstreamer010
-gstreamer010-devel
-gstreamer010-plugins-base
-gstreamer010-plugins-base-devel
-gstreamer010-plugins-good
 gsynaptics
 gtk
 gtk-doc
@@ -833,14 +815,6 @@ hal-resmgr
 hal-x86
 handedict
 hdparm
-helix-banshee
-helix-banshee-devel
-helix-banshee-engine-gst
-helix-banshee-engine-helix
-helix-banshee-plugins-DAAP
-helix-banshee-plugins-default
-helix-banshee-plugins-extra
-helix-dbus-server
 hfsutils
 hicolor-icon-theme
 hplip
@@ -856,6 +830,7 @@ icecream
 icecream-monitor
 icedax
 icewm
+icewm-default
 icewm-lite
 id3lib
 ifntchia
@@ -1227,7 +1202,6 @@ libavahi-glib1
 libavahi-ui0
 libavc1394-0
 libavc1394-devel
-libbeagle
 libbeagle-devel
 libbeagle-python
 libbeagle1
@@ -1307,7 +1281,6 @@ libgcj43
 libgcj43-devel
 libgcj43-jar
 libgcj_bc43
-libgcrypt
 libgcrypt-devel
 libgcrypt-x86
 libgcrypt11
@@ -1321,7 +1294,6 @@ libgda-3_0-odbc
 libgda-3_0-postgres
 libgda-3_0-sqlite
 libgda-lang
-libgdiplus
 libgdiplus0
 libgfortran43
 libgimpprint
@@ -2282,6 +2254,7 @@ sqlite2
 sqlite3
 sqlite3-devel
 squashfs
+squid
 squid3
 startup-notification
 startup-notification-devel
@@ -2380,8 +2353,6 @@ ttf-arphic-ukai
 ttf-arphic-uming
 ttf-cmex-kai
 ttf-cmex-song
-ttf-founder-simplified
-ttf-founder-traditional
 twinkle
 udev
 ufraw

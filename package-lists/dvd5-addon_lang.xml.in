@@ -207,7 +207,57 @@
     <lock package="java-1_4_2-ibm"/>
     <lock package="myspell-german-old"/>
     <lock package="squid"/>
-<!-- INTERNALS -->
+    <!-- lock non-oss -->
+    <lock package="acroread"/>
+    <lock package="AdobeICCProfiles"/>
+    <lock package="agfa-fonts"/>
+    <lock package="ant-antlr"/>
+    <lock package="antivir"/>
+    <lock package="antivir-gui"/>
+    <lock package="ant-javamail"/>
+    <lock package="arcad_eval"/>
+    <lock package="atmel-firmware"/>
+    <lock package="#endif"/>
+    <lock package="flash-player"/>
+    <lock package="gst-fluendo-mp3"/>
+    <lock package="ia32el"/>
+    <lock package="IPAGothic"/>
+    <lock package="IPAMincho"/>
+    <lock package="IPAPGothic"/>
+    <lock package="IPAPMincho"/>
+    <lock package="IPAUIGothic"/>
+    <lock package="ipw-firmware"/>
+    <lock package="iscan"/>
+    <lock package="iscan-firmware"/>
+    <lock package="iscan-proprietary-drivers"/>
+    <lock package="java-1_5_0-sun"/>
+    <lock package="java-1_5_0-sun-alsa"/>
+    <lock package="java-1_5_0-sun-devel"/>
+    <lock package="java-1_5_0-sun-jdbc"/>
+    <lock package="java-1_5_0-sun-src"/>
+    <lock package="java-1_6_0-sun"/>
+    <lock package="java-1_6_0-sun-alsa"/>
+    <lock package="java-1_6_0-sun-devel"/>
+    <lock package="java-1_6_0-sun-jdbc"/>
+    <lock package="java-1_6_0-sun-plugin"/>
+    <lock package="javamail"/>
+    <lock package="javamail-demo"/>
+    <lock package="javamail-javadoc"/>
+    <lock package="javamail-monolithic"/>
+    <lock package="java-plugin"/>
+    <lock package="jms"/>
+    <lock package="moneyplex"/>
+    <lock package="mx4j"/>
+    <lock package="opera"/>
+    <lock package="planmaker"/>
+    <lock package="qlogic-firmware"/>
+    <lock package="RealPlayer"/>
+    <lock package="sesam_srv"/>
+    <lock package="textmaker"/>
+    <lock package="ttf-founder-simplified"/>
+    <lock package="ttf-founder-traditional"/>
+    <lock package="wink"/>
+    <!-- INTERNALS -->
   </setup>
   <trial>
     <install kind="pattern" name="rest_dvd"/>
