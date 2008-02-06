@@ -193,6 +193,7 @@ gconf-editor
 gconf-sharp2
 gconf2
 gconf2-32bit
+gconfmm
 gdb
 gdbm
 gdm
@@ -206,8 +207,6 @@ ghostscript-library
 ghostscript-omni
 ghostscript-x11
 giflib
-gimp
-gimp-plugins-python
 glade-sharp2
 gle
 glib-sharp2
@@ -248,7 +247,6 @@ gnome-python-desktop
 gnome-screensaver
 gnome-session
 gnome-settings-daemon
-gnome-settings-daemon-lang
 gnome-sharp2
 gnome-speech
 gnome-spell2
@@ -279,6 +277,7 @@ gst-fluendo-mp3
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gstreamer-0_10-pulse
 gsynaptics
 gtk-sharp2
 gtk2
@@ -400,6 +399,7 @@ libenchant1
 libesd0
 libesd0-32bit
 libevent
+libexempi3
 libexif
 libexpat1
 libexpat1-32bit
@@ -420,6 +420,8 @@ libgdiplus0
 libgimpprint
 libglade2
 libglade2-32bit
+libglademm
+libglademm-2_4-1
 libgluezilla0
 libgmime-2_0-3
 libgnome
@@ -459,6 +461,7 @@ libiniparser
 libipoddevice
 libipoddevice0
 libiso9660-5
+libjack0
 libjasper
 libjpeg
 libjpeg-32bit
@@ -491,6 +494,10 @@ libpng12-0
 libpng12-0-32bit
 libpoppler-glib2
 libpoppler2
+libpulse-browse0
+libpulse-mainloop-glib0
+libpulse0
+libpulsecore4
 libpurple
 libqt4
 libqt4-dbus-1
@@ -500,6 +507,7 @@ libqt4-x11
 libreadline5
 librpcsecgss
 librsvg
+libsamplerate
 libsensors3
 libsexy
 libsigc++2
@@ -507,6 +515,7 @@ libsmbclient
 libsmbclient-32bit
 libsmbios-bin
 libsmbios-libs
+libsndfile
 libsnmp15
 libsoup
 libsoup-2_4-0
@@ -631,6 +640,7 @@ opera
 orbit2
 orbit2-32bit
 orca
+padevchooser
 pam
 pam-32bit
 pam-config
@@ -641,10 +651,14 @@ pam_ldap
 pam_ldap-32bit
 pam_thinkfinger
 pam_thinkfinger-32bit
+paman
 pango
 pango-32bit
+paprefs
 parted
 patch
+pavucontrol
+pavumeter
 pciutils
 pciutils-ids
 pcmciautils
@@ -703,6 +717,15 @@ preload
 procps
 psmisc
 pth
+pulseaudio
+pulseaudio-esound-compat
+pulseaudio-module-bluetooth
+pulseaudio-module-gconf
+pulseaudio-module-jack
+pulseaudio-module-lirc
+pulseaudio-module-x11
+pulseaudio-module-zeroconf
+pulseaudio-utils
 pwdutils
 python
 python-cairo
@@ -867,7 +890,6 @@ xorg-x11-server
 xorg-x11-server-extra
 xournal
 xpdf-tools
-xsane
 xscreensaver
 xstroke
 xterm
@@ -908,6 +930,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-profile-manager
+yast2-qt
 yast2-registration
 yast2-repair
 yast2-restore

@@ -28,7 +28,7 @@ compat-libstdc++
 cups-libs-32bit
 dazuko
 dazuko-kmp-default
-dazuko-kmp-pae
+dazuko-kmp-xenpae
 dbus-1-glib-32bit
 fam-32bit
 flash-player
@@ -37,7 +37,6 @@ freetype2-32bit
 gail-32bit
 gconf2-32bit
 ghostscript-fonts-other
-glib
 glib2-32bit
 glitz-32bit
 gnome-keyring-32bit
@@ -45,12 +44,9 @@ gnome-vfs2-32bit
 gnu-jaf
 gnu-javamail
 gst-fluendo-mp3
-gtk
 gtk2-32bit
 hal-palm
 hplip-hpijs
-icewm-default
-imlib
 iscan
 iscan-firmware
 iscan-proprietary-drivers
@@ -67,7 +63,6 @@ java-1_6_0-sun-alsa
 java-1_6_0-sun-devel
 java-1_6_0-sun-jdbc
 java-1_6_0-sun-plugin
-javamail
 javamail-demo
 javamail-javadoc
 javamail-monolithic
@@ -76,7 +71,7 @@ kdegraphics3-pdf
 kdegraphics3-postscript
 kdelibs3
 kdelibs3-default-style
-kernel-pae
+kernel-xenpae
 libacl-32bit
 libart_lgpl-32bit
 libasound2-32bit
@@ -141,7 +136,7 @@ ttf-founder-traditional
 unixODBC
 wink
 wsdl4j
-xerces-j2-xml-resolver
+xen
 xml-commons
 xml-commons-resolver
 xorg-x11-libICE-32bit
@@ -161,3 +156,4 @@ xorg-x11-libfontenc-32bit
 xorg-x11-libs-32bit
 xorg-x11-libxcb-32bit
 xorg-x11-libxkbfile-32bit
+xpdf-tools
