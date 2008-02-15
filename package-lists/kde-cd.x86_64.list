@@ -94,7 +94,6 @@ cups
 cups-client
 cups-libs
 curl
-curl-ca-bundle
 cyrus-sasl
 cyrus-sasl-32bit
 cyrus-sasl-crammd5
@@ -144,6 +143,7 @@ fonts-config
 foomatic-filters
 freeglut
 freetype2
+fuse
 gail
 gawk
 gconf2
@@ -244,12 +244,14 @@ kdebase3
 kdebase3-SuSE
 kdebase3-kdm
 kdebase3-ksysguardd
+kdebase3-runtime
 kdebase4
-kdebase4-SuSE
 kdebase4-libkonq
+kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-session
 kdebase4-workspace
+kdebase4-workspace-plasmoids
 kdebluetooth
 kdelibs3
 kdelibs3-default-style
@@ -402,7 +404,6 @@ libqt4-x11
 libqtpod0
 libraptor1
 librasqal0
-libraw1394-8
 libreadline5
 libredland0
 librpcsecgss
@@ -441,6 +442,7 @@ libx86
 libxcrypt
 libxcrypt-32bit
 libxklavier
+libxklavier12
 libxml2
 libxslt
 libzio
