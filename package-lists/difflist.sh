@@ -7,8 +7,10 @@ difflist()
 }
          
 difflist dvd-all.list suse110-dvd5-i386
-difflist gnome-cd-all.list suse110-cd-gnome-i386
-difflist kde-cd-all.list suse110-cd-kde-i386
+difflist gnome-cd.i586.list suse110-cd-gnome-i386
+difflist kde-cd.i586.list suse110-cd-kde-i386
+difflist gnome-cd.x86_64.list suse110-cd-gnome-x86_64
+difflist kde-cd.x86_64.list suse110-cd-kde-x86_64
 difflist langaddon-all.list suse110-cd-lang-i386
 difflist non_oss-all.list suse110-cd-pay-i386
 #difflist dvd-promo.list "PROMO DVD"

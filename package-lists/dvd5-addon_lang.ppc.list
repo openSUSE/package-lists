@@ -160,8 +160,6 @@ amarok-libvisual
 amarok-yauap
 ami
 amidic
-anjuta
-anjuta-lang
 ant
 ant-apache-bcel
 ant-apache-bsf
@@ -180,7 +178,7 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
-antlr
+antlr-bootstrap
 apache2
 apache2-devel
 apache2-doc
@@ -298,7 +296,6 @@ aufs
 aufs-kmp-default
 autoconf
 autofs
-autogen
 automake
 autoyast2
 autoyast2-installation
@@ -317,7 +314,6 @@ banshee-plugins-default
 banshee-plugins-extra
 bash
 bash-doc
-batik
 bc
 bcel
 bcm43xx-fwcutter
@@ -480,7 +476,6 @@ cups-devel
 cups-drivers
 cups-libs
 curl
-curl-ca-bundle
 cvs
 cvsps
 cyrus-imapd
@@ -682,8 +677,6 @@ gdb
 gdbm
 gdbm-devel
 gdk-pixbuf
-gdl
-gdl-lang
 gdm
 gdm-lang
 gecko-sharp2
@@ -723,8 +716,6 @@ gjiten
 glade
 glade-lang
 glade-sharp2
-glade3
-glade3-lang
 gle
 glib
 glib-devel
@@ -754,8 +745,6 @@ gnome-applets-lang
 gnome-audio
 gnome-bluetooth
 gnome-bluetooth-lang
-gnome-build
-gnome-build-lang
 gnome-certauth-devel
 gnome-commander
 gnome-commander-lang
@@ -848,7 +837,6 @@ gphoto
 gpm
 graphviz
 graphviz-devel
-graphviz-gd
 grep
 groff
 gsf-sharp
@@ -995,8 +983,6 @@ ispell-slovene
 ispell-spanish
 ispell-swedish
 itcl
-itrace
-itrace-kmp-ppc64
 ivman
 iwidgets
 iwl3945-ucode
@@ -1105,17 +1091,22 @@ kde3-i18n-vi
 kde3-i18n-wa
 kde3-i18n-zh_CN
 kde3-i18n-zh_TW
+kde4-ark
 kde4-dolphin
 kde4-filesystem
 kde4-kapptemplate
 kde4-kate
+kde4-kcalc
 kde4-kcolorchooser
+kde4-kdm
 kde4-kdnssd
 kde4-keditbookmarks
 kde4-kgamma
 kde4-kget
+kde4-kgpg
 kde4-kio_audiocd
 kde4-kio_kamera
+kde4-kio_sysinfo
 kde4-kmahjongg
 kde4-kmines
 kde4-kmix
@@ -1129,7 +1120,9 @@ kde4-krdc
 kde4-kreversi
 kde4-krfb
 kde4-kscd
+kde4-ksnapshot
 kde4-ksudoku
+kde4-kwalletmanager
 kde4-kwin
 kde4-kwrite
 kde4-l10n-ar
@@ -1256,7 +1249,6 @@ kdewebdev3
 kdirstat
 kdump
 kernel-default
-kernel-ppc64
 kernel-source
 kerry
 kerry-lang
@@ -1386,6 +1378,7 @@ libapr-util1
 libapr-util1-devel
 libapr1
 libapr1-devel
+libarchive2
 libart_lgpl
 libart_lgpl-devel
 libasound2
@@ -1398,6 +1391,7 @@ libavahi-core5
 libavahi-devel
 libavahi-glib-devel
 libavahi-glib1
+libavahi-gobject0
 libavahi-ui0
 libavc1394-0
 libavc1394-devel
@@ -1490,7 +1484,6 @@ libglade2-devel
 libglade2-doc
 libglademm
 libglademm-2_4-1
-libgladeui-1-5
 libgluezilla0
 libgmime-2_0-3
 libgnome
@@ -1686,10 +1679,12 @@ libqtpod0
 libquicktime
 libraptor-devel
 libraptor1
+librasqal-devel
 librasqal0
 libraw1394-8
 libraw1394-devel
 libreadline5
+libredland-devel
 libredland0
 librpcsecgss
 librsvg
@@ -2589,6 +2584,12 @@ unsermake
 unzip
 update-alternatives
 update-desktop-files
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 usbutils
 utempter
 util-linux

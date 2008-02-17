@@ -167,8 +167,6 @@ amarok-yauap
 amavisd-new
 ami
 amidic
-anjuta
-anjuta-lang
 ant
 ant-apache-bcel
 ant-apache-bsf
@@ -308,7 +306,6 @@ aufs-kmp-default
 aufs-kmp-xen
 autoconf
 autofs
-autogen
 automake
 autoyast2
 autoyast2-installation
@@ -327,7 +324,6 @@ banshee-plugins-default
 banshee-plugins-extra
 bash
 bash-doc
-batik
 bc
 bcel
 bcm43xx-fwcutter
@@ -364,6 +360,7 @@ bootsplash-theme-SuSE
 bpg-fonts
 brasero
 brasero-lang
+bridge-utils
 bsd-games
 bsf
 bug-buddy
@@ -556,6 +553,7 @@ digikamimageplugins
 digikamimageplugins-superimpose
 dirmngr
 dmraid
+dnsmasq
 docbook-dsssl-stylesheets
 docbook-xml-website
 docbook-xsl-stylesheets
@@ -701,8 +699,6 @@ gdb
 gdbm
 gdbm-devel
 gdk-pixbuf
-gdl
-gdl-lang
 gdm
 gdm-lang
 gecko-sharp2
@@ -742,8 +738,6 @@ gjiten
 glade
 glade-lang
 glade-sharp2
-glade3
-glade3-lang
 gle
 glib
 glib-devel
@@ -776,8 +770,6 @@ gnome-applets-lang
 gnome-audio
 gnome-bluetooth
 gnome-bluetooth-lang
-gnome-build
-gnome-build-lang
 gnome-certauth-devel
 gnome-commander
 gnome-commander-lang
@@ -870,7 +862,6 @@ gphoto
 gpm
 graphviz
 graphviz-devel
-graphviz-gd
 grep
 groff
 grub
@@ -987,8 +978,6 @@ iproute2
 ipsec-tools
 iptables
 iputils
-ipw3945-kmp-default
-ipw3945d
 irda
 irqbalance
 irssi
@@ -1131,17 +1120,22 @@ kde3-i18n-vi
 kde3-i18n-wa
 kde3-i18n-zh_CN
 kde3-i18n-zh_TW
+kde4-ark
 kde4-dolphin
 kde4-filesystem
 kde4-kapptemplate
 kde4-kate
+kde4-kcalc
 kde4-kcolorchooser
+kde4-kdm
 kde4-kdnssd
 kde4-keditbookmarks
 kde4-kgamma
 kde4-kget
+kde4-kgpg
 kde4-kio_audiocd
 kde4-kio_kamera
+kde4-kio_sysinfo
 kde4-kmahjongg
 kde4-kmines
 kde4-kmix
@@ -1155,7 +1149,9 @@ kde4-krdc
 kde4-kreversi
 kde4-krfb
 kde4-kscd
+kde4-ksnapshot
 kde4-ksudoku
+kde4-kwalletmanager
 kde4-kwin
 kde4-kwrite
 kde4-l10n-ar
@@ -1424,6 +1420,7 @@ libapr-util1
 libapr-util1-devel
 libapr1
 libapr1-devel
+libarchive2
 libart_lgpl
 libart_lgpl-32bit
 libart_lgpl-devel
@@ -1442,6 +1439,7 @@ libavahi-core5
 libavahi-devel
 libavahi-glib-devel
 libavahi-glib1
+libavahi-gobject0
 libavahi-ui0
 libavc1394-0
 libavc1394-devel
@@ -1543,7 +1541,6 @@ libglade2-devel
 libglade2-doc
 libglademm
 libglademm-2_4-1
-libgladeui-1-5
 libgluezilla0
 libgmime-2_0-3
 libgnome
@@ -1750,10 +1747,12 @@ libqtpod0
 libquicktime
 libraptor-devel
 libraptor1
+librasqal-devel
 librasqal0
 libraw1394-8
 libraw1394-devel
 libreadline5
+libredland-devel
 libredland0
 librpcsecgss
 librsvg
@@ -1806,6 +1805,8 @@ libusb-devel
 libuuid-devel
 libuuid1
 libuuid1-32bit
+libvirt
+libvirt-python
 libvisual
 libvisual-devel
 libvisual-plugins
@@ -2416,6 +2417,7 @@ pwlib
 pychecker
 python
 python-cairo
+python-curses
 python-gnome
 python-gnome-extras
 python-gobject2
@@ -2432,6 +2434,7 @@ python-qt
 python-qt4
 python-sip
 python-tk
+python-urlgrabber
 python-xml
 pyxml
 qca
@@ -2686,6 +2689,12 @@ unsermake
 unzip
 update-alternatives
 update-desktop-files
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 usbutils
 utempter
 util-linux
@@ -2699,10 +2708,11 @@ vim-base
 vim-data
 vino
 vino-lang
-virtualbox-kmp-default
+virt-manager
 vlan
 vlna
 vlock
+vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -2750,6 +2760,10 @@ xemacs-info
 xemacs-packages
 xemacs-packages-info
 xen
+xen-doc-html
+xen-doc-pdf
+xen-libs
+xen-tools
 xerces-j2
 xfce-mcs-manager
 xfce-mcs-plugins
@@ -3046,6 +3060,7 @@ yast2-tune
 yast2-tv
 yast2-update
 yast2-users
+yast2-vm
 yast2-x11
 yast2-xml
 yauap
