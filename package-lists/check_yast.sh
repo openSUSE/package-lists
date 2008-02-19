@@ -1,11 +1,12 @@
 # check if our copy is valid
-curl -s 'http://svn.opensuse.org/viewcvs/yast/trunk/extra-packages?view=co' > yast_packs.new
-diff -u yast_packs yast_packs.new || exit 1
-rm yast_packs.new
+curl -s 'http://svn.opensuse.org/viewcvs/yast/trunk/extra-packages?view=co' > yast_packs.rec
+
+archs=$2
+test -n "$archs" || archs="__x86_64__ __i386__ __ppc__ __ppc64__"
 
 # __ia64__ __s390__ __s390x__
 (
-for i in __x86_64__ __i386__ __ppc__ __ppc64__; do
+for i in $archs; do
   cpp -E -Ulinux -D$i yast_packs.rec  | grep -v '^#' | grep -v '^ '
 done
 ) | sort -u | sed -e "s,:, ," > yast.list
