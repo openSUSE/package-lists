@@ -139,7 +139,6 @@ foomatic-filters
 freeglut
 freetype2
 fuse
-gail
 gawk
 gconf2
 gdb
@@ -153,12 +152,9 @@ ghostscript-x11
 giflib
 glib2
 glibc
-glibc-i18ndata
 glibc-locale
 glitz
 gmp
-gnome-icon-theme
-gnome-keyring
 gnome-vfs2
 gnutls
 gpart
@@ -295,7 +291,6 @@ libavahi-glib1
 libblkid1
 libblocxx6
 libbonobo
-libbonoboui
 libbz2-1
 libcap
 libcdio7
@@ -313,23 +308,16 @@ libenchant1
 libesd0
 libevent
 libexif
-libexiv2
+libexiv2-2
 libexpat1
 libext2fs2
 libfuse2
 libgcc43
 libgcrypt11
 libgimpprint
-libglade2
 libgnome
-libgnomecanvas
-libgnomecups
-libgnomeprint
-libgnomeprintui
-libgnomesu
-libgnomesu0
-libgnomeui
-libgnutls13
+libgnutls-extra26
+libgnutls26
 libgpg-error0
 libgpgme11
 libgphoto2
@@ -372,7 +360,6 @@ libnscd
 libofa0
 libogg0
 liboil
-libopencdk10
 libopenct1
 libopensc2
 libopenssl0_9_8
@@ -385,7 +372,6 @@ libpoppler2
 libqca2
 libqimageblitz4
 libqt4
-libqt4-dbus-1
 libqt4-qt3support
 libqt4-sql
 libqt4-x11
@@ -409,8 +395,6 @@ libspeex
 libsqlite3-0
 libstdc++43
 libstrigi0
-libtasn1
-libtasn1-3
 libtheora0
 libthinkfinger
 libtiff3
@@ -436,6 +420,7 @@ lilo
 limal
 limal-perl
 linux-atm-lib
+login
 logrotate
 lomoco
 lukemftp
@@ -555,6 +540,7 @@ release-notes
 resmgr
 rpm
 ruby
+satsolver-tools
 sax2
 sax2-gui
 sax2-ident
@@ -681,10 +667,12 @@ yast2-iscsi-client
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
+yast2-libyui
 yast2-mail
 yast2-metapackage-handler
 yast2-mouse
 yast2-ncurses
+yast2-ncurses-pkg
 yast2-network
 yast2-nfs-client
 yast2-nis-client
@@ -698,6 +686,7 @@ yast2-pkg-bindings
 yast2-printer
 yast2-profile-manager
 yast2-qt
+yast2-qt-pkg
 yast2-registration
 yast2-repair
 yast2-restore
@@ -723,6 +712,7 @@ yast2-update
 yast2-users
 yast2-x11
 yast2-xml
+yast2-ycp-ui-bindings
 yauap
 yp-tools
 ypbind
