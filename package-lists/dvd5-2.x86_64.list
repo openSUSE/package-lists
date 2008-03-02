@@ -15,7 +15,6 @@ a2ps
 a2ps-perl-ja
 aaa_base
 anthy
-antivir
 aspell
 aspell-cs
 aspell-da
@@ -126,7 +125,6 @@ dhcp
 dhcp-client
 dialog
 diffutils
-dirmngr
 ed
 edict
 eel
@@ -179,7 +177,6 @@ gnome-vfs2
 gnome2-user-docs
 gnu-javamail
 gnuchess
-gpg2
 gpm
 grep
 groff
@@ -201,6 +198,7 @@ icewm-default
 imlib
 info
 insserv
+iproute2
 iso-codes
 ispell
 ispell-american
@@ -228,6 +226,8 @@ kasumi
 kde3-i18n-cs
 kde3-i18n-da
 kde3-i18n-de
+kde3-i18n-de-data
+kde3-i18n-de-doc
 kde3-i18n-en_GB
 kde3-i18n-es
 kde3-i18n-fi
@@ -247,6 +247,7 @@ kde3-i18n-zh_TW
 kdelibs3
 kdelibs3-default-style
 keyutils-libs
+klogd
 krb5
 less
 libacl
@@ -285,14 +286,9 @@ libgnome
 libgnome-desktop-2-2
 libgnome-menu2
 libgnomecanvas
-libgnomecups
 libgnomekbd
-libgnomeprint
-libgnomeprintui
-libgnomesu
-libgnomesu0
 libgnomeui
-libgnutls13
+libgnutls26
 libgpg-error0
 libgphoto2
 libgsf-1-114
@@ -308,7 +304,6 @@ libieee1284
 libiterm
 libjasper
 libjpeg
-libksba
 liblcms1
 libltdl-3
 libmng
@@ -317,7 +312,6 @@ libnl
 libnscd
 libogg0
 liboil
-libopencdk10
 libopenssl0_9_8
 libotf
 libpng12-0
@@ -358,12 +352,12 @@ libxml2
 libxslt
 libzio
 licenses
+login
 logrotate
 lpdfilter
 lprng
 lsb
 lv
-lzo
 m17n-db
 m17n-lib
 m4
@@ -384,7 +378,6 @@ mikachan-fonts
 mingetty
 mlterm-scim
 mlterm-uim
-module-init-tools
 mozilla-nspr
 mozilla-nss
 myspell-german-old
@@ -420,14 +413,12 @@ perl
 perl-XML-Parser
 perl-base
 permissions
-pinentry
 pm-utils
 pmtools
 popt
 procmail
 procps
 psmisc
-pth
 pwdutils
 python
 qt3
@@ -474,6 +465,7 @@ snmp-mibs
 squid
 startup-notification
 sudo
+sysconfig
 sysfsutils
 sysvinit
 tango-icon-theme
@@ -497,6 +489,7 @@ ttf-cmex-song
 udev
 uim
 uim-qt
+update-alternatives
 utempter
 util-linux
 uuid-runtime

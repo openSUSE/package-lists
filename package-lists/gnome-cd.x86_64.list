@@ -187,7 +187,6 @@ glib-sharp2
 glib2
 glibc
 glibc-32bit
-glibc-i18ndata
 glibc-locale
 glibc-locale-32bit
 glibmm2
@@ -201,6 +200,8 @@ gnome-commander
 gnome-cups-manager
 gnome-desktop
 gnome-doc-utils
+gnome-games
+gnome-games-lang
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-manager
@@ -232,6 +233,7 @@ gnome-volume-manager
 gnome-web-photo
 gnome2-SuSE
 gnome2-user-docs
+gnuchess
 gnutls
 gpart
 gpg2
@@ -250,6 +252,7 @@ gtk-sharp2
 gtk2
 gtk2-engines
 gtk2-themes
+gtkglext
 gtkhtml-sharp2
 gtkhtml2
 gtkmm2
@@ -365,7 +368,8 @@ libgnomeprintui
 libgnomesu
 libgnomesu0
 libgnomeui
-libgnutls13
+libgnutls-extra26
+libgnutls26
 libgpg-error0
 libgphoto2
 libgsf-1-114
@@ -405,7 +409,6 @@ libnscd
 libnvtv
 libogg0
 liboil
-libopencdk10
 libopenct1
 libopensc2
 libopenssl0_9_8
@@ -420,7 +423,6 @@ libpulse0
 libpulsecore4
 libpurple
 libqt4
-libqt4-dbus-1
 libqt4-qt3support
 libqt4-sql
 libqt4-x11
@@ -476,6 +478,7 @@ limal-perl
 linux-atm-lib
 linux32
 lirc
+login
 logrotate
 lomoco
 lua-libs
@@ -533,6 +536,7 @@ numactl
 numlockx
 openSUSE-release
 openct
+openldap2
 openldap2-client
 openldap2-client-32bit
 openobex
@@ -637,7 +641,9 @@ python-gnome
 python-gnome-extras
 python-gobject2
 python-gtk
+python-gtkglext
 python-numeric
+python-opengl
 python-orbit
 python-xml
 qlogic-firmware
@@ -649,8 +655,10 @@ release-notes
 resapplet
 resmgr
 rpm
+rsvg-view
 samba
 samba-client
+satsolver-tools
 sax2
 sax2-gui
 sax2-ident
@@ -697,6 +705,7 @@ timezone
 tk
 tomboy
 totem
+totem-pl-parser
 totem-plugin
 translation-update
 translation-update-de
@@ -792,10 +801,12 @@ yast2-iscsi-client
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
+yast2-libyui
 yast2-mail
 yast2-metapackage-handler
 yast2-mouse
 yast2-ncurses
+yast2-ncurses-pkg
 yast2-network
 yast2-nfs-client
 yast2-nis-client
@@ -809,6 +820,7 @@ yast2-pkg-bindings
 yast2-printer
 yast2-profile-manager
 yast2-qt
+yast2-qt-pkg
 yast2-registration
 yast2-repair
 yast2-restore
@@ -834,6 +846,7 @@ yast2-update
 yast2-users
 yast2-x11
 yast2-xml
+yast2-ycp-ui-bindings
 yelp
 yp-tools
 ypbind
