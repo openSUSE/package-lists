@@ -160,9 +160,6 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
-antivir
-antivir-avguard
-antivir-gui
 antlr
 apache2
 apache2-devel
@@ -237,6 +234,7 @@ autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
 avahi-mono
+avmailgate
 awesfx
 axis
 banshee
@@ -382,7 +380,7 @@ cpp
 cpp43
 cpufrequtils
 cracklib
-cracklib-dict-small
+cracklib-dict-full
 createrepo
 cron
 cross-spu-binutils
@@ -416,7 +414,6 @@ dante
 dasher
 dasher-lang
 datakiosk
-dazuko
 dazuko-kmp-default
 dazuko-kmp-pae
 dazuko-kmp-xen
@@ -490,8 +487,8 @@ e2fsprogs
 eclipse
 eclipse-archdep-gtk2
 eclipse-archdep-platform
-eclipse-archdep-scripts
-eclipse-platform
+eclipse-archdep-platform-commons
+eclipse-scripts
 ed
 edict
 eel
@@ -718,6 +715,7 @@ gnome-printer-add
 gnome-python-desktop
 gnome-screensaver
 gnome-session
+gnome-session-branding-upstream
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
@@ -783,6 +781,7 @@ gtk-sharp2-doc
 gtk-sharp2-gapi
 gtk-xfce-engine
 gtk2
+gtk2-branding-upstream
 gtk2-devel
 gtk2-engines
 gtk2-themes
@@ -860,6 +859,7 @@ install-initrd
 intlfnts
 intltool
 ipadic
+ipod-sharp
 iproute2
 ipsec-tools
 iptables
@@ -1249,8 +1249,6 @@ kpartx
 kpl
 kpowersave
 kpsion
-kqemu-kmp-default
-kqemu-kmp-pae
 kradio
 krb5
 krb5-client
@@ -1483,8 +1481,6 @@ libidn
 libidn-devel
 libieee1284
 libiniparser
-libipoddevice
-libipoddevice0
 libiso9660-5
 libiterm
 libjack-devel
@@ -1629,7 +1625,7 @@ libsnmp15
 libsoprano-devel
 libsoprano4
 libsoup
-libsoup-2_4-0
+libsoup-2_4-1
 libsoup-devel
 libspeex
 libsqlite3-0
@@ -1760,7 +1756,6 @@ memtest86+
 metacity
 metacity-devel
 metamail
-mhash
 microcode_ctl
 mikachan-fonts
 mingetty
@@ -1834,6 +1829,7 @@ mysql
 mysql-client
 mysql-connector-java
 nagios
+nagios-www
 nano
 nant
 nautilus
@@ -1969,6 +1965,7 @@ perl-BSD-Resource
 perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
+perl-CDDB_get
 perl-CGI-Application
 perl-Cairo
 perl-Carp-Assert
@@ -2176,7 +2173,6 @@ php5-json
 php5-ldap
 php5-mbstring
 php5-mcrypt
-php5-mhash
 php5-mysql
 php5-ncurses
 php5-odbc
@@ -2214,6 +2210,7 @@ plotutils
 plptools
 pm-utils
 pmtools
+podsleuth
 popt
 popt-devel
 portmap
@@ -2253,7 +2250,6 @@ python
 python-cairo
 python-cairo-devel
 python-curl
-python-curses
 python-dateutil
 python-devel
 python-doc
@@ -2311,9 +2307,12 @@ qt3-unixODBC
 qtcurve-gtk2
 qtcurve-kde
 quagga
+quickcam-kmp-default
+quickcam-kmp-pae
 quilt
 quota
 radvd
+rarian
 rarpd
 rcs
 rdesktop
@@ -2526,8 +2525,10 @@ texlive-bin-metapost
 texlive-bin-omega
 texlive-bin-xetex
 texlive-context
+texlive-doc
 texlive-dvilj
 texlive-latex
+texlive-latex-doc
 texlive-metapost
 texlive-omega
 texlive-xetex
@@ -2629,7 +2630,6 @@ virtualbox-ose-kmp-pae
 vlan
 vlna
 vlock
-vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -2677,6 +2677,7 @@ xano-mincho
 xarchiver
 xaw3d
 xboard
+xchat-gnome
 xdg-menu
 xdg-utils
 xdmbgrd
@@ -2688,7 +2689,6 @@ xen
 xen-doc-html
 xen-doc-pdf
 xen-libs
-xen-tools
 xerces-j2
 xfce-mcs-manager
 xfce-mcs-plugins
@@ -2861,6 +2861,7 @@ yast2-ldap
 yast2-ldap-client
 yast2-ldap-server
 yast2-libyui
+yast2-libyui-devel
 yast2-live-installer
 yast2-mail
 yast2-mail-plugins
@@ -2975,6 +2976,7 @@ yast2-vm
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
+yast2-ycp-ui-bindings-devel
 yauap
 yelp
 yp-tools

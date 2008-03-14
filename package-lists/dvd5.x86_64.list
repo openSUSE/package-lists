@@ -161,7 +161,6 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
-antivir
 antlr
 apache2
 apache2-devel
@@ -384,7 +383,7 @@ cpp43
 cpufrequtils
 cracklib
 cracklib-32bit
-cracklib-dict-small
+cracklib-dict-full
 createrepo
 cron
 cross-spu-binutils
@@ -494,7 +493,7 @@ eclipse
 eclipse-archdep-gtk2
 eclipse-archdep-platform
 eclipse-archdep-platform-commons
-eclipse-scripts
+eclipse-archdep-scripts
 ed
 edict
 eel
@@ -614,6 +613,7 @@ gconf-editor
 gconf-sharp2
 gconf2
 gconf2-32bit
+gconf2-branding-openSUSE
 gconf2-devel
 gconf2-doc
 gconfmm
@@ -797,8 +797,10 @@ gtk-sharp2-gapi
 gtk-xfce-engine
 gtk2
 gtk2-32bit
+gtk2-branding-upstream
 gtk2-devel
 gtk2-engines
+gtk2-engines-32bit
 gtk2-themes
 gtkglext
 gtkhtml-sharp2
@@ -875,6 +877,7 @@ install-initrd
 intlfnts
 intltool
 ipadic
+ipod-sharp
 iproute2
 ipsec-tools
 iptables
@@ -1266,7 +1269,6 @@ kpartx
 kpl
 kpowersave
 kpsion
-kqemu-kmp-default
 kradio
 krb5
 krb5-32bit
@@ -1527,8 +1529,6 @@ libidn-32bit
 libidn-devel
 libieee1284
 libiniparser
-libipoddevice
-libipoddevice0
 libiso9660-5
 libiterm
 libjack-devel
@@ -1682,7 +1682,7 @@ libsnmp15
 libsoprano-devel
 libsoprano4
 libsoup
-libsoup-2_4-0
+libsoup-2_4-1
 libsoup-devel
 libspeex
 libsqlite3-0
@@ -1822,7 +1822,6 @@ memtest86+
 metacity
 metacity-devel
 metamail
-mhash
 microcode_ctl
 mikachan-fonts
 mingetty
@@ -1899,6 +1898,7 @@ mysql
 mysql-client
 mysql-connector-java
 nagios
+nagios-www
 nano
 nant
 nautilus
@@ -2044,6 +2044,7 @@ perl-BSD-Resource
 perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
+perl-CDDB_get
 perl-CGI-Application
 perl-Cairo
 perl-Carp-Assert
@@ -2251,7 +2252,6 @@ php5-json
 php5-ldap
 php5-mbstring
 php5-mcrypt
-php5-mhash
 php5-mysql
 php5-ncurses
 php5-odbc
@@ -2289,6 +2289,7 @@ plotutils
 plptools
 pm-utils
 pmtools
+podsleuth
 popt
 popt-32bit
 popt-devel
@@ -2329,7 +2330,6 @@ python
 python-cairo
 python-cairo-devel
 python-curl
-python-curses
 python-dateutil
 python-devel
 python-doc
@@ -2389,9 +2389,11 @@ qtcurve-gtk2
 qtcurve-gtk2-32bit
 qtcurve-kde
 quagga
+quickcam-kmp-default
 quilt
 quota
 radvd
+rarian
 rarpd
 rcs
 rdesktop
@@ -2576,6 +2578,7 @@ sysvinit
 t1lib
 tack
 taglib
+taglib-sharp
 tango-icon-theme
 tar
 tcl
@@ -2605,8 +2608,10 @@ texlive-bin-metapost
 texlive-bin-omega
 texlive-bin-xetex
 texlive-context
+texlive-doc
 texlive-dvilj
 texlive-latex
+texlive-latex-doc
 texlive-metapost
 texlive-omega
 texlive-xetex
@@ -2706,7 +2711,6 @@ virtualbox-ose-kmp-default
 vlan
 vlna
 vlock
-vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -2752,6 +2756,7 @@ xano-mincho
 xarchiver
 xaw3d
 xboard
+xchat-gnome
 xdg-menu
 xdg-utils
 xdmbgrd
@@ -2763,7 +2768,6 @@ xen
 xen-doc-html
 xen-doc-pdf
 xen-libs
-xen-tools
 xerces-j2
 xfce-mcs-manager
 xfce-mcs-plugins
@@ -2953,6 +2957,7 @@ yast2-ldap
 yast2-ldap-client
 yast2-ldap-server
 yast2-libyui
+yast2-libyui-devel
 yast2-live-installer
 yast2-mail
 yast2-mail-plugins
@@ -3067,6 +3072,7 @@ yast2-vm
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
+yast2-ycp-ui-bindings-devel
 yauap
 yelp
 yp-tools

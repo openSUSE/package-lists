@@ -35,7 +35,7 @@ for pack in `pdb query --filter status:internal` `pdb query --filter status:cand
   case $pack in
     *-KMP)
 	pack=${pack/-KMP/-}
-        for suffix in default bigsmp xen xenpae; do
+        for suffix in default bigsmp xen xenpae pae; do
            LOCK="$LOCK <lock package=\"$pack$suffix\"/>"
         done
         ;;
@@ -47,7 +47,7 @@ do
   arch=$i
   echo "processing $arch..."
   eval VAR="\$GEN_URL_${i}"
-  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | grep -v "!$arch" | xmllint --format - > $file.$arch.xml
+  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" | xmllint --format - > $file.$arch.xml
 
   rm -rf /tmp/myrepos/*
   mkdir -p $TESTTRACK/$base.$arch/CD1/

@@ -44,6 +44,7 @@ bc
 bind-libs
 bind-utils
 binutils
+bluez-libs
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -108,7 +109,7 @@ control-center2
 coreutils
 cpio
 cracklib
-cracklib-dict-full
+cracklib-dict-small
 cron
 cups-libs
 curl
@@ -180,6 +181,7 @@ gstreamer-0_10
 gstreamer-0_10-plugins-base
 gtk
 gtk2
+gtk2-branding-upstream
 gtk2-engines
 gtkiterm
 gucharmap
@@ -255,6 +257,7 @@ libavahi-client3
 libavahi-common3
 libavahi-core5
 libavahi-glib1
+libbeagle1
 libbonobo
 libbonoboui
 libbz2-1
@@ -318,7 +321,7 @@ libsmbclient
 libsmbios-libs
 libsnmp15
 libsoup
-libsoup-2_4-0
+libsoup-2_4-1
 libsqlite3-0
 libssui
 libssui0

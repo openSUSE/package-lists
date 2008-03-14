@@ -34,6 +34,7 @@ acpid
 adaptec-firmware
 alsa
 alsa-oss
+alsa-oss-32bit
 alsa-utils
 amarok
 amarok-libvisual
@@ -181,6 +182,7 @@ gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gtk2
 gtk2-32bit
+gtk2-branding-upstream
 gvfs
 gwenview
 gzip
@@ -303,6 +305,7 @@ libapparmor1
 libarchive2
 libart_lgpl
 libasound2
+libasound2-32bit
 libatk-1_0-0
 libatk-1_0-0-32bit
 libattr
@@ -417,7 +420,7 @@ libsmbios-libs
 libsndfile
 libsoprano4
 libsoup
-libsoup-2_4-0
+libsoup-2_4-1
 libspeex
 libsqlite3-0
 libstdc++43
@@ -452,6 +455,8 @@ libzypp
 licenses
 lilo
 limal
+limal-ca-mgm
+limal-ca-mgm-perl
 limal-perl
 linux-atm-lib
 linux32
@@ -498,7 +503,6 @@ numlockx
 obexftp
 openSUSE-release
 openct
-openldap2
 openldap2-client
 openldap2-client-32bit
 openobex

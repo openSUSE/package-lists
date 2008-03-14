@@ -23,6 +23,7 @@ LibVNCServer
 Maelstrom
 Mesa
 Mesa-32bit
+Mesa-64bit
 Mesa-devel
 Mesa-x86
 MozillaFirefox
@@ -143,6 +144,7 @@ alsa
 alsa-devel
 alsa-oss
 alsa-oss-32bit
+alsa-oss-64bit
 alsa-plugins
 alsa-utils
 amarok
@@ -171,9 +173,6 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
-antivir
-antivir-avguard
-antivir-gui
 antlr
 apache2
 apache2-devel
@@ -260,6 +259,7 @@ avahi-compat-mDNSResponder-x86
 avahi-glib-x86
 avahi-mono
 avahi-x86
+avmailgate
 awesfx
 axis
 banshee
@@ -366,6 +366,7 @@ bzip2
 cabextract
 cairo
 cairo-32bit
+cairo-64bit
 cairo-devel
 cairo-doc
 cairo-x86
@@ -434,6 +435,7 @@ cups-devel
 cups-drivers
 cups-libs
 cups-libs-32bit
+cups-libs-64bit
 cups-libs-x86
 curl
 cvs
@@ -451,7 +453,6 @@ dante
 dasher
 dasher-lang
 datakiosk
-dazuko
 dazuko-kmp-default
 dazuko-kmp-pae
 dazuko-kmp-xen
@@ -533,7 +534,6 @@ eclipse-archdep-gtk2
 eclipse-archdep-platform
 eclipse-archdep-platform-commons
 eclipse-archdep-scripts
-eclipse-platform
 eclipse-scripts
 ed
 edict
@@ -602,6 +602,7 @@ flim
 flim-xemacs
 fontconfig
 fontconfig-32bit
+fontconfig-64bit
 fontconfig-devel
 fontconfig-x86
 fonts-config
@@ -618,6 +619,7 @@ freeglut-devel
 freetype
 freetype2
 freetype2-32bit
+freetype2-64bit
 freetype2-devel
 freetype2-x86
 fribidi
@@ -658,6 +660,7 @@ gconf-editor
 gconf-sharp2
 gconf2
 gconf2-32bit
+gconf2-branding-openSUSE
 gconf2-devel
 gconf2-doc
 gconf2-x86
@@ -675,6 +678,7 @@ gecko-sharp2
 gedit
 genisoimage
 geronimo
+geronimo-jetty-servlet-container
 geronimo-tomcat-servlet-container
 gettext-runtime
 gettext-tools
@@ -715,6 +719,7 @@ glib-devel
 glib-sharp2
 glib2
 glib2-32bit
+glib2-64bit
 glib2-devel
 glib2-doc
 glib2-x86
@@ -731,6 +736,7 @@ glibc-x86
 glibmm2
 glitz
 glitz-32bit
+glitz-64bit
 glitz-devel
 glitz-x86
 gltt
@@ -783,6 +789,7 @@ gnome-printer-add
 gnome-python-desktop
 gnome-screensaver
 gnome-session
+gnome-session-branding-upstream
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
@@ -806,6 +813,7 @@ gnome2-user-docs
 gnopernicus
 gnopernicus-devel
 gnopernicus-lang
+gnu-crypto
 gnu-jaf
 gnu-javamail
 gnucash
@@ -854,8 +862,12 @@ gtk-sharp2-gapi
 gtk-xfce-engine
 gtk2
 gtk2-32bit
+gtk2-64bit
+gtk2-branding-upstream
 gtk2-devel
 gtk2-engines
+gtk2-engines-32bit
+gtk2-engines-64bit
 gtk2-engines-x86
 gtk2-themes
 gtk2-x86
@@ -936,6 +948,7 @@ install-initrd
 intlfnts
 intltool
 ipadic
+ipod-sharp
 iproute2
 ipsec-tools
 iptables
@@ -1011,6 +1024,7 @@ javamail
 javamail-javadoc
 javamail-monolithic
 jdepend
+jessie
 jfsutils
 jhead
 jing
@@ -1333,8 +1347,6 @@ kpartx
 kpl
 kpowersave
 kpsion
-kqemu-kmp-default
-kqemu-kmp-pae
 kradio
 krb5
 krb5-32bit
@@ -1402,8 +1414,10 @@ libart_lgpl-devel
 libart_lgpl-x86
 libasound2
 libasound2-32bit
+libasound2-64bit
 libatk-1_0-0
 libatk-1_0-0-32bit
+libatk-1_0-0-64bit
 libattr
 libattr-32bit
 libattr-devel
@@ -1492,6 +1506,7 @@ libexpat-devel
 libexpat0
 libexpat1
 libexpat1-32bit
+libexpat1-64bit
 libext2fs-devel
 libext2fs2
 libfluidsynth1
@@ -1503,6 +1518,7 @@ libgalago
 libgcc42-x86
 libgcc43
 libgcc43-32bit
+libgcc43-64bit
 libgcj-devel
 libgcj43
 libgcj43-devel
@@ -1612,8 +1628,6 @@ libidn-devel
 libidn-x86
 libieee1284
 libiniparser
-libipoddevice
-libipoddevice0
 libiso9660-5
 libiterm
 libjack-devel
@@ -1623,6 +1637,7 @@ libjasper-32bit
 libjasper-x86
 libjpeg
 libjpeg-32bit
+libjpeg-64bit
 libjpeg-devel
 libjpeg-x86
 libkcddb4
@@ -1694,6 +1709,7 @@ libopensc2
 libopenssl-devel
 libopenssl0_9_8
 libopenssl0_9_8-32bit
+libopenssl0_9_8-64bit
 libopensync
 libopensync-plugin-evolution2
 libopensync-plugin-file
@@ -1716,6 +1732,7 @@ libpng-devel
 libpng-x86
 libpng12-0
 libpng12-0-32bit
+libpng12-0-64bit
 libpoppler-devel
 libpoppler-glib2
 libpoppler-qt2
@@ -1757,6 +1774,7 @@ librpcsecgss
 librsvg
 librsvg-devel
 librsvg-x86
+librtas
 libsamplerate
 libsatsolver-devel
 libsensors3
@@ -1775,8 +1793,9 @@ libsnmp15
 libsoprano-devel
 libsoprano4
 libsoup
-libsoup-2_4-0
+libsoup-2_4-1
 libsoup-devel
+libspe
 libspeex
 libsqlite3-0
 libssui
@@ -1785,6 +1804,7 @@ libstdc++-devel
 libstdc++42-x86
 libstdc++43
 libstdc++43-32bit
+libstdc++43-64bit
 libstdc++43-devel
 libstrigi0
 libstroke
@@ -1800,6 +1820,7 @@ libtidy
 libtiff-devel
 libtiff3
 libtiff3-32bit
+libtiff3-64bit
 libtomoe-gtk
 libtomoe-gtk-lang
 libtool
@@ -1926,7 +1947,6 @@ metacity
 metacity-devel
 metamail
 mgetty
-mhash
 microcode_ctl
 mikachan-fonts
 mingetty
@@ -1961,6 +1981,7 @@ mono-zeroconf-provider-avahi
 monodevelop
 monodoc-core
 motv
+mouseemu
 mousepad
 mozilla-nspr
 mozilla-nspr-32bit
@@ -2004,6 +2025,7 @@ mysql
 mysql-client
 mysql-connector-java
 nagios
+nagios-www
 nano
 nant
 nautilus
@@ -2124,6 +2146,7 @@ pan
 pan-lang
 pango
 pango-32bit
+pango-64bit
 pango-devel
 pango-doc
 pango-x86
@@ -2140,9 +2163,11 @@ pciutils-ids
 pcmciautils
 pcre
 pcre-32bit
+pcre-64bit
 pcre-devel
 pcre-x86
 pcsc-lite
+pdisk
 penguin-command
 perl
 perl-Algorithm-Diff
@@ -2160,6 +2185,7 @@ perl-BSD-Resource
 perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
+perl-CDDB_get
 perl-CGI-Application
 perl-Cairo
 perl-Carp-Assert
@@ -2367,7 +2393,6 @@ php5-json
 php5-ldap
 php5-mbstring
 php5-mcrypt
-php5-mhash
 php5-mysql
 php5-ncurses
 php5-odbc
@@ -2405,6 +2430,7 @@ plotutils
 plptools
 pm-utils
 pmtools
+podsleuth
 popt
 popt-32bit
 popt-devel
@@ -2412,6 +2438,8 @@ portmap
 posix_cc
 postfix
 postgresql-libs
+powerpc-utils
+powerpc32
 powersave
 powersave-libs
 ppp
@@ -2445,7 +2473,6 @@ python
 python-cairo
 python-cairo-devel
 python-curl
-python-curses
 python-dateutil
 python-devel
 python-doc
@@ -2507,9 +2534,12 @@ qtcurve-gtk2-32bit
 qtcurve-gtk2-x86
 qtcurve-kde
 quagga
+quickcam-kmp-default
+quickcam-kmp-pae
 quilt
 quota
 radvd
+rarian
 rarpd
 rcs
 rdesktop
@@ -2702,6 +2732,7 @@ sysvinit
 t1lib
 tack
 taglib
+taglib-sharp
 tango-icon-theme
 tar
 tcl
@@ -2732,8 +2763,10 @@ texlive-bin-metapost
 texlive-bin-omega
 texlive-bin-xetex
 texlive-context
+texlive-doc
 texlive-dvilj
 texlive-latex
+texlive-latex-doc
 texlive-metapost
 texlive-omega
 texlive-xetex
@@ -2836,7 +2869,6 @@ virtualbox-ose-kmp-pae
 vlan
 vlna
 vlock
-vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -2884,6 +2916,7 @@ xano-mincho
 xarchiver
 xaw3d
 xboard
+xchat-gnome
 xdg-menu
 xdg-utils
 xdmbgrd
@@ -2895,7 +2928,6 @@ xen
 xen-doc-html
 xen-doc-pdf
 xen-libs
-xen-tools
 xerces-j2
 xerces-j2-xml-apis
 xerces-j2-xml-resolver
@@ -2980,72 +3012,89 @@ xorg-x11-fonts-core
 xorg-x11-fonts-devel
 xorg-x11-libICE
 xorg-x11-libICE-32bit
+xorg-x11-libICE-64bit
 xorg-x11-libICE-devel
 xorg-x11-libICE-x86
 xorg-x11-libSM
 xorg-x11-libSM-32bit
+xorg-x11-libSM-64bit
 xorg-x11-libSM-devel
 xorg-x11-libSM-x86
 xorg-x11-libX11
 xorg-x11-libX11-32bit
+xorg-x11-libX11-64bit
 xorg-x11-libX11-ccache
 xorg-x11-libX11-devel
 xorg-x11-libX11-x86
 xorg-x11-libXau
 xorg-x11-libXau-32bit
+xorg-x11-libXau-64bit
 xorg-x11-libXau-devel
 xorg-x11-libXau-x86
 xorg-x11-libXdmcp
 xorg-x11-libXdmcp-devel
 xorg-x11-libXext
 xorg-x11-libXext-32bit
+xorg-x11-libXext-64bit
 xorg-x11-libXext-devel
 xorg-x11-libXext-x86
 xorg-x11-libXfixes
 xorg-x11-libXfixes-32bit
+xorg-x11-libXfixes-64bit
 xorg-x11-libXfixes-devel
 xorg-x11-libXfixes-x86
 xorg-x11-libXmu
 xorg-x11-libXmu-32bit
+xorg-x11-libXmu-64bit
 xorg-x11-libXmu-devel
 xorg-x11-libXmu-x86
 xorg-x11-libXp
 xorg-x11-libXp-32bit
+xorg-x11-libXp-64bit
 xorg-x11-libXp-devel
 xorg-x11-libXp-x86
 xorg-x11-libXpm
 xorg-x11-libXpm-32bit
+xorg-x11-libXpm-64bit
 xorg-x11-libXpm-devel
 xorg-x11-libXpm-x86
 xorg-x11-libXprintUtil
 xorg-x11-libXprintUtil-32bit
+xorg-x11-libXprintUtil-64bit
 xorg-x11-libXprintUtil-devel
 xorg-x11-libXprintUtil-x86
 xorg-x11-libXrender
 xorg-x11-libXrender-32bit
+xorg-x11-libXrender-64bit
 xorg-x11-libXrender-devel
 xorg-x11-libXrender-x86
 xorg-x11-libXt
 xorg-x11-libXt-32bit
+xorg-x11-libXt-64bit
 xorg-x11-libXt-devel
 xorg-x11-libXt-x86
 xorg-x11-libXv
 xorg-x11-libXv-32bit
+xorg-x11-libXv-64bit
 xorg-x11-libXv-devel
 xorg-x11-libXv-x86
 xorg-x11-libfontenc
 xorg-x11-libfontenc-32bit
+xorg-x11-libfontenc-64bit
 xorg-x11-libfontenc-devel
 xorg-x11-libfontenc-x86
 xorg-x11-libs
 xorg-x11-libs-32bit
+xorg-x11-libs-64bit
 xorg-x11-libs-x86
 xorg-x11-libxcb
 xorg-x11-libxcb-32bit
+xorg-x11-libxcb-64bit
 xorg-x11-libxcb-devel
 xorg-x11-libxcb-x86
 xorg-x11-libxkbfile
 xorg-x11-libxkbfile-32bit
+xorg-x11-libxkbfile-64bit
 xorg-x11-libxkbfile-devel
 xorg-x11-libxkbfile-x86
 xorg-x11-proto-devel
@@ -3104,6 +3153,7 @@ yast2-ldap
 yast2-ldap-client
 yast2-ldap-server
 yast2-libyui
+yast2-libyui-devel
 yast2-live-installer
 yast2-mail
 yast2-mail-plugins
@@ -3219,6 +3269,7 @@ yast2-vm
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
+yast2-ycp-ui-bindings-devel
 yauap
 yelp
 yp-tools
@@ -3232,6 +3283,7 @@ zip
 zisofs-tools
 zlib
 zlib-32bit
+zlib-64bit
 zlib-devel
 zlib-x86
 zoo

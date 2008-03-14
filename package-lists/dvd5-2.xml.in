@@ -85,10 +85,10 @@
     <lock package="ttf-founder-simplified"/>
     <lock package="ttf-founder-traditional"/>
     <lock package="wink"/>
+    <lock package="cracklib-dict-full"/>
     <!-- INTERNALS -->
   </setup>
   <trial>
-    <install kind="package" name="cracklib-dict-full"/>
     <install kind="package" name="sendmail"/>
     <install kind="package" name="notification-daemon-xfce"/>
     <install kind="package" name="sendfax"/>

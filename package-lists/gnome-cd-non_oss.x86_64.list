@@ -193,6 +193,7 @@ gconf-editor
 gconf-sharp2
 gconf2
 gconf2-32bit
+gconf2-branding-openSUSE
 gconfmm
 gdb
 gdbm
@@ -228,8 +229,6 @@ gnome-commander
 gnome-cups-manager
 gnome-desktop
 gnome-doc-utils
-gnome-games
-gnome-games-lang
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-32bit
@@ -283,9 +282,10 @@ gsynaptics
 gtk-sharp2
 gtk2
 gtk2-32bit
+gtk2-branding-upstream
 gtk2-engines
+gtk2-engines-32bit
 gtk2-themes
-gtkglext
 gtkhtml-sharp2
 gtkhtml2
 gtkmm2
@@ -461,8 +461,6 @@ libidn
 libidn-32bit
 libieee1284
 libiniparser
-libipoddevice
-libipoddevice0
 libiso9660-5
 libjack0
 libjasper
@@ -476,6 +474,7 @@ libltdl-3
 libmng
 libmng-32bit
 libmpfr1
+libmtp7
 libmusicbrainz4
 libneon27
 libnetpbm10
@@ -519,7 +518,7 @@ libsmbios-libs
 libsndfile
 libsnmp15
 libsoup
-libsoup-2_4-0
+libsoup-2_4-1
 libspeex
 libsqlite3-0
 libssui
@@ -558,6 +557,8 @@ licenses
 liferea
 lilo
 limal
+limal-ca-mgm
+limal-ca-mgm-perl
 limal-perl
 linux-atm-lib
 linux32
@@ -626,7 +627,6 @@ numactl
 numlockx
 openSUSE-release
 openct
-openldap2
 openldap2-client
 openldap2-client-32bit
 openobex
@@ -702,13 +702,13 @@ perl-libapparmor
 perl-libwww-perl
 perl-spamassassin
 permissions
-phalanx
 pidgin
 pinentry
 pinentry-gtk2
 pkg-config
 pm-utils
 pmtools
+podsleuth
 popt
 popt-32bit
 portmap
@@ -737,15 +737,14 @@ python-gnome
 python-gnome-extras
 python-gobject2
 python-gtk
-python-gtkglext
 python-numeric
-python-opengl
 python-orbit
 python-xml
 qlogic-firmware
 qt3
 qt3-32bit
 quota
+rarian
 recode
 regexp
 reiserfs
@@ -795,6 +794,7 @@ syslog-ng
 sysvinit
 t1lib
 taglib
+taglib-sharp
 tango-icon-theme
 tar
 tcl
@@ -840,6 +840,7 @@ x11-input-wacom-tools
 x11-tools
 xalan-j2
 xaw3d
+xchat-gnome
 xdg-menu
 xdg-utils
 xerces-j2
