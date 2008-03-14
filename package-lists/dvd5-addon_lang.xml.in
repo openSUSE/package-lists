@@ -207,10 +207,15 @@
     <lock package="java-1_4_2-ibm"/>
     <lock package="myspell-german-old"/>
     <lock package="squid"/>
+    <lock package="eclipse"/> <!-- !x86_64 !i586 -->
+<lock package="gtk2-branding-upstream"/>
+<lock package="gnome-session-branding-upstream"/>
+
     <!-- INTERNALS -->
   </setup>
   <trial>
     <install kind="pattern" name="rest_dvd"/>
+    <install kind="package" name="icewm-lite"/>
     <reportProblems/>
   </trial>
 </test>
