@@ -61,6 +61,9 @@
     <uninstall kind="package" name="kino"/>
     <uninstall kind="package" name="avmailgate"/>
     <uninstall kind="package" name="smartlink-softmodem"/>
+    <uninstall kind="package" name="agfa-fonts"/> <!-- special case: DVD only -->
+    <uninstall kind="package" name="java-1_4_2-cacao-devel"/>
+    <uninstall kind="package" name="java-1_4_2-cacao"/>
     <distupgrade delete_unmaintained="false"/>
     <reportproblems/>
   </trial>

@@ -345,6 +345,7 @@ avahi-mono
 avmailgate
 awesfx
 axis
+b43-fwcutter
 baekmuk
 baekmuk-ttf
 banshee
@@ -358,7 +359,6 @@ bash
 bash-doc
 bc
 bcel
-bcm43xx-fwcutter
 beagle
 beagle-evolution
 beagle-firefox
@@ -497,12 +497,14 @@ compat-openssl097g
 compiz
 compiz-gnome
 compiz-kde
+compiz-kde4
 control-center2
 control-center2-devel
 control-center2-lang
 coreutils
 coreutils-lang
 cpio
+cpio-lang
 cpp
 cpp43
 cpufrequtils
@@ -612,15 +614,14 @@ drbd-kmp-pae
 drbd-kmp-xen
 dvb
 dvd+rw-tools
-dviutils
 e2fsprogs
 eID-belgium
 eIDconfig-belgium
 eclipse
 eclipse-archdep-gtk2
 eclipse-archdep-platform
-eclipse-archdep-scripts
-eclipse-platform
+eclipse-archdep-platform-commons
+eclipse-scripts
 ed
 edict
 eel
@@ -629,6 +630,7 @@ eel-lang
 efont-unicode
 eject
 ekiga
+ekiga-lang
 emacs
 emacs-info
 emacs-nox
@@ -689,6 +691,7 @@ filters
 findutils
 findutils-locate
 finger
+flash-player
 flex
 flim
 flim-xemacs
@@ -897,6 +900,7 @@ gnome-system-monitor-lang
 gnome-terminal
 gnome-terminal-lang
 gnome-themes
+gnome-themes-openSUSE
 gnome-utils
 gnome-utils-lang
 gnome-vfs-obexftp
@@ -942,6 +946,7 @@ gsf-sharp
 gsl
 gspcav-kmp-default
 gspcav-kmp-pae
+gst-fluendo-mp3
 gstreamer-0_10
 gstreamer-0_10-devel
 gstreamer-0_10-doc
@@ -963,6 +968,7 @@ gtk-sharp2-doc
 gtk-sharp2-gapi
 gtk-xfce-engine
 gtk2
+gtk2-branding-openSUSE
 gtk2-devel
 gtk2-engines
 gtk2-engines-lang
@@ -2345,7 +2351,6 @@ pango-devel
 pango-doc
 paprefs
 parted
-passivetex
 patch
 patchutils
 pavucontrol
@@ -2545,6 +2550,7 @@ perl-XML-XQL
 perl-XML-XSLT
 perl-YAML
 perl-base
+perl-doc
 perl-gettext
 perl-ldap
 perl-ldap-ssl
@@ -2620,6 +2626,7 @@ planner-devel
 planner-lang
 plotutils
 plptools
+plptools-devel
 pm-utils
 pmtools
 podsleuth
@@ -2663,6 +2670,7 @@ python
 python-cairo
 python-cairo-devel
 python-curl
+python-curses
 python-dateutil
 python-devel
 python-doc
@@ -2944,7 +2952,9 @@ texlive-bin-dvilj
 texlive-bin-latex
 texlive-bin-metapost
 texlive-bin-omega
+texlive-bin-tools
 texlive-bin-xetex
+texlive-bin-xmltex
 texlive-context
 texlive-doc
 texlive-dvilj
@@ -2952,7 +2962,9 @@ texlive-latex
 texlive-latex-doc
 texlive-metapost
 texlive-omega
+texlive-tools
 texlive-xetex
+texlive-xmltex
 tftp
 thinkeramik
 thinkeramik-style
@@ -3057,6 +3069,7 @@ virtualbox-ose-kmp-pae
 vlan
 vlna
 vlock
+vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -3119,6 +3132,7 @@ xen
 xen-doc-html
 xen-doc-pdf
 xen-libs
+xen-tools
 xerces-j2
 xfce-mcs-manager
 xfce-mcs-plugins
@@ -3188,7 +3202,6 @@ xml-commons-which
 xmlcharent
 xmlformat
 xmlstarlet
-xmltex
 xmlto
 xmoto
 xorg-x11
@@ -3196,6 +3209,7 @@ xorg-x11-Xvnc
 xorg-x11-devel
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
 xorg-x11-fonts
 xorg-x11-fonts-core

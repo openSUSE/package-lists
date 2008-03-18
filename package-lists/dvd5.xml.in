@@ -47,8 +47,11 @@
     <lock package="libstdc++41-32bit"/>
     <lock package="cracklib-dict-small"/>
     <lock package="eclipse"/> <!-- !x86_64 !i586 -->
-<lock package="gtk2-branding-upstream"/>
-<lock package="gnome-session-branding-upstream"/>
+    <lock package="gtk2-branding-upstream"/>
+    <lock package="gnome-session-branding-upstream"/>
+    <lock package="texlive-doc"/>
+    <lock package="texlive-latex-doc"/>
+    <lock package="eclipse-archdep-platform-commons"/>
 
     <!-- INTERNALS -->
   </setup>

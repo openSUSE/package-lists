@@ -333,6 +333,7 @@ avahi-lang
 avahi-mono
 awesfx
 axis
+b43-fwcutter
 baekmuk
 baekmuk-ttf
 banshee
@@ -346,7 +347,6 @@ bash
 bash-doc
 bc
 bcel
-bcm43xx-fwcutter
 beagle
 beagle-evolution
 beagle-firefox
@@ -481,12 +481,14 @@ commoncpp2
 compiz
 compiz-gnome
 compiz-kde
+compiz-kde4
 control-center2
 control-center2-devel
 control-center2-lang
 coreutils
 coreutils-lang
 cpio
+cpio-lang
 cpp
 cpp43
 cpufrequtils
@@ -591,7 +593,6 @@ doxygen
 drbd-kmp-default
 dvb
 dvd+rw-tools
-dviutils
 e2fsprogs
 eID-belgium
 eIDconfig-belgium
@@ -603,6 +604,7 @@ eel-lang
 efont-unicode
 eject
 ekiga
+ekiga-lang
 emacs
 emacs-info
 emacs-nox
@@ -724,6 +726,7 @@ gconf-editor
 gconf-editor-lang
 gconf-sharp2
 gconf2
+gconf2-branding-openSUSE
 gconf2-devel
 gconf2-doc
 gconf2-lang
@@ -862,7 +865,6 @@ gnome-python-desktop
 gnome-screensaver
 gnome-screensaver-lang
 gnome-session
-gnome-session-branding-openSUSE
 gnome-session-lang
 gnome-settings-daemon
 gnome-settings-daemon-lang
@@ -876,6 +878,7 @@ gnome-system-monitor-lang
 gnome-terminal
 gnome-terminal-lang
 gnome-themes
+gnome-themes-openSUSE
 gnome-utils
 gnome-utils-lang
 gnome-vfs-obexftp
@@ -893,7 +896,6 @@ gnome2-user-docs
 gnopernicus
 gnopernicus-devel
 gnopernicus-lang
-gnu-crypto
 gnu-jaf
 gnucash
 gnucash-docs
@@ -920,6 +922,7 @@ groff
 gsf-sharp
 gsl
 gspcav-kmp-default
+gst-fluendo-mp3
 gstreamer-0_10
 gstreamer-0_10-devel
 gstreamer-0_10-doc
@@ -942,6 +945,7 @@ gtk-sharp2-gapi
 gtk-xfce-engine
 gtk2
 gtk2-64bit
+gtk2-branding-openSUSE
 gtk2-devel
 gtk2-engines
 gtk2-engines-64bit
@@ -1097,12 +1101,12 @@ jakarta-taglibs-standard
 jarnal
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
+java-1_7_0-icedtea
 javacc
 javamail
 javamail-javadoc
 javamail-monolithic
 jdepend
-jessie
 jfsutils
 jhead
 jing
@@ -1658,6 +1662,7 @@ libexpat1
 libexpat1-64bit
 libext2fs-devel
 libext2fs2
+libffi43
 libfluidsynth1
 libfuse2
 libgadu
@@ -2292,7 +2297,6 @@ pango-devel
 pango-doc
 paprefs
 parted
-passivetex
 patch
 patchutils
 pavucontrol
@@ -2494,6 +2498,7 @@ perl-XML-XQL
 perl-XML-XSLT
 perl-YAML
 perl-base
+perl-doc
 perl-gettext
 perl-ldap
 perl-ldap-ssl
@@ -2569,6 +2574,7 @@ planner-devel
 planner-lang
 plotutils
 plptools
+plptools-devel
 pm-utils
 podsleuth
 popt
@@ -2891,7 +2897,9 @@ texlive-bin-dvilj
 texlive-bin-latex
 texlive-bin-metapost
 texlive-bin-omega
+texlive-bin-tools
 texlive-bin-xetex
+texlive-bin-xmltex
 texlive-context
 texlive-doc
 texlive-dvilj
@@ -2899,7 +2907,9 @@ texlive-latex
 texlive-latex-doc
 texlive-metapost
 texlive-omega
+texlive-tools
 texlive-xetex
+texlive-xmltex
 tftp
 thinkeramik
 thinkeramik-style
@@ -3120,7 +3130,6 @@ xml-commons-which
 xmlcharent
 xmlformat
 xmlstarlet
-xmltex
 xmlto
 xmoto
 xorg-x11
@@ -3128,6 +3137,7 @@ xorg-x11-Xvnc
 xorg-x11-devel
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
 xorg-x11-fonts
 xorg-x11-fonts-core
