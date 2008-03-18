@@ -20,7 +20,6 @@ copy()
     file=$1
     dir=`dirname $file`
     dir=`echo $dir | sed -e "s,.*/CD1,CD1,"` 
-    echo mkdir $2/$dir
     mkdir -p $2/$dir
     cp -a $file $2/$dir
 }
