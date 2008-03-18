@@ -624,7 +624,7 @@ eIDconfig-belgium
 eclipse
 eclipse-archdep-gtk2
 eclipse-archdep-platform
-eclipse-platform
+eclipse-archdep-platform-commons
 eclipse-scripts
 ed
 edict
@@ -1085,7 +1085,6 @@ ipw-firmware
 irda
 irqbalance
 irssi
-iscan-firmware
 iscan-free
 isns
 iso-codes
@@ -1900,6 +1899,7 @@ liblcms1
 liblcms1-32bit
 libltdl-3
 libltdl-3-32bit
+liblzmadec0
 libmal
 libmal-devel
 libmcrypt
@@ -2136,6 +2136,7 @@ lv
 lvm2
 lynx
 lyx
+lzma
 lzo
 m17n-contrib
 m17n-db
@@ -3038,7 +3039,6 @@ texlive-bin-tools
 texlive-bin-xetex
 texlive-bin-xmltex
 texlive-context
-texlive-doc
 texlive-dvilj
 texlive-latex
 texlive-latex-doc
@@ -3163,8 +3163,6 @@ w3m-el
 w3m-el-xemacs
 wdiff
 websh
-wesnoth
-wesnoth-data
 wget
 whois
 wine
