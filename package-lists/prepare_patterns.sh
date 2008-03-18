@@ -1,5 +1,4 @@
 cd /home/pattern
-svn up
 export RPM_SOURCE_DIR=$PWD
 cd products/patterns-openSUSE-data
 for i in `cd toinstall && ls -1d *`; do 
