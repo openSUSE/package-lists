@@ -25,7 +25,7 @@ copy()
 }
 
 for flav in kde gnome; do
-  for arch in i586 x86_64; do
+  for arch in i586 x86_64 ppc; do
     copy /tmp/patterns.$arch/CD1/suse/setup/descr/"$flav"_cd-*.pat $flav-cd.$arch
 
     copy /tmp/patterns.$arch/CD1/suse/setup/descr/"$flav"_cd-*.pat $flav-cd-non_oss.$arch

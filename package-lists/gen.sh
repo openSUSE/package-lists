@@ -12,7 +12,9 @@ if test -f config.sh; then
 fi
 
 file=$1
-
+if test -n "$2"; then
+  GEN_ARCH=$2
+fi
 
 # multiple setups (dvd5, dvd5-2, etc.)
 base=${file/-*/}
@@ -52,7 +54,7 @@ do
   pushd $TESTTRACK/$base.$arch/CD1/suse/setup/descr/ > /dev/null
   for i in *; 
     do echo -n "META SHA1 "; 
-    sha1sum $i | awk '{ORS=""; print $1}'; 
+    sha1sum $i | awk '{ORS=""; print $file}'; 
     echo -n " "; basename $i; 
   done >> $TESTTRACK/$base.$arch/CD1/content
   popd > /dev/null
