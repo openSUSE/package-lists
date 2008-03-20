@@ -11,7 +11,6 @@ echo "gnome-cd-non-oss:"
 
 echo "non-oss:"
 ./non_oss.sh
-./join.sh
 
 echo "dvd5:"
 ./gen.sh dvd5

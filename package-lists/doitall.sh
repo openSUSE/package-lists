@@ -1,5 +1,7 @@
 #! /bin/sh
 
+svn up
+
 diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
 cd testtrack/
@@ -20,3 +22,4 @@ tar cvjf /package_lists/filelists.tar.bz2 dvd5-addon_lang.*.*list kde-cd.*.list 
 cd update-tests
 ./testall.sh
 
+svn commit -m "auto commit"
