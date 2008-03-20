@@ -10,9 +10,11 @@ sh ../prepare_patterns.sh x86_64
 sh ../prepare_patterns.sh ppc
 
 
-for i in kde-cd.i586 kde-cd-non_oss.i586 kde-cd-non_oss.x86_64 kde-cd.x86_64 gnome-cd.i586 gnome-cd-non_oss.i586 gnome-cd-non_oss.x86_64 gnome-cd.x86_64 dvd5.i586 dvd5.ppc dvd5.x86_64;
+for arch in i586 x86_64 ppc; do
+for i in kde_cd kde_cd_non_oss gnome_cd gnome_cd_non_oss dvd5;
 do
-  rm -rf $i/CD1
+  rm -rf $i.$arch/CD1
+done
 done
 
 copy()
@@ -26,12 +28,12 @@ copy()
 
 for flav in kde gnome; do
   for arch in i586 x86_64 ppc; do
-    copy /tmp/patterns.$arch/CD1/suse/setup/descr/"$flav"_cd-*.pat $flav-cd.$arch
+    copy /tmp/patterns.$arch/CD1/suse/setup/descr/"$flav"_cd-*.pat "$flav"_cd.$arch
 
-    copy /tmp/patterns.$arch/CD1/suse/setup/descr/"$flav"_cd-*.pat $flav-cd-non_oss.$arch
-    copy /tmp/patterns.$arch/CD1/suse/setup/descr/non_oss-*.pat $flav-cd-non_oss.$arch
+    copy /tmp/patterns.$arch/CD1/suse/setup/descr/"$flav"_cd-*.pat "$flav"_cd_non_oss.$arch
+    copy /tmp/patterns.$arch/CD1/suse/setup/descr/non_oss-*.pat "$flav"_cd_non_oss.$arch
 
-    for i in $flav-cd-non_oss.$arch/CD1/suse/setup/descr/non_oss*pat; do 
+    for i in "$flav"_cd_non_oss.$arch/CD1/suse/setup/descr/non_oss*pat; do 
       sed -i -e "s,Psg,Prc," $i
     done 
   done

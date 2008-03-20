@@ -1,7 +1,9 @@
 #!/bin/sh
 
-for i in kde-cd.i586 kde-cd-non_oss.i586 kde-cd-non_oss.x86_64 kde-cd.x86_64 gnome-cd.i586 gnome-cd-non_oss.i586 gnome-cd-non_oss.x86_64 gnome-cd.x86_64 dvd5.i586 dvd5.ppc dvd5.x86_64;
+for arch in i586 x86_64 ppc; do
+for i in kde_cd kde_cd_non_oss gnome_cd gnome_cd_non_oss dvd5;
 do
-  rm -rf $i/*
-  mkdir -p $i/CD1
+  rm -rf $i.$arch/*
+   mkdir -p $i.$arch/CD1
+done
 done
