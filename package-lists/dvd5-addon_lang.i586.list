@@ -495,9 +495,12 @@ commoncpp2
 compat-libstdc++
 compat-openssl097g
 compiz
+compiz-fusion-plugins-main
 compiz-gnome
 compiz-kde
 compiz-kde4
+compiz-manager
+compizconfig-settings-manager
 control-center2
 control-center2-devel
 control-center2-lang
@@ -620,8 +623,8 @@ eIDconfig-belgium
 eclipse
 eclipse-archdep-gtk2
 eclipse-archdep-platform
+eclipse-archdep-platform-commons
 eclipse-archdep-scripts
-eclipse-platform
 ed
 edict
 eel
@@ -1570,6 +1573,8 @@ kpl
 kpowersave
 kpowersave-lang
 kpsion
+kqemu-kmp-default
+kqemu-kmp-pae
 kradio
 krb5
 krb5-client
@@ -1610,7 +1615,6 @@ libMagick++10
 libMagick10
 libQtTapioca0
 libQtTelepathy0
-libQtWebKit4
 libWand10
 libXiterm
 libacl
@@ -1670,6 +1674,7 @@ libcdio7
 libchewing
 libcom_err-devel
 libcom_err2
+libcompizconfig
 libcroco
 libcroco-0_6-3
 libcroco-devel
@@ -1929,8 +1934,6 @@ libqimageblitz4
 libqscintilla2-2
 libqt4
 libqt4-devel
-libqt4-devel-doc
-libqt4-devel-doc-data
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
@@ -2292,6 +2295,7 @@ numlockx
 nvu
 nxml-mode
 nxtvepg
+obex-data-server
 obexftp
 ocfs2-tools
 ocrad
@@ -2671,6 +2675,7 @@ pychecker
 python
 python-cairo
 python-cairo-devel
+python-compizconfig
 python-curl
 python-curses
 python-dateutil
@@ -2800,6 +2805,7 @@ samba
 samba-client
 samba-winbind
 sane-backends
+sane-backends-autoconfig
 sash
 satsolver-tools
 sax2
@@ -2866,6 +2872,7 @@ sil-charis
 sil-doulos
 sil-padauk
 silc-toolkit
+simple-ccsm
 skencil
 skim
 skim-scim-anthy
@@ -2926,6 +2933,7 @@ sysvinit
 t1lib
 tack
 taglib
+taglib-sharp
 tamil-gtk2im
 tango-icon-theme
 tar
@@ -2960,7 +2968,6 @@ texlive-bin-xmltex
 texlive-context
 texlive-dvilj
 texlive-latex
-texlive-latex-doc
 texlive-metapost
 texlive-omega
 texlive-tools
