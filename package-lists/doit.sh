@@ -1,13 +1,13 @@
 #!/bin/sh
 
-echo "kde-cd:"
-./gen.sh kde-cd
-echo "kde-cd-non-oss:"
-./gen.sh kde-cd-non_oss
-echo "gnome-cd:"
-./gen.sh gnome-cd
-echo "gnome-cd-non-oss:"
-./gen.sh gnome-cd-non_oss
+echo "kde_cd:"
+./gen.sh kde_cd
+echo "kde_cd_non_oss:"
+./gen.sh kde_cd_non_oss
+echo "gnome_cd:"
+./gen.sh gnome_cd
+echo "gnome_cd_non-oss:"
+./gen.sh gnome_cd_non_oss
 
 echo "non-oss:"
 ./non_oss.sh

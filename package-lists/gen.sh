@@ -14,14 +14,8 @@ fi
 file=$1
 
 
-# no ppc cds
-if (echo $file | grep "cd" > /dev/null); then
-  GEN_ARCH=${GEN_ARCH/ppc/}
-  base=$file
-else
-  # multiple dvd setups (dvd5, dvd5-2, etc.)
-  base=${file/-*/}
-fi
+# multiple setups (dvd5, dvd5-2, etc.)
+base=${file/-*/}
 
 if (echo $file | grep "promo" > /dev/null); then
   GEN_ARCH="i586"
@@ -65,6 +59,7 @@ do
   rm -f $TESTTRACK/$base.$arch/CD1/content.asc
   gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/CD1/content
 
+  export ZYPP_MODALIAS_SYSFS=/tmp
   /usr/lib/zypp/testsuite/bin/deptestomatic.multi $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list.new -
   if test -s "$file.$arch.list.new"; then
      mv "$file.$arch.list.new" "$file.$arch.list"
