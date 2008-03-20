@@ -8,7 +8,6 @@
 </setup>
 <trial>
   <install kind="product" name="openSUSE-factory" />
-  <uninstall kind="package" name="libredland-devel"/>
   <uninstall name="libredland0"/>
   <uninstall name="libsoprano3"/>
   <distupgrade delete_unmaintained="false"/>
