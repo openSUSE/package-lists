@@ -54,7 +54,7 @@ do
   pushd $TESTTRACK/$base.$arch/CD1/suse/setup/descr/ > /dev/null
   for i in *; 
     do echo -n "META SHA1 "; 
-    sha1sum $i | awk '{ORS=""; print $file}'; 
+    sha1sum $i | awk '{ORS=""; print $1}'; 
     echo -n " "; basename $i; 
   done >> $TESTTRACK/$base.$arch/CD1/content
   popd > /dev/null

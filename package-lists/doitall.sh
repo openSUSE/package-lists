@@ -15,11 +15,11 @@ cd ..
 
 fi
 
-tar cvjf /package_lists/filelists.tar.bz2 dvd5-addon_lang.*.*list kde-cd.*.list \
-     gnome-cd.*.list dvd-all.*.list kde-cd-non_oss.*.list gnome-cd-non_oss.*.list 
+tar cvjf /package_lists/filelists.tar.bz2 *.list 
 ./difflist.sh
 
 cd update-tests
 ./testall.sh
+cd ..
 
 svn commit -m "auto commit"
