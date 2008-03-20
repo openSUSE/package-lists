@@ -207,12 +207,13 @@
     <lock package="java-1_4_2-ibm"/>
     <lock package="myspell-german-old"/>
     <lock package="squid"/>
-    <lock package="eclipse"/> <!-- !x86_64 !i586 -->
-<lock package="gtk2-branding-upstream"/>
-<lock package="gnome-session-branding-upstream"/>
+    <lock package="eclipse"/>
+    <!-- !x86_64 !i586 -->
+    <lock package="gtk2-branding-upstream"/>
+    <lock package="gnome-session-branding-upstream"/>
     <lock package="texlive-doc"/>
-<lock package="antlr-bootstrap"/>
-<lock package="texlive-latex-doc"/>
+    <lock package="antlr-bootstrap"/>
+    <lock package="texlive-latex-doc"/>
     <!-- INTERNALS -->
   </setup>
   <trial>

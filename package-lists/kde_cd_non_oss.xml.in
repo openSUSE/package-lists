@@ -3,10 +3,10 @@
   <setup arch="GEN_ARCH">
     <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
-<!-- ignoring some lang provides -->
+    <!-- ignoring some lang provides -->
     <lock package="apparmor-admin_en-pdf"/>
     <lock package="apparmor-admin_en"/>
-<!-- ignoring some recommends -->
+    <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
     <lock package="oxygen-icon-theme-scalable"/>
     <lock package="OpenOffice_org-base"/>
@@ -63,15 +63,15 @@
     <lock package="kernel-debug"/>
     <lock package="kernel-xen"/>
     <lock package="desktop-translations"/>
-<lock package="gtk2-branding-upstream"/>
-<lock package="gnome-session-branding-upstream"/>
-
-<!-- INTERNALS -->
+    <lock package="gtk2-branding-upstream"/>
+    <lock package="gnome-session-branding-upstream"/>
+    <!-- INTERNALS -->
   </setup>
   <trial>
     <install kind="pattern" name="rest_cd_kde"/>
     <install kind="pattern" name="non_oss"/>
-    <install kind="pattern" name="non_oss_java"/> <!-- !ppc -->
+    <install kind="pattern" name="non_oss_java"/>
+    <!-- !ppc -->
     <reportProblems/>
   </trial>
 </test>
