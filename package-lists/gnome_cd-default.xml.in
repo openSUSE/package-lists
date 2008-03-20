@@ -110,6 +110,8 @@
 <!-- INTERNALS -->
   </setup>
   <trial>
+    <install kind="package" name="kernel-default"/>
+    <install kind="package" name="cracklib-dict-small"/>
     <install kind="pattern" name="gnome"/>
     <reportProblems/>
   </trial>
