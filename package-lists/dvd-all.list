@@ -258,7 +258,6 @@ avahi
 avahi-compat-mDNSResponder-devel
 avahi-compat-mDNSResponder-x86
 avahi-glib-x86
-avahi-mono
 avahi-x86
 avmailgate
 awesfx
@@ -267,7 +266,6 @@ b43-fwcutter
 banshee
 banshee-devel
 banshee-engine-gst
-banshee-plugins-DAAP
 banshee-plugins-default
 banshee-plugins-extra
 barcode
@@ -886,7 +884,9 @@ gucharmap
 gucharmap-devel
 guile
 gutenprint
+gvfs
 gvfs-devel
+gvfs-fuse
 gwenhywfar
 gwenview
 gzip
@@ -1595,7 +1595,6 @@ libgpgme-devel
 libgpgme11
 libgphoto2
 libgphoto2-32bit
-libgphoto2-lang
 libgphoto2-x86
 libgpod-tools
 libgpod3
@@ -1615,6 +1614,7 @@ libgtksourceview-2_0-0
 libgtop
 libgtop-2_0-7
 libgtop-devel
+libgvfscommon0
 libgweather
 libgweather-devel
 libgweather0
@@ -1981,8 +1981,6 @@ mono-nunit
 mono-tools
 mono-web
 mono-winforms
-mono-zeroconf
-mono-zeroconf-provider-avahi
 monodevelop
 monodoc-core
 motv
@@ -3188,7 +3186,6 @@ yast2-pam
 yast2-perl-bindings
 yast2-phone-services
 yast2-pkg-bindings
-yast2-pkg-bindings-devel-doc
 yast2-printer
 yast2-printer-devel-doc
 yast2-product-creator

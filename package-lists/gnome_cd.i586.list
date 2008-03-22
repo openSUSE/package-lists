@@ -261,6 +261,7 @@ gtkspell
 gucharmap
 guile
 gvfs
+gvfs-fuse
 gzip
 hal
 hal-resmgr
@@ -301,7 +302,6 @@ libacl
 libaio
 libao
 libapparmor1
-libarchive2
 libart_lgpl
 libasound2
 libatk-1_0-0
@@ -376,6 +376,7 @@ libgtkhtml
 libgtksourceview-2_0-0
 libgtop
 libgtop-2_0-7
+libgvfscommon0
 libgweather
 libgweather0
 libicu
@@ -420,6 +421,7 @@ libqt4-qt3support
 libqt4-sql
 libqt4-x11
 libreadline5
+libreiserfs
 librpcsecgss
 librsvg
 libsamplerate
@@ -520,7 +522,6 @@ ntfs-3g
 ntfsprogs
 ntp
 numlockx
-obex-data-server
 openSUSE-release
 openct
 openldap2-client
@@ -775,6 +776,7 @@ yast2-add-on
 yast2-apparmor
 yast2-backup
 yast2-bootloader
+yast2-control-center
 yast2-control-center-gnome
 yast2-core
 yast2-country

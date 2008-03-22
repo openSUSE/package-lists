@@ -17,6 +17,11 @@ echo "diffing"
 for arch in i586 x86_64; do
    diff -u kde_cd.$arch.list kde_cd-default.$arch.list | grep -v +++ | grep ^+
    diff -u gnome_cd.$arch.list gnome_cd-default.$arch.list | grep -v +++ | grep ^+ 
+
+  for i in kernel-default powersave suspend; do
+    grep -vx $i gnome_cd-default.$arch.list > t && mv t gnome_cd-default.$arch.list
+    grep -vx $i kde_cd-default.$arch.list > t && mv t kde_cd-default.$arch.list
+  done
 done
 
 echo "non-oss:"

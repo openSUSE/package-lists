@@ -6,7 +6,9 @@ diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
 cd testtrack/
 ./update_full.sh i386 x86_64 ppc
-./unpack_patterns.sh $diffonly
+echo -n "updating patterns "
+./unpack_patterns.sh $diffonly > patterns.log 2>&1
+echo "done"
 cd ..
 ./doit.sh || exit 0
 cd autobuild-lists/
