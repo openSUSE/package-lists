@@ -1,18 +1,18 @@
 PRODUCT openSUSE-fulltree
-VERSION 10.3
+VERSION 11.0
 DISTPRODUCT openSuSE-full-PPC
-DISTVERSION 10.3-0
+DISTVERSION 11.0-0
 VENDOR SUSE LINUX Products GmbH, Nuernberg, Germany
-RELNOTESURL http://www.suse.com/relnotes/ppc/openSUSE-fulltree/10.3/release-notes.rpm
+RELNOTESURL http://www.suse.com/relnotes/ppc/openSUSE-fulltree/11.0/release-notes.rpm
 ARCH.ppc64 ppc64 ppc noarch
 ARCH.ppc ppc noarch
 DEFAULTBASE ppc
-REQUIRES openSUSE-release = 10.3
-PROVIDES openSUSE = 10.3
-OBSOLETES SUSE_LINUX <= 10.2
-SHORTLABEL openSUS 10.3
-LABEL openSUSE-fulltree 10.3
-LABEL.de openSUSE-fulltree 10.3
+REQUIRES distribution-release
+PROVIDES product:openSUSE = 10.3.1
+OBSOLETES product:SUSE_LINUX product:openSUSE <= 10.3 package:openSUSE < 10.3
+SHORTLABEL openSUS 11.0
+LABEL openSUSE-fulltree 11.0
+LABEL.de openSUSE-fulltree 11.0
 DESCRDIR suse/setup/descr
 DATADIR suse
 FLAGS update volatile_content
