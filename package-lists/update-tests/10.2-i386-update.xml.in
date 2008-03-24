@@ -2,7 +2,7 @@
 <test>
   <setup arch="i686">
     <system file="10.2-i386-system.xml"/>
-    <source url="dir:///mounts/machcd2/consistent/full-i386/" name="factory"/>
+    <channel file="full-i386/1-package.xml" name="factory"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>
@@ -64,6 +64,21 @@
     <uninstall kind="package" name="agfa-fonts"/> <!-- special case: DVD only -->
     <uninstall kind="package" name="java-1_4_2-cacao-devel"/>
     <uninstall kind="package" name="java-1_4_2-cacao"/>
+    <!-- help the factory update -->
+    <uninstall kind="package" name="libstdc++41"/>
+    <install kind="package" name="libstdc++43"/>
+    <uninstall kind="package" name="libgcc41"/>
+    <install kind="package" name="libgcc43"/>
+    <uninstall kind="package" name="cpp41"/>
+    <install kind="package" name="cpp43"/>
+    <uninstall kind="package" name="gcc41"/>
+    <install kind="package" name="gcc43"/>
+    <uninstall kind="package" name="gcc41-c++"/>
+    <install kind="package" name="gcc43-c++"/>
+    <uninstall kind="package" name="gcc41-java"/>
+    <install kind="package" name="gcc43-java"/>
+    <uninstall kind="package" name="libmudflap41"/>
+    <install kind="package" name="libmudflap43"/>
     <distupgrade delete_unmaintained="false"/>
     <reportproblems/>
   </trial>

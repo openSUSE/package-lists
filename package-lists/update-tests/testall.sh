@@ -1,3 +1,9 @@
+rm -rf /tmp/myrepos
+rm -rf full-i386 full-x86_64
+/usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-x86_64.xml > testit-x86_64.log 2>&1
+rm -rf /tmp/myrepos
+/usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-i386.xml > testit-i386.log 2>&1
+
 for i in *.xml.in; do 
 echo $i
 ./update.sh $i > $i.update

@@ -38,6 +38,8 @@ for pack in `pdb query --filter status:internal` `pdb query --filter status:cand
   esac
 done
 
+ret=0
+
 for i in $GEN_ARCH;
 do
   arch=$i
@@ -45,7 +47,7 @@ do
   eval VAR="\$GEN_URL_${i}"
   sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" | xmllint --format - > $file.$arch.xml
 
-  rm -rf /tmp/myrepos/*
+  rm -rf /tmp/myrepos
   mkdir -p $TESTTRACK/$base.$arch/CD1/
   cp -a $TESTTRACK/content.$arch.small $TESTTRACK/$base.$arch/CD1/content
   cp -a $VAR/suse $TESTTRACK/$base.$arch/CD1/
@@ -67,10 +69,12 @@ do
      mv "$file.$arch.list.new" "$file.$arch.list"
   else
      grep -C5 === $file.$arch.output
+     ret=1
   fi
 
   echo "done"
 done
 
-rm -rf /tmp/myrepos/*
-echo "all done"
+rm -rf /tmp/myrepos
+echo "all done: $ret"
+exit $ret

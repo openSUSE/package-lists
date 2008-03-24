@@ -2,7 +2,7 @@
 <test>
 <setup arch="i686">
   <system file="10.3-i386-system.xml"/>
-  <source url="dir:///mounts/machcd2/consistent/full-i386/" name="factory-nonoss"/>
+  <channel file="full-i386/1-package.xml" name="factory"/>
   <locale name="de_DE"/>
   <locale name="de"/>
 </setup>

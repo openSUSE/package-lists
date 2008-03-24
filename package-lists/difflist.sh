@@ -9,6 +9,7 @@ difflist()
 difflist dvd-all.list suse110-dvd5-i386
 difflist gnome_cd.i586.list suse110-cd-gnome-i386
 difflist kde_cd.i586.list suse110-cd-kde-i386
+difflist kde_cd2.i586.list suse110-cd-kde-experimental-i386
 difflist gnome_cd.x86_64.list suse110-cd-gnome-x86_64
 difflist kde_cd.x86_64.list suse110-cd-kde-x86_64
 difflist langaddon-all.list suse110-cd-lang-i386

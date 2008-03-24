@@ -2,12 +2,12 @@
 <test>
 <setup arch="x86_64">
   <system file="10.3-x86_64-system.xml"/>
-  <source url="dir:///mounts/machcd2/factory/FACTORY/inst-source/" name="factory-nonoss"/>
+  <channel file="full-x86_64/1-package.xml" name="factory"/>
   <locale name="de_DE"/>
   <locale name="de"/>
 </setup>
 <trial>
-  <install kind="product" name="openSUSE-factory" />
+  <install kind="product" name="openSUSE-fulltree" />
   <uninstall name="libredland0"/>
   <uninstall name="libsoprano3"/>
   <distupgrade delete_unmaintained="false"/>
