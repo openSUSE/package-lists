@@ -10,8 +10,6 @@
   <install kind="product" name="openSUSE-fulltree" />
   <uninstall name="libredland0"/>
   <uninstall name="libsoprano3"/>
-  <uninstall kind="package" name="smartlink-softmodem"/>
-  <uninstall name="libgnome-certauth0"/>
   <distupgrade delete_unmaintained="false"/>
 
   <reportproblems/>

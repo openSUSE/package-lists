@@ -26,14 +26,14 @@ cd ..
 svn commit -m "auto commit"
 
 diff=0
-for arch in i586 x86_64 ppc;
+for arch in i586 x86_64 ppc; do
   for f in gnome_cd-default gnome_cd kde_cd-default kde_cd; do
-     cmp -s saved/$f.$arch.list $f.$arch.list || diff=1 
+     cmp saved/$f.$arch.list $f.$arch.list || diff=1 
   done
 done
 
 test "$diff" = 0 && exit 0
 
-tar cvjf /package_lists/filelists.tar.bz2 *.list
+tar cjf /package_lists/filelists.tar.bz2 *.list
 cp *.list saved
 

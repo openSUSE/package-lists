@@ -5,7 +5,6 @@ ConsoleKit-32bit
 DirectFB
 Mesa
 MozillaFirefox
-MozillaFirefox-translations
 NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
@@ -60,6 +59,7 @@ banshee-plugins-default
 banshee-plugins-extra
 bash
 bash-doc
+bc
 beagle
 beagle-evolution
 beagle-firefox
@@ -122,6 +122,7 @@ dbus-1-glib
 dbus-1-python
 dbus-1-x11
 dcraw
+ddrescue
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -383,7 +384,7 @@ libgpg-error0
 libgphoto2
 libgsf-1-114
 libgsm1
-libgssapi
+libgssglue1
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgtkhtml
@@ -405,6 +406,7 @@ libksba
 liblazy1
 liblcms1
 libltdl-3
+liblua5_1
 libmng
 libmpfr1
 libmtp7
@@ -444,7 +446,7 @@ librsvg
 libsamplerate
 libsexy
 libsigc++2
-libsmbclient
+libsmbclient0
 libsmbios-bin
 libsmbios-libs
 libsndfile
@@ -495,7 +497,6 @@ lirc
 login
 logrotate
 lomoco
-lua-libs
 lukemftp
 lvm2
 lzo
@@ -517,6 +518,7 @@ mono-winforms
 mozilla-nspr
 mozilla-nss
 mozilla-xulrunner181
+mozilla-xulrunner190
 mpt-firmware
 myspell-american
 nautilus
@@ -581,7 +583,6 @@ paman
 pango
 paprefs
 parted
-patch
 pavucontrol
 pavumeter
 pciutils
@@ -614,6 +615,7 @@ perl-URI
 perl-X500-DN
 perl-XML-Bare
 perl-XML-Parser
+perl-XML-Simple
 perl-XML-Writer
 perl-XML-XPath
 perl-base
@@ -666,7 +668,7 @@ quota
 rarian
 recode
 reiserfs
-release-notes
+release-notes-openSUSE
 resapplet
 resmgr
 rpm
@@ -839,8 +841,6 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-profile-manager
-yast2-qt
-yast2-qt-pkg
 yast2-registration
 yast2-repair
 yast2-restore
@@ -870,6 +870,7 @@ yast2-ycp-ui-bindings
 yelp
 yp-tools
 ypbind
+zd1211-firmware
 zenity
 zisofs-tools
 zlib

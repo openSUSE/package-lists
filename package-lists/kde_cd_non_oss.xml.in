@@ -69,9 +69,8 @@
   </setup>
   <trial>
     <install kind="pattern" name="rest_cd_kde"/>
-    <install kind="pattern" name="non_oss"/>
-    <install kind="pattern" name="non_oss_java"/>
-    <!-- !ppc -->
+    <install kind="pattern" name="non_oss"/> 
+    <install kind="pattern" name="non_oss_java"/> <!-- !ppc -->
     <reportProblems/>
   </trial>
 </test>

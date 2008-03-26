@@ -58,6 +58,7 @@ avahi
 b43-fwcutter
 bash
 bash-doc
+bc
 bind-libs
 bind-utils
 binutils
@@ -114,6 +115,7 @@ dbus-1-glib
 dbus-1-qt3
 dbus-1-x11
 dcraw
+ddrescue
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -194,7 +196,6 @@ gtk2-engines-lang
 gvfs
 gvfs-backends
 gvfs-fuse
-gwenview
 gzip
 hal
 hal-palm
@@ -205,7 +206,6 @@ hwinfo
 icedax
 icewm
 icewm-lite
-id3lib
 ifnteuro
 ifplugd
 imlib2
@@ -232,7 +232,9 @@ kde3-i18n-de
 kde4-ark
 kde4-dolphin
 kde4-filesystem
+kde4-gwenview
 kde4-kcalc
+kde4-kcm_gtk
 kde4-kcolorchooser
 kde4-kdm
 kde4-kdnssd
@@ -241,6 +243,7 @@ kde4-kgamma
 kde4-kget
 kde4-kgpg
 kde4-kio_audiocd
+kde4-kio_iso
 kde4-kio_kamera
 kde4-kio_sysinfo
 kde4-kmahjongg
@@ -282,16 +285,12 @@ kdelibs4
 kdelibs4-core
 kdemultimedia4
 kdepim3
-kdepim3-kpilot
-kdepim3-notes
 kdepimlibs4
 kdetv
 kernel-default
 keyutils-libs
 keyutils-libs-32bit
 kinternet
-kio_ipodslave
-kio_iso
 kipi-plugins
 kitchensync
 klogd
@@ -325,7 +324,6 @@ libavahi-core5
 libavahi-glib1
 libblkid1
 libblocxx6
-libbonobo
 libbz2-1
 libcap
 libcdio7
@@ -356,7 +354,6 @@ libgcc43-32bit
 libgcrypt11
 libgimpprint
 libglade2
-libgnome
 libgnutls-extra26
 libgnutls26
 libgpg-error0
@@ -365,7 +362,7 @@ libgphoto2
 libgphoto2-lang
 libgpod-tools
 libgpod3
-libgssapi
+libgssglue1
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgvfscommon0
@@ -389,7 +386,6 @@ libksba
 liblazy1
 liblcms1
 libltdl-3
-libmal
 libmng
 libmpcdec5
 libmpfr1
@@ -423,7 +419,6 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-x11
-libqtpod0
 libraptor1
 librasqal0
 libreadline5
@@ -431,7 +426,7 @@ libredland0
 libreiserfs
 librpcsecgss
 libsamplerate
-libsmbclient
+libsmbclient0
 libsmbios-bin
 libsmbios-libs
 libsndfile
@@ -494,6 +489,7 @@ mkinitrd
 module-init-tools
 mozilla-nspr
 mozilla-nss
+mozilla-xulrunner190
 mpt-firmware
 myspell-american
 ncurses
@@ -548,7 +544,6 @@ pam_thinkfinger-32bit
 pango
 pango-32bit
 parted
-patch
 pciutils
 pciutils-ids
 pcmciautils
@@ -575,6 +570,7 @@ perl-URI
 perl-X500-DN
 perl-XML-Bare
 perl-XML-Parser
+perl-XML-Simple
 perl-XML-Writer
 perl-XML-XPath
 perl-base
@@ -613,7 +609,7 @@ qtcurve-kde
 quota
 recode
 reiserfs
-release-notes
+release-notes-openSUSE
 resmgr
 rpm
 ruby
@@ -798,6 +794,7 @@ yast2-sudo
 yast2-support
 yast2-sysconfig
 yast2-theme-openSUSE
+yast2-theme-openSUSE-Oxygen
 yast2-trans-de
 yast2-trans-en_US
 yast2-trans-stats
@@ -812,6 +809,7 @@ yast2-ycp-ui-bindings
 yauap
 yp-tools
 ypbind
+zd1211-firmware
 zisofs-tools
 zlib
 zlib-32bit
