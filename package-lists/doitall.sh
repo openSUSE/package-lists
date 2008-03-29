@@ -32,6 +32,7 @@ for arch in i586 x86_64 ppc; do
         diff=1 
         break
      fi
+     test "$diff" = 0 || break
   done
 done
 

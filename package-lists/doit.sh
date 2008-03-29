@@ -18,9 +18,10 @@ for arch in i586 x86_64 ppc; do
    diff -u kde_cd.$arch.list kde_cd-default.$arch.list | grep -v +++ | grep ^+
    diff -u gnome_cd.$arch.list gnome_cd-default.$arch.list | grep -v +++ | grep ^+ 
 
-  for i in kernel-default powersave suspend; do
-    grep -vx $i gnome_cd-default.$arch.list > t && mv t gnome_cd-default.$arch.list
-    grep -vx $i kde_cd-default.$arch.list > t && mv t kde_cd-default.$arch.list
+  for i in kernel-default powersave suspend OpenOffice_org-icon-themes; do
+    for f in gnome_cd-default kde_cd-default dvd5-xfce-default dvd5-x11-default; do
+      grep -vx $i $f.$arch.list > t && mv t $f.$arch.list
+    done
   done
 done
 
