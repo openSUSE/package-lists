@@ -7,8 +7,6 @@
     <lock package="apparmor-admin_en-pdf"/>
     <lock package="apparmor-admin_en"/>
     <!-- ignoring some recommends -->
-    <lock package="opensuse-manual_en-pdf"/>
-    <lock package="oxygen-icon-theme-scalable"/>
     <lock package="OpenOffice_org-base"/>
     <lock package="OpenOffice_org-hyphen"/>
     <lock package="OpenOffice_org-mailmerge"/>
@@ -54,7 +52,6 @@
     <lock package="kdelibs4-icons-scalable"/>
     <lock package="readline-doc"/>
     <lock package="nfs-kernel-server"/>
-    <lock package="spamassassin"/>
     <lock package="vim-data"/>
     <lock package="xml-commons-apis"/>
     <lock package="RealPlayer"/>
@@ -62,19 +59,15 @@
     <lock package="smartlink-softmodem"/>
     <lock package="libgcc41-32bit"/>
     <lock package="desktop-translations"/>
-    <lock package="yast2-theme-openSUSE-Crystal"/>
     <lock package="libstdc++42"/>
     <lock package="libgcc42"/>
+    <lock package="libgcc42-32bit"/>
     <lock package="libstdc++41"/>
     <lock package="libstdc++41-32bit"/>
-    <lock package="libgcc42-32bit"/>
     <lock package="libstdc++42-32bit"/>
-    <lock package="gutenprint"/>
-    <lock package="rdesktop"/>
+    <lock package="yast2-theme-openSUSE-Crystal"/>
     <lock package="java-1_5_0-sun"/>
     <lock package="java-1_6_0-sun"/>
-    <lock package="gimp"/>
-    <lock package="ufraw"/>
     <!-- recommended by Ooo -->
     <lock package="java-1_5_0-gcj-compat"/>
     <lock package="OpenOffice_org-de"/>
@@ -83,9 +76,28 @@
     <lock package="OpenOffice_org-templates-de"/>
     <lock package="OpenOffice_org-thesaurus-de"/>
     <lock package="myspell-german"/>
-    <lock package="MozillaFirefox-translations"/>
     <lock package="hplip-hpijs"/>
     <lock package="ghostscript-fonts-other"/>
+    <lock package="bundle-lang-kde-ar"/>
+    <lock package="bundle-lang-kde-ca"/>
+    <lock package="bundle-lang-kde-cs"/>
+    <lock package="bundle-lang-kde-da"/>
+    <lock package="bundle-lang-kde-de"/>
+    <lock package="bundle-lang-kde-en"/>
+    <lock package="bundle-lang-kde-es"/>
+    <lock package="bundle-lang-kde-fi"/>
+    <lock package="bundle-lang-kde-fr"/>
+    <lock package="bundle-lang-kde-hu"/>
+    <lock package="bundle-lang-kde-it"/>
+    <lock package="bundle-lang-kde-ja"/>
+    <lock package="bundle-lang-kde-ko"/>
+    <lock package="bundle-lang-kde-nb"/>
+    <lock package="bundle-lang-kde-nl"/>
+    <lock package="bundle-lang-kde-pl"/>
+    <lock package="bundle-lang-kde-pt"/>
+    <lock package="bundle-lang-kde-ru"/>
+    <lock package="bundle-lang-kde-sv"/>
+    <lock package="bundle-lang-kde-zh"/>
     <lock package="bundle-lang-gnome-ar"/>
     <lock package="bundle-lang-gnome-ca"/>
     <lock package="bundle-lang-gnome-cs"/>
@@ -106,22 +118,18 @@
     <lock package="bundle-lang-gnome-ru"/>
     <lock package="bundle-lang-gnome-sv"/>
     <lock package="bundle-lang-gnome-zh"/>
-    <lock package="kde3-i18n-de-data"/>
-    <lock package="kde3-i18n-de-doc"/>
-    <lock package="kde4-l10n-de-data"/>
-    <lock package="kde4-l10n-de-doc"/>
-    <lock package="compiz-kde"/>
     <lock package="gtk2-branding-upstream"/>
     <lock package="gnome-session-branding-upstream"/>
-    <lock package="perl-doc"/>
+    <lock package="gnome-session-branding-openSUSE"/>
     <lock package="gtk2-engines-32bit"/>
+    <lock package="perl-doc"/>
     <!-- INTERNALS -->
   </setup>
   <trial>
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="cracklib-dict-full"/>
-    <install kind="pattern" name="kde"/>
+    <install kind="pattern" name="xfce"/>
     <reportProblems/>
   </trial>
 </test>

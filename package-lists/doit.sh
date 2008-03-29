@@ -32,6 +32,9 @@ echo "non-oss:"
 echo "dvd5:"
 ./gen.sh dvd5
 ./gen.sh dvd5-2
+./gen.sh dvd5-base-default
+./gen.sh dvd5-x11-default
+./gen.sh dvd5-xfce-default
 
 #echo "promo-dvd5:"
 #./gen.sh dvd5-promo
