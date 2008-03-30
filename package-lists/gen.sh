@@ -28,6 +28,8 @@ for pack in `pdb query --filter status:internal` `pdb query --filter status:cand
   `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done`; do
   grep -x $pack overwrites && continue
   LOCK="$LOCK <lock package=\"$pack\"/>"
+  LOCK="$LOCK <lock package=\"$pack-32bit\"/>"
+  LOCK="$LOCK <lock package=\"$pack-64bit\"/>"
   case $pack in
     *-KMP)
 	pack=${pack/-KMP/-}
