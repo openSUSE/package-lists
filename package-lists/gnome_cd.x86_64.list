@@ -5,10 +5,12 @@ ConsoleKit-32bit
 DirectFB
 Mesa
 MozillaFirefox
+MozillaFirefox-translations
 NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
 OpenOffice_org
+OpenOffice_org-branding-upstream
 OpenOffice_org-calc
 OpenOffice_org-draw
 OpenOffice_org-gnome
@@ -183,9 +185,7 @@ gedit
 genisoimage
 gettext-runtime
 ggreeter
-ghostscript-fonts-std
-ghostscript-library
-ghostscript-omni
+ghostscript-mini
 ghostscript-x11
 giflib
 glade-sharp2
@@ -328,7 +328,7 @@ libbonobo
 libbonoboui
 libbz2-1
 libcap
-libcdio7
+libcdio7-mini
 libcom_err2
 libcom_err2-32bit
 libcompizconfig
@@ -360,7 +360,6 @@ libgda-3_0
 libgda-3_0-3
 libgda-3_0-sqlite
 libgdiplus0
-libgimpprint
 libglade2
 libglademm
 libglademm-2_4-1
@@ -516,6 +515,8 @@ mozilla-nspr
 mozilla-nss
 mozilla-xulrunner181
 mozilla-xulrunner190
+mozilla-xulrunner190-gnomevfs
+mozilla-xulrunner190-lang
 mpt-firmware
 myspell-american
 nautilus
@@ -769,6 +770,7 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM

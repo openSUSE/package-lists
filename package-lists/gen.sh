@@ -24,12 +24,14 @@ if (echo $file | grep "promo" > /dev/null); then
   base=${file/-*/}
 fi
 
+LOCK=
+LOCK2=
 for pack in `pdb query --filter status:internal` `pdb query --filter status:candidate` `pdb query --filter status:frozen` `pdb query --filter distributable:no` \
   `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done`; do
   grep -x $pack overwrites && continue
   LOCK="$LOCK <lock package=\"$pack\"/>"
-  LOCK="$LOCK <lock package=\"$pack-32bit\"/>"
-  LOCK="$LOCK <lock package=\"$pack-64bit\"/>"
+  LOCK2="$LOCK2 <lock package=\"$pack-32bit\"/>"
+  LOCK2="$LOCK2 <lock package=\"$pack-64bit\"/>"
   case $pack in
     *-KMP)
 	pack=${pack/-KMP/-}
@@ -47,7 +49,7 @@ do
   arch=$i
   echo "processing $arch..."
   eval VAR="\$GEN_URL_${i}"
-  sed -e "s,<!-- INTERNALS -->,$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" | xmllint --format - > $file.$arch.xml
+  sed -e "s,<!-- INTERNALS -->,<!-- INTERNALS -->$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | sed -e "s,<!-- INTERNALS -->,<!-- INTERNALS -->$LOCK2," | fgrep -v "!$arch" | xmllint --format - > $file.$arch.xml
 
   rm -rf /tmp/myrepos
   mkdir -p $TESTTRACK/$base.$arch/CD1/

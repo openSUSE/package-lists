@@ -6,7 +6,6 @@ DirectFB
 IlmBase
 LibVNCServer
 Mesa
-Mesa-32bit
 MozillaFirefox
 NetworkManager
 NetworkManager-glib
@@ -14,6 +13,7 @@ NetworkManager-kde
 OpenEXR
 OpenOffice_org
 OpenOffice_org-Quickstarter
+OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
 OpenOffice_org-draw
 OpenOffice_org-icon-themes
@@ -160,9 +160,7 @@ gdb
 gdbm
 genisoimage
 gettext-runtime
-ghostscript-fonts-std
-ghostscript-library
-ghostscript-omni
+ghostscript-mini
 ghostscript-x11
 giflib
 glib2
@@ -324,9 +322,10 @@ libavahi-core5
 libavahi-glib1
 libblkid1
 libblocxx6
+libbonobo
 libbz2-1
 libcap
-libcdio7
+libcdio7-mini
 libcom_err2
 libcom_err2-32bit
 libcompizconfig
@@ -338,7 +337,6 @@ libdbus-1-qt3-0
 libdjvulibre15
 libdns_sd
 libdrm
-libdrm-32bit
 libdvdread3
 libenchant1
 libesd0
@@ -349,11 +347,11 @@ libexpat1
 libexpat1-32bit
 libext2fs2
 libfuse2
-libgcc43
-libgcc43-32bit
+libgcc41
+libgcc41-32bit
 libgcrypt11
-libgimpprint
 libglade2
+libgnome
 libgnutls-extra26
 libgnutls26
 libgpg-error0
@@ -489,6 +487,8 @@ module-init-tools
 mozilla-nspr
 mozilla-nss
 mozilla-xulrunner190
+mozilla-xulrunner190-gnomevfs
+mozilla-xulrunner190-lang
 mpt-firmware
 myspell-american
 ncurses
@@ -512,6 +512,7 @@ ntfsprogs
 ntp
 numactl
 numlockx
+nvidia-gfxG01-kmp-default
 obex-data-server
 obexftp
 openSUSE-release
@@ -679,6 +680,7 @@ x11-input-synaptics
 x11-input-wacom
 x11-input-wacom-tools
 x11-tools
+x11-video-nvidiaG01
 xalan-j2
 xaw3d
 xdg-menu
@@ -697,6 +699,7 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit
