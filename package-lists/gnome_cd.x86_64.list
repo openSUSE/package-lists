@@ -5,12 +5,11 @@ ConsoleKit-32bit
 DirectFB
 Mesa
 MozillaFirefox
-MozillaFirefox-translations
 NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
 OpenOffice_org
-OpenOffice_org-branding-upstream
+OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
 OpenOffice_org-draw
 OpenOffice_org-gnome
@@ -185,7 +184,9 @@ gedit
 genisoimage
 gettext-runtime
 ggreeter
-ghostscript-mini
+ghostscript-fonts-std
+ghostscript-library
+ghostscript-omni
 ghostscript-x11
 giflib
 glade-sharp2
@@ -265,6 +266,7 @@ gtksourceview
 gtksourceview18
 gtkspell
 gucharmap
+gutenprint
 gvfs
 gvfs-backends
 gvfs-fuse
@@ -328,7 +330,7 @@ libbonobo
 libbonoboui
 libbz2-1
 libcap
-libcdio7-mini
+libcdio7
 libcom_err2
 libcom_err2-32bit
 libcompizconfig
@@ -360,6 +362,7 @@ libgda-3_0
 libgda-3_0-3
 libgda-3_0-sqlite
 libgdiplus0
+libgimpprint
 libglade2
 libglademm
 libglademm-2_4-1
@@ -394,6 +397,7 @@ libgweather0
 libicu
 libidl
 libidn
+libieee1284
 libiniparser
 libjack0
 libjasper
@@ -440,12 +444,14 @@ libreiserfs
 librpcsecgss
 librsvg
 libsamplerate
+libsensors3
 libsexy
 libsigc++2
 libsmbclient0
 libsmbios-bin
 libsmbios-libs
 libsndfile
+libsnmp15
 libsoup
 libsoup-2_4-1
 libspeex
@@ -659,6 +665,8 @@ python-gobject2
 python-gtk
 python-numeric
 python-orbit
+python-qt
+python-sip
 python-xml
 qlogic-firmware
 qt3
@@ -673,6 +681,8 @@ rpm
 rsvg-view
 samba
 samba-client
+sane-backends
+sane-backends-autoconfig
 satsolver-tools
 sax2
 sax2-gui
@@ -691,6 +701,7 @@ siga
 silc-toolkit
 simple-ccsm
 slang
+snmp-mibs
 spamassassin
 splashy
 sqlite2
@@ -770,7 +781,6 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM

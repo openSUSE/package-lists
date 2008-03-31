@@ -32,7 +32,10 @@ if (echo $file | grep "_cd" > /dev/null); then
    ignore_list="$ignore_list ignore_cds"
 fi
 
-for pack in `pdb query --filter status:internal` `pdb query --filter status:candidate` `pdb query --filter status:frozen` `pdb query --filter distributable:no` `cat $ignore_list` \
+internals=`pdb query --filter status:internal`
+test -n "$internals" || exit 1
+
+for pack in $internals `pdb query --filter status:candidate` `pdb query --filter status:frozen` `pdb query --filter distributable:no` `cat $ignore_list` \
   `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done`; do
   grep -x $pack overwrites && continue
   LOCK="$LOCK <lock package=\"$pack\"/>"

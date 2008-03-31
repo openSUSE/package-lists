@@ -6,6 +6,7 @@ DirectFB
 IlmBase
 LibVNCServer
 Mesa
+Mesa-32bit
 MozillaFirefox
 NetworkManager
 NetworkManager-glib
@@ -160,7 +161,9 @@ gdb
 gdbm
 genisoimage
 gettext-runtime
-ghostscript-mini
+ghostscript-fonts-std
+ghostscript-library
+ghostscript-omni
 ghostscript-x11
 giflib
 glib2
@@ -325,7 +328,7 @@ libblocxx6
 libbonobo
 libbz2-1
 libcap
-libcdio7-mini
+libcdio7
 libcom_err2
 libcom_err2-32bit
 libcompizconfig
@@ -337,6 +340,7 @@ libdbus-1-qt3-0
 libdjvulibre15
 libdns_sd
 libdrm
+libdrm-32bit
 libdvdread3
 libenchant1
 libesd0
@@ -347,9 +351,10 @@ libexpat1
 libexpat1-32bit
 libext2fs2
 libfuse2
-libgcc41
-libgcc41-32bit
+libgcc43
+libgcc43-32bit
 libgcrypt11
+libgimpprint
 libglade2
 libgnome
 libgnutls-extra26
@@ -366,6 +371,7 @@ libgvfscommon0
 libicu
 libidl
 libidn
+libieee1284
 libjasper
 libjpeg
 libjpeg-32bit
@@ -423,10 +429,12 @@ libredland0
 libreiserfs
 librpcsecgss
 libsamplerate
+libsensors3
 libsmbclient0
 libsmbios-bin
 libsmbios-libs
 libsndfile
+libsnmp15
 libsoprano4
 libsoup
 libsoup-2_4-1
@@ -512,7 +520,6 @@ ntfsprogs
 ntp
 numactl
 numlockx
-nvidia-gfxG01-kmp-default
 obex-data-server
 obexftp
 openSUSE-release
@@ -601,6 +608,8 @@ python-compizconfig
 python-gobject2
 python-gtk
 python-numeric
+python-qt
+python-sip
 python-xml
 qlogic-firmware
 qt3
@@ -613,6 +622,8 @@ release-notes-openSUSE
 resmgr
 rpm
 ruby
+sane-backends
+sane-backends-autoconfig
 satsolver-tools
 sax2
 sax2-gui
@@ -629,6 +640,7 @@ siga
 simple-ccsm
 slang
 smpppd
+snmp-mibs
 soprano
 splashy
 sqlite2
@@ -680,7 +692,6 @@ x11-input-synaptics
 x11-input-wacom
 x11-input-wacom-tools
 x11-tools
-x11-video-nvidiaG01
 xalan-j2
 xaw3d
 xdg-menu
@@ -699,7 +710,6 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit

@@ -4,7 +4,6 @@ ConsoleKit
 DirectFB
 Mesa
 MozillaFirefox
-MozillaFirefox-translations
 NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
@@ -264,6 +263,7 @@ gtksourceview18
 gtkspell
 gucharmap
 guile
+gutenprint
 gvfs
 gvfs-backends
 gvfs-fuse
@@ -388,6 +388,7 @@ libgweather0
 libicu
 libidl
 libidn
+libieee1284
 libiniparser
 libjack0
 libjasper
@@ -433,12 +434,14 @@ libreiserfs
 librpcsecgss
 librsvg
 libsamplerate
+libsensors3
 libsexy
 libsigc++2
 libsmbclient0
 libsmbios-bin
 libsmbios-libs
 libsndfile
+libsnmp15
 libsoup
 libsoup-2_4-1
 libspeex
@@ -641,6 +644,8 @@ python-gtkglext
 python-numeric
 python-opengl
 python-orbit
+python-qt
+python-sip
 python-xml
 qlogic-firmware
 qt3
@@ -655,6 +660,8 @@ rpm
 rsvg-view
 samba
 samba-client
+sane-backends
+sane-backends-autoconfig
 satsolver-tools
 sax2
 sax2-gui
@@ -673,6 +680,7 @@ siga
 silc-toolkit
 simple-ccsm
 slang
+snmp-mibs
 spamassassin
 splashy
 sqlite2
@@ -752,7 +760,6 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM

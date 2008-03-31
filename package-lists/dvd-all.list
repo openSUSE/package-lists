@@ -44,7 +44,6 @@ NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
-Novell-ricoh-fonts
 OpenEXR
 OpenEXR-32bit
 OpenEXR-devel
@@ -53,7 +52,6 @@ OpenOffice_org
 OpenOffice_org-Quickstarter
 OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
-OpenOffice_org-branding-upstream
 OpenOffice_org-calc
 OpenOffice_org-cs
 OpenOffice_org-da
@@ -120,7 +118,6 @@ VFlib3
 WindowMaker
 WindowMaker-applets
 WindowMaker-themes
-YOzFont
 a2ps
 a2ps-perl-ja
 aaa_base
@@ -439,7 +436,6 @@ cpufrequtils
 cracklib
 cracklib-32bit
 cracklib-dict-full
-cracklib-dict-small
 cracklib-x86
 createrepo
 cron
@@ -561,6 +557,12 @@ dvi2tty
 e2fsprogs
 eID-belgium
 eIDconfig-belgium
+eclipse
+eclipse-archdep-gtk2
+eclipse-archdep-platform
+eclipse-archdep-scripts
+eclipse-platform
+eclipse-scripts
 ed
 edict
 eel
@@ -726,7 +728,6 @@ ghostscript-fonts-other
 ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
-ghostscript-mini
 ghostscript-omni
 ghostscript-x11
 giflib
@@ -1333,7 +1334,6 @@ keyutils-libs-32bit
 keyutils-libs-x86
 kiax
 kile
-kino
 kinput2
 kinternet
 kio_beagle
@@ -1453,8 +1453,6 @@ libMagickWand1
 libQtTapioca0
 libQtTelepathy0
 libQtWebKit4
-libXalan-c-110
-libXerces-c-27
 libXiterm
 libacl
 libacl-32bit
@@ -1524,7 +1522,6 @@ libbz2-1-32bit
 libbz2-devel
 libcap
 libcdio7
-libcdio7-mini
 libchewing
 libcom_err-devel
 libcom_err2
@@ -1584,8 +1581,6 @@ libgadu
 libgail-gnome
 libgail-gnome-devel
 libgalago
-libgcc41-32bit
-libgcc41-64bit
 libgcc43
 libgcc43-32bit
 libgcc43-64bit
@@ -1897,6 +1892,7 @@ libstdc++43-x86
 libstrigi0
 libstroke
 libsvnqt4
+libswt3-gtk2
 libsyncml-tools
 libsyncml0
 libtasn1
@@ -2451,7 +2447,6 @@ perl-XML-XQL
 perl-XML-XSLT
 perl-YAML
 perl-base
-perl-doc
 perl-gettext
 perl-ldap
 perl-ldap-ssl
@@ -2753,7 +2748,6 @@ scim-tables-skim
 scim-tables-zh
 scim-tomoe
 scim-uim
-scim-wnn
 scotty
 scpm
 screen
@@ -2775,6 +2769,7 @@ semi-xemacs
 sendfax
 sendmail
 sensors
+servletapi4
 servletapi5
 setserial
 sfftobmp
@@ -2798,7 +2793,6 @@ slrn
 smart
 smart-gui
 smartmontools
-smilutils
 smolt
 smpppd
 snack
@@ -2988,14 +2982,12 @@ v4l-tools
 vacation
 valgrind
 vdr
-vdr-internal
 viki
 vim
 vim-base
 vim-data
 vino
 virt-manager
-virtualbox-ose
 virtualbox-ose-kmp-default
 virtualbox-ose-kmp-pae
 vlan
@@ -3024,7 +3016,6 @@ wireshark
 wlan-ng-kmp-default
 wlan-ng-kmp-pae
 wlan-ng-kmp-xen
-wnn-sdk
 wodim
 wol
 wondershaper
@@ -3149,7 +3140,6 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-fonts-devel

@@ -150,7 +150,9 @@ gdb
 gdbm
 genisoimage
 gettext-runtime
-ghostscript-mini
+ghostscript-fonts-std
+ghostscript-library
+ghostscript-omni
 ghostscript-x11
 giflib
 glib2
@@ -305,7 +307,7 @@ libblocxx6
 libbonobo
 libbz2-1
 libcap
-libcdio7-mini
+libcdio7
 libcom_err2
 libcompizconfig
 libcurl4
@@ -324,8 +326,9 @@ libexiv2-2
 libexpat1
 libext2fs2
 libfuse2
-libgcc41
+libgcc43
 libgcrypt11
+libgimpprint
 libglade2
 libgnome
 libgnutls-extra26
@@ -342,6 +345,7 @@ libgvfscommon0
 libicu
 libidl
 libidn
+libieee1284
 libjasper
 libjpeg
 libkcddb4
@@ -396,10 +400,12 @@ libredland0
 libreiserfs
 librpcsecgss
 libsamplerate
+libsensors3
 libsmbclient0
 libsmbios-bin
 libsmbios-libs
 libsndfile
+libsnmp15
 libsoprano4
 libsoup
 libsoup-2_4-1
@@ -555,6 +561,8 @@ python-compizconfig
 python-gobject2
 python-gtk
 python-numeric
+python-qt
+python-sip
 python-xml
 qlogic-firmware
 qt3
@@ -567,6 +575,8 @@ release-notes-openSUSE
 resmgr
 rpm
 ruby
+sane-backends
+sane-backends-autoconfig
 satsolver-tools
 sax2
 sax2-gui
@@ -583,6 +593,7 @@ siga
 simple-ccsm
 slang
 smpppd
+snmp-mibs
 soprano
 splashy
 sqlite2
@@ -652,7 +663,6 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
