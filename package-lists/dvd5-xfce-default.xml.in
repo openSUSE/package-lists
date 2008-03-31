@@ -61,7 +61,6 @@
     <lock package="libstdc++42"/>
     <lock package="libgcc42"/>
     <lock package="libgcc42-32bit"/>
-    <lock package="libstdc++41"/>
     <lock package="libstdc++41-32bit"/>
     <lock package="libstdc++42-32bit"/>
     <lock package="yast2-theme-openSUSE-Crystal"/>
@@ -118,10 +117,8 @@
     <lock package="bundle-lang-gnome-sv"/>
     <lock package="bundle-lang-gnome-zh"/>
     <lock package="gtk2-branding-upstream"/>
-    <lock package="gnome-session-branding-upstream"/>
     <lock package="gnome-session-branding-openSUSE"/>
     <lock package="gtk2-engines-32bit"/>
-    <lock package="perl-doc"/>
     <!-- INTERNALS -->
   </setup>
   <trial>

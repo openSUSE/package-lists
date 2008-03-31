@@ -26,12 +26,9 @@
     <locale name="nb"/>
     <locale name="sv"/>
     <locale name="nl"/>
-    <lock package="novell-ipsec-tools"/>
     <lock package="xerces-j2-xml-resolver"/>
     <lock package="xerces-j2-xml-apis"/>
     <lock package="gnu-javamail"/>
-    <lock package="libffi41"/>
-    <lock package="sles-release"/>
     <lock package="novell-NLDAPsdk-dyn"/>
     <lock package="gnuchess"/>
     <lock package="atftp"/>
@@ -40,17 +37,9 @@
     <lock package="myspell-german-old"/>
     <lock package="helix-banshee"/>
     <lock package="squid"/>
-    <lock package="antlr-bootstrap"/>
     <lock package="icewm-default"/>
-    <lock package="libstdc++41"/>
-    <lock package="libstdc++41-32bit"/>
-    <lock package="cracklib-dict-small"/>
-    <lock package="eclipse"/>
-    <!-- !x86_64 !i586 -->
+    <lock package="eclipse"/> <!-- !x86_64 !i586 -->
     <lock package="gtk2-branding-upstream"/>
-    <lock package="gnome-session-branding-upstream"/>
-    <lock package="texlive-doc"/>
-    <lock package="texlive-latex-doc"/>
     <lock package="eclipse-archdep-platform-commons"/>
     <lock package="yast2-theme-openSUSE-Oxygen"/>
     <!-- INTERNALS -->
