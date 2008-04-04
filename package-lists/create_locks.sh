@@ -1,6 +1,6 @@
 #! /bin/sh
 
-for pack in $1; do
+for pack in $@; do
   grep -x $pack overwrites && continue
   echo "<lock package=\"$pack\"/>"
   echo "<lock package=\"$pack-32bit\"/>"
