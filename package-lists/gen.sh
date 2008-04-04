@@ -66,7 +66,6 @@ do
   gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/CD1/content
 
   export ZYPP_MODALIAS_SYSFS=/tmp
-  touch $base.$arch.xml
   /usr/bin/repo2solv.sh $TESTTRACK/$base.$arch/CD1 > $base.$arch.solv
   /usr/bin/deptestomatic $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list.new -
   if test -s "$file.$arch.list.new"; then
