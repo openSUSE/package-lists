@@ -67,10 +67,12 @@ do
   cp -a $VAR/media.1 $TESTTRACK/$base.$arch/CD1/
   
   pushd $TESTTRACK/$base.$arch/CD1/suse/setup/descr/ > /dev/null
+  : > patterns
   for i in *; 
     do echo -n "META SHA1 "; 
     sha1sum $i | awk '{ORS=""; print $1}'; 
     echo -n " "; basename $i; 
+    basename $i >> patterns
   done >> $TESTTRACK/$base.$arch/CD1/content
   popd > /dev/null
   rm -f $TESTTRACK/$base.$arch/CD1/content.asc
