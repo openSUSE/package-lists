@@ -35,21 +35,8 @@ fi
 internals=`pdb query --filter status:internal`
 test -n "$internals" || exit 1
 
-for pack in $internals `pdb query --filter status:candidate` `pdb query --filter status:frozen` `pdb query --filter distributable:no` `cat $ignore_list` \
-  `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done`; do
-  grep -x $pack overwrites && continue
-  LOCK="$LOCK <lock package=\"$pack\"/>"
-  LOCK2="$LOCK2 <lock package=\"$pack-32bit\"/>"
-  LOCK2="$LOCK2 <lock package=\"$pack-64bit\"/>"
-  case $pack in
-    *-KMP)
-	pack=${pack/-KMP/-}
-        for suffix in default bigsmp xen xenpae pae; do
-           LOCK="$LOCK <lock package=\"$pack$suffix\"/>"
-        done
-        ;;
-  esac
-done
+sh ./create_locks.sh $internals `pdb query --filter status:candidate` `pdb query --filter status:frozen` `pdb query --filter distributable:no` `cat $ignore_list` \
+  `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done` > locks.xml
 
 ret=0
 
@@ -58,7 +45,7 @@ do
   arch=$i
   echo "processing $arch..."
   eval VAR="\$GEN_URL_${i}"
-  sed -e "s,<!-- INTERNALS -->,<!-- INTERNALS -->$LOCK," -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | sed -e "s,<!-- INTERNALS -->,<!-- INTERNALS -->$LOCK2," | fgrep -v "!$arch" | xmllint --format - > $file.$arch.xml
+  sed -e "r,<!-- INTERNALS -->,locks.xml" -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" | xmllint --format - > $file.$arch.xml
 
   rm -rf /tmp/myrepos
   mkdir -p $TESTTRACK/$base.$arch/CD1/
