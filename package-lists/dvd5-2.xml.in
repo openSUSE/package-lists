@@ -26,13 +26,13 @@
     <locale name="nb"/>
     <locale name="sv"/>
     <locale name="nl"/>
+  </setup>
+  <trial>
     <lock package="novell-ipsec-tools"/>
     <lock package="novell-NLDAPsdk-dyn"/>
     <lock package="myspell-german"/>
     <lock package="desktop-data-NLD"/>
     <!-- INTERNALS -->
-  </setup>
-  <trial>
     <install kind="package" name="sendmail"/>
     <install kind="package" name="notification-daemon-xfce"/>
     <install kind="package" name="sendfax"/>

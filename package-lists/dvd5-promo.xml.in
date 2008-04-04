@@ -25,13 +25,13 @@
     <locale name="nb"/>
     <locale name="sv"/>
     <locale name="nl"/>
+  </setup>
+  <trial>
     <!-- ignoring some lang provides -->
     <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
     <lock package="oxygen-icon-theme-scalable"/>
     <!-- INTERNALS -->
-  </setup>
-  <trial>
     <install kind="pattern" name="rest_cd_kde"/>
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="pattern" name="non_oss"/>

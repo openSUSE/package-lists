@@ -3,6 +3,8 @@
   <setup arch="GEN_ARCH">
     <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
+  </setup>
+  <trial>
     <!-- ignoring some lang provides -->
     <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
@@ -41,8 +43,6 @@
     <lock package="gtk2-engines-32bit"/>
     <lock package="OpenOffice_org"/>
     <!-- INTERNALS -->
-  </setup>
-  <trial>
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="cracklib-dict-full"/>

@@ -3,6 +3,8 @@
   <setup arch="GEN_ARCH">
     <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
+  </setup>
+  <trial>
     <!-- ignoring some lang provides -->
     <!-- ignoring some recommends -->
     <lock package="vim-data"/>
@@ -53,8 +55,6 @@
     <lock package="gnome-session-branding-openSUSE"/>
     <lock package="gtk2-engines-32bit"/>
     <!-- INTERNALS -->
-  </setup>
-  <trial>
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="cracklib-dict-full"/>

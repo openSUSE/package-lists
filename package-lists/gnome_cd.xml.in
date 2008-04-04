@@ -4,6 +4,8 @@
     <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
     <locale name="de"/>
+  </setup>
+  <trial>
     <!-- ignoring some lang provides -->
     <!-- ignoring some recommends -->
     <lock package="vim-data"/>
@@ -34,8 +36,6 @@
     <lock package="gnome-session-branding-openSUSE"/>
     <lock package="gtk2-engines-32bit"/>
     <!-- INTERNALS -->
-  </setup>
-  <trial>
     <install kind="pattern" name="rest_cd_gnome"/>
     <reportProblems/>
   </trial>

@@ -4,6 +4,8 @@
     <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
     <locale name="de"/>
+  </setup>
+  <trial>
     <!-- ignoring some lang provides -->
     <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
@@ -38,8 +40,6 @@
     <lock package="compiz-kde"/>
     <lock package="gtk2-engines-32bit"/>
     <!-- INTERNALS -->
-  </setup>
-  <trial>
     <install kind="pattern" name="rest_cd_kde"/>
     <reportProblems/>
   </trial>

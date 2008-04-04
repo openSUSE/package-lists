@@ -26,6 +26,8 @@
     <locale name="nb"/>
     <locale name="sv"/>
     <locale name="nl"/>
+  </setup>
+  <trial>
     <lock package="xerces-j2-xml-resolver"/>
     <lock package="xerces-j2-xml-apis"/>
     <lock package="gnu-javamail"/>
@@ -43,8 +45,6 @@
     <lock package="eclipse-archdep-platform-commons"/>
     <lock package="yast2-theme-openSUSE-Oxygen"/>
     <!-- INTERNALS -->
-  </setup>
-  <trial>
     <install kind="pattern" name="rest_dvd"/>
     <reportProblems/>
   </trial>

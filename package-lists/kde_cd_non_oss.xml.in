@@ -3,6 +3,8 @@
   <setup arch="GEN_ARCH">
     <source url="GEN_URL" name="tmp"/>
     <locale name="en_US"/>
+  </setup>
+  <trial>
     <!-- ignoring some lang provides -->
     <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
@@ -10,8 +12,6 @@
     <lock package="spamassassin"/>
     <lock package="vim-data"/>
     <!-- INTERNALS -->
-  </setup>
-  <trial>
     <install kind="pattern" name="rest_cd_kde"/>
     <install kind="pattern" name="non_oss"/> 
     <install kind="pattern" name="non_oss_java"/> <!-- !ppc -->
