@@ -33,6 +33,7 @@ aalib
 acl
 acpid
 adaptec-firmware
+akonadi
 alsa
 alsa-oss
 alsa-oss-32bit
@@ -166,7 +167,6 @@ ghostscript-omni
 ghostscript-x11
 giflib
 glib2
-glib2-32bit
 glibc
 glibc-32bit
 glibc-locale
@@ -174,6 +174,7 @@ glibc-locale-32bit
 glitz
 glitz-32bit
 gmp
+gnokii
 gnome-keyring
 gnome-themes-openSUSE
 gnome-vfs2
@@ -229,10 +230,12 @@ k3b
 kaffeine
 kbd
 kde3-i18n-de
+kde4-akregator
 kde4-ark
 kde4-dolphin
 kde4-filesystem
 kde4-gwenview
+kde4-kaddressbook
 kde4-kcalc
 kde4-kcm_gtk
 kde4-kcolorchooser
@@ -247,14 +250,20 @@ kde4-kio_iso
 kde4-kio_kamera
 kde4-kio_sysinfo
 kde4-kmahjongg
+kde4-kmail
 kde4-kmines
 kde4-kmix
+kde4-kmobiletools
 kde4-knewsticker
+kde4-knotes
 kde4-konqueror
 kde4-konqueror-plugins
 kde4-konsole
+kde4-kontact
 kde4-kopete
+kde4-korganizer
 kde4-kpat
+kde4-kpilot
 kde4-krdc
 kde4-kreversi
 kde4-krfb
@@ -266,6 +275,7 @@ kde4-kwin
 kde4-kwrite
 kde4-l10n-de
 kde4-okular
+kde4-opensuse-updater
 kdeartwork4-screensaver
 kdebase3-runtime
 kdebase4
@@ -285,6 +295,8 @@ kdelibs4
 kdelibs4-core
 kdemultimedia4
 kdepim3
+kdepim4
+kdepim4-wizards
 kdepimlibs4
 kdetv
 kernel-default
@@ -292,7 +304,6 @@ keyutils-libs
 keyutils-libs-32bit
 kinternet
 kipi-plugins
-kitchensync
 klogd
 konversation
 kpartx
@@ -309,6 +320,7 @@ libFLAC++6
 libFLAC8
 libacl
 libaio
+libakonadi1
 libao
 libapparmor1
 libarchive2
@@ -354,10 +366,17 @@ libgcc43
 libgcc43-32bit
 libgcrypt11
 libgimpprint
+libgio-2_0-0
 libglade2
+libglib-2_0-0
+libglib-2_0-0-32bit
+libgmodule-2_0-0
+libgmodule-2_0-0-32bit
 libgnome
 libgnutls-extra26
 libgnutls26
+libgobject-2_0-0
+libgobject-2_0-0-32bit
 libgpg-error0
 libgpgme11
 libgphoto2
@@ -366,7 +385,10 @@ libgpod3
 libgssglue1
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
+libgthread-2_0-0
+libgthread-2_0-0-32bit
 libgvfscommon0
+libical0
 libicu
 libidl
 libidn
@@ -379,6 +401,7 @@ libkdcraw2
 libkde4
 libkdecore4
 libkdegames4
+libkdepim4
 libkdepimlibs4
 libkexiv2-3
 libkipi0
@@ -405,7 +428,6 @@ libopenct1
 libopensc2
 libopenssl0_9_8
 libopenssl0_9_8-32bit
-libopensync
 libpcap
 libpisock9
 libpng12-0
@@ -529,7 +551,6 @@ openssl
 openssl-certs
 opensuse-codecs-installer
 opensuse-manual_en
-opensuse-updater-kde
 orbit2
 oxygen-icon-theme
 pam

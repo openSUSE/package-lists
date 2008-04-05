@@ -4,8 +4,8 @@ rm -rf full-i386 full-x86_64
 rm -rf /tmp/myrepos
 /usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-i386.xml > testit-i386.log 2>&1
 
-zcat full-i386/*-package.xml.gz > full-i386/1-package.xml
-zcat full-x86_64/*-package.xml.gz > full-x86_64/1-package.xml
+zcat full-i386/*-package.xml.gz | fgrep -v '<vendor>' > full-i386/1-package.xml
+zcat full-x86_64/*-package.xml.gz | fgrep -v '<vendor>' > full-x86_64/1-package.xml
 
 for i in *.xml.in; do 
 echo $i

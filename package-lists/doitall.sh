@@ -27,8 +27,8 @@ svn commit -m "auto commit"
 
 diff=0
 for arch in i586 x86_64 ppc; do
-  for f in gnome_cd-default gnome_cd kde_cd-default kde_cd dvd5-xfce-default dvd5-x11-default; do
-     if diff -u saved/$f.$arch.list $f.$arch.list ; then
+  for f in gnome_cd-default gnome_cd kde_cd-default kde_cd gnome_cd-x11-default kde_cd-base-default; do
+     if ! diff -u saved/$f.$arch.list $f.$arch.list ; then
         diff=1 
         break
      fi

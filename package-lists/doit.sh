@@ -19,9 +19,8 @@ echo "non-oss:"
 echo "dvd5:"
 ./gen.sh dvd5
 ./gen.sh dvd5-2
-./gen.sh dvd5-base-default
-./gen.sh dvd5-x11-default
-./gen.sh dvd5-xfce-default
+./gen.sh kde_cd-base-default
+./gen.sh gnome_cd-x11-default
 
 echo "diffing"
 for arch in i586 x86_64 ppc; do
@@ -29,7 +28,7 @@ for arch in i586 x86_64 ppc; do
    diff -u gnome_cd.$arch.list gnome_cd-default.$arch.list | grep -v +++ | grep ^+
 
   for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang; do
-    for f in gnome_cd-default kde_cd-default dvd5-xfce-default dvd5-x11-default dvd5-base-default; do
+    for f in gnome_cd-default kde_cd-default gnome_cd-x11-default kde_cd-base-default; do
       grep -vx $i $f.$arch.list > t && mv t $f.$arch.list
     done
   done

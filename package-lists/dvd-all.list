@@ -9,6 +9,12 @@ CID-keyed-fonts-WadaH
 ConsoleKit
 ConsoleKit-32bit
 DirectFB
+FZFangSong
+FZHeiTi
+FZKaiTi
+FZKaiTiB
+FZMingTiB
+FZSongTi
 FastCGI
 FreeNX
 IPAGothic
@@ -142,6 +148,7 @@ adm8211-kmp-iseries64
 adm8211-kmp-ppc64
 aelfred
 agfa-fonts
+akonadi
 alacarte
 alacarte-lang
 alevt
@@ -581,7 +588,6 @@ epiphany-lang
 epos
 eric
 eruby
-esound
 ethtool
 evince
 evms
@@ -750,8 +756,6 @@ glib
 glib-devel
 glib-sharp2
 glib2
-glib2-32bit
-glib2-64bit
 glib2-devel
 glib2-doc
 glib2-x86
@@ -813,6 +817,8 @@ gnome-mount
 gnome-nettool
 gnome-panel
 gnome-panel-devel
+gnome-phone-manager
+gnome-phone-manager-lang
 gnome-pilot
 gnome-pilot-devel
 gnome-pilot-lang
@@ -990,7 +996,6 @@ inn
 input-utils
 insserv
 inst-source-utils
-install-initrd
 intlfnts
 intltool
 ipadic
@@ -1061,10 +1066,6 @@ jakarta-taglibs-standard
 jarnal
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
-java-1_5_0-sun
-java-1_5_0-sun-alsa
-java-1_5_0-sun-devel
-java-1_5_0-sun-jdbc
 java-1_6_0-sun
 java-1_6_0-sun-alsa
 java-1_6_0-sun-devel
@@ -1120,11 +1121,14 @@ kde3-i18n-ru
 kde3-i18n-sv
 kde3-i18n-zh_CN
 kde3-i18n-zh_TW
+kde4-akregator
 kde4-amor
 kde4-ark
 kde4-dolphin
 kde4-filesystem
 kde4-gwenview
+kde4-kaddressbook
+kde4-kalarm
 kde4-kapptemplate
 kde4-kate
 kde4-katomic
@@ -1151,18 +1155,26 @@ kde4-kiriki
 kde4-kjumpingcube
 kde4-klines
 kde4-kmahjongg
+kde4-kmail
 kde4-kmilo
 kde4-kmines
 kde4-kmix
+kde4-kmobiletools
 kde4-knetwalk
 kde4-knewsticker
+kde4-knode
+kde4-knotes
 kde4-kolf
 kde4-konqueror
 kde4-konqueror-plugins
 kde4-konquest
 kde4-konsole
+kde4-kontact
 kde4-kopete
+kde4-korganizer
+kde4-korn
 kde4-kpat
+kde4-kpilot
 kde4-krdc
 kde4-kreversi
 kde4-krfb
@@ -1174,6 +1186,8 @@ kde4-kspaceduel
 kde4-ksquares
 kde4-ksudoku
 kde4-kteatime
+kde4-ktimetracker
+kde4-ktnef
 kde4-kturtle
 kde4-ktux
 kde4-kwalletmanager
@@ -1207,6 +1221,7 @@ kde4-lskat
 kde4-marble
 kde4-marble-data
 kde4-okular
+kde4-opensuse-updater
 kdeaccessibility3
 kdeaddons3-games
 kdeaddons3-kate
@@ -1301,6 +1316,8 @@ kdepim3-kpilot
 kdepim3-mobile
 kdepim3-notes
 kdepim3-time-management
+kdepim4
+kdepim4-wizards
 kdepimlibs4
 kdesdk3
 kdesdk3-kdecvs
@@ -1460,6 +1477,8 @@ libaio
 libaio-devel
 libakode
 libakode-devel
+libakonadi1
+libakonadi4
 libao
 libao-devel
 libapparmor1
@@ -1603,6 +1622,8 @@ libgdiplus0
 libgfortran43
 libggz2
 libgimpprint
+libgio-2_0-0
+libgio-2_0-0-32bit
 libglade2
 libglade2-32bit
 libglade2-devel
@@ -1610,8 +1631,14 @@ libglade2-doc
 libglademm
 libglademm-2_4-1
 libgladeui-1-7
+libglib-2_0-0
+libglib-2_0-0-32bit
+libglib-2_0-0-64bit
 libgluezilla0
 libgmime-2_0-3
+libgmodule-2_0-0
+libgmodule-2_0-0-32bit
+libgmodule-2_0-0-64bit
 libgnome
 libgnome-32bit
 libgnome-certauth0
@@ -1648,6 +1675,9 @@ libgnomeui-doc
 libgnutls-devel
 libgnutls-extra26
 libgnutls26
+libgobject-2_0-0
+libgobject-2_0-0-32bit
+libgobject-2_0-0-64bit
 libgomp43
 libgpg-error-devel
 libgpg-error-x86
@@ -1670,6 +1700,10 @@ libgsm1
 libgssglue1
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
+libgthread-2_0-0
+libgthread-2_0-0-32bit
+libgthread-2_0-0-64bit
+libgtk-vnc-1_0-0
 libgtkhtml
 libgtkimageview0
 libgtksourceview-2_0-0
@@ -1717,6 +1751,7 @@ libkdecore4
 libkdecore4-devel
 libkdeedu4
 libkdegames4
+libkdepim4
 libkdepimlibs4
 libkdepimlibs4-devel
 libkexiv2-3
@@ -1750,7 +1785,6 @@ libmudflap43
 libmusicbrainz-devel
 libmusicbrainz4
 libmysqlclient15
-libmysqlclient_r15
 libneon-devel
 libneon27
 libnet
@@ -1827,10 +1861,7 @@ libqt4-devel-doc
 libqt4-devel-doc-data
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-mysql
-libqt4-sql-postgresql
 libqt4-sql-sqlite
-libqt4-sql-unixODBC
 libqt4-x11
 libqtpod0
 libquicktime
@@ -1925,7 +1956,7 @@ libwmf-gnome
 libwnck
 libwnck-1-22
 libwnck-devel
-libwpd
+libwpd-0_8-8
 libx86
 libxcrypt
 libxcrypt-32bit
@@ -1980,6 +2011,7 @@ log4j
 login
 logrotate
 lomoco
+loudmouth
 lpdfilter
 lprng
 lsb
@@ -2030,6 +2062,7 @@ mikachan-fonts
 mingetty
 minicom
 mirror
+misc-console-font
 mjpegtools
 mkinitrd
 mlmmj
@@ -2164,7 +2197,6 @@ numactl
 numlockx
 nvu
 nxml-mode
-nxtvepg
 obex-data-server
 obexftp
 ocfs2-tools
@@ -2198,12 +2230,12 @@ opensuse-gnomeuser_en
 opensuse-manual_de
 opensuse-manual_en
 opensuse-manual_ru
-opensuse-updater-gnome
 opensuse-updater-kde
 openswan
 openvpn
 opera
 opie
+oprofile
 optipng
 orage
 orbit
@@ -2935,8 +2967,6 @@ ttf-arphic-ukai
 ttf-arphic-uming
 ttf-cmex-kai
 ttf-cmex-song
-ttf-founder-simplified
-ttf-founder-traditional
 tv-common
 tv-fonts
 twinkle
@@ -2947,6 +2977,7 @@ uim
 uim-gtk2
 uim-qt
 ulimit
+umtsmon
 unace
 unarj
 unclutter
@@ -2984,6 +3015,8 @@ viki
 vim
 vim-base
 vim-data
+vinagre
+vinagre-lang
 vino
 virt-manager
 virtualbox-ose-kmp-default
@@ -3106,6 +3139,7 @@ xfig
 xfmedia
 xfntjp
 xfprint
+xfsdump
 xfsprogs
 xfwm4
 xfwm4-themes
