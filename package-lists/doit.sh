@@ -28,7 +28,7 @@ for arch in i586 x86_64 ppc; do
    diff -u kde_cd.$arch.list kde_cd-default.$arch.list | grep -v +++ | grep ^+
    diff -u gnome_cd.$arch.list gnome_cd-default.$arch.list | grep -v +++ | grep ^+
 
-  for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools; do
+  for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang; do
     for f in gnome_cd-default kde_cd-default dvd5-xfce-default dvd5-x11-default dvd5-base-default; do
       grep -vx $i $f.$arch.list > t && mv t $f.$arch.list
     done
