@@ -580,6 +580,7 @@ enchant
 enchant-devel
 enscript
 eog
+eog-lang
 epiphany
 epiphany-devel
 epiphany-doc
@@ -606,7 +607,6 @@ exo
 expat
 expect
 extragear-plasma
-f-spot
 fam
 fam-32bit
 fam-devel
@@ -720,7 +720,6 @@ gettext-runtime
 gettext-tools
 gftp
 gftp-lang
-ggreeter
 ggz
 ggz-client-libs
 ghex
@@ -836,7 +835,6 @@ gnome-spell2
 gnome-system-monitor
 gnome-terminal
 gnome-themes
-gnome-themes-openSUSE
 gnome-utils
 gnome-vfs-obexftp
 gnome-vfs-sharp2
@@ -914,10 +912,10 @@ gtk2-engines
 gtk2-engines-32bit
 gtk2-engines-64bit
 gtk2-engines-x86
+gtk2-theme-openSUSE
 gtk2-themes
 gtk2-x86
 gtkglext
-gtkhtml-sharp2
 gtkhtml2
 gtkhtml2-devel
 gtkiterm
@@ -1346,6 +1344,7 @@ kexec-tools
 keyutils-devel
 keyutils-libs
 keyutils-libs-32bit
+keyutils-libs-64bit
 keyutils-libs-x86
 kiax
 kile
@@ -1428,6 +1427,7 @@ kqemu-kmp-pae
 kradio
 krb5
 krb5-32bit
+krb5-64bit
 krb5-client
 krb5-devel
 krb5-x86
@@ -1544,6 +1544,7 @@ libchewing
 libcom_err-devel
 libcom_err2
 libcom_err2-32bit
+libcom_err2-64bit
 libcompizconfig
 libcroco
 libcroco-0_6-3
@@ -1731,6 +1732,7 @@ libidn-x86
 libiec61883
 libieee1284
 libiniparser
+libiniparser-32bit
 libiptcdata
 libiptcdata0
 libiterm
@@ -1787,6 +1789,7 @@ libmudflap43
 libmusicbrainz-devel
 libmusicbrainz4
 libmysqlclient15
+libmysqlclient_r15
 libneon-devel
 libneon27
 libnet
@@ -1863,7 +1866,10 @@ libqt4-devel-doc
 libqt4-devel-doc-data
 libqt4-qt3support
 libqt4-sql
+libqt4-sql-mysql
+libqt4-sql-postgresql
 libqt4-sql-sqlite
+libqt4-sql-unixODBC
 libqt4-x11
 libqtpod0
 libquicktime
@@ -2074,6 +2080,7 @@ mlterm-uim
 mmv
 module-init-tools
 moneyplex
+mono-addins
 mono-basic
 mono-core
 mono-data
@@ -2088,7 +2095,6 @@ mono-extras
 mono-jscript
 mono-locale-extras
 mono-nunit
-mono-tools
 mono-web
 mono-winforms
 mono-zeroconf
@@ -2199,6 +2205,7 @@ numactl
 numlockx
 nvu
 nxml-mode
+nxtvepg
 obex-data-server
 obexftp
 ocfs2-tools
@@ -2698,7 +2705,6 @@ rpm
 rpm-devel
 rpm-python
 rsh
-rsvg-sharp2
 rsvg-view
 rsync
 ruby
@@ -2746,7 +2752,9 @@ sabayon-lang
 sablot
 samba
 samba-client
+samba-client-32bit
 samba-winbind
+samba-winbind-32bit
 sane-backends
 sane-backends-autoconfig
 sane-frontends
@@ -3034,7 +3042,6 @@ vsftpd
 vtcl
 vte
 vte-devel
-vte-sharp2
 w3m
 w3m-el
 w3m-el-xemacs
