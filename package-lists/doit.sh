@@ -34,8 +34,6 @@ for arch in i586 x86_64 ppc; do
   done
 done
 
-diff -u kde_cd.i586.list kde_cd-default.i586.list | grep -v -- --- | grep ^- | cut -b2- > kde_cd2.i586.list
-
 #echo "promo-dvd5:"
 #./gen.sh dvd5-promo
 
