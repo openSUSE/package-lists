@@ -8,7 +8,6 @@
 </setup>
 <trial>
   <install kind="product" name="openSUSE-fulltree" />
-  <uninstall name="libredland0"/>
   <uninstall name="libsoprano3"/>
   <distupgrade delete_unmaintained="false"/>
 

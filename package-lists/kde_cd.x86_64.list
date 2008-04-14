@@ -26,6 +26,7 @@ OpenOffice_org-templates-labels-letter
 OpenOffice_org-writer
 PolicyKit
 PolicyKit-doc
+PolicyKit-kde
 SDL
 SuSEfirewall2
 a2ps
@@ -34,6 +35,7 @@ aalib
 acl
 acpid
 adaptec-firmware
+akonadi
 alsa
 alsa-oss
 alsa-oss-32bit
@@ -59,6 +61,7 @@ autoyast2-installation
 avahi
 b43-fwcutter
 bash
+bash-completion
 bash-doc
 bc
 bind-libs
@@ -156,6 +159,7 @@ freetype2-32bit
 fuse
 gawk
 gconf2
+gconf2-branding-openSUSE
 gdb
 gdbm
 genisoimage
@@ -169,7 +173,6 @@ ghostscript-library
 ghostscript-omni
 ghostscript-x11
 giflib
-gimp-branding-openSUSE
 glib2
 glib2-branding-openSUSE
 glibc
@@ -179,6 +182,7 @@ glibc-locale-32bit
 glitz
 glitz-32bit
 gmp
+gnokii
 gnome-keyring
 gnome-vfs2
 gnutls
@@ -196,7 +200,6 @@ gtk2
 gtk2-32bit
 gtk2-branding-openSUSE
 gtk2-engines
-gtk2-engines-lang
 gtk2-theme-openSUSE
 gvfs
 gvfs-backends
@@ -207,6 +210,8 @@ hal-palm
 hal-resmgr
 hdparm
 hicolor-icon-theme
+hunspell
+hunspell-tools
 hwinfo
 icedax
 icewm
@@ -234,10 +239,12 @@ k3b
 kaffeine
 kbd
 kde3-i18n-de
+kde4-akregator
 kde4-ark
 kde4-dolphin
 kde4-filesystem
 kde4-gwenview
+kde4-kaddressbook
 kde4-kcalc
 kde4-kcm_gtk
 kde4-kcolorchooser
@@ -253,13 +260,17 @@ kde4-kio_kamera
 kde4-kio_sysinfo
 kde4-kio_sysinfo-branding-openSUSE
 kde4-kmahjongg
+kde4-kmail
 kde4-kmines
 kde4-kmix
 kde4-knewsticker
+kde4-knotes
 kde4-konqueror
 kde4-konqueror-plugins
 kde4-konsole
+kde4-kontact
 kde4-kopete
+kde4-korganizer
 kde4-kpat
 kde4-kpilot
 kde4-krdc
@@ -275,6 +286,7 @@ kde4-l10n-de
 kde4-okular
 kde4-opensuse-updater
 kdeartwork4-screensaver
+kdebase3-SuSE-branding-upstream
 kdebase3-runtime
 kdebase4
 kdebase4-libkonq
@@ -293,6 +305,8 @@ kdelibs3-default-style
 kdelibs4
 kdelibs4-core
 kdemultimedia4
+kdepim4
+kdepim4-wizards
 kdepimlibs4
 kdetv
 kernel-default
@@ -316,6 +330,7 @@ libFLAC++6
 libFLAC8
 libacl
 libaio
+libakonadi4
 libao
 libapparmor1
 libarchive2
@@ -380,12 +395,14 @@ libgpgme11
 libgphoto2
 libgpod-tools
 libgpod3
+libgsf-1-114
 libgssglue1
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgvfscommon0
+libical0
 libicu
 libidl
 libidn
@@ -400,6 +417,7 @@ libkdcraw2
 libkde4
 libkdecore4
 libkdegames4
+libkdepim4
 libkdepimlibs4
 libkexiv2-3
 libkipi0
@@ -477,6 +495,9 @@ libvisual-plugins
 libvolume_id
 libvorbis
 libwavpack1
+libwpd-0_8-8
+libwpg-0_1-1
+libwps-0_1-1
 libx86
 libxcrypt
 libxcrypt-32bit
@@ -485,6 +506,7 @@ libxklavier12
 libxml2
 libxslt
 libzio
+libzip1
 libzypp
 licenses
 lilo
@@ -722,6 +744,7 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit

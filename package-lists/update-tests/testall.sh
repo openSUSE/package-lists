@@ -11,7 +11,7 @@ for i in *.xml.in; do
 echo $i
 ./update.sh $i > $i.update
 if test ! -s $i.update; then
-  grep -C3 === $i.output
+  grep -A7 Problem: $i.output
   : > $i.remove
   continue
 fi
