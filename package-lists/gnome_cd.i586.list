@@ -59,7 +59,6 @@ banshee-engine-gst
 banshee-plugins-default
 banshee-plugins-extra
 bash
-bash-completion
 bash-doc
 bc
 beagle
@@ -74,6 +73,7 @@ bluez-firmware
 bluez-gnome
 bluez-libs
 bluez-utils
+bogofilter
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -244,8 +244,6 @@ gnome-vfs-sharp2
 gnome-vfs2
 gnome-volume-manager
 gnome-web-photo
-gnome2-SuSE
-gnome2-user-docs
 gnutls
 gpart
 gpg2
@@ -282,6 +280,9 @@ gzip
 hal
 hal-resmgr
 hdparm
+heartbeat
+heartbeat-core
+heartbeat-resources
 hicolor-icon-theme
 hunspell
 hunspell-tools
@@ -307,7 +308,6 @@ iwl4965-ucode
 jfsutils
 jpackage-utils
 kbd
-kdebase3-SuSE-branding-upstream
 kernel-default
 keyutils-libs
 klogd
@@ -340,7 +340,6 @@ libbtctl
 libbtctl4
 libbz2-1
 libcap
-libcares2
 libcdio7
 libcom_err2
 libcompizconfig
@@ -428,6 +427,7 @@ libmtp7
 libmusicbrainz4
 libncurses5
 libneon27
+libnet
 libnetpbm10
 libnl
 libnotify
@@ -457,12 +457,14 @@ libreiserfs
 librpcsecgss
 librsvg
 libsamplerate
+libsensors3
 libsexy
 libsigc++2
 libsmbclient0
 libsmbios-bin
 libsmbios-libs
 libsndfile
+libsnmp15
 libsoup
 libsoup-2_4-1
 libspeex
@@ -470,8 +472,10 @@ libsqlite3-0
 libssui
 libssui0
 libstdc++43
+libtalloc1
 libtasn1
 libtasn1-3
+libtdb0
 libtheora0
 libthinkfinger
 libtiff3
@@ -481,6 +485,7 @@ libvisual
 libvolume_id
 libvorbis
 libwavpack1
+libwbclient0
 libwmf
 libwnck
 libwnck-1-22
@@ -500,8 +505,6 @@ licenses
 liferea
 lilo
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-perl
 linux-atm-lib
 lirc
@@ -524,6 +527,7 @@ module-init-tools
 mono-core
 mono-data
 mono-data-sqlite
+mono-extras
 mono-web
 mono-winforms
 monsoon
@@ -540,7 +544,7 @@ nautilus-cd-burner
 nautilus-open-terminal
 nautilus-sendto
 nautilus-share
-ncurses
+ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
 ndiswrapper
@@ -562,6 +566,7 @@ ntp
 numlockx
 obex-data-server
 openSUSE-release
+openais
 openct
 openldap2-client
 openobex
@@ -572,10 +577,9 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
-opensuse-gnomeuser_en
-opensuse-manual_en
 orbit2
 orca
+pacemaker
 padevchooser
 pam
 pam-config
@@ -665,6 +669,7 @@ python-gnome-extras
 python-gobject2
 python-gtk
 python-gtkglext
+python-gtksourceview
 python-numeric
 python-opengl
 python-orbit
@@ -700,6 +705,7 @@ silc-toolkit
 simple-ccsm
 slang
 smpppd
+snmp-mibs
 spamassassin
 splashy
 sqlite2
@@ -725,6 +731,7 @@ tar
 tasque
 tcl
 tcpd
+terminfo-base
 tightvnc
 timezone
 tk
@@ -781,7 +788,6 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
@@ -804,7 +810,6 @@ xorg-x11-libxcb
 xorg-x11-libxkbfile
 xorg-x11-server
 xorg-x11-server-extra
-xournal
 xpdf-tools
 xscreensaver
 xstroke

@@ -7,10 +7,42 @@
   <locale name="de"/>
 </setup>
 <trial>
+  <lock package="gnome2-NLD"/>
   <install kind="product" name="openSUSE-fulltree" />
   <uninstall name="libsoprano3"/>
-  <distupgrade delete_unmaintained="false"/>
-
-  <reportproblems/>
+  <uninstall name="tomcat55"/>
+  <uninstall name="tomcat55-common-lib"/>
+  <uninstall name="tomcat55-jasper"/>
+  <uninstall name="tomcat55-jsp-2_0-api"/>
+  <uninstall name="tomcat55-server-lib"/>
+  <uninstall name="tomcat55-servlet-2_4-api"/>
+  <uninstall name="cpp42"/>
+  <uninstall name="gcc42"/>
+  <uninstall name="gcc42-32bit"/>
+  <uninstall name="gcc42-c++"/>
+  <uninstall name="gcc42-fortran"/>
+  <uninstall name="gcc42-fortran-32bit"/>
+  <uninstall name="gcc42-gij"/>
+  <uninstall name="gcc42-info"/>
+  <uninstall name="gcc42-java"/>
+  <uninstall name="gcc42-objc"/>
+  <uninstall name="gcc42-objc-32bit"/>
+  <uninstall name="libgcj42"/>
+  <uninstall name="libgcj42-devel"/>
+  <uninstall name="libgfortran42"/>
+  <uninstall name="libgfortran42-32bit"/>
+  <uninstall name="libstdc++42-devel"/>
+  <uninstall name="libMagick10"/>
+  <uninstall name="libWand10"/>
+  <uninstall name="libexiv2"/>
+  <uninstall name="libgmime-2_0-2"/>
+  <uninstall name="libgpod2"/>
+  <uninstall name="libkdcraw1"/>
+  <uninstall name="libkexiv2"/>
+  <uninstall name="libqtpod"/>
+  <uninstall name="ncurses"/>
+  <uninstall name="yast2-bluetooth"/>
+  <distupgrade/>
+  <reportProblems/>
 </trial>
 </test>

@@ -153,7 +153,7 @@ adm8211-kmp-iseries64
 adm8211-kmp-ppc64
 aelfred
 agfa-fonts
-akonadi
+akonadi-runtime
 alacarte
 alacarte-lang
 alevt
@@ -262,6 +262,7 @@ audiofile-devel
 audit
 audit-libs
 audit-libs-32bit
+audit-libs-64bit
 audit-libs-x86
 aufs
 aufs-kmp-default
@@ -292,15 +293,10 @@ banshee-plugins-default
 banshee-plugins-extra
 barcode
 bash
-bash-completion
 bash-doc
 bc
 bcel
-beagle
-beagle-evolution
 beagle-firefox
-beagle-gui
-beagle-index
 bin86
 bind
 bind-chrootenv
@@ -451,6 +447,7 @@ cpp43
 cpufrequtils
 cracklib
 cracklib-32bit
+cracklib-64bit
 cracklib-dict-full
 cracklib-x86
 createrepo
@@ -500,6 +497,7 @@ dazuko-kmp-pae
 dazuko-kmp-xen
 db-utils
 db1
+db43
 dbsplit-tools
 dbus-1
 dbus-1-32bit
@@ -606,7 +604,6 @@ evolution-data-server
 evolution-data-server-devel
 evolution-devel
 evolution-pilot
-evolution-sharp
 evolution-webcal
 evolution-webcal-lang
 exiftool
@@ -863,9 +860,7 @@ gnome-vfs2-devel
 gnome-vfs2-doc
 gnome-vfs2-x86
 gnome-volume-manager
-gnome-wallpaper-openSUSE
 gnome-web-photo
-gnome2-SuSE
 gnome2-user-docs
 gnopernicus
 gnopernicus-devel
@@ -893,6 +888,7 @@ gpm
 graphviz
 graphviz-devel
 graphviz-gd
+graphviz-gnome
 grep
 grepmail
 grip
@@ -969,6 +965,9 @@ hal-resmgr
 hal-x86
 handedict
 hdparm
+heartbeat
+heartbeat-core
+heartbeat-resources
 hfsutils
 hicolor-icon-theme
 hk_classes
@@ -1018,6 +1017,7 @@ inn
 input-utils
 insserv
 inst-source-utils
+install-initrd
 intlfnts
 intltool
 ipadic
@@ -1158,6 +1158,7 @@ kde4-kcalc
 kde4-kcm_gtk
 kde4-kcolorchooser
 kde4-kdm
+kde4-kdm-branding-openSUSE
 kde4-kdnssd
 kde4-keditbookmarks
 kde4-kfloppy
@@ -1256,8 +1257,6 @@ kdeartwork4-screensaver
 kdebase3
 kdebase3-SuSE
 kdebase3-SuSE-branding-openSUSE
-kdebase3-SuSE-branding-upstream
-kdebase3-beagle
 kdebase3-devel
 kdebase3-extra
 kdebase3-kdm
@@ -1269,6 +1268,7 @@ kdebase4
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
+kdebase4-openSUSE-lang
 kdebase4-runtime
 kdebase4-session
 kdebase4-workspace
@@ -1297,7 +1297,6 @@ kdegraphics3-extra
 kdegraphics3-fax
 kdegraphics3-imaging
 kdegraphics3-kamera
-kdegraphics3-pdf
 kdegraphics3-postscript
 kdegraphics3-scan
 kdegraphics3-tex
@@ -1361,9 +1360,10 @@ kdump
 kernel-default
 kernel-docs
 kernel-pae
+kernel-ppc64
 kernel-source
+kernel-syms
 kernel-xen
-kerry
 kexec-tools
 keyutils-devel
 keyutils-libs
@@ -1374,7 +1374,6 @@ kiax
 kile
 kinput2
 kinternet
-kio_beagle
 kio_ipodslave
 kio_iso
 kio_slp
@@ -1506,6 +1505,8 @@ libaio-devel
 libakode
 libakode-devel
 libakonadi4
+libakonadiprotocolinternals-devel
+libakonadiprotocolinternals0
 libao
 libao-devel
 libapparmor1
@@ -1564,7 +1565,6 @@ libbz2-1-32bit
 libbz2-devel
 libcap
 libcares2
-libcares2-32bit
 libcdio7
 libchewing
 libcom_err-devel
@@ -1583,6 +1583,7 @@ libdaemon0
 libdar-4
 libdb-4_5
 libdb-4_5-32bit
+libdb-4_5-64bit
 libdb-4_5-devel
 libdb-4_5-x86
 libdbus-1-qt3-0
@@ -1958,11 +1959,16 @@ libstroke
 libsvnqt4
 libsyncml-tools
 libsyncml0
+libtalloc1
+libtalloc1-32bit
 libtasn1
 libtasn1-3
+libtdb0
+libtdb0-32bit
 libtheora0
 libthinkfinger
 libthinkfinger-32bit
+libthinkfinger-64bit
 libtidy
 libtiff-devel
 libtiff3
@@ -1975,6 +1981,7 @@ libtunepimp
 libtunepimp5
 libusb
 libusb-32bit
+libusb-64bit
 libusb-devel
 libusb-x86
 libuuid-devel
@@ -1989,6 +1996,8 @@ libvolume_id
 libvorbis
 libvorbis-devel
 libwavpack1
+libwbclient0
+libwbclient0-32bit
 libwbxml2-0
 libwmf
 libwmf-devel
@@ -2002,6 +2011,7 @@ libwps-0_1-1
 libx86
 libxcrypt
 libxcrypt-32bit
+libxcrypt-64bit
 libxcrypt-devel
 libxcrypt-x86
 libxfce4mcs
@@ -2116,6 +2126,7 @@ mlterm-uim
 mmv
 module-init-tools
 moneyplex
+mono-addins
 mono-basic
 mono-core
 mono-data
@@ -2198,9 +2209,11 @@ nautilus-devel
 nautilus-open-terminal
 nautilus-sendto
 nautilus-share
+nbd
+nbd-doc
 ncftp
-ncurses
 ncurses-devel
+ncurses-utils
 ncurses-x86
 ndesk-dbus
 ndesk-dbus-glib
@@ -2248,6 +2261,7 @@ omnibook-kmp-pae
 omnibook-kmp-xen
 opal
 openSUSE-release
+openais
 openal
 openct
 openjade
@@ -2272,7 +2286,6 @@ opensuse-gnomeuser_en
 opensuse-manual_de
 opensuse-manual_en
 opensuse-manual_ru
-opensuse-updater-kde
 openswan
 openvpn
 opera
@@ -2289,10 +2302,12 @@ orca
 oro
 oxygen-icon-theme
 oxygen-icon-theme-scalable
+pacemaker
 pacman
 padevchooser
 pam
 pam-32bit
+pam-64bit
 pam-config
 pam-devel
 pam-modules
@@ -2304,6 +2319,7 @@ pam_ldap-32bit
 pam_mount
 pam_thinkfinger
 pam_thinkfinger-32bit
+pam_thinkfinger-64bit
 paman
 pan
 pan-lang
@@ -2601,6 +2617,7 @@ pmidi
 pmtools
 podsleuth
 poppler-data
+poppler-tools
 popt
 popt-32bit
 popt-devel
@@ -2618,6 +2635,7 @@ powersave
 powersave-libs
 powertop
 ppp
+ppp-userpass
 pptp
 pptpd
 prctl
@@ -2667,6 +2685,7 @@ python-gpgme
 python-gtk
 python-gtk-devel
 python-gtkglext
+python-gtksourceview
 python-httplib2
 python-imaging
 python-kde3
@@ -2774,9 +2793,9 @@ rubygem-mongrel
 rubygem-needle
 rubygem-net-sftp
 rubygem-net-ssh
+rubygem-postgres
 rubygem-rails
 rubygem-rake
-rubygem-ruby-postgres
 rubygems
 rxvt-unicode
 rzsz
@@ -2946,6 +2965,7 @@ tellico-lang
 telnet
 termcap
 terminfo
+terminfo-base
 terminus-font
 texinfo
 texlive
@@ -3220,7 +3240,6 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-fonts-devel
@@ -3319,8 +3338,6 @@ xorg-x11-xtrans-devel
 xosd
 xosview
 xournal
-xpdf
-xpdf-tools
 xpp
 xsane
 xscreensaver

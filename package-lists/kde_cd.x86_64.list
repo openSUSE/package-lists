@@ -35,7 +35,6 @@ aalib
 acl
 acpid
 adaptec-firmware
-akonadi
 alsa
 alsa-oss
 alsa-oss-32bit
@@ -61,7 +60,6 @@ autoyast2-installation
 avahi
 b43-fwcutter
 bash
-bash-completion
 bash-doc
 bc
 bind-libs
@@ -249,6 +247,7 @@ kde4-kcalc
 kde4-kcm_gtk
 kde4-kcolorchooser
 kde4-kdm
+kde4-kdm-branding-openSUSE
 kde4-kdnssd
 kde4-keditbookmarks
 kde4-kgamma
@@ -286,12 +285,12 @@ kde4-l10n-de
 kde4-okular
 kde4-opensuse-updater
 kdeartwork4-screensaver
-kdebase3-SuSE-branding-upstream
 kdebase3-runtime
 kdebase4
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
+kdebase4-openSUSE-lang
 kdebase4-runtime
 kdebase4-session
 kdebase4-workspace
@@ -331,6 +330,7 @@ libFLAC8
 libacl
 libaio
 libakonadi4
+libakonadiprotocolinternals0
 libao
 libapparmor1
 libarchive2
@@ -349,7 +349,6 @@ libblocxx6
 libbonobo
 libbz2-1
 libcap
-libcares2
 libcdio7
 libcom_err2
 libcom_err2-32bit
@@ -478,8 +477,10 @@ libsqlite3-0
 libstdc++43
 libstdc++43-32bit
 libstrigi0
+libtalloc1
 libtasn1
 libtasn1-3
+libtdb0
 libtheora0
 libthinkfinger
 libthinkfinger-32bit
@@ -495,6 +496,7 @@ libvisual-plugins
 libvolume_id
 libvorbis
 libwavpack1
+libwbclient0
 libwpd-0_8-8
 libwpg-0_1-1
 libwps-0_1-1
@@ -511,8 +513,6 @@ libzypp
 licenses
 lilo
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-perl
 linux-atm-lib
 linux32
@@ -538,7 +538,7 @@ mozilla-xulrunner190-gnomevfs
 mozilla-xulrunner190-lang
 mpt-firmware
 myspell-american
-ncurses
+ncurses-utils
 ndiswrapper
 ndiswrapper-kmp-default
 net-tools
@@ -561,6 +561,7 @@ numlockx
 obex-data-server
 obexftp
 openSUSE-release
+openais
 openct
 openldap2-client
 openldap2-client-32bit
@@ -629,6 +630,7 @@ plasma-theme-aya
 pm-utils
 pmtools
 poppler-data
+poppler-tools
 popt
 portmap
 postfix
@@ -697,6 +699,7 @@ sysvinit
 taglib
 tar
 tcpd
+terminfo-base
 tightvnc
 timezone
 translation-update
@@ -744,7 +747,6 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit
