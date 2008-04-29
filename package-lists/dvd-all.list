@@ -112,7 +112,6 @@ PolicyKit-doc
 PolicyKit-gnome
 PolicyKit-gnome-libs
 PolicyKit-kde
-RealPlayer
 SDL
 SDL-devel
 SDL_Pango
@@ -918,6 +917,7 @@ gtk-sharp2
 gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
+gtk-vnc
 gtk-xfce-engine
 gtk2
 gtk2-32bit
@@ -965,9 +965,6 @@ hal-resmgr
 hal-x86
 handedict
 hdparm
-heartbeat
-heartbeat-core
-heartbeat-resources
 hfsutils
 hicolor-icon-theme
 hk_classes
@@ -1059,6 +1056,8 @@ ispell-russian
 ispell-spanish
 ispell-swedish
 itcl
+itrace
+itrace-kmp-ppc64
 ivman
 ivtv
 ivtv-firmware
@@ -1564,7 +1563,6 @@ libbz2-1
 libbz2-1-32bit
 libbz2-devel
 libcap
-libcares2
 libcdio7
 libchewing
 libcom_err-devel
@@ -2261,7 +2259,6 @@ omnibook-kmp-pae
 omnibook-kmp-xen
 opal
 openSUSE-release
-openais
 openal
 openct
 openjade
@@ -2302,7 +2299,6 @@ orca
 oro
 oxygen-icon-theme
 oxygen-icon-theme-scalable
-pacemaker
 pacman
 padevchooser
 pam
@@ -2684,6 +2680,7 @@ python-gobject2-devel
 python-gpgme
 python-gtk
 python-gtk-devel
+python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-httplib2
@@ -3166,6 +3163,7 @@ xfce-mcs-manager
 xfce-mcs-plugins
 xfce4-appfinder
 xfce4-desktop
+xfce4-desktop-branding-upstream
 xfce4-icon-theme
 xfce4-mixer
 xfce4-panel
