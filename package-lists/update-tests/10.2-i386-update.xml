@@ -7,6 +7,7 @@
     <locale name="de"/>
   </setup>
   <trial>
+    <lock package="gnome2-NLD"/>
     <install kind="product" name="openSUSE-fulltree"/>
     <install kind="pattern" name="default"/>
     <!-- can't have it on FTP -->
@@ -33,9 +34,7 @@
     <uninstall kind="package" name="libpri" version="1.2.4"/>
     <uninstall kind="package" name="cpp41" version="4.1.2"/>
     <uninstall kind="package" name="gcc41" version="4.1.2"/>
-    <uninstall kind="package" name="gcc41-ada" version="4.1.2"/>
     <uninstall kind="package" name="gcc41-c++" version="4.1.2"/>
-    <uninstall kind="package" name="gcc41-fortran" version="4.1.2"/>
     <uninstall kind="package" name="gcc41-gij" version="4.1.2"/>
     <uninstall kind="package" name="gcc41-java" version="4.1.2"/>
     <uninstall kind="package" name="gcc41-objc" version="4.1.2"/>
@@ -79,7 +78,7 @@
     <install kind="package" name="gcc43-java"/>
     <uninstall kind="package" name="libmudflap41"/>
     <install kind="package" name="libmudflap43"/>
-    <distupgrade delete_unmaintained="false"/>
+    <distupgrade/>
     <reportproblems/>
   </trial>
 </test>

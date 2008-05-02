@@ -7,10 +7,10 @@
   <locale name="de"/>
 </setup>
 <trial>
+  <lock package="gnome2-NLD"/>
   <install kind="product" name="openSUSE-fulltree" />
   <uninstall name="libsoprano3"/>
-  <distupgrade delete_unmaintained="false"/>
-
+  <distupgrade/>
   <reportproblems/>
 </trial>
 </test>
