@@ -12,9 +12,8 @@ zcat full-x86_64/*-package.xml.gz | fgrep -v '<vendor>' > full-x86_64/1-package.
 for i in *-update.xml; do 
 echo $i
 ./update.sh $i > $i.update
-if test ! -s $i.update; then
+if test ! -s $i.list; then
   grep -A7 Problem: $i.output
-  : > $i.remove
   continue
 fi
 
