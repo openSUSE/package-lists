@@ -5,7 +5,7 @@ rm -rf mydata
 cp -a patterns-openSUSE-data mydata
 cd mydata
 export RPM_BUILD_ROOT=/tmp/patterns.$1
-export EXPLICIT_UNAME=$1
+export EXPLICIT_UNAME=$2
 for i in data/*; do sh $RPM_SOURCE_DIR/preprocess $i; done | perl $RPM_SOURCE_DIR/create-suggests | \
    uniq > data/REST-DVD-SUGGESTS
 for i in gnome kde; do

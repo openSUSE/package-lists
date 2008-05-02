@@ -4,10 +4,9 @@ svn up /home/pattern
 
 rm -rf /tmp/pattern*
 
-sh ../prepare_patterns.sh i386
-mv /tmp/patterns.i386 /tmp/patterns.i586
-sh ../prepare_patterns.sh x86_64
-sh ../prepare_patterns.sh ppc
+sh ../prepare_patterns.sh i586 i386
+sh ../prepare_patterns.sh x86_64 x86_64
+sh ../prepare_patterns.sh ppc ppc
 
 
 for arch in i586 x86_64 ppc; do
