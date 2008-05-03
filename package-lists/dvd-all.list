@@ -36,7 +36,6 @@ Mesa-64bit
 Mesa-devel
 Mesa-x86
 MozillaFirefox
-MozillaFirefox-translations
 MozillaSunbird
 MozillaSunbird-translations
 MozillaThunderbird
@@ -285,6 +284,12 @@ awesfx
 axis
 b43-fwcutter
 banshee
+banshee-1
+banshee-1-backend-engine-gstreamer
+banshee-1-backend-platform-gnome
+banshee-1-backend-platform-unix
+banshee-1-extensions-default
+banshee-1-lang
 banshee-devel
 banshee-engine-gst
 banshee-plugins-DAAP
@@ -1561,7 +1566,7 @@ libbtctl4
 libbz2-1
 libbz2-1-32bit
 libbz2-devel
-libcap
+libcap2
 libcdio7
 libchewing
 libcom_err-devel
@@ -2161,7 +2166,6 @@ mozilla-xulrunner181-32bit
 mozilla-xulrunner181-devel
 mozilla-xulrunner190
 mozilla-xulrunner190-gnomevfs
-mozilla-xulrunner190-lang
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -2278,9 +2282,7 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
-opensuse-gnomeuser_en
 opensuse-manual_de
-opensuse-manual_en
 opensuse-manual_ru
 openswan
 openvpn
@@ -2670,6 +2672,7 @@ python-dateutil
 python-devel
 python-doc
 python-fcgi
+python-gdata
 python-gdbm
 python-gnome
 python-gnome-devel

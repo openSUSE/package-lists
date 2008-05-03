@@ -9,7 +9,6 @@
   <trial>
     <lock package="gnome2-NLD"/>
     <install kind="product" name="openSUSE-fulltree"/>
-    <install kind="pattern" name="default"/>
     <!-- can't have it on FTP -->
     <uninstall kind="package" name="agfa-fonts"/>
     <lock kind="package" name="agfa-fonts"/>
@@ -79,6 +78,7 @@
     <uninstall kind="package" name="libmudflap41"/>
     <install kind="package" name="libmudflap43"/>
     <distupgrade/>
+    <createTestcase path="tc"/>
     <reportproblems/>
   </trial>
 </test>

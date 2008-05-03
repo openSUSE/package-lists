@@ -54,10 +54,12 @@ avahi
 avahi-mono
 awesfx
 b43-fwcutter
-banshee
-banshee-engine-gst
-banshee-plugins-default
-banshee-plugins-extra
+banshee-1
+banshee-1-backend-engine-gstreamer
+banshee-1-backend-platform-gnome
+banshee-1-backend-platform-unix
+banshee-1-extensions-default
+banshee-1-lang
 bash
 bash-doc
 bc
@@ -336,7 +338,7 @@ libbonoboui
 libbtctl
 libbtctl4
 libbz2-1
-libcap
+libcap2
 libcdio7
 libcom_err2
 libcompizconfig
@@ -420,8 +422,6 @@ libltdl-3
 liblua5_1
 libmng
 libmpfr1
-libmtp7
-libmusicbrainz4
 libncurses5
 libneon27
 libnetpbm10
@@ -518,6 +518,7 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
+mono-addins
 mono-core
 mono-data
 mono-data-sqlite
@@ -530,7 +531,6 @@ mozilla-nss
 mozilla-xulrunner181
 mozilla-xulrunner190
 mozilla-xulrunner190-gnomevfs
-mozilla-xulrunner190-lang
 mpt-firmware
 myspell-american
 nautilus
@@ -631,7 +631,6 @@ pinentry-gtk2
 pkg-config
 pm-utils
 pmtools
-podsleuth
 poppler-data
 popt
 portmap
@@ -656,6 +655,7 @@ pwdutils
 python
 python-cairo
 python-compizconfig
+python-gdata
 python-gnome
 python-gnome-extras
 python-gobject2
@@ -762,7 +762,8 @@ x11-input-wacom-tools
 x11-tools
 xalan-j2
 xaw3d
-xchat-gnome
+xchat
+xchat-lang
 xdg-menu
 xdg-utils
 xerces-j2
