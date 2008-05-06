@@ -41,3 +41,9 @@ test "$diff" = 0 && exit 0
 tar cjf /package_lists/filelists.tar.bz2 *.list
 cp *.list saved
 
+set -e
+
+./check_yast.sh dvd5.i586.list __i586__
+./check_yast.sh dvd5.x86_64.list __x86_64__
+./check_yast.sh dvd5.ppc.list __ppc__
+

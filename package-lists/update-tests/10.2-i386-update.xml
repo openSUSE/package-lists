@@ -62,6 +62,8 @@
     <uninstall kind="package" name="agfa-fonts"/> <!-- special case: DVD only -->
     <uninstall kind="package" name="java-1_4_2-cacao-devel"/>
     <uninstall kind="package" name="java-1_4_2-cacao"/>
+    <uninstall kind="package" name="yast2-bluetooth"/>
+    <uninstall kind="package" name="dockutils"/>
     <!-- help the factory update -->
     <uninstall kind="package" name="libstdc++41"/>
     <install kind="package" name="libstdc++43"/>
