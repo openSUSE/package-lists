@@ -1,8 +1,8 @@
 rm -rf /tmp/myrepos
 : > drops.xml
 for i in `cat update-drops`; do
-   grep -x $i.list || continue
-   echo "<uninstall kind=\"package\" name=\"$1\"/>" >> drops.xml
+   grep -xq $i $1.list || continue
+   echo "<uninstall kind=\"package\" name=\"$i\"/>" >> drops.xml
 done
 
 sed -e '/!-- DROPS -->/r drops.xml' $1 > $1.tmp
