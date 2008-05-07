@@ -1,55 +1,27 @@
-zmd <= 7.1.100.0
-zen-updater <= 7.1.100
-sqlite-zmd <= 3.2.8
-sqlite-zmd-devel <= 3.2.8
-libzypp-zmd-backend <= 7.1.1.0_0.7
-rug <= 7.1.100.0
-yast2-powertweak <=  2.15.1
-zaptel-kmp-default <= 1.2.10_2.6.18.2_34
-wlan-kmp-xen <= 1_2.6.18.2_34
-zaptel <= 1.2.10
-wlan-kmp <= 1_2.6.18.2_34
-ipw3945d <= 1.7.18
-asterisk-zaptel <= 1.2.13
-ant-jai <= 1.6.5
-asterisk <= 1.2.13
-asterisk-alsa <= 1.2.13
-asterisk-capi <= 0.7.1
-asterisk-spandsp <= 1.2.13
-libpri <= 1.2.4
-cpp41 <= 4.1.2
-gcc41 <= 4.1.2
-gcc41-32bit <= 4.1.2
-gcc41-ada <= 4.1.2
-gcc41-c++ <= 4.1.2
-gcc41-fortran <= 4.1.2
-gcc41-fortran-32bit <= 4.1.2
-gcc41-gij <= 4.1.2
-gcc41-java <= 4.1.2
-gcc41-objc <= 4.1.2
-gcc41-objc-32bit <= 4.1.2
-gcc41-obj-c++ <= 4.1.2
-libgcj41 <= 4.1.2
-libgcj41-devel <= 4.1.2
-libstdc++41-devel <= 4.1.2
-tomcat5 <= 5.0.30
-art-sharp <= 1.0.10
-gconf-sharp <= 1.0.10
-gecko-sharp <= 0.6
-glade-sharp <= 1.0.10
-glib-sharp <= 1.0.10
-gnome-sharp <= 1.0.10
-gtk-sharp <= 1.0.10
-gtk-sharp-complete <= 1.0.10
-gtk-sharp-gapi <= 1.0.10
-vte-sharp <= 1.0.10
-tomcat55
-tomcat55-common-lib
-tomcat55-jasper
-tomcat55-jsp-2_0-api
-tomcat55-server-lib
-tomcat55-servlet-2_4-api
+ant-jai
+art-sharp
+asterisk
+asterisk-alsa
+asterisk-capi
+asterisk-spandsp
+asterisk-zaptel
+avmailgate
+cpp41
 cpp42
+dockutils
+gcc41
+gcc41-32bit
+gcc41-ada
+gcc41-c++
+gcc41-fortran
+gcc41-fortran-32bit
+gcc41-gij
+gcc41-gij-32bit
+gcc41-java
+gcc41-locale
+gcc41-objc
+gcc41-obj-c++
+gcc41-objc-32bit
 gcc42
 gcc42-32bit
 gcc42-c++
@@ -60,8 +32,65 @@ gcc42-info
 gcc42-java
 gcc42-objc
 gcc42-objc-32bit
+gconf-sharp
+gecko-sharp
+glade-sharp
+glib-sharp
+gnome-sharp
+gtk-sharp
+gtk-sharp-complete
+gtk-sharp-gapi
+ipw3945d
+jai
+java-1_4_2-cacao
+java-1_4_2-cacao-devel
+kino
+libexiv2
+libgcc41
+libgcc41-32bit
+libgcj41
+libgcj41-32bit
+libgcj41-devel
 libgcj42
 libgcj42-devel
 libgfortran42
 libgfortran42-32bit
+libgmime-2_0-2
+libgpod2
+libkdcraw1
+libkexiv2
+libMagick10
+libmudflap41
+libmudflap41-32bit
+libpri
+libqtpod
+libsoprano3
+libstdc++41
+libstdc++41-32bit
+libstdc++41-devel
 libstdc++42-devel
+libWand10
+libzypp-zmd-backend
+limal-bootloader
+rsaref
+rug
+samba-pdb
+smartlink-softmodem
+sqlite-zmd
+tomcat5
+tomcat55
+tomcat55-common-lib
+tomcat55-jasper
+tomcat55-jsp-2_0-api
+tomcat55-server-lib
+tomcat55-servlet-2_4-api
+vte-sharp
+wlan-kmp-xen
+yast2-bluetooth
+yast2-bootfloppy
+yast2-power-management
+yast2-powertweak
+zaptel
+zaptel-kmp-default
+zen-updater
+zmd
