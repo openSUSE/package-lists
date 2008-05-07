@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
 <setup arch="i686">
-  <system file="10.3-i386-system.xml"/>
+  <system file="10.3-i386-system.xml.gz"/>
   <channel file="full-i386/1-package.xml" name="factory"/>
   <locale name="de_DE"/>
   <locale name="de"/>

@@ -1,6 +1,6 @@
-a little howto for the lists
+# a little howto for the lists
 
 export LC_ALL=C
-/usr/lib/zypp/testsuite/bin/deptestomatic.multi 10.3-i386-update.xml > /tmp/peter 2>/tmp/stefan
+/usr/lib/zypp/testsuite/bin/deptestomatic.multi $1 > /tmp/peter 2>/tmp/stefan
 grep @System /tmp/peter  | sed -e "s,^[^)]*),,; s,-[^-]*-[^-]*.[^.](.*,," | \
    grep -v atom: | grep -v patch: | grep -v pattern: | sort

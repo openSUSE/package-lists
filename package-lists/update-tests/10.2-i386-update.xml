@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
   <setup arch="i686">
-    <system file="10.2-i386-system.xml"/>
+    <system file="10.2-i386-system.xml.gz"/>
     <channel file="full-i386/1-package.xml" name="factory"/>
     <locale name="de_DE"/>
     <locale name="de"/>
@@ -80,7 +80,6 @@
     <uninstall kind="package" name="libmudflap41"/>
     <install kind="package" name="libmudflap43"/>
     <distupgrade/>
-    <createTestcase path="tc"/>
     <reportproblems/>
   </trial>
 </test>
