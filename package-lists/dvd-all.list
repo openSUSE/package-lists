@@ -334,6 +334,7 @@ bind-utils
 binutils
 binutils-32bit
 binutils-64bit
+binutils-devel
 bison
 bison-32bit
 bison-64bit
@@ -622,6 +623,7 @@ dvb
 dvd+rw-tools
 dvi2tty
 e2fsprogs
+e2fsprogs-devel
 eID-belgium
 eIDconfig-belgium
 ecj
@@ -665,6 +667,7 @@ exiftool
 exo
 expat
 expect
+expect-devel
 extragear-plasma
 f-spot
 fam
@@ -803,6 +806,7 @@ gecko-sharp2
 gedit
 genisoimage
 geronimo
+geronimo-jaf-1_0_2-api
 geronimo-jetty-servlet-container
 geronimo-jms-1_1-api
 geronimo-specs-poms
@@ -1055,6 +1059,7 @@ gtkhtml314-sharp
 gtkiterm
 gtklp
 gtkmm2
+gtkpbbuttons
 gtksourceview
 gtksourceview-devel
 gtksourceview-doc
@@ -1064,6 +1069,7 @@ gtkspell
 gucharmap
 gucharmap-devel
 guile
+guile-devel
 gutenprint
 gv
 gvfs
@@ -1176,6 +1182,8 @@ ispell-swedish
 itcl
 itcl-32bit
 itcl-64bit
+itcl-devel
+itk
 itrace
 itrace-64bit
 itrace-kmp-ppc64
@@ -1282,6 +1290,7 @@ kde4-kdm
 kde4-kdm-branding-openSUSE
 kde4-kdnssd
 kde4-keditbookmarks
+kde4-kfind
 kde4-kfloppy
 kde4-kgamma
 kde4-kget
@@ -1646,6 +1655,7 @@ libakonadiprotocolinternals-devel
 libakonadiprotocolinternals0
 libao
 libao-devel
+libapparmor-devel
 libapparmor1
 libapr-util1
 libapr-util1-devel
@@ -1976,7 +1986,7 @@ libkcal
 libkcal2
 libkcddb4
 libkcompactdisc4
-libkdcraw2
+libkdcraw3
 libkde4
 libkde4-devel
 libkdecore4
@@ -2089,6 +2099,7 @@ libopensync-plugin-sunbird
 libopensync-plugin-syncml
 libopensync-tools
 libosip2
+libosip2-devel
 libotf
 libpcap
 libpisock-devel
@@ -2227,6 +2238,7 @@ libtool-32bit
 libtool-64bit
 libtunepimp
 libtunepimp5
+libtwin0
 libusb
 libusb-32bit
 libusb-64bit
@@ -2629,6 +2641,7 @@ patchutils
 pavucontrol
 pavumeter
 pax
+pbbuttonsd
 pbm2l7k
 pciutils
 pciutils-32bit
@@ -2842,6 +2855,7 @@ perlref
 permissions
 pessulus
 pessulus-lang
+petitboot
 pfscalibration
 pfstmo
 pfstools
@@ -2928,6 +2942,7 @@ postgresql-libs
 postgresql-server
 powerpc-utils
 powerpc32
+powerprefs
 powersave
 powersave-libs
 powertop
@@ -2942,6 +2957,7 @@ procinfo
 procmail
 procps
 providers
+ps3-utils
 psgml
 psiconv
 psmisc
@@ -3273,6 +3289,9 @@ tcl-32bit
 tcl-64bit
 tcl-devel
 tcllib
+tclplug
+tclplug-32bit
+tclplug-64bit
 tcludp
 tclx
 tcpd
@@ -3576,6 +3595,7 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-fonts-devel
@@ -3674,6 +3694,7 @@ xorg-x11-xtrans-devel
 xosd
 xosview
 xournal
+xpdf-tools
 xpp
 xsane
 xscreensaver

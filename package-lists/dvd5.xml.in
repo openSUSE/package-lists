@@ -47,6 +47,7 @@
     <lock package="yast2-theme-openSUSE-Oxygen"/>
     <lock package="hpijs-standalone"/>
     <lock package="geronimo-tomcat-servlet-container"/>
+    <lock kind="package" name="xpdf-tools"/>
     <!-- INTERNALS -->
     <install kind="pattern" name="rest_dvd"/>
     <reportProblems/>

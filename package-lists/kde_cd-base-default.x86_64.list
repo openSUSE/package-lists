@@ -221,8 +221,10 @@ perl
 perl-Bootloader
 perl-Config-Crontab
 perl-Crypt-SSLeay
+perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
+perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
@@ -346,6 +348,8 @@ yast2-registration
 yast2-repair
 yast2-restore
 yast2-runlevel
+yast2-samba-client
+yast2-samba-server
 yast2-security
 yast2-slp
 yast2-storage
