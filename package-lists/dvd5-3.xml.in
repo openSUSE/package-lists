@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="GEN_ARCH">
+    <channel file="GEN_URL" name="tmp"/>
+    <system file="solver-system.xml"/>
+    <!-- Tier 1 -->
+    <locale name="en_US"/>
+    <locale name="en_GB"/>
+    <locale name="pt"/>
+    <locale name="pt_BR"/>
+    <locale name="en"/>
+    <locale name="de"/>
+    <locale name="es"/>
+    <locale name="it"/>
+    <locale name="fr"/>
+    <locale name="ja"/>
+    <locale name="zh"/>
+    <locale name="zh_TW"/>
+    <locale name="zh_CN"/>
+    <!-- Tier 2 -->
+    <locale name="ru"/>
+    <locale name="cs"/>
+    <locale name="hu"/>
+    <locale name="pl"/>
+    <locale name="fi"/>
+    <locale name="da"/>
+    <locale name="nb"/>
+    <locale name="sv"/>
+    <locale name="nl"/>
+  </setup>
+  <trial>
+    <lock package="novell-ipsec-tools"/>
+    <lock package="novell-NLDAPsdk-dyn"/>
+    <lock package="myspell-german"/>
+    <lock package="desktop-data-NLD"/>
+    <!-- INTERNALS -->
+    <install kind="package" name="xpdf-tools"/>
+    <install kind="pattern" name="rest_dvd"/>
+    <reportProblems/>
+  </trial>
+</test>

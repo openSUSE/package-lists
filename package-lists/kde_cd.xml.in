@@ -44,6 +44,7 @@
     <lock package="java-1_5_0-sun"/>
     <!-- INTERNALS -->
     <install kind="pattern" name="rest_cd_kde"/>
+    <install kind="package" name="openSUSE-release-live"/> 
     <reportProblems/>
   </trial>
 </test>

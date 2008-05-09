@@ -19,6 +19,7 @@ echo "non-oss:"
 echo "dvd5:"
 ./gen.sh dvd5
 ./gen.sh dvd5-2
+./gen.sh dvd5-3
 ./gen.sh kde_cd-base-default
 ./gen.sh gnome_cd-x11-default
 

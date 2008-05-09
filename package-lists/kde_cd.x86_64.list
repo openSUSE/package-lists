@@ -110,6 +110,9 @@ cups-libs-32bit
 curl
 cyrus-sasl
 cyrus-sasl-32bit
+cyrus-sasl-crammd5
+cyrus-sasl-digestmd5
+cyrus-sasl-plain
 cyrus-sasl-saslauthd
 db-utils
 dbus-1
@@ -307,6 +310,7 @@ kdelibs3-default-style
 kdelibs4
 kdelibs4-core
 kdemultimedia4
+kdepim3
 kdepim4
 kdepim4-wizards
 kdepimlibs4
@@ -564,6 +568,7 @@ numlockx
 obex-data-server
 obexftp
 openSUSE-release
+openSUSE-release-live
 openct
 openldap2-client
 openldap2-client-32bit

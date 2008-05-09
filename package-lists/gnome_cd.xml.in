@@ -34,15 +34,12 @@
     <lock package="bundle-lang-kde-ru"/>
     <lock package="bundle-lang-kde-sv"/>
     <lock package="bundle-lang-kde-zh"/>
-    <lock package="gnome-session-branding-openSUSE"/>
     <lock package="gtk2-engines-32bit"/>
     <lock package="java-1_6_0-sun"/>
     <lock package="java-1_5_0-sun"/>
-    <lock package="opensuse-manual_en"/>
-    <lock package="opensuse-gnomeuser_en"/>
-    <lock package="gnome2-user-docs"/>
     <!-- INTERNALS -->
     <install kind="pattern" name="rest_cd_gnome"/>
+    <install kind="package" name="openSUSE-release-live"/>
     <reportProblems/>
   </trial>
 </test>
