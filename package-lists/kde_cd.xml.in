@@ -42,6 +42,8 @@
     <lock package="gtk2-engines-32bit"/>
     <lock package="java-1_6_0-sun"/>
     <lock package="java-1_5_0-sun"/>
+    <lock package="kde3-i18n-de"/> <!-- !i586 -->
+    <!-- lock package="kdepim3"/ -->
     <!-- INTERNALS -->
     <install kind="pattern" name="rest_cd_kde"/>
     <install kind="package" name="openSUSE-release-live"/> 

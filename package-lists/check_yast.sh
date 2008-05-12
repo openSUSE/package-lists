@@ -8,7 +8,7 @@ test -n "$archs" || archs="__x86_64__ __i386__ __ppc__ __ppc64__"
 # __ia64__ __s390__ __s390x__
 (
 for i in $archs; do
-  cpp -E -Ulinux -D$i yast_packs.rec  | grep -v '^#' | grep -v '^ '
+  cpp -E -U__i386__ -U__x86_64__ -Ulinux -D$i yast_packs.rec  | grep -v '^#' | grep -v '^ '
 done
 ) | sort -u | sed -e "s,:, ," > yast.list
 cat yast.list | while read yast pack; do

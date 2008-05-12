@@ -37,6 +37,7 @@
     <lock package="gtk2-engines-32bit"/>
     <lock package="java-1_6_0-sun"/>
     <lock package="java-1_5_0-sun"/>
+    <lock package="gnome2-user-docs"/> <!-- !i586 -->
     <!-- INTERNALS -->
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="package" name="openSUSE-release-live"/>
