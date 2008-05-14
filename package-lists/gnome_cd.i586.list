@@ -59,7 +59,6 @@ banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
 banshee-1-extensions-default
-banshee-1-lang
 bash
 bash-doc
 bc
@@ -95,7 +94,6 @@ cdrkit-cdrtools-compat
 check
 checkmedia
 cheese
-cheese-lang
 cifs-mount
 compiz
 compiz-fusion-plugins-main
@@ -577,6 +575,8 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
+opensuse-gnomequick_en
+opensuse-manual_en
 orbit2
 orca
 padevchooser
@@ -604,17 +604,12 @@ perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
-perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
-perl-IO-Socket-SSL
-perl-Net-DNS
 perl-Net-Daemon
-perl-Net-IP
-perl-Net_SSLeay
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
@@ -631,7 +626,6 @@ perl-base
 perl-gettext
 perl-libapparmor
 perl-libwww-perl
-perl-spamassassin
 permissions
 phalanx
 pidgin
@@ -641,6 +635,7 @@ pkg-config
 pm-utils
 pmtools
 poppler-data
+poppler-tools
 popt
 portmap
 postfix
@@ -707,7 +702,6 @@ silc-toolkit
 simple-ccsm
 slang
 smpppd
-spamassassin
 splashy
 sqlite2
 sqlite3
@@ -773,7 +767,6 @@ x11-tools
 xalan-j2
 xaw3d
 xchat
-xchat-lang
 xdg-menu
 xdg-utils
 xerces-j2
@@ -813,7 +806,6 @@ xorg-x11-libxcb
 xorg-x11-libxkbfile
 xorg-x11-server
 xorg-x11-server-extra
-xpdf-tools
 xscreensaver
 xstroke
 xterm

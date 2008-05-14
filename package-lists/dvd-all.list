@@ -311,7 +311,6 @@ banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
 banshee-1-extensions-default
-banshee-1-lang
 banshee-devel
 banshee-engine-gst
 banshee-plugins-DAAP
@@ -460,7 +459,6 @@ check-devel
 checkinstall
 checkmedia
 cheese
-cheese-lang
 chmlib
 chromium
 cifs-mount
@@ -498,6 +496,7 @@ cracklib
 cracklib-32bit
 cracklib-64bit
 cracklib-dict-full
+cracklib-dict-small
 cracklib-x86
 createrepo
 cromfs
@@ -553,7 +552,6 @@ dazuko-kmp-pae
 dazuko-kmp-xen
 db-utils
 db1
-db43
 dbsplit-tools
 dbus-1
 dbus-1-32bit
@@ -875,6 +873,7 @@ glib-sharp2
 glib2
 glib2-branding-openSUSE
 glib2-devel
+glib2-devel-64bit
 glib2-doc
 glib2-x86
 glibc
@@ -986,6 +985,7 @@ gnome2-user-docs
 gnopernicus
 gnopernicus-devel
 gnopernicus-lang
+gnu-crypto
 gnu-jaf
 gnu-javamail
 gnu-regexp
@@ -1231,11 +1231,12 @@ java-1_6_0-sun-alsa
 java-1_6_0-sun-devel
 java-1_6_0-sun-jdbc
 java-1_6_0-sun-plugin
-java-1_7_0-icedtea
 javacc
+javamail
 javamail-monolithic
 jdepend
 jedit
+jessie
 jfsutils
 jhead
 jing
@@ -1410,7 +1411,6 @@ kdebase4
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
-kdebase4-openSUSE-lang
 kdebase4-runtime
 kdebase4-session
 kdebase4-workspace
@@ -1618,6 +1618,9 @@ ktoblzcheck
 ktorrent
 ktray
 kvirc
+kvm
+kvm-kmp-default
+kvm-kmp-pae
 kvpnc
 kwatch
 kwin-decor-suse2
@@ -1802,7 +1805,6 @@ libexpat1-32bit
 libexpat1-64bit
 libext2fs-devel
 libext2fs2
-libffi43
 libfluidsynth1
 libfuse2
 libgadu
@@ -1957,6 +1959,7 @@ libgweather1
 libgweather1-32bit
 libgweather1-64bit
 libgwenhywfar38
+libhangul
 libical0
 libicu
 libicu-32bit
@@ -2011,6 +2014,7 @@ libkdepimlibs4
 libkdepimlibs4-devel
 libkexiv2-3
 libkipi0
+libkmime2
 libkonq4
 libksba
 libksba-devel
@@ -2569,6 +2573,7 @@ omnibook-kmp-xen
 opal
 openSUSE-release
 openSUSE-release-dvd
+openSUSE-release-live
 openal
 openct
 openjade
@@ -2596,9 +2601,11 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
+opensuse-gnomequick_en
 opensuse-kde3user_en
+opensuse-kdequick_en
 opensuse-manual_de
-opensuse-manual_ru
+opensuse-manual_en
 openswan
 openvpn
 opera
@@ -3026,6 +3033,7 @@ python-httplib2
 python-imaging
 python-kde3
 python-ldap
+python-lxml
 python-numeric
 python-opengl
 python-openssl
@@ -3180,6 +3188,7 @@ scim-bridge-gtk
 scim-bridge-qt
 scim-canna
 scim-chewing
+scim-hangul
 scim-input-pad
 scim-m17n
 scim-pinyin
@@ -3417,6 +3426,7 @@ umtsmon
 unace
 unarj
 unclutter
+unfonts
 ungifsicle
 unison
 units
@@ -3516,7 +3526,6 @@ xawtv
 xboard
 xchat
 xchat-gnome
-xchat-lang
 xdelta
 xdg-menu
 xdg-utils
@@ -3608,7 +3617,6 @@ xmlcharent
 xmlformat
 xmlstarlet
 xmlto
-xmoto
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-devel
