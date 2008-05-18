@@ -8,7 +8,7 @@ export RPM_BUILD_ROOT=/tmp/patterns.$1
 export EXPLICIT_UNAME=$2
 for i in data/*; do sh $RPM_SOURCE_DIR/preprocess $i; done | perl $RPM_SOURCE_DIR/create-suggests | \
    uniq > data/REST-DVD-SUGGESTS
-for i in gnome kde; do
+for i in gnome kde3 kde4; do
   sh $RPM_SOURCE_DIR/preprocess toinstall/rest_cd_$i/requires > t && \
     mv t toinstall/rest_cd_$i/requires
 done
