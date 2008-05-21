@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
   <setup arch="GEN_ARCH">
-    <channel file="GEN_URL" name="tmp"/>
+    <source url="GEN_URL" name="tmp"/>
     <system file="solver-system.xml"/>
     <!-- all languages  -->
     <!-- for i in `find /usr/share/locale -maxdepth 1 -type d`; do basename $i; done | grep -v "@" | grep -v "\\." | sort -u > /tmp/langs -->

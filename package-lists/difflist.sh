@@ -13,4 +13,4 @@ difflist gnome_cd.x86_64.list suse110-cd-gnome-x86_64
 difflist kde_cd.x86_64.list suse110-cd-kde-x86_64
 difflist langaddon-all.list suse110-cd-lang-i386
 difflist non_oss-all.list suse110-cd-pay-i386
-#difflist dvd-promo.list "PROMO DVD"
+difflist promo_dvd.i586.list suse110-dvd5-promo-i386

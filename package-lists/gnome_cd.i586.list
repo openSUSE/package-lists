@@ -32,7 +32,9 @@ acl
 acpid
 adaptec-firmware
 alsa
+alsa-firmware
 alsa-oss
+alsa-plugins-pulse
 alsa-utils
 apparmor-parser
 apparmor-profiles
@@ -58,7 +60,6 @@ banshee-1
 banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
-banshee-1-extensions-default
 bash
 bash-doc
 bc
@@ -79,6 +80,7 @@ bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
+btusb-kmp-default
 bug-buddy
 bundle-lang-common-de
 bundle-lang-common-en
@@ -316,6 +318,7 @@ klogd
 kpartx
 krb5
 krb5-client
+lcms
 ldapcpplib
 less
 libFLAC8
@@ -343,6 +346,8 @@ libbtctl4
 libbz2-1
 libcap2
 libcdio7
+libcdio_cdda0
+libcdio_paranoia0
 libcom_err2
 libcompizconfig
 libcroco-0_6-3
@@ -472,7 +477,7 @@ libstdc++43
 libtalloc1
 libtasn1
 libtasn1-3
-libtdb0
+libtdb1
 libtheora0
 libthinkfinger
 libtiff3
@@ -508,6 +513,7 @@ lirc
 login
 logrotate
 lomoco
+lsscsi
 lukemftp
 lvm2
 lzo
@@ -546,6 +552,7 @@ ndesk-dbus
 ndesk-dbus-glib
 ndiswrapper
 ndiswrapper-kmp-default
+neon
 net-tools
 netcat
 netcfg
@@ -575,6 +582,7 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
+opensuse-gnomequick_de
 opensuse-gnomequick_en
 opensuse-manual_en
 orbit2
@@ -692,15 +700,16 @@ sax2-libsax-perl
 sax2-tools
 scpm
 scrollkeeper
-scsi
 sed
 setserial
+sg3_utils
 sgml-skel
 shared-mime-info
 siga
 silc-toolkit
 simple-ccsm
 slang
+smp_utils
 smpppd
 splashy
 sqlite2
@@ -747,7 +756,6 @@ uuid-runtime
 vim
 vim-base
 vino
-vmware-kmp-default
 vorbis-tools
 vte
 w3m
@@ -821,7 +829,6 @@ yast2-control-center-gnome
 yast2-core
 yast2-country
 yast2-country-data
-yast2-fingerprint-reader
 yast2-firewall
 yast2-gtk
 yast2-hardware-detection

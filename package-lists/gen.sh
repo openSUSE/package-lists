@@ -45,7 +45,7 @@ do
   arch=$i
   echo "processing $arch..."
   eval VAR="\$GEN_URL_${i}"
-  sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,$base.$arch.xml," $file.xml.in | fgrep -v "!$arch" > $file.$arch.xml
+  sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" > $file.$arch.xml
 
   rm -rf /tmp/myrepos
   mkdir -p $TESTTRACK/$base.$arch/CD1/
@@ -66,8 +66,7 @@ do
   gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/CD1/content
 
   export ZYPP_MODALIAS_SYSFS=/tmp
-  /usr/bin/repo2solv.sh $TESTTRACK/$base.$arch/CD1 > $base.$arch.solv
-  /usr/bin/deptestomatic $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list.new -
+  /usr/lib/zypp/testsuite/bin/deptestomatic.multi $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list.new -
   if test -s "$file.$arch.list.new"; then
      mv "$file.$arch.list.new" "$file.$arch.list"
   else

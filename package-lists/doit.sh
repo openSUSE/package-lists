@@ -41,8 +41,8 @@ for i in kde4_cd*.list; do
   cp $i ${i/kde4_cd/kde_cd}
 done
 
-#echo "promo-dvd5:"
-#./gen.sh dvd5-promo
+echo "promo-dvd5:"
+./gen.sh promo_dvd
 
 echo "language addon:"
 ./gen.sh dvd5-addon_lang

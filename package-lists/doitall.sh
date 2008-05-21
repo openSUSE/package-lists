@@ -45,5 +45,5 @@ set -e
 
 ./check_yast.sh dvd-all.i586.list __i386__
 ./check_yast.sh dvd-all.x86_64.list __x86_64__
-./check_yast.sh dvd-all.ppc.list __ppc__
+./check_yast.sh dvd-all.ppc.list __powerpc__
 

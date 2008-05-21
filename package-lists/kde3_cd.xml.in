@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
   <setup arch="GEN_ARCH">
-    <channel file="GEN_URL" name="tmp"/>
+    <source url="GEN_URL" name="tmp"/>
     <system file="solver-system.xml"/>
     <locale name="en_US"/>
     <locale name="de"/>
@@ -45,5 +45,6 @@
     <install kind="pattern" name="rest_cd_kde3"/>
     <install kind="package" name="openSUSE-release-live"/> 
     <reportProblems/>
+    <showpool verbose="true"/>
   </trial>
 </test>

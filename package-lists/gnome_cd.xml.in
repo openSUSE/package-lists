@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
   <setup arch="GEN_ARCH">
-    <channel file="GEN_URL" name="tmp"/>
+    <source url="GEN_URL" name="tmp"/>
     <system file="solver-system.xml"/>
     <locale name="en_US"/>
     <locale name="de"/>
@@ -38,9 +38,11 @@
     <lock package="java-1_6_0-sun"/>
     <lock package="java-1_5_0-sun"/>
     <lock package="gnome2-user-docs"/> <!-- !i586 -->
+    <lock package="banshee-1-extensions-default"/>
     <!-- INTERNALS -->
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="package" name="openSUSE-release-live"/>
     <reportProblems/>
+    <showpool verbose="true"/>
   </trial>
 </test>

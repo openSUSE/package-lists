@@ -37,6 +37,7 @@ acpid
 adaptec-firmware
 akonadi-runtime
 alsa
+alsa-firmware
 alsa-oss
 alsa-oss-32bit
 alsa-utils
@@ -59,6 +60,7 @@ audit-libs-32bit
 autofs
 autoyast2-installation
 avahi
+awesfx
 b43-fwcutter
 bash
 bash-doc
@@ -73,6 +75,7 @@ bluez-utils
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
+btusb-kmp-default
 bundle-lang-common-de
 bundle-lang-common-en
 bundle-lang-kde-de
@@ -209,7 +212,6 @@ gvfs-backends
 gvfs-fuse
 gzip
 hal
-hal-palm
 hal-resmgr
 hdparm
 hicolor-icon-theme
@@ -272,11 +274,9 @@ kde4-knotes
 kde4-konqueror
 kde4-konqueror-plugins
 kde4-konsole
-kde4-kontact
 kde4-kopete
 kde4-korganizer
 kde4-kpat
-kde4-kpilot
 kde4-krdc
 kde4-kreversi
 kde4-krfb
@@ -299,6 +299,7 @@ kdebase4-runtime
 kdebase4-session
 kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
+kdebase4-workspace-ksysguardd
 kdebase4-workspace-plasmoids
 kdebluetooth
 kdegames4
@@ -308,6 +309,7 @@ kdelibs3-default-style
 kdelibs4
 kdelibs4-core
 kdemultimedia4
+kdenetwork4-filesharing
 kdepim4
 kdepim4-wizards
 kdepimlibs4
@@ -327,6 +329,7 @@ krb5-client
 krecord
 kscpm
 ktorrent
+lcms
 ldapcpplib
 less
 libFLAC++6
@@ -354,6 +357,8 @@ libbonobo
 libbz2-1
 libcap2
 libcdio7
+libcdio_cdda0
+libcdio_paranoia0
 libcom_err2
 libcom_err2-32bit
 libcompizconfig
@@ -452,7 +457,6 @@ libopensc2
 libopenssl0_9_8
 libopenssl0_9_8-32bit
 libpcap
-libpisock9
 libpng12-0
 libpng12-0-32bit
 libpoppler-qt4-3
@@ -485,7 +489,7 @@ libstrigi0
 libtalloc1
 libtasn1
 libtasn1-3
-libtdb0
+libtdb1
 libtheora0
 libthinkfinger
 libthinkfinger-32bit
@@ -524,6 +528,7 @@ linux32
 login
 logrotate
 lomoco
+lsscsi
 lukemftp
 lvm2
 lzo
@@ -545,6 +550,7 @@ myspell-american
 ncurses-utils
 ndiswrapper
 ndiswrapper-kmp-default
+neon
 net-tools
 netcat
 netcfg
@@ -577,6 +583,7 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
+opensuse-kdequick_de
 opensuse-kdequick_en
 opensuse-manual_en
 orbit2
@@ -676,13 +683,14 @@ sax2-libsax
 sax2-libsax-perl
 sax2-tools
 scpm
-scsi
 sed
 setserial
+sg3_utils
 shared-mime-info
 siga
 simple-ccsm
 slang
+smp_utils
 smpppd
 soprano
 splashy
@@ -721,7 +729,6 @@ uuid-runtime
 v4l-conf
 vim
 vim-base
-vmware-kmp-default
 vorbis-tools
 w3m
 wdiff
@@ -807,7 +814,6 @@ yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
-yast2-fingerprint-reader
 yast2-firewall
 yast2-hardware-detection
 yast2-inetd

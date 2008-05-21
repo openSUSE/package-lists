@@ -108,6 +108,7 @@ keyutils-libs
 klogd
 kpartx
 krb5
+lcms
 ldapcpplib
 less
 libacl
@@ -159,7 +160,6 @@ librpcsecgss
 libsmbios-libs
 libsqlite3-0
 libstdc++43
-libthinkfinger
 libtiff3
 libusb
 libuuid1
@@ -178,6 +178,7 @@ linux-atm-lib
 linux32
 login
 logrotate
+lsscsi
 lukemftp
 lvm2
 lzo
@@ -270,10 +271,11 @@ resmgr
 rpm
 satsolver-tools
 scpm
-scsi
 sed
 setserial
+sg3_utils
 siga
+smp_utils
 splashy
 sqlite3
 strace
@@ -316,7 +318,6 @@ yast2-bootloader
 yast2-core
 yast2-country
 yast2-country-data
-yast2-fingerprint-reader
 yast2-firewall
 yast2-hardware-detection
 yast2-inetd

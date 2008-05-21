@@ -3,7 +3,6 @@
   <setup arch="GEN_ARCH">
     <source url="GEN_URL" name="tmp"/>
     <system file="solver-system.xml"/>
-    <!-- Tier 1 -->
     <locale name="en_US"/>
     <locale name="en_GB"/>
     <locale name="pt"/>
@@ -14,9 +13,6 @@
     <locale name="it"/>
     <locale name="fr"/>
     <locale name="ja"/>
-    <locale name="zh"/>
-    <locale name="zh_TW"/>
-    <locale name="zh_CN"/>
     <!-- Tier 2 -->
     <locale name="ru"/>
     <locale name="cs"/>
@@ -27,15 +23,18 @@
     <locale name="nb"/>
     <locale name="sv"/>
     <locale name="nl"/>
+    <locale name="zh"/>
+    <locale name="zh_TW"/>
+    <locale name="zh_CN"/>
   </setup>
   <trial>
-    <lock package="novell-ipsec-tools"/>
-    <lock package="novell-NLDAPsdk-dyn"/>
-    <lock package="myspell-german"/>
-    <lock package="desktop-data-NLD"/>
+    <!-- ignoring some lang provides -->
+    <!-- ignoring some recommends -->
+    <lock package="opensuse-manual_en-pdf"/>
+    <lock package="oxygen-icon-theme-scalable"/>
     <!-- INTERNALS -->
-    <install kind="package" name="xpdf-tools"/>
-    <install kind="pattern" name="rest_dvd"/>
+    <install kind="pattern" name="rest_promo_dvd"/>
     <reportProblems/>
+    <showpool verbose="true"/>
   </trial>
 </test>

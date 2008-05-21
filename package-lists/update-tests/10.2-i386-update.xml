@@ -8,8 +8,7 @@
   </setup>
   <trial>
     <!-- DROPS -->
-    <lock package="gnome2-NLD"/>
-    <install kind="product" name="openSUSE-fulltree"/>
+    <uninstall kind="product" name="openSUSE-DVD9-retail"/>
     <!-- can't have it on FTP -->
     <uninstall kind="package" name="agfa-fonts"/>
     <lock kind="package" name="agfa-fonts"/>

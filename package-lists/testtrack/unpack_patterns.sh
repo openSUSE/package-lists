@@ -6,11 +6,11 @@ rm -rf /tmp/pattern*
 
 sh ../prepare_patterns.sh i586 i386
 sh ../prepare_patterns.sh x86_64 x86_64
-sh ../prepare_patterns.sh ppc ppc
+sh ../prepare_patterns.sh ppc powerpc
 
 
 for arch in i586 x86_64 ppc; do
-for i in kde4_cd kde3_cd kde4_cd_non_oss kde3_cd_non_oss gnome_cd gnome_cd_non_oss dvd5;
+for i in kde4_cd kde3_cd kde4_cd_non_oss kde3_cd_non_oss gnome_cd gnome_cd_non_oss dvd5 promo_dvd;
 do
   rm -rf $i.$arch
 done
@@ -40,6 +40,8 @@ done
 
 for arch in i586 x86_64 ppc; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/dvd-*.pat dvd5.$arch
+  copy /tmp/patterns.$arch/CD1/suse/setup/descr/promo_dvd-*.pat promo_dvd.$arch
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/non_oss-*.pat dvd5.$arch
+  copy /tmp/patterns.$arch/CD1/suse/setup/descr/non_oss-*.pat promo_dvd.$arch
 done
 
