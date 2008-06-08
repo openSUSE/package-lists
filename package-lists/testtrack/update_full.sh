@@ -8,8 +8,20 @@ fi
 
 for i in $arch;
 do
+  test -d full-$i || mkdir full-$i
   pushd full-$i > /dev/null
-# ln -s /work/CDs/all/full-$i/suse susex
+  test -d .cache || mkdir .cache
+  find .cache -type f -mtime +10 | xargs -r rm -v
+  test -d suse || mkdir suse
+  test -d media.1 || mkdir media.1
+  echo "/ openSuSE-full-$i 11.0" > media.1/products
+  rm susex
+  ln -s /work/CDs/all/full-11.0-$i/suse susex
+  echo > media.1/media <<EOF
+SUSE Linux Products GmbH
+20080513132816
+1
+EOF
   mkdir -p .cache
   echo -n "create_package_descr $i "
   /work/cd/bin/tools/create_package_descr -c .cache -i /work/cd/lib/put_built_to_cd/locations-stable/meta/ \
