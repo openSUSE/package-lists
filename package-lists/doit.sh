@@ -4,19 +4,12 @@ echo "kde4_cd:"
 ./gen.sh kde4_cd || exit 1
 echo "kde4 default:"
 ./gen.sh kde4_cd-default || exit 1
-echo "kde4_cd_non_oss:"
-./gen.sh kde4_cd_non_oss
 echo "kde3_cd:"
 ./gen.sh kde3_cd || exit 1
 echo "gnome_cd:"
 ./gen.sh gnome_cd || exit 1
 echo "gnome default:"
 ./gen.sh gnome_cd-default || exit 1
-echo "gnome_cd_non-oss:"
-./gen.sh gnome_cd_non_oss
-
-echo "non-oss:"
-./non_oss.sh
 
 echo "dvd5:"
 ./gen.sh dvd5
@@ -49,3 +42,4 @@ echo "language addon:"
 
 ./join.sh
 ./langaddon.sh
+

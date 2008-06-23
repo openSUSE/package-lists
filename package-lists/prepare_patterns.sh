@@ -19,6 +19,6 @@ for i in `cd toinstall && ls -1d *`; do
    ( echo "+Des:"; echo "nada" ; echo "-Des:" ) >  utf8_description/$i/default
 done
 rm -rf $RPM_BUILD_ROOT 
-sh -x $RPM_SOURCE_DIR/sort_opensuse_patterns 11.0 1 $1
+sh -x $RPM_SOURCE_DIR/sort_opensuse_patterns 11.1 1 $1
 cd ..
 rm -rf mydata

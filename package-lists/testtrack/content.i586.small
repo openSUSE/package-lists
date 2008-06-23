@@ -1,20 +1,20 @@
 PRODUCT openSUSE-fulltree
-VERSION 11.0
+VERSION 11.1
 DISTPRODUCT openSuSE-full-i386
-DISTVERSION 11.0-0
+DISTVERSION 11.1-0
 VENDOR SUSE LINUX Products GmbH, Nuernberg, Germany
-RELNOTESURL http://www.suse.com/relnotes/i386/openSUSE-fulltree/11.0/release-notes.rpm
+RELNOTESURL http://www.suse.com/relnotes/i386/openSUSE-fulltree/11.1/release-notes.rpm
 ARCH.i686 i686 i586 i486 i386 noarch
 ARCH.i586 i586 i486 i386 noarch
 ARCH.i486 i486 i386 noarch
 ARCH.i386 i386 noarch
 DEFAULTBASE i586
 REQUIRES distribution-release
-PROVIDES product:openSUSE = 10.3.1
-OBSOLETES product:SUSE_LINUX product:openSUSE <= 10.3 package:openSUSE < 10.3
-SHORTLABEL openSUS 11.0
-LABEL openSUSE-fulltree 11.0
-LABEL.de openSUSE-fulltree 11.0
+PROVIDES product:openSUSE = 11.1
+OBSOLETES product:SUSE_LINUX product:openSUSE <= 11.1 package:openSUSE < 11.1
+SHORTLABEL openSUS 11.1
+LABEL openSUSE-fulltree 11.1
+LABEL.de openSUSE-fulltree 11.1
 DESCRDIR suse/setup/descr
 DATADIR suse
 FLAGS update volatile_content
