@@ -2,7 +2,7 @@ cd /home/pattern
 export RPM_SOURCE_DIR=$PWD
 cd products
 rm -rf mydata
-cp -a patterns-openSUSE-data mydata
+cp -a patterns-$3-data mydata
 cd mydata
 export RPM_BUILD_ROOT=/tmp/patterns.$1
 export EXPLICIT_UNAME=$2
@@ -22,3 +22,4 @@ rm -rf $RPM_BUILD_ROOT
 sh -x $RPM_SOURCE_DIR/sort_opensuse_patterns 11.1 1 $1
 cd ..
 rm -rf mydata
+
