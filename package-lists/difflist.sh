@@ -8,4 +8,5 @@ difflist()
          
 difflist dvd-all.list suse111-dvd5-i386
 difflist langaddon-all.list suse111-cd-lang-i386
+difflist sled-all.list sled11-dvd-i386
 #difflist promo_dvd.i586.list suse110-dvd5-promo-i386
