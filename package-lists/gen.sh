@@ -40,8 +40,9 @@ fi
 internals=`pdb query --filter status:internal`
 test -n "$internals" || exit 1
 
-sh ./create_locks.sh $internals `pdb query --filter status:candidate` `pdb query --filter status:frozen` `pdb query --filter distributable:no` `cat $ignore_list` \
-  `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done` > locks.xml
+sh ./create_locks.sh $internals `pdb query --filter status:candidate` `pdb query --filter status:frozen` \
+  `pdb query --filter distributable:no` `cat $ignore_list` > locks.xml
+sh ./create_locks.sh `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done` > sles-locks.xml
 
 ret=0
 
@@ -51,6 +52,7 @@ do
   echo "processing $arch..."
   eval VAR="\$GEN_URL_${i}"
   sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" > $file.$arch.xml
+  sed -i -e '/!-- SLES_LOCKS -->/r sles-locks.xml' $file.$arch.xml
 
   rm -rf /tmp/myrepos
   mkdir -p $TESTTRACK/$base.$arch/CD1/

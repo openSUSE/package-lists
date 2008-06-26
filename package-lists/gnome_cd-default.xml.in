@@ -37,6 +37,7 @@
     <lock package="gtk2-engines-32bit"/>
     <lock name="office" kind="pattern"/>
     <!-- INTERNALS -->
+    <!-- SLES_LOCKS -->
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="cracklib-dict-full"/>
