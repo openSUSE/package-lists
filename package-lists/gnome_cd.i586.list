@@ -9,6 +9,7 @@ NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
 OpenOffice_org
+OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
 OpenOffice_org-draw
@@ -171,7 +172,6 @@ foomatic-filters
 freeglut
 freetype2
 fuse
-gail
 galago-daemon
 galago-sharp
 gawk
@@ -179,7 +179,6 @@ gcalctool
 gconf-editor
 gconf-sharp2
 gconf2
-gconf2-branding-openSUSE
 gconfmm
 gdb
 gdbm
@@ -233,17 +232,21 @@ gnome-nettool
 gnome-packagekit
 gnome-panel
 gnome-phone-manager
+gnome-pilot
+gnome-pilot-lang
 gnome-power-manager
 gnome-printer-add
 gnome-python-desktop
 gnome-screensaver
 gnome-session
+gnome-session-branding-upstream
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
 gnome-spell2
 gnome-system-monitor
 gnome-terminal
+gnome-terminal-lang
 gnome-themes
 gnome-utils
 gnome-vfs-obexftp
@@ -286,6 +289,7 @@ gvfs-backends
 gvfs-fuse
 gzip
 hal
+hal-palm
 hal-resmgr
 hdparm
 hicolor-icon-theme
@@ -320,10 +324,9 @@ kpartx
 krb5
 krb5-client
 lcms
-ldapcpplib
 less
 libFLAC8
-libHX10
+libHX13
 libacl
 libaio
 libao
@@ -346,6 +349,7 @@ libbonoboui
 libbtctl
 libbtctl4
 libbz2-1
+libcaca
 libcap2
 libcdio7
 libcdio_cdda0
@@ -357,6 +361,7 @@ libcurl4
 libdaemon0
 libdb-4_5
 libdjvulibre15
+libdns_sd
 libdrm
 libeel-2-2
 libelf1
@@ -390,7 +395,7 @@ libgluezilla0
 libgmime-2_0-3
 libgmodule-2_0-0
 libgnome
-libgnome-desktop-2-2
+libgnome-desktop-2-7
 libgnome-menu2
 libgnomebt0
 libgnomecanvas
@@ -428,11 +433,14 @@ libjpeg
 libksba
 liblazy1
 liblcms1
+libldap-2_4-2
+libldapcpp1
 libltdl-3
 liblua5_1
+liblzmadec0
 libmng
 libmpfr1
-libmtp7
+libmtp8
 libncurses5
 libneon27
 libnetpbm10
@@ -443,10 +451,13 @@ libnscd
 libnvtv
 libogg0
 liboil
+libopencdk10
 libopenct1
 libopensc2
 libopenssl0_9_8
 libpcap
+libpisock9
+libpisync0
 libpng12-0
 libpoppler-glib3
 libpoppler3
@@ -455,6 +466,7 @@ libpulse-mainloop-glib0
 libpulse0
 libpulsecore4
 libpurple
+libpurple-lang
 libqt4
 libqt4-qt3support
 libqt4-sql
@@ -520,6 +532,7 @@ lsof
 lsscsi
 lukemftp
 lvm2
+lzma
 lzo
 mailx
 man
@@ -535,12 +548,10 @@ mono-addins
 mono-core
 mono-data
 mono-data-sqlite
-mono-extras
 mono-web
 mono-winforms
 monsoon
 mousetweaks
-mousetweaks-lang
 mozilla-nspr
 mozilla-nss
 mozilla-xulrunner181
@@ -742,6 +753,7 @@ tar
 tasque
 tcl
 tcpd
+tcsh
 terminfo-base
 tightvnc
 timezone
@@ -828,7 +840,6 @@ xstroke
 xterm
 xvkbd
 yast2
-yast2-add-on
 yast2-apparmor
 yast2-backup
 yast2-bootloader

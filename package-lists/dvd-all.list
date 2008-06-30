@@ -63,34 +63,30 @@ OpenOffice_org
 OpenOffice_org-Quickstarter
 OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
+OpenOffice_org-branding-upstream
 OpenOffice_org-calc
-OpenOffice_org-cs
-OpenOffice_org-da
-OpenOffice_org-de
 OpenOffice_org-draw
-OpenOffice_org-en-GB
-OpenOffice_org-es
-OpenOffice_org-fi
 OpenOffice_org-filters
-OpenOffice_org-fr
 OpenOffice_org-gnome
-OpenOffice_org-hu
+OpenOffice_org-help-cs
+OpenOffice_org-help-de
+OpenOffice_org-help-en-US
+OpenOffice_org-help-es
+OpenOffice_org-help-fr
+OpenOffice_org-help-it
 OpenOffice_org-hyphen
 OpenOffice_org-icon-themes
 OpenOffice_org-impress
-OpenOffice_org-it
-OpenOffice_org-ja
 OpenOffice_org-kde
+OpenOffice_org-l10n-cs
+OpenOffice_org-l10n-de
+OpenOffice_org-l10n-en-US
+OpenOffice_org-l10n-es
+OpenOffice_org-l10n-fr
+OpenOffice_org-l10n-it
 OpenOffice_org-mailmerge
 OpenOffice_org-math
-OpenOffice_org-nb
-OpenOffice_org-nl
-OpenOffice_org-pl
-OpenOffice_org-pt
-OpenOffice_org-pt-BR
 OpenOffice_org-pyuno
-OpenOffice_org-ru
-OpenOffice_org-sv
 OpenOffice_org-templates-de
 OpenOffice_org-templates-en
 OpenOffice_org-templates-labels-a4
@@ -107,18 +103,14 @@ OpenOffice_org-thesaurus-pl
 OpenOffice_org-thesaurus-pt
 OpenOffice_org-thesaurus-ru
 OpenOffice_org-writer
-OpenOffice_org-zh-CN
-OpenOffice_org-zh-TW
 PackageKit
 PgTcl
 PolicyKit
 PolicyKit-32bit
-PolicyKit-64bit
 PolicyKit-doc
 PolicyKit-gnome
 PolicyKit-gnome-libs
 PolicyKit-gnome-libs-32bit
-PolicyKit-gnome-libs-64bit
 PolicyKit-kde
 RealPlayer
 SDL
@@ -273,6 +265,7 @@ at76_usb-kmp-xen
 atftp
 atk
 atk-devel
+atk-devel-32bit
 atk-devel-64bit
 atk-doc
 atk-x86
@@ -281,7 +274,6 @@ attr
 audacity
 audiofile
 audiofile-32bit
-audiofile-64bit
 audiofile-devel
 audit
 audit-devel
@@ -318,6 +310,7 @@ banshee-1-backend-platform-unix
 banshee-1-extensions-default
 barcode
 bash
+bash-completion
 bash-doc
 batik
 bc
@@ -670,7 +663,6 @@ evms
 evolution
 evolution-data-server
 evolution-data-server-32bit
-evolution-data-server-64bit
 evolution-data-server-devel
 evolution-devel
 evolution-pilot
@@ -682,7 +674,6 @@ exo
 expat
 expect
 expect-devel
-extragear-plasma
 f-spot
 fam
 fam-32bit
@@ -756,11 +747,6 @@ fvwm2
 fvwm2-gtk
 fxload
 g3utils
-gail
-gail-32bit
-gail-64bit
-gail-devel
-gail-doc
 galago-daemon
 galago-sharp
 gawk
@@ -797,7 +783,6 @@ gconf-sharp2
 gconf2
 gconf2-32bit
 gconf2-64bit
-gconf2-branding-openSUSE
 gconf2-devel
 gconf2-doc
 gconf2-x86
@@ -882,6 +867,7 @@ glib-sharp2
 glib2
 glib2-branding-openSUSE
 glib2-devel
+glib2-devel-32bit
 glib2-devel-64bit
 glib2-doc
 glib2-x86
@@ -903,6 +889,7 @@ glitz
 glitz-32bit
 glitz-64bit
 glitz-devel
+glitz-devel-32bit
 glitz-devel-64bit
 glitz-x86
 gltt
@@ -960,7 +947,6 @@ gnome-nettool
 gnome-packagekit
 gnome-panel
 gnome-panel-32bit
-gnome-panel-64bit
 gnome-panel-devel
 gnome-phone-manager
 gnome-pilot
@@ -971,6 +957,7 @@ gnome-printer-add
 gnome-python-desktop
 gnome-screensaver
 gnome-session
+gnome-session-branding-upstream
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
@@ -978,6 +965,7 @@ gnome-speech-devel
 gnome-spell2
 gnome-system-monitor
 gnome-terminal
+gnome-terminal-lang
 gnome-themes
 gnome-utils
 gnome-vfs-obexftp
@@ -1054,7 +1042,6 @@ gtk-sharp2
 gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
-gtk-vnc
 gtk-xfce-engine
 gtk2
 gtk2-32bit
@@ -1063,6 +1050,9 @@ gtk2-branding-openSUSE
 gtk2-devel
 gtk2-devel-32bit
 gtk2-devel-64bit
+gtk2-engine-murrine
+gtk2-engine-murrine-32bit
+gtk2-engine-murrine-64bit
 gtk2-engines
 gtk2-engines-32bit
 gtk2-engines-64bit
@@ -1181,6 +1171,7 @@ iscan-proprietary-drivers
 iscsitarget
 isns
 iso-codes
+iso-codes-devel
 iso_ent
 ispell
 ispell-american
@@ -1330,7 +1321,6 @@ kde4-kjumpingcube
 kde4-klines
 kde4-kmahjongg
 kde4-kmail
-kde4-kmilo
 kde4-kmines
 kde4-kmix
 kde4-knetwalk
@@ -1365,7 +1355,6 @@ kde4-ktux
 kde4-kwalletmanager
 kde4-kweather
 kde4-kwin
-kde4-kworldclock
 kde4-kwrite
 kde4-l10n-cs
 kde4-l10n-da
@@ -1383,7 +1372,6 @@ kde4-l10n-ja
 kde4-l10n-nb
 kde4-l10n-nl
 kde4-l10n-pl
-kde4-l10n-pt
 kde4-l10n-pt_BR
 kde4-l10n-ru
 kde4-l10n-sv
@@ -1431,7 +1419,6 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
-kdebase4-workspace-plasmoids
 kdebindings3
 kdebindings3-java
 kdebindings3-javascript
@@ -1523,6 +1510,7 @@ kernel-kdump
 kernel-pae
 kernel-ppc64
 kernel-source
+kernel-syms
 kernel-xen
 kerry
 kerry-lang
@@ -1643,7 +1631,6 @@ latex2html
 latex2html-pngicons
 lbreakout
 lcms
-ldapcpplib
 less
 lessons4lizards_en
 lftp
@@ -1654,17 +1641,16 @@ libFLAC8
 libFLAC8-32bit
 libFLAC8-64bit
 libGraphicsMagick1
-libHX10
-libHX10-32bit
-libHX10-64bit
+libHX13
+libHX13-32bit
+libHX13-64bit
 libMagick++1
 libMagickCore1
 libMagickWand1
 libQtTapioca0
 libQtTelepathy0
+libQtWebKit-devel
 libQtWebKit4
-libXalan-c-110
-libXerces-c-28
 libXiterm
 libacl
 libacl-32bit
@@ -1707,6 +1693,7 @@ libattr
 libattr-32bit
 libattr-64bit
 libattr-devel
+libattr-devel-32bit
 libattr-devel-64bit
 libattr-x86
 libavahi-client3
@@ -1738,12 +1725,10 @@ libblocxx-devel
 libblocxx6
 libbonobo
 libbonobo-32bit
-libbonobo-64bit
 libbonobo-devel
 libbonobo-doc
 libbonoboui
 libbonoboui-32bit
-libbonoboui-64bit
 libbonoboui-devel
 libbonoboui-doc
 libbtctl
@@ -1753,6 +1738,7 @@ libbz2-1
 libbz2-1-32bit
 libbz2-1-64bit
 libbz2-devel
+libcaca
 libcap2
 libcap2-32bit
 libcap2-64bit
@@ -1768,7 +1754,6 @@ libcompizconfig
 libcroco
 libcroco-0_6-3
 libcroco-0_6-3-32bit
-libcroco-0_6-3-64bit
 libcroco-devel
 libcroco-x86
 libcurl-devel
@@ -1790,6 +1775,7 @@ libdns_sd-32bit
 libdns_sd-64bit
 libdrm
 libdrm-32bit
+libdrm-64bit
 libdrm-devel
 libdrm-x86
 libdv4
@@ -1806,14 +1792,13 @@ liberation-fonts
 libesd-devel
 libesd0
 libesd0-32bit
-libesd0-64bit
 libevent
 libexempi3
 libexif
 libexif-32bit
 libexif-64bit
 libexif-x86
-libexiv2-2
+libexiv2-4
 libexpat-devel
 libexpat0
 libexpat1
@@ -1864,7 +1849,6 @@ libgio-2_0-0-64bit
 libgio-fam
 libglade2
 libglade2-32bit
-libglade2-64bit
 libglade2-devel
 libglade2-doc
 libglademm
@@ -1880,11 +1864,9 @@ libgmodule-2_0-0-32bit
 libgmodule-2_0-0-64bit
 libgnome
 libgnome-32bit
-libgnome-64bit
 libgnome-certauth0
-libgnome-desktop-2-2
-libgnome-desktop-2-2-32bit
-libgnome-desktop-2-2-64bit
+libgnome-desktop-2-7
+libgnome-desktop-2-7-32bit
 libgnome-devel
 libgnome-doc
 libgnome-menu2
@@ -1894,7 +1876,6 @@ libgnomebt-devel
 libgnomebt0
 libgnomecanvas
 libgnomecanvas-32bit
-libgnomecanvas-64bit
 libgnomecanvas-devel
 libgnomecanvas-doc
 libgnomecups
@@ -1915,7 +1896,6 @@ libgnomesu-devel
 libgnomesu0
 libgnomeui
 libgnomeui-32bit
-libgnomeui-64bit
 libgnomeui-devel
 libgnomeui-doc
 libgnutls-devel
@@ -1945,7 +1925,6 @@ libgpod3
 libgsf
 libgsf-1-114
 libgsf-1-114-32bit
-libgsf-1-114-64bit
 libgsf-devel
 libgsf-doc
 libgsf-gnome
@@ -1974,7 +1953,6 @@ libgweather
 libgweather-devel
 libgweather1
 libgweather1-32bit
-libgweather1-64bit
 libgwenhywfar38
 libhangul
 libical0
@@ -2031,8 +2009,9 @@ libkdepimlibs4
 libkdepimlibs4-devel
 libkexiv2-3
 libkipi0
+libkipi5
 libkmime2
-libkonq4
+libkonq5
 libksba
 libksba-devel
 libktnef1
@@ -2042,6 +2021,10 @@ liblcms-x86
 liblcms1
 liblcms1-32bit
 liblcms1-64bit
+libldap-2_4-2
+libldap-2_4-2-32bit
+libldap-2_4-2-64bit
+libldapcpp1
 libltdl-3
 libltdl-3-32bit
 libltdl-3-64bit
@@ -2062,7 +2045,7 @@ libmpfr1
 libmpfr1-32bit
 libmpfr1-64bit
 libmspack0
-libmtp7
+libmtp8
 libmudflap43
 libmudflap43-32bit
 libmudflap43-64bit
@@ -2090,6 +2073,7 @@ libnscd
 libnscd-32bit
 libnscd-64bit
 libnscd-x86
+libnuma1
 libnvtv
 libobjc43
 libobjc43-32bit
@@ -2104,6 +2088,8 @@ libogg0-64bit
 liboil
 liboil-32bit
 liboil-64bit
+libopenal0-soft
+libopenal1-soft
 libopencdk-devel
 libopencdk-devel-32bit
 libopencdk-devel-64bit
@@ -2138,7 +2124,9 @@ libopensync-tools
 libosip2
 libosip2-devel
 libotf
+libotr2
 libpcap
+libphonon4
 libpisock-devel
 libpisock9
 libpisync0
@@ -2157,11 +2145,12 @@ libpoppler3
 libpulse-browse0
 libpulse-mainloop-glib0
 libpulse0
-libpulse0-32bit
 libpulsecore4
 libpurple
 libpurple-devel
+libpurple-lang
 libqca2
+libqdialogsolver1
 libqimageblitz-devel
 libqimageblitz4
 libqscintilla2-2
@@ -2197,7 +2186,6 @@ libreiserfs-64bit
 librpcsecgss
 librsvg
 librsvg-32bit
-librsvg-64bit
 librsvg-devel
 librsvg-x86
 librtas
@@ -2231,6 +2219,7 @@ libsoup-devel-32bit
 libsoup-devel-64bit
 libspe
 libspe-64bit
+libspectre1
 libspeex
 libspeex-32bit
 libspeex-64bit
@@ -2271,8 +2260,6 @@ libtiff-devel-64bit
 libtiff3
 libtiff3-32bit
 libtiff3-64bit
-libtomoe-gtk
-libtomoe-gtk-lang
 libtool
 libtool-32bit
 libtool-64bit
@@ -2311,7 +2298,6 @@ libwmf-gnome
 libwnck
 libwnck-1-22
 libwnck-1-22-32bit
-libwnck-1-22-64bit
 libwnck-devel
 libwpd-0_8-8
 libwpg-0_1-1
@@ -2348,6 +2334,7 @@ libyaz
 libzio
 libzip1
 libzrtpcpp1
+libzvbi0
 libzypp
 libzypp-devel
 licenses
@@ -2470,14 +2457,11 @@ motv
 mouseemu
 mousepad
 mousetweaks
-mousetweaks-lang
 mozilla-nspr
 mozilla-nspr-32bit
-mozilla-nspr-64bit
 mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-32bit
-mozilla-nss-64bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner181
@@ -2553,8 +2537,10 @@ ndiswrapper-kmp-pae
 ndiswrapper-kmp-xen
 neon
 net-snmp
+net-snmp-32bit
 net-snmp-64bit
 net-snmp-devel
+net-snmp-devel-32bit
 net-snmp-devel-64bit
 net-tools
 netcat
@@ -2599,13 +2585,11 @@ open-vm-tools
 openSUSE-release
 openSUSE-release-dvd
 openSUSE-release-live
-openal
+openal-soft
 openct
 openjade
 openldap2
 openldap2-client
-openldap2-client-32bit
-openldap2-client-64bit
 openldap2-client-x86
 openldap2-devel
 openldap2-devel-32bit
@@ -2913,6 +2897,9 @@ pfstmo
 pfstools
 pgcalc
 phalanx
+phonon
+phonon-backend-gstreamer-0_10
+phonon-devel
 php5
 php5-bcmath
 php5-bz2
@@ -2937,7 +2924,6 @@ php5-ldap
 php5-mbstring
 php5-mcrypt
 php5-mysql
-php5-ncurses
 php5-odbc
 php5-openssl
 php5-pdo
@@ -3059,7 +3045,6 @@ python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-httplib2
-python-imaging
 python-kde3
 python-ldap
 python-lxml
@@ -3127,6 +3112,7 @@ rdesktop
 readline-devel
 readline-doc
 recode
+recode-32bit
 recode-64bit
 regexp
 reiserfs
@@ -3139,6 +3125,7 @@ resmgr-x86
 rfswitch-kmp-iseries64
 rfswitch-kmp-ppc64
 ripit
+ristretto
 rpm
 rpm-devel
 rpm-python
@@ -3233,7 +3220,6 @@ scim-tables-additional
 scim-tables-ja
 scim-tables-skim
 scim-tables-zh
-scim-tomoe
 scim-uim
 scotty
 scpm
@@ -3267,7 +3253,6 @@ sil-charis
 sil-doulos
 silc-toolkit
 simple-ccsm
-skencil
 skim
 skim-scim-anthy
 skim-scim-canna
@@ -3299,6 +3284,7 @@ sqlite3-tcl
 squashfs
 squid
 squid3
+squidGuard
 sshfs
 star
 startup-notification
@@ -3398,6 +3384,9 @@ thinkeramik-style
 thinkeramik-style-32bit
 thinkeramik-style-64bit
 thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-thumbnailers
 thunar-volman
 tidy
 tiff
@@ -3421,7 +3410,6 @@ tomcat6-jsp-2_1-api
 tomcat6-lib
 tomcat6-servlet-2_5-api
 tomcat6-webapps
-tomoe
 totem
 totem-pl-parser
 totem-plugin
@@ -3768,7 +3756,6 @@ xv
 xvkbd
 yafray
 yast2
-yast2-add-on
 yast2-add-on-creator
 yast2-apparmor
 yast2-autofs
@@ -3959,5 +3946,4 @@ zlib-devel-64bit
 zlib-x86
 zoo
 zsh
-zvbi
 zypper

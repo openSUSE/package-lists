@@ -16,7 +16,7 @@ do
   test -d media.1 || mkdir media.1
   echo "/ openSuSE-full-$i 11.1" > media.1/products
   rm susex
-  ln -s /work/CDs/all/full-11.0-$i/suse susex
+  ln -s /work/CDs/all/full-$i/suse susex
   echo > media.1/media <<EOF
 SUSE Linux Products GmbH
 20080513132816

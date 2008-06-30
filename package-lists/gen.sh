@@ -77,7 +77,8 @@ do
   if test -s "$file.$arch.list.new"; then
      mv "$file.$arch.list.new" "$file.$arch.list"
   else
-     grep -C5 === $file.$arch.output
+     grep -C5 Problem: $file.$arch.output
+     fgrep "Unknown item" $file.$arch.error
      ret=1
   fi
 
