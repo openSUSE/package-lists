@@ -2,6 +2,11 @@
 
 svn up /home/pattern
 
+arg=all
+if test -n "$1"; then
+  arg=$1
+fi
+
 copy()
 {
     file=$1
@@ -11,6 +16,7 @@ copy()
     cp -a $file $2/$dir
 }
 
+if test $arg = openSUSE -o $arg = all; then
 rm -rf /tmp/pattern*
 
 sh ../prepare_patterns.sh i586 i386 openSUSE
@@ -38,7 +44,9 @@ for arch in i586 x86_64 ppc; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/non_oss-*.pat dvd5.$arch
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/non_oss-*.pat promo_dvd.$arch
 done
+fi
 
+if test $arg = sled -o $arg = all; then
 rm -rf /tmp/pattern*
 sh ../prepare_patterns.sh i586 i386 sled
 sh ../prepare_patterns.sh x86_64 x86_64 sled
@@ -46,7 +54,9 @@ sh ../prepare_patterns.sh x86_64 x86_64 sled
 for arch in i586 x86_64; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/sled-*.pat sled.$arch
 done
+fi
 
+if test $arg = sles -o $arg = all; then
 rm -rf /tmp/pattern*
 sh ../prepare_patterns.sh i586 i386 sles
 sh ../prepare_patterns.sh x86_64 x86_64 sles
@@ -56,3 +66,4 @@ for arch in i586 x86_64 ppc; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/sles-*.pat sles.$arch
 done
 
+fi
