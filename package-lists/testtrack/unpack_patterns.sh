@@ -2,20 +2,20 @@
 
 svn up /home/pattern
 
+copy()
+{
+    file=$1
+    dir=`dirname $file`
+    dir=`echo $dir | sed -e "s,.*/CD1,CD1,"`
+    mkdir -p $2/$dir
+    cp -a $file $2/$dir
+}
+
 rm -rf /tmp/pattern*
 
 sh ../prepare_patterns.sh i586 i386 openSUSE
 sh ../prepare_patterns.sh x86_64 x86_64 openSUSE
 sh ../prepare_patterns.sh ppc powerpc openSUSE
-
-copy()
-{
-    file=$1
-    dir=`dirname $file`
-    dir=`echo $dir | sed -e "s,.*/CD1,CD1,"` 
-    mkdir -p $2/$dir
-    cp -a $file $2/$dir
-}
 
 for flav in kde3 kde4 gnome; do
   for arch in i586 x86_64 ppc; do
@@ -45,5 +45,14 @@ sh ../prepare_patterns.sh x86_64 x86_64 sled
 
 for arch in i586 x86_64; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/sled-*.pat sled.$arch
+done
+
+rm -rf /tmp/pattern*
+sh ../prepare_patterns.sh i586 i386 sles
+sh ../prepare_patterns.sh x86_64 x86_64 sles
+sh ../prepare_patterns.sh ppc powerpc sles
+
+for arch in i586 x86_64 ppc; do
+  copy /tmp/patterns.$arch/CD1/suse/setup/descr/sles-*.pat sles.$arch
 done
 
