@@ -54,7 +54,7 @@ do
   sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" > $file.$arch.xml
   sed -i -e '/!-- SLES_LOCKS -->/r sles-locks.xml' $file.$arch.xml
 
-  rm -rf /tmp/myrepos
+  rm -rf /tmp/myrepos /var/cache/zypp
   mkdir -p $TESTTRACK/$base.$arch/CD1/
   cp -a $TESTTRACK/content.$arch.small $TESTTRACK/$base.$arch/CD1/content
   cp -a $VAR/suse $TESTTRACK/$base.$arch/CD1/
