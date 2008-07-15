@@ -5,6 +5,7 @@ BASEDIR=`pwd`
 GEN_URL_i586="$BASEDIR/testtrack/full-i386"
 GEN_URL_x86_64="$BASEDIR/testtrack/full-x86_64"
 GEN_URL_ppc="$BASEDIR/testtrack/full-ppc"
+GEN_URL_ia64="$BASEDIR/testtrack/full-ia64"
 TESTTRACK="`pwd`/testtrack"
 
 if test -f config.sh; then
@@ -26,6 +27,11 @@ fi
 
 if (echo $file | grep "sled" > /dev/null); then
   GEN_ARCH="i586 x86_64"
+  base=${file/-*/}
+fi
+
+if (echo $file | grep "sles" > /dev/null); then
+  GEN_ARCH="i586 x86_64 ppc ia64"
   base=${file/-*/}
 fi
 

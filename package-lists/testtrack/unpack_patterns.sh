@@ -61,8 +61,9 @@ rm -rf /tmp/pattern*
 sh ../prepare_patterns.sh i586 i386 sles
 sh ../prepare_patterns.sh x86_64 x86_64 sles
 sh ../prepare_patterns.sh ppc powerpc sles
+sh ../prepare_patterns.sh ia64 ia64 sles
 
-for arch in i586 x86_64 ppc; do
+for arch in i586 x86_64 ppc ia64; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/sles-*.pat sles.$arch
 done
 

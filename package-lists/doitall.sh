@@ -5,7 +5,7 @@ svn up
 diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
 cd testtrack/
-./update_full.sh i386 x86_64 ppc
+./update_full.sh i386 x86_64 ppc ia64
 echo -n "updating patterns "
 ./unpack_patterns.sh $diffonly > patterns.log 2>&1
 echo "done"

@@ -7,4 +7,4 @@ done
 
 cat sled-*.list | LC_ALL=C sort -u > sled-all.list
 cat dvd-all.*.list | LC_ALL=C sort -u > dvd-all.list
-
+cat sles-*.list | LC_ALL=C sort -u > sles-all.list

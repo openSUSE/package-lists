@@ -11,11 +11,16 @@ NetworkManager-gnome
 OpenOffice_org
 OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
+OpenOffice_org-branding-upstream
 OpenOffice_org-calc
 OpenOffice_org-draw
 OpenOffice_org-gnome
+OpenOffice_org-help-de
+OpenOffice_org-help-en-US
 OpenOffice_org-icon-themes
 OpenOffice_org-impress
+OpenOffice_org-l10n-de
+OpenOffice_org-l10n-en-US
 OpenOffice_org-templates-labels-a4
 OpenOffice_org-templates-labels-letter
 OpenOffice_org-writer
@@ -179,6 +184,7 @@ gcalctool
 gconf-editor
 gconf-sharp2
 gconf2
+gconf2-branding-openSUSE
 gconfmm
 gdb
 gdbm
@@ -216,6 +222,7 @@ gnome-bluetooth
 gnome-control-center
 gnome-cups-manager
 gnome-desktop
+gnome-desktop-sharp2
 gnome-do
 gnome-doc-utils
 gnome-docker
@@ -223,6 +230,7 @@ gnome-games
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pam
+gnome-keyring-sharp
 gnome-mag
 gnome-main-menu
 gnome-media
@@ -239,14 +247,12 @@ gnome-printer-add
 gnome-python-desktop
 gnome-screensaver
 gnome-session
-gnome-session-branding-upstream
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
 gnome-spell2
 gnome-system-monitor
 gnome-terminal
-gnome-terminal-lang
 gnome-themes
 gnome-utils
 gnome-vfs-obexftp
@@ -466,7 +472,6 @@ libpulse-mainloop-glib0
 libpulse0
 libpulsecore4
 libpurple
-libpurple-lang
 libqt4
 libqt4-qt3support
 libqt4-sql
