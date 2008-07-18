@@ -19,6 +19,7 @@ echo "dvd5:"
 ./gen.sh gnome_cd-x11-default
 
 ./gen.sh sled-1 x86_64 i586
+./gen.sh sled-2 x86_64 i586
 
 echo "diffing"
 for arch in i586 x86_64 ppc; do
