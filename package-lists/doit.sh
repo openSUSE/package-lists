@@ -1,24 +1,19 @@
 #!/bin/sh
 
-echo "sled:"
-./gen.sh sled-1 x86_64 i586 || exit 1
-./gen.sh sled-2 x86_64 i586 || exit 1
+./gen.sh sled-1 || exit 1
+./gen.sh sled-2 || exit 1
+cat sled-*.all.list | LC_ALL=C sort -u > sled-all.list
 
-echo "kde4_cd:"
 ./gen.sh kde4_cd || exit 1
-echo "kde4 default:"
 ./gen.sh kde4_cd-default || exit 1
-echo "kde3_cd:"
-./gen.sh kde3_cd || exit 1
-echo "gnome_cd:"
+./gen.sh kde3_cd
 ./gen.sh gnome_cd || exit 1
-echo "gnome default:"
 ./gen.sh gnome_cd-default || exit 1
 
-echo "dvd5:"
-./gen.sh dvd5
+./gen.sh dvd5-1
 ./gen.sh dvd5-2
 ./gen.sh dvd5-3
+cat dvd5-1.all.list dvd5-2.all.list dvd5-3.all.list | LC_ALL=C sort -u > dvd-all.list
 ./gen.sh kde4_cd-base-default
 ./gen.sh gnome_cd-x11-default
 
@@ -38,12 +33,9 @@ for i in kde4_cd*.list; do
   cp $i ${i/kde4_cd/kde_cd}
 done
 
-echo "promo-dvd5:"
 ./gen.sh promo_dvd
-
-echo "language addon:"
 ./gen.sh dvd5-addon_lang
-
-./join.sh
 ./langaddon.sh
 
+./gen.sh sles-1
+cat sles-*.all.list | LC_ALL=C sort -u > sles-all.list

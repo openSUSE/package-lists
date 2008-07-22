@@ -1,12 +1,14 @@
 #!/bin/sh
 
-GEN_ARCH="i586 x86_64 ppc"
+GEN_ARCH="i586 x86_64"
 BASEDIR=`pwd`
 GEN_URL_i586="$BASEDIR/testtrack/full-i386"
 GEN_URL_x86_64="$BASEDIR/testtrack/full-x86_64"
 GEN_URL_ppc="$BASEDIR/testtrack/full-ppc"
 GEN_URL_ia64="$BASEDIR/testtrack/full-ia64"
 TESTTRACK="`pwd`/testtrack"
+
+echo -n "processing $1"
 
 if test -f config.sh; then
   . config.sh
@@ -55,7 +57,7 @@ ret=0
 for i in $GEN_ARCH;
 do
   arch=$i
-  echo "processing $arch..."
+  echo -n " $arch"
   eval VAR="\$GEN_URL_${i}"
   sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" > $file.$arch.xml
   sed -i -e '/!-- SLES_LOCKS -->/r sles-locks.xml' $file.$arch.xml
@@ -86,11 +88,19 @@ do
      grep -C5 Problem: $file.$arch.output
      fgrep "Unknown item" $file.$arch.error
      ret=1
+     echo -n "!"
   fi
 
-  echo "done"
 done
 
+if test "$ret" = 1; then
+  echo " failed"
+else
+  echo " done"
+  rm -f $file.all.list
+  cat $file.*.list | LC_ALL=C sort -u > $file.all.list
+fi
+
 rm -rf /tmp/myrepos
-echo "all done: $ret"
 exit $ret
+
