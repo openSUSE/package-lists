@@ -1,5 +1,9 @@
 #!/bin/sh
 
+echo "sled:"
+./gen.sh sled-1 x86_64 i586 || exit 1
+./gen.sh sled-2 x86_64 i586 || exit 1
+
 echo "kde4_cd:"
 ./gen.sh kde4_cd || exit 1
 echo "kde4 default:"
@@ -17,9 +21,6 @@ echo "dvd5:"
 ./gen.sh dvd5-3
 ./gen.sh kde4_cd-base-default
 ./gen.sh gnome_cd-x11-default
-
-./gen.sh sled-1 x86_64 i586
-./gen.sh sled-2 x86_64 i586
 
 echo "diffing"
 for arch in i586 x86_64 ppc; do
