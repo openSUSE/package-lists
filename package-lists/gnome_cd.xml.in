@@ -35,12 +35,12 @@
     <lock package="bundle-lang-kde-sv"/>
     <lock package="bundle-lang-kde-zh"/>
     <lock package="gtk2-engines-32bit"/>
-    <lock package="java-1_6_0-sun"/>
-    <lock package="java-1_5_0-sun"/>
     <lock package="gnome2-user-docs"/> <!-- !i586 -->
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_cd_gnome"/>
+    <lock package="java-1_6_0-sun"/>
+    <lock package="java-1_5_0-sun"/>
     <install kind="package" name="openSUSE-release-live"/>
     <reportProblems/>
     <showpool verbose="true"/>

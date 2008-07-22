@@ -57,7 +57,7 @@
     <install kind="package" name="openSUSE-release-live"/>
     <install kind="package" name="cracklib-dict-small"/>
     <install kind="package" name="iscan"/> <!-- !ppc -->
-    <install kind="package" name="acroread_ja"/> <!-- !ppc -->
+    <install kind="package" name="acroread_ja"/> <!-- !ppc !x86_64 -->
     <reportProblems/>
   </trial>
 </test>
