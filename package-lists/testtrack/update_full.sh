@@ -11,7 +11,7 @@ do
   test -d full-$i || mkdir full-$i
   pushd full-$i > /dev/null
   test -d .cache || mkdir .cache
-  find .cache -type f -mtime +10 | xargs -r rm -v
+  find .cache -type f -mtime +10 | xargs -r rm 
   test -d suse || mkdir suse
   test -d media.1 || mkdir media.1
   echo "/ openSuSE-full-$i 11.1" > media.1/products
