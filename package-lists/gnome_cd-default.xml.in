@@ -38,6 +38,7 @@
     <lock name="office" kind="pattern"/>
     <lock package="java-1_6_0-sun"/>
     <lock package="java-1_5_0-sun"/>
+    <lock package="gnome2-user-docs"/> <!-- !i586 -->
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="package" name="ghostscript-library"/>

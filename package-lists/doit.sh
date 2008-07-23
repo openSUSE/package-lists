@@ -38,4 +38,5 @@ done
 ./langaddon.sh
 
 ./gen.sh sles-1
+./gen.sh sles-2
 cat sles-*.all.list | LC_ALL=C sort -u > sles-all.list

@@ -43,6 +43,7 @@
     <lock package="compiz-kde"/>
     <lock package="gtk2-engines-32bit"/>
     <lock name="office" kind="pattern"/>
+    <lock name="OpenOffice_org" kind="package"/>
     <lock package="java-1_6_0-sun"/>
     <lock package="java-1_5_0-sun"/>
     <!-- INTERNALS -->
@@ -52,5 +53,6 @@
     <install kind="package" name="cracklib-dict-full"/>
     <install kind="pattern" name="kde"/>
     <reportProblems/>
+    <showpool verbose="true"/>
   </trial>
 </test>

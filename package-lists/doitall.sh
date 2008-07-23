@@ -43,7 +43,7 @@ cp *.list saved
 
 set -e
 
-./check_yast.sh dvd-all.i586.list __i386__
-./check_yast.sh dvd-all.x86_64.list __x86_64__
-./check_yast.sh dvd-all.ppc.list __powerpc__
+./check_yast.sh dvd5-1.i586.list __i386__
+./check_yast.sh dvd5-1.x86_64.list __x86_64__
+./check_yast.sh dvd5-1.ppc.list __powerpc__
 

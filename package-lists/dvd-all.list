@@ -132,10 +132,12 @@ PackageKit
 PgTcl
 PolicyKit
 PolicyKit-32bit
+PolicyKit-64bit
 PolicyKit-doc
 PolicyKit-gnome
 PolicyKit-gnome-libs
 PolicyKit-gnome-libs-32bit
+PolicyKit-gnome-libs-64bit
 PolicyKit-kde
 RealPlayer
 SDL
@@ -176,7 +178,6 @@ acroread-cmaps
 acroread-fonts-ja
 acroread-fonts-zh_CN
 acroread-fonts-zh_TW
-acroread_ja
 acx-kmp-default
 acx-kmp-pae
 acx-kmp-xen
@@ -292,6 +293,7 @@ attr
 audacity
 audiofile
 audiofile-32bit
+audiofile-64bit
 audiofile-devel
 audit
 audit-devel
@@ -301,7 +303,6 @@ audit-libs-64bit
 aufs
 aufs-kmp-default
 aufs-kmp-pae
-aufs-kmp-ppc64
 aufs-kmp-xen
 aumix
 autoconf
@@ -587,8 +588,6 @@ delayacct-utils
 deltarpm
 deskbar-applet
 desktop-data-openSUSE
-desktop-data-openSUSE-extra
-desktop-data-openSUSE-extra-gnome
 desktop-file-utils
 desktop-translations
 devhelp
@@ -627,8 +626,6 @@ dos2unix
 dosfstools
 dovecot
 doxygen
-drbd-kmp-default
-drbd-kmp-ppc64
 dvb
 dvd+rw-tools
 dvi2tty
@@ -663,10 +660,10 @@ eric
 eruby
 ethtool
 evince
-evms
 evolution
 evolution-data-server
 evolution-data-server-32bit
+evolution-data-server-64bit
 evolution-data-server-devel
 evolution-devel
 evolution-pilot
@@ -807,7 +804,6 @@ gedit
 genisoimage
 geronimo
 geronimo-jaf-1_0_2-api
-geronimo-jetty-servlet-container
 geronimo-jms-1_1-api
 geronimo-specs-poms
 geronimo-tomcat-servlet-container
@@ -945,6 +941,7 @@ gnome-nettool
 gnome-packagekit
 gnome-panel
 gnome-panel-32bit
+gnome-panel-64bit
 gnome-panel-devel
 gnome-phone-manager
 gnome-pilot
@@ -1102,7 +1099,6 @@ html2text
 hunspell
 hunspell-tools
 hwinfo
-hwinfo-devel
 hylafax
 hylafax-client
 i4l-base
@@ -1195,7 +1191,6 @@ ivtv
 ivtv-firmware
 ivtv-kmp-default
 ivtv-kmp-pae
-ivtv-kmp-ppc64
 ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
@@ -1226,6 +1221,7 @@ java-1_6_0-sun-devel
 java-1_6_0-sun-jdbc
 java-1_6_0-sun-plugin
 javacc
+javamail
 javamail-monolithic
 jdepend
 jedit
@@ -1404,7 +1400,6 @@ kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-session
-kdebase4-wallpapers
 kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
@@ -1538,7 +1533,6 @@ kmymoney
 knights
 knoda
 koffice
-koffice-database
 koffice-extra
 koffice-i18n-cs
 koffice-i18n-da
@@ -1571,10 +1565,6 @@ koffice-i18n-sv-doc
 koffice-i18n-zh_CN
 koffice-i18n-zh_TW
 koffice-illustration
-koffice-planning
-koffice-presentation
-koffice-spreadsheet
-koffice-wordprocessing
 kommander
 kommander-runtime
 konserve
@@ -1705,14 +1695,15 @@ libbeagle-python
 libbeagle1
 libblkid-devel
 libblkid1
-libblocxx-devel
 libblocxx6
 libbonobo
 libbonobo-32bit
+libbonobo-64bit
 libbonobo-devel
 libbonobo-doc
 libbonoboui
 libbonoboui-32bit
+libbonoboui-64bit
 libbonoboui-devel
 libbonoboui-doc
 libbtctl
@@ -1738,6 +1729,7 @@ libcompizconfig
 libcroco
 libcroco-0_6-3
 libcroco-0_6-3-32bit
+libcroco-0_6-3-64bit
 libcroco-devel
 libcurl-devel
 libcurl4
@@ -1773,6 +1765,7 @@ liberation-fonts
 libesd-devel
 libesd0
 libesd0-32bit
+libesd0-64bit
 libevent
 libexempi3
 libexif
@@ -1780,7 +1773,6 @@ libexif-32bit
 libexif-64bit
 libexiv2-4
 libexpat-devel
-libexpat0
 libexpat1
 libexpat1-32bit
 libexpat1-64bit
@@ -1827,6 +1819,7 @@ libgio-2_0-0-64bit
 libgio-fam
 libglade2
 libglade2-32bit
+libglade2-64bit
 libglade2-devel
 libglade2-doc
 libglademm
@@ -1842,9 +1835,11 @@ libgmodule-2_0-0-32bit
 libgmodule-2_0-0-64bit
 libgnome
 libgnome-32bit
+libgnome-64bit
 libgnome-certauth0
 libgnome-desktop-2-7
 libgnome-desktop-2-7-32bit
+libgnome-desktop-2-7-64bit
 libgnome-devel
 libgnome-doc
 libgnome-menu2
@@ -1854,6 +1849,7 @@ libgnomebt-devel
 libgnomebt0
 libgnomecanvas
 libgnomecanvas-32bit
+libgnomecanvas-64bit
 libgnomecanvas-devel
 libgnomecanvas-doc
 libgnomecups
@@ -1874,6 +1870,7 @@ libgnomesu-devel
 libgnomesu0
 libgnomeui
 libgnomeui-32bit
+libgnomeui-64bit
 libgnomeui-devel
 libgnomeui-doc
 libgnutls-devel
@@ -1901,6 +1898,7 @@ libgpod3
 libgsf
 libgsf-1-114
 libgsf-1-114-32bit
+libgsf-1-114-64bit
 libgsf-devel
 libgsf-doc
 libgsf-gnome
@@ -1928,6 +1926,7 @@ libgweather
 libgweather-devel
 libgweather1
 libgweather1-32bit
+libgweather1-64bit
 libgwenhywfar38
 libhangul
 libical0
@@ -2152,10 +2151,10 @@ libreiserfs-64bit
 librpcsecgss
 librsvg
 librsvg-32bit
+librsvg-64bit
 librsvg-devel
 librtas
 libsamplerate
-libsatsolver-devel
 libsensors3
 libsensors3-devel
 libsensors4
@@ -2260,6 +2259,7 @@ libwmf-gnome
 libwnck
 libwnck-1-22
 libwnck-1-22-32bit
+libwnck-1-22-64bit
 libwnck-devel
 libwpd-0_8-8
 libwpg-0_1-1
@@ -2268,7 +2268,6 @@ libx86
 libxcrypt
 libxcrypt-32bit
 libxcrypt-64bit
-libxcrypt-devel
 libxfce4mcs
 libxfce4util
 libxfcegui4
@@ -2295,7 +2294,6 @@ libzip1
 libzrtpcpp1
 libzvbi0
 libzypp
-libzypp-devel
 licenses
 liferea
 lighttpd
@@ -2315,7 +2313,6 @@ linux-atm-lib
 linux-kernel-headers
 linux32
 lirc
-lirc-kmp-default
 lklug
 log4j
 login
@@ -2414,9 +2411,11 @@ mousepad
 mousetweaks
 mozilla-nspr
 mozilla-nspr-32bit
+mozilla-nspr-64bit
 mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-32bit
+mozilla-nss-64bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner181
@@ -2571,12 +2570,12 @@ opensuse-manual_de
 opensuse-manual_en
 openswan
 openvpn
-opera
 opie
 opie-32bit
 opie-64bit
 oprofile
 oprofile-32bit
+oprofile-64bit
 optipng
 orage
 orbit
@@ -3301,7 +3300,6 @@ terminus-font
 texinfo
 texlive
 texlive-bin
-texlive-bin-cjk
 texlive-bin-dvilj
 texlive-bin-latex
 texlive-bin-metapost
@@ -3446,7 +3444,6 @@ wget
 whois
 wiggle
 wine
-wink
 wireless-tools
 wireshark
 wlan-ng-kmp-default
@@ -3688,11 +3685,8 @@ yast2-control-center
 yast2-control-center-gnome
 yast2-control-center-qt
 yast2-core
-yast2-core-devel
 yast2-country
 yast2-country-data
-yast2-devel-doc
-yast2-devtools
 yast2-dhcp-server
 yast2-dns-server
 yast2-drbd
@@ -3705,7 +3699,6 @@ yast2-hardware-detection
 yast2-http-server
 yast2-inetd
 yast2-installation
-yast2-installation-devel-doc
 yast2-instserver
 yast2-irda
 yast2-iscsi-client
@@ -3717,7 +3710,6 @@ yast2-ldap
 yast2-ldap-client
 yast2-ldap-server
 yast2-libyui
-yast2-libyui-devel
 yast2-live-installer
 yast2-mail
 yast2-mail-plugins
@@ -3725,16 +3717,13 @@ yast2-metapackage-handler
 yast2-mouse
 yast2-multipath
 yast2-ncurses
-yast2-ncurses-devel
 yast2-ncurses-pkg
 yast2-network
-yast2-network-devel-doc
 yast2-nfs-client
 yast2-nfs-common
 yast2-nfs-server
 yast2-nis-client
 yast2-nis-server
-yast2-nis-server-devel-doc
 yast2-ntp-client
 yast2-online-update
 yast2-online-update-frontend
@@ -3743,19 +3732,15 @@ yast2-pam
 yast2-perl-bindings
 yast2-phone-services
 yast2-pkg-bindings
-yast2-pkg-bindings-devel-doc
 yast2-printer
-yast2-printer-devel-doc
 yast2-product-creator
 yast2-profile-manager
 yast2-python-bindings
 yast2-qt
-yast2-qt-devel
 yast2-qt-pkg
 yast2-registration
 yast2-repair
 yast2-restore
-yast2-ruby-bindings
 yast2-runlevel
 yast2-samba-client
 yast2-samba-server
@@ -3767,13 +3752,10 @@ yast2-slp-server
 yast2-sound
 yast2-squid
 yast2-storage
-yast2-storage-devel
-yast2-storage-evms
 yast2-storage-lib
 yast2-sudo
 yast2-support
 yast2-sysconfig
-yast2-testsuite
 yast2-tftp-server
 yast2-theme-openSUSE
 yast2-theme-openSUSE-Crystal
@@ -3845,7 +3827,6 @@ yast2-vm
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
-yast2-ycp-ui-bindings-devel
 yauap
 yelp
 yp-tools
