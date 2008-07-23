@@ -61,6 +61,7 @@ do
   eval VAR="\$GEN_URL_${i}"
   sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" > $file.$arch.xml
   sed -i -e '/!-- SLES_LOCKS -->/r sles-locks.xml' $file.$arch.xml
+  sed -i -e '/!-- INCLUDE sles-common.xml -->/r sles-common.xml' $file.$arch.xml 
 
   rm -rf /tmp/myrepos /var/cache/zypp
   mkdir -p $TESTTRACK/$base.$arch/CD1/
