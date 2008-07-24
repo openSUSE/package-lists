@@ -49,7 +49,7 @@ internals=`pdb query --filter status:internal`
 test -n "$internals" || exit 1
 
 sh ./create_locks.sh $internals `pdb query --filter status:candidate` `pdb query --filter status:frozen` \
-  `pdb query --filter distributable:no` `cat $ignore_list` > locks.xml
+  `cat $ignore_list` > locks.xml
 sh ./create_locks.sh `for i in /work/cd/lib/put_built_to_cd/locations-stable/sles_only/*; do basename $i; done` > sles-locks.xml
 
 ret=0
