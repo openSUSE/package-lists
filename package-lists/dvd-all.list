@@ -62,7 +62,6 @@ OpenOffice_org
 OpenOffice_org-Quickstarter
 OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
-OpenOffice_org-branding-upstream
 OpenOffice_org-calc
 OpenOffice_org-draw
 OpenOffice_org-filters
@@ -229,15 +228,9 @@ ant-trax
 anthy
 antlr
 apache2
-apache2-devel
-apache2-doc
-apache2-example-pages
 apache2-mod_mono
 apache2-mod_perl
-apache2-mod_php5
-apache2-mod_python
 apache2-mod_tidy
-apache2-prefork
 apache2-utils
 apache2-worker
 apel
@@ -328,7 +321,6 @@ barcode
 bash
 bash-completion
 bash-doc
-batik
 bc
 bcel
 beagle
@@ -353,7 +345,6 @@ bison
 bison-32bit
 bison-64bit
 black-box
-blender
 blktrace
 blt
 bluez-cups
@@ -512,10 +503,6 @@ cracklib-dict-small
 createrepo
 cromfs
 cron
-cross-spu-binutils
-cross-spu-gcc
-cross-spu-newlib
-cross-spu-newlib-headers
 cryptconfig
 cryptconfig-32bit
 cryptconfig-64bit
@@ -561,7 +548,6 @@ dazuko-kmp-pae
 dazuko-kmp-xen
 db-utils
 db1
-dbsplit-tools
 dbus-1
 dbus-1-32bit
 dbus-1-64bit
@@ -588,6 +574,8 @@ delayacct-utils
 deltarpm
 deskbar-applet
 desktop-data-openSUSE
+desktop-data-openSUSE-extra
+desktop-data-openSUSE-extra-gnome
 desktop-file-utils
 desktop-translations
 devhelp
@@ -616,12 +604,9 @@ dirmngr
 dmraid
 dnsmasq
 docbook-dsssl-stylesheets
-docbook-xml-website
 docbook-xsl-stylesheets
-docbook5-xsl-stylesheets
 docbook_3
 docbook_4
-docbook_5
 dos2unix
 dosfstools
 dovecot
@@ -716,7 +701,6 @@ fonts-config
 fonts-thai
 fonts-thryomanes
 foomatic-filters
-fop
 fortune
 free-ttf-fonts
 freealut
@@ -804,9 +788,9 @@ gedit
 genisoimage
 geronimo
 geronimo-jaf-1_0_2-api
+geronimo-jetty-servlet-container
 geronimo-jms-1_1-api
 geronimo-specs-poms
-geronimo-tomcat-servlet-container
 gettext-runtime
 gettext-runtime-32bit
 gettext-runtime-64bit
@@ -837,6 +821,15 @@ giflib-devel-64bit
 gimp
 gimp-branding-openSUSE
 gimp-help
+gimp-help-de
+gimp-help-es
+gimp-help-fr
+gimp-help-it
+gimp-help-nb
+gimp-help-nl
+gimp-help-pl
+gimp-help-ru
+gimp-help-sv
 gimp-plugins-python
 git
 git-arch
@@ -1198,8 +1191,10 @@ iwl4965-ucode
 jakarta-commons-beanutils
 jakarta-commons-codec
 jakarta-commons-collections
+jakarta-commons-collections-tomcat5
 jakarta-commons-daemon
 jakarta-commons-dbcp
+jakarta-commons-dbcp-tomcat5
 jakarta-commons-digester
 jakarta-commons-discovery
 jakarta-commons-el
@@ -1210,14 +1205,13 @@ jakarta-commons-launcher
 jakarta-commons-logging
 jakarta-commons-modeler
 jakarta-commons-pool
+jakarta-commons-pool-tomcat5
 jakarta-commons-validator
 jakarta-taglibs-standard
 jarnal
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_6_0-sun
-java-1_6_0-sun-alsa
-java-1_6_0-sun-devel
 java-1_6_0-sun-jdbc
 java-1_6_0-sun-plugin
 javacc
@@ -1228,7 +1222,6 @@ jedit
 jessie
 jfsutils
 jhead
-jing
 joe
 jpackage-utils
 jpeg
@@ -1320,7 +1313,6 @@ kde4-konsole
 kde4-kontact
 kde4-kopete
 kde4-korganizer
-kde4-korn
 kde4-kpat
 kde4-krdc
 kde4-kreversi
@@ -1368,6 +1360,7 @@ kde4-marble
 kde4-marble-data
 kde4-okular
 kde4-opensuse-updater
+kde4-plasma-addons
 kdeaccessibility3
 kdeaddons3-games
 kdeaddons3-kate
@@ -1400,6 +1393,7 @@ kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-session
+kdebase4-wallpapers
 kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
@@ -1526,7 +1520,6 @@ kiwi-desc-vmxboot
 kiwi-desc-xenboot
 kiwi-pxeboot
 kiwi-tools
-klipsi
 klogd
 kmobiletools
 kmymoney
@@ -1573,7 +1566,6 @@ kover
 kpartx
 kpl
 kpowersave
-kpsion
 kqemu-kmp-default
 kqemu-kmp-pae
 kradio
@@ -1644,15 +1636,13 @@ libakode
 libakode-devel
 libakonadi4
 libakonadiprotocolinternals-devel
-libakonadiprotocolinternals0
+libakonadiprotocolinternals1
 libao
 libao-devel
 libapparmor-devel
 libapparmor1
 libapr-util1
-libapr-util1-devel
 libapr1
-libapr1-devel
 libarchive2
 libart_lgpl
 libart_lgpl-32bit
@@ -1874,7 +1864,6 @@ libgnomeui-64bit
 libgnomeui-devel
 libgnomeui-doc
 libgnutls-devel
-libgnutls-extra26
 libgnutls26
 libgnutls26-32bit
 libgnutls26-64bit
@@ -2135,7 +2124,7 @@ libquicktime
 libraptor-devel
 libraptor1
 librasqal-devel
-librasqal0
+librasqal1
 libraw1394-8
 libraw1394-8-32bit
 libraw1394-8-64bit
@@ -2168,7 +2157,7 @@ libsmbclient0
 libsmbclient0-32bit
 libsmbclient0-64bit
 libsmbios-bin
-libsmbios-libs
+libsmbios2
 libsndfile
 libsnmp15
 libsoprano-devel
@@ -2180,8 +2169,6 @@ libsoup-2_4-1-64bit
 libsoup-devel
 libsoup-devel-32bit
 libsoup-devel-64bit
-libspe
-libspe-64bit
 libspectre1
 libspeex
 libspeex-32bit
@@ -2189,6 +2176,7 @@ libspeex-64bit
 libsqlite3-0
 libsqlite3-0-32bit
 libsqlite3-0-64bit
+libssh2-1
 libssui
 libssui0
 libstdc++-devel
@@ -2437,8 +2425,6 @@ multipath-tools
 multisync-gui
 mutt
 mx4j
-mxml
-myldapklient
 myspell-american
 myspell-brazilian
 myspell-british
@@ -2456,8 +2442,6 @@ myspell-portuguese
 myspell-russian
 myspell-spanish
 myspell-swedish
-mysql
-mysql-client
 mysql-connector-java
 nagios
 nagios-www
@@ -2523,7 +2507,6 @@ ntp-doc
 numactl
 numlockx
 nvu
-nxml-mode
 nxtvepg
 obex-data-server
 obexftp
@@ -2576,7 +2559,6 @@ opie-64bit
 oprofile
 oprofile-32bit
 oprofile-64bit
-optipng
 orage
 orbit
 orbit2
@@ -2906,8 +2888,6 @@ planner-devel
 planner-lang
 plasma-theme-aya
 plotutils
-plptools
-plptools-devel
 pm-utils
 pmidi
 pmtools
@@ -2947,7 +2927,6 @@ procmail
 procps
 providers
 ps3-utils
-psgml
 psiconv
 psmisc
 pstoedit
@@ -3094,29 +3073,19 @@ ruby-tk
 rubygem-FlexMock
 rubygem-RedCloth
 rubygem-abstract
-rubygem-actionmailer
-rubygem-actionpack
-rubygem-actionwebservice
-rubygem-activerecord
-rubygem-activesupport
 rubygem-capistrano
-rubygem-daemons
 rubygem-erubis
-rubygem-gem_plugin
 rubygem-highline
-rubygem-mongrel
 rubygem-needle
 rubygem-net-sftp
 rubygem-net-ssh
 rubygem-postgres
-rubygem-rails
 rubygem-rake
 rubygems
 rxvt-unicode
 rzsz
 sabayon
 sabayon-lang
-sablot
 samba
 samba-32bit
 samba-64bit
@@ -3139,7 +3108,6 @@ sax2-ident
 sax2-libsax
 sax2-libsax-perl
 sax2-tools
-saxon
 sazanami-fonts
 sbl
 scim
@@ -3183,6 +3151,7 @@ sendfax
 sendmail
 sensors
 servletapi5
+sesam_srv
 setserial
 sfftobmp
 sg3_utils
@@ -3249,7 +3218,6 @@ supertux
 suse-build-key
 suse-desktop-utils
 suseRegister
-susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -3259,7 +3227,6 @@ susehelp_fr
 susehelp_hu
 susehelp_it
 suspend
-svg-schema
 swig
 sysconfig
 sysfsutils
@@ -3288,8 +3255,6 @@ tcpd-devel
 tcpdump
 tcsh
 tdom
-tei-roma
-tei-xsl-stylesheets
 tellico
 tellico-lang
 telnet
@@ -3306,7 +3271,6 @@ texlive-bin-metapost
 texlive-bin-omega
 texlive-bin-tools
 texlive-bin-xetex
-texlive-bin-xmltex
 texlive-context
 texlive-dvilj
 texlive-latex
@@ -3314,7 +3278,6 @@ texlive-metapost
 texlive-omega
 texlive-tools
 texlive-xetex
-texlive-xmltex
 tftp
 thinkeramik
 thinkeramik-32bit
@@ -3352,7 +3315,6 @@ tomcat6-webapps
 totem
 totem-pl-parser
 totem-plugin
-trang
 transfig
 translation-update
 translation-update-de
@@ -3405,9 +3367,6 @@ utempter-32bit
 utempter-64bit
 util-linux
 uuid-runtime
-uvcvideo-kmp-default
-uvcvideo-kmp-pae
-uvcvideo-kmp-xen
 v4l-conf
 v4l-tools
 vacation
@@ -3546,8 +3505,6 @@ xfsdump
 xfsprogs
 xfwm4
 xfwm4-themes
-xgl
-xgl-hardware-list
 xhtml-dtd
 xine-lib
 xine-lib-32bit
@@ -3567,9 +3524,6 @@ xml-commons-apis
 xml-commons-resolver
 xml-commons-which
 xmlcharent
-xmlformat
-xmlstarlet
-xmlto
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-devel
@@ -3665,14 +3619,12 @@ xpdf-tools
 xpp
 xsane
 xscreensaver
-xslide
 xsp
 xstroke
 xterm
 xtermset
 xv
 xvkbd
-yafray
 yast2
 yast2-add-on
 yast2-add-on-creator
@@ -3696,7 +3648,6 @@ yast2-firstboot
 yast2-ftp-server
 yast2-gtk
 yast2-hardware-detection
-yast2-http-server
 yast2-inetd
 yast2-installation
 yast2-instserver

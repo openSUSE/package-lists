@@ -17,10 +17,8 @@ OpenOffice_org
 OpenOffice_org-Quickstarter
 OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
-OpenOffice_org-branding-upstream
 OpenOffice_org-calc
 OpenOffice_org-draw
-OpenOffice_org-help-en-US
 OpenOffice_org-icon-themes
 OpenOffice_org-impress
 OpenOffice_org-kde
@@ -44,7 +42,6 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-oss-32bit
-alsa-plugins
 alsa-utils
 amarok
 amarok-libvisual
@@ -77,6 +74,7 @@ blktrace
 bluez-firmware
 bluez-libs
 bluez-utils
+boost
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -287,6 +285,7 @@ kde4-kwrite
 kde4-l10n-de
 kde4-okular
 kde4-opensuse-updater
+kde4-plasma-addons
 kdeartwork4-screensaver
 kdebase3-runtime
 kdebase4
@@ -333,7 +332,7 @@ libQtWebKit4
 libacl
 libaio
 libakonadi4
-libakonadiprotocolinternals0
+libakonadiprotocolinternals1
 libao
 libapparmor1
 libarchive2
@@ -391,7 +390,6 @@ libglib-2_0-0-32bit
 libgmodule-2_0-0
 libgmodule-2_0-0-32bit
 libgnome
-libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
 libgobject-2_0-0-32bit
@@ -456,7 +454,6 @@ libnuma1
 libofa0
 libogg0
 liboil
-libopencdk10
 libopenct1
 libopensc2
 libopenssl0_9_8
@@ -481,7 +478,7 @@ librpcsecgss
 libsamplerate
 libsmbclient0
 libsmbios-bin
-libsmbios-libs
+libsmbios2
 libsndfile
 libsoprano4
 libsoup
@@ -623,12 +620,14 @@ perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
+perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
+perl-NetxAP
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
@@ -765,8 +764,6 @@ xdg-utils
 xerces-j2
 xerces-j2-xml-apis
 xfsprogs
-xgl
-xgl-hardware-list
 xine-lib
 xinetd
 xkeyboard-config

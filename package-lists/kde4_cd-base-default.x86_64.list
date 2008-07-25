@@ -8,7 +8,6 @@ a2ps
 aaa_base
 acl
 acpid
-alsa-plugins
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -25,6 +24,7 @@ bind-libs
 bind-utils
 binutils
 blktrace
+boost
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -115,7 +115,6 @@ less
 libacl
 libaio
 libapparmor1
-libasound2
 libattr
 libavahi-client3
 libavahi-common3
@@ -138,7 +137,6 @@ libgcrypt11
 libgimpprint
 libglib-2_0-0
 libgmodule-2_0-0
-libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
 libgpg-error0
@@ -159,7 +157,6 @@ libncurses5
 libncurses5-32bit
 libnscd
 libnuma1
-libopencdk10
 libopenct1
 libopensc2
 libopenssl0_9_8
@@ -169,7 +166,7 @@ libpoppler3
 libreadline5
 libreiserfs
 librpcsecgss
-libsmbios-libs
+libsmbios2
 libsqlite3-0
 libstdc++43
 libtiff3
@@ -240,12 +237,14 @@ perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
+perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
+perl-NetxAP
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML

@@ -11,11 +11,9 @@ NetworkManager-gnome
 OpenOffice_org
 OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
-OpenOffice_org-branding-upstream
 OpenOffice_org-calc
 OpenOffice_org-draw
 OpenOffice_org-gnome
-OpenOffice_org-help-en-US
 OpenOffice_org-icon-themes
 OpenOffice_org-impress
 OpenOffice_org-l10n-en-US
@@ -38,7 +36,6 @@ adaptec-firmware
 alsa
 alsa-firmware
 alsa-oss
-alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 apparmor-parser
@@ -81,6 +78,7 @@ bluez-gnome
 bluez-libs
 bluez-utils
 bogofilter
+boost
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -408,7 +406,6 @@ libgnomeprintui
 libgnomesu
 libgnomesu0
 libgnomeui
-libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
 libgpg-error0
@@ -454,7 +451,6 @@ libnscd
 libnvtv
 libogg0
 liboil
-libopencdk10
 libopenct1
 libopensc2
 libopenssl0_9_8
@@ -483,7 +479,7 @@ libsexy
 libsigc++2
 libsmbclient0
 libsmbios-bin
-libsmbios-libs
+libsmbios2
 libsndfile
 libsoup
 libsoup-2_4-1
@@ -632,12 +628,14 @@ perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
+perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
+perl-NetxAP
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
@@ -802,8 +800,6 @@ xdg-utils
 xerces-j2
 xerces-j2-xml-apis
 xfsprogs
-xgl
-xgl-hardware-list
 xinetd
 xkeyboard-config
 xmlcharent
