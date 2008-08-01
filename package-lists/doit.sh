@@ -2,7 +2,9 @@
 
 ./gen.sh sled-1 || exit 1
 ./gen.sh sled-2 || exit 1
-cat sled-*.all.list | LC_ALL=C sort -u > sled-all.list
+for i in i586 x86_64 all; do
+  cat sled-1.$i.list sled-2.$i.list | LC_ALL=C sort -u > sled-$i.list
+done
 
 ./gen.sh kde4_cd || exit 1
 ./gen.sh kde4_cd-default || exit 1
@@ -13,7 +15,9 @@ cat sled-*.all.list | LC_ALL=C sort -u > sled-all.list
 ./gen.sh dvd5-1
 ./gen.sh dvd5-2
 ./gen.sh dvd5-3
-cat dvd5-1.all.list dvd5-2.all.list dvd5-3.all.list | LC_ALL=C sort -u > dvd-all.list
+for i in i586 x86_64 ppc all; do
+  cat dvd5-1.$i.list dvd5-2.$i.list dvd5-3.$i.list | LC_ALL=C sort -u > dvd-$i.list
+done
 ./gen.sh kde4_cd-base-default
 ./gen.sh gnome_cd-x11-default
 
@@ -40,3 +44,5 @@ done
 ./gen.sh sles-1
 ./gen.sh sles-2
 cat sles-*.all.list | LC_ALL=C sort -u > sles-all.list
+
+

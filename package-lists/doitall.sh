@@ -23,8 +23,6 @@ cd update-tests
 ./testall.sh
 cd ..
 
-svn commit -m "auto commit"
-
 diff=0
 for arch in i586 x86_64 ppc; do
   for f in gnome_cd-default gnome_cd kde4_cd-default kde4_cd kde3_cd gnome_cd-x11-default kde4_cd-base-default; do
@@ -43,7 +41,17 @@ cp *.list saved
 
 set -e
 
-./check_yast.sh dvd5-1.i586.list __i386__
-./check_yast.sh dvd5-1.x86_64.list __x86_64__
-./check_yast.sh dvd5-1.ppc.list __powerpc__
+./check_yast.sh dvd-i586.list __i386__
+./check_yast.sh dvd-x86_64.list __x86_64__
+./check_yast.sh dvd-ppc.list __powerpc__
+
+(
+./check_size.sh dvd-i586.list i386
+./check_size.sh dvd-x86_64.list x86_64
+./check_size.sh dvd-ppc.list ppc
+./check_size.sh sled-i586.list i386
+./check_size.sh sled-x86_64.list x86_64
+) | tee sizes
+
+svn commit -m "auto commit"
 
