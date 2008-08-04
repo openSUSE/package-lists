@@ -201,6 +201,7 @@ alsa-utils
 amarok
 amarok-libvisual
 amarok-yauap
+amavisd-new
 anjuta
 anjuta-lang
 ant
@@ -292,6 +293,7 @@ audit-libs-64bit
 aufs
 aufs-kmp-default
 aufs-kmp-pae
+aufs-kmp-ppc64
 aufs-kmp-xen
 aumix
 autoconf
@@ -341,6 +343,7 @@ bison
 bison-32bit
 bison-64bit
 black-box
+blender
 blktrace
 blt
 bluez-cups
@@ -624,7 +627,7 @@ enchant-voikko
 enscript
 eog
 epiphany
-epiphany-branding-upstream
+epiphany-branding-openSUSE
 epiphany-devel
 epiphany-doc
 epiphany-extensions
@@ -957,7 +960,6 @@ gnopernicus-devel
 gnopernicus-lang
 gnu-crypto
 gnu-jaf
-gnu-javamail
 gnu-regexp
 gnucash
 gnucash-docs
@@ -1167,6 +1169,7 @@ ivtv
 ivtv-firmware
 ivtv-kmp-default
 ivtv-kmp-pae
+ivtv-kmp-ppc64
 ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
@@ -1193,8 +1196,6 @@ java-1_5_0-gcj-compat-devel
 java-1_6_0-openjdk
 java-1_6_0-openjdk-devel
 java-1_6_0-openjdk-plugin
-java-1_6_0-sun
-java-1_6_0-sun-jdbc
 javacc
 javamail-monolithic
 jdepend
@@ -1307,6 +1308,8 @@ kde4-ktimetracker
 kde4-ktnef
 kde4-kturtle
 kde4-ktux
+kde4-kupdateapplet
+kde4-kupdateapplet-packagekit
 kde4-kwalletmanager
 kde4-kweather
 kde4-kwin
@@ -1337,7 +1340,6 @@ kde4-lskat
 kde4-marble
 kde4-marble-data
 kde4-okular
-kde4-opensuse-updater
 kde4-plasma-addons
 kde4-webkitpart
 kdeaccessibility3
@@ -1425,6 +1427,7 @@ kdemultimedia3-video
 kdemultimedia3-video-xine
 kdemultimedia4
 kdenetwork3
+kdenetwork3-IRC
 kdenetwork3-InstantMessenger
 kdenetwork3-dialup
 kdenetwork3-lan
@@ -1577,6 +1580,7 @@ lcms
 less
 lessons4lizards_en
 lftp
+lha
 libEMF
 libFLAC++6
 libFLAC8
@@ -1726,6 +1730,7 @@ libesd-devel
 libesd0
 libesd0-32bit
 libesd0-64bit
+libesmtp
 libevent
 libexempi3
 libexif
@@ -2180,6 +2185,7 @@ libtiff-devel-64bit
 libtiff3
 libtiff3-32bit
 libtiff3-64bit
+libtomoe-gtk0
 libtool
 libtool-32bit
 libtool-64bit
@@ -2261,8 +2267,6 @@ limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
-lineak_kde
-lineakd
 link-grammar
 links
 linux-atm-lib
@@ -2358,6 +2362,8 @@ mono-nunit
 mono-tools
 mono-web
 mono-winforms
+mono-zeroconf
+mono-zeroconf-provider-avahi
 monodevelop
 monodoc-core
 monsoon
@@ -2414,7 +2420,6 @@ mysql-connector-java
 nagios
 nagios-www
 nano
-nant
 nautilus
 nautilus-32bit
 nautilus-64bit
@@ -2431,8 +2436,6 @@ ncpfs
 ncpfs-32bit
 ncpfs-64bit
 ncurses-devel
-ncurses-devel-32bit
-ncurses-devel-64bit
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
@@ -2598,10 +2601,12 @@ perl-Apache-DBI
 perl-Apache-Session
 perl-Apache-SessionX
 perl-AppConfig
+perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-BIND-Conf_Parser
 perl-BSD-Resource
+perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
@@ -2676,9 +2681,12 @@ perl-HTML-Template-Expr
 perl-HTML-Template-JIT
 perl-HTML-Tree
 perl-HTTP-DAV
+perl-HTTPS-Daemon
 perl-IO-Multiplex
+perl-IO-Socket-SSL
 perl-IO-String
 perl-IO-Stty
+perl-IO-stringy
 perl-IPC-Run
 perl-Image-Size
 perl-Inline
@@ -2687,9 +2695,11 @@ perl-Log-Dispatch
 perl-Log-Log4perl
 perl-MIME-Lite
 perl-MIME-Types
+perl-MIME-tools
 perl-MLDBM
 perl-MLDBM-Sync
 perl-Mail-Mbox-MessageParser
+perl-MailTools
 perl-Mcrypt
 perl-Module-Info
 perl-NKF
@@ -2697,10 +2707,13 @@ perl-Net-DNS
 perl-Net-Daemon
 perl-Net-IP
 perl-Net-IPv4Addr
+perl-Net-Jabber
 perl-Net-Netmask
 perl-Net-SNMP
+perl-Net-SSLeay
 perl-Net-Server
 perl-Net-Telnet
+perl-Net-XMPP
 perl-NetAddr-IP
 perl-NetxAP
 perl-PDA-Pilot
@@ -2716,6 +2729,7 @@ perl-Quantum-Superpositions
 perl-RPC-XML
 perl-SGMLS
 perl-SNMP
+perl-SOAP-Lite
 perl-SQL-Statement
 perl-SVN-Simple
 perl-Set-Crontab
@@ -2741,6 +2755,7 @@ perl-Tk
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
+perl-Unix-Syslog
 perl-WeakRef
 perl-X500-DN
 perl-XML-Bare
@@ -2754,6 +2769,7 @@ perl-XML-Parser
 perl-XML-RegExp
 perl-XML-SAX
 perl-XML-Simple
+perl-XML-Stream
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XQL
@@ -2763,10 +2779,12 @@ perl-base
 perl-doc
 perl-gettext
 perl-ldap
+perl-ldap-ssl
 perl-libapparmor
 perl-libconfigfile
 perl-libwww-perl
 perl-libxml-perl
+perl-spamassassin
 perlref
 permissions
 pessulus
@@ -3007,6 +3025,7 @@ scim-tables-additional
 scim-tables-ja
 scim-tables-skim
 scim-tables-zh
+scim-tomoe
 scim-uim
 scotty
 scpm
@@ -3027,7 +3046,6 @@ sendfax
 sendmail
 sensors
 servletapi5
-sesam_srv
 setserial
 sfftobmp
 sg3_utils
@@ -3062,6 +3080,7 @@ soprano-backend-redland
 sound-juicer
 sound-juicer-lang
 sox
+spamassassin
 splashy
 sqlite2
 sqlite3
@@ -3171,6 +3190,10 @@ tktable
 tla
 tls
 tomboy
+tomboy-lang
+tomoe
+tomoe-gtk
+tomoe-gtk-lang
 totem
 totem-pl-parser
 totem-plugin
@@ -3203,6 +3226,8 @@ uim-gtk2
 uim-qt
 ulimit
 umtsmon
+unace
+unarj
 unclutter
 unfonts
 ungifsicle
@@ -3480,6 +3505,7 @@ xterm
 xtermset
 xv
 xvkbd
+yafray
 yast2
 yast2-add-on
 yast2-add-on-creator
@@ -3651,5 +3677,6 @@ zlib-64bit
 zlib-devel
 zlib-devel-32bit
 zlib-devel-64bit
+zoo
 zsh
 zypper

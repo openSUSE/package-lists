@@ -3,11 +3,13 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
+IlmBase
 Mesa
 MozillaFirefox
 NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
+OpenEXR
 OpenOffice_org
 OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
@@ -319,6 +321,8 @@ iwl4965-ucode
 jfsutils
 jpackage-utils
 kbd
+kdelibs3
+kdelibs3-default-style
 kernel-default
 keyutils-libs
 klogd
@@ -485,6 +489,7 @@ libsmbios2
 libsndfile
 libsoup
 libsoup-2_4-1
+libspectre1
 libspeex
 libsqlite3-0
 libssui
@@ -551,6 +556,8 @@ mono-data
 mono-data-sqlite
 mono-web
 mono-winforms
+mono-zeroconf
+mono-zeroconf-provider-avahi
 monsoon
 mousetweaks
 mozilla-nspr
@@ -700,6 +707,7 @@ python-opengl
 python-orbit
 python-xml
 qlogic-firmware
+qt3
 quota
 rarian
 recode

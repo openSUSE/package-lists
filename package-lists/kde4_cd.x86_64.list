@@ -26,6 +26,7 @@ OpenOffice_org-l10n-en-US
 OpenOffice_org-templates-labels-a4
 OpenOffice_org-templates-labels-letter
 OpenOffice_org-writer
+PackageKit
 PolicyKit
 PolicyKit-doc
 PolicyKit-kde
@@ -280,12 +281,13 @@ kde4-krdc
 kde4-krfb
 kde4-kscd
 kde4-ksnapshot
+kde4-kupdateapplet
+kde4-kupdateapplet-packagekit
 kde4-kwalletmanager
 kde4-kwin
 kde4-kwrite
 kde4-l10n-de
 kde4-okular
-kde4-opensuse-updater
 kde4-plasma-addons
 kde4-webkitpart
 kdeartwork4-screensaver
@@ -382,6 +384,7 @@ libfuse2
 libgcc43
 libgcc43-32bit
 libgcrypt11
+libgdiplus0
 libgimpprint
 libgio-2_0-0
 libgio-2_0-0-32bit
@@ -389,6 +392,7 @@ libgio-fam
 libglade2
 libglib-2_0-0
 libglib-2_0-0-32bit
+libgluezilla0
 libgmodule-2_0-0
 libgmodule-2_0-0-32bit
 libgnome
@@ -474,7 +478,10 @@ libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
 libqt4-x11
+libraptor1
+librasqal1
 libreadline5
+libredland0
 libreiserfs
 librpcsecgss
 libsamplerate
@@ -550,6 +557,7 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
+mono-core
 mozilla-nspr
 mozilla-nss
 mozilla-xulrunner190

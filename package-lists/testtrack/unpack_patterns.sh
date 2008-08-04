@@ -23,7 +23,7 @@ sh ../prepare_patterns.sh i586 i386 openSUSE
 sh ../prepare_patterns.sh x86_64 x86_64 openSUSE
 sh ../prepare_patterns.sh ppc powerpc openSUSE
 
-for flav in kde3 kde4 gnome; do
+for flav in kde3 kde4 gnome x11; do
   for arch in i586 x86_64 ppc; do
     rm -rf "$flav"_cd.$arch
     copy /tmp/patterns.$arch/CD1/suse/setup/descr/"$flav"_cd-*.pat "$flav"_cd.$arch

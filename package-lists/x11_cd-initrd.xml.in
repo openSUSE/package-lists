@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
+    <system file="solver-system.xml"/>
+    <locale name="en_US"/>
+  </setup>
+  <trial>
+    <!-- ignoring some lang provides -->
+    <!-- INTERNALS -->
+    <!-- SLES_LOCKS -->
+    <install kind="package" name="aufs"/>
+    <install kind="package" name="aufs-kmp-default"/>
+    <install kind="package" name="bind-libs"/>
+    <install kind="package" name="bind-utils"/>
+    <install kind="package" name="bootsplash"/>
+    <install kind="package" name="bootsplash-branding-openSUSE"/>
+    <install kind="package" name="cromfs"/>
+    <install kind="package" name="dhcpcd"/>
+    <install kind="package" name="e2fsprogs"/>
+    <install kind="package" name="eject"/>
+    <install kind="package" name="file"/>
+    <install kind="package" name="fribidi"/>
+    <install kind="package" name="gfxboot-devel"/> <!-- !ppc -->
+    <install kind="package" name="grub"/> <!-- !ppc -->
+    <install kind="package" name="hwinfo"/>
+    <install kind="package" name="kernel-default"/>
+    <install kind="package" name="kiwi-tools"/>
+    <install kind="package" name="make"/>
+    <install kind="package" name="module-init-tools"/>
+    <install kind="package" name="squashfs"/>
+    <install kind="package" name="sysconfig"/>
+    <install kind="package" name="sysfsutils"/>
+    <install kind="package" name="tar"/>
+    <install kind="package" name="syslinux"/> <!-- !ppc -->
+    <install kind="package" name="patch"/>
+    <install kind="package" name="yast2-live-installer"/>
+    <install kind="package" name="memtest86+"/> <!-- !ppc -->
+    <install kind="package" name="checkmedia"/>
+    <install kind="package" name="yast2-firstboot"/>
+    <install kind="package" name="yast2-qt-pkg"/>
+    <reportProblems/>
+    <showpool verbose="true"/>
+  </trial>
+</test>
