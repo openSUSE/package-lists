@@ -152,6 +152,7 @@ SDL_perl
 SDL_ttf
 SuSEfirewall2
 TeX-Guy
+TeXmacs
 Terminal
 VFlib3
 WindowMaker
@@ -239,8 +240,6 @@ apparmor-utils
 aqbanking
 aqbanking-lang
 armagetron
-arpwatch
-arpwatch-ethercodes
 art-sharp2
 arts
 arts-devel
@@ -319,6 +318,7 @@ barcode
 bash
 bash-completion
 bash-doc
+batik
 bc
 bcel
 beagle
@@ -443,9 +443,6 @@ cairomm
 canna
 canna-libs
 cannadic
-capi4hylafax
-capi4linux
-capisuite
 ccache
 cdk
 cdparanoia
@@ -544,6 +541,7 @@ dazuko-kmp-pae
 dazuko-kmp-xen
 db-utils
 db1
+dbsplit-tools
 dbus-1
 dbus-1-32bit
 dbus-1-64bit
@@ -558,7 +556,6 @@ dbus-1-qt3
 dbus-1-qt3-devel
 dbus-1-x11
 dcraw
-ddclient
 ddd
 ddrescue
 ddskk
@@ -569,6 +566,7 @@ delayacct-utils
 deltarpm
 deskbar-applet
 desktop-data-openSUSE
+desktop-data-openSUSE-extra-gnome
 desktop-file-utils
 desktop-translations
 devhelp
@@ -597,15 +595,19 @@ dirmngr
 dmraid
 dnsmasq
 docbook-dsssl-stylesheets
+docbook-xml-website
 docbook-xsl-stylesheets
+docbook5-xsl-stylesheets
 docbook_3
 docbook_4
+docbook_5
 dos2unix
 dosfstools
 dovecot
 doxygen
 dvb
 dvd+rw-tools
+dvi2tty
 e2fsprogs
 e2fsprogs-devel
 eID-belgium
@@ -635,7 +637,6 @@ epiphany-extensions-lang
 epiphany-lang
 epos
 eric
-esound-daemon
 ethtool
 evince
 evolution
@@ -694,7 +695,9 @@ fonts-config
 fonts-thai
 fonts-thryomanes
 foomatic-filters
+fop
 fortune
+free-ttf-fonts
 freealut
 freeciv
 freefont
@@ -1081,7 +1084,6 @@ hunspell-tools
 hwinfo
 hylafax
 hylafax-client
-i4l-base
 i4l-isdnlog
 icecream
 icecream-monitor
@@ -1097,7 +1099,6 @@ ifnteuro
 ifntjapa
 ifntjapb
 ifplugd
-iftop
 ikvm
 imlib
 imlib2
@@ -1202,13 +1203,13 @@ jdepend
 jedit
 jfsutils
 jhead
+jing
 joe
 jpackage-utils
 jpeg
 jtools
 junit
 k3b
-kadslwatch
 kaffeine
 kaffeine-gstreamer
 kakasi
@@ -1429,7 +1430,6 @@ kdemultimedia4
 kdenetwork3
 kdenetwork3-IRC
 kdenetwork3-InstantMessenger
-kdenetwork3-dialup
 kdenetwork3-lan
 kdenetwork3-lisa
 kdenetwork3-news
@@ -1477,7 +1477,6 @@ keyutils-libs-32bit
 keyutils-libs-64bit
 kile
 kinput2
-kinternet
 kio_beagle
 kio_ipodslave
 kio_iso
@@ -1485,15 +1484,11 @@ kio_slp
 kio_sysinfo
 kiosktool
 kipi-plugins
-kisdnwatch
-kismet
 kitchensync
 kiwi
 kiwi-desc-isoboot
 kiwi-desc-netboot
-kiwi-desc-oemboot
 kiwi-desc-usbboot
-kiwi-desc-vmxboot
 kiwi-desc-xenboot
 kiwi-pxeboot
 kiwi-tools
@@ -1572,7 +1567,6 @@ kvpnc
 kwatch
 kwin-decor-suse2
 kxmleditor
-kyum
 laptop-mode-tools
 latex2html-pngicons
 lbreakout
@@ -1600,7 +1594,6 @@ libacl
 libacl-32bit
 libacl-64bit
 libacl-devel
-libadns1
 libaio
 libaio-32bit
 libaio-64bit
@@ -1708,7 +1701,6 @@ libdb-4_5-64bit
 libdb-4_5-devel
 libdbus-1-qt3-0
 libdjvulibre15
-libdnet1
 libdns_sd
 libdns_sd-32bit
 libdns_sd-64bit
@@ -1993,7 +1985,6 @@ libncurses5-32bit
 libncurses5-64bit
 libneon-devel
 libneon27
-libnet
 libnetpbm10
 libnjb
 libnjb5
@@ -2057,7 +2048,6 @@ libosip2
 libosip2-devel
 libotf
 libotr2
-libpcap
 libphonon4
 libpisock-devel
 libpisock9
@@ -2292,6 +2282,7 @@ lukemftp
 lv
 lvm2
 lynx
+lyx
 lzma
 lzma-alpha-devel
 lzo
@@ -2394,11 +2385,11 @@ mpt-status
 mrtg
 msynctool
 mtools
-mtr
 multipath-tools
 multisync-gui
 mutt
 mx4j
+mxml
 myspell-american
 myspell-brazilian
 myspell-british
@@ -2417,8 +2408,6 @@ myspell-russian
 myspell-spanish
 myspell-swedish
 mysql-connector-java
-nagios
-nagios-www
 nano
 nautilus
 nautilus-32bit
@@ -2458,7 +2447,6 @@ nfs-client
 nfs-kernel-server
 nfsidmap
 nkf
-nmap
 noteedit
 notification-daemon
 notification-daemon-xfce
@@ -2477,6 +2465,7 @@ ntp
 ntp-doc
 numactl
 numlockx
+nxml-mode
 nxtvepg
 obex-data-server
 obexftp
@@ -2527,6 +2516,7 @@ opie-64bit
 oprofile
 oprofile-32bit
 oprofile-64bit
+optipng
 orage
 orbit
 orbit2
@@ -2736,7 +2726,6 @@ perl-Set-Crontab
 perl-Set-Object
 perl-Set-Scalar
 perl-Socket6
-perl-Spreadsheet-WriteExcel
 perl-Template-Toolkit
 perl-TermReadKey
 perl-TermReadLine-Gnu
@@ -2760,7 +2749,6 @@ perl-WeakRef
 perl-X500-DN
 perl-XML-Bare
 perl-XML-DOM
-perl-XML-Generator
 perl-XML-LibXML
 perl-XML-LibXML-Common
 perl-XML-LibXSLT
@@ -2772,7 +2760,6 @@ perl-XML-Simple
 perl-XML-Stream
 perl-XML-Writer
 perl-XML-XPath
-perl-XML-XQL
 perl-XML-XSLT
 perl-YAML
 perl-base
@@ -2837,10 +2824,7 @@ powerprefs
 powersave
 powersave-libs
 powertop
-ppp
-ppp-userpass
 pptp
-pptpd
 prctl
 preload
 privoxy
@@ -2849,6 +2833,7 @@ procmail
 procps
 providers
 ps3-utils
+psgml
 psiconv
 psmisc
 pstoedit
@@ -2887,7 +2872,6 @@ python-gnome-devel
 python-gnome-extras
 python-gobject2
 python-gobject2-devel
-python-gpgme
 python-gtk
 python-gtk-devel
 python-gtk-vnc
@@ -2946,14 +2930,11 @@ qtcurve-gtk2
 qtcurve-gtk2-32bit
 qtcurve-gtk2-64bit
 qtcurve-kde
-quagga
 quickcam-kmp-default
 quickcam-kmp-pae
 quilt
 quota
-radvd
 rarian
-rarpd
 rcs
 rdesktop
 readline-devel
@@ -2982,6 +2963,7 @@ rxvt-unicode
 rzsz
 sabayon
 sabayon-lang
+sablot
 samba
 samba-32bit
 samba-64bit
@@ -3004,6 +2986,7 @@ sax2-ident
 sax2-libsax
 sax2-libsax-perl
 sax2-tools
+saxon
 sazanami-fonts
 sbl
 scim
@@ -3047,7 +3030,6 @@ sendmail
 sensors
 servletapi5
 setserial
-sfftobmp
 sg3_utils
 sgml-skel
 shared-mime-info
@@ -3071,7 +3053,6 @@ smartlink-softmodem
 smartmontools
 smolt
 smp_utils
-smpppd
 snack
 snmp-mibs
 solarwolf
@@ -3088,8 +3069,6 @@ sqlite3-devel
 sqlite3-tcl
 squashfs
 squid
-squid3
-squidGuard
 sshfs
 star
 startup-notification
@@ -3112,6 +3091,7 @@ supertux
 suse-build-key
 suse-desktop-utils
 suseRegister
+susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -3121,6 +3101,7 @@ susehelp_fr
 susehelp_hu
 susehelp_it
 suspend
+svg-schema
 swig
 sysconfig
 sysfsutils
@@ -3146,9 +3127,10 @@ tcludp
 tclx
 tcpd
 tcpd-devel
-tcpdump
 tcsh
 tdom
+tei-roma
+tei-xsl-stylesheets
 tellico
 tellico-lang
 telnet
@@ -3159,10 +3141,21 @@ terminus-font
 texinfo
 texlive
 texlive-bin
+texlive-bin-dvilj
 texlive-bin-latex
+texlive-bin-metapost
+texlive-bin-omega
 texlive-bin-tools
+texlive-bin-xetex
+texlive-bin-xmltex
+texlive-context
+texlive-dvilj
 texlive-latex
+texlive-metapost
+texlive-omega
 texlive-tools
+texlive-xetex
+texlive-xmltex
 tftp
 thinkeramik
 thinkeramik-32bit
@@ -3190,13 +3183,13 @@ tktable
 tla
 tls
 tomboy
-tomboy-lang
 tomoe
 tomoe-gtk
 tomoe-gtk-lang
 totem
 totem-pl-parser
 totem-plugin
+trang
 transfig
 translation-update
 translation-update-de
@@ -3281,11 +3274,9 @@ w3m-el
 w3m-el-xemacs
 wdiff
 wget
-whois
 wiggle
 wine
 wireless-tools
-wireshark
 wlan-ng-kmp-default
 wlan-ng-kmp-pae
 wlan-ng-kmp-xen
@@ -3299,7 +3290,6 @@ wsdl4j
 wv
 wv2
 wv2-devel
-wvdial
 wvstreams
 wvstreams-devel
 wwwoffle
@@ -3404,6 +3394,9 @@ xml-commons-apis
 xml-commons-resolver
 xml-commons-which
 xmlcharent
+xmlformat
+xmlstarlet
+xmlto
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-devel
@@ -3499,6 +3492,7 @@ xpdf-tools
 xpp
 xsane
 xscreensaver
+xslide
 xsp
 xstroke
 xterm
@@ -3664,9 +3658,6 @@ yelp
 yp-tools
 ypbind
 ypserv
-yum
-yum-basearchonly
-yum-metadata-parser
 zd1211-firmware
 zenity
 zip

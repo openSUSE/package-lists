@@ -43,6 +43,7 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-oss-32bit
+alsa-plugins-pulse
 alsa-utils
 amarok
 amarok-libvisual
@@ -149,7 +150,6 @@ dvd+rw-tools
 e2fsprogs
 eject
 enchant
-esound-daemon
 ethtool
 expat
 fam
@@ -315,7 +315,6 @@ kdetv
 kernel-default
 keyutils-libs
 keyutils-libs-32bit
-kinternet
 kipi-plugins
 klogd
 konversation
@@ -465,12 +464,13 @@ libopensc2
 libopenssl0_9_8
 libopenssl0_9_8-32bit
 libotr2
-libpcap
 libphonon4
 libpng12-0
 libpng12-0-32bit
 libpoppler-qt4-3
 libpoppler3
+libpulse0
+libpulsecore4
 libqca2
 libqimageblitz4
 libqt4
@@ -563,6 +563,8 @@ mozilla-nss
 mozilla-xulrunner190
 mozilla-xulrunner190-gnomevfs
 mpt-firmware
+mtools
+multipath-tools
 myspell-american
 ncurses-utils
 ndiswrapper
@@ -669,12 +671,13 @@ portmap
 postfix
 powersave
 powersave-libs
-ppp
 pptp
 preload
 procps
 psmisc
 pth
+pulseaudio
+pulseaudio-esound-compat
 pwdutils
 python
 python-cairo
@@ -710,7 +713,6 @@ siga
 simple-ccsm
 slang
 smp_utils
-smpppd
 soprano
 soprano-backend-redland
 splashy
@@ -759,8 +761,6 @@ wireless-tools
 wlan-ng-kmp-default
 wodim
 wpa_supplicant
-wvdial
-wvstreams
 x11-input-fujitsu
 x11-input-synaptics
 x11-input-wacom
