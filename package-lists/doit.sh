@@ -47,4 +47,5 @@ done
 ./gen.sh sles-2
 cat sles-*.all.list | LC_ALL=C sort -u > sles-all.list
 
-
+./gen.sh sdk
+cat sdk.all.list | LC_ALL=C sort -u > sdk-all.list
