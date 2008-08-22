@@ -37,6 +37,12 @@ if (echo $file | grep "sles" > /dev/null); then
   base=${file/-*/}
 fi
 
+if (echo $file | grep "sdk" > /dev/null); then
+  GEN_ARCH="i586 x86_64 ppc ia64"
+  base=${file/-*/}
+fi
+
+
 LOCK=
 LOCK2=
 ignore_list=ignore_all
