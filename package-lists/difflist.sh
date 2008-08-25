@@ -12,5 +12,5 @@ difflist sled-all.list sled11-dvd-i386
 #difflist promo_dvd.i586.list suse110-dvd5-promo-i386
 
 diff -u autobuild-lists/sles-all.list sles-all.list > /package_lists/purely_for_kukuk
-difflist sdk-all.list sdk
+difflist sdk-all.list sles11-sdk-dvd-i386
 
