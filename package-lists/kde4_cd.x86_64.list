@@ -3,12 +3,12 @@
 ConsoleKit
 ConsoleKit-32bit
 ConsoleKit-x11
-DirectFB
 IlmBase
 LibVNCServer
 Mesa
 Mesa-32bit
 MozillaFirefox
+MozillaFirefox-branding-upstream
 NetworkManager
 NetworkManager-glib
 NetworkManager-kde
@@ -183,6 +183,7 @@ ghostscript-x11
 giflib
 glib2
 glib2-branding-openSUSE
+glib2-lang
 glibc
 glibc-32bit
 glibc-locale
@@ -271,8 +272,6 @@ kde4-kmail
 kde4-kmix
 kde4-knewsticker
 kde4-knotes
-kde4-konqueror
-kde4-konqueror-plugins
 kde4-konsole
 kde4-kontact
 kde4-kopete
@@ -289,7 +288,6 @@ kde4-kwrite
 kde4-l10n-de
 kde4-okular
 kde4-plasma-addons
-kde4-webkitpart
 kdeartwork4-screensaver
 kdebase3-runtime
 kdebase4
@@ -315,6 +313,7 @@ kdetv
 kernel-default
 keyutils-libs
 keyutils-libs-32bit
+kinternet
 kipi-plugins
 klogd
 konversation
@@ -464,6 +463,7 @@ libopensc2
 libopenssl0_9_8
 libopenssl0_9_8-32bit
 libotr2
+libpcap0
 libphonon4
 libpng12-0
 libpng12-0-32bit
@@ -485,6 +485,9 @@ libredland0
 libreiserfs
 librpcsecgss
 libsamplerate
+libselinux1
+libselinux1-32bit
+libsepol1
 libsmbclient0
 libsmbios-bin
 libsmbios2
@@ -522,7 +525,6 @@ libwbclient0
 libwpd-0_8-8
 libwpg-0_1-1
 libwps-0_1-1
-libx86
 libxcrypt
 libxcrypt-32bit
 libxklavier
@@ -547,7 +549,6 @@ lsscsi
 lukemftp
 lvm2
 lzma
-lzo
 mailx
 man
 master-boot-code
@@ -567,8 +568,6 @@ mtools
 multipath-tools
 myspell-american
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 neon
 net-tools
 netcat
@@ -671,6 +670,7 @@ portmap
 postfix
 powersave
 powersave-libs
+ppp
 pptp
 preload
 procps
@@ -713,9 +713,9 @@ siga
 simple-ccsm
 slang
 smp_utils
+smpppd
 soprano
 soprano-backend-redland
-splashy
 sqlite2
 sqlite3
 startup-notification
@@ -728,7 +728,6 @@ suseRegister
 susehelp
 susehelp_de
 susehelp_en
-suspend
 sysconfig
 sysfsutils
 syslog-ng
@@ -761,6 +760,8 @@ wireless-tools
 wlan-ng-kmp-default
 wodim
 wpa_supplicant
+wvdial
+wvstreams
 x11-input-fujitsu
 x11-input-synaptics
 x11-input-wacom

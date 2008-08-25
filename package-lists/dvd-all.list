@@ -37,6 +37,7 @@ Mesa-32bit
 Mesa-64bit
 Mesa-devel
 MozillaFirefox
+MozillaFirefox-branding-upstream
 MozillaFirefox-translations
 MozillaSunbird
 MozillaSunbird-translations
@@ -49,8 +50,6 @@ NetworkManager-devel
 NetworkManager-glib
 NetworkManager-gnome
 NetworkManager-kde
-NetworkManager-openvpn
-NetworkManager-openvpn-gnome
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 OpenEXR
@@ -176,9 +175,6 @@ acroread-cmaps
 acroread-fonts-ja
 acroread-fonts-zh_CN
 acroread-fonts-zh_TW
-acx-kmp-default
-acx-kmp-pae
-acx-kmp-xen
 adaptec-firmware
 aelfred
 agfa-fonts
@@ -240,6 +236,8 @@ apparmor-utils
 aqbanking
 aqbanking-lang
 armagetron
+arpwatch
+arpwatch-ethercodes
 art-sharp2
 arts
 arts-devel
@@ -270,7 +268,6 @@ at-spi
 at-spi-devel
 at76_usb-kmp-default
 at76_usb-kmp-pae
-at76_usb-kmp-xen
 atftp
 atk
 atk-devel
@@ -293,7 +290,6 @@ aufs
 aufs-kmp-default
 aufs-kmp-pae
 aufs-kmp-ppc64
-aufs-kmp-xen
 aumix
 autoconf
 autofs
@@ -367,7 +363,6 @@ bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
-bridge-utils
 briquolo
 bsd-games
 bsf
@@ -443,6 +438,9 @@ cairomm
 canna
 canna-libs
 cannadic
+capi4hylafax
+capi4linux
+capisuite
 ccache
 cdk
 cdparanoia
@@ -538,7 +536,6 @@ dasher-lang
 datakiosk
 dazuko-kmp-default
 dazuko-kmp-pae
-dazuko-kmp-xen
 db-utils
 db1
 dbsplit-tools
@@ -556,6 +553,7 @@ dbus-1-qt3
 dbus-1-qt3-devel
 dbus-1-x11
 dcraw
+ddclient
 ddd
 ddrescue
 ddskk
@@ -593,7 +591,6 @@ digikamimageplugins-superimpose
 ding
 dirmngr
 dmraid
-dnsmasq
 docbook-dsssl-stylesheets
 docbook-xml-website
 docbook-xsl-stylesheets
@@ -854,6 +851,7 @@ glib2-devel
 glib2-devel-32bit
 glib2-devel-64bit
 glib2-doc
+glib2-lang
 glibc
 glibc-32bit
 glibc-64bit
@@ -995,8 +993,6 @@ groff
 grub
 gsf-sharp
 gsl
-gspcav-kmp-default
-gspcav-kmp-pae
 gst-fluendo-mp3
 gstreamer-0_10
 gstreamer-0_10-32bit
@@ -1084,6 +1080,7 @@ hunspell-tools
 hwinfo
 hylafax
 hylafax-client
+i4l-base
 i4l-isdnlog
 icecream
 icecream-monitor
@@ -1099,6 +1096,7 @@ ifnteuro
 ifntjapa
 ifntjapb
 ifplugd
+iftop
 ikvm
 imlib
 imlib2
@@ -1115,7 +1113,6 @@ inn
 input-utils
 insserv
 inst-source-utils
-install-initrd
 intlfnts
 intltool
 ipadic
@@ -1162,16 +1159,13 @@ itcl-32bit
 itcl-64bit
 itcl-devel
 itk
-itrace
 itrace-64bit
-itrace-kmp-ppc64
 ivman
 ivtv
 ivtv-firmware
 ivtv-kmp-default
 ivtv-kmp-pae
 ivtv-kmp-ppc64
-ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
 iwl4965-ucode
@@ -1210,6 +1204,7 @@ jpeg
 jtools
 junit
 k3b
+kadslwatch
 kaffeine
 kaffeine-gstreamer
 kakasi
@@ -1286,7 +1281,6 @@ kde4-knewsticker
 kde4-knode
 kde4-knotes
 kde4-kolf
-kde4-konqueror
 kde4-konqueror-plugins
 kde4-konquest
 kde4-konsole
@@ -1342,7 +1336,6 @@ kde4-marble
 kde4-marble-data
 kde4-okular
 kde4-plasma-addons
-kde4-webkitpart
 kdeaccessibility3
 kdeaddons3-games
 kdeaddons3-kate
@@ -1430,6 +1423,7 @@ kdemultimedia4
 kdenetwork3
 kdenetwork3-IRC
 kdenetwork3-InstantMessenger
+kdenetwork3-dialup
 kdenetwork3-lan
 kdenetwork3-lisa
 kdenetwork3-news
@@ -1467,7 +1461,6 @@ kernel-pae
 kernel-ppc64
 kernel-source
 kernel-syms
-kernel-xen
 kerry
 kerry-lang
 kexec-tools
@@ -1477,6 +1470,7 @@ keyutils-libs-32bit
 keyutils-libs-64bit
 kile
 kinput2
+kinternet
 kio_beagle
 kio_ipodslave
 kio_iso
@@ -1484,11 +1478,15 @@ kio_slp
 kio_sysinfo
 kiosktool
 kipi-plugins
+kisdnwatch
+kismet
 kitchensync
 kiwi
 kiwi-desc-isoboot
 kiwi-desc-netboot
+kiwi-desc-oemboot
 kiwi-desc-usbboot
+kiwi-desc-vmxboot
 kiwi-desc-xenboot
 kiwi-pxeboot
 kiwi-tools
@@ -1594,6 +1592,7 @@ libacl
 libacl-32bit
 libacl-64bit
 libacl-devel
+libadns1
 libaio
 libaio-32bit
 libaio-64bit
@@ -1701,6 +1700,7 @@ libdb-4_5-64bit
 libdb-4_5-devel
 libdbus-1-qt3-0
 libdjvulibre15
+libdnet1
 libdns_sd
 libdns_sd-32bit
 libdns_sd-64bit
@@ -1983,8 +1983,11 @@ libmysqlclient_r15
 libncurses5
 libncurses5-32bit
 libncurses5-64bit
+libncurses6-32bit
+libncurses6-64bit
 libneon-devel
 libneon27
+libnet
 libnetpbm10
 libnjb
 libnjb5
@@ -2048,6 +2051,7 @@ libosip2
 libosip2-devel
 libotf
 libotr2
+libpcap0
 libphonon4
 libpisock-devel
 libpisock9
@@ -2110,11 +2114,17 @@ librsvg-64bit
 librsvg-devel
 librtas
 libsamplerate
+libselinux1
+libselinux1-32bit
+libselinux1-64bit
 libsensors3
 libsensors3-devel
 libsensors4
 libsensors4-32bit
 libsensors4-64bit
+libsepol1
+libsepol1-32bit
+libsepol1-64bit
 libsexy
 libshout3
 libsigc++2
@@ -2190,8 +2200,6 @@ libuuid-devel
 libuuid1
 libuuid1-32bit
 libuuid1-64bit
-libvirt
-libvirt-python
 libvisual
 libvisual-32bit
 libvisual-64bit
@@ -2219,7 +2227,6 @@ libwnck-devel
 libwpd-0_8-8
 libwpg-0_1-1
 libwps-0_1-1
-libx86
 libxcrypt
 libxcrypt-32bit
 libxcrypt-64bit
@@ -2285,7 +2292,6 @@ lynx
 lyx
 lzma
 lzma-alpha-devel
-lzo
 m17n-db
 m17n-lib
 m4
@@ -2385,6 +2391,7 @@ mpt-status
 mrtg
 msynctool
 mtools
+mtr
 multipath-tools
 multisync-gui
 mutt
@@ -2408,6 +2415,8 @@ myspell-russian
 myspell-spanish
 myspell-swedish
 mysql-connector-java
+nagios
+nagios-www
 nano
 nautilus
 nautilus-32bit
@@ -2425,13 +2434,11 @@ ncpfs
 ncpfs-32bit
 ncpfs-64bit
 ncurses-devel
+ncurses-devel-32bit
+ncurses-devel-64bit
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
-ndiswrapper
-ndiswrapper-kmp-default
-ndiswrapper-kmp-pae
-ndiswrapper-kmp-xen
 neon
 net-snmp
 net-snmp-32bit
@@ -2447,6 +2454,7 @@ nfs-client
 nfs-kernel-server
 nfsidmap
 nkf
+nmap
 noteedit
 notification-daemon
 notification-daemon-xfce
@@ -2473,7 +2481,6 @@ ocfs2-tools
 ocrad
 omnibook-kmp-default
 omnibook-kmp-pae
-omnibook-kmp-xen
 opal
 open-iscsi
 openSUSE-release
@@ -2509,7 +2516,6 @@ opensuse-kdequick_de
 opensuse-manual_de
 opensuse-manual_en
 openswan
-openvpn
 opie
 opie-32bit
 opie-64bit
@@ -2824,7 +2830,10 @@ powerprefs
 powersave
 powersave-libs
 powertop
+ppp
+ppp-userpass
 pptp
+pptpd
 prctl
 preload
 privoxy
@@ -2874,7 +2883,6 @@ python-gobject2
 python-gobject2-devel
 python-gtk
 python-gtk-devel
-python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-httplib2
@@ -2930,11 +2938,12 @@ qtcurve-gtk2
 qtcurve-gtk2-32bit
 qtcurve-gtk2-64bit
 qtcurve-kde
-quickcam-kmp-default
-quickcam-kmp-pae
+quagga
 quilt
 quota
+radvd
 rarian
+rarpd
 rcs
 rdesktop
 readline-devel
@@ -3030,6 +3039,7 @@ sendmail
 sensors
 servletapi5
 setserial
+sfftobmp
 sg3_utils
 sgml-skel
 shared-mime-info
@@ -3053,6 +3063,7 @@ smartlink-softmodem
 smartmontools
 smolt
 smp_utils
+smpppd
 snack
 snmp-mibs
 solarwolf
@@ -3062,13 +3073,14 @@ sound-juicer
 sound-juicer-lang
 sox
 spamassassin
-splashy
 sqlite2
 sqlite3
 sqlite3-devel
 sqlite3-tcl
 squashfs
 squid
+squid3
+squidGuard
 sshfs
 star
 startup-notification
@@ -3100,7 +3112,6 @@ susehelp_es
 susehelp_fr
 susehelp_hu
 susehelp_it
-suspend
 svg-schema
 swig
 sysconfig
@@ -3127,6 +3138,7 @@ tcludp
 tclx
 tcpd
 tcpd-devel
+tcpdump
 tcsh
 tdom
 tei-roma
@@ -3192,10 +3204,12 @@ totem-plugin
 trang
 transfig
 translation-update
+translation-update-cs
 translation-update-de
 translation-update-es
 translation-update-fi
 translation-update-ja
+translation-update-pl
 translation-update-pt_BR
 treeline
 tsclient
@@ -3254,14 +3268,9 @@ vim-data
 vinagre
 vinagre-lang
 vino
-virt-manager
-virtualbox-ose
-virtualbox-ose-kmp-default
-virtualbox-ose-kmp-pae
 vlan
 vlna
 vlock
-vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -3274,12 +3283,13 @@ w3m-el
 w3m-el-xemacs
 wdiff
 wget
+whois
 wiggle
 wine
 wireless-tools
+wireshark
 wlan-ng-kmp-default
 wlan-ng-kmp-pae
-wlan-ng-kmp-xen
 wodim
 wol
 wondershaper
@@ -3290,6 +3300,7 @@ wsdl4j
 wv
 wv2
 wv2-devel
+wvdial
 wvstreams
 wvstreams-devel
 wwwoffle
@@ -3317,11 +3328,6 @@ xemacs
 xemacs-info
 xemacs-packages
 xemacs-packages-info
-xen
-xen-doc-html
-xen-doc-pdf
-xen-libs
-xen-tools
 xerces-j2
 xerces-j2-xml-apis
 xerces-j2-xml-resolver

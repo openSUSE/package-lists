@@ -2,10 +2,10 @@
 915resolution
 ConsoleKit
 ConsoleKit-x11
-DirectFB
 IlmBase
 Mesa
 MozillaFirefox
+MozillaFirefox-branding-upstream
 NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
@@ -204,6 +204,7 @@ gle
 glib-sharp2
 glib2
 glib2-branding-openSUSE
+glib2-lang
 glibc
 glibc-locale
 glibmm2
@@ -459,6 +460,7 @@ liboil
 libopenct1
 libopensc2
 libopenssl0_9_8
+libpcap0
 libpisock9
 libpisync0
 libpng12-0
@@ -479,6 +481,8 @@ libreiserfs
 librpcsecgss
 librsvg
 libsamplerate
+libselinux1
+libsepol1
 libsexy
 libsigc++2
 libsmbclient0
@@ -513,7 +517,6 @@ libwnck-1-22
 libwpd-0_8-8
 libwpg-0_1-1
 libwps-0_1-1
-libx86
 libxcrypt
 libxklavier
 libxklavier12
@@ -537,7 +540,6 @@ lsscsi
 lukemftp
 lvm2
 lzma
-lzo
 mailx
 man
 master-boot-code
@@ -575,8 +577,6 @@ nautilus-share
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
-ndiswrapper
-ndiswrapper-kmp-default
 neon
 net-tools
 netcat
@@ -676,6 +676,7 @@ portmap
 postfix
 powersave
 powersave-libs
+ppp
 pptp
 preload
 procps
@@ -737,7 +738,7 @@ silc-toolkit
 simple-ccsm
 slang
 smp_utils
-splashy
+smpppd
 sqlite2
 sqlite3
 startup-notification
@@ -747,7 +748,6 @@ suse-build-key
 suseRegister
 susehelp
 susehelp_en
-suspend
 sysconfig
 sysfsutils
 syslog-ng
@@ -792,6 +792,8 @@ wlan-ng-kmp-default
 wodim
 wpa_supplicant
 wv
+wvdial
+wvstreams
 x11-input-fujitsu
 x11-input-synaptics
 x11-input-wacom

@@ -1,10 +1,10 @@
 #!/bin/sh
 
-./gen.sh sled-1 || exit 1
-./gen.sh sled-2 || exit 1
-for i in i586 x86_64 all; do
-  cat sled-1.$i.list sled-2.$i.list | LC_ALL=C sort -u > sled-$i.list
-done
+#./gen.sh sled-1 || exit 1
+#./gen.sh sled-2 || exit 1
+#for i in i586 x86_64 all; do
+#  cat sled-1.$i.list sled-2.$i.list | LC_ALL=C sort -u > sled-$i.list
+#done
 
 ./gen.sh kde4_cd || exit 1
 ./gen.sh kde4_cd-default || exit 1
