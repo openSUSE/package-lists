@@ -3,6 +3,7 @@
 ConsoleKit
 ConsoleKit-32bit
 ConsoleKit-x11
+DirectFB
 IlmBase
 LibVNCServer
 Mesa
@@ -183,7 +184,6 @@ ghostscript-x11
 giflib
 glib2
 glib2-branding-openSUSE
-glib2-lang
 glibc
 glibc-32bit
 glibc-locale
@@ -272,6 +272,8 @@ kde4-kmail
 kde4-kmix
 kde4-knewsticker
 kde4-knotes
+kde4-konqueror
+kde4-konqueror-plugins
 kde4-konsole
 kde4-kontact
 kde4-kopete
@@ -365,7 +367,7 @@ libdaemon0
 libdb-4_5
 libdb-4_5-32bit
 libdbus-1-qt3-0
-libdjvulibre15
+libdjvulibre21
 libdns_sd
 libdrm
 libdrm-32bit
@@ -440,6 +442,7 @@ libldap-2_4-2-32bit
 libldapcpp1
 libltdl-3
 liblzmadec0
+liblzo2-2
 libmng
 libmpcdec5
 libmpfr1
@@ -525,6 +528,7 @@ libwbclient0
 libwpd-0_8-8
 libwpg-0_1-1
 libwps-0_1-1
+libx86
 libxcrypt
 libxcrypt-32bit
 libxklavier
@@ -716,6 +720,7 @@ smp_utils
 smpppd
 soprano
 soprano-backend-redland
+splashy
 sqlite2
 sqlite3
 startup-notification
@@ -728,6 +733,7 @@ suseRegister
 susehelp
 susehelp_de
 susehelp_en
+suspend
 sysconfig
 sysfsutils
 syslog-ng

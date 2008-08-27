@@ -50,6 +50,8 @@ NetworkManager-devel
 NetworkManager-glib
 NetworkManager-gnome
 NetworkManager-kde
+NetworkManager-openvpn
+NetworkManager-openvpn-gnome
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 OpenEXR
@@ -175,6 +177,8 @@ acroread-cmaps
 acroread-fonts-ja
 acroread-fonts-zh_CN
 acroread-fonts-zh_TW
+acx-kmp-default
+acx-kmp-pae
 adaptec-firmware
 aelfred
 agfa-fonts
@@ -851,7 +855,6 @@ glib2-devel
 glib2-devel-32bit
 glib2-devel-64bit
 glib2-doc
-glib2-lang
 glibc
 glibc-32bit
 glibc-64bit
@@ -1281,6 +1284,7 @@ kde4-knewsticker
 kde4-knode
 kde4-knotes
 kde4-kolf
+kde4-konqueror
 kde4-konqueror-plugins
 kde4-konquest
 kde4-konsole
@@ -1699,7 +1703,7 @@ libdb-4_5-32bit
 libdb-4_5-64bit
 libdb-4_5-devel
 libdbus-1-qt3-0
-libdjvulibre15
+libdjvulibre21
 libdnet1
 libdns_sd
 libdns_sd-32bit
@@ -1956,6 +1960,7 @@ libltdl-3-32bit
 libltdl-3-64bit
 liblua5_1
 liblzmadec0
+liblzo2-2
 libmal
 libmal-devel
 libmalaga7
@@ -2227,6 +2232,7 @@ libwnck-devel
 libwpd-0_8-8
 libwpg-0_1-1
 libwps-0_1-1
+libx86
 libxcrypt
 libxcrypt-32bit
 libxcrypt-64bit
@@ -2516,6 +2522,7 @@ opensuse-kdequick_de
 opensuse-manual_de
 opensuse-manual_en
 openswan
+openvpn
 opie
 opie-32bit
 opie-64bit
@@ -3073,6 +3080,7 @@ sound-juicer
 sound-juicer-lang
 sox
 spamassassin
+splashy
 sqlite2
 sqlite3
 sqlite3-devel
@@ -3112,6 +3120,7 @@ susehelp_es
 susehelp_fr
 susehelp_hu
 susehelp_it
+suspend
 svg-schema
 swig
 sysconfig

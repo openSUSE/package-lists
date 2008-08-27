@@ -10,7 +10,7 @@ echo -n "updating patterns "
 ./unpack_patterns.sh $diffonly > patterns.log 2>&1
 echo "done"
 cd ..
-./doit.sh || exit 1
+./doit.sh 
 cd autobuild-lists/
 ./update_lists.sh
 cd ..

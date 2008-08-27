@@ -1,5 +1,6 @@
 ConsoleKit
 ConsoleKit-32bit
+DirectFB
 PolicyKit
 PolicyKit-doc
 SuSEfirewall2
@@ -79,7 +80,6 @@ ghostscript-library
 ghostscript-omni
 glib2
 glib2-branding-openSUSE
-glib2-lang
 glibc
 glibc-32bit
 glibc-locale
@@ -152,6 +152,7 @@ libldap-2_4-2
 libldapcpp1
 libltdl-3
 liblzmadec0
+liblzo2-2
 libmng
 libncurses5
 libncurses5-32bit
@@ -176,6 +177,7 @@ libtiff3
 libusb
 libuuid1
 libvolume_id
+libx86
 libxcrypt
 libxcrypt-32bit
 libxml2
@@ -293,12 +295,14 @@ setserial
 sg3_utils
 siga
 smp_utils
+splashy
 sqlite3
 strace
 sudo
 suse-build-key
 suseRegister
 sysconfig
+sysfsutils
 syslog-ng
 sysvinit
 tar
@@ -323,6 +327,10 @@ wireless-tools
 wodim
 xdg-utils
 xinetd
+xorg-x11-libX11
+xorg-x11-libXau
+xorg-x11-libXext
+xorg-x11-libxcb
 yast2
 yast2-add-on
 yast2-apparmor
