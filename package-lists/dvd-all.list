@@ -37,7 +37,7 @@ Mesa-32bit
 Mesa-64bit
 Mesa-devel
 MozillaFirefox
-MozillaFirefox-branding-upstream
+MozillaFirefox-branding-openSUSE
 MozillaFirefox-translations
 MozillaSunbird
 MozillaSunbird-translations
@@ -172,17 +172,11 @@ abcde
 abiword
 acl
 acpid
-acroread
-acroread-cmaps
-acroread-fonts-ja
-acroread-fonts-zh_CN
-acroread-fonts-zh_TW
 acx-kmp-default
 acx-kmp-pae
 acx-kmp-xen
 adaptec-firmware
 aelfred
-agfa-fonts
 akonadi-runtime
 alacarte
 alacarte-lang
@@ -204,8 +198,6 @@ amarok
 amarok-libvisual
 amarok-yauap
 amavisd-new
-anjuta
-anjuta-lang
 ant
 ant-antlr
 ant-apache-bcel
@@ -226,7 +218,6 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
-antlr
 apache2
 apache2-mod_mono
 apache2-mod_perl
@@ -295,11 +286,11 @@ audit-libs-64bit
 aufs
 aufs-kmp-default
 aufs-kmp-pae
+aufs-kmp-ppc64
 aufs-kmp-xen
 aumix
 autoconf
 autofs
-autogen
 automake
 automoc4
 autoyast2
@@ -477,8 +468,6 @@ clucene-core-devel
 cm-unicode
 cmake
 compat-libstdc++
-compat-openssl097g
-compat-openssl097g-32bit
 compiz
 compiz-fusion-plugins-main
 compiz-gnome
@@ -611,6 +600,10 @@ dos2unix
 dosfstools
 dovecot
 doxygen
+drbd-kmp-default
+drbd-kmp-pae
+drbd-kmp-ppc64
+drbd-kmp-xen
 dvb
 dvd+rw-tools
 dvi2tty
@@ -656,6 +649,7 @@ evolution-sharp
 evolution-webcal
 evolution-webcal-lang
 exiftool
+exim
 exo
 expat
 expect
@@ -744,7 +738,6 @@ gcc-fortran-32bit
 gcc-fortran-64bit
 gcc-gij
 gcc-info
-gcc-java
 gcc-objc
 gcc-objc-32bit
 gcc-objc-64bit
@@ -757,7 +750,6 @@ gcc43-fortran-32bit
 gcc43-fortran-64bit
 gcc43-gij
 gcc43-info
-gcc43-java
 gcc43-objc
 gcc43-objc-32bit
 gcc43-objc-64bit
@@ -780,8 +772,6 @@ gdbm-devel
 gdbm-devel-32bit
 gdbm-devel-64bit
 gdk-pixbuf
-gdl
-gdl-lang
 gdm
 gdm-branding-openSUSE
 gecko-sharp2
@@ -839,13 +829,9 @@ git-cvs
 git-email
 git-svn
 gitk
-gjdoc
 gjiten
 glade
 glade-sharp2
-glade3
-glade3-lang
-glade3-libgnomedb
 gle
 glib
 glib-32bit
@@ -893,8 +879,6 @@ gnome-applets
 gnome-audio
 gnome-backgrounds
 gnome-bluetooth
-gnome-build
-gnome-build-lang
 gnome-certauth-devel
 gnome-commander
 gnome-commander-lang
@@ -927,7 +911,6 @@ gnome-main-menu-devel
 gnome-media
 gnome-media-devel
 gnome-menus
-gnome-menus-branding-SLED
 gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mount
@@ -1027,7 +1010,6 @@ gtk-xfce-engine
 gtk2
 gtk2-32bit
 gtk2-64bit
-gtk2-branding-SLED
 gtk2-branding-openSUSE
 gtk2-devel
 gtk2-devel-32bit
@@ -1038,7 +1020,6 @@ gtk2-engine-murrine-64bit
 gtk2-engines
 gtk2-engines-32bit
 gtk2-engines-64bit
-gtk2-theme-SLED
 gtk2-theme-openSUSE
 gtk2-themes
 gtkglext
@@ -1123,6 +1104,7 @@ inn
 input-utils
 insserv
 inst-source-utils
+install-initrd
 intlfnts
 intltool
 ipadic
@@ -1175,6 +1157,7 @@ ivtv
 ivtv-firmware
 ivtv-kmp-default
 ivtv-kmp-pae
+ivtv-kmp-ppc64
 ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
@@ -1197,7 +1180,6 @@ jakarta-commons-pool
 jakarta-commons-validator
 jarnal
 java-1_5_0-gcj-compat
-java-1_5_0-gcj-compat-devel
 java-1_6_0-openjdk
 java-1_6_0-openjdk-devel
 java-1_6_0-openjdk-plugin
@@ -1722,7 +1704,6 @@ libdrm-64bit
 libdrm-devel
 libdv4
 libdvdread3
-libedit0
 libeel-2-2
 libelf0
 libelf0-32bit
@@ -1757,11 +1738,8 @@ libgalago
 libgcc43
 libgcc43-32bit
 libgcc43-64bit
-libgcj-devel
 libgcj43
-libgcj43-devel
 libgcj43-jar
-libgcj_bc43
 libgcrypt-devel
 libgcrypt-devel-32bit
 libgcrypt-devel-64bit
@@ -1793,7 +1771,6 @@ libglade2-devel
 libglade2-doc
 libglademm
 libglademm-2_4-1
-libgladeui-1-7
 libglib-2_0-0
 libglib-2_0-0-32bit
 libglib-2_0-0-64bit
@@ -1983,9 +1960,6 @@ libmpfr1-32bit
 libmpfr1-64bit
 libmspack0
 libmtp8
-libmudflap43
-libmudflap43-32bit
-libmudflap43-64bit
 libmusicbrainz-devel
 libmusicbrainz4
 libmysqlclient15
@@ -2399,7 +2373,6 @@ mozilla-nss-64bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner181
-mozilla-xulrunner181-32bit
 mozilla-xulrunner190
 mozilla-xulrunner190-devel
 mozilla-xulrunner190-gnomevfs
@@ -2518,7 +2491,6 @@ openal-soft
 openct
 openjade
 openldap2
-openldap2-client
 openldap2-devel
 openldap2-devel-32bit
 openldap2-devel-64bit
@@ -2551,7 +2523,6 @@ opie-64bit
 oprofile
 oprofile-32bit
 oprofile-64bit
-optipng
 orage
 orbit
 orbit2
@@ -2823,6 +2794,7 @@ phonon-devel
 pia
 pico
 pidgin
+pidgin-branding-openSUSE
 pilot-link
 pin
 pinentry
@@ -2847,7 +2819,6 @@ popt-64bit
 popt-devel
 posix_cc
 poster
-postfix
 postgresql-libs
 postgresql-libs-32bit
 postgresql-libs-64bit
@@ -2915,7 +2886,6 @@ python-gtkglext
 python-gtksourceview
 python-httplib2
 python-kde3
-python-ldap
 python-lxml
 python-numeric
 python-opengl
@@ -3001,8 +2971,6 @@ rsync
 ruby
 rxvt-unicode
 rzsz
-sabayon
-sabayon-lang
 sablot
 samba
 samba-32bit
@@ -3097,6 +3065,7 @@ smp_utils
 smpppd
 snack
 snmp-mibs
+socat
 solarwolf
 soprano
 soprano-backend-redland
@@ -3135,7 +3104,6 @@ supertux
 suse-build-key
 suse-desktop-utils
 suseRegister
-susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -3266,7 +3234,6 @@ uim-gtk2
 uim-qt
 ulimit
 umtsmon
-unace
 unarj
 unclutter
 unfonts
