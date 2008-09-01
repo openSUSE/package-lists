@@ -51,6 +51,10 @@
     <lock kind="package" name="iscan"/>
     <lock kind="package" name="acroread_ja"/>
     <lock kind="package" name="apache2-worker"/>
+    <!-- SLE themes -->
+    <lock package="gnome-menus-branding-SLED"/>
+    <lock package="gtk2-branding-SLED"/>
+    <lock package="gtk2-theme-SLED"/>
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_dvd"/>
