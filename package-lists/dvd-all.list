@@ -179,6 +179,7 @@ acroread-fonts-zh_CN
 acroread-fonts-zh_TW
 acx-kmp-default
 acx-kmp-pae
+acx-kmp-xen
 adaptec-firmware
 aelfred
 agfa-fonts
@@ -272,6 +273,7 @@ at-spi
 at-spi-devel
 at76_usb-kmp-default
 at76_usb-kmp-pae
+at76_usb-kmp-xen
 atftp
 atk
 atk-devel
@@ -293,7 +295,7 @@ audit-libs-64bit
 aufs
 aufs-kmp-default
 aufs-kmp-pae
-aufs-kmp-ppc64
+aufs-kmp-xen
 aumix
 autoconf
 autofs
@@ -367,6 +369,7 @@ bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
+bridge-utils
 briquolo
 bsd-games
 bsf
@@ -540,6 +543,7 @@ dasher-lang
 datakiosk
 dazuko-kmp-default
 dazuko-kmp-pae
+dazuko-kmp-xen
 db-utils
 db1
 dbsplit-tools
@@ -595,6 +599,7 @@ digikamimageplugins-superimpose
 ding
 dirmngr
 dmraid
+dnsmasq
 docbook-dsssl-stylesheets
 docbook-xml-website
 docbook-xsl-stylesheets
@@ -922,6 +927,7 @@ gnome-main-menu-devel
 gnome-media
 gnome-media-devel
 gnome-menus
+gnome-menus-branding-SLED
 gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mount
@@ -949,7 +955,6 @@ gnome-system-monitor
 gnome-terminal
 gnome-themes
 gnome-utils
-gnome-vfs-obexftp
 gnome-vfs-sharp2
 gnome-vfs2
 gnome-vfs2-32bit
@@ -1022,6 +1027,7 @@ gtk-xfce-engine
 gtk2
 gtk2-32bit
 gtk2-64bit
+gtk2-branding-SLED
 gtk2-branding-openSUSE
 gtk2-devel
 gtk2-devel-32bit
@@ -1032,6 +1038,7 @@ gtk2-engine-murrine-64bit
 gtk2-engines
 gtk2-engines-32bit
 gtk2-engines-64bit
+gtk2-theme-SLED
 gtk2-theme-openSUSE
 gtk2-themes
 gtkglext
@@ -1168,7 +1175,7 @@ ivtv
 ivtv-firmware
 ivtv-kmp-default
 ivtv-kmp-pae
-ivtv-kmp-ppc64
+ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
 iwl4965-ucode
@@ -1465,6 +1472,7 @@ kernel-pae
 kernel-ppc64
 kernel-source
 kernel-syms
+kernel-xen
 kerry
 kerry-lang
 kexec-tools
@@ -1733,7 +1741,6 @@ libexif
 libexif-32bit
 libexif-64bit
 libexiv2-4
-libexpat-devel
 libexpat1
 libexpat1-32bit
 libexpat1-64bit
@@ -1988,6 +1995,7 @@ libmysqlclient_r15
 libncurses5
 libncurses5-32bit
 libncurses5-64bit
+libncurses6
 libncurses6-32bit
 libncurses6-64bit
 libneon-devel
@@ -2119,6 +2127,7 @@ librsvg-64bit
 librsvg-devel
 librtas
 libsamplerate
+libselinux-devel
 libselinux1
 libselinux1-32bit
 libselinux1-64bit
@@ -2127,6 +2136,7 @@ libsensors3-devel
 libsensors4
 libsensors4-32bit
 libsensors4-64bit
+libsepol-devel
 libsepol1
 libsepol1-32bit
 libsepol1-64bit
@@ -2190,6 +2200,7 @@ libtiff-devel-64bit
 libtiff3
 libtiff3-32bit
 libtiff3-64bit
+libtirpc1
 libtomoe-gtk0
 libtool
 libtool-32bit
@@ -2205,6 +2216,8 @@ libuuid-devel
 libuuid1
 libuuid1-32bit
 libuuid1-64bit
+libvirt
+libvirt-python
 libvisual
 libvisual-32bit
 libvisual-64bit
@@ -2276,6 +2289,9 @@ linux-atm-lib
 linux-kernel-headers
 linux32
 lirc
+lirc-kmp-default
+lirc-kmp-pae
+lirc-kmp-xen
 lklug
 log4j
 login
@@ -2349,7 +2365,6 @@ moneyplex
 mono-addins
 mono-basic
 mono-core
-mono-core-32bit
 mono-data
 mono-data-firebird
 mono-data-oracle
@@ -2420,6 +2435,8 @@ myspell-portuguese
 myspell-russian
 myspell-spanish
 myspell-swedish
+mysql
+mysql-client
 mysql-connector-java
 nagios
 nagios-www
@@ -2445,6 +2462,10 @@ ncurses-devel-64bit
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
+ndiswrapper
+ndiswrapper-kmp-default
+ndiswrapper-kmp-pae
+ndiswrapper-kmp-xen
 neon
 net-snmp
 net-snmp-32bit
@@ -2487,6 +2508,7 @@ ocfs2-tools
 ocrad
 omnibook-kmp-default
 omnibook-kmp-pae
+omnibook-kmp-xen
 opal
 open-iscsi
 openSUSE-release
@@ -2823,7 +2845,6 @@ popt
 popt-32bit
 popt-64bit
 popt-devel
-portmap
 posix_cc
 poster
 postfix
@@ -2875,7 +2896,6 @@ python-64bit
 python-cairo
 python-cairo-devel
 python-compizconfig
-python-curl
 python-curses
 python-dateutil
 python-devel
@@ -2890,6 +2910,7 @@ python-gobject2
 python-gobject2-devel
 python-gtk
 python-gtk-devel
+python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-httplib2
@@ -2946,6 +2967,8 @@ qtcurve-gtk2-32bit
 qtcurve-gtk2-64bit
 qtcurve-kde
 quagga
+quickcam-kmp-default
+quickcam-kmp-pae
 quilt
 quota
 radvd
@@ -2967,6 +2990,7 @@ resmgr-32bit
 resmgr-64bit
 ripit
 ristretto
+rpcbind
 rpm
 rpm-devel
 rpm-python
@@ -3277,9 +3301,11 @@ vim-data
 vinagre
 vinagre-lang
 vino
+virt-manager
 vlan
 vlna
 vlock
+vm-install
 vorbis-tools
 vpnc
 vsftpd
@@ -3299,6 +3325,7 @@ wireless-tools
 wireshark
 wlan-ng-kmp-default
 wlan-ng-kmp-pae
+wlan-ng-kmp-xen
 wodim
 wol
 wondershaper
@@ -3337,6 +3364,11 @@ xemacs
 xemacs-info
 xemacs-packages
 xemacs-packages-info
+xen
+xen-doc-html
+xen-doc-pdf
+xen-libs
+xen-tools
 xerces-j2
 xerces-j2-xml-apis
 xerces-j2-xml-resolver
