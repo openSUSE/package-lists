@@ -56,5 +56,8 @@ set -e
 ./check_size.sh sled-x86_64.list x86_64
 ) | tee sizes
 
-svn commit -m "auto commit"
+./mk_group.sh dvd-all.list REST-DVD osc/openSUSE\:Factory/_product/group.dvd-all.xml
+./mk_group.sh sled-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/group.sled-all.xml
+./mk_group.sh sdk-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/group.sdk-all.xml
 
+svn commit -m "auto commit"
