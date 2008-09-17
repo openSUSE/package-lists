@@ -49,10 +49,10 @@ set -e
 ./check_yast.sh sled-x86_64.list __x86_64__
 
 (
-./check_size.sh dvd-i586.list i386
+./check_size.sh dvd-i586.list i586
 ./check_size.sh dvd-x86_64.list x86_64
 ./check_size.sh dvd-ppc.list ppc
-./check_size.sh sled-i586.list i386
+./check_size.sh sled-i586.list i586
 ./check_size.sh sled-x86_64.list x86_64
 ) | tee sizes
 
