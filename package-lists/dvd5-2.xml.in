@@ -54,12 +54,11 @@
     <install kind="package" name="squid"/>
     <install kind="package" name="icewm-default"/>
     <install kind="package" name="yast2-theme-openSUSE-Oxygen"/>
-    <install kind="package" name="hpijs-standalone"/>
     <!-- install kind="package" name="geronimo-tomcat-servlet-container"/ -->
     <install kind="package" name="xpdf-tools"/>
 <!--    <install kind="package" name="openSUSE-release-live"/> -->
     <install kind="package" name="cracklib-dict-small"/>
-    <install kind="package" name="iscan"/> <!-- !ppc -->
+<!--    <install kind="package" name="iscan"/> --><!-- !ppc -->
     <lock kind="package" name="acroread_ja"/> <!-- !ppc -->
     <lock kind="package" name="apache2-prefork"/>
     <reportProblems/>
