@@ -38,7 +38,7 @@ if (echo $file | grep "sles" > /dev/null); then
 fi
 
 if (echo $file | grep "sdk" > /dev/null); then
-  GEN_ARCH="i586 x86_64 ppc ia64"
+  GEN_ARCH="i586 x86_64 ppc"
   base=${file/-*/}
 fi
 
