@@ -24,7 +24,7 @@ cd update-tests
 cd ..
 
 diff=0
-for arch in i586 x86_64 ppc; do
+for arch in i586 x86_64; do
   for f in gnome_cd-default gnome_cd kde4_cd-default kde4_cd kde3_cd gnome_cd-x11-default kde4_cd-base-default; do
      if ! diff -u saved/$f.$arch.list $f.$arch.list ; then
         diff=1 
