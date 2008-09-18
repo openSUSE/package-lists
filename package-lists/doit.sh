@@ -12,11 +12,11 @@ do_sled()
 
 do_opensuse()
 {
-    ./gen.sh kde4_cd || return 1
-    ./gen.sh kde4_cd-default || return 1
+    ./gen.sh kde4_cd
+    ./gen.sh kde4_cd-default
     ./gen.sh kde3_cd
-    ./gen.sh gnome_cd || return 1
-    ./gen.sh gnome_cd-default || return 1
+    ./gen.sh gnome_cd 
+    ./gen.sh gnome_cd-default 
 
     ./gen.sh dvd5-1
     ./gen.sh dvd5-2
