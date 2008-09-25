@@ -1,5 +1,4 @@
 3ddiag
-915resolution
 ConsoleKit
 ConsoleKit-x11
 DirectFB
@@ -80,6 +79,7 @@ bind-libs
 bind-utils
 binutils
 blktrace
+bluez
 bluez-firmware
 bluez-gnome
 bluez-gnome-lang
@@ -172,9 +172,9 @@ evolution-lang
 evolution-sharp
 expat
 f-spot
+f-spot-lang
 fam
 fbset
-festival
 file
 file-roller
 file-roller-lang
@@ -236,7 +236,6 @@ gnome-audio
 gnome-bluetooth
 gnome-control-center
 gnome-control-center-lang
-gnome-cups-manager
 gnome-desktop
 gnome-desktop-lang
 gnome-desktop-sharp2
@@ -244,6 +243,7 @@ gnome-do
 gnome-doc-utils
 gnome-docker
 gnome-games
+gnome-games-lang
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pam
@@ -280,7 +280,6 @@ gnome-session-lang
 gnome-settings-daemon
 gnome-settings-daemon-lang
 gnome-sharp2
-gnome-speech
 gnome-spell2
 gnome-system-monitor
 gnome-system-monitor-lang
@@ -357,6 +356,7 @@ iso-codes
 iso_ent
 iwl3945-ucode
 iwl4965-ucode
+iwl5000-ucode
 jfsutils
 kbd
 kdelibs3
@@ -396,6 +396,8 @@ libbtctl
 libbtctl4
 libbz2-1
 libcaca
+libcanberra-gtk0
+libcanberra0
 libcap2
 libcdio7
 libcdio_cdda0
@@ -414,7 +416,7 @@ libeel-2-2
 libelf1
 libenchant1
 libesd0
-libevent
+libevent-1_4-2
 libexempi3
 libexif
 libexpat1
@@ -482,6 +484,7 @@ liblcms1
 libldap-2_4-2
 libldapcpp1
 libltdl-3
+libltdl7
 liblua5_1
 liblzmadec0
 liblzo2-2
@@ -503,18 +506,21 @@ liboil
 libopenct1
 libopensc2
 libopenssl0_9_8
+libpangomm-1_4-1
 libpcap0
 libpisock9
 libpisync1
 libpng12-0
 libpoppler-glib3
 libpoppler3
+libpst0
 libpulse-browse0
 libpulse-mainloop-glib0
 libpulse0
 libpulsecore4
 libpurple
 libpurple-lang
+libpython2_6-1_0
 libqt4
 libqt4-qt3support
 libqt4-sql
@@ -547,7 +553,8 @@ libtheora0
 libthinkfinger
 libtiff3
 libtirpc1
-libusb
+libusb-0_1-4
+libusb-1_0-0
 libuuid1
 libvisual
 libvolume_id1
@@ -647,7 +654,7 @@ obex-data-server
 opal
 openSUSE-build-key
 openSUSE-release
-openSUSE-release-dvd
+openSUSE-release-dvd9
 openct
 openldap2-client
 openobex
@@ -660,8 +667,6 @@ openssl-certs
 opensuse-codecs-installer
 opensuse-manual_en
 orbit2
-orca
-orca-lang
 padevchooser
 pam
 pam-config
@@ -726,6 +731,7 @@ pm-profiler
 pm-utils
 pmtools
 podsleuth
+polkit-default-privs
 poppler-data
 poppler-tools
 popt
@@ -747,6 +753,7 @@ pulseaudio-utils
 pwdutils
 pwlib
 python
+python-base
 python-cairo
 python-compizconfig
 python-gdata
@@ -756,6 +763,7 @@ python-gobject2
 python-gtk
 python-gtkglext
 python-gtksourceview
+python-notify
 python-numeric
 python-opengl
 python-orbit
@@ -781,7 +789,6 @@ sax2-ident
 sax2-libsax
 sax2-libsax-perl
 sax2-tools
-sbl
 scout
 scpm
 scrollkeeper
@@ -795,6 +802,7 @@ simple-ccsm
 slang
 smp_utils
 smpppd
+sound-theme-freedesktop
 splashy
 sqlite2
 sqlite3
@@ -808,6 +816,7 @@ suspend
 sysconfig
 sysfsutils
 syslog-ng
+system-config-printer
 sysvinit
 t1lib
 taglib
@@ -897,6 +906,7 @@ xorg-x11-libxcb
 xorg-x11-libxkbfile
 xorg-x11-server
 xorg-x11-server-extra
+xorg-x11-xauth
 xscreensaver
 xstroke
 xterm
@@ -941,6 +951,8 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-profile-manager
+yast2-qt
+yast2-qt-pkg
 yast2-registration
 yast2-repair
 yast2-restore
