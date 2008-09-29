@@ -1,5 +1,4 @@
 3ddiag
-915resolution
 AdobeICCProfiles
 BitTorrent
 BitTorrent-curses
@@ -59,7 +58,6 @@ OpenEXR
 OpenEXR-32bit
 OpenEXR-64bit
 OpenEXR-devel
-OpenIPMI
 OpenOffice_org
 OpenOffice_org-Quickstarter
 OpenOffice_org-branding-openSUSE
@@ -202,6 +200,8 @@ alsa-plugins
 alsa-plugins-32bit
 alsa-plugins-64bit
 alsa-plugins-pulse
+alsa-plugins-pulse-32bit
+alsa-plugins-pulse-64bit
 alsa-tools
 alsa-utils
 amarok
@@ -282,6 +282,8 @@ atk
 atk-devel
 atk-devel-64bit
 atk-doc
+atl2-kmp-default
+atl2-kmp-pae
 atmel-firmware
 attr
 audacity
@@ -351,6 +353,7 @@ bison-64bit
 black-box
 blktrace
 blt
+bluez
 bluez-cups
 bluez-devel
 bluez-firmware
@@ -372,7 +375,6 @@ branding-openSUSE
 brasero
 brasero-lang
 bridge-utils
-briquolo
 bsd-games
 bsf
 bsh2
@@ -673,6 +675,7 @@ expat
 expect
 expect-devel
 f-spot
+f-spot-lang
 fam
 fam-32bit
 fam-64bit
@@ -785,7 +788,6 @@ gconf2-doc
 gconfmm
 gd
 gdb
-gdb-64bit
 gdbm
 gdbm-32bit
 gdbm-64bit
@@ -850,7 +852,9 @@ git-arch
 git-core
 git-cvs
 git-email
+git-gui
 git-svn
+git-web
 gitk
 gjdoc
 gjiten
@@ -926,6 +930,7 @@ gnome-doc-utils
 gnome-doc-utils-devel
 gnome-docker
 gnome-games
+gnome-games-lang
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-32bit
@@ -1103,9 +1108,6 @@ hal-devel
 hal-palm
 handedict
 hdparm
-heartbeat
-heartbeat-common
-heartbeat-resources
 hfsutils
 hicolor-icon-theme
 hk_classes
@@ -1211,6 +1213,7 @@ ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
 iwl4965-ucode
+iwl5000-ucode
 jakarta-commons-beanutils
 jakarta-commons-codec
 jakarta-commons-collections
@@ -1254,7 +1257,7 @@ kakasi-dict
 kasumi
 kbarcode
 kbd
-kbiff
+kblocks
 kcm_gtk
 kdbg
 kde3-i18n-cs
@@ -1278,10 +1281,12 @@ kde3-i18n-ru
 kde3-i18n-sv
 kde3-i18n-zh_CN
 kde3-i18n-zh_TW
+kde4-akonadi
 kde4-akregator
 kde4-amarok
 kde4-amor
 kde4-ark
+kde4-bovo
 kde4-dolphin
 kde4-filesystem
 kde4-gwenview
@@ -1293,9 +1298,11 @@ kde4-katomic
 kde4-kbattleship
 kde4-kblackbox
 kde4-kbounce
+kde4-kbreakout
 kde4-kcalc
 kde4-kcm_gtk
 kde4-kcolorchooser
+kde4-kdiamond
 kde4-kdm
 kde4-kdm-branding-openSUSE
 kde4-kdnssd
@@ -1312,6 +1319,7 @@ kde4-kio_iso
 kde4-kio_kamera
 kde4-kio_sysinfo
 kde4-kio_sysinfo-branding-openSUSE
+kde4-kiosktool
 kde4-kiriki
 kde4-kjumpingcube
 kde4-klines
@@ -1324,8 +1332,10 @@ kde4-knewsticker
 kde4-knode
 kde4-knotes
 kde4-kolf
+kde4-kollision
 kde4-konqueror
 kde4-konqueror-plugins
+kde4-konqueror-plugins-lang
 kde4-konquest
 kde4-konsole
 kde4-kontact
@@ -1338,6 +1348,7 @@ kde4-krfb
 kde4-ksame
 kde4-kscd
 kde4-kshisen
+kde4-ksirk
 kde4-ksnapshot
 kde4-kspaceduel
 kde4-ksquares
@@ -1345,8 +1356,10 @@ kde4-ksudoku
 kde4-kteatime
 kde4-ktimetracker
 kde4-ktnef
+kde4-ktuberling
 kde4-kturtle
 kde4-ktux
+kde4-kubrick
 kde4-kupdateapplet
 kde4-kupdateapplet-packagekit
 kde4-kwalletmanager
@@ -1380,6 +1393,10 @@ kde4-marble
 kde4-marble-data
 kde4-okular
 kde4-plasma-addons
+kde4-plasmoid-quickaccess
+kde4-plasmoid-quicklauncher
+kde4-webkitpart
+kde4-yakuake
 kdeaccessibility3
 kdeaddons3-games
 kdeaddons3-kate
@@ -1413,7 +1430,6 @@ kdebase4-runtime
 kdebase4-session
 kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
-kdebase4-workspace-branding-upstream
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebindings3
@@ -1423,7 +1439,6 @@ kdebindings3-perl
 kdebindings3-ruby
 kdebluetooth
 kdebluetooth4
-kdeedu3
 kdeedu4
 kdegames3
 kdegames3-arcade
@@ -1499,6 +1514,7 @@ kdiff3
 kdirstat
 kdissert
 kdump
+kepas
 kernel-default
 kernel-docs
 kernel-kdump
@@ -1574,6 +1590,7 @@ koffice-i18n-sv
 koffice-i18n-sv-doc
 koffice-i18n-zh_CN
 koffice-i18n-zh_TW
+koffice-illustration
 kommander
 kommander-runtime
 konserve
@@ -1622,6 +1639,7 @@ libEMF
 libFLAC++6
 libFLAC8
 libFLAC8-64bit
+libGraphicsMagick1
 libHX13
 libHX13-32bit
 libHX13-64bit
@@ -1715,6 +1733,8 @@ libbz2-1-32bit
 libbz2-1-64bit
 libbz2-devel
 libcaca
+libcanberra-gtk0
+libcanberra0
 libcap2
 libcap2-32bit
 libcap2-64bit
@@ -1768,11 +1788,9 @@ libesd0
 libesd0-32bit
 libesd0-64bit
 libesmtp
-libevent
+libevent-1_4-2
 libexempi3
 libexif
-libexif-32bit
-libexif-64bit
 libexiv2-4
 libexpat1
 libexpat1-32bit
@@ -1782,6 +1800,7 @@ libext2fs2
 libffi43
 libflashsupport
 libfluidsynth1
+libfprint0
 libfuse2
 libgadu
 libgail-gnome
@@ -1891,8 +1910,6 @@ libgpg-error0-64bit
 libgpgme-devel
 libgpgme11
 libgphoto2
-libgphoto2-32bit
-libgphoto2-64bit
 libgpod-tools
 libgpod3
 libgsf
@@ -1929,6 +1946,7 @@ libgweather1
 libgweather1-32bit
 libgweather1-64bit
 libhangul
+libheartbeat2
 libical0
 libicu
 libicu-32bit
@@ -1944,8 +1962,6 @@ libidn-64bit
 libidn-devel
 libiec61883
 libieee1284
-libieee1284-32bit
-libieee1284-64bit
 libiniparser0
 libiniparser0-32bit
 libiniparser0-64bit
@@ -1982,6 +1998,7 @@ libkipi0
 libkipi5
 libkmime2
 libkonq5
+libksane0
 libksba
 libksba-devel
 libktnef1
@@ -1996,8 +2013,9 @@ libldap-2_4-2-64bit
 libldapcpp1
 libloudmouth-1-0
 libltdl-3
-libltdl-3-32bit
-libltdl-3-64bit
+libltdl7
+libltdl7-32bit
+libltdl7-64bit
 liblua5_1
 liblzmadec0
 liblzo2-2
@@ -2058,6 +2076,7 @@ libogg0-64bit
 liboil
 liboil-32bit
 liboil-64bit
+libopenais2
 libopenal0-soft
 libopenal1-soft
 libopencdk-devel
@@ -2095,6 +2114,8 @@ libosip2
 libosip2-devel
 libotf
 libotr2
+libpacemaker3
+libpangomm-1_4-1
 libpcap0
 libphonon4
 libpisock-devel
@@ -2111,13 +2132,17 @@ libpoppler-glib3
 libpoppler-qt2
 libpoppler-qt4-3
 libpoppler3
+libpst0
 libpulse-browse0
 libpulse-mainloop-glib0
 libpulse0
+libpulse0-32bit
+libpulse0-64bit
 libpulsecore4
 libpurple
 libpurple-devel
 libpurple-lang
+libpython2_6-1_0
 libqca2
 libqdialogsolver1
 libqimageblitz-devel
@@ -2145,8 +2170,6 @@ libraw1394-8-32bit
 libraw1394-8-64bit
 libraw1394-devel
 libreadline5
-libreadline5-32bit
-libreadline5-64bit
 libredland-devel
 libredland0
 libreiserfs
@@ -2223,8 +2246,6 @@ libtheora0
 libtheora0-32bit
 libtheora0-64bit
 libthinkfinger
-libthinkfinger-32bit
-libthinkfinger-64bit
 libtiff-devel
 libtiff-devel-32bit
 libtiff-devel-64bit
@@ -2240,10 +2261,10 @@ libtunepimp
 libtunepimp5
 libtwin0
 liburiparser1
-libusb
-libusb-32bit
-libusb-64bit
-libusb-devel
+libusb-0_1-4
+libusb-1_0-0
+libusb-1_0-devel
+libusb-compat-devel
 libuuid-devel
 libuuid1
 libuuid1-32bit
@@ -2552,11 +2573,9 @@ opal
 open-iscsi
 open-vm-tools
 open-vm-tools-gui
+openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
-openSUSE-release-dvd5
-openSUSE-release-dvd9
-openais
 openal-soft
 openct
 openjade
@@ -2606,7 +2625,6 @@ orca-lang
 oro
 oxygen-icon-theme
 oxygen-icon-theme-scalable
-pacemaker
 pacman
 padevchooser
 pam
@@ -2625,8 +2643,6 @@ pam_mount
 pam_mount-32bit
 pam_mount-64bit
 pam_thinkfinger
-pam_thinkfinger-32bit
-pam_thinkfinger-64bit
 paman
 pan
 pan-lang
@@ -2882,6 +2898,7 @@ pm-utils
 pmidi
 pmtools
 podsleuth
+polkit-default-privs
 poppler-data
 poppler-tools
 popt
@@ -2921,6 +2938,7 @@ pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
+pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
@@ -2931,9 +2949,8 @@ pwgen
 pwlib
 pychecker
 python
-python-32bit
-python-64bit
 python-ReportLab
+python-base
 python-cairo
 python-cairo-devel
 python-compizconfig
@@ -2957,6 +2974,7 @@ python-httplib2
 python-kde3
 python-ldap
 python-lxml
+python-notify
 python-numeric
 python-opengl
 python-openssl
@@ -2971,7 +2989,6 @@ python-qt4
 python-satsolver
 python-serial
 python-sip
-python-tk
 python-twisted
 python-twisted-doc
 python-twisted-web
@@ -3034,6 +3051,7 @@ rpm
 rpm-devel
 rpm-python
 rsh
+rsibreak
 rsvg-view
 rsvg2-sharp
 rsync
@@ -3053,8 +3071,6 @@ samba-winbind
 samba-winbind-32bit
 samba-winbind-64bit
 sane-backends
-sane-backends-32bit
-sane-backends-64bit
 sane-backends-autoconfig
 sane-frontends
 sash
@@ -3121,6 +3137,7 @@ sil-doulos
 silc-toolkit
 simple-ccsm
 simple-ccsm-kde
+skanlite
 skim
 skim-scim-anthy
 skim-scim-canna
@@ -3142,8 +3159,10 @@ soprano
 soprano-backend-redland
 sound-juicer
 sound-juicer-lang
+sound-theme-freedesktop
 sox
 spamassassin
+speedcrunch
 splashy
 sqlite2
 sqlite3
@@ -3172,7 +3191,6 @@ subversion-tools
 sudo
 sumf
 supertux
-suse-build-key
 suse-desktop-utils
 suseRegister
 susedoc
@@ -3191,6 +3209,7 @@ sysconfig
 sysfsutils
 syslinux
 syslog-ng
+system-config-printer
 sysvinit
 t1lib
 tack
@@ -3257,6 +3276,7 @@ thunar-volman
 tiff
 tightvnc
 timezone
+timezone-java
 timidity
 tix
 tk
@@ -3347,6 +3367,7 @@ vino-lang
 virt-manager
 virtualbox-ose
 virtualbox-ose-kmp-default
+virtualbox-ose-kmp-pae
 vlan
 vlna
 vlock
@@ -3577,6 +3598,7 @@ xorg-x11-server
 xorg-x11-server-extra
 xorg-x11-server-sdk
 xorg-x11-util-devel
+xorg-x11-xauth
 xorg-x11-xtrans-devel
 xosd
 xosview

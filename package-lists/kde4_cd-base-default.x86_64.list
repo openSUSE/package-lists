@@ -130,7 +130,7 @@ libdaemon0
 libdb-4_5
 libdb-4_5-32bit
 libdns_sd
-libevent
+libevent-1_4-2
 libexpat1
 libext2fs2
 libgcc43
@@ -150,7 +150,7 @@ libksba
 liblcms1
 libldap-2_4-2
 libldapcpp1
-libltdl-3
+libltdl7
 liblzmadec0
 liblzo2-2
 libmng
@@ -164,6 +164,7 @@ libopenssl0_9_8
 libpcap0
 libpng12-0
 libpoppler3
+libpython2_6-1_0
 libreadline5
 libreiserfs
 librpcsecgss
@@ -177,7 +178,8 @@ libtalloc1
 libtdb1
 libtiff3
 libtirpc1
-libusb
+libusb-0_1-4
+libusb-1_0-0
 libuuid1
 libvolume_id1
 libwbclient0
@@ -226,7 +228,7 @@ ntp
 numactl
 openSUSE-build-key
 openSUSE-release
-openSUSE-release-dvd
+openSUSE-release-dvd9
 openct
 openldap2-client
 opensc
@@ -282,6 +284,7 @@ pinentry
 pm-profiler
 pm-utils
 pmtools
+polkit-default-privs
 poppler-data
 poppler-tools
 popt
@@ -294,6 +297,7 @@ psmisc
 pth
 pwdutils
 python
+python-base
 python-satsolver
 python-xml
 recode

@@ -30,7 +30,7 @@ do_opensuse()
     ./gen.sh x11_cd-initrd
 
     echo "diffing"
-    for arch in i586 x86_64; do
+    for arch in i586 x86_64 ppc; do
        diff -u kde4_cd.$arch.list kde4_cd-default.$arch.list | grep -v +++ | grep ^+
        diff -u gnome_cd.$arch.list gnome_cd-default.$arch.list | grep -v +++ | grep ^+
 
