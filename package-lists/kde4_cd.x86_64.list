@@ -16,9 +16,13 @@ NetworkManager-kde
 OpenEXR
 OpenOffice_org
 OpenOffice_org-Quickstarter
+OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
+OpenOffice_org-components
 OpenOffice_org-draw
+OpenOffice_org-filters
+OpenOffice_org-icon-themes
 OpenOffice_org-impress
 OpenOffice_org-kde
 OpenOffice_org-l10n-extras
@@ -53,6 +57,7 @@ apparmor-utils
 aspell
 aspell-de
 aspell-en
+at
 atk
 atmel-firmware
 attr
@@ -146,6 +151,7 @@ dosfstools
 dvb
 dvd+rw-tools
 e2fsprogs
+ed
 eject
 enchant
 ethtool
@@ -182,6 +188,7 @@ glib2
 glib2-branding-openSUSE
 glibc
 glibc-32bit
+glibc-i18ndata
 glibc-locale
 glibc-locale-32bit
 glitz
@@ -239,6 +246,7 @@ iwl3945-ucode
 iwl4965-ucode
 iwl5000-ucode
 jfsutils
+jpackage-utils
 jpeg
 k3b
 kaffeine
@@ -313,6 +321,8 @@ kdepim4
 kdepim4-wizards
 kdepimlibs4
 kernel-default
+kernel-default-base
+kernel-default-extra
 kerneloops
 keyutils-libs
 keyutils-libs-32bit
@@ -344,7 +354,6 @@ libao
 libapparmor1
 libarchive2
 libart_lgpl
-libasound2
 libasound2-32bit
 libatk-1_0-0
 libatk-1_0-0-32bit
@@ -379,6 +388,7 @@ libdvdnav
 libenchant1
 libesd0
 libevent-1_4-2
+libevoldap-2_4-2
 libexif
 libexiv2-4
 libexpat1
@@ -407,6 +417,7 @@ libgpgme11
 libgphoto2
 libgpod-tools
 libgpod3
+libgsf-1-114
 libgssglue1
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
@@ -442,11 +453,10 @@ libksba
 libktnef1
 liblazy1
 liblcms1
-libldap-2_4-2
 libldap-2_4-2-32bit
 libldapcpp1
 libloudmouth-1-0
-libltdl-3
+libltdl3
 libltdl7
 liblzmadec0
 liblzo2-2
@@ -530,6 +540,8 @@ libvisual
 libvolume_id1
 libvorbis
 libwbclient0
+libwpd-0_8-8
+libwps-0_1-1
 libx86
 libxcrypt
 libxcrypt-32bit
@@ -555,12 +567,16 @@ lirc
 login
 logrotate
 lomoco
+lsb
+lsb-buildenv
 lsof
 lsscsi
 lukemftp
 lvm2
 lzma
+m4
 mailx
+make
 man
 master-boot-code
 mdadm
@@ -629,6 +645,8 @@ pam_mount
 pango
 pango-32bit
 parted
+patch
+pax
 pciutils
 pciutils-ids
 pcmciautils
@@ -719,6 +737,7 @@ release-notes-openSUSE
 rpcbind
 rpm
 rpm-python
+rsync
 sane-backends
 sane-backends-autoconfig
 satsolver-tools
@@ -792,9 +811,12 @@ x11-input-synaptics
 x11-input-wacom
 x11-input-wacom-tools
 x11-tools
+xalan-j2
 xaw3d
 xdg-menu
 xdg-utils
+xerces-j2
+xerces-j2-xml-apis
 xfsprogs
 xinetd
 xkeyboard-config
@@ -806,9 +828,7 @@ xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
 xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
-xorg-x11-libICE
 xorg-x11-libICE-32bit
-xorg-x11-libSM
 xorg-x11-libSM-32bit
 xorg-x11-libX11
 xorg-x11-libX11-32bit
@@ -816,7 +836,6 @@ xorg-x11-libX11-ccache
 xorg-x11-libXau
 xorg-x11-libXau-32bit
 xorg-x11-libXdmcp
-xorg-x11-libXext
 xorg-x11-libXext-32bit
 xorg-x11-libXfixes
 xorg-x11-libXfixes-32bit
@@ -830,7 +849,6 @@ xorg-x11-libXprintUtil
 xorg-x11-libXprintUtil-32bit
 xorg-x11-libXrender
 xorg-x11-libXrender-32bit
-xorg-x11-libXt
 xorg-x11-libXt-32bit
 xorg-x11-libXv
 xorg-x11-libXv-32bit

@@ -60,8 +60,11 @@ OpenEXR-64bit
 OpenEXR-devel
 OpenOffice_org
 OpenOffice_org-Quickstarter
+OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
+OpenOffice_org-components
+OpenOffice_org-converter
 OpenOffice_org-draw
 OpenOffice_org-filters
 OpenOffice_org-filters-optional
@@ -85,6 +88,7 @@ OpenOffice_org-help-sv
 OpenOffice_org-help-zh-CN
 OpenOffice_org-help-zh-TW
 OpenOffice_org-hyphen
+OpenOffice_org-icon-themes
 OpenOffice_org-impress
 OpenOffice_org-kde
 OpenOffice_org-l10n-cs
@@ -128,6 +132,7 @@ OpenOffice_org-thesaurus-nb
 OpenOffice_org-thesaurus-pl
 OpenOffice_org-thesaurus-pt
 OpenOffice_org-thesaurus-ru
+OpenOffice_org-thesaurus-sv
 OpenOffice_org-ure
 OpenOffice_org-writer
 PackageKit
@@ -351,6 +356,7 @@ bison
 bison-32bit
 bison-64bit
 black-box
+blender
 blktrace
 blt
 bluez
@@ -1208,7 +1214,6 @@ ivtv
 ivtv-firmware
 ivtv-kmp-default
 ivtv-kmp-pae
-ivtv-kmp-ppc64
 ivtv-kmp-xen
 iwidgets
 iwl3945-ucode
@@ -1445,7 +1450,6 @@ kdegames3-arcade
 kdegames3-board
 kdegames3-card
 kdegames3-tactic
-kdegames4
 kdegames4-carddecks-default
 kdegames4-carddecks-other
 kdegraphics3
@@ -1516,13 +1520,23 @@ kdissert
 kdump
 kepas
 kernel-default
+kernel-default-base
+kernel-default-extra
 kernel-docs
 kernel-kdump
+kernel-kdump-base
+kernel-kdump-extra
 kernel-pae
+kernel-pae-base
+kernel-pae-extra
 kernel-ppc64
+kernel-ppc64-base
+kernel-ppc64-extra
 kernel-source
 kernel-syms
 kernel-xen
+kernel-xen-base
+kernel-xen-extra
 kerneloops
 kerry
 kerry-lang
@@ -1789,6 +1803,7 @@ libesd0-32bit
 libesd0-64bit
 libesmtp
 libevent-1_4-2
+libevoldap-2_4-2
 libexempi3
 libexif
 libexiv2-4
@@ -2012,7 +2027,7 @@ libldap-2_4-2-32bit
 libldap-2_4-2-64bit
 libldapcpp1
 libloudmouth-1-0
-libltdl-3
+libltdl3
 libltdl7
 libltdl7-32bit
 libltdl7-64bit
@@ -2259,7 +2274,6 @@ libtool-32bit
 libtool-64bit
 libtunepimp
 libtunepimp5
-libtwin0
 liburiparser1
 libusb-0_1-4
 libusb-1_0-0
@@ -2359,6 +2373,7 @@ lomoco
 lpdfilter
 lprng
 lsb
+lsb-buildenv
 lsof
 lsscsi
 ltrace
@@ -2632,6 +2647,8 @@ pam-32bit
 pam-64bit
 pam-config
 pam-devel
+pam-devel-32bit
+pam-devel-64bit
 pam-modules
 pam_krb5
 pam_krb5-32bit
@@ -2868,7 +2885,6 @@ perlref
 permissions
 pessulus
 pessulus-lang
-petitboot
 pfscalibration
 pfstmo
 pfstools
@@ -3615,6 +3631,7 @@ xterm
 xtermset
 xv
 xvkbd
+yafray
 yast2
 yast2-add-on
 yast2-add-on-creator

@@ -105,6 +105,8 @@ iptables
 iputils
 irqbalance
 kbd
+kernel-default-base
+kernel-default-extra
 kerneloops
 keyutils-libs
 klogd
@@ -131,6 +133,7 @@ libdb-4_5
 libdb-4_5-32bit
 libdns_sd
 libevent-1_4-2
+libevoldap-2_4-2
 libexpat1
 libext2fs2
 libgcc43
@@ -148,7 +151,6 @@ libidn
 libjpeg
 libksba
 liblcms1
-libldap-2_4-2
 libldapcpp1
 libltdl7
 liblzmadec0
