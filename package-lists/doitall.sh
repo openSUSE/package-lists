@@ -57,6 +57,7 @@ set -e
 #) | tee sizes
 
 ./mk_group.sh dvd-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-all.group
+./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
 ./mk_group.sh sled-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sled-all.group
 ./mk_group.sh sdk-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-all.group
 

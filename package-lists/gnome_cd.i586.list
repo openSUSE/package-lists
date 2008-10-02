@@ -44,7 +44,6 @@ adaptec-firmware
 alsa
 alsa-firmware
 alsa-oss
-alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 apparmor-parser
@@ -53,7 +52,6 @@ apparmor-utils
 art-sharp2
 aspell
 aspell-en
-at
 at-spi
 at-spi-lang
 atk
@@ -161,7 +159,6 @@ dosfstools
 dvb
 dvd+rw-tools
 e2fsprogs
-ed
 eel
 eel-lang
 eject
@@ -231,7 +228,6 @@ glib-sharp2
 glib2
 glib2-branding-openSUSE
 glibc
-glibc-i18ndata
 glibc-locale
 glibmm2
 glitz
@@ -391,6 +387,7 @@ libao
 libapparmor1
 libarchive2
 libart_lgpl
+libasound2
 libatk-1_0-0
 libattr
 libavahi-client3
@@ -601,16 +598,12 @@ lirc
 login
 logrotate
 lomoco
-lsb
-lsb-buildenv
 lsof
 lsscsi
 lukemftp
 lvm2
 lzma
-m4
 mailx
-make
 man
 master-boot-code
 mdadm
@@ -699,10 +692,8 @@ paman
 pango
 paprefs
 parted
-patch
 pavucontrol
 pavumeter
-pax
 pciutils
 pciutils-ids
 pcmciautils
@@ -802,7 +793,6 @@ rpcbind
 rpm
 rpm-python
 rsvg-view
-rsync
 samba
 samba-client
 satsolver-tools
@@ -912,16 +902,20 @@ xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
 xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
+xorg-x11-libICE
+xorg-x11-libSM
 xorg-x11-libX11
 xorg-x11-libX11-ccache
 xorg-x11-libXau
 xorg-x11-libXdmcp
+xorg-x11-libXext
 xorg-x11-libXfixes
 xorg-x11-libXmu
 xorg-x11-libXp
 xorg-x11-libXpm
 xorg-x11-libXprintUtil
 xorg-x11-libXrender
+xorg-x11-libXt
 xorg-x11-libXv
 xorg-x11-libfontenc
 xorg-x11-libs
