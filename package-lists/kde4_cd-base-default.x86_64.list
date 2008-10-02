@@ -45,7 +45,10 @@ cups-client
 cups-libs
 curl
 cyrus-sasl
-cyrus-sasl-saslauthd
+cyrus-sasl-crammd5
+cyrus-sasl-digestmd5
+cyrus-sasl-gssapi
+cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-32bit
@@ -133,7 +136,6 @@ libdb-4_5
 libdb-4_5-32bit
 libdns_sd
 libevent-1_4-2
-libevoldap-2_4-2
 libexpat1
 libext2fs2
 libgcc43
@@ -151,6 +153,7 @@ libidn
 libjpeg
 libksba
 liblcms1
+libldap-2_4-2
 libldapcpp1
 libltdl7
 liblzmadec0
@@ -158,6 +161,7 @@ liblzo2-2
 libmng
 libncurses5
 libncurses5-32bit
+libnet
 libnscd
 libnuma1
 libopenct1

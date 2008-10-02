@@ -76,7 +76,6 @@ bash
 bash-doc
 bc
 beagle
-beagle-evolution
 beagle-firefox
 beagle-gui
 bind-libs
@@ -131,9 +130,10 @@ cups-client
 cups-libs
 curl
 cyrus-sasl
+cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
+cyrus-sasl-gssapi
 cyrus-sasl-plain
-cyrus-sasl-saslauthd
 dante
 db-utils
 dbus-1
@@ -173,7 +173,6 @@ evolution
 evolution-data-server
 evolution-data-server-lang
 evolution-lang
-evolution-sharp
 expat
 f-spot
 f-spot-lang
@@ -426,7 +425,6 @@ libelf1
 libenchant1
 libesd0
 libevent-1_4-2
-libevoldap-2_4-2
 libexempi3
 libexif
 libexpat1
@@ -491,6 +489,7 @@ libjpeg
 libksba
 liblazy1
 liblcms1
+libldap-2_4-2
 libldapcpp1
 libltdl3
 libltdl7
@@ -504,6 +503,7 @@ libmysqlclient_r15
 libncurses5
 libncurses6
 libneon27
+libnet
 libnetpbm10
 libnl
 libnotify
@@ -635,6 +635,7 @@ multipath-tools
 myspell-american
 nautilus
 nautilus-cd-burner
+nautilus-cd-burner-lang
 nautilus-lang
 nautilus-open-terminal
 nautilus-sendto
@@ -643,8 +644,6 @@ nautilus-share
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
-ndiswrapper
-ndiswrapper-kmp-default
 neon
 net-tools
 netcat
@@ -837,7 +836,6 @@ taglib
 taglib-sharp
 tango-icon-theme
 tar
-tasque
 tcl
 tcpd
 tcsh
@@ -872,7 +870,6 @@ w3m
 wdiff
 wget
 wireless-tools
-wlan-ng-kmp-default
 wodim
 wpa_supplicant
 wv

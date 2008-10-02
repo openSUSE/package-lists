@@ -79,8 +79,8 @@ do_sled
 RET=$?
 do_opensuse
 RET=$[ $? || $RET ]
-do_sles
-RET=$[ $? || $RET ]
+#do_sles
+#RET=$[ $? || $RET ]
 do_sdk
 ET=$[ $? || $RET ]
 exit $RET

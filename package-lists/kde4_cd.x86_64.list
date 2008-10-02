@@ -122,8 +122,8 @@ cyrus-sasl
 cyrus-sasl-32bit
 cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
+cyrus-sasl-gssapi
 cyrus-sasl-plain
-cyrus-sasl-saslauthd
 db-utils
 dbus-1
 dbus-1-32bit
@@ -380,11 +380,10 @@ libdjvulibre21
 libdns_sd
 libdrm
 libdrm-32bit
-libdvdnav
+libdvdread4
 libenchant1
 libesd0
 libevent-1_4-2
-libevoldap-2_4-2
 libexif
 libexiv2-4
 libexpat1
@@ -449,6 +448,7 @@ libksba
 libktnef1
 liblazy1
 liblcms1
+libldap-2_4-2
 libldap-2_4-2-32bit
 libldapcpp1
 libloudmouth-1-0
@@ -467,6 +467,7 @@ libncurses5
 libncurses5-32bit
 libncurses6
 libneon27
+libnet
 libnetpbm10
 libnl
 libnscd
@@ -525,11 +526,15 @@ libtasn1
 libtasn1-3
 libtdb1
 libtheora0
+libthinkfinger
+libthinkfinger-32bit
 libtiff3
 libtiff3-32bit
 libtirpc1
 libusb-0_1-4
+libusb-0_1-4-32bit
 libusb-1_0-0
+libusb-1_0-0-32bit
 libuuid1
 libuuid1-32bit
 libvisual
@@ -588,8 +593,6 @@ myspell-american
 mysql
 mysql-client
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 neon
 net-tools
 netcat
@@ -634,6 +637,8 @@ pam_krb5-32bit
 pam_ldap
 pam_ldap-32bit
 pam_mount
+pam_thinkfinger
+pam_thinkfinger-32bit
 pango
 pango-32bit
 parted
@@ -790,7 +795,6 @@ w3m
 wdiff
 wget
 wireless-tools
-wlan-ng-kmp-default
 wodim
 wpa_supplicant
 wvdial
