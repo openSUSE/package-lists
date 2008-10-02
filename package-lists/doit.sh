@@ -75,12 +75,12 @@ do_sdk()
     return 0
 }
 
-#do_sled 
-#RET=$?
+do_sled 
+RET=$?
 do_opensuse
 RET=$[ $? || $RET ]
-#do_sles
-#RET=$[ $? || $RET ]
-#do_sdk
-#ET=$[ $? || $RET ]
+do_sles
+RET=$[ $? || $RET ]
+do_sdk
+ET=$[ $? || $RET ]
 exit $RET
