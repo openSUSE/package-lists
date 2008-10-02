@@ -32,6 +32,9 @@
     <!-- ignoring some recommends -->
     <lock package="opensuse-manual_en-pdf"/>
     <lock package="oxygen-icon-theme-scalable"/>
+    <lock package="gfxboot-branding-SLED"/>
+    <lock package="gtk2-branding-SLED"/>
+    <lock package="gtk2-theme-SLED"/>
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_promo_dvd"/>
