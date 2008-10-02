@@ -50,15 +50,15 @@ do_opensuse()
     ./langaddon.sh
     return 0
 }
-
-do_sles()
-{
-    ./gen.sh sles-1 || return 1
-    ./gen.sh sles-2 || return 1
-    cat sles-*.all.list | LC_ALL=C sort -u > sles-all.list
-
-    return 0
-}
+# currently broken patterns?
+#do_sles()
+#{
+#    ./gen.sh sles-1 || return 1
+#    ./gen.sh sles-2 || return 1
+#    cat sles-*.all.list | LC_ALL=C sort -u > sles-all.list
+#
+#    return 0
+#}
 
 do_sdk()
 {
