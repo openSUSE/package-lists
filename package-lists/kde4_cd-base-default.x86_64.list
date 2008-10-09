@@ -1,5 +1,4 @@
 ConsoleKit
-ConsoleKit-32bit
 DirectFB
 PolicyKit
 PolicyKit-doc
@@ -14,7 +13,6 @@ apparmor-utils
 attr
 audit
 audit-libs
-audit-libs-32bit
 autofs
 autoyast2-installation
 avahi
@@ -22,7 +20,6 @@ bash
 bash-doc
 bind-libs
 bind-utils
-binutils
 blktrace
 boost
 bootsplash
@@ -36,7 +33,6 @@ command-not-found
 coreutils
 cpio
 cracklib
-cracklib-32bit
 cracklib-dict-full
 cron
 cryptsetup
@@ -51,7 +47,6 @@ cyrus-sasl-gssapi
 cyrus-sasl-plain
 db-utils
 dbus-1
-dbus-1-32bit
 dbus-1-glib
 deltarpm
 desktop-data-openSUSE
@@ -63,6 +58,7 @@ dmraid
 dosfstools
 e2fsprogs
 eject
+elfutils
 ethtool
 fbset
 file
@@ -80,7 +76,6 @@ gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
 ghostscript-library
-ghostscript-omni
 glib2
 glib2-branding-openSUSE
 glibc
@@ -120,6 +115,7 @@ less
 libacl
 libaio
 libapparmor1
+libasm1
 libattr
 libavahi-client3
 libavahi-common3
@@ -133,8 +129,9 @@ libcryptsetup0
 libcurl4
 libdaemon0
 libdb-4_5
-libdb-4_5-32bit
 libdns_sd
+libdw1
+libelf1
 libevent-1_4-2
 libexpat1
 libext2fs2
@@ -175,7 +172,6 @@ libreadline5
 libreiserfs
 librpcsecgss
 libselinux1
-libselinux1-32bit
 libsepol1
 libsmbios2
 libsqlite3-0
@@ -191,7 +187,6 @@ libvolume_id1
 libwbclient0
 libx86
 libxcrypt
-libxcrypt-32bit
 libxml2
 libzio
 libzypp
@@ -243,9 +238,9 @@ openssh
 openssl
 openssl-certs
 pam
-pam-32bit
 pam-config
 pam-modules
+pam_apparmor
 parted
 pciutils
 pciutils-ids
@@ -410,11 +405,11 @@ yast2-tune
 yast2-update
 yast2-users
 yast2-vm
+yast2-wagon
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zisofs-tools
 zlib
-zlib-32bit
 zypper

@@ -6,7 +6,6 @@ CID-keyed-fonts-MOE
 CID-keyed-fonts-Wada
 CID-keyed-fonts-WadaH
 ConsoleKit
-ConsoleKit-32bit
 ConsoleKit-devel
 ConsoleKit-x11
 DirectFB
@@ -22,6 +21,7 @@ IPAMincho
 IPAPGothic
 IPAPMincho
 IPAUIGothic
+IPython
 IlmBase
 IlmBase-32bit
 IlmBase-64bit
@@ -61,11 +61,14 @@ OpenEXR-devel
 OpenOffice_org
 OpenOffice_org-Quickstarter
 OpenOffice_org-base
+OpenOffice_org-base-extensions
 OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
+OpenOffice_org-calc-extensions
 OpenOffice_org-components
 OpenOffice_org-converter
 OpenOffice_org-draw
+OpenOffice_org-draw-extensions
 OpenOffice_org-filters
 OpenOffice_org-filters-optional
 OpenOffice_org-gnome
@@ -90,6 +93,7 @@ OpenOffice_org-help-zh-TW
 OpenOffice_org-hyphen
 OpenOffice_org-icon-themes
 OpenOffice_org-impress
+OpenOffice_org-impress-extensions
 OpenOffice_org-kde
 OpenOffice_org-l10n-cs
 OpenOffice_org-l10n-da
@@ -135,6 +139,7 @@ OpenOffice_org-thesaurus-ru
 OpenOffice_org-thesaurus-sv
 OpenOffice_org-ure
 OpenOffice_org-writer
+OpenOffice_org-writer-extensions
 PackageKit
 PgTcl
 PolicyKit
@@ -178,6 +183,8 @@ aalib-devel-32bit
 aalib-devel-64bit
 abcde
 abiword
+accerciser
+accerciser-lang
 acl
 acpid
 acroread
@@ -185,6 +192,9 @@ acroread-cmaps
 acroread-fonts-ja
 acroread-fonts-zh_CN
 acroread-fonts-zh_TW
+acx-kmp-default
+acx-kmp-pae
+acx-kmp-xen
 adaptec-firmware
 aelfred
 akonadi-runtime
@@ -296,6 +306,10 @@ audit-libs
 audit-libs-32bit
 audit-libs-64bit
 aufs
+aufs-kmp-default
+aufs-kmp-pae
+aufs-kmp-ppc64
+aufs-kmp-xen
 aumix
 autoconf
 autofs
@@ -311,6 +325,7 @@ avmailgate
 awesfx
 axis
 b43-fwcutter
+babl-0_0
 banshee-1
 banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
@@ -454,6 +469,7 @@ cdparanoia-64bit
 cdrdao
 cdrkit-cdrtools-compat
 cedict
+cellwriter
 chasen
 check
 check-32bit
@@ -500,6 +516,7 @@ cracklib-32bit
 cracklib-64bit
 cracklib-dict-full
 cracklib-dict-small
+createrepo
 cromfs
 cron
 cryptconfig
@@ -547,6 +564,9 @@ dar
 dasher
 dasher-lang
 datakiosk
+dazuko-kmp-default
+dazuko-kmp-pae
+dazuko-kmp-xen
 db-utils
 db1
 dbsplit-tools
@@ -617,6 +637,10 @@ dovecot11-backend-mysql
 dovecot11-backend-pgsql
 dovecot11-backend-sqlite
 doxygen
+drbd-kmp-default
+drbd-kmp-pae
+drbd-kmp-ppc64
+drbd-kmp-xen
 dvb
 dvd+rw-tools
 dvi2tty
@@ -632,6 +656,7 @@ eel-lang
 efont-unicode
 eject
 ekiga
+elfutils
 emacs
 emacs-info
 emacs-nox
@@ -646,11 +671,10 @@ epiphany
 epiphany-branding-openSUSE
 epiphany-devel
 epiphany-doc
-epiphany-extensions
-epiphany-extensions-lang
 epiphany-lang
 epos
 eric
+espeak
 ethtool
 evince
 evince-lang
@@ -800,6 +824,7 @@ gdm-lang
 gecko-sharp2
 gedit
 gedit-lang
+gegl-0_0
 genisoimage
 geronimo-jaf-1_0_2-api
 geronimo-jms-1_1-api
@@ -843,6 +868,7 @@ gimp-help-nl
 gimp-help-pl
 gimp-help-ru
 gimp-help-sv
+gimp-lang
 gimp-plugins-python
 git
 git-arch
@@ -873,7 +899,6 @@ glib2-branding-openSUSE
 glib2-devel
 glib2-devel-64bit
 glib2-doc
-glib2-lang
 glibc
 glibc-32bit
 glibc-64bit
@@ -954,6 +979,7 @@ gnome-menus-lang
 gnome-mount
 gnome-mount-lang
 gnome-nettool
+gnome-nettool-lang
 gnome-packagekit
 gnome-packagekit-lang
 gnome-panel
@@ -996,6 +1022,7 @@ gnome-vfs2-64bit
 gnome-vfs2-devel
 gnome-vfs2-doc
 gnome-volume-manager
+gnome-volume-manager-lang
 gnome-web-photo
 gnome2-user-docs
 gnopernicus
@@ -1046,7 +1073,6 @@ gstreamer-0_10-plugins-base-64bit
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-good-extra
-gstreamer-0_10-pulse
 gsynaptics
 gthumb
 gthumb-lang
@@ -1062,6 +1088,7 @@ gtk2-32bit
 gtk2-64bit
 gtk2-branding-openSUSE
 gtk2-devel
+gtk2-devel-64bit
 gtk2-engine-murrine
 gtk2-engine-murrine-32bit
 gtk2-engine-murrine-64bit
@@ -1234,11 +1261,9 @@ java-1_6_0-openjdk
 java-1_6_0-openjdk-devel
 java-1_6_0-openjdk-plugin
 javacc
-javamail
 javamail-monolithic
 jdepend
 jedit
-jessie
 jfsutils
 jhead
 jing
@@ -1605,6 +1630,8 @@ kover
 kpartx
 kpl
 kpowersave
+kqemu-kmp-default
+kqemu-kmp-pae
 kradio
 krb5
 krb5-32bit
@@ -1647,6 +1674,8 @@ libHX13-32bit
 libHX13-64bit
 libMagick++1
 libMagickCore1
+libMagickCore1-32bit
+libMagickCore1-64bit
 libMagickWand1
 libQtWebKit-devel
 libQtWebKit4
@@ -1671,6 +1700,8 @@ libao
 libao-devel
 libapparmor-devel
 libapparmor1
+libapparmor1-32bit
+libapparmor1-64bit
 libapr-util1
 libapr1
 libarchive2
@@ -1678,6 +1709,7 @@ libart_lgpl
 libart_lgpl-32bit
 libart_lgpl-64bit
 libart_lgpl-devel
+libasm1
 libasound2
 libasound2-32bit
 libasound2-64bit
@@ -1710,6 +1742,7 @@ libavc1394-0-64bit
 libavc1394-devel
 libavc1394-devel-32bit
 libavc1394-devel-64bit
+libbabl-0_0-0
 libbeagle-devel
 libbeagle-python
 libbeagle1
@@ -1778,6 +1811,7 @@ libdrm-64bit
 libdrm-devel
 libdv4
 libdvdread4
+libdw1
 libeel-2-2
 libelf0
 libelf0-32bit
@@ -1801,9 +1835,12 @@ libexpat1-32bit
 libexpat1-64bit
 libext2fs-devel
 libext2fs2
+libffi43
 libflashsupport
 libfluidsynth1
 libfprint0
+libfprint0-32bit
+libfprint0-64bit
 libfuse2
 libgadu
 libgail-gnome
@@ -1832,6 +1869,7 @@ libgda-3_0-odbc
 libgda-3_0-postgres
 libgda-3_0-sqlite
 libgdiplus0
+libgegl-0_0-0
 libgfortran43
 libgfortran43-32bit
 libgfortran43-64bit
@@ -1882,6 +1920,7 @@ libgnomedb-devel
 libgnomedb-lang
 libgnomekbd
 libgnomekbd-devel
+libgnomekbd-lang
 libgnomeprint
 libgnomeprint-devel
 libgnomeprint-doc
@@ -1943,6 +1982,7 @@ libgtksourceview-2_0-0
 libgtop
 libgtop-2_0-7
 libgtop-devel
+libgtop-lang
 libgvfscommon0
 libgweather
 libgweather-devel
@@ -2155,7 +2195,7 @@ libqca2
 libqdialogsolver1
 libqimageblitz-devel
 libqimageblitz4
-libqscintilla2-2
+libqscintilla2-4
 libqt4
 libqt4-devel
 libqt4-devel-doc
@@ -2224,6 +2264,7 @@ libsoup-2_4-1-32bit
 libsoup-2_4-1-64bit
 libsoup-devel
 libsoup-devel-32bit
+libsoup-devel-64bit
 libspectre1
 libspeex
 libspeex-64bit
@@ -2269,6 +2310,7 @@ libtool-64bit
 libtunepimp
 libtunepimp5
 libtwin0
+liburiparser1
 libusb-0_1-4
 libusb-0_1-4-32bit
 libusb-0_1-4-64bit
@@ -2360,6 +2402,9 @@ linux-atm-lib
 linux-kernel-headers
 linux32
 lirc
+lirc-kmp-default
+lirc-kmp-pae
+lirc-kmp-xen
 lklug
 log4j
 login
@@ -2536,6 +2581,10 @@ ncurses-devel-64bit
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
+ndiswrapper
+ndiswrapper-kmp-default
+ndiswrapper-kmp-pae
+ndiswrapper-kmp-xen
 neon
 net-snmp
 net-snmp-devel
@@ -2572,8 +2621,13 @@ obex-data-server
 obexftp
 ocfs2-tools
 ocrad
+omnibook-kmp-default
+omnibook-kmp-pae
+omnibook-kmp-xen
 opal
 open-iscsi
+open-vm-tools
+open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
@@ -2614,7 +2668,6 @@ opie-64bit
 oprofile
 oprofile-32bit
 oprofile-64bit
-optipng
 orage
 orbit
 orbit2
@@ -2633,7 +2686,15 @@ pam-32bit
 pam-64bit
 pam-config
 pam-devel
+pam-devel-32bit
+pam-devel-64bit
 pam-modules
+pam_apparmor
+pam_apparmor-32bit
+pam_apparmor-64bit
+pam_fp
+pam_fp-32bit
+pam_fp-64bit
 pam_krb5
 pam_krb5-32bit
 pam_krb5-64bit
@@ -2653,6 +2714,7 @@ pango
 pango-32bit
 pango-64bit
 pango-devel
+pango-devel-64bit
 pango-doc
 paprefs
 par
@@ -2916,6 +2978,7 @@ postgresql-libs
 postgresql-libs-32bit
 postgresql-libs-64bit
 pothana2000
+powerdevil
 powerpc-utils
 powerpc32
 powerprefs
@@ -2961,6 +3024,7 @@ python-compizconfig
 python-curses
 python-dateutil
 python-devel
+python-doc
 python-fcgi
 python-gdata
 python-gdbm
@@ -3030,6 +3094,8 @@ qtcurve-gtk2-32bit
 qtcurve-gtk2-64bit
 qtcurve-kde
 quagga
+quickcam-kmp-default
+quickcam-kmp-pae
 quilt
 quota
 radvd
@@ -3370,10 +3436,15 @@ vinagre-lang
 vino
 vino-lang
 virt-manager
+virtualbox-ose
+virtualbox-ose-kmp-default
+virtualbox-ose-kmp-pae
 vlan
 vlna
 vlock
 vm-install
+vmware-kmp-default
+vmware-kmp-pae
 vorbis-tools
 vpnc
 vsftpd
@@ -3410,6 +3481,7 @@ wwwoffle
 wxGTK
 wxGTK-compat
 wxGTK-gl
+x11-input-evtouch
 x11-input-fujitsu
 x11-input-synaptics
 x11-input-wacom
@@ -3454,7 +3526,6 @@ xfce4-panel-plugin-clipman
 xfce4-panel-plugin-cpufreq
 xfce4-panel-plugin-cpugraph
 xfce4-panel-plugin-datetime
-xfce4-panel-plugin-dict
 xfce4-panel-plugin-diskperf
 xfce4-panel-plugin-eyes
 xfce4-panel-plugin-fsguard
@@ -3763,6 +3834,7 @@ yast2-tv
 yast2-update
 yast2-users
 yast2-vm
+yast2-wagon
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
@@ -3773,6 +3845,7 @@ yp-tools
 ypbind
 ypserv
 yudit
+yum-metadata-parser
 zd1211-firmware
 zenity
 zip

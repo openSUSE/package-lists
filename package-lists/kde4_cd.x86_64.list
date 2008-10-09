@@ -1,6 +1,5 @@
 3ddiag
 ConsoleKit
-ConsoleKit-32bit
 ConsoleKit-x11
 DirectFB
 IlmBase
@@ -74,7 +73,6 @@ bash-doc
 bc
 bind-libs
 bind-utils
-binutils
 blktrace
 bluez
 bluez-firmware
@@ -103,7 +101,6 @@ compiz
 compiz-fusion-plugins-main
 compiz-kde4
 compiz-manager
-compizconfig-settings-manager
 coreutils
 cpio
 cpp
@@ -119,14 +116,12 @@ cups-libs
 cups-libs-32bit
 curl
 cyrus-sasl
-cyrus-sasl-32bit
 cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
 db-utils
 dbus-1
-dbus-1-32bit
 dbus-1-glib
 dbus-1-qt3
 dbus-1-x11
@@ -151,7 +146,9 @@ dvb
 dvd+rw-tools
 e2fsprogs
 eject
+elfutils
 enchant
+espeak
 ethtool
 expat
 fam
@@ -167,7 +164,6 @@ foomatic-filters
 freeglut
 freetype2
 freetype2-32bit
-fuse
 gawk
 gconf2
 gconf2-branding-openSUSE
@@ -179,7 +175,6 @@ gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
 ghostscript-library
-ghostscript-omni
 ghostscript-x11
 giflib
 glib2
@@ -192,7 +187,6 @@ glitz
 glitz-32bit
 gmp
 gnokii
-gnome-keyring
 gnome-vfs2
 gnutls
 gpart
@@ -204,15 +198,11 @@ groff
 grub
 gstreamer-0_10
 gstreamer-0_10-plugins-base
-gstreamer-0_10-pulse
 gtk2
 gtk2-32bit
 gtk2-branding-openSUSE
 gtk2-engines
 gtk2-theme-openSUSE
-gvfs
-gvfs-backends
-gvfs-fuse
 gzip
 hal
 hdparm
@@ -326,7 +316,6 @@ kipi-plugins
 klogd
 konversation
 kpartx
-kpowersave
 krb5
 krb5-32bit
 krb5-client
@@ -349,6 +338,7 @@ libao
 libapparmor1
 libarchive2
 libart_lgpl
+libasm1
 libasound2
 libasound2-32bit
 libatk-1_0-0
@@ -361,12 +351,8 @@ libavahi-glib1
 libblkid1
 libblocxx6
 libbluetooth3
-libbonobo
 libbz2-1
 libcap2
-libcdio7
-libcdio_cdda0
-libcdio_paranoia0
 libcom_err2
 libcom_err2-32bit
 libcompizconfig
@@ -381,6 +367,8 @@ libdns_sd
 libdrm
 libdrm-32bit
 libdvdread4
+libdw1
+libelf1
 libenchant1
 libesd0
 libevent-1_4-2
@@ -397,12 +385,10 @@ libgimpprint
 libgio-2_0-0
 libgio-2_0-0-32bit
 libgio-fam
-libglade2
 libglib-2_0-0
 libglib-2_0-0-32bit
 libgmodule-2_0-0
 libgmodule-2_0-0-32bit
-libgnome
 libgnutls26
 libgobject-2_0-0
 libgobject-2_0-0-32bit
@@ -418,7 +404,6 @@ libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
-libgvfscommon0
 libical0
 libicu
 libidl
@@ -449,7 +434,6 @@ libktnef1
 liblazy1
 liblcms1
 libldap-2_4-2
-libldap-2_4-2-32bit
 libldapcpp1
 libloudmouth-1-0
 libltdl3
@@ -513,8 +497,6 @@ libsmbios-bin
 libsmbios2
 libsndfile
 libsoprano4
-libsoup
-libsoup-2_4-1
 libspectre1
 libspeex
 libsqlite3-0
@@ -522,8 +504,6 @@ libstdc++43
 libstdc++43-32bit
 libstrigi0
 libtalloc1
-libtasn1
-libtasn1-3
 libtdb1
 libtheora0
 libthinkfinger
@@ -585,7 +565,6 @@ module-init-tools
 mozilla-nspr
 mozilla-nss
 mozilla-xulrunner190
-mozilla-xulrunner190-gnomevfs
 mpt-firmware
 mtools
 multipath-tools
@@ -593,6 +572,8 @@ myspell-american
 mysql
 mysql-client
 ncurses-utils
+ndiswrapper
+ndiswrapper-kmp-default
 neon
 net-tools
 netcat
@@ -605,7 +586,6 @@ nspluginwrapper
 nss-mdns
 nss-mdns-32bit
 nss_ldap
-nss_ldap-32bit
 ntfs-3g
 ntfsprogs
 ntp
@@ -632,10 +612,9 @@ pam
 pam-32bit
 pam-config
 pam-modules
+pam_apparmor
 pam_krb5
-pam_krb5-32bit
 pam_ldap
-pam_ldap-32bit
 pam_mount
 pam_thinkfinger
 pam_thinkfinger-32bit
@@ -697,6 +676,7 @@ poppler-data
 poppler-tools
 popt
 postfix
+powerdevil
 ppp
 pptp
 preload
@@ -714,11 +694,6 @@ pulseaudio-utils
 pwdutils
 python
 python-base
-python-cairo
-python-compizconfig
-python-gobject2
-python-gtk
-python-numeric
 python-satsolver
 python-xml
 qlogic-firmware
@@ -732,6 +707,7 @@ release-notes-openSUSE
 rpcbind
 rpm
 rpm-python
+rsync
 sane-backends
 sane-backends-autoconfig
 satsolver-tools
@@ -741,15 +717,16 @@ sax2-ident
 sax2-libsax
 sax2-libsax-perl
 sax2-tools
+sbl
 scout
 scpm
 sed
 setserial
 sg3_utils
 shared-mime-info
-simple-ccsm
 simple-ccsm-kde
 skanlite
+smartmontools
 smp_utils
 smpppd
 soprano
@@ -928,6 +905,7 @@ yast2-tv
 yast2-update
 yast2-users
 yast2-vm
+yast2-wagon
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
