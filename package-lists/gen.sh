@@ -49,7 +49,12 @@ ignore_list=ignore_all
 
 if (echo $file | grep "_cd" > /dev/null); then
    GEN_ARCH="i586 x86_64 ppc"
-   ignore_list="$ignore_list ignore_cds"
+   export ignore_list="$ignore_list ignore_cds"
+fi
+
+if (echo $file | grep "kde4_cd" > /dev/null); then
+   GEN_ARCH="i586 x86_64 ppc"
+   export ignore_list="$ignore_list ignore_kde"
 fi
 
 internals=`pdb query --filter status:internal`
