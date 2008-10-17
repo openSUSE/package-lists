@@ -61,9 +61,10 @@ rm -rf /tmp/pattern*
 sh ../prepare_patterns.sh i586 i386 sles
 sh ../prepare_patterns.sh x86_64 x86_64 sles
 sh ../prepare_patterns.sh ppc powerpc sles
+sh ../prepare_patterns.sh ppc64 powerpc sles
 sh ../prepare_patterns.sh ia64 ia64 sles
 
-for arch in i586 x86_64 ppc ia64; do
+for arch in i586 x86_64 ppc ppc64 ia64; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/*.pat sles.$arch
 done
 
@@ -74,9 +75,10 @@ rm -rf /tmp/pattern*
 sh ../prepare_patterns.sh i586 i386 sdk
 sh ../prepare_patterns.sh x86_64 x86_64 sdk
 sh ../prepare_patterns.sh ppc powerpc sdk
+sh ../prepare_patterns.sh ppc64 powerpc sdk
 sh ../prepare_patterns.sh ia64 ia64 sdk
 
-for arch in i586 x86_64 ppc ia64; do
+for arch in i586 x86_64 ppc ppc64 ia64; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/sdk-*.pat sdk.$arch
 done
 

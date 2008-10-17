@@ -5,6 +5,7 @@ BASEDIR=`pwd`
 GEN_URL_i586="$BASEDIR/testtrack/full-head-i586"
 GEN_URL_x86_64="$BASEDIR/testtrack/full-head-x86_64"
 GEN_URL_ppc="$BASEDIR/testtrack/full-head-ppc"
+GEN_URL_ppc64="$BASEDIR/testtrack/full-head-ppc64"
 GEN_URL_ia64="$BASEDIR/testtrack/full-head-ia64"
 TESTTRACK="`pwd`/testtrack"
 
@@ -33,12 +34,12 @@ if (echo $file | grep "sled" > /dev/null); then
 fi
 
 if (echo $file | grep "sles" > /dev/null); then
-  GEN_ARCH="i586 x86_64 ppc ia64"
+  GEN_ARCH="i586 x86_64 ppc64 ia64"
   base=${file/-*/}
 fi
 
 if (echo $file | grep "sdk" > /dev/null); then
-  GEN_ARCH="i586 x86_64 ppc ia64"
+  GEN_ARCH="i586 x86_64 ppc64 ia64"
   base=${file/-*/}
 fi
 
