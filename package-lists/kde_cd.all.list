@@ -76,7 +76,7 @@ binutils
 blktrace
 bluez
 bluez-firmware
-boost
+boost-license
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -122,6 +122,7 @@ cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-glib
+dbus-1-python
 dbus-1-qt3
 dbus-1-x11
 dcraw
@@ -165,7 +166,6 @@ freetype2
 freetype2-32bit
 gawk
 gconf2
-gconf2-branding-openSUSE
 gdb
 gdbm
 genisoimage
@@ -359,6 +359,7 @@ libavahi-glib1
 libblkid1
 libblocxx6
 libbluetooth3
+libboost_signals-gcc43-mt-1_36-1_36_0
 libbz2-1
 libcap2
 libcom_err2
@@ -537,6 +538,7 @@ libxine1-pulse
 libxklavier
 libxklavier12
 libxml2
+libxml2-python
 libxslt
 libzio
 libzip1
@@ -544,6 +546,8 @@ libzypp
 licenses
 lilo
 limal
+limal-ca-mgm
+limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -700,6 +704,7 @@ pwdutils
 python
 python-base
 python-satsolver
+python-urlgrabber
 python-xml
 qlogic-firmware
 qt3
@@ -732,6 +737,7 @@ shared-mime-info
 simple-ccsm-kde
 skanlite
 smartmontools
+smolt
 smp_utils
 smpppd
 soprano

@@ -62,6 +62,7 @@
     <!-- SLES_LOCKS -->
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
+    <install kind="package" name="openSUSE-release-ftp"/>
     <install kind="pattern" name="enhanced_base"/>
     <lock package="gtk2"/>
     <reportProblems/>
