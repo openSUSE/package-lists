@@ -37,6 +37,7 @@
     <lock package="gnome-menus-branding-SLED"/>
     <lock package="gtk2-branding-SLED"/>
     <lock package="gtk2-theme-SLED"/>
+    <lock package="libevoldap-2_4-2"/>
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="package" name="sendmail"/>
@@ -56,7 +57,7 @@
     <install kind="package" name="yast2-theme-openSUSE-Oxygen"/>
     <!-- install kind="package" name="geronimo-tomcat-servlet-container"/ -->
     <install kind="package" name="xpdf-tools"/>
-<!--    <install kind="package" name="openSUSE-release-live"/> -->
+    <install kind="package" name="openSUSE-release-dvd"/>
     <install kind="package" name="cracklib-dict-small"/>
 <!--    <install kind="package" name="iscan"/> --><!-- !ppc -->
     <lock kind="package" name="acroread_ja"/> <!-- !ppc -->

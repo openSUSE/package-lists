@@ -47,10 +47,11 @@
     <lock package="gtk2-branding-SLED"/>
     <lock package="gtk2-theme-SLED"/>
     <!-- lock package="kdepim3"/ -->
+    <lock package="libevoldap-2_4-2"/>
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_cd_kde4"/>
-<!--    <install kind="package" name="openSUSE-release-live"/> -->
+    <install kind="package" name="openSUSE-release-livecdkde"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>
