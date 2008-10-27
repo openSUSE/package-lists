@@ -15,7 +15,6 @@ NetworkManager-kde
 OpenEXR
 OpenOffice_org
 OpenOffice_org-Quickstarter
-OpenOffice_org-base
 OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
 OpenOffice_org-components
@@ -68,7 +67,6 @@ avahi
 awesfx
 b43-fwcutter
 bash
-bash-doc
 bc
 bind-libs
 bind-utils
@@ -95,7 +93,6 @@ checkmedia
 chmlib
 cifs-mount
 clucene-core
-command-not-found
 compiz
 compiz-fusion-plugins-main
 compiz-kde4
@@ -165,6 +162,7 @@ freetype2
 freetype2-32bit
 gawk
 gconf2
+gconf2-branding-openSUSE
 gdb
 gdbm
 genisoimage
@@ -374,6 +372,7 @@ libexiv2-4
 libexpat1
 libexpat1-32bit
 libext2fs2
+libfprint0
 libfuse2
 libgcc43
 libgcc43-32bit
@@ -529,7 +528,6 @@ libzio
 libzip1
 libzypp
 licenses
-lilo
 limal
 limal-ca-mgm
 limal-ca-mgm-perl
@@ -587,7 +585,7 @@ numlockx
 obex-data-server
 openSUSE-build-key
 openSUSE-release
-openSUSE-release-ftp
+openSUSE-release-livecdkde
 openct
 openldap2-client
 openobex
@@ -604,6 +602,7 @@ pam
 pam-config
 pam-modules
 pam_apparmor
+pam_fp
 pam_krb5
 pam_ldap
 pam_mount
@@ -683,7 +682,6 @@ pulseaudio-utils
 pwdutils
 python
 python-base
-python-satsolver
 python-urlgrabber
 python-xml
 qlogic-firmware
@@ -696,7 +694,6 @@ reiserfs
 release-notes-openSUSE
 rpcbind
 rpm
-rpm-python
 rsync
 sane-backends
 sane-backends-autoconfig
@@ -708,7 +705,6 @@ sax2-libsax
 sax2-libsax-perl
 sax2-tools
 sbl
-scout
 scpm
 sed
 setserial
@@ -841,6 +837,7 @@ yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
+yast2-fingerprint-reader
 yast2-firewall
 yast2-hardware-detection
 yast2-inetd
@@ -896,7 +893,6 @@ yast2-tv
 yast2-update
 yast2-users
 yast2-vm
-yast2-wagon
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings

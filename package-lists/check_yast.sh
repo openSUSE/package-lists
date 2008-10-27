@@ -1,5 +1,5 @@
 # check if our copy is valid
-curl -s 'http://svn.opensuse.org/viewcvs/yast/trunk/extra-packages?view=co' > yast_packs.rec
+svn cat http://svn.opensuse.org/svn/yast/trunk/extra-packages > yast_packs.rec
 
 ret=0
 archs=$2

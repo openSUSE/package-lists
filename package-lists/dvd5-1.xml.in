@@ -56,11 +56,11 @@
     <lock package="gfxboot-branding-SLED"/>
     <lock package="gtk2-branding-SLED"/>
     <lock package="gtk2-theme-SLED"/>
-    <lock package="libevoldap-2_4-2"/>
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_dvd"/>
     <install kind="package" name="openSUSE-release-dvd"/>
+<install kind="pattern" name="devel_gnome"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

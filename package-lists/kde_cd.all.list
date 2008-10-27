@@ -96,7 +96,6 @@ checkmedia
 chmlib
 cifs-mount
 clucene-core
-command-not-found
 compiz
 compiz-fusion-plugins-main
 compiz-kde4
@@ -166,14 +165,13 @@ freetype2
 freetype2-32bit
 gawk
 gconf2
+gconf2-branding-openSUSE
 gdb
 gdbm
 genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
-ggz
-ggz-client-libs
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
@@ -263,9 +261,7 @@ kde4-kio_iso
 kde4-kio_kamera
 kde4-kio_sysinfo
 kde4-kio_sysinfo-branding-openSUSE
-kde4-kmahjongg
 kde4-kmail
-kde4-kmines
 kde4-kmix
 kde4-knewsticker
 kde4-knotes
@@ -275,13 +271,10 @@ kde4-konsole
 kde4-kontact
 kde4-kopete
 kde4-korganizer
-kde4-kpat
 kde4-krdc
-kde4-kreversi
 kde4-krfb
 kde4-kscd
 kde4-ksnapshot
-kde4-ksudoku
 kde4-kupdateapplet
 kde4-kupdateapplet-packagekit
 kde4-kwalletmanager
@@ -304,7 +297,6 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebluetooth4
-kdegames4-carddecks-default
 kdelibs3
 kdelibs3-default-style
 kdelibs4
@@ -385,11 +377,11 @@ libexiv2-4
 libexpat1
 libexpat1-32bit
 libext2fs2
+libfprint0
 libfuse2
 libgcc43
 libgcc43-32bit
 libgcrypt11
-libggz2
 libgimpprint
 libgio-2_0-0
 libgio-2_0-0-32bit
@@ -430,7 +422,6 @@ libkcompactdisc4
 libkdcraw3
 libkde4
 libkdecore4
-libkdegames4
 libkdepim4
 libkdepimlibs4
 libkexiv2-3
@@ -557,7 +548,6 @@ lirc
 login
 logrotate
 lomoco
-lsof
 lsscsi
 lukemftp
 lvm2
@@ -604,7 +594,7 @@ numlockx
 obex-data-server
 openSUSE-build-key
 openSUSE-release
-openSUSE-release-ftp
+openSUSE-release-livecdkde
 openct
 openldap2-client
 openobex
@@ -621,6 +611,7 @@ pam
 pam-config
 pam-modules
 pam_apparmor
+pam_fp
 pam_krb5
 pam_ldap
 pam_mount
@@ -703,7 +694,6 @@ pulseaudio-utils
 pwdutils
 python
 python-base
-python-satsolver
 python-urlgrabber
 python-xml
 qlogic-firmware
@@ -716,7 +706,6 @@ reiserfs
 release-notes-openSUSE
 rpcbind
 rpm
-rpm-python
 rsync
 sane-backends
 sane-backends-autoconfig
@@ -728,7 +717,6 @@ sax2-libsax
 sax2-libsax-perl
 sax2-tools
 sbl
-scout
 scpm
 sed
 setserial
@@ -862,6 +850,7 @@ yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
+yast2-fingerprint-reader
 yast2-firewall
 yast2-hardware-detection
 yast2-inetd
@@ -917,7 +906,6 @@ yast2-tv
 yast2-update
 yast2-users
 yast2-vm
-yast2-wagon
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
