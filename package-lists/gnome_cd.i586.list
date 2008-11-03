@@ -195,6 +195,8 @@ gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ggreeter
+ggz
+ggz-client-libs
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
@@ -221,6 +223,7 @@ gnome-desktop-sharp2
 gnome-do
 gnome-doc-utils
 gnome-docker
+gnome-games
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pam
@@ -273,6 +276,7 @@ gtk2-branding-openSUSE
 gtk2-engines
 gtk2-theme-openSUSE
 gtk2-themes
+gtkglext
 gtkhtml2
 gtkhtml314-sharp
 gtkmm2
@@ -280,6 +284,7 @@ gtksourceview
 gtksourceview18
 gtkspell
 gucharmap
+guile
 gvfs
 gvfs-backends
 gvfs-fuse
@@ -375,6 +380,7 @@ libdw1
 libeel-2-2
 libelf1
 libenchant1
+liberation-fonts
 libesd0
 libevent-1_4-2
 libevoldap-2_4-2
@@ -394,6 +400,7 @@ libgda-3_0
 libgda-3_0-3
 libgda-3_0-sqlite
 libgdiplus0
+libggz2
 libgimpprint
 libgio-2_0-0
 libgio-fam
@@ -461,6 +468,7 @@ libnl
 libnotify
 libnotify1
 libnscd
+libnsssharedhelper0
 libnvtv
 libogg0
 liboil
@@ -677,6 +685,7 @@ perl-gettext
 perl-libapparmor
 perl-libwww-perl
 permissions
+phalanx
 pidgin
 pidgin-branding-openSUSE
 pinentry
@@ -715,9 +724,11 @@ python-gnome
 python-gnome-extras
 python-gobject2
 python-gtk
+python-gtkglext
 python-gtksourceview
 python-notify
 python-numeric
+python-opengl
 python-orbit
 python-urlgrabber
 python-xml

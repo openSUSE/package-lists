@@ -60,6 +60,7 @@ OpenOffice_org
 OpenOffice_org-Quickstarter
 OpenOffice_org-base
 OpenOffice_org-base-extensions
+OpenOffice_org-branding-SLED
 OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
 OpenOffice_org-calc-extensions
@@ -180,11 +181,6 @@ accerciser
 accerciser-lang
 acl
 acpid
-acroread
-acroread-cmaps
-acroread-fonts-ja
-acroread-fonts-zh_CN
-acroread-fonts-zh_TW
 acx-kmp-default
 acx-kmp-pae
 acx-kmp-xen
@@ -462,14 +458,11 @@ circuslinux
 ckermit
 clamav
 classpathx-mail
-classpathx-mail-javadoc
 clucene-core
 clucene-core-devel
 cm-unicode
 cmake
 command-not-found
-compat-openssl097g
-compat-openssl097g-32bit
 compiz
 compiz-fusion-plugins-main
 compiz-gnome
@@ -559,6 +552,7 @@ deskbar-applet
 desktop-data-openSUSE
 desktop-data-openSUSE-extra-gnome
 desktop-file-utils
+desktop-translations
 devhelp
 devhelp-devel
 devhelp-lang
@@ -600,6 +594,7 @@ doxygen
 drbd-kmp-default
 drbd-kmp-pae
 drbd-kmp-xen
+dummy-release
 dvb
 dvd+rw-tools
 dvi2tty
@@ -761,7 +756,6 @@ gedit
 gegl-0_0
 genisoimage
 geronimo-jaf-1_0_2-api
-geronimo-jms-1_1-api
 geronimo-specs-poms
 gettext-runtime
 gettext-runtime-32bit
@@ -769,6 +763,7 @@ gettext-tools
 gftp
 gftp-lang
 gfxboot
+gfxboot-branding-SLES
 gfxboot-branding-openSUSE
 gfxboot-devel
 ggreeter
@@ -788,6 +783,7 @@ giflib-32bit
 giflib-devel
 giflib-devel-32bit
 gimp
+gimp-branding-SLED
 gimp-branding-openSUSE
 gimp-help
 gimp-help-de
@@ -825,7 +821,9 @@ glib-sharp2
 glib2
 glib2-branding-openSUSE
 glib2-devel
+glib2-devel-32bit
 glib2-doc
+glib2-lang
 glibc
 glibc-32bit
 glibc-devel
@@ -1139,7 +1137,6 @@ java-1_6_0-openjdk
 java-1_6_0-openjdk-devel
 java-1_6_0-openjdk-plugin
 javacc
-javamail-monolithic
 jdepend
 jedit
 jfsutils
@@ -1919,6 +1916,7 @@ libnotify-devel
 libnotify1
 libnscd
 libnscd-32bit
+libnsssharedhelper0
 libnuma1
 libnvtv
 libobjc43
@@ -2233,7 +2231,6 @@ mlterm-scim
 mlterm-uim
 mmv
 module-init-tools
-moneyplex
 mono-addins
 mono-basic
 mono-core
@@ -2269,7 +2266,6 @@ mozilla-nss-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner181
-mozilla-xulrunner181-32bit
 mozilla-xulrunner190
 mozilla-xulrunner190-devel
 mozilla-xulrunner190-gnomevfs
@@ -2353,6 +2349,7 @@ nscd
 nspluginwrapper
 nss-mdns
 nss-mdns-32bit
+nss-shared-helper-devel
 nss_ldap
 nss_ldap-32bit
 ntfs-3g
@@ -2693,6 +2690,7 @@ poppler-tools
 popt
 popt-32bit
 popt-devel
+portmap
 posix_cc
 poster
 postfix
@@ -2838,6 +2836,7 @@ rsibreak
 rsvg-view
 rsvg2-sharp
 rsync
+rsyslog
 ruby
 rxvt-unicode
 rzsz
@@ -2971,7 +2970,6 @@ subversion-tools
 sudo
 sumf
 supertux
-suse-desktop-utils
 suseRegister
 susedoc
 susehelp
