@@ -32,13 +32,9 @@
     <lock package="novell-ipsec-tools"/>
     <lock package="novell-NLDAPsdk-dyn"/>
     <lock package="myspell-german"/>
-    <lock package="desktop-data-NLD"/>
-    <!-- SLE themes -->
-    <lock package="gnome-menus-branding-SLED"/>
-    <lock package="gtk2-branding-SLED"/>
-    <lock package="gtk2-theme-SLED"/>
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
+    <!-- INCLUDE ignore_opensuse.xml -->
     <install kind="package" name="sendmail"/>
     <install kind="package" name="notification-daemon-xfce"/>
     <install kind="package" name="sendfax"/>
@@ -61,9 +57,6 @@
 <!--    <install kind="package" name="iscan"/> --><!-- !ppc -->
     <lock kind="package" name="acroread_ja"/> <!-- !ppc -->
     <lock kind="package" name="apache2-prefork"/>
-    <lock package="gfxboot-branding-SLED"/>
-    <lock package="gtk2-branding-SLED"/>
-    <lock package="gtk2-theme-SLED"/>
     <reportProblems/>
   </trial>
 </test>

@@ -32,12 +32,7 @@
     <lock package="novell-ipsec-tools"/>
     <lock package="novell-NLDAPsdk-dyn"/>
     <lock package="myspell-german"/>
-    <lock package="desktop-data-NLD"/>
-    <!-- SLE themes -->
-    <lock package="gnome-menus-branding-SLED"/>
-    <lock package="gfxboot-branding-SLED"/>
-    <lock package="gtk2-branding-SLED"/>
-    <lock package="gtk2-theme-SLED"/>
+    <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="package" name="xpdf-tools"/>

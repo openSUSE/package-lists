@@ -53,7 +53,7 @@ if (echo $file | grep "_cd" > /dev/null); then
    export ignore_list="$ignore_list ignore_cds"
 fi
 
-if (echo $file | grep "kde4_cd" > /dev/null); then
+if (echo $file | egrep "kde._cd" > /dev/null); then
    GEN_ARCH="i586 x86_64"
    export ignore_list="$ignore_list ignore_kde_cd"
 fi
@@ -80,7 +80,10 @@ do
   eval VAR="\$GEN_URL_${i}"
   sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" > $file.$arch.xml
   sed -i -e '/!-- SLES_LOCKS -->/r sles-locks.xml' $file.$arch.xml
-  sed -i -e '/!-- INCLUDE sles-common.xml -->/r sles-common.xml' $file.$arch.xml 
+  includes=`grep -- "-- INCLUDE" $file.xml.in | sed -e "s,.*INCLUDE *,,; s, .*,,"`
+  for include in $includes; do 
+     sed -i -e "/!-- INCLUDE $include -->/r $include" $file.$arch.xml 
+  done
 
   rm -rf /tmp/myrepos /var/cache/zypp
   mkdir -p $TESTTRACK/$base.$arch/CD1/

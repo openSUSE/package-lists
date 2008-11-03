@@ -43,8 +43,7 @@
     <lock package="java-1_6_0-sun"/>
     <lock package="java-1_5_0-sun"/>
     <install kind="package" name="openSUSE-release-livecdgnome"/>
-    <lock package="gtk2-branding-SLED"/>  
-    <lock package="gtk2-theme-SLED"/>
+    <!-- INCLUDE ignore_opensuse.xml -->
     <lock package="pam-32bit"/> <!-- !i586 !x86_64 -->
     <install package="gconf2-branding-openSUSE"/>
     <reportProblems/>
