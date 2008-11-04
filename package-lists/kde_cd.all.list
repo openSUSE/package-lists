@@ -33,6 +33,7 @@ OpenOffice_org-templates-labels-letter
 OpenOffice_org-ure
 OpenOffice_org-writer
 PackageKit
+PackageKit-lang
 PolicyKit
 PolicyKit-doc
 PolicyKit-kde
@@ -164,6 +165,7 @@ freeglut
 freetype2
 freetype2-32bit
 gawk
+gc
 gconf2
 gconf2-branding-openSUSE
 gdb
@@ -180,7 +182,6 @@ ghostscript-x11
 giflib
 glib2
 glib2-branding-openSUSE
-glib2-lang
 glibc
 glibc-32bit
 glibc-locale
@@ -240,6 +241,7 @@ jpeg
 k3b
 kaffeine
 kbd
+kde-susetranslations
 kde3-i18n-de
 kde4-akonadi
 kde4-akregator
@@ -399,6 +401,7 @@ libgimpprint
 libgio-2_0-0
 libgio-2_0-0-32bit
 libgio-fam
+libglade2
 libglib-2_0-0
 libglib-2_0-0-32bit
 libgmodule-2_0-0
@@ -477,6 +480,7 @@ libopensc2
 libopenssl0_9_8
 libopenssl0_9_8-32bit
 libotr2
+libpackagekit-glib10
 libpcap0
 libphonon4
 libpng12-0
@@ -609,6 +613,7 @@ numlockx
 obex-data-server
 openSUSE-build-key
 openSUSE-release
+openSUSE-release-livecd-kde
 openSUSE-release-livecdkde
 openct
 openldap2-client
@@ -685,7 +690,6 @@ pm-profiler
 pm-utils
 pmtools
 polkit-default-privs
-poppler-data
 poppler-tools
 popt
 postfix
@@ -709,6 +713,10 @@ pulseaudio-utils
 pwdutils
 python
 python-base
+python-cairo
+python-gobject2
+python-gtk
+python-numeric
 python-urlgrabber
 python-xml
 qlogic-firmware

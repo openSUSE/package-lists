@@ -139,6 +139,7 @@ OpenOffice_org-ure
 OpenOffice_org-writer
 OpenOffice_org-writer-extensions
 PackageKit
+PackageKit-lang
 PgTcl
 PolicyKit
 PolicyKit-32bit
@@ -818,7 +819,6 @@ glib2-branding-openSUSE
 glib2-devel
 glib2-devel-32bit
 glib2-doc
-glib2-lang
 glibc
 glibc-32bit
 glibc-devel
@@ -886,7 +886,6 @@ gnome-panel-sharp
 gnome-phone-manager
 gnome-pilot
 gnome-pilot-devel
-gnome-pilot-lang
 gnome-power-manager
 gnome-print-sharp
 gnome-python-desktop
@@ -1153,6 +1152,7 @@ kbd
 kblocks
 kcm_gtk
 kdbg
+kde-susetranslations
 kde3-i18n-cs
 kde3-i18n-da
 kde3-i18n-de
@@ -1437,6 +1437,7 @@ kisdnwatch
 kismet
 kitchensync
 kiwi
+kiwi-config-openSUSE
 kiwi-desc-isoboot
 kiwi-desc-netboot
 kiwi-desc-oemboot
@@ -1953,6 +1954,7 @@ libosip2-devel
 libotf
 libotr2
 libpacemaker3
+libpackagekit-glib10
 libpangomm-1_4-1
 libpcap0
 libphonon4
@@ -2253,7 +2255,6 @@ mozilla-nss
 mozilla-nss-32bit
 mozilla-nss-devel
 mozilla-nss-tools
-mozilla-xulrunner181
 mozilla-xulrunner190
 mozilla-xulrunner190-devel
 mozilla-xulrunner190-gnomevfs
@@ -2410,6 +2411,7 @@ pam
 pam-32bit
 pam-config
 pam-devel
+pam-devel-32bit
 pam-modules
 pam_apparmor
 pam_apparmor-32bit
@@ -2488,6 +2490,7 @@ perl-Convert-UUlib
 perl-Crypt-Blowfish
 perl-Crypt-CBC
 perl-Crypt-DES
+perl-Crypt-OpenSSL-RSA
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
@@ -2556,6 +2559,7 @@ perl-MIME-Types
 perl-MIME-tools
 perl-MLDBM
 perl-MLDBM-Sync
+perl-Mail-DKIM
 perl-Mail-Mbox-MessageParser
 perl-MailTools
 perl-Mcrypt
@@ -2673,7 +2677,6 @@ pmidi
 pmtools
 podsleuth
 polkit-default-privs
-poppler-data
 poppler-tools
 popt
 popt-32bit

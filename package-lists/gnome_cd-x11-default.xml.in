@@ -57,9 +57,7 @@
     <lock package="gtk2-engines-32bit"/>
     <lock package="hpijs-standalone"/>
     <lock package="hplip-hpijs"/>
-    <lock package="gfxboot-branding-SLED"/>
-    <lock package="gtk2-branding-SLED"/>
-    <lock package="gtk2-theme-SLED"/>
+    <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="package" name="ghostscript-library"/>

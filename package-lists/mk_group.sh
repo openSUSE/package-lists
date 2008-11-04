@@ -1,10 +1,11 @@
 #!/bin/bash
 # usage:
-# ./mk_group.sh dvd-all.list REST-DVD osc/openSUSE:Factory/group.REST-DVD.xml
+# ./mk_group.sh dvd-all.list REST-DVD osc/openSUSE:Factory/group.REST-DVD.xml [conditiional]
 
 list=$1
 name=$2
 dest=$3
+cond=$4
 
 pushd $PWD/`dirname $dest` > /dev/null
   osc up
@@ -12,7 +13,10 @@ popd > /dev/null
 
 
 echo "<group name=\"$name\">" > $dest
-echo "<packagelist id=\"$name\">" >> $dest
+if test -n "$cond"; then
+  echo "<conditional name=\"$cond\" />" >> $dest
+fi
+echo "<packagelist>" >> $dest
 
 for i in `cat $list`;
 do
