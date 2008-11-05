@@ -78,12 +78,13 @@ do
   arch=$i
   echo -n " $arch"
   eval VAR="\$GEN_URL_${i}"
-  sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in | fgrep -v "!$arch" > $file.$arch.xml
+  sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in > $file.$arch.xml
   sed -i -e '/!-- SLES_LOCKS -->/r sles-locks.xml' $file.$arch.xml
   includes=`grep -- "-- INCLUDE" $file.xml.in | sed -e "s,.*INCLUDE *,,; s, .*,,"`
   for include in $includes; do 
      sed -i -e "/!-- INCLUDE $include -->/r $include" $file.$arch.xml 
   done
+  fgrep -v "!$arch" $file.$arch.xml > $file.$arch.xml.new && mv $file.$arch.xml.new $file.$arch.xml
 
   rm -rf /tmp/myrepos /var/cache/zypp
   mkdir -p $TESTTRACK/$base.$arch/CD1/

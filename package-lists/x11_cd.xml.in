@@ -52,7 +52,7 @@
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_cd_x11"/>
-<!--    <install kind="package" name="openSUSE-release-live"/> -->
+    <install kind="package" name="openSUSE-release-ftp"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>
