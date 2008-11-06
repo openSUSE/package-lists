@@ -61,7 +61,7 @@ set -e
 ./mk_group.sh dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
 ./mk_group.sh promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group
 ./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
-./mk_group.sh sled-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sled-all.group
+#./mk_group.sh sled-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sled-all.group
 ./mk_group.sh sdk-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-all.group
 
 svn commit -m "auto commit"

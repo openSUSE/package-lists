@@ -43,6 +43,7 @@ do_opensuse()
 	  grep -vx $i $f.$arch.list > t && mv t $f.$arch.list
 	done
       done
+      grep -vx openSUSE-release-ftp x11_cd-initrd.$arch.list > t && mv t x11_cd-initrd.$arch.list
     done
 
     for i in kde4_cd*.list; do 

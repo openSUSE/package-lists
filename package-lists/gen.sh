@@ -69,7 +69,7 @@ test -n "$internals" || exit 1
 sh ./create_locks.sh $internals `pdb query --filter status:candidate` `pdb query --filter status:frozen` \
   `cat $ignore_list` > locks.xml
 sh ./create_locks.sh $internals `pdb query --filter status:production,ProdOnly:sles_only` `pdb query --filter status:frozen` \
-  `cat $ignore_list` > sles-locks.xml
+  `cat $ignore_list` `cd /work/cd/lib/put_built_to_cd/locations-stable/pay && ls -1 ` > sles-locks.xml
 
 ret=0
 

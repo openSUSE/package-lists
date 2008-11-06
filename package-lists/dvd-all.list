@@ -1,5 +1,4 @@
 3ddiag
-AdobeICCProfiles
 BitTorrent
 BitTorrent-curses
 CID-keyed-fonts-MOE
@@ -10,12 +9,6 @@ ConsoleKit-32bit
 ConsoleKit-devel
 ConsoleKit-x11
 DirectFB
-FZFangSong
-FZHeiTi
-FZKaiTi
-FZKaiTiB
-FZMingTiB
-FZSongTi
 FreeNX
 IPAGothic
 IPAMincho
@@ -149,6 +142,7 @@ PolicyKit-gnome
 PolicyKit-gnome-devel
 PolicyKit-gnome-libs
 PolicyKit-kde
+PolicyKit-kde-lang
 SDL
 SDL-32bit
 SDL-devel
@@ -240,6 +234,10 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+apport
+apport-crashdb-opensuse
+apport-gtk
+apport-qt
 aqbanking
 aqbanking-lang
 armagetron
@@ -302,7 +300,6 @@ autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
 avahi-mono
-avmailgate
 awesfx
 axis
 b43-fwcutter
@@ -312,6 +309,7 @@ banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
 banshee-1-extensions-default
+banshee-1-lang
 barcode
 bash
 bash-completion
@@ -548,6 +546,7 @@ dejavu
 delayacct-utils
 deltarpm
 deskbar-applet
+desktop-data-SLED
 desktop-data-openSUSE
 desktop-data-openSUSE-extra-gnome
 desktop-file-utils
@@ -574,6 +573,7 @@ digikamimageplugins
 digikamimageplugins-superimpose
 ding
 dirmngr
+djvulibre
 dmraid
 dnsmasq
 docbook-dsssl-stylesheets
@@ -664,7 +664,6 @@ findutils
 findutils-locate
 finger
 flac
-flash-player
 flex
 flex-32bit
 flim
@@ -705,7 +704,6 @@ fvwm2-gtk
 fxload
 g3utils
 galago-daemon
-galago-sharp
 gawk
 gc
 gcal
@@ -815,6 +813,7 @@ glib-devel
 glib-devel-32bit
 glib-sharp2
 glib2
+glib2-branding-SLED
 glib2-branding-openSUSE
 glib2-devel
 glib2-devel-32bit
@@ -942,7 +941,6 @@ grip-lang
 groff
 grub
 gsf-sharp
-gst-fluendo-mp3
 gstreamer-0_10
 gstreamer-0_10-32bit
 gstreamer-0_10-devel
@@ -976,6 +974,7 @@ gtk2-themes
 gtkglext
 gtkhtml2
 gtkhtml2-devel
+gtkhtml2-lang
 gtkhtml314-sharp
 gtkiterm
 gtklp
@@ -1069,10 +1068,7 @@ ipw-firmware
 irda
 irqbalance
 irssi
-iscan
-iscan-firmware
 iscan-free
-iscan-proprietary-drivers
 isns
 iso-codes
 iso-codes-devel
@@ -1102,7 +1098,6 @@ itcl-devel
 itk
 ivman
 ivtv
-ivtv-firmware
 iwidgets
 iwl3945-ucode
 iwl4965-ucode
@@ -1308,7 +1303,6 @@ kdebase3-SuSE-lang
 kdebase3-beagle
 kdebase3-devel
 kdebase3-extra
-kdebase3-kdm
 kdebase3-nsplugin
 kdebase3-runtime
 kdebase3-runtime-32bit
@@ -1483,6 +1477,7 @@ koffice-i18n-sv
 koffice-i18n-sv-doc
 koffice-i18n-zh_CN
 koffice-i18n-zh_TW
+koffice-illustration
 kommander
 kommander-runtime
 konserve
@@ -1530,6 +1525,7 @@ lha
 libEMF
 libFLAC++6
 libFLAC8
+libGraphicsMagick2
 libHX13
 libHX13-32bit
 libMagick++1
@@ -1681,7 +1677,6 @@ libexpat1
 libexpat1-32bit
 libext2fs-devel
 libext2fs2
-libflashsupport
 libfluidsynth1
 libfprint0
 libfprint0-32bit
@@ -2049,6 +2044,8 @@ libsqlite3-0
 libsqlite3-0-32bit
 libssh2-1
 libstdc++-devel
+libstdc++33
+libstdc++33-32bit
 libstdc++43
 libstdc++43-32bit
 libstdc++43-devel
@@ -2249,10 +2246,8 @@ motv
 mousepad
 mousetweaks
 mozilla-nspr
-mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
-mozilla-nss-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner190
@@ -2774,6 +2769,7 @@ python-wxGTK-doc
 python-wxGTK-examples
 python-xml
 python-zopeinterface
+python-zypp
 pyxml
 qca
 qemu
@@ -2905,6 +2901,7 @@ sil-doulos
 silc-toolkit
 simple-ccsm
 simple-ccsm-kde
+simple-ccsm-kde-lang
 skanlite
 skim
 skim-scim-anthy
@@ -2914,7 +2911,6 @@ skkdic
 slang
 slib
 slrn
-smartlink-softmodem
 smartmontools
 smis-providers
 smolt
@@ -2933,6 +2929,7 @@ sox
 spamassassin
 speedcrunch
 splashy
+splashy-branding-openSUSE
 sqlite2
 sqlite3
 sqlite3-devel
@@ -3076,8 +3073,6 @@ ttf-arphic-gbsn00lp
 ttf-arphic-gkai00mp
 ttf-arphic-ukai
 ttf-arphic-uming
-ttf-cmex-kai
-ttf-cmex-song
 tv-common
 tv-fonts
 udev
@@ -3350,7 +3345,6 @@ xsp
 xstroke
 xterm
 xtermset
-xv
 xvkbd
 yafray
 yast2
