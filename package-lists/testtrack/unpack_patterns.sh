@@ -43,6 +43,7 @@ for arch in i586 x86_64 ppc; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/promo_dvd-*.pat promo_dvd.$arch
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/non_oss-*.pat dvd5.$arch
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/non_oss-*.pat promo_dvd.$arch
+  copy /tmp/patterns.$arch/CD1/suse/setup/descr/ftp-*.pat dvd5.$arch
 done
 fi
 

@@ -10,7 +10,8 @@ MozillaFirefox
 MozillaFirefox-branding-openSUSE
 NetworkManager
 NetworkManager-glib
-NetworkManager-kde
+NetworkManager-kde4
+NetworkManager-kde4-lang
 OpenEXR
 OpenOffice_org
 OpenOffice_org-Quickstarter
@@ -31,7 +32,6 @@ OpenOffice_org-templates-labels-letter
 OpenOffice_org-ure
 OpenOffice_org-writer
 PackageKit
-PackageKit-lang
 PolicyKit
 PolicyKit-doc
 PolicyKit-kde
@@ -359,7 +359,6 @@ libcryptsetup0
 libcurl4
 libdaemon0
 libdb-4_5
-libdbus-1-qt3-0
 libdjvulibre21
 libdns_sd
 libdrm
@@ -886,6 +885,7 @@ yast2-profile-manager
 yast2-qt
 yast2-qt-pkg
 yast2-registration
+yast2-registration-branding-openSUSE
 yast2-repair
 yast2-restore
 yast2-runlevel

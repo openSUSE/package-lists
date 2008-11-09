@@ -9,7 +9,6 @@ ConsoleKit-32bit
 ConsoleKit-devel
 ConsoleKit-x11
 DirectFB
-FreeNX
 IPAGothic
 IPAMincho
 IPAPGothic
@@ -36,12 +35,13 @@ MozillaSunbird-translations
 MozillaThunderbird
 MozillaThunderbird-translations
 MyODBC-unixODBC
-NX
 NetworkManager
 NetworkManager-devel
 NetworkManager-glib
 NetworkManager-gnome
 NetworkManager-kde
+NetworkManager-kde4
+NetworkManager-kde4-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-vpnc
@@ -132,7 +132,6 @@ OpenOffice_org-ure
 OpenOffice_org-writer
 OpenOffice_org-writer-extensions
 PackageKit
-PackageKit-lang
 PgTcl
 PolicyKit
 PolicyKit-32bit
@@ -141,6 +140,7 @@ PolicyKit-doc
 PolicyKit-gnome
 PolicyKit-gnome-devel
 PolicyKit-gnome-libs
+PolicyKit-gnome-libs-32bit
 PolicyKit-kde
 PolicyKit-kde-lang
 SDL
@@ -224,8 +224,12 @@ ant-trax
 anthy
 antlr
 apache2
+apache2-doc
+apache2-example-pages
 apache2-mod_mono
 apache2-mod_perl
+apache2-mod_php5
+apache2-mod_python
 apache2-prefork
 apache2-utils
 apel
@@ -309,7 +313,6 @@ banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
 banshee-1-extensions-default
-banshee-1-lang
 barcode
 bash
 bash-completion
@@ -455,6 +458,7 @@ circuslinux
 ckermit
 clamav
 classpathx-mail
+classpathx-mail-javadoc
 clucene-core
 clucene-core-devel
 cm-unicode
@@ -546,7 +550,6 @@ dejavu
 delayacct-utils
 deltarpm
 deskbar-applet
-desktop-data-SLED
 desktop-data-openSUSE
 desktop-data-openSUSE-extra-gnome
 desktop-file-utils
@@ -632,6 +635,7 @@ evince
 evoldap2-devel
 evolution
 evolution-data-server
+evolution-data-server-32bit
 evolution-data-server-devel
 evolution-devel
 evolution-pilot
@@ -681,7 +685,6 @@ fop
 fortune
 free-ttf-fonts
 freealut
-freeciv
 freefont
 freeglut
 freeglut-32bit
@@ -703,7 +706,6 @@ fvwm2
 fvwm2-gtk
 fxload
 g3utils
-galago-daemon
 gawk
 gc
 gcal
@@ -752,6 +754,7 @@ gedit
 gegl-0_0
 genisoimage
 geronimo-jaf-1_0_2-api
+geronimo-jms-1_1-api
 geronimo-specs-poms
 gettext-runtime
 gettext-runtime-32bit
@@ -813,7 +816,6 @@ glib-devel
 glib-devel-32bit
 glib-sharp2
 glib2
-glib2-branding-SLED
 glib2-branding-openSUSE
 glib2-devel
 glib2-devel-32bit
@@ -880,6 +882,7 @@ gnome-mount
 gnome-nettool
 gnome-packagekit
 gnome-panel
+gnome-panel-32bit
 gnome-panel-devel
 gnome-panel-sharp
 gnome-phone-manager
@@ -974,7 +977,6 @@ gtk2-themes
 gtkglext
 gtkhtml2
 gtkhtml2-devel
-gtkhtml2-lang
 gtkhtml314-sharp
 gtkiterm
 gtklp
@@ -1635,6 +1637,7 @@ libcom_err2-32bit
 libcompizconfig
 libcroco
 libcroco-0_6-3
+libcroco-0_6-3-32bit
 libcroco-devel
 libcryptsetup0
 libcurl-devel
@@ -1677,14 +1680,12 @@ libexpat1
 libexpat1-32bit
 libext2fs-devel
 libext2fs2
-libfluidsynth1
 libfprint0
 libfprint0-32bit
 libfuse2
 libgadu
 libgail-gnome
 libgail-gnome-devel
-libgalago
 libgcc43
 libgcc43-32bit
 libgcj-devel
@@ -1734,6 +1735,7 @@ libgnome-desktop-2-7-32bit
 libgnome-devel
 libgnome-doc
 libgnome-menu2
+libgnome-menu2-32bit
 libgnomebt-devel
 libgnomebt0
 libgnomecanvas
@@ -1778,6 +1780,7 @@ libgpod-tools
 libgpod3
 libgsf
 libgsf-1-114
+libgsf-1-114-32bit
 libgsf-devel
 libgsf-doc
 libgsf-gnome
@@ -1801,6 +1804,7 @@ libgvfscommon0
 libgweather
 libgweather-devel
 libgweather1
+libgweather1-32bit
 libgwenhywfar38
 libhangul
 libheartbeat2
@@ -1861,6 +1865,7 @@ libldap-2_4-2
 libldap-2_4-2-32bit
 libldapcpp1
 libloudmouth-1-0
+liblpsolve55
 libltdl7
 libltdl7-32bit
 liblua5_1
@@ -1871,6 +1876,7 @@ libmal-devel
 libmalaga7
 libmcrypt
 libmikmod
+libmm14
 libmng
 libmng-32bit
 libmng-devel
@@ -1903,6 +1909,7 @@ libnotify1
 libnscd
 libnscd-32bit
 libnsssharedhelper0
+libnsssharedhelper0-32bit
 libnuma1
 libnvtv
 libobjc43
@@ -2009,6 +2016,7 @@ libreiserfs
 libreiserfs-32bit
 librpcsecgss
 librsvg
+librsvg-32bit
 librsvg-devel
 libsamplerate
 libsatsolver-devel
@@ -2103,6 +2111,7 @@ libwmf-devel
 libwmf-gnome
 libwnck
 libwnck-1-22
+libwnck-1-22-32bit
 libwnck-devel
 libwpd-0_8-8
 libwpg-0_1-1
@@ -2246,8 +2255,10 @@ motv
 mousepad
 mousetweaks
 mozilla-nspr
+mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
+mozilla-nss-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner190
@@ -2406,6 +2417,7 @@ pam
 pam-32bit
 pam-config
 pam-devel
+pam-devel-32bit
 pam-modules
 pam_apparmor
 pam_apparmor-32bit
@@ -2649,6 +2661,22 @@ phalanx
 phonon
 phonon-backend-gstreamer-0_10
 phonon-devel
+php5
+php5-ctype
+php5-dom
+php5-gd
+php5-hash
+php5-iconv
+php5-json
+php5-mbstring
+php5-mysql
+php5-pdo
+php5-sqlite
+php5-tokenizer
+php5-xmlreader
+php5-xmlwriter
+php5-zip
+php5-zlib
 pia
 pico
 pidgin
@@ -2678,8 +2706,11 @@ popt-devel
 posix_cc
 poster
 postfix
+postgresql
+postgresql-contrib
 postgresql-libs
 postgresql-libs-32bit
+postgresql-server
 pothana2000
 powerdevil
 powertop
@@ -2875,7 +2906,6 @@ scout
 scpm
 screen
 scrollkeeper
-scummvm
 seahorse
 seahorse-lang
 seamonkey
@@ -2954,7 +2984,6 @@ subversion-server
 subversion-tools
 sudo
 sumf
-supertux
 suseRegister
 susedoc
 susehelp
@@ -3371,6 +3400,7 @@ yast2-firstboot
 yast2-ftp-server
 yast2-gtk
 yast2-hardware-detection
+yast2-http-server
 yast2-inetd
 yast2-installation
 yast2-instserver
@@ -3413,6 +3443,7 @@ yast2-python-bindings
 yast2-qt
 yast2-qt-pkg
 yast2-registration
+yast2-registration-branding-openSUSE
 yast2-repair
 yast2-restore
 yast2-runlevel

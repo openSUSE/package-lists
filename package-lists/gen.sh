@@ -63,6 +63,10 @@ if (echo $file | grep "gnome_cd" > /dev/null); then
    export ignore_list="$ignore_list ignore_gnome_cd"
 fi
 
+if (echo $file | grep "x11_cd" > /dev/null); then
+   GEN_ARCH="i586 x86_64"
+fi
+
 internals=`pdb query --filter status:internal`
 test -n "$internals" || exit 1
 
