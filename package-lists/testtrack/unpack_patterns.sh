@@ -78,8 +78,9 @@ sh ../prepare_patterns.sh x86_64 x86_64 sdk
 sh ../prepare_patterns.sh ppc powerpc sdk
 sh ../prepare_patterns.sh ppc64 powerpc sdk
 sh ../prepare_patterns.sh ia64 ia64 sdk
+sh ../prepare_patterns.sh s390x s390x sdk
 
-for arch in i586 x86_64 ppc ppc64 ia64; do
+for arch in i586 x86_64 ppc ppc64 ia64 s390x; do
   copy /tmp/patterns.$arch/CD1/suse/setup/descr/sdk-*.pat sdk.$arch
 done
 

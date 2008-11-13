@@ -7,6 +7,7 @@ GEN_URL_x86_64="$BASEDIR/testtrack/full-head-x86_64"
 GEN_URL_ppc="$BASEDIR/testtrack/full-head-ppc"
 GEN_URL_ppc64="$BASEDIR/testtrack/full-head-ppc64"
 GEN_URL_ia64="$BASEDIR/testtrack/full-head-ia64"
+GEN_URL_s390x="$BASEDIR/testtrack/full-head-s390x"
 TESTTRACK="`pwd`/testtrack"
 
 echo -n "processing $1"
@@ -39,7 +40,7 @@ if (echo $file | grep "sles" > /dev/null); then
 fi
 
 if (echo $file | grep "sdk" > /dev/null); then
-  GEN_ARCH="i586 x86_64 ppc64 ia64"
+  GEN_ARCH="i586 x86_64 ppc64 ia64 s390x"
   base=${file/-*/}
 fi
 

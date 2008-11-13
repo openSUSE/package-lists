@@ -14,7 +14,7 @@ done
 cat yast.list | while read yast pack; do
   if grep -qx "$yast" $1; then
      if ! grep -qx "$pack" $1; then
-        echo "Yast module $yast needs $pack"
+        echo "$1: Yast module $yast needs $pack"
         ret=1
      fi
   fi

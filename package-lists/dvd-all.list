@@ -133,7 +133,6 @@ OpenOffice_org-thesaurus-sv
 OpenOffice_org-ure
 OpenOffice_org-writer
 OpenOffice_org-writer-extensions
-PackageKit
 PgTcl
 PolicyKit
 PolicyKit-32bit
@@ -279,7 +278,6 @@ at-spi-devel
 atftp
 atk
 atk-devel
-atk-devel-32bit
 atk-doc
 atmel-firmware
 attr
@@ -428,7 +426,6 @@ cabextract
 cairo
 cairo-32bit
 cairo-devel
-cairo-devel-32bit
 cairo-doc
 cairomm
 canna
@@ -632,6 +629,7 @@ epiphany-extensions-lang
 epiphany-lang
 epos
 eric
+esound-daemon
 espeak
 ethtool
 evince
@@ -646,6 +644,7 @@ evolution-sharp
 evolution-webcal
 evolution-webcal-lang
 exiftool
+exim
 exo
 expat
 expect
@@ -819,9 +818,9 @@ glib-devel
 glib-devel-32bit
 glib-sharp2
 glib2
+glib2-branding-SLES
 glib2-branding-openSUSE
 glib2-devel
-glib2-devel-32bit
 glib2-doc
 glibc
 glibc-32bit
@@ -833,9 +832,7 @@ glibc-locale
 glibc-locale-32bit
 glibmm2
 glitz
-glitz-32bit
 glitz-devel
-glitz-devel-32bit
 gltt
 gmime
 gmime-sharp
@@ -883,7 +880,6 @@ gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mount
 gnome-nettool
-gnome-packagekit
 gnome-panel
 gnome-panel-32bit
 gnome-panel-devel
@@ -970,7 +966,6 @@ gtk2
 gtk2-32bit
 gtk2-branding-openSUSE
 gtk2-devel
-gtk2-devel-32bit
 gtk2-engine-murrine
 gtk2-engine-murrine-32bit
 gtk2-engines
@@ -1252,7 +1247,7 @@ kde4-kturtle
 kde4-ktux
 kde4-kubrick
 kde4-kupdateapplet
-kde4-kupdateapplet-packagekit
+kde4-kupdateapplet-zypp
 kde4-kwalletmanager
 kde4-kweather
 kde4-kwin
@@ -1571,7 +1566,6 @@ libatk-1_0-0-32bit
 libattr
 libattr-32bit
 libattr-devel
-libattr-devel-32bit
 libavahi-client3
 libavahi-client3-32bit
 libavahi-common3
@@ -1604,20 +1598,35 @@ libbonoboui-32bit
 libbonoboui-devel
 libbonoboui-doc
 libboost_date_time-gcc43-mt-1_36-1_36_0
+libboost_date_time1_36_0
 libboost_filesystem-gcc43-mt-1_36-1_36_0
+libboost_filesystem1_36_0
 libboost_graph-gcc43-mt-1_36-1_36_0
+libboost_graph1_36_0
 libboost_iostreams-gcc43-mt-1_36-1_36_0
+libboost_iostreams1_36_0
 libboost_math-gcc43-mt-1_36-1_36_0
+libboost_math1_36_0
 libboost_mpi-gcc43-mt-1_36-1_36_0
+libboost_mpi1_36_0
 libboost_program_options-gcc43-mt-1_36-1_36_0
+libboost_program_options1_36_0
 libboost_python-gcc43-mt-1_36-1_36_0
+libboost_python1_36_0
 libboost_regex-gcc43-mt-1_36-1_36_0
+libboost_regex1_36_0
 libboost_serialization-gcc43-mt-1_36-1_36_0
+libboost_serialization1_36_0
 libboost_signals-gcc43-mt-1_36-1_36_0
+libboost_signals1_36_0
 libboost_system-gcc43-mt-1_36-1_36_0
+libboost_system1_36_0
 libboost_test-gcc43-mt-1_36-1_36_0
+libboost_test1_36_0
 libboost_thread-gcc43-mt-1_36-1_36_0
+libboost_thread1_36_0
 libboost_wave-gcc43-mt-1_36-1_36_0
+libboost_wave1_36_0
 libbtctl
 libbtctl-devel
 libbtctl4
@@ -1891,7 +1900,6 @@ libmusicbrainz-devel
 libmusicbrainz4
 libmxml1
 libmysqlclient15
-libmysqlclient15-32bit
 libmysqlclient_r15
 libncurses5
 libncurses5-32bit
@@ -1958,7 +1966,6 @@ libosip2-devel
 libotf
 libotr2
 libpacemaker3
-libpackagekit-glib10
 libpangomm-1_4-1
 libpcap0
 libphonon4
@@ -2086,9 +2093,10 @@ liburiparser1
 libusb-0_1-4
 libusb-0_1-4-32bit
 libusb-1_0-0
-libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
+libusb-devel
+libusbpp-0_1-4
 libuuid-devel
 libuuid1
 libuuid1-32bit
@@ -2194,8 +2202,6 @@ malaga-suomi
 man
 man-pages
 man-pages-cs
-man-pages-de
-man-pages-es
 man-pages-it
 man-pages-ja
 man-pages-pl
@@ -2419,7 +2425,6 @@ pam
 pam-32bit
 pam-config
 pam-devel
-pam-devel-32bit
 pam-modules
 pam_apparmor
 pam_apparmor-32bit
@@ -2439,7 +2444,6 @@ pan-lang
 pango
 pango-32bit
 pango-devel
-pango-devel-32bit
 pango-doc
 paprefs
 par
@@ -2662,6 +2666,7 @@ pgcalc
 phalanx
 phonon
 phonon-backend-gstreamer-0_10
+phonon-backend-xine
 phonon-devel
 php5
 php5-ctype
@@ -2711,7 +2716,6 @@ postfix
 postgresql
 postgresql-contrib
 postgresql-libs
-postgresql-libs-32bit
 postgresql-server
 pothana2000
 powerdevil
@@ -2814,15 +2818,11 @@ qt3-32bit
 qt3-devel
 qt3-devel-doc
 qt3-devel-tools
-qt3-devel-tools-32bit
 qt3-man
 qt3-mysql
-qt3-mysql-32bit
 qt3-postgresql
-qt3-postgresql-32bit
 qt3-sqlite
 qt3-unixODBC
-qt3-unixODBC-32bit
 qtcurve-gtk2
 qtcurve-gtk2-32bit
 qtcurve-kde
@@ -2840,7 +2840,6 @@ rdesktop
 readline-devel
 readline-doc
 recode
-recode-32bit
 regexp
 reiserfs
 release-notes-openSUSE
@@ -3125,7 +3124,6 @@ unison
 units
 unix2dos
 unixODBC
-unixODBC-32bit
 unrar
 unsermake
 unzip

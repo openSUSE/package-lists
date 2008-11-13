@@ -28,5 +28,5 @@ echo "</group>" >> $dest
 
 pushd $PWD/`dirname $dest` > /dev/null
    osc addremove `basename $dest`
-   #osc ci -m "auto update" `basename $dest`
+   osc ci -m "auto update" `basename $dest`
 popd > /dev/null

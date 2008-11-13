@@ -34,7 +34,10 @@ for arch in i586 x86_64; do
   done
 done
 
-test "$diff" = 0 && exit 0
+if test "$diff" = 0; then
+   echo "no diff - done"
+   exit 0
+fi
 
 tar cjf /package_lists/filelists.tar.bz2 *.list
 cp *.list saved
@@ -62,6 +65,15 @@ set -e
 ./mk_group.sh promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group
 ./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
 #./mk_group.sh sled-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sled-all.group
-./mk_group.sh sdk-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-all.group
+#./mk_group.sh sdk-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-all.group
+
+
+./mk_group.sh sdk-i586.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-i586.group
+./mk_group.sh sdk-x86_64.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-x86_64.group
+./mk_group.sh sdk-ppc64.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-ppc64.group
+./mk_group.sh sdk-ia64.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-ia64.group
+./mk_group.sh sdk-s390x.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-s390x.group
 
 svn commit -m "auto commit"
+echo "all done"
+
