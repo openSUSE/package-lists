@@ -40,14 +40,12 @@ NetworkManager-devel
 NetworkManager-glib
 NetworkManager-gnome
 NetworkManager-kde
-NetworkManager-kde4
-NetworkManager-kde4-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
-NetworkManager-openvpn-kde4
+NetworkManager-openvpn-kde
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
-NetworkManager-vpnc-kde4
+NetworkManager-vpnc-kde
 OpenEXR
 OpenEXR-32bit
 OpenEXR-devel
@@ -133,6 +131,7 @@ OpenOffice_org-thesaurus-sv
 OpenOffice_org-ure
 OpenOffice_org-writer
 OpenOffice_org-writer-extensions
+PackageKit
 PgTcl
 PolicyKit
 PolicyKit-32bit
@@ -313,9 +312,9 @@ banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
 banshee-1-extensions-default
+banshee-1-lang
 barcode
 bash
-bash-completion
 bash-doc
 batik
 bc
@@ -351,7 +350,6 @@ bluez-gnome
 bluez-hcidump
 bogofilter
 boo
-boost
 boost-devel
 boost-doc
 boost-jam
@@ -361,6 +359,7 @@ bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
+brasero-lang
 bridge-utils
 bsd-games
 bsf
@@ -569,6 +568,7 @@ dhcpv6
 dia
 dia-lang
 dialog
+dice
 diffstat
 diffutils
 digikam
@@ -629,7 +629,6 @@ epiphany-extensions-lang
 epiphany-lang
 epos
 eric
-esound-daemon
 espeak
 ethtool
 evince
@@ -638,13 +637,14 @@ evolution
 evolution-data-server
 evolution-data-server-32bit
 evolution-data-server-devel
+evolution-data-server-lang
 evolution-devel
+evolution-lang
 evolution-pilot
 evolution-sharp
 evolution-webcal
 evolution-webcal-lang
 exiftool
-exim
 exo
 expat
 expect
@@ -709,7 +709,6 @@ fvwm2-gtk
 fxload
 g3utils
 gawk
-gc
 gcal
 gcalctool
 gcc
@@ -818,7 +817,6 @@ glib-devel
 glib-devel-32bit
 glib-sharp2
 glib2
-glib2-branding-SLES
 glib2-branding-openSUSE
 glib2-devel
 glib2-doc
@@ -880,6 +878,7 @@ gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mount
 gnome-nettool
+gnome-packagekit
 gnome-panel
 gnome-panel-32bit
 gnome-panel-devel
@@ -952,6 +951,7 @@ gstreamer-0_10-plugins-base-32bit
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-good-extra
+gstreamer-0_10-schroedinger
 gsynaptics
 gthumb
 gthumb-lang
@@ -1055,6 +1055,8 @@ input-utils
 insserv
 inst-source-utils
 install-initrd
+install-initrd-branding-SLED
+install-initrd-branding-openSUSE
 intlfnts
 intltool
 ipadic
@@ -1200,6 +1202,7 @@ kde4-kgamma
 kde4-kget
 kde4-kgoldrunner
 kde4-kgpg
+kde4-kgreeter-plugins
 kde4-kio_audiocd
 kde4-kio_beagle
 kde4-kio_iso
@@ -1247,6 +1250,7 @@ kde4-kturtle
 kde4-ktux
 kde4-kubrick
 kde4-kupdateapplet
+kde4-kupdateapplet-packagekit
 kde4-kupdateapplet-zypp
 kde4-kwalletmanager
 kde4-kweather
@@ -1597,35 +1601,20 @@ libbonoboui
 libbonoboui-32bit
 libbonoboui-devel
 libbonoboui-doc
-libboost_date_time-gcc43-mt-1_36-1_36_0
 libboost_date_time1_36_0
-libboost_filesystem-gcc43-mt-1_36-1_36_0
 libboost_filesystem1_36_0
-libboost_graph-gcc43-mt-1_36-1_36_0
 libboost_graph1_36_0
-libboost_iostreams-gcc43-mt-1_36-1_36_0
 libboost_iostreams1_36_0
-libboost_math-gcc43-mt-1_36-1_36_0
 libboost_math1_36_0
-libboost_mpi-gcc43-mt-1_36-1_36_0
 libboost_mpi1_36_0
-libboost_program_options-gcc43-mt-1_36-1_36_0
 libboost_program_options1_36_0
-libboost_python-gcc43-mt-1_36-1_36_0
 libboost_python1_36_0
-libboost_regex-gcc43-mt-1_36-1_36_0
 libboost_regex1_36_0
-libboost_serialization-gcc43-mt-1_36-1_36_0
 libboost_serialization1_36_0
-libboost_signals-gcc43-mt-1_36-1_36_0
 libboost_signals1_36_0
-libboost_system-gcc43-mt-1_36-1_36_0
 libboost_system1_36_0
-libboost_test-gcc43-mt-1_36-1_36_0
 libboost_test1_36_0
-libboost_thread-gcc43-mt-1_36-1_36_0
 libboost_thread1_36_0
-libboost_wave-gcc43-mt-1_36-1_36_0
 libboost_wave1_36_0
 libbtctl
 libbtctl-devel
@@ -1634,6 +1623,7 @@ libbz2-1
 libbz2-1-32bit
 libbz2-devel
 libcaca
+libcanberra-gtk
 libcanberra-gtk0
 libcanberra0
 libcap2
@@ -1966,6 +1956,7 @@ libosip2-devel
 libotf
 libotr2
 libpacemaker3
+libpackagekit-glib10
 libpangomm-1_4-1
 libpcap0
 libphonon4
@@ -2030,6 +2021,7 @@ librsvg-devel
 libsamplerate
 libsatsolver-devel
 libsblim-cmpiutil1
+libschroedinger-1_0-0
 libselinux1
 libselinux1-32bit
 libsensors3
@@ -2092,9 +2084,6 @@ libtunepimp5
 liburiparser1
 libusb-0_1-4
 libusb-0_1-4-32bit
-libusb-1_0-0
-libusb-1_0-devel
-libusb-compat-devel
 libusb-devel
 libusbpp-0_1-4
 libuuid-devel
@@ -2222,7 +2211,6 @@ metacity-devel
 metamail
 mgetty
 microcode_ctl
-mikachan-fonts
 mingetty
 minicom
 mirror
@@ -2425,6 +2413,7 @@ pam
 pam-32bit
 pam-config
 pam-devel
+pam-devel-32bit
 pam-modules
 pam_apparmor
 pam_apparmor-32bit
@@ -2666,7 +2655,6 @@ pgcalc
 phalanx
 phonon
 phonon-backend-gstreamer-0_10
-phonon-backend-xine
 phonon-devel
 php5
 php5-ctype
@@ -3129,6 +3117,7 @@ unsermake
 unzip
 update-alternatives
 update-desktop-files
+usb_modeswitch
 usbutils
 utempter
 utempter-32bit
@@ -3223,6 +3212,7 @@ xen-doc-pdf
 xen-libs
 xen-libs-32bit
 xen-tools
+xen-tools-domU
 xerces-j2
 xerces-j2-xml-apis
 xerces-j2-xml-resolver

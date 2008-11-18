@@ -69,6 +69,7 @@ banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
 banshee-1-extensions-default
+banshee-1-lang
 bash
 bc
 beagle
@@ -87,6 +88,7 @@ bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
+brasero-lang
 bug-buddy
 bundle-lang-common-en
 bundle-lang-gnome-en
@@ -158,8 +160,8 @@ eog
 espeak
 ethtool
 evince
-evolution
 evolution-data-server
+evolution-data-server-lang
 evolution-sharp
 expat
 f-spot
@@ -177,7 +179,6 @@ freeglut
 freetype2
 fuse
 gawk
-gc
 gcalctool
 gconf-editor
 gconf-sharp2
@@ -237,7 +238,6 @@ gnome-packagekit
 gnome-panel
 gnome-panel-sharp
 gnome-phone-manager
-gnome-pilot
 gnome-power-manager
 gnome-python-desktop
 gnome-screensaver
@@ -266,6 +266,7 @@ gsf-sharp
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gstreamer-0_10-schroedinger
 gsynaptics
 gtk-sharp2
 gtk2
@@ -287,7 +288,6 @@ gvfs-backends
 gvfs-fuse
 gzip
 hal
-hal-palm
 hdparm
 hicolor-icon-theme
 hunspell
@@ -302,6 +302,8 @@ info
 info2html
 input-utils
 insserv
+install-initrd
+install-initrd-branding-openSUSE
 iproute2
 iptables
 iputils
@@ -320,7 +322,6 @@ kdelibs3-default-style
 kernel-default
 kernel-default-base
 kernel-default-extra
-kerneloops
 keyutils-libs
 klogd
 kpartx
@@ -352,11 +353,12 @@ libblocxx6
 libbluetooth3
 libbonobo
 libbonoboui
-libboost_signals-gcc43-mt-1_36-1_36_0
+libboost_signals1_36_0
 libbtctl
 libbtctl4
 libbz2-1
 libcaca
+libcanberra-gtk
 libcanberra-gtk0
 libcanberra0
 libcap2
@@ -470,12 +472,9 @@ libopenssl0_9_8
 libpackagekit-glib10
 libpangomm-1_4-1
 libpcap0
-libpisock9
-libpisync1
 libpng12-0
 libpoppler-glib3
 libpoppler3
-libpst0
 libpt2
 libpulse-browse0
 libpulse-mainloop-glib0
@@ -493,6 +492,7 @@ libreiserfs
 librpcsecgss
 librsvg
 libsamplerate
+libschroedinger-1_0-0
 libselinux1
 libsepol1
 libsexy
@@ -515,7 +515,6 @@ libtheora0
 libtiff3
 libtirpc1
 libusb-0_1-4
-libusb-1_0-0
 libuuid1
 libvisual
 libvolume_id1
@@ -800,6 +799,7 @@ ulimit
 unrar
 unzip
 update-alternatives
+usb_modeswitch
 usbutils
 utempter
 util-linux

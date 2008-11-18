@@ -3,6 +3,7 @@ ConsoleKit
 ConsoleKit-x11
 DirectFB
 IlmBase
+ImageMagick
 LibVNCServer
 Mesa
 ModemManager
@@ -10,8 +11,7 @@ MozillaFirefox
 MozillaFirefox-branding-openSUSE
 NetworkManager
 NetworkManager-glib
-NetworkManager-kde4
-NetworkManager-kde4-lang
+NetworkManager-kde
 OpenEXR
 OpenOffice_org
 OpenOffice_org-Quickstarter
@@ -31,6 +31,7 @@ OpenOffice_org-templates-labels-a4
 OpenOffice_org-templates-labels-letter
 OpenOffice_org-ure
 OpenOffice_org-writer
+PackageKit
 PolicyKit
 PolicyKit-doc
 PolicyKit-kde
@@ -160,7 +161,6 @@ freeglut
 freetype2
 freetype2-32bit
 gawk
-gc
 gconf2
 gconf2-branding-openSUSE
 gdb
@@ -193,6 +193,7 @@ grub
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gstreamer-0_10-schroedinger
 gtk2
 gtk2-32bit
 gtk2-branding-openSUSE
@@ -250,6 +251,7 @@ kde4-kfind
 kde4-kgamma
 kde4-kget
 kde4-kgpg
+kde4-kgreeter-plugins
 kde4-kio_audiocd
 kde4-kio_iso
 kde4-kio_kamera
@@ -270,7 +272,7 @@ kde4-krfb
 kde4-kscd
 kde4-ksnapshot
 kde4-kupdateapplet
-kde4-kupdateapplet-zypp
+kde4-kupdateapplet-packagekit
 kde4-kwalletmanager
 kde4-kwin
 kde4-kwrite
@@ -302,7 +304,6 @@ kdepimlibs4
 kernel-default
 kernel-default-base
 kernel-default-extra
-kerneloops
 keyutils-libs
 keyutils-libs-32bit
 kinternet
@@ -345,7 +346,7 @@ libavahi-glib1
 libblkid1
 libblocxx6
 libbluetooth3
-libboost_signals-gcc43-mt-1_36-1_36_0
+libboost_signals1_36_0
 libbz2-1
 libcaca
 libcap2
@@ -356,9 +357,11 @@ libcryptsetup0
 libcurl4
 libdaemon0
 libdb-4_5
+libdbus-1-qt3-0
 libdjvulibre21
 libdns_sd
 libdrm
+libdv4
 libdvdread4
 libdw1
 libelf1
@@ -460,6 +463,7 @@ libopensc2
 libopenssl0_9_8
 libopenssl0_9_8-32bit
 libotr2
+libpackagekit-glib10
 libpcap0
 libphonon4
 libpng12-0
@@ -478,6 +482,7 @@ libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
 libqt4-x11
+libquicktime
 libraptor1
 librasqal1
 libreadline5
@@ -485,6 +490,7 @@ libredland0
 libreiserfs
 librpcsecgss
 libsamplerate
+libschroedinger-1_0-0
 libselinux1
 libselinux1-32bit
 libsensors4
@@ -509,7 +515,6 @@ libtiff3
 libtiff3-32bit
 libtirpc1
 libusb-0_1-4
-libusb-1_0-0
 libuuid1
 libuuid1-32bit
 libvisual
@@ -556,6 +561,7 @@ mdadm
 memtest86+
 microcode_ctl
 mingetty
+mjpegtools
 mkinitrd
 module-init-tools
 mozilla-nspr
@@ -759,6 +765,7 @@ udev
 ulimit
 unzip
 update-alternatives
+usb_modeswitch
 usbutils
 utempter
 util-linux

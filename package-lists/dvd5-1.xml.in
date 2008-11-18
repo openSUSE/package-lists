@@ -57,6 +57,7 @@
     <install kind="pattern" name="rest_dvd"/>
     <install kind="package" name="openSUSE-release-dvd"/>
     <install kind="pattern" name="devel_gnome"/>
+    <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

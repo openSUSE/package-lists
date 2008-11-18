@@ -17,9 +17,6 @@ if test -f config.sh; then
 fi
 
 file=$1
-if test -n "$2"; then
-  GEN_ARCH=$2
-fi
 
 # multiple setups (dvd5, dvd5-2, etc.)
 base=${file/-*/}
@@ -66,6 +63,10 @@ fi
 
 if (echo $file | grep "x11_cd" > /dev/null); then
    GEN_ARCH="i586 x86_64"
+fi
+
+if test -n "$2"; then
+  GEN_ARCH=$2
 fi
 
 internals=`pdb query --filter status:internal`
