@@ -63,7 +63,6 @@
     <install kind="package" name="openSUSE-release-ftp"/>
     <install kind="pattern" name="enhanced_base"/>
     <lock package="gtk2"/>
-    <lock kind="package" name="java-1_6_0-sun"/>
     <reportProblems/>
   </trial>
 </test>

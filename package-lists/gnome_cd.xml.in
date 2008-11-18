@@ -40,8 +40,6 @@
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_cd_gnome"/>
-    <lock package="java-1_6_0-sun"/>
-    <lock package="java-1_5_0-sun"/>
     <install kind="package" name="openSUSE-release-livecd-gnome"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <lock package="pam-32bit"/> <!-- !i586 !x86_64 -->

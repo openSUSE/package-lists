@@ -10,7 +10,8 @@
 <lock package="glib2-branding-SLED"/>
 <lock package="yast2-registration-branding-SLE"/>
 <lock package="desktop-data-SLED"/>
+<!-- java is openjdk -->
+<lock package="java-1_5_0-sun"/>
+<lock package="java-1_6_0-sun"/>
 <!-- non-oss -->
 <lock package="poppler-data"/>
-<!-- for now -->
-<lock package="usb_modeswitch"/>
