@@ -64,15 +64,14 @@ set -e
 ./mk_group.sh dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
 ./mk_group.sh promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group
 ./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
-#./mk_group.sh sled-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sled-all.group
-#./mk_group.sh sdk-all.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-all.group
 
-
+if false; then
 ./mk_group.sh sdk-i586.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-i586.group
 ./mk_group.sh sdk-x86_64.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-x86_64.group
 ./mk_group.sh sdk-ppc64.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-ppc64.group
 ./mk_group.sh sdk-ia64.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-ia64.group
 ./mk_group.sh sdk-s390x.list REST-DVD osc/SUSE\:Factory\:Head/_product/sdk-s390x.group
+fi
 
 svn commit -m "auto commit"
 echo "all done"
