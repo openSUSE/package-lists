@@ -11,8 +11,11 @@
 <lock package="glib2-branding-SLES"/>
 <lock package="yast2-registration-branding-SLE"/>
 <lock package="desktop-data-SLED"/>
+<lock package="install-initrd-branding-SLED"/>
 <!-- java is openjdk -->
 <lock package="java-1_5_0-sun"/>
 <lock package="java-1_6_0-sun"/>
 <!-- non-oss -->
 <lock package="poppler-data"/>
+<!-- temporary -->
+<lock package="install-initrd"/>

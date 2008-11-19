@@ -69,7 +69,6 @@ banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
 banshee-1-extensions-default
-banshee-1-lang
 bash
 bc
 beagle
@@ -88,7 +87,6 @@ bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
-brasero-lang
 bug-buddy
 bundle-lang-common-en
 bundle-lang-gnome-en
@@ -161,7 +159,6 @@ espeak
 ethtool
 evince
 evolution-data-server
-evolution-data-server-lang
 evolution-sharp
 expat
 f-spot
@@ -267,6 +264,8 @@ gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-schroedinger
+gstreamer-0_10-utils
+gstreamer-utils
 gsynaptics
 gtk-sharp2
 gtk2
@@ -302,8 +301,6 @@ info
 info2html
 input-utils
 insserv
-install-initrd
-install-initrd-branding-openSUSE
 iproute2
 iptables
 iputils
@@ -727,6 +724,7 @@ python-xml
 qlogic-firmware
 qt3
 quota
+ralink-firmware
 rarian
 recode
 reiserfs
@@ -784,7 +782,6 @@ tar
 tasque
 tcl
 tcpd
-tcsh
 terminfo-base
 tightvnc
 timezone

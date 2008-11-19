@@ -13,5 +13,4 @@ difflist()
 
 diff -u autobuild-lists/sles-all.list sles-all.list > /package_lists/purely_for_kukuk
 diff -u autobuild-lists/sled-all.list sled-all.list > /package_lists/purely_for_behlert
-difflist sdk-all.list sles11-sdk-dvd-i386
-
+#difflist sdk-all.list sles11-sdk-dvd-i386

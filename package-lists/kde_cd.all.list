@@ -196,6 +196,8 @@ gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-schroedinger
+gstreamer-0_10-utils
+gstreamer-utils
 gtk2
 gtk2-32bit
 gtk2-branding-openSUSE
@@ -219,8 +221,6 @@ info
 info2html
 input-utils
 insserv
-install-initrd
-install-initrd-branding-openSUSE
 iproute2
 iptables
 iputils
@@ -292,6 +292,7 @@ kde4-plasma-addons
 kde4-plasmoid-quickaccess
 kde4-plasmoid-quicklauncher
 kdeartwork4-screensaver
+kdebase3-nsplugin
 kdebase3-runtime
 kdebase4
 kdebase4-libkonq
@@ -716,6 +717,7 @@ qt3
 qtcurve-gtk2
 qtcurve-kde
 quota
+ralink-firmware
 recode
 reiserfs
 release-notes-openSUSE
@@ -768,7 +770,6 @@ sysvinit
 taglib
 tar
 tcpd
-tcsh
 terminfo-base
 tightvnc
 timezone
