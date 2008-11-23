@@ -47,7 +47,7 @@ LOCK2=
 ignore_list=ignore_all
 
 if (echo $file | grep "_cd" > /dev/null); then
-   GEN_ARCH="i586 x86_64 ppc"
+   GEN_ARCH="i586 x86_64"
    export ignore_list="$ignore_list ignore_cds"
 fi
 
