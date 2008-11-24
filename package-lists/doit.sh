@@ -70,12 +70,11 @@ do_sdk()
     pushd sdk > /dev/null
 
     php5 -q gen_sle_buildenv.php > /home/pattern/products/patterns-sdk-data/data/REST-SDK-BUILDENV
-    svn commit -m "auto commit" /home/pattern/products/patterns-sdk-data/data/REST-SDK-BUILDENV > /dev/null
+    #svn commit -m "auto commit" /home/pattern/products/patterns-sdk-data/data/REST-SDK-BUILDENV > /dev/null
 
     popd > /dev/null
 
     ./gen.sh sdk || return 1
-    cat sdk.all.list | LC_ALL=C sort -u > sdk-all.list
     ./sdk.sh
     return 0
 }

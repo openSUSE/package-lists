@@ -15,8 +15,17 @@ do
   test -d suse || mkdir suse
   test -d media.1 || mkdir media.1
   echo "/ openSuSE-full-$i 11.1" > media.1/products
-  rm susex
-  ln -s /mounts/machcd3/dists/full-$i/suse susex
+  case $i in
+  obs-*)
+     rarch=${i/obs-/}
+     mkdir -p susex/$rarch
+     rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:11.1/standard/$rarch/:full/ susex/$rarch/
+     ;;
+  *) 
+    rm susex
+    ln -s /mounts/machcd3/dists/full-$i/suse susex
+    ;;
+  esac
   echo > media.1/media <<EOF
 SUSE Linux Products GmbH
 20080513132816

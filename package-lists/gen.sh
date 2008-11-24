@@ -23,6 +23,7 @@ base=${file/-*/}
 
 if (echo $file | grep "promo" > /dev/null); then
   GEN_ARCH="i586"
+  GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
   base=${file/-*/}
 fi
 
@@ -46,8 +47,17 @@ LOCK=
 LOCK2=
 ignore_list=ignore_all
 
+if (echo $file | grep "dvd5" > /dev/null); then
+   GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
+   GEN_URL_x86_64="$BASEDIR/testtrack/full-obs-x86_64"
+   GEN_URL_ppc="$BASEDIR/testtrack/full-obs-ppc"
+fi
+
 if (echo $file | grep "_cd" > /dev/null); then
    GEN_ARCH="i586 x86_64"
+   GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
+   GEN_URL_x86_64="$BASEDIR/testtrack/full-obs-x86_64"
+   GEN_URL_ppc="$BASEDIR/testtrack/full-obs-ppc"
    export ignore_list="$ignore_list ignore_cds"
 fi
 
