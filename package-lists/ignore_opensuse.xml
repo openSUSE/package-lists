@@ -18,6 +18,8 @@
 <lock package="java-1_6_0-sun"/>
 <!-- non-oss -->
 <lock package="poppler-data"/>
+<!-- pulled in by patch -->
+<lock package="fetchmsfonts"/>
 <!-- not built ppc64 -->
 <lock package="PolicyKit-gnome-libs-64bit"/>
 <lock package="SDL-64bit"/>

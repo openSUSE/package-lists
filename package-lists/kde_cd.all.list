@@ -49,6 +49,8 @@ alsa-oss
 alsa-oss-32bit
 alsa-plugins-pulse
 alsa-utils
+amarok
+amarok-yauap
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -150,6 +152,7 @@ ethtool
 expat
 fam
 fbset
+fftw3
 file
 filesystem
 fillup
@@ -240,7 +243,6 @@ kbd
 kde-susetranslations
 kde3-i18n-de
 kde4-akregator
-kde4-amarok
 kde4-ark
 kde4-dolphin
 kde4-filesystem
@@ -449,7 +451,6 @@ liblazy1
 liblcms1
 libldap-2_4-2
 libldapcpp1
-libloudmouth-1-0
 liblpsolve55
 libltdl7
 liblzmadec0
@@ -459,7 +460,6 @@ libmpcdec5
 libmpfr1
 libmtp8
 libmusicbrainz4
-libmysqlclient15
 libmysqlclient_r15
 libncurses5
 libncurses5-32bit
@@ -467,10 +467,13 @@ libncurses6
 libneon27
 libnet
 libnetpbm10
+libnjb
+libnjb5
 libnl
 libnscd
 libnsssharedhelper0
 libnuma1
+libofa0
 libogg0
 liboil
 libopenct1
@@ -484,7 +487,7 @@ libphonon4
 libpng12-0
 libpng12-0-32bit
 libpoppler-qt4-3
-libpoppler3
+libpoppler4
 libpulse-browse0
 libpulse-mainloop-glib0
 libpulse0
@@ -529,10 +532,13 @@ libtheora0
 libtiff3
 libtiff3-32bit
 libtirpc1
+libtunepimp
+libtunepimp5
 libusb-0_1-4
 libuuid1
 libuuid1-32bit
 libvisual
+libvisual-plugins
 libvolume_id1
 libvorbis
 libwavpack1
@@ -695,6 +701,9 @@ preload
 procps
 psmisc
 pth
+pullin-flash-player
+pullin-fluendo-mp3
+pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
@@ -715,6 +724,7 @@ python-xml
 qlogic-firmware
 qt3
 qtcurve-gtk2
+qtcurve-gtk2-32bit
 qtcurve-kde
 quota
 ralink-firmware
@@ -724,6 +734,7 @@ release-notes-openSUSE
 rpcbind
 rpm
 rsync
+ruby
 sane-backends
 sane-backends-autoconfig
 satsolver-tools
@@ -786,6 +797,7 @@ util-linux
 uuid-runtime
 vim
 vim-base
+virtualbox-ose-kmp-default
 vorbis-tools
 w3m
 wdiff
@@ -929,6 +941,7 @@ yast2-vm
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
+yauap
 yp-tools
 ypbind
 zd1211-firmware

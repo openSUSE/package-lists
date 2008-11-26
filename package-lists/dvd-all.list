@@ -197,7 +197,6 @@ alsa-plugins-pulse-32bit
 alsa-tools
 alsa-utils
 amarok
-amarok-lang
 amarok-libvisual
 amarok-yauap
 amavisd-new
@@ -278,6 +277,7 @@ aspell-ru
 aspell-sv
 at
 at-spi
+at-spi-32bit
 at-spi-devel
 atftp
 atk
@@ -369,6 +369,7 @@ bsf
 bsh2
 bsh2-classgen
 bug-buddy
+bug-buddy-32bit
 build
 bundle-lang-common-cs
 bundle-lang-common-da
@@ -967,6 +968,7 @@ gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
 gtk-xfce-engine
+gtk-xfce-engine-32bit
 gtk2
 gtk2-32bit
 gtk2-branding-openSUSE
@@ -1183,6 +1185,7 @@ kde3-i18n-zh_CN
 kde3-i18n-zh_TW
 kde4-akregator
 kde4-amarok
+kde4-amarok-lang
 kde4-amor
 kde4-ark
 kde4-bovo
@@ -1306,6 +1309,7 @@ kdeaccessibility3
 kdeaddons3-games
 kdeaddons3-kate
 kdeaddons3-kicker
+kdeaddons3-konqueror
 kdeaddons3-kontact
 kdeaddons3-sound
 kdeadmin3
@@ -1352,6 +1356,7 @@ kdegraphics3-extra
 kdegraphics3-fax
 kdegraphics3-imaging
 kdegraphics3-kamera
+kdegraphics3-pdf
 kdegraphics3-tex
 kdelibs3
 kdelibs3-32bit
@@ -1370,13 +1375,17 @@ kdemultimedia3-arts
 kdemultimedia3-extra
 kdemultimedia3-jukebox
 kdemultimedia3-midi
+kdemultimedia3-mixer
 kdemultimedia3-sound
 kdemultimedia3-video
 kdemultimedia3-video-xine
+kdenetwork3
 kdenetwork3-IRC
+kdenetwork3-InstantMessenger
 kdenetwork3-dialup
 kdenetwork3-lan
 kdenetwork3-lisa
+kdenetwork3-news
 kdenetwork3-query
 kdenetwork3-wireless
 kdenetwork4-filesharing
@@ -1397,6 +1406,7 @@ kdesvn
 kdetoys3
 kdetv
 kdetv-lang
+kdeutils3
 kdeutils3-extra
 kdeutils3-laptop
 kdevelop3
@@ -1633,8 +1643,11 @@ libbz2-1-32bit
 libbz2-devel
 libcaca
 libcanberra-gtk
+libcanberra-gtk-32bit
 libcanberra-gtk0
+libcanberra-gtk0-32bit
 libcanberra0
+libcanberra0-32bit
 libcap2
 libcap2-32bit
 libcdio7
@@ -1674,6 +1687,7 @@ libeel-2-2
 libelf0
 libelf0-32bit
 libelf1
+libelf1-32bit
 libenchant1
 liberation-fonts
 libesd-devel
@@ -1696,6 +1710,7 @@ libfprint0-32bit
 libfuse2
 libgadu
 libgail-gnome
+libgail-gnome-32bit
 libgail-gnome-devel
 libgcc43
 libgcc43-32bit
@@ -1921,7 +1936,6 @@ libnscd-32bit
 libnsssharedhelper0
 libnsssharedhelper0-32bit
 libnuma1
-libnvtv
 libobjc43
 libobjc43-32bit
 libofa0
@@ -1978,10 +1992,10 @@ libpng-devel-32bit
 libpng12-0
 libpng12-0-32bit
 libpoppler-devel
-libpoppler-glib3
+libpoppler-glib4
 libpoppler-qt2
 libpoppler-qt4-3
-libpoppler3
+libpoppler4
 libpst0
 libpt2
 libpulse-browse0
@@ -1999,16 +2013,19 @@ libqimageblitz-devel
 libqimageblitz4
 libqscintilla2-4
 libqt4
+libqt4-32bit
 libqt4-devel
 libqt4-devel-doc
 libqt4-devel-doc-data
 libqt4-qt3support
 libqt4-sql
+libqt4-sql-32bit
 libqt4-sql-mysql
 libqt4-sql-postgresql
 libqt4-sql-sqlite
 libqt4-sql-unixODBC
 libqt4-x11
+libqt4-x11-32bit
 libqtpod0
 libquicktime
 libraptor-devel
@@ -2118,8 +2135,10 @@ libwbclient0-32bit
 libwbxml2-0
 libwebkit-1_0-1
 libwmf
+libwmf-32bit
 libwmf-devel
 libwmf-gnome
+libwmf-gnome-32bit
 libwnck
 libwnck-1-22
 libwnck-1-22-32bit
@@ -2156,6 +2175,7 @@ libzvbi0
 libzypp
 licenses
 liferea
+liferea-lang
 lilo
 limal
 limal-ca-mgm
@@ -2646,6 +2666,7 @@ perl-XML-XPath
 perl-XML-XSLT
 perl-YAML
 perl-base
+perl-base-32bit
 perl-doc
 perl-gettext
 perl-ldap
@@ -2766,6 +2787,7 @@ pth
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
+pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
@@ -2795,6 +2817,7 @@ python-fcgi
 python-gdata
 python-gdbm
 python-gnome
+python-gnome-32bit
 python-gnome-devel
 python-gnome-extras
 python-gnome-menus
@@ -2835,6 +2858,7 @@ python-xml
 python-zopeinterface
 python-zypp
 pyxml
+qca
 qemu
 qlogic-firmware
 qt3
@@ -2924,10 +2948,13 @@ sazanami-fonts
 sbl
 sblim-sfcb
 scim
+scim-32bit
 scim-anthy
 scim-bridge
 scim-bridge-gtk
+scim-bridge-gtk-32bit
 scim-bridge-qt
+scim-bridge-qt-32bit
 scim-canna
 scim-chewing
 scim-hangul
@@ -2936,6 +2963,7 @@ scim-m17n
 scim-pinyin
 scim-pinyin-skim
 scim-qtimm
+scim-qtimm-32bit
 scim-skk
 scim-tables
 scim-tables-additional

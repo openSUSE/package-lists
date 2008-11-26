@@ -48,6 +48,7 @@ apparmor-profiles
 apparmor-utils
 art-sharp2
 aspell
+aspell-de
 aspell-en
 at-spi
 atk
@@ -86,7 +87,9 @@ bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
 bug-buddy
+bundle-lang-common-de
 bundle-lang-common-en
+bundle-lang-gnome-de
 bundle-lang-gnome-en
 bzip2
 cabextract
@@ -461,7 +464,6 @@ libnotify
 libnotify1
 libnscd
 libnsssharedhelper0
-libnvtv
 libogg0
 liboil
 libopenct1
@@ -473,8 +475,8 @@ libpcap0
 libpisock9
 libpisync1
 libpng12-0
-libpoppler-glib3
-libpoppler3
+libpoppler-glib4
+libpoppler4
 libpst0
 libpt2
 libpulse-browse0
@@ -700,6 +702,9 @@ preload
 procps
 psmisc
 pth
+pullin-flash-player
+pullin-fluendo-mp3
+pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
@@ -770,6 +775,7 @@ strace
 sudo
 suseRegister
 susehelp
+susehelp_de
 susehelp_en
 suspend
 sysconfig
@@ -794,6 +800,7 @@ totem
 totem-pl-parser
 totem-plugin
 translation-update
+translation-update-de
 udev
 ulimit
 unrar
@@ -807,6 +814,7 @@ uuid-runtime
 vim
 vim-base
 vino
+virtualbox-ose-kmp-default
 vorbis-tools
 vte
 w3m
@@ -927,6 +935,7 @@ yast2-storage-lib
 yast2-sudo
 yast2-sysconfig
 yast2-theme-openSUSE
+yast2-trans-de
 yast2-trans-en_US
 yast2-trans-stats
 yast2-transfer

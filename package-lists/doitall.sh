@@ -6,7 +6,7 @@ diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
 cd testtrack/
 ./update_full.sh obs-i586 obs-x86_64 obs-ppc
-./update_full.sh head-i586 head-x86_64 head-ppc head-ppc64 head-ia64 head-s390x
+#./update_full.sh head-i586 head-x86_64 head-ppc head-ppc64 head-ia64 head-s390x
 echo -n "updating patterns "
 ./unpack_patterns.sh $diffonly > patterns.log 2>&1
 echo "done"
@@ -64,11 +64,12 @@ set -e
 ./mk_group.sh promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:11.1/_product/DVD5-promo-i386.group
 ./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:11.1/_product/DVD5-lang.group
 
-./mk_group.sh sdk-i586.list sdk-i586 osc/SUSE\:Factory\:Head/_product/sdk-i586.group only_i586
-./mk_group.sh sdk-x86_64.list sdk-x86_64 osc/SUSE\:Factory\:Head/_product/sdk-x86_64.group only_x86_64
-./mk_group.sh sdk-ppc64.list sdk-ppc64 osc/SUSE\:Factory\:Head/_product/sdk-ppc64.group only_ppc64
-./mk_group.sh sdk-ia64.list sdk-ia64 osc/SUSE\:Factory\:Head/_product/sdk-ia64.group only_ia64
-./mk_group.sh sdk-s390x.list sdk-s390x osc/SUSE\:Factory\:Head/_product/sdk-s390x.group only_s390x
+# I wan't to review changes before submitting package lists -- cthiel
+#./mk_group.sh sdk-i586.list sdk-i586 osc/SUSE\:Factory\:Head/_product/sdk-i586.group only_i586
+#./mk_group.sh sdk-x86_64.list sdk-x86_64 osc/SUSE\:Factory\:Head/_product/sdk-x86_64.group only_x86_64
+#./mk_group.sh sdk-ppc64.list sdk-ppc64 osc/SUSE\:Factory\:Head/_product/sdk-ppc64.group only_ppc64
+#./mk_group.sh sdk-ia64.list sdk-ia64 osc/SUSE\:Factory\:Head/_product/sdk-ia64.group only_ia64
+#./mk_group.sh sdk-s390x.list sdk-s390x osc/SUSE\:Factory\:Head/_product/sdk-s390x.group only_s390x
 
 ./mk_group.sh x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
 
