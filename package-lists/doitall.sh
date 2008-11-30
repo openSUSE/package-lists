@@ -58,6 +58,14 @@ set -e
 ./check_size.sh sled-x86_64.list x86_64
 ) | tee sizes
 
+list=`(pdb query --filter status:production,ProdOnly:sles_only; pdb query --filter status:frozen; pdb query --filter status:internal) | LC_ALL=C sort -u`
+: > not_for_opensuse.list
+for i in $list; do 
+  test -f testtrack/full-obs-i586/susex/i586/$i.rpm || continue
+  echo $i >> not_for_opensuse.list
+done
+
+./mk_group.sh not_for_opensuse.list FROZEN osc/openSUSE\:11.1/_product/FROZEN.group drop_from_ftp
 ./mk_group.sh dvd-ppc.list DVD-ppc osc/openSUSE\:11.1/_product/DVD5-ppc.group only_ppc
 ./mk_group.sh dvd-i586.list DVD-i586 osc/openSUSE\:11.1/_product/DVD5-i586.group only_i586
 ./mk_group.sh dvd-x86_64.list DVD-x86_64 osc/openSUSE\:11.1/_product/DVD5-x86_64.group only_x86_64

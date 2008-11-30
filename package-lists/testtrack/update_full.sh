@@ -19,7 +19,16 @@ do
   obs-*)
      rarch=${i/obs-/}
      mkdir -p susex/$rarch
-     rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:11.1/standard/$rarch/:full/ susex/$rarch/
+     echo -n "syncing $i "
+     count=`rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:11.1/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     echo -n "found $count packages "
+     if test "$count" = 0; then
+        echo "done"
+        popd
+        continue
+     else
+        echo
+     fi
      ;;
   *) 
     rm susex

@@ -4,7 +4,6 @@
     <source url="GEN_URL" name="tmp"/>
     <system file="solver-system.xml"/>
     <locale name="en_US"/>
-    <locale name="de"/>
   </setup>
   <trial>
     <!-- ignoring some lang provides -->
@@ -44,7 +43,7 @@
     <!-- INTERNALS -->
     <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_cd_kde3"/>
-    <install kind="package" name="openSUSE-release-livecd-kde"/> 
+    <install kind="package" name="openSUSE-release-livecd-kde3"/> 
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

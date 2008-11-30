@@ -20,6 +20,9 @@
 <lock package="poppler-data"/>
 <!-- pulled in by patch -->
 <lock package="fetchmsfonts"/>
+<!-- just too big -->
+<lock package="python-wxGTK-doc"/>
+<lock package="boost-doc"/>
 <!-- not built ppc64 -->
 <lock package="PolicyKit-gnome-libs-64bit"/>
 <lock package="SDL-64bit"/>

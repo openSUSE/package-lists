@@ -142,6 +142,7 @@ PolicyKit-gnome
 PolicyKit-gnome-devel
 PolicyKit-gnome-libs
 PolicyKit-gnome-libs-32bit
+PolicyKit-kde
 SDL
 SDL-32bit
 SDL-devel
@@ -220,6 +221,7 @@ ant-scripts
 ant-swing
 ant-trax
 anthy
+anthy-32bit
 antlr
 apache2
 apache2-devel
@@ -353,7 +355,6 @@ bluez-hcidump
 bogofilter
 boo
 boost-devel
-boost-doc
 boost-jam
 boost-license
 bootcycle
@@ -431,6 +432,7 @@ cairo-doc
 cairomm
 canna
 canna-libs
+canna-libs-32bit
 cannadic
 capi4hylafax
 capi4linux
@@ -466,8 +468,10 @@ cmake
 cnetworkmanager
 command-not-found
 compiz
+compiz-branding-openSUSE
 compiz-fusion-plugins-main
 compiz-gnome
+compiz-kde
 compiz-kde4
 compiz-manager
 compizconfig-settings-manager
@@ -1218,7 +1222,6 @@ kde4-kgreeter-plugins
 kde4-kimagemapeditor
 kde4-kio_audiocd
 kde4-kio_beagle
-kde4-kio_iso
 kde4-kio_kamera
 kde4-kio_sysinfo
 kde4-kio_sysinfo-branding-openSUSE
@@ -1354,6 +1357,8 @@ kdegraphics3-fax
 kdegraphics3-imaging
 kdegraphics3-kamera
 kdegraphics3-pdf
+kdegraphics3-postscript
+kdegraphics3-scan
 kdegraphics3-tex
 kdelibs3
 kdelibs3-32bit
@@ -1542,6 +1547,7 @@ lha
 libEMF
 libFLAC++6
 libFLAC8
+libFLAC8-32bit
 libGraphicsMagick2
 libHX13
 libHX13-32bit
@@ -1549,6 +1555,7 @@ libMagick++1
 libMagickCore1
 libMagickCore1-32bit
 libMagickWand1
+libMagickWand1-32bit
 libQtWebKit-devel
 libQtWebKit4
 libXiterm
@@ -2074,6 +2081,7 @@ libsoup-devel
 libsoup-devel-32bit
 libspectre1
 libspeex
+libspeex-32bit
 libsqlite3-0
 libsqlite3-0-32bit
 libssh2-1
@@ -2151,6 +2159,7 @@ libxfce4mcs
 libxfce4util
 libxfcegui4
 libxine1
+libxine1-32bit
 libxine1-gnome-vfs
 libxine1-pulse
 libxklavier
@@ -2173,7 +2182,6 @@ libzvbi0
 libzypp
 licenses
 liferea
-liferea-lang
 lilo
 limal
 limal-ca-mgm
@@ -2386,6 +2394,7 @@ nxtvepg
 obex-data-server
 obexftp
 ocfs2-tools
+ocrad
 omnibook-kmp-default
 omnibook-kmp-pae
 omnibook-kmp-xen
@@ -2850,7 +2859,6 @@ python-twisted-doc
 python-twisted-web
 python-urlgrabber
 python-wxGTK
-python-wxGTK-doc
 python-wxGTK-examples
 python-xml
 python-zopeinterface
@@ -2896,6 +2904,7 @@ ripit
 ristretto
 rpcbind
 rpm
+rpm-32bit
 rpm-devel
 rpm-python
 rsh
@@ -3001,6 +3010,7 @@ sil-charis
 sil-doulos
 silc-toolkit
 simple-ccsm
+simple-ccsm-kde
 skanlite
 skim
 skim-scim-anthy
@@ -3185,8 +3195,11 @@ udhcp
 ufraw
 ufraw-gimp
 uim
+uim-32bit
 uim-gtk2
+uim-gtk2-32bit
 uim-qt
+uim-qt-32bit
 ulimit
 umtsmon
 unarj
@@ -3354,6 +3367,7 @@ xfwm4
 xfwm4-themes
 xhtml-dtd
 xine-ui
+xine-ui-32bit
 xinetd
 xiterm
 xkeyboard-config
