@@ -8,18 +8,31 @@
   <trial>
     <!-- ignoring some lang provides -->
     <!-- ignoring some recommends -->
-    <lock package="opensuse-manual_en-pdf"/>
-    <lock package="oxygen-icon-theme-scalable"/>
-    <lock package="spamassassin"/>
     <lock package="vim-data"/>
-    <lock package="libstdc++41-32bit"/>
     <lock package="libgcc42-32bit"/>
+    <lock package="libstdc++41-32bit"/>
     <lock package="libstdc++42-32bit"/>
-    <lock package="gutenprint"/>
-    <lock package="rdesktop"/>
-    <lock package="gimp"/>
-    <lock package="ufraw"/>
     <!-- recommended by Ooo -->
+    <lock package="bundle-lang-kde-ar"/>
+    <lock package="bundle-lang-kde-ca"/>
+    <lock package="bundle-lang-kde-cs"/>
+    <lock package="bundle-lang-kde-da"/>
+    <lock package="bundle-lang-kde-de"/>
+    <lock package="bundle-lang-kde-en"/>
+    <lock package="bundle-lang-kde-es"/>
+    <lock package="bundle-lang-kde-fi"/>
+    <lock package="bundle-lang-kde-fr"/>
+    <lock package="bundle-lang-kde-hu"/>
+    <lock package="bundle-lang-kde-it"/>
+    <lock package="bundle-lang-kde-ja"/>
+    <lock package="bundle-lang-kde-ko"/>
+    <lock package="bundle-lang-kde-nb"/>
+    <lock package="bundle-lang-kde-nl"/>
+    <lock package="bundle-lang-kde-pl"/>
+    <lock package="bundle-lang-kde-pt"/>
+    <lock package="bundle-lang-kde-ru"/>
+    <lock package="bundle-lang-kde-sv"/>
+    <lock package="bundle-lang-kde-zh"/>
     <lock package="bundle-lang-gnome-ar"/>
     <lock package="bundle-lang-gnome-ca"/>
     <lock package="bundle-lang-gnome-cs"/>
@@ -40,19 +53,17 @@
     <lock package="bundle-lang-gnome-ru"/>
     <lock package="bundle-lang-gnome-sv"/>
     <lock package="bundle-lang-gnome-zh"/>
-    <lock package="compiz-kde"/>
+    <lock package="gnome-session-branding-openSUSE"/>
     <lock package="gtk2-32bit"/>
-    <lock name="office" kind="pattern"/>
-    <lock name="OpenOffice_org" kind="package"/>
     <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-cds.xml -->
+    <!-- INCLUDE ignore_opensuse-kde-cd.xml -->
     <!-- INTERNALS -->
-    <!-- SLES_LOCKS -->
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
-    <install kind="package" name="cracklib-dict-full"/>
     <install kind="package" name="openSUSE-release-ftp"/>
-    <install kind="pattern" name="kde4"/>
+    <install kind="pattern" name="enhanced_base"/>
+    <lock package="gtk2"/>
     <reportProblems/>
-    <showpool verbose="true"/>
   </trial>
 </test>

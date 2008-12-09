@@ -8,8 +8,8 @@
   <trial>
     <!-- ignoring some lang provides -->
     <!-- INTERNALS -->
-    <!-- SLES_LOCKS -->
     <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-cds.xml -->
     <install kind="package" name="aufs"/>
     <install kind="package" name="aufs-kmp-default"/>
     <install kind="package" name="bind-libs"/>

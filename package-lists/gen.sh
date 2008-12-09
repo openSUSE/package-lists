@@ -45,7 +45,6 @@ fi
 
 LOCK=
 LOCK2=
-ignore_list=ignore_all
 
 if (echo $file | grep "dvd5" > /dev/null); then
    GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
@@ -58,17 +57,14 @@ if (echo $file | grep "_cd" > /dev/null); then
    GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
    GEN_URL_x86_64="$BASEDIR/testtrack/full-obs-x86_64"
    GEN_URL_ppc="$BASEDIR/testtrack/full-obs-ppc"
-   export ignore_list="$ignore_list ignore_cds"
 fi
 
 if (echo $file | egrep "kde._cd" > /dev/null); then
    GEN_ARCH="i586 x86_64"
-   export ignore_list="$ignore_list ignore_kde_cd"
 fi
 
 if (echo $file | grep "gnome_cd" > /dev/null); then
    GEN_ARCH="i586 x86_64"
-   export ignore_list="$ignore_list ignore_gnome_cd"
 fi
 
 if (echo $file | grep "x11_cd" > /dev/null); then
@@ -82,10 +78,9 @@ fi
 internals=`pdb query --filter status:internal`
 test -n "$internals" || exit 1
 
-sh ./create_locks.sh $internals `pdb query --filter status:candidate` `pdb query --filter status:frozen` \
-  `cat $ignore_list` > locks.xml
-sh ./create_locks.sh $internals `pdb query --filter status:production,ProdOnly:sles_only` `pdb query --filter status:frozen` \
-  `cat $ignore_list` `cd /work/cd/lib/put_built_to_cd/locations-stable/pay && ls -1 ` > sles-locks.xml
+sh ./create_locks.sh $internals > output/pdb_internals.xml
+sh ./create_locks.sh `pdb query --filter status:candidate` > output/pdb_candidates.xml
+sh ./create_locks.sh `pdb query --filter status:frozen` > output/pdb_frozen.xml
 
 ret=0
 
@@ -94,8 +89,7 @@ do
   arch=$i
   echo -n " $arch"
   eval VAR="\$GEN_URL_${i}"
-  sed -e '/!-- INTERNALS -->/r locks.xml' -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in > $file.$arch.xml
-  sed -i -e '/!-- SLES_LOCKS -->/r sles-locks.xml' $file.$arch.xml
+  sed -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in > $file.$arch.xml
   includes=`grep -- "-- INCLUDE" $file.xml.in | sed -e "s,.*INCLUDE *,,; s, .*,,"`
   for include in $includes; do 
      sed -i -e "/!-- INCLUDE $include -->/r $include" $file.$arch.xml 

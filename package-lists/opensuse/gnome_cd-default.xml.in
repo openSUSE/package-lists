@@ -33,36 +33,18 @@
     <lock package="bundle-lang-kde-ru"/>
     <lock package="bundle-lang-kde-sv"/>
     <lock package="bundle-lang-kde-zh"/>
-    <lock package="bundle-lang-gnome-ar"/>
-    <lock package="bundle-lang-gnome-ca"/>
-    <lock package="bundle-lang-gnome-cs"/>
-    <lock package="bundle-lang-gnome-da"/>
-    <lock package="bundle-lang-gnome-de"/>
-    <lock package="bundle-lang-gnome-en"/>
-    <lock package="bundle-lang-gnome-es"/>
-    <lock package="bundle-lang-gnome-fi"/>
-    <lock package="bundle-lang-gnome-fr"/>
-    <lock package="bundle-lang-gnome-hu"/>
-    <lock package="bundle-lang-gnome-it"/>
-    <lock package="bundle-lang-gnome-ja"/>
-    <lock package="bundle-lang-gnome-ko"/>
-    <lock package="bundle-lang-gnome-nb"/>
-    <lock package="bundle-lang-gnome-nl"/>
-    <lock package="bundle-lang-gnome-pl"/>
-    <lock package="bundle-lang-gnome-pt"/>
-    <lock package="bundle-lang-gnome-ru"/>
-    <lock package="bundle-lang-gnome-sv"/>
-    <lock package="bundle-lang-gnome-zh"/>
-    <lock package="gnome-session-branding-openSUSE"/>
     <lock package="gtk2-32bit"/>
+    <lock name="office" kind="pattern"/>
+    <lock package="gnome2-user-docs"/> <!-- !i586 -->
     <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-cds.xml -->
+    <!-- INCLUDE ignore_opensuse-gnome-cd.xml -->
     <!-- INTERNALS -->
-    <!-- SLES_LOCKS -->
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
+    <install kind="package" name="cracklib-dict-full"/>
     <install kind="package" name="openSUSE-release-ftp"/>
-    <install kind="pattern" name="enhanced_base"/>
-    <lock package="gtk2"/>
+    <install kind="pattern" name="gnome"/>
     <reportProblems/>
   </trial>
 </test>

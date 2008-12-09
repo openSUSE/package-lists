@@ -212,7 +212,6 @@
     <lock package="yast2-theme-openSUSE-Oxygen"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INTERNALS -->
-    <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_dvd"/>
     <install kind="package" name="icewm-lite"/>
     <reportProblems/>

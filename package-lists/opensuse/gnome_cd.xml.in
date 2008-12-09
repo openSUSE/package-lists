@@ -38,10 +38,11 @@
     <lock package="gnome2-user-docs"/> <!-- !i586 -->
     <lock package="evolution-lang"/>
     <!-- INTERNALS -->
-    <!-- SLES_LOCKS -->
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="package" name="openSUSE-release-livecd-gnome"/>
     <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-cds.xml -->
+    <!-- INCLUDE ignore_opensuse-gnome-cd.xml -->
     <lock package="pam-32bit"/> <!-- !i586 !x86_64 -->
     <install package="gconf2-branding-openSUSE"/>
     <reportProblems/>
