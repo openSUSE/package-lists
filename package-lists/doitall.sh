@@ -11,6 +11,12 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    ./unpack_patterns.sh $diffonly > patterns.log 2>&1
    echo "done"
    cd ..
+   internals=`pdb query --filter status:internal`
+   test -n "$internals" || exit 1
+
+   sh ./create_locks.sh $internals > output/pdb_internals.xml
+   sh ./create_locks.sh `pdb query --filter status:candidate` > output/pdb_candidates.xml
+   sh ./create_locks.sh `pdb query --filter status:frozen` > output/pdb_frozen.xml
    ./doit.sh
 fi
 

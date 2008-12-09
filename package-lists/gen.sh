@@ -75,13 +75,6 @@ if test -n "$2"; then
   GEN_ARCH=$2
 fi
 
-internals=`pdb query --filter status:internal`
-test -n "$internals" || exit 1
-
-sh ./create_locks.sh $internals > output/pdb_internals.xml
-sh ./create_locks.sh `pdb query --filter status:candidate` > output/pdb_candidates.xml
-sh ./create_locks.sh `pdb query --filter status:frozen` > output/pdb_frozen.xml
-
 ret=0
 
 for i in $GEN_ARCH;
@@ -89,12 +82,17 @@ do
   arch=$i
   echo -n " $arch"
   eval VAR="\$GEN_URL_${i}"
-  sed -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in > $file.$arch.xml
+  sed -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in > output/$file.$arch.xml
   includes=`grep -- "-- INCLUDE" $file.xml.in | sed -e "s,.*INCLUDE *,,; s, .*,,"`
   for include in $includes; do 
-     sed -i -e "/!-- INCLUDE $include -->/r $include" $file.$arch.xml 
+        if test -f output/$include; then
+           finclude=output/$include
+        else
+           finclude=$include
+        fi
+        sed -i -e "/!-- INCLUDE $include -->/r $finclude" output/$file.$arch.xml 
   done
-  fgrep -v "!$arch" $file.$arch.xml > $file.$arch.xml.new && mv $file.$arch.xml.new $file.$arch.xml
+  fgrep -v "!$arch" output/$file.$arch.xml > $file.$arch.xml.new && mv $file.$arch.xml.new output/$file.$arch.xml
 
   rm -rf /tmp/myrepos /var/cache/zypp
   mkdir -p $TESTTRACK/$base.$arch/CD1/
@@ -115,12 +113,14 @@ do
   gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/CD1/content
 
   export ZYPP_MODALIAS_SYSFS=/tmp
-  /usr/lib/zypp/testsuite/bin/deptestomatic.multi $file.$arch.xml 2> $file.$arch.error | tee $file.$arch.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  | sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o $file.$arch.list.new -
-  if test -s "$file.$arch.list.new"; then
-     mv "$file.$arch.list.new" "$file.$arch.list"
+  /usr/lib/zypp/testsuite/bin/deptestomatic.multi output/$file.$arch.xml 2> output/$file.$arch.error > output/$file.$arch.output
+  sed -n -e '1,/Other Valid Solution/p' output/$file.$arch.output | grep -v 'install pattern:' | grep -v 'install product:' | grep "> install.*\[tmp\]"  |\
+      sed -e 's,>!> install \(.*\)-[^-]*-[^-]*$,\1,' | LC_ALL=C sort -u -o output/$file.$arch.list.new -
+  if test -s "output/$file.$arch.list.new"; then
+     mv "output/$file.$arch.list.new" "output/$file.$arch.list"
   else
-     grep -C5 Problem: $file.$arch.output
-     fgrep "Unknown item" $file.$arch.error
+     grep -C5 Problem: output/$file.$arch.output
+     fgrep "Unknown item" output/$file.$arch.error
      ret=1
      echo -n "!"
   fi
@@ -131,8 +131,8 @@ if test "$ret" = 1; then
   echo " failed"
 else
   echo " done"
-  rm -f $file.all.list
-  cat $file.*.list | LC_ALL=C sort -u > $file.all.list
+  rm -f output/$file.all.list
+  cat output/$file.*.list | LC_ALL=C sort -u > output/$file.all.list
 fi
 
 rm -rf /tmp/myrepos
