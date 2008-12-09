@@ -14,13 +14,27 @@ do
   find .cache -type f -mtime +10 | xargs -r rm 
   test -d suse || mkdir suse
   test -d media.1 || mkdir media.1
-  echo "/ openSuSE-full-$i 11.1" > media.1/products
+  echo "/ openSuSE-full-$i 11.2" > media.1/products
   case $i in
   obs-*)
      rarch=${i/obs-/}
      mkdir -p susex/$rarch
      echo -n "syncing $i "
-     count=`rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:11.1/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     count=`rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:Factory/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     echo -n "found $count packages "
+     if test "$count" = 0; then
+        echo "done"
+        popd
+        continue
+     else
+        echo
+     fi
+     ;;
+  ibs-*)
+     rarch=${i/ibs-/}
+     mkdir -p susex/$rarch
+     echo -n "syncing $i "
+     count=`rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-internal.suse.de::workXNUMX/build/SuSE:Factory:Head/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
      echo -n "found $count packages "
      if test "$count" = 0; then
         echo "done"

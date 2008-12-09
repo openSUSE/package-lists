@@ -23,37 +23,6 @@
 <!-- just too big -->
 <lock package="python-wxGTK-doc"/>
 <lock package="boost-doc"/>
-<!-- not built ppc64 -->
-<lock package="PolicyKit-gnome-libs-64bit"/>
-<lock package="SDL-64bit"/>
-<lock package="SDL-devel-64bit"/>
-<lock package="alsa-plugins-64bit"/>
-<lock package="alsa-plugins-pulse-64bit"/>
-<lock package="evolution-data-server-64bit"/>
-<lock package="gconf2-64bit"/>
-<lock package="gnome-keyring-64bit"/>
-<lock package="gnome-keyring-pam-64bit"/>
-<lock package="gnome-panel-64bit"/>
-<lock package="gnome-vfs2-64bit"/>
-<lock package="gstreamer-0_10-plugins-base-64bit"/>
-<lock package="gtk2-engine-murrine-64bit"/>
-<lock package="kdebase3-runtime-64bit"/>
-<lock package="libbonoboui-64bit"/>
-<lock package="libgnome-64bit"/>
-<lock package="libgnome-desktop-2-7-64bit"/>
-<lock package="libgnomeui-64bit"/>
-<lock package="libgphoto2-64bit"/>
-<lock package="libgsf-1-114-64bit"/>
-<lock package="libgstinterfaces-0_10-0-64bit"/>
-<lock package="libgweather1-64bit"/>
-<lock package="libpulse0-64bit"/>
-<lock package="librsvg-64bit"/>
-<lock package="libtheora0-64bit"/>
-<lock package="nautilus-64bit"/>
-<lock package="oprofile-64bit"/>
-<lock package="pam_ssh-64bit"/>
-<lock package="sane-backends-64bit"/>
-<lock package="thinkeramik-64bit"/>
-<lock package="thinkeramik-style-64bit"/>
-<lock package="xine-lib-64bit"/>
-<lock package="xine-ui-64bit"/>
+<!-- unwanted kernel flavors -->
+<lock package="kernel-trace-base"/>
+<lock package="kernel-debug-base"/>

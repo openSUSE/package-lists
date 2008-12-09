@@ -4,21 +4,15 @@ svn up
 
 diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
-cd testtrack/
-./update_full.sh obs-i586 obs-x86_64 obs-ppc
-#./update_full.sh head-i586 head-x86_64 head-ppc head-ppc64 head-ia64 head-s390x
-echo -n "updating patterns "
-./unpack_patterns.sh $diffonly > patterns.log 2>&1
-echo "done"
-cd ..
-./doit.sh
-cd autobuild-lists/
-./update_lists.sh
-cd ..
-
+   cd testtrack/
+   ./update_full.sh obs-i586 obs-x86_64 obs-ppc
+   ./update_full.sh head-i586 head-x86_64 head-ppc head-ppc64 head-ia64 head-s390x
+   echo -n "updating patterns "
+   ./unpack_patterns.sh $diffonly > patterns.log 2>&1
+   echo "done"
+   cd ..
+   ./doit.sh
 fi
-
-./difflist.sh
 
 cd update-tests
 ./testall.sh
@@ -65,12 +59,12 @@ for i in $list; do
   echo $i >> not_for_opensuse.list
 done
 
-./mk_group.sh not_for_opensuse.list FROZEN osc/openSUSE\:11.1/_product/FROZEN.group drop_from_ftp
-./mk_group.sh dvd-ppc.list DVD-ppc osc/openSUSE\:11.1/_product/DVD5-ppc.group only_ppc
-./mk_group.sh dvd-i586.list DVD-i586 osc/openSUSE\:11.1/_product/DVD5-i586.group only_i586
-./mk_group.sh dvd-x86_64.list DVD-x86_64 osc/openSUSE\:11.1/_product/DVD5-x86_64.group only_x86_64
-./mk_group.sh promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:11.1/_product/DVD5-promo-i386.group
-./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:11.1/_product/DVD5-lang.group
+./mk_group.sh not_for_opensuse.list FROZEN osc/openSUSE\:Factory/_product/FROZEN.group drop_from_ftp
+./mk_group.sh dvd-ppc.list DVD-ppc osc/openSUSE\:Factory/_product/DVD5-ppc.group only_ppc
+./mk_group.sh dvd-i586.list DVD-i586 osc/openSUSE\:Factory/_product/DVD5-i586.group only_i586
+./mk_group.sh dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
+#./mk_group.sh promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group
+./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
 
 # I wan't to review changes before submitting package lists -- cthiel
 #./mk_group.sh sdk-i586.list sdk-i586 osc/SUSE\:Factory\:Head/_product/sdk-i586.group only_i586

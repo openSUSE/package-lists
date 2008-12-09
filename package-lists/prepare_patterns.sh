@@ -36,7 +36,7 @@ done
 
 rm -rf $RPM_BUILD_ROOT 
 # group together
-sh -x $RPM_SOURCE_DIR/sort_patterns 11.1 1 $1 $3
+sh -x $RPM_SOURCE_DIR/sort_patterns 11.2 1 $1 $3
 cd ..
 rm -rf mydata
 
