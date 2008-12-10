@@ -46,7 +46,7 @@ do_opensuse()
     done
 
     ./gen.sh opensuse/promo_dvd
-    ./gen.sh opensuse/dvd5-addon_lang
+    ./gen.sh opensuse/dvd-addon_lang
     ./langaddon.sh
     return 0
 }

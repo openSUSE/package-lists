@@ -30,22 +30,18 @@ fi
 
 if (echo $file | grep "promo" > /dev/null); then
   GEN_ARCH="i586"
-  base=${file/-*/}
 fi
 
 if (echo $file | grep "sled" > /dev/null); then
   GEN_ARCH="i586 x86_64"
-  base=${file/-*/}
 fi
 
 if (echo $file | grep "sles" > /dev/null); then
   GEN_ARCH="i586 x86_64 ppc64 ia64"
-  base=${file/-*/}
 fi
 
 if (echo $file | grep "sdk" > /dev/null); then
   GEN_ARCH="i586 x86_64 ppc64 ia64 s390x"
-  base=${file/-*/}
 fi
 
 if (echo $file | grep "_cd" > /dev/null); then
