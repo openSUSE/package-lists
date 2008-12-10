@@ -6,54 +6,8 @@
     <locale name="en_US"/>
   </setup>
   <trial>
-    <!-- ignoring some lang provides -->
-    <!-- ignoring some recommends -->
-    <lock package="vim-data"/>
-    <lock package="libgcc42-32bit"/>
-    <lock package="libstdc++41-32bit"/>
-    <lock package="libstdc++42-32bit"/>
-    <!-- recommended by Ooo -->
-    <lock package="bundle-lang-kde-ar"/>
-    <lock package="bundle-lang-kde-ca"/>
-    <lock package="bundle-lang-kde-cs"/>
-    <lock package="bundle-lang-kde-da"/>
-    <lock package="bundle-lang-kde-de"/>
-    <lock package="bundle-lang-kde-en"/>
-    <lock package="bundle-lang-kde-es"/>
-    <lock package="bundle-lang-kde-fi"/>
-    <lock package="bundle-lang-kde-fr"/>
-    <lock package="bundle-lang-kde-hu"/>
-    <lock package="bundle-lang-kde-it"/>
-    <lock package="bundle-lang-kde-ja"/>
-    <lock package="bundle-lang-kde-ko"/>
-    <lock package="bundle-lang-kde-nb"/>
-    <lock package="bundle-lang-kde-nl"/>
-    <lock package="bundle-lang-kde-pl"/>
-    <lock package="bundle-lang-kde-pt"/>
-    <lock package="bundle-lang-kde-ru"/>
-    <lock package="bundle-lang-kde-sv"/>
-    <lock package="bundle-lang-kde-zh"/>
-    <lock package="bundle-lang-gnome-ar"/>
-    <lock package="bundle-lang-gnome-ca"/>
-    <lock package="bundle-lang-gnome-cs"/>
-    <lock package="bundle-lang-gnome-da"/>
-    <lock package="bundle-lang-gnome-de"/>
-    <lock package="bundle-lang-gnome-en"/>
-    <lock package="bundle-lang-gnome-es"/>
-    <lock package="bundle-lang-gnome-fi"/>
-    <lock package="bundle-lang-gnome-fr"/>
-    <lock package="bundle-lang-gnome-hu"/>
-    <lock package="bundle-lang-gnome-it"/>
-    <lock package="bundle-lang-gnome-ja"/>
-    <lock package="bundle-lang-gnome-ko"/>
-    <lock package="bundle-lang-gnome-nb"/>
-    <lock package="bundle-lang-gnome-nl"/>
-    <lock package="bundle-lang-gnome-pl"/>
-    <lock package="bundle-lang-gnome-pt"/>
-    <lock package="bundle-lang-gnome-ru"/>
-    <lock package="bundle-lang-gnome-sv"/>
-    <lock package="bundle-lang-gnome-zh"/>
-    <lock package="gnome-session-branding-openSUSE"/>
+    <!-- INCLUDE ignore_opensuse-bundle-kde.xml -->
+    <!-- INCLUDE ignore_opensuse-bundle-gnome.xml -->
     <lock package="gtk2-32bit"/>
     <lock package="hpijs-standalone"/>
     <lock package="hplip-hpijs"/>
