@@ -5,53 +5,48 @@ do_sled()
     ./gen.sh sled-1 || return 1
     ./gen.sh sled-2 || return 1
     for i in i586 x86_64 all; do
-      cat sled-1.$i.list sled-2.$i.list | LC_ALL=C sort -u > sled-$i.list
+      cat output/sled-1.$i.list output/sled-2.$i.list | LC_ALL=C sort -u > output/sled-$i.list
     done
     return 0
 }
 
 do_opensuse()
 {
-    ./gen.sh kde4_cd
-    ./gen.sh kde4_cd-default
-    ./gen.sh kde3_cd
-    ./gen.sh gnome_cd 
-    ./gen.sh gnome_cd-default 
+    ./gen.sh opensuse/kde4_cd
+    ./gen.sh opensuse/kde4_cd-default
+    ./gen.sh opensuse/kde3_cd
+    ./gen.sh opensuse/gnome_cd 
+    ./gen.sh opensuse/gnome_cd-default 
 
-    ./gen.sh dvd5-1
-    ./gen.sh dvd5-2
-    ./gen.sh dvd5-3
+    ./gen.sh opensuse/dvd-1
+    ./gen.sh opensuse/dvd-2
+    ./gen.sh opensuse/dvd-3
     for i in i586 x86_64 ppc; do
-      cat dvd5-1.$i.list dvd5-2.$i.list dvd5-3.$i.list | LC_ALL=C sort -u > dvd-$i.list
+      cat output/opensuse/dvd-1.$i.list output/opensuse/dvd-2.$i.list output/opensuse/dvd-3.$i.list | LC_ALL=C sort -u > output/opensuse/dvd-$i.list
     done
-    cat dvd-i586.list dvd-x86_64.list | LC_ALL=C sort -u > dvd-all.list
-    ./gen.sh kde4_cd-base-default
-    ./gen.sh gnome_cd-x11-default
-    ./gen.sh x11_cd
-    ./gen.sh x11_cd-initrd
+    ./gen.sh opensuse/kde4_cd-base-default
+    ./gen.sh opensuse/gnome_cd-x11-default
+    ./gen.sh opensuse/x11_cd
+    ./gen.sh opensuse/x11_cd-initrd
 
     echo "diffing"
     for arch in i586 x86_64; do
-       diff -u kde4_cd.$arch.list kde4_cd-default.$arch.list | grep -v +++ | grep ^+
-       diff -u gnome_cd.$arch.list gnome_cd-default.$arch.list | grep -v +++ | grep ^+
+       diff -u output/opensuse/kde4_cd.$arch.list output/opensuse/kde4_cd-default.$arch.list | grep -v +++ | grep ^+
+       diff -u output/opensuse/gnome_cd.$arch.list output/opensuse/gnome_cd-default.$arch.list | grep -v +++ | grep ^+
     done
 
 
     for arch in i586 x86_64; do
       for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp kernel-default-base kernel-default-extra smolt; do
 	for f in gnome_cd-default kde4_cd-default gnome_cd-x11-default kde4_cd-base-default; do
-	  grep -vx $i $f.$arch.list > t && mv t $f.$arch.list
+	  grep -vx $i output/opensuse/$f.$arch.list > t && mv t output/opensuse/$f.$arch.list
 	done
       done
-      grep -vx openSUSE-release-ftp x11_cd-initrd.$arch.list > t && mv t x11_cd-initrd.$arch.list
+      grep -vx openSUSE-release-ftp output/opensuse/x11_cd-initrd.$arch.list > t && mv t output/opensuse/x11_cd-initrd.$arch.list
     done
 
-    for i in kde4_cd*.list; do 
-      cp $i ${i/kde4_cd/kde_cd}
-    done
-
-    ./gen.sh promo_dvd
-    ./gen.sh dvd5-addon_lang
+    ./gen.sh opensuse/promo_dvd
+    ./gen.sh opensuse/dvd5-addon_lang
     ./langaddon.sh
     return 0
 }
@@ -74,12 +69,12 @@ do_sdk()
     return 0
 }
 
-do_sled 
+#do_sled 
 RET=$?
 do_opensuse
 RET=$[ $? || $RET ]
 #do_sles
 #RET=$[ $? || $RET ]
-do_sdk
+#do_sdk
 ET=$[ $? || $RET ]
 exit $RET

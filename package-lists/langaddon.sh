@@ -1,8 +1,8 @@
 #!/bin/sh
 
-echo -n > langaddon-all.list
+echo -n > output/opensuse/langaddon-all.list
 
 for i in i586 x86_64 ppc; do
-  diff dvd5-1.$i.list dvd5-addon_lang.$i.list | grep '^>' >> langaddon-all.list
+  diff output/opensuse/dvd-1.$i.list output/opensuse/dvd-addon_lang.$i.list | grep '^>' >> output/opensuse/langaddon-all.list
 done
-LC_ALL=C sort -u langaddon-all.list | cut -d" " -f2 > langaddon-all.list.sorted && mv langaddon-all.list.sorted langaddon-all.list
+LC_ALL=C sort -u output/opensuse/langaddon-all.list | cut -d" " -f2 > t && mv t output/opensuse/langaddon-all.list
