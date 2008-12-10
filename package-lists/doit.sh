@@ -67,14 +67,9 @@ do_sles()
 
 do_sdk()
 {
-    pushd sdk > /dev/null
-
-    php5 -q gen_sle_buildenv.php > /home/pattern/products/patterns-sdk-data/data/REST-SDK-BUILDENV
-    svn commit -m "auto commit" /home/pattern/products/patterns-sdk-data/data/REST-SDK-BUILDENV > /dev/null
-
-    popd > /dev/null
-
+    ./sdk-prepare.sh
     ./gen.sh sdk || return 1
+    ./gen.sh sdk-2 || return 1
     ./sdk.sh
     return 0
 }
