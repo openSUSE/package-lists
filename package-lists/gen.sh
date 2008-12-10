@@ -21,9 +21,14 @@ file=$1
 # multiple setups (dvd5, dvd5-2, etc.)
 base=${file/-*/}
 
+if (echo $file | grep -q "opensuse"); then
+   GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
+   GEN_URL_x86_64="$BASEDIR/testtrack/full-obs-x86_64"
+   GEN_URL_ppc="$BASEDIR/testtrack/full-obs-ppc"
+fi
+
 if (echo $file | grep "promo" > /dev/null); then
   GEN_ARCH="i586"
-  GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
   base=${file/-*/}
 fi
 
@@ -42,34 +47,12 @@ if (echo $file | grep "sdk" > /dev/null); then
   base=${file/-*/}
 fi
 
+if (echo $file | grep "_cd" > /dev/null); then
+   GEN_ARCH="i586 x86_64"
+fi
 
 LOCK=
 LOCK2=
-
-if (echo $file | grep "dvd5" > /dev/null); then
-   GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
-   GEN_URL_x86_64="$BASEDIR/testtrack/full-obs-x86_64"
-   GEN_URL_ppc="$BASEDIR/testtrack/full-obs-ppc"
-fi
-
-if (echo $file | grep "_cd" > /dev/null); then
-   GEN_ARCH="i586 x86_64"
-   GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
-   GEN_URL_x86_64="$BASEDIR/testtrack/full-obs-x86_64"
-   GEN_URL_ppc="$BASEDIR/testtrack/full-obs-ppc"
-fi
-
-if (echo $file | egrep "kde._cd" > /dev/null); then
-   GEN_ARCH="i586 x86_64"
-fi
-
-if (echo $file | grep "gnome_cd" > /dev/null); then
-   GEN_ARCH="i586 x86_64"
-fi
-
-if (echo $file | grep "x11_cd" > /dev/null); then
-   GEN_ARCH="i586 x86_64"
-fi
 
 if test -n "$2"; then
   GEN_ARCH=$2
