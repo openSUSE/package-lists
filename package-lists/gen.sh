@@ -20,6 +20,7 @@ file=$1
 
 # multiple setups (dvd5, dvd5-2, etc.)
 base=${file/-*/}
+base=`basename $base`
 
 if (echo $file | grep -q "opensuse"); then
    GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
@@ -65,35 +66,38 @@ do
   arch=$i
   echo -n " $arch"
   eval VAR="\$GEN_URL_${i}"
-  sed -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/$base.$arch/CD1," $file.xml.in > output/$file.$arch.xml
+  sed -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/CD1," $file.xml.in > output/$file.$arch.xml
   includes=`grep -- "-- INCLUDE" $file.xml.in | sed -e "s,.*INCLUDE *,,; s, .*,,"`
   for include in $includes; do 
         if test -f output/$include; then
            finclude=output/$include
         else
-           finclude=$include
+           finclude=`dirname $file`/$include
         fi
         sed -i -e "/!-- INCLUDE $include -->/r $finclude" output/$file.$arch.xml 
   done
   fgrep -v "!$arch" output/$file.$arch.xml > $file.$arch.xml.new && mv $file.$arch.xml.new output/$file.$arch.xml
 
   rm -rf /tmp/myrepos /var/cache/zypp
-  mkdir -p $TESTTRACK/$base.$arch/CD1/
-  cp -a $TESTTRACK/content.$arch.small $TESTTRACK/$base.$arch/CD1/content
-  cp -a $VAR/suse $TESTTRACK/$base.$arch/CD1/
-  cp -a $VAR/media.1 $TESTTRACK/$base.$arch/CD1/
+  rm -rf $TESTTRACK/CD1
+  mkdir -p $TESTTRACK/CD1
+  cp -a $TESTTRACK/content.$arch.small $TESTTRACK/CD1/content
+  cp -a $VAR/suse $TESTTRACK/CD1/
+  cp -a $VAR/media.1 $TESTTRACK/CD1/
   
-  pushd $TESTTRACK/$base.$arch/CD1/suse/setup/descr/ > /dev/null
+  mkdir -p $TESTTRACK/CD1/suse/setup/descr/
+  cp $TESTTRACK/patterns/$base-*.$arch.pat $TESTTRACK/CD1/suse/setup/descr/
+  pushd $TESTTRACK/CD1/suse/setup/descr/ > /dev/null
   : > patterns
   for i in *; 
     do echo -n "META SHA1 "; 
     sha1sum $i | awk '{ORS=""; print $1}'; 
     echo -n " "; basename $i; 
     basename $i >> patterns
-  done >> $TESTTRACK/$base.$arch/CD1/content
+  done >> $TESTTRACK/CD1/content
   popd > /dev/null
-  rm -f $TESTTRACK/$base.$arch/CD1/content.asc
-  gpg  --batch -a -b --sign $TESTTRACK/$base.$arch/CD1/content
+  rm -f $TESTTRACK/CD1/content.asc
+  gpg  --batch -a -b --sign $TESTTRACK/CD1/content
 
   export ZYPP_MODALIAS_SYSFS=/tmp
   /usr/lib/zypp/testsuite/bin/deptestomatic.multi output/$file.$arch.xml 2> output/$file.$arch.error > output/$file.$arch.output
@@ -108,6 +112,7 @@ do
      echo -n "!"
   fi
 
+  rm -rf $TESTTRACK/CD1
 done
 
 if test "$ret" = 1; then
