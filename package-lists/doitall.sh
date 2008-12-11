@@ -71,6 +71,8 @@ done
 ./mk_group.sh dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
 #./mk_group.sh promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group
 ./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
+( cd osc/openSUSE\:Factory/_product/ && osc ci -m "auto update" )
+
 
 # I wan't to review changes before submitting package lists -- cthiel
 #./mk_group.sh output/sdk-i586.list sdk-i586 osc/SUSE\:Factory\:Head/_product/sdk-i586.group only_i586
@@ -80,6 +82,8 @@ done
 #./mk_group.sh output/sdk-s390x.list sdk-s390x osc/SUSE\:Factory\:Head/_product/sdk-s390x.group only_s390x
 
 ./mk_group.sh x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
+(cd osc/YaST\:SVN/_product/ && osc ci -m "auto update")
 
 svn commit -m "auto commit"
 echo "all done"
+
