@@ -27,7 +27,7 @@ cd ..
 diff=0
 for arch in i586 x86_64; do
   for f in gnome_cd-default gnome_cd kde4_cd-default kde4_cd kde3_cd gnome_cd-x11-default kde4_cd-base-default; do
-     if ! diff -u saved/$f.$arch.list $f.$arch.list ; then
+     if ! diff -u saved/$f.$arch.list output/opensuse/$f.$arch.list ; then
         diff=1 
         break
      fi
@@ -37,25 +37,25 @@ done
 
 if test "$diff" = 1; then
    echo "no diff"
-   tar cjf /package_lists/filelists.tar.bz2 *.list
+   tar cjf /package_lists/filelists.tar.bz2 output/opensuse/*_cd*.list
    cp *.list saved
 fi
 
 set -e
 
-./check_yast.sh dvd-i586.list __i386__
-./check_yast.sh dvd-x86_64.list __x86_64__
-./check_yast.sh dvd-ppc.list __powerpc__
+./check_yast.sh output/opensuse/dvd-i586.list __i386__
+./check_yast.sh output/opensuse/dvd-x86_64.list __x86_64__
+./check_yast.sh output/opensuse/dvd-ppc.list __powerpc__
 
-./check_yast.sh sled-i586.list __i386__
-./check_yast.sh sled-x86_64.list __x86_64__
+./check_yast.sh output/sled-i586.list __i386__
+./check_yast.sh output/sled-x86_64.list __x86_64__
 
 (
-./check_size.sh dvd-i586.list i586
-./check_size.sh dvd-x86_64.list x86_64
-./check_size.sh dvd-ppc.list ppc
-./check_size.sh sled-i586.list i586
-./check_size.sh sled-x86_64.list x86_64
+./check_size.sh output/opensuse/dvd-i586.list i586
+./check_size.sh output/opensuse/dvd-x86_64.list x86_64
+./check_size.sh output/opensuse/dvd-ppc.list ppc
+./check_size.sh output/opensuse/sled-i586.list i586
+./check_size.sh output/opensuse/sled-x86_64.list x86_64
 ) | tee sizes
 
 list=`(pdb query --filter status:production,ProdOnly:sles_only; pdb query --filter status:frozen; pdb query --filter status:internal) | LC_ALL=C sort -u`

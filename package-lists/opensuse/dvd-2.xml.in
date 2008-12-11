@@ -32,7 +32,7 @@
     <lock package="novell-ipsec-tools"/>
     <lock package="novell-NLDAPsdk-dyn"/>
     <lock package="myspell-german"/>
-    <!-- INTERNALS -->
+    <!-- INCLUDE pdb_internals.xml -->
     <!-- INCLUDE ignore_opensuse.xml -->
     <install kind="package" name="sendmail"/>
     <install kind="package" name="notification-daemon-xfce"/>

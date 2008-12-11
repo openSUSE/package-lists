@@ -14,7 +14,7 @@
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
     <!-- INCLUDE ignore_opensuse-gnome-cd.xml -->
-    <!-- INTERNALS -->
+    <!-- INCLUDE pdb_internals.xml -->
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="cracklib-dict-full"/>

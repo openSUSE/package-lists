@@ -11,7 +11,7 @@
     <lock package="gtk2-engines-32bit"/>
     <lock package="gnome2-user-docs"/> <!-- !i586 -->
     <lock package="evolution-lang"/>
-    <!-- INTERNALS -->
+    <!-- INCLUDE pdb_internals.xml -->
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="package" name="openSUSE-release-livecd-gnome"/>
     <!-- INCLUDE ignore_opensuse.xml -->
