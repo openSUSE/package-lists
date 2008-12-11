@@ -69,7 +69,7 @@ do_sdk()
     return 0
 }
 
-#do_sled 
+do_sled 
 RET=$?
 do_opensuse
 RET=$[ $? || $RET ]
