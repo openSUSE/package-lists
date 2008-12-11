@@ -2,12 +2,12 @@
 
 GEN_ARCH="i586 x86_64 ppc"
 BASEDIR=`pwd`
-GEN_URL_i586="$BASEDIR/testtrack/full-head-i586"
-GEN_URL_x86_64="$BASEDIR/testtrack/full-head-x86_64"
-GEN_URL_ppc="$BASEDIR/testtrack/full-head-ppc"
-GEN_URL_ppc64="$BASEDIR/testtrack/full-head-ppc64"
-GEN_URL_ia64="$BASEDIR/testtrack/full-head-ia64"
-GEN_URL_s390x="$BASEDIR/testtrack/full-head-s390x"
+GEN_URL_i586="$BASEDIR/testtrack/full-ibs-i586"
+GEN_URL_x86_64="$BASEDIR/testtrack/full-ibs-x86_64"
+GEN_URL_ppc="$BASEDIR/testtrack/full-ibs-ppc"
+GEN_URL_ppc64="$BASEDIR/testtrack/full-ibs-ppc64"
+GEN_URL_ia64="$BASEDIR/testtrack/full-ibs-ia64"
+GEN_URL_s390x="$BASEDIR/testtrack/full-ibs-s390x"
 TESTTRACK="`pwd`/testtrack"
 
 echo -n "processing $1"

@@ -6,7 +6,8 @@ diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
    cd testtrack/
    ./update_full.sh obs-i586 obs-x86_64 obs-ppc
-   ./update_full.sh head-i586 head-x86_64 head-ppc64 head-ia64 head-s390x
+   #./update_full.sh head-i586 head-x86_64 head-ppc64 head-ia64 head-s390x
+   ./update_full.sh ibs-i586 ibs-x86_64 ibs-ppc64 ibs-ia64 ibs-s390x
    echo -n "updating patterns "
    ./unpack_patterns.sh $diffonly > patterns.log 2>&1
    echo "done"
@@ -59,18 +60,18 @@ set -e
 ) | tee sizes
 
 list=`(pdb query --filter status:production,ProdOnly:sles_only; pdb query --filter status:frozen; pdb query --filter status:internal) | LC_ALL=C sort -u`
-: > not_for_opensuse.list
+: > output/not_for_opensuse.list
 for i in $list; do 
   test -f testtrack/full-obs-i586/susex/i586/$i.rpm || continue
-  echo $i >> not_for_opensuse.list
+  echo $i >> output/not_for_opensuse.list
 done
 
-./mk_group.sh not_for_opensuse.list FROZEN osc/openSUSE\:Factory/_product/FROZEN.group drop_from_ftp
-./mk_group.sh dvd-ppc.list DVD-ppc osc/openSUSE\:Factory/_product/DVD5-ppc.group only_ppc
-./mk_group.sh dvd-i586.list DVD-i586 osc/openSUSE\:Factory/_product/DVD5-i586.group only_i586
-./mk_group.sh dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
-#./mk_group.sh promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group
-./mk_group.sh langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
+./mk_group.sh output/not_for_opensuse.list FROZEN osc/openSUSE\:Factory/_product/FROZEN.group drop_from_ftp
+./mk_group.sh output/opensuse/dvd-ppc.list DVD-ppc osc/openSUSE\:Factory/_product/DVD5-ppc.group only_ppc
+./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE\:Factory/_product/DVD5-i586.group only_i586
+./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
+./mk_group.sh output/opensuse/promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group
+./mk_group.sh output/opensuse/langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
 ( cd osc/openSUSE\:Factory/_product/ && osc ci -m "auto update" )
 
 
@@ -81,7 +82,7 @@ done
 #./mk_group.sh output/sdk-ia64.list sdk-ia64 osc/SUSE\:Factory\:Head/_product/sdk-ia64.group only_ia64
 #./mk_group.sh output/sdk-s390x.list sdk-s390x osc/SUSE\:Factory\:Head/_product/sdk-s390x.group only_s390x
 
-./mk_group.sh x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
+./mk_group.sh output/opensuse/x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
 (cd osc/YaST\:SVN/_product/ && osc ci -m "auto update")
 
 svn commit -m "auto commit"
