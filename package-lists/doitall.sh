@@ -55,8 +55,8 @@ set -e
 ./check_size.sh output/opensuse/dvd-i586.list i586
 ./check_size.sh output/opensuse/dvd-x86_64.list x86_64
 ./check_size.sh output/opensuse/dvd-ppc.list ppc
-./check_size.sh output/opensuse/sled-i586.list i586
-./check_size.sh output/opensuse/sled-x86_64.list x86_64
+./check_size.sh output/sled-i586.list i586
+./check_size.sh output/sled-x86_64.list x86_64
 ) | tee sizes
 
 list=`(pdb query --filter status:production,ProdOnly:sles_only; pdb query --filter status:frozen; pdb query --filter status:internal) | LC_ALL=C sort -u`
@@ -84,6 +84,8 @@ done
 
 ./mk_group.sh output/opensuse/x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
 (cd osc/YaST\:SVN/_product/ && osc ci -m "auto update")
+
+./sled.sh > /package_lists/purely_for_behlert
 
 svn commit -m "auto commit"
 echo "all done"
