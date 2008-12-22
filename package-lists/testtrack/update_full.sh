@@ -34,7 +34,21 @@ do
      rarch=${i/ibs-/}
      mkdir -p susex/$rarch
      echo -n "syncing $i "
-     count=`RSYNC_PASSWORD=xxxxxxxx rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-internal.suse.de::workXNUMX/build/SUSE:Factory:Head/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     count=`RSYNC_PASSWORD=xxxxxxxx rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete root@backend-internal.suse.de::workXNUMX/build/SUSE:Factory:Head/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     echo -n "found $count packages "
+     if test "$count" = 0; then
+        echo "done"
+        popd
+        continue
+     else
+        echo
+     fi
+     ;;
+  sle11-*)
+     rarch=${i/sle11-/}
+     mkdir -p susex/$rarch
+     echo -n "syncing $i "
+     count=`RSYNC_PASSWORD=xxxxxxxx rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete root@backend-internal.suse.de::workXNUMX/build/SUSE:SLE-11:GA/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
      echo -n "found $count packages "
      if test "$count" = 0; then
         echo "done"
