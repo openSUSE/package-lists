@@ -109,6 +109,7 @@ krb5
 lcms
 less
 libacl
+libadns1
 libaio
 libapparmor1
 libasm1
@@ -123,11 +124,14 @@ libcap2
 libcom_err2
 libcryptsetup0
 libcurl4
+libdaemon0
 libdb-4_5
 libdns_sd
 libdw1
+libebl1
 libelf1
 libevent-1_4-2
+libevtlog0
 libexpat1
 libext2fs2
 libgcc43
@@ -148,7 +152,7 @@ liblcms1
 libldap-2_4-2
 libldapcpp1
 libltdl7
-liblzmadec0
+liblzma0
 liblzo2-2
 libmng
 libncurses5
@@ -159,7 +163,8 @@ libnuma1
 libopenct1
 libopensc2
 libopenssl0_9_8
-libpcap0
+libpcap1
+libpcsclite1
 libpng12-0
 libpoppler4
 libreadline5
@@ -197,7 +202,6 @@ logrotate
 lsscsi
 lukemftp
 lvm2
-lzma
 mailx
 man
 master-boot-code
@@ -332,6 +336,7 @@ xorg-x11-libX11
 xorg-x11-libXau
 xorg-x11-libXext
 xorg-x11-libxcb
+xz
 yast2
 yast2-add-on
 yast2-apparmor

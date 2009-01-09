@@ -23,6 +23,8 @@
     <!-- INCLUDE ignore_opensuse-cds.xml -->
     <!-- INCLUDE ignore_opensuse-kde-cd.xml -->
     <!-- INCLUDE pdb_internals.xml -->
+    <lock package="kdelibs3"/>
+    <lock package="kdelibs3-default-style"/>
     <install kind="package" name="ghostscript-library"/>
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="cracklib-dict-full"/>

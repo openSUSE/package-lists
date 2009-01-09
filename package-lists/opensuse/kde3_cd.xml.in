@@ -23,6 +23,7 @@
     <!-- INCLUDE pdb_internals.xml -->
     <install kind="pattern" name="rest_cd_kde3"/>
     <install kind="package" name="openSUSE-release-livecd-kde3"/> 
+    <lock package="NetworkManager-gnome"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

@@ -2,12 +2,12 @@
 
 GEN_ARCH="i586 x86_64 ppc"
 BASEDIR=`pwd`
-GEN_URL_i586="$BASEDIR/testtrack/full-ibs-i586"
-GEN_URL_x86_64="$BASEDIR/testtrack/full-ibs-x86_64"
-GEN_URL_ppc="$BASEDIR/testtrack/full-ibs-ppc"
-GEN_URL_ppc64="$BASEDIR/testtrack/full-ibs-ppc64"
-GEN_URL_ia64="$BASEDIR/testtrack/full-ibs-ia64"
-GEN_URL_s390x="$BASEDIR/testtrack/full-ibs-s390x"
+GEN_URL_i586="$BASEDIR/testtrack/full-sle11-i586"
+GEN_URL_x86_64="$BASEDIR/testtrack/full-sle11-x86_64"
+GEN_URL_ppc="$BASEDIR/testtrack/full-sle11-ppc"
+GEN_URL_ppc64="$BASEDIR/testtrack/full-sle11-ppc64"
+GEN_URL_ia64="$BASEDIR/testtrack/full-sle11-ia64"
+GEN_URL_s390x="$BASEDIR/testtrack/full-sle11-s390x"
 TESTTRACK="`pwd`/testtrack"
 
 echo -n "processing $1"
@@ -26,15 +26,6 @@ if (echo $file | grep -q "opensuse"); then
    GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
    GEN_URL_x86_64="$BASEDIR/testtrack/full-obs-x86_64"
    GEN_URL_ppc="$BASEDIR/testtrack/full-obs-ppc"
-fi
-
-if (echo $file | grep -q "sdk"); then
-  GEN_URL_i586="$BASEDIR/testtrack/full-sle11-i586"
-  GEN_URL_x86_64="$BASEDIR/testtrack/full-sle11-x86_64"
-  GEN_URL_ppc="$BASEDIR/testtrack/full-sle11-ppc"
-  GEN_URL_ppc64="$BASEDIR/testtrack/full-sle11-ppc64"
-  GEN_URL_ia64="$BASEDIR/testtrack/full-sle11-ia64"
-  GEN_URL_s390x="$BASEDIR/testtrack/full-sle11-s390x"
 fi
 
 if (echo $file | grep "promo" > /dev/null); then

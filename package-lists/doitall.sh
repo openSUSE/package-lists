@@ -7,7 +7,7 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    cd testtrack/
    ./update_full.sh obs-i586 obs-x86_64 obs-ppc
    #./update_full.sh head-i586 head-x86_64 head-ppc64 head-ia64 head-s390x
-   ./update_full.sh ibs-i586 ibs-x86_64 ibs-ppc64 ibs-ia64 ibs-s390x
+   #./update_full.sh ibs-i586 ibs-x86_64 ibs-ppc64 ibs-ia64 ibs-s390x
    ./update_full.sh sle11-i586 sle11-x86_64 sle11-ppc64 sle11-ia64 sle11-s390x
    echo -n "updating patterns "
    ./unpack_patterns.sh $diffonly > patterns.log 2>&1
@@ -76,12 +76,11 @@ done
 ( cd osc/openSUSE\:Factory/_product/ && osc ci -m "auto update" )
 
 
-# I wan't to review changes before submitting package lists -- cthiel
-#./mk_group.sh output/sdk-i586.list sdk-i586 osc/SUSE:SLE-11:GA/_product/sdk-i586.group only_i586
-#./mk_group.sh output/sdk-x86_64.list sdk-x86_64 osc/SUSE:SLE-11:GA/_product/sdk-x86_64.group only_x86_64
-#./mk_group.sh output/sdk-ppc64.list sdk-ppc64 osc/SUSE:SLE-11:GA/_product/sdk-ppc64.group only_ppc64
-#./mk_group.sh output/sdk-ia64.list sdk-ia64 osc/SUSE:SLE-11:GA/_product/sdk-ia64.group only_ia64
-#./mk_group.sh output/sdk-s390x.list sdk-s390x osc/SUSE:SLE-11:GA/_product/sdk-s390x.group only_s390x
+./mk_group.sh output/sdk-i586.list sdk-i586 osc/SUSE:SLE-11:GA/_product/sdk-i586.group only_i586
+./mk_group.sh output/sdk-x86_64.list sdk-x86_64 osc/SUSE:SLE-11:GA/_product/sdk-x86_64.group only_x86_64
+./mk_group.sh output/sdk-ppc64.list sdk-ppc64 osc/SUSE:SLE-11:GA/_product/sdk-ppc64.group only_ppc64
+./mk_group.sh output/sdk-ia64.list sdk-ia64 osc/SUSE:SLE-11:GA/_product/sdk-ia64.group only_ia64
+./mk_group.sh output/sdk-s390x.list sdk-s390x osc/SUSE:SLE-11:GA/_product/sdk-s390x.group only_s390x
 
 ./mk_group.sh output/opensuse/x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
 (cd osc/YaST\:SVN/_product/ && osc ci -m "auto update")

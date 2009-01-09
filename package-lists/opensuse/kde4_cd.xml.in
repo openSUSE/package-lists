@@ -23,7 +23,8 @@
     <!-- INCLUDE ignore_opensuse-cds.xml -->
     <!-- INCLUDE ignore_opensuse-kde-cd.xml -->
     <lock package="pam-32bit"/> <!-- !i586 !ppc -->
-    <!-- lock package="kdepim3"/ -->
+    <lock package="kdelibs3"/>
+    <lock package="kdelibs3-default-style"/>
     <!-- INCLUDE pdb_internals.xml -->
     <install kind="pattern" name="rest_cd_kde4"/>
     <install kind="package" name="openSUSE-release-livecd-kde"/>
