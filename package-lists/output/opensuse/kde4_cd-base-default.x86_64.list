@@ -10,6 +10,7 @@ acpid
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+aria2
 attr
 audit
 audit-libs
@@ -18,7 +19,6 @@ autoyast2-installation
 bash
 bind-libs
 bind-utils
-blktrace
 boost-license
 bootsplash
 bootsplash-branding-openSUSE
@@ -31,6 +31,7 @@ coreutils
 cpio
 cracklib
 cracklib-dict-full
+crda
 cron
 cryptsetup
 cups
@@ -118,7 +119,7 @@ libavahi-client3
 libavahi-common3
 libblkid1
 libblocxx6
-libboost_signals1_36_0
+libboost_signals1_38_0
 libbz2-1
 libcap2
 libcom_err2
@@ -158,6 +159,7 @@ libmng
 libncurses5
 libncurses5-32bit
 libnet
+libnl
 libnscd
 libnuma1
 libopenct1
@@ -167,6 +169,7 @@ libpcap1
 libpcsclite1
 libpng12-0
 libpoppler4
+libpython2_6-1_0
 libreadline5
 libreiserfs
 librpcsecgss
@@ -210,6 +213,8 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
+mozilla-nspr
+mozilla-nss
 mtools
 multipath-tools
 ncurses-utils
@@ -286,10 +291,12 @@ postfix
 ppp
 pptp
 preload
+preload-kmp-default
 procps
 psmisc
 pth
 pwdutils
+python-base
 recode
 reiserfs
 release-notes-openSUSE
@@ -310,6 +317,7 @@ suseRegister
 sysconfig
 sysfsutils
 syslog-ng
+systemtap
 sysvinit
 tar
 tcpd
@@ -328,6 +336,7 @@ vim-base
 w3m
 wdiff
 wget
+wireless-regdb
 wireless-tools
 wodim
 xdg-utils

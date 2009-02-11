@@ -14,7 +14,6 @@ do_opensuse()
 {
     ./gen.sh opensuse/kde4_cd
     ./gen.sh opensuse/kde4_cd-default
-    ./gen.sh opensuse/kde3_cd
     ./gen.sh opensuse/gnome_cd 
     ./gen.sh opensuse/gnome_cd-default 
 

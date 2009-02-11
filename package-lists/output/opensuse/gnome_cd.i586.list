@@ -1,4 +1,3 @@
-3ddiag
 ConsoleKit
 ConsoleKit-x11
 DirectFB
@@ -46,6 +45,7 @@ alsa-utils
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+aria2
 art-sharp2
 aspell
 aspell-de
@@ -78,7 +78,6 @@ beagle-gui
 bind-libs
 bind-utils
 binutils
-blktrace
 bluez
 bluez-firmware
 bluez-gnome
@@ -116,12 +115,14 @@ cpp
 cpp43
 cracklib
 cracklib-dict-full
+crda
 cron
 cryptsetup
 cups
 cups-backends
 cups-client
 cups-libs
+cups-pk-helper
 curl
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -145,7 +146,6 @@ dhcp
 dhcp-client
 dhcpcd
 dialog
-dice
 diffutils
 dirmngr
 dmraid
@@ -156,7 +156,6 @@ dvb
 dvd+rw-tools
 e2fsprogs
 ed
-eel
 eject
 ekiga
 ekiga-lang
@@ -223,7 +222,6 @@ gmp
 gnokii
 gnome-applets
 gnome-audio
-gnome-bluetooth
 gnome-control-center
 gnome-desktop
 gnome-desktop-sharp2
@@ -247,7 +245,6 @@ gnome-panel-sharp
 gnome-phone-manager
 gnome-pilot
 gnome-power-manager
-gnome-python-desktop
 gnome-screensaver
 gnome-session
 gnome-settings-daemon
@@ -273,8 +270,8 @@ groff
 grub
 gsf-sharp
 gstreamer-0_10
+gstreamer-0_10-libnice
 gstreamer-0_10-plugins-base
-gstreamer-0_10-plugins-farsight
 gstreamer-0_10-plugins-good
 gstreamer-0_10-schroedinger
 gstreamer-0_10-utils
@@ -290,7 +287,6 @@ gtkhtml2
 gtkhtml314-sharp
 gtkmm2
 gtksourceview
-gtksourceview18
 gtkspell
 gucharmap
 gvfs
@@ -321,6 +317,7 @@ ipw-firmware
 irda
 iso-codes
 iso_ent
+iw
 iwl3945-ucode
 iwl4965-ucode
 iwl5000-ucode
@@ -364,9 +361,9 @@ libblocxx6
 libbluetooth3
 libbonobo
 libbonoboui
-libboost_signals1_36_0
-libbtctl
-libbtctl4
+libboost_signals1_38_0
+libbrasero-media0
+libbtctl6
 libbz2-1
 libcaca
 libcanberra-gtk
@@ -388,7 +385,6 @@ libdns_sd
 libdrm
 libdw1
 libebl1
-libeel-2-2
 libelf1
 libenchant1
 liberation-fonts
@@ -419,12 +415,9 @@ libgmodule-2_0-0
 libgnome
 libgnome-desktop-2-11
 libgnome-menu2
-libgnomebt0
+libgnomebt1
 libgnomecanvas
-libgnomecups
 libgnomekbd
-libgnomeprint
-libgnomeprintui
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -434,8 +427,8 @@ libgomp43
 libgpg-error0
 libgphoto2
 libgsf-1-114
-libgsm1
 libgssglue1
+libgstapp-0_10-0
 libgstfarsight-0_10-0
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
@@ -443,6 +436,7 @@ libgthread-2_0-0
 libgtksourceview-2_0-0
 libgtop
 libgtop-2_0-7
+libgtop-lang
 libgvfscommon0
 libgweather
 libgweather1
@@ -452,7 +446,6 @@ libidl
 libidn
 libiniparser0
 libjasper
-libjingle-0_3-0
 libjpeg
 libksba
 liblazy1
@@ -485,7 +478,7 @@ liboil
 libopenct1
 libopensc2
 libopenssl0_9_8
-libpackagekit-glib10
+libpackagekit-glib11
 libpangomm-1_4-1
 libpcap1
 libpciaccess0
@@ -496,6 +489,10 @@ libpixman-1-0
 libpng12-0
 libpoppler-glib4
 libpoppler4
+libproxy0
+libproxy0-gnome
+libproxy0-mozjs
+libproxy0-networkmanager
 libpst0
 libpt2
 libpulse-browse0
@@ -728,6 +725,7 @@ postfix
 ppp
 pptp
 preload
+preload-kmp-default
 procps
 psmisc
 pth
@@ -757,6 +755,7 @@ python-gtksourceview
 python-notify
 python-numeric
 python-orbit
+python-smbc
 python-urlgrabber
 python-xml
 qlogic-firmware
@@ -812,6 +811,7 @@ sysfsutils
 syslog-ng
 system-config-printer
 system-config-printer-lang
+systemtap
 sysvinit
 t1lib
 taglib
@@ -826,16 +826,15 @@ telepathy-gabble
 telepathy-haze
 telepathy-mission-control
 telepathy-salut
-telepathy-stream-engine
 terminfo-base
-tightvnc
 timezone
 tk
 tomboy
 totem
+totem-browser-plugin
 totem-pl-parser
 totem-pl-parser-lang
-totem-plugin
+totem-plugins
 translation-update
 translation-update-de
 udev
@@ -852,11 +851,13 @@ uuid-runtime
 vim
 vim-base
 vino
+virtualbox-ose-kmp-default
 vorbis-tools
 vte
 w3m
 wdiff
 wget
+wireless-regdb
 wireless-tools
 wnck-sharp
 wodim
@@ -865,7 +866,6 @@ wv
 wvdial
 wvstreams
 x11-input-fujitsu
-x11-input-synaptics
 x11-input-wacom
 x11-input-wacom-tools
 x11-tools
@@ -881,11 +881,11 @@ xinetd
 xkeyboard-config
 xmlcharent
 xorg-x11
-xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
@@ -990,6 +990,7 @@ yp-tools
 ypbind
 zd1211-firmware
 zenity
+zip
 zisofs-tools
 zlib
 zypper

@@ -13,6 +13,7 @@
 <lock package="desktop-data-SLED"/>
 <lock package="install-initrd-branding-SLED"/>
 <lock package="install-initrd-branding-SLES"/>
+<lock package="compiz-branding-SLE"/>
 <!-- java is openjdk -->
 <lock package="java-1_5_0-sun"/>
 <lock package="java-1_6_0-sun"/>
@@ -37,6 +38,7 @@
 <lock package="libstdc++41"/>
 <lock package="release-notes-dc"/>
 <lock package="release-notes-as"/>
+<lock package="release-notes-mono"/>
 <lock package="java-1_7_0-icedtea"/>
 <lock package="opensuse-manual_ru"/>
 <lock package="kernel-debug"/>
@@ -47,4 +49,7 @@
 <lock package="libgcc42-32bit"/>
 <lock package="libstdc++41-32bit"/>
 <lock package="libstdc++42-32bit"/>
-
+<lock package="libstdc++44-32bit"/>
+<lock package="libstdc++44"/>
+<lock package="libgcc44"/>
+<lock package="libgomp44"/>
