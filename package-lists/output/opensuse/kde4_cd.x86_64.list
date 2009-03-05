@@ -69,7 +69,7 @@ bind-libs
 bind-utils
 bluez
 bluez-firmware
-boost-license
+boost-license1_38_0
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -95,6 +95,7 @@ cpp
 cpp43
 cracklib
 cracklib-dict-full
+crda
 cron
 cryptsetup
 cups
@@ -214,6 +215,7 @@ iputils
 ipw-firmware
 irda
 irqbalance
+iw
 iwl3945-ucode
 iwl4965-ucode
 iwl5000-ucode
@@ -469,7 +471,7 @@ libqt4-sql-sqlite
 libqt4-x11
 libraptor1
 librasqal1
-libreadline5
+libreadline6
 libredland0
 libreiserfs
 librpcsecgss
@@ -558,8 +560,6 @@ multipath-tools
 myspell-american
 nano
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 neon
 net-tools
 netcat
@@ -741,7 +741,6 @@ taglib
 tar
 tcpd
 terminfo-base
-tightvnc
 timezone
 translation-update
 translation-update-de
@@ -762,6 +761,7 @@ vorbis-tools
 w3m
 wdiff
 wget
+wireless-regdb
 wireless-tools
 wodim
 wpa_supplicant
@@ -781,11 +781,9 @@ xfsprogs
 xinetd
 xkeyboard-config
 xorg-x11
-xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
-xorg-x11-driver-video-unichrome
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit
