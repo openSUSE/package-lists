@@ -28,7 +28,7 @@ cd ..
 
 diff=0
 for arch in i586 x86_64; do
-  for f in gnome_cd-default gnome_cd kde4_cd-default kde4_cd kde3_cd gnome_cd-x11-default kde4_cd-base-default; do
+  for f in gnome_cd-default gnome_cd kde4_cd-default kde4_cd kde3_cd gnome_cd-x11-default kde4_cd-base-default x11_cd; do
      if ! diff -u saved/$f.$arch.list output/opensuse/$f.$arch.list ; then
         diff=1 
         break

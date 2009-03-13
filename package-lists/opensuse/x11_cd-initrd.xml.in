@@ -10,8 +10,6 @@
     <!-- INCLUDE pdb_internals.xml -->
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
-    <install kind="package" name="aufs"/>
-    <install kind="package" name="aufs-kmp-default"/>
     <install kind="package" name="bind-libs"/>
     <install kind="package" name="bind-utils"/>
     <install kind="package" name="bootsplash"/>

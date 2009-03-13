@@ -276,6 +276,7 @@ kde4-marble-data
 kde4-okular
 kde4-plasma-addons
 kde4-plasmoid-quickaccess
+kde4-webkitpart
 kdeartwork4-screensaver
 kdebase4
 kdebase4-libkonq
@@ -349,6 +350,7 @@ libdns_sd
 libdrm
 libdvdread4
 libdw1
+libebl1
 libelf1
 libenchant1
 liberation-fonts
@@ -547,6 +549,7 @@ master-boot-code
 mdadm
 meanwhile
 memtest86+
+mhash
 microcode_ctl
 mingetty
 mkinitrd
@@ -560,6 +563,8 @@ multipath-tools
 myspell-american
 nano
 ncurses-utils
+ndiswrapper
+ndiswrapper-kmp-default
 neon
 net-tools
 netcat
@@ -661,6 +666,8 @@ popt
 postfix
 ppp
 pptp
+preload
+preload-kmp-default
 procps
 psmisc
 pth
@@ -736,6 +743,7 @@ suspend
 sysconfig
 sysfsutils
 syslog-ng
+systemtap
 sysvinit
 taglib
 tar
@@ -757,6 +765,7 @@ util-linux
 uuid-runtime
 vim
 vim-base
+virtualbox-ose-kmp-default
 vorbis-tools
 w3m
 wdiff
@@ -784,6 +793,7 @@ xorg-x11
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libICE-32bit

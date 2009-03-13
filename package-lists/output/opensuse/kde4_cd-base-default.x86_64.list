@@ -129,6 +129,7 @@ libdaemon0
 libdb-4_5
 libdns_sd
 libdw1
+libebl1
 libelf1
 libevent-1_4-2
 libevtlog0
@@ -168,6 +169,7 @@ libpcap1
 libpcsclite1
 libpng12-0
 libpoppler4
+libpython2_6-1_0
 libreadline6
 libreiserfs
 librpcsecgss
@@ -207,10 +209,13 @@ mailx
 man
 master-boot-code
 mdadm
+mhash
 microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
+mozilla-nspr
+mozilla-nss
 mtools
 multipath-tools
 ncurses-utils
@@ -286,10 +291,13 @@ popt
 postfix
 ppp
 pptp
+preload
+preload-kmp-default
 procps
 psmisc
 pth
 pwdutils
+python-base
 recode
 reiserfs
 release-notes-openSUSE
@@ -310,6 +318,7 @@ suseRegister
 sysconfig
 sysfsutils
 syslog-ng
+systemtap
 sysvinit
 tar
 tcpd
