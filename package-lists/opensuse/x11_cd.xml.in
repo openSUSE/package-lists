@@ -27,7 +27,7 @@
     <!-- INCLUDE ignore_opensuse-cds.xml -->
     <!-- INCLUDE pdb_internals.xml -->
     <install kind="pattern" name="rest_cd_x11"/>
-    <install kind="package" name="openSUSE-release-ftp"/>
+    <install kind="package" name="openSUSE-release-livecd-x11"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>
