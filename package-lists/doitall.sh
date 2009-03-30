@@ -86,7 +86,7 @@ fi
 ./mk_group.sh output/opensuse/x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
 (cd osc/YaST\:SVN/_product/ && osc ci -m "auto update")
 
-./sled.sh > /package_lists/purely_for_behlert
+#./sled.sh > /package_lists/purely_for_behlert
 
 svn commit -m "auto commit"
 echo "all done"
