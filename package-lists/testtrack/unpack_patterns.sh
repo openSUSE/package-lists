@@ -1,8 +1,9 @@
 #!/bin/sh
 
 svn up /home/pattern
+(cd /home/pattern/products/patterns-openSUSE-data && git pull)
 
-arg=all
+arg=openSUSE
 if test -n "$1"; then
   arg=$1
 fi
