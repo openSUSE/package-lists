@@ -5,7 +5,7 @@ svn up
 diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
    cd testtrack/
-   ./update_full.sh obs-i586 obs-x86_64 obs-ppc
+   ./update_full.sh obs-i586 obs-x86_64 # obs-ppc
    #./update_full.sh head-i586 head-x86_64 head-ppc64 head-ia64 head-s390x
    #./update_full.sh ibs-i586 ibs-x86_64 ibs-ppc64 ibs-ia64 ibs-s390x
    #./update_full.sh sle11-i586 sle11-x86_64 sle11-ppc64 sle11-ia64 sle11-s390x

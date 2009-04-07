@@ -1,6 +1,6 @@
 #!/bin/sh
 
-GEN_ARCH="i586 x86_64 ppc"
+GEN_ARCH="i586 x86_64"
 BASEDIR=`pwd`
 GEN_URL_i586="$BASEDIR/testtrack/full-sle11-i586"
 GEN_URL_x86_64="$BASEDIR/testtrack/full-sle11-x86_64"
