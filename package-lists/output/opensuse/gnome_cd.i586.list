@@ -122,8 +122,8 @@ crda
 cron
 cryptsetup
 cups
-cups-backends
 cups-client
+cups-drivers
 cups-libs
 cups-pk-helper
 curl
@@ -577,6 +577,7 @@ m4
 mailx
 make
 man
+manufacturer-PPDs
 master-boot-code
 mdadm
 memtest86+
