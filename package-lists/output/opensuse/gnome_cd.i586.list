@@ -53,6 +53,8 @@ art-sharp2
 aspell
 aspell-de
 aspell-en
+aspell-es
+aspell-it
 aspell-ru
 at
 at-spi
@@ -94,9 +96,13 @@ brasero
 bug-buddy
 bundle-lang-common-de
 bundle-lang-common-en
+bundle-lang-common-es
+bundle-lang-common-it
 bundle-lang-common-ru
 bundle-lang-gnome-de
 bundle-lang-gnome-en
+bundle-lang-gnome-es
+bundle-lang-gnome-it
 bundle-lang-gnome-ru
 bzip2
 cabextract
@@ -164,10 +170,8 @@ e2fsprogs
 ed
 eject
 ekiga
-ekiga-lang
 elfutils
 empathy
-empathy-lang
 enchant
 eog
 espeak
@@ -211,6 +215,8 @@ gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ggreeter
+ggz
+ggz-client-libs
 ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
@@ -236,6 +242,7 @@ gnome-desktop
 gnome-desktop-sharp2
 gnome-do
 gnome-docker
+gnome-games
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pam
@@ -266,7 +273,6 @@ gnome-utils
 gnome-vfs-sharp2
 gnome-vfs2
 gnome-web-photo
-gnome-web-photo-lang
 gnome2-user-docs
 gnutls
 gpart
@@ -291,12 +297,14 @@ gtk2-branding-openSUSE
 gtk2-engines
 gtk2-theme-openSUSE
 gtk2-themes
+gtkglext
 gtkhtml2
 gtkhtml314-sharp
 gtkmm2
 gtksourceview
 gtkspell
 gucharmap
+guile
 gvfs
 gvfs-backends
 gvfs-fuse
@@ -408,6 +416,7 @@ libgail-gnome
 libgcc43
 libgcrypt11
 libgdiplus0
+libggz2
 libgimpprint
 libgio-2_0-0
 libgio-fam
@@ -714,6 +723,7 @@ perl-gettext
 perl-libapparmor
 perl-libwww-perl
 permissions
+phalanx
 pidgin
 pidgin-branding-openSUSE
 pinentry
@@ -739,7 +749,6 @@ pullin-fluendo-mp3
 pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
-pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-lirc
@@ -756,9 +765,11 @@ python-gdata
 python-gnome
 python-gobject2
 python-gtk
+python-gtkglext
 python-gtksourceview
 python-notify
 python-numeric
+python-opengl
 python-orbit
 python-smbc
 python-urlgrabber
@@ -811,12 +822,13 @@ suseRegister
 susehelp
 susehelp_de
 susehelp_en
+susehelp_es
+susehelp_it
 suspend
 sysconfig
 sysfsutils
 syslog-ng
 system-config-printer
-system-config-printer-lang
 systemtap
 sysvinit
 t1lib
@@ -825,7 +837,6 @@ taglib-sharp
 tango-icon-theme
 tar
 tasque
-tasque-lang
 tcl
 tcpd
 telepathy-gabble
@@ -840,10 +851,11 @@ tomboy
 totem
 totem-browser-plugin
 totem-pl-parser
-totem-pl-parser-lang
 totem-plugins
 translation-update
 translation-update-de
+translation-update-es
+translation-update-it
 translation-update-ru
 udev
 ulimit
@@ -952,7 +964,6 @@ yast2-network
 yast2-nfs-client
 yast2-nfs-common
 yast2-nis-client
-yast2-ntp-client
 yast2-online-update
 yast2-online-update-frontend
 yast2-packager
@@ -981,6 +992,8 @@ yast2-sysconfig
 yast2-theme-openSUSE
 yast2-trans-de
 yast2-trans-en_US
+yast2-trans-es
+yast2-trans-it
 yast2-trans-ru
 yast2-trans-stats
 yast2-transfer

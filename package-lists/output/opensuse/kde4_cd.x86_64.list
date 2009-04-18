@@ -54,6 +54,8 @@ aria2
 aspell
 aspell-de
 aspell-en
+aspell-es
+aspell-it
 aspell-ru
 atk
 atmel-firmware
@@ -79,9 +81,13 @@ bootsplash-branding-openSUSE
 branding-openSUSE
 bundle-lang-common-de
 bundle-lang-common-en
+bundle-lang-common-es
+bundle-lang-common-it
 bundle-lang-common-ru
 bundle-lang-kde-de
 bundle-lang-kde-en
+bundle-lang-kde-es
+bundle-lang-kde-it
 bundle-lang-kde-ru
 bzip2
 cabextract
@@ -166,6 +172,8 @@ genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
+ggz
+ggz-client-libs
 ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
@@ -234,6 +242,7 @@ kde4-akregator
 kde4-amarok
 kde4-ark
 kde4-digikam
+kde4-digikam-lang
 kde4-dolphin
 kde4-filesystem
 kde4-gwenview
@@ -257,7 +266,10 @@ kde4-kio_kamera
 kde4-kio_sysinfo
 kde4-kio_sysinfo-branding-openSUSE
 kde4-kipi-plugins
+kde4-kipi-plugins-lang
+kde4-kmahjongg
 kde4-kmail
+kde4-kmines
 kde4-kmix
 kde4-knotes
 kde4-konqueror
@@ -266,16 +278,21 @@ kde4-konsole
 kde4-kontact
 kde4-kopete
 kde4-korganizer
+kde4-kpat
 kde4-krdc
+kde4-kreversi
 kde4-krfb
 kde4-kscd
 kde4-ksnapshot
+kde4-ksudoku
 kde4-kupdateapplet
 kde4-kupdateapplet-packagekit
 kde4-kwalletmanager
 kde4-kwin
 kde4-kwrite
 kde4-l10n-de
+kde4-l10n-es
+kde4-l10n-it
 kde4-l10n-ru
 kde4-okular
 kde4-plasma-addons
@@ -292,6 +309,8 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebluetooth4
+kdegames4
+kdegames4-carddecks-default
 kdegraphics4
 kdelibs4
 kdelibs4-core
@@ -366,6 +385,7 @@ libext2fs2
 libfprint0
 libgcc43
 libgcrypt11
+libggz2
 libgimpprint
 libgio-2_0-0
 libgio-fam
@@ -399,6 +419,7 @@ libkcompactdisc4
 libkdcraw7
 libkde4
 libkdecore4
+libkdegames4
 libkdepim4
 libkdepimlibs4
 libkexiv2-7
@@ -662,7 +683,6 @@ pullin-fluendo-mp3
 pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
-pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-jack
 pulseaudio-module-lirc
@@ -726,6 +746,8 @@ suseRegister
 susehelp
 susehelp_de
 susehelp_en
+susehelp_es
+susehelp_it
 suspend
 sysconfig
 sysfsutils
@@ -740,6 +762,8 @@ terminus-font
 timezone
 translation-update
 translation-update-de
+translation-update-es
+translation-update-it
 translation-update-ru
 udev
 ulimit
@@ -840,7 +864,6 @@ yast2-network
 yast2-nfs-client
 yast2-nfs-common
 yast2-nis-client
-yast2-ntp-client
 yast2-online-update
 yast2-online-update-frontend
 yast2-packager
@@ -870,6 +893,8 @@ yast2-theme-openSUSE
 yast2-theme-openSUSE-Oxygen
 yast2-trans-de
 yast2-trans-en_US
+yast2-trans-es
+yast2-trans-it
 yast2-trans-ru
 yast2-trans-stats
 yast2-transfer
