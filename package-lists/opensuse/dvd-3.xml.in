@@ -34,7 +34,6 @@
     <lock package="myspell-german"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE pdb_internals.xml -->
-    <install kind="pattern" name="rest_dvd"/>
     <install kind="package" name="openSUSE-release-dvd"/>
     <install kind="package" name="bundle-lang-other"/> <!-- !i586 !x86_64 -->
     <install kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
