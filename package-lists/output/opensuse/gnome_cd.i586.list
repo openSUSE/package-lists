@@ -182,7 +182,6 @@ ed
 eject
 ekiga
 elfutils
-empathy
 enchant
 eog
 espeak
@@ -195,7 +194,6 @@ exiftool
 expat
 f-spot
 fam
-farsight2
 fbset
 file
 file-roller
@@ -249,7 +247,6 @@ glibc-locale
 glibmm2
 gmime
 gmime-sharp
-gmp
 gnokii
 gnome-applets
 gnome-audio
@@ -300,7 +297,6 @@ groff
 grub
 gsf-sharp
 gstreamer-0_10
-gstreamer-0_10-libnice
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-schroedinger
@@ -317,7 +313,6 @@ gtkglext
 gtkhtml2
 gtkhtml314-sharp
 gtkmm2
-gtksourceview
 gtkspell
 gucharmap
 guile
@@ -384,7 +379,6 @@ libavahi-client3
 libavahi-common3
 libavahi-core6
 libavahi-glib1
-libavahi-gobject0
 libavahi-ui0
 libbabl-0_0-0
 libbeagle1
@@ -444,6 +438,7 @@ libglademm-2_4-1
 libglib-2_0-0
 libgmime-2_0-3
 libgmodule-2_0-0
+libgmp3
 libgnome
 libgnome-bluetooth2
 libgnome-desktop-2-11
@@ -461,7 +456,6 @@ libgphoto2
 libgsf-1-114
 libgssglue1
 libgstapp-0_10-0
-libgstfarsight-0_10-0
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgthread-2_0-0
@@ -483,7 +477,6 @@ liblazy1
 liblcms1
 libldap-2_4-2
 libldapcpp1
-libloudmouth-1-0
 liblpsolve55
 libltdl7
 liblua5_1
@@ -498,7 +491,6 @@ libncurses6
 libneon27
 libnet
 libnetpbm10
-libnice0
 libnl
 libnotify
 libnotify1
@@ -561,16 +553,12 @@ libtalloc1
 libtasn1
 libtasn1-3
 libtdb1
-libtelepathy
-libtelepathy-farsight0
-libtelepathy-glib0
 libtheora0
 libtiff3
 libtirpc1
 libudev0
 libunique-1_0-0
 libusb-0_1-4
-libusb-0_1-5
 libusb-1_0-0
 libuuid1
 libvisual
@@ -579,6 +567,7 @@ libvorbis
 libwavpack1
 libwbclient0
 libwebkit-1_0-2
+libwebkit-lang
 libwmf
 libwnck
 libwnck-1-22
@@ -647,6 +636,8 @@ nautilus
 nautilus-cd-burner
 nautilus-open-terminal
 nautilus-sendto
+nautilus-sendto-plugin-evolution
+nautilus-sendto-plugin-pidgin
 nautilus-share
 ncurses-utils
 ndesk-dbus
@@ -861,10 +852,6 @@ tar
 tasque
 tcl
 tcpd
-telepathy-gabble
-telepathy-haze
-telepathy-mission-control
-telepathy-salut
 terminfo-base
 terminus-font
 timezone

@@ -12,9 +12,8 @@
     <lock package="spamassassin"/>
     <lock package="gutenprint"/>
     <lock package="rdesktop"/>
-    <lock package="gimp"/>
-    <lock package="ufraw"/>
     <!-- INCLUDE ignore_opensuse-bundle-gnome.xml -->
+    <!-- INCLUDE ignore_opensuse-images.xml -->
     <lock package="compiz-kde"/>
     <lock package="gtk2-32bit"/>
     <lock name="office" kind="pattern"/>
