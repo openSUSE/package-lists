@@ -86,6 +86,7 @@ fi
 ./mk_group.sh output/opensuse/x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
 (cd osc/YaST\:SVN/_product/ && osc ci -m "auto update")
 
+(cd osc/openSUSE:Factory:Live/package-lists-openSUSE; osc up -e; cp /package_lists/filelists.tar.bz2 .; osc ci -m "update from desdemona" .)
 #./sled.sh > /package_lists/purely_for_behlert
 
 svn commit -m "auto commit"
