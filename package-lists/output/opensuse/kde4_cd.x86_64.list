@@ -48,6 +48,7 @@ alsa-oss
 alsa-oss-32bit
 alsa-plugins-pulse
 alsa-utils
+amarok
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -147,6 +148,7 @@ dialog
 diffutils
 digikam
 dirmngr
+dmidecode
 dmraid
 dnsmasq
 dosfstools
@@ -192,7 +194,6 @@ ghostscript-x11
 giflib
 gimp
 gimp-branding-openSUSE
-gimp-lang
 gimp-plugins-python
 glib2
 glib2-branding-openSUSE
@@ -202,7 +203,6 @@ glibc-locale
 glibc-locale-32bit
 gnokii
 gnome-keyring
-gnome-keyring-lang
 gnome-vfs2
 gnutls
 gpart
@@ -253,18 +253,17 @@ iwl5000-ucode
 jfsutils
 jpackage-utils
 jpeg
+k3b
+kaffeine
 kbd
+kcm_gtk
 kde-susetranslations
 kde4-akregator
-kde4-amarok
 kde4-ark
 kde4-dolphin
 kde4-filesystem
-kde4-k3b
 kde4-kaddressbook
-kde4-kaffeine
 kde4-kcalc
-kde4-kcm_gtk
 kde4-kcolorchooser
 kde4-kdm
 kde4-kdm-branding-openSUSE
@@ -318,6 +317,7 @@ kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
+kdebase4-runtime-branding-openSUSE
 kdebase4-session
 kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
@@ -375,7 +375,6 @@ libblkid1
 libblocxx6
 libbluetooth3
 libbonobo
-libbonobo-lang
 libboost_program_options1_38_0
 libbz2-1
 libcaca
@@ -403,6 +402,7 @@ libexiv2-5
 libexpat1
 libext2fs2
 libfprint0
+libfreebl3
 libgcc43
 libgcrypt11
 libgegl-0_0-0
@@ -415,7 +415,6 @@ libglib-2_0-0
 libgmodule-2_0-0
 libgmp3
 libgnome
-libgnome-lang
 libgnutls26
 libgobject-2_0-0
 libgomp43
@@ -496,7 +495,6 @@ libpoppler4
 libproxy0
 libproxy0-gnome
 libproxy0-kde
-libproxy0-mozjs
 libproxy0-networkmanager
 libpulse-browse0
 libpulse-mainloop-glib0
@@ -550,7 +548,6 @@ libvorbis
 libwavpack1
 libwbclient0
 libwebkit-1_0-2
-libwebkit-lang
 libwmf
 libwpd-0_8-8
 libwps-0_1-1
@@ -596,9 +593,9 @@ mkinitrd
 module-init-tools
 mozilla-nspr
 mozilla-nss
-mozilla-xulrunner190
-mozilla-xulrunner190-gnomevfs
-mozilla-xulrunner190-translations
+mozilla-xulrunner191
+mozilla-xulrunner191-gnomevfs
+mozilla-xulrunner191-translations
 mpt-firmware
 mtools
 multipath-tools
@@ -712,7 +709,6 @@ procps
 psmisc
 pth
 pullin-flash-player
-pullin-fluendo-mp3
 pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
@@ -728,7 +724,7 @@ python-base
 python-cairo
 python-gobject2
 python-gtk
-python-numeric
+python-numpy
 python-urlgrabber
 python-xml
 qlogic-firmware
@@ -835,6 +831,7 @@ xdg-menu
 xdg-utils
 xerces-j2
 xerces-j2-xml-apis
+xfsdump
 xfsprogs
 xinetd
 xkeyboard-config
@@ -865,6 +862,7 @@ xorg-x11-libxcb
 xorg-x11-libxkbfile
 xorg-x11-server
 xorg-x11-xauth
+xsane
 xstroke
 xterm
 xvkbd
@@ -948,6 +946,7 @@ yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zd1211-firmware
+zip
 zisofs-tools
 zlib
 zypper

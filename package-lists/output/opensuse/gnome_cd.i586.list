@@ -42,6 +42,7 @@ aaa_base
 aalib
 acct
 acl
+acpica
 acpid
 adaptec-firmware
 alsa
@@ -172,6 +173,7 @@ dhcpcd
 dialog
 diffutils
 dirmngr
+dmidecode
 dmraid
 dnsmasq
 dosfstools
@@ -421,6 +423,7 @@ libexif
 libexpat1
 libext2fs2
 libfprint0
+libfreebl3
 libfuse2
 libgadu
 libgail-gnome
@@ -454,6 +457,7 @@ libgomp43
 libgpg-error0
 libgphoto2
 libgsf-1-114
+libgsm1
 libgssglue1
 libgstapp-0_10-0
 libgstinterfaces-0_10-0
@@ -469,6 +473,7 @@ libical0
 libicu
 libidl
 libidn
+libieee1284
 libiniparser0
 libjasper
 libjpeg
@@ -567,7 +572,6 @@ libvorbis
 libwavpack1
 libwbclient0
 libwebkit-1_0-2
-libwebkit-lang
 libwmf
 libwnck
 libwnck-1-22
@@ -627,6 +631,9 @@ mozilla-nss
 mozilla-xulrunner190
 mozilla-xulrunner190-gnomevfs
 mozilla-xulrunner190-translations
+mozilla-xulrunner191
+mozilla-xulrunner191-gnomevfs
+mozilla-xulrunner191-translations
 mpt-firmware
 mtools
 multipath-tools
@@ -743,7 +750,6 @@ pinentry-gtk2
 pkg-config
 pm-profiler
 pm-utils
-pmtools
 podsleuth
 polkit-default-privs
 poppler-tools
@@ -757,7 +763,6 @@ procps
 psmisc
 pth
 pullin-flash-player
-pullin-fluendo-mp3
 pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
@@ -780,7 +785,7 @@ python-gtk
 python-gtkglext
 python-gtksourceview
 python-notify
-python-numeric
+python-numpy
 python-opengl
 python-orbit
 python-smbc
@@ -799,6 +804,8 @@ rpm
 rsync
 samba
 samba-client
+sane-backends
+sane-backends-autoconfig
 satsolver-tools
 sax2
 sax2-gui
@@ -907,6 +914,7 @@ xdg-menu
 xdg-utils
 xerces-j2
 xerces-j2-xml-apis
+xfsdump
 xfsprogs
 xinetd
 xkeyboard-config
@@ -938,6 +946,7 @@ xorg-x11-libxkbfile
 xorg-x11-server
 xorg-x11-server-extra
 xorg-x11-xauth
+xsane
 xscreensaver
 xstroke
 xterm
