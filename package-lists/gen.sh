@@ -115,8 +115,6 @@ if test "$ret" = 1; then
   echo " failed"
 else
   echo " done"
-  rm -f output/$file.all.list
-  cat output/$file.*.list | LC_ALL=C sort -u > output/$file.all.list
 fi
 
 rm -rf /tmp/myrepos

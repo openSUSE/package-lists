@@ -1,6 +1,6 @@
 #!/bin/bash
 # usage:
-# ./mk_group.sh dvd-all.list REST-DVD osc/openSUSE:Factory/group.REST-DVD.xml [conditiional]
+# ./mk_group.sh dvd-i586.list REST-DVD osc/openSUSE:Factory/group.REST-DVD.xml [conditional]
 
 list=$1
 name=$2

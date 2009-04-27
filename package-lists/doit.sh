@@ -50,15 +50,6 @@ do_opensuse()
     return 0
 }
 
-do_sles()
-{
-    ./gen.sh sles-1 || return 1
-    ./gen.sh sles-2 || return 1
-    cat sles-*.all.list | LC_ALL=C sort -u > sles-all.list
-
-    return 0
-}
-
 do_sdk()
 {
     ./sdk-prepare.sh
@@ -72,8 +63,6 @@ do_sdk()
 RET=0
 do_opensuse
 RET=$[ $? || $RET ]
-#do_sles
-#RET=$[ $? || $RET ]
 #do_sdk
 #RET=$[ $? || $RET ]
 exit $RET
