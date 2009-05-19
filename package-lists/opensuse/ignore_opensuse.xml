@@ -53,6 +53,8 @@
 <lock package="libdvdnav"/>
 <lock package="dummy-release"/>
 <lock package="libgcc42-32bit"/>
+<lock package="libgcc42"/>
+<lock package="libstdc++42"/>
 <lock package="libstdc++41-32bit"/>
 <lock package="libstdc++42-32bit"/>
 <lock package="libstdc++43-32bit"/>
@@ -64,3 +66,26 @@
 <lock package="libgcc45"/>
 <lock package="libgomp45"/>
 <lock package="cracklib-dict-small"/>
+<lock package="gtk2-branding-upstream"/>
+<!-- FTP only -->
+<lock package="tin"/>
+<!-- KDE3 is not needed -->
+<lock package="kde3-i18n-cs"/>
+<lock package="kde3-i18n-da"/>
+<lock package="kde3-i18n-de"/>
+<lock package="kde3-i18n-en_GB"/>
+<lock package="kde3-i18n-es"/>
+<lock package="kde3-i18n-fi"/>
+<lock package="kde3-i18n-fr"/>
+<lock package="kde3-i18n-hu"/>
+<lock package="kde3-i18n-it"/>
+<lock package="kde3-i18n-ja"/>
+<lock package="kde3-i18n-nb"/>
+<lock package="kde3-i18n-nl"/>
+<lock package="kde3-i18n-pl"/>
+<lock package="kde3-i18n-pt"/>
+<lock package="kde3-i18n-pt_BR"/>
+<lock package="kde3-i18n-ru"/>
+<lock package="kde3-i18n-zh_CN"/>
+<lock package="kde3-i18n-zh_TW"/>
+

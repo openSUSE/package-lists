@@ -14,6 +14,7 @@ aria2
 attr
 audit
 audit-libs
+augeas-lenses
 autofs
 autoyast2-installation
 bash
@@ -114,6 +115,7 @@ libaio
 libapparmor1
 libasm1
 libattr
+libaugeas0
 libavahi-client3
 libavahi-common3
 libblkid1
@@ -127,7 +129,6 @@ libdaemon0
 libdb-4_5
 libdns_sd
 libdw1
-libebl1
 libelf1
 libevent-1_4-2
 libevtlog0
@@ -138,7 +139,6 @@ libgcc44
 libgcrypt11
 libgimpprint
 libglib-2_0-0
-libgmodule-2_0-0
 libgnutls26
 libgobject-2_0-0
 libgpg-error0
@@ -146,6 +146,8 @@ libgssglue1
 libgthread-2_0-0
 libicu
 libidn
+libiw-devel
+libiw30
 libjpeg
 libksba
 liblcms1
@@ -165,18 +167,19 @@ libopenct1
 libopensc2
 libopenssl0_9_8
 libpcap1
+libpcre0
 libpcsclite1
 libpng12-0
-libpoppler4
-libpython2_6-1_0
+libpoppler5
+libpth20
 libreadline6
 libreiserfs
 librpcsecgss
 libselinux1
-libsepol1
 libsmbios2
 libsqlite3-0
 libstdc++44
+libstorage
 libtalloc1
 libtdb1
 libtiff3
@@ -187,6 +190,7 @@ libuuid1
 libvolume_id1
 libwbclient0
 libx86
+libx86emu1
 libxcrypt
 libxml2
 libzio
@@ -293,9 +297,7 @@ pptp
 preload
 procps
 psmisc
-pth
 pwdutils
-python-base
 recode
 reiserfs
 release-notes-openSUSE
@@ -316,7 +318,7 @@ suseRegister
 sysconfig
 sysfsutils
 syslog-ng
-systemtap
+systemtap-runtime
 sysvinit
 tar
 tcpd
@@ -329,7 +331,6 @@ update-alternatives
 usbutils
 utempter
 util-linux
-uuid-runtime
 vim
 vim-base
 w3m
@@ -392,7 +393,6 @@ yast2-samba-server
 yast2-security
 yast2-slp
 yast2-storage
-yast2-storage-lib
 yast2-sudo
 yast2-sysconfig
 yast2-theme-openSUSE

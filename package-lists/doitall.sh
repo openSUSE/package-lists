@@ -83,8 +83,8 @@ if false; then
 ./mk_group.sh output/sdk-s390x.list sdk-s390x osc/SUSE:SLE-11:GA/_product/sdk-s390x.group only_s390x
 fi
 
-#./mk_group.sh output/opensuse/x11_cd.all.list DVD osc/YaST\:SVN/_product/DVD.group
-#(cd osc/YaST\:SVN/_product/ && osc ci -m "auto update")
+./mk_group.sh output/opensuse/x11_cd.x86_64.list DVD osc/system:install:head/_product/DVD.group
+(cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
 (cd osc/openSUSE:Factory:Live/package-lists-openSUSE; osc up -e; cp /package_lists/filelists.tar.bz2 .; osc ci -m "update from desdemona" .)
 #./sled.sh > /package_lists/purely_for_behlert
