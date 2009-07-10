@@ -1,13 +1,35 @@
 export LC_ALL=C
 
-rm -rf /tmp/myrepos
-rm -rf full-head-i586 full-head-x86_64
-/usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-x86_64.xml > testit-x86_64.log 2>&1
-rm -rf /tmp/myrepos
-/usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-i386.xml > testit-i386.log 2>&1
+for arch in i586 x86_64; do
+  rm -rf /tmp/myrepos /var/cache/zypp
+  export TESTTRACK=$PWD/../testtrack
+  rm -rf $TESTTRACK/CD1
+  mkdir -p $TESTTRACK/CD1
+  cp -a $TESTTRACK/content.$arch.small $TESTTRACK/CD1/content
+  cp -a $TESTTRACK/full-obs-$arch/suse $TESTTRACK/CD1/
+  cp -a $TESTTRACK/full-obs-$arch/media.1 $TESTTRACK/CD1/
 
-zcat full-head-i586/*-package.xml.gz | fgrep -v '<vendor>' > full-head-i586/1-package.xml
-zcat full-head-x86_64/*-package.xml.gz | fgrep -v '<vendor>' > full-head-x86_64/1-package.xml
+  mkdir -p $TESTTRACK/CD1/suse/setup/descr/
+  cp $TESTTRACK/patterns/dvd-*.$arch.pat $TESTTRACK/CD1/suse/setup/descr/
+  pushd $TESTTRACK/CD1/suse/setup/descr/ > /dev/null
+  : > patterns
+  for i in *;
+    do echo -n "META SHA1 ";
+    sha1sum $i | awk '{ORS=""; print $1}';
+    echo -n " "; basename $i;
+    basename $i >> patterns
+  done >> $TESTTRACK/CD1/content
+  popd > /dev/null
+  rm -f $TESTTRACK/CD1/content.asc
+  gpg  --batch -a -b --sign $TESTTRACK/CD1/content
+  rm -rf full-obs-$arch
+  /usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-$arch.xml > testit-$arch.log 2>&1
+done
+
+zcat full-obs-i586/*-package.xml.gz | fgrep -v '<vendor>' > full-obs-i586/1-package.xml
+zcat full-obs-x86_64/*-package.xml.gz | fgrep -v '<vendor>' > full-obs-x86_64/1-package.xml
+
+exit 0
 
 for i in *-update.xml; do 
   echo $i

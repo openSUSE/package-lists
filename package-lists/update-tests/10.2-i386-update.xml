@@ -2,7 +2,7 @@
 <test>
   <setup arch="i686">
     <system file="10.2-i386-system.xml.gz"/>
-    <channel file="full-head-i586/1-package.xml" name="factory"/>
+    <channel file="full-obs-i586/1-package.xml" name="factory"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>

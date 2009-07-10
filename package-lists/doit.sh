@@ -20,7 +20,7 @@ do_opensuse()
     ./gen.sh opensuse/dvd-1
     ./gen.sh opensuse/dvd-2
     ./gen.sh opensuse/dvd-3
-    for i in i586 x86_64 ppc; do
+    for i in i586 x86_64; do
       cat output/opensuse/dvd-1.$i.list output/opensuse/dvd-2.$i.list output/opensuse/dvd-3.$i.list | LC_ALL=C sort -u > output/opensuse/dvd-$i.list
     done
     ./gen.sh opensuse/kde4_cd-base-default

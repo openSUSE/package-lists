@@ -29,6 +29,7 @@
     <lock package="kdelibs3"/>
     <lock package="kdelibs3-default-style"/>
     <!-- INCLUDE pdb_internals.xml -->
+    <install kind="pattern" name="kde4_office"/>
     <install kind="pattern" name="rest_cd_kde4"/>
     <install kind="package" name="openSUSE-release-livecd-kde"/>
     <reportProblems/>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <test>
   <setup arch="i686">
-    <source url="dir:///home/package-lists/testtrack/dvd5.i586/CD1" name="factory"/>
+    <source url="dir:///home/package-lists/testtrack/CD1" name="factory"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>
   <trial>
-   <createTestcase path="full-head-i586"/>
+   <createTestcase path="full-obs-i586"/>
   </trial>
 </test>
