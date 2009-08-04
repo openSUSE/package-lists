@@ -101,13 +101,6 @@ bundle-lang-common-ru
 bundle-lang-gnome-de
 bundle-lang-gnome-en
 bundle-lang-gnome-es
-bundle-lang-gnome-extras-de
-bundle-lang-gnome-extras-en
-bundle-lang-gnome-extras-es
-bundle-lang-gnome-extras-fr
-bundle-lang-gnome-extras-it
-bundle-lang-gnome-extras-pl
-bundle-lang-gnome-extras-ru
 bundle-lang-gnome-fr
 bundle-lang-gnome-it
 bundle-lang-gnome-pl
@@ -216,7 +209,6 @@ gdb
 gdbm
 gdm
 gdm-branding-openSUSE
-gdm-lang
 gedit
 gegl-0_0
 genisoimage
@@ -248,7 +240,6 @@ gnome-applets
 gnome-audio
 gnome-bluetooth
 gnome-control-center
-gnome-control-center-lang
 gnome-desktop
 gnome-desktop-sharp2
 gnome-do
@@ -273,7 +264,6 @@ gnome-power-manager
 gnome-screensaver
 gnome-session
 gnome-settings-daemon
-gnome-settings-daemon-lang
 gnome-sharp2
 gnome-speech
 gnome-spell2
@@ -362,6 +352,7 @@ less
 libFLAC8
 libHX18
 libMagickCore2
+libQtWebKit4
 libSDL-1_2-0
 libacl
 libadns1
@@ -450,7 +441,6 @@ libgnome-desktop-2-11
 libgnome-menu2
 libgnomecanvas
 libgnomekbd
-libgnomekbd-lang
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -793,7 +783,10 @@ python-notify
 python-numpy
 python-opengl
 python-orbit
+python-qt4
 python-satsolver
+python-simplejson
+python-sip
 python-smbc
 python-urlgrabber
 python-xml
@@ -920,6 +913,7 @@ xchat
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
+xdg-user-dirs-gtk-lang
 xdg-utils
 xerces-j2
 xerces-j2-xml-apis
@@ -973,6 +967,7 @@ yast2-control-center-gnome
 yast2-core
 yast2-country
 yast2-country-data
+yast2-dbus-client
 yast2-fingerprint-reader
 yast2-firewall
 yast2-gtk

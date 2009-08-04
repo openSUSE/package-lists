@@ -19,7 +19,7 @@
     <!-- INCLUDE pdb_internals.xml -->
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="package" name="openSUSE-release-livecd-gnome"/>
-    <install kind="package" name="kernel-desktop"/> <!-- !i586 -->
+    <lock kind="package" name="kernel-desktop"/> <!-- !x86_64 -->
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
     <!-- INCLUDE ignore_opensuse-gnome-cd.xml -->

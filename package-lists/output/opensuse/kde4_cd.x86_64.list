@@ -55,7 +55,6 @@ apparmor-profiles
 apparmor-utils
 aria2
 ark
-arora
 aspell
 aspell-de
 aspell-en
@@ -108,7 +107,6 @@ cdrkit-cdrtools-compat
 check
 checkmedia
 chmlib
-choqok
 cifs-mount
 clucene-core
 cm-unicode
@@ -301,9 +299,9 @@ kdm
 kdm-branding-openSUSE
 kdnssd
 keditbookmarks
-kernel-default
-kernel-default-base
-kernel-default-extra
+kernel-desktop
+kernel-desktop-base
+kernel-desktop-extra
 keyutils
 keyutils-libs
 kfind
@@ -416,7 +414,6 @@ libggz2
 libgimpprint
 libgio-2_0-0
 libgio-fam
-libglade2
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp3
@@ -628,7 +625,7 @@ mysql-client
 nano
 ncurses-utils
 ndiswrapper
-ndiswrapper-kmp-default
+ndiswrapper-kmp-desktop
 neon
 net-tools
 netcat
@@ -731,7 +728,7 @@ postfix
 ppp
 pptp
 preload
-preload-kmp-default
+preload-kmp-desktop
 procps
 psmisc
 pullin-flash-player
@@ -747,14 +744,11 @@ pulseaudio-utils
 pwdutils
 python
 python-base
-python-cairo
 python-cups
-python-gobject2
-python-gtk
 python-kde4
-python-numpy
 python-qt4
 python-satsolver
+python-simplejson
 python-sip
 python-urlgrabber
 python-xml
@@ -845,7 +839,7 @@ utempter
 util-linux
 vim
 vim-base
-virtualbox-ose-kmp-default
+virtualbox-ose-kmp-desktop
 vorbis-tools
 w3m
 wdiff
@@ -899,7 +893,6 @@ xorg-x11-libxcb
 xorg-x11-libxkbfile
 xorg-x11-server
 xorg-x11-xauth
-xsane
 xstroke
 xterm
 xvkbd
@@ -916,6 +909,7 @@ yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
+yast2-dbus-client
 yast2-fingerprint-reader
 yast2-firewall
 yast2-hardware-detection
