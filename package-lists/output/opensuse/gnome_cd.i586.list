@@ -70,7 +70,6 @@ augeas-lenses
 autofs
 autoyast2-installation
 avahi
-avahi-mono
 awesfx
 b43-fwcutter
 banshee-1
@@ -80,11 +79,7 @@ banshee-1-backend-platform-unix
 banshee-1-extensions-default
 bash
 bc
-beagle
-beagle-evolution
 beagle-firefox
-beagle-gui
-beagle-lang
 bind-libs
 bind-utils
 bluez
@@ -236,16 +231,12 @@ glib2-branding-openSUSE
 glibc
 glibc-locale
 glibmm2
-gmime-sharp
 gnokii
 gnome-applets
 gnome-audio
 gnome-bluetooth
 gnome-control-center
 gnome-desktop
-gnome-desktop-sharp2
-gnome-do
-gnome-do-lang
 gnome-doc-utils
 gnome-doc-utils-lang
 gnome-docker
@@ -253,7 +244,6 @@ gnome-games
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pam
-gnome-keyring-sharp
 gnome-mag
 gnome-main-menu
 gnome-media
@@ -263,10 +253,8 @@ gnome-mount
 gnome-nettool
 gnome-packagekit
 gnome-panel
-gnome-panel-sharp
 gnome-phone-manager
 gnome-power-manager
-gnome-screensaver
 gnome-session
 gnome-settings-daemon
 gnome-sharp2
@@ -288,7 +276,6 @@ gpm
 grep
 groff
 grub
-gsf-sharp
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
@@ -376,7 +363,6 @@ libavahi-client3
 libavahi-common3
 libavahi-core6
 libavahi-glib1
-libavahi-ui0
 libbabl-0_0-0
 libbeagle1
 libblkid1
@@ -435,9 +421,7 @@ libgio-fam
 libglade2
 libglademm
 libglademm-2_4-1
-libgle3
 libglib-2_0-0
-libgmime-2_0-3
 libgmime-2_4-2
 libgmodule-2_0-0
 libgmp3
@@ -629,7 +613,6 @@ mono-addins
 mono-core
 mono-data
 mono-data-sqlite
-mono-nunit
 mono-web
 mono-winforms
 mono-zeroconf
@@ -780,6 +763,7 @@ python-base
 python-cairo
 python-compizconfig
 python-cups
+python-cupshelpers
 python-gnome
 python-gobject2
 python-gstreamer-0_10
@@ -808,7 +792,6 @@ release-notes-openSUSE
 rpcbind
 rpm
 rpm-python
-rsvg2-sharp
 rsync
 rsyslog
 samba
@@ -872,8 +855,6 @@ terminus-font
 tightvnc
 timezone
 tk
-tomboy
-tomboy-lang
 totem
 totem-browser-plugin
 totem-pl-parser
@@ -885,6 +866,7 @@ translation-update-it
 translation-update-pl
 translation-update-ru
 udev
+udev-configure-printer
 ulimit
 umtsmon
 unrar
@@ -906,10 +888,8 @@ wdiff
 wget
 wireless-regdb
 wireless-tools
-wnck-sharp
 wodim
 wpa_supplicant
-wv
 wvdial
 wvstreams
 x11-input-fujitsu
@@ -959,7 +939,6 @@ xorg-x11-server
 xorg-x11-server-extra
 xorg-x11-xauth
 xsane
-xscreensaver
 xstroke
 xterm
 xvkbd
