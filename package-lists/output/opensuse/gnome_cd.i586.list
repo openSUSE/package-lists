@@ -1,5 +1,6 @@
 ConsoleKit
 ConsoleKit-x11
+DeviceKit-disks
 DeviceKit-power
 DirectFB
 IlmBase
@@ -178,7 +179,6 @@ evince
 evolution
 evolution-data-server
 evolution-sharp
-exiftool
 expat
 f-spot
 fam
@@ -233,6 +233,7 @@ glibc-locale
 glibmm2
 gnokii
 gnome-applets
+gnome-applets-colorblind
 gnome-audio
 gnome-bluetooth
 gnome-control-center
@@ -255,6 +256,7 @@ gnome-packagekit
 gnome-panel
 gnome-phone-manager
 gnome-power-manager
+gnome-python-desktop
 gnome-session
 gnome-settings-daemon
 gnome-sharp2
@@ -333,7 +335,6 @@ jpackage-utils
 kbd
 kernel-default
 kernel-default-base
-kernel-default-extra
 keyutils
 keyutils-libs
 klogd
@@ -356,6 +357,7 @@ libarchive2
 libart_lgpl
 libasm1
 libasound2
+libatasmart0
 libatk-1_0-0
 libattr
 libaugeas0
@@ -380,10 +382,13 @@ libcanberra0
 libcap2
 libcdda_interface0
 libcdda_paranoia0
-libcdio7
+libcdio10
 libcdio_cdda0
 libcdio_paranoia0
 libcloog0
+libclutter-glx-1_0-0
+libclutter-gtk-0_10-0
+libcolorblind0
 libcom_err2
 libcompizconfig
 libcroco-0_6-3
@@ -413,6 +418,8 @@ libgail-gnome
 libgcc44
 libgcrypt11
 libgdiplus0
+libgdu-lang
+libgdu0
 libgegl-0_0-0
 libggz2
 libgimpprint
@@ -431,7 +438,10 @@ libgnome-bluetooth7
 libgnome-desktop-2-11
 libgnome-menu2
 libgnomecanvas
+libgnomecups
 libgnomekbd
+libgnomeprint
+libgnomeprintui
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -514,7 +524,7 @@ libproxy0
 libproxy0-gnome
 libproxy0-mozjs
 libproxy0-networkmanager
-libpst0
+libpst4
 libpt2
 libpth20
 libpulse-browse0
@@ -738,6 +748,8 @@ pm-profiler
 pm-utils
 podsleuth
 polkit-default-privs
+polkit-gnome
+polkit-gnome-lang
 poppler-tools
 popt
 postfix
@@ -770,6 +782,7 @@ python-gstreamer-0_10
 python-gtk
 python-gtkglext
 python-gtksourceview
+python-louis
 python-notify
 python-numpy
 python-orbit
@@ -781,7 +794,6 @@ python-smbc
 python-urlgrabber
 python-xml
 qlogic-firmware
-qt3
 quota
 ralink-firmware
 rarian
@@ -867,7 +879,6 @@ translation-update-ru
 udev
 udev-configure-printer
 ulimit
-umtsmon
 unrar
 unscd
 unzip
@@ -984,8 +995,6 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-profile-manager
-yast2-qt
-yast2-qt-pkg
 yast2-registration
 yast2-registration-branding-openSUSE
 yast2-repair
