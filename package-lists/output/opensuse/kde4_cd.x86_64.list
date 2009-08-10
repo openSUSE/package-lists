@@ -7,10 +7,12 @@ Mesa
 ModemManager
 MozillaFirefox
 MozillaFirefox-branding-openSUSE
-MozillaFirefox-translations
+MozillaFirefox-theme-oxygen
+MozillaFirefox-translations-common
 NetworkManager
 NetworkManager-glib
 NetworkManager-kde4
+NetworkManager-kde4-lang
 NetworkManager-kde4-libs
 OpenEXR
 OpenOffice_org
@@ -176,6 +178,7 @@ freeglut
 freetype2
 gawk
 gconf2
+gd
 gdb
 gdbm
 gegl-0_0
@@ -270,6 +273,7 @@ kde4-l10n-ru
 kde4-printer-applet
 kde4-webkitpart
 kdeartwork4-screensaver
+kdeartwork4-weatherwallpapers
 kdebase4
 kdebase4-libkonq
 kdebase4-nsplugin
@@ -322,6 +326,7 @@ konsole
 kontact
 konversation
 kopete
+kopete-protocol-facebook
 korganizer
 kpartx
 kpat
@@ -335,6 +340,7 @@ ksmolt
 ksnapshot
 ksudoku
 ktorrent
+ktorrent-lang
 kupdateapplet
 kupdateapplet-packagekit
 kwalletmanager
@@ -429,6 +435,7 @@ libgstapp-0_10-0
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgthread-2_0-0
+libgudev-1_0-0
 libical0
 libicu
 libidl
@@ -512,6 +519,7 @@ libpulse0
 libpython2_6-1_0
 libqca2
 libqimageblitz4
+libqjson0
 libqt4
 libqt4-qt3support
 libqt4-sql
@@ -537,6 +545,7 @@ libsoup-2_4-1
 libspectre1
 libspeex
 libsqlite3-0
+libssh3
 libstdc++44
 libstorage
 libstrigi0
@@ -608,7 +617,7 @@ mozilla-nspr
 mozilla-nss
 mozilla-xulrunner191
 mozilla-xulrunner191-gnomevfs
-mozilla-xulrunner191-translations
+mozilla-xulrunner191-translations-common
 mpt-firmware
 mtools
 multipath-tools
@@ -647,6 +656,8 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
+opensuse-manuals_en
+opensuse-manuals_en-pdf
 orbit2
 oxygen-icon-theme
 ozerocdoff
@@ -667,6 +678,8 @@ pcre
 pcsc-lite
 perl
 perl-Bootloader
+perl-Business-ISBN
+perl-Business-ISBN-Data
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
@@ -676,6 +689,8 @@ perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
+perl-GD
+perl-GD-Barcode
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
@@ -778,6 +793,7 @@ skanlite
 slang
 smartmontools
 smolt
+smolt-gui
 smp_utils
 smpppd
 soprano

@@ -68,6 +68,7 @@ fontconfig
 foomatic-filters
 freetype2
 gawk
+gd
 gdbm
 genisoimage
 gettext-runtime
@@ -240,6 +241,8 @@ openslp
 openssh
 openssl
 openssl-certs
+opensuse-manuals_en
+opensuse-manuals_en-pdf
 pam
 pam-config
 pam-modules
@@ -251,6 +254,8 @@ pcre
 pcsc-lite
 perl
 perl-Bootloader
+perl-Business-ISBN
+perl-Business-ISBN-Data
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
@@ -260,6 +265,8 @@ perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
+perl-GD
+perl-GD-Barcode
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
@@ -345,9 +352,13 @@ wireless-tools
 wodim
 xdg-utils
 xinetd
+xorg-x11-libICE
+xorg-x11-libSM
 xorg-x11-libX11
 xorg-x11-libXau
 xorg-x11-libXext
+xorg-x11-libXpm
+xorg-x11-libXt
 xorg-x11-libxcb
 xz
 yast2

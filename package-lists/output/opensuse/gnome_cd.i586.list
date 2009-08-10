@@ -8,7 +8,7 @@ Mesa
 ModemManager
 MozillaFirefox
 MozillaFirefox-branding-openSUSE
-MozillaFirefox-translations
+MozillaFirefox-translations-common
 NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
@@ -114,6 +114,7 @@ check
 checkmedia
 cheese
 cifs-mount
+clucene-core
 cm-unicode
 command-not-found
 compiz
@@ -204,6 +205,7 @@ gconf-sharp2
 gconf2
 gconf2-branding-openSUSE
 gconfmm
+gd
 gdb
 gdbm
 gdm
@@ -257,6 +259,7 @@ gnome-panel
 gnome-phone-manager
 gnome-power-manager
 gnome-python-desktop
+gnome-screensaver
 gnome-session
 gnome-settings-daemon
 gnome-sharp2
@@ -270,6 +273,7 @@ gnome-vfs-sharp2
 gnome-vfs2
 gnome-web-photo
 gnome2-user-docs
+gnome2-user-docs-lang
 gnutls
 gpart
 gpg2
@@ -341,6 +345,7 @@ klogd
 kpartx
 krb5
 krb5-client
+ksmolt
 lcms
 less
 libFLAC8
@@ -351,6 +356,8 @@ libSDL-1_2-0
 libacl
 libadns1
 libaio
+libakonadi4
+libakonadiprotocolinternals1
 libao
 libapparmor1
 libarchive2
@@ -428,6 +435,7 @@ libgio-fam
 libglade2
 libglademm
 libglademm-2_4-1
+libgle3
 libglib-2_0-0
 libgmime-2_4-2
 libgmodule-2_0-0
@@ -449,6 +457,7 @@ libgnutls26
 libgobject-2_0-0
 libgomp44
 libgpg-error0
+libgpgme11
 libgphoto2
 libgsf-1-114
 libgssdp-1_0-1
@@ -475,6 +484,9 @@ libiw-devel
 libiw30
 libjasper
 libjpeg
+libkde4
+libkdecore4
+libkdepimlibs4
 libksba
 liblazy1
 liblcms1
@@ -511,6 +523,7 @@ libpcap1
 libpciaccess0
 libpcre0
 libpcsclite1
+libphonon4
 libpisock9
 libpisync1
 libpixman-1-0
@@ -522,6 +535,7 @@ libppl7
 libppl_c2
 libproxy0
 libproxy0-gnome
+libproxy0-kde
 libproxy0-mozjs
 libproxy0-networkmanager
 libpst4
@@ -550,6 +564,7 @@ libsmbclient0
 libsmbios-bin
 libsmbios2
 libsndfile
+libsoprano4
 libsoup-2_4-1
 libspectre1
 libspeex
@@ -557,6 +572,7 @@ libsqlite3-0
 libstdc++44
 libstlport_gcc4
 libstorage
+libstrigi0
 libtalloc1
 libtasn1
 libtasn1-3
@@ -633,7 +649,7 @@ mozilla-nspr
 mozilla-nss
 mozilla-xulrunner191
 mozilla-xulrunner191-gnomevfs
-mozilla-xulrunner191-translations
+mozilla-xulrunner191-translations-common
 mpt-firmware
 mtools
 multipath-tools
@@ -679,6 +695,8 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
+opensuse-manuals_en
+opensuse-manuals_en-pdf
 orbit2
 orca
 ozerocdoff
@@ -704,6 +722,8 @@ pcre
 pcsc-lite
 perl
 perl-Bootloader
+perl-Business-ISBN
+perl-Business-ISBN-Data
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
@@ -713,6 +733,8 @@ perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
+perl-GD
+perl-GD-Barcode
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
@@ -782,6 +804,7 @@ python-gstreamer-0_10
 python-gtk
 python-gtkglext
 python-gtksourceview
+python-kde4
 python-louis
 python-notify
 python-numpy
@@ -831,6 +854,7 @@ simple-ccsm
 slang
 smartmontools
 smolt
+smolt-gui
 smp_utils
 smpppd
 sound-theme-freedesktop
@@ -909,6 +933,9 @@ x11-tools
 xalan-j2
 xaw3d
 xchat
+xchat-perl
+xchat-python
+xchat-tcl
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -949,6 +976,7 @@ xorg-x11-server
 xorg-x11-server-extra
 xorg-x11-xauth
 xsane
+xscreensaver
 xstroke
 xterm
 xvkbd
@@ -968,6 +996,7 @@ yast2-dbus-client
 yast2-fingerprint-reader
 yast2-firewall
 yast2-gtk
+yast2-gtk-pkg
 yast2-hardware-detection
 yast2-inetd
 yast2-installation
