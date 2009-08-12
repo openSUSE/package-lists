@@ -22,7 +22,13 @@ OpenOffice_org-filters
 OpenOffice_org-gnome
 OpenOffice_org-icon-themes
 OpenOffice_org-impress
+OpenOffice_org-l10n-de
+OpenOffice_org-l10n-es
 OpenOffice_org-l10n-extras
+OpenOffice_org-l10n-fr
+OpenOffice_org-l10n-it
+OpenOffice_org-l10n-pl
+OpenOffice_org-l10n-ru
 OpenOffice_org-libs-core
 OpenOffice_org-libs-extern
 OpenOffice_org-libs-gui
@@ -62,6 +68,7 @@ aspell-pl
 aspell-ru
 at-spi
 atk
+atk-lang
 atmel-firmware
 attr
 audiofile
@@ -71,6 +78,7 @@ augeas-lenses
 autofs
 autoyast2-installation
 avahi
+avahi-mono
 awesfx
 b43-fwcutter
 banshee-1
@@ -80,7 +88,10 @@ banshee-1-backend-platform-unix
 banshee-1-extensions-default
 bash
 bc
+beagle
+beagle-evolution
 beagle-firefox
+beagle-gui
 bind-libs
 bind-utils
 bluez
@@ -199,6 +210,7 @@ freetype2
 fuse
 gawk
 gcalctool
+gcalctool-lang
 gconf-editor
 gconf-sharp2
 gconf2
@@ -232,6 +244,7 @@ glib2-branding-openSUSE
 glibc
 glibc-locale
 glibmm2
+gmime-sharp
 gnokii
 gnome-applets
 gnome-applets-colorblind
@@ -239,13 +252,16 @@ gnome-audio
 gnome-bluetooth
 gnome-control-center
 gnome-desktop
+gnome-desktop-sharp2
+gnome-do
 gnome-doc-utils
-gnome-doc-utils-lang
 gnome-docker
 gnome-games
 gnome-icon-theme
 gnome-keyring
+gnome-keyring-lang
 gnome-keyring-pam
+gnome-keyring-sharp
 gnome-mag
 gnome-main-menu
 gnome-media
@@ -255,6 +271,7 @@ gnome-mount
 gnome-nettool
 gnome-packagekit
 gnome-panel
+gnome-panel-sharp
 gnome-phone-manager
 gnome-power-manager
 gnome-python-desktop
@@ -280,6 +297,7 @@ gpm
 grep
 groff
 grub
+gsf-sharp
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
@@ -291,6 +309,7 @@ gtk2
 gtk2-branding-openSUSE
 gtk2-engine-murrine
 gtk2-engines
+gtk2-lang
 gtk2-metatheme-gilouche
 gtk2-metatheme-sonar
 gtk2-themes
@@ -366,6 +385,7 @@ libavahi-client3
 libavahi-common3
 libavahi-core6
 libavahi-glib1
+libavahi-ui0
 libbabl-0_0-0
 libbeagle1
 libblkid1
@@ -419,7 +439,6 @@ libgail-gnome
 libgcc44
 libgcrypt11
 libgdiplus0
-libgdu-lang
 libgdu0
 libgegl-0_0-0
 libggz2
@@ -431,6 +450,7 @@ libglademm
 libglademm-2_4-1
 libgle3
 libglib-2_0-0
+libgmime-2_0-3
 libgmime-2_4-2
 libgmodule-2_0-0
 libgmp3
@@ -523,9 +543,6 @@ libpoppler5
 libppl7
 libppl_c2
 libproxy0
-libproxy0-gnome
-libproxy0-mozjs
-libproxy0-networkmanager
 libpst4
 libpt2
 libpth20
@@ -627,6 +644,7 @@ mono-addins
 mono-core
 mono-data
 mono-data-sqlite
+mono-nunit
 mono-web
 mono-winforms
 mono-zeroconf
@@ -673,10 +691,8 @@ opal
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-gnome
-openct
 openldap2-client
 openobex
-opensc
 openslp
 openssh
 openssh-askpass
@@ -705,7 +721,6 @@ pciutils
 pciutils-ids
 pcmciautils
 pcre
-pcsc-lite
 perl
 perl-Bootloader
 perl-Business-ISBN
@@ -809,6 +824,7 @@ release-notes-openSUSE
 rpcbind
 rpm
 rpm-python
+rsvg2-sharp
 rsync
 rsyslog
 samba
@@ -872,6 +888,7 @@ terminus-font
 tightvnc
 timezone
 tk
+tomboy
 totem
 totem-browser-plugin
 totem-pl-parser
@@ -904,8 +921,10 @@ wdiff
 wget
 wireless-regdb
 wireless-tools
+wnck-sharp
 wodim
 wpa_supplicant
+wv
 wvdial
 wvstreams
 x11-input-fujitsu
@@ -1043,6 +1062,7 @@ yp-tools
 ypbind
 zd1211-firmware
 zenity
+zenity-lang
 zip
 zisofs-tools
 zlib
