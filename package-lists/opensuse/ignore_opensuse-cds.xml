@@ -1,4 +1,4 @@
-<lock package="alsa-plugins"/>
+<lock package="alsa-plugins"/>  <!-- !i586 -->
 <lock package="apparmor-admin_en"/>
 <lock package="apparmor-admin_en-pdf"/>
 <lock package="desktop-translations"/>
@@ -114,7 +114,7 @@
 <lock package="opensuse-gnomequick_de"/>
 <lock package="opensuse-kdequick_de"/>
 <lock package="graphviz"/>
-<lock package="OpenOffice_org-help-en-US"/>
+<lock package="OpenOffice_org-help-en-US"/>  <!-- !i586 -->
 <lock package="linux-kernel-headers"/>
 <lock package="lsb-buildenv"/>
 <lock package="libdvdnav"/>
@@ -152,4 +152,4 @@
 <lock package="bundle-lang-gnome-extras-zh"/>
 
 <lock package="gimp-help-browser"/>
-<lock package="gimp-plugins-python"/>
+<lock package="gimp-plugins-python"/>  <!-- !i586 -->
