@@ -128,6 +128,8 @@ cheese
 cifs-mount
 cm-unicode
 command-not-found
+compcache
+compcache-kmp-default
 compiz
 compiz-branding-openSUSE
 compiz-fusion-plugins-main
@@ -357,7 +359,6 @@ jfsutils
 jpackage-utils
 kbd
 kernel-default
-kernel-default-base
 keyutils
 keyutils-libs
 klogd
@@ -657,7 +658,6 @@ mono-web
 mono-winforms
 mono-zeroconf
 mono-zeroconf-provider-avahi
-monsoon
 mousetweaks
 mozilla-nspr
 mozilla-nss
@@ -709,7 +709,6 @@ opensuse-codecs-installer
 orbit2
 orca
 ozerocdoff
-padevchooser
 pam
 pam-config
 pam-modules
@@ -718,12 +717,10 @@ pam_fp
 pam_krb5
 pam_ldap
 pam_mount
-paman
 pango
 paprefs
 parted
 pavucontrol
-pavumeter
 pciutils
 pciutils-ids
 pcmciautils
@@ -777,6 +774,7 @@ pkg-config
 pm-profiler
 pm-utils
 podsleuth
+polkit
 polkit-default-privs
 polkit-gnome
 poppler-tools
@@ -913,6 +911,9 @@ translation-update-fr
 translation-update-it
 translation-update-pl
 translation-update-ru
+transmission
+transmission-gtk
+transmission-lang
 udev
 udev-configure-printer
 ulimit
@@ -920,6 +921,12 @@ unrar
 unscd
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 usb_modeswitch
 usbutils
 utempter
@@ -943,10 +950,8 @@ wvdial
 wvstreams
 x11-input-fujitsu
 x11-input-wacom
-x11-input-wacom-tools
 x11-tools
 xalan-j2
-xaw3d
 xchat
 xchat-perl
 xchat-python
@@ -993,7 +998,6 @@ xsane
 xscreensaver
 xstroke
 xterm
-xvkbd
 xz
 yast2
 yast2-add-on
