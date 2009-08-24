@@ -21,7 +21,7 @@ OpenOffice_org-draw
 OpenOffice_org-filters
 OpenOffice_org-gnome
 OpenOffice_org-help-en-US
-OpenOffice_org-icon-themes
+OpenOffice_org-icon-theme-tango
 OpenOffice_org-impress
 OpenOffice_org-l10n-de
 OpenOffice_org-l10n-es
@@ -179,6 +179,7 @@ dmidecode
 dmraid
 dnsmasq
 dosfstools
+droid-fonts
 dvb
 dvd+rw-tools
 e2fsprogs
@@ -187,9 +188,11 @@ ekiga
 elfutils
 enchant
 eog
+esound-daemon
 espeak
 ethtool
 evince
+evolution
 evolution-data-server
 evolution-sharp
 expat
@@ -305,6 +308,7 @@ groff
 grub
 gsf-sharp
 gstreamer-0_10
+gstreamer-0_10-libnice
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-schroedinger
@@ -330,6 +334,7 @@ gvfs-backends
 gvfs-fuse
 gzip
 hal
+hal-palm
 hdparm
 hicolor-icon-theme
 hunspell
@@ -483,6 +488,7 @@ libgsf-1-114
 libgssdp-1_0-1
 libgssglue1
 libgstapp-0_10-0
+libgstfarsight-0_10-0
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgthread-2_0-0
@@ -491,6 +497,7 @@ libgtop
 libgtop-2_0-7
 libgudev-1_0-0
 libgupnp-1_0-2
+libgupnp-igd-1_0-2
 libgvfscommon0
 libgweather
 libgweather1
@@ -500,7 +507,6 @@ libidl
 libidn
 libieee1284
 libiniparser0
-libiw-devel
 libiw30
 libjasper
 libjpeg
@@ -510,6 +516,7 @@ liblcms1
 libldap-2_4-2
 libldapcpp1
 liblirc_client0
+liblouis0
 liblpsolve55
 libltdl7
 liblua5_1
@@ -523,6 +530,7 @@ libncurses5
 libncurses6
 libneon27
 libnetpbm10
+libnice0
 libnl
 libnotify
 libnotify1
@@ -540,11 +548,14 @@ libpcap1
 libpciaccess0
 libpcre0
 libpcsclite1
+libpisock9
+libpisync1
 libpixman-1-0
 libpng12-0
 libpolkit0
 libpoppler-glib4
 libpoppler5
+libpopt0
 libppl7
 libppl_c2
 libproxy0
@@ -552,6 +563,7 @@ libproxy0-config-gnome
 libproxy0-networkmanager
 libproxy0-pacrunner-mozjs
 libproxy0-wpad-dns
+libpst4
 libpt2
 libpth20
 libpulse-browse0
@@ -576,6 +588,8 @@ libsexy
 libsigc++2
 libsilc-1_1-2
 libsilcclient-1_1-3
+libslab-lang
+libslab0
 libsmbclient0
 libsmbios-bin
 libsmbios2
@@ -672,7 +686,9 @@ nano
 nautilus
 nautilus-open-terminal
 nautilus-sendto
+nautilus-sendto-plugin-evolution
 nautilus-sendto-plugin-pidgin
+nautilus-sendto-plugin-upnp
 nautilus-share
 nautilus-totem
 ncurses-utils
@@ -778,7 +794,6 @@ polkit
 polkit-default-privs
 polkit-gnome
 poppler-tools
-popt
 postfix
 ppp
 pptp
