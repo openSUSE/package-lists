@@ -4,6 +4,11 @@ svn up
 
 diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
+   (cd osc/openSUSE\:Factory/_product/ && osc up)
+   : > output/opensuse/frozen.xml
+   for i in `grep "package name=" osc/openSUSE\:Factory/_product/FROZEN.group | cut -d\" -f2`; do
+      echo "<lock package='$i'/>" >> output/opensuse/frozen.xml
+   done
    cd testtrack/
    ./update_full.sh obs-i586 obs-x86_64 # obs-ppc
    #./update_full.sh head-i586 head-x86_64 head-ppc64 head-ia64 head-s390x
@@ -13,12 +18,6 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    ./unpack_patterns.sh $diffonly > patterns.log 2>&1
    echo "done"
    cd ..
-   internals=`pdb query --filter status:internal`
-   test -n "$internals" || exit 1
-
-   sh ./create_locks.sh $internals > output/pdb_internals.xml
-   sh ./create_locks.sh `pdb query --filter status:candidate` > output/pdb_candidates.xml
-   sh ./create_locks.sh `pdb query --filter status:frozen` > output/pdb_frozen.xml
    ./doit.sh
 fi
 
@@ -60,14 +59,6 @@ set -e
 #./check_size.sh output/sled-x86_64.list x86_64
 ) | tee sizes
 
-list=`(pdb query --filter status:production,ProdOnly:sles_only; pdb query --filter status:frozen; pdb query --filter status:internal) | LC_ALL=C sort -u`
-: > output/not_for_opensuse.list
-for i in $list; do 
-  test -f testtrack/full-obs-i586/susex/i586/$i.rpm || continue
-  echo $i >> output/not_for_opensuse.list
-done
-
-./mk_group.sh output/not_for_opensuse.list FROZEN osc/openSUSE\:Factory/_product/FROZEN.group drop_from_ftp
 ./mk_group.sh output/opensuse/dvd-ppc.list DVD-ppc osc/openSUSE\:Factory/_product/DVD5-ppc.group only_ppc
 ./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE\:Factory/_product/DVD5-i586.group only_i586
 ./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64

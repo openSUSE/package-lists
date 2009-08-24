@@ -1,15 +1,5 @@
 #!/bin/sh
 
-do_sled()
-{
-    ./gen.sh sled-1 || return 1
-    ./gen.sh sled-2 || return 1
-    for i in i586 x86_64 all; do
-      cat output/sled-1.$i.list output/sled-2.$i.list | LC_ALL=C sort -u > output/sled-$i.list
-    done
-    return 0
-}
-
 do_opensuse()
 {
     ./gen.sh opensuse/kde4_cd
@@ -34,7 +24,6 @@ do_opensuse()
        diff -u output/opensuse/gnome_cd.$arch.list output/opensuse/gnome_cd-default.$arch.list | grep -v +++ | grep ^+
     done
 
-
     for arch in i586 x86_64; do
       for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp kernel-default-base kernel-default-extra smolt virtualbox-ose-kmp-default ndiswrapper-kmp-default preload-kmp-default; do
 	for f in gnome_cd-default kde4_cd-default gnome_cd-x11-default kde4_cd-base-default; do
@@ -50,19 +39,5 @@ do_opensuse()
     return 0
 }
 
-do_sdk()
-{
-    ./sdk-prepare.sh
-    ./gen.sh sdk || return 1
-    ./gen.sh sdk-2 || return 1
-    ./sdk.sh
-    return 0
-}
-
-#do_sled 
-RET=0
 do_opensuse
-RET=$[ $? || $RET ]
-#do_sdk
-#RET=$[ $? || $RET ]
-exit $RET
+exit $?
