@@ -8,6 +8,7 @@
 <lock package="python-opengl"/> <!-- bug529056 -->
 <lock package="yast2-qt"/> <!-- bug529046 -->
 <lock package="smolt-gui"/>
+<lock package="esound-daemon"/> <!-- should use pulseaudio-compat -->
 
 <lock package="OpenOffice_org-icon-theme-andromeda"/>
 <lock package="OpenOffice_org-icon-theme-crystal"/>
