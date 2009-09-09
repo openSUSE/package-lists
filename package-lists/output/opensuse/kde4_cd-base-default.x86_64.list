@@ -7,6 +7,9 @@ a2ps
 aaa_base
 acl
 acpid
+alsa-oss-32bit
+alsa-plugins
+alsa-plugins-32bit
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -116,6 +119,8 @@ libadns1
 libaio
 libapparmor1
 libasm1
+libasound2
+libasound2-32bit
 libattr
 libaugeas0
 libavahi-client3
@@ -208,6 +213,7 @@ linux-atm-lib
 linux32
 login
 logrotate
+lsb-release
 lsscsi
 lukemftp
 lvm2
