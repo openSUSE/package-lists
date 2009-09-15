@@ -6,6 +6,7 @@ SuSEfirewall2
 a2ps
 aaa_base
 acl
+acpica
 acpid
 alsa-oss-32bit
 alsa-plugins
@@ -56,6 +57,7 @@ device-mapper
 dhcpcd
 diffutils
 dirmngr
+dmidecode
 dmraid
 dosfstools
 e2fsprogs
@@ -152,7 +154,6 @@ libgobject-2_0-0
 libgpg-error0
 libgssglue1
 libgthread-2_0-0
-libicu
 libidn
 libiw30
 libjpeg
@@ -214,6 +215,7 @@ linux32
 login
 logrotate
 lsb-release
+lsof
 lsscsi
 lukemftp
 lvm2
@@ -249,6 +251,13 @@ pam-config
 pam-modules
 pam_apparmor
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-sw_management
+patterns-openSUSE-update_test
+patterns-openSUSE-yast2_basis
+patterns-openSUSE-yast2_install_wf
 pciutils
 pciutils-ids
 pcre
@@ -400,6 +409,7 @@ yast2-ntp-client
 yast2-online-update
 yast2-online-update-frontend
 yast2-packager
+yast2-packager-webpin
 yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
