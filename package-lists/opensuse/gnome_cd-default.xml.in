@@ -24,6 +24,7 @@
     <install kind="package" name="openSUSE-release-ftp"/>
     <install kind="pattern" name="gnome"/>
     <lock kind="pattern" name="office"/>
+    <lock kind="package" name="patterns-openSUSE-office"/>
     <reportProblems/>
   </trial>
 </test>
