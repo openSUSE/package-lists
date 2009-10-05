@@ -143,6 +143,7 @@ cups-drivers
 cups-libs
 curl
 cyrus-sasl
+cyrus-sasl-32bit
 cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
@@ -196,8 +197,6 @@ freefont
 freeglut
 freetype2
 gawk
-gcc-gij
-gcc44-gij
 gconf2
 gd
 gdb
@@ -266,7 +265,6 @@ iputils
 irda
 irqbalance
 iw
-java-1_5_0-gcj-compat
 jfsutils
 jpackage-utils
 jpeg
@@ -321,6 +319,7 @@ kernel-desktop
 kernel-firmware
 keyutils
 keyutils-libs
+keyutils-libs-32bit
 kfind
 kgamma
 kget
@@ -354,6 +353,7 @@ korganizer
 kpartx
 kpat
 krb5
+krb5-32bit
 krb5-client
 krdc
 kreversi
@@ -409,11 +409,13 @@ libcdda_interface0
 libcdda_paranoia0
 libcloog0
 libcom_err2
+libcom_err2-32bit
 libcroco-0_6-3
 libcryptsetup0
 libcurl4
 libdaemon0
 libdb-4_5
+libdb-4_5-32bit
 libdjvulibre21
 libdns_sd
 libdrm
@@ -434,8 +436,6 @@ libfprint0
 libfreebl3
 libgadu
 libgcc44
-libgcj44
-libgcj44-jar
 libgcrypt11
 libgegl-0_0-0
 libggz2
@@ -467,6 +467,7 @@ libicu
 libidl
 libidn
 libieee1284
+libiniparser0
 libiw30
 libjasper
 libjpeg
@@ -487,6 +488,7 @@ libksba
 liblazy1
 liblcms1
 libldap-2_4-2
+libldap-2_4-2-32bit
 libldapcpp1
 libloudmouth-1-0
 liblpsolve55
@@ -515,6 +517,7 @@ libopenct1
 libopenraw1
 libopensc2
 libopenssl0_9_8
+libopenssl0_9_8-32bit
 libotr2
 libpackagekit-glib12
 libpcap1
@@ -569,9 +572,11 @@ libstorage
 libstrigi0
 libtag-extras0
 libtalloc1
+libtalloc1-32bit
 libtasn1
 libtasn1-3
 libtdb1
+libtdb1-32bit
 libtheora0
 libtidy
 libtiff3
@@ -807,6 +812,9 @@ rpm
 rpm-python
 rsync
 rsyslog
+samba
+samba-client
+samba-client-32bit
 sane-backends
 sane-backends-autoconfig
 satsolver-tools
@@ -1026,4 +1034,5 @@ zd1211-firmware
 zip
 zisofs-tools
 zlib
+zlib-32bit
 zypper
