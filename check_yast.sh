@@ -21,5 +21,6 @@ cat yast.list | while read yast pack; do
 done
 
 rm yast_packs.rec
+rm yast.list
 
 exit $ret
