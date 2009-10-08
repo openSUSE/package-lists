@@ -48,15 +48,10 @@ set -e
 ./check_yast.sh output/opensuse/dvd-x86_64.list __x86_64__
 ./check_yast.sh output/opensuse/dvd-ppc.list __powerpc__
 
-#./check_yast.sh output/sled-i586.list __i386__
-#./check_yast.sh output/sled-x86_64.list __x86_64__
-
 (
 ./check_size.sh output/opensuse/dvd-i586.list i586
 ./check_size.sh output/opensuse/dvd-x86_64.list x86_64
 ./check_size.sh output/opensuse/dvd-ppc.list ppc
-#./check_size.sh output/sled-i586.list i586
-#./check_size.sh output/sled-x86_64.list x86_64
 ) | tee sizes
 
 ./mk_group.sh output/opensuse/dvd-ppc.list DVD-ppc osc/openSUSE\:Factory/_product/DVD5-ppc.group only_ppc
@@ -78,8 +73,7 @@ fi
 (cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
 (cd osc/openSUSE:Factory:Live/package-lists-openSUSE; osc up -e; cp /package_lists/filelists.tar.bz2 .; osc ci -m "update from desdemona" .)
-#./sled.sh > /package_lists/purely_for_behlert
 
-svn commit -m "auto commit"
+git commit -m "auto commit" -a
 echo "all done"
 
