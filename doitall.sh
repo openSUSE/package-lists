@@ -76,4 +76,5 @@ fi
 
 git commit -m "auto commit" -a
 echo "all done"
+git push
 
