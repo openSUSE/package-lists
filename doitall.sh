@@ -1,6 +1,6 @@
 #! /bin/sh
 
-svn up
+git pull
 
 diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
