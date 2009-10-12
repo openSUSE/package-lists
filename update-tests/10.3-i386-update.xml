@@ -8,7 +8,6 @@
 </setup>
 <trial>
   <!-- DROPS -->
-  <lock package="gnome2-NLD"/>
   <install kind="product" name="openSUSE-fulltree" />
   <uninstall kind="package" name="agfa-fonts"/>
   <lock kind="package" name="agfa-fonts"/>
