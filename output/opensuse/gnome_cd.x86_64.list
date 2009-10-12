@@ -162,6 +162,7 @@ cups-libs
 cups-pk-helper
 curl
 cyrus-sasl
+cyrus-sasl-32bit
 cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
@@ -371,9 +372,11 @@ kernel-desktop
 kernel-firmware
 keyutils
 keyutils-libs
+keyutils-libs-32bit
 klogd
 kpartx
 krb5
+krb5-32bit
 krb5-client
 lcms
 less
@@ -425,12 +428,14 @@ libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
 libcolorblind0
 libcom_err2
+libcom_err2-32bit
 libcompizconfig
 libcroco-0_6-3
 libcryptsetup0
 libcurl4
 libdaemon0
 libdb-4_5
+libdb-4_5-32bit
 libdjvulibre21
 libdns_sd
 libdrm
@@ -521,6 +526,7 @@ libksba
 liblazy1
 liblcms1
 libldap-2_4-2
+libldap-2_4-2-32bit
 libldapcpp1
 liblirc_client0
 liblouis0
@@ -551,6 +557,7 @@ libopenct1
 libopenraw1
 libopensc2
 libopenssl0_9_8
+libopenssl0_9_8-32bit
 libpackagekit-glib12
 libpangomm-1_4-1
 libpcap1
@@ -719,6 +726,7 @@ notify-sharp
 nss-mdns
 nss-mdns-32bit
 nss_ldap
+nss_ldap-32bit
 ntfs-3g
 ntfsprogs
 ntp
@@ -737,6 +745,7 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
+opensuse-manuals_de-pdf
 openvpn
 orbit2
 orca
@@ -1141,4 +1150,5 @@ zenity
 zip
 zisofs-tools
 zlib
+zlib-32bit
 zypper

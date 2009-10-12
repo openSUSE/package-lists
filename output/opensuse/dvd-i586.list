@@ -555,10 +555,6 @@ docbook_5
 dolphin
 dos2unix
 dosfstools
-dovecot11
-dovecot11-backend-mysql
-dovecot11-backend-pgsql
-dovecot11-backend-sqlite
 doxygen
 dragonplayer
 drbd-kmp-default
@@ -1810,7 +1806,7 @@ libppl7
 libppl_c2
 libproxy0
 libproxy0-config-gnome
-libproxy0-config-kde
+libproxy0-config-kde4
 libproxy0-networkmanager
 libproxy0-pacrunner-mozjs
 libproxy0-wpad-dns
@@ -2205,7 +2201,8 @@ openssh-askpass
 openssl
 openssl-certs
 opensuse-codecs-installer
-opensuse-kdequick_de
+opensuse-manuals_de
+opensuse-manuals_de-pdf
 opensuse-manuals_en
 opensuse-manuals_en-pdf
 openvpn
@@ -2284,7 +2281,6 @@ patterns-openSUSE-gnome_multimedia_opt
 patterns-openSUSE-gnome_office
 patterns-openSUSE-gnome_office_opt
 patterns-openSUSE-gnome_utilities
-patterns-openSUSE-gnome_utilities_opt
 patterns-openSUSE-gnome_xgl
 patterns-openSUSE-gnome_yast
 patterns-openSUSE-imaging
@@ -2473,6 +2469,7 @@ perl-NetAddr-IP
 perl-NetxAP
 perl-PDA-Pilot
 perl-PDL
+perl-Pango
 perl-Params-Validate
 perl-Parse-RecDescent
 perl-Parse-Yapp
