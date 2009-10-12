@@ -29,8 +29,6 @@ done
 zcat full-obs-i586/*-package.xml.gz | fgrep -v '<vendor>' > full-obs-i586/1-package.xml
 zcat full-obs-x86_64/*-package.xml.gz | fgrep -v '<vendor>' > full-obs-x86_64/1-package.xml
 
-exit 0
-
 for i in *-update.xml; do 
   echo $i
   out=`./update.sh $i`

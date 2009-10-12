@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="x86_64">
+    <system file="11.1-x86_64-system.xml.gz"/>
+    <channel file="full-obs-x86_64/1-package.xml" name="factory"/>
+    <locale name="de_DE"/>
+    <locale name="de"/>
+  </setup>
+  <trial>
+    <!-- DROPS -->
+    <lock package="gnome2-NLD"/>
+    <install kind="product" name="openSUSE-fulltree"/>
+    <!-- can't have it on FTP -->
+    <distupgrade/>
+    <reportproblems/>
+  </trial>
+</test>
