@@ -89,7 +89,6 @@ awesfx
 b43-fwcutter
 bash
 bc
-bea-stax
 bea-stax-api
 bind-libs
 bind-utils
@@ -262,6 +261,7 @@ iptables
 iputils
 irda
 iw
+java-1_6_0-openjdk
 jfsutils
 jpackage-utils
 jpeg
@@ -413,6 +413,7 @@ libdns_sd
 libdrm
 libdvdread4
 libdw1
+libebl1
 libeggdbus-1-0
 libelf1
 libenchant1
@@ -762,7 +763,6 @@ pm-utils
 polkit
 polkit-default-privs
 polkit-gnome
-polkit-gnome-lang
 poppler-tools
 postfix
 ppp
@@ -795,6 +795,7 @@ quota
 recode
 reiserfs
 release-notes-openSUSE
+rhino
 rpcbind
 rpm
 rpm-python
@@ -809,7 +810,6 @@ sax2-ident
 sax2-libsax
 sax2-libsax-perl
 sax2-tools
-saxon8
 sbl
 scout
 scpm
@@ -845,16 +845,17 @@ suspend
 sweeper
 sysconfig
 sysfsutils
+systemtap
 systemtap-runtime
 sysvinit
 taglib
-taglib-extras
 tar
 tcpd
 terminfo-base
 terminus-font
 tightvnc
 timezone
+timezone-java
 translation-update
 translation-update-de
 translation-update-es
@@ -905,6 +906,7 @@ xfsdump
 xfsprogs
 xinetd
 xkeyboard-config
+xmlbeans
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input

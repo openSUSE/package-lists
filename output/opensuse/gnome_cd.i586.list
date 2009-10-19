@@ -92,10 +92,12 @@ banshee-1
 banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
+banshee-1-client-classic
+banshee-1-core
 banshee-1-extensions-default
+banshee-1-lang
 bash
 bc
-bea-stax
 bea-stax-api
 beagle
 beagle-evolution
@@ -104,7 +106,6 @@ bind-libs
 bind-utils
 bluez
 bluez-firmware
-boo
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -280,11 +281,13 @@ gnome-keyring-sharp
 gnome-mag
 gnome-main-menu
 gnome-media
+gnome-media-lang
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-mount
 gnome-nettool
 gnome-packagekit
+gnome-packagekit-lang
 gnome-panel
 gnome-panel-sharp
 gnome-phone-manager
@@ -361,6 +364,7 @@ iputils
 irda
 iso-codes
 iw
+java-1_6_0-openjdk
 jfsutils
 jpackage-utils
 kbd
@@ -431,6 +435,7 @@ libdjvulibre21
 libdns_sd
 libdrm
 libdw1
+libebl1
 libeggdbus-1-0
 libelf1
 libenchant1
@@ -527,7 +532,6 @@ liblzma0
 liblzo2-2
 libmng
 libmpfr1
-libmtp8
 libmysqlclient_r16
 libncurses5
 libncurses6
@@ -824,7 +828,6 @@ pkcs11-helper
 pkg-config
 pm-profiler
 pm-utils
-podsleuth
 polkit
 polkit-default-privs
 polkit-gnome
@@ -882,6 +885,7 @@ rarian
 recode
 reiserfs
 release-notes-openSUSE
+rhino
 rpcbind
 rpm
 rpm-python
@@ -900,7 +904,6 @@ sax2-ident
 sax2-libsax
 sax2-libsax-perl
 sax2-tools
-saxon8
 sbl
 scout
 scpm
@@ -936,6 +939,7 @@ suspend
 sysconfig
 sysfsutils
 system-config-printer
+systemtap
 systemtap-runtime
 sysvinit
 t1lib
@@ -949,6 +953,7 @@ terminfo-base
 terminus-font
 tightvnc
 timezone
+timezone-java
 tomboy
 totem
 totem-browser-plugin
@@ -1016,6 +1021,7 @@ xfsdump
 xfsprogs
 xinetd
 xkeyboard-config
+xmlbeans
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input

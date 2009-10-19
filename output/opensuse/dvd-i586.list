@@ -22,6 +22,7 @@ ImageMagick
 ImageMagick-devel
 KhmerOS-fonts
 LibVNCServer
+LinuxLibertine
 Mesa
 Mesa-devel
 ModemManager
@@ -224,10 +225,6 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-apport
-apport-crashdb-opensuse
-apport-gtk
-apport-qt
 aqbanking
 aria2
 ark
@@ -290,12 +287,14 @@ banshee-1
 banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
+banshee-1-client-classic
+banshee-1-core
 banshee-1-extensions-default
+banshee-1-lang
 bash
 bash-doc
 bc
 bcel
-bea-stax
 bea-stax-api
 beagle
 beagle-evolution
@@ -773,6 +772,7 @@ gnome-desktop-devel
 gnome-desktop-sharp2
 gnome-do
 gnome-do-plugins
+gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-docker
@@ -788,12 +788,14 @@ gnome-mag
 gnome-main-menu
 gnome-media
 gnome-media-devel
+gnome-media-lang
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mount
 gnome-nettool
 gnome-packagekit
+gnome-packagekit-lang
 gnome-panel
 gnome-panel-sharp
 gnome-phone-manager
@@ -957,6 +959,7 @@ initviocons
 inkscape
 inkscape-extensions-dia
 inkscape-extensions-extra
+inkscape-extensions-fig
 inkscape-extensions-gimp
 inn
 input-utils
@@ -1869,6 +1872,7 @@ libsigc++2
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslab-devel
+libslab-lang
 libslab0
 libsmbclient-devel
 libsmbclient0
@@ -2087,6 +2091,7 @@ mozilla-xulrunner191-kde4
 mozilla-xulrunner191-translations-common
 mpfr-devel
 mpi-selector
+mplus-fonts
 mpt-firmware
 mpt-status
 mrtg
@@ -2208,6 +2213,7 @@ opensuse-manuals_en-pdf
 openvpn
 opie
 oprofile
+optipng
 orage
 orbit
 orbit2
@@ -2646,7 +2652,6 @@ psiconv
 psmisc
 pstoedit
 psutils
-ptools
 pullin-flash-player
 pullin-msttf-fonts
 pulseaudio
@@ -2698,7 +2703,6 @@ python-logilab-astng
 python-logilab-common
 python-louis
 python-lxml
-python-m2crypto
 python-mako
 python-notify
 python-numpy
@@ -2728,7 +2732,6 @@ python-wxGTK
 python-xdg
 python-xml
 python-zopeinterface
-python-zypp
 pyxml
 qemu
 qinternet
@@ -2799,7 +2802,6 @@ sax2-libsax
 sax2-libsax-perl
 sax2-tools
 saxon
-saxon8
 sazanami-fonts
 sbl
 scim
@@ -2908,6 +2910,7 @@ subversion-tools
 sudo
 sumf
 suseRegister
+susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -2930,7 +2933,6 @@ sysvinit
 t1lib
 tack
 taglib
-taglib-extras
 taglib-sharp
 tango-icon-theme
 tar
@@ -3005,6 +3007,7 @@ totem-browser-plugin
 totem-pl-parser
 totem-plugins
 trang
+transfig
 translation-update
 translation-update-cs
 translation-update-de
