@@ -225,6 +225,10 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+apport
+apport-crashdb-opensuse
+apport-gtk
+apport-qt
 aqbanking
 aria2
 ark
@@ -290,7 +294,6 @@ banshee-1-backend-platform-unix
 banshee-1-client-classic
 banshee-1-core
 banshee-1-extensions-default
-banshee-1-lang
 bash
 bash-doc
 bc
@@ -456,7 +459,6 @@ compiz
 compiz-branding-openSUSE
 compiz-fusion-plugins-main
 compiz-gnome
-compiz-kde4
 compiz-manager
 compizconfig-settings-manager
 convert
@@ -772,7 +774,6 @@ gnome-desktop-devel
 gnome-desktop-sharp2
 gnome-do
 gnome-do-plugins
-gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-docker
@@ -788,14 +789,12 @@ gnome-mag
 gnome-main-menu
 gnome-media
 gnome-media-devel
-gnome-media-lang
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mount
 gnome-nettool
 gnome-packagekit
-gnome-packagekit-lang
 gnome-panel
 gnome-panel-sharp
 gnome-phone-manager
@@ -976,6 +975,7 @@ ipsec-tools
 iptables
 iptraf
 iputils
+ipw-firmware
 irda
 irssi
 iscan-free
@@ -1244,6 +1244,7 @@ kiwi-desc-usbboot
 kiwi-desc-vmxboot
 kiwi-desc-xenboot
 kiwi-pxeboot
+kiwi-templates
 kiwi-tools
 kjots
 kjumpingcube
@@ -1872,7 +1873,6 @@ libsigc++2
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslab-devel
-libslab-lang
 libslab0
 libsmbclient-devel
 libsmbclient0
@@ -2324,7 +2324,6 @@ patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-sw_management_kde4
 patterns-openSUSE-tabletpc
 patterns-openSUSE-technical_writing
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_opt
 patterns-openSUSE-x11_yast
@@ -2652,6 +2651,7 @@ psiconv
 psmisc
 pstoedit
 psutils
+ptools
 pullin-flash-player
 pullin-msttf-fonts
 pulseaudio
@@ -2703,6 +2703,7 @@ python-logilab-astng
 python-logilab-common
 python-louis
 python-lxml
+python-m2crypto
 python-mako
 python-notify
 python-numpy
@@ -2732,6 +2733,7 @@ python-wxGTK
 python-xdg
 python-xml
 python-zopeinterface
+python-zypp
 pyxml
 qemu
 qinternet
@@ -3024,7 +3026,6 @@ translation-update-pt
 translation-update-pt_BR
 translation-update-ru
 transmission-common
-transmission-common-lang
 transmission-gtk
 treeline
 tsclient
@@ -3062,12 +3063,6 @@ unscd
 unzip
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 usb_modeswitch
 usbutils
 utempter
@@ -3106,7 +3101,6 @@ w3m
 w3m-el
 w3m-el-xemacs
 wacom-kmp-default
-wacom-kmp-desktop
 wdiff
 webkit-sharp
 wget

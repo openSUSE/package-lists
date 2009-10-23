@@ -95,7 +95,6 @@ banshee-1-backend-platform-unix
 banshee-1-client-classic
 banshee-1-core
 banshee-1-extensions-default
-banshee-1-lang
 bash
 bc
 bea-stax-api
@@ -203,7 +202,6 @@ evince
 evolution
 evolution-data-server
 evolution-sharp
-expat
 f-spot
 fam
 fbset
@@ -269,7 +267,6 @@ gnome-desktop
 gnome-desktop-sharp2
 gnome-do
 gnome-do-plugins
-gnome-do-plugins-lang
 gnome-doc-utils
 gnome-docker
 gnome-games
@@ -281,13 +278,11 @@ gnome-keyring-sharp
 gnome-mag
 gnome-main-menu
 gnome-media
-gnome-media-lang
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-mount
 gnome-nettool
 gnome-packagekit
-gnome-packagekit-lang
 gnome-panel
 gnome-panel-sharp
 gnome-phone-manager
@@ -361,6 +356,7 @@ insserv
 iproute2
 iptables
 iputils
+ipw-firmware
 irda
 iso-codes
 iw
@@ -596,7 +592,6 @@ libsexy
 libsigc++2
 libsilc-1_1-2
 libsilcclient-1_1-3
-libslab-lang
 libslab0
 libsmbclient0
 libsmbios-bin
@@ -769,7 +764,6 @@ patterns-openSUSE-non_oss
 patterns-openSUSE-office
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_gnome
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-xgl
 patterns-openSUSE-yast2_basis
@@ -967,7 +961,6 @@ translation-update-it
 translation-update-pl
 translation-update-ru
 transmission-common
-transmission-common-lang
 transmission-gtk
 udev
 udev-configure-printer
@@ -976,12 +969,6 @@ unrar
 unscd
 unzip
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 usb_modeswitch
 usbutils
 utempter

@@ -180,7 +180,6 @@ enchant
 esound-daemon
 espeak
 ethtool
-expat
 fam
 fbset
 file
@@ -260,6 +259,7 @@ insserv
 iproute2
 iptables
 iputils
+ipw-firmware
 irda
 irqbalance
 iw
@@ -704,7 +704,6 @@ patterns-openSUSE-non_oss
 patterns-openSUSE-office
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde4
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -869,12 +868,6 @@ unrar
 unscd
 unzip
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 usb_modeswitch
 usbutils
 utempter
