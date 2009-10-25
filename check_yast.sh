@@ -3,9 +3,8 @@ svn cat http://svn.opensuse.org/svn/yast/trunk/extra-packages > yast_packs.rec
 
 ret=0
 archs=$2
-test -n "$archs" || archs="__x86_64__ __i386__ __ppc__ __ppc64__"
+test -n "$archs" || archs="__x86_64__ __i386__"
 
-# __ia64__ __s390__ __s390x__
 (
 for i in $archs; do
   cpp -E -U__i386__ -U__x86_64__ -Ulinux -D$i yast_packs.rec  | grep -v '^#' | grep -v '^ '
