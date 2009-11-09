@@ -152,6 +152,7 @@ libgpg-error0
 libgssglue1
 libgthread-2_0-0
 libidn
+libiniparser0
 libiw30
 libjpeg
 libksba
@@ -181,7 +182,6 @@ libpth20
 libpython2_6-1_0
 libreadline6
 libreiserfs
-librpcsecgss
 libselinux1
 libsqlite3-0
 libstdc++44
@@ -190,6 +190,7 @@ libtalloc1
 libtdb1
 libtiff3
 libtirpc1
+libudev0
 libusb-0_1-4
 libusb-1_0-0
 libuuid1
@@ -220,7 +221,6 @@ mailx
 man
 master-boot-code
 mdadm
-mhash
 microcode_ctl
 mingetty
 mkinitrd
@@ -314,9 +314,9 @@ rpcbind
 rpm
 rpm-python
 rsyslog
+samba-client
 satsolver-tools
 scout
-scpm
 sed
 setserial
 sg3_utils
@@ -398,7 +398,6 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
-yast2-profile-manager
 yast2-registration
 yast2-registration-branding-openSUSE
 yast2-repair

@@ -4,9 +4,9 @@ git pull
 
 diffonly=$1
 if test -z "$diffonly" || test -d "$diffonly"; then
-   (cd osc/openSUSE\:11.2/_product/ && osc up)
+   (cd osc/openSUSE\:Factory/_product/ && osc up)
    : > output/opensuse/frozen.xml
-   for i in `grep "package name=" osc/openSUSE\:11.2/_product/FROZEN.group | cut -d\" -f2`; do
+   for i in `grep "package name=" osc/openSUSE\:Factory/_product/FROZEN.group | cut -d\" -f2`; do
       echo "<lock package='$i'/>" >> output/opensuse/frozen.xml
    done
    cd testtrack/
@@ -49,17 +49,17 @@ set -e
 ./check_size.sh output/opensuse/dvd-x86_64.list x86_64
 ) | tee sizes
 
-./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE\:11.2/_product/DVD5-i586.group only_i586
-./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE\:11.2/_product/DVD5-x86_64.group only_x86_64
-./mk_group.sh output/opensuse/promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:11.2/_product/DVD5-promo-i386.group only_i586
-./mk_group.sh output/opensuse/promo_dvd.x86_64.list REST-DVD-promo-x86_64 osc/openSUSE\:11.2/_product/DVD5-promo-x86_64.group only_x86_64
-./mk_group.sh output/opensuse/langaddon-all.list REST-DVD osc/openSUSE\:11.2/_product/DVD5-lang.group
-( cd osc/openSUSE\:11.2/_product/ && osc ci -m "auto update" )
+./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE\:Factory/_product/DVD5-i586.group only_i586
+./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
+./mk_group.sh output/opensuse/promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group only_i586
+./mk_group.sh output/opensuse/promo_dvd.x86_64.list REST-DVD-promo-x86_64 osc/openSUSE\:Factory/_product/DVD5-promo-x86_64.group only_x86_64
+./mk_group.sh output/opensuse/langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
+( cd osc/openSUSE\:Factory/_product/ && osc ci -m "auto update" )
 
 ./mk_group.sh output/opensuse/x11_cd.x86_64.list DVD osc/system:install:head/_product/DVD.group
 (cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
-(cd osc/openSUSE:11.2:Live/package-lists-openSUSE; osc up -e; cp /package_lists/filelists.tar.bz2 .; osc ci -m "update from desdemona" .)
+(cd osc/openSUSE:Factory:Live/package-lists-openSUSE; osc up -e; cp /package_lists/filelists.tar.bz2 .; osc ci -m "update from desdemona" .)
 
 git commit -m "auto commit" -a
 echo "all done"

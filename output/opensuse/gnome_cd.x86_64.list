@@ -19,30 +19,7 @@ NetworkManager-pptp-gnome
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 OpenEXR
-OpenOffice_org
-OpenOffice_org-branding-openSUSE
-OpenOffice_org-calc
-OpenOffice_org-components
-OpenOffice_org-draw
-OpenOffice_org-filters
-OpenOffice_org-gnome
-OpenOffice_org-help-en-US
 OpenOffice_org-icon-theme-tango
-OpenOffice_org-impress
-OpenOffice_org-l10n-de
-OpenOffice_org-l10n-es
-OpenOffice_org-l10n-extras
-OpenOffice_org-l10n-fr
-OpenOffice_org-l10n-it
-OpenOffice_org-l10n-pl
-OpenOffice_org-l10n-ru
-OpenOffice_org-libs-core
-OpenOffice_org-libs-extern
-OpenOffice_org-libs-gui
-OpenOffice_org-templates-labels-a4
-OpenOffice_org-templates-labels-letter
-OpenOffice_org-ure
-OpenOffice_org-writer
 PackageKit
 PolicyKit
 PolicyKit-gnome
@@ -55,6 +32,7 @@ acl
 acpica
 acpid
 adaptec-firmware
+aisleriot
 alsa
 alsa-firmware
 alsa-oss
@@ -75,7 +53,8 @@ aspell-it
 aspell-pl
 aspell-ru
 at-spi
-atk
+at-spi2-atk
+at-spi2-core
 atmel-firmware
 attr
 audiofile
@@ -129,7 +108,6 @@ cabextract
 cairo
 cairomm
 cdrkit-cdrtools-compat
-check
 checkmedia
 cheese
 cifs-mount
@@ -139,9 +117,9 @@ compcache
 compcache-kmp-desktop
 compiz
 compiz-branding-openSUSE
-compiz-fusion-plugins-main
 compiz-gnome
 compiz-manager
+compiz-plugins-main
 compizconfig-settings-manager
 coreutils
 cpio
@@ -200,8 +178,11 @@ ethtool
 evince
 evolution
 evolution-data-server
+evolution-mono-plugins
+evolution-python-plugins
 evolution-sharp
 f-spot
+f-spot-extension-beagle
 fam
 fbset
 fifth-leg-font
@@ -222,6 +203,8 @@ fuse
 gawk
 gcalctool
 gconf-editor
+gconf-polkit
+gconf-sanity-check
 gconf-sharp2
 gconf2
 gconf2-branding-openSUSE
@@ -237,8 +220,6 @@ genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
-ggz
-ggz-client-libs
 ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
@@ -248,6 +229,7 @@ gimp
 gimp-branding-openSUSE
 gir-repository
 glade-sharp2
+glchess
 glib-sharp2
 glib2
 glib2-branding-openSUSE
@@ -256,7 +238,11 @@ glibc-32bit
 glibc-locale
 glibc-locale-32bit
 glibmm2
+glines
 gmime-sharp
+gnect
+gnibbles
+gnobots2
 gnokii
 gnome-applets
 gnome-applets-colorblind
@@ -270,6 +256,7 @@ gnome-do-plugins
 gnome-doc-utils
 gnome-docker
 gnome-games
+gnome-games-support
 gnome-icon-theme
 gnome-js-common
 gnome-keyring
@@ -294,13 +281,18 @@ gnome-settings-daemon
 gnome-sharp2
 gnome-speech
 gnome-spell2
+gnome-sudoku
 gnome-system-monitor
 gnome-terminal
 gnome-themes
+gnome-user-docs
 gnome-utils
 gnome-vfs-sharp2
 gnome-vfs2
 gnome-web-photo
+gnomine
+gnotravex
+gnotski
 gnutls
 gpart
 gpg2
@@ -317,6 +309,7 @@ gstreamer-0_10-plugins-good
 gstreamer-0_10-schroedinger
 gstreamer-0_10-utils
 gstreamer-utils
+gtali
 gtk-sharp2
 gtk2
 gtk2-branding-openSUSE
@@ -342,6 +335,7 @@ hicolor-icon-theme
 hunspell
 hunspell-tools
 hwinfo
+iagno
 icedax
 icewm
 icewm-lite
@@ -361,7 +355,6 @@ irqbalance
 iso-codes
 iw
 jfsutils
-jpackage-utils
 kbd
 kernel-desktop
 kernel-firmware
@@ -374,7 +367,7 @@ krb5-client
 lcms
 less
 libFLAC8
-libHX18
+libHX22
 libMagickCore2
 libSDL-1_2-0
 libacl
@@ -436,7 +429,6 @@ libenchant1
 liberation-fonts
 libesd0
 libevent-1_4-2
-libevoldap-2_4-2
 libexempi3
 libexif
 libexpat1
@@ -447,13 +439,13 @@ libfreebl3
 libfuse2
 libgail-gnome
 libgcc44
+libgcr0
 libgcrypt11
-libgdata5
+libgdata6
 libgdiplus0
 libgdu0
 libgegl-0_0-0
 libgeoclue0
-libggz2
 libgimpprint
 libgio-2_0-0
 libgio-fam
@@ -471,6 +463,7 @@ libgmpxx4
 libgnome
 libgnome-bluetooth7
 libgnome-desktop-2-11
+libgnome-keyring0
 libgnome-menu2
 libgnome-window-settings1
 libgnomecanvas
@@ -484,6 +477,8 @@ libgnomeui
 libgnutls26
 libgobject-2_0-0
 libgomp44
+libgp11-0
+libgp11-modules
 libgpg-error0
 libgphoto2
 libgsf-1-114
@@ -494,12 +489,13 @@ libgstfarsight-0_10-0
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgthread-2_0-0
+libgtkimageview0
 libgtksourceview-2_0-0
 libgtop
 libgtop-2_0-7
 libgudev-1_0-0
 libgupnp-1_0-3
-libgupnp-igd-1_0-2
+libgupnp-igd-1_0-3
 libgvfscommon0
 libgweather
 libgweather1
@@ -518,8 +514,7 @@ liblcms1
 libldap-2_4-2
 libldapcpp1
 liblirc_client0
-liblouis0
-liblpsolve55
+liblouis2
 libltdl7
 liblua5_1
 liblzma0
@@ -530,7 +525,6 @@ libmysqlclient_r16
 libncurses5
 libncurses5-32bit
 libncurses6
-libneon27
 libnetpbm10
 libnice0
 libnl
@@ -582,7 +576,6 @@ libqt4-sql-mysql
 libqt4-x11
 libreadline6
 libreiserfs
-librpcsecgss
 librsvg
 libsamplerate
 libschroedinger-1_0-0
@@ -623,8 +616,6 @@ libwbclient0
 libwebkit-1_0-2
 libwmf
 libwnck-1-22
-libwpd-0_8-8
-libwps-0_1-1
 libx86
 libx86emu1
 libxcrypt
@@ -636,6 +627,7 @@ libzio
 libzypp
 licenses
 liferea
+lightsoff
 limal
 limal-ca-mgm
 limal-ca-mgm-perl
@@ -654,6 +646,7 @@ lsof
 lsscsi
 lukemftp
 lvm2
+mahjongg
 mailx
 man
 master-boot-code
@@ -661,7 +654,6 @@ mc
 mdadm
 memtest86+
 metacity
-mhash
 microcode_ctl
 mingetty
 mkinitrd
@@ -678,15 +670,16 @@ mono-zeroconf-provider-avahi
 mousetweaks
 mozilla-nspr
 mozilla-nss
-mozilla-xulrunner191
-mozilla-xulrunner191-gnomevfs
-mozilla-xulrunner191-translations-common
+mozilla-nss-certs
+mozilla-xulrunner192
+mozilla-xulrunner192-gnome
+mozilla-xulrunner192-translations-common
 mpt-firmware
 mtools
 multipath-tools
-myspell-american
 nano
 nautilus
+nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
 nautilus-sendto-plugin-evolution
@@ -699,7 +692,6 @@ ndesk-dbus
 ndesk-dbus-glib
 ndiswrapper
 ndiswrapper-kmp-desktop
-neon
 net-tools
 netcat
 netcfg
@@ -822,6 +814,7 @@ pkcs11-helper
 pkg-config
 pm-profiler
 pm-utils
+pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-gnome
@@ -845,6 +838,7 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pwdutils
 python
+python-atspi
 python-base
 python-cairo
 python-coherence
@@ -874,6 +868,7 @@ python-twisted
 python-urlgrabber
 python-xml
 python-zopeinterface
+quadrapassel
 quota
 rarian
 recode
@@ -899,7 +894,6 @@ sax2-libsax-perl
 sax2-tools
 sbl
 scout
-scpm
 sed
 seed
 setserial
@@ -929,6 +923,7 @@ susehelp_es
 susehelp_fr
 susehelp_it
 suspend
+swell-foop
 sysconfig
 sysfsutils
 system-config-printer
@@ -991,7 +986,6 @@ wvstreams
 x11-input-fujitsu
 x11-input-wacom
 x11-tools
-xalan-j2
 xchat
 xchat-perl
 xchat-python
@@ -999,8 +993,6 @@ xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
-xerces-j2
-xerces-j2-xml-apis
 xfsdump
 xfsprogs
 xinetd
@@ -1081,7 +1073,6 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
-yast2-profile-manager
 yast2-registration
 yast2-registration-branding-openSUSE
 yast2-repair
