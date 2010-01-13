@@ -129,7 +129,7 @@ libblocxx6
 libbz2-1
 libcap2
 libcom_err2
-libcryptsetup0
+libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
@@ -152,7 +152,6 @@ libgpg-error0
 libgssglue1
 libgthread-2_0-0
 libidn
-libiniparser0
 libiw30
 libjpeg
 libksba
@@ -279,7 +278,6 @@ perl-URI
 perl-WWW-Curl
 perl-X500-DN
 perl-XML-LibXML
-perl-XML-LibXML-Common
 perl-XML-NamespaceSupport
 perl-XML-Parser
 perl-XML-SAX
@@ -314,7 +312,6 @@ rpcbind
 rpm
 rpm-python
 rsyslog
-samba-client
 satsolver-tools
 scout
 sed
@@ -338,6 +335,12 @@ ulimit
 unscd
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 usbutils
 utempter
 util-linux

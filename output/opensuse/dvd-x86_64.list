@@ -269,7 +269,6 @@ aspell-sv
 at
 at-spi
 at-spi-32bit
-at-spi-devel
 at-spi2-atk
 at-spi2-core
 atftp
@@ -316,6 +315,7 @@ beagle-evolution
 beagle-firefox
 beagle-gui
 beagle-index
+beaver
 bin86
 bind
 bind-chrootenv
@@ -341,6 +341,7 @@ bluez-gnome
 bluez-hcidump
 bogofilter
 boo
+boo-2_0_9_3
 boost-devel
 boost-jam
 boost-license1_39_0
@@ -471,7 +472,6 @@ command-not-found
 compcache
 compcache-kmp-default
 compcache-kmp-desktop
-compcache-kmp-xen
 compiz
 compiz-branding-openSUSE
 compiz-gnome
@@ -585,9 +585,6 @@ dos2unix
 dosfstools
 doxygen
 dragonplayer
-drbd-kmp-default
-drbd-kmp-desktop
-drbd-kmp-xen
 droid-fonts
 dvb
 dvd+rw-tools
@@ -617,6 +614,7 @@ epiphany-devel
 epiphany-doc
 epiphany-extensions
 epiphany-extensions-lang
+epiphany-lang
 eric
 esound-daemon
 espeak
@@ -642,6 +640,7 @@ f-spot-extension-beagle
 fam
 fam-32bit
 fam-devel
+fam-server
 fbiterm
 fbset
 fdupes
@@ -692,6 +691,7 @@ fvwm-themes
 fvwm2
 fxload
 g3utils
+galculator
 gawk
 gc
 gcal
@@ -737,7 +737,6 @@ gdm-branding-openSUSE
 gedit
 gegl-0_0
 genisoimage
-geoclue-gpsd
 geronimo-j2ee-1_4-apis
 geronimo-specs-poms
 gettext-runtime
@@ -811,6 +810,7 @@ glitz
 glitz-devel
 gltt
 gmime-sharp
+gmixer
 gmp-devel
 gmp-devel-32bit
 gnect
@@ -865,7 +865,6 @@ gnome-print-sharp
 gnome-python-desktop
 gnome-screensaver
 gnome-session
-gnome-session-gtk1-support
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
@@ -907,9 +906,9 @@ gperf
 gpg2
 gpgme
 gphoto
+gpicview
 gpm
 gpm-32bit
-gpsd
 graphviz
 graphviz-devel
 graphviz-gd
@@ -937,6 +936,7 @@ gstreamer-0_10-utils
 gstreamer-utils
 gtali
 gthumb
+gthumb-lang
 gtk
 gtk-doc
 gtk-sharp2
@@ -1056,9 +1056,6 @@ irda
 irqbalance
 irssi
 iscan-free
-iscsitarget-kmp-default
-iscsitarget-kmp-desktop
-iscsitarget-kmp-xen
 isns
 iso-codes
 iso-codes-devel
@@ -1276,8 +1273,6 @@ kernel-docs
 kernel-firmware
 kernel-source
 kernel-syms
-kernel-xen
-kernel-xen-devel
 kerneloops
 kerneloops-applet
 kerry
@@ -1406,7 +1401,6 @@ kscd
 ksh
 kshisen
 ksirk
-ksmolt
 ksnapshot
 kspaceduel
 ksquares
@@ -1440,6 +1434,7 @@ laptop-mode-tools
 latex2html
 latex2html-pngicons
 lcms
+leafpad
 less
 lessons4lizards_en
 lftp
@@ -1453,7 +1448,6 @@ libMagick++2
 libMagickCore2
 libMagickCore2-32bit
 libMagickWand2
-libMagickWand2-32bit
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -1466,6 +1460,9 @@ libSDL_mixer-1_2-0
 libSDL_net-1_2-0
 libSDL_ttf-2_0-0
 libSoundTouch0
+libXi6
+libXi6-32bit
+libXi6-devel
 libXiterm
 libabiword-2_8
 libacl
@@ -1591,7 +1588,7 @@ libcroco
 libcroco-0_6-3
 libcroco-0_6-3-32bit
 libcroco-devel
-libcryptsetup0
+libcryptsetup1
 libcurl-devel
 libcurl4
 libcurl4-32bit
@@ -1636,7 +1633,7 @@ libexpat1
 libexpat1-32bit
 libext2fs-devel
 libext2fs2
-libffi44
+libffi45
 libfprint0
 libfprint0-32bit
 libfreebl3
@@ -1648,12 +1645,14 @@ libgail-gnome
 libgail-gnome-32bit
 libgail-gnome-devel
 libgcc44
-libgcc44-32bit
+libgcc45-32bit
 libgcj-devel
 libgcj44
 libgcj44-devel
 libgcj44-jar
-libgcj_bc44
+libgcj45
+libgcj45-jar
+libgcj_bc45
 libgcr0
 libgcrypt-devel
 libgcrypt-devel-32bit
@@ -1672,8 +1671,8 @@ libgdl-1-3
 libgdu0
 libgegl-0_0-0
 libgeoclue0
-libgfortran44
-libgfortran44-32bit
+libgfortran45
+libgfortran45-32bit
 libggz2
 libggz2-devel
 libgimpprint
@@ -1702,8 +1701,8 @@ libgmpxx4-32bit
 libgnome
 libgnome-32bit
 libgnome-bluetooth7
-libgnome-desktop-2-11
-libgnome-desktop-2-11-32bit
+libgnome-desktop-2-17
+libgnome-desktop-2-17-32bit
 libgnome-devel
 libgnome-keyring-devel
 libgnome-keyring0
@@ -1740,7 +1739,7 @@ libgnutls26-32bit
 libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgomp44
-libgomp44-32bit
+libgomp45-32bit
 libgoocanvas3
 libgp11-0
 libgp11-modules
@@ -1755,6 +1754,7 @@ libgphoto2-devel
 libgpod-devel
 libgpod-tools
 libgpod4
+libgps19
 libgsf-1-114
 libgsf-1-114-32bit
 libgsf-devel
@@ -1808,8 +1808,6 @@ libieee1284-32bit
 libindi0
 libiniparser0
 libiniparser0-32bit
-libiptcdata
-libiptcdata0
 libiterm
 libiw30
 libjack0
@@ -1865,11 +1863,11 @@ libmal
 libmal-devel
 libmalaga7
 libmcrypt
-libmikmod
+libmenu-cache0
 libmm14
 libmng
-libmng-32bit
 libmng-devel
+libmodplug0
 libmpcdec5
 libmpfr1
 libmpfr1-32bit
@@ -1903,11 +1901,12 @@ libnotify1
 libnova-0_12-2
 libnscd
 libnscd-32bit
+libnss_compat_ossl0
 libnsssharedhelper0
 libnsssharedhelper0-32bit
 libnuma1
-libobjc44
-libobjc44-32bit
+libobjc45
+libobjc45-32bit
 libofa0
 libofx
 libofx4
@@ -2083,8 +2082,8 @@ libsoup-2_4-1-32bit
 libsoup-devel
 libsoup-devel-32bit
 libspectre1
-libspeex
-libspeex-32bit
+libspeex1
+libspeexdsp1
 libsqlite3-0
 libsqlite3-0-32bit
 libssh2-1
@@ -2172,11 +2171,10 @@ libxfcegui4
 libxfconf-0-2
 libxine-devel
 libxine1
-libxine1-32bit
 libxine1-gnome-vfs
 libxine1-pulse
 libxklavier-devel
-libxklavier15
+libxklavier16
 libxml2
 libxml2-32bit
 libxml2-devel
@@ -2212,7 +2210,6 @@ lklug
 log4j
 login
 logrotate
-lokalize
 lomoco
 loudmouth-devel
 lsb
@@ -2225,6 +2222,21 @@ ltrace-32bit
 lukemftp
 lv
 lvm2
+lxappearance
+lxde-common
+lxde-common-branding-openSUSE
+lxdm
+lxinput
+lxlauncher
+lxmenu-data
+lxmusic
+lxpanel
+lxrandr
+lxsession
+lxsession-edit
+lxshortcut
+lxtask
+lxterminal
 lynx
 lyx
 m17n-db
@@ -2255,6 +2267,7 @@ mdadm
 meanwhile
 meanwhile-devel
 memtest86+
+menu-cache
 metacity
 metacity-devel
 metamail
@@ -2290,6 +2303,7 @@ mono-locale-extras
 mono-nunit
 mono-qt
 mono-tools
+mono-wcf
 mono-web
 mono-winforms
 mono-zeroconf
@@ -2409,8 +2423,10 @@ ntp
 ntp-doc
 numactl
 numlockx
+nuoveXT2-icon-theme
 nxml-mode
 nxtvepg
+obconf
 obex-data-server
 objectweb-asm
 ocaml-facile
@@ -2419,7 +2435,6 @@ okteta
 okular
 omnibook-kmp-default
 omnibook-kmp-desktop
-omnibook-kmp-xen
 opal
 open-iscsi
 openSUSE-build-key
@@ -2427,6 +2442,7 @@ openSUSE-release
 openSUSE-release-dvd
 openais
 openal-soft
+openbox
 openjade
 openldap2
 openldap2-client
@@ -2489,6 +2505,7 @@ pango-32bit
 pango-devel
 paprefs
 par
+parcellite
 parley
 parted
 parted-32bit
@@ -2558,6 +2575,8 @@ patterns-openSUSE-kde4_xgl
 patterns-openSUSE-kde4_yast
 patterns-openSUSE-lamp_server
 patterns-openSUSE-laptop
+patterns-openSUSE-lxde
+patterns-openSUSE-lxde_office
 patterns-openSUSE-mail_server
 patterns-openSUSE-misc_server
 patterns-openSUSE-multimedia
@@ -2574,6 +2593,7 @@ patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-sw_management_kde4
 patterns-openSUSE-tabletpc
 patterns-openSUSE-technical_writing
+patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_opt
 patterns-openSUSE-x11_yast
@@ -2589,6 +2609,8 @@ pbm2l7k
 pciutils
 pciutils-32bit
 pciutils-ids
+pcmanfm
+pcmanfm-lang
 pcmciautils
 pcre
 pcre-devel
@@ -2693,6 +2715,7 @@ perl-Image-Size
 perl-Inline
 perl-Inline-C
 perl-Log-Dispatch
+perl-Log-Dispatch-FileRotate
 perl-Log-Log4perl
 perl-MIME-Lite
 perl-MIME-Types
@@ -2749,6 +2772,7 @@ perl-TermReadLine-Gnu
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
+perl-Text-Diff
 perl-Text-Iconv
 perl-Text-Kakasi
 perl-Tie-Cache
@@ -2766,7 +2790,6 @@ perl-WeakRef
 perl-X500-DN
 perl-XML-DOM
 perl-XML-LibXML
-perl-XML-LibXML-Common
 perl-XML-LibXSLT
 perl-XML-NamespaceSupport
 perl-XML-Parser
@@ -2777,7 +2800,6 @@ perl-XML-Stream
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XSLT
-perl-YAML
 perl-YAML-Syck
 perl-base
 perl-base-32bit
@@ -2830,7 +2852,6 @@ php5-pdo
 php5-pear
 php5-pgsql
 php5-shmop
-php5-snmp
 php5-sockets
 php5-sqlite
 php5-sysvsem
@@ -2951,8 +2972,6 @@ python-gtkglext
 python-gtksourceview
 python-httplib2
 python-imaging
-python-kde4
-python-kdebase4
 python-ldap
 python-logilab-astng
 python-logilab-common
@@ -2986,6 +3005,7 @@ python-urlgrabber
 python-webkitgtk
 python-wxGTK
 python-xdg
+python-xlib
 python-xml
 python-zopeinterface
 python-zypp
@@ -3027,6 +3047,7 @@ rpm
 rpm-32bit
 rpm-devel
 rpm-python
+rrdtool
 rsh
 rsibreak
 rsvg2-sharp
@@ -3048,6 +3069,7 @@ rubygems
 rxvt-unicode
 rzsz
 sabayon
+sabayon-lang
 sablot
 samba
 samba-32bit
@@ -3336,6 +3358,12 @@ unscd
 unzip
 update-alternatives
 update-desktop-files
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 usb_modeswitch
 usbutils
 utempter
@@ -3355,9 +3383,6 @@ vino
 virt-manager
 virt-utils
 virt-viewer
-virtualbox-ose
-virtualbox-ose-kmp-default
-virtualbox-ose-kmp-desktop
 vlan
 vlgothic
 vlock
@@ -3403,8 +3428,6 @@ wxGTK-compat
 wxGTK-gl
 x11-input-evtouch
 x11-input-fujitsu
-x11-input-wacom
-x11-input-wacom-tools
 x11-tools
 xalan-j2
 xano-mincho
@@ -3473,7 +3496,6 @@ xfce4-panel-plugin-wavelan
 xfce4-panel-plugin-weather
 xfce4-panel-plugin-xfapplet
 xfce4-panel-plugin-xfmedia-remote
-xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xmms
 xfce4-session
 xfce4-settings
@@ -3489,7 +3511,6 @@ xfwm4
 xfwm4-themes
 xhtml-dtd
 xine-ui
-xine-ui-32bit
 xinetd
 xiterm
 xkeyboard-config
@@ -3500,11 +3521,14 @@ xml-commons
 xml-commons-apis
 xml-commons-resolver
 xml-commons-which
+xml2po
+xml2po-devel
 xmlbeans
 xmlcharent
 xmlformat
 xmlstarlet
 xmlto
+xmms2
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-devel
@@ -3513,7 +3537,6 @@ xorg-x11-driver-video
 xorg-x11-driver-video-32bit
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-fonts-devel
