@@ -226,7 +226,7 @@ gdbm
 gdm
 gdm-branding-openSUSE
 gedit
-gegl-0_0
+gegl-0_1
 genisoimage
 gettext-runtime
 gfxboot
@@ -401,7 +401,7 @@ libavahi-common3
 libavahi-core6
 libavahi-glib1
 libavahi-ui0
-libbabl-0_0-0
+libbabl-0_1-0
 libbeagle1
 libblkid1
 libblocxx6
@@ -421,6 +421,7 @@ libcdda_paranoia0
 libcdio10
 libcdio_cdda0
 libcdio_paranoia0
+libcheese-gtk17
 libcloog0
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
@@ -457,7 +458,7 @@ libgcrypt11
 libgdata6
 libgdiplus0
 libgdu0
-libgegl-0_0-0
+libgegl-0_1-0
 libgeoclue0
 libgimpprint
 libgio-2_0-0
@@ -487,6 +488,7 @@ libgnomeprintui
 libgnomesu
 libgnomesu0
 libgnomeui
+libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
 libgomp44
@@ -519,8 +521,7 @@ libidn
 libieee1284
 libiniparser0
 libiw30
-libjasper
-libjpeg
+libjpeg7
 libksba
 liblazy1
 liblcms1
@@ -535,12 +536,10 @@ liblzma0
 liblzo2-2
 libmng
 libmpfr1
-libmysqlclient_r16
 libncurses5
 libncurses5-32bit
 libncurses6
 libneon27
-libnetpbm10
 libnice0
 libnl
 libnotify
@@ -584,11 +583,6 @@ libpulse-mainloop-glib0
 libpulse0
 libpurple
 libpython2_6-1_0
-libqt4
-libqt4-qt3support
-libqt4-sql
-libqt4-sql-mysql
-libqt4-x11
 libreadline6
 libreiserfs
 librsvg
@@ -720,7 +714,6 @@ neon
 net-tools
 netcat
 netcfg
-netpbm
 nfs-client
 nfsidmap
 notification-daemon
@@ -911,12 +904,6 @@ samba-client
 sane-backends
 sane-backends-autoconfig
 satsolver-tools
-sax2
-sax2-gui
-sax2-ident
-sax2-libsax
-sax2-libsax-perl
-sax2-tools
 sbl
 scout
 sed
@@ -952,6 +939,7 @@ sysfsutils
 system-config-printer
 systemtap-runtime
 sysvinit
+sysvinit-tools
 t1lib
 taglib
 taglib-sharp
@@ -994,6 +982,7 @@ util-linux
 vim
 vim-base
 vino
+virtualbox-ose-kmp-desktop
 vorbis-tools
 vpnc
 vte
@@ -1029,6 +1018,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-radeonhd
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
