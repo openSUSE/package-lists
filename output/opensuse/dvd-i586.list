@@ -281,27 +281,15 @@ autoyast2
 autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
-avahi-mono
 awesfx
 axis
 b43-fwcutter
-banshee-1
-banshee-1-backend-engine-gstreamer
-banshee-1-backend-platform-gnome
-banshee-1-backend-platform-unix
-banshee-1-client-classic
-banshee-1-core
-banshee-1-extensions-default
 bash
 bash-doc
 bc
 bcel
 bea-stax-api
-beagle
-beagle-evolution
 beagle-firefox
-beagle-gui
-beagle-index
 beaver
 bin86
 bind
@@ -604,7 +592,6 @@ expat
 expect
 expect-devel
 f-spot
-f-spot-extension-beagle
 fam
 fam-devel
 fbiterm
@@ -740,7 +727,7 @@ glib
 glib-devel
 glib-sharp2
 glib2
-glib2-branding-openSUSE
+glib2-branding-Moblin
 glib2-devel
 glibc
 glibc-devel
@@ -791,7 +778,7 @@ gnome-main-menu
 gnome-media
 gnome-media-devel
 gnome-menus
-gnome-menus-branding-openSUSE
+gnome-menus-branding-Moblin
 gnome-menus-devel
 gnome-nettool
 gnome-packagekit
@@ -980,6 +967,9 @@ ipw-firmware
 irda
 irssi
 iscan-free
+iscsitarget-kmp-default
+iscsitarget-kmp-desktop
+iscsitarget-kmp-xen
 isns
 iso-codes
 iso-codes-devel
@@ -1202,7 +1192,6 @@ kernel-xen
 kernel-xen-devel
 kerneloops
 kerneloops-applet
-kerry
 kexec-tools
 keyutils
 keyutils-devel
@@ -1499,6 +1488,7 @@ libdaemon0
 libdar-4
 libdb-4_5
 libdb-4_5-devel
+libdc1394-22
 libdiscid1
 libdjvulibre21
 libdlm
@@ -1777,6 +1767,7 @@ libopenal1-soft
 libopencdk-devel
 libopencdk10
 libopenct1
+libopencv2
 libopenraw1
 libopensc2
 libopenssl-devel
@@ -2012,7 +2003,7 @@ linux-glibc-devel
 lirc
 lirc-remotes
 lklug
-log4j
+log4j-mini
 login
 logrotate
 lokalize
@@ -2112,8 +2103,6 @@ mono-tools
 mono-wcf
 mono-web
 mono-winforms
-mono-zeroconf
-mono-zeroconf-provider-avahi
 monodevelop
 monodoc-core
 motv
@@ -2589,6 +2578,7 @@ perl-XML-Stream
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XSLT
+perl-YAML
 perl-YAML-Syck
 perl-base
 perl-doc
@@ -2714,6 +2704,7 @@ ptools
 pullin-flash-player
 pullin-msttf-fonts
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-lirc
@@ -3004,7 +2995,6 @@ sysvinit-tools
 t1lib
 tack
 taglib
-taglib-sharp
 tango-icon-theme
 tar
 tasque
@@ -3120,7 +3110,6 @@ uim-qt
 uim-qt4
 ulimit
 umbrello
-umtsmon
 unarj
 unclutter
 unfonts

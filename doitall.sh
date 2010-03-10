@@ -33,6 +33,8 @@ for arch in i586 x86_64; do
   done
 done
 
+./gen.sh opensuse/x11_cd-boottest x86_64
+
 if test "$diff" = 1; then
    echo "no diff"
    tar cjf /package_lists/filelists.tar.bz2 output/opensuse/*_cd*.list
@@ -60,6 +62,9 @@ set -e
 (cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
 (cd osc/openSUSE:Factory:Live/package-lists-openSUSE; osc up -e; cp /package_lists/filelists.tar.bz2 .; osc ci -m "update from desdemona" .)
+(cd osc/openSUSE:Factory:Live/kiwi-oem-x11-x86_64; osc up -e)
+(sed -n -e '1,/ PACKAGES BEGIN/p' osc/openSUSE\:Factory\:Live/kiwi-oem-x11-x86_64/kiwi-oem-x11.kiwi ; cat output/opensuse/x11_cd-boottest.x86_64.list | while read pack; do echo '<package name="'$pack'"/>'; done; sed -n -e '/ PACKAGES END/,$p'  osc/openSUSE\:Factory\:Live/kiwi-oem-x11-x86_64/kiwi-oem-x11.kiwi)| xmllint --format - > t && mv t osc/openSUSE\:Factory\:Live/kiwi-oem-x11-x86_64/kiwi-oem-x11.kiwi
+(cd osc/openSUSE:Factory:Live/kiwi-oem-x11-x86_64; osc diff ; osc ci -m "update")
 
 git commit -m "auto commit" -a
 echo "all done"

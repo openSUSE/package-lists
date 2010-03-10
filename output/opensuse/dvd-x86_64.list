@@ -292,27 +292,15 @@ autoyast2
 autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
-avahi-mono
 awesfx
 axis
 b43-fwcutter
-banshee-1
-banshee-1-backend-engine-gstreamer
-banshee-1-backend-platform-gnome
-banshee-1-backend-platform-unix
-banshee-1-client-classic
-banshee-1-core
-banshee-1-extensions-default
 bash
 bash-doc
 bc
 bcel
 bea-stax-api
-beagle
-beagle-evolution
 beagle-firefox
-beagle-gui
-beagle-index
 beaver
 bin86
 bind
@@ -620,6 +608,7 @@ ethtool
 evince
 evolution
 evolution-data-server
+evolution-data-server-32bit
 evolution-data-server-devel
 evolution-devel
 evolution-mono-plugins
@@ -633,7 +622,6 @@ expat
 expect
 expect-devel
 f-spot
-f-spot-extension-beagle
 fam
 fam-32bit
 fam-devel
@@ -791,7 +779,7 @@ glib-devel
 glib-devel-32bit
 glib-sharp2
 glib2
-glib2-branding-openSUSE
+glib2-branding-Moblin
 glib2-devel
 glibc
 glibc-32bit
@@ -847,11 +835,12 @@ gnome-main-menu
 gnome-media
 gnome-media-devel
 gnome-menus
-gnome-menus-branding-openSUSE
+gnome-menus-branding-Moblin
 gnome-menus-devel
 gnome-nettool
 gnome-packagekit
 gnome-panel
+gnome-panel-32bit
 gnome-panel-sharp
 gnome-phone-manager
 gnome-pilot
@@ -1046,6 +1035,9 @@ irda
 irqbalance
 irssi
 iscan-free
+iscsitarget-kmp-default
+iscsitarget-kmp-desktop
+iscsitarget-kmp-xen
 isns
 iso-codes
 iso-codes-devel
@@ -1268,7 +1260,6 @@ kernel-xen
 kernel-xen-devel
 kerneloops
 kerneloops-applet
-kerry
 kexec-tools
 keyutils
 keyutils-devel
@@ -1600,6 +1591,7 @@ libdar-4
 libdb-4_5
 libdb-4_5-32bit
 libdb-4_5-devel
+libdc1394-22
 libdiscid1
 libdjvulibre21
 libdlm
@@ -1645,10 +1637,12 @@ libfm0
 libfprint0
 libfprint0-32bit
 libfreebl3
+libfreebl3-32bit
 libftgl2
 libfuse2
 libgadu
 libgail-gnome
+libgail-gnome-32bit
 libgail-gnome-devel
 libgcc45
 libgcc45-32bit
@@ -1792,12 +1786,14 @@ libgvfscommon0
 libgweather
 libgweather-devel
 libgweather1
+libgweather1-32bit
 libgwenhywfar47
 libgwenhywfar47-plugins
 libhangul
 libheartbeat2
 libical-devel
 libical0
+libical0-32bit
 libicu
 libid3tag
 libidl
@@ -1820,7 +1816,6 @@ libjack0
 libjasper
 libjasper-devel
 libjpeg-devel
-libjpeg6
 libjpeg6-32bit
 libjpeg7
 libjpeg8
@@ -1882,6 +1877,7 @@ libmng
 libmng-32bit
 libmng-devel
 libmodman0_0_0
+libmodman0_0_0-32bit
 libmodplug0
 libmodplug0-32bit
 libmpc2
@@ -1920,6 +1916,7 @@ libnscd
 libnscd-32bit
 libnss_compat_ossl0
 libnsssharedhelper0
+libnsssharedhelper0-32bit
 libnuma1
 libobjc45
 libobjc45-32bit
@@ -1937,6 +1934,7 @@ libopencdk-devel-32bit
 libopencdk10
 libopencdk10-32bit
 libopenct1
+libopencv2
 libopenraw1
 libopensc2
 libopenssl-devel
@@ -1997,6 +1995,7 @@ libpopt0-32bit
 libppl7
 libppl_c2
 libproxy1
+libproxy1-32bit
 libpst4
 libpt2
 libpth-devel
@@ -2084,7 +2083,9 @@ libsnmp15
 libsoprano-devel
 libsoprano4
 libsoup-2_4-1
+libsoup-2_4-1-32bit
 libsoup-devel
+libsoup-devel-32bit
 libspectre1
 libspeex1
 libspeex1-32bit
@@ -2166,6 +2167,7 @@ libwmf-gnome
 libwmf-gnome-32bit
 libwnck
 libwnck-1-22
+libwnck-1-22-32bit
 libwnck-devel
 libwpd-0_8-8
 libwpg-0_1-1
@@ -2218,7 +2220,7 @@ linux32
 lirc
 lirc-remotes
 lklug
-log4j
+log4j-mini
 login
 logrotate
 lokalize
@@ -2320,8 +2322,6 @@ mono-tools
 mono-wcf
 mono-web
 mono-winforms
-mono-zeroconf
-mono-zeroconf-provider-avahi
 monodevelop
 monodoc-core
 motv
@@ -2329,9 +2329,12 @@ mousepad
 mousetweaks
 mozilla-kde4-integration
 mozilla-nspr
+mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
+mozilla-nss-32bit
 mozilla-nss-certs
+mozilla-nss-certs-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner191
@@ -2821,6 +2824,7 @@ perl-XML-Stream
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XSLT
+perl-YAML
 perl-YAML-Syck
 perl-base
 perl-base-32bit
@@ -2948,6 +2952,7 @@ ptools
 pullin-flash-player
 pullin-msttf-fonts
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-lirc
@@ -3251,7 +3256,6 @@ sysvinit-tools
 t1lib
 tack
 taglib
-taglib-sharp
 tango-icon-theme
 tar
 tasque
@@ -3371,7 +3375,6 @@ uim-qt
 uim-qt4
 ulimit
 umbrello
-umtsmon
 unarj
 unclutter
 unfonts
