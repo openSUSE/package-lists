@@ -39,6 +39,7 @@ OpenOffice_org-libs-extern
 OpenOffice_org-libs-gui
 OpenOffice_org-templates-labels-a4
 OpenOffice_org-templates-labels-letter
+OpenOffice_org-thesaurus-en-US
 OpenOffice_org-ure
 OpenOffice_org-writer
 PackageKit
@@ -108,7 +109,7 @@ cdrkit-cdrtools-compat
 checkmedia
 chmlib
 choqok
-cifs-mount
+cifs-utils
 clucene-core
 cm-unicode
 command-not-found
@@ -149,7 +150,6 @@ dhcp-client
 dhcpcd
 dialog
 diffutils
-digikam
 dirmngr
 dmidecode
 dmraid
@@ -256,6 +256,7 @@ jfsutils
 jpackage-utils
 jpeg
 k3b
+k3b-lang
 kaddressbook
 kaffeine
 kbd
@@ -352,13 +353,12 @@ kwebkitpart
 kwin
 kwrite
 lcms
-lensfun
 less
 libFLAC++6
 libFLAC8
 libHX22
-libMagickCore2
-libMagickWand2
+libMagickCore3
+libMagickWand3
 libQtWebKit4
 libSDL-1_2-0
 libXi6
@@ -387,6 +387,7 @@ libbluetooth3
 libboost_program_options1_39_0
 libbz2-1
 libcap2
+libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcloog0
@@ -398,7 +399,6 @@ libcurl4
 libdaemon0
 libdb-4_5
 libdjvulibre21
-libdns_sd
 libdrm
 libdvdread4
 libdw1
@@ -456,11 +456,9 @@ libiodbc3
 libiw30
 libjack0
 libjasper
-libjpeg7
 libjpeg8
 libkcddb4
 libkcompactdisc4
-libkdcraw8
 libkde4
 libkdecore4
 libkdegames4
@@ -476,10 +474,8 @@ liblcms1
 libldap-2_4-2
 libldapcpp1
 libldb0
-liblensfun0
 libloudmouth-1-0
 liblpsolve55
-liblqr-1-0
 libltdl7
 liblua5_1
 liblzma0
@@ -499,6 +495,7 @@ libncurses5
 libncurses5-32bit
 libncurses6
 libneon27
+libnih
 libnl
 libnotify
 libnotify1
@@ -529,6 +526,10 @@ libpopt0
 libppl7
 libppl_c2
 libproxy1
+libproxy1-config-gnome
+libproxy1-config-kde4
+libproxy1-networkmanager
+libproxy1-pacrunner-mozjs
 libpth20
 libpython2_6-1_0
 libqca2
@@ -538,7 +539,6 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
-libqt4-sql-sqlite
 libqt4-x11
 libraptor1
 librasqal2
@@ -555,6 +555,7 @@ libsmbclient0
 libsmbios-bin
 libsmbios2
 libsndfile
+libsoftokn3
 libsoprano4
 libspectre1
 libspeex1
@@ -620,8 +621,6 @@ lvm2
 mailx
 man
 manufacturer-PPDs
-marble
-marble-data
 master-boot-code
 mc
 mdadm
@@ -765,7 +764,6 @@ pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
-plasma-addons-marble
 plasma-theme-aya
 plasmoid-quickaccess
 pm-profiler
@@ -781,6 +779,7 @@ postfix
 ppp
 pptp
 preload
+preload-kmp-desktop
 procps
 psmisc
 pullin-flash-player
@@ -844,7 +843,6 @@ sweeper
 sysconfig
 sysfsutils
 systemtap-runtime
-sysvinit
 sysvinit-tools
 taglib
 tar
@@ -869,11 +867,13 @@ update-test-optional
 update-test-reboot-needed
 update-test-security
 update-test-trival
+upstart
 usbutils
 utempter
 util-linux
 vim
 vim-base
+virtualbox-ose-guest-tools
 virtualbox-ose-kmp-desktop
 virtuoso-drivers
 virtuoso-server

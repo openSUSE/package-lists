@@ -28,7 +28,7 @@ branding-openSUSE
 bzip2
 cdrkit-cdrtools-compat
 checkmedia
-cifs-mount
+cifs-utils
 command-not-found
 coreutils
 cpio
@@ -122,19 +122,17 @@ libasm1
 libasound2
 libattr
 libaugeas0
-libavahi-client3
-libavahi-common3
 libblkid1
 libblocxx6
 libbz2-1
 libcap2
+libcares2
 libcom_err2
 libcrack2
 libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
-libdns_sd
 libdw1
 libeggdbus-1-0
 libelf1
@@ -168,6 +166,7 @@ liblzo2-2
 libmng
 libncurses5
 libncurses5-32bit
+libnih
 libnl
 libnscd
 libnuma1
@@ -330,7 +329,6 @@ sudo
 suseRegister
 sysconfig
 sysfsutils
-sysvinit
 sysvinit-tools
 tar
 tcpd
@@ -347,6 +345,7 @@ update-test-optional
 update-test-reboot-needed
 update-test-security
 update-test-trival
+upstart
 usbutils
 utempter
 util-linux
