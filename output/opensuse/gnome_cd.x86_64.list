@@ -252,7 +252,7 @@ glade-sharp2
 glchess
 glib-sharp2
 glib2
-glib2-branding-Moblin
+glib2-branding-openSUSE
 glibc
 glibc-32bit
 glibc-locale
@@ -286,7 +286,7 @@ gnome-mag
 gnome-main-menu
 gnome-media
 gnome-menus
-gnome-menus-branding-Moblin
+gnome-menus-branding-openSUSE
 gnome-nettool
 gnome-packagekit
 gnome-panel
@@ -325,6 +325,8 @@ grub
 gsf-sharp
 gstreamer-0_10
 gstreamer-0_10-libnice
+gstreamer-0_10-plugin-gnomevfs
+gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-schroedinger
@@ -363,6 +365,7 @@ icewm
 icewm-lite
 ifnteuro
 ifplugd
+igerman98-doc
 info
 info2html
 initviocons
@@ -447,6 +450,7 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdevkit-power-gobject1
 libdjvulibre21
 libdrm
 libdw1
@@ -570,9 +574,7 @@ libnsssharedhelper0
 libnuma1
 libogg0
 liboil
-libopenct1
 libopenraw1
-libopensc2
 libopenssl0_9_8
 libopensync
 libopensync-plugin-file
@@ -627,6 +629,7 @@ libspectre1
 libspeex1
 libspeexdsp1
 libsqlite3-0
+libssh2-1
 libstdc++45
 libstorage
 libtalloc2
@@ -640,6 +643,7 @@ libtiff3
 libtirpc1
 libudev0
 libunique-1_0-0
+libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
 libuuid1
@@ -706,6 +710,7 @@ mono-winforms
 mono-zeroconf
 mono-zeroconf-provider-avahi
 mousetweaks
+mozilla-js192
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
@@ -813,8 +818,6 @@ pcmciautils
 pcre
 perl
 perl-Bootloader
-perl-Business-ISBN
-perl-Business-ISBN-Data
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
@@ -824,8 +827,6 @@ perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
-perl-GD
-perl-GD-Barcode
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
@@ -870,7 +871,6 @@ postfix
 ppp
 pptp
 preload
-preload-kmp-desktop
 procps
 psmisc
 pullin-flash-player
@@ -1008,6 +1008,8 @@ update-test-optional
 update-test-reboot-needed
 update-test-security
 update-test-trival
+upower
+upower-lang
 upstart
 usbutils
 utempter
@@ -1052,6 +1054,7 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core

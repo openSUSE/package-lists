@@ -748,6 +748,7 @@ glib-devel
 glib-sharp2
 glib2
 glib2-branding-Moblin
+glib2-branding-openSUSE
 glib2-devel
 glibc
 glibc-devel
@@ -799,6 +800,7 @@ gnome-media
 gnome-media-devel
 gnome-menus
 gnome-menus-branding-Moblin
+gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-nettool
 gnome-packagekit
@@ -869,6 +871,8 @@ gstreamer-0_10
 gstreamer-0_10-devel
 gstreamer-0_10-doc
 gstreamer-0_10-libnice
+gstreamer-0_10-plugin-gnomevfs
+gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
@@ -957,6 +961,7 @@ ifntjapa
 ifntjapb
 ifplugd
 iftop
+igerman98-doc
 ikvm
 imlib2
 imlib2-devel
@@ -1064,7 +1069,6 @@ jtools
 juk
 junit
 k3b
-k3b-lang
 kaddressbook
 kaffeine
 kakasi
@@ -1513,6 +1517,7 @@ libdar-4
 libdb-4_5
 libdb-4_5-devel
 libdc1394-22
+libdevkit-power-gobject1
 libdiscid1
 libdjvulibre21
 libdlm
@@ -1753,7 +1758,7 @@ libmodplug0
 libmpc2
 libmpcdec5
 libmpfr1
-libmsn0_1
+libmsn0_3
 libmspack0
 libmtp-devel
 libmtp8
@@ -1771,6 +1776,7 @@ libneon27
 libnet
 libnetpbm10
 libnice0
+libnih
 libnl
 libnl-devel
 libnotify
@@ -1789,10 +1795,8 @@ libopenais2
 libopenal1-soft
 libopencdk-devel
 libopencdk10
-libopenct1
 libopencv2
 libopenraw1
-libopensc2
 libopenssl-devel
 libopenssl0_9_8
 libopensync
@@ -1957,6 +1961,7 @@ libtunepimp5
 libudev0
 libunique-1_0-0
 libunique-devel
+libupower-glib1
 liburiparser1
 libusb-0_1-4
 libusb-1_0-0
@@ -2140,6 +2145,7 @@ monodoc-core
 motv
 mousepad
 mousetweaks
+mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nspr-devel
@@ -2176,6 +2182,7 @@ myspell-czech
 myspell-danish
 myspell-dutch
 myspell-french
+myspell-german
 myspell-german-old
 myspell-hungarian
 myspell-italian
@@ -2433,8 +2440,6 @@ perl-BSD-Resource
 perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
-perl-Business-ISBN
-perl-Business-ISBN-Data
 perl-CDDB_get
 perl-CGI-Application
 perl-Cairo
@@ -2493,7 +2498,6 @@ perl-Filter
 perl-Finance-Quote
 perl-Font-AFM
 perl-GD
-perl-GD-Barcode
 perl-GD-Graph3d
 perl-GDGraph
 perl-GDTextUtil
@@ -2722,8 +2726,6 @@ pptp
 pptpd
 prctl
 preload
-preload-kmp-default
-preload-kmp-desktop
 privoxy
 procinfo
 procmail
@@ -3159,6 +3161,9 @@ update-test-optional
 update-test-reboot-needed
 update-test-security
 update-test-trival
+upower
+upower-lang
+upstart
 usbutils
 utempter
 util-linux
@@ -3263,6 +3268,7 @@ xfburn
 xfce4-appfinder
 xfce4-branding-openSUSE
 xfce4-desktop
+xfce4-dev-tools
 xfce4-mixer
 xfce4-notifyd
 xfce4-panel
@@ -3304,7 +3310,9 @@ xfce4-power-manager
 xfce4-session
 xfce4-settings
 xfce4-taskmanager
+xfce4-vala
 xfce4-volstatus
+xfce4-volumed
 xfconf
 xfmedia
 xfntjp
@@ -3338,6 +3346,7 @@ xorg-x11-Xvnc
 xorg-x11-devel
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
 xorg-x11-driver-virtualbox-ose

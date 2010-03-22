@@ -626,6 +626,7 @@ ethtool
 evince
 evolution
 evolution-data-server
+evolution-data-server-32bit
 evolution-data-server-devel
 evolution-devel
 evolution-mono-plugins
@@ -799,6 +800,7 @@ glib-devel-32bit
 glib-sharp2
 glib2
 glib2-branding-Moblin
+glib2-branding-openSUSE
 glib2-devel
 glibc
 glibc-32bit
@@ -855,10 +857,12 @@ gnome-media
 gnome-media-devel
 gnome-menus
 gnome-menus-branding-Moblin
+gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-nettool
 gnome-packagekit
 gnome-panel
+gnome-panel-32bit
 gnome-panel-sharp
 gnome-phone-manager
 gnome-pilot
@@ -928,6 +932,8 @@ gstreamer-0_10-32bit
 gstreamer-0_10-devel
 gstreamer-0_10-doc
 gstreamer-0_10-libnice
+gstreamer-0_10-plugin-gnomevfs
+gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-32bit
 gstreamer-0_10-plugins-base-devel
@@ -1023,6 +1029,7 @@ ifntjapa
 ifntjapb
 ifplugd
 iftop
+igerman98-doc
 ikvm
 imlib2
 imlib2-devel
@@ -1132,7 +1139,6 @@ jtools
 juk
 junit
 k3b
-k3b-lang
 kaddressbook
 kaffeine
 kakasi
@@ -1614,6 +1620,7 @@ libdb-4_5
 libdb-4_5-32bit
 libdb-4_5-devel
 libdc1394-22
+libdevkit-power-gobject1
 libdiscid1
 libdjvulibre21
 libdlm
@@ -1644,7 +1651,6 @@ libetpan13
 libevent-1_4-2
 libexempi3
 libexif
-libexif-32bit
 libexif-devel
 libexiv2-6
 libexpat-devel
@@ -1658,10 +1664,12 @@ libfm-gtk0
 libfm0
 libfprint0
 libfreebl3
+libfreebl3-32bit
 libftgl2
 libfuse2
 libgadu
 libgail-gnome
+libgail-gnome-32bit
 libgail-gnome-devel
 libgcc45
 libgcc45-32bit
@@ -1768,7 +1776,6 @@ libgpg-error0-32bit
 libgpgme-devel
 libgpgme11
 libgphoto2
-libgphoto2-32bit
 libgphoto2-devel
 libgpod-devel
 libgpod-tools
@@ -1805,12 +1812,14 @@ libgvfscommon0
 libgweather
 libgweather-devel
 libgweather1
+libgweather1-32bit
 libgwenhywfar47
 libgwenhywfar47-plugins
 libhangul
 libheartbeat2
 libical-devel
 libical0
+libical0-32bit
 libicu
 libid3tag
 libidl
@@ -1821,7 +1830,6 @@ libidn-32bit
 libidn-devel
 libiec61883
 libieee1284
-libieee1284-32bit
 libindi0
 libiniparser0
 libiniparser0-32bit
@@ -1834,7 +1842,6 @@ libjasper
 libjasper-devel
 libjpeg-devel
 libjpeg-devel-32bit
-libjpeg6-32bit
 libjpeg8
 libjpeg8-32bit
 libkcddb4
@@ -1866,7 +1873,6 @@ liblastfm0
 liblazy1
 liblcms-devel
 liblcms1
-liblcms1-32bit
 libldap-2_4-2
 libldap-2_4-2-32bit
 libldapcpp1
@@ -1899,7 +1905,7 @@ libmpc2
 libmpcdec5
 libmpfr1
 libmpfr1-32bit
-libmsn0_1
+libmsn0_3
 libmspack0
 libmtp-devel
 libmtp8
@@ -1920,6 +1926,7 @@ libneon27
 libnet
 libnetpbm10
 libnice0
+libnih
 libnl
 libnl-32bit
 libnl-devel
@@ -1931,6 +1938,7 @@ libnscd
 libnscd-32bit
 libnss_compat_ossl0
 libnsssharedhelper0
+libnsssharedhelper0-32bit
 libnuma1
 libobjc45
 libobjc45-32bit
@@ -1947,10 +1955,8 @@ libopencdk-devel
 libopencdk-devel-32bit
 libopencdk10
 libopencdk10-32bit
-libopenct1
 libopencv2
 libopenraw1
-libopensc2
 libopenssl-devel
 libopenssl0_9_8
 libopenssl0_9_8-32bit
@@ -2100,6 +2106,7 @@ libsndfile
 libsndfile-32bit
 libsnmp15
 libsoftokn3
+libsoftokn3-32bit
 libsoprano-devel
 libsoprano4
 libsoup-2_4-1
@@ -2112,6 +2119,7 @@ libspeexdsp1
 libsqlite3-0
 libsqlite3-0-32bit
 libssh2-1
+libssh2-1-32bit
 libssh4
 libstdc++-devel
 libstdc++33
@@ -2149,11 +2157,10 @@ libudev0
 libudev0-32bit
 libunique-1_0-0
 libunique-devel
+libupower-glib1
 liburiparser1
 libusb-0_1-4
-libusb-0_1-4-32bit
 libusb-1_0-0
-libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
 libuuid-devel
@@ -2186,6 +2193,7 @@ libwmf-gnome
 libwmf-gnome-32bit
 libwnck
 libwnck-1-22
+libwnck-1-22-32bit
 libwnck-devel
 libwpd-0_8-8
 libwpg-0_1-1
@@ -2348,11 +2356,15 @@ monodoc-core
 motv
 mousepad
 mousetweaks
+mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
+mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
+mozilla-nss-32bit
 mozilla-nss-certs
+mozilla-nss-certs-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner191
@@ -2385,6 +2397,7 @@ myspell-czech
 myspell-danish
 myspell-dutch
 myspell-french
+myspell-german
 myspell-german-old
 myspell-hungarian
 myspell-italian
@@ -2664,8 +2677,6 @@ perl-BSD-Resource
 perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
-perl-Business-ISBN
-perl-Business-ISBN-Data
 perl-CDDB_get
 perl-CGI-Application
 perl-Cairo
@@ -2724,7 +2735,6 @@ perl-Filter
 perl-Finance-Quote
 perl-Font-AFM
 perl-GD
-perl-GD-Barcode
 perl-GD-Graph3d
 perl-GDGraph
 perl-GDTextUtil
@@ -2955,8 +2965,6 @@ pptp
 pptpd
 prctl
 preload
-preload-kmp-default
-preload-kmp-desktop
 privoxy
 procinfo
 procmail
@@ -3125,7 +3133,6 @@ samba-client-32bit
 samba-winbind
 samba-winbind-32bit
 sane-backends
-sane-backends-32bit
 sane-backends-autoconfig
 sash
 satsolver-tools
@@ -3410,6 +3417,9 @@ update-test-optional
 update-test-reboot-needed
 update-test-security
 update-test-trival
+upower
+upower-lang
+upstart
 usbutils
 utempter
 utempter-32bit
@@ -3457,8 +3467,6 @@ webkit-sharp
 wget
 whois
 wiggle
-wine
-wine-gecko
 wireless-regdb
 wireless-tools
 wireshark
@@ -3515,6 +3523,7 @@ xfburn
 xfce4-appfinder
 xfce4-branding-openSUSE
 xfce4-desktop
+xfce4-dev-tools
 xfce4-mixer
 xfce4-notifyd
 xfce4-panel
@@ -3556,7 +3565,9 @@ xfce4-power-manager
 xfce4-session
 xfce4-settings
 xfce4-taskmanager
+xfce4-vala
 xfce4-volstatus
+xfce4-volumed
 xfconf
 xfmedia
 xfntjp
@@ -3591,6 +3602,7 @@ xorg-x11-devel
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-32bit
+xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
 xorg-x11-driver-virtualbox-ose

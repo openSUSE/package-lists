@@ -201,7 +201,7 @@ giflib
 gimp
 gimp-branding-openSUSE
 glib2
-glib2-branding-Moblin
+glib2-branding-openSUSE
 glibc
 glibc-32bit
 glibc-locale
@@ -218,6 +218,7 @@ grep
 groff
 grub
 gstreamer-0_10
+gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
 gtk2
 gtk2-branding-openSUSE
@@ -239,6 +240,7 @@ icewm
 icewm-lite
 ifnteuro
 ifplugd
+igerman98-doc
 info
 info2html
 initviocons
@@ -256,7 +258,6 @@ jfsutils
 jpackage-utils
 jpeg
 k3b
-k3b-lang
 kaddressbook
 kaffeine
 kbd
@@ -486,7 +487,7 @@ libmodplug0
 libmpc2
 libmpcdec5
 libmpfr1
-libmsn0_1
+libmsn0_3
 libmtp8
 libmusicbrainz4
 libmysqlclient16
@@ -504,9 +505,7 @@ libnsssharedhelper0
 libnuma1
 libogg0
 liboil
-libopenct1
 libopenraw1
-libopensc2
 libopenssl0_9_8
 libotr2
 libpackagekit-glib12
@@ -539,6 +538,7 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
+libqt4-sql-sqlite
 libqt4-x11
 libraptor1
 librasqal2
@@ -560,6 +560,7 @@ libsoprano4
 libspectre1
 libspeex1
 libsqlite3-0
+libssh2-1
 libssh4
 libstdc++45
 libstorage
@@ -630,6 +631,7 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
+mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nss
@@ -720,8 +722,6 @@ pcmciautils
 pcre
 perl
 perl-Bootloader
-perl-Business-ISBN
-perl-Business-ISBN-Data
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
@@ -731,8 +731,6 @@ perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
-perl-GD
-perl-GD-Barcode
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
@@ -779,7 +777,6 @@ postfix
 ppp
 pptp
 preload
-preload-kmp-desktop
 procps
 psmisc
 pullin-flash-player
@@ -904,6 +901,7 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core

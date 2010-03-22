@@ -71,7 +71,6 @@ fontconfig
 foomatic-filters
 freetype2
 gawk
-gd
 gdbm
 genisoimage
 gettext-runtime
@@ -80,7 +79,7 @@ gfxboot-branding-openSUSE
 ghostscript-fonts-std
 ghostscript-library
 glib2
-glib2-branding-Moblin
+glib2-branding-openSUSE
 glibc
 glibc-32bit
 glibc-locale
@@ -159,7 +158,6 @@ liblcms1
 libldap-2_4-2
 libldapcpp1
 libldb0
-libltdl7
 liblua5_1
 liblzma0
 liblzo2-2
@@ -170,8 +168,6 @@ libnih
 libnl
 libnscd
 libnuma1
-libopenct1
-libopensc2
 libopenssl0_9_8
 libpcap1
 libpcre0
@@ -185,6 +181,7 @@ libreadline6
 libreiserfs
 libselinux1
 libsqlite3-0
+libssh2-1
 libstdc++45
 libstorage
 libtalloc2
@@ -255,8 +252,6 @@ pciutils-ids
 pcre
 perl
 perl-Bootloader
-perl-Business-ISBN
-perl-Business-ISBN-Data
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
@@ -266,8 +261,6 @@ perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-File-Tail
-perl-GD
-perl-GD-Barcode
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Net-Daemon
@@ -359,13 +352,9 @@ wireless-tools
 wodim
 xdg-utils
 xinetd
-xorg-x11-libICE
-xorg-x11-libSM
 xorg-x11-libX11
 xorg-x11-libXau
 xorg-x11-libXext
-xorg-x11-libXpm
-xorg-x11-libXt
 xorg-x11-libxcb
 xz
 yast2
