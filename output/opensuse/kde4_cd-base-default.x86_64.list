@@ -1,4 +1,5 @@
 ConsoleKit
+DeviceKit-power
 DirectFB
 PolicyKit
 PolicyKit-doc
@@ -26,6 +27,8 @@ bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 bzip2
+ca-certificates
+ca-certificates-mozilla
 cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
@@ -69,7 +72,6 @@ fillup
 findutils
 fontconfig
 foomatic-filters
-freetype2
 gawk
 gdbm
 genisoimage
@@ -119,6 +121,8 @@ libaio
 libapparmor1
 libasm1
 libasound2
+libassuan0
+libatasmart4
 libattr
 libaugeas0
 libblkid1
@@ -132,12 +136,14 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdevkit-power-gobject1
 libdw1
 libeggdbus-1-0
 libelf1
 libevent-1_4-2
 libexpat1
 libext2fs2
+libfreetype6
 libgcc45
 libgcrypt11
 libgimpprint
@@ -150,6 +156,7 @@ libgobject-2_0-0
 libgpg-error0
 libgssglue1
 libgthread-2_0-0
+libgudev-1_0-0
 libidn
 libiw30
 libjpeg8
@@ -169,9 +176,11 @@ libnl
 libnscd
 libnuma1
 libopenssl0_9_8
+libopenssl1_0_0
 libpcap1
 libpcre0
 libpng12-0
+libpng14-14
 libpolkit0
 libpoppler5
 libpopt0
@@ -185,11 +194,14 @@ libssh2-1
 libstdc++45
 libstorage
 libtalloc2
+libtasn1
+libtasn1-3
 libtdb1
 libtevent0
 libtiff3
 libtirpc1
 libudev0
+libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
 libuuid1
@@ -241,7 +253,6 @@ openldap2-client
 openslp
 openssh
 openssl
-openssl-certs
 pam
 pam-config
 pam-modules
@@ -286,6 +297,7 @@ perl-libapparmor
 perl-libwww-perl
 permissions
 pinentry
+pkg-config
 pm-profiler
 pm-utils
 polkit
@@ -327,7 +339,9 @@ tar
 tcpd
 terminfo-base
 timezone
+tmpwatch
 udev
+udisks
 ulimit
 unscd
 unzip
@@ -338,6 +352,8 @@ update-test-optional
 update-test-reboot-needed
 update-test-security
 update-test-trival
+upower
+upower-lang
 upstart
 usbutils
 utempter

@@ -25,6 +25,8 @@
     <install kind="pattern" name="gnome"/>
     <lock kind="package" name="patterns-openSUSE-gnome_utilities"/>
     <lock kind="package" name="patterns-openSUSE-office"/>
+    <!-- get openSUSE-images under control -->
+    <lock kind="package" name="evolution"/>
     <reportProblems/>
   </trial>
 </test>
