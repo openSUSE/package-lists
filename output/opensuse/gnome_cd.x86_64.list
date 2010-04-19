@@ -41,7 +41,7 @@ OpenOffice_org-thesaurus-en-US
 OpenOffice_org-ure
 OpenOffice_org-writer
 PackageKit
-PackageKit-branding-upstream
+PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
@@ -75,13 +75,10 @@ aspell-en
 aspell-it
 aspell-ru
 at-spi
-at-spi2-atk
-at-spi2-core
 atmel-firmware
 attr
 audiofile
 audit
-audit-libs
 augeas-lenses
 autofs
 autoyast2-installation
@@ -115,6 +112,7 @@ bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
+brasero-nautilus
 btrfsprogs
 bug-buddy
 bundle-lang-common-de
@@ -195,6 +193,8 @@ e2fsprogs
 eject
 ekiga
 elfutils
+empathy
+empathy-lang
 enchant
 eog
 espeak
@@ -282,6 +282,7 @@ gnome-docker
 gnome-games-recommended
 gnome-games-support
 gnome-icon-theme
+gnome-icon-theme-extras
 gnome-js-common
 gnome-keyring
 gnome-keyring-pam
@@ -357,6 +358,7 @@ hal
 hal-palm
 hdparm
 hicolor-icon-theme
+hicolor-icon-theme-branding-openSUSE
 hunspell
 hunspell-tools
 hwinfo
@@ -413,11 +415,14 @@ libassuan0
 libatasmart4
 libatk-1_0-0
 libattr
+libaudit1
 libaugeas0
+libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core6
 libavahi-glib1
+libavahi-gobject0
 libavahi-ui0
 libbabl-0_1-0
 libbeagle1
@@ -443,6 +448,7 @@ libcdio10
 libcdio_cdda0
 libcdio_paranoia0
 libcelt0-0
+libchamplain0
 libcheese-gtk18
 libcloog0
 libclutter-glx-1_0-0
@@ -590,7 +596,6 @@ libncurses5-32bit
 libncurses6
 libneon27
 libnice0
-libnih
 libnl
 libnotify
 libnotify1
@@ -639,6 +644,8 @@ libpurple
 libpython2_6-1_0
 libquicktime
 libraw1394-8
+librcc0
+librcd0
 libreadline6
 libreiserfs
 librsvg
@@ -668,6 +675,7 @@ libtalloc2
 libtasn1
 libtasn1-3
 libtdb1
+libtelepathy-farsight0
 libtelepathy-glib0
 libtevent0
 libtheora0
@@ -763,6 +771,7 @@ nautilus-evince
 nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
+nautilus-sendto-plugin-empathy
 nautilus-sendto-plugin-evolution
 nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
@@ -815,6 +824,7 @@ pam_ldap
 pam_mount
 pango
 paprefs
+papyon
 parted
 patterns-openSUSE-apparmor
 patterns-openSUSE-base
@@ -918,7 +928,7 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pwdutils
 python
-python-atspi
+python-atspi-corba
 python-base
 python-cairo
 python-coherence
@@ -934,6 +944,7 @@ python-gtk
 python-gtkglext
 python-gtksourceview
 python-httplib2
+python-libproxy
 python-louis
 python-notify
 python-numpy
@@ -945,6 +956,7 @@ python-serial
 python-setuptools
 python-simplejson
 python-smbc
+python-telepathy
 python-twisted
 python-urlgrabber
 python-xml
@@ -952,6 +964,7 @@ python-zopeinterface
 quadrapassel
 quota
 rarian
+rcc-runtime
 recode
 reiserfs
 release-notes-openSUSE
@@ -1004,6 +1017,7 @@ sysconfig
 sysfsutils
 system-config-printer
 systemtap-runtime
+sysvinit
 sysvinit-tools
 t1lib
 taglib
@@ -1012,6 +1026,12 @@ tango-icon-theme
 tar
 tasque
 tcpd
+telepathy-butterfly
+telepathy-gabble
+telepathy-haze
+telepathy-idle
+telepathy-mission-control
+telepathy-salut
 terminfo-base
 terminus-font
 tightvnc
@@ -1045,13 +1065,14 @@ update-test-security
 update-test-trival
 upower
 upower-lang
-upstart
 usbutils
 utempter
 util-linux
 vim
 vim-base
 vino
+virtualbox-ose-guest-kmp-desktop
+virtualbox-ose-guest-tools
 vmware-guest-kmp-desktop
 vorbis-tools
 vpnc
@@ -1088,8 +1109,10 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
@@ -1186,7 +1209,6 @@ yast2-tv
 yast2-update
 yast2-users
 yast2-vm
-yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
 yelp

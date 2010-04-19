@@ -27,8 +27,6 @@ MozillaFirefox
 MozillaFirefox-branding-openSUSE
 MozillaFirefox-theme-oxygen
 MozillaFirefox-translations-common
-MozillaSunbird
-MozillaSunbird-translations
 MozillaThunderbird
 MozillaThunderbird-translations-common
 NetworkManager
@@ -62,6 +60,7 @@ OpenOffice_org-LanguageTool-ru
 OpenOffice_org-LanguageTool-sv
 OpenOffice_org-Quickstarter
 OpenOffice_org-base
+OpenOffice_org-base-drivers-mysql
 OpenOffice_org-base-extensions
 OpenOffice_org-branding-openSUSE
 OpenOffice_org-calc
@@ -151,7 +150,7 @@ OpenOffice_org-voikko
 OpenOffice_org-writer
 OpenOffice_org-writer-extensions
 PackageKit
-PackageKit-branding-upstream
+PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
@@ -198,6 +197,8 @@ alsa-plugins-pulse
 alsa-tools
 alsa-utils
 amarok
+amavisd-new
+amavisd-new-docs
 amor
 anjuta
 ant
@@ -274,8 +275,6 @@ aspell-sv
 at
 at-spi
 at-spi-devel
-at-spi2-atk
-at-spi2-core
 atftp
 atk-devel
 atk-doc
@@ -286,7 +285,6 @@ audiofile
 audiofile-devel
 audit
 audit-devel
-audit-libs
 augeas-lenses
 autoconf
 autofs
@@ -355,6 +353,7 @@ bootsplash-branding-openSUSE
 bovo
 branding-openSUSE
 brasero
+brasero-nautilus
 bridge-utils
 bsd-games
 bsf
@@ -592,6 +591,8 @@ emacs
 emacs-info
 emacs-nox
 emacs-x11
+empathy
+empathy-lang
 enchant
 enchant-devel
 enchant-voikko
@@ -756,8 +757,6 @@ gjiten
 glade
 glade-sharp2
 glchess
-glib
-glib-devel
 glib-sharp2
 glib2
 glib2-branding-openSUSE
@@ -798,6 +797,7 @@ gnome-docker
 gnome-games-recommended
 gnome-games-support
 gnome-icon-theme
+gnome-icon-theme-extras
 gnome-js-common
 gnome-keyring
 gnome-keyring-pam
@@ -865,6 +865,7 @@ graphviz-devel
 graphviz-gd
 graphviz-gnome
 grep
+grepmail
 grip
 grip-lang
 groff
@@ -935,6 +936,7 @@ heartbeat-common
 heartbeat-resources
 hfsutils
 hicolor-icon-theme
+hicolor-icon-theme-branding-openSUSE
 hplip
 hplip-hpijs
 htdig
@@ -1240,7 +1242,6 @@ kig
 kimagemapeditor
 kinfocenter
 kinput2
-kinternet
 kio_audiocd
 kio_beagle
 kio_iso
@@ -1324,7 +1325,6 @@ kontact
 konversation
 konversation-lang
 kopete
-kopete-protocol-facebook
 korganizer
 kpartx
 kpat
@@ -1350,6 +1350,7 @@ ksmolt
 ksnapshot
 kspaceduel
 ksquares
+ksshaskpass
 kstars
 kstars-data
 ksudoku
@@ -1438,7 +1439,9 @@ libattica-devel
 libattica0
 libattr
 libattr-devel
+libaudit1
 libaugeas0
+libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core6
@@ -1503,6 +1506,7 @@ libcdio10
 libcdio_cdda0
 libcdio_paranoia0
 libcelt0-0
+libchamplain0
 libcheese-gtk18
 libchewing
 libcloog0
@@ -1718,7 +1722,6 @@ libjack0
 libjasper
 libjasper-devel
 libjpeg-devel
-libjpeg6
 libjpeg8
 libkcddb4
 libkcompactdisc4
@@ -1755,6 +1758,7 @@ libldapcpp1
 libldb0
 liblensfun0
 liblirc_client0
+liblockdev1
 libloudmouth-1-0
 liblouis2
 liblpsolve55
@@ -1766,6 +1770,8 @@ liblzo2-2
 libmal
 libmal-devel
 libmalaga7
+libmariadbclient16
+libmariadbclient_r16
 libmcrypt
 libmenu-cache1
 libmm14
@@ -1773,6 +1779,7 @@ libmng
 libmng-devel
 libmodman0_0_0
 libmodplug0
+libmoon0
 libmpc2
 libmpcdec5
 libmpfr1
@@ -1787,6 +1794,7 @@ libmxml1
 libmysqlclient-devel
 libmysqlclient16
 libmysqlclient_r16
+libmysqld0
 libncurses5
 libncurses6
 libneon-devel
@@ -1836,7 +1844,7 @@ libopensync-tools
 liborc-0_4-0
 libosip2
 libosip2-devel
-libotf
+libotf0
 libotr2
 libpacemaker3
 libpackagekit-glib2-14
@@ -1895,7 +1903,6 @@ libqca2-devel
 libqdialogsolver1
 libqimageblitz-devel
 libqimageblitz4
-libqjson0
 libqscintilla2-5
 libqt4
 libqt4-devel
@@ -1916,6 +1923,8 @@ librasqal-devel
 librasqal2
 libraw1394-8
 libraw1394-devel
+librcc0
+librcd0
 libreadline6
 libredland-devel
 libredland0
@@ -1971,6 +1980,7 @@ libtasn1
 libtasn1-3
 libtcnative-1-0
 libtdb1
+libtelepathy-farsight0
 libtelepathy-glib0
 libtevent0
 libtheora0
@@ -2025,8 +2035,11 @@ libx86emu1
 libxcrypt
 libxfce4menu-0_1-0
 libxfce4util
+libxfce4util-devel
 libxfcegui4
+libxfcegui4-devel
 libxfconf-0-2
+libxfconf-devel
 libxine-devel
 libxine1
 libxine1-gnome-vfs
@@ -2036,6 +2049,8 @@ libxklavier16
 libxml2
 libxml2-devel
 libxml2-python
+libxmmsclient-glib1
+libxmmsclient6
 libxslt
 libxslt-devel
 libxslt-python
@@ -2058,8 +2073,12 @@ links
 linux-atm-lib
 linux-glibc-devel
 lirc
+lirc-kmp-default
+lirc-kmp-desktop
+lirc-kmp-xen
 lirc-remotes
 lklug
+lockdev
 log4j-mini
 login
 logrotate
@@ -2076,6 +2095,7 @@ lukemftp
 lv
 lvm2
 lxappearance
+lxcc
 lxde-common
 lxde-common-branding-openSUSE
 lxdm
@@ -2116,6 +2136,8 @@ man-pages-zh_CN
 manufacturer-PPDs
 marble
 marble-data
+mariadb
+mariadb-client
 master-boot-code
 mc
 mdadm
@@ -2165,6 +2187,7 @@ mono-zeroconf
 mono-zeroconf-provider-avahi
 monodevelop
 monodoc-core
+moonlight-plugin
 motv
 mousepad
 mousetweaks
@@ -2216,8 +2239,6 @@ myspell-russian
 myspell-spanish
 myspell-swedish
 myspell-swedish-finland
-mysql
-mysql-client
 mysql-connector-java
 nagios
 nagios-plugins
@@ -2229,6 +2250,7 @@ nautilus-evince
 nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
+nautilus-sendto-plugin-empathy
 nautilus-sendto-plugin-evolution
 nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
@@ -2318,6 +2340,7 @@ orca
 oro
 oxygen-icon-theme
 oxygen-icon-theme-scalable
+oxygen-molecule
 ozerocdoff
 p7zip
 pacemaker
@@ -2336,6 +2359,7 @@ pan-lang
 pango
 pango-devel
 paprefs
+papyon
 par
 parcellite
 parley
@@ -2454,10 +2478,12 @@ perl-Apache-DBI
 perl-Apache-Session
 perl-Apache-SessionX
 perl-AppConfig
+perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-BIND-Conf_Parser
 perl-BSD-Resource
+perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
@@ -2483,6 +2509,8 @@ perl-Convert-UUlib
 perl-Crypt-Blowfish
 perl-Crypt-CBC
 perl-Crypt-DES
+perl-Crypt-OpenSSL-RSA
+perl-Crypt-OpenSSL-Random
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
@@ -2503,6 +2531,7 @@ perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-Email-Date-Format
+perl-Encode-Detect
 perl-Encode-HanExtra
 perl-Encode-JIS2K
 perl-ExtUtils-Depends
@@ -2536,10 +2565,12 @@ perl-HTML-Tree
 perl-HTTP-DAV
 perl-HTTPS-Daemon
 perl-IO-Multiplex
+perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-String
 perl-IO-Stty
 perl-IO-stringy
+perl-IP-Country
 perl-IPC-Run
 perl-Image-Size
 perl-Inline
@@ -2551,15 +2582,20 @@ perl-MIME-Types
 perl-MIME-tools
 perl-MLDBM
 perl-MLDBM-Sync
+perl-Mail-DKIM
 perl-Mail-Mbox-MessageParser
+perl-Mail-SPF
+perl-Mail-SpamAssassin
 perl-MailTools
 perl-Mcrypt
 perl-Module-Info
 perl-NKF
+perl-Net-CIDR-Lite
 perl-Net-DNS
 perl-Net-Daemon
 perl-Net-IP
 perl-Net-IPv4Addr
+perl-Net-Ident
 perl-Net-Jabber
 perl-Net-Netmask
 perl-Net-SNMP
@@ -2594,6 +2630,7 @@ perl-Set-Object
 perl-Set-Scalar
 perl-Socket6
 perl-Sub-Name
+perl-Sys-Hostname-Long
 perl-Task-Weaken
 perl-Template-Toolkit
 perl-TermReadKey
@@ -2614,6 +2651,7 @@ perl-Tk
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
+perl-Unix-Syslog
 perl-WWW-Curl
 perl-WeakRef
 perl-X500-DN
@@ -2640,6 +2678,7 @@ perl-libapparmor
 perl-libconfigfile
 perl-libwww-perl
 perl-libxml-perl
+perl-razor-agents
 perlref
 permissions
 pessulus
@@ -2767,7 +2806,7 @@ pwdutils
 pwgen
 pychecker
 python
-python-atspi
+python-atspi-corba
 python-base
 python-beaker
 python-cairo
@@ -2802,6 +2841,7 @@ python-imaging
 python-kde4
 python-kdebase4
 python-ldap
+python-libproxy
 python-logilab-astng
 python-logilab-common
 python-louis
@@ -2827,6 +2867,7 @@ python-setuptools
 python-simplejson
 python-sip
 python-smbc
+python-telepathy
 python-tk
 python-twisted
 python-twisted-doc
@@ -2858,8 +2899,10 @@ rarian
 rarpd
 rasqal
 raw-thumbnailer
+rcc-runtime
 rcs
 rdesktop
+re2c
 readline-devel
 readline-doc
 recode
@@ -2904,11 +2947,6 @@ sane-backends
 sane-backends-autoconfig
 sash
 satsolver-tools
-sax2
-sax2-gui
-sax2-ident
-sax2-libsax
-sax2-libsax-perl
 sax2-tools
 saxon
 sazanami-fonts
@@ -2989,6 +3027,7 @@ soprano-backend-virtuoso
 sound-juicer
 sound-theme-freedesktop
 sox
+spamassassin
 speedcrunch
 splashy
 splashy-branding-openSUSE
@@ -3029,6 +3068,7 @@ svg-schema
 sweeper
 swell-foop
 swig
+synaptiks
 sysconfig
 sysfsutils
 syslinux
@@ -3057,6 +3097,12 @@ tcsh
 tdom
 tei-roma
 tei-xsl-stylesheets
+telepathy-butterfly
+telepathy-gabble
+telepathy-haze
+telepathy-idle
+telepathy-mission-control
+telepathy-salut
 telnet
 terminfo
 terminfo-base
@@ -3158,6 +3204,7 @@ uim-qt
 uim-qt4
 ulimit
 umbrello
+unarj
 unclutter
 unfonts
 ungifsicle
@@ -3195,6 +3242,11 @@ vino
 virt-manager
 virt-utils
 virt-viewer
+virtualbox-ose
+virtualbox-ose-guest-kmp-default
+virtualbox-ose-guest-tools
+virtualbox-ose-host-kmp-default
+virtualbox-ose-host-kmp-desktop
 virtuoso-drivers
 virtuoso-server
 vlan
@@ -3221,6 +3273,7 @@ wget
 whois
 wiggle
 wine
+wine-32bit
 wine-gecko
 wireless-regdb
 wireless-tools
@@ -3351,14 +3404,17 @@ xmlformat
 xmlstarlet
 xmlto
 xmms2
+xmms2-plugin-base
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-devel
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-video-unichrome
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-fonts-devel
@@ -3476,6 +3532,7 @@ yast2-nis-client
 yast2-nis-server
 yast2-ntp-client
 yast2-online-update
+yast2-online-update-configuration
 yast2-online-update-frontend
 yast2-packager
 yast2-packager-webpin
@@ -3573,7 +3630,6 @@ yast2-tv
 yast2-update
 yast2-users
 yast2-vm
-yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
 yelp
@@ -3589,5 +3645,6 @@ zip
 zisofs-tools
 zlib
 zlib-devel
+zoo
 zsh
 zypper

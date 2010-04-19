@@ -14,9 +14,10 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 aria2
+aspell
+aspell-en
 attr
 audit
-audit-libs
 augeas-lenses
 autofs
 autoyast2-installation
@@ -97,6 +98,7 @@ gzip
 hal
 hdparm
 hicolor-icon-theme
+hicolor-icon-theme-branding-openSUSE
 hwinfo
 icedax
 ifplugd
@@ -124,7 +126,9 @@ libasound2
 libassuan0
 libatasmart4
 libattr
+libaudit1
 libaugeas0
+libauparse0
 libblkid1
 libblocxx6
 libbz2-1
@@ -140,6 +144,7 @@ libdevkit-power-gobject1
 libdw1
 libeggdbus-1-0
 libelf1
+libenca0
 libevent-1_4-2
 libexpat1
 libext2fs2
@@ -164,14 +169,13 @@ libksba
 liblcms1
 libldap-2_4-2
 libldapcpp1
-libldb0
 liblua5_1
 liblzma0
 liblzo2-2
 libmng
 libncurses5
 libncurses5-32bit
-libnih
+libncurses6
 libnl
 libnscd
 libnuma1
@@ -186,6 +190,8 @@ libpoppler5
 libpopt0
 libpth20
 libpython2_6-1_0
+librcc0
+librcd0
 libreadline6
 libreiserfs
 libselinux1
@@ -196,8 +202,6 @@ libstorage
 libtalloc2
 libtasn1
 libtasn1-3
-libtdb1
-libtevent0
 libtiff3
 libtirpc1
 libudev0
@@ -205,7 +209,6 @@ libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
 libuuid1
-libwbclient0
 libx86
 libx86emu1
 libxcrypt
@@ -313,6 +316,7 @@ python
 python-base
 python-satsolver
 python-xml
+rcc-runtime
 recode
 reiserfs
 release-notes-openSUSE
@@ -320,7 +324,6 @@ rpcbind
 rpm
 rpm-python
 rsyslog
-samba-client
 satsolver-tools
 scout
 sed
@@ -334,6 +337,7 @@ sudo
 suseRegister
 sysconfig
 sysfsutils
+sysvinit
 sysvinit-tools
 tar
 tcpd
@@ -354,7 +358,6 @@ update-test-security
 update-test-trival
 upower
 upower-lang
-upstart
 usbutils
 utempter
 util-linux

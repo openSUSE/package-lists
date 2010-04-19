@@ -44,7 +44,7 @@ OpenOffice_org-thesaurus-en-US
 OpenOffice_org-ure
 OpenOffice_org-writer
 PackageKit
-PackageKit-branding-upstream
+PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
@@ -80,7 +80,6 @@ atmel-firmware
 attr
 audiofile
 audit
-audit-libs
 augeas-lenses
 autofs
 autoyast2-installation
@@ -237,6 +236,7 @@ gzip
 hal
 hdparm
 hicolor-icon-theme
+hicolor-icon-theme-branding-openSUSE
 htdig
 hunspell
 hunspell-tools
@@ -336,7 +336,6 @@ kontact
 konversation
 konversation-lang
 kopete
-kopete-protocol-facebook
 korganizer
 kpartx
 kpat
@@ -349,6 +348,7 @@ kruler
 kscd
 ksmolt
 ksnapshot
+ksshaskpass
 ksudoku
 ktorrent
 kupdateapplet
@@ -383,7 +383,9 @@ libatasmart4
 libatk-1_0-0
 libattica0
 libattr
+libaudit1
 libaugeas0
+libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core6
@@ -415,6 +417,7 @@ libdvdread4
 libdw1
 libeggdbus-1-0
 libelf1
+libenca0
 libenchant1
 libepub0
 liberation-fonts
@@ -495,6 +498,8 @@ libltdl7
 liblua5_1
 liblzma0
 liblzo2-2
+libmariadbclient16
+libmariadbclient_r16
 libmng
 libmodman0_0_0
 libmodplug0
@@ -506,10 +511,10 @@ libmtp8
 libmusicbrainz4
 libmysqlclient16
 libmysqlclient_r16
+libmysqld0
 libncurses5
 libncurses6
 libneon27
-libnih
 libnl
 libnotify
 libnotify1
@@ -552,7 +557,6 @@ libpulse0
 libpython2_6-1_0
 libqca2
 libqimageblitz4
-libqjson0
 libqt4
 libqt4-qt3support
 libqt4-sql
@@ -562,6 +566,8 @@ libqt4-x11
 libraptor1
 librasqal2
 libraw1394-8
+librcc0
+librcd0
 libreadline6
 libredland0
 libreiserfs
@@ -646,6 +652,8 @@ lvm2
 mailx
 man
 manufacturer-PPDs
+mariadb
+mariadb-client
 master-boot-code
 mc
 mdadm
@@ -667,8 +675,6 @@ mpt-firmware
 mtools
 multipath-tools
 myspell-american
-mysql
-mysql-client
 nano
 ncurses-utils
 ndiswrapper
@@ -703,6 +709,7 @@ opensuse-codecs-installer
 openvpn
 orbit2
 oxygen-icon-theme
+oxygen-molecule
 ozerocdoff
 pam
 pam-config
@@ -825,6 +832,7 @@ qt4-qtscript
 qtcurve-gtk2
 qtcurve-kde4
 quota
+rcc-runtime
 recode
 redland
 reiserfs
@@ -867,9 +875,11 @@ susehelp_en
 susehelp_it
 suspend
 sweeper
+synaptiks
 sysconfig
 sysfsutils
 systemtap-runtime
+sysvinit
 sysvinit-tools
 taglib
 tar
@@ -898,12 +908,13 @@ update-test-security
 update-test-trival
 upower
 upower-lang
-upstart
 usbutils
 utempter
 util-linux
 vim
 vim-base
+virtualbox-ose-guest-kmp-default
+virtualbox-ose-guest-tools
 virtuoso-drivers
 virtuoso-server
 vmware-guest-kmp-default
@@ -934,8 +945,10 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
+xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
+xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
@@ -1032,7 +1045,6 @@ yast2-tv
 yast2-update
 yast2-users
 yast2-vm
-yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
