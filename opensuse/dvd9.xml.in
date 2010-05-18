@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
+    <system file="solver-system.xml"/>
+    <!-- Tier 1 -->
+    <locale name="en_US"/>
+    <locale name="en_GB"/>
+    <locale name="pt"/>
+    <locale name="pt_BR"/>
+    <locale name="en"/>
+    <locale name="de"/>
+    <locale name="es"/>
+    <locale name="it"/>
+    <locale name="fr"/>
+    <locale name="ja"/>
+    <locale name="zh"/>
+    <locale name="zh_TW"/>
+    <locale name="zh_CN"/>
+    <!-- Tier 2 -->
+    <locale name="ru"/>
+    <locale name="cs"/>
+    <locale name="hu"/>
+    <locale name="pl"/>
+    <locale name="fi"/>
+    <locale name="da"/>
+    <locale name="nb"/>
+    <locale name="sv"/>
+    <locale name="nl"/>
+  </setup>
+  <trial>
+    <lock package="xerces-j2-xml-resolver"/>
+    <lock package="xerces-j2-xml-apis"/>
+    <lock package="gnu-javamail"/>
+    <lock package="novell-NLDAPsdk-dyn"/>
+    <lock package="gnuchess"/>
+    <lock package="atftp"/>
+    <lock package="notification-daemon-xfce"/>
+    <lock package="java-1_4_2-ibm"/>
+    <lock package="myspell-german-old"/>
+    <lock package="helix-banshee"/>
+    <lock package="squid"/>
+    <lock package="icewm-default"/>
+    <lock package="eclipse"/> <!-- !x86_64 !i586 -->
+    <lock package="eclipse-archdep-platform-commons"/>
+    <lock package="hpijs-standalone"/>
+    <lock package="geronimo-tomcat-servlet-container"/>
+    <lock kind="package" name="iscan"/>
+    <lock kind="package" name="acroread_ja"/>
+    <lock kind="package" name="apache2-worker"/>
+    <lock kind="package" name="sysvinit"/>
+    <!-- INCLUDE frozens.xml -->
+    <!-- INCLUDE ignore_opensuse.xml -->
+    <install kind="pattern" name="rest_dvd9"/>
+    <install kind="package" name="openSUSE-release-dvd-biarch"/>
+    <install kind="pattern" name="devel_gnome"/>
+    <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
+    <reportProblems/>
+    <showpool verbose="true"/>
+  </trial>
+</test>
