@@ -637,6 +637,7 @@ libpulse-browse0
 libpulse-mainloop-glib0
 libpulse0
 libpurple
+libpurple-tcl
 libpython2_6-1_0
 libquicktime
 libraw1394-8
@@ -770,7 +771,6 @@ nautilus-open-terminal
 nautilus-sendto
 nautilus-sendto-plugin-empathy
 nautilus-sendto-plugin-evolution
-nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
 nautilus-share
 nautilus-totem
@@ -890,8 +890,6 @@ perl-libapparmor
 perl-libwww-perl
 permissions
 phalanx
-pidgin
-pidgin-branding-openSUSE
 pinentry
 pinentry-gtk2
 pkcs11-helper
@@ -1021,6 +1019,7 @@ taglib-sharp
 tango-icon-theme
 tar
 tasque
+tcl
 tcpd
 telepathy-butterfly
 telepathy-gabble
@@ -1032,7 +1031,7 @@ terminfo-base
 terminus-font
 tightvnc
 timezone
-tmpwatch
+tk
 tomboy
 totem
 totem-browser-plugin
@@ -1061,6 +1060,8 @@ update-test-security
 update-test-trival
 upower
 upower-lang
+usb_modeswitch
+usb_modeswitch-data
 usbutils
 utempter
 util-linux
@@ -1091,6 +1092,7 @@ xalan-j2
 xchat
 xchat-perl
 xchat-python
+xchat-tcl
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk

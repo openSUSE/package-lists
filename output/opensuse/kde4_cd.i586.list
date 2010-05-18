@@ -48,8 +48,6 @@ PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
-PolicyKit
-PolicyKit-doc
 SuSEfirewall2
 a2ps
 aaa_base
@@ -144,6 +142,7 @@ dbus-1
 dbus-1-glib
 dbus-1-python
 dbus-1-x11
+dcraw
 ddrescue
 dejavu
 deltarpm
@@ -319,6 +318,7 @@ kio_iso
 kio_kamera
 kio_sysinfo
 kio_sysinfo-branding-openSUSE
+kipi-plugins
 klogd
 kmag
 kmahjongg
@@ -409,6 +409,7 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdc1394-22
 libdevkit-power-gobject1
 libdjvulibre21
 libdnet1
@@ -475,6 +476,7 @@ libjasper
 libjpeg8
 libkcddb4
 libkcompactdisc4
+libkdcraw8
 libkde4
 libkdecore4
 libkdegames4
@@ -522,6 +524,7 @@ libnscd
 libnsssharedhelper0
 libogg0
 liboil
+libopencv2
 libopenobex1
 libopenraw1
 libopenssl0_9_8
@@ -693,7 +696,6 @@ ntfsprogs
 ntp
 numlockx
 obex-data-server
-okteta
 okular
 open-vm-tools
 open-vm-tools-gui
@@ -829,8 +831,6 @@ python-sip
 python-urlgrabber
 python-xml
 qt4-qtscript
-qtcurve-gtk2
-qtcurve-kde4
 quota
 rcc-runtime
 recode
@@ -883,12 +883,12 @@ sysvinit
 sysvinit-tools
 taglib
 tar
+tcl
 tcpd
 terminfo-base
 terminus-font
 tightvnc
 timezone
-tmpwatch
 translation-update
 translation-update-de
 translation-update-it
@@ -908,6 +908,8 @@ update-test-security
 update-test-trival
 upower
 upower-lang
+usb_modeswitch
+usb_modeswitch-data
 usbutils
 utempter
 util-linux
@@ -974,7 +976,6 @@ xorg-x11-xauth
 xstroke
 xterm
 xz
-yakuake
 yast2
 yast2-add-on
 yast2-apparmor
