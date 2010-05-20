@@ -33,7 +33,6 @@ OpenOffice_org-impress
 OpenOffice_org-kde4
 OpenOffice_org-l10n-de
 OpenOffice_org-l10n-extras
-OpenOffice_org-l10n-it
 OpenOffice_org-l10n-ru
 OpenOffice_org-libs-core
 OpenOffice_org-libs-extern
@@ -72,7 +71,6 @@ ark
 aspell
 aspell-de
 aspell-en
-aspell-it
 aspell-ru
 atmel-firmware
 attr
@@ -97,11 +95,9 @@ branding-openSUSE
 btrfsprogs
 bundle-lang-common-de
 bundle-lang-common-en
-bundle-lang-common-it
 bundle-lang-common-ru
 bundle-lang-kde-de
 bundle-lang-kde-en
-bundle-lang-kde-it
 bundle-lang-kde-ru
 bzip2
 ca-certificates
@@ -233,7 +229,6 @@ gtk2-metatheme-sonar
 gtkmm2
 gwenview
 gzip
-hal
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -275,7 +270,6 @@ kcolorchooser
 kde4-filesystem
 kde4-kgreeter-plugins
 kde4-l10n-de
-kde4-l10n-it
 kde4-l10n-ru
 kdeartwork4-screensaver
 kdebase4
@@ -469,6 +463,7 @@ libical0
 libicu
 libidl
 libidn
+libimobiledevice1
 libiodbc3
 libiw30
 libjack0
@@ -499,8 +494,6 @@ libltdl7
 liblua5_1
 liblzma0
 liblzo2-2
-libmariadbclient16
-libmariadbclient_r16
 libmng
 libmodman0_0_0
 libmodplug0
@@ -540,7 +533,6 @@ libphonon4
 libpixman-1-0
 libpkcs11-helper1
 libplist1
-libpng12-0
 libpng14-14
 libpolkit-qt-1-0
 libpolkit0
@@ -610,6 +602,7 @@ libupower-glib1
 liburiparser1
 libusb-0_1-4
 libusb-1_0-0
+libusbmuxd1
 libuuid1
 libv4l
 libv4l1-0
@@ -656,8 +649,6 @@ lvm2
 mailx
 man
 manufacturer-PPDs
-mariadb
-mariadb-client
 master-boot-code
 mc
 mdadm
@@ -679,6 +670,8 @@ mpt-firmware
 mtools
 multipath-tools
 myspell-american
+mysql-community-server
+mysql-community-server-client
 nano
 ncurses-utils
 ndiswrapper
@@ -714,7 +707,6 @@ openvpn
 orbit2
 oxygen-icon-theme
 oxygen-molecule
-ozerocdoff
 pam
 pam-config
 pam-modules
@@ -846,7 +838,6 @@ sax2-tools
 sbl
 scout
 sed
-setserial
 sg3_utils
 shared-desktop-ontologies
 shared-mime-info
@@ -870,7 +861,6 @@ suseRegister
 susehelp
 susehelp_de
 susehelp_en
-susehelp_it
 suspend
 sweeper
 synaptiks
@@ -888,7 +878,6 @@ tightvnc
 timezone
 translation-update
 translation-update-de
-translation-update-it
 translation-update-ru
 udev
 udisks
@@ -905,6 +894,7 @@ update-test-security
 update-test-trival
 upower
 upower-lang
+usbmuxd
 usbutils
 utempter
 util-linux
@@ -1032,7 +1022,6 @@ yast2-theme-openSUSE
 yast2-theme-openSUSE-Oxygen
 yast2-trans-de
 yast2-trans-en_US
-yast2-trans-it
 yast2-trans-ru
 yast2-trans-stats
 yast2-transfer

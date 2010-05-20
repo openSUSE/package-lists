@@ -324,9 +324,7 @@ bc
 bcel
 bea-stax-api
 beagle
-beagle-evolution
 beagle-firefox
-beagle-gui
 beagle-index
 beaver
 bin86
@@ -637,13 +635,13 @@ ethtool
 evince
 evolution
 evolution-data-server
-evolution-data-server-32bit
 evolution-data-server-devel
 evolution-devel
 evolution-mono-plugins
 evolution-pilot
 evolution-python-plugins
 evolution-sharp
+evolution-tracker
 evolution-webcal
 exiftool
 exo
@@ -787,6 +785,7 @@ gimp-help-nl
 gimp-help-pl
 gimp-help-ru
 gimp-help-sv
+gimp-module-hal
 gimp-plugins-python
 gimp-ufraw
 gio-sharp
@@ -828,6 +827,7 @@ gnet
 gnokii
 gnome-applets
 gnome-applets-colorblind
+gnome-applets-gdm
 gnome-audio
 gnome-backgrounds
 gnome-bluetooth
@@ -864,7 +864,6 @@ gnome-menus-devel
 gnome-nettool
 gnome-packagekit
 gnome-panel
-gnome-panel-32bit
 gnome-panel-sharp
 gnome-phone-manager
 gnome-pilot
@@ -874,6 +873,7 @@ gnome-print-sharp
 gnome-python-desktop
 gnome-screensaver
 gnome-session
+gnome-session-core
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
@@ -992,7 +992,6 @@ hal
 hal-32bit
 hal-devel
 hal-devel-32bit
-hal-palm
 handedict
 hdparm
 heartbeat-common
@@ -1124,6 +1123,7 @@ java-1_5_0-gcj-compat-devel
 java-1_6_0-openjdk
 java-1_6_0-openjdk-devel
 java-1_6_0-openjdk-plugin
+java-ca-certificates
 javacc
 jdepend
 jedit
@@ -1542,8 +1542,6 @@ libavc1394-0-32bit
 libavc1394-devel
 libavc1394-devel-32bit
 libbabl-0_1-0
-libbeagle-devel
-libbeagle-python
 libbeagle1
 libblas3
 libblkid-devel
@@ -1680,14 +1678,12 @@ libfm0
 libfprint0
 libfprint0-32bit
 libfreebl3
-libfreebl3-32bit
 libfreetype6
 libfreetype6-32bit
 libftgl2
 libfuse2
 libgadu
 libgail-gnome
-libgail-gnome-32bit
 libgail-gnome-devel
 libgcc45
 libgcc45-32bit
@@ -1713,6 +1709,7 @@ libgdiplus0
 libgdl-1-3
 libgdu-gtk0
 libgdu0
+libgee2
 libgegl-0_1-0
 libgeoclue0
 libgfortran45
@@ -1834,14 +1831,12 @@ libgvfscommon0
 libgweather
 libgweather-devel
 libgweather1
-libgweather1-32bit
 libgwenhywfar47
 libgwenhywfar47-plugins
 libhangul
 libheartbeat2
 libical-devel
 libical0
-libical0-32bit
 libicu
 libid3tag
 libidl
@@ -1853,6 +1848,7 @@ libidn-devel
 libiec61883
 libieee1284
 libieee1284-32bit
+libimobiledevice1
 libindi0
 libiniparser0
 libiniparser0-32bit
@@ -1971,7 +1967,6 @@ libnscd
 libnscd-32bit
 libnss_compat_ossl0
 libnsssharedhelper0
-libnsssharedhelper0-32bit
 libnuma1
 libobjc45
 libobjc45-32bit
@@ -1999,7 +1994,6 @@ libopenssl1_0_0-32bit
 libopensync
 libopensync-plugin-evolution2
 libopensync-plugin-file
-libopensync-plugin-gnokii
 libopensync-plugin-google-calendar
 libopensync-plugin-gpe
 libopensync-plugin-irmc
@@ -2017,6 +2011,7 @@ libotf0
 libotr2
 libpacemaker3
 libpackagekit-glib2-14
+libpanel-applet-2-0
 libpangomm-1_4-1
 libpcap1
 libpciaccess0
@@ -2146,7 +2141,6 @@ libsndfile
 libsndfile-32bit
 libsnmp20
 libsoftokn3
-libsoftokn3-32bit
 libsoprano-devel
 libsoprano4
 libsoup-2_4-1
@@ -2194,6 +2188,9 @@ libtirpc1
 libtomoe-gtk0
 libtool
 libtool-32bit
+libtracker-client-0_8-0
+libtracker-extract-0_8-0
+libtracker-miner-0_8-0
 libtunepimp
 libtunepimp5
 libudev0
@@ -2208,6 +2205,7 @@ libusb-1_0-0
 libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
+libusbmuxd1
 libuuid-devel
 libuuid1
 libuuid1-32bit
@@ -2217,6 +2215,7 @@ libv4l2-0
 libv4l2-0-32bit
 libv4lconvert0
 libv4lconvert0-32bit
+libvdpau1
 libvirt
 libvirt-client
 libvirt-python
@@ -2240,7 +2239,6 @@ libwmf-gnome
 libwmf-gnome-32bit
 libwnck
 libwnck-1-22
-libwnck-1-22-32bit
 libwnck-devel
 libwpd-0_8-8
 libwpg-0_1-1
@@ -2419,12 +2417,9 @@ mousetweaks
 mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
-mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
-mozilla-nss-32bit
 mozilla-nss-certs
-mozilla-nss-certs-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner191
@@ -2486,6 +2481,7 @@ nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
 nautilus-share
 nautilus-totem
+nautilus-tracker
 nbd
 nbd-doc
 ncftp
@@ -2581,7 +2577,6 @@ oro
 oxygen-icon-theme
 oxygen-icon-theme-scalable
 oxygen-molecule
-ozerocdoff
 p7zip
 pacemaker
 pam
@@ -3433,6 +3428,10 @@ totem-browser-plugin
 totem-browser-plugin-gmp
 totem-pl-parser
 totem-plugins
+tracker
+tracker-devel
+tracker-gui
+tracker-lang
 trang
 transfig
 translation-update
@@ -3499,6 +3498,7 @@ upower-lang
 upstart
 usb_modeswitch
 usb_modeswitch-data
+usbmuxd
 usbutils
 utempter
 utempter-32bit

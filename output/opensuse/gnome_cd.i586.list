@@ -45,9 +45,6 @@ PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
-PolicyKit
-PolicyKit-gnome
-PolicyKit-gnome-libs
 SuSEfirewall2
 a2ps
 aaa_base
@@ -83,7 +80,6 @@ augeas-lenses
 autofs
 autoyast2-installation
 avahi
-avahi-mono
 awesfx
 b43-fwcutter
 banshee-1
@@ -99,9 +95,6 @@ banshee-1-dmp-mtp
 banshee-1-extensions-default
 bash
 bc
-beagle
-beagle-evolution
-beagle-gui
 bind-libs
 bind-utils
 bluez
@@ -206,8 +199,8 @@ evolution-mono-plugins
 evolution-pilot
 evolution-python-plugins
 evolution-sharp
+evolution-tracker
 f-spot
-f-spot-extension-beagle
 fam
 fbset
 fftw3
@@ -269,6 +262,7 @@ gmime-sharp
 gnokii
 gnome-applets
 gnome-applets-colorblind
+gnome-applets-gdm
 gnome-audio
 gnome-bluetooth
 gnome-control-center
@@ -301,6 +295,7 @@ gnome-power-manager
 gnome-python-desktop
 gnome-screensaver
 gnome-session
+gnome-session-core
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
@@ -323,11 +318,9 @@ gpm
 grep
 groff
 grub
-gsf-sharp
 gstreamer-0_10
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
-gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
@@ -353,8 +346,6 @@ gvfs
 gvfs-backends
 gvfs-fuse
 gzip
-hal
-hal-palm
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -421,9 +412,7 @@ libavahi-common3
 libavahi-core6
 libavahi-glib1
 libavahi-gobject0
-libavahi-ui0
 libbabl-0_1-0
-libbeagle1
 libblas3
 libblkid1
 libblocxx6
@@ -493,6 +482,7 @@ libgcrypt11
 libgdata7
 libgdiplus0
 libgdu0
+libgee2
 libgegl-0_1-0
 libgeoclue0
 libgfortran45
@@ -609,6 +599,7 @@ libopensync
 libopensync-plugin-file
 liborc-0_4-0
 libpackagekit-glib2-14
+libpanel-applet-2-0
 libpangomm-1_4-1
 libpcap1
 libpciaccess0
@@ -618,7 +609,6 @@ libpisock9
 libpisync1
 libpixman-1-0
 libpkcs11-helper1
-libpng12-0
 libpng14-14
 libpolkit0
 libpoppler-glib4
@@ -678,6 +668,9 @@ libtevent0
 libtheora0
 libtiff3
 libtirpc1
+libtracker-client-0_8-0
+libtracker-extract-0_8-0
+libtracker-miner-0_8-0
 libudev0
 libunique-1_0-0
 libupower-glib1
@@ -773,6 +766,7 @@ nautilus-sendto-plugin-evolution
 nautilus-sendto-plugin-upnp
 nautilus-share
 nautilus-totem
+nautilus-tracker
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
@@ -808,7 +802,6 @@ opensuse-codecs-installer
 openvpn
 orbit2
 orca
-ozerocdoff
 pam
 pam-config
 pam-modules
@@ -980,7 +973,6 @@ seahorse
 seahorse-plugins
 sed
 seed
-setserial
 sg3_utils
 sgml-skel
 shared-mime-info
@@ -1035,6 +1027,9 @@ totem-browser-plugin
 totem-browser-plugin-gmp
 totem-pl-parser
 totem-plugins
+tracker
+tracker-gui
+tracker-lang
 translation-update
 translation-update-de
 translation-update-it
@@ -1078,7 +1073,6 @@ wireless-tools
 wnck-sharp
 wodim
 wpa_supplicant
-wv
 wvdial
 wvstreams
 x11-input-fujitsu

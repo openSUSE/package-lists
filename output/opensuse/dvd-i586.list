@@ -315,9 +315,7 @@ bc
 bcel
 bea-stax-api
 beagle
-beagle-evolution
 beagle-firefox
-beagle-gui
 beagle-index
 beaver
 bin86
@@ -616,6 +614,7 @@ evolution-mono-plugins
 evolution-pilot
 evolution-python-plugins
 evolution-sharp
+evolution-tracker
 evolution-webcal
 exiftool
 exo
@@ -739,6 +738,7 @@ gimp-help-nl
 gimp-help-pl
 gimp-help-ru
 gimp-help-sv
+gimp-module-hal
 gimp-plugins-python
 gimp-ufraw
 gio-sharp
@@ -776,6 +776,7 @@ gnet
 gnokii
 gnome-applets
 gnome-applets-colorblind
+gnome-applets-gdm
 gnome-audio
 gnome-backgrounds
 gnome-bluetooth
@@ -820,6 +821,7 @@ gnome-print-sharp
 gnome-python-desktop
 gnome-screensaver
 gnome-session
+gnome-session-core
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
@@ -928,7 +930,6 @@ gwibber
 gzip
 hal
 hal-devel
-hal-palm
 handedict
 hdparm
 heartbeat-common
@@ -1058,6 +1059,7 @@ java-1_5_0-gcj-compat-devel
 java-1_6_0-openjdk
 java-1_6_0-openjdk-devel
 java-1_6_0-openjdk-plugin
+java-ca-certificates
 javacc
 jdepend
 jedit
@@ -1454,8 +1456,6 @@ libavahi-ui0
 libavc1394-0
 libavc1394-devel
 libbabl-0_1-0
-libbeagle-devel
-libbeagle-python
 libbeagle1
 libblas3
 libblkid-devel
@@ -1597,6 +1597,7 @@ libgdiplus0
 libgdl-1-3
 libgdu-gtk0
 libgdu0
+libgee2
 libgegl-0_1-0
 libgeoclue0
 libgfortran45
@@ -1709,6 +1710,7 @@ libidn
 libidn-devel
 libiec61883
 libieee1284
+libimobiledevice1
 libindi0
 libiniparser0
 libiodbc3
@@ -1828,7 +1830,6 @@ libopenssl1_0_0
 libopensync
 libopensync-plugin-evolution2
 libopensync-plugin-file
-libopensync-plugin-gnokii
 libopensync-plugin-google-calendar
 libopensync-plugin-gpe
 libopensync-plugin-irmc
@@ -1846,6 +1847,7 @@ libotf0
 libotr2
 libpacemaker3
 libpackagekit-glib2-14
+libpanel-applet-2-0
 libpangomm-1_4-1
 libpcap1
 libpciaccess0
@@ -1988,6 +1990,9 @@ libtiff3
 libtirpc1
 libtomoe-gtk0
 libtool
+libtracker-client-0_8-0
+libtracker-extract-0_8-0
+libtracker-miner-0_8-0
 libtunepimp
 libtunepimp5
 libudev0
@@ -1999,12 +2004,14 @@ libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-devel
 libusb-compat-devel
+libusbmuxd1
 libuuid-devel
 libuuid1
 libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libvdpau1
 libvirt
 libvirt-client
 libvirt-python
@@ -2254,6 +2261,7 @@ nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
 nautilus-share
 nautilus-totem
+nautilus-tracker
 nbd
 nbd-doc
 ncftp
@@ -2339,7 +2347,6 @@ oro
 oxygen-icon-theme
 oxygen-icon-theme-scalable
 oxygen-molecule
-ozerocdoff
 p7zip
 pacemaker
 pam
@@ -3160,6 +3167,10 @@ totem-browser-plugin
 totem-browser-plugin-gmp
 totem-pl-parser
 totem-plugins
+tracker
+tracker-devel
+tracker-gui
+tracker-lang
 trang
 transfig
 translation-update
@@ -3225,6 +3236,7 @@ upower-lang
 upstart
 usb_modeswitch
 usb_modeswitch-data
+usbmuxd
 usbutils
 utempter
 util-linux
