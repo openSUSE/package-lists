@@ -57,7 +57,7 @@ do
   cp -a $VAR/media.1 $TESTTRACK/CD1/
   
   mkdir -p $TESTTRACK/CD1/suse/setup/descr/
-  grep -v patterns-openSUSE- $TESTTRACK/patterns/$base-*.$arch.pat > $TESTTRACK/CD1/suse/setup/descr/$base.$arch.pat
+  grep -v patterns-openSUSE-XX $TESTTRACK/patterns/$base-*.$arch.pat > $TESTTRACK/CD1/suse/setup/descr/$base.$arch.pat
   pushd $TESTTRACK/CD1/suse/setup/descr/ > /dev/null
   : > patterns
   for i in *; 
