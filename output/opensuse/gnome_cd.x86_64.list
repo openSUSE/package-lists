@@ -129,7 +129,6 @@ compiz-branding-openSUSE
 compiz-gnome
 compiz-manager
 compiz-plugins-main
-compizconfig-settings-manager
 coreutils
 cpio
 cpp
@@ -152,6 +151,7 @@ cyrus-sasl-gssapi
 cyrus-sasl-plain
 dante
 dasher
+dasher-data-recommended
 db-utils
 dbus-1
 dbus-1-glib
@@ -260,7 +260,6 @@ gnokii
 gnome-applets
 gnome-applets-colorblind
 gnome-applets-gdm
-gnome-audio
 gnome-bluetooth
 gnome-control-center
 gnome-desktop
@@ -296,7 +295,6 @@ gnome-session-core
 gnome-settings-daemon
 gnome-sharp2
 gnome-speech
-gnome-spell2
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -332,7 +330,6 @@ gtk2-engine-murrine
 gtk2-engines
 gtk2-metatheme-gilouche
 gtk2-metatheme-sonar
-gtk2-themes
 gtkglext
 gtkhtml2
 gtkmm2
@@ -340,6 +337,7 @@ gtkspell
 gucharmap
 guile
 gvfs
+gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
@@ -425,7 +423,6 @@ libcanberra-gtk
 libcanberra-gtk0
 libcanberra0
 libcap2
-libcares2
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
@@ -548,6 +545,7 @@ libicu
 libidl
 libidn
 libieee1284
+libimobiledevice1
 libiptcdata
 libiptcdata-lang
 libiptcdata0
@@ -593,7 +591,6 @@ libogg0
 liboil
 libopenobex1
 libopenraw1
-libopenssl0_9_8
 libopenssl1_0_0
 libopensync
 libopensync-plugin-file
@@ -609,6 +606,7 @@ libpisock9
 libpisync1
 libpixman-1-0
 libpkcs11-helper1
+libplist1
 libpng14-14
 libpolkit0
 libpoppler-glib4
@@ -676,6 +674,7 @@ libupower-glib1
 liburiparser1
 libusb-0_1-4
 libusb-1_0-0
+libusbmuxd1
 libuuid1
 libvisual
 libvmtools0
@@ -798,7 +797,6 @@ openslp
 openssh
 openssh-askpass
 openssl
-opensuse-codecs-installer
 openvpn
 orbit2
 orca
@@ -917,11 +915,10 @@ python
 python-atspi-corba
 python-base
 python-cairo
-python-coherence
+python-ccm
 python-compizconfig
 python-cups
 python-cupshelpers
-python-gdata
 python-gnome
 python-gnome-menus
 python-gobject2
@@ -936,17 +933,12 @@ python-notify
 python-numpy
 python-openssl
 python-orbit
-python-pam
 python-satsolver
-python-serial
-python-setuptools
 python-simplejson
 python-smbc
 python-telepathy
-python-twisted
 python-urlgrabber
 python-xml
-python-zopeinterface
 quadrapassel
 quota
 rarian
@@ -1050,6 +1042,7 @@ update-test-security
 update-test-trival
 upower
 upower-lang
+usbmuxd
 usbutils
 utempter
 util-linux
@@ -1169,7 +1162,6 @@ yast2-pkg-bindings
 yast2-printer
 yast2-registration
 yast2-registration-branding-openSUSE
-yast2-repair
 yast2-restore
 yast2-runlevel
 yast2-samba-client

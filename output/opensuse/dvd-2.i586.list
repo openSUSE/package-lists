@@ -76,13 +76,10 @@ desktop-data-openSUSE
 desktop-file-utils
 desktop-translations
 device-mapper
-dhcpcd
 diffutils
 dirmngr
-e2fsprogs
 ed
 edict
-elfutils
 esound-daemon
 fam
 fbiterm
@@ -91,6 +88,7 @@ filesystem
 fillup
 findutils
 fontconfig
+fonts-config
 fonts-thryomanes
 freefont
 fribidi
@@ -133,6 +131,7 @@ gtk2-metatheme-gilouche
 gtk2-metatheme-sonar
 gtkiterm
 gvfs
+gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
@@ -157,7 +156,6 @@ libacl
 libadns1
 libarchive2
 libart_lgpl
-libasm1
 libasound2
 libassuan0
 libatasmart4
@@ -174,7 +172,6 @@ libbonobo
 libbonoboui
 libbz2-1
 libcap2
-libcares2
 libcdio10
 libcdio_cdda0
 libcdio_paranoia0
@@ -184,14 +181,12 @@ libcrack2
 libcurl4
 libdb-4_5
 libdrm
-libdw1
 libeggdbus-1-0
 libelf1
 liberation-fonts
 libesd0
 libexif
 libexpat1
-libext2fs2
 libfreetype6
 libfuse2
 libgcc45
@@ -220,6 +215,7 @@ libgudev-1_0-0
 libgvfscommon0
 libidl
 libidn
+libimobiledevice1
 libiterm
 libjpeg8
 libksba
@@ -239,6 +235,7 @@ libotf0
 libpanel-applet-2-0
 libpcre0
 libpixman-1-0
+libplist1
 libpng12-0
 libpng14-14
 libpolkit0
@@ -269,6 +266,7 @@ libtomoe-gtk0
 libudev0
 libusb-0_1-4
 libusb-1_0-0
+libusbmuxd1
 libuuid1
 libwbclient0
 libx86emu1
@@ -297,10 +295,8 @@ metamail
 mgetty
 mikachan-fonts
 mingetty
-mkinitrd
 mlterm-scim
 mlterm-uim
-module-init-tools
 mozilla-js192
 mozilla-nspr
 myspell-german-old
@@ -327,7 +323,6 @@ patterns-openSUSE-x11_yast
 pax
 pcre
 perl
-perl-Bootloader
 perl-Config-Crontab
 perl-XML-Parser
 perl-XML-Simple
@@ -404,6 +399,7 @@ uim
 uim-qt
 uim-qt4
 update-alternatives
+usbmuxd
 utempter
 util-linux
 vlgothic
@@ -412,6 +408,8 @@ xdg-menu
 xdg-utils
 xerces-j2-xml-apis
 xerces-j2-xml-resolver
+xorg-x11-fonts
+xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
 xorg-x11-libX11

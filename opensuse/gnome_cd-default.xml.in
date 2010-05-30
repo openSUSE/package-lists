@@ -22,7 +22,9 @@
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="openSUSE-release-ftp"/>
     <install kind="pattern" name="gnome"/>
+    <lock name="gnome_utilities" kind="pattern"/>
     <lock kind="package" name="patterns-openSUSE-gnome_utilities"/>
+    <lock name="office" kind="pattern"/>
     <lock kind="package" name="patterns-openSUSE-office"/>
     <!-- get openSUSE-images under control -->
     <lock kind="package" name="evolution"/>

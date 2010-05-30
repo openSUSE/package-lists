@@ -329,7 +329,6 @@ bea-stax
 bea-stax-api
 beagle
 beagle-firefox
-beagle-index
 beansbinding
 beaver
 bin86
@@ -500,7 +499,6 @@ compiz-gnome
 compiz-kde4
 compiz-manager
 compiz-plugins-main
-compizconfig-settings-manager
 convert
 coreutils
 cpio
@@ -547,6 +545,8 @@ cyrus-sasl-plain-32bit
 dante
 dar
 dasher
+dasher-data-extras
+dasher-data-recommended
 db-utils
 dbsplit-tools
 dbus-1
@@ -856,7 +856,6 @@ gnokii
 gnome-applets
 gnome-applets-colorblind
 gnome-applets-gdm
-gnome-audio
 gnome-backgrounds
 gnome-bluetooth
 gnome-bluetooth-devel
@@ -906,7 +905,6 @@ gnome-settings-daemon
 gnome-sharp2
 gnome-speech
 gnome-speech-devel
-gnome-spell2
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -990,7 +988,6 @@ gtk2-engines
 gtk2-engines-32bit
 gtk2-metatheme-gilouche
 gtk2-metatheme-sonar
-gtk2-themes
 gtkglext
 gtkhtml2
 gtkhtml2-devel
@@ -1008,6 +1005,7 @@ guile-devel
 gutenprint
 gv
 gvfs
+gvfs-backend-afc
 gvfs-backends
 gvfs-devel
 gvfs-fuse
@@ -1639,7 +1637,6 @@ libcanberra0
 libcanberra0-32bit
 libcap2
 libcares2
-libcares2-32bit
 libcdaudio
 libcdda_interface0
 libcdda_interface0-32bit
@@ -1730,7 +1727,7 @@ libfreetype6
 libfreetype6-32bit
 libftgl2
 libfuse2
-libgadu
+libgadu3
 libgail-gnome
 libgail-gnome-devel
 libgcc45
@@ -2036,7 +2033,6 @@ libopencv2
 libopenobex1
 libopenraw1
 libopenssl-devel
-libopenssl0_9_8
 libopenssl1_0_0
 libopenssl1_0_0-32bit
 libopensync
@@ -2230,6 +2226,8 @@ libtelepathy-glib0
 libtevent0
 libtheora0
 libtheora0-32bit
+libthunar-vfs-1-2
+libthunarx-1-2
 libtidy-0_99-0
 libtiff-devel
 libtiff-devel-32bit
@@ -2852,6 +2850,7 @@ perl-Email-Date-Format
 perl-Encode-Detect
 perl-Encode-HanExtra
 perl-Encode-JIS2K
+perl-Error
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
 perl-ExtUtils-PkgConfig
@@ -3134,7 +3133,7 @@ python-base-32bit
 python-beaker
 python-cairo
 python-cairo-devel
-python-coherence
+python-ccm
 python-compizconfig
 python-cups
 python-cupshelpers
@@ -3146,7 +3145,6 @@ python-doc
 python-egenix-mx-base
 python-fcgi
 python-feedparser
-python-gdata
 python-gdbm
 python-gnome
 python-gnome-32bit
@@ -3479,6 +3477,7 @@ tftp
 tgt
 thunar
 thunar-archive-plugin
+thunar-lang
 thunar-media-tags-plugin
 thunar-thumbnailers
 thunar-volman
@@ -3941,7 +3940,6 @@ yast2-qt-graph
 yast2-qt-pkg
 yast2-registration
 yast2-registration-branding-openSUSE
-yast2-repair
 yast2-restore
 yast2-ruby-bindings
 yast2-runlevel

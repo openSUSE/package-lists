@@ -119,6 +119,7 @@ gtk2-engines
 gtk2-metatheme-gilouche
 gtk2-metatheme-sonar
 gvfs
+gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
@@ -169,7 +170,6 @@ libblocxx6
 libbluetooth3
 libbz2-1
 libcap2
-libcares2
 libcdio10
 libcdio_cdda0
 libcdio_paranoia0
@@ -220,6 +220,7 @@ libgudev-1_0-0
 libgvfscommon0
 libidl
 libidn
+libimobiledevice1
 libiw30
 libjpeg8
 libksba
@@ -244,12 +245,12 @@ libnl
 libnscd
 libnuma1
 libopenobex1
-libopenssl0_9_8
 libopenssl1_0_0
 libpcap1
 libpciaccess0
 libpcre0
 libpixman-1-0
+libplist1
 libpng14-14
 libpolkit0
 libpoppler5
@@ -288,6 +289,7 @@ libudev0
 libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
+libusbmuxd1
 libuuid1
 libwbclient0
 libx86
@@ -351,6 +353,16 @@ pam-config
 pam-modules
 pango
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-sw_management
+patterns-openSUSE-update_test
+patterns-openSUSE-x11
+patterns-openSUSE-x11_yast
+patterns-openSUSE-yast2_basis
+patterns-openSUSE-yast2_install_wf
 pciutils
 pciutils-ids
 pcre
@@ -405,7 +417,6 @@ python-satsolver
 python-xml
 rcc-runtime
 recode
-reiserfs
 release-notes-openSUSE
 rpcbind
 rpm
@@ -442,6 +453,7 @@ unzip
 update-alternatives
 upower
 upower-lang
+usbmuxd
 usbutils
 utempter
 util-linux
@@ -532,7 +544,6 @@ yast2-qt
 yast2-qt-pkg
 yast2-registration
 yast2-registration-branding-openSUSE
-yast2-repair
 yast2-restore
 yast2-runlevel
 yast2-samba-client
