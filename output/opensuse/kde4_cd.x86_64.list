@@ -47,6 +47,8 @@ PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
+PolicyKit
+PolicyKit-doc
 SuSEfirewall2
 a2ps
 aaa_base
@@ -199,6 +201,7 @@ ghostscript-x11
 giflib
 gimp
 gimp-branding-openSUSE
+gimp-module-hal
 glib2
 glib2-branding-openSUSE
 glibc
@@ -229,6 +232,7 @@ gtk2-metatheme-sonar
 gtkmm2
 gwenview
 gzip
+hal
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -493,7 +497,7 @@ liblua5_1
 liblzma0
 liblzo2-2
 libmng
-libmodman0_0_0
+libmodman0
 libmodplug0
 libmpc2
 libmpcdec5
@@ -734,7 +738,6 @@ patterns-openSUSE-non_oss
 patterns-openSUSE-office
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde4
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -834,6 +837,7 @@ sax2-tools
 sbl
 scout
 sed
+setserial
 sg3_utils
 shared-desktop-ontologies
 shared-mime-info
@@ -882,12 +886,6 @@ unrar
 unscd
 unzip
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 upower-lang
 usbmuxd

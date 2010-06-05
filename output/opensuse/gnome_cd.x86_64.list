@@ -286,7 +286,6 @@ gnome-menus
 gnome-menus-branding-openSUSE
 gnome-nettool
 gnome-packagekit
-gnome-packagekit-lang
 gnome-panel
 gnome-panel-sharp
 gnome-phone-manager
@@ -573,7 +572,7 @@ liblua5_1
 liblzma0
 liblzo2-2
 libmng
-libmodman0_0_0
+libmodman0
 libmodplug0
 libmpc2
 libmpcdec5
@@ -839,7 +838,6 @@ patterns-openSUSE-non_oss
 patterns-openSUSE-office
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_gnome
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-xgl
 patterns-openSUSE-yast2_basis
@@ -1039,12 +1037,6 @@ unrar
 unscd
 unzip
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 upower-lang
 usbmuxd

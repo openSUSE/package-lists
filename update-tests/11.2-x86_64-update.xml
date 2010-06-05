@@ -9,6 +9,18 @@
   <trial>
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
+    <uninstall name="plasmoid-networkmanagement"/>
+    <uninstall name="pacemaker"/>
+    <uninstall name="heartbeat-devel"/>
+    <uninstall name="heartbeat"/>
+    <uninstall name="cluster-glue"/>
+    <uninstall name="libglue-devel"/>
+    <uninstall name="cmpi-bindings-ruby"/>
+    <uninstall name="ocfs2-tools"/>
+    <uninstall name="ocfs2-tools-devel"/>
+    <uninstall name="libglue1"/>
+    <uninstall name="libdlm"/>
+    <uninstall name="libpacemaker-devel"/>
     <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>

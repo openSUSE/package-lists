@@ -491,6 +491,7 @@ bogofilter
 boo
 boo-2_0_9_3
 boost-devel
+boost-devel-32bit
 boost-jam
 boost-license1_42_0
 bootcycle
@@ -1264,6 +1265,7 @@ imhangul
 imhangul-32bit
 imlib2
 imlib2-devel
+imlib2-loaders
 indent
 indic-fonts
 info
@@ -2293,8 +2295,8 @@ libmm14
 libmng
 libmng-32bit
 libmng-devel
-libmodman0_0_0
-libmodman0_0_0-32bit
+libmodman0
+libmodman0-32bit
 libmodplug0
 libmodplug0-32bit
 libmoon0
@@ -2361,6 +2363,7 @@ libopenssl1_0_0-32bit
 libopensync
 libopensync-plugin-evolution2
 libopensync-plugin-file
+libopensync-plugin-gnokii
 libopensync-plugin-google-calendar
 libopensync-plugin-gpe
 libopensync-plugin-irmc
@@ -3150,7 +3153,6 @@ patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-sw_management_kde4
 patterns-openSUSE-tabletpc
 patterns-openSUSE-technical_writing
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_opt
 patterns-openSUSE-xen_server
@@ -3976,12 +3978,6 @@ unscd
 unzip
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 upower-lang
 usb_modeswitch
