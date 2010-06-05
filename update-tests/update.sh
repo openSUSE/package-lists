@@ -1,6 +1,6 @@
 rm -rf /tmp/myrepos
 : > drops.xml
-for i in `cat update-drops`; do
+for i in `sed -e 's,.*>\(.*\)</ob.*,\1,' ../osc/openSUSE\:Factory/_product/obsoletepackages.inc`; do
    grep -xq $i $1.list || continue
    echo "<uninstall kind=\"package\" name=\"$i\"/>" >> drops.xml
 done

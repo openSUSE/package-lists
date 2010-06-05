@@ -257,6 +257,7 @@ atk-devel
 atmel-firmware
 attr
 audiofile
+audiofile-32bit
 audiofile-devel
 audit
 augeas-lenses
@@ -467,6 +468,7 @@ dbus-1
 dbus-1-32bit
 dbus-1-devel
 dbus-1-glib
+dbus-1-glib-32bit
 dbus-1-glib-devel
 dbus-1-python
 dbus-1-x11
@@ -556,6 +558,7 @@ expat
 expect
 f-spot
 fam
+fam-32bit
 fam-devel
 fbiterm
 fbset
@@ -607,6 +610,7 @@ gconf-polkit
 gconf-sanity-check
 gconf-sharp2
 gconf2
+gconf2-32bit
 gconf2-branding-openSUSE
 gconf2-devel
 gconfmm
@@ -625,6 +629,9 @@ geronimo-j2ee-1_4-apis
 geronimo-specs-poms
 gettext-runtime
 gettext-tools
+gftp
+gftp-common
+gftp-common-lang
 gfxboot
 gfxboot-branding-openSUSE
 gfxboot-devel
@@ -721,6 +728,7 @@ gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-nettool
 gnome-packagekit
+gnome-packagekit-lang
 gnome-panel
 gnome-panel-sharp
 gnome-phone-manager
@@ -744,6 +752,7 @@ gnome-user-share
 gnome-utils
 gnome-vfs-sharp2
 gnome-vfs2
+gnome-vfs2-32bit
 gnome-vfs2-devel
 gnome-vfs2-doc
 gnome-web-photo
@@ -1152,6 +1161,7 @@ libXi6-devel
 libXiterm
 libabiword-2_8
 libacl
+libacl-32bit
 libacl-devel
 libadns1
 libaio
@@ -1169,6 +1179,7 @@ libapr-util1
 libapr1
 libarchive2
 libart_lgpl
+libart_lgpl-32bit
 libart_lgpl-devel
 libasm1
 libasound2
@@ -1182,16 +1193,20 @@ libatk-1_0-0-32bit
 libattica-devel
 libattica0
 libattr
+libattr-32bit
 libattr-devel
 libaudit1
 libaudit1-32bit
 libaugeas0
 libauparse0
 libavahi-client3
+libavahi-client3-32bit
 libavahi-common3
+libavahi-common3-32bit
 libavahi-core6
 libavahi-devel
 libavahi-glib1
+libavahi-glib1-32bit
 libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
@@ -1209,6 +1224,7 @@ libbonobo-32bit
 libbonobo-devel
 libbonobo-doc
 libbonoboui
+libbonoboui-32bit
 libbonoboui-devel
 libbonoboui-doc
 libboost_date_time1_42_0
@@ -1300,6 +1316,7 @@ libepub0
 liberation-fonts
 libesd-devel
 libesd0
+libesd0-32bit
 libesmtp
 libetpan13
 libevent-1_4-2
@@ -1323,6 +1340,7 @@ libfreetype6-32bit
 libfuse2
 libgadu3
 libgail-gnome
+libgail-gnome-32bit
 libgail-gnome-devel
 libgcc45
 libgcc45-32bit
@@ -1334,6 +1352,7 @@ libgcj_bc45
 libgcr0
 libgcrypt-devel
 libgcrypt11
+libgcrypt11-32bit
 libgda-3_0-3
 libgda-3_0-devel
 libgda-4_0-4
@@ -1357,6 +1376,7 @@ libgio-2_0-0-32bit
 libgio-fam
 libgirepository-1_0-0
 libglade2
+libglade2-32bit
 libglade2-devel
 libglade2-doc
 libglademm
@@ -1372,15 +1392,18 @@ libgmodule-2_0-0-32bit
 libgmp3
 libgmpxx4
 libgnome
+libgnome-32bit
 libgnome-bluetooth7
 libgnome-desktop-2-17
 libgnome-devel
 libgnome-keyring-devel
 libgnome-keyring-lang
 libgnome-keyring0
+libgnome-keyring0-32bit
 libgnome-menu2
 libgnome-window-settings1
 libgnomecanvas
+libgnomecanvas-32bit
 libgnomecanvas-devel
 libgnomecups
 libgnomecups-devel
@@ -1398,6 +1421,7 @@ libgnomesu
 libgnomesu-devel
 libgnomesu0
 libgnomeui
+libgnomeui-32bit
 libgnomeui-devel
 libgnomeui-doc
 libgnutls-devel
@@ -1413,6 +1437,7 @@ libgp11-0
 libgp11-modules
 libgpg-error-devel
 libgpg-error0
+libgpg-error0-32bit
 libgpgme-devel
 libgpgme11
 libgphoto2
@@ -1585,6 +1610,7 @@ libotf0
 libotr2
 libpackagekit-glib2-14
 libpanel-applet-2-0
+libpanel-applet-2-0-32bit
 libpangomm-1_4-1
 libpcap1
 libpciaccess0
@@ -1618,6 +1644,7 @@ libpoppler-qt4-3
 libpoppler-qt4-devel
 libpoppler5
 libpopt0
+libpopt0-32bit
 libppl7
 libppl_c2
 libproxy1
@@ -1639,6 +1666,7 @@ libpurple-devel
 libpurple-meanwhile
 libpurple-tcl
 libpython2_6-1_0
+libpython2_6-1_0-32bit
 libqca2
 libqca2-devel
 libqdialogsolver1
@@ -1683,6 +1711,7 @@ libslab-devel
 libslab0
 libsmbclient-devel
 libsmbclient0
+libsmbclient0-32bit
 libsmbios-bin
 libsmbios2
 libsmi
@@ -2332,6 +2361,7 @@ python-curses
 python-dateutil
 python-devel
 python-gnome
+python-gnome-32bit
 python-gnome-menus
 python-gobject2
 python-gstreamer-0_10

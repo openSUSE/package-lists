@@ -43,6 +43,9 @@ fi
 
 set -e
 
+installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages
+installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages
+
 ./check_yast.sh output/opensuse/dvd-i586.list __i386__
 ./check_yast.sh output/opensuse/dvd-x86_64.list __x86_64__
 
