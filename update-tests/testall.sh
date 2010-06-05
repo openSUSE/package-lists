@@ -1,5 +1,7 @@
 export LC_ALL=C
 
+(cd ../osc/openSUSE\:Factory/_product/ && osc up )
+
 for arch in i586 x86_64; do
   rm -rf /tmp/myrepos /var/cache/zypp
   export TESTTRACK=$PWD/../testtrack
@@ -38,6 +40,6 @@ for i in *-update.xml; do
   fi
 
   cat $i.output | sed -n -e '1,/Other Valid Solution/p' | grep -v 'install product:' | grep '^>!>' | grep -e '^>!> \(install\|remove\|upgrade\|delete\) ' | sed -e 's,^>!> ,,; s, => .*,,; s,\[factor.*\].*,,; s,-[^-]*-[^-]*\.\(i.86\|noarch\|x86_64\)$,,' | sed -e "s,pattern:,," | cut -d' ' -f2 | sort -u > $i.list.new
-  diff -u $i.list $i.list.new | grep '^[-]'
+  diff -u $i.list $i.list.new | grep '^[-]' | fgrep -v -- ---
 done
 
