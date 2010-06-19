@@ -19,7 +19,7 @@ NetworkManager-vpnc
 NetworkManager-vpnc-kde4
 OpenEXR
 PackageKit
-PackageKit-branding-openSUSE
+PackageKit-branding-upstream
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
 PolicyKit
@@ -58,8 +58,8 @@ bind-utils
 bluez
 boost-license1_42_0
 bootsplash
-bootsplash-branding-openSUSE
-branding-openSUSE
+bootsplash-branding-upstream
+branding-upstream
 bundle-lang-common-en
 bzip2
 ca-certificates
@@ -142,7 +142,7 @@ gegl-0_1
 genisoimage
 gettext-runtime
 gfxboot
-gfxboot-branding-openSUSE
+gfxboot-branding-upstream
 ggz
 ggz-client-libs
 ghostscript-fonts-std
@@ -150,11 +150,11 @@ ghostscript-library
 ghostscript-x11
 giflib
 gimp
-gimp-branding-openSUSE
+gimp-branding-upstream
 gimp-module-hal
 gimp-plugins-python
 glib2
-glib2-branding-openSUSE
+glib2-branding-upstream
 glibc
 glibc-locale
 gnome-keyring
@@ -180,7 +180,6 @@ gzip
 hal
 hdparm
 hicolor-icon-theme
-hicolor-icon-theme-branding-openSUSE
 htdig
 hunspell
 hunspell-tools
@@ -217,16 +216,16 @@ kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-openSUSE-lang
 kdebase4-runtime
-kdebase4-runtime-branding-openSUSE
+kdebase4-runtime-branding-upstream
 kdebase4-runtime-xine
 kdebase4-session
 kdebase4-workspace
-kdebase4-workspace-branding-openSUSE
+kdebase4-workspace-branding-upstream
 kdebase4-workspace-ksysguardd
 kdegames4
 kdegames4-carddecks-default
 kdelibs4
-kdelibs4-branding-openSUSE
+kdelibs4-branding-upstream
 kdelibs4-core
 kdemultimedia4
 kdenetwork4-filesharing
@@ -237,7 +236,7 @@ kdepim4-wizards
 kdepimlibs4
 kdialog
 kdm
-kdm-branding-openSUSE
+kdm-branding-upstream
 kdnssd
 keditbookmarks
 kernel-default
@@ -252,7 +251,7 @@ kio_audiocd
 kio_iso
 kio_kamera
 kio_sysinfo
-kio_sysinfo-branding-openSUSE
+kio_sysinfo-branding-upstream
 kipi-plugins
 kipi-plugins-lang
 klogd
@@ -672,7 +671,6 @@ pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
-plasma-theme-aya
 plasmoid-quickaccess
 pm-profiler
 pm-utils
@@ -729,7 +727,6 @@ smp_utils
 soprano
 soprano-backend-virtuoso
 splashy
-splashy-branding-openSUSE
 strace
 strigi
 sudo

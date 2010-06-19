@@ -26,6 +26,8 @@
     <lock kind="package" name="MozillaFirefox"/>
     <lock kind='pattern' name='office'/>
     <lock kind='package' name='mozilla-kde4-integration'/>
+    <install kind='package' name='branding-upstream'/>
+    <lock kind='package' name='bootsplash-branding-openSUSE'/>
     <!-- INCLUDE frozens.xml -->
 <install kind='pattern' name='base'/>
 <install kind='pattern' name='default'/>
