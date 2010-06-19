@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
+    <system file="solver-system.xml"/>
+    <locale name="en_US"/>
+  </setup>
+  <trial>
+    <!-- ignoring some lang provides -->
+    <!-- ignoring some recommends -->
+    <lock package="oxygen-icon-theme-scalable"/>
+    <lock package="spamassassin"/>
+    <lock package="gutenprint"/>
+    <lock package="rdesktop"/>
+    <!-- INCLUDE ignore_opensuse-bundle-gnome.xml -->
+    <!-- INCLUDE ignore_opensuse-bundle-kde.xml -->
+    <lock package="compiz-kde"/>
+    <lock package="gtk2-engines-32bit"/>
+    <lock package="kde3-i18n-de"/> <!-- !i586 -->
+    <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-cds.xml -->
+    <!-- INCLUDE ignore_opensuse-kde-cd.xml -->
+    <lock package="pam-32bit"/> <!-- !i586 !ppc -->
+    <lock package="kdelibs3"/>
+    <lock package="kdelibs3-default-style"/>
+    <lock kind="package" name="MozillaFirefox"/>
+    <lock kind='pattern' name='office'/>
+    <lock kind='package' name='mozilla-kde4-integration'/>
+    <!-- INCLUDE frozens.xml -->
+<install kind='pattern' name='base'/>
+<install kind='pattern' name='default'/>
+<install kind='pattern' name='enhanced_base'/>
+<install kind='pattern' name='fonts'/>
+<install kind='pattern' name='imaging'/>
+<install kind='pattern' name='kde4'/>
+<install kind='pattern' name='kde4_basis'/>
+<install kind='pattern' name='kde4_imaging'/>
+<install kind='pattern' name='kde4_internet'/>
+<install kind='pattern' name='kde4_multimedia'/>
+<install kind='pattern' name='kde4_utilities'/>
+<install kind='pattern' name='kde4_yast'/>
+<install kind='pattern' name='multimedia'/>
+<install kind='pattern' name='sw_management'/>
+<install kind='pattern' name='sw_management_kde4'/>
+<install kind='pattern' name='x11'/>
+<install kind='pattern' name='yast2_basis'/>
+<install kind='pattern' name='yast2_install_wf'/>
+<install kind='pattern' name='games'/>
+<install kind='pattern' name='kde4_games'/>
+<install kind='pattern' name='kde4_pure'/>
+    <install kind="package" name="openSUSE-release-livecd-kde"/>
+    <reportProblems/>
+    <showpool verbose="true"/>
+  </trial>
+</test>
