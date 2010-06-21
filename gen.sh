@@ -62,6 +62,13 @@ do
            finclude=output/$include
         else
            finclude=`dirname $file`/$include
+           if test -f output/$finclude; then
+             finclude=output/$finclude
+           fi
+           if test ! -f $finclude; then
+             echo "MISSING: $finclude"
+             exit 1
+           fi
         fi
         sed -i -e "/!-- INCLUDE $include -->/r $finclude" output/$file.$arch.xml 
   done

@@ -1,0 +1,54 @@
+#! /usr/bin/perl -w
+
+my $inpsg = 0;
+my %lines;
+my $only_online = 0;
+my $arch = $ARGV[0];
+
+open(PAT, "cat testtrack/patterns/dvd*.$arch.pat testtrack/patterns/ftp*$arch.pat testtrack/patterns/*_cd*.$arch.pat |");
+while ( <PAT> )
+  {
+    chomp;
+    my $line = $_;
+    if ( $line =~ m/^\+Prq:/ || $line =~ m/^\+Psg:/ || $line =~ m/^\+Prc:/ ) { $inpsg = 1; next; }
+    $inpsg = 0 if ( $line =~ m/^-/ );
+
+    if ($inpsg && !$only_online && $line !~ m/^#/ && $line !~ m/patterns-openSUSE-/ )
+      {
+        if ($line =~ /-32bit/) {
+	   next unless (-f "testtrack/full-obs-$arch/susex/$arch/$line.rpm");
+        }
+	$lines{$line} = 1;
+      }
+
+    $only_online = ( $line =~ m/#pragma / );
+  }
+close(PAT);
+
+for my $todelete (qw{AdobeICCProfiles pullin-fluendo-mp3 dalston atftp yast2-theme-openSUSE-Crystal sendmail exim gtk2-branding-Moblin glib2-branding-Moblin gnome-menus-branding-openSUSE icewm-lite wacom-kmp xml-commons-apis xml-commons-resolver})
+  {
+    delete $lines{$todelete};
+  }
+
+open(FILE, ">output/opensuse/allpacks.xml");
+for my $line (sort keys %lines)
+  {
+    print FILE "<addRequire name='$line'/>\n";
+  }
+close(FILE);
+
+exit 1 if system("./gen.sh opensuse/ftp-testall $arch");
+open(FILE, "output/opensuse/ftp-testall.$arch.list");
+while ( <FILE> ) {
+  chomp;
+  my $line = $_;
+  #print "too much: $line\n" unless $lines{$_};
+  delete $lines{$line};
+}
+my $ret = 0;
+for my $line (sort keys %lines) {
+  print "virtual provide: $line\n"; 
+  $ret = 1;
+  #system("egrep '^(=Pkg:|$line)' testtrack/full-obs-$arch/suse/setup/descr/packages | grep -B1 -x $line");
+}
+exit $ret;

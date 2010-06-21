@@ -25,7 +25,7 @@
     <lock package="kde3-i18n-de"/> <!-- !i586 -->
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
-    <!-- INCLUDE frozens.xml -->
+    <!-- INCLUDE frozen.xml -->
     <install kind="pattern" name="rest_cd_x11"/>
     <install kind="package" name="openSUSE-release-livecd-x11"/>
     <reportProblems/>

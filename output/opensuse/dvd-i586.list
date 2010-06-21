@@ -294,7 +294,6 @@ autoyast2
 autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
-avahi-mono
 awesfx
 axis
 b43-fwcutter
@@ -314,8 +313,6 @@ bash-doc
 bc
 bcel
 bea-stax-api
-beagle
-beagle-firefox
 beaver
 bin86
 bind
@@ -460,7 +457,6 @@ choqok
 cifs-utils
 circuslinux
 clamav
-classpathx-mail-javadoc
 claws-mail
 claws-mail-lang
 clicfs
@@ -568,6 +564,10 @@ docbook_5
 dolphin
 dos2unix
 dosfstools
+dovecot12
+dovecot12-backend-mysql
+dovecot12-backend-pgsql
+dovecot12-backend-sqlite
 doxygen
 dragonplayer
 droid-fonts
@@ -589,7 +589,6 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
-empathy-lang
 enchant
 enchant-devel
 enchant-voikko
@@ -622,7 +621,6 @@ expat
 expect
 expect-devel
 f-spot
-f-spot-extension-beagle
 fam
 fam-devel
 fbiterm
@@ -712,7 +710,6 @@ gettext-runtime
 gettext-tools
 gftp
 gftp-common
-gftp-common-lang
 gfxboot
 gfxboot-branding-openSUSE
 gfxboot-devel
@@ -881,7 +878,6 @@ gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-bad
-gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
@@ -1215,8 +1211,10 @@ kdump
 keditbookmarks
 kepas
 kernel-default
+kernel-default-base
 kernel-default-devel
 kernel-desktop
+kernel-desktop-base
 kernel-desktop-devel
 kernel-devel
 kernel-docs
@@ -1225,10 +1223,10 @@ kernel-pae-devel
 kernel-source
 kernel-syms
 kernel-xen
+kernel-xen-base
 kernel-xen-devel
 kerneloops
 kerneloops-applet
-kerry
 kexec-tools
 keyutils
 keyutils-devel
@@ -1247,7 +1245,6 @@ kimagemapeditor
 kinfocenter
 kinput2
 kio_audiocd
-kio_beagle
 kio_iso
 kio_kamera
 kio_svn
@@ -1328,7 +1325,6 @@ konquest
 konsole
 kontact
 konversation
-konversation-lang
 kopete
 korganizer
 kpartx
@@ -1459,7 +1455,6 @@ libavahi-ui0
 libavc1394-0
 libavc1394-devel
 libbabl-0_1-0
-libbeagle1
 libblas3
 libblkid-devel
 libblkid1
@@ -1628,7 +1623,6 @@ libgnome-bluetooth7
 libgnome-desktop-2-17
 libgnome-devel
 libgnome-keyring-devel
-libgnome-keyring-lang
 libgnome-keyring0
 libgnome-menu2
 libgnome-window-settings1
@@ -1773,8 +1767,6 @@ liblzo2-2
 libmal
 libmal-devel
 libmalaga7
-libmariadbclient16
-libmariadbclient_r16
 libmcrypt
 libmenu-cache1
 libmm14
@@ -1869,9 +1861,9 @@ libpkcs11-helper1
 libplist1
 libplotter2
 libpng12-0
-libpng12-compat-devel
-libpng12-devel
 libpng14-14
+libpng14-compat-devel
+libpng14-devel
 libpolkit-qt-1-0
 libpolkit-qt-1-devel
 libpolkit0
@@ -2146,8 +2138,6 @@ man-pages-zh_CN
 manufacturer-PPDs
 marble
 marble-data
-mariadb
-mariadb-client
 master-boot-code
 mc
 mdadm
@@ -2249,6 +2239,8 @@ myspell-russian
 myspell-spanish
 myspell-swedish
 myspell-swedish-finland
+mysql-community-server
+mysql-community-server-client
 mysql-connector-java
 nagios
 nagios-plugins
@@ -2803,6 +2795,7 @@ pstoedit
 psutils
 ptools
 pullin-flash-player
+pullin-fluendo-mp3
 pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
@@ -3175,7 +3168,6 @@ totem-plugins
 tracker
 tracker-devel
 tracker-gui
-tracker-lang
 trang
 transfig
 translation-update
@@ -3231,7 +3223,6 @@ unzip
 update-alternatives
 update-desktop-files
 upower
-upower-lang
 upstart
 usb_modeswitch
 usb_modeswitch-data
@@ -3255,6 +3246,7 @@ virt-utils
 virt-viewer
 virtualbox-ose
 virtualbox-ose-guest-kmp-default
+virtualbox-ose-guest-kmp-desktop
 virtualbox-ose-guest-tools
 virtualbox-ose-host-kmp-default
 virtualbox-ose-host-kmp-desktop

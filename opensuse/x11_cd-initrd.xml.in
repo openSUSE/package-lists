@@ -7,7 +7,7 @@
   </setup>
   <trial>
     <!-- ignoring some lang provides -->
-    <!-- INCLUDE frozens.xml -->
+    <!-- INCLUDE frozen.xml -->
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
     <install kind="package" name="bind-libs"/>

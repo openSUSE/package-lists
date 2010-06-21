@@ -218,7 +218,6 @@ libglib-2_0-0-32bit
 libgmodule-2_0-0
 libgmodule-2_0-0-32bit
 libgnome
-libgnome-keyring-lang
 libgnome-keyring0
 libgnomecanvas
 libgnomeui
@@ -242,6 +241,7 @@ libjpeg8-32bit
 libksba
 liblcms1
 libldap-2_4-2
+liblockdev1
 libltdl7
 liblua5_1
 liblzma0
@@ -249,6 +249,7 @@ libmng
 libmodman0
 libmysqlclient_r16
 libncurses5
+libnih
 libnscd
 libopenobex1
 libopenssl1_0_0
@@ -304,6 +305,7 @@ libxml2
 libzio
 libzypp
 licenses
+lockdev
 login
 logrotate
 lsb
@@ -407,7 +409,6 @@ sil-doulos
 skkdic
 squid
 sysconfig
-sysvinit
 sysvinit-tools
 tar
 tcpd
@@ -431,6 +432,7 @@ uim
 uim-qt
 uim-qt4
 update-alternatives
+upstart
 usbmuxd
 utempter
 util-linux

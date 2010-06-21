@@ -43,6 +43,10 @@ fi
 
 set -e
 
+if perl create-requires x86_64 ; then
+  perl create-requires i586 || true
+fi
+ 
 installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages || true
 installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages || true
 

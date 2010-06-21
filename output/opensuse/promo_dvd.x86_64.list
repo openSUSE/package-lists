@@ -529,7 +529,6 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
-empathy-lang
 enchant
 enchant-devel
 enchant-voikko
@@ -631,7 +630,6 @@ gettext-runtime
 gettext-tools
 gftp
 gftp-common
-gftp-common-lang
 gfxboot
 gfxboot-branding-openSUSE
 gfxboot-devel
@@ -789,7 +787,6 @@ gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-bad
-gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
@@ -1042,14 +1039,17 @@ kdnssd
 kdump
 keditbookmarks
 kernel-default
+kernel-default-base
 kernel-default-devel
 kernel-desktop
+kernel-desktop-base
 kernel-desktop-devel
 kernel-devel
 kernel-firmware
 kernel-source
 kernel-syms
 kernel-xen
+kernel-xen-base
 kernel-xen-devel
 kexec-tools
 keyutils
@@ -1103,7 +1103,6 @@ konqueror-plugins-lang
 konsole
 kontact
 konversation
-konversation-lang
 kopete
 korganizer
 kpartx
@@ -1398,7 +1397,6 @@ libgnome-bluetooth7
 libgnome-desktop-2-17
 libgnome-devel
 libgnome-keyring-devel
-libgnome-keyring-lang
 libgnome-keyring0
 libgnome-keyring0-32bit
 libgnome-menu2
@@ -1536,6 +1534,7 @@ libldapcpp1
 libldb0
 liblensfun0
 liblirc_client0
+liblockdev1
 libloudmouth-1-0
 liblouis2
 liblpsolve55
@@ -1548,8 +1547,6 @@ liblzo2-2
 libmal
 libmal-devel
 libmalaga7
-libmariadbclient16
-libmariadbclient_r16
 libmenu-cache1
 libmm14
 libmng
@@ -1632,10 +1629,10 @@ libpkcs11-helper1
 libplist1
 libplotter2
 libpng12-0
-libpng12-compat-devel
-libpng12-devel
 libpng14-14
 libpng14-14-32bit
+libpng14-compat-devel
+libpng14-devel
 libpolkit-qt-1-0
 libpolkit-qt-1-devel
 libpolkit0
@@ -1851,6 +1848,7 @@ lirc-kmp-desktop
 lirc-kmp-xen
 lirc-remotes
 lklug
+lockdev
 log4j-mini
 login
 logrotate
@@ -1903,8 +1901,6 @@ man-pages-zh_CN
 manufacturer-PPDs
 marble
 marble-data
-mariadb
-mariadb-client
 master-boot-code
 mc
 mcelog
@@ -1979,6 +1975,8 @@ myspell-russian
 myspell-spanish
 myspell-swedish
 myspell-swedish-finland
+mysql-community-server
+mysql-community-server-client
 nagios
 nagios-plugins
 nagios-www
@@ -2339,6 +2337,7 @@ psmisc
 pstoedit
 ptools
 pullin-flash-player
+pullin-fluendo-mp3
 pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
@@ -2396,6 +2395,7 @@ python-xml
 python-zypp
 pyxml
 qemu
+qinternet
 qt3
 qt4-qtscript
 quadrapassel
@@ -2599,7 +2599,6 @@ totem-plugins
 tracker
 tracker-devel
 tracker-gui
-tracker-lang
 translation-update
 translation-update-cs
 translation-update-de
@@ -2644,7 +2643,6 @@ unzip
 update-alternatives
 update-desktop-files
 upower
-upower-lang
 usb_modeswitch
 usb_modeswitch-data
 usbmuxd
@@ -2663,6 +2661,7 @@ virt-utils
 virt-viewer
 virtualbox-ose
 virtualbox-ose-guest-kmp-default
+virtualbox-ose-guest-kmp-desktop
 virtualbox-ose-guest-tools
 virtualbox-ose-host-kmp-default
 virtualbox-ose-host-kmp-desktop

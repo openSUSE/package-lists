@@ -427,7 +427,6 @@ autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
 avahi-lang
-avahi-mono
 awesfx
 axis
 b43-fwcutter
@@ -451,9 +450,6 @@ bash-lang
 bc
 bcel
 bea-stax-api
-beagle
-beagle-firefox
-beagle-lang
 beaver
 bin86
 bind
@@ -606,7 +602,6 @@ choqok
 cifs-utils
 circuslinux
 clamav
-classpathx-mail-javadoc
 claws-mail
 claws-mail-lang
 clicfs
@@ -722,6 +717,10 @@ docbook_5
 dolphin
 dos2unix
 dosfstools
+dovecot12
+dovecot12-backend-mysql
+dovecot12-backend-pgsql
+dovecot12-backend-sqlite
 doxygen
 dragonplayer
 droid-fonts
@@ -783,7 +782,6 @@ expat
 expect
 expect-devel
 f-spot
-f-spot-extension-beagle
 f-spot-lang
 fam
 fam-devel
@@ -1548,8 +1546,10 @@ kdump
 keditbookmarks
 kepas
 kernel-default
+kernel-default-base
 kernel-default-devel
 kernel-desktop
+kernel-desktop-base
 kernel-desktop-devel
 kernel-devel
 kernel-docs
@@ -1558,10 +1558,10 @@ kernel-pae-devel
 kernel-source
 kernel-syms
 kernel-xen
+kernel-xen-base
 kernel-xen-devel
 kerneloops
 kerneloops-applet
-kerry
 kexec-tools
 keyutils
 keyutils-devel
@@ -1580,7 +1580,6 @@ kimagemapeditor
 kinfocenter
 kinput2
 kio_audiocd
-kio_beagle
 kio_iso
 kio_kamera
 kio_svn
@@ -1806,7 +1805,6 @@ libavahi-ui0
 libavc1394-0
 libavc1394-devel
 libbabl-0_1-0
-libbeagle1
 libblas3
 libblkid-devel
 libblkid1
@@ -2140,8 +2138,6 @@ liblzo2-2
 libmal
 libmal-devel
 libmalaga7
-libmariadbclient16
-libmariadbclient_r16
 libmcrypt
 libmenu-cache1
 libmm14
@@ -2235,9 +2231,9 @@ libpkcs11-helper1
 libplist1
 libplotter2
 libpng12-0
-libpng12-compat-devel
-libpng12-devel
 libpng14-14
+libpng14-compat-devel
+libpng14-devel
 libpolkit-qt-1-0
 libpolkit-qt-1-devel
 libpolkit0
@@ -2520,8 +2516,6 @@ man-pages-zh_CN
 manufacturer-PPDs
 marble
 marble-data
-mariadb
-mariadb-client
 master-boot-code
 mc
 mc-lang
@@ -2692,6 +2686,8 @@ myspell-vietnamese
 myspell-welsh
 myspell-xhosa
 myspell-zulu
+mysql-community-server
+mysql-community-server-client
 mysql-connector-java
 nagios
 nagios-plugins
@@ -3256,6 +3252,7 @@ pstoedit
 psutils
 ptools
 pullin-flash-player
+pullin-fluendo-mp3
 pullin-msttf-fonts
 pulseaudio
 pulseaudio-esound-compat
@@ -3740,6 +3737,7 @@ virt-utils
 virt-viewer
 virtualbox-ose
 virtualbox-ose-guest-kmp-default
+virtualbox-ose-guest-kmp-desktop
 virtualbox-ose-guest-tools
 virtualbox-ose-host-kmp-default
 virtualbox-ose-host-kmp-desktop
@@ -4064,9 +4062,7 @@ yast2-tftp-server
 yast2-theme-openSUSE
 yast2-theme-openSUSE-Oxygen
 yast2-trans-af
-yast2-trans-am
 yast2-trans-ar
-yast2-trans-be
 yast2-trans-bg
 yast2-trans-bn
 yast2-trans-bs
@@ -4085,7 +4081,6 @@ yast2-trans-fi
 yast2-trans-fr
 yast2-trans-gl
 yast2-trans-gu
-yast2-trans-he
 yast2-trans-hi
 yast2-trans-hr
 yast2-trans-hu
@@ -4102,8 +4097,6 @@ yast2-trans-lo
 yast2-trans-lt
 yast2-trans-mk
 yast2-trans-mr
-yast2-trans-ms
-yast2-trans-my
 yast2-trans-nb
 yast2-trans-nl
 yast2-trans-pa
@@ -4122,7 +4115,6 @@ yast2-trans-sw
 yast2-trans-ta
 yast2-trans-tg
 yast2-trans-th
-yast2-trans-tk
 yast2-trans-tr
 yast2-trans-uk
 yast2-trans-vi
