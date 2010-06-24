@@ -1,11 +1,12 @@
 ConsoleKit
 ConsoleKit-x11
-DeviceKit-power
 DirectFB
 Mesa
+PolicyKit
 SuSEfirewall2
 a2ps
 aaa_base
+aaa_base-extras
 acl
 acpica
 acpid
@@ -16,7 +17,6 @@ alsa-utils
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-aria2
 aspell
 aspell-en
 attr
@@ -70,6 +70,7 @@ diffutils
 dirmngr
 dmidecode
 dmraid
+dmz-icon-theme-cursors
 dosfstools
 e2fsprogs
 eject
@@ -93,8 +94,8 @@ gfxboot-branding-openSUSE
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
-glib2
 glib2-branding-openSUSE
+glib2-tools
 glibc
 glibc-32bit
 glibc-locale
@@ -107,6 +108,7 @@ grep
 groff
 grub
 gzip
+hal
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -154,7 +156,6 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
-libdevkit-power-gobject1
 libdrm
 libdw1
 libeggdbus-1-0
@@ -181,6 +182,7 @@ libgssglue1
 libgthread-2_0-0
 libgudev-1_0-0
 libidn
+libimobiledevice1
 libiw30
 libjpeg8
 libksba
@@ -191,6 +193,7 @@ liblua5_1
 liblzma0
 liblzo2-2
 libmng
+libmount1
 libmpc2
 libmpfr1
 libncurses5
@@ -204,9 +207,10 @@ libpcap1
 libpciaccess0
 libpcre0
 libpixman-1-0
+libplist1
 libpng14-14
 libpolkit0
-libpoppler5
+libpoppler6
 libpopt0
 libppl7
 libppl_c2
@@ -217,6 +221,7 @@ librcd0
 libreadline6
 libreiserfs
 libselinux1
+libsepol1
 libsqlite3-0
 libssh2-1
 libstdc++45
@@ -230,6 +235,7 @@ libudev0
 libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
+libusbmuxd1
 libuuid1
 libx86
 libx86emu1
@@ -290,9 +296,11 @@ pciutils-ids
 pcre
 perl
 perl-Bootloader
+perl-Clone
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
+perl-DBD-CSV
 perl-DBD-SQLite
 perl-DBI
 perl-Digest-HMAC
@@ -301,12 +309,16 @@ perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-MLDBM
 perl-Net-Daemon
 perl-NetxAP
+perl-Params-Util
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
+perl-SQL-Statement
 perl-TermReadKey
+perl-Text-CSV_XS
 perl-TimeDate
 perl-URI
 perl-WWW-Curl
@@ -352,6 +364,7 @@ satsolver-tools
 sax2-tools
 scout
 sed
+setserial
 sg3_utils
 smp_utils
 splashy
@@ -376,6 +389,7 @@ unscd
 unzip
 update-alternatives
 upower
+usbmuxd
 usbutils
 utempter
 util-linux

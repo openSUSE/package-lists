@@ -32,6 +32,7 @@ NetworkManager-glib
 NetworkManager-gnome
 NetworkManager-kde4
 NetworkManager-kde4-libs
+NetworkManager-kde4-libs-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde4
@@ -159,6 +160,7 @@ Terminal
 a2ps
 a2ps-perl-ja
 aaa_base
+aaa_base-extras
 aalib
 aalib-devel
 abiword
@@ -283,7 +285,6 @@ banshee-1-dmp-ipod
 banshee-1-dmp-mtp
 banshee-1-extensions-default
 bash
-bash-doc
 bc
 bcel
 bea-stax-api
@@ -427,6 +428,7 @@ compiz
 compiz-branding-openSUSE
 compiz-gnome
 compiz-kde4
+compiz-lang
 compiz-manager
 compiz-plugins-main
 coreutils
@@ -1039,17 +1041,14 @@ kdnssd
 kdump
 keditbookmarks
 kernel-default
-kernel-default-base
 kernel-default-devel
 kernel-desktop
-kernel-desktop-base
 kernel-desktop-devel
 kernel-devel
 kernel-firmware
 kernel-source
 kernel-syms
 kernel-xen
-kernel-xen-base
 kernel-xen-devel
 kexec-tools
 keyutils
@@ -1063,7 +1062,6 @@ kget
 kgpg
 khangman
 kig
-kinfocenter
 kinput2
 kio_audiocd
 kio_iso
@@ -1146,10 +1144,10 @@ libFLAC8-32bit
 libGeoIP1
 libHX22
 libHX22-32bit
-libMagick++3
-libMagickCore3
-libMagickCore3-32bit
-libMagickWand3
+libMagick++4
+libMagickCore4
+libMagickCore4-32bit
+libMagickWand4
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -1291,6 +1289,7 @@ libdaemon0
 libdb-4_5
 libdb-4_5-32bit
 libdb-4_5-devel
+libdbusmenu-qt2
 libdc1394-22
 libdevkit-power-gobject1
 libdirac_encoder0
@@ -1304,7 +1303,6 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libebl1
 libedit0
 libeggdbus-1-0
 libelf0
@@ -1488,7 +1486,6 @@ libidn
 libidn-devel
 libieee1284
 libimobiledevice1
-libindi0
 libiniparser0
 libiniparser0-32bit
 libiodbc3
@@ -1497,8 +1494,8 @@ libiptcdata0
 libiterm
 libiw30
 libjack0
-libjasper
 libjasper-devel
+libjasper1
 libjpeg-devel
 libjpeg8
 libjpeg8-32bit
@@ -1522,6 +1519,8 @@ libksba
 libksba-devel
 libksuseinstall1
 libktoblzcheck1
+libktorrent2
+libktorrent2-lang
 liblapack3
 liblastfm0
 liblazy1
@@ -1553,6 +1552,7 @@ libmng
 libmng-devel
 libmodman0
 libmodplug0
+libmount1
 libmpc2
 libmpcdec5
 libmpfr1
@@ -1577,7 +1577,6 @@ libnl
 libnl-devel
 libnotify
 libnotify1
-libnova-0_12-2
 libnscd
 libnscd-32bit
 libnsssharedhelper0
@@ -1637,14 +1636,15 @@ libpolkit-qt-1-0
 libpolkit-qt-1-devel
 libpolkit0
 libpoppler-devel
-libpoppler-glib4
+libpoppler-glib5
 libpoppler-qt4-3
 libpoppler-qt4-devel
-libpoppler5
+libpoppler6
 libpopt0
 libpopt0-32bit
 libppl7
 libppl_c2
+libprotobuf6
 libproxy1
 libproxy1-config-gnome
 libproxy1-config-kde4
@@ -1701,6 +1701,7 @@ libseed0
 libselinux1
 libselinux1-32bit
 libsensors4
+libsepol1
 libsexy
 libsigc++2
 libsilc-1_1-2
@@ -1809,6 +1810,7 @@ libx86emu1
 libxcrypt
 libxcrypt-32bit
 libxfce4menu-0_1-0
+libxfce4ui
 libxfce4util
 libxfcegui4
 libxfconf-0-2
@@ -1880,6 +1882,7 @@ lxsession-edit
 lxshortcut
 lxtask
 lxterminal
+lxterminal-lang
 lynx
 m17n-db
 m17n-lib
@@ -2006,6 +2009,7 @@ ndiswrapper-kmp-desktop
 neon
 net-tools
 netcat
+netcat-openbsd
 netcfg
 nfs-client
 nfs-kernel-server
@@ -2196,6 +2200,7 @@ perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-Carp-Clan
+perl-Clone
 perl-Config-Crontab
 perl-Config-IniFiles
 perl-Convert-ASN1
@@ -2209,6 +2214,7 @@ perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
+perl-DBD-CSV
 perl-DBD-SQLite
 perl-DBI
 perl-Date-Calc
@@ -2225,12 +2231,12 @@ perl-HTML-SimpleParse
 perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Tree
-perl-IO-Multiplex
 perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-stringy
 perl-IP-Country
 perl-MIME-tools
+perl-MLDBM
 perl-Mail-DKIM
 perl-Mail-SPF
 perl-Mail-SpamAssassin
@@ -2245,13 +2251,16 @@ perl-Net-SSLeay
 perl-Net-Server
 perl-NetAddr-IP
 perl-NetxAP
+perl-Params-Util
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
+perl-SQL-Statement
 perl-Socket6
 perl-Sys-Hostname-Long
 perl-TermReadKey
 perl-TermReadLine-Gnu
+perl-Text-CSV_XS
 perl-Tie-IxHash
 perl-TimeDate
 perl-URI
@@ -2351,9 +2360,9 @@ pwdutils
 python
 python-atspi-corba
 python-base
+python-beautifulsoup
 python-cairo
 python-ccm
-python-compizconfig
 python-cups
 python-cupshelpers
 python-curses
@@ -2402,6 +2411,7 @@ quadrapassel
 quagga
 quilt
 quota
+quota-nfs
 radvd
 raptor
 rarian
@@ -2501,7 +2511,6 @@ smolt-gui
 smp_utils
 smpppd
 snmp-mibs
-socat
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
@@ -2546,7 +2555,6 @@ sysconfig
 sysfsutils
 syslinux
 system-config-printer
-systemtap
 systemtap-runtime
 sysvinit
 sysvinit-tools

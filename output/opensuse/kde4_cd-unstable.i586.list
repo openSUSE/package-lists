@@ -1,23 +1,20 @@
 ConsoleKit
 ConsoleKit-x11
-DeviceKit-power
 DirectFB
-IlmBase
 LibVNCServer
 Mesa
 ModemManager
 NetworkManager
 NetworkManager-glib
 NetworkManager-kde4
-NetworkManager-kde4-lang
 NetworkManager-kde4-libs
+NetworkManager-kde4-libs-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-kde4
 NetworkManager-pptp
 NetworkManager-pptp-kde4
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
-OpenEXR
 PackageKit
 PackageKit-branding-upstream
 PackageKit-gstreamer-plugin
@@ -27,6 +24,7 @@ PolicyKit-doc
 SuSEfirewall2
 a2ps
 aaa_base
+aaa_base-extras
 acl
 acpica
 acpid
@@ -72,7 +70,6 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cabextract
-cairo
 cairomm
 cdrdao
 cdrkit-cdrtools-compat
@@ -120,6 +117,7 @@ diffutils
 dirmngr
 dmidecode
 dmraid
+dmz-icon-theme-cursors
 dnsmasq
 dolphin
 dosfstools
@@ -150,6 +148,8 @@ gconf2
 gd
 gdb
 gdbm
+gdk-pixbuf-lang
+gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
 gfxboot
@@ -160,8 +160,8 @@ ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
 giflib
-glib2
 glib2-branding-upstream
+glib2-tools
 glibc
 glibc-locale
 glibmm2
@@ -250,7 +250,6 @@ kdm-branding-upstream
 kdnssd
 keditbookmarks
 kernel-default
-kernel-default-base
 kernel-firmware
 keyutils
 keyutils-libs
@@ -258,7 +257,6 @@ kfind
 kgamma
 kget
 kgpg
-kinfocenter
 kio_audiocd
 kio_iso
 kio_kamera
@@ -311,8 +309,9 @@ less
 libFLAC++6
 libFLAC8
 libHX22
-libMagickCore3
-libMagickWand3
+libIlmImf6
+libMagickCore4
+libMagickWand4
 libQtWebKit4
 libSDL-1_2-0
 libXi6
@@ -341,6 +340,7 @@ libblocxx6
 libbluetooth3
 libboost_program_options1_42_0
 libbz2-1
+libcairo2
 libcap2
 libcdda_interface0
 libcdda_paranoia0
@@ -351,8 +351,8 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdbusmenu-qt2
 libdc1394-22
-libdevkit-power-gobject1
 libdjvulibre21
 libdnet1
 libdrm
@@ -367,7 +367,7 @@ liberation-fonts
 libesd0
 libevent-1_4-2
 libexif
-libexiv2-6
+libexiv2-9
 libexpat1
 libext2fs2
 libfprint0
@@ -377,10 +377,12 @@ libgadu3
 libgcc45
 libgcr0
 libgcrypt11
+libgdk_pixbuf-2_0-0
 libggz2
 libgimpprint
 libgio-2_0-0
 libgio-fam
+libgle3
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp3
@@ -408,11 +410,12 @@ libical0
 libicu
 libidl
 libidn
+libilmbase6
 libimobiledevice1
 libiodbc3
 libiw30
 libjack0
-libjasper
+libjasper1
 libjpeg8
 libkcddb4
 libkcompactdisc4
@@ -427,6 +430,8 @@ libkipi7
 libkonq5
 libksba
 libksuseinstall1
+libktorrent2
+libktorrent2-lang
 liblastfm0
 liblazy1
 liblcms1
@@ -441,6 +446,7 @@ liblzma0
 liblzo2-2
 libmng
 libmodplug0
+libmount1
 libmpc2
 libmpcdec5
 libmpfr1
@@ -473,7 +479,7 @@ libpng14-14
 libpolkit-qt-1-0
 libpolkit0
 libpoppler-qt4-3
-libpoppler5
+libpoppler6
 libpopt0
 libppl7
 libppl_c2
@@ -500,6 +506,7 @@ libreiserfs
 libsamplerate
 libselinux1
 libsensors4
+libsepol1
 libsigc++2
 libsmbclient0
 libsmbios-bin
@@ -545,7 +552,6 @@ libx86emu1
 libxcrypt
 libxine1
 libxine1-pulse
-libxklavier16
 libxml2
 libxml2-python
 libxslt
@@ -659,9 +665,11 @@ pcmciautils
 pcre
 perl
 perl-Bootloader
+perl-Clone
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
+perl-DBD-CSV
 perl-DBD-SQLite
 perl-DBI
 perl-Digest-HMAC
@@ -670,12 +678,16 @@ perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-MLDBM
 perl-Net-Daemon
 perl-NetxAP
+perl-Params-Util
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
+perl-SQL-Statement
 perl-TermReadKey
+perl-Text-CSV_XS
 perl-TimeDate
 perl-URI
 perl-WWW-Curl
@@ -734,7 +746,6 @@ qt4-qtscript
 quota
 rcc-runtime
 recode
-redland
 reiserfs
 release-notes-openSUSE
 rpcbind
@@ -759,6 +770,7 @@ smolt-gui
 smp_utils
 smpppd
 soprano
+soprano-backend-redland
 soprano-backend-virtuoso
 splashy
 strace
@@ -851,6 +863,7 @@ xorg-x11-libxcb
 xorg-x11-libxkbfile
 xorg-x11-server
 xorg-x11-xauth
+xscreensaver-data-extra
 xstroke
 xterm
 xz

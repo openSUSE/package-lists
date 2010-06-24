@@ -36,6 +36,7 @@ NetworkManager-glib
 NetworkManager-gnome
 NetworkManager-kde4
 NetworkManager-kde4-libs
+NetworkManager-kde4-libs-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde4
@@ -171,6 +172,7 @@ WindowMaker-themes
 a2ps
 a2ps-perl-ja
 aaa_base
+aaa_base-extras
 aalib
 aalib-devel
 abcde
@@ -312,7 +314,6 @@ banshee-1-dmp-ipod
 banshee-1-dmp-mtp
 banshee-1-extensions-default
 bash
-bash-doc
 bc
 bcel
 bea-stax
@@ -439,6 +440,7 @@ cabextract
 cairo
 cairo-devel
 cairomm
+calibre
 canna
 canna-libs
 cannadic
@@ -471,6 +473,7 @@ claws-mail-lang
 clicfs
 clucene-core
 clucene-core-devel
+cluster-glue
 cm-unicode
 cmake
 cnetworkmanager
@@ -480,10 +483,12 @@ compiz
 compiz-branding-openSUSE
 compiz-gnome
 compiz-kde4
+compiz-lang
 compiz-manager
 compiz-plugins-main
 convert
 coreutils
+corosync
 cpio
 cpp
 cpp45
@@ -564,6 +569,7 @@ dirmngr
 djvulibre
 dmidecode
 dmraid
+dmz-icon-theme-cursors
 dnsmasq
 docbook-dsssl-stylesheets
 docbook-xml-website
@@ -590,11 +596,6 @@ e2fsprogs-devel
 eID-belgium
 eIDconfig-belgium
 ecj
-eclipse
-eclipse-archdep-platform
-eclipse-jdt
-eclipse-pde
-eclipse-platform
 ed
 edict
 efont-unicode
@@ -618,7 +619,6 @@ epiphany-devel
 epiphany-doc
 epiphany-extensions
 eric
-esound-daemon
 espeak
 ethtool
 evince
@@ -724,6 +724,8 @@ gdata-sharp
 gdb
 gdbm
 gdbm-devel
+gdk-pixbuf-lang
+gdk-pixbuf-query-loaders
 gdm
 gdm-branding-openSUSE
 gedit
@@ -788,6 +790,7 @@ glib-sharp2
 glib2
 glib2-branding-openSUSE
 glib2-devel
+glib2-tools
 glibc
 glibc-devel
 glibc-i18ndata
@@ -959,8 +962,6 @@ hal-devel
 hamcrest
 handedict
 hdparm
-heartbeat-common
-heartbeat-resources
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -1235,7 +1236,6 @@ kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
 kdelibs4-doc
-kdelirc
 kdemultimedia4
 kdenetwork4-filesharing
 kdepasswd
@@ -1257,20 +1257,14 @@ kdump
 keditbookmarks
 kepas
 kernel-default
-kernel-default-base
-kernel-default-devel
 kernel-desktop
-kernel-desktop-base
 kernel-desktop-devel
 kernel-devel
 kernel-docs
 kernel-firmware
-kernel-pae-devel
 kernel-source
 kernel-source-vanilla
-kernel-syms
 kernel-xen
-kernel-xen-base
 kernel-xen-devel
 kerneloops
 kerneloops-applet
@@ -1289,7 +1283,6 @@ kgpg
 khangman
 kig
 kimagemapeditor
-kinfocenter
 kinput2
 kio_audiocd
 kio_iso
@@ -1356,6 +1349,8 @@ koffice2-l10n-pt
 koffice2-l10n-pt-doc
 koffice2-l10n-pt_BR
 koffice2-l10n-pt_BR-doc
+koffice2-l10n-ru
+koffice2-l10n-ru-doc
 koffice2-l10n-sv
 koffice2-l10n-sv-doc
 koffice2-l10n-zh_CN
@@ -1383,6 +1378,7 @@ krb5-client
 krb5-devel
 krdc
 krecord
+kremotecontrol
 krename
 kreversi
 krfb
@@ -1418,7 +1414,6 @@ kupdateapplet-packagekit
 kvkbd
 kvm
 kwalletmanager
-kweather
 kwebkitpart
 kwikdisk
 kwin
@@ -1438,9 +1433,9 @@ libFLAC++6
 libFLAC8
 libGeoIP1
 libHX22
-libMagick++3
-libMagickCore3
-libMagickWand3
+libMagick++4
+libMagickCore4
+libMagickWand4
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -1539,8 +1534,11 @@ libbz2-1
 libbz2-devel
 libc-client2007e_suse
 libcaca
+libcairo2
 libcanberra-gtk
+libcanberra-gtk-module-common
 libcanberra-gtk0
+libcanberra-gtk2-module
 libcanberra0
 libcap2
 libcares2
@@ -1561,6 +1559,7 @@ libcolorblind0
 libcom_err-devel
 libcom_err2
 libcompizconfig
+libcorosync4
 libcrack2
 libcroco
 libcroco-0_6-3
@@ -1572,13 +1571,14 @@ libdaemon0
 libdar-4
 libdb-4_5
 libdb-4_5-devel
+libdbusmenu-qt2
 libdc1394-22
 libdevkit-power-gobject1
 libdirac_encoder0
 libdiscid1
 libdjvulibre21
 libdlm
-libdlm2
+libdlm3
 libdnet1
 libdns_sd
 libdrm
@@ -1588,7 +1588,6 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libebl1
 libedit0
 libeggdbus-1-0
 libelf0
@@ -1640,6 +1639,7 @@ libgda-ui-4_0-4
 libgda-ui-4_0-plugins
 libgdata7
 libgdiplus0
+libgdk_pixbuf-2_0-0
 libgdl-1-3
 libgdu-gtk0
 libgdu0
@@ -1661,6 +1661,7 @@ libglademm-2_4-1
 libgladeui-1-9
 libgladeui-1_0-devel
 libglib-2_0-0
+libglue2
 libgmime-2_0-3
 libgmime-2_4-2
 libgmodule-2_0-0
@@ -1744,7 +1745,6 @@ libgweather1
 libgwenhywfar47
 libgwenhywfar47-plugins
 libhangul
-libheartbeat2
 libical-devel
 libical0
 libicu
@@ -1756,7 +1756,6 @@ libidn-devel
 libiec61883
 libieee1284
 libimobiledevice1
-libindi0
 libiniparser0
 libiodbc3
 libiptcdata
@@ -1764,8 +1763,8 @@ libiptcdata0
 libiterm
 libiw30
 libjack0
-libjasper
 libjasper-devel
+libjasper1
 libjpeg-devel
 libjpeg8
 libkcddb4
@@ -1793,6 +1792,8 @@ libksba
 libksba-devel
 libksuseinstall1
 libktoblzcheck1
+libktorrent2
+libktorrent2-lang
 liblapack3
 liblastfm0
 liblazy1
@@ -1823,6 +1824,7 @@ libmng-devel
 libmodman0
 libmodplug0
 libmoon0
+libmount1
 libmpc2
 libmpcdec5
 libmpfr1
@@ -1850,7 +1852,6 @@ libnl
 libnl-devel
 libnotify
 libnotify1
-libnova-0_12-2
 libnscd
 libnss_compat_ossl0
 libnsssharedhelper0
@@ -1860,7 +1861,8 @@ libofx
 libofx4
 libogg0
 liboil
-libopenais2
+libopagent1
+libopenais3
 libopenal1-soft
 libopencdk-devel
 libopencdk10
@@ -1912,17 +1914,19 @@ libpng12-0
 libpng14-14
 libpng14-compat-devel
 libpng14-devel
+libpodofo0_8_0
 libpolkit-qt-1-0
 libpolkit-qt-1-devel
 libpolkit0
 libpoppler-devel
-libpoppler-glib4
+libpoppler-glib5
 libpoppler-qt4-3
 libpoppler-qt4-devel
-libpoppler5
+libpoppler6
 libpopt0
 libppl7
 libppl_c2
+libprotobuf6
 libproxy1
 libproxy1-config-gnome
 libproxy1-config-kde4
@@ -1959,7 +1963,6 @@ libqt4-sql-sqlite
 libqt4-sql-unixODBC
 libqt4-x11
 libquicktime
-libqyotoshared1
 libraptor-devel
 libraptor1
 librasqal-devel
@@ -1981,6 +1984,7 @@ libseed0
 libselinux1
 libsensors4
 libsensors4-devel
+libsepol1
 libsexy
 libshout3
 libsigc++2
@@ -1993,7 +1997,6 @@ libsmbclient0
 libsmbios-bin
 libsmbios2
 libsmi
-libsmoke2
 libsndfile
 libsnmp20
 libsoftokn3
@@ -2016,7 +2019,6 @@ libstorage
 libstorage-devel
 libstrigi0
 libstroke
-libswt3-gtk2
 libsyncml-tools
 libsyncml0
 libtag-extras1
@@ -2088,10 +2090,12 @@ libx86emu1
 libxcrypt
 libxcrypt-devel
 libxfce4menu-0_1-0
+libxfce4ui
 libxfce4util
 libxfce4util-devel
 libxfcegui4
 libxfcegui4-devel
+libxfcegui4-gladeui
 libxfconf-0-2
 libxfconf-devel
 libxine-devel
@@ -2170,6 +2174,7 @@ lxsession-edit
 lxshortcut
 lxtask
 lxterminal
+lxterminal-lang
 lynx
 lyx
 m17n-db
@@ -2230,10 +2235,8 @@ mono-debugger
 mono-devel
 mono-extras
 mono-jscript
-mono-kde4
 mono-locale-extras
 mono-nunit
-mono-qt
 mono-tools
 mono-wcf
 mono-web
@@ -2301,6 +2304,7 @@ nagios
 nagios-plugins
 nagios-www
 nano
+nasm
 nautilus
 nautilus-devel
 nautilus-evince
@@ -2339,6 +2343,7 @@ netbeans-platform-harness
 netbeans-resolver
 netbeans-svnclientadapter
 netcat
+netcat-openbsd
 netcfg
 netpbm
 neverball
@@ -2382,6 +2387,8 @@ openais
 openal-soft
 openbox
 openclipart-png
+openhpi
+openhpi-daemon
 openjade
 openldap2
 openldap2-client
@@ -2581,6 +2588,7 @@ perl-Crypt-CBC
 perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
+perl-Crypt-Rijndael
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
@@ -2592,7 +2600,6 @@ perl-DBD-SQLite
 perl-DBD-XBase
 perl-DBD-mysql
 perl-DBI
-perl-Data-ShowTable
 perl-Date-Calc
 perl-Date-Manip
 perl-Devel-CoreStack
@@ -2635,7 +2642,6 @@ perl-HTML-Template-JIT
 perl-HTML-Tree
 perl-HTTP-DAV
 perl-HTTPS-Daemon
-perl-IO-Multiplex
 perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-String
@@ -2647,6 +2653,7 @@ perl-Image-Size
 perl-Inline
 perl-Inline-C
 perl-Log-Dispatch
+perl-Log-Dispatch-FileRotate
 perl-Log-Log4perl
 perl-MIME-Lite
 perl-MIME-Types
@@ -2852,7 +2859,6 @@ pptpd
 prctl
 preload
 preload-kmp-default
-preload-kmp-desktop
 privoxy
 procinfo
 procmail
@@ -2882,10 +2888,13 @@ python
 python-atspi-corba
 python-base
 python-beaker
+python-beautifulsoup
 python-cairo
 python-cairo-devel
 python-ccm
-python-compizconfig
+python-clientform
+python-cssutils
+python-cssutils-doc
 python-cups
 python-cupshelpers
 python-curl
@@ -2920,6 +2929,8 @@ python-louis
 python-lxml
 python-m2crypto
 python-mako
+python-markupsafe
+python-mechanize
 python-notify
 python-numpy
 python-opengl
@@ -2966,6 +2977,7 @@ quagga
 quanta
 quilt
 quota
+quota-nfs
 radvd
 raptor
 rarian
@@ -2984,6 +2996,7 @@ regexp
 reiserfs
 relaxngDatatype
 release-notes-openSUSE
+resource-agents
 rfc
 rhino
 ripit
@@ -3005,7 +3018,6 @@ ruby-doc-html
 ruby-doc-ri
 ruby-examples
 ruby-fcgi
-ruby-kde4
 ruby-mysql
 ruby-racc
 ruby-test-suite
@@ -3065,7 +3077,6 @@ semi-xemacs
 sendfax
 sendmail
 sensors
-servletapi4
 servletapi5
 setserial
 sfftobmp
@@ -3095,8 +3106,8 @@ smp_utils
 smpppd
 snack
 snmp-mibs
-socat
 solarwolf
+sonar-icon-theme
 soprano
 soprano-backend-redland
 soprano-backend-sesame
@@ -3153,7 +3164,6 @@ sysconfig
 sysfsutils
 syslinux
 system-config-printer
-systemtap
 systemtap-runtime
 sysvinit
 sysvinit-tools
@@ -3352,7 +3362,6 @@ vym
 w3m
 w3m-el
 w3m-el-xemacs
-wacom-kmp-default
 wdiff
 webkit-sharp
 wget

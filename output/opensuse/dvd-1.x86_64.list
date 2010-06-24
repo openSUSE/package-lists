@@ -37,6 +37,7 @@ NetworkManager-glib
 NetworkManager-gnome
 NetworkManager-kde4
 NetworkManager-kde4-libs
+NetworkManager-kde4-libs-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde4
@@ -172,6 +173,7 @@ WindowMaker-themes
 a2ps
 a2ps-perl-ja
 aaa_base
+aaa_base-extras
 aalib
 aalib-32bit
 aalib-devel
@@ -317,7 +319,6 @@ banshee-1-dmp-ipod
 banshee-1-dmp-mtp
 banshee-1-extensions-default
 bash
-bash-doc
 bc
 bcel
 bea-stax-api
@@ -446,6 +447,7 @@ cairo
 cairo-32bit
 cairo-devel
 cairomm
+calibre
 canna
 canna-libs
 cannadic
@@ -476,6 +478,7 @@ claws-mail-lang
 clicfs
 clucene-core
 clucene-core-devel
+cluster-glue
 cm-unicode
 cmake
 cnetworkmanager
@@ -484,10 +487,12 @@ compiz
 compiz-branding-openSUSE
 compiz-gnome
 compiz-kde4
+compiz-lang
 compiz-manager
 compiz-plugins-main
 convert
 coreutils
+corosync
 cpio
 cpp
 cpp45
@@ -989,8 +994,6 @@ hal-devel
 hal-devel-32bit
 handedict
 hdparm
-heartbeat-common
-heartbeat-resources
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -1249,7 +1252,6 @@ kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
 kdelibs4-doc
-kdelirc
 kdemultimedia4
 kdenetwork4-filesharing
 kdepasswd
@@ -1271,10 +1273,8 @@ kdump
 keditbookmarks
 kepas
 kernel-default
-kernel-default-base
 kernel-default-devel
 kernel-desktop
-kernel-desktop-base
 kernel-desktop-devel
 kernel-devel
 kernel-docs
@@ -1282,7 +1282,6 @@ kernel-firmware
 kernel-source
 kernel-syms
 kernel-xen
-kernel-xen-base
 kernel-xen-devel
 kerneloops
 kerneloops-applet
@@ -1302,7 +1301,6 @@ kgpg
 khangman
 kig
 kimagemapeditor
-kinfocenter
 kinput2
 kio_audiocd
 kio_iso
@@ -1369,6 +1367,8 @@ koffice2-l10n-pt
 koffice2-l10n-pt-doc
 koffice2-l10n-pt_BR
 koffice2-l10n-pt_BR-doc
+koffice2-l10n-ru
+koffice2-l10n-ru-doc
 koffice2-l10n-sv
 koffice2-l10n-sv-doc
 koffice2-l10n-zh_CN
@@ -1398,6 +1398,7 @@ krb5-devel
 krb5-devel-32bit
 krdc
 krecord
+kremotecontrol
 krename
 kreversi
 krfb
@@ -1433,7 +1434,6 @@ kupdateapplet-packagekit
 kvkbd
 kvm
 kwalletmanager
-kweather
 kwebkitpart
 kwikdisk
 kwin
@@ -1454,11 +1454,11 @@ libFLAC8-32bit
 libGeoIP1
 libHX22
 libHX22-32bit
-libMagick++3
-libMagickCore3
-libMagickCore3-32bit
-libMagickWand3
-libMagickWand3-32bit
+libMagick++4
+libMagickCore4
+libMagickCore4-32bit
+libMagickWand4
+libMagickWand4-32bit
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -1605,6 +1605,7 @@ libcom_err-devel
 libcom_err2
 libcom_err2-32bit
 libcompizconfig
+libcorosync4
 libcrack2
 libcrack2-32bit
 libcroco
@@ -1620,13 +1621,14 @@ libdar-4
 libdb-4_5
 libdb-4_5-32bit
 libdb-4_5-devel
+libdbusmenu-qt2
 libdc1394-22
 libdevkit-power-gobject1
 libdirac_encoder0
 libdiscid1
 libdjvulibre21
 libdlm
-libdlm2
+libdlm3
 libdnet1
 libdns_sd
 libdrm
@@ -1637,7 +1639,6 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libebl1
 libedit0
 libeggdbus-1-0
 libelf0
@@ -1725,6 +1726,7 @@ libgladeui-1-9
 libgladeui-1_0-devel
 libglib-2_0-0
 libglib-2_0-0-32bit
+libglue2
 libgmime-2_0-3
 libgmime-2_4-2
 libgmodule-2_0-0
@@ -1827,7 +1829,6 @@ libgweather1
 libgwenhywfar47
 libgwenhywfar47-plugins
 libhangul
-libheartbeat2
 libical-devel
 libical0
 libicu
@@ -1842,7 +1843,6 @@ libiec61883
 libieee1284
 libieee1284-32bit
 libimobiledevice1
-libindi0
 libiniparser0
 libiniparser0-32bit
 libiodbc3
@@ -1851,8 +1851,8 @@ libiptcdata0
 libiterm
 libiw30
 libjack0
-libjasper
 libjasper-devel
+libjasper1
 libjpeg-devel
 libjpeg-devel-32bit
 libjpeg8
@@ -1882,6 +1882,8 @@ libksba
 libksba-devel
 libksuseinstall1
 libktoblzcheck1
+libktorrent2
+libktorrent2-lang
 liblapack3
 liblastfm0
 liblazy1
@@ -1921,6 +1923,7 @@ libmodman0-32bit
 libmodplug0
 libmodplug0-32bit
 libmoon0
+libmount1
 libmpc2
 libmpcdec5
 libmpfr1
@@ -1953,7 +1956,6 @@ libnl-devel
 libnl-devel-32bit
 libnotify
 libnotify1
-libnova-0_12-2
 libnscd
 libnscd-32bit
 libnss_compat_ossl0
@@ -1968,7 +1970,9 @@ libogg0
 libogg0-32bit
 liboil
 liboil-32bit
-libopenais2
+libopagent1
+libopagent1-32bit
+libopenais3
 libopenal1-soft
 libopenal1-soft-32bit
 libopencdk-devel
@@ -2028,18 +2032,20 @@ libpng14-14
 libpng14-14-32bit
 libpng14-compat-devel
 libpng14-devel
+libpodofo0_8_0
 libpolkit-qt-1-0
 libpolkit-qt-1-devel
 libpolkit0
 libpoppler-devel
-libpoppler-glib4
+libpoppler-glib5
 libpoppler-qt4-3
 libpoppler-qt4-devel
-libpoppler5
+libpoppler6
 libpopt0
 libpopt0-32bit
 libppl7
 libppl_c2
+libprotobuf6
 libproxy1
 libproxy1-32bit
 libproxy1-config-gnome
@@ -2086,7 +2092,6 @@ libqt4-sql-unixODBC
 libqt4-sql-unixODBC-32bit
 libqt4-x11
 libquicktime
-libqyotoshared1
 libraptor-devel
 libraptor1
 librasqal-devel
@@ -2115,6 +2120,8 @@ libselinux1-32bit
 libsensors4
 libsensors4-32bit
 libsensors4-devel
+libsepol1
+libsepol1-32bit
 libsexy
 libshout3
 libsigc++2
@@ -2128,7 +2135,6 @@ libsmbclient0-32bit
 libsmbios-bin
 libsmbios2
 libsmi
-libsmoke2
 libsndfile
 libsndfile-32bit
 libsnmp20
@@ -2243,10 +2249,12 @@ libx86emu1
 libxcrypt
 libxcrypt-32bit
 libxfce4menu-0_1-0
+libxfce4ui
 libxfce4util
 libxfce4util-devel
 libxfcegui4
 libxfcegui4-devel
+libxfcegui4-gladeui
 libxfconf-0-2
 libxfconf-devel
 libxine-devel
@@ -2328,6 +2336,7 @@ lxsession-edit
 lxshortcut
 lxtask
 lxterminal
+lxterminal-lang
 lynx
 lyx
 m17n-db
@@ -2389,10 +2398,8 @@ mono-debugger
 mono-devel
 mono-extras
 mono-jscript
-mono-kde4
 mono-locale-extras
 mono-nunit
-mono-qt
 mono-tools
 mono-wcf
 mono-web
@@ -2460,6 +2467,7 @@ nagios
 nagios-plugins
 nagios-www
 nano
+nasm
 nautilus
 nautilus-32bit
 nautilus-devel
@@ -2492,6 +2500,7 @@ net-snmp
 net-snmp-devel
 net-tools
 netcat
+netcat-openbsd
 netcfg
 netpbm
 nfs-client
@@ -2536,6 +2545,8 @@ openSUSE-release-dvd
 openais
 openal-soft
 openbox
+openhpi
+openhpi-daemon
 openjade
 openldap2
 openldap2-client
@@ -2559,6 +2570,7 @@ openvpn
 opie
 opie-32bit
 oprofile
+oprofile-32bit
 optipng
 orage
 orbit2
@@ -2759,7 +2771,6 @@ perl-DBD-SQLite
 perl-DBD-XBase
 perl-DBD-mysql
 perl-DBI
-perl-Data-ShowTable
 perl-Date-Calc
 perl-Date-Manip
 perl-Devel-CoreStack
@@ -2802,7 +2813,6 @@ perl-HTML-Template-JIT
 perl-HTML-Tree
 perl-HTTP-DAV
 perl-HTTPS-Daemon
-perl-IO-Multiplex
 perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-String
@@ -2814,6 +2824,7 @@ perl-Image-Size
 perl-Inline
 perl-Inline-C
 perl-Log-Dispatch
+perl-Log-Dispatch-FileRotate
 perl-Log-Log4perl
 perl-MIME-Lite
 perl-MIME-Types
@@ -3052,10 +3063,13 @@ python-atspi-corba
 python-base
 python-base-32bit
 python-beaker
+python-beautifulsoup
 python-cairo
 python-cairo-devel
 python-ccm
-python-compizconfig
+python-clientform
+python-cssutils
+python-cssutils-doc
 python-cups
 python-cupshelpers
 python-curl
@@ -3091,6 +3105,8 @@ python-louis
 python-lxml
 python-m2crypto
 python-mako
+python-markupsafe
+python-mechanize
 python-notify
 python-numpy
 python-opengl
@@ -3137,6 +3153,7 @@ quagga
 quanta
 quilt
 quota
+quota-nfs
 radvd
 raptor
 rarian
@@ -3154,6 +3171,7 @@ redland
 regexp
 reiserfs
 release-notes-openSUSE
+resource-agents
 rhino
 ripit
 ristretto
@@ -3175,7 +3193,6 @@ ruby-doc-html
 ruby-doc-ri
 ruby-examples
 ruby-fcgi
-ruby-kde4
 ruby-mysql
 ruby-racc
 ruby-test-suite
@@ -3267,7 +3284,6 @@ smp_utils
 smpppd
 snack
 snmp-mibs
-socat
 solarwolf
 soprano
 soprano-backend-redland
@@ -3323,7 +3339,6 @@ sysconfig
 sysfsutils
 syslinux
 system-config-printer
-systemtap
 systemtap-runtime
 sysvinit
 sysvinit-tools
@@ -3522,7 +3537,6 @@ vym
 w3m
 w3m-el
 w3m-el-xemacs
-wacom-kmp-default
 wdiff
 webkit-sharp
 wget

@@ -35,7 +35,9 @@ for i in *-update.xml; do
   echo $i
   out=`./update.sh $i`
   if test -z "$out"; then
+    echo "failed"
     grep -A7 Problem: $i.output
+    grep "Can't find kind" $i.error
     continue
   fi
 

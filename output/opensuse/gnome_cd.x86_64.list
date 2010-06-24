@@ -44,9 +44,13 @@ PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
+PolicyKit
+PolicyKit-gnome
+PolicyKit-gnome-libs
 SuSEfirewall2
 a2ps
 aaa_base
+aaa_base-extras
 aalib
 acl
 acpica
@@ -99,6 +103,7 @@ bluez
 bluez-firmware
 boo
 boo-2_0_9_3
+boost-license1_42_0
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -127,6 +132,7 @@ command-not-found
 compiz
 compiz-branding-openSUSE
 compiz-gnome
+compiz-lang
 compiz-manager
 compiz-plugins-main
 coreutils
@@ -244,6 +250,7 @@ ghostscript-x11
 giflib
 gimp
 gimp-branding-openSUSE
+gimp-module-hal
 gio-sharp
 gir-repository
 glade-sharp2
@@ -318,6 +325,7 @@ grub
 gstreamer-0_10
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
+gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
@@ -342,6 +350,7 @@ gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
+hal
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -372,7 +381,6 @@ jfsutils
 jpackage-utils
 kbd
 kernel-desktop
-kernel-desktop-base
 kernel-firmware
 keyutils
 keyutils-libs
@@ -384,7 +392,7 @@ lcms
 less
 libFLAC8
 libHX22
-libMagickCore3
+libMagickCore4
 libSDL-1_2-0
 libSoundTouch0
 libXi6
@@ -417,6 +425,7 @@ libblocxx6
 libbluetooth3
 libbonobo
 libbonoboui
+libboost_serialization1_42_0
 libbrasero-burn0
 libbrasero-media0
 libbz2-1
@@ -439,7 +448,6 @@ libclutter-glx-1_0-0
 libclutter-gtk-0_90-0
 libcolorblind0
 libcom_err2
-libcompizconfig
 libcrack2
 libcroco-0_6-3
 libcryptsetup1
@@ -551,7 +559,7 @@ libiptcdata
 libiptcdata0
 libiw30
 libjack0
-libjasper
+libjasper1
 libjpeg8
 libksba
 liblapack3
@@ -571,6 +579,7 @@ liblzo2-2
 libmng
 libmodman0
 libmodplug0
+libmount1
 libmpc2
 libmpcdec5
 libmpfr1
@@ -610,8 +619,8 @@ libpkcs11-helper1
 libplist1
 libpng14-14
 libpolkit0
-libpoppler-glib4
-libpoppler5
+libpoppler-glib5
+libpoppler6
 libpopt0
 libppl7
 libppl_c2
@@ -638,6 +647,7 @@ libsamplerate
 libschroedinger-1_0-0
 libseed0
 libselinux1
+libsepol1
 libsexy
 libsigc++2
 libsilc-1_1-2
@@ -847,9 +857,11 @@ pcmciautils
 pcre
 perl
 perl-Bootloader
+perl-Clone
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
+perl-DBD-CSV
 perl-DBD-SQLite
 perl-DBI
 perl-Digest-HMAC
@@ -858,12 +870,16 @@ perl-Digest-SHA1
 perl-File-Tail
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-MLDBM
 perl-Net-Daemon
 perl-NetxAP
+perl-Params-Util
 perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
+perl-SQL-Statement
 perl-TermReadKey
+perl-Text-CSV_XS
 perl-TimeDate
 perl-URI
 perl-WWW-Curl
@@ -916,9 +932,9 @@ pwdutils
 python
 python-atspi-corba
 python-base
+python-beautifulsoup
 python-cairo
 python-ccm
-python-compizconfig
 python-cups
 python-cupshelpers
 python-gnome
@@ -967,6 +983,7 @@ seahorse
 seahorse-plugins
 sed
 seed
+setserial
 sg3_utils
 sgml-skel
 shared-mime-info
