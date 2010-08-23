@@ -59,6 +59,7 @@ db-utils
 dbus-1
 dbus-1-glib
 dbus-1-x11
+dconf
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -108,6 +109,7 @@ glibc-locale
 glibc-locale-32bit
 gnome-icon-theme
 gnome-icon-theme-extras
+gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
 gnutls
@@ -117,6 +119,7 @@ gpm
 grep
 groff
 grub
+gsettings-backend-dconf
 gtk2
 gtk2-branding-openSUSE
 gtk2-engine-murrine
@@ -186,6 +189,7 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdconf0
 libdrm
 libdw1
 libeggdbus-1-0
@@ -222,6 +226,7 @@ libgp11-0
 libgp11-modules
 libgpg-error0
 libgphoto2
+libgphoto2-lang
 libgssglue1
 libgthread-2_0-0
 libgudev-1_0-0
@@ -264,7 +269,7 @@ libpixman-1-0
 libplist1
 libpng14-14
 libpolkit0
-libpoppler6
+libpoppler7
 libpopt0
 libppl7
 libppl_c2
@@ -485,7 +490,6 @@ xinetd
 xkeyboard-config
 xorg-x11
 xorg-x11-Xvnc
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau

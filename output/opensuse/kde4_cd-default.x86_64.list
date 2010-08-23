@@ -90,6 +90,7 @@ dbus-1
 dbus-1-glib
 dbus-1-python
 dbus-1-x11
+dconf
 dcraw
 dejavu
 deltarpm
@@ -149,8 +150,6 @@ glibc
 glibc-32bit
 glibc-locale
 glibc-locale-32bit
-gnome-icon-theme
-gnome-icon-theme-extras
 gnome-keyring
 gnome-keyring-pam
 gnutls
@@ -161,13 +160,10 @@ gpm
 grep
 groff
 grub
+gsettings-backend-dconf
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gtk2
-gtk2-branding-openSUSE
-gtk2-engine-murrine
-gtk2-engines
-gtk2-metatheme-sonar
 gwenview
 gzip
 hal
@@ -201,7 +197,6 @@ kcm_gtk
 kcolorchooser
 kde4-filesystem
 kde4-kgreeter-plugins
-kdeartwork4-screensaver
 kdebase4
 kdebase4-libkonq
 kdebase4-nsplugin
@@ -324,6 +319,7 @@ libdaemon0
 libdb-4_5
 libdbusmenu-qt2
 libdc1394-22
+libdconf0
 libdjvulibre21
 libdrm
 libdw1
@@ -349,7 +345,6 @@ libggz2
 libgimpprint
 libgio-2_0-0
 libgio-fam
-libgle3
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp3
@@ -363,6 +358,7 @@ libgp11-modules
 libgpg-error0
 libgpgme11
 libgphoto2
+libgphoto2-lang
 libgpod-tools
 libgpod4
 libgps19
@@ -436,7 +432,7 @@ libpng14-14
 libpolkit-qt-1-0
 libpolkit0
 libpoppler-qt4-3
-libpoppler6
+libpoppler7
 libpopt0
 libppl7
 libppl_c2
@@ -665,7 +661,6 @@ shared-desktop-ontologies
 shared-mime-info
 smolt-gui
 smp_utils
-sonar-icon-theme
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
@@ -724,7 +719,6 @@ xinetd
 xkeyboard-config
 xorg-x11
 xorg-x11-Xvnc
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
@@ -751,7 +745,6 @@ xorg-x11-libxcb
 xorg-x11-libxkbfile
 xorg-x11-server
 xorg-x11-xauth
-xscreensaver-data-extra
 xterm
 xz
 yast2

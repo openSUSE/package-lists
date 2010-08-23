@@ -60,6 +60,7 @@ db-utils
 dbus-1
 dbus-1-glib
 dbus-1-x11
+dconf
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -107,6 +108,7 @@ gpm
 grep
 groff
 grub
+gsettings-backend-dconf
 gzip
 hal
 hdparm
@@ -156,6 +158,7 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdconf0
 libdrm
 libdw1
 libeggdbus-1-0
@@ -210,7 +213,7 @@ libpixman-1-0
 libplist1
 libpng14-14
 libpolkit0
-libpoppler6
+libpoppler7
 libpopt0
 libppl7
 libppl_c2
@@ -408,7 +411,6 @@ xinetd
 xkeyboard-config
 xorg-x11
 xorg-x11-Xvnc
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau

@@ -67,6 +67,7 @@ cups-libs
 cyrus-sasl
 dbus-1
 dbus-1-glib
+dconf
 dejavu
 desktop-file-utils
 desktop-translations
@@ -104,11 +105,13 @@ glib2-tools
 glibc
 gnome-icon-theme
 gnome-icon-theme-extras
+gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
 gnome-vfs2
 gpg2
 grep
+gsettings-backend-dconf
 gstreamer-0_10
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
@@ -169,6 +172,7 @@ libcom_err2
 libcrack2
 libcurl4
 libdb-4_5
+libdconf0
 libdrm
 libeggdbus-1-0
 libelf1
@@ -198,6 +202,7 @@ libgp11-0
 libgp11-modules
 libgpg-error0
 libgphoto2
+libgphoto2-lang
 libgstapp-0_10-0
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0

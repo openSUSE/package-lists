@@ -27,6 +27,8 @@ aaa_base-extras
 acl
 acpica
 acpid
+aisleriot
+aisleriot-lang
 alsa
 alsa-oss
 alsa-plugins
@@ -84,6 +86,7 @@ cdrkit-cdrtools-compat
 checkmedia
 cheese
 cifs-utils
+clutter-lang
 command-not-found
 compiz
 compiz-branding-openSUSE
@@ -116,6 +119,7 @@ dbus-1
 dbus-1-glib
 dbus-1-python
 dbus-1-x11
+dconf
 dcraw
 dejavu
 deltarpm
@@ -140,6 +144,8 @@ eject
 ekiga
 ekiga-lang
 elfutils
+empathy
+empathy-lang
 enchant
 eog
 eog-lang
@@ -169,6 +175,7 @@ foomatic-filters
 freeglut
 fuse
 gawk
+gbrainy
 gcalctool
 gcalctool-lang
 gconf-editor
@@ -183,6 +190,7 @@ gd
 gdb
 gdbm
 gdk-pixbuf-lang
+gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdm
 gdm-branding-openSUSE
@@ -200,13 +208,15 @@ giflib
 gio-sharp
 gir-repository
 glade-sharp2
+glchess
+glchess-lang
 glib-sharp2
 glib2-branding-openSUSE
 glib2-tools
 glibc
 glibc-locale
 glibmm2
-gmime-sharp
+gmime-2_4-sharp
 gnome-applets
 gnome-applets-colorblind
 gnome-applets-gdm
@@ -219,8 +229,13 @@ gnome-desktop-sharp2
 gnome-do
 gnome-do-plugins
 gnome-doc-utils
+gnome-games-recommended
+gnome-games-support
+gnome-games-support-lang
 gnome-icon-theme
 gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-js-common
 gnome-keyring
 gnome-keyring-pam
 gnome-keyring-sharp
@@ -252,6 +267,8 @@ gnome-settings-daemon-lang
 gnome-settings-daemon-polkit-datetime
 gnome-sharp2
 gnome-speech
+gnome-sudoku
+gnome-sudoku-lang
 gnome-system-monitor
 gnome-terminal
 gnome-terminal-lang
@@ -261,6 +278,8 @@ gnome-utils
 gnome-utils-lang
 gnome-vfs-sharp2
 gnome-vfs2
+gnomine
+gnomine-lang
 gnutls
 gpart
 gpg2
@@ -269,6 +288,7 @@ gpm
 grep
 groff
 grub
+gsettings-backend-dconf
 gstreamer-0_10
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
@@ -285,13 +305,14 @@ gtk2-branding-openSUSE
 gtk2-engine-murrine
 gtk2-engines
 gtk2-metatheme-sonar
+gtkglext
 gtkhtml2
 gtkhtml2-lang
-gtkmm2
 gtksourceview-lang
 gtkspell
 gucharmap
 gucharmap-lang
+guile
 gvfs
 gvfs-backend-afc
 gvfs-backends
@@ -304,6 +325,8 @@ hicolor-icon-theme-branding-openSUSE
 hunspell
 hunspell-tools
 hwinfo
+iagno
+iagno-lang
 icedax
 icewm
 ifnteuro
@@ -344,6 +367,7 @@ libass4
 libassuan0
 libatasmart4
 libatk-1_0-0
+libatkmm-1_6-1
 libattr
 libaudit1
 libaugeas0
@@ -378,8 +402,11 @@ libcdio10
 libcdio_cdda0
 libcdio_paranoia0
 libcelt0-0
+libchamplain0
 libcheese-gtk18
 libcloog0
+libclutter-glx-1_0-0
+libclutter-gtk-0_10-0
 libcolorblind0
 libcom_err2
 libcrack2
@@ -389,6 +416,7 @@ libcurl4
 libdaemon0
 libdb-4_5
 libdc1394-22
+libdconf0
 libdevkit-power-gobject1
 libdirac_encoder0
 libdjvulibre21
@@ -411,6 +439,8 @@ libexif
 libexpat1
 libext2fs2
 libffi45
+libfolks-telepathy0
+libfolks0
 libfprint0
 libfreebl3
 libfreetype6
@@ -424,6 +454,7 @@ libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdu0
 libgee2
+libgeoclue0
 libgfortran45
 libgimpprint
 libgio-2_0-0
@@ -433,7 +464,6 @@ libglade2
 libglademm
 libglademm-2_4-1
 libglib-2_0-0
-libgmime-2_0-3
 libgmime-2_4-2
 libgmodule-2_0-0
 libgmp3
@@ -461,6 +491,7 @@ libgp11-0
 libgp11-modules
 libgpg-error0
 libgphoto2
+libgphoto2-lang
 libgsf-1-114
 libgsm1
 libgssdp-1_0-2
@@ -473,6 +504,7 @@ libgstphotography-0_10-0
 libgstreamer-0_10-0
 libgstsignalprocessor-0_10-0
 libgthread-2_0-0
+libgtkmm-2_4-1
 libgtksourceview-2_0-0
 libgtop
 libgtop-2_0-7
@@ -494,6 +526,7 @@ libiw30
 libjack0
 libjasper1
 libjpeg8
+libjson-glib-1_0-0
 libksba
 liblapack3
 liblcms1
@@ -506,6 +539,7 @@ libltdl7
 liblua5_1
 liblzma0
 liblzo2-2
+libmission-control-plugins0
 libmng
 libmodman0
 libmodplug0
@@ -521,7 +555,7 @@ libncurses6
 libneon27
 libnice0
 libnl
-libnotify
+libnotify-tools
 libnotify1
 libnscd
 libofa0
@@ -544,7 +578,7 @@ libplist1
 libpng14-14
 libpolkit0
 libpoppler-glib5
-libpoppler6
+libpoppler7
 libpopt0
 libppl7
 libppl_c2
@@ -565,9 +599,10 @@ librcc0
 librcd0
 libreadline6
 libreiserfs
-librsvg
+librsvg-2-2
 libsamplerate
 libschroedinger-1_0-0
+libseed0
 libselinux1
 libsepol1
 libsexy
@@ -589,7 +624,9 @@ libstorage
 libtalloc2
 libtasn1
 libtasn1-3
+libtelepathy-farsight0
 libtelepathy-glib0
+libtelepathy-logger1
 libtheora0
 libtiff3
 libtirpc1
@@ -611,6 +648,8 @@ libvisual
 libvorbis
 libwavpack1
 libwbclient0
+libwebkitgtk-1_0-0
+libwebkitgtk2-lang
 libwnck-1-22
 libx86
 libx86emu1
@@ -622,6 +661,10 @@ libxslt
 libzio
 libzypp
 licenses
+liferea
+liferea-lang
+lightsoff
+lightsoff-lang
 limal
 limal-ca-mgm
 limal-ca-mgm-perl
@@ -639,6 +682,8 @@ lsof
 lsscsi
 lukemftp
 lvm2
+mahjongg
+mahjongg-lang
 mailx
 man
 master-boot-code
@@ -672,6 +717,7 @@ nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
 nautilus-sendto-lang
+nautilus-sendto-plugin-empathy
 nautilus-sendto-plugin-upnp
 nautilus-totem
 nautilus-tracker
@@ -708,6 +754,7 @@ pam-modules
 pam_apparmor
 pango
 paprefs
+papyon
 parted
 pavucontrol
 pciutils
@@ -754,6 +801,7 @@ perl-gettext
 perl-libapparmor
 perl-libwww-perl
 permissions
+phalanx
 pinentry
 pinentry-gtk2
 pkcs11-helper
@@ -789,23 +837,30 @@ python-beautifulsoup
 python-brlapi
 python-cairo
 python-ccm
+python-crypto
 python-cups
 python-cupshelpers
 python-gnome
 python-gobject2
 python-gstreamer-0_10
 python-gtk
+python-gtkglext
 python-gtksourceview
 python-httplib2
+python-libproxy
 python-louis
 python-notify
 python-numpy
+python-openssl
 python-orbit
 python-satsolver
 python-simplejson
 python-smbc
+python-telepathy
 python-urlgrabber
 python-xml
+quadrapassel
+quadrapassel-lang
 rarian
 rcc-runtime
 recode
@@ -820,6 +875,7 @@ satsolver-tools
 sax2-tools
 scout
 sed
+seed
 setserial
 sg3_utils
 sgml-skel
@@ -838,6 +894,8 @@ sudo
 suseRegister
 susehelp
 susehelp_en
+swell-foop
+swell-foop-lang
 sysconfig
 sysfsutils
 system-config-printer
@@ -851,8 +909,12 @@ taglib-sharp
 tar
 tasque
 tcpd
+telepathy-butterfly
 telepathy-gabble
 telepathy-haze
+telepathy-idle
+telepathy-logger
+telepathy-mission-control
 telepathy-salut
 terminfo-base
 tightvnc
@@ -911,7 +973,6 @@ xinetd
 xkeyboard-config
 xorg-x11
 xorg-x11-Xvnc
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
