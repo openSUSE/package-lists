@@ -84,7 +84,7 @@ coreutils
 cpio
 cracklib
 cracklib-dict-full
-cron
+cronie
 cups-client
 cups-libs
 cups-libs-32bit
@@ -132,6 +132,7 @@ ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
 gjiten
+glib-networking
 glib2-branding-openSUSE
 glib2-tools
 glibc
@@ -188,6 +189,7 @@ lcms
 less
 libFLAC8
 libFLAC8-32bit
+libQtWebKit4
 libXi6
 libXi6-32bit
 libacl
@@ -234,7 +236,6 @@ libcurl4
 libdb-4_5
 libdconf0
 libdrm
-libeggdbus-1-0
 libelf1
 liberation-fonts
 libexif
@@ -295,7 +296,7 @@ libltdl7-32bit
 liblua5_1
 liblzma0
 libmng
-libmodman0
+libmodman1
 libmount1
 libmysqlclient_r16
 libncurses5
@@ -303,13 +304,14 @@ libnih
 libnscd
 libogg0
 libogg0-32bit
-liboil
 libopenobex1
 libopenssl1_0_0
 libopenssl1_0_0-32bit
+liborc-0_4-0
 libotf0
 libpackagekit-glib2-14
 libpanel-applet-2-0
+libparted0
 libpcre0
 libpcre0-32bit
 libpixman-1-0
@@ -326,7 +328,7 @@ libproxy1-pacrunner-mozjs
 libpth20
 libpulse0
 libpulse0-32bit
-libpython2_6-1_0
+libpython2_7-1_0
 libqdialogsolver1
 libqt4
 libqt4-qt3support
@@ -346,6 +348,7 @@ libsqlite3-0
 libssh2-1
 libstdc++45
 libstdc++45-32bit
+libtalloc2
 libtasn1
 libtasn1-3
 libtheora0
@@ -405,7 +408,6 @@ openSUSE-release-dvd
 openslp
 openssl
 opensuse-manuals_de
-opensuse-manuals_de-pdf
 opensuse-manuals_en
 orbit2
 pam
@@ -413,11 +415,9 @@ pam-config
 pam-modules
 pango
 pango-32bit
-parted
 patch
 patterns-openSUSE-x11_yast
 pax
-pcre
 perl
 perl-Config-Crontab
 perl-XML-Parser

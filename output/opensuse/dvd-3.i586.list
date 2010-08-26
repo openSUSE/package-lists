@@ -79,7 +79,7 @@ coreutils
 cpio
 cracklib
 cracklib-dict-full
-cron
+cronie
 cups-libs
 cyrus-sasl
 dbus-1
@@ -116,6 +116,7 @@ ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
 gjiten
+glib-networking
 glib2-branding-openSUSE
 glib2-tools
 glibc
@@ -153,6 +154,7 @@ keyutils-libs
 krb5
 lcms
 libFLAC8
+libQtWebKit4
 libXi6
 libacl
 libadns1
@@ -190,7 +192,6 @@ libcurl4
 libdb-4_5
 libdconf0
 libdrm
-libeggdbus-1-0
 libelf1
 liberation-fonts
 libexif
@@ -238,18 +239,19 @@ libltdl7
 liblua5_1
 liblzma0
 libmng
-libmodman0
+libmodman1
 libmount1
 libmysqlclient_r16
 libncurses5
 libnscd
 libogg0
-liboil
 libopenobex1
 libopenssl1_0_0
+liborc-0_4-0
 libotf0
 libpackagekit-glib2-14
 libpanel-applet-2-0
+libparted0
 libpcre0
 libpixman-1-0
 libplist1
@@ -262,7 +264,7 @@ libproxy1-config-gnome
 libproxy1-pacrunner-mozjs
 libpth20
 libpulse0
-libpython2_6-1_0
+libpython2_7-1_0
 libqt4
 libqt4-qt3support
 libqt4-sql
@@ -278,6 +280,7 @@ libsoup-2_4-1
 libsqlite3-0
 libssh2-1
 libstdc++45
+libtalloc2
 libtasn1
 libtasn1-3
 libtheora0
@@ -321,8 +324,6 @@ pam
 pam-config
 pam-modules
 pango
-parted
-pcre
 perl
 perl-base
 perl-doc

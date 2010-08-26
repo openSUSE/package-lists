@@ -45,7 +45,7 @@ cpp45
 cracklib
 cracklib-dict-full
 crda
-cron
+cronie
 cryptsetup
 cups
 cups-client
@@ -95,6 +95,7 @@ gfxboot-branding-openSUSE
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
+glib-networking
 glib2-branding-openSUSE
 glib2-tools
 glibc
@@ -148,7 +149,6 @@ libblkid1
 libblocxx6
 libbz2-1
 libcap2
-libcloog0
 libcom_err2
 libcrack2
 libcryptsetup1
@@ -158,7 +158,6 @@ libdb-4_5
 libdconf0
 libdrm
 libdw1
-libeggdbus-1-0
 libelf1
 libenca0
 liberation-fonts
@@ -172,8 +171,7 @@ libgimpprint
 libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
-libgmp3
-libgmpxx4
+libgmp10
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
@@ -193,14 +191,16 @@ liblua5_1
 liblzma0
 liblzo2-2
 libmng
+libmodman1
 libmount1
 libmpc2
-libmpfr1
+libmpfr4
 libncurses5
 libncurses6
 libnl
 libnscd
 libopenssl1_0_0
+libparted0
 libpcap1
 libpciaccess0
 libpcre0
@@ -210,10 +210,9 @@ libpng14-14
 libpolkit0
 libpoppler7
 libpopt0
-libppl7
-libppl_c2
+libproxy1
 libpth20
-libpython2_6-1_0
+libpython2_7-1_0
 librcc0
 librcd0
 libreadline6
@@ -235,7 +234,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
 libuuid1
-libx86
+libx86-1
 libx86emu1
 libxcrypt
 libxml2
@@ -289,7 +288,6 @@ pam_apparmor
 parted
 pciutils
 pciutils-ids
-pcre
 perl
 perl-Bootloader
 perl-Clone

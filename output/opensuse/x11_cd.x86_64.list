@@ -54,7 +54,7 @@ cpp45
 cracklib
 cracklib-dict-full
 crda
-cron
+cronie
 cryptsetup
 cups
 cups-client
@@ -105,7 +105,6 @@ gconf-polkit
 gconf2
 gd
 gdbm
-gdk-pixbuf-lang
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
@@ -114,6 +113,7 @@ gfxboot-branding-openSUSE
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
+glib-networking
 glib2-branding-openSUSE
 glib2-tools
 glibc
@@ -137,11 +137,13 @@ gtk2
 gtk2-branding-openSUSE
 gtk2-engine-murrine
 gtk2-engines
+gtk2-engines-lang
 gtk2-metatheme-sonar
 gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
+gvfs-lang
 gzip
 hal
 hdparm
@@ -179,9 +181,10 @@ krb5-client
 lcms
 less
 libFLAC8
-libHX22
+libHX25
 libMagickCore4
 libMagickWand4
+libQtWebKit4
 libSDL-1_2-0
 libXi6
 libacl
@@ -204,11 +207,11 @@ libblocxx6
 libbluetooth3
 libbz2-1
 libcairo2
+libcap-ng0
 libcap2
 libcdio10
 libcdio_cdda0
 libcdio_paranoia0
-libcloog0
 libcom_err2
 libcrack2
 libcryptsetup1
@@ -218,7 +221,6 @@ libdb-4_5
 libdconf0
 libdrm
 libdw1
-libeggdbus-1-0
 libelf1
 libenca0
 liberation-fonts
@@ -234,13 +236,13 @@ libgcc45
 libgcr0
 libgcrypt11
 libgdk_pixbuf-2_0-0
+libgdu-lang
 libgdu0
 libgimpprint
 libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
-libgmp3
-libgmpxx4
+libgmp10
 libgnome-keyring-lang
 libgnome-keyring0
 libgnutls-extra26
@@ -273,10 +275,10 @@ liblua5_1
 liblzma0
 liblzo2-2
 libmng
-libmodman0
+libmodman1
 libmount1
 libmpc2
-libmpfr1
+libmpfr4
 libmysqlclient_r16
 libncurses5
 libncurses5-32bit
@@ -287,6 +289,7 @@ libnuma1
 libogg0
 libopenobex1
 libopenssl1_0_0
+libparted0
 libpcap1
 libpciaccess0
 libpcre0
@@ -296,14 +299,12 @@ libpng14-14
 libpolkit0
 libpoppler7
 libpopt0
-libppl7
-libppl_c2
 libproxy1
 libproxy1-config-gnome
 libproxy1-pacrunner-mozjs
 libpth20
 libpulse0
-libpython2_6-1_0
+libpython2_7-1_0
 libqt4
 libqt4-qt3support
 libqt4-sql
@@ -315,6 +316,7 @@ libreadline6
 libreiserfs
 libselinux1
 libsepol1
+libslang2
 libsmbclient0
 libsmbios-bin
 libsmbios2
@@ -340,7 +342,7 @@ libusbmuxd1
 libuuid1
 libvorbis
 libwbclient0
-libx86
+libx86-1
 libx86emu1
 libxcrypt
 libxml2
@@ -411,7 +413,7 @@ orbit2
 pam
 pam-config
 pam-modules
-pam_fp
+pam_fprint
 pam_krb5
 pam_ldap
 pam_mount
@@ -429,7 +431,6 @@ patterns-openSUSE-yast2_install_wf
 pciutils
 pciutils-ids
 pcmciautils
-pcre
 perl
 perl-Bootloader
 perl-Config-Crontab
@@ -499,7 +500,6 @@ scout
 sed
 setserial
 sg3_utils
-slang
 smartmontools
 smp_utils
 smpppd

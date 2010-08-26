@@ -20,7 +20,7 @@ cpio
 cracklib
 cracklib-dict-full
 crda
-cron
+cronie
 cryptsetup
 curl
 cyrus-sasl
@@ -64,6 +64,7 @@ kiwi-tools
 kpartx
 krb5
 lcms
+libQtWebKit4
 libXi6
 libacl
 libadns1
@@ -112,6 +113,7 @@ libncurses5-32bit
 libnl
 libnscd
 libopenssl1_0_0
+libparted0
 libpcre0
 libpng14-14
 libpopt0
@@ -127,9 +129,11 @@ libreadline6
 libreiserfs
 libselinux1
 libsepol1
+libsqlite3-0
 libssh2-1
 libstdc++45
 libstorage
+libtalloc2
 libtiff3
 libudev0
 libusb-0_1-4
@@ -171,7 +175,6 @@ parted
 patch
 pciutils
 pciutils-ids
-pcre
 perl
 perl-Bootloader
 perl-Config-Crontab
