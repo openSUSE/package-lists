@@ -18,6 +18,8 @@ do_opensuse()
 
     ./gen.sh opensuse/kde4_cd-base-default
     ./gen.sh opensuse/kde4_cd-unstable
+    ./gen.sh opensuse/gnome_cd-nobundles
+    ./gen.sh opensuse/kde_cd-nobundles
     ./gen.sh opensuse/gnome_cd-x11-default
     ./gen.sh opensuse/x11_cd
     ./gen.sh opensuse/x11_cd-initrd

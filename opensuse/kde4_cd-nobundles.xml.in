@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
+    <system file="solver-system.xml"/>
+    <locale name="en_US"/>
+    <locale name="de"/>
+    <locale name="ru"/>
+    <!-- locale name="it"/ -->
+    <!-- locale name="es"/ -->
+    <!-- locale name="pl"/ -->
+    <!-- locale name="fr"/ -->
+  </setup>
+  <trial>
+    <!-- ignoring some lang provides -->
+    <!-- ignoring some recommends -->
+    <lock package="oxygen-icon-theme-scalable"/>
+    <lock package="spamassassin"/>
+    <lock package="gutenprint"/>
+    <lock package="rdesktop"/>
+    <!-- INCLUDE ignore_opensuse-bundle-gnome.xml -->
+    <!-- INCLUDE ignore_opensuse-bundle-kde.xml -->
+    <!-- INCLUDE ignore_opensuse-bundle-common.xml -->
+    <lock package="compiz-kde"/>
+    <lock package="gtk2-engines-32bit"/>
+    <lock package="kde3-i18n-de"/> <!-- !i586 -->
+    <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-cds.xml -->
+    <!-- INCLUDE ignore_opensuse-kde-cd.xml -->
+    <lock package="pam-32bit"/> <!-- !i586 !ppc -->
+    <lock package="kdelibs3"/>
+    <lock package="kdelibs3-default-style"/>
+    <!-- INCLUDE frozen.xml -->
+    <install kind="pattern" name="kde4_office"/>
+    <install kind="pattern" name="rest_cd_kde4"/>
+    <install kind="package" name="openSUSE-release-livecd-kde"/>
+    <install kind="package" name="kipi-plugins"/>
+    <reportProblems/>
+    <showpool verbose="true"/>
+  </trial>
+</test>
