@@ -17,7 +17,6 @@
     <!-- INCLUDE ignore_opensuse-bundle-common.xml -->
     <lock package="gtk2-engines-32bit"/>
     <lock package="gnome2-user-docs"/> <!-- !i586 -->
-    <lock package="evolution-lang"/>
     <!-- INCLUDE frozen.xml -->
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="package" name="openSUSE-release-livecd-gnome"/>

@@ -1117,6 +1117,7 @@ krfb
 kruler
 kscd
 ksh
+ksmolt
 ksnapshot
 ksshaskpass
 kstars
@@ -1142,13 +1143,13 @@ lessons4lizards_en
 libFLAC++6
 libFLAC8
 libFLAC8-32bit
+libGLEW1_5
 libGeoIP1
 libHX25
 libHX25-32bit
 libIlmImf6
 libMagick++4
 libMagickCore4
-libMagickCore4-32bit
 libMagickWand4
 libQtWebKit-devel
 libQtWebKit4
@@ -1212,6 +1213,7 @@ libavahi-qt4-devel
 libavahi-ui0
 libavc1394-0
 libavc1394-devel
+libavogadro1
 libbabl-0_1-0
 libblas3
 libblkid-devel
@@ -1296,6 +1298,8 @@ libdaemon0
 libdb-4_5
 libdb-4_5-32bit
 libdb-4_5-devel
+libdb-4_8
+libdb-4_8-devel
 libdbusmenu-qt2
 libdc1394-22
 libdconf0
@@ -1339,6 +1343,7 @@ libfolks0
 libfprint0
 libfprint0-32bit
 libfreebl3
+libfreebl3-32bit
 libfreetype6
 libfreetype6-32bit
 libfuse2
@@ -1440,7 +1445,6 @@ libgnutls26
 libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgomp45
-libgomp45-32bit
 libgoocanvas3
 libgp11-0
 libgp11-modules
@@ -1544,7 +1548,6 @@ liblastfm0
 liblazy1
 liblcms-devel
 liblcms1
-liblcms1-32bit
 libldap-2_4-2
 libldap-2_4-2-32bit
 libldapcpp1
@@ -1594,6 +1597,7 @@ libncurses6
 libneon-devel
 libneon27
 libnet
+libnetpbm10
 libnice0
 libnl
 libnl-devel
@@ -1609,6 +1613,7 @@ libofx4
 libogg0
 libogg0-32bit
 libopal3_6_8
+libopenbabel3
 libopencdk-devel
 libopencdk10
 libopencv2
@@ -1709,7 +1714,7 @@ libraptor-devel
 libraptor1
 librasqal-devel
 librasqal2
-libraw1394-8
+libraw1394-11
 libraw1394-devel
 librcc0
 librcd0
@@ -1739,12 +1744,14 @@ libsmbclient0-32bit
 libsmbios-bin
 libsmbios2
 libsmi
+libsmi2
 libsndfile
 libsndfile-32bit
 libsnmp20
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
+libsoftokn3-32bit
 libsoprano-devel
 libsoprano4
 libsoup-2_4-1
@@ -1753,6 +1760,7 @@ libspectre1
 libspeex1
 libspeexdsp1
 libsqlite3-0
+libsqlite3-0-32bit
 libssh2-1
 libssh4
 libstdc++-devel
@@ -1882,6 +1890,7 @@ lockdev
 log4j-mini
 login
 logrotate
+lokalize
 lomoco
 loudmouth-devel
 lsb-release
@@ -1968,9 +1977,12 @@ mousetweaks
 mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
+mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
+mozilla-nss-32bit
 mozilla-nss-certs
+mozilla-nss-certs-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner192
@@ -2031,6 +2043,7 @@ net-tools
 netcat
 netcat-openbsd
 netcfg
+netpbm
 nfs-client
 nfs-kernel-server
 nfsidmap
@@ -2397,6 +2410,8 @@ python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-httplib2
+python-kde4
+python-kdebase4
 python-libproxy
 python-louis
 python-lxml

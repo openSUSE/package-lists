@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
+LibVNCServer
 Mesa
 ModemManager
 MozillaFirefox
@@ -206,8 +207,12 @@ espeak
 ethtool
 evince
 evince-lang
+evolution
 evolution-data-server
 evolution-data-server-lang
+evolution-lang
+evolution-mono-plugins
+evolution-python-plugins
 evolution-sharp
 evolution-webcal
 evolution-webcal-lang
@@ -408,6 +413,8 @@ gtk2-engines-lang
 gtk2-lang
 gtk2-metatheme-sonar
 gtkglext
+gtkhtml2
+gtkhtml2-lang
 gtksourceview-lang
 gtkspell
 gtkspell-lang
@@ -465,7 +472,6 @@ less
 libFLAC8
 libHX25
 libIlmImf6
-libMagickCore4
 libSDL-1_2-0
 libSoundTouch0
 libXi6
@@ -535,6 +541,7 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdb-4_8
 libdc1394-22
 libdconf0
 libdirac_encoder0
@@ -616,7 +623,6 @@ libgnomeui-lang
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
-libgomp45
 libgp11-0
 libgp11-modules
 libgpg-error0
@@ -636,6 +642,7 @@ libgstreamer-0_10-0
 libgstsignalprocessor-0_10-0
 libgstvdp-0_10-0
 libgthread-2_0-0
+libgtkimageview0
 libgtkmm-2_4-1
 libgtksourceview-2_0-0
 libgtop
@@ -695,6 +702,7 @@ libnautilus-extension1
 libncurses5
 libncurses6
 libneon27
+libnetpbm10
 libnice0
 libnl
 libnotify-tools
@@ -730,6 +738,7 @@ libproxy1
 libproxy1-config-gnome
 libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
+libpst4
 libpth20
 libpulse-browse0
 libpulse-mainloop-glib0
@@ -738,7 +747,7 @@ libpurple
 libpurple-lang
 libpython2_7-1_0
 libquicktime
-libraw1394-8
+libraw1394-11
 librcc0
 librcd0
 libreadline6
@@ -895,6 +904,7 @@ nautilus-open-terminal-lang
 nautilus-sendto
 nautilus-sendto-lang
 nautilus-sendto-plugin-empathy
+nautilus-sendto-plugin-evolution
 nautilus-sendto-plugin-upnp
 nautilus-totem
 ncurses-utils
@@ -905,6 +915,7 @@ ndiswrapper-kmp-default
 net-tools
 netcat
 netcfg
+netpbm
 nfs-client
 nfsidmap
 notification-daemon
@@ -1175,6 +1186,7 @@ totem-plugins
 tracker
 tracker-gui
 tracker-lang
+tracker-miner-evolution
 tracker-miner-files
 translation-update
 translation-update-de

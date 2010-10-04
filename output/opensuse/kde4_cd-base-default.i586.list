@@ -1,5 +1,7 @@
 ConsoleKit
 DirectFB
+LibVNCServer
+Mesa
 PolicyKit
 PolicyKit-doc
 SuSEfirewall2
@@ -117,6 +119,7 @@ kpartx
 krb5
 lcms
 less
+libSDL-1_2-0
 libacl
 libadns1
 libaio
@@ -132,6 +135,7 @@ libauparse0
 libblkid1
 libblocxx6
 libbz2-1
+libcap-ng0
 libcap2
 libcom_err2
 libcrack2
@@ -139,7 +143,9 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdb-4_8
 libdconf0
+libdrm
 libdw1
 libelf1
 libenca0
@@ -163,6 +169,7 @@ libgudev-1_0-0
 libidn
 libimobiledevice1
 libiw30
+libjasper1
 libjpeg8
 libksba
 liblcms1
@@ -176,6 +183,7 @@ libmodman1
 libmount1
 libncurses5
 libncurses6
+libnetpbm10
 libnl
 libnscd
 libopenssl1_0_0
@@ -246,6 +254,7 @@ ncurses-utils
 net-tools
 netcat
 netcfg
+netpbm
 nfs-client
 nfsidmap
 ntfs-3g
@@ -368,10 +377,22 @@ wireless-tools
 wodim
 xdg-utils
 xinetd
+xorg-x11-libICE
+xorg-x11-libSM
 xorg-x11-libX11
 xorg-x11-libXau
 xorg-x11-libXext
+xorg-x11-libXfixes
+xorg-x11-libXmu
+xorg-x11-libXp
+xorg-x11-libXpm
+xorg-x11-libXprintUtil
+xorg-x11-libXrender
+xorg-x11-libXt
+xorg-x11-libfontenc
+xorg-x11-libs
 xorg-x11-libxcb
+xorg-x11-libxkbfile
 xz
 yast2
 yast2-add-on

@@ -980,7 +980,6 @@ gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-32bit
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
-gstreamer-0_10-plugins-good-extra
 gstreamer-0_10-utils
 gstreamer-utils
 gsynaptics
@@ -1472,6 +1471,7 @@ kscd
 ksh
 kshisen
 ksirk
+ksmolt
 ksnapshot
 kspaceduel
 ksquares
@@ -1512,6 +1512,7 @@ lftp
 libFLAC++6
 libFLAC8
 libFLAC8-32bit
+libGLEW1_5
 libGeoIP1
 libHX25
 libHX25-32bit
@@ -1597,6 +1598,7 @@ libavc1394-0
 libavc1394-0-32bit
 libavc1394-devel
 libavc1394-devel-32bit
+libavogadro1
 libbabl-0_1-0
 libblas3
 libblkid-devel
@@ -1653,6 +1655,7 @@ libcanberra0
 libcanberra0-32bit
 libcap-ng0
 libcap2
+libcap2-32bit
 libcares2
 libcdaudio
 libcdda_interface0
@@ -1688,6 +1691,8 @@ libdar-4
 libdb-4_5
 libdb-4_5-32bit
 libdb-4_5-devel
+libdb-4_8
+libdb-4_8-devel
 libdbusmenu-qt2
 libdc1394-22
 libdconf0
@@ -1740,6 +1745,7 @@ libfolks0
 libfprint0
 libfprint0-32bit
 libfreebl3
+libfreebl3-32bit
 libfreetype6
 libfreetype6-32bit
 libftgl2
@@ -1916,7 +1922,6 @@ libidl-devel
 libidn
 libidn-32bit
 libidn-devel
-libiec61883
 libieee1284
 libieee1284-32bit
 libilmbase-devel
@@ -2061,6 +2066,7 @@ libopal3_6_8
 libopenais3
 libopenal1-soft
 libopenal1-soft-32bit
+libopenbabel3
 libopencdk-devel
 libopencdk-devel-32bit
 libopencdk10
@@ -2180,8 +2186,8 @@ libraptor-devel
 libraptor1
 librasqal-devel
 librasqal2
-libraw1394-8
-libraw1394-8-32bit
+libraw1394-11
+libraw1394-11-32bit
 libraw1394-devel
 libraw1394-devel-32bit
 librcc0
@@ -2204,7 +2210,6 @@ libsensors4-devel
 libsepol1
 libsepol1-32bit
 libsexy
-libshout3
 libsigc++2
 libsilc-1_1-2
 libsilcclient-1_1-3
@@ -2217,6 +2222,7 @@ libsmbclient0-32bit
 libsmbios-bin
 libsmbios2
 libsmi
+libsmi2
 libsmoke2
 libsndfile
 libsndfile-32bit
@@ -2224,6 +2230,7 @@ libsnmp20
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
+libsoftokn3-32bit
 libsoprano-devel
 libsoprano4
 libsoup-2_4-1
@@ -2400,6 +2407,7 @@ lockdev
 log4j-mini
 login
 logrotate
+lokalize
 lomoco
 loudmouth-devel
 lsb
@@ -2516,9 +2524,12 @@ mousetweaks
 mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
+mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
+mozilla-nss-32bit
 mozilla-nss-certs
+mozilla-nss-certs-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mozilla-xulrunner192
@@ -3216,6 +3227,8 @@ python-gtkglext
 python-gtksourceview
 python-httplib2
 python-imaging
+python-kde4
+python-kdebase4
 python-ldap
 python-libproxy
 python-logilab-astng
@@ -3253,7 +3266,6 @@ python-twisted-doc
 python-urlgrabber
 python-webkitgtk
 python-wxGTK
-python-wxGTK-examples
 python-xdg
 python-xlib
 python-xml

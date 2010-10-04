@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
+LibVNCServer
 Mesa
 ModemManager
 NetworkManager
@@ -149,7 +150,6 @@ ethtool
 evince
 evolution-data-server
 evolution-webcal
-evolution-webcal-lang
 f-spot
 fam
 fbset
@@ -292,7 +292,6 @@ gvfs-fuse
 gzip
 hal
 hamster-applet
-hamster-applet-lang
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -322,7 +321,6 @@ krb5
 lcms
 less
 libFLAC8
-libMagickCore4
 libSDL-1_2-0
 libSoundTouch0
 libXi6
@@ -367,6 +365,7 @@ libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
 libcanberra0
+libcap-ng0
 libcap2
 libcdaudio
 libcdda_interface0
@@ -388,6 +387,7 @@ libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_5
+libdb-4_8
 libdc1394-22
 libdconf0
 libdirac_encoder0
@@ -456,7 +456,6 @@ libgnomeui
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
-libgomp45
 libgp11-0
 libgp11-modules
 libgpg-error0
@@ -526,6 +525,7 @@ libnautilus-extension1
 libncurses5
 libncurses6
 libneon27
+libnetpbm10
 libnice0
 libnl
 libnotify-tools
@@ -564,7 +564,7 @@ libpulse0
 libpurple
 libpython2_7-1_0
 libquicktime
-libraw1394-8
+libraw1394-11
 librcc0
 librcd0
 libreadline6
@@ -695,6 +695,7 @@ ndesk-dbus-glib
 net-tools
 netcat
 netcfg
+netpbm
 nfs-client
 nfsidmap
 notification-daemon
