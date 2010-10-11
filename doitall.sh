@@ -15,6 +15,17 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    ./unpack_patterns.sh $diffonly > patterns.log 2>&1
    echo "done"
    cd ..
+   echo -n "update provides"
+   ./update-provides.sh
+   echo "."
+   if osc api '/build/openSUSE:Factory/_result?package=bash&repository=standard' | grep -q 'dirty="true"'; then
+     echo "standard still dirty"
+     exit 0
+   fi
+   # now sync again
+   cd testtrack
+   WITHDESCR=1 ./update_full.sh obs-i586 obs-x86_64
+   cd ..
    ./doit.sh
 fi
 
@@ -47,8 +58,10 @@ if perl create-requires x86_64 ; then
   perl create-requires i586 || true
 fi
  
-installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages || true
-installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages || true
+(installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages; installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages)  | grep "nothing provides"  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps
+echo "INSTALLCHECK:"
+cat /tmp/missingdeps
+echo "<<<"
 
 ./check_yast.sh output/opensuse/dvd-i586.list __i386__
 ./check_yast.sh output/opensuse/dvd-x86_64.list __x86_64__

@@ -27,6 +27,7 @@ do
         popd
         continue
      else
+        touch dirty
         echo
      fi
      ;;
@@ -36,6 +37,7 @@ SUSE Linux Products GmbH
 20080513132816
 1
 EOF
+  if test -n "$WITHDESCR" && test -f dirty; then
   mkdir -p .cache
   echo -n "create_package_descr $i "
   /work/cd/bin/tools/create_package_descr -c .cache -i /work/cd/lib/put_built_to_cd/locations-stable/meta/ \
@@ -44,5 +46,7 @@ EOF
     # -x /work/built/dists/all/$i/data/EXTRA_PROV
 
   echo "done"
+  rm -f dirty
+  fi
   popd > /dev/null
 done
