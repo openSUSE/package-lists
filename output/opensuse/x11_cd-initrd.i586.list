@@ -39,6 +39,7 @@ filesystem
 fillup
 findutils
 fontconfig
+fonts-config
 fribidi
 gawk
 gdbm
@@ -84,6 +85,7 @@ libcrack2
 libcryptsetup1
 libcurl4
 libdb-4_5
+libdb-4_8
 libdrm
 libdw1
 libelf1
@@ -220,6 +222,8 @@ update-alternatives
 util-linux
 wireless-regdb
 xdg-utils
+xorg-x11-fonts
+xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
 xorg-x11-libX11

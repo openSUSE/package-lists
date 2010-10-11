@@ -12,25 +12,27 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    cd testtrack/
    ./update_full.sh obs-i586 obs-x86_64 
    echo -n "updating patterns "
-   ./unpack_patterns.sh $diffonly > patterns.log 2>&1
-   echo "done"
+   if ./unpack_patterns.sh $diffonly > patterns.log 2>&1; then
+     touch dirty
+     echo "done"
+   else
+     echo "unchanged"
+   fi 
    cd ..
-   echo -n "update provides"
-   ./update-provides.sh
-   echo "."
-   if osc api '/build/openSUSE:Factory/_result?package=bash&repository=standard' | grep -q 'dirty="true"'; then
+   osc api '/build/openSUSE:Factory/_result?package=bash&repository=standard' > /tmp/state
+   if grep -q 'dirty="true"' /tmp/state || grep -q 'state="building"' /tmp/state; then
      echo "standard still dirty"
      exit 0
    fi
    # now sync again
    cd testtrack
-   WITHDESCR=1 ./update_full.sh obs-i586 obs-x86_64
+   WITHDESCR=1 ./update_full.sh obs-i586 obs-x86_64 || touch dirty
    cd ..
-   ./doit.sh
+   test -f dirty && ./doit.sh
 fi
 
 cd update-tests
-./testall.sh
+test -f dirty && ./testall.sh
 cd ..
 
 diff=0
@@ -44,7 +46,8 @@ for arch in i586 x86_64; do
   done
 done
 
-./gen.sh opensuse/x11_cd-boottest x86_64
+if test -f dirty; then
+   ./gen.sh opensuse/x11_cd-boottest x86_64
 
 if test "$diff" = 1; then
    echo "no diff"
@@ -59,17 +62,22 @@ if perl create-requires x86_64 ; then
 fi
  
 (installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages; installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages)  | grep "nothing provides"  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps
+fi
 echo "INSTALLCHECK:"
 cat /tmp/missingdeps
 echo "<<<"
 
+#./rebuildpacs.sh
+
 ./check_yast.sh output/opensuse/dvd-i586.list __i386__
 ./check_yast.sh output/opensuse/dvd-x86_64.list __x86_64__
 
+if test -f dirty; then
 (
 ./check_size.sh output/opensuse/dvd-i586.list i586
 ./check_size.sh output/opensuse/dvd-x86_64.list x86_64
 ) | tee sizes
+fi
 
 ./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE\:Factory/_product/DVD5-i586.group only_i586
 ./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
@@ -94,3 +102,4 @@ git commit -m "auto commit" -a
 echo "all done"
 git push
 
+rm -f dirty

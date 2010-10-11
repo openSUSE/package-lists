@@ -679,6 +679,8 @@ ddclient
 ddd
 ddrescue
 ddskk
+deja-dup
+deja-dup-lang
 dejagnu
 dejavu
 delayacct-utils
@@ -730,6 +732,7 @@ dovecot12-backend-sqlite
 doxygen
 dragonplayer
 droid-fonts
+duplicity
 dvb
 dvd+rw-tools
 e2fsprogs
@@ -782,7 +785,6 @@ evolution-webcal
 evolution-webcal-lang
 exiftool
 exo
-expat
 expect
 expect-devel
 f-spot
@@ -952,7 +954,6 @@ glabels-lang
 glade-sharp2
 glade3
 glade3-lang
-glade3-libgnomedb
 glchess
 glchess-lang
 glib-networking
@@ -1100,7 +1101,6 @@ gnutls
 gob2
 goffice
 goffice-lang
-goocanvas-devel
 goocanvas-lang
 google-gadgets
 google-gadgets-devel
@@ -1114,7 +1114,6 @@ gpgme
 gpicview
 gpm
 graphviz
-graphviz-devel
 graphviz-gd
 graphviz-gnome
 grep
@@ -1139,6 +1138,7 @@ gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good
+gstreamer-0_10-plugins-good-extra
 gstreamer-0_10-plugins-good-lang
 gstreamer-0_10-utils
 gstreamer-utils
@@ -1995,7 +1995,6 @@ libgda-3_0-devel
 libgda-4_0-4
 libgda-4_0-4-lang
 libgda-4_0-bdb
-libgda-4_0-devel
 libgda-4_0-sqlite
 libgda-ui-4_0-4
 libgda-ui-4_0-plugins
@@ -2051,9 +2050,6 @@ libgnomecanvas-lang
 libgnomecups
 libgnomecups-devel
 libgnomecups-lang
-libgnomedb
-libgnomedb-devel
-libgnomedb-lang
 libgnomekbd
 libgnomekbd-devel
 libgnomekbd-lang
@@ -2090,6 +2086,8 @@ libgphoto2
 libgphoto2-devel
 libgphoto2-lang
 libgpod-devel
+libgpod-lang
+libgpod-tools
 libgpod4
 libgps19
 libgsf-1-114
@@ -2139,6 +2137,7 @@ libidl
 libidl-devel
 libidn
 libidn-devel
+libiec61883
 libieee1284
 libilmbase-devel
 libilmbase6
@@ -2367,6 +2366,7 @@ libredland0
 libreiserfs
 librsvg-2-2
 librsvg-devel
+librsync
 libsamplerate
 libsatsolver-devel
 libschroedinger-1_0-0
@@ -2376,6 +2376,7 @@ libsensors4
 libsensors4-devel
 libsepol1
 libsexy
+libshout3
 libsigc++2
 libsilc-1_1-2
 libsilcclient-1_1-3
@@ -2775,6 +2776,7 @@ nano
 nano-lang
 nasm
 nautilus
+nautilus-deja-dup
 nautilus-devel
 nautilus-evince
 nautilus-extension-tracker-tags
@@ -3004,6 +3006,8 @@ pcmanfm-lang
 pcmciautils
 pcre-devel
 pcsc-lite
+pdfmod
+pdfmod-lang
 perl
 perl-Algorithm-Diff
 perl-Apache-AuthCookie
@@ -3022,7 +3026,6 @@ perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
 perl-CGI-Application
-perl-Cairo
 perl-Carp-Assert
 perl-Carp-Clan
 perl-Chart
@@ -3086,8 +3089,6 @@ perl-GD-Graph3d
 perl-GDGraph
 perl-GDTextUtil
 perl-Getopt-Mixed
-perl-Glib
-perl-Gtk2
 perl-HTML-Clean
 perl-HTML-FillInForm
 perl-HTML-Format
@@ -3145,7 +3146,6 @@ perl-NetAddr-IP
 perl-NetxAP
 perl-PDA-Pilot
 perl-PDL
-perl-Pango
 perl-Params-Util
 perl-Params-Validate
 perl-Parse-RecDescent
@@ -3353,6 +3353,7 @@ pwdutils
 pwgen
 pychecker
 python
+python-GnuPG-Interface
 python-atspi-corba
 python-base
 python-beaker
@@ -3415,6 +3416,7 @@ python-openssl
 python-opensync
 python-orbit
 python-pam
+python-pexpect
 python-pybluez
 python-pygame
 python-pylint
@@ -3434,6 +3436,7 @@ python-twisted-doc
 python-urlgrabber
 python-webkitgtk
 python-wxGTK
+python-wxGTK-examples
 python-xdg
 python-xlib
 python-xml
@@ -3496,6 +3499,7 @@ ruby-examples
 ruby-fcgi
 ruby-kde4
 ruby-mysql
+ruby-qt4
 ruby-racc
 ruby-test-suite
 ruby-tk

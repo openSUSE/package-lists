@@ -5,6 +5,7 @@ if test -z "$arch"; then
   echo "usage: $0 <arch> <arch...>"
   exit
 fi
+worked=0
 
 for i in $arch;
 do
@@ -24,8 +25,6 @@ do
      echo -n "found $count packages "
      if test "$count" = 0; then
         echo "done"
-        popd
-        continue
      else
         touch dirty
         echo
@@ -47,6 +46,10 @@ EOF
 
   echo "done"
   rm -f dirty
+  worked=1
   fi
   popd > /dev/null
 done
+
+exit $worked
+

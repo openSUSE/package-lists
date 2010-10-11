@@ -1,7 +1,14 @@
 #!/bin/sh
 
 svn up /home/pattern
-(cd /home/pattern/products/patterns-openSUSE-data && git pull)
+pushd /home/pattern/products/patterns-openSUSE-data 
+out=`git pull -q --log`
+echo -n $out
+popd
+if test -z "$out"; then
+  echo "unchanged"
+  exit 1
+fi
 
 arg=openSUSE
 if test -n "$1"; then
@@ -50,4 +57,4 @@ sh ../prepare_patterns.sh s390x s390x sdk
 cp /tmp/patterns.*//CD1/suse/setup/descr/* patterns
 fi
 
-
+exit 0
