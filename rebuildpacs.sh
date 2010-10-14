@@ -14,14 +14,21 @@ function rebuildpacs {
  tpackages=`osc api $api | grep 'code="succeeded"' | sed -e 's,.*package=",,; s,".*,,' | sort -u`
  api='/build/openSUSE:Factory?cmd=rebuild&repository=standard'
  for i in $tpackages; do 
+  if test -f "rebuilds/$i"; then
+    echo "skipping to rebuild $i"
+    continue
+  fi
   echo "rebuilding $i"
   value="$(perl -MURI::Escape -e 'print uri_escape($ARGV[0]);' "$i")"
   api="$api&package=$value"
+  touch "rebuilds/$i"
  done
- #osc api -m POST $api
+ osc api -m POST $api
 }
 
 osc api /build/openSUSE:Factory/standard/i586/_builddepinfo > /tmp/builddep
+
+find rebuilds -cmin +500 -print0 | xargs -0 --no-run-if-empty rm -v
 
 : > /tmp/torebuild
 missingdeps=`sed -e 's,.*needed by ,,' /tmp/missingdeps | sort -u`

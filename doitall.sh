@@ -67,7 +67,7 @@ echo "INSTALLCHECK:"
 cat /tmp/missingdeps
 echo "<<<"
 
-#./rebuildpacs.sh
+./rebuildpacs.sh
 
 ./check_yast.sh output/opensuse/dvd-i586.list __i386__
 ./check_yast.sh output/opensuse/dvd-x86_64.list __x86_64__
