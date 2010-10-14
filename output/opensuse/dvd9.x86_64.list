@@ -17,7 +17,6 @@ ImageMagick
 ImageMagick-devel
 KhmerOS-fonts
 LibVNCServer
-LinuxLibertine
 Mesa
 Mesa-32bit
 Mesa-devel
@@ -281,6 +280,7 @@ at
 at-spi
 at-spi-32bit
 at-spi-devel
+at-spi-lang
 atk-devel
 atk-doc
 atmel-firmware
@@ -647,6 +647,7 @@ evince
 evolution
 evolution-data-server
 evolution-data-server-devel
+evolution-data-server-lang
 evolution-devel
 evolution-mono-plugins
 evolution-python-plugins
@@ -752,6 +753,7 @@ gconf2
 gconf2-32bit
 gconf2-branding-openSUSE
 gconf2-devel
+gconf2-lang
 gconfmm
 gd
 gd-32bit
@@ -765,6 +767,7 @@ gdk-pixbuf-devel
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gdk-pixbuf-query-loaders-32bit
 gdm
 gdm-branding-openSUSE
 gedit
@@ -835,7 +838,7 @@ glade3
 glchess
 glib-networking
 glib-sharp2
-glib2-branding-openSUSE
+glib2-branding-upstream
 glib2-devel
 glib2-tools
 glibc
@@ -991,16 +994,22 @@ gtk-sharp2-doc
 gtk-sharp2-gapi
 gtk-xfce-engine
 gtk-xfce-engine-32bit
-gtk2
-gtk2-32bit
 gtk2-branding-openSUSE
+gtk2-data
 gtk2-devel
 gtk2-engine-murrine
 gtk2-engine-murrine-32bit
 gtk2-engines
 gtk2-engines-32bit
+gtk2-immodule-amharic
+gtk2-immodule-inuktitut
+gtk2-immodule-thai
+gtk2-immodule-vietnamese
+gtk2-immodule-xim
 gtk2-metatheme-gilouche
 gtk2-metatheme-sonar
+gtk2-tools
+gtk2-tools-32bit
 gtkglext
 gtkhtml2
 gtkhtml2-devel
@@ -1078,7 +1087,6 @@ initviocons
 inkscape
 inkscape-extensions-dia
 inkscape-extensions-extra
-inkscape-extensions-fig
 inkscape-extensions-gimp
 inn
 input-utils
@@ -1102,6 +1110,7 @@ irssi
 iscan-free
 iscsitarget-kmp-default
 iscsitarget-kmp-desktop
+iscsitarget-kmp-xen
 isns
 iso-codes
 iso-codes-devel
@@ -1512,6 +1521,8 @@ libGLEW1_5
 libGeoIP1
 libHX25
 libHX25-32bit
+libIDL-2-0
+libIDL-2-0-32bit
 libIlmImf6
 libMagick++4
 libMagickCore4
@@ -1556,9 +1567,9 @@ libapr-util1-devel
 libapr1
 libapr1-devel
 libarchive2
-libart_lgpl
-libart_lgpl-32bit
 libart_lgpl-devel
+libart_lgpl_2-2
+libart_lgpl_2-2-32bit
 libasm1
 libasound2
 libasound2-32bit
@@ -1606,10 +1617,12 @@ libbonobo
 libbonobo-32bit
 libbonobo-devel
 libbonobo-doc
+libbonobo-lang
 libbonoboui
 libbonoboui-32bit
 libbonoboui-devel
 libbonoboui-doc
+libbonoboui-lang
 libboost_date_time1_44_0
 libboost_filesystem1_44_0
 libboost_graph1_44_0
@@ -1641,6 +1654,7 @@ libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
+libcamel-1_2-19
 libcanberra-devel
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -1685,9 +1699,9 @@ libcurl4-32bit
 libdaemon0
 libdar-4
 libdb-4_5
-libdb-4_5-32bit
 libdb-4_5-devel
 libdb-4_8
+libdb-4_8-32bit
 libdb-4_8-devel
 libdbusmenu-qt2
 libdc1394-22
@@ -1707,7 +1721,15 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
+libebackend-1_2-0
+libebook-1_2-10
+libecal-1_2-8
+libedata-book-1_2-8
+libedata-cal-1_2-10
+libedataserver-1_2-14
+libedataserverui-1_2-11
 libedit0
+libegroupwise-1_2-13
 libelf0
 libelf0-32bit
 libelf1
@@ -1790,8 +1812,8 @@ libgio-2_0-0
 libgio-2_0-0-32bit
 libgio-fam
 libgirepository-1_0-1
-libglade2
-libglade2-32bit
+libglade-2_0-0
+libglade-2_0-0-32bit
 libglade2-devel
 libglade2-doc
 libglademm
@@ -1817,12 +1839,14 @@ libgnome-desktop-2-17-32bit
 libgnome-desktop-2-devel
 libgnome-devel
 libgnome-keyring-devel
+libgnome-keyring-lang
 libgnome-keyring0
 libgnome-keyring0-32bit
+libgnome-lang
 libgnome-menu2
 libgnome-window-settings1
-libgnomecanvas
-libgnomecanvas-32bit
+libgnomecanvas-2-0
+libgnomecanvas-2-0-32bit
 libgnomecanvas-devel
 libgnomecups
 libgnomecups-devel
@@ -1862,7 +1886,6 @@ libgphoto2
 libgphoto2-32bit
 libgphoto2-devel
 libgpod-devel
-libgpod-lang
 libgpod-tools
 libgpod4
 libgps19
@@ -1886,6 +1909,8 @@ libgstsignalprocessor-0_10-0
 libgstvdp-0_10-0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
+libgtk-2_0-0
+libgtk-2_0-0-32bit
 libgtk-vnc-1_0-0
 libgtkimageview0
 libgtkmm-2_4-1
@@ -1903,6 +1928,7 @@ libgvfscommon0
 libgvnc-1_0-0
 libgweather
 libgweather-devel
+libgweather-lang
 libgweather1
 libgwenhywfar47
 libgwenhywfar47-plugins
@@ -1911,8 +1937,6 @@ libical-devel
 libical0
 libicu
 libid3tag
-libidl
-libidl-32bit
 libidl-devel
 libidn
 libidn-32bit
@@ -2243,6 +2267,8 @@ libsqlite3-0-32bit
 libssh2-1
 libssh2-1-32bit
 libssh4
+libstartup-notification-1-0
+libstartup-notification-1-0-32bit
 libstdc++-devel
 libstdc++33
 libstdc++33-32bit
@@ -2534,7 +2560,6 @@ mozilla-xulrunner192-translations-common
 mpfr-devel
 mpfr-devel-32bit
 mpi-selector
-mplus-fonts
 mpt-firmware
 mpt-status
 mrtg
@@ -2682,7 +2707,6 @@ opie
 opie-32bit
 oprofile
 oprofile-32bit
-optipng
 orage
 orbit2
 orbit2-32bit
@@ -2848,6 +2872,7 @@ perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
 perl-CGI-Application
+perl-Cairo
 perl-Carp-Assert
 perl-Carp-Clan
 perl-Chart
@@ -3439,8 +3464,6 @@ squid3
 squidGuard
 sshfs
 star
-startup-notification
-startup-notification-32bit
 startup-notification-devel
 step
 strace
@@ -3455,7 +3478,6 @@ subversion-server
 subversion-tools
 sudo
 suseRegister
-susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -3581,7 +3603,6 @@ tracker-gui
 tracker-miner-evolution
 tracker-miner-files
 trang
-transfig
 translation-update
 translation-update-cs
 translation-update-de

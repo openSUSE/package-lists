@@ -281,7 +281,7 @@ glchess-lang
 glib-networking
 glib-networking-lang
 glib-sharp2
-glib2-branding-openSUSE
+glib2-branding-upstream
 glib2-lang
 glib2-tools
 glibc
@@ -401,13 +401,18 @@ gstreamer-0_10-utils
 gstreamer-utils
 gtk-sharp-beans
 gtk-sharp2
-gtk2
 gtk2-branding-openSUSE
+gtk2-data
 gtk2-engine-murrine
 gtk2-engines
 gtk2-engines-lang
+gtk2-immodule-amharic
+gtk2-immodule-inuktitut
+gtk2-immodule-thai
+gtk2-immodule-vietnamese
 gtk2-lang
 gtk2-metatheme-sonar
+gtk2-tools
 gtkglext
 gtkhtml2
 gtkhtml2-lang
@@ -467,6 +472,7 @@ lcms
 less
 libFLAC8
 libHX25
+libIDL-2-0
 libIlmImf6
 libSDL-1_2-0
 libSoundTouch0
@@ -477,7 +483,7 @@ libaio
 libao
 libapparmor1
 libarchive2
-libart_lgpl
+libart_lgpl_2-2
 libasm1
 libasound2
 libass4
@@ -511,6 +517,7 @@ libbrlapi0_5
 libbz2-1
 libcaca
 libcairo2
+libcamel-1_2-19
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -536,7 +543,6 @@ libcroco-0_6-3
 libcryptsetup1
 libcurl4
 libdaemon0
-libdb-4_5
 libdb-4_8
 libdc1394-22
 libdconf0
@@ -547,6 +553,14 @@ libdv4
 libdvdnav4
 libdvdread4
 libdw1
+libebackend-1_2-0
+libebook-1_2-10
+libecal-1_2-8
+libedata-book-1_2-8
+libedata-cal-1_2-10
+libedataserver-1_2-14
+libedataserverui-1_2-11
+libegroupwise-1_2-13
 libelf1
 libenca0
 libenchant1
@@ -586,7 +600,7 @@ libgimpprint
 libgio-2_0-0
 libgio-fam
 libgirepository-1_0-1
-libglade2
+libglade-2_0-0
 libglademm
 libglademm-2_4-1
 libglib-2_0-0
@@ -601,7 +615,7 @@ libgnome-keyring0
 libgnome-lang
 libgnome-menu2
 libgnome-window-settings1
-libgnomecanvas
+libgnomecanvas-2-0
 libgnomecanvas-lang
 libgnomecups
 libgnomecups-lang
@@ -638,6 +652,7 @@ libgstreamer-0_10-0
 libgstsignalprocessor-0_10-0
 libgstvdp-0_10-0
 libgthread-2_0-0
+libgtk-2_0-0
 libgtkimageview0
 libgtkmm-2_4-1
 libgtksourceview-2_0-0
@@ -654,7 +669,6 @@ libgweather-lang
 libgweather1
 libical0
 libicu
-libidl
 libidn
 libieee1284
 libilmbase6
@@ -776,6 +790,7 @@ libspeex1
 libspeexdsp1
 libsqlite3-0
 libssh2-1
+libstartup-notification-1-0
 libstdc++45
 libstorage
 libtalloc2
@@ -1134,7 +1149,6 @@ sonar-icon-theme
 sound-theme-freedesktop
 splashy
 splashy-branding-openSUSE
-startup-notification
 strace
 sudo
 suseRegister

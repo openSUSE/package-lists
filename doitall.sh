@@ -13,7 +13,7 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    ./update_full.sh obs-i586 obs-x86_64 
    echo -n "updating patterns "
    if ./unpack_patterns.sh $diffonly > patterns.log 2>&1; then
-     touch dirty
+     touch ../dirty
      echo "done"
    else
      echo "unchanged"
@@ -26,13 +26,13 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    fi
    # now sync again
    cd testtrack
-   WITHDESCR=1 ./update_full.sh obs-i586 obs-x86_64 || touch dirty
+   WITHDESCR=1 ./update_full.sh obs-i586 obs-x86_64 || touch ../dirty
    cd ..
    test -f dirty && ./doit.sh
 fi
 
 cd update-tests
-test -f dirty && ./testall.sh
+test -f ../dirty && ./testall.sh
 cd ..
 
 diff=0

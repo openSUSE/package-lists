@@ -12,7 +12,7 @@ function rebuildpacs {
   api="$api&package=$value"
  done
  tpackages=`osc api $api | grep 'code="succeeded"' | sed -e 's,.*package=",,; s,".*,,' | sort -u`
- api='/build/openSUSE:Factory?cmd=rebuild&repository=standard'
+ api=
  for i in $tpackages; do 
   if test -f "rebuilds/$i"; then
     echo "skipping to rebuild $i"
@@ -23,12 +23,16 @@ function rebuildpacs {
   api="$api&package=$value"
   touch "rebuilds/$i"
  done
- osc api -m POST $api
+ if test -n "$api"; then
+   osc api -m POST "/build/openSUSE:Factory?cmd=rebuild&repository=standard$api"
+ fi
 }
 
 osc api /build/openSUSE:Factory/standard/i586/_builddepinfo > /tmp/builddep
 
-find rebuilds -cmin +500 -print0 | xargs -0 --no-run-if-empty rm -v
+touch rebuilds/package-lists-openSUSE
+touch rebuilds/antivir-gui
+find rebuilds -cmin +1500 -print0 | xargs -0 --no-run-if-empty rm -v
 
 : > /tmp/torebuild
 missingdeps=`sed -e 's,.*needed by ,,' /tmp/missingdeps | sort -u`

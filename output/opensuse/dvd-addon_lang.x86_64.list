@@ -19,7 +19,6 @@ ImageMagick
 ImageMagick-devel
 KhmerOS-fonts
 LibVNCServer
-LinuxLibertine
 Mesa
 Mesa-32bit
 Mesa-devel
@@ -624,6 +623,7 @@ cluster-glue
 clutter-lang
 cm-unicode
 cmake
+cnetworkmanager
 command-not-found
 compiz
 compiz-branding-openSUSE
@@ -922,6 +922,7 @@ gdk-pixbuf-lang
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gdk-pixbuf-query-loaders-32bit
 gdl-lang
 gdm
 gdm-branding-openSUSE
@@ -999,6 +1000,10 @@ glabels
 glabels-lang
 glade-sharp2
 glade3
+glade3-catalog-evolution
+glade3-catalog-gnome-media-profiles
+glade3-catalog-gtksourceview
+glade3-catalog-vte
 glade3-lang
 glchess
 glchess-lang
@@ -1016,7 +1021,6 @@ glibc-devel-32bit
 glibc-info
 glibc-locale
 glibc-locale-32bit
-glibmm2
 glines
 glines-lang
 gltt
@@ -1184,6 +1188,7 @@ gstreamer-0_10-doc
 gstreamer-0_10-lang
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
+gstreamer-0_10-plugin-gnonlin
 gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
@@ -1213,23 +1218,37 @@ gtk-sharp2-gapi
 gtk-vnc-lang
 gtk-xfce-engine
 gtk-xfce-engine-32bit
-gtk2
-gtk2-32bit
 gtk2-branding-openSUSE
+gtk2-data
 gtk2-devel
 gtk2-engine-murrine
 gtk2-engine-murrine-32bit
 gtk2-engines
 gtk2-engines-32bit
 gtk2-engines-lang
+gtk2-immodule-amharic
+gtk2-immodule-inuktitut
+gtk2-immodule-thai
+gtk2-immodule-vietnamese
+gtk2-immodule-xim
+gtk2-immodules-tigrigna
 gtk2-lang
 gtk2-metatheme-gilouche
 gtk2-metatheme-sonar
+gtk2-tools
+gtk2-tools-32bit
 gtk3-branding-openSUSE
 gtk3-data
+gtk3-engine-murrine
+gtk3-immodule-amharic
+gtk3-immodule-inuktitut
+gtk3-immodule-thai
+gtk3-immodule-vietnamese
+gtk3-immodule-xim
+gtk3-immodules-tigrigna
 gtk3-lang
+gtk3-metatheme-sonar
 gtk3-tools
-gtkglext
 gtkhtml2
 gtkhtml2-devel
 gtkhtml2-lang
@@ -1318,7 +1337,6 @@ initviocons
 inkscape
 inkscape-extensions-dia
 inkscape-extensions-extra
-inkscape-extensions-fig
 inkscape-extensions-gimp
 inkscape-lang
 inn
@@ -1343,6 +1361,7 @@ irssi
 iscan-free
 iscsitarget-kmp-default
 iscsitarget-kmp-desktop
+iscsitarget-kmp-xen
 isns
 iso-codes
 iso-codes-devel
@@ -1848,6 +1867,8 @@ libGLEW1_5
 libGeoIP1
 libHX25
 libHX25-32bit
+libIDL-2-0
+libIDL-2-0-32bit
 libIlmImf6
 libMagick++4
 libMagickCore4
@@ -1892,9 +1913,9 @@ libapr-util1-devel
 libapr1
 libapr1-devel
 libarchive2
-libart_lgpl
-libart_lgpl-32bit
 libart_lgpl-devel
+libart_lgpl_2-2
+libart_lgpl_2-2-32bit
 libasm1
 libasound2
 libasound2-32bit
@@ -1979,6 +2000,7 @@ libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
+libcamel-1_2-19
 libcanberra-devel
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -2023,9 +2045,9 @@ libcurl4-32bit
 libdaemon0
 libdar-4
 libdb-4_5
-libdb-4_5-32bit
 libdb-4_5-devel
 libdb-4_8
+libdb-4_8-32bit
 libdb-4_8-devel
 libdbusmenu-qt2
 libdc1394-22
@@ -2045,7 +2067,15 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
+libebackend-1_2-0
+libebook-1_2-10
+libecal-1_2-8
+libedata-book-1_2-8
+libedata-cal-1_2-10
+libedataserver-1_2-14
+libedataserverui-1_2-11
 libedit0
+libegroupwise-1_2-13
 libelf0
 libelf0-32bit
 libelf1
@@ -2109,6 +2139,7 @@ libgda-4_0-bdb
 libgda-4_0-sqlite
 libgda-ui-4_0-4
 libgda-ui-4_0-plugins
+libgda3-lang
 libgdata-lang
 libgdata7
 libgdict-1_0-6
@@ -2131,9 +2162,10 @@ libgimpprint
 libgio-2_0-0
 libgio-2_0-0-32bit
 libgio-fam
+libgiomm-2_4-1
 libgirepository-1_0-1
-libglade2
-libglade2-32bit
+libglade-2_0-0
+libglade-2_0-0-32bit
 libglade2-devel
 libglade2-doc
 libglademm
@@ -2143,6 +2175,7 @@ libgladeui-1_0-devel
 libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
+libglibmm-2_4-1
 libglue2
 libgmime-2_4-2
 libgmodule-2_0-0
@@ -2166,8 +2199,8 @@ libgnome-keyring0-32bit
 libgnome-lang
 libgnome-menu2
 libgnome-window-settings1
-libgnomecanvas
-libgnomecanvas-32bit
+libgnomecanvas-2-0
+libgnomecanvas-2-0-32bit
 libgnomecanvas-devel
 libgnomecanvas-lang
 libgnomecups
@@ -2239,13 +2272,15 @@ libgstsignalprocessor-0_10-0
 libgstvdp-0_10-0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
+libgtk-2_0-0
+libgtk-2_0-0-32bit
 libgtk-3_0-0
 libgtk-vnc-1_0-0
+libgtkglext-x11-1_0-0
 libgtkimageview0
 libgtkmm-2_4-1
 libgtksourceview-2_0-0
 libgtksourceviewmm-2_0-2
-libgtop
 libgtop-2_0-7
 libgtop-devel
 libgtop-lang
@@ -2268,8 +2303,6 @@ libical-devel
 libical0
 libicu
 libid3tag
-libidl
-libidl-32bit
 libidl-devel
 libidn
 libidn-32bit
@@ -2460,6 +2493,7 @@ libpcsclite1
 libphonon4
 libpisock-devel
 libpisock9
+libpisync-devel
 libpisync1
 libpixman-1-0
 libpixman-1-0-32bit
@@ -2567,7 +2601,7 @@ libsepol1
 libsepol1-32bit
 libsexy
 libshout3
-libsigc++2
+libsigc-2_0-0
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslab-devel
@@ -2604,6 +2638,8 @@ libsqlite3-0-32bit
 libssh2-1
 libssh2-1-32bit
 libssh4
+libstartup-notification-1-0
+libstartup-notification-1-0-32bit
 libstdc++-devel
 libstdc++33
 libstdc++45
@@ -2679,6 +2715,7 @@ libvoikko1
 libvorbis
 libvorbis-32bit
 libvpx0
+libvte9
 libwavpack1
 libwbclient0
 libwbclient0-32bit
@@ -2830,6 +2867,7 @@ mcelog
 mdadm
 meanwhile
 meanwhile-devel
+media-player-info
 meld
 meld-lang
 memtest86+
@@ -2838,6 +2876,7 @@ metacity
 metacity-devel
 metacity-lang
 metamail
+metatheme-sonar-common
 mgetty
 mgopen-fonts
 microcode_ctl
@@ -2902,7 +2941,6 @@ mozilla-xulrunner192-translations-other
 mpfr-devel
 mpfr-devel-32bit
 mpi-selector
-mplus-fonts
 mpt-firmware
 mpt-status
 mrtg
@@ -3109,7 +3147,6 @@ opie
 opie-32bit
 oprofile
 oprofile-32bit
-optipng
 orage
 orbit2
 orbit2-32bit
@@ -3277,6 +3314,7 @@ perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
 perl-CGI-Application
+perl-Cairo
 perl-Carp-Assert
 perl-Carp-Clan
 perl-Chart
@@ -3537,6 +3575,8 @@ pinentry-qt4
 pinfo
 pino
 pino-lang
+pitivi
+pitivi-lang
 pkcs11-helper
 pkg-config
 planner
@@ -3883,8 +3923,6 @@ squid3
 squidGuard
 sshfs
 star
-startup-notification
-startup-notification-32bit
 startup-notification-devel
 step
 strace
@@ -3898,7 +3936,6 @@ subversion-server
 subversion-tools
 sudo
 suseRegister
-susedoc
 susehelp
 susehelp_cz
 susehelp_de
@@ -4027,7 +4064,6 @@ tracker-lang
 tracker-miner-evolution
 tracker-miner-files
 trang
-transfig
 translation-update
 translation-update-cs
 translation-update-de
@@ -4054,8 +4090,8 @@ translation-update-sk
 translation-update-uk
 translation-update-wa
 transmission-common
-transmission-common-lang
 transmission-gtk
+transmission-gtk-lang
 treeline
 tsclient
 tsclient-lang
@@ -4138,7 +4174,6 @@ vorbis-tools
 vpnc
 vsftpd
 vtcl
-vte
 vte-devel
 vte-lang
 vte016-sharp

@@ -88,6 +88,7 @@ fuse
 gawk
 gconf-polkit
 gconf2
+gconf2-lang
 gd
 gdbm
 gdk-pixbuf-query-loaders
@@ -99,7 +100,7 @@ ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
 glib-networking
-glib2-branding-openSUSE
+glib2-branding-upstream
 glib2-tools
 glibc
 glibc-32bit
@@ -118,12 +119,17 @@ grep
 groff
 grub
 gsettings-backend-dconf
-gtk2
 gtk2-branding-openSUSE
+gtk2-data
 gtk2-engine-murrine
 gtk2-engines
 gtk2-engines-lang
+gtk2-immodule-amharic
+gtk2-immodule-inuktitut
+gtk2-immodule-thai
+gtk2-immodule-vietnamese
 gtk2-metatheme-sonar
+gtk2-tools
 gvfs
 gvfs-backend-afc
 gvfs-backends
@@ -155,6 +161,7 @@ kpartx
 krb5
 lcms
 less
+libIDL-2-0
 libQtWebKit4
 libSDL-1_2-0
 libXi6
@@ -189,7 +196,6 @@ libcrack2
 libcryptsetup1
 libcurl4
 libdaemon0
-libdb-4_5
 libdb-4_8
 libdconf0
 libdrm
@@ -214,7 +220,7 @@ libgfortran45
 libgimpprint
 libgio-2_0-0
 libgirepository-1_0-1
-libglade2
+libglade-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
@@ -229,9 +235,9 @@ libgpg-error0
 libgphoto2
 libgssglue1
 libgthread-2_0-0
+libgtk-2_0-0
 libgudev-1_0-0
 libgvfscommon0
-libidl
 libidn
 libimobiledevice1
 libiw30
@@ -446,6 +452,7 @@ sax2-tools
 scout
 sed
 sg3_utils
+shared-mime-info
 smp_utils
 sonar-icon-theme
 splashy
@@ -493,7 +500,6 @@ xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
-xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM

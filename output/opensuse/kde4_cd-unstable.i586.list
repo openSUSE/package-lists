@@ -176,8 +176,13 @@ grub
 gsettings-backend-dconf
 gstreamer-0_10
 gstreamer-0_10-plugins-base
-gtk2
 gtk2-branding-upstream
+gtk2-data
+gtk2-immodule-amharic
+gtk2-immodule-inuktitut
+gtk2-immodule-thai
+gtk2-immodule-vietnamese
+gtk2-tools
 gwenview
 gzip
 hal
@@ -325,7 +330,6 @@ libarchive2
 libasm1
 libasound2
 libassuan0
-libatasmart4
 libatk-1_0-0
 libattica0
 libattr
@@ -349,7 +353,6 @@ libcrack2
 libcryptsetup1
 libcurl4
 libdaemon0
-libdb-4_5
 libdb-4_8
 libdbusmenu-qt2
 libdc1394-22
@@ -402,6 +405,7 @@ libgstapp-0_10-0
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgthread-2_0-0
+libgtk-2_0-0
 libgudev-1_0-0
 libical0
 libidn
@@ -790,7 +794,6 @@ terminfo-base
 timezone
 translation-update
 udev
-udisks
 ulimit
 unrar
 unscd
@@ -834,7 +837,6 @@ xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
 xorg-x11-driver-virtualbox-ose
-xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
