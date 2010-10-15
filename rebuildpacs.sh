@@ -39,6 +39,12 @@ missingdeps=`sed -e 's,.*needed by ,,' /tmp/missingdeps | sort -u`
 for i in $missingdeps; do
   maptosource $i >> /tmp/torebuild
 done
+if test -n "`grep -- '-lang$' output/opensuse/kde4_cd.i586.list output/opensuse/gnome_cd.i586.list  | grep -v konqueror-plugins-lang`"; then
+  echo bundle-lang-common >> /tmp/torebuild
+  echo bundle-lang-kde >> /tmp/torebuild
+  echo bundle-lang-gnome >> /tmp/torebuild
+  echo bundle-lang-gnome-extras >> /tmp/torebuild
+fi
 sort -o /tmp/torebuild -u /tmp/torebuild
 
 split -l 50 /tmp/torebuild rebuilds_

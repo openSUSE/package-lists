@@ -610,6 +610,7 @@ cluster-glue
 clutter-lang
 cm-unicode
 cmake
+cnetworkmanager
 command-not-found
 compiz
 compiz-branding-openSUSE
@@ -952,13 +953,17 @@ glabels
 glabels-lang
 glade-sharp2
 glade3
+glade3-catalog-evolution
+glade3-catalog-gnome-media-profiles
+glade3-catalog-gtksourceview
+glade3-catalog-vte
 glade3-lang
 glchess
 glchess-lang
 glib-networking
 glib-networking-lang
 glib-sharp2
-glib2-branding-upstream
+glib2-branding-openSUSE
 glib2-devel
 glib2-lang
 glib2-tools
@@ -966,7 +971,6 @@ glibc
 glibc-devel
 glibc-info
 glibc-locale
-glibmm2
 glines
 glines-lang
 gltt
@@ -1130,6 +1134,7 @@ gstreamer-0_10-doc
 gstreamer-0_10-lang
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
+gstreamer-0_10-plugin-gnonlin
 gstreamer-0_10-plugin-hal
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
@@ -1175,6 +1180,7 @@ gtk2-metatheme-sonar
 gtk2-tools
 gtk3-branding-openSUSE
 gtk3-data
+gtk3-engine-murrine
 gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
@@ -1182,8 +1188,8 @@ gtk3-immodule-vietnamese
 gtk3-immodule-xim
 gtk3-immodules-tigrigna
 gtk3-lang
+gtk3-metatheme-sonar
 gtk3-tools
-gtkglext
 gtkhtml2
 gtkhtml2-devel
 gtkhtml2-lang
@@ -2019,6 +2025,7 @@ libgda-4_0-bdb
 libgda-4_0-sqlite
 libgda-ui-4_0-4
 libgda-ui-4_0-plugins
+libgda3-lang
 libgdata-lang
 libgdata7
 libgdict-1_0-6
@@ -2038,6 +2045,7 @@ libggz2-devel
 libgimpprint
 libgio-2_0-0
 libgio-fam
+libgiomm-2_4-1
 libgirepository-1_0-1
 libglade-2_0-0
 libglade2-devel
@@ -2048,6 +2056,7 @@ libgladeui-1-9
 libgladeui-1_0-devel
 libgle3
 libglib-2_0-0
+libglibmm-2_4-1
 libglue2
 libgmime-2_4-2
 libgmodule-2_0-0
@@ -2130,11 +2139,11 @@ libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3_0-0
 libgtk-vnc-1_0-0
+libgtkglext-x11-1_0-0
 libgtkimageview0
 libgtkmm-2_4-1
 libgtksourceview-2_0-0
 libgtksourceviewmm-2_0-2
-libgtop
 libgtop-2_0-7
 libgtop-devel
 libgtop-lang
@@ -2311,6 +2320,7 @@ libpcsclite1
 libphonon4
 libpisock-devel
 libpisock9
+libpisync-devel
 libpisync1
 libpixman-1-0
 libpixman-1-0-devel
@@ -2398,7 +2408,7 @@ libsensors4-devel
 libsepol1
 libsexy
 libshout3
-libsigc++2
+libsigc-2_0-0
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslab-devel
@@ -2488,6 +2498,7 @@ libvisual-devel
 libvoikko1
 libvorbis
 libvpx0
+libvte9
 libwavpack1
 libwbclient0
 libwbxml2-0
@@ -2626,6 +2637,7 @@ mc-lang
 mdadm
 meanwhile
 meanwhile-devel
+media-player-info
 meld
 meld-lang
 memtest86+
@@ -2634,6 +2646,7 @@ metacity
 metacity-devel
 metacity-lang
 metamail
+metatheme-sonar-common
 mgetty
 mgopen-fonts
 microcode_ctl
@@ -3304,6 +3317,8 @@ pinentry-qt4
 pinfo
 pino
 pino-lang
+pitivi
+pitivi-lang
 pkcs11-helper
 pkg-config
 planner
@@ -3799,8 +3814,8 @@ translation-update-sk
 translation-update-uk
 translation-update-wa
 transmission-common
-transmission-common-lang
 transmission-gtk
+transmission-gtk-lang
 treeline
 tsclient
 tsclient-lang
@@ -3881,7 +3896,6 @@ vorbis-tools
 vpnc
 vsftpd
 vtcl
-vte
 vte-devel
 vte-lang
 vte016-sharp

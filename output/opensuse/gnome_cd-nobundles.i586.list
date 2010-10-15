@@ -282,12 +282,11 @@ glchess-lang
 glib-networking
 glib-networking-lang
 glib-sharp2
-glib2-branding-upstream
+glib2-branding-openSUSE
 glib2-lang
 glib2-tools
 glibc
 glibc-locale
-glibmm2
 gmime-2_4-sharp
 gnokii
 gnome-about
@@ -404,7 +403,6 @@ gtk2-branding-openSUSE
 gtk2-data
 gtk2-engine-murrine
 gtk2-engines
-gtk2-engines-lang
 gtk2-immodule-amharic
 gtk2-immodule-inuktitut
 gtk2-immodule-thai
@@ -412,7 +410,6 @@ gtk2-immodule-vietnamese
 gtk2-lang
 gtk2-metatheme-sonar
 gtk2-tools
-gtkglext
 gtkhtml2
 gtkhtml2-lang
 gtksourceview-lang
@@ -597,11 +594,13 @@ libgfortran45
 libgimpprint
 libgio-2_0-0
 libgio-fam
+libgiomm-2_4-1
 libgirepository-1_0-1
 libglade-2_0-0
 libglademm
 libglademm-2_4-1
 libglib-2_0-0
+libglibmm-2_4-1
 libgmime-2_4-2
 libgmodule-2_0-0
 libgmp10
@@ -651,10 +650,10 @@ libgstsignalprocessor-0_10-0
 libgstvdp-0_10-0
 libgthread-2_0-0
 libgtk-2_0-0
+libgtkglext-x11-1_0-0
 libgtkimageview0
 libgtkmm-2_4-1
 libgtksourceview-2_0-0
-libgtop
 libgtop-2_0-7
 libgtop-lang
 libgudev-1_0-0
@@ -767,7 +766,7 @@ libseed0
 libselinux1
 libsepol1
 libsexy
-libsigc++2
+libsigc-2_0-0
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslab-lang
@@ -817,6 +816,7 @@ libvdpau1
 libvisual
 libvorbis
 libvpx0
+libvte9
 libwavpack1
 libwbclient0
 libwebkitgtk-1_0-0
@@ -872,6 +872,7 @@ mdadm
 memtest86+
 metacity
 metacity-lang
+metatheme-sonar-common
 microcode_ctl
 mingetty
 mjpegtools
@@ -1199,8 +1200,8 @@ translation-update
 translation-update-de
 translation-update-ru
 transmission-common
-transmission-common-lang
 transmission-gtk
+transmission-gtk-lang
 udev
 udev-configure-printer
 udisks
@@ -1224,7 +1225,6 @@ virtualbox-ose-guest-kmp-default
 virtualbox-ose-guest-tools
 vorbis-tools
 vpnc
-vte
 vte-lang
 w3m
 wdiff
