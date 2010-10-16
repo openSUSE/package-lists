@@ -30,6 +30,19 @@ do
         echo
      fi
      ;;
+  power-*)
+     rarch=${i/power-/}
+     mkdir -p susex/$rarch
+     echo -n "syncing $i "
+     count=`rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:Factory:PowerPC/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     echo -n "found $count packages "
+     if test "$count" = 0; then
+        echo "done"
+     else
+        touch dirty
+        echo
+     fi
+     ;;
   esac
   echo > media.1/media <<EOF
 SUSE Linux Products GmbH
@@ -39,9 +52,7 @@ EOF
   if test -n "$WITHDESCR" && test -f dirty; then
   mkdir -p .cache
   echo -n "create_package_descr $i "
-  /work/cd/bin/tools/create_package_descr -c .cache -i /work/cd/lib/put_built_to_cd/locations-stable/meta/ \
-    -i /work/cd/lib/put_built_to_cd/locations-stable/debug/ \
-    -P -C -K -S -o suse/setup/descr/ -d susex/ -l english > /dev/null 2>&1
+  /usr/bin/create_package_descr -c .cache -P -C -K -S -o suse/setup/descr/ -d susex/ -l english > /dev/null 2>&1
     # -x /work/built/dists/all/$i/data/EXTRA_PROV
 
   echo "done"

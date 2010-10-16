@@ -62,7 +62,6 @@ if perl create-requires x86_64 ; then
 fi
  
 (installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages; installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages)  | grep "nothing provides"  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps
-fi
 echo "INSTALLCHECK:"
 cat /tmp/missingdeps
 echo "<<<"
@@ -72,12 +71,10 @@ echo "<<<"
 ./check_yast.sh output/opensuse/dvd-i586.list __i386__
 ./check_yast.sh output/opensuse/dvd-x86_64.list __x86_64__
 
-if test -f dirty; then
 (
 ./check_size.sh output/opensuse/dvd-i586.list i586
 ./check_size.sh output/opensuse/dvd-x86_64.list x86_64
 ) | tee sizes
-fi
 
 ./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE\:Factory/_product/DVD5-i586.group only_i586
 ./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
@@ -100,6 +97,9 @@ fi
 
 git commit -m "auto commit" -a
 echo "all done"
-git push
+git push || true
 
-rm -f dirty
+fi
+
+rm -fv dirty
+./rebuildppc.sh

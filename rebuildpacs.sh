@@ -1,12 +1,25 @@
 set -e
 export LC_ALL=C
 
+project=openSUSE:Factory
+repo=standard
+arch=x86_64
+dir=rebuilds
+mdeps=/tmp/missingdeps
+
+if test "$1" = "ppc"; then
+  project="openSUSE:Factory:PowerPC"
+  arch="ppc"
+  dir=rebuildsppc
+  mdeps=/tmp/missingdeps_ppc
+fi
+ 
 function maptosource {
  egrep 'package|subpkg|source' /tmp/builddep  | fgrep -B40 "<subpkg>$1</subpkg>" | fgrep '<source>'| tail -n 1 | sed -e 's, *<[/s]*ource>,,g'
 }
 
 function rebuildpacs {
- api='/build/openSUSE:Factory/_result?repository=standard'
+ api="/build/$project/_result?repository=$repo"
  for i in $@; do 
   value="$(perl -MURI::Escape -e 'print uri_escape($ARGV[0]);' "$i")"
   api="$api&package=$value"
@@ -14,38 +27,44 @@ function rebuildpacs {
  tpackages=`osc api $api | grep 'code="succeeded"' | sed -e 's,.*package=",,; s,".*,,' | sort -u`
  api=
  for i in $tpackages; do 
-  if test -f "rebuilds/$i"; then
+  if test -f "$dir/$i"; then
     echo "skipping to rebuild $i"
     continue
   fi
   echo "rebuilding $i"
   value="$(perl -MURI::Escape -e 'print uri_escape($ARGV[0]);' "$i")"
   api="$api&package=$value"
-  touch "rebuilds/$i"
+  touch "$dir/$i"
  done
  if test -n "$api"; then
-   osc api -m POST "/build/openSUSE:Factory?cmd=rebuild&repository=standard$api"
+   #echo "$api"
+   osc api -m POST "/build/$project?cmd=rebuild&repository=$repo$api"
  fi
 }
 
-osc api /build/openSUSE:Factory/standard/i586/_builddepinfo > /tmp/builddep
-
-touch rebuilds/package-lists-openSUSE
-touch rebuilds/antivir-gui
-find rebuilds -cmin +1500 -print0 | xargs -0 --no-run-if-empty rm -v
+osc api /build/$project/$repo/$arch/_builddepinfo > /tmp/builddep
 
 : > /tmp/torebuild
-missingdeps=`sed -e 's,.*needed by ,,' /tmp/missingdeps | sort -u`
+touch $dir/package-lists-openSUSE
+for package in installation-images rpmlint-mini bundle-lang-common bundle-lang-kde bundle-lang-gnome bundle-lang-gnome-extras; do
+  osc buildinfo $project $package $repo $arch | grep 'bdep name' > $dir/$package.new || true
+  if cmp -s $dir/$package.old $dir/$package.new; then
+    echo $package >> /tmp/torebuild
+    rm -f $dir/$package
+  fi
+done
+find $dir -cmin +1500 -print0 | xargs -0 --no-run-if-empty rm -v || true
+
+missingdeps=`sed -e 's,.*needed by ,,' $mdeps | sort -u`
 for i in $missingdeps; do
   maptosource $i >> /tmp/torebuild
 done
-if test -n "`grep -- '-lang$' output/opensuse/kde4_cd.i586.list output/opensuse/gnome_cd.i586.list  | grep -v konqueror-plugins-lang`"; then
-  echo bundle-lang-common >> /tmp/torebuild
-  echo bundle-lang-kde >> /tmp/torebuild
-  echo bundle-lang-gnome >> /tmp/torebuild
-  echo bundle-lang-gnome-extras >> /tmp/torebuild
-fi
 sort -o /tmp/torebuild -u /tmp/torebuild
+
+newfiles=`ls -1 $dir/*.new 2> /dev/null`
+for i in $newfiles; do
+  mv -vf $i ${i/.new/.old}
+done
 
 split -l 50 /tmp/torebuild rebuilds_
 for file in rebuilds_*; do

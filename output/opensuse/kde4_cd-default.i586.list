@@ -74,6 +74,7 @@ cpp45
 cracklib
 cracklib-dict-full
 crda
+cron
 cronie
 cryptsetup
 cups
@@ -126,6 +127,8 @@ fonts-config
 foomatic-filters
 freeglut
 gawk
+gconf-polkit
+gconf2
 gd
 gdb
 gdbm
@@ -277,6 +280,7 @@ kwrite
 lcms
 less
 libFLAC8
+libIDL-2-0
 libIlmImf6
 libMagickCore4
 libMagickWand4
@@ -308,6 +312,10 @@ libbluetooth3
 libboost_program_options1_44_0
 libbz2-1
 libcairo2
+libcanberra-gtk-module-common
+libcanberra-gtk0
+libcanberra-gtk2-module
+libcanberra0
 libcap-ng0
 libcap2
 libcdda_interface0
@@ -396,7 +404,7 @@ libldapcpp1
 liblockdev1
 libltdl7
 liblua5_1
-liblzma0
+liblzma5
 liblzo2-2
 libmng
 libmodman1
@@ -411,13 +419,16 @@ libncurses5
 libncurses6
 libnetpbm10
 libnl
+libnotify1
 libnscd
+libnsssharedhelper0
 libogg0
 libopencv2
 libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
 libpackagekit-glib2-14
+libpango-1_0-0
 libparted0
 libpcap1
 libpciaccess0
@@ -433,6 +444,7 @@ libpoppler-qt4-3
 libpoppler7
 libpopt0
 libproxy1
+libproxy1-config-gnome
 libproxy1-config-kde4
 libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
@@ -470,6 +482,7 @@ libspeex1
 libsqlite3-0
 libssh2-1
 libssh4
+libstartup-notification-1-0
 libstdc++45
 libstorage
 libstrigi0
@@ -493,6 +506,7 @@ libv4lconvert0
 libvisual
 libvorbis
 libwbclient0
+libwnck-1-22
 libx86-1
 libx86emu1
 libxcrypt
@@ -511,7 +525,6 @@ limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
-linux-atm-lib
 lockdev
 login
 logrotate
@@ -528,10 +541,13 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
-mozilla-js192
+mozilla-js20
+mozilla-kde4-integration
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-xulrunner20
+mozilla-xulrunner20-gnome
 mtools
 multipath-tools
 mysql-community-server
@@ -543,6 +559,7 @@ netcfg
 netpbm
 nfs-client
 nfsidmap
+notification-daemon
 nss-mdns
 ntfs-3g
 ntfsprogs
@@ -558,12 +575,13 @@ openssh-askpass
 openssl
 opensuse-codecs-installer
 openvpn
+orbit2
 oxygen-molecule
 pam
 pam-config
 pam-modules
 pam_apparmor
-pango
+pango-tools
 parted
 pciutils
 pciutils-ids
@@ -664,6 +682,7 @@ smp_utils
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
+sound-theme-freedesktop
 splashy
 splashy-branding-openSUSE
 strace
@@ -691,6 +710,12 @@ unrar
 unscd
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 usbutils

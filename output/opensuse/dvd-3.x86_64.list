@@ -79,6 +79,7 @@ coreutils
 cpio
 cracklib
 cracklib-dict-full
+cron
 cronie
 cups-libs
 cyrus-sasl
@@ -178,9 +179,7 @@ libavahi-glib1
 libblkid1
 libbluetooth3
 libbonobo
-libbonobo-lang
 libbonoboui
-libbonoboui-lang
 libbz2-1
 libcairo2
 libcanberra-gtk-module-common
@@ -219,9 +218,7 @@ libglade-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
 libgnome
-libgnome-keyring-lang
 libgnome-keyring0
-libgnome-lang
 libgnomecanvas-2-0
 libgnomeui
 libgnutls26
@@ -248,7 +245,7 @@ libldap-2_4-2
 liblockdev1
 libltdl7
 liblua5_1
-liblzma0
+liblzma5
 libmng
 libmodman1
 libmount1
@@ -262,11 +259,11 @@ liborc-0_4-0
 libotf0
 libpackagekit-glib2-14
 libpanel-applet-2-0
+libpango-1_0-0
 libparted0
 libpcre0
 libpixman-1-0
 libplist1
-libpng12-0
 libpng14-14
 libpolkit0
 libpopt0
@@ -335,7 +332,7 @@ orbit2
 pam
 pam-config
 pam-modules
-pango
+pango-tools
 perl
 perl-base
 perl-doc
@@ -412,7 +409,6 @@ xorg-x11-libICE
 xorg-x11-libSM
 xorg-x11-libX11
 xorg-x11-libXau
-xorg-x11-libXdmcp
 xorg-x11-libXext
 xorg-x11-libXfixes
 xorg-x11-libXmu

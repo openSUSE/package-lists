@@ -86,11 +86,11 @@ cpp45
 cracklib
 cracklib-dict-full
 crda
+cron
 cronie
 cryptsetup
 cups
 cups-client
-cups-drivers
 cups-libs
 curl
 cyrus-sasl
@@ -441,7 +441,7 @@ liblockdev1
 libloudmouth-1-0
 libltdl7
 liblua5_1
-liblzma0
+liblzma5
 liblzo2-2
 libmng
 libmodman1
@@ -468,6 +468,7 @@ libopenssl1_0_0
 liborc-0_4-0
 libotr2
 libpackagekit-glib2-14
+libpango-1_0-0
 libparted0
 libpcap1
 libpciaccess0
@@ -568,7 +569,6 @@ limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
-linux-atm-lib
 lockdev
 login
 logrotate
@@ -637,7 +637,7 @@ pam_fprint
 pam_krb5
 pam_ldap
 pam_mount
-pango
+pango-tools
 parted
 patterns-openSUSE-apparmor
 patterns-openSUSE-base
@@ -658,6 +658,7 @@ patterns-openSUSE-multimedia
 patterns-openSUSE-non_oss
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde4
+patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -799,6 +800,12 @@ unrar
 unscd
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 usbutils

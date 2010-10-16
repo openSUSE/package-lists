@@ -53,11 +53,11 @@ cpp45
 cracklib
 cracklib-dict-full
 crda
+cron
 cronie
 cryptsetup
 cups
 cups-client
-cups-drivers
 cups-libs
 curl
 cyrus-sasl
@@ -271,7 +271,7 @@ libldb0
 liblockdev1
 libltdl7
 liblua5_1
-liblzma0
+liblzma5
 liblzo2-2
 libmng
 libmodman1
@@ -287,6 +287,7 @@ libnscd
 libogg0
 libopenobex1
 libopenssl1_0_0
+libpango-1_0-0
 libparted0
 libpcap1
 libpciaccess0
@@ -353,7 +354,6 @@ limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
-linux-atm-lib
 lockdev
 login
 logrotate
@@ -415,13 +415,14 @@ pam_fprint
 pam_krb5
 pam_ldap
 pam_mount
-pango
+pango-tools
 parted
 patterns-openSUSE-apparmor
 patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
 patterns-openSUSE-fonts
 patterns-openSUSE-sw_management
+patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_yast
 patterns-openSUSE-yast2_basis

@@ -2,12 +2,13 @@
 
 svn up /home/pattern
 pushd /home/pattern/products/patterns-openSUSE-data 
-out=`git pull -q --log`
-echo -n $out
+out=`git pull`
 popd
-if test -z "$out"; then
+if test "$out" = "Already up-to-date."; then
   echo "unchanged"
   exit 1
+else
+  echo "$out"
 fi
 
 arg=openSUSE

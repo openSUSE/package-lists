@@ -38,6 +38,7 @@ cpio
 cracklib
 cracklib-dict-full
 crda
+cron
 cronie
 cryptsetup
 cups
@@ -171,7 +172,7 @@ liblcms1
 libldap-2_4-2
 libldapcpp1
 liblua5_1
-liblzma0
+liblzma5
 liblzo2-2
 libmng
 libmodman1
@@ -227,7 +228,6 @@ limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
-linux-atm-lib
 login
 logrotate
 lsb-release
@@ -356,6 +356,12 @@ ulimit
 unscd
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 usbutils
