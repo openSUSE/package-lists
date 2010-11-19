@@ -6,16 +6,19 @@ Mesa
 ModemManager
 NetworkManager
 NetworkManager-glib
-NetworkManager-kde4
 NetworkManager-kde4-libs
+NetworkManager-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-kde4
+NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-kde4
+NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
+NetworkManager-vpnc-lang
 PackageKit
-PackageKit-branding-openSUSE
+PackageKit-branding-upstream
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
 PolicyKit
@@ -27,7 +30,6 @@ aaa_base-extras
 acl
 acpica
 acpid
-akonadi-runtime
 akregator
 alsa
 alsa-oss
@@ -50,8 +52,6 @@ avahi
 bash
 bind-libs
 bind-utils
-bluez
-boost-license1_44_0
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -144,7 +144,7 @@ ghostscript-library
 ghostscript-x11
 giflib
 glib-networking
-glib2-branding-openSUSE
+glib2-branding-upstream
 glib2-tools
 glibc
 glibc-32bit
@@ -192,10 +192,8 @@ iptables
 iputils
 irqbalance
 jpeg
-kaddressbook
 kaffeine
 kbd
-kbluetooth
 kcalc
 kcharselect
 kcm_gtk
@@ -223,9 +221,7 @@ kdelibs4-core
 kdemultimedia4
 kdenetwork4-filesharing
 kdepasswd
-kdepim4
 kdepim4-runtime
-kdepim4-wizards
 kdepimlibs4
 kdialog
 kdm
@@ -247,7 +243,6 @@ kipi-plugins
 klogd
 kmag
 kmahjongg
-kmail
 kmines
 kmix
 kmousetool
@@ -260,6 +255,8 @@ konsole
 kontact
 konversation
 korganizer
+kpackagekit
+kpackagekit-lang
 kpartx
 kpat
 krb5
@@ -273,8 +270,6 @@ ksnapshot
 ksshaskpass
 ksudoku
 ktorrent
-kupdateapplet
-kupdateapplet-packagekit
 kvkbd
 kwalletmanager
 kwebkitpart
@@ -311,8 +306,6 @@ libavahi-common3
 libavahi-core7
 libblkid1
 libblocxx6
-libbluetooth3
-libboost_program_options1_44_0
 libbz2-1
 libcairo2
 libcanberra-gtk-module-common
@@ -416,7 +409,6 @@ libmount1
 libmpc2
 libmpfr4
 libmusicbrainz4
-libmysqlclient16
 libmysqlclient_r16
 libncurses5
 libncurses5-32bit
@@ -429,10 +421,10 @@ libnsssharedhelper0
 libnuma1
 libogg0
 libopencv2
-libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
 libpackagekit-glib2-14
+libpackagekit-qt14
 libpango-1_0-0
 libparted0
 libpcap1
@@ -556,8 +548,6 @@ mozilla-xulrunner20
 mozilla-xulrunner20-gnome
 mtools
 multipath-tools
-mysql-community-server
-mysql-community-server-client
 ncurses-utils
 net-tools
 netcat
@@ -572,7 +562,6 @@ ntfsprogs
 ntp
 numactl
 numlockx
-obex-data-server
 okular
 openSUSE-build-key
 openldap2-client
@@ -642,12 +631,12 @@ pkcs11-helper
 pkg-config
 plasma-addons
 plasma-theme-aya
+plasmoid-networkmanagement
 plasmoid-quickaccess
 pm-profiler
 pm-utils
 polkit
 polkit-default-privs
-polkit-gnome
 polkit-kde-1
 poppler-tools
 postfix

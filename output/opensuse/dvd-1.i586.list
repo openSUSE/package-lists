@@ -30,18 +30,22 @@ NetworkManager
 NetworkManager-devel
 NetworkManager-glib
 NetworkManager-gnome
+NetworkManager-gnome-lang
 NetworkManager-kde4
 NetworkManager-kde4-libs
+NetworkManager-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde4
+NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
 NetworkManager-pptp-kde4
+NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
-OpenIPMI
+NetworkManager-vpnc-lang
 OpenOffice_org-LanguageTool
 OpenOffice_org-LanguageTool-de
 OpenOffice_org-LanguageTool-en
@@ -76,7 +80,7 @@ OpenOffice_org-thesaurus-ru
 OpenOffice_org-thesaurus-sv
 OpenOffice_org-voikko
 PackageKit
-PackageKit-branding-openSUSE
+PackageKit-branding-upstream
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
@@ -389,7 +393,6 @@ clicfs
 cln
 clucene-core
 clucene-core-devel
-cluster-glue
 cm-unicode
 cmake
 cnetworkmanager
@@ -403,7 +406,6 @@ compiz-plugins-main
 conduit
 convert
 coreutils
-corosync
 cpio
 cpp
 cpp45
@@ -704,7 +706,7 @@ glade3-catalog-vte
 glchess
 glib-networking
 glib-sharp2
-glib2-branding-openSUSE
+glib2-branding-upstream
 glib2-devel
 glib2-tools
 glibc
@@ -888,6 +890,7 @@ hal
 hal-devel
 hamster-applet
 handedict
+haveged
 hdparm
 hfsutils
 hicolor-icon-theme
@@ -954,9 +957,6 @@ ipw-firmware
 irda
 irssi
 iscan-free
-iscsitarget-kmp-default
-iscsitarget-kmp-desktop
-iscsitarget-kmp-xen
 isns
 iso-codes
 iso-codes-devel
@@ -1045,7 +1045,6 @@ kbattleship
 kbd
 kblackbox
 kblocks
-kbluetooth
 kbounce
 kbreakout
 kbruch
@@ -1177,8 +1176,6 @@ kernel-firmware
 kernel-pae-devel
 kernel-source
 kernel-syms
-kernel-xen
-kernel-xen-devel
 kerneloops
 kerneloops-applet
 kexec-tools
@@ -1281,6 +1278,8 @@ kontact
 konversation
 kopete
 korganizer
+kpackagekit
+kpackagekit-lang
 kpartx
 kpat
 kppp
@@ -1478,7 +1477,6 @@ libcolorblind0
 libcom_err-devel
 libcom_err2
 libcompizconfig
-libcorosync4
 libcrack2
 libcroco
 libcroco-0_6-3
@@ -1498,9 +1496,6 @@ libdconf0
 libdirac_encoder0
 libdiscid1
 libdjvulibre21
-libdlm
-libdlm3
-libdmapsharing2
 libdns_sd
 libdrm
 libdrm-devel
@@ -1542,8 +1537,8 @@ libffi45
 libfm
 libfm-gtk0
 libfm0
-libfolks-telepathy0
-libfolks0
+libfolks-telepathy1
+libfolks1
 libfprint0
 libfreebl3
 libfreetype6
@@ -1597,7 +1592,6 @@ libgladeui-1_0-devel
 libgle3
 libglib-2_0-0
 libglibmm-2_4-1
-libglue2
 libgmime-2_4-2
 libgmodule-2_0-0
 libgmp10
@@ -1794,7 +1788,6 @@ libncurses5
 libncurses6
 libneon-devel
 libneon27
-libnet
 libnetpbm10
 libnice0
 libnl
@@ -1810,7 +1803,6 @@ libofx4
 libogg0
 libopagent1
 libopal3_6_8
-libopenais3
 libopenal1-soft
 libopenbabel3
 libopencdk-devel
@@ -1830,8 +1822,8 @@ libosip2
 libosip2-devel
 libotf0
 libotr2
-libpacemaker3
 libpackagekit-glib2-14
+libpackagekit-qt14
 libpanel-applet-2-0
 libpanel-applet-3-0
 libpango-1_0-0
@@ -1925,7 +1917,7 @@ libreoffice
 libreoffice-base
 libreoffice-base-drivers-mysql
 libreoffice-base-extensions
-libreoffice-branding-upstream
+libreoffice-branding-openSUSE
 libreoffice-calc
 libreoffice-calc-extensions
 libreoffice-components
@@ -2082,6 +2074,7 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libvala-0_10-0
 libvdpau1
 libvirt
 libvirt-client
@@ -2153,7 +2146,6 @@ linux-glibc-devel
 lirc
 lirc-kmp-default
 lirc-kmp-desktop
-lirc-kmp-xen
 lirc-remotes
 lklug
 lockdev
@@ -2374,22 +2366,17 @@ obconf
 obex-data-server
 obexd
 ocaml-facile
-ocfs2-tools
 okteta
 okular
 omnibook-kmp-default
 omnibook-kmp-desktop
-omnibook-kmp-xen
 open-iscsi
 openSUSE-build-key
 openSUSE-dynamic-wallpaper
 openSUSE-release
 openSUSE-release-dvd
-openais
 openal-soft
 openbox
-openhpi
-openhpi-daemon
 openjade
 openldap2
 openldap2-client
@@ -2419,7 +2406,6 @@ oxygen-icon-theme
 oxygen-icon-theme-scalable
 oxygen-molecule
 p7zip
-pacemaker
 pam
 pam-config
 pam-devel
@@ -2881,6 +2867,7 @@ pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
+pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
@@ -2996,8 +2983,6 @@ quota-nfs
 radvd
 raptor
 rarian
-rarpd
-rasqal
 raw-thumbnailer
 rcc-runtime
 rcs
@@ -3006,11 +2991,9 @@ re2c
 readline-devel
 readline-doc
 recode
-redland
 regexp
 reiserfs
 release-notes-openSUSE
-resource-agents
 rhino
 rhythmbox
 ripit
@@ -3124,7 +3107,6 @@ solarwolf
 sonar-icon-theme
 soprano
 soprano-backend-redland
-soprano-backend-sesame
 soprano-backend-virtuoso
 sound-juicer
 sound-theme-freedesktop

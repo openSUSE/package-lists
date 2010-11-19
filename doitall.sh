@@ -22,6 +22,9 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    osc api '/build/openSUSE:Factory/_result?package=bash&repository=standard' > /tmp/state
    if grep -q 'dirty="true"' /tmp/state || grep -q 'state="building"' /tmp/state; then
      echo "standard still dirty"
+     if ! test -f dirty; then
+       ./rebuildppc.sh
+     fi
      exit 0
    fi
    # now sync again

@@ -6,16 +6,19 @@ Mesa
 ModemManager
 NetworkManager
 NetworkManager-glib
-NetworkManager-kde4
 NetworkManager-kde4-libs
+NetworkManager-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-kde4
+NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-kde4
+NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
+NetworkManager-vpnc-lang
 PackageKit
-PackageKit-branding-openSUSE
+PackageKit-branding-upstream
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
 PolicyKit
@@ -50,7 +53,6 @@ avahi
 bash
 bind-libs
 bind-utils
-bluez
 boost-license1_44_0
 bootsplash
 bootsplash-branding-openSUSE
@@ -144,7 +146,7 @@ ghostscript-library
 ghostscript-x11
 giflib
 glib-networking
-glib2-branding-openSUSE
+glib2-branding-upstream
 glib2-tools
 glibc
 glibc-locale
@@ -192,7 +194,6 @@ jpeg
 kaddressbook
 kaffeine
 kbd
-kbluetooth
 kcalc
 kcharselect
 kcm_gtk
@@ -257,6 +258,8 @@ konsole
 kontact
 konversation
 korganizer
+kpackagekit
+kpackagekit-lang
 kpartx
 kpat
 krb5
@@ -270,8 +273,6 @@ ksnapshot
 ksshaskpass
 ksudoku
 ktorrent
-kupdateapplet
-kupdateapplet-packagekit
 kvkbd
 kwalletmanager
 kwebkitpart
@@ -308,7 +309,6 @@ libavahi-common3
 libavahi-core7
 libblkid1
 libblocxx6
-libbluetooth3
 libboost_program_options1_44_0
 libbz2-1
 libcairo2
@@ -424,10 +424,10 @@ libnscd
 libnsssharedhelper0
 libogg0
 libopencv2
-libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
 libpackagekit-glib2-14
+libpackagekit-qt14
 libpango-1_0-0
 libparted0
 libpcap1
@@ -565,7 +565,6 @@ ntfs-3g
 ntfsprogs
 ntp
 numlockx
-obex-data-server
 okular
 openSUSE-build-key
 openldap2-client
@@ -635,12 +634,12 @@ pkcs11-helper
 pkg-config
 plasma-addons
 plasma-theme-aya
+plasmoid-networkmanagement
 plasmoid-quickaccess
 pm-profiler
 pm-utils
 polkit
 polkit-default-privs
-polkit-gnome
 polkit-kde-1
 poppler-tools
 postfix

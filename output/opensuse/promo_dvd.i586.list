@@ -26,17 +26,22 @@ NetworkManager
 NetworkManager-devel
 NetworkManager-glib
 NetworkManager-gnome
+NetworkManager-gnome-lang
 NetworkManager-kde4
 NetworkManager-kde4-libs
+NetworkManager-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde4
+NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
 NetworkManager-pptp-kde4
+NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
+NetworkManager-vpnc-lang
 OpenOffice_org-LanguageTool
 OpenOffice_org-LanguageTool-de
 OpenOffice_org-LanguageTool-en
@@ -71,7 +76,7 @@ OpenOffice_org-thesaurus-ru
 OpenOffice_org-thesaurus-sv
 OpenOffice_org-voikko
 PackageKit
-PackageKit-branding-openSUSE
+PackageKit-branding-upstream
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
@@ -594,7 +599,7 @@ glade3-catalog-vte
 glchess
 glib-networking
 glib-sharp2
-glib2-branding-openSUSE
+glib2-branding-upstream
 glib2-devel
 glib2-tools
 glibc
@@ -746,6 +751,7 @@ hal
 hal-devel
 hamster-applet
 handedict
+haveged
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -842,7 +848,6 @@ kanagram
 kasumi
 kate
 kbd
-kbluetooth
 kbruch
 kcachegrind
 kcalc
@@ -961,8 +966,6 @@ kernel-firmware
 kernel-pae-devel
 kernel-source
 kernel-syms
-kernel-xen
-kernel-xen-devel
 kexec-tools
 keyutils
 keyutils-devel
@@ -1014,6 +1017,8 @@ kontact
 konversation
 kopete
 korganizer
+kpackagekit
+kpackagekit-lang
 kpartx
 kpat
 krb5
@@ -1034,8 +1039,6 @@ ksudoku
 ksymoops
 ktorrent
 ktouch
-kupdateapplet
-kupdateapplet-packagekit
 kvkbd
 kvm
 kwalletmanager
@@ -1234,8 +1237,8 @@ libffi45
 libfm
 libfm-gtk0
 libfm0
-libfolks-telepathy0
-libfolks0
+libfolks-telepathy1
+libfolks1
 libfprint0
 libfreebl3
 libfreetype6
@@ -1448,7 +1451,6 @@ libmng-devel
 libmodman1
 libmodplug0
 libmono-2_0-1
-libmoon0
 libmount1
 libmp3
 libmpc2
@@ -1469,7 +1471,6 @@ libncurses5
 libncurses6
 libneon-devel
 libneon27
-libnet
 libnetpbm10
 libnice0
 libnl
@@ -1502,6 +1503,7 @@ libosip2-devel
 libotf0
 libotr2
 libpackagekit-glib2-14
+libpackagekit-qt14
 libpanel-applet-2-0
 libpanel-applet-3-0
 libpango-1_0-0
@@ -1590,7 +1592,7 @@ libreoffice
 libreoffice-base
 libreoffice-base-drivers-mysql
 libreoffice-base-extensions
-libreoffice-branding-upstream
+libreoffice-branding-openSUSE
 libreoffice-calc
 libreoffice-calc-extensions
 libreoffice-components
@@ -1738,6 +1740,7 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libvala-0_10-0
 libvdpau1
 libvirt
 libvirt-client
@@ -1801,7 +1804,6 @@ linux-glibc-devel
 lirc
 lirc-kmp-default
 lirc-kmp-desktop
-lirc-kmp-xen
 lirc-remotes
 lklug
 lockdev
@@ -1984,7 +1986,6 @@ ocaml-facile
 okular
 omnibook-kmp-default
 omnibook-kmp-desktop
-omnibook-kmp-xen
 open-iscsi
 openSUSE-build-key
 openSUSE-dynamic-wallpaper
@@ -2285,6 +2286,7 @@ pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
+pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
@@ -2336,6 +2338,7 @@ python-smbc
 python-telepathy
 python-urlgrabber
 python-vte
+python-xdg
 python-xlib
 python-xml
 python-zypp
@@ -2352,7 +2355,6 @@ quota-nfs
 radvd
 raptor
 rarian
-rarpd
 raw-thumbnailer
 rcc-runtime
 rcs

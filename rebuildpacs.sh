@@ -7,6 +7,9 @@ arch=x86_64
 dir=rebuilds
 mdeps=/tmp/missingdeps
 
+# can't help
+sed -i -e '/nothing provides ctcs2 >= 0.1.6 needed by libmicro-ctcs-glue/d' /tmp/missingdeps
+
 if test "$1" = "ppc"; then
   project="openSUSE:Factory:PowerPC"
   arch="ppc"

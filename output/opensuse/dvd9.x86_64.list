@@ -33,18 +33,22 @@ NetworkManager
 NetworkManager-devel
 NetworkManager-glib
 NetworkManager-gnome
+NetworkManager-gnome-lang
 NetworkManager-kde4
 NetworkManager-kde4-libs
+NetworkManager-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde4
+NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
 NetworkManager-pptp-kde4
+NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
-OpenIPMI
+NetworkManager-vpnc-lang
 OpenOffice_org-LanguageTool
 OpenOffice_org-LanguageTool-de
 OpenOffice_org-LanguageTool-en
@@ -79,7 +83,7 @@ OpenOffice_org-thesaurus-ru
 OpenOffice_org-thesaurus-sv
 OpenOffice_org-voikko
 PackageKit
-PackageKit-branding-openSUSE
+PackageKit-branding-upstream
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
@@ -411,7 +415,6 @@ clicfs
 cln
 clucene-core
 clucene-core-devel
-cluster-glue
 cm-unicode
 cmake
 cnetworkmanager
@@ -426,7 +429,6 @@ compiz-plugins-main
 conduit
 convert
 coreutils
-corosync
 cpio
 cpp
 cpp45
@@ -770,7 +772,7 @@ glade3-catalog-vte
 glchess
 glib-networking
 glib-sharp2
-glib2-branding-openSUSE
+glib2-branding-upstream
 glib2-devel
 glib2-tools
 glibc
@@ -969,6 +971,7 @@ hal-devel-32bit
 hamcrest
 hamster-applet
 handedict
+haveged
 hdparm
 hfsutils
 hicolor-icon-theme
@@ -1037,9 +1040,6 @@ irda
 irqbalance
 irssi
 iscan-free
-iscsitarget-kmp-default
-iscsitarget-kmp-desktop
-iscsitarget-kmp-xen
 isns
 iso-codes
 iso-codes-devel
@@ -1128,7 +1128,6 @@ jvyamlb
 jython
 jzlib
 k3b
-kaddressbook
 kaffeine
 kakasi
 kakasi-dict
@@ -1143,7 +1142,6 @@ kbattleship
 kbd
 kblackbox
 kblocks
-kbluetooth
 kbounce
 kbreakout
 kbruch
@@ -1250,11 +1248,8 @@ kdelibs4-doc
 kdemultimedia4
 kdenetwork4-filesharing
 kdepasswd
-kdepim4
-kdepim4-devel
 kdepim4-runtime
 kdepim4-runtime-devel
-kdepim4-wizards
 kdepimlibs4
 kdesdk4
 kdf
@@ -1277,8 +1272,6 @@ kernel-firmware
 kernel-source
 kernel-source-vanilla
 kernel-syms
-kernel-xen
-kernel-xen-devel
 kerneloops
 kerneloops-applet
 kexec-tools
@@ -1328,14 +1321,12 @@ klinkstatus
 klogd
 kmag
 kmahjongg
-kmail
 kmines
 kmix
 kmousetool
 kmouth
 kmplot
 knetwalk
-knode
 knotes
 koffice2
 koffice2-kchart
@@ -1382,6 +1373,8 @@ kontact
 konversation
 kopete
 korganizer
+kpackagekit
+kpackagekit-lang
 kpartx
 kpat
 kppp
@@ -1417,7 +1410,6 @@ ksymoops
 ksystemlog
 kteatime
 ktimer
-ktimetracker
 ktorrent
 ktouch
 ktuberling
@@ -1614,7 +1606,6 @@ libcom_err-devel
 libcom_err2
 libcom_err2-32bit
 libcompizconfig
-libcorosync4
 libcrack2
 libcrack2-32bit
 libcroco
@@ -1637,9 +1628,6 @@ libdconf0
 libdirac_encoder0
 libdiscid1
 libdjvulibre21
-libdlm
-libdlm3
-libdmapsharing2
 libdns_sd
 libdrm
 libdrm-32bit
@@ -1686,8 +1674,8 @@ libffi45
 libfm
 libfm-gtk0
 libfm0
-libfolks-telepathy0
-libfolks0
+libfolks-telepathy1
+libfolks1
 libfprint0
 libfprint0-32bit
 libfreebl3
@@ -1753,7 +1741,6 @@ libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
 libglibmm-2_4-1
-libglue2
 libgmime-2_4-2
 libgmodule-2_0-0
 libgmodule-2_0-0-32bit
@@ -1989,7 +1976,6 @@ libncurses6
 libncurses6-32bit
 libneon-devel
 libneon27
-libnet
 libnetpbm10
 libnice0
 libnl
@@ -2012,7 +1998,6 @@ libogg0-32bit
 libopagent1
 libopagent1-32bit
 libopal3_6_8
-libopenais3
 libopenal1-soft
 libopenal1-soft-32bit
 libopenbabel3
@@ -2037,8 +2022,8 @@ libosip2
 libosip2-devel
 libotf0
 libotr2
-libpacemaker3
 libpackagekit-glib2-14
+libpackagekit-qt14
 libpanel-applet-2-0
 libpanel-applet-2-0-32bit
 libpanel-applet-3-0
@@ -2153,7 +2138,7 @@ libreoffice
 libreoffice-base
 libreoffice-base-drivers-mysql
 libreoffice-base-extensions
-libreoffice-branding-upstream
+libreoffice-branding-openSUSE
 libreoffice-calc
 libreoffice-calc-extensions
 libreoffice-components
@@ -2337,6 +2322,7 @@ libv4l2-0
 libv4l2-0-32bit
 libv4lconvert0
 libv4lconvert0-32bit
+libvala-0_10-0
 libvdpau1
 libvdpau1-32bit
 libvirt
@@ -2424,7 +2410,6 @@ linux32
 lirc
 lirc-kmp-default
 lirc-kmp-desktop
-lirc-kmp-xen
 lirc-remotes
 lklug
 lockdev
@@ -2669,23 +2654,18 @@ obex-data-server
 obexd
 objectweb-asm
 ocaml-facile
-ocfs2-tools
 okteta
 okular
 omnibook-kmp-default
 omnibook-kmp-desktop
-omnibook-kmp-xen
 open-iscsi
 openSUSE-build-key
 openSUSE-dynamic-wallpaper
 openSUSE-release
 openSUSE-release-dvd-biarch
-openais
 openal-soft
 openbox
 openclipart-png
-openhpi
-openhpi-daemon
 openjade
 openldap2
 openldap2-client
@@ -2720,7 +2700,6 @@ oxygen-icon-theme
 oxygen-icon-theme-scalable
 oxygen-molecule
 p7zip
-pacemaker
 pam
 pam-32bit
 pam-config
@@ -3198,6 +3177,7 @@ pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
+pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
@@ -3318,8 +3298,6 @@ quota-nfs
 radvd
 raptor
 rarian
-rarpd
-rasqal
 raw-thumbnailer
 rcc-runtime
 rcs
@@ -3328,12 +3306,10 @@ re2c
 readline-devel
 readline-doc
 recode
-redland
 regexp
 reiserfs
 relaxngDatatype
 release-notes-openSUSE
-resource-agents
 rfc
 rhino
 rhythmbox
@@ -3456,7 +3432,6 @@ solarwolf
 sonar-icon-theme
 soprano
 soprano-backend-redland
-soprano-backend-sesame
 soprano-backend-virtuoso
 sound-juicer
 sound-theme-freedesktop
