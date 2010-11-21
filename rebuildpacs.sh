@@ -8,7 +8,10 @@ dir=rebuilds
 mdeps=/tmp/missingdeps
 
 # can't help
-sed -i -e '/nothing provides ctcs2 >= 0.1.6 needed by libmicro-ctcs-glue/d' /tmp/missingdeps
+sed -i -e '/nothing provides ctcs2/d' /tmp/missingdeps
+sed -i -e '/nothing provides zemberek-server needed by enchant-zemberek/d' /tmp/missingdeps
+sed -i -e '/nothing provides xorg-x11-Xvnc needed by tightvnc/d' /tmp/missingdeps
+sed -i -e '/nothing provides jpackage-utils >= 5.0.0 needed by jemmy-javadoc/d' /tmp/missingdeps
 
 if test "$1" = "ppc"; then
   project="openSUSE:Factory:PowerPC"
@@ -18,7 +21,7 @@ if test "$1" = "ppc"; then
 fi
  
 function maptosource {
- egrep 'package|subpkg|source' /tmp/builddep  | fgrep -B40 "<subpkg>$1</subpkg>" | fgrep '<source>'| tail -n 1 | sed -e 's, *<[/s]*ource>,,g'
+ egrep 'package|subpkg|source' /tmp/builddep  | fgrep -B50 "<subpkg>$1</subpkg>" | fgrep '<source>'| tail -n 1 | sed -e 's, *<[/s]*ource>,,g'
 }
 
 function rebuildpacs {
@@ -49,9 +52,9 @@ osc api /build/$project/$repo/$arch/_builddepinfo > /tmp/builddep
 
 : > /tmp/torebuild
 touch $dir/package-lists-openSUSE
-for package in installation-images rpmlint-mini bundle-lang-common bundle-lang-kde bundle-lang-gnome bundle-lang-gnome-extras; do
+for package in installation-images rpmlint-mini bundle-lang-common bundle-lang-kde bundle-lang-gnome kio_sysinfo-branding-upstream glib2-branding-openSUSE PackageKit-branding-openSUSE kiwi-config-openSUSE; do
   osc buildinfo $project $package $repo $arch | grep 'bdep name' > $dir/$package.new || true
-  if cmp -s $dir/$package.old $dir/$package.new; then
+  if diff -u $dir/$package.old $dir/$package.new | grep '^[+-]'; then
     echo $package >> /tmp/torebuild
     rm -f $dir/$package
   fi

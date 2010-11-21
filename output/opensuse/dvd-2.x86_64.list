@@ -8,7 +8,7 @@ IPAPGothic
 IPAPMincho
 Mesa
 PackageKit
-PackageKit-branding-upstream
+PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
 a2ps-perl-ja
@@ -131,7 +131,7 @@ ghostscript-fonts-std
 ghostscript-library
 gjiten
 glib-networking
-glib2-branding-upstream
+glib2-branding-openSUSE
 glib2-tools
 glibc
 glibc-i18ndata
@@ -181,6 +181,7 @@ jtools
 kasumi
 kdelibs3-default-style
 keyutils-libs
+klogd
 krb5
 lcms
 less
@@ -228,7 +229,7 @@ libdconf0
 libdrm
 libelf1
 liberation-fonts
-libexif
+libexif12
 libexpat1
 libfreetype6
 libfuse2
@@ -253,6 +254,7 @@ libgp11-0
 libgp11-modules
 libgpg-error0
 libgphoto2
+libgssglue1
 libgstapp-0_10-0
 libgstinterfaces-0_10-0
 libgstreamer-0_10-0
@@ -264,7 +266,7 @@ libidn
 libimobiledevice1
 libiterm
 libjasper1
-libjpeg8
+libjpeg62
 libksba
 liblcms1
 libldap-2_4-2
@@ -322,6 +324,7 @@ libtasn1
 libtasn1-3
 libtheora0
 libtiff3
+libtirpc1
 libtomoe-gtk0
 libudev0
 libusb-0_1-4
@@ -329,7 +332,9 @@ libusb-1_0-0
 libusbmuxd1
 libuuid1
 libvisual
-libvorbis
+libvorbis0
+libvorbisenc2
+libvorbisfile3
 libwbclient0
 libx86emu1
 libxcrypt
@@ -376,6 +381,7 @@ openslp
 openssl
 opensuse-manuals_de
 opensuse-manuals_en
+opensuse-manuals_hu
 orbit2
 pam
 pam-config
@@ -404,8 +410,10 @@ python
 python-base
 qt3
 readline-doc
+rpcbind
 rpm
 rsync
+rsyslog
 satsolver-tools
 sazanami-fonts
 scim

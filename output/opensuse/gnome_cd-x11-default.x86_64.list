@@ -97,7 +97,7 @@ ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
 glib-networking
-glib2-branding-upstream
+glib2-branding-openSUSE
 glib2-tools
 glibc
 glibc-32bit
@@ -187,7 +187,7 @@ libidn
 libimobiledevice1
 libiw30
 libjasper1
-libjpeg8
+libjpeg62
 libksba
 liblcms1
 libldap-2_4-2
@@ -200,6 +200,7 @@ libmodman1
 libmount1
 libmpc2
 libmpfr4
+libmspack0
 libncurses5
 libncurses5-32bit
 libncurses6
@@ -383,6 +384,7 @@ sysvinit-tools
 tar
 tcpd
 terminfo-base
+tightvnc
 timezone
 translation-update
 udev
@@ -415,6 +417,7 @@ xdg-utils
 xinetd
 xkeyboard-config
 xorg-x11
+xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy

@@ -1,3 +1,5 @@
+exit 0
+
 cd testtrack
 bash ./update_full.sh power-ppc
 cd ..

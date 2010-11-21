@@ -70,6 +70,8 @@ cat /tmp/missingdeps
 echo "<<<"
 
 ./rebuildpacs.sh
+#osc api -X POST '/source/openSUSE:Factory?cmd=set_flag&repository=standard&flag=build&status=disable'
+#osc api -X POST '/source/openSUSE:Factory?cmd=remove_flag&repository=images&flag=build'
 
 ./check_yast.sh output/opensuse/dvd-i586.list __i386__
 ./check_yast.sh output/opensuse/dvd-x86_64.list __x86_64__
@@ -105,4 +107,4 @@ git push || true
 fi
 
 rm -fv dirty
-./rebuildppc.sh
+#./rebuildppc.sh

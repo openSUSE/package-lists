@@ -4,11 +4,11 @@ DirectFB
 LibVNCServer
 Mesa
 ModemManager
+MozillaFirefox
+MozillaFirefox-branding-openSUSE
 NetworkManager
 NetworkManager-glib
 NetworkManager-gnome
-NetworkManager-gnome-lang
-NetworkManager-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-lang
@@ -19,7 +19,8 @@ NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-lang
 PackageKit
-PackageKit-branding-upstream
+PackageKit-branding-openSUSE
+PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
 SuSEfirewall2
@@ -74,7 +75,6 @@ cairomm
 canberra-gtk-play
 cdrkit-cdrtools-compat
 checkmedia
-cheese
 cifs-utils
 command-not-found
 compiz
@@ -181,7 +181,7 @@ ghostscript-x11
 giflib
 glchess
 glib-networking
-glib2-branding-upstream
+glib2-branding-openSUSE
 glib2-tools
 glibc
 glibc-32bit
@@ -196,7 +196,6 @@ gnome-bluetooth-plugins-geoclue
 gnome-control-center
 gnome-desktop2
 gnome-disk-utility
-gnome-doc-utils
 gnome-games-recommended
 gnome-games-support
 gnome-icon-theme
@@ -211,7 +210,6 @@ gnome-media
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-nettool
-gnome-packagekit
 gnome-panel
 gnome-panel-applet-dictionary
 gnome-panel-applet-tracker
@@ -305,7 +303,9 @@ libXi6
 libacl
 libadns1
 libaio
-libao
+libao-plugin4-esd
+libao-plugins4
+libao4
 libapparmor1
 libarchive2
 libart_lgpl_2-2
@@ -352,9 +352,8 @@ libcdda_paranoia0
 libcdio10
 libcdio_cdda0
 libcdio_paranoia0
-libcelt0-0
+libcelt0-1
 libchamplain-0_8-0
-libcheese-gtk18
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
 libcolorblind0
@@ -391,10 +390,10 @@ liberation-fonts
 libesd0
 libevent-1_4-2
 libexempi3
-libexif
+libexif12
 libexpat1
 libext2fs2
-libffi45
+libffi43
 libfolks-telepathy1
 libfolks1
 libfprint0
@@ -412,7 +411,7 @@ libgdu-gtk0
 libgdu0
 libgee2
 libgeoclue0
-libgfortran45
+libgfortran43
 libgimpprint
 libgio-2_0-0
 libgio-fam
@@ -482,7 +481,7 @@ libiptcdata0
 libiw30
 libjack0
 libjasper1
-libjpeg8
+libjpeg62
 libjson-glib-1_0-0
 libkate1
 libksba
@@ -506,6 +505,7 @@ libmount1
 libmpc2
 libmpcdec5
 libmpfr4
+libmspack0
 libmusicbrainz4
 libnautilus-extension1
 libncurses5
@@ -518,6 +518,7 @@ libnl
 libnotify-tools
 libnotify1
 libnscd
+libnsssharedhelper0
 libnuma1
 libofa0
 libogg0
@@ -607,7 +608,9 @@ libusbmuxd1
 libuuid1
 libvdpau1
 libvisual
-libvorbis
+libvorbis0
+libvorbisenc2
+libvorbisfile3
 libvpx0
 libvte9
 libwavpack1
@@ -657,10 +660,12 @@ mkinitrd
 mobile-broadband-provider-info
 module-init-tools
 mousetweaks
-mozilla-js192
+mozilla-js20
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-xulrunner20
+mozilla-xulrunner20-gnome
 mtools
 multipath-tools
 nautilus
@@ -811,7 +816,6 @@ python-urlgrabber
 python-xdg
 python-xml
 quadrapassel
-rarian
 rcc-runtime
 recode
 release-notes-openSUSE
@@ -828,7 +832,6 @@ seahorse-plugins
 sed
 seed
 sg3_utils
-sgml-skel
 shared-mime-info
 silc-toolkit
 simple-ccsm
@@ -862,9 +865,11 @@ telepathy-mission-control
 telepathy-salut
 telepathy-sofiasip
 terminfo-base
+tightvnc
 timezone
 totem
 totem-browser-plugin
+totem-browser-plugin-gmp
 totem-pl-parser
 totem-plugins
 tracker
@@ -916,6 +921,7 @@ xdg-utils
 xinetd
 xkeyboard-config
 xorg-x11
+xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy
@@ -1011,7 +1017,6 @@ yast2-users
 yast2-vm
 yast2-xml
 yast2-ycp-ui-bindings
-yelp
 yp-tools
 ypbind
 zenity
