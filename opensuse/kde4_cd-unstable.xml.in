@@ -92,7 +92,7 @@
 <install kind='package' name='pcmciautils'/>
 <install kind='package' name='pam_fprint'/>
 <install kind='package' name='quota'/>
-<install kind='package' name='xorg-x11-driver-virtualbox-ose'/>
+<install kind='package' name='virtualbox-guest-x11'/>
 <install kind='package' name='gtk2-branding-upstream'/>
 <install kind='package' name='zd1211-firmware'/>
 <install kind='package' name='ddrescue'/>
@@ -122,7 +122,7 @@
 <install kind='package' name='crda'/>
 <install kind='package' name='wireless-regdb'/>
 <install kind='package' name='iw'/>
-<install kind='package' name='virtualbox-ose-guest-tools'/>
+<install kind='package' name='virtualbox-guest-tools'/>
     <install kind="package" name="openSUSE-release-livecd-kde"/>
     <reportProblems/>
     <showpool verbose="true"/>

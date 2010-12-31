@@ -3,7 +3,6 @@ aaa_base
 aaa_base-extras
 aspell
 aspell-en
-augeas-lenses
 autoyast2-installation
 bash
 bind-libs
@@ -59,6 +58,7 @@ info
 initviocons
 insserv
 iproute2
+iptables
 kernel-default
 keyutils-libs
 kiwi-tools
@@ -76,7 +76,6 @@ libasound2
 libassuan0
 libattr
 libaudit1
-libaugeas0
 libblkid1
 libblocxx6
 libbz2-1
@@ -149,8 +148,6 @@ libzio
 libzypp
 licenses
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-perl
 login
 logrotate
@@ -186,13 +183,10 @@ perl-Digest-SHA1
 perl-HTML-Parser
 perl-HTML-Tagset
 perl-Parse-RecDescent
-perl-TimeDate
 perl-URI
-perl-WWW-Curl
 perl-X500-DN
 perl-XML-Parser
 perl-XML-Simple
-perl-XML-Writer
 perl-base
 perl-gettext
 perl-libwww-perl
@@ -209,7 +203,6 @@ rpm
 satsolver-tools
 sed
 squashfs
-suseRegister
 sysconfig
 sysfsutils
 syslinux
@@ -266,8 +259,6 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-qt
 yast2-qt-pkg
-yast2-registration
-yast2-registration-branding-openSUSE
 yast2-security
 yast2-slp
 yast2-storage
@@ -280,4 +271,3 @@ yast2-users
 yast2-xml
 yast2-ycp-ui-bindings
 zlib
-zypper

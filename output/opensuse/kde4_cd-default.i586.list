@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
+DirectFB-Mesa
 LibVNCServer
 Mesa
 ModemManager
@@ -30,7 +31,6 @@ aaa_base-extras
 acl
 acpica
 acpid
-akonadi
 akonadi-runtime
 akregator
 alsa
@@ -54,6 +54,7 @@ avahi
 bash
 bind-libs
 bind-utils
+bluedevil
 bluez
 boost-license1_44_0
 bootsplash
@@ -62,7 +63,6 @@ branding-openSUSE
 bzip2
 ca-certificates
 ca-certificates-mozilla
-cabextract
 cdrkit-cdrtools-compat
 checkmedia
 chmlib
@@ -159,7 +159,6 @@ gpart
 gpg2
 gpgme
 gpm
-grantlee
 grep
 groff
 grub
@@ -276,6 +275,7 @@ ktorrent
 kvkbd
 kwalletmanager
 kwebkitpart
+kwebkitpart-lang
 kwin
 kwrite
 lcms
@@ -286,7 +286,6 @@ libIlmImf6
 libMagickCore4
 libMagickWand4
 libQtWebKit4
-libSDL-1_2-0
 libXi6
 libacl
 libadns1
@@ -300,6 +299,7 @@ libarchive2
 libasm1
 libasound2
 libassuan0
+libatasmart4
 libatk-1_0-0
 libattica0
 libattr
@@ -311,6 +311,7 @@ libavahi-common3
 libavahi-core7
 libblkid1
 libblocxx6
+libbluedevil1
 libbluetooth3
 libboost_program_options1_44_0
 libbz2-1
@@ -401,6 +402,7 @@ libkipi8
 libkonq5
 libksba
 libksuseinstall1
+libktcore12
 libktorrent3
 liblazy1
 liblcms1
@@ -418,7 +420,6 @@ libmodplug0
 libmount1
 libmpc2
 libmpfr4
-libmspack0
 libmusicbrainz3-6
 libmysqlclient16
 libmysqlclient_r16
@@ -431,7 +432,7 @@ libnotify1
 libnscd
 libnsssharedhelper0
 libogg0
-libopencv2
+libopencv2_2
 libopenssl1_0_0
 liborc-0_4-0
 libpackagekit-glib2-14
@@ -446,7 +447,7 @@ libpixman-1-0
 libpkcs11-helper1
 libplist1
 libpng14-14
-libpolkit-qt-1-0
+libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-3
 libpoppler7
@@ -533,8 +534,6 @@ libzip1
 libzypp
 licenses
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -605,7 +604,6 @@ perl-Clone
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
-perl-DBD-CSV
 perl-DBD-SQLite
 perl-DBI
 perl-Digest-HMAC
@@ -623,17 +621,14 @@ perl-PlRPC
 perl-RPC-XML
 perl-SQL-Statement
 perl-TermReadKey
-perl-Text-CSV_XS
 perl-TimeDate
 perl-URI
-perl-WWW-Curl
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
 perl-XML-SAX
 perl-XML-Simple
-perl-XML-Writer
 perl-XML-XPath
 perl-base
 perl-gettext
@@ -665,7 +660,6 @@ preload
 procps
 psmisc
 ptools
-pullin-msttf-fonts
 pulseaudio
 pulseaudio-module-bluetooth
 pulseaudio-module-jack
@@ -710,7 +704,6 @@ splashy-branding-openSUSE
 strace
 strigi
 sudo
-suseRegister
 susehelp
 susehelp_en
 sweeper
@@ -728,6 +721,7 @@ tightvnc
 timezone
 translation-update
 udev
+udisks
 ulimit
 unrar
 unscd
@@ -836,8 +830,6 @@ yast2-pkg-bindings
 yast2-printer
 yast2-qt
 yast2-qt-pkg
-yast2-registration
-yast2-registration-branding-openSUSE
 yast2-restore
 yast2-runlevel
 yast2-samba-client

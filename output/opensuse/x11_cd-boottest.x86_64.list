@@ -1,7 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
-LibVNCServer
+DirectFB-Mesa
 Mesa
 SuSEfirewall2
 a2ps
@@ -31,7 +31,6 @@ bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
-cabextract
 cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
@@ -161,7 +160,6 @@ lcms
 less
 libIDL-2-0
 libQtWebKit4
-libSDL-1_2-0
 libXi6
 libacl
 libadns1
@@ -257,7 +255,6 @@ libmodman1
 libmount1
 libmpc2
 libmpfr4
-libmspack0
 libmysqlclient_r16
 libncurses5
 libncurses5-32bit
@@ -323,8 +320,6 @@ libzio
 libzypp
 licenses
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -402,16 +397,13 @@ perl-HTML-Parser
 perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
-perl-TimeDate
 perl-URI
-perl-WWW-Curl
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
 perl-XML-SAX
 perl-XML-Simple
-perl-XML-Writer
 perl-XML-XPath
 perl-base
 perl-gettext
@@ -429,7 +421,6 @@ ppp
 pptp
 procps
 psmisc
-pullin-msttf-fonts
 pwdutils
 python
 python-base
@@ -460,7 +451,6 @@ splashy
 splashy-branding-openSUSE
 strace
 sudo
-suseRegister
 suspend
 sysconfig
 sysfsutils
@@ -568,8 +558,6 @@ yast2-pkg-bindings
 yast2-printer
 yast2-qt
 yast2-qt-pkg
-yast2-registration
-yast2-registration-branding-openSUSE
 yast2-restore
 yast2-runlevel
 yast2-samba-client

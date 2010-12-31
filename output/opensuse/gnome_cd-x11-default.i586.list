@@ -1,7 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
-LibVNCServer
+DirectFB-Mesa
 Mesa
 SuSEfirewall2
 a2ps
@@ -33,7 +33,6 @@ branding-openSUSE
 bzip2
 ca-certificates
 ca-certificates-mozilla
-cabextract
 cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
@@ -132,7 +131,6 @@ kpartx
 krb5
 lcms
 less
-libSDL-1_2-0
 libXi6
 libacl
 libadns1
@@ -197,7 +195,6 @@ libmodman1
 libmount1
 libmpc2
 libmpfr4
-libmspack0
 libncurses5
 libncurses6
 libnetpbm10
@@ -246,8 +243,6 @@ libzio
 libzypp
 licenses
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -298,7 +293,6 @@ perl-Clone
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
-perl-DBD-CSV
 perl-DBD-SQLite
 perl-DBI
 perl-Digest-HMAC
@@ -316,17 +310,14 @@ perl-PlRPC
 perl-RPC-XML
 perl-SQL-Statement
 perl-TermReadKey
-perl-Text-CSV_XS
 perl-TimeDate
 perl-URI
-perl-WWW-Curl
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
 perl-XML-SAX
 perl-XML-Simple
-perl-XML-Writer
 perl-XML-XPath
 perl-base
 perl-gettext
@@ -345,7 +336,6 @@ ppp
 pptp
 procps
 psmisc
-pullin-msttf-fonts
 pwdutils
 python
 python-base
@@ -369,7 +359,6 @@ splashy
 splashy-branding-openSUSE
 strace
 sudo
-suseRegister
 sysconfig
 sysfsutils
 sysvinit
@@ -478,8 +467,6 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
-yast2-registration
-yast2-registration-branding-openSUSE
 yast2-restore
 yast2-runlevel
 yast2-samba-client

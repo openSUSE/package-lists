@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
+DirectFB-Mesa
 LibVNCServer
 Mesa
 ModemManager
@@ -23,7 +24,6 @@ NetworkManager-vpnc-kde4
 NetworkManager-vpnc-lang
 OpenOffice_org-templates-labels-a4
 OpenOffice_org-templates-labels-letter
-OpenOffice_org-thesaurus-en-US
 PackageKit
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
@@ -41,7 +41,6 @@ acl
 acpica
 acpid
 adaptec-firmware
-akonadi
 akonadi-runtime
 akregator
 alsa
@@ -75,6 +74,7 @@ bash-lang
 bc
 bind-libs
 bind-utils
+bluedevil
 bluez
 bluez-firmware
 boost-license1_44_0
@@ -85,8 +85,6 @@ btrfsprogs
 bzip2
 ca-certificates
 ca-certificates-mozilla
-cabextract
-cairomm
 cdrdao
 cdrkit-cdrtools-compat
 checkmedia
@@ -212,7 +210,6 @@ gpg2
 gpg2-lang
 gpgme
 gpm
-grantlee
 grep
 groff
 grub
@@ -355,6 +352,7 @@ ktorrent-lang
 kvkbd
 kwalletmanager
 kwebkitpart
+kwebkitpart-lang
 kwin
 kwrite
 lcms
@@ -381,6 +379,7 @@ libarchive2
 libasm1
 libasound2
 libassuan0
+libatasmart4
 libatk-1_0-0
 libatkmm-1_6-1
 libattica0
@@ -395,10 +394,12 @@ libavahi-glib1
 libbabl-0_1-0
 libblkid1
 libblocxx6
+libbluedevil1
 libbluetooth3
 libboost_program_options1_44_0
 libbz2-1
 libcairo2
+libcairomm-1_0-1
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -498,6 +499,7 @@ libkipi8
 libkonq5
 libksba
 libksuseinstall1
+libktcore12
 libktorrent3
 liblastfm0
 liblazy1
@@ -520,7 +522,6 @@ libmount1
 libmpc2
 libmpcdec5
 libmpfr4
-libmspack0
 libmtp8
 libmusicbrainz3-6
 libmysqlclient16
@@ -537,7 +538,7 @@ libnscd
 libnsssharedhelper0
 libnuma1
 libogg0
-libopencv2
+libopencv2_2
 libopenraw1
 libopenssl1_0_0
 liborc-0_4-0
@@ -554,7 +555,7 @@ libpixman-1-0
 libpkcs11-helper1
 libplist1
 libpng14-14
-libpolkit-qt-1-0
+libpolkit-qt-1-1
 libpolkit0
 libpoppler-glib5
 libpoppler-qt4-3
@@ -674,8 +675,6 @@ libzip1
 libzypp
 licenses
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -797,7 +796,6 @@ perl-Clone
 perl-Config-Crontab
 perl-Crypt-SSLeay
 perl-Crypt-SmbHash
-perl-DBD-CSV
 perl-DBD-SQLite
 perl-DBI
 perl-Digest-HMAC
@@ -815,10 +813,8 @@ perl-PlRPC
 perl-RPC-XML
 perl-SQL-Statement
 perl-TermReadKey
-perl-Text-CSV_XS
 perl-TimeDate
 perl-URI
-perl-WWW-Curl
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -861,7 +857,6 @@ psmisc
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
-pullin-msttf-fonts
 pulseaudio
 pulseaudio-lang
 pulseaudio-module-bluetooth
@@ -919,7 +914,6 @@ splashy-branding-openSUSE
 strace
 strigi
 sudo
-suseRegister
 susehelp
 susehelp_de
 susehelp_en
@@ -943,6 +937,7 @@ translation-update
 translation-update-de
 translation-update-ru
 udev
+udisks
 ulimit
 unrar
 unscd
@@ -963,6 +958,9 @@ util-linux
 util-linux-lang
 vim
 vim-base
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
 vmware-guest-kmp-desktop
@@ -1065,8 +1063,6 @@ yast2-pkg-bindings
 yast2-printer
 yast2-qt
 yast2-qt-pkg
-yast2-registration
-yast2-registration-branding-openSUSE
 yast2-restore
 yast2-runlevel
 yast2-samba-client
