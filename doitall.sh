@@ -25,7 +25,9 @@ if test -z "$diffonly" || test -d "$diffonly"; then
      if ! test -f dirty; then
        ./rebuildppc.sh
      fi
-#     exit 0
+     if test -z "$FORCE"; then
+       exit 0
+     fi
    fi
    # now sync again
    cd testtrack

@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
+DirectFB-Mesa
 LibVNCServer
 Mesa
 ModemManager
@@ -31,7 +32,6 @@ acl
 acpica
 acpid
 adaptec-firmware
-akonadi
 akonadi-runtime
 akregator
 alsa
@@ -61,6 +61,7 @@ bash
 bc
 bind-libs
 bind-utils
+bluedevil
 bluez
 bluez-firmware
 boost-license1_44_0
@@ -72,7 +73,6 @@ bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
-cabextract
 cdrdao
 cdrkit-cdrtools-compat
 checkmedia
@@ -174,7 +174,6 @@ gpart
 gpg2
 gpgme
 gpm
-grantlee
 grep
 groff
 grub
@@ -308,6 +307,7 @@ ktorrent-lang
 kvkbd
 kwalletmanager
 kwebkitpart
+kwebkitpart-lang
 kwin
 kwrite
 lcms
@@ -334,6 +334,7 @@ libarchive2
 libasm1
 libasound2
 libassuan0
+libatasmart4
 libatk-1_0-0
 libattica0
 libattr
@@ -345,6 +346,7 @@ libavahi-common3
 libavahi-core7
 libblkid1
 libblocxx6
+libbluedevil1
 libbluetooth3
 libboost_program_options1_44_0
 libbz2-1
@@ -438,6 +440,7 @@ libkipi8
 libkonq5
 libksba
 libksuseinstall1
+libktcore12
 libktorrent3
 liblastfm0
 liblazy1
@@ -471,7 +474,7 @@ libnetpbm10
 libnl
 libnscd
 libogg0
-libopencv2
+libopencv2_2
 libopenssl1_0_0
 liborc-0_4-0
 libpackagekit-glib2-14
@@ -486,7 +489,7 @@ libpixman-1-0
 libpkcs11-helper1
 libplist1
 libpng14-14
-libpolkit-qt-1-0
+libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-3
 libpoppler7
@@ -577,8 +580,6 @@ libzip1
 libzypp
 licenses
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -706,7 +707,6 @@ perl-TermReadKey
 perl-Text-CSV_XS
 perl-TimeDate
 perl-URI
-perl-WWW-Curl
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -747,7 +747,6 @@ procps
 psmisc
 ptools
 pullin-flash-player
-pullin-msttf-fonts
 pulseaudio
 pulseaudio-module-bluetooth
 pulseaudio-module-jack
@@ -801,7 +800,6 @@ splashy
 strace
 strigi
 sudo
-suseRegister
 susehelp
 susehelp_en
 suspend
@@ -816,9 +814,11 @@ taglib
 tar
 tcpd
 terminfo-base
+tightvnc
 timezone
 translation-update
 udev
+udisks
 ulimit
 unrar
 unscd
@@ -837,8 +837,9 @@ utempter
 util-linux
 vim
 vim-base
-virtualbox-ose-guest-kmp-default
-virtualbox-ose-guest-tools
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
 vorbis-tools
@@ -862,12 +863,12 @@ xfsprogs
 xinetd
 xkeyboard-config
 xorg-x11
+xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
 xorg-x11-driver-video-radeonhd
-xorg-x11-driver-virtualbox-ose
 xorg-x11-fonts-core
 xorg-x11-libICE
 xorg-x11-libSM
@@ -936,8 +937,6 @@ yast2-pkg-bindings
 yast2-printer
 yast2-qt
 yast2-qt-pkg
-yast2-registration
-yast2-registration-branding-openSUSE
 yast2-restore
 yast2-runlevel
 yast2-samba-client
