@@ -86,6 +86,8 @@ PolicyKit-doc
 PolicyKit-gnome
 SuSEfirewall2
 Terminal
+Terminal-doc
+Terminal-lang
 a2ps
 a2ps-perl-ja
 aaa_base
@@ -372,7 +374,6 @@ cups
 cups-backends
 cups-client
 cups-devel
-cups-drivers-splix
 cups-libs
 cups-pk-helper
 cups-pk-helper-lang
@@ -751,6 +752,7 @@ gvfs-backend-afc
 gvfs-backends
 gvfs-devel
 gvfs-fuse
+gwenhywfar-lang
 gwenview
 gzip
 hal
@@ -1233,6 +1235,7 @@ libelf0
 libelf1
 libenca0
 libenchant1
+libepc-1_0-2
 libepub0
 liberation-fonts
 libesd-devel
@@ -1261,7 +1264,7 @@ libgadu3
 libgail-gnome
 libgail-gnome-devel
 libgarcon-1-0
-libgarcon-branding-openSUSE
+libgarcon-branding-upstream
 libgcc45
 libgcj-devel
 libgcj45
@@ -1519,6 +1522,7 @@ libopenraw1
 libopenssl-devel
 libopenssl1_0_0
 libopensync
+libopensync-plugin-google-calendar
 libopensync-plugin-moto
 libopensync-plugin-python-module
 liborc-0_4-0
@@ -1764,9 +1768,7 @@ libv4l2-0
 libv4lconvert0
 libvala-0_10-0
 libvdpau1
-libvirt
 libvirt-client
-libvirt-python
 libvisual
 libvisual-devel
 libvmtools0
@@ -1810,6 +1812,7 @@ libxmmsclient-glib1
 libxmmsclient6
 libxslt
 libxslt-devel
+libyajl1
 libzio
 libzip1
 libzypp
@@ -1826,9 +1829,6 @@ link-grammar
 linphone
 linux-glibc-devel
 lirc
-lirc-kmp-default
-lirc-kmp-desktop
-lirc-kmp-xen
 lirc-remotes
 lklug
 lockdev
@@ -2012,10 +2012,6 @@ obex-data-server
 obexd
 ocaml-facile
 okular
-omnibook-kmp-default
-omnibook-kmp-desktop
-omnibook-kmp-xen
-open-iscsi
 open-vm-tools
 open-vm-tools-gui
 openSUSE-build-key
@@ -2196,7 +2192,6 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-Encode-Detect
 perl-Error
-perl-File-Tail
 perl-Finance-Quote
 perl-HTML-Parser
 perl-HTML-SimpleParse
@@ -2227,12 +2222,10 @@ perl-NetxAP
 perl-Params-Util
 perl-Parse-RecDescent
 perl-PlRPC
-perl-RPC-XML
 perl-SQL-Statement
 perl-Socket6
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
-perl-TermReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
 perl-Text-CSV_XS
@@ -2249,13 +2242,14 @@ perl-XML-Simple
 perl-XML-Writer
 perl-XML-XPath
 perl-YAML-Syck
+perl-apparmor
 perl-base
 perl-doc
 perl-gettext
 perl-ldap
-perl-libapparmor
 perl-libwww-perl
 perl-razor-agents
+perl-satsolver
 perlref
 permissions
 phalanx
@@ -2329,6 +2323,7 @@ pwdutils
 python
 python-atspi-corba
 python-base
+python-beautifulsoup
 python-bonobo
 python-brasero
 python-brlapi
@@ -2353,14 +2348,14 @@ python-gnomedesktop
 python-gnomekeyring
 python-gnomeprint
 python-gnomevfs
-python-gobject2
-python-gobject2-cairo
+python-gobject
+python-gobject-cairo
 python-gstreamer-0_10
 python-gtk
-python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-gtop
+python-httplib2
 python-kde4
 python-kdebase4
 python-libproxy
@@ -2386,7 +2381,6 @@ python-smbc
 python-telepathy
 python-totem
 python-urlgrabber
-python-vte
 python-wnck
 python-xdg
 python-xlib
@@ -2503,6 +2497,7 @@ sox
 spamassassin
 splashy
 splashy-branding-openSUSE
+splix
 sqlite2
 sqlite3
 sqlite3-devel
@@ -2585,6 +2580,7 @@ totem
 totem-browser-plugin
 totem-browser-plugin-gmp
 totem-pl-parser
+totem-plugins
 tracker
 tracker-devel
 tracker-gui
@@ -2619,7 +2615,6 @@ ttf-wqy-zenhei
 tumbler
 udev
 udev-configure-printer
-udhcp
 udisks
 uim
 uim-qt
@@ -2648,7 +2643,6 @@ vim-base
 vim-data
 vinagre
 vino
-virt-manager
 virt-utils
 virt-viewer
 virtualbox
@@ -2663,7 +2657,6 @@ virtuoso-drivers
 virtuoso-server
 vlan
 vlgothic
-vm-install
 vmware-guest-kmp-default
 vmware-guest-kmp-desktop
 vorbis-tools

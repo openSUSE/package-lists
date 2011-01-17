@@ -92,6 +92,8 @@ PolicyKit-gnome
 SuSEfirewall2
 TeX-Guy
 Terminal
+Terminal-doc
+Terminal-lang
 VFlib3
 WindowMaker
 WindowMaker-applets
@@ -440,7 +442,6 @@ cups
 cups-backends
 cups-client
 cups-devel
-cups-drivers-splix
 cups-libs
 cups-pk-helper
 cups-pk-helper-lang
@@ -606,7 +607,6 @@ fonts-thai
 fonts-thryomanes
 foomatic-filters
 fortune
-free-ttf-fonts
 freefont
 freeglut
 freeglut-devel
@@ -760,6 +760,7 @@ gnome-bluetooth
 gnome-bluetooth-devel
 gnome-bluetooth-plugins-geoclue
 gnome-commander
+gnome-commander-lang
 gnome-common
 gnome-control-center
 gnome-control-center-devel
@@ -915,6 +916,7 @@ gvfs-backends
 gvfs-devel
 gvfs-fuse
 gvim
+gwenhywfar-lang
 gwenview
 gwibber
 gzip
@@ -1028,6 +1030,7 @@ jakarta-commons-codec
 jakarta-commons-collections
 jakarta-commons-collections-tomcat5
 jakarta-commons-daemon
+jakarta-commons-daemon-java
 jakarta-commons-dbcp
 jakarta-commons-dbcp-tomcat5
 jakarta-commons-digester
@@ -1305,6 +1308,7 @@ koffice2-l10n-ja
 koffice2-l10n-nb
 koffice2-l10n-nl
 koffice2-l10n-nl-doc
+koffice2-l10n-pl
 koffice2-l10n-pt
 koffice2-l10n-pt-doc
 koffice2-l10n-pt_BR
@@ -1518,6 +1522,7 @@ libcares2
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
+libcddb2
 libcdio10
 libcdio_cdda0
 libcdio_paranoia0
@@ -1577,6 +1582,7 @@ libelf0
 libelf1
 libenca0
 libenchant1
+libepc-1_0-2
 libepub0
 liberation-fonts
 libesd-devel
@@ -1607,7 +1613,7 @@ libgadu3
 libgail-gnome
 libgail-gnome-devel
 libgarcon-1-0
-libgarcon-branding-openSUSE
+libgarcon-branding-upstream
 libgcc45
 libgcj-devel
 libgcj45
@@ -1841,6 +1847,7 @@ libmount1
 libmp3
 libmpc2
 libmpcdec5
+libmpd1
 libmpfr4
 libmsn0_3
 libmspack0
@@ -1889,6 +1896,7 @@ libopenraw1
 libopenssl-devel
 libopenssl1_0_0
 libopensync
+libopensync-plugin-google-calendar
 libopensync-plugin-moto
 libopensync-plugin-python-module
 liborc-0_4-0
@@ -2154,9 +2162,7 @@ libv4l2-0
 libv4lconvert0
 libvala-0_10-0
 libvdpau1
-libvirt
 libvirt-client
-libvirt-python
 libvisual
 libvisual-devel
 libvmtools0
@@ -2178,16 +2184,11 @@ libwnck
 libwnck-1-22
 libwnck-devel
 libwv2-4
-libwx_baseu-2_8-0-compat-lib-stl
-libwx_baseu-2_8-0-stl
-libwx_baseu_net-2_8-0-compat-lib-stl
-libwx_baseu_net-2_8-0-stl
-libwx_gtk2u_adv-2_8-0-compat-lib-stl
-libwx_gtk2u_adv-2_8-0-stl
-libwx_gtk2u_core-2_8-0-compat-lib-stl
-libwx_gtk2u_core-2_8-0-stl
-libwx_gtk2u_html-2_8-0-compat-lib-stl
-libwx_gtk2u_html-2_8-0-stl
+libwx_baseu-2_8-0-wxcontainer
+libwx_baseu_net-2_8-0-wxcontainer
+libwx_gtk2u_adv-2_8-0-wxcontainer
+libwx_gtk2u_core-2_8-0-wxcontainer
+libwx_gtk2u_html-2_8-0-wxcontainer
 libx86-1
 libx86emu1
 libxcrypt
@@ -2196,12 +2197,8 @@ libxfce4panel-1_0-3
 libxfce4ui
 libxfce4ui-branding-openSUSE
 libxfce4util
-libxfce4util-devel
 libxfcegui4
-libxfcegui4-devel
-libxfcegui4-gladeui
 libxfconf-0-2
-libxfconf-devel
 libxine-devel
 libxine1
 libxine1-gnome-vfs
@@ -2216,6 +2213,7 @@ libxmmsclient6
 libxslt
 libxslt-devel
 libxslt-python
+libyajl1
 libzio
 libzip1
 libzvbi0
@@ -2237,9 +2235,6 @@ links
 linphone
 linux-glibc-devel
 lirc
-lirc-kmp-default
-lirc-kmp-desktop
-lirc-kmp-xen
 lirc-remotes
 lklug
 lockdev
@@ -2341,6 +2336,7 @@ mono-data
 mono-data-oracle
 mono-data-postgresql
 mono-data-sqlite
+mono-debugger
 mono-devel
 mono-extras
 mono-kde4
@@ -2483,9 +2479,6 @@ ocaml-facile
 ocfs2-tools
 okteta
 okular
-omnibook-kmp-default
-omnibook-kmp-desktop
-omnibook-kmp-xen
 open-iscsi
 open-vm-tools
 open-vm-tools-gui
@@ -2795,6 +2788,7 @@ perl-Net-Telnet
 perl-Net-XMPP
 perl-NetAddr-IP
 perl-NetxAP
+perl-PDA-Pilot
 perl-PDL
 perl-Params-Util
 perl-Params-Validate
@@ -2858,16 +2852,17 @@ perl-XML-XPath
 perl-XML-XSLT
 perl-YAML
 perl-YAML-Syck
+perl-apparmor
 perl-base
 perl-doc
 perl-gettext
 perl-ldap
 perl-ldap-ssl
-perl-libapparmor
 perl-libconfigfile
 perl-libwww-perl
 perl-libxml-perl
 perl-razor-agents
+perl-satsolver
 perlref
 permissions
 pessulus
@@ -3043,14 +3038,13 @@ python-gnomedesktop
 python-gnomekeyring
 python-gnomeprint
 python-gnomevfs
-python-gobject2
-python-gobject2-cairo
-python-gobject2-devel
+python-gobject
+python-gobject-cairo
+python-gobject-devel
 python-goocanvas
 python-gstreamer-0_10
 python-gtk
 python-gtk-devel
-python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-gtop
@@ -3098,7 +3092,6 @@ python-totem
 python-twisted
 python-twisted-doc
 python-urlgrabber
-python-vte
 python-webkitgtk
 python-wnck
 python-xdg
@@ -3141,6 +3134,7 @@ resource-agents
 rfc
 rhino
 rhythmbox
+rhythmbox-lang
 ripit
 ristretto
 rpcbind
@@ -3264,6 +3258,7 @@ spamassassin
 speedcrunch
 splashy
 splashy-branding-openSUSE
+splix
 sqlite2
 sqlite3
 sqlite3-devel
@@ -3372,6 +3367,8 @@ thunar
 thunar-archive-plugin
 thunar-lang
 thunar-thumbnailers
+thunar-vfs
+thunar-vfs-lang
 thunar-volman
 thunar-volman-lang
 tidy
@@ -3403,6 +3400,7 @@ totem
 totem-browser-plugin
 totem-browser-plugin-gmp
 totem-pl-parser
+totem-plugins
 tracker
 tracker-devel
 tracker-gui
@@ -3442,7 +3440,6 @@ tv-common
 tv-fonts
 udev
 udev-configure-printer
-udhcp
 udisks
 ufraw
 ufraw-lang
@@ -3489,7 +3486,6 @@ vim-base
 vim-data
 vinagre
 vino
-virt-manager
 virt-utils
 virt-viewer
 virtualbox
@@ -3505,7 +3501,6 @@ virtuoso-server
 vlan
 vlgothic
 vlock
-vm-install
 vmware-guest-kmp-default
 vmware-guest-kmp-desktop
 vobject
@@ -3545,7 +3540,6 @@ wvdial
 wvstreams
 wvstreams-devel
 wwwoffle
-wxWidgets-compat-lib-config
 wxWidgets-lang
 x11-input-evtouch
 x11-input-fujitsu
