@@ -143,6 +143,8 @@
 <lock package="kde3-i18n-vi"/>
 <lock package="kde3-i18n-wa"/>
 <lock package="kdebase3-workspace"/>
+<lock package="kdelibs3"/> <!-- !i586 -->
+<lock package="qt3"/> <!-- !i586 -->
 <!-- old names -->
 <lock package="opensuse-manual_de"/>
 <lock package="opensuse-manual_en"/>
