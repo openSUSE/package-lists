@@ -766,7 +766,6 @@ glibc
 glibc-32bit
 glibc-devel
 glibc-devel-32bit
-glibc-i18ndata
 glibc-info
 glibc-locale
 glibc-locale-32bit
@@ -958,8 +957,6 @@ gwibber
 gzip
 hal
 hal-32bit
-hal-devel
-hal-devel-32bit
 hamster-applet
 handedict
 haveged
@@ -1192,7 +1189,6 @@ kdegames4
 kdegames4-carddecks-default
 kdegames4-carddecks-other
 kdegraphics4
-kdelibs3-default-style
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
@@ -1957,7 +1953,6 @@ libnet1
 libnetcf1
 libnetpbm10
 libnice0
-libnih
 libnl
 libnl-32bit
 libnl-devel
@@ -2394,7 +2389,6 @@ logrotate
 lokalize
 lomoco
 loudmouth-devel
-lsb
 lsb-release
 lskat
 lsof
@@ -3259,7 +3253,6 @@ python3
 qemu
 qinternet
 qt-creator
-qt3
 qt4-qtscript
 qtcurve-gtk2
 qtcurve-gtk2-32bit
@@ -3341,14 +3334,12 @@ scim-anthy
 scim-bridge
 scim-bridge-gtk
 scim-bridge-gtk-32bit
-scim-bridge-qt
 scim-canna
 scim-chewing
 scim-hangul
 scim-input-pad
 scim-m17n
 scim-pinyin
-scim-qtimm
 scim-skk
 scim-tables
 scim-tables-additional
@@ -3459,6 +3450,7 @@ sysconfig
 sysfsutils
 syslinux
 system-config-printer
+systemd
 systemtap
 systemtap-runtime
 sysvinit
@@ -3600,8 +3592,6 @@ udisks
 ufraw
 ufraw-lang
 uim
-uim-qt
-uim-qt4
 ulimit
 umbrello
 unarj
@@ -3624,7 +3614,6 @@ update-test-reboot-needed
 update-test-security
 update-test-trival
 upower
-upstart
 usb_modeswitch
 usb_modeswitch-data
 usbmuxd
