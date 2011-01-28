@@ -30,8 +30,6 @@ PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk-module
 PackageKit-lang
-PolicyKit
-PolicyKit-doc
 SuSEfirewall2
 a2ps
 aaa_base
@@ -176,8 +174,6 @@ gdk-pixbuf-query-loaders
 gegl-0_1
 genisoimage
 gettext-runtime
-gfxboot
-gfxboot-branding-openSUSE
 ggz
 ggz-client-libs
 ggz-client-libs-lang
@@ -189,7 +185,6 @@ giflib
 gimp
 gimp-branding-openSUSE
 gimp-lang
-gimp-module-hal
 gimp-plugins-python
 glib-networking
 glib-networking-lang
@@ -227,7 +222,6 @@ gtk2-lang
 gtk2-tools
 gwenview
 gzip
-hal
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -235,6 +229,8 @@ htdig
 hunspell
 hunspell-tools
 hwinfo
+hxtools
+hxtools-data
 icedax
 icewm
 icewm-lite
@@ -407,6 +403,7 @@ libcap-ng0
 libcap2
 libcdda_interface0
 libcdda_paranoia0
+libcloog0
 libcom_err2
 libcrack2
 libcroco-0_6-3
@@ -424,7 +421,6 @@ libdrm
 libdvdread4
 libdw1
 libelf1
-libenca0
 libenchant1
 libepub0
 liberation-fonts
@@ -456,6 +452,7 @@ libglib-2_0-0
 libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
+libgmpxx4
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
@@ -563,6 +560,8 @@ libpoppler-glib5
 libpoppler-qt4-3
 libpoppler7
 libpopt0
+libppl9
+libppl_c4
 libproxy1
 libproxy1-config-gnome
 libproxy1-config-kde4
@@ -586,8 +585,6 @@ libqt4-x11
 libraptor1
 librasqal2
 libraw1394-11
-librcc0
-librcd0
 libreadline6
 libredland0
 libreiserfs
@@ -714,7 +711,6 @@ mozilla-xulrunner20
 mozilla-xulrunner20-gnome
 mozilla-xulrunner20-translations-common
 mpt-firmware
-mtools
 multipath-tools
 myspell-american
 mysql-community-server
@@ -751,8 +747,8 @@ openssl
 opensuse-codecs-installer
 openvpn
 orbit2
+oxygen-gtk
 oxygen-icon-theme
-oxygen-molecule
 pam
 pam-config
 pam-modules
@@ -794,17 +790,13 @@ pcmciautils
 perl
 perl-Bootloader
 perl-Config-Crontab
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
-perl-HTML-Parser
-perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
-perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -816,9 +808,9 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
-perl-libwww-perl
 permissions
 phonon
+phonon-backend-gstreamer-0_10
 phonon-backend-xine
 pinentry
 pinentry-qt4
@@ -863,7 +855,6 @@ python-gobject
 python-gobject-cairo
 python-gtk
 python-kde4
-python-kdebase4
 python-numpy
 python-qt4
 python-satsolver
@@ -873,7 +864,6 @@ python-urlgrabber
 python-xml
 qt4-qtscript
 quota
-rcc-runtime
 recode
 reiserfs
 release-notes-openSUSE
@@ -889,7 +879,6 @@ sax2-tools
 sbl
 scout
 sed
-setserial
 sg3_utils
 shared-desktop-ontologies
 shared-mime-info

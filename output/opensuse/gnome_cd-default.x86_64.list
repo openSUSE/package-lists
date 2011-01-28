@@ -160,7 +160,6 @@ gconf-sanity-check
 gconf2
 gconf2-branding-openSUSE
 gconfmm
-gd
 gdb
 gdbm
 gdk-pixbuf-loader-rsvg
@@ -172,8 +171,6 @@ genisoimage
 geoclue
 geoclue-recommended
 gettext-runtime
-gfxboot
-gfxboot-branding-openSUSE
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
@@ -260,8 +257,6 @@ gtk2-tools
 gucharmap
 guile
 gvfs
-gvfs-backend-afc
-gvfs-backends
 gvfs-fuse
 gzip
 hamster-applet
@@ -336,7 +331,7 @@ libbrasero-burn1
 libbrasero-media1
 libbrlapi0_5
 libbz2-1
-libcaca
+libcaca0
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
@@ -350,11 +345,9 @@ libcap2
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
-libcdio10
-libcdio_cdda0
-libcdio_paranoia0
 libcelt0-1
 libchamplain-0_8-0
+libcloog0
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
 libcolorblind0
@@ -426,6 +419,7 @@ libglibmm-2_4-1
 libgmime-2_4-2
 libgmodule-2_0-0
 libgmp10
+libgmpxx4
 libgnome
 libgnome-bluetooth8
 libgnome-desktop-2-17
@@ -447,7 +441,6 @@ libgp11-0
 libgp11-modules
 libgpg-error0
 libgpgme11
-libgphoto2
 libgsf-1-114
 libgsm1
 libgssdp-1_0-2
@@ -469,7 +462,6 @@ libgtop-2_0-7
 libgucharmap7
 libgudev-1_0-0
 libgupnp-1_0-3
-libgupnp-dlna-1_0-2
 libgupnp-igd-1_0-3
 libgvfscommon0
 libgweather
@@ -492,7 +484,6 @@ liblcms1
 libldap-2_4-2
 libldapcpp1
 liblirc_client0
-liblockdev1
 liblouis2
 libltdl7
 liblua5_1
@@ -543,6 +534,8 @@ libpolkit0
 libpoppler-glib5
 libpoppler7
 libpopt0
+libppl9
+libppl_c4
 libprotobuf6
 libproxy1
 libproxy1-config-gnome
@@ -556,8 +549,6 @@ libpurple
 libpython2_7-1_0
 libquicktime
 libraw1394-11
-librcc0
-librcd0
 libreadline6
 libreiserfs
 librsvg-2-2
@@ -637,7 +628,6 @@ limal-perl
 linux32
 lirc
 lirc-remotes
-lockdev
 login
 logrotate
 lsb-release
@@ -665,7 +655,6 @@ mozilla-nss
 mozilla-nss-certs
 mozilla-xulrunner20
 mozilla-xulrunner20-gnome
-mtools
 multipath-tools
 nautilus
 nautilus-evince
@@ -715,17 +704,13 @@ pciutils-ids
 perl
 perl-Bootloader
 perl-Config-Crontab
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
-perl-HTML-Parser
-perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
-perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -736,7 +721,6 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
-perl-libwww-perl
 permissions
 phalanx
 pinentry
@@ -817,7 +801,6 @@ python-wnck
 python-xdg
 python-xml
 quadrapassel
-rcc-runtime
 recode
 release-notes-openSUSE
 rpcbind

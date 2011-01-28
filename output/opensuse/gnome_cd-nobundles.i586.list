@@ -229,8 +229,6 @@ genisoimage
 geoclue
 geoclue-recommended
 gettext-runtime
-gfxboot
-gfxboot-branding-openSUSE
 ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
@@ -372,8 +370,6 @@ gucharmap
 gucharmap-lang
 guile
 gvfs
-gvfs-backend-afc
-gvfs-backends
 gvfs-fuse
 gvfs-lang
 gzip
@@ -385,6 +381,8 @@ hicolor-icon-theme-branding-openSUSE
 hunspell
 hunspell-tools
 hwinfo
+hxtools
+hxtools-data
 iagno
 iagno-lang
 icedax
@@ -404,6 +402,7 @@ iputils
 ipw-firmware
 irda
 iso-codes
+iso-codes-lang
 iw
 jfsutils
 jpackage-utils
@@ -465,7 +464,7 @@ libbrasero-burn1
 libbrasero-media1
 libbrlapi0_5
 libbz2-1
-libcaca
+libcaca0
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
@@ -479,12 +478,10 @@ libcap2
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
-libcdio10
-libcdio_cdda0
-libcdio_paranoia0
 libcelt0-1
 libchamplain-0_8-0
 libcheese-gtk18
+libcloog0
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
 libcolorblind0
@@ -564,6 +561,7 @@ libglibmm-2_4-1
 libgmime-2_4-2
 libgmodule-2_0-0
 libgmp10
+libgmpxx4
 libgnome
 libgnome-bluetooth8
 libgnome-desktop-2-17
@@ -620,7 +618,6 @@ libgtop-lang
 libgucharmap7
 libgudev-1_0-0
 libgupnp-1_0-3
-libgupnp-dlna-1_0-2
 libgupnp-igd-1_0-3
 libgvfscommon0
 libgweather
@@ -702,6 +699,8 @@ libpolkit0
 libpoppler-glib5
 libpoppler7
 libpopt0
+libppl9
+libppl_c4
 libprotobuf6
 libproxy1
 libproxy1-config-gnome
@@ -717,8 +716,6 @@ libpurple-lang
 libpython2_7-1_0
 libquicktime
 libraw1394-11
-librcc0
-librcd0
 libreadline6
 libreiserfs
 libreoffice
@@ -876,7 +873,6 @@ mozilla-xulrunner20
 mozilla-xulrunner20-gnome
 mozilla-xulrunner20-translations-common
 mpt-firmware
-mtools
 multipath-tools
 myspell-american
 nano
@@ -976,17 +972,13 @@ pcmciautils
 perl
 perl-Bootloader
 perl-Config-Crontab
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
-perl-HTML-Parser
-perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
-perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -998,7 +990,6 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
-perl-libwww-perl
 permissions
 phalanx
 pinentry
@@ -1088,7 +1079,6 @@ quadrapassel
 quadrapassel-lang
 quota
 rarian
-rcc-runtime
 recode
 reiserfs
 release-notes-openSUSE

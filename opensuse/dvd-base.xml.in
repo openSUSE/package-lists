@@ -6,7 +6,7 @@
   </setup>
   <trial>
     <!-- INCLUDE frozen.xml -->
-    <install kind="pattern" name="base"/>
+    <install kind="pattern" name="minimal_base"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

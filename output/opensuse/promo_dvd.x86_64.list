@@ -523,6 +523,7 @@ g3utils
 galculator
 gawk
 gbrainy
+gbrainy-lang
 gc
 gcalctool
 gcc
@@ -771,8 +772,6 @@ guile
 guile-devel
 gutenprint
 gvfs
-gvfs-backend-afc
-gvfs-backends
 gvfs-devel
 gvfs-fuse
 gwenhywfar-lang
@@ -791,6 +790,8 @@ htdig
 hunspell
 hunspell-tools
 hwinfo
+hxtools
+hxtools-data
 hylafax
 hylafax-client
 i4l-base
@@ -819,6 +820,7 @@ initviocons
 inkscape
 inkscape-extensions-extra
 inkscape-extensions-gimp
+inkscape-lang
 inn
 input-utils
 insserv
@@ -958,7 +960,10 @@ kdepim4
 kdepim4-runtime
 kdepim4-wizards
 kdepimlibs4
-kdesdk4
+kdevelop4
+kdevelop4-lang
+kdevplatform
+kdevplatform-lang
 kdialog
 kdm
 kdm-branding-openSUSE
@@ -1025,7 +1030,6 @@ konqueror-plugins-lang
 konsole
 kontact
 konversation
-kopete
 korganizer
 kpackagekit
 kpartx
@@ -1181,7 +1185,7 @@ libburn4
 libbz2-1
 libbz2-1-32bit
 libbz2-devel
-libcaca
+libcaca0
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
@@ -1202,13 +1206,11 @@ libcares2
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
-libcdio10
-libcdio_cdda0
-libcdio_paranoia0
 libcelt0-1
 libchamplain-0_8-0
 libcheese-gtk18
 libchewing
+libcloog0
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
 libcolorblind0
@@ -1245,7 +1247,6 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libeXosip2-4
 libebackend-1_2-0
 libebl1
 libebook-1_2-10
@@ -1277,9 +1278,6 @@ libexpat1-32bit
 libext2fs-devel
 libext2fs2
 libffi43
-libfm
-libfm-gtk0
-libfm0
 libfolks-telepathy1
 libfolks1
 libfprint0
@@ -1289,7 +1287,6 @@ libfreebl3-32bit
 libfreetype6
 libfreetype6-32bit
 libfuse2
-libgadu3
 libgail-gnome
 libgail-gnome-32bit
 libgail-gnome-devel
@@ -1434,7 +1431,6 @@ libgtop-devel
 libgucharmap7
 libgudev-1_0-0
 libgupnp-1_0-3
-libgupnp-dlna-1_0-2
 libgupnp-igd-1_0-3
 libgvfscommon0
 libgvnc-1_0-0
@@ -1484,6 +1480,7 @@ libkdeedu4
 libkdegames4
 libkdepim4
 libkdepimlibs4
+libkdevplatform0
 libkexiv2-9
 libkexiv2-devel
 libkipi8
@@ -1533,7 +1530,6 @@ libmp3
 libmpc2
 libmpcdec5
 libmpfr4
-libmsn0_3
 libmtp-devel
 libmtp8
 libmusicbrainz-devel
@@ -1585,7 +1581,6 @@ liborc-0_4-0
 libosip2
 libosip2-devel
 libotf0
-libotr2
 libpackagekit-glib2-14
 libpackagekit-qt14
 libpanel-applet-2-0
@@ -1628,6 +1623,8 @@ libpoppler-qt4-devel
 libpoppler7
 libpopt0
 libpopt0-32bit
+libppl9
+libppl_c4
 libprotobuf6
 libproxy1
 libproxy1-config-gnome
@@ -1672,8 +1669,6 @@ librasqal-devel
 librasqal2
 libraw1394-11
 libraw1394-devel
-librcc0
-librcd0
 libreadline6
 libredland-devel
 libredland0
@@ -1840,7 +1835,9 @@ libv4l2-0
 libv4lconvert0
 libvala-0_10-0
 libvdpau1
+libvirt
 libvirt-client
+libvirt-python
 libvisual
 libvisual-devel
 libvmtools0
@@ -1906,7 +1903,6 @@ limal-nfs-server
 limal-nfs-server-perl
 limal-perl
 link-grammar
-linphone
 linux-glibc-devel
 linux32
 lirc
@@ -1916,7 +1912,6 @@ lockdev
 log4j-mini
 login
 logrotate
-lokalize
 lomoco
 loudmouth-devel
 lsb-release
@@ -2100,7 +2095,9 @@ obconf
 obex-data-server
 obexd
 ocaml-facile
+okteta
 okular
+open-iscsi
 open-vm-tools
 open-vm-tools-gui
 openSUSE-build-key
@@ -2133,8 +2130,8 @@ orbit2-32bit
 orbit2-devel
 orca
 oro
+oxygen-gtk
 oxygen-icon-theme
-oxygen-molecule
 p7zip
 pam
 pam-32bit
@@ -2254,8 +2251,6 @@ pavucontrol
 pax
 pciutils
 pciutils-ids
-pcmanfm
-pcmanfm-lang
 pcmciautils
 pcre-devel
 perl
@@ -2342,7 +2337,6 @@ perl-XML-XPath
 perl-YAML-Syck
 perl-apparmor
 perl-base
-perl-doc
 perl-gettext
 perl-ldap
 perl-libwww-perl
@@ -2352,6 +2346,7 @@ perlref
 permissions
 phalanx
 phonon
+phonon-backend-gstreamer-0_10
 phonon-backend-xine
 phonon-devel
 php5
@@ -2451,12 +2446,12 @@ python-gobject
 python-gobject-cairo
 python-gstreamer-0_10
 python-gtk
+python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-gtop
 python-httplib2
 python-kde4
-python-kdebase4
 python-libproxy
 python-louis
 python-lxml
@@ -2480,6 +2475,7 @@ python-smbc
 python-telepathy
 python-totem
 python-urlgrabber
+python-vte
 python-wnck
 python-xdg
 python-xlib
@@ -2498,7 +2494,6 @@ raptor
 rarian
 rarpd
 raw-thumbnailer
-rcc-runtime
 rcs
 rdesktop
 re2c
@@ -2717,6 +2712,7 @@ ttf-wqy-zenhei
 tumbler
 udev
 udev-configure-printer
+udhcp
 udisks
 uim
 ulimit
@@ -2743,6 +2739,7 @@ vim-base
 vim-data
 vinagre
 vino
+virt-manager
 virt-utils
 virt-viewer
 virtualbox
@@ -2757,6 +2754,7 @@ virtuoso-drivers
 virtuoso-server
 vlan
 vlgothic
+vm-install
 vmware-guest-kmp-default
 vmware-guest-kmp-desktop
 vorbis-tools

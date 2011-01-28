@@ -139,8 +139,6 @@ gdbm
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
-gfxboot
-gfxboot-branding-openSUSE
 ggz
 ggz-client-libs
 ghostscript-fonts-std
@@ -324,6 +322,7 @@ libcap-ng0
 libcap2
 libcdda_interface0
 libcdda_paranoia0
+libcloog0
 libcom_err2
 libcrack2
 libcryptsetup1
@@ -338,7 +337,6 @@ libdjvulibre21
 libdrm
 libdw1
 libelf1
-libenca0
 libenchant1
 libepub0
 liberation-fonts
@@ -360,6 +358,7 @@ libgio-fam
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
+libgmpxx4
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
@@ -452,6 +451,8 @@ libpolkit0
 libpoppler-qt4-3
 libpoppler7
 libpopt0
+libppl9
+libppl_c4
 libproxy1
 libproxy1-config-gnome
 libproxy1-config-kde4
@@ -475,8 +476,6 @@ libqt4-x11
 libraptor1
 librasqal2
 libraw1394-11
-librcc0
-librcd0
 libreadline6
 libredland0
 libreiserfs
@@ -562,7 +561,6 @@ mozilla-nss
 mozilla-nss-certs
 mozilla-xulrunner20
 mozilla-xulrunner20-gnome
-mtools
 multipath-tools
 mysql-community-server
 mysql-community-server-client
@@ -589,7 +587,7 @@ openssl
 opensuse-codecs-installer
 openvpn
 orbit2
-oxygen-molecule
+oxygen-gtk
 pam
 pam-config
 pam-modules
@@ -601,17 +599,13 @@ pciutils-ids
 perl
 perl-Bootloader
 perl-Config-Crontab
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
-perl-HTML-Parser
-perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
-perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -622,7 +616,6 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
-perl-libwww-perl
 permissions
 phonon
 phonon-backend-gstreamer-0_10
@@ -660,14 +653,12 @@ pwdutils
 python
 python-base
 python-kde4
-python-kdebase4
 python-qt4
 python-satsolver
 python-simplejson
 python-sip
 python-urlgrabber
 python-xml
-rcc-runtime
 recode
 release-notes-openSUSE
 rpcbind
