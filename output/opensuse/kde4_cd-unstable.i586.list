@@ -151,6 +151,8 @@ gdbm
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
+gfxboot
+gfxboot-branding-upstream
 ggz
 ggz-client-libs
 ggz-client-libs-lang
@@ -191,8 +193,6 @@ htdig
 hunspell
 hunspell-tools
 hwinfo
-hxtools
-hxtools-data
 icedax
 icewm
 icewm-lite
@@ -608,6 +608,7 @@ mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
 mpt-firmware
+mtools
 multipath-tools
 mysql-community-server
 mysql-community-server-client
@@ -680,13 +681,17 @@ pcmciautils
 perl
 perl-Bootloader
 perl-Config-Crontab
+perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
+perl-HTML-Parser
+perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
+perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -698,6 +703,7 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
+perl-libwww-perl
 permissions
 phonon
 phonon-backend-gstreamer-0_10
@@ -738,6 +744,7 @@ pwdutils
 python
 python-base
 python-kde4
+python-kdebase4
 python-qt4
 python-satsolver
 python-simplejson
@@ -791,7 +798,6 @@ taglib
 tar
 tcpd
 terminfo-base
-tightvnc
 timezone
 translation-update
 udev
@@ -840,7 +846,6 @@ xfsprogs
 xinetd
 xkeyboard-config
 xorg-x11
-xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy

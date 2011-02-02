@@ -20,8 +20,6 @@ NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
 NetworkManager-vpnc-lang
-OpenOffice_org-templates-labels-a4
-OpenOffice_org-templates-labels-letter
 PackageKit
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
@@ -171,6 +169,8 @@ gdk-pixbuf-query-loaders
 gegl-0_1
 genisoimage
 gettext-runtime
+gfxboot
+gfxboot-branding-openSUSE
 ggz
 ggz-client-libs
 ghostscript-fonts-rus
@@ -216,8 +216,6 @@ htdig
 hunspell
 hunspell-tools
 hwinfo
-hxtools
-hxtools-data
 icedax
 icewm
 icewm-lite
@@ -574,6 +572,7 @@ libreoffice-components
 libreoffice-draw
 libreoffice-filters
 libreoffice-help-en-US
+libreoffice-hyphen
 libreoffice-icon-theme-oxygen
 libreoffice-impress
 libreoffice-kde4
@@ -583,6 +582,14 @@ libreoffice-l10n-ru
 libreoffice-libs-core
 libreoffice-libs-extern
 libreoffice-libs-gui
+libreoffice-templates-de
+libreoffice-templates-en
+libreoffice-templates-labels-a4
+libreoffice-templates-labels-letter
+libreoffice-templates-ru
+libreoffice-thesaurus-de
+libreoffice-thesaurus-en-US
+libreoffice-thesaurus-ru
 libreoffice-ure
 libreoffice-writer
 librsvg-2-2
@@ -686,6 +693,7 @@ mozilla-xulrunner20
 mozilla-xulrunner20-gnome
 mozilla-xulrunner20-translations-common
 mpt-firmware
+mtools
 multipath-tools
 myspell-american
 mysql-community-server
@@ -764,13 +772,17 @@ pcmciautils
 perl
 perl-Bootloader
 perl-Config-Crontab
+perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
+perl-HTML-Parser
+perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
+perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -782,6 +794,7 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
+perl-libwww-perl
 permissions
 phonon
 phonon-backend-gstreamer-0_10
@@ -828,6 +841,7 @@ python-gobject
 python-gobject-cairo
 python-gtk
 python-kde4
+python-kdebase4
 python-numpy
 python-qt4
 python-satsolver
@@ -887,7 +901,6 @@ tar
 tcpd
 terminfo-base
 terminus-font
-tightvnc
 timezone
 translation-update
 translation-update-de
@@ -942,7 +955,6 @@ xfsprogs
 xinetd
 xkeyboard-config
 xorg-x11
-xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-intel-legacy

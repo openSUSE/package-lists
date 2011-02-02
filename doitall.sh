@@ -91,7 +91,10 @@ echo "<<<"
 
 ./mk_group.sh output/opensuse/promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group only_i586
 ./mk_group.sh output/opensuse/promo_dvd.x86_64.list REST-DVD-promo-x86_64 osc/openSUSE\:Factory/_product/DVD5-promo-x86_64.group only_x86_64
-./mk_group.sh output/opensuse/langaddon-all.list REST-DVD osc/openSUSE\:Factory/_product/DVD5-lang.group
+
+./mk_group.sh output/opensuse/langaddon.i586.list REST-DVD-i586 osc/openSUSE\:Factory/_product/DVD5-lang-i586.group only_i586
+./mk_group.sh output/opensuse/langaddon.x86_64.list REST-DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-lang-x86_64.group only_x86_64
+
 ( cd osc/openSUSE\:Factory/_product/ && osc ci -m "auto update" )
 
 ./mk_group.sh output/opensuse/x11_cd.x86_64.list DVD osc/system:install:head/_product/DVD.group

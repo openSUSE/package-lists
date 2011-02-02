@@ -88,6 +88,7 @@ dconf
 dejavu
 desktop-file-utils
 desktop-translations
+device-mapper
 diffutils
 dirmngr
 edict
@@ -143,6 +144,8 @@ gtk2-metatheme-sonar
 gtk2-tools
 gtkiterm
 gvfs
+gvfs-backend-afc
+gvfs-backends
 gvfs-fuse
 gzip
 handedict
@@ -166,6 +169,7 @@ libarchive2
 libart_lgpl_2-2
 libasound2
 libassuan0
+libatasmart4
 libatk-1_0-0
 libattr
 libaudit1
@@ -173,6 +177,7 @@ libavahi-client3
 libavahi-common3
 libavahi-glib1
 libblkid1
+libbluetooth3
 libbonobo
 libbonoboui
 libbz2-1
@@ -185,6 +190,9 @@ libcap-ng0
 libcap2
 libcdda_interface0
 libcdda_paranoia0
+libcdio10
+libcdio_cdda0
+libcdio_paranoia0
 libchewing
 libcom_err2
 libcrack2
@@ -193,6 +201,7 @@ libdb-4_8
 libdconf0
 libelf1
 liberation-fonts
+libexif12
 libexpat1
 libfreetype6
 libfuse2
@@ -200,6 +209,7 @@ libgcc45
 libgcr0
 libgcrypt11
 libgdk_pixbuf-2_0-0
+libgdu0
 libgimpprint
 libgio-2_0-0
 libgio-fam
@@ -215,6 +225,7 @@ libgobject-2_0-0
 libgp11-0
 libgp11-modules
 libgpg-error0
+libgphoto2
 libgssglue1
 libgstapp-0_10-0
 libgstinterfaces-0_10-0
@@ -224,12 +235,14 @@ libgtk-2_0-0
 libgudev-1_0-0
 libgvfscommon0
 libidn
+libimobiledevice1
 libiterm
 libjasper1
 libjpeg62
 libksba
 liblcms1
 libldap-2_4-2
+liblockdev1
 libltdl7
 liblua5_1
 liblzma5
@@ -238,14 +251,17 @@ libmount1
 libncurses5
 libnscd
 libogg0
+libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
 libotf0
 libpackagekit-glib2-14
 libpanel-applet-2-0
 libpango-1_0-0
+libparted0
 libpcre0
 libpixman-1-0
+libplist1
 libpng14-14
 libpolkit0
 libpopt0
@@ -256,9 +272,12 @@ libpth20
 libpulse0
 libpython2_7-1_0
 libreadline6
+libreiserfs
 libselinux1
+libsepol1
 libsmbclient0
 libsndfile
+libsoup-2_4-1
 libsqlite3-0
 libssh2-1
 libstdc++45
@@ -271,6 +290,7 @@ libtomoe-gtk0
 libudev0
 libusb-0_1-4
 libusb-1_0-0
+libusbmuxd1
 libuuid1
 libvisual
 libvorbis0
@@ -282,6 +302,7 @@ libxml2
 libzio
 libzypp
 licenses
+lockdev
 login
 logrotate
 lv
@@ -298,6 +319,7 @@ ncurses-utils
 net-tools
 netcfg
 nkf
+obex-data-server
 openSUSE-release
 openSUSE-release-dvd
 openssl
@@ -342,6 +364,7 @@ scim-tables-zh
 scim-tomoe
 scim-uim
 sed
+sg3_utils
 shared-mime-info
 sil-charis
 sil-doulos
@@ -365,8 +388,10 @@ ttf-arphic-ukai
 ttf-arphic-uming
 ttf-wqy-zenhei
 udev
+udisks
 uim
 update-alternatives
+usbmuxd
 utempter
 util-linux
 vlgothic
