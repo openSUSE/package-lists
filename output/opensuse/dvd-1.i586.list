@@ -394,6 +394,7 @@ circuslinux
 clamav
 claws-mail
 clicfs
+clisp
 cln
 clucene-core
 clucene-core-devel
@@ -610,6 +611,7 @@ g3utils
 galculator
 gawk
 gbrainy
+gbrainy-lang
 gc
 gcal
 gcalctool
@@ -889,8 +891,6 @@ guile-devel
 gutenprint
 gv
 gvfs
-gvfs-backend-afc
-gvfs-backends
 gvfs-devel
 gvfs-fuse
 gvim
@@ -915,6 +915,8 @@ html2text
 hunspell
 hunspell-tools
 hwinfo
+hxtools
+hxtools-data
 hylafax
 hylafax-client
 i4l-base
@@ -948,6 +950,7 @@ inkscape-extensions-dia
 inkscape-extensions-extra
 inkscape-extensions-fig
 inkscape-extensions-gimp
+inkscape-lang
 inn
 input-utils
 insserv
@@ -1165,7 +1168,11 @@ kdepim4-runtime
 kdepim4-runtime-devel
 kdepim4-wizards
 kdepimlibs4
-kdesdk4
+kdevelop4
+kdevelop4-lang
+kdevelop4-plugins-php
+kdevplatform
+kdevplatform-lang
 kdf
 kdialog
 kdiamond
@@ -1248,6 +1255,7 @@ knotes
 koffice2
 koffice2-kplato
 koffice2-kpresenter
+koffice2-krita
 koffice2-l10n-da
 koffice2-l10n-da-doc
 koffice2-l10n-de
@@ -1288,7 +1296,6 @@ konquest
 konsole
 kontact
 konversation
-kopete
 korganizer
 kpackagekit
 kpartx
@@ -1461,7 +1468,7 @@ libburn4
 libbz2-1
 libbz2-devel
 libc-client2007e_suse
-libcaca
+libcaca0
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
@@ -1478,14 +1485,11 @@ libcares2
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
-libcddb2
-libcdio10
-libcdio_cdda0
-libcdio_paranoia0
 libcelt0-1
 libchamplain-0_8-0
 libcheese-gtk18
 libchewing
+libcloog0
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
 libcolorblind0
@@ -1523,7 +1527,6 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libeXosip2-4
 libebackend-1_2-0
 libebl1
 libebook-1_2-10
@@ -1555,9 +1558,6 @@ libexpat1
 libext2fs-devel
 libext2fs2
 libffi43
-libfm
-libfm-gtk0
-libfm0
 libfolks-telepathy1
 libfolks1
 libfprint0
@@ -1565,7 +1565,6 @@ libfreebl3
 libfreetype6
 libftgl2
 libfuse2
-libgadu3
 libgail-gnome
 libgail-gnome-devel
 libgarcon-1-0
@@ -1699,7 +1698,6 @@ libgtop-devel
 libgucharmap7
 libgudev-1_0-0
 libgupnp-1_0-3
-libgupnp-dlna-1_0-2
 libgupnp-igd-1_0-3
 libgvfscommon0
 libgvnc-1_0-0
@@ -1751,6 +1749,7 @@ libkdepim4
 libkdepim4-devel
 libkdepimlibs4
 libkdepimlibs4-devel
+libkdevplatform0
 libkexiv2-9
 libkexiv2-devel
 libkipi-devel
@@ -1805,7 +1804,6 @@ libmpc2
 libmpcdec5
 libmpd1
 libmpfr4
-libmsn0_3
 libmspack0
 libmtp-devel
 libmtp8
@@ -1858,7 +1856,6 @@ liborc-0_4-0
 libosip2
 libosip2-devel
 libotf0
-libotr2
 libpacemaker3
 libpackagekit-glib2-14
 libpackagekit-qt14
@@ -1898,6 +1895,8 @@ libpoppler-qt4-3
 libpoppler-qt4-devel
 libpoppler7
 libpopt0
+libppl9
+libppl_c4
 libprotobuf6
 libproxy1
 libproxy1-config-gnome
@@ -1944,8 +1943,6 @@ librasqal-devel
 librasqal2
 libraw1394-11
 libraw1394-devel
-librcc0
-librcd0
 librcps0
 libreadline6
 libredland-devel
@@ -2115,7 +2112,9 @@ libv4l2-0
 libv4lconvert0
 libvala-0_10-0
 libvdpau1
+libvirt
 libvirt-client
+libvirt-python
 libvisual
 libvisual-devel
 libvmtools0
@@ -2182,7 +2181,6 @@ limal-nfs-server-perl
 limal-perl
 link-grammar
 links
-linphone
 linux-glibc-devel
 lirc
 lirc-remotes
@@ -2191,7 +2189,6 @@ lockdev
 log4j
 login
 logrotate
-lokalize
 lomoco
 loudmouth-devel
 lsb-release
@@ -2454,9 +2451,9 @@ orbit2
 orbit2-devel
 orca
 oro
+oxygen-gtk
 oxygen-icon-theme
 oxygen-icon-theme-scalable
-oxygen-molecule
 p7zip
 pacemaker
 pam
@@ -2579,8 +2576,6 @@ pax
 pbm2l7k
 pciutils
 pciutils-ids
-pcmanfm
-pcmanfm-lang
 pcmciautils
 pcre-devel
 pdfmod
@@ -2664,6 +2659,8 @@ perl-GD-Graph3d
 perl-GDGraph
 perl-GDTextUtil
 perl-Getopt-Mixed
+perl-Glib
+perl-Gtk2
 perl-HTML-Clean
 perl-HTML-FillInForm
 perl-HTML-Format
@@ -2721,6 +2718,7 @@ perl-NetAddr-IP
 perl-NetxAP
 perl-PDA-Pilot
 perl-PDL
+perl-Pango
 perl-Params-Util
 perl-Params-Validate
 perl-Parse-RecDescent
@@ -2785,7 +2783,6 @@ perl-YAML
 perl-YAML-Syck
 perl-apparmor
 perl-base
-perl-doc
 perl-gettext
 perl-ldap
 perl-ldap-ssl
@@ -2974,13 +2971,13 @@ python-goocanvas
 python-gstreamer-0_10
 python-gtk
 python-gtk-devel
+python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-gtop
 python-httplib2
 python-imaging
 python-kde4
-python-kdebase4
 python-ldap
 python-libproxy
 python-logilab-astng
@@ -3021,6 +3018,7 @@ python-totem
 python-twisted
 python-twisted-doc
 python-urlgrabber
+python-vte
 python-webkitgtk
 python-wnck
 python-xdg
@@ -3047,7 +3045,6 @@ raptor
 rarian
 rarpd
 raw-thumbnailer
-rcc-runtime
 rcs
 rdesktop
 re2c
@@ -3056,6 +3053,7 @@ readline-doc
 recode
 regexp
 reiserfs
+rekonq
 release-notes-openSUSE
 resource-agents
 rhino
@@ -3355,6 +3353,7 @@ tv-common
 tv-fonts
 udev
 udev-configure-printer
+udhcp
 udisks
 ufraw
 ufraw-lang
@@ -3400,6 +3399,7 @@ vim-base
 vim-data
 vinagre
 vino
+virt-manager
 virt-utils
 virt-viewer
 virtualbox
@@ -3415,6 +3415,7 @@ virtuoso-server
 vlan
 vlgothic
 vlock
+vm-install
 vmware-guest-kmp-default
 vmware-guest-kmp-desktop
 vobject
@@ -3496,7 +3497,6 @@ xfce4-notifyd-branding-openSUSE
 xfce4-panel
 xfce4-panel-branding-openSUSE
 xfce4-panel-plugin-battery
-xfce4-panel-plugin-cddrive
 xfce4-panel-plugin-cellmodem
 xfce4-panel-plugin-clipman
 xfce4-panel-plugin-cpufreq
@@ -3545,6 +3545,8 @@ xfsprogs
 xfwm4
 xfwm4-themes
 xhtml-dtd
+xindy
+xindy-rules
 xine-ui
 xinetd
 xiterm

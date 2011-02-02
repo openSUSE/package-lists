@@ -518,6 +518,7 @@ clamav
 claws-mail
 claws-mail-lang
 clicfs
+clisp
 cln
 clucene-core
 clucene-core-devel
@@ -776,6 +777,7 @@ g3utils
 galculator
 gawk
 gbrainy
+gbrainy-lang
 gc
 gcal
 gcalctool
@@ -1165,8 +1167,6 @@ guile-devel
 gutenprint
 gv
 gvfs
-gvfs-backend-afc
-gvfs-backends
 gvfs-devel
 gvfs-fuse
 gvfs-lang
@@ -1195,6 +1195,8 @@ html2text
 hunspell
 hunspell-tools
 hwinfo
+hxtools
+hxtools-data
 hylafax
 hylafax-client
 i4l-base
@@ -1258,6 +1260,7 @@ iscan-free
 isns
 iso-codes
 iso-codes-devel
+iso-codes-lang
 iso_ent
 ispell
 ispell-american
@@ -1476,7 +1479,11 @@ kdepim4-runtime
 kdepim4-runtime-devel
 kdepim4-wizards
 kdepimlibs4
-kdesdk4
+kdevelop4
+kdevelop4-lang
+kdevelop4-plugins-php
+kdevplatform
+kdevplatform-lang
 kdf
 kdialog
 kdiamond
@@ -1559,6 +1566,7 @@ knotes
 koffice2
 koffice2-kplato
 koffice2-kpresenter
+koffice2-krita
 koffice2-l10n-ca
 koffice2-l10n-ca-doc
 koffice2-l10n-da
@@ -1611,7 +1619,6 @@ konsole
 kontact
 konversation
 konversation-lang
-kopete
 korganizer
 kpackagekit
 kpackagekit-lang
@@ -1814,7 +1821,7 @@ libbz2-1
 libbz2-1-32bit
 libbz2-devel
 libc-client2007e_suse
-libcaca
+libcaca0
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
@@ -1838,14 +1845,11 @@ libcdda_interface0
 libcdda_interface0-32bit
 libcdda_paranoia0
 libcdda_paranoia0-32bit
-libcddb2
-libcdio10
-libcdio_cdda0
-libcdio_paranoia0
 libcelt0-1
 libchamplain-0_8-0
 libcheese-gtk18
 libchewing
+libcloog0
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
 libcolorblind0
@@ -1888,7 +1892,6 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libeXosip2-4
 libebackend-1_2-0
 libebl1
 libebook-1_2-10
@@ -1925,9 +1928,6 @@ libexpat1-32bit
 libext2fs-devel
 libext2fs2
 libffi43
-libfm
-libfm-gtk0
-libfm0
 libfolks-telepathy1
 libfolks1
 libfprint0
@@ -1938,7 +1938,6 @@ libfreetype6
 libfreetype6-32bit
 libftgl2
 libfuse2
-libgadu3
 libgail-gnome
 libgail-gnome-32bit
 libgail-gnome-devel
@@ -2118,7 +2117,6 @@ libgucharmap7
 libgudev-1_0-0
 libgudev-1_0-0-32bit
 libgupnp-1_0-3
-libgupnp-dlna-1_0-2
 libgupnp-igd-1_0-3
 libgvfscommon0
 libgvnc-1_0-0
@@ -2178,6 +2176,7 @@ libkdepim4
 libkdepim4-devel
 libkdepimlibs4
 libkdepimlibs4-devel
+libkdevplatform0
 libkexiv2-9
 libkexiv2-devel
 libkipi-devel
@@ -2244,7 +2243,6 @@ libmpcdec5
 libmpd1
 libmpfr4
 libmpfr4-32bit
-libmsn0_3
 libmspack0
 libmtp-devel
 libmtp8
@@ -2311,7 +2309,6 @@ liborc-0_4-0-32bit
 libosip2
 libosip2-devel
 libotf0
-libotr2
 libpacemaker3
 libpackagekit-glib2-14
 libpackagekit-qt14
@@ -2359,6 +2356,8 @@ libpoppler-qt4-devel
 libpoppler7
 libpopt0
 libpopt0-32bit
+libppl9
+libppl_c4
 libprotobuf6
 libproxy1
 libproxy1-32bit
@@ -2417,8 +2416,6 @@ libraw1394-11
 libraw1394-11-32bit
 libraw1394-devel
 libraw1394-devel-32bit
-librcc0
-librcd0
 librcps0
 libreadline6
 libreadline6-32bit
@@ -2653,7 +2650,9 @@ libv4lconvert0
 libv4lconvert0-32bit
 libvala-0_10-0
 libvdpau1
+libvirt
 libvirt-client
+libvirt-python
 libvisual
 libvisual-32bit
 libvisual-devel
@@ -2737,7 +2736,6 @@ limal-nfs-server-perl
 limal-perl
 link-grammar
 links
-linphone
 linux-glibc-devel
 linux32
 lirc
@@ -2748,7 +2746,6 @@ log4j
 login
 login-lang
 logrotate
-lokalize
 lomoco
 loudmouth-devel
 lsb-release
@@ -3117,9 +3114,10 @@ orbit2-devel
 orca
 orca-lang
 oro
+oxygen-gtk
+oxygen-gtk-32bit
 oxygen-icon-theme
 oxygen-icon-theme-scalable
-oxygen-molecule
 p7zip
 pacemaker
 pam
@@ -3255,8 +3253,6 @@ pbm2l7k
 pciutils
 pciutils-32bit
 pciutils-ids
-pcmanfm
-pcmanfm-lang
 pcmciautils
 pcre-devel
 pdfmod
@@ -3341,6 +3337,8 @@ perl-GD-Graph3d
 perl-GDGraph
 perl-GDTextUtil
 perl-Getopt-Mixed
+perl-Glib
+perl-Gtk2
 perl-HTML-Clean
 perl-HTML-FillInForm
 perl-HTML-Format
@@ -3398,6 +3396,7 @@ perl-NetAddr-IP
 perl-NetxAP
 perl-PDA-Pilot
 perl-PDL
+perl-Pango
 perl-Params-Util
 perl-Params-Validate
 perl-Parse-RecDescent
@@ -3463,7 +3462,6 @@ perl-YAML-Syck
 perl-apparmor
 perl-base
 perl-base-32bit
-perl-doc
 perl-gettext
 perl-ldap
 perl-ldap-ssl
@@ -3657,13 +3655,13 @@ python-goocanvas
 python-gstreamer-0_10
 python-gtk
 python-gtk-devel
+python-gtk-vnc
 python-gtkglext
 python-gtksourceview
 python-gtop
 python-httplib2
 python-imaging
 python-kde4
-python-kdebase4
 python-ldap
 python-libproxy
 python-louis
@@ -3699,6 +3697,7 @@ python-totem
 python-twisted
 python-twisted-doc
 python-urlgrabber
+python-vte
 python-webkitgtk
 python-wnck
 python-xdg
@@ -3725,7 +3724,6 @@ raptor
 rarian
 rarpd
 raw-thumbnailer
-rcc-runtime
 rcs
 rdesktop
 re2c
@@ -3734,6 +3732,7 @@ readline-doc
 recode
 regexp
 reiserfs
+rekonq
 release-notes-openSUSE
 resource-agents
 rhino
@@ -4078,6 +4077,7 @@ tv-common
 tv-fonts
 udev
 udev-configure-printer
+udhcp
 udisks
 ufraw
 ufraw-lang
@@ -4127,6 +4127,7 @@ vinagre
 vinagre-lang
 vino
 vino-lang
+virt-manager
 virt-utils
 virt-viewer
 virtualbox
@@ -4142,6 +4143,7 @@ virtuoso-server
 vlan
 vlgothic
 vlock
+vm-install
 vmware-guest-kmp-default
 vmware-guest-kmp-desktop
 vobject
@@ -4228,7 +4230,6 @@ xfce4-notifyd-branding-openSUSE
 xfce4-panel
 xfce4-panel-branding-openSUSE
 xfce4-panel-plugin-battery
-xfce4-panel-plugin-cddrive
 xfce4-panel-plugin-cellmodem
 xfce4-panel-plugin-clipman
 xfce4-panel-plugin-cpufreq
@@ -4279,6 +4280,8 @@ xfsprogs
 xfwm4
 xfwm4-themes
 xhtml-dtd
+xindy
+xindy-rules
 xine-ui
 xine-ui-32bit
 xinetd
