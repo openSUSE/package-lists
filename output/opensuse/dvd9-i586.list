@@ -46,8 +46,6 @@ NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
 NetworkManager-vpnc-lang
 OpenIPMI
-OpenOffice_org-templates-presentation-layouts
-OpenOffice_org-voikko
 PackageKit
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
@@ -58,6 +56,7 @@ PolicyKit
 PolicyKit-devel
 PolicyKit-doc
 PolicyKit-gnome
+PolicyKit-gnome-lang
 SuSEfirewall2
 TeX-Guy
 Terminal
@@ -77,6 +76,7 @@ abcde
 abiword
 abiword-docs
 accerciser
+accerciser-lang
 acl
 acpica
 acpid
@@ -149,6 +149,7 @@ apport-crashdb-opensuse
 apport-gtk
 apport-qt
 aqbanking
+aqbanking-lang
 aria2
 ark
 armagetron
@@ -372,6 +373,7 @@ circuslinux
 clamav
 classpathx-mail-javadoc
 claws-mail
+claws-mail-lang
 clicfs
 clisp
 cln
@@ -390,6 +392,7 @@ compiz-kde4
 compiz-manager
 compiz-plugins-main
 conduit
+conduit-lang
 convert
 coreutils
 corosync
@@ -446,17 +449,20 @@ ddd
 ddrescue
 ddskk
 deja-dup
+deja-dup-lang
 dejagnu
 dejavu
 delayacct-utils
 deltarpm
 deskbar-applet
+deskbar-applet-lang
 desktop-data-openSUSE
 desktop-data-openSUSE-extra
 desktop-file-utils
 desktop-translations
 devhelp
 devhelp-devel
+devhelp-lang
 device-mapper
 dhcp
 dhcp-client
@@ -466,6 +472,7 @@ dhcp-tools
 dhcpcd
 dhcpv6
 dia
+dia-lang
 dialog
 diffstat
 diffutils
@@ -507,6 +514,7 @@ edict
 efont-unicode
 eject
 ekiga
+ekiga-lang
 elfutils
 emacs
 emacs-info
@@ -518,11 +526,14 @@ enchant-voikko
 enscript
 eog
 eog-plugins
+eog-plugins-lang
 epdfview
 epiphany
 epiphany-branding-openSUSE
 epiphany-devel
 epiphany-extensions
+epiphany-extensions-lang
+epiphany-lang
 eric
 espeak
 ethtool
@@ -633,10 +644,12 @@ gdk-pixbuf-devel
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gdl-lang
 gdm
 gdm-branding-openSUSE
 gedit
 gedit-plugins
+gedit-plugins-lang
 gegl-0_1
 genisoimage
 geoclue
@@ -650,6 +663,7 @@ gettext-runtime
 gettext-tools
 gftp
 gftp-common
+gftp-common-lang
 gfxboot
 gfxboot-branding-openSUSE
 gfxboot-devel
@@ -657,6 +671,7 @@ ggz
 ggz-client-libs
 ggz-client-libs-devel
 ghex
+ghex-lang
 ghostscript-cjk
 ghostscript-fonts-other
 ghostscript-fonts-rus
@@ -666,6 +681,7 @@ ghostscript-x11
 giflib
 giflib-devel
 giggle
+giggle-lang
 gimp
 gimp-branding-openSUSE
 gimp-help
@@ -698,12 +714,14 @@ gitk
 gjdoc
 gjiten
 glabels
+glabels-lang
 glade-sharp2
 glade3
 glade3-catalog-evolution
 glade3-catalog-gnome-media-profiles
 glade3-catalog-gtksourceview
 glade3-catalog-vte
+glade3-lang
 glchess
 glib-networking
 glib-sharp2
@@ -715,12 +733,16 @@ glibc-devel
 glibc-info
 glibc-locale
 glines
+glines-lang
 gmime-2_4-sharp
 gmixer
 gmp-devel
 gnect
+gnect-lang
 gnibbles
+gnibbles-lang
 gnobots2
+gnobots2-lang
 gnokii
 gnome-about
 gnome-applets
@@ -738,8 +760,10 @@ gnome-control-center-devel
 gnome-desktop-sharp2
 gnome-desktop2
 gnome-devel-docs
+gnome-devel-docs-lang
 gnome-disk-utility
 gnome-do
+gnome-do-lang
 gnome-do-plugins
 gnome-do-plugins-lang
 gnome-doc-utils
@@ -773,6 +797,7 @@ gnome-panel-sharp
 gnome-phone-manager
 gnome-pilot
 gnome-pilot-devel
+gnome-pilot-lang
 gnome-power-manager
 gnome-print-sharp
 gnome-python-desktop
@@ -799,7 +824,9 @@ gnome-vfs2-doc
 gnome-web-photo
 gnomine
 gnotravex
+gnotravex-lang
 gnotski
+gnotski-lang
 gnu-jaf
 gnu-regexp
 gnucash
@@ -807,9 +834,12 @@ gnucash-docs
 gnucash-lang
 gnuchess
 gnumeric
+gnumeric-lang
 gnutls
 gob2
 goffice
+goffice-lang
+goocanvas-lang
 google-gadgets
 google-gadgets-devel
 google-gadgets-gtk
@@ -844,8 +874,11 @@ gstreamer-0_10-plugins-good-extra
 gstreamer-0_10-utils
 gstreamer-utils
 gsynaptics
+gsynaptics-lang
 gtali
+gtali-lang
 gtg
+gtg-lang
 gthumb
 gthumb-lang
 gtk-doc
@@ -854,6 +887,7 @@ gtk-sharp2
 gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
+gtk-vnc-lang
 gtk-xfce-engine
 gtk2-branding-openSUSE
 gtk2-data
@@ -888,6 +922,7 @@ gvim
 gwenhywfar-lang
 gwenview
 gwibber
+gwibber-lang
 gzip
 hal
 hamcrest
@@ -1476,6 +1511,7 @@ libbrasero-burn1
 libbrasero-media1
 libbrlapi0_5
 libbtctl-devel
+libbtctl-lang
 libbtctl6
 libburn4
 libbz2-1
@@ -1497,7 +1533,6 @@ libcap2
 libcares2
 libcdda_interface0
 libcdda_paranoia0
-libcddb2
 libcdio10
 libcdio_cdda0
 libcdio_paranoia0
@@ -1600,10 +1635,12 @@ libgcrypt11
 libgda-3_0-3
 libgda-3_0-devel
 libgda-4_0-4
+libgda-4_0-4-lang
 libgda-4_0-bdb
 libgda-4_0-sqlite
 libgda-ui-4_0-4
 libgda-ui-4_0-plugins
+libgda3-lang
 libgdata7
 libgdict-1_0-6
 libgdiplus0
@@ -1816,7 +1853,6 @@ libmount1
 libmp3
 libmpc2
 libmpcdec5
-libmpd1
 libmpfr4
 libmsn0_3
 libmspack0
@@ -2045,6 +2081,7 @@ libreoffice-templates-de
 libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
+libreoffice-templates-presentation-layouts
 libreoffice-templates-ru
 libreoffice-thesaurus-cs
 libreoffice-thesaurus-da
@@ -2061,6 +2098,7 @@ libreoffice-thesaurus-pt
 libreoffice-thesaurus-ru
 libreoffice-thesaurus-sv
 libreoffice-ure
+libreoffice-voikko
 libreoffice-writer
 libreoffice-writer-extensions
 librsvg-2-2
@@ -2126,7 +2164,6 @@ libtelepathy-glib0
 libtelepathy-logger1
 libtevent0
 libtheora0
-libthunar-vfs-1-2
 libthunarx-2-0
 libtidy-0_99-0
 libtiff-devel
@@ -2280,6 +2317,7 @@ m2300w
 m4
 mahjongg
 mail-notification
+mail-notification-lang
 mailman
 mailx
 make
@@ -2421,6 +2459,7 @@ nautilus-sendto-plugin-evolution
 nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
 nautilus-share
+nautilus-share-lang
 nautilus-totem
 nbd
 nbd-doc
@@ -2434,6 +2473,7 @@ ndiswrapper
 ndiswrapper-kmp-default
 ndiswrapper-kmp-desktop
 nemiver
+nemiver-lang
 net-snmp
 net-snmp-devel
 net-tools
@@ -2533,6 +2573,7 @@ pam_ldap
 pam_mount
 pam_ssh
 pan
+pan-lang
 pango-devel
 pango-tools
 paprefs
@@ -2865,6 +2906,7 @@ perl-satsolver
 perlref
 permissions
 pessulus
+pessulus-lang
 pfscalibration
 pfstmo
 pfstools
@@ -2927,6 +2969,7 @@ pinentry-gtk2
 pinentry-qt4
 pinfo
 pino
+pino-lang
 pitivi
 pitivi-lang
 pkcs11-helper
@@ -2934,6 +2977,7 @@ pkg-config
 planner
 planner-devel
 planner-evolution
+planner-lang
 plasma-addons
 plasma-addons-marble
 plasma-theme-aya
@@ -3165,6 +3209,7 @@ rubygems
 rxvt-unicode
 rzsz
 sabayon
+sabayon-lang
 sablot
 samba
 samba-client
@@ -3204,6 +3249,7 @@ screen
 scribus
 scribus-templates
 scrollkeeper
+scrollkeeper-lang
 seahorse
 seahorse-plugins
 seamonkey
@@ -3233,6 +3279,7 @@ silc-toolkit
 simple-ccsm
 simple-ccsm-kde
 simple-scan
+simple-scan-lang
 skanlite
 skkdic
 slib
@@ -3253,6 +3300,7 @@ soprano
 soprano-backend-redland
 soprano-backend-virtuoso
 sound-juicer
+sound-juicer-lang
 sound-theme-freedesktop
 sox
 spamassassin
@@ -3369,8 +3417,6 @@ thunar
 thunar-archive-plugin
 thunar-lang
 thunar-thumbnailers
-thunar-vfs
-thunar-vfs-lang
 thunar-volman
 thunar-volman-lang
 tidy
@@ -3388,6 +3434,7 @@ tktable
 tls
 tmpwatch
 tomboy
+tomboy-lang
 tomcat6
 tomcat6-admin-webapps
 tomcat6-el-1_0-api
@@ -3429,6 +3476,7 @@ transmission-common
 transmission-gtk
 treeline
 tsclient
+tsclient-lang
 ttf-arphic
 ttf-arphic-bkai00mp
 ttf-arphic-bsmi00lp
@@ -3487,6 +3535,7 @@ vim
 vim-base
 vim-data
 vinagre
+vinagre-lang
 vino
 virt-manager
 virt-utils
@@ -3588,42 +3637,6 @@ xfce4-dev-tools
 xfce4-dict
 xfce4-dict-lang
 xfce4-mixer
-xfce4-notifyd
-xfce4-notifyd-branding-upstream
-xfce4-panel
-xfce4-panel-branding-upstream
-xfce4-panel-plugin-battery
-xfce4-panel-plugin-cddrive
-xfce4-panel-plugin-cellmodem
-xfce4-panel-plugin-clipman
-xfce4-panel-plugin-cpufreq
-xfce4-panel-plugin-cpugraph
-xfce4-panel-plugin-datetime
-xfce4-panel-plugin-diskperf
-xfce4-panel-plugin-eyes
-xfce4-panel-plugin-fsguard
-xfce4-panel-plugin-genmon
-xfce4-panel-plugin-governor
-xfce4-panel-plugin-mailwatch
-xfce4-panel-plugin-mount
-xfce4-panel-plugin-mpc
-xfce4-panel-plugin-netload
-xfce4-panel-plugin-notes
-xfce4-panel-plugin-places
-xfce4-panel-plugin-quicklauncher
-xfce4-panel-plugin-radio
-xfce4-panel-plugin-screenshooter
-xfce4-panel-plugin-sensors
-xfce4-panel-plugin-smartbookmark
-xfce4-panel-plugin-systemload
-xfce4-panel-plugin-timeout
-xfce4-panel-plugin-timer
-xfce4-panel-plugin-verve
-xfce4-panel-plugin-wavelan
-xfce4-panel-plugin-weather
-xfce4-panel-plugin-xfapplet
-xfce4-panel-plugin-xkb
-xfce4-panel-plugin-xmms
 xfce4-power-manager
 xfce4-screenshooter
 xfce4-session

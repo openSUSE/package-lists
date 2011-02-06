@@ -34,9 +34,11 @@
     <lock package="myspell-german"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE frozen.xml -->
+    <!-- INCLUDE ignore_opensuse-dvd5.xml -->
     <install kind="package" name="openSUSE-release-dvd"/>
     <install kind="package" name="bundle-lang-other"/> <!-- !i586 !x86_64 -->
     <install kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
+    <install kind="pattern" name="minimal_base"/>
     <reportProblems/>
   </trial>
 </test>

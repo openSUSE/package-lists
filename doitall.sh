@@ -86,8 +86,10 @@ echo "<<<"
 ./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE\:Factory/_product/DVD5-i586.group only_i586
 ./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE\:Factory/_product/DVD5-x86_64.group only_x86_64
 
-./mk_group.sh output/opensuse/dvd9-i586.list DVD9-i586 osc/openSUSE\:Factory/_product/DVD9-i586.group only_i586
-./mk_group.sh output/opensuse/dvd9-x86_64.list DVD9-x86_64 osc/openSUSE\:Factory/_product/DVD9-x86_64.group only_x86_64
+./split_dvd9.sh output/opensuse/dvd9-i586.list output/opensuse/dvd9-x86_64.list output/opensuse/dvd9-all.list output/opensuse/dvd9-only_i586.list output/opensuse/dvd9-only_x86_64.list
+./mk_group.sh output/opensuse/dvd9-only_i586.list DVD9-i586 osc/openSUSE\:Factory/_product/DVD9-i586.group only_i586
+./mk_group.sh output/opensuse/dvd9-only_x86_64.list DVD9-x86_64 osc/openSUSE\:Factory/_product/DVD9-x86_64.group only_x86_64
+./mk_group.sh output/opensuse/dvd9-all.list DVD9-biarch osc/openSUSE\:Factory/_product/DVD9-biarch.group
 
 ./mk_group.sh output/opensuse/promo_dvd.i586.list REST-DVD-promo-i386 osc/openSUSE\:Factory/_product/DVD5-promo-i386.group only_i586
 ./mk_group.sh output/opensuse/promo_dvd.x86_64.list REST-DVD-promo-x86_64 osc/openSUSE\:Factory/_product/DVD5-promo-x86_64.group only_x86_64

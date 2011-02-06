@@ -143,8 +143,6 @@
 <lock package="kde3-i18n-vi"/>
 <lock package="kde3-i18n-wa"/>
 <lock package="kdebase3-workspace"/>
-<lock package="kdelibs3"/> <!-- !i586 -->
-<lock package="qt3"/> <!-- !i586 -->
 <!-- old names -->
 <lock package="opensuse-manual_de"/>
 <lock package="opensuse-manual_en"/>
@@ -168,4 +166,7 @@
 <lock package="gnome-menus-branding-Moblin"/>
 <lock package="gtk2-branding-Moblin"/>
 
-<lock package="kdelibs4-branding-upstream-TT"/>
+<lock package="kdelibs4-branding-upstream"/>
+<lock package="xfce4-panel-branding-upstream"/>
+<lock package="xfce4-notifyd-branding-upstream"/>
+<lock package="glib2-branding-SLED"/>
