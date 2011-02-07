@@ -39,6 +39,7 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 amarok
+amarok-lang
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -161,7 +162,7 @@ ghostscript-library
 ghostscript-x11
 giflib
 glib-networking
-glib2-branding-upstream
+glib2-branding-openSUSE
 glib2-tools
 glibc
 glibc-32bit
@@ -676,7 +677,6 @@ patterns-openSUSE-multimedia
 patterns-openSUSE-non_oss
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde4
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -809,16 +809,9 @@ translation-update
 udev
 udisks
 ulimit
-unrar
 unscd
 unzip
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usbmuxd
 usbutils
@@ -844,7 +837,6 @@ wvdial
 wvstreams
 x11-input-fujitsu
 x11-tools
-x11vnc
 xdg-menu
 xdg-user-dirs
 xdg-utils

@@ -40,5 +40,6 @@
     <install kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <install kind="pattern" name="minimal_base"/>
     <reportProblems/>
+    <showpool verbose="true"/>
   </trial>
 </test>

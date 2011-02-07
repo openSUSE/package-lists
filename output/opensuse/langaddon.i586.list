@@ -8,7 +8,6 @@ NetworkManager-lang
 PackageKit-lang
 aisleriot-lang
 alacarte-lang
-amarok-lang
 apache2-worker
 apparmor-parser-lang
 apparmor-utils-lang
@@ -94,6 +93,7 @@ compiz-lang
 coreutils-lang
 cpio-lang
 culmus
+cups-pk-helper-lang
 dasher-lang
 empathy-lang
 eog-lang
@@ -149,6 +149,7 @@ gnomine-lang
 gpg2-lang
 gsettings-desktop-schemas
 gstreamer-0_10-lang
+gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good-lang
 gtk2-engines-lang
@@ -241,10 +242,8 @@ kde4-l10n-ar
 kde4-l10n-bg
 kde4-l10n-ca
 kde4-l10n-el
-kde4-l10n-eo
 kde4-l10n-et
 kde4-l10n-eu
-kde4-l10n-fy
 kde4-l10n-ga
 kde4-l10n-gl
 kde4-l10n-gu
@@ -260,8 +259,6 @@ kde4-l10n-kn
 kde4-l10n-ko
 kde4-l10n-lt
 kde4-l10n-lv
-kde4-l10n-ml
-kde4-l10n-ml-doc
 kde4-l10n-nds
 kde4-l10n-nn
 kde4-l10n-pa
@@ -289,6 +286,7 @@ koffice2-l10n-wa
 konversation-lang
 kpackagekit-lang
 ktorrent-lang
+kwebkitpart-lang
 libbonobo-lang
 libbonoboui-lang
 libepc-lang
@@ -306,11 +304,12 @@ libgnomesu-lang
 libgnomeui-lang
 libgphoto2-lang
 libgpod-lang
-libgtk-3_0-0
+libgtk-3-0
 libgtop-lang
 libgweather-lang
 libiptcdata-lang
 libktorrent3-lang
+libopenssl0_9_8
 libpurple-lang
 libreoffice-help-ar
 libreoffice-help-et
@@ -352,6 +351,7 @@ libreoffice-l10n-ve
 libreoffice-l10n-vi
 libreoffice-l10n-xh
 libreoffice-l10n-zu
+libreoffice-languagetool-ca
 libreoffice-languagetool-gl
 libreoffice-languagetool-ro
 libreoffice-languagetool-sk
@@ -462,7 +462,6 @@ nautilus-sendto-lang
 notification-daemon-lang
 orca-lang
 parted-lang
-pdfmod-lang
 polkit-gnome-lang
 pulseaudio-lang
 quadrapassel-lang
@@ -472,7 +471,6 @@ seahorse-plugins-lang
 seamonkey-translations-other
 sil-abyssinica
 sil-padauk
-simple-ccsm-kde-lang
 slrn-lang
 swell-foop-lang
 system-config-printer-lang
@@ -499,7 +497,6 @@ util-linux-lang
 vino-lang
 vte-lang
 wordcut
-xchat-gnome-lang
 xchat-lang
 xdg-user-dirs-gtk-lang
 xfce4-screenshooter-lang

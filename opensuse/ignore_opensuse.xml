@@ -67,8 +67,9 @@
 <lock package="libstdc++44"/>
 <lock package="libgcc44"/>
 <lock package="libgomp44"/>
-<lock package="cracklib-dict-small"/>
+<!-- lock package="cracklib-dict-small"/-->
 <lock package="gtk2-branding-upstream"/>
+<lock package="glib2-branding-upstream"/>
 <!-- FTP only -->
 <lock package="tin"/>
 <!-- KDE3 is not needed -->

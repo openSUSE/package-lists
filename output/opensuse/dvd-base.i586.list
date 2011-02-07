@@ -18,7 +18,7 @@ checkmedia
 coreutils
 cpio
 cracklib
-cracklib-dict-small
+cracklib-dict-full
 cron
 cronie
 cryptsetup
@@ -183,7 +183,6 @@ parted
 patterns-openSUSE-base
 patterns-openSUSE-minimal_base
 patterns-openSUSE-sw_management
-patterns-openSUSE-update_test
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
 pciutils
@@ -241,12 +240,6 @@ udev
 unscd
 unzip
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usbmuxd
 util-linux

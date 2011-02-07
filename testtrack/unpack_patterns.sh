@@ -4,7 +4,7 @@ svn up /home/pattern
 pushd /home/pattern/products/patterns-openSUSE-data 
 out=`git pull`
 popd
-if test "$out" = "Already up-to-date."; then
+if test "$out" = "Already up-to-date." -a -z "$FORCE"; then
   echo "unchanged"
   exit 1
 else

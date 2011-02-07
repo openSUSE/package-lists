@@ -55,7 +55,6 @@ PackageKit-gtk-module
 PgTcl
 PolicyKit
 PolicyKit-devel
-PolicyKit-doc
 PolicyKit-gnome
 PolicyKit-gnome-lang
 SuSEfirewall2
@@ -103,8 +102,7 @@ alsa-plugins-pulse-32bit
 alsa-tools
 alsa-utils
 amarok
-amavisd-new
-amavisd-new-docs
+amarok-lang
 amor
 anjuta
 anjuta-extras
@@ -406,7 +404,6 @@ cups-devel
 cups-libs
 cups-libs-32bit
 cups-pk-helper
-cups-pk-helper-lang
 curl
 cvs
 cvsps
@@ -666,6 +663,7 @@ geronimo-specs-poms
 gettext-runtime
 gettext-runtime-32bit
 gettext-tools
+gettext-tools-32bit
 gftp
 gftp-common
 gftp-common-lang
@@ -718,6 +716,7 @@ gitg-lang
 gitk
 gjdoc
 gjiten
+gkeyfile-sharp
 glabels
 glabels-lang
 glade-sharp2
@@ -753,6 +752,7 @@ gnibbles-lang
 gnobots2
 gnobots2-lang
 gnokii
+gnokii-lang
 gnome-about
 gnome-applets
 gnome-applets-colorblind
@@ -803,6 +803,7 @@ gnome-panel
 gnome-panel-applet-dictionary
 gnome-panel-applet-tracker
 gnome-panel-bonobo-support
+gnome-panel-branding-openSUSE
 gnome-panel-sharp
 gnome-phone-manager
 gnome-pilot
@@ -879,6 +880,7 @@ gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugin-gnonlin
 gstreamer-0_10-plugin-hal
+gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-32bit
 gstreamer-0_10-plugins-base-devel
@@ -926,6 +928,7 @@ gtksourceview18
 gtkspell
 gucharmap
 gucharmap-devel
+gudev-sharp
 guile
 guile-devel
 gutenprint
@@ -959,8 +962,6 @@ html2text
 hunspell
 hunspell-tools
 hwinfo
-hxtools
-hxtools-data
 hylafax
 hylafax-client
 i4l-base
@@ -972,6 +973,8 @@ icedax
 icewm
 icewm-default
 icewm-lite
+id3lib
+id3v2
 ifntchia
 ifntchib
 ifnteuro
@@ -1369,7 +1372,6 @@ kvkbd
 kvm
 kwalletmanager
 kwebkitpart
-kwebkitpart-lang
 kwikdisk
 kwin
 kwordquiz
@@ -1445,6 +1447,7 @@ libart_lgpl_2-2-32bit
 libasm1
 libasound2
 libasound2-32bit
+libass4
 libassuan0
 libatasmart4
 libatk-1_0-0
@@ -1539,12 +1542,13 @@ libcap-ng0
 libcap2
 libcap2-32bit
 libcares2
+libcdaudio
 libcdda_interface0
 libcdda_interface0-32bit
 libcdda_paranoia0
 libcdda_paranoia0-32bit
 libcddb2
-libcdio10
+libcdio12
 libcdio_cdda0
 libcdio_paranoia0
 libcelt0-1
@@ -1579,6 +1583,7 @@ libdb-4_8-devel
 libdbusmenu-qt2
 libdc1394-22
 libdconf0
+libdirac_encoder0
 libdiscid1
 libdjvulibre21
 libdlm
@@ -1589,6 +1594,7 @@ libdrm
 libdrm-32bit
 libdrm-devel
 libdv4
+libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
@@ -1779,11 +1785,16 @@ libgssglue-devel
 libgssglue1
 libgstapp-0_10-0
 libgstapp-0_10-0-32bit
+libgstbasecamerabinsrc-0_10-0
+libgstbasevideo-0_10-0
 libgstfarsight-0_10-0
 libgstinterfaces-0_10-0
 libgstinterfaces-0_10-0-32bit
+libgstphotography-0_10-0
 libgstreamer-0_10-0
 libgstreamer-0_10-0-32bit
+libgstsignalprocessor-0_10-0
+libgstvdp-0_10-0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -1842,6 +1853,7 @@ libjpeg62
 libjpeg62-32bit
 libjpeg62-devel
 libjson-glib-1_0-0
+libkate1
 libkcddb4
 libkcompactdisc4
 libkdcraw-devel
@@ -2020,6 +2032,7 @@ libpkcs11-helper1
 libplist1
 libplotter2
 libpng12-0
+libpng12-0-32bit
 libpng14-14
 libpng14-14-32bit
 libpng14-compat-devel
@@ -2073,6 +2086,7 @@ libqt4
 libqt4-32bit
 libqt4-devel
 libqt4-qt3support
+libqt4-qt3support-32bit
 libqt4-sql
 libqt4-sql-32bit
 libqt4-sql-mysql
@@ -2084,6 +2098,7 @@ libqt4-sql-sqlite-32bit
 libqt4-sql-unixODBC
 libqt4-sql-unixODBC-32bit
 libqt4-x11
+libqt4-x11-32bit
 libquicktime
 libqyoto2
 libraptor-devel
@@ -2206,6 +2221,7 @@ librsvg-devel
 librsync
 libsamplerate
 libsatsolver-devel
+libschroedinger-1_0-0
 libseed0
 libselinux1
 libselinux1-32bit
@@ -2284,6 +2300,7 @@ libtiff-devel
 libtiff-devel-32bit
 libtiff3
 libtiff3-32bit
+libtimidity-0_1-0
 libtirpc1
 libtomoe-gtk0
 libtool
@@ -2332,6 +2349,7 @@ libvorbisenc2
 libvorbisenc2-32bit
 libvorbisfile3
 libvorbisfile3-32bit
+libvpx0
 libvte9
 libwavpack1
 libwbclient0
@@ -2348,11 +2366,24 @@ libwnck
 libwnck-1-22
 libwnck-devel
 libwv2-4
+libwx_baseu-2_8-0-stl
 libwx_baseu-2_8-0-wxcontainer
+libwx_baseu_net-2_8-0-stl
 libwx_baseu_net-2_8-0-wxcontainer
+libwx_baseu_xml-2_8-0-stl
+libwx_gtk2u_adv-2_8-0-stl
 libwx_gtk2u_adv-2_8-0-wxcontainer
+libwx_gtk2u_aui-2_8-0-stl
+libwx_gtk2u_core-2_8-0-stl
 libwx_gtk2u_core-2_8-0-wxcontainer
+libwx_gtk2u_gizmos-2_8-0-stl
+libwx_gtk2u_gl-2_8-0-stl
+libwx_gtk2u_html-2_8-0-stl
 libwx_gtk2u_html-2_8-0-wxcontainer
+libwx_gtk2u_media-2_8-0-stl
+libwx_gtk2u_richtext-2_8-0-stl
+libwx_gtk2u_stc-2_8-0-stl
+libwx_gtk2u_xrc-2_8-0-stl
 libx86-1
 libx86emu1
 libxcrypt
@@ -2403,9 +2434,6 @@ linphone
 linux-glibc-devel
 linux32
 lirc
-lirc-kmp-default
-lirc-kmp-desktop
-lirc-kmp-xen
 lirc-remotes
 lklug
 lockdev
@@ -2729,6 +2757,7 @@ pango-devel
 pango-tools
 pango-tools-32bit
 paprefs
+paprefs-lang
 papyon
 par
 parcellite
@@ -2805,6 +2834,7 @@ patterns-openSUSE-lxde
 patterns-openSUSE-lxde_laptop
 patterns-openSUSE-lxde_office
 patterns-openSUSE-mail_server
+patterns-openSUSE-minimal_base
 patterns-openSUSE-misc_server
 patterns-openSUSE-multimedia
 patterns-openSUSE-multimedia_opt
@@ -2820,7 +2850,6 @@ patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-sw_management_kde4
 patterns-openSUSE-tabletpc
 patterns-openSUSE-technical_writing
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_opt
 patterns-openSUSE-x11_yast
@@ -2832,6 +2861,7 @@ patterns-openSUSE-xgl
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
 pavucontrol
+pavucontrol-lang
 pax
 pbm2l7k
 pciutils
@@ -2842,6 +2872,7 @@ pcmanfm-lang
 pcmciautils
 pcre-devel
 pdfmod
+pdfmod-lang
 perl
 perl-Algorithm-Diff
 perl-Apache-AuthCookie
@@ -2850,12 +2881,10 @@ perl-Apache-DBI
 perl-Apache-Session
 perl-Apache-SessionX
 perl-AppConfig
-perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-BIND-Conf_Parser
 perl-BSD-Resource
-perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
@@ -3027,7 +3056,6 @@ perl-Tk
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
-perl-Unix-Syslog
 perl-WeakRef
 perl-X500-DN
 perl-XML-DOM
@@ -3134,6 +3162,7 @@ pm-profiler
 pm-utils
 pm-utils-ndiswrapper
 pmidi
+podofo
 podsleuth
 polkit
 polkit-default-privs
@@ -3189,6 +3218,7 @@ pychecker
 python
 python-32bit
 python-atspi-corba
+python-babel
 python-base
 python-base-32bit
 python-beaker
@@ -3201,6 +3231,7 @@ python-bugbuddy
 python-cairo
 python-cairo-devel
 python-ccm
+python-cherrypy
 python-clientform
 python-coherence
 python-compizconfig
@@ -3214,6 +3245,7 @@ python-curl
 python-curses
 python-dateutil
 python-devel
+python-dnspython
 python-egenix-mx-base
 python-evince
 python-evolution
@@ -3222,6 +3254,7 @@ python-feedparser
 python-gconf
 python-gdata
 python-gdbm
+python-genshi
 python-gnome
 python-gnome-32bit
 python-gnome-devel
@@ -3260,6 +3293,7 @@ python-metacity
 python-notify
 python-numpy
 python-oauth
+python-odfpy
 python-opengl
 python-openssl
 python-opensync
@@ -3268,6 +3302,7 @@ python-orbit
 python-pam
 python-pybluez
 python-pygame
+python-pypdf
 python-qt4
 python-rsvg
 python-satsolver
@@ -3285,6 +3320,8 @@ python-urlgrabber
 python-vte
 python-webkitgtk
 python-wnck
+python-wxWidgets
+python-wxWidgets-lang
 python-xdg
 python-xlib
 python-xml
@@ -3307,7 +3344,6 @@ radvd
 raptor
 rarian
 rarpd
-raw-thumbnailer
 rcs
 rdesktop
 re2c
@@ -3423,7 +3459,6 @@ sil-charis
 sil-doulos
 silc-toolkit
 simple-ccsm
-simple-ccsm-kde
 simple-scan
 simple-scan-lang
 skanlite
@@ -3555,7 +3590,7 @@ tgt
 thunar
 thunar-archive-plugin
 thunar-lang
-thunar-thumbnailers
+thunar-media-tags-plugin
 thunar-vfs
 thunar-vfs-lang
 thunar-volman
@@ -3639,7 +3674,6 @@ ufraw-lang
 uim
 ulimit
 umbrello
-unarj
 unclutter
 unfonts
 ungifsicle
@@ -3647,17 +3681,10 @@ unison
 units
 unixODBC
 unixODBC-32bit
-unrar
 unscd
 unzip
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data
@@ -3738,7 +3765,6 @@ wxWidgets-lang
 x11-input-evtouch
 x11-input-fujitsu
 x11-tools
-x11vnc
 xalan-j2
 xano-mincho
 xarchiver
@@ -3747,6 +3773,7 @@ xawtv
 xbrlapi
 xchat
 xchat-gnome
+xchat-gnome-lang
 xchat-perl
 xchat-python
 xchat-tcl
@@ -3791,7 +3818,6 @@ xfce4-panel-plugin-diskperf
 xfce4-panel-plugin-eyes
 xfce4-panel-plugin-fsguard
 xfce4-panel-plugin-genmon
-xfce4-panel-plugin-governor
 xfce4-panel-plugin-mailwatch
 xfce4-panel-plugin-mount
 xfce4-panel-plugin-mpc
@@ -4114,7 +4140,6 @@ zlib
 zlib-32bit
 zlib-devel
 zlib-devel-32bit
-zoo
 zsh
 zypper
 zziplib

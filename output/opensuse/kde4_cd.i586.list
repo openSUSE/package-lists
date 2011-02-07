@@ -43,6 +43,7 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 amarok
+amarok-lang
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -324,7 +325,6 @@ ktorrent
 kvkbd
 kwalletmanager
 kwebkitpart
-kwebkitpart-lang
 kwin
 kwrite
 lcms
@@ -724,6 +724,7 @@ openvpn
 orbit2
 oxygen-gtk
 oxygen-icon-theme
+p7zip
 pam
 pam-config
 pam-modules
@@ -755,7 +756,6 @@ patterns-openSUSE-non_oss
 patterns-openSUSE-office
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde4
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -902,16 +902,9 @@ translation-update-ru
 udev
 udisks
 ulimit
-unrar
 unscd
 unzip
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usbmuxd
 usbutils
@@ -938,7 +931,6 @@ wvdial
 wvstreams
 x11-input-fujitsu
 x11-tools
-x11vnc
 xalan-j2
 xdg-menu
 xdg-user-dirs
