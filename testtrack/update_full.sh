@@ -7,6 +7,12 @@ if test -z "$arch"; then
 fi
 worked=0
 
+nonftp=`grep 'package name=' ../osc/openSUSE\:Factory/_product/NON_FTP_PACKAGES.group | cut -d\" -f2 | grep -v openSUSE-release`
+ignore=--delete-excluded
+for i in $nonftp; do
+   ignore="$ignore --exclude $i.rpm"
+done
+
 for i in $arch;
 do
   test -d full-$i || mkdir full-$i
@@ -21,7 +27,7 @@ do
      rarch=${i/obs-/}
      mkdir -p susex/$rarch
      echo -n "syncing $i "
-     count=`rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:Factory/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     count=`rsync -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:Factory/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
      echo -n "found $count packages "
      if test "$count" = 0; then
         echo "done"
@@ -34,7 +40,7 @@ do
      rarch=${i/power-/}
      mkdir -p susex/$rarch
      echo -n "syncing $i "
-     count=`rsync -av --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:Factory:PowerPC/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     count=`rsync -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:Factory:PowerPC/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
      echo -n "found $count packages "
      if test "$count" = 0; then
         echo "done"

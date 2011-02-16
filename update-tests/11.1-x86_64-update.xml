@@ -9,6 +9,7 @@
   <trial>
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
+    <uninstall name="amavisd-new"/>
     <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>

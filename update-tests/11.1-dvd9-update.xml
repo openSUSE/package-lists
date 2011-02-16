@@ -9,6 +9,7 @@
   <trial>
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
+    <uninstall name="libffi-devel-32bit"/>
     <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>

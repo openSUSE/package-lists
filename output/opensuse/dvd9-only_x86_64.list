@@ -30,8 +30,11 @@ flex-32bit
 fontconfig-32bit
 freeglut-32bit
 freeglut-devel-32bit
+gcc-32bit
+gcc-c++-32bit
 gcc-fortran-32bit
 gcc-objc-32bit
+gcc45-32bit
 gcc45-fortran-32bit
 gcc45-objc-32bit
 gconf2-32bit
@@ -114,7 +117,7 @@ libfprint0-32bit
 libfreebl3-32bit
 libfreetype6-32bit
 libgail-gnome-32bit
-libgcc43-32bit
+libgcc45-32bit
 libgcrypt-devel-32bit
 libgcrypt11-32bit
 libgdk_pixbuf-2_0-0-32bit
@@ -132,7 +135,7 @@ libgnomecanvas-2-0-32bit
 libgnomeui-32bit
 libgnutls26-32bit
 libgobject-2_0-0-32bit
-libgomp43-32bit
+libgomp45-32bit
 libgpg-error0-32bit
 libgphoto2-32bit
 libgstapp-0_10-0-32bit
@@ -170,6 +173,7 @@ libopagent1-32bit
 libopenal1-soft-32bit
 libopencdk-devel-32bit
 libopencdk10-32bit
+libopenssl0_9_8-32bit
 libopenssl1_0_0-32bit
 liborc-0_4-0-32bit
 libpanel-applet-2-0-32bit
@@ -209,6 +213,7 @@ libssh2-1-32bit
 libstartup-notification-1-0-32bit
 libstdc++33-32bit
 libstdc++45-32bit
+libstdc++45-devel-32bit
 libtalloc2-32bit
 libtasn1-3-32bit
 libtheora0-32bit

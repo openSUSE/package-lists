@@ -9,19 +9,15 @@
   <trial>
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
-    <uninstall name="plasmoid-networkmanagement"/>
-    <uninstall name="pacemaker"/>
+    <uninstall name="antivir"/>
+    <uninstall name="NetworkManager-kde4"/>
+    <uninstall name="amavisd-new"/>
     <uninstall name="heartbeat-devel"/>
     <uninstall name="heartbeat"/>
-    <uninstall name="cluster-glue"/>
-    <uninstall name="libglue-devel"/>
-    <uninstall name="cmpi-bindings-ruby"/>
-    <uninstall name="ocfs2-tools"/>
-    <uninstall name="ocfs2-tools-devel"/>
-    <uninstall name="libglue1"/>
-    <uninstall name="libdlm"/>
-    <uninstall name="antivir"/>
-    <uninstall name="libpacemaker-devel"/>
+
+    <uninstall name="simple-ccsm-kde-lang"/>
+    <uninstall name="libffi-devel"/>
+    <uninstall name="libffi-devel-32bit"/>
     <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>
