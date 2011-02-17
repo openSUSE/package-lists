@@ -62,14 +62,6 @@ hal-32bit
 irqbalance
 itcl-32bit
 keyutils-libs-32bit
-kiwi
-kiwi-desc-isoboot
-kiwi-desc-netboot
-kiwi-desc-oemboot
-kiwi-desc-usbboot
-kiwi-desc-vmxboot
-kiwi-templates
-kiwi-tools
 krb5-32bit
 krb5-devel-32bit
 libFLAC8-32bit
@@ -185,6 +177,7 @@ libpng14-14-32bit
 libpng14-compat-devel-32bit
 libpng14-devel-32bit
 libpopt0-32bit
+libpq5-32bit
 libproxy1-32bit
 libproxy1-networkmanager-32bit
 libpulse0-32bit
@@ -201,9 +194,11 @@ libraw1394-11-32bit
 libraw1394-devel-32bit
 libreadline6-32bit
 libselinux1-32bit
+libsensors4-32bit
 libsepol1-32bit
 libsmbclient0-32bit
 libsndfile-32bit
+libsnmp25-32bit
 libsoftokn3-32bit
 libsoup-2_4-1-32bit
 libsoup-devel-32bit
@@ -270,9 +265,8 @@ pam_mount-32bit
 pam_ssh-32bit
 pango-tools-32bit
 pciutils-32bit
+perl-32bit
 perl-base-32bit
-perl-satsolver
-postgresql-libs-32bit
 python-32bit
 python-base-32bit
 python-gnome-32bit

@@ -12,12 +12,10 @@
     <uninstall name="antivir"/>
     <uninstall name="NetworkManager-kde4"/>
     <uninstall name="amavisd-new"/>
-    <uninstall name="heartbeat-devel"/>
-    <uninstall name="heartbeat"/>
 
-    <uninstall name="simple-ccsm-kde-lang"/>
-    <uninstall name="libffi-devel"/>
-    <uninstall name="libffi-devel-32bit"/>
+    <uninstall name="cyrus-sasl-sqlauxprop-32bit"/>
+    <uninstall name="libqt4-sql-postgresql-32bit"/>
+
     <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>

@@ -86,7 +86,8 @@ alsa-plugins-pulse
 alsa-plugins-pulse-32bit
 alsa-utils
 amarok
-amarok-lang
+amavisd-new
+amavisd-new-docs
 anjuta
 anjuta-lang
 ant
@@ -185,8 +186,8 @@ banshee-1-dmp
 banshee-1-dmp-apple-devices
 banshee-1-dmp-mtp
 banshee-1-extensions-default
-banshee-1-lang
 bash
+bash-doc
 bc
 bcel
 bea-stax-api
@@ -416,6 +417,7 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
+enblend-enfuse
 enchant-devel
 enchant-voikko
 enscript
@@ -438,11 +440,11 @@ evolution-mono-plugins
 evolution-python-plugins
 evolution-sharp
 evolution-webcal
+exiftool
 exo
 exo-branding-openSUSE
 exo-lang
 f-spot
-f-spot-lang
 fam
 fam-32bit
 fam-devel
@@ -479,7 +481,6 @@ g3utils
 galculator
 gawk
 gbrainy
-gbrainy-lang
 gc
 gcalctool
 gcc
@@ -590,7 +591,6 @@ gmime-2_4-sharp
 gmixer
 gmp-devel
 gnokii
-gnokii-lang
 gnome-about
 gnome-applets
 gnome-applets-colorblind
@@ -605,7 +605,6 @@ gnome-desktop-sharp2
 gnome-desktop2
 gnome-disk-utility
 gnome-do
-gnome-do-lang
 gnome-do-plugins
 gnome-do-plugins-lang
 gnome-doc-utils
@@ -755,6 +754,7 @@ hicolor-icon-theme-branding-openSUSE
 hplip
 hplip-hpijs
 htdig
+hugin
 hunspell
 hunspell-tools
 hwinfo
@@ -1515,6 +1515,7 @@ libmpc2
 libmpcdec5
 libmpfr4
 libmsn0_3
+libmspack0
 libmtp-devel
 libmtp8
 libmusicbrainz-devel
@@ -1577,6 +1578,7 @@ libpanel-applet-3-0
 libpango-1_0-0
 libpango-1_0-0-32bit
 libpangomm-1_4-1
+libpano13-1
 libparted0
 libpcap1
 libpciaccess0
@@ -1883,6 +1885,14 @@ libwnck
 libwnck-1-22
 libwnck-devel
 libwv2-4
+libwx_baseu-2_8-0-stl
+libwx_baseu_net-2_8-0-stl
+libwx_baseu_xml-2_8-0-stl
+libwx_gtk2u_adv-2_8-0-stl
+libwx_gtk2u_core-2_8-0-stl
+libwx_gtk2u_gl-2_8-0-stl
+libwx_gtk2u_html-2_8-0-stl
+libwx_gtk2u_xrc-2_8-0-stl
 libx86-1
 libx86emu1
 libxcrypt
@@ -1899,6 +1909,7 @@ libxine1-gnome-vfs
 libxine1-pulse
 libxklavier-devel
 libxklavier16
+libxmi0
 libxml2
 libxml2-32bit
 libxml2-devel
@@ -2009,19 +2020,14 @@ module-init-tools
 mono-addins
 mono-core
 mono-data
-mono-data-oracle
 mono-data-sqlite
-mono-devel
-mono-extras
 mono-nunit
 mono-web
-mono-winforms
 mono-zeroconf
 mono-zeroconf-provider-avahi
 mousepad
 mousepad-lang
 mousetweaks
-mozilla-js192
 mozilla-js20
 mozilla-kde4-integration
 mozilla-nspr
@@ -2032,9 +2038,6 @@ mozilla-nss-32bit
 mozilla-nss-certs
 mozilla-nss-certs-32bit
 mozilla-nss-devel
-mozilla-xulrunner192
-mozilla-xulrunner192-gnome
-mozilla-xulrunner192-translations-common
 mozilla-xulrunner20
 mozilla-xulrunner20-gnome
 mozilla-xulrunner20-translations-common
@@ -2177,7 +2180,6 @@ pango-devel
 pango-tools
 pango-tools-32bit
 paprefs
-paprefs-lang
 papyon
 parcellite
 parley
@@ -2270,7 +2272,6 @@ patterns-openSUSE-xgl
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
 pavucontrol
-pavucontrol-lang
 pax
 pciutils
 pciutils-ids
@@ -2279,13 +2280,19 @@ pcmanfm-lang
 pcmciautils
 pcre-devel
 perl
+perl-Archive-Zip
 perl-Authen-SASL
+perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-Carp-Clan
 perl-Clone
 perl-Config-Crontab
 perl-Config-IniFiles
+perl-Convert-ASN1
+perl-Convert-BinHex
+perl-Convert-TNEF
+perl-Convert-UUlib
 perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
@@ -2314,6 +2321,7 @@ perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-stringy
 perl-IP-Country
+perl-MIME-tools
 perl-MLDBM
 perl-Mail-DKIM
 perl-Mail-SPF
@@ -2343,6 +2351,7 @@ perl-Text-CSV_XS
 perl-Tie-IxHash
 perl-TimeDate
 perl-URI
+perl-Unix-Syslog
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -2355,6 +2364,7 @@ perl-YAML-Syck
 perl-apparmor
 perl-base
 perl-gettext
+perl-ldap
 perl-libwww-perl
 perl-razor-agents
 perl-satsolver
@@ -2684,7 +2694,6 @@ timezone
 timezone-java
 tk
 tomboy
-tomboy-lang
 tomoe
 tomoe-gtk
 tomoe-gtk-lang
@@ -2733,6 +2742,7 @@ udisks
 uim
 ulimit
 umbrello
+unarj
 unfonts
 unison
 unscd
@@ -2793,6 +2803,7 @@ wv2-devel
 wvdial
 wvstreams
 wvstreams-devel
+wxWidgets-lang
 x11-input-fujitsu
 x11-tools
 xalan-j2
@@ -3092,5 +3103,6 @@ zisofs-tools
 zlib
 zlib-32bit
 zlib-devel
+zoo
 zsh
 zypper

@@ -94,7 +94,8 @@ alsa-plugins-pulse
 alsa-tools
 alsa-utils
 amarok
-amarok-lang
+amavisd-new
+amavisd-new-docs
 amor
 anjuta
 anjuta-extras
@@ -207,8 +208,8 @@ banshee-1-dmp
 banshee-1-dmp-apple-devices
 banshee-1-dmp-mtp
 banshee-1-extensions-default
-banshee-1-lang
 bash
+bash-doc
 bc
 bcel
 bea-stax
@@ -505,6 +506,7 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
+enblend-enfuse
 enchant-devel
 enchant-voikko
 enscript
@@ -589,7 +591,6 @@ g3utils
 galculator
 gawk
 gbrainy
-gbrainy-lang
 gc
 gcal
 gcalctool
@@ -713,7 +714,6 @@ gnect
 gnibbles
 gnobots2
 gnokii
-gnokii-lang
 gnome-about
 gnome-applets
 gnome-applets-colorblind
@@ -894,6 +894,7 @@ htdig
 html-dtd
 html2ps
 html2text
+hugin
 hunspell
 hunspell-tools
 hwinfo
@@ -1227,8 +1228,16 @@ kipi-plugins-acquireimage
 kiriki
 kismet
 kiten
+kiwi
 kiwi-config-openSUSE
+kiwi-desc-isoboot
+kiwi-desc-netboot
+kiwi-desc-oemboot
+kiwi-desc-usbboot
+kiwi-desc-vmxboot
 kiwi-pxeboot
+kiwi-templates
+kiwi-tools
 kjots
 kjumpingcube
 klettres
@@ -1871,6 +1880,7 @@ libpanel-applet-2-0
 libpanel-applet-3-0
 libpango-1_0-0
 libpangomm-1_4-1
+libpano13-1
 libparted0
 libpcap1
 libpciaccess0
@@ -1880,6 +1890,7 @@ libpcrecpp0
 libpcreposix0
 libpcsclite1
 libphonon4
+libphysfs1
 libpisock-devel
 libpisock9
 libpisync-devel
@@ -1905,6 +1916,7 @@ libpoppler7
 libpopt0
 libppl9
 libppl_c4
+libpq5
 libprotobuf6
 libproxy1
 libproxy1-config-gnome
@@ -2213,6 +2225,7 @@ libxine1-gnome-vfs
 libxine1-pulse
 libxklavier-devel
 libxklavier16
+libxmi0
 libxml2
 libxml2-devel
 libxml2-python
@@ -2363,7 +2376,6 @@ motv
 mousepad
 mousepad-lang
 mousetweaks
-mozilla-js192
 mozilla-js20
 mozilla-kde4-integration
 mozilla-nspr
@@ -2371,9 +2383,6 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
-mozilla-xulrunner192
-mozilla-xulrunner192-gnome
-mozilla-xulrunner192-translations-common
 mozilla-xulrunner20
 mozilla-xulrunner20-gnome
 mozilla-xulrunner20-translations-common
@@ -2546,7 +2555,6 @@ pan
 pango-devel
 pango-tools
 paprefs
-paprefs-lang
 papyon
 par
 parcellite
@@ -2650,7 +2658,6 @@ patterns-openSUSE-xgl
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
 pavucontrol
-pavucontrol-lang
 pax
 pbm2l7k
 pciutils
@@ -2668,10 +2675,12 @@ perl-Apache-DBI
 perl-Apache-Session
 perl-Apache-SessionX
 perl-AppConfig
+perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-BIND-Conf_Parser
 perl-BSD-Resource
+perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
@@ -2843,6 +2852,7 @@ perl-Tk
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
+perl-Unix-Syslog
 perl-WeakRef
 perl-X500-DN
 perl-XML-DOM
@@ -2868,6 +2878,7 @@ perl-libconfigfile
 perl-libwww-perl
 perl-libxml-perl
 perl-razor-agents
+perl-satsolver
 perlref
 permissions
 pessulus
@@ -2921,7 +2932,6 @@ php5-xmlwriter
 php5-xsl
 php5-zip
 php5-zlib
-physfs
 pia
 pico
 pidgin
@@ -2962,7 +2972,6 @@ posix_cc
 poster
 postgresql
 postgresql-contrib
-postgresql-libs
 postgresql-server
 pothana2000
 powertop
@@ -3213,7 +3222,6 @@ scotty
 scout
 screen
 scribus
-scribus-templates
 scrollkeeper
 seahorse
 seahorse-plugins
@@ -3455,6 +3463,7 @@ uim-qt
 uim-qt4
 ulimit
 umbrello
+unarj
 unclutter
 unfonts
 ungifsicle
@@ -3914,6 +3923,7 @@ zip
 zisofs-tools
 zlib
 zlib-devel
+zoo
 zsh
 zypper
 zziplib

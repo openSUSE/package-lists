@@ -24,6 +24,7 @@
     <!-- INCLUDE ignore_opensuse-gnome-cd.xml -->
     <lock package="pam-32bit"/> <!-- !i586 !x86_64 -->
     <install kind="package" name="gconf2-branding-openSUSE"/>
+    <install kind="package" name="banshee-1"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

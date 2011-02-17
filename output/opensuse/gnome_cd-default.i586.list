@@ -41,6 +41,7 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 aria2
+art-sharp2
 aspell
 aspell-en
 at-spi
@@ -51,6 +52,17 @@ augeas-lenses
 autofs
 autoyast2-installation
 avahi
+banshee-1
+banshee-1-backend-engine-gstreamer
+banshee-1-backend-io-gio
+banshee-1-backend-platform-gnome
+banshee-1-backend-platform-unix
+banshee-1-client-classic
+banshee-1-core
+banshee-1-dmp
+banshee-1-dmp-apple-devices
+banshee-1-dmp-mtp
+banshee-1-extensions-default
 bash
 bind-libs
 bind-utils
@@ -73,6 +85,7 @@ ca-certificates-mozilla
 canberra-gtk-play
 cdrkit-cdrtools-compat
 checkmedia
+cheese
 cifs-utils
 command-not-found
 compiz
@@ -109,6 +122,7 @@ dbus-1-glib
 dbus-1-python
 dbus-1-x11
 dconf
+dcraw
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -137,6 +151,7 @@ ethtool
 evince
 evolution-data-server
 evolution-webcal
+f-spot
 fam
 fbset
 fftw3
@@ -146,20 +161,24 @@ file-roller
 filesystem
 fillup
 findutils
+flickrnet
 fontconfig
 fonts-config
 foomatic-filters
 freeglut
 fuse
 gawk
+gbrainy
 gcalctool
 gconf-editor
 gconf-polkit
 gconf-sanity-check
+gconf-sharp2
 gconf2
 gconf2-branding-openSUSE
 gconfmm
 gd
+gdata-sharp
 gdb
 gdbm
 gdk-pixbuf-loader-rsvg
@@ -177,12 +196,17 @@ ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
 giflib
+gio-sharp
+gkeyfile-sharp
+glade-sharp2
 glchess
 glib-networking
+glib-sharp2
 glib2-branding-openSUSE
 glib2-tools
 glibc
 glibc-locale
+gmime-2_4-sharp
 gnome-about
 gnome-applets
 gnome-applets-colorblind
@@ -192,6 +216,7 @@ gnome-bluetooth-plugins-geoclue
 gnome-control-center
 gnome-desktop2
 gnome-disk-utility
+gnome-doc-utils
 gnome-games-recommended
 gnome-games-support
 gnome-icon-theme
@@ -200,6 +225,7 @@ gnome-icon-theme-symbolic
 gnome-js-common
 gnome-keyring
 gnome-keyring-pam
+gnome-keyring-sharp
 gnome-mag
 gnome-main-menu
 gnome-media
@@ -210,6 +236,8 @@ gnome-panel
 gnome-panel-applet-dictionary
 gnome-panel-applet-tracker
 gnome-panel-bonobo-support
+gnome-panel-branding-openSUSE
+gnome-panel-sharp
 gnome-power-manager
 gnome-python-desktop
 gnome-screensaver
@@ -217,6 +245,7 @@ gnome-session
 gnome-session-core
 gnome-settings-daemon
 gnome-settings-daemon-polkit-datetime
+gnome-sharp2
 gnome-speech
 gnome-sudoku
 gnome-system-monitor
@@ -225,6 +254,7 @@ gnome-themes
 gnome-user-docs
 gnome-user-share
 gnome-utils
+gnome-vfs-sharp2
 gnome-vfs2
 gnomine
 gnutls
@@ -244,6 +274,8 @@ gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-utils
 gstreamer-utils
+gtk-sharp-beans
+gtk-sharp2
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-engine-murrine
@@ -254,7 +286,9 @@ gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-metatheme-sonar
 gtk2-tools
+gtkspell
 gucharmap
+gudev-sharp
 guile
 gvfs
 gvfs-backend-afc
@@ -351,6 +385,7 @@ libcdio_cdda0
 libcdio_paranoia0
 libcelt0-1
 libchamplain-0_8-0
+libcheese-gtk18
 libcloog0
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
@@ -404,6 +439,7 @@ libgcr0
 libgcrypt11
 libgdata7
 libgdict-1_0-6
+libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdu-gtk0
 libgdu0
@@ -446,6 +482,7 @@ libgp11-modules
 libgpg-error0
 libgpgme11
 libgphoto2
+libgpod-sharp
 libgsf-1-114
 libgsm1
 libgssdp-1_0-2
@@ -505,6 +542,7 @@ libmount1
 libmpc2
 libmpcdec5
 libmpfr4
+libmtp8
 libmusicbrainz4
 libnautilus-extension1
 libncurses5
@@ -645,6 +683,7 @@ mailx
 man
 master-boot-code
 mdadm
+media-player-info
 metacity
 metatheme-sonar-common
 microcode_ctl
@@ -653,6 +692,13 @@ mjpegtools
 mkinitrd
 mobile-broadband-provider-info
 module-init-tools
+mono-addins
+mono-data
+mono-data-sqlite
+mono-nunit
+mono-web
+mono-zeroconf
+mono-zeroconf-provider-avahi
 mousetweaks
 mozilla-js20
 mozilla-nspr
@@ -671,6 +717,8 @@ nautilus-sendto-plugin-empathy
 nautilus-sendto-plugin-upnp
 nautilus-totem
 ncurses-utils
+ndesk-dbus
+ndesk-dbus-glib
 net-tools
 netcat
 netcfg
@@ -678,6 +726,7 @@ netpbm
 nfs-client
 nfsidmap
 notification-daemon
+notify-sharp
 nss-mdns
 ntfs-3g
 ntfsprogs
@@ -701,17 +750,14 @@ pam-modules
 pam_apparmor
 pango-tools
 paprefs
-paprefs-lang
 papyon
 parted
 pavucontrol
-pavucontrol-lang
 pciutils
 pciutils-ids
 perl
 perl-Bootloader
 perl-Config-Crontab
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -721,7 +767,6 @@ perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
-perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -732,7 +777,6 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
-perl-libwww-perl
 permissions
 phalanx
 pinentry
@@ -813,6 +857,7 @@ python-wnck
 python-xdg
 python-xml
 quadrapassel
+rarian
 recode
 release-notes-openSUSE
 rpcbind
@@ -828,6 +873,7 @@ seahorse-plugins
 sed
 seed
 sg3_utils
+sgml-skel
 shared-mime-info
 silc-toolkit
 simple-ccsm
@@ -849,6 +895,7 @@ sysvinit
 sysvinit-tools
 t1lib
 taglib
+taglib-sharp
 tar
 tcpd
 telepathy-butterfly
@@ -862,6 +909,7 @@ telepathy-sofiasip
 terminfo-base
 tightvnc
 timezone
+tomboy
 totem
 totem-browser-plugin
 totem-browser-plugin-gmp
@@ -1003,6 +1051,7 @@ yast2-users
 yast2-vm
 yast2-xml
 yast2-ycp-ui-bindings
+yelp
 yp-tools
 ypbind
 zenity

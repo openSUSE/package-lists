@@ -68,6 +68,18 @@ avahi
 avahi-lang
 awesfx
 b43-fwcutter
+banshee-1
+banshee-1-backend-engine-gstreamer
+banshee-1-backend-io-gio
+banshee-1-backend-platform-gnome
+banshee-1-backend-platform-unix
+banshee-1-client-classic
+banshee-1-core
+banshee-1-dmp
+banshee-1-dmp-apple-devices
+banshee-1-dmp-mtp
+banshee-1-extensions-default
+banshee-1-lang
 bash
 bash-lang
 bc
@@ -141,6 +153,7 @@ dbus-1-glib
 dbus-1-python
 dbus-1-x11
 dconf
+dcraw
 ddrescue
 dejavu
 deltarpm
@@ -181,6 +194,8 @@ evolution-python-plugins
 evolution-sharp
 evolution-webcal
 evolution-webcal-lang
+f-spot
+f-spot-lang
 fam
 fbset
 fftw3
@@ -191,6 +206,7 @@ file-roller-lang
 filesystem
 fillup
 findutils
+flickrnet
 fontconfig
 fonts-config
 fonts-thryomanes
@@ -199,17 +215,21 @@ freefont
 freeglut
 fuse
 gawk
+gbrainy
+gbrainy-lang
 gcalctool
 gcalctool-lang
 gconf-editor
 gconf-editor-lang
 gconf-polkit
 gconf-sanity-check
+gconf-sharp2
 gconf2
 gconf2-branding-openSUSE
 gconf2-lang
 gconfmm
 gd
+gdata-sharp
 gdb
 gdbm
 gdk-pixbuf-lang
@@ -237,6 +257,9 @@ gimp
 gimp-branding-openSUSE
 gimp-lang
 gimp-plugins-python
+gio-sharp
+gkeyfile-sharp
+glade-sharp2
 glchess
 glchess-lang
 glib-networking
@@ -247,6 +270,7 @@ glib2-lang
 glib2-tools
 glibc
 glibc-locale
+gmime-2_4-sharp
 gnokii
 gnokii-lang
 gnome-about
@@ -259,9 +283,14 @@ gnome-bluetooth-lang
 gnome-bluetooth-plugins-geoclue
 gnome-control-center
 gnome-control-center-lang
+gnome-desktop-sharp2
 gnome-desktop2
 gnome-desktop2-lang
 gnome-disk-utility
+gnome-do
+gnome-do-lang
+gnome-do-plugins
+gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-lang
 gnome-docker
@@ -275,6 +304,7 @@ gnome-js-common
 gnome-keyring
 gnome-keyring-lang
 gnome-keyring-pam
+gnome-keyring-sharp
 gnome-mag
 gnome-mag-lang
 gnome-main-menu
@@ -292,7 +322,9 @@ gnome-panel
 gnome-panel-applet-dictionary
 gnome-panel-applet-tracker
 gnome-panel-bonobo-support
+gnome-panel-branding-openSUSE
 gnome-panel-lang
+gnome-panel-sharp
 gnome-phone-manager
 gnome-phone-manager-lang
 gnome-power-manager
@@ -350,6 +382,7 @@ gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-good-lang
 gstreamer-0_10-utils
 gstreamer-utils
+gtk-sharp-beans
 gtk-sharp2
 gtk2-branding-openSUSE
 gtk2-data
@@ -368,6 +401,7 @@ gtkspell
 gtkspell-lang
 gucharmap
 gucharmap-lang
+gudev-sharp
 guile
 gvfs
 gvfs-backend-afc
@@ -597,6 +631,7 @@ libgpg-error0
 libgpgme11
 libgphoto2
 libgphoto2-lang
+libgpod-sharp
 libgsf-1-114
 libgsm1
 libgssdp-1_0-2
@@ -667,6 +702,7 @@ libmount1
 libmpc2
 libmpcdec5
 libmpfr4
+libmtp8
 libmusicbrainz4
 libnautilus-extension1
 libncurses5
@@ -748,6 +784,7 @@ libsamplerate
 libschroedinger-1_0-0
 libseed0
 libselinux1
+libsensors4
 libsepol1
 libsexy
 libsigc-2_0-0
@@ -760,6 +797,7 @@ libsmbclient0
 libsmbios-bin
 libsmbios2
 libsndfile
+libsnmp25
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
@@ -852,6 +890,7 @@ master-boot-code
 mc
 mc-lang
 mdadm
+media-player-info
 memtest86+
 metacity
 metacity-lang
@@ -862,20 +901,20 @@ mjpegtools
 mkinitrd
 mobile-broadband-provider-info
 module-init-tools
+mono-addins
 mono-core
 mono-data
 mono-data-sqlite
+mono-nunit
 mono-web
+mono-zeroconf
+mono-zeroconf-provider-avahi
 mousetweaks
 mousetweaks-lang
-mozilla-js192
 mozilla-js20
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-xulrunner192
-mozilla-xulrunner192-gnome
-mozilla-xulrunner192-translations-common
 mozilla-xulrunner20
 mozilla-xulrunner20-gnome
 mozilla-xulrunner20-translations-common
@@ -982,7 +1021,6 @@ pcmciautils
 perl
 perl-Bootloader
 perl-Config-Crontab
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -992,7 +1030,6 @@ perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
-perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -1004,7 +1041,6 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
-perl-libwww-perl
 permissions
 phalanx
 pinentry
@@ -1128,6 +1164,7 @@ smartmontools
 smolt
 smp_utils
 smpppd
+snmp-mibs
 sonar-icon-theme
 sound-theme-freedesktop
 splashy
@@ -1149,6 +1186,7 @@ sysvinit
 sysvinit-tools
 t1lib
 taglib
+taglib-sharp
 tango-icon-theme
 tar
 tar-lang
@@ -1167,6 +1205,8 @@ terminfo-base
 terminus-font
 tightvnc
 timezone
+tomboy
+tomboy-lang
 totem
 totem-browser-plugin
 totem-browser-plugin-gmp
@@ -1216,6 +1256,7 @@ wdiff-lang
 wget
 wireless-regdb
 wireless-tools
+wnck-sharp
 wodim
 wpa_supplicant
 wvdial

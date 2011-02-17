@@ -102,7 +102,8 @@ alsa-plugins-pulse-32bit
 alsa-tools
 alsa-utils
 amarok
-amarok-lang
+amavisd-new
+amavisd-new-docs
 amor
 anjuta
 anjuta-extras
@@ -217,8 +218,8 @@ banshee-1-dmp
 banshee-1-dmp-apple-devices
 banshee-1-dmp-mtp
 banshee-1-extensions-default
-banshee-1-lang
 bash
+bash-doc
 bc
 bcel
 bea-stax-api
@@ -514,6 +515,7 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
+enblend-enfuse
 enchant-devel
 enchant-voikko
 enscript
@@ -549,7 +551,6 @@ exo-lang
 expect
 expect-devel
 f-spot
-f-spot-lang
 fam
 fam-32bit
 fam-devel
@@ -603,7 +604,6 @@ g3utils
 galculator
 gawk
 gbrainy
-gbrainy-lang
 gc
 gcal
 gcalctool
@@ -754,7 +754,6 @@ gnibbles-lang
 gnobots2
 gnobots2-lang
 gnokii
-gnokii-lang
 gnome-about
 gnome-applets
 gnome-applets-colorblind
@@ -774,7 +773,6 @@ gnome-devel-docs
 gnome-devel-docs-lang
 gnome-disk-utility
 gnome-do
-gnome-do-lang
 gnome-do-plugins
 gnome-do-plugins-lang
 gnome-doc-utils
@@ -960,6 +958,7 @@ htdig
 html-dtd
 html2ps
 html2text
+hugin
 hunspell
 hunspell-tools
 hwinfo
@@ -2012,6 +2011,7 @@ libpanel-applet-3-0
 libpango-1_0-0
 libpango-1_0-0-32bit
 libpangomm-1_4-1
+libpano13-1
 libparted0
 libpcap1
 libpciaccess0
@@ -2053,6 +2053,8 @@ libpopt0
 libpopt0-32bit
 libppl9
 libppl_c4
+libpq5
+libpq5-32bit
 libprotobuf6
 libproxy1
 libproxy1-32bit
@@ -2227,6 +2229,7 @@ libseed0
 libselinux1
 libselinux1-32bit
 libsensors4
+libsensors4-32bit
 libsensors4-devel
 libsepol1
 libsepol1-32bit
@@ -2249,6 +2252,7 @@ libsmoke2
 libsndfile
 libsndfile-32bit
 libsnmp25
+libsnmp25-32bit
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
@@ -2403,6 +2407,7 @@ libxine1-gnome-vfs
 libxine1-pulse
 libxklavier-devel
 libxklavier16
+libxmi0
 libxml2
 libxml2-32bit
 libxml2-devel
@@ -2559,7 +2564,6 @@ motv
 mousepad
 mousepad-lang
 mousetweaks
-mozilla-js192
 mozilla-js20
 mozilla-kde4-integration
 mozilla-nspr
@@ -2570,9 +2574,6 @@ mozilla-nss-32bit
 mozilla-nss-certs
 mozilla-nss-certs-32bit
 mozilla-nss-devel
-mozilla-xulrunner192
-mozilla-xulrunner192-gnome
-mozilla-xulrunner192-translations-common
 mozilla-xulrunner20
 mozilla-xulrunner20-gnome
 mozilla-xulrunner20-translations-common
@@ -2758,7 +2759,6 @@ pango-devel
 pango-tools
 pango-tools-32bit
 paprefs
-paprefs-lang
 papyon
 par
 parcellite
@@ -2860,7 +2860,6 @@ patterns-openSUSE-xgl
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
 pavucontrol
-pavucontrol-lang
 pax
 pbm2l7k
 pciutils
@@ -2873,6 +2872,7 @@ pcre-devel
 pdfmod
 pdfmod-lang
 perl
+perl-32bit
 perl-Algorithm-Diff
 perl-Apache-AuthCookie
 perl-Apache-AuthNetLDAP
@@ -2880,10 +2880,12 @@ perl-Apache-DBI
 perl-Apache-Session
 perl-Apache-SessionX
 perl-AppConfig
+perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-BIND-Conf_Parser
 perl-BSD-Resource
+perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
@@ -3055,6 +3057,7 @@ perl-Tk
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
+perl-Unix-Syslog
 perl-WeakRef
 perl-X500-DN
 perl-XML-DOM
@@ -3175,8 +3178,6 @@ posix_cc
 poster
 postgresql
 postgresql-contrib
-postgresql-libs
-postgresql-libs-32bit
 postgresql-server
 pothana2000
 powertop
@@ -3427,7 +3428,6 @@ scotty
 scout
 screen
 scribus
-scribus-templates
 scrollkeeper
 scrollkeeper-lang
 seahorse
@@ -3606,7 +3606,6 @@ tktable
 tls
 tmpwatch
 tomboy
-tomboy-lang
 tomcat6
 tomcat6-admin-webapps
 tomcat6-el-1_0-api
@@ -3669,6 +3668,7 @@ ufraw-lang
 uim
 ulimit
 umbrello
+unarj
 unclutter
 unfonts
 ungifsicle
@@ -4132,6 +4132,7 @@ zlib
 zlib-32bit
 zlib-devel
 zlib-devel-32bit
+zoo
 zsh
 zypper
 zziplib

@@ -512,6 +512,7 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
+libqt4-sql-sqlite
 libqt4-x11
 libraptor1
 librasqal2
@@ -679,7 +680,6 @@ pcmciautils
 perl
 perl-Bootloader
 perl-Config-Crontab
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -689,7 +689,6 @@ perl-HTML-Tagset
 perl-NetxAP
 perl-Parse-RecDescent
 perl-TimeDate
-perl-URI
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -701,7 +700,6 @@ perl-XML-XPath
 perl-apparmor
 perl-base
 perl-gettext
-perl-libwww-perl
 permissions
 phonon
 phonon-backend-gstreamer-0_10
