@@ -36,6 +36,19 @@ do
         echo
      fi
      ;;
+  114-*)
+     rarch=${i/114-/}
+     mkdir -p susex/$rarch
+     echo -n "syncing $i "
+     count=`rsync -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete buildservice2.suse.de::opensuse-internal/build/openSUSE:11.4/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     echo -n "found $count packages "
+     if test "$count" = 0; then
+        echo "done"
+     else
+        touch dirty
+        echo
+     fi
+     ;;
   power-*)
      rarch=${i/power-/}
      mkdir -p susex/$rarch

@@ -36,6 +36,11 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    test -f dirty && ./doit.sh
 fi
 
+cd testtrack/
+WITHDESCR=1 ./update_full.sh 114-i586 114-x86_64
+cd ..
+(installcheck i586 testtrack/full-114-i586/suse/setup/descr/packages; installcheck x86_64 testtrack/full-114-x86_64/suse/setup/descr/packages)  | grep "nothing provides"  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps.114
+
 cd update-tests
 test -f ../dirty && ./testall.sh
 cd ..
