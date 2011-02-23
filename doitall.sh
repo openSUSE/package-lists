@@ -10,7 +10,7 @@ if test -z "$diffonly" || test -d "$diffonly"; then
       echo "<lock package='$i'/>" >> output/opensuse/frozen.xml
    done
    cd testtrack/
-   ./update_full.sh obs-i586 obs-x86_64 
+   ./update_full.sh 114-i586 114-x86_64 
    echo -n "updating patterns "
    if ./unpack_patterns.sh $diffonly > patterns.log 2>&1; then
      touch ../dirty
@@ -31,15 +31,10 @@ if test -z "$diffonly" || test -d "$diffonly"; then
    fi
    # now sync again
    cd testtrack
-   WITHDESCR=1 ./update_full.sh obs-i586 obs-x86_64 || touch ../dirty
+   WITHDESCR=1 ./update_full.sh 114-i586 114-x86_64 || touch ../dirty
    cd ..
    test -f dirty && ./doit.sh
 fi
-
-cd testtrack/
-WITHDESCR=1 ./update_full.sh 114-i586 114-x86_64
-cd ..
-(installcheck i586 testtrack/full-114-i586/suse/setup/descr/packages; installcheck x86_64 testtrack/full-114-x86_64/suse/setup/descr/packages)  | grep "nothing provides"  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps.114
 
 cd update-tests
 test -f ../dirty && ./testall.sh
@@ -67,12 +62,12 @@ fi
 
 set -e
 
-if perl create-requires x86_64 ; then
-  perl create-requires i586 || true
-fi
+#if perl create-requires x86_64 ; then
+#  perl create-requires i586 || true
+#fi
  
-installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages output/opensuse/missingdeps
-installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages >> output/opensuse/missingdeps
+installcheck i586 testtrack/full-114-i586/suse/setup/descr/packages output/opensuse/missingdeps
+installcheck x86_64 testtrack/full-114-x86_64/suse/setup/descr/packages >> output/opensuse/missingdeps
 grep "nothing provides" output/opensuse/missingdeps  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps
 echo "INSTALLCHECK:"
 cat output/opensuse/missingdeps
