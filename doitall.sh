@@ -71,9 +71,10 @@ if perl create-requires x86_64 ; then
   perl create-requires i586 || true
 fi
  
-(installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages; installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages)  | grep "nothing provides"  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps
+(installcheck i586 testtrack/full-obs-i586/suse/setup/descr/packages; installcheck x86_64 testtrack/full-obs-x86_64/suse/setup/descr/packages) > output/opensuse/missingdeps
+grep "nothing provides" output/opensuse/missingdeps  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps
 echo "INSTALLCHECK:"
-cat /tmp/missingdeps
+cat output/opensuse/missingdeps
 echo "<<<"
 
 ./rebuildpacs.sh
