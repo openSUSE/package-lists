@@ -9,3 +9,14 @@ can't install php-macros-1.2-2.1.i586:
   package php5-devel-5.3.5-10.1.i586 requires php5 = 5.3.5, but none of the providers can be installed
   package php-macros-1.2-2.1.i586 requires php5-devel, but none of the providers can be installed
   package php5-5.3.5-10.1.i586 obsoletes php-macros < 2.0 provided by php-macros-1.2-2.1.i586
+can't install lvm2-clvm-2.02.67-17.2.x86_64:
+  nothing provides lvm2 = 2.02.67 needed by lvm2-clvm-2.02.67-17.2.x86_64
+    (we have lvm2-2.02.84-14.1.x86_64)
+can't install perl-Test-Simple-0.96-1.2.noarch:
+  package perl-Test-Simple-0.96-1.2.noarch requires perl = 5.12.3, but none of the providers can be installed
+  package perl-Test-Simple-0.96-1.2.noarch requires perl(Test::Harness) >= 2.03, but none of the providers can be installed
+  package perl-5.12.3-9.1.x86_64 obsoletes perl-Test-Simple provided by perl-Test-Simple-0.96-1.2.noarch
+can't install php-macros-1.2-2.1.x86_64:
+  package php5-devel-5.3.5-10.1.x86_64 requires php5 = 5.3.5, but none of the providers can be installed
+  package php-macros-1.2-2.1.x86_64 requires php5-devel, but none of the providers can be installed
+  package php5-5.3.5-10.1.x86_64 obsoletes php-macros < 2.0 provided by php-macros-1.2-2.1.x86_64
