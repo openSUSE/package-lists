@@ -9,8 +9,6 @@
   <trial>
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
-    <uninstall name="cyrus-sasl-sqlauxprop-32bit"/>
-    <uninstall name="libqt4-sql-postgresql-32bit"/>
 
     <!-- can't have it on FTP -->
     <distupgrade/>

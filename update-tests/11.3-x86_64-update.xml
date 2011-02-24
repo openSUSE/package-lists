@@ -10,12 +10,8 @@
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
     <!-- can't have it on FTP -->
-    <uninstall name="yast2-wagon"/>
     <uninstall name="pam_ldap"/>
     <uninstall name="amavisd-new"/>
-
-    <uninstall name="cyrus-sasl-sqlauxprop-32bit"/>
-    <uninstall name="libqt4-sql-postgresql-32bit"/>
     <distupgrade/>
     <reportproblems/>
   </trial>
