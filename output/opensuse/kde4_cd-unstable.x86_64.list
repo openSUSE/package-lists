@@ -49,6 +49,7 @@ aspell
 aspell-en
 atmel-firmware
 attr
+audiofile
 audit
 augeas-lenses
 autofs
@@ -180,6 +181,7 @@ grub
 gsettings-backend-dconf
 gstreamer-0_10
 gstreamer-0_10-plugins-base
+gstreamer-0_10-plugins-good
 gtk2-branding-upstream
 gtk2-data
 gtk2-immodule-amharic
@@ -232,7 +234,6 @@ kdebase4-openSUSE
 kdebase4-openSUSE-lang
 kdebase4-runtime
 kdebase4-runtime-branding-upstream
-kdebase4-runtime-xine
 kdebase4-session
 kdebase4-workspace
 kdebase4-workspace-branding-upstream
@@ -326,6 +327,7 @@ libadns1
 libaio
 libakonadi4
 libakonadiprotocolinternals1
+libao-plugin4-esd
 libao-plugins4
 libao4
 libapparmor1
@@ -349,6 +351,7 @@ libbluedevil1
 libbluetooth3
 libboost_program_options1_44_0
 libbz2-1
+libcaca0
 libcairo2
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -377,6 +380,7 @@ libelf1
 libenchant1
 libepub0
 liberation-fonts
+libesd0
 libevent-1_4-2
 libexif12
 libexiv2-9
@@ -397,6 +401,7 @@ libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
+libgnome-keyring0
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
@@ -536,6 +541,7 @@ libsmbios2
 libsndfile
 libsoftokn3
 libsoprano4
+libsoup-2_4-1
 libspectre1
 libspeex1
 libspeexdsp1
@@ -569,6 +575,7 @@ libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libwavpack1
 libwbclient0
 libx86-1
 libx86emu1
@@ -725,7 +732,6 @@ perl-libwww-perl
 permissions
 phonon
 phonon-backend-gstreamer-0_10
-phonon-backend-xine
 pinentry
 pinentry-qt4
 pkcs11-helper
@@ -752,6 +758,7 @@ psmisc
 ptools
 pullin-flash-player
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-jack
 pulseaudio-module-lirc

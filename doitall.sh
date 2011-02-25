@@ -19,7 +19,7 @@ if test -z "$diffonly" || test -d "$diffonly"; then
      echo "unchanged"
    fi 
    cd ..
-   osc api '/build/openSUSE:Factory/_result?package=bash&repository=standard' > /tmp/state
+   osc api '/build/openSUSE:11.4/_result?package=bash&repository=standard' > /tmp/state
    if grep -q 'dirty="true"' /tmp/state || grep -q 'state="building"' /tmp/state; then
      echo "standard still dirty"
      if ! test -f dirty; then
@@ -66,8 +66,8 @@ set -e
 #  perl create-requires i586 || true
 #fi
  
-installcheck i586 testtrack/full-114-i586/suse/setup/descr/packages output/opensuse/missingdeps
-installcheck x86_64 testtrack/full-114-x86_64/suse/setup/descr/packages >> output/opensuse/missingdeps
+installcheck i586 testtrack/full-114-i586/suse/setup/descr/packages > output/opensuse/missingdeps || true
+installcheck x86_64 testtrack/full-114-x86_64/suse/setup/descr/packages >> output/opensuse/missingdeps || true
 grep "nothing provides" output/opensuse/missingdeps  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps
 echo "INSTALLCHECK:"
 cat output/opensuse/missingdeps

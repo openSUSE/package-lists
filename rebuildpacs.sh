@@ -7,12 +7,6 @@ arch=x86_64
 dir=rebuilds
 mdeps=/tmp/missingdeps
 
-# can't help
-sed -i -e '/nothing provides ctcs2/d' /tmp/missingdeps
-sed -i -e '/nothing provides zemberek-server needed by enchant-zemberek/d' /tmp/missingdeps
-sed -i -e '/nothing provides xorg-x11-Xvnc needed by tightvnc/d' /tmp/missingdeps
-sed -i -e '/nothing provides jpackage-utils >= 5.0.0 needed by jemmy-javadoc/d' /tmp/missingdeps
-
 if test "$1" = "ppc"; then
   project="openSUSE:Factory:PowerPC"
   arch="ppc"
@@ -72,9 +66,11 @@ for i in $newfiles; do
   mv -vf $i ${i/.new/.old}
 done
 
-split -l 50 /tmp/torebuild rebuilds_
-for file in rebuilds_*; do
- rebuildpacs `cat $file`
- rm -f $file
-done
+if test -s /tmp/torebuild; then
+  split -l 50 /tmp/torebuild rebuilds_
+  for file in rebuilds_*; do
+    rebuildpacs `cat $file`
+    rm -f $file
+  done
+fi
 

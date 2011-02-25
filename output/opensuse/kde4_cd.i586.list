@@ -54,6 +54,7 @@ aspell-en
 aspell-ru
 atmel-firmware
 attr
+audiofile
 audit
 augeas-lenses
 autofs
@@ -180,7 +181,6 @@ ghostscript-x11
 giflib
 gimp
 gimp-branding-openSUSE
-gimp-plugins-python
 glib-networking
 glib2-branding-openSUSE
 glib2-tools
@@ -200,6 +200,7 @@ gsettings-backend-dconf
 gstreamer-0_10
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
+gstreamer-0_10-plugins-good
 gtk2-data
 gtk2-immodule-amharic
 gtk2-immodule-inuktitut
@@ -253,7 +254,6 @@ kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
-kdebase4-runtime-xine
 kdebase4-session
 kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
@@ -343,6 +343,7 @@ libadns1
 libaio
 libakonadi4
 libakonadiprotocolinternals1
+libao-plugin4-esd
 libao-plugins4
 libao4
 libapparmor1
@@ -363,13 +364,13 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libbabl-0_1-0
-libblas3
 libblkid1
 libblocxx6
 libbluedevil1
 libbluetooth3
 libboost_program_options1_44_0
 libbz2-1
+libcaca0
 libcairo2
 libcairomm-1_0-1
 libcanberra-gtk-module-common
@@ -378,9 +379,11 @@ libcanberra-gtk2-module
 libcanberra0
 libcap-ng0
 libcap2
+libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcloog0
+libcollection2
 libcom_err2
 libcrack2
 libcroco-0_6-3
@@ -391,6 +394,7 @@ libdb-4_8
 libdbusmenu-qt2
 libdc1394-22
 libdconf0
+libdhash1
 libdiscid1
 libdjvulibre21
 libdnet1
@@ -401,12 +405,12 @@ libelf1
 libenchant1
 libepub0
 liberation-fonts
+libesd0
 libevent-1_4-2
 libexif12
 libexiv2-9
 libexpat1
 libext2fs2
-libffi45
 libfprint0
 libfreebl3
 libfreetype6
@@ -415,7 +419,6 @@ libgcr0
 libgcrypt11
 libgdk_pixbuf-2_0-0
 libgegl-0_1-0
-libgfortran45
 libggz2
 libgimp-2_0-0
 libgimpprint
@@ -423,13 +426,12 @@ libgimpui-2_0-0
 libgio-2_0-0
 libgio-fam
 libgiomm-2_4-1
-libgirepository-1_0-1
-libglade-2_0-0
 libglib-2_0-0
 libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
+libgnome-keyring0
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
@@ -455,6 +457,7 @@ libicu
 libidn
 libilmbase6
 libimobiledevice1
+libini_config2
 libiodbc3
 libiw30
 libjack0
@@ -476,7 +479,6 @@ libksba
 libksuseinstall1
 libktcore12
 libktorrent3
-liblapack3
 liblastfm0
 liblazy1
 liblcms1
@@ -508,7 +510,6 @@ libncurses6
 libneon27
 libnetpbm10
 libnl
-libnotify1
 libnscd
 libnsssharedhelper0
 libogg0
@@ -521,6 +522,7 @@ libpackagekit-qt14
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
+libpath_utils1
 libpcap1
 libpciaccess0
 libpcre0
@@ -563,6 +565,7 @@ librasqal2
 libraw1394-11
 libreadline6
 libredland0
+libref_array1
 libreiserfs
 libreoffice
 libreoffice-branding-openSUSE
@@ -598,6 +601,7 @@ libsmbios2
 libsndfile
 libsoftokn3
 libsoprano4
+libsoup-2_4-1
 libspectre1
 libspeex1
 libspeexdsp1
@@ -635,9 +639,9 @@ libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libwavpack1
 libwbclient0
 libwmf
-libwnck-1-22
 libx86-1
 libx86emu1
 libxcrypt
@@ -683,7 +687,6 @@ mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
 mozilla-xulrunner20
-mozilla-xulrunner20-gnome
 mozilla-xulrunner20-translations-common
 mpt-firmware
 mtools
@@ -701,7 +704,6 @@ netcfg
 netpbm
 nfs-client
 nfsidmap
-notification-daemon
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -803,7 +805,6 @@ perl-libwww-perl
 permissions
 phonon
 phonon-backend-gstreamer-0_10
-phonon-backend-xine
 pinentry
 pinentry-qt4
 pkcs11-helper
@@ -832,6 +833,7 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-jack
 pulseaudio-module-lirc
@@ -841,13 +843,8 @@ pulseaudio-utils
 pwdutils
 python
 python-base
-python-cairo
-python-gobject
-python-gobject-cairo
-python-gtk
 python-kde4
 python-kdebase4
-python-numpy
 python-qt4
 python-satsolver
 python-simplejson
@@ -887,6 +884,7 @@ soprano-backend-virtuoso
 sound-theme-freedesktop
 splashy
 splashy-branding-openSUSE
+sssd
 strace
 strigi
 sudo

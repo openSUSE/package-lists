@@ -25,6 +25,8 @@
     <lock package="pam-32bit"/> <!-- !i586 !x86_64 -->
     <install kind="package" name="gconf2-branding-openSUSE"/>
     <install kind="package" name="banshee-1"/>
+    <install kind="package" name="sssd"/>
+
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>
