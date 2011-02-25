@@ -10,6 +10,7 @@
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
 
+    <uninstall kind="package" name="openCryptoki-32bit"/>
     <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>
