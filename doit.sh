@@ -30,16 +30,6 @@ do_opensuse()
        diff -u output/opensuse/gnome_cd.$arch.list output/opensuse/gnome_cd-default.$arch.list | grep -v +++ | grep ^+
     done
 
-    for arch in i586 x86_64; do
-      for f in gnome_cd-default kde4_cd-default gnome_cd-x11-default kde4_cd-base-default; do
-         for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp kernel-default-base kernel-default-extra smolt virtualbox-ose-kmp-default ndiswrapper-kmp-default preload-kmp-default tango-icon-theme oxygen-icon-theme mono-core marble-data gnome-packagekit; do
-	  grep -vx $i output/opensuse/$f.$arch.list > t && mv t output/opensuse/$f.$arch.list
-	done
-        grep -v patterns-openSUSE output/opensuse/$f.$arch.list > t && mv t output/opensuse/$f.$arch.list
-      done
-      grep -vx openSUSE-release-ftp output/opensuse/x11_cd-initrd.$arch.list > t && mv t output/opensuse/x11_cd-initrd.$arch.list
-    done
-
     ./gen.sh opensuse/promo_dvd
     ./gen.sh opensuse/dvd-addon_lang
     ./gen.sh opensuse/dvd-base

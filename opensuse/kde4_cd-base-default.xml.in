@@ -23,6 +23,9 @@
     <install kind="package" name="openSUSE-release-ftp"/>
     <install kind="pattern" name="enhanced_base"/>
     <lock package="gtk2"/>
+    <lock package="cups"/>
+    <lock package="kernel-firmware"/>
     <reportProblems/>
+    <showpool verbose="true"/>
   </trial>
 </test>

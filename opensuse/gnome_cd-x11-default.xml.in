@@ -20,6 +20,7 @@
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="openSUSE-release-ftp"/>
     <install kind="pattern" name="x11"/>
+    <lock package="kernel-firmware"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

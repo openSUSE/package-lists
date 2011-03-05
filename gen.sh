@@ -105,6 +105,17 @@ do
   fi
 
   rm -rf $TESTTRACK/CD1
+
+  if echo $file | grep -q -- "-default"; then
+     for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp kernel-default-base kernel-default-extra smolt virtualbox-ose-kmp-default ndiswrapper-kmp-default preload-kmp-default tango-icon-theme oxygen-icon-theme mono-core marble-data gnome-packagekit; do
+          grep -vx $i output/$file.$arch.list > t && mv t output/$file.$arch.list
+     done
+     grep -v patterns-openSUSE output/$file.$arch.list > t && mv t output/$file.$arch.list
+  fi
+  if test "$file" = "opensuse/x11_cd-initrd"; then
+      grep -vx openSUSE-release-ftp output/$file.$arch.list > t && mv t output/$file.$arch.list
+  fi
+  
 done
 
 if test "$ret" = 1; then
