@@ -1,27 +1,17 @@
-can't install epdfview-0.1.7-16.1.i586:
-  nothing provides libpoppler-glib.so.5 needed by epdfview-0.1.7-16.1.i586
 can't install gedit-plugin-latex-0.2-2.1.i586:
   package gedit-plugin-latex-0.2-2.1.i586 requires python-poppler, but none of the providers can be installed
   nothing provides libpoppler-glib.so.5 needed by python-poppler-0.12.1-2.3.i586
-can't install lv2core-devel-4.0pre1-7.1.i586:
-  package lv2core-devel-4.0pre1-7.1.i586 requires lv2core = 4.0pre1-7.1, but none of the providers can be installed
-  nothing provides python-redland needed by lv2core-4.0pre1-7.1.i586
-can't install lv2core-4.0pre1-7.1.i586:
-  nothing provides python-redland needed by lv2core-4.0pre1-7.1.i586
+can't install libwbclient-devel-3.5.8-21.3.i586:
+  nothing provides libwbclient0 = 1.2.1 needed by libwbclient-devel-3.5.8-21.3.i586
+    (we have libwbclient0-3.5.8-21.3.i586)
 can't install lvm2-clvm-2.02.67-17.2.i586:
   nothing provides lvm2 = 2.02.67 needed by lvm2-clvm-2.02.67-17.2.i586
     (we have lvm2-2.02.84-14.1.i586)
-can't install package-lists-openSUSE-GNOME-cd-11.4-22.1.i586:
-  nothing provides libpoppler-glib5 needed by package-lists-openSUSE-GNOME-cd-11.4-22.1.i586
-  nothing provides libpoppler7 needed by package-lists-openSUSE-GNOME-cd-11.4-22.1.i586
-can't install package-lists-openSUSE-KDE-cd-11.4-22.1.i586:
-  nothing provides libpoppler-glib5 needed by package-lists-openSUSE-KDE-cd-11.4-22.1.i586
-  nothing provides libpoppler7 needed by package-lists-openSUSE-KDE-cd-11.4-22.1.i586
-can't install package-lists-openSUSE-X11-cd-11.4-22.1.i586:
-  nothing provides libpoppler7 needed by package-lists-openSUSE-X11-cd-11.4-22.1.i586
-can't install package-lists-openSUSE-images-11.4-22.1.i586:
-  nothing provides libpoppler-glib5 needed by package-lists-openSUSE-images-11.4-22.1.i586
-  nothing provides libpoppler7 needed by package-lists-openSUSE-images-11.4-22.1.i586
+can't install openvas-scanner-3.0.2-9.1.i586:
+  nothing provides libopenvas_base.so.3 needed by openvas-scanner-3.0.2-9.1.i586
+  nothing provides libopenvas_hg.so.3 needed by openvas-scanner-3.0.2-9.1.i586
+  nothing provides libopenvas_misc.so.3 needed by openvas-scanner-3.0.2-9.1.i586
+  nothing provides libopenvas_nasl.so.3 needed by openvas-scanner-3.0.2-9.1.i586
 can't install pdfmod-lang-0.9.0-10.1.noarch:
   package pdfmod-lang-0.9.0-10.1.noarch requires pdfmod = 0.9.0, but none of the providers can be installed
   nothing provides libpoppler-glib5 needed by pdfmod-0.9.0-10.1.i586
@@ -29,32 +19,20 @@ can't install pdfmod-0.9.0-10.1.i586:
   nothing provides libpoppler-glib5 needed by pdfmod-0.9.0-10.1.i586
 can't install python-poppler-0.12.1-2.3.i586:
   nothing provides libpoppler-glib.so.5 needed by python-poppler-0.12.1-2.3.i586
-can't install xpdf-poppler-3.02-13.13.i586:
-  nothing provides libpoppler.so.7 needed by xpdf-poppler-3.02-13.13.i586
-can't install epdfview-0.1.7-16.1.x86_64:
-  nothing provides libpoppler-glib.so.5()(64bit) needed by epdfview-0.1.7-16.1.x86_64
 can't install gedit-plugin-latex-0.2-2.1.x86_64:
   package gedit-plugin-latex-0.2-2.1.x86_64 requires python-poppler, but none of the providers can be installed
   nothing provides libpoppler-glib.so.5()(64bit) needed by python-poppler-0.12.1-2.3.x86_64
-can't install lv2core-devel-4.0pre1-7.1.x86_64:
-  package lv2core-devel-4.0pre1-7.1.x86_64 requires lv2core = 4.0pre1-7.1, but none of the providers can be installed
-  nothing provides python-redland needed by lv2core-4.0pre1-7.1.x86_64
-can't install lv2core-4.0pre1-7.1.x86_64:
-  nothing provides python-redland needed by lv2core-4.0pre1-7.1.x86_64
+can't install libwbclient-devel-3.5.8-21.3.x86_64:
+  nothing provides libwbclient0 = 1.2.1 needed by libwbclient-devel-3.5.8-21.3.x86_64
+    (we have libwbclient0-3.5.8-21.3.x86_64)
 can't install lvm2-clvm-2.02.67-17.2.x86_64:
   nothing provides lvm2 = 2.02.67 needed by lvm2-clvm-2.02.67-17.2.x86_64
     (we have lvm2-2.02.84-14.1.x86_64)
-can't install package-lists-openSUSE-GNOME-cd-11.4-22.1.x86_64:
-  nothing provides libpoppler-glib5 needed by package-lists-openSUSE-GNOME-cd-11.4-22.1.x86_64
-  nothing provides libpoppler7 needed by package-lists-openSUSE-GNOME-cd-11.4-22.1.x86_64
-can't install package-lists-openSUSE-KDE-cd-11.4-22.1.x86_64:
-  nothing provides libpoppler-glib5 needed by package-lists-openSUSE-KDE-cd-11.4-22.1.x86_64
-  nothing provides libpoppler7 needed by package-lists-openSUSE-KDE-cd-11.4-22.1.x86_64
-can't install package-lists-openSUSE-X11-cd-11.4-22.1.x86_64:
-  nothing provides libpoppler7 needed by package-lists-openSUSE-X11-cd-11.4-22.1.x86_64
-can't install package-lists-openSUSE-images-11.4-22.1.x86_64:
-  nothing provides libpoppler-glib5 needed by package-lists-openSUSE-images-11.4-22.1.x86_64
-  nothing provides libpoppler7 needed by package-lists-openSUSE-images-11.4-22.1.x86_64
+can't install openvas-scanner-3.0.2-9.1.x86_64:
+  nothing provides libopenvas_base.so.3()(64bit) needed by openvas-scanner-3.0.2-9.1.x86_64
+  nothing provides libopenvas_hg.so.3()(64bit) needed by openvas-scanner-3.0.2-9.1.x86_64
+  nothing provides libopenvas_misc.so.3()(64bit) needed by openvas-scanner-3.0.2-9.1.x86_64
+  nothing provides libopenvas_nasl.so.3()(64bit) needed by openvas-scanner-3.0.2-9.1.x86_64
 can't install pdfmod-lang-0.9.0-10.1.noarch:
   package pdfmod-lang-0.9.0-10.1.noarch requires pdfmod = 0.9.0, but none of the providers can be installed
   nothing provides libpoppler-glib5 needed by pdfmod-0.9.0-10.1.x86_64
@@ -62,5 +40,3 @@ can't install pdfmod-0.9.0-10.1.x86_64:
   nothing provides libpoppler-glib5 needed by pdfmod-0.9.0-10.1.x86_64
 can't install python-poppler-0.12.1-2.3.x86_64:
   nothing provides libpoppler-glib.so.5()(64bit) needed by python-poppler-0.12.1-2.3.x86_64
-can't install xpdf-poppler-3.02-13.13.x86_64:
-  nothing provides libpoppler.so.7()(64bit) needed by xpdf-poppler-3.02-13.13.x86_64

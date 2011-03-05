@@ -28,7 +28,6 @@ autoyast2-installation
 awesfx
 b43-fwcutter
 bash
-bc
 bind-libs
 bind-utils
 bluez-firmware
@@ -69,7 +68,6 @@ dbus-1
 dbus-1-glib
 dbus-1-x11
 dconf
-ddrescue
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -188,6 +186,8 @@ libXi6
 libacl
 libadns1
 libaio
+libao-plugins4
+libao4
 libarchive2
 libasm1
 libasound2
@@ -269,6 +269,7 @@ libiw30
 libjack0
 libjasper1
 libjpeg62
+libkate1
 libksba
 liblcms1
 libldap-2_4-2
@@ -331,6 +332,7 @@ libsmbios2
 libsndfile
 libsoftokn3
 libsoup-2_4-1
+libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++45
@@ -352,6 +354,7 @@ libuuid1
 libvmtools0
 libvorbis0
 libvorbisenc2
+libvorbisfile3
 libwbclient0
 libx86-1
 libx86emu1
@@ -546,6 +549,8 @@ virtualbox-guest-kmp-default
 virtualbox-guest-tools
 virtualbox-guest-x11
 vmware-guest-kmp-default
+vorbis-tools
+vorbis-tools-lang
 w3m
 wdiff
 wget

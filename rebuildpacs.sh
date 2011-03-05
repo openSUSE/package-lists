@@ -1,6 +1,7 @@
 set -e
 export LC_ALL=C
 
+ret=0
 project=openSUSE:Factory
 repo=standard
 arch=x86_64
@@ -38,6 +39,7 @@ function rebuildpacs {
  done
  if test -n "$api"; then
    #echo "$api"
+   ret=1
    osc api -m POST "/build/$project?cmd=rebuild&repository=$repo$api"
  fi
 }
@@ -74,3 +76,4 @@ if test -s /tmp/torebuild; then
   done
 fi
 
+exit $ret
