@@ -35,15 +35,12 @@ NetworkManager-kde4-libs
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde4
-NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
 NetworkManager-pptp-kde4
-NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
-NetworkManager-vpnc-lang
 OpenIPMI
 PackageKit
 PackageKit-branding-openSUSE
@@ -117,10 +114,8 @@ ant-jdepend
 ant-jmf
 ant-junit
 ant-manual
-ant-nodeps
 ant-scripts
 ant-swing
-ant-trax
 anthy
 antlr
 antlr-java
@@ -231,6 +226,7 @@ blender
 blender-doc
 blinken
 bluedevil
+bluedevil-lang
 bluez
 bluez-cups
 bluez-devel
@@ -722,7 +718,6 @@ gnome-devel-docs-lang
 gnome-disk-utility
 gnome-do
 gnome-do-plugins
-gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-docker
@@ -956,9 +951,6 @@ ipw-firmware
 irda
 irssi
 iscan-free
-iscsitarget-kmp-default
-iscsitarget-kmp-desktop
-iscsitarget-kmp-xen
 isns
 iso-codes
 iso-codes-devel
@@ -1219,7 +1211,6 @@ kiwi-config-openSUSE
 kiwi-desc-isoboot
 kiwi-desc-netboot
 kiwi-desc-oemboot
-kiwi-desc-usbboot
 kiwi-desc-vmxboot
 kiwi-pxeboot
 kiwi-templates
@@ -1285,6 +1276,7 @@ konquest
 konsole
 kontact
 konversation
+konversation-lang
 kopete
 korganizer
 kpackagekit
@@ -1486,6 +1478,7 @@ libchewing
 libcloog0
 libclutter-glx-1_0-0
 libclutter-gtk-0_10-0
+libcollection2
 libcolorblind0
 libcom_err-devel
 libcom_err2
@@ -1507,12 +1500,12 @@ libdb-4_8-devel
 libdbusmenu-qt2
 libdc1394-22
 libdconf0
+libdhash1
 libdirac_encoder0
 libdiscid1
 libdjvulibre21
 libdlm
 libdlm3
-libdnet1
 libdns_sd
 libdrm
 libdrm-devel
@@ -1721,6 +1714,7 @@ libieee1284
 libilmbase-devel
 libilmbase6
 libimobiledevice1
+libini_config2
 libiniparser0
 libiodbc3
 libiptcdata
@@ -1870,6 +1864,7 @@ libpango-1_0-0
 libpangomm-1_4-1
 libpano13-1
 libparted0
+libpath_utils1
 libpcap1
 libpciaccess0
 libpciaccess0-devel
@@ -1952,6 +1947,7 @@ librcps0
 libreadline6
 libredland-devel
 libredland0
+libref_array1
 libreiserfs
 libreoffice
 libreoffice-base
@@ -2137,7 +2133,6 @@ libudev0
 libunique-1_0-0
 libunique-devel
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-devel
@@ -2156,7 +2151,6 @@ libvirt-client
 libvirt-python
 libvisual
 libvisual-devel
-libvmtools0
 libvoikko1
 libvorbis0
 libvorbisenc2
@@ -2406,7 +2400,6 @@ nagios
 nagios-plugins
 nagios-www
 nano
-nano-lang
 nasm
 nautilus
 nautilus-deja-dup
@@ -2431,9 +2424,6 @@ ncurses-devel
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
-ndiswrapper
-ndiswrapper-kmp-default
-ndiswrapper-kmp-desktop
 nemiver
 nemiver-lang
 net-snmp
@@ -2471,8 +2461,6 @@ omnibook-kmp-default
 omnibook-kmp-desktop
 omnibook-kmp-xen
 open-iscsi
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-dynamic-wallpaper
 openSUSE-release
@@ -2930,7 +2918,6 @@ plasma-theme-aya
 plasmoid-quickaccess
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 pmidi
 podofo
 podsleuth
@@ -2955,8 +2942,6 @@ pptp
 pptpd
 prctl
 preload
-preload-kmp-default
-preload-kmp-desktop
 privoxy
 procinfo
 procmail
@@ -3087,7 +3072,6 @@ python-totem
 python-twisted
 python-twisted-doc
 python-urlgrabber
-python-virtualbox
 python-vte
 python-webkitgtk
 python-wnck
@@ -3233,7 +3217,6 @@ slib
 slrn
 smartmontools
 smb4k
-smb4k-doc
 smb4k-lang
 smolt
 smolt-gui
@@ -3263,6 +3246,7 @@ squashfs
 squid3
 squidGuard
 sshfs
+sssd
 star
 startup-notification-devel
 step
@@ -3458,8 +3442,6 @@ vacation
 vala
 valgrind
 vamp-plugin-sdk
-vboxgtk
-vboxgtk-lang
 vdr
 vim
 vim-base
@@ -3470,25 +3452,14 @@ vino
 virt-manager
 virt-utils
 virt-viewer
-virtualbox
-virtualbox-guest-kmp-default
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
-virtualbox-host-kmp-default
-virtualbox-host-kmp-desktop
-virtualbox-qt
 virtuoso-drivers
 virtuoso-server
 vlan
 vlgothic
 vlock
 vm-install
-vmware-guest-kmp-default
-vmware-guest-kmp-desktop
 vobject
 vorbis-tools
-vorbis-tools-lang
 vpnc
 vsftpd
 vtcl

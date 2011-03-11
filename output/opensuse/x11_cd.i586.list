@@ -194,7 +194,6 @@ libasound2
 libassuan0
 libatasmart4
 libatk-1_0-0
-libatkmm-1_6-1
 libattr
 libaudit1
 libaugeas0
@@ -206,7 +205,6 @@ libblocxx6
 libbluetooth3
 libbz2-1
 libcairo2
-libcairomm-1_0-1
 libcap-ng0
 libcap2
 libcdio12
@@ -220,7 +218,6 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdconf0
-libdnet1
 libdrm
 libdw1
 libelf1
@@ -241,12 +238,11 @@ libgdu-lang
 libgdu0
 libgimpprint
 libgio-2_0-0
-libgiomm-2_4-1
 libglib-2_0-0
-libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
+libgnome-keyring-lang
 libgnome-keyring0
 libgnutls-extra26
 libgnutls26
@@ -259,10 +255,8 @@ libgphoto2
 libgssglue1
 libgthread-2_0-0
 libgtk-2_0-0
-libgtkmm-2_4-1
 libgudev-1_0-0
 libgvfscommon0
-libicu
 libidn
 libimobiledevice1
 libiw30
@@ -295,7 +289,6 @@ libogg0
 libopenobex1
 libopenssl1_0_0
 libpango-1_0-0
-libpangomm-1_4-1
 libparted0
 libpcap1
 libpciaccess0
@@ -324,7 +317,6 @@ libreadline6
 libreiserfs
 libselinux1
 libsepol1
-libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios-bin
@@ -346,12 +338,10 @@ libtiff3
 libtirpc1
 libudev0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
 libuuid1
-libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -396,10 +386,7 @@ mpt-firmware
 mtools
 multipath-tools
 nano
-nano-lang
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 net-tools
 netcat
 netcfg
@@ -412,8 +399,6 @@ ntfsprogs
 ntp
 numlockx
 obex-data-server
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-x11
@@ -472,7 +457,6 @@ pinentry
 pkg-config
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 poppler-tools
@@ -481,7 +465,6 @@ postfix
 ppp
 pptp
 preload
-preload-kmp-default
 procps
 psmisc
 pullin-flash-player
@@ -545,12 +528,7 @@ utempter
 util-linux
 vim
 vim-base
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
-vmware-guest-kmp-default
 vorbis-tools
-vorbis-tools-lang
 w3m
 wdiff
 wget

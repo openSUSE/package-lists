@@ -35,15 +35,12 @@ NetworkManager-kde4-libs
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde4
-NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
 NetworkManager-pptp-kde4
-NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
-NetworkManager-vpnc-lang
 PackageKit
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
@@ -105,10 +102,8 @@ ant-jdepend
 ant-jmf
 ant-junit
 ant-manual
-ant-nodeps
 ant-scripts
 ant-swing
-ant-trax
 anthy
 antlr
 antlr-java
@@ -204,6 +199,7 @@ binutils-gold
 bison
 blinken
 bluedevil
+bluedevil-lang
 bluez
 bluez-devel
 bluez-firmware
@@ -605,7 +601,6 @@ gnome-desktop2
 gnome-disk-utility
 gnome-do
 gnome-do-plugins
-gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-docker
@@ -973,7 +968,6 @@ kiwi-config-openSUSE
 kiwi-desc-isoboot
 kiwi-desc-netboot
 kiwi-desc-oemboot
-kiwi-desc-usbboot
 kiwi-desc-vmxboot
 kiwi-pxeboot
 kiwi-templates
@@ -995,6 +989,7 @@ konqueror-plugins-lang
 konsole
 kontact
 konversation
+konversation-lang
 kopete
 korganizer
 kpackagekit
@@ -1208,7 +1203,6 @@ libdconf0
 libdirac_encoder0
 libdiscid1
 libdjvulibre21
-libdnet1
 libdns_sd
 libdrm
 libdrm-32bit
@@ -1838,7 +1832,6 @@ libudev0
 libunique-1_0-0
 libunique-devel
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-0-32bit
@@ -1859,7 +1852,6 @@ libvirt-client
 libvirt-python
 libvisual
 libvisual-devel
-libvmtools0
 libvoikko1
 libvorbis0
 libvorbis0-32bit
@@ -2071,7 +2063,6 @@ nagios
 nagios-plugins
 nagios-www
 nano
-nano-lang
 nautilus
 nautilus-devel
 nautilus-evince
@@ -2089,9 +2080,6 @@ ncurses-devel
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
-ndiswrapper
-ndiswrapper-kmp-default
-ndiswrapper-kmp-desktop
 net-tools
 netcat
 netcat-openbsd
@@ -2125,8 +2113,6 @@ omnibook-kmp-default
 omnibook-kmp-desktop
 omnibook-kmp-xen
 open-iscsi
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-dynamic-wallpaper
 openSUSE-release
@@ -2403,7 +2389,6 @@ plasma-theme-aya
 plasmoid-quickaccess
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-gnome
@@ -2419,8 +2404,6 @@ ppp-userpass
 pptp
 prctl
 preload
-preload-kmp-default
-preload-kmp-desktop
 procinfo
 procmail
 procps
@@ -2504,7 +2487,6 @@ python-smbc
 python-telepathy
 python-totem
 python-urlgrabber
-python-virtualbox
 python-vte
 python-wnck
 python-xdg
@@ -2762,8 +2744,6 @@ utempter
 util-linux
 vacation
 valgrind
-vboxgtk
-vboxgtk-lang
 vim
 vim-base
 vim-data
@@ -2773,23 +2753,12 @@ vino
 virt-manager
 virt-utils
 virt-viewer
-virtualbox
-virtualbox-guest-kmp-default
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
-virtualbox-host-kmp-default
-virtualbox-host-kmp-desktop
-virtualbox-qt
 virtuoso-drivers
 virtuoso-server
 vlan
 vlgothic
 vm-install
-vmware-guest-kmp-default
-vmware-guest-kmp-desktop
 vorbis-tools
-vorbis-tools-lang
 vpnc
 vsftpd
 vte-devel

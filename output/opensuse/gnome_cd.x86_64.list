@@ -12,13 +12,10 @@ NetworkManager-glib
 NetworkManager-gnome
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
-NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
-NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
-NetworkManager-vpnc-lang
 PackageKit
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
@@ -252,7 +249,6 @@ gnome-desktop2
 gnome-disk-utility
 gnome-do
 gnome-do-plugins
-gnome-do-plugins-lang
 gnome-doc-utils
 gnome-docker
 gnome-games-recommended
@@ -460,7 +456,6 @@ libdconf0
 libdhash1
 libdirac_encoder0
 libdjvulibre21
-libdnet1
 libdrm
 libdv4
 libdvdnav4
@@ -742,14 +737,12 @@ libtracker-sparql-0_10-0
 libudev0
 libunique-1_0-0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
 libuuid1
 libvdpau1
 libvisual
-libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -825,7 +818,6 @@ mtools
 multipath-tools
 myspell-american
 nano
-nano-lang
 nautilus
 nautilus-evince
 nautilus-extension-tracker-tags
@@ -839,8 +831,6 @@ nautilus-totem
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
-ndiswrapper
-ndiswrapper-kmp-desktop
 net-tools
 netcat
 netcfg
@@ -858,8 +848,6 @@ numactl
 numlockx
 obex-data-server
 obexd
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-dynamic-wallpaper
 openSUSE-release
@@ -961,7 +949,6 @@ pkcs11-helper
 pkg-config
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-gnome
@@ -971,7 +958,6 @@ postfix
 ppp
 pptp
 preload
-preload-kmp-desktop
 procps
 psmisc
 pullin-flash-player
@@ -1139,12 +1125,7 @@ util-linux
 vim
 vim-base
 vino
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
-vmware-guest-kmp-desktop
 vorbis-tools
-vorbis-tools-lang
 vpnc
 w3m
 wdiff

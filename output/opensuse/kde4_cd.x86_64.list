@@ -14,13 +14,10 @@ NetworkManager-glib
 NetworkManager-kde4-libs
 NetworkManager-openvpn
 NetworkManager-openvpn-kde4
-NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-kde4
-NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
-NetworkManager-vpnc-lang
 PackageKit
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
@@ -348,7 +345,6 @@ libasound2
 libassuan0
 libatasmart4
 libatk-1_0-0
-libatkmm-1_6-1
 libattica0
 libattr
 libaudit1
@@ -367,7 +363,6 @@ libboost_program_options1_44_0
 libbz2-1
 libcaca0
 libcairo2
-libcairomm-1_0-1
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -392,7 +387,6 @@ libdconf0
 libdhash1
 libdiscid1
 libdjvulibre21
-libdnet1
 libdrm
 libdvdread4
 libdw1
@@ -420,9 +414,7 @@ libgimpprint
 libgimpui-2_0-0
 libgio-2_0-0
 libgio-fam
-libgiomm-2_4-1
 libglib-2_0-0
-libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
@@ -445,7 +437,6 @@ libgstinterfaces-0_10-0
 libgstreamer-0_10-0
 libgthread-2_0-0
 libgtk-2_0-0
-libgtkmm-2_4-1
 libgudev-1_0-0
 libical0
 libicu
@@ -519,7 +510,6 @@ liborc-0_4-0
 libpackagekit-glib2-14
 libpackagekit-qt14
 libpango-1_0-0
-libpangomm-1_4-1
 libparted0
 libpath_utils1
 libpcap1
@@ -591,7 +581,6 @@ libsamplerate
 libselinux1
 libsensors4
 libsepol1
-libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios-bin
@@ -622,7 +611,6 @@ libtiff3
 libtirpc1
 libudev0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
@@ -632,7 +620,6 @@ libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvisual
-libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -671,7 +658,6 @@ lukemftp
 lvm2
 mailx
 man
-manufacturer-PPDs
 master-boot-code
 mc
 mdadm
@@ -694,10 +680,7 @@ myspell-american
 mysql-community-server
 mysql-community-server-client
 nano
-nano-lang
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-desktop
 net-tools
 netcat
 netcfg
@@ -712,8 +695,6 @@ ntp
 numactl
 numlockx
 okular
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-kde
@@ -816,7 +797,6 @@ plasmoid-networkmanagement
 plasmoid-quickaccess
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-kde-agent-1
@@ -827,7 +807,6 @@ postfix
 ppp
 pptp
 preload
-preload-kmp-desktop
 procps
 psmisc
 ptools
@@ -863,7 +842,6 @@ rpm-python
 rsync
 rsyslog
 rtkit
-samba-client
 satsolver-tools
 sax2-tools
 sbl
@@ -919,14 +897,9 @@ utempter
 util-linux
 vim
 vim-base
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
-vmware-guest-kmp-desktop
 vorbis-tools
-vorbis-tools-lang
 vpnc
 w3m
 wdiff
