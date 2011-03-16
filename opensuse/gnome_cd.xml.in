@@ -5,7 +5,7 @@
     <system file="solver-system.xml"/>
     <locale name="en_US"/>
     <locale name="de"/>
-    <locale name="ru"/>
+<!--    <locale name="ru"/> -->
     <!-- locale name="it"/ -->
     <!-- locale name="es"/ -->
     <!-- locale name="pl"/ -->
@@ -25,7 +25,6 @@
     <lock package="pam-32bit"/> <!-- !i586 !x86_64 -->
     <install kind="package" name="gconf2-branding-openSUSE"/>
     <install kind="package" name="banshee-1"/>
-    <install kind="package" name="sssd"/>
 
     <reportProblems/>
     <showpool verbose="true"/>

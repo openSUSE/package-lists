@@ -50,6 +50,8 @@ prep_patterns()
 
 }
 
+cp solver-system.xml output/`dirname $file`
+
 for i in $GEN_ARCH;
 do
   arch=$i

@@ -30,7 +30,7 @@ cp -a output/opensuse/gnome_cd.i586.list osc/openSUSE:Factory:Live/package-lists
 cp -a output/opensuse/gnome_cd.x86_64.list osc/openSUSE:Factory:Live/package-lists-gnome.x86_64/packagelist
 
 osc ci -m "update from desdemona" osc/openSUSE:Factory:Live/package-lists-*
-(cd osc/openSUSE:Factory:Live/kiwi-oem-x11-x86_64; osc up -e)
-(sed -n -e '1,/ PACKAGES BEGIN/p' osc/openSUSE\:Factory\:Live/kiwi-oem-x11-x86_64/kiwi-oem-x11.kiwi ; cat output/opensuse/x11_cd-boottest.x86_64.list | while read pack; do echo '<package name="'$pack'"/>'; done; sed -n -e '/ PACKAGES END/,$p'  osc/openSUSE\:Factory\:Live/kiwi-oem-x11-x86_64/kiwi-oem-x11.kiwi)| xmllint --format - > t && mv t osc/openSUSE\:Factory\:Live/kiwi-oem-x11-x86_64/kiwi-oem-x11.kiwi
-(cd osc/openSUSE:Factory:Live/kiwi-oem-x11-x86_64; osc diff ; osc ci -m "update")
+(cd osc/openSUSE:Factory:Live/kiwi-usb-kde-x86_64; osc up -e)
+(sed -n -e '1,/ PACKAGES BEGIN/p' osc/openSUSE\:Factory\:Live/kiwi-usb-kde-x86_64/kiwi-usb-kde.kiwi ; cat output/opensuse/dvd-base.x86_64.list | while read pack; do echo '<package name="'$pack'"/>'; done; sed -n -e '/ PACKAGES END/,$p'  osc/openSUSE\:Factory\:Live/kiwi-usb-kde-x86_64/kiwi-usb-kde.kiwi)| xmllint --format - > t && mv t osc/openSUSE\:Factory\:Live/kiwi-usb-kde-x86_64/kiwi-usb-kde.kiwi
+(cd osc/openSUSE:Factory:Live/kiwi-usb-kde-x86_64; osc diff ; osc ci -m "update")
 
