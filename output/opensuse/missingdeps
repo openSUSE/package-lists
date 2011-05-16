@@ -11,6 +11,11 @@ can't install MozillaThunderbird-translations-other-3.1.8-14.1.i586:
   nothing provides libnotify.so.1 needed by MozillaThunderbird-3.1.8-14.1.i586
 can't install MozillaThunderbird-3.1.8-14.1.i586:
   nothing provides libnotify.so.1 needed by MozillaThunderbird-3.1.8-14.1.i586
+can't install MyODBC-unixODBC-3.51.27r695-14.2.i586:
+  nothing provides libmysqlclient.so.16 needed by MyODBC-unixODBC-3.51.27r695-14.2.i586
+  nothing provides libmysqlclient.so.16(libmysqlclient_16) needed by MyODBC-unixODBC-3.51.27r695-14.2.i586
+  nothing provides libmysqlclient_r.so.16 needed by MyODBC-unixODBC-3.51.27r695-14.2.i586
+  nothing provides libmysqlclient_r.so.16(libmysqlclient_16) needed by MyODBC-unixODBC-3.51.27r695-14.2.i586
 can't install NetworkManager-novellvpn-gnome-0.7.2.r1138-11.1.i586:
   nothing provides libnm-util.so.1 needed by NetworkManager-novellvpn-gnome-0.7.2.r1138-11.1.i586
 can't install NetworkManager-novellvpn-kde4-0.9.svn1192577-6.1.i586:
@@ -18,6 +23,11 @@ can't install NetworkManager-novellvpn-kde4-0.9.svn1192577-6.1.i586:
   nothing provides libnm-util.so.1 needed by NetworkManager-novellvpn-0.7.2.r1138-11.1.i586
 can't install NetworkManager-novellvpn-0.7.2.r1138-11.1.i586:
   nothing provides libnm-util.so.1 needed by NetworkManager-novellvpn-0.7.2.r1138-11.1.i586
+can't install amarok-lang-2.4.0.90-12.4.noarch:
+  package amarok-lang-2.4.0.90-12.4.noarch requires amarok = 2.4.0.90, but none of the providers can be installed
+  nothing provides taglib >= 1.6 needed by amarok-2.4.0.90-12.4.i586
+can't install amarok-2.4.0.90-12.4.i586:
+  nothing provides taglib >= 1.6 needed by amarok-2.4.0.90-12.4.i586
 can't install anjuta-devel-2.32.1.1-7.2.i586:
   package anjuta-devel-2.32.1.1-7.2.i586 requires anjuta = 2.32.1.1, but none of the providers can be installed
   nothing provides libdevhelp-2.so.1 needed by anjuta-2.32.1.1-7.2.i586
@@ -50,6 +60,13 @@ can't install anjuta-2.32.1.1-7.2.i586:
   nothing provides libgdl-1.so.3 needed by anjuta-2.32.1.1-7.2.i586
   nothing provides libgladeui-1.so.9 needed by anjuta-2.32.1.1-7.2.i586
   nothing provides libvala-0.10.so.0 needed by anjuta-2.32.1.1-7.2.i586
+can't install apache2-mod_perl-devel-2.0.4-54.3.i586:
+  package apache2-mod_perl-devel-2.0.4-54.3.i586 requires apache2-mod_perl = 2.0.4, but none of the providers can be installed
+  nothing provides perl = 5.12.3 needed by apache2-mod_perl-2.0.4-54.3.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install apache2-mod_perl-2.0.4-54.3.i586:
+  nothing provides perl = 5.12.3 needed by apache2-mod_perl-2.0.4-54.3.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install byzanz-lang-0.2.3-1.1.noarch:
   package byzanz-lang-0.2.3-1.1.noarch requires byzanz = 0.2.3, but none of the providers can be installed
   nothing provides libpanel-applet-2.so.0 needed by byzanz-0.2.3-1.1.i586
@@ -60,15 +77,21 @@ can't install claws-mail-extra-plugins-devel-3.7.9-1.1.i586:
   nothing provides libchamplain-0.8.so.1 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
   nothing provides libchamplain-gtk-0.8.so.1 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
   nothing provides libclutter-gtk-0.10.so.0 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
+  nothing provides perl = 5.12.3 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install claws-mail-extra-plugins-lang-3.7.9-1.1.noarch:
   package claws-mail-extra-plugins-lang-3.7.9-1.1.noarch requires claws-mail-extra-plugins = 3.7.9, but none of the providers can be installed
   nothing provides libchamplain-0.8.so.1 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
   nothing provides libchamplain-gtk-0.8.so.1 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
   nothing provides libclutter-gtk-0.10.so.0 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
+  nothing provides perl = 5.12.3 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install claws-mail-extra-plugins-3.7.9-1.1.i586:
   nothing provides libchamplain-0.8.so.1 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
   nothing provides libchamplain-gtk-0.8.so.1 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
   nothing provides libclutter-gtk-0.10.so.0 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
+  nothing provides perl = 5.12.3 needed by claws-mail-extra-plugins-3.7.9-1.1.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install compiz-branding-openSUSE-0.9.2.1-9.4.i586:
   package compiz-branding-openSUSE-0.9.2.1-9.4.i586 requires compiz = 0.9.2.1, but none of the providers can be installed
   nothing provides libgnome-window-settings.so.1 needed by compiz-0.9.2.1-9.4.i586
@@ -118,15 +141,6 @@ can't install contact-lookup-applet-lang-0.17-12.1.noarch:
   nothing provides libpanel-applet-2.so.0 needed by contact-lookup-applet-0.17-12.1.i586
 can't install contact-lookup-applet-0.17-12.1.i586:
   nothing provides libpanel-applet-2.so.0 needed by contact-lookup-applet-0.17-12.1.i586
-can't install cpanspec-1.78-28.1.noarch:
-  package cpanspec-1.78-28.1.noarch requires perl(Parse::CPAN::Packages), but none of the providers can be installed
-  package perl-Parse-CPAN-Packages-2.33-2.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.i586
-can't install deja-dup-lang-16.1.1-5.1.noarch:
-  package deja-dup-lang-16.1.1-5.1.noarch requires deja-dup = 16.1.1, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by deja-dup-16.1.1-5.1.i586
-can't install deja-dup-16.1.1-5.1.i586:
-  nothing provides libnotify.so.1 needed by deja-dup-16.1.1-5.1.i586
 can't install drapes-lang-0.5.2-6.1.noarch:
   package drapes-lang-0.5.2-6.1.noarch requires drapes = 0.5.2, but none of the providers can be installed
   package drapes-0.5.2-6.1.noarch requires mono(gnome-panel-sharp) = 2.24.0.0, but none of the providers can be installed
@@ -146,6 +160,7 @@ can't install empathy-lang-2.32.2-8.1.noarch:
   nothing provides libfolks.so.1 needed by empathy-2.32.2-8.1.i586
   nothing provides libgcr.so.0 needed by empathy-2.32.2-8.1.i586
   nothing provides libnm-glib.so.2 needed by empathy-2.32.2-8.1.i586
+  nothing provides libtelepathy-logger.so.1 needed by empathy-2.32.2-8.1.i586
 can't install empathy-2.32.2-8.1.i586:
   nothing provides libnotify.so.1 needed by empathy-2.32.2-8.1.i586
   nothing provides libchamplain-0.8.so.1 needed by empathy-2.32.2-8.1.i586
@@ -155,25 +170,7 @@ can't install empathy-2.32.2-8.1.i586:
   nothing provides libfolks.so.1 needed by empathy-2.32.2-8.1.i586
   nothing provides libgcr.so.0 needed by empathy-2.32.2-8.1.i586
   nothing provides libnm-glib.so.2 needed by empathy-2.32.2-8.1.i586
-can't install eog-plugins-lang-2.30.1-5.1.noarch:
-  package eog-plugins-lang-2.30.1-5.1.noarch requires eog-plugins = 2.30.1, but none of the providers can be installed
-  nothing provides libchamplain-0.8.so.1 needed by eog-plugins-2.30.1-5.1.i586
-  nothing provides libchamplain-gtk-0.8.so.1 needed by eog-plugins-2.30.1-5.1.i586
-  nothing provides libclutter-gtk-0.10.so.0 needed by eog-plugins-2.30.1-5.1.i586
-  nothing provides libgdata.so.7 needed by eog-plugins-2.30.1-5.1.i586
-can't install eog-plugins-2.30.1-5.1.i586:
-  nothing provides libchamplain-0.8.so.1 needed by eog-plugins-2.30.1-5.1.i586
-  nothing provides libchamplain-gtk-0.8.so.1 needed by eog-plugins-2.30.1-5.1.i586
-  nothing provides libclutter-gtk-0.10.so.0 needed by eog-plugins-2.30.1-5.1.i586
-  nothing provides libgdata.so.7 needed by eog-plugins-2.30.1-5.1.i586
-can't install epiphany-devel-2.30.6-13.1.i586:
-  package epiphany-devel-2.30.6-13.1.i586 requires epiphany = 2.30.6, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by epiphany-2.30.6-13.1.i586
-can't install epiphany-lang-2.30.6-13.1.noarch:
-  package epiphany-lang-2.30.6-13.1.noarch requires epiphany = 2.30.6, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by epiphany-2.30.6-13.1.i586
-can't install epiphany-2.30.6-13.1.i586:
-  nothing provides libnotify.so.1 needed by epiphany-2.30.6-13.1.i586
+  nothing provides libtelepathy-logger.so.1 needed by empathy-2.32.2-8.1.i586
 can't install evolution-plugin-rss-lang-0.2.3-2.1.noarch:
   package evolution-plugin-rss-lang-0.2.3-2.1.noarch requires evolution-plugin-rss = 0.2.3, but none of the providers can be installed
   nothing provides libgtkhtml-editor-3.14.so.0 needed by evolution-plugin-rss-0.2.3-2.1.i586
@@ -181,6 +178,10 @@ can't install evolution-plugin-rss-0.2.3-2.1.i586:
   nothing provides libgtkhtml-editor-3.14.so.0 needed by evolution-plugin-rss-0.2.3-2.1.i586
 can't install evolution-tray-0.0.7-2.2.i586:
   nothing provides libnotify.so.1 needed by evolution-tray-0.0.7-2.2.i586
+can't install eximstats-html-4.75-4.2.i586:
+  package eximstats-html-4.75-4.2.i586 requires perl-GDTextUtil, but none of the providers can be installed
+  nothing provides perl = 5.12.3 needed by perl-GDTextUtil-0.86-85.1.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install firebird-classic-2.1.3.18185.0-17.2.i586:
   package firebird-classic-2.1.3.18185.0-17.2.i586 requires libfbembed.so.2.1, but none of the providers can be installed
   package firebird-classic-2.1.3.18185.0-17.2.i586 requires libfbembed2 = 2.1.3.18185.0, but none of the providers can be installed
@@ -225,8 +226,6 @@ can't install gnome-color-manager-lang-2.32.0-8.1.noarch:
   nothing provides libnotify.so.1 needed by gnome-color-manager-2.32.0-8.1.i586
 can't install gnome-color-manager-2.32.0-8.1.i586:
   nothing provides libnotify.so.1 needed by gnome-color-manager-2.32.0-8.1.i586
-can't install gnome-disk-utility-2.32.0-4.1.i586:
-  nothing provides libnotify.so.1 needed by gnome-disk-utility-2.32.0-4.1.i586
 can't install gnome-docker-0.1-99.1.i586:
   nothing provides libnotify.so.1 needed by gnome-docker-0.1-99.1.i586
 can't install gnome-gmail-notifier-lang-0.10.1-4.1.noarch:
@@ -253,8 +252,6 @@ can't install gnome-netstatus-lang-2.28.2-8.1.noarch:
   nothing provides libpanel-applet-2.so.0 needed by gnome-netstatus-2.28.2-8.1.i586
 can't install gnome-netstatus-2.28.2-8.1.i586:
   nothing provides libpanel-applet-2.so.0 needed by gnome-netstatus-2.28.2-8.1.i586
-can't install gnome-panel-applet-tracker-0.9.38-6.3.i586:
-  nothing provides libpanel-applet-3.so.0 needed by gnome-panel-applet-tracker-0.9.38-6.3.i586
 can't install gnome-panel-branding-openSUSE-11.4-21.2.noarch:
   package gnome-panel-branding-openSUSE-11.4-21.2.noarch requires tomboy, but none of the providers can be installed
   nothing provides libpanel-applet-2-0 needed by tomboy-1.6.1-1.1.i586
@@ -266,50 +263,38 @@ can't install gnome-pilot-conduits-lang-2.32.1-7.2.noarch:
   nothing provides libgpilotdconduit.so.3 needed by gnome-pilot-conduits-2.32.1-7.2.i586
 can't install gnome-pilot-conduits-2.32.1-7.2.i586:
   nothing provides libgpilotdconduit.so.3 needed by gnome-pilot-conduits-2.32.1-7.2.i586
-can't install gnome-shell-lang-2.91.6-9.2.noarch:
-  package gnome-shell-lang-2.91.6-9.2.noarch requires gnome-shell = 2.91.6, but none of the providers can be installed
-  nothing provides libedataserverui-1.2.so.11 needed by gnome-shell-2.91.6-9.2.i586
-can't install gnome-shell-2.91.6-9.2.i586:
-  nothing provides libedataserverui-1.2.so.11 needed by gnome-shell-2.91.6-9.2.i586
-can't install gnome-tweak-tool-lang-3.0.3-1.1.noarch:
-  package gnome-tweak-tool-lang-3.0.3-1.1.noarch requires gnome-tweak-tool = 3.0.3, but none of the providers can be installed
-  package gnome-tweak-tool-3.0.3-1.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libedataserverui-1.2.so.11 needed by gnome-shell-2.91.6-9.2.i586
-can't install gnome-tweak-tool-3.0.3-1.1.noarch:
-  package gnome-tweak-tool-3.0.3-1.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libedataserverui-1.2.so.11 needed by gnome-shell-2.91.6-9.2.i586
-can't install gnome-user-share-lang-2.30.1-15.2.noarch:
-  package gnome-user-share-lang-2.30.1-15.2.noarch requires gnome-user-share = 2.30.1, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by gnome-user-share-2.30.1-15.2.i586
-can't install gnome-user-share-2.30.1-15.2.i586:
-  nothing provides libnotify.so.1 needed by gnome-user-share-2.30.1-15.2.i586
 can't install gnote-lang-0.7.3-9.1.noarch:
   package gnote-lang-0.7.3-9.1.noarch requires gnote = 0.7.3, but none of the providers can be installed
   nothing provides libpanel-applet-2.so.0 needed by gnote-0.7.3-9.1.i586
 can't install gnote-0.7.3-9.1.i586:
   nothing provides libpanel-applet-2.so.0 needed by gnote-0.7.3-9.1.i586
-can't install gns3-0.7.4-25.1.noarch:
-  nothing provides dynamips needed by gns3-0.7.4-25.1.noarch
+can't install gns3-0.7.4-25.2.noarch:
+  nothing provides dynamips needed by gns3-0.7.4-25.2.noarch
 can't install goobox-lang-2.2.0-8.1.noarch:
   package goobox-lang-2.2.0-8.1.noarch requires goobox = 2.2.0, but none of the providers can be installed
   nothing provides libnotify.so.1 needed by goobox-2.2.0-8.1.i586
+  nothing provides libbrasero-media.so.1 needed by goobox-2.2.0-8.1.i586
 can't install goobox-2.2.0-8.1.i586:
   nothing provides libnotify.so.1 needed by goobox-2.2.0-8.1.i586
-can't install gourmet-lang-0.15.9-2.1.noarch:
-  package gourmet-lang-0.15.9-2.1.noarch requires gourmet = 0.15.9, but none of the providers can be installed
-  nothing provides python-reportlab needed by gourmet-0.15.9-2.1.noarch
-  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.1.noarch
-can't install gourmet-0.15.9-2.1.noarch:
-  nothing provides python-reportlab needed by gourmet-0.15.9-2.1.noarch
-  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.1.noarch
+  nothing provides libbrasero-media.so.1 needed by goobox-2.2.0-8.1.i586
+can't install gourmet-lang-0.15.9-2.2.noarch:
+  package gourmet-lang-0.15.9-2.2.noarch requires gourmet = 0.15.9, but none of the providers can be installed
+  nothing provides python-reportlab needed by gourmet-0.15.9-2.2.noarch
+  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.2.noarch
+can't install gourmet-0.15.9-2.2.noarch:
+  nothing provides python-reportlab needed by gourmet-0.15.9-2.2.noarch
+  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.2.noarch
 can't install gthumb-devel-2.12.2-7.2.i586:
   package gthumb-devel-2.12.2-7.2.i586 requires gthumb = 2.12.2, but none of the providers can be installed
   nothing provides libclutter-gtk-0.10.so.0 needed by gthumb-2.12.2-7.2.i586
+  nothing provides libbrasero-burn.so.1 needed by gthumb-2.12.2-7.2.i586
 can't install gthumb-lang-2.12.2-7.2.noarch:
   package gthumb-lang-2.12.2-7.2.noarch requires gthumb = 2.12.2, but none of the providers can be installed
   nothing provides libclutter-gtk-0.10.so.0 needed by gthumb-2.12.2-7.2.i586
+  nothing provides libbrasero-burn.so.1 needed by gthumb-2.12.2-7.2.i586
 can't install gthumb-2.12.2-7.2.i586:
   nothing provides libclutter-gtk-0.10.so.0 needed by gthumb-2.12.2-7.2.i586
+  nothing provides libbrasero-burn.so.1 needed by gthumb-2.12.2-7.2.i586
 can't install gtkhtml314-sharp-2.26.0-17.1.i586:
   nothing provides libgtkhtml-3_14-19 needed by gtkhtml314-sharp-2.26.0-17.1.i586
 can't install gtranslator-lang-1.9.13-8.2.noarch:
@@ -321,8 +306,20 @@ can't install gtranslator-1.9.13-8.2.i586:
   nothing provides libgucharmap.so.7 needed by gtranslator-1.9.13-8.2.i586
 can't install hp-drive-guard-0.3.12-2.6.i586:
   nothing provides libnotify.so.1 needed by hp-drive-guard-0.3.12-2.6.i586
+can't install kernel-coverage-0.1-60.1.noarch:
+  package kernel-coverage-0.1-60.1.noarch requires perl-GD, but none of the providers can be installed
+  nothing provides perl = 5.12.3 needed by perl-GD-2.45-6.1.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install kerneloops-applet-0.12-40.3.i586:
   nothing provides libnotify.so.1 needed by kerneloops-applet-0.12-40.3.i586
+can't install lablgtk2-devel-2.14.2-8.3.i586:
+  nothing provides ocaml(GtkSourceView_types) = 7a105560716993f8140c6b4eb8bfd374 needed by lablgtk2-devel-2.14.2-8.3.i586
+can't install lablgtk2-2.14.2-8.3.i586:
+  nothing provides ocaml(GtkSourceView_types) = 7a105560716993f8140c6b4eb8bfd374 needed by lablgtk2-2.14.2-8.3.i586
+can't install lcov-1.9-5.1.noarch:
+  package lcov-1.9-5.1.noarch requires perl-GD, but none of the providers can be installed
+  nothing provides perl = 5.12.3 needed by perl-GD-2.45-6.1.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install libcompizconfig-devel-0.9.2.1-4.2.i586:
   package libcompizconfig-devel-0.9.2.1-4.2.i586 requires compiz-devel, but none of the providers can be installed
   package libcompizconfig-devel-0.9.2.1-4.2.i586 requires pkgconfig(compiz), but none of the providers can be installed
@@ -335,22 +332,16 @@ can't install libgail-gnome-devel-1.20.3-6.1.i586:
   nothing provides libpanel-applet-2.so.0 needed by libgail-gnome-1.20.3-6.1.i586
 can't install libgail-gnome-1.20.3-6.1.i586:
   nothing provides libpanel-applet-2.so.0 needed by libgail-gnome-1.20.3-6.1.i586
+can't install libgda-4_0-mysql-4.2.2-6.2.i586:
+  nothing provides libmysqlclient.so.16 needed by libgda-4_0-mysql-4.2.2-6.2.i586
+  nothing provides libmysqlclient.so.16(libmysqlclient_16) needed by libgda-4_0-mysql-4.2.2-6.2.i586
 can't install libpanelappletmm-2_6-1-2.26.0-7.1.i586:
   nothing provides libpanel-applet-2.so.0 needed by libpanelappletmm-2_6-1-2.26.0-7.1.i586
 can't install libpanelappletmm-devel-2.26.0-7.1.i586:
   nothing provides pkgconfig(libpanelapplet-2.0) >= 2.14.0 needed by libpanelappletmm-devel-2.26.0-7.1.i586
-can't install libtracker-client-0_10-0-0.9.38-6.3.i586:
-  package libtracker-client-0_10-0-0.9.38-6.3.i586 requires libtracker-common.so.0, but none of the providers can be installed
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
-can't install libtracker-extract-0_10-0-0.9.38-6.3.i586:
-  package libtracker-extract-0_10-0-0.9.38-6.3.i586 requires libtracker-common.so.0, but none of the providers can be installed
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
-can't install libtracker-miner-0_10-0-0.9.38-6.3.i586:
-  nothing provides libnm-glib.so.2 needed by libtracker-miner-0_10-0-0.9.38-6.3.i586
-can't install lokalize-4.6.1-2.2.i586:
-  nothing provides libhunspell-1.2.so.0 needed by lokalize-4.6.1-2.2.i586
+can't install libreoffice-base-drivers-mysql-3.3.2.2-2.3.i586:
+  nothing provides libmysqlclient.so.16 needed by libreoffice-base-drivers-mysql-3.3.2.2-2.3.i586
+  nothing provides libmysqlclient.so.16(libmysqlclient_16) needed by libreoffice-base-drivers-mysql-3.3.2.2-2.3.i586
 can't install mail-notification-lang-5.4-5.1.noarch:
   package mail-notification-lang-5.4-5.1.noarch requires mail-notification = 5.4, but none of the providers can be installed
   nothing provides libnotify.so.1 needed by mail-notification-5.4-5.1.i586
@@ -368,16 +359,11 @@ can't install mlterm-uim-3.0.1-15.1.i586:
   package mlterm-uim-3.0.1-15.1.i586 requires libuim.so.6, but none of the providers can be installed
   nothing provides libpanel-applet-2.so.0 needed by uim-1.5.6-16.1.i586
 can't install mysql-workbench-5.2.31-5.1.i586:
+  nothing provides libmysqlclient_r.so.16 needed by mysql-workbench-5.2.31-5.1.i586
+  nothing provides libmysqlclient_r.so.16(libmysqlclient_16) needed by mysql-workbench-5.2.31-5.1.i586
   nothing provides libzip.so.1 needed by mysql-workbench-5.2.31-5.1.i586
-can't install nagios-plugins-nis-1.2-10.1.noarch:
-  nothing provides licenses needed by nagios-plugins-nis-1.2-10.1.noarch
-can't install nautilus-deja-dup-16.1.1-5.1.i586:
-  package nautilus-deja-dup-16.1.1-5.1.i586 requires deja-dup = 16.1.1, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by deja-dup-16.1.1-5.1.i586
-can't install nautilus-extension-tracker-tags-0.9.38-6.3.i586:
-  package nautilus-extension-tracker-tags-0.9.38-6.3.i586 requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
+can't install nagios-plugins-nis-1.2-10.2.noarch:
+  nothing provides licenses needed by nagios-plugins-nis-1.2-10.2.noarch
 can't install nautilus-sendto-plugin-empathy-2.32.2-8.1.i586:
   nothing provides libnotify.so.1 needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.i586
   nothing provides libchamplain-0.8.so.1 needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.i586
@@ -386,6 +372,16 @@ can't install nautilus-sendto-plugin-empathy-2.32.2-8.1.i586:
   nothing provides libfolks.so.1 needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.i586
   nothing provides libgcr.so.0 needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.i586
   nothing provides libnm-glib.so.2 needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.i586
+  nothing provides libtelepathy-logger.so.1 needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.i586
+can't install otrs-itsm-2.1.3-11.1.noarch:
+  package otrs-itsm-2.1.3-11.1.noarch requires otrs >= 2.4.0, but none of the providers can be installed
+  package otrs-2.4.10-11.1.noarch requires perl-GDTextUtil, but none of the providers can be installed
+  nothing provides perl = 5.12.3 needed by perl-GDTextUtil-0.86-85.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install otrs-2.4.10-11.1.noarch:
+  package otrs-2.4.10-11.1.noarch requires perl-GDTextUtil, but none of the providers can be installed
+  nothing provides perl = 5.12.3 needed by perl-GDTextUtil-0.86-85.1.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install padevchooser-0.9.4-142.1.i586:
   nothing provides libnotify.so.1 needed by padevchooser-0.9.4-142.1.i586
 can't install patterns-openSUSE-devel_gnome-11.4-11.2.i586:
@@ -446,36 +442,81 @@ can't install patterns-openSUSE-gnome_xgl-11.4-11.2.i586:
   package compiz-gnome-0.9.2.1-9.4.i586 requires libdecoration.so.0, but none of the providers can be installed
   package compiz-gnome-0.9.2.1-9.4.i586 requires compiz = 0.9.2.1, but none of the providers can be installed
   nothing provides libgnome-window-settings.so.1 needed by compiz-0.9.2.1-9.4.i586
-can't install perl-Any-Moose-0.13-4.1.noarch:
-  package perl-Any-Moose-0.13-4.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.i586
-can't install perl-GnuPG-Interface-0.43-2.1.noarch:
-  package perl-GnuPG-Interface-0.43-2.1.noarch requires perl(Any::Moose) >= 0.04, but none of the providers can be installed
-  package perl-Any-Moose-0.13-4.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.i586
-can't install perl-Moose-1.15-6.4.i586:
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.i586
-can't install perl-MooseX-Log-Log4perl-0.42-2.1.noarch:
-  package perl-MooseX-Log-Log4perl-0.42-2.1.noarch requires perl(Moose) >= 0.65, but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.i586
-can't install perl-Parse-CPAN-Packages-2.33-2.1.noarch:
-  package perl-Parse-CPAN-Packages-2.33-2.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.i586
-can't install perl-Throwable-0.102080-2.1.noarch:
-  package perl-Throwable-0.102080-2.1.noarch requires perl(Moose::Util::TypeConstraints), but none of the providers can be installed
-  package perl-Throwable-0.102080-2.1.noarch requires perl(Moose) >= 0.87, but none of the providers can be installed
-  package perl-Throwable-0.102080-2.1.noarch requires perl(Moose::Role) >= 0.87, but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.i586
+can't install patterns-openSUSE-gnome_yast-11.4-11.2.i586:
+  package patterns-openSUSE-gnome_yast-11.4-11.2.i586 requires yast2-gtk, but none of the providers can be installed
+  nothing provides libzypp.so.810 needed by yast2-gtk-2.21.96-2.2.i586
+can't install pdftk-1.44-4.1.i586:
+  nothing provides libgcj.so.11 needed by pdftk-1.44-4.1.i586
+can't install perl-Apache-AuthCookie-3.14-6.1.noarch:
+  nothing provides perl = 5.12.3 needed by perl-Apache-AuthCookie-3.14-6.1.noarch
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Apache-AuthNetLDAP-0.29-235.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-Apache-AuthNetLDAP-0.29-235.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Apache-DBI-1.10-7.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-Apache-DBI-1.10-7.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Apache-Filter-1.024-226.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-Apache-Filter-1.024-226.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Apache-Session-1.89-8.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-Apache-Session-1.89-8.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Apache-SessionX-2.01-230.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-Apache-SessionX-2.01-230.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Apache2-AuthCookieDBI-2.05-14.1.noarch:
+  nothing provides perl = 5.12.3 needed by perl-Apache2-AuthCookieDBI-2.05-14.1.noarch
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Chart-2.4.2-6.1.noarch:
+  nothing provides perl = 5.12.3 needed by perl-Chart-2.4.2-6.1.noarch
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Encode-Detect-1.01-8.5.i586:
+  nothing provides perl = 5.12.3 needed by perl-Encode-Detect-1.01-8.5.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-GD-Barcode-1.15-13.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-GD-Barcode-1.15-13.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-GD-Graph3d-0.63-256.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-GD-Graph3d-0.63-256.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-GD-2.45-6.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-GD-2.45-6.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-GDGraph-1.44-187.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-GDGraph-1.44-187.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-GDTextUtil-0.86-85.1.i586:
+  nothing provides perl = 5.12.3 needed by perl-GDTextUtil-0.86-85.1.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install perl-Mail-SpamAssassin-Plugin-iXhash-1.5.5-18.2.i586:
+  nothing provides perl = 5.12.3 needed by perl-Mail-SpamAssassin-Plugin-iXhash-1.5.5-18.2.i586
+    (we have perl-5.14.0-1.1.i586)
+can't install phonon-backend-xine-4.4.4-5.5.i586:
+  nothing provides libphonon4 = 4.4.4 needed by phonon-backend-xine-4.4.4-5.5.i586
+    (we have libphonon4-4.5.0-1.1.i586)
 can't install pino-lang-0.2.11-9.2.noarch:
   package pino-lang-0.2.11-9.2.noarch requires pino = 0.2.11, but none of the providers can be installed
   nothing provides libnotify.so.1 needed by pino-0.2.11-9.2.i586
 can't install pino-0.2.11-9.2.i586:
   nothing provides libnotify.so.1 needed by pino-0.2.11-9.2.i586
+can't install postgresql-plperl-9.0.3-7.2.i586:
+  nothing provides perl = 5.12.3 needed by postgresql-plperl-9.0.3-7.2.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install python-clutter-gtk-devel-0.10.0-1.13.i586:
   package python-clutter-gtk-devel-0.10.0-1.13.i586 requires python-clutter-gtk = 0.10.0, but none of the providers can be installed
   nothing provides libclutter-gtk-0.10.so.0 needed by python-clutter-gtk-0.10.0-1.13.i586
 can't install python-clutter-gtk-0.10.0-1.13.i586:
   nothing provides libclutter-gtk-0.10.so.0 needed by python-clutter-gtk-0.10.0-1.13.i586
+can't install rhythmbox-devel-0.13.3-9.4.i586:
+  nothing provides pkgconfig(gnome-media-profiles) needed by rhythmbox-devel-0.13.3-9.4.i586
+can't install rhythmbox-lang-0.13.3-9.4.noarch:
+  package rhythmbox-lang-0.13.3-9.4.noarch requires rhythmbox = 0.13.3, but none of the providers can be installed
+  nothing provides libbrasero-media.so.1 needed by rhythmbox-0.13.3-9.4.i586
+  nothing provides libgnome-media-profiles.so.0 needed by rhythmbox-0.13.3-9.4.i586
+can't install rhythmbox-0.13.3-9.4.i586:
+  nothing provides libbrasero-media.so.1 needed by rhythmbox-0.13.3-9.4.i586
+  nothing provides libgnome-media-profiles.so.0 needed by rhythmbox-0.13.3-9.4.i586
 can't install rygel-devel-0.8.3-10.1.i586:
   package rygel-devel-0.8.3-10.1.i586 requires rygel = 0.8.3, but none of the providers can be installed
   nothing provides libgupnp-dlna-1.0.so.0 needed by rygel-0.8.3-10.1.i586
@@ -486,9 +527,8 @@ can't install rygel-plugin-gstreamer-renderer-0.8.3-10.1.i586:
   package rygel-plugin-gstreamer-renderer-0.8.3-10.1.i586 requires rygel = 0.8.3, but none of the providers can be installed
   nothing provides libgupnp-dlna-1.0.so.0 needed by rygel-0.8.3-10.1.i586
 can't install rygel-plugin-tracker-0.8.3-10.1.i586:
-  package rygel-plugin-tracker-0.8.3-10.1.i586 requires tracker, but none of the providers can be installed
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
+  package rygel-plugin-tracker-0.8.3-10.1.i586 requires rygel = 0.8.3, but none of the providers can be installed
+  nothing provides libgupnp-dlna-1.0.so.0 needed by rygel-0.8.3-10.1.i586
 can't install rygel-plugin-zdf-mediathek-0.8.3-10.1.i586:
   package rygel-plugin-zdf-mediathek-0.8.3-10.1.i586 requires rygel = 0.8.3, but none of the providers can be installed
   nothing provides libgupnp-dlna-1.0.so.0 needed by rygel-0.8.3-10.1.i586
@@ -498,81 +538,30 @@ can't install scim-uim-0.2.0-209.7.i586:
   package scim-uim-0.2.0-209.7.i586 requires libuim.so.6, but none of the providers can be installed
   package scim-uim-0.2.0-209.7.i586 requires libuim-scm.so.0, but none of the providers can be installed
   nothing provides libpanel-applet-2.so.0 needed by uim-1.5.6-16.1.i586
-can't install seahorse-plugins-applet-2.30.1-11.2.i586:
-  nothing provides libnotify.so.1 needed by seahorse-plugins-applet-2.30.1-11.2.i586
-  nothing provides libpanel-applet-2.so.0 needed by seahorse-plugins-applet-2.30.1-11.2.i586
-can't install seahorse-plugins-gedit-2.30.1-11.2.i586:
-  package seahorse-plugins-gedit-2.30.1-11.2.i586 requires seahorse-plugins = 2.30.1-11.2, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by seahorse-plugins-2.30.1-11.2.i586
-can't install seahorse-plugins-lang-2.30.1-11.2.noarch:
-  package seahorse-plugins-lang-2.30.1-11.2.noarch requires seahorse-plugins = 2.30.1, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by seahorse-plugins-2.30.1-11.2.i586
-can't install seahorse-plugins-nautilus-2.30.1-11.2.i586:
-  package seahorse-plugins-nautilus-2.30.1-11.2.i586 requires seahorse-plugins = 2.30.1-11.2, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by seahorse-plugins-2.30.1-11.2.i586
-can't install seahorse-plugins-2.30.1-11.2.i586:
-  nothing provides libnotify.so.1 needed by seahorse-plugins-2.30.1-11.2.i586
-can't install signing-party-1.1.3-5.1.noarch:
-  package perl-GnuPG-Interface-0.43-2.1.noarch requires perl(Any::Moose) >= 0.04, but none of the providers can be installed
-  package signing-party-1.1.3-5.1.noarch requires perl-GnuPG-Interface, but none of the providers can be installed
-  package perl-Any-Moose-0.13-4.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.i586
 can't install simple-ccsm-0.9.2.1-9.1.i586:
   package simple-ccsm-0.9.2.1-9.1.i586 requires compiz, but none of the providers can be installed
   nothing provides libgnome-window-settings.so.1 needed by compiz-0.9.2.1-9.4.i586
+can't install sound-juicer-lang-2.32.0-8.3.noarch:
+  package sound-juicer-lang-2.32.0-8.3.noarch requires sound-juicer = 2.32.0, but none of the providers can be installed
+  nothing provides libbrasero-media.so.1 needed by sound-juicer-2.32.0-8.3.i586
+  nothing provides libgnome-media-profiles.so.0 needed by sound-juicer-2.32.0-8.3.i586
+can't install sound-juicer-2.32.0-8.3.i586:
+  nothing provides libbrasero-media.so.1 needed by sound-juicer-2.32.0-8.3.i586
+  nothing provides libgnome-media-profiles.so.0 needed by sound-juicer-2.32.0-8.3.i586
+can't install spamassassin-3.3.1-18.2.i586:
+  nothing provides perl = 5.12.3 needed by spamassassin-3.3.1-18.2.i586
+    (we have perl-5.14.0-1.1.i586)
 can't install stardict-3.0.1-71.2.i586:
   nothing provides libgucharmap.so.7 needed by stardict-3.0.1-71.2.i586
-can't install systemd-gtk-26-2.1.i586:
-  package systemd-gtk-26-2.1.i586 requires systemd = 26-2.1, but none of the providers can be installed
-  nothing provides udev >= 167 needed by systemd-26-2.1.i586
-    (we have udev-166-7.2.i586)
-can't install systemd-sysvinit-26-2.1.i586:
-  package systemd-sysvinit-26-2.1.i586 requires systemd = 26-2.1, but none of the providers can be installed
-  nothing provides udev >= 167 needed by systemd-26-2.1.i586
-    (we have udev-166-7.2.i586)
-can't install systemd-26-2.1.i586:
-  nothing provides udev >= 167 needed by systemd-26-2.1.i586
-    (we have udev-166-7.2.i586)
+can't install systemtap-docs-1.4-7.4.noarch:
+  nothing provides /bin/env needed by systemtap-docs-1.4-7.4.noarch
 can't install tomboy-lang-1.6.1-1.1.noarch:
   package tomboy-lang-1.6.1-1.1.noarch requires tomboy = 1.6.1, but none of the providers can be installed
   nothing provides libpanel-applet-2-0 needed by tomboy-1.6.1-1.1.i586
 can't install tomboy-1.6.1-1.1.i586:
   nothing provides libpanel-applet-2-0 needed by tomboy-1.6.1-1.1.i586
-can't install totem-plugins-2.32.0-12.2.i586:
-  nothing provides libgdata.so.7 needed by totem-plugins-2.32.0-12.2.i586
-can't install tracker-devel-0.9.38-6.3.i586:
-  package tracker-devel-0.9.38-6.3.i586 requires libtracker-miner-0_10-0 = 0.9.38, but none of the providers can be installed
-  nothing provides libnm-glib.so.2 needed by libtracker-miner-0_10-0-0.9.38-6.3.i586
-can't install tracker-gui-0.9.38-6.3.i586:
-  package tracker-gui-0.9.38-6.3.i586 requires libtracker-common.so.0, but none of the providers can be installed
-  package tracker-gui-0.9.38-6.3.i586 requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
-can't install tracker-lang-0.9.38-6.3.noarch:
-  package tracker-lang-0.9.38-6.3.noarch requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
-can't install tracker-miner-evolution-0.9.38-6.3.i586:
-  nothing provides libcamel-1.2.so.19 needed by tracker-miner-evolution-0.9.38-6.3.i586
-  nothing provides libcamel-provider-1.2.so.19 needed by tracker-miner-evolution-0.9.38-6.3.i586
-can't install tracker-miner-files-0.9.38-6.3.i586:
-  package tracker-miner-files-0.9.38-6.3.i586 requires libtracker-common.so.0, but none of the providers can be installed
-  package tracker-miner-files-0.9.38-6.3.i586 requires libtracker-data.so.0, but none of the providers can be installed
-  package tracker-miner-files-0.9.38-6.3.i586 requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
-can't install tracker-miner-flickr-0.9.38-6.3.i586:
-  nothing provides librest-0.6.so.0 needed by tracker-miner-flickr-0.9.38-6.3.i586
-can't install tracker-miner-rss-0.9.38-6.3.i586:
-  package tracker-miner-rss-0.9.38-6.3.i586 requires libtracker-common.so.0, but none of the providers can be installed
-  package tracker-miner-rss-0.9.38-6.3.i586 requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
-can't install tracker-0.9.38-6.3.i586:
-  nothing provides libicuuc.so.44 needed by tracker-0.9.38-6.3.i586
-  nothing provides libicui18n.so.44 needed by tracker-0.9.38-6.3.i586
-can't install twinkle-1.4.2-11.6.i586:
-  nothing provides licenses needed by twinkle-1.4.2-11.6.i586
+can't install twinkle-1.4.2-11.9.i586:
+  nothing provides licenses needed by twinkle-1.4.2-11.9.i586
 can't install twitux-lang-0.69-11.1.noarch:
   package twitux-lang-0.69-11.1.noarch requires twitux = 0.69, but none of the providers can be installed
   nothing provides libnotify.so.1 needed by twitux-0.69-11.1.i586
@@ -620,13 +609,6 @@ can't install webyast-activedirectory-ui-testsuite-0.2.8-2.1.noarch:
 can't install webyast-activedirectory-ui-0.2.8-2.1.noarch:
   package webyast-activedirectory-ui-0.2.8-2.1.noarch requires webyast-base-ui, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-activedirectory-ws-testsuite-0.2.7-5.1.noarch:
-  package webyast-activedirectory-ws-testsuite-0.2.7-5.1.noarch requires webyast-activedirectory-ws = 0.2.7, but none of the providers can be installed
-  package webyast-activedirectory-ws-0.2.7-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-activedirectory-ws-0.2.7-5.1.noarch:
-  package webyast-activedirectory-ws-0.2.7-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-base-ui-branding-default-0.2.24-5.2.noarch:
   package webyast-base-ui-branding-default-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
@@ -635,11 +617,6 @@ can't install webyast-base-ui-testsuite-0.2.24-5.2.noarch:
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
 can't install webyast-base-ui-0.2.24-5.2.noarch:
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-base-ws-testsuite-0.2.11-5.1.noarch:
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-base-ws-0.2.11-5.1.noarch:
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-firewall-ui-testsuite-0.2.6-2.1.noarch:
   package webyast-firewall-ui-testsuite-0.2.6-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -647,20 +624,6 @@ can't install webyast-firewall-ui-testsuite-0.2.6-2.1.noarch:
 can't install webyast-firewall-ui-0.2.6-2.1.noarch:
   package webyast-firewall-ui-0.2.6-2.1.noarch requires webyast-base-ui, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-firewall-ws-testsuite-0.2.10-5.1.noarch:
-  package webyast-firewall-ws-testsuite-0.2.10-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-firewall-ws-0.2.10-5.1.noarch:
-  package webyast-firewall-ws-0.2.10-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-firstboot-ws-testsuite-0.2.1-2.1.noarch:
-  package webyast-firstboot-ws-testsuite-0.2.1-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-firstboot-ws-0.2.1-2.1.noarch:
-  package webyast-firstboot-ws-0.2.1-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-kerberos-ui-testsuite-0.2.5-2.1.noarch:
   package webyast-kerberos-ui-testsuite-0.2.5-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -668,13 +631,6 @@ can't install webyast-kerberos-ui-testsuite-0.2.5-2.1.noarch:
 can't install webyast-kerberos-ui-0.2.5-2.1.noarch:
   package webyast-kerberos-ui-0.2.5-2.1.noarch requires webyast-base-ui, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-kerberos-ws-testsuite-0.2.5-5.1.noarch:
-  package webyast-kerberos-ws-testsuite-0.2.5-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-kerberos-ws-0.2.5-5.1.noarch:
-  package webyast-kerberos-ws-0.2.5-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-language-ui-testsuite-0.1.2-2.1.noarch:
   package webyast-language-ui-testsuite-0.1.2-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -682,13 +638,9 @@ can't install webyast-language-ui-testsuite-0.1.2-2.1.noarch:
 can't install webyast-language-ui-0.1.2-2.1.noarch:
   package webyast-language-ui-0.1.2-2.1.noarch requires yast2-webclient >= 0.0.26, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-language-ws-testsuite-0.1.0-5.1.noarch:
-  package webyast-language-ws-testsuite-0.1.0-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-language-ws-0.1.0-5.1.noarch:
   package webyast-language-ws-0.1.0-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
+  package webyast-base-ws-0.2.21-2.1.noarch obsoletes webyast-language-ws <= 0.1.0 provided by webyast-language-ws-0.1.0-5.1.noarch
 can't install webyast-ldap-ui-testsuite-0.2.5-2.1.noarch:
   package webyast-ldap-ui-testsuite-0.2.5-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -696,13 +648,6 @@ can't install webyast-ldap-ui-testsuite-0.2.5-2.1.noarch:
 can't install webyast-ldap-ui-0.2.5-2.1.noarch:
   package webyast-ldap-ui-0.2.5-2.1.noarch requires webyast-base-ui, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-ldap-ws-testsuite-0.2.5-5.1.noarch:
-  package webyast-ldap-ws-testsuite-0.2.5-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-ldap-ws-0.2.5-5.1.noarch:
-  package webyast-ldap-ws-0.2.5-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-licenses-ui-testsuite-0.2.2-2.1.noarch:
   package webyast-licenses-ui-testsuite-0.2.2-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -710,13 +655,6 @@ can't install webyast-licenses-ui-testsuite-0.2.2-2.1.noarch:
 can't install webyast-licenses-ui-0.2.2-2.1.noarch:
   package webyast-licenses-ui-0.2.2-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-licenses-ws-testsuite-0.2.2-2.1.noarch:
-  package webyast-licenses-ws-testsuite-0.2.2-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-licenses-ws-0.2.2-2.1.noarch:
-  package webyast-licenses-ws-0.2.2-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-mail-ui-testsuite-0.2.4-2.1.noarch:
   package webyast-mail-ui-testsuite-0.2.4-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -724,13 +662,6 @@ can't install webyast-mail-ui-testsuite-0.2.4-2.1.noarch:
 can't install webyast-mail-ui-0.2.4-2.1.noarch:
   package webyast-mail-ui-0.2.4-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-mail-ws-testsuite-0.2.3-2.1.noarch:
-  package webyast-mail-ws-testsuite-0.2.3-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-mail-ws-0.2.3-2.1.noarch:
-  package webyast-mail-ws-0.2.3-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-network-ui-testsuite-0.2.3-2.1.noarch:
   package webyast-network-ui-testsuite-0.2.3-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -738,20 +669,6 @@ can't install webyast-network-ui-testsuite-0.2.3-2.1.noarch:
 can't install webyast-network-ui-0.2.3-2.1.noarch:
   package webyast-network-ui-0.2.3-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-network-ws-testsuite-0.2.1-5.1.noarch:
-  package webyast-network-ws-testsuite-0.2.1-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-network-ws-0.2.1-5.1.noarch:
-  package webyast-network-ws-0.2.1-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-ntp-ws-testsuite-0.2.1-5.1.noarch:
-  package webyast-ntp-ws-testsuite-0.2.1-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-ntp-ws-0.2.1-5.1.noarch:
-  package webyast-ntp-ws-0.2.1-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-permissions-ui-testsuite-0.1.8-2.1.noarch:
   package webyast-permissions-ui-testsuite-0.1.8-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -766,13 +683,6 @@ can't install webyast-reboot-ui-testsuite-0.2.1-2.1.noarch:
 can't install webyast-reboot-ui-0.2.1-2.1.noarch:
   package webyast-reboot-ui-0.2.1-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-reboot-ws-testsuite-0.2.0-5.1.noarch:
-  package webyast-reboot-ws-testsuite-0.2.0-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-reboot-ws-0.2.0-5.1.noarch:
-  package webyast-reboot-ws-0.2.0-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-roles-ui-testsuite-0.2.7-2.1.noarch:
   package webyast-roles-ui-testsuite-0.2.7-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -781,13 +691,6 @@ can't install webyast-roles-ui-0.2.7-2.1.noarch:
   package webyast-roles-ui-0.2.7-2.1.noarch requires webyast-users-ui, but none of the providers can be installed
   package webyast-users-ui-0.2.7-5.1.noarch requires yast2-webclient >= 0.1.17, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-roles-ws-testsuite-0.2.2-2.1.noarch:
-  package webyast-roles-ws-testsuite-0.2.2-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-roles-ws-0.2.2-2.1.noarch:
-  package webyast-roles-ws-0.2.2-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-root-user-ui-testsuite-0.2.5-5.1.noarch:
   package webyast-root-user-ui-testsuite-0.2.5-5.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -795,13 +698,6 @@ can't install webyast-root-user-ui-testsuite-0.2.5-5.1.noarch:
 can't install webyast-root-user-ui-0.2.5-5.1.noarch:
   package webyast-root-user-ui-0.2.5-5.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-root-user-ws-testsuite-0.2.1-5.1.noarch:
-  package webyast-root-user-ws-testsuite-0.2.1-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-root-user-ws-0.2.1-5.1.noarch:
-  package webyast-root-user-ws-0.2.1-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-services-ui-testsuite-0.2.5-5.1.noarch:
   package webyast-services-ui-testsuite-0.2.5-5.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -809,13 +705,6 @@ can't install webyast-services-ui-testsuite-0.2.5-5.1.noarch:
 can't install webyast-services-ui-0.2.5-5.1.noarch:
   package webyast-services-ui-0.2.5-5.1.noarch requires yast2-webclient >= 0.1.17, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-services-ws-testsuite-0.2.7-5.1.noarch:
-  package webyast-services-ws-testsuite-0.2.7-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-services-ws-0.2.7-5.1.noarch:
-  package webyast-services-ws-0.2.7-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-software-ui-testsuite-0.3.1-2.1.noarch:
   package webyast-software-ui-testsuite-0.3.1-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -823,13 +712,6 @@ can't install webyast-software-ui-testsuite-0.3.1-2.1.noarch:
 can't install webyast-software-ui-0.3.1-2.1.noarch:
   package webyast-software-ui-0.3.1-2.1.noarch requires yast2-webclient >= 0.1.17, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-software-ws-testsuite-0.3.2-2.1.noarch:
-  package webyast-software-ws-testsuite-0.3.2-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-software-ws-0.3.2-2.1.noarch:
-  package webyast-software-ws-0.3.2-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-status-ui-testsuite-0.2.6-2.1.noarch:
   package webyast-status-ui-testsuite-0.2.6-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -837,13 +719,6 @@ can't install webyast-status-ui-testsuite-0.2.6-2.1.noarch:
 can't install webyast-status-ui-0.2.6-2.1.noarch:
   package webyast-status-ui-0.2.6-2.1.noarch requires yast2-webclient >= 0.1.14, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-status-ws-testsuite-0.2.5-5.4.noarch:
-  package webyast-status-ws-testsuite-0.2.5-5.4.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-status-ws-0.2.5-5.4.noarch:
-  package webyast-status-ws-0.2.5-5.4.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-time-ui-testsuite-0.2.3-2.1.noarch:
   package webyast-time-ui-testsuite-0.2.3-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -851,13 +726,6 @@ can't install webyast-time-ui-testsuite-0.2.3-2.1.noarch:
 can't install webyast-time-ui-0.2.3-2.1.noarch:
   package webyast-time-ui-0.2.3-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-time-ws-testsuite-0.2.0-2.1.noarch:
-  package webyast-time-ws-testsuite-0.2.0-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-time-ws-0.2.0-2.1.noarch:
-  package webyast-time-ws-0.2.0-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-users-ui-testsuite-0.2.7-5.1.noarch:
   package webyast-users-ui-testsuite-0.2.7-5.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -865,33 +733,8 @@ can't install webyast-users-ui-testsuite-0.2.7-5.1.noarch:
 can't install webyast-users-ui-0.2.7-5.1.noarch:
   package webyast-users-ui-0.2.7-5.1.noarch requires yast2-webclient >= 0.1.17, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-users-ws-testsuite-0.2.2-2.1.noarch:
-  package webyast-users-ws-testsuite-0.2.2-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-users-ws-0.2.2-2.1.noarch:
-  package webyast-users-ws-0.2.2-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install xfce4-panel-plugin-brightness-1.0.3-11.1.i586:
-  package xfce4-panel-plugin-brightness-1.0.3-11.1.i586 requires xfce4-power-manager = 1.0.3, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by xfce4-power-manager-1.0.3-11.1.i586
-can't install xfce4-panel-plugin-sensors-devel-1.0.0-5.1.i586:
-  package xfce4-panel-plugin-sensors-devel-1.0.0-5.1.i586 requires xfce4-panel-plugin-sensors = 1.0.0, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by xfce4-panel-plugin-sensors-1.0.0-5.1.i586
-can't install xfce4-panel-plugin-sensors-lang-1.0.0-5.1.noarch:
-  package xfce4-panel-plugin-sensors-lang-1.0.0-5.1.noarch requires xfce4-panel-plugin-sensors = 1.0.0, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by xfce4-panel-plugin-sensors-1.0.0-5.1.i586
-can't install xfce4-panel-plugin-sensors-1.0.0-5.1.i586:
-  nothing provides libnotify.so.1 needed by xfce4-panel-plugin-sensors-1.0.0-5.1.i586
-can't install xfce4-panel-plugin-xfapplet-0.1.0-25.1.i586:
-  package xfce4-panel-plugin-xfapplet-0.1.0-25.1.i586 requires gnome-applets, but none of the providers can be installed
-  nothing provides libnotify.so.1 needed by gnome-applets-2.32.1.1-10.1.i586
-  nothing provides libpanel-applet-2.so.0 needed by gnome-applets-2.32.1.1-10.1.i586
-  nothing provides libgucharmap.so.7 needed by gnome-applets-2.32.1.1-10.1.i586
-  nothing provides libgweather.so.1 needed by gnome-applets-2.32.1.1-10.1.i586
-  nothing provides libpanel-applet-3.so.0 needed by gnome-applets-2.32.1.1-10.1.i586
-can't install xfce4-power-manager-1.0.3-11.1.i586:
-  nothing provides libnotify.so.1 needed by xfce4-power-manager-1.0.3-11.1.i586
+can't install yast2-gtk-2.21.96-2.2.i586:
+  nothing provides libzypp.so.810 needed by yast2-gtk-2.21.96-2.2.i586
 can't install CodeAnalyst-2.12.3-2.3.x86_64:
   nothing provides libdwarf.so()(64bit) needed by CodeAnalyst-2.12.3-2.3.x86_64
 can't install MozillaThunderbird-devel-3.1.8-14.1.x86_64:
@@ -905,6 +748,11 @@ can't install MozillaThunderbird-translations-other-3.1.8-14.1.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by MozillaThunderbird-3.1.8-14.1.x86_64
 can't install MozillaThunderbird-3.1.8-14.1.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by MozillaThunderbird-3.1.8-14.1.x86_64
+can't install MyODBC-unixODBC-3.51.27r695-14.2.x86_64:
+  nothing provides libmysqlclient.so.16()(64bit) needed by MyODBC-unixODBC-3.51.27r695-14.2.x86_64
+  nothing provides libmysqlclient.so.16(libmysqlclient_16)(64bit) needed by MyODBC-unixODBC-3.51.27r695-14.2.x86_64
+  nothing provides libmysqlclient_r.so.16()(64bit) needed by MyODBC-unixODBC-3.51.27r695-14.2.x86_64
+  nothing provides libmysqlclient_r.so.16(libmysqlclient_16)(64bit) needed by MyODBC-unixODBC-3.51.27r695-14.2.x86_64
 can't install NetworkManager-novellvpn-gnome-0.7.2.r1138-11.1.x86_64:
   nothing provides libnm-util.so.1()(64bit) needed by NetworkManager-novellvpn-gnome-0.7.2.r1138-11.1.x86_64
 can't install NetworkManager-novellvpn-kde4-0.9.svn1192577-6.1.x86_64:
@@ -912,6 +760,11 @@ can't install NetworkManager-novellvpn-kde4-0.9.svn1192577-6.1.x86_64:
   nothing provides libnm-util.so.1()(64bit) needed by NetworkManager-novellvpn-0.7.2.r1138-11.1.x86_64
 can't install NetworkManager-novellvpn-0.7.2.r1138-11.1.x86_64:
   nothing provides libnm-util.so.1()(64bit) needed by NetworkManager-novellvpn-0.7.2.r1138-11.1.x86_64
+can't install amarok-lang-2.4.0.90-12.4.noarch:
+  package amarok-lang-2.4.0.90-12.4.noarch requires amarok = 2.4.0.90, but none of the providers can be installed
+  nothing provides taglib >= 1.6 needed by amarok-2.4.0.90-12.4.x86_64
+can't install amarok-2.4.0.90-12.4.x86_64:
+  nothing provides taglib >= 1.6 needed by amarok-2.4.0.90-12.4.x86_64
 can't install anjuta-devel-2.32.1.1-7.2.x86_64:
   package anjuta-devel-2.32.1.1-7.2.x86_64 requires anjuta = 2.32.1.1, but none of the providers can be installed
   nothing provides libdevhelp-2.so.1()(64bit) needed by anjuta-2.32.1.1-7.2.x86_64
@@ -954,15 +807,21 @@ can't install claws-mail-extra-plugins-devel-3.7.9-1.1.x86_64:
   nothing provides libchamplain-0.8.so.1()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
   nothing provides libchamplain-gtk-0.8.so.1()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
   nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
+  nothing provides perl = 5.12.3 needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
+    (we have perl-5.14.0-1.1.x86_64)
 can't install claws-mail-extra-plugins-lang-3.7.9-1.1.noarch:
   package claws-mail-extra-plugins-lang-3.7.9-1.1.noarch requires claws-mail-extra-plugins = 3.7.9, but none of the providers can be installed
   nothing provides libchamplain-0.8.so.1()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
   nothing provides libchamplain-gtk-0.8.so.1()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
   nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
+  nothing provides perl = 5.12.3 needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
+    (we have perl-5.14.0-1.1.x86_64)
 can't install claws-mail-extra-plugins-3.7.9-1.1.x86_64:
   nothing provides libchamplain-0.8.so.1()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
   nothing provides libchamplain-gtk-0.8.so.1()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
   nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
+  nothing provides perl = 5.12.3 needed by claws-mail-extra-plugins-3.7.9-1.1.x86_64
+    (we have perl-5.14.0-1.1.x86_64)
 can't install compiz-branding-openSUSE-0.9.2.1-9.4.x86_64:
   package compiz-branding-openSUSE-0.9.2.1-9.4.x86_64 requires compiz = 0.9.2.1, but none of the providers can be installed
   nothing provides libgnome-window-settings.so.1()(64bit) needed by compiz-0.9.2.1-9.4.x86_64
@@ -1012,15 +871,8 @@ can't install contact-lookup-applet-lang-0.17-12.1.noarch:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by contact-lookup-applet-0.17-12.1.x86_64
 can't install contact-lookup-applet-0.17-12.1.x86_64:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by contact-lookup-applet-0.17-12.1.x86_64
-can't install cpanspec-1.78-28.1.noarch:
-  package cpanspec-1.78-28.1.noarch requires perl(Parse::CPAN::Packages), but none of the providers can be installed
-  package perl-Parse-CPAN-Packages-2.33-2.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.x86_64
-can't install deja-dup-lang-16.1.1-5.1.noarch:
-  package deja-dup-lang-16.1.1-5.1.noarch requires deja-dup = 16.1.1, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by deja-dup-16.1.1-5.1.x86_64
-can't install deja-dup-16.1.1-5.1.x86_64:
-  nothing provides libnotify.so.1()(64bit) needed by deja-dup-16.1.1-5.1.x86_64
+can't install cyrus-sasl-sqlauxprop-32bit-2.1.23-17.3.x86_64:
+  nothing provides libmysqlclient.so.18 needed by cyrus-sasl-sqlauxprop-32bit-2.1.23-17.3.x86_64
 can't install drapes-lang-0.5.2-6.1.noarch:
   package drapes-lang-0.5.2-6.1.noarch requires drapes = 0.5.2, but none of the providers can be installed
   package drapes-0.5.2-6.1.noarch requires mono(gnome-panel-sharp) = 2.24.0.0, but none of the providers can be installed
@@ -1040,6 +892,7 @@ can't install empathy-lang-2.32.2-8.1.noarch:
   nothing provides libfolks.so.1()(64bit) needed by empathy-2.32.2-8.1.x86_64
   nothing provides libgcr.so.0()(64bit) needed by empathy-2.32.2-8.1.x86_64
   nothing provides libnm-glib.so.2()(64bit) needed by empathy-2.32.2-8.1.x86_64
+  nothing provides libtelepathy-logger.so.1()(64bit) needed by empathy-2.32.2-8.1.x86_64
 can't install empathy-2.32.2-8.1.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by empathy-2.32.2-8.1.x86_64
   nothing provides libchamplain-0.8.so.1()(64bit) needed by empathy-2.32.2-8.1.x86_64
@@ -1049,25 +902,7 @@ can't install empathy-2.32.2-8.1.x86_64:
   nothing provides libfolks.so.1()(64bit) needed by empathy-2.32.2-8.1.x86_64
   nothing provides libgcr.so.0()(64bit) needed by empathy-2.32.2-8.1.x86_64
   nothing provides libnm-glib.so.2()(64bit) needed by empathy-2.32.2-8.1.x86_64
-can't install eog-plugins-lang-2.30.1-5.1.noarch:
-  package eog-plugins-lang-2.30.1-5.1.noarch requires eog-plugins = 2.30.1, but none of the providers can be installed
-  nothing provides libchamplain-0.8.so.1()(64bit) needed by eog-plugins-2.30.1-5.1.x86_64
-  nothing provides libchamplain-gtk-0.8.so.1()(64bit) needed by eog-plugins-2.30.1-5.1.x86_64
-  nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by eog-plugins-2.30.1-5.1.x86_64
-  nothing provides libgdata.so.7()(64bit) needed by eog-plugins-2.30.1-5.1.x86_64
-can't install eog-plugins-2.30.1-5.1.x86_64:
-  nothing provides libchamplain-0.8.so.1()(64bit) needed by eog-plugins-2.30.1-5.1.x86_64
-  nothing provides libchamplain-gtk-0.8.so.1()(64bit) needed by eog-plugins-2.30.1-5.1.x86_64
-  nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by eog-plugins-2.30.1-5.1.x86_64
-  nothing provides libgdata.so.7()(64bit) needed by eog-plugins-2.30.1-5.1.x86_64
-can't install epiphany-devel-2.30.6-13.1.x86_64:
-  package epiphany-devel-2.30.6-13.1.x86_64 requires epiphany = 2.30.6, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by epiphany-2.30.6-13.1.x86_64
-can't install epiphany-lang-2.30.6-13.1.noarch:
-  package epiphany-lang-2.30.6-13.1.noarch requires epiphany = 2.30.6, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by epiphany-2.30.6-13.1.x86_64
-can't install epiphany-2.30.6-13.1.x86_64:
-  nothing provides libnotify.so.1()(64bit) needed by epiphany-2.30.6-13.1.x86_64
+  nothing provides libtelepathy-logger.so.1()(64bit) needed by empathy-2.32.2-8.1.x86_64
 can't install evolution-plugin-rss-lang-0.2.3-2.1.noarch:
   package evolution-plugin-rss-lang-0.2.3-2.1.noarch requires evolution-plugin-rss = 0.2.3, but none of the providers can be installed
   nothing provides libgtkhtml-editor-3.14.so.0()(64bit) needed by evolution-plugin-rss-0.2.3-2.1.x86_64
@@ -1119,8 +954,6 @@ can't install gnome-color-manager-lang-2.32.0-8.1.noarch:
   nothing provides libnotify.so.1()(64bit) needed by gnome-color-manager-2.32.0-8.1.x86_64
 can't install gnome-color-manager-2.32.0-8.1.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by gnome-color-manager-2.32.0-8.1.x86_64
-can't install gnome-disk-utility-2.32.0-4.1.x86_64:
-  nothing provides libnotify.so.1()(64bit) needed by gnome-disk-utility-2.32.0-4.1.x86_64
 can't install gnome-docker-0.1-99.1.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by gnome-docker-0.1-99.1.x86_64
 can't install gnome-gmail-notifier-lang-0.10.1-4.1.noarch:
@@ -1147,8 +980,6 @@ can't install gnome-netstatus-lang-2.28.2-8.1.noarch:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by gnome-netstatus-2.28.2-8.1.x86_64
 can't install gnome-netstatus-2.28.2-8.1.x86_64:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by gnome-netstatus-2.28.2-8.1.x86_64
-can't install gnome-panel-applet-tracker-0.9.38-6.3.x86_64:
-  nothing provides libpanel-applet-3.so.0()(64bit) needed by gnome-panel-applet-tracker-0.9.38-6.3.x86_64
 can't install gnome-panel-branding-openSUSE-11.4-21.2.noarch:
   package gnome-panel-branding-openSUSE-11.4-21.2.noarch requires tomboy, but none of the providers can be installed
   nothing provides libpanel-applet-2-0 needed by tomboy-1.6.1-1.1.x86_64
@@ -1160,52 +991,48 @@ can't install gnome-pilot-conduits-lang-2.32.1-7.2.noarch:
   nothing provides libgpilotdconduit.so.3()(64bit) needed by gnome-pilot-conduits-2.32.1-7.2.x86_64
 can't install gnome-pilot-conduits-2.32.1-7.2.x86_64:
   nothing provides libgpilotdconduit.so.3()(64bit) needed by gnome-pilot-conduits-2.32.1-7.2.x86_64
-can't install gnome-shell-lang-2.91.6-9.2.noarch:
-  package gnome-shell-lang-2.91.6-9.2.noarch requires gnome-shell = 2.91.6, but none of the providers can be installed
-  nothing provides libedataserverui-1.2.so.11()(64bit) needed by gnome-shell-2.91.6-9.2.x86_64
-can't install gnome-shell-2.91.6-9.2.x86_64:
-  nothing provides libedataserverui-1.2.so.11()(64bit) needed by gnome-shell-2.91.6-9.2.x86_64
-can't install gnome-tweak-tool-lang-3.0.3-1.1.noarch:
-  package gnome-tweak-tool-lang-3.0.3-1.1.noarch requires gnome-tweak-tool = 3.0.3, but none of the providers can be installed
-  package gnome-tweak-tool-3.0.3-1.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libedataserverui-1.2.so.11()(64bit) needed by gnome-shell-2.91.6-9.2.x86_64
-can't install gnome-tweak-tool-3.0.3-1.1.noarch:
-  package gnome-tweak-tool-3.0.3-1.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libedataserverui-1.2.so.11()(64bit) needed by gnome-shell-2.91.6-9.2.x86_64
-can't install gnome-user-share-lang-2.30.1-15.2.noarch:
-  package gnome-user-share-lang-2.30.1-15.2.noarch requires gnome-user-share = 2.30.1, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by gnome-user-share-2.30.1-15.2.x86_64
-can't install gnome-user-share-2.30.1-15.2.x86_64:
-  nothing provides libnotify.so.1()(64bit) needed by gnome-user-share-2.30.1-15.2.x86_64
 can't install gnote-lang-0.7.3-9.1.noarch:
   package gnote-lang-0.7.3-9.1.noarch requires gnote = 0.7.3, but none of the providers can be installed
   nothing provides libpanel-applet-2.so.0()(64bit) needed by gnote-0.7.3-9.1.x86_64
 can't install gnote-0.7.3-9.1.x86_64:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by gnote-0.7.3-9.1.x86_64
-can't install gns3-0.7.4-25.1.noarch:
-  nothing provides dynamips needed by gns3-0.7.4-25.1.noarch
+can't install gns3-0.7.4-25.2.noarch:
+  nothing provides dynamips needed by gns3-0.7.4-25.2.noarch
 can't install goobox-lang-2.2.0-8.1.noarch:
   package goobox-lang-2.2.0-8.1.noarch requires goobox = 2.2.0, but none of the providers can be installed
   nothing provides libnotify.so.1()(64bit) needed by goobox-2.2.0-8.1.x86_64
+  nothing provides libbrasero-media.so.1()(64bit) needed by goobox-2.2.0-8.1.x86_64
 can't install goobox-2.2.0-8.1.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by goobox-2.2.0-8.1.x86_64
-can't install gourmet-lang-0.15.9-2.1.noarch:
-  package gourmet-lang-0.15.9-2.1.noarch requires gourmet = 0.15.9, but none of the providers can be installed
-  nothing provides python-reportlab needed by gourmet-0.15.9-2.1.noarch
-  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.1.noarch
-can't install gourmet-0.15.9-2.1.noarch:
-  nothing provides python-reportlab needed by gourmet-0.15.9-2.1.noarch
-  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.1.noarch
-can't install gstreamer-0_10-plugins-gl-32bit-0.10.2-10.3.x86_64:
-  nothing provides libGLEW.so.1.5 needed by gstreamer-0_10-plugins-gl-32bit-0.10.2-10.3.x86_64
+  nothing provides libbrasero-media.so.1()(64bit) needed by goobox-2.2.0-8.1.x86_64
+can't install gourmet-lang-0.15.9-2.2.noarch:
+  package gourmet-lang-0.15.9-2.2.noarch requires gourmet = 0.15.9, but none of the providers can be installed
+  nothing provides python-reportlab needed by gourmet-0.15.9-2.2.noarch
+  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.2.noarch
+can't install gourmet-0.15.9-2.2.noarch:
+  nothing provides python-reportlab needed by gourmet-0.15.9-2.2.noarch
+  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.2.noarch
+can't install gstreamer-0_10-plugins-bad-32bit-0.10.22-1.3.x86_64:
+  nothing provides libdirac_encoder.so.0 needed by gstreamer-0_10-plugins-bad-32bit-0.10.22-1.3.x86_64
+  nothing provides libofa.so.0 needed by gstreamer-0_10-plugins-bad-32bit-0.10.22-1.3.x86_64
+can't install gstreamer-0_10-plugins-farsight-32bit-0.12.11-12.2.x86_64:
+  nothing provides libjinglebase.so.0 needed by gstreamer-0_10-plugins-farsight-32bit-0.12.11-12.2.x86_64
+  nothing provides libjinglep2pbase.so.0 needed by gstreamer-0_10-plugins-farsight-32bit-0.12.11-12.2.x86_64
+can't install gstreamer-0_10-plugins-gl-32bit-0.10.2-10.8.x86_64:
+  nothing provides libGLEW.so.1.5 needed by gstreamer-0_10-plugins-gl-32bit-0.10.2-10.8.x86_64
+can't install gstreamer-0_10-plugins-good-extra-32bit-0.10.29-1.3.x86_64:
+  nothing provides libcaca.so.0 needed by gstreamer-0_10-plugins-good-extra-32bit-0.10.29-1.3.x86_64
 can't install gthumb-devel-2.12.2-7.2.x86_64:
   package gthumb-devel-2.12.2-7.2.x86_64 requires gthumb = 2.12.2, but none of the providers can be installed
   nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by gthumb-2.12.2-7.2.x86_64
+  nothing provides libbrasero-burn.so.1()(64bit) needed by gthumb-2.12.2-7.2.x86_64
 can't install gthumb-lang-2.12.2-7.2.noarch:
   package gthumb-lang-2.12.2-7.2.noarch requires gthumb = 2.12.2, but none of the providers can be installed
   nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by gthumb-2.12.2-7.2.x86_64
+  nothing provides libbrasero-burn.so.1()(64bit) needed by gthumb-2.12.2-7.2.x86_64
 can't install gthumb-2.12.2-7.2.x86_64:
   nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by gthumb-2.12.2-7.2.x86_64
+  nothing provides libbrasero-burn.so.1()(64bit) needed by gthumb-2.12.2-7.2.x86_64
 can't install gtkhtml314-sharp-2.26.0-17.1.x86_64:
   nothing provides libgtkhtml-3_14-19 needed by gtkhtml314-sharp-2.26.0-17.1.x86_64
 can't install gtranslator-lang-1.9.13-8.2.noarch:
@@ -1219,10 +1046,12 @@ can't install hp-drive-guard-0.3.12-2.6.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by hp-drive-guard-0.3.12-2.6.x86_64
 can't install kerneloops-applet-0.12-40.3.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by kerneloops-applet-0.12-40.3.x86_64
-can't install ladspa-32bit-1.13-10.8.x86_64:
-  nothing provides libfftw3f.so.3 needed by ladspa-32bit-1.13-10.8.x86_64
-can't install libass4-32bit-0.9.11-23.5.x86_64:
-  nothing provides libenca.so.0 needed by libass4-32bit-0.9.11-23.5.x86_64
+can't install lablgtk2-devel-2.14.2-8.3.x86_64:
+  nothing provides ocaml(GtkSourceView_types) = 7a105560716993f8140c6b4eb8bfd374 needed by lablgtk2-devel-2.14.2-8.3.x86_64
+can't install lablgtk2-2.14.2-8.3.x86_64:
+  nothing provides ocaml(GtkSourceView_types) = 7a105560716993f8140c6b4eb8bfd374 needed by lablgtk2-2.14.2-8.3.x86_64
+can't install libass4-32bit-0.9.11-23.8.x86_64:
+  nothing provides libenca.so.0 needed by libass4-32bit-0.9.11-23.8.x86_64
 can't install libcompizconfig-devel-0.9.2.1-4.2.x86_64:
   package libcompizconfig-devel-0.9.2.1-4.2.x86_64 requires compiz-devel, but none of the providers can be installed
   package libcompizconfig-devel-0.9.2.1-4.2.x86_64 requires pkgconfig(compiz), but none of the providers can be installed
@@ -1239,26 +1068,34 @@ can't install libgail-gnome-devel-1.20.3-6.1.x86_64:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by libgail-gnome-1.20.3-6.1.x86_64
 can't install libgail-gnome-1.20.3-6.1.x86_64:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by libgail-gnome-1.20.3-6.1.x86_64
-can't install libgstgl-0_10-1-32bit-0.10.2-10.3.x86_64:
-  nothing provides libGLEW.so.1.5 needed by libgstgl-0_10-1-32bit-0.10.2-10.3.x86_64
+can't install libgda-4_0-mysql-4.2.2-6.2.x86_64:
+  nothing provides libmysqlclient.so.16()(64bit) needed by libgda-4_0-mysql-4.2.2-6.2.x86_64
+  nothing provides libmysqlclient.so.16(libmysqlclient_16)(64bit) needed by libgda-4_0-mysql-4.2.2-6.2.x86_64
+can't install libgstgl-0_10-1-32bit-0.10.2-10.8.x86_64:
+  nothing provides libGLEW.so.1.5 needed by libgstgl-0_10-1-32bit-0.10.2-10.8.x86_64
 can't install libpanelappletmm-2_6-1-2.26.0-7.1.x86_64:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by libpanelappletmm-2_6-1-2.26.0-7.1.x86_64
 can't install libpanelappletmm-devel-2.26.0-7.1.x86_64:
   nothing provides pkgconfig(libpanelapplet-2.0) >= 2.14.0 needed by libpanelappletmm-devel-2.26.0-7.1.x86_64
-can't install libtracker-client-0_10-0-0.9.38-6.3.x86_64:
-  package libtracker-client-0_10-0-0.9.38-6.3.x86_64 requires libtracker-common.so.0()(64bit), but none of the providers can be installed
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-can't install libtracker-extract-0_10-0-0.9.38-6.3.x86_64:
-  package libtracker-extract-0_10-0-0.9.38-6.3.x86_64 requires libtracker-common.so.0()(64bit), but none of the providers can be installed
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-can't install libtracker-miner-0_10-0-0.9.38-6.3.x86_64:
-  nothing provides libnm-glib.so.2()(64bit) needed by libtracker-miner-0_10-0-0.9.38-6.3.x86_64
-can't install libvirt-devel-32bit-0.8.8-5.30.x86_64:
-  nothing provides libvirt-32bit = 0.8.8 needed by libvirt-devel-32bit-0.8.8-5.30.x86_64
-can't install lokalize-4.6.1-2.2.x86_64:
-  nothing provides libhunspell-1.2.so.0()(64bit) needed by lokalize-4.6.1-2.2.x86_64
+can't install libqt4-sql-mysql-32bit-4.7.2-7.3.x86_64:
+  nothing provides libmysqlclient.so.18 needed by libqt4-sql-mysql-32bit-4.7.2-7.3.x86_64
+can't install libreoffice-base-drivers-mysql-3.3.2.2-2.3.x86_64:
+  nothing provides libmysqlclient.so.16()(64bit) needed by libreoffice-base-drivers-mysql-3.3.2.2-2.3.x86_64
+  nothing provides libmysqlclient.so.16(libmysqlclient_16)(64bit) needed by libreoffice-base-drivers-mysql-3.3.2.2-2.3.x86_64
+can't install libsemanage1-32bit-2.0.43-14.2.x86_64:
+  nothing provides libustr-1.0.so.1 needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+  nothing provides libustr-1.0.so.1(USTR_1.0) needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+  nothing provides libustr-1.0.so.1(USTR_1.0.1) needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+can't install libsnmp25-32bit-5.6.1-11.1.x86_64:
+  package libsnmp25-32bit-5.6.1-11.1.x86_64 requires librpm.so.2, but none of the providers can be installed
+  package libsnmp25-32bit-5.6.1-11.1.x86_64 requires librpmio.so.2, but none of the providers can be installed
+  package rpm-32bit-4.9.0-8.1.x86_64 requires libsemanage.so.1, but none of the providers can be installed
+  package rpm-32bit-4.9.0-8.1.x86_64 requires libsemanage.so.1(LIBSEMANAGE_1.0), but none of the providers can be installed
+  nothing provides libustr-1.0.so.1 needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+  nothing provides libustr-1.0.so.1(USTR_1.0) needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+  nothing provides libustr-1.0.so.1(USTR_1.0.1) needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+can't install libtunepimp5-32bit-0.5.3-151.3.x86_64:
+  nothing provides libofa.so.0 needed by libtunepimp5-32bit-0.5.3-151.3.x86_64
 can't install mail-notification-lang-5.4-5.1.noarch:
   package mail-notification-lang-5.4-5.1.noarch requires mail-notification = 5.4, but none of the providers can be installed
   nothing provides libnotify.so.1()(64bit) needed by mail-notification-5.4-5.1.x86_64
@@ -1272,22 +1109,15 @@ can't install mail-notification-5.4-5.1.x86_64:
   nothing provides libcamel-1.2.so.19()(64bit) needed by mail-notification-5.4-5.1.x86_64
   nothing provides libcamel-provider-1.2.so.19()(64bit) needed by mail-notification-5.4-5.1.x86_64
   nothing provides libgtkhtml-3.14.so.19()(64bit) needed by mail-notification-5.4-5.1.x86_64
-can't install mjpegtools-32bit-1.9.0-19.18.x86_64:
-  nothing provides libquicktime.so.0 needed by mjpegtools-32bit-1.9.0-19.18.x86_64
 can't install mlterm-uim-3.0.1-15.1.x86_64:
   package mlterm-uim-3.0.1-15.1.x86_64 requires libuim.so.6()(64bit), but none of the providers can be installed
   nothing provides libpanel-applet-2.so.0()(64bit) needed by uim-1.5.6-16.1.x86_64
 can't install mysql-workbench-5.2.31-5.1.x86_64:
+  nothing provides libmysqlclient_r.so.16()(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
+  nothing provides libmysqlclient_r.so.16(libmysqlclient_16)(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
   nothing provides libzip.so.1()(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
-can't install nagios-plugins-nis-1.2-10.1.noarch:
-  nothing provides licenses needed by nagios-plugins-nis-1.2-10.1.noarch
-can't install nautilus-deja-dup-16.1.1-5.1.x86_64:
-  package nautilus-deja-dup-16.1.1-5.1.x86_64 requires deja-dup = 16.1.1, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by deja-dup-16.1.1-5.1.x86_64
-can't install nautilus-extension-tracker-tags-0.9.38-6.3.x86_64:
-  package nautilus-extension-tracker-tags-0.9.38-6.3.x86_64 requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
+can't install nagios-plugins-nis-1.2-10.2.noarch:
+  nothing provides licenses needed by nagios-plugins-nis-1.2-10.2.noarch
 can't install nautilus-sendto-plugin-empathy-2.32.2-8.1.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.x86_64
   nothing provides libchamplain-0.8.so.1()(64bit) needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.x86_64
@@ -1296,6 +1126,7 @@ can't install nautilus-sendto-plugin-empathy-2.32.2-8.1.x86_64:
   nothing provides libfolks.so.1()(64bit) needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.x86_64
   nothing provides libgcr.so.0()(64bit) needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.x86_64
   nothing provides libnm-glib.so.2()(64bit) needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.x86_64
+  nothing provides libtelepathy-logger.so.1()(64bit) needed by nautilus-sendto-plugin-empathy-2.32.2-8.1.x86_64
 can't install padevchooser-0.9.4-142.1.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by padevchooser-0.9.4-142.1.x86_64
 can't install patterns-openSUSE-devel_gnome-11.4-11.2.x86_64:
@@ -1356,36 +1187,42 @@ can't install patterns-openSUSE-gnome_xgl-11.4-11.2.x86_64:
   package compiz-gnome-0.9.2.1-9.4.x86_64 requires libdecoration.so.0()(64bit), but none of the providers can be installed
   package compiz-gnome-0.9.2.1-9.4.x86_64 requires compiz = 0.9.2.1, but none of the providers can be installed
   nothing provides libgnome-window-settings.so.1()(64bit) needed by compiz-0.9.2.1-9.4.x86_64
-can't install perl-Any-Moose-0.13-4.1.noarch:
-  package perl-Any-Moose-0.13-4.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.x86_64
-can't install perl-GnuPG-Interface-0.43-2.1.noarch:
-  package perl-GnuPG-Interface-0.43-2.1.noarch requires perl(Any::Moose) >= 0.04, but none of the providers can be installed
-  package perl-Any-Moose-0.13-4.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.x86_64
-can't install perl-Moose-1.15-6.4.x86_64:
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.x86_64
-can't install perl-MooseX-Log-Log4perl-0.42-2.1.noarch:
-  package perl-MooseX-Log-Log4perl-0.42-2.1.noarch requires perl(Moose) >= 0.65, but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.x86_64
-can't install perl-Parse-CPAN-Packages-2.33-2.1.noarch:
-  package perl-Parse-CPAN-Packages-2.33-2.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.x86_64
-can't install perl-Throwable-0.102080-2.1.noarch:
-  package perl-Throwable-0.102080-2.1.noarch requires perl(Moose::Util::TypeConstraints), but none of the providers can be installed
-  package perl-Throwable-0.102080-2.1.noarch requires perl(Moose) >= 0.87, but none of the providers can be installed
-  package perl-Throwable-0.102080-2.1.noarch requires perl(Moose::Role) >= 0.87, but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.x86_64
+can't install patterns-openSUSE-gnome_yast-11.4-11.2.x86_64:
+  package patterns-openSUSE-gnome_yast-11.4-11.2.x86_64 requires yast2-gtk, but none of the providers can be installed
+  nothing provides libzypp.so.810()(64bit) needed by yast2-gtk-2.21.96-2.2.x86_64
+can't install pdftk-1.44-4.1.x86_64:
+  nothing provides libgcj.so.11()(64bit) needed by pdftk-1.44-4.1.x86_64
+can't install phonon-backend-xine-4.4.4-5.5.x86_64:
+  nothing provides libphonon4 = 4.4.4 needed by phonon-backend-xine-4.4.4-5.5.x86_64
+    (we have libphonon4-4.5.0-1.1.x86_64)
 can't install pino-lang-0.2.11-9.2.noarch:
   package pino-lang-0.2.11-9.2.noarch requires pino = 0.2.11, but none of the providers can be installed
   nothing provides libnotify.so.1()(64bit) needed by pino-0.2.11-9.2.x86_64
 can't install pino-0.2.11-9.2.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by pino-0.2.11-9.2.x86_64
+can't install postgresql-plperl-9.0.3-7.2.x86_64:
+  nothing provides perl = 5.12.3 needed by postgresql-plperl-9.0.3-7.2.x86_64
+    (we have perl-5.14.0-1.1.x86_64)
 can't install python-clutter-gtk-devel-0.10.0-1.13.x86_64:
   package python-clutter-gtk-devel-0.10.0-1.13.x86_64 requires python-clutter-gtk = 0.10.0, but none of the providers can be installed
   nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by python-clutter-gtk-0.10.0-1.13.x86_64
 can't install python-clutter-gtk-0.10.0-1.13.x86_64:
   nothing provides libclutter-gtk-0.10.so.0()(64bit) needed by python-clutter-gtk-0.10.0-1.13.x86_64
+can't install rhythmbox-devel-0.13.3-9.4.x86_64:
+  nothing provides pkgconfig(gnome-media-profiles) needed by rhythmbox-devel-0.13.3-9.4.x86_64
+can't install rhythmbox-lang-0.13.3-9.4.noarch:
+  package rhythmbox-lang-0.13.3-9.4.noarch requires rhythmbox = 0.13.3, but none of the providers can be installed
+  nothing provides libbrasero-media.so.1()(64bit) needed by rhythmbox-0.13.3-9.4.x86_64
+  nothing provides libgnome-media-profiles.so.0()(64bit) needed by rhythmbox-0.13.3-9.4.x86_64
+can't install rhythmbox-0.13.3-9.4.x86_64:
+  nothing provides libbrasero-media.so.1()(64bit) needed by rhythmbox-0.13.3-9.4.x86_64
+  nothing provides libgnome-media-profiles.so.0()(64bit) needed by rhythmbox-0.13.3-9.4.x86_64
+can't install rpm-32bit-4.9.0-8.1.x86_64:
+  package rpm-32bit-4.9.0-8.1.x86_64 requires libsemanage.so.1, but none of the providers can be installed
+  package rpm-32bit-4.9.0-8.1.x86_64 requires libsemanage.so.1(LIBSEMANAGE_1.0), but none of the providers can be installed
+  nothing provides libustr-1.0.so.1 needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+  nothing provides libustr-1.0.so.1(USTR_1.0) needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+  nothing provides libustr-1.0.so.1(USTR_1.0.1) needed by libsemanage1-32bit-2.0.43-14.2.x86_64
 can't install rygel-devel-0.8.3-10.1.x86_64:
   package rygel-devel-0.8.3-10.1.x86_64 requires rygel = 0.8.3, but none of the providers can be installed
   nothing provides libgupnp-dlna-1.0.so.0()(64bit) needed by rygel-0.8.3-10.1.x86_64
@@ -1396,93 +1233,47 @@ can't install rygel-plugin-gstreamer-renderer-0.8.3-10.1.x86_64:
   package rygel-plugin-gstreamer-renderer-0.8.3-10.1.x86_64 requires rygel = 0.8.3, but none of the providers can be installed
   nothing provides libgupnp-dlna-1.0.so.0()(64bit) needed by rygel-0.8.3-10.1.x86_64
 can't install rygel-plugin-tracker-0.8.3-10.1.x86_64:
-  package rygel-plugin-tracker-0.8.3-10.1.x86_64 requires tracker, but none of the providers can be installed
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
+  package rygel-plugin-tracker-0.8.3-10.1.x86_64 requires rygel = 0.8.3, but none of the providers can be installed
+  nothing provides libgupnp-dlna-1.0.so.0()(64bit) needed by rygel-0.8.3-10.1.x86_64
 can't install rygel-plugin-zdf-mediathek-0.8.3-10.1.x86_64:
   package rygel-plugin-zdf-mediathek-0.8.3-10.1.x86_64 requires rygel = 0.8.3, but none of the providers can be installed
   nothing provides libgupnp-dlna-1.0.so.0()(64bit) needed by rygel-0.8.3-10.1.x86_64
 can't install rygel-0.8.3-10.1.x86_64:
   nothing provides libgupnp-dlna-1.0.so.0()(64bit) needed by rygel-0.8.3-10.1.x86_64
+can't install sane-backends-32bit-1.0.22-13.2.x86_64:
+  package libsnmp25-32bit-5.6.1-11.1.x86_64 requires librpm.so.2, but none of the providers can be installed
+  package libsnmp25-32bit-5.6.1-11.1.x86_64 requires librpmio.so.2, but none of the providers can be installed
+  package sane-backends-32bit-1.0.22-13.2.x86_64 requires libnetsnmp.so.25, but none of the providers can be installed
+  package rpm-32bit-4.9.0-8.1.x86_64 requires libsemanage.so.1, but none of the providers can be installed
+  package rpm-32bit-4.9.0-8.1.x86_64 requires libsemanage.so.1(LIBSEMANAGE_1.0), but none of the providers can be installed
+  nothing provides libustr-1.0.so.1 needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+  nothing provides libustr-1.0.so.1(USTR_1.0) needed by libsemanage1-32bit-2.0.43-14.2.x86_64
+  nothing provides libustr-1.0.so.1(USTR_1.0.1) needed by libsemanage1-32bit-2.0.43-14.2.x86_64
 can't install scim-uim-0.2.0-209.7.x86_64:
   package scim-uim-0.2.0-209.7.x86_64 requires libuim.so.6()(64bit), but none of the providers can be installed
   package scim-uim-0.2.0-209.7.x86_64 requires libuim-scm.so.0()(64bit), but none of the providers can be installed
   nothing provides libpanel-applet-2.so.0()(64bit) needed by uim-1.5.6-16.1.x86_64
-can't install seahorse-plugins-applet-2.30.1-11.2.x86_64:
-  nothing provides libnotify.so.1()(64bit) needed by seahorse-plugins-applet-2.30.1-11.2.x86_64
-  nothing provides libpanel-applet-2.so.0()(64bit) needed by seahorse-plugins-applet-2.30.1-11.2.x86_64
-can't install seahorse-plugins-gedit-2.30.1-11.2.x86_64:
-  package seahorse-plugins-gedit-2.30.1-11.2.x86_64 requires seahorse-plugins = 2.30.1-11.2, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by seahorse-plugins-2.30.1-11.2.x86_64
-can't install seahorse-plugins-lang-2.30.1-11.2.noarch:
-  package seahorse-plugins-lang-2.30.1-11.2.noarch requires seahorse-plugins = 2.30.1, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by seahorse-plugins-2.30.1-11.2.x86_64
-can't install seahorse-plugins-nautilus-2.30.1-11.2.x86_64:
-  package seahorse-plugins-nautilus-2.30.1-11.2.x86_64 requires seahorse-plugins = 2.30.1-11.2, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by seahorse-plugins-2.30.1-11.2.x86_64
-can't install seahorse-plugins-2.30.1-11.2.x86_64:
-  nothing provides libnotify.so.1()(64bit) needed by seahorse-plugins-2.30.1-11.2.x86_64
-can't install signing-party-1.1.3-5.1.noarch:
-  package perl-GnuPG-Interface-0.43-2.1.noarch requires perl(Any::Moose) >= 0.04, but none of the providers can be installed
-  package signing-party-1.1.3-5.1.noarch requires perl-GnuPG-Interface, but none of the providers can be installed
-  package perl-Any-Moose-0.13-4.1.noarch requires perl(Moose), but none of the providers can be installed
-  nothing provides perl(Class::MOP) >= 1.05 needed by perl-Moose-1.15-6.4.x86_64
 can't install simple-ccsm-0.9.2.1-9.1.x86_64:
   package simple-ccsm-0.9.2.1-9.1.x86_64 requires compiz, but none of the providers can be installed
   nothing provides libgnome-window-settings.so.1()(64bit) needed by compiz-0.9.2.1-9.4.x86_64
+can't install sound-juicer-lang-2.32.0-8.3.noarch:
+  package sound-juicer-lang-2.32.0-8.3.noarch requires sound-juicer = 2.32.0, but none of the providers can be installed
+  nothing provides libbrasero-media.so.1()(64bit) needed by sound-juicer-2.32.0-8.3.x86_64
+  nothing provides libgnome-media-profiles.so.0()(64bit) needed by sound-juicer-2.32.0-8.3.x86_64
+can't install sound-juicer-2.32.0-8.3.x86_64:
+  nothing provides libbrasero-media.so.1()(64bit) needed by sound-juicer-2.32.0-8.3.x86_64
+  nothing provides libgnome-media-profiles.so.0()(64bit) needed by sound-juicer-2.32.0-8.3.x86_64
 can't install stardict-3.0.1-71.2.x86_64:
   nothing provides libgucharmap.so.7()(64bit) needed by stardict-3.0.1-71.2.x86_64
-can't install systemd-gtk-26-2.1.x86_64:
-  package systemd-gtk-26-2.1.x86_64 requires systemd = 26-2.1, but none of the providers can be installed
-  nothing provides udev >= 167 needed by systemd-26-2.1.x86_64
-    (we have udev-166-7.2.x86_64)
-can't install systemd-sysvinit-26-2.1.x86_64:
-  package systemd-sysvinit-26-2.1.x86_64 requires systemd = 26-2.1, but none of the providers can be installed
-  nothing provides udev >= 167 needed by systemd-26-2.1.x86_64
-    (we have udev-166-7.2.x86_64)
-can't install systemd-26-2.1.x86_64:
-  nothing provides udev >= 167 needed by systemd-26-2.1.x86_64
-    (we have udev-166-7.2.x86_64)
+can't install systemtap-docs-1.4-7.4.noarch:
+  nothing provides /bin/env needed by systemtap-docs-1.4-7.4.noarch
 can't install tomboy-lang-1.6.1-1.1.noarch:
   package tomboy-lang-1.6.1-1.1.noarch requires tomboy = 1.6.1, but none of the providers can be installed
   nothing provides libpanel-applet-2-0 needed by tomboy-1.6.1-1.1.x86_64
 can't install tomboy-1.6.1-1.1.x86_64:
   nothing provides libpanel-applet-2-0 needed by tomboy-1.6.1-1.1.x86_64
-can't install totem-plugins-2.32.0-12.2.x86_64:
-  nothing provides libgdata.so.7()(64bit) needed by totem-plugins-2.32.0-12.2.x86_64
-can't install tracker-devel-0.9.38-6.3.x86_64:
-  package tracker-devel-0.9.38-6.3.x86_64 requires libtracker-miner-0_10-0 = 0.9.38, but none of the providers can be installed
-  nothing provides libnm-glib.so.2()(64bit) needed by libtracker-miner-0_10-0-0.9.38-6.3.x86_64
-can't install tracker-gui-0.9.38-6.3.x86_64:
-  package tracker-gui-0.9.38-6.3.x86_64 requires libtracker-common.so.0()(64bit), but none of the providers can be installed
-  package tracker-gui-0.9.38-6.3.x86_64 requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-can't install tracker-lang-0.9.38-6.3.noarch:
-  package tracker-lang-0.9.38-6.3.noarch requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-can't install tracker-miner-evolution-0.9.38-6.3.x86_64:
-  nothing provides libcamel-1.2.so.19()(64bit) needed by tracker-miner-evolution-0.9.38-6.3.x86_64
-  nothing provides libcamel-provider-1.2.so.19()(64bit) needed by tracker-miner-evolution-0.9.38-6.3.x86_64
-can't install tracker-miner-files-0.9.38-6.3.x86_64:
-  package tracker-miner-files-0.9.38-6.3.x86_64 requires libtracker-common.so.0()(64bit), but none of the providers can be installed
-  package tracker-miner-files-0.9.38-6.3.x86_64 requires libtracker-data.so.0()(64bit), but none of the providers can be installed
-  package tracker-miner-files-0.9.38-6.3.x86_64 requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-can't install tracker-miner-flickr-0.9.38-6.3.x86_64:
-  nothing provides librest-0.6.so.0()(64bit) needed by tracker-miner-flickr-0.9.38-6.3.x86_64
-can't install tracker-miner-rss-0.9.38-6.3.x86_64:
-  package tracker-miner-rss-0.9.38-6.3.x86_64 requires libtracker-common.so.0()(64bit), but none of the providers can be installed
-  package tracker-miner-rss-0.9.38-6.3.x86_64 requires tracker = 0.9.38, but none of the providers can be installed
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-can't install tracker-0.9.38-6.3.x86_64:
-  nothing provides libicuuc.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-  nothing provides libicui18n.so.44()(64bit) needed by tracker-0.9.38-6.3.x86_64
-can't install twinkle-1.4.2-11.6.x86_64:
-  nothing provides licenses needed by twinkle-1.4.2-11.6.x86_64
+can't install twinkle-1.4.2-11.9.x86_64:
+  nothing provides licenses needed by twinkle-1.4.2-11.9.x86_64
 can't install twitux-lang-0.69-11.1.noarch:
   package twitux-lang-0.69-11.1.noarch requires twitux = 0.69, but none of the providers can be installed
   nothing provides libnotify.so.1()(64bit) needed by twitux-0.69-11.1.x86_64
@@ -1530,13 +1321,6 @@ can't install webyast-activedirectory-ui-testsuite-0.2.8-2.1.noarch:
 can't install webyast-activedirectory-ui-0.2.8-2.1.noarch:
   package webyast-activedirectory-ui-0.2.8-2.1.noarch requires webyast-base-ui, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-activedirectory-ws-testsuite-0.2.7-5.1.noarch:
-  package webyast-activedirectory-ws-testsuite-0.2.7-5.1.noarch requires webyast-activedirectory-ws = 0.2.7, but none of the providers can be installed
-  package webyast-activedirectory-ws-0.2.7-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-activedirectory-ws-0.2.7-5.1.noarch:
-  package webyast-activedirectory-ws-0.2.7-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-base-ui-branding-default-0.2.24-5.2.noarch:
   package webyast-base-ui-branding-default-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
@@ -1545,11 +1329,6 @@ can't install webyast-base-ui-testsuite-0.2.24-5.2.noarch:
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
 can't install webyast-base-ui-0.2.24-5.2.noarch:
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-base-ws-testsuite-0.2.11-5.1.noarch:
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-base-ws-0.2.11-5.1.noarch:
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-firewall-ui-testsuite-0.2.6-2.1.noarch:
   package webyast-firewall-ui-testsuite-0.2.6-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1557,20 +1336,6 @@ can't install webyast-firewall-ui-testsuite-0.2.6-2.1.noarch:
 can't install webyast-firewall-ui-0.2.6-2.1.noarch:
   package webyast-firewall-ui-0.2.6-2.1.noarch requires webyast-base-ui, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-firewall-ws-testsuite-0.2.10-5.1.noarch:
-  package webyast-firewall-ws-testsuite-0.2.10-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-firewall-ws-0.2.10-5.1.noarch:
-  package webyast-firewall-ws-0.2.10-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-firstboot-ws-testsuite-0.2.1-2.1.noarch:
-  package webyast-firstboot-ws-testsuite-0.2.1-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-firstboot-ws-0.2.1-2.1.noarch:
-  package webyast-firstboot-ws-0.2.1-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-kerberos-ui-testsuite-0.2.5-2.1.noarch:
   package webyast-kerberos-ui-testsuite-0.2.5-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1578,13 +1343,6 @@ can't install webyast-kerberos-ui-testsuite-0.2.5-2.1.noarch:
 can't install webyast-kerberos-ui-0.2.5-2.1.noarch:
   package webyast-kerberos-ui-0.2.5-2.1.noarch requires webyast-base-ui, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-kerberos-ws-testsuite-0.2.5-5.1.noarch:
-  package webyast-kerberos-ws-testsuite-0.2.5-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-kerberos-ws-0.2.5-5.1.noarch:
-  package webyast-kerberos-ws-0.2.5-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-language-ui-testsuite-0.1.2-2.1.noarch:
   package webyast-language-ui-testsuite-0.1.2-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1592,13 +1350,9 @@ can't install webyast-language-ui-testsuite-0.1.2-2.1.noarch:
 can't install webyast-language-ui-0.1.2-2.1.noarch:
   package webyast-language-ui-0.1.2-2.1.noarch requires yast2-webclient >= 0.0.26, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-language-ws-testsuite-0.1.0-5.1.noarch:
-  package webyast-language-ws-testsuite-0.1.0-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-language-ws-0.1.0-5.1.noarch:
   package webyast-language-ws-0.1.0-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
+  package webyast-base-ws-0.2.21-2.1.noarch obsoletes webyast-language-ws <= 0.1.0 provided by webyast-language-ws-0.1.0-5.1.noarch
 can't install webyast-ldap-ui-testsuite-0.2.5-2.1.noarch:
   package webyast-ldap-ui-testsuite-0.2.5-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1606,13 +1360,6 @@ can't install webyast-ldap-ui-testsuite-0.2.5-2.1.noarch:
 can't install webyast-ldap-ui-0.2.5-2.1.noarch:
   package webyast-ldap-ui-0.2.5-2.1.noarch requires webyast-base-ui, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-ldap-ws-testsuite-0.2.5-5.1.noarch:
-  package webyast-ldap-ws-testsuite-0.2.5-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-ldap-ws-0.2.5-5.1.noarch:
-  package webyast-ldap-ws-0.2.5-5.1.noarch requires webyast-base-ws, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-licenses-ui-testsuite-0.2.2-2.1.noarch:
   package webyast-licenses-ui-testsuite-0.2.2-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1620,13 +1367,6 @@ can't install webyast-licenses-ui-testsuite-0.2.2-2.1.noarch:
 can't install webyast-licenses-ui-0.2.2-2.1.noarch:
   package webyast-licenses-ui-0.2.2-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-licenses-ws-testsuite-0.2.2-2.1.noarch:
-  package webyast-licenses-ws-testsuite-0.2.2-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-licenses-ws-0.2.2-2.1.noarch:
-  package webyast-licenses-ws-0.2.2-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-mail-ui-testsuite-0.2.4-2.1.noarch:
   package webyast-mail-ui-testsuite-0.2.4-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1634,13 +1374,6 @@ can't install webyast-mail-ui-testsuite-0.2.4-2.1.noarch:
 can't install webyast-mail-ui-0.2.4-2.1.noarch:
   package webyast-mail-ui-0.2.4-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-mail-ws-testsuite-0.2.3-2.1.noarch:
-  package webyast-mail-ws-testsuite-0.2.3-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-mail-ws-0.2.3-2.1.noarch:
-  package webyast-mail-ws-0.2.3-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-network-ui-testsuite-0.2.3-2.1.noarch:
   package webyast-network-ui-testsuite-0.2.3-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1648,20 +1381,6 @@ can't install webyast-network-ui-testsuite-0.2.3-2.1.noarch:
 can't install webyast-network-ui-0.2.3-2.1.noarch:
   package webyast-network-ui-0.2.3-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-network-ws-testsuite-0.2.1-5.1.noarch:
-  package webyast-network-ws-testsuite-0.2.1-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-network-ws-0.2.1-5.1.noarch:
-  package webyast-network-ws-0.2.1-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-ntp-ws-testsuite-0.2.1-5.1.noarch:
-  package webyast-ntp-ws-testsuite-0.2.1-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-ntp-ws-0.2.1-5.1.noarch:
-  package webyast-ntp-ws-0.2.1-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-permissions-ui-testsuite-0.1.8-2.1.noarch:
   package webyast-permissions-ui-testsuite-0.1.8-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1676,13 +1395,6 @@ can't install webyast-reboot-ui-testsuite-0.2.1-2.1.noarch:
 can't install webyast-reboot-ui-0.2.1-2.1.noarch:
   package webyast-reboot-ui-0.2.1-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-reboot-ws-testsuite-0.2.0-5.1.noarch:
-  package webyast-reboot-ws-testsuite-0.2.0-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-reboot-ws-0.2.0-5.1.noarch:
-  package webyast-reboot-ws-0.2.0-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-roles-ui-testsuite-0.2.7-2.1.noarch:
   package webyast-roles-ui-testsuite-0.2.7-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1691,13 +1403,6 @@ can't install webyast-roles-ui-0.2.7-2.1.noarch:
   package webyast-roles-ui-0.2.7-2.1.noarch requires webyast-users-ui, but none of the providers can be installed
   package webyast-users-ui-0.2.7-5.1.noarch requires yast2-webclient >= 0.1.17, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-roles-ws-testsuite-0.2.2-2.1.noarch:
-  package webyast-roles-ws-testsuite-0.2.2-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-roles-ws-0.2.2-2.1.noarch:
-  package webyast-roles-ws-0.2.2-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-root-user-ui-testsuite-0.2.5-5.1.noarch:
   package webyast-root-user-ui-testsuite-0.2.5-5.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1705,13 +1410,6 @@ can't install webyast-root-user-ui-testsuite-0.2.5-5.1.noarch:
 can't install webyast-root-user-ui-0.2.5-5.1.noarch:
   package webyast-root-user-ui-0.2.5-5.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-root-user-ws-testsuite-0.2.1-5.1.noarch:
-  package webyast-root-user-ws-testsuite-0.2.1-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-root-user-ws-0.2.1-5.1.noarch:
-  package webyast-root-user-ws-0.2.1-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-services-ui-testsuite-0.2.5-5.1.noarch:
   package webyast-services-ui-testsuite-0.2.5-5.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1719,13 +1417,6 @@ can't install webyast-services-ui-testsuite-0.2.5-5.1.noarch:
 can't install webyast-services-ui-0.2.5-5.1.noarch:
   package webyast-services-ui-0.2.5-5.1.noarch requires yast2-webclient >= 0.1.17, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-services-ws-testsuite-0.2.7-5.1.noarch:
-  package webyast-services-ws-testsuite-0.2.7-5.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-services-ws-0.2.7-5.1.noarch:
-  package webyast-services-ws-0.2.7-5.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-software-ui-testsuite-0.3.1-2.1.noarch:
   package webyast-software-ui-testsuite-0.3.1-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1733,13 +1424,6 @@ can't install webyast-software-ui-testsuite-0.3.1-2.1.noarch:
 can't install webyast-software-ui-0.3.1-2.1.noarch:
   package webyast-software-ui-0.3.1-2.1.noarch requires yast2-webclient >= 0.1.17, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-software-ws-testsuite-0.3.2-2.1.noarch:
-  package webyast-software-ws-testsuite-0.3.2-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-software-ws-0.3.2-2.1.noarch:
-  package webyast-software-ws-0.3.2-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-status-ui-testsuite-0.2.6-2.1.noarch:
   package webyast-status-ui-testsuite-0.2.6-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1747,13 +1431,6 @@ can't install webyast-status-ui-testsuite-0.2.6-2.1.noarch:
 can't install webyast-status-ui-0.2.6-2.1.noarch:
   package webyast-status-ui-0.2.6-2.1.noarch requires yast2-webclient >= 0.1.14, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-status-ws-testsuite-0.2.5-5.4.noarch:
-  package webyast-status-ws-testsuite-0.2.5-5.4.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-status-ws-0.2.5-5.4.noarch:
-  package webyast-status-ws-0.2.5-5.4.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-time-ui-testsuite-0.2.3-2.1.noarch:
   package webyast-time-ui-testsuite-0.2.3-2.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1761,13 +1438,6 @@ can't install webyast-time-ui-testsuite-0.2.3-2.1.noarch:
 can't install webyast-time-ui-0.2.3-2.1.noarch:
   package webyast-time-ui-0.2.3-2.1.noarch requires yast2-webclient >= 0.0.2, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-time-ws-testsuite-0.2.0-2.1.noarch:
-  package webyast-time-ws-testsuite-0.2.0-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-time-ws-0.2.0-2.1.noarch:
-  package webyast-time-ws-0.2.0-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
 can't install webyast-users-ui-testsuite-0.2.7-5.1.noarch:
   package webyast-users-ui-testsuite-0.2.7-5.1.noarch requires webyast-base-ui-testsuite, but none of the providers can be installed
   package webyast-base-ui-testsuite-0.2.24-5.2.noarch requires webyast-base-ui = 0.2.24, but none of the providers can be installed
@@ -1775,30 +1445,5 @@ can't install webyast-users-ui-testsuite-0.2.7-5.1.noarch:
 can't install webyast-users-ui-0.2.7-5.1.noarch:
   package webyast-users-ui-0.2.7-5.1.noarch requires yast2-webclient >= 0.1.17, but none of the providers can be installed
   nothing provides nginx-passenger needed by webyast-base-ui-0.2.24-5.2.noarch
-can't install webyast-users-ws-testsuite-0.2.2-2.1.noarch:
-  package webyast-users-ws-testsuite-0.2.2-2.1.noarch requires webyast-base-ws-testsuite, but none of the providers can be installed
-  package webyast-base-ws-testsuite-0.2.11-5.1.noarch requires webyast-base-ws = 0.2.11, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install webyast-users-ws-0.2.2-2.1.noarch:
-  package webyast-users-ws-0.2.2-2.1.noarch requires yast2-webservice, but none of the providers can be installed
-  nothing provides nginx-passenger needed by webyast-base-ws-0.2.11-5.1.noarch
-can't install xfce4-panel-plugin-brightness-1.0.3-11.1.x86_64:
-  package xfce4-panel-plugin-brightness-1.0.3-11.1.x86_64 requires xfce4-power-manager = 1.0.3, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by xfce4-power-manager-1.0.3-11.1.x86_64
-can't install xfce4-panel-plugin-sensors-devel-1.0.0-5.1.x86_64:
-  package xfce4-panel-plugin-sensors-devel-1.0.0-5.1.x86_64 requires xfce4-panel-plugin-sensors = 1.0.0, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by xfce4-panel-plugin-sensors-1.0.0-5.1.x86_64
-can't install xfce4-panel-plugin-sensors-lang-1.0.0-5.1.noarch:
-  package xfce4-panel-plugin-sensors-lang-1.0.0-5.1.noarch requires xfce4-panel-plugin-sensors = 1.0.0, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by xfce4-panel-plugin-sensors-1.0.0-5.1.x86_64
-can't install xfce4-panel-plugin-sensors-1.0.0-5.1.x86_64:
-  nothing provides libnotify.so.1()(64bit) needed by xfce4-panel-plugin-sensors-1.0.0-5.1.x86_64
-can't install xfce4-panel-plugin-xfapplet-0.1.0-25.1.x86_64:
-  package xfce4-panel-plugin-xfapplet-0.1.0-25.1.x86_64 requires gnome-applets, but none of the providers can be installed
-  nothing provides libnotify.so.1()(64bit) needed by gnome-applets-2.32.1.1-10.1.x86_64
-  nothing provides libpanel-applet-2.so.0()(64bit) needed by gnome-applets-2.32.1.1-10.1.x86_64
-  nothing provides libgucharmap.so.7()(64bit) needed by gnome-applets-2.32.1.1-10.1.x86_64
-  nothing provides libgweather.so.1()(64bit) needed by gnome-applets-2.32.1.1-10.1.x86_64
-  nothing provides libpanel-applet-3.so.0()(64bit) needed by gnome-applets-2.32.1.1-10.1.x86_64
-can't install xfce4-power-manager-1.0.3-11.1.x86_64:
-  nothing provides libnotify.so.1()(64bit) needed by xfce4-power-manager-1.0.3-11.1.x86_64
+can't install yast2-gtk-2.21.96-2.2.x86_64:
+  nothing provides libzypp.so.810()(64bit) needed by yast2-gtk-2.21.96-2.2.x86_64

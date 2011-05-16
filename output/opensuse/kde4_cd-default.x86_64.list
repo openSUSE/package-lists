@@ -173,13 +173,11 @@ gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-tools
-gtk3-branding-upstream
 gtk3-data
 gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
-gtk3-lang
 gtk3-tools
 gwenview
 gzip
@@ -322,7 +320,6 @@ libblocxx6
 libbluetooth3
 libboost_program_options1_46_1
 libbz2-1
-libcaca0
 libcairo-gobject2
 libcairo2
 libcanberra-gtk-module-common
@@ -361,7 +358,7 @@ libexpat1
 libext2fs2
 libfreebl3
 libfreetype6
-libgcc45
+libgcc46
 libgck-modules
 libgck0
 libgcr-3-0
@@ -379,7 +376,7 @@ libgnome-keyring0
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
-libgomp45
+libgomp46
 libgpg-error0
 libgpgme11
 libgphoto2
@@ -397,7 +394,7 @@ libgudev-1_0-0
 libical0
 libidn
 libilmbase6
-libimobiledevice1
+libimobiledevice2
 libiodbc3
 libiw30
 libjack0
@@ -436,8 +433,7 @@ libmount1
 libmpc2
 libmpfr4
 libmusicbrainz3-6
-libmysqlclient16
-libmysqlclient_r16
+libmysqlclient18
 libncurses5
 libncurses5-32bit
 libncurses6
@@ -465,9 +461,8 @@ libplist1
 libpng14-14
 libpolkit-qt-1-1
 libpolkit0
-libpoppler-glib6
 libpoppler-qt4-3
-libpoppler12
+libpoppler13
 libpopt0
 libppl9
 libppl_c4
@@ -500,8 +495,9 @@ libredland0
 libreiserfs
 libsamplerate
 libselinux1
+libsemanage1
+libsensors4
 libsepol1
-libslang2
 libsmbclient0
 libsndfile
 libsoftokn3
@@ -517,6 +513,7 @@ libstartup-notification-1-0
 libstdc++46
 libstorage
 libstrigi0
+libtag1
 libtalloc2
 libtasn1
 libtasn1-3
@@ -529,6 +526,7 @@ libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
+libustr-1_0-1
 libuuid1
 libv4l
 libv4l1-0
@@ -639,6 +637,7 @@ perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-MLDBM
+perl-Mozilla-CA
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-LibIDN
@@ -741,7 +740,6 @@ sysfsutils
 systemtap-runtime
 sysvinit
 sysvinit-tools
-taglib
 tar
 tcpd
 terminfo-base

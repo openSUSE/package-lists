@@ -47,8 +47,6 @@ alsa-oss
 alsa-plugins
 alsa-plugins-pulse
 alsa-utils
-amarok
-amarok-lang
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -148,7 +146,6 @@ espeak
 ethtool
 fam
 fbset
-fftw3
 file
 filesystem
 fillup
@@ -222,7 +219,6 @@ gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-lang
 gtk2-tools
-gtk3-branding-upstream
 gtk3-data
 gtk3-immodule-amharic
 gtk3-immodule-inuktitut
@@ -397,7 +393,6 @@ libblocxx6
 libbluetooth3
 libboost_program_options1_46_1
 libbz2-1
-libcaca0
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
@@ -412,6 +407,7 @@ libcap2
 libcares2
 libcdda_interface0
 libcdda_paranoia0
+libcdio12
 libcloog0
 libcollection2
 libcom_err2
@@ -444,7 +440,7 @@ libext2fs2
 libfprint0
 libfreebl3
 libfreetype6
-libgcc45
+libgcc46
 libgck-modules
 libgck0
 libgcr-3-0
@@ -467,7 +463,7 @@ libgnome-keyring0
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
-libgomp45
+libgomp46
 libgpg-error0
 libgpgme11
 libgphoto2
@@ -476,6 +472,7 @@ libgpod-lang
 libgpod-tools
 libgpod4
 libgps20
+libgsm1
 libgssglue1
 libgstapp-0_10-0
 libgstinterfaces-0_10-0
@@ -489,9 +486,10 @@ libical0
 libicu
 libidn
 libilmbase6
-libimobiledevice1
+libimobiledevice2
 libini_config2
 libiodbc3
+libiso9660-7
 libiw30
 libjack0
 libjasper1
@@ -513,7 +511,6 @@ libksba
 libksuseinstall1
 libktorrent3
 libktorrent3-lang
-liblastfm0
 liblazy1
 liblcms1
 libldap-2_4-2
@@ -521,7 +518,6 @@ libldapcpp1
 libldb0
 liblirc_client0
 liblockdev1
-libloudmouth-1-0
 liblpsolve55
 libltdl7
 liblua5_1
@@ -534,11 +530,8 @@ libmount1
 libmpc2
 libmpcdec5
 libmpfr4
-libmtp8
 libmusicbrainz3-6
-libmysqlclient16
-libmysqlclient_r16
-libmysqld0
+libmysqlclient18
 libncurses5
 libncurses6
 libneon27
@@ -569,7 +562,7 @@ libpolkit-qt-1-1
 libpolkit0
 libpoppler-glib6
 libpoppler-qt4-3
-libpoppler12
+libpoppler13
 libpopt0
 libppl9
 libppl_c4
@@ -625,6 +618,8 @@ libreoffice-writer
 librsvg-2-2
 libsamplerate
 libselinux1
+libsemanage1
+libsensors4
 libsepol1
 libsigc-2_0-0
 libslang2
@@ -645,7 +640,7 @@ libstdc++46
 libstlport_gcc4
 libstorage
 libstrigi0
-libtag-extras1
+libtag1
 libtalloc2
 libtasn1
 libtasn1-3
@@ -661,6 +656,7 @@ liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
+libustr-1_0-1
 libuuid1
 libv4l
 libv4l1-0
@@ -714,7 +710,6 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
-moodbar
 mozilla-js20
 mozilla-kde4-integration
 mozilla-nspr
@@ -821,6 +816,7 @@ perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-MLDBM
+perl-Mozilla-CA
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-LibIDN
@@ -897,7 +893,6 @@ python-sip
 python-smbios
 python-urlgrabber
 python-xml
-qt4-qtscript
 quota
 recode
 reiserfs
@@ -919,8 +914,6 @@ shared-mime-info
 sil-charis
 sil-doulos
 smartmontools
-smbios-utils
-smbios-utils-bin
 smbios-utils-python
 smolt
 smolt-gui
@@ -930,6 +923,7 @@ soprano
 soprano-backend-redland
 soprano-backend-virtuoso
 sound-theme-freedesktop
+sox
 splashy
 splashy-branding-openSUSE
 sssd
@@ -947,7 +941,6 @@ sysfsutils
 systemtap-runtime
 sysvinit
 sysvinit-tools
-taglib
 tar
 tar-lang
 tcpd
@@ -971,6 +964,7 @@ usbutils
 utempter
 util-linux
 util-linux-lang
+vcdimager
 vim
 vim-base
 virtualbox-guest-kmp-default

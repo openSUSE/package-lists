@@ -144,7 +144,6 @@ gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
-gtk3-lang
 gtk3-tools
 gvfs
 gvfs-backend-afc
@@ -244,7 +243,7 @@ libfprint0
 libfreebl3
 libfreetype6
 libfuse2
-libgcc45
+libgcc46
 libgck-modules
 libgck0
 libgcr-3-0
@@ -265,7 +264,7 @@ libgnome-keyring0
 libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
-libgomp45
+libgomp46
 libgpg-error0
 libgphoto2
 libgssglue1
@@ -277,7 +276,7 @@ libgudev-1_0-0
 libgvfscommon0
 libicu
 libidn
-libimobiledevice1
+libimobiledevice2
 libini_config2
 libiw30
 libjack0
@@ -298,7 +297,7 @@ libmodman1
 libmount1
 libmpc2
 libmpfr4
-libmysqlclient_r16
+libmysqlclient18
 libncurses5
 libncurses6
 libnetpbm10
@@ -318,8 +317,7 @@ libpixman-1-0
 libplist1
 libpng14-14
 libpolkit0
-libpoppler-glib6
-libpoppler12
+libpoppler13
 libpopt0
 libppl9
 libppl_c4
@@ -338,6 +336,7 @@ libreadline6
 libref_array1
 libreiserfs
 libselinux1
+libsemanage1
 libsepol1
 libsigc-2_0-0
 libslang2
@@ -363,6 +362,7 @@ liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
+libustr-1_0-1
 libuuid1
 libvmtools0
 libvorbis0
@@ -520,8 +520,6 @@ sed
 sg3_utils
 shared-mime-info
 smartmontools
-smbios-utils
-smbios-utils-bin
 smbios-utils-python
 smp_utils
 smpppd

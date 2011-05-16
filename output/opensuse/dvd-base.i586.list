@@ -65,7 +65,6 @@ iptables
 iputils
 joe
 kbd
-kernel-firmware
 keyutils-libs
 klogd
 kpartx
@@ -106,7 +105,7 @@ libgssglue1
 libgthread-2_0-0
 libgudev-1_0-0
 libidn
-libimobiledevice1
+libimobiledevice2
 libiw30
 libksba
 libldap-2_4-2
@@ -129,6 +128,7 @@ libpth20
 libreadline6
 libreiserfs
 libselinux1
+libsemanage1
 libsepol1
 libssh2-1
 libstdc++46
@@ -136,12 +136,12 @@ libstorage
 libtasn1
 libtasn1-3
 libtirpc1
-libtspi1
 libudev0
 libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
+libustr-1_0-1
 libuuid1
 libx86emu1
 libxcrypt
@@ -219,7 +219,6 @@ procps
 psmisc
 pwdutils
 release-notes-openSUSE
-rng-tools
 rpcbind
 rpm
 rsync
@@ -239,7 +238,6 @@ tcsh
 telnet
 terminfo-base
 timezone
-trousers
 udev
 unscd
 unzip

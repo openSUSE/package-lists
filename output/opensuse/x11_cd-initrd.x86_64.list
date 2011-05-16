@@ -58,7 +58,6 @@ insserv
 iproute2
 iptables
 kernel-default
-kernel-firmware
 keyutils-libs
 kiwi-tools
 klogd
@@ -91,7 +90,7 @@ libelf1
 libexpat1
 libext2fs2
 libfreetype6
-libgcc45
+libgcc46
 libgcrypt11
 libglib-2_0-0
 libgobject-2_0-0
@@ -106,9 +105,8 @@ libldapcpp1
 liblua5_1
 liblzma5
 libmng
-libmodman1
 libmount1
-libmysqlclient_r16
+libmysqlclient18
 libncurses5
 libncurses5-32bit
 libnl
@@ -118,7 +116,6 @@ libparted0
 libpcre0
 libpng14-14
 libpopt0
-libproxy1
 libpth20
 libqt4
 libqt4-qt3support
@@ -128,6 +125,7 @@ libqt4-x11
 libreadline6
 libreiserfs
 libselinux1
+libsemanage1
 libsepol1
 libsqlite3-0
 libssh2-1
@@ -137,6 +135,7 @@ libtiff3
 libudev0
 libusb-0_1-4
 libusb-1_0-0
+libustr-1_0-1
 libuuid1
 libx86emu1
 libxcrypt

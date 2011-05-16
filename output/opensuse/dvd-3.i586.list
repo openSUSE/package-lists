@@ -130,6 +130,14 @@ gtk2-immodule-vietnamese
 gtk2-immodule-xim
 gtk2-metatheme-sonar
 gtk2-tools
+gtk3-branding-openSUSE
+gtk3-data
+gtk3-immodule-amharic
+gtk3-immodule-inuktitut
+gtk3-immodule-thai
+gtk3-immodule-vietnamese
+gtk3-immodule-xim
+gtk3-tools
 gtkiterm
 gvfs
 gvfs-fuse
@@ -150,7 +158,6 @@ jtools
 kasumi
 kbd
 kdelibs3-default-style
-kernel-firmware
 keyutils-libs
 klogd
 kpartx
@@ -176,6 +183,7 @@ libavahi-glib1
 libblkid1
 libblocxx6
 libbz2-1
+libcairo-gobject2
 libcairo2
 libcap-ng0
 libcap2
@@ -194,7 +202,7 @@ libexpat1
 libext2fs2
 libfreetype6
 libfuse2
-libgcc45
+libgcc46
 libgcrypt11
 libgdk_pixbuf-2_0-0
 libgimpprint
@@ -207,10 +215,11 @@ libgpg-error0
 libgssglue1
 libgthread-2_0-0
 libgtk-2_0-0
+libgtk-3-0
 libgudev-1_0-0
 libgvfscommon0
 libidn
-libimobiledevice1
+libimobiledevice2
 libiterm
 libiw30
 libjasper1
@@ -224,7 +233,7 @@ liblzma5
 libmng
 libmodman1
 libmount1
-libmysqlclient_r16
+libmysqlclient18
 libncurses5
 libncurses6
 libnscd
@@ -250,6 +259,7 @@ libqt4-x11
 libreadline6
 libreiserfs
 libselinux1
+libsemanage1
 libsepol1
 libsqlite3-0
 libssh2-1
@@ -260,12 +270,12 @@ libtasn1-3
 libtiff3
 libtirpc1
 libtomoe-gtk0
-libtspi1
 libudev0
 libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
+libustr-1_0-1
 libuuid1
 libx86emu1
 libxcrypt
@@ -355,7 +365,6 @@ psmisc
 pwdutils
 qt3
 release-notes-openSUSE
-rng-tools
 rpcbind
 rpm
 rsync
@@ -401,7 +410,6 @@ timezone
 tomoe
 tomoe-gtk
 tomoe-gtk-lang
-trousers
 ttf-arphic
 ttf-arphic-bkai00mp
 ttf-arphic-bsmi00lp
