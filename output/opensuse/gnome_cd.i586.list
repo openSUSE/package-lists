@@ -28,7 +28,6 @@ aaa_base
 aaa_base-extras
 aalib
 accountsservice
-accountsservice-lang
 acl
 acpica
 acpid
@@ -102,7 +101,6 @@ cantarell-fonts
 checkmedia
 cheese
 cifs-utils
-clutter-lang
 command-not-found
 coreutils
 cpio
@@ -134,7 +132,6 @@ dbus-1-python
 dbus-1-x11
 dconf
 dcraw
-dcraw-lang
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -163,7 +160,6 @@ ethtool
 evince
 evolution
 evolution-data-server
-evolution-data-server-lang
 evolution-mono-plugins
 evolution-python-plugins
 evolution-sharp
@@ -229,7 +225,6 @@ gnokii
 gnome-applets-colorblind
 gnome-bluetooth
 gnome-control-center
-gnome-desktop-lang
 gnome-desktop-sharp2
 gnome-disk-utility
 gnome-do
@@ -251,6 +246,7 @@ gnome-nettool
 gnome-packagekit
 gnome-panel
 gnome-panel-applet-tracker
+gnome-panel-lang
 gnome-phone-manager
 gnome-power-manager
 gnome-python-desktop
@@ -266,6 +262,7 @@ gnome-terminal
 gnome-themes
 gnome-user-docs
 gnome-user-share
+gnome-user-share-lang
 gnome-utils
 gnome-version
 gnome-vfs-sharp2
@@ -310,7 +307,6 @@ gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
-gtk3-lang
 gtk3-tools
 gtkhtml-4_0-lang
 gtksourceview-lang
@@ -401,14 +397,12 @@ libblkid1
 libblocxx6
 libbluetooth3
 libbonobo
-libbonobo-lang
 libbonoboui
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
 libbrlapi0_5
 libbz2-1
-libcaca0
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
@@ -468,6 +462,7 @@ libelf1
 libenca0
 libenchant1
 libepc-1_0-2
+libepc-lang
 liberation-fonts
 libesd0
 libevent-2_0-5
@@ -519,7 +514,6 @@ libgnome-control-center1
 libgnome-desktop-2-17
 libgnome-desktop-3-0
 libgnome-keyring0
-libgnome-lang
 libgnome-media-profiles-3_0-0
 libgnome-media-profiles-lang
 libgnome-menu2
@@ -537,7 +531,6 @@ libgobject-2_0-0
 libgpg-error0
 libgpgme11
 libgphoto2
-libgpod-lang
 libgpod-sharp
 libgpod-tools
 libgpod4
@@ -577,7 +570,7 @@ libicu
 libidn
 libieee1284
 libilmbase6
-libimobiledevice1
+libimobiledevice2
 libini_config2
 libiptcdata
 libiptcdata0
@@ -648,7 +641,7 @@ libplist1
 libpng14-14
 libpolkit0
 libpoppler-glib6
-libpoppler12
+libpoppler13
 libpopt0
 libppl9
 libppl_c4
@@ -664,7 +657,7 @@ libpulse0
 libpurple
 libpython2_7-1_0
 libquadmath46
-libquicktime
+libquicktime0
 libraw1394-11
 libreadline6
 libref_array1
@@ -695,6 +688,7 @@ libsamplerate
 libschroedinger-1_0-0
 libseed-gtk3-0
 libselinux1
+libsemanage1
 libsensors4
 libsepol1
 libsexy
@@ -724,6 +718,8 @@ libstartup-notification-1-0
 libstdc++46
 libstlport_gcc4
 libstorage
+libtag1
+libtag_c0
 libtalloc2
 libtasn1
 libtasn1-3
@@ -745,6 +741,7 @@ liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
+libustr-1_0-1
 libuuid1
 libv4l
 libv4l1-0
@@ -762,7 +759,6 @@ libwavpack1
 libwbclient0
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
-libwebkitgtk2-lang
 libwebkitgtk3-lang
 libwmf
 libwnck-1-22
@@ -878,6 +874,7 @@ openssl
 openvpn
 orbit2
 orca
+orca-lang
 p7zip
 pam
 pam-config
@@ -890,10 +887,36 @@ pam_mount
 pango-tools
 paprefs
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-gnome
+patterns-openSUSE-gnome_basis
+patterns-openSUSE-gnome_games
+patterns-openSUSE-gnome_imaging
+patterns-openSUSE-gnome_internet
+patterns-openSUSE-gnome_laptop
+patterns-openSUSE-gnome_multimedia
+patterns-openSUSE-gnome_office
+patterns-openSUSE-gnome_utilities
+patterns-openSUSE-gnome_yast
+patterns-openSUSE-imaging
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-office
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_gnome
+patterns-openSUSE-x11
+patterns-openSUSE-xgl
+patterns-openSUSE-yast2_basis
+patterns-openSUSE-yast2_install_wf
 pavucontrol
 pciutils
 pciutils-ids
 pcmciautils
+pcsc-lite
 perl
 perl-Bootloader
 perl-Clone
@@ -956,7 +979,6 @@ pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-gnome
-polkit-gnome-lang
 poppler-tools
 portaudio
 postfix
@@ -1038,6 +1060,8 @@ sax2-tools
 sbl
 scout
 seahorse
+seahorse-plugins
+seahorse-plugins-lang
 sed
 seed
 sg3_utils
@@ -1068,7 +1092,6 @@ systemtap-runtime
 sysvinit
 sysvinit-tools
 t1lib
-taglib
 taglib-sharp
 tango-icon-theme
 tar
@@ -1089,6 +1112,7 @@ totem-pl-parser
 totem-plugins
 tracker
 tracker-gui
+tracker-lang
 tracker-miner-evolution
 tracker-miner-files
 translation-update

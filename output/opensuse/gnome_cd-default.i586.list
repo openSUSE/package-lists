@@ -609,6 +609,7 @@ libsexy
 libsigc-2_0-0
 libsilc-1_1-2
 libsilcclient-1_1-3
+libslab0
 libsmbclient0
 libsndfile
 libsocialweb
@@ -794,7 +795,6 @@ perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-MLDBM
-perl-Mozilla-CA
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-LibIDN
@@ -1020,11 +1020,14 @@ yast2-apparmor
 yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
+yast2-control-center
+yast2-control-center-gnome
 yast2-core
 yast2-country
 yast2-country-data
 yast2-dbus-client
 yast2-firewall
+yast2-gtk
 yast2-hardware-detection
 yast2-inetd
 yast2-installation
