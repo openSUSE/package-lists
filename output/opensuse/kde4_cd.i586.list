@@ -191,6 +191,7 @@ gpg2
 gpm
 grep
 groff
+groff-devx
 grub
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -212,6 +213,7 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-tools
 gwenview
+gxditview
 gzip
 hdparm
 hicolor-icon-theme
@@ -356,7 +358,6 @@ libasound2
 libassuan0
 libatasmart4
 libatk-1_0-0
-libatkmm-1_6-1
 libattica0
 libattr
 libaudit1
@@ -374,7 +375,6 @@ libboost_program_options1_46_1
 libbz2-1
 libcairo-gobject2
 libcairo2
-libcairomm-1_0-1
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -402,7 +402,6 @@ libdconf0
 libdhash1
 libdiscid1
 libdjvulibre21
-libdnet1
 libdrm
 libdvdread4
 libdw1
@@ -422,7 +421,7 @@ libfreetype6
 libgcc46
 libgck-modules
 libgck0
-libgcr-3-0
+libgcr-3-1
 libgcrypt11
 libgdk_pixbuf-2_0-0
 libgegl-0_1-0
@@ -432,9 +431,7 @@ libgimpprint
 libgimpui-2_0-0
 libgio-2_0-0
 libgio-fam
-libgiomm-2_4-1
 libglib-2_0-0
-libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
@@ -457,7 +454,6 @@ libgstreamer-0_10-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtkmm-2_4-1
 libgudev-1_0-0
 libical0
 libicu
@@ -517,6 +513,7 @@ libncurses6
 libneon27
 libnetpbm10
 libnl
+libnotify4
 libnscd
 libnsssharedhelper0
 libogg0
@@ -527,7 +524,6 @@ liborc-0_4-0
 libpackagekit-glib2-14
 libpackagekit-qt14
 libpango-1_0-0
-libpangomm-1_4-1
 libparted0
 libpath_utils1
 libpcap1
@@ -547,7 +543,7 @@ libpopt0
 libppl9
 libppl_c4
 libproxy1
-libproxy1-config-gnome
+libproxy1-config-gnome3
 libproxy1-config-kde4
 libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
@@ -601,7 +597,6 @@ libselinux1
 libsemanage1
 libsensors4
 libsepol1
-libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
@@ -615,10 +610,9 @@ libspeexdsp1
 libsqlite3-0
 libssh2-1
 libssh4
-libstartup-notification-1-0
 libstdc++46
 libstlport_gcc4
-libstorage
+libstorage3
 libstrigi0
 libtag-extras1
 libtag1
@@ -634,7 +628,6 @@ libtiff3
 libtirpc1
 libudev0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
@@ -645,7 +638,6 @@ libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvisual
-libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -691,13 +683,11 @@ mingetty
 mkinitrd
 module-init-tools
 moodbar
-mozilla-js20
+mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-xulrunner20
-mozilla-xulrunner20-translations-common
 mpt-firmware
 mtools
 multipath-tools
@@ -706,14 +696,14 @@ mysql-community-server
 mysql-community-server-client
 nano
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 net-tools
 netcat-openbsd
 netcfg
 netpbm
 nfs-client
 nfsidmap
+notification-daemon
+notification-daemon-lang
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -721,8 +711,6 @@ ntfsprogs
 ntp
 numlockx
 okular
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-kde
@@ -836,7 +824,6 @@ plasmoid-networkmanagement
 plasmoid-quickaccess
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-kde-agent-1
@@ -847,7 +834,6 @@ postfix
 ppp
 pptp
 preload
-preload-kmp-default
 procps
 psmisc
 ptools
@@ -944,12 +930,8 @@ util-linux
 vcdimager
 vim
 vim-base
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
-vmware-guest-kmp-default
 vorbis-tools
 vpnc
 w3m

@@ -9,6 +9,12 @@
   <trial>
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
+    <uninstall kind="package" name="gnome-main-menu"/>
+    <uninstall kind="package" name="gnome-pilot-conduits"/>
+    <uninstall kind="package" name="gthumb"/>
+    <uninstall kind="package" name="gnome-main-menu-lang"/>
+    <uninstall kind="package" name="rygel"/>
+    <uninstall kind="package" name="rhythmbox"/>
     <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>

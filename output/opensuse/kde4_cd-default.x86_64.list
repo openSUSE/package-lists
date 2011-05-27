@@ -160,6 +160,7 @@ gpg2
 gpm
 grep
 groff
+groff-devx
 grub
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -180,6 +181,7 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-tools
 gwenview
+gxditview
 gzip
 hdparm
 hicolor-icon-theme
@@ -361,7 +363,7 @@ libfreetype6
 libgcc46
 libgck-modules
 libgck0
-libgcr-3-0
+libgcr-3-1
 libgcrypt11
 libgdk_pixbuf-2_0-0
 libggz2
@@ -440,6 +442,7 @@ libncurses6
 libneon27
 libnetpbm10
 libnl
+libnotify4
 libnscd
 libnsssharedhelper0
 libnuma1
@@ -467,7 +470,7 @@ libpopt0
 libppl9
 libppl_c4
 libproxy1
-libproxy1-config-gnome
+libproxy1-config-gnome3
 libproxy1-config-kde4
 libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
@@ -509,9 +512,8 @@ libspeexdsp1
 libsqlite3-0
 libssh2-1
 libssh4
-libstartup-notification-1-0
 libstdc++46
-libstorage
+libstorage3
 libstrigi0
 libtag1
 libtalloc2
@@ -573,12 +575,11 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
-mozilla-js20
+mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-xulrunner20
 mtools
 multipath-tools
 mysql-community-server
@@ -590,6 +591,8 @@ netcfg
 netpbm
 nfs-client
 nfsidmap
+notification-daemon
+notification-daemon-lang
 nss-mdns
 ntfs-3g
 ntfsprogs

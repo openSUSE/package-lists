@@ -97,8 +97,6 @@ foomatic-filters
 freeglut
 fuse
 gawk
-gconf-polkit
-gconf2
 gd
 gdbm
 gdk-pixbuf-query-loaders
@@ -125,6 +123,7 @@ gpg2
 gpm
 grep
 groff
+groff-devx
 grub
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -150,6 +149,7 @@ gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gvfs-lang
+gxditview
 gzip
 hdparm
 hicolor-icon-theme
@@ -185,7 +185,6 @@ lcms
 less
 libFLAC8
 libHX27
-libIDL-2-0
 libMagickCore4
 libMagickWand4
 libQtWebKit4
@@ -200,7 +199,6 @@ libasound2
 libassuan0
 libatasmart4
 libatk-1_0-0
-libatkmm-1_6-1
 libattr
 libaudit1
 libaugeas0
@@ -213,7 +211,6 @@ libbluetooth3
 libbz2-1
 libcairo-gobject2
 libcairo2
-libcairomm-1_0-1
 libcap-ng0
 libcap2
 libcares2
@@ -230,7 +227,6 @@ libdaemon0
 libdb-4_8
 libdconf0
 libdhash1
-libdnet1
 libdrm
 libdw1
 libelf1
@@ -246,16 +242,14 @@ libfuse2
 libgcc46
 libgck-modules
 libgck0
-libgcr-3-0
+libgcr-3-1
 libgcrypt11
 libgdk_pixbuf-2_0-0
 libgdu-lang
 libgdu0
 libgimpprint
 libgio-2_0-0
-libgiomm-2_4-1
 libglib-2_0-0
-libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
@@ -271,10 +265,8 @@ libgssglue1
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtkmm-2_4-1
 libgudev-1_0-0
 libgvfscommon0
-libicu
 libidn
 libimobiledevice2
 libini_config2
@@ -307,7 +299,6 @@ libogg0
 libopenobex1
 libopenssl1_0_0
 libpango-1_0-0
-libpangomm-1_4-1
 libparted0
 libpath_utils1
 libpcap1
@@ -322,7 +313,7 @@ libpopt0
 libppl9
 libppl_c4
 libproxy1
-libproxy1-config-gnome
+libproxy1-config-gnome3
 libproxy1-pacrunner-mozjs
 libpth20
 libpulse0
@@ -338,7 +329,6 @@ libreiserfs
 libselinux1
 libsemanage1
 libsepol1
-libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
@@ -348,7 +338,7 @@ libsoup-2_4-1
 libsqlite3-0
 libssh2-1
 libstdc++46
-libstorage
+libstorage3
 libtalloc2
 libtasn1
 libtasn1-3
@@ -358,13 +348,11 @@ libtiff3
 libtirpc1
 libudev0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
 libustr-1_0-1
 libuuid1
-libvmtools0
 libvorbis0
 libvorbisenc2
 libwbclient0
@@ -408,8 +396,6 @@ mtools
 multipath-tools
 nano
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 net-tools
 netcat-openbsd
 netcfg
@@ -422,8 +408,6 @@ ntfsprogs
 ntp
 numlockx
 obex-data-server
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-x11
@@ -433,7 +417,6 @@ openssh
 openssh-askpass
 openssl
 opensuse-manuals_en
-orbit2
 p7zip
 pam
 pam-config
@@ -482,7 +465,6 @@ pinentry
 pkg-config
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 poppler-tools
@@ -491,7 +473,6 @@ postfix
 ppp
 pptp
 preload
-preload-kmp-default
 procps
 psmisc
 pullin-flash-player
@@ -558,10 +539,6 @@ utempter
 util-linux
 vim
 vim-base
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
-vmware-guest-kmp-default
 w3m
 wdiff
 wget

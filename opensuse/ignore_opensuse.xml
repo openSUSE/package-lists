@@ -75,6 +75,7 @@
 <lock package="gtk2-branding-upstream"/>
 <lock package="gtk3-branding-upstream"/>
 <lock package="glib2-branding-upstream"/>
+<lock package="libgarcon-branding-upstream"/>
 <!-- FTP only -->
 <lock package="tin"/>
 <!-- KDE3 is not needed -->
@@ -176,3 +177,9 @@
 <lock package="xfce4-panel-branding-upstream"/>
 <lock package="xfce4-notifyd-branding-upstream"/>
 <lock package="glib2-branding-SLED"/>
+
+<lock package="mozilla-xulrunner192"/>
+<lock package="qt3"/>
+<lock package="kernel-default-base"/>
+<lock package="kernel-desktop-base"/>
+<lock package="kernel-pae-base"/>
