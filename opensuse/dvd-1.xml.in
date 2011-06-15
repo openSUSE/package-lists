@@ -3,7 +3,6 @@
   <setup arch="GEN_ARCH">
     <source url="GEN_URL" name="tmp"/>
     <system file="solver-system.xml"/>
-    <!-- Tier 1 -->
     <locale name="en_US"/>
     <locale name="en_GB"/>
     <locale name="pt"/>
@@ -17,12 +16,12 @@
     <locale name="zh"/>
     <locale name="zh_TW"/>
     <locale name="zh_CN"/>
-    <!-- Tier 2 -->
     <locale name="ru"/>
     <locale name="cs"/>
     <locale name="hu"/>
     <locale name="pl"/>
     <locale name="da"/>
+    <locale name="sv"/>
   </setup>
   <trial>
     <lock package="xerces-j2-xml-resolver"/>

@@ -44,8 +44,8 @@ gawk
 gd
 gdbm
 gdk-pixbuf-query-loaders
+gio-branding-openSUSE
 glib-networking
-glib2-branding-openSUSE
 glib2-tools
 glibc
 gnome-icon-theme
@@ -64,12 +64,12 @@ gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gtk2-branding-openSUSE
 gtk2-data
-gtk2-engine-murrine
+gtk2-engines
 gtk2-immodule-amharic
 gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
-gtk2-metatheme-sonar
+gtk2-metatheme-adwaita
 gtk2-tools
 gtk3-branding-openSUSE
 gtk3-data
@@ -77,6 +77,8 @@ gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
+gtk3-metatheme-adwaita
+gtk3-theming-engine-adwaita
 gtk3-tools
 gvfs
 gvfs-backend-afc
@@ -97,7 +99,6 @@ keyutils-libs
 klogd
 krb5
 lcms
-libQtWebKit4
 libXi6
 libacl
 libadns1
@@ -132,6 +133,7 @@ libdrm
 libelf1
 libexif12
 libexpat1
+libffi46
 libfreetype6
 libfuse2
 libgcc46
@@ -149,6 +151,7 @@ libgnutls26
 libgobject-2_0-0
 libgpg-error0
 libgphoto2
+libgssglue1
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -175,6 +178,7 @@ libopenobex1
 libopenssl1_0_0
 libpango-1_0-0
 libparted0
+libpciaccess0
 libpcre0
 libpixman-1-0
 libplist1
@@ -185,7 +189,6 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-mozjs
 libpth20
-libpython2_7-1_0
 libqdialogsolver1
 libqt4
 libqt4-qt3support
@@ -205,6 +208,7 @@ libstdc++46
 libtasn1
 libtasn1-3
 libtiff3
+libtirpc1
 libudev0
 libusb-0_1-4
 libusb-1_0-0
@@ -223,7 +227,7 @@ logrotate
 lsof
 m4
 metamail
-metatheme-sonar-common
+metatheme-adwaita-common
 mgetty
 mingetty
 mozilla-js192
@@ -257,7 +261,6 @@ procmail
 procps
 psmisc
 pwdutils
-python-base
 readline-doc
 rpm
 satsolver-tools
@@ -267,13 +270,11 @@ sendmail
 sg3_utils
 shared-mime-info
 sharutils
-sonar-icon-theme
 squid
 sysconfig
 systemd
 sysvinit-tools
 tcpd
-tcsh
 terminfo-base
 udev
 udisks

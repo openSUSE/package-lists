@@ -92,6 +92,7 @@ bind-libs
 bind-utils
 bluez
 bluez-firmware
+boost-license1_46_1
 bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
@@ -103,6 +104,7 @@ brltty-driver-at-spi
 brltty-driver-at-spi2
 brltty-driver-brlapi
 brltty-driver-espeak
+brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 btrfsprogs
 bug-buddy
@@ -119,6 +121,12 @@ cifs-utils
 clutter-lang
 cm-unicode
 command-not-found
+compiz
+compiz-branding-openSUSE
+compiz-gnome
+compiz-lang
+compiz-manager
+compiz-plugins-main
 coreutils
 coreutils-lang
 cpio
@@ -170,6 +178,7 @@ dmraid
 dmz-icon-theme-cursors
 dnsmasq
 dosfstools
+dotconf
 droid-fonts
 dvb
 dvd+rw-tools
@@ -271,7 +280,7 @@ glibc
 glibc-32bit
 glibc-locale
 glibc-locale-32bit
-gmime-2_4-sharp
+gmime-sharp
 gnokii
 gnokii-lang
 gnome-bluetooth
@@ -289,7 +298,6 @@ gnome-do
 gnome-do-lang
 gnome-do-plugins
 gnome-do-plugins-lang
-gnome-docker
 gnome-games-recommended
 gnome-games-support
 gnome-games-support-lang
@@ -301,8 +309,6 @@ gnome-keyring
 gnome-keyring-lang
 gnome-keyring-pam
 gnome-keyring-sharp
-gnome-mag
-gnome-mag-lang
 gnome-media
 gnome-media-lang
 gnome-menus
@@ -330,7 +336,6 @@ gnome-settings-daemon
 gnome-settings-daemon-lang
 gnome-settings-daemon-polkit-datetime
 gnome-sharp2
-gnome-speech
 gnome-system-monitor
 gnome-system-monitor-lang
 gnome-terminal
@@ -439,7 +444,6 @@ iso-codes
 iso-codes-lang
 iw
 jfsutils
-jpackage-utils
 kbd
 kernel-desktop
 kernel-firmware
@@ -495,6 +499,7 @@ libbonobo
 libbonobo-lang
 libbonoboui
 libbonoboui-lang
+libboost_serialization1_46_1
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -529,8 +534,8 @@ libclutter-glx-1_0-0
 libclutter-gst-1_0-0
 libclutter-gtk-1_0-0
 libcollection2
-libcolorblind0
 libcom_err2
+libcompizconfig
 libcrack2
 libcroco-0_6-3
 libcryptsetup1
@@ -543,6 +548,7 @@ libdhash1
 libdirac_encoder0
 libdjvulibre21
 libdnet1
+libdotconf-1_0-0
 libdrm
 libdv4
 libdvdnav4
@@ -558,8 +564,6 @@ libedataserverui-3_0-0
 libelf1
 libenca0
 libenchant1
-libepc-1_0-2
-libepc-lang
 liberation-fonts
 libesd0
 libevent-2_0-5
@@ -574,6 +578,7 @@ libfprint0
 libfreebl3
 libfreetype6
 libfuse2
+libgadu3
 libgail-gnome
 libgcc46
 libgck-modules
@@ -688,7 +693,6 @@ libjson-glib-1_0-0
 libkate1
 libksba
 liblapack3
-liblazy1
 liblcms1
 liblcms2-2
 libldap-2_4-2
@@ -697,7 +701,6 @@ libldb0
 liblirc_client0
 liblockdev1
 liblouis2
-liblpsolve55
 libltdl7
 liblua5_1
 liblzma5
@@ -756,6 +759,7 @@ libpoppler13
 libpopt0
 libppl9
 libppl_c4
+libprotobuf6
 libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
@@ -774,27 +778,7 @@ libraw1394-11
 libreadline6
 libref_array1
 libreiserfs
-libreoffice
-libreoffice-branding-openSUSE
-libreoffice-calc
-libreoffice-components
-libreoffice-draw
-libreoffice-filters
-libreoffice-gnome
-libreoffice-help-en-US
-libreoffice-hyphen
 libreoffice-icon-theme-tango
-libreoffice-impress
-libreoffice-l10n-de
-libreoffice-l10n-extras
-libreoffice-l10n-ru
-libreoffice-libs-core
-libreoffice-libs-extern
-libreoffice-libs-gui
-libreoffice-templates-labels-a4
-libreoffice-templates-labels-letter
-libreoffice-ure
-libreoffice-writer
 librest0
 librsvg-2-2
 libsamplerate
@@ -825,6 +809,7 @@ libsofia-sip-ua0
 libsoftokn3
 libsoup-2_4-1
 libspectre1
+libspeechd2
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -846,9 +831,9 @@ libtheora0
 libtiff3
 libtimidity-0_1-0
 libtirpc1
-libtracker-extract-0_10-0
-libtracker-miner-0_10-0
-libtracker-sparql-0_10-0
+libtracker-extract-0_11-0
+libtracker-miner-0_11-0
+libtracker-sparql-0_11-0
 libudev0
 libunique-1_0-0
 libunique-3_0-0
@@ -859,8 +844,6 @@ libusb-1_0-0
 libusbmuxd1
 libustr-1_0-1
 libuuid1
-libv4l
-libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvdpau1
@@ -950,7 +933,6 @@ mpt-firmware
 mtools
 multipath-tools
 mx-lang
-myspell-american
 nano
 nano-lang
 nautilus
@@ -1033,6 +1015,7 @@ patterns-openSUSE-gnome_laptop
 patterns-openSUSE-gnome_multimedia
 patterns-openSUSE-gnome_office
 patterns-openSUSE-gnome_utilities
+patterns-openSUSE-gnome_xgl
 patterns-openSUSE-gnome_yast
 patterns-openSUSE-imaging
 patterns-openSUSE-multimedia
@@ -1137,10 +1120,11 @@ pwdutils
 python
 python-atspi
 python-base
-python-beautifulsoup
 python-bonobo
 python-brlapi
 python-cairo
+python-ccm
+python-compizconfig
 python-crypto
 python-cups
 python-cupshelpers
@@ -1154,7 +1138,6 @@ python-gobject
 python-gobject-cairo
 python-gstreamer-0_10
 python-gtk
-python-httplib2
 python-libproxy
 python-louis
 python-notify
@@ -1165,6 +1148,7 @@ python-satsolver
 python-simplejson
 python-smbc
 python-smbios
+python-speechd
 python-telepathy
 python-urlgrabber
 python-wnck
@@ -1202,6 +1186,7 @@ shared-mime-info
 sil-charis
 sil-doulos
 silc-toolkit
+simple-ccsm
 smartmontools
 smbios-utils-python
 smolt
@@ -1210,6 +1195,8 @@ smpppd
 snmp-mibs
 sonar-icon-theme
 sound-theme-freedesktop
+speech-dispatcher
+speech-dispatcher-module-espeak
 splashy
 splashy-branding-openSUSE
 sssd
@@ -1255,7 +1242,6 @@ totem-browser-plugin-gmp
 totem-lang
 totem-pl-parser
 totem-pl-parser-lang
-totem-plugins
 tracker
 tracker-gui
 tracker-lang
@@ -1304,7 +1290,6 @@ wvdial
 wvstreams
 x11-input-fujitsu
 x11-tools
-xalan-j2
 xbrlapi
 xchat
 xchat-lang
@@ -1315,8 +1300,6 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-user-dirs-gtk-lang
 xdg-utils
-xerces-j2
-xerces-j2-xml-apis
 xfsdump
 xfsprogs
 xinetd
@@ -1355,6 +1338,7 @@ xsane
 xstroke
 xterm
 xz
+xz-lang
 yast2
 yast2-add-on
 yast2-apparmor

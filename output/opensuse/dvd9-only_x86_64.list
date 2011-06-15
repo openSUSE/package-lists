@@ -32,8 +32,11 @@ flex-32bit
 fontconfig-32bit
 freeglut-32bit
 freeglut-devel-32bit
+gcc-32bit
+gcc-c++-32bit
 gcc-fortran-32bit
 gcc-objc-32bit
+gcc46-32bit
 gcc46-fortran-32bit
 gcc46-objc-32bit
 gconf2-32bit
@@ -59,7 +62,6 @@ gtk-xfce-engine-32bit
 gtk2-engine-murrine-32bit
 gtk2-engines-32bit
 gtk2-tools-32bit
-hal-32bit
 irqbalance
 itcl-32bit
 keyutils-libs-32bit
@@ -110,11 +112,12 @@ libelf1-32bit
 libesd0-32bit
 libexif12-32bit
 libexpat1-32bit
+libffi46-32bit
 libfprint0-32bit
 libfreebl3-32bit
 libfreetype6-32bit
 libgail-gnome-32bit
-libgcc45-32bit
+libgcc46-32bit
 libgcrypt-devel-32bit
 libgcrypt11-32bit
 libgdk_pixbuf-2_0-0-32bit
@@ -132,7 +135,7 @@ libgnomecanvas-2-0-32bit
 libgnomeui-32bit
 libgnutls26-32bit
 libgobject-2_0-0-32bit
-libgomp45-32bit
+libgomp46-32bit
 libgpg-error0-32bit
 libgphoto2-32bit
 libgstapp-0_10-0-32bit
@@ -140,7 +143,6 @@ libgstinterfaces-0_10-0-32bit
 libgstreamer-0_10-0-32bit
 libgthread-2_0-0-32bit
 libgtk-2_0-0-32bit
-libgudev-1_0-0-32bit
 libidn-32bit
 libiec61883-32bit
 libieee1284-32bit
@@ -174,6 +176,7 @@ libopenssl0_9_8-32bit
 libopenssl1_0_0-32bit
 liborc-0_4-0-32bit
 libpango-1_0-0-32bit
+libpciaccess0-32bit
 libpcre0-32bit
 libpixman-1-0-32bit
 libpng12-0-32bit
@@ -195,6 +198,7 @@ libquadmath46-32bit
 libquicktime0-32bit
 libraw1394-11-32bit
 libraw1394-devel-32bit
+libschroedinger-1_0-0-32bit
 libselinux1-32bit
 libsemanage1-32bit
 libsensors4-32bit
@@ -213,6 +217,7 @@ libssh2-1-32bit
 libstartup-notification-1-0-32bit
 libstdc++33-32bit
 libstdc++46-32bit
+libstdc++46-devel-32bit
 libtag1-32bit
 libtasn1-3-32bit
 libtheora0-32bit
@@ -286,6 +291,7 @@ scim-32bit
 scim-bridge-gtk-32bit
 sssd-32bit
 strace-32bit
+sysfsutils-32bit
 tcl-32bit
 tclplug-32bit
 tcpd-32bit

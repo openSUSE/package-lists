@@ -131,6 +131,7 @@ freeglut
 gawk
 gconf-polkit
 gconf2
+gconf2-branding-openSUSE
 gd
 gdb
 gdbm
@@ -145,13 +146,15 @@ ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
 giflib
+gio-branding-openSUSE
 glib-networking
-glib2-branding-openSUSE
 glib2-tools
 glibc
 glibc-32bit
 glibc-locale
 glibc-locale-32bit
+gnome-icon-theme
+gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
 gnutls
@@ -168,17 +171,23 @@ gsettings-desktop-schemas-lang
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gtk2-branding-openSUSE
 gtk2-data
+gtk2-engines
 gtk2-immodule-amharic
 gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
+gtk2-metatheme-adwaita
 gtk2-tools
+gtk3-branding-openSUSE
 gtk3-data
 gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
+gtk3-metatheme-adwaita
+gtk3-theming-engine-adwaita
 gtk3-tools
 gwenview
 gxditview
@@ -288,7 +297,6 @@ lcms
 less
 libFLAC8
 libGLEW1_5
-libIDL-2-0
 libIlmImf6
 libMagickCore4
 libMagickWand4
@@ -358,6 +366,7 @@ libexif12
 libexiv2-10
 libexpat1
 libext2fs2
+libffi46
 libfreebl3
 libfreetype6
 libgcc46
@@ -512,6 +521,7 @@ libspeexdsp1
 libsqlite3-0
 libssh2-1
 libssh4
+libstartup-notification-1-0
 libstdc++46
 libstorage3
 libstrigi0
@@ -530,7 +540,6 @@ libusb-1_0-0
 libusbmuxd1
 libustr-1_0-1
 libuuid1
-libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
@@ -571,6 +580,7 @@ mailx
 man
 master-boot-code
 mdadm
+metatheme-adwaita-common
 microcode_ctl
 mingetty
 mkinitrd
@@ -591,8 +601,6 @@ netcfg
 netpbm
 nfs-client
 nfsidmap
-notification-daemon
-notification-daemon-lang
 nss-mdns
 ntfs-3g
 ntfsprogs
@@ -607,7 +615,6 @@ openssh
 openssh-askpass
 openssl
 openvpn
-orbit2
 oxygen-gtk
 pam
 pam-config

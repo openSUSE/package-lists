@@ -14,7 +14,7 @@
 
 ( cd osc/openSUSE\:Factory/_product/ && osc ci -m "auto update" )
 
-./mk_group.sh output/opensuse/x11_cd.x86_64.list DVD osc/system:install:head/_product/DVD.group
+./mk_group.sh output/opensuse/x11_cd.i586.list DVD osc/system:install:head/_product/DVD.group
 (cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
 osc up -u osc/openSUSE:Factory:Live/package-lists-images.*
