@@ -270,7 +270,6 @@ kmousetool
 knotes
 kompare
 konqueror
-konqueror-plugins
 konsole
 kontact
 konversation
@@ -354,6 +353,7 @@ libdc1394-22
 libdconf0
 libdiscid1
 libdjvulibre21
+libdmtx0
 libdrm
 libdw1
 libelf1
@@ -418,14 +418,18 @@ libkcompactdisc4
 libkdcraw9
 libkde4
 libkdecore4
+libkdeedu4
 libkdegames4
 libkdepim4
 libkdepimlibs4
+libkeduvocdocument4
+libkexiv2-10
 libkexiv2-9
 libkipi8
 libkonq5
 libksba
 libksuseinstall1
+libktexteditor
 libktorrent3
 liblazy1
 liblcms1
@@ -441,10 +445,10 @@ libmng
 libmodman1
 libmodplug1
 libmount1
+libmozjs185-1_0
 libmpc2
 libmpfr4
 libmusicbrainz3-6
-libmysqlclient18
 libncurses5
 libncurses5-32bit
 libncurses6
@@ -478,6 +482,7 @@ libpoppler13
 libpopt0
 libppl9
 libppl_c4
+libprison0
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -493,10 +498,10 @@ libqca2
 libqimageblitz4
 libqjson0
 libqoauth1
+libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
 libraptor1
@@ -530,7 +535,6 @@ libtalloc2
 libtasn1
 libtasn1-3
 libtheora0
-libtidy-0_99-0
 libtiff3
 libtirpc1
 libudev0
@@ -557,7 +561,7 @@ libxine1-pulse
 libxmi0
 libxml2
 libxml2-python
-libxslt
+libxslt1
 libzio
 libzip2
 libzypp
@@ -578,6 +582,7 @@ lukemftp
 lvm2
 mailx
 man
+marble
 master-boot-code
 mdadm
 metatheme-adwaita-common
@@ -585,15 +590,12 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
-mozilla-js192
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
 mtools
 multipath-tools
-mysql-community-server
-mysql-community-server-client
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -616,6 +618,7 @@ openssh-askpass
 openssl
 openvpn
 oxygen-gtk
+oxygen-icon-theme-large
 pam
 pam-config
 pam-modules
@@ -681,6 +684,7 @@ pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
+plasma-addons-marble
 plasma-theme-aya
 plasmoid-networkmanagement
 plasmoid-quickaccess
@@ -746,6 +750,7 @@ sweeper
 synaptiks
 sysconfig
 sysfsutils
+systemd
 systemtap-runtime
 sysvinit
 sysvinit-tools
@@ -761,6 +766,13 @@ ulimit
 unscd
 unzip
 update-alternatives
+update-desktop-files
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 usbutils
@@ -881,7 +893,7 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
-zip
 zisofs-tools
 zlib
 zypper
+zypper-log

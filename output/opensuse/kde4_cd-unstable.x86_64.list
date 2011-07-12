@@ -107,6 +107,7 @@ dconf
 dejavu
 deltarpm
 desktop-data-openSUSE
+desktop-file-utils
 device-mapper
 dhcp
 dhcp-client
@@ -281,7 +282,7 @@ kio_audiocd
 kio_iso
 kio_kamera
 kio_sysinfo
-kio_sysinfo-branding-upstream
+kio_sysinfo-branding-openSUSE
 kipi-plugins
 kipi-plugins-lang
 klogd
@@ -294,7 +295,6 @@ kmousetool
 knotes
 kompare
 konqueror
-konqueror-plugins
 konsole
 kontact
 konversation
@@ -386,6 +386,7 @@ libdc1394-22
 libdconf0
 libdiscid1
 libdjvulibre21
+libdmtx0
 libdrm
 libdvdread4
 libdw1
@@ -454,14 +455,18 @@ libkcompactdisc4
 libkdcraw9
 libkde4
 libkdecore4
+libkdeedu4
 libkdegames4
 libkdepim4
 libkdepimlibs4
+libkeduvocdocument4
+libkexiv2-10
 libkexiv2-9
 libkipi8
 libkonq5
 libksba
 libksuseinstall1
+libktexteditor
 libktorrent3
 libktorrent3-lang
 liblastfm0
@@ -480,11 +485,13 @@ libmng
 libmodman1
 libmodplug1
 libmount1
+libmozjs185-1_0
 libmpc2
 libmpcdec5
 libmpfr4
 libmtp8
 libmusicbrainz3-6
+libmygpo-qt1
 libmysqlclient18
 libmysqld18
 libncurses5
@@ -518,6 +525,7 @@ libpoppler13
 libpopt0
 libppl9
 libppl_c4
+libprison0
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -533,10 +541,10 @@ libqca2
 libqimageblitz4
 libqjson0
 libqoauth1
+libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
 libraptor1
@@ -572,7 +580,6 @@ libtalloc2
 libtasn1
 libtasn1-3
 libtheora0
-libtidy-0_99-0
 libtiff3
 libtirpc1
 libudev0
@@ -599,7 +606,7 @@ libxine1-pulse
 libxmi0
 libxml2
 libxml2-python
-libxslt
+libxslt1
 libzio
 libzip2
 libzypp
@@ -622,6 +629,7 @@ lvm2
 mailx
 man
 manufacturer-PPDs
+marble
 master-boot-code
 mc
 mdadm
@@ -632,15 +640,12 @@ mingetty
 mkinitrd
 module-init-tools
 moodbar
-mozilla-js192
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
 mpt-firmware
 mtools
 multipath-tools
-mysql-community-server
-mysql-community-server-client
 nano
 ncurses-utils
 ndiswrapper
@@ -670,6 +675,7 @@ openssl
 openvpn
 oxygen-gtk
 oxygen-icon-theme
+oxygen-icon-theme-large
 pam
 pam-config
 pam-modules
@@ -699,6 +705,7 @@ patterns-openSUSE-multimedia
 patterns-openSUSE-non_oss
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde4
+patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -763,6 +770,7 @@ pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
+plasma-addons-marble
 plasmoid-networkmanagement
 plasmoid-quickaccess
 pm-profiler
@@ -840,6 +848,7 @@ sweeper
 synaptiks
 sysconfig
 sysfsutils
+systemd
 systemtap-runtime
 sysvinit
 sysvinit-tools
@@ -856,6 +865,13 @@ ulimit
 unscd
 unzip
 update-alternatives
+update-desktop-files
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 usbutils
@@ -994,3 +1010,4 @@ zip
 zisofs-tools
 zlib
 zypper
+zypper-log

@@ -129,7 +129,6 @@ libgmodule-2_0-0-32bit
 libgmp10-32bit
 libgmpxx4-32bit
 libgnome-32bit
-libgnome-desktop-2-17-32bit
 libgnome-keyring0-32bit
 libgnomecanvas-2-0-32bit
 libgnomeui-32bit
@@ -138,6 +137,7 @@ libgobject-2_0-0-32bit
 libgomp46-32bit
 libgpg-error0-32bit
 libgphoto2-32bit
+libgssglue1-32bit
 libgstapp-0_10-0-32bit
 libgstinterfaces-0_10-0-32bit
 libgstreamer-0_10-0-32bit
@@ -160,6 +160,7 @@ libmng-32bit
 libmodplug1-32bit
 libmp3-32bit
 libmpfr4-32bit
+libmysqlclient18-32bit
 libncurses5-32bit
 libncurses6-32bit
 libnl-32bit
@@ -172,6 +173,7 @@ libopagent1-32bit
 libopenal1-soft-32bit
 libopencdk-devel-32bit
 libopencdk10-32bit
+libopenssl-devel-32bit
 libopenssl0_9_8-32bit
 libopenssl1_0_0-32bit
 liborc-0_4-0-32bit
@@ -190,6 +192,7 @@ libpython2_7-1_0-32bit
 libqt4-32bit
 libqt4-qt3support-32bit
 libqt4-sql-32bit
+libqt4-sql-mysql-32bit
 libqt4-sql-postgresql-32bit
 libqt4-sql-sqlite-32bit
 libqt4-sql-unixODBC-32bit
@@ -198,6 +201,7 @@ libquadmath46-32bit
 libquicktime0-32bit
 libraw1394-11-32bit
 libraw1394-devel-32bit
+libreadline6-32bit
 libschroedinger-1_0-0-32bit
 libselinux1-32bit
 libsemanage1-32bit
@@ -214,7 +218,6 @@ libsoup-devel-32bit
 libspeex1-32bit
 libsqlite3-0-32bit
 libssh2-1-32bit
-libstartup-notification-1-0-32bit
 libstdc++33-32bit
 libstdc++46-32bit
 libstdc++46-devel-32bit
@@ -223,6 +226,7 @@ libtasn1-3-32bit
 libtheora0-32bit
 libtiff-devel-32bit
 libtiff3-32bit
+libtirpc1-32bit
 libtool-32bit
 libudev0-32bit
 libusb-0_1-4-32bit
@@ -243,8 +247,7 @@ libwmf-gnome-32bit
 libxine1-32bit
 libxml2-32bit
 libxml2-devel-32bit
-libxslt-32bit
-libxslt-devel-32bit
+libxslt1-32bit
 linux32
 ltrace-32bit
 mcelog
@@ -298,7 +301,13 @@ tcpd-32bit
 tk-32bit
 unixODBC-32bit
 utempter-32bit
+xen
+xen-doc-html
+xen-doc-pdf
+xen-kmp-default
+xen-kmp-desktop
 xen-libs-32bit
+xen-tools
 xine-ui-32bit
 xorg-x11-driver-video-32bit
 xorg-x11-libICE-32bit

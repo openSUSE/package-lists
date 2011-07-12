@@ -171,6 +171,7 @@ liblzo2-2
 libmng
 libmodman1
 libmount1
+libmozjs185-1_0
 libncurses5
 libncurses6
 libnetpbm10
@@ -235,7 +236,6 @@ microcode_ctl
 mingetty
 mkinitrd
 module-init-tools
-mozilla-js192
 mozilla-nspr
 mtools
 multipath-tools
@@ -345,6 +345,7 @@ strace
 sudo
 sysconfig
 sysfsutils
+systemd
 sysvinit
 sysvinit-tools
 tar
@@ -356,6 +357,12 @@ ulimit
 unscd
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 usbutils
@@ -441,3 +448,4 @@ ypbind
 zisofs-tools
 zlib
 zypper
+zypper-log

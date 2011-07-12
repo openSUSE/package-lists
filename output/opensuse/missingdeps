@@ -1,119 +1,21 @@
-can't install CodeAnalyst-2.12.3-2.3.i586:
-  nothing provides libbfd-2.21.0.20110504-4.so needed by CodeAnalyst-2.12.3-2.3.i586
-can't install MyODBC-unixODBC-5.1.8-2.8.i586:
-  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.8.i586
-can't install anjuta-devel-3.0.2.0-1.2.i586:
-  package anjuta-devel-3.0.2.0-1.2.i586 requires anjuta = 3.0.2.0, but none of the providers can be installed
-  nothing provides libgda-4.0.so.4 needed by anjuta-3.0.2.0-1.2.i586
-  nothing provides libvala-0.12.so.0 needed by anjuta-3.0.2.0-1.2.i586
-can't install anjuta-extras-lang-2.32.1.1-5.2.noarch:
-  package anjuta-extras-lang-2.32.1.1-5.2.noarch requires anjuta-extras = 2.32.1.1, but none of the providers can be installed
-  nothing provides libanjuta.so.0 needed by anjuta-extras-2.32.1.1-5.2.i586
-can't install anjuta-extras-2.32.1.1-5.2.i586:
-  nothing provides libanjuta.so.0 needed by anjuta-extras-2.32.1.1-5.2.i586
-can't install anjuta-lang-3.0.2.0-1.2.noarch:
-  package anjuta-lang-3.0.2.0-1.2.noarch requires anjuta = 3.0.2.0, but none of the providers can be installed
-  nothing provides libgda-4.0.so.4 needed by anjuta-3.0.2.0-1.2.i586
-  nothing provides libvala-0.12.so.0 needed by anjuta-3.0.2.0-1.2.i586
-can't install anjuta-3.0.2.0-1.2.i586:
-  nothing provides libgda-4.0.so.4 needed by anjuta-3.0.2.0-1.2.i586
-  nothing provides libvala-0.12.so.0 needed by anjuta-3.0.2.0-1.2.i586
-can't install arista-lang-0.9.6-7.2.noarch:
-  package arista-lang-0.9.6-7.2.noarch requires arista = 0.9.6, but none of the providers can be installed
-  nothing provides hal needed by arista-0.9.6-7.2.noarch
-can't install arista-0.9.6-7.2.noarch:
-  nothing provides hal needed by arista-0.9.6-7.2.noarch
-can't install blender-devel-2.56.34784-11.2.i586:
-  package blender-devel-2.56.34784-11.2.i586 requires blender = 2.56.34784, but none of the providers can be installed
-  nothing provides libpython3.1.so.1.0 needed by blender-2.56.34784-11.2.i586
-can't install blender-2.56.34784-11.2.i586:
-  nothing provides libpython3.1.so.1.0 needed by blender-2.56.34784-11.2.i586
-can't install calibre-0.7.57-2.7.i586:
-  nothing provides hal needed by calibre-0.7.57-2.7.i586
+can't install MyODBC-unixODBC-5.1.8-2.10.i586:
+  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.10.i586
+can't install arista-lang-0.9.6-7.4.noarch:
+  package arista-lang-0.9.6-7.4.noarch requires arista = 0.9.6, but none of the providers can be installed
+  nothing provides hal needed by arista-0.9.6-7.4.noarch
+can't install arista-0.9.6-7.4.noarch:
+  nothing provides hal needed by arista-0.9.6-7.4.noarch
 can't install cmpi-bindings-perl-0.4.0-16.3.i586:
   nothing provides perl = 5.14.0 needed by cmpi-bindings-perl-0.4.0-16.3.i586
     (we have perl-5.14.1-3.14.i586)
-can't install evolution-devel-3.1.1-1.1.i586:
-  package evolution-devel-3.1.1-1.1.i586 requires evolution = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgdata.so.11 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgnome-desktop-3.so.0 needed by evolution-3.1.1-1.1.i586
-can't install evolution-exchange-doc-3.1.1-1.1.i586:
-  package evolution-exchange-doc-3.1.1-1.1.i586 requires evolution-exchange = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedata-book-1.2.so.9 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedata-cal-1.2.so.11 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-exchange-3.1.1-1.1.i586
-can't install evolution-exchange-lang-3.1.1-1.1.noarch:
-  package evolution-exchange-lang-3.1.1-1.1.noarch requires evolution-exchange = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedata-book-1.2.so.9 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedata-cal-1.2.so.11 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-exchange-3.1.1-1.1.i586
-can't install evolution-exchange-3.1.1-1.1.i586:
-  nothing provides libcamel-1.2.so.25 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedata-book-1.2.so.9 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedata-cal-1.2.so.11 needed by evolution-exchange-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-exchange-3.1.1-1.1.i586
-can't install evolution-lang-3.1.1-1.1.noarch:
-  package evolution-lang-3.1.1-1.1.noarch requires evolution = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgdata.so.11 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgnome-desktop-3.so.0 needed by evolution-3.1.1-1.1.i586
-can't install evolution-mono-plugins-3.1.1-1.1.i586:
-  package evolution-mono-plugins-3.1.1-1.1.i586 requires libeutil.so.0, but none of the providers can be installed
-  package evolution-mono-plugins-3.1.1-1.1.i586 requires evolution = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgdata.so.11 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgnome-desktop-3.so.0 needed by evolution-3.1.1-1.1.i586
-can't install evolution-python-plugins-3.1.1-1.1.i586:
-  package evolution-python-plugins-3.1.1-1.1.i586 requires libeutil.so.0, but none of the providers can be installed
-  package evolution-python-plugins-3.1.1-1.1.i586 requires evolution = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgdata.so.11 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgnome-desktop-3.so.0 needed by evolution-3.1.1-1.1.i586
-can't install evolution-tray-0.0.7-6.1.i586:
-  package evolution-tray-0.0.7-6.1.i586 requires evolution, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgdata.so.11 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgnome-desktop-3.so.0 needed by evolution-3.1.1-1.1.i586
-can't install evolution-3.1.1-1.1.i586:
-  nothing provides libcamel-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libcamel-provider-1.2.so.25 needed by evolution-3.1.1-1.1.i586
-  nothing provides libebook-1.2.so.10 needed by evolution-3.1.1-1.1.i586
-  nothing provides libecal-1.2.so.8 needed by evolution-3.1.1-1.1.i586
-  nothing provides libedataserverui-3.0.so.0 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgdata.so.11 needed by evolution-3.1.1-1.1.i586
-  nothing provides libgnome-desktop-3.so.0 needed by evolution-3.1.1-1.1.i586
+can't install digikam-devel-1.9.0-4.1.i586:
+  package digikam-devel-1.9.0-4.1.i586 requires digikam = 1.9.0, but none of the providers can be installed
+  nothing provides libmarblewidget.so.11 needed by digikam-1.9.0-4.1.i586
+can't install digikam-lang-1.9.0-4.1.noarch:
+  package digikam-lang-1.9.0-4.1.noarch requires digikam = 1.9.0, but none of the providers can be installed
+  nothing provides libmarblewidget.so.11 needed by digikam-1.9.0-4.1.i586
+can't install digikam-1.9.0-4.1.i586:
+  nothing provides libmarblewidget.so.11 needed by digikam-1.9.0-4.1.i586
 can't install gedit-plugin-valencia-0.3.0-7.1.i586:
   nothing provides libvala-0.10.so.0 needed by gedit-plugin-valencia-0.3.0-7.1.i586
 can't install gnome-main-menu-lang-0.9.15-15.1.noarch:
@@ -128,102 +30,6 @@ can't install gnome-main-menu-0.9.15-15.1.i586:
 can't install gnome-panel-sharp-2.26.0-17.1.i586:
   nothing provides libpanel-applet-2.so.0 needed by gnome-panel-sharp-2.26.0-17.1.i586
   nothing provides libpanel-applet-2-0 needed by gnome-panel-sharp-2.26.0-17.1.i586
-can't install gnome-session-default-session-3.1.3-1.1.i586:
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-session-fallback-session-3.1.3-1.1.i586:
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-fallback-session-3.1.3-1.1.i586 requires gnome-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-session-lang-3.1.3-1.1.noarch:
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-lang-3.1.3-1.1.noarch requires gnome-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-session-3.1.3-1.1.i586:
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extension-alt-status-menu-3.0.2-2.1.noarch:
-  package gnome-shell-extension-alt-status-menu-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extension-alternate-tab-3.0.2-2.1.noarch:
-  package gnome-shell-extension-alternate-tab-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extension-auto-move-windows-3.0.2-2.1.noarch:
-  package gnome-shell-extension-auto-move-windows-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extension-dock-3.0.2-2.1.noarch:
-  package gnome-shell-extension-dock-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extension-gajim-3.0.2-2.1.noarch:
-  package gnome-shell-extension-gajim-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extension-user-theme-3.0.2-2.1.noarch:
-  package gnome-shell-extension-user-theme-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extension-windows-navigator-3.0.2-2.1.noarch:
-  package gnome-shell-extension-windows-navigator-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extension-xrandr-indicator-3.0.2-2.1.noarch:
-  package gnome-shell-extension-xrandr-indicator-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extensions-lang-3.0.2-2.1.noarch:
-  package gnome-shell-extensions-lang-3.0.2-2.1.noarch requires gnome-shell-extensions = 3.0.2, but none of the providers can be installed
-  package gnome-shell-extensions-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-extensions-3.0.2-2.1.noarch:
-  package gnome-shell-extensions-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-lang-3.0.2-3.2.noarch:
-  package gnome-shell-lang-3.0.2-3.2.noarch requires gnome-shell = 3.0.2, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-shell-3.0.2-3.2.i586:
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-tweak-tool-lang-3.0.5-1.1.noarch:
-  package gnome-tweak-tool-lang-3.0.5-1.1.noarch requires gnome-tweak-tool = 3.0.5, but none of the providers can be installed
-  package gnome-tweak-tool-3.0.5-1.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install gnome-tweak-tool-3.0.5-1.1.noarch:
-  package gnome-tweak-tool-3.0.5-1.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
 can't install gok-devel-2.30.1-14.2.i586:
   package gok-devel-2.30.1-14.2.i586 requires gok = 2.30.1, but none of the providers can be installed
   nothing provides libgnomespeech.so.7 needed by gok-2.30.1-14.2.i586
@@ -232,586 +38,22 @@ can't install gok-lang-2.30.1-14.2.noarch:
   nothing provides libgnomespeech.so.7 needed by gok-2.30.1-14.2.i586
 can't install gok-2.30.1-14.2.i586:
   nothing provides libgnomespeech.so.7 needed by gok-2.30.1-14.2.i586
-can't install gourmet-lang-0.15.9-2.4.noarch:
-  package gourmet-lang-0.15.9-2.4.noarch requires gourmet = 0.15.9, but none of the providers can be installed
-  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.4.noarch
-can't install gourmet-0.15.9-2.4.noarch:
-  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.4.noarch
+can't install gourmet-lang-0.15.9-2.5.noarch:
+  package gourmet-lang-0.15.9-2.5.noarch requires gourmet = 0.15.9, but none of the providers can be installed
+  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.5.noarch
+can't install gourmet-0.15.9-2.5.noarch:
+  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.5.noarch
 can't install gtkhtml314-sharp-2.26.0-17.1.i586:
   nothing provides libgtkhtml-3_14-19 needed by gtkhtml314-sharp-2.26.0-17.1.i586
-can't install gtranslator-lang-2.90.4-1.2.noarch:
-  package gtranslator-lang-2.90.4-1.2.noarch requires gtranslator = 2.90.4, but none of the providers can be installed
-  nothing provides libgda-4.0.so.4 needed by gtranslator-2.90.4-1.2.i586
-can't install gtranslator-2.90.4-1.2.i586:
-  nothing provides libgda-4.0.so.4 needed by gtranslator-2.90.4-1.2.i586
-can't install horde4-imp-5.0.7-2.1.noarch:
-  nothing provides php5-pear-Horde_Editor needed by horde4-imp-5.0.7-2.1.noarch
-can't install horde4-ingo-2.0.1-2.2.noarch:
-  nothing provides php5-pear-Horde_Editor needed by horde4-ingo-2.0.1-2.2.noarch
-can't install laptop-mode-tools-1.53-10.1.noarch:
-  nothing provides sysvinit(haldaemon) needed by laptop-mode-tools-1.53-10.1.noarch
-can't install libreoffice-base-devel-3.3.3.1-1.2.i586:
-  package libreoffice-base-devel-3.3.3.1-1.2.i586 requires libreoffice-base = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-base-drivers-mysql-3.3.3.1-1.1.i586:
-  package libreoffice-base-drivers-mysql-3.3.3.1-1.1.i586 requires libreoffice-base = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-base-drivers-postgresql-3.3.3.1-3.2.i586:
-  package libreoffice-base-drivers-postgresql-3.3.3.1-3.2.i586 requires libreoffice-base = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-base-extensions-3.3.3.1-1.1.i586:
-  package libreoffice-base-extensions-3.3.3.1-1.1.i586 requires libreoffice-base = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-base-3.3.3.1-1.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-calc-devel-3.3.3.1-1.2.i586:
-  package libreoffice-calc-devel-3.3.3.1-1.2.i586 requires libreoffice-calc = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-calc-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-calc-extensions-3.3.3.1-1.1.i586:
-  package libreoffice-calc-extensions-3.3.3.1-1.1.i586 requires libreoffice-calc = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-calc-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-calc-3.3.3.1-1.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-calc-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-components-devel-3.3.3.1-1.2.i586:
-  package libreoffice-components-devel-3.3.3.1-1.2.i586 requires libreoffice-testtool = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-testtool-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-draw-extensions-3.3.3.1-1.1.i586:
-  package libreoffice-draw-extensions-3.3.3.1-1.1.i586 requires libreoffice-draw = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-draw-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-draw-3.3.3.1-1.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-draw-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-filters-devel-3.3.3.1-1.1.i586:
-  package libreoffice-filters-devel-3.3.3.1-1.1.i586 requires libreoffice-filters-optional = 3.3.3.1, but none of the providers can be installed
-  package libreoffice-filters-optional-3.3.3.1-1.1.i586 requires libreoffice-writer = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-filters-optional-3.3.3.1-1.1.i586:
-  package libreoffice-filters-optional-3.3.3.1-1.1.i586 requires libreoffice-writer = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-gnome-3.3.3.1-3.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-gnome-3.3.3.1-3.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-impress-devel-3.3.3.1-1.2.i586:
-  package libreoffice-impress-devel-3.3.3.1-1.2.i586 requires libreoffice-impress = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-impress-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-impress-extensions-3.3.3.1-1.1.i586:
-  package libreoffice-impress-extensions-3.3.3.1-1.1.i586 requires libreoffice-impress = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-impress-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-impress-3.3.3.1-1.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-impress-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-kde-3.3.3.1-3.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-kde-3.3.3.1-3.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-kde4-3.3.3.1-3.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-kde4-3.3.3.1-3.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-l10n-af-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-af-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ar-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ar-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-be-BY-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-be-BY-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-bg-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-bg-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-br-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-br-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ca-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ca-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-cs-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-cs-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-cy-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-cy-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-da-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-da-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-de-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-de-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-el-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-el-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-en-GB-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-en-GB-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-en-ZA-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-en-ZA-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-es-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-es-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-et-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-et-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-extras-devel-3.3.3.1-1.2.noarch:
-  package libreoffice-l10n-extras-devel-3.3.3.1-1.2.noarch requires libreoffice-l10n-extras = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-l10n-extras-3.3.3.1-1.2.noarch
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-l10n-extras-3.3.3.1-1.2.noarch:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-l10n-extras-3.3.3.1-1.2.noarch
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-l10n-fi-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-fi-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-fr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-fr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ga-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ga-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-gl-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-gl-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-gu-IN-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-gu-IN-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-he-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-he-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-hi-IN-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-hi-IN-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-hr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-hr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-hu-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-hu-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-it-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-it-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ja-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ja-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ka-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ka-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-km-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-km-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ko-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ko-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-lt-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-lt-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-mk-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-mk-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-nb-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-nb-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-nl-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-nl-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-nn-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-nn-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-nr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-nr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-pa-IN-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-pa-IN-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-pl-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-pl-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-pt-BR-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-pt-BR-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-pt-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-pt-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ru-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ru-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-rw-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-rw-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-sh-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sh-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-sk-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sk-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-sl-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sl-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-sr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ss-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ss-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-st-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-st-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-sv-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sv-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-tg-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-tg-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-th-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-th-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-tr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-tr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ts-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ts-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-uk-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-uk-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-ve-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ve-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-vi-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-vi-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-xh-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-xh-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-zh-CN-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-zh-CN-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-zh-TW-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-zh-TW-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-l10n-zu-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-zu-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-can't install libreoffice-languagetool-ca-1.2-7.2.noarch:
-  package libreoffice-languagetool-ca-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-de-1.2-7.2.noarch:
-  package libreoffice-languagetool-de-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-en-1.2-7.2.noarch:
-  package libreoffice-languagetool-en-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-es-1.2-7.2.noarch:
-  package libreoffice-languagetool-es-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-fr-1.2-7.2.noarch:
-  package libreoffice-languagetool-fr-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-gl-1.2-7.2.noarch:
-  package libreoffice-languagetool-gl-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-it-1.2-7.2.noarch:
-  package libreoffice-languagetool-it-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-nl-1.2-7.2.noarch:
-  package libreoffice-languagetool-nl-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-pl-1.2-7.2.noarch:
-  package libreoffice-languagetool-pl-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-ro-1.2-7.2.noarch:
-  package libreoffice-languagetool-ro-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-ru-1.2-7.2.noarch:
-  package libreoffice-languagetool-ru-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-sk-1.2-7.2.noarch:
-  package libreoffice-languagetool-sk-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-sv-1.2-7.2.noarch:
-  package libreoffice-languagetool-sv-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-1.2-7.2.noarch:
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-libs-core-devel-3.3.3.1-3.2.i586:
-  package libreoffice-libs-core-devel-3.3.3.1-3.2.i586 requires libreoffice-kde4 = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-kde4-3.3.3.1-3.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-math-3.3.3.1-1.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-math-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-officebean-3.3.3.1-1.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-officebean-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-openclipart-3.3-1.3.noarch:
-  package libreoffice-openclipart-3.3-1.3.noarch requires libreoffice >= 3.2.98, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-testtool-3.3.3.1-1.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-testtool-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-voikko-3.1.2-8.1.i586:
-  package libreoffice-voikko-3.1.2-8.1.i586 requires libreoffice, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-writer-devel-3.3.3.1-1.2.i586:
-  package libreoffice-writer-devel-3.3.3.1-1.2.i586 requires libreoffice-writer = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-writer-extensions-3.3.3.1-1.1.i586:
-  package libreoffice-writer-extensions-3.3.3.1-1.1.i586 requires libreoffice-writer = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-writer-3.3.3.1-1.2.i586:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.i586
-    (we have libreoffice-3.3.2.2-2.2.i586)
-can't install libreoffice-3.3.2.2-2.2.i586:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-ure-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-components-3.3.3.1-1.2.i586)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-filters-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-core-3.3.3.1-3.2.i586)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.i586)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.i586
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
+can't install horde4-imp-5.0.7-2.2.noarch:
+  nothing provides php5-pear-Horde_Editor needed by horde4-imp-5.0.7-2.2.noarch
+can't install horde4-ingo-2.0.1-2.3.noarch:
+  nothing provides php5-pear-Horde_Editor needed by horde4-ingo-2.0.1-2.3.noarch
+can't install kio_sysinfo-branding-upstream-11.4-6.4.noarch:
+  package kio_sysinfo-12.1-39.1.i586 requires kio_sysinfo-branding = 12.1, but none of the providers can be installed
+  package kio_sysinfo-branding-upstream-11.4-6.4.noarch requires kio_sysinfo, but none of the providers can be installed
+  package kio_sysinfo-branding-openSUSE-12.1-39.1.i586 conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-upstream-11.4-6.4.noarch
+  package kio_sysinfo-branding-upstream-11.4-6.4.noarch conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-openSUSE-12.1-39.1.i586
 can't install mail-notification-lang-5.4-5.1.noarch:
   package mail-notification-lang-5.4-5.1.noarch requires mail-notification = 5.4, but none of the providers can be installed
   nothing provides libcamel-1.2.so.19 needed by mail-notification-5.4-5.1.i586
@@ -825,269 +67,79 @@ can't install mail-notification-5.4-5.1.i586:
   nothing provides libgtkhtml-3.14.so.19 needed by mail-notification-5.4-5.1.i586
   nothing provides libgtkhtml-editor-3.14.so.0 needed by mail-notification-5.4-5.1.i586
   nothing provides libnotify.so.1 needed by mail-notification-5.4-5.1.i586
-can't install mcal-0.7-269.2.i586:
-  nothing provides libmcal.so needed by mcal-0.7-269.2.i586
+can't install mcal-0.7-269.3.i586:
+  nothing provides libmcal.so needed by mcal-0.7-269.3.i586
 can't install monotone-0.99.1-1.3.i586:
   nothing provides libbotan-1.8.2.so needed by monotone-0.99.1-1.3.i586
 can't install mysql-workbench-5.2.31-5.1.i586:
   nothing provides libmysqlclient_r.so.16 needed by mysql-workbench-5.2.31-5.1.i586
   nothing provides libmysqlclient_r.so.16(libmysqlclient_16) needed by mysql-workbench-5.2.31-5.1.i586
   nothing provides libzip.so.1 needed by mysql-workbench-5.2.31-5.1.i586
-can't install nagios-plugins-nis-1.2-10.3.noarch:
-  nothing provides licenses needed by nagios-plugins-nis-1.2-10.3.noarch
-can't install nant-0.90-34.4.noarch:
-  nothing provides mono(System) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+can't install nagios-plugins-nis-1.2-10.4.noarch:
+  nothing provides licenses needed by nagios-plugins-nis-1.2-10.4.noarch
+can't install nant-0.90-34.19.noarch:
+  nothing provides mono(System) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-core-2.10.2-2.2.i586)
     (we have moonlight-plugin-2.4.1-2.2.i586)
     (we have moonlight-web-devel-2.4.1-2.2.i586)
-  nothing provides mono(System.Data) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Data) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-data-2.10.2-2.2.i586)
-  nothing provides mono(System.Drawing) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Drawing) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-core-2.10.2-2.2.i586)
     (we have mono-winforms-2.10.2-2.2.i586)
-  nothing provides mono(System.Web) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Web) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-web-2.10.2-2.2.i586)
-  nothing provides mono(System.Windows.Forms) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Windows.Forms) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-winforms-2.10.2-2.2.i586)
-  nothing provides mono(System.Xml) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Xml) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-core-2.10.2-2.2.i586)
     (we have moonlight-plugin-2.4.1-2.2.i586)
     (we have moonlight-web-devel-2.4.1-2.2.i586)
-  nothing provides mono(mscorlib) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(mscorlib) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-core-2.10.2-2.2.i586)
     (we have moonlight-plugin-2.4.1-2.2.i586)
     (we have moonlight-web-devel-2.4.1-2.2.i586)
-can't install nautilus-extension-arista-0.9.6-7.2.noarch:
-  package nautilus-extension-arista-0.9.6-7.2.noarch requires arista = 0.9.6, but none of the providers can be installed
-  nothing provides hal needed by arista-0.9.6-7.2.noarch
-can't install openldap2-back-perl-2.4.25-2.5.i586:
-  nothing provides perl = 5.14.0 needed by openldap2-back-perl-2.4.25-2.5.i586
-    (we have perl-5.14.1-3.14.i586)
+can't install nautilus-extension-arista-0.9.6-7.4.noarch:
+  package nautilus-extension-arista-0.9.6-7.4.noarch requires arista = 0.9.6, but none of the providers can be installed
+  nothing provides hal needed by arista-0.9.6-7.4.noarch
 can't install openwsman-perl-2.2.3-9.4.i586:
   nothing provides perl = 5.14.0 needed by openwsman-perl-2.2.3-9.4.i586
     (we have perl-5.14.1-3.14.i586)
-can't install patterns-openSUSE-devel_gnome-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-devel_gnome-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome_basis-12.1-6.7.i586:
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome_imaging-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_imaging-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome_imaging_opt-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_imaging_opt-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome_laptop-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_laptop-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome_office-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_office-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome_office_opt-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_office_opt-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome_utilities-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_utilities-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install patterns-openSUSE-gnome_xgl-12.1-6.7.i586:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.i586 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.i586 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_xgl-12.1-6.7.i586 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.i586 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libedataserverui-3.0.so.0 needed by gnome-shell-3.0.2-3.2.i586
-  nothing provides libgnome-desktop-3.so.0 needed by gnome-shell-3.0.2-3.2.i586
-can't install php5-redland-1.0.12-7.4.i586:
-  nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.4.i586
+can't install php5-redland-1.0.12-7.5.i586:
+  nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.5.i586
     (we have php5-5.3.6.201105291701-1.1.i586)
 can't install pino-lang-0.2.11-9.2.noarch:
   package pino-lang-0.2.11-9.2.noarch requires pino = 0.2.11, but none of the providers can be installed
   nothing provides libnotify.so.1 needed by pino-0.2.11-9.2.i586
 can't install pino-0.2.11-9.2.i586:
   nothing provides libnotify.so.1 needed by pino-0.2.11-9.2.i586
-can't install python-kombu-1.1.2-2.1.noarch:
-  nothing provides python-amqplib needed by python-kombu-1.1.2-2.1.noarch
-can't install regina-3.3-135.2.i586:
-  nothing provides libregina.so needed by regina-3.3-135.2.i586
-  nothing provides libregina.so(regina_2.0) needed by regina-3.3-135.2.i586
-can't install squirrelmail-beta-1.5.2-2.2.noarch:
-  nothing provides php-mhash needed by squirrelmail-beta-1.5.2-2.2.noarch
+can't install python-kombu-1.1.6-2.2.noarch:
+  nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
 can't install stardict-3.0.1-71.2.i586:
   nothing provides libgucharmap.so.7 needed by stardict-3.0.1-71.2.i586
-can't install the-3.1-395.1.i586:
-  nothing provides libregina.so needed by the-3.1-395.1.i586
-  nothing provides libregina.so(REXXSAA_API) needed by the-3.1-395.1.i586
-can't install webyast-reboot-ws-testsuite-0.2.3-2.2.noarch:
-  package webyast-reboot-ws-testsuite-0.2.3-2.2.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.2.noarch
-can't install webyast-reboot-ws-0.2.3-2.2.noarch:
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.2.noarch
-can't install CodeAnalyst-2.12.3-2.3.x86_64:
-  nothing provides libbfd-2.21.0.20110504-4.so()(64bit) needed by CodeAnalyst-2.12.3-2.3.x86_64
-can't install MyODBC-unixODBC-5.1.8-2.8.x86_64:
-  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.8.x86_64
-can't install anjuta-devel-3.0.2.0-1.2.x86_64:
-  package anjuta-devel-3.0.2.0-1.2.x86_64 requires anjuta = 3.0.2.0, but none of the providers can be installed
-  nothing provides libgda-4.0.so.4()(64bit) needed by anjuta-3.0.2.0-1.2.x86_64
-  nothing provides libvala-0.12.so.0()(64bit) needed by anjuta-3.0.2.0-1.2.x86_64
-can't install anjuta-extras-lang-2.32.1.1-5.2.noarch:
-  package anjuta-extras-lang-2.32.1.1-5.2.noarch requires anjuta-extras = 2.32.1.1, but none of the providers can be installed
-  nothing provides libanjuta.so.0()(64bit) needed by anjuta-extras-2.32.1.1-5.2.x86_64
-can't install anjuta-extras-2.32.1.1-5.2.x86_64:
-  nothing provides libanjuta.so.0()(64bit) needed by anjuta-extras-2.32.1.1-5.2.x86_64
-can't install anjuta-lang-3.0.2.0-1.2.noarch:
-  package anjuta-lang-3.0.2.0-1.2.noarch requires anjuta = 3.0.2.0, but none of the providers can be installed
-  nothing provides libgda-4.0.so.4()(64bit) needed by anjuta-3.0.2.0-1.2.x86_64
-  nothing provides libvala-0.12.so.0()(64bit) needed by anjuta-3.0.2.0-1.2.x86_64
-can't install anjuta-3.0.2.0-1.2.x86_64:
-  nothing provides libgda-4.0.so.4()(64bit) needed by anjuta-3.0.2.0-1.2.x86_64
-  nothing provides libvala-0.12.so.0()(64bit) needed by anjuta-3.0.2.0-1.2.x86_64
-can't install arista-lang-0.9.6-7.2.noarch:
-  package arista-lang-0.9.6-7.2.noarch requires arista = 0.9.6, but none of the providers can be installed
-  nothing provides hal needed by arista-0.9.6-7.2.noarch
-can't install arista-0.9.6-7.2.noarch:
-  nothing provides hal needed by arista-0.9.6-7.2.noarch
-can't install blender-devel-2.56.34784-11.2.x86_64:
-  package blender-devel-2.56.34784-11.2.x86_64 requires blender = 2.56.34784, but none of the providers can be installed
-  nothing provides libpython3.1.so.1.0()(64bit) needed by blender-2.56.34784-11.2.x86_64
-can't install blender-2.56.34784-11.2.x86_64:
-  nothing provides libpython3.1.so.1.0()(64bit) needed by blender-2.56.34784-11.2.x86_64
-can't install calibre-0.7.57-2.7.x86_64:
-  nothing provides hal needed by calibre-0.7.57-2.7.x86_64
+can't install webyast-reboot-ws-testsuite-0.2.3-2.17.noarch:
+  package webyast-reboot-ws-testsuite-0.2.3-2.17.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.17.noarch
+can't install webyast-reboot-ws-0.2.3-2.17.noarch:
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.17.noarch
+can't install MyODBC-unixODBC-5.1.8-2.10.x86_64:
+  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.10.x86_64
+can't install arista-lang-0.9.6-7.4.noarch:
+  package arista-lang-0.9.6-7.4.noarch requires arista = 0.9.6, but none of the providers can be installed
+  nothing provides hal needed by arista-0.9.6-7.4.noarch
+can't install arista-0.9.6-7.4.noarch:
+  nothing provides hal needed by arista-0.9.6-7.4.noarch
 can't install cmpi-bindings-perl-0.4.0-16.3.x86_64:
   nothing provides perl = 5.14.0 needed by cmpi-bindings-perl-0.4.0-16.3.x86_64
     (we have perl-5.14.1-3.14.x86_64)
-can't install cyrus-sasl-sqlauxprop-32bit-2.1.23-17.13.x86_64:
-  nothing provides libmysqlclient.so.18 needed by cyrus-sasl-sqlauxprop-32bit-2.1.23-17.13.x86_64
-can't install evolution-devel-3.1.1-1.1.x86_64:
-  package evolution-devel-3.1.1-1.1.x86_64 requires evolution = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgdata.so.11()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-can't install evolution-exchange-doc-3.1.1-1.1.x86_64:
-  package evolution-exchange-doc-3.1.1-1.1.x86_64 requires evolution-exchange = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedata-book-1.2.so.9()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedata-cal-1.2.so.11()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-can't install evolution-exchange-lang-3.1.1-1.1.noarch:
-  package evolution-exchange-lang-3.1.1-1.1.noarch requires evolution-exchange = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedata-book-1.2.so.9()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedata-cal-1.2.so.11()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-can't install evolution-exchange-3.1.1-1.1.x86_64:
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedata-book-1.2.so.9()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedata-cal-1.2.so.11()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-exchange-3.1.1-1.1.x86_64
-can't install evolution-lang-3.1.1-1.1.noarch:
-  package evolution-lang-3.1.1-1.1.noarch requires evolution = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgdata.so.11()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-can't install evolution-mono-plugins-3.1.1-1.1.x86_64:
-  package evolution-mono-plugins-3.1.1-1.1.x86_64 requires libeutil.so.0()(64bit), but none of the providers can be installed
-  package evolution-mono-plugins-3.1.1-1.1.x86_64 requires evolution = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgdata.so.11()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-can't install evolution-python-plugins-3.1.1-1.1.x86_64:
-  package evolution-python-plugins-3.1.1-1.1.x86_64 requires libeutil.so.0()(64bit), but none of the providers can be installed
-  package evolution-python-plugins-3.1.1-1.1.x86_64 requires evolution = 3.1.1, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgdata.so.11()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-can't install evolution-tray-0.0.7-6.1.x86_64:
-  package evolution-tray-0.0.7-6.1.x86_64 requires evolution, but none of the providers can be installed
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgdata.so.11()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-can't install evolution-3.1.1-1.1.x86_64:
-  nothing provides libcamel-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libcamel-provider-1.2.so.25()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libebook-1.2.so.10()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libecal-1.2.so.8()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgdata.so.11()(64bit) needed by evolution-3.1.1-1.1.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by evolution-3.1.1-1.1.x86_64
+can't install digikam-devel-1.9.0-4.1.x86_64:
+  package digikam-devel-1.9.0-4.1.x86_64 requires digikam = 1.9.0, but none of the providers can be installed
+  nothing provides libmarblewidget.so.11()(64bit) needed by digikam-1.9.0-4.1.x86_64
+can't install digikam-lang-1.9.0-4.1.noarch:
+  package digikam-lang-1.9.0-4.1.noarch requires digikam = 1.9.0, but none of the providers can be installed
+  nothing provides libmarblewidget.so.11()(64bit) needed by digikam-1.9.0-4.1.x86_64
+can't install digikam-1.9.0-4.1.x86_64:
+  nothing provides libmarblewidget.so.11()(64bit) needed by digikam-1.9.0-4.1.x86_64
 can't install gedit-plugin-valencia-0.3.0-7.1.x86_64:
   nothing provides libvala-0.10.so.0()(64bit) needed by gedit-plugin-valencia-0.3.0-7.1.x86_64
 can't install gnome-main-menu-lang-0.9.15-15.1.noarch:
@@ -1102,102 +154,6 @@ can't install gnome-main-menu-0.9.15-15.1.x86_64:
 can't install gnome-panel-sharp-2.26.0-17.1.x86_64:
   nothing provides libpanel-applet-2.so.0()(64bit) needed by gnome-panel-sharp-2.26.0-17.1.x86_64
   nothing provides libpanel-applet-2-0 needed by gnome-panel-sharp-2.26.0-17.1.x86_64
-can't install gnome-session-default-session-3.1.3-1.1.x86_64:
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-session-fallback-session-3.1.3-1.1.x86_64:
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-fallback-session-3.1.3-1.1.x86_64 requires gnome-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-session-lang-3.1.3-1.1.noarch:
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-lang-3.1.3-1.1.noarch requires gnome-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-session-3.1.3-1.1.x86_64:
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extension-alt-status-menu-3.0.2-2.1.noarch:
-  package gnome-shell-extension-alt-status-menu-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extension-alternate-tab-3.0.2-2.1.noarch:
-  package gnome-shell-extension-alternate-tab-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extension-auto-move-windows-3.0.2-2.1.noarch:
-  package gnome-shell-extension-auto-move-windows-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extension-dock-3.0.2-2.1.noarch:
-  package gnome-shell-extension-dock-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extension-gajim-3.0.2-2.1.noarch:
-  package gnome-shell-extension-gajim-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extension-user-theme-3.0.2-2.1.noarch:
-  package gnome-shell-extension-user-theme-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extension-windows-navigator-3.0.2-2.1.noarch:
-  package gnome-shell-extension-windows-navigator-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extension-xrandr-indicator-3.0.2-2.1.noarch:
-  package gnome-shell-extension-xrandr-indicator-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extensions-lang-3.0.2-2.1.noarch:
-  package gnome-shell-extensions-lang-3.0.2-2.1.noarch requires gnome-shell-extensions = 3.0.2, but none of the providers can be installed
-  package gnome-shell-extensions-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-extensions-3.0.2-2.1.noarch:
-  package gnome-shell-extensions-3.0.2-2.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-lang-3.0.2-3.2.noarch:
-  package gnome-shell-lang-3.0.2-3.2.noarch requires gnome-shell = 3.0.2, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-shell-3.0.2-3.2.x86_64:
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-tweak-tool-lang-3.0.5-1.1.noarch:
-  package gnome-tweak-tool-lang-3.0.5-1.1.noarch requires gnome-tweak-tool = 3.0.5, but none of the providers can be installed
-  package gnome-tweak-tool-3.0.5-1.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install gnome-tweak-tool-3.0.5-1.1.noarch:
-  package gnome-tweak-tool-3.0.5-1.1.noarch requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
 can't install gok-devel-2.30.1-14.2.x86_64:
   package gok-devel-2.30.1-14.2.x86_64 requires gok = 2.30.1, but none of the providers can be installed
   nothing provides libgnomespeech.so.7()(64bit) needed by gok-2.30.1-14.2.x86_64
@@ -1206,594 +162,28 @@ can't install gok-lang-2.30.1-14.2.noarch:
   nothing provides libgnomespeech.so.7()(64bit) needed by gok-2.30.1-14.2.x86_64
 can't install gok-2.30.1-14.2.x86_64:
   nothing provides libgnomespeech.so.7()(64bit) needed by gok-2.30.1-14.2.x86_64
-can't install gourmet-lang-0.15.9-2.4.noarch:
-  package gourmet-lang-0.15.9-2.4.noarch requires gourmet = 0.15.9, but none of the providers can be installed
-  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.4.noarch
-can't install gourmet-0.15.9-2.4.noarch:
-  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.4.noarch
-can't install gstreamer-0_10-plugins-bad-32bit-0.10.22-5.8.x86_64:
-  nothing provides libdirac_encoder.so.0 needed by gstreamer-0_10-plugins-bad-32bit-0.10.22-5.8.x86_64
+can't install gourmet-lang-0.15.9-2.5.noarch:
+  package gourmet-lang-0.15.9-2.5.noarch requires gourmet = 0.15.9, but none of the providers can be installed
+  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.5.noarch
+can't install gourmet-0.15.9-2.5.noarch:
+  nothing provides python-sqlalchemy needed by gourmet-0.15.9-2.5.noarch
+can't install gstreamer-0_10-plugins-bad-32bit-0.10.22-5.21.x86_64:
+  nothing provides libdirac_encoder.so.0 needed by gstreamer-0_10-plugins-bad-32bit-0.10.22-5.21.x86_64
 can't install gtkhtml314-sharp-2.26.0-17.1.x86_64:
   nothing provides libgtkhtml-3_14-19 needed by gtkhtml314-sharp-2.26.0-17.1.x86_64
-can't install gtranslator-lang-2.90.4-1.2.noarch:
-  package gtranslator-lang-2.90.4-1.2.noarch requires gtranslator = 2.90.4, but none of the providers can be installed
-  nothing provides libgda-4.0.so.4()(64bit) needed by gtranslator-2.90.4-1.2.x86_64
-can't install gtranslator-2.90.4-1.2.x86_64:
-  nothing provides libgda-4.0.so.4()(64bit) needed by gtranslator-2.90.4-1.2.x86_64
-can't install horde4-imp-5.0.7-2.1.noarch:
-  nothing provides php5-pear-Horde_Editor needed by horde4-imp-5.0.7-2.1.noarch
-can't install horde4-ingo-2.0.1-2.2.noarch:
-  nothing provides php5-pear-Horde_Editor needed by horde4-ingo-2.0.1-2.2.noarch
-can't install laptop-mode-tools-1.53-10.1.noarch:
-  nothing provides sysvinit(haldaemon) needed by laptop-mode-tools-1.53-10.1.noarch
-can't install libass4-32bit-0.9.11-23.15.x86_64:
-  nothing provides libenca.so.0 needed by libass4-32bit-0.9.11-23.15.x86_64
-can't install libgdata13-32bit-0.9.1-2.1.x86_64:
-  nothing provides liboauth.so.0 needed by libgdata13-32bit-0.9.1-2.1.x86_64
-can't install libqt4-sql-mysql-32bit-4.7.3-6.3.x86_64:
-  nothing provides libmysqlclient.so.18 needed by libqt4-sql-mysql-32bit-4.7.3-6.3.x86_64
-can't install libreoffice-base-devel-3.3.3.1-1.2.x86_64:
-  package libreoffice-base-devel-3.3.3.1-1.2.x86_64 requires libreoffice-base = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-base-drivers-mysql-3.3.3.1-1.1.x86_64:
-  package libreoffice-base-drivers-mysql-3.3.3.1-1.1.x86_64 requires libreoffice-base = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-base-drivers-postgresql-3.3.3.1-3.2.x86_64:
-  package libreoffice-base-drivers-postgresql-3.3.3.1-3.2.x86_64 requires libreoffice-base = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-base-extensions-3.3.3.1-1.1.x86_64:
-  package libreoffice-base-extensions-3.3.3.1-1.1.x86_64 requires libreoffice-base = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-base-3.3.3.1-1.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-base-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-calc-devel-3.3.3.1-1.2.x86_64:
-  package libreoffice-calc-devel-3.3.3.1-1.2.x86_64 requires libreoffice-calc = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-calc-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-calc-extensions-3.3.3.1-1.1.x86_64:
-  package libreoffice-calc-extensions-3.3.3.1-1.1.x86_64 requires libreoffice-calc = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-calc-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-calc-3.3.3.1-1.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-calc-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-components-devel-3.3.3.1-1.2.x86_64:
-  package libreoffice-components-devel-3.3.3.1-1.2.x86_64 requires libreoffice-testtool = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-testtool-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-draw-extensions-3.3.3.1-1.1.x86_64:
-  package libreoffice-draw-extensions-3.3.3.1-1.1.x86_64 requires libreoffice-draw = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-draw-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-draw-3.3.3.1-1.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-draw-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-filters-devel-3.3.3.1-1.1.x86_64:
-  package libreoffice-filters-devel-3.3.3.1-1.1.x86_64 requires libreoffice-filters-optional = 3.3.3.1, but none of the providers can be installed
-  package libreoffice-filters-optional-3.3.3.1-1.1.x86_64 requires libreoffice-writer = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-filters-optional-3.3.3.1-1.1.x86_64:
-  package libreoffice-filters-optional-3.3.3.1-1.1.x86_64 requires libreoffice-writer = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-gnome-3.3.3.1-3.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-gnome-3.3.3.1-3.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-impress-devel-3.3.3.1-1.2.x86_64:
-  package libreoffice-impress-devel-3.3.3.1-1.2.x86_64 requires libreoffice-impress = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-impress-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-impress-extensions-3.3.3.1-1.1.x86_64:
-  package libreoffice-impress-extensions-3.3.3.1-1.1.x86_64 requires libreoffice-impress = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-impress-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-impress-3.3.3.1-1.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-impress-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-kde-3.3.3.1-3.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-kde-3.3.3.1-3.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-kde4-3.3.3.1-3.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-kde4-3.3.3.1-3.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-l10n-af-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-af-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ar-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ar-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-be-BY-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-be-BY-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-bg-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-bg-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-br-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-br-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ca-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ca-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-cs-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-cs-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-cy-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-cy-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-da-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-da-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-de-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-de-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-el-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-el-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-en-GB-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-en-GB-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-en-ZA-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-en-ZA-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-es-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-es-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-et-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-et-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-extras-devel-3.3.3.1-1.2.noarch:
-  package libreoffice-l10n-extras-devel-3.3.3.1-1.2.noarch requires libreoffice-l10n-extras = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-l10n-extras-3.3.3.1-1.2.noarch
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-l10n-extras-3.3.3.1-1.2.noarch:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-l10n-extras-3.3.3.1-1.2.noarch
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-l10n-fi-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-fi-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-fr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-fr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ga-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ga-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-gl-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-gl-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-gu-IN-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-gu-IN-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-he-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-he-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-hi-IN-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-hi-IN-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-hr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-hr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-hu-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-hu-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-it-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-it-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ja-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ja-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ka-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ka-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-km-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-km-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ko-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ko-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-lt-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-lt-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-mk-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-mk-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-nb-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-nb-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-nl-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-nl-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-nn-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-nn-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-nr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-nr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-pa-IN-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-pa-IN-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-pl-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-pl-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-pt-BR-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-pt-BR-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-pt-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-pt-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ru-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ru-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-rw-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-rw-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-sh-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sh-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-sk-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sk-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-sl-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sl-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-sr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ss-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ss-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-st-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-st-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-sv-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-sv-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-tg-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-tg-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-th-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-th-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-tr-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-tr-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ts-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ts-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-uk-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-uk-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-ve-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-ve-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-vi-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-vi-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-xh-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-xh-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-zh-CN-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-zh-CN-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-zh-TW-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-zh-TW-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-l10n-zu-3.3.2.2-2.2.noarch:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-l10n-zu-3.3.2.2-2.2.noarch
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-can't install libreoffice-languagetool-ca-1.2-7.2.noarch:
-  package libreoffice-languagetool-ca-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-de-1.2-7.2.noarch:
-  package libreoffice-languagetool-de-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-en-1.2-7.2.noarch:
-  package libreoffice-languagetool-en-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-es-1.2-7.2.noarch:
-  package libreoffice-languagetool-es-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-fr-1.2-7.2.noarch:
-  package libreoffice-languagetool-fr-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-gl-1.2-7.2.noarch:
-  package libreoffice-languagetool-gl-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-it-1.2-7.2.noarch:
-  package libreoffice-languagetool-it-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-nl-1.2-7.2.noarch:
-  package libreoffice-languagetool-nl-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-pl-1.2-7.2.noarch:
-  package libreoffice-languagetool-pl-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-ro-1.2-7.2.noarch:
-  package libreoffice-languagetool-ro-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-ru-1.2-7.2.noarch:
-  package libreoffice-languagetool-ru-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-sk-1.2-7.2.noarch:
-  package libreoffice-languagetool-sk-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-sv-1.2-7.2.noarch:
-  package libreoffice-languagetool-sv-1.2-7.2.noarch requires libreoffice-languagetool = 1.2, but none of the providers can be installed
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-languagetool-1.2-7.2.noarch:
-  package libreoffice-languagetool-1.2-7.2.noarch requires libreoffice >= 3.0.99, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-libs-core-devel-3.3.3.1-3.2.x86_64:
-  package libreoffice-libs-core-devel-3.3.3.1-3.2.x86_64 requires libreoffice-kde4 = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-kde4-3.3.3.1-3.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-math-3.3.3.1-1.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-math-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-officebean-3.3.3.1-1.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-officebean-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-openclipart-3.3-1.3.noarch:
-  package libreoffice-openclipart-3.3-1.3.noarch requires libreoffice >= 3.2.98, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-testtool-3.3.3.1-1.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-testtool-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-voikko-3.1.2-8.1.x86_64:
-  package libreoffice-voikko-3.1.2-8.1.x86_64 requires libreoffice, but none of the providers can be installed
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
-can't install libreoffice-writer-devel-3.3.3.1-1.2.x86_64:
-  package libreoffice-writer-devel-3.3.3.1-1.2.x86_64 requires libreoffice-writer = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-writer-extensions-3.3.3.1-1.1.x86_64:
-  package libreoffice-writer-extensions-3.3.3.1-1.1.x86_64 requires libreoffice-writer = 3.3.3.1, but none of the providers can be installed
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-writer-3.3.3.1-1.2.x86_64:
-  nothing provides libreoffice = 3.3.3.1 needed by libreoffice-writer-3.3.3.1-1.2.x86_64
-    (we have libreoffice-3.3.2.2-2.2.x86_64)
-can't install libreoffice-3.3.2.2-2.2.x86_64:
-  nothing provides libreoffice-ure = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-ure-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-components = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-components-3.3.3.1-1.2.x86_64)
-  nothing provides libreoffice-filters = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-filters-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-core = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-core-3.3.3.1-3.2.x86_64)
-  nothing provides libreoffice-libs-extern = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-extern-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-libs-gui = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-libs-gui-3.3.3.1-1.1.x86_64)
-  nothing provides libreoffice-l10n-extras = 3.3.2.2 needed by libreoffice-3.3.2.2-2.2.x86_64
-    (we have libreoffice-l10n-extras-3.3.3.1-1.2.noarch)
+can't install horde4-imp-5.0.7-2.2.noarch:
+  nothing provides php5-pear-Horde_Editor needed by horde4-imp-5.0.7-2.2.noarch
+can't install horde4-ingo-2.0.1-2.3.noarch:
+  nothing provides php5-pear-Horde_Editor needed by horde4-ingo-2.0.1-2.3.noarch
+can't install kio_sysinfo-branding-upstream-11.4-6.4.noarch:
+  package kio_sysinfo-12.1-39.1.x86_64 requires kio_sysinfo-branding = 12.1, but none of the providers can be installed
+  package kio_sysinfo-branding-upstream-11.4-6.4.noarch requires kio_sysinfo, but none of the providers can be installed
+  package kio_sysinfo-branding-openSUSE-12.1-39.1.x86_64 conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-upstream-11.4-6.4.noarch
+  package kio_sysinfo-branding-upstream-11.4-6.4.noarch conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-openSUSE-12.1-39.1.x86_64
+can't install libgdata13-32bit-0.9.1-2.3.x86_64:
+  nothing provides liboauth.so.0 needed by libgdata13-32bit-0.9.1-2.3.x86_64
+can't install libxslt-devel-32bit-1.1.26-8.1.x86_64:
+  nothing provides libxslt-32bit = 1.1.26 needed by libxslt-devel-32bit-1.1.26-8.1.x86_64
 can't install mail-notification-lang-5.4-5.1.noarch:
   package mail-notification-lang-5.4-5.1.noarch requires mail-notification = 5.4, but none of the providers can be installed
   nothing provides libcamel-1.2.so.19()(64bit) needed by mail-notification-5.4-5.1.x86_64
@@ -1807,150 +197,60 @@ can't install mail-notification-5.4-5.1.x86_64:
   nothing provides libgtkhtml-3.14.so.19()(64bit) needed by mail-notification-5.4-5.1.x86_64
   nothing provides libgtkhtml-editor-3.14.so.0()(64bit) needed by mail-notification-5.4-5.1.x86_64
   nothing provides libnotify.so.1()(64bit) needed by mail-notification-5.4-5.1.x86_64
-can't install mcal-0.7-269.2.x86_64:
-  nothing provides libmcal.so()(64bit) needed by mcal-0.7-269.2.x86_64
+can't install mcal-0.7-269.3.x86_64:
+  nothing provides libmcal.so()(64bit) needed by mcal-0.7-269.3.x86_64
 can't install monotone-0.99.1-1.3.x86_64:
   nothing provides libbotan-1.8.2.so()(64bit) needed by monotone-0.99.1-1.3.x86_64
 can't install mysql-workbench-5.2.31-5.1.x86_64:
   nothing provides libmysqlclient_r.so.16()(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
   nothing provides libmysqlclient_r.so.16(libmysqlclient_16)(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
   nothing provides libzip.so.1()(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
-can't install nagios-plugins-nis-1.2-10.3.noarch:
-  nothing provides licenses needed by nagios-plugins-nis-1.2-10.3.noarch
-can't install nant-0.90-34.4.noarch:
-  nothing provides mono(System) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+can't install nagios-plugins-nis-1.2-10.4.noarch:
+  nothing provides licenses needed by nagios-plugins-nis-1.2-10.4.noarch
+can't install nant-0.90-34.19.noarch:
+  nothing provides mono(System) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-core-2.10.2-2.2.x86_64)
     (we have moonlight-plugin-2.4.1-2.2.x86_64)
     (we have moonlight-web-devel-2.4.1-2.2.x86_64)
-  nothing provides mono(System.Data) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Data) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-data-2.10.2-2.2.x86_64)
-  nothing provides mono(System.Drawing) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Drawing) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-core-2.10.2-2.2.x86_64)
     (we have mono-winforms-2.10.2-2.2.x86_64)
-  nothing provides mono(System.Web) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Web) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-web-2.10.2-2.2.x86_64)
-  nothing provides mono(System.Windows.Forms) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Windows.Forms) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-winforms-2.10.2-2.2.x86_64)
-  nothing provides mono(System.Xml) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(System.Xml) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-core-2.10.2-2.2.x86_64)
     (we have moonlight-plugin-2.4.1-2.2.x86_64)
     (we have moonlight-web-devel-2.4.1-2.2.x86_64)
-  nothing provides mono(mscorlib) = 1.0.3300.0 needed by nant-0.90-34.4.noarch
+  nothing provides mono(mscorlib) = 1.0.3300.0 needed by nant-0.90-34.19.noarch
     (we have mono-core-2.10.2-2.2.x86_64)
     (we have moonlight-plugin-2.4.1-2.2.x86_64)
     (we have moonlight-web-devel-2.4.1-2.2.x86_64)
-can't install nautilus-extension-arista-0.9.6-7.2.noarch:
-  package nautilus-extension-arista-0.9.6-7.2.noarch requires arista = 0.9.6, but none of the providers can be installed
-  nothing provides hal needed by arista-0.9.6-7.2.noarch
-can't install openldap2-back-perl-2.4.25-2.5.x86_64:
-  nothing provides perl = 5.14.0 needed by openldap2-back-perl-2.4.25-2.5.x86_64
-    (we have perl-5.14.1-3.14.x86_64)
+can't install nautilus-extension-arista-0.9.6-7.4.noarch:
+  package nautilus-extension-arista-0.9.6-7.4.noarch requires arista = 0.9.6, but none of the providers can be installed
+  nothing provides hal needed by arista-0.9.6-7.4.noarch
 can't install openwsman-perl-2.2.3-9.4.x86_64:
   nothing provides perl = 5.14.0 needed by openwsman-perl-2.2.3-9.4.x86_64
     (we have perl-5.14.1-3.14.x86_64)
-can't install patterns-openSUSE-devel_gnome-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-devel_gnome-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome_basis-12.1-6.7.x86_64:
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome_imaging-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_imaging-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome_imaging_opt-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_imaging_opt-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome_laptop-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_laptop-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome_office-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_office-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome_office_opt-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_office_opt-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome_utilities-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_utilities-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install patterns-openSUSE-gnome_xgl-12.1-6.7.x86_64:
-  package patterns-openSUSE-gnome_basis-12.1-6.7.x86_64 requires gnome-session, but none of the providers can be installed
-  package gnome-session-3.1.3-1.1.x86_64 requires gnome-session-default-session = 3.1.3, but none of the providers can be installed
-  package patterns-openSUSE-gnome_xgl-12.1-6.7.x86_64 requires patterns-openSUSE-gnome_basis, but none of the providers can be installed
-  package gnome-session-default-session-3.1.3-1.1.x86_64 requires gnome-shell, but none of the providers can be installed
-  nothing provides libecal-1.2.so.8()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libedataserverui-3.0.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-  nothing provides libgnome-desktop-3.so.0()(64bit) needed by gnome-shell-3.0.2-3.2.x86_64
-can't install php5-redland-1.0.12-7.4.x86_64:
-  nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.4.x86_64
+can't install php5-redland-1.0.12-7.5.x86_64:
+  nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.5.x86_64
     (we have php5-5.3.6.201105291701-1.1.x86_64)
 can't install pino-lang-0.2.11-9.2.noarch:
   package pino-lang-0.2.11-9.2.noarch requires pino = 0.2.11, but none of the providers can be installed
   nothing provides libnotify.so.1()(64bit) needed by pino-0.2.11-9.2.x86_64
 can't install pino-0.2.11-9.2.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by pino-0.2.11-9.2.x86_64
-can't install python-kombu-1.1.2-2.1.noarch:
-  nothing provides python-amqplib needed by python-kombu-1.1.2-2.1.noarch
+can't install python-kombu-1.1.6-2.2.noarch:
+  nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
 can't install python3-32bit-3.2-2.2.x86_64:
   nothing provides libpython3.2mu.so.1.0 needed by python3-32bit-3.2-2.2.x86_64
-can't install regina-3.3-135.2.x86_64:
-  nothing provides libregina.so()(64bit) needed by regina-3.3-135.2.x86_64
-  nothing provides libregina.so(regina_2.0)(64bit) needed by regina-3.3-135.2.x86_64
-can't install squirrelmail-beta-1.5.2-2.2.noarch:
-  nothing provides php-mhash needed by squirrelmail-beta-1.5.2-2.2.noarch
 can't install stardict-3.0.1-71.2.x86_64:
   nothing provides libgucharmap.so.7()(64bit) needed by stardict-3.0.1-71.2.x86_64
-can't install the-3.1-395.1.x86_64:
-  nothing provides libregina.so()(64bit) needed by the-3.1-395.1.x86_64
-  nothing provides libregina.so(REXXSAA_API)(64bit) needed by the-3.1-395.1.x86_64
-can't install webyast-reboot-ws-testsuite-0.2.3-2.2.noarch:
-  package webyast-reboot-ws-testsuite-0.2.3-2.2.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.2.noarch
-can't install webyast-reboot-ws-0.2.3-2.2.noarch:
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.2.noarch
+can't install webyast-reboot-ws-testsuite-0.2.3-2.17.noarch:
+  package webyast-reboot-ws-testsuite-0.2.3-2.17.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.17.noarch
+can't install webyast-reboot-ws-0.2.3-2.17.noarch:
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.17.noarch
