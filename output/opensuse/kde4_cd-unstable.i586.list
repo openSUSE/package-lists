@@ -2,7 +2,6 @@ ConsoleKit
 ConsoleKit-x11
 DirectFB
 DirectFB-Mesa
-ImageMagick
 LibVNCServer
 Mesa
 ModemManager
@@ -29,6 +28,7 @@ acl
 acpica
 acpid
 adaptec-firmware
+akonadi
 akonadi-runtime
 akregator
 alsa
@@ -127,7 +127,6 @@ dvd+rw-tools
 e2fsprogs
 eject
 elfutils
-enblend-enfuse
 espeak
 ethtool
 fam
@@ -152,7 +151,6 @@ genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-upstream
-ggz
 ggz-client-libs
 ggz-client-libs-lang
 ghostscript-fonts-std
@@ -168,7 +166,6 @@ gnome-icon-theme
 gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
-gnutls
 gpart
 gpg2
 gpm
@@ -178,7 +175,6 @@ groff-devx
 grub
 gsettings-backend-dconf
 gsettings-desktop-schemas
-gsettings-desktop-schemas-lang
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
@@ -280,8 +276,6 @@ kio_iso
 kio_kamera
 kio_sysinfo
 kio_sysinfo-branding-openSUSE
-kipi-plugins
-kipi-plugins-lang
 klogd
 kmag
 kmahjongg
@@ -322,7 +316,6 @@ lcms
 less
 libFLAC++6
 libFLAC8
-libGLEW1_5
 libHX27
 libIlmImf6
 libMagickCore4
@@ -368,6 +361,7 @@ libcanberra-gtk3-module
 libcanberra0
 libcap-ng0
 libcap2
+libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcdio12
@@ -379,7 +373,6 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdbusmenu-qt2
-libdc1394-22
 libdconf0
 libdiscid1
 libdjvulibre21
@@ -402,9 +395,9 @@ libfprint0
 libfreebl3
 libfreetype6
 libgcc46
+libgck-1-0
 libgck-modules
-libgck0
-libgcr-3-1
+libgcr-3-0
 libgcrypt11
 libgdk_pixbuf-2_0-0
 libggz2
@@ -416,16 +409,17 @@ libgmodule-2_0-0
 libgmp10
 libgmpxx4
 libgnome-keyring0
-libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
 libgomp46
 libgpg-error0
 libgpgme11
 libgphoto2
+libgpod-lang
 libgpod-tools
 libgpod4
 libgps20
+libgrantlee_core0
 libgsm1
 libgssglue1
 libgstapp-0_10-0
@@ -449,16 +443,12 @@ libjpeg62
 libkate1
 libkcddb4
 libkcompactdisc4
-libkdcraw9
 libkde4
 libkdecore4
-libkdeedu4
 libkdegames4
 libkdepim4
 libkdepimlibs4
-libkeduvocdocument4
 libkexiv2-10
-libkexiv2-9
 libkipi8
 libkonq5
 libksba
@@ -497,10 +487,11 @@ libneon27
 libnetpbm10
 libnl
 libnscd
+libntfs-3g81
 libogg0
-libopencv2_2
 libopenssl1_0_0
 liborc-0_4-0
+libp11-kit0
 libpackagekit-glib2-14
 libpackagekit-qt14
 libpango-1_0-0
@@ -542,6 +533,7 @@ libqt4-qt3support
 libqt4-sql
 libqt4-sql-sqlite
 libqt4-x11
+libqzeitgeist0
 libraptor1
 librasqal2
 libraw1394-11
@@ -555,6 +547,7 @@ libsensors4
 libsepol1
 libslang2
 libsmbclient0
+libsnapper1
 libsndfile
 libsoftokn3
 libsoprano4
@@ -574,6 +567,7 @@ libtag_c0
 libtalloc2
 libtasn1
 libtasn1-3
+libtdb1
 libtheora0
 libtiff3
 libtirpc1
@@ -584,6 +578,7 @@ libusb-1_0-0
 libusbmuxd1
 libustr-1_0-1
 libuuid1
+libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
@@ -598,7 +593,6 @@ libx86emu1
 libxcrypt
 libxine1
 libxine1-pulse
-libxmi0
 libxml2
 libxml2-python
 libxslt1
@@ -623,7 +617,6 @@ lvm2
 mailx
 man
 manufacturer-PPDs
-marble
 master-boot-code
 mc
 mdadm
@@ -668,7 +661,6 @@ openssl
 openvpn
 oxygen-gtk
 oxygen-icon-theme
-oxygen-icon-theme-large
 pam
 pam-config
 pam-modules
@@ -756,14 +748,12 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
-phonon
 phonon-backend-gstreamer-0_10
 pinentry
 pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
-plasma-addons-marble
 plasmoid-networkmanagement
 plasmoid-quickaccess
 pm-profiler
@@ -841,12 +831,14 @@ sweeper
 synaptiks
 sysconfig
 sysfsutils
+syslog-service
 systemd
 systemtap-runtime
 sysvinit
 sysvinit-tools
 taglib
 tar
+tcl
 tcpd
 terminfo-base
 tightvnc
@@ -866,6 +858,8 @@ update-test-reboot-needed
 update-test-security
 update-test-trival
 upower
+usb_modeswitch
+usb_modeswitch-data
 usbmuxd
 usbutils
 utempter

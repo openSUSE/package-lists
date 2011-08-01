@@ -29,6 +29,7 @@ accountsservice
 acl
 acpica
 acpid
+aisleriot
 alacarte
 alsa
 alsa-oss
@@ -51,17 +52,16 @@ augeas-lenses
 autofs
 autoyast2-installation
 avahi
-banshee-1
-banshee-1-backend-engine-gstreamer
-banshee-1-backend-io-gio
-banshee-1-backend-platform-gnome
-banshee-1-backend-platform-unix
-banshee-1-client-classic
-banshee-1-core
-banshee-1-dmp
-banshee-1-dmp-apple-devices
-banshee-1-dmp-mtp
-banshee-1-extensions-default
+banshee
+banshee-backend-engine-gstreamer
+banshee-backend-io-gio
+banshee-backend-platform-gnome
+banshee-backend-platform-unix
+banshee-core
+banshee-dmp
+banshee-dmp-apple-devices
+banshee-dmp-mtp
+banshee-extensions-default
 bash
 bind-libs
 bind-utils
@@ -160,7 +160,6 @@ file-roller
 filesystem
 fillup
 findutils
-folks-lang
 fontconfig
 fonts-config
 foomatic-filters
@@ -206,6 +205,7 @@ gmime-sharp
 gnome-bluetooth
 gnome-bluetooth-plugins-geoclue
 gnome-control-center
+gnome-control-center-user-faces
 gnome-disk-utility
 gnome-games-recommended
 gnome-games-support
@@ -217,6 +217,9 @@ gnome-keyring
 gnome-keyring-pam
 gnome-menus
 gnome-menus-branding-openSUSE
+gnome-menus-legacy
+gnome-menus-legacy-branding-upstream
+gnome-menus-legacy-lang
 gnome-nettool
 gnome-online-accounts
 gnome-panel
@@ -242,18 +245,17 @@ gnome-user-share
 gnome-version
 gnome-video-effects
 gnomine
-gnutls
 gpart
 gpg2
 gpgme
 gpm
 grep
+grilo-plugins
 groff
 groff-devx
 grub
 gsettings-backend-dconf
 gsettings-desktop-schemas
-gsettings-desktop-schemas-lang
 gstreamer-0_10
 gstreamer-0_10-libnice
 gstreamer-0_10-plugins-bad
@@ -283,6 +285,7 @@ gtk3-theming-engine-adwaita
 gtk3-tools
 gucharmap
 gudev-sharp
+guile
 gvfs
 gvfs-backend-afc
 gvfs-backends
@@ -362,7 +365,7 @@ libbz2-1
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
-libcamel-1_2-27
+libcamel-1_2-28
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -371,6 +374,7 @@ libcanberra-gtk3-module
 libcanberra0
 libcap-ng0
 libcap2
+libcares2
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
@@ -387,7 +391,7 @@ libclutter-glx-1_0-0
 libclutter-gst-1_0-0
 libclutter-gtk-1_0-0
 libcogl-pango0
-libcogl1
+libcogl2
 libcolord1
 libcom_err2
 libcompizconfig
@@ -437,9 +441,9 @@ libfreetype6
 libfuse2
 libgadu3
 libgcc46
+libgck-1-0
 libgck-modules
-libgck0
-libgcr-3-1
+libgcr-3-0
 libgcrypt11
 libgdata13
 libgdiplus0
@@ -474,7 +478,6 @@ libgnome-menu2
 libgnomekbd
 libgnomesu
 libgnomesu0
-libgnutls-extra26
 libgnutls26
 libgoa-1_0-0
 libgoa-backend-1_0-0
@@ -483,9 +486,8 @@ libgomp46
 libgpg-error0
 libgpgme11
 libgphoto2
-libgpod-sharp
-libgpod-tools
-libgpod4
+libgrilo-0_1-0
+libgrlnet-0_1-0
 libgsf-1-114
 libgsm1
 libgssdp-1_0-3
@@ -509,6 +511,7 @@ libgtop-2_0-7
 libgucharmap_2_90-7
 libgudev-1_0-0
 libgupnp-1_0-4
+libgupnp-av-1_0-2
 libgupnp-dlna-1_0-2
 libgupnp-igd-1_0-3
 libgvfscommon0
@@ -566,12 +569,14 @@ libnotify-tools
 libnotify4
 libnscd
 libnsssharedhelper0
+libntfs-3g81
 liboauth0
 libofa0
 libogg0
 libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
+libp11-kit0
 libpackagekit-glib2-14
 libpanel-applet-4-0
 libpango-1_0-0
@@ -582,7 +587,6 @@ libpciaccess0
 libpcre0
 libpeas-1_0-0
 libpeas-gtk-1_0-0
-libpeas-lang
 libpeas-loader-python
 libpeas-loader-seed
 libpixman-1-0
@@ -607,10 +611,12 @@ libpulse-mainloop-glib0
 libpulse0
 libpurple
 libpurple-branding-openSUSE
+libpurple-tcl
+libpyglib-gi-2_0-python0
 libpython2_7-1_0
 libquadmath46
 libquicktime0
-libquvi0
+libquvi6
 libraw1394-11
 libraw2
 libreadline6
@@ -656,6 +662,7 @@ libtag_c0
 libtalloc2
 libtasn1
 libtasn1-3
+libtdb1
 libtelepathy-farsight0
 libtelepathy-glib0
 libtelepathy-logger2
@@ -675,6 +682,8 @@ libusb-1_0-0
 libusbmuxd1
 libustr-1_0-1
 libuuid1
+libv4l
+libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvdpau1
@@ -688,10 +697,8 @@ libwavpack1
 libwbclient0
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
-libwebkitgtk3-lang
 libwnck-1-22
 libwnck-3-0
-libwnck2-lang
 libx86-1
 libx86emu1
 libxcrypt
@@ -746,7 +753,6 @@ mozilla-nss-certs
 mtools
 multipath-tools
 mutter
-mx-lang
 nautilus
 nautilus-evince
 nautilus-extension-tracker-tags
@@ -784,7 +790,6 @@ openssl
 openvpn
 orbit2
 orca
-orca-lang
 pam
 pam-config
 pam-modules
@@ -885,6 +890,7 @@ python-gnome-menus
 python-gnomekeyring
 python-gobject
 python-gobject-cairo
+python-gobject2
 python-gstreamer-0_10
 python-gtk
 python-httplib2
@@ -917,7 +923,6 @@ satsolver-tools
 sax2-tools
 scout
 seahorse
-seahorse-plugins
 sed
 seed
 sg3_utils
@@ -941,6 +946,7 @@ sushi
 swell-foop
 sysconfig
 sysfsutils
+syslog-service
 system-config-printer
 systemd
 systemtap-runtime
@@ -949,6 +955,7 @@ sysvinit-tools
 t1lib
 taglib-sharp
 tar
+tcl
 tcpd
 telepathy-butterfly
 telepathy-gabble
@@ -961,6 +968,7 @@ telepathy-sofiasip
 terminfo-base
 tightvnc
 timezone
+tk
 tomboy
 totem
 totem-browser-plugin
@@ -969,7 +977,6 @@ totem-pl-parser
 totem-plugins
 tracker
 tracker-gui
-tracker-lang
 tracker-miner-files
 translation-update
 transmission-common
@@ -988,6 +995,8 @@ update-test-reboot-needed
 update-test-security
 update-test-trival
 upower
+usb_modeswitch
+usb_modeswitch-data
 usbmuxd
 usbutils
 utempter
@@ -1008,6 +1017,7 @@ xbrlapi
 xchat
 xchat-perl
 xchat-python
+xchat-tcl
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk

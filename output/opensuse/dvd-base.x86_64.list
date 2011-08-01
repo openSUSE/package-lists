@@ -6,7 +6,6 @@ bash
 bash-doc
 bc
 bundle-lang-common-en
-bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
@@ -38,7 +37,6 @@ glibc
 grep
 gsettings-backend-dconf
 gsettings-desktop-schemas
-gsettings-desktop-schemas-lang
 haveged
 hdparm
 hicolor-icon-theme
@@ -49,7 +47,6 @@ iptables
 iputils
 joe
 keyutils-libs
-klogd
 krb5
 less
 libacl
@@ -72,11 +69,13 @@ libgcrypt11
 libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
-libgnutls26
+libgmp10
+libgnutls28
 libgobject-2_0-0
 libgpg-error0
 libgssglue1
 libgthread-2_0-0
+libhogweed2
 libidn
 libiw30
 libldap-2_4-2
@@ -86,8 +85,11 @@ libmodman1
 libmount1
 libmozjs185-1_0
 libncurses5
+libnettle4
 libnscd
+libntfs-3g81
 libopenssl1_0_0
+libp11-kit0
 libpcre0
 libpopt0
 libproxy1
@@ -149,6 +151,7 @@ strace
 sudo
 sysconfig
 sysfsutils
+syslog-service
 sysvinit-tools
 tcpd
 tcsh
@@ -168,6 +171,7 @@ wireless-tools
 wol
 xdg-utils
 xinetd
+xz
 yp-tools
 ypbind
 zlib

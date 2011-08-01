@@ -106,7 +106,6 @@ gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
-gnutls
 gpart
 gpg2
 gpm
@@ -116,7 +115,6 @@ groff-devx
 grub
 gsettings-backend-dconf
 gsettings-desktop-schemas
-gsettings-desktop-schemas-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-engines
@@ -191,6 +189,7 @@ libcairo-gobject2
 libcairo2
 libcap-ng0
 libcap2
+libcares2
 libcdio12
 libcdio_cdda0
 libcdio_paranoia0
@@ -214,9 +213,9 @@ libffi46
 libfreetype6
 libfuse2
 libgcc46
+libgck-1-0
 libgck-modules
-libgck0
-libgcr-3-1
+libgcr-3-0
 libgcrypt11
 libgdk_pixbuf-2_0-0
 libgdu-lang
@@ -224,7 +223,6 @@ libgdu0
 libgfortran46
 libgimpprint
 libgio-2_0-0
-libgirepository-1_0-1
 libglade-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
@@ -232,7 +230,6 @@ libgmp10
 libgmpxx4
 libgnome-keyring-lang
 libgnome-keyring0
-libgnutls-extra26
 libgnutls26
 libgobject-2_0-0
 libgpg-error0
@@ -253,7 +250,7 @@ liblapack3
 liblcms1
 libldap-2_4-2
 libldapcpp1
-libldb0
+libldb1
 liblockdev1
 libltdl7
 liblua5_1
@@ -272,9 +269,11 @@ libncurses6
 libnetpbm10
 libnl
 libnscd
+libntfs-3g81
 libnuma1
 libopenobex1
 libopenssl1_0_0
+libp11-kit0
 libpango-1_0-0
 libparted0
 libpcap1
@@ -432,8 +431,7 @@ pwdutils
 python
 python-base
 python-cairo
-python-gobject
-python-gobject-cairo
+python-gobject2
 python-gtk
 python-numpy
 python-satsolver
@@ -459,6 +457,7 @@ sudo
 suspend
 sysconfig
 sysfsutils
+syslog-service
 systemd
 sysvinit
 sysvinit-tools

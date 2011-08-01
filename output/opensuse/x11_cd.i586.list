@@ -117,7 +117,6 @@ gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
-gnutls
 gpart
 gpg2
 gpm
@@ -127,7 +126,6 @@ groff-devx
 grub
 gsettings-backend-dconf
 gsettings-desktop-schemas
-gsettings-desktop-schemas-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-engines
@@ -179,7 +177,6 @@ kernel-default
 kernel-firmware
 keyutils
 keyutils-libs
-klogd
 kpartx
 krb5
 krb5-client
@@ -234,6 +231,7 @@ libdnet1
 libdrm
 libdw1
 libelf1
+libenca0
 liberation-fonts
 libevent-2_0-5
 libexif12
@@ -245,9 +243,9 @@ libfreebl3
 libfreetype6
 libfuse2
 libgcc46
+libgck-1-0
 libgck-modules
-libgck0
-libgcr-3-1
+libgcr-3-0
 libgcrypt11
 libgdk_pixbuf-2_0-0
 libgdu-lang
@@ -262,8 +260,7 @@ libgmp10
 libgmpxx4
 libgnome-keyring-lang
 libgnome-keyring0
-libgnutls-extra26
-libgnutls26
+libgnutls28
 libgobject-2_0-0
 libgomp46
 libgpg-error0
@@ -275,6 +272,7 @@ libgtk-3-0
 libgtkmm-2_4-1
 libgudev-1_0-0
 libgvfscommon0
+libhogweed2
 libicu
 libidn
 libimobiledevice2
@@ -287,7 +285,7 @@ libksba
 liblcms1
 libldap-2_4-2
 libldapcpp1
-libldb0
+libldb1
 liblockdev1
 libltdl7
 liblua5_1
@@ -303,11 +301,14 @@ libmysqlclient18
 libncurses5
 libncurses6
 libnetpbm10
+libnettle4
 libnl
 libnscd
+libntfs-3g81
 libogg0
 libopenobex1
 libopenssl1_0_0
+libp11-kit0
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
@@ -334,6 +335,8 @@ libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
 libqt4-x11
+librcc0
+librcd0
 libreadline6
 libref_array1
 libreiserfs
@@ -344,9 +347,11 @@ libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
+libsnapper1
 libsndfile
 libsoftokn3
 libsoup-2_4-1
+libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++46
@@ -444,7 +449,6 @@ pam_ldap
 pam_mount
 pango-tools
 parted
-patterns-openSUSE-apparmor
 patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
 patterns-openSUSE-fonts
@@ -504,6 +508,7 @@ python-satsolver
 python-smbios
 python-xml
 quota
+rcc-runtime
 recode
 reiserfs
 release-notes-openSUSE
@@ -535,6 +540,7 @@ susehelp_en
 suspend
 sysconfig
 sysfsutils
+syslog-service
 systemd
 systemtap-runtime
 sysvinit

@@ -6,6 +6,7 @@ aalib-devel-32bit
 alsa-oss-32bit
 alsa-plugins-32bit
 alsa-plugins-pulse-32bit
+anthy-32bit
 at-spi-32bit
 audiofile-32bit
 bind-libs-32bit
@@ -32,6 +33,7 @@ flex-32bit
 fontconfig-32bit
 freeglut-32bit
 freeglut-devel-32bit
+fribidi-32bit
 gcc-32bit
 gcc-c++-32bit
 gcc-fortran-32bit
@@ -62,6 +64,7 @@ gtk-xfce-engine-32bit
 gtk2-engine-murrine-32bit
 gtk2-engines-32bit
 gtk2-tools-32bit
+ibus-gtk-32bit
 irqbalance
 itcl-32bit
 keyutils-libs-32bit
@@ -92,6 +95,7 @@ libavc1394-devel-32bit
 libbonobo-32bit
 libbonoboui-32bit
 libbz2-1-32bit
+libbz2-devel-32bit
 libcaca0-32bit
 libcairo-gobject2-32bit
 libcairo2-32bit
@@ -99,6 +103,7 @@ libcanberra-gtk0-32bit
 libcanberra-gtk2-module-32bit
 libcanberra0-32bit
 libcap2-32bit
+libcares2-32bit
 libcdda_interface0-32bit
 libcdda_paranoia0-32bit
 libcom_err2-32bit
@@ -107,6 +112,7 @@ libcurl4-32bit
 libdb-4_8-32bit
 libdrm-32bit
 libdv4-32bit
+libedit0-32bit
 libelf0-32bit
 libelf1-32bit
 libesd0-32bit
@@ -143,6 +149,7 @@ libgstinterfaces-0_10-0-32bit
 libgstreamer-0_10-0-32bit
 libgthread-2_0-0-32bit
 libgtk-2_0-0-32bit
+libibus2-32bit
 libidn-32bit
 libiec61883-32bit
 libieee1284-32bit
@@ -156,6 +163,7 @@ liblockdev1-32bit
 libltdl7-32bit
 liblua5_1-32bit
 liblzma5-32bit
+libm17n0-32bit
 libmng-32bit
 libmodplug1-32bit
 libmp3-32bit
@@ -177,6 +185,7 @@ libopenssl-devel-32bit
 libopenssl0_9_8-32bit
 libopenssl1_0_0-32bit
 liborc-0_4-0-32bit
+libotf0-32bit
 libpango-1_0-0-32bit
 libpciaccess0-32bit
 libpcre0-32bit
@@ -222,7 +231,9 @@ libstdc++33-32bit
 libstdc++46-32bit
 libstdc++46-devel-32bit
 libtag1-32bit
+libtalloc2-32bit
 libtasn1-3-32bit
+libtdb1-32bit
 libtheora0-32bit
 libtiff-devel-32bit
 libtiff3-32bit
@@ -247,6 +258,7 @@ libwmf-gnome-32bit
 libxine1-32bit
 libxml2-32bit
 libxml2-devel-32bit
+libxslt-devel-32bit
 libxslt1-32bit
 linux32
 ltrace-32bit
@@ -299,6 +311,9 @@ tcl-32bit
 tclplug-32bit
 tcpd-32bit
 tk-32bit
+uim-32bit
+uim-gtk2-32bit
+uim-qt4-32bit
 unixODBC-32bit
 utempter-32bit
 xen

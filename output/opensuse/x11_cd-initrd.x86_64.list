@@ -59,7 +59,6 @@ iptables
 kernel-default
 keyutils-libs
 kiwi-tools
-klogd
 kpartx
 krb5
 lcms
@@ -77,6 +76,7 @@ libblocxx6
 libbz2-1
 libcap-ng0
 libcap2
+libcares2
 libcom_err2
 libcrack2
 libcryptsetup1
@@ -109,6 +109,7 @@ libmount1
 libmysqlclient18
 libncurses5
 libncurses5-32bit
+libncurses6
 libnl
 libnscd
 libopenssl1_0_0
@@ -195,10 +196,12 @@ release-notes-openSUSE
 rpm
 satsolver-tools
 sed
+site-config
 squashfs
 sysconfig
 sysfsutils
 syslinux
+syslog-service
 sysvinit
 sysvinit-tools
 tar
