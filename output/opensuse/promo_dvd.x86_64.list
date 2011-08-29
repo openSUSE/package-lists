@@ -279,6 +279,7 @@ bundle-lang-kde-pt
 bundle-lang-kde-ru
 bundle-lang-kde-sv
 bundle-lang-kde-zh
+busybox
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -303,6 +304,8 @@ chmlib
 choqok
 cifs-utils
 clamav
+claws-mail
+claws-mail-lang
 clicfs
 cln
 clucene-core
@@ -380,7 +383,6 @@ dialog
 diffstat
 diffutils
 digikam
-digikam-doc
 digikam-lang
 dirmngr
 dmidecode
@@ -401,6 +403,7 @@ dvb
 dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
+ebtables
 ed
 edict
 efont-unicode
@@ -500,7 +503,6 @@ gd-32bit
 gdata-sharp
 gdb
 gdbm
-gdbm-32bit
 gdbm-devel
 gdk-pixbuf-devel
 gdk-pixbuf-loader-libopenraw
@@ -604,9 +606,6 @@ gnome-keyring-pam-32bit
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-menus-devel
-gnome-menus-legacy
-gnome-menus-legacy-branding-upstream
-gnome-menus-legacy-lang
 gnome-nettool
 gnome-online-accounts
 gnome-packagekit
@@ -694,6 +693,7 @@ gtk-doc
 gtk-sharp-beans
 gtk-sharp2
 gtk-vnc-lang
+gtk-vnc2-lang
 gtk-xfce-engine
 gtk-xfce-engine-32bit
 gtk2-branding-openSUSE
@@ -994,6 +994,7 @@ kiwi-desc-isoboot
 kiwi-desc-netboot
 kiwi-desc-oemboot
 kiwi-desc-vmxboot
+kiwi-media-requires
 kiwi-pxeboot
 kiwi-templates
 kiwi-tools
@@ -1269,6 +1270,7 @@ liberation-fonts
 libesd-devel
 libesd0
 libesmtp
+libetpan13
 libevent-2_0-5
 libexempi3
 libexif-devel
@@ -1447,6 +1449,7 @@ libgthread-2_0-0-32bit
 libgtk-2_0-0
 libgtk-2_0-0-32bit
 libgtk-3-0
+libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
 libgtkhtml-4_0-0
 libgtkhtml-editor-4_0-0
@@ -1508,6 +1511,8 @@ libjpeg62
 libjpeg62-32bit
 libjpeg62-devel
 libjson-glib-1_0-0
+libjson0
+libjson0-32bit
 libkate1
 libkcddb4
 libkcompactdisc4
@@ -1563,6 +1568,7 @@ libm17n0-32bit
 libmal
 libmal-devel
 libmalaga7
+libmarblewidget12
 libmemphis-0_2-0
 libmenu-cache1
 libmission-control-plugins0
@@ -1600,6 +1606,7 @@ libncurses6-32bit
 libneon-devel
 libneon27
 libnet1
+libnetcf1
 libnetpbm10
 libnettle4
 libnice10
@@ -1702,7 +1709,6 @@ libproxy1-pacrunner-webkit
 libpst4
 libpt2_6_7
 libpth20
-libpulse-browse0
 libpulse-devel
 libpulse-mainloop-glib0
 libpulse0
@@ -1847,6 +1853,7 @@ librest0
 librsvg-2-2
 librsvg-devel
 libsamplerate
+libsamplerate-32bit
 libschroedinger-1_0-0
 libseed-gtk3-0
 libselinux1
@@ -1955,6 +1962,9 @@ libv4lconvert0
 libvala-0_14-0
 libvdeplug3
 libvdpau1
+libvirt
+libvirt-client
+libvirt-python
 libvisual
 libvisual-devel
 libvmtools0
@@ -1990,6 +2000,7 @@ libwx_baseu-2_8-0-stl
 libwx_baseu_net-2_8-0-stl
 libwx_baseu_xml-2_8-0-stl
 libwx_gtk2u_adv-2_8-0-stl
+libwx_gtk2u_aui-2_8-0-stl
 libwx_gtk2u_core-2_8-0-stl
 libwx_gtk2u_gl-2_8-0-stl
 libwx_gtk2u_html-2_8-0-stl
@@ -2019,6 +2030,7 @@ libxmmsclient-glib1
 libxmmsclient6
 libxslt-devel
 libxslt1
+libyajl2
 libyelp0
 libzio
 libzip2
@@ -2122,7 +2134,6 @@ mono-addins
 mono-core
 mono-data
 mono-data-sqlite
-mono-nunit
 mono-web
 mono-zeroconf
 mono-zeroconf-provider-avahi
@@ -2222,6 +2233,7 @@ oldstandard-fonts-ttf
 omnibook-kmp-default
 omnibook-kmp-desktop
 omnibook-kmp-xen
+open-iscsi
 open-vm-tools
 open-vm-tools-gui
 openSUSE-build-key
@@ -2572,6 +2584,7 @@ python-gobject-cairo
 python-gobject2
 python-gstreamer-0_10
 python-gtk
+python-gtk-vnc
 python-gtksourceview
 python-httplib2
 python-kde4
@@ -2597,6 +2610,7 @@ python-speechd
 python-telepathy
 python-urlgrabber
 python-virtualbox
+python-vte
 python-wnck
 python-xdg
 python-xlib
@@ -2844,6 +2858,7 @@ ttf-wqy-zenhei
 tumbler
 udev
 udev-configure-printer
+udhcp
 udisks
 uim
 uim-32bit
@@ -2880,7 +2895,9 @@ vim-data
 vinagre
 vinagre-lang
 vino
+virt-manager
 virt-utils
+virt-viewer
 virtualbox
 virtualbox-guest-kmp-default
 virtualbox-guest-kmp-desktop
@@ -2893,6 +2910,7 @@ virtuoso-drivers
 virtuoso-server
 vlan
 vlgothic
+vm-install
 vmware-guest-kmp-default
 vmware-guest-kmp-desktop
 vorbis-tools

@@ -281,69 +281,25 @@ can't install banshee-extension-telepathy-2.0.1-2.4.i586:
     (we have banshee-core-2.1.0-3.1.i586)
     (we have f-spot-0.8.2-12.4.i586)
     (we have hyena-0.5-2.5.i586)
-can't install claws-mail-devel-3.7.9-3.4.i586:
-  package claws-mail-devel-3.7.9-3.4.i586 requires claws-mail = 3.7.9, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by claws-mail-3.7.9-3.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by claws-mail-3.7.9-3.4.i586
-can't install claws-mail-extra-plugins-devel-3.7.9-3.6.i586:
-  package claws-mail-extra-plugins-devel-3.7.9-3.6.i586 requires claws-mail-extra-plugins = 3.7.9, but none of the providers can be installed
-  package claws-mail-extra-plugins-3.7.9-3.6.i586 requires claws-mail, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by claws-mail-3.7.9-3.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by claws-mail-3.7.9-3.4.i586
-can't install claws-mail-extra-plugins-lang-3.7.9-3.6.noarch:
-  package claws-mail-extra-plugins-lang-3.7.9-3.6.noarch requires claws-mail-extra-plugins = 3.7.9, but none of the providers can be installed
-  package claws-mail-extra-plugins-3.7.9-3.6.i586 requires claws-mail, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by claws-mail-3.7.9-3.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by claws-mail-3.7.9-3.4.i586
-can't install claws-mail-extra-plugins-3.7.9-3.6.i586:
-  package claws-mail-extra-plugins-3.7.9-3.6.i586 requires claws-mail, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by claws-mail-3.7.9-3.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by claws-mail-3.7.9-3.4.i586
-can't install claws-mail-lang-3.7.9-3.4.noarch:
-  package claws-mail-lang-3.7.9-3.4.noarch requires claws-mail = 3.7.9, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by claws-mail-3.7.9-3.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by claws-mail-3.7.9-3.4.i586
-can't install claws-mail-3.7.9-3.4.i586:
-  nothing provides libgnutls.so.26 needed by claws-mail-3.7.9-3.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by claws-mail-3.7.9-3.4.i586
 can't install cmpi-bindings-perl-0.4.0-16.3.i586:
   nothing provides perl = 5.14.0 needed by cmpi-bindings-perl-0.4.0-16.3.i586
     (we have perl-5.14.1-3.17.i586)
-can't install coccinelle-0.2.5-5.5.i586:
-  nothing provides ocaml(ANSITerminal) = 3d0d1700618d8b3a4e4b2308f28cefb6 needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Ast_cocci) = c293c40ce3acb11ce9a14c175fcc4d00 needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Dumper) = 76126ba149caeb2d34f12e11187a9d4e needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Flag) = 522d7f86f1236405e53271ff74923515 needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Mapb) = 617c09a110cef9f040335b35078c7234 needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Oassoc_buffer) = cf6fbee4fcc6644a0a90f07da8eb6c7b needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Oassocb) = d873c4a1eeb6fa5c5333f8658c49d1db needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Oassoch) = 87f7dc2635e5a7ed1ab03b7cd5380ace needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Ograph2way) = 7442f647b0a74ed48a5c9361fc42ccc4 needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Osetb) = 8f21a0a4f771662673604ed92a237d79 needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Oseti) = a937e7661f510c17bfd21d4372507795 needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(SetPt) = b69c030e8ca717d556d3d9bd2a5d22fd needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Setb) = 93bdb588146a13126bfad4eab6c58206 needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Sexplib) = a990ea80438337d5407bbc0343c7236a needed by coccinelle-0.2.5-5.5.i586
-  nothing provides ocaml(Type_cocci) = d2ac146cbaf9b85e82dceb97f70c6391 needed by coccinelle-0.2.5-5.5.i586
-can't install collectd-plugin-virt-4.10.2-5.5.i586:
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0, but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.1.1), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.1.4), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.3.2), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install collectd-plugins-all-4.10.2-5.5.i586:
-  package collectd-plugins-all-4.10.2-5.5.i586 requires collectd-plugin-virt = 4.10.2-5.5, but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0, but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.1.1), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.1.4), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.i586 requires libvirt.so.0(LIBVIRT_0.3.2), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
+can't install coccinelle-0.2.5-5.6.i586:
+  nothing provides ocaml(ANSITerminal) = 3d0d1700618d8b3a4e4b2308f28cefb6 needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Ast_cocci) = c293c40ce3acb11ce9a14c175fcc4d00 needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Dumper) = 76126ba149caeb2d34f12e11187a9d4e needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Flag) = 522d7f86f1236405e53271ff74923515 needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Mapb) = 617c09a110cef9f040335b35078c7234 needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Oassoc_buffer) = cf6fbee4fcc6644a0a90f07da8eb6c7b needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Oassocb) = d873c4a1eeb6fa5c5333f8658c49d1db needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Oassoch) = 87f7dc2635e5a7ed1ab03b7cd5380ace needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Ograph2way) = 7442f647b0a74ed48a5c9361fc42ccc4 needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Osetb) = 8f21a0a4f771662673604ed92a237d79 needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Oseti) = a937e7661f510c17bfd21d4372507795 needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(SetPt) = b69c030e8ca717d556d3d9bd2a5d22fd needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Setb) = 93bdb588146a13126bfad4eab6c58206 needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Sexplib) = a990ea80438337d5407bbc0343c7236a needed by coccinelle-0.2.5-5.6.i586
+  nothing provides ocaml(Type_cocci) = d2ac146cbaf9b85e82dceb97f70c6391 needed by coccinelle-0.2.5-5.6.i586
 can't install csync2-1.34-6.5.i586:
   nothing provides libgnutls-extra26 needed by csync2-1.34-6.5.i586
   nothing provides libgnutls26 needed by csync2-1.34-6.5.i586
@@ -381,9 +337,6 @@ can't install gok-2.30.1-14.2.i586:
 can't install greenbone-security-assistant-2.0.1-2.1.i586:
   nothing provides libgnutls.so.26 needed by greenbone-security-assistant-2.0.1-2.1.i586
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by greenbone-security-assistant-2.0.1-2.1.i586
-can't install gsd-1.2.0-1.4.i586:
-  nothing provides libgnutls.so.26 needed by gsd-1.2.0-1.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by gsd-1.2.0-1.4.i586
 can't install gtkhtml314-sharp-2.26.0-17.1.i586:
   nothing provides libgtkhtml-3_14-19 needed by gtkhtml314-sharp-2.26.0-17.1.i586
 can't install horde3-dimp-1.1.7-1.1.noarch:
@@ -403,50 +356,6 @@ can't install kio_sysinfo-branding-upstream-11.4-8.1.noarch:
   package kio_sysinfo-branding-upstream-11.4-8.1.noarch requires kio_sysinfo, but none of the providers can be installed
   package kio_sysinfo-branding-openSUSE-12.1-43.1.i586 conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-upstream-11.4-8.1.noarch
   package kio_sysinfo-branding-upstream-11.4-8.1.noarch conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-openSUSE-12.1-43.1.i586
-can't install koan-2.1.0-7.3.i586:
-  package python-virtinst-0.500.4-6.3.i586 requires libvirt-python >= 0.4.5-2.fc10, but none of the providers can be installed
-  package koan-2.1.0-7.3.i586 requires python-virtinst, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.7), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.6), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.8), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.9), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.5.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.0.5), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
 can't install libobby-0_4-1-0.4.7-10.4.i586:
   package libobby-0_4-1-0.4.7-10.4.i586 requires libnet6-1.3.so.0, but none of the providers can be installed
   nothing provides libgnutls.so.26 needed by net6-1.3.13-2.5.i586
@@ -454,66 +363,6 @@ can't install libobby-0_4-1-0.4.7-10.4.i586:
 can't install libpurple-branding-openSUSE-12.1-2.5.noarch:
   nothing provides libpurple = 2.10.0-7.1 needed by libpurple-branding-openSUSE-12.1-2.5.noarch
     (we have libpurple-2.10.0-7.2.i586)
-can't install libvirt-cim-0.5.8-9.5.i586:
-  package libvirt-cim-0.5.8-9.5.i586 requires libvirt >= 0.3.2, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-0.9.4-2.3.i586
-can't install libvirt-client-0.9.4-2.3.i586:
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install libvirt-devel-0.9.4-2.3.i586:
-  package libvirt-devel-0.9.4-2.3.i586 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install libvirt-doc-0.9.4-2.3.i586:
-  package libvirt-doc-0.9.4-2.3.i586 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install libvirt-python-0.9.4-2.3.i586:
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.7), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.6), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.8), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.9), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.5.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.0.5), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install libvirt-0.9.4-2.3.i586:
-  nothing provides libgnutls.so.26 needed by libvirt-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-0.9.4-2.3.i586
 can't install lxappearance-obconf-0.0.1-2.2.i586:
   nothing provides libobparser.so.21 needed by lxappearance-obconf-0.0.1-2.2.i586
   nothing provides libobrender.so.21 needed by lxappearance-obconf-0.0.1-2.2.i586
@@ -573,60 +422,21 @@ can't install obby-0.4.7-10.4.i586:
   package libobby-0_4-1-0.4.7-10.4.i586 requires libnet6-1.3.so.0, but none of the providers can be installed
   nothing provides libgnutls.so.26 needed by net6-1.3.13-2.5.i586
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by net6-1.3.13-2.5.i586
-can't install openvas-administrator-1.1.1-2.5.i586:
-  nothing provides libgnutls.so.26 needed by openvas-administrator-1.1.1-2.5.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by openvas-administrator-1.1.1-2.5.i586
 can't install openvas-manager-2.0.4-1.4.i586:
   nothing provides libgnutls.so.26 needed by openvas-manager-2.0.4-1.4.i586
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by openvas-manager-2.0.4-1.4.i586
-can't install openvas-scanner-3.2.4-2.4.i586:
-  nothing provides libgnutls.so.26 needed by openvas-scanner-3.2.4-2.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by openvas-scanner-3.2.4-2.4.i586
 can't install openwsman-perl-2.2.3-9.4.i586:
   nothing provides perl = 5.14.0 needed by openwsman-perl-2.2.3-9.4.i586
     (we have perl-5.14.1-3.17.i586)
-can't install perl-Sys-Virt-0.9.4-2.1.i586:
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0, but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.1.1), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.1.4), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.3.2), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.1.5), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.1.9), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.2.0), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.2.1), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.2.3), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.3.0), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.4.1), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.4.0), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.4.5), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.5.0), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.6.1), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.6.3), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.6.4), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.7.0), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.7.1), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.7.2), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.7.3), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.7.5), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.7.7), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.8.0), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.8.1), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.8.2), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.8.5), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.8.6), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.8.8), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.9.0), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.9.2), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.9.3), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.9.4), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.0.5), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.4.2), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.i586 requires libvirt.so.0(LIBVIRT_0.6.0), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
+can't install padevchooser-0.9.4-147.3.i586:
+  nothing provides libpulse-browse.so.0 needed by padevchooser-0.9.4-147.3.i586
+  nothing provides libpulse-browse.so.0(PULSE_0) needed by padevchooser-0.9.4-147.3.i586
+can't install patterns-openSUSE-minimal_base-conflicts-12.1-12.1.i586:
+  package yast2-installation-2.21.15-2.1.noarch requires systemd, but none of the providers can be installed
+  package patterns-openSUSE-yast2_basis-12.1-12.1.i586 requires yast2-installation, but none of the providers can be installed
+  package systemd-33-18.1.i586 requires /usr/bin/python, but none of the providers can be installed
+  package patterns-openSUSE-minimal_base-conflicts-12.1-12.1.i586 requires patterns-openSUSE-yast2_basis, but none of the providers can be installed
+  package patterns-openSUSE-minimal_base-conflicts-12.1-12.1.i586 conflicts with python-base provided by python-base-2.7.1-12.2.i586
 can't install php5-redland-1.0.12-7.6.i586:
   nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.6.i586
     (we have php5-5.3.6.201105291701-1.1.i586)
@@ -644,89 +454,12 @@ can't install python-kombu-1.1.6-2.2.noarch:
   nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
 can't install python-twisted-doc-10.2.0-14.4.i586:
   nothing provides /usr/bin/python2.2 needed by python-twisted-doc-10.2.0-14.4.i586
-can't install python-virtinst-0.500.4-6.3.i586:
-  package python-virtinst-0.500.4-6.3.i586 requires libvirt-python >= 0.4.5-2.fc10, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.7), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.6), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.8), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.9), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.5.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.0.5), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
 can't install q4wine-0.121-2.4.i586:
   package q4wine-0.121-2.4.i586 requires wine, but none of the providers can be installed
   package wine-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
   package wine-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
   package wine-1.3.26-1.3.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
   nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
-can't install sblim-gather-devel-2.2.0-10.4.i586:
-  package sblim-gather-devel-2.2.0-10.4.i586 requires sblim-gather = 2.2.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install sblim-gather-provider-2.2.0-10.4.i586:
-  package sblim-gather-provider-2.2.0-10.4.i586 requires libgatherutil.so.0, but none of the providers can be installed
-  package sblim-gather-provider-2.2.0-10.4.i586 requires librgather.so.0, but none of the providers can be installed
-  package sblim-gather-provider-2.2.0-10.4.i586 requires librrepos.so.0, but none of the providers can be installed
-  package sblim-gather-provider-2.2.0-10.4.i586 requires sblim-gather = 2.2.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install sblim-gather-test-2.2.0-10.4.i586:
-  package sblim-gather-test-2.2.0-10.4.i586 requires sblim-gather = 2.2.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install sblim-gather-2.2.0-10.4.i586:
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
 can't install seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch:
   package seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch requires seahorse-plugins = 2.30.1.git.20110502, but none of the providers can be installed
   nothing provides libcryptui.so.0 needed by seahorse-plugins-2.30.1.git.20110502-2.3.i586
@@ -741,68 +474,6 @@ can't install sobby-0.4.7-8.3.i586:
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by net6-1.3.13-2.5.i586
 can't install stardict-3.0.1-71.2.i586:
   nothing provides libgucharmap.so.7 needed by stardict-3.0.1-71.2.i586
-can't install vhostmd-0.4-6.4.i586:
-  package vhostmd-0.4-6.4.i586 requires libvirt.so.0, but none of the providers can be installed
-  package vhostmd-0.4-6.4.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package vhostmd-0.4-6.4.i586 requires libvirt.so.0(LIBVIRT_0.1.1), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install virt-manager-0.8.7-6.1.i586:
-  package virt-manager-0.8.7-6.1.i586 requires libvirt-python >= 0.5.0, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.7.7), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.6), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.8.8), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.9.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.6.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.4), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.2), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.1.9), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.2.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.1), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.3.3), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.4.5), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.5.0), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.i586 requires libvirt.so.0(LIBVIRT_0.0.5), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install virt-viewer-0.3.1-7.4.i586:
-  package virt-viewer-0.3.1-7.4.i586 requires libvirt.so.0, but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.i586 requires libvirt.so.0(LIBVIRT_0.0.3), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.i586 requires libvirt.so.0(LIBVIRT_0.1.0), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.i586 requires libvirt.so.0(LIBVIRT_0.4.0), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.i586 requires libvirt.so.0(LIBVIRT_0.5.0), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.i586 requires libvirt.so.0(LIBVIRT_0.0.5), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-client-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-0.9.4-2.3.i586
-can't install vm-install-0.5.5-3.1.i586:
-  package vm-install-0.5.5-3.1.i586 requires libvirt, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by libvirt-0.9.4-2.3.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-0.9.4-2.3.i586
 can't install webyast-reboot-ws-testsuite-0.2.3-2.20.noarch:
   package webyast-reboot-ws-testsuite-0.2.3-2.20.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
   nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
@@ -1108,81 +779,30 @@ can't install banshee-extension-telepathy-2.0.1-2.4.x86_64:
     (we have banshee-core-2.1.0-3.1.x86_64)
     (we have f-spot-0.8.2-12.4.x86_64)
     (we have hyena-0.5-2.5.x86_64)
-can't install claws-mail-devel-3.7.9-3.4.x86_64:
-  package claws-mail-devel-3.7.9-3.4.x86_64 requires claws-mail = 3.7.9, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-can't install claws-mail-extra-plugins-devel-3.7.9-3.6.x86_64:
-  package claws-mail-extra-plugins-devel-3.7.9-3.6.x86_64 requires claws-mail-extra-plugins = 3.7.9, but none of the providers can be installed
-  package claws-mail-extra-plugins-3.7.9-3.6.x86_64 requires claws-mail, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-can't install claws-mail-extra-plugins-lang-3.7.9-3.6.noarch:
-  package claws-mail-extra-plugins-lang-3.7.9-3.6.noarch requires claws-mail-extra-plugins = 3.7.9, but none of the providers can be installed
-  package claws-mail-extra-plugins-3.7.9-3.6.x86_64 requires claws-mail, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-can't install claws-mail-extra-plugins-3.7.9-3.6.x86_64:
-  package claws-mail-extra-plugins-3.7.9-3.6.x86_64 requires claws-mail, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-can't install claws-mail-lang-3.7.9-3.4.noarch:
-  package claws-mail-lang-3.7.9-3.4.noarch requires claws-mail = 3.7.9, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-can't install claws-mail-3.7.9-3.4.x86_64:
-  nothing provides libgnutls.so.26()(64bit) needed by claws-mail-3.7.9-3.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by claws-mail-3.7.9-3.4.x86_64
 can't install cmpi-bindings-perl-0.4.0-16.3.x86_64:
   nothing provides perl = 5.14.0 needed by cmpi-bindings-perl-0.4.0-16.3.x86_64
     (we have perl-5.14.1-3.17.x86_64)
-can't install coccinelle-0.2.5-5.5.x86_64:
-  nothing provides ocaml(ANSITerminal) = 3d0d1700618d8b3a4e4b2308f28cefb6 needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Ast_cocci) = c293c40ce3acb11ce9a14c175fcc4d00 needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Dumper) = 76126ba149caeb2d34f12e11187a9d4e needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Flag) = 522d7f86f1236405e53271ff74923515 needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Mapb) = 617c09a110cef9f040335b35078c7234 needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Oassoc_buffer) = cf6fbee4fcc6644a0a90f07da8eb6c7b needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Oassocb) = d873c4a1eeb6fa5c5333f8658c49d1db needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Oassoch) = 87f7dc2635e5a7ed1ab03b7cd5380ace needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Ograph2way) = 7442f647b0a74ed48a5c9361fc42ccc4 needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Osetb) = 8f21a0a4f771662673604ed92a237d79 needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Oseti) = a937e7661f510c17bfd21d4372507795 needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(SetPt) = b69c030e8ca717d556d3d9bd2a5d22fd needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Setb) = 93bdb588146a13126bfad4eab6c58206 needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Sexplib) = a990ea80438337d5407bbc0343c7236a needed by coccinelle-0.2.5-5.5.x86_64
-  nothing provides ocaml(Type_cocci) = d2ac146cbaf9b85e82dceb97f70c6391 needed by coccinelle-0.2.5-5.5.x86_64
-can't install collectd-plugin-virt-4.10.2-5.5.x86_64:
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.1.1)(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.1.4)(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.3.2)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install collectd-plugins-all-4.10.2-5.5.x86_64:
-  package collectd-plugins-all-4.10.2-5.5.x86_64 requires collectd-plugin-virt = 4.10.2-5.5, but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.1.1)(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.1.4)(64bit), but none of the providers can be installed
-  package collectd-plugin-virt-4.10.2-5.5.x86_64 requires libvirt.so.0(LIBVIRT_0.3.2)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
+can't install coccinelle-0.2.5-5.6.x86_64:
+  nothing provides ocaml(ANSITerminal) = 3d0d1700618d8b3a4e4b2308f28cefb6 needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Ast_cocci) = c293c40ce3acb11ce9a14c175fcc4d00 needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Dumper) = 76126ba149caeb2d34f12e11187a9d4e needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Flag) = 522d7f86f1236405e53271ff74923515 needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Mapb) = 617c09a110cef9f040335b35078c7234 needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Oassoc_buffer) = cf6fbee4fcc6644a0a90f07da8eb6c7b needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Oassocb) = d873c4a1eeb6fa5c5333f8658c49d1db needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Oassoch) = 87f7dc2635e5a7ed1ab03b7cd5380ace needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Ograph2way) = 7442f647b0a74ed48a5c9361fc42ccc4 needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Osetb) = 8f21a0a4f771662673604ed92a237d79 needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Oseti) = a937e7661f510c17bfd21d4372507795 needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(SetPt) = b69c030e8ca717d556d3d9bd2a5d22fd needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Setb) = 93bdb588146a13126bfad4eab6c58206 needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Sexplib) = a990ea80438337d5407bbc0343c7236a needed by coccinelle-0.2.5-5.6.x86_64
+  nothing provides ocaml(Type_cocci) = d2ac146cbaf9b85e82dceb97f70c6391 needed by coccinelle-0.2.5-5.6.x86_64
 can't install csync2-1.34-6.5.x86_64:
   nothing provides libgnutls-extra26 needed by csync2-1.34-6.5.x86_64
   nothing provides libgnutls26 needed by csync2-1.34-6.5.x86_64
-can't install ecryptfs-utils-32bit-90-3.1.x86_64:
-  package ecryptfs-utils-32bit-90-3.1.x86_64 requires libpkcs11-helper.so.1, but none of the providers can be installed
-  nothing provides libgnutls.so.28 needed by libpkcs11-helper1-32bit-1.07-11.5.x86_64
-  nothing provides libgnutls.so.28(GNUTLS_1_4) needed by libpkcs11-helper1-32bit-1.07-11.5.x86_64
 can't install gedit-plugin-valencia-0.3.0-7.1.x86_64:
   nothing provides libvala-0.10.so.0()(64bit) needed by gedit-plugin-valencia-0.3.0-7.1.x86_64
-can't install glib-networking-32bit-2.29.9-3.1.x86_64:
-  nothing provides libgnutls.so.28 needed by glib-networking-32bit-2.29.9-3.1.x86_64
-  nothing provides libgnutls.so.28(GNUTLS_1_4) needed by glib-networking-32bit-2.29.9-3.1.x86_64
 can't install gnome-main-menu-lang-0.9.15-15.1.noarch:
   package gnome-main-menu-lang-0.9.15-15.1.noarch requires gnome-main-menu = 0.9.15, but none of the providers can be installed
   nothing provides libnm-glib.so.2()(64bit) needed by gnome-main-menu-0.9.15-15.1.x86_64
@@ -1215,9 +835,6 @@ can't install gok-2.30.1-14.2.x86_64:
 can't install greenbone-security-assistant-2.0.1-2.1.x86_64:
   nothing provides libgnutls.so.26()(64bit) needed by greenbone-security-assistant-2.0.1-2.1.x86_64
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by greenbone-security-assistant-2.0.1-2.1.x86_64
-can't install gsd-1.2.0-1.4.x86_64:
-  nothing provides libgnutls.so.26()(64bit) needed by gsd-1.2.0-1.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by gsd-1.2.0-1.4.x86_64
 can't install gstreamer-0_10-plugins-bad-32bit-0.10.22-7.1.x86_64:
   nothing provides libdirac_encoder.so.0 needed by gstreamer-0_10-plugins-bad-32bit-0.10.22-7.1.x86_64
 can't install gstreamer-0_10-plugins-gl-32bit-0.10.2-10.12.x86_64:
@@ -1241,145 +858,19 @@ can't install kio_sysinfo-branding-upstream-11.4-8.1.noarch:
   package kio_sysinfo-branding-upstream-11.4-8.1.noarch requires kio_sysinfo, but none of the providers can be installed
   package kio_sysinfo-branding-openSUSE-12.1-43.1.x86_64 conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-upstream-11.4-8.1.noarch
   package kio_sysinfo-branding-upstream-11.4-8.1.noarch conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-openSUSE-12.1-43.1.x86_64
-can't install koan-2.1.0-7.3.x86_64:
-  package python-virtinst-0.500.4-6.3.x86_64 requires libvirt-python >= 0.4.5-2.fc10, but none of the providers can be installed
-  package koan-2.1.0-7.3.x86_64 requires python-virtinst, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.7)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.6)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.8)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.9)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.5.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.0.5)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
 can't install libgdata13-32bit-0.9.1-2.5.x86_64:
   nothing provides liboauth.so.0 needed by libgdata13-32bit-0.9.1-2.5.x86_64
-can't install libgpod4-32bit-0.8.2-5.2.x86_64:
-  package libgpod4-32bit-0.8.2-5.2.x86_64 requires libimobiledevice.so.2, but none of the providers can be installed
-  nothing provides libgnutls.so.28 needed by libimobiledevice2-32bit-1.1.1-7.4.x86_64
-  nothing provides libgnutls.so.28(GNUTLS_1_4) needed by libimobiledevice2-32bit-1.1.1-7.4.x86_64
 can't install libgstgl-0_10-1-32bit-0.10.2-10.12.x86_64:
   nothing provides libGLEW.so.1.6 needed by libgstgl-0_10-1-32bit-0.10.2-10.12.x86_64
-can't install libimobiledevice2-32bit-1.1.1-7.4.x86_64:
-  nothing provides libgnutls.so.28 needed by libimobiledevice2-32bit-1.1.1-7.4.x86_64
-  nothing provides libgnutls.so.28(GNUTLS_1_4) needed by libimobiledevice2-32bit-1.1.1-7.4.x86_64
 can't install libobby-0_4-1-0.4.7-10.4.x86_64:
   package libobby-0_4-1-0.4.7-10.4.x86_64 requires libnet6-1.3.so.0()(64bit), but none of the providers can be installed
   nothing provides libgnutls.so.26()(64bit) needed by net6-1.3.13-2.5.x86_64
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by net6-1.3.13-2.5.x86_64
 can't install libotf-devel-32bit-0.9.12-7.2.x86_64:
   nothing provides libotf-32bit = 0.9.12 needed by libotf-devel-32bit-0.9.12-7.2.x86_64
-can't install libpkcs11-helper1-32bit-1.07-11.5.x86_64:
-  nothing provides libgnutls.so.28 needed by libpkcs11-helper1-32bit-1.07-11.5.x86_64
-  nothing provides libgnutls.so.28(GNUTLS_1_4) needed by libpkcs11-helper1-32bit-1.07-11.5.x86_64
 can't install libpurple-branding-openSUSE-12.1-2.5.noarch:
   nothing provides libpurple = 2.10.0-7.1 needed by libpurple-branding-openSUSE-12.1-2.5.noarch
     (we have libpurple-2.10.0-7.2.x86_64)
-can't install libqca2-plugin-pkcs11-32bit-2.0.3-2.4.x86_64:
-  package libqca2-plugin-pkcs11-32bit-2.0.3-2.4.x86_64 requires libpkcs11-helper.so.1, but none of the providers can be installed
-  nothing provides libgnutls.so.28 needed by libpkcs11-helper1-32bit-1.07-11.5.x86_64
-  nothing provides libgnutls.so.28(GNUTLS_1_4) needed by libpkcs11-helper1-32bit-1.07-11.5.x86_64
-can't install libvirt-cim-0.5.8-9.5.x86_64:
-  package libvirt-cim-0.5.8-9.5.x86_64 requires libvirt >= 0.3.2, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-0.9.4-2.3.x86_64
-can't install libvirt-client-32bit-0.9.4-2.3.x86_64:
-  nothing provides libgnutls.so.26 needed by libvirt-client-32bit-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by libvirt-client-32bit-0.9.4-2.3.x86_64
-can't install libvirt-client-0.9.4-2.3.x86_64:
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install libvirt-devel-32bit-0.9.4-2.3.x86_64:
-  package libvirt-devel-32bit-0.9.4-2.3.x86_64 requires libvirt-devel = 0.9.4, but none of the providers can be installed
-  package libvirt-devel-0.9.4-2.3.x86_64 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install libvirt-devel-0.9.4-2.3.x86_64:
-  package libvirt-devel-0.9.4-2.3.x86_64 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install libvirt-doc-0.9.4-2.3.x86_64:
-  package libvirt-doc-0.9.4-2.3.x86_64 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install libvirt-python-0.9.4-2.3.x86_64:
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.7)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.6)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.8)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.9)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.5.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.0.5)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install libvirt-0.9.4-2.3.x86_64:
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-0.9.4-2.3.x86_64
 can't install lxappearance-obconf-0.0.1-2.2.x86_64:
   nothing provides libobparser.so.21()(64bit) needed by lxappearance-obconf-0.0.1-2.2.x86_64
   nothing provides libobrender.so.21()(64bit) needed by lxappearance-obconf-0.0.1-2.2.x86_64
@@ -1439,60 +930,21 @@ can't install obby-0.4.7-10.4.x86_64:
   package libobby-0_4-1-0.4.7-10.4.x86_64 requires libnet6-1.3.so.0()(64bit), but none of the providers can be installed
   nothing provides libgnutls.so.26()(64bit) needed by net6-1.3.13-2.5.x86_64
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by net6-1.3.13-2.5.x86_64
-can't install openvas-administrator-1.1.1-2.5.x86_64:
-  nothing provides libgnutls.so.26()(64bit) needed by openvas-administrator-1.1.1-2.5.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by openvas-administrator-1.1.1-2.5.x86_64
 can't install openvas-manager-2.0.4-1.4.x86_64:
   nothing provides libgnutls.so.26()(64bit) needed by openvas-manager-2.0.4-1.4.x86_64
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by openvas-manager-2.0.4-1.4.x86_64
-can't install openvas-scanner-3.2.4-2.4.x86_64:
-  nothing provides libgnutls.so.26()(64bit) needed by openvas-scanner-3.2.4-2.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by openvas-scanner-3.2.4-2.4.x86_64
 can't install openwsman-perl-2.2.3-9.4.x86_64:
   nothing provides perl = 5.14.0 needed by openwsman-perl-2.2.3-9.4.x86_64
     (we have perl-5.14.1-3.17.x86_64)
-can't install perl-Sys-Virt-0.9.4-2.1.x86_64:
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.1.1)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.1.4)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.3.2)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.1.5)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.1.9)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.2.0)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.2.1)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.2.3)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.3.0)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.4.1)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.4.0)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.4.5)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.5.0)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.6.1)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.6.3)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.6.4)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.7.0)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.7.1)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.7.2)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.7.3)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.7.5)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.7.7)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.8.0)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.8.1)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.8.2)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.8.5)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.8.6)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.8.8)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.9.0)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.9.2)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.9.3)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.9.4)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.0.5)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.4.2)(64bit), but none of the providers can be installed
-  package perl-Sys-Virt-0.9.4-2.1.x86_64 requires libvirt.so.0(LIBVIRT_0.6.0)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
+can't install padevchooser-0.9.4-147.3.x86_64:
+  nothing provides libpulse-browse.so.0()(64bit) needed by padevchooser-0.9.4-147.3.x86_64
+  nothing provides libpulse-browse.so.0(PULSE_0)(64bit) needed by padevchooser-0.9.4-147.3.x86_64
+can't install patterns-openSUSE-minimal_base-conflicts-12.1-12.1.x86_64:
+  package yast2-installation-2.21.15-2.1.noarch requires systemd, but none of the providers can be installed
+  package patterns-openSUSE-yast2_basis-12.1-12.1.x86_64 requires yast2-installation, but none of the providers can be installed
+  package systemd-33-18.1.x86_64 requires /usr/bin/python, but none of the providers can be installed
+  package patterns-openSUSE-minimal_base-conflicts-12.1-12.1.x86_64 requires patterns-openSUSE-yast2_basis, but none of the providers can be installed
+  package patterns-openSUSE-minimal_base-conflicts-12.1-12.1.x86_64 conflicts with python-base provided by python-base-2.7.1-12.2.x86_64
 can't install php5-redland-1.0.12-7.6.x86_64:
   nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.6.x86_64
     (we have php5-5.3.6.201105291701-1.1.x86_64)
@@ -1510,49 +962,6 @@ can't install python-kombu-1.1.6-2.2.noarch:
   nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
 can't install python-twisted-doc-10.2.0-14.4.x86_64:
   nothing provides /usr/bin/python2.2 needed by python-twisted-doc-10.2.0-14.4.x86_64
-can't install python-virtinst-0.500.4-6.3.x86_64:
-  package python-virtinst-0.500.4-6.3.x86_64 requires libvirt-python >= 0.4.5-2.fc10, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.7)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.6)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.8)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.9)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.5.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.0.5)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
 can't install python3-32bit-3.2.1-2.1.x86_64:
   nothing provides libpython3.2mu.so.1.0 needed by python3-32bit-3.2.1-2.1.x86_64
 can't install q4wine-0.121-2.4.x86_64:
@@ -1561,40 +970,6 @@ can't install q4wine-0.121-2.4.x86_64:
   package wine-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
   package wine-1.3.26-1.3.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
   nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
-can't install sblim-gather-devel-2.2.0-10.4.x86_64:
-  package sblim-gather-devel-2.2.0-10.4.x86_64 requires sblim-gather = 2.2.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install sblim-gather-provider-2.2.0-10.4.x86_64:
-  package sblim-gather-provider-2.2.0-10.4.x86_64 requires libgatherutil.so.0()(64bit), but none of the providers can be installed
-  package sblim-gather-provider-2.2.0-10.4.x86_64 requires librgather.so.0()(64bit), but none of the providers can be installed
-  package sblim-gather-provider-2.2.0-10.4.x86_64 requires librrepos.so.0()(64bit), but none of the providers can be installed
-  package sblim-gather-provider-2.2.0-10.4.x86_64 requires sblim-gather = 2.2.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install sblim-gather-test-2.2.0-10.4.x86_64:
-  package sblim-gather-test-2.2.0-10.4.x86_64 requires sblim-gather = 2.2.0, but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install sblim-gather-2.2.0-10.4.x86_64:
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package sblim-gather-2.2.0-10.4.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
 can't install seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch:
   package seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch requires seahorse-plugins = 2.30.1.git.20110502, but none of the providers can be installed
   nothing provides libcryptui.so.0()(64bit) needed by seahorse-plugins-2.30.1.git.20110502-2.3.x86_64
@@ -1609,68 +984,6 @@ can't install sobby-0.4.7-8.3.x86_64:
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by net6-1.3.13-2.5.x86_64
 can't install stardict-3.0.1-71.2.x86_64:
   nothing provides libgucharmap.so.7()(64bit) needed by stardict-3.0.1-71.2.x86_64
-can't install vhostmd-0.4-6.4.x86_64:
-  package vhostmd-0.4-6.4.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package vhostmd-0.4-6.4.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package vhostmd-0.4-6.4.x86_64 requires libvirt.so.0(LIBVIRT_0.1.1)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install virt-manager-0.8.7-6.1.x86_64:
-  package virt-manager-0.8.7-6.1.x86_64 requires libvirt-python >= 0.5.0, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.7.7)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.6)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.8.8)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.9.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.6.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt-client = 0.9.4-2.3, but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.4)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.2)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.1.9)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.2.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.1)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.3.3)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.4.5)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.5.0)(64bit), but none of the providers can be installed
-  package libvirt-python-0.9.4-2.3.x86_64 requires libvirt.so.0(LIBVIRT_0.0.5)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install virt-viewer-0.3.1-7.4.x86_64:
-  package virt-viewer-0.3.1-7.4.x86_64 requires libvirt.so.0()(64bit), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.x86_64 requires libvirt.so.0(LIBVIRT_0.0.3)(64bit), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.x86_64 requires libvirt.so.0(LIBVIRT_0.1.0)(64bit), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.x86_64 requires libvirt.so.0(LIBVIRT_0.4.0)(64bit), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.x86_64 requires libvirt.so.0(LIBVIRT_0.5.0)(64bit), but none of the providers can be installed
-  package virt-viewer-0.3.1-7.4.x86_64 requires libvirt.so.0(LIBVIRT_0.0.5)(64bit), but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-client-0.9.4-2.3.x86_64
-can't install vm-install-0.5.5-3.1.x86_64:
-  package vm-install-0.5.5-3.1.x86_64 requires libvirt, but none of the providers can be installed
-  nothing provides libgnutls.so.26()(64bit) needed by libvirt-0.9.4-2.3.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by libvirt-0.9.4-2.3.x86_64
 can't install webyast-reboot-ws-testsuite-0.2.3-2.20.noarch:
   package webyast-reboot-ws-testsuite-0.2.3-2.20.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
   nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch

@@ -2,6 +2,7 @@ ConsoleKit
 ConsoleKit-x11
 DirectFB
 DirectFB-Mesa
+ImageMagick
 LibVNCServer
 Mesa
 ModemManager
@@ -110,6 +111,8 @@ dhcp-client
 dhcpcd
 dialog
 diffutils
+digikam
+digikam-lang
 dirmngr
 dmidecode
 dmraid
@@ -123,6 +126,7 @@ dvd+rw-tools
 e2fsprogs
 eject
 elfutils
+enblend-enfuse
 espeak
 ethtool
 fam
@@ -272,6 +276,8 @@ kio_iso
 kio_kamera
 kio_sysinfo
 kio_sysinfo-branding-openSUSE
+kipi-plugins
+kipi-plugins-lang
 kmag
 kmahjongg
 kmail
@@ -308,9 +314,11 @@ kwebkitpart-lang
 kwin
 kwrite
 lcms
+lensfun-data
 less
 libFLAC++6
 libFLAC8
+libGLEW1_6
 libHX27
 libIlmImf6
 libMagickCore4
@@ -366,6 +374,7 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdbusmenu-qt2
+libdc1394-22
 libdconf0
 libdiscid1
 libdjvulibre21
@@ -435,15 +444,19 @@ libjack0
 libjasper1
 libjpeg-turbo
 libjpeg62
+libjson0
 libkate1
 libkcddb4
 libkcompactdisc4
+libkdcraw20
 libkde4
 libkdecore4
 libkdegames4
 libkdepim4
 libkdepimlibs4
 libkexiv2-10
+libkface1
+libkgeomap1
 libkipi8
 libkonq5
 libksba
@@ -456,13 +469,16 @@ liblazy1
 liblcms1
 libldap-2_4-2
 libldapcpp1
+liblensfun0
 liblirc_client0
 liblockdev1
 libloudmouth-1-0
+liblqr-1-0
 libltdl7
 liblua5_1
 liblzma5
 liblzo2-2
+libmarblewidget12
 libmng
 libmodman1
 libmodplug1
@@ -485,6 +501,7 @@ libnl
 libnscd
 libntfs-3g81
 libogg0
+libopencv2_3
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
@@ -514,7 +531,6 @@ libproxy1-config-kde4
 libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
 libpth20
-libpulse-browse0
 libpulse-mainloop-glib0
 libpulse0
 libpython2_7-1_0
@@ -591,6 +607,7 @@ libx86emu1
 libxcrypt
 libxine1
 libxine1-pulse
+libxmi0
 libxml2
 libxml2-python
 libxslt1
@@ -721,6 +738,7 @@ pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
+plasma-addons-marble
 plasmoid-networkmanagement
 plasmoid-quickaccess
 pm-profiler

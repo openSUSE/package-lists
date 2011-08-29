@@ -32,6 +32,7 @@ dosfstools
 e2fsprogs
 eject
 elfutils
+fbset
 file
 filesystem
 fillup
@@ -55,6 +56,7 @@ initviocons
 insserv
 iproute2
 iptables
+kbd
 kernel-default
 keyutils-libs
 kiwi-tools
@@ -117,6 +119,7 @@ libpcre0
 libpng14-14
 libpopt0
 libpth20
+libpython2_7-1_0
 libqt4
 libqt4-qt3support
 libqt4-sql
@@ -190,6 +193,7 @@ postfix
 procps
 psmisc
 pwdutils
+python-base
 release-notes-openSUSE
 rpm
 satsolver-tools
@@ -200,9 +204,11 @@ sysconfig
 sysfsutils
 syslinux
 syslog-service
+systemd
 sysvinit
 sysvinit-tools
 tar
+tcpd
 terminfo-base
 timezone
 udev

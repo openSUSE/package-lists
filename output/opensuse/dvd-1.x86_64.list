@@ -319,6 +319,7 @@ bundle-lang-kde-pt
 bundle-lang-kde-ru
 bundle-lang-kde-sv
 bundle-lang-kde-zh
+busybox
 bwidget
 bzip2
 ca-certificates
@@ -352,6 +353,8 @@ choqok
 cifs-utils
 circuslinux
 clamav
+claws-mail
+claws-mail-lang
 clicfs
 cln
 clucene-core
@@ -467,7 +470,6 @@ dialog
 diffstat
 diffutils
 digikam
-digikam-doc
 digikam-lang
 ding
 dirmngr
@@ -499,6 +501,7 @@ dvb
 dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
+ebtables
 ecj
 ed
 edict
@@ -789,9 +792,6 @@ gnome-media-lang
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-menus-devel
-gnome-menus-legacy
-gnome-menus-legacy-branding-upstream
-gnome-menus-legacy-lang
 gnome-nettool
 gnome-online-accounts
 gnome-packagekit
@@ -908,6 +908,7 @@ gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
 gtk-vnc-lang
+gtk-vnc2-lang
 gtk-xfce-engine
 gtk-xfce-engine-32bit
 gtk2-branding-openSUSE
@@ -1283,6 +1284,7 @@ kiwi-desc-isoboot
 kiwi-desc-netboot
 kiwi-desc-oemboot
 kiwi-desc-vmxboot
+kiwi-media-requires
 kiwi-pxeboot
 kiwi-templates
 kiwi-tools
@@ -1658,6 +1660,7 @@ libesd-devel
 libesd0
 libesd0-32bit
 libesmtp
+libetpan13
 libev4
 libevent-2_0-5
 libevtlog0
@@ -1861,6 +1864,7 @@ libgthread-2_0-0-32bit
 libgtk-2_0-0
 libgtk-2_0-0-32bit
 libgtk-3-0
+libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
 libgtkhtml-4_0-0
 libgtkhtml-editor-4_0-0
@@ -1929,6 +1933,8 @@ libjpeg62
 libjpeg62-32bit
 libjpeg62-devel
 libjson-glib-1_0-0
+libjson0
+libjson0-32bit
 libkate1
 libkcddb4
 libkcompactdisc4
@@ -1990,6 +1996,7 @@ libm17n0
 libm17n0-32bit
 libmal
 libmal-devel
+libmarblewidget12
 libmcrypt
 libmemphis-0_2-0
 libmenu-cache1
@@ -2036,6 +2043,7 @@ libncurses6-32bit
 libneon-devel
 libneon27
 libnet1
+libnetcf1
 libnetpbm10
 libnettle4
 libnice10
@@ -2161,7 +2169,6 @@ libproxy1-pacrunner-webkit
 libpst4
 libpt2_6_7
 libpth20
-libpulse-browse0
 libpulse-devel
 libpulse-mainloop-glib0
 libpulse0
@@ -2323,6 +2330,7 @@ librsvg-2-2
 librsvg-devel
 librsync
 libsamplerate
+libsamplerate-32bit
 libsatsolver-devel
 libschroedinger-1_0-0
 libschroedinger-1_0-0-32bit
@@ -2461,6 +2469,9 @@ libvala-0_14-0
 libvamp-hostsdk3
 libvdeplug3
 libvdpau1
+libvirt
+libvirt-client
+libvirt-python
 libvisual
 libvisual-32bit
 libvisual-devel
@@ -2541,6 +2552,7 @@ libxslt-devel-32bit
 libxslt-python
 libxslt1
 libxslt1-32bit
+libyajl2
 libyelp0
 libzio
 libzip2
@@ -3404,6 +3416,7 @@ python-goocanvas
 python-gstreamer-0_10
 python-gtk
 python-gtk-devel
+python-gtk-vnc
 python-gtksourceview
 python-gtop
 python-httplib2
@@ -3446,6 +3459,7 @@ python-totem
 python-twisted
 python-urlgrabber
 python-virtualbox
+python-vte
 python-webkitgtk
 python-wnck
 python-wxWidgets
@@ -3827,6 +3841,7 @@ tv-common
 tv-fonts
 udev
 udev-configure-printer
+udhcp
 udisks
 ufraw
 ufraw-lang
@@ -3881,7 +3896,9 @@ vim-data
 vinagre
 vinagre-lang
 vino
+virt-manager
 virt-utils
+virt-viewer
 virtualbox
 virtualbox-guest-kmp-default
 virtualbox-guest-kmp-desktop
@@ -3895,6 +3912,7 @@ virtuoso-server
 vlan
 vlgothic
 vlock
+vm-install
 vmware-guest-kmp-default
 vmware-guest-kmp-desktop
 vobject
