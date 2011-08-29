@@ -234,6 +234,8 @@ binutils-devel
 biosdevname
 bison
 bitstream-vera
+blender
+blender-doc
 blinken
 bluedevil
 bluedevil-lang
@@ -344,7 +346,6 @@ bytelist
 bzip2
 ca-certificates
 ca-certificates-mozilla
-cabextract
 cairo-devel
 calibre
 canberra-gtk-play
@@ -375,8 +376,6 @@ cifs-utils
 circuslinux
 clamav
 classpathx-mail-javadoc
-claws-mail
-claws-mail-lang
 clicfs
 clisp
 cln
@@ -515,7 +514,6 @@ dvb
 dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
-ebtables
 ecj
 ed
 edict
@@ -905,7 +903,6 @@ gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
 gtk-vnc-lang
-gtk-vnc2-lang
 gtk-xfce-engine
 gtk2-branding-openSUSE
 gtk2-data
@@ -1430,6 +1427,7 @@ libIlmImf6
 libMagick++4
 libMagickCore4
 libMagickWand4
+libOpenCOLLADA0
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -1632,7 +1630,6 @@ liberation-fonts
 libesd-devel
 libesd0
 libesmtp
-libetpan13
 libev4
 libevent-2_0-5
 libevtlog0
@@ -1763,8 +1760,7 @@ libgnomeui-doc
 libgnomeui-lang
 libgnutls-devel
 libgnutls-extra-devel
-libgnutls-extra26
-libgnutls26
+libgnutls-extra28
 libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-0
@@ -1805,7 +1801,6 @@ libgstvdp-0_10-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
 libgtkhtml-4_0-0
 libgtkhtml-editor-4_0-0
@@ -1960,7 +1955,6 @@ libncurses6
 libneon-devel
 libneon27
 libnet1
-libnetcf1
 libnetpbm10
 libnettle4
 libnice10
@@ -2069,12 +2063,12 @@ libpulse-devel
 libpulse-mainloop-glib0
 libpulse0
 libpurple
-libpurple-branding-openSUSE
 libpurple-devel
 libpurple-meanwhile
 libpurple-tcl
 libpyglib-gi-2_0-python0
 libpython2_7-1_0
+libpython3_2mu1_0
 libqalculate5
 libqca2
 libqca2-devel
@@ -2106,6 +2100,8 @@ librasqal2
 libraw1394-11
 libraw1394-devel
 libraw2
+librcc0
+librcd0
 librcps0
 libreadline-java
 libreadline6
@@ -2327,9 +2323,6 @@ libvala-0_14-0
 libvamp-hostsdk3
 libvdeplug3
 libvdpau1
-libvirt
-libvirt-client
-libvirt-python
 libvisual
 libvisual-devel
 libvmtools0
@@ -2399,7 +2392,6 @@ libxmmsclient6
 libxslt-devel
 libxslt-python
 libxslt1
-libyajl2
 libyelp0
 libzio
 libzip2
@@ -3257,7 +3249,6 @@ python-goocanvas
 python-gstreamer-0_10
 python-gtk
 python-gtk-devel
-python-gtk-vnc
 python-gtksourceview
 python-gtop
 python-httplib2
@@ -3300,7 +3291,6 @@ python-totem
 python-twisted
 python-urlgrabber
 python-virtualbox
-python-vte
 python-webkitgtk
 python-wnck
 python-wxWidgets
@@ -3310,6 +3300,7 @@ python-xlib
 python-xml
 python-zopeinterface
 python-zypp
+python3-base
 qdox
 qemu
 qinternet
@@ -3326,6 +3317,7 @@ qwebyast
 radvd
 raptor
 rarpd
+rcc-runtime
 rcs
 rdesktop
 re2c
@@ -3697,7 +3689,6 @@ tv-common
 tv-fonts
 udev
 udev-configure-printer
-udhcp
 udisks
 ufraw
 ufraw-lang
@@ -3747,9 +3738,7 @@ vim-data
 vinagre
 vinagre-lang
 vino
-virt-manager
 virt-utils
-virt-viewer
 virtualbox
 virtualbox-guest-kmp-default
 virtualbox-guest-kmp-desktop
@@ -3763,7 +3752,6 @@ virtuoso-server
 vlan
 vlgothic
 vlock
-vm-install
 vmware-guest-kmp-default
 vmware-guest-kmp-desktop
 vobject
@@ -3816,9 +3804,6 @@ webyast-users-ws
 wget
 whois
 wiggle
-wine
-wine-32bit
-wine-gecko
 wireless-regdb
 wireless-tools
 wireshark
