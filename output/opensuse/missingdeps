@@ -1,5 +1,3 @@
-can't install MyODBC-unixODBC-5.1.8-2.11.i586:
-  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.11.i586
 can't install arista-lang-0.9.7-1.1.noarch:
   package arista-lang-0.9.7-1.1.noarch requires arista = 0.9.7, but none of the providers can be installed
   nothing provides hal needed by arista-0.9.7-1.1.noarch
@@ -383,6 +381,8 @@ can't install mcal-0.7-269.4.i586:
   nothing provides libmcal.so needed by mcal-0.7-269.4.i586
 can't install monotone-0.99.1-1.3.i586:
   nothing provides libbotan-1.8.2.so needed by monotone-0.99.1-1.3.i586
+can't install MyODBC-unixODBC-5.1.8-2.11.i586:
+  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.11.i586
 can't install mysql-workbench-5.2.31-5.1.i586:
   nothing provides libmysqlclient_r.so.16 needed by mysql-workbench-5.2.31-5.1.i586
   nothing provides libmysqlclient_r.so.16(libmysqlclient_16) needed by mysql-workbench-5.2.31-5.1.i586
@@ -447,19 +447,19 @@ can't install pino-0.2.11-9.2.i586:
   nothing provides libnotify.so.1 needed by pino-0.2.11-9.2.i586
 can't install ptpd-1.0.0-12.4.i586:
   nothing provides /usr/bin/octave needed by ptpd-1.0.0-12.4.i586
+can't install python-kombu-1.1.6-2.2.noarch:
+  nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
 can't install python-Paste-1.7.5.1-2.1.noarch:
   nothing provides python-flup needed by python-Paste-1.7.5.1-2.1.noarch
   nothing provides python-openid needed by python-Paste-1.7.5.1-2.1.noarch
-can't install python-kombu-1.1.6-2.2.noarch:
-  nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
 can't install python-twisted-doc-10.2.0-14.4.i586:
   nothing provides /usr/bin/python2.2 needed by python-twisted-doc-10.2.0-14.4.i586
 can't install q4wine-0.121-2.4.i586:
   package q4wine-0.121-2.4.i586 requires wine, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
+  package wine-1.3.26-1.4.i586 requires libwine.so.1, but none of the providers can be installed
+  package wine-1.3.26-1.4.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
+  package wine-1.3.26-1.4.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
 can't install seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch:
   package seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch requires seahorse-plugins = 2.30.1.git.20110502, but none of the providers can be installed
   nothing provides libcryptui.so.0 needed by seahorse-plugins-2.30.1.git.20110502-2.3.i586
@@ -474,30 +474,28 @@ can't install sobby-0.4.7-8.3.i586:
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by net6-1.3.13-2.5.i586
 can't install stardict-3.0.1-71.2.i586:
   nothing provides libgucharmap.so.7 needed by stardict-3.0.1-71.2.i586
+can't install webyast-reboot-ws-0.2.3-2.20.noarch:
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
 can't install webyast-reboot-ws-testsuite-0.2.3-2.20.noarch:
   package webyast-reboot-ws-testsuite-0.2.3-2.20.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
   nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
-can't install webyast-reboot-ws-0.2.3-2.20.noarch:
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
-can't install wine-32bit-1.3.26-1.3.i586:
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
-can't install wine-devel-1.3.26-1.3.i586:
-  package wine-devel-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-devel-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
+can't install wine-32bit-1.3.26-1.4.i586:
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
+can't install wine-devel-1.3.26-1.4.i586:
+  package wine-devel-1.3.26-1.4.i586 requires libwine.so.1, but none of the providers can be installed
+  package wine-devel-1.3.26-1.4.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
 can't install wine-gecko-1.2.0-3.2.noarch:
   package wine-gecko-1.2.0-3.2.noarch requires wine, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
-can't install wine-1.3.26-1.3.i586:
-  package wine-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
-can't install MyODBC-unixODBC-5.1.8-2.11.x86_64:
-  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.11.x86_64
+  package wine-1.3.26-1.4.i586 requires libwine.so.1, but none of the providers can be installed
+  package wine-1.3.26-1.4.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
+  package wine-1.3.26-1.4.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
+can't install wine-1.3.26-1.4.i586:
+  package wine-1.3.26-1.4.i586 requires libwine.so.1, but none of the providers can be installed
+  package wine-1.3.26-1.4.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
+  package wine-1.3.26-1.4.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
 can't install arista-lang-0.9.7-1.1.noarch:
   package arista-lang-0.9.7-1.1.noarch requires arista = 0.9.7, but none of the providers can be installed
   nothing provides hal needed by arista-0.9.7-1.1.noarch
@@ -891,6 +889,8 @@ can't install mcal-0.7-269.4.x86_64:
   nothing provides libmcal.so()(64bit) needed by mcal-0.7-269.4.x86_64
 can't install monotone-0.99.1-1.3.x86_64:
   nothing provides libbotan-1.8.2.so()(64bit) needed by monotone-0.99.1-1.3.x86_64
+can't install MyODBC-unixODBC-5.1.8-2.11.x86_64:
+  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.11.x86_64
 can't install mysql-workbench-5.2.31-5.1.x86_64:
   nothing provides libmysqlclient_r.so.16()(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
   nothing provides libmysqlclient_r.so.16(libmysqlclient_16)(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
@@ -955,21 +955,19 @@ can't install pino-0.2.11-9.2.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by pino-0.2.11-9.2.x86_64
 can't install ptpd-1.0.0-12.4.x86_64:
   nothing provides /usr/bin/octave needed by ptpd-1.0.0-12.4.x86_64
+can't install python3-32bit-3.2.1-2.1.x86_64:
+  nothing provides libpython3.2mu.so.1.0 needed by python3-32bit-3.2.1-2.1.x86_64
+can't install python-kombu-1.1.6-2.2.noarch:
+  nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
 can't install python-Paste-1.7.5.1-2.1.noarch:
   nothing provides python-flup needed by python-Paste-1.7.5.1-2.1.noarch
   nothing provides python-openid needed by python-Paste-1.7.5.1-2.1.noarch
-can't install python-kombu-1.1.6-2.2.noarch:
-  nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
 can't install python-twisted-doc-10.2.0-14.4.x86_64:
   nothing provides /usr/bin/python2.2 needed by python-twisted-doc-10.2.0-14.4.x86_64
-can't install python3-32bit-3.2.1-2.1.x86_64:
-  nothing provides libpython3.2mu.so.1.0 needed by python3-32bit-3.2.1-2.1.x86_64
 can't install q4wine-0.121-2.4.x86_64:
   package q4wine-0.121-2.4.x86_64 requires wine, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
+  package wine-1.3.26-1.4.x86_64 requires wine-32bit = 1.3.26, but none of the providers can be installed
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
 can't install seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch:
   package seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch requires seahorse-plugins = 2.30.1.git.20110502, but none of the providers can be installed
   nothing provides libcryptui.so.0()(64bit) needed by seahorse-plugins-2.30.1.git.20110502-2.3.x86_64
@@ -984,25 +982,22 @@ can't install sobby-0.4.7-8.3.x86_64:
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by net6-1.3.13-2.5.x86_64
 can't install stardict-3.0.1-71.2.x86_64:
   nothing provides libgucharmap.so.7()(64bit) needed by stardict-3.0.1-71.2.x86_64
+can't install webyast-reboot-ws-0.2.3-2.20.noarch:
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
 can't install webyast-reboot-ws-testsuite-0.2.3-2.20.noarch:
   package webyast-reboot-ws-testsuite-0.2.3-2.20.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
   nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
-can't install webyast-reboot-ws-0.2.3-2.20.noarch:
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
-can't install wine-32bit-1.3.26-1.3.i586:
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
-can't install wine-devel-1.3.26-1.3.i586:
-  package wine-devel-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-devel-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
+can't install wine-32bit-1.3.26-1.4.i586:
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
+can't install wine-devel-1.3.26-1.4.x86_64:
+  package wine-devel-1.3.26-1.4.x86_64 requires libwine.so.1()(64bit), but none of the providers can be installed
+  package wine-devel-1.3.26-1.4.x86_64 requires libwine.so.1(WINE_1.0)(64bit), but none of the providers can be installed
+  package wine-1.3.26-1.4.x86_64 requires wine-32bit = 1.3.26, but none of the providers can be installed
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
 can't install wine-gecko-1.2.0-3.2.noarch:
   package wine-gecko-1.2.0-3.2.noarch requires wine, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
-can't install wine-1.3.26-1.3.i586:
-  package wine-1.3.26-1.3.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.3.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.3.i586
+  package wine-1.3.26-1.4.x86_64 requires wine-32bit = 1.3.26, but none of the providers can be installed
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
+can't install wine-1.3.26-1.4.x86_64:
+  package wine-1.3.26-1.4.x86_64 requires wine-32bit = 1.3.26, but none of the providers can be installed
+  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
