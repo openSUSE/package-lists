@@ -55,7 +55,7 @@ for package in installation-images rpmlint-mini bundle-lang-common bundle-lang-k
     rm -f $dir/$package
   fi
 done
-find $dir -cmin +1500 -print0 | fgrep -v .old | xargs -0 --no-run-if-empty rm -v || true
+find $dir -cmin +1500 -print | fgrep -va .old | xargs --no-run-if-empty rm -v || true
 
 missingdeps=`sed -e 's,.*needed by ,,' $mdeps | sort -u`
 for i in $missingdeps; do
