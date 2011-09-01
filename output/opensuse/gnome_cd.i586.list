@@ -67,6 +67,7 @@ banshee-dmp-apple-devices
 banshee-dmp-mtp
 banshee-extensions-default
 bash
+bc
 bind-libs
 bind-utils
 bluez
@@ -133,6 +134,7 @@ dbus-1-x11
 dbus-sharp
 dbus-sharp-glib
 dconf
+dd_rescue
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -182,6 +184,7 @@ freeglut
 fuse
 gawk
 gbrainy
+gc
 gcalctool
 gconf-polkit
 gconf-sanity-check
@@ -211,6 +214,7 @@ ghostscript-x11
 giflib
 gimp
 gimp-branding-openSUSE
+gimp-help-browser
 gio-branding-openSUSE
 gio-sharp
 gkeyfile-sharp
@@ -375,6 +379,7 @@ libassuan0
 libatasmart4
 libatk-1_0-0
 libatkmm-1_6-1
+libatm1
 libatspi0
 libattr
 libaudit1
@@ -615,6 +620,7 @@ libncurses6
 libneon27
 libnetpbm10
 libnettle4
+libnfnetlink0
 libnice10
 libnl
 libnotify-tools
@@ -665,6 +671,7 @@ libpth20
 libpulse-mainloop-glib0
 libpulse0
 libpurple
+libpurple-branding-openSUSE
 libpurple-tcl
 libpyglib-gi-2_0-python0
 libpython2_7-1_0
@@ -716,7 +723,7 @@ libsmbclient0
 libsmbios2
 libsnapper1
 libsndfile
-libsnmp25
+libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb-client2
@@ -757,6 +764,8 @@ libtracker-sparql-0_11-0
 libudev0
 libunique-1_0-0
 libunique-3_0-0
+libunistring
+libunistring0
 libupower-glib1
 liburiparser1
 libusb-0_1-4
@@ -790,6 +799,7 @@ libxklavier16
 libxml2
 libxml2-python
 libxslt1
+libxtables7
 libyelp0
 libzio
 libzypp
@@ -898,7 +908,6 @@ pam_krb5
 pam_ldap
 pam_mount
 pango-tools
-papyon
 parted
 patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
@@ -967,8 +976,6 @@ portaudio
 postfix
 ppp
 pptp
-preload
-preload-kmp-default
 procps
 psmisc
 pullin-flash-player
@@ -990,7 +997,6 @@ python-brlapi
 python-cairo
 python-ccm
 python-compizconfig
-python-crypto
 python-cups
 python-cupshelpers
 python-gnome-menus
@@ -1001,17 +1007,14 @@ python-gobject2
 python-gstreamer-0_10
 python-gtk
 python-httplib2
-python-libproxy
 python-louis
 python-notify
 python-numpy
-python-openssl
 python-satsolver
 python-simplejson
 python-smbc
 python-smbios
 python-speechd
-python-telepathy
 python-urlgrabber
 python-wnck
 python-xdg
@@ -1071,7 +1074,6 @@ sysfsutils
 syslog-service
 system-config-printer
 systemd
-systemtap-runtime
 sysvinit
 sysvinit-tools
 t1lib
@@ -1079,7 +1081,6 @@ taglib-sharp
 tar
 tcl
 tcpd
-telepathy-butterfly
 telepathy-gabble
 telepathy-haze
 telepathy-idle

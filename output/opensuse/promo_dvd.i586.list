@@ -28,6 +28,7 @@ NetworkManager
 NetworkManager-devel
 NetworkManager-glib
 NetworkManager-gnome
+NetworkManager-kde4-devel
 NetworkManager-kde4-libs
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
@@ -65,7 +66,6 @@ acl
 acpica
 acpid
 adaptec-firmware
-aisleriot
 akonadi
 akonadi-runtime
 akregator
@@ -366,7 +366,6 @@ dhcp-relay
 dhcp-server
 dhcp-tools
 dhcpcd
-dhcpv6
 dialog
 diffstat
 diffutils
@@ -465,6 +464,7 @@ galculator
 gawk
 gbrainy
 gc
+gc-devel
 gcalctool
 gcc
 gcc-c++
@@ -1067,6 +1067,7 @@ libassuan0
 libatasmart4
 libatk-1_0-0
 libatkmm-1_6-1
+libatm1
 libatspi0
 libattica-devel
 libattica0
@@ -1226,6 +1227,7 @@ libexpat1
 libext2fs-devel
 libext2fs2
 libffi46
+libffi46-devel
 libfm
 libfm-gtk1
 libfm1
@@ -1611,6 +1613,7 @@ libpulse-devel
 libpulse-mainloop-glib0
 libpulse0
 libpurple
+libpurple-branding-openSUSE
 libpurple-devel
 libpurple-meanwhile
 libpurple-tcl
@@ -1764,7 +1767,7 @@ libsmi
 libsmi2
 libsnapper1
 libsndfile
-libsnmp25
+libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb-client2
@@ -1822,6 +1825,9 @@ libtracker-sparql-0_11-0
 libudev0
 libunique-1_0-0
 libunique-3_0-0
+libunistring
+libunistring-devel
+libunistring0
 libupower-glib1
 liburiparser1
 libusb-0_1-4
@@ -2387,9 +2393,6 @@ ppp
 ppp-userpass
 pptp
 prctl
-preload
-preload-kmp-default
-preload-kmp-desktop
 procinfo
 procmail
 procps
@@ -2418,7 +2421,6 @@ python-beautifulsoup
 python-bonobo
 python-brlapi
 python-cairo
-python-crypto
 python-cups
 python-cupshelpers
 python-curses
@@ -2449,6 +2451,7 @@ python-openssl
 python-opensync
 python-orbit
 python-pybluez
+python-pycrypto
 python-qt4
 python-rsvg
 python-satsolver
@@ -2549,6 +2552,7 @@ shared-mime-info
 sharutils
 sharutils-lang
 shotwell
+siga
 sil-charis
 sil-doulos
 silc-toolkit

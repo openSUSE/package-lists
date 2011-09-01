@@ -11,6 +11,7 @@ MozillaFirefox-branding-openSUSE
 MozillaFirefox-translations-common
 NetworkManager
 NetworkManager-glib
+NetworkManager-kde4-devel
 NetworkManager-kde4-libs
 NetworkManager-openvpn
 NetworkManager-openvpn-kde4
@@ -57,6 +58,7 @@ avahi
 awesfx
 b43-fwcutter
 bash
+bc
 bind-libs
 bind-utils
 bluez
@@ -108,6 +110,7 @@ dbus-1-glib
 dbus-1-python
 dbus-1-x11
 dconf
+dd_rescue
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -354,6 +357,7 @@ libassuan0
 libatasmart4
 libatk-1_0-0
 libatkmm-1_6-1
+libatm1
 libattica0
 libattr
 libaudit1
@@ -522,6 +526,7 @@ libncurses6
 libneon27
 libnetpbm10
 libnettle4
+libnfnetlink0
 libnl
 libnotify4
 libnscd
@@ -673,6 +678,7 @@ libxmi0
 libxml2
 libxml2-python
 libxslt1
+libxtables7
 libzio
 libzip2
 libzypp
@@ -702,6 +708,7 @@ metatheme-adwaita-common
 microcode_ctl
 mingetty
 mkinitrd
+mobile-broadband-provider-info
 module-init-tools
 moodbar
 mozilla-kde4-integration
@@ -824,8 +831,6 @@ portaudio
 postfix
 ppp
 pptp
-preload
-preload-kmp-desktop
 procps
 psmisc
 ptools
@@ -896,7 +901,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemtap-runtime
 sysvinit
 sysvinit-tools
 taglib

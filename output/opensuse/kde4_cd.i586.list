@@ -11,6 +11,7 @@ MozillaFirefox-branding-openSUSE
 MozillaFirefox-translations-common
 NetworkManager
 NetworkManager-glib
+NetworkManager-kde4-devel
 NetworkManager-kde4-libs
 NetworkManager-openvpn
 NetworkManager-openvpn-kde4
@@ -18,8 +19,6 @@ NetworkManager-pptp
 NetworkManager-pptp-kde4
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
-PTSans-fonts
-PTSerif-fonts
 PackageKit
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
@@ -49,7 +48,6 @@ ark
 aspell
 aspell-de
 aspell-en
-aspell-ru
 atmel-firmware
 attr
 audiofile
@@ -60,6 +58,7 @@ avahi
 awesfx
 b43-fwcutter
 bash
+bc
 bind-libs
 bind-utils
 bluez
@@ -71,10 +70,8 @@ branding-openSUSE
 btrfsprogs
 bundle-lang-common-de
 bundle-lang-common-en
-bundle-lang-common-ru
 bundle-lang-kde-de
 bundle-lang-kde-en
-bundle-lang-kde-ru
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -87,7 +84,6 @@ choqok
 cifs-utils
 cln
 clucene-core
-cm-unicode
 command-not-found
 coreutils
 cpio
@@ -114,6 +110,7 @@ dbus-1-glib
 dbus-1-python
 dbus-1-x11
 dconf
+dd_rescue
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -149,9 +146,7 @@ fillup
 findutils
 fontconfig
 fonts-config
-fonts-thryomanes
 foomatic-filters
-freefont
 freeglut
 gawk
 gconf-polkit
@@ -169,7 +164,6 @@ gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ggz-client-libs
-ghostscript-fonts-rus
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
@@ -257,7 +251,6 @@ kcolorchooser
 kde4-filesystem
 kde4-kgreeter-plugins
 kde4-l10n-de
-kde4-l10n-ru
 kdeartwork4-screensaver
 kdebase4
 kdebase4-libkonq
@@ -361,6 +354,7 @@ libassuan0
 libatasmart4
 libatk-1_0-0
 libatkmm-1_6-1
+libatm1
 libattica0
 libattr
 libaudit1
@@ -528,6 +522,7 @@ libncurses6
 libneon27
 libnetpbm10
 libnettle4
+libnfnetlink0
 libnl
 libnotify4
 libnscd
@@ -605,7 +600,6 @@ libreoffice-impress
 libreoffice-kde4
 libreoffice-l10n-de
 libreoffice-l10n-extras
-libreoffice-l10n-ru
 libreoffice-libs-core
 libreoffice-libs-extern
 libreoffice-libs-gui
@@ -680,6 +674,7 @@ libxmi0
 libxml2
 libxml2-python
 libxslt1
+libxtables7
 libzio
 libzip2
 libzypp
@@ -689,7 +684,6 @@ limal-nfs-server-perl
 limal-perl
 lirc
 lirc-remotes
-lobster-cyrillic-fonts
 lockdev
 login
 logrotate
@@ -709,6 +703,7 @@ metatheme-adwaita-common
 microcode_ctl
 mingetty
 mkinitrd
+mobile-broadband-provider-info
 module-init-tools
 moodbar
 mozilla-kde4-integration
@@ -736,8 +731,6 @@ ntfsprogs
 ntp
 numlockx
 okular
-oldstandard-fonts-otf
-oldstandard-fonts-ttf
 open-vm-tools
 open-vm-tools-gui
 openSUSE-build-key
@@ -832,8 +825,6 @@ portaudio
 postfix
 ppp
 pptp
-preload
-preload-kmp-default
 procps
 psmisc
 ptools
@@ -877,8 +868,6 @@ sed
 sg3_utils
 shared-desktop-ontologies
 shared-mime-info
-sil-charis
-sil-doulos
 smartmontools
 smbios-utils-python
 smolt
@@ -906,7 +895,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemtap-runtime
 sysvinit
 sysvinit-tools
 taglib
@@ -914,14 +902,10 @@ tar
 tcl
 tcpd
 terminfo-base
-terminus-font
-theano-fonts-otf
-theano-fonts-ttf
 tightvnc
 timezone
 translation-update
 translation-update-de
-translation-update-ru
 udev
 udisks
 ulimit
@@ -1063,7 +1047,6 @@ yast2-theme-openSUSE
 yast2-theme-openSUSE-Oxygen
 yast2-trans-de
 yast2-trans-en_US
-yast2-trans-ru
 yast2-trans-stats
 yast2-transfer
 yast2-tune

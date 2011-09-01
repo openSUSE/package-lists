@@ -117,6 +117,7 @@ libmount1
 libncurses5
 libncurses6
 libnettle4
+libnfnetlink0
 libnscd
 libntfs-3g81
 libopenssl1_0_0
@@ -151,6 +152,7 @@ libuuid1
 libx86emu1
 libxcrypt
 libxml2
+libxtables7
 libzio
 libzypp
 limal
@@ -185,6 +187,12 @@ pam
 pam-config
 pam-modules
 parted
+patterns-openSUSE-base
+patterns-openSUSE-minimal_base
+patterns-openSUSE-minimal_base-conflicts
+patterns-openSUSE-sw_management
+patterns-openSUSE-update_test
+patterns-openSUSE-yast2_install_wf
 pciutils
 pciutils-ids
 perl

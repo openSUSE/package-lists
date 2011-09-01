@@ -28,6 +28,7 @@ autoyast2-installation
 awesfx
 b43-fwcutter
 bash
+bc
 bind-libs
 bind-utils
 bluez-firmware
@@ -68,6 +69,7 @@ dbus-1
 dbus-1-glib
 dbus-1-x11
 dconf
+dd_rescue
 dejavu
 deltarpm
 desktop-data-openSUSE
@@ -198,6 +200,7 @@ libassuan0
 libatasmart4
 libatk-1_0-0
 libatkmm-1_6-1
+libatm1
 libattr
 libaudit1
 libaugeas0
@@ -303,6 +306,7 @@ libncurses5
 libncurses6
 libnetpbm10
 libnettle4
+libnfnetlink0
 libnl
 libnscd
 libntfs-3g81
@@ -381,6 +385,7 @@ libx86-1
 libx86emu1
 libxcrypt
 libxml2
+libxtables7
 libzio
 libzypp
 limal
@@ -497,8 +502,6 @@ portaudio
 postfix
 ppp
 pptp
-preload
-preload-kmp-default
 procps
 psmisc
 pullin-flash-player
@@ -544,7 +547,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemtap-runtime
 sysvinit
 sysvinit-tools
 tar

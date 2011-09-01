@@ -27,6 +27,7 @@ dbus-1-32bit
 dbus-1-devel-32bit
 dbus-1-glib-32bit
 device-mapper-32bit
+efibootmgr
 fam-32bit
 file-32bit
 flex-32bit
@@ -138,6 +139,7 @@ libgnome-32bit
 libgnome-keyring0-32bit
 libgnomecanvas-2-0-32bit
 libgnomeui-32bit
+libgnutls28-32bit
 libgobject-2_0-0-32bit
 libgomp46-32bit
 libgpg-error0-32bit
@@ -148,10 +150,10 @@ libgstinterfaces-0_10-0-32bit
 libgstreamer-0_10-0-32bit
 libgthread-2_0-0-32bit
 libgtk-2_0-0-32bit
+libhogweed2-32bit
 libibus2-32bit
 libidn-32bit
 libiec61883-32bit
-libieee1284-32bit
 libiniparser0-32bit
 libjack0-32bit
 libjasper1-32bit
@@ -171,6 +173,7 @@ libmpfr4-32bit
 libmysqlclient18-32bit
 libncurses5-32bit
 libncurses6-32bit
+libnettle4-32bit
 libnl-32bit
 libnl-devel-32bit
 libnscd-32bit
@@ -178,6 +181,7 @@ libnuma1
 libobjc46-32bit
 libogg0-32bit
 libopagent1-32bit
+libopenal1-soft-32bit
 libopencdk-devel-32bit
 libopencdk10-32bit
 libopenssl-devel-32bit
@@ -185,6 +189,7 @@ libopenssl0_9_8-32bit
 libopenssl1_0_0-32bit
 liborc-0_4-0-32bit
 libotf0-32bit
+libp11-kit0-32bit
 libpango-1_0-0-32bit
 libpciaccess0-32bit
 libpcre0-32bit
@@ -214,13 +219,11 @@ libsamplerate-32bit
 libschroedinger-1_0-0-32bit
 libselinux1-32bit
 libsemanage1-32bit
-libsensors4-32bit
 libsepol1-32bit
 libshout3-32bit
 libslang2-32bit
 libsmbclient0-32bit
 libsndfile-32bit
-libsnmp25-32bit
 libsoftokn3-32bit
 libsoup-2_4-1-32bit
 libsoup-devel-32bit
@@ -232,6 +235,7 @@ libstdc++46-32bit
 libstdc++46-devel-32bit
 libtag1-32bit
 libtalloc2-32bit
+libtasn1-3-32bit
 libtdb1-32bit
 libtheora0-32bit
 libtiff-devel-32bit
@@ -290,7 +294,6 @@ pam_mount-32bit
 pam_ssh-32bit
 pango-tools-32bit
 pciutils-32bit
-perl-32bit
 perl-base-32bit
 python-32bit
 python-base-32bit
@@ -300,7 +303,6 @@ rpm-32bit
 samba-32bit
 samba-client-32bit
 samba-winbind-32bit
-sane-backends-32bit
 scim-32bit
 scim-bridge-gtk-32bit
 sssd-32bit
@@ -321,7 +323,6 @@ xen-doc-pdf
 xen-kmp-default
 xen-kmp-desktop
 xen-libs-32bit
-xen-tools
 xine-ui-32bit
 xorg-x11-driver-video-32bit
 xorg-x11-libICE-32bit

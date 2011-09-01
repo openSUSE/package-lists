@@ -1,3 +1,14 @@
+can't install IPython-0.11-2.1.noarch:
+  nothing provides python-pyzmq > 2.1.4 needed by IPython-0.11-2.1.noarch
+can't install MyODBC-unixODBC-5.1.8-2.12.i586:
+  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.12.i586
+can't install accerciser-lang-3.1.4-1.1.noarch:
+  package accerciser-lang-3.1.4-1.1.noarch requires accerciser = 3.1.4, but none of the providers can be installed
+  package accerciser-3.1.4-1.1.i586 requires IPython, but none of the providers can be installed
+  nothing provides python-pyzmq > 2.1.4 needed by IPython-0.11-2.1.noarch
+can't install accerciser-3.1.4-1.1.i586:
+  package accerciser-3.1.4-1.1.i586 requires IPython, but none of the providers can be installed
+  nothing provides python-pyzmq > 2.1.4 needed by IPython-0.11-2.1.noarch
 can't install arista-lang-0.9.7-1.1.noarch:
   package arista-lang-0.9.7-1.1.noarch requires arista = 0.9.7, but none of the providers can be installed
   nothing provides hal needed by arista-0.9.7-1.1.noarch
@@ -282,25 +293,33 @@ can't install banshee-extension-telepathy-2.0.1-2.4.i586:
 can't install cmpi-bindings-perl-0.4.0-16.3.i586:
   nothing provides perl = 5.14.0 needed by cmpi-bindings-perl-0.4.0-16.3.i586
     (we have perl-5.14.1-3.17.i586)
-can't install coccinelle-0.2.5-5.6.i586:
-  nothing provides ocaml(ANSITerminal) = 3d0d1700618d8b3a4e4b2308f28cefb6 needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Ast_cocci) = c293c40ce3acb11ce9a14c175fcc4d00 needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Dumper) = 76126ba149caeb2d34f12e11187a9d4e needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Flag) = 522d7f86f1236405e53271ff74923515 needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Mapb) = 617c09a110cef9f040335b35078c7234 needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Oassoc_buffer) = cf6fbee4fcc6644a0a90f07da8eb6c7b needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Oassocb) = d873c4a1eeb6fa5c5333f8658c49d1db needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Oassoch) = 87f7dc2635e5a7ed1ab03b7cd5380ace needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Ograph2way) = 7442f647b0a74ed48a5c9361fc42ccc4 needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Osetb) = 8f21a0a4f771662673604ed92a237d79 needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Oseti) = a937e7661f510c17bfd21d4372507795 needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(SetPt) = b69c030e8ca717d556d3d9bd2a5d22fd needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Setb) = 93bdb588146a13126bfad4eab6c58206 needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Sexplib) = a990ea80438337d5407bbc0343c7236a needed by coccinelle-0.2.5-5.6.i586
-  nothing provides ocaml(Type_cocci) = d2ac146cbaf9b85e82dceb97f70c6391 needed by coccinelle-0.2.5-5.6.i586
-can't install csync2-1.34-6.5.i586:
-  nothing provides libgnutls-extra26 needed by csync2-1.34-6.5.i586
-  nothing provides libgnutls26 needed by csync2-1.34-6.5.i586
+can't install coccinelle-0.2.5-5.9.i586:
+  nothing provides ocaml(ANSITerminal) = 3d0d1700618d8b3a4e4b2308f28cefb6 needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Ast_cocci) = c293c40ce3acb11ce9a14c175fcc4d00 needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Dumper) = 76126ba149caeb2d34f12e11187a9d4e needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Flag) = 522d7f86f1236405e53271ff74923515 needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Mapb) = 617c09a110cef9f040335b35078c7234 needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Oassoc_buffer) = cf6fbee4fcc6644a0a90f07da8eb6c7b needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Oassocb) = d873c4a1eeb6fa5c5333f8658c49d1db needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Oassoch) = 87f7dc2635e5a7ed1ab03b7cd5380ace needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Ograph2way) = 7442f647b0a74ed48a5c9361fc42ccc4 needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Osetb) = 8f21a0a4f771662673604ed92a237d79 needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Oseti) = a937e7661f510c17bfd21d4372507795 needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(SetPt) = b69c030e8ca717d556d3d9bd2a5d22fd needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Setb) = 93bdb588146a13126bfad4eab6c58206 needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Sexplib) = a990ea80438337d5407bbc0343c7236a needed by coccinelle-0.2.5-5.9.i586
+  nothing provides ocaml(Type_cocci) = d2ac146cbaf9b85e82dceb97f70c6391 needed by coccinelle-0.2.5-5.9.i586
+can't install collectd-plugin-snmp-4.10.2-5.5.i586:
+  nothing provides libnetsnmp.so.25 needed by collectd-plugin-snmp-4.10.2-5.5.i586
+can't install collectd-plugins-all-4.10.2-5.5.i586:
+  package collectd-plugins-all-4.10.2-5.5.i586 requires collectd-plugin-snmp = 4.10.2-5.5, but none of the providers can be installed
+  nothing provides libnetsnmp.so.25 needed by collectd-plugin-snmp-4.10.2-5.5.i586
+can't install csync2-1.34-6.6.i586:
+  nothing provides libgnutls-extra26 needed by csync2-1.34-6.6.i586
+  nothing provides libgnutls26 needed by csync2-1.34-6.6.i586
+can't install eric-4.4.15-2.2.i586:
+  package eric-4.4.15-2.2.i586 requires python-qscintilla >= 2.4.5, but none of the providers can be installed
+  nothing provides libqscintilla2.so.5 needed by python-qscintilla-2.4.5-4.4.i586
 can't install gedit-plugin-valencia-0.3.0-7.1.i586:
   nothing provides libvala-0.10.so.0 needed by gedit-plugin-valencia-0.3.0-7.1.i586
 can't install gnome-main-menu-lang-0.9.15-15.1.noarch:
@@ -349,18 +368,110 @@ can't install horde3-mimp-1.1.4-1.1.noarch:
   nothing provides /usr/bin/php needed by horde3-imp-4.3.10-1.1.noarch
 can't install horde3-turba-2.3.6-1.1.noarch:
   nothing provides /usr/bin/php needed by horde3-turba-2.3.6-1.1.noarch
+can't install kajongg-4.7.0-4.1.i586:
+  nothing provides python-twisted needed by kajongg-4.7.0-4.1.i586
 can't install kio_sysinfo-branding-upstream-11.4-8.1.noarch:
   package kio_sysinfo-12.1-43.1.i586 requires kio_sysinfo-branding = 12.1, but none of the providers can be installed
   package kio_sysinfo-branding-upstream-11.4-8.1.noarch requires kio_sysinfo, but none of the providers can be installed
   package kio_sysinfo-branding-openSUSE-12.1-43.1.i586 conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-upstream-11.4-8.1.noarch
   package kio_sysinfo-branding-upstream-11.4-8.1.noarch conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-openSUSE-12.1-43.1.i586
+can't install ldtp-2.1.1-3.2.noarch:
+  nothing provides python-twisted-web needed by ldtp-2.1.1-3.2.noarch
 can't install libobby-0_4-1-0.4.7-10.4.i586:
   package libobby-0_4-1-0.4.7-10.4.i586 requires libnet6-1.3.so.0, but none of the providers can be installed
   nothing provides libgnutls.so.26 needed by net6-1.3.13-2.5.i586
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by net6-1.3.13-2.5.i586
-can't install libpurple-branding-openSUSE-12.1-2.5.noarch:
-  nothing provides libpurple = 2.10.0-7.1 needed by libpurple-branding-openSUSE-12.1-2.5.noarch
-    (we have libpurple-2.10.0-7.2.i586)
+can't install libreoffice-languagetool-ca-1.4-2.2.noarch:
+  package libreoffice-languagetool-ca-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-de-1.4-2.2.noarch:
+  package libreoffice-languagetool-de-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-en-1.4-2.2.noarch:
+  package libreoffice-languagetool-en-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-es-1.4-2.2.noarch:
+  package libreoffice-languagetool-es-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-fr-1.4-2.2.noarch:
+  package libreoffice-languagetool-fr-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-gl-1.4-2.2.noarch:
+  package libreoffice-languagetool-gl-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-it-1.4-2.2.noarch:
+  package libreoffice-languagetool-it-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-km-1.4-2.2.noarch:
+  package libreoffice-languagetool-km-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-nl-1.4-2.2.noarch:
+  package libreoffice-languagetool-nl-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-pl-1.4-2.2.noarch:
+  package libreoffice-languagetool-pl-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-ro-1.4-2.2.noarch:
+  package libreoffice-languagetool-ro-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-ru-1.4-2.2.noarch:
+  package libreoffice-languagetool-ru-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-sk-1.4-2.2.noarch:
+  package libreoffice-languagetool-sk-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-sv-1.4-2.2.noarch:
+  package libreoffice-languagetool-sv-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install libreoffice-languagetool-1.4-2.2.noarch:
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.i586)
+can't install lilypond-2.12.3-10.2.i586:
+  nothing provides libguile.so.17 needed by lilypond-2.12.3-10.2.i586
 can't install lxappearance-obconf-0.0.1-2.2.i586:
   nothing provides libobparser.so.21 needed by lxappearance-obconf-0.0.1-2.2.i586
   nothing provides libobrender.so.21 needed by lxappearance-obconf-0.0.1-2.2.i586
@@ -377,12 +488,10 @@ can't install mail-notification-5.4-5.1.i586:
   nothing provides libgtkhtml-3.14.so.19 needed by mail-notification-5.4-5.1.i586
   nothing provides libgtkhtml-editor-3.14.so.0 needed by mail-notification-5.4-5.1.i586
   nothing provides libnotify.so.1 needed by mail-notification-5.4-5.1.i586
-can't install mcal-0.7-269.4.i586:
-  nothing provides libmcal.so needed by mcal-0.7-269.4.i586
+can't install mcal-0.7-269.5.i586:
+  nothing provides libmcal.so needed by mcal-0.7-269.5.i586
 can't install monotone-0.99.1-1.3.i586:
   nothing provides libbotan-1.8.2.so needed by monotone-0.99.1-1.3.i586
-can't install MyODBC-unixODBC-5.1.8-2.11.i586:
-  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.11.i586
 can't install mysql-workbench-5.2.31-5.1.i586:
   nothing provides libmysqlclient_r.so.16 needed by mysql-workbench-5.2.31-5.1.i586
   nothing provides libmysqlclient_r.so.16(libmysqlclient_16) needed by mysql-workbench-5.2.31-5.1.i586
@@ -403,8 +512,8 @@ can't install net6-lang-1.3.13-2.5.noarch:
 can't install net6-1.3.13-2.5.i586:
   nothing provides libgnutls.so.26 needed by net6-1.3.13-2.5.i586
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by net6-1.3.13-2.5.i586
-can't install netacct-0.71-643.4.i586:
-  nothing provides /pkg/utils/bin/perl5.002 needed by netacct-0.71-643.4.i586
+can't install netacct-0.71-643.5.i586:
+  nothing provides /pkg/utils/bin/perl5.002 needed by netacct-0.71-643.5.i586
 can't install obby-devel-0.4.7-10.4.i586:
   package obby-devel-0.4.7-10.4.i586 requires net6-devel, but none of the providers can be installed
   package obby-devel-0.4.7-10.4.i586 requires pkgconfig(net6-1.3) >= 1.3.3, but none of the providers can be installed
@@ -422,44 +531,40 @@ can't install obby-0.4.7-10.4.i586:
   package libobby-0_4-1-0.4.7-10.4.i586 requires libnet6-1.3.so.0, but none of the providers can be installed
   nothing provides libgnutls.so.26 needed by net6-1.3.13-2.5.i586
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by net6-1.3.13-2.5.i586
-can't install openvas-manager-2.0.4-1.4.i586:
-  nothing provides libgnutls.so.26 needed by openvas-manager-2.0.4-1.4.i586
-  nothing provides libgnutls.so.26(GNUTLS_1_4) needed by openvas-manager-2.0.4-1.4.i586
 can't install openwsman-perl-2.2.3-9.4.i586:
   nothing provides perl = 5.14.0 needed by openwsman-perl-2.2.3-9.4.i586
     (we have perl-5.14.1-3.17.i586)
 can't install padevchooser-0.9.4-147.3.i586:
   nothing provides libpulse-browse.so.0 needed by padevchooser-0.9.4-147.3.i586
   nothing provides libpulse-browse.so.0(PULSE_0) needed by padevchooser-0.9.4-147.3.i586
-can't install patterns-openSUSE-minimal_base-conflicts-12.1-12.1.i586:
-  package yast2-installation-2.21.15-2.1.noarch requires systemd, but none of the providers can be installed
-  package patterns-openSUSE-yast2_basis-12.1-12.1.i586 requires yast2-installation, but none of the providers can be installed
-  package systemd-33-18.1.i586 requires /usr/bin/python, but none of the providers can be installed
-  package patterns-openSUSE-minimal_base-conflicts-12.1-12.1.i586 requires patterns-openSUSE-yast2_basis, but none of the providers can be installed
-  package patterns-openSUSE-minimal_base-conflicts-12.1-12.1.i586 conflicts with python-base provided by python-base-2.7.1-12.2.i586
-can't install php5-redland-1.0.12-7.6.i586:
-  nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.6.i586
+can't install papyon-0.5.5-4.2.noarch:
+  nothing provides python-openssl needed by papyon-0.5.5-4.2.noarch
+can't install php5-redland-1.0.12-7.7.i586:
+  nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.7.i586
     (we have php5-5.3.6.201105291701-1.1.i586)
+can't install php5-snmp-5.3.6.201105291701-1.1.i586:
+  nothing provides libnetsnmp.so.25 needed by php5-snmp-5.3.6.201105291701-1.1.i586
 can't install pino-lang-0.2.11-9.2.noarch:
   package pino-lang-0.2.11-9.2.noarch requires pino = 0.2.11, but none of the providers can be installed
   nothing provides libnotify.so.1 needed by pino-0.2.11-9.2.i586
 can't install pino-0.2.11-9.2.i586:
   nothing provides libnotify.so.1 needed by pino-0.2.11-9.2.i586
-can't install ptpd-1.0.0-12.4.i586:
-  nothing provides /usr/bin/octave needed by ptpd-1.0.0-12.4.i586
-can't install python-kombu-1.1.6-2.2.noarch:
-  nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
-can't install python-Paste-1.7.5.1-2.1.noarch:
-  nothing provides python-flup needed by python-Paste-1.7.5.1-2.1.noarch
-  nothing provides python-openid needed by python-Paste-1.7.5.1-2.1.noarch
-can't install python-twisted-doc-10.2.0-14.4.i586:
-  nothing provides /usr/bin/python2.2 needed by python-twisted-doc-10.2.0-14.4.i586
-can't install q4wine-0.121-2.4.i586:
-  package q4wine-0.121-2.4.i586 requires wine, but none of the providers can be installed
-  package wine-1.3.26-1.4.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.4.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.4.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
+can't install ptpd-1.0.0-12.5.i586:
+  nothing provides /usr/bin/octave needed by ptpd-1.0.0-12.5.i586
+can't install python-avahi-gtk-0.6.30-4.3.i586:
+  package python-avahi-gtk-0.6.30-4.3.i586 requires python-avahi = 0.6.30, but none of the providers can be installed
+  nothing provides python-twisted needed by python-avahi-0.6.30-4.5.i586
+  nothing provides python-twisted-web needed by python-avahi-0.6.30-4.5.i586
+can't install python-avahi-0.6.30-4.5.i586:
+  nothing provides python-twisted needed by python-avahi-0.6.30-4.5.i586
+  nothing provides python-twisted-web needed by python-avahi-0.6.30-4.5.i586
+can't install python-coherence-0.6.6.2-6.3.noarch:
+  nothing provides python-twisted needed by python-coherence-0.6.6.2-6.3.noarch
+can't install python-qscintilla-2.4.5-4.4.i586:
+  nothing provides libqscintilla2.so.5 needed by python-qscintilla-2.4.5-4.4.i586
+can't install rosegarden-11.06-2.5.i586:
+  package rosegarden-11.06-2.5.i586 requires lilypond, but none of the providers can be installed
+  nothing provides libguile.so.17 needed by lilypond-2.12.3-10.2.i586
 can't install seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch:
   package seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch requires seahorse-plugins = 2.30.1.git.20110502, but none of the providers can be installed
   nothing provides libcryptui.so.0 needed by seahorse-plugins-2.30.1.git.20110502-2.3.i586
@@ -474,28 +579,30 @@ can't install sobby-0.4.7-8.3.i586:
   nothing provides libgnutls.so.26(GNUTLS_1_4) needed by net6-1.3.13-2.5.i586
 can't install stardict-3.0.1-71.2.i586:
   nothing provides libgucharmap.so.7 needed by stardict-3.0.1-71.2.i586
-can't install webyast-reboot-ws-0.2.3-2.20.noarch:
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
-can't install webyast-reboot-ws-testsuite-0.2.3-2.20.noarch:
-  package webyast-reboot-ws-testsuite-0.2.3-2.20.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
-can't install wine-32bit-1.3.26-1.4.i586:
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
-can't install wine-devel-1.3.26-1.4.i586:
-  package wine-devel-1.3.26-1.4.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-devel-1.3.26-1.4.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
-can't install wine-gecko-1.2.0-3.2.noarch:
-  package wine-gecko-1.2.0-3.2.noarch requires wine, but none of the providers can be installed
-  package wine-1.3.26-1.4.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.4.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.4.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
-can't install wine-1.3.26-1.4.i586:
-  package wine-1.3.26-1.4.i586 requires libwine.so.1, but none of the providers can be installed
-  package wine-1.3.26-1.4.i586 requires libwine.so.1(WINE_1.0), but none of the providers can be installed
-  package wine-1.3.26-1.4.i586 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
+can't install telepathy-butterfly-0.5.15-6.3.noarch:
+  package telepathy-butterfly-0.5.15-6.3.noarch requires papyon, but none of the providers can be installed
+  nothing provides python-openssl needed by papyon-0.5.5-4.2.noarch
+can't install trackballs-1.1.4-159.3.i586:
+  nothing provides libguile.so.17 needed by trackballs-1.1.4-159.3.i586
+can't install upnp-inspector-0.2.2-2.3.i586:
+  package upnp-inspector-0.2.2-2.3.i586 requires python-coherence, but none of the providers can be installed
+  nothing provides python-twisted needed by python-coherence-0.6.6.2-6.3.noarch
+can't install webyast-reboot-ws-testsuite-0.2.3-2.23.noarch:
+  package webyast-reboot-ws-testsuite-0.2.3-2.23.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.23.noarch
+can't install webyast-reboot-ws-0.2.3-2.23.noarch:
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.23.noarch
+can't install IPython-0.11-2.1.noarch:
+  nothing provides python-pyzmq > 2.1.4 needed by IPython-0.11-2.1.noarch
+can't install MyODBC-unixODBC-5.1.8-2.12.x86_64:
+  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.12.x86_64
+can't install accerciser-lang-3.1.4-1.1.noarch:
+  package accerciser-lang-3.1.4-1.1.noarch requires accerciser = 3.1.4, but none of the providers can be installed
+  package accerciser-3.1.4-1.1.x86_64 requires IPython, but none of the providers can be installed
+  nothing provides python-pyzmq > 2.1.4 needed by IPython-0.11-2.1.noarch
+can't install accerciser-3.1.4-1.1.x86_64:
+  package accerciser-3.1.4-1.1.x86_64 requires IPython, but none of the providers can be installed
+  nothing provides python-pyzmq > 2.1.4 needed by IPython-0.11-2.1.noarch
 can't install arista-lang-0.9.7-1.1.noarch:
   package arista-lang-0.9.7-1.1.noarch requires arista = 0.9.7, but none of the providers can be installed
   nothing provides hal needed by arista-0.9.7-1.1.noarch
@@ -780,25 +887,33 @@ can't install banshee-extension-telepathy-2.0.1-2.4.x86_64:
 can't install cmpi-bindings-perl-0.4.0-16.3.x86_64:
   nothing provides perl = 5.14.0 needed by cmpi-bindings-perl-0.4.0-16.3.x86_64
     (we have perl-5.14.1-3.17.x86_64)
-can't install coccinelle-0.2.5-5.6.x86_64:
-  nothing provides ocaml(ANSITerminal) = 3d0d1700618d8b3a4e4b2308f28cefb6 needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Ast_cocci) = c293c40ce3acb11ce9a14c175fcc4d00 needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Dumper) = 76126ba149caeb2d34f12e11187a9d4e needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Flag) = 522d7f86f1236405e53271ff74923515 needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Mapb) = 617c09a110cef9f040335b35078c7234 needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Oassoc_buffer) = cf6fbee4fcc6644a0a90f07da8eb6c7b needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Oassocb) = d873c4a1eeb6fa5c5333f8658c49d1db needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Oassoch) = 87f7dc2635e5a7ed1ab03b7cd5380ace needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Ograph2way) = 7442f647b0a74ed48a5c9361fc42ccc4 needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Osetb) = 8f21a0a4f771662673604ed92a237d79 needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Oseti) = a937e7661f510c17bfd21d4372507795 needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(SetPt) = b69c030e8ca717d556d3d9bd2a5d22fd needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Setb) = 93bdb588146a13126bfad4eab6c58206 needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Sexplib) = a990ea80438337d5407bbc0343c7236a needed by coccinelle-0.2.5-5.6.x86_64
-  nothing provides ocaml(Type_cocci) = d2ac146cbaf9b85e82dceb97f70c6391 needed by coccinelle-0.2.5-5.6.x86_64
-can't install csync2-1.34-6.5.x86_64:
-  nothing provides libgnutls-extra26 needed by csync2-1.34-6.5.x86_64
-  nothing provides libgnutls26 needed by csync2-1.34-6.5.x86_64
+can't install coccinelle-0.2.5-5.9.x86_64:
+  nothing provides ocaml(ANSITerminal) = 3d0d1700618d8b3a4e4b2308f28cefb6 needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Ast_cocci) = c293c40ce3acb11ce9a14c175fcc4d00 needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Dumper) = 76126ba149caeb2d34f12e11187a9d4e needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Flag) = 522d7f86f1236405e53271ff74923515 needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Mapb) = 617c09a110cef9f040335b35078c7234 needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Oassoc_buffer) = cf6fbee4fcc6644a0a90f07da8eb6c7b needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Oassocb) = d873c4a1eeb6fa5c5333f8658c49d1db needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Oassoch) = 87f7dc2635e5a7ed1ab03b7cd5380ace needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Ograph2way) = 7442f647b0a74ed48a5c9361fc42ccc4 needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Osetb) = 8f21a0a4f771662673604ed92a237d79 needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Oseti) = a937e7661f510c17bfd21d4372507795 needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(SetPt) = b69c030e8ca717d556d3d9bd2a5d22fd needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Setb) = 93bdb588146a13126bfad4eab6c58206 needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Sexplib) = a990ea80438337d5407bbc0343c7236a needed by coccinelle-0.2.5-5.9.x86_64
+  nothing provides ocaml(Type_cocci) = d2ac146cbaf9b85e82dceb97f70c6391 needed by coccinelle-0.2.5-5.9.x86_64
+can't install collectd-plugin-snmp-4.10.2-5.5.x86_64:
+  nothing provides libnetsnmp.so.25()(64bit) needed by collectd-plugin-snmp-4.10.2-5.5.x86_64
+can't install collectd-plugins-all-4.10.2-5.5.x86_64:
+  package collectd-plugins-all-4.10.2-5.5.x86_64 requires collectd-plugin-snmp = 4.10.2-5.5, but none of the providers can be installed
+  nothing provides libnetsnmp.so.25()(64bit) needed by collectd-plugin-snmp-4.10.2-5.5.x86_64
+can't install csync2-1.34-6.6.x86_64:
+  nothing provides libgnutls-extra26 needed by csync2-1.34-6.6.x86_64
+  nothing provides libgnutls26 needed by csync2-1.34-6.6.x86_64
+can't install eric-4.4.15-2.2.x86_64:
+  package eric-4.4.15-2.2.x86_64 requires python-qscintilla >= 2.4.5, but none of the providers can be installed
+  nothing provides libqscintilla2.so.5()(64bit) needed by python-qscintilla-2.4.5-4.4.x86_64
 can't install gedit-plugin-valencia-0.3.0-7.1.x86_64:
   nothing provides libvala-0.10.so.0()(64bit) needed by gedit-plugin-valencia-0.3.0-7.1.x86_64
 can't install gnome-main-menu-lang-0.9.15-15.1.noarch:
@@ -833,10 +948,10 @@ can't install gok-2.30.1-14.2.x86_64:
 can't install greenbone-security-assistant-2.0.1-2.1.x86_64:
   nothing provides libgnutls.so.26()(64bit) needed by greenbone-security-assistant-2.0.1-2.1.x86_64
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by greenbone-security-assistant-2.0.1-2.1.x86_64
-can't install gstreamer-0_10-plugins-bad-32bit-0.10.22-7.1.x86_64:
-  nothing provides libdirac_encoder.so.0 needed by gstreamer-0_10-plugins-bad-32bit-0.10.22-7.1.x86_64
-can't install gstreamer-0_10-plugins-gl-32bit-0.10.2-10.12.x86_64:
-  nothing provides libGLEW.so.1.6 needed by gstreamer-0_10-plugins-gl-32bit-0.10.2-10.12.x86_64
+can't install gstreamer-0_10-plugins-bad-32bit-0.10.22-7.4.x86_64:
+  nothing provides libdirac_encoder.so.0 needed by gstreamer-0_10-plugins-bad-32bit-0.10.22-7.4.x86_64
+can't install gstreamer-0_10-plugins-gl-32bit-0.10.2-10.13.x86_64:
+  nothing provides libGLEW.so.1.6 needed by gstreamer-0_10-plugins-gl-32bit-0.10.2-10.13.x86_64
 can't install gtkhtml314-sharp-2.26.0-17.1.x86_64:
   nothing provides libgtkhtml-3_14-19 needed by gtkhtml314-sharp-2.26.0-17.1.x86_64
 can't install horde3-dimp-1.1.7-1.1.noarch:
@@ -851,24 +966,116 @@ can't install horde3-mimp-1.1.4-1.1.noarch:
   nothing provides /usr/bin/php needed by horde3-imp-4.3.10-1.1.noarch
 can't install horde3-turba-2.3.6-1.1.noarch:
   nothing provides /usr/bin/php needed by horde3-turba-2.3.6-1.1.noarch
+can't install kajongg-4.7.0-4.1.x86_64:
+  nothing provides python-twisted needed by kajongg-4.7.0-4.1.x86_64
 can't install kio_sysinfo-branding-upstream-11.4-8.1.noarch:
   package kio_sysinfo-12.1-43.1.x86_64 requires kio_sysinfo-branding = 12.1, but none of the providers can be installed
   package kio_sysinfo-branding-upstream-11.4-8.1.noarch requires kio_sysinfo, but none of the providers can be installed
   package kio_sysinfo-branding-openSUSE-12.1-43.1.x86_64 conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-upstream-11.4-8.1.noarch
   package kio_sysinfo-branding-upstream-11.4-8.1.noarch conflicts with namespace:otherproviders(kio_sysinfo-branding) provided by kio_sysinfo-branding-openSUSE-12.1-43.1.x86_64
-can't install libgdata13-32bit-0.9.1-2.5.x86_64:
-  nothing provides liboauth.so.0 needed by libgdata13-32bit-0.9.1-2.5.x86_64
-can't install libgstgl-0_10-1-32bit-0.10.2-10.12.x86_64:
-  nothing provides libGLEW.so.1.6 needed by libgstgl-0_10-1-32bit-0.10.2-10.12.x86_64
+can't install ldtp-2.1.1-3.2.noarch:
+  nothing provides python-twisted-web needed by ldtp-2.1.1-3.2.noarch
+can't install libgdata13-32bit-0.9.1-2.6.x86_64:
+  nothing provides liboauth.so.0 needed by libgdata13-32bit-0.9.1-2.6.x86_64
+can't install libgstgl-0_10-1-32bit-0.10.2-10.13.x86_64:
+  nothing provides libGLEW.so.1.6 needed by libgstgl-0_10-1-32bit-0.10.2-10.13.x86_64
 can't install libobby-0_4-1-0.4.7-10.4.x86_64:
   package libobby-0_4-1-0.4.7-10.4.x86_64 requires libnet6-1.3.so.0()(64bit), but none of the providers can be installed
   nothing provides libgnutls.so.26()(64bit) needed by net6-1.3.13-2.5.x86_64
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by net6-1.3.13-2.5.x86_64
-can't install libotf-devel-32bit-0.9.12-7.2.x86_64:
-  nothing provides libotf-32bit = 0.9.12 needed by libotf-devel-32bit-0.9.12-7.2.x86_64
-can't install libpurple-branding-openSUSE-12.1-2.5.noarch:
-  nothing provides libpurple = 2.10.0-7.1 needed by libpurple-branding-openSUSE-12.1-2.5.noarch
-    (we have libpurple-2.10.0-7.2.x86_64)
+can't install libotf-devel-32bit-0.9.12-7.3.x86_64:
+  nothing provides libotf-32bit = 0.9.12 needed by libotf-devel-32bit-0.9.12-7.3.x86_64
+can't install libreoffice-languagetool-ca-1.4-2.2.noarch:
+  package libreoffice-languagetool-ca-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-de-1.4-2.2.noarch:
+  package libreoffice-languagetool-de-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-en-1.4-2.2.noarch:
+  package libreoffice-languagetool-en-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-es-1.4-2.2.noarch:
+  package libreoffice-languagetool-es-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-fr-1.4-2.2.noarch:
+  package libreoffice-languagetool-fr-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-gl-1.4-2.2.noarch:
+  package libreoffice-languagetool-gl-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-it-1.4-2.2.noarch:
+  package libreoffice-languagetool-it-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-km-1.4-2.2.noarch:
+  package libreoffice-languagetool-km-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-nl-1.4-2.2.noarch:
+  package libreoffice-languagetool-nl-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-pl-1.4-2.2.noarch:
+  package libreoffice-languagetool-pl-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-ro-1.4-2.2.noarch:
+  package libreoffice-languagetool-ro-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-ru-1.4-2.2.noarch:
+  package libreoffice-languagetool-ru-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-sk-1.4-2.2.noarch:
+  package libreoffice-languagetool-sk-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-sv-1.4-2.2.noarch:
+  package libreoffice-languagetool-sv-1.4-2.2.noarch requires libreoffice-languagetool = 1.4, but none of the providers can be installed
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install libreoffice-languagetool-1.4-2.2.noarch:
+  nothing provides libreoffice >= 3.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+  nothing provides libreoffice >= 3.4.2.4 needed by libreoffice-languagetool-1.4-2.2.noarch
+    (we have libreoffice-3.3.3.1-1.4.x86_64)
+can't install lilypond-2.12.3-10.7.x86_64:
+  nothing provides libguile.so.17()(64bit) needed by lilypond-2.12.3-10.7.x86_64
 can't install lxappearance-obconf-0.0.1-2.2.x86_64:
   nothing provides libobparser.so.21()(64bit) needed by lxappearance-obconf-0.0.1-2.2.x86_64
   nothing provides libobrender.so.21()(64bit) needed by lxappearance-obconf-0.0.1-2.2.x86_64
@@ -885,12 +1092,10 @@ can't install mail-notification-5.4-5.1.x86_64:
   nothing provides libgtkhtml-3.14.so.19()(64bit) needed by mail-notification-5.4-5.1.x86_64
   nothing provides libgtkhtml-editor-3.14.so.0()(64bit) needed by mail-notification-5.4-5.1.x86_64
   nothing provides libnotify.so.1()(64bit) needed by mail-notification-5.4-5.1.x86_64
-can't install mcal-0.7-269.4.x86_64:
-  nothing provides libmcal.so()(64bit) needed by mcal-0.7-269.4.x86_64
+can't install mcal-0.7-269.5.x86_64:
+  nothing provides libmcal.so()(64bit) needed by mcal-0.7-269.5.x86_64
 can't install monotone-0.99.1-1.3.x86_64:
   nothing provides libbotan-1.8.2.so()(64bit) needed by monotone-0.99.1-1.3.x86_64
-can't install MyODBC-unixODBC-5.1.8-2.11.x86_64:
-  nothing provides libmyodbc5 = 5.1.8 needed by MyODBC-unixODBC-5.1.8-2.11.x86_64
 can't install mysql-workbench-5.2.31-5.1.x86_64:
   nothing provides libmysqlclient_r.so.16()(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
   nothing provides libmysqlclient_r.so.16(libmysqlclient_16)(64bit) needed by mysql-workbench-5.2.31-5.1.x86_64
@@ -911,8 +1116,8 @@ can't install net6-lang-1.3.13-2.5.noarch:
 can't install net6-1.3.13-2.5.x86_64:
   nothing provides libgnutls.so.26()(64bit) needed by net6-1.3.13-2.5.x86_64
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by net6-1.3.13-2.5.x86_64
-can't install netacct-0.71-643.4.x86_64:
-  nothing provides /pkg/utils/bin/perl5.002 needed by netacct-0.71-643.4.x86_64
+can't install netacct-0.71-643.5.x86_64:
+  nothing provides /pkg/utils/bin/perl5.002 needed by netacct-0.71-643.5.x86_64
 can't install obby-devel-0.4.7-10.4.x86_64:
   package obby-devel-0.4.7-10.4.x86_64 requires net6-devel, but none of the providers can be installed
   package obby-devel-0.4.7-10.4.x86_64 requires pkgconfig(net6-1.3) >= 1.3.3, but none of the providers can be installed
@@ -930,44 +1135,42 @@ can't install obby-0.4.7-10.4.x86_64:
   package libobby-0_4-1-0.4.7-10.4.x86_64 requires libnet6-1.3.so.0()(64bit), but none of the providers can be installed
   nothing provides libgnutls.so.26()(64bit) needed by net6-1.3.13-2.5.x86_64
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by net6-1.3.13-2.5.x86_64
-can't install openvas-manager-2.0.4-1.4.x86_64:
-  nothing provides libgnutls.so.26()(64bit) needed by openvas-manager-2.0.4-1.4.x86_64
-  nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by openvas-manager-2.0.4-1.4.x86_64
 can't install openwsman-perl-2.2.3-9.4.x86_64:
   nothing provides perl = 5.14.0 needed by openwsman-perl-2.2.3-9.4.x86_64
     (we have perl-5.14.1-3.17.x86_64)
 can't install padevchooser-0.9.4-147.3.x86_64:
   nothing provides libpulse-browse.so.0()(64bit) needed by padevchooser-0.9.4-147.3.x86_64
   nothing provides libpulse-browse.so.0(PULSE_0)(64bit) needed by padevchooser-0.9.4-147.3.x86_64
-can't install patterns-openSUSE-minimal_base-conflicts-12.1-12.1.x86_64:
-  package yast2-installation-2.21.15-2.1.noarch requires systemd, but none of the providers can be installed
-  package patterns-openSUSE-yast2_basis-12.1-12.1.x86_64 requires yast2-installation, but none of the providers can be installed
-  package systemd-33-18.1.x86_64 requires /usr/bin/python, but none of the providers can be installed
-  package patterns-openSUSE-minimal_base-conflicts-12.1-12.1.x86_64 requires patterns-openSUSE-yast2_basis, but none of the providers can be installed
-  package patterns-openSUSE-minimal_base-conflicts-12.1-12.1.x86_64 conflicts with python-base provided by python-base-2.7.1-12.2.x86_64
-can't install php5-redland-1.0.12-7.6.x86_64:
-  nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.6.x86_64
+can't install papyon-0.5.5-4.2.noarch:
+  nothing provides python-openssl needed by papyon-0.5.5-4.2.noarch
+can't install php5-redland-1.0.12-7.7.x86_64:
+  nothing provides php5 >= 5.3.7-dev needed by php5-redland-1.0.12-7.7.x86_64
     (we have php5-5.3.6.201105291701-1.1.x86_64)
+can't install php5-snmp-5.3.6.201105291701-1.1.x86_64:
+  nothing provides libnetsnmp.so.25()(64bit) needed by php5-snmp-5.3.6.201105291701-1.1.x86_64
 can't install pino-lang-0.2.11-9.2.noarch:
   package pino-lang-0.2.11-9.2.noarch requires pino = 0.2.11, but none of the providers can be installed
   nothing provides libnotify.so.1()(64bit) needed by pino-0.2.11-9.2.x86_64
 can't install pino-0.2.11-9.2.x86_64:
   nothing provides libnotify.so.1()(64bit) needed by pino-0.2.11-9.2.x86_64
-can't install ptpd-1.0.0-12.4.x86_64:
-  nothing provides /usr/bin/octave needed by ptpd-1.0.0-12.4.x86_64
-can't install python3-32bit-3.2.1-2.1.x86_64:
-  nothing provides libpython3.2mu.so.1.0 needed by python3-32bit-3.2.1-2.1.x86_64
-can't install python-kombu-1.1.6-2.2.noarch:
-  nothing provides python-amqplib needed by python-kombu-1.1.6-2.2.noarch
-can't install python-Paste-1.7.5.1-2.1.noarch:
-  nothing provides python-flup needed by python-Paste-1.7.5.1-2.1.noarch
-  nothing provides python-openid needed by python-Paste-1.7.5.1-2.1.noarch
-can't install python-twisted-doc-10.2.0-14.4.x86_64:
-  nothing provides /usr/bin/python2.2 needed by python-twisted-doc-10.2.0-14.4.x86_64
-can't install q4wine-0.121-2.4.x86_64:
-  package q4wine-0.121-2.4.x86_64 requires wine, but none of the providers can be installed
-  package wine-1.3.26-1.4.x86_64 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
+can't install ptpd-1.0.0-12.5.x86_64:
+  nothing provides /usr/bin/octave needed by ptpd-1.0.0-12.5.x86_64
+can't install python-avahi-gtk-0.6.30-4.3.x86_64:
+  package python-avahi-gtk-0.6.30-4.3.x86_64 requires python-avahi = 0.6.30, but none of the providers can be installed
+  nothing provides python-twisted needed by python-avahi-0.6.30-4.5.x86_64
+  nothing provides python-twisted-web needed by python-avahi-0.6.30-4.5.x86_64
+can't install python-avahi-0.6.30-4.5.x86_64:
+  nothing provides python-twisted needed by python-avahi-0.6.30-4.5.x86_64
+  nothing provides python-twisted-web needed by python-avahi-0.6.30-4.5.x86_64
+can't install python-coherence-0.6.6.2-6.3.noarch:
+  nothing provides python-twisted needed by python-coherence-0.6.6.2-6.3.noarch
+can't install python-qscintilla-2.4.5-4.4.x86_64:
+  nothing provides libqscintilla2.so.5()(64bit) needed by python-qscintilla-2.4.5-4.4.x86_64
+can't install rosegarden-11.06-2.5.x86_64:
+  package rosegarden-11.06-2.5.x86_64 requires lilypond, but none of the providers can be installed
+  nothing provides libguile.so.17()(64bit) needed by lilypond-2.12.3-10.7.x86_64
+can't install sane-backends-32bit-1.0.22-13.9.x86_64:
+  nothing provides libnetsnmp.so.30 needed by sane-backends-32bit-1.0.22-13.9.x86_64
 can't install seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch:
   package seahorse-plugins-lang-2.30.1.git.20110502-2.3.noarch requires seahorse-plugins = 2.30.1.git.20110502, but none of the providers can be installed
   nothing provides libcryptui.so.0()(64bit) needed by seahorse-plugins-2.30.1.git.20110502-2.3.x86_64
@@ -982,22 +1185,18 @@ can't install sobby-0.4.7-8.3.x86_64:
   nothing provides libgnutls.so.26(GNUTLS_1_4)(64bit) needed by net6-1.3.13-2.5.x86_64
 can't install stardict-3.0.1-71.2.x86_64:
   nothing provides libgucharmap.so.7()(64bit) needed by stardict-3.0.1-71.2.x86_64
-can't install webyast-reboot-ws-0.2.3-2.20.noarch:
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
-can't install webyast-reboot-ws-testsuite-0.2.3-2.20.noarch:
-  package webyast-reboot-ws-testsuite-0.2.3-2.20.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
-  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.20.noarch
-can't install wine-32bit-1.3.26-1.4.i586:
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
-can't install wine-devel-1.3.26-1.4.x86_64:
-  package wine-devel-1.3.26-1.4.x86_64 requires libwine.so.1()(64bit), but none of the providers can be installed
-  package wine-devel-1.3.26-1.4.x86_64 requires libwine.so.1(WINE_1.0)(64bit), but none of the providers can be installed
-  package wine-1.3.26-1.4.x86_64 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
-can't install wine-gecko-1.2.0-3.2.noarch:
-  package wine-gecko-1.2.0-3.2.noarch requires wine, but none of the providers can be installed
-  package wine-1.3.26-1.4.x86_64 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
-can't install wine-1.3.26-1.4.x86_64:
-  package wine-1.3.26-1.4.x86_64 requires wine-32bit = 1.3.26, but none of the providers can be installed
-  nothing provides libgnutls.so.26 needed by wine-32bit-1.3.26-1.4.i586
+can't install telepathy-butterfly-0.5.15-6.3.noarch:
+  package telepathy-butterfly-0.5.15-6.3.noarch requires papyon, but none of the providers can be installed
+  nothing provides python-openssl needed by papyon-0.5.5-4.2.noarch
+can't install trackballs-1.1.4-159.3.x86_64:
+  nothing provides libguile.so.17()(64bit) needed by trackballs-1.1.4-159.3.x86_64
+can't install upnp-inspector-0.2.2-2.3.x86_64:
+  package upnp-inspector-0.2.2-2.3.x86_64 requires python-coherence, but none of the providers can be installed
+  nothing provides python-twisted needed by python-coherence-0.6.6.2-6.3.noarch
+can't install webyast-reboot-ws-testsuite-0.2.3-2.23.noarch:
+  package webyast-reboot-ws-testsuite-0.2.3-2.23.noarch requires webyast-reboot-ws = 0.2.3, but none of the providers can be installed
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.23.noarch
+can't install webyast-reboot-ws-0.2.3-2.23.noarch:
+  nothing provides hal needed by webyast-reboot-ws-0.2.3-2.23.noarch
+can't install xen-tools-4.1.1_06-1.2.x86_64:
+  nothing provides python-openssl needed by xen-tools-4.1.1_06-1.2.x86_64
