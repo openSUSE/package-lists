@@ -199,7 +199,6 @@ libasound2
 libassuan0
 libatasmart4
 libatk-1_0-0
-libatkmm-1_6-1
 libatm1
 libattr
 libaudit1
@@ -213,7 +212,6 @@ libbluetooth3
 libbz2-1
 libcairo-gobject2
 libcairo2
-libcairomm-1_0-1
 libcap-ng0
 libcap2
 libcares2
@@ -230,7 +228,6 @@ libdaemon0
 libdb-4_8
 libdconf0
 libdhash1
-libdnet1
 libdrm
 libdw1
 libelf1
@@ -255,9 +252,7 @@ libgdu-lang
 libgdu0
 libgimpprint
 libgio-2_0-0
-libgiomm-2_4-1
 libglib-2_0-0
-libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
@@ -272,11 +267,9 @@ libgssglue1
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtkmm-2_4-1
 libgudev-1_0-0
 libgvfscommon0
 libhogweed2
-libicu
 libidn
 libimobiledevice2
 libini_config2
@@ -307,7 +300,7 @@ libncurses6
 libnetpbm10
 libnettle4
 libnfnetlink0
-libnl
+libnl-1_1
 libnscd
 libntfs-3g81
 libogg0
@@ -315,7 +308,6 @@ libopenobex1
 libopenssl1_0_0
 libp11-kit0
 libpango-1_0-0
-libpangomm-1_4-1
 libparted0
 libpath_utils1
 libpcap1
@@ -349,7 +341,6 @@ libsamplerate
 libselinux1
 libsemanage1
 libsepol1
-libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
@@ -371,13 +362,11 @@ libtiff3
 libtirpc1
 libudev0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
 libustr-1_0-1
 libuuid1
-libvmtools0
 libvorbis0
 libvorbisenc2
 libwbclient0
@@ -421,8 +410,6 @@ mtools
 multipath-tools
 nano
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 net-tools
 netcat-openbsd
 netcfg
@@ -435,8 +422,6 @@ ntfsprogs
 ntp
 numlockx
 obex-data-server
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-x11
@@ -494,7 +479,6 @@ pinentry
 pkg-config
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 poppler-tools
@@ -547,7 +531,7 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-sysvinit
+systemd-sysvinit
 sysvinit-tools
 tar
 tcpd
@@ -569,10 +553,6 @@ utempter
 util-linux
 vim
 vim-base
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
-vmware-guest-kmp-default
 w3m
 wdiff
 wget

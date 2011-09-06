@@ -10,7 +10,7 @@ export EXPLICIT_UNAME=$2
 # call out architecture specifics
 for pat in toinstall/rest_*/requires toinstall/rest_*/recommends; do
   if test -f $pat; then
-    sh $RPM_SOURCE_DIR/preprocess $pat > t && mv t $pat
+    sh $RPM_SOURCE_DIR/preprocess $pat > tmp && mv tmp $pat
   fi
 done
 

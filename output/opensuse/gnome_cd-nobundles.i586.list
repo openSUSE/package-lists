@@ -332,8 +332,6 @@ gnome-user-docs-lang
 gnome-user-share
 gnome-user-share-lang
 gnome-version
-gnome-vfs2
-gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnome-web-photo-lang
@@ -355,7 +353,6 @@ gsettings-desktop-schemas-lang
 gstreamer-0_10
 gstreamer-0_10-lang
 gstreamer-0_10-libnice
-gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
@@ -427,7 +424,6 @@ iso-codes
 iso-codes-lang
 iw
 jfsutils
-jpackage-utils
 kbd
 kernel-default
 kernel-firmware
@@ -531,7 +527,6 @@ libdhash1
 libdirac_encoder0
 libdiscid1
 libdjvulibre21
-libdnet1
 libdotconf-1_0-0
 libdrm
 libdv4
@@ -642,7 +637,6 @@ libgtk-2_0-0
 libgtk-3-0
 libgtkhtml-4_0-0
 libgtkhtml-editor-4_0-0
-libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-0
 libgtkspell0
@@ -688,7 +682,6 @@ libldb1
 liblirc_client0
 liblockdev1
 liblouis2
-liblpsolve55
 libltdl7
 liblua5_1
 liblzma5
@@ -715,7 +708,7 @@ libnetpbm10
 libnettle4
 libnfnetlink0
 libnice10
-libnl
+libnl-1_1
 libnotify-tools
 libnotify4
 libnscd
@@ -780,27 +773,7 @@ librcd0
 libreadline6
 libref_array1
 libreiserfs
-libreoffice
-libreoffice-branding-openSUSE
-libreoffice-calc
-libreoffice-components
-libreoffice-draw
-libreoffice-filters
-libreoffice-gnome
-libreoffice-help-en-US
-libreoffice-hyphen
 libreoffice-icon-theme-tango
-libreoffice-impress
-libreoffice-l10n-de
-libreoffice-l10n-extras
-libreoffice-l10n-ru
-libreoffice-libs-core
-libreoffice-libs-extern
-libreoffice-libs-gui
-libreoffice-templates-labels-a4
-libreoffice-templates-labels-letter
-libreoffice-ure
-libreoffice-writer
 librest0
 librsvg-2-2
 libsamplerate
@@ -837,7 +810,6 @@ libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
 libstdc++46
-libstlport_gcc4
 libstorage3
 libsushi-1_0-0
 libtag1
@@ -863,7 +835,6 @@ libunique-3_0-0
 libunistring
 libunistring0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
@@ -875,7 +846,6 @@ libv4l2-0
 libv4lconvert0
 libvdpau1
 libvisual
-libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -961,7 +931,6 @@ multipath-tools
 mutter
 mutter-lang
 mx-lang
-myspell-american
 nano
 nano-lang
 nautilus
@@ -980,8 +949,6 @@ nautilus-totem
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
-ndiswrapper
-ndiswrapper-kmp-default
 net-tools
 netcat-openbsd
 netcfg
@@ -1002,8 +969,6 @@ obexd
 obexd-client
 oldstandard-fonts-otf
 oldstandard-fonts-ttf
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-dynamic-wallpaper
 openSUSE-release
@@ -1085,7 +1050,6 @@ pkcs11-helper
 pkg-config
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-gnome
@@ -1202,7 +1166,7 @@ syslog-service
 system-config-printer
 system-config-printer-lang
 systemd
-sysvinit
+systemd-sysvinit
 sysvinit-tools
 t1lib
 taglib-sharp
@@ -1269,10 +1233,6 @@ vim
 vim-base
 vino
 vino-lang
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
-vmware-guest-kmp-default
 vorbis-tools
 vorbis-tools-lang
 vpnc
@@ -1288,7 +1248,6 @@ wvdial
 wvstreams
 x11-input-fujitsu
 x11-tools
-xalan-j2
 xbrlapi
 xchat
 xchat-lang
@@ -1300,8 +1259,6 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-user-dirs-gtk-lang
 xdg-utils
-xerces-j2
-xerces-j2-xml-apis
 xfsdump
 xfsprogs
 xinetd

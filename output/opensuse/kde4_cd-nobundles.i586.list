@@ -200,8 +200,6 @@ gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-lang
 gnome-keyring-pam
-gnome-vfs2
-gnome-vfs2-lang
 gpart
 gpg2
 gpg2-lang
@@ -215,7 +213,6 @@ gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gstreamer-0_10
 gstreamer-0_10-lang
-gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good
@@ -267,7 +264,6 @@ ipw-firmware
 irda
 iw
 jfsutils
-jpackage-utils
 k3b
 k3b-lang
 kaddressbook
@@ -367,7 +363,6 @@ libFLAC++6
 libFLAC8
 libGLEW1_6
 libHX27
-libIDL-2-0
 libIlmImf6
 libMagickCore4
 libMagickWand4
@@ -388,7 +383,6 @@ libasound2
 libassuan0
 libatasmart4
 libatk-1_0-0
-libatkmm-1_6-1
 libatm1
 libattica0
 libattr
@@ -397,7 +391,6 @@ libaugeas0
 libavahi-client3
 libavahi-common3
 libavahi-core7
-libavahi-glib1
 libbabl-0_1-0
 libblkid1
 libblocxx6
@@ -406,7 +399,6 @@ libboost_program_options1_46_1
 libbz2-1
 libcairo-gobject2
 libcairo2
-libcairomm-1_0-1
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -435,7 +427,6 @@ libdhash1
 libdiscid1
 libdjvulibre21
 libdmtx0
-libdnet1
 libdrm
 libdvdread4
 libdw1
@@ -467,9 +458,7 @@ libgimpprint
 libgimpui-2_0-0
 libgio-2_0-0
 libgio-fam
-libgiomm-2_4-1
 libglib-2_0-0
-libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
@@ -494,11 +483,9 @@ libgstreamer-0_10-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtkmm-2_4-1
 libgudev-1_0-0
 libhogweed2
 libical0
-libicu
 libidn
 libilmbase6
 libimobiledevice2
@@ -537,7 +524,6 @@ libldb1
 liblirc_client0
 liblockdev1
 libloudmouth-1-0
-liblpsolve55
 libltdl7
 liblua5_1
 liblzma5
@@ -561,7 +547,7 @@ libneon27
 libnetpbm10
 libnettle4
 libnfnetlink0
-libnl
+libnl-1_1
 libnotify4
 libnscd
 libnsssharedhelper0
@@ -575,7 +561,6 @@ libp11-kit0
 libpackagekit-glib2-14
 libpackagekit-qt14
 libpango-1_0-0
-libpangomm-1_4-1
 libparted0
 libpath_utils1
 libpcap1
@@ -625,34 +610,13 @@ libreadline6
 libredland0
 libref_array1
 libreiserfs
-libreoffice
-libreoffice-branding-openSUSE
-libreoffice-calc
-libreoffice-components
-libreoffice-draw
-libreoffice-filters
-libreoffice-help-en-US
-libreoffice-hyphen
 libreoffice-icon-theme-oxygen
-libreoffice-impress
-libreoffice-kde4
-libreoffice-l10n-de
-libreoffice-l10n-extras
-libreoffice-l10n-ru
-libreoffice-libs-core
-libreoffice-libs-extern
-libreoffice-libs-gui
-libreoffice-templates-labels-a4
-libreoffice-templates-labels-letter
-libreoffice-ure
-libreoffice-writer
 librsvg-2-2
 libsamplerate
 libselinux1
 libsemanage1
 libsensors4
 libsepol1
-libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
@@ -669,7 +633,6 @@ libssh2-1
 libssh4
 libstartup-notification-1-0
 libstdc++46
-libstlport_gcc4
 libstorage3
 libstrigi0
 libtag-extras1
@@ -685,7 +648,6 @@ libtiff3
 libtirpc1
 libudev0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd1
@@ -696,7 +658,6 @@ libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvisual
-libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -707,7 +668,6 @@ libx86-1
 libx86emu1
 libxcrypt
 libxine1
-libxine1-gnome-vfs
 libxine1-pulse
 libxmi0
 libxml2
@@ -755,12 +715,9 @@ mozilla-nss-certs
 mpt-firmware
 mtools
 multipath-tools
-myspell-american
 nano
 nano-lang
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 net-tools
 netcat-openbsd
 netcfg
@@ -776,8 +733,6 @@ numlockx
 okular
 oldstandard-fonts-otf
 oldstandard-fonts-ttf
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-kde
@@ -787,7 +742,6 @@ openssh
 openssh-askpass
 openssl
 openvpn
-orbit2
 oxygen-gtk
 oxygen-icon-theme
 p7zip
@@ -860,7 +814,6 @@ plasmoid-networkmanagement
 plasmoid-quickaccess
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-kde-agent-1
@@ -943,7 +896,7 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-sysvinit
+systemd-sysvinit
 sysvinit-tools
 taglib
 tar
@@ -984,12 +937,8 @@ util-linux-lang
 vcdimager
 vim
 vim-base
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
-vmware-guest-kmp-default
 vorbis-tools
 vorbis-tools-lang
 vpnc
@@ -1005,12 +954,9 @@ wvdial
 wvstreams
 x11-input-fujitsu
 x11-tools
-xalan-j2
 xdg-menu
 xdg-user-dirs
 xdg-utils
-xerces-j2
-xerces-j2-xml-apis
 xfsdump
 xfsprogs
 xinetd
