@@ -53,9 +53,7 @@
 <install kind='pattern' name='kde4_games'/>
 
 <install kind='package' name='kernel-default'/>
-<install kind='package' name='preload-kmp-default'/>
 <install kind='package' name='kernel-firmware'/>
-<install kind='package' name='preload'/>
 <install kind='package' name='b43-fwcutter'/>
 <install kind='package' name='memtest86+'/>
 <install kind='package' name='adaptec-firmware'/>
@@ -80,7 +78,6 @@
 <install kind='package' name='dosfstools'/>
 <install kind='package' name='cryptsetup'/>
 <install kind='package' name='btrfsprogs'/>
-<install kind='package' name='ndiswrapper-kmp-default'/>
 <install kind='package' name='x11-input-fujitsu'/>
 <install kind='package' name='ndiswrapper'/>
 <install kind='package' name='ipw-firmware'/>

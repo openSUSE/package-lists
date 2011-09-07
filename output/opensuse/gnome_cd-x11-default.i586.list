@@ -89,7 +89,7 @@ gfxboot-branding-openSUSE
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
-gio-branding-openSUSE
+gio-branding-basedonopensuse
 glib-networking
 glib2-tools
 glibc
@@ -126,19 +126,20 @@ krb5
 lcms
 less
 libXi6
-libacl
+libacl1
 libadns1
 libaio
 libasm1
 libasound2
 libassuan0
 libatm1
-libattr
+libattr1
 libaudit1
 libaugeas0
 libblkid1
 libblocxx6
 libbz2-1
+libcairo2
 libcap-ng0
 libcap2
 libcares2
@@ -150,8 +151,10 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdconf0
+libdirectfb-1_4-5
 libdrm
 libdw1
+libedit0
 libelf1
 liberation-fonts
 libevent-2_0-5
@@ -210,7 +213,7 @@ libpixman-1-0
 libplist1
 libpng14-14
 libpolkit0
-libpoppler13
+libpoppler17
 libpopt0
 libppl9
 libppl_c4
@@ -308,6 +311,7 @@ perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
 perl-XML-SAX
+perl-XML-SAX-Base
 perl-XML-Simple
 perl-XML-XPath
 perl-base
@@ -378,6 +382,7 @@ util-linux
 vim
 vim-base
 w3m
+wallpaper-branding-openSUSE
 wdiff
 wget
 wireless-regdb

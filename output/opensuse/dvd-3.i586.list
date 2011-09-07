@@ -30,14 +30,12 @@ dbus-1
 dbus-1-glib
 dconf
 deltarpm
-desktop-data-openSUSE
 desktop-translations
 device-mapper
 dhcpcd
 diffutils
 dirmngr
 dmraid
-dmz-icon-theme-cursors
 e2fsprogs
 eject
 elfutils
@@ -49,7 +47,7 @@ fillup
 findutils
 gawk
 gdbm
-gio-branding-openSUSE
+gio-branding-basedonopensuse
 glib-networking
 glib2-tools
 glibc
@@ -77,12 +75,12 @@ keyutils-libs
 kpartx
 krb5
 less
-libacl
+libacl1
 libadns1
 libaio
 libasm1
 libassuan0
-libattr
+libattr1
 libaudit1
 libaugeas0
 libblkid1
@@ -98,6 +96,7 @@ libcurl4
 libdb-4_8
 libdconf0
 libdw1
+libedit0
 libelf1
 libevent-2_0-5
 libexpat1
@@ -199,7 +198,6 @@ openSUSE-release-dvd
 openslp
 openssh
 openssl
-opensuse-manuals_en
 pam
 pam-config
 pam-modules

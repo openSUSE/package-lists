@@ -38,8 +38,8 @@ prep_patterns()
   grep -v $1 $TESTTRACK/patterns/$base-*.$arch.pat > $TESTTRACK/CD1/suse/setup/descr/$base.$arch.pat
   pushd $TESTTRACK/CD1/suse/setup/descr/ > /dev/null
   : > patterns
-  for i in *;
-    do echo -n "META SHA1 ";
+  for i in *; do
+    echo -n "META SHA1 ";
     sha1sum $i | awk '{ORS=""; print $1}';
     echo -n " "; basename $i;
     basename $i >> patterns
@@ -106,7 +106,7 @@ do
      echo -n "!"
   fi
 
-  rm -rf $TESTTRACK/CD1
+  #rm -rf $TESTTRACK/CD1
 
   if echo $file | grep -q -- "-default"; then
      for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp kernel-default-base kernel-default-extra smolt virtualbox-ose-kmp-default ndiswrapper-kmp-default preload-kmp-default tango-icon-theme oxygen-icon-theme mono-core marble-data gnome-packagekit; do
