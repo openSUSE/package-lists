@@ -315,6 +315,7 @@ ca-certificates
 ca-certificates-mozilla
 cabextract
 cairo-devel
+calibre
 canberra-gtk-play
 canna
 canna-libs
@@ -874,6 +875,7 @@ gstreamer-0_10-devel
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugin-gnomevfs
+gstreamer-0_10-plugin-gnonlin
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-32bit
@@ -1177,17 +1179,18 @@ kde4-l10n-sv-data
 kde4-l10n-sv-doc
 kde4-l10n-zh_CN
 kde4-l10n-zh_TW
-kdeartwork4
+kdeartwork4-decorations
 kdeartwork4-screensaver
-kdeartwork4-weatherwallpapers
+kdeartwork4-wallpapers
+kdeartwork4-wallpapers-weather
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
-kdebase4-runtime-branding-basedonopensuse
+kdebase4-runtime-branding-openSUSE
 kdebase4-session
 kdebase4-workspace
-kdebase4-workspace-branding-basedonopensuse
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
@@ -1195,7 +1198,7 @@ kdegames4
 kdegames4-carddecks-default
 kdegames4-carddecks-other
 kdelibs4
-kdelibs4-branding-basedonopensuse
+kdelibs4-branding-openSUSE
 kdelibs4-core
 kdelibs4-doc
 kdemultimedia4-thumbnailers
@@ -1341,7 +1344,7 @@ krb5-client
 krb5-devel
 krb5-devel-32bit
 krdc
-kremotecontrol
+kremotecontrol-doc
 krename
 kreversi
 krfb
@@ -1354,6 +1357,7 @@ kshisen
 ksirk
 ksnapshot
 kspaceduel
+ksplashx-branding-openSUSE
 ksquares
 ksshaskpass
 kstars
@@ -1672,7 +1676,7 @@ libftgl2
 libfuse2
 libgadu3
 libgarcon-1-0
-libgarcon-branding-basedonopensuse
+libgarcon-branding-openSUSE
 libgc1
 libgcc46
 libgcc46-32bit
@@ -1941,6 +1945,7 @@ libldap-2_4-2-32bit
 libldapcpp1
 libldb1
 liblensfun0
+liblightdm-gobject-1-0
 liblirc_client0
 liblockdev1
 liblockdev1-32bit
@@ -1964,6 +1969,7 @@ libmemphis-0_2-0
 libmenu-cache1
 libmikmod
 libmission-control-plugins0
+libmms0
 libmng
 libmng-32bit
 libmng-devel
@@ -2487,7 +2493,7 @@ libx86emu1
 libxcrypt
 libxfce4panel-1_0-3
 libxfce4ui
-libxfce4ui-branding-basedonopensuse
+libxfce4ui-branding-openSUSE
 libxfce4util
 libxfcegui4
 libxfconf-0-2
@@ -2519,6 +2525,10 @@ libzip2
 libzvbi0
 libzypp
 liferea
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-branding-openSUSE
+lightdm-lang
 lightsoff
 lilo
 limal
@@ -2732,6 +2742,7 @@ nemiver
 nemiver-lang
 net-snmp
 net-snmp-devel
+net-snmp-devel-32bit
 net-tools
 netcat-openbsd
 netcfg
@@ -3111,6 +3122,8 @@ pinentry-gtk2
 pinentry-qt4
 pinfo
 pinpoint
+pitivi
+pitivi-lang
 pkcs11-helper
 pkg-config
 planner
@@ -3118,6 +3131,7 @@ planner-evolution
 planner-lang
 plasma-addons
 plasma-addons-marble
+plasma-theme-aya
 plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess
@@ -3125,6 +3139,7 @@ pm-profiler
 pm-utils
 pm-utils-ndiswrapper
 pmidi
+podofo
 polkit
 polkit-default-privs
 polkit-devel
@@ -3173,10 +3188,15 @@ pwgen
 pychecker
 python
 python-32bit
+python-Babel
 python-Beaker
+python-CherryPy
+python-Genshi
+python-Louie
 python-M2Crypto
 python-Mako
 python-MarkupSafe
+python-Twisted
 python-atspi
 python-base
 python-base-32bit
@@ -3187,13 +3207,18 @@ python-brlapi
 python-bugbuddy
 python-cairo
 python-ccm
+python-clientform
+python-coherence
 python-compizconfig
 python-configobj
+python-cssutils
 python-cups
 python-cupshelpers
 python-curses
 python-dateutil
 python-devel
+python-distribute
+python-dnspython
 python-egenix-mx-base
 python-evolution
 python-feedparser
@@ -3225,10 +3250,12 @@ python-ldap
 python-libproxy
 python-louis
 python-lxml
+python-mechanize
 python-metacity
 python-notify
 python-numpy
 python-oauth
+python-odfpy
 python-opensync
 python-optcomplete
 python-orbit
@@ -3238,6 +3265,9 @@ python-pybluez
 python-pycrypto
 python-pycurl
 python-pygame
+python-pypdf
+python-pyserial
+python-pyudev
 python-qt4
 python-rsvg
 python-satsolver
@@ -3257,6 +3287,7 @@ python-wnck
 python-xdg
 python-xlib
 python-xml
+python-zope.interface
 python-zypp
 python3-base
 python3-xml
@@ -3492,6 +3523,7 @@ svg-schema
 sweeper
 swell-foop
 swig
+synaptiks
 sysconfig
 sysfsutils
 sysfsutils-32bit
@@ -3788,7 +3820,7 @@ xfce4-mixer
 xfce4-notifyd
 xfce4-notifyd-branding-openSUSE
 xfce4-panel
-xfce4-panel-branding-basedonopensuse
+xfce4-panel-branding-openSUSE
 xfce4-panel-plugin-battery
 xfce4-panel-plugin-battery-lang
 xfce4-panel-plugin-cellmodem
@@ -3824,9 +3856,6 @@ xfce4-power-manager
 xfce4-screenshooter
 xfce4-session
 xfce4-session-branding-openSUSE
-xfce4-settings
-xfce4-settings-branding-basedonopensuse
-xfce4-settings-lang
 xfce4-taskmanager
 xfce4-vala
 xfconf
@@ -3961,7 +3990,7 @@ yast2-apparmor
 yast2-autofs
 yast2-backup
 yast2-bootloader
-yast2-branding-basedonopensuse
+yast2-branding-openSUSE
 yast2-ca-management
 yast2-control-center
 yast2-control-center-gnome

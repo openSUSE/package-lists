@@ -353,6 +353,7 @@ iso-codes
 iw
 jfsutils
 jpackage-utils
+json-glib-lang
 kbd
 kernel-desktop
 kernel-firmware
@@ -439,7 +440,7 @@ libclutter-glx-1_0-0
 libclutter-gst-1_0-0
 libclutter-gtk-1_0-0
 libcogl-pango0
-libcogl2
+libcogl5
 libcollection2
 libcolord1
 libcom_err2
@@ -639,6 +640,7 @@ libnice10
 libnl-1_1
 libnm-glib-vpn1
 libnm-glib4
+libnm-gtk0
 libnm-util2
 libnotify-tools
 libnotify4
@@ -675,7 +677,7 @@ libplist1
 libpng14-14
 libpolkit0
 libpoppler-glib8
-libpoppler17
+libpoppler18
 libpopt0
 libppl9
 libppl_c4
@@ -1090,6 +1092,7 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 systemd
+systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
 t1lib
@@ -1218,7 +1221,7 @@ yast2
 yast2-add-on
 yast2-backup
 yast2-bootloader
-yast2-branding-basedonopensuse
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-gnome
 yast2-core

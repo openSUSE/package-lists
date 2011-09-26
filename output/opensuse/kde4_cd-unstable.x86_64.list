@@ -158,6 +158,8 @@ glibc
 glibc-32bit
 glibc-locale
 glibc-locale-32bit
+gnome-icon-theme
+gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
 gpart
@@ -174,17 +176,21 @@ gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gtk2-branding-upstream
 gtk2-data
+gtk2-engines
 gtk2-immodule-amharic
 gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
+gtk2-metatheme-adwaita
 gtk2-tools
-gtk3-branding-basedonopensuse
+gtk3-branding-openSUSE
 gtk3-data
 gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
+gtk3-metatheme-adwaita
+gtk3-theming-engine-adwaita
 gtk3-tools
 gwenview
 gxditview
@@ -239,7 +245,7 @@ kdebase4-workspace-liboxygenstyle
 kdegames4
 kdegames4-carddecks-default
 kdelibs4
-kdelibs4-branding-basedonopensuse
+kdelibs4-branding-openSUSE
 kdelibs4-core
 kdenetwork4-filesharing
 kdepasswd
@@ -249,7 +255,7 @@ kdepim4-wizards
 kdepimlibs4
 kdialog
 kdm
-kdm-branding-upstream
+kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 kernel-default
@@ -466,6 +472,7 @@ libltdl7
 liblua5_1
 liblzma5
 liblzo2-2
+libmms0
 libmng
 libmodman1
 libmodplug1
@@ -634,6 +641,7 @@ master-boot-code
 mc
 mdadm
 memtest86+
+metatheme-adwaita-common
 microcode_ctl
 mingetty
 mkinitrd
@@ -911,7 +919,7 @@ yast2
 yast2-add-on
 yast2-backup
 yast2-bootloader
-yast2-branding-basedonopensuse
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core
