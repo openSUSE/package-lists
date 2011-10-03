@@ -13,6 +13,7 @@ IPAGothic
 IPAMincho
 IPAPGothic
 IPAPMincho
+IPython
 ImageMagick
 ImageMagick-devel
 ImageMagick-devel-32bit
@@ -31,6 +32,7 @@ MozillaThunderbird
 MozillaThunderbird-translations-common
 NetworkManager
 NetworkManager-devel
+NetworkManager-devel-32bit
 NetworkManager-gnome
 NetworkManager-kde4-libs
 NetworkManager-openvpn
@@ -66,11 +68,11 @@ a2ps
 a2ps-perl-ja
 aaa_base
 aaa_base-extras
-aalib
-aalib-32bit
 abcde
 abiword
 abiword-docs
+accerciser
+accerciser-lang
 accountsservice
 acl
 acpica
@@ -185,6 +187,7 @@ attr
 audacity
 audit
 audit-devel
+audit-devel-32bit
 augeas-lenses
 autoconf
 autofs
@@ -348,6 +351,7 @@ ca-certificates
 ca-certificates-mozilla
 cabextract
 cairo-devel
+cairo-devel-32bit
 calibre
 canberra-gtk-play
 canna
@@ -358,9 +362,9 @@ capi4hylafax
 capi4linux
 capisuite
 caribou
+caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
-caribou-lang
 ccache
 cdparanoia
 cdrdao
@@ -526,6 +530,7 @@ droid-fonts
 duplicity
 dvb
 dvd+rw-tools
+dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 e2fsprogs-devel
 ebtables
@@ -552,6 +557,7 @@ epdfview
 epiphany
 epiphany-branding-openSUSE
 epiphany-extensions
+esound-daemon
 espeak
 ethtool
 evince
@@ -701,7 +707,6 @@ gfxboot-branding-openSUSE
 gfxboot-devel
 ggz-client-libs
 ggz-client-libs-devel
-ggz-client-libs-lang
 ghex
 ghostscript-cjk
 ghostscript-fonts-other
@@ -712,7 +717,6 @@ ghostscript-x11
 giflib-devel
 giflib-devel-32bit
 giggle
-giggle-lang
 gimp
 gimp-branding-openSUSE
 gimp-help
@@ -743,13 +747,13 @@ gitg
 gitk
 gjdoc
 gjiten
+gjs
 gkeyfile-sharp
 glabels
 glabels-lang
+glade
 glade-catalog-vte
 glade-sharp2
-glade3
-glade3-lang
 glchess
 glib-networking
 glib-sharp2
@@ -776,6 +780,7 @@ gnome-backgrounds
 gnome-bluetooth
 gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
+gnome-color-manager
 gnome-commander
 gnome-common
 gnome-contacts
@@ -788,6 +793,8 @@ gnome-do
 gnome-do-plugins
 gnome-doc-utils
 gnome-doc-utils-devel
+gnome-documents
+gnome-documents-lang
 gnome-games
 gnome-games-extra-data
 gnome-games-recommended
@@ -813,7 +820,6 @@ gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
 gnome-panel-lang
 gnome-phone-manager
-gnome-phone-manager-lang
 gnome-pilot
 gnome-power-manager
 gnome-print-sharp
@@ -828,6 +834,7 @@ gnome-settings-daemon
 gnome-settings-daemon-polkit-datetime
 gnome-sharp2
 gnome-shell
+gnome-shell-browser-plugin
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -853,10 +860,6 @@ gnutls
 gobject-introspection
 gobject-introspection-devel
 goffice
-google-gadgets
-google-gadgets-devel
-google-gadgets-gtk
-google-gadgets-qt
 gpart
 gperf
 gpg2
@@ -950,6 +953,7 @@ gvfs-fuse
 gvim
 gwenview
 gwibber
+gwibber-lang
 gxditview
 gzip
 hamcrest
@@ -1159,6 +1163,8 @@ kchmviewer
 kcm_gtk
 kcolorchooser
 kcron
+kdbg
+kdbg-lang
 kde4-filesystem
 kde4-kapptemplate
 kde4-kgreeter-plugins
@@ -1448,6 +1454,8 @@ libXi6
 libXi6-32bit
 libXi6-devel
 libXiterm
+libaa1
+libaa1-32bit
 libabiword-2_8
 libaccountsservice0
 libacl-devel
@@ -1478,6 +1486,7 @@ libart_lgpl_2-2
 libasm1
 libasound2
 libasound2-32bit
+libaspell15
 libass4
 libassuan0
 libatasmart4
@@ -1497,6 +1506,7 @@ libaudit1
 libaudit1-32bit
 libaugeas0
 libauparse0
+libauparse0-32bit
 libavahi-client3
 libavahi-common3
 libavahi-common3-32bit
@@ -1553,6 +1563,7 @@ libcaca0-32bit
 libcairo-gobject2
 libcairo-gobject2-32bit
 libcairo-script-interpreter2
+libcairo-script-interpreter2-32bit
 libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
@@ -1593,7 +1604,7 @@ libclutter-glx-1_0-0
 libclutter-gst-1_0-0
 libclutter-gtk-1_0-0
 libcogl-pango0
-libcogl2
+libcogl5
 libcollectdclient0
 libcollection2
 libcolord1
@@ -1759,7 +1770,6 @@ libgjs0
 libglade-2_0-0
 libglademm
 libglademm-2_4-1
-libgladeui-1-11
 libgladeui-2-0
 libgle3
 libglib-2_0-0
@@ -1857,12 +1867,14 @@ libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-2_0-0
 libgtksourceview-3_0-0
-libgtksourceviewmm-2_0-2
+libgtksourceviewmm-3_0-0
 libgtkspell0
 libgtop-2_0-7
 libgtop-devel
 libgucharmap_2_90-7
 libgudev-1_0-0
+libgudev-1_0-0-32bit
+libguile-2_0-22
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-3
@@ -2037,11 +2049,17 @@ libnfnetlink0
 libnice10
 libnl-1_1
 libnm-glib-vpn1
+libnm-glib-vpn1-32bit
 libnm-glib4
+libnm-glib4-32bit
+libnm-gtk0
 libnm-util2
+libnm-util2-32bit
 libnotify-devel
+libnotify-devel-32bit
 libnotify-tools
 libnotify4
+libnotify4-32bit
 libnova-0_14-0
 libnscd
 libnscd-32bit
@@ -2109,6 +2127,7 @@ libpcreposix0
 libpcsclite1
 libpeas-1_0-0
 libpeas-gtk-1_0-0
+libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-seed
 libphonon4
@@ -2139,7 +2158,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-3
 libpoppler-qt4-devel
-libpoppler17
+libpoppler18
 libpopt0
 libpopt0-32bit
 libppl9
@@ -2155,6 +2174,7 @@ libproxy1-config-kde4
 libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
 libproxy1-pacrunner-webkit
+libpspell15
 libpst4
 libpt2_6_7
 libpth20
@@ -2556,6 +2576,7 @@ libyajl2
 libyelp0
 libzio
 libzip2
+libzmq1
 libzvbi0
 libzypp
 libzypp-devel
@@ -2778,7 +2799,6 @@ ndiswrapper
 ndiswrapper-kmp-default
 ndiswrapper-kmp-desktop
 nemiver
-nemiver-lang
 net-snmp
 net-snmp-devel
 net-snmp-devel-32bit
@@ -2835,7 +2855,6 @@ open-iscsi
 open-vm-tools
 open-vm-tools-gui
 openSUSE-build-key
-openSUSE-dynamic-wallpaper
 openSUSE-release
 openSUSE-release-dvd-biarch
 openais
@@ -3110,7 +3129,7 @@ perl-SQL-Statement
 perl-Socket6
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
-perl-TermReadKey
+perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
 perl-Test-Script
@@ -3226,7 +3245,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -3247,6 +3265,7 @@ python-Louie
 python-M2Crypto
 python-Mako
 python-MarkupSafe
+python-Pygments
 python-Twisted
 python-atspi
 python-base
@@ -3319,6 +3338,7 @@ python-pygame
 python-pypdf
 python-pyserial
 python-pyudev
+python-pyzmq
 python-qt4
 python-rsvg
 python-satsolver
@@ -3553,6 +3573,7 @@ subversion-server
 subversion-tools
 sudo
 susedoc
+susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de
@@ -3581,6 +3602,7 @@ system-config-printer-common
 system-config-printer-dbus-service
 systemd
 systemd-32bit
+systemd-presets-branding-openSUSE
 systemd-sysvinit
 systemtap
 systemtap-runtime

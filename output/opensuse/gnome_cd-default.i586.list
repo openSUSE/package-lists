@@ -32,8 +32,6 @@ alsa-oss
 alsa-plugins
 alsa-plugins-pulse
 alsa-utils
-aspell
-aspell-en
 at-spi2-atk-common
 at-spi2-atk-gtk2
 at-spi2-atk-gtk3
@@ -75,9 +73,9 @@ ca-certificates-mozilla
 canberra-gtk-play
 cantarell-fonts
 caribou
+caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
-caribou-lang
 checkmedia
 cheese
 cifs-utils
@@ -132,6 +130,7 @@ dosfstools
 dotconf
 droid-fonts
 dvd+rw-tools
+dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 eject
 elfutils
@@ -183,6 +182,7 @@ ghostscript-library
 ghostscript-x11
 gio-branding-openSUSE
 gio-sharp
+gjs
 gkeyfile-sharp
 glchess
 glib-networking
@@ -193,10 +193,14 @@ glibc-locale
 gmime-sharp
 gnome-bluetooth
 gnome-bluetooth-plugins-geoclue
+gnome-color-manager
+gnome-color-manager-lang
 gnome-contacts
 gnome-control-center
 gnome-control-center-user-faces
 gnome-disk-utility
+gnome-documents
+gnome-documents-lang
 gnome-games-recommended
 gnome-games-support
 gnome-icon-theme
@@ -223,12 +227,15 @@ gnome-session-fallback-session
 gnome-settings-daemon
 gnome-settings-daemon-polkit-datetime
 gnome-shell
+gnome-shell-browser-plugin
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
 gnome-themes-accessibility
 gnome-user-docs
 gnome-user-share
+gnome-utils
+gnome-utils-lang
 gnome-version
 gnome-video-effects
 gnomine
@@ -245,7 +252,6 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer-0_10
 gstreamer-0_10-libnice
-gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
@@ -273,7 +279,6 @@ gtk3-theming-engine-adwaita
 gtk3-tools
 gucharmap
 gudev-sharp
-guile
 gvfs
 gvfs-backend-afc
 gvfs-backends
@@ -305,7 +310,6 @@ iproute2
 iptables
 iputils
 iso-codes
-json-glib-lang
 kbd
 keyutils
 keyutils-libs
@@ -323,12 +327,12 @@ libaccountsservice0
 libacl1
 libadns1
 libaio
-libao-plugin4-esd
 libao-plugins4
 libao4
 libarchive2
 libasm1
 libasound2
+libaspell15
 libass4
 libassuan0
 libatasmart4
@@ -337,7 +341,6 @@ libatkmm-1_6-1
 libatm1
 libatspi0
 libattr1
-libaudiofile0
 libaudit1
 libaugeas0
 libavahi-client3
@@ -420,7 +423,6 @@ libenca0
 libenchant1
 libepc-1_0-2
 liberation-fonts
-libesd0
 libevent-2_0-5
 libexempi3
 libexif12
@@ -444,6 +446,7 @@ libgck-modules
 libgcr-3-1
 libgcrypt11
 libgdata13
+libgdict-1_0-6
 libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdmgreeter1
@@ -510,6 +513,7 @@ libgtkspell0
 libgtop-2_0-7
 libgucharmap_2_90-7
 libgudev-1_0-0
+libguile-2_0-22
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-3
@@ -594,6 +598,7 @@ libpciaccess0
 libpcre0
 libpeas-1_0-0
 libpeas-gtk-1_0-0
+libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-seed
 libpixman-1-0
@@ -624,8 +629,6 @@ libquicktime0
 libquvi6
 libraw1394-11
 libraw2
-librcc0
-librcd0
 libreadline6
 libreiserfs
 librest0
@@ -790,7 +793,6 @@ obex-data-server
 obexd
 obexd-client
 openSUSE-build-key
-openSUSE-dynamic-wallpaper
 openldap2-client
 openslp
 openssh
@@ -846,7 +848,6 @@ pptp
 procps
 psmisc
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-lirc
@@ -886,7 +887,6 @@ python-urlgrabber
 python-xdg
 python-xml
 quadrapassel
-rcc-runtime
 recode
 release-notes-openSUSE
 rpcbind

@@ -35,8 +35,6 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 ark
-aspell
-aspell-en
 attr
 augeas-lenses
 autofs
@@ -132,7 +130,6 @@ gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ggz-client-libs
-ggz-client-libs-lang
 ghostscript-fonts-std
 ghostscript-library
 ghostscript-x11
@@ -295,6 +292,7 @@ libao4
 libarchive2
 libasm1
 libasound2
+libaspell15
 libassuan0
 libatasmart4
 libatk-1_0-0
@@ -313,12 +311,6 @@ libboost_program_options1_46_1
 libbz2-1
 libcairo-gobject2
 libcairo2
-libcanberra-gtk-module-common
-libcanberra-gtk0
-libcanberra-gtk2-module
-libcanberra-gtk3-0
-libcanberra-gtk3-module
-libcanberra0
 libcap-ng0
 libcap2
 libcares2
@@ -343,7 +335,6 @@ libdrm
 libdw1
 libedit0
 libelf1
-libenca0
 libenchant1
 libepub0
 liberation-fonts
@@ -469,7 +460,7 @@ libpng14-14
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-3
-libpoppler17
+libpoppler18
 libpopt0
 libppl9
 libppl_c4
@@ -498,8 +489,6 @@ libqzeitgeist0
 libraptor2-0
 librasqal3
 libraw1394-11
-librcc0
-librcd0
 libreadline6
 libredland0
 libreiserfs
@@ -681,7 +670,6 @@ python-simplejson
 python-sip
 python-urlgrabber
 python-xml
-rcc-runtime
 recode
 release-notes-openSUSE
 rpcbind
@@ -701,12 +689,12 @@ smp_utils
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
-sound-theme-freedesktop
 splashy
 splashy-branding-openSUSE
 strace
 strigi
 sudo
+susegreeter-branding-openSUSE
 susehelp
 susehelp_en
 sweeper
@@ -714,6 +702,7 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
+systemd-presets-branding-openSUSE
 sysvinit
 sysvinit-tools
 tar

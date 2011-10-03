@@ -12,6 +12,7 @@ IPAGothic
 IPAMincho
 IPAPGothic
 IPAPMincho
+IPython
 ImageMagick
 ImageMagick-devel
 KhmerOS-fonts
@@ -61,10 +62,11 @@ a2ps
 a2ps-perl-ja
 aaa_base
 aaa_base-extras
-aalib
 abcde
 abiword
 abiword-docs
+accerciser
+accerciser-lang
 accountsservice
 acl
 acpica
@@ -310,9 +312,9 @@ capi4hylafax
 capi4linux
 capisuite
 caribou
+caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
-caribou-lang
 ccache
 cdparanoia
 cdrdao
@@ -468,6 +470,7 @@ droid-fonts
 duplicity
 dvb
 dvd+rw-tools
+dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 e2fsprogs-devel
 ebtables
@@ -496,6 +499,7 @@ epiphany-branding-openSUSE
 epiphany-extensions
 epiphany-extensions-lang
 epiphany-lang
+esound-daemon
 espeak
 ethtool
 evince
@@ -623,7 +627,6 @@ gfxboot-branding-openSUSE
 gfxboot-devel
 ggz-client-libs
 ggz-client-libs-devel
-ggz-client-libs-lang
 ghex
 ghex-lang
 ghostscript-cjk
@@ -663,6 +666,7 @@ gitg-lang
 gitk
 gjdoc
 gjiten
+gjs
 gkeyfile-sharp
 glabels
 glabels-lang
@@ -691,13 +695,14 @@ gnibbles-lang
 gnobots2
 gnobots2-lang
 gnokii
-gnokii-lang
 gnome-applets
 gnome-applets-lang
 gnome-backgrounds
 gnome-bluetooth
 gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
+gnome-color-manager
+gnome-color-manager-lang
 gnome-commander
 gnome-commander-lang
 gnome-common
@@ -717,6 +722,8 @@ gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-doc-utils-lang
+gnome-documents
+gnome-documents-lang
 gnome-games
 gnome-games-extra-data
 gnome-games-recommended
@@ -742,7 +749,6 @@ gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
 gnome-panel-lang
 gnome-phone-manager
-gnome-phone-manager-lang
 gnome-pilot
 gnome-pilot-lang
 gnome-power-manager
@@ -758,6 +764,7 @@ gnome-settings-daemon
 gnome-settings-daemon-polkit-datetime
 gnome-sharp2
 gnome-shell
+gnome-shell-browser-plugin
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -790,10 +797,6 @@ gobject-introspection
 gobject-introspection-devel
 goffice
 goffice-lang
-google-gadgets
-google-gadgets-devel
-google-gadgets-gtk
-google-gadgets-qt
 gpart
 gperf
 gpg2
@@ -1078,6 +1081,8 @@ kchmviewer
 kcm_gtk
 kcolorchooser
 kcron
+kdbg
+kdbg-lang
 kde4-filesystem
 kde4-kapptemplate
 kde4-kgreeter-plugins
@@ -1349,6 +1354,7 @@ libSoundTouch0
 libXi6
 libXi6-devel
 libXiterm
+libaa1
 libabiword-2_8
 libaccountsservice0
 libacl-devel
@@ -1374,6 +1380,7 @@ libart_lgpl-devel
 libart_lgpl_2-2
 libasm1
 libasound2
+libaspell15
 libass4
 libassuan0
 libatasmart4
@@ -1469,7 +1476,7 @@ libclutter-glx-1_0-0
 libclutter-gst-1_0-0
 libclutter-gtk-1_0-0
 libcogl-pango0
-libcogl2
+libcogl5
 libcollectdclient0
 libcollection2
 libcolord1
@@ -1703,12 +1710,13 @@ libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-2_0-0
 libgtksourceview-3_0-0
-libgtksourceviewmm-2_0-2
+libgtksourceviewmm-3_0-0
 libgtkspell0
 libgtop-2_0-7
 libgtop-devel
 libgucharmap_2_90-7
 libgudev-1_0-0
+libguile-2_0-22
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-3
@@ -1856,6 +1864,7 @@ libnice10
 libnl-1_1
 libnm-glib-vpn1
 libnm-glib4
+libnm-gtk0
 libnm-util2
 libnotify-devel
 libnotify-tools
@@ -1913,6 +1922,7 @@ libpcreposix0
 libpcsclite1
 libpeas-1_0-0
 libpeas-gtk-1_0-0
+libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-seed
 libphonon4
@@ -1937,7 +1947,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-3
 libpoppler-qt4-devel
-libpoppler17
+libpoppler18
 libpopt0
 libppl9
 libppl_c4
@@ -1951,6 +1961,7 @@ libproxy1-config-kde4
 libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
 libproxy1-pacrunner-webkit
+libpspell15
 libpst4
 libpt2_6_7
 libpth20
@@ -2274,6 +2285,7 @@ libyajl2
 libyelp0
 libzio
 libzip2
+libzmq1
 libzvbi0
 libzypp
 liferea
@@ -2523,7 +2535,6 @@ open-iscsi
 open-vm-tools
 open-vm-tools-gui
 openSUSE-build-key
-openSUSE-dynamic-wallpaper
 openSUSE-release
 openSUSE-release-dvd
 openais
@@ -2780,7 +2791,7 @@ perl-SQL-Statement
 perl-Socket6
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
-perl-TermReadKey
+perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
 perl-Text-Diff
@@ -2896,7 +2907,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -2916,6 +2926,7 @@ python-Louie
 python-M2Crypto
 python-Mako
 python-MarkupSafe
+python-Pygments
 python-Twisted
 python-atspi
 python-base
@@ -2987,6 +2998,7 @@ python-pygame
 python-pypdf
 python-pyserial
 python-pyudev
+python-pyzmq
 python-qt4
 python-rsvg
 python-satsolver
@@ -3220,6 +3232,7 @@ subversion-server
 subversion-tools
 sudo
 susedoc
+susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de

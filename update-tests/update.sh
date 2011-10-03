@@ -14,7 +14,8 @@ sed -e '/!-- DROPS -->/r uninstalls.xml' $1 > $1.uninstalls
 /usr/bin/deptestomatic $1.uninstalls 2> $1.error2 > $1.output2 
 list=`diff -u $1.output $1.output2 | grep "^+.*remove " | sed -e 's,.*remove  ,,; s,-[^-]*-[^-]*\.\(i.86\|noarch\|x86_64\)$,,'`
 for i in $list; do 
-  echo "<obsoletepackage>$i</obsoletepackage>" >&2
+  echo "<obsoletepackage>$i</obsoletepackage>" >> ../osc/openSUSE:Factory/_product/obsoletepackages.inc
+  LC_ALL=C sort -o ../osc/openSUSE:Factory/_product/obsoletepackages.inc -u ../osc/openSUSE:Factory/_product/obsoletepackages.inc
 done
 
 #rm $1.tmp

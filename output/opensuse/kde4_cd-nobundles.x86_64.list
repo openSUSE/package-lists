@@ -35,7 +35,6 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
-aalib
 acl
 acpica
 acpid
@@ -372,6 +371,7 @@ libMagickWand5
 libQtWebKit4
 libSDL-1_2-0
 libXi6
+libaa1
 libacl1
 libadns1
 libaio
@@ -382,6 +382,7 @@ libao4
 libarchive2
 libasm1
 libasound2
+libaspell15
 libassuan0
 libatasmart4
 libatk-1_0-0
@@ -404,12 +405,6 @@ libbz2-1
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
-libcanberra-gtk-module-common
-libcanberra-gtk0
-libcanberra-gtk2-module
-libcanberra-gtk3-0
-libcanberra-gtk3-module
-libcanberra0
 libcap-ng0
 libcap2
 libcares2
@@ -597,7 +592,7 @@ libpolkit-qt-1-1
 libpolkit0
 libpoppler-glib8
 libpoppler-qt4-3
-libpoppler17
+libpoppler18
 libpopt0
 libppl9
 libppl_c4
@@ -931,7 +926,6 @@ smpppd
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
-sound-theme-freedesktop
 sox
 splashy
 splashy-branding-openSUSE
@@ -939,6 +933,7 @@ sssd
 strace
 strigi
 sudo
+susegreeter-branding-openSUSE
 susehelp
 susehelp_de
 susehelp_en
@@ -948,6 +943,7 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
+systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
 taglib
