@@ -44,9 +44,6 @@ ca-certificates-mozilla
 cantarell-fonts
 checkmedia
 cifs-utils
-color-filesystem
-colord
-colord-lang
 command-not-found
 coreutils
 cpio
@@ -160,12 +157,6 @@ hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hwinfo
-icc-profiles
-icc-profiles-basiccolor-lstarrgb
-icc-profiles-basiccolor-printing2009-coat2
-icc-profiles-lcms-lab
-icc-profiles-mini
-icc-profiles-openicc-rgb
 icewm
 icewm-lite
 ifnteuro
@@ -187,7 +178,6 @@ kbd
 kernel-default
 kernel-firmware
 keyutils
-keyutils-libs
 kpartx
 krb5
 krb5-client
@@ -291,7 +281,6 @@ libgvfscommon0
 libhogweed2
 libicu
 libidn
-libieee1284
 libimobiledevice2
 libini_config2
 libiw30
@@ -299,9 +288,9 @@ libjack0
 libjasper1
 libjpeg62
 libjson0
+libkeyutils1
 libksba
 liblcms1
-liblcms2-2
 libldap-2_4-2
 libldapcpp1
 libldb1
@@ -363,7 +352,6 @@ libreiserfs
 libsamplerate
 libselinux1
 libsemanage1
-libsensors4
 libsepol1
 libsigc-2_0-0
 libslang2
@@ -371,7 +359,6 @@ libsmbclient0
 libsmbios2
 libsnapper1
 libsndfile
-libsnmp30
 libsoftokn3
 libsoup-2_4-1
 libspeex1
@@ -542,8 +529,6 @@ rpm-python
 rsync
 rsyslog
 samba-client
-sane-backends
-sane-backends-autoconfig
 satsolver-tools
 sax2-tools
 sbl
@@ -555,7 +540,6 @@ smartmontools
 smbios-utils-python
 smp_utils
 smpppd
-snmp-mibs
 splashy
 splashy-branding-openSUSE
 sssd
@@ -605,7 +589,6 @@ wireless-tools
 wpa_supplicant
 wvdial
 wvstreams
-x11-input-fujitsu
 x11-tools
 xdg-menu
 xdg-utils

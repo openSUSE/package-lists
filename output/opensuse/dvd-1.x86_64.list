@@ -364,8 +364,6 @@ cmake
 cnetworkmanager
 cogl-devel
 collectd
-color-filesystem
-colord
 command-not-found
 compiz
 compiz-branding-openSUSE
@@ -592,6 +590,7 @@ freeglut-32bit
 freeglut-devel
 freeglut-devel-32bit
 freetype2-devel
+frei0r-plugins
 fribidi
 fribidi-32bit
 frink
@@ -722,6 +721,7 @@ gkeyfile-sharp
 glabels
 glabels-lang
 glade
+glade-catalog-gtksourceview
 glade-catalog-vte
 glade-lang
 glade-sharp2
@@ -756,8 +756,6 @@ gnome-backgrounds
 gnome-bluetooth
 gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
-gnome-color-manager
-gnome-color-manager-lang
 gnome-commander
 gnome-commander-lang
 gnome-common
@@ -810,7 +808,6 @@ gnome-pilot-lang
 gnome-power-manager
 gnome-print-sharp
 gnome-pty-helper
-gnome-python-desktop
 gnome-screensaver
 gnome-session
 gnome-session-core
@@ -922,6 +919,7 @@ gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-immodule-xim
 gtk2-metatheme-adwaita
+gtk2-metatheme-sonar
 gtk2-tools
 gtk2-tools-32bit
 gtk3-branding-openSUSE
@@ -939,6 +937,7 @@ gtkiterm
 gtksourceview-devel
 gtksourceview-sharp2
 gtksourceview2-lang
+gtkspell3-lang
 gucharmap
 gucharmap-devel
 gudev-sharp
@@ -953,7 +952,6 @@ gvim
 gwenhywfar-lang
 gwenview
 gwibber
-gwibber-lang
 gxditview
 gzip
 hamster-applet
@@ -1002,12 +1000,6 @@ ibus-table-chinese-yong
 ibus-table-rustrad
 ibus-table-translit
 ibus-table-zhuyin
-icc-profiles
-icc-profiles-basiccolor-lstarrgb
-icc-profiles-basiccolor-printing2009-coat2
-icc-profiles-lcms-lab
-icc-profiles-mini
-icc-profiles-openicc-rgb
 icecream
 icecream-monitor
 icedax
@@ -1132,7 +1124,6 @@ kanagram
 kasumi
 kate
 katomic
-kbattleship
 kbd
 kblackbox
 kblocks
@@ -1160,6 +1151,8 @@ kde4-l10n-de-data
 kde4-l10n-de-doc
 kde4-l10n-devel
 kde4-l10n-en_GB
+kde4-l10n-en_GB-data
+kde4-l10n-en_GB-doc
 kde4-l10n-es
 kde4-l10n-es-data
 kde4-l10n-es-doc
@@ -1201,7 +1194,6 @@ kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdegames4
 kdegames4-carddecks-default
 kdegames4-carddecks-other
 kdelibs4
@@ -1246,8 +1238,6 @@ kerneloops-applet
 kexec-tools
 keyutils
 keyutils-devel
-keyutils-libs
-keyutils-libs-32bit
 kfind
 kfloppy
 kgamma
@@ -1285,7 +1275,6 @@ kiwi-tools
 kjots
 kjumpingcube
 klettres
-klines
 klogd
 kmag
 kmahjongg
@@ -1329,6 +1318,7 @@ koffice2-l10n-zh_CN
 koffice2-l10n-zh_TW
 kolf
 kollision
+kolorlines
 kolourpaint
 kompare
 konqueror
@@ -1376,7 +1366,6 @@ ktimer
 ktimetracker
 ktorrent
 ktouch
-ktuberling
 kturtle
 ktux
 kubrick
@@ -1608,6 +1597,7 @@ libdbi0
 libdbusmenu-qt2
 libdc1394-22
 libdconf0
+libdee-1_0-0
 libdhash1
 libdirac_encoder0
 libdirectfb-1_4-5
@@ -1719,6 +1709,7 @@ libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
 libgdl-3-1
+libgdlmm-3_0-0
 libgdmgreeter1
 libgdmsimplegreeter1
 libgdu-gtk0
@@ -1776,13 +1767,7 @@ libgnome-menu-3-0
 libgnome-menu2
 libgnomecanvas-2-0
 libgnomecanvas-lang
-libgnomecups
-libgnomecups-lang
 libgnomekbd
-libgnomeprint
-libgnomeprint-lang
-libgnomeprintui
-libgnomeprintui-lang
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -1852,6 +1837,7 @@ libgtkmm-3_0-1
 libgtksourceview-2_0-0
 libgtksourceview-3_0-0
 libgtksourceviewmm-3_0-0
+libgtkspell-3-0
 libgtkspell0
 libgtop-2_0-7
 libgtop-devel
@@ -1935,6 +1921,8 @@ libkdevplatform0
 libkeduvocdocument4
 libkexiv2-10
 libkexiv2-devel
+libkeyutils1
+libkeyutils1-32bit
 libkface1
 libkgeomap1
 libkipi-devel
@@ -2644,6 +2632,7 @@ menu-cache
 metacity
 metamail
 metatheme-adwaita-common
+metatheme-sonar-common
 mgetty
 microcode_ctl
 mikachan-fonts
@@ -2748,6 +2737,7 @@ nautilus-sendto-plugin-upnp
 nautilus-share
 nautilus-share-lang
 nautilus-totem
+navalbattle
 nbd
 nbd-doc
 ncftp
@@ -3226,7 +3216,6 @@ python-beautifulsoup
 python-bonobo
 python-boto
 python-brlapi
-python-bugbuddy
 python-cairo
 python-ccm
 python-clientform
@@ -3238,21 +3227,19 @@ python-cups
 python-cupshelpers
 python-curses
 python-dateutil
+python-dee
 python-devel
 python-distribute
 python-dnspython
 python-egenix-mx-base
 python-evolution
-python-feedparser
 python-flickrapi
 python-gconf
 python-gdata
 python-gnome
 python-gnome-menus
 python-gnomecanvas
-python-gnomedesktop
 python-gnomekeyring
-python-gnomeprint
 python-gnomevfs
 python-gobject
 python-gobject-cairo
@@ -3263,7 +3250,6 @@ python-gstreamer-0_10
 python-gtk
 python-gtk-vnc
 python-gtksourceview
-python-gtop
 python-httplib2
 python-imaging
 python-kde4
@@ -3273,7 +3259,6 @@ python-libproxy
 python-louis
 python-lxml
 python-mechanize
-python-metacity
 python-notify
 python-numpy
 python-oauth
@@ -3292,7 +3277,6 @@ python-pyserial
 python-pyudev
 python-pyzmq
 python-qt4
-python-rsvg
 python-satsolver
 python-simplejson
 python-sip
@@ -3301,7 +3285,6 @@ python-smbios
 python-speechd
 python-telepathy
 python-tk
-python-totem
 python-urlgrabber
 python-virtualbox
 python-vte
@@ -3493,6 +3476,7 @@ snapper
 snapper-zypp-plugin
 snmp-mibs
 solarwolf
+sonar-icon-theme
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
@@ -3658,8 +3642,6 @@ translation-update-pl
 translation-update-pt
 translation-update-pt_BR
 translation-update-ru
-transmission-common
-transmission-gtk
 tsclient
 tsclient-lang
 ttf-arphic
@@ -3801,8 +3783,6 @@ wvdial
 wvstreams
 wwwoffle
 wxWidgets-lang
-x11-input-evtouch
-x11-input-fujitsu
 x11-tools
 xalan-j2
 xano-mincho
@@ -3881,6 +3861,9 @@ xfce4-power-manager
 xfce4-screenshooter
 xfce4-session
 xfce4-session-branding-openSUSE
+xfce4-settings
+xfce4-settings-branding-openSUSE
+xfce4-settings-lang
 xfce4-taskmanager
 xfce4-vala
 xfconf

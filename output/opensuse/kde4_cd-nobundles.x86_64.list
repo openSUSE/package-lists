@@ -262,6 +262,8 @@ iputils
 ipw-firmware
 irda
 irqbalance
+iso-codes
+iso-codes-lang
 iw
 jfsutils
 jpackage-utils
@@ -290,7 +292,6 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdegames4
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -309,7 +310,6 @@ keditbookmarks
 kernel-desktop
 kernel-firmware
 keyutils
-keyutils-libs
 kfind
 kgamma
 kget
@@ -516,6 +516,7 @@ libkdegames4
 libkdepim4
 libkdepimlibs4
 libkexiv2-10
+libkeyutils1
 libkipi8
 libkonq5
 libksba
@@ -887,7 +888,11 @@ pulseaudio-utils
 pwdutils
 python
 python-base
+python-distribute
+python-kde4
+python-kdebase4
 python-pycurl
+python-pyudev
 python-qt4
 python-satsolver
 python-simplejson
@@ -939,6 +944,7 @@ susehelp_de
 susehelp_en
 suspend
 sweeper
+synaptiks
 sysconfig
 sysfsutils
 syslog-service
@@ -1005,7 +1011,6 @@ wodim
 wpa_supplicant
 wvdial
 wvstreams
-x11-input-fujitsu
 x11-tools
 xalan-j2
 xdg-menu

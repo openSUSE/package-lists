@@ -79,8 +79,6 @@ caribou-gtk3-module
 checkmedia
 cheese
 cifs-utils
-color-filesystem
-colord
 command-not-found
 coreutils
 cpio
@@ -193,8 +191,6 @@ glibc-locale
 gmime-sharp
 gnome-bluetooth
 gnome-bluetooth-plugins-geoclue
-gnome-color-manager
-gnome-color-manager-lang
 gnome-contacts
 gnome-control-center
 gnome-control-center-user-faces
@@ -292,12 +288,6 @@ hunspell
 hunspell-tools
 hwinfo
 iagno
-icc-profiles
-icc-profiles-basiccolor-lstarrgb
-icc-profiles-basiccolor-printing2009-coat2
-icc-profiles-lcms-lab
-icc-profiles-mini
-icc-profiles-openicc-rgb
 icewm
 ifnteuro
 ifplugd
@@ -312,7 +302,6 @@ iputils
 iso-codes
 kbd
 keyutils
-keyutils-libs
 klogd
 kpartx
 krb5
@@ -524,7 +513,6 @@ libhogweed2
 libical0
 libicu
 libidn
-libieee1284
 libimobiledevice2
 libiptcdata
 libiptcdata0
@@ -537,6 +525,7 @@ libjpeg62
 libjson-glib-1_0-0
 libjson0
 libkate1
+libkeyutils1
 libksba
 liblapack3
 liblcms1
@@ -638,7 +627,6 @@ libschroedinger-1_0-0
 libseed-gtk3-0
 libselinux1
 libsemanage1
-libsensors4
 libsepol1
 libsexy
 libsigc-2_0-0
@@ -646,7 +634,6 @@ libsilc-1_1-2
 libsilcclient-1_1-3
 libsmbclient0
 libsndfile
-libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb-client2
@@ -894,8 +881,6 @@ rpm
 rpm-python
 rsyslog
 rtkit
-sane-backends
-sane-backends-autoconfig
 satsolver-tools
 sax2-tools
 scout
@@ -907,7 +892,6 @@ shared-mime-info
 shotwell
 silc-toolkit
 smp_utils
-snmp-mibs
 sound-theme-freedesktop
 speech-dispatcher
 speech-dispatcher-module-espeak
@@ -956,8 +940,6 @@ tracker
 tracker-gui
 tracker-miner-files
 translation-update
-transmission-common
-transmission-gtk
 udev
 udev-configure-printer
 udisks

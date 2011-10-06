@@ -13,8 +13,6 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
-color-filesystem
-colord
 coreutils
 cpio
 cracklib
@@ -94,12 +92,6 @@ gvfs-fuse
 gzip
 hicolor-icon-theme
 hwinfo
-icc-profiles
-icc-profiles-basiccolor-lstarrgb
-icc-profiles-basiccolor-printing2009-coat2
-icc-profiles-lcms-lab
-icc-profiles-mini
-icc-profiles-openicc-rgb
 icewm
 icewm-default
 info
@@ -107,8 +99,6 @@ insserv
 iproute2
 jpackage-utils
 kbd
-keyutils-libs
-keyutils-libs-32bit
 krb5
 krb5-32bit
 lcms
@@ -190,15 +180,15 @@ libgudev-1_0-0
 libgvfscommon0
 libhogweed2
 libidn
-libieee1284
 libimobiledevice2
 libjasper1
 libjasper1-32bit
 libjpeg62
 libjpeg62-32bit
+libkeyutils1
+libkeyutils1-32bit
 libksba
 liblcms1
-liblcms2-2
 libldap-2_4-2
 liblockdev1
 libltdl7
@@ -245,10 +235,8 @@ libreiserfs
 libselinux1
 libselinux1-32bit
 libsemanage1
-libsensors4
 libsepol1
 libsmbclient0
-libsnmp30
 libsoup-2_4-1
 libsqlite3-0
 libssh2-1
@@ -318,8 +306,6 @@ pwdutils
 python-base
 readline-doc
 rpm
-sane-backends
-sane-backends-autoconfig
 satsolver-tools
 sed
 sendfax
@@ -329,7 +315,6 @@ shared-mime-info
 sharutils
 sharutils-lang
 site-config
-snmp-mibs
 squid
 sysconfig
 syslog-service
