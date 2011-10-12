@@ -28,7 +28,8 @@
     <lock kind='package' name='patterns-openSUSE-office'/>
     <lock kind='package' name='patterns-openSUSE-kde4_office'/>
     <lock kind='package' name='mozilla-kde4-integration'/>
-    <install kind='package' name='branding-basedopensuse'/>
+    <install kind='package' name='branding-basedonopensuse'/>
+    <install kind='package' name='bootsplash-branding-basedonopensuse'/>
     <lock kind='package' name='gimp'/>
     <!-- INCLUDE frozen.xml -->
 <install kind='pattern' name='base'/>
@@ -77,7 +78,6 @@
 <install kind='package' name='dosfstools'/>
 <install kind='package' name='cryptsetup'/>
 <install kind='package' name='btrfsprogs'/>
-<install kind='package' name='x11-input-fujitsu'/>
 <install kind='package' name='ndiswrapper'/>
 <install kind='package' name='ipw-firmware'/>
 <install kind='package' name='bluez-firmware'/>

@@ -9,7 +9,7 @@ bash
 bc
 bind-libs
 bind-utils
-branding-openSUSE
+branding-basedonopensuse
 bundle-lang-common-en
 bzip2
 ca-certificates
@@ -136,6 +136,7 @@ libreiserfs
 libselinux1
 libsemanage1
 libsepol1
+libsolv-tools
 libsqlite3-0
 libssh2-1
 libstdc++46
@@ -224,7 +225,6 @@ rpcbind
 rpm
 rsync
 rsyslog
-satsolver-tools
 sed
 shared-mime-info
 strace
@@ -233,7 +233,7 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemd-presets-branding-openSUSE
+systemd-presets-branding-basedonopensuse
 systemd-sysvinit
 sysvinit
 sysvinit-tools
@@ -268,6 +268,7 @@ xz
 yast2
 yast2-add-on
 yast2-bootloader
+yast2-branding-basedonopensuse
 yast2-core
 yast2-country
 yast2-country-data

@@ -48,7 +48,7 @@ osc api /build/$project/$repo/$arch/_builddepinfo > /tmp/builddep
 
 : > /tmp/torebuild
 touch $dir/package-lists-openSUSE
-for package in installation-images rpmlint-mini bundle-lang-common bundle-lang-kde bundle-lang-gnome kio_sysinfo-branding-upstream glib2-branding-openSUSE PackageKit-branding-openSUSE kiwi-config-openSUSE xfce4-branding-openSUSE; do
+for package in installation-images rpmlint-mini bundle-lang-common bundle-lang-kde bundle-lang-gnome kio_sysinfo-branding-upstream glib2-branding-openSUSE PackageKit-branding-openSUSE kiwi-config-openSUSE xfce4-branding-openSUSE kdebase4-openSUSE branding-openSUSE; do
   osc buildinfo $project $package $repo $arch | grep 'bdep name' | grep -v rpmlint > $dir/$package.new || true
   if diff -u $dir/$package.old $dir/$package.new | grep '^[+-]'; then
     echo $package >> /tmp/torebuild
