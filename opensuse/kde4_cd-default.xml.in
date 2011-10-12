@@ -14,6 +14,7 @@
     <lock package="rdesktop"/>
     <!-- INCLUDE ignore_opensuse-bundle-gnome.xml -->
     <!-- INCLUDE ignore_opensuse-images.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <lock package="compiz-kde"/>
     <lock package="gtk2-32bit"/>
     <lock name="office" kind="pattern"/>

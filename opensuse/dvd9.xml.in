@@ -50,6 +50,7 @@
     <lock kind="package" name="apache2-worker"/>
     <!-- INCLUDE frozen.xml -->
     <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <install kind="pattern" name="rest_dvd9"/>
     <install kind="package" name="openSUSE-release-dvd-biarch"/>
     <install kind="pattern" name="devel_gnome"/>

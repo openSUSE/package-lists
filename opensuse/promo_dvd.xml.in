@@ -32,6 +32,7 @@
     <!-- ignoring some recommends -->
     <lock package="oxygen-icon-theme-scalable"/>
     <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <!-- INCLUDE frozen.xml -->
     <install kind="pattern" name="rest_promo_dvd"/>
     <install kind="package" name="openSUSE-release-dvd-promo"/>

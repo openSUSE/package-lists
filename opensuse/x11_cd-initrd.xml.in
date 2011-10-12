@@ -10,6 +10,7 @@
     <!-- INCLUDE frozen.xml -->
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <install kind="package" name="bind-libs"/>
     <install kind="package" name="bind-utils"/>
     <install kind="package" name="bootsplash"/>

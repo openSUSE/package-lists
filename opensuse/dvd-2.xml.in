@@ -12,6 +12,7 @@
     <!-- INCLUDE frozen.xml -->
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-dvd5.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <install kind="package" name="sendmail"/>
     <install kind="package" name="sendfax"/>
     <install kind="package" name="xerces-j2-xml-resolver"/>

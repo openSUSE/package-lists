@@ -28,8 +28,7 @@
     <lock kind='package' name='patterns-openSUSE-office'/>
     <lock kind='package' name='patterns-openSUSE-kde4_office'/>
     <lock kind='package' name='mozilla-kde4-integration'/>
-    <install kind='package' name='branding-upstream'/>
-    <lock kind='package' name='bootsplash-branding-openSUSE'/>
+    <install kind='package' name='branding-basedopensuse'/>
     <lock kind='package' name='gimp'/>
     <!-- INCLUDE frozen.xml -->
 <install kind='pattern' name='base'/>
@@ -88,7 +87,6 @@
 <install kind='package' name='pam_fprint'/>
 <install kind='package' name='quota'/>
 <install kind='package' name='virtualbox-guest-x11'/>
-<install kind='package' name='gtk2-branding-upstream'/>
 <install kind='package' name='zd1211-firmware'/>
 <install kind='package' name='smpppd'/>
 <install kind='package' name='alsa-firmware'/>

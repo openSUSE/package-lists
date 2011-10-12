@@ -215,6 +215,7 @@
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE frozen.xml -->
     <!-- INCLUDE ignore_opensuse-dvd5.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <install kind="pattern" name="rest_dvd"/>
     <install kind="package" name="icewm-lite"/>
     <reportProblems/>

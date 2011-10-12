@@ -15,6 +15,7 @@
     <!-- INCLUDE ignore_opensuse-bundle-gnome.xml -->
     <!-- INCLUDE ignore_opensuse-bundle-kde.xml -->
     <!-- INCLUDE ignore_opensuse-bundle-common.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <lock package="gtk2-engines-32bit"/>
     <lock package="gnome2-user-docs"/> <!-- !i586 -->
     <!-- INCLUDE frozen.xml -->
