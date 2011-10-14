@@ -62,6 +62,7 @@ iptables
 iputils
 joe
 kbd
+klogd
 kpartx
 krb5
 less
@@ -137,7 +138,6 @@ libselinux1
 libsemanage1
 libsepol1
 libsolv-tools
-libsqlite3-0
 libssh2-1
 libstdc++46
 libstorage3
@@ -218,7 +218,6 @@ prctl
 procps
 psmisc
 pwdutils
-python
 python-base
 release-notes-openSUSE
 rpcbind
@@ -283,6 +282,7 @@ yast2-mouse
 yast2-ncurses
 yast2-ncurses-pkg
 yast2-network
+yast2-ntp-client
 yast2-online-update
 yast2-packager
 yast2-pam
@@ -301,4 +301,3 @@ yp-tools
 ypbind
 zlib
 zypper
-zypper-log

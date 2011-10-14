@@ -656,6 +656,7 @@ freeglut-32bit
 freeglut-devel
 freeglut-devel-32bit
 freemarker
+freerdp
 freetype
 freetype-tools
 freetype2-devel
@@ -1616,6 +1617,7 @@ libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
 libavahi-ui-gtk3-0
+libavahi-ui0
 libavc1394-0
 libavc1394-0-32bit
 libavogadro1
@@ -1831,6 +1833,7 @@ libfprint0
 libfprint0-32bit
 libfreebl3
 libfreebl3-32bit
+libfreerdp0
 libfreetype6
 libfreetype6-32bit
 libftgl2
@@ -3211,7 +3214,6 @@ patterns-openSUSE-devel_rpm_build
 patterns-openSUSE-devel_ruby
 patterns-openSUSE-devel_tcl
 patterns-openSUSE-devel_web
-patterns-openSUSE-devel_yast
 patterns-openSUSE-dhcp_dns_server
 patterns-openSUSE-directory_server
 patterns-openSUSE-enhanced_base
@@ -3278,7 +3280,6 @@ patterns-openSUSE-sw_management_kde4
 patterns-openSUSE-tabletpc
 patterns-openSUSE-technical_writing
 patterns-openSUSE-update_test
-patterns-openSUSE-voip
 patterns-openSUSE-webyast-ui
 patterns-openSUSE-webyast-ws
 patterns-openSUSE-x11
@@ -3463,6 +3464,7 @@ pinfo
 pinpoint
 pitivi
 pitivi-lang
+pk-update-icon
 pkcs11-helper
 pkg-config
 planner
@@ -3672,6 +3674,10 @@ rekonq-doc
 rekonq-lang
 relaxngDatatype
 release-notes-openSUSE
+remmina
+remmina-plugin-rdp
+remmina-plugin-vnc
+remmina-plugin-xdmcp
 resource-agents
 rhino
 rhythmbox
@@ -3905,6 +3911,7 @@ systemd-sysvinit
 systemtap
 systemtap-runtime
 sysvinit
+sysvinit-init
 sysvinit-tools
 t1lib
 tack
@@ -4226,6 +4233,7 @@ xfce4-panel-plugin-eyes
 xfce4-panel-plugin-fsguard
 xfce4-panel-plugin-genmon
 xfce4-panel-plugin-mailwatch
+xfce4-panel-plugin-mixer
 xfce4-panel-plugin-mount
 xfce4-panel-plugin-mpc
 xfce4-panel-plugin-netload
