@@ -25,6 +25,7 @@
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
     <!-- INCLUDE ignore_opensuse-kde-cd.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <lock package="pam-32bit"/> <!-- !i586 !ppc -->
     <lock package="kdelibs3"/>
     <lock package="kdelibs3-default-style"/>
