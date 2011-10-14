@@ -47,7 +47,14 @@ while ( <FILE> ) {
 }
 my $ret = 0;
 for my $line (sort keys %lines) {
-  print "virtual provide: $line\n"; 
+  print "virtual provide: $line - "; 
+  open(PIPE, "grep 'User requirement $line sets' output/opensuse/ftp-testall*$arch.error | sed -e 's,\.noarch,.$arch,' | sed -e 's,.*requirement $line sets,,; s,-[^-]*-[^-]*\.$arch(tmp),,; s,^.*),,' | sort -u |");
+  while ( <PIPE> ) {
+    chomp;
+    print $_;
+    print " ";
+  }
+  print "\n";
   $ret = 1;
   #system("egrep '^(=Pkg:|$line)' testtrack/full-obs-$arch/suse/setup/descr/packages | grep -B1 -x $line");
 }

@@ -1006,6 +1006,7 @@ install-initrd
 install-initrd-branding-openSUSE
 intlfnts
 intltool
+iodbc
 iproute2
 ipsec-tools
 iptables
@@ -1337,7 +1338,7 @@ krb5
 krb5-client
 krb5-devel
 krdc
-kremotecontrol-doc
+kremotecontrol
 krename
 kreversi
 krfb
@@ -1832,6 +1833,7 @@ libindi-devel
 libindi0
 libini_config2
 libiniparser0
+libiodbc-devel
 libiodbc3
 libiptcdata
 libiptcdata0
@@ -3444,6 +3446,7 @@ thunar-lang
 thunar-plugin-archive
 thunar-plugin-media-tags
 thunar-volman
+thunar-volman-branding-openSUSE
 thunar-volman-lang
 tiff
 tightvnc
@@ -3523,7 +3526,6 @@ ungifsicle
 unison
 units
 unixODBC
-unixODBC-devel
 unoconv
 unscd
 unzip

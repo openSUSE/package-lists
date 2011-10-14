@@ -428,7 +428,6 @@ corosync
 cpio
 cpp
 cpp46
-cpufrequtils-32bit
 cpupower
 cracklib
 cracklib-dict-full
@@ -601,6 +600,7 @@ fbset
 fdupes
 fetchmail
 fftw3
+fftw3-32bit
 fftw3-devel
 fftw3-threads
 fifth-leg-font
@@ -700,6 +700,7 @@ gdbm-devel-32bit
 gdk-pixbuf-devel
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
+gdk-pixbuf-loader-rsvg-32bit
 gdk-pixbuf-query-loaders
 gdk-pixbuf-query-loaders-32bit
 gdm
@@ -922,6 +923,7 @@ gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugin-gnonlin
 gstreamer-0_10-plugins-bad
+gstreamer-0_10-plugins-bad-32bit
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-32bit
 gstreamer-0_10-plugins-base-devel
@@ -1073,6 +1075,7 @@ install-initrd
 install-initrd-branding-openSUSE
 intlfnts
 intltool
+iodbc
 iproute2
 ipsec-tools
 iptables
@@ -1407,7 +1410,7 @@ krb5-client
 krb5-devel
 krb5-devel-32bit
 krdc
-kremotecontrol-doc
+kremotecontrol
 krename
 kreversi
 krfb
@@ -1482,6 +1485,7 @@ libSDL_mixer-1_2-0
 libSDL_net-1_2-0
 libSDL_ttf-2_0-0
 libSoundTouch0
+libSoundTouch0-32bit
 libXi6
 libXi6-32bit
 libXi6-devel
@@ -1524,6 +1528,7 @@ libasound2
 libasound2-32bit
 libaspell15
 libass4
+libass4-32bit
 libassuan-devel
 libassuan0
 libatasmart4
@@ -1626,6 +1631,7 @@ libcares2
 libcares2-32bit
 libcaribou0
 libcdaudio
+libcdaudio-32bit
 libcdda_interface0
 libcdda_interface0-32bit
 libcdda_paranoia0
@@ -1636,6 +1642,7 @@ libcdio12
 libcdio_cdda0
 libcdio_paranoia0
 libcelt0-2
+libcelt0-2-32bit
 libcfitsio-devel
 libcfitsio0
 libchamplain-0_12-0
@@ -1665,6 +1672,7 @@ libcpupower0
 libcrack2
 libcrack2-32bit
 libcroco-0_6-3
+libcroco-0_6-3-32bit
 libcryptsetup1
 libcurl-devel
 libcurl4
@@ -1682,11 +1690,14 @@ libdbi0
 libdbusmenu-qt-devel
 libdbusmenu-qt2
 libdc1394-22
+libdc1394-22-32bit
 libdconf0
 libdee-1_0-0
 libdhash1
 libdirac_encoder0
+libdirac_encoder0-32bit
 libdirectfb-1_4-5
+libdirectfb-1_4-5-32bit
 libdiscid1
 libdjvulibre-devel
 libdjvulibre21
@@ -1704,8 +1715,10 @@ libdrm-devel
 libdv4
 libdv4-32bit
 libdvdnav4
+libdvdnav4-32bit
 libdvdread-devel
 libdvdread4
+libdvdread4-32bit
 libdw1
 libeXosip2-6
 libeXosip2-devel
@@ -1727,6 +1740,7 @@ libelf0-32bit
 libelf1
 libelf1-32bit
 libenca0
+libenca0-32bit
 libenchant1
 libepc-1_0-2
 libepub-devel
@@ -1846,6 +1860,7 @@ libglib-2_0-0-32bit
 libglibmm-2_4-1
 libglue2
 libgme0
+libgme0-32bit
 libgmime-2_4-2
 libgmm++-devel
 libgmodule-2_0-0
@@ -1905,6 +1920,7 @@ libgsf-1-114
 libgsf-devel
 libgsf-gnome
 libgsm1
+libgsm1-32bit
 libgssdp-1_0-3
 libgssglue-devel
 libgssglue1
@@ -1912,15 +1928,20 @@ libgssglue1-32bit
 libgstapp-0_10-0
 libgstapp-0_10-0-32bit
 libgstbasecamerabinsrc-0_10-0
+libgstbasecamerabinsrc-0_10-0-32bit
 libgstbasevideo-0_10-0
+libgstbasevideo-0_10-0-32bit
 libgstfarsight-0_10-0
 libgstinterfaces-0_10-0
 libgstinterfaces-0_10-0-32bit
 libgstphotography-0_10-0
+libgstphotography-0_10-0-32bit
 libgstreamer-0_10-0
 libgstreamer-0_10-0-32bit
 libgstsignalprocessor-0_10-0
+libgstsignalprocessor-0_10-0-32bit
 libgstvdp-0_10-0
+libgstvdp-0_10-0-32bit
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -1989,6 +2010,7 @@ libindi0
 libini_config2
 libiniparser0
 libiniparser0-32bit
+libiodbc-devel
 libiodbc3
 libiptcdata
 libiptcdata0
@@ -2008,10 +2030,12 @@ libjpeg-turbo
 libjpeg62
 libjpeg62-32bit
 libjpeg62-devel
+libjpeg62-devel-32bit
 libjson-glib-1_0-0
 libjson0
 libjson0-32bit
 libkate1
+libkate1-32bit
 libkcddb4
 libkcddb4-devel
 libkcompactdisc4
@@ -2104,6 +2128,7 @@ libmng
 libmng-32bit
 libmng-devel
 libmodman1
+libmodman1-32bit
 libmodplug1
 libmodplug1-32bit
 libmono-2_0-1
@@ -2116,6 +2141,7 @@ libmp3-32bit
 libmpc2
 libmpcdec-devel
 libmpcdec5
+libmpcdec5-32bit
 libmpd1
 libmpfr4
 libmpfr4-32bit
@@ -2128,6 +2154,7 @@ libmusicbrainz-devel
 libmusicbrainz3-6
 libmusicbrainz3-devel
 libmusicbrainz4
+libmusicbrainz4-32bit
 libmx-1_0-2
 libmxml1
 libmygpo-qt-devel
@@ -2145,6 +2172,7 @@ libncurses5-32bit
 libncurses6
 libncurses6-32bit
 libneon27
+libneon27-32bit
 libnet1
 libnetcdf-devel
 libnetcdf4
@@ -2182,6 +2210,7 @@ liboauth0
 libobjc46
 libobjc46-32bit
 libofa0
+libofa0-32bit
 libofx
 libofx-devel
 libofx4
@@ -2298,7 +2327,9 @@ libprison-devel
 libprison0
 libprotobuf6
 libproxy1
+libproxy1-32bit
 libproxy1-config-gnome3
+libproxy1-config-gnome3-32bit
 libproxy1-config-kde4
 libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
@@ -2475,6 +2506,7 @@ libreoffice-writer
 libreoffice-writer-extensions
 librest0
 librsvg-2-2
+librsvg-2-2-32bit
 librsvg-devel
 librsync
 libsamplerate
@@ -2592,6 +2624,7 @@ libtiff-devel-32bit
 libtiff3
 libtiff3-32bit
 libtimidity-0_1-0
+libtimidity-0_1-0-32bit
 libtirpc1
 libtirpc1-32bit
 libtomoe-gtk0
@@ -2659,6 +2692,7 @@ libvorbisenc2-32bit
 libvorbisfile3
 libvorbisfile3-32bit
 libvpx0
+libvpx0-32bit
 libvte2_90-9
 libvte9
 libwavpack1
@@ -3701,6 +3735,7 @@ synapse-lang
 synaptiks
 sysconfig
 sysfsutils
+sysfsutils-32bit
 syslinux
 syslog-ng
 syslog-service
@@ -3777,6 +3812,7 @@ thunar-lang
 thunar-plugin-archive
 thunar-plugin-media-tags
 thunar-volman
+thunar-volman-branding-openSUSE
 thunar-volman-lang
 tiff
 tightvnc
@@ -3861,8 +3897,6 @@ unison
 units
 unixODBC
 unixODBC-32bit
-unixODBC-devel
-unixODBC-devel-32bit
 unoconv
 unscd
 unzip
