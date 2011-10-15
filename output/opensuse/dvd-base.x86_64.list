@@ -9,7 +9,7 @@ bash
 bc
 bind-libs
 bind-utils
-branding-basedonopensuse
+branding-openSUSE
 bundle-lang-common-en
 bzip2
 ca-certificates
@@ -26,6 +26,7 @@ curl
 cyrus-sasl
 dbus-1
 dbus-1-glib
+dbus-1-python
 deltarpm
 device-mapper
 dhcpcd
@@ -43,7 +44,7 @@ fillup
 findutils
 gawk
 gdbm
-gio-branding-basedonopensuse
+gio-branding-openSUSE
 glib2-tools
 glibc
 glibc-32bit
@@ -140,6 +141,7 @@ libselinux1
 libsemanage1
 libsepol1
 libsolv-tools
+libsqlite3-0
 libssh2-1
 libstdc++46
 libstorage3
@@ -156,6 +158,7 @@ libuuid1
 libx86emu1
 libxcrypt
 libxml2
+libxml2-python
 libxtables7
 libzio
 libzypp
@@ -221,7 +224,9 @@ prctl
 procps
 psmisc
 pwdutils
+python
 python-base
+python-xml
 release-notes-openSUSE
 rpcbind
 rpm
@@ -235,7 +240,7 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemd-presets-branding-basedonopensuse
+systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
 sysvinit-tools
@@ -261,6 +266,7 @@ util-linux
 vim
 vim-base
 w3m
+wallpaper-branding-openSUSE
 wget
 wireless-tools
 wol
@@ -270,7 +276,6 @@ xz
 yast2
 yast2-add-on
 yast2-bootloader
-yast2-branding-basedonopensuse
 yast2-core
 yast2-country
 yast2-country-data

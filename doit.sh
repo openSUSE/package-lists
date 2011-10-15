@@ -10,9 +10,10 @@ do_opensuse()
     ./gen.sh opensuse/dvd-1
     ./gen.sh opensuse/dvd-2
     ./gen.sh opensuse/dvd-3
+    ./gen.sh opensuse/dvd-base
     ./gen.sh opensuse/dvd9
     for i in i586 x86_64; do
-      cat output/opensuse/dvd-1.$i.list output/opensuse/dvd-2.$i.list output/opensuse/dvd-3.$i.list | LC_ALL=C sort -u > output/opensuse/dvd-$i.list
+      cat output/opensuse/dvd-1.$i.list output/opensuse/dvd-2.$i.list output/opensuse/dvd-3.$i.list output/opensuse/dvd-base.$i.list | LC_ALL=C sort -u > output/opensuse/dvd-$i.list
       cat output/opensuse/dvd-$i.list output/opensuse/dvd9.$i.list | LC_ALL=C sort -u > output/opensuse/dvd9-$i.list
     done
 
@@ -32,7 +33,6 @@ do_opensuse()
 
     ./gen.sh opensuse/promo_dvd
     ./gen.sh opensuse/dvd-addon_lang
-    ./gen.sh opensuse/dvd-base
     ./langaddon.sh
     return 0
 }

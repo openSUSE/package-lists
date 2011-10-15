@@ -6,6 +6,7 @@
   </setup>
   <trial>
     <!-- INCLUDE frozen.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <install kind="pattern" name="minimal_base"/>
     <install kind="pattern" name="minimal_base-conflicts"/>
     <reportProblems/>
