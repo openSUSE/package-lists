@@ -40,6 +40,10 @@ NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
 OpenIPMI
+OpenPrintingPPDs
+OpenPrintingPPDs-ghostscript
+OpenPrintingPPDs-hpijs
+OpenPrintingPPDs-postscript
 PTSans-fonts
 PTSerif-fonts
 PackageKit
@@ -89,9 +93,6 @@ alsa-plugins-pulse
 alsa-tools
 alsa-utils
 amarok
-amavisd-milter
-amavisd-new
-amavisd-new-docs
 amor
 anjuta
 anjuta-extras
@@ -466,6 +467,7 @@ docbook_3
 docbook_4
 dolphin
 dos2unix
+dosbox
 dosfstools
 dotconf
 dovecot12
@@ -917,6 +919,7 @@ hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hplip
 hplip-hpijs
+hplip-sane
 htdig
 htmldoc
 hugin
@@ -1371,6 +1374,7 @@ libSDL_Pango1
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
 libSDL_net-1_2-0
+libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSoundTouch0
 libXi6
@@ -2681,7 +2685,6 @@ openconnect-devel
 opencv
 opencv-devel
 openhpi
-openhpi-daemon
 openjade
 openldap2
 openldap2-client
@@ -2839,9 +2842,7 @@ pdfmod
 pdfmod-lang
 perl
 perl-Algorithm-Diff
-perl-Archive-Zip
 perl-Authen-SASL
-perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
@@ -2850,10 +2851,6 @@ perl-Clone
 perl-Config-Crontab
 perl-Config-General
 perl-Config-IniFiles
-perl-Convert-ASN1
-perl-Convert-BinHex
-perl-Convert-TNEF
-perl-Convert-UUlib
 perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
@@ -2894,7 +2891,6 @@ perl-IP-Country
 perl-IPC-Run3
 perl-Inline
 perl-LWP-MediaTypes
-perl-MIME-tools
 perl-MLDBM
 perl-Mail-DKIM
 perl-Mail-Mbox-MessageParser
@@ -2934,7 +2930,6 @@ perl-Tie-IxHash
 perl-TimeDate
 perl-Tk
 perl-URI
-perl-Unix-Syslog
 perl-WWW-RobotRules
 perl-X500-DN
 perl-XML-LibXML
@@ -2949,7 +2944,6 @@ perl-YAML-Syck
 perl-apparmor
 perl-base
 perl-gettext
-perl-ldap
 perl-libwww-perl
 perl-razor-agents
 perl-satsolver
@@ -2994,7 +2988,6 @@ planner-evolution
 planner-lang
 plasma-addons
 plasma-addons-marble
-plasma-theme-aya
 plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess
@@ -3471,7 +3464,6 @@ uim-gtk2
 uim-gtk3
 ulimit
 umbrello
-unarj
 unclutter
 unfonts
 ungifsicle
@@ -3649,6 +3641,7 @@ xfsdump
 xfsprogs
 xfwm4
 xfwm4-branding-openSUSE
+xfwm4-doc
 xfwm4-themes
 xine-ui
 xinetd
@@ -3911,7 +3904,6 @@ zip
 zisofs-tools
 zlib
 zlib-devel
-zoo
 zsh
 zypp-plugin-python
 zypper

@@ -56,6 +56,10 @@ NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
 NetworkManager-vpnc-lang
 OpenIPMI
+OpenPrintingPPDs
+OpenPrintingPPDs-ghostscript
+OpenPrintingPPDs-hpijs
+OpenPrintingPPDs-postscript
 PTSans-fonts
 PTSerif-fonts
 PackageKit
@@ -115,9 +119,6 @@ alsa-tools
 alsa-utils
 amarok
 amarok-lang
-amavisd-milter
-amavisd-new
-amavisd-new-docs
 amor
 anjuta
 anjuta-extras
@@ -615,6 +616,7 @@ docbook_4
 docbook_5
 dolphin
 dos2unix
+dosbox
 dosfstools
 dotconf
 dovecot12
@@ -1186,6 +1188,7 @@ hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hplip
 hplip-hpijs
+hplip-sane
 htdig
 htmldoc
 hugin
@@ -1730,6 +1733,7 @@ libSDL_Pango1
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
 libSDL_net-1_2-0
+libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSoundTouch0
 libSoundTouch0-32bit
@@ -3481,7 +3485,6 @@ openconnect-devel
 opencv
 opencv-devel
 openhpi
-openhpi-daemon
 openjade
 openldap2
 openldap2-client
@@ -3672,9 +3675,7 @@ pdfmod-lang
 perl
 perl-32bit
 perl-Algorithm-Diff
-perl-Archive-Zip
 perl-Authen-SASL
-perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
@@ -3683,10 +3684,6 @@ perl-Clone
 perl-Config-Crontab
 perl-Config-General
 perl-Config-IniFiles
-perl-Convert-ASN1
-perl-Convert-BinHex
-perl-Convert-TNEF
-perl-Convert-UUlib
 perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
@@ -3725,7 +3722,6 @@ perl-IO-stringy
 perl-IP-Country
 perl-Inline
 perl-LWP-MediaTypes
-perl-MIME-tools
 perl-MLDBM
 perl-Mail-DKIM
 perl-Mail-Mbox-MessageParser
@@ -3762,7 +3758,6 @@ perl-Text-Diff
 perl-Tie-IxHash
 perl-TimeDate
 perl-URI
-perl-Unix-Syslog
 perl-WWW-RobotRules
 perl-X500-DN
 perl-XML-DOM
@@ -3781,7 +3776,6 @@ perl-base
 perl-base-32bit
 perl-doc
 perl-gettext
-perl-ldap
 perl-libwww-perl
 perl-libxml-perl
 perl-razor-agents
@@ -3828,7 +3822,6 @@ planner-evolution
 planner-lang
 plasma-addons
 plasma-addons-marble
-plasma-theme-aya
 plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess
@@ -4071,7 +4064,7 @@ rubygem-locale_rails
 rubygem-passenger
 rubygem-passenger-nginx
 rubygem-polkit
-rubygem-rack-1_1
+rubygem-rack-1_3
 rubygem-rails-2_3
 rubygem-rake
 rubygem-rpam
@@ -4419,7 +4412,6 @@ uim-gtk3
 uim-qt4-32bit
 ulimit
 umbrello
-unarj
 unclutter
 unfonts
 ungifsicle
@@ -4639,6 +4631,7 @@ xfsdump
 xfsprogs
 xfwm4
 xfwm4-branding-openSUSE
+xfwm4-doc
 xfwm4-themes
 xine-ui
 xine-ui-32bit
@@ -4946,7 +4939,6 @@ zlib
 zlib-32bit
 zlib-devel
 zlib-devel-32bit
-zoo
 zsh
 zypp-plugin-python
 zypper

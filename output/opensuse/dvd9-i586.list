@@ -22,7 +22,6 @@ LibVNCServer-devel
 LinuxLibertine
 Mesa
 Mesa-devel
-MesaGLw
 ModemManager
 MozillaFirefox
 MozillaFirefox-branding-openSUSE
@@ -43,6 +42,10 @@ NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
 OpenIPMI
+OpenPrintingPPDs
+OpenPrintingPPDs-ghostscript
+OpenPrintingPPDs-hpijs
+OpenPrintingPPDs-postscript
 PTSans-fonts
 PTSerif-fonts
 PackageKit
@@ -95,9 +98,6 @@ alsa-plugins-pulse
 alsa-tools
 alsa-utils
 amarok
-amavisd-milter
-amavisd-new
-amavisd-new-docs
 amor
 anjuta
 anjuta-extras
@@ -140,7 +140,6 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-appframework
 apport
 apport-crashdb-opensuse
 apport-gtk
@@ -156,7 +155,6 @@ arpwatch
 arpwatch-ethercodes
 art-sharp2
 asm
-asm2
 aspell
 aspell-cs
 aspell-da
@@ -219,9 +217,7 @@ bash
 bash-doc
 bc
 bcel
-bea-stax
 bea-stax-api
-beansbinding
 beaver
 bin86
 bind
@@ -343,7 +339,6 @@ bundle-lang-kde-sv
 bundle-lang-kde-zh
 busybox
 bwidget
-bytelist
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -396,7 +391,6 @@ clutter-gtk-devel
 cm-unicode
 cmake
 cnetworkmanager
-cobertura
 cogl-devel
 collectd
 command-not-found
@@ -510,8 +504,8 @@ docbook_3
 docbook_4
 docbook_5
 dolphin
-dom4j
 dos2unix
+dosbox
 dosfstools
 dotconf
 dovecot12
@@ -618,7 +612,6 @@ fortune
 freefont
 freeglut
 freeglut-devel
-freemarker
 freerdp
 freetype
 freetype-tools
@@ -683,12 +676,8 @@ gegl-0_1
 genisoimage
 geoclue
 geoclue-recommended
-geronimo-el-1_0-api
 geronimo-j2ee-1_4-apis
-geronimo-jsp-2_0-api
-geronimo-servlet-2_4-api
 geronimo-specs-poms
-geronimo-stax-1_0-api
 getdata
 getdata-devel
 getdata-doc
@@ -976,7 +965,6 @@ gwenview
 gwibber
 gxditview
 gzip
-hamcrest
 hamster-applet
 hamster-applet-lang
 handedict
@@ -988,6 +976,7 @@ hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hplip
 hplip-hpijs
+hplip-sane
 htdig
 htmldoc
 hugin
@@ -1080,7 +1069,6 @@ iscsitarget-kmp-xen
 isns
 iso-codes
 iso_ent
-isorelax
 ispell
 ispell-american
 ispell-brazilian
@@ -1124,7 +1112,6 @@ jakarta-commons-lang
 jakarta-commons-launcher
 jakarta-commons-logging
 jakarta-commons-modeler
-jakarta-commons-net
 jakarta-commons-parent
 jakarta-commons-pool
 jakarta-commons-validator
@@ -1134,29 +1121,17 @@ java-1_6_0-openjdk
 java-1_6_0-openjdk-devel
 java-ca-certificates
 javacc
-javahelp2
-jaxen
-jcodings
 jdepend
-jdom
 jedit
-jemmy
 jfsutils
 jing
 jline
-jna
-joda-time
 joe
 jpackage-utils
-jsch
 json-glib-devel
 jtools
 juk
 junit
-junit4
-jvyamlb
-jython
-jzlib
 k3b
 kaddressbook
 kaffeine
@@ -1464,6 +1439,7 @@ libSDL_Pango1
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
 libSDL_net-1_2-0
+libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSoundTouch0
 libXi6
@@ -2215,7 +2191,6 @@ librcc0
 librcd0
 librcps-devel
 librcps0
-libreadline-java
 libreadline6
 libredland-devel
 libredland0
@@ -2576,7 +2551,6 @@ lsscsi
 ltrace
 lua
 lua-devel
-lucene
 lukemftp
 lv
 lvm2
@@ -2759,15 +2733,6 @@ nemiver-lang
 net-snmp
 net-snmp-devel
 net-tools
-netbeans
-netbeans-apisupport
-netbeans-ide
-netbeans-java
-netbeans-javaparser
-netbeans-platform
-netbeans-platform-harness
-netbeans-resolver
-netbeans-svnclientadapter
 netcat-openbsd
 netcfg
 netpbm
@@ -2794,7 +2759,6 @@ obconf
 obex-data-server
 obexd
 obexd-client
-objectweb-asm
 ocaml
 ocaml-facile
 ocfs2-tools
@@ -2823,7 +2787,6 @@ openconnect-devel
 opencv
 opencv-devel
 openhpi
-openhpi-daemon
 openjade
 openldap2
 openldap2-client
@@ -2997,9 +2960,7 @@ pdfmod
 pdfmod-lang
 perl
 perl-Algorithm-Diff
-perl-Archive-Zip
 perl-Authen-SASL
-perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
@@ -3008,10 +2969,6 @@ perl-Clone
 perl-Config-Crontab
 perl-Config-General
 perl-Config-IniFiles
-perl-Convert-ASN1
-perl-Convert-BinHex
-perl-Convert-TNEF
-perl-Convert-UUlib
 perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
@@ -3052,7 +3009,6 @@ perl-IP-Country
 perl-IPC-Run3
 perl-Inline
 perl-LWP-MediaTypes
-perl-MIME-tools
 perl-MLDBM
 perl-Mail-DKIM
 perl-Mail-Mbox-MessageParser
@@ -3092,7 +3048,6 @@ perl-Tie-IxHash
 perl-TimeDate
 perl-Tk
 perl-URI
-perl-Unix-Syslog
 perl-WWW-RobotRules
 perl-X500-DN
 perl-XML-DOM
@@ -3110,7 +3065,6 @@ perl-apparmor
 perl-base
 perl-doc
 perl-gettext
-perl-ldap
 perl-libwww-perl
 perl-libxml-perl
 perl-razor-agents
@@ -3157,7 +3111,6 @@ planner-evolution
 planner-lang
 plasma-addons
 plasma-addons-marble
-plasma-theme-aya
 plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess
@@ -3317,7 +3270,6 @@ python-zope.interface
 python-zypp
 python3-base
 python3-xml
-qdox
 qemu
 qhull
 qhull-devel
@@ -3353,7 +3305,6 @@ reiserfs
 rekonq
 rekonq-doc
 rekonq-lang
-relaxngDatatype
 release-notes-openSUSE
 remmina
 remmina-plugin-rdp
@@ -3395,7 +3346,7 @@ rubygem-locale_rails
 rubygem-passenger
 rubygem-passenger-nginx
 rubygem-polkit
-rubygem-rack-1_1
+rubygem-rack-1_3
 rubygem-rails-2_3
 rubygem-rake
 rubygem-rpam
@@ -3419,7 +3370,6 @@ sane-backends-devel
 sash
 sax2-tools
 saxon
-saxpath
 sazanami-fonts
 sbl
 scim
@@ -3536,7 +3486,6 @@ step
 strace
 strigi
 strigi-devel
-struts
 subversion
 subversion-devel
 subversion-doc
@@ -3561,8 +3510,6 @@ svg-schema
 sweeper
 swell-foop
 swig
-swing-layout
-swingx
 synapse
 synapse-lang
 synaptiks
@@ -3615,7 +3562,6 @@ telepathy-mission-control-plugin-goa
 telepathy-salut
 telepathy-sofiasip
 telnet
-termcap
 terminfo
 terminfo-base
 terminus-font
@@ -3714,7 +3660,6 @@ uim-gtk2
 uim-gtk3
 ulimit
 umbrello
-unarj
 unclutter
 unfonts
 ungifsicle
@@ -3821,7 +3766,6 @@ wondershaper
 words
 wpa_supplicant
 wpa_supplicant-gui
-ws-jaxme
 wsdl4j
 wv
 wv2-devel
@@ -3919,6 +3863,7 @@ xfsdump
 xfsprogs
 xfwm4
 xfwm4-branding-openSUSE
+xfwm4-doc
 xfwm4-themes
 xine-ui
 xinetd
@@ -4004,8 +3949,6 @@ xosview
 xournal
 xpdf-poppler
 xplanet
-xpp2
-xpp3
 xsane
 xscreensaver
 xscreensaver-data
@@ -4200,7 +4143,6 @@ ypserv
 yudit
 yum-common
 yum-metadata-parser
-z88
 zd1211-firmware
 zeitgeist
 zeitgeist-datahub
@@ -4210,7 +4152,6 @@ zip
 zisofs-tools
 zlib
 zlib-devel
-zoo
 zsh
 zypp-plugin-python
 zypper

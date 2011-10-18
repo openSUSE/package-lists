@@ -2,7 +2,6 @@ ConsoleKit
 ConsoleKit-x11
 DirectFB
 DirectFB-Mesa
-ImageMagick
 LibVNCServer
 Mesa
 ModemManager
@@ -106,7 +105,6 @@ dvd+rw-tools
 e2fsprogs
 eject
 elfutils
-enblend-enfuse
 ethtool
 fbset
 file
@@ -124,6 +122,7 @@ gconf2-branding-openSUSE
 gd
 gdb
 gdbm
+gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
@@ -140,8 +139,6 @@ glibc
 glibc-32bit
 glibc-locale
 glibc-locale-32bit
-gnome-icon-theme
-gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
 gpart
@@ -156,23 +153,17 @@ gsettings-desktop-schemas
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
-gtk2-branding-openSUSE
 gtk2-data
-gtk2-engines
 gtk2-immodule-amharic
 gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
-gtk2-metatheme-adwaita
 gtk2-tools
-gtk3-branding-openSUSE
 gtk3-data
 gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
-gtk3-metatheme-adwaita
-gtk3-theming-engine-adwaita
 gtk3-tools
 gwenview
 gxditview
@@ -240,7 +231,6 @@ kio_iso
 kio_kamera
 kio_sysinfo
 kio_sysinfo-branding-openSUSE
-kipi-plugins
 klogd
 kmag
 kmahjongg
@@ -278,7 +268,6 @@ kwrite
 lcms
 less
 libFLAC8
-libGLEW1_6
 libIlmImf6
 libMagickCore5
 libMagickWand5
@@ -322,12 +311,12 @@ libcloog0
 libcolord1
 libcom_err2
 libcrack2
+libcroco-0_6-3
 libcryptsetup1
 libcurl4
 libdaemon0
 libdb-4_8
 libdbusmenu-qt2
-libdc1394-22
 libdconf0
 libdirectfb-1_4-5
 libdiscid1
@@ -370,8 +359,6 @@ libgomp46
 libgpg-error0
 libgpgme11
 libgphoto2
-libgpod-tools
-libgpod4
 libgps20
 libgrantlee_core0
 libgssglue1
@@ -397,7 +384,6 @@ libjson0
 libkate1
 libkcddb4
 libkcompactdisc4
-libkdcraw20
 libkde4
 libkdecore4
 libkdegames4
@@ -430,6 +416,7 @@ libmozjs185-1_0
 libmpc2
 libmpfr4
 libmusicbrainz3-6
+libmysqlclient18
 libncurses5
 libncurses5-32bit
 libncurses6
@@ -446,7 +433,6 @@ libntfs-3g81
 libnuma1
 libogg0
 liboggkate1
-libopencv2_3
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
@@ -488,6 +474,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
+libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
 libqzeitgeist0
@@ -497,6 +484,7 @@ libraw1394-11
 libreadline6
 libredland0
 libreiserfs
+librsvg-2-2
 libsamplerate
 libselinux1
 libsemanage1
@@ -549,7 +537,6 @@ libx86emu1
 libxcrypt
 libxine1
 libxine1-pulse
-libxmi0
 libxml2
 libxml2-python
 libxslt1
@@ -576,7 +563,6 @@ mailx
 man
 master-boot-code
 mdadm
-metatheme-adwaita-common
 microcode_ctl
 mingetty
 mkinitrd
@@ -587,6 +573,8 @@ mozilla-nss
 mozilla-nss-certs
 mtools
 multipath-tools
+mysql-community-server
+mysql-community-server-client
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -644,7 +632,6 @@ pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
-plasma-theme-aya
 plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess
