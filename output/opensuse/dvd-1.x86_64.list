@@ -377,6 +377,7 @@ cm-unicode
 cmake
 cnetworkmanager
 cogl-devel
+collectd
 command-not-found
 commoncpp2
 commoncpp2-devel
@@ -873,6 +874,8 @@ gnu-regexp
 gnucash
 gnucash-docs
 gnucash-lang
+gnumeric
+gnumeric-lang
 gnutls
 gobject-introspection
 gobject-introspection-devel
@@ -1303,6 +1306,7 @@ kiosktool-lang
 kipi-plugins
 kipi-plugins-acquireimage
 kipi-plugins-geolocation
+kipi-plugins-lang
 kiriki
 kismet
 kiten
@@ -1632,6 +1636,7 @@ libclutter-gst-1_0-0
 libclutter-gtk-1_0-0
 libcogl-pango0
 libcogl5
+libcollectdclient0
 libcollection2
 libcolord1
 libcom_err-devel
@@ -1667,7 +1672,7 @@ libdbusmenu-qt2
 libdc1394-22
 libdc1394-22-32bit
 libdconf0
-libdee-1_0-0
+libdee-1_0-1
 libdhash1
 libdirac_encoder0
 libdirac_encoder0-32bit
@@ -2222,6 +2227,7 @@ libopensync
 libopensync-plugin-google-calendar
 libopensync-plugin-moto
 libopensync-plugin-python-module
+liboping0
 liborc-0_4-0
 liborc-0_4-0-32bit
 libosip2
@@ -2479,7 +2485,6 @@ librsvg-2-2-32bit
 librsvg-devel
 librsync
 libsamplerate
-libsamplerate-32bit
 libsamplerate-devel
 libschroedinger-1_0-0
 libschroedinger-1_0-0-32bit
@@ -2549,6 +2554,7 @@ libssh2-1
 libssh2-1-32bit
 libssh4
 libstartup-notification-1-0
+libstatgrab6
 libstdc++-devel
 libstdc++33
 libstdc++46
@@ -3574,6 +3580,7 @@ rpm
 rpm-32bit
 rpm-devel
 rpm-python
+rrdtool
 rsh
 rsibreak
 rsibreak-lang
@@ -3651,6 +3658,7 @@ scim-uim
 scons
 scout
 screen
+scribus
 scrollkeeper
 scrollkeeper-lang
 seahorse
@@ -3663,6 +3671,7 @@ sed
 seed
 semi-xemacs
 sendmail
+sensors
 servletapi5
 setserial
 sfftobmp
@@ -3987,8 +3996,21 @@ w3m-el-xemacs
 wallpaper-branding-openSUSE
 wdiff
 webkit-sharp
+webyast-activedirectory-ws
 webyast-base-ws
+webyast-firewall-ws
+webyast-kerberos-ws
+webyast-ldap-ws
+webyast-licenses-ws
+webyast-network-ws
+webyast-ntp-ws
+webyast-roles-ws
+webyast-root-user-ws
+webyast-services-ws
 webyast-software-ws
+webyast-status-ws
+webyast-time-ws
+webyast-users-ws
 wget
 whois
 wiggle
@@ -4055,6 +4077,7 @@ xfce4-notifyd
 xfce4-notifyd-branding-openSUSE
 xfce4-panel
 xfce4-panel-branding-openSUSE
+xfce4-panel-doc
 xfce4-panel-plugin-battery
 xfce4-panel-plugin-battery-lang
 xfce4-panel-plugin-cellmodem
@@ -4298,6 +4321,7 @@ yast2-qt-branding-openSUSE
 yast2-qt-graph
 yast2-qt-pkg
 yast2-restore
+yast2-ruby-bindings
 yast2-runlevel
 yast2-samba-client
 yast2-samba-server

@@ -19,8 +19,8 @@ base=${file/-*/}
 base=`basename $base`
 
 if (echo $file | grep -q "opensuse"); then
-   GEN_URL_i586="$BASEDIR/testtrack/full-obs-i586"
-   GEN_URL_x86_64="$BASEDIR/testtrack/full-obs-x86_64"
+   GEN_URL_i586="$BASEDIR/testtrack/full-121-i586"
+   GEN_URL_x86_64="$BASEDIR/testtrack/full-121-x86_64"
 fi
 
 LOCK=
