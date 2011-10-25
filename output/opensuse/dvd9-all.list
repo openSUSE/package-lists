@@ -291,23 +291,6 @@ bundle-lang-gnome-da
 bundle-lang-gnome-de
 bundle-lang-gnome-en
 bundle-lang-gnome-es
-bundle-lang-gnome-extras-cs
-bundle-lang-gnome-extras-da
-bundle-lang-gnome-extras-de
-bundle-lang-gnome-extras-en
-bundle-lang-gnome-extras-es
-bundle-lang-gnome-extras-fi
-bundle-lang-gnome-extras-fr
-bundle-lang-gnome-extras-hu
-bundle-lang-gnome-extras-it
-bundle-lang-gnome-extras-ja
-bundle-lang-gnome-extras-nb
-bundle-lang-gnome-extras-nl
-bundle-lang-gnome-extras-pl
-bundle-lang-gnome-extras-pt
-bundle-lang-gnome-extras-ru
-bundle-lang-gnome-extras-sv
-bundle-lang-gnome-extras-zh
 bundle-lang-gnome-fi
 bundle-lang-gnome-fr
 bundle-lang-gnome-hu
@@ -392,7 +375,6 @@ cm-unicode
 cmake
 cnetworkmanager
 cogl-devel
-collectd
 command-not-found
 commoncpp2
 commoncpp2-devel
@@ -858,8 +840,6 @@ gnucash
 gnucash-docs
 gnucash-lang
 gnuchess
-gnumeric
-gnumeric-lang
 gnutls
 gobject-introspection
 gobject-introspection-devel
@@ -1252,6 +1232,7 @@ kdnssd
 kdump
 keditbookmarks
 kepas
+kernel-debug
 kernel-default
 kernel-default-devel
 kernel-desktop
@@ -1578,7 +1559,6 @@ libclutter-gst-1_0-0
 libclutter-gtk-1_0-0
 libcogl-pango0
 libcogl5
-libcollectdclient0
 libcollection2
 libcolord1
 libcom_err-devel
@@ -2059,7 +2039,6 @@ libopensync
 libopensync-plugin-google-calendar
 libopensync-plugin-moto
 libopensync-plugin-python-module
-liboping0
 liborc-0_4-0
 libosip2
 libosip2-devel
@@ -2345,7 +2324,6 @@ libssh-devel
 libssh2-1
 libssh4
 libstartup-notification-1-0
-libstatgrab6
 libstdc++-devel
 libstdc++33
 libstdc++46
@@ -2491,8 +2469,6 @@ libxml++-devel
 libxml2
 libxml2-devel
 libxml2-python
-libxmmsclient-glib1
-libxmmsclient6
 libxslt-devel
 libxslt1
 libxtables7
@@ -2516,7 +2492,6 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-lang
 lightsoff
 lilo
-lilypond-documentation
 limal
 limal-ca-mgm
 limal-ca-mgm-perl
@@ -2561,8 +2536,6 @@ lxdm
 lxinput
 lxlauncher
 lxmenu-data
-lxmusic
-lxmusic-lang
 lxpanel
 lxpanel-lang
 lxrandr
@@ -3317,7 +3290,6 @@ rpcbind
 rpm
 rpm-devel
 rpm-python
-rrdtool
 rsh
 rsibreak
 rsibreak-lang
@@ -3343,7 +3315,7 @@ rubygem-locale_rails
 rubygem-passenger
 rubygem-passenger-nginx
 rubygem-polkit
-rubygem-rack-1_3
+rubygem-rack-1_1
 rubygem-rails-2_3
 rubygem-rake
 rubygem-rpam
@@ -3389,7 +3361,6 @@ scim-uim
 scons
 scout
 screen
-scribus
 scrollkeeper
 scrollkeeper-lang
 seahorse
@@ -3403,7 +3374,6 @@ seed
 semi-xemacs
 sendfax
 sendmail
-sensors
 servletapi5
 setserial
 sfftobmp
@@ -3732,21 +3702,8 @@ w3m-el-xemacs
 wallpaper-branding-openSUSE
 wdiff
 webkit-sharp
-webyast-activedirectory-ws
 webyast-base-ws
-webyast-firewall-ws
-webyast-kerberos-ws
-webyast-ldap-ws
-webyast-licenses-ws
-webyast-network-ws
-webyast-ntp-ws
-webyast-roles-ws
-webyast-root-user-ws
-webyast-services-ws
 webyast-software-ws
-webyast-status-ws
-webyast-time-ws
-webyast-users-ws
 wget
 whois
 wiggle
@@ -3884,8 +3841,6 @@ xmlgraphics-commons
 xmlgraphics-fop
 xmlstarlet
 xmlto
-xmms2
-xmms2-plugin-base
 xorg-x11
 xorg-x11-Xvnc
 xorg-x11-devel

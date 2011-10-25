@@ -19,6 +19,7 @@ coreutils
 cpio
 cracklib
 cracklib-dict-full
+crda
 cron
 cronie
 cryptsetup
@@ -26,7 +27,6 @@ curl
 cyrus-sasl
 dbus-1
 dbus-1-glib
-dbus-1-python
 deltarpm
 device-mapper
 dhcpcd
@@ -63,6 +63,7 @@ iptables
 iputils
 joe
 kbd
+kernel-debug
 klogd
 kpartx
 krb5
@@ -121,6 +122,7 @@ libncurses5
 libncurses6
 libnettle4
 libnfnetlink0
+libnl-1_1
 libnscd
 libntfs-3g81
 libopenssl1_0_0
@@ -132,14 +134,12 @@ libpolkit0
 libpopt0
 libproxy1
 libpth20
-libpython2_7-1_0
 libreadline6
 libreiserfs
 libselinux1
 libsemanage1
 libsepol1
 libsolv-tools
-libsqlite3-0
 libssh2-1
 libstdc++46
 libstorage3
@@ -156,7 +156,6 @@ libuuid1
 libx86emu1
 libxcrypt
 libxml2
-libxml2-python
 libxtables7
 libzio
 libzypp
@@ -221,9 +220,6 @@ prctl
 procps
 psmisc
 pwdutils
-python
-python-base
-python-xml
 release-notes-openSUSE
 rpcbind
 rpm
@@ -265,6 +261,7 @@ vim-base
 w3m
 wallpaper-branding-openSUSE
 wget
+wireless-regdb
 wireless-tools
 wol
 xdg-utils
