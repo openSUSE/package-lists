@@ -33,12 +33,14 @@
     <lock package="oxygen-icon-theme-scalable"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
+    <!-- INCLUDE ignore_opensuse-dvd5.xml -->
     <!-- INCLUDE frozen.xml -->
     <install kind="pattern" name="rest_promo_dvd"/>
     <install kind="package" name="openSUSE-release-dvd-promo"/>
 <lock package="qt3"/> 
 <lock package="gimp-help-it"/> 
 <lock package="gimp-help-pl"/>
+<lock package="gimp-help-nl"/>
 <lock package="bundle-lang-gnome-extras-ar"/>
 <lock package="bundle-lang-gnome-extras-ca"/>
 <lock package="bundle-lang-gnome-extras-cs"/>
@@ -61,6 +63,7 @@
 <lock package="bundle-lang-gnome-extras-zh"/>
 <lock package="texlive-context"/>
 <lock package="libqt4-devel-doc-data"/>
+<lock package="icewm-default"/>
 
     <reportProblems/>
     <showpool verbose="true"/>

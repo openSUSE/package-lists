@@ -52,6 +52,7 @@
     <install kind="pattern" name="devel_gnome"/>
     <install kind="package" name="xfce4-panel"/>
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
+    <install kind="package" name="postfix"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

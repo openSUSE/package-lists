@@ -49,6 +49,8 @@ alsa-plugins-pulse
 alsa-utils
 amarok
 amarok-lang
+apper
+apper-lang
 ark
 aspell
 aspell-de
@@ -321,8 +323,6 @@ konsole
 kontact
 konversation
 korganizer
-kpackagekit
-kpackagekit-lang
 kpartx
 kpat
 krb5
@@ -562,7 +562,7 @@ libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
 libpackagekit-glib2-14
-libpackagekit-qt14
+libpackagekit-qt2-2
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
@@ -842,6 +842,8 @@ pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
+plasma-addons-akonadi
+plasma-addons-lancelot
 plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess

@@ -244,6 +244,7 @@ gnome-nettool
 gnome-online-accounts
 gnome-packagekit
 gnome-panel
+gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
 gnome-panel-lang
 gnome-phone-manager
@@ -258,6 +259,9 @@ gnome-settings-daemon
 gnome-settings-daemon-polkit-datetime
 gnome-shell
 gnome-shell-browser-plugin
+gnome-shell-extension-alt-status-menu
+gnome-shell-extensions-common
+gnome-shell-extensions-common-lang
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -864,6 +868,7 @@ myspell-american
 nano
 nautilus
 nautilus-evince
+nautilus-extension-tracker-tags
 nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
@@ -1055,7 +1060,6 @@ shared-mime-info
 shotwell
 silc-toolkit
 simple-scan
-simple-scan-lang
 smartmontools
 smbios-utils-python
 smolt
@@ -1112,7 +1116,10 @@ totem-browser-plugin
 totem-browser-plugin-gmp
 totem-plugins
 tracker
+tracker-gui
+tracker-miner-evolution
 tracker-miner-files
+tracker-miner-firefox
 translation-update
 translation-update-de
 transmission-common
