@@ -9,6 +9,7 @@
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <install kind="pattern" name="minimal_base"/>
     <install kind="pattern" name="minimal_base-conflicts"/>
+    <install kind="package" name="kernel-default"/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

@@ -1,8 +1,9 @@
+set -e 
 cd /home/pattern
 export RPM_SOURCE_DIR=$PWD
 cd products
 rm -rf mydata
-cp -a patterns-$3-data mydata
+cp -al patterns-$3-data mydata
 cd mydata
 export RPM_BUILD_ROOT=/tmp/patterns.$1
 export EXPLICIT_UNAME=$2
