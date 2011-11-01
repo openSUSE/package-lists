@@ -1,4 +1,7 @@
+#! /bin/bash
+
 set -e 
+set -x
 cd /home/pattern
 export RPM_SOURCE_DIR=$PWD
 cd products
@@ -25,6 +28,7 @@ for pat in $rest_dvd; do
   done | perl $RPM_SOURCE_DIR/create-suggests | uniq > data/REST-DVD-SUGGESTS
 done
 
+set +x
 # create dummy roles and summaries
 for i in `cd toinstall && ls -1d *`; do 
    mkdir -p utf8_summary/$i/
@@ -37,6 +41,7 @@ cat toinstall/*/role | sort | while read role; do
    echo "=Cat: Nada" > utf8_roles/"$role"/default
 done
 
+set -x
 rm -rf $RPM_BUILD_ROOT 
 # group together
 sh -x $RPM_SOURCE_DIR/sort_patterns 11.2 1 $1 $3

@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 svn up /home/pattern
 pushd /home/pattern/products/patterns-openSUSE-data 
 out=`git pull`
@@ -21,41 +23,10 @@ rm -rf /tmp/pattern*
 
 sh ../prepare_patterns.sh i586 i386 openSUSE
 sh ../prepare_patterns.sh x86_64 x86_64 openSUSE
-sh ../prepare_patterns.sh ppc powerpc openSUSE
+#sh ../prepare_patterns.sh ppc powerpc openSUSE
 
 cp /tmp/patterns.*//CD1/suse/setup/descr/* patterns
 
-fi
-
-if test $arg = sled -o $arg = all; then
-rm -rf /tmp/pattern*
-sh ../prepare_patterns.sh i586 i386 sled
-sh ../prepare_patterns.sh x86_64 x86_64 sled
-
-cp /tmp/patterns.*//CD1/suse/setup/descr/* patterns
-fi
-
-if test $arg = sles -o $arg = all; then
-rm -rf /tmp/pattern*
-sh ../prepare_patterns.sh i586 i386 sles
-sh ../prepare_patterns.sh x86_64 x86_64 sles
-sh ../prepare_patterns.sh ppc powerpc sles
-sh ../prepare_patterns.sh ppc64 powerpc sles
-sh ../prepare_patterns.sh ia64 ia64 sles
-
-cp /tmp/patterns.*//CD1/suse/setup/descr/* patterns
-fi
-
-if test $arg = sdk -o $arg = all; then
-rm -rf /tmp/pattern*
-sh ../prepare_patterns.sh i586 i386 sdk
-sh ../prepare_patterns.sh x86_64 x86_64 sdk
-sh ../prepare_patterns.sh ppc powerpc sdk
-sh ../prepare_patterns.sh ppc64 powerpc sdk
-sh ../prepare_patterns.sh ia64 ia64 sdk
-sh ../prepare_patterns.sh s390x s390x sdk
-
-cp /tmp/patterns.*//CD1/suse/setup/descr/* patterns
 fi
 
 exit 0

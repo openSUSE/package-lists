@@ -52,8 +52,13 @@
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <install kind="pattern" name="rest_dvd9"/>
+    <install kind="pattern" name="rest_dvd"/>
     <install kind="package" name="openSUSE-release-dvd-biarch"/>
     <install kind="pattern" name="devel_gnome"/>
+    <install kind="package" name="lyx"/>
+    <install kind="package" name="texlive-tools"/>
+    <install kind="package" name="texlive-dvilj"/>
+    <install kind="package" name="texlive-bin-metapost"/>
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <reportProblems/>
     <showpool verbose="true"/>
