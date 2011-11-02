@@ -1,0 +1,11 @@
+can't install chromium-desktop-gnome-16.0.910.0-2.1.2.x86_64:
+  package chromium-desktop-gnome-16.0.910.0-2.1.2.x86_64 requires chromium = 16.0.910.0, but none of the providers can be installed
+  nothing provides libv8-3 = 3.6.4.1 needed by chromium-16.0.910.0-2.1.2.x86_64
+    (we have libv8-3-3.7.3.0-1.1.1.x86_64)
+can't install chromium-desktop-kde-16.0.910.0-2.1.2.x86_64:
+  package chromium-desktop-kde-16.0.910.0-2.1.2.x86_64 requires chromium = 16.0.910.0, but none of the providers can be installed
+  nothing provides libv8-3 = 3.6.4.1 needed by chromium-16.0.910.0-2.1.2.x86_64
+    (we have libv8-3-3.7.3.0-1.1.1.x86_64)
+can't install chromium-16.0.910.0-2.1.2.x86_64:
+  nothing provides libv8-3 = 3.6.4.1 needed by chromium-16.0.910.0-2.1.2.x86_64
+    (we have libv8-3-3.7.3.0-1.1.1.x86_64)

@@ -364,9 +364,6 @@ cm-unicode
 cmake
 cogl-devel
 collectd
-color-filesystem
-colord
-colord-lang
 command-not-found
 compiz
 compiz-branding-openSUSE
@@ -668,6 +665,8 @@ glade-catalog-gtksourceview
 glade-catalog-vte
 glade-lang
 glade-sharp2
+glade3
+glade3-lang
 glchess
 glib-networking
 glib-sharp2
@@ -908,15 +907,6 @@ ibus-table-chinese-yong
 ibus-table-rustrad
 ibus-table-translit
 ibus-table-zhuyin
-icc-profiles
-icc-profiles-basiccolor-lstarrgb
-icc-profiles-basiccolor-printing2009-coat2
-icc-profiles-lcms-lab
-icc-profiles-mini
-icc-profiles-openicc-rgb
-icc-profiles-scp-argyll
-icc-profiles-scp-fogra
-icc-profiles-scp-yamma
 icecream
 icedax
 icedtea-web
@@ -1543,6 +1533,7 @@ libgiomm-2_4-1
 libgirepository-1_0-1
 libgjs0
 libglade-2_0-0
+libgladeui-1-11
 libgladeui-2-0
 libgle3
 libglib-2_0-0
@@ -3131,7 +3122,6 @@ setserial
 sfftobmp
 sg3_utils
 sgml-skel
-shared-color-profiles
 shared-desktop-ontologies
 shared-desktop-ontologies-devel
 shared-mime-info
@@ -3370,12 +3360,6 @@ unscd
 unzip
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data

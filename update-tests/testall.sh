@@ -8,8 +8,8 @@ for arch in i586 x86_64; do
   rm -rf $TESTTRACK/CD1
   mkdir -p $TESTTRACK/CD1
   cp -a $TESTTRACK/content.$arch.small $TESTTRACK/CD1/content
-  cp -a $TESTTRACK/full-obs-$arch/suse $TESTTRACK/CD1/
-  cp -a $TESTTRACK/full-obs-$arch/media.1 $TESTTRACK/CD1/
+  cp -a $TESTTRACK/full-121-$arch/suse $TESTTRACK/CD1/
+  cp -a $TESTTRACK/full-121-$arch/media.1 $TESTTRACK/CD1/
 
   mkdir -p $TESTTRACK/CD1/suse/setup/descr/
   cp $TESTTRACK/patterns/dvd-*.$arch.pat $TESTTRACK/CD1/suse/setup/descr/

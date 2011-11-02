@@ -696,10 +696,11 @@ gjs
 gkeyfile-sharp
 glabels
 glabels-lang
-glade
 glade-catalog-gtksourceview
 glade-catalog-vte
 glade-sharp2
+glade3
+glade3-lang
 glchess
 glew
 glew-devel
@@ -1601,6 +1602,7 @@ libgjs0
 libglade-2_0-0
 libglademm
 libglademm-2_4-1
+libgladeui-1-11
 libgladeui-2-0
 libgle3
 libglib-2_0-0
@@ -3608,12 +3610,6 @@ unscd
 unzip
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data
