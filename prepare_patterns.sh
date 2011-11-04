@@ -22,7 +22,7 @@ done
 rest_dvd=`grep -l REST-DVD-SUGGESTS toinstall/rest_*/sel | sed -e "s,/sel,,"`
 for pat in $rest_dvd; do
   patterns=`cat $pat/requires $pat/recommends 2>/dev/null | sort -u`
-  datafiles=`for i in $patterns; do cat toinstall/$i/sel; done  2> /dev/null | sort -u`
+  datafiles=`for i in $patterns; do test ! -e toinstall/$i/sel || cat toinstall/$i/sel ; done  | sort -u`
   for i in $datafiles; do
     sh $RPM_SOURCE_DIR/preprocess data/$i
   done | perl $RPM_SOURCE_DIR/create-suggests | uniq > data/REST-DVD-SUGGESTS

@@ -35,6 +35,7 @@
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <!-- INCLUDE ignore_opensuse-dvd5.xml -->
     <!-- INCLUDE frozen.xml -->
+    <install kind="package" name="branding-openSUSE"/>
     <install kind="pattern" name="rest_promo_dvd"/>
     <install kind="package" name="openSUSE-release-dvd-promo"/>
 <lock package="qt3"/> 

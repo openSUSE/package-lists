@@ -7,6 +7,7 @@ alsa-oss-32bit
 alsa-plugins-32bit
 alsa-plugins-pulse-32bit
 anthy-32bit
+at-spi-32bit
 audiofile-devel-32bit
 audit-devel-32bit
 bind-libs-32bit
@@ -15,7 +16,6 @@ bison-32bit
 bluez-devel-32bit
 boost-devel-32bit
 bug-buddy-32bit
-cabextract
 cairo-devel-32bit
 cryptconfig-32bit
 cups-libs-32bit
@@ -27,7 +27,8 @@ cyrus-sasl-gssapi-32bit
 cyrus-sasl-plain-32bit
 dbus-1-32bit
 dbus-1-glib-32bit
-dosbox
+device-mapper-32bit
+efibootmgr
 fftw3-32bit
 file-32bit
 flac-devel-32bit
@@ -73,11 +74,11 @@ krb5-devel-32bit
 libFLAC++6-32bit
 libFLAC8-32bit
 libHX27-32bit
+libIDL-2-0-32bit
 libMagickCore5-32bit
 libMagickWand5-32bit
 libSDL-1_2-0-32bit
 libSDL-devel-32bit
-libSDL_sound-1_0-1
 libSoundTouch0-32bit
 libXi6-32bit
 libaa1-32bit
@@ -96,6 +97,7 @@ libauparse0-32bit
 libavahi-common3-32bit
 libavc1394-0-32bit
 libbluetooth3-32bit
+libbonobo-32bit
 libbz2-1-32bit
 libbz2-devel-32bit
 libcaca0-32bit
@@ -218,7 +220,6 @@ libobjc46-32bit
 libofa0-32bit
 libogg0-32bit
 libopagent1-32bit
-libopenal1-soft
 libopenal1-soft-32bit
 libopenssl-devel-32bit
 libopenssl0_9_8-32bit
@@ -237,8 +238,6 @@ libpixman-1-0-32bit
 libpng12-0-32bit
 libpng12-devel-32bit
 libpng14-14-32bit
-libpng14-compat-devel
-libpng14-compat-devel-32bit
 libpng14-devel-32bit
 libpopt0-32bit
 libpq5-32bit
@@ -315,7 +314,6 @@ libxslt1-32bit
 libyaz-devel-32bit
 libyaz4-32bit
 linux32
-log4j-mini
 ltrace-32bit
 mcelog
 mjpegtools-32bit
@@ -330,11 +328,11 @@ nspluginwrapper
 nss-mdns-32bit
 nss_ldap-32bit
 numactl
-openal-soft
 openldap2-devel-32bit
 openslp-32bit
 opie-32bit
 oprofile-32bit
+orbit2-32bit
 oxygen-gtk-32bit
 pam-32bit
 pam-devel-32bit
@@ -374,9 +372,6 @@ uim-gtk2-32bit
 uim-qt4-32bit
 unixODBC-32bit
 utempter-32bit
-wine
-wine-32bit
-wine-gecko
 xen
 xen-doc-html
 xen-doc-pdf

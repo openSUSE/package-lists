@@ -33,7 +33,7 @@ bind-libs
 bind-utils
 bluez-firmware
 bootsplash
-bootsplash-branding-KDE
+bootsplash-branding-openSUSE
 branding-openSUSE
 btrfsprogs
 bundle-lang-common-de
@@ -85,8 +85,10 @@ dmz-icon-theme-cursors
 dosfstools
 dvb
 e2fsprogs
+efibootmgr
 eject
 elfutils
+elilo
 espeak
 ethtool
 fbset
@@ -478,7 +480,6 @@ patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
 patterns-openSUSE-fonts
 patterns-openSUSE-sw_management
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_yast
 patterns-openSUSE-yast2_basis

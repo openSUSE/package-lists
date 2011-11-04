@@ -51,6 +51,8 @@
     <install kind="package" name="openSUSE-release-dvd"/>
     <install kind="pattern" name="devel_gnome"/>
     <install kind="package" name="xfce4-panel"/>
+    <install kind="package" name="elilo"/>
+    <install kind="package" name="efibootmgr"/> <!-- !i586 -->
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <install kind="package" name="postfix"/>
     <reportProblems/>
