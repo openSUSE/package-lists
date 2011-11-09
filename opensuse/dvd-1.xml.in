@@ -53,6 +53,7 @@
     <install kind="package" name="xfce4-panel"/>
     <install kind="package" name="elilo"/>
     <install kind="package" name="efibootmgr"/> <!-- !i586 -->
+    <install kind="package" name="grub2-efi"/> <!-- !i586 -->
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <install kind="package" name="postfix"/>
     <reportProblems/>
