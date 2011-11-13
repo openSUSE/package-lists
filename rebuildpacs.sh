@@ -2,7 +2,7 @@ set -e
 export LC_ALL=C
 
 ret=0
-project=openSUSE:12.1
+project=openSUSE:Factory
 repo=standard
 arch=x86_64
 dir=rebuilds

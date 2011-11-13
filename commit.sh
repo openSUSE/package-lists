@@ -1,4 +1,4 @@
-proj=12.1
+proj=Factory
 ./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE:$proj/_product/DVD5-i586.group only_i586
 ./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE:$proj/_product/DVD5-x86_64.group only_x86_64
 
