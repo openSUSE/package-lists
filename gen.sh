@@ -1,9 +1,11 @@
 #!/bin/sh
 
+. ./options
+
 GEN_ARCH="i586 x86_64"
 BASEDIR=`pwd`
-GEN_URL_i586="$BASEDIR/testtrack/full-sle11-i586"
-GEN_URL_x86_64="$BASEDIR/testtrack/full-sle11-x86_64"
+GEN_URL_i586="$BASEDIR/testtrack/full-$tree-i586"
+GEN_URL_x86_64="$BASEDIR/testtrack/full-$tree-x86_64"
 TESTTRACK="`pwd`/testtrack"
 
 echo -n "processing $1"
@@ -17,11 +19,6 @@ file=$1
 # multiple setups (dvd5, dvd5-2, etc.)
 base=${file/-*/}
 base=`basename $base`
-
-if (echo $file | grep -q "opensuse"); then
-   GEN_URL_i586="$BASEDIR/testtrack/full-121-i586"
-   GEN_URL_x86_64="$BASEDIR/testtrack/full-121-x86_64"
-fi
 
 LOCK=
 LOCK2=

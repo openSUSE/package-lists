@@ -1,4 +1,4 @@
-proj=Factory
+. ./options
 ./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE:$proj/_product/DVD5-i586.group only_i586
 ./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE:$proj/_product/DVD5-x86_64.group only_x86_64
 
@@ -19,8 +19,8 @@ proj=Factory
 (cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
 osc up -u osc/openSUSE:$proj:Live/package-lists-images.*
-tar cjf osc/openSUSE:$proj:Live/package-lists-images.i586/filelists.tar.bz2 output/opensuse/*default.i586.list
-tar cjf osc/openSUSE:$proj:Live/package-lists-images.x86_64/filelists.tar.bz2 output/opensuse/*default.x86_64.list
+cp -a output/opensuse/*default.i586.list osc/openSUSE:$proj:Live/package-lists-images.i586
+cp -a output/opensuse/*default.x86_64.list osc/openSUSE:$proj:Live/package-lists-images.x86_64
 
 osc up -u osc/openSUSE:$proj:Live/package-lists-kde.*
 cp -a output/opensuse/kde4_cd.i586.list osc/openSUSE:$proj:Live/package-lists-kde.i586/packagelist

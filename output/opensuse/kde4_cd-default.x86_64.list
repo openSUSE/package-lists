@@ -16,7 +16,6 @@ NetworkManager-vpnc-kde4
 PackageKit
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
-PackageKit-gtk-module
 PackageKit-gtk3-module
 SuSEfirewall2
 a2ps
@@ -57,7 +56,6 @@ chmlib
 choqok
 cifs-utils
 cln
-clucene-core
 command-not-found
 coreutils
 cpio
@@ -120,6 +118,9 @@ gawk
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
+gcr-data
+gcr-prompter
+gcr-viewer
 gd
 gdb
 gdbm
@@ -138,6 +139,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-32bit
+glibc-extra
 glibc-locale
 glibc-locale-32bit
 gnome-keyring
@@ -207,6 +209,8 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
+kdebase4-workspace-plasma-calendar
+kdebase4-workspace-plasma-engine-akonadi
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -265,7 +269,6 @@ kwalletmanager
 kwebkitpart
 kwin
 kwrite
-lcms
 less
 libFLAC8
 libIlmImf6
@@ -288,7 +291,7 @@ libassuan0
 libatasmart4
 libatk-1_0-0
 libatm1
-libattica0
+libattica0_3
 libattr1
 libaudit1
 libaugeas0
@@ -314,18 +317,19 @@ libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcloog0
+libclucene2
 libcolord1
 libcom_err2
 libcrack2
 libcroco-0_6-3
-libcryptsetup1
+libcryptsetup4
 libcurl4
 libdaemon0
 libdb-4_8
 libdbusmenu-qt2
 libdconf0
 libdirectfb-1_4-5
-libdiscid1
+libdiscid0
 libdjvulibre21
 libdmtx0
 libdrm
@@ -346,7 +350,7 @@ libfreebl3
 libfreetype6
 libgcc46
 libgck-1-0
-libgck-modules
+libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt11
 libgdk_pixbuf-2_0-0
@@ -354,6 +358,7 @@ libggz2
 libgif4
 libgimpprint
 libgio-2_0-0
+libgirepository-1_0-1
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
@@ -381,6 +386,7 @@ libidn
 libilmbase6
 libimobiledevice2
 libiodbc3
+libiptc0
 libiw30
 libjack0
 libjasper1
@@ -405,6 +411,7 @@ libktexteditor
 libktorrent3
 liblazy1
 liblcms1
+liblcms2-2
 libldap-2_4-2
 libldapcpp1
 liblirc_client0
@@ -457,7 +464,7 @@ libpng14-14
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-3
-libpoppler18
+libpoppler19
 libpopt0
 libppl9
 libppl_c4
@@ -483,7 +490,7 @@ libqt4-sql
 libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
-libqzeitgeist0
+libqzeitgeist1
 libraptor2-0
 librasqal3
 libraw1394-11
@@ -497,7 +504,7 @@ libsemanage1
 libsensors4
 libsepol1
 libsmbclient0
-libsndfile
+libsndfile1
 libsoftokn3
 libsolv-tools
 libsoprano4
@@ -537,7 +544,7 @@ libvorbisenc2
 libvorbisfile3
 libwavpack1
 libwbclient0
-libwebp0
+libwebp2
 libx86-1
 libx86emu1
 libxcrypt
@@ -547,6 +554,7 @@ libxml2
 libxml2-python
 libxslt1
 libxtables7
+libzeitgeist-1_0-1
 libzio
 libzip2
 libzypp
@@ -602,11 +610,12 @@ openssh
 openssh-askpass
 openssl
 openvpn
-oxygen-gtk
+oxygen-gtk2
 pam
 pam-config
 pam-modules
 pango-tools
+parallel-printer-support
 parted
 pciutils
 pciutils-ids
@@ -666,12 +675,14 @@ pulseaudio-utils
 pwdutils
 python
 python-base
+python-gobject2
 python-pycurl
 python-qt4
 python-satsolver
 python-simplejson
 python-sip
 python-urlgrabber
+python-xdg
 python-xml
 recode
 release-notes-openSUSE
@@ -715,6 +726,7 @@ tcpd
 terminfo-base
 tightvnc
 timezone
+tomahawk-kde
 translation-update
 udev
 udisks
@@ -846,7 +858,10 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
+zeitgeist
+zeitgeist-datahub
 zisofs-tools
 zlib
 zypper
+zypper-aptitude
 zypper-log

@@ -54,6 +54,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-32bit
+glibc-extra
 gpg2
 grep
 grub
@@ -73,7 +74,6 @@ kernel-firmware
 kiwi-tools
 kpartx
 krb5
-lcms
 libXi6
 libacl1
 libadns1
@@ -91,7 +91,7 @@ libcap2
 libcares2
 libcom_err2
 libcrack2
-libcryptsetup1
+libcryptsetup4
 libcurl4
 libdb-4_8
 libdconf0
@@ -112,7 +112,6 @@ libgnutls28
 libgobject-2_0-0
 libgpg-error0
 libgssglue1
-libgthread-2_0-0
 libhogweed2
 libidn
 libjpeg62
@@ -123,6 +122,7 @@ libldap-2_4-2
 libldapcpp1
 liblua5_1
 liblzma5
+liblzo2-2
 libmng
 libmodman1
 libmount1
@@ -147,7 +147,6 @@ libproxy1-pacrunner-mozjs
 libpth20
 libpython2_7-1_0
 libqt4
-libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
 libqt4-x11

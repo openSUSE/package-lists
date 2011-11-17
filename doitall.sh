@@ -2,8 +2,7 @@
 
 git pull
 
-tree=obs
-proj=Factory
+. ./options
 
 (cd osc/openSUSE\:Factory/_product/ && osc up)
 : > output/opensuse/frozen.xml

@@ -94,6 +94,7 @@ gio-branding-openSUSE
 glib-networking
 glib2-tools
 glibc
+glibc-extra
 glibc-locale
 gpart
 gpg2
@@ -124,7 +125,6 @@ keyutils
 klogd
 kpartx
 krb5
-lcms
 less
 libXi6
 libacl1
@@ -147,7 +147,7 @@ libcares2
 libcloog0
 libcom_err2
 libcrack2
-libcryptsetup1
+libcryptsetup4
 libcurl4
 libdaemon0
 libdb-4_8
@@ -180,6 +180,7 @@ libgudev-1_0-0
 libhogweed2
 libidn
 libimobiledevice2
+libiptc0
 libiw30
 libjasper1
 libjpeg62
@@ -215,7 +216,7 @@ libpixman-1-0
 libplist1
 libpng14-14
 libpolkit0
-libpoppler18
+libpoppler19
 libpopt0
 libppl9
 libppl_c4
@@ -296,6 +297,7 @@ openssl
 pam
 pam-config
 pam-modules
+parallel-printer-support
 parted
 pciutils
 pciutils-ids
@@ -485,4 +487,5 @@ ypbind
 zisofs-tools
 zlib
 zypper
+zypper-aptitude
 zypper-log

@@ -75,6 +75,7 @@ gio-branding-openSUSE
 glib-networking
 glib2-tools
 glibc
+glibc-extra
 glibc-locale
 gpart
 gpg2
@@ -103,7 +104,6 @@ keyutils
 klogd
 kpartx
 krb5
-lcms
 less
 libacl1
 libadns1
@@ -123,7 +123,7 @@ libcap2
 libcares2
 libcom_err2
 libcrack2
-libcryptsetup1
+libcryptsetup4
 libcurl4
 libdaemon0
 libdb-4_8
@@ -153,6 +153,7 @@ libgudev-1_0-0
 libhogweed2
 libidn
 libimobiledevice2
+libiptc0
 libiw30
 libjasper1
 libjpeg62
@@ -418,4 +419,5 @@ ypbind
 zisofs-tools
 zlib
 zypper
+zypper-aptitude
 zypper-log

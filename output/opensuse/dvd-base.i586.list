@@ -47,6 +47,7 @@ gdbm
 gio-branding-openSUSE
 glib2-tools
 glibc
+glibc-extra
 glibc-locale
 gpg2
 grep
@@ -85,7 +86,7 @@ libcap2
 libcares2
 libcom_err2
 libcrack2
-libcryptsetup1
+libcryptsetup4
 libcurl4
 libdb-4_8
 libdw1
@@ -110,6 +111,7 @@ libgudev-1_0-0
 libhogweed2
 libidn
 libimobiledevice2
+libiptc0
 libiw30
 libkeyutils1
 libksba
@@ -240,6 +242,7 @@ sysvinit-tools
 tar
 tcpd
 tcsh
+tcsh-lang
 telnet
 terminfo-base
 timezone
@@ -297,3 +300,4 @@ yp-tools
 ypbind
 zlib
 zypper
+zypper-aptitude
