@@ -65,6 +65,8 @@ a2ps-perl-ja
 aaa_base
 aaa_base-extras
 abcde
+abiword
+abiword-docs
 accerciser
 accerciser-lang
 accountsservice
@@ -332,6 +334,7 @@ cedict
 cellwriter
 cervisia
 chasen
+check-create-certificate
 checkinstall
 checkmedia
 cheese
@@ -351,11 +354,10 @@ cluster-glue
 clutter-devel
 clutter-gst-devel
 clutter-gtk-devel
-clutter-lang
 cm-unicode
 cmake
 cogl-devel
-cogl-lang
+collectd
 color-filesystem
 colord
 colord-lang
@@ -518,9 +520,14 @@ esound-daemon
 espeak
 ethtool
 evince
+evolution
 evolution-data-server
 evolution-data-server-devel
-evolution-data-server-lang
+evolution-exchange
+evolution-exchange-lang
+evolution-groupwise
+evolution-mono-plugins
+evolution-python-plugins
 evolution-sharp
 evolution-webcal
 excalibur
@@ -700,7 +707,6 @@ glade-catalog-vte
 glade-lang
 glade-sharp2
 glchess
-glchess-lang
 glew
 glew-devel
 glib-networking
@@ -759,7 +765,6 @@ gnome-games
 gnome-games-extra-data
 gnome-games-recommended
 gnome-games-support
-gnome-games-support-lang
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
@@ -800,7 +805,6 @@ gnome-shell-browser-plugin
 gnome-shell-extension-alt-status-menu
 gnome-shell-extensions-common
 gnome-sudoku
-gnome-sudoku-lang
 gnome-system-monitor
 gnome-terminal
 gnome-themes-accessibility
@@ -814,13 +818,14 @@ gnome-vfs2-devel
 gnome-video-effects
 gnome-web-photo
 gnomine
-gnomine-lang
 gnotravex
 gnotravex-lang
 gnotski
 gnotski-lang
 gnu-jaf
 gnu-regexp
+gnucash
+gnucash-lang
 gnuchess
 gnumeric
 gnumeric-lang
@@ -851,6 +856,7 @@ grub2
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
+gsf-office-thumbnailer
 gsf-sharp
 gsl
 gsl-devel
@@ -932,6 +938,7 @@ gucharmap-devel
 gudev-sharp
 guile
 guile-modules-2_0
+guile1
 gutenprint
 gv
 gvfs
@@ -974,7 +981,6 @@ hylafax-client
 i4l-base
 i4l-isdnlog
 iagno
-iagno-lang
 ibus
 ibus-anthy
 ibus-chewing
@@ -1222,7 +1228,6 @@ kdenetwork4-filesharing
 kdepasswd
 kdepim4
 kdepim4-runtime
-kdepim4-wizards
 kdepimlibs4
 kdesdk4-scripts
 kdesdk4-strigi
@@ -1235,8 +1240,6 @@ kdevplatform-lang
 kdf
 kdialog
 kdiamond
-kdm
-kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -1394,7 +1397,6 @@ kvkbd
 kvm
 kwalletmanager
 kwebkitpart
-kwikdisk
 kwin
 kwordquiz
 kwrite
@@ -1434,6 +1436,7 @@ libXi6
 libXi6-devel
 libXiterm
 libaa1
+libabiword-2_8
 libaccountsservice0
 libacl-devel
 libacl1
@@ -1568,8 +1571,8 @@ libclutter-1_0-0
 libclutter-gst-1_0-0
 libclutter-gtk-1_0-0
 libcogl-pango0
-libcogl6
 libcogl7
+libcollectdclient0
 libcollection2
 libcolord1
 libcom_err-devel
@@ -1592,6 +1595,7 @@ libdb-4_5
 libdb-4_5-devel
 libdb-4_8
 libdb-4_8-devel
+libdbi0
 libdbusmenu-qt-devel
 libdbusmenu-qt2
 libdc1394-22
@@ -1628,6 +1632,7 @@ libedata-cal-1_2-15
 libedataserver-1_2-16
 libedataserverui-3_0-1
 libedit0
+libegroupwise-1_2-13
 libeigen2-devel
 libelf0
 libelf1
@@ -1641,7 +1646,9 @@ libesd-devel
 libesd0
 libesmtp
 libetpan13
+libev4
 libevent-2_0-5
+libevtlog0
 libexempi-devel
 libexempi3
 libexif-devel
@@ -1776,6 +1783,7 @@ libgoa-1_0-0
 libgoa-backend-1_0-0
 libgobject-2_0-0
 libgoffice-0_10-9
+libgoffice-0_8-8
 libgomp46
 libgoocanvas3
 libgoocanvas3-lang
@@ -1815,6 +1823,8 @@ libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
 libgtkhex-3-0
 libgtkhotkey1
+libgtkhtml-4_0-0
+libgtkhtml-editor-4_0-0
 libgtkimageview0
 libgtkmm-2_4-1
 libgtkmm-3_0-1
@@ -1829,6 +1839,7 @@ libgucharmap_2_90-7
 libgudev-1_0-0
 libgudev-1_0-devel
 libguile-2_0-22
+libguile17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
@@ -1886,6 +1897,7 @@ libjpeg62
 libjpeg62-devel
 libjson-glib-1_0-0
 libjson0
+libkactivities6
 libkate1
 libkcddb4
 libkcddb4-devel
@@ -1957,7 +1969,7 @@ liblzo2-2
 libm17n0
 libmal
 libmal-devel
-libmarblewidget12
+libmarblewidget13
 libmcrypt
 libmeanwhile1
 libmediawiki-devel
@@ -2055,6 +2067,7 @@ libopensync
 libopensync-plugin-google-calendar
 libopensync-plugin-moto
 libopensync-plugin-python-module
+liboping0
 liborc-0_4-0
 libosip2
 libosip2-devel
@@ -2127,6 +2140,7 @@ libproxy1-networkmanager
 libproxy1-pacrunner-mozjs
 libproxy1-pacrunner-webkit
 libpspell15
+libpst4
 libpt2_6_7
 libpth-devel
 libpth20
@@ -2330,6 +2344,7 @@ libssh-devel
 libssh2-1
 libssh4
 libstartup-notification-1-0
+libstatgrab6
 libstdc++-devel
 libstdc++33
 libstdc++46
@@ -2432,6 +2447,7 @@ libwpd-0_9-9
 libwpd-devel
 libwpg-0_2-2
 libwpg-devel
+libwv-1_2-1
 libwv2-4
 libwx_baseu-2_8-0-stl
 libwx_baseu-2_8-0-wxcontainer
@@ -2495,7 +2511,6 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-branding-openSUSE
 lightdm-lang
 lightsoff
-lightsoff-lang
 lilo
 limal
 limal-ca-mgm
@@ -2503,6 +2518,7 @@ limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
+link-grammar
 links
 linphone
 linphone-devel
@@ -2558,7 +2574,6 @@ m17n-lib
 m2300w
 m4
 mahjongg
-mahjongg-lang
 mailman
 mailx
 make
@@ -2684,6 +2699,7 @@ nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
 nautilus-sendto-plugin-empathy
+nautilus-sendto-plugin-evolution
 nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
 nautilus-share
@@ -2711,6 +2727,7 @@ netpbm
 nfs-client
 nfs-kernel-server
 nfsidmap
+nginx-1.0
 nkf
 nmap
 notification-daemon
@@ -2758,6 +2775,7 @@ openldap2-client
 openldap2-devel
 openmotif-libs
 openmpi
+openmpi-devel
 openslp
 openslp-devel
 openslp-server
@@ -2999,6 +3017,7 @@ perl-File-MMagic
 perl-File-Tail
 perl-File-Type
 perl-FileHandle-Unget
+perl-Finance-Quote
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d
@@ -3008,14 +3027,17 @@ perl-Getopt-Mixed
 perl-Glib
 perl-Gtk2
 perl-HTML-Clean
+perl-HTML-Element-Extended
 perl-HTML-FillInForm
 perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
+perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Template-Expr
 perl-HTML-Template-JIT
+perl-HTML-TokeParser-Simple
 perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-DAV
@@ -3094,6 +3116,7 @@ perl-Set-Object
 perl-Set-Scalar
 perl-Socket6
 perl-Sub-Name
+perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Task-Weaken
@@ -3211,6 +3234,7 @@ pk-update-icon
 pkcs11-helper
 pkg-config
 planner
+planner-evolution
 planner-lang
 plasma-addons
 plasma-addons-akonadi
@@ -3447,8 +3471,34 @@ ruby-examples
 ruby-fcgi
 ruby-test-suite
 ruby-tk
+rubygem-actionmailer-2_3
+rubygem-actionpack-2_3
+rubygem-activerecord-2_3
+rubygem-activeresource-2_3
+rubygem-activesupport-2_3
+rubygem-daemon_controller
+rubygem-fastthread
+rubygem-gettext
+rubygem-gettext_activerecord
+rubygem-gettext_rails
+rubygem-inifile
+rubygem-locale
+rubygem-locale_rails
 rubygem-mysql
+rubygem-nokogiri
+rubygem-passenger
+rubygem-passenger-nginx
+rubygem-polkit1
 rubygem-racc
+rubygem-rack-1_1
+rubygem-rails-2_3
+rubygem-rake
+rubygem-rdoc
+rubygem-rpam
+rubygem-ruby-dbus
+rubygem-sqlite3
+rubygem-static_record_cache
+rubygem-webyast-rake-tasks
 rubygems
 rxvt-unicode
 rzsz
@@ -3503,6 +3553,7 @@ seed
 semi-xemacs
 sendfax
 sendmail
+sensors
 servletapi5
 setserial
 sfftobmp
@@ -3526,6 +3577,7 @@ skanlite
 skanlite-doc
 skanlite-lang
 skkdic
+slib
 slrn
 smartmontools
 smb4k
@@ -3611,7 +3663,6 @@ suspend
 svg-schema
 sweeper
 swell-foop
-swell-foop-lang
 swig
 synapse
 synapse-lang
@@ -3619,6 +3670,7 @@ synaptiks
 sysconfig
 sysfsutils
 syslinux
+syslog-ng
 syslog-service
 system-config-printer
 system-config-printer-applet
@@ -3809,6 +3861,7 @@ typelib-1_0-Vte-2_90
 typelib-1_0-WebKit-1_0
 typelib-1_0-WebKit-3_0
 typelib-1_0-Wnck-3_0
+typelib-1_0-Xkl-1_0
 udev
 udev-configure-printer
 udhcp
@@ -3890,6 +3943,23 @@ w3m-el-xemacs
 wallpaper-branding-openSUSE
 wdiff
 webkit-sharp
+webyast-base
+webyast-base-branding-default
+webyast-firewall
+webyast-kerberos
+webyast-ldap
+webyast-licenses
+webyast-mail
+webyast-network
+webyast-ntp
+webyast-reboot
+webyast-roles
+webyast-root-user
+webyast-services
+webyast-software
+webyast-status
+webyast-time
+webyast-users
 wget
 whois
 wiggle
@@ -4121,6 +4191,7 @@ yast2-core
 yast2-country
 yast2-country-data
 yast2-dbus-client
+yast2-dbus-server
 yast2-dhcp-server
 yast2-dns-server
 yast2-drbd
@@ -4176,6 +4247,7 @@ yast2-qt-branding-openSUSE
 yast2-qt-graph
 yast2-qt-pkg
 yast2-restore
+yast2-ruby-bindings
 yast2-runlevel
 yast2-samba-client
 yast2-samba-server
