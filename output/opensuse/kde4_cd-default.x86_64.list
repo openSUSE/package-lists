@@ -33,7 +33,6 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 apper
-ark
 attr
 augeas-lenses
 autofs
@@ -192,8 +191,6 @@ irqbalance
 kaddressbook
 kaffeine
 kbd
-kcalc
-kcharselect
 kcm_gtk
 kcolorchooser
 kde4-filesystem
@@ -221,20 +218,20 @@ kdepim4
 kdepim4-runtime
 kdepimlibs4
 kdialog
+kdm
+kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 keyutils
 kfind
 kgamma
 kget
-kgpg
 kio_audiocd
 kio_iso
 kio_kamera
 kio_sysinfo
 kio_sysinfo-branding-openSUSE
 klogd
-kmag
 kmahjongg
 kmail
 kmines
@@ -262,7 +259,6 @@ ksshaskpass
 ksudoku
 ktorrent
 kvkbd
-kwalletmanager
 kwebkitpart
 kwin
 kwrite
@@ -378,6 +374,7 @@ libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
 libhogweed2
+libibus-1_0-0
 libical0
 libidn
 libilmbase6
@@ -407,6 +404,7 @@ libksba
 libksuseinstall1
 libktexteditor
 libktorrent3
+liblazy1
 liblcms1
 liblcms2-2
 libldap-2_4-2
@@ -418,7 +416,7 @@ liblua5_1
 liblzma5
 liblzo2-2
 libmms0
-libmng
+libmng1
 libmodman1
 libmodplug1
 libmount1
@@ -708,7 +706,6 @@ sudo
 susegreeter-branding-openSUSE
 susehelp
 susehelp_en
-sweeper
 sysconfig
 sysfsutils
 syslog-service

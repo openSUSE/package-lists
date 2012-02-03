@@ -118,13 +118,8 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
-apport
-apport-crashdb-opensuse
-apport-gtk
-apport-qt
 aqbanking
 aqbanking-lang
-ark
 arpwatch
 arpwatch-ethercodes
 aspell
@@ -390,7 +385,6 @@ docbook_4
 dolphin
 dos2unix
 dosfstools
-dotconf
 doxygen
 droid-fonts
 dvb
@@ -873,8 +867,6 @@ kate
 kbd
 kbruch
 kcachegrind
-kcalc
-kcharselect
 kcm_gtk
 kcolorchooser
 kdbg
@@ -950,11 +942,9 @@ kdepim4
 kdepim4-runtime
 kdepimlibs4
 kdesdk4-strigi
-kdevelop4
-kdevelop4-lang
-kdevplatform
-kdevplatform-lang
 kdialog
+kdm
+kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -975,7 +965,6 @@ kfind
 kgamma
 kgeography
 kget
-kgpg
 khangman
 kig
 kinput2
@@ -1004,7 +993,6 @@ kiwi-templates
 kiwi-tools
 klettres
 klogd
-kmag
 kmahjongg
 kmail
 kmines
@@ -1043,7 +1031,6 @@ ktorrent
 ktouch
 kvkbd
 kvm
-kwalletmanager
 kwebkitpart
 kwin
 kwordquiz
@@ -1491,13 +1478,13 @@ libkdeedu4-data
 libkdegames4
 libkdepim4
 libkdepimlibs4
-libkdevplatform0
 libkeduvocdocument4
 libkexiv2-10
 libkexiv2-devel
 libkeyutils1
 libkeyutils1-32bit
 libkface1
+libkgeomap-lang
 libkgeomap1
 libkipi8
 libkonq5
@@ -1510,6 +1497,7 @@ libktorrent3
 libkvkontakte1
 liblapack3
 liblastfm0
+liblazy1
 liblcms-devel
 liblcms1
 liblcms1-32bit
@@ -1544,9 +1532,9 @@ libmenu-cache1
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmms0
-libmng
-libmng-32bit
 libmng-devel
+libmng1
+libmng1-32bit
 libmodman1
 libmodplug1
 libmono-2_0-1
@@ -2199,7 +2187,6 @@ obconf
 obex-data-server
 obexd
 obexd-client
-okteta
 okular
 omnibook-kmp-default
 omnibook-kmp-desktop
@@ -2523,7 +2510,6 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pwdutils
 python
-python-M2Crypto
 python-atspi
 python-base
 python-beautifulsoup
@@ -2580,9 +2566,9 @@ python-vte
 python-xdg
 python-xlib
 python-xml
-python-zypp
 qemu
 qinternet
+qt4-qtscript
 quadrapassel
 quadrapassel-lang
 quagga
@@ -2738,7 +2724,6 @@ susehelp_it
 sushi
 sushi-lang
 suspend
-sweeper
 swell-foop
 swig
 synaptiks

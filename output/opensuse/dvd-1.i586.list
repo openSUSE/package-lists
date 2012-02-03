@@ -137,16 +137,11 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
-apport
-apport-crashdb-opensuse
-apport-gtk
-apport-qt
 aqbanking
 aqbanking-devel
 aqbanking-lang
 argyllcms
 aria2
-ark
 armagetron
 arora
 arpwatch
@@ -474,7 +469,6 @@ dolphin
 dos2unix
 dosbox
 dosfstools
-dotconf
 dovecot12
 dovecot12-backend-mysql
 dovecot12-backend-pgsql
@@ -1148,8 +1142,6 @@ kbounce
 kbreakout
 kbruch
 kcachegrind
-kcalc
-kcharselect
 kchmviewer
 kcm_gtk
 kcolorchooser
@@ -1228,15 +1220,12 @@ kdepim4-runtime
 kdepimlibs4
 kdesdk4-scripts
 kdesdk4-strigi
-kdevelop4
-kdevelop4-devel
-kdevelop4-lang
-kdevelop4-plugins-php
 kdevplatform
 kdevplatform-lang
-kdf
 kdialog
 kdiamond
+kdm
+kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -1260,12 +1249,10 @@ keyutils
 keyutils-devel
 kfilereplace
 kfind
-kfloppy
 kgamma
 kgeography
 kget
 kgoldrunner
-kgpg
 khangman
 kig
 kimagemapeditor
@@ -1362,7 +1349,6 @@ krb5
 krb5-client
 krb5-devel
 krdc
-kremotecontrol
 krename
 kreversi
 krfb
@@ -1383,7 +1369,6 @@ ksudoku
 ksymoops
 ksystemlog
 kteatime
-ktimer
 ktimetracker
 ktorrent
 ktouch
@@ -1392,7 +1377,6 @@ ktux
 kubrick
 kvkbd
 kvm
-kwalletmanager
 kwebkitpart
 kwin
 kwordquiz
@@ -1921,6 +1905,7 @@ libkeyutils1
 libkface-devel
 libkface1
 libkgeomap-devel
+libkgeomap-lang
 libkgeomap1
 libkipi-devel
 libkipi8
@@ -1978,8 +1963,8 @@ libmission-control-plugins0
 libmjpegutils-2_0-0
 libmms-devel
 libmms0
-libmng
 libmng-devel
+libmng1
 libmodman1
 libmodplug1
 libmono-2_0-1
@@ -3294,7 +3279,6 @@ python-Babel
 python-Beaker
 python-CherryPy
 python-Genshi
-python-M2Crypto
 python-Mako
 python-MarkupSafe
 python-Pygments
@@ -3396,7 +3380,6 @@ python-xdg
 python-xlib
 python-xml
 python-zope.interface
-python-zypp
 python3-base
 python3-xml
 qemu
@@ -3406,6 +3389,7 @@ qinternet
 qoauth-devel
 qrencode-devel
 qt-creator
+qt4-qtscript
 qtcurve-gtk2
 qtcurve-kde4
 quadrapassel
@@ -3652,7 +3636,6 @@ sushi
 sushi-lang
 suspend
 svg-schema
-sweeper
 swell-foop
 swig
 synapse
