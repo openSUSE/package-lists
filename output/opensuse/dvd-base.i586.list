@@ -10,6 +10,7 @@ bc
 bind-libs
 bind-utils
 branding-openSUSE
+bridge-utils
 bundle-lang-common-en
 bzip2
 ca-certificates
@@ -43,7 +44,6 @@ filesystem
 fillup
 findutils
 gawk
-gdbm
 gio-branding-openSUSE
 glib2-tools
 glibc
@@ -72,7 +72,7 @@ krb5
 less
 libacl1
 libadns1
-libaio
+libaio1
 libasm1
 libassuan0
 libattr1
@@ -83,7 +83,6 @@ libblocxx6
 libbz2-1
 libcap-ng0
 libcap2
-libcares2
 libcom_err2
 libcrack2
 libcryptsetup4
@@ -98,6 +97,7 @@ libext2fs2
 libffi46
 libgcc46
 libgcrypt11
+libgdbm3
 libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
@@ -106,7 +106,6 @@ libgnutls28
 libgobject-2_0-0
 libgpg-error0
 libgssglue1
-libgthread-2_0-0
 libgudev-1_0-0
 libhogweed2
 libidn
@@ -114,6 +113,7 @@ libimobiledevice2
 libiptc0
 libiw30
 libkeyutils1
+libkmod2
 libksba
 libldap-2_4-2
 libldapcpp1
@@ -127,11 +127,11 @@ libnettle4
 libnfnetlink0
 libnl-1_1
 libnscd
-libntfs-3g81
+libntfs-3g83
 libopenssl1_0_0
 libp11-kit0
 libparted0
-libpcre0
+libpcre1
 libplist1
 libpolkit0
 libpopt0
@@ -157,14 +157,12 @@ libusbmuxd1
 libustr-1_0-1
 libuuid1
 libx86emu1
-libxcrypt
-libxml2
+libxml2-2
 libxtables7
 libzio
 libzypp
 limal
 limal-perl
-login
 logrotate
 lsof
 lsscsi
@@ -246,6 +244,7 @@ tcsh-lang
 telnet
 terminfo-base
 timezone
+tunctl
 udev
 unscd
 unzip
@@ -255,6 +254,7 @@ usbmuxd
 util-linux
 vim
 vim-base
+vlan
 w3m
 wallpaper-branding-openSUSE
 wget
