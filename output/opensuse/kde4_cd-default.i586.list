@@ -47,6 +47,7 @@ avahi
 bash
 bind-libs
 bind-utils
+bluedevil
 bluez
 boost-license1_49_0
 bootsplash
@@ -65,7 +66,7 @@ command-not-found
 coreutils
 cpio
 cpp
-cpp46
+cpp47
 cracklib
 cracklib-dict-full
 crda
@@ -127,6 +128,7 @@ gcr-prompter
 gcr-viewer
 gd
 gdb
+gdk-pixbuf-lang
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 genisoimage
@@ -139,6 +141,7 @@ ghostscript-library
 ghostscript-x11
 gio-branding-openSUSE
 glib-networking
+glib-networking-lang
 glib2-tools
 glibc
 glibc-extra
@@ -147,11 +150,13 @@ gnome-keyring
 gnome-keyring-pam
 gpart
 gpg2
+gpg2-lang
 gpm
 grep
 groff
 groff-devx
 grub
+grub2
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer-0_10
@@ -229,7 +234,6 @@ kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 keyutils
-kfind
 kgamma
 kget
 kgpg
@@ -239,7 +243,6 @@ kio_kamera
 kio_sysinfo
 kio_sysinfo-branding-openSUSE
 klogd
-kmag
 kmahjongg
 kmail
 kmines
@@ -336,6 +339,7 @@ libavahi-common3
 libavahi-core7
 libblkid1
 libblocxx6
+libbluedevil1
 libbluetooth3
 libboost_program_options1_49_0
 libbz2-1
@@ -376,6 +380,7 @@ libdrm_nouveau1
 libdrm_radeon1
 libdw1
 libedit0
+libelf0
 libelf1
 libenca0
 libenchant1
@@ -387,13 +392,13 @@ libexiv2-11
 libexpat1
 libext2fs2
 libfam0
-libffi46
+libffi47
 libfftw3-3
 libfontenc1
 libfreebl3
 libfreetype6
 libgbm1
-libgcc46
+libgcc47
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -412,10 +417,11 @@ libgmpxx4
 libgnome-keyring0
 libgnutls28
 libgobject-2_0-0
-libgomp46
+libgomp47
 libgpg-error0
 libgpgme11
 libgphoto2
+libgphoto2-lang
 libgps20
 libgrantlee_core0
 libgssglue1
@@ -431,7 +437,7 @@ libibus-1_0-0
 libical0
 libidn
 libilmbase6
-libimobiledevice2
+libimobiledevice3
 libiodbc3
 libiptc0
 libiw30
@@ -501,6 +507,7 @@ libntfs-3g83
 libogg0
 liboggkate1
 libopenjpeg1
+libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
@@ -572,7 +579,7 @@ libsqlite3-0
 libssh2-1
 libssh4
 libstartup-notification-1-0
-libstdc++46
+libstdc++47
 libstorage3
 libstrigi0
 libtag1
@@ -582,13 +589,13 @@ libtasn1-3
 libtdb1
 libtheora0
 libtidy-0_99-0
-libtiff3
+libtiff5
 libtirpc1
 libudev0
 libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
-libusbmuxd1
+libusbmuxd2
 libustr-1_0-1
 libuuid1
 libv4l
@@ -665,6 +672,9 @@ ntfs-3g
 ntfsprogs
 ntp
 numlockx
+obex-data-server
+obexd
+obexd-client
 okular
 openSUSE-build-key
 openldap2-client
@@ -673,6 +683,7 @@ openssh
 openssh-askpass
 openssl
 openvpn
+os-prober
 pam
 pam-config
 pam-modules
