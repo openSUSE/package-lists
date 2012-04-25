@@ -84,12 +84,11 @@ genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
+ghostscript
 ghostscript-fonts-std
-ghostscript-library
 ghostscript-x11
 gio-branding-openSUSE
 glib-networking
-glib-networking-lang
 glib2-tools
 glibc
 glibc-32bit
@@ -98,7 +97,6 @@ glibc-locale
 glibc-locale-32bit
 gpart
 gpg2
-gpg2-lang
 gpm
 grep
 groff
@@ -186,6 +184,7 @@ libcryptsetup4
 libcurl4
 libdaemon0
 libdb-4_8
+libdbus-1-3
 libdconf0
 libdirectfb-1_4-5
 libdrm-tools
@@ -207,7 +206,6 @@ libfreetype6
 libgcc47
 libgcrypt11
 libgdbm3
-libgimpprint
 libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
