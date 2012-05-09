@@ -36,7 +36,8 @@ cd ..
 
 installcheck i586 testtrack/full-$tree-i586/suse/setup/descr/packages > output/opensuse/missingdeps || true
 installcheck x86_64 testtrack/full-$tree-x86_64/suse/setup/descr/packages >> output/opensuse/missingdeps || true
-grep "nothing provides" output/opensuse/missingdeps  | sed -e 's,-[^-]*-[^-]*$,,' | sort -u > /tmp/missingdeps
+perl processdeps.pl < output/opensuse/missingdeps > t && mv t output/opensuse/missingdeps
+grep "nothing provides" output/opensuse/missingdeps  | sort -u > /tmp/missingdeps
 echo "INSTALLCHECK:"
 cat output/opensuse/missingdeps
 echo "<<<"
