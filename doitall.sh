@@ -34,9 +34,9 @@ cd testtrack
 WITHDESCR=1 ./update_full.sh $tree-i586 $tree-x86_64 || touch ../dirty
 cd ..
 
-installcheck i586 testtrack/full-$tree-i586/suse/setup/descr/packages > output/opensuse/missingdeps || true
-installcheck x86_64 testtrack/full-$tree-x86_64/suse/setup/descr/packages >> output/opensuse/missingdeps || true
-perl processdeps.pl < output/opensuse/missingdeps > t && mv t output/opensuse/missingdeps
+installcheck i586 testtrack/full-$tree-i586/suse/setup/descr/packages > output/opensuse/missingdeps.tmp || true
+installcheck x86_64 testtrack/full-$tree-x86_64/suse/setup/descr/packages >> output/opensuse/missingdeps.tmp || true
+perl processdeps.pl < output/opensuse/missingdeps.tmp > output/opensuse/missingdeps
 grep "nothing provides" output/opensuse/missingdeps  | sort -u > /tmp/missingdeps
 echo "INSTALLCHECK:"
 cat output/opensuse/missingdeps

@@ -1,169 +1,57 @@
+can't install avogadro:
+  nothing provides libboost_python.so.1.49.0 needed by libavogadro1-32bit
+  nothing provides libopenbabel.so.4 needed by libavogadro1-32bit
 can't install axis:
   nothing provides osgi(javax.wsdl) needed by axis
   nothing provides osgi(org.apache.commons.discovery) needed by axis
   nothing provides osgi(system.bundle) needed by axis
-can't install blas-devel-32bit:
-  nothing provides blas-32bit = 3.4.1 needed by blas-devel-32bit
-can't install calligra-doc:
-  nothing provides calligra = 2.3.87 needed by calligra-doc
-can't install compiz:
-  nothing provides libboost_serialization.so.1.46.1 needed by compiz
-can't install compiz-plugins-extra:
-  nothing provides libboost_serialization.so.1.46.1 needed by compiz-plugins-extra
-can't install compiz-plugins-main:
-  nothing provides libboost_serialization.so.1.46.1 needed by compiz-plugins-main
-can't install couchdb:
-  nothing provides libicui18n.so.48 needed by couchdb
-  nothing provides libicuuc.so.48 needed by couchdb
-  nothing provides mozilla-js192 needed by couchdb
-can't install crystalhd-kmp-%flavor:
-  nothing provides ksym(default:__class_create) = 5c602384 needed by crystalhd-kmp-default
-  nothing provides ksym(default:__class_create) = 6cd1ae8f needed by crystalhd-kmp-default
-  nothing provides ksym(default:__dynamic_dev_dbg) = 4f05bc9a needed by crystalhd-kmp-default
-  nothing provides ksym(default:__dynamic_dev_dbg) = fc925534 needed by crystalhd-kmp-default
-... 215 more problems
-can't install eclipse-swt:
-  nothing provides mozilla-xulrunner192 needed by eclipse-swt
-can't install freeradius-server-dialupadmin:
+can't install ffado:
+  nothing provides libconfig++.so.9 needed by libffado2-32bit
+can't install freeradius-server:
   nothing provides perl-DateManip needed by freeradius-server-dialupadmin
-can't install grepmail:
-  nothing provides perl-DateManip needed by grepmail
+can't install gnome-online-accounts:
+  nothing provides librest-0.7.so.0 needed by libgoa-backend-1_0-0-32bit
 can't install hanterm-xf:
   nothing provides xfntkr needed by hanterm-xf
-can't install hylafax:
-  nothing provides libtiff.so.3 needed by hylafax
-can't install hylafax-client:
-  nothing provides libtiff.so.3 needed by hylafax-client
-can't install ipset-kmp-%flavor:
-  nothing provides ksym(default:__alloc_skb) = 782971b1 needed by ipset-kmp-default
-  nothing provides ksym(default:__alloc_skb) = 9980d923 needed by ipset-kmp-default
-  nothing provides ksym(default:__dynamic_pr_debug) = a21176b needed by ipset-kmp-default
-  nothing provides ksym(default:__kmalloc) = 5a34a45c needed by ipset-kmp-default
-... 195 more problems
-can't install lapack-devel-32bit:
+can't install lapack:
+  nothing provides blas-32bit = 3.4.1 needed by blas-devel-32bit
   nothing provides lapack-32bit = 3.4.1 needed by lapack-devel-32bit
-can't install libavogadro1-32bit:
-  nothing provides libboost_python.so.1.49.0 needed by libavogadro1-32bit
-  nothing provides libopenbabel.so.4 needed by libavogadro1-32bit
-can't install libffado2-32bit:
-  nothing provides libconfig++.so.9 needed by libffado2-32bit
-can't install libgoa-backend-1_0-0-32bit:
-  nothing provides librest-0.7.so.0 needed by libgoa-backend-1_0-0-32bit
-can't install liboyranos0:
-  nothing provides libexiv2.so.11 needed by liboyranos0
-can't install libqmmp0-plugin-mplayer:
-  nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
 can't install libreoffice-openclipart:
   nothing provides libreoffice < 3.4.98 needed by libreoffice-openclipart
-can't install libsource-highlight3-32bit:
-  nothing provides libboost_regex.so.1.49.0 needed by libsource-highlight3-32bit
-can't install libtag1-32bit:
-  nothing provides librcc.so.0 needed by libtag1-32bit
-can't install libwmf-gnome-32bit:
+can't install libwmf:
   nothing provides libwmf-0.2.so.7 needed by libwmf-gnome-32bit
   nothing provides libwmflite-0.2.so.7 needed by libwmf-gnome-32bit
-can't install lighttpd:
-  nothing provides libpcre.so.0 needed by lighttpd
-can't install lighttpd-mod_trigger_b4_dl:
-  nothing provides libpcre.so.0 needed by lighttpd-mod_trigger_b4_dl
-can't install monodevelop-boo:
-  nothing provides mono(MonoDevelop.Core) = 2.4.0.0 needed by monodevelop-boo
-  nothing provides mono(MonoDevelop.Ide) = 2.4.0.0 needed by monodevelop-boo
-can't install monodevelop-database:
-  nothing provides mono(MonoDevelop.Core) = 2.4.0.0 needed by monodevelop-database
-  nothing provides mono(MonoDevelop.Ide) = 2.4.0.0 needed by monodevelop-database
-  nothing provides mono(MonoDevelop.SourceEditor2) = 2.4.0.0 needed by monodevelop-database
-can't install monodevelop-debugger-gdb:
-  nothing provides mono(MonoDevelop.Core) = 2.4.0.0 needed by monodevelop-debugger-gdb
-  nothing provides mono(MonoDevelop.Debugger) = 2.4.0.0 needed by monodevelop-debugger-gdb
-can't install monodevelop-debugger-mdb:
-  nothing provides mono(MonoDevelop.AspNet) = 2.4.0.0 needed by monodevelop-debugger-mdb
-  nothing provides mono(MonoDevelop.Core) = 2.4.0.0 needed by monodevelop-debugger-mdb
-  nothing provides mono(MonoDevelop.Debugger) = 2.4.0.0 needed by monodevelop-debugger-mdb
-can't install monodevelop-java:
-  nothing provides mono(MonoDevelop.Core) = 2.4.0.0 needed by monodevelop-java
-  nothing provides mono(MonoDevelop.Ide) = 2.4.0.0 needed by monodevelop-java
-can't install monodevelop-python:
-  nothing provides mono(MonoDevelop.Core) = 2.4.0.0 needed by monodevelop-python
-  nothing provides mono(MonoDevelop.DesignerSupport) = 2.4.0.0 needed by monodevelop-python
-  nothing provides mono(MonoDevelop.Ide) = 2.4.0.0 needed by monodevelop-python
-can't install monodevelop-vala:
-  nothing provides mono(MonoDevelop.Autotools) = 2.4.0.0 needed by monodevelop-vala
-  nothing provides mono(MonoDevelop.Core) = 2.4.0.0 needed by monodevelop-vala
-  nothing provides mono(MonoDevelop.Deployment) = 2.4.0.0 needed by monodevelop-vala
-  nothing provides mono(MonoDevelop.Ide) = 2.4.0.0 needed by monodevelop-vala
-can't install nagios-plugins-apt:
+can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
-can't install nagios-plugins-game:
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
-can't install ndiswrapper-kmp-%flavor:
-  nothing provides ksym(default:__alloc_workqueue_key) = 88a193 needed by ndiswrapper-kmp-default
-  nothing provides ksym(default:__init_waitqueue_head) = 48eb0c0d needed by ndiswrapper-kmp-default
-  nothing provides ksym(default:__init_waitqueue_head) = 6395be94 needed by ndiswrapper-kmp-default
-  nothing provides ksym(default:__kmalloc) = 5a34a45c needed by ndiswrapper-kmp-default
-... 450 more problems
-can't install nvidia-texture-tools:
-  nothing provides libtiff.so.3 needed by nvidia-texture-tools
 can't install openstack-nova:
   nothing provides python-novaclient needed by openstack-nova
 can't install otrs:
   nothing provides perl-PDF-API2 needed by otrs
-can't install pdftk:
-  nothing provides libgcj.so.12 needed by pdftk
 can't install pdns-backend-sqlite3:
   nothing provides pdns = 2.9.22 needed by pdns-backend-sqlite3
-can't install perl-Prima:
-  nothing provides libtiff.so.3 needed by perl-Prima
-can't install perl-zypp:
-  nothing provides libzypp.so.1101 needed by perl-zypp
-can't install pfstools:
-  nothing provides libtiff.so.3 needed by pfstools
-can't install python-zypp:
-  nothing provides libzypp.so.1101 needed by python-zypp
 can't install python3-IPython:
   nothing provides python3-Pygments needed by python3-IPython
   nothing provides python3-tornado needed by python3-IPython
-can't install python3-testsuite:
+can't install python3-base:
   nothing provides python3-tkinter = 3.2.2.99rc2 needed by python3-testsuite
-can't install ruby-zypp:
-  nothing provides libzypp.so.1101 needed by ruby-zypp
+can't install qmmp:
+  nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
 can't install rubygem-polkit-doc:
   nothing provides rubygem-polkit = 0.2.0 needed by rubygem-polkit-doc
 can't install rubygem-polkit-testsuite:
   nothing provides rubygem-polkit = 0.2.0 needed by rubygem-polkit-testsuite
-can't install thunar:
-  nothing provides libxfce4panel-1.0.so.3 needed by thunar
-  nothing provides libxfce4util.so.4 needed by thunar
-can't install thunar-plugin-vcs:
-  nothing provides libxfce4util.so.4 needed by thunar-plugin-vcs
-can't install vmware-guest-kmp-%flavor:
-  nothing provides ksym(default:__alloc_pages_nodemask) = 7b1714b5 needed by vmware-guest-kmp-default
-  nothing provides ksym(default:__alloc_skb) = 782971b1 needed by vmware-guest-kmp-default
-  nothing provides ksym(default:__alloc_skb) = 9980d923 needed by vmware-guest-kmp-default
-  nothing provides ksym(default:__free_pages) = 89b5071d needed by vmware-guest-kmp-default
-... 578 more problems
+can't install source-highlight:
+  nothing provides libboost_regex.so.1.49.0 needed by libsource-highlight3-32bit
+can't install taglib:
+  nothing provides librcc.so.0 needed by libtag1-32bit
 can't install w3m-el:
   nothing provides Mule-UCS needed by w3m-el
-can't install w3m-el-xemacs:
   nothing provides mule-ucs-xemacs needed by w3m-el-xemacs
-can't install wsndpref:
-  nothing provides libWUtil.so.1 needed by wsndpref
-can't install wsndsrv:
-  nothing provides libWUtil.so.1 needed by wsndsrv
-can't install xcb-util-keysyms-devel-32bit:
+can't install xcb-util-keysyms:
   nothing provides libxcb-keysyms0-32bit = 0.3.8 needed by xcb-util-keysyms-devel-32bit
-can't install xen-kmp-%flavor:
-  nothing provides ksym(default:__alloc_pages_nodemask) = 7b1714b5 needed by xen-kmp-default
-  nothing provides ksym(default:__alloc_percpu) = 55f2580b needed by xen-kmp-default
-  nothing provides ksym(default:__alloc_skb) = 782971b1 needed by xen-kmp-default
-  nothing provides ksym(default:__alloc_skb) = 9980d923 needed by xen-kmp-default
-... 556 more problems
-can't install xfdesktop:
-  nothing provides libxfce4util.so.4 needed by xfdesktop
 can't install xorg-x11-driver-input:
   nothing provides xf86-input-keyboard needed by xorg-x11-driver-input
   nothing provides xf86-input-wacom needed by xorg-x11-driver-input
 can't install xorg-x11-driver-video:
   nothing provides xf86-video-geode needed by xorg-x11-driver-video
-can't install yast2-qt-pkg:
-  nothing provides libzypp.so.1105 needed by yast2-qt-pkg
