@@ -1,21 +1,9 @@
-can't install avogadro:
-  nothing provides libboost_python.so.1.49.0 needed by libavogadro1-32bit
-  nothing provides libopenbabel.so.4 needed by libavogadro1-32bit
-can't install axis:
-  nothing provides osgi(javax.wsdl) needed by axis
-  nothing provides osgi(org.apache.commons.discovery) needed by axis
-  nothing provides osgi(system.bundle) needed by axis
-can't install ffado:
-  nothing provides libconfig++.so.9 needed by libffado2-32bit
 can't install freeradius-server:
   nothing provides perl-DateManip needed by freeradius-server-dialupadmin
-can't install gnome-online-accounts:
-  nothing provides librest-0.7.so.0 needed by libgoa-backend-1_0-0-32bit
 can't install hanterm-xf:
   nothing provides xfntkr needed by hanterm-xf
-can't install lapack:
-  nothing provides blas-32bit = 3.4.1 needed by blas-devel-32bit
-  nothing provides lapack-32bit = 3.4.1 needed by lapack-devel-32bit
+can't install librcc:
+  nothing provides librcd.so.0 needed by librcc0-32bit
 can't install libreoffice-openclipart:
   nothing provides libreoffice < 3.4.98 needed by libreoffice-openclipart
 can't install libwmf:
@@ -30,28 +18,11 @@ can't install otrs:
   nothing provides perl-PDF-API2 needed by otrs
 can't install pdns-backend-sqlite3:
   nothing provides pdns = 2.9.22 needed by pdns-backend-sqlite3
-can't install python3-IPython:
-  nothing provides python3-Pygments needed by python3-IPython
-  nothing provides python3-tornado needed by python3-IPython
 can't install python3-base:
   nothing provides python3-tkinter = 3.2.2.99rc2 needed by python3-testsuite
-can't install qmmp:
-  nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
-can't install rubygem-polkit-doc:
-  nothing provides rubygem-polkit = 0.2.0 needed by rubygem-polkit-doc
-can't install rubygem-polkit-testsuite:
-  nothing provides rubygem-polkit = 0.2.0 needed by rubygem-polkit-testsuite
-can't install source-highlight:
-  nothing provides libboost_regex.so.1.49.0 needed by libsource-highlight3-32bit
-can't install taglib:
-  nothing provides librcc.so.0 needed by libtag1-32bit
+can't install vtk:
+  nothing provides vtkdata = 5.10.0 needed by vtk-examples
+  nothing provides vtkdata = 5.10.0 needed by vtk-testing
 can't install w3m-el:
   nothing provides Mule-UCS needed by w3m-el
   nothing provides mule-ucs-xemacs needed by w3m-el-xemacs
-can't install xcb-util-keysyms:
-  nothing provides libxcb-keysyms0-32bit = 0.3.8 needed by xcb-util-keysyms-devel-32bit
-can't install xorg-x11-driver-input:
-  nothing provides xf86-input-keyboard needed by xorg-x11-driver-input
-  nothing provides xf86-input-wacom needed by xorg-x11-driver-input
-can't install xorg-x11-driver-video:
-  nothing provides xf86-video-geode needed by xorg-x11-driver-video

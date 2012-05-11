@@ -63,15 +63,11 @@ file
 filesystem
 fillup
 findutils
-fontconfig
 gawk
 genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
-ghostscript
-ghostscript-fonts-std
-ghostscript-x11
 gio-branding-openSUSE
 glib-networking
 glib2-tools
@@ -80,6 +76,7 @@ glibc-32bit
 glibc-extra
 glibc-locale
 glibc-locale-32bit
+gnu-unifont-bitmap-fonts
 gpart
 gpg2
 gpm
@@ -143,6 +140,10 @@ libdb-4_8
 libdbus-1-3
 libdconf0
 libdirectfb-1_4-5
+libdrm2
+libdrm_intel1
+libdrm_nouveau1
+libdrm_radeon1
 libdw1
 libedit0
 libelf0
@@ -173,6 +174,7 @@ libjasper1
 libjpeg62
 libkeyutils1
 libkmod2
+libkms1
 libksba
 liblcms1
 libldap-2_4-2
@@ -198,10 +200,13 @@ libopenssl1_0_0
 libp11-kit0
 libparted0
 libpcap1
+libpci3
+libpciaccess0
 libpcre1
 libplist1
 libply-boot-client2
 libply-splash-core2
+libply-splash-graphics2
 libply2
 libpng14-14
 libpolkit0
@@ -310,6 +315,10 @@ perl-gettext
 permissions
 pinentry
 pkg-config
+plymouth
+plymouth-branding-openSUSE
+plymouth-plugin-script
+plymouth-scripts
 pm-profiler
 pm-utils
 polkit
@@ -344,6 +353,7 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
+systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
