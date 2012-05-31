@@ -106,7 +106,6 @@ ant-manual
 ant-scripts
 ant-swing
 anthy
-anthy-32bit
 antlr
 antlr-java
 apache-commons-logging
@@ -444,8 +443,11 @@ farstream-data
 fbiterm
 fbset
 fcitx
+fcitx-cloudpinyin
 fcitx-gtk2
 fcitx-gtk3
+fcitx-keyboard
+fcitx-libpinyin
 fcitx-qt4
 fdupes
 fetchmail
@@ -468,7 +470,6 @@ fortune
 freerdp
 freetype2-devel
 fribidi
-fribidi-32bit
 fslsfonts
 fstobdf
 ft2demos
@@ -504,7 +505,6 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gd
-gd-32bit
 gdata-sharp
 gdb
 gdbm-devel
@@ -512,7 +512,6 @@ gdk-pixbuf-devel
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
-gdk-pixbuf-query-loaders-32bit
 gdl-lang
 gdm
 gdm-branding-openSUSE
@@ -629,6 +628,7 @@ gnome-online-accounts
 gnome-online-accounts-devel
 gnome-packagekit
 gnome-panel
+gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
 gnome-panel-lang
 gnome-phone-manager
@@ -835,10 +835,6 @@ indic-fonts
 info
 info2html
 initviocons
-inkscape
-inkscape-extensions-extra
-inkscape-extensions-gimp
-inkscape-lang
 inn
 input-utils
 insserv
@@ -1104,6 +1100,7 @@ libFS-devel
 libFS6
 libGLEW1_7
 libGeoIP1
+libHUpnp1
 libHX28
 libHX28-32bit
 libICE-devel
@@ -1111,10 +1108,10 @@ libICE6
 libICE6-32bit
 libIDL-2-0
 libIlmImf6
-libMagick++5
 libMagickCore5
 libMagickWand5
 libOSMesa8
+libQtSolutions_SOAP-2_7-1
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -1170,7 +1167,6 @@ libXfontcache-devel
 libXfontcache1
 libXft-devel
 libXft2
-libXft2-32bit
 libXi-devel
 libXi6
 libXi6-32bit
@@ -1185,7 +1181,6 @@ libXp-devel
 libXp6
 libXpm-devel
 libXpm4
-libXpm4-32bit
 libXprintAppUtil-devel
 libXprintAppUtil1
 libXprintUtil-devel
@@ -1406,7 +1401,6 @@ libedata-cal-1_2-15
 libedataserver-1_2-16
 libedataserverui-3_0-1
 libedit0
-libedit0-32bit
 libelf0
 libelf1
 libenca0
@@ -1447,9 +1441,7 @@ libfolks25
 libfontenc-devel
 libfontenc1
 libfprint0
-libfprint0-32bit
 libfreebl3
-libfreebl3-32bit
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
@@ -1488,7 +1480,6 @@ libgdbm3
 libgdict-1_0-6
 libgdiplus0
 libgdk_pixbuf-2_0-0
-libgdk_pixbuf-2_0-0-32bit
 libgdl-3-2
 libgdmgreeter1
 libgdmsimplegreeter1
@@ -1504,7 +1495,6 @@ libgif4
 libgimp-2_0-0
 libgimpui-2_0-0
 libgio-2_0-0
-libgio-2_0-0-32bit
 libgiomm-2_4-1
 libgirepository-1_0-1
 libgjs0
@@ -1641,12 +1631,11 @@ libiw30
 libjack0
 libjasper-devel
 libjasper1
-libjasper1-32bit
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
+libjbig2
 libjpeg-turbo
 libjpeg62
-libjpeg62-32bit
 libjpeg62-devel
 libjson-glib-1_0-0
 libjson0
@@ -1691,7 +1680,6 @@ liblbxutil-devel
 liblbxutil1
 liblcms-devel
 liblcms1
-liblcms1-32bit
 liblcms2-2
 libldap-2_4-2
 libldap-2_4-2-32bit
@@ -1713,7 +1701,6 @@ liblzma5
 liblzma5-32bit
 liblzo2-2
 libm17n0
-libm17n0-32bit
 libmal
 libmal-devel
 libmarblewidget13
@@ -1726,7 +1713,6 @@ libmjpegutils-2_0-0
 libmms0
 libmng-devel
 libmng1
-libmng1-32bit
 libmodman1
 libmodplug1
 libmono-2_0-1
@@ -1749,14 +1735,12 @@ libmx-1_0-2
 libmygpo-qt1
 libmysqlclient-devel
 libmysqlclient18
-libmysqlclient18-32bit
 libmysqlclient_r18
 libmysqld18
 libnautilus-extension1
 libncurses5
 libncurses5-32bit
 libncurses6
-libncurses6-32bit
 libneon27
 libnet1
 libnetcontrol0
@@ -1811,7 +1795,6 @@ libosinfo-1_0-0
 libosip2
 libosip2-devel
 libotf0
-libotf0-32bit
 libotr2
 libp11-kit0
 libpackagekit-glib2-14
@@ -1837,6 +1820,7 @@ libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-seed
 libphonon4
+libpinyin0
 libpisock-devel
 libpisock9
 libpixman-1-0
@@ -1844,14 +1828,12 @@ libpixman-1-0-devel
 libpkcs11-helper1
 libplist-devel
 libplist1
-libplotter2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
 libply2
 libpng12-0-32bit
 libpng14-14
-libpng14-14-32bit
 libpng14-compat-devel
 libpng14-devel
 libpolkit-qt-1-1
@@ -1861,7 +1843,6 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt4-devel
-libpoppler19
 libpoppler25
 libpopt0
 libportaudio2
@@ -1901,15 +1882,10 @@ libqt4
 libqt4-32bit
 libqt4-devel
 libqt4-qt3support
-libqt4-qt3support-32bit
 libqt4-sql
-libqt4-sql-32bit
 libqt4-sql-mysql
-libqt4-sql-mysql-32bit
 libqt4-sql-sqlite
-libqt4-sql-sqlite-32bit
 libqt4-x11
-libqt4-x11-32bit
 libquadmath46
 libquicktime0
 libquvi-scripts
@@ -1938,7 +1914,6 @@ libreoffice-calc
 libreoffice-calc-extensions
 libreoffice-converter
 libreoffice-draw
-libreoffice-draw-extensions
 libreoffice-filters-optional
 libreoffice-gnome
 libreoffice-help-cs
@@ -2047,7 +2022,6 @@ libsocks0
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
-libsoftokn3-32bit
 libsolv-tools
 libsoprano-devel
 libsoprano4
@@ -2065,7 +2039,6 @@ libspice-client-gtk-2_0-1
 libspice-client-gtk-3_0-1
 libspice-server1
 libsqlite3-0
-libsqlite3-0-32bit
 libssh2-1
 libssh2-1-32bit
 libssh4
@@ -2099,7 +2072,6 @@ libthunarx-2-0
 libtidy-0_99-0
 libtiff-devel
 libtiff5
-libtiff5-32bit
 libtimidity-0_1-0
 libtirpc1
 libtirpc1-32bit
@@ -2122,7 +2094,6 @@ libunistring0
 libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
-libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd2
@@ -2366,12 +2337,9 @@ moodbar
 mousetweaks
 mozilla-kde4-integration
 mozilla-nspr
-mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
-mozilla-nss-32bit
 mozilla-nss-certs
-mozilla-nss-certs-32bit
 mozilla-nss-devel
 mpi-selector
 mpt-firmware
@@ -2456,6 +2424,7 @@ nano
 nautilus
 nautilus-evince
 nautilus-extension-seahorse
+nautilus-extension-tracker-tags
 nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
@@ -2547,7 +2516,6 @@ pam-modules-32bit
 pam_apparmor
 pam_apparmor-32bit
 pam_fprint
-pam_fprint-32bit
 pam_krb5
 pam_krb5-32bit
 pam_ldap
@@ -2708,6 +2676,7 @@ perl-IO-stringy
 perl-IP-Country
 perl-Image-ExifTool
 perl-LWP-MediaTypes
+perl-List-MoreUtils
 perl-MIME-tools
 perl-MLDBM
 perl-Mail-DKIM
@@ -2817,7 +2786,6 @@ providers
 proxymngr
 psiconv
 psmisc
-pstoedit
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
@@ -3122,7 +3090,11 @@ totem-plugin-zeitgeist
 totem-plugins
 tracker
 tracker-devel
+tracker-gui
+tracker-miner-evolution
 tracker-miner-files
+tracker-miner-firefox
+tracker-miner-thunderbird
 translation-update
 translation-update-cs
 translation-update-de
@@ -3212,10 +3184,8 @@ udhcp
 udisks
 udisks2
 uim
-uim-32bit
 uim-gtk2
 uim-gtk3
-uim-qt4-32bit
 ulimit
 umbrello
 un-fonts
@@ -3651,7 +3621,6 @@ yelp-tools
 yelp-xsl
 yp-tools
 ypbind
-yudit
 yum-metadata-parser
 zd1211-firmware
 zeitgeist

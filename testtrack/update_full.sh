@@ -62,6 +62,20 @@ do
         echo
      fi
      ;;
+   arm-*)
+     rarch=${i/arm-/}
+     mkdir -p susex/$rarch
+     echo -n "syncing $i "
+     count=`rsync --timeout=40 -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-opensuse.suse.de::opensuse-internal/build/openSUSE:Factory:ARM/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     echo -n "found $count packages "
+     if test "$count" = 0; then
+        echo "done"
+     else
+        touch dirty
+        echo
+     fi
+     ;;
+
   esac
   echo > media.1/media <<EOF
 SUSE Linux Products GmbH

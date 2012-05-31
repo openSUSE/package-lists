@@ -439,8 +439,11 @@ farstream-data
 fbiterm
 fbset
 fcitx
+fcitx-cloudpinyin
 fcitx-gtk2
 fcitx-gtk3
+fcitx-keyboard
+fcitx-libpinyin
 fcitx-qt4
 fdupes
 fetchmail
@@ -617,6 +620,7 @@ gnome-online-accounts
 gnome-online-accounts-devel
 gnome-packagekit
 gnome-panel
+gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
 gnome-panel-lang
 gnome-phone-manager
@@ -823,10 +827,6 @@ indic-fonts
 info
 info2html
 initviocons
-inkscape
-inkscape-extensions-extra
-inkscape-extensions-gimp
-inkscape-lang
 inn
 input-utils
 insserv
@@ -1085,22 +1085,22 @@ leafpad
 lensfun-data
 less
 lessons4lizards_en
-libEMF
 libFLAC++6
 libFLAC8
 libFS-devel
 libFS6
 libGLEW1_7
 libGeoIP1
+libHUpnp1
 libHX28
 libICE-devel
 libICE6
 libIDL-2-0
 libIlmImf6
-libMagick++5
 libMagickCore5
 libMagickWand5
 libOSMesa8
+libQtSolutions_SOAP-2_7-1
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -1579,6 +1579,7 @@ libjasper-devel
 libjasper1
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
+libjbig2
 libjpeg-turbo
 libjpeg62
 libjpeg62-devel
@@ -1756,6 +1757,7 @@ libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-seed
 libphonon4
+libpinyin0
 libpisock-devel
 libpisock9
 libpixman-1-0
@@ -1763,7 +1765,6 @@ libpixman-1-0-devel
 libpkcs11-helper1
 libplist-devel
 libplist1
-libplotter2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -1779,7 +1780,6 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt4-devel
-libpoppler19
 libpoppler25
 libpopt0
 libportaudio2
@@ -1849,7 +1849,6 @@ libreoffice-calc
 libreoffice-calc-extensions
 libreoffice-converter
 libreoffice-draw
-libreoffice-draw-extensions
 libreoffice-filters-optional
 libreoffice-gnome
 libreoffice-help-cs
@@ -2344,6 +2343,7 @@ nano
 nautilus
 nautilus-evince
 nautilus-extension-seahorse
+nautilus-extension-tracker-tags
 nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
@@ -2586,6 +2586,7 @@ perl-IO-stringy
 perl-IP-Country
 perl-Image-ExifTool
 perl-LWP-MediaTypes
+perl-List-MoreUtils
 perl-MIME-tools
 perl-MLDBM
 perl-Mail-DKIM
@@ -2695,7 +2696,6 @@ providers
 proxymngr
 psiconv
 psmisc
-pstoedit
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
@@ -2995,7 +2995,11 @@ totem-plugin-zeitgeist
 totem-plugins
 tracker
 tracker-devel
+tracker-gui
+tracker-miner-evolution
 tracker-miner-files
+tracker-miner-firefox
+tracker-miner-thunderbird
 translation-update
 translation-update-cs
 translation-update-de
@@ -3517,7 +3521,6 @@ yelp-tools
 yelp-xsl
 yp-tools
 ypbind
-yudit
 yum-metadata-parser
 zd1211-firmware
 zeitgeist

@@ -245,6 +245,7 @@ gnome-nettool
 gnome-online-accounts
 gnome-packagekit
 gnome-panel
+gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
 gnome-panel-lang
 gnome-phone-manager
@@ -631,6 +632,7 @@ libjack0
 libjasper1
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
+libjbig2
 libjpeg62
 libjson-glib-1_0-0
 libjson0
@@ -924,6 +926,7 @@ mutter
 nano
 nautilus
 nautilus-extension-seahorse
+nautilus-extension-tracker-tags
 nautilus-file-roller
 nautilus-open-terminal
 nautilus-sendto
@@ -1178,7 +1181,10 @@ totem-browser-plugin
 totem-browser-plugin-gmp
 totem-plugins
 tracker
+tracker-gui
+tracker-miner-evolution
 tracker-miner-files
+tracker-miner-firefox
 translation-update
 transmission-common
 transmission-gtk
