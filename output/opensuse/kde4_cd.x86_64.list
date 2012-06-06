@@ -59,6 +59,7 @@ b43-fwcutter
 bash
 bc
 bdftopcf
+bea-stax-api
 beforelight
 bind-libs
 bind-utils
@@ -158,14 +159,21 @@ gcr-prompter
 gcr-viewer
 gd
 gdb
+gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gegl-0_2
 genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ggz-client-libs
+ghostscript
+ghostscript-fonts-other
 ghostscript-fonts-std
+ghostscript-x11
+gimp
+gimp-branding-openSUSE
 gio-branding-openSUSE
 glamor
 glib-networking
@@ -237,8 +245,13 @@ iptables
 iputils
 ipw-firmware
 irda
+iso-codes
 iw
+java-1_7_0-openjdk
+java-ca-certificates
 jfsutils
+jline
+jpackage-utils
 k3b
 kactivities4
 kaddressbook
@@ -323,6 +336,7 @@ kwebkitpart
 kwin
 kwrite
 lbxproxy
+lensfun-data
 less
 libFLAC++6
 libFLAC8
@@ -370,6 +384,7 @@ libXvMC1
 libXxf86dga1
 libXxf86misc1
 libXxf86vm1
+libaa1
 libacl1
 libadns1
 libaio1
@@ -393,6 +408,7 @@ libavahi-client3
 libavahi-common3
 libavahi-core7
 libavahi-glib1
+libbabl-0_1-0
 libblkid1
 libblocxx6
 libbluedevil1
@@ -414,6 +430,7 @@ libcdda_interface0
 libcdda_paranoia0
 libcdio13
 libcelt0-2
+libchm0
 libcloog0
 libclucene2
 libcollection2
@@ -432,6 +449,7 @@ libdconf0
 libdhash1
 libdirectfb-1_4-5
 libdiscid0
+libdjvulibre21
 libdmtx0
 libdmx1
 libdrm2
@@ -445,6 +463,7 @@ libelf0
 libelf1
 libenca0
 libenchant1
+libepub0
 liberation-fonts
 libevent-2_0-5
 libexif12
@@ -466,8 +485,12 @@ libgcr-3-1
 libgcrypt11
 libgdbm3
 libgdk_pixbuf-2_0-0
+libgegl-0_2-0
+libgeoclue0
 libggz2
 libgif4
+libgimp-2_0-0
+libgimpui-2_0-0
 libgio-2_0-0
 libgirepository-1_0-1
 libglib-2_0-0
@@ -508,6 +531,7 @@ libiso9660-8
 libiw30
 libjack0
 libjasper1
+libjavascriptcoregtk-1_0-0
 libjbig2
 libjpeg-turbo
 libjpeg62
@@ -540,12 +564,14 @@ liblcms2-2
 libldap-2_4-2
 libldapcpp1
 libldb1
+liblensfun0
 liblirc_client0
 liblockdev1
 libloudmouth-1-0
 liblpsolve55
 libltdl7
 liblua5_1
+liblua5_2
 liblzma5
 liblzo2-2
 libmms0
@@ -585,6 +611,7 @@ libogg0
 liboggkate1
 libopenjpeg1
 libopenobex1
+libopenraw1
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
@@ -608,6 +635,8 @@ libply2
 libpng14-14
 libpolkit-qt-1-1
 libpolkit0
+libpoppler-glib8
+libpoppler-qt4-4
 libpoppler25
 libpopt0
 libportaudio2
@@ -674,6 +703,7 @@ libsolv-tools
 libsoprano4
 libsoup-2_4-1
 libsox2
+libspectre1
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -715,7 +745,9 @@ libvorbisenc2
 libvorbisfile3
 libwavpack1
 libwbclient0
+libwebkitgtk-1_0-0
 libwebp2
+libwmf-0_2-7
 libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
@@ -739,6 +771,7 @@ libxslt1
 libxtables7
 libzeitgeist-1_0-1
 libzio
+libzip2
 libzypp
 limal
 limal-nfs-server
@@ -804,6 +837,7 @@ obex-data-server
 obexd
 obexd-client
 oclock
+okular
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-kde
@@ -936,6 +970,7 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
+rhino
 rpcbind
 rpm
 rpm-python
@@ -985,6 +1020,8 @@ systemd
 systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+systemtap
+systemtap-runtime
 sysvinit
 sysvinit-tools
 taglib
@@ -994,6 +1031,7 @@ tcpd
 terminfo-base
 tightvnc
 timezone
+timezone-java
 tomahawk-kde
 translation-update
 tunctl
@@ -1123,6 +1161,7 @@ xmag
 xman
 xmessage
 xmh
+xmlbeans
 xmodmap
 xmore
 xorg-scripts

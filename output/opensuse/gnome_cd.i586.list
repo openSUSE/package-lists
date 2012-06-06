@@ -71,6 +71,7 @@ baobab
 bash
 bc
 bdftopcf
+bea-stax-api
 beforelight
 bind-libs
 bind-utils
@@ -163,6 +164,7 @@ empathy
 eog
 espeak
 ethtool
+evince
 evolution
 evolution-mono-plugins
 evolution-python-plugins
@@ -196,19 +198,27 @@ gcr-viewer
 gd
 gdata-sharp
 gdb
+gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdm
 gdm-branding-openSUSE
 gdmflexiserver
 gedit
+gegl-0_2
 genisoimage
 geoclue
 geoclue-recommended
 gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
+ghostscript
+ghostscript-fonts-other
 ghostscript-fonts-std
+ghostscript-x11
+gimp
+gimp-branding-openSUSE
+gimp-help-browser
 gio-branding-openSUSE
 gio-sharp
 gjs
@@ -361,7 +371,11 @@ ipw-firmware
 irda
 iso-codes
 iw
+java-1_7_0-openjdk
+java-ca-certificates
 jfsutils
+jline
+jpackage-utils
 kbd
 kernel-default
 kernel-firmware
@@ -371,12 +385,14 @@ kpartx
 krb5
 krb5-client
 lbxproxy
+lensfun-data
 less
 libFLAC8
 libFS6
 libHX28
 libICE6
 libIDL-2-0
+libIlmImf6
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -414,6 +430,7 @@ libXvMC1
 libXxf86dga1
 libXxf86misc1
 libXxf86vm1
+libaa1
 libaccountsservice0
 libacl1
 libadns1
@@ -439,6 +456,7 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libavahi-gobject0
+libbabl-0_1-0
 libblas3
 libblkid1
 libblocxx6
@@ -498,6 +516,7 @@ libdhash1
 libdirac_encoder0
 libdirectfb-1_4-5
 libdiscid0
+libdjvulibre21
 libdmx1
 libdotconf0
 libdrm2
@@ -557,11 +576,14 @@ libgdk_pixbuf-2_0-0
 libgdmgreeter1
 libgdmsimplegreeter1
 libgee2
+libgegl-0_2-0
 libgeoclue0
 libgeocode-glib0
 libgexiv2-1
 libgfortran47
 libgif4
+libgimp-2_0-0
+libgimpui-2_0-0
 libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
@@ -623,11 +645,13 @@ libgupnp-igd-1_0-4
 libgvfscommon0
 libgweather-3-0
 libgweather-data
+libgxps2
 libhogweed2
 libical0
 libicu49
 libidn
 libieee1284
+libilmbase6
 libimobiledevice3
 libini_config2
 libiptc0
@@ -654,6 +678,7 @@ liblcms2-2
 libldap-2_4-2
 libldapcpp1
 libldb1
+liblensfun0
 liblirc_client0
 liblockdev1
 liblouis2
@@ -661,6 +686,7 @@ liblpsolve55
 liblrdf2
 libltdl7
 liblua5_1
+liblua5_2
 liblzma5
 liblzo2-2
 libmemphis-0_2-0
@@ -708,6 +734,7 @@ liboggkate1
 libopenal1-soft
 libopenjpeg1
 libopenobex1
+libopenraw1
 libopenssl1_0_0
 liborc-0_4-0
 libosinfo
@@ -814,6 +841,7 @@ libsoftokn3
 libsolv-tools
 libsoup-2_4-1
 libspandsp2
+libspectre1
 libspeechd2
 libspeex1
 libspeexdsp1
@@ -872,6 +900,7 @@ libwavpack1
 libwbclient0
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
+libwmf-0_2-7
 libwnck-1-22
 libwnck-3-0
 libwpd-0_9-9
@@ -950,6 +979,7 @@ mutter
 myspell-american
 nano
 nautilus
+nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-tracker-tags
 nautilus-file-roller
@@ -1124,6 +1154,7 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
+rhino
 rpcbind
 rpm
 rpm-python
@@ -1183,8 +1214,11 @@ systemd
 systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+systemtap
+systemtap-runtime
 sysvinit
 sysvinit-tools
+t1lib
 taglib-sharp
 tar
 tcl
@@ -1200,6 +1234,7 @@ telepathy-sofiasip
 terminfo-base
 tightvnc
 timezone
+timezone-java
 tk
 tomboy
 totem
@@ -1391,6 +1426,7 @@ xmag
 xman
 xmessage
 xmh
+xmlbeans
 xmodmap
 xmore
 xorg-scripts
