@@ -1,20 +1,21 @@
+can't install compiz-manager:
+  nothing provides compiz < 0.9 needed by compiz-manager
 can't install freeradius-server:
   nothing provides perl-DateManip needed by freeradius-server-dialupadmin
-can't install gstreamer-0_10-plugins-buzztard:
-  nothing provides libfluidsynth.so.1 needed by gstreamer-0_10-plugins-buzztard-32bit
 can't install hanterm-xf:
   nothing provides xfntkr needed by hanterm-xf
 can't install kiwi:
-  nothing provides kernel-pae needed by kiwi-desc-isoboot-requires
-  nothing provides kernel-pae needed by kiwi-desc-netboot-requires
-  nothing provides kernel-pae needed by kiwi-desc-oemboot-requires
-  nothing provides kernel-pae needed by kiwi-desc-vmxboot-requires
   package kernel-ec2-base-3.4.0-3.1.i586 conflicts with kernel-ec2 = 3.4.0-3.1 provided by kernel-ec2-3.4.0-3.1.i586
+  package kernel-ec2-base-3.4.0-3.1.x86_64 conflicts with kernel-ec2 = 3.4.0-3.1 provided by kernel-ec2-3.4.0-3.1.x86_64
 can't install librcc:
   nothing provides librcd.so.0 needed by librcc0-32bit
 can't install libwmf:
   nothing provides libwmf-0.2.so.7 needed by libwmf-gnome-32bit
   nothing provides libwmflite-0.2.so.7 needed by libwmf-gnome-32bit
+can't install limal-apparmor-control:
+  nothing provides perl = 5.14.2 needed by limal-apparmor-control-perl
+can't install limal-runlevel:
+  nothing provides perl = 5.14.2 needed by limal-runlevel-perl
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
@@ -26,16 +27,10 @@ can't install pdns-backend-sqlite3:
   nothing provides pdns = 2.9.22 needed by pdns-backend-sqlite3
 can't install python3-base:
   nothing provides python3-tkinter = 3.2.2.99rc2 needed by python3-testsuite
-can't install startup-notification:
-  nothing provides libxcb-util.so.1 needed by libstartup-notification-1-0-32bit
 can't install tiff:
   nothing provides libjbig.so.2 needed by libtiff5-32bit
 can't install w3m-el:
   nothing provides Mule-UCS needed by w3m-el
   nothing provides mule-ucs-xemacs needed by w3m-el-xemacs
-can't install xcb-util:
-  nothing provides libxcb-util0-32bit = 0.3.9 needed by xcb-util-devel-32bit
 can't install xcb-util-wm:
   nothing provides libxcb-ewmh1-32bit = 0.3.9 needed by xcb-util-wm-devel-32bit
-can't install xf86-video-intel:
-  nothing provides libxcb-util.so.1 needed by xf86-video-intel-32bit

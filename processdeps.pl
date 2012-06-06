@@ -9,6 +9,8 @@ my $cproblem = '';
 my %problems;
 my %subpackages;
 
+my $project = $ARGV[0] || "openSUSE:Factory";
+
 #system("osc api /build/openSUSE:Factory/standard/x86_64/_builddepinfo > /tmp/builddep");
 my $xml = XMLin("/tmp/builddep", ForceArray => ['package', 'pkgdep', 'subpkg']);
 
@@ -44,7 +46,7 @@ while ( <STDIN> ) {
 
 }
 
-my $api="/build/openSUSE:Factory/_result?repository=standard";
+my $api="/build/$project/_result?repository=standard";
 for my $problem (sort keys %problems) {
  $api = $api . "&package=" . uri_escape($problem);
 }

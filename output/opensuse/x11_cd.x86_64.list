@@ -2,6 +2,7 @@ ConsoleKit
 ConsoleKit-x11
 DirectFB
 ImageMagick
+Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 SuSEfirewall2
@@ -122,6 +123,7 @@ gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
 gio-branding-openSUSE
+glamor
 glib-networking
 glib2-tools
 glibc
@@ -309,6 +311,7 @@ libfprint0
 libfreebl3
 libfreetype6
 libfuse2
+libgbm1
 libgcc47
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -415,7 +418,7 @@ libqt4-sql-mysql
 libqt4-x11
 libreadline6
 libref_array1
-libreiserfs
+libreiserfs-0_3-0
 librsvg-2-2
 libsamplerate0
 libselinux1
@@ -450,6 +453,7 @@ libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
 libuuid1
+libva1
 libvorbis0
 libvorbisenc2
 libwbclient0
@@ -461,7 +465,8 @@ libxcb-glx0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
-libxcb-util0
+libxcb-util1
+libxcb-xfixes0
 libxcb1
 libxkbfile1
 libxml2-2
@@ -582,6 +587,7 @@ pinentry
 pkg-config
 plymouth
 plymouth-branding-openSUSE
+plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-profiler
@@ -673,6 +679,8 @@ usbmuxd
 usbutils
 utempter
 util-linux
+vaapi-dummy-driver
+vaapi-intel-driver
 viewres
 vim
 vim-base
@@ -741,7 +749,6 @@ xf86-video-siliconmotion
 xf86-video-sis
 xf86-video-tdfx
 xf86-video-tga
-xf86-video-trident
 xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware

@@ -184,6 +184,7 @@ ggz-client-libs
 ggz-client-libs-lang
 ghostscript-fonts-std
 gio-branding-openSUSE
+glamor
 glib-networking
 glib-networking-lang
 glib2-lang
@@ -194,6 +195,8 @@ glibc-locale
 gnome-keyring
 gnome-keyring-lang
 gnome-keyring-pam
+gnome-vfs2
+gnome-vfs2-lang
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
 google-droid-fonts
@@ -211,6 +214,7 @@ gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gstreamer-0_10
 gstreamer-0_10-lang
+gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good
@@ -420,6 +424,7 @@ libaugeas0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libavahi-glib1
 libblkid1
 libblocxx6
 libbluedevil1
@@ -526,6 +531,7 @@ libgudev-1_0-0
 libhogweed2
 libibus-1_0-0
 libical0
+libicu49
 libidn
 libilmbase6
 libimobiledevice3
@@ -572,6 +578,7 @@ libldb1
 liblirc_client0
 liblockdev1
 libloudmouth-1-0
+liblpsolve55
 libltdl7
 liblua5_1
 liblzma5
@@ -670,8 +677,22 @@ librcd0
 libreadline6
 libredland0
 libref_array1
-libreiserfs
+libreiserfs-0_3-0
+libreoffice
+libreoffice-base
+libreoffice-branding-openSUSE
+libreoffice-calc
+libreoffice-draw
+libreoffice-help-en-US
+libreoffice-hyphen
 libreoffice-icon-theme-oxygen
+libreoffice-impress
+libreoffice-kde4
+libreoffice-l10n-de
+libreoffice-l10n-ru
+libreoffice-templates-labels-a4
+libreoffice-templates-labels-letter
+libreoffice-writer
 librsvg-2-2
 libsamplerate0
 libselinux1
@@ -721,6 +742,7 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva1
 libvcdinfo0
 libvisual
 libvorbis0
@@ -729,6 +751,9 @@ libvorbisfile3
 libwavpack1
 libwbclient0
 libwebp2
+libwpd-0_9-9
+libwpg-0_2-2
+libwps-0_2-2
 libx86-1
 libx86emu1
 libxcb-dri2-0
@@ -736,11 +761,12 @@ libxcb-glx0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
-libxcb-util0
+libxcb-util1
 libxcb-xfixes0
 libxcb-xv0
 libxcb1
 libxine1
+libxine1-gnome-vfs
 libxine1-pulse
 libxkbfile1
 libxml2-2
@@ -789,6 +815,7 @@ mozilla-nss-certs
 mpt-firmware
 mtools
 multipath-tools
+myspell-american
 mysql-community-server
 mysql-community-server-client
 nano
@@ -900,6 +927,7 @@ plasmoid-networkmanagement
 plasmoid-quickaccess
 plymouth
 plymouth-branding-openSUSE
+plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-profiler
@@ -1035,6 +1063,8 @@ usbutils
 utempter
 util-linux
 util-linux-lang
+vaapi-dummy-driver
+vaapi-intel-driver
 vcdimager
 viewres
 vim
@@ -1113,7 +1143,6 @@ xf86-video-siliconmotion
 xf86-video-sis
 xf86-video-tdfx
 xf86-video-tga
-xf86-video-trident
 xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware

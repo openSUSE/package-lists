@@ -4,6 +4,7 @@ DirectFB
 DirectFB-Mesa
 Mesa
 Mesa-demo-x
+Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLU1
 Mesa-libglapi0
@@ -250,6 +251,7 @@ gio-branding-openSUSE
 gio-sharp
 gjs
 gkeyfile-sharp
+glamor
 glchess
 glchess-lang
 glib-networking
@@ -343,6 +345,8 @@ gnome-user-docs-lang
 gnome-user-share
 gnome-user-share-lang
 gnome-version
+gnome-vfs2
+gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnome-web-photo-lang
@@ -369,6 +373,7 @@ gsf-office-thumbnailer
 gstreamer-0_10
 gstreamer-0_10-lang
 gstreamer-0_10-libnice
+gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugin-gstclutter
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
@@ -632,6 +637,7 @@ libfreebl3
 libfreetype6
 libfuse2
 libgadu3
+libgbm1
 libgc1
 libgcc47
 libgck-1-0
@@ -755,6 +761,7 @@ libldb1
 liblirc_client0
 liblockdev1
 liblouis2
+liblpsolve55
 liblrdf2
 libltdl7
 liblua5_1
@@ -870,8 +877,22 @@ librcc0
 librcd0
 libreadline6
 libref_array1
-libreiserfs
+libreiserfs-0_3-0
+libreoffice
+libreoffice-base
+libreoffice-branding-openSUSE
+libreoffice-calc
+libreoffice-draw
+libreoffice-gnome
+libreoffice-help-en-US
+libreoffice-hyphen
 libreoffice-icon-theme-tango
+libreoffice-impress
+libreoffice-l10n-de
+libreoffice-l10n-ru
+libreoffice-templates-labels-a4
+libreoffice-templates-labels-letter
+libreoffice-writer
 librest0
 librsvg-2-2
 libsamplerate0
@@ -947,6 +968,7 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva1
 libvdpau1
 libvisual
 libvorbis0
@@ -966,6 +988,9 @@ libwnck-1-22
 libwnck-3-0
 libwnck-lang
 libwnck2-lang
+libwpd-0_9-9
+libwpg-0_2-2
+libwps-0_2-2
 libx86-1
 libx86emu1
 libxcb-dri2-0
@@ -973,7 +998,8 @@ libxcb-glx0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
-libxcb-util0
+libxcb-util1
+libxcb-xfixes0
 libxcb1
 libxkbfile1
 libxklavier16
@@ -1045,6 +1071,7 @@ multipath-tools
 mutter
 mutter-lang
 mx-lang
+myspell-american
 nano
 nano-lang
 nautilus
@@ -1168,6 +1195,7 @@ pkcs11-helper
 pkg-config
 plymouth
 plymouth-branding-openSUSE
+plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-profiler
@@ -1405,6 +1433,8 @@ usbutils
 utempter
 util-linux
 util-linux-lang
+vaapi-dummy-driver
+vaapi-intel-driver
 viewres
 vim
 vim-base
@@ -1490,7 +1520,6 @@ xf86-video-siliconmotion
 xf86-video-sis
 xf86-video-tdfx
 xf86-video-tga
-xf86-video-trident
 xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware

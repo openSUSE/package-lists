@@ -404,8 +404,6 @@ edict
 editres
 efont-unicode-bitmap-fonts
 eject
-ekiga
-ekiga-lang
 elfutils
 elilo
 emacs
@@ -440,11 +438,13 @@ fbiterm
 fbset
 fcitx
 fcitx-cloudpinyin
+fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
 fcitx-keyboard
 fcitx-libpinyin
 fcitx-qt4
+fcitx-sunpinyin
 fdupes
 fetchmail
 fifth-leg-font
@@ -563,6 +563,7 @@ glade
 glade-catalog-gtksourceview
 glade-catalog-vte
 glade-lang
+glamor
 glchess
 glib-networking
 glib-sharp2
@@ -783,11 +784,13 @@ iagno
 ibus
 ibus-anthy
 ibus-chewing
+ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
 ibus-m17n
 ibus-pinyin
 ibus-qt
+ibus-sunpinyin
 ibus-table
 ibus-table-chinese
 ibus-table-chinese-array
@@ -820,7 +823,6 @@ ifntjapb
 ifplugd
 iftop
 igerman98-doc
-ilbc
 imake
 indent
 indic-fonts
@@ -1488,6 +1490,7 @@ libgobject-2_0-0
 libgoffice-0_10-9
 libgoffice-0_8-8
 libgomp47
+libgooglepinyin0
 libgpg-error-devel
 libgpg-error0
 libgpgme-devel
@@ -1711,7 +1714,6 @@ libogg0
 liboggkate1
 liboldX-devel
 liboldX6
-libopal3_6_8
 libopenal1-soft
 libopenbabel4
 libopencc1
@@ -1794,7 +1796,6 @@ libproxy1-pacrunner-mozjs
 libproxy1-pacrunner-webkit
 libpspell15
 libpst4
-libpt2_6_7
 libpth20
 libpulse-devel
 libpulse-mainloop-glib0
@@ -1839,7 +1840,7 @@ libreadline6
 libredland-devel
 libredland0
 libref_array1
-libreiserfs
+libreiserfs-0_3-0
 libreoffice
 libreoffice-base
 libreoffice-base-drivers-mysql
@@ -1849,6 +1850,7 @@ libreoffice-calc
 libreoffice-calc-extensions
 libreoffice-converter
 libreoffice-draw
+libreoffice-draw-extensions
 libreoffice-filters-optional
 libreoffice-gnome
 libreoffice-help-cs
@@ -1933,6 +1935,7 @@ libselinux1
 libsemanage1
 libsensors4
 libsepol1
+libserf-1-0
 libsexy
 libsigc-2_0-0
 libsilc-1_1-2
@@ -1981,6 +1984,7 @@ libstdc++47
 libstdc++47-devel
 libstorage3
 libstrigi0
+libsunpinyin3
 libsushi-1_0-0
 libsyncml-tools
 libsyncml0
@@ -2033,6 +2037,7 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva1
 libvala-0_16-0
 libvcdinfo0
 libvdeplug3
@@ -2092,7 +2097,7 @@ libxcb-screensaver0
 libxcb-shape0
 libxcb-shm0
 libxcb-sync0
-libxcb-util0
+libxcb-util1
 libxcb-xevie0
 libxcb-xf86dri0
 libxcb-xfixes0
@@ -2150,8 +2155,6 @@ lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
 limal
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -2537,9 +2540,7 @@ perl
 perl-Archive-Zip
 perl-Authen-SASL
 perl-BerkeleyDB
-perl-Bit-Vector
 perl-Bootloader
-perl-Carp-Clan
 perl-Clone
 perl-Config-Crontab
 perl-Config-IniFiles
@@ -2558,7 +2559,6 @@ perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
-perl-Date-Calc
 perl-Date-Manip
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -2672,6 +2672,7 @@ plasmoid-networkmanagement
 plasmoid-quickaccess
 plymouth
 plymouth-branding-openSUSE
+plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-profiler
@@ -3108,6 +3109,8 @@ usbmuxd
 usbutils
 utempter
 util-linux
+vaapi-dummy-driver
+vaapi-intel-driver
 vacation
 vala
 valgrind
@@ -3157,6 +3160,7 @@ wodim
 wol
 words
 wpa_supplicant
+wqy-microhei-fonts
 wqy-zenhei-fonts
 wv2-devel
 wvdial
@@ -3232,7 +3236,6 @@ xf86-video-siliconmotion
 xf86-video-sis
 xf86-video-tdfx
 xf86-video-tga
-xf86-video-trident
 xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware
@@ -3379,7 +3382,6 @@ yast2-apparmor
 yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
-yast2-ca-management
 yast2-control-center
 yast2-control-center-gnome
 yast2-control-center-qt
@@ -3406,7 +3408,6 @@ yast2-kdump
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
-yast2-ldap-server
 yast2-libyui
 yast2-live-installer
 yast2-mail

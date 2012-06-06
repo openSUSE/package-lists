@@ -162,6 +162,7 @@ ggz-client-libs
 ggz-client-libs-lang
 ghostscript-fonts-std
 gio-branding-basedonopensuse
+glamor
 glib-networking
 glib2-tools
 glibc
@@ -622,7 +623,7 @@ librcc0
 librcd0
 libreadline6
 libredland0
-libreiserfs
+libreiserfs-0_3-0
 librsvg-2-2
 libsamplerate0
 libselinux1
@@ -668,6 +669,7 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva1
 libvcdinfo0
 libvisual
 libvorbis0
@@ -683,7 +685,7 @@ libxcb-glx0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
-libxcb-util0
+libxcb-util1
 libxcb-xfixes0
 libxcb-xv0
 libxcb1
@@ -834,6 +836,7 @@ plasmoid-networkmanagement
 plasmoid-quickaccess
 plymouth
 plymouth-branding-openSUSE
+plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-profiler
@@ -952,6 +955,8 @@ usbmuxd
 usbutils
 utempter
 util-linux
+vaapi-dummy-driver
+vaapi-intel-driver
 vcdimager
 viewres
 vim
@@ -1028,7 +1033,6 @@ xf86-video-siliconmotion
 xf86-video-sis
 xf86-video-tdfx
 xf86-video-tga
-xf86-video-trident
 xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware
