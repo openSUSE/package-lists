@@ -85,7 +85,7 @@ EOF
   if test -n "$WITHDESCR" && test -f dirty; then
   mkdir -p .cache
   echo -n "create_package_descr $i "
-  /usr/bin/create_package_descr -c .cache -P -C -K -S -o suse/setup/descr/ -d susex/ -l english > /dev/null 2>&1
+  /usr/bin/create_package_descr -c .cache -P -F -C -K -S -o suse/setup/descr/ -d susex/ -l english > /dev/null 2>&1
 
   sed -e 's,^=Pkg: \(kernel.*\)i686,=Pkg: \1i586,' -i suse/setup/descr/packages
 
