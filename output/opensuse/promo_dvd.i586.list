@@ -214,7 +214,6 @@ boost-devel
 boost-jam
 boost-license1_49_0
 bootcycle
-bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
@@ -403,6 +402,10 @@ edict
 editres
 efont-unicode-bitmap-fonts
 eject
+ekiga
+ekiga-lang
+ekiga-plugins-evolution
+ekiga-plugins-gstreamer
 elfutils
 elilo
 emacs
@@ -545,6 +548,7 @@ gimp-help-zh
 gimp-plugins-python
 gio-branding-openSUSE
 gio-sharp
+girepository-1_0
 git
 git-core
 git-cvs
@@ -634,7 +638,7 @@ gnome-session-fallback-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-browser-plugin
-gnome-shell-extension-alt-status-menu
+gnome-shell-extension-alternative-status-menu
 gnome-shell-extensions-common
 gnome-shell-search-provider-documents
 gnome-sudoku
@@ -781,6 +785,7 @@ hylafax-client
 iagno
 ibus
 ibus-anthy
+ibus-anthy-devel
 ibus-chewing
 ibus-googlepinyin
 ibus-gtk
@@ -816,16 +821,21 @@ ico
 ifplugd
 iftop
 igerman98-doc
+ilbc
 imake
 indent
 indic-fonts
 info
 info2html
 initviocons
+inkscape
+inkscape-extensions-gimp
+inkscape-lang
 inn
 input-utils
 insserv
 intel-gpu-tools
+intlfonts
 intlfonts-chinese-big-bitmap-fonts
 intlfonts-chinese-bitmap-fonts
 intlfonts-euro-bitmap-fonts
@@ -1034,6 +1044,7 @@ kiwi-templates
 kiwi-tools
 klettres
 klogd
+kmag
 kmahjongg
 kmail
 kmines
@@ -1084,6 +1095,7 @@ leafpad
 lensfun-data
 less
 lessons4lizards_en
+libEMF1
 libFLAC++6
 libFLAC8
 libFS-devel
@@ -1096,6 +1108,7 @@ libICE-devel
 libICE6
 libIDL-2-0
 libIlmImf6
+libMagick++5
 libMagickCore5
 libMagickWand5
 libOSMesa8
@@ -1232,6 +1245,7 @@ libavahi-qt4-1
 libavahi-qt4-devel
 libavahi-ui-gtk3-0
 libavogadro1
+libavutil51
 libbabl-0_1-0
 libblas3
 libblkid-devel
@@ -1338,6 +1352,7 @@ libdmapsharing-3_0-2
 libdmtx0
 libdmx-devel
 libdmx1
+libdnet1
 libdns_sd
 libdotconf0
 libdrm-devel
@@ -1711,6 +1726,7 @@ libogg0
 liboggkate1
 liboldX-devel
 liboldX6
+libopal3_10_5
 libopenal1-soft
 libopenbabel4
 libopencc1
@@ -1764,6 +1780,7 @@ libpixman-1-0-devel
 libpkcs11-helper1
 libplist-devel
 libplist1
+libplotter2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -1790,10 +1807,10 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
 libproxy1-networkmanager
-libproxy1-pacrunner-mozjs
 libproxy1-pacrunner-webkit
 libpspell15
 libpst4
+libpt2_10_5
 libpth20
 libpulse-devel
 libpulse-mainloop-glib0
@@ -2021,6 +2038,7 @@ libunique-1_0-0
 libunique-3_0-0
 libunistring0
 libupower-glib1
+liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-devel
@@ -2032,6 +2050,7 @@ libustr-1_0-1
 libuuid-devel
 libuuid1
 libv4l
+libv4l-devel
 libv4l1-0
 libv4l2-0
 libv4lconvert0
@@ -2044,6 +2063,7 @@ libvirt
 libvirt-client
 libvirt-python
 libvisual
+libvmtools0
 libvnc-devel
 libvoikko1
 libvorbis0
@@ -2118,9 +2138,8 @@ libxfcegui4-lang
 libxfconf-0-2
 libxfsm-4_6-0
 libxine-devel
-libxine1
-libxine1-gnome-vfs
-libxine1-pulse
+libxine2
+libxine2-pulse
 libxkbfile-devel
 libxkbfile1
 libxkbui-devel
@@ -2153,6 +2172,8 @@ lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
 limal
+limal-ca-mgm
+limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -2369,7 +2390,6 @@ nfs-kernel-server
 nfsidmap
 nkf
 nmap
-nmh
 notification-daemon
 notify-sharp
 nss-mdns
@@ -2390,6 +2410,8 @@ omnibook-kmp-default
 omnibook-kmp-desktop
 omnibook-kmp-xen
 open-iscsi
+open-vm-tools
+open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd-promo
@@ -2537,7 +2559,9 @@ perl
 perl-Archive-Zip
 perl-Authen-SASL
 perl-BerkeleyDB
+perl-Bit-Vector
 perl-Bootloader
+perl-Carp-Clan
 perl-Clone
 perl-Config-Crontab
 perl-Config-IniFiles
@@ -2556,6 +2580,7 @@ perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
+perl-Date-Calc
 perl-Date-Manip
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -2694,6 +2719,7 @@ providers
 proxymngr
 psiconv
 psmisc
+pstoedit
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
@@ -2746,6 +2772,7 @@ python-qt4
 python-satsolver
 python-simplejson
 python-sip
+python-six
 python-smbc
 python-smbios
 python-speechd
@@ -2819,7 +2846,6 @@ scim-chewing
 scim-hangul
 scim-input-pad
 scim-m17n
-scim-pinyin
 scim-skk
 scim-tables
 scim-tables-additional
@@ -3058,6 +3084,7 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-Gucharmap-2_90
+typelib-1_0-IBus-1_0
 typelib-1_0-JSCore-1_0
 typelib-1_0-Json-1_0
 typelib-1_0-NMClient-1_0
@@ -3140,6 +3167,8 @@ virtuoso-server
 vlan
 vlgothic-fonts
 vm-install
+vmware-guest-kmp-default
+vmware-guest-kmp-desktop
 vorbis-tools
 vpnc
 vsftpd
@@ -3309,7 +3338,6 @@ xmag
 xman
 xmanja
 xmessage
-xmh
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-which10
@@ -3379,6 +3407,7 @@ yast2-apparmor
 yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
+yast2-ca-management
 yast2-control-center
 yast2-control-center-gnome
 yast2-control-center-qt
@@ -3405,6 +3434,7 @@ yast2-kdump
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
+yast2-ldap-server
 yast2-libyui
 yast2-live-installer
 yast2-mail
@@ -3428,6 +3458,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-product-creator
+yast2-proxy
 yast2-python-bindings
 yast2-qt
 yast2-qt-branding-openSUSE

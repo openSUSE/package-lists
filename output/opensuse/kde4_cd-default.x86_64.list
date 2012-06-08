@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 DirectFB
+DirectFB-Mesa
 LibVNCServer
 Mesa-demo-x
 Mesa-libEGL1
@@ -53,7 +54,6 @@ bitmap
 bluedevil
 bluez
 boost-license1_49_0
-bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 bridge-utils
@@ -142,7 +142,8 @@ gfxboot
 gfxboot-branding-openSUSE
 ggz-client-libs
 ghostscript-fonts-std
-gio-branding-upstream
+gio-branding-openSUSE
+girepository-1_0
 glamor
 glib-networking
 glib2-tools
@@ -251,6 +252,7 @@ kio_kamera
 kio_sysinfo
 kio_sysinfo-branding-openSUSE
 klogd
+kmag
 kmahjongg
 kmail
 kmines
@@ -349,8 +351,8 @@ libaugeas0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libavutil51
 libblkid1
-libblocxx6
 libbluedevil1
 libbluetooth3
 libboost_program_options1_49_0
@@ -443,6 +445,7 @@ libgudev-1_0-0
 libhogweed2
 libibus-1_0-0
 libical0
+libicu49
 libidn
 libilmbase6
 libimobiledevice3
@@ -451,6 +454,7 @@ libiptc0
 libiw30
 libjack0
 libjasper1
+libjavascriptcoregtk-3_0-0
 libjbig2
 libjpeg-turbo
 libjpeg62
@@ -491,8 +495,8 @@ libmng1
 libmodman1
 libmodplug1
 libmount1
-libmozjs185-1_0
 libmpc2
+libmpcdec5
 libmpfr4
 libmtdev1
 libmusicbrainz3-6
@@ -549,7 +553,7 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
 libproxy1-networkmanager
-libproxy1-pacrunner-mozjs
+libproxy1-pacrunner-webkit
 libpth20
 libpulse-mainloop-glib0
 libpulse0
@@ -632,8 +636,8 @@ libxcb-util1
 libxcb-xfixes0
 libxcb-xv0
 libxcb1
-libxine1
-libxine1-pulse
+libxine2
+libxine2-pulse
 libxkbfile1
 libxml2-2
 libxslt1
@@ -678,7 +682,6 @@ netcfg
 netpbm
 nfs-client
 nfsidmap
-nmh
 nss-mdns
 ntfs-3g
 ntfsprogs
@@ -933,7 +936,6 @@ xlsfonts
 xmag
 xman
 xmessage
-xmh
 xmodmap
 xmore
 xorg-scripts

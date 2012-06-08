@@ -57,16 +57,6 @@ autoyast2-installation
 avahi
 awesfx
 b43-fwcutter
-banshee
-banshee-backend-engine-gstreamer
-banshee-backend-io-gio
-banshee-backend-platform-gnome
-banshee-backend-platform-unix
-banshee-core
-banshee-dmp
-banshee-dmp-apple-devices
-banshee-dmp-mtp
-banshee-extensions-default
 baobab
 bash
 bc
@@ -77,7 +67,6 @@ bind-utils
 bitmap
 bluez
 bluez-firmware
-bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
@@ -131,8 +120,6 @@ dbus-1
 dbus-1-glib
 dbus-1-python
 dbus-1-x11
-dbus-sharp
-dbus-sharp-glib
 dconf
 dd_rescue
 dd_rhelp
@@ -165,7 +152,8 @@ espeak
 ethtool
 evince
 evolution
-evolution-mono-plugins
+evolution-data-server
+evolution-data-server-lang
 evolution-python-plugins
 evolution-webcal
 farstream-data
@@ -187,14 +175,12 @@ fuse
 gawk
 gcalctool
 gconf-polkit
-gconf-sharp2
 gconf2
 gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
 gd
-gdata-sharp
 gdb
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -213,13 +199,11 @@ ghostscript-fonts-other
 ghostscript-fonts-std
 ghostscript-x11
 gio-branding-openSUSE
-gio-sharp
+girepository-1_0
 gjs
-gkeyfile-sharp
 glamor
 glchess
 glib-networking
-glib-sharp2
 glib2-tools
 glibc
 glibc-extra
@@ -265,7 +249,7 @@ gnome-session-fallback-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-browser-plugin
-gnome-shell-extension-alt-status-menu
+gnome-shell-extension-alternative-status-menu
 gnome-shell-extensions-common
 gnome-shell-search-provider-documents
 gnome-sudoku
@@ -306,8 +290,6 @@ gstreamer-0_10-plugins-farstream
 gstreamer-0_10-plugins-good
 gstreamer-0_10-utils
 gstreamer-utils
-gtk-sharp-beans
-gtk-sharp2
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-engine-clearlooks
@@ -329,7 +311,6 @@ gtk3-metatheme-adwaita
 gtk3-theming-engine-adwaita
 gtk3-tools
 gucharmap
-gudev-sharp
 guile
 guile-modules-2_0
 gvfs
@@ -503,6 +484,7 @@ libdirectfb-1_4-5
 libdiscid0
 libdjvulibre21
 libdmx1
+libdnet1
 libdotconf0
 libdrm2
 libdrm_intel1
@@ -515,6 +497,8 @@ libdw1
 libebackend-1_2-2
 libebook-1_2-13
 libecal-1_2-11
+libedata-book-1_2-13
+libedata-cal-1_2-15
 libedataserver-1_2-16
 libedataserverui-3_0-1
 libedit0
@@ -556,7 +540,6 @@ libgcrypt11
 libgdata13
 libgdbm3
 libgdict-1_0-6
-libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdmgreeter1
 libgdmsimplegreeter1
@@ -614,9 +597,9 @@ libgtk-2_0-0
 libgtk-3-0
 libgtkhtml-4_0-0
 libgtkhtml-editor-4_0-0
+libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-0
-libgtkspell0
 libgtop-2_0-7
 libgucharmap_2_90-7
 libgudev-1_0-0
@@ -654,7 +637,6 @@ libkms1
 libksba
 liblapack3
 liblbxutil1
-liblcms1
 liblcms2-2
 libldap-2_4-2
 libldapcpp1
@@ -662,7 +644,6 @@ libldb1
 liblirc_client0
 liblockdev1
 liblouis2
-liblpsolve55
 liblrdf2
 libltdl7
 liblua5_1
@@ -673,10 +654,8 @@ libminiupnpc8
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmms0
-libmng1
 libmodman1
 libmodplug1
-libmono-2_0-1
 libmount1
 libmozjs185-1_0
 libmpc2
@@ -753,7 +732,6 @@ libprocps0
 libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
-libproxy1-pacrunner-mozjs
 libproxy1-pacrunner-webkit
 libpst4
 libpth20
@@ -777,12 +755,9 @@ libreadline6
 libref_array1
 libreiserfs-0_3-0
 libreoffice
-libreoffice-base
 libreoffice-branding-openSUSE
-libreoffice-calc
 libreoffice-draw
 libreoffice-gnome
-libreoffice-help-en-US
 libreoffice-hyphen
 libreoffice-icon-theme-tango
 libreoffice-impress
@@ -856,6 +831,7 @@ libunique-1_0-0
 libunique-3_0-0
 libunistring0
 libupower-glib1
+liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
@@ -868,6 +844,7 @@ libv4lconvert0
 libva1
 libvdpau1
 libvisual
+libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -927,7 +904,6 @@ man
 master-boot-code
 mc
 mdadm
-media-player-info
 memtest86+
 metacity
 metatheme-adwaita-common
@@ -939,13 +915,6 @@ mkfontscale
 mkinitrd
 mobile-broadband-provider-info
 module-init-tools
-mono-addins
-mono-core
-mono-data
-mono-data-sqlite
-mono-web
-mono-zeroconf
-mono-zeroconf-provider-avahi
 mousetweaks
 mozilla-nspr
 mozilla-nss
@@ -976,9 +945,7 @@ netcfg
 netpbm
 nfs-client
 nfsidmap
-nmh
 notification-daemon
-notify-sharp
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -989,6 +956,8 @@ obex-data-server
 obexd
 obexd-client
 oclock
+open-vm-tools
+open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-gnome
@@ -1194,7 +1163,6 @@ systemd-sysvinit
 sysvinit
 sysvinit-tools
 t1lib
-taglib-sharp
 tar
 tcl
 tcpd
@@ -1210,7 +1178,6 @@ terminfo-base
 tightvnc
 timezone
 tk
-tomboy
 totem
 totem-browser-plugin
 totem-browser-plugin-gmp
@@ -1294,6 +1261,7 @@ virtualbox-guest-kmp-default
 virtualbox-guest-tools
 virtualbox-guest-x11
 vlan
+vmware-guest-kmp-default
 vorbis-tools
 vpnc
 w3m
@@ -1399,7 +1367,6 @@ xlsfonts
 xmag
 xman
 xmessage
-xmh
 xmodmap
 xmore
 xorg-scripts
@@ -1480,6 +1447,7 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
+yast2-proxy
 yast2-restore
 yast2-runlevel
 yast2-samba-client

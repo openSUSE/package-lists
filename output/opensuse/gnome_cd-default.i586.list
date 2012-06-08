@@ -45,16 +45,6 @@ attr
 augeas-lenses
 autofs
 avahi
-banshee
-banshee-backend-engine-gstreamer
-banshee-backend-io-gio
-banshee-backend-platform-gnome
-banshee-backend-platform-unix
-banshee-core
-banshee-dmp
-banshee-dmp-apple-devices
-banshee-dmp-mtp
-banshee-extensions-default
 baobab
 bash
 bdftopcf
@@ -63,7 +53,6 @@ bind-libs
 bind-utils
 bitmap
 bluez
-bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
@@ -113,8 +102,6 @@ dbus-1
 dbus-1-glib
 dbus-1-python
 dbus-1-x11
-dbus-sharp
-dbus-sharp-glib
 dconf
 dejavu-fonts
 deltarpm
@@ -159,17 +146,14 @@ fslsfonts
 fstobdf
 fuse
 gawk
-gbrainy
 gcalctool
 gconf-polkit
-gconf-sharp2
 gconf2
 gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
 gd
-gdata-sharp
 gdb
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -185,13 +169,11 @@ gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
 gio-branding-openSUSE
-gio-sharp
+girepository-1_0
 gjs
-gkeyfile-sharp
 glamor
 glchess
 glib-networking
-glib-sharp2
 glib2-tools
 glibc
 glibc-extra
@@ -232,7 +214,7 @@ gnome-session-fallback-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-browser-plugin
-gnome-shell-extension-alt-status-menu
+gnome-shell-extension-alternative-status-menu
 gnome-shell-extensions-common
 gnome-shell-search-provider-documents
 gnome-sudoku
@@ -267,8 +249,6 @@ gstreamer-0_10-plugins-farstream
 gstreamer-0_10-plugins-good
 gstreamer-0_10-utils
 gstreamer-utils
-gtk-sharp-beans
-gtk-sharp2
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-engine-clearlooks
@@ -290,7 +270,6 @@ gtk3-metatheme-adwaita
 gtk3-theming-engine-adwaita
 gtk3-tools
 gucharmap
-gudev-sharp
 guile
 guile-modules-2_0
 gvfs
@@ -394,7 +373,6 @@ libavahi-glib1
 libavahi-gobject0
 libblas3
 libblkid1
-libblocxx6
 libbluetooth3
 libbluray1
 libbonobo
@@ -499,7 +477,6 @@ libgcrypt11
 libgdata13
 libgdbm3
 libgdict-1_0-6
-libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdmgreeter1
 libgdmsimplegreeter1
@@ -557,7 +534,6 @@ libgtk-2_0-0
 libgtk-3-0
 libgtkmm-3_0-1
 libgtksourceview-3_0-0
-libgtkspell0
 libgtop-2_0-7
 libgucharmap_2_90-7
 libgudev-1_0-0
@@ -593,7 +569,6 @@ libkms1
 libksba
 liblapack3
 liblbxutil1
-liblcms1
 liblcms2-2
 libldap-2_4-2
 liblirc_client0
@@ -609,7 +584,6 @@ libminiupnpc8
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmms0
-libmng1
 libmodman1
 libmodplug1
 libmount1
@@ -685,7 +659,6 @@ libprocps0
 libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
-libproxy1-pacrunner-mozjs
 libproxy1-pacrunner-webkit
 libpth20
 libpulse-mainloop-glib0
@@ -829,7 +802,6 @@ mailx
 man
 master-boot-code
 mdadm
-media-player-info
 metacity
 metatheme-adwaita-common
 microcode_ctl
@@ -840,12 +812,6 @@ mkfontscale
 mkinitrd
 mobile-broadband-provider-info
 module-init-tools
-mono-addins
-mono-data
-mono-data-sqlite
-mono-web
-mono-zeroconf
-mono-zeroconf-provider-avahi
 mousetweaks
 mozilla-nspr
 mozilla-nss
@@ -867,9 +833,7 @@ netcfg
 netpbm
 nfs-client
 nfsidmap
-nmh
 notification-daemon
-notify-sharp
 nss-mdns
 ntfs-3g
 ntfsprogs
@@ -1019,7 +983,6 @@ systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
 sysvinit-tools
-taglib-sharp
 tar
 tcl
 tcpd
@@ -1035,7 +998,6 @@ terminfo-base
 tightvnc
 timezone
 tk
-tomboy
 totem
 totem-browser-plugin
 totem-plugins
@@ -1214,7 +1176,6 @@ xlsfonts
 xmag
 xman
 xmessage
-xmh
 xmodmap
 xmore
 xorg-scripts

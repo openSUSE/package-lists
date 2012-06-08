@@ -106,6 +106,7 @@ ant-manual
 ant-scripts
 ant-swing
 anthy
+anthy-32bit
 antlr
 antlr-java
 apache-commons-logging
@@ -123,6 +124,10 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
+apport
+apport-crashdb-opensuse
+apport-gtk
+apport-qt
 appres
 aqbanking
 aqbanking-lang
@@ -215,7 +220,6 @@ boost-devel
 boost-jam
 boost-license1_49_0
 bootcycle
-bootsplash
 bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
@@ -407,6 +411,10 @@ editres
 efibootmgr
 efont-unicode-bitmap-fonts
 eject
+ekiga
+ekiga-lang
+ekiga-plugins-evolution
+ekiga-plugins-gstreamer
 elfutils
 elilo
 emacs
@@ -468,6 +476,7 @@ fortune
 freerdp
 freetype2-devel
 fribidi
+fribidi-32bit
 fslsfonts
 fstobdf
 ft2demos
@@ -503,6 +512,7 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gd
+gd-32bit
 gdata-sharp
 gdb
 gdbm-devel
@@ -510,6 +520,7 @@ gdk-pixbuf-devel
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gdk-pixbuf-query-loaders-32bit
 gdl-lang
 gdm
 gdm-branding-openSUSE
@@ -550,6 +561,7 @@ gimp-help-zh
 gimp-plugins-python
 gio-branding-openSUSE
 gio-sharp
+girepository-1_0
 git
 git-core
 git-cvs
@@ -642,7 +654,7 @@ gnome-session-fallback-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-browser-plugin
-gnome-shell-extension-alt-status-menu
+gnome-shell-extension-alternative-status-menu
 gnome-shell-extensions-common
 gnome-shell-search-provider-documents
 gnome-sudoku
@@ -789,6 +801,7 @@ hylafax-client
 iagno
 ibus
 ibus-anthy
+ibus-anthy-devel
 ibus-chewing
 ibus-googlepinyin
 ibus-gtk
@@ -824,16 +837,21 @@ ico
 ifplugd
 iftop
 igerman98-doc
+ilbc
 imake
 indent
 indic-fonts
 info
 info2html
 initviocons
+inkscape
+inkscape-extensions-gimp
+inkscape-lang
 inn
 input-utils
 insserv
 intel-gpu-tools
+intlfonts
 intlfonts-chinese-big-bitmap-fonts
 intlfonts-chinese-bitmap-fonts
 intlfonts-euro-bitmap-fonts
@@ -1042,6 +1060,7 @@ kiwi-templates
 kiwi-tools
 klettres
 klogd
+kmag
 kmahjongg
 kmail
 kmines
@@ -1093,6 +1112,7 @@ leafpad
 lensfun-data
 less
 lessons4lizards_en
+libEMF1
 libFLAC++6
 libFLAC8
 libFS-devel
@@ -1107,6 +1127,7 @@ libICE6
 libICE6-32bit
 libIDL-2-0
 libIlmImf6
+libMagick++5
 libMagickCore5
 libMagickWand5
 libOSMesa8
@@ -1166,6 +1187,7 @@ libXfontcache-devel
 libXfontcache1
 libXft-devel
 libXft2
+libXft2-32bit
 libXi-devel
 libXi6
 libXi6-32bit
@@ -1180,6 +1202,7 @@ libXp-devel
 libXp6
 libXpm-devel
 libXpm4
+libXpm4-32bit
 libXprintAppUtil-devel
 libXprintAppUtil1
 libXprintUtil-devel
@@ -1263,6 +1286,7 @@ libavahi-qt4-1
 libavahi-qt4-devel
 libavahi-ui-gtk3-0
 libavogadro1
+libavutil51
 libbabl-0_1-0
 libblas3
 libblkid-devel
@@ -1378,6 +1402,7 @@ libdmapsharing-3_0-2
 libdmtx0
 libdmx-devel
 libdmx1
+libdnet1
 libdns_sd
 libdotconf0
 libdrm-devel
@@ -1400,6 +1425,7 @@ libedata-cal-1_2-15
 libedataserver-1_2-16
 libedataserverui-3_0-1
 libedit0
+libedit0-32bit
 libelf0
 libelf1
 libenca0
@@ -1440,7 +1466,9 @@ libfolks25
 libfontenc-devel
 libfontenc1
 libfprint0
+libfprint0-32bit
 libfreebl3
+libfreebl3-32bit
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
@@ -1479,6 +1507,7 @@ libgdbm3
 libgdict-1_0-6
 libgdiplus0
 libgdk_pixbuf-2_0-0
+libgdk_pixbuf-2_0-0-32bit
 libgdl-3-2
 libgdmgreeter1
 libgdmsimplegreeter1
@@ -1494,6 +1523,7 @@ libgif4
 libgimp-2_0-0
 libgimpui-2_0-0
 libgio-2_0-0
+libgio-2_0-0-32bit
 libgiomm-2_4-1
 libgirepository-1_0-1
 libgjs0
@@ -1631,11 +1661,14 @@ libiw30
 libjack0
 libjasper-devel
 libjasper1
+libjasper1-32bit
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
 libjbig2
+libjbig2-32bit
 libjpeg-turbo
 libjpeg62
+libjpeg62-32bit
 libjpeg62-devel
 libjson-glib-1_0-0
 libjson0
@@ -1680,6 +1713,7 @@ liblbxutil-devel
 liblbxutil1
 liblcms-devel
 liblcms1
+liblcms1-32bit
 liblcms2-2
 libldap-2_4-2
 libldap-2_4-2-32bit
@@ -1701,6 +1735,7 @@ liblzma5
 liblzma5-32bit
 liblzo2-2
 libm17n0
+libm17n0-32bit
 libmal
 libmal-devel
 libmarblewidget13
@@ -1713,6 +1748,7 @@ libmjpegutils-2_0-0
 libmms0
 libmng-devel
 libmng1
+libmng1-32bit
 libmodman1
 libmodplug1
 libmono-2_0-1
@@ -1735,12 +1771,14 @@ libmx-1_0-2
 libmygpo-qt1
 libmysqlclient-devel
 libmysqlclient18
+libmysqlclient18-32bit
 libmysqlclient_r18
 libmysqld18
 libnautilus-extension1
 libncurses5
 libncurses5-32bit
 libncurses6
+libncurses6-32bit
 libneon27
 libnet1
 libnetcontrol0
@@ -1772,6 +1810,7 @@ libogg0
 liboggkate1
 liboldX-devel
 liboldX6
+libopal3_10_5
 libopenal1-soft
 libopenbabel4
 libopencc1
@@ -1794,6 +1833,7 @@ libosinfo-1_0-0
 libosip2
 libosip2-devel
 libotf0
+libotf0-32bit
 libotr2
 libp11-kit0
 libpackagekit-glib2-14
@@ -1827,12 +1867,14 @@ libpixman-1-0-devel
 libpkcs11-helper1
 libplist-devel
 libplist1
+libplotter2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
 libply2
 libpng12-0-32bit
 libpng14-14
+libpng14-14-32bit
 libpng14-compat-devel
 libpng14-devel
 libpolkit-qt-1-1
@@ -1853,10 +1895,10 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
 libproxy1-networkmanager
-libproxy1-pacrunner-mozjs
 libproxy1-pacrunner-webkit
 libpspell15
 libpst4
+libpt2_10_5
 libpth20
 libpulse-devel
 libpulse-mainloop-glib0
@@ -1867,7 +1909,6 @@ libpurple-meanwhile
 libpurple-tcl
 libpyglib-gi-2_0-python0
 libpython2_7-1_0
-libpython2_7-1_0-32bit
 libqalculate5
 libqca2
 libqca2-devel
@@ -1881,10 +1922,15 @@ libqt4
 libqt4-32bit
 libqt4-devel
 libqt4-qt3support
+libqt4-qt3support-32bit
 libqt4-sql
+libqt4-sql-32bit
 libqt4-sql-mysql
+libqt4-sql-mysql-32bit
 libqt4-sql-sqlite
+libqt4-sql-sqlite-32bit
 libqt4-x11
+libqt4-x11-32bit
 libquadmath46
 libquicktime0
 libquvi-scripts
@@ -2023,6 +2069,7 @@ libsocks0
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
+libsoftokn3-32bit
 libsolv-tools
 libsoprano-devel
 libsoprano4
@@ -2040,6 +2087,7 @@ libspice-client-gtk-2_0-1
 libspice-client-gtk-3_0-1
 libspice-server1
 libsqlite3-0
+libsqlite3-0-32bit
 libssh2-1
 libssh2-1-32bit
 libssh4
@@ -2074,6 +2122,7 @@ libthunarx-2-0
 libtidy-0_99-0
 libtiff-devel
 libtiff5
+libtiff5-32bit
 libtimidity-0_1-0
 libtirpc1
 libtirpc1-32bit
@@ -2094,8 +2143,10 @@ libunique-1_0-0
 libunique-3_0-0
 libunistring0
 libupower-glib1
+liburiparser1
 libusb-0_1-4
 libusb-1_0-0
+libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd2
@@ -2106,6 +2157,7 @@ libuuid-devel
 libuuid1
 libuuid1-32bit
 libv4l
+libv4l-devel
 libv4l1-0
 libv4l2-0
 libv4lconvert0
@@ -2118,6 +2170,7 @@ libvirt
 libvirt-client
 libvirt-python
 libvisual
+libvmtools0
 libvnc-devel
 libvoikko1
 libvorbis0
@@ -2195,9 +2248,8 @@ libxfcegui4-lang
 libxfconf-0-2
 libxfsm-4_6-0
 libxine-devel
-libxine1
-libxine1-gnome-vfs
-libxine1-pulse
+libxine2
+libxine2-pulse
 libxkbfile-devel
 libxkbfile1
 libxkbui-devel
@@ -2231,6 +2283,8 @@ lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
 limal
+limal-ca-mgm
+limal-ca-mgm-perl
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
@@ -2338,9 +2392,12 @@ moodbar
 mousetweaks
 mozilla-kde4-integration
 mozilla-nspr
+mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
+mozilla-nss-32bit
 mozilla-nss-certs
+mozilla-nss-certs-32bit
 mozilla-nss-devel
 mpi-selector
 mpt-firmware
@@ -2450,7 +2507,6 @@ nfs-kernel-server
 nfsidmap
 nkf
 nmap
-nmh
 notification-daemon
 notify-sharp
 nss-mdns
@@ -2474,6 +2530,8 @@ omnibook-kmp-default
 omnibook-kmp-desktop
 omnibook-kmp-xen
 open-iscsi
+open-vm-tools
+open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd-promo
@@ -2516,6 +2574,7 @@ pam-modules-32bit
 pam_apparmor
 pam_apparmor-32bit
 pam_fprint
+pam_fprint-32bit
 pam_krb5
 pam_krb5-32bit
 pam_ldap
@@ -2627,7 +2686,9 @@ perl
 perl-Archive-Zip
 perl-Authen-SASL
 perl-BerkeleyDB
+perl-Bit-Vector
 perl-Bootloader
+perl-Carp-Clan
 perl-Clone
 perl-Config-Crontab
 perl-Config-IniFiles
@@ -2646,6 +2707,7 @@ perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
+perl-Date-Calc
 perl-Date-Manip
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -2784,6 +2846,7 @@ providers
 proxymngr
 psiconv
 psmisc
+pstoedit
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
@@ -2797,6 +2860,7 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pwdutils
 python
+python-M2Crypto
 python-SpiceClientGtk
 python-atspi
 python-base
@@ -2837,6 +2901,7 @@ python-qt4
 python-satsolver
 python-simplejson
 python-sip
+python-six
 python-smbc
 python-smbios
 python-speechd
@@ -2849,6 +2914,7 @@ python-xdg
 python-xlib
 python-xml
 python-yum
+python-zypp
 qemu
 qinternet
 qt4-qtscript
@@ -2912,7 +2978,6 @@ scim-chewing
 scim-hangul
 scim-input-pad
 scim-m17n
-scim-pinyin
 scim-skk
 scim-tables
 scim-tables-additional
@@ -3153,6 +3218,7 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-Gucharmap-2_90
+typelib-1_0-IBus-1_0
 typelib-1_0-JSCore-1_0
 typelib-1_0-Json-1_0
 typelib-1_0-NMClient-1_0
@@ -3182,8 +3248,10 @@ udhcp
 udisks
 udisks2
 uim
+uim-32bit
 uim-gtk2
 uim-gtk3
+uim-qt4-32bit
 ulimit
 umbrello
 un-fonts
@@ -3235,6 +3303,8 @@ virtuoso-server
 vlan
 vlgothic-fonts
 vm-install
+vmware-guest-kmp-default
+vmware-guest-kmp-desktop
 vorbis-tools
 vpnc
 vsftpd
@@ -3409,7 +3479,6 @@ xmag
 xman
 xmanja
 xmessage
-xmh
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-which10
@@ -3479,6 +3548,7 @@ yast2-apparmor
 yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
+yast2-ca-management
 yast2-control-center
 yast2-control-center-gnome
 yast2-control-center-qt
@@ -3505,6 +3575,7 @@ yast2-kdump
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
+yast2-ldap-server
 yast2-libyui
 yast2-live-installer
 yast2-mail
@@ -3528,6 +3599,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-product-creator
+yast2-proxy
 yast2-python-bindings
 yast2-qt
 yast2-qt-branding-openSUSE
