@@ -125,6 +125,7 @@ antlr-devel
 antlr-java
 apache-commons-beanutils
 apache-commons-codec
+apache-commons-daemon
 apache-commons-logging
 apache-commons-parent
 apache2
@@ -518,7 +519,6 @@ dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 e2fsprogs-devel
 ebtables
-ecj
 ed
 edict
 editres
@@ -866,6 +866,7 @@ graphviz
 graphviz-gd
 graphviz-gnome
 grep
+grepmail
 grilo-plugins
 grisbi
 groff
@@ -1055,6 +1056,7 @@ info2html
 initviocons
 inkscape
 inkscape-extensions-dia
+inkscape-extensions-extra
 inkscape-extensions-fig
 inkscape-extensions-gimp
 inn
@@ -1074,7 +1076,6 @@ intltool
 iodbc
 ipa-ex-gothic-fonts
 ipa-ex-mincho-fonts
-ipa-fonts-config
 ipa-gothic-bold-fonts
 ipa-gothic-bolditalic-fonts
 ipa-gothic-fonts
@@ -1130,11 +1131,7 @@ ivtv-firmware
 iw
 iwidgets
 jakarta-commons-collections
-jakarta-commons-collections-tomcat5
-jakarta-commons-daemon
-jakarta-commons-daemon-java
 jakarta-commons-dbcp
-jakarta-commons-dbcp-tomcat
 jakarta-commons-digester
 jakarta-commons-discovery
 jakarta-commons-el
@@ -1145,9 +1142,6 @@ jakarta-commons-lang
 jakarta-commons-launcher
 jakarta-commons-modeler
 jakarta-commons-pool
-jakarta-commons-pool-tomcat5
-jakarta-commons-validator
-jakarta-taglibs-standard
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_6_0-openjdk
@@ -2531,7 +2525,6 @@ libtalloc2
 libtasn1
 libtasn1-3
 libtasn1-devel
-libtcnative-1-0
 libtdb1
 libtelepathy-farstream2
 libtelepathy-glib0
@@ -2547,7 +2540,6 @@ libtiff-devel
 libtiff5
 libtimidity-0_1-0
 libtirpc1
-libtomoe-gtk0
 libtool
 libtotem-plparser-mini17
 libtotem-plparser17
@@ -2650,6 +2642,7 @@ libwx_gtk2u_stc-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
 libx86-1
 libx86emu1
+libxapian22
 libxcb-composite0
 libxcb-damage0
 libxcb-devel
@@ -2792,7 +2785,6 @@ lxterminal-lang
 lynx
 lyx
 m17n-db
-m17n-lib
 m2300w
 m4
 mahjongg
@@ -3696,6 +3688,7 @@ python-zypp
 python3-base
 python3-xml
 qemu
+qemu-tools
 qhull
 qhull-devel
 qinternet
@@ -3853,21 +3846,9 @@ saxon
 sazanami-fonts
 sbl
 scim
-scim-anthy
 scim-bridge
 scim-bridge-gtk
-scim-canna
-scim-chewing
 scim-hangul
-scim-input-pad
-scim-m17n
-scim-skk
-scim-tables
-scim-tables-additional
-scim-tables-ja
-scim-tables-zh
-scim-tomoe
-scim-uim
 scons
 scotty
 scout
@@ -4099,16 +4080,6 @@ tls
 tmpwatch
 tomahawk-kde
 tomboy
-tomcat6
-tomcat6-admin-webapps
-tomcat6-el-1_0-api
-tomcat6-jsp-2_1-api
-tomcat6-lib
-tomcat6-servlet-2_5-api
-tomcat6-webapps
-tomoe
-tomoe-gtk
-tomoe-gtk-lang
 totem
 totem-browser-plugin
 totem-browser-plugin-gmp
@@ -4506,6 +4477,7 @@ xhost
 xhtml-dtd
 xindy
 xindy-rules
+xine-ui
 xinetd
 xinit
 xinput

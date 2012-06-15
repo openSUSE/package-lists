@@ -2,10 +2,6 @@ can't install compiz-lang:
   nothing provides compiz = 0.9.5.92.1 needed by compiz-lang
 can't install hanterm-xf:
   nothing provides xfntkr needed by hanterm-xf
-can't install inkscape:
-  nothing provides yudit needed by inkscape-extensions-extra
-can't install jbigkit:
-  nothing provides libjbig-32bit = 2.0 needed by libjbig-devel-32bit
 can't install kdebase3:
   nothing provides libdbus-1-qt3.so.0 needed by kdebase3-32bit
 can't install librcc:
@@ -33,6 +29,3 @@ can't install w3m-el:
   nothing provides mule-ucs-xemacs needed by w3m-el-xemacs
 can't install xcb-util-wm:
   nothing provides libxcb-ewmh1-32bit = 0.3.9 needed by xcb-util-wm-devel-32bit
-can't install xine-lib:
-  nothing provides libavutil.so.51 needed by libxine2-32bit
-  nothing provides libavutil.so.51(LIBAVUTIL_51) needed by libxine2-32bit

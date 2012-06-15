@@ -138,6 +138,7 @@ antlr-devel
 antlr-java
 apache-commons-beanutils
 apache-commons-codec
+apache-commons-daemon
 apache-commons-logging
 apache-commons-parent
 apache2
@@ -562,7 +563,6 @@ dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 e2fsprogs-devel
 ebtables
-ecj
 ed
 edict
 editres
@@ -973,6 +973,7 @@ graphviz
 graphviz-gd
 graphviz-gnome
 grep
+grepmail
 grilo-plugins
 grisbi
 grisbi-lang
@@ -1201,7 +1202,6 @@ intltool
 iodbc
 ipa-ex-gothic-fonts
 ipa-ex-mincho-fonts
-ipa-fonts-config
 ipa-gothic-bold-fonts
 ipa-gothic-bolditalic-fonts
 ipa-gothic-fonts
@@ -1259,11 +1259,7 @@ ivtv-firmware
 iw
 iwidgets
 jakarta-commons-collections
-jakarta-commons-collections-tomcat5
-jakarta-commons-daemon
-jakarta-commons-daemon-java
 jakarta-commons-dbcp
-jakarta-commons-dbcp-tomcat
 jakarta-commons-digester
 jakarta-commons-discovery
 jakarta-commons-el
@@ -1274,9 +1270,6 @@ jakarta-commons-lang
 jakarta-commons-launcher
 jakarta-commons-modeler
 jakarta-commons-pool
-jakarta-commons-pool-tomcat5
-jakarta-commons-validator
-jakarta-taglibs-standard
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_6_0-openjdk
@@ -1685,6 +1678,7 @@ libXv1
 libXv1-32bit
 libXvMC-devel
 libXvMC1
+libXvMC1-32bit
 libXxf86dga-devel
 libXxf86dga1
 libXxf86misc-devel
@@ -1768,6 +1762,7 @@ libavc1394-0-32bit
 libavogadro1
 libavogadro1-32bit
 libavutil51
+libavutil51-32bit
 libbabl-0_1-0
 libblas3
 libblkid-devel
@@ -2375,6 +2370,7 @@ liblensfun0
 liblibkremotecontrol1
 liblightdm-gobject-1-0
 liblirc_client0
+liblirc_client0-32bit
 liblockdev1
 liblockdev1-32bit
 libloudmouth-1-0
@@ -2838,6 +2834,7 @@ libslang2
 libslang2-32bit
 libsmbclient-devel
 libsmbclient0
+libsmbclient0-32bit
 libsmbios2
 libsmi
 libsmi2
@@ -2918,7 +2915,6 @@ libtasn1
 libtasn1-3
 libtasn1-3-32bit
 libtasn1-devel
-libtcnative-1-0
 libtdb1
 libtdb1-32bit
 libtelepathy-farstream2
@@ -2940,7 +2936,6 @@ libtimidity-0_1-0
 libtimidity-0_1-0-32bit
 libtirpc1
 libtirpc1-32bit
-libtomoe-gtk0
 libtool
 libtool-32bit
 libtotem-plparser-mini17
@@ -3059,6 +3054,7 @@ libwx_gtk2u_stc-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
 libx86-1
 libx86emu1
+libxapian22
 libxcb-composite0
 libxcb-damage0
 libxcb-devel
@@ -3073,6 +3069,7 @@ libxcb-render0-32bit
 libxcb-res0
 libxcb-screensaver0
 libxcb-shape0
+libxcb-shape0-32bit
 libxcb-shm0
 libxcb-shm0-32bit
 libxcb-sync0
@@ -3084,6 +3081,7 @@ libxcb-xinerama0
 libxcb-xprint0
 libxcb-xtest0
 libxcb-xv0
+libxcb-xv0-32bit
 libxcb-xvmc0
 libxcb1
 libxcb1-32bit
@@ -3101,6 +3099,7 @@ libxfconf-0-2
 libxfsm-4_6-0
 libxine-devel
 libxine2
+libxine2-32bit
 libxine2-pulse
 libxkbfile-devel
 libxkbfile1
@@ -3214,7 +3213,6 @@ lxterminal-lang
 lynx
 lyx
 m17n-db
-m17n-lib
 m2300w
 m4
 mahjongg
@@ -4165,6 +4163,7 @@ python-zypp
 python3-base
 python3-xml
 qemu
+qemu-tools
 qhull
 qhull-devel
 qinternet
@@ -4332,22 +4331,10 @@ sazanami-fonts
 sbl
 scim
 scim-32bit
-scim-anthy
 scim-bridge
 scim-bridge-gtk
 scim-bridge-gtk-32bit
-scim-canna
-scim-chewing
 scim-hangul
-scim-input-pad
-scim-m17n
-scim-skk
-scim-tables
-scim-tables-additional
-scim-tables-ja
-scim-tables-zh
-scim-tomoe
-scim-uim
 scons
 scotty
 scout
@@ -4600,16 +4587,6 @@ tls
 tmpwatch
 tomahawk-kde
 tomboy
-tomcat6
-tomcat6-admin-webapps
-tomcat6-el-1_0-api
-tomcat6-jsp-2_1-api
-tomcat6-lib
-tomcat6-servlet-2_5-api
-tomcat6-webapps
-tomoe
-tomoe-gtk
-tomoe-gtk-lang
 totem
 totem-browser-plugin
 totem-browser-plugin-gmp
@@ -5028,6 +5005,8 @@ xhost
 xhtml-dtd
 xindy
 xindy-rules
+xine-ui
+xine-ui-32bit
 xinetd
 xinit
 xinput
