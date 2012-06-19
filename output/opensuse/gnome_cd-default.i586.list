@@ -22,7 +22,6 @@ PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SuSEfirewall2
-a2ps
 aaa_base
 aaa_base-extras
 accountsservice
@@ -86,7 +85,6 @@ crda
 cron
 cronie
 cryptsetup
-cups
 cups-client
 cups-libs
 cups-pk-helper
@@ -138,7 +136,6 @@ findutils
 fontconfig
 fonts-config
 fonttosfnt
-foomatic-filters
 fortune
 fribidi
 fslsfonts
@@ -232,6 +229,9 @@ gpg2
 gpgme
 gpm
 grep
+grilo-plugin-tracker
+grilo-plugin-upnp
+grilo-plugin-youtube
 grilo-plugins
 groff
 groff-devx
@@ -501,7 +501,6 @@ libgnome-bluetooth10
 libgnome-desktop-3-2
 libgnome-keyring0
 libgnome-menu-3-0
-libgnome-menu2
 libgnomekbd
 libgnomesu
 libgnomesu0
@@ -855,7 +854,6 @@ pam
 pam-config
 pam-modules
 pango-tools
-parallel-printer-support
 parted
 pciutils
 pciutils-ids
@@ -883,7 +881,6 @@ pm-utils
 polkit
 polkit-default-privs
 polkit-gnome
-poppler-tools
 postfix
 ppp
 pptp
@@ -906,7 +903,6 @@ python-brlapi
 python-cairo
 python-cups
 python-cupshelpers
-python-gnome-menus
 python-gnomekeyring
 python-gobject
 python-gobject-cairo
@@ -970,7 +966,6 @@ swell-foop
 sysconfig
 sysfsutils
 syslog-service
-system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
@@ -1074,9 +1069,7 @@ vino
 vlan
 vorbis-tools
 vpnc
-w3m
 wallpaper-branding-openSUSE
-wdiff
 wget
 wireless-regdb
 wireless-tools
