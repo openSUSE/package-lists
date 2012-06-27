@@ -36,11 +36,11 @@ do
         echo
      fi
      ;;
-  121-*)
-     rarch=${i/121-/}
+  122-*)
+     rarch=${i/122-/}
      mkdir -p susex/$rarch
      echo -n "syncing $i "
-     count=`rsync --timeout=40 -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-opensuse.suse.de::opensuse-internal/build/openSUSE:12.1/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     count=`rsync --timeout=40 -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-opensuse.suse.de::opensuse-internal/build/openSUSE:12.2/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
      echo -n "found $count packages "
      if test "$count" = 0; then
         echo "done"

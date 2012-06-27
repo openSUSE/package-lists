@@ -27,7 +27,6 @@ cups-libs
 cyrus-sasl
 dbus-1
 dbus-1-glib
-dbus-1-python
 dconf
 desktop-data-openSUSE
 desktop-translations
@@ -130,7 +129,7 @@ libXt6
 libXxf86vm1
 libacl1
 libadns1
-libarchive2
+libarchive12
 libasm1
 libasound2
 libassuan0
@@ -149,6 +148,9 @@ libcairo-gobject2
 libcairo2
 libcap-ng0
 libcap2
+libcdio13
+libcdio_cdda1
+libcdio_paranoia1
 libcolord1
 libcom_err2
 libcrack2
@@ -276,6 +278,7 @@ libzypp
 lockdev
 logrotate
 lsof
+luit
 m4
 make
 metamail
@@ -301,8 +304,11 @@ patterns-openSUSE-x11_yast
 perl
 perl-Bootloader
 perl-Config-Crontab
+perl-Net-DBus
+perl-X11-Protocol
 perl-XML-Parser
 perl-XML-Simple
+perl-XML-Twig
 perl-base
 perl-gettext
 permissions
@@ -316,7 +322,6 @@ psmisc
 pwdutils
 python
 python-base
-python-libxml2
 python-xml
 readline-doc
 rpm

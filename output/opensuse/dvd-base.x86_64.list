@@ -38,6 +38,7 @@ e2fsprogs
 eject
 elfutils
 ethtool
+exim
 fbset
 file
 filesystem
@@ -55,6 +56,7 @@ gpg2
 grep
 grub
 grub2
+grub2-branding-openSUSE
 gzip
 haveged
 hdparm
@@ -73,6 +75,12 @@ klogd
 kpartx
 krb5
 less
+libICE6
+libSM6
+libX11-6
+libX11-data
+libXau6
+libXt6
 libacl1
 libadns1
 libaio1
@@ -101,6 +109,7 @@ libexpat1
 libext2fs2
 libffi47
 libfreetype6
+libfuse2
 libgcc47
 libgcrypt11
 libgdbm3
@@ -150,7 +159,7 @@ libsepol1
 libsolv-tools
 libssh2-1
 libstdc++47
-libstorage3
+libstorage4
 libtirpc1
 libudev0
 libupower-glib1
@@ -160,6 +169,7 @@ libusbmuxd2
 libustr-1_0-1
 libuuid1
 libx86emu1
+libxcb1
 libxml2-2
 libxtables7
 libzio
@@ -191,6 +201,7 @@ openSUSE-release
 openSUSE-release-dvd
 openslp
 openssh
+openssh-askpass
 openssl
 os-prober
 pam
@@ -208,10 +219,13 @@ perl
 perl-Bootloader
 perl-Config-Crontab
 perl-Digest-SHA1
+perl-Net-DBus
 perl-Parse-RecDescent
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-Parser
 perl-XML-Simple
+perl-XML-Twig
 perl-base
 perl-gettext
 permissions
@@ -220,7 +234,6 @@ pkg-config
 pm-utils
 polkit
 polkit-default-privs
-postfix
 prctl
 procps
 psmisc

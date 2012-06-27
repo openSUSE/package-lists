@@ -71,7 +71,6 @@ cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-glib
-dbus-1-python
 dbus-1-x11
 dconf
 dd_rescue
@@ -142,6 +141,7 @@ groff
 groff-devx
 grub
 grub2
+grub2-branding-openSUSE
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gtk2-branding-openSUSE
@@ -248,7 +248,7 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
-libarchive2
+libarchive12
 libasm1
 libasound2
 libaspell15
@@ -274,6 +274,9 @@ libcairomm-1_0-1
 libcap-ng0
 libcap2
 libcares2
+libcdio13
+libcdio_cdda1
+libcdio_paranoia1
 libcelt0-2
 libcloog0
 libcollection2
@@ -355,7 +358,6 @@ libjpeg62
 libjson0
 libkeyutils1
 libkmod2
-libkms1
 libksba
 liblbxutil1
 liblcms1
@@ -438,7 +440,7 @@ libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++47
-libstorage3
+libstorage4
 libtalloc2
 libtasn1
 libtasn1-3
@@ -464,6 +466,7 @@ libwbclient0
 libwebp2
 libx86-1
 libx86emu1
+libxatracker1
 libxcb-dri2-0
 libxcb-glx0
 libxcb-render0
@@ -570,8 +573,10 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
 perl-NetxAP
 perl-Parse-RecDescent
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -579,6 +584,7 @@ perl-XML-Parser
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-base
@@ -607,7 +613,6 @@ pullin-fluendo-mp3
 pwdutils
 python
 python-base
-python-libxml2
 python-satsolver
 python-smbios
 python-xml
@@ -653,7 +658,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
@@ -811,7 +815,6 @@ xsetpointer
 xsetroot
 xsm
 xstdcmap
-xstroke
 xterm
 xtrap
 xvidtune

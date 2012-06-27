@@ -56,7 +56,6 @@ cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-glib
-dbus-1-python
 dbus-1-x11
 dconf
 dejavu-fonts
@@ -108,8 +107,6 @@ gpm
 grep
 groff
 groff-devx
-grub
-grub2
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gxditview
@@ -215,6 +212,7 @@ libext2fs2
 libffi47
 libfontenc1
 libfreetype6
+libfuse2
 libgbm1
 libgcc47
 libgcrypt11
@@ -240,7 +238,6 @@ libjbig2
 libjpeg62
 libkeyutils1
 libkmod2
-libkms1
 libksba
 liblbxutil1
 libldap-2_4-2
@@ -294,7 +291,7 @@ libsolv-tools
 libsqlite3-0
 libssh2-1
 libstdc++47
-libstorage3
+libstorage4
 libtalloc2
 libtasn1
 libtasn1-3
@@ -311,6 +308,7 @@ libva1
 libwbclient0
 libx86-1
 libx86emu1
+libxatracker1
 libxcb-dri2-0
 libxcb-glx0
 libxcb-render0
@@ -383,8 +381,10 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
 perl-NetxAP
 perl-Parse-RecDescent
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -392,6 +392,7 @@ perl-XML-Parser
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-XPath
 perl-base
 perl-gettext
@@ -416,7 +417,6 @@ psmisc
 pwdutils
 python
 python-base
-python-libxml2
 python-satsolver
 python-xml
 recode
@@ -446,7 +446,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit

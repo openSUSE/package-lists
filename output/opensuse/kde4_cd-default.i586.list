@@ -155,8 +155,6 @@ gpm
 grep
 groff
 groff-devx
-grub
-grub2
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer-0_10
@@ -219,7 +217,6 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdebase4-workspace-plasma-calendar
 kdebase4-workspace-plasma-engine-akonadi
 kdegames4-carddecks-default
 kdelibs4
@@ -328,7 +325,7 @@ libakonadi4
 libakonadiprotocolinternals1
 libao-plugins4
 libao4
-libarchive2
+libarchive12
 libasm1
 libasound2
 libaspell15
@@ -401,6 +398,7 @@ libfftw3-3
 libfontenc1
 libfreebl3
 libfreetype6
+libfuse2
 libgbm1
 libgcc47
 libgck-1-0
@@ -465,7 +463,6 @@ libkexiv2-10
 libkeyutils1
 libkipi8
 libkmod2
-libkms1
 libkonq5
 libksba
 libksuseinstall1
@@ -556,7 +553,6 @@ libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
 libqt4-sql-sqlite
-libqzeitgeist1
 libraptor2-0
 librasqal3
 libraw1394-11
@@ -614,7 +610,7 @@ libwbclient0
 libwebp2
 libx86-1
 libx86emu1
-libxapian22
+libxatracker1
 libxcb-dri2-0
 libxcb-glx0
 libxcb-render0
@@ -630,7 +626,6 @@ libxkbfile1
 libxml2-2
 libxslt1
 libxtables7
-libzeitgeist-1_0-1
 libzio
 libzypp
 lirc
@@ -662,6 +657,7 @@ mozilla-nss-certs
 mtools
 mysql-community-server
 mysql-community-server-client
+mysql-community-server-errormessages
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -697,8 +693,11 @@ perl-Bootloader
 perl-Config-Crontab
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
+perl-X11-Protocol
 perl-XML-Parser
 perl-XML-Simple
+perl-XML-Twig
 perl-base
 perl-gettext
 permissions
@@ -748,7 +747,6 @@ python-satsolver
 python-simplejson
 python-sip
 python-urlgrabber
-python-xdg
 python-xml
 recode
 release-notes-openSUSE
@@ -788,7 +786,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
@@ -973,8 +970,6 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
-zeitgeist
-zeitgeist-datahub
 zisofs-tools
 zlib
 zypper

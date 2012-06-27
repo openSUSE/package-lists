@@ -60,7 +60,6 @@ Terminal
 Terminal-doc
 Terminal-lang
 a2ps
-a2ps-perl-ja
 aaa_base
 aaa_base-extras
 abiword
@@ -196,6 +195,8 @@ bash-doc
 bc
 bcel
 bdftopcf
+bea-stax
+bea-stax-api
 beaver
 beforelight
 bin86
@@ -231,9 +232,13 @@ brltty-driver-brlapi
 brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
+bsdtar
 bsf
 btrfsprogs
 bug-buddy
+build
+build-mkbaselibs
+build-mkdrpms
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -303,7 +308,6 @@ caribou-gtk2-module
 caribou-gtk3-module
 cdrdao
 cdrkit-cdrtools-compat
-cedict
 cervisia
 checkmedia
 cheese
@@ -352,6 +356,7 @@ cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
 db-utils
+db45-utils
 dbus-1
 dbus-1-devel
 dbus-1-glib
@@ -406,7 +411,6 @@ e2fsprogs
 e2fsprogs-devel
 ebtables
 ed
-edict
 editres
 efibootmgr
 efont-unicode-bitmap-fonts
@@ -434,7 +438,6 @@ evince
 evolution
 evolution-data-server
 evolution-data-server-devel
-evolution-data-server-lang
 evolution-mono-plugins
 evolution-python-plugins
 evolution-webcal
@@ -453,8 +456,11 @@ fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
 fcitx-libpinyin
+fcitx-pinyin
 fcitx-qt4
 fcitx-sunpinyin
+fcitx-table
+fcitx-table-cn-wubi-large
 fdupes
 fetchmail
 fifth-leg-font
@@ -485,6 +491,7 @@ g3utils
 galculator
 gawk
 gbrainy
+gbrainy-lang
 gcalctool
 gcc
 gcc-c++
@@ -526,8 +533,8 @@ gdm
 gdm-branding-openSUSE
 gdmflexiserver
 gedit
-gedit-plugin-zeitgeist
 gegl-0_2
+gegl-0_2-lang
 genisoimage
 geoclue
 geoclue-recommended
@@ -553,10 +560,10 @@ gimp-help-browser
 gimp-help-da
 gimp-help-de
 gimp-help-es
-gimp-help-fr
 gimp-help-ja
 gimp-help-ru
 gimp-help-zh
+gimp-lang
 gimp-plugins-python
 gio-branding-openSUSE
 gio-sharp
@@ -570,7 +577,6 @@ git-svn
 git-web
 gitk
 gjdoc
-gjiten
 gjs
 gkeyfile-sharp
 glade
@@ -640,7 +646,6 @@ gnome-packagekit
 gnome-panel
 gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
-gnome-panel-lang
 gnome-phone-manager
 gnome-power-manager
 gnome-pty-helper
@@ -665,7 +670,6 @@ gnome-user-docs
 gnome-user-share
 gnome-version
 gnome-vfs2
-gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnomine
@@ -701,6 +705,7 @@ groff
 groff-devx
 grub
 grub2
+grub2-branding-openSUSE
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
@@ -770,6 +775,7 @@ gtk3-theming-engine-adwaita
 gtk3-tools
 gtkiterm
 gtksourceview-devel
+gtkspell-lang
 gucharmap
 gucharmap-devel
 gudev-sharp
@@ -785,7 +791,6 @@ gwenhywfar-lang
 gwenview
 gxditview
 gzip
-handedict
 haveged
 hdparm
 hicolor-icon-theme
@@ -803,8 +808,6 @@ hylafax-client
 iagno
 ibus
 ibus-anthy
-ibus-anthy-devel
-ibus-chewing
 ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
@@ -907,17 +910,19 @@ itstool
 iw
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
-java-1_6_0-openjdk
+java-1_7_0-openjdk
 java-ca-certificates
 jdepend
 jfsutils
 jing
+jline
 joe
 jpackage-utils
 json-glib-devel
 jtools
 junit
 k3b
+k3b-lang
 kactivities4
 kaddressbook
 kaffeine
@@ -955,7 +960,6 @@ kde4-l10n-es-doc
 kde4-l10n-fi
 kde4-l10n-fr
 kde4-l10n-fr-data
-kde4-l10n-fr-doc
 kde4-l10n-hu
 kde4-l10n-it
 kde4-l10n-it-data
@@ -977,7 +981,6 @@ kde4-l10n-ru-data
 kde4-l10n-ru-doc
 kde4-l10n-sv
 kde4-l10n-sv-data
-kde4-l10n-sv-doc
 kde4-l10n-zh_CN
 kde4-l10n-zh_TW
 kdeartwork4-screensaver
@@ -992,7 +995,6 @@ kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdebase4-workspace-plasma-calendar
 kdebase4-workspace-plasma-engine-akonadi
 kdegames4-carddecks-default
 kdegames4-carddecks-other
@@ -1110,6 +1112,7 @@ kwordquiz
 kwrite
 latex2html-pngicons
 lbxproxy
+lcms2
 leafpad
 lensfun-data
 less
@@ -1255,7 +1258,7 @@ libapparmor1
 libapparmor1-32bit
 libapr-util1
 libapr1
-libarchive2
+libarchive12
 libart_lgpl-devel
 libart_lgpl_2-2
 libasm1
@@ -1340,6 +1343,7 @@ libcanberra-gtk3-0
 libcanberra-gtk3-module
 libcanberra0
 libcap-ng0
+libcap-progs
 libcap2
 libcap2-32bit
 libcapi20-3
@@ -1349,6 +1353,8 @@ libcdaudio
 libcdda_interface0
 libcdda_paranoia0
 libcdio13
+libcdio_cdda1
+libcdio_paranoia1
 libcelt0-2
 libcelt051-0
 libcfitsio0
@@ -1698,7 +1704,6 @@ libkgeomap-lang
 libkgeomap1
 libkipi8
 libkmod2
-libkms1
 libkonq5
 libksane0
 libksba
@@ -1741,6 +1746,7 @@ libmal
 libmal-devel
 libmarblewidget13
 libmeanwhile1
+libmediawiki1
 libmemphis-0_2-0
 libmenu-cache1
 libminiupnpc8
@@ -1932,11 +1938,10 @@ libqt4-sql-sqlite
 libqt4-sql-sqlite-32bit
 libqt4-x11
 libqt4-x11-32bit
-libquadmath46
+libquadmath47
 libquicktime0
 libquvi-scripts
 libquvi7
-libqzeitgeist1
 libraptor-devel
 libraptor2-0
 librasqal-devel
@@ -2064,7 +2069,6 @@ libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb-client2
-libsocialweb-lang
 libsocialweb0
 libsocks0
 libsofia-sip-ua-glib3
@@ -2098,7 +2102,7 @@ libstdc++33
 libstdc++47
 libstdc++47-32bit
 libstdc++47-devel
-libstorage3
+libstorage4
 libstrigi0
 libsunpinyin3
 libsushi-1_0-0
@@ -2209,7 +2213,7 @@ libwx_gtk2u_html-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
 libx86-1
 libx86emu1
-libxapian22
+libxatracker1
 libxcb-composite0
 libxcb-damage0
 libxcb-devel
@@ -2271,7 +2275,6 @@ libxslt1
 libxtables7
 libyajl2
 libyelp0
-libzeitgeist-1_0-1
 libzio
 libzip2
 libzvbi0
@@ -2316,6 +2319,7 @@ lvm2
 lxappearance
 lxappearance-lang
 lxappearance-obconf
+lxc
 lxcc
 lxde-common
 lxde-common-branding-openSUSE
@@ -2428,6 +2432,7 @@ myspell-swedish
 myspell-swedish-finland
 mysql-community-server
 mysql-community-server-client
+mysql-community-server-errormessages
 nagios
 nagios-plugins
 nagios-plugins-bgpstate
@@ -2538,6 +2543,7 @@ openSUSE-release-dvd-promo
 openSUSE-xfce-icon-theme
 openal-soft
 openbox
+opencc
 openjade
 openldap2
 openldap2-client
@@ -2552,8 +2558,6 @@ openssh-askpass
 openssl
 opensuse-manuals_de
 opensuse-manuals_en
-opensuse-manuals_hu
-opensuse-manuals_ja
 openvpn
 orage
 orage-doc
@@ -2743,6 +2747,7 @@ perl-Mail-SPF
 perl-Mail-SpamAssassin
 perl-MailTools
 perl-Net-CIDR-Lite
+perl-Net-DBus
 perl-Net-DNS
 perl-Net-Daemon
 perl-Net-HTTP
@@ -2773,6 +2778,7 @@ perl-TimeDate
 perl-URI
 perl-Unix-Syslog
 perl-WWW-RobotRules
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -2780,6 +2786,7 @@ perl-XML-Parser
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-YAML-Syck
@@ -2835,6 +2842,7 @@ polkit-kde-agent-1
 polkit-kde-kcmmodules-1
 poppler-tools
 posix_cc
+postfix
 pothana2000-fonts
 ppp
 pptp
@@ -2919,7 +2927,6 @@ qemu-tools
 qinternet
 qt4-qtscript
 quadrapassel
-quadrapassel-lang
 quagga
 quilt
 quota
@@ -2943,6 +2950,7 @@ remmina-plugin-vnc
 remmina-plugin-xdmcp
 rendercheck
 rgb
+rhino
 rhythmbox
 rhythmbox-lang
 ristretto
@@ -2985,7 +2993,6 @@ seamonkey-irc
 seamonkey-translations-common
 seamonkey-venkman
 sed
-sendmail
 sensors
 sessreg
 setserial
@@ -3079,7 +3086,6 @@ system-config-printer-common
 system-config-printer-dbus-service
 systemd
 systemd-32bit
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 systemtap
@@ -3103,8 +3109,8 @@ telepathy-idle
 telepathy-logger
 telepathy-mission-control
 telepathy-mission-control-plugin-goa
+telepathy-rakia
 telepathy-salut
-telepathy-sofiasip
 telnet
 terminfo
 terminfo-base
@@ -3131,10 +3137,10 @@ timezone-java
 tk
 tomahawk-kde
 tomboy
+tomboy-lang
 totem
 totem-browser-plugin
 totem-browser-plugin-gmp
-totem-plugin-zeitgeist
 totem-plugins
 tracker
 tracker-devel
@@ -3203,7 +3209,6 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-Gucharmap-2_90
-typelib-1_0-IBus-1_0
 typelib-1_0-JSCore-1_0
 typelib-1_0-Json-1_0
 typelib-1_0-NMClient-1_0
@@ -3298,6 +3303,7 @@ vte2-lang
 w3m
 wallpaper-branding-openSUSE
 wdiff
+wdiff-lang
 wget
 whois
 wireless-regdb
@@ -3469,6 +3475,7 @@ xml-commons-jaxp-1.1-apis
 xml-commons-which10
 xml2po
 xml2po-devel
+xmlbeans
 xmlcharent
 xmms2
 xmms2-plugin-base
@@ -3513,7 +3520,6 @@ xsetpointer
 xsetroot
 xsm
 xstdcmap
-xstroke
 xterm
 xtermset
 xtrans
@@ -3679,8 +3685,6 @@ yp-tools
 ypbind
 yum-metadata-parser
 zd1211-firmware
-zeitgeist
-zeitgeist-datahub
 zenity
 zip
 zisofs-tools

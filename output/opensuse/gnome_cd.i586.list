@@ -89,6 +89,8 @@ caribou
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
+cdrdao
+cdrkit-cdrtools-compat
 checkmedia
 cheese
 cifs-utils
@@ -135,6 +137,7 @@ dmidecode
 dmraid
 dmz-icon-theme-cursors
 dnsmasq
+docbook_4
 dosfstools
 dvd+rw-tools
 dynamic-wallpaper-branding-openSUSE
@@ -150,7 +153,6 @@ ethtool
 evince
 evolution
 evolution-data-server
-evolution-data-server-lang
 evolution-python-plugins
 evolution-webcal
 farstream-data
@@ -232,7 +234,6 @@ gnome-packagekit
 gnome-panel
 gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
-gnome-panel-lang
 gnome-phone-manager
 gnome-power-manager
 gnome-pty-helper
@@ -257,7 +258,6 @@ gnome-user-docs
 gnome-user-share
 gnome-version
 gnome-vfs2
-gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnomine
@@ -276,6 +276,7 @@ groff
 groff-devx
 grub
 grub2
+grub2-branding-openSUSE
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsf-office-thumbnailer
@@ -326,6 +327,7 @@ hunspell-tools
 hwinfo
 iagno
 iceauth
+icedax
 icewm
 icewm-lite
 ico
@@ -343,6 +345,7 @@ iputils
 ipw-firmware
 irda
 iso-codes
+iso_ent
 iw
 jfsutils
 kbd
@@ -403,7 +406,7 @@ libadns1
 libaio1
 libao-plugins4
 libao4
-libarchive2
+libarchive12
 libasm1
 libasound2
 libaspell15
@@ -450,6 +453,9 @@ libcaribou0
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
+libcdio13
+libcdio_cdda1
+libcdio_paranoia1
 libcelt0-2
 libchamplain-0_12-0
 libcheese-common
@@ -631,7 +637,6 @@ libjson0
 libkate1
 libkeyutils1
 libkmod2
-libkms1
 libksba
 liblapack3
 liblbxutil1
@@ -739,7 +744,7 @@ libpurple-branding-openSUSE
 libpurple-tcl
 libpyglib-gi-2_0-python0
 libpython2_7-1_0
-libquadmath46
+libquadmath47
 libquicktime0
 libquvi-scripts
 libquvi7
@@ -783,7 +788,6 @@ libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb-client2
-libsocialweb-lang
 libsocialweb0
 libsocks0
 libsofia-sip-ua-glib3
@@ -800,7 +804,7 @@ libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
 libstdc++47
-libstorage3
+libstorage4
 libsushi-1_0-0
 libtag1
 libtag_c0
@@ -860,6 +864,7 @@ libwpg-0_2-2
 libwps-0_2-2
 libx86-1
 libx86emu1
+libxatracker1
 libxcb-dri2-0
 libxcb-glx0
 libxcb-render0
@@ -871,6 +876,7 @@ libxcb1
 libxkbfile1
 libxklavier16
 libxml2-2
+libxml2-tools
 libxslt1
 libxtables7
 libyelp0
@@ -1013,8 +1019,10 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
 perl-NetxAP
 perl-Parse-RecDescent
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -1022,6 +1030,7 @@ perl-XML-Parser
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-base
@@ -1077,6 +1086,7 @@ python-libxml2
 python-louis
 python-notify
 python-numpy
+python-pyOpenSSL
 python-pycurl
 python-satsolver
 python-simplejson
@@ -1087,7 +1097,6 @@ python-urlgrabber
 python-xdg
 python-xml
 quadrapassel
-quadrapassel-lang
 quota
 recode
 reiserfs
@@ -1114,6 +1123,7 @@ sed
 sessreg
 setxkbmap
 sg3_utils
+sgml-skel
 shared-mime-info
 shotwell
 showfont
@@ -1149,7 +1159,6 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 systemd
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
@@ -1164,8 +1173,8 @@ telepathy-idle
 telepathy-logger
 telepathy-mission-control
 telepathy-mission-control-plugin-goa
+telepathy-rakia
 telepathy-salut
-telepathy-sofiasip
 terminfo-base
 tightvnc
 timezone
@@ -1387,7 +1396,6 @@ xsetpointer
 xsetroot
 xsm
 xstdcmap
-xstroke
 xterm
 xtrap
 xvidtune

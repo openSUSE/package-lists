@@ -72,6 +72,8 @@ caribou
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
+cdrdao
+cdrkit-cdrtools-compat
 cheese
 cifs-utils
 command-not-found
@@ -115,6 +117,7 @@ dmidecode
 dmraid
 dmz-icon-theme-cursors
 dnsmasq
+docbook_4
 dosfstools
 dvd+rw-tools
 e2fsprogs
@@ -198,7 +201,6 @@ gnome-online-accounts
 gnome-panel
 gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
-gnome-panel-lang
 gnome-power-manager
 gnome-pty-helper
 gnome-screensaver
@@ -235,8 +237,6 @@ grilo-plugin-youtube
 grilo-plugins
 groff
 groff-devx
-grub
-grub2
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer-0_10
@@ -285,6 +285,7 @@ hunspell-tools
 hwinfo
 iagno
 iceauth
+icedax
 icewm
 ico
 ifplugd
@@ -298,6 +299,7 @@ iproute2
 iptables
 iputils
 iso-codes
+iso_ent
 kbd
 keyutils
 klogd
@@ -351,7 +353,7 @@ libacl1
 libadns1
 libao-plugins4
 libao4
-libarchive2
+libarchive12
 libasm1
 libasound2
 libaspell15
@@ -396,6 +398,9 @@ libcaribou0
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
+libcdio13
+libcdio_cdda1
+libcdio_paranoia1
 libcelt0-2
 libchamplain-0_12-0
 libcheese-common
@@ -563,7 +568,6 @@ libjson0
 libkate1
 libkeyutils1
 libkmod2
-libkms1
 libksba
 liblapack3
 liblbxutil1
@@ -665,7 +669,7 @@ libpurple-branding-openSUSE
 libpurple-tcl
 libpyglib-gi-2_0-python0
 libpython2_7-1_0
-libquadmath46
+libquadmath47
 libquicktime0
 libquvi-scripts
 libquvi7
@@ -695,7 +699,6 @@ libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb-client2
-libsocialweb-lang
 libsocialweb0
 libsocks0
 libsofia-sip-ua-glib3
@@ -764,6 +767,7 @@ libwnck-1-22
 libwnck-3-0
 libx86-1
 libx86emu1
+libxatracker1
 libxcb-dri2-0
 libxcb-glx0
 libxcb-render0
@@ -775,6 +779,7 @@ libxcb1
 libxkbfile1
 libxklavier16
 libxml2-2
+libxml2-tools
 libxslt1
 libxtables7
 libyelp0
@@ -862,8 +867,11 @@ perl-Bootloader
 perl-Config-Crontab
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
+perl-X11-Protocol
 perl-XML-Parser
 perl-XML-Simple
+perl-XML-Twig
 perl-base
 perl-gettext
 permissions
@@ -914,6 +922,7 @@ python-libxml2
 python-louis
 python-notify
 python-numpy
+python-pyOpenSSL
 python-pycurl
 python-satsolver
 python-simplejson
@@ -923,7 +932,6 @@ python-urlgrabber
 python-xdg
 python-xml
 quadrapassel
-quadrapassel-lang
 recode
 release-notes-openSUSE
 rendercheck
@@ -943,6 +951,7 @@ sed
 sessreg
 setxkbmap
 sg3_utils
+sgml-skel
 shared-mime-info
 shotwell
 showfont
@@ -970,7 +979,6 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 systemd
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
@@ -984,8 +992,8 @@ telepathy-idle
 telepathy-logger
 telepathy-mission-control
 telepathy-mission-control-plugin-goa
+telepathy-rakia
 telepathy-salut
-telepathy-sofiasip
 terminfo-base
 tightvnc
 timezone

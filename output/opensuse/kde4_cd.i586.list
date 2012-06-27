@@ -170,7 +170,6 @@ glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnome-vfs2
-gnome-vfs2-lang
 gnu-unifont-bitmap-fonts
 google-droid-fonts
 gpart
@@ -181,6 +180,7 @@ groff
 groff-devx
 grub
 grub2
+grub2-branding-openSUSE
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer-0_10
@@ -251,7 +251,6 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdebase4-workspace-plasma-calendar
 kdebase4-workspace-plasma-engine-akonadi
 kdegames4-carddecks-default
 kdelibs4
@@ -366,7 +365,7 @@ libakonadi4
 libakonadiprotocolinternals1
 libao-plugins4
 libao4
-libarchive2
+libarchive12
 libasm1
 libasound2
 libaspell15
@@ -449,6 +448,7 @@ libfontenc1
 libfprint0
 libfreebl3
 libfreetype6
+libfuse2
 libgbm1
 libgcc47
 libgck-1-0
@@ -519,7 +519,6 @@ libkexiv2-10
 libkeyutils1
 libkipi8
 libkmod2
-libkms1
 libkonq5
 libksba
 libksuseinstall1
@@ -623,7 +622,6 @@ libqt4-sql
 libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
-libqzeitgeist1
 libraptor2-0
 librasqal3
 libraw1394-11
@@ -666,7 +664,7 @@ libssh2-1
 libssh4
 libstartup-notification-1-0
 libstdc++47
-libstorage3
+libstorage4
 libstrigi0
 libtag-extras1
 libtag1
@@ -707,7 +705,7 @@ libwpg-0_2-2
 libwps-0_2-2
 libx86-1
 libx86emu1
-libxapian22
+libxatracker1
 libxcb-dri2-0
 libxcb-glx0
 libxcb-render0
@@ -723,7 +721,6 @@ libxkbfile1
 libxml2-2
 libxslt1
 libxtables7
-libzeitgeist-1_0-1
 libzio
 libzypp
 limal
@@ -767,6 +764,7 @@ multipath-tools
 myspell-american
 mysql-community-server
 mysql-community-server-client
+mysql-community-server-errormessages
 nano
 ncurses-utils
 ndiswrapper
@@ -844,8 +842,10 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
 perl-NetxAP
 perl-Parse-RecDescent
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -853,6 +853,7 @@ perl-XML-Parser
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-base
@@ -908,7 +909,6 @@ python-simplejson
 python-sip
 python-smbios
 python-urlgrabber
-python-xdg
 python-xml
 qt4-qtscript
 quota
@@ -962,7 +962,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
@@ -1129,7 +1128,6 @@ xsetpointer
 xsetroot
 xsm
 xstdcmap
-xstroke
 xterm
 xtrap
 xvidtune
@@ -1225,8 +1223,6 @@ yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zd1211-firmware
-zeitgeist
-zeitgeist-datahub
 zip
 zisofs-tools
 zlib

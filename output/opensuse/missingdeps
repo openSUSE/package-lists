@@ -1,29 +1,9 @@
-can't install compiz-lang:
-  nothing provides compiz = 0.9.5.92.1 needed by compiz-lang
-can't install hanterm-xf:
-  nothing provides xfntkr needed by hanterm-xf
-can't install kdebase3:
-  nothing provides libdbus-1-qt3.so.0 needed by kdebase3-32bit
-can't install libwmf:
-  nothing provides libwmf-0.2.so.7 needed by libwmf-gnome-32bit
-  nothing provides libwmflite-0.2.so.7 needed by libwmf-gnome-32bit
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
-can't install openstack-nova:
-  nothing provides python-novaclient needed by openstack-nova
-can't install pdns-backend-sqlite3:
-  nothing provides pdns = 2.9.22 needed by pdns-backend-sqlite3
-can't install phonon-backend-xine:
-  nothing provides libxine.so.1 needed by phonon-backend-xine
 can't install python3-base:
-  nothing provides python3-tkinter = 3.2.2.99rc2 needed by python3-testsuite
+  nothing provides python3-tkinter = 3.2.3 needed by python3-testsuite
 can't install pythoncad:
   nothing provides python-numeric needed by pythoncad
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
-can't install w3m-el:
-  nothing provides Mule-UCS needed by w3m-el
-  nothing provides mule-ucs-xemacs needed by w3m-el-xemacs
-can't install xcb-util-wm:
-  nothing provides libxcb-ewmh1-32bit = 0.3.9 needed by xcb-util-wm-devel-32bit

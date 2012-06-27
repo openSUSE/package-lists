@@ -42,7 +42,6 @@ cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-glib
-dbus-1-python
 dconf
 deltarpm
 device-mapper
@@ -80,8 +79,6 @@ gpm
 grep
 groff
 groff-devx
-grub
-grub2
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gxditview
@@ -141,9 +138,6 @@ libdbus-1-3
 libdconf0
 libdirectfb-1_4-5
 libdrm2
-libdrm_intel1
-libdrm_nouveau1
-libdrm_radeon1
 libdw1
 libedit0
 libelf0
@@ -153,6 +147,7 @@ libexpat1
 libext2fs2
 libffi47
 libfreetype6
+libfuse2
 libgcc47
 libgcrypt11
 libgdbm3
@@ -176,7 +171,6 @@ libjbig2
 libjpeg62
 libkeyutils1
 libkmod2
-libkms1
 libksba
 libldap-2_4-2
 libldapcpp1
@@ -198,7 +192,6 @@ libpango-1_0-0
 libparted0
 libpcap1
 libpci3
-libpciaccess0
 libpcre1
 libpixman-1-0
 libplist1
@@ -224,7 +217,7 @@ libsolv-tools
 libsqlite3-0
 libssh2-1
 libstdc++47
-libstorage3
+libstorage4
 libtalloc2
 libtasn1
 libtasn1-3
@@ -280,6 +273,7 @@ openSUSE-build-key
 openldap2-client
 openslp
 openssh
+openssh-askpass
 openssl
 os-prober
 pam
@@ -298,8 +292,10 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
 perl-NetxAP
 perl-Parse-RecDescent
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -307,6 +303,7 @@ perl-XML-Parser
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-XPath
 perl-base
 perl-gettext
@@ -330,7 +327,6 @@ psmisc
 pwdutils
 python
 python-base
-python-libxml2
 python-satsolver
 python-xml
 recode
@@ -352,7 +348,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit

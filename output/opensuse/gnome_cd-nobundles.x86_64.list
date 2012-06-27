@@ -105,6 +105,8 @@ caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
 caribou-lang
+cdrdao
+cdrkit-cdrtools-compat
 checkmedia
 cheese
 cheese-lang
@@ -159,6 +161,7 @@ dmidecode
 dmraid
 dmz-icon-theme-cursors
 dnsmasq
+docbook_4
 dosfstools
 dvd+rw-tools
 dynamic-wallpaper-branding-openSUSE
@@ -352,6 +355,7 @@ groff
 groff-devx
 grub
 grub2
+grub2-branding-openSUSE
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
@@ -414,6 +418,7 @@ hwinfo
 iagno
 iagno-lang
 iceauth
+icedax
 icewm
 icewm-lite
 ico
@@ -433,6 +438,7 @@ ipw-firmware
 irda
 iso-codes
 iso-codes-lang
+iso_ent
 iw
 jfsutils
 json-glib-lang
@@ -494,7 +500,7 @@ libadns1
 libaio1
 libao-plugins4
 libao4
-libarchive2
+libarchive12
 libasm1
 libasound2
 libaspell15
@@ -542,6 +548,9 @@ libcaribou0
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
+libcdio13
+libcdio_cdda1
+libcdio_paranoia1
 libcelt0-2
 libchamplain-0_12-0
 libcheese-common
@@ -734,7 +743,6 @@ libjson0
 libkate1
 libkeyutils1
 libkmod2
-libkms1
 libksba
 liblapack3
 liblbxutil1
@@ -846,7 +854,7 @@ libpurple-lang
 libpurple-tcl
 libpyglib-gi-2_0-python0
 libpython2_7-1_0
-libquadmath46
+libquadmath47
 libquicktime0
 libquvi-scripts
 libquvi7
@@ -909,7 +917,7 @@ libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
 libstdc++47
-libstorage3
+libstorage4
 libsushi-1_0-0
 libtag1
 libtag_c0
@@ -973,6 +981,7 @@ libwpg-0_2-2
 libwps-0_2-2
 libx86-1
 libx86emu1
+libxatracker1
 libxcb-dri2-0
 libxcb-glx0
 libxcb-render0
@@ -984,6 +993,7 @@ libxcb1
 libxkbfile1
 libxklavier16
 libxml2-2
+libxml2-tools
 libxslt1
 libxtables7
 libyelp0
@@ -1146,8 +1156,10 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
 perl-NetxAP
 perl-Parse-RecDescent
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -1155,6 +1167,7 @@ perl-XML-Parser
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-base
@@ -1212,6 +1225,7 @@ python-libxml2
 python-louis
 python-notify
 python-numpy
+python-pyOpenSSL
 python-pycurl
 python-satsolver
 python-simplejson
@@ -1250,6 +1264,7 @@ sed
 sessreg
 setxkbmap
 sg3_utils
+sgml-skel
 shared-mime-info
 shotwell
 shotwell-lang
@@ -1291,7 +1306,6 @@ system-config-printer-common
 system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
-systemd-plymouth
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit
@@ -1307,8 +1321,8 @@ telepathy-idle
 telepathy-logger
 telepathy-mission-control
 telepathy-mission-control-plugin-goa
+telepathy-rakia
 telepathy-salut
-telepathy-sofiasip
 terminfo-base
 terminus-bitmap-fonts
 thessalonica-oldstandard-otf-fonts
@@ -1547,7 +1561,6 @@ xsetpointer
 xsetroot
 xsm
 xstdcmap
-xstroke
 xterm
 xtrap
 xvidtune

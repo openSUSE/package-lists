@@ -1,11 +1,12 @@
 set -e
 export LC_ALL=C
 
+. ./options
 ret=0
-project=openSUSE:Factory
+project=openSUSE:$proj
 repo=standard
 arch=x86_64
-dir=rebuilds
+dir=rebuilds.$tree
 mdeps=/tmp/missingdeps
 
 if test "$1" = "ppc"; then

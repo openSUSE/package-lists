@@ -177,6 +177,7 @@ groff
 groff-devx
 grub
 grub2
+grub2-branding-openSUSE
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer-0_10
@@ -247,7 +248,6 @@ kdebase4-workspace
 kdebase4-workspace-branding-basedonopensuse
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdebase4-workspace-plasma-calendar
 kdebase4-workspace-plasma-engine-akonadi
 kdegames4-carddecks-default
 kdelibs4
@@ -298,6 +298,7 @@ krfb
 kruler
 kscd
 ksnapshot
+ksplash-qml-branding-basedonopensuse
 ksplashx-branding-basedonopensuse
 ksshaskpass
 ksudoku
@@ -362,7 +363,7 @@ libakonadi4
 libakonadiprotocolinternals1
 libao-plugins4
 libao4
-libarchive2
+libarchive12
 libasm1
 libasound2
 libaspell15
@@ -437,6 +438,7 @@ libfontenc1
 libfprint0
 libfreebl3
 libfreetype6
+libfuse2
 libgbm1
 libgcc47
 libgck-1-0
@@ -504,7 +506,6 @@ libkexiv2-10
 libkeyutils1
 libkipi8
 libkmod2
-libkms1
 libkonq5
 libksba
 libksuseinstall1
@@ -604,7 +605,6 @@ libqt4-sql
 libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
-libqzeitgeist1
 libraptor2-0
 librasqal3
 libraw1394-11
@@ -633,7 +633,7 @@ libsqlite3-0
 libssh2-1
 libssh4
 libstdc++47
-libstorage3
+libstorage4
 libstrigi0
 libtag-extras1
 libtag1
@@ -667,7 +667,7 @@ libwbclient0
 libwebp2
 libx86-1
 libx86emu1
-libxapian22
+libxatracker1
 libxcb-dri2-0
 libxcb-glx0
 libxcb-render0
@@ -683,7 +683,6 @@ libxkbfile1
 libxml2-2
 libxslt1
 libxtables7
-libzeitgeist-1_0-1
 libzio
 libzypp
 limal
@@ -726,6 +725,7 @@ mtools
 multipath-tools
 mysql-community-server
 mysql-community-server-client
+mysql-community-server-errormessages
 nano
 ncurses-utils
 net-tools
@@ -795,8 +795,10 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-Net-DBus
 perl-NetxAP
 perl-Parse-RecDescent
+perl-X11-Protocol
 perl-X500-DN
 perl-XML-LibXML
 perl-XML-NamespaceSupport
@@ -804,6 +806,7 @@ perl-XML-Parser
 perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-XPath
 perl-base
 perl-gettext
@@ -855,7 +858,6 @@ python-satsolver
 python-simplejson
 python-sip
 python-urlgrabber
-python-xdg
 python-xml
 qt4-qtscript
 quota
@@ -907,7 +909,6 @@ sysconfig
 sysfsutils
 syslog-service
 systemd
-systemd-plymouth
 systemd-presets-branding-basedonopensuse
 systemd-sysvinit
 sysvinit
@@ -1153,9 +1154,6 @@ yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zd1211-firmware
-zeitgeist
-zeitgeist-datahub
-zeitgeist-datahub-lang
 zip
 zisofs-tools
 zlib
