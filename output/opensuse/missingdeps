@@ -1,9 +1,106 @@
+can't install DirectFB:
+  nothing provides libdirectfb-1_4-5-32bit = 1.4.17 needed by DirectFB-devel-32bit
+can't install NetworkManager-openconnect:
+  nothing provides libopenconnect.so.1 needed by NetworkManager-openconnect-gnome
+can't install bayonne2:
+  nothing provides libccext2-1.6.so.0 needed by libbayonne-2_3
+  nothing provides libccgnu2-1.6.so.0 needed by bayonne2
+  nothing provides libccgnu2-1.6.so.0 needed by libbayonne-2_3
+  nothing provides libccgnu2-1.6.so.0 needed by libbayonne-2_3-0
+can't install ccscript3:
+  nothing provides libccgnu2-1.6.so.0 needed by ccscript3-modules
+  nothing provides libccgnu2-1.6.so.0 needed by libccscript3-1_1-0
+can't install cloog-isl:
+  nothing provides libisl.so.10 needed by libcloog-isl3-32bit
+can't install compiz-lang:
+  nothing provides compiz = 0.9.5.92.1 needed by compiz-lang
+can't install eaglemode:
+  nothing provides unrar needed by eaglemode
+can't install gammu:
+  nothing provides libdbi.so.0 needed by libgsmsd7
+can't install gstreamer-0_10-plugins-bad:
+  nothing provides libdirectfb-1.4.so.6 needed by gstreamer-0_10-plugins-bad-32bit
+can't install gvfs:
+  nothing provides libgphoto2.so.2 needed by gvfs-backends
+  nothing provides libgphoto2_port.so.0 needed by gvfs-backends
+can't install hdf5:
+  nothing provides libhdf5_hl0-32bit = 1.8.9 needed by hdf5-devel-32bit
+  nothing provides libhdf5_hl0-openmpi-32bit = 1.8.9 needed by hdf5-openmpi-devel-32bit
+can't install hdjmod:
+  nothing provides ksym(default:__alloc_skb) = 450fb755 needed by hdjmod-kmp-default
+  nothing provides ksym(default:__alloc_skb) = 53dd6a3b needed by hdjmod-kmp-default
+  nothing provides ksym(default:__nlmsg_put) = 1d3df242 needed by hdjmod-kmp-default
+  nothing provides ksym(default:__nlmsg_put) = 70a30972 needed by hdjmod-kmp-default
+... 374 more problems
+can't install iscsitarget:
+  nothing provides ksym(default:__alloc_pages_nodemask) = e7ed46b4 needed by iscsitarget-kmp-default
+  nothing provides ksym(default:__alloc_skb) = 450fb755 needed by iscsitarget-kmp-default
+  nothing provides ksym(default:__alloc_skb) = 53dd6a3b needed by iscsitarget-kmp-default
+  nothing provides ksym(default:__free_pages) = 2e52a0d5 needed by iscsitarget-kmp-default
+... 414 more problems
+can't install kdebase3:
+  nothing provides libIlmImf.so.7 needed by kdebase3-32bit
+can't install kdegraphics3:
+  nothing provides libgphoto2.so.2 needed by kdegraphics3-kamera
+  nothing provides libgphoto2.so.2 needed by kdegraphics3-scan
+  nothing provides libgphoto2_port.so.0 needed by kdegraphics3-kamera
+  nothing provides libgphoto2_port.so.0 needed by kdegraphics3-scan
+can't install kdelibs3:
+  nothing provides libHalf.so.7 needed by kdelibs3-32bit
+  nothing provides libIlmImf.so.7 needed by kdelibs3-32bit
+can't install kdevelop4-plugins:
+  nothing provides libkdevplatformdocumentation.so.5 needed by kdevelop4-plugins-php-doc
+  nothing provides libkdevplatforminterfaces.so.5 needed by kdevelop4-plugins-php
+  nothing provides libkdevplatforminterfaces.so.5 needed by kdevelop4-plugins-php-doc
+  nothing provides libkdevplatformlanguage.so.5 needed by kdevelop4-plugins-php
+  nothing provides libkdevplatformlanguage.so.5 needed by kdevelop4-plugins-php-doc
+  nothing provides libkdevplatformproject.so.5 needed by kdevelop4-plugins-php
+can't install libdbi-drivers:
+  nothing provides libdbi0 = 0.8.3 needed by libdbi-drivers-dbd-mysql
+  nothing provides libdbi0 = 0.8.3 needed by libdbi-drivers-dbd-pgsql
+  nothing provides libdbi0 = 0.8.3 needed by libdbi-drivers-dbd-sqlite3
+can't install libdrm:
+  nothing provides libdrm_omap1-32bit = 2.4.39 needed by libdrm-devel-32bit
+can't install libreoffice:
+  nothing provides libpoppler.so.26 needed by libreoffice-draw-extensions
+can't install mysql-workbench:
+  nothing provides libctemplate.so.0 needed by mysql-workbench
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
+can't install open-vm-tools:
+  nothing provides ksym(default:__alloc_pages_nodemask) = e7ed46b4 needed by vmware-guest-kmp-default
+  nothing provides ksym(default:__alloc_skb) = 450fb755 needed by vmware-guest-kmp-default
+  nothing provides ksym(default:__alloc_skb) = 53dd6a3b needed by vmware-guest-kmp-default
+  nothing provides ksym(default:__free_pages) = 2e52a0d5 needed by vmware-guest-kmp-default
+... 564 more problems
+can't install openstack-nova:
+  nothing provides python-novaclient needed by openstack-nova
+can't install owasp-modsecurity-crs:
+  nothing provides /usr/bin/lua needed by owasp-modsecurity-crs
+can't install papi:
+  nothing provides libpfm.so.4 needed by libpapi-32bit
+can't install pdns-backend-sqlite3:
+  nothing provides pdns = 2.9.22 needed by pdns-backend-sqlite3
+can't install plasma-addons:
+  nothing provides marble = 4.8.5 needed by plasma-addons-marble
 can't install python3-base:
   nothing provides python3-tkinter = 3.2.3 needed by python3-testsuite
 can't install pythoncad:
   nothing provides python-numeric needed by pythoncad
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
+can't install samba:
+  nothing provides /sbin/conf.d/SuSEconfig.permissions needed by samba-krb-printing
+can't install scim-qtimm:
+  nothing provides libscim-1.0.so.8 needed by scim-qtimm-32bit
+  nothing provides libscim-1.0.so.8(LIBSCIM_1.0) needed by scim-qtimm-32bit
+  nothing provides libscim-x11utils-1.0.so.8 needed by scim-qtimm-32bit
+can't install texlive-einfuehrung:
+  nothing provides /usr/bin/lua needed by texlive-einfuehrung
+can't install virtualbox:
+  nothing provides ksym(default:__alloc_pages_nodemask) = e7ed46b4 needed by virtualbox-guest-kmp-default
+  nothing provides ksym(default:__alloc_pages_nodemask) = e7ed46b4 needed by virtualbox-host-kmp-default
+  nothing provides ksym(default:__free_pages) = 2e52a0d5 needed by virtualbox-guest-kmp-default
+  nothing provides ksym(default:__free_pages) = 2e52a0d5 needed by virtualbox-host-kmp-default
+... 798 more problems

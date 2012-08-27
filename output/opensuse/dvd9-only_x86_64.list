@@ -77,6 +77,7 @@ krb5-devel-32bit
 libFLAC++6-32bit
 libFLAC8-32bit
 libGLEW1_7-32bit
+libGLU1-32bit
 libHX28-32bit
 libICE6-32bit
 libIDL-2-0-32bit
@@ -165,6 +166,7 @@ libdirectfb-1_4-5-32bit
 libdrm2-32bit
 libdrm_intel1-32bit
 libdrm_nouveau1-32bit
+libdrm_nouveau2-32bit
 libdrm_radeon1-32bit
 libdv4-32bit
 libdvdnav4-32bit
@@ -182,6 +184,7 @@ libfreetype6-32bit
 libgcc47-32bit
 libgcrypt11-32bit
 libgdbm3-32bit
+libgdbm4-32bit
 libgdk_pixbuf-2_0-0-32bit
 libgfortran47-32bit
 libgif4-32bit
@@ -218,6 +221,7 @@ libibus-1_0-0-32bit
 libicu-devel-32bit
 libicu49-32bit
 libidn-32bit
+libidn11-32bit
 libiec61883-32bit
 libieee1284-32bit
 libiniparser0-32bit
@@ -226,6 +230,7 @@ libjasper1-32bit
 libjbig2-32bit
 libjpeg62-32bit
 libjpeg62-devel-32bit
+libjpeg8-32bit
 libjson0-32bit
 libkate1-32bit
 libkeyutils1-32bit
@@ -343,6 +348,7 @@ libtimidity-0_1-0-32bit
 libtirpc1-32bit
 libtool-32bit
 libudev0-32bit
+libusb-0_1-4-32bit
 libusb-1_0-0-32bit
 libustr-1_0-1-32bit
 libuuid1-32bit
@@ -369,6 +375,7 @@ libxml2-2-32bit
 libxml2-devel-32bit
 libxslt-devel-32bit
 libxslt1-32bit
+libyajl2-32bit
 libyaz-devel-32bit
 libyaz4-32bit
 libzvbi0-32bit
@@ -405,11 +412,7 @@ perl-32bit
 perl-base-32bit
 postgresql-devel-32bit
 python-32bit
-python-SpiceClientGtk
 python-base-32bit
-python-gtk-vnc
-python-virtinst
-python-vte
 qtcurve-gtk2-32bit
 rpm-32bit
 samba-32bit
@@ -432,7 +435,6 @@ uim-gtk3-32bit
 uim-qt4-32bit
 unixODBC-32bit
 utempter-32bit
-virt-manager
 wine-32bit
 xen
 xen-doc-html
@@ -441,8 +443,6 @@ xen-kmp-default
 xen-kmp-desktop
 xen-libs-32bit
 xen-tools
-xfce4-panel-plugin-netload
-xfce4-panel-plugin-netload-lang
 xine-ui-32bit
 xz-devel-32bit
 zlib-32bit

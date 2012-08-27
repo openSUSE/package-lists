@@ -6,7 +6,7 @@ Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
-Mesa-libGLU1
+Mesa-libIndirectGL1
 Mesa-libglapi0
 ModemManager
 MozillaFirefox
@@ -93,8 +93,6 @@ brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 btrfsprogs
-bug-buddy
-bug-buddy-lang
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -133,6 +131,7 @@ cups-libs
 cups-pk-helper
 cups-pk-helper-lang
 curl
+cyreal-lobster-cyrillic-fonts
 cyrus-sasl
 cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
@@ -184,8 +183,6 @@ evolution-data-server
 evolution-data-server-lang
 evolution-lang
 evolution-python-plugins
-evolution-webcal
-evolution-webcal-lang
 farstream-data
 fbset
 file
@@ -340,6 +337,7 @@ gnomine
 gnomine-lang
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
+google-croscore-fonts
 google-droid-fonts
 gpart
 gpg2
@@ -360,6 +358,7 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gsf-office-thumbnailer
+gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
 gstreamer-0_10-libnice
@@ -372,7 +371,9 @@ gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-farstream
 gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-good-lang
-gstreamer-0_10-utils
+gstreamer-lang
+gstreamer-plugins-base
+gstreamer-plugins-base-lang
 gstreamer-utils
 gtk2-branding-openSUSE
 gtk2-data
@@ -403,8 +404,6 @@ gucharmap-lang
 guile
 guile-modules-2_0
 gvfs
-gvfs-backend-afc
-gvfs-backends
 gvfs-fuse
 gvfs-lang
 gxditview
@@ -454,9 +453,9 @@ lbxproxy
 less
 libFLAC8
 libFS6
+libGLU1
 libHX28
 libICE6
-libIDL-2-0
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -524,8 +523,6 @@ libblkid1
 libblocxx6
 libbluetooth3
 libbluray1
-libbonobo
-libbonobo-lang
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -548,9 +545,6 @@ libcaribou0
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
-libcdio13
-libcdio_cdda1
-libcdio_paranoia1
 libcelt0-2
 libchamplain-0_12-0
 libcheese-common
@@ -581,15 +575,14 @@ libdc1394-22
 libdconf0
 libdhash1
 libdirac_encoder0
-libdirectfb-1_4-5
+libdirectfb-1_4-6
 libdiscid0
 libdjvulibre21
 libdmx1
-libdnet1
 libdotconf0
 libdrm2
 libdrm_intel1
-libdrm_nouveau1
+libdrm_nouveau2
 libdrm_radeon1
 libdv4
 libdvdnav4
@@ -603,6 +596,7 @@ libedata-cal-1_2-15
 libedataserver-1_2-16
 libedataserverui-3_0-1
 libedit0
+libee0
 libelf0
 libelf1
 libenca0
@@ -610,6 +604,7 @@ libenchant1
 libepc-1_0-2
 libepc-lang
 liberation-fonts
+libestr0
 libevdocument3-4
 libevent-2_0-5
 libevview3-3
@@ -641,7 +636,7 @@ libgcr-3-1
 libgcrypt11
 libgdata-lang
 libgdata13
-libgdbm3
+libgdbm4
 libgdict-1_0-6
 libgdk_pixbuf-2_0-0
 libgdmgreeter1
@@ -691,20 +686,26 @@ libgsm1
 libgssdp-1_0-3
 libgssglue1
 libgstapp-0_10-0
+libgstapp-1_0-0
+libgstaudio-1_0-0
 libgstbasecamerabinsrc-0_10-23
 libgstbasevideo-0_10-23
 libgstcodecparsers-0_10-23
 libgstinterfaces-0_10-0
+libgstpbutils-1_0-0
 libgstphotography-0_10-23
 libgstreamer-0_10-0
+libgstreamer-1_0-0
+libgstriff-1_0-0
 libgstsignalprocessor-0_10-23
+libgsttag-1_0-0
 libgstvdp-0_10-23
+libgstvideo-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgtkhtml-4_0-0
 libgtkhtml-editor-4_0-0
-libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-0
 libgtop-2_0-7
@@ -723,7 +724,7 @@ libgxps2
 libhogweed2
 libical0
 libicu49
-libidn
+libidn11
 libieee1284
 libimobiledevice3
 libini_config2
@@ -737,12 +738,14 @@ libjasper1
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
 libjbig2
-libjpeg62
+libjpeg8
 libjson-glib-1_0-0
 libjson0
 libkate1
 libkeyutils1
 libkmod2
+libkms1
+libkpathsea6
 libksba
 liblapack3
 liblbxutil1
@@ -767,7 +770,7 @@ libmodman1
 libmodplug1
 libmount1
 libmozjs185-1_0
-libmpc2
+libmpc3
 libmpcdec5
 libmpfr4
 libmtdev1
@@ -779,6 +782,7 @@ libncurses5
 libncurses5-32bit
 libncurses6
 libneon27
+libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
 libnice10
@@ -803,6 +807,7 @@ libopenal1-soft
 libopenjpeg1
 libopenobex1
 libopenssl1_0_0
+libopus0
 liborc-0_4-0
 libosinfo
 libosinfo-1_0-0
@@ -834,7 +839,7 @@ libply2
 libpng14-14
 libpolkit0
 libpoppler-glib8
-libpoppler25
+libpoppler27
 libpopt0
 libportaudio2
 libppl9
@@ -915,6 +920,7 @@ libspeex1
 libspeexdsp1
 libsqlite3-0
 libssh2-1
+libsss_idmap0
 libstartup-notification-1-0
 libstdc++47
 libstorage4
@@ -945,7 +951,6 @@ libunique-1_0-0
 libunique-3_0-0
 libunistring0
 libupower-glib1
-liburiparser1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
@@ -958,11 +963,10 @@ libv4lconvert0
 libva1
 libvdpau1
 libvisual
-libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvpx0
+libvpx1
 libvte2_90-9
 libwacom-data
 libwacom2
@@ -972,6 +976,7 @@ libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk2-lang
 libwebkitgtk3-lang
+libwebrtc_audio_processing0
 libwnck-1-22
 libwnck-3-0
 libwnck-lang
@@ -984,6 +989,7 @@ libx86emu1
 libxatracker1
 libxcb-dri2-0
 libxcb-glx0
+libxcb-randr0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
@@ -997,6 +1003,10 @@ libxml2-tools
 libxslt1
 libxtables7
 libyelp0
+libyui-gtk4
+libyui-ncurses-pkg4
+libyui-ncurses4
+libyui4
 libzio
 libzvbi0
 libzypp
@@ -1012,7 +1022,6 @@ linux32
 lirc
 lirc-remotes
 listres
-lobster-cyrillic-fonts
 lockdev
 logrotate
 lomoco
@@ -1091,8 +1100,6 @@ obex-data-server
 obexd
 obexd-client
 oclock
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-gnome
@@ -1103,7 +1110,6 @@ openssh
 openssh-askpass
 openssl
 openvpn
-orbit2
 orca
 orca-lang
 os-prober
@@ -1266,6 +1272,7 @@ setxkbmap
 sg3_utils
 sgml-skel
 shared-mime-info
+shared-mime-info-lang
 shotwell
 shotwell-lang
 showfont
@@ -1287,6 +1294,7 @@ speech-dispatcher
 speech-dispatcher-module-espeak
 splashy
 splashy-branding-openSUSE
+splashy-mkinitrd
 sssd
 strace
 sudo
@@ -1420,11 +1428,7 @@ vim
 vim-base
 vino
 vino-lang
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
 vlan
-vmware-guest-kmp-desktop
 vorbis-tools
 vorbis-tools-lang
 vpnc
@@ -1461,6 +1465,7 @@ xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-user-dirs-gtk-lang
+xdg-user-dirs-lang
 xdg-utils
 xditview
 xdm
@@ -1489,7 +1494,6 @@ xf86-video-intel
 xf86-video-mach64
 xf86-video-mga
 xf86-video-neomagic
-xf86-video-newport
 xf86-video-nv
 xf86-video-qxl
 xf86-video-r128
@@ -1522,6 +1526,7 @@ xkbevd
 xkbprint
 xkbutils
 xkeyboard-config
+xkeyboard-config-lang
 xkill
 xload
 xlogo
@@ -1538,9 +1543,7 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
-xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
-xorg-x11-driver-video-radeonhd
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
@@ -1583,7 +1586,6 @@ yast2-country-data
 yast2-dbus-client
 yast2-fingerprint-reader
 yast2-firewall
-yast2-gtk
 yast2-hardware-detection
 yast2-inetd
 yast2-installation
@@ -1592,12 +1594,9 @@ yast2-iscsi-client
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
-yast2-libyui
 yast2-mail
 yast2-metapackage-handler
 yast2-mouse
-yast2-ncurses
-yast2-ncurses-pkg
 yast2-network
 yast2-nfs-client
 yast2-nfs-common

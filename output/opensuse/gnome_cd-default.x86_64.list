@@ -5,7 +5,7 @@ DirectFB-Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
-Mesa-libGLU1
+Mesa-libIndirectGL1
 Mesa-libglapi0
 ModemManager
 NetworkManager
@@ -62,7 +62,6 @@ brltty-driver-brlapi
 brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
-bug-buddy
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -128,7 +127,6 @@ empathy
 eog
 espeak
 ethtool
-evolution-webcal
 farstream-data
 fbset
 file
@@ -241,6 +239,7 @@ groff
 groff-devx
 gsettings-backend-dconf
 gsettings-desktop-schemas
+gstreamer
 gstreamer-0_10
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gstclutter
@@ -248,7 +247,9 @@ gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-farstream
 gstreamer-0_10-plugins-good
-gstreamer-0_10-utils
+gstreamer-lang
+gstreamer-plugins-base
+gstreamer-plugins-base-lang
 gstreamer-utils
 gtk2-branding-openSUSE
 gtk2-data
@@ -274,8 +275,6 @@ gucharmap
 guile
 guile-modules-2_0
 gvfs
-gvfs-backend-afc
-gvfs-backends
 gvfs-fuse
 gxditview
 gzip
@@ -311,8 +310,8 @@ lbxproxy
 less
 libFLAC8
 libFS6
+libGLU1
 libICE6
-libIDL-2-0
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -378,7 +377,6 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
-libbonobo
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -400,9 +398,6 @@ libcaribou0
 libcdaudio
 libcdda_interface0
 libcdda_paranoia0
-libcdio13
-libcdio_cdda1
-libcdio_paranoia1
 libcelt0-2
 libchamplain-0_12-0
 libcheese-common
@@ -429,13 +424,13 @@ libdbus-1-3
 libdc1394-22
 libdconf0
 libdirac_encoder0
-libdirectfb-1_4-5
+libdirectfb-1_4-6
 libdiscid0
 libdmx1
 libdotconf0
 libdrm2
 libdrm_intel1
-libdrm_nouveau1
+libdrm_nouveau2
 libdrm_radeon1
 libdv4
 libdvdnav4
@@ -446,12 +441,14 @@ libecal-1_2-11
 libedataserver-1_2-16
 libedataserverui-3_0-1
 libedit0
+libee0
 libelf0
 libelf1
 libenca0
 libenchant1
 libepc-1_0-2
 liberation-fonts
+libestr0
 libevdocument3-4
 libevent-2_0-5
 libevview3-3
@@ -481,7 +478,7 @@ libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt11
 libgdata13
-libgdbm3
+libgdbm4
 libgdict-1_0-6
 libgdk_pixbuf-2_0-0
 libgdmgreeter1
@@ -526,14 +523,21 @@ libgsm1
 libgssdp-1_0-3
 libgssglue1
 libgstapp-0_10-0
+libgstapp-1_0-0
+libgstaudio-1_0-0
 libgstbasecamerabinsrc-0_10-23
 libgstbasevideo-0_10-23
 libgstcodecparsers-0_10-23
 libgstinterfaces-0_10-0
+libgstpbutils-1_0-0
 libgstphotography-0_10-23
 libgstreamer-0_10-0
+libgstreamer-1_0-0
+libgstriff-1_0-0
 libgstsignalprocessor-0_10-23
+libgsttag-1_0-0
 libgstvdp-0_10-23
+libgstvideo-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -552,7 +556,7 @@ libgweather-data
 libhogweed2
 libical0
 libicu49
-libidn
+libidn11
 libieee1284
 libimobiledevice3
 libiptc0
@@ -564,12 +568,13 @@ libjasper1
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
 libjbig2
-libjpeg62
+libjpeg8
 libjson-glib-1_0-0
 libjson0
 libkate1
 libkeyutils1
 libkmod2
+libkms1
 libksba
 liblapack3
 liblbxutil1
@@ -592,7 +597,7 @@ libmodman1
 libmodplug1
 libmount1
 libmozjs185-1_0
-libmpc2
+libmpc3
 libmpcdec5
 libmpfr4
 libmtdev1
@@ -604,6 +609,7 @@ libncurses5
 libncurses5-32bit
 libncurses6
 libneon27
+libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
 libnice10
@@ -627,6 +633,7 @@ libopenal1-soft
 libopenjpeg1
 libopenobex1
 libopenssl1_0_0
+libopus0
 liborc-0_4-0
 libosinfo
 libosinfo-1_0-0
@@ -655,7 +662,7 @@ libply2
 libpng14-14
 libpolkit0
 libpoppler-glib8
-libpoppler25
+libpoppler27
 libpopt0
 libportaudio2
 libppl9
@@ -759,7 +766,7 @@ libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvpx0
+libvpx1
 libvte2_90-9
 libwacom-data
 libwacom2
@@ -767,6 +774,7 @@ libwavpack1
 libwbclient0
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
+libwebrtc_audio_processing0
 libwnck-1-22
 libwnck-3-0
 libx86-1
@@ -774,6 +782,7 @@ libx86emu1
 libxatracker1
 libxcb-dri2-0
 libxcb-glx0
+libxcb-randr0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
@@ -787,6 +796,8 @@ libxml2-tools
 libxslt1
 libxtables7
 libyelp0
+libyui-ncurses4
+libyui4
 libzio
 libzvbi0
 libzypp
@@ -858,7 +869,6 @@ openssh
 openssh-askpass
 openssl
 openvpn
-orbit2
 orca
 os-prober
 pam
@@ -960,6 +970,7 @@ sg3_utils
 sgml-skel
 shared-mime-info
 shotwell
+shotwell-lang
 showfont
 silc-toolkit
 simple-scan
@@ -971,12 +982,12 @@ speech-dispatcher
 speech-dispatcher-module-espeak
 splashy
 splashy-branding-openSUSE
+splashy-mkinitrd
 strace
 sudo
 susehelp
 susehelp_en
 sushi
-sushi-lang
 swell-foop
 sysconfig
 sysfsutils
@@ -1139,7 +1150,6 @@ xf86-video-intel
 xf86-video-mach64
 xf86-video-mga
 xf86-video-neomagic
-xf86-video-newport
 xf86-video-nv
 xf86-video-qxl
 xf86-video-r128
@@ -1186,9 +1196,7 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
-xorg-x11-driver-video-intel-legacy
 xorg-x11-driver-video-nouveau
-xorg-x11-driver-video-radeonhd
 xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
@@ -1219,9 +1227,6 @@ xz
 yast2
 yast2-core
 yast2-hardware-detection
-yast2-libyui
-yast2-ncurses
-yast2-ncurses-pkg
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-scanner
