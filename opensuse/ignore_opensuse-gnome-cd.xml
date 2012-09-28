@@ -27,3 +27,6 @@
 <lock package="manufacturer-PPDs"/>
 
 <lock package="tango-icon-theme"/>
+
+<!-- Remove when Gstreamer 1.0 is the default -->
+<lock package="gstreamer-utils"/>
