@@ -82,7 +82,6 @@ aspell-vi
 aspell-wa
 aspell-yi
 aspell-zu
-at-spi2-atk-lang
 at-spi2-core-lang
 atk-lang
 avahi-lang
@@ -115,6 +114,7 @@ coreutils-lang
 cpio-lang
 culmus-fonts
 cups-pk-helper-lang
+dconf-lang
 empathy-lang
 enchant-voikko
 eog-lang
@@ -140,7 +140,6 @@ gimp-help-nn
 glchess-lang
 glib-networking-lang
 glib2-lang
-gnokii-lang
 gnome-bluetooth-lang
 gnome-contacts-lang
 gnome-control-center-lang
@@ -151,18 +150,17 @@ gnome-documents-lang
 gnome-font-viewer-lang
 gnome-games-support-lang
 gnome-keyring-lang
+gnome-mahjongg-lang
 gnome-menus-lang
 gnome-nettool-lang
 gnome-online-accounts-lang
 gnome-packagekit-lang
 gnome-panel-lang
-gnome-phone-manager-lang
 gnome-power-manager-lang
 gnome-screensaver-lang
 gnome-screenshot-lang
 gnome-session-lang
 gnome-settings-daemon-lang
-gnome-shell-extensions-common-lang
 gnome-shell-lang
 gnome-sudoku-lang
 gnome-system-monitor-lang
@@ -171,7 +169,6 @@ gnome-themes-standard-lang
 gnome-tweak-tool-lang
 gnome-user-docs-lang
 gnome-user-share-lang
-gnome-vfs2-lang
 gnome-web-photo-lang
 gnomine-lang
 goffice-0_8-lang
@@ -182,6 +179,10 @@ gstreamer-0_10-lang
 gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good-lang
+gstreamer-lang
+gstreamer-plugins-bad-lang
+gstreamer-plugins-base-lang
+gstreamer-plugins-good-lang
 gtk2-immodules-tigrigna
 gtk2-lang
 gtk3-immodules-tigrigna
@@ -260,13 +261,12 @@ kdebase4-openSUSE-lang
 ktorrent-lang
 kwebkitpart-lang
 libcryptui-lang
-libepc-lang
 libgdata-lang
 libgnome-keyring-lang
 libgnomekbd-lang
 libgnomesu-lang
 libgoocanvas-2_0-9
-libgphoto2-lang
+libgphoto2-6-lang
 libgpod-lang
 libgsf-lang
 libgtop-lang
@@ -274,7 +274,7 @@ libgweather-lang
 libiptcdata-lang
 libktorrent5-lang
 libpeas-lang
-libpurple-lang
+libpwquality-lang
 libreoffice-help-et
 libreoffice-help-gl
 libreoffice-help-gu-IN
@@ -342,7 +342,9 @@ libreoffice-thesaurus-ro
 libreoffice-thesaurus-sk
 libreoffice-thesaurus-sl
 libreoffice-voikko
+libsecret-lang
 libsocialweb-lang
+libsoup-lang
 libvoikko1
 libwebkitgtk2-lang
 libwebkitgtk3-lang
@@ -351,14 +353,12 @@ libwnck2-lang
 liferea-lang
 lightsoff-lang
 m17n-contrib
-mahjongg-lang
 malaga-suomi
 mc-lang
 metacity-lang
 mgopen-fonts
 mousetweaks-lang
 mutter-lang
-mx-lang
 myspell-african
 myspell-albanian
 myspell-arabic
@@ -448,6 +448,7 @@ seahorse-lang
 seahorse-nautilus-lang
 seamonkey-translations-other
 shared-mime-info-lang
+shotwell-lang
 sil-abyssinica-fonts
 sil-gentium-fonts
 sil-padauk-fonts
@@ -457,7 +458,6 @@ swell-foop-lang
 system-config-printer-common-lang
 tamil-gtk2im
 tar-lang
-totem-lang
 totem-pl-parser-lang
 tracker-lang
 translation-update-fi
@@ -495,5 +495,6 @@ yast2-trans-nn
 yast2-trans-sw
 yast2-trans-tg
 yelp-lang
+zeitgeist-datahub-lang
 zeitgeist-lang
 zenity-lang

@@ -120,15 +120,13 @@ libaio1
 libasm1
 libassuan0
 libatk-1_0-0
+libatk-bridge-2_0-0
+libatspi0
 libattr1
 libaudit1
 libaugeas0
-libavahi-client3
-libavahi-common3
-libavahi-glib1
 libblkid1
 libblocxx6
-libbluray1
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -143,7 +141,6 @@ libdb-4_8
 libdbus-1-3
 libdw1
 libedit0
-libee0
 libelf0
 libelf1
 libestr0
@@ -153,7 +150,7 @@ libext2fs2
 libffi47
 libfreetype6
 libfuse2
-libgcc47
+libgcc1
 libgcrypt11
 libgdbm4
 libgdk_pixbuf-2_0-0
@@ -167,6 +164,8 @@ libgssglue1
 libgtk-3-0
 libgudev-1_0-0
 libgvfscommon0
+libharfbuzz0
+libicu49
 libidn11
 libimobiledevice3
 libiptc0
@@ -174,9 +173,10 @@ libiw30
 libjasper1
 libjbig2
 libjpeg8
+libjson0
 libkeyutils1
 libkmod2
-libksba
+libksba8
 liblcms2-2
 libldap-2_4-2
 libldapcpp1
@@ -198,7 +198,7 @@ libpci3
 libpcre1
 libpixman-1-0
 libplist1
-libpng14-14
+libpng15-15
 libpolkit0
 libpopt0
 libprocps0
@@ -211,7 +211,7 @@ libsemanage1
 libsepol1
 libsolv-tools
 libssh2-1
-libstdc++47
+libstdc++6
 libstorage4
 libtiff5
 libtirpc1
@@ -227,12 +227,13 @@ libxcb-render0
 libxcb-shm0
 libxcb1
 libxml2-2
-libxtables7
+libxtables9
 libyui-gtk-pkg4
 libyui-gtk4
 libyui-ncurses4
 libyui4
-libzio
+libz1
+libzio1
 libzypp
 limal
 limal-perl
@@ -299,7 +300,6 @@ polkit-default-privs
 postfix
 prctl
 procps
-psmisc
 pwdutils
 release-notes-openSUSE
 rpcbind
@@ -377,6 +377,5 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
-zlib
 zypper
 zypper-aptitude

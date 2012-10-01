@@ -4,7 +4,6 @@ DirectFB
 DirectFB-Mesa
 Mesa-libEGL1
 Mesa-libGL1
-Mesa-libIndirectGL1
 Mesa-libglapi0
 SuSEfirewall2
 aaa_base
@@ -197,7 +196,7 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdbus-1-3
-libdconf0
+libdconf1
 libdirectfb-1_4-6
 libdmx1
 libdrm2
@@ -206,7 +205,6 @@ libdrm_nouveau2
 libdrm_radeon1
 libdw1
 libedit0
-libee0
 libelf0
 libelf1
 liberation-fonts
@@ -219,7 +217,7 @@ libfontenc1
 libfreetype6
 libfuse2
 libgbm1
-libgcc47
+libgcc1
 libgcrypt11
 libgdbm4
 libgio-2_0-0
@@ -232,6 +230,7 @@ libgobject-2_0-0
 libgpg-error0
 libgssglue1
 libgudev-1_0-0
+libharfbuzz0
 libhogweed2
 libicu49
 libidn11
@@ -241,10 +240,11 @@ libiw30
 libjavascriptcoregtk-3_0-0
 libjbig2
 libjpeg8
+libjson0
 libkeyutils1
 libkmod2
 libkms1
-libksba
+libksba8
 liblbxutil1
 libldap-2_4-2
 libldapcpp1
@@ -273,13 +273,14 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpipeline1
 libpixman-1-0
 libplist1
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
 libply2
-libpng14-14
+libpng15-15
 libpolkit0
 libpopt0
 libppl9
@@ -298,7 +299,7 @@ libsepol1
 libsolv-tools
 libsqlite3-0
 libssh2-1
-libstdc++47
+libstdc++6
 libstorage4
 libtalloc2
 libtasn1
@@ -312,6 +313,10 @@ libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
 libuuid1
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
 libva1
 libwbclient0
 libx86-1
@@ -328,11 +333,12 @@ libxcb-xfixes0
 libxcb1
 libxkbfile1
 libxml2-2
-libxtables7
+libxtables9
 libyui-ncurses-pkg4
 libyui-ncurses4
 libyui4
-libzio
+libz1
+libzio1
 libzypp
 limal
 limal-nfs-server
@@ -535,6 +541,7 @@ xf86-video-i128
 xf86-video-intel
 xf86-video-mach64
 xf86-video-mga
+xf86-video-modesetting
 xf86-video-neomagic
 xf86-video-nv
 xf86-video-qxl
@@ -668,7 +675,6 @@ yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zisofs-tools
-zlib
 zypper
 zypper-aptitude
 zypper-log

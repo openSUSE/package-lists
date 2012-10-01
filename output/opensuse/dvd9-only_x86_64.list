@@ -54,6 +54,7 @@ gdk-pixbuf-query-loaders-32bit
 gettext-runtime-32bit
 gettext-tools-32bit
 giflib-devel-32bit
+glew-devel-32bit
 glibc-32bit
 glibc-devel-32bit
 glibc-locale-32bit
@@ -77,12 +78,14 @@ krb5-devel-32bit
 libFLAC++6-32bit
 libFLAC8-32bit
 libGLEW1_7-32bit
+libGLEW1_9-32bit
 libGLU1-32bit
 libHX28-32bit
 libICE6-32bit
 libIDL-2-0-32bit
 libMagickCore5-32bit
 libMagickWand5-32bit
+libOSMesa9-32bit
 libSDL-1_2-0-32bit
 libSDL-devel-32bit
 libSM6-32bit
@@ -181,11 +184,13 @@ libfftw3-3-32bit
 libfprint0-32bit
 libfreebl3-32bit
 libfreetype6-32bit
+libgcc1-32bit
 libgcc47-32bit
 libgcrypt11-32bit
 libgdbm3-32bit
 libgdbm4-32bit
 libgdk_pixbuf-2_0-0-32bit
+libgfortran3-32bit
 libgfortran47-32bit
 libgif4-32bit
 libgio-2_0-0-32bit
@@ -198,9 +203,11 @@ libgmpxx4-32bit
 libgnome-keyring0-32bit
 libgnutls28-32bit
 libgobject-2_0-0-32bit
+libgomp1-32bit
 libgomp47-32bit
 libgpg-error0-32bit
 libgphoto2-32bit
+libgphoto2-6-32bit
 libgsm1-32bit
 libgssglue1-32bit
 libgstapp-0_10-0-32bit
@@ -269,6 +276,7 @@ libnotify-devel-32bit
 libnotify4-32bit
 libnscd-32bit
 libnuma1
+libobjc4-32bit
 libobjc47-32bit
 libofa0-32bit
 libogg0-32bit
@@ -291,7 +299,9 @@ libpixman-1-0-32bit
 libpng12-0-32bit
 libpng12-devel-32bit
 libpng14-14-32bit
+libpng14-compat-devel-32bit
 libpng14-devel-32bit
+libpng15-15-32bit
 libpopt0-32bit
 libpq5-32bit
 libproxy1-32bit
@@ -306,6 +316,7 @@ libqt4-sql-postgresql-32bit
 libqt4-sql-sqlite-32bit
 libqt4-sql-unixODBC-32bit
 libqt4-x11-32bit
+libquadmath0-32bit
 libquadmath47-32bit
 libquicktime0-32bit
 libraptor2-0-32bit
@@ -337,6 +348,7 @@ libssh2-1-32bit
 libstdc++33-32bit
 libstdc++47-32bit
 libstdc++47-devel-32bit
+libstdc++6-32bit
 libtag1-32bit
 libtalloc2-32bit
 libtasn1-3-32bit
@@ -378,6 +390,7 @@ libxslt1-32bit
 libyajl2-32bit
 libyaz-devel-32bit
 libyaz4-32bit
+libz1-32bit
 libzvbi0-32bit
 linux32
 ltrace-32bit

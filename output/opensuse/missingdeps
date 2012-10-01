@@ -1,21 +1,25 @@
+can't install at-spi2-atk:
+  nothing provides libatspi.so.0 needed by libatk-bridge-2_0-0-32bit
 can't install compiz-lang:
   nothing provides compiz = 0.9.5.92.1 needed by compiz-lang
 can't install eaglemode:
   nothing provides unrar needed by eaglemode
+can't install evolution-data-server:
+  nothing provides libebackend-1.2.so.5 needed by libedata-book-1_2-15-32bit
+  nothing provides libebackend-1.2.so.5 needed by libedata-cal-1_2-18-32bit
+  nothing provides libebackend-1.2.so.5 needed by libedataserverui-3_0-4-32bit
+  nothing provides libgcr-base-3.so.1 needed by libedataserver-1_2-17-32bit
+can't install gnome-agenda:
+  nothing provides python-evolution needed by gnome-agenda
+can't install gnome-online-accounts:
+  nothing provides libgcr-base-3.so.1 needed by libgoa-backend-1_0-0-32bit
+can't install hamster-applet:
+  nothing provides python-evolution needed by hamster-applet
 can't install hdf5:
   nothing provides libhdf5_hl0-32bit = 1.8.9 needed by hdf5-devel-32bit
   nothing provides libhdf5_hl0-openmpi-32bit = 1.8.9 needed by hdf5-openmpi-devel-32bit
-can't install kdebase3:
-  nothing provides libIlmImf.so.7 needed by kdebase3-32bit
-can't install kdelibs3:
-  nothing provides libHalf.so.7 needed by kdelibs3-32bit
-  nothing provides libIlmImf.so.7 needed by kdelibs3-32bit
-can't install libdbi-drivers:
-  nothing provides libdbi0 = 0.8.3 needed by libdbi-drivers-dbd-mysql
-  nothing provides libdbi0 = 0.8.3 needed by libdbi-drivers-dbd-pgsql
-  nothing provides libdbi0 = 0.8.3 needed by libdbi-drivers-dbd-sqlite3
-can't install libdrm:
-  nothing provides libdrm_omap1-32bit = 2.4.39 needed by libdrm-devel-32bit
+can't install libgdata:
+  nothing provides libgcr-base-3.so.1 needed by libgdata13-32bit
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
@@ -23,18 +27,12 @@ can't install openstack-nova:
   nothing provides python-novaclient needed by openstack-nova
 can't install owasp-modsecurity-crs:
   nothing provides /usr/bin/lua needed by owasp-modsecurity-crs
-can't install pdns-backend-sqlite3:
-  nothing provides pdns = 2.9.22 needed by pdns-backend-sqlite3
-can't install plasma-addons:
-  nothing provides marble = 4.8.5 needed by plasma-addons-marble
-can't install python3-base:
-  nothing provides python3-tkinter = 3.2.3 needed by python3-testsuite
+can't install python3:
+  nothing provides libpython3.3m.so.1.0 needed by python3-32bit
 can't install pythoncad:
   nothing provides python-numeric needed by pythoncad
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
-can't install samba:
-  nothing provides /sbin/conf.d/SuSEconfig.permissions needed by samba-krb-printing
 can't install scim-qtimm:
   nothing provides libscim-1.0.so.8 needed by scim-qtimm-32bit
   nothing provides libscim-1.0.so.8(LIBSCIM_1.0) needed by scim-qtimm-32bit
