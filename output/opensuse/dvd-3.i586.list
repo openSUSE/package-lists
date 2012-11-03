@@ -1,8 +1,6 @@
-ConsoleKit
 SuSEfirewall2
 aaa_base
 aaa_base-extras
-acpid
 augeas-lenses
 autofs
 autoyast2-installation
@@ -46,6 +44,7 @@ e2fsprogs
 eject
 elfutils
 ethtool
+exim
 fbset
 file
 filesystem
@@ -65,6 +64,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
@@ -75,6 +75,7 @@ grep
 grub
 grub2
 grub2-branding-openSUSE
+grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gtk3-branding-openSUSE
@@ -175,7 +176,7 @@ libext2fs2
 libffi47
 libfreetype6
 libfuse2
-libgcc1
+libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -218,6 +219,9 @@ liblockdev1
 libltdl7
 liblua5_1
 liblzma5
+libmagic-data
+libmagic1
+libmicrohttpd10
 libmodman1
 libmount1
 libncurses5
@@ -239,12 +243,13 @@ libplist1
 libpng15-15
 libpolkit0
 libpopt0
-libprocps0
+libprocps1
 libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-webkit
 libpth20
 libpython2_7-1_0
+libqrencode3
 libreadline6
 libreiserfs-0_3-0
 libsecret-1-0
@@ -260,11 +265,11 @@ libstdc++6
 libstorage4
 libtalloc2
 libtasn1
-libtasn1-3
+libtasn1-6
 libtdb1
 libtiff5
 libtirpc1
-libudev0
+libudev1
 libudisks2-0
 libupower-glib1
 libusb-0_1-4
@@ -298,7 +303,6 @@ lvm2
 master-boot-code
 mdadm
 metatheme-adwaita-common
-mingetty
 mkinitrd
 module-init-tools
 multipath-tools
@@ -321,7 +325,6 @@ openssl
 os-prober
 pam
 pam-config
-pam-modules
 pango-tools
 parted
 patterns-openSUSE-base
@@ -349,10 +352,8 @@ pkg-config
 pm-utils
 polkit
 polkit-default-privs
-postfix
 prctl
 procps
-pwdutils
 python
 python-base
 readline-doc
@@ -362,16 +363,17 @@ rpm
 rsync
 rsyslog
 sed
+shadow
 shared-mime-info
 strace
 sudo
+suse-module-tools
 sysconfig
 sysfsutils
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
-sysvinit
 sysvinit-tools
 tar
 tcpd

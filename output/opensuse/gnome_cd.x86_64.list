@@ -30,7 +30,6 @@ aaa_base-extras
 accountsservice
 acl
 acpica
-acpid
 adaptec-firmware
 aisleriot
 alacarte
@@ -64,6 +63,7 @@ bind-utils
 bitmap
 bluez
 bluez-firmware
+boost-license1_49_0
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -205,7 +205,10 @@ glibc-32bit
 glibc-extra
 glibc-locale
 glibc-locale-32bit
+gnokii
+gnokii-lang
 gnome-bluetooth
+gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
 gnome-contacts
 gnome-control-center
@@ -232,6 +235,8 @@ gnome-packagekit
 gnome-panel
 gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
+gnome-phone-manager
+gnome-phone-manager-lang
 gnome-power-manager
 gnome-pty-helper
 gnome-screensaver
@@ -273,6 +278,7 @@ groff-devx
 grub
 grub2
 grub2-branding-openSUSE
+grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsf-office-thumbnailer
@@ -430,6 +436,7 @@ libblkid1
 libblocxx6
 libbluetooth3
 libbluray1
+libboost_thread1_49_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -449,7 +456,7 @@ libcap-ng0
 libcap2
 libcares2
 libcaribou0
-libcdaudio
+libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
 libcdio13
@@ -537,7 +544,7 @@ libfuse2
 libgadu3
 libgbm1
 libgc1
-libgcc1
+libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -671,7 +678,10 @@ libltdl7
 liblua5_1
 liblzma5
 liblzo2-2
+libmagic-data
+libmagic1
 libmemphis-0_2-0
+libmicrohttpd10
 libminiupnpc8
 libmission-control-plugins0
 libmjpegutils-2_0-0
@@ -733,6 +743,7 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpcsclite1
 libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-gjs
@@ -749,12 +760,12 @@ libply2
 libpng15-15
 libpolkit0
 libpoppler-glib8
-libpoppler29
+libpoppler30
 libpopt0
 libportaudio2
 libppl9
 libppl_c4
-libprocps0
+libprocps1
 libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
@@ -770,6 +781,7 @@ libpurple-tcl
 libpwquality1
 libpyglib-gi-2_0-python0
 libpython2_7-1_0
+libqrencode3
 libquadmath0
 libquicktime0
 libquvi-scripts
@@ -800,7 +812,7 @@ libsilcclient-1_1-3
 libslang2
 libsmbclient0
 libsmbios2
-libsnapper1
+libsnapper2
 libsndfile1
 libsnmp30
 libsocialweb
@@ -828,11 +840,11 @@ libtag1
 libtag_c0
 libtalloc2
 libtasn1
-libtasn1-3
+libtasn1-6
 libtdb1
 libtelepathy-farstream3
 libtelepathy-glib0
-libtelepathy-logger2
+libtelepathy-logger3
 libtevent0
 libtheora0
 libtiff5
@@ -844,7 +856,7 @@ libtracker-common-0_14-0
 libtracker-extract-0_14-0
 libtracker-miner-0_14-0
 libtracker-sparql-0_14-0
-libudev0
+libudev1
 libudisks2-0
 libunique-1_0-0
 libunistring0
@@ -858,11 +870,6 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
-libva-drm1
-libva-egl1
-libva-glx1
-libva-x11-1
-libva1
 libvdpau1
 libvisual
 libvmtools0
@@ -939,7 +946,6 @@ memtest86+
 metacity
 metatheme-adwaita-common
 microcode_ctl
-mingetty
 mkcomposecache
 mkfontdir
 mkfontscale
@@ -1037,6 +1043,7 @@ patterns-openSUSE-yast2_install_wf
 pciutils
 pciutils-ids
 pcmciautils
+pcsc-lite
 perl
 perl-Bootloader
 perl-Config-Crontab
@@ -1093,7 +1100,6 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-pwdutils
 python
 python-atspi
 python-base
@@ -1148,6 +1154,7 @@ sessreg
 setxkbmap
 sg3_utils
 sgml-skel
+shadow
 shared-mime-info
 shotwell
 showfont
@@ -1170,6 +1177,7 @@ splashy-mkinitrd
 sssd
 strace
 sudo
+suse-module-tools
 susehelp
 susehelp_en
 sushi
@@ -1184,7 +1192,6 @@ system-config-printer-dbus-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
-sysvinit
 sysvinit-tools
 t1lib
 tar
@@ -1271,7 +1278,6 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udisks2
-ulimit
 unscd
 unzip
 update-alternatives
@@ -1282,7 +1288,6 @@ usbmuxd
 usbutils
 utempter
 util-linux
-vaapi-dummy-driver
 vaapi-intel-driver
 viewres
 vim

@@ -161,6 +161,7 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
+appmenu-qt
 apport
 apport-crashdb-opensuse
 apport-gtk
@@ -621,7 +622,9 @@ excalibur
 excalibur-avalon-framework-api
 excalibur-avalon-framework-impl
 excalibur-avalon-logkit
+exif
 exiftool
+exim
 exo-branding-openSUSE
 exo-data
 exo-lang
@@ -750,6 +753,7 @@ gdb
 gdbm-devel
 gdbm-devel-32bit
 gdk-pixbuf-devel
+gdk-pixbuf-devel-32bit
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-loader-rsvg-32bit
@@ -846,7 +850,9 @@ glew-devel-32bit
 glib-networking
 glib-sharp2
 glib2-devel
+glib2-devel-32bit
 glib2-tools
+glib2-tools-32bit
 glibc
 glibc-32bit
 glibc-devel
@@ -870,6 +876,7 @@ gnibbles-lang
 gnobots2
 gnobots2-lang
 gnokii
+gnokii-lang
 gnome-applets
 gnome-applets-lang
 gnome-backgrounds
@@ -926,6 +933,7 @@ gnome-panel
 gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
 gnome-phone-manager
+gnome-phone-manager-lang
 gnome-pilot
 gnome-power-manager
 gnome-print-sharp
@@ -1009,6 +1017,8 @@ grub
 grub2
 grub2-branding-openSUSE
 grub2-efi
+grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
@@ -1034,6 +1044,7 @@ gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-good-32bit
 gstreamer-0_10-plugins-good-extra
 gstreamer-0_10-plugins-good-extra-32bit
+gstreamer-0_10-plugins-qt
 gstreamer-0_10-utils
 gstreamer-devel
 gstreamer-libnice
@@ -1058,7 +1069,6 @@ gtk-sharp2
 gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
-gtk-vnc-lang
 gtk-vnc2-lang
 gtk2-branding-openSUSE
 gtk2-data
@@ -1406,9 +1416,11 @@ kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
+kdebase4-runtime-branding-upstream
 kdebase4-session
 kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
+kdebase4-workspace-branding-upstream
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
@@ -1505,10 +1517,12 @@ kmahjongg
 kmail
 kmines
 kmix
+kmod
 kmod-compat
 kmousetool
 kmouth
 kmplot
+knavalbattle
 knetwalk
 knode
 knotes
@@ -1625,6 +1639,8 @@ libOSMesa8
 libOSMesa9
 libOSMesa9-32bit
 libOpenCOLLADA0
+libQtGLib-2_0-0
+libQtGStreamer-0_10-0
 libQtSolutions_SOAP-2_7-1
 libQtWebKit-devel
 libQtWebKit4
@@ -1699,6 +1715,7 @@ libXinerama-devel
 libXinerama1
 libXinerama1-32bit
 libXiterm
+libXiterm1
 libXmu-devel
 libXmu6
 libXmuu1
@@ -1903,6 +1920,7 @@ libcares2
 libcaribou0
 libcdaudio
 libcdaudio-32bit
+libcdaudio1
 libcdda_interface0
 libcdda_interface0-32bit
 libcdda_paranoia0
@@ -2126,10 +2144,10 @@ libgavl1
 libgbm-devel
 libgbm1
 libgc1
-libgcc1
-libgcc1-32bit
 libgcc47
 libgcc47-32bit
+libgcc_s1
+libgcc_s1-32bit
 libgcj-devel
 libgcj47
 libgcj47-devel
@@ -2384,6 +2402,7 @@ libicu-devel-32bit
 libicu49
 libicu49-32bit
 libid3tag
+libid3tag0
 libidl-devel
 libidn
 libidn-32bit
@@ -2401,6 +2420,8 @@ libimobiledevice3
 libindi
 libindi-devel
 libindi0
+libindidriver0
+libindimain0
 libini_config2
 libiniparser0
 libiniparser0-32bit
@@ -2411,6 +2432,7 @@ libiptcdata
 libiptcdata0
 libiso9660-8
 libiterm
+libiterm1
 libiw-devel
 libiw30
 libjack-devel
@@ -2444,14 +2466,16 @@ libkcompactdisc4
 libkcompactdisc4-devel
 libkdcraw-devel
 libkdcraw20
-libkdcraw21
+libkdcraw22
 libkde4
 libkde4-devel
 libkdecore4
 libkdecore4-devel
 libkdeedu4-data
 libkdeedu4-devel
+libkdegames
 libkdegames4
+libkdegames6
 libkdepim4
 libkdepimlibs4
 libkdepimlibs4-devel
@@ -2473,8 +2497,10 @@ libkgeomap-lang
 libkgeomap1
 libkhangmanengine4
 libkipi-devel
+libkipi10
 libkipi8
-libkipi9
+libkmahjongg
+libkmahjongglib4
 libkmod2
 libkms-devel
 libkms1
@@ -2525,6 +2551,7 @@ liblockdev1-32bit
 libloudmouth-1-0
 liblouis2
 liblpsolve55
+liblpsolve55-0
 liblqr-1-0
 liblqr-devel
 liblrdf2
@@ -2540,16 +2567,21 @@ liblzo2-2
 liblzx0
 libm17n0
 libm17n0-32bit
+libmagic-data
+libmagic1
+libmagic1-32bit
 libmal
 libmal-devel
 libmarblewidget13
-libmarblewidget14
+libmarblewidget15
 libmcrypt
 libmeanwhile1
+libmediastreamer1
 libmediawiki-devel
 libmediawiki1
 libmemphis-0_2-0
 libmenu-cache1
+libmicrohttpd10
 libmikmod
 libmikmod2
 libminiupnpc8
@@ -2612,6 +2644,7 @@ libncurses6
 libncurses6-32bit
 libneon27
 libneon27-32bit
+libnepomukwidgets4
 libnet1
 libnetcontrol0
 libnetfilter_conntrack3
@@ -2647,6 +2680,8 @@ libnscd
 libnscd-32bit
 libnsssharedhelper0
 libntfs-3g83
+libntrack-qt4-1
+libntrack0
 libnuma1
 liboauth-devel
 liboauth0
@@ -2697,6 +2732,8 @@ liboping0
 libopus0
 liborc-0_4-0
 liborc-0_4-0-32bit
+libortp-devel
+libortp8
 libosinfo
 libosinfo-1_0-0
 libosip2
@@ -2730,6 +2767,7 @@ libpciaccess0
 libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
+libpcre16-0
 libpcrecpp0
 libpcreposix0
 libpcsclite1
@@ -2738,6 +2776,7 @@ libpeas-gtk-1_0-0
 libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-seed
+libpgf6
 libphonon4
 libpinyin0
 libpinyin2
@@ -2763,12 +2802,13 @@ libpng12-devel
 libpng12-devel-32bit
 libpng14-14
 libpng14-14-32bit
-libpng14-compat-devel-32bit
 libpng14-devel
 libpng14-devel-32bit
 libpng15-15
 libpng15-15-32bit
+libpng15-compat-devel-32bit
 libpng15-devel
+libpng15-devel-32bit
 libpodofo-devel
 libpodofo0_9_1
 libpolkit-qt-1-1
@@ -2779,7 +2819,7 @@ libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt4-devel
 libpoppler25
-libpoppler29
+libpoppler30
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -2792,6 +2832,7 @@ libpqxx-devel
 libprison-devel
 libprison0
 libprocps0
+libprocps1
 libproxy-devel
 libproxy1
 libproxy1-32bit
@@ -2803,7 +2844,7 @@ libproxy1-pacrunner-webkit
 libpspell15
 libpst4
 libpt2_10_5
-libpt2_10_7
+libpt2_10_9
 libpth-devel
 libpth20
 libpulse-devel
@@ -3027,6 +3068,7 @@ libsmokekde3
 libsmokeqt
 libsmokeqt-devel
 libsnapper1
+libsnapper2
 libsndfile-devel
 libsndfile1
 libsndfile1-32bit
@@ -3061,11 +3103,8 @@ libspeex1
 libspeex1-32bit
 libspeexdsp1
 libspice-client-glib-2_0-1
-libspice-client-glib-2_0-8
 libspice-client-gtk-2_0-1
-libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-1
-libspice-client-gtk-3_0-4
 libspice-server1
 libsqlite3-0
 libsqlite3-0-32bit
@@ -3103,6 +3142,8 @@ libtalloc2-32bit
 libtasn1
 libtasn1-3
 libtasn1-3-32bit
+libtasn1-6
+libtasn1-6-32bit
 libtasn1-devel
 libtdb1
 libtdb1-32bit
@@ -3110,6 +3151,7 @@ libtelepathy-farstream2
 libtelepathy-farstream3
 libtelepathy-glib0
 libtelepathy-logger2
+libtelepathy-logger3
 libtevent0
 libthe-board-1_0-0
 libtheora-devel
@@ -3142,6 +3184,8 @@ libtunepimp5
 libudev-devel
 libudev0
 libudev0-32bit
+libudev1
+libudev1-32bit
 libudf0
 libudisks2-0
 libunicap-devel
@@ -3175,10 +3219,6 @@ libv4l2-0-32bit
 libv4lconvert0
 libv4lconvert0-32bit
 libv8-3
-libva-drm1
-libva-egl1
-libva-glx1
-libva-x11-1
 libva1
 libvala-0_16-0
 libvala-0_18-0
@@ -3237,22 +3277,35 @@ libwv-1_2-1
 libwv2-4
 libwx_baseu-2_8-0-stl
 libwx_baseu-2_8-0-wxcontainer
+libwx_baseu-2_9-4-stl
 libwx_baseu_net-2_8-0-stl
 libwx_baseu_net-2_8-0-wxcontainer
+libwx_baseu_net-2_9-4-stl
 libwx_baseu_xml-2_8-0-stl
+libwx_baseu_xml-2_9-4-stl
 libwx_gtk2u_adv-2_8-0-stl
 libwx_gtk2u_adv-2_8-0-wxcontainer
+libwx_gtk2u_adv-2_9-4-stl
 libwx_gtk2u_aui-2_8-0-stl
+libwx_gtk2u_aui-2_9-4-stl
 libwx_gtk2u_core-2_8-0-stl
 libwx_gtk2u_core-2_8-0-wxcontainer
+libwx_gtk2u_core-2_9-4-stl
 libwx_gtk2u_gizmos-2_8-0-stl
 libwx_gtk2u_gl-2_8-0-stl
+libwx_gtk2u_gl-2_9-4-stl
 libwx_gtk2u_html-2_8-0-stl
 libwx_gtk2u_html-2_8-0-wxcontainer
+libwx_gtk2u_html-2_9-4-stl
 libwx_gtk2u_media-2_8-0-stl
+libwx_gtk2u_media-2_9-4-stl
+libwx_gtk2u_propgrid-2_9-4-stl
 libwx_gtk2u_richtext-2_8-0-stl
+libwx_gtk2u_richtext-2_9-4-stl
 libwx_gtk2u_stc-2_8-0-stl
+libwx_gtk2u_stc-2_9-4-stl
 libwx_gtk2u_xrc-2_8-0-stl
+libwx_gtk2u_xrc-2_9-4-stl
 libx86-1
 libx86emu1
 libxapian22
@@ -3352,6 +3405,7 @@ libzio1
 libzip-devel
 libzip2
 libzmq1
+libzmq3
 libzvbi0
 libzvbi0-32bit
 libzypp
@@ -3460,6 +3514,7 @@ mcelog
 mdadm
 meanwhile-devel
 media-player-info
+mediastreamer2-devel
 meld
 meld-lang
 memtest86+
@@ -3534,11 +3589,13 @@ mrtg
 msynctool
 mtools
 mtpaint
+mtpaint-lang
 mtr
 multipath-tools
 mutt
 mutter
 mutter-data
+mx-lang
 mx4j
 mxml
 myspell-american
@@ -3672,6 +3729,7 @@ ntfs-3g
 ntfsprogs
 ntp
 ntp-doc
+ntrack-libnl3_x
 numactl
 numlockx
 nuoveXT2-icon-theme
@@ -3704,6 +3762,7 @@ openal-soft
 openbabel
 openbox
 opencc
+opencc-data
 openconnect
 openconnect-devel
 opencv
@@ -4076,6 +4135,7 @@ perl-Probe-Perl
 perl-Quantum-Superpositions
 perl-RPC-XML
 perl-Readonly
+perl-SDL
 perl-SDL_Perl
 perl-SGMLS
 perl-SNMP
@@ -4152,7 +4212,6 @@ perl-razor-agents
 perl-satsolver
 permissions
 pessulus
-pessulus-lang
 pfscalibration
 pfstmo
 pfstools
@@ -4345,6 +4404,7 @@ python-gtksourceview
 python-httplib2
 python-imaging
 python-kde4
+python-kde4-common
 python-kde4-devel
 python-kdebase4
 python-ldap
@@ -4393,6 +4453,8 @@ python-virtualbox
 python-vte
 python-wnck
 python-wxWidgets
+python-wxWidgets-2_9
+python-wxWidgets-2_9-lang
 python-wxWidgets-lang
 python-xcb-proto-devel
 python-xdg
@@ -4506,7 +4568,6 @@ rubygem-i18n-0_6
 rubygem-inifile
 rubygem-journey-1_0
 rubygem-json
-rubygem-mail
 rubygem-mail-2_4
 rubygem-mime-types
 rubygem-multi_json
@@ -4530,6 +4591,7 @@ rubygem-rdoc
 rubygem-ruby-dbus
 rubygem-ruby-fcgi
 rubygem-sprockets-2_1
+rubygem-sprockets-2_2
 rubygem-sqlite3
 rubygem-thor
 rubygem-tilt
@@ -4559,7 +4621,6 @@ rubygem-webyast-users
 rxvt-unicode
 rzsz
 sabayon
-sabayon-lang
 sablot
 samba
 samba-32bit
@@ -4575,6 +4636,8 @@ sane-backends-devel
 sash
 sax2-tools
 saxon
+saxon6
+saxon9
 sazanami-fonts
 sbl
 scim
@@ -4612,6 +4675,7 @@ setxkbmap
 sfftobmp
 sg3_utils
 sgml-skel
+shadow
 shared-color-profiles
 shared-desktop-ontologies
 shared-desktop-ontologies-devel
@@ -4708,6 +4772,7 @@ subversion-python
 subversion-server
 subversion-tools
 sudo
+suse-module-tools
 suse-xsl-stylesheets
 susegreeter-branding-openSUSE
 susehelp
@@ -4745,7 +4810,6 @@ systemd-sysvinit
 systemtap
 systemtap-runtime
 sysvinit
-sysvinit-init
 sysvinit-tools
 t1lib
 tack
@@ -4810,6 +4874,7 @@ tftp
 tgt
 thai-fonts
 the-board
+the-board-lang
 thessalonica-oldstandard-otf-fonts
 thessalonica-theano-otf-fonts
 thryomanes-fonts
@@ -5019,7 +5084,6 @@ vim
 vim-base
 vim-data
 vinagre
-vinagre-lang
 vino
 virt-manager
 virt-utils
@@ -5161,6 +5225,7 @@ xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion
 xf86-video-sis
+xf86-video-sisusb
 xf86-video-tdfx
 xf86-video-tga
 xf86-video-v4l

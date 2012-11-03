@@ -1,5 +1,3 @@
-can't install at-spi2-atk:
-  nothing provides libatspi.so.0 needed by libatk-bridge-2_0-0-32bit
 can't install compiz-lang:
   nothing provides compiz = 0.9.5.92.1 needed by compiz-lang
 can't install eaglemode:
@@ -15,20 +13,48 @@ can't install gnome-online-accounts:
   nothing provides libgcr-base-3.so.1 needed by libgoa-backend-1_0-0-32bit
 can't install hamster-applet:
   nothing provides python-evolution needed by hamster-applet
-can't install hdf5:
-  nothing provides libhdf5_hl0-32bit = 1.8.9 needed by hdf5-devel-32bit
-  nothing provides libhdf5_hl0-openmpi-32bit = 1.8.9 needed by hdf5-openmpi-devel-32bit
+can't install horde4:
+  nothing provides php5-pear-Horde_Argv < 2.0.0 needed by horde4
+  nothing provides php5-pear-Horde_Core < 2.0.0 needed by horde4
+  nothing provides php5-pear-Horde_Form < 2.0.0 needed by horde4
+  nothing provides php5-pear-Horde_Http < 2.0.0 needed by horde4
+... 7 more problems
+can't install kdebase4-openSUSE:
+  nothing provides ksplashx-branding-openSUSE = 12.3 needed by kdebase4-workspace-branding-openSUSE
+  nothing provides susegreeter-branding-openSUSE = 12.3 needed by kdebase4-workspace-branding-openSUSE
+  nothing provides wallpaper-branding-openSUSE = 12.3 needed by kdebase4-workspace-branding-openSUSE
 can't install libgdata:
   nothing provides libgcr-base-3.so.1 needed by libgdata13-32bit
+can't install libmal:
+  nothing provides libmal1 = 0.44.1 needed by libmal-devel
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
-can't install openstack-nova:
-  nothing provides python-novaclient needed by openstack-nova
 can't install owasp-modsecurity-crs:
   nothing provides /usr/bin/lua needed by owasp-modsecurity-crs
-can't install python3:
-  nothing provides libpython3.3m.so.1.0 needed by python3-32bit
+can't install php5-pear-Horde_Core:
+  nothing provides php5-pear-Horde_Auth >= 2.0.0 needed by php5-pear-Horde_Core
+  nothing provides php5-pear-Horde_Secret >= 2.0.0 needed by php5-pear-Horde_Core
+can't install php5-pear-Horde_DataTree:
+  nothing provides php5-pear-Horde_Core < 2.0.0 needed by php5-pear-Horde_DataTree
+  nothing provides php5-pear-Horde_Exception < 2.0.0 needed by php5-pear-Horde_DataTree
+  nothing provides php5-pear-Horde_Serialize < 2.0.0 needed by php5-pear-Horde_DataTree
+  nothing provides php5-pear-Horde_Util < 2.0.0 needed by php5-pear-Horde_DataTree
+can't install php5-pear-Horde_Feed:
+  nothing provides php5-pear-Horde_Xml_Element >= 2.0.0 needed by php5-pear-Horde_Feed
+can't install php5-pear-Horde_Imap_Client:
+  nothing provides php5-pear-Horde_Secret >= 2.0.0 needed by php5-pear-Horde_Imap_Client
+can't install php5-pear-Horde_Kolab_Server:
+  nothing provides php5-pear-Horde_Auth >= 2.0.0 needed by php5-pear-Horde_Kolab_Server
+can't install php5-pear-Horde_Rpc:
+  nothing provides php5-pear-Horde_Xml_Element >= 2.0.0 needed by php5-pear-Horde_Rpc
+can't install php5-pear-Horde_Secret:
+  nothing provides php5-pear-Horde_Exception < 2.0.0 needed by php5-pear-Horde_Secret
+can't install php5-pear-Horde_SpellChecker:
+  nothing provides php5-pear-Horde_Exception < 2.0.0 needed by php5-pear-Horde_SpellChecker
+  nothing provides php5-pear-Horde_Util < 2.0.0 needed by php5-pear-Horde_SpellChecker
+can't install php5-pear-Horde_Vfs:
+  nothing provides php5-pear-Horde_Auth >= 2.0.0 needed by php5-pear-Horde_Vfs
 can't install pythoncad:
   nothing provides python-numeric needed by pythoncad
 can't install qmmp:

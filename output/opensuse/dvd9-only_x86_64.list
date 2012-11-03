@@ -49,12 +49,15 @@ gcc47-objc-32bit
 gconf2-32bit
 gd-32bit
 gdbm-devel-32bit
+gdk-pixbuf-devel-32bit
 gdk-pixbuf-loader-rsvg-32bit
 gdk-pixbuf-query-loaders-32bit
 gettext-runtime-32bit
 gettext-tools-32bit
 giflib-devel-32bit
 glew-devel-32bit
+glib2-devel-32bit
+glib2-tools-32bit
 glibc-32bit
 glibc-devel-32bit
 glibc-locale-32bit
@@ -62,6 +65,7 @@ gmp-devel-32bit
 gnome-keyring-pam-32bit
 gpm-32bit
 grub2-efi
+grub2-x86_64-efi
 gstreamer-0_10-plugins-bad-32bit
 gstreamer-0_10-plugins-base-32bit
 gstreamer-0_10-plugins-good-32bit
@@ -184,8 +188,8 @@ libfftw3-3-32bit
 libfprint0-32bit
 libfreebl3-32bit
 libfreetype6-32bit
-libgcc1-32bit
 libgcc47-32bit
+libgcc_s1-32bit
 libgcrypt11-32bit
 libgdbm3-32bit
 libgdbm4-32bit
@@ -252,6 +256,7 @@ libltdl7-32bit
 liblua5_1-32bit
 liblzma5-32bit
 libm17n0-32bit
+libmagic1-32bit
 libmjpegutils-2_0-0-32bit
 libmms0-32bit
 libmng1-32bit
@@ -299,9 +304,10 @@ libpixman-1-0-32bit
 libpng12-0-32bit
 libpng12-devel-32bit
 libpng14-14-32bit
-libpng14-compat-devel-32bit
 libpng14-devel-32bit
 libpng15-15-32bit
+libpng15-compat-devel-32bit
+libpng15-devel-32bit
 libpopt0-32bit
 libpq5-32bit
 libproxy1-32bit
@@ -352,6 +358,7 @@ libstdc++6-32bit
 libtag1-32bit
 libtalloc2-32bit
 libtasn1-3-32bit
+libtasn1-6-32bit
 libtdb1-32bit
 libtheora0-32bit
 libtiff-devel-32bit
@@ -360,6 +367,7 @@ libtimidity-0_1-0-32bit
 libtirpc1-32bit
 libtool-32bit
 libudev0-32bit
+libudev1-32bit
 libusb-0_1-4-32bit
 libusb-1_0-0-32bit
 libustr-1_0-1-32bit
@@ -425,6 +433,7 @@ perl-32bit
 perl-base-32bit
 postgresql-devel-32bit
 python-32bit
+python-SpiceClientGtk
 python-base-32bit
 qtcurve-gtk2-32bit
 rpm-32bit

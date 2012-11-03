@@ -12,7 +12,6 @@ aaa_base
 aaa_base-extras
 acl
 acpica
-acpid
 adaptec-firmware
 alsa
 alsa-firmware
@@ -38,6 +37,7 @@ bind-libs
 bind-utils
 bitmap
 bluez-firmware
+boost-license1_49_0
 branding-openSUSE
 bridge-utils
 btrfsprogs
@@ -145,6 +145,7 @@ groff-devx
 grub
 grub2
 grub2-branding-openSUSE
+grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gtk2-branding-openSUSE
@@ -270,6 +271,7 @@ libblkid1
 libblocxx6
 libbluetooth3
 libbluray1
+libboost_thread1_49_0
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -319,7 +321,7 @@ libfreebl3
 libfreetype6
 libfuse2
 libgbm1
-libgcc1
+libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -376,6 +378,9 @@ libltdl7
 liblua5_1
 liblzma5
 liblzo2-2
+libmagic-data
+libmagic1
+libmicrohttpd10
 libmng1
 libmodman1
 libmount1
@@ -416,12 +421,13 @@ libpopt0
 libportaudio2
 libppl9
 libppl_c4
-libprocps0
+libprocps1
 libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-webkit
 libpth20
 libpython2_7-1_0
+libqrencode3
 libqt4
 libqt4-sql
 libqt4-sql-mysql
@@ -440,7 +446,7 @@ libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
-libsnapper1
+libsnapper2
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
@@ -451,12 +457,12 @@ libstdc++6
 libstorage4
 libtalloc2
 libtasn1
-libtasn1-3
+libtasn1-6
 libtdb1
 libtevent0
 libtiff5
 libtirpc1
-libudev0
+libudev1
 libudisks2-0
 libupower-glib1
 libusb-0_1-4
@@ -464,11 +470,6 @@ libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
 libuuid1
-libva-drm1
-libva-egl1
-libva-glx1
-libva-x11-1
-libva1
 libvmtools0
 libwbclient0
 libwebp4
@@ -519,7 +520,6 @@ mdadm
 memtest86+
 metatheme-adwaita-common
 microcode_ctl
-mingetty
 mkcomposecache
 mkfontdir
 mkfontscale
@@ -563,7 +563,6 @@ os-prober
 p7zip
 pam
 pam-config
-pam-modules
 pam_fprint
 pam_krb5
 pam_ldap
@@ -627,7 +626,6 @@ proxymngr
 psmisc
 pullin-flash-player
 pullin-fluendo-mp3
-pwdutils
 python
 python-base
 python-satsolver
@@ -653,6 +651,7 @@ sed
 sessreg
 setxkbmap
 sg3_utils
+shadow
 shared-mime-info
 showfont
 smartmontools
@@ -668,6 +667,7 @@ splashy-mkinitrd
 sssd
 strace
 sudo
+suse-module-tools
 susehelp
 susehelp_de
 susehelp_en
@@ -678,7 +678,6 @@ syslog-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
-sysvinit
 sysvinit-tools
 tar
 tcpd
@@ -691,7 +690,6 @@ tunctl
 twm
 udev
 udisks2
-ulimit
 unscd
 unzip
 update-alternatives
@@ -700,7 +698,6 @@ usbmuxd
 usbutils
 utempter
 util-linux
-vaapi-dummy-driver
 vaapi-intel-driver
 viewres
 vim
@@ -767,6 +764,7 @@ xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion
 xf86-video-sis
+xf86-video-sisusb
 xf86-video-tdfx
 xf86-video-tga
 xf86-video-v4l

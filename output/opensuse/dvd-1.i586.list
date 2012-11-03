@@ -147,6 +147,7 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
+appmenu-qt
 apport
 apport-crashdb-opensuse
 apport-gtk
@@ -541,6 +542,7 @@ excalibur
 excalibur-avalon-framework-api
 excalibur-avalon-framework-impl
 excalibur-avalon-logkit
+exif
 exiftool
 exo-branding-openSUSE
 exo-data
@@ -632,7 +634,6 @@ gccmakedep
 gcin
 gcin-anthy-module
 gcin-branding-openSUSE
-gcin-chewing-module
 gcin-gtk3-immodule
 gcin-qt4-immodule
 gconf-editor
@@ -720,6 +721,8 @@ gitk
 gjdoc
 gjs
 gkeyfile-sharp
+glabels
+glabels-lang
 glade
 glade-catalog-gtksourceview
 glade-catalog-vte
@@ -750,11 +753,14 @@ gnibbles
 gnibbles-lang
 gnobots2
 gnobots2-lang
+gnokii
+gnokii-lang
 gnome-applets
 gnome-applets-lang
 gnome-backgrounds
 gnome-backgrounds-lang
 gnome-bluetooth
+gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
 gnome-color-manager
 gnome-color-manager-lang
@@ -801,6 +807,8 @@ gnome-packagekit
 gnome-panel
 gnome-panel-applet-tracker
 gnome-panel-branding-openSUSE
+gnome-phone-manager
+gnome-phone-manager-lang
 gnome-power-manager
 gnome-print-sharp
 gnome-pty-helper
@@ -877,6 +885,7 @@ groff-devx
 grub
 grub2
 grub2-branding-openSUSE
+grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
@@ -896,6 +905,7 @@ gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-good-extra
+gstreamer-0_10-plugins-qt
 gstreamer-0_10-utils
 gstreamer-devel
 gstreamer-libnice
@@ -920,7 +930,6 @@ gtk-sharp2
 gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
-gtk-vnc-lang
 gtk-vnc2-lang
 gtk2-branding-openSUSE
 gtk2-data
@@ -1116,7 +1125,6 @@ iputils
 ipw-firmware
 irda
 irssi
-iscan-free
 isns
 iso-codes
 iso_ent
@@ -1244,18 +1252,15 @@ kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
-kdebase4-runtime-branding-openSUSE
+kdebase4-runtime-branding-upstream
 kdebase4-session
 kdebase4-workspace
-kdebase4-workspace-branding-openSUSE
+kdebase4-workspace-branding-upstream
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-plasma-calendar
-kdebase4-workspace-plasma-engine-akonadi
 kdebindings-smokegen
-kdegames4-carddecks-default
-kdegames4-carddecks-other
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
@@ -1347,12 +1352,12 @@ kmix
 kmousetool
 kmouth
 kmplot
+knavalbattle
 knetwalk
 knode
 knotes
 kolf
 kollision
-kolorlines
 kolourpaint
 kompare
 konqueror
@@ -1404,7 +1409,6 @@ kturtle
 ktux
 kubrick
 kvkbd
-kvm
 kwalletmanager
 kwebkitpart
 kwin
@@ -1445,6 +1449,8 @@ libMagickWand5
 libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
+libQtGLib-2_0-0
+libQtGStreamer-0_10-0
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -1502,7 +1508,7 @@ libXi-devel
 libXi6
 libXinerama-devel
 libXinerama1
-libXiterm
+libXiterm1
 libXmu-devel
 libXmu6
 libXmuu1
@@ -1591,7 +1597,6 @@ libavahi-glib1
 libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
-libavahi-ui-gtk3-0
 libavc1394-0
 libavogadro1
 libavutil51
@@ -1638,7 +1643,6 @@ libbz2-1
 libbz2-devel
 libc-client2007e_suse
 libcaca0
-libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
@@ -1659,7 +1663,7 @@ libcap2
 libcapi20-3
 libcares2
 libcaribou0
-libcdaudio
+libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
 libcdio++0
@@ -1675,7 +1679,6 @@ libchamplain-0_12-0
 libcheese-common
 libcheese-gtk23
 libcheese7
-libchewing
 libchm0
 libcloog0
 libclucene-contribs-lib1
@@ -1823,7 +1826,7 @@ libgavl1
 libgbm-devel
 libgbm1
 libgc1
-libgcc1
+libgcc_s1
 libgcj-devel
 libgcj47
 libgcj47-devel
@@ -1972,7 +1975,6 @@ libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgtk-vnc-1_0-0
-libgtk-vnc-2_0-0
 libgtkhex-3-0
 libgtkhotkey1
 libgtkhtml-4_0-0
@@ -2019,7 +2021,7 @@ libical-devel
 libical0
 libicu-devel
 libicu49
-libid3tag
+libid3tag0
 libidl-devel
 libidn-devel
 libidn11
@@ -2030,6 +2032,8 @@ libimobiledevice3
 libindi
 libindi-devel
 libindi0
+libindidriver0
+libindimain0
 libini_config2
 libiniparser0
 libiodbc-devel
@@ -2038,7 +2042,7 @@ libiptc0
 libiptcdata
 libiptcdata0
 libiso9660-8
-libiterm
+libiterm1
 libiw-devel
 libiw30
 libjack-devel
@@ -2061,14 +2065,15 @@ libkcddb4-devel
 libkcompactdisc4
 libkcompactdisc4-devel
 libkdcraw-devel
-libkdcraw21
+libkdcraw22
 libkde4
 libkde4-devel
 libkdecore4
 libkdecore4-devel
 libkdeedu4-data
 libkdeedu4-devel
-libkdegames4
+libkdegames
+libkdegames6
 libkdepim4
 libkdepimlibs4
 libkdepimlibs4-devel
@@ -2088,7 +2093,9 @@ libkgeomap-lang
 libkgeomap1
 libkhangmanengine4
 libkipi-devel
-libkipi9
+libkipi10
+libkmahjongg
+libkmahjongglib4
 libkmod2
 libkms-devel
 libkms1
@@ -2124,11 +2131,12 @@ libldapcpp1
 libldb1
 liblensfun0
 liblibkremotecontrol1
+liblightdm-gobject-1-0
 liblirc_client0
 liblockdev1
 libloudmouth-1-0
 liblouis2
-liblpsolve55
+liblpsolve55-0
 liblqr-1-0
 liblqr-devel
 liblrdf2
@@ -2139,15 +2147,17 @@ liblzma5
 liblzo2-2
 liblzx0
 libm17n0
-libmal
-libmal-devel
-libmarblewidget14
+libmagic-data
+libmagic1
+libmarblewidget15
 libmcrypt
 libmeanwhile1
+libmediastreamer1
 libmediawiki-devel
 libmediawiki1
 libmemphis-0_2-0
 libmenu-cache1
+libmicrohttpd10
 libmikmod2
 libminiupnpc8
 libmission-control-plugins0
@@ -2181,6 +2191,7 @@ libmusicbrainz3-devel
 libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
+libmx-1_0-2
 libmxml1
 libmygpo-qt-devel
 libmygpo-qt1
@@ -2192,6 +2203,7 @@ libnautilus-extension1
 libncurses5
 libncurses6
 libneon27
+libnepomukwidgets4
 libnet1
 libnetfilter_conntrack3
 libnetpbm-devel
@@ -2215,6 +2227,8 @@ libnova-devel
 libnscd
 libnsssharedhelper0
 libntfs-3g83
+libntrack-qt4-1
+libntrack0
 liboauth-devel
 liboauth0
 libobjc4
@@ -2251,6 +2265,8 @@ libopensync-plugin-python-module
 liboping0
 libopus0
 liborc-0_4-0
+libortp-devel
+libortp8
 libosinfo
 libosinfo-1_0-0
 libosip2
@@ -2276,6 +2292,7 @@ libpci3
 libpciaccess-devel
 libpciaccess0
 libpcre1
+libpcre16-0
 libpcrecpp0
 libpcreposix0
 libpcsclite1
@@ -2284,6 +2301,7 @@ libpeas-gtk-1_0-0
 libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-seed
+libpgf6
 libphonon4
 libpinyin2
 libpipeline1
@@ -2302,8 +2320,6 @@ libply2
 libpng12-0
 libpng12-compat-devel
 libpng12-devel
-libpng14-14
-libpng14-devel
 libpng15-15
 libpng15-devel
 libpodofo-devel
@@ -2315,7 +2331,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt4-devel
-libpoppler29
+libpoppler30
 libpopt0
 libportaudio2
 libppl9
@@ -2325,7 +2341,7 @@ libpqxx
 libpqxx-devel
 libprison-devel
 libprison0
-libprocps0
+libprocps1
 libproxy-devel
 libproxy1
 libproxy1-config-gnome3
@@ -2334,7 +2350,7 @@ libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpspell15
 libpst4
-libpt2_10_7
+libpt2_10_9
 libpth-devel
 libpth20
 libpulse-devel
@@ -2404,6 +2420,7 @@ libreoffice-calc
 libreoffice-calc-extensions
 libreoffice-converter
 libreoffice-draw
+libreoffice-draw-extensions
 libreoffice-filters-optional
 libreoffice-gnome
 libreoffice-help-cs
@@ -2515,7 +2532,7 @@ libsmokekde-devel
 libsmokekde3
 libsmokeqt
 libsmokeqt-devel
-libsnapper1
+libsnapper2
 libsndfile-devel
 libsndfile1
 libsnmp30
@@ -2542,9 +2559,6 @@ libspeechd-devel
 libspeechd2
 libspeex1
 libspeexdsp1
-libspice-client-glib-2_0-8
-libspice-client-gtk-2_0-4
-libspice-client-gtk-3_0-4
 libspice-server1
 libsqlite3-0
 libssh-devel
@@ -2569,13 +2583,14 @@ libtag1
 libtag_c0
 libtalloc2
 libtasn1
-libtasn1-3
+libtasn1-6
 libtasn1-devel
 libtdb1
 libtelepathy-farstream3
 libtelepathy-glib0
-libtelepathy-logger2
+libtelepathy-logger3
 libtevent0
+libthe-board-1_0-0
 libtheora-devel
 libtheora0
 libthunarx-2-0
@@ -2597,7 +2612,7 @@ libtunepimp
 libtunepimp-devel
 libtunepimp5
 libudev-devel
-libudev0
+libudev1
 libudf0
 libudisks2-0
 libunicap-devel
@@ -2611,8 +2626,6 @@ libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd-devel
 libusbmuxd2
-libusbredirhost1
-libusbredirparser0
 libustr-1_0-1
 libuuid-devel
 libuuid1
@@ -2622,11 +2635,6 @@ libv4l1-0
 libv4l2-0
 libv4lconvert0
 libv8-3
-libva-drm1
-libva-egl1
-libva-glx1
-libva-x11-1
-libva1
 libvala-0_18-0
 libvamp-hostsdk3
 libvcdinfo0
@@ -2670,18 +2678,27 @@ libwps-0_2-2
 libwv-1_2-1
 libwv2-4
 libwx_baseu-2_8-0-stl
+libwx_baseu-2_9-4-stl
 libwx_baseu_net-2_8-0-stl
+libwx_baseu_net-2_9-4-stl
 libwx_baseu_xml-2_8-0-stl
+libwx_baseu_xml-2_9-4-stl
 libwx_gtk2u_adv-2_8-0-stl
+libwx_gtk2u_adv-2_9-4-stl
 libwx_gtk2u_aui-2_8-0-stl
+libwx_gtk2u_aui-2_9-4-stl
 libwx_gtk2u_core-2_8-0-stl
-libwx_gtk2u_gizmos-2_8-0-stl
+libwx_gtk2u_core-2_9-4-stl
 libwx_gtk2u_gl-2_8-0-stl
+libwx_gtk2u_gl-2_9-4-stl
 libwx_gtk2u_html-2_8-0-stl
-libwx_gtk2u_media-2_8-0-stl
-libwx_gtk2u_richtext-2_8-0-stl
-libwx_gtk2u_stc-2_8-0-stl
+libwx_gtk2u_html-2_9-4-stl
+libwx_gtk2u_media-2_9-4-stl
+libwx_gtk2u_propgrid-2_9-4-stl
+libwx_gtk2u_richtext-2_9-4-stl
+libwx_gtk2u_stc-2_9-4-stl
 libwx_gtk2u_xrc-2_8-0-stl
+libwx_gtk2u_xrc-2_9-4-stl
 libx86-1
 libx86emu1
 libxapian22
@@ -2763,10 +2780,15 @@ libzeitgeist-1_0-1
 libzio1
 libzip-devel
 libzip2
-libzmq1
+libzmq3
 libzvbi0
 libzypp
 liferea
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-branding-openSUSE
+lightdm-gtk-greeter-lang
+lightdm-lang
 lightsoff
 lilo
 limal
@@ -2855,6 +2877,7 @@ mc
 mdadm
 meanwhile-devel
 media-player-info
+mediastreamer2-devel
 meld
 meld-lang
 memtest86+
@@ -2867,7 +2890,6 @@ mhash
 mhash-devel
 microcode_ctl
 midori-branding-openSUSE
-mingetty
 minicom
 mirror
 mjpegtools
@@ -2924,11 +2946,13 @@ mrtg
 msynctool
 mtools
 mtpaint
+mtpaint-lang
 mtr
 multipath-tools
 mutt
 mutter
 mutter-data
+mx-lang
 mx4j
 mxml
 myspell-american
@@ -3004,6 +3028,7 @@ nautilus
 nautilus-deja-dup
 nautilus-evince
 nautilus-extension-seahorse
+nautilus-extension-the-board
 nautilus-extension-tracker-tags
 nautilus-file-roller
 nautilus-open-terminal
@@ -3015,14 +3040,11 @@ nautilus-sendto-plugin-upnp
 nautilus-share
 nautilus-share-lang
 nautilus-totem
-navalbattle
 nbd
 nbd-doc
 ncftp
 ncurses-devel
 ncurses-utils
-ndesk-dbus
-ndesk-dbus-glib
 ndiswrapper
 ndiswrapper-kmp-default
 ndiswrapper-kmp-desktop
@@ -3051,6 +3073,7 @@ ntfs-3g
 ntfsprogs
 ntp
 ntp-doc
+ntrack-libnl3_x
 numlockx
 nuoveXT2-icon-theme
 nxtvepg
@@ -3081,6 +3104,7 @@ openal-soft
 openbabel
 openbox
 opencc
+opencc-data
 openconnect
 openconnect-devel
 opencv
@@ -3427,7 +3451,7 @@ perl-PostScript-Simple
 perl-Quantum-Superpositions
 perl-RPC-XML
 perl-Readonly
-perl-SDL_Perl
+perl-SDL
 perl-SGMLS
 perl-SNMP
 perl-SOAP-Lite
@@ -3499,8 +3523,6 @@ perl-qt4-devel
 perl-razor-agents
 perl-satsolver
 permissions
-pessulus
-pessulus-lang
 pfscalibration
 pfstmo
 pfstools
@@ -3626,7 +3648,6 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-pwdutils
 pwgen
 pychecker
 python
@@ -3635,7 +3656,6 @@ python-CherryPy
 python-Genshi
 python-M2Crypto
 python-Pygments
-python-SpiceClientGtk
 python-Twisted
 python-atspi
 python-base
@@ -3685,6 +3705,7 @@ python-gtksourceview
 python-httplib2
 python-imaging
 python-kde4
+python-kde4-common
 python-kde4-devel
 python-kdebase4
 python-ldap
@@ -3731,8 +3752,8 @@ python-urlgrabber
 python-virtinst
 python-virtualbox
 python-vte
-python-wxWidgets
-python-wxWidgets-lang
+python-wxWidgets-2_9
+python-wxWidgets-2_9-lang
 python-xcb-proto-devel
 python-xdg
 python-xlib
@@ -3837,7 +3858,7 @@ rubygem-hike
 rubygem-i18n
 rubygem-inifile
 rubygem-journey-1_0
-rubygem-mail
+rubygem-mail-2_4
 rubygem-mime-types
 rubygem-multi_json
 rubygem-mysql
@@ -3856,7 +3877,7 @@ rubygem-rails-i18n
 rubygem-railties-3_2
 rubygem-ruby-dbus
 rubygem-ruby-fcgi
-rubygem-sprockets-2_1
+rubygem-sprockets-2_2
 rubygem-sqlite3
 rubygem-thor
 rubygem-tilt
@@ -3884,8 +3905,6 @@ rubygem-webyast-time
 rubygem-webyast-users
 rxvt-unicode
 rzsz
-sabayon
-sabayon-lang
 sablot
 samba
 samba-client
@@ -3896,7 +3915,8 @@ sane-backends-autoconfig
 sane-backends-devel
 sash
 sax2-tools
-saxon
+saxon6
+saxon9
 sazanami-fonts
 sbl
 scim
@@ -3928,6 +3948,7 @@ setxkbmap
 sfftobmp
 sg3_utils
 sgml-skel
+shadow
 shared-color-profiles
 shared-desktop-ontologies
 shared-desktop-ontologies-devel
@@ -4017,8 +4038,8 @@ subversion-python
 subversion-server
 subversion-tools
 sudo
+suse-module-tools
 suse-xsl-stylesheets
-susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de
@@ -4050,7 +4071,6 @@ systemd-presets-branding-openSUSE
 systemd-sysvinit
 systemtap
 systemtap-runtime
-sysvinit
 sysvinit-tools
 t1lib
 tack
@@ -4090,6 +4110,8 @@ terminus-bitmap-fonts
 tftp
 tgt
 thai-fonts
+the-board
+the-board-lang
 thessalonica-oldstandard-otf-fonts
 thessalonica-theano-otf-fonts
 thryomanes-fonts
@@ -4116,7 +4138,6 @@ tkimg
 tktable
 tls
 tmpwatch
-tomahawk-kde
 tomboy
 tomboy-lang
 totem
@@ -4158,6 +4179,7 @@ typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
+typelib-1_0-Cheese-3_0
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
@@ -4208,6 +4230,7 @@ typelib-1_0-JSCore-1_0
 typelib-1_0-JSCore-3_0
 typelib-1_0-Json-1_0
 typelib-1_0-Meta-3_0
+typelib-1_0-Mx-1_0
 typelib-1_0-NMClient-1_0
 typelib-1_0-NetworkManager-1_0
 typelib-1_0-Notify-0_7
@@ -4220,6 +4243,7 @@ typelib-1_0-Rsvg-2_0
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
+typelib-1_0-TheBoard-1_0
 typelib-1_0-TotemPlParser-1_0
 typelib-1_0-Tracker-0_14
 typelib-1_0-TrackerExtract-0_14
@@ -4240,7 +4264,6 @@ ufraw-lang
 uim
 uim-gtk2
 uim-gtk3
-ulimit
 umbrello
 un-fonts
 unclutter
@@ -4260,7 +4283,6 @@ usbutils
 utempter
 utempter-devel
 util-linux
-vaapi-dummy-driver
 vaapi-intel-driver
 vacation
 vala
@@ -4277,8 +4299,6 @@ viewvc
 vim
 vim-base
 vim-data
-vinagre
-vinagre-lang
 vino
 virt-manager
 virt-utils
@@ -4408,6 +4428,7 @@ xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion
 xf86-video-sis
+xf86-video-sisusb
 xf86-video-tdfx
 xf86-video-tga
 xf86-video-v4l

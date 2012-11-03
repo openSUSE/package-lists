@@ -31,7 +31,6 @@ aaa_base
 aaa_base-extras
 acl
 acpica
-acpid
 adaptec-firmware
 akonadi
 akonadi-runtime
@@ -177,6 +176,7 @@ groff-devx
 grub
 grub2
 grub2-branding-openSUSE
+grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
@@ -449,7 +449,7 @@ libfreetype6
 libfuse2
 libgadu3
 libgbm1
-libgcc1
+libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -549,8 +549,11 @@ libltdl7
 liblua5_1
 liblzma5
 liblzo2-2
+libmagic-data
+libmagic1
 libmeanwhile1
 libmediastreamer1
+libmicrohttpd10
 libmms0
 libmng1
 libmnl0
@@ -561,11 +564,13 @@ libmpfr4
 libmsn0_3
 libmtdev1
 libmtp9
+libmusicbrainz5-0
 libmygpo-qt1
 libmysqlclient18
 libmysqld18
 libncurses5
 libncurses6
+libneon27
 libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
@@ -575,7 +580,6 @@ libnl3-200
 libnm-glib-vpn1
 libnm-glib4
 libnm-util2
-libnotify4
 libnscd
 libnsssharedhelper0
 libntfs-3g83
@@ -614,7 +618,7 @@ libportaudio2
 libppl9
 libppl_c4
 libprison0
-libprocps0
+libprocps1
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -654,7 +658,7 @@ libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
-libsnapper1
+libsnapper2
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -676,14 +680,14 @@ libtag1
 libtag_c0
 libtalloc2
 libtasn1
-libtasn1-3
+libtasn1-6
 libtdb1
 libtevent0
 libtheora0
 libtidy-0_99-0
 libtiff5
 libtirpc1
-libudev0
+libudev1
 libudisks2-0
 libupower-glib1
 libusb-0_1-4
@@ -695,11 +699,6 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
-libva-drm1
-libva-egl1
-libva-glx1
-libva-x11-1
-libva1
 libvisual
 libvmtools0
 libvorbis0
@@ -754,9 +753,9 @@ man
 master-boot-code
 mc
 mdadm
+media-player-info
 memtest86+
 microcode_ctl
-mingetty
 mkcomposecache
 mkfontdir
 mkfontscale
@@ -811,7 +810,6 @@ oxygen-icon-theme
 p7zip
 pam
 pam-config
-pam-modules
 pam_fprint
 pam_krb5
 pam_ldap
@@ -908,7 +906,6 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-pwdutils
 python
 python-base
 python-satsolver
@@ -935,6 +932,7 @@ sed
 sessreg
 setxkbmap
 sg3_utils
+shadow
 shared-desktop-ontologies
 shared-mime-info
 showfont
@@ -967,7 +965,6 @@ syslog-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
-sysvinit
 sysvinit-tools
 taglib
 tar
@@ -976,13 +973,11 @@ tcpd
 terminfo-base
 tightvnc
 timezone
-tomahawk-kde
 translation-update
 tunctl
 twm
 udev
 udisks2
-ulimit
 unscd
 unzip
 update-alternatives
@@ -994,7 +989,6 @@ usbmuxd
 usbutils
 utempter
 util-linux
-vaapi-dummy-driver
 vaapi-intel-driver
 viewres
 vim

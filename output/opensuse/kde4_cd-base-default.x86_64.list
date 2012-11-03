@@ -1,11 +1,9 @@
-ConsoleKit
 DirectFB
 SuSEfirewall2
 aaa_base
 aaa_base-extras
 acl
 acpica
-acpid
 alsa-plugins
 attr
 augeas-lenses
@@ -82,6 +80,7 @@ gpm
 grep
 groff
 groff-devx
+grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gxditview
@@ -152,7 +151,7 @@ libext2fs2
 libffi47
 libfreetype6
 libfuse2
-libgcc1
+libgcc_s1
 libgcrypt11
 libgdbm4
 libgio-2_0-0
@@ -183,6 +182,9 @@ libldapcpp1
 liblua5_1
 liblzma5
 liblzo2-2
+libmagic-data
+libmagic1
+libmicrohttpd10
 libmodman1
 libmount1
 libncurses5
@@ -191,7 +193,6 @@ libncurses6
 libnettle4
 libnfnetlink0
 libnl-1_1
-libnscd
 libntfs-3g83
 libnuma1
 libopenssl1_0_0
@@ -211,12 +212,13 @@ libply2
 libpng15-15
 libpolkit0
 libpopt0
-libprocps0
+libprocps1
 libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-webkit
 libpth20
 libpython2_7-1_0
+libqrencode3
 libreadline6
 libreiserfs-0_3-0
 libselinux1
@@ -229,10 +231,10 @@ libstdc++6
 libstorage4
 libtalloc2
 libtasn1
-libtasn1-3
+libtasn1-6
 libtiff5
 libtirpc1
-libudev0
+libudev1
 libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
@@ -269,7 +271,6 @@ man
 master-boot-code
 mdadm
 microcode_ctl
-mingetty
 mkinitrd
 module-init-tools
 mtools
@@ -293,7 +294,6 @@ openssl
 os-prober
 pam
 pam-config
-pam-modules
 pango-tools
 parted
 pciutils
@@ -339,7 +339,6 @@ ppp
 pptp
 procps
 psmisc
-pwdutils
 python
 python-base
 python-satsolver
@@ -353,6 +352,7 @@ rsyslog
 scout
 sed
 sg3_utils
+shadow
 shared-mime-info
 smp_utils
 splashy
@@ -360,13 +360,13 @@ splashy-branding-openSUSE
 splashy-mkinitrd
 strace
 sudo
+suse-module-tools
 sysconfig
 sysfsutils
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
-sysvinit
 sysvinit-tools
 tar
 tcpd
@@ -374,7 +374,6 @@ terminfo-base
 timezone
 tunctl
 udev
-ulimit
 unscd
 unzip
 update-alternatives

@@ -10,7 +10,6 @@ aaa_base
 aaa_base-extras
 acl
 acpica
-acpid
 alsa
 alsa-oss
 alsa-plugins
@@ -107,6 +106,7 @@ gpm
 grep
 groff
 groff-devx
+grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gxditview
@@ -215,7 +215,7 @@ libfontenc1
 libfreetype6
 libfuse2
 libgbm1
-libgcc1
+libgcc_s1
 libgcrypt11
 libgdbm4
 libgio-2_0-0
@@ -249,6 +249,9 @@ libldapcpp1
 liblua5_1
 liblzma5
 liblzo2-2
+libmagic-data
+libmagic1
+libmicrohttpd10
 libmodman1
 libmount1
 libmpc3
@@ -259,7 +262,6 @@ libncurses6
 libnettle4
 libnfnetlink0
 libnl-1_1
-libnscd
 libntfs-3g83
 libopenssl1_0_0
 libp11-kit0
@@ -281,14 +283,16 @@ libpolkit0
 libpopt0
 libppl9
 libppl_c4
-libprocps0
+libprocps1
 libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-webkit
 libpth20
 libpython2_7-1_0
+libqrencode3
 libreadline6
 libreiserfs-0_3-0
+libsamplerate0
 libselinux1
 libsemanage1
 libsepol1
@@ -299,21 +303,16 @@ libstdc++6
 libstorage4
 libtalloc2
 libtasn1
-libtasn1-3
+libtasn1-6
 libtiff5
 libtirpc1
-libudev0
+libudev1
 libupower-glib1
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
 libuuid1
-libva-drm1
-libva-egl1
-libva-glx1
-libva-x11-1
-libva1
 libwbclient0
 libx86-1
 libx86emu1
@@ -353,7 +352,6 @@ man
 master-boot-code
 mdadm
 microcode_ctl
-mingetty
 mkcomposecache
 mkfontdir
 mkfontscale
@@ -381,7 +379,6 @@ openssl
 os-prober
 pam
 pam-config
-pam-modules
 pango-tools
 parted
 pciutils
@@ -428,7 +425,6 @@ pptp
 procps
 proxymngr
 psmisc
-pwdutils
 python
 python-base
 python-satsolver
@@ -448,6 +444,7 @@ sed
 sessreg
 setxkbmap
 sg3_utils
+shadow
 shared-mime-info
 showfont
 smp_utils
@@ -457,13 +454,13 @@ splashy-branding-openSUSE
 splashy-mkinitrd
 strace
 sudo
+suse-module-tools
 sysconfig
 sysfsutils
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
-sysvinit
 sysvinit-tools
 tar
 tcpd
@@ -474,7 +471,6 @@ translation-update
 tunctl
 twm
 udev
-ulimit
 unscd
 unzip
 update-alternatives
@@ -483,7 +479,6 @@ usbmuxd
 usbutils
 utempter
 util-linux
-vaapi-dummy-driver
 vaapi-intel-driver
 viewres
 vim
@@ -544,6 +539,7 @@ xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion
 xf86-video-sis
+xf86-video-sisusb
 xf86-video-tdfx
 xf86-video-tga
 xf86-video-v4l
