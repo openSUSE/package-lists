@@ -27,6 +27,7 @@ PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SuSEfirewall2
+a2ps
 aaa_base
 aaa_base-extras
 acl
@@ -42,6 +43,7 @@ alsa-plugins-pulse
 alsa-utils
 amarok
 apper
+appmenu-qt
 appres
 ark
 aspell
@@ -89,6 +91,8 @@ crda
 cron
 cronie
 cryptsetup
+cryptsetup-mkinitrd
+cups
 cups-client
 cups-libs
 curl
@@ -137,6 +141,7 @@ findutils
 fontconfig
 fonts-config
 fonttosfnt
+foomatic-filters
 fslsfonts
 fstobdf
 gawk
@@ -153,7 +158,6 @@ genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
-ggz-client-libs
 ghostscript-fonts-std
 gio-branding-openSUSE
 girepository-1_0
@@ -170,6 +174,7 @@ google-droid-fonts
 gpart
 gpg2
 gpm
+gptfdisk
 grep
 groff
 groff-devx
@@ -217,7 +222,7 @@ info
 info2html
 initviocons
 input-utils
-insserv
+insserv-compat
 intel-gpu-tools
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -249,8 +254,6 @@ kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-plasma-calendar
-kdebase4-workspace-plasma-engine-akonadi
-kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
@@ -418,7 +421,7 @@ libdbus-1-3
 libdbusmenu-qt2
 libdconf1
 libdhash1
-libdirectfb-1_4-6
+libdirectfb-1_6-0
 libdmtx0
 libdmx1
 libdnet1
@@ -440,7 +443,7 @@ libexiv2-12
 libexpat1
 libext2fs2
 libfam0
-libffi47
+libffi4
 libfftw3-3
 libfontenc1
 libfprint0
@@ -456,7 +459,6 @@ libgcr-3-1
 libgcrypt11
 libgdbm4
 libgdk_pixbuf-2_0-0
-libggz2
 libgif4
 libgio-2_0-0
 libgiomm-2_4-1
@@ -476,6 +478,7 @@ libgpod-tools
 libgpod4
 libgps20
 libgrantlee_core0
+libgrantlee_gui0
 libgsm1
 libgssglue1
 libgstapp-0_10-0
@@ -517,16 +520,18 @@ libkcddb4
 libkcompactdisc4
 libkde4
 libkdecore4
-libkdegames4
+libkdegames
+libkdegames6
 libkdepim4
 libkdepimlibs4
 libkerfuffle4
 libkexiv2-11
 libkeyutils1
 libkgapi0
-libkipi9
+libkipi10
+libkmahjongg
+libkmahjongglib4
 libkmod2
-libkms1
 libkolab0
 libkolabxml0
 libkonq5
@@ -571,6 +576,7 @@ libmysqld18
 libncurses5
 libncurses6
 libneon27
+libnepomukwidgets4
 libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
@@ -583,9 +589,12 @@ libnm-util2
 libnscd
 libnsssharedhelper0
 libntfs-3g83
+libntrack-qt4-1
+libntrack0
 libogg0
 liboggkate1
-libopenal1-soft
+libopenal1
+libopenjpeg1
 libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
@@ -613,6 +622,8 @@ libply2
 libpng15-15
 libpolkit-qt-1-1
 libpolkit0
+libpoppler-qt4-4
+libpoppler34
 libpopt0
 libportaudio2
 libppl9
@@ -710,6 +721,7 @@ libwebrtc_audio_processing0
 libx86-1
 libx86emu1
 libxatracker1
+libxcb-damage0
 libxcb-dri2-0
 libxcb-glx0
 libxcb-randr0
@@ -788,6 +800,7 @@ nss_ldap
 ntfs-3g
 ntfsprogs
 ntp
+ntrack-libnl3_x
 numlockx
 obex-data-server
 obexd
@@ -815,6 +828,7 @@ pam_krb5
 pam_ldap
 pam_mount
 pango-tools
+parallel-printer-support
 parted
 patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
@@ -890,6 +904,7 @@ polkit
 polkit-default-privs
 polkit-kde-agent-1
 polkit-kde-kcmmodules-1
+poppler-tools
 postfix
 ppp
 pptp
@@ -954,6 +969,7 @@ sssd
 strace
 strigi
 sudo
+suse-module-tools
 susegreeter-branding-openSUSE
 susehelp
 susehelp_en
@@ -1002,7 +1018,9 @@ vlan
 vmware-guest-kmp-default
 vorbis-tools
 vpnc
+w3m
 wallpaper-branding-openSUSE
+wdiff
 wget
 wireless-regdb
 wireless-tools
@@ -1061,6 +1079,7 @@ xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion
 xf86-video-sis
+xf86-video-sisusb
 xf86-video-tdfx
 xf86-video-tga
 xf86-video-v4l

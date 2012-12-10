@@ -60,9 +60,6 @@ PackageKit-gtk3-module
 PgTcl
 QtZeitgeist-devel
 SuSEfirewall2
-Terminal
-Terminal-doc
-Terminal-lang
 WindowMaker
 WindowMaker-applets
 WindowMaker-themes
@@ -210,6 +207,7 @@ autoyast2
 autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
+avalon-framework
 avogadro
 avogadro-devel
 awesfx
@@ -262,7 +260,6 @@ boost-devel
 boost-jam
 boost-license1_49_0
 bootcycle
-bootsplash-branding-openSUSE
 bovo
 branding-openSUSE
 brasero
@@ -361,6 +358,7 @@ chmlib-devel
 choqok
 cifs-utils
 circuslinux
+ckermit
 clamav
 claws-mail
 claws-mail-lang
@@ -400,6 +398,7 @@ cron
 cronie
 cryptconfig
 cryptsetup
+cryptsetup-mkinitrd
 cscope
 csmash
 ctags
@@ -538,10 +537,6 @@ evolution-data-server
 evolution-data-server-devel
 evolution-ews
 evolution-ews-lang
-excalibur
-excalibur-avalon-framework-api
-excalibur-avalon-framework-impl
-excalibur-avalon-logkit
 exif
 exiftool
 exo-branding-openSUSE
@@ -550,6 +545,8 @@ exo-lang
 exo-tools
 expect
 expect-devel
+f-spot
+f-spot-lang
 fam
 fam-devel
 farstream-data
@@ -562,6 +559,7 @@ fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
 fcitx-libpinyin
+fcitx-mozc
 fcitx-pinyin
 fcitx-qt4
 fcitx-sunpinyin
@@ -582,6 +580,7 @@ finger
 flac
 flac-devel
 flex
+flickrnet
 flim
 font-util
 fontconfig
@@ -682,6 +681,7 @@ gfxboot-branding-openSUSE
 gfxboot-devel
 ggz-client-libs
 ggz-client-libs-devel
+ggz-client-libs-lang
 ghex
 ghex-lang
 ghostscript
@@ -698,10 +698,7 @@ gimp-branding-openSUSE
 gimp-help
 gimp-help-browser
 gimp-help-de
-gimp-help-es
-gimp-help-ja
 gimp-help-ru
-gimp-help-zh
 gimp-lang
 gimp-plugins-python
 gimp-ufraw
@@ -754,7 +751,6 @@ gnibbles-lang
 gnobots2
 gnobots2-lang
 gnokii
-gnokii-lang
 gnome-applets
 gnome-applets-lang
 gnome-backgrounds
@@ -780,6 +776,8 @@ gnome-dictionary
 gnome-disk-utility
 gnome-do
 gnome-do-lang
+gnome-do-plugins
+gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-doc-utils-lang
@@ -822,6 +820,9 @@ gnome-settings-daemon
 gnome-sharp2
 gnome-shell
 gnome-shell-browser-plugin
+gnome-shell-extension-alternative-status-menu
+gnome-shell-extensions-common
+gnome-shell-extensions-common-lang
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
@@ -868,6 +869,7 @@ gpgme
 gpm
 gpsd
 gpsd-devel
+gptfdisk
 grantlee-devel
 graphviz
 graphviz-gd
@@ -901,6 +903,7 @@ gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugin-gnonlin
 gstreamer-0_10-plugins-bad
+gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
@@ -930,6 +933,7 @@ gtk-sharp2
 gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
+gtk-vnc-lang
 gtk-vnc2-lang
 gtk2-branding-openSUSE
 gtk2-data
@@ -1031,6 +1035,8 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
 ibus-m17n
+ibus-mozc
+ibus-mozc-candidate-window
 ibus-pinyin
 ibus-qt
 ibus-sunpinyin
@@ -1090,7 +1096,7 @@ inkscape-extensions-gimp
 inkscape-lang
 inn
 input-utils
-insserv
+insserv-compat
 inst-source-utils
 install-initrd
 install-initrd-branding-openSUSE
@@ -1105,15 +1111,9 @@ intltool
 iodbc
 ipa-ex-gothic-fonts
 ipa-ex-mincho-fonts
-ipa-gothic-bold-fonts
-ipa-gothic-bolditalic-fonts
 ipa-gothic-fonts
-ipa-gothic-italic-fonts
 ipa-mincho-fonts
-ipa-pgothic-bold-fonts
-ipa-pgothic-bolditalic-fonts
 ipa-pgothic-fonts
-ipa-pgothic-italic-fonts
 ipa-pmincho-fonts
 ipa-uigothic-fonts
 ipadic
@@ -1166,6 +1166,7 @@ jakarta-commons-pool
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_7_0-openjdk
+java-1_7_0-openjdk-devel
 java-ca-certificates
 javacc
 jdepend
@@ -1252,15 +1253,16 @@ kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
-kdebase4-runtime-branding-upstream
+kdebase4-runtime-branding-openSUSE
 kdebase4-session
 kdebase4-workspace
-kdebase4-workspace-branding-upstream
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-plasma-calendar
 kdebindings-smokegen
+kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
@@ -1318,8 +1320,6 @@ kio_audiocd
 kio_iso
 kio_kamera
 kio_svn
-kio_sysinfo
-kio_sysinfo-branding-openSUSE
 kiosktool
 kiosktool-lang
 kipi-plugins
@@ -1398,7 +1398,6 @@ ksquares
 ksshaskpass
 kstars
 ksudoku
-ksymoops
 ksystemlog
 kteatime
 ktimer
@@ -1409,6 +1408,7 @@ kturtle
 ktux
 kubrick
 kvkbd
+kvm
 kwalletmanager
 kwebkitpart
 kwin
@@ -1597,6 +1597,7 @@ libavahi-glib1
 libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
+libavahi-ui-gtk3-0
 libavc1394-0
 libavogadro1
 libavutil51
@@ -1643,6 +1644,7 @@ libbz2-1
 libbz2-devel
 libc-client2007e_suse
 libcaca0
+libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
@@ -1723,7 +1725,7 @@ libdconf1
 libdee-1_0-4
 libdhash1
 libdirac_encoder0
-libdirectfb-1_4-6
+libdirectfb-1_6-0
 libdiscid0
 libdjvulibre-devel
 libdjvulibre21
@@ -1792,7 +1794,7 @@ libfam0
 libfarstream-0_2-2
 libfcitx-4_2_6
 libfdt1
-libffi47
+libffi4
 libffi47-devel
 libfftw3-3
 libfftw3_threads3
@@ -1800,7 +1802,7 @@ libfli-devel
 libfli1
 libfltk1
 libfm
-libfm-gtk3
+libfm-gtk3-3
 libfm3
 libfolks-data
 libfolks-eds25
@@ -1922,7 +1924,7 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-0
 libgobject-2_0-0
-libgoffice-0_10-9
+libgoffice-0_10-10
 libgoffice-0_8-8
 libgomp1
 libgoocanvas3
@@ -1975,6 +1977,7 @@ libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgtk-vnc-1_0-0
+libgtk-vnc-2_0-0
 libgtkhex-3-0
 libgtkhotkey1
 libgtkhtml-4_0-0
@@ -2149,6 +2152,8 @@ liblzx0
 libm17n0
 libmagic-data
 libmagic1
+libmal-devel
+libmal1
 libmarblewidget15
 libmcrypt
 libmeanwhile1
@@ -2156,7 +2161,7 @@ libmediastreamer1
 libmediawiki-devel
 libmediawiki1
 libmemphis-0_2-0
-libmenu-cache1
+libmenu-cache2
 libmicrohttpd10
 libmikmod2
 libminiupnpc8
@@ -2245,9 +2250,9 @@ liboldX-devel
 liboldX6
 libonig2
 libopagent1
-libopal3_10_7
+libopal3_10_9
 libopenais3
-libopenal1-soft
+libopenal1
 libopenbabel-devel
 libopenbabel4
 libopencc1
@@ -2331,7 +2336,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt4-devel
-libpoppler30
+libpoppler34
 libpopt0
 libportaudio2
 libppl9
@@ -2342,6 +2347,7 @@ libpqxx-devel
 libprison-devel
 libprison0
 libprocps1
+libprotobuf7
 libproxy-devel
 libproxy1
 libproxy1-config-gnome3
@@ -2559,6 +2565,9 @@ libspeechd-devel
 libspeechd2
 libspeex1
 libspeexdsp1
+libspice-client-glib-2_0-8
+libspice-client-gtk-2_0-4
+libspice-client-gtk-3_0-4
 libspice-server1
 libsqlite3-0
 libssh-devel
@@ -2626,6 +2635,8 @@ libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd-devel
 libusbmuxd2
+libusbredirhost1
+libusbredirparser1
 libustr-1_0-1
 libuuid-devel
 libuuid1
@@ -2758,7 +2769,6 @@ libxml2-tools
 libxmmsclient-glib1
 libxmmsclient6
 libxslt-devel
-libxslt-python
 libxslt-tools
 libxslt1
 libxtables9
@@ -2777,6 +2787,7 @@ libyui4
 libz1
 libzapojit-0_0-0
 libzeitgeist-1_0-1
+libzinnia0
 libzio1
 libzip-devel
 libzip2
@@ -2872,6 +2883,7 @@ manufacturer-PPDs
 marble
 marble-data
 marble-devel
+marble-doc
 master-boot-code
 mc
 mdadm
@@ -2921,16 +2933,17 @@ mono-mvc
 mono-nunit
 mono-qt4
 mono-qt4-devel
-mono-tools
 mono-wcf
 mono-web
 mono-winforms
+mono-winfxcore
 mono-zeroconf
 mono-zeroconf-provider-avahi
-monodevelop
 monodoc-core
 moodbar
 mousetweaks
+mozc
+mozc-gui-tools
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nspr-devel
@@ -3045,12 +3058,15 @@ nbd-doc
 ncftp
 ncurses-devel
 ncurses-utils
+ndesk-dbus
+ndesk-dbus-glib
 ndiswrapper
 ndiswrapper-kmp-default
 ndiswrapper-kmp-desktop
 nemiver
 nemiver-lang
 nepomuk-core
+nepomuk-core-devel
 net-snmp
 net-snmp-devel
 net-tools
@@ -3284,6 +3300,7 @@ pdfmod
 pdfmod-lang
 perl
 perl-Algorithm-Diff
+perl-Alien-SDL
 perl-Apache-AuthCookie
 perl-Apache-AuthNetLDAP
 perl-Apache-DBI
@@ -3301,6 +3318,7 @@ perl-Bootloader
 perl-CDDB_get
 perl-CGI-Application
 perl-Cairo
+perl-Capture-Tiny
 perl-Carp-Assert
 perl-Carp-Clan
 perl-Chart
@@ -3313,6 +3331,7 @@ perl-Class-MethodMaker
 perl-Class-Multimethods
 perl-Class-WhiteHole
 perl-Clone
+perl-Compress-Bzip2
 perl-Config-Crontab
 perl-Config-General
 perl-Config-IniFiles
@@ -3357,8 +3376,10 @@ perl-ExtUtils-PkgConfig
 perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
+perl-File-ShareDir
 perl-File-Tail
 perl-File-Type
+perl-File-Which
 perl-FileHandle-Unget
 perl-Finance-Quote
 perl-Font-AFM
@@ -3396,11 +3417,14 @@ perl-IO-Stty
 perl-IO-stringy
 perl-IP-Country
 perl-IPC-Run
+perl-IPC-Run3
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
 perl-LWP-MediaTypes
+perl-Lingua-EN-Sentence
 perl-List-MoreUtils
+perl-Locale-Maketext-Lexicon
 perl-Log-Dispatch
 perl-Log-Log4perl
 perl-MIME-Lite
@@ -3438,6 +3462,7 @@ perl-Net-XMPP
 perl-NetAddr-IP
 perl-NetxAP
 perl-PDA-Pilot
+perl-PPI
 perl-Pango
 perl-Params-Util
 perl-Params-Validate
@@ -3448,6 +3473,7 @@ perl-PlRPC
 perl-Pod-HtmlPsPdf
 perl-Pod-POM
 perl-PostScript-Simple
+perl-Probe-Perl
 perl-Quantum-Superpositions
 perl-RPC-XML
 perl-Readonly
@@ -3470,6 +3496,7 @@ perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
+perl-Test-Script
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
@@ -3478,6 +3505,7 @@ perl-Text-Iconv
 perl-Text-Kakasi
 perl-Tie-Cache
 perl-Tie-IxHash
+perl-Tie-Simple
 perl-Time-Duration
 perl-Time-Period
 perl-Time-modules
@@ -3614,11 +3642,12 @@ posix_cc
 poster
 postfix
 postfix-doc
-postgresql
-postgresql-contrib
-postgresql-devel
-postgresql-docs
-postgresql-server
+postgresql-init
+postgresql92
+postgresql92-contrib
+postgresql92-devel
+postgresql92-docs
+postgresql92-server
 pothana2000-fonts
 powertop
 ppp
@@ -3656,6 +3685,7 @@ python-CherryPy
 python-Genshi
 python-M2Crypto
 python-Pygments
+python-SpiceClientGtk
 python-Twisted
 python-atspi
 python-base
@@ -3761,8 +3791,8 @@ python-xml
 python-yum
 python-zope.interface
 python-zypp
+python3
 python3-base
-python3-xml
 qemu
 qemu-linux-user
 qemu-tools
@@ -4040,6 +4070,7 @@ subversion-tools
 sudo
 suse-module-tools
 suse-xsl-stylesheets
+susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de
@@ -4299,6 +4330,8 @@ viewvc
 vim
 vim-base
 vim-data
+vinagre
+vinagre-lang
 vino
 virt-manager
 virt-utils
@@ -4332,8 +4365,6 @@ w3m
 w3m-el
 wallpaper-branding-openSUSE
 wdiff
-wdiff-lang
-webkit-sharp
 webyast-base
 webyast-base-branding-default
 wget
@@ -4344,6 +4375,7 @@ wine-gecko
 wireless-regdb
 wireless-tools
 wireshark
+wnck-sharp
 wodim
 wol
 wondershaper
@@ -4521,6 +4553,8 @@ xfce4-settings-lang
 xfce4-splash-branding-openSUSE
 xfce4-taskmanager
 xfce4-taskmanager-lang
+xfce4-terminal
+xfce4-terminal-lang
 xfce4-vala
 xfconf
 xfconf-lang
@@ -4806,6 +4840,8 @@ zd1211-firmware
 zeitgeist
 zeitgeist-datahub
 zenity
+zinnia
+zinnia-tomoe
 zip
 zisofs-tools
 zlib-devel

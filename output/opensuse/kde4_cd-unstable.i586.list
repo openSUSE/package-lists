@@ -4,7 +4,6 @@ DirectFB
 DirectFB-Mesa
 LibVNCServer
 Mesa
-Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLESv2-2
@@ -25,6 +24,7 @@ PackageKit-branding-basedonopensuse
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SuSEfirewall2
+a2ps
 aaa_base
 aaa_base-extras
 acl
@@ -65,7 +65,6 @@ bluedevil
 bluez
 bluez-firmware
 boost-license1_49_0
-bootsplash-branding-basedonopensuse
 branding-basedonopensuse
 bridge-utils
 btrfsprogs
@@ -89,6 +88,8 @@ crda
 cron
 cronie
 cryptsetup
+cryptsetup-mkinitrd
+cups
 cups-client
 cups-libs
 curl
@@ -135,6 +136,7 @@ findutils
 fontconfig
 fonts-config
 fonttosfnt
+foomatic-filters
 fslsfonts
 fstobdf
 gawk
@@ -151,8 +153,6 @@ genisoimage
 gettext-runtime
 gfxboot
 gfxboot-branding-basedonopensuse
-ggz-client-libs
-ggz-client-libs-lang
 ghostscript-fonts-std
 gio-branding-basedonopensuse
 girepository-1_0
@@ -169,6 +169,7 @@ google-droid-fonts
 gpart
 gpg2
 gpm
+gptfdisk
 grep
 groff
 groff-devx
@@ -216,7 +217,7 @@ info
 info2html
 initviocons
 input-utils
-insserv
+insserv-compat
 intel-gpu-tools
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -249,6 +250,7 @@ kdebase4-workspace-branding-basedonopensuse
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-plasma-calendar
+kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-basedonopensuse
 kdelibs4-core
@@ -271,8 +273,6 @@ kgpg
 kio_audiocd
 kio_iso
 kio_kamera
-kio_sysinfo
-kio_sysinfo-branding-basedonopensuse
 klogd
 kmag
 kmahjongg
@@ -411,7 +411,7 @@ libdb-4_8
 libdbus-1-3
 libdbusmenu-qt2
 libdconf1
-libdirectfb-1_4-6
+libdirectfb-1_6-0
 libdmtx0
 libdmx1
 libdrm2
@@ -432,7 +432,7 @@ libexiv2-12
 libexpat1
 libext2fs2
 libfam0
-libffi47
+libffi4
 libfftw3-3
 libfontenc1
 libfprint0
@@ -448,7 +448,6 @@ libgcr-3-1
 libgcrypt11
 libgdbm4
 libgdk_pixbuf-2_0-0
-libggz2
 libgif4
 libgio-2_0-0
 libgirepository-1_0-1
@@ -519,7 +518,6 @@ libkipi10
 libkmahjongg
 libkmahjongglib4
 libkmod2
-libkms1
 libkolab0
 libkolabxml0
 libkonq5
@@ -580,7 +578,7 @@ libntrack-qt4-1
 libntrack0
 libogg0
 liboggkate1
-libopenal1-soft
+libopenal1
 libopenjpeg1
 libopenobex1
 libopenssl1_0_0
@@ -608,7 +606,7 @@ libpng15-15
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-4
-libpoppler30
+libpoppler34
 libpopt0
 libportaudio2
 libppl9
@@ -799,6 +797,7 @@ pam_fprint
 pam_krb5
 pam_ldap
 pango-tools
+parallel-printer-support
 parted
 patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
@@ -870,6 +869,7 @@ polkit
 polkit-default-privs
 polkit-kde-agent-1
 polkit-kde-kcmmodules-1
+poppler-tools
 postfix
 ppp
 pptp
@@ -978,7 +978,9 @@ virtuoso-server
 vlan
 vorbis-tools
 vpnc
+w3m
 wallpaper-branding-basedonopensuse
+wdiff
 wget
 wireless-regdb
 wireless-tools

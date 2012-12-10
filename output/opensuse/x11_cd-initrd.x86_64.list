@@ -21,6 +21,7 @@ crda
 cron
 cronie
 cryptsetup
+cryptsetup-mkinitrd
 cups-libs
 curl
 cyrus-sasl
@@ -66,6 +67,7 @@ gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
 gpg2
+gptfdisk
 grep
 grub
 gsettings-backend-dconf
@@ -89,7 +91,7 @@ hicolor-icon-theme-branding-openSUSE
 hwinfo
 info
 initviocons
-insserv
+insserv-compat
 iproute2
 kbd
 kernel-default
@@ -152,7 +154,7 @@ libelf1
 libexif12
 libexpat1
 libext2fs2
-libffi47
+libffi4
 libfreetype6
 libfuse2
 libgcc_s1
@@ -261,7 +263,6 @@ libxcb-render0
 libxcb-shm0
 libxcb1
 libxml2-2
-libxtables9
 libyui-gtk-pkg4
 libyui-gtk4
 libyui-ncurses4

@@ -6,8 +6,10 @@ ImageMagick
 Mesa
 Mesa-libEGL1
 Mesa-libGL1
+Mesa-libGLESv2-2
 Mesa-libglapi0
 SuSEfirewall2
+a2ps
 aaa_base
 aaa_base-extras
 acl
@@ -60,6 +62,8 @@ crda
 cron
 cronie
 cryptsetup
+cryptsetup-mkinitrd
+cups
 cups-client
 cups-libs
 curl
@@ -103,6 +107,7 @@ findutils
 fontconfig
 fonts-config
 fonttosfnt
+foomatic-filters
 fslsfonts
 fstobdf
 fuse
@@ -139,6 +144,7 @@ gnu-unifont-bitmap-fonts
 gpart
 gpg2
 gpm
+gptfdisk
 grep
 groff
 groff-devx
@@ -187,7 +193,7 @@ info
 info2html
 initviocons
 input-utils
-insserv
+insserv-compat
 intel-gpu-tools
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -297,7 +303,7 @@ libdb-4_8
 libdbus-1-3
 libdconf1
 libdhash1
-libdirectfb-1_4-6
+libdirectfb-1_6-0
 libdmx1
 libdnet1
 libdrm2
@@ -314,7 +320,7 @@ libevent-2_0-5
 libexif12
 libexpat1
 libext2fs2
-libffi47
+libffi4
 libfontenc1
 libfprint0
 libfreebl3
@@ -365,7 +371,6 @@ libjpeg8
 libjson0
 libkeyutils1
 libkmod2
-libkms1
 libksba8
 liblbxutil1
 liblcms1
@@ -394,9 +399,12 @@ libncurses6
 libnettle4
 libnfnetlink0
 libnl-1_1
+libnl-config
+libnl3-200
 libnscd
 libntfs-3g83
 libnuma1
+libopenjpeg1
 libopenobex1
 libopenssl1_0_0
 libp11-kit0
@@ -417,6 +425,7 @@ libply-splash-graphics2
 libply2
 libpng15-15
 libpolkit0
+libpoppler34
 libpopt0
 libportaudio2
 libppl9
@@ -568,6 +577,7 @@ pam_krb5
 pam_ldap
 pam_mount
 pango-tools
+parallel-printer-support
 parted
 patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
@@ -618,6 +628,7 @@ pm-utils
 pm-utils-ndiswrapper
 polkit
 polkit-default-privs
+poppler-tools
 postfix
 ppp
 pptp
@@ -707,7 +718,9 @@ virtualbox-guest-tools
 virtualbox-guest-x11
 vlan
 vmware-guest-kmp-desktop
+w3m
 wallpaper-branding-openSUSE
+wdiff
 wget
 wireless-regdb
 wireless-tools

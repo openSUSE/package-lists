@@ -55,9 +55,6 @@ PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SuSEfirewall2
-Terminal
-Terminal-doc
-Terminal-lang
 a2ps
 aaa_base
 aaa_base-extras
@@ -220,7 +217,6 @@ boost-devel
 boost-jam
 boost-license1_49_0
 bootcycle
-bootsplash-branding-openSUSE
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -335,6 +331,7 @@ createrepo
 cron
 cronie
 cryptsetup
+cryptsetup-mkinitrd
 ctags
 cups
 cups-backends
@@ -454,6 +451,7 @@ fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
 fcitx-libpinyin
+fcitx-mozc
 fcitx-pinyin
 fcitx-qt4
 fcitx-sunpinyin
@@ -545,6 +543,7 @@ gfxboot-branding-openSUSE
 gfxboot-devel
 ggz-client-libs
 ggz-client-libs-devel
+ggz-client-libs-lang
 ghostscript
 ghostscript-cjk
 ghostscript-fonts-other
@@ -601,7 +600,6 @@ gnibbles-lang
 gnobots2
 gnobots2-lang
 gnokii
-gnokii-lang
 gnome-applets
 gnome-applets-lang
 gnome-bluetooth
@@ -655,6 +653,9 @@ gnome-session-fallback-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-browser-plugin
+gnome-shell-extension-alternative-status-menu
+gnome-shell-extensions-common
+gnome-shell-extensions-common-lang
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
@@ -696,6 +697,7 @@ gperf
 gpg2
 gpgme
 gpm
+gptfdisk
 grep
 grilo-plugin-tracker
 grilo-plugin-upnp
@@ -718,6 +720,7 @@ gstreamer-0_10-devel
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-bad
+gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
@@ -739,6 +742,7 @@ gtali-lang
 gtk-doc
 gtk-sharp-beans
 gtk-sharp2
+gtk-vnc-lang
 gtk-vnc2-lang
 gtk2-branding-openSUSE
 gtk2-data
@@ -822,6 +826,8 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
 ibus-m17n
+ibus-mozc
+ibus-mozc-candidate-window
 ibus-pinyin
 ibus-qt
 ibus-sunpinyin
@@ -866,7 +872,7 @@ inkscape-extensions-gimp
 inkscape-lang
 inn
 input-utils
-insserv
+insserv-compat
 intel-gpu-tools
 intlfonts
 intlfonts-chinese-big-bitmap-fonts
@@ -877,15 +883,9 @@ intlfonts-japanese-bitmap-fonts
 intltool
 ipa-ex-gothic-fonts
 ipa-ex-mincho-fonts
-ipa-gothic-bold-fonts
-ipa-gothic-bolditalic-fonts
 ipa-gothic-fonts
-ipa-gothic-italic-fonts
 ipa-mincho-fonts
-ipa-pgothic-bold-fonts
-ipa-pgothic-bolditalic-fonts
 ipa-pgothic-fonts
-ipa-pgothic-italic-fonts
 ipa-pmincho-fonts
 ipa-uigothic-fonts
 iproute2
@@ -997,14 +997,15 @@ kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
-kdebase4-runtime-branding-upstream
+kdebase4-runtime-branding-openSUSE
 kdebase4-session
 kdebase4-workspace
-kdebase4-workspace-branding-upstream
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-plasma-calendar
+kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
@@ -1050,8 +1051,6 @@ kio_audiocd
 kio_iso
 kio_kamera
 kio_svn
-kio_sysinfo
-kio_sysinfo-branding-openSUSE
 kiosktool
 kiosktool-lang
 kipi-plugins
@@ -1107,10 +1106,10 @@ ksplashx-branding-openSUSE
 ksshaskpass
 kstars
 ksudoku
-ksymoops
 ktorrent
 ktouch
 kvkbd
+kvm
 kwalletmanager
 kwebkitpart
 kwin
@@ -1304,6 +1303,7 @@ libavahi-glib1
 libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
+libavahi-ui-gtk3-0
 libavogadro1
 libavutil51
 libbabl-0_1-0
@@ -1344,6 +1344,7 @@ libbrasero-utils3-1
 libbrlapi0_5
 libbz2-1
 libbz2-devel
+libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
@@ -1418,7 +1419,7 @@ libdc1394-22
 libdconf1
 libdhash1
 libdirac_encoder0
-libdirectfb-1_4-6
+libdirectfb-1_6-0
 libdiscid0
 libdjvulibre21
 libdmapsharing-3_0-2
@@ -1474,12 +1475,12 @@ libfam0
 libfarstream-0_2-2
 libfcitx-4_2_6
 libfdt1
-libffi47
-libffi47-32bit
+libffi4
+libffi4-32bit
 libffi47-devel
 libfftw3-3
 libfm
-libfm-gtk3
+libfm-gtk3-3
 libfm3
 libfolks-data
 libfolks-eds25
@@ -1588,7 +1589,7 @@ libgoa-1_0-0
 libgoa-backend-1_0-0
 libgobject-2_0-0
 libgobject-2_0-0-32bit
-libgoffice-0_10-9
+libgoffice-0_10-10
 libgoffice-0_8-8
 libgomp1
 libgooglepinyin0
@@ -1641,6 +1642,7 @@ libgthread-2_0-0-32bit
 libgtk-2_0-0
 libgtk-3-0
 libgtk-vnc-1_0-0
+libgtk-vnc-2_0-0
 libgtkhtml-4_0-0
 libgtkhtml-editor-4_0-0
 libgtkmm-2_4-1
@@ -1787,12 +1789,14 @@ libm17n0
 libm17n0-32bit
 libmagic-data
 libmagic1
+libmal-devel
+libmal1
 libmarblewidget15
 libmeanwhile1
 libmediastreamer1
 libmediawiki1
 libmemphis-0_2-0
-libmenu-cache1
+libmenu-cache2
 libmicrohttpd10
 libminiupnpc8
 libmission-control-plugins0
@@ -1866,8 +1870,8 @@ libogg0
 liboggkate1
 liboldX-devel
 liboldX6
-libopal3_10_7
-libopenal1-soft
+libopal3_10_9
+libopenal1
 libopenbabel4
 libopencc1
 libopencv2_4
@@ -1943,13 +1947,14 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt4-devel
-libpoppler30
+libpoppler34
 libpopt0
 libportaudio2
 libppl9
 libppl_c4
 libprison0
 libprocps1
+libprotobuf7
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -2143,6 +2148,9 @@ libspectre1
 libspeechd2
 libspeex1
 libspeexdsp1
+libspice-client-glib-2_0-8
+libspice-client-gtk-2_0-4
+libspice-client-gtk-3_0-4
 libspice-server1
 libsqlite3-0
 libsqlite3-0-32bit
@@ -2205,6 +2213,8 @@ libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd2
+libusbredirhost1
+libusbredirparser1
 libustr-1_0-1
 libuuid-devel
 libuuid1
@@ -2337,6 +2347,7 @@ libz1
 libz1-32bit
 libzapojit-0_0-0
 libzeitgeist-1_0-1
+libzinnia0
 libzio1
 libzip2
 libzvbi0
@@ -2417,6 +2428,7 @@ man-pages-zh_CN
 manufacturer-PPDs
 marble
 marble-data
+marble-doc
 master-boot-code
 mc
 mcelog
@@ -2445,11 +2457,18 @@ mono-addins
 mono-core
 mono-data
 mono-data-sqlite
+mono-extras
+mono-mvc
+mono-wcf
 mono-web
+mono-winforms
+mono-winfxcore
 mono-zeroconf
 mono-zeroconf-provider-avahi
 moodbar
 mousetweaks
+mozc
+mozc-gui-tools
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nspr-32bit
@@ -2930,6 +2949,7 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 python
 python-M2Crypto
+python-SpiceClientGtk
 python-atspi
 python-base
 python-beautifulsoup
@@ -3109,7 +3129,6 @@ squid
 squidGuard
 sshfs
 sssd
-sssd-32bit
 startup-notification-devel
 step
 strace
@@ -3122,6 +3141,7 @@ subversion-server
 subversion-tools
 sudo
 suse-module-tools
+susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de
@@ -3340,6 +3360,8 @@ viewvc
 vim
 vim-base
 vim-data
+vinagre
+vinagre-lang
 vino
 virt-manager
 virt-utils
@@ -3367,7 +3389,6 @@ vte2-lang
 w3m
 wallpaper-branding-openSUSE
 wdiff
-wdiff-lang
 wget
 whois
 wireless-regdb
@@ -3496,6 +3517,8 @@ xfce4-settings-lang
 xfce4-splash-branding-openSUSE
 xfce4-taskmanager
 xfce4-taskmanager-lang
+xfce4-terminal
+xfce4-terminal-lang
 xfconf
 xfconf-lang
 xfd
@@ -3744,6 +3767,8 @@ zd1211-firmware
 zeitgeist
 zeitgeist-datahub
 zenity
+zinnia
+zinnia-tomoe
 zip
 zisofs-tools
 zlib-devel

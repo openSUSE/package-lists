@@ -4,8 +4,10 @@ DirectFB
 DirectFB-Mesa
 Mesa-libEGL1
 Mesa-libGL1
+Mesa-libGLESv2-2
 Mesa-libglapi0
 SuSEfirewall2
+a2ps
 aaa_base
 aaa_base-extras
 acl
@@ -44,6 +46,8 @@ crda
 cron
 cronie
 cryptsetup
+cryptsetup-mkinitrd
+cups
 cups-client
 cups-libs
 curl
@@ -82,6 +86,7 @@ findutils
 fontconfig
 fonts-config
 fonttosfnt
+foomatic-filters
 fslsfonts
 fstobdf
 gawk
@@ -121,7 +126,7 @@ ico
 ifplugd
 info
 initviocons
-insserv
+insserv-compat
 intel-gpu-tools
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -195,7 +200,7 @@ libdaemon0
 libdb-4_8
 libdbus-1-3
 libdconf1
-libdirectfb-1_4-6
+libdirectfb-1_6-0
 libdmx1
 libdrm2
 libdrm_intel1
@@ -210,7 +215,7 @@ libestr0
 libevent-2_0-5
 libexpat1
 libext2fs2
-libffi47
+libffi4
 libfontenc1
 libfreetype6
 libfuse2
@@ -241,9 +246,9 @@ libjpeg8
 libjson0
 libkeyutils1
 libkmod2
-libkms1
 libksba8
 liblbxutil1
+liblcms2-2
 libldap-2_4-2
 libldapcpp1
 liblua5_1
@@ -263,6 +268,7 @@ libnettle4
 libnfnetlink0
 libnl-1_1
 libntfs-3g83
+libopenjpeg1
 libopenssl1_0_0
 libp11-kit0
 libpango-1_0-0
@@ -280,6 +286,7 @@ libply-splash-graphics2
 libply2
 libpng15-15
 libpolkit0
+libpoppler34
 libpopt0
 libppl9
 libppl_c4
@@ -380,6 +387,7 @@ os-prober
 pam
 pam-config
 pango-tools
+parallel-printer-support
 parted
 pciutils
 pciutils-ids
@@ -419,6 +427,7 @@ pm-profiler
 pm-utils
 polkit
 polkit-default-privs
+poppler-tools
 postfix
 ppp
 pptp
@@ -484,7 +493,9 @@ viewres
 vim
 vim-base
 vlan
+w3m
 wallpaper-branding-openSUSE
+wdiff
 wget
 wireless-regdb
 wireless-tools

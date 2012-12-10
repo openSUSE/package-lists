@@ -6,6 +6,7 @@ Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
+Mesa-libGLESv2-2
 Mesa-libglapi0
 ModemManager
 MozillaFirefox
@@ -103,6 +104,7 @@ crda
 cron
 cronie
 cryptsetup
+cryptsetup-mkinitrd
 cups
 cups-client
 cups-libs
@@ -206,7 +208,6 @@ glibc
 glibc-extra
 glibc-locale
 gnokii
-gnokii-lang
 gnome-bluetooth
 gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
@@ -248,6 +249,9 @@ gnome-session-fallback-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-browser-plugin
+gnome-shell-extension-alternative-status-menu
+gnome-shell-extensions-common
+gnome-shell-extensions-common-lang
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
@@ -268,6 +272,7 @@ gpart
 gpg2
 gpgme
 gpm
+gptfdisk
 grep
 grilo-plugin-tracker
 grilo-plugin-upnp
@@ -286,6 +291,7 @@ gstreamer
 gstreamer-0_10
 gstreamer-0_10-libnice
 gstreamer-0_10-plugins-bad
+gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-utils
@@ -341,7 +347,7 @@ info
 info2html
 initviocons
 input-utils
-insserv
+insserv-compat
 intel-gpu-tools
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -491,7 +497,7 @@ libdc1394-22
 libdconf1
 libdhash1
 libdirac_encoder0
-libdirectfb-1_4-6
+libdirectfb-1_6-0
 libdjvulibre21
 libdmapsharing-3_0-2
 libdmx1
@@ -529,7 +535,7 @@ libexpat1
 libext2fs2
 libfam0
 libfarstream-0_2-2
-libffi47
+libffi4
 libfftw3-3
 libfolks-data
 libfolks-eds25
@@ -661,7 +667,6 @@ libjson0
 libkate1
 libkeyutils1
 libkmod2
-libkms1
 libkpathsea6
 libksba8
 liblapack3
@@ -676,6 +681,7 @@ liblouis2
 liblrdf2
 libltdl7
 liblua5_1
+liblua5_2
 liblzma5
 liblzo2-2
 libmagic-data
@@ -722,7 +728,7 @@ liboauth0
 libofa0
 libogg0
 liboggkate1
-libopenal1-soft
+libopenal1
 libopenjpeg1
 libopenobex1
 libopenssl1_0_0
@@ -758,7 +764,7 @@ libply2
 libpng15-15
 libpolkit0
 libpoppler-glib8
-libpoppler30
+libpoppler34
 libpopt0
 libportaudio2
 libppl9
@@ -1118,6 +1124,7 @@ python-louis
 python-notify
 python-numpy
 python-pyOpenSSL
+python-pycurl
 python-satsolver
 python-smbc
 python-smbios
@@ -1302,7 +1309,6 @@ vpnc
 w3m
 wallpaper-branding-openSUSE
 wdiff
-wdiff-lang
 wget
 wireless-regdb
 wireless-tools
