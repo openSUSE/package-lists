@@ -14,7 +14,9 @@
 ./mk_group.sh output/opensuse/langaddon.x86_64.list REST-DVD-x86_64 osc/openSUSE:$proj/_product/DVD5-lang-x86_64.group only_x86_64
 
 ./mk_group.sh output/opensuse/nonoss.list Addon-NonOss osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss.group
+./mk_group.sh output/opensuse/nonoss-x86_64.list Addon-NonOss-x86_64 osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-x86_64.group only_x86_64
 ./mk_group.sh output/opensuse/nonoss.deps.list Addon-NonOss-Deps osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps.group
+./mk_group.sh output/opensuse/nonoss.deps-x86_64.list Addon-NonOss-Deps-x86_64 osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps-x86_64.group only_x86_64
 
 ( cd osc/openSUSE:$proj/_product/ && osc ci -m "auto update" )
 
