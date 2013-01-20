@@ -25,13 +25,7 @@ NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-lang
-PackageKit
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
-PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
-PackageKit-gtk3-module
-PackageKit-lang
 SuSEfirewall2
 a2ps
 aaa_base
@@ -285,7 +279,7 @@ gnome-keyring-pam
 gnome-mahjongg
 gnome-mahjongg-lang
 gnome-menus
-gnome-menus-branding-openSUSE
+gnome-menus-branding-upstream
 gnome-menus-lang
 gnome-nettool
 gnome-nettool-lang
@@ -624,7 +618,7 @@ libelf0
 libelf1
 libenca0
 libenchant1
-liberation-fonts
+liberation2-fonts
 libestr0
 libevdocument3-4
 libevent-2_0-5
@@ -849,7 +843,7 @@ liborc-0_4-0
 libosinfo
 libosinfo-1_0-0
 libp11-kit0
-libpackagekit-glib2-14
+libpackagekit-glib2-16
 libpanel-applet-4-0
 libpango-1_0-0
 libpangomm-1_4-1
@@ -906,7 +900,7 @@ libquvi-scripts
 libquvi7
 libraptor2-0
 libraw1394-11
-libraw2
+libraw5
 librcc0
 librcd0
 libreadline6
@@ -1291,6 +1285,7 @@ samba-client
 sane-backends
 sane-backends-autoconfig
 sax2-tools
+sbc
 sbl
 scout
 seahorse

@@ -1,22 +1,18 @@
 can't install compiz-lang:
   nothing provides compiz = 0.9.5.92.1 needed by compiz-lang
-can't install e-profiles-openSUSE:
-  nothing provides e-theme-a-os-green needed by e-profiles-openSUSE
 can't install eaglemode:
   nothing provides unrar needed by eaglemode
 can't install engine_pkcs11:
   nothing provides libp11-1 >= 0.2.5 needed by engine_pkcs11
 can't install gnome-agenda:
   nothing provides python-evolution needed by gnome-agenda
-can't install hamster-applet:
-  nothing provides python-evolution needed by hamster-applet
 can't install kio_sysinfo-branding-upstream:
   nothing provides kio_sysinfo needed by kio_sysinfo-branding-upstream
+can't install leechcraft:
+  nothing provides libtorrent-rasterbar.so.6 needed by leechcraft-bittorrent
 can't install libnih:
   nothing provides libc.so.6(GLIBC_PRIVATE) needed by libnih
   nothing provides libc.so.6(GLIBC_PRIVATE)(64bit) needed by libnih
-can't install libxslt-python:
-  nothing provides libxslt1 = %{version} needed by libxslt-python
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game

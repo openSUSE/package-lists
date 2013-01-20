@@ -16,11 +16,7 @@ NetworkManager-pptp
 NetworkManager-pptp-gnome
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
-PackageKit
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
-PackageKit-gtk3-module
 SuSEfirewall2
 a2ps
 aaa_base
@@ -672,7 +668,7 @@ liborc-0_4-0
 libosinfo
 libosinfo-1_0-0
 libp11-kit0
-libpackagekit-glib2-14
+libpackagekit-glib2-16
 libpanel-applet-4-0
 libpango-1_0-0
 libpangomm-1_4-1
@@ -724,7 +720,7 @@ libquvi-scripts
 libquvi7
 libraptor2-0
 libraw1394-11
-libraw2
+libraw5
 librcc0
 librcd0
 libreadline6
@@ -998,6 +994,7 @@ rsyslog
 rtkit
 sane-backends
 sane-backends-autoconfig
+sbc
 scout
 seahorse
 seahorse-daemon

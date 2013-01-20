@@ -51,12 +51,7 @@ OpenPrintingPPDs
 OpenPrintingPPDs-ghostscript
 OpenPrintingPPDs-hpijs
 OpenPrintingPPDs-postscript
-PackageKit
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
-PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
-PackageKit-gtk3-module
 PgTcl
 QtZeitgeist-devel
 SuSEfirewall2
@@ -91,6 +86,7 @@ alsa-plugins-pulse
 alsa-tools
 alsa-utils
 amarok
+amarok-lang
 amavisd-new
 amavisd-new-docs
 amor
@@ -140,7 +136,6 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-apper
 appmenu-qt
 apport
 apport-crashdb-opensuse
@@ -151,7 +146,6 @@ aqbanking
 aqbanking-devel
 aqbanking-lang
 arabic-fonts
-argyllcms
 aria2
 ark
 armagetron
@@ -355,7 +349,6 @@ ca-certificates-mozilla
 cabextract
 cairo-devel
 cal10n
-calibre
 canberra-gtk-play
 canna
 canna-libs
@@ -401,8 +394,6 @@ cm-unicode-fonts
 cmake
 cogl-devel
 collectd
-color-filesystem
-colord
 command-not-found
 commoncpp2
 commoncpp2-devel
@@ -443,7 +434,6 @@ cyrus-sasl-devel
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-daps
 dar
 dar-lang
 dasher
@@ -564,7 +554,6 @@ expect
 expect-devel
 f-spot
 f-spot-lang
-fam
 fam-devel
 farstream-data
 fbiterm
@@ -737,10 +726,11 @@ gjs
 gkeyfile-sharp
 glabels
 glabels-lang
-glade
 glade-catalog-gtksourceview
 glade-catalog-vte
 glade-sharp2
+glade3
+glade3-lang
 glamor
 glchess
 glew-devel
@@ -768,7 +758,6 @@ gnome-backgrounds
 gnome-bluetooth
 gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
-gnome-color-manager
 gnome-commander
 gnome-common
 gnome-contacts
@@ -799,7 +788,7 @@ gnome-keyring-pam
 gnome-keyring-sharp
 gnome-mahjongg
 gnome-menus
-gnome-menus-branding-openSUSE
+gnome-menus-branding-upstream
 gnome-menus-devel
 gnome-nettool
 gnome-online-accounts
@@ -1045,15 +1034,6 @@ ibus-table-chinese-yong
 ibus-table-rustrad
 ibus-table-translit
 ibus-table-zhuyin
-icc-profiles
-icc-profiles-basiccolor-lstarrgb
-icc-profiles-basiccolor-printing2009-coat2
-icc-profiles-lcms-lab
-icc-profiles-mini
-icc-profiles-openicc-rgb
-icc-profiles-scp-argyll
-icc-profiles-scp-fogra
-icc-profiles-scp-yamma
 iceauth
 icecream
 icecream-monitor
@@ -1079,7 +1059,6 @@ initviocons
 inkscape
 inkscape-extensions-dia
 inkscape-extensions-extra
-inkscape-extensions-fig
 inkscape-extensions-gimp
 inn
 input-utils
@@ -1691,7 +1670,6 @@ libcogl-pango0
 libcogl11
 libcollectdclient0
 libcollection2
-libcolord-gtk1
 libcolord1
 libcom_err-devel
 libcom_err2
@@ -1766,7 +1744,7 @@ libenca0
 libenchant1
 libepub-devel
 libepub0
-liberation-fonts
+liberation2-fonts
 libesd-devel
 libesd0
 libesmtp
@@ -1875,7 +1853,6 @@ libgif4
 libgimp-2_0-0
 libgimpui-2_0-0
 libgio-2_0-0
-libgio-fam
 libgiomm-2_4-1
 libgirepository-1_0-1
 libgitg-1_0-0
@@ -1883,6 +1860,7 @@ libgjs0
 libglade-2_0-0
 libglademm
 libglademm-2_4-1
+libgladeui-1-11
 libgladeui-2-4
 libgle3
 libglib-2_0-0
@@ -1997,7 +1975,6 @@ libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
-libgusb2
 libgvfscommon0
 libgvnc-1_0-0
 libgweather-3-1
@@ -2274,9 +2251,7 @@ libotr-devel
 libotr5
 libp11-kit0
 libpacemaker3
-libpackagekit-glib2-14
-libpackagekit-qt2-2
-libpackagekit-qt2-devel
+libpackagekit-glib2-16
 libpanel-applet-4-0
 libpango-1_0-0
 libpangomm-1_4-1
@@ -2401,7 +2376,7 @@ librasqal3
 libraw-devel
 libraw1394-11
 libraw1394-devel
-libraw2
+libraw5
 librcc0
 librcd0
 librcps-devel
@@ -2683,7 +2658,6 @@ libwebkitgtk-devel
 libwebp4
 libwebrtc_audio_processing0
 libwmf-0_2-7
-libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck-devel
@@ -2775,6 +2749,7 @@ libxml2-tools
 libxmmsclient-glib1
 libxmmsclient6
 libxslt-devel
+libxslt-python
 libxslt-tools
 libxslt1
 libxtables9
@@ -2827,7 +2802,6 @@ links
 linphone
 linphone-devel
 linux-glibc-devel
-linux-libertine-fonts
 lirc
 lirc-devel
 lirc-remotes
@@ -2969,7 +2943,6 @@ mozilla-nss-certs
 mozilla-nss-devel
 mpfr-devel
 mpi-selector
-mplus-fonts
 mpt-firmware
 mpt-status
 mrtg
@@ -3164,7 +3137,6 @@ opensuse-manuals_ja
 openvpn
 opie
 oprofile
-optipng
 orage
 orage-doc
 orage-lang
@@ -3548,7 +3520,6 @@ perl-YAML-Syck
 perl-apparmor
 perl-base
 perl-camgm
-perl-checkbot
 perl-doc
 perl-gettext
 perl-ldap
@@ -3638,7 +3609,6 @@ pm-profiler
 pm-utils
 pm-utils-ndiswrapper
 pmidi
-podofo
 polkit
 polkit-default-privs
 polkit-devel
@@ -3689,9 +3659,6 @@ pulseaudio-utils
 pwgen
 pychecker
 python
-python-Babel
-python-CherryPy
-python-Genshi
 python-M2Crypto
 python-Pygments
 python-SpiceClientGtk
@@ -3704,10 +3671,8 @@ python-boto
 python-brlapi
 python-cairo
 python-cairo-devel
-python-clientform
 python-cloudfiles
 python-configobj
-python-cssutils
 python-cups
 python-cupshelpers
 python-curses
@@ -3716,7 +3681,6 @@ python-dee
 python-deltarpm
 python-devel
 python-distribute
-python-dnspython
 python-doc
 python-egenix-mx-base
 python-fcgi
@@ -3753,12 +3717,9 @@ python-liblarch_gtk
 python-libxml2
 python-louis
 python-lxml
-python-mechanize
-python-netifaces
 python-notify
 python-numpy
 python-oauth
-python-odfpy
 python-opensync
 python-orbit
 python-pam
@@ -3769,7 +3730,6 @@ python-pyasn1-modules
 python-pybluez
 python-pycurl
 python-pygame
-python-pypdf
 python-pyserial
 python-pyudev
 python-pyzmq
@@ -3936,7 +3896,6 @@ rubygem-webyast-ntp
 rubygem-webyast-rake-tasks
 rubygem-webyast-roles
 rubygem-webyast-services
-rubygem-webyast-software
 rubygem-webyast-status
 rubygem-webyast-system
 rubygem-webyast-terminal
@@ -3957,6 +3916,7 @@ sax2-tools
 saxon6
 saxon9
 sazanami-fonts
+sbc
 sbl
 scim
 scim-gtk
@@ -3987,7 +3947,6 @@ sfftobmp
 sg3_utils
 sgml-skel
 shadow
-shared-color-profiles
 shared-desktop-ontologies
 shared-desktop-ontologies-devel
 shared-mime-info
@@ -4070,7 +4029,6 @@ subversion-server
 subversion-tools
 sudo
 suse-module-tools
-suse-xsl-stylesheets
 susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
@@ -4915,7 +4873,6 @@ tracker-miner-files
 tracker-miner-firefox
 tracker-miner-thunderbird
 trang
-transfig
 translation-update
 translation-update-cs
 translation-update-de

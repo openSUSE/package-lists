@@ -19,12 +19,7 @@ NetworkManager-pptp
 NetworkManager-pptp-kde4
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
-PackageKit
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
-PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
-PackageKit-gtk3-module
 SuSEfirewall2
 a2ps
 aaa_base
@@ -41,7 +36,7 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 amarok
-apper
+amarok-lang
 appmenu-qt
 appres
 ark
@@ -603,8 +598,7 @@ libopenssl1_0_0
 liborc-0_4-0
 libortp8
 libp11-kit0
-libpackagekit-glib2-14
-libpackagekit-qt2-2
+libpackagekit-glib2-16
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
@@ -946,6 +940,7 @@ rsync
 rsyslog
 rtkit
 sax2-tools
+sbc
 sbl
 scout
 sed
