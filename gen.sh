@@ -44,7 +44,6 @@ prep_patterns()
   popd > /dev/null
   rm -f $TESTTRACK/CD1/content.asc
   gpg  --batch -a -b --sign $TESTTRACK/CD1/content
-
 }
 
 cp solver-system.xml output/`dirname $file`
@@ -54,6 +53,15 @@ do
   arch=$i
   echo -n " $arch"
   eval VAR="\$GEN_URL_${i}"
+
+  case $file in
+    opensuse/dvd-nonoss*)
+       cp opensuse/dvd-1.xml.in opensuse/dvd-nonoss.xml.in
+       installcheck $i testtrack/full-nf-$tree-$i/suse/setup/descr/packages | grep "nothing provides" | sed -e 's,.*nothing provides ,,; s, needed by.*,,' | sort -u | while read d; do
+         sed -i -e "s,<!-- HOOK_FOR_NONOSS -->,<!-- HOOK_FOR_NONOSS -->\n<addRequire name='$d'/>," opensuse/dvd-nonoss.xml.in
+       done
+       ;;
+  esac
   sed -e "s,GEN_ARCH,$i," -e "s,GEN_URL,dir://$TESTTRACK/CD1," $file.xml.in > output/$file.$arch.xml
   includes=`grep -- "-- INCLUDE" $file.xml.in | sed -e "s,.*INCLUDE *,,; s, .*,,"`
   for include in $includes; do 

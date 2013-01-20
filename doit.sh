@@ -25,6 +25,8 @@ do_opensuse()
     ./gen.sh opensuse/x11_cd
     ./gen.sh opensuse/x11_cd-initrd
 
+    ./gen.sh opensuse/dvd-nonoss
+
     echo "diffing"
     for arch in i586 x86_64; do
        diff -u output/opensuse/kde4_cd.$arch.list output/opensuse/kde4_cd-default.$arch.list | grep -v +++ | grep ^+

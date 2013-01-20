@@ -13,6 +13,9 @@
 ./mk_group.sh output/opensuse/langaddon.i586.list REST-DVD-i586 osc/openSUSE:$proj/_product/DVD5-lang-i586.group only_i586
 ./mk_group.sh output/opensuse/langaddon.x86_64.list REST-DVD-x86_64 osc/openSUSE:$proj/_product/DVD5-lang-x86_64.group only_x86_64
 
+./mk_group.sh output/opensuse/nonoss.list Addon-NonOss osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss.group
+./mk_group.sh output/opensuse/nonoss.deps.list Addon-NonOss-Deps osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps.group
+
 ( cd osc/openSUSE:$proj/_product/ && osc ci -m "auto update" )
 
 ./mk_group.sh output/opensuse/x11_cd.i586.list DVD osc/system:install:head/_product/DVD.group

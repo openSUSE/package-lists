@@ -10,7 +10,7 @@ for i in `grep "package name=" osc/openSUSE\:Factory/_product/FROZEN.group | cut
    echo "<lock package='$i'/>" >> output/opensuse/frozen.xml
 done
 cd testtrack/
-./update_full.sh $tree-i586 $tree-x86_64 
+./update_full.sh $tree-i586 $tree-x86_64 nf-$tree-i586 nf-$tree-x86_64
 echo -n "updating patterns "
 if ./unpack_patterns.sh $diffonly > patterns.log 2>&1; then
    touch ../dirty
@@ -31,7 +31,7 @@ if grep -q 'dirty="true"' /tmp/state || grep -q 'state="building"' /tmp/state; t
 fi
 # now sync again
 cd testtrack
-WITHDESCR=1 ./update_full.sh $tree-i586 $tree-x86_64 || touch ../dirty
+WITHDESCR=1 ./update_full.sh $tree-i586 nf-$tree-i586 $tree-x86_64 nf-$tree-x86_64 || touch ../dirty
 cd ..
 
 installcheck i586 testtrack/full-$tree-i586/suse/setup/descr/packages > output/opensuse/missingdeps.tmp || true
