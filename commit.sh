@@ -35,6 +35,10 @@ osc up -u osc/openSUSE:$proj:Live/package-lists-gnome.*
 cp -a output/opensuse/gnome_cd.i586.list osc/openSUSE:$proj:Live/package-lists-gnome.i586/packagelist
 cp -a output/opensuse/gnome_cd.x86_64.list osc/openSUSE:$proj:Live/package-lists-gnome.x86_64/packagelist
 
+osc up -u osc/openSUSE:$proj:Live/package-lists-x11.*
+cp -a output/opensuse/x11_cd.i586.list osc/openSUSE:$proj:Live/package-lists-x11.i586/packagelist
+cp -a output/opensuse/x11_cd.x86_64.list osc/openSUSE:$proj:Live/package-lists-x11.x86_64/packagelist
+
 osc ci -m "update from desdemona" osc/openSUSE:$proj:Live/package-lists-*
 exit 0
 
