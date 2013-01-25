@@ -123,11 +123,6 @@ aqbanking
 aqbanking-lang
 arabic-fonts
 ark
-arphic-bkai00mp-fonts
-arphic-bsmi00lp-fonts
-arphic-fonts
-arphic-gbsn00lp-fonts
-arphic-gkai00mp-fonts
 arphic-ukai-fonts
 arphic-uming-fonts
 arpwatch
@@ -492,7 +487,6 @@ gcc47-info
 gcc47-java
 gccmakedep
 gcin
-gcin-anthy-module
 gcin-branding-openSUSE
 gcin-gtk3-immodule
 gcin-qt4-immodule
@@ -640,7 +634,6 @@ gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-extension-alternative-status-menu
 gnome-shell-extensions-common
-gnome-shell-extensions-common-lang
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
@@ -1756,6 +1749,7 @@ libncurses6
 libneon27
 libnepomukwidgets4
 libnet1
+libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm11
 libnettle4
@@ -1810,8 +1804,8 @@ libosip2
 libosip2-devel
 libotf0
 libp11-kit0
-libpackagekit-glib2-14
-libpackagekit-qt2-2
+libpackagekit-glib2-16
+libpackagekit-qt2-5
 libpanel-applet-4-0
 libpango-1_0-0
 libpangomm-1_4-1
@@ -1913,7 +1907,7 @@ librasqal-devel
 librasqal3
 libraw1394-11
 libraw1394-devel
-libraw2
+libraw5
 librcc0
 librcd0
 libreadline6
@@ -2152,6 +2146,7 @@ libwnck-devel
 libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
+libwrap0
 libwv-1_2-1
 libwv2-4
 libwx_baseu-2_8-0-stl
@@ -2452,6 +2447,7 @@ nautilus-open-terminal
 nautilus-sendto
 nautilus-sendto-plugin-empathy
 nautilus-sendto-plugin-evolution
+nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
 nautilus-totem
 nbd
@@ -2769,6 +2765,7 @@ php5-sqlite
 php5-tokenizer
 php5-xmlreader
 php5-xmlwriter
+pidgin
 pinentry
 pinentry-gtk2
 pinentry-qt4
@@ -2927,6 +2924,7 @@ sash
 sax2-tools
 saxon9
 sazanami-fonts
+sbc
 sbl
 scim
 scim-gtk
@@ -3048,7 +3046,6 @@ taglib-sharp
 tango-icon-theme
 tar
 tcl
-tcpd
 tcpdump
 tcsh
 tcsh-lang

@@ -1,5 +1,3 @@
-can't install compiz-lang:
-  nothing provides compiz = 0.9.5.92.1 needed by compiz-lang
 can't install eaglemode:
   nothing provides unrar needed by eaglemode
 can't install engine_pkcs11:
@@ -27,16 +25,14 @@ can't install php5-pear-Horde_DataTree:
   nothing provides php5-pear-Horde_Util < 2.0.0 needed by php5-pear-Horde_DataTree
 can't install python3:
   nothing provides libpython3.3m.so.1.0 needed by python3-32bit
-can't install python3-cl:
-  nothing provides python3-kombu needed by python3-cl
+can't install python3-kombu:
+  nothing provides python3-amqp needed by python3-kombu
 can't install pythoncad:
   nothing provides python-numeric needed by pythoncad
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
-can't install rubygem-flog:
-  nothing provides rubygem(1.9.1:ruby_parser:3.0) >= 3.0 needed by rubygem-flog
-can't install rubygem-twitter-stream:
-  nothing provides rubygem(1.9.1:simple_oauth:0.1) >= 0.1.4 needed by rubygem-twitter-stream
+can't install rubygem-tinder:
+  nothing provides rubygem(1.9.1:twitter-stream) >= 0.1 needed by rubygem-tinder
 can't install scim-qtimm:
   nothing provides libscim-1.0.so.8 needed by scim-qtimm-32bit
   nothing provides libscim-1.0.so.8(LIBSCIM_1.0) needed by scim-qtimm-32bit

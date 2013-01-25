@@ -9,6 +9,7 @@ ImageMagick
 ImageMagick-devel
 LibVNCServer
 Mesa
+Mesa-32bit
 Mesa-demo-x
 Mesa-devel
 Mesa-libEGL-devel
@@ -128,11 +129,6 @@ aqbanking
 aqbanking-lang
 arabic-fonts
 ark
-arphic-bkai00mp-fonts
-arphic-bsmi00lp-fonts
-arphic-fonts
-arphic-gbsn00lp-fonts
-arphic-gkai00mp-fonts
 arphic-ukai-fonts
 arphic-uming-fonts
 arpwatch
@@ -338,6 +334,7 @@ cups-backends
 cups-client
 cups-devel
 cups-libs
+cups-libs-32bit
 cups-pk-helper
 curl
 cvs
@@ -502,7 +499,6 @@ gcc47-info
 gcc47-java
 gccmakedep
 gcin
-gcin-anthy-module
 gcin-branding-openSUSE
 gcin-gtk3-immodule
 gcin-qt4-immodule
@@ -655,7 +651,6 @@ gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-extension-alternative-status-menu
 gnome-shell-extensions-common
-gnome-shell-extensions-common-lang
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
@@ -754,6 +749,7 @@ gtk2-engine-hcengine
 gtk2-engine-industrial
 gtk2-engine-mist
 gtk2-engine-murrine
+gtk2-engine-murrine-32bit
 gtk2-engine-oxygen
 gtk2-engine-redmond95
 gtk2-engine-thinice
@@ -775,6 +771,7 @@ gtk2-theme-redmond95
 gtk2-theme-thinice
 gtk2-theming-engine-adwaita
 gtk2-tools
+gtk2-tools-32bit
 gtk3-branding-openSUSE
 gtk3-data
 gtk3-devel
@@ -824,6 +821,7 @@ ibus
 ibus-anthy
 ibus-googlepinyin
 ibus-gtk
+ibus-gtk-32bit
 ibus-gtk3
 ibus-m17n
 ibus-mozc
@@ -1125,6 +1123,7 @@ lessons4lizards_en
 libEMF1
 libFLAC++6
 libFLAC8
+libFLAC8-32bit
 libFS-devel
 libFS6
 libGLEW1_9
@@ -1183,6 +1182,7 @@ libXcliplist-devel
 libXcliplist1
 libXcomposite-devel
 libXcomposite1
+libXcomposite1-32bit
 libXcursor-devel
 libXcursor1
 libXcursor1-32bit
@@ -1239,6 +1239,7 @@ libXt6
 libXt6-32bit
 libXtst-devel
 libXtst6
+libXtst6-32bit
 libXv-devel
 libXv1
 libXv1-32bit
@@ -1348,16 +1349,20 @@ libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
+libcairo2-32bit
 libcairomm-1_0-1
 libcamel-1_2-40
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
 libcanberra-gtk0
+libcanberra-gtk0-32bit
 libcanberra-gtk2-module
+libcanberra-gtk2-module-32bit
 libcanberra-gtk3-0
 libcanberra-gtk3-module
 libcanberra0
+libcanberra0-32bit
 libcap-ng0
 libcap-progs
 libcap2
@@ -1433,8 +1438,11 @@ libdrm-devel
 libdrm2
 libdrm2-32bit
 libdrm_intel1
+libdrm_intel1-32bit
 libdrm_nouveau2
+libdrm_nouveau2-32bit
 libdrm_radeon1
+libdrm_radeon1-32bit
 libdv4
 libdvdnav4
 libdvdread-devel
@@ -1629,6 +1637,7 @@ libgstphotography-0_10-23
 libgstphotography-1_0-0
 libgstreamer-0_10-0
 libgstreamer-1_0-0
+libgstreamer-1_0-0-32bit
 libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
@@ -1640,6 +1649,7 @@ libgstvideo-1_0-0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
+libgtk-2_0-0-32bit
 libgtk-3-0
 libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
@@ -1674,11 +1684,14 @@ libgwenhywfar60-plugins
 libgxps2
 libhangul1
 libharfbuzz0
+libharfbuzz0-32bit
 libhogweed2
 libibus-1_0-0
+libibus-1_0-0-32bit
 libical-devel
 libical0
 libicu49
+libicu49-32bit
 libidn-devel
 libidn11
 libidn11-32bit
@@ -1712,6 +1725,7 @@ libjpeg8-32bit
 libjpeg8-devel
 libjson-glib-1_0-0
 libjson0
+libjson0-32bit
 libkactivities6
 libkanagramengine4
 libkate1
@@ -1780,6 +1794,7 @@ liblpsolve55-0
 liblqr-1-0
 liblrdf2
 libltdl7
+libltdl7-32bit
 liblua5_1
 liblua5_2
 liblzma5
@@ -1838,6 +1853,7 @@ libncurses6-32bit
 libneon27
 libnepomukwidgets4
 libnet1
+libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm11
 libnettle4
@@ -1867,6 +1883,7 @@ libofa0
 libofx
 libofx5
 libogg0
+libogg0-32bit
 liboggkate1
 liboldX-devel
 liboldX6
@@ -1896,11 +1913,13 @@ libosip2-devel
 libotf0
 libotf0-32bit
 libp11-kit0
-libpackagekit-glib2-14
-libpackagekit-qt2-2
+libpackagekit-glib2-16
+libpackagekit-qt2-5
 libpanel-applet-4-0
 libpango-1_0-0
+libpango-1_0-0-32bit
 libpangomm-1_4-1
+libpangox-1_0-0-32bit
 libpano13-2
 libparted0
 libpath_utils1
@@ -1908,6 +1927,7 @@ libpcap1
 libpci3
 libpciaccess-devel
 libpciaccess0
+libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -1926,6 +1946,7 @@ libpipeline1
 libpisock-devel
 libpisock9
 libpixman-1-0
+libpixman-1-0-32bit
 libpixman-1-0-devel
 libpkcs11-helper1
 libplist-devel
@@ -1967,6 +1988,7 @@ libpth20
 libpulse-devel
 libpulse-mainloop-glib0
 libpulse0
+libpulse0-32bit
 libpurple
 libpurple-branding-openSUSE
 libpurple-lang
@@ -2006,7 +2028,7 @@ librasqal-devel
 librasqal3
 libraw1394-11
 libraw1394-devel
-libraw2
+libraw5
 librcc0
 librcd0
 libreadline6
@@ -2126,6 +2148,7 @@ libsmi
 libsmi2
 libsnapper2
 libsndfile1
+libsndfile1-32bit
 libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
@@ -2147,6 +2170,7 @@ libspandsp2
 libspectre1
 libspeechd2
 libspeex1
+libspeex1-32bit
 libspeexdsp1
 libspice-client-glib-2_0-8
 libspice-client-gtk-2_0-4
@@ -2236,8 +2260,11 @@ libvmtools0
 libvnc-devel
 libvoikko1
 libvorbis0
+libvorbis0-32bit
 libvorbisenc2
+libvorbisenc2-32bit
 libvorbisfile3
+libvorbisfile3-32bit
 libvpx1
 libvte2_90-9
 libvte9
@@ -2259,6 +2286,8 @@ libwnck-devel
 libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
+libwrap0
+libwrap0-32bit
 libwv-1_2-1
 libwv2-4
 libwx_baseu-2_8-0-stl
@@ -2284,10 +2313,12 @@ libxcb-glx0-32bit
 libxcb-randr0
 libxcb-record0
 libxcb-render0
+libxcb-render0-32bit
 libxcb-res0
 libxcb-screensaver0
 libxcb-shape0
 libxcb-shm0
+libxcb-shm0-32bit
 libxcb-sync0
 libxcb-util1
 libxcb-xevie0
@@ -2568,6 +2599,7 @@ nautilus-open-terminal
 nautilus-sendto
 nautilus-sendto-plugin-empathy
 nautilus-sendto-plugin-evolution
+nautilus-sendto-plugin-pidgin
 nautilus-sendto-plugin-upnp
 nautilus-totem
 nbd
@@ -2666,6 +2698,7 @@ pam_mount
 pam_mount-32bit
 pango-devel
 pango-tools
+pango-tools-32bit
 parallel-printer-support
 paratype-pt-mono-fonts
 paratype-pt-sans-fonts
@@ -2894,6 +2927,7 @@ php5-sqlite
 php5-tokenizer
 php5-xmlreader
 php5-xmlwriter
+pidgin
 pinentry
 pinentry-gtk2
 pinentry-qt4
@@ -3056,9 +3090,11 @@ sash
 sax2-tools
 saxon9
 sazanami-fonts
+sbc
 sbl
 scim
 scim-gtk
+scim-gtk-32bit
 scim-gtk3
 scim-hangul
 scim-qt4
@@ -3178,7 +3214,6 @@ taglib-sharp
 tango-icon-theme
 tar
 tcl
-tcpd
 tcpdump
 tcsh
 tcsh-lang
@@ -3329,6 +3364,7 @@ udisks2
 uim
 uim-32bit
 uim-gtk2
+uim-gtk2-32bit
 uim-gtk3
 uim-qt4-32bit
 umbrello

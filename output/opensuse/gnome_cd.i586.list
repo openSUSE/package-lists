@@ -19,7 +19,12 @@ NetworkManager-pptp
 NetworkManager-pptp-gnome
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
+PackageKit
+PackageKit-backend-zypp
+PackageKit-branding-openSUSE
+PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
 SuSEfirewall2
 a2ps
 aaa_base
@@ -246,7 +251,6 @@ gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-extension-alternative-status-menu
 gnome-shell-extensions-common
-gnome-shell-extensions-common-lang
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
@@ -886,6 +890,7 @@ libwebkitgtk-3_0-0
 libwebrtc_audio_processing0
 libwnck-1-22
 libwnck-3-0
+libwrap0
 libx86-1
 libx86emu1
 libxapian22
@@ -1198,7 +1203,6 @@ sysvinit-tools
 t1lib
 tar
 tcl
-tcpd
 telepathy-gabble
 telepathy-haze
 telepathy-idle

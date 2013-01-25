@@ -16,7 +16,11 @@ NetworkManager-pptp
 NetworkManager-pptp-kde4
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
+PackageKit
+PackageKit-backend-zypp
+PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
 SuSEfirewall2
 a2ps
 aaa_base
@@ -30,6 +34,7 @@ alsa-oss
 alsa-plugins
 alsa-plugins-pulse
 alsa-utils
+apper
 appmenu-qt
 appres
 ark
@@ -530,6 +535,7 @@ libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
 libpackagekit-glib2-16
+libpackagekit-qt2-5
 libpango-1_0-0
 libparted0
 libpcap1
@@ -628,6 +634,7 @@ libvorbisfile3
 libwavpack1
 libwbclient0
 libwebrtc_audio_processing0
+libwrap0
 libx86-1
 libx86emu1
 libxatracker1
@@ -818,7 +825,6 @@ systemd-sysvinit
 sysvinit-tools
 tar
 tcl
-tcpd
 terminfo-base
 tightvnc
 timezone

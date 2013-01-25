@@ -59,7 +59,12 @@ OpenPrintingPPDs
 OpenPrintingPPDs-ghostscript
 OpenPrintingPPDs-hpijs
 OpenPrintingPPDs-postscript
+PackageKit
+PackageKit-backend-zypp
+PackageKit-branding-openSUSE
+PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
 PgTcl
 QtZeitgeist-devel
 SuSEfirewall2
@@ -100,7 +105,6 @@ alsa-plugins-pulse-32bit
 alsa-tools
 alsa-utils
 amarok
-amarok-lang
 amavisd-new
 amavisd-new-docs
 amor
@@ -153,6 +157,7 @@ apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+apper
 appmenu-qt
 apport
 apport-crashdb-opensuse
@@ -163,14 +168,11 @@ aqbanking
 aqbanking-devel
 aqbanking-lang
 arabic-fonts
+argyllcms
 aria2
 ark
 armagetron
-arphic-bkai00mp-fonts
-arphic-bsmi00lp-fonts
 arphic-fonts
-arphic-gbsn00lp-fonts
-arphic-gkai00mp-fonts
 arphic-ukai-fonts
 arphic-uming-fonts
 arpwatch
@@ -347,6 +349,7 @@ cabextract
 cairo-devel
 cairo-devel-32bit
 cal10n
+calibre
 canberra-gtk-play
 canna
 canna-libs
@@ -392,6 +395,10 @@ cm-unicode-fonts
 cmake
 cogl-devel
 collectd
+color-filesystem
+colord
+colord-gtk-lang
+colord-lang
 command-not-found
 commoncpp2
 commoncpp2-devel
@@ -571,6 +578,7 @@ expect
 expect-devel
 f-spot
 f-spot-lang
+fam
 fam-devel
 farstream-data
 fbiterm
@@ -666,7 +674,6 @@ gcc47-objc
 gcc47-objc-32bit
 gccmakedep
 gcin
-gcin-anthy-module
 gcin-branding-openSUSE
 gcin-gtk3-immodule
 gcin-qt4-immodule
@@ -809,6 +816,8 @@ gnome-backgrounds-lang
 gnome-bluetooth
 gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
+gnome-color-manager
+gnome-color-manager-lang
 gnome-commander
 gnome-commander-lang
 gnome-common
@@ -846,7 +855,7 @@ gnome-keyring-pam-32bit
 gnome-keyring-sharp
 gnome-mahjongg
 gnome-menus
-gnome-menus-branding-upstream
+gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-nettool
 gnome-online-accounts
@@ -872,7 +881,6 @@ gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-extension-alternative-status-menu
 gnome-shell-extensions-common
-gnome-shell-extensions-common-lang
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
@@ -1121,6 +1129,15 @@ ibus-table-chinese-yong
 ibus-table-rustrad
 ibus-table-translit
 ibus-table-zhuyin
+icc-profiles
+icc-profiles-basiccolor-lstarrgb
+icc-profiles-basiccolor-printing2009-coat2
+icc-profiles-lcms-lab
+icc-profiles-mini
+icc-profiles-openicc-rgb
+icc-profiles-scp-argyll
+icc-profiles-scp-fogra
+icc-profiles-scp-yamma
 iceauth
 icecream
 icecream-monitor
@@ -1146,6 +1163,7 @@ initviocons
 inkscape
 inkscape-extensions-dia
 inkscape-extensions-extra
+inkscape-extensions-fig
 inkscape-extensions-gimp
 inkscape-lang
 inn
@@ -1832,6 +1850,7 @@ libcogl-pango0
 libcogl11
 libcollectdclient0
 libcollection2
+libcolord-gtk1
 libcolord1
 libcolord1-32bit
 libcom_err-devel
@@ -1932,7 +1951,7 @@ libenca0-32bit
 libenchant1
 libepub-devel
 libepub0
-liberation2-fonts
+liberation-fonts
 libesd-devel
 libesd0
 libesmtp
@@ -2059,6 +2078,7 @@ libgimp-2_0-0
 libgimpui-2_0-0
 libgio-2_0-0
 libgio-2_0-0-32bit
+libgio-fam
 libgiomm-2_4-1
 libgirepository-1_0-1
 libgitg-1_0-0
@@ -2212,6 +2232,7 @@ libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
+libgusb2
 libgvfscommon0
 libgvnc-1_0-0
 libgweather-3-1
@@ -2461,6 +2482,7 @@ libneon27
 libneon27-32bit
 libnepomukwidgets4
 libnet1
+libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm-devel
 libnetpbm11
@@ -2555,6 +2577,7 @@ libp11-kit0
 libp11-kit0-32bit
 libpacemaker3
 libpackagekit-glib2-16
+libpackagekit-qt2-5
 libpanel-applet-4-0
 libpango-1_0-0
 libpango-1_0-0-32bit
@@ -3033,6 +3056,7 @@ libwebp4
 libwebp4-32bit
 libwebrtc_audio_processing0
 libwmf-0_2-7
+libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck-devel
@@ -3041,6 +3065,8 @@ libwpd-devel
 libwpg-0_2-2
 libwpg-devel
 libwps-0_2-2
+libwrap0
+libwrap0-32bit
 libwv-1_2-1
 libwv2-4
 libwx_baseu-2_8-0-stl
@@ -3185,6 +3211,7 @@ links
 linphone
 linphone-devel
 linux-glibc-devel
+linux-libertine-fonts
 linux32
 lirc
 lirc-devel
@@ -3332,6 +3359,7 @@ mozilla-nss-devel
 mpfr-devel
 mpfr-devel-32bit
 mpi-selector
+mplus-fonts
 mpt-firmware
 mpt-status
 mrtg
@@ -3541,6 +3569,7 @@ opie
 opie-32bit
 oprofile
 oprofile-32bit
+optipng
 orage
 orage-doc
 orage-lang
@@ -4008,6 +4037,7 @@ pinentry
 pinentry-gtk2
 pinentry-qt4
 pinfo
+pinpoint
 pitivi
 pitivi-lang
 pk-update-icon
@@ -4031,6 +4061,7 @@ pm-profiler
 pm-utils
 pm-utils-ndiswrapper
 pmidi
+podofo
 polkit
 polkit-default-privs
 polkit-devel
@@ -4043,7 +4074,12 @@ posix_cc
 poster
 postfix
 postfix-doc
+postgresql
+postgresql-contrib
+postgresql-devel
+postgresql-docs
 postgresql-init
+postgresql-server
 postgresql92
 postgresql92-contrib
 postgresql92-devel
@@ -4082,6 +4118,9 @@ pwgen
 pychecker
 python
 python-32bit
+python-Babel
+python-CherryPy
+python-Genshi
 python-M2Crypto
 python-Pygments
 python-SpiceClientGtk
@@ -4095,8 +4134,10 @@ python-boto
 python-brlapi
 python-cairo
 python-cairo-devel
+python-clientform
 python-cloudfiles
 python-configobj
+python-cssutils
 python-cups
 python-cupshelpers
 python-curses
@@ -4105,6 +4146,7 @@ python-dee
 python-deltarpm
 python-devel
 python-distribute
+python-dnspython
 python-doc
 python-egenix-mx-base
 python-fcgi
@@ -4141,10 +4183,14 @@ python-liblarch_gtk
 python-libxml2
 python-louis
 python-lxml
+python-mechanize
+python-netifaces
 python-notify
 python-numpy
 python-oauth
+python-odfpy
 python-opensync
+python-optcomplete
 python-orbit
 python-pam
 python-pssh
@@ -4154,6 +4200,7 @@ python-pyasn1-modules
 python-pybluez
 python-pycurl
 python-pygame
+python-pypdf
 python-pyserial
 python-pyudev
 python-pyzmq
@@ -4322,6 +4369,7 @@ rubygem-webyast-ntp
 rubygem-webyast-rake-tasks
 rubygem-webyast-roles
 rubygem-webyast-services
+rubygem-webyast-software
 rubygem-webyast-status
 rubygem-webyast-system
 rubygem-webyast-terminal
@@ -4380,6 +4428,7 @@ sfftobmp
 sg3_utils
 sgml-skel
 shadow
+shared-color-profiles
 shared-desktop-ontologies
 shared-desktop-ontologies-devel
 shared-mime-info
@@ -4470,6 +4519,7 @@ subversion-server
 subversion-tools
 sudo
 suse-module-tools
+susedoc
 susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
@@ -4522,8 +4572,6 @@ tclplug
 tclplug-32bit
 tcludp
 tclx
-tcpd
-tcpd-32bit
 tcpd-devel
 tcpdump
 tcsh
@@ -4590,6 +4638,7 @@ tracker-miner-files
 tracker-miner-firefox
 tracker-miner-thunderbird
 trang
+transfig
 translation-update
 translation-update-cs
 translation-update-de

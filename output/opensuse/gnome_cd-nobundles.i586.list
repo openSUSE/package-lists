@@ -25,7 +25,13 @@ NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-lang
+PackageKit
+PackageKit-backend-zypp
+PackageKit-branding-openSUSE
+PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
+PackageKit-lang
 SuSEfirewall2
 a2ps
 aaa_base
@@ -276,7 +282,7 @@ gnome-keyring-pam
 gnome-mahjongg
 gnome-mahjongg-lang
 gnome-menus
-gnome-menus-branding-upstream
+gnome-menus-branding-openSUSE
 gnome-menus-lang
 gnome-nettool
 gnome-nettool-lang
@@ -615,7 +621,7 @@ libelf0
 libelf1
 libenca0
 libenchant1
-liberation2-fonts
+liberation-fonts
 libestr0
 libevdocument3-4
 libevent-2_0-5
@@ -1001,6 +1007,7 @@ libwnck-1-22
 libwnck-3-0
 libwnck-lang
 libwnck2-lang
+libwrap0
 libx86-1
 libx86emu1
 libxapian22
@@ -1341,7 +1348,6 @@ t1lib
 tar
 tar-lang
 tcl
-tcpd
 telepathy-gabble
 telepathy-haze
 telepathy-idle

@@ -25,7 +25,13 @@ NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-kde4
 NetworkManager-vpnc-lang
+PackageKit
+PackageKit-backend-zypp
+PackageKit-branding-openSUSE
+PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
+PackageKit-lang
 SuSEfirewall2
 a2ps
 aaa_base
@@ -43,6 +49,7 @@ alsa-plugins-pulse
 alsa-utils
 amarok
 amarok-lang
+apper
 appmenu-qt
 appres
 ark
@@ -470,7 +477,7 @@ libelf0
 libelf1
 libenca0
 libenchant1
-liberation2-fonts
+liberation-fonts
 libestr0
 libevent-2_0-5
 libexif12
@@ -641,6 +648,7 @@ liborc-0_4-0
 libortp8
 libp11-kit0
 libpackagekit-glib2-16
+libpackagekit-qt2-5
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
@@ -758,6 +766,7 @@ libvorbisfile3
 libwavpack1
 libwbclient0
 libwebrtc_audio_processing0
+libwrap0
 libx86-1
 libx86emu1
 libxatracker1
@@ -1038,7 +1047,6 @@ taglib
 tar
 tar-lang
 tcl
-tcpd
 terminfo-base
 terminus-bitmap-fonts
 thessalonica-oldstandard-otf-fonts
