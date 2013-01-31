@@ -487,6 +487,7 @@ dosbox
 dosfstools
 doxygen
 dragonplayer
+dtv-scan-tables
 duplicity
 dvb
 dvd+rw-tools
@@ -515,8 +516,6 @@ enscript
 eog
 eog-plugins
 eog-plugins-lang
-epdfview
-epdfview-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-extensions
@@ -601,6 +600,8 @@ ft2demos
 fuse
 fvwm-themes
 fvwm2
+fwnn
+fwnncom
 fxload
 g3utils
 galculator
@@ -691,6 +692,7 @@ gimp-branding-openSUSE
 gimp-help
 gimp-help-browser
 gimp-help-de
+gimp-help-en_GB
 gimp-help-ru
 gimp-lang
 gimp-plugins-python
@@ -763,8 +765,6 @@ gnome-control-center-user-faces
 gnome-desktop-sharp2
 gnome-desktop2
 gnome-desktop2-lang
-gnome-devel-docs
-gnome-devel-docs-lang
 gnome-dictionary
 gnome-disk-utility
 gnome-do
@@ -842,8 +842,6 @@ gnu-jaf
 gnu-unifont-bitmap-fonts
 gnucash
 gnucash-lang
-gnumeric
-gnumeric-lang
 gnutls
 gobject-introspection
 gobject-introspection-devel
@@ -879,6 +877,8 @@ groff-devx
 grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
+grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -1207,8 +1207,6 @@ kde4-kapptemplate
 kde4-kgreeter-plugins
 kde4-l10n-cs
 kde4-l10n-da
-kde4-l10n-da-data
-kde4-l10n-da-doc
 kde4-l10n-de
 kde4-l10n-de-data
 kde4-l10n-de-doc
@@ -1223,11 +1221,9 @@ kde4-l10n-fr-data
 kde4-l10n-hu
 kde4-l10n-it
 kde4-l10n-it-data
-kde4-l10n-it-doc
 kde4-l10n-ja
 kde4-l10n-pl
 kde4-l10n-pl-data
-kde4-l10n-pl-doc
 kde4-l10n-pt
 kde4-l10n-pt_BR
 kde4-l10n-pt_BR-data
@@ -1415,7 +1411,6 @@ lensfun-data
 lensfun-devel
 lensfun-doc
 less
-lessons4lizards_en
 lftp
 libEMF1
 libFLAC++6
@@ -1680,7 +1675,6 @@ libclucene2
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
-libcogl-gles2-11
 libcogl-pango0
 libcogl11
 libcollectdclient0
@@ -1784,7 +1778,7 @@ libext2fs-devel
 libext2fs2
 libfam0
 libfarstream-0_2-2
-libfcitx-4_2_6
+libfcitx-4_2_7
 libfdt1
 libffi4
 libffi47-devel
@@ -2256,7 +2250,6 @@ libopenjpeg1
 libopenobex1
 libopenraw1
 libopenssl-devel
-libopenssl0_9_8
 libopenssl1_0_0
 libopensync
 libopensync-plugin-google-calendar
@@ -2282,7 +2275,6 @@ libpackagekit-qt2-5
 libpanel-applet-4-0
 libpango-1_0-0
 libpangomm-1_4-1
-libpangox-1_0-0
 libpano13-2
 libparted0
 libpath_utils1
@@ -2338,6 +2330,7 @@ libppl_c4
 libpq5
 libpqxx
 libpqxx-devel
+libpresage1
 libprison-devel
 libprison0
 libprocps1
@@ -2438,7 +2431,6 @@ libreoffice-help-pt
 libreoffice-help-pt-BR
 libreoffice-help-ru
 libreoffice-help-sv
-libreoffice-help-zh-CN
 libreoffice-help-zh-TW
 libreoffice-hyphen
 libreoffice-icon-theme-crystal
@@ -3079,6 +3071,7 @@ nmap
 nodejs
 notification-daemon
 notify-sharp
+nscd
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -3142,7 +3135,6 @@ opensuse-manuals_de
 opensuse-manuals_en
 opensuse-reference_en-pdf
 opensuse-security_en-pdf
-opensuse-startup_en-pdf
 opensuse-tuning_en-pdf
 openvpn
 opie
@@ -3174,7 +3166,6 @@ pan
 pan-lang
 pango-devel
 pango-tools
-pangox-compat
 paprefs
 paprefs-lang
 par
@@ -3325,6 +3316,7 @@ perl-Class-ISA
 perl-Class-Inspector
 perl-Class-MethodMaker
 perl-Class-Multimethods
+perl-Class-Singleton
 perl-Class-WhiteHole
 perl-Clone
 perl-Compress-Bzip2
@@ -3417,6 +3409,7 @@ perl-IPC-Run3
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
+perl-JSON
 perl-LWP-MediaTypes
 perl-Lingua-EN-Sentence
 perl-List-MoreUtils
@@ -3638,7 +3631,12 @@ posix_cc
 poster
 postfix
 postfix-doc
+postgresql
+postgresql-contrib
+postgresql-devel
+postgresql-docs
 postgresql-init
+postgresql-server
 postgresql92
 postgresql92-contrib
 postgresql92-devel
@@ -3650,6 +3648,7 @@ ppp
 pptp
 pptpd
 prctl
+presage-data
 privoxy
 procinfo
 procmail
@@ -3694,6 +3693,7 @@ python-cairo-devel
 python-clientform
 python-cloudfiles
 python-configobj
+python-cssselect
 python-cssutils
 python-cups
 python-cupshelpers
@@ -4132,6 +4132,7 @@ telepathy-mission-control-plugin-goa
 telepathy-rakia
 telepathy-salut
 telnet
+termcap
 terminfo
 terminfo-base
 terminus-bitmap-fonts
@@ -4299,7 +4300,6 @@ unison
 units
 unixODBC
 unoconv
-unscd
 unzip
 update-alternatives
 update-desktop-files
@@ -4693,7 +4693,6 @@ yast2-dbus-client
 yast2-dbus-server
 yast2-dhcp-server
 yast2-dns-server
-yast2-drbd
 yast2-fingerprint-reader
 yast2-firewall
 yast2-firstboot

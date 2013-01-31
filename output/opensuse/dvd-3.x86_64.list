@@ -40,6 +40,7 @@ diffutils
 dirmngr
 dmraid
 e2fsprogs
+efibootmgr
 eject
 elfutils
 ethtool
@@ -55,15 +56,15 @@ gio-branding-openSUSE
 glib-networking
 glib2-tools
 glibc
-glibc-32bit
 glibc-extra
 glibc-locale
 gpg2
 grep
-grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
 grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gzip
@@ -154,7 +155,6 @@ libmicrohttpd10
 libmodman1
 libmount1
 libncurses5
-libncurses5-32bit
 libncurses6
 libnettle4
 libnfnetlink0
@@ -215,10 +215,10 @@ lsof
 lsscsi
 lukemftp
 lvm2
-master-boot-code
 mdadm
 mkinitrd
 module-init-tools
+mtools
 multipath-tools
 ncurses-utils
 net-tools
@@ -226,6 +226,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nscd
 ntfs-3g
 ntp
 openSUSE-build-key
@@ -282,6 +283,7 @@ sudo
 suse-module-tools
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
@@ -295,7 +297,6 @@ terminfo-base
 timezone
 tunctl
 udev
-unscd
 unzip
 update-alternatives
 upower

@@ -54,8 +54,6 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
-abiword
-abiword-docs
 accountsservice
 acl
 acpica
@@ -77,27 +75,7 @@ amavisd-new
 amavisd-new-docs
 anjuta
 anjuta-lang
-ant
-ant-antlr
-ant-apache-bcel
-ant-apache-bsf
-ant-apache-log4j
-ant-apache-oro
-ant-apache-regexp
-ant-apache-resolver
-ant-commons-logging
-ant-javadoc
-ant-javamail
-ant-jdepend
-ant-jmf
-ant-junit
-ant-manual
-ant-scripts
-ant-swing
 anthy
-antlr
-antlr-java
-apache-commons-logging
 apache2
 apache2-doc
 apache2-example-pages
@@ -118,8 +96,6 @@ apport-crashdb-opensuse
 apport-gtk
 apport-qt
 appres
-aqbanking
-aqbanking-lang
 arabic-fonts
 ark
 arphic-ukai-fonts
@@ -178,7 +154,6 @@ baobab
 bash
 bash-doc
 bc
-bcel
 bdftopcf
 bea-stax
 bea-stax-api
@@ -217,7 +192,6 @@ brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 bsdtar
-bsf
 btrfsprogs
 build
 build-mkbaselibs
@@ -317,6 +291,7 @@ cracklib
 cracklib-dict-full
 crda
 createrepo
+crimson
 cron
 cronie
 cryptsetup
@@ -387,6 +362,7 @@ dolphin
 dos2unix
 dosfstools
 doxygen
+dtv-scan-tables
 dvb
 dvd+rw-tools
 dynamic-wallpaper-branding-openSUSE
@@ -412,8 +388,6 @@ enchant-devel
 enchant-voikko
 enscript
 eog
-epdfview
-epdfview-lang
 espeak
 ethtool
 evince
@@ -468,6 +442,8 @@ fslsfonts
 fstobdf
 ft2demos
 fuse
+fwnn
+fwnncom
 g3utils
 galculator
 gawk
@@ -476,14 +452,10 @@ gbrainy-lang
 gcalctool
 gcc
 gcc-c++
-gcc-gij
 gcc-info
-gcc-java
 gcc47
 gcc47-c++
-gcc47-gij
 gcc47-info
-gcc47-java
 gccmakedep
 gcin
 gcin-branding-openSUSE
@@ -515,8 +487,6 @@ gegl-0_2-lang
 genisoimage
 geoclue
 geoclue-recommended
-geronimo-j2ee-1_4-apis
-geronimo-specs-poms
 gettext-runtime
 gettext-tools
 gfxboot
@@ -535,6 +505,8 @@ gimp
 gimp-branding-openSUSE
 gimp-help
 gimp-help-browser
+gimp-help-en_GB
+gimp-help-fi
 gimp-lang
 gimp-plugins-python
 gio-branding-openSUSE
@@ -548,7 +520,6 @@ git-gui
 git-svn
 git-web
 gitk
-gjdoc
 gjs
 gkeyfile-sharp
 glade
@@ -655,14 +626,9 @@ gnotski
 gnotski-lang
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
-gnucash
-gnucash-lang
-gnumeric
-gnumeric-lang
 gnutls
 gobject-introspection
 gobject-introspection-devel
-goffice-lang
 google-arimo-fonts
 google-cousine-fonts
 google-croscore-fonts
@@ -685,6 +651,8 @@ groff-devx
 grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
+grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -771,13 +739,11 @@ gucharmap-devel
 gudev-sharp
 guile
 guile-modules-2_0
-guile1
 gutenprint
 gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
-gwenhywfar-lang
 gwenview
 gxditview
 gzip
@@ -895,18 +861,14 @@ ispell-spanish
 ispell-swedish
 itstool
 iw
-java-1_5_0-gcj-compat
-java-1_5_0-gcj-compat-devel
 java-1_7_0-openjdk
 java-ca-certificates
-jdepend
 jfsutils
 jing
 jline
 joe
 jpackage-utils
 json-glib-devel
-junit
 k3b
 k3b-lang
 kactivities4
@@ -931,8 +893,6 @@ kde4-kapptemplate
 kde4-kgreeter-plugins
 kde4-l10n-cs
 kde4-l10n-da
-kde4-l10n-da-data
-kde4-l10n-da-doc
 kde4-l10n-de
 kde4-l10n-de-data
 kde4-l10n-de-doc
@@ -948,7 +908,6 @@ kde4-l10n-fr-data
 kde4-l10n-hu
 kde4-l10n-it
 kde4-l10n-it-data
-kde4-l10n-it-doc
 kde4-l10n-ja
 kde4-l10n-nb
 kde4-l10n-nl
@@ -956,7 +915,6 @@ kde4-l10n-nl-data
 kde4-l10n-nl-doc
 kde4-l10n-pl
 kde4-l10n-pl-data
-kde4-l10n-pl-doc
 kde4-l10n-pt
 kde4-l10n-pt_BR
 kde4-l10n-pt_BR-data
@@ -1097,7 +1055,6 @@ lcms2
 leafpad
 lensfun-data
 less
-lessons4lizards_en
 libEMF1
 libFLAC++6
 libFLAC8
@@ -1207,7 +1164,6 @@ libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
 libaa1
-libabiword-2_8
 libaccountsservice0
 libacl-devel
 libacl1
@@ -1334,7 +1290,6 @@ libclucene2
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
-libcogl-gles2-11
 libcogl-pango0
 libcogl11
 libcollection2
@@ -1354,7 +1309,6 @@ libdaemon0
 libdb-4_5
 libdb-4_5-devel
 libdb-4_8
-libdbi1
 libdbus-1-3
 libdbusmenu-qt2
 libdc1394-22
@@ -1412,7 +1366,7 @@ libext2fs-devel
 libext2fs2
 libfam0
 libfarstream-0_2-2
-libfcitx-4_2_6
+libfcitx-4_2_7
 libfdt1
 libffi4
 libffi47-devel
@@ -1517,8 +1471,6 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-0
 libgobject-2_0-0
-libgoffice-0_10-10
-libgoffice-0_8-8
 libgomp1
 libgooglepinyin0
 libgpg-error-devel
@@ -1579,12 +1531,6 @@ libgtop-devel
 libgucharmap_2_90-7
 libgudev-1_0-0
 libguile-2_0-22
-libguile-srfi-srfi-1-v-3-3
-libguile-srfi-srfi-13-14-v-3-3
-libguile-srfi-srfi-4-v-3-3
-libguile-srfi-srfi-60-v-2-2
-libguile17
-libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
@@ -1593,9 +1539,6 @@ libgvnc-1_0-0
 libgweather-3-1
 libgweather-data
 libgweather-devel
-libgwengui-gtk2-0
-libgwenhywfar60
-libgwenhywfar60-plugins
 libgxps2
 libhangul1
 libharfbuzz0
@@ -1673,7 +1616,6 @@ libksane0
 libksba8
 libksuseinstall1
 libktexteditor
-libktoblzcheck1
 libktorrent5
 libkvkontakte1
 liblapack3
@@ -1773,8 +1715,6 @@ libntrack0
 liboauth-devel
 liboauth0
 libofa0
-libofx
-libofx5
 libogg0
 liboggkate1
 liboldX-devel
@@ -1788,7 +1728,6 @@ libopenjpeg1
 libopenobex1
 libopenraw1
 libopenssl-devel
-libopenssl0_9_8
 libopenssl1_0_0
 libopensync
 libopensync-plugin-google-calendar
@@ -1808,7 +1747,6 @@ libpackagekit-qt2-5
 libpanel-applet-4-0
 libpango-1_0-0
 libpangomm-1_4-1
-libpangox-1_0-0
 libpano13-2
 libparted0
 libpath_utils1
@@ -1858,6 +1796,7 @@ libpopt0
 libportaudio2
 libppl9
 libppl_c4
+libpresage1
 libprison0
 libprocps1
 libprotobuf7
@@ -1944,7 +1883,6 @@ libreoffice-help-pt
 libreoffice-help-pt-BR
 libreoffice-help-ru
 libreoffice-help-sv
-libreoffice-help-zh-CN
 libreoffice-help-zh-TW
 libreoffice-hyphen
 libreoffice-icon-theme-crystal
@@ -2146,7 +2084,6 @@ libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
 libwrap0
-libwv-1_2-1
 libwv2-4
 libwx_baseu-2_8-0-stl
 libwx_baseu_net-2_8-0-stl
@@ -2208,7 +2145,6 @@ libxkbui1
 libxklavier-devel
 libxklavier16
 libxmi0
-libxml++-2_6-2
 libxml2-2
 libxml2-devel
 libxml2-tools
@@ -2246,7 +2182,6 @@ limal
 limal-nfs-server
 limal-nfs-server-perl
 limal-perl
-link-grammar
 linux-glibc-devel
 lirc
 lirc-remotes
@@ -2254,7 +2189,6 @@ listres
 lklug-fonts
 lndir
 lockdev
-log4j-mini
 logrotate
 lokalize
 lomoco
@@ -2469,6 +2403,7 @@ nkf
 nmap
 notification-daemon
 notify-sharp
+nscd
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -2519,7 +2454,6 @@ orage-doc
 orage-lang
 orbit2
 orca
-oro
 os-prober
 oxygen-icon-theme
 p11-kit-devel
@@ -2535,7 +2469,6 @@ pam_ldap
 pam_mount
 pango-devel
 pango-tools
-pangox-compat
 parallel-printer-support
 paratype-pt-mono-fonts
 paratype-pt-sans-fonts
@@ -2552,7 +2485,6 @@ patterns-openSUSE-console
 patterns-openSUSE-devel_C_C++
 patterns-openSUSE-devel_basis
 patterns-openSUSE-devel_gnome
-patterns-openSUSE-devel_java
 patterns-openSUSE-devel_kde
 patterns-openSUSE-devel_kernel
 patterns-openSUSE-devel_qt4
@@ -2642,6 +2574,7 @@ perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-Carp-Clan
+perl-Class-Singleton
 perl-Clone
 perl-Config-Crontab
 perl-Config-IniFiles
@@ -2653,7 +2586,6 @@ perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
 perl-Crypt-Rijndael
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
@@ -2661,7 +2593,6 @@ perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
 perl-Date-Calc
-perl-Date-Manip
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
@@ -2670,14 +2601,9 @@ perl-Encode-Locale
 perl-Error
 perl-File-Listing
 perl-File-RandomAccess
-perl-Finance-Quote
-perl-HTML-Element-Extended
 perl-HTML-Parser
 perl-HTML-SimpleParse
-perl-HTML-TableExtract
 perl-HTML-Tagset
-perl-HTML-TokeParser-Simple
-perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -2688,6 +2614,7 @@ perl-IO-Socket-SSL
 perl-IO-stringy
 perl-IP-Country
 perl-Image-ExifTool
+perl-JSON
 perl-LWP-MediaTypes
 perl-List-MoreUtils
 perl-MIME-tools
@@ -2718,7 +2645,6 @@ perl-Readonly
 perl-SNMP
 perl-SQL-Statement
 perl-Socket6
-perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Term-ReadKey
@@ -2740,7 +2666,6 @@ perl-XML-Simple
 perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
-perl-YAML-Syck
 perl-apparmor
 perl-base
 perl-camgm
@@ -2799,12 +2724,12 @@ pothana2000-fonts
 ppp
 pptp
 prctl
+presage-data
 procinfo
 procmail
 procps
 providers
 proxymngr
-psiconv
 psmisc
 pstoedit
 ptools
@@ -2889,7 +2814,6 @@ re2c
 readline-devel
 readline-doc
 recode
-regexp
 reiserfs
 release-notes-openSUSE
 remmina
@@ -2966,7 +2890,6 @@ skanlite
 skanlite-doc
 skanlite-lang
 skkdic
-slib
 smartmontools
 smbios-utils-python
 smp_utils
@@ -3057,6 +2980,7 @@ telepathy-mission-control-plugin-goa
 telepathy-rakia
 telepathy-salut
 telnet
+termcap
 terminfo
 terminfo-base
 terminus-bitmap-fonts
@@ -3199,7 +3123,6 @@ umbrello
 un-fonts
 unison
 unoconv
-unscd
 unzip
 update-alternatives
 update-desktop-files
@@ -3271,7 +3194,6 @@ wxWidgets-lang
 x11-japanese-bitmap-fonts
 x11-tools
 x11perf
-xalan-j2
 xano-mincho-fonts
 xauth
 xaw3d
@@ -3303,7 +3225,7 @@ xdmbgrd
 xdpyinfo
 xedit
 xen-libs
-xerces-j2
+xerces-j2-xml-apis
 xerces-j2-xml-resolver
 xev
 xeyes
@@ -3417,9 +3339,6 @@ xmag
 xman
 xmanja
 xmessage
-xml-commons
-xml-commons-jaxp-1.1-apis
-xml-commons-which10
 xml2po
 xml2po-devel
 xmlbeans

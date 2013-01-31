@@ -542,6 +542,7 @@ dosbox
 dosfstools
 doxygen
 dragonplayer
+dtv-scan-tables
 duplicity
 dvb
 dvd+rw-tools
@@ -659,6 +660,8 @@ ft2demos
 fuse
 fvwm-themes
 fvwm2
+fwnn
+fwnncom
 fxload
 g3utils
 galculator
@@ -754,19 +757,7 @@ giflib-devel-32bit
 giggle
 gimp
 gimp-branding-openSUSE
-gimp-help
 gimp-help-browser
-gimp-help-da
-gimp-help-de
-gimp-help-es
-gimp-help-fr
-gimp-help-it
-gimp-help-ja
-gimp-help-nl
-gimp-help-pl
-gimp-help-ru
-gimp-help-sv
-gimp-help-zh
 gimp-plugins-python
 gimp-ufraw
 gio-branding-openSUSE
@@ -832,7 +823,6 @@ gnome-control-center
 gnome-control-center-branding-openSUSE
 gnome-control-center-user-faces
 gnome-desktop-sharp2
-gnome-devel-docs
 gnome-dictionary
 gnome-disk-utility
 gnome-do
@@ -941,7 +931,9 @@ groff-devx
 grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
 grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
@@ -1495,7 +1487,6 @@ lensfun-data
 lensfun-devel
 lensfun-doc
 less
-lessons4lizards_en
 lftp
 libEMF1
 libFLAC++6
@@ -1834,7 +1825,6 @@ libclucene2
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
-libcogl-gles2-11
 libcogl-pango0
 libcogl11
 libcollectdclient0
@@ -1965,7 +1955,7 @@ libext2fs-devel
 libext2fs2
 libfam0
 libfarstream-0_2-2
-libfcitx-4_2_6
+libfcitx-4_2_7
 libfdt1
 libffi4
 libffi4-32bit
@@ -2530,7 +2520,6 @@ libopenobex1
 libopenraw1
 libopenssl-devel
 libopenssl-devel-32bit
-libopenssl0_9_8-32bit
 libopenssl1_0_0
 libopenssl1_0_0-32bit
 libopensync
@@ -2562,7 +2551,6 @@ libpanel-applet-4-0
 libpango-1_0-0
 libpango-1_0-0-32bit
 libpangomm-1_4-1
-libpangox-1_0-0-32bit
 libpano13-2
 libparted0
 libpath_utils1
@@ -2629,6 +2617,7 @@ libpq5
 libpq5-32bit
 libpqxx
 libpqxx-devel
+libpresage1
 libprison-devel
 libprison0
 libprocps1
@@ -3345,6 +3334,7 @@ mono-winforms
 mono-winfxcore
 mono-zeroconf
 mono-zeroconf-provider-avahi
+monodevelop
 monodoc-core
 moodbar
 mousetweaks
@@ -3491,6 +3481,7 @@ nmap
 nodejs
 notification-daemon
 notify-sharp
+nscd
 nss-mdns
 nss-mdns-32bit
 nss_ldap
@@ -3751,6 +3742,7 @@ perl-Class-ISA
 perl-Class-Inspector
 perl-Class-MethodMaker
 perl-Class-Multimethods
+perl-Class-Singleton
 perl-Class-WhiteHole
 perl-Clone
 perl-Compress-Bzip2
@@ -3843,6 +3835,7 @@ perl-IPC-Run3
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
+perl-JSON
 perl-LWP-MediaTypes
 perl-Lingua-EN-Sentence
 perl-List-MoreUtils
@@ -4081,6 +4074,7 @@ ppp
 pptp
 pptpd
 prctl
+presage-data
 privoxy
 procinfo
 procmail
@@ -4127,6 +4121,7 @@ python-cairo-devel
 python-clientform
 python-cloudfiles
 python-configobj
+python-cssselect
 python-cssutils
 python-cups
 python-cupshelpers
@@ -4567,6 +4562,7 @@ telepathy-mission-control-plugin-goa
 telepathy-rakia
 telepathy-salut
 telnet
+termcap
 terminfo
 terminfo-base
 terminus-bitmap-fonts
@@ -5474,7 +5470,6 @@ units
 unixODBC
 unixODBC-32bit
 unoconv
-unscd
 unzip
 update-alternatives
 update-desktop-files
@@ -5879,7 +5874,6 @@ yast2-devel-doc
 yast2-devtools
 yast2-dhcp-server
 yast2-dns-server
-yast2-drbd
 yast2-fingerprint-reader
 yast2-firewall
 yast2-firstboot

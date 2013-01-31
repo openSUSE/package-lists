@@ -279,9 +279,10 @@ grilo-plugin-youtube
 grilo-plugins
 groff
 groff-devx
-grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
+grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -985,6 +986,7 @@ netcfg
 nfs-client
 nfsidmap
 notification-daemon
+nscd
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -1191,6 +1193,7 @@ suspend
 swell-foop
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 system-config-printer
 system-config-printer-applet
@@ -1284,7 +1287,6 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udisks2
-unscd
 unzip
 update-alternatives
 upower

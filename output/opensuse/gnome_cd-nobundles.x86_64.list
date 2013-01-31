@@ -362,10 +362,11 @@ grilo-plugin-youtube
 grilo-plugins
 groff
 groff-devx
-grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
 grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
@@ -816,7 +817,6 @@ libmusicbrainz5-0
 libmutter0
 libnautilus-extension1
 libncurses5
-libncurses5-32bit
 libncurses6
 libneon27
 libnetfilter_conntrack3
@@ -1119,6 +1119,7 @@ nfs-client
 nfsidmap
 notification-daemon
 notification-daemon-lang
+nscd
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -1341,6 +1342,7 @@ swell-foop
 swell-foop-lang
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 system-config-printer
 system-config-printer-applet
@@ -1446,7 +1448,6 @@ udev
 udev-configure-printer
 udisks2
 udisks2-lang
-unscd
 unzip
 update-alternatives
 upower

@@ -55,6 +55,7 @@ dmidecode
 dmraid
 dosfstools
 e2fsprogs
+efibootmgr
 eject
 elfutils
 ethtool
@@ -84,7 +85,9 @@ gpm
 grep
 groff
 groff-devx
+grub2-efi
 grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gxditview
@@ -194,7 +197,6 @@ libmicrohttpd10
 libmodman1
 libmount1
 libncurses5
-libncurses5-32bit
 libncurses6
 libnettle4
 libnfnetlink0
@@ -290,6 +292,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nscd
 ntfs-3g
 ntfsprogs
 ntp
@@ -372,6 +375,7 @@ sudo
 suse-module-tools
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
@@ -382,7 +386,6 @@ terminfo-base
 timezone
 tunctl
 udev
-unscd
 unzip
 update-alternatives
 upower

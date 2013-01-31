@@ -221,7 +221,6 @@ avahi-compat-mDNSResponder-devel
 avalon-framework
 avogadro
 avogadro-devel
-avogadro-devel-32bit
 awesfx
 axis
 b43-fwcutter
@@ -521,6 +520,7 @@ dosbox
 dosfstools
 doxygen
 dragonplayer
+dtv-scan-tables
 duplicity
 dvb
 dvd+rw-tools
@@ -550,8 +550,6 @@ enscript
 eog
 eog-plugins
 eog-plugins-lang
-epdfview
-epdfview-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-extensions
@@ -641,6 +639,8 @@ ft2demos
 fuse
 fvwm-themes
 fvwm2
+fwnn
+fwnncom
 fxload
 g3utils
 galculator
@@ -744,10 +744,7 @@ giggle
 giggle-lang
 gimp
 gimp-branding-openSUSE
-gimp-help
 gimp-help-browser
-gimp-help-de
-gimp-help-ru
 gimp-lang
 gimp-plugins-python
 gimp-ufraw
@@ -826,8 +823,6 @@ gnome-control-center-user-faces
 gnome-desktop-sharp2
 gnome-desktop2
 gnome-desktop2-lang
-gnome-devel-docs
-gnome-devel-docs-lang
 gnome-dictionary
 gnome-disk-utility
 gnome-do
@@ -906,8 +901,6 @@ gnu-jaf
 gnu-unifont-bitmap-fonts
 gnucash
 gnucash-lang
-gnumeric
-gnumeric-lang
 gnutls
 gobject-introspection
 gobject-introspection-devel
@@ -1287,8 +1280,6 @@ kde4-kapptemplate
 kde4-kgreeter-plugins
 kde4-l10n-cs
 kde4-l10n-da
-kde4-l10n-da-data
-kde4-l10n-da-doc
 kde4-l10n-de
 kde4-l10n-de-data
 kde4-l10n-de-doc
@@ -1303,11 +1294,9 @@ kde4-l10n-fr-data
 kde4-l10n-hu
 kde4-l10n-it
 kde4-l10n-it-data
-kde4-l10n-it-doc
 kde4-l10n-ja
 kde4-l10n-pl
 kde4-l10n-pl-data
-kde4-l10n-pl-doc
 kde4-l10n-pt
 kde4-l10n-pt_BR
 kde4-l10n-pt_BR-data
@@ -1496,7 +1485,6 @@ lensfun-data
 lensfun-devel
 lensfun-doc
 less
-lessons4lizards_en
 lftp
 libEMF1
 libFLAC++6
@@ -1506,7 +1494,6 @@ libFLAC8-32bit
 libFS-devel
 libFS6
 libGLEW1_9
-libGLEW1_9-32bit
 libGLU1
 libGLU1-32bit
 libGeoIP1
@@ -1725,7 +1712,6 @@ libavahi-ui-gtk3-0
 libavc1394-0
 libavc1394-0-32bit
 libavogadro1
-libavogadro1-32bit
 libavutil51
 libavutil51-32bit
 libbabl-0_1-0
@@ -1756,7 +1742,6 @@ libboost_math1_49_0
 libboost_mpi1_49_0
 libboost_program_options1_49_0
 libboost_python1_49_0
-libboost_python1_49_0-32bit
 libboost_random1_49_0
 libboost_regex1_49_0
 libboost_serialization1_49_0
@@ -1837,7 +1822,6 @@ libclucene2
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
-libcogl-gles2-11
 libcogl-pango0
 libcogl11
 libcollectdclient0
@@ -1968,7 +1952,7 @@ libext2fs-devel
 libext2fs2
 libfam0
 libfarstream-0_2-2
-libfcitx-4_2_6
+libfcitx-4_2_7
 libfdt1
 libffi4
 libffi4-32bit
@@ -2531,7 +2515,6 @@ libopenal1
 libopenal1-32bit
 libopenbabel-devel
 libopenbabel4
-libopenbabel4-32bit
 libopencc1
 libopencv2_4
 libopenjpeg1
@@ -2539,7 +2522,6 @@ libopenobex1
 libopenraw1
 libopenssl-devel
 libopenssl-devel-32bit
-libopenssl0_9_8-32bit
 libopenssl1_0_0
 libopenssl1_0_0-32bit
 libopensync
@@ -2571,7 +2553,6 @@ libpanel-applet-4-0
 libpango-1_0-0
 libpango-1_0-0-32bit
 libpangomm-1_4-1
-libpangox-1_0-0-32bit
 libpano13-2
 libparted0
 libpath_utils1
@@ -2638,6 +2619,7 @@ libpq5
 libpq5-32bit
 libpqxx
 libpqxx-devel
+libpresage1
 libprison-devel
 libprison0
 libprocps1
@@ -2686,7 +2668,6 @@ libqt4
 libqt4-32bit
 libqt4-devel
 libqt4-qt3support
-libqt4-qt3support-32bit
 libqt4-sql
 libqt4-sql-32bit
 libqt4-sql-mysql
@@ -2698,7 +2679,6 @@ libqt4-sql-sqlite-32bit
 libqt4-sql-unixODBC
 libqt4-sql-unixODBC-32bit
 libqt4-x11
-libqt4-x11-32bit
 libquadmath0
 libquadmath0-32bit
 libquicktime0
@@ -2758,7 +2738,6 @@ libreoffice-help-pt
 libreoffice-help-pt-BR
 libreoffice-help-ru
 libreoffice-help-sv
-libreoffice-help-zh-CN
 libreoffice-help-zh-TW
 libreoffice-hyphen
 libreoffice-icon-theme-crystal
@@ -3475,6 +3454,7 @@ nmap
 nodejs
 notification-daemon
 notify-sharp
+nscd
 nss-mdns
 nss-mdns-32bit
 nss_ldap
@@ -3543,7 +3523,6 @@ opensuse-manuals_de
 opensuse-manuals_en
 opensuse-reference_en-pdf
 opensuse-security_en-pdf
-opensuse-startup_en-pdf
 opensuse-tuning_en-pdf
 openvpn
 opie
@@ -3741,6 +3720,7 @@ perl-Class-ISA
 perl-Class-Inspector
 perl-Class-MethodMaker
 perl-Class-Multimethods
+perl-Class-Singleton
 perl-Class-WhiteHole
 perl-Clone
 perl-Compress-Bzip2
@@ -3833,6 +3813,7 @@ perl-IPC-Run3
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
+perl-JSON
 perl-LWP-MediaTypes
 perl-Lingua-EN-Sentence
 perl-List-MoreUtils
@@ -4072,6 +4053,7 @@ ppp
 pptp
 pptpd
 prctl
+presage-data
 privoxy
 procinfo
 procmail
@@ -4118,6 +4100,7 @@ python-cairo-devel
 python-clientform
 python-cloudfiles
 python-configobj
+python-cssselect
 python-cssutils
 python-cups
 python-cupshelpers
@@ -4569,6 +4552,7 @@ telepathy-mission-control-plugin-goa
 telepathy-rakia
 telepathy-salut
 telnet
+termcap
 terminfo
 terminfo-base
 terminus-bitmap-fonts
@@ -4733,7 +4717,6 @@ uim-gtk2
 uim-gtk2-32bit
 uim-gtk3
 uim-gtk3-32bit
-uim-qt4-32bit
 umbrello
 un-fonts
 unclutter
@@ -4742,7 +4725,6 @@ units
 unixODBC
 unixODBC-32bit
 unoconv
-unscd
 unzip
 update-alternatives
 update-desktop-files
@@ -5146,7 +5128,6 @@ yast2-dbus-client
 yast2-dbus-server
 yast2-dhcp-server
 yast2-dns-server
-yast2-drbd
 yast2-fingerprint-reader
 yast2-firewall
 yast2-firstboot

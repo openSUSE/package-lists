@@ -243,6 +243,8 @@ grilo-plugin-youtube
 grilo-plugins
 groff
 groff-devx
+grub2-efi
+grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -885,6 +887,7 @@ netcfg
 nfs-client
 nfsidmap
 notification-daemon
+nscd
 nss-mdns
 ntfs-3g
 ntfsprogs
@@ -1025,6 +1028,7 @@ sushi
 swell-foop
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 system-config-printer
 system-config-printer-applet
@@ -1115,7 +1119,6 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udisks2
-unscd
 unzip
 update-alternatives
 upower

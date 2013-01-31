@@ -148,10 +148,11 @@ gptfdisk
 grep
 groff
 groff-devx
-grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
 grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gtk2-branding-openSUSE
@@ -394,7 +395,6 @@ libmpfr4
 libmtdev1
 libmysqlclient18
 libncurses5
-libncurses5-32bit
 libncurses6
 libnettle4
 libnfnetlink0
@@ -550,6 +550,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nscd
 nss_ldap
 ntfs-3g
 ntfsprogs
@@ -686,6 +687,7 @@ susehelp_en
 suspend
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
@@ -701,7 +703,6 @@ tunctl
 twm
 udev
 udisks2
-unscd
 unzip
 update-alternatives
 upower

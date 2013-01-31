@@ -180,10 +180,11 @@ gptfdisk
 grep
 groff
 groff-devx
-grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
 grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
@@ -575,7 +576,6 @@ libmygpo-qt1
 libmysqlclient18
 libmysqld18
 libncurses5
-libncurses5-32bit
 libncurses6
 libneon27
 libnepomukwidgets4
@@ -767,6 +767,7 @@ lukemftp
 lvm2
 mailx
 man
+mariadb-errormessages
 master-boot-code
 mc
 mdadm
@@ -800,6 +801,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nscd
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -984,6 +986,7 @@ suspend
 sweeper
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
@@ -1000,7 +1003,6 @@ tunctl
 twm
 udev
 udisks2
-unscd
 unzip
 update-alternatives
 update-desktop-files

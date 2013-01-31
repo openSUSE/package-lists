@@ -301,23 +301,6 @@ bundle-lang-gnome-da
 bundle-lang-gnome-de
 bundle-lang-gnome-en
 bundle-lang-gnome-es
-bundle-lang-gnome-extras-cs
-bundle-lang-gnome-extras-da
-bundle-lang-gnome-extras-de
-bundle-lang-gnome-extras-en
-bundle-lang-gnome-extras-es
-bundle-lang-gnome-extras-fi
-bundle-lang-gnome-extras-fr
-bundle-lang-gnome-extras-hu
-bundle-lang-gnome-extras-it
-bundle-lang-gnome-extras-ja
-bundle-lang-gnome-extras-nb
-bundle-lang-gnome-extras-nl
-bundle-lang-gnome-extras-pl
-bundle-lang-gnome-extras-pt
-bundle-lang-gnome-extras-ru
-bundle-lang-gnome-extras-sv
-bundle-lang-gnome-extras-zh
 bundle-lang-gnome-fi
 bundle-lang-gnome-fr
 bundle-lang-gnome-hu
@@ -522,6 +505,7 @@ dosbox
 dosfstools
 doxygen
 dragonplayer
+dtv-scan-tables
 duplicity
 dvb
 dvd+rw-tools
@@ -640,6 +624,8 @@ ft2demos
 fuse
 fvwm-themes
 fvwm2
+fwnn
+fwnncom
 fxload
 g3utils
 galculator
@@ -731,7 +717,9 @@ gimp-help
 gimp-help-browser
 gimp-help-da
 gimp-help-de
+gimp-help-en_GB
 gimp-help-es
+gimp-help-fi
 gimp-help-fr
 gimp-help-it
 gimp-help-ja
@@ -811,8 +799,6 @@ gnome-control-center-user-faces
 gnome-desktop-sharp2
 gnome-desktop2
 gnome-desktop2-lang
-gnome-devel-docs
-gnome-devel-docs-lang
 gnome-dictionary
 gnome-disk-utility
 gnome-do
@@ -929,6 +915,8 @@ groff-devx
 grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
+grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -1481,7 +1469,6 @@ lensfun-data
 lensfun-devel
 lensfun-doc
 less
-lessons4lizards_en
 lftp
 libEMF1
 libFLAC++6
@@ -1746,7 +1733,6 @@ libclucene2
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
-libcogl-gles2-11
 libcogl-pango0
 libcogl11
 libcollectdclient0
@@ -1851,7 +1837,7 @@ libext2fs-devel
 libext2fs2
 libfam0
 libfarstream-0_2-2
-libfcitx-4_2_6
+libfcitx-4_2_7
 libfdt1
 libffi4
 libffi47-devel
@@ -2323,7 +2309,6 @@ libopenjpeg1
 libopenobex1
 libopenraw1
 libopenssl-devel
-libopenssl0_9_8
 libopenssl1_0_0
 libopensync
 libopensync-plugin-google-calendar
@@ -2349,7 +2334,6 @@ libpackagekit-qt2-5
 libpanel-applet-4-0
 libpango-1_0-0
 libpangomm-1_4-1
-libpangox-1_0-0
 libpano13-2
 libparted0
 libpath_utils1
@@ -2405,6 +2389,7 @@ libppl_c4
 libpq5
 libpqxx
 libpqxx-devel
+libpresage1
 libprison-devel
 libprison0
 libprocps1
@@ -3031,6 +3016,7 @@ mono-winforms
 mono-winfxcore
 mono-zeroconf
 mono-zeroconf-provider-avahi
+monodevelop
 monodoc-core
 moodbar
 mousetweaks
@@ -3175,6 +3161,7 @@ nmap
 nodejs
 notification-daemon
 notify-sharp
+nscd
 nss-mdns
 nss_ldap
 ntfs-3g
@@ -3241,7 +3228,6 @@ opensuse-manuals_hu
 opensuse-manuals_ja
 opensuse-reference_en-pdf
 opensuse-security_en-pdf
-opensuse-startup_en-pdf
 opensuse-tuning_en-pdf
 openvpn
 opie
@@ -3274,7 +3260,6 @@ pan
 pan-lang
 pango-devel
 pango-tools
-pangox-compat
 paprefs
 paprefs-lang
 par
@@ -3429,6 +3414,7 @@ perl-Class-ISA
 perl-Class-Inspector
 perl-Class-MethodMaker
 perl-Class-Multimethods
+perl-Class-Singleton
 perl-Class-WhiteHole
 perl-Clone
 perl-Compress-Bzip2
@@ -3521,6 +3507,7 @@ perl-IPC-Run3
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
+perl-JSON
 perl-LWP-MediaTypes
 perl-Lingua-EN-Sentence
 perl-List-MoreUtils
@@ -3742,7 +3729,12 @@ posix_cc
 poster
 postfix
 postfix-doc
+postgresql
+postgresql-contrib
+postgresql-devel
+postgresql-docs
 postgresql-init
+postgresql-server
 postgresql92
 postgresql92-contrib
 postgresql92-devel
@@ -3754,6 +3746,7 @@ ppp
 pptp
 pptpd
 prctl
+presage-data
 privoxy
 procinfo
 procmail
@@ -3798,6 +3791,7 @@ python-cairo-devel
 python-clientform
 python-cloudfiles
 python-configobj
+python-cssselect
 python-cssutils
 python-cups
 python-cupshelpers
@@ -4240,6 +4234,7 @@ telepathy-mission-control-plugin-goa
 telepathy-rakia
 telepathy-salut
 telnet
+termcap
 terminfo
 terminfo-base
 terminus-bitmap-fonts
@@ -5143,7 +5138,6 @@ unison
 units
 unixODBC
 unoconv
-unscd
 unzip
 update-alternatives
 update-desktop-files
@@ -5545,7 +5539,6 @@ yast2-devel-doc
 yast2-devtools
 yast2-dhcp-server
 yast2-dns-server
-yast2-drbd
 yast2-fingerprint-reader
 yast2-firewall
 yast2-firstboot

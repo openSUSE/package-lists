@@ -107,6 +107,7 @@ dosfstools
 dvd+rw-tools
 e2fsprogs
 editres
+efibootmgr
 eject
 elfutils
 ethtool
@@ -157,7 +158,9 @@ gptfdisk
 grep
 groff
 groff-devx
+grub2-efi
 grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
@@ -508,7 +511,6 @@ libmtdev1
 libmusicbrainz5-0
 libmysqlclient18
 libncurses5
-libncurses5-32bit
 libncurses6
 libneon27
 libnepomukwidgets4
@@ -699,6 +701,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nscd
 nss-mdns
 ntfs-3g
 ntfsprogs
@@ -818,6 +821,7 @@ susehelp_en
 sweeper
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
@@ -833,7 +837,6 @@ tunctl
 twm
 udev
 udisks2
-unscd
 unzip
 update-alternatives
 update-desktop-files

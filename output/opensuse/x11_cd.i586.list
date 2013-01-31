@@ -145,9 +145,10 @@ gptfdisk
 grep
 groff
 groff-devx
-grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
+grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -544,6 +545,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nscd
 nss_ldap
 ntfs-3g
 ntfsprogs
@@ -679,6 +681,7 @@ susehelp_en
 suspend
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
@@ -694,7 +697,6 @@ tunctl
 twm
 udev
 udisks2
-unscd
 unzip
 update-alternatives
 upower

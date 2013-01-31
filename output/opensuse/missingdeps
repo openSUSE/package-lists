@@ -2,38 +2,10 @@ can't install eaglemode:
   nothing provides unrar needed by eaglemode
 can't install engine_pkcs11:
   nothing provides libp11-1 >= 0.2.5 needed by engine_pkcs11
-can't install gnome-agenda:
-  nothing provides python-evolution needed by gnome-agenda
-can't install leechcraft:
-  nothing provides libtorrent-rasterbar.so.6 needed by leechcraft-bittorrent
-can't install libnih:
-  nothing provides libc.so.6(GLIBC_PRIVATE) needed by libnih
-  nothing provides libc.so.6(GLIBC_PRIVATE)(64bit) needed by libnih
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
-can't install owasp-modsecurity-crs:
-  nothing provides /usr/bin/lua needed by owasp-modsecurity-crs
-can't install papi:
-  nothing provides libpfm.so.4 needed by libpapi-32bit
-can't install php5-pear-Horde_DataTree:
-  nothing provides php5-pear-Horde_Core < 2.0.0 needed by php5-pear-Horde_DataTree
-  nothing provides php5-pear-Horde_Exception < 2.0.0 needed by php5-pear-Horde_DataTree
-  nothing provides php5-pear-Horde_Serialize < 2.0.0 needed by php5-pear-Horde_DataTree
-  nothing provides php5-pear-Horde_Util < 2.0.0 needed by php5-pear-Horde_DataTree
-can't install python3:
-  nothing provides libpython3.3m.so.1.0 needed by python3-32bit
 can't install python3-kombu:
   nothing provides python3-amqp needed by python3-kombu
-can't install pythoncad:
-  nothing provides python-numeric needed by pythoncad
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
-can't install rubygem-tinder:
-  nothing provides rubygem(1.9.1:twitter-stream) >= 0.1 needed by rubygem-tinder
-can't install scim-qtimm:
-  nothing provides libscim-1.0.so.8 needed by scim-qtimm-32bit
-  nothing provides libscim-1.0.so.8(LIBSCIM_1.0) needed by scim-qtimm-32bit
-  nothing provides libscim-x11utils-1.0.so.8 needed by scim-qtimm-32bit
-can't install texlive-einfuehrung:
-  nothing provides /usr/bin/lua needed by texlive-einfuehrung

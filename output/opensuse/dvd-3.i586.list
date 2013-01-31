@@ -59,9 +59,10 @@ glibc-extra
 glibc-locale
 gpg2
 grep
-grub
 grub2
 grub2-branding-openSUSE
+grub2-efi
+grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -212,10 +213,10 @@ lsof
 lsscsi
 lukemftp
 lvm2
-master-boot-code
 mdadm
 mkinitrd
 module-init-tools
+mtools
 multipath-tools
 ncurses-utils
 net-tools
@@ -223,6 +224,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nscd
 ntfs-3g
 ntp
 openSUSE-build-key
@@ -279,6 +281,7 @@ sudo
 suse-module-tools
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
@@ -292,7 +295,6 @@ terminfo-base
 timezone
 tunctl
 udev
-unscd
 unzip
 update-alternatives
 upower

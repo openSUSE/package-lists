@@ -122,6 +122,7 @@ dosfstools
 dvd+rw-tools
 e2fsprogs
 editres
+efibootmgr
 eject
 elfutils
 empathy
@@ -245,7 +246,9 @@ grilo-plugin-youtube
 grilo-plugins
 groff
 groff-devx
+grub2-efi
 grub2-i386-pc
+grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
@@ -639,7 +642,6 @@ libmusicbrainz5-0
 libmutter0
 libnautilus-extension1
 libncurses5
-libncurses5-32bit
 libncurses6
 libneon27
 libnetfilter_conntrack3
@@ -890,6 +892,7 @@ netcfg
 nfs-client
 nfsidmap
 notification-daemon
+nscd
 nss-mdns
 ntfs-3g
 ntfsprogs
@@ -1031,6 +1034,7 @@ sushi
 swell-foop
 sysconfig
 sysfsutils
+syslinux
 syslog-service
 system-config-printer
 system-config-printer-applet
@@ -1121,7 +1125,6 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udisks2
-unscd
 unzip
 update-alternatives
 upower
