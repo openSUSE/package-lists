@@ -1,5 +1,6 @@
 export LC_ALL=C
 
+. ../options
 (cd ../osc/openSUSE\:Factory/_product/ && osc up )
 
 for arch in i586 x86_64; do
@@ -8,8 +9,8 @@ for arch in i586 x86_64; do
   rm -rf $TESTTRACK/CD1
   mkdir -p $TESTTRACK/CD1
   cp -a $TESTTRACK/content.$arch.small $TESTTRACK/CD1/content
-  cp -a $TESTTRACK/full-obs-$arch/suse $TESTTRACK/CD1/
-  cp -a $TESTTRACK/full-obs-$arch/media.1 $TESTTRACK/CD1/
+  cp -a $TESTTRACK/full-$tree-$arch/suse $TESTTRACK/CD1/
+  cp -a $TESTTRACK/full-$tree-$arch/media.1 $TESTTRACK/CD1/
 
   mkdir -p $TESTTRACK/CD1/suse/setup/descr/
   cp $TESTTRACK/patterns/dvd-*.$arch.pat $TESTTRACK/CD1/suse/setup/descr/
@@ -24,12 +25,12 @@ for arch in i586 x86_64; do
   popd > /dev/null
   rm -f $TESTTRACK/CD1/content.asc
   gpg  --batch -a -b --sign $TESTTRACK/CD1/content
-  rm -rf full-obs-$arch
+  rm -rf full-$arch
   /usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-$arch.xml > testit-$arch.log 2>&1
 done
 
-zcat full-obs-i586/*-package.xml.gz | fgrep -v '<vendor>' > full-obs-i586/1-package.xml
-zcat full-obs-x86_64/*-package.xml.gz | fgrep -v '<vendor>' > full-obs-x86_64/1-package.xml
+zcat full-i586/*-package.xml.gz | fgrep -v '<vendor>' > full-i586/1-package.xml
+zcat full-x86_64/*-package.xml.gz | fgrep -v '<vendor>' > full-x86_64/1-package.xml
 
 for i in *-update.xml; do 
   echo $i
