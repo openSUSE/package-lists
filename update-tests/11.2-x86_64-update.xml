@@ -3,6 +3,7 @@
   <setup arch="x86_64">
     <system file="11.2-x86_64-system.xml.gz"/>
     <channel file="full-x86_64/1-package.xml" name="factory"/>
+    <channel file="full-nf-x86_64/1-package.xml" name="nonoss"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>

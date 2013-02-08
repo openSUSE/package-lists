@@ -3,6 +3,7 @@
   <setup arch="i586">
     <system file="12.2-i586-system.xml.gz"/>
     <channel file="full-i586/1-package.xml" name="factory"/>
+    <channel file="full-nf-i586/1-package.xml" name="nonoss"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>

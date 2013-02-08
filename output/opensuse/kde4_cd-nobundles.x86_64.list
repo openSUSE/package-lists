@@ -1,5 +1,3 @@
-ConsoleKit
-ConsoleKit-x11
 DirectFB
 DirectFB-Mesa
 LibVNCServer
@@ -33,6 +31,7 @@ PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 PackageKit-lang
 SuSEfirewall2
+a2ps
 aaa_base
 aaa_base-extras
 acl
@@ -46,6 +45,8 @@ alsa-oss
 alsa-plugins
 alsa-plugins-pulse
 alsa-utils
+amarok
+amarok-lang
 apper
 apper-lang
 appmenu-qt
@@ -102,6 +103,7 @@ cron
 cronie
 cryptsetup
 cryptsetup-mkinitrd
+cups
 cups-client
 cups-libs
 curl
@@ -114,6 +116,7 @@ cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-glib
+dbus-1-python
 dbus-1-x11
 dconf
 dconf-lang
@@ -153,6 +156,7 @@ findutils
 fontconfig
 fonts-config
 fonttosfnt
+foomatic-filters
 fslsfonts
 fstobdf
 gawk
@@ -212,15 +216,11 @@ grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
-gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good
-gstreamer-lang
-gstreamer-plugins-base
-gstreamer-plugins-base-lang
 gtk2-data
 gtk2-engine-oxygen
 gtk2-immodule-amharic
@@ -279,7 +279,6 @@ kde4-kgreeter-plugins
 kde4-l10n-de
 kde4-l10n-ru
 kdeartwork4-screensaver
-kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
@@ -312,6 +311,7 @@ keyutils
 kgamma
 kget
 kgpg
+kio-mtp
 kio_audiocd
 kio_iso
 kio_kamera
@@ -514,21 +514,17 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgphoto2-6-lang
+libgpod-lang
+libgpod-tools
+libgpod4
 libgps20
 libgrantlee_core0
 libgrantlee_gui0
 libgsm1
 libgssglue1
 libgstapp-0_10-0
-libgstapp-1_0-0
-libgstaudio-1_0-0
 libgstinterfaces-0_10-0
-libgstpbutils-1_0-0
 libgstreamer-0_10-0
-libgstreamer-1_0-0
-libgstriff-1_0-0
-libgsttag-1_0-0
-libgstvideo-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -578,6 +574,7 @@ libksuseinstall1
 libktexteditor
 libktorrent5
 libktorrent5-lang
+liblastfm1
 liblazy1
 liblbxutil1
 liblcms1
@@ -587,6 +584,7 @@ libldapcpp1
 libldb1
 liblirc_client0
 liblockdev1
+libloudmouth-1-0
 libltdl7
 liblua5_1
 liblzma5
@@ -605,8 +603,11 @@ libmpc3
 libmpfr4
 libmsn0_3
 libmtdev1
+libmtp9
 libmusicbrainz5-0
+libmygpo-qt1
 libmysqlclient18
+libmysqld18
 libncurses5
 libncurses6
 libneon27
@@ -722,7 +723,9 @@ libstartup-notification-1-0
 libstdc++6
 libstorage4
 libstrigi0
+libtag-extras1
 libtag1
+libtag_c0
 libtalloc2
 libtasn1
 libtasn1-6
@@ -798,6 +801,9 @@ lukemftp
 lvm2
 mailx
 man
+mariadb
+mariadb-client
+mariadb-errormessages
 master-boot-code
 mc
 mc-lang
@@ -811,6 +817,7 @@ mkfontscale
 mkinitrd
 mobile-broadband-provider-info
 module-init-tools
+moodbar
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nss
@@ -818,9 +825,6 @@ mozilla-nss-certs
 mpt-firmware
 mtools
 multipath-tools
-mysql-community-server
-mysql-community-server-client
-mysql-community-server-errormessages
 nano
 nano-lang
 ncurses-utils
@@ -867,6 +871,7 @@ pam_krb5
 pam_ldap
 pam_mount
 pango-tools
+parallel-printer-support
 paratype-pt-mono-fonts
 paratype-pt-sans-fonts
 paratype-pt-serif-fonts
@@ -945,6 +950,7 @@ polkit
 polkit-default-privs
 polkit-kde-agent-1
 polkit-kde-kcmmodules-1
+poppler-tools
 postfix
 ppp
 pptp
@@ -964,9 +970,11 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 python
 python-base
+python-libxml2
 python-satsolver
 python-smbios
 python-xml
+qt4-qtscript
 quota
 recode
 reiserfs
@@ -1027,6 +1035,7 @@ systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
+taglib
 tar
 tar-lang
 tcl
@@ -1071,7 +1080,10 @@ vmware-guest-kmp-desktop
 vorbis-tools
 vorbis-tools-lang
 vpnc
+w3m
 wallpaper-branding-openSUSE
+wdiff
+wdiff-lang
 wget
 wireless-regdb
 wireless-tools

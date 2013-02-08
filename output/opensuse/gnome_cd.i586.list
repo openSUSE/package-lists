@@ -1,5 +1,3 @@
-ConsoleKit
-ConsoleKit-x11
 DirectFB
 DirectFB-Mesa
 Mesa
@@ -262,6 +260,8 @@ gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-version
+gnome-vfs2
+gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnomine
@@ -290,6 +290,7 @@ gsf-office-thumbnailer
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-libnice
+gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
@@ -442,6 +443,7 @@ libblkid1
 libblocxx6
 libbluetooth3
 libbluray1
+libboost_date_time1_49_0
 libboost_thread1_49_0
 libbrasero-burn3-1
 libbrasero-media3-1
@@ -595,6 +597,9 @@ libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgpod-lang
+libgpod-tools
+libgpod4
 libgrilo-0_2-1
 libgrlnet-0_2-0
 libgsf-1-114
@@ -701,6 +706,7 @@ libmpc3
 libmpcdec5
 libmpfr4
 libmtdev1
+libmtp9
 libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
@@ -798,7 +804,17 @@ librcd0
 libreadline6
 libref_array1
 libreiserfs-0_3-0
+libreoffice
+libreoffice-branding-openSUSE
+libreoffice-draw
+libreoffice-gnome
+libreoffice-hyphen
 libreoffice-icon-theme-tango
+libreoffice-impress
+libreoffice-pyuno
+libreoffice-templates-labels-a4
+libreoffice-templates-labels-letter
+libreoffice-writer
 librest0
 librsvg-2-2
 libsamplerate0
@@ -891,6 +907,9 @@ libwebkitgtk-3_0-0
 libwebrtc_audio_processing0
 libwnck-1-22
 libwnck-3-0
+libwpd-0_9-9
+libwpg-0_2-2
+libwps-0_2-2
 libwrap0
 libx86-1
 libx86emu1
@@ -946,6 +965,7 @@ man
 master-boot-code
 mc
 mdadm
+media-player-info
 memtest86+
 metacity
 metatheme-adwaita-common
@@ -965,6 +985,7 @@ mtools
 multipath-tools
 mutter
 mutter-data
+myspell-american
 nano
 nautilus
 nautilus-evince
@@ -1140,6 +1161,8 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
+rhythmbox
+rhythmbox-lang
 rpcbind
 rpm
 rpm-python
@@ -1252,9 +1275,12 @@ typelib-1_0-Gdm-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
+typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
+typelib-1_0-Gst-0_10
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
+typelib-1_0-GstInterfaces-0_10
 typelib-1_0-GstPbutils-1_0
 typelib-1_0-GstTag-1_0
 typelib-1_0-GstVideo-1_0
@@ -1287,6 +1313,7 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udisks2
+unoconv
 unzip
 update-alternatives
 upower

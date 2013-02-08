@@ -3,6 +3,7 @@
   <setup arch="x86_64">
     <system file="11.3-x86_64-system.xml.gz"/>
     <channel file="full-x86_64/1-package.xml" name="factory"/>
+    <channel file="full-nf-x86_64/1-package.xml" name="nonoss"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>
@@ -19,7 +20,7 @@
 <uninstall package="kernel-xen-base"/>
 <uninstall package="kernel-desktop-base"/>
 <uninstall package="aspell-mr"/>
-
+<uninstall package="nagios-plugins-extras"/>
 
     <distupgrade/>
     <reportproblems/>
