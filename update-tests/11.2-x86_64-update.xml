@@ -2,15 +2,18 @@
 <test>
   <setup arch="x86_64">
     <system file="11.2-x86_64-system.xml.gz"/>
-    <channel file="full-obs-x86_64/1-package.xml" name="factory"/>
+    <channel file="full-x86_64/1-package.xml" name="factory"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>
   <trial>
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
-    <uninstall name="NetworkManager-kde4"/>
     <uninstall name="amavisd-new"/>
+
+<uninstall package="kernel-default-base"/>
+<uninstall package="kernel-debug-base"/>
+<uninstall package="kernel-desktop-base"/>
 
     <!-- can't have it on FTP -->
     <distupgrade/>

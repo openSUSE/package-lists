@@ -2,7 +2,7 @@
 <test>
   <setup arch="x86_64">
     <system file="11.3-x86_64-system.xml.gz"/>
-    <channel file="full-obs-x86_64/1-package.xml" name="factory"/>
+    <channel file="full-x86_64/1-package.xml" name="factory"/>
     <locale name="de_DE"/>
     <locale name="de"/>
   </setup>
@@ -12,6 +12,15 @@
     <!-- can't have it on FTP -->
     <uninstall name="pam_ldap"/>
     <uninstall name="amavisd-new"/>
+<uninstall package="kernel-default-base"/>
+<uninstall package="kernel-debug-base"/>
+<uninstall package="kernel-trace-base"/>
+<uninstall package="kernel-ec2-base"/>
+<uninstall package="kernel-xen-base"/>
+<uninstall package="kernel-desktop-base"/>
+<uninstall package="aspell-mr"/>
+
+
     <distupgrade/>
     <reportproblems/>
   </trial>

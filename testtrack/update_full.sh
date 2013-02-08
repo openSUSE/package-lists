@@ -7,7 +7,7 @@ if test -z "$arch"; then
 fi
 worked=0
 
-nonftp=`grep 'package name=' ../osc/openSUSE\:Factory/_product/NON_FTP_PACKAGES.group | cut -d\" -f2 | grep -v openSUSE-release`
+nonftp=`grep 'package name=' ../osc/openSUSE\:Factory/_product/NON_FTP_PACKAGES.group ../osc/openSUSE\:Factory/_product/FROZEN.group | cut -d\" -f2 | grep -v openSUSE-release`
 ignore=--delete-excluded
 for i in $nonftp; do
    ignore="$ignore --exclude $i.rpm"

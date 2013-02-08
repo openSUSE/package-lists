@@ -3,14 +3,23 @@ export LC_ALL=C
 . ../options
 (cd ../osc/openSUSE\:Factory/_product/ && osc up )
 
-for arch in i586 x86_64; do
+#
+# Process a single test case, recreating all the structures every time.
+#
+# $suffix -- the version that we need to test
+# $arch   -- architecture that we are testing
+# $output -- output suffix as indicated in the testit-*.xml files
+
+function process {
+  suffix=$1; arch=$2; output=$3
+
   rm -rf /tmp/myrepos /var/cache/zypp
   export TESTTRACK=$PWD/../testtrack
   rm -rf $TESTTRACK/CD1
   mkdir -p $TESTTRACK/CD1
   cp -a $TESTTRACK/content.$arch.small $TESTTRACK/CD1/content
-  cp -a $TESTTRACK/full-$tree-$arch/suse $TESTTRACK/CD1/
-  cp -a $TESTTRACK/full-$tree-$arch/media.1 $TESTTRACK/CD1/
+  cp -a $TESTTRACK/full-$suffix/suse $TESTTRACK/CD1/
+  cp -a $TESTTRACK/full-$suffix/media.1 $TESTTRACK/CD1/
 
   mkdir -p $TESTTRACK/CD1/suse/setup/descr/
   cp $TESTTRACK/patterns/dvd-*.$arch.pat $TESTTRACK/CD1/suse/setup/descr/
@@ -25,12 +34,17 @@ for arch in i586 x86_64; do
   popd > /dev/null
   rm -f $TESTTRACK/CD1/content.asc
   gpg  --batch -a -b --sign $TESTTRACK/CD1/content
-  rm -rf full-$arch
-  /usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-$arch.xml > testit-$arch.log 2>&1
-done
+  rm -rf full-$output
+  /usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-$output.xml > testit-$output.log 2>&1
 
-zcat full-i586/*-package.xml.gz | fgrep -v '<vendor>' > full-i586/1-package.xml
-zcat full-x86_64/*-package.xml.gz | fgrep -v '<vendor>' > full-x86_64/1-package.xml
+  zcat full-$output/*-package.xml.gz | fgrep -v '<vendor>' > full-$output/1-package.xml
+}
+
+
+for arch in i586 x86_64; do
+  process $tree-$arch $arch $arch
+  process nf-$tree-$arch $arch nf-$arch
+done
 
 for i in *-update.xml; do 
   echo $i
