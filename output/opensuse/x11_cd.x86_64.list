@@ -50,6 +50,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
+checkmedia
 cifs-utils
 command-not-found
 coreutils
@@ -262,6 +263,7 @@ libXxf86misc1
 libXxf86vm1
 libacl1
 libadns1
+libaio1
 libarchive12
 libasm1
 libasound2
@@ -280,6 +282,7 @@ libavahi-client3
 libavahi-common3
 libavahi-glib1
 libblkid1
+libblocxx6
 libbluetooth3
 libbluray1
 libboost_thread1_49_0
@@ -452,6 +455,7 @@ libsoup-2_4-1
 libsqlite3-0
 libssh2-1
 libstdc++6
+libstorage4
 libtalloc2
 libtasn1
 libtasn1-6
@@ -486,6 +490,8 @@ libxkbfile1
 libxklavier16
 libxml2-2
 libxtables9
+libyui-gtk-pkg4
+libyui-gtk4
 libyui-ncurses4
 libyui4
 libz1
@@ -496,6 +502,8 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
+limal
+limal-perl
 linux32
 listres
 lockdev
@@ -526,6 +534,7 @@ mozilla-nss
 mozilla-nss-certs
 mpt-firmware
 mtools
+multipath-tools
 nano
 ncurses-utils
 ndiswrapper
@@ -815,14 +824,24 @@ xwininfo
 xwud
 xz
 yast2
+yast2-bootloader
+yast2-branding-openSUSE
 yast2-core
+yast2-country-data
+yast2-dbus-client
 yast2-fingerprint-reader
 yast2-hardware-detection
+yast2-network
+yast2-packager
 yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
+yast2-proxy
+yast2-storage
+yast2-theme-openSUSE
 yast2-trans-de
 yast2-trans-en_US
+yast2-transfer
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
