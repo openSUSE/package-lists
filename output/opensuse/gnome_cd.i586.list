@@ -57,6 +57,7 @@ baobab
 bash
 bc
 bdftopcf
+bea-stax-api
 beforelight
 bind-libs
 bind-utils
@@ -178,6 +179,7 @@ gcr-prompter
 gcr-viewer
 gd
 gdb
+gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdm
@@ -185,6 +187,8 @@ gdm-branding-openSUSE
 gdmflexiserver
 gedit
 gedit-plugin-zeitgeist
+gegl-0_2
+gegl-0_2-lang
 genisoimage
 geoclue
 geoclue-recommended
@@ -195,6 +199,10 @@ ghostscript
 ghostscript-fonts-other
 ghostscript-fonts-std
 ghostscript-x11
+gimp
+gimp-branding-openSUSE
+gimp-help-browser
+gimp-lang
 gio-branding-openSUSE
 girepository-1_0
 gjs
@@ -340,6 +348,7 @@ hwinfo
 iagno
 iceauth
 icedax
+icedtea-web
 icewm
 icewm-lite
 ico
@@ -359,7 +368,11 @@ irda
 iso-codes
 iso_ent
 iw
+java-1_7_0-openjdk
+java-ca-certificates
 jfsutils
+jline
+jpackage-utils
 kbd
 kernel-default
 kernel-firmware
@@ -369,12 +382,17 @@ kpartx
 krb5
 krb5-client
 lbxproxy
+lcms2
 less
 libFLAC8
 libFS6
 libGLU1
 libHX28
+libHalf7
 libICE6
+libIex7
+libIlmImf7
+libIlmThread7
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -412,6 +430,7 @@ libXvMC1
 libXxf86dga1
 libXxf86misc1
 libXxf86vm1
+libaa1
 libaccountsservice0
 libacl1
 libadns1
@@ -438,6 +457,7 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libavahi-gobject0
+libbabl-0_1-0
 libblas3
 libblkid1
 libblocxx6
@@ -564,11 +584,14 @@ libgdk_pixbuf-2_0-0
 libgdm1
 libgdmsimplegreeter1
 libgee2
+libgegl-0_2-0
 libgeoclue0
 libgeocode-glib0
 libgexiv2-1
 libgfortran3
 libgif4
+libgimp-2_0-0
+libgimpui-2_0-0
 libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
@@ -676,6 +699,7 @@ libkpathsea6
 libksba8
 liblapack3
 liblbxutil1
+liblcms1
 liblcms2-2
 libldap-2_4-2
 libldapcpp1
@@ -683,6 +707,7 @@ libldb1
 liblirc_client0
 liblockdev1
 liblouis2
+liblpsolve55-0
 liblrdf2
 libltdl7
 liblua5_1
@@ -697,6 +722,7 @@ libminiupnpc8
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmms0
+libmng1
 libmnl0
 libmodman1
 libmodplug1
@@ -715,6 +741,7 @@ libncurses5
 libncurses6
 libneon27
 libnetfilter_conntrack3
+libnetpbm11
 libnettle4
 libnfnetlink0
 libnice10
@@ -737,6 +764,7 @@ liboggkate1
 libopenal1
 libopenjpeg1
 libopenobex1
+libopenraw1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
@@ -806,14 +834,18 @@ libref_array1
 libreiserfs-0_3-0
 libreoffice
 libreoffice-branding-openSUSE
+libreoffice-calc
 libreoffice-draw
 libreoffice-gnome
+libreoffice-help-en-US
 libreoffice-hyphen
 libreoffice-icon-theme-tango
 libreoffice-impress
 libreoffice-pyuno
+libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
+libreoffice-thesaurus-en-US
 libreoffice-writer
 librest0
 librsvg-2-2
@@ -905,6 +937,7 @@ libwbclient0
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebrtc_audio_processing0
+libwmf-0_2-7
 libwnck-1-22
 libwnck-3-0
 libwpd-0_9-9
@@ -962,6 +995,7 @@ lukemftp
 lvm2
 mailx
 man
+manufacturer-PPDs
 master-boot-code
 mc
 mdadm
@@ -1004,6 +1038,7 @@ ndiswrapper-kmp-default
 net-tools
 netcat-openbsd
 netcfg
+netpbm
 nfs-client
 nfsidmap
 notification-daemon
@@ -1161,6 +1196,7 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
+rhino
 rhythmbox
 rhythmbox-lang
 rpcbind
@@ -1225,6 +1261,8 @@ system-config-printer-dbus-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+systemtap
+systemtap-runtime
 sysvinit-tools
 t1lib
 tar
@@ -1240,6 +1278,7 @@ telepathy-salut
 terminfo-base
 tightvnc
 timezone
+timezone-java
 tk
 totem
 totem-browser-plugin
@@ -1327,6 +1366,7 @@ vaapi-intel-driver
 viewres
 vim
 vim-base
+vim-data
 vino
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
@@ -1439,6 +1479,7 @@ xlsfonts
 xmag
 xman
 xmessage
+xmlbeans
 xmodmap
 xmore
 xorg-scripts

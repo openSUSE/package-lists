@@ -8,6 +8,8 @@ GEN_URL_i586="$BASEDIR/testtrack/full-$tree-i586"
 GEN_URL_x86_64="$BASEDIR/testtrack/full-$tree-x86_64"
 TESTTRACK="`pwd`/testtrack"
 
+export LC_ALL=C
+
 echo -n "processing $1"
 
 if test -f config.sh; then
