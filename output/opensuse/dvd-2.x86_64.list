@@ -3,6 +3,10 @@ Mesa-libGL1
 Mesa-libglapi0
 aaa_base
 aaa_base-extras
+alsa
+alsa-oss
+alsa-plugins
+alsa-utils
 atftp
 bash
 bash-doc
@@ -29,6 +33,7 @@ desktop-data-openSUSE
 desktop-translations
 device-mapper
 dhcpcd
+dialog
 diffutils
 dirmngr
 dmz-icon-theme-cursors
@@ -159,6 +164,7 @@ libncurses6
 libnettle4
 libopenssl1_0_0
 libp11-kit0
+libpci3
 libpciaccess0
 libpcre1
 libpng15-15
@@ -175,6 +181,7 @@ libqt4-sql
 libqt4-sql-mysql
 libqt4-x11
 libreadline6
+libsamplerate0
 libselinux1
 libsemanage1
 libsepol1
@@ -222,6 +229,8 @@ opensuse-manuals_en
 pam
 pam-config
 patterns-openSUSE-x11_yast
+pciutils
+pciutils-ids
 perl
 perl-Bootloader
 perl-Config-Crontab
@@ -286,7 +295,10 @@ yast2-hardware-detection
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-qt-branding-openSUSE
+yast2-scanner
+yast2-sound
 yast2-theme-openSUSE
 yast2-trans-en_US
+yast2-tv
 yast2-xml
 yast2-ycp-ui-bindings
