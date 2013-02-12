@@ -33,10 +33,14 @@
 <lock package="gnome-icon-theme-extras"/>
 <lock package="gnome-icon-theme-symbolic"/>
 <lock package="patterns-openSUSE-yast2_basis"/>
-<install kind="package" name="yast2-installation"/>
+<!-- install kind="package" name="yast2-installation"/ -->
 <lock package="PackageKit"/>
 <lock package="zeitgeist"/>
-<lock package="openSUSE-xfce-icon-theme"/>
+<!-- lock package="openSUSE-xfce-icon-theme"/ -->
+<lock package="ghostscript"/>
+<lock package="cups"/>
+<lock package="pullin-flash-player"/>
+<lock package="pullin-fluendo-mp3"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
