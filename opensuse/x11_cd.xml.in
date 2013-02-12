@@ -33,7 +33,9 @@
 <lock package="gnome-icon-theme-extras"/>
 <lock package="gnome-icon-theme-symbolic"/>
 <lock package="patterns-openSUSE-yast2_basis"/>
-
+<install kind="package" name="yast2-installation"/>
+<lock package="PackageKit"/>
+<lock package="zeitgeist"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
