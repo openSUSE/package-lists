@@ -75,6 +75,7 @@ bea-stax-api
 beforelight
 bind-libs
 bind-utils
+bison
 bitmap
 bluedevil
 bluez
@@ -138,7 +139,6 @@ dhcpcd
 dialog
 diffutils
 digikam
-digikam-doc
 digikam-lang
 dirmngr
 dmidecode
@@ -157,12 +157,12 @@ elilo
 enblend-enfuse
 espeak
 ethtool
-exiftool
 fbset
 file
 filesystem
 fillup
 findutils
+flex
 fontconfig
 fonts-config
 fonttosfnt
@@ -207,6 +207,7 @@ gnome-vfs2
 gnome-vfs2-lang
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
+gnu_ddrescue
 google-arimo-fonts
 google-cousine-fonts
 google-croscore-fonts
@@ -222,6 +223,7 @@ gptfdisk
 grep
 groff
 groff-devx
+grsync
 grub2
 grub2-branding-openSUSE
 grub2-efi
@@ -261,7 +263,6 @@ hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 htdig
-hugin
 hunspell
 hunspell-tools
 hwinfo
@@ -337,10 +338,10 @@ keyutils
 kgamma
 kget
 kgpg
-kio-mtp
 kio_audiocd
 kio_iso
 kio_kamera
+kio_mtp
 kipi-plugins
 kipi-plugins-acquireimage
 kipi-plugins-geolocation
@@ -386,6 +387,7 @@ lbxproxy
 lcms2
 lensfun-data
 less
+lftp
 libFLAC++6
 libFLAC8
 libFS6
@@ -463,17 +465,12 @@ libavahi-client3
 libavahi-common3
 libavahi-core7
 libavahi-glib1
-libblas3
 libblkid1
 libblocxx6
 libbluedevil1
 libbluetooth3
 libboost_date_time1_49_0
-libboost_filesystem1_49_0
 libboost_program_options1_49_0
-libboost_regex1_49_0
-libboost_signals1_49_0
-libboost_system1_49_0
 libboost_thread1_49_0
 libbz2-1
 libcairo-gobject2
@@ -548,7 +545,6 @@ libgcr-3-1
 libgcrypt11
 libgdbm4
 libgdk_pixbuf-2_0-0
-libgfortran3
 libgif4
 libgio-2_0-0
 libgiomm-2_4-1
@@ -635,7 +631,6 @@ libktexteditor
 libktorrent5
 libktorrent5-lang
 libkvkontakte1
-liblapack3
 liblastfm1
 liblazy1
 liblbxutil1
@@ -670,7 +665,6 @@ libmpc3
 libmpcdec5
 libmpfr4
 libmsn0_3
-libmspack0
 libmtdev1
 libmtp9
 libmusicbrainz5-0
@@ -711,7 +705,6 @@ libpackagekit-glib2-16
 libpackagekit-qt2-5
 libpango-1_0-0
 libpangomm-1_4-1
-libpano13-2
 libparted0
 libpath_utils1
 libpcap1
@@ -760,7 +753,6 @@ libqt4-sql
 libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
-libquadmath0
 libraptor2-0
 librasqal3
 libraw1394-11
@@ -855,15 +847,6 @@ libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
 libwrap0
-libwx_baseu-2_8-0-stl
-libwx_baseu_net-2_8-0-stl
-libwx_baseu_xml-2_8-0-stl
-libwx_gtk2u_adv-2_8-0-stl
-libwx_gtk2u_aui-2_8-0-stl
-libwx_gtk2u_core-2_8-0-stl
-libwx_gtk2u_gl-2_8-0-stl
-libwx_gtk2u_html-2_8-0-stl
-libwx_gtk2u_xrc-2_8-0-stl
 libx86-1
 libx86emu1
 libxatracker1
@@ -908,9 +891,9 @@ lsscsi
 luit
 lukemftp
 lvm2
+m4
 mailx
 man
-manufacturer-PPDs
 marble
 marble-data
 marble-doc
@@ -1019,17 +1002,14 @@ pciutils
 pciutils-ids
 pcmciautils
 perl
-perl-Archive-Zip
 perl-Bootloader
 perl-Config-Crontab
 perl-Crypt-SmbHash
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
-perl-File-RandomAccess
 perl-HTML-Parser
 perl-HTML-Tagset
-perl-Image-ExifTool
 perl-Net-DBus
 perl-NetxAP
 perl-Parse-RecDescent
@@ -1225,7 +1205,6 @@ wodim
 wpa_supplicant
 wvdial
 wvstreams
-wxWidgets-lang
 x11-tools
 x11perf
 xauth

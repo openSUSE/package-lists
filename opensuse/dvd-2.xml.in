@@ -28,6 +28,8 @@
 <!--    <install kind="package" name="iscan"/> --><!-- !ppc -->
     <lock kind="package" name="acroread_ja"/> <!-- !ppc -->
     <lock kind="package" name="apache2-prefork"/>
+    <!-- there is a flip going on between dvd-1 and dvd-2 -->
+    <lock kind="package" name="postgresql"/>
     <reportProblems/>
   </trial>
 </test>

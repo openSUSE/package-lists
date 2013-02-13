@@ -22,10 +22,8 @@
     <locale name="cs"/>
     <locale name="hu"/>
     <locale name="pl"/>
-    <locale name="fi"/>
     <locale name="da"/>
     <locale name="nb"/>
-    <locale name="sv"/>
     <locale name="nl"/>
   </setup>
   <trial>
@@ -47,6 +45,10 @@
     <lock package="openclipart-png"/>
     <lock package="scribus"/>
     <lock package="lilypond"/>
+    <lock package="libqt4-devel-doc-data"/>
+    <lock package="gnucash-docs"/>
+    <lock package="opensuse-manuals_hu"/>
+    <lock package="opensuse-manuals_ja"/>
     <lock kind="package" name="iscan"/>
     <lock kind="package" name="acroread_ja"/>
     <lock kind="package" name="apache2-worker"/>

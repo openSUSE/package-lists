@@ -170,7 +170,6 @@ aspell-de
 aspell-devel
 aspell-en
 aspell-es
-aspell-fi
 aspell-fr
 aspell-hu
 aspell-it
@@ -284,7 +283,6 @@ bundle-lang-common-da
 bundle-lang-common-de
 bundle-lang-common-en
 bundle-lang-common-es
-bundle-lang-common-fi
 bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
@@ -306,7 +304,6 @@ bundle-lang-gnome-extras-da
 bundle-lang-gnome-extras-de
 bundle-lang-gnome-extras-en
 bundle-lang-gnome-extras-es
-bundle-lang-gnome-extras-fi
 bundle-lang-gnome-extras-fr
 bundle-lang-gnome-extras-hu
 bundle-lang-gnome-extras-it
@@ -316,9 +313,7 @@ bundle-lang-gnome-extras-nl
 bundle-lang-gnome-extras-pl
 bundle-lang-gnome-extras-pt
 bundle-lang-gnome-extras-ru
-bundle-lang-gnome-extras-sv
 bundle-lang-gnome-extras-zh
-bundle-lang-gnome-fi
 bundle-lang-gnome-fr
 bundle-lang-gnome-hu
 bundle-lang-gnome-it
@@ -335,7 +330,6 @@ bundle-lang-kde-da
 bundle-lang-kde-de
 bundle-lang-kde-en
 bundle-lang-kde-es
-bundle-lang-kde-fi
 bundle-lang-kde-fr
 bundle-lang-kde-hu
 bundle-lang-kde-it
@@ -448,6 +442,7 @@ cyrus-sasl-devel
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
+daps
 dar
 dar-lang
 dasher
@@ -500,7 +495,6 @@ diffstat
 diffutils
 digikam
 digikam-doc
-digikam-lang
 ding
 dirmngr
 djvulibre
@@ -547,7 +541,6 @@ emacs-x11
 empathy
 enblend-enfuse
 enchant-devel
-enchant-voikko
 enscript
 eog
 eog-plugins
@@ -735,14 +728,12 @@ gimp-help-da
 gimp-help-de
 gimp-help-en_GB
 gimp-help-es
-gimp-help-fi
 gimp-help-fr
 gimp-help-it
 gimp-help-ja
 gimp-help-nl
 gimp-help-pl
 gimp-help-ru
-gimp-help-sv
 gimp-help-zh
 gimp-plugins-python
 gimp-ufraw
@@ -888,8 +879,8 @@ gnotski-lang
 gnu-free-fonts
 gnu-jaf
 gnu-unifont-bitmap-fonts
+gnu_ddrescue
 gnucash
-gnucash-docs
 gnucash-lang
 gnuchess
 gnumeric
@@ -926,6 +917,7 @@ grisbi
 grisbi-lang
 groff
 groff-devx
+grsync
 grub
 grub2
 grub2-branding-openSUSE
@@ -1180,7 +1172,6 @@ ispell-british
 ispell-czech
 ispell-danish
 ispell-dutch
-ispell-finnish
 ispell-french
 ispell-german
 ispell-hungarian
@@ -1229,7 +1220,6 @@ json-glib-devel
 juk
 junit
 k3b
-k3b-lang
 kactivities4
 kaddressbook
 kaffeine
@@ -1275,7 +1265,6 @@ kde4-l10n-en_GB-doc
 kde4-l10n-es
 kde4-l10n-es-data
 kde4-l10n-es-doc
-kde4-l10n-fi
 kde4-l10n-fr
 kde4-l10n-fr-data
 kde4-l10n-fr-doc
@@ -1300,7 +1289,6 @@ kde4-l10n-ru-data
 kde4-l10n-ru-doc
 kde4-l10n-sv
 kde4-l10n-sv-data
-kde4-l10n-sv-doc
 kde4-l10n-zh_CN
 kde4-l10n-zh_TW
 kdeartwork4-decorations
@@ -1372,17 +1360,16 @@ khmeros-fonts
 kig
 kimagemapeditor
 kinput2
-kio-mtp
 kio_audiocd
 kio_iso
 kio_kamera
+kio_mtp
 kio_svn
 kiosktool
 kiosktool-lang
 kipi-plugins
 kipi-plugins-acquireimage
 kipi-plugins-geolocation
-kipi-plugins-lang
 kiriki
 kismet
 kiten
@@ -2151,7 +2138,6 @@ libkface-devel
 libkface1
 libkgapi0
 libkgeomap-devel
-libkgeomap-lang
 libkgeomap1
 libkhangmanengine4
 libkipi-devel
@@ -2445,8 +2431,6 @@ libqscintilla-devel
 libqscintilla2-8
 libqt4
 libqt4-devel
-libqt4-devel-doc
-libqt4-devel-doc-data
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
@@ -2496,7 +2480,6 @@ libreoffice-help-de
 libreoffice-help-en-GB
 libreoffice-help-en-US
 libreoffice-help-es
-libreoffice-help-fi
 libreoffice-help-fr
 libreoffice-help-hu
 libreoffice-help-it
@@ -2524,7 +2507,6 @@ libreoffice-l10n-da
 libreoffice-l10n-de
 libreoffice-l10n-en-GB
 libreoffice-l10n-es
-libreoffice-l10n-fi
 libreoffice-l10n-fr
 libreoffice-l10n-hu
 libreoffice-l10n-it
@@ -2571,7 +2553,6 @@ libreoffice-thesaurus-pl
 libreoffice-thesaurus-pt
 libreoffice-thesaurus-ru
 libreoffice-thesaurus-sv
-libreoffice-voikko
 libreoffice-writer
 libreoffice-writer-extensions
 librest0
@@ -2730,7 +2711,6 @@ libvisual
 libvisual-devel
 libvmtools0
 libvnc-devel
-libvoikko1
 libvorbis-devel
 libvorbis0
 libvorbisenc2
@@ -2950,7 +2930,6 @@ makedepend
 makedev
 makedumpfile
 makeinfo
-malaga-suomi
 man
 man-pages
 man-pages-cs
@@ -3235,8 +3214,6 @@ openssl
 opensuse-kvm_en-pdf
 opensuse-manuals_de
 opensuse-manuals_en
-opensuse-manuals_hu
-opensuse-manuals_ja
 opensuse-reference_en-pdf
 opensuse-security_en-pdf
 opensuse-tuning_en-pdf
@@ -3636,6 +3613,7 @@ perl-YAML-Syck
 perl-apparmor
 perl-base
 perl-camgm
+perl-checkbot
 perl-doc
 perl-gettext
 perl-ldap
@@ -3857,7 +3835,6 @@ python-numpy
 python-oauth
 python-odfpy
 python-opensync
-python-optcomplete
 python-orbit
 python-pam
 python-pssh
@@ -4106,7 +4083,6 @@ simple-scan
 site-config
 skanlite
 skanlite-doc
-skanlite-lang
 skkdic
 slang-slsh
 slf4j
@@ -4181,7 +4157,7 @@ subversion-server
 subversion-tools
 sudo
 suse-module-tools
-susedoc
+suse-xsl-stylesheets
 susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
@@ -5033,7 +5009,6 @@ translation-update
 translation-update-cs
 translation-update-de
 translation-update-es
-translation-update-fi
 translation-update-fr
 translation-update-hu
 translation-update-it

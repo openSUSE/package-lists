@@ -2,7 +2,6 @@ ConsoleKit
 ConsoleKit-x11
 DirectFB
 DirectFB-Mesa
-ImageMagick
 Mesa
 Mesa-libEGL1
 Mesa-libGL1
@@ -118,6 +117,8 @@ exo-tools
 fbset
 fifth-leg-font
 file
+file-roller
+file-roller-lang
 filesystem
 fillup
 findutils
@@ -153,9 +154,13 @@ glibc-locale-32bit
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pam
+gnome-menus
+gnome-menus-branding-openSUSE
+gnome-menus-lang
 gnome-pty-helper
 gnome-themes-accessibility
 gnu-unifont-bitmap-fonts
+gnu_ddrescue
 gpart
 gparted
 gpg2
@@ -164,6 +169,7 @@ gptfdisk
 grep
 groff
 groff-devx
+grsync
 grub2
 grub2-branding-openSUSE
 grub2-efi
@@ -177,6 +183,7 @@ gstreamer-0_10-plugins-base
 gstreamer-lang
 gstreamer-plugins-base
 gstreamer-plugins-base-lang
+gtk2-branding-openSUSE
 gtk2-data
 gtk2-engine-hcengine
 gtk2-immodule-amharic
@@ -229,6 +236,7 @@ iso-codes
 iso-codes-lang
 iw
 jfsutils
+json-glib-lang
 kbd
 kernel-desktop
 kernel-firmware
@@ -240,13 +248,12 @@ krb5-client
 lbxproxy
 leafpad
 less
+lftp
 libFLAC8
 libFS6
 libGLU1
 libHX28
 libICE6
-libMagickCore5
-libMagickWand5
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -387,12 +394,12 @@ libgmpxx4
 libgnome-bluetooth11
 libgnome-keyring-lang
 libgnome-keyring0
+libgnome-menu-3-0
 libgnomesu
 libgnomesu-lang
 libgnomesu0
 libgnutls28
 libgobject-2_0-0
-libgomp1
 libgpg-error0
 libgphoto2-6
 libgsf-1-114
@@ -427,6 +434,7 @@ libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
 libjbig2
 libjpeg8
+libjson-glib-1_0-0
 libjson0
 libkeybinder0
 libkeyutils1
@@ -557,7 +565,6 @@ libvte9
 libwbclient0
 libwebkitgtk-1_0-0
 libwebkitgtk2-lang
-libwebp4
 libwnck-1-22
 libwnck2-lang
 libwrap0
@@ -688,6 +695,7 @@ patterns-openSUSE-fonts
 patterns-openSUSE-sw_management
 patterns-openSUSE-x11
 patterns-openSUSE-x11_yast
+patterns-openSUSE-xfce_basis
 pciutils
 pciutils-ids
 pcmciautils
@@ -740,6 +748,8 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
+ristretto
+ristretto-lang
 rpcbind
 rpm
 rpm-python
@@ -880,6 +890,8 @@ xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
 xf86dga
+xfce4-appfinder
+xfce4-appfinder-lang
 xfce4-mixer
 xfce4-mixer-lang
 xfce4-notifyd
@@ -978,6 +990,8 @@ xz
 yast2
 yast2-bootloader
 yast2-branding-openSUSE
+yast2-control-center
+yast2-control-center-gnome
 yast2-core
 yast2-country-data
 yast2-dbus-client
