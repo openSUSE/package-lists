@@ -5,7 +5,6 @@
     <system file="solver-system.xml"/>
   </setup>
   <trial>
-    <!-- INCLUDE frozen.xml -->
     <!-- INCLUDE allpacks.xml -->
     <reportProblems/>
     <showpool verbose="true"/>

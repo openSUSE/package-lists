@@ -15,7 +15,6 @@
     <!-- INCLUDE ignore_opensuse-bundle-kde.xml -->
     <lock package="gtk2-engines-32bit"/>
     <lock package="gnome2-user-docs"/> <!-- !i586 -->
-    <!-- INCLUDE frozen.xml -->
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="package" name="openSUSE-release-livecd-gnome"/>
     <lock kind="package" name="kernel-desktop"/> <!-- !x86_64 -->

@@ -58,7 +58,7 @@ do
 
   case $file in
     opensuse/dvd-nonoss*)
-       cp opensuse/dvd-1.xml.in opensuse/dvd-nonoss.xml.in
+       grep -v libqt opensuse/dvd-1.xml.in > opensuse/dvd-nonoss.xml.in
        installcheck $i testtrack/full-nf-$tree-$i/suse/setup/descr/packages | grep "nothing provides" | sed -e 's,.*nothing provides ,,; s, needed by.*,,' | sort -u | while read d; do
          sed -i -e "s,<!-- HOOK_FOR_NONOSS -->,<!-- HOOK_FOR_NONOSS -->\n<addRequire name='$d'/>," opensuse/dvd-nonoss.xml.in
        done

@@ -26,6 +26,7 @@ do_opensuse()
     ./gen.sh opensuse/x11_cd-initrd
 
     ./gen.sh opensuse/dvd-nonoss
+    ./nonoss.sh
 
     echo "diffing"
     for arch in i586 x86_64; do

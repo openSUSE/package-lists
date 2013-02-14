@@ -42,7 +42,7 @@
     <lock kind="package" name="iscan"/>
     <lock kind="package" name="acroread_ja"/>
     <lock kind="package" name="apache2-worker"/>
-    <!-- INCLUDE frozen.xml -->
+    <lock kind="package" name="apper"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-dvd5.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
@@ -52,10 +52,11 @@
     <install kind="package" name="xfce4-panel"/>
     <install kind="package" name="elilo"/>
     <install kind="package" name="efibootmgr"/> <!-- !i586 -->
-    <install kind="package" name="grub2-efi"/> <!-- !i586 -->
     <install kind="package" name="postgresql"/>
+    <install kind="package" name="postgresql-devel"/>
     <lock kind="package" name="liberation2-fonts"/>
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
+    <lock kind="package" name="libqt4-x11-32bit"/>
     <install kind="package" name="postfix"/>
     <!-- HOOK_FOR_NONOSS -->
     <reportProblems/>

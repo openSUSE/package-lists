@@ -5,10 +5,6 @@ git pull
 . ./options
 
 (cd osc/openSUSE\:Factory/_product/ && osc up)
-: > output/opensuse/frozen.xml
-for i in `grep "package name=" osc/openSUSE\:Factory/_product/FROZEN.group | cut -d\" -f2`; do
-   echo "<lock package='$i'/>" >> output/opensuse/frozen.xml
-done
 cd testtrack/
 ./update_full.sh $tree-i586 $tree-x86_64 nf-$tree-i586 nf-$tree-x86_64
 echo -n "updating patterns "

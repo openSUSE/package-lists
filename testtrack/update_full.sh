@@ -7,7 +7,7 @@ if test -z "$arch"; then
 fi
 worked=0
 
-nonftp=`grep 'package name=' ../osc/openSUSE\:Factory/_product/NON_FTP_PACKAGES.group ../osc/openSUSE\:Factory/_product/FROZEN.group | cut -d\" -f2 | grep -v openSUSE-release`
+nonftp=`grep 'package name=' ../osc/openSUSE\:Factory/_product/NON_FTP_PACKAGES.group | cut -d\" -f2 | grep -v openSUSE-release`
 ignore=--delete-excluded
 for i in $nonftp; do
    ignore="$ignore --exclude $i.rpm"
@@ -112,7 +112,7 @@ EOF
   if test -n "$WITHDESCR" && test -f dirty; then
   mkdir -p .cache
   echo -n "create_package_descr $i "
-  /usr/bin/create_package_descr -c .cache -P -F -C -K -S -o suse/setup/descr/ -d susex/ -l english > /dev/null 2>&1
+  /usr/bin/create_package_descr -c .cache -P -C -K -S -o suse/setup/descr/ -d susex/ -l english > /dev/null 2>&1
 
   sed -e 's,^=Pkg: \(kernel.*\)i686,=Pkg: \1i586,' -i suse/setup/descr/packages
 

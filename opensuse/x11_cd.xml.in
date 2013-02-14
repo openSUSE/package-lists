@@ -40,10 +40,12 @@
 <lock package="cups"/>
 <lock package="pullin-flash-player"/>
 <lock package="pullin-fluendo-mp3"/>
+<install package="yast2-country"/>
+<install package="yast2-trans-stats"/>
+
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <!-- INCLUDE ignore_opensuse-cds.xml -->
-    <!-- INCLUDE frozen.xml -->
     <install kind="pattern" name="rest_cd_x11"/>
     <install kind="package" name="openSUSE-release-livecd-x11"/>
     <reportProblems/>

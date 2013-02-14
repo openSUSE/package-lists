@@ -9,7 +9,6 @@
     <lock package="novell-ipsec-tools"/>
     <lock package="novell-NLDAPsdk-dyn"/>
     <lock package="myspell-german"/>
-    <!-- INCLUDE frozen.xml -->
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-dvd5.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
@@ -22,6 +21,8 @@
     <install kind="package" name="myspell-german-old"/>
     <install kind="package" name="squid"/>
     <install kind="package" name="icewm-default"/>
+    <install kind="package" name="apper"/>
+    <lock package="libicu50-32bit"/>
     <!-- install kind="package" name="geronimo-tomcat-servlet-container"/ -->
     <install kind="package" name="openSUSE-release-dvd"/>
     <install kind="pattern" name="x11_yast"/>
@@ -30,6 +31,7 @@
     <lock kind="package" name="apache2-prefork"/>
     <!-- there is a flip going on between dvd-1 and dvd-2 -->
     <lock kind="package" name="postgresql"/>
+    <lock package="libqt4-x11-32bit"/>
     <reportProblems/>
   </trial>
 </test>

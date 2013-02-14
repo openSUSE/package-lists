@@ -42,7 +42,7 @@
     <lock kind="package" name="iscan"/>
     <lock kind="package" name="acroread_ja"/>
     <lock kind="package" name="apache2-worker"/>
-    <!-- INCLUDE frozen.xml -->
+    <lock kind="package" name="apper"/>
     <!-- INCLUDE ignore_opensuse.xml -->
     <!-- INCLUDE ignore_opensuse-dvd5.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
@@ -52,8 +52,8 @@
     <install kind="package" name="xfce4-panel"/>
     <install kind="package" name="elilo"/>
     <install kind="package" name="efibootmgr"/> <!-- !i586 -->
-    <install kind="package" name="grub2-efi"/> <!-- !i586 -->
     <install kind="package" name="postgresql"/>
+    <install kind="package" name="postgresql-devel"/>
     <lock kind="package" name="liberation2-fonts"/>
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <install kind="package" name="postfix"/>
@@ -77,6 +77,7 @@
 <addRequire name='tcsh'/>
 <addRequire name='shared-mime-info'/>
 <addRequire name='sed'/>
+<addRequire name='rtld(GNU_HASH)'/>
 <addRequire name='rpm'/>
 <addRequire name='pkgconfig(glu)'/>
 <addRequire name='pkgconfig(gl)'/>
@@ -109,11 +110,11 @@
 <addRequire name='libstdc++.so.6(CXXABI_1.3)'/>
 <addRequire name='libstdc++.so.6()(64bit)'/>
 <addRequire name='libstdc++.so.6'/>
-<addRequire name='libssl3.so(NSS_3.2)(64bit)'/>
-<addRequire name='libssl3.so()(64bit)'/>
-<addRequire name='libsmime3.so(NSS_3.4)(64bit)'/>
-<addRequire name='libsmime3.so(NSS_3.2)(64bit)'/>
-<addRequire name='libsmime3.so()(64bit)'/>
+<addRequire name='libssl3.so(NSS_3.2)'/>
+<addRequire name='libssl3.so'/>
+<addRequire name='libsmime3.so(NSS_3.4)'/>
+<addRequire name='libsmime3.so(NSS_3.2)'/>
+<addRequire name='libsmime3.so'/>
 <addRequire name='librt.so.1(GLIBC_2.2.5)(64bit)'/>
 <addRequire name='librt.so.1(GLIBC_2.2)'/>
 <addRequire name='librt.so.1()(64bit)'/>
@@ -127,38 +128,40 @@
 <addRequire name='libpthread.so.0(GLIBC_2.3.2)(64bit)'/>
 <addRequire name='libpthread.so.0(GLIBC_2.3.2)'/>
 <addRequire name='libpthread.so.0(GLIBC_2.2.5)(64bit)'/>
+<addRequire name='libpthread.so.0(GLIBC_2.2.3)'/>
 <addRequire name='libpthread.so.0(GLIBC_2.2)'/>
 <addRequire name='libpthread.so.0(GLIBC_2.1.1)'/>
 <addRequire name='libpthread.so.0(GLIBC_2.1)'/>
 <addRequire name='libpthread.so.0(GLIBC_2.0)'/>
 <addRequire name='libpthread.so.0()(64bit)'/>
 <addRequire name='libpthread.so.0'/>
-<addRequire name='libpng15.so.15(PNG15_0)(64bit)'/>
-<addRequire name='libpng15.so.15(PNG15_0)'/>
-<addRequire name='libpng15.so.15()(64bit)'/>
-<addRequire name='libpng15.so.15'/>
+<addRequire name='libpng16.so.16(PNG16_0)(64bit)'/>
+<addRequire name='libpng16.so.16(PNG16_0)'/>
+<addRequire name='libpng16.so.16()(64bit)'/>
+<addRequire name='libpng16.so.16'/>
 <addRequire name='libpng-devel'/>
-<addRequire name='libplds4.so()(64bit)'/>
-<addRequire name='libplc4.so()(64bit)'/>
+<addRequire name='libplds4.so'/>
+<addRequire name='libplc4.so'/>
 <addRequire name='libpangoxft-1.0.so.0'/>
 <addRequire name='libpangox-1.0.so.0'/>
 <addRequire name='libpangoft2-1.0.so.0()(64bit)'/>
 <addRequire name='libpangoft2-1.0.so.0'/>
 <addRequire name='libpangocairo-1.0.so.0()(64bit)'/>
+<addRequire name='libpangocairo-1.0.so.0'/>
 <addRequire name='libpango-1.0.so.0()(64bit)'/>
 <addRequire name='libpango-1.0.so.0'/>
-<addRequire name='libnssutil3.so()(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.9.2)(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.9)(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.6)(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.4)(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.3)(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.2)(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.12)(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.11)(64bit)'/>
-<addRequire name='libnss3.so(NSS_3.10)(64bit)'/>
-<addRequire name='libnss3.so()(64bit)'/>
-<addRequire name='libnspr4.so()(64bit)'/>
+<addRequire name='libnssutil3.so'/>
+<addRequire name='libnss3.so(NSS_3.9.2)'/>
+<addRequire name='libnss3.so(NSS_3.9)'/>
+<addRequire name='libnss3.so(NSS_3.6)'/>
+<addRequire name='libnss3.so(NSS_3.4)'/>
+<addRequire name='libnss3.so(NSS_3.3)'/>
+<addRequire name='libnss3.so(NSS_3.2)'/>
+<addRequire name='libnss3.so(NSS_3.12)'/>
+<addRequire name='libnss3.so(NSS_3.11)'/>
+<addRequire name='libnss3.so(NSS_3.10)'/>
+<addRequire name='libnss3.so'/>
+<addRequire name='libnspr4.so'/>
 <addRequire name='libncursesw.so.5()(64bit)'/>
 <addRequire name='libncurses.so.5()(64bit)'/>
 <addRequire name='libm.so.6(GLIBC_2.2.5)(64bit)'/>
@@ -168,10 +171,12 @@
 <addRequire name='libm.so.6'/>
 <addRequire name='liblirc_client.so.0()(64bit)'/>
 <addRequire name='liblcms-devel'/>
-<addRequire name='libkutils.so.4()(64bit)'/>
+<addRequire name='libkutils.so.4'/>
 <addRequire name='libkio.so.5()(64bit)'/>
 <addRequire name='libkdeui.so.5()(64bit)'/>
+<addRequire name='libkdeui.so.5'/>
 <addRequire name='libkdecore.so.5()(64bit)'/>
+<addRequire name='libkdecore.so.5'/>
 <addRequire name='libjpeg.so.8(LIBJPEG_8.0)(64bit)'/>
 <addRequire name='libjpeg.so.8(LIBJPEG_8.0)'/>
 <addRequire name='libjpeg.so.8()(64bit)'/>
@@ -184,8 +189,12 @@
 <addRequire name='libgthread-2.0.so.0()(64bit)'/>
 <addRequire name='libgthread-2.0.so.0'/>
 <addRequire name='libgstvideo-0.10.so.0()(64bit)'/>
+<addRequire name='libgstreamer-1.0.so.0()(64bit)'/>
 <addRequire name='libgstreamer-0.10.so.0()(64bit)'/>
+<addRequire name='libgstbase-1.0.so.0()(64bit)'/>
 <addRequire name='libgstbase-0.10.so.0()(64bit)'/>
+<addRequire name='libgstaudio-1.0.so.0()(64bit)'/>
+<addRequire name='libgstaudio-0.10.so.0()(64bit)'/>
 <addRequire name='libgslcblas.so.0()(64bit)'/>
 <addRequire name='libgsl.so.0()(64bit)'/>
 <addRequire name='libgobject-2.0.so.0()(64bit)'/>
@@ -212,6 +221,7 @@
 <addRequire name='libgcc_s.so.1()(64bit)'/>
 <addRequire name='libgcc_s.so.1'/>
 <addRequire name='libfreetype.so.6()(64bit)'/>
+<addRequire name='libfreetype.so.6'/>
 <addRequire name='libfontconfig.so.1()(64bit)'/>
 <addRequire name='libfontconfig.so.1'/>
 <addRequire name='libexpat-devel'/>
@@ -221,8 +231,9 @@
 <addRequire name='libdl.so.2(GLIBC_2.0)'/>
 <addRequire name='libdl.so.2()(64bit)'/>
 <addRequire name='libdl.so.2'/>
-<addRequire name='libcurl.so.4()(64bit)'/>
+<addRequire name='libcurl.so.4'/>
 <addRequire name='libcairo.so.2()(64bit)'/>
+<addRequire name='libcairo.so.2'/>
 <addRequire name='libcairo-gobject.so.2()(64bit)'/>
 <addRequire name='libc.so.6(GLIBC_2.8)(64bit)'/>
 <addRequire name='libc.so.6(GLIBC_2.7)(64bit)'/>
@@ -247,6 +258,7 @@
 <addRequire name='libc.so.6(GLIBC_2.1.2)'/>
 <addRequire name='libc.so.6(GLIBC_2.1)'/>
 <addRequire name='libc.so.6(GLIBC_2.0)'/>
+<addRequire name='libc.so.6(GCC_3.0)'/>
 <addRequire name='libc.so.6()(64bit)'/>
 <addRequire name='libc.so.6'/>
 <addRequire name='libbz2-devel'/>
@@ -256,6 +268,7 @@
 <addRequire name='libasound.so.2(ALSA_0.9.0rc4)(64bit)'/>
 <addRequire name='libasound.so.2(ALSA_0.9)(64bit)'/>
 <addRequire name='libasound.so.2()(64bit)'/>
+<addRequire name='libasound.so.2'/>
 <addRequire name='libaa.so.1()(64bit)'/>
 <addRequire name='libXxf86vm.so.1()(64bit)'/>
 <addRequire name='libXxf86dga.so.1()(64bit)'/>
@@ -263,8 +276,10 @@
 <addRequire name='libXt.so.6()(64bit)'/>
 <addRequire name='libXt.so.6'/>
 <addRequire name='libXrender.so.1()(64bit)'/>
+<addRequire name='libXrender.so.1'/>
 <addRequire name='libXrandr.so.2()(64bit)'/>
 <addRequire name='libXpm.so.4()(64bit)'/>
+<addRequire name='libXpm.so.4'/>
 <addRequire name='libXp.so.6()(64bit)'/>
 <addRequire name='libXp.so.6'/>
 <addRequire name='libXmu.so.6()(64bit)'/>
@@ -275,34 +290,39 @@
 <addRequire name='libXft.so.2'/>
 <addRequire name='libXext.so.6()(64bit)'/>
 <addRequire name='libXext.so.6'/>
-<addRequire name='libXdmcp.so.6()(64bit)'/>
-<addRequire name='libXcursor.so.1()(64bit)'/>
+<addRequire name='libXdmcp.so.6'/>
+<addRequire name='libXcursor.so.1'/>
 <addRequire name='libXaw.so.7()(64bit)'/>
-<addRequire name='libXau.so.6()(64bit)'/>
+<addRequire name='libXau.so.6'/>
 <addRequire name='libX11.so.6()(64bit)'/>
 <addRequire name='libX11.so.6'/>
 <addRequire name='libVFlib3.so.5()(64bit)'/>
 <addRequire name='libSM.so.6()(64bit)'/>
-<addRequire name='libQtSvg.so.4()(64bit)'/>
+<addRequire name='libSM.so.6'/>
+<addRequire name='libQtSvg.so.4'/>
 <addRequire name='libQtGui.so.4()(64bit)'/>
-<addRequire name='libQtDBus.so.4()(64bit)'/>
+<addRequire name='libQtGui.so.4'/>
+<addRequire name='libQtDBus.so.4'/>
 <addRequire name='libQtCore.so.4()(64bit)'/>
-<addRequire name='libMagickCore.so.5()(64bit)'/>
+<addRequire name='libQtCore.so.4'/>
+<addRequire name='libMagickCore-6.Q8.so.1()(64bit)'/>
 <addRequire name='libICE.so.6()(64bit)'/>
+<addRequire name='libICE.so.6'/>
 <addRequire name='libGLw1-32bit = 7.11.2'/>
 <addRequire name='libGLU.so.1()(64bit)'/>
 <addRequire name='libGLU.so.1'/>
 <addRequire name='libGL.so.1()(64bit)'/>
 <addRequire name='libGL.so.1'/>
+<addRequire name='ld-linux.so.2(GLIBC_2.3)'/>
 <addRequire name='ld-linux.so.2'/>
-<addRequire name='ld-linux-x86-64.so.2(GLIBC_2.3)(64bit)'/>
 <addRequire name='ld-linux-x86-64.so.2()(64bit)'/>
-<addRequire name='kdebase4-runtime >= 4.9.98'/>
+<addRequire name='kdebase4-runtime >= 4.10.3'/>
 <addRequire name='jre'/>
 <addRequire name='insserv'/>
 <addRequire name='info'/>
 <addRequire name='hicolor-icon-theme'/>
 <addRequire name='gstreamer010'/>
+<addRequire name='gstreamer'/>
 <addRequire name='grep'/>
 <addRequire name='gpg2'/>
 <addRequire name='glibc-devel'/>

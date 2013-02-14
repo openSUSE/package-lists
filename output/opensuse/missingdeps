@@ -1,0 +1,16 @@
+can't install cobbler:
+  nothing provides mkisofs needed by cobbler
+can't install kiwi:
+  nothing provides kernel-ec2 needed by kiwi-desc-oemboot-requires
+  nothing provides kernel-ec2 needed by kiwi-desc-vmxboot-requires
+  nothing provides kernel-xen needed by kiwi-desc-isoboot-requires
+  nothing provides kernel-xen needed by kiwi-desc-netboot-requires
+  nothing provides kernel-xen needed by kiwi-desc-oemboot-requires
+  nothing provides kernel-xen needed by kiwi-desc-vmxboot-requires
+can't install nagios-plugins:
+  nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
+  nothing provides /usr/bin/qstat needed by nagios-plugins-game
+can't install qmmp:
+  nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
+can't install zisofs-tools:
+  nothing provides mkisofs needed by zisofs-tools

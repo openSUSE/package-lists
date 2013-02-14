@@ -18,7 +18,6 @@
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <lock package="gtk2-engines-32bit"/>
     <lock package="gnome2-user-docs"/> <!-- !i586 -->
-    <!-- INCLUDE frozen.xml -->
     <install kind="package" name="branding-openSUSE"/>
     <install kind="pattern" name="rest_cd_gnome"/>
     <install kind="package" name="openSUSE-release-livecd-gnome"/>
