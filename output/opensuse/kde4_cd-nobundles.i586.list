@@ -70,7 +70,6 @@ bash
 bash-lang
 bc
 bdftopcf
-bea-stax-api
 beforelight
 bind-libs
 bind-utils
@@ -78,7 +77,7 @@ bitmap
 bluedevil
 bluez
 bluez-firmware
-boost-license1_49_0
+boost-license1_53_0
 branding-openSUSE
 bridge-utils
 btrfsprogs
@@ -120,7 +119,6 @@ cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-glib
-dbus-1-python
 dbus-1-x11
 dconf
 dconf-lang
@@ -167,7 +165,6 @@ fonttosfnt
 foomatic-filters
 fslsfonts
 fstobdf
-fuse
 gawk
 gconf-polkit
 gconf2
@@ -199,8 +196,6 @@ glibc-locale
 gnome-keyring
 gnome-keyring-lang
 gnome-keyring-pam
-gnome-vfs2
-gnome-vfs2-lang
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
@@ -233,7 +228,6 @@ gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
 gstreamer-0_10-plugin-esd
-gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good
@@ -269,7 +263,6 @@ hunspell-tools
 hwinfo
 iceauth
 icedax
-icedtea-web
 icewm
 icewm-lite
 ico
@@ -288,11 +281,7 @@ iputils
 ipw-firmware
 irda
 iw
-java-1_7_0-openjdk
-java-ca-certificates
 jfsutils
-jline
-jpackage-utils
 k3b
 k3b-lang
 kactivities4
@@ -383,14 +372,12 @@ kwebkitpart-lang
 kwin
 kwrite
 lbxproxy
-lcms2
 lensfun-data
 less
 lftp
 libFLAC++6
 libFLAC8
 libFS6
-libGLEW1_9
 libGLU1
 libHX28
 libHalf10
@@ -463,16 +450,14 @@ libaugeas0
 libavahi-client3
 libavahi-common3
 libavahi-core7
-libavahi-glib1
 libblkid1
 libblocxx6
 libbluedevil1
 libbluetooth3
-libboost_date_time1_49_0
-libboost_filesystem1_49_0
-libboost_program_options1_49_0
-libboost_system1_49_0
-libboost_thread1_49_0
+libboost_filesystem1_53_0
+libboost_program_options1_53_0
+libboost_system1_53_0
+libboost_thread1_53_0
 libburn4
 libbz2-1
 libcairo-gobject2
@@ -490,13 +475,10 @@ libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcdio14
-libcdr-0_0-0
 libcelt0-2
 libcloog0
-libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
-libcmis-0_3-3
 libcollection2
 libcolord1
 libcom_err2
@@ -515,14 +497,12 @@ libdialog11
 libdirectfb-1_6-0
 libdmtx0
 libdmx1
-libdnet1
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdvdread4
 libdw1
-libebl1
 libedit0
 libelf0
 libelf1
@@ -536,8 +516,6 @@ libexif12
 libexiv2-12
 libexpat1
 libext2fs2
-libexttextcat
-libexttextcat-2_0-0
 libfam0
 libffi4
 libfftw3-3
@@ -563,7 +541,6 @@ libgiomm-2_4-1
 libgirepository-1_0-1
 libglib-2_0-0
 libglibmm-2_4-1
-libglut3
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
@@ -580,7 +557,6 @@ libgpod4
 libgps20
 libgrantlee_core0
 libgrantlee_gui0
-libgraphite2-3
 libgsm1
 libgssglue1
 libgstapp-0_10-0
@@ -602,7 +578,6 @@ libharfbuzz0
 libhdf5-0
 libhdf5_hl0
 libhogweed2
-libhyphen0
 libibus-1_0-0
 libical0
 libicu51
@@ -653,7 +628,6 @@ libktexteditor
 libktorrent5
 libktorrent5-lang
 libkvkontakte1
-liblangtag1
 liblastfm1
 liblbxutil1
 liblcms1
@@ -687,14 +661,12 @@ libmpc3
 libmpcdec5
 libmpfr4
 libmsn0_3
-libmspub-0_0-0
 libmtdev1
 libmtp9
 libmusicbrainz5-0
 libmygpo-qt1
 libmysqlclient18
 libmysqld18
-libmythes-1_2-0
 libncurses5
 libncurses6
 libneon27
@@ -710,7 +682,7 @@ libnm-glib4
 libnm-util2
 libnscd
 libnsssharedhelper0
-libntfs-3g83
+libntfs-3g84
 libogg0
 liboggkate1
 libopenal1
@@ -784,18 +756,7 @@ libreadline6
 libredland0
 libref_array1
 libreiserfs-0_3-0
-libreoffice
-libreoffice-branding-openSUSE
-libreoffice-draw
-libreoffice-hyphen
 libreoffice-icon-theme-oxygen
-libreoffice-impress
-libreoffice-kde4
-libreoffice-l10n-de
-libreoffice-l10n-ru
-libreoffice-templates-labels-a4
-libreoffice-templates-labels-letter
-libreoffice-writer
 libsamplerate0
 libsbc1
 libselinux1
@@ -806,7 +767,6 @@ libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
-libsnapper2
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -852,9 +812,7 @@ libv4l2-0
 libv4lconvert0
 libvcdinfo0
 libvigraimpex4
-libvisio-0_0-0
 libvisual
-libvmtools0
 libvncclient0
 libvorbis0
 libvorbisenc2
@@ -865,9 +823,6 @@ libwayland-server0
 libwbclient0
 libwebp4
 libwebrtc_audio_processing0
-libwpd-0_9-9
-libwpg-0_2-2
-libwps-0_2-2
 libwrap0
 libx86-1
 libx86emu1
@@ -936,7 +891,6 @@ mozilla-nss-certs
 mpt-firmware
 mtools
 multipath-tools
-myspell-american
 nano
 nano-lang
 ncurses-utils
@@ -959,8 +913,6 @@ obexd
 obexd-client
 oclock
 ofl
-open-vm-tools
-open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-kde
@@ -1105,7 +1057,6 @@ python
 python-base
 python-gobject
 python-gobject-cairo
-python-libxml2
 python-satsolver
 python-smbios
 python-xml
@@ -1116,7 +1067,6 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
-rhino
 rpcbind
 rpm
 rpm-python
@@ -1143,8 +1093,6 @@ smbios-utils-python
 smp_utils
 smpppd
 smproxy
-snapper
-snapper-zypp-plugin
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
@@ -1171,8 +1119,6 @@ syslog-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
-systemtap
-systemtap-runtime
 sysvinit-tools
 taglib
 tar
@@ -1186,7 +1132,6 @@ thryomanes-fonts
 tightvnc
 time
 timezone
-timezone-java
 tnftp
 traceroute
 translation-update
@@ -1221,7 +1166,6 @@ virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
 vlan
-vmware-guest-kmp-default
 vorbis-tools
 vorbis-tools-lang
 vpnc
@@ -1326,7 +1270,6 @@ xlsfonts
 xmag
 xman
 xmessage
-xmlbeans
 xmodmap
 xmore
 xorg-scripts
@@ -1447,7 +1390,6 @@ yp-tools
 ypbind
 zd1211-firmware
 zip
-zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

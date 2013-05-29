@@ -68,6 +68,9 @@ cdrdao
 cdrkit-cdrtools-compat
 cheese
 cifs-utils
+color-filesystem
+colord
+colord-lang
 command-not-found
 coreutils
 cpio
@@ -94,6 +97,7 @@ db-utils
 dbus-1
 dbus-1-glib
 dbus-1-python
+dbus-1-python3
 dbus-1-x11
 dconf
 dejavu-fonts
@@ -121,6 +125,7 @@ eject
 elfutils
 empathy
 eog
+espeak
 ethtool
 evolution-data-server
 expat
@@ -232,6 +237,7 @@ gpgme
 gpm
 gptfdisk
 grep
+grilo-lang
 grilo-plugin-tracker
 grilo-plugin-upnp
 grilo-plugin-youtube
@@ -294,6 +300,15 @@ hunspell
 hunspell-tools
 hwinfo
 iagno
+icc-profiles
+icc-profiles-basiccolor-lstarrgb
+icc-profiles-basiccolor-printing2009-coat2
+icc-profiles-lcms-lab
+icc-profiles-mini
+icc-profiles-openicc-rgb
+icc-profiles-scp-argyll
+icc-profiles-scp-fogra
+icc-profiles-scp-yamma
 iceauth
 icedax
 icewm
@@ -390,7 +405,6 @@ libbluray1
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
-libbrlapi0_5
 libburn4
 libbz2-1
 libcairo-gobject2
@@ -425,6 +439,7 @@ libcogl-pango12
 libcogl12
 libcolord-gtk1
 libcolord1
+libcolorhug1
 libcom_err2
 libcrack2
 libcroco-0_6-3
@@ -443,6 +458,7 @@ libdirac_encoder0
 libdirectfb-1_6-0
 libdmapsharing-3_0-2
 libdmx1
+libdotconf0
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
@@ -578,6 +594,7 @@ libguile-2_0-22
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
+libgusb2
 libgvfscommon0
 libgweather-3-3
 libgweather-data
@@ -614,7 +631,6 @@ liblcms2-2
 libldap-2_4-2
 liblirc_client0
 liblockdev1
-liblouis2
 liblrdf2
 libltdl7
 liblua5_1
@@ -660,7 +676,7 @@ libnm-util2
 libnotify-tools
 libnotify4
 libnscd
-libntfs-3g83
+libntfs-3g84
 libnuma1
 liboauth0
 libofa0
@@ -688,6 +704,7 @@ libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-gjs
 libpeas-loader-python
+libpeas-loader-python3
 libpeas-loader-seed
 libpipeline1
 libpixman-1-0
@@ -702,6 +719,7 @@ libpolkit0
 libpoppler-glib8
 libpoppler36
 libpopt0
+libportaudio2
 libppl9
 libppl_c4
 libprocps1
@@ -762,6 +780,7 @@ libsoftokn3
 libsolv-tools
 libsoup-2_4-1
 libspandsp2
+libspeechd2
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -997,7 +1016,6 @@ python
 python-atspi
 python-base
 python-beautifulsoup
-python-brlapi
 python-cairo
 python-cups
 python-cupshelpers
@@ -1005,11 +1023,9 @@ python-gnomekeyring
 python-gobject
 python-gobject-cairo
 python-gobject2
-python-gstreamer-0_10
 python-gtk
 python-httplib2
 python-libxml2
-python-louis
 python-notify
 python-numpy
 python-pycurl
@@ -1017,10 +1033,13 @@ python-satsolver
 python-smbc
 python-xdg
 python-xml
+python3
+python3-atspi
 python3-base
 python3-cairo
 python3-gobject
 python3-gobject-cairo
+python3-speechd
 quadrapassel
 recode
 release-notes-openSUSE
@@ -1046,6 +1065,7 @@ setxkbmap
 sg3_utils
 sgml-skel
 shadow
+shared-color-profiles
 shared-mime-info
 shim
 shotwell
@@ -1056,6 +1076,8 @@ smp_utils
 smproxy
 snmp-mibs
 sound-theme-freedesktop
+speech-dispatcher
+speech-dispatcher-module-espeak
 splashy
 splashy-branding-openSUSE
 splashy-mkinitrd

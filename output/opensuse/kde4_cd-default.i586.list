@@ -49,7 +49,7 @@ bind-utils
 bitmap
 bluedevil
 bluez
-boost-license1_49_0
+boost-license1_53_0
 branding-openSUSE
 bridge-utils
 bzip2
@@ -107,7 +107,6 @@ dosfstools
 dvd+rw-tools
 e2fsprogs
 editres
-efibootmgr
 eject
 elfutils
 ethtool
@@ -143,10 +142,8 @@ girepository-1_0
 glib-networking
 glib2-tools
 glibc
-glibc-32bit
 glibc-extra
 glibc-locale
-glibc-locale-32bit
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
@@ -158,8 +155,8 @@ gptfdisk
 grep
 groff
 groff-devx
+grub2-i386-efi
 grub2-i386-pc
-grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
@@ -349,8 +346,9 @@ libavahi-core7
 libblkid1
 libbluedevil1
 libbluetooth3
-libboost_program_options1_49_0
-libboost_thread1_49_0
+libboost_program_options1_53_0
+libboost_system1_53_0
+libboost_thread1_53_0
 libburn4
 libbz2-1
 libcairo-gobject2
@@ -529,8 +527,7 @@ libnm-glib-vpn1
 libnm-glib4
 libnm-util2
 libnscd
-libntfs-3g83
-libnuma1
+libntfs-3g84
 libogg0
 liboggkate1
 libopenal1
@@ -670,7 +667,6 @@ libyui5
 libz1
 libzio1
 libzypp
-linux32
 lirc
 lirc-remotes
 listres
@@ -712,7 +708,6 @@ nss-mdns
 ntfs-3g
 ntfsprogs
 ntp
-numactl
 numlockx
 obex-data-server
 obexd
@@ -831,7 +826,6 @@ sg3_utils
 shadow
 shared-desktop-ontologies
 shared-mime-info
-shim
 showfont
 smp_utils
 smproxy
