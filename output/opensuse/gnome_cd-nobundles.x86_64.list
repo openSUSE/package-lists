@@ -34,6 +34,7 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
+aaa_base-malloccheck
 accountsservice
 accountsservice-lang
 acl
@@ -74,12 +75,14 @@ bash
 bash-lang
 bc
 bdftopcf
+bea-stax-api
 beforelight
 bind-libs
 bind-utils
 bitmap
 bluez
 bluez-firmware
+boost-license1_53_0
 branding-openSUSE
 brasero
 brasero-lang
@@ -168,7 +171,6 @@ dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 editres
 efibootmgr
-eject
 elfutils
 elilo
 empathy
@@ -328,6 +330,7 @@ gnome-shell-lang
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
+gnome-shell-search-provider-seahorse
 gnome-sudoku
 gnome-sudoku-lang
 gnome-system-monitor
@@ -342,6 +345,8 @@ gnome-user-docs-lang
 gnome-user-share
 gnome-user-share-lang
 gnome-version
+gnome-vfs2
+gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnome-web-photo-lang
@@ -367,6 +372,7 @@ grilo-plugin-tracker
 grilo-plugin-upnp
 grilo-plugin-youtube
 grilo-plugins
+grilo-plugins-lang
 groff
 groff-devx
 grsync
@@ -384,6 +390,7 @@ gstreamer-0_10
 gstreamer-0_10-lang
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-esd
+gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
@@ -457,6 +464,7 @@ icc-profiles-scp-fogra
 icc-profiles-scp-yamma
 iceauth
 icedax
+icedtea-web
 icewm
 icewm-lite
 ico
@@ -477,7 +485,11 @@ iso-codes
 iso-codes-lang
 iso_ent
 iw
+java-1_7_0-openjdk
+java-ca-certificates
 jfsutils
+jline
+jpackage-utils
 json-glib-lang
 kbd
 kernel-desktop
@@ -488,6 +500,7 @@ kpartx
 krb5
 krb5-client
 lbxproxy
+lcms2
 lensfun-data
 less
 lftp
@@ -572,6 +585,9 @@ libblkid1
 libblocxx6
 libbluetooth3
 libbluray1
+libboost_date_time1_53_0
+libboost_system1_53_0
+libboost_thread1_53_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -597,15 +613,20 @@ libcdda_paranoia0
 libcdio14
 libcdio_cdda1
 libcdio_paranoia1
+libcdr-0_0-0
 libcelt0-2
 libchamplain-0_12-0
 libcheese-common
 libcheese-gtk23
 libcheese7
 libcloog0
+libclucene-contribs-lib1
+libclucene-core1
+libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
+libcmis-0_3-3
 libcogl-pango12
 libcogl12
 libcollection2
@@ -644,11 +665,12 @@ libdvdnav4
 libdvdread4
 libdw1
 libebackend-1_2-6
+libebl1
 libebook-1_2-14
 libebook-contacts-1_2-0
 libecal-1_2-15
-libedata-book-1_2-17
-libedata-cal-1_2-20
+libedata-book-1_2-19
+libedata-cal-1_2-21
 libedataserver-1_2-17
 libedit0
 libelf0
@@ -666,6 +688,8 @@ libexif12
 libexiv2-12
 libexpat1
 libext2fs2
+libexttextcat
+libexttextcat-2_0-0
 libfam0
 libfarstream-0_2-2
 libffi4
@@ -740,6 +764,7 @@ libgphoto2-6-lang
 libgpod-lang
 libgpod-tools
 libgpod4
+libgraphite2-3
 libgrilo-0_2-1
 libgrlnet-0_2-0
 libgsf-1-114
@@ -753,6 +778,7 @@ libgstaudio-1_0-0
 libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
 libgstbasevideo-0_10-23
+libgstbasevideo-1_0-0
 libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
 libgstfft-1_0-0
@@ -794,6 +820,7 @@ libgweather-lang
 libgxps2
 libharfbuzz0
 libhogweed2
+libhyphen0
 libibus-1_0-0
 libical0
 libicu51
@@ -821,6 +848,7 @@ libkeyutils1
 libkmod2
 libkpathsea6
 libksba8
+liblangtag1
 liblapack3
 liblbxutil1
 liblcms1
@@ -854,11 +882,13 @@ libmozjs185-1_0
 libmpc3
 libmpcdec5
 libmpfr4
+libmspub-0_0-0
 libmtdev1
 libmtp9
 libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
+libmythes-1_2-0
 libnautilus-extension1
 libncurses5
 libncurses5-32bit
@@ -868,8 +898,8 @@ libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
 libnice10
-libnl-1_1
 libnl-config
+libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -925,7 +955,7 @@ libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler36
+libpoppler37
 libpopt0
 libportaudio2
 libppl9
@@ -955,14 +985,28 @@ libquicktime0
 libquvi-scripts
 libquvi7
 libraptor2-0
+librasqal3
 libraw1394-11
 libraw5
 librcc0
 librcd0
 libreadline6
+libredland0
 libref_array1
 libreiserfs-0_3-0
+libreoffice
+libreoffice-branding-openSUSE
+libreoffice-draw
+libreoffice-gnome
+libreoffice-hyphen
 libreoffice-icon-theme-tango
+libreoffice-impress
+libreoffice-l10n-de
+libreoffice-l10n-ru
+libreoffice-pyuno
+libreoffice-templates-labels-a4
+libreoffice-templates-labels-letter
+libreoffice-writer
 librest0
 librsvg-2-2
 libsamplerate0
@@ -982,6 +1026,7 @@ libsilcclient-1_1-3
 libslang2
 libsmbclient0
 libsmbios2
+libsnapper2
 libsndfile1
 libsnmp30
 libsocialweb
@@ -1044,6 +1089,7 @@ libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvdpau1
+libvisio-0_0-0
 libvisual
 libvorbis0
 libvorbisenc2
@@ -1067,6 +1113,9 @@ libwnck-1-22
 libwnck-3-0
 libwnck-lang
 libwnck2-lang
+libwpd-0_9-9
+libwpg-0_2-2
+libwps-0_2-2
 libwrap0
 libx86-1
 libx86emu1
@@ -1149,6 +1198,7 @@ multipath-tools
 mutter
 mutter-data
 mutter-lang
+myspell-american
 nano
 nano-lang
 nautilus
@@ -1232,6 +1282,7 @@ patterns-openSUSE-non_oss
 patterns-openSUSE-office
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_gnome
+patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -1334,7 +1385,6 @@ python-gobject-cairo
 python-gobject2
 python-gtk
 python-httplib2
-python-libxml2
 python-notify
 python-numpy
 python-pycurl
@@ -1358,6 +1408,7 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
+rhino
 rhythmbox
 rhythmbox-lang
 rpcbind
@@ -1400,6 +1451,8 @@ smbios-utils-python
 smp_utils
 smpppd
 smproxy
+snapper
+snapper-zypp-plugin
 snmp-mibs
 sound-theme-freedesktop
 speech-dispatcher
@@ -1431,6 +1484,8 @@ system-config-printer-dbus-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+systemtap
+systemtap-runtime
 sysvinit-tools
 tar
 tar-lang
@@ -1451,6 +1506,7 @@ thryomanes-fonts
 tightvnc
 time
 timezone
+timezone-java
 tk
 tnftp
 totem
@@ -1535,8 +1591,15 @@ udev
 udev-configure-printer
 udisks2
 udisks2-lang
+unoconv
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 upower-lang
 usb_modeswitch
@@ -1668,6 +1731,7 @@ xlsfonts
 xmag
 xman
 xmessage
+xmlbeans
 xmodmap
 xmore
 xorg-scripts
@@ -1793,6 +1857,8 @@ zeitgeist
 zenity
 zenity-lang
 zip
+zisofs-tools
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

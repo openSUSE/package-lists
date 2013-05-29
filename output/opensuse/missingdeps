@@ -1,16 +1,11 @@
+can't install build-config:
+  nothing provides this-is-only-for-build-envs needed by build-config
 can't install cobbler:
   nothing provides mkisofs needed by cobbler
-can't install kiwi:
-  nothing provides kernel-ec2 needed by kiwi-desc-oemboot-requires
-  nothing provides kernel-ec2 needed by kiwi-desc-vmxboot-requires
-  nothing provides kernel-xen needed by kiwi-desc-isoboot-requires
-  nothing provides kernel-xen needed by kiwi-desc-netboot-requires
-  nothing provides kernel-xen needed by kiwi-desc-oemboot-requires
-  nothing provides kernel-xen needed by kiwi-desc-vmxboot-requires
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
-can't install zisofs-tools:
-  nothing provides mkisofs needed by zisofs-tools
+can't install rubygem-chef:
+  nothing provides rubygem(2.0.0:net-ssh-multi:1.1) >= 1.1 needed by rubygem-chef

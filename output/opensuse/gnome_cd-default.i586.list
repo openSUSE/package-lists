@@ -23,6 +23,7 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
+aaa_base-malloccheck
 accountsservice
 acl
 acpica
@@ -70,7 +71,6 @@ cheese
 cifs-utils
 color-filesystem
 colord
-colord-lang
 command-not-found
 coreutils
 cpio
@@ -120,7 +120,6 @@ dosfstools
 dvd+rw-tools
 e2fsprogs
 editres
-eject
 elfutils
 empathy
 eog
@@ -178,10 +177,8 @@ glibc-locale
 gnome-bluetooth
 gnome-bluetooth-plugins-geoclue
 gnome-calculator
-gnome-calculator-lang
 gnome-chess
 gnome-clocks
-gnome-clocks-lang
 gnome-contacts
 gnome-control-center
 gnome-control-center-user-faces
@@ -218,6 +215,7 @@ gnome-shell-extensions-common
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
+gnome-shell-search-provider-seahorse
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -234,11 +232,11 @@ gpgme
 gpm
 gptfdisk
 grep
-grilo-lang
 grilo-plugin-tracker
 grilo-plugin-upnp
 grilo-plugin-youtube
 grilo-plugins
+grilo-plugins-lang
 groff
 groff-devx
 grub2-i386-efi
@@ -468,8 +466,8 @@ libebackend-1_2-6
 libebook-1_2-14
 libebook-contacts-1_2-0
 libecal-1_2-15
-libedata-book-1_2-17
-libedata-cal-1_2-20
+libedata-book-1_2-19
+libedata-cal-1_2-21
 libedataserver-1_2-17
 libedit0
 libelf0
@@ -562,6 +560,7 @@ libgstaudio-1_0-0
 libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
 libgstbasevideo-0_10-23
+libgstbasevideo-1_0-0
 libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
 libgstfft-1_0-0
@@ -663,8 +662,8 @@ libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
 libnice10
-libnl-1_1
 libnl-config
+libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -713,7 +712,7 @@ libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler36
+libpoppler37
 libpopt0
 libportaudio2
 libppl9
@@ -1019,7 +1018,6 @@ python-gobject-cairo
 python-gobject2
 python-gtk
 python-httplib2
-python-libxml2
 python-notify
 python-numpy
 python-pycurl
@@ -1186,6 +1184,12 @@ udev-configure-printer
 udisks2
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data
@@ -1325,6 +1329,7 @@ ypbind
 zeitgeist
 zenity
 zip
+zisofs-tools
 zypper
 zypper-aptitude
 zypper-log

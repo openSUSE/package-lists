@@ -16,6 +16,7 @@ alsa-oss
 alsa-plugins
 alsa-utils
 apper
+apper-lang
 appmenu-qt
 atftp
 augeas-lenses
@@ -23,7 +24,7 @@ bash
 bash-doc
 bind-libs
 bind-utils
-boost-license1_49_0
+boost-license1_53_0
 branding-openSUSE
 bridge-utils
 bundle-lang-common-en
@@ -181,8 +182,9 @@ libaudit1
 libaugeas0
 libblkid1
 libbluetooth3
-libboost_program_options1_49_0
-libboost_thread1_49_0
+libboost_program_options1_53_0
+libboost_system1_53_0
+libboost_thread1_53_0
 libbz2-1
 libcairo2
 libcanberra0
@@ -299,7 +301,7 @@ libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
 libpackagekit-glib2-16
-libpackagekit-qt2-5
+libpackagekit-qt2-6
 libpango-1_0-0
 libpci3
 libpciaccess0
@@ -311,7 +313,7 @@ libpng16-16
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-4
-libpoppler36
+libpoppler37
 libpopt0
 libppl9
 libppl_c4
@@ -501,7 +503,6 @@ python-kde4-phonon
 python-kde4-plasma
 python-kde4-soprano
 python-kdebase4
-python-libxml2
 python-qt4
 python-sip
 python-xml

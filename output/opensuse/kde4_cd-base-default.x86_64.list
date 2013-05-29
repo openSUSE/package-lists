@@ -6,6 +6,7 @@ Mesa-libglapi0
 SuSEfirewall2
 aaa_base
 aaa_base-extras
+aaa_base-malloccheck
 acl
 acpica
 adjtimex
@@ -23,6 +24,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
+cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
 command-not-found
@@ -58,7 +60,6 @@ dmraid
 dosfstools
 e2fsprogs
 efibootmgr
-eject
 elfutils
 ethtool
 expat
@@ -98,6 +99,7 @@ hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hwinfo
+icedax
 ifplugd
 info
 initviocons
@@ -111,6 +113,7 @@ klogd
 kpartx
 krb5
 less
+libFLAC8
 libICE6
 libSM6
 libX11-6
@@ -130,6 +133,8 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
+libao-plugins4
+libao4
 libasm1
 libasound2
 libassuan0
@@ -191,6 +196,7 @@ libjavascriptcoregtk-3_0-0
 libjbig2
 libjpeg8
 libjson0
+libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -208,9 +214,11 @@ libncurses5
 libncurses6
 libnettle4
 libnfnetlink0
-libnl-1_1
+libnl1
 libntfs-3g84
 libnuma1
+libogg0
+liboggkate1
 libopenssl1_0_0
 libp11-kit0
 libpango-1_0-0
@@ -234,6 +242,7 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-webkit
 libpth20
+libpulse0
 libpython2_7-1_0
 libqrencode3
 libreadline6
@@ -241,7 +250,9 @@ libreiserfs-0_3-0
 libselinux1
 libsemanage1
 libsepol1
+libsndfile1
 libsolv-tools
+libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -259,6 +270,9 @@ libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
 libuuid1
+libvorbis0
+libvorbisenc2
+libvorbisfile3
 libwayland-client0
 libwayland-server0
 libwbclient0
@@ -427,6 +441,12 @@ tunctl
 udev
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 usbutils
@@ -435,11 +455,13 @@ util-linux
 vim
 vim-base
 vlan
+vorbis-tools
 wallpaper-branding-openSUSE
 wget
 which
 wireless-regdb
 wireless-tools
+wodim
 xdg-utils
 xinetd
 xtables-plugins
@@ -498,6 +520,7 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
+zisofs-tools
 zypper
 zypper-aptitude
 zypper-log

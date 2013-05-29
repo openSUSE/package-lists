@@ -45,6 +45,7 @@ bind-libs
 bind-utils
 bitmap
 bluez-firmware
+boost-license1_53_0
 branding-openSUSE
 bridge-utils
 btrfsprogs
@@ -54,6 +55,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
+cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
 command-not-found
@@ -79,6 +81,7 @@ cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-glib
+dbus-1-python
 dbus-1-x11
 dconf
 dd_rescue
@@ -102,7 +105,6 @@ dosfstools
 e2fsprogs
 editres
 efibootmgr
-eject
 elfutils
 elilo
 esound-daemon
@@ -219,6 +221,7 @@ hunspell
 hunspell-tools
 hwinfo
 iceauth
+icedax
 icewm
 icewm-lite
 ico
@@ -293,6 +296,9 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
+libao-plugin4-esd
+libao-plugins4
+libao4
 libarchive13
 libasm1
 libasound2
@@ -316,6 +322,8 @@ libblkid1
 libblocxx6
 libbluetooth3
 libbluray1
+libboost_system1_53_0
+libboost_thread1_53_0
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -444,6 +452,7 @@ libjbig2dec0
 libjpeg8
 libjson-glib-1_0-0
 libjson0
+libkate1
 libkeybinder0
 libkeyutils1
 libkmod2
@@ -474,8 +483,8 @@ libncurses6
 libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
-libnl-1_1
 libnl-config
+libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -487,6 +496,7 @@ libnscd
 libntfs-3g84
 libnuma1
 libogg0
+liboggkate1
 libopenjpeg1
 libopenobex1
 libopenraw1
@@ -511,7 +521,7 @@ libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler36
+libpoppler37
 libpopt0
 libportaudio2
 libppl9
@@ -541,6 +551,7 @@ libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
+libsnapper2
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -811,6 +822,8 @@ smartmontools
 smbios-utils-python
 smp_utils
 smproxy
+snapper
+snapper-zypp-plugin
 sound-theme-freedesktop
 splashy
 splashy-branding-openSUSE
@@ -866,12 +879,14 @@ virtualbox-guest-kmp-desktop
 virtualbox-guest-tools
 virtualbox-guest-x11
 vlan
+vorbis-tools
 vte2-lang
 wallpaper-branding-openSUSE
 wget
 which
 wireless-regdb
 wireless-tools
+wodim
 wpa_supplicant
 x11-tools
 x11perf
@@ -1066,6 +1081,8 @@ yp-tools
 ypbind
 zd1211-firmware
 zip
+zisofs-tools
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

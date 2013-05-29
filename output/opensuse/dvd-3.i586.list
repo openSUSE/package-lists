@@ -1,6 +1,7 @@
 SuSEfirewall2
 aaa_base
 aaa_base-extras
+aaa_base-malloccheck
 adjtimex
 augeas-lenses
 autofs
@@ -41,7 +42,6 @@ diffutils
 dirmngr
 dmraid
 e2fsprogs
-eject
 elfutils
 ethtool
 exim
@@ -158,7 +158,7 @@ libncurses5
 libncurses6
 libnettle4
 libnfnetlink0
-libnl-1_1
+libnl1
 libntfs-3g84
 libopenssl1_0_0
 libp11-kit0
@@ -243,6 +243,7 @@ parted
 patterns-openSUSE-base
 patterns-openSUSE-minimal_base
 patterns-openSUSE-sw_management
+patterns-openSUSE-update_test
 patterns-openSUSE-yast2_install_wf
 pciutils
 pciutils-ids
@@ -326,6 +327,12 @@ tunctl
 udev
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 util-linux

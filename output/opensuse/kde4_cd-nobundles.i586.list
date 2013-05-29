@@ -34,6 +34,7 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
+aaa_base-malloccheck
 acl
 acpica
 adaptec-firmware
@@ -49,6 +50,8 @@ alsa-utils
 amarok
 amarok-lang
 android-tools
+apper
+apper-lang
 appmenu-qt
 appres
 ark
@@ -70,6 +73,7 @@ bash
 bash-lang
 bc
 bdftopcf
+bea-stax-api
 beforelight
 bind-libs
 bind-utils
@@ -119,6 +123,7 @@ cyrus-sasl-plain
 db-utils
 dbus-1
 dbus-1-glib
+dbus-1-python
 dbus-1-x11
 dconf
 dconf-lang
@@ -146,7 +151,6 @@ dosfstools
 dvd+rw-tools
 e2fsprogs
 editres
-eject
 elfutils
 elilo
 enblend-enfuse
@@ -196,6 +200,8 @@ glibc-locale
 gnome-keyring
 gnome-keyring-lang
 gnome-keyring-pam
+gnome-vfs2
+gnome-vfs2-lang
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
@@ -228,6 +234,7 @@ gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
 gstreamer-0_10-plugin-esd
+gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good
@@ -263,6 +270,7 @@ hunspell-tools
 hwinfo
 iceauth
 icedax
+icedtea-web
 icewm
 icewm-lite
 ico
@@ -281,7 +289,11 @@ iputils
 ipw-firmware
 irda
 iw
+java-1_7_0-openjdk
+java-ca-certificates
 jfsutils
+jline
+jpackage-utils
 k3b
 k3b-lang
 kactivities4
@@ -372,6 +384,7 @@ kwebkitpart-lang
 kwin
 kwrite
 lbxproxy
+lcms2
 lensfun-data
 less
 lftp
@@ -450,10 +463,12 @@ libaugeas0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libavahi-glib1
 libblkid1
 libblocxx6
 libbluedevil1
 libbluetooth3
+libboost_date_time1_53_0
 libboost_filesystem1_53_0
 libboost_program_options1_53_0
 libboost_system1_53_0
@@ -475,10 +490,13 @@ libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcdio14
+libcdr-0_0-0
 libcelt0-2
 libcloog0
+libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
+libcmis-0_3-3
 libcollection2
 libcolord1
 libcom_err2
@@ -503,6 +521,7 @@ libdrm_nouveau2
 libdrm_radeon1
 libdvdread4
 libdw1
+libebl1
 libedit0
 libelf0
 libelf1
@@ -516,6 +535,8 @@ libexif12
 libexiv2-12
 libexpat1
 libext2fs2
+libexttextcat
+libexttextcat-2_0-0
 libfam0
 libffi4
 libfftw3-3
@@ -557,6 +578,7 @@ libgpod4
 libgps20
 libgrantlee_core0
 libgrantlee_gui0
+libgraphite2-3
 libgsm1
 libgssglue1
 libgstapp-0_10-0
@@ -578,6 +600,7 @@ libharfbuzz0
 libhdf5-0
 libhdf5_hl0
 libhogweed2
+libhyphen0
 libibus-1_0-0
 libical0
 libicu51
@@ -628,6 +651,7 @@ libktexteditor
 libktorrent5
 libktorrent5-lang
 libkvkontakte1
+liblangtag1
 liblastfm1
 liblbxutil1
 liblcms1
@@ -661,12 +685,14 @@ libmpc3
 libmpcdec5
 libmpfr4
 libmsn0_3
+libmspub-0_0-0
 libmtdev1
 libmtp9
 libmusicbrainz5-0
 libmygpo-qt1
 libmysqlclient18
 libmysqld18
+libmythes-1_2-0
 libncurses5
 libncurses6
 libneon27
@@ -674,8 +700,8 @@ libnepomukwidgets4
 libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
-libnl-1_1
 libnl-config
+libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -695,6 +721,7 @@ libortp8
 libotr2
 libp11-kit0
 libpackagekit-glib2-16
+libpackagekit-qt2-6
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
@@ -717,7 +744,7 @@ libpng16-16
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-4
-libpoppler36
+libpoppler37
 libpopt0
 libportaudio2
 libppl9
@@ -756,7 +783,18 @@ libreadline6
 libredland0
 libref_array1
 libreiserfs-0_3-0
+libreoffice
+libreoffice-branding-openSUSE
+libreoffice-draw
+libreoffice-hyphen
 libreoffice-icon-theme-oxygen
+libreoffice-impress
+libreoffice-kde4
+libreoffice-l10n-de
+libreoffice-l10n-ru
+libreoffice-templates-labels-a4
+libreoffice-templates-labels-letter
+libreoffice-writer
 libsamplerate0
 libsbc1
 libselinux1
@@ -767,6 +805,7 @@ libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
+libsnapper2
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -812,6 +851,7 @@ libv4l2-0
 libv4lconvert0
 libvcdinfo0
 libvigraimpex4
+libvisio-0_0-0
 libvisual
 libvncclient0
 libvorbis0
@@ -823,6 +863,9 @@ libwayland-server0
 libwbclient0
 libwebp4
 libwebrtc_audio_processing0
+libwpd-0_9-9
+libwpg-0_2-2
+libwps-0_2-2
 libwrap0
 libx86-1
 libx86emu1
@@ -891,6 +934,7 @@ mozilla-nss-certs
 mpt-firmware
 mtools
 multipath-tools
+myspell-american
 nano
 nano-lang
 ncurses-utils
@@ -958,6 +1002,7 @@ patterns-openSUSE-non_oss
 patterns-openSUSE-office
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde4
+patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -1067,6 +1112,7 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
+rhino
 rpcbind
 rpm
 rpm-python
@@ -1093,6 +1139,8 @@ smbios-utils-python
 smp_utils
 smpppd
 smproxy
+snapper
+snapper-zypp-plugin
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
@@ -1119,6 +1167,8 @@ syslog-service
 systemd
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+systemtap
+systemtap-runtime
 sysvinit-tools
 taglib
 tar
@@ -1132,6 +1182,7 @@ thryomanes-fonts
 tightvnc
 time
 timezone
+timezone-java
 tnftp
 traceroute
 translation-update
@@ -1146,6 +1197,12 @@ udisks2-lang
 unzip
 update-alternatives
 update-desktop-files
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 upower-lang
 usb_modeswitch
@@ -1270,6 +1327,7 @@ xlsfonts
 xmag
 xman
 xmessage
+xmlbeans
 xmodmap
 xmore
 xorg-scripts
@@ -1390,6 +1448,8 @@ yp-tools
 ypbind
 zd1211-firmware
 zip
+zisofs-tools
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

@@ -22,6 +22,7 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
+aaa_base-malloccheck
 acl
 acpica
 adjtimex
@@ -33,6 +34,8 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 android-tools
+apper
+apper-lang
 appmenu-qt
 appres
 ark
@@ -108,7 +111,6 @@ dvd+rw-tools
 e2fsprogs
 editres
 efibootmgr
-eject
 elfutils
 ethtool
 expat
@@ -523,8 +525,8 @@ libnepomukwidgets4
 libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
-libnl-1_1
 libnl-config
+libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -541,6 +543,7 @@ libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
 libpackagekit-glib2-16
+libpackagekit-qt2-6
 libpango-1_0-0
 libparted0
 libpcap1
@@ -560,7 +563,7 @@ libpng16-16
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-4
-libpoppler36
+libpoppler37
 libpopt0
 libppl9
 libppl_c4
@@ -876,6 +879,12 @@ udisks2
 unzip
 update-alternatives
 update-desktop-files
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data
@@ -1008,6 +1017,7 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
+zisofs-tools
 zypper
 zypper-aptitude
 zypper-log

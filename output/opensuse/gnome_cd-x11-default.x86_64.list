@@ -7,6 +7,7 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
+aaa_base-malloccheck
 acl
 acpica
 adjtimex
@@ -28,6 +29,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
+cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
 command-not-found
@@ -70,7 +72,6 @@ dosfstools
 e2fsprogs
 editres
 efibootmgr
-eject
 elfutils
 ethtool
 expat
@@ -119,6 +120,7 @@ hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hwinfo
 iceauth
+icedax
 icewm
 ico
 ifplugd
@@ -136,6 +138,7 @@ kpartx
 krb5
 lbxproxy
 less
+libFLAC8
 libFS6
 libICE6
 libSM6
@@ -174,6 +177,8 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
+libao-plugins4
+libao4
 libasm1
 libasound2
 libassuan0
@@ -241,6 +246,7 @@ libjavascriptcoregtk-3_0-0
 libjbig2
 libjpeg8
 libjson0
+libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -263,9 +269,11 @@ libncurses5
 libncurses6
 libnettle4
 libnfnetlink0
-libnl-1_1
+libnl1
 libntfs-3g84
 libnuma1
+libogg0
+liboggkate1
 libopenjpeg1
 libopenssl1_0_0
 libp11-kit0
@@ -284,7 +292,7 @@ libply-splash-graphics2
 libply2
 libpng16-16
 libpolkit0
-libpoppler36
+libpoppler37
 libpopt0
 libppl9
 libppl_c4
@@ -293,6 +301,7 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-webkit
 libpth20
+libpulse0
 libpython2_7-1_0
 libqrencode3
 libreadline6
@@ -300,7 +309,9 @@ libreiserfs-0_3-0
 libselinux1
 libsemanage1
 libsepol1
+libsndfile1
 libsolv-tools
+libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -318,6 +329,9 @@ libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
 libuuid1
+libvorbis0
+libvorbisenc2
+libvorbisfile3
 libwayland-client0
 libwayland-server0
 libwbclient0
@@ -511,6 +525,12 @@ twm
 udev
 unzip
 update-alternatives
+update-test-affects-package-manager
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+update-test-security
+update-test-trival
 upower
 usbmuxd
 usbutils
@@ -520,6 +540,7 @@ viewres
 vim
 vim-base
 vlan
+vorbis-tools
 w3m
 wallpaper-branding-openSUSE
 wdiff
@@ -527,6 +548,7 @@ wget
 which
 wireless-regdb
 wireless-tools
+wodim
 x11-tools
 x11perf
 xauth
@@ -676,6 +698,7 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
+zisofs-tools
 zypper
 zypper-aptitude
 zypper-log
