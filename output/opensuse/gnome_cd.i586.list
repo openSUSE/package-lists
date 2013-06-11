@@ -113,7 +113,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db-utils
 dbus-1
 dbus-1-glib
 dbus-1-python
@@ -191,7 +190,7 @@ gegl-0_2
 genisoimage
 geoclue
 geoclue-recommended
-gettext-runtime
+gettext-runtime-mini
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript
@@ -284,8 +283,6 @@ grilo-plugin-upnp
 grilo-plugin-youtube
 grilo-plugins
 grilo-plugins-lang
-groff
-groff-devx
 grsync
 grub
 grub2
@@ -339,7 +336,6 @@ gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
-gxditview
 gzip
 hdparm
 hfsutils
@@ -381,7 +377,6 @@ iso-codes
 iso_ent
 iw
 java-1_7_0-openjdk
-java-ca-certificates
 jfsutils
 jline
 jpackage-utils
@@ -476,7 +471,6 @@ libavahi-gobject0
 libbabl-0_1-0
 libblas3
 libblkid1
-libblocxx6
 libbluetooth3
 libbluray1
 libboost_date_time1_53_0
@@ -705,8 +699,8 @@ libharfbuzz0
 libhogweed2
 libhyphen0
 libibus-1_0-0
-libical0
-libicu51
+libical1
+libicu51_2
 libidn11
 libieee1284
 libimobiledevice3
@@ -750,7 +744,7 @@ liblzo2-2
 libmagic1
 libmemphis-0_2-0
 libmicrohttpd10
-libminiupnpc8
+libminiupnpc9
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
@@ -822,7 +816,6 @@ libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-python3
 libpeas-loader-seed
-libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
@@ -864,11 +857,11 @@ libquvi7
 libraptor2-0
 librasqal3
 libraw1394-11
-libraw5
+libraw9
 librcc0
 librcd0
+librdf0
 libreadline6
-libredland0
 libref_array1
 libreiserfs-0_3-0
 libreoffice
@@ -894,12 +887,14 @@ libsemanage1
 libsensors4
 libsepol1
 libsexy
+libsgutils2-2
 libsigc-2_0-0
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslang2
 libsmbclient0
 libsmbios2
+libsmputils1-1
 libsnapper2
 libsndfile1
 libsnmp30
@@ -954,6 +949,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libv4l
 libv4l1-0
@@ -1018,10 +1014,6 @@ libzvbi0
 libzypp
 liferea
 lightsoff
-limal
-limal-nfs-server
-limal-nfs-server-perl
-limal-perl
 lirc
 lirc-remotes
 listres
@@ -1034,7 +1026,6 @@ lsscsi
 luit
 lvm2
 mailx
-man
 master-boot-code
 mc
 mc-lang
@@ -1103,6 +1094,7 @@ openvpn
 orca
 os-prober
 p11-kit
+p11-kit-tools
 p7zip
 pam
 pam-config
@@ -1192,6 +1184,7 @@ perl-gettext
 perl-libwww-perl
 permissions
 phalanx
+pigz
 pinentry
 pkcs11-helper
 pkg-config
@@ -1433,7 +1426,6 @@ usb_modeswitch
 usb_modeswitch-data
 usbmuxd
 usbutils
-utempter
 util-linux
 vaapi-intel-driver
 viewres
@@ -1589,7 +1581,6 @@ xwud
 xz
 yast2
 yast2-add-on
-yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-control-center
@@ -1612,8 +1603,6 @@ yast2-mail
 yast2-metapackage-handler
 yast2-mouse
 yast2-network
-yast2-nfs-client
-yast2-nfs-common
 yast2-nis-client
 yast2-ntp-client
 yast2-online-update

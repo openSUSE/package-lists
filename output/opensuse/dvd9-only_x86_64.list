@@ -29,6 +29,7 @@ cyrus-sasl-gssapi-32bit
 cyrus-sasl-plain-32bit
 dbus-1-glib-32bit
 device-mapper-32bit
+ebtables
 efibootmgr
 flac-devel-32bit
 flex-32bit
@@ -142,6 +143,8 @@ libcdaudio1-32bit
 libcdda_interface0-32bit
 libcdda_paranoia0-32bit
 libcelt0-2-32bit
+libcgroup1
+libcgroup1-32bit
 libchm0-32bit
 libcolord1-32bit
 libcom_err2-32bit
@@ -152,7 +155,6 @@ libcroco-0_6-3-32bit
 libcryptmount0-32bit
 libcryptsetup4-32bit
 libcurl4-32bit
-libdb-4_5-devel-32bit
 libdb-4_8-32bit
 libdbus-1-3-32bit
 libdc1394-22-32bit
@@ -213,7 +215,7 @@ libharfbuzz0-32bit
 libhogweed2-32bit
 libibus-1_0-0-32bit
 libicu-devel-32bit
-libicu51-32bit
+libicu51_2-32bit
 libidn11-32bit
 libiec61883-32bit
 libieee1284-32bit
@@ -251,6 +253,7 @@ libmysqlclient18-32bit
 libncurses5-32bit
 libncurses6-32bit
 libneon27-32bit
+libnetcontrol0
 libnettle4-32bit
 libnl-1_1-devel-32bit
 libnl1-32bit
@@ -327,6 +330,7 @@ libtag1-32bit
 libtalloc2-32bit
 libtasn1-6-32bit
 libtdb1-32bit
+libtevent0-32bit
 libtheora0-32bit
 libtiff-devel-32bit
 libtiff5-32bit
@@ -342,6 +346,16 @@ libv4l1-0-32bit
 libv4l2-0-32bit
 libv4lconvert0-32bit
 libvdpau1-32bit
+libvirt-daemon
+libvirt-daemon-driver-interface
+libvirt-daemon-driver-libxl
+libvirt-daemon-driver-network
+libvirt-daemon-driver-nodedev
+libvirt-daemon-driver-nwfilter
+libvirt-daemon-driver-secret
+libvirt-daemon-driver-storage
+libvirt-daemon-driver-xen
+libvirt-daemon-xen
 libvisual-32bit
 libvorbis0-32bit
 libvorbisenc2-32bit
@@ -373,6 +387,7 @@ libz1-32bit
 libzvbi0-32bit
 linux32
 ltrace-32bit
+lzop
 mcelog
 mozilla-nspr-32bit
 mozilla-nss-32bit
@@ -424,10 +439,12 @@ uim-gtk2-32bit
 uim-gtk3-32bit
 uim-qt4-32bit
 unixODBC-32bit
-utempter-32bit
+utempter-devel-32bit
 wine-32bit
 xen
 xen-doc-html
+xen-kmp-default
+xen-kmp-desktop
 xen-libs-32bit
 xen-tools
 xf86-video-intel-32bit

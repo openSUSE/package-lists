@@ -50,8 +50,6 @@ acpica
 adaptec-firmware
 adjtimex
 aisleriot
-akonadi
-akonadi-runtime
 akregator
 alacarte
 alsa
@@ -61,8 +59,6 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 amarok
-amavisd-new
-amavisd-new-docs
 android-tools
 anjuta
 anjuta-lang
@@ -73,12 +69,7 @@ apache2-prefork
 apache2-utils
 apparmor-parser
 apparmor-profiles
-apparmor-utils
 appmenu-qt
-apport
-apport-crashdb-opensuse
-apport-gtk
-apport-qt
 appres
 arabic-fonts
 ark
@@ -150,6 +141,12 @@ branding-openSUSE
 brasero
 brasero-nautilus
 bridge-utils
+brltty
+brltty-driver-at-spi2
+brltty-driver-brlapi
+brltty-driver-espeak
+brltty-driver-speech-dispatcher
+brltty-driver-xwindow
 bsdtar
 btrfsprogs
 build
@@ -196,6 +193,7 @@ cairo-devel
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
+capisuite
 caribou
 caribou-gtk-module-common
 caribou-gtk2-module
@@ -205,6 +203,8 @@ cdrkit-cdrtools-compat
 cervisia
 checkmedia
 cheese
+chewing-data
+chewing-utils
 choqok
 cifs-utils
 clamav
@@ -238,14 +238,11 @@ curl
 cvs
 cvsps
 cyreal-lobster-cyrillic-fonts
-cyrus-imapd
 cyrus-sasl
 cyrus-sasl-crammd5
-cyrus-sasl-devel
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db-utils
 db45-utils
 dbus-1
 dbus-1-glib
@@ -321,6 +318,7 @@ farstream-data
 fbiterm
 fcitx
 fcitx-branding-openSUSE
+fcitx-chewing
 fcitx-cloudpinyin
 fcitx-googlepinyin
 fcitx-gtk2
@@ -537,7 +535,7 @@ grilo-plugin-youtube
 grilo-plugins
 grilo-plugins-lang
 groff
-groff-devx
+groff-full
 grsync
 grub
 grub2
@@ -557,6 +555,7 @@ gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gstreamer-0_10-plugins-qt
 gstreamer-libnice
 gstreamer-plugin-gstclutter
 gstreamer-plugins-bad
@@ -688,7 +687,6 @@ indic-fonts
 info
 info2html
 initviocons
-inn
 input-utils
 insserv-compat
 intel-gpu-tools
@@ -721,7 +719,6 @@ ispell-russian
 ispell-spanish
 iw
 java-1_7_0-openjdk
-java-ca-certificates
 jfsutils
 jing
 jline
@@ -729,7 +726,6 @@ joe
 jpackage-utils
 k3b
 kactivities4
-kaddressbook
 kaffeine
 kalgebra
 kalzium
@@ -782,15 +778,12 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdebase4-workspace-plasma-calendar
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
 kdenetwork4-filesharing
 kdepasswd
-kdepim4
-kdepim4-runtime
 kdepimlibs4
 kdesdk4-strigi
 kdevelop4
@@ -811,7 +804,6 @@ keyutils
 kgamma
 kgeography
 kget
-kgpg
 khangman
 khmeros-fonts
 kig
@@ -840,7 +832,6 @@ klettres
 klogd
 kmag
 kmahjongg
-kmail
 kmines
 kmix
 kmousetool
@@ -850,11 +841,6 @@ kompare
 konqueror
 konqueror-plugins
 konsole
-kontact
-konversation
-konversation-lang
-kopete
-korganizer
 kpartx
 kpat
 krb5
@@ -903,6 +889,8 @@ libIlmImf-Imf_2_0-20
 libIlmThread-2_0-10
 libMagickCore-6_Q8-1
 libMagickWand-6_Q8-1
+libQtGLib-2_0-0
+libQtGStreamer-0_10-0
 libQtWebKit4
 libSDL-1_2-0
 libSM6
@@ -999,7 +987,6 @@ libbabl-0_1-0
 libblas3
 libblkid-devel
 libblkid1
-libblocxx6
 libbluedevil1
 libbluetooth3
 libbluray1
@@ -1065,6 +1052,7 @@ libchamplain-0_12-0
 libcheese-common
 libcheese-gtk23
 libcheese7
+libchewing3
 libchm0
 libcloog0
 libclucene-contribs-lib1
@@ -1091,8 +1079,8 @@ libcue1
 libcurl4
 libdaemon0
 libdb-4_5
-libdb-4_5-devel
 libdb-4_8
+libdb-4_8-devel
 libdbus-1-3
 libdbusmenu-qt2
 libdc1394-22
@@ -1251,7 +1239,6 @@ libgpod-tools
 libgpod4
 libgps20
 libgrantlee_core0
-libgrantlee_gui0
 libgraphite2-3
 libgrilo-0_2-1
 libgrlnet-0_2-0
@@ -1309,13 +1296,13 @@ libgxps2
 libhangul1
 libharfbuzz0
 libhavege1
-libhdf5-0
-libhdf5_hl0
+libhdf5-8
+libhdf5_hl8
 libhogweed2
 libhyphen0
 libibus-1_0-0
-libical0
-libicu51
+libical1
+libicu51_2
 libidn11
 libieee1284
 libimobiledevice3
@@ -1361,17 +1348,15 @@ libkexiv2-11
 libkeybinder0
 libkeyutils1
 libkface1
-libkgapi0
 libkgeomap1
 libkhangmanengine4
 libkipi10
 libkmahjongg
 libkmahjongglib4
 libkmod2
-libkolab0
-libkolabxml0
 libkonq5
 libkpathsea6
+libkqoauth0
 libksane0
 libksba8
 libksuseinstall1
@@ -1403,12 +1388,11 @@ libm17n0
 libmagic1
 libmarblewidget15
 libmeanwhile1
-libmediastreamer1
 libmediawiki1
 libmemphis-0_2-0
 libmenu-cache2
 libmicrohttpd10
-libminiupnpc8
+libminiupnpc9
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
@@ -1422,7 +1406,6 @@ libmozjs185-1_0
 libmpc3
 libmpcdec5
 libmpfr4
-libmsn0_3
 libmspack0
 libmspub-0_0-0
 libmtdev1
@@ -1433,7 +1416,6 @@ libmusicbrainz5-0
 libmutter0
 libmygpo-qt1
 libmysqlclient18
-libmysqlcppconn6
 libmysqld18
 libmythes-1_2-0
 libnautilus-extension1
@@ -1472,7 +1454,6 @@ libopencv2_4
 libopenjpeg1
 libopenobex1
 libopenraw1
-libopenssl-devel
 libopenssl1_0_0
 libopensync
 libopensync-plugin-google-calendar
@@ -1481,13 +1462,11 @@ libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
 liborcus-0_4-0
-libortp8
 libosinfo
 libosinfo-1_0-0
 libosip2
 libosip2-devel
 libotf0
-libotr2
 libp11-kit0
 libpackagekit-glib2-16
 libpanel-applet-4-0
@@ -1577,15 +1556,14 @@ libquvi7
 libraptor2-0
 librasqal3
 libraw1394-11
-libraw5
+libraw9
 librcc0
 librcd0
+librdf0
 libreadline6
-libredland0
 libreiserfs-0_3-0
 libreoffice
 libreoffice-base
-libreoffice-base-drivers-mysql
 libreoffice-branding-openSUSE
 libreoffice-calc
 libreoffice-draw
@@ -1650,7 +1628,7 @@ librsvg-2-2
 libsamplerate0
 libsbc1
 libschroedinger-1_0-0
-libseccomp1
+libseccomp2
 libsecret-1-0
 libseed-gtk3-0
 libselinux1
@@ -1659,6 +1637,7 @@ libsensors4
 libsepol1
 libserf-1-0
 libsexy
+libsgutils2-2
 libsigc-2_0-0
 libsilc-1_1-2
 libsilcclient-1_1-3
@@ -1667,6 +1646,7 @@ libsmbclient0
 libsmbios2
 libsmi
 libsmi2
+libsmputils1-1
 libsnapper2
 libsndfile1
 libsnmp30
@@ -1713,6 +1693,7 @@ libtdb1
 libtelepathy-farstream3
 libtelepathy-glib0
 libtelepathy-logger3
+libtevent0
 libtheora0
 libthunarx-2-0
 libtidy-0_99-0
@@ -1739,6 +1720,7 @@ libusbmuxd2
 libusbredirhost1
 libusbredirparser1
 libustr-1_0-1
+libutempter0
 libuuid-devel
 libuuid1
 libv4l
@@ -1814,7 +1796,6 @@ libxcb-xtest0
 libxcb-xv0
 libxcb-xvmc0
 libxcb1
-libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4ui-1-0
 libxfce4ui-branding-openSUSE
@@ -1861,10 +1842,6 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
-limal
-limal-nfs-server
-limal-nfs-server-perl
-limal-perl
 linux-glibc-devel
 lirc
 lirc-remotes
@@ -1921,8 +1898,6 @@ manufacturer-PPDs
 marble
 marble-data
 marble-doc
-mariadb
-mariadb-client
 mariadb-errormessages
 master-boot-code
 mc
@@ -2094,12 +2069,12 @@ orca
 os-prober
 oxygen-icon-theme
 p11-kit
+p11-kit-tools
 p7zip
 pam
 pam-config
 pam-devel
 pam-modules
-pam_apparmor
 pam_fprint
 pam_krb5
 pam_ldap
@@ -2179,6 +2154,7 @@ patterns-openSUSE-remote_desktop
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-sw_management_kde4
+patterns-openSUSE-update_test
 patterns-openSUSE-voip
 patterns-openSUSE-x11
 patterns-openSUSE-x11_opt
@@ -2199,7 +2175,6 @@ pcsc-lite
 perl
 perl-Archive-Zip
 perl-Authen-SASL
-perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-Carp-Clan
@@ -2207,17 +2182,11 @@ perl-Class-Singleton
 perl-Clone
 perl-Config-Crontab
 perl-Config-IniFiles
-perl-Convert-ASN1
-perl-Convert-BinHex
-perl-Convert-TNEF
-perl-Convert-UUlib
 perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
 perl-Crypt-Rijndael
 perl-Crypt-SmbHash
-perl-Cyrus-IMAP
-perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
@@ -2242,13 +2211,12 @@ perl-HTTP-Message
 perl-HTTP-Negotiate
 perl-IO-Socket-INET6
 perl-IO-Socket-SSL
-perl-IO-stringy
 perl-IP-Country
 perl-Image-ExifTool
 perl-JSON
+perl-JSON-XS
 perl-LWP-MediaTypes
 perl-List-MoreUtils
-perl-MIME-tools
 perl-MLDBM
 perl-Mail-DKIM
 perl-Mail-SPF
@@ -2271,7 +2239,6 @@ perl-NetxAP
 perl-Params-Util
 perl-Parse-RecDescent
 perl-PlRPC
-perl-RPC-XML
 perl-Readonly
 perl-SNMP
 perl-SQL-Statement
@@ -2286,7 +2253,6 @@ perl-Text-Wrapper
 perl-Tie-IxHash
 perl-TimeDate
 perl-URI
-perl-Unix-Syslog
 perl-WWW-RobotRules
 perl-X11-Protocol
 perl-X500-DN
@@ -2300,11 +2266,10 @@ perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
-perl-apparmor
 perl-base
 perl-camgm
+perl-common-sense
 perl-gettext
-perl-ldap
 perl-libwww-perl
 perl-razor-agents
 perl-satsolver
@@ -2322,6 +2287,7 @@ php5-tokenizer
 php5-xmlreader
 php5-xmlwriter
 pidgin
+pigz
 pinentry
 pinentry-gtk2
 pinentry-qt4
@@ -2330,7 +2296,6 @@ pk-update-icon-lang
 pkcs11-helper
 pkg-config
 plasma-addons
-plasma-addons-lancelot
 plasma-addons-marble
 plasmoid-folderview
 plasmoid-networkmanagement
@@ -2361,6 +2326,7 @@ procps
 providers
 proxymngr
 psmisc
+psutils
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
@@ -2373,14 +2339,12 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 python
-python-M2Crypto
 python-atspi
 python-base
 python-beautifulsoup
 python-cairo
 python-cups
 python-cupshelpers
-python-curses
 python-dateutil
 python-deltarpm
 python-distribute
@@ -2392,7 +2356,6 @@ python-gstreamer-0_10
 python-gtk
 python-httplib2
 python-kde4
-python-kde4-akonadi
 python-kde4-khtml
 python-kde4-knewstuff
 python-kde4-nepomuk
@@ -2400,6 +2363,7 @@ python-kde4-phonon
 python-kde4-plasma
 python-kde4-soprano
 python-kdebase4
+python-libxml2
 python-lxml
 python-notify
 python-numpy
@@ -2420,7 +2384,6 @@ python-xdg
 python-xlib
 python-xml
 python-yum
-python-zypp
 python3
 python3-atspi
 python3-base
@@ -2495,6 +2458,7 @@ sensors
 sessreg
 setserial
 setxkbmap
+sfftobmp
 sg3_utils
 sgml-skel
 shadow
@@ -2574,6 +2538,7 @@ system-config-printer-common
 system-config-printer-dbus-service
 systemd
 systemd-presets-branding-openSUSE
+systemd-rpm-macros
 systemd-sysvinit
 systemtap
 systemtap-runtime
@@ -2729,7 +2694,6 @@ usb_modeswitch
 usb_modeswitch-data
 usbmuxd
 usbutils
-utempter
 util-linux
 vaapi-intel-driver
 vacation
@@ -2787,6 +2751,7 @@ x11perf
 xauth
 xbacklight
 xbiff
+xbrlapi
 xcalc
 xchat
 xchat-perl
@@ -2971,8 +2936,6 @@ xz
 yast2
 yast2-add-on
 yast2-add-on-creator
-yast2-apparmor
-yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-ca-management
@@ -3006,9 +2969,6 @@ yast2-mail
 yast2-metapackage-handler
 yast2-mouse
 yast2-network
-yast2-nfs-client
-yast2-nfs-common
-yast2-nfs-server
 yast2-nis-client
 yast2-nis-server
 yast2-ntp-client
@@ -3117,7 +3077,6 @@ zenity
 zip
 zisofs-tools
 zlib-devel
-zoo
 zsh
 zypp-plugin-python
 zypper

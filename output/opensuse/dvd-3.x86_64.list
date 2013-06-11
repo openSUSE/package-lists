@@ -91,6 +91,8 @@ libSM6
 libX11-6
 libX11-data
 libXau6
+libXext6
+libXmuu1
 libXt6
 libacl1
 libadns1
@@ -101,12 +103,12 @@ libattr1
 libaudit1
 libaugeas0
 libblkid1
-libblocxx6
 libbz2-1
 libcap-ng0
 libcap2
 libcom_err2
 libcrack2
+libcroco-0_6-3
 libcryptsetup4
 libcurl4
 libdb-4_8
@@ -137,7 +139,7 @@ libgssglue1
 libgudev-1_0-0
 libhavege1
 libhogweed2
-libicu51
+libicu51_2
 libidn11
 libimobiledevice3
 libiptc0
@@ -181,6 +183,7 @@ libreiserfs-0_3-0
 libselinux1
 libsemanage1
 libsepol1
+libsgutils2-2
 libsolv-tools
 libsqlite3-0
 libssh2-1
@@ -196,6 +199,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libwrap0
 libx86emu1
@@ -209,8 +213,6 @@ libyui5
 libz1
 libzio1
 libzypp
-limal
-limal-perl
 linux32
 logrotate
 lsof
@@ -239,6 +241,8 @@ openssh
 openssh-askpass
 openssl
 os-prober
+p11-kit
+p11-kit-tools
 pam
 pam-config
 parted
@@ -304,6 +308,7 @@ rpcbind
 rpm
 rsync
 sed
+sg3_utils
 shadow
 shared-mime-info
 shim
@@ -350,6 +355,7 @@ which
 wireless-regdb
 wireless-tools
 wol
+xauth
 xdg-utils
 xen-libs
 xen-tools-domU

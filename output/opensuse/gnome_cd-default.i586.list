@@ -93,7 +93,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db-utils
 dbus-1
 dbus-1-glib
 dbus-1-python
@@ -162,7 +161,7 @@ gedit-plugin-zeitgeist
 genisoimage
 geoclue
 geoclue-recommended
-gettext-runtime
+gettext-runtime-mini
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
@@ -237,8 +236,6 @@ grilo-plugin-upnp
 grilo-plugin-youtube
 grilo-plugins
 grilo-plugins-lang
-groff
-groff-devx
 grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
@@ -286,7 +283,6 @@ gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
-gxditview
 gzip
 hdparm
 hicolor-icon-theme
@@ -598,8 +594,8 @@ libgxps2
 libharfbuzz0
 libhogweed2
 libibus-1_0-0
-libical0
-libicu51
+libical1
+libicu51_2
 libidn11
 libieee1284
 libimobiledevice3
@@ -636,7 +632,7 @@ liblzo2-2
 libmagic1
 libmemphis-0_2-0
 libmicrohttpd10
-libminiupnpc8
+libminiupnpc9
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
@@ -701,7 +697,6 @@ libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-python3
 libpeas-loader-seed
-libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
@@ -741,7 +736,7 @@ libquvi-scripts
 libquvi7
 libraptor2-0
 libraw1394-11
-libraw5
+libraw9
 librcc0
 librcd0
 libreadline6
@@ -758,10 +753,12 @@ libsemanage1
 libsensors4
 libsepol1
 libsexy
+libsgutils2-2
 libsigc-2_0-0
 libsilc-1_1-2
 libsilcclient-1_1-3
 libsmbclient0
+libsmputils1-1
 libsndfile1
 libsnmp30
 libsocialweb
@@ -791,6 +788,7 @@ libtdb1
 libtelepathy-farstream3
 libtelepathy-glib0
 libtelepathy-logger3
+libtevent0
 libtheora0
 libtidyp-1_04-0
 libtiff5
@@ -811,6 +809,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libv4l
 libv4l1-0
@@ -877,7 +876,6 @@ lsscsi
 luit
 lvm2
 mailx
-man
 master-boot-code
 mdadm
 media-player-info
@@ -931,6 +929,7 @@ openvpn
 orca
 os-prober
 p11-kit
+p11-kit-tools
 p7zip
 pam
 pam-config
@@ -978,6 +977,7 @@ perl-gettext
 perl-libwww-perl
 permissions
 phalanx
+pigz
 pinentry
 pkcs11-helper
 pkg-config
@@ -1195,7 +1195,6 @@ usb_modeswitch
 usb_modeswitch-data
 usbmuxd
 usbutils
-utempter
 util-linux
 viewres
 vim

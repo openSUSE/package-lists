@@ -53,7 +53,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db-utils
 dbus-1
 dbus-1-glib
 dbus-1-x11
@@ -87,7 +86,7 @@ fslsfonts
 fstobdf
 gawk
 genisoimage
-gettext-runtime
+gettext-runtime-mini
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-other
@@ -104,13 +103,10 @@ gpart
 gpg2
 gpm
 grep
-groff
-groff-devx
 grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
 gsettings-desktop-schemas
-gxditview
 gzip
 hdparm
 hicolor-icon-theme
@@ -184,7 +180,6 @@ libattr1
 libaudit1
 libaugeas0
 libblkid1
-libblocxx6
 libbz2-1
 libcairo2
 libcap-ng0
@@ -234,7 +229,7 @@ libgssglue1
 libgudev-1_0-0
 libharfbuzz0
 libhogweed2
-libicu51
+libicu51_2
 libidn11
 libimobiledevice3
 libiptc0
@@ -279,7 +274,6 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
-libpipeline1
 libpixman-1-0
 libplist1
 libply-boot-client2
@@ -305,6 +299,8 @@ libreiserfs-0_3-0
 libselinux1
 libsemanage1
 libsepol1
+libsgutils2-2
+libsmputils1-1
 libsndfile1
 libsolv-tools
 libspeex1
@@ -324,6 +320,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libvorbis0
 libvorbisenc2
@@ -352,10 +349,6 @@ libyui5
 libz1
 libzio1
 libzypp
-limal
-limal-nfs-server
-limal-nfs-server-perl
-limal-perl
 listres
 logrotate
 lsb-release
@@ -364,7 +357,6 @@ lsscsi
 luit
 lvm2
 mailx
-man
 master-boot-code
 mdadm
 microcode_ctl
@@ -395,6 +387,8 @@ openssh
 openssh-askpass
 openssl
 os-prober
+p11-kit
+p11-kit-tools
 pam
 pam-config
 pango-tools
@@ -450,6 +444,7 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
+pigz
 pinentry
 pkg-config
 plymouth
@@ -527,7 +522,6 @@ update-test-trival
 upower
 usbmuxd
 usbutils
-utempter
 util-linux
 viewres
 vim
@@ -638,7 +632,6 @@ xwud
 xz
 yast2
 yast2-add-on
-yast2-backup
 yast2-bootloader
 yast2-core
 yast2-country
@@ -657,8 +650,6 @@ yast2-mail
 yast2-metapackage-handler
 yast2-mouse
 yast2-network
-yast2-nfs-client
-yast2-nfs-common
 yast2-nis-client
 yast2-ntp-client
 yast2-online-update

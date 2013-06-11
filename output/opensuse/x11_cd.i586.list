@@ -78,7 +78,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db-utils
 dbus-1
 dbus-1-glib
 dbus-1-python
@@ -140,7 +139,7 @@ gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdmflexiserver
 genisoimage
-gettext-runtime
+gettext-runtime-mini
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
@@ -170,8 +169,6 @@ gpg2
 gpm
 gptfdisk
 grep
-groff
-groff-devx
 grsync
 grub
 grub2
@@ -208,7 +205,6 @@ gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gvfs-lang
-gxditview
 gzip
 hdparm
 hfsutils
@@ -316,7 +312,6 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libblkid1
-libblocxx6
 libbluetooth3
 libbluray1
 libboost_system1_53_0
@@ -434,7 +429,7 @@ libgudev-1_0-0
 libgvfscommon0
 libharfbuzz0
 libhogweed2
-libicu51
+libicu51_2
 libidn11
 libimobiledevice3
 libiptc0
@@ -505,7 +500,6 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
-libpipeline1
 libpixman-1-0
 libplist1
 libply-boot-client2
@@ -541,10 +535,12 @@ libselinux1
 libsemanage1
 libsepol1
 libsexy
+libsgutils2-2
 libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
+libsmputils1-1
 libsnapper2
 libsndfile1
 libsoftokn3
@@ -560,6 +556,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtdb1
+libtevent0
 libtheora0
 libthunarx-2-0
 libtidyp-1_04-0
@@ -574,6 +571,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libvisual
 libvorbis0
@@ -630,8 +628,6 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
-limal
-limal-perl
 listres
 lockdev
 logrotate
@@ -642,7 +638,6 @@ lsscsi
 luit
 lvm2
 mailx
-man
 master-boot-code
 mc
 mc-lang
@@ -699,6 +694,7 @@ openssl
 opensuse-manuals_en
 os-prober
 p11-kit
+p11-kit-tools
 p7zip
 pam
 pam-config
@@ -713,6 +709,7 @@ patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
 patterns-openSUSE-fonts
 patterns-openSUSE-sw_management
+patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_yast
 patterns-openSUSE-xfce_basis
@@ -758,6 +755,7 @@ perl-gettext
 perl-libwww-perl
 permissions
 photorec
+pigz
 pinentry
 pinentry-gtk2
 pkg-config
@@ -859,7 +857,6 @@ usb_modeswitch
 usb_modeswitch-data
 usbmuxd
 usbutils
-utempter
 util-linux
 vaapi-intel-driver
 viewres

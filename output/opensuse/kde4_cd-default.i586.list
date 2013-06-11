@@ -26,8 +26,6 @@ aaa_base-malloccheck
 acl
 acpica
 adjtimex
-akonadi
-akonadi-runtime
 alsa
 alsa-oss
 alsa-plugins
@@ -52,7 +50,6 @@ bind-utils
 bitmap
 bluedevil
 bluez
-boost-license1_53_0
 branding-openSUSE
 bridge-utils
 bzip2
@@ -85,7 +82,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db-utils
 dbus-1
 dbus-1-glib
 dbus-1-x11
@@ -135,7 +131,7 @@ gd
 gdb
 gdk-pixbuf-query-loaders
 genisoimage
-gettext-runtime
+gettext-runtime-mini
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
@@ -155,8 +151,6 @@ gpg2
 gpm
 gptfdisk
 grep
-groff
-groff-devx
 grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
@@ -181,7 +175,6 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-tools
 gwenview
-gxditview
 gzip
 hdparm
 hicolor-icon-theme
@@ -204,7 +197,6 @@ iproute2
 iptables
 iputils
 kactivities4
-kaddressbook
 kbd
 kcalc
 kcharselect
@@ -222,15 +214,12 @@ kdebase4-session
 kdebase4-workspace
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdebase4-workspace-plasma-calendar
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
 kdenetwork4-filesharing
 kdepasswd
-kdepim4
-kdepim4-runtime
 kdepimlibs4
 kdialog
 kdm
@@ -240,7 +229,6 @@ keditbookmarks
 keyutils
 kgamma
 kget
-kgpg
 kio_audiocd
 kio_iso
 kio_kamera
@@ -248,7 +236,6 @@ kio_mtp
 klogd
 kmag
 kmahjongg
-kmail
 kmines
 kmix
 kmousetool
@@ -257,9 +244,6 @@ kompare
 konqueror
 konqueror-plugins
 konsole
-kontact
-konversation
-korganizer
 kpartx
 kpat
 krb5
@@ -348,9 +332,6 @@ libavahi-core7
 libblkid1
 libbluedevil1
 libbluetooth3
-libboost_program_options1_53_0
-libboost_system1_53_0
-libboost_thread1_53_0
 libburn4
 libbz2-1
 libcairo-gobject2
@@ -429,8 +410,6 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgps20
-libgrantlee_core0
-libgrantlee_gui0
 libgssglue1
 libgstapp-0_10-0
 libgstapp-1_0-0
@@ -449,8 +428,8 @@ libgudev-1_0-0
 libharfbuzz0
 libhogweed2
 libibus-1_0-0
-libical0
-libicu51
+libical1
+libicu51_2
 libidn11
 libimobiledevice3
 libiodbc3
@@ -478,13 +457,10 @@ libkdepimlibs4
 libkerfuffle4
 libkexiv2-11
 libkeyutils1
-libkgapi0
 libkipi10
 libkmahjongg
 libkmahjongglib4
 libkmod2
-libkolab0
-libkolabxml0
 libkonq5
 libksba8
 libksuseinstall1
@@ -547,7 +523,6 @@ libpci3
 libpciaccess0
 libpcre1
 libphonon4
-libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
@@ -590,8 +565,8 @@ librasqal3
 libraw1394-11
 librcc0
 librcd0
+librdf0
 libreadline6
-libredland0
 libreiserfs-0_3-0
 libsamplerate0
 libsbc1
@@ -599,7 +574,9 @@ libselinux1
 libsemanage1
 libsensors4
 libsepol1
+libsgutils2-2
 libsmbclient0
+libsmputils1-1
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -617,6 +594,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtdb1
+libtevent0
 libtheora0
 libtidy-0_99-0
 libtidyp-1_04-0
@@ -629,6 +607,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libv4l
 libv4l1-0
@@ -658,7 +637,6 @@ libxcb-shm0
 libxcb-util1
 libxcb-xfixes0
 libxcb1
-libxerces-c-3_1
 libxkbfile1
 libxml2-2
 libxslt1
@@ -681,10 +659,6 @@ lsscsi
 luit
 lvm2
 mailx
-man
-mariadb
-mariadb-client
-mariadb-errormessages
 master-boot-code
 mdadm
 media-player-info
@@ -725,6 +699,8 @@ openssh-askpass
 openssl
 openvpn
 os-prober
+p11-kit
+p11-kit-tools
 pam
 pam-config
 pango-tools
@@ -770,12 +746,12 @@ perl-gettext
 perl-libwww-perl
 permissions
 phonon-backend-gstreamer-0_10
+pigz
 pinentry
 pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
-plasma-addons-lancelot
 plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess
@@ -883,7 +859,6 @@ usb_modeswitch
 usb_modeswitch-data
 usbmuxd
 usbutils
-utempter
 util-linux
 viewres
 vim

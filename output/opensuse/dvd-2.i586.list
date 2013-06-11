@@ -10,7 +10,6 @@ PackageKit-gstreamer-plugin
 aaa_base
 aaa_base-extras
 adjtimex
-akonadi-runtime
 alsa
 alsa-oss
 alsa-plugins
@@ -24,7 +23,6 @@ bash
 bash-doc
 bind-libs
 bind-utils
-boost-license1_53_0
 branding-openSUSE
 bridge-utils
 bundle-lang-common-en
@@ -45,9 +43,6 @@ cron
 cronie
 curl
 cyrus-sasl
-cyrus-sasl-crammd5
-cyrus-sasl-digestmd5
-cyrus-sasl-plain
 dbus-1
 dbus-1-glib
 dbus-1-python
@@ -118,12 +113,9 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdebase4-workspace-plasma-calendar
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
-kdepim4-runtime
-kdepimlibs4
 kdialog
 kmod
 kmod-compat
@@ -182,9 +174,6 @@ libaudit1
 libaugeas0
 libblkid1
 libbluetooth3
-libboost_program_options1_53_0
-libboost_system1_53_0
-libboost_thread1_53_0
 libbz2-1
 libcairo2
 libcanberra0
@@ -252,8 +241,8 @@ libgudev-1_0-0
 libharfbuzz0
 libhogweed2
 libibus-1_0-0
-libical0
-libicu51
+libical1
+libicu51_2
 libidn11
 libimobiledevice3
 libiodbc3
@@ -268,10 +257,7 @@ libkdecore4
 libkdepimlibs4
 libkexiv2-11
 libkeyutils1
-libkgapi0
 libkmod2
-libkolab0
-libkolabxml0
 libkonq5
 libksba8
 libksuseinstall1
@@ -343,13 +329,14 @@ librasqal3
 libraw1394-11
 librcc0
 librcd0
+librdf0
 libreadline6
-libredland0
 libsamplerate0
 libselinux1
 libsemanage1
 libsensors4
 libsepol1
+libsgutils2-2
 libsmbclient0
 libsndfile1
 libsolv-tools
@@ -365,6 +352,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtdb1
+libtevent0
 libtheora0
 libtidyp-1_04-0
 libtiff5
@@ -376,6 +364,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libvisual
 libvorbis0
@@ -394,7 +383,6 @@ libxcb-render0
 libxcb-shm0
 libxcb-xfixes0
 libxcb1
-libxerces-c-3_1
 libxkbfile1
 libxml2-2
 libxslt1
@@ -414,9 +402,6 @@ make
 marble
 marble-data
 marble-doc
-mariadb
-mariadb-client
-mariadb-errormessages
 media-player-info
 metamail
 mgetty
@@ -432,6 +417,8 @@ openSUSE-release-dvd
 openssl
 opensuse-manuals_en
 oxygen-icon-theme
+p11-kit
+p11-kit-tools
 pam
 pam-config
 pango-tools
@@ -479,7 +466,6 @@ phonon-backend-gstreamer-0_10
 pinentry
 pkg-config
 plasma-addons
-plasma-addons-lancelot
 plasma-addons-marble
 plasmoid-folderview
 plasmoid-quickaccess
@@ -495,7 +481,6 @@ ptools
 python
 python-base
 python-kde4
-python-kde4-akonadi
 python-kde4-khtml
 python-kde4-knewstuff
 python-kde4-nepomuk
@@ -513,6 +498,7 @@ sed
 sendfax
 sendmail
 sessreg
+sg3_utils
 shadow
 shared-desktop-ontologies
 shared-mime-info
@@ -546,7 +532,6 @@ unzip
 update-alternatives
 upower
 usbmuxd
-utempter
 util-linux
 virtuoso-drivers
 virtuoso-server

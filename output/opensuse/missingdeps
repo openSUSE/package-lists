@@ -2,10 +2,29 @@ can't install build-config:
   nothing provides this-is-only-for-build-envs needed by build-config
 can't install cobbler:
   nothing provides mkisofs needed by cobbler
+can't install cyrus-imapd:
+  nothing provides /usr/bin/db_verify needed by cyrus-imapd
+can't install kdepim4-runtime:
+  nothing provides akonadi-runtime < 1.9.40 needed by kdepim4-runtime
+can't install mono-kde4:
+  nothing provides akonadi-runtime < 1.9.40 needed by mono-kde4
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
+can't install netatalk:
+  nothing provides db-utils needed by netatalk
+can't install python-kde4:
+  nothing provides akonadi-runtime < 1.9.40 needed by python-kde4-akonadi
+can't install python3-kde4:
+  nothing provides akonadi-runtime < 1.9.40 needed by python3-kde4-akonadi
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
-can't install rubygem-chef:
-  nothing provides rubygem(2.0.0:net-ssh-multi:1.1) >= 1.1 needed by rubygem-chef
+can't install ruby-kde4:
+  nothing provides akonadi-runtime < 1.9.40 needed by ruby-kde4
+can't install rubygem-selenium-webdriver:
+  nothing provides rubygem(2.0.0:websocket:1.0) >= 1.0.4 needed by rubygem-selenium-webdriver
+can't install shutter:
+  nothing provides perl-PathTools needed by shutter
+can't install yast2-nfs-server:
+  nothing provides limal-nfs-server needed by yast2-nfs-common
+  nothing provides limal-nfs-server-perl needed by yast2-nfs-common

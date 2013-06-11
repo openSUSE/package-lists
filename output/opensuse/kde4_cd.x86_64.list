@@ -32,8 +32,6 @@ acl
 acpica
 adaptec-firmware
 adjtimex
-akonadi
-akonadi-runtime
 alsa
 alsa-firmware
 alsa-oss
@@ -106,7 +104,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db-utils
 dbus-1
 dbus-1-glib
 dbus-1-python
@@ -165,7 +162,7 @@ gd
 gdb
 gdk-pixbuf-query-loaders
 genisoimage
-gettext-runtime
+gettext-runtime-mini
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
@@ -191,8 +188,6 @@ gpg2
 gpm
 gptfdisk
 grep
-groff
-groff-devx
 grsync
 grub
 grub2
@@ -208,6 +203,7 @@ gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gstreamer-0_10-plugins-qt
 gstreamer-plugins-base
 gtk2-data
 gtk2-engine-oxygen
@@ -224,7 +220,6 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-tools
 gwenview
-gxditview
 gzip
 hdparm
 hfsutils
@@ -256,13 +251,11 @@ ipw-firmware
 irda
 iw
 java-1_7_0-openjdk
-java-ca-certificates
 jfsutils
 jline
 jpackage-utils
 k3b
 kactivities4
-kaddressbook
 kbd
 kcalc
 kcharselect
@@ -281,15 +274,12 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
-kdebase4-workspace-plasma-calendar
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
 kdenetwork4-filesharing
 kdepasswd
-kdepim4
-kdepim4-runtime
 kdepimlibs4
 kdialog
 kdm
@@ -301,7 +291,6 @@ kernel-firmware
 keyutils
 kgamma
 kget
-kgpg
 kio_audiocd
 kio_iso
 kio_kamera
@@ -310,7 +299,6 @@ kipi-plugins
 klogd
 kmag
 kmahjongg
-kmail
 kmines
 kmix
 kmousetool
@@ -319,10 +307,6 @@ kompare
 konqueror
 konqueror-plugins
 konsole
-kontact
-konversation
-kopete
-korganizer
 kpartx
 kpat
 krb5
@@ -359,6 +343,8 @@ libIlmImf-Imf_2_0-20
 libIlmThread-2_0-10
 libMagickCore-6_Q8-1
 libMagickWand-6_Q8-1
+libQtGLib-2_0-0
+libQtGStreamer-0_10-0
 libQtWebKit4
 libSDL-1_2-0
 libSM6
@@ -424,12 +410,10 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libblkid1
-libblocxx6
 libbluedevil1
 libbluetooth3
 libboost_date_time1_53_0
 libboost_filesystem1_53_0
-libboost_program_options1_53_0
 libboost_system1_53_0
 libboost_thread1_53_0
 libburn4
@@ -504,7 +488,6 @@ libfprint0
 libfreebl3
 libfreetype6
 libfuse2
-libgadu3
 libgbm1
 libgc1
 libgcc43-32bit
@@ -534,8 +517,6 @@ libgphoto2-6
 libgpod-tools
 libgpod4
 libgps20
-libgrantlee_core0
-libgrantlee_gui0
 libgraphite2-3
 libgsm1
 libgssglue1
@@ -555,13 +536,13 @@ libgtk-3-0
 libgtkmm-2_4-1
 libgudev-1_0-0
 libharfbuzz0
-libhdf5-0
-libhdf5_hl0
+libhdf5-8
+libhdf5_hl8
 libhogweed2
 libhyphen0
 libibus-1_0-0
-libical0
-libicu51
+libical1
+libicu51_2
 libidn11
 libimobiledevice3
 libini_config2
@@ -593,15 +574,13 @@ libkerfuffle4
 libkexiv2-11
 libkeyutils1
 libkface1
-libkgapi0
 libkgeomap1
 libkipi10
 libkmahjongg
 libkmahjongglib4
 libkmod2
-libkolab0
-libkolabxml0
 libkonq5
+libkqoauth0
 libksba8
 libksuseinstall1
 libktexteditor
@@ -626,8 +605,6 @@ liblzma5
 liblzo2-2
 libmagic1
 libmarblewidget15
-libmeanwhile1
-libmediastreamer1
 libmediawiki1
 libmicrohttpd10
 libmm-glib0
@@ -640,7 +617,6 @@ libmozjs185-1_0
 libmpc3
 libmpcdec5
 libmpfr4
-libmsn0_3
 libmspub-0_0-0
 libmtdev1
 libmtp9
@@ -675,8 +651,6 @@ libopenjpeg1
 libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
-libortp8
-libotr2
 libp11-kit0
 libpackagekit-glib2-16
 libpackagekit-qt2-6
@@ -690,7 +664,6 @@ libpciaccess0
 libpcre1
 libpgf6
 libphonon4
-libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
@@ -737,8 +710,8 @@ librasqal3
 libraw1394-11
 librcc0
 librcd0
+librdf0
 libreadline6
-libredland0
 libref_array1
 libreiserfs-0_3-0
 libreoffice
@@ -757,10 +730,12 @@ libselinux1
 libsemanage1
 libsensors4
 libsepol1
+libsgutils2-2
 libsigc-2_0-0
 libslang2
 libsmbclient0
 libsmbios2
+libsmputils1-1
 libsnapper2
 libsndfile1
 libsoftokn3
@@ -768,7 +743,6 @@ libsolv-tools
 libsoprano4
 libsoup-2_4-1
 libsox2
-libspandsp2
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -800,6 +774,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libv4l
 libv4l1-0
@@ -836,7 +811,6 @@ libxcb-shm0
 libxcb-util1
 libxcb-xfixes0
 libxcb1
-libxerces-c-3_1
 libxkbfile1
 libxml2-2
 libxslt1
@@ -849,10 +823,6 @@ libyui5
 libz1
 libzio1
 libzypp
-limal
-limal-nfs-server
-limal-nfs-server-perl
-limal-perl
 linux32
 lirc
 lirc-remotes
@@ -866,9 +836,6 @@ lsscsi
 luit
 lvm2
 mailx
-man
-mariadb
-mariadb-client
 mariadb-errormessages
 master-boot-code
 mc
@@ -927,6 +894,8 @@ openssl
 openvpn
 os-prober
 oxygen-icon-theme
+p11-kit
+p11-kit-tools
 p7zip
 pam
 pam-config
@@ -1014,12 +983,12 @@ perl-gettext
 perl-libwww-perl
 permissions
 phonon-backend-gstreamer-0_10
+pigz
 pinentry
 pinentry-qt4
 pkcs11-helper
 pkg-config
 plasma-addons
-plasma-addons-lancelot
 plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess
@@ -1151,7 +1120,6 @@ usb_modeswitch
 usb_modeswitch-data
 usbmuxd
 usbutils
-utempter
 util-linux
 vaapi-intel-driver
 vcdimager
@@ -1303,7 +1271,6 @@ xwud
 xz
 yast2
 yast2-add-on
-yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-control-center
@@ -1326,8 +1293,6 @@ yast2-mail
 yast2-metapackage-handler
 yast2-mouse
 yast2-network
-yast2-nfs-client
-yast2-nfs-common
 yast2-nis-client
 yast2-ntp-client
 yast2-online-update
