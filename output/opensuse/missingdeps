@@ -15,6 +15,8 @@ can't install netatalk:
   nothing provides db-utils needed by netatalk
 can't install python-kde4:
   nothing provides akonadi-runtime < 1.9.40 needed by python-kde4-akonadi
+can't install python-oslo.config:
+  nothing provides python-discover needed by python-oslo.config-test
 can't install python3-kde4:
   nothing provides akonadi-runtime < 1.9.40 needed by python3-kde4-akonadi
 can't install qmmp:
@@ -25,6 +27,8 @@ can't install rubygem-selenium-webdriver:
   nothing provides rubygem(2.0.0:websocket:1.0) >= 1.0.4 needed by rubygem-selenium-webdriver
 can't install shutter:
   nothing provides perl-PathTools needed by shutter
+can't install suseRegister:
+  nothing provides uuid-runtime needed by suseRegister
 can't install yast2-nfs-server:
   nothing provides limal-nfs-server needed by yast2-nfs-common
   nothing provides limal-nfs-server-perl needed by yast2-nfs-common

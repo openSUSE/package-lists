@@ -23,6 +23,9 @@
 ./mk_group.sh output/opensuse/x11_cd.i586.list DVD osc/system:install:head/_product/DVD.group
 (cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
+./mk_group.sh output/opensuse/core_cd.x86_64.list DVD osc/openSUSE:Factory:Core/_product/DVD.group
+(cd osc/openSUSE:Factory:Core/_product && osc ci -m "auto update")
+
 osc up -u osc/openSUSE:$proj:Live/package-lists-images.*
 cp -a output/opensuse/*default.i586.list osc/openSUSE:$proj:Live/package-lists-images.i586
 cp -a output/opensuse/*default.x86_64.list osc/openSUSE:$proj:Live/package-lists-images.x86_64

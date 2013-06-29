@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="GEN_ARCH">
+    <source url="GEN_URL" name="tmp"/>
+    <system file="solver-system.xml"/>
+    <locale name="en_US"/>
+    <locale name="de"/>
+  </setup>
+  <trial>
+    <!-- ignoring some lang provides -->
+    <!-- ignoring some recommends -->
+    <lock package="oxygen-icon-theme-scalable"/>
+    <lock package="spamassassin"/>
+    <lock package="gutenprint"/>
+    <lock package="rdesktop"/>
+    <lock package="gimp"/>
+    <lock package="ufraw"/>
+    <!-- SLE themes -->
+    <install kind="package" name="branding-openSUSE"/>
+    <lock package="gnome-menus-branding-SLED"/>
+    <lock package="gtk2-branding-SLED"/>
+    <lock package="gtk2-theme-SLED"/>
+    <!-- INCLUDE ignore_opensuse-bundle-gnome.xml -->
+    <!-- INCLUDE ignore_opensuse-bundle-common.xml -->
+    <lock package="compiz-kde"/>
+    <lock package="gtk2-engines-32bit"/>
+    <lock package="kde3-i18n-de"/> <!-- !i586 -->
+<lock package="vim-data"/>
+<lock package="java-1_7_0-openjdk"/>
+<lock package="gimp"/>
+<lock package="netpbm"/>
+<!-- lock package="gnome-icon-theme"/ -->
+<lock package="gnome-icon-theme-extras"/>
+<lock package="gnome-icon-theme-symbolic"/>
+<lock package="patterns-openSUSE-yast2_basis"/>
+<!-- install kind="package" name="yast2-installation"/ -->
+<lock package="PackageKit"/>
+<lock package="zeitgeist"/>
+<!-- lock package="openSUSE-xfce-icon-theme"/ -->
+<lock package="ghostscript"/>
+<lock package="cups"/>
+<lock package="pullin-flash-player"/>
+<lock package="pullin-fluendo-mp3"/>
+<install package="yast2-country"/>
+<install package="yast2-trans-stats"/>
+
+    <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-basedon.xml -->
+    <!-- INCLUDE ignore_opensuse-cds.xml -->
+    <install kind="pattern" name="enhanced_base"/>
+    <install kind="pattern" name="sw_management"/>
+    <install kind="pattern" name="x11"/>
+    <install kind="package" name="openSUSE-release-livecd-x11"/>
+<lock package="ghostscript-library"/>
+<lock package="libxfce4util6"/>
+<lock package="translation-update-en_US"/>
+<lock package="gvfs"/>
+<lock package="settings-backend-dconf"/>
+<lock package="translation-update"/>
+<lock package="scout"/>
+<lock package="rsyslog"/>
+<lock package="dconf"/>
+<install package="libyui-qt-pkg5"/>
+<lock package="SuSEfirewall2"/>
+<lock package="alsa-plugins"/>
+<lock package="autofs"/>
+<lock package="cantarell-fonts"/>
+<lock package="crda"/>
+<lock package="cryptsetup-mkinitrd"/>
+<lock package="gio-branding-openSUSE"/>
+<lock package="gsettings-backend-dconf"/>
+<lock package="hicolor-icon-theme-branding-openSUSE"/>
+<lock package="ifplugd"/>
+<lock package="libproxy1-config-gnome3"/>
+<lock package="libproxy1-pacrunner-webkit"/>
+<lock package="libqt4-sql-mysql"/>
+<lock package="linux32"/>
+<lock package="lsof"/>
+<lock package="microcode_ctl"/>
+<lock package="numlockx"/>
+<lock package="openssh-askpass"/>
+<lock package="pm-profiler"/>
+<lock package="pm-utils"/>
+<lock package="pptp"/>
+<lock package="python-satsolver"/>
+<lock package="libqt4-sql-postgresql"/>
+<lock package="syslog-ng"/>
+<lock package="tnftp"/>
+<lock package="libqt4-sql-sqlite"/>
+<lock package="libqt4-sql-unixODBC"/>
+<lock package="wireless-regdb"/>
+<lock package="x11-tools"/>
+<lock package="xorg-x11-driver-input"/>
+<lock package="xorg-x11-driver-video"/>
+<lock package="xorg-x11-driver-video-nouveau"/>
+<lock package="xorg-x11-libX11-ccache"/>
+<lock package="yp-tools"/>
+<lock package="ypbind"/>
+<lock package="zisofs-tools"/>
+    <reportProblems/>
+    <showpool verbose="true"/>
+  </trial>
+</test>
