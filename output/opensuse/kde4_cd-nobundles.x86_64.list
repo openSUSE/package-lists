@@ -100,7 +100,7 @@ coreutils-lang
 cpio
 cpio-lang
 cpp
-cpp47
+cpp48
 cracklib
 cracklib-dict-full
 crda
@@ -317,14 +317,12 @@ kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdegames4-carddecks-default
 kdelibs4
-kdelibs4-branding-openSUSE
+kdelibs4-branding-upstream
 kdelibs4-core
 kdenetwork4-filesharing
 kdepasswd
 kdepimlibs4
 kdialog
-kdm
-kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 kernel-desktop
@@ -479,7 +477,6 @@ libcdda_paranoia0
 libcdio14
 libcdr-0_0-0
 libcelt0-2
-libcloog0
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
@@ -551,7 +548,6 @@ libglib-2_0-0
 libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
-libgmpxx4
 libgnutls28
 libgobject-2_0-0
 libgomp1
@@ -726,8 +722,6 @@ libpoppler-qt4-4
 libpoppler37
 libpopt0
 libportaudio2
-libppl9
-libppl_c4
 libprison0
 libprocps1
 libproxy1
@@ -1080,6 +1074,7 @@ python
 python-base
 python-gobject
 python-gobject-cairo
+python-keyring
 python-satsolver
 python-smbios
 python-xml

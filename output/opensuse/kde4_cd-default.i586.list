@@ -65,7 +65,7 @@ command-not-found
 coreutils
 cpio
 cpp
-cpp47
+cpp48
 cracklib
 cracklib-dict-full
 crda
@@ -216,14 +216,12 @@ kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdegames4-carddecks-default
 kdelibs4
-kdelibs4-branding-openSUSE
+kdelibs4-branding-upstream
 kdelibs4-core
 kdenetwork4-filesharing
 kdepasswd
 kdepimlibs4
 kdialog
-kdm
-kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 keyutils
@@ -347,7 +345,6 @@ libcap2
 libcdda_interface0
 libcdda_paranoia0
 libcelt0-2
-libcloog0
 libclucene-core1
 libclucene-shared1
 libcolord1
@@ -403,7 +400,6 @@ libgirepository-1_0-1
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
-libgmpxx4
 libgnutls28
 libgobject-2_0-0
 libgpg-error0
@@ -537,8 +533,6 @@ libpolkit0
 libpoppler-qt4-4
 libpoppler37
 libpopt0
-libppl9
-libppl_c4
 libprison0
 libprocps1
 libproxy1
@@ -785,6 +779,7 @@ python
 python-base
 python-gobject
 python-gobject-cairo
+python-keyring
 python-satsolver
 python-xml
 recode

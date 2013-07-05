@@ -26,7 +26,7 @@ do_opensuse()
     ./gen.sh opensuse/x11_cd-initrd
 
     ./gen.sh opensuse/dvd-nonoss
-    ./gen.sh opensuse/core_cd x86_64 
+    ./gen.sh opensuse/core_dvd x86_64 
     ./nonoss.sh
 
     echo "diffing"

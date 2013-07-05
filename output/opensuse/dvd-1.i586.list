@@ -140,6 +140,7 @@ apel
 apparmor-docs
 apparmor-parser
 apparmor-profiles
+apparmor-utils
 appmenu-qt
 appres
 aqbanking
@@ -379,7 +380,7 @@ conduit-lang
 coreutils
 cpio
 cpp
-cpp47
+cpp48
 cpupower
 cracklib
 cracklib-dict-full
@@ -541,7 +542,6 @@ fcitx-cloudpinyin
 fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
-fcitx-libpinyin
 fcitx-mozc
 fcitx-pinyin
 fcitx-qt4
@@ -587,6 +587,8 @@ fribidi-devel
 frink
 frogr
 frogr-lang
+frozen-bubble
+frozen-bubble-server
 fslsfonts
 fstobdf
 ft2demos
@@ -610,13 +612,13 @@ gcc-gij
 gcc-info
 gcc-java
 gcc-objc
-gcc47
-gcc47-c++
-gcc47-fortran
-gcc47-gij
-gcc47-info
-gcc47-java
-gcc47-objc
+gcc48
+gcc48-c++
+gcc48-fortran
+gcc48-gij
+gcc48-info
+gcc48-java
+gcc48-objc
 gccmakedep
 gcin
 gcin-branding-openSUSE
@@ -1230,7 +1232,7 @@ kdebase4-workspace-liboxygenstyle
 kdebindings-smokegen
 kdegames4-carddecks-default
 kdelibs4
-kdelibs4-branding-openSUSE
+kdelibs4-branding-upstream
 kdelibs4-core
 kdelibs4-doc
 kdenetwork4-filesharing
@@ -1247,8 +1249,6 @@ kdevplatform-lang
 kdf
 kdialog
 kdiamond
-kdm
-kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -1409,6 +1409,7 @@ libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
 libSDL-devel
+libSDL_Pango1
 libSDL_gfx13
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
@@ -1522,6 +1523,7 @@ libarchive-devel
 libarchive13
 libart_lgpl-devel
 libart_lgpl_2-2
+libasan0
 libasm1
 libasound2
 libaspell15
@@ -1533,6 +1535,7 @@ libatk-1_0-0
 libatk-bridge-2_0-0
 libatkmm-1_6-1
 libatm1
+libatomic1
 libatspi0
 libattica-devel
 libattica0_4
@@ -1637,7 +1640,6 @@ libcheese-gtk23
 libcheese7
 libchewing3
 libchm0
-libcloog0
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
@@ -1784,9 +1786,9 @@ libgbm1
 libgc1
 libgcc_s1
 libgcj-devel
-libgcj47
-libgcj47-devel
-libgcj47-jar
+libgcj48
+libgcj48-devel
+libgcj48-jar
 libgcj_bc1
 libgck-1-0
 libgck-devel
@@ -2001,6 +2003,7 @@ libiso9660-8
 libisoburn1
 libisofs6
 libiterm1
+libitm1
 libiw-devel
 libiw30
 libjack-devel
@@ -2168,6 +2171,7 @@ libnet1
 libnetfilter_conntrack3
 libnetpbm-devel
 libnetpbm11
+libnettle-devel
 libnettle4
 libnfnetlink0
 libnice10
@@ -2255,7 +2259,6 @@ libpeas-loader-python3
 libpeas-loader-seed
 libpgf6
 libphonon4
-libpinyin2
 libpipeline1
 libpisock-devel
 libpisock9
@@ -2286,8 +2289,6 @@ libpoppler-qt4-devel
 libpoppler37
 libpopt0
 libportaudio2
-libppl9
-libppl_c4
 libpq5
 libpqxx-4_0
 libpqxx-devel
@@ -2531,7 +2532,7 @@ libsss_idmap0
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++33
-libstdc++47-devel
+libstdc++48-devel
 libstdc++6
 libstorage4
 libstrigi0
@@ -3251,6 +3252,7 @@ pdfmod
 pdfmod-lang
 perl
 perl-Algorithm-Diff
+perl-Alien-SDL
 perl-Apache-AuthCookie
 perl-Apache-DBI
 perl-Apache-Session
@@ -3267,6 +3269,7 @@ perl-Bootloader
 perl-CDDB_get
 perl-CGI-Application
 perl-Cairo
+perl-Capture-Tiny
 perl-Carp-Assert
 perl-Carp-Clan
 perl-Chart
@@ -3274,6 +3277,7 @@ perl-Class-Accessor
 perl-Class-Data-Inheritable
 perl-Class-Date
 perl-Class-ISA
+perl-Class-Inspector
 perl-Class-Load
 perl-Class-Load-XS
 perl-Class-MethodMaker
@@ -3281,6 +3285,7 @@ perl-Class-Multimethods
 perl-Class-Singleton
 perl-Class-WhiteHole
 perl-Clone
+perl-Compress-Bzip2
 perl-Config-Crontab
 perl-Config-General
 perl-Config-IniFiles
@@ -3326,9 +3331,11 @@ perl-ExtUtils-PkgConfig
 perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
+perl-File-ShareDir
 perl-File-Slurp
 perl-File-Tail
 perl-File-Type
+perl-File-Which
 perl-FileHandle-Unget
 perl-Finance-Quote
 perl-Font-AFM
@@ -3362,6 +3369,7 @@ perl-IO-String
 perl-IO-Stty
 perl-IP-Country
 perl-IPC-Run
+perl-IPC-Run3
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
@@ -3369,7 +3377,9 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
+perl-Lingua-EN-Sentence
 perl-List-MoreUtils
+perl-Locale-Maketext-Lexicon
 perl-Log-Dispatch
 perl-Log-Log4perl
 perl-MIME-Lite
@@ -3407,6 +3417,7 @@ perl-Net-XMPP
 perl-NetAddr-IP
 perl-NetxAP
 perl-PDA-Pilot
+perl-PPI
 perl-Package-DeprecationManager
 perl-Package-Stash
 perl-Package-Stash-XS
@@ -3418,10 +3429,13 @@ perl-Perl-Tidy
 perl-PerlMagick
 perl-PlRPC
 perl-Pod-HtmlPsPdf
+perl-Pod-POM
 perl-PostScript-Simple
+perl-Probe-Perl
 perl-Quantum-Superpositions
 perl-RPC-XML
 perl-Readonly
+perl-SDL
 perl-SGMLS
 perl-SNMP
 perl-SQL-Statement
@@ -3438,12 +3452,14 @@ perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Task-Weaken
+perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
 perl-Test-Fatal
 perl-Test-LeakTrace
 perl-Test-Manifest
+perl-Test-Script
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
@@ -3453,6 +3469,7 @@ perl-Text-Kakasi
 perl-Text-Wrapper
 perl-Tie-Cache
 perl-Tie-IxHash
+perl-Tie-Simple
 perl-Time-Duration
 perl-Time-Period
 perl-Time-modules
@@ -3482,6 +3499,7 @@ perl-XML-XPath
 perl-XML-XPathEngine
 perl-XML-XSLT
 perl-YAML
+perl-apparmor
 perl-base
 perl-camgm
 perl-checkbot
@@ -3659,7 +3677,6 @@ python-dateutil
 python-dee
 python-deltarpm
 python-devel
-python-distribute
 python-dnspython
 python-doc
 python-egenix-mx-base
@@ -3729,6 +3746,7 @@ python-qt4
 python-qt4-devel
 python-qt4-utils
 python-satsolver
+python-setuptools
 python-simplejson
 python-sip
 python-sip-bin
@@ -4079,7 +4097,6 @@ tracker
 tracker-devel
 tracker-gui
 tracker-miner-files
-tracker-miner-firefox
 tracker-miner-thunderbird
 trang
 transfig
@@ -4590,6 +4607,7 @@ yakuake-lang
 yast2
 yast2-add-on
 yast2-add-on-creator
+yast2-apparmor
 yast2-autofs
 yast2-bootloader
 yast2-branding-openSUSE
@@ -4654,7 +4672,6 @@ yast2-schema
 yast2-security
 yast2-slp
 yast2-slp-server
-yast2-snapper
 yast2-sound
 yast2-squid
 yast2-storage

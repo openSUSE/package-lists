@@ -75,6 +75,7 @@ apache2-prefork
 apache2-utils
 apparmor-parser
 apparmor-profiles
+apparmor-utils
 appmenu-qt
 appres
 arabic-ae-fonts
@@ -231,7 +232,7 @@ command-not-found
 coreutils
 cpio
 cpp
-cpp47
+cpp48
 cracklib
 cracklib-dict-full
 crda
@@ -338,7 +339,6 @@ fcitx-cloudpinyin
 fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
-fcitx-libpinyin
 fcitx-pinyin
 fcitx-qt4
 fcitx-sunpinyin
@@ -384,9 +384,9 @@ gbrainy-lang
 gcc
 gcc-c++
 gcc-info
-gcc47
-gcc47-c++
-gcc47-info
+gcc48
+gcc48-c++
+gcc48-info
 gcin
 gcin-branding-openSUSE
 gcin-gtk3-immodule
@@ -804,7 +804,7 @@ kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdegames4-carddecks-default
 kdelibs4
-kdelibs4-branding-openSUSE
+kdelibs4-branding-upstream
 kdelibs4-core
 kdenetwork4-filesharing
 kdepasswd
@@ -815,8 +815,6 @@ kdevelop4-lang
 kdevplatform
 kdevplatform-lang
 kdialog
-kdm
-kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -1003,6 +1001,7 @@ libapr1
 libarchive13
 libart_lgpl-devel
 libart_lgpl_2-2
+libasan0
 libasm1
 libasound2
 libasound2-32bit
@@ -1015,6 +1014,7 @@ libatk-1_0-0-32bit
 libatk-bridge-2_0-0
 libatkmm-1_6-1
 libatm1
+libatomic1
 libatspi0
 libattica0_4
 libattr1
@@ -1075,6 +1075,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamel-1_2-43
+libcamgm100
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk0-32bit
@@ -1107,7 +1108,6 @@ libcheese-gtk23
 libcheese7
 libchewing3
 libchm0
-libcloog0
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
@@ -1235,9 +1235,9 @@ libgc1
 libgcc43-32bit
 libgcc_s1
 libgcj-devel
-libgcj47
-libgcj47-devel
-libgcj47-jar
+libgcj48
+libgcj48-devel
+libgcj48-jar
 libgcj_bc1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -1404,6 +1404,7 @@ libiso9660-8
 libisoburn1
 libisofs6
 libiterm1
+libitm1
 libiw30
 libjack0
 libjasper1
@@ -1597,7 +1598,6 @@ libpeas-loader-python3
 libpeas-loader-seed
 libpgf6
 libphonon4
-libpinyin2
 libpipeline1
 libpisock9
 libpixman-1-0
@@ -1621,8 +1621,6 @@ libpoppler-qt4-4
 libpoppler37
 libpopt0
 libportaudio2
-libppl9
-libppl_c4
 libpresage1
 libprison0
 libprocps1
@@ -1798,7 +1796,7 @@ libssh4
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++33
-libstdc++47-devel
+libstdc++48-devel
 libstdc++6
 libstdc++6-32bit
 libstorage4
@@ -1836,6 +1834,7 @@ libtracker-common-0_16-0
 libtracker-extract-0_16-0
 libtracker-miner-0_16-0
 libtracker-sparql-0_16-0
+libtsan0
 libtumbler-1-0
 libudev1
 libudev1-32bit
@@ -2337,7 +2336,9 @@ pcsc-lite
 perl
 perl-Archive-Zip
 perl-Authen-SASL
+perl-Bit-Vector
 perl-Bootloader
+perl-Carp-Clan
 perl-Class-Singleton
 perl-Clone
 perl-Config-Crontab
@@ -2350,6 +2351,7 @@ perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
+perl-Date-Calc
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
@@ -2398,13 +2400,16 @@ perl-NetxAP
 perl-Params-Util
 perl-Parse-RecDescent
 perl-PlRPC
+perl-RPC-XML
 perl-Readonly
 perl-SNMP
 perl-SQL-Statement
 perl-Socket6
+perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
+perl-Test-Exception
 perl-Test-Manifest
 perl-Text-Wrapper
 perl-Tie-IxHash
@@ -2423,7 +2428,9 @@ perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-apparmor
 perl-base
+perl-camgm
 perl-common-sense
 perl-gettext
 perl-libwww-perl
@@ -2503,7 +2510,6 @@ python-cups
 python-cupshelpers
 python-dateutil
 python-deltarpm
-python-distribute
 python-gnomekeyring
 python-gobject
 python-gobject-cairo
@@ -2519,6 +2525,7 @@ python-kde4-phonon
 python-kde4-plasma
 python-kde4-soprano
 python-kdebase4
+python-keyring
 python-libxml2
 python-lxml
 python-notify
@@ -2529,6 +2536,7 @@ python-pycurl
 python-pyudev
 python-qt4
 python-satsolver
+python-setuptools
 python-sip
 python-six
 python-smbc
@@ -2760,7 +2768,6 @@ traceroute
 tracker
 tracker-gui
 tracker-miner-files
-tracker-miner-firefox
 tracker-miner-thunderbird
 translation-update
 translation-update-cs
@@ -3098,8 +3105,10 @@ xz
 yast2
 yast2-add-on
 yast2-add-on-creator
+yast2-apparmor
 yast2-bootloader
 yast2-branding-openSUSE
+yast2-ca-management
 yast2-control-center
 yast2-control-center-gnome
 yast2-control-center-qt
@@ -3124,6 +3133,7 @@ yast2-kdump
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
+yast2-ldap-server
 yast2-live-installer
 yast2-mail
 yast2-metapackage-handler
