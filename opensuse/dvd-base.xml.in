@@ -5,6 +5,8 @@
     <system file="solver-system.xml"/>
   </setup>
   <trial>
+    <!-- INCLUDE ignore_opensuse.xml -->
+    <!-- INCLUDE ignore_opensuse-dvd5.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
     <install kind="pattern" name="minimal_base"/>
     <install kind="pattern" name="minimal_base-conflicts"/>

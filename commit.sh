@@ -24,14 +24,15 @@
 (cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
 p=$(mktemp)
-sed -n -e '1,/BEGIN-PACKAGELIST/p' osc/openSUSE:Factory:Core/PRODUCT-x86_64/PRODUCT-x86_64.kiwi > $p
+( cd osc/openSUSE:Factory/Test-DVD-x86_64 && osc up )
+sed -n -e '1,/BEGIN-PACKAGELIST/p' osc/openSUSE:Factory/Test-DVD-x86_64/PRODUCT-x86_64.kiwi > $p
 for i in $(cat output/opensuse/core_dvd.x86_64.list); do
   echo "<repopackage name='$i'/>" >> $p
 done
-sed -n -e '/END-PACKAGELIST/,$p' osc/openSUSE:Factory:Core/PRODUCT-x86_64/PRODUCT-x86_64.kiwi >> $p
-xmllint --format $p > osc/openSUSE:Factory:Core/PRODUCT-x86_64/PRODUCT-x86_64.kiwi
+sed -n -e '/END-PACKAGELIST/,$p' osc/openSUSE:Factory/Test-DVD-x86_64/PRODUCT-x86_64.kiwi >> $p
+xmllint --format $p -o osc/openSUSE:Factory/Test-DVD-x86_64/PRODUCT-x86_64.kiwi
 rm $p
-(cd osc/openSUSE:Factory:Core/PRODUCT-x86_64 && osc ci -m "auto update")
+(cd osc/openSUSE:Factory/Test-DVD-x86_64 && osc ci -m "auto update")
 
 osc up -u osc/openSUSE:$proj:Live/package-lists-images.*
 cp -a output/opensuse/*default.i586.list osc/openSUSE:$proj:Live/package-lists-images.i586

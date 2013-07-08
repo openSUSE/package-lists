@@ -1,0 +1,17 @@
+can't install build-config:
+  nothing provides this-is-only-for-build-envs needed by build-config
+can't install cyrus-imapd:
+  nothing provides /usr/bin/db_verify needed by cyrus-imapd
+can't install nagios-plugins:
+  nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
+  nothing provides /usr/bin/qstat needed by nagios-plugins-game
+can't install python-gobject:
+  nothing provides typelib(Vte) = 0.0 needed by python-gobject-pygtkcompat
+can't install python3-gobject:
+  nothing provides typelib(Vte) = 0.0 needed by python3-gobject-pygtkcompat
+can't install qmmp:
+  nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
+can't install rubygem-selenium-webdriver:
+  nothing provides rubygem(2.0.0:websocket:1.0) >= 1.0.4 needed by rubygem-selenium-webdriver
+can't install suseRegister:
+  nothing provides uuid-runtime needed by suseRegister

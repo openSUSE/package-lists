@@ -9,7 +9,6 @@ alsa-devel-32bit
 alsa-oss-32bit
 alsa-plugins-32bit
 alsa-plugins-pulse-32bit
-anthy-32bit
 at-spi-32bit
 audiofile-devel-32bit
 audit-devel-32bit
@@ -36,7 +35,9 @@ flex-32bit
 fontconfig-32bit
 freeglut-devel-32bit
 fribidi-32bit
+gcc-fortran-32bit
 gcc-objc-32bit
+gcc48-fortran-32bit
 gcc48-objc-32bit
 gconf2-32bit
 gd-32bit
@@ -66,8 +67,6 @@ gtk2-engine-murrine-32bit
 gtk2-tools-32bit
 gtk3-devel-32bit
 gtk3-tools-32bit
-ibus-gtk-32bit
-ibus-gtk3-32bit
 irqbalance
 itcl-32bit
 krb5-32bit
@@ -78,6 +77,7 @@ libGLU1-32bit
 libHX28-32bit
 libICE6-32bit
 libIDL-2-0-32bit
+libLLVM-32bit
 libMagickCore-6_Q8-1-32bit
 libMagickWand-6_Q8-1-32bit
 libSDL-1_2-0-32bit
@@ -99,7 +99,6 @@ libXpm4-32bit
 libXrandr2-32bit
 libXrender1-32bit
 libXss1-32bit
-libXt6-32bit
 libXtst6-32bit
 libXv1-32bit
 libXvMC1-32bit
@@ -167,7 +166,6 @@ libdrm_radeon1-32bit
 libdv4-32bit
 libdvdnav4-32bit
 libdvdread4-32bit
-libedit0-32bit
 libelf1-32bit
 libenca0-32bit
 libesd0-32bit
@@ -179,10 +177,11 @@ libfprint0-32bit
 libfreebl3-32bit
 libfreetype6-32bit
 libgbm1-32bit
-libgcc43-32bit
+libgcc_s1-32bit
 libgcrypt11-32bit
 libgdbm4-32bit
 libgdk_pixbuf-2_0-0-32bit
+libgfortran3-32bit
 libgif6-32bit
 libgio-2_0-0-32bit
 libglib-2_0-0-32bit
@@ -214,7 +213,6 @@ libgtk-3-0-32bit
 libgudev-1_0-0-32bit
 libharfbuzz0-32bit
 libhogweed2-32bit
-libibus-1_0-0-32bit
 libicu-devel-32bit
 libicu51_2-32bit
 libidn11-32bit
@@ -239,7 +237,6 @@ liblrdf2-32bit
 libltdl7-32bit
 liblua5_1-32bit
 liblzma5-32bit
-libm17n0-32bit
 libmagic1-32bit
 libmjpegutils-2_0-0-32bit
 libmms0-32bit
@@ -252,7 +249,6 @@ libmpfr4-32bit
 libmusicbrainz4-32bit
 libmysqlclient18-32bit
 libncurses5-32bit
-libncurses6-32bit
 libneon27-32bit
 libnetcontrol0
 libnettle4-32bit
@@ -263,7 +259,7 @@ libnm-glib4-32bit
 libnm-util2-32bit
 libnotify-devel-32bit
 libnotify4-32bit
-libnscd-32bit
+libnscd1-32bit
 libnuma1
 libobjc4-32bit
 libofa0-32bit
@@ -274,7 +270,6 @@ libopenssl-devel-32bit
 libopenssl1_0_0-32bit
 libopus0-32bit
 liborc-0_4-0-32bit
-libotf0-32bit
 libp11-kit0-32bit
 libpango-1_0-0-32bit
 libpangox-1_0-0-32bit
@@ -299,6 +294,7 @@ libqt4-sql-postgresql-32bit
 libqt4-sql-sqlite-32bit
 libqt4-sql-unixODBC-32bit
 libqt4-x11-32bit
+libquadmath0-32bit
 libquicktime0-32bit
 libraptor2-0-32bit
 libraw1394-11-32bit
@@ -406,7 +402,6 @@ oprofile-32bit
 orbit2-32bit
 pam-32bit
 pam-devel-32bit
-pam-modules-32bit
 pam_apparmor-32bit
 pam_fprint-32bit
 pam_krb5-32bit
@@ -426,20 +421,13 @@ samba-32bit
 samba-client-32bit
 samba-winbind-32bit
 sane-backends-32bit
-scim-gtk-32bit
-scim-gtk3-32bit
 shim
 sssd-32bit
 strace-32bit
 sysfsutils-32bit
-systemd-32bit
 tcl-32bit
 tclplug-32bit
 tk-32bit
-uim-32bit
-uim-gtk2-32bit
-uim-gtk3-32bit
-uim-qt4-32bit
 unixODBC-32bit
 utempter-devel-32bit
 wine-32bit
