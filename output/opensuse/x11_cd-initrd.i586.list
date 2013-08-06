@@ -46,7 +46,6 @@ dirmngr
 dmraid
 dosfstools
 e2fsprogs
-eject
 elfutils
 expat
 file
@@ -61,7 +60,6 @@ gawk
 gcr-data
 gcr-prompter
 gcr-viewer
-gd
 gdk-pixbuf-query-loaders
 gfxboot
 gfxboot-branding-openSUSE
@@ -112,9 +110,11 @@ kbd
 kernel-default
 kernel-firmware
 kiwi-tools
+kmod
 kpartx
 krb5
 libICE6
+libLLVM
 libSM6
 libX11-6
 libX11-data
@@ -128,7 +128,6 @@ libXfixes3
 libXft2
 libXi6
 libXinerama1
-libXpm4
 libXrandr2
 libXrender1
 libXt6
@@ -152,7 +151,6 @@ libavahi-client3
 libavahi-common3
 libavahi-glib1
 libblkid1
-libblocxx6
 libbluetooth3
 libbluray1
 libbz2-1
@@ -165,7 +163,7 @@ libcdda_paranoia0
 libcdio14
 libcdio_cdda1
 libcdio_paranoia1
-libcolord1
+libcolord2
 libcom_err2
 libcrack2
 libcryptsetup4
@@ -205,6 +203,7 @@ libgoa-backend-1_0-0
 libgobject-2_0-0
 libgpg-error0
 libgphoto2-6
+libgraphite2-3
 libgsasl-lang
 libgsasl7
 libgssglue1
@@ -222,11 +221,13 @@ libgthread-2_0-0
 libgtk-3-0
 libgudev-1_0-0
 libgvfscommon0
+libharfbuzz-icu0
 libharfbuzz0
 libhogweed2
-libicu51
+libicu51_2
+libicu51_2-data
 libidn11
-libimobiledevice3
+libimobiledevice4
 libjasper1
 libjavascriptcoregtk-3_0-0
 libjbig2
@@ -244,16 +245,15 @@ liblua5_1
 liblzma5
 liblzo2-2
 libmagic1
-libmicrohttpd10
 libmodman1
 libmount1
-libmozjs185-1_0
+libmozjs-17_0
 libmtp9
 libncurses5
 libncurses6
 libnettle4
-libnl-1_1
-libnscd
+libnl1
+libnscd1
 libntlm0
 libogg0
 libopenobex1
@@ -285,6 +285,7 @@ libsecret-1-0
 libselinux1
 libsemanage1
 libsepol1
+libsgutils2-2
 libsmbclient0
 libsolv-tools
 libsoup-2_4-1
@@ -296,6 +297,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtdb1
+libtevent0
 libtheora0
 libtidyp-1_04-0
 libtiff5
@@ -306,6 +308,7 @@ libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
 libustr-1_0-1
+libutempter0
 libuuid1
 libvisual
 libvorbis0
@@ -314,6 +317,7 @@ libwayland-client0
 libwayland-server0
 libwbclient0
 libwebkitgtk-3_0-0
+libwebkitgtk3-lang
 libwebp4
 libwrap0
 libx86emu1
@@ -326,6 +330,7 @@ libxcb1
 libxml2-2
 libxslt1
 libxtables10
+libyaml-0-2
 libyui-gtk-pkg5
 libyui-gtk5
 libyui-ncurses5
@@ -333,8 +338,6 @@ libyui5
 libz1
 libzio1
 libzypp
-limal
-limal-perl
 lockdev
 logrotate
 lsof
@@ -361,6 +364,7 @@ openSUSE-release
 openslp
 openssl
 p11-kit
+p11-kit-tools
 pam
 pam-config
 pango-tools
@@ -383,15 +387,15 @@ perl-HTTP-Daemon
 perl-HTTP-Date
 perl-HTTP-Message
 perl-HTTP-Negotiate
-perl-IO-Socket-INET6
+perl-IO-HTML
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
+perl-LWP-Protocol-https
 perl-Net-DBus
 perl-Net-HTTP
 perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Parse-RecDescent
-perl-Socket6
 perl-Text-Wrapper
 perl-Tie-IxHash
 perl-TimeDate
@@ -399,7 +403,11 @@ perl-URI
 perl-WWW-RobotRules
 perl-X11-Protocol
 perl-X500-DN
+perl-XML-NamespaceSupport
 perl-XML-Parser
+perl-XML-SAX
+perl-XML-SAX-Base
+perl-XML-SAX-Expat
 perl-XML-Simple
 perl-XML-Twig
 perl-XML-XPath
@@ -417,7 +425,12 @@ python
 python-base
 release-notes-openSUSE
 rpm
+ruby
+ruby20
+rubygem-fast_gettext
+rubygem-ruby-dbus
 sed
+sg3_utils
 shadow
 shared-mime-info
 site-config
@@ -440,10 +453,11 @@ tunctl
 udev
 udisks2
 unzip
+unzip-doc
 update-alternatives
 usbmuxd
 util-linux
-vim-base
+vim
 vlan
 wallpaper-branding-openSUSE
 which
@@ -457,7 +471,6 @@ yast2-branding-openSUSE
 yast2-core
 yast2-country
 yast2-country-data
-yast2-dbus-client
 yast2-firewall
 yast2-firstboot
 yast2-hardware-detection
@@ -473,6 +486,7 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-proxy
+yast2-ruby-bindings
 yast2-security
 yast2-slp
 yast2-storage

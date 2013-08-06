@@ -5,6 +5,8 @@ can't install cyrus-imapd:
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
+can't install patterns-openSUSE:
+  nothing provides yast2-irda needed by patterns-openSUSE-yast2_basis
 can't install python-gobject:
   nothing provides typelib(Vte) = 0.0 needed by python-gobject-pygtkcompat
 can't install python3-gobject:

@@ -3,12 +3,14 @@ ImageMagick-devel-32bit
 Mesa-32bit
 Mesa-libEGL1-32bit
 Mesa-libGL1-32bit
+Mesa-libGLESv2-2-32bit
 Mesa-libglapi0-32bit
 NetworkManager-devel-32bit
 alsa-devel-32bit
 alsa-oss-32bit
 alsa-plugins-32bit
 alsa-plugins-pulse-32bit
+anthy-32bit
 at-spi-32bit
 audiofile-devel-32bit
 audit-devel-32bit
@@ -67,6 +69,8 @@ gtk2-engine-murrine-32bit
 gtk2-tools-32bit
 gtk3-devel-32bit
 gtk3-tools-32bit
+ibus-gtk-32bit
+ibus-gtk3-32bit
 irqbalance
 itcl-32bit
 krb5-32bit
@@ -99,6 +103,7 @@ libXpm4-32bit
 libXrandr2-32bit
 libXrender1-32bit
 libXss1-32bit
+libXt6-32bit
 libXtst6-32bit
 libXv1-32bit
 libXvMC1-32bit
@@ -166,6 +171,7 @@ libdrm_radeon1-32bit
 libdv4-32bit
 libdvdnav4-32bit
 libdvdread4-32bit
+libedit0-32bit
 libelf1-32bit
 libenca0-32bit
 libesd0-32bit
@@ -213,6 +219,7 @@ libgtk-3-0-32bit
 libgudev-1_0-0-32bit
 libharfbuzz0-32bit
 libhogweed2-32bit
+libibus-1_0-5-32bit
 libicu-devel-32bit
 libicu51_2-32bit
 libidn11-32bit
@@ -237,6 +244,7 @@ liblrdf2-32bit
 libltdl7-32bit
 liblua5_1-32bit
 liblzma5-32bit
+libm17n0-32bit
 libmagic1-32bit
 libmjpegutils-2_0-0-32bit
 libmms0-32bit
@@ -249,6 +257,7 @@ libmpfr4-32bit
 libmusicbrainz4-32bit
 libmysqlclient18-32bit
 libncurses5-32bit
+libncurses6-32bit
 libneon27-32bit
 libnetcontrol0
 libnettle4-32bit
@@ -270,6 +279,7 @@ libopenssl-devel-32bit
 libopenssl1_0_0-32bit
 libopus0-32bit
 liborc-0_4-0-32bit
+libotf0-32bit
 libp11-kit0-32bit
 libpango-1_0-0-32bit
 libpangox-1_0-0-32bit
@@ -334,6 +344,7 @@ libtiff5-32bit
 libtimidity-0_1-0-32bit
 libtirpc1-32bit
 libtool-32bit
+libts-1_0-0-32bit
 libtsan0
 libudev1-32bit
 libusb-0_1-4-32bit
@@ -363,6 +374,7 @@ libwavpack1-32bit
 libwayland-client0-32bit
 libwayland-server0-32bit
 libwbclient0-32bit
+libwebp4-32bit
 libwrap0-32bit
 libxcb-dri2-0-32bit
 libxcb-glx0-32bit
@@ -402,6 +414,7 @@ oprofile-32bit
 orbit2-32bit
 pam-32bit
 pam-devel-32bit
+pam-modules-32bit
 pam_apparmor-32bit
 pam_fprint-32bit
 pam_krb5-32bit
@@ -421,13 +434,20 @@ samba-32bit
 samba-client-32bit
 samba-winbind-32bit
 sane-backends-32bit
+scim-gtk-32bit
+scim-gtk3-32bit
 shim
 sssd-32bit
 strace-32bit
 sysfsutils-32bit
+systemd-32bit
 tcl-32bit
 tclplug-32bit
 tk-32bit
+uim-32bit
+uim-gtk2-32bit
+uim-gtk3-32bit
+uim-qt4-32bit
 unixODBC-32bit
 utempter-devel-32bit
 wine-32bit
