@@ -73,7 +73,6 @@ bash
 bash-lang
 bc
 bdftopcf
-bea-stax-api
 beforelight
 bind-libs
 bind-utils
@@ -180,7 +179,6 @@ gcr-data
 gcr-lang
 gcr-prompter
 gcr-viewer
-gd
 gdb
 gdk-pixbuf-lang
 gdk-pixbuf-query-loaders
@@ -230,16 +228,12 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gsl
-gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
 gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good
-gstreamer-lang
-gstreamer-plugins-base
-gstreamer-plugins-base-lang
 gtk2-data
 gtk2-engine-oxygen
 gtk2-immodule-amharic
@@ -289,8 +283,6 @@ irda
 iw
 java-1_7_0-openjdk
 jfsutils
-jline
-jpackage-utils
 k3b
 k3b-lang
 kactivities4
@@ -496,7 +488,7 @@ libclucene-core1
 libclucene-shared1
 libcmis-0_3-3
 libcollection2
-libcolord1
+libcolord2
 libcom_err2
 libcrack2
 libcryptmount0
@@ -536,6 +528,7 @@ libexpat1
 libext2fs2
 libexttextcat
 libexttextcat-2_0-0
+libfallocate0
 libfam0
 libffi4
 libfftw3-3
@@ -581,15 +574,8 @@ libgraphite2-3
 libgsm1
 libgssglue1
 libgstapp-0_10-0
-libgstapp-1_0-0
-libgstaudio-1_0-0
 libgstinterfaces-0_10-0
-libgstpbutils-1_0-0
 libgstreamer-0_10-0
-libgstreamer-1_0-0
-libgstriff-1_0-0
-libgsttag-1_0-0
-libgstvideo-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -636,7 +622,7 @@ libkdepimlibs4
 libkerfuffle4
 libkexiv2-11
 libkeyutils1
-libkface1
+libkface2
 libkfbapi-lang
 libkfbapi1
 libkgapi2-2
@@ -707,6 +693,7 @@ libncurses5-32bit
 libncurses6
 libneon27
 libnepomukwidgets4
+libnetapi0
 libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
@@ -716,7 +703,6 @@ libnl3-200
 libnm-glib-vpn1
 libnm-glib4
 libnm-util2
-libnscd1
 libnsssharedhelper0
 libntfs-3g84
 libnuma1
@@ -730,6 +716,7 @@ libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
 libortp9
+libotr2
 libp11-kit0
 libpackagekit-glib2-16
 libpackagekit-qt2-6
@@ -833,6 +820,7 @@ libsss_idmap0
 libstartup-notification-1-0
 libstdc++6
 libstdc++6-32bit
+libstorage-ruby
 libstorage4
 libstrigi0
 libtag-extras1
@@ -849,6 +837,7 @@ libtidyp-1_04-0
 libtiff5
 libtirpc1
 libtranslate0
+libts-1_0-0
 libucil2
 libudev1
 libudisks2-0
@@ -865,6 +854,7 @@ libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvcdinfo0
+libvdpau1
 libvigraimpex4
 libvisio-0_0-0
 libvisual
@@ -874,6 +864,7 @@ libvorbisenc2
 libvorbisfile3
 libwavpack1
 libwayland-client0
+libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebp4
@@ -898,6 +889,7 @@ libxcb-shm0
 libxcb-sync0
 libxcb-util1
 libxcb-xfixes0
+libxcb-xtest0
 libxcb1
 libxerces-c-3_1
 libxkbfile1
@@ -1002,30 +994,6 @@ paratype-pt-mono-fonts
 paratype-pt-sans-fonts
 paratype-pt-serif-fonts
 parted
-patterns-openSUSE-base
-patterns-openSUSE-enhanced_base
-patterns-openSUSE-fonts
-patterns-openSUSE-games
-patterns-openSUSE-imaging
-patterns-openSUSE-kde4
-patterns-openSUSE-kde4_basis
-patterns-openSUSE-kde4_games
-patterns-openSUSE-kde4_imaging
-patterns-openSUSE-kde4_internet
-patterns-openSUSE-kde4_multimedia
-patterns-openSUSE-kde4_office
-patterns-openSUSE-kde4_pure
-patterns-openSUSE-kde4_utilities
-patterns-openSUSE-kde4_yast
-patterns-openSUSE-multimedia
-patterns-openSUSE-non_oss
-patterns-openSUSE-office
-patterns-openSUSE-sw_management
-patterns-openSUSE-sw_management_kde4
-patterns-openSUSE-update_test
-patterns-openSUSE-x11
-patterns-openSUSE-yast2_basis
-patterns-openSUSE-yast2_install_wf
 pciutils
 pciutils-ids
 pcmciautils
@@ -1047,6 +1015,7 @@ perl-HTTP-Daemon
 perl-HTTP-Date
 perl-HTTP-Message
 perl-HTTP-Negotiate
+perl-IO-HTML
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
@@ -1118,6 +1087,7 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
+pytalloc
 python
 python-base
 python-gobject
@@ -1134,7 +1104,6 @@ reiserfs
 release-notes-openSUSE
 rendercheck
 rgb
-rhino
 rpcbind
 rpm
 rpm-python
@@ -1146,6 +1115,7 @@ ruby
 ruby20
 rubygem-fast_gettext
 rubygem-ruby-dbus
+samba-libs
 sbc
 sbl
 scout
@@ -1243,10 +1213,6 @@ vaapi-intel-driver
 vcdimager
 viewres
 vim
-vim-base
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
 vlan
@@ -1270,6 +1236,7 @@ x11perf
 xauth
 xbacklight
 xbiff
+xbitmaps
 xcalc
 xclipboard
 xclock
@@ -1354,7 +1321,6 @@ xlsfonts
 xmag
 xman
 xmessage
-xmlbeans
 xmodmap
 xmore
 xorg-scripts
@@ -1403,19 +1369,16 @@ yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
-yast2-fingerprint-reader
 yast2-firewall
 yast2-hardware-detection
 yast2-inetd
 yast2-installation
-yast2-irda
 yast2-iscsi-client
 yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
 yast2-mail
 yast2-metapackage-handler
-yast2-mouse
 yast2-network
 yast2-nfs-client
 yast2-nfs-common
@@ -1465,7 +1428,6 @@ yast2-trans-zh_CN
 yast2-trans-zh_TW
 yast2-transfer
 yast2-tune
-yast2-tv
 yast2-update
 yast2-users
 yast2-vm

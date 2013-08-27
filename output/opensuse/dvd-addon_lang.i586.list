@@ -353,9 +353,6 @@ boost-license1_53_0
 bootcycle
 bovo
 branding-openSUSE
-brasero
-brasero-lang
-brasero-nautilus
 bridge-utils
 brltty
 brltty-driver-at-spi
@@ -662,8 +659,6 @@ exo-tools
 expat
 expect
 expect-devel
-f-spot
-f-spot-lang
 fam
 fam-devel
 farsi-fonts
@@ -711,7 +706,6 @@ five-or-more-lang
 flac
 flac-devel
 flex
-flickrnet
 flim
 folks-lang
 font-util
@@ -842,7 +836,6 @@ git-web
 gitg
 gitg-lang
 gitk
-gjs
 gkeyfile-sharp
 glabels
 glabels-lang
@@ -908,8 +901,6 @@ gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-doc-utils-lang
-gnome-documents
-gnome-documents-lang
 gnome-font-viewer
 gnome-font-viewer-lang
 gnome-games
@@ -965,7 +956,6 @@ gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-lang
 gnome-shell-search-provider-contacts
-gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-sudoku
@@ -1027,12 +1017,6 @@ graphviz-gd
 graphviz-gnome
 grep
 grepmail
-grilo-lang
-grilo-plugin-tracker
-grilo-plugin-upnp
-grilo-plugin-youtube
-grilo-plugins
-grilo-plugins-lang
 grisbi
 grisbi-lang
 groff
@@ -1085,8 +1069,6 @@ gsynaptics
 gsynaptics-lang
 gtg
 gtg-lang
-gthumb
-gthumb-lang
 gtk-doc
 gtk-doc-lang
 gtk-sharp-beans
@@ -1156,7 +1138,6 @@ gudev-sharp
 guile
 guile-modules-2_0
 guile1
-gupnp-av
 gutenprint
 gv
 gvfs
@@ -1866,9 +1847,7 @@ libboost_thread1_53_0
 libboost_timer1_53_0
 libboost_wave1_53_0
 libbotan-1_10-0
-libbrasero-burn3-1
 libbrasero-media3-1
-libbrasero-utils3-1
 libbrlapi0_5
 libburn4
 libbz2-1
@@ -1943,10 +1922,10 @@ libcryptsetup4
 libcryptui-data
 libcryptui-lang
 libcryptui0
-libcue1
 libcurl-devel
 libcurl4
 libdaemon0
+libdar5000
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
@@ -1965,7 +1944,6 @@ libdiscid0
 libdjvulibre-devel
 libdjvulibre21
 libdlm3
-libdmapsharing-3_0-2
 libdmtx-devel
 libdmtx0
 libdmx-devel
@@ -2180,8 +2158,6 @@ libgps20
 libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
-libgrilo-0_2-1
-libgrlnet-0_2-0
 libgsf-1-114
 libgsf-devel
 libgsf-lang
@@ -2244,7 +2220,6 @@ libguile-srfi-srfi-60-v-2-2
 libguile17
 libguilereadline-v-17-17
 libgupnp-1_0-4
-libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
 libgusb2
 libgvfscommon0
@@ -2345,7 +2320,6 @@ libkeybinder0
 libkeyutils1
 libkface-devel
 libkface2
-libkfbapi-lang
 libkfbapi1
 libkgapi2-2
 libkgeomap-devel
@@ -2400,6 +2374,7 @@ liblightdm-gobject-1-0
 liblirc_client0
 liblockdev1
 libloudmouth-1-0
+liblouis2
 liblpsolve55-0
 liblqr-1-0
 liblqr-devel
@@ -2473,6 +2448,7 @@ libncurses6
 libneon27
 libnepomukwidgets4
 libnet1
+libnetapi0
 libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm-devel
@@ -2494,7 +2470,6 @@ libnotify-tools
 libnotify4
 libnova-0_15-0
 libnova-devel
-libnscd1
 libnsssharedhelper0
 libntfs-3g84
 liboauth-devel
@@ -2534,9 +2509,6 @@ libopus0
 liborc-0_4-0
 liborcus-0_6-0
 libortp9
-libosinfo
-libosinfo-1_0-0
-libosinfo-lang
 libosip2
 libosip2-devel
 libossp-uuid16
@@ -2565,7 +2537,6 @@ libpcsclite1
 libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-lang
-libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-python3
 libpeas-loader-seed
@@ -2664,8 +2635,6 @@ libqt4-x11
 libquadmath0
 libquazip1
 libquicktime0
-libquvi-scripts
-libquvi7
 libqwt5
 libqyoto2
 libqzeitgeist1
@@ -2948,6 +2917,7 @@ libstdc++-devel
 libstdc++33
 libstdc++48-devel
 libstdc++6
+libstorage-ruby
 libstorage4
 libstrigi0
 libstroke
@@ -2978,8 +2948,6 @@ libtiff5
 libtimidity-0_1-0
 libtirpc1
 libtool
-libtotem-plparser-mini17
-libtotem-plparser17
 libtracker-common-0_16-0
 libtracker-extract-0_16-0
 libtracker-miner-0_16-0
@@ -3129,6 +3097,7 @@ libxcb-xevie0
 libxcb-xf86dri0
 libxcb-xfixes0
 libxcb-xinerama0
+libxcb-xkb0
 libxcb-xprint0
 libxcb-xtest0
 libxcb-xv0
@@ -3181,7 +3150,6 @@ libyui-qt-pkg5
 libyui-qt5
 libyui5
 libz1
-libzapojit-0_0-0
 libzeitgeist-1_0-1
 libzeitgeist-2_0-0
 libzinnia0
@@ -3217,7 +3185,6 @@ lockdev
 log4j
 log4net
 logrotate
-lokalize
 lomoco
 loudmouth-devel
 lsb-release
@@ -3521,14 +3488,12 @@ nautilus-deja-dup
 nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-terminal
-nautilus-extension-tracker-tags
 nautilus-file-roller
 nautilus-lang
 nautilus-sendto
 nautilus-sendto-lang
 nautilus-share
 nautilus-share-lang
-nautilus-totem
 nbd
 nbd-doc
 ncftp
@@ -4105,6 +4070,7 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pwgen
 pychecker
+pytalloc
 python
 python-Babel
 python-CherryPy
@@ -4160,16 +4126,6 @@ python-gtksourceview
 python-httplib2
 python-ibus
 python-imaging
-python-kde4
-python-kde4-akonadi
-python-kde4-devel
-python-kde4-khtml
-python-kde4-knewstuff
-python-kde4-nepomuk
-python-kde4-phonon
-python-kde4-plasma
-python-kde4-soprano
-python-kdebase4
 python-keyring
 python-ldap
 python-liblarch
@@ -4197,11 +4153,8 @@ python-pymongo
 python-pypdf
 python-pyserial
 python-pytz
-python-pyudev
 python-pyzmq
 python-qt4
-python-qt4-devel
-python-qt4-utils
 python-satsolver
 python-setuptools
 python-simplejson
@@ -4231,6 +4184,7 @@ python3-cairo
 python3-gobject
 python3-gobject-cairo
 python3-gobject-devel
+python3-louis
 python3-speechd
 pyzy-db-android
 pyzy-db-open-phrase
@@ -4279,8 +4233,6 @@ remmina-plugin-xdmcp
 rendercheck
 rgb
 rhino
-rhythmbox
-rhythmbox-lang
 ripit
 ristretto
 ristretto-lang
@@ -4316,7 +4268,7 @@ rzsz
 sablot
 samba
 samba-client
-samba-krb-printing
+samba-libs
 samba-winbind
 sane-backends
 sane-backends-autoconfig
@@ -4473,7 +4425,6 @@ swell-foop-lang
 swig
 synapse
 synapse-lang
-synaptiks
 sysconfig
 sysfsutils
 syslinux
@@ -4557,20 +4508,8 @@ tmpwatch
 tnftp
 tomboy
 tomboy-lang
-totem
-totem-browser-plugin
-totem-browser-plugin-gmp
-totem-lang
-totem-pl-parser-lang
-totem-plugin-zeitgeist
-totem-plugins
 traceroute
-tracker
 tracker-devel
-tracker-gui
-tracker-lang
-tracker-miner-files
-tracker-miner-thunderbird
 trang
 transfig
 translation-update
@@ -4712,14 +4651,12 @@ typelib-1_0-Pango-1_0
 typelib-1_0-Peas-1_0
 typelib-1_0-PeasGtk-1_0
 typelib-1_0-Polkit-1_0
-typelib-1_0-Rest-0_7
 typelib-1_0-Rsvg-2_0
 typelib-1_0-Secret-1
 typelib-1_0-SecretUnstable-0
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
-typelib-1_0-TotemPlParser-1_0
 typelib-1_0-Tracker-0_16
 typelib-1_0-TrackerExtract-0_16
 typelib-1_0-TrackerMiner-0_16
@@ -4730,7 +4667,6 @@ typelib-1_0-WebKit-3_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
 typelib-1_0-Zeitgeist-2_0
-typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udhcp
@@ -4848,6 +4784,7 @@ xaw3d
 xawtv
 xbacklight
 xbiff
+xbitmaps
 xbitmaps-devel
 xbrlapi
 xcalc
@@ -5135,7 +5072,6 @@ yast2
 yast2-add-on
 yast2-add-on-creator
 yast2-apparmor
-yast2-autofs
 yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
@@ -5168,7 +5104,6 @@ yast2-live-installer
 yast2-mail
 yast2-mail-plugins
 yast2-metapackage-handler
-yast2-mouse
 yast2-multipath
 yast2-network
 yast2-nfs-client
@@ -5277,7 +5212,6 @@ yast2-trans-zh_TW
 yast2-trans-zu
 yast2-transfer
 yast2-tune
-yast2-tv
 yast2-update
 yast2-users
 yast2-vm

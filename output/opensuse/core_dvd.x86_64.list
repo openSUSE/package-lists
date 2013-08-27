@@ -229,6 +229,7 @@ liblbxutil1
 liblcms1
 libldap-2_4-2
 libldapcpp1
+libldb1
 liblua5_1
 liblzma5
 liblzo2-2
@@ -242,9 +243,9 @@ libmpfr4
 libmtdev1
 libncurses5
 libncurses6
+libnetapi0
 libnettle4
 libnfnetlink0
-libnscd1
 libntfs-3g84
 libnuma1
 libopenssl1_0_0
@@ -277,11 +278,13 @@ libselinux1
 libsemanage1
 libsepol1
 libsgutils2-2
+libsmbclient0
 libsmputils1-1
 libsolv-tools
 libsqlite3-0
 libssh2-1
 libstdc++6
+libstorage-ruby
 libstorage4
 libtalloc2
 libtasn1
@@ -442,6 +445,7 @@ ppp
 procps
 proxymngr
 psmisc
+pytalloc
 python
 python-base
 recode
@@ -455,6 +459,7 @@ ruby20
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba-client
+samba-libs
 sed
 sed-lang
 sessreg
@@ -509,6 +514,7 @@ x11perf
 xauth
 xbacklight
 xbiff
+xbitmaps
 xcalc
 xclipboard
 xclock
@@ -615,7 +621,6 @@ yast2-ldap
 yast2-ldap-client
 yast2-mail
 yast2-metapackage-handler
-yast2-mouse
 yast2-network
 yast2-nfs-client
 yast2-nfs-common

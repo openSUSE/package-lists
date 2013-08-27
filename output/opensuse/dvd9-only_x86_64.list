@@ -30,7 +30,6 @@ cyrus-sasl-gssapi-32bit
 cyrus-sasl-plain-32bit
 dbus-1-glib-32bit
 device-mapper-32bit
-ebtables
 efibootmgr
 flac-devel-32bit
 flex-32bit
@@ -72,7 +71,6 @@ gtk3-tools-32bit
 ibus-gtk-32bit
 ibus-gtk3-32bit
 irqbalance
-itcl-32bit
 krb5-32bit
 krb5-devel-32bit
 libFLAC++6-32bit
@@ -147,10 +145,9 @@ libcdaudio1-32bit
 libcdda_interface0-32bit
 libcdda_paranoia0-32bit
 libcelt0-2-32bit
-libcgroup1
 libcgroup1-32bit
 libchm0-32bit
-libcolord1-32bit
+libcolord2-32bit
 libcom_err2-32bit
 libcppunit-1_12-0-32bit
 libcppunit-devel-32bit
@@ -238,6 +235,7 @@ liblcms1-32bit
 liblcms2-2-32bit
 liblcms2-devel-32bit
 libldap-2_4-2-32bit
+libldb1-32bit
 liblirc_client0-32bit
 liblockdev1-32bit
 liblrdf2-32bit
@@ -259,7 +257,7 @@ libmysqlclient18-32bit
 libncurses5-32bit
 libncurses6-32bit
 libneon27-32bit
-libnetcontrol0
+libnetapi0-32bit
 libnettle4-32bit
 libnl-1_1-devel-32bit
 libnl1-32bit
@@ -268,7 +266,6 @@ libnm-glib4-32bit
 libnm-util2-32bit
 libnotify-devel-32bit
 libnotify4-32bit
-libnscd1-32bit
 libnuma1
 libobjc4-32bit
 libofa0-32bit
@@ -355,14 +352,7 @@ libv4l1-0-32bit
 libv4l2-0-32bit
 libv4lconvert0-32bit
 libvdpau1-32bit
-libvirt-daemon
-libvirt-daemon-driver-interface
 libvirt-daemon-driver-libxl
-libvirt-daemon-driver-network
-libvirt-daemon-driver-nodedev
-libvirt-daemon-driver-nwfilter
-libvirt-daemon-driver-secret
-libvirt-daemon-driver-storage
 libvirt-daemon-driver-xen
 libvirt-daemon-xen
 libvisual-32bit
@@ -397,7 +387,6 @@ libz1-32bit
 libzvbi0-32bit
 linux32
 ltrace-32bit
-lzop
 mcelog
 mozilla-nspr-32bit
 mozilla-nss-32bit
@@ -426,12 +415,14 @@ pango-tools-32bit
 pciutils-devel-32bit
 perl-32bit
 perl-base-32bit
+pytalloc-32bit
 python-32bit
 python-base-32bit
 qtcurve-gtk2-32bit
 rpm-32bit
 samba-32bit
 samba-client-32bit
+samba-libs-32bit
 samba-winbind-32bit
 sane-backends-32bit
 scim-gtk-32bit

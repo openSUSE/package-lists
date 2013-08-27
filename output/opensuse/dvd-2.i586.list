@@ -12,12 +12,7 @@ aaa_base
 aaa_base-extras
 adjtimex
 akonadi-runtime
-alsa
-alsa-oss
-alsa-plugins
-alsa-utils
 apper
-apper-lang
 appmenu-qt
 atftp
 augeas-lenses
@@ -53,14 +48,12 @@ cyrus-sasl-digestmd5
 cyrus-sasl-plain
 dbus-1
 dbus-1-glib
-dbus-1-python
 dbus-1-x11
 dconf
 desktop-data-openSUSE
 desktop-translations
 device-mapper
 dhcpcd
-dialog
 diffutils
 dirmngr
 dmz-icon-theme-cursors
@@ -167,7 +160,6 @@ kmod
 kmod-compat
 krb5
 kscreen
-kscreen-lang
 ksh
 ksplash-qml-branding-openSUSE
 ksplashx-branding-openSUSE
@@ -266,7 +258,6 @@ libdb-4_8
 libdbus-1-3
 libdbusmenu-qt2
 libdconf1
-libdialog11
 libdmtx0
 libdrm2
 libdrm_intel1
@@ -355,7 +346,6 @@ libkdecore4
 libkdepimlibs4
 libkexiv2-11
 libkeyutils1
-libkfbapi-lang
 libkfbapi1
 libkgapi2-2
 libkmod2
@@ -370,6 +360,7 @@ liblangtag1
 liblcms1
 liblcms2-2
 libldap-2_4-2
+libldb1
 liblockdev1
 liblpsolve55-0
 libltdl7
@@ -393,8 +384,8 @@ libmythes-1_2-0
 libncurses5
 libncurses6
 libneon27
+libnetapi0
 libnettle4
-libnscd1
 libodfgen-0_0-0
 libogg0
 libopenjpeg1
@@ -472,7 +463,6 @@ libreoffice-templates-presentation-layouts
 libreoffice-thesaurus-en-US
 libreoffice-writer
 librest0
-libsamplerate0
 libsecret-1-0
 libselinux1
 libsemanage1
@@ -521,7 +511,6 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebkitgtk-3_0-0
-libwebkitgtk3-lang
 libwebp4
 libwpd-0_9-9
 libwpg-0_2-2
@@ -595,8 +584,6 @@ pam
 pam-config
 pango-tools
 patterns-openSUSE-x11_yast
-pciutils
-pciutils-ids
 perl
 perl-Bootloader
 perl-Config-Crontab
@@ -654,21 +641,11 @@ procmail
 procps
 psmisc
 ptools
+pytalloc
 python
 python-base
 python-gobject
 python-gobject-cairo
-python-kde4
-python-kde4-akonadi
-python-kde4-khtml
-python-kde4-knewstuff
-python-kde4-nepomuk
-python-kde4-phonon
-python-kde4-plasma
-python-kde4-soprano
-python-kdebase4
-python-qt4
-python-sip
 python-xml
 rcc-runtime
 readline-doc
@@ -677,6 +654,7 @@ rsyslog
 ruby
 ruby20
 rubygem-fast_gettext
+samba-libs
 sed
 sendfax
 sendmail
@@ -725,6 +703,7 @@ vlan
 wallpaper-branding-openSUSE
 which
 words
+xbitmaps
 xdg-menu
 xdg-utils
 xdm
@@ -748,11 +727,9 @@ yast2-pkg-bindings
 yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-scanner
-yast2-sound
 yast2-theme-openSUSE
 yast2-trans-en_US
 yast2-transfer
-yast2-tv
 yast2-xml
 yast2-ycp-ui-bindings
 zip

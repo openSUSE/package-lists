@@ -154,8 +154,6 @@ boost-jam
 boost-license1_53_0
 bootcycle
 branding-openSUSE
-brasero
-brasero-nautilus
 bridge-utils
 brltty
 brltty-driver-at-spi2
@@ -333,7 +331,6 @@ ethtool
 evince
 evolution
 evolution-data-server
-evolution-data-server-lang
 exif
 exiftool
 exo-lang
@@ -443,7 +440,6 @@ ghostscript-fonts-other
 ghostscript-fonts-std
 ghostscript-x11
 gimp
-gimp-branding-upstream
 gimp-help
 gimp-help-browser
 gimp-plugins-python
@@ -457,7 +453,6 @@ git-gui
 git-svn
 git-web
 gitk
-gjs
 glade
 glade-lang
 glamor
@@ -489,7 +484,6 @@ gnome-desktop2
 gnome-desktop2-lang
 gnome-dictionary
 gnome-disk-utility
-gnome-documents
 gnome-font-viewer
 gnome-games
 gnome-games-recommended
@@ -526,7 +520,6 @@ gnome-settings-daemon
 gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-search-provider-contacts
-gnome-shell-search-provider-documents
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-sudoku
@@ -540,6 +533,7 @@ gnome-user-docs
 gnome-user-share
 gnome-version
 gnome-vfs2
+gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnu-free-fonts
@@ -561,11 +555,6 @@ gpgme
 gpm
 gptfdisk
 grep
-grilo-plugin-tracker
-grilo-plugin-upnp
-grilo-plugin-youtube
-grilo-plugins
-grilo-plugins-lang
 groff
 groff-full
 grsync
@@ -647,7 +636,6 @@ gtkspell-lang
 gucharmap
 guile
 guile-modules-2_0
-gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
@@ -899,7 +887,6 @@ krfb
 kruler
 kscd
 kscreen
-kscreen-lang
 ksh
 ksnapshot
 ksplash-qml-branding-openSUSE
@@ -1012,6 +999,7 @@ libXxf86vm1-32bit
 libaa1
 libaccountsservice0
 libacl1
+libacl1-32bit
 libadns1
 libaio-devel
 libaio1
@@ -1046,6 +1034,7 @@ libatomic1
 libatspi0
 libattica0_4
 libattr1
+libattr1-32bit
 libaudiofile1
 libaudit1
 libaudit1-32bit
@@ -1090,9 +1079,7 @@ libboost_test1_53_0
 libboost_thread1_53_0
 libboost_timer1_53_0
 libboost_wave1_53_0
-libbrasero-burn3-1
 libbrasero-media3-1
-libbrasero-utils3-1
 libbrlapi0_5
 libburn4
 libbz2-1
@@ -1160,7 +1147,6 @@ libcryptsetup4
 libcryptsetup4-32bit
 libcryptui-data
 libcryptui0
-libcue1
 libcurl4
 libdaemon0
 libdb-4_5
@@ -1177,7 +1163,6 @@ libdirac_encoder0
 libdirectfb-1_6-0
 libdiscid0
 libdjvulibre21
-libdmapsharing-3_0-2
 libdmtx0
 libdmx1
 libdns_sd
@@ -1349,8 +1334,6 @@ libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
 libgraphite2-3-32bit
-libgrilo-0_2-1
-libgrlnet-0_2-0
 libgsf-1-114
 libgsm1
 libgssdp-1_0-3
@@ -1398,7 +1381,6 @@ libgudev-1_0-0
 libguess1
 libguile-2_0-22
 libgupnp-1_0-4
-libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
 libgusb2
 libgvfscommon0
@@ -1431,8 +1413,6 @@ libiniparser0
 libiniparser0-32bit
 libiodbc3
 libiptc0
-libiptcdata
-libiptcdata0
 libiso9660-8
 libisoburn1
 libisofs6
@@ -1474,7 +1454,6 @@ libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
 libkface2
-libkfbapi-lang
 libkfbapi1
 libkgapi2-2
 libkgeomap1
@@ -1506,11 +1485,14 @@ liblcms2-2
 libldap-2_4-2
 libldap-2_4-2-32bit
 libldapcpp1
+libldb1
+libldb1-32bit
 liblensfun0
 liblightdm-gobject-1-0
 liblirc_client0
 liblockdev1
 libloudmouth-1-0
+liblouis2
 liblpsolve55-0
 liblqr-1-0
 liblrdf2
@@ -1570,6 +1552,8 @@ libncurses6
 libneon27
 libnepomukwidgets4
 libnet1
+libnetapi0
+libnetapi0-32bit
 libnetfilter_conntrack3
 libnetpbm11
 libnettle4
@@ -1585,8 +1569,6 @@ libnm-util2
 libnotify-tools
 libnotify4
 libnova-0_15-0
-libnscd1
-libnscd1-32bit
 libnsssharedhelper0
 libntfs-3g84
 libnuma1
@@ -1614,8 +1596,6 @@ libopus0
 liborc-0_4-0
 liborcus-0_6-0
 libortp9
-libosinfo
-libosinfo-1_0-0
 libosip2
 libosip2-devel
 libotf0
@@ -1639,7 +1619,6 @@ libpcreposix0
 libpcsclite1
 libpeas-1_0-0
 libpeas-gtk-1_0-0
-libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-python3
 libpeas-loader-seed
@@ -1669,6 +1648,7 @@ libpoppler-glib8
 libpoppler-qt4-4
 libpoppler43
 libpopt0
+libpopt0-32bit
 libportaudio2
 libpresage1
 libprison0
@@ -1693,6 +1673,7 @@ libpwquality1
 libpyglib-gi-2_0-python2-0
 libpyglib-gi-2_0-python3-0
 libpython2_7-1_0
+libpython2_7-1_0-32bit
 libpython3_3m1_0
 libpyzy-1_0-0
 libqalculate5
@@ -1716,8 +1697,6 @@ libqt4-x11-32bit
 libquadmath0
 libquazip1
 libquicktime0
-libquvi-scripts
-libquvi7
 libraptor2-0
 librasqal3
 libraw1394-11
@@ -1850,6 +1829,7 @@ libstdc++33
 libstdc++48-devel
 libstdc++6
 libstdc++6-32bit
+libstorage-ruby
 libstorage4
 libstrigi0
 libsunpinyin3
@@ -1879,11 +1859,7 @@ libtimidity-0_1-0
 libtirpc1
 libtirpc1-32bit
 libtool
-libtotem-plparser-mini17
-libtotem-plparser17
 libtracker-common-0_16-0
-libtracker-extract-0_16-0
-libtracker-miner-0_16-0
 libtracker-sparql-0_16-0
 libtranslate0
 libts-1_0-0
@@ -1943,8 +1919,6 @@ libwbxml2-0
 libwebkit2gtk-3_0-25
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
-libwebkitgtk2-lang
-libwebkitgtk3-lang
 libwebp4
 libwebrtc_audio_processing0
 libwmf-0_2-7
@@ -1993,6 +1967,7 @@ libxcb-xf86dri0
 libxcb-xfixes0
 libxcb-xfixes0-32bit
 libxcb-xinerama0
+libxcb-xkb0
 libxcb-xprint0
 libxcb-xtest0
 libxcb-xv0
@@ -2035,7 +2010,6 @@ libyui-qt5
 libyui5
 libz1
 libz1-32bit
-libzapojit-0_0-0
 libzeitgeist-1_0-1
 libzeitgeist-2_0-0
 libzio1
@@ -2058,7 +2032,6 @@ listres
 lklug-fonts
 lockdev
 logrotate
-lokalize
 lomoco
 lsb-release
 lsof
@@ -2218,10 +2191,8 @@ nautilus
 nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-terminal
-nautilus-extension-tracker-tags
 nautilus-file-roller
 nautilus-sendto
-nautilus-totem
 nbd
 nbd-doc
 ncurses-devel
@@ -2501,10 +2472,11 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
+pytalloc
+pytalloc-32bit
 python
 python-atspi
 python-base
-python-beautifulsoup
 python-cairo
 python-cups
 python-cupshelpers
@@ -2519,15 +2491,6 @@ python-gstreamer-0_10
 python-gtk
 python-httplib2
 python-ibus
-python-kde4
-python-kde4-akonadi
-python-kde4-khtml
-python-kde4-knewstuff
-python-kde4-nepomuk
-python-kde4-phonon
-python-kde4-plasma
-python-kde4-soprano
-python-kdebase4
 python-keyring
 python-libxml2
 python-lxml
@@ -2536,11 +2499,7 @@ python-numpy
 python-opensync
 python-pybluez
 python-pycurl
-python-pyudev
-python-qt4
 python-satsolver
-python-setuptools
-python-sip
 python-six
 python-smbc
 python-smbios
@@ -2556,6 +2515,7 @@ python3-base
 python3-cairo
 python3-gobject
 python3-gobject-cairo
+python3-louis
 python3-speechd
 pyzy-db-android
 pyzy-db-open-phrase
@@ -2584,8 +2544,6 @@ remmina-plugin-vnc
 remmina-plugin-xdmcp
 rendercheck
 rgb
-rhythmbox
-rhythmbox-lang
 ristretto
 ristretto-lang
 rpcbind
@@ -2605,7 +2563,8 @@ samba
 samba-32bit
 samba-client
 samba-client-32bit
-samba-krb-printing
+samba-libs
+samba-libs-32bit
 samba-winbind
 samba-winbind-32bit
 sane-backends
@@ -2706,7 +2665,6 @@ suspend
 sweeper
 swell-foop
 swig
-synaptiks
 sysconfig
 sysfsutils
 syslinux
@@ -2767,17 +2725,7 @@ tk
 tnftp
 tomboy
 tomboy-lang
-totem
-totem-browser-plugin
-totem-browser-plugin-gmp
-totem-lang
-totem-plugin-zeitgeist
-totem-plugins
 traceroute
-tracker
-tracker-gui
-tracker-miner-files
-tracker-miner-thunderbird
 translation-update
 translation-update-cs
 translation-update-de
@@ -2811,7 +2759,6 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
-typelib-1_0-GData-0_0
 typelib-1_0-GMenu-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
@@ -2821,7 +2768,6 @@ typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
-typelib-1_0-Goa-1_0
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -2832,7 +2778,7 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-IBus-1_0
-typelib-1_0-JavaScriptCore-3_0
+typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-Json-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-NMClient-1_0
@@ -2844,20 +2790,13 @@ typelib-1_0-Pango-1_0
 typelib-1_0-Peas-1_0
 typelib-1_0-PeasGtk-1_0
 typelib-1_0-Polkit-1_0
-typelib-1_0-Rest-0_7
-typelib-1_0-Secret-1
-typelib-1_0-SecretUnstable-0
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
-typelib-1_0-TotemPlParser-1_0
-typelib-1_0-Tracker-0_16
-typelib-1_0-TrackerMiner-0_16
 typelib-1_0-UpowerGlib-1_0
-typelib-1_0-WebKit-3_0
+typelib-1_0-WebKit-1_0
 typelib-1_0-Wnck-1_0
 typelib-1_0-Xkl-1_0
-typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udisks
@@ -2921,6 +2860,7 @@ x11perf
 xauth
 xbacklight
 xbiff
+xbitmaps
 xbrlapi
 xcalc
 xchat
@@ -3136,7 +3076,6 @@ yast2-ldap-server
 yast2-live-installer
 yast2-mail
 yast2-metapackage-handler
-yast2-mouse
 yast2-network
 yast2-nfs-client
 yast2-nfs-common
@@ -3232,7 +3171,6 @@ yast2-trans-zh_TW
 yast2-trans-zu
 yast2-transfer
 yast2-tune
-yast2-tv
 yast2-update
 yast2-users
 yast2-vm
