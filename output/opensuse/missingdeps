@@ -1,19 +1,127 @@
+can't install brasero:
+  nothing provides libtotem-plparser.so.17 needed by brasero
+  nothing provides libtotem-plparser.so.17 needed by libbrasero-utils3-1
 can't install build-config:
   nothing provides this-is-only-for-build-envs needed by build-config
+can't install cloop:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by cloop-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by cloop-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by cloop-kmp-pae
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-xen needed by cloop-kmp-xen
+can't install compicc:
+  nothing provides compizconfig-settings-manager < 0.9 needed by compicc
+can't install crash:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by crash-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by crash-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by crash-kmp-pae
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-xen needed by crash-kmp-xen
 can't install cyrus-imapd:
   nothing provides /usr/bin/db_verify needed by cyrus-imapd
+can't install glib2-branding-openSUSE:
+  nothing provides libgio-2_0-0 = 2.37.7 needed by gio-branding-openSUSE
+can't install gnome-python-desktop:
+  nothing provides libtotem-plparser.so.17 needed by python-totem
+can't install grilo-plugins:
+  nothing provides libtotem-plparser.so.17 needed by grilo-plugin-youtube
+  nothing provides libtotem-plparser.so.17 needed by grilo-plugins
+can't install gtk2-branding-openSUSE:
+  nothing provides libgtk-2_0-0 = 2.24.20 needed by gtk2-branding-openSUSE
+can't install gtk2-engines:
+  nothing provides gtk2 = 2.24.20 needed by gtk2-engine-clearlooks
+  nothing provides gtk2 = 2.24.20 needed by gtk2-engine-crux
+  nothing provides gtk2 = 2.24.20 needed by gtk2-engine-glide
+  nothing provides gtk2 = 2.24.20 needed by gtk2-engine-hcengine
+... 4 more problems
+can't install gtk3-branding-openSUSE:
+  nothing provides libgtk-3-0 = 3.9.14 needed by gtk3-branding-openSUSE
+can't install hdjmod:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by hdjmod-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by hdjmod-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by hdjmod-kmp-pae
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-xen needed by hdjmod-kmp-xen
+can't install ipset:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by ipset-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by ipset-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by ipset-kmp-pae
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-xen needed by ipset-kmp-xen
+can't install iscsitarget:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by iscsitarget-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by iscsitarget-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by iscsitarget-kmp-pae
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-xen needed by iscsitarget-kmp-xen
+can't install libzypp-bindings:
+  nothing provides libzypp.so.1301 needed by perl-zypp
+  nothing provides libzypp.so.1301 needed by python-zypp
+  nothing provides libzypp.so.1301 needed by ruby-zypp
+  nothing provides libzypp.so.1301(ZYPP_plain) needed by perl-zypp
+... 6 more problems
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
-can't install patterns-openSUSE:
-  nothing provides yast2-irda needed by patterns-openSUSE-yast2_basis
-can't install python-gobject:
-  nothing provides typelib(Vte) = 0.0 needed by python-gobject-pygtkcompat
-can't install python3-gobject:
-  nothing provides typelib(Vte) = 0.0 needed by python3-gobject-pygtkcompat
+can't install ndiswrapper:
+  nothing provides ksym(default:__FIXADDR_TOP) = a51cdfe8 needed by ndiswrapper-kmp-default
+  nothing provides ksym(default:__bitmap_weight) = 4cbbd171 needed by ndiswrapper-kmp-default
+  nothing provides ksym(default:__get_free_pages) = 93fca811 needed by ndiswrapper-kmp-default
+  nothing provides ksym(default:__init_waitqueue_head) = 68dfc59f needed by ndiswrapper-kmp-default
+... 733 more problems
+can't install omnibook:
+  nothing provides ksym(default:__alloc_workqueue_key) = 43a53735 needed by omnibook-kmp-default
+  nothing provides ksym(default:__const_udelay) = eae3dfd6 needed by omnibook-kmp-default
+  nothing provides ksym(default:__kmalloc) = 12da5bb2 needed by omnibook-kmp-default
+  nothing provides ksym(default:__kmalloc) = d2b09ce5 needed by omnibook-kmp-default
+... 470 more problems
+can't install openvswitch:
+  nothing provides ksym(default:__alloc_percpu) = 50c89f23 needed by openvswitch-kmp-default
+  nothing provides ksym(default:__alloc_percpu) = 949f7342 needed by openvswitch-kmp-default
+  nothing provides ksym(default:__alloc_skb) = da2398f5 needed by openvswitch-kmp-default
+  nothing provides ksym(default:__alloc_skb) = dc75fffa needed by openvswitch-kmp-default
+... 610 more problems
+can't install pcfclock:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by pcfclock-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by pcfclock-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by pcfclock-kmp-pae
+can't install perl-CGI-FormBuilder:
+  nothing provides perl = 5.16.2 needed by perl-CGI-FormBuilder
+can't install perl-MLDBM-Sync:
+  nothing provides perl = 5.16.2 needed by perl-MLDBM-Sync
+can't install pragha:
+  nothing provides libtotem-plparser.so.17 needed by pragha
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
 can't install rubygem-selenium-webdriver:
   nothing provides rubygem(2.0.0:websocket:1.0) >= 1.0.4 needed by rubygem-selenium-webdriver
+can't install scotty:
+  nothing provides libtcl8.5.so needed by scotty
 can't install suseRegister:
   nothing provides uuid-runtime needed by suseRegister
+can't install tkrat:
+  nothing provides /usr/bin/wish8.5 needed by tkrat
+can't install totem:
+  nothing provides libtotem-plparser-mini.so.17 needed by totem-browser-plugin
+  nothing provides libtotem-plparser-mini.so.17 needed by totem-browser-plugin-gmp
+  nothing provides libtotem-plparser-mini.so.17 needed by totem-browser-plugin-vegas
+  nothing provides libtotem-plparser.so.17 needed by totem
+  nothing provides libtotem-plparser.so.17 needed by totem-browser-plugin
+can't install tracker:
+  nothing provides libtotem-plparser.so.17 needed by tracker
+can't install vhba-kmp:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by vhba-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by vhba-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by vhba-kmp-pae
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-xen needed by vhba-kmp-xen
+can't install virtualbox:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by virtualbox-guest-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by virtualbox-host-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by virtualbox-guest-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by virtualbox-host-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by virtualbox-guest-kmp-pae
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by virtualbox-host-kmp-pae
+can't install xen:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by xen-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by xen-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by xen-kmp-pae
+can't install xtables-addons:
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-default needed by xtables-addons-kmp-default
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-desktop needed by xtables-addons-kmp-desktop
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-pae needed by xtables-addons-kmp-pae
+  nothing provides kernel-uname-r = 3.11.1-1.g1383321-xen needed by xtables-addons-kmp-xen

@@ -95,7 +95,6 @@ gfxboot-branding-openSUSE
 ghostscript-fonts-other
 ghostscript-fonts-std
 ghostscript-x11
-gio-branding-openSUSE
 glib-networking
 glib2-tools
 glibc
@@ -103,11 +102,14 @@ glibc-32bit
 glibc-extra
 glibc-locale
 glibc-locale-32bit
+gnome-backgrounds
+gnome-backgrounds-lang
 gnu-unifont-bitmap-fonts
 gpart
 gpg2
 gpm
 grep
+groff
 grub2-i386-pc
 grub2-x86_64-efi
 gsettings-backend-dconf
@@ -191,6 +193,7 @@ libbz2-1
 libcairo2
 libcap-ng0
 libcap2
+libcloog-isl4
 libcom_err2
 libcrack2
 libcryptsetup4
@@ -198,6 +201,8 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdbus-1-3
+libdcerpc-binding0
+libdcerpc0
 libdconf1
 libdirectfb-1_6-0
 libdmx1
@@ -223,6 +228,7 @@ libgc1
 libgcc_s1
 libgcrypt11
 libgdbm4
+libgensec0
 libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
@@ -240,6 +246,7 @@ libicu51_2-data
 libidn11
 libimobiledevice4
 libiptc0
+libisl10
 libiw30
 libjavascriptcoregtk-3_0-0
 libjbig2
@@ -266,10 +273,16 @@ libmpfr4
 libmtdev1
 libncurses5
 libncurses6
+libndr-krb5pac0
+libndr-nbt0
+libndr-standard0
+libndr0
 libnetapi0
 libnettle4
 libnfnetlink0
+libnl-config
 libnl1
+libnl3-200
 libntfs-3g84
 libnuma1
 libogg0
@@ -283,6 +296,8 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpdb0
+libpipeline1
 libpixman-1-0
 libplist1
 libply-boot-client2
@@ -303,10 +318,17 @@ libpython2_7-1_0
 libqrencode3
 libreadline6
 libreiserfs-0_3-0
+libsamba-credentials0
+libsamba-hostconfig0
+libsamba-util0
+libsamdb0
 libselinux1
 libsemanage1
 libsepol1
 libsgutils2-2
+libsmbclient-raw0
+libsmbconf0
+libsmbldap0
 libsmputils1-1
 libsndfile1
 libsolv-tools
@@ -320,6 +342,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtdb1
+libtevent-util0
 libtevent0
 libtidyp-1_04-0
 libtiff5
@@ -371,6 +394,7 @@ lsscsi
 luit
 lvm2
 mailx
+man
 master-boot-code
 mdadm
 mkcomposecache
@@ -514,6 +538,8 @@ strace
 sudo
 suse-module-tools
 sysconfig
+sysconfig-netconfig
+sysconfig-network
 sysfsutils
 syslinux
 syslog-service
@@ -533,6 +559,7 @@ translation-update-en_US
 tunctl
 twm
 udev
+udevmountd
 unzip
 unzip-doc
 update-alternatives
@@ -546,6 +573,7 @@ upower
 usbmuxd
 usbutils
 util-linux
+util-linux-lang
 viewres
 vim
 vlan
@@ -687,10 +715,10 @@ yast2-printer
 yast2-proxy
 yast2-restore
 yast2-ruby-bindings
-yast2-runlevel
 yast2-samba-client
 yast2-samba-server
 yast2-security
+yast2-services-manager
 yast2-slp
 yast2-storage
 yast2-sudo

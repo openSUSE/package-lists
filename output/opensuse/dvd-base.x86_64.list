@@ -52,7 +52,7 @@ findutils
 fontconfig
 gawk
 gettext-runtime
-gio-branding-openSUSE
+gio-branding-upstream
 glib2-tools
 glibc
 glibc-extra
@@ -109,6 +109,7 @@ libblkid1
 libbz2-1
 libcap-ng0
 libcap2
+libcloog-isl4
 libcom_err2
 libcrack2
 libcroco-0_6-3
@@ -142,6 +143,7 @@ libhavege1
 libidn11
 libimobiledevice4
 libiptc0
+libisl10
 libiw30
 libkeyutils1
 libkmod2
@@ -292,6 +294,8 @@ strace
 sudo
 suse-module-tools
 sysconfig
+sysconfig-netconfig
+sysconfig-network
 sysfsutils
 syslinux
 systemd
@@ -308,6 +312,7 @@ tnftp
 traceroute
 tunctl
 udev
+udevmountd
 unzip
 unzip-doc
 update-alternatives
@@ -320,10 +325,10 @@ update-test-trival
 upower
 usbmuxd
 util-linux
+util-linux-lang
 vim
 vlan
 w3m
-wallpaper-branding-openSUSE
 wget
 which
 wireless-regdb

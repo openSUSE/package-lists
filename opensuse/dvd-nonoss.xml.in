@@ -21,7 +21,7 @@
     <locale name="hu"/>
     <locale name="pl"/>
     <locale name="da"/>
-    <locale name="sv"/>
+    <locale name="el"/>
   </setup>
   <trial>
     <lock package="xerces-j2-xml-resolver"/>
@@ -54,6 +54,7 @@
     <install kind="package" name="efibootmgr"/> <!-- !i586 -->
     <install kind="package" name="postgresql"/>
     <install kind="package" name="postgresql-devel"/>
+  <install kind="package" name="yast2-services-manager"/>
     <lock kind="package" name="liberation2-fonts"/>
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <install kind="package" name="postfix"/>

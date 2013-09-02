@@ -101,6 +101,8 @@
 <lock package="yp-tools"/>
 <lock package="ypbind"/>
 <lock package="zisofs-tools"/>
+<lock package="xorg-x11"/>
+<install package="yast2-x11"/> <!-- https://github.com/yast/yast-x11/pull/4 -->
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>
