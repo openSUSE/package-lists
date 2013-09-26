@@ -153,6 +153,7 @@ aqbanking
 aqbanking-devel
 aqbanking-lang
 arabic-ae-fonts
+arabic-amiri-fonts
 arabic-bitmap-fonts
 arabic-fonts
 arabic-kacst-fonts
@@ -333,6 +334,7 @@ ca-certificates
 ca-certificates-mozilla
 cabextract
 cairo-devel
+cal10n
 calibre
 calibre-icons-branding-upstream
 canberra-gtk-play
@@ -479,6 +481,8 @@ digikam-doc
 ding
 dirmngr
 djvulibre
+dleyna-connector-dbus
+dleyna-renderer
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -679,6 +683,7 @@ gegl-0_2
 genisoimage
 geoclue
 geoclue-recommended
+geoclue2
 geronimo-j2ee-1_4-apis
 geronimo-specs-poms
 getdata
@@ -720,7 +725,6 @@ gimp-help-zh
 gimp-plugins-python
 gimp-ufraw
 gio-branding-openSUSE
-gio-branding-upstream
 gio-sharp
 girepository-1_0
 git
@@ -802,10 +806,13 @@ gnome-keyring-sharp
 gnome-klotski
 gnome-klotski-lang
 gnome-mahjongg
+gnome-maps
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mines
+gnome-music
+gnome-music-lang
 gnome-nettool
 gnome-nibbles
 gnome-nibbles-lang
@@ -814,6 +821,7 @@ gnome-online-accounts-devel
 gnome-packagekit
 gnome-phone-manager
 gnome-phone-manager-lang
+gnome-photos
 gnome-power-manager
 gnome-print-sharp
 gnome-pty-helper
@@ -1744,6 +1752,7 @@ libdirectfb-1_6-0
 libdiscid0
 libdjvulibre-devel
 libdjvulibre21
+libdleyna-core-1_0-1
 libdlm3
 libdmapsharing-3_0-2
 libdmtx-devel
@@ -2022,6 +2031,8 @@ libguile17
 libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
+libgupnp-dlna-2_0-3
+libgupnp-dlna-backend-gstreamer
 libgupnp-igd-1_0-4
 libgusb2
 libgvfscommon0
@@ -2463,6 +2474,7 @@ librdf0
 libreadline6
 libredland-devel
 libref_array1
+libregistry0
 libreiserfs-0_3-0
 libreiserfscore0
 libreoffice
@@ -2676,7 +2688,9 @@ libtimidity-0_1-0
 libtirpc1
 libtool
 libtotem-plparser-mini17
+libtotem-plparser-mini18
 libtotem-plparser17
+libtotem-plparser18
 libtracker-common-0_16-0
 libtracker-extract-0_16-0
 libtracker-miner-0_16-0
@@ -2761,7 +2775,6 @@ libwebkit2gtk-3_0-25
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk-devel
-libwebkitgtk3-lang
 libwebp4
 libwebrtc_audio_processing0
 libwmf-0_2-7
@@ -3025,6 +3038,7 @@ mmv
 mobile-broadband-provider-info
 module-init-tools
 monapo-fonts
+monitoring-tools
 mono-addins
 mono-basic
 mono-core
@@ -3093,6 +3107,7 @@ myspell-polish
 myspell-portuguese
 myspell-russian
 myspell-spanish
+mysql-connector-java
 nagios
 nagios-plugins
 nagios-plugins-bgpstate
@@ -3143,6 +3158,8 @@ nagios-plugins-wave
 nagios-www
 nano
 nano-lang
+nanum-fonts
+nanum-gothic-coding-fonts
 nasm
 nautilus
 nautilus-deja-dup
@@ -3162,6 +3179,9 @@ ncurses-devel
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
+ndiswrapper
+ndiswrapper-kmp-default
+ndiswrapper-kmp-desktop
 nemiver
 nemiver-lang
 nepomuk-core
@@ -3553,6 +3573,7 @@ perl-MIME-Lite
 perl-MIME-Types
 perl-MIME-tools
 perl-MLDBM
+perl-MLDBM-Sync
 perl-MRO-Compat
 perl-Mail-DKIM
 perl-Mail-Mbox-MessageParser
@@ -3770,6 +3791,7 @@ plymouth-plugin-script
 plymouth-scripts
 pm-profiler
 pm-utils
+pm-utils-ndiswrapper
 pmidi
 podofo
 polkit
@@ -4175,6 +4197,7 @@ skanlite-doc
 skanlite-lang
 skkdic
 slang-slsh
+slf4j
 slib
 slrn
 slrn-lang
@@ -5919,6 +5942,7 @@ typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
+typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
@@ -5940,12 +5964,14 @@ typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
 typelib-1_0-Gee-1_0
+typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
+typelib-1_0-Grl-0_2
 typelib-1_0-Gsf-1
 typelib-1_0-Gst-0_10
 typelib-1_0-Gst-1_0
@@ -5970,6 +5996,7 @@ typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-3_0
 typelib-1_0-Json-1_0
+typelib-1_0-Memphis-0_2
 typelib-1_0-Meta-3_0
 typelib-1_0-NMClient-1_0
 typelib-1_0-NMGtk-1_0
@@ -6035,7 +6062,6 @@ usbmuxd
 usbutils
 utempter-devel
 util-linux
-util-linux-lang
 v4l-conf
 v4l-tools
 vaapi-intel-driver

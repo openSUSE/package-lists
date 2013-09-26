@@ -166,7 +166,7 @@ gettext-runtime-mini
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
-gio-branding-upstream
+gio-branding-openSUSE
 girepository-1_0
 glamor
 glib-networking
@@ -174,8 +174,6 @@ glib2-tools
 glibc
 glibc-extra
 glibc-locale
-gnome-backgrounds
-gnome-backgrounds-lang
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
@@ -911,6 +909,8 @@ myspell-american
 nano
 nano-lang
 ncurses-utils
+ndiswrapper
+ndiswrapper-kmp-default
 nepomuk-core
 net-tools
 netcat-openbsd
@@ -1051,6 +1051,7 @@ plymouth-plugin-script
 plymouth-scripts
 pm-profiler
 pm-utils
+pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-kde-agent-1
@@ -1179,11 +1180,13 @@ usb_modeswitch-data
 usbmuxd
 usbutils
 util-linux
-util-linux-lang
 vaapi-intel-driver
 vcdimager
 viewres
 vim
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
 vlan

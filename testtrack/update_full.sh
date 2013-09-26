@@ -50,11 +50,11 @@ do
      fi
      ;;
 
-  123-*)
-     rarch=${i/123-/}
+  131-*)
+     rarch=${i/131-/}
      mkdir -p susex/$rarch
      echo -n "syncing $i "
-     count=`rsync --timeout=400 -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-opensuse.suse.de::opensuse-internal/build/openSUSE:12.3/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     count=`rsync --timeout=400 -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-opensuse.suse.de::opensuse-internal/build/openSUSE:13.1/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
      echo -n "found $count packages "
      if test "$count" = 0; then
         echo "done"
@@ -63,11 +63,11 @@ do
         echo
      fi
      ;;
-  nf-123-*)
-     rarch=${i/nf-123-/}
+  nf-131-*)
+     rarch=${i/nf-131-/}
      mkdir -p susex/$rarch
      echo -n "syncing $i "
-     count=`rsync --timeout=400 -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-opensuse.suse.de::opensuse-internal/build/openSUSE:12.3:NonFree/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
+     count=`rsync --timeout=400 -av $ignore --exclude *.meta --exclude *debuginfo* --exclude *debugsource* --exclude openSUSE-images* --exclude installation-images* --delete backend-opensuse.suse.de::opensuse-internal/build/openSUSE:13.1:NonFree/standard/$rarch/:full/ susex/$rarch/ | grep .rpm | wc -l`
      echo -n "found $count packages "
      if test "$count" = 0; then
         echo "done"

@@ -77,7 +77,6 @@
 <addRequire name='libz.so.1'/>
 <addRequire name='libxml2.so.2()(64bit)'/>
 <addRequire name='libxml2.so.2'/>
-<addRequire name='libtinfo.so.5()(64bit)'/>
 <addRequire name='libtiff.so.5()(64bit)'/>
 <addRequire name='libstdc++.so.6(GLIBCXX_3.4.9)(64bit)'/>
 <addRequire name='libstdc++.so.6(GLIBCXX_3.4.5)'/>
@@ -139,7 +138,6 @@
 <addRequire name='libnss3.so(NSS_3.10)'/>
 <addRequire name='libnss3.so'/>
 <addRequire name='libnspr4.so'/>
-<addRequire name='libncurses.so.5()(64bit)'/>
 <addRequire name='libm.so.6(GLIBC_2.2.5)(64bit)'/>
 <addRequire name='libm.so.6(GLIBC_2.1)'/>
 <addRequire name='libm.so.6(GLIBC_2.0)'/>
@@ -166,8 +164,6 @@
 <addRequire name='libgstbase-0.10.so.0()(64bit)'/>
 <addRequire name='libgstaudio-1.0.so.0()(64bit)'/>
 <addRequire name='libgstaudio-0.10.so.0()(64bit)'/>
-<addRequire name='libgslcblas.so.0()(64bit)'/>
-<addRequire name='libgsl.so.0()(64bit)'/>
 <addRequire name='libgobject-2.0.so.0()(64bit)'/>
 <addRequire name='libgobject-2.0.so.0'/>
 <addRequire name='libgmodule-2.0.so.0()(64bit)'/>
@@ -176,9 +172,6 @@
 <addRequire name='libglib-2.0.so.0()(64bit)'/>
 <addRequire name='libglib-2.0.so.0'/>
 <addRequire name='libgio-2.0.so.0()(64bit)'/>
-<addRequire name='libgfortran.so.3(GFORTRAN_1.4)(64bit)'/>
-<addRequire name='libgfortran.so.3(GFORTRAN_1.0)(64bit)'/>
-<addRequire name='libgfortran.so.3()(64bit)'/>
 <addRequire name='libgdk_pixbuf_xlib-2.0.so.0'/>
 <addRequire name='libgdk_pixbuf-2.0.so.0()(64bit)'/>
 <addRequire name='libgdk_pixbuf-2.0.so.0'/>
@@ -292,8 +285,6 @@
 <addRequire name='UTF-16.so'/>
 <addRequire name='Mesa-devel'/>
 <addRequire name='ISO8859-1.so'/>
-<addRequire name='/usr/bin/perl'/>
-<addRequire name='/usr/bin/env'/>
 <addRequire name='/sbin/ldconfig'/>
 <addRequire name='/bin/sh'/>
 <addRequire name='/bin/bash'/>

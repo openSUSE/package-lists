@@ -52,7 +52,6 @@ NetworkManager-pptp-kde4
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
-OpenIPMI
 OpenPrintingPPDs
 OpenPrintingPPDs-ghostscript
 OpenPrintingPPDs-hpijs
@@ -165,6 +164,7 @@ aqbanking
 aqbanking-devel
 aqbanking-lang
 arabic-ae-fonts
+arabic-amiri-fonts
 arabic-bitmap-fonts
 arabic-fonts
 arabic-kacst-fonts
@@ -351,6 +351,7 @@ ca-certificates-mozilla
 cabextract
 cairo-devel
 cairo-devel-32bit
+cal10n
 calibre
 calibre-icons-branding-upstream
 canberra-gtk-play
@@ -389,7 +390,6 @@ clicfs
 cln
 cln-devel
 clucene-core-devel
-cluster-glue
 clutter-devel
 clutter-gst-devel
 clutter-gtk-devel
@@ -403,7 +403,6 @@ commoncpp2-devel
 conduit
 conduit-lang
 coreutils
-corosync
 cpio
 cpp
 cpp48
@@ -502,6 +501,8 @@ digikam-doc
 ding
 dirmngr
 djvulibre
+dleyna-connector-dbus
+dleyna-renderer
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -712,6 +713,7 @@ gegl-0_2
 genisoimage
 geoclue
 geoclue-recommended
+geoclue2
 geronimo-j2ee-1_4-apis
 geronimo-specs-poms
 getdata
@@ -788,23 +790,18 @@ glibc-locale
 glibc-locale-32bit
 glibmm2-devel
 glu-devel
-gmime-sharp
 gmixer
 gmp-devel
 gmp-devel-32bit
-gnokii
 gnome-backgrounds
 gnome-backgrounds-lang
 gnome-bluetooth
-gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
 gnome-calculator
 gnome-chess
 gnome-clocks
 gnome-color-manager
 gnome-color-manager-lang
-gnome-commander
-gnome-commander-lang
 gnome-common
 gnome-contacts
 gnome-control-center
@@ -838,18 +835,20 @@ gnome-keyring-sharp
 gnome-klotski
 gnome-klotski-lang
 gnome-mahjongg
+gnome-maps
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mines
+gnome-music
+gnome-music-lang
 gnome-nettool
 gnome-nibbles
 gnome-nibbles-lang
 gnome-online-accounts
 gnome-online-accounts-devel
 gnome-packagekit
-gnome-phone-manager
-gnome-phone-manager-lang
+gnome-photos
 gnome-power-manager
 gnome-print-sharp
 gnome-pty-helper
@@ -987,7 +986,6 @@ gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
 gtk-vnc-lang
-gtk-vnc2-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-devel
@@ -1227,7 +1225,6 @@ java-1_7_0-openjdk-devel
 javacc
 javapackages-tools
 jdepend
-jedit
 jfsutils
 jhead
 jing
@@ -1866,6 +1863,10 @@ libdbusmenu-qt-devel
 libdbusmenu-qt2
 libdc1394-22
 libdc1394-22-32bit
+libdcerpc-binding0
+libdcerpc-binding0-32bit
+libdcerpc0
+libdcerpc0-32bit
 libdconf1
 libdee-1_0-4
 libdhash1
@@ -1877,6 +1878,7 @@ libdirectfb-1_6-0-32bit
 libdiscid0
 libdjvulibre-devel
 libdjvulibre21
+libdleyna-core-1_0-1
 libdlm3
 libdmapsharing-3_0-2
 libdmtx-devel
@@ -2035,6 +2037,8 @@ libgdm1
 libgee-0_8-2
 libgee2
 libgegl-0_2-0
+libgensec0
+libgensec0-32bit
 libgeoclue0
 libgeocode-glib0
 libgetdata++3
@@ -2065,7 +2069,6 @@ libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
 libglibmm-2_4-1
-libglue2
 libglut3
 libglut3-32bit
 libgme0
@@ -2220,6 +2223,8 @@ libguile17
 libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
+libgupnp-dlna-2_0-3
+libgupnp-dlna-backend-gstreamer
 libgupnp-igd-1_0-4
 libgusb2
 libgvfscommon0
@@ -2484,6 +2489,14 @@ libncurses5
 libncurses5-32bit
 libncurses6
 libncurses6-32bit
+libndr-krb5pac0
+libndr-krb5pac0-32bit
+libndr-nbt0
+libndr-nbt0-32bit
+libndr-standard0
+libndr-standard0-32bit
+libndr0
+libndr0-32bit
 libneon27
 libneon27-32bit
 libnepomukwidgets4
@@ -2544,7 +2557,6 @@ libonig2
 libopagent1
 libopagent1-32bit
 libopal3_10_10
-libopenais3
 libopenal1
 libopenal1-32bit
 libopenbabel-devel
@@ -2581,7 +2593,6 @@ libotr2
 libotr5
 libp11-kit0
 libp11-kit0-32bit
-libpacemaker3
 libpackagekit-glib2-16
 libpackagekit-qt2-6
 libpango-1_0-0
@@ -2602,6 +2613,8 @@ libpcre16-0
 libpcrecpp0
 libpcreposix0
 libpcsclite1
+libpdb0
+libpdb0-32bit
 libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-gjs
@@ -2745,6 +2758,7 @@ libreadline6
 libreadline6-32bit
 libredland-devel
 libref_array1
+libregistry0
 libreiserfs-0_3-0
 libreiserfscore0
 libreoffice
@@ -2836,6 +2850,14 @@ librsvg-2-2
 librsvg-2-2-32bit
 librsvg-devel
 librsync1
+libsamba-credentials0
+libsamba-credentials0-32bit
+libsamba-hostconfig0
+libsamba-hostconfig0-32bit
+libsamba-util0
+libsamba-util0-32bit
+libsamdb0
+libsamdb0-32bit
 libsamplerate-devel
 libsamplerate0
 libsamplerate0-32bit
@@ -2871,9 +2893,15 @@ libsilcclient-1_1-3
 libslang2
 libslang2-32bit
 libsmbclient-devel
+libsmbclient-raw0
+libsmbclient-raw0-32bit
 libsmbclient0
 libsmbclient0-32bit
+libsmbconf0
+libsmbconf0-32bit
 libsmbios2
+libsmbldap0
+libsmbldap0-32bit
 libsmi
 libsmi2
 libsmokegen-devel
@@ -2957,6 +2985,8 @@ libtdb1-32bit
 libtelepathy-farstream3
 libtelepathy-glib0
 libtelepathy-logger3
+libtevent-util0
+libtevent-util0-32bit
 libtevent0
 libtevent0-32bit
 libtheora-devel
@@ -2976,8 +3006,8 @@ libtirpc1
 libtirpc1-32bit
 libtool
 libtool-32bit
-libtotem-plparser-mini17
-libtotem-plparser17
+libtotem-plparser-mini18
+libtotem-plparser18
 libtracker-common-0_16-0
 libtracker-extract-0_16-0
 libtracker-miner-0_16-0
@@ -3362,6 +3392,7 @@ mmv
 mobile-broadband-provider-info
 module-init-tools
 monapo-fonts
+monitoring-tools
 mono-addins
 mono-basic
 mono-core
@@ -3431,6 +3462,7 @@ myspell-polish
 myspell-portuguese
 myspell-russian
 myspell-spanish
+mysql-connector-java
 nagios
 nagios-plugins
 nagios-plugins-bgpstate
@@ -3481,6 +3513,8 @@ nagios-plugins-wave
 nagios-www
 nano
 nano-lang
+nanum-fonts
+nanum-gothic-coding-fonts
 nasm
 nautilus
 nautilus-deja-dup
@@ -3500,6 +3534,9 @@ ncurses-devel
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
+ndiswrapper
+ndiswrapper-kmp-default
+ndiswrapper-kmp-desktop
 nemiver
 nemiver-lang
 nepomuk-core
@@ -3559,7 +3596,6 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
 openSUSE-xfce-icon-theme
-openais
 openal-soft
 openbabel
 openbox
@@ -3570,7 +3606,6 @@ openconnect-devel
 opencv
 opencv-devel
 openexr-devel
-openhpi
 openjade
 openldap2
 openldap2-client
@@ -3903,6 +3938,7 @@ perl-MIME-Lite
 perl-MIME-Types
 perl-MIME-tools
 perl-MLDBM
+perl-MLDBM-Sync
 perl-MRO-Compat
 perl-Mail-DKIM
 perl-Mail-Mbox-MessageParser
@@ -4120,6 +4156,7 @@ plymouth-plugin-script
 plymouth-scripts
 pm-profiler
 pm-utils
+pm-utils-ndiswrapper
 pmidi
 podofo
 polkit
@@ -4465,6 +4502,7 @@ skanlite-doc
 skanlite-lang
 skkdic
 slang-slsh
+slf4j
 slib
 slrn
 slrn-lang
@@ -4640,8 +4678,6 @@ tktable
 tls
 tmpwatch
 tnftp
-tomboy
-tomboy-lang
 totem
 totem-browser-plugin
 totem-browser-plugin-gmp
@@ -4653,7 +4689,6 @@ tracker
 tracker-devel
 tracker-gui
 tracker-miner-files
-tracker-miner-thunderbird
 trang
 transfig
 translation-update
@@ -4689,6 +4724,7 @@ typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
+typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
@@ -4710,12 +4746,14 @@ typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
 typelib-1_0-Gee-1_0
+typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
+typelib-1_0-Grl-0_2
 typelib-1_0-Gsf-1
 typelib-1_0-Gst-0_10
 typelib-1_0-Gst-1_0
@@ -4740,6 +4778,7 @@ typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-3_0
 typelib-1_0-Json-1_0
+typelib-1_0-Memphis-0_2
 typelib-1_0-Meta-3_0
 typelib-1_0-NMClient-1_0
 typelib-1_0-NMGtk-1_0

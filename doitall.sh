@@ -6,6 +6,7 @@ git pull
 
 (cd osc/openSUSE\:Factory/_product/ && osc up)
 cd testtrack/
+./update_full.sh obs-x86_64
 ./update_full.sh $tree-i586 $tree-x86_64 nf-$tree-i586 nf-$tree-x86_64
 echo -n "updating patterns "
 if ./unpack_patterns.sh $diffonly > patterns.log 2>&1; then
