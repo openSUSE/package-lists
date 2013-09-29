@@ -23,6 +23,13 @@ if test "$1" = "arm"; then
   mdeps=/tmp/missingdeps_arm
 fi
 
+if test "$1" = "factory"; then
+  project="openSUSE:Factory"
+  arch="x86_64"
+  dir=rebuilds.obs
+  mdeps=/tmp/missingdeps_factory
+fi
+
 function maptosource {
  egrep 'package|subpkg|source' /tmp/builddep  | fgrep -B50 "<subpkg>$1</subpkg>" | fgrep '<source>'| tail -n 1 | sed -e 's, *<[/s]*ource>,,g'
 }

@@ -1,7 +1,5 @@
 can't install apport:
   nothing provides python-zypp needed by apport
-can't install build-config:
-  nothing provides this-is-only-for-build-envs needed by build-config
 can't install compicc:
   nothing provides compizconfig-settings-manager < 0.9 needed by compicc
 can't install cyrus-imapd:
@@ -17,13 +15,17 @@ can't install lyx:
 can't install nagios-plugins:
   nothing provides /usr/bin/apt-get needed by nagios-plugins-apt
   nothing provides /usr/bin/qstat needed by nagios-plugins-game
+can't install openstack-heat:
+  nothing provides python-keystoneclient >= 0.3.2 needed by python-heat
+  nothing provides python-neutronclient >= 2.3.0 needed by python-heat
 can't install openstack-neutron:
   nothing provides openvswitch needed by openstack-neutron-openvswitch-agent
+can't install openstack-nova:
+  nothing provides python-keystoneclient >= 0.3.2 needed by python-nova
+  nothing provides python-neutronclient >= 2.3.0 needed by python-nova
 can't install openstack-tempest:
   nothing provides python-keyring >= 1.6.1 needed by python-tempest
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
-can't install rubygem-selenium-webdriver:
-  nothing provides rubygem(2.0.0:websocket:1.0) >= 1.0.4 needed by rubygem-selenium-webdriver
 can't install suseRegister:
   nothing provides uuid-runtime needed by suseRegister
