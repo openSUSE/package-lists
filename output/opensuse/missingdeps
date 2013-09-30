@@ -1,11 +1,13 @@
+can't install ImageMagick:
+  nothing provides libMagick++-6_Q8-2-32bit = 6.8.6.9 needed by libMagick++-devel-32bit
+  nothing provides libMagickCore-6_Q8-1-32bit = 6.8.6.9 needed by ImageMagick-devel-32bit
+  nothing provides libMagickWand-6_Q8-1-32bit = 6.8.6.9 needed by ImageMagick-devel-32bit
 can't install apport:
   nothing provides python-zypp needed by apport
 can't install compicc:
   nothing provides compizconfig-settings-manager < 0.9 needed by compicc
 can't install cyrus-imapd:
   nothing provides /usr/bin/db_verify needed by cyrus-imapd
-can't install deepin-music-player:
-  nothing provides python-CDDB needed by deepin-music-player
 can't install kdeaddons3:
   nothing provides kdenetwork3-news needed by kdeaddons3-kontact
 can't install lsb:
@@ -18,14 +20,14 @@ can't install nagios-plugins:
 can't install openstack-heat:
   nothing provides python-keystoneclient >= 0.3.2 needed by python-heat
   nothing provides python-neutronclient >= 2.3.0 needed by python-heat
-can't install openstack-neutron:
-  nothing provides openvswitch needed by openstack-neutron-openvswitch-agent
 can't install openstack-nova:
   nothing provides python-keystoneclient >= 0.3.2 needed by python-nova
   nothing provides python-neutronclient >= 2.3.0 needed by python-nova
-can't install openstack-tempest:
-  nothing provides python-keyring >= 1.6.1 needed by python-tempest
+can't install openvswitch:
+  nothing provides uuid-runtime needed by openvswitch-switch
 can't install qmmp:
   nothing provides /usr/bin/mplayer needed by libqmmp0-plugin-mplayer
 can't install suseRegister:
   nothing provides uuid-runtime needed by suseRegister
+can't install xine-lib:
+  nothing provides libMagickWand-6.Q16.so.1 needed by libxine2-32bit

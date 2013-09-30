@@ -168,6 +168,7 @@ argyllcms
 aria2
 ark
 armagetron
+arphic-fonts
 arphic-ukai-fonts
 arphic-uming-fonts
 arpwatch
@@ -420,6 +421,8 @@ ca-certificates-mozilla
 cabextract
 cairo-devel
 cal10n
+calibre
+calibre-icons-branding-upstream
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -504,6 +507,7 @@ cyrus-sasl-devel
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
+daps
 dar
 dar-lang
 dasher
@@ -632,6 +636,7 @@ expect
 expect-devel
 f-spot
 f-spot-lang
+fam
 fam-devel
 farsi-fonts
 farstream-data
@@ -865,6 +870,7 @@ gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-js-common
 gnome-keyring
+gnome-keyring-32bit
 gnome-keyring-pam
 gnome-keyring-pam-32bit
 gnome-keyring-sharp
@@ -934,6 +940,7 @@ google-arimo-fonts
 google-cousine-fonts
 google-croscore-fonts
 google-droid-fonts
+google-opensans-fonts
 google-symbolneu-fonts
 google-tinos-fonts
 gpart
@@ -1080,8 +1087,6 @@ gvim
 gwenhywfar-devel
 gwenhywfar-lang
 gwenview
-gwibber
-gwibber-lang
 gxditview
 gzip
 hamcrest
@@ -1183,6 +1188,7 @@ initviocons
 inkscape
 inkscape-extensions-dia
 inkscape-extensions-extra
+inkscape-extensions-fig
 inkscape-lang
 inn
 input-utils
@@ -1268,6 +1274,7 @@ java-1_7_0-openjdk-devel
 javacc
 javapackages-tools
 jdepend
+jedit
 jfsutils
 jhead
 jing
@@ -1585,9 +1592,9 @@ libImath-2_0-10
 libImlib2-1
 libLLVM
 libLLVM-32bit
-libMagick++-6_Q8-2
-libMagickCore-6_Q8-1
-libMagickWand-6_Q8-1
+libMagick++-6_Q16-2
+libMagickCore-6_Q16-1
+libMagickWand-6_Q16-1
 libOSMesa-devel
 libOSMesa9
 libOSMesa9-32bit
@@ -1921,7 +1928,6 @@ libdcerpc-binding0-32bit
 libdcerpc0
 libdcerpc0-32bit
 libdconf1
-libdee-1_0-4
 libdhash1
 libdialog11
 libdirac_encoder0
@@ -1975,7 +1981,7 @@ libenca0
 libenchant1
 libepub-devel
 libepub0
-liberation2-fonts
+liberation-fonts
 libesd-devel
 libesd0
 libesmtp
@@ -2096,6 +2102,7 @@ libgif6
 libgimp-2_0-0
 libgio-2_0-0
 libgio-2_0-0-32bit
+libgio-fam
 libgiomm-2_4-1
 libgirepository-1_0-1
 libgit2-0
@@ -2944,7 +2951,7 @@ libsensors4-devel
 libsepol-devel
 libsepol1
 libsepol1-32bit
-libserf-1-3
+libserf-1-1
 libsexy
 libsgutils2-2
 libshout3
@@ -3165,6 +3172,7 @@ libwebkitgtk-devel
 libwebp4
 libwebrtc_audio_processing0
 libwmf-0_2-7
+libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck-devel
@@ -3311,6 +3319,7 @@ links
 linphone
 linphone-devel
 linux-glibc-devel
+linux-libertine-fonts
 linux32
 lirc
 lirc-devel
@@ -3468,6 +3477,7 @@ mozilla-nss-certs-32bit
 mozilla-nss-devel
 mpfr-devel
 mpi-selector
+mplus-fonts
 mpt-firmware
 mpt-status
 mrtg
@@ -3729,6 +3739,7 @@ openvpn
 opie
 opie-32bit
 oprofile
+optipng
 orage
 orage-doc
 orage-lang
@@ -4160,6 +4171,7 @@ perl-YAML
 perl-apparmor
 perl-base
 perl-camgm
+perl-checkbot
 perl-common-sense
 perl-doc
 perl-gettext
@@ -4255,6 +4267,7 @@ pm-profiler
 pm-utils
 pm-utils-ndiswrapper
 pmidi
+podofo
 polkit
 polkit-default-privs
 polkit-devel
@@ -4266,7 +4279,12 @@ posix_cc
 poster
 postfix
 postfix-doc
+postgresql
+postgresql-contrib
+postgresql-devel
+postgresql-docs
 postgresql-init
+postgresql-server
 postgresql92
 postgresql92-contrib
 postgresql92-devel
@@ -4306,6 +4324,9 @@ pychecker
 pytalloc
 pytalloc-32bit
 python
+python-Babel
+python-CherryPy
+python-Genshi
 python-M2Crypto
 python-Pygments
 python-SpiceClientGtk
@@ -4317,17 +4338,19 @@ python-bonobo
 python-boto
 python-cairo
 python-cairo-devel
+python-clientform
 python-cloudfiles
 python-configobj
+python-cssselect
+python-cssutils
 python-cups
 python-cupshelpers
 python-curses
 python-dateutil
-python-dee
 python-deltarpm
 python-devel
+python-dnspython
 python-doc
-python-egenix-mx-base
 python-fcgi
 python-flickrapi
 python-gconf
@@ -4370,9 +4393,11 @@ python-liblarch_gtk
 python-libxml2
 python-lxml
 python-matplotlib
+python-mechanize
+python-netifaces
 python-notify
 python-numpy
-python-oauth
+python-odfpy
 python-opensync
 python-orbit
 python-pam
@@ -4385,6 +4410,7 @@ python-pycurl
 python-pygame
 python-pymongo
 python-pyparsing
+python-pypdf
 python-pyserial
 python-pytz
 python-pyudev
@@ -4654,6 +4680,7 @@ subversion-server
 subversion-tools
 sudo
 suse-module-tools
+suse-xsl-stylesheets
 susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
@@ -4768,6 +4795,7 @@ tracker-devel
 tracker-gui
 tracker-miner-files
 trang
+transfig
 translation-update
 translation-update-ar
 translation-update-as
@@ -4850,7 +4878,6 @@ typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
-typelib-1_0-Dee-1_0
 typelib-1_0-EBook-1_2
 typelib-1_0-EBookContacts-1_2
 typelib-1_0-EDataServer-1_2
@@ -4866,7 +4893,6 @@ typelib-1_0-Gcr-3
 typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
-typelib-1_0-Gee-1_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0

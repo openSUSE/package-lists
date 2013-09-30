@@ -788,6 +788,7 @@ gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-js-common
 gnome-keyring
+gnome-keyring-32bit
 gnome-keyring-pam
 gnome-keyring-pam-32bit
 gnome-keyring-sharp
@@ -1002,8 +1003,6 @@ gvim
 gwenhywfar-devel
 gwenhywfar-lang
 gwenview
-gwibber
-gwibber-lang
 gxditview
 gzip
 hamcrest
@@ -1172,6 +1171,7 @@ java-1_7_0-openjdk-devel
 javacc
 javapackages-tools
 jdepend
+jedit
 jfsutils
 jhead
 jing
@@ -1446,16 +1446,15 @@ libImath-2_0-10
 libImlib2-1
 libLLVM
 libLLVM-32bit
-libMagick++-6_Q8-2
-libMagickCore-6_Q8-1
-libMagickWand-6_Q8-1
+libMagick++-6_Q16-2
+libMagickCore-6_Q16-1
+libMagickWand-6_Q16-1
 libOSMesa-devel
 libOSMesa9
 libOSMesa9-32bit
 libOpenCOLLADA0
 libQtWebKit-devel
 libQtWebKit4
-libQtWebKit4-32bit
 libSDL-1_2-0
 libSDL-devel
 libSDL_Pango1
@@ -1502,7 +1501,6 @@ libXdamage1
 libXdamage1-32bit
 libXdmcp-devel
 libXdmcp6
-libXdmcp6-32bit
 libXevie-devel
 libXevie1
 libXext-devel
@@ -1555,7 +1553,6 @@ libXt6
 libXt6-32bit
 libXtst-devel
 libXtst6
-libXtst6-32bit
 libXv-devel
 libXv1
 libXv1-32bit
@@ -1619,7 +1616,6 @@ libatspi0
 libatspi0-32bit
 libattica-devel
 libattica0_4
-libattica0_4-32bit
 libattr-devel
 libattr1
 libattr1-32bit
@@ -1772,7 +1768,6 @@ libcryptui0
 libcue1
 libcurl-devel
 libcurl4
-libcurl4-32bit
 libdaemon0
 libdar5000
 libdb-4_5
@@ -1784,14 +1779,12 @@ libdbus-1-3
 libdbus-1-3-32bit
 libdbusmenu-qt-devel
 libdbusmenu-qt2
-libdbusmenu-qt2-32bit
 libdc1394-22
 libdcerpc-binding0
 libdcerpc-binding0-32bit
 libdcerpc0
 libdcerpc0-32bit
 libdconf1
-libdee-1_0-4
 libdhash1
 libdialog11
 libdirac_encoder0
@@ -1873,7 +1866,6 @@ libexttextcat
 libexttextcat-2_0-0
 libfallocate0
 libfam0
-libfam0-32bit
 libfarstream-0_2-2
 libfcitx-4_2_8
 libfdt1
@@ -1964,7 +1956,6 @@ libgfortran3
 libggz2
 libggz2-devel
 libgif6
-libgif6-32bit
 libgimp-2_0-0
 libgimpui-2_0-0
 libgio-2_0-0
@@ -2064,7 +2055,6 @@ libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
 libgstfft-1_0-0
 libgstinterfaces-0_10-0
-libgstinterfaces-0_10-0-32bit
 libgstpbutils-1_0-0
 libgstphotography-0_10-23
 libgstphotography-1_0-0
@@ -2203,10 +2193,8 @@ libkcompactdisc4-devel
 libkdcraw-devel
 libkdcraw22
 libkde4
-libkde4-32bit
 libkde4-devel
 libkdecore4
-libkdecore4-32bit
 libkdecore4-devel
 libkdeedu4-data
 libkdeedu4-devel
@@ -2251,7 +2239,6 @@ libkscreen
 libkscreen1
 libksuseinstall-devel
 libksuseinstall1
-libksuseinstall1-32bit
 libktexteditor
 libktoblzcheck1
 libktoblzcheck1-devel
@@ -2441,7 +2428,6 @@ libopensync-plugin-moto
 libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
-liborc-0_4-0-32bit
 liborcus-0_6-0
 libortp9
 libosinfo
@@ -2486,7 +2472,6 @@ libpeas-loader-python3
 libpeas-loader-seed
 libpgf6
 libphonon4
-libphonon4-32bit
 libpinyin-data
 libpinyin4
 libpipeline1
@@ -2545,7 +2530,6 @@ libpth-devel
 libpth20
 libpulse-devel
 libpulse-mainloop-glib0
-libpulse-mainloop-glib0-32bit
 libpulse0
 libpulse0-32bit
 libpurple
@@ -2564,7 +2548,6 @@ libqalculate-devel
 libqalculate5
 libqb0
 libqca2
-libqca2-32bit
 libqca2-devel
 libqhull6-6_3_1_1494
 libqimageblitz-devel
@@ -2733,7 +2716,7 @@ libsensors4-devel
 libsepol-devel
 libsepol1
 libsepol1-32bit
-libserf-1-3
+libserf-1-1
 libsexy
 libsgutils2-2
 libshout3
@@ -2779,7 +2762,6 @@ libsolv-devel
 libsolv-tools
 libsoprano-devel
 libsoprano4
-libsoprano4-32bit
 libsoup-2_4-1
 libsoup-devel
 libsource-highlight4
@@ -2801,7 +2783,6 @@ libsqlite3-0
 libsqlite3-0-32bit
 libssh-devel
 libssh2-1
-libssh2-1-32bit
 libssh4
 libsss_idmap0
 libstartup-notification-1-0
@@ -2813,7 +2794,6 @@ libstdc++6-32bit
 libstorage-ruby
 libstorage4
 libstrigi0
-libstrigi0-32bit
 libstroke
 libsunpinyin3
 libsyncml-tools
@@ -2887,7 +2867,6 @@ libusbredirparser1
 libustr-1_0-1
 libustr-1_0-1-32bit
 libutempter0
-libutempter0-32bit
 libuuid-devel
 libuuid1
 libuuid1-32bit
@@ -2955,7 +2934,6 @@ libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk-devel
 libwebp4
-libwebp4-32bit
 libwebrtc_audio_processing0
 libwmf-0_2-7
 libwmf-tools
@@ -3993,8 +3971,11 @@ poster
 postfix
 postfix-doc
 postgresql
+postgresql-contrib
 postgresql-devel
+postgresql-docs
 postgresql-init
+postgresql-server
 postgresql92
 postgresql92-contrib
 postgresql92-devel
@@ -4057,12 +4038,10 @@ python-cups
 python-cupshelpers
 python-curses
 python-dateutil
-python-dee
 python-deltarpm
 python-devel
 python-dnspython
 python-doc
-python-egenix-mx-base
 python-fcgi
 python-flickrapi
 python-gconf
@@ -4109,7 +4088,6 @@ python-mechanize
 python-netifaces
 python-notify
 python-numpy
-python-oauth
 python-odfpy
 python-opensync
 python-orbit
@@ -4541,7 +4519,6 @@ typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
-typelib-1_0-Dee-1_0
 typelib-1_0-EBook-1_2
 typelib-1_0-EBookContacts-1_2
 typelib-1_0-EDataServer-1_2
@@ -4557,7 +4534,6 @@ typelib-1_0-Gcr-3
 typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
-typelib-1_0-Gee-1_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
