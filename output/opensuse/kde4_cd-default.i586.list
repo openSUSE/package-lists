@@ -34,6 +34,9 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-utils
 android-tools
+apparmor-parser
+apparmor-profiles
+apparmor-utils
 apper
 appmenu-qt
 ark
@@ -41,6 +44,7 @@ at-spi2-atk-common
 at-spi2-atk-gtk2
 at-spi2-core
 attr
+audit
 augeas-lenses
 autofs
 avahi
@@ -183,6 +187,7 @@ htdig
 hunspell
 hunspell-tools
 hwinfo
+iceauth
 icedax
 icewm
 icoutils
@@ -200,6 +205,8 @@ kbd
 kcalc
 kcharselect
 kcolorchooser
+kde-gtk-config
+kde-gtk-config-lang
 kde4-filesystem
 kde4-kgreeter-plugins
 kde4-print-manager
@@ -294,6 +301,7 @@ libXevie1
 libXext6
 libXfixes3
 libXfont1
+libXfontcache1
 libXft2
 libXi6
 libXinerama1
@@ -306,6 +314,7 @@ libXss1
 libXt6
 libXtst6
 libXv1
+libXxf86misc1
 libXxf86vm1
 libacl1
 libadns1
@@ -314,6 +323,7 @@ libakonadi4
 libakonadiprotocolinternals1
 libao-plugins4
 libao4
+libapparmor1
 libarchive13
 libasm1
 libasound2
@@ -328,6 +338,7 @@ libattica0_4
 libattr1
 libaudit1
 libaugeas0
+libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
@@ -741,6 +752,7 @@ openslp
 openssh
 openssh-askpass
 openssl
+opensuse-startup_en
 openvpn
 os-prober
 p11-kit
@@ -755,7 +767,10 @@ pciutils-ids
 pcsc-lite
 perl
 perl-Bootloader
+perl-Clone
 perl-Config-Crontab
+perl-DBD-SQLite
+perl-DBI
 perl-Data-Dump
 perl-Encode-Locale
 perl-File-Listing
@@ -771,16 +786,24 @@ perl-IO-HTML
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
+perl-MLDBM
 perl-Net-DBus
+perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-LibIDN
 perl-Net-SSLeay
+perl-Params-Util
+perl-PlRPC
+perl-RPC-XML
+perl-SQL-Statement
+perl-Term-ReadKey
 perl-Text-Wrapper
 perl-Tie-IxHash
 perl-TimeDate
 perl-URI
 perl-WWW-RobotRules
 perl-X11-Protocol
+perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
 perl-XML-SAX
@@ -790,6 +813,7 @@ perl-XML-Simple
 perl-XML-Twig
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-apparmor
 perl-base
 perl-gettext
 perl-libwww-perl
@@ -985,11 +1009,13 @@ xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
 xrdb
+xset
 xsetroot
 xtables-plugins
 xterm
 xz
 yast2
+yast2-apparmor
 yast2-core
 yast2-country-data
 yast2-hardware-detection

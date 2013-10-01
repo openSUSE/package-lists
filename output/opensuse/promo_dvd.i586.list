@@ -74,6 +74,10 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 appmenu-qt
+apport
+apport-crashdb-opensuse
+apport-gtk
+apport-qt
 arabic-ae-fonts
 arabic-bitmap-fonts
 arabic-fonts
@@ -450,7 +454,6 @@ gnome-calculator
 gnome-chess
 gnome-clocks
 gnome-color-manager
-gnome-color-manager-lang
 gnome-contacts
 gnome-control-center
 gnome-control-center-user-faces
@@ -476,11 +479,11 @@ gnome-menus
 gnome-menus-branding-openSUSE
 gnome-mines
 gnome-music
-gnome-music-lang
 gnome-nettool
 gnome-nibbles
 gnome-nibbles-lang
 gnome-online-accounts
+gnome-online-miners
 gnome-packagekit
 gnome-power-manager
 gnome-pty-helper
@@ -531,6 +534,9 @@ gpg2
 gpgme
 gpm
 gptfdisk
+graphviz
+graphviz-gd
+graphviz-gnome
 grep
 grilo-plugin-tracker
 grilo-plugin-upnp
@@ -675,6 +681,7 @@ icc-profiles-openicc-rgb
 icc-profiles-scp-argyll
 icc-profiles-scp-fogra
 icc-profiles-scp-yamma
+iceauth
 icedax
 icedtea-web
 icewm
@@ -739,6 +746,8 @@ kcharselect
 kcolorchooser
 kdbg
 kdbg-lang
+kde-gtk-config
+kde-gtk-config-lang
 kde4-filesystem
 kde4-kgreeter-plugins
 kde4-l10n-cs
@@ -922,6 +931,7 @@ libXext6
 libXfixes-devel
 libXfixes3
 libXfont1
+libXfontcache1
 libXft-devel
 libXft2
 libXi6
@@ -1884,6 +1894,7 @@ libyui-gtk-pkg5
 libyui-gtk5
 libyui-ncurses-pkg5
 libyui-ncurses5
+libyui-qt-graph5
 libyui-qt-pkg5
 libyui-qt5
 libyui5
@@ -2117,6 +2128,7 @@ openslp-server
 openssh
 openssh-askpass
 openssl
+opensuse-startup_en
 openvpn
 orage
 orage-doc
@@ -2414,6 +2426,7 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pytalloc
 python
+python-M2Crypto
 python-atspi
 python-base
 python-beautifulsoup
@@ -2464,6 +2477,7 @@ python-xcb-proto-devel
 python-xlib
 python-xml
 python-yum
+python-zypp
 python3
 python3-atspi
 python3-base
@@ -2946,6 +2960,7 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-driver-video-nouveau
 xorg-x11-essentials
+xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-proto-devel
@@ -2958,6 +2973,7 @@ xrdb
 xscreensaver
 xscreensaver-data
 xscreensaver-data-extra
+xset
 xsetroot
 xtables-plugins
 xterm

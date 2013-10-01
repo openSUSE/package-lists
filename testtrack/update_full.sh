@@ -115,8 +115,7 @@ EOF
   /usr/bin/create_package_descr -c .cache -P -C -K -S -o suse/setup/descr/ -d susex/ -l english > /dev/null 2>&1
 
   sed -e 's,^=Pkg: \(kernel.*\)i686,=Pkg: \1i586,' -i suse/setup/descr/packages
-
-    # -x /work/built/dists/all/$i/data/EXTRA_PROV
+  sed -e '/\/usr\/bin\/\(apt-get\|mplayer\|qstat\)/d' -i suse/setup/descr/packages
 
   echo "done"
   rm -f dirty

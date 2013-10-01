@@ -41,6 +41,9 @@ alsa-oss
 alsa-plugins
 alsa-plugins-pulse
 alsa-utils
+apparmor-parser
+apparmor-profiles
+apparmor-utils
 argyllcms
 aspell
 aspell-en
@@ -49,6 +52,7 @@ at-spi2-atk-gtk2
 at-spi2-core
 atmel-firmware
 attr
+audit
 augeas-lenses
 autofs
 autoyast2-installation
@@ -213,7 +217,6 @@ gnome-calculator
 gnome-chess
 gnome-clocks
 gnome-color-manager
-gnome-color-manager-lang
 gnome-contacts
 gnome-control-center
 gnome-control-center-user-faces
@@ -234,9 +237,9 @@ gnome-menus
 gnome-menus-branding-openSUSE
 gnome-mines
 gnome-music
-gnome-music-lang
 gnome-nettool
 gnome-online-accounts
+gnome-online-miners
 gnome-packagekit
 gnome-power-manager
 gnome-pty-helper
@@ -355,6 +358,7 @@ icc-profiles-openicc-rgb
 icc-profiles-scp-argyll
 icc-profiles-scp-fogra
 icc-profiles-scp-yamma
+iceauth
 icedax
 icedtea-web
 icewm
@@ -416,6 +420,7 @@ libXevie1
 libXext6
 libXfixes3
 libXfont1
+libXfontcache1
 libXft2
 libXi6
 libXinerama1
@@ -439,6 +444,7 @@ libaio1
 libao-plugin4-esd
 libao-plugins4
 libao4
+libapparmor1
 libarchive13
 libasm1
 libasound2
@@ -455,6 +461,7 @@ libattr1
 libaudiofile1
 libaudit1
 libaugeas0
+libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
@@ -1114,6 +1121,7 @@ openslp
 openssh
 openssh-askpass
 openssl
+opensuse-startup_en
 openvpn
 orca
 os-prober
@@ -1162,8 +1170,11 @@ pcre-doc
 pcre-tools
 perl
 perl-Bootloader
+perl-Clone
 perl-Config-Crontab
 perl-Crypt-SmbHash
+perl-DBD-SQLite
+perl-DBI
 perl-Data-Dump
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -1182,12 +1193,19 @@ perl-IO-HTML
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
+perl-MLDBM
 perl-Net-DBus
+perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-LibIDN
 perl-Net-SSLeay
 perl-NetxAP
+perl-Params-Util
 perl-Parse-RecDescent
+perl-PlRPC
+perl-RPC-XML
+perl-SQL-Statement
+perl-Term-ReadKey
 perl-Text-Wrapper
 perl-Tie-IxHash
 perl-TimeDate
@@ -1206,6 +1224,7 @@ perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-apparmor
 perl-base
 perl-gettext
 perl-libwww-perl
@@ -1550,12 +1569,14 @@ xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
 xrdb
+xset
 xsetroot
 xtables-plugins
 xterm
 xz
 yast2
 yast2-add-on
+yast2-apparmor
 yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE

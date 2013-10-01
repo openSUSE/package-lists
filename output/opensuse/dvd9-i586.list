@@ -21,8 +21,6 @@ Mesa-libGLESv1_CM-devel
 Mesa-libGLESv1_CM1
 Mesa-libGLESv2-2
 Mesa-libGLESv2-devel
-Mesa-libIndirectGL-devel
-Mesa-libIndirectGL1
 Mesa-libglapi-devel
 Mesa-libglapi0
 ModemManager
@@ -44,7 +42,6 @@ NetworkManager-pptp-kde4
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-kde4
-OpenIPMI
 OpenPrintingPPDs
 OpenPrintingPPDs-ghostscript
 OpenPrintingPPDs-hpijs
@@ -148,6 +145,10 @@ apparmor-profiles
 apparmor-utils
 apper
 appmenu-qt
+apport
+apport-crashdb-opensuse
+apport-gtk
+apport-qt
 appres
 aqbanking
 aqbanking-devel
@@ -375,7 +376,6 @@ clisp
 cln
 cln-devel
 clucene-core-devel
-cluster-glue
 clutter-devel
 clutter-gst-devel
 clutter-gtk-devel
@@ -390,7 +390,6 @@ commoncpp2-devel
 conduit
 conduit-lang
 coreutils
-corosync
 cpio
 cpp
 cpp48
@@ -759,22 +758,15 @@ glibc-info
 glibc-locale
 glibmm2-devel
 glu-devel
-gmime-sharp
 gmixer
 gmp-devel
-gnokii
 gnome-backgrounds
-gnome-backgrounds-lang
 gnome-bluetooth
-gnome-bluetooth-plugin-phone-manager
 gnome-bluetooth-plugins-geoclue
 gnome-calculator
 gnome-chess
 gnome-clocks
 gnome-color-manager
-gnome-color-manager-lang
-gnome-commander
-gnome-commander-lang
 gnome-common
 gnome-contacts
 gnome-control-center
@@ -812,15 +804,13 @@ gnome-menus-branding-openSUSE
 gnome-menus-devel
 gnome-mines
 gnome-music
-gnome-music-lang
 gnome-nettool
 gnome-nibbles
 gnome-nibbles-lang
 gnome-online-accounts
 gnome-online-accounts-devel
+gnome-online-miners
 gnome-packagekit
-gnome-phone-manager
-gnome-phone-manager-lang
 gnome-photos
 gnome-power-manager
 gnome-print-sharp
@@ -952,7 +942,6 @@ gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
 gtk-vnc-lang
-gtk-vnc2-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-devel
@@ -1017,8 +1006,6 @@ gvim
 gwenhywfar-devel
 gwenhywfar-lang
 gwenview
-gwibber
-gwibber-lang
 gxditview
 gzip
 hamcrest
@@ -1223,6 +1210,8 @@ kcolorchooser
 kcron
 kdbg
 kdbg-lang
+kde-gtk-config
+kde-gtk-config-lang
 kde-mplayer-thumbnailer
 kde4-filesystem
 kde4-kgreeter-plugins
@@ -1460,11 +1449,8 @@ libImath-2_0-10
 libImlib2-1
 libLLVM
 libMagick++-6_Q16-2
-libMagick++-6_Q8-2
 libMagickCore-6_Q16-1
-libMagickCore-6_Q8-1
 libMagickWand-6_Q16-1
-libMagickWand-6_Q8-1
 libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
@@ -1749,7 +1735,6 @@ libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
-libdee-1_0-4
 libdhash1
 libdialog11
 libdirac_encoder0
@@ -1828,7 +1813,7 @@ libfarstream-0_2-2
 libfcitx-4_2_8
 libfdt1
 libffi4
-libffi47-devel
+libffi48-devel
 libfftw3-3
 libfftw3_threads3
 libfli-devel
@@ -1921,7 +1906,6 @@ libgladeui-2-6
 libgle3
 libglib-2_0-0
 libglibmm-2_4-1
-libglue2
 libglut3
 libgme0
 libgmime-2_6-0
@@ -2310,7 +2294,6 @@ liboldX6
 libonig2
 libopagent1
 libopal3_10_10
-libopenais3
 libopenal1
 libopenbabel-devel
 libopenbabel4
@@ -2340,7 +2323,6 @@ libotr-devel
 libotr2
 libotr5
 libp11-kit0
-libpacemaker3
 libpackagekit-glib2-16
 libpackagekit-qt2-6
 libpango-1_0-0
@@ -2537,6 +2519,7 @@ libreoffice-l10n-ru
 libreoffice-l10n-zh-CN
 libreoffice-l10n-zh-TW
 libreoffice-languagetool
+libreoffice-languagetool-da
 libreoffice-languagetool-de
 libreoffice-languagetool-en
 libreoffice-languagetool-es
@@ -2544,6 +2527,7 @@ libreoffice-languagetool-fr
 libreoffice-languagetool-it
 libreoffice-languagetool-pl
 libreoffice-languagetool-ru
+libreoffice-languagetool-zh
 libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
@@ -2592,7 +2576,6 @@ libsensors4-devel
 libsepol-devel
 libsepol1
 libserf-1-1
-libserf-1-3
 libsexy
 libsgutils2-2
 libshout3
@@ -2693,9 +2676,7 @@ libtiff5
 libtimidity-0_1-0
 libtirpc1
 libtool
-libtotem-plparser-mini17
 libtotem-plparser-mini18
-libtotem-plparser17
 libtotem-plparser18
 libtracker-common-0_16-0
 libtracker-extract-0_16-0
@@ -2741,15 +2722,20 @@ libvcdinfo0
 libvdeplug3
 libvdpau1
 libvigraimpex4
+libvirt
 libvirt-client
 libvirt-daemon
+libvirt-daemon-config-nwfilter
 libvirt-daemon-driver-interface
+libvirt-daemon-driver-lxc
 libvirt-daemon-driver-network
 libvirt-daemon-driver-nodedev
 libvirt-daemon-driver-nwfilter
 libvirt-daemon-driver-qemu
 libvirt-daemon-driver-secret
 libvirt-daemon-driver-storage
+libvirt-daemon-driver-uml
+libvirt-daemon-driver-vbox
 libvirt-daemon-qemu
 libvirt-python
 libvisio-0_0-0
@@ -2897,6 +2883,7 @@ libyui-ncurses-devel
 libyui-ncurses-pkg5
 libyui-ncurses5
 libyui-qt-devel
+libyui-qt-graph5
 libyui-qt-pkg5
 libyui-qt5
 libyui5
@@ -3017,7 +3004,6 @@ memtest86+
 menu-cache
 mercurial
 mercurial-lang
-metacity
 metamail
 metatheme-adwaita-common
 mgetty
@@ -3246,7 +3232,6 @@ openSUSE-release
 openSUSE-release-dvd
 openSUSE-release-dvd-biarch
 openSUSE-xfce-icon-theme
-openais
 openal-soft
 openbabel
 openbox
@@ -3257,7 +3242,6 @@ openconnect-devel
 opencv
 opencv-devel
 openexr-devel
-openhpi
 openjade
 openldap2
 openldap2-client
@@ -3271,6 +3255,7 @@ opensp-devel
 openssh
 openssh-askpass
 openssl
+opensuse-startup_en
 openvpn
 opie
 oprofile
@@ -3878,12 +3863,10 @@ python-cups
 python-cupshelpers
 python-curses
 python-dateutil
-python-dee
 python-deltarpm
 python-devel
 python-dnspython
 python-doc
-python-egenix-mx-base
 python-fcgi
 python-flickrapi
 python-gconf
@@ -3930,7 +3913,6 @@ python-mechanize
 python-netifaces
 python-notify
 python-numpy
-python-oauth
 python-odfpy
 python-opensync
 python-orbit
@@ -3975,6 +3957,7 @@ python-xlib
 python-xml
 python-yum
 python-zope.interface
+python-zypp
 python3
 python3-atspi
 python3-base
@@ -5899,8 +5882,6 @@ tktable
 tls
 tmpwatch
 tnftp
-tomboy
-tomboy-lang
 totem
 totem-browser-plugin
 totem-browser-plugin-gmp
@@ -5912,7 +5893,6 @@ tracker
 tracker-devel
 tracker-gui
 tracker-miner-files
-tracker-miner-thunderbird
 trang
 transfig
 translation-update
@@ -5953,7 +5933,6 @@ typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
-typelib-1_0-Dee-1_0
 typelib-1_0-EBook-1_2
 typelib-1_0-EBookContacts-1_2
 typelib-1_0-EDataServer-1_2
@@ -5969,7 +5948,6 @@ typelib-1_0-Gcr-3
 typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
-typelib-1_0-Gee-1_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
