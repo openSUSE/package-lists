@@ -16,6 +16,7 @@
     <!-- INCLUDE ignore_opensuse-cds.xml -->
     <!-- INCLUDE ignore_opensuse-gnome-cd.xml -->
     <!-- INCLUDE ignore_opensuse-basedon.xml -->
+    <!-- INCLUDE ignore_opensuse-images.xml -->
     <install kind="package" name="kernel-default"/>
     <install kind="package" name="openSUSE-release-ftp"/>
     <install kind="pattern" name="x11"/>

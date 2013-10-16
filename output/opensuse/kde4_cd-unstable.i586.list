@@ -192,6 +192,7 @@ gstreamer-0_10
 gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gstreamer-0_10-plugins-qt
 gtk2-data
 gtk2-engine-oxygen
 gtk2-immodule-amharic
@@ -338,6 +339,9 @@ libIex-2_0-10
 libIlmImf-Imf_2_0-20
 libIlmThread-2_0-10
 libLLVM
+libMagickCore-6_Q16-1
+libQtGLib-2_0-0
+libQtGStreamer-0_10-0
 libQtWebKit4
 libSDL-1_2-0
 libSM6
@@ -1176,6 +1180,7 @@ xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
 xf86-video-fbdev
+xf86-video-modesetting
 xf86-video-vesa
 xfsdump
 xfsprogs
@@ -1194,6 +1199,7 @@ xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
+xrandr
 xrdb
 xset
 xsetroot
@@ -1230,7 +1236,6 @@ yast2-ntp-client
 yast2-online-update
 yast2-online-update-frontend
 yast2-packager
-yast2-packager-webpin
 yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings

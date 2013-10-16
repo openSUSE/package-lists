@@ -10,6 +10,9 @@
   <trial>
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
+    <uninstall  name="libdb-4_5-devel"/>
+    <uninstall  name="krb5-mini"/>
+    <uninstall  name="krb5-mini-devel"/>
 
     <!-- can't have it on FTP -->
     <distupgrade/>

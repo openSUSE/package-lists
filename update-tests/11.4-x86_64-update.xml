@@ -19,8 +19,21 @@
 <uninstall package="aspell-mr"/>
 <uninstall package="nagios-plugins-extras"/>
 
+<!--
+    <uninstall package="bind-devel"/>
+    <uninstall package="dtc"/>
+    <uninstall package="libdb-4_5-devel"/>
+    <uninstall package="log4j-mini"/>
+-->
 
-    <!-- can't have it on FTP -->
+    <!-- <uninstall package="ecj"/> -->
+<!--
+    <uninstall package="krb5-mini"/>
+    <uninstall package="krb5-mini-devel"/>
+-->
+
+
+   <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>
   </trial>

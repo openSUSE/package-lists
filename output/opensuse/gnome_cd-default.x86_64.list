@@ -174,7 +174,6 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
-glibc-locale
 glibc-locale-32bit
 gnome-bluetooth
 gnome-bluetooth-plugins-geoclue
@@ -1275,6 +1274,7 @@ xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
 xf86-video-fbdev
+xf86-video-modesetting
 xf86-video-vesa
 xinetd
 xinit
@@ -1289,6 +1289,7 @@ xorg-x11-essentials
 xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
+xrandr
 xrdb
 xset
 xsetroot

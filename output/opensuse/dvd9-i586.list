@@ -337,7 +337,6 @@ cabextract
 cairo-devel
 cal10n
 calibre
-calibre-icons-branding-upstream
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -916,6 +915,7 @@ gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-good-extra
+gstreamer-0_10-plugins-qt
 gstreamer-0_10-plugins-ugly
 gstreamer-0_10-utils
 gstreamer-devel
@@ -1038,9 +1038,11 @@ iagno
 ibus
 ibus-anthy
 ibus-anthy-devel
+ibus-branding-openSUSE-KDE
 ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
+ibus-lang
 ibus-libpinyin
 ibus-m17n
 ibus-mozc
@@ -1454,6 +1456,8 @@ libMagickWand-6_Q16-1
 libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
+libQtGLib-2_0-0
+libQtGStreamer-0_10-0
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
@@ -3847,6 +3851,7 @@ python-M2Crypto
 python-Pygments
 python-SpiceClientGtk
 python-Twisted
+python-apsw
 python-atspi
 python-base
 python-beautifulsoup
@@ -6473,7 +6478,6 @@ yast2-online-update
 yast2-online-update-configuration
 yast2-online-update-frontend
 yast2-packager
-yast2-packager-webpin
 yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
