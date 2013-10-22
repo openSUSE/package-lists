@@ -13,7 +13,6 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 acl
 acpica
 adjtimex
@@ -31,8 +30,11 @@ autofs
 bash
 bind-libs
 bind-utils
+binutils
+boost-license1_53_0
 branding-openSUSE
 bridge-utils
+btrfsprogs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -55,7 +57,6 @@ cups
 cups-client
 cups-libs
 cups-pk-helper
-cups-pk-helper-lang
 curl
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -79,6 +80,7 @@ dmidecode
 dmraid
 dmz-icon-theme-cursors
 dosfstools
+dracut
 e2fsprogs
 elfutils
 ethtool
@@ -121,6 +123,7 @@ gpm
 gptfdisk
 grep
 groff
+grub-snapper-plugin
 grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
@@ -128,9 +131,7 @@ gsettings-desktop-schemas
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-plugins-base
-gstreamer-lang
 gstreamer-plugins-base
-gstreamer-plugins-base-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-immodule-amharic
@@ -155,6 +156,7 @@ gvfs-backends
 gvfs-fuse
 gvfs-lang
 gzip
+hardlink
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -208,6 +210,7 @@ libXrender1
 libXt6
 libXtst6
 libXv1
+libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libacl1
@@ -236,6 +239,8 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
+libboost_system1_53_0
+libboost_thread1_53_0
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -265,6 +270,7 @@ libdcerpc-binding0
 libdcerpc0
 libdconf1
 libdirectfb-1_6-0
+libdmx1
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
@@ -311,7 +317,6 @@ libgobject-2_0-0
 libgpg-error0
 libgphoto2-6
 libgraphite2-3
-libgssglue1
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -330,8 +335,8 @@ libgvfscommon0
 libharfbuzz-icu0
 libharfbuzz0
 libhogweed2
-libicu51_2
-libicu51_2-data
+libicu52_1
+libicu52_1-data
 libidn11
 libimobiledevice4
 libiptc0
@@ -357,6 +362,7 @@ liblua5_1
 liblzma5
 liblzo2-2
 libmagic1
+libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
@@ -371,15 +377,17 @@ libndr-nbt0
 libndr-standard0
 libndr0
 libnetapi0
+libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
-libnl1
+libnl-config
+libnl3-200
 libnotify4
 libntfs-3g84
 libogg0
 liboggkate1
 libopenjpeg1
-libopenobex1
+libopenobex2
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
@@ -400,7 +408,7 @@ libply-splash-graphics2
 libply2
 libpng16-16
 libpolkit0
-libpoppler43
+libpoppler44
 libpopt0
 libprocps1
 libproxy1
@@ -419,6 +427,7 @@ libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
 libsamdb0
+libsasl2-3
 libsecret-1-0
 libsecret-lang
 libselinux1
@@ -430,6 +439,7 @@ libsmbclient0
 libsmbconf0
 libsmbldap0
 libsmputils1-1
+libsnapper2
 libsndfile1
 libsolv-tools
 libsoup-2_4-1
@@ -464,6 +474,7 @@ libvorbis0
 libvorbisenc2
 libvorbisfile3
 libwayland-client0
+libwayland-cursor0
 libwayland-server0
 libwbclient0
 libwebkitgtk-3_0-0
@@ -478,6 +489,7 @@ libxcb-render0
 libxcb-shm0
 libxcb-xfixes0
 libxcb1
+libxkbcommon0
 libxkbfile1
 libxml2-2
 libxslt1
@@ -502,7 +514,6 @@ mdadm
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
-mkinitrd
 module-init-tools
 mozilla-nspr
 mtools
@@ -522,6 +533,7 @@ numlockx
 obex-data-server
 openSUSE-build-key
 openldap2-client
+openobex
 openslp
 openssh
 openssh-askpass
@@ -561,7 +573,6 @@ perl-MLDBM
 perl-Net-DBus
 perl-Net-Daemon
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Params-Util
 perl-PlRPC
@@ -593,6 +604,7 @@ pigz
 pinentry
 pkg-config
 plymouth
+plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
@@ -610,6 +622,7 @@ pytalloc
 python
 python-base
 python-cairo
+python-cffi
 python-cups
 python-cupshelpers
 python-gnomekeyring
@@ -619,9 +632,11 @@ python-gobject2
 python-gtk
 python-notify
 python-numpy
+python-pycparser
 python-pycurl
 python-satsolver
 python-smbc
+python-xattr
 python-xml
 recode
 release-notes-openSUSE
@@ -642,6 +657,8 @@ sg3_utils
 shadow
 shared-mime-info
 smp_utils
+snapper
+snapper-zypp-plugin
 sound-theme-freedesktop
 splashy
 splashy-branding-openSUSE
@@ -682,15 +699,8 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 udev
 udev-configure-printer
-udevmountd
 udisks2
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usbmuxd
 usbutils
@@ -713,6 +723,7 @@ xconsole
 xdg-menu
 xdg-utils
 xdm
+xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -728,6 +739,7 @@ xinetd
 xinit
 xkbcomp
 xkeyboard-config
+xmessage
 xmodmap
 xorg-x11-Xvnc
 xorg-x11-driver-input
@@ -736,6 +748,7 @@ xorg-x11-driver-video-nouveau
 xorg-x11-essentials
 xorg-x11-libX11-ccache
 xorg-x11-server
+xprop
 xrandr
 xrdb
 xset
@@ -750,11 +763,13 @@ yast2-hardware-detection
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
+yast2-snapper
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zisofs-tools
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

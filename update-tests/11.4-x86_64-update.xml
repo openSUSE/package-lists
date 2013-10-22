@@ -18,6 +18,21 @@
 <uninstall package="kernel-desktop-base"/>
 <uninstall package="aspell-mr"/>
 <uninstall package="nagios-plugins-extras"/>
+<uninstall name="libsatsolver-devel"/>
+<uninstall name="bind-devel"/>
+<uninstall name="krb5-mini"/>
+<uninstall name="dtc"/>
+<uninstall name="krb5-mini-devel"/>
+<uninstall name="libdb-4_5-devel"/>
+<uninstall name="ecj-bootstrap"/>
+<uninstall name="xmlbeans-mini"/>
+<uninstall name="java-cup-bootstrap"/>
+<uninstall name="libreoffice-kde4"/>
+<uninstall name="log4j-mini"/>
+<uninstall name="libdb_java-4_5"/>
+<uninstall name="libdb_java-4_5-devel"/>
+<uninstall name="lucene-contrib-db"/> <!-- TODO: fix and remove here -->
+<uninstall name="python-managesieve"/>
 
 <!--
     <uninstall package="bind-devel"/>

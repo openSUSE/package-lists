@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <test>
   <setup arch="i586">
-    <system file="12.2-i586-system.xml.gz"/>
+    <system file="12.3-i586-system.xml.gz"/>
     <channel file="full-i586/1-package.xml" name="factory"/>
     <channel file="full-nf-i586/1-package.xml" name="nonoss"/>
     <locale name="de_DE"/>
@@ -13,7 +13,8 @@
     <uninstall name="libdb-4_5-devel"/>
     <uninstall name="krb5-mini"/>
     <uninstall name="krb5-mini-devel"/>
-    <uninstall name="libreoffice-kde4"/>
+    <uninstall name="log4j-mini"/>
+    <uninstall name="libibus-1_0-0"/>
 
     <!-- can't have it on FTP -->
     <distupgrade/>

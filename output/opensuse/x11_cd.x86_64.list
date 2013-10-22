@@ -42,6 +42,7 @@ bash
 bc
 bind-libs
 bind-utils
+binutils
 bluez-firmware
 boost-license1_53_0
 branding-openSUSE
@@ -100,6 +101,7 @@ dmraid
 dmz-icon-theme-cursors
 dnsmasq
 dosfstools
+dracut
 e2fsprogs
 efibootmgr
 elfutils
@@ -111,7 +113,6 @@ exo-lang
 exo-tools
 expat
 fd0ssh
-fifth-leg-font
 file
 file-magic
 file-roller
@@ -169,6 +170,7 @@ grep
 groff
 grsync
 grub
+grub-snapper-plugin
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
@@ -178,9 +180,7 @@ gsettings-desktop-schemas
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-plugins-base
-gstreamer-lang
 gstreamer-plugins-base
-gstreamer-plugins-base-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-engine-hcengine
@@ -206,6 +206,7 @@ gvfs-backends
 gvfs-fuse
 gvfs-lang
 gzip
+hardlink
 hdparm
 hfsutils
 hicolor-icon-theme
@@ -280,6 +281,7 @@ libXt6
 libXtst6
 libXv1
 libXvMC1
+libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libacl1
@@ -347,6 +349,7 @@ libdcerpc0
 libdconf1
 libdialog11
 libdirectfb-1_6-0
+libdmx1
 libdnet1
 libdrm2
 libdrm_intel1
@@ -414,7 +417,6 @@ libgphoto2-6
 libgraphite2-3
 libgsf-1-114
 libgsf-lang
-libgssglue1
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -435,8 +437,8 @@ libgvfscommon0
 libharfbuzz-icu0
 libharfbuzz0
 libhogweed2
-libicu51_2
-libicu51_2-data
+libicu52_1
+libicu52_1-data
 libidn11
 libimobiledevice4
 libiptc0
@@ -502,7 +504,7 @@ libnuma1
 libogg0
 liboggkate1
 libopenjpeg1
-libopenobex1
+libopenobex2
 libopenraw1
 libopenssl1_0_0
 liborc-0_4-0
@@ -526,7 +528,7 @@ libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler43
+libpoppler44
 libpopt0
 libportaudio2
 libprocps1
@@ -552,6 +554,7 @@ libsamba-hostconfig0
 libsamba-util0
 libsamdb0
 libsamplerate0
+libsasl2-3
 libsecret-1-0
 libsecret-lang
 libselinux1
@@ -579,7 +582,7 @@ libstartup-notification-1-0
 libstdc++6
 libstdc++6-32bit
 libstorage-ruby
-libstorage4
+libstorage5
 libtalloc2
 libtasn1
 libtasn1-6
@@ -592,7 +595,6 @@ libthunarx-2-0
 libtidyp-1_04-0
 libtiff5
 libtirpc1
-libtranslate0
 libts-1_0-0
 libtumbler-1-0
 libudev1
@@ -606,6 +608,8 @@ libustr-1_0-1
 libutempter0
 libuuid1
 libvdpau1
+libvdpau_r600
+libvdpau_radeonsi
 libvisual
 libvmtools0
 libvorbis0
@@ -613,6 +617,7 @@ libvorbisenc2
 libvorbisfile3
 libvte9
 libwayland-client0
+libwayland-cursor0
 libwayland-server0
 libwbclient0
 libwebkitgtk-1_0-0
@@ -642,6 +647,7 @@ libxfce4util-lang
 libxfce4util6
 libxfconf-0-2
 libxfsm-4_6-0
+libxkbcommon0
 libxkbfile1
 libxklavier16
 libxml2-2
@@ -683,7 +689,6 @@ midori-branding-openSUSE
 midori-lang
 mkfontdir
 mkfontscale
-mkinitrd
 mobile-broadband-provider-info
 module-init-tools
 mozilla-nspr
@@ -717,11 +722,13 @@ numlockx
 obex-data-server
 ofl
 open-vm-tools
+open-vm-tools-gui
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-x11
 openSUSE-xfce-icon-theme
 openldap2-client
+openobex
 openslp
 openssh
 openssh-askpass
@@ -744,7 +751,6 @@ patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
 patterns-openSUSE-fonts
 patterns-openSUSE-sw_management
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_yast
 patterns-openSUSE-xfce_basis
@@ -753,6 +759,7 @@ pciutils-ids
 pcmciautils
 perl
 perl-Bootloader
+perl-Bootloader-YAML
 perl-Config-Crontab
 perl-Data-Dump
 perl-Encode-Locale
@@ -771,7 +778,6 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Net-DBus
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Text-Wrapper
 perl-Tie-IxHash
@@ -789,6 +795,7 @@ perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-YAML-LibYAML
 perl-base
 perl-gettext
 perl-libwww-perl
@@ -800,6 +807,7 @@ pinentry-gtk2
 pkg-config
 plymouth
 plymouth-branding-openSUSE
+plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
@@ -819,6 +827,7 @@ pytalloc
 python
 python-base
 python-cairo
+python-cffi
 python-cups
 python-cupshelpers
 python-gnomekeyring
@@ -828,10 +837,12 @@ python-gobject2
 python-gtk
 python-notify
 python-numpy
+python-pycparser
 python-pycurl
 python-satsolver
 python-smbc
 python-smbios
+python-xattr
 python-xml
 quota
 rcc-runtime
@@ -915,7 +926,6 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 udev
 udev-configure-printer
-udevmountd
 udisks
 udisks2
 unzip
@@ -929,9 +939,6 @@ usbutils
 util-linux
 vaapi-intel-driver
 vim
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
 vlan
 vorbis-tools
 vte2-lang
@@ -957,6 +964,7 @@ xdg-user-dirs-gtk
 xdg-user-dirs-gtk-lang
 xdg-utils
 xdm
+xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -1006,6 +1014,7 @@ xfce4-panel-plugin-mixer
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
+xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-session
 xfce4-session-branding-openSUSE
@@ -1024,12 +1033,12 @@ xfdesktop-lang
 xfsdump
 xfsprogs
 xfwm4
-xfwm4-branding-openSUSE
 xfwm4-lang
 xinetd
 xinit
 xkbcomp
 xkeyboard-config
+xmessage
 xmodmap
 xorg-x11-Xvnc
 xorg-x11-driver-input
@@ -1039,6 +1048,7 @@ xorg-x11-essentials
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
+xprop
 xrandr
 xrdb
 xscreensaver
@@ -1063,6 +1073,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-proxy
 yast2-ruby-bindings
+yast2-snapper
 yast2-storage
 yast2-theme-openSUSE
 yast2-trans-de

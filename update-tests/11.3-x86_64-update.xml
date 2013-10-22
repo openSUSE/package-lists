@@ -21,6 +21,17 @@
 <uninstall package="kernel-desktop-base"/>
 <uninstall package="aspell-mr"/>
 <uninstall package="nagios-plugins-extras"/>
+<uninstall name="libsatsolver-devel"/>
+<uninstall name="bind-devel"/>
+<uninstall name="krb5-mini"/>
+<uninstall name="dtc"/>
+<uninstall name="krb5-mini-devel"/>
+<uninstall name="libdb-4_5-devel"/>
+<uninstall name="OpenOffice_org-kde"/>
+<uninstall name="ecj-bootstrap"/>
+<uninstall name="OpenOffice_org-kde4"/>
+<uninstall name="xmlbeans-mini"/>
+<uninstall name="java-cup-bootstrap"/>
 
     <distupgrade/>
     <reportproblems/>

@@ -11,6 +11,7 @@
     <!-- DROPS -->
     <install kind="product" name="openSUSE-fulltree"/>
     <uninstall name="amavisd-new"/>
+<uninstall name="libdb-4_5-devel"/>
     <!-- can't have it on FTP -->
     <distupgrade/>
     <reportproblems/>

@@ -82,8 +82,12 @@ libFLAC++6-32bit
 libFLAC8-32bit
 libGLU1-32bit
 libHX28-32bit
+libHalf11-32bit
 libICE6-32bit
 libIDL-2-0-32bit
+libIex-2_1-11-32bit
+libIlmImf-Imf_2_1-21-32bit
+libIlmThread-2_1-11-32bit
 libLLVM-32bit
 libMagickCore-6_Q16-1-32bit
 libMagickWand-6_Q16-1-32bit
@@ -118,8 +122,7 @@ libaio-devel-32bit
 libaio1-32bit
 libapparmor1-32bit
 libasound2-32bit
-libaspell15-32bit
-libass4-32bit
+libass5-32bit
 libatk-1_0-0-32bit
 libatk-bridge-2_0-0-32bit
 libatspi0-32bit
@@ -156,8 +159,6 @@ libcgroup1-32bit
 libchm0-32bit
 libcolord2-32bit
 libcom_err2-32bit
-libcppunit-1_12-0-32bit
-libcppunit-devel-32bit
 libcrack2-32bit
 libcroco-0_6-3-32bit
 libcryptmount0-32bit
@@ -210,7 +211,7 @@ libgpg-error0-32bit
 libgphoto2-6-32bit
 libgraphite2-3-32bit
 libgsm1-32bit
-libgssglue1-32bit
+libgstallocators-1_0-0-32bit
 libgstapp-0_10-0-32bit
 libgstapp-1_0-0-32bit
 libgstaudio-1_0-0-32bit
@@ -219,8 +220,10 @@ libgstbasecamerabinsrc-1_0-0-32bit
 libgstbasevideo-0_10-23-32bit
 libgstcodecparsers-0_10-23-32bit
 libgstcodecparsers-1_0-0-32bit
+libgstegl-1_0-0-32bit
 libgstfft-1_0-0-32bit
 libgstinterfaces-0_10-0-32bit
+libgstmpegts-1_0-0-32bit
 libgstpbutils-1_0-0-32bit
 libgstphotography-0_10-23-32bit
 libgstphotography-1_0-0-32bit
@@ -242,7 +245,7 @@ libharfbuzz0-32bit
 libhogweed2-32bit
 libibus-1_0-5-32bit
 libicu-devel-32bit
-libicu51_2-32bit
+libicu52_1-32bit
 libidn11-32bit
 libiec61883-32bit
 libieee1284-32bit
@@ -336,8 +339,6 @@ libquicktime0-32bit
 libraptor2-0-32bit
 libraw1394-11-32bit
 libraw1394-devel-32bit
-librcc0-32bit
-librcd0-32bit
 libreadline6-32bit
 librsvg-2-2-32bit
 libsamba-credentials0-32bit
@@ -345,6 +346,7 @@ libsamba-hostconfig0-32bit
 libsamba-util0-32bit
 libsamdb0-32bit
 libsamplerate0-32bit
+libsasl2-3-32bit
 libschroedinger-1_0-0-32bit
 libselinux1-32bit
 libsemanage1-32bit
@@ -378,7 +380,6 @@ libtheora0-32bit
 libtiff-devel-32bit
 libtiff5-32bit
 libtimidity-0_1-0-32bit
-libtirpc1-32bit
 libtool-32bit
 libts-1_0-0-32bit
 libtsan0
@@ -401,6 +402,7 @@ libvorbisfile3-32bit
 libvpx1-32bit
 libwavpack1-32bit
 libwayland-client0-32bit
+libwayland-cursor0-32bit
 libwayland-server0-32bit
 libwbclient0-32bit
 libwebp4-32bit
@@ -415,6 +417,7 @@ libxcb-xfixes0-32bit
 libxcb-xv0-32bit
 libxcb1-32bit
 libxine2-32bit
+libxkbcommon0-32bit
 libxml2-2-32bit
 libxml2-devel-32bit
 libxslt-devel-32bit
@@ -457,7 +460,6 @@ perl-base-32bit
 pytalloc-32bit
 python-32bit
 python-base-32bit
-qtcurve-gtk2-32bit
 rpm-32bit
 samba-32bit
 samba-client-32bit

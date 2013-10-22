@@ -23,6 +23,7 @@ bash
 bash-doc
 bind-libs
 bind-utils
+binutils
 boost-license1_53_0
 branding-openSUSE
 bridge-utils
@@ -57,11 +58,10 @@ dconf
 desktop-data-openSUSE
 desktop-translations
 device-mapper
-dhcpcd
 diffutils
 dirmngr
 dmz-icon-theme-cursors
-e2fsprogs
+dracut
 elfutils
 enscript
 ethtool
@@ -92,6 +92,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
@@ -132,6 +133,7 @@ gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
+hardlink
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 htdig
@@ -151,7 +153,6 @@ javapackages-tools
 kactivities4
 kbd
 kde-gtk-config
-kde-gtk-config-lang
 kde4-filesystem
 kde4-kgreeter-plugins
 kdebase4-openSUSE
@@ -179,12 +180,16 @@ kwin
 lcms2
 libFLAC8
 libGLU1
-libHalf10
+libHalf11
 libICE6
-libIex-2_0-10
-libIlmImf-Imf_2_0-20
-libIlmThread-2_0-10
+libIex-2_1-11
+libIlmImf-Imf_2_1-21
+libIlmThread-2_1-11
 libLLVM
+libQt5Core5
+libQt5DBus5
+libQt5Gui5
+libQt5Widgets5
 libQtWebKit4
 libSM6
 libX11-6
@@ -283,14 +288,13 @@ libdw1
 libebl1
 libelf0
 libelf1
-libenca0
 libenchant1
 libepub0
 libestr0
+libetonyek-0_0-0
 libexif12
 libexiv2-12
 libexpat1
-libext2fs2
 libexttextcat
 libexttextcat-2_0-0
 libfam0
@@ -322,7 +326,6 @@ libgpgme11
 libgphoto2-6
 libgps20
 libgraphite2-3
-libgssglue1
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -337,7 +340,6 @@ libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
-libguess1
 libgvfscommon0
 libharfbuzz-icu0
 libharfbuzz0
@@ -345,8 +347,8 @@ libhogweed2
 libhyphen0
 libibus-1_0-5
 libical1
-libicu51_2
-libicu51_2-data
+libicu52_1
+libicu52_1-data
 libidn11
 libimobiledevice4
 libiodbc3
@@ -386,11 +388,10 @@ liblua5_1
 liblua5_2
 liblzma5
 libmagic1
-libmarblewidget16
+libmarblewidget17
 libmng1
 libmodman1
 libmount1
-libmowgli2
 libmozjs-17_0
 libmpc3
 libmpfr4
@@ -412,7 +413,7 @@ libnettle4
 libodfgen-0_0-0
 libogg0
 libopenjpeg1
-libopenobex1
+libopenobex2
 libopenssl1_0_0
 liborc-0_4-0
 liborcus-0_6-0
@@ -423,6 +424,7 @@ libpango-1_0-0
 libpci3
 libpciaccess0
 libpcre1
+libpcre16-0
 libpdb0
 libphonon4
 libpixman-1-0
@@ -431,7 +433,7 @@ libpng16-16
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-4
-libpoppler43
+libpoppler44
 libpopt0
 libprison0
 libprocps1
@@ -455,12 +457,11 @@ libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
 libqt4-x11
+libqt5-qtimageformats
 libquazip1
 libraptor2-0
 librasqal3
 libraw1394-11
-librcc0
-librcd0
 librdf0
 libreadline6
 libreoffice
@@ -491,6 +492,7 @@ libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
 libsamdb0
+libsasl2-3
 libsecret-1-0
 libselinux1
 libsemanage1
@@ -523,8 +525,6 @@ libtevent0
 libtheora0
 libtidyp-1_04-0
 libtiff5
-libtirpc1
-libtranslate0
 libudev1
 libudisks2-0
 libupower-glib1
@@ -540,6 +540,7 @@ libvorbis0
 libvorbisenc2
 libvorbisfile3
 libwayland-client0
+libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwbclient0
@@ -554,18 +555,22 @@ libxcb-composite0
 libxcb-damage0
 libxcb-dri2-0
 libxcb-glx0
+libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
 libxcb-randr0
+libxcb-render-util0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
 libxcb-sync0
 libxcb-util1
 libxcb-xfixes0
+libxcb-xkb0
 libxcb-xtest0
 libxcb1
 libxerces-c-3_1
+libxkbcommon0
 libxkbfile1
 libxml2-2
 libxslt-tools
@@ -598,7 +603,7 @@ media-player-info
 metamail
 metatheme-adwaita-common
 mgetty
-mkinitrd
+mobipocket
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
@@ -611,6 +616,7 @@ netcfg
 obex-data-server
 openSUSE-release
 openSUSE-release-dvd
+openobex
 openssl
 opensuse-startup_en
 oxygen-icon-theme
@@ -621,7 +627,6 @@ pam-config
 pango-tools
 patterns-openSUSE-x11_yast
 perl
-perl-Bootloader
 perl-Config-Crontab
 perl-Data-Dump
 perl-Encode-Locale
@@ -640,7 +645,6 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Net-DBus
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Text-Wrapper
 perl-Tie-IxHash
@@ -662,6 +666,7 @@ perl-gettext
 perl-libwww-perl
 permissions
 phonon-backend-gstreamer-0_10
+pigz
 pinentry
 pkg-config
 plasma-addons
@@ -695,7 +700,6 @@ python-kdebase4
 python-qt4
 python-sip
 python-xml
-rcc-runtime
 readline-doc
 rpm
 rsyslog
@@ -728,7 +732,6 @@ sysconfig-network
 syslog-service
 systemd
 systemd-presets-branding-openSUSE
-systemd-sysvinit
 systemtap
 systemtap-runtime
 sysvinit-tools
@@ -740,7 +743,6 @@ timezone-java
 traceroute
 tunctl
 udev
-udevmountd
 udisks2
 unzip
 unzip-doc

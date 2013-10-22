@@ -54,9 +54,10 @@
     <install kind="pattern" name="rest_dvd"/>
     <install kind="package" name="openSUSE-release-dvd-biarch"/>
     <install kind="pattern" name="devel_gnome"/>
-    <install kind="package" name="lyx"/>
-    <install kind="package" name="texlive-tools"/>
+    <install kind="package" name="calibre"/>
+    <!-- install kind="package" name="texlive-tools"/ -->
     <install kind="package" name="pangox-compat"/>
+    <lock package="package" name="texlive"/>
     <install kind="package" name="libpangox-1_0-0"/>
     <install kind="package" name="libpangox-1_0-0-32bit"/> <!-- !i586 -->
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->

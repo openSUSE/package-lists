@@ -15,6 +15,7 @@ autoyast2-installation
 bash
 bind-libs
 bind-utils
+binutils
 branding-openSUSE
 bridge-utils
 bundle-lang-common-en
@@ -35,7 +36,6 @@ cryptsetup
 cryptsetup-mkinitrd
 cups-libs
 curl
-cyrus-sasl
 dbus-1
 dbus-1-glib
 dbus-1-x11
@@ -46,6 +46,7 @@ diffutils
 dirmngr
 dmraid
 dosfstools
+dracut
 e2fsprogs
 elfutils
 expat
@@ -70,6 +71,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
@@ -98,6 +100,7 @@ gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
+hardlink
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hunspell
@@ -212,7 +215,6 @@ libgphoto2-6
 libgraphite2-3
 libgsasl-lang
 libgsasl7
-libgssglue1
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -230,8 +232,8 @@ libgvfscommon0
 libharfbuzz-icu0
 libharfbuzz0
 libhogweed2
-libicu51_2
-libicu51_2-data
+libicu52_1
+libicu52_1-data
 libidn11
 libimobiledevice4
 libjasper1
@@ -264,10 +266,11 @@ libndr-standard0
 libndr0
 libnetapi0
 libnettle4
-libnl1
+libnl-config
+libnl3-200
 libntlm0
 libogg0
-libopenobex1
+libopenobex2
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
@@ -297,6 +300,7 @@ libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
 libsamdb0
+libsasl2-3
 libsecret-1-0
 libselinux1
 libsemanage1
@@ -312,7 +316,7 @@ libsqlite3-0
 libssh2-1
 libstdc++6
 libstorage-ruby
-libstorage4
+libstorage5
 libtalloc2
 libtasn1
 libtasn1-6
@@ -323,7 +327,6 @@ libtevent0
 libtheora0
 libtidyp-1_04-0
 libtiff5
-libtirpc1
 libudev1
 libudisks2-0
 libusb-0_1-4
@@ -336,6 +339,7 @@ libvisual
 libvorbis0
 libvorbisenc2
 libwayland-client0
+libwayland-cursor0
 libwayland-server0
 libwbclient0
 libwebkitgtk-3_0-0
@@ -348,6 +352,7 @@ libxcb-render0
 libxcb-shm0
 libxcb-xfixes0
 libxcb1
+libxkbcommon0
 libxml2-2
 libxslt1
 libxtables10
@@ -370,7 +375,6 @@ mdadm
 memtest86+
 metatheme-adwaita-common
 mingetty
-mkinitrd
 module-init-tools
 mozilla-nspr
 msmtp
@@ -382,6 +386,7 @@ net-tools
 netcfg
 obex-data-server
 openSUSE-release
+openobex
 openslp
 openssl
 p11-kit
@@ -395,6 +400,7 @@ pciutils
 pciutils-ids
 perl
 perl-Bootloader
+perl-Bootloader-YAML
 perl-Config-Crontab
 perl-Data-Dump
 perl-Digest-SHA1
@@ -414,7 +420,6 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Net-DBus
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Parse-RecDescent
 perl-Text-Wrapper
@@ -433,10 +438,12 @@ perl-XML-Simple
 perl-XML-Twig
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-YAML-LibYAML
 perl-base
 perl-gettext
 perl-libwww-perl
 permissions
+pigz
 pinentry
 pkg-config
 polkit
@@ -466,7 +473,6 @@ sysfsutils
 syslinux
 systemd
 systemd-presets-branding-openSUSE
-systemd-sysvinit
 sysvinit
 sysvinit-tools
 tar
@@ -476,7 +482,6 @@ timezone
 traceroute
 tunctl
 udev
-udevmountd
 udisks2
 unzip
 unzip-doc
@@ -512,6 +517,7 @@ yast2-pkg-bindings
 yast2-proxy
 yast2-ruby-bindings
 yast2-security
+yast2-services-manager
 yast2-slp
 yast2-storage
 yast2-theme-openSUSE

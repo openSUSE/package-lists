@@ -22,7 +22,6 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 acl
 acpica
 adjtimex
@@ -52,11 +51,13 @@ avahi-autoipd
 bash
 bind-libs
 bind-utils
+binutils
 bluedevil
 bluez
 boost-license1_53_0
 branding-openSUSE
 bridge-utils
+btrfsprogs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -82,7 +83,6 @@ cups
 cups-client
 cups-libs
 cups-pk-helper
-cups-pk-helper-lang
 curl
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -112,6 +112,7 @@ dmz-icon-theme-cursors
 dnsmasq
 dolphin
 dosfstools
+dracut
 dvd+rw-tools
 e2fsprogs
 efibootmgr
@@ -159,13 +160,16 @@ gpm
 gptfdisk
 grep
 groff
+grub-snapper-plugin
 grub2-i386-pc
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
+gstreamer
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gstreamer-plugins-base
 gtk2-data
 gtk2-engine-oxygen
 gtk2-immodule-amharic
@@ -182,6 +186,7 @@ gtk3-immodule-vietnamese
 gtk3-tools
 gwenview
 gzip
+hardlink
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -208,7 +213,6 @@ kcalc
 kcharselect
 kcolorchooser
 kde-gtk-config
-kde-gtk-config-lang
 kde4-filesystem
 kde4-kgreeter-plugins
 kde4-print-manager
@@ -282,11 +286,11 @@ kwrite
 less
 libFLAC8
 libGLU1
-libHalf10
+libHalf11
 libICE6
-libIex-2_0-10
-libIlmImf-Imf_2_0-20
-libIlmThread-2_0-10
+libIex-2_1-11
+libIlmImf-Imf_2_1-21
+libIlmThread-2_1-11
 libLLVM
 libSM6
 libX11-6
@@ -316,6 +320,7 @@ libXss1
 libXt6
 libXtst6
 libXv1
+libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libacl1
@@ -346,7 +351,7 @@ libavahi-common3
 libavahi-core7
 libblas3
 libblkid1
-libbluedevil1
+libbluedevil2
 libbluetooth3
 libboost_program_options1_53_0
 libboost_system1_53_0
@@ -384,6 +389,7 @@ libdconf1
 libdialog11
 libdirectfb-1_6-0
 libdmtx0
+libdmx1
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
@@ -392,7 +398,6 @@ libdw1
 libedit0
 libelf0
 libelf1
-libenca0
 libenchant1
 libepub0
 liberation-fonts
@@ -439,21 +444,26 @@ libgps20
 libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
-libgssglue1
 libgstapp-0_10-0
+libgstapp-1_0-0
+libgstaudio-1_0-0
 libgstinterfaces-0_10-0
+libgstpbutils-1_0-0
 libgstreamer-0_10-0
+libgstreamer-1_0-0
+libgstriff-1_0-0
+libgsttag-1_0-0
+libgstvideo-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
-libguess1
 libharfbuzz0
 libhogweed2
 libibus-1_0-5
 libical1
-libicu51_2
-libicu51_2-data
+libicu52_1
+libicu52_1-data
 libidn11
 libimobiledevice4
 libiodbc3
@@ -490,6 +500,7 @@ libkmahjongglib4
 libkmod2
 libkolab0
 libkolabxml0
+libkomparediff2-4
 libkonq5
 libksba8
 libkscreen
@@ -514,7 +525,6 @@ libmng1
 libmnl0
 libmodman1
 libmount1
-libmowgli2
 libmozjs-17_0
 libmpc3
 libmpfr4
@@ -535,7 +545,6 @@ libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
 libnl-config
-libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -547,7 +556,6 @@ libogg0
 liboggkate1
 libopenal1
 libopenjpeg1
-libopenobex1
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
@@ -574,7 +582,7 @@ libpng16-16
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-qt4-4
-libpoppler43
+libpoppler44
 libpopt0
 libprison0
 libprocps1
@@ -602,8 +610,6 @@ libquadmath0
 libraptor2-0
 librasqal3
 libraw1394-11
-librcc0
-librcd0
 librdf0
 libreadline6
 libreiserfs-0_3-0
@@ -612,6 +618,7 @@ libsamba-hostconfig0
 libsamba-util0
 libsamdb0
 libsamplerate0
+libsasl2-3
 libsbc1
 libselinux1
 libsemanage1
@@ -623,6 +630,7 @@ libsmbclient0
 libsmbconf0
 libsmbldap0
 libsmputils1-1
+libsnapper2
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -640,6 +648,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtdb1
+libtelepathy-qt4-2
 libtevent-util0
 libtevent0
 libtheora0
@@ -647,7 +656,6 @@ libtidy-0_99-0
 libtidyp-1_04-0
 libtiff5
 libtirpc1
-libtranslate0
 libts-1_0-0
 libudev1
 libudisks2-0
@@ -670,6 +678,7 @@ libvorbisenc2
 libvorbisfile3
 libwavpack1
 libwayland-client0
+libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwbclient0
@@ -694,6 +703,7 @@ libxcb-xfixes0
 libxcb-xtest0
 libxcb1
 libxerces-c-3_1
+libxkbcommon0
 libxkbfile1
 libxml2-2
 libxslt1
@@ -728,8 +738,8 @@ mdadm
 media-player-info
 mkfontdir
 mkfontscale
-mkinitrd
 mobile-broadband-provider-info
+mobipocket
 module-init-tools
 mozilla-nspr
 mozilla-nss
@@ -749,7 +759,6 @@ ntfsprogs
 ntp
 numactl
 numlockx
-obex-data-server
 openSUSE-build-key
 openal-soft
 openldap2-client
@@ -794,7 +803,6 @@ perl-MLDBM
 perl-Net-DBus
 perl-Net-Daemon
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Params-Util
 perl-PlRPC
@@ -835,6 +843,7 @@ plasmoid-folderview
 plasmoid-networkmanagement
 plasmoid-quickaccess
 plymouth
+plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
@@ -861,6 +870,7 @@ pytalloc
 python
 python-base
 python-cairo
+python-cffi
 python-cups
 python-cupshelpers
 python-gnomekeyring
@@ -871,11 +881,12 @@ python-gtk
 python-keyring
 python-notify
 python-numpy
+python-pycparser
 python-pycurl
 python-satsolver
 python-smbc
+python-xattr
 python-xml
-rcc-runtime
 recode
 release-notes-openSUSE
 rgb
@@ -899,6 +910,8 @@ shared-desktop-ontologies
 shared-mime-info
 shim
 smp_utils
+snapper
+snapper-zypp-plugin
 soprano
 soprano-backend-redland
 soprano-backend-virtuoso
@@ -948,18 +961,11 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 udev
 udev-configure-printer
-udevmountd
 udisks2
 unzip
 unzip-doc
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data
@@ -989,6 +995,7 @@ xdg-menu
 xdg-user-dirs
 xdg-utils
 xdm
+xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -1030,6 +1037,7 @@ yast2-packager
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
+yast2-snapper
 yast2-sound
 yast2-transfer
 yast2-xml
@@ -1037,6 +1045,7 @@ yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zisofs-tools
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

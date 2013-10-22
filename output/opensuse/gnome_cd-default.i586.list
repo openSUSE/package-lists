@@ -23,7 +23,6 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 accountsservice
 acl
 acpica
@@ -53,11 +52,14 @@ bash
 bijiben
 bind-libs
 bind-utils
+binutils
 bluez
+boost-license1_53_0
 branding-openSUSE
 brasero
 brasero-nautilus
 bridge-utils
+btrfsprogs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -67,8 +69,9 @@ caribou
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
+cdda2wav
 cdrdao
-cdrkit-cdrtools-compat
+cdrecord
 cheese
 cifs-utils
 color-filesystem
@@ -120,6 +123,7 @@ dmz-icon-theme-cursors
 dnsmasq
 docbook_4
 dosfstools
+dracut
 duplicity
 dvd+rw-tools
 e2fsprogs
@@ -202,7 +206,6 @@ gnome-online-accounts
 gnome-online-miners
 gnome-power-manager
 gnome-pty-helper
-gnome-screensaver
 gnome-screenshot
 gnome-session
 gnome-session-core
@@ -221,6 +224,7 @@ gnome-terminal
 gnome-themes-accessibility
 gnome-user-docs
 gnome-user-share
+gnome-user-share-lang
 gnome-version
 gnome-video-effects
 gnu-unifont-bitmap-fonts
@@ -236,6 +240,7 @@ grilo-plugin-upnp
 grilo-plugin-youtube
 grilo-plugins
 groff
+grub-snapper-plugin
 grub2-i386-efi
 grub2-i386-pc
 gsettings-backend-dconf
@@ -245,7 +250,6 @@ gstreamer-0_10
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugins-bad
-gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-ugly
@@ -286,6 +290,7 @@ gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
+hardlink
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -303,7 +308,6 @@ icc-profiles-scp-argyll
 icc-profiles-scp-fogra
 icc-profiles-scp-yamma
 iceauth
-icedax
 icewm
 ifplugd
 info
@@ -357,6 +361,7 @@ libXss1
 libXt6
 libXtst6
 libXv1
+libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libaccountsservice0
@@ -370,7 +375,7 @@ libarchive13
 libasm1
 libasound2
 libaspell15
-libass4
+libass5
 libassuan0
 libatasmart4
 libatk-1_0-0
@@ -392,6 +397,8 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
+libboost_system1_53_0
+libboost_thread1_53_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -491,7 +498,6 @@ libfolks-libsocialweb25
 libfolks-telepathy25
 libfolks25
 libfontenc1
-libfprint0
 libfreebl3
 libfreetype6
 libfuse2
@@ -509,7 +515,6 @@ libgdict-1_0-6
 libgdk_pixbuf-2_0-0
 libgdm1
 libgee-0_8-2
-libgee2
 libgensec0
 libgeoclue0
 libgeocode-glib0
@@ -532,7 +537,6 @@ libgnome-desktop-3-8
 libgnome-desktop-3_0-common
 libgnome-keyring0
 libgnome-menu-3-0
-libgnomekbd
 libgnomesu
 libgnomesu0
 libgnutls28
@@ -551,18 +555,19 @@ libgrlnet-0_2-0
 libgsf-1-114
 libgsm1
 libgssdp-1_0-3
-libgssglue1
+libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
 libgstbasevideo-0_10-23
-libgstbasevideo-1_0-0
 libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
+libgstegl-1_0-0
 libgstfft-1_0-0
 libgstinterfaces-0_10-0
+libgstmpegts-1_0-0
 libgstpbutils-1_0-0
 libgstphotography-0_10-23
 libgstphotography-1_0-0
@@ -584,7 +589,6 @@ libgtksourceview-3_0-1
 libgtop-2_0-7
 libgucharmap_2_90-7
 libgudev-1_0-0
-libguess1
 libguile-2_0-22
 libgupnp-1_0-4
 libgupnp-av-1_0-2
@@ -599,8 +603,8 @@ libharfbuzz0
 libhogweed2
 libibus-1_0-5
 libical1
-libicu51_2
-libicu51_2-data
+libicu52_1
+libicu52_1-data
 libidn11
 libieee1284
 libimobiledevice4
@@ -645,7 +649,6 @@ libmnl0
 libmodman1
 libmodplug1
 libmount1
-libmowgli2
 libmozjs-17_0
 libmpc3
 libmpcdec5
@@ -669,7 +672,6 @@ libnettle4
 libnfnetlink0
 libnice10
 libnl-config
-libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -684,7 +686,7 @@ libogg0
 liboggkate1
 libopenal1
 libopenjpeg1
-libopenobex1
+libopenobex2
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
@@ -717,7 +719,7 @@ libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler43
+libpoppler44
 libpopt0
 libportaudio2
 libprocps1
@@ -730,7 +732,6 @@ libpulse-mainloop-glib0
 libpulse0
 libpurple
 libpurple-branding-openSUSE
-libpurple-lang
 libpurple-tcl
 libpwquality1
 libpyglib-gi-2_0-python2-0
@@ -743,8 +744,6 @@ libquicktime0
 libraptor2-0
 libraw1394-11
 libraw9
-librcc0
-librcd0
 libreadline6
 libreiserfs-0_3-0
 librest0
@@ -755,7 +754,10 @@ libsamba-hostconfig0
 libsamba-util0
 libsamdb0
 libsamplerate0
+libsasl2-3
 libsbc1
+libscg1_0
+libschily1_0
 libschroedinger-1_0-0
 libsecret-1-0
 libseed-gtk3-0
@@ -774,6 +776,7 @@ libsmbclient0
 libsmbconf0
 libsmbldap0
 libsmputils1-1
+libsnapper2
 libsndfile1
 libsnmp30
 libsocialweb
@@ -816,7 +819,6 @@ libtracker-common-0_16-0
 libtracker-extract-0_16-0
 libtracker-miner-0_16-0
 libtracker-sparql-0_16-0
-libtranslate0
 libts-1_0-0
 libudev1
 libudisks2-0
@@ -843,6 +845,7 @@ libwacom-data
 libwacom2
 libwavpack1
 libwayland-client0
+libwayland-cursor0
 libwayland-server0
 libwbclient0
 libwebkitgtk-3_0-0
@@ -859,6 +862,7 @@ libxcb-shm0
 libxcb-util1
 libxcb-xfixes0
 libxcb1
+libxkbcommon0
 libxkbfile1
 libxklavier16
 libxml2-2
@@ -894,7 +898,7 @@ media-player-info
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
-mkinitrd
+mkisofs
 mobile-broadband-provider-info
 module-init-tools
 mousetweaks
@@ -930,6 +934,7 @@ obex-data-server
 openSUSE-build-key
 openal-soft
 openldap2-client
+openobex
 openslp
 openssh
 openssh-askpass
@@ -942,7 +947,6 @@ p11-kit-tools
 p7zip
 pam
 pam-config
-pam-modules
 pango-tools
 parallel-printer-support
 parted
@@ -973,7 +977,6 @@ perl-MLDBM
 perl-Net-DBus
 perl-Net-Daemon
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Params-Util
 perl-PlRPC
@@ -1007,6 +1010,7 @@ pinentry
 pkcs11-helper
 pkg-config
 plymouth
+plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
@@ -1036,6 +1040,7 @@ python-base
 python-beautifulsoup
 python-boto
 python-cairo
+python-cffi
 python-cloudfiles
 python-cups
 python-cupshelpers
@@ -1047,25 +1052,26 @@ python-gtk
 python-httplib2
 python-notify
 python-numpy
+python-pycparser
 python-pycurl
 python-satsolver
 python-smbc
+python-xattr
 python-xml
 python3
 python3-atspi
 python3-base
 python3-cairo
+python3-gedit
 python3-gobject
 python3-gobject-cairo
 python3-louis
 python3-speechd
 quadrapassel
-rcc-runtime
 recode
 release-notes-openSUSE
 rgb
 rhythmbox
-rhythmbox-lang
 rpcbind
 rpm
 rpm-python
@@ -1093,6 +1099,8 @@ shotwell
 silc-toolkit
 simple-scan
 smp_utils
+snapper
+snapper-zypp-plugin
 snmp-mibs
 sound-theme-freedesktop
 speech-dispatcher
@@ -1106,7 +1114,6 @@ suse-module-tools
 susehelp
 susehelp_en
 sushi
-sushi-lang
 swell-foop
 sysconfig
 sysconfig-netconfig
@@ -1117,6 +1124,7 @@ syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
+system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-presets-branding-openSUSE
@@ -1140,7 +1148,6 @@ tk
 tnftp
 totem
 totem-browser-plugin
-totem-lang
 totem-plugins
 traceroute
 tracker
@@ -1210,21 +1217,13 @@ typelib-1_0-TrackerMiner-0_16
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit-3_0
 typelib-1_0-Wnck-1_0
-typelib-1_0-Xkl-1_0
 typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
-udevmountd
 udisks2
 unzip
 unzip-doc
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data
@@ -1243,7 +1242,6 @@ wget
 which
 wireless-regdb
 wireless-tools
-wodim
 wpa_supplicant
 x11-tools
 xauth
@@ -1258,6 +1256,7 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xdm
+xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -1269,10 +1268,12 @@ xf86-input-wacom
 xf86-video-fbdev
 xf86-video-modesetting
 xf86-video-vesa
+xhost
 xinetd
 xinit
 xkbcomp
 xkeyboard-config
+xmessage
 xmodmap
 xorg-x11-Xvnc
 xorg-x11-driver-input
@@ -1282,6 +1283,7 @@ xorg-x11-essentials
 xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
+xprop
 xrandr
 xrdb
 xset
@@ -1296,6 +1298,7 @@ yast2-hardware-detection
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
+yast2-snapper
 yast2-sound
 yast2-xml
 yast2-ycp-ui-bindings
@@ -1306,6 +1309,7 @@ ypbind
 zenity
 zip
 zisofs-tools
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

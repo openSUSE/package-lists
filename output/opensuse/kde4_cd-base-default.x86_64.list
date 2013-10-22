@@ -11,7 +11,6 @@ PackageKit-gtk3-module
 SuSEfirewall2
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 acl
 acpica
 adjtimex
@@ -29,8 +28,11 @@ autofs
 bash
 bind-libs
 bind-utils
+binutils
+boost-license1_53_0
 branding-openSUSE
 bridge-utils
+btrfsprogs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -69,6 +71,7 @@ dirmngr
 dmidecode
 dmraid
 dosfstools
+dracut
 e2fsprogs
 efibootmgr
 elfutils
@@ -105,6 +108,7 @@ gpg2
 gpm
 grep
 groff
+grub-snapper-plugin
 grub2-i386-pc
 grub2-x86_64-efi
 gsettings-backend-dconf
@@ -122,6 +126,7 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-tools
 gzip
+hardlink
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -182,6 +187,8 @@ libaugeas0
 libauparse0
 libblas3
 libblkid1
+libboost_system1_53_0
+libboost_thread1_53_0
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -235,15 +242,14 @@ libgnutls28
 libgobject-2_0-0
 libgpg-error0
 libgraphite2-3
-libgssglue1
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
 libharfbuzz0
 libhogweed2
-libicu51_2
-libicu51_2-data
+libicu52_1
+libicu52_1-data
 libidn11
 libimobiledevice4
 libiptc0
@@ -265,6 +271,7 @@ liblua5_1
 liblzma5
 liblzo2-2
 libmagic1
+libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
@@ -275,9 +282,11 @@ libndr-nbt0
 libndr-standard0
 libndr0
 libnetapi0
+libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
-libnl1
+libnl-config
+libnl3-200
 libnotify4
 libntfs-3g84
 libnuma1
@@ -319,6 +328,7 @@ libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
 libsamdb0
+libsasl2-3
 libselinux1
 libsemanage1
 libsepol1
@@ -328,6 +338,7 @@ libsmbclient0
 libsmbconf0
 libsmbldap0
 libsmputils1-1
+libsnapper2
 libsndfile1
 libsolv-tools
 libspeex1
@@ -357,6 +368,7 @@ libvorbis0
 libvorbisenc2
 libvorbisfile3
 libwayland-client0
+libwayland-cursor0
 libwayland-server0
 libwbclient0
 libwrap0
@@ -368,6 +380,7 @@ libxcb-render0
 libxcb-shm0
 libxcb-xfixes0
 libxcb1
+libxkbcommon0
 libxml2-2
 libxtables10
 libyaml-0-2
@@ -386,7 +399,6 @@ mailx
 man
 master-boot-code
 mdadm
-mkinitrd
 module-init-tools
 mozilla-nspr
 mtools
@@ -441,7 +453,6 @@ perl-MLDBM
 perl-Net-DBus
 perl-Net-Daemon
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Params-Util
 perl-PlRPC
@@ -473,6 +484,7 @@ pigz
 pinentry
 pkg-config
 plymouth
+plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
@@ -489,6 +501,7 @@ pytalloc
 python
 python-base
 python-cairo
+python-cffi
 python-cups
 python-cupshelpers
 python-gnomekeyring
@@ -498,9 +511,11 @@ python-gobject2
 python-gtk
 python-notify
 python-numpy
+python-pycparser
 python-pycurl
 python-satsolver
 python-smbc
+python-xattr
 python-xml
 recode
 release-notes-openSUSE
@@ -519,6 +534,8 @@ shadow
 shared-mime-info
 shim
 smp_utils
+snapper
+snapper-zypp-plugin
 splashy
 splashy-branding-openSUSE
 splashy-mkinitrd
@@ -555,14 +572,7 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 udev
 udev-configure-printer
-udevmountd
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usbmuxd
 usbutils
@@ -588,11 +598,13 @@ yast2-hardware-detection
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
+yast2-snapper
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zisofs-tools
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

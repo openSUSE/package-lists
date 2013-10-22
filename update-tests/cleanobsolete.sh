@@ -53,7 +53,7 @@ for arch in i586 x86_64; do
   get_pkgs_names nf-$tree-$arch $CURPKGS
 
   # Get the insersection of both files
-  collisions=`comm -12 <(sort $OBSPKGS) <(sort $CURPKGS)`
+  collisions=`comm -12 <(sort -u $OBSPKGS) <(sort -u $CURPKGS)`
   if [ -n "$collisions" ]; then
     echo "Collisions found between obsoletepackages.inc and full-nf-$tree-$arch. Cleaning ..."
     echo "Please, check backup directory."

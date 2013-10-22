@@ -1,4 +1,16 @@
 can't install compicc:
   nothing provides compizconfig-settings-manager < 0.9 needed by compicc
-can't install cyrus-imapd:
-  nothing provides /usr/bin/db_verify needed by cyrus-imapd
+can't install fillmore-lombard:
+  nothing provides gstreamer-0_10-plugin-gnonlin needed by fillmore
+  nothing provides gstreamer-0_10-plugin-gnonlin needed by lombard
+can't install openwsman:
+  nothing provides pam_pwcheck.so() needed by openwsman-server
+  nothing provides pam_unix2.so() needed by openwsman-server
+can't install pitivi:
+  nothing provides gstreamer-0_10-plugin-gnonlin >= 0.10.16 needed by pitivi
+can't install python3-django-picklefield:
+  nothing provides python3-django needed by python3-django-picklefield
+can't install rubygem-simplecov:
+  nothing provides rubygem(2.0.0:simplecov-html:0.7) >= 0.7.1 needed by rubygem-simplecov
+can't install yast2-iscsi-lio-server:
+  nothing provides lio-utils needed by yast2-iscsi-lio-server

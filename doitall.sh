@@ -4,7 +4,7 @@ git pull
 
 . ./options
 
-./rebuildfactory.sh
+#./rebuildfactory.sh
 
 (cd osc/openSUSE\:Factory/_product/ && osc up)
 cd testtrack/

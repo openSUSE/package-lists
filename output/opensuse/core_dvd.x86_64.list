@@ -17,8 +17,11 @@ bash
 bash-lang
 bind-libs
 bind-utils
+binutils
+boost-license1_53_0
 branding-openSUSE
 bridge-utils
+btrfsprogs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -45,6 +48,8 @@ cyrus-sasl-gssapi
 cyrus-sasl-plain
 db48-utils
 dbus-1
+dbus-1-glib
+dbus-1-python
 dbus-1-x11
 dejavu-fonts
 deltarpm
@@ -55,6 +60,7 @@ dirmngr
 dmidecode
 dmraid
 dosfstools
+dracut
 e2fsprogs
 efibootmgr
 elfutils
@@ -74,6 +80,7 @@ gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
 gio-branding-upstream
+girepository-1_0
 glib-networking
 glib-networking-lang
 glib2-lang
@@ -90,6 +97,7 @@ gpg2-lang
 gpm
 grep
 groff
+grub-snapper-plugin
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
@@ -97,6 +105,7 @@ grub2-x86_64-efi
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gzip
+hardlink
 hdparm
 hicolor-icon-theme
 hwinfo
@@ -124,6 +133,7 @@ libX11-data
 libX11-xcb1
 libXau6
 libXaw7
+libXcomposite1
 libXcursor1
 libXdamage1
 libXdmcp6
@@ -141,6 +151,7 @@ libXrandr2
 libXrender1
 libXt6
 libXtst6
+libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libacl1
@@ -154,6 +165,8 @@ libattr1
 libaudit1
 libaugeas0
 libblkid1
+libboost_system1_53_0
+libboost_thread1_53_0
 libbz2-1
 libcairo2
 libcap-ng0
@@ -168,6 +181,7 @@ libdbus-1-3
 libdcerpc-binding0
 libdcerpc0
 libdirectfb-1_6-0
+libdmx1
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
@@ -190,6 +204,7 @@ libgcrypt11
 libgdbm4
 libgensec0
 libgio-2_0-0
+libgirepository-1_0-1
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
@@ -197,7 +212,6 @@ libgnutls28
 libgobject-2_0-0
 libgpg-error0
 libgraphite2-3
-libgssglue1
 libharfbuzz0
 libhogweed2
 libidn11
@@ -218,6 +232,7 @@ liblzma5
 liblzo2-2
 libmagic1
 libmng1
+libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
@@ -231,8 +246,11 @@ libndr-nbt0
 libndr-standard0
 libndr0
 libnetapi0
+libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
+libnl-config
+libnl3-200
 libntfs-3g84
 libnuma1
 libopenssl1_0_0
@@ -256,6 +274,7 @@ libpopt0
 libprocps1
 libproxy1
 libpth20
+libpyglib-gi-2_0-python2-0
 libpython2_7-1_0
 libqrencode3
 libqt4
@@ -268,6 +287,7 @@ libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
 libsamdb0
+libsasl2-3
 libselinux1
 libsemanage1
 libsepol1
@@ -277,12 +297,13 @@ libsmbclient0
 libsmbconf0
 libsmbldap0
 libsmputils1-1
+libsnapper2
 libsolv-tools
 libsqlite3-0
 libssh2-1
 libstdc++6
 libstorage-ruby
-libstorage4
+libstorage5
 libtalloc2
 libtasn1
 libtasn1-6
@@ -335,7 +356,6 @@ master-boot-code
 mdadm
 mkfontdir
 mkfontscale
-mkinitrd
 module-init-tools
 mozilla-nspr
 mtools
@@ -370,13 +390,13 @@ patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
 patterns-openSUSE-fonts
 patterns-openSUSE-sw_management
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_yast
 pciutils
 pciutils-ids
 perl
 perl-Bootloader
+perl-Bootloader-YAML
 perl-Config-Crontab
 perl-Crypt-SmbHash
 perl-Data-Dump
@@ -399,7 +419,6 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Net-DBus
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-NetxAP
 perl-Parse-RecDescent
@@ -420,6 +439,7 @@ perl-XML-Simple
 perl-XML-Twig
 perl-XML-XPath
 perl-XML-XPathEngine
+perl-YAML-LibYAML
 perl-base
 perl-gettext
 perl-libwww-perl
@@ -429,6 +449,7 @@ pinentry
 pkg-config
 plymouth
 plymouth-branding-openSUSE
+plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
@@ -438,9 +459,16 @@ postfix
 ppp
 procps
 psmisc
+psmisc-lang
 pytalloc
 python
 python-base
+python-cffi
+python-gobject
+python-gobject-cairo
+python-pycparser
+python-xattr
+python-xml
 recode
 rgb
 rpcbind
@@ -461,6 +489,8 @@ shared-mime-info
 shared-mime-info-lang
 shim
 smp_utils
+snapper
+snapper-zypp-plugin
 splashy
 splashy-branding-openSUSE
 splashy-mkinitrd
@@ -487,7 +517,6 @@ timezone
 traceroute
 tunctl
 udev
-udevmountd
 unzip
 unzip-doc
 update-alternatives
@@ -504,6 +533,7 @@ xbitmaps
 xconsole
 xdg-utils
 xdm
+xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -520,11 +550,13 @@ xinit
 xkbcomp
 xkeyboard-config
 xkeyboard-config-lang
+xmessage
 xmodmap
 xorg-x11-Xvnc
 xorg-x11-essentials
 xorg-x11-fonts-core
 xorg-x11-server
+xprop
 xrandr
 xrdb
 xset
@@ -535,7 +567,6 @@ xz
 xz-lang
 yast2
 yast2-add-on
-yast2-backup
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-core
@@ -565,13 +596,13 @@ yast2-pkg-bindings
 yast2-printer
 yast2-proxy
 yast2-qt-branding-openSUSE
-yast2-restore
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
 yast2-security
 yast2-services-manager
 yast2-slp
+yast2-snapper
 yast2-storage
 yast2-sudo
 yast2-sysconfig
@@ -587,6 +618,7 @@ yast2-vm
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log

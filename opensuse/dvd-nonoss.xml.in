@@ -74,6 +74,7 @@
 <addRequire name='mkinitrd'/>
 <addRequire name='libz.so.1()(64bit)'/>
 <addRequire name='libxml2.so.2()(64bit)'/>
+<addRequire name='libtinfo.so.5()(64bit)'/>
 <addRequire name='libtiff.so.5()(64bit)'/>
 <addRequire name='libstdc++.so.6(GLIBCXX_3.4.9)(64bit)'/>
 <addRequire name='libstdc++.so.6(GLIBCXX_3.4.15)(64bit)'/>
@@ -127,6 +128,7 @@
 <addRequire name='libnss3.so(NSS_3.10)'/>
 <addRequire name='libnss3.so'/>
 <addRequire name='libnspr4.so'/>
+<addRequire name='libncurses.so.5()(64bit)'/>
 <addRequire name='libm.so.6(GLIBC_2.2.5)(64bit)'/>
 <addRequire name='libm.so.6(GLIBC_2.1)'/>
 <addRequire name='libm.so.6(GLIBC_2.0)'/>
@@ -152,6 +154,8 @@
 <addRequire name='libgstbase-0.10.so.0()(64bit)'/>
 <addRequire name='libgstaudio-1.0.so.0()(64bit)'/>
 <addRequire name='libgstaudio-0.10.so.0()(64bit)'/>
+<addRequire name='libgslcblas.so.0()(64bit)'/>
+<addRequire name='libgsl.so.0()(64bit)'/>
 <addRequire name='libgobject-2.0.so.0()(64bit)'/>
 <addRequire name='libgobject-2.0.so.0'/>
 <addRequire name='libgmodule-2.0.so.0()(64bit)'/>
@@ -160,6 +164,9 @@
 <addRequire name='libglib-2.0.so.0()(64bit)'/>
 <addRequire name='libglib-2.0.so.0'/>
 <addRequire name='libgio-2.0.so.0()(64bit)'/>
+<addRequire name='libgfortran.so.3(GFORTRAN_1.4)(64bit)'/>
+<addRequire name='libgfortran.so.3(GFORTRAN_1.0)(64bit)'/>
+<addRequire name='libgfortran.so.3()(64bit)'/>
 <addRequire name='libgdk_pixbuf-2.0.so.0()(64bit)'/>
 <addRequire name='libgdk_pixbuf-2.0.so.0'/>
 <addRequire name='libgdk-x11-2.0.so.0()(64bit)'/>
@@ -235,11 +242,11 @@
 <addRequire name='libQtDBus.so.4'/>
 <addRequire name='libQtCore.so.4()(64bit)'/>
 <addRequire name='libQtCore.so.4'/>
-<addRequire name='libIlmImf-Imf_2_0.so.20()(64bit)'/>
-<addRequire name='libIex-2_0.so.10()(64bit)'/>
+<addRequire name='libIlmImf-Imf_2_1.so.21()(64bit)'/>
+<addRequire name='libIex-2_1.so.11()(64bit)'/>
 <addRequire name='libICE.so.6()(64bit)'/>
 <addRequire name='libICE.so.6'/>
-<addRequire name='libHalf.so.10()(64bit)'/>
+<addRequire name='libHalf.so.11()(64bit)'/>
 <addRequire name='libGLw1-32bit = 7.11.2'/>
 <addRequire name='libGLU.so.1()(64bit)'/>
 <addRequire name='libGL.so.1()(64bit)'/>
@@ -247,7 +254,7 @@
 <addRequire name='ld-linux.so.2(GLIBC_2.3)'/>
 <addRequire name='ld-linux.so.2'/>
 <addRequire name='ld-linux-x86-64.so.2()(64bit)'/>
-<addRequire name='kdebase4-runtime >= 4.11'/>
+<addRequire name='kdebase4-runtime >= 4.11.90'/>
 <addRequire name='insserv'/>
 <addRequire name='hicolor-icon-theme'/>
 <addRequire name='gstreamer010'/>
@@ -268,6 +275,8 @@
 <addRequire name='bash'/>
 <addRequire name='aaa_base'/>
 <addRequire name='Mesa-devel'/>
+<addRequire name='/usr/bin/perl'/>
+<addRequire name='/usr/bin/env'/>
 <addRequire name='/sbin/ldconfig'/>
 <addRequire name='/bin/sh'/>
 <addRequire name='/bin/bash'/>

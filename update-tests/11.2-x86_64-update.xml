@@ -15,6 +15,12 @@
 <uninstall package="kernel-default-base"/>
 <uninstall package="kernel-debug-base"/>
 <uninstall package="kernel-desktop-base"/>
+<uninstall name="libsatsolver-devel"/>
+<uninstall name="bind-devel"/>
+<uninstall name="krb5-mini"/>
+<uninstall name="dtc"/>
+<uninstall name="krb5-mini-devel"/>
+<uninstall name="libdb-4_5-devel"/>
 
     <!-- can't have it on FTP -->
     <distupgrade/>
