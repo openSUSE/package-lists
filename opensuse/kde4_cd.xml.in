@@ -36,6 +36,7 @@
     <install kind="package" name="kdebase4-openSUSE"/>
     <install kind="package" name="branding-openSUSE"/>
     <install kind="package" name="kdebase4-runtime-branding-openSUSE"/>
+<lock package="cdrecord"/> <!-- cdrecord is problematic at the moment as long as kiwi has wodim hard coded -->
 <!--    <install kind="package" name="dragonplayer"/> -->
     
     <reportProblems/>

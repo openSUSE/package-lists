@@ -12,5 +12,8 @@ can't install python3-django-picklefield:
   nothing provides python3-django needed by python3-django-picklefield
 can't install rubygem-simplecov:
   nothing provides rubygem(2.0.0:simplecov-html:0.7) >= 0.7.1 needed by rubygem-simplecov
+can't install rubygem-sinatra:
+  nothing provides rubygem(2.0.0:rack-protection:1) >= 1.4 needed by rubygem-sinatra
+  nothing provides rubygem(2.0.0:tilt:1) >= 1.3 needed by rubygem-sinatra
 can't install yast2-iscsi-lio-server:
   nothing provides lio-utils needed by yast2-iscsi-lio-server
