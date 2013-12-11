@@ -69,9 +69,8 @@ caribou
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
-cdda2wav
 cdrdao
-cdrecord
+cdrkit-cdrtools-compat
 cheese
 cifs-utils
 color-filesystem
@@ -311,6 +310,7 @@ icc-profiles-scp-argyll
 icc-profiles-scp-fogra
 icc-profiles-scp-yamma
 iceauth
+icedax
 icewm
 ifplugd
 info
@@ -760,8 +760,6 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
-libscg1_0
-libschily1_0
 libschroedinger-1_0-0
 libsecret-1-0
 libseed-gtk3-0
@@ -861,16 +859,23 @@ libx86-1
 libx86emu1
 libxcb-dri2-0
 libxcb-glx0
+libxcb-icccm4
+libxcb-image0
+libxcb-keysyms1
 libxcb-render0
+libxcb-shape0
 libxcb-shm0
 libxcb-util1
+libxcb-xf86dri0
 libxcb-xfixes0
+libxcb-xv0
 libxcb1
 libxkbcommon0
 libxkbfile1
 libxklavier16
 libxml2-2
 libxml2-tools
+libxshmfence1
 libxslt1
 libxtables10
 libyaml-0-2
@@ -903,7 +908,6 @@ media-player-info
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
-mkisofs
 mobile-broadband-provider-info
 module-init-tools
 mousetweaks
@@ -1249,6 +1253,7 @@ wget
 which
 wireless-regdb
 wireless-tools
+wodim
 wpa_supplicant
 x11-tools
 xauth

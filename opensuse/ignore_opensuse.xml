@@ -202,3 +202,8 @@
 <lock package="ncurses-devel-32bit"/>
 <lock package="binutils-devel-32bit"/>
 <lock package="avogadro-devel-32bit"/>
+
+<lock package="cdrecord"/> <!-- cdrecord is problematic at the moment as long as kiwi has wodim hard coded -->
+<lock package="mkisofs"/>
+<lock package="cdda2wav"/>
+

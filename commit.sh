@@ -32,7 +32,15 @@ done
 sed -n -e '/END-PACKAGELIST/,$p' osc/openSUSE:Factory/Test-DVD-x86_64/PRODUCT-x86_64.kiwi >> $p
 xmllint --format $p -o osc/openSUSE:Factory/Test-DVD-x86_64/PRODUCT-x86_64.kiwi
 rm $p
-(cd osc/openSUSE:Factory/Test-DVD-x86_64 && osc ci -m "auto update")
+pushd osc/openSUSE:Factory/Test-DVD-x86_64
+if ! cmp -s .osc/PRODUCT-x86_64.kiwi PRODUCT-x86_64.kiwi; then
+  MEDIUM_NAME=$(grep MEDIUM_NAME PRODUCT-x86_64.kiwi | sed -e 's,^.*>Test-,,; s,<.*,,')
+  MEDIUM_NAME=$((MEDIUM_NAME+1))
+  sed -i -e "s,MEDIUM_NAME\">.*<,MEDIUM_NAME\">Test-$MEDIUM_NAME<," PRODUCT-x86_64.kiwi
+  echo "updating version $MEDIUM_NAME"
+  osc ci -m "auto update"
+fi
+popd
 
 osc up -u osc/openSUSE:$proj:Live/package-lists-images.*
 cp -a output/opensuse/*default.i586.list osc/openSUSE:$proj:Live/package-lists-images.i586
