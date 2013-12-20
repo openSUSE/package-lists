@@ -83,7 +83,7 @@ bind-utils
 binutils
 bluez
 bluez-firmware
-boost-license1_53_0
+boost-license1_54_0
 branding-openSUSE
 brasero
 brasero-lang
@@ -163,6 +163,7 @@ dhcpcd
 dialog
 diffutils
 dirmngr
+dirmngr-lang
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -485,12 +486,14 @@ kernel-firmware
 keyutils
 klogd
 kmod
+kmod-compat
 kpartx
 krb5
 krb5-client
 lensfun-data
 less
 lftp
+lib++dfb-1_7-1
 libFLAC8
 libGLU1
 libHX28
@@ -569,8 +572,8 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
-libboost_system1_53_0
-libboost_thread1_53_0
+libboost_system1_54_0
+libboost_thread1_54_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -631,7 +634,7 @@ libdconf1
 libdhash1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_6-0
+libdirectfb-1_7-1
 libdjvulibre21
 libdmapsharing-3_0-2
 libdmx1
@@ -659,7 +662,6 @@ libenca0
 libenchant1
 liberation-fonts
 libesd0
-libestr0
 libevdocument3-4
 libevent-2_0-5
 libevview3-3
@@ -826,6 +828,7 @@ libjson0
 libkate1
 libkeyutils1
 libkmod2
+libkms1
 libkpathsea6
 libksba8
 liblapack3
@@ -1158,7 +1161,6 @@ metatheme-adwaita-common
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
-module-init-tools
 mousetweaks
 mousetweaks-lang
 mozilla-nspr
@@ -1411,7 +1413,6 @@ rpcbind
 rpm
 rpm-python
 rsync
-rsyslog
 rtkit
 ruby
 ruby20
@@ -1448,7 +1449,6 @@ simple-scan-lang
 smartmontools
 smbios-utils-python
 smp_utils
-smpppd
 snapper
 snapper-zypp-plugin
 snmp-mibs
@@ -1477,13 +1477,13 @@ sysconfig-netconfig
 sysconfig-network
 sysfsutils
 syslinux
-syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -1527,6 +1527,7 @@ transmission-common
 transmission-gtk
 transmission-gtk-lang
 tunctl
+twm
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
@@ -1621,8 +1622,6 @@ wireless-regdb
 wireless-tools
 wodim
 wpa_supplicant
-wvdial
-wvstreams
 x11-tools
 xauth
 xbitmaps

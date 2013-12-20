@@ -18,10 +18,12 @@ bash-lang
 bind-libs
 bind-utils
 binutils
-boost-license1_53_0
+boost-license1_54_0
 branding-openSUSE
 bridge-utils
 btrfsprogs
+bundle-lang-kde-de
+bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -122,9 +124,11 @@ kernel-desktop
 keyutils
 klogd
 kmod
+kmod-compat
 kpartx
 krb5
 less
+lib++dfb-1_7-1
 libICE6
 libLLVM
 libSM6
@@ -165,8 +169,8 @@ libattr1
 libaudit1
 libaugeas0
 libblkid1
-libboost_system1_53_0
-libboost_thread1_53_0
+libboost_system1_54_0
+libboost_thread1_54_0
 libbz2-1
 libcairo2
 libcap-ng0
@@ -180,7 +184,7 @@ libdb-4_8
 libdbus-1-3
 libdcerpc-binding0
 libdcerpc0
-libdirectfb-1_6-0
+libdirectfb-1_7-1
 libdmx1
 libdrm2
 libdrm_intel1
@@ -218,10 +222,12 @@ libidn11
 libiptc0
 libisl10
 libiw30
+libjasper1
 libjbig2
 libjpeg8
 libkeyutils1
 libkmod2
+libkms1
 libksba8
 liblcms1
 libldap-2_4-2
@@ -324,6 +330,7 @@ libvdpau1
 libwayland-client0
 libwayland-server0
 libwbclient0
+libwebp4
 libwrap0
 libx86-1
 libx86emu1
@@ -357,7 +364,6 @@ master-boot-code
 mdadm
 mkfontdir
 mkfontscale
-module-init-tools
 mozilla-nspr
 mtools
 multipath-tools
@@ -503,9 +509,8 @@ sysconfig-netconfig
 sysconfig-network
 sysfsutils
 syslinux
-syslog-service
-syslogd
 systemd
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -517,6 +522,7 @@ time
 timezone
 traceroute
 tunctl
+twm
 udev
 unzip
 unzip-doc

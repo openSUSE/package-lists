@@ -11,11 +11,12 @@ bc
 bind-libs
 bind-utils
 binutils
-boost-license1_53_0
+boost-license1_54_0
 branding-openSUSE
 bridge-utils
 btrfsprogs
 bundle-lang-common-en
+bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -93,6 +94,7 @@ kernel-default
 kernel-firmware
 klogd
 kmod
+kmod-compat
 kpartx
 krb5
 less
@@ -120,8 +122,8 @@ libattr1
 libaudit1
 libaugeas0
 libblkid1
-libboost_system1_53_0
-libboost_thread1_53_0
+libboost_system1_54_0
+libboost_thread1_54_0
 libbz2-1
 libcap-ng0
 libcap2
@@ -253,7 +255,6 @@ lsscsi
 luit
 lvm2
 mdadm
-module-init-tools
 mozilla-nspr
 mtools
 multipath-tools

@@ -5,8 +5,17 @@ can't install fillmore-lombard:
   nothing provides gstreamer-0_10-plugin-gnonlin needed by lombard
 can't install jackEQ:
   nothing provides ladspa-swh-plugins >= 0.4.3 needed by jackEQ
+can't install kiwi:
+  nothing provides kernel-ec2 needed by kiwi-desc-oemboot-requires
+  nothing provides kernel-ec2 needed by kiwi-desc-vmxboot-requires
+  nothing provides kernel-xen needed by kiwi-desc-isoboot-requires
+  nothing provides kernel-xen needed by kiwi-desc-netboot-requires
+  nothing provides kernel-xen needed by kiwi-desc-oemboot-requires
+  nothing provides kernel-xen needed by kiwi-desc-vmxboot-requires
 can't install pitivi:
   nothing provides gstreamer-0_10-plugin-gnonlin >= 0.10.16 needed by pitivi
+can't install qinternet:
+  nothing provides smpppd needed by qinternet
 can't install rubygem-chef:
   nothing provides rubygem(2.0.0:mixlib-cli:1.3) >= 1.3 needed by rubygem-chef
 can't install rubygem-ohai:
@@ -16,6 +25,8 @@ can't install rubygem-simplecov:
 can't install rubygem-sinatra:
   nothing provides rubygem(2.0.0:rack-protection:1) >= 1.4 needed by rubygem-sinatra
   nothing provides rubygem(2.0.0:tilt:1) >= 1.3 needed by rubygem-sinatra
+can't install smpppd-web:
+  nothing provides smpppd needed by smpppd-web
 can't install xf86-video-geode:
   nothing provides X11_ABI_VIDEODRV = 14.1 needed by xf86-video-geode
 can't install yast2-iscsi-lio-server:

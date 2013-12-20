@@ -207,3 +207,4 @@
 <lock package="mkisofs"/>
 <lock package="cdda2wav"/>
 
+<lock package="module-init-tools"/> <!-- conflicts with kmod-compat -->

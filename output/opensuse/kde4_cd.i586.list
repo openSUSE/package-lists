@@ -9,19 +9,16 @@ ModemManager
 MozillaFirefox
 MozillaFirefox-branding-openSUSE
 NetworkManager
-NetworkManager-kde4-libs
 NetworkManager-openvpn
-NetworkManager-openvpn-kde4
 NetworkManager-pptp
-NetworkManager-pptp-kde4
 NetworkManager-vpnc
-NetworkManager-vpnc-kde4
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
+PackageKit-lang
 SuSEfirewall2
 a2ps
 aaa_base
@@ -44,6 +41,7 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
+apper-lang
 appmenu-qt
 ark
 aspell
@@ -69,7 +67,7 @@ binutils
 bluedevil
 bluez
 bluez-firmware
-boost-license1_53_0
+boost-license1_54_0
 branding-openSUSE
 bridge-utils
 btrfsprogs
@@ -304,6 +302,7 @@ kmail
 kmines
 kmix
 kmod
+kmod-compat
 kmousetool
 knotes
 kompare
@@ -337,6 +336,7 @@ kwrite
 lensfun-data
 less
 lftp
+lib++dfb-1_7-1
 libFLAC++6
 libFLAC8
 libGLU1
@@ -348,6 +348,8 @@ libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libLLVM
 libMagickCore-6_Q16-1
+libModemManagerQt0
+libNetworkManagerQt0
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -421,10 +423,10 @@ libblas3
 libblkid1
 libbluedevil2
 libbluetooth3
-libboost_filesystem1_53_0
-libboost_program_options1_53_0
-libboost_system1_53_0
-libboost_thread1_53_0
+libboost_filesystem1_54_0
+libboost_program_options1_54_0
+libboost_system1_54_0
+libboost_thread1_54_0
 libburn4
 libbz2-1
 libcairo-gobject2
@@ -463,7 +465,7 @@ libdcerpc0
 libdconf1
 libdhash1
 libdialog11
-libdirectfb-1_6-0
+libdirectfb-1_7-1
 libdmtx0
 libdmx1
 libdnet1
@@ -481,7 +483,6 @@ libenchant1
 libepub0
 liberation-fonts
 libesd0
-libestr0
 libevent-2_0-5
 libexif12
 libexiv2-12
@@ -589,6 +590,7 @@ libkerfuffle4
 libkexiv2-11
 libkeyutils1
 libkface2
+libkfbapi-lang
 libkfbapi1
 libkgapi2-2
 libkgeomap1
@@ -596,6 +598,7 @@ libkipi11
 libkmahjongg
 libkmahjongglib4
 libkmod2
+libkms1
 libkolab0
 libkolabxml0
 libkomparediff2-4
@@ -801,6 +804,7 @@ libtidyp-1_04-0
 libtiff5
 libtirpc1
 libts-1_0-0
+libturbojpeg0
 libucil2
 libudev1
 libudisks2-0
@@ -898,9 +902,7 @@ media-player-info
 memtest86+
 mkfontdir
 mkfontscale
-mobile-broadband-provider-info
 mobipocket
-module-init-tools
 moodbar
 mozilla-kde4-integration
 mozilla-nspr
@@ -1055,8 +1057,11 @@ pkg-config
 plasma-addons
 plasma-addons-akonadi
 plasma-addons-lancelot
+plasma-nm
+plasma-nm-openvpn
+plasma-nm-pptp
+plasma-nm-vpnc
 plasmoid-folderview
-plasmoid-networkmanagement
 plasmoid-quickaccess
 plymouth
 plymouth-branding-openSUSE
@@ -1120,7 +1125,6 @@ rpcbind
 rpm
 rpm-python
 rsync
-rsyslog
 rtkit
 ruby
 ruby20
@@ -1140,7 +1144,6 @@ shared-mime-info
 smartmontools
 smbios-utils-python
 smp_utils
-smpppd
 snapper
 snapper-zypp-plugin
 soprano
@@ -1168,12 +1171,13 @@ sysconfig-netconfig
 sysconfig-network
 sysfsutils
 syslinux
-syslog-service
+system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -1189,10 +1193,11 @@ traceroute
 translation-update
 translation-update-en_US
 tunctl
+twm
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0
-typelib-1_0-Gtk-2_0
+typelib-1_0-Gtk-3_0
 typelib-1_0-Notify-0_7
 typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
@@ -1226,8 +1231,6 @@ wireless-regdb
 wireless-tools
 wodim
 wpa_supplicant
-wvdial
-wvstreams
 x11-tools
 xauth
 xbitmaps

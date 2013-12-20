@@ -54,7 +54,7 @@ bind-libs
 bind-utils
 binutils
 bluez
-boost-license1_53_0
+boost-license1_54_0
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -116,6 +116,7 @@ dhcpcd
 dialog
 diffutils
 dirmngr
+dirmngr-lang
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -223,7 +224,6 @@ gnome-terminal
 gnome-themes-accessibility
 gnome-user-docs
 gnome-user-share
-gnome-user-share-lang
 gnome-version
 gnome-video-effects
 gnu-unifont-bitmap-fonts
@@ -324,9 +324,11 @@ kbd
 keyutils
 klogd
 kmod
+kmod-compat
 kpartx
 krb5
 less
+lib++dfb-1_7-1
 libFLAC8
 libGLU1
 libICE6
@@ -397,8 +399,8 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
-libboost_system1_53_0
-libboost_thread1_53_0
+libboost_system1_54_0
+libboost_thread1_54_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -454,7 +456,7 @@ libdcerpc0
 libdconf1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_6-0
+libdirectfb-1_7-1
 libdmapsharing-3_0-2
 libdmx1
 libdotconf0
@@ -480,7 +482,6 @@ libenca0
 libenchant1
 liberation-fonts
 libesd0
-libestr0
 libevdocument3-4
 libevent-2_0-5
 libevview3-3
@@ -625,6 +626,7 @@ libjson0
 libkate1
 libkeyutils1
 libkmod2
+libkms1
 libksba8
 liblapack3
 liblcms2-2
@@ -904,7 +906,6 @@ metatheme-adwaita-common
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
-module-init-tools
 mousetweaks
 mozilla-nspr
 mozilla-nss
@@ -1079,7 +1080,6 @@ rhythmbox
 rpcbind
 rpm
 rpm-python
-rsyslog
 rtkit
 ruby
 ruby20
@@ -1124,13 +1124,13 @@ sysconfig-netconfig
 sysconfig-network
 sysfsutils
 syslinux
-syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -1162,6 +1162,7 @@ translation-update-en_US
 transmission-common
 transmission-gtk
 tunctl
+twm
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
