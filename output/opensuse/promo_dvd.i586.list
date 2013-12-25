@@ -1,6 +1,4 @@
 ConsoleKit
-DirectFB
-DirectFB-Mesa
 GeoIP
 ImageMagick
 Mesa
@@ -149,12 +147,6 @@ branding-openSUSE
 brasero
 brasero-nautilus
 bridge-utils
-brltty
-brltty-driver-at-spi2
-brltty-driver-brlapi
-brltty-driver-espeak
-brltty-driver-speech-dispatcher
-brltty-driver-xwindow
 bsdtar
 btrfsprogs
 build
@@ -423,6 +415,7 @@ ghostscript-x11
 gimp
 gimp-help
 gimp-help-browser
+gimp-help-pt_BR
 gimp-plugins-python
 gio-branding-openSUSE
 girepository-1_0
@@ -516,7 +509,6 @@ gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnu-free-fonts
-gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gobject-introspection
 google-arimo-fonts
@@ -883,7 +875,6 @@ ksudoku
 ktorrent
 ktouch
 kvkbd
-kvm
 kwalletmanager
 kwebkitpart
 kwin
@@ -895,7 +886,6 @@ leafpad
 lensfun-data
 less
 lftp
-lib++dfb-1_7-1
 libFLAC++6
 libFLAC8
 libGLEW1_9
@@ -1045,7 +1035,6 @@ libboost_wave1_54_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
-libbrlapi0_5
 libburn4
 libbz2-1
 libcacard0
@@ -1167,7 +1156,6 @@ libfallocate0
 libfam0
 libfarstream-0_2-2
 libfcitx-4_2_8
-libfdt1
 libffi4
 libfftw3-3
 libfm
@@ -1201,7 +1189,7 @@ libgcj_bc1-gcc48
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
-libgcrypt11
+libgcrypt20
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
@@ -1396,7 +1384,7 @@ libkmahjongglib4
 libkmod2
 libkms1
 libkolab0
-libkolabxml0
+libkolabxml1
 libkomparediff2-4
 libkonq5
 libkpathsea6
@@ -1473,7 +1461,7 @@ libndr-standard0
 libndr0
 libneon27
 libnepomukwidgets4
-libnet1
+libnet9
 libnetapi0
 libnetfilter_conntrack3
 libnetpbm11
@@ -1550,10 +1538,6 @@ libpixman-1-0
 libpixman-1-0-devel
 libpkcs11-helper1
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng12-0
 libpng16-16
 libpng16-compat-devel
@@ -1673,7 +1657,6 @@ libspeex1
 libspeexdsp1
 libspice-client-glib-2_0-8
 libspice-client-gtk-3_0-4
-libspice-server1
 libsqlite3-0
 libssh2-1
 libssh4
@@ -1738,11 +1721,10 @@ libv4l2-0
 libv4lconvert0
 libvala-0_22-0
 libvcdinfo0
-libvdeplug3
 libvdpau1
 libvdpau_r600
 libvdpau_radeonsi
-libvigraimpex4
+libvigraimpex5
 libvisual
 libvmtools0
 libvncclient0
@@ -1777,7 +1759,6 @@ libwx_gtk2u_core-2_8-0-stl
 libwx_gtk2u_gl-2_8-0-stl
 libwx_gtk2u_html-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
-libx86-1
 libx86emu1
 libxatracker2
 libxcb-composite0
@@ -1799,13 +1780,13 @@ libxcb-res0
 libxcb-screensaver0
 libxcb-shape0
 libxcb-shm0
-libxcb-sync0
+libxcb-sync1
 libxcb-util1
 libxcb-xevie0
 libxcb-xf86dri0
 libxcb-xfixes0
 libxcb-xinerama0
-libxcb-xkb0
+libxcb-xkb1
 libxcb-xprint0
 libxcb-xtest0
 libxcb-xv0
@@ -1837,7 +1818,6 @@ libxshmfence1
 libxslt-tools
 libxslt1
 libxtables10
-libyajl2
 libyaml-0-2
 libyelp0
 libyui-gtk-pkg5
@@ -2343,12 +2323,6 @@ plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
 plasmoid-quickaccess
-plymouth
-plymouth-branding-openSUSE
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 pm-utils-ndiswrapper
@@ -2431,6 +2405,7 @@ python-six
 python-smbc
 python-smbios
 python-urlgrabber
+python-virtualbox
 python-xattr
 python-xcb-proto-devel
 python-xdg
@@ -2449,13 +2424,8 @@ python3-louis
 python3-speechd
 pyzy-db-android
 pyzy-db-open-phrase
-qemu
-qemu-ipxe
 qemu-linux-user
-qemu-seabios
-qemu-sgabios
 qemu-tools
-qemu-vgabios
 qt4-qtscript
 quadrapassel
 quagga
@@ -2553,9 +2523,6 @@ sox
 spamassassin
 speech-dispatcher
 speech-dispatcher-module-espeak
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 sqlite3
 squashfs
 squid
@@ -2581,7 +2548,6 @@ susehelp_fr
 susehelp_hu
 susehelp_it
 sushi
-suspend
 sweeper
 swell-foop
 swig
@@ -2758,6 +2724,8 @@ util-linux
 vaapi-intel-driver
 vacation
 valgrind
+vboxgtk
+vboxgtk-lang
 vcdimager
 viewnior
 viewnior-lang
@@ -2768,6 +2736,14 @@ vinagre
 vinagre-lang
 vino
 virt-utils
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 virtuoso-drivers
 virtuoso-server
 vlan
@@ -2795,7 +2771,6 @@ wxWidgets-lang
 x11-tools
 xauth
 xbitmaps
-xbrlapi
 xchat
 xchat-perl
 xchat-python
@@ -2808,7 +2783,6 @@ xdg-utils
 xdm
 xdmbgrd
 xdpyinfo
-xen-libs
 xerces-j2-xml-apis
 xerces-j2-xml-resolver
 xf86-input-evdev

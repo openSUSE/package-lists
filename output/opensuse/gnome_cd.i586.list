@@ -1,5 +1,3 @@
-DirectFB
-DirectFB-Mesa
 Mesa
 Mesa-demo-x
 Mesa-libEGL1
@@ -263,7 +261,6 @@ gnome-user-share
 gnome-version
 gnome-video-effects
 gnome-web-photo
-gnu-unifont-bitmap-fonts
 gnu_ddrescue
 google-droid-fonts
 gpart
@@ -354,6 +351,7 @@ icc-profiles-scp-yamma
 iceauth
 icedax
 icewm
+icewm-default
 icewm-lite
 ifplugd
 info
@@ -385,7 +383,6 @@ krb5-client
 lensfun-data
 less
 lftp
-lib++dfb-1_7-1
 libFLAC8
 libGLU1
 libHX28
@@ -460,6 +457,7 @@ libavahi-core7
 libavahi-glib1
 libavahi-gobject0
 libbabl-0_1-0
+libbasicobjects0
 libblas3
 libblkid1
 libbluetooth3
@@ -583,7 +581,7 @@ libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
-libgcrypt11
+libgcrypt20
 libgdata13
 libgdbm4
 libgdict-1_0-6
@@ -690,7 +688,7 @@ libicu52_1-data
 libidn11
 libieee1284
 libimobiledevice4
-libini_config2
+libini_config3
 libiptc0
 libiptcdata
 libiptcdata0
@@ -808,10 +806,6 @@ libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
@@ -965,7 +959,6 @@ libwebrtc_audio_processing0
 libwmf-0_2-7
 libwnck-1-22
 libwrap0
-libx86-1
 libx86emu1
 libxatracker2
 libxcb-dri2-0
@@ -1149,6 +1142,7 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-MLDBM
 perl-Net-DBus
+perl-Net-DNS
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-SSLeay
@@ -1188,12 +1182,6 @@ pigz
 pinentry
 pkcs11-helper
 pkg-config
-plymouth
-plymouth-branding-openSUSE
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 pm-utils-ndiswrapper
@@ -1298,9 +1286,6 @@ snmp-mibs
 sound-theme-freedesktop
 speech-dispatcher
 speech-dispatcher-module-espeak
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 sssd
 sssd-krb5-common
 sssd-ldap
@@ -1310,7 +1295,6 @@ suse-module-tools
 susehelp
 susehelp_en
 sushi
-suspend
 swell-foop
 sysconfig
 sysconfig-netconfig
@@ -1432,6 +1416,9 @@ util-linux
 vaapi-intel-driver
 vim
 vino
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vorbis-tools
 vpnc

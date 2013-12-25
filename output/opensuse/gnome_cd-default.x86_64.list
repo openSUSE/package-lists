@@ -1,5 +1,3 @@
-DirectFB
-DirectFB-Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
@@ -229,7 +227,6 @@ gnome-user-docs
 gnome-user-share
 gnome-version
 gnome-video-effects
-gnu-unifont-bitmap-fonts
 google-droid-fonts
 gpart
 gpg2
@@ -312,6 +309,7 @@ icc-profiles-scp-yamma
 iceauth
 icedax
 icewm
+icewm-default
 ifplugd
 info
 info2html
@@ -331,7 +329,6 @@ kmod-compat
 kpartx
 krb5
 less
-lib++dfb-1_7-1
 libFLAC8
 libGLU1
 libICE6
@@ -512,7 +509,7 @@ libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
-libgcrypt11
+libgcrypt20
 libgdata13
 libgdbm4
 libgdict-1_0-6
@@ -718,10 +715,6 @@ libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
@@ -857,7 +850,6 @@ libwebp4
 libwebrtc_audio_processing0
 libwnck-1-22
 libwrap0
-libx86-1
 libx86emu1
 libxcb-dri2-0
 libxcb-glx0
@@ -970,6 +962,8 @@ perl-Config-Crontab
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
+perl-Digest-HMAC
+perl-Digest-SHA1
 perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
@@ -986,6 +980,7 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-MLDBM
 perl-Net-DBus
+perl-Net-DNS
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-SSLeay
@@ -1020,11 +1015,6 @@ pigz
 pinentry
 pkcs11-helper
 pkg-config
-plymouth
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 polkit
@@ -1116,9 +1106,6 @@ snmp-mibs
 sound-theme-freedesktop
 speech-dispatcher
 speech-dispatcher-module-espeak
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 strace
 sudo
 suse-module-tools

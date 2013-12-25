@@ -22,6 +22,7 @@
     <lock package="gtk2-theme-SLED"/>
     <!-- INCLUDE ignore_opensuse-bundle-gnome.xml -->
     <!-- INCLUDE ignore_opensuse-bundle-common.xml -->
+    <!-- INCLUDE ignore_opensuse-bundle-kde.xml -->
     <lock package="compiz-kde"/>
     <lock package="gtk2-engines-32bit"/>
     <lock package="kde3-i18n-de"/> <!-- !i586 -->
@@ -103,6 +104,7 @@
 <lock package="zisofs-tools"/>
 <lock package="xorg-x11"/>
 <lock package="udev-configure-printer"/>
+<lock package="xorg-x11-Xvnc"/>
 <install package="yast2-x11"/> <!-- https://github.com/yast/yast-x11/pull/4 -->
     <reportProblems/>
     <showpool verbose="true"/>

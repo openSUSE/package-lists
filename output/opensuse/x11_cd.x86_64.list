@@ -1,9 +1,6 @@
-DirectFB
-DirectFB-Mesa
 Mesa
 Mesa-libEGL1
 Mesa-libGL1
-Mesa-libGLESv2-2
 Mesa-libglapi0
 ModemManager
 NetworkManager
@@ -161,7 +158,6 @@ gnome-online-accounts
 gnome-online-accounts-lang
 gnome-pty-helper
 gnome-themes-accessibility
-gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gpart
 gparted
@@ -219,6 +215,7 @@ hwinfo
 iceauth
 icedax
 icewm
+icewm-default
 icewm-lite
 ifplugd
 info
@@ -249,7 +246,6 @@ krb5-client
 leafpad
 less
 lftp
-lib++dfb-1_7-1
 libFLAC8
 libGLU1
 libHX28
@@ -351,7 +347,6 @@ libdcerpc-binding0
 libdcerpc0
 libdconf1
 libdialog11
-libdirectfb-1_7-1
 libdmx1
 libdnet1
 libdrm2
@@ -385,11 +380,10 @@ libgarcon-data
 libgarcon-lang
 libgbm1
 libgcc_s1
-libgcc_s1-32bit
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
-libgcrypt11
+libgcrypt20
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -456,7 +450,6 @@ libkate1
 libkeybinder0
 libkeyutils1
 libkmod2
-libkms1
 libksba8
 liblcms2-2
 libldap-2_4-2
@@ -479,7 +472,6 @@ libmpfr4
 libmtdev1
 libmtp9
 libncurses5
-libncurses5-32bit
 libncurses6
 libndr-krb5pac0
 libndr-nbt0
@@ -502,6 +494,7 @@ libntfs-3g84
 libnuma1
 libogg0
 liboggkate1
+libopenjp2-6
 libopenjpeg1
 libopenobex2
 libopenraw1
@@ -520,10 +513,6 @@ libpdb0
 libpipeline1
 libpixman-1-0
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
@@ -578,7 +567,6 @@ libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
 libstdc++6
-libstdc++6-32bit
 libstorage-ruby
 libstorage5
 libtalloc2
@@ -593,7 +581,6 @@ libthunarx-2-0
 libtidyp-1_04-0
 libtiff5
 libtirpc1
-libts-1_0-0
 libtumbler-1-0
 libudev1
 libudisks2-0
@@ -605,7 +592,6 @@ libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
-libvdpau1
 libvdpau_r600
 libvdpau_radeonsi
 libvisual
@@ -626,7 +612,6 @@ libwebp4
 libwnck-1-22
 libwnck2-lang
 libwrap0
-libx86-1
 libx86emu1
 libxatracker2
 libxcb-dri2-0
@@ -760,6 +745,8 @@ perl-Bootloader
 perl-Bootloader-YAML
 perl-Config-Crontab
 perl-Data-Dump
+perl-Digest-HMAC
+perl-Digest-SHA1
 perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
@@ -775,6 +762,7 @@ perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Net-DBus
+perl-Net-DNS
 perl-Net-HTTP
 perl-Net-SSLeay
 perl-Text-Wrapper
@@ -803,12 +791,6 @@ pigz
 pinentry
 pinentry-gtk2
 pkg-config
-plymouth
-plymouth-branding-openSUSE
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 pm-utils-ndiswrapper
@@ -867,13 +849,9 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 strace
 sudo
 suse-module-tools
-suspend
 sysconfig
 sysconfig-netconfig
 sysconfig-network
@@ -923,6 +901,9 @@ usbutils
 util-linux
 vaapi-intel-driver
 vim
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vorbis-tools
 vte2-lang

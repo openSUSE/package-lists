@@ -1,7 +1,5 @@
 ConsoleKit
 ConsoleKit-32bit
-DirectFB
-DirectFB-Mesa
 GeoIP
 ImageMagick
 Mesa
@@ -434,6 +432,7 @@ ghostscript-x11
 gimp
 gimp-help
 gimp-help-browser
+gimp-help-pt_BR
 gimp-plugins-python
 gio-branding-openSUSE
 girepository-1_0
@@ -530,7 +529,6 @@ gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
 gnu-free-fonts
-gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gobject-introspection
 google-arimo-fonts
@@ -914,7 +912,6 @@ leafpad
 lensfun-data
 less
 lftp
-lib++dfb-1_7-1
 libFLAC++6
 libFLAC8
 libFLAC8-32bit
@@ -1272,8 +1269,8 @@ libgcj_bc1-gcc48
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
-libgcrypt11
-libgcrypt11-32bit
+libgcrypt20
+libgcrypt20-32bit
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
@@ -1486,7 +1483,7 @@ libkmahjongglib4
 libkmod2
 libkms1
 libkolab0
-libkolabxml0
+libkolabxml1
 libkomparediff2-4
 libkonq5
 libkpathsea6
@@ -1564,7 +1561,6 @@ libmysqlclient18-32bit
 libmysqld18
 libnautilus-extension1
 libncurses5
-libncurses5-32bit
 libncurses6
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -1576,7 +1572,7 @@ libndr0
 libndr0-32bit
 libneon27
 libnepomukwidgets4
-libnet1
+libnet9
 libnetapi0
 libnetapi0-32bit
 libnetfilter_conntrack3
@@ -1662,10 +1658,6 @@ libpixman-1-0-32bit
 libpixman-1-0-devel
 libpkcs11-helper1
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng12-0-32bit
 libpng16-16
 libpng16-16-32bit
@@ -1888,7 +1880,7 @@ libvdeplug3
 libvdpau1
 libvdpau_r600
 libvdpau_radeonsi
-libvigraimpex4
+libvigraimpex5
 libvisual
 libvmtools0
 libvncclient0
@@ -1930,7 +1922,6 @@ libwx_gtk2u_core-2_8-0-stl
 libwx_gtk2u_gl-2_8-0-stl
 libwx_gtk2u_html-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
-libx86-1
 libx86emu1
 libxatracker2
 libxcb-composite0
@@ -1956,14 +1947,14 @@ libxcb-screensaver0
 libxcb-shape0
 libxcb-shm0
 libxcb-shm0-32bit
-libxcb-sync0
+libxcb-sync1
 libxcb-util1
 libxcb-xevie0
 libxcb-xf86dri0
 libxcb-xfixes0
 libxcb-xfixes0-32bit
 libxcb-xinerama0
-libxcb-xkb0
+libxcb-xkb1
 libxcb-xprint0
 libxcb-xtest0
 libxcb-xv0
@@ -2519,12 +2510,6 @@ plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
 plasmoid-quickaccess
-plymouth
-plymouth-branding-openSUSE
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 pm-utils-ndiswrapper
@@ -2608,6 +2593,7 @@ python-six
 python-smbc
 python-smbios
 python-urlgrabber
+python-virtualbox
 python-xattr
 python-xcb-proto-devel
 python-xdg
@@ -2736,9 +2722,6 @@ sox
 spamassassin
 speech-dispatcher
 speech-dispatcher-module-espeak
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 sqlite3
 squashfs
 squid
@@ -2764,7 +2747,6 @@ susehelp_fr
 susehelp_hu
 susehelp_it
 sushi
-suspend
 sweeper
 swell-foop
 swig
@@ -2942,6 +2924,8 @@ util-linux
 vaapi-intel-driver
 vacation
 valgrind
+vboxgtk
+vboxgtk-lang
 vcdimager
 viewnior
 viewnior-lang
@@ -2952,6 +2936,14 @@ vinagre
 vinagre-lang
 vino
 virt-utils
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 virtuoso-drivers
 virtuoso-server
 vlan

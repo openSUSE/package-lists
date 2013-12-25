@@ -1,8 +1,5 @@
-DirectFB
-DirectFB-Mesa
 Mesa-libEGL1
 Mesa-libGL1
-Mesa-libGLESv2-2
 Mesa-libglapi0
 SuSEfirewall2
 aaa_base
@@ -88,7 +85,6 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
-gnu-unifont-bitmap-fonts
 gpart
 gpg2
 gpm
@@ -126,7 +122,6 @@ kmod-compat
 kpartx
 krb5
 less
-lib++dfb-1_7-1
 libFLAC8
 libICE6
 libLLVM
@@ -179,7 +174,6 @@ libdbus-1-3
 libdcerpc-binding0
 libdcerpc0
 libdconf1
-libdirectfb-1_7-1
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
@@ -196,7 +190,7 @@ libfreetype6
 libfuse2
 libgbm1
 libgcc_s1
-libgcrypt11
+libgcrypt20
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -227,7 +221,6 @@ libjson0
 libkate1
 libkeyutils1
 libkmod2
-libkms1
 libksba8
 libldap-2_4-2
 libldb1
@@ -266,10 +259,6 @@ libpdb0
 libpipeline1
 libpixman-1-0
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng16-16
 libpolkit0
 libpopt0
@@ -313,7 +302,6 @@ libtevent0
 libtidyp-1_04-0
 libtiff5
 libtirpc1
-libts-1_0-0
 libudev1
 libupower-glib1
 libusb-0_1-4
@@ -322,16 +310,13 @@ libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
-libvdpau1
 libvorbis0
 libvorbisenc2
 libvorbisfile3
 libwayland-client0
 libwayland-server0
 libwbclient0
-libwebp4
 libwrap0
-libx86-1
 libx86emu1
 libxcb-dri2-0
 libxcb-glx0
@@ -390,6 +375,8 @@ perl-Config-Crontab
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
+perl-Digest-HMAC
+perl-Digest-SHA1
 perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
@@ -406,6 +393,7 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-MLDBM
 perl-Net-DBus
+perl-Net-DNS
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-SSLeay
@@ -438,11 +426,6 @@ permissions
 pigz
 pinentry
 pkg-config
-plymouth
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 polkit
@@ -482,9 +465,6 @@ shared-mime-info
 smp_utils
 snapper
 snapper-zypp-plugin
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 strace
 sudo
 suse-module-tools

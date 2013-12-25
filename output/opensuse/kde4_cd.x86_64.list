@@ -1,5 +1,3 @@
-DirectFB
-DirectFB-Mesa
 Mesa
 Mesa-libEGL1
 Mesa-libGL1
@@ -178,7 +176,6 @@ glibc-locale
 glibc-locale-32bit
 gnome-keyring
 gnome-keyring-pam
-gnu-unifont-bitmap-fonts
 gnu_ddrescue
 google-droid-fonts
 gpart
@@ -233,6 +230,7 @@ hwinfo
 iceauth
 icedax
 icewm
+icewm-default
 icewm-lite
 icoutils
 ifplugd
@@ -339,7 +337,6 @@ kwrite
 lensfun-data
 less
 lftp
-lib++dfb-1_7-1
 libFLAC++6
 libFLAC8
 libGLU1
@@ -422,6 +419,7 @@ libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libbasicobjects0
 libblas3
 libblkid1
 libbluedevil2
@@ -468,7 +466,6 @@ libdcerpc0
 libdconf1
 libdhash1
 libdialog11
-libdirectfb-1_7-1
 libdmtx0
 libdmx1
 libdnet1
@@ -506,11 +503,10 @@ libgadu3
 libgbm1
 libgc1
 libgcc_s1
-libgcc_s1-32bit
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
-libgcrypt11
+libgcrypt20
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -564,7 +560,7 @@ libicu52_1
 libicu52_1-data
 libidn11
 libimobiledevice4
-libini_config2
+libini_config3
 libiodbc3
 libiptc0
 libisl10
@@ -602,9 +598,8 @@ libkipi11
 libkmahjongg
 libkmahjongglib4
 libkmod2
-libkms1
 libkolab0
-libkolabxml0
+libkolabxml1
 libkomparediff2-4
 libkonq5
 libkqoauth0
@@ -655,7 +650,6 @@ libmygpo-qt1
 libmysqlclient18
 libmysqld18
 libncurses5
-libncurses5-32bit
 libncurses6
 libndr-krb5pac0
 libndr-nbt0
@@ -706,10 +700,6 @@ libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng16-16
 libpolkit-qt-1-1
 libpolkit0
@@ -791,7 +781,6 @@ libssh4
 libsss_idmap0
 libstartup-notification-1-0
 libstdc++6
-libstdc++6-32bit
 libstorage-ruby
 libstorage5
 libstrigi0
@@ -810,7 +799,6 @@ libtidy-0_99-0
 libtidyp-1_04-0
 libtiff5
 libtirpc1
-libts-1_0-0
 libturbojpeg0
 libucil2
 libudev1
@@ -828,10 +816,9 @@ libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvcdinfo0
-libvdpau1
 libvdpau_r600
 libvdpau_radeonsi
-libvigraimpex4
+libvigraimpex5
 libvisual
 libvmtools0
 libvncclient0
@@ -847,7 +834,6 @@ libwbclient0
 libwebp4
 libwebrtc_audio_processing0
 libwrap0
-libx86-1
 libx86emu1
 libxatracker2
 libxcb-composite0
@@ -862,10 +848,10 @@ libxcb-render-util0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
-libxcb-sync0
+libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
-libxcb-xkb0
+libxcb-xkb1
 libxcb-xtest0
 libxcb1
 libxerces-c-3_1
@@ -1023,6 +1009,7 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-MLDBM
 perl-Net-DBus
+perl-Net-DNS
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-SSLeay
@@ -1072,12 +1059,6 @@ plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
 plasmoid-quickaccess
-plymouth
-plymouth-branding-openSUSE
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 pm-utils-ndiswrapper
@@ -1161,9 +1142,6 @@ soprano-backend-redland
 soprano-backend-virtuoso
 sound-theme-freedesktop
 sox
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 sssd
 sssd-krb5-common
 sssd-ldap
@@ -1174,7 +1152,6 @@ suse-module-tools
 susegreeter-branding-openSUSE
 susehelp
 susehelp_en
-suspend
 sweeper
 sysconfig
 sysconfig-netconfig
@@ -1227,6 +1204,9 @@ util-linux
 vaapi-intel-driver
 vcdimager
 vim
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
 vlan

@@ -1,5 +1,3 @@
-DirectFB
-DirectFB-Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLESv2-2
@@ -147,7 +145,6 @@ glibc
 glibc-extra
 gnome-keyring
 gnome-keyring-pam
-gnu-unifont-bitmap-fonts
 google-droid-fonts
 gpart
 gpg2
@@ -162,6 +159,7 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
 gstreamer-0_10
+gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-plugins-base
@@ -192,10 +190,12 @@ hwinfo
 iceauth
 icedax
 icewm
+icewm-default
 icoutils
 ifplugd
 info
 info2html
+input-utils
 insserv-compat
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -280,7 +280,6 @@ kwebkitpart
 kwin
 kwrite
 less
-lib++dfb-1_7-1
 libFLAC8
 libGLU1
 libHalf11
@@ -291,6 +290,7 @@ libIlmThread-2_1-11
 libLLVM
 libModemManagerQt0
 libNetworkManagerQt0
+libSDL-1_2-0
 libSM6
 libX11-6
 libX11-data
@@ -327,6 +327,7 @@ libadns1
 libaio1
 libakonadi4
 libakonadiprotocolinternals1
+libao-plugin4-esd
 libao-plugins4
 libao4
 libapparmor1
@@ -342,6 +343,7 @@ libatm1
 libatspi0
 libattica0_4
 libattr1
+libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -386,7 +388,6 @@ libdcerpc-binding0
 libdcerpc0
 libdconf1
 libdialog11
-libdirectfb-1_7-1
 libdmtx0
 libdmx1
 libdrm2
@@ -400,6 +401,7 @@ libelf1
 libenchant1
 libepub0
 liberation-fonts
+libesd0
 libevent-2_0-5
 libexif12
 libexiv2-12
@@ -420,7 +422,7 @@ libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
-libgcrypt11
+libgcrypt20
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -497,9 +499,8 @@ libkipi11
 libkmahjongg
 libkmahjongglib4
 libkmod2
-libkms1
 libkolab0
-libkolabxml0
+libkolabxml1
 libkomparediff2-4
 libkonq5
 libksba8
@@ -573,10 +574,6 @@ libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng16-16
 libpolkit-qt-1-1
 libpolkit0
@@ -655,7 +652,6 @@ libtidy-0_99-0
 libtidyp-1_04-0
 libtiff5
 libtirpc1
-libts-1_0-0
 libturbojpeg0
 libudev1
 libudisks2-0
@@ -670,7 +666,6 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
-libvdpau1
 libvisual
 libvncclient0
 libvorbis0
@@ -685,7 +680,6 @@ libwbclient0
 libwebp4
 libwebrtc_audio_processing0
 libwrap0
-libx86-1
 libx86emu1
 libxcb-composite0
 libxcb-damage0
@@ -697,7 +691,7 @@ libxcb-randr0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
-libxcb-sync0
+libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
 libxcb-xtest0
@@ -782,6 +776,8 @@ perl-Config-Crontab
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
+perl-Digest-HMAC
+perl-Digest-SHA1
 perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
@@ -798,6 +794,7 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-MLDBM
 perl-Net-DBus
+perl-Net-DNS
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-SSLeay
@@ -842,11 +839,6 @@ plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
 plasmoid-quickaccess
-plymouth
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 polkit
@@ -860,6 +852,7 @@ procps
 psmisc
 ptools
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-jack
 pulseaudio-module-lirc
@@ -914,9 +907,6 @@ soprano
 soprano-backend-redland
 soprano-backend-virtuoso
 sound-theme-freedesktop
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 strace
 strigi
 sudo

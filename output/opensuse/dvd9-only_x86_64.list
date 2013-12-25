@@ -18,6 +18,13 @@ bind-libs-32bit
 bison-32bit
 bluez-devel-32bit
 boost-devel-32bit
+brltty
+brltty-driver-at-spi
+brltty-driver-at-spi2
+brltty-driver-brlapi
+brltty-driver-espeak
+brltty-driver-speech-dispatcher
+brltty-driver-xwindow
 cairo-devel-32bit
 chmlib-devel-32bit
 cryptconfig-32bit
@@ -78,6 +85,7 @@ ibus-gtk3-32bit
 irqbalance
 krb5-32bit
 krb5-devel-32bit
+kvm
 libFLAC++6-32bit
 libFLAC8-32bit
 libGLU1-32bit
@@ -137,6 +145,7 @@ libavutil52-32bit
 libblkid1-32bit
 libbluetooth3-32bit
 libbonobo-32bit
+libbrlapi0_5
 libbz2-1-32bit
 libbz2-devel-32bit
 libcaca0-32bit
@@ -184,6 +193,7 @@ libenca0-32bit
 libesd0-32bit
 libexif12-32bit
 libexpat1-32bit
+libfdt1
 libffi4-32bit
 libfftw3-3-32bit
 libfprint0-32bit
@@ -191,7 +201,7 @@ libfreebl3-32bit
 libfreetype6-32bit
 libgbm1-32bit
 libgcc_s1-32bit
-libgcrypt11-32bit
+libgcrypt20-32bit
 libgdbm4-32bit
 libgdk_pixbuf-2_0-0-32bit
 libgensec0-32bit
@@ -367,6 +377,7 @@ libsoup-2_4-1-32bit
 libsoup-devel-32bit
 libspandsp2-32bit
 libspeex1-32bit
+libspice-server1
 libsqlite3-0-32bit
 libssh2-1-32bit
 libstdc++33-32bit
@@ -392,9 +403,11 @@ libuuid1-32bit
 libv4l1-0-32bit
 libv4l2-0-32bit
 libv4lconvert0-32bit
+libvdeplug3
 libvdpau1-32bit
 libvirt-daemon-driver-libxl
 libvirt-daemon-driver-xen
+libvirt-daemon-qemu
 libvirt-daemon-xen
 libvisual-32bit
 libvorbis0-32bit
@@ -423,7 +436,6 @@ libxml2-2-32bit
 libxml2-devel-32bit
 libxslt-devel-32bit
 libxslt1-32bit
-libyajl2-32bit
 libyaz-devel-32bit
 libyaz4-32bit
 libz1-32bit
@@ -461,6 +473,11 @@ perl-base-32bit
 pytalloc-32bit
 python-32bit
 python-base-32bit
+qemu
+qemu-ipxe
+qemu-seabios
+qemu-sgabios
+qemu-vgabios
 rpm-32bit
 samba-32bit
 samba-client-32bit
@@ -483,9 +500,11 @@ uim-qt4-32bit
 unixODBC-32bit
 utempter-devel-32bit
 wine-32bit
+xbrlapi
 xen
 xen-doc-html
-xen-libs-32bit
+xen-kmp-default
+xen-kmp-desktop
 xen-tools
 xf86-video-intel-32bit
 xine-ui-32bit

@@ -1,8 +1,5 @@
-DirectFB
-DirectFB-Mesa
 Mesa-libEGL1
 Mesa-libGL1
-Mesa-libGLESv2-2
 Mesa-libglapi0
 PackageKit
 PackageKit-backend-zypp
@@ -18,6 +15,7 @@ acl
 acpica
 adjtimex
 alsa-plugins
+alsa-plugins-pulse
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -118,7 +116,6 @@ gnome-keyring
 gnome-keyring-pam
 gnome-online-accounts
 gnome-online-accounts-lang
-gnu-unifont-bitmap-fonts
 gpart
 gpg2
 gpm
@@ -168,8 +165,10 @@ hwinfo
 iceauth
 icedax
 icewm
+icewm-default
 ifplugd
 info
+input-utils
 insserv-compat
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -184,10 +183,10 @@ kmod-compat
 kpartx
 krb5
 less
-lib++dfb-1_7-1
 libFLAC8
 libICE6
 libLLVM
+libSDL-1_2-0
 libSM6
 libX11-6
 libX11-data
@@ -219,6 +218,7 @@ libXxf86misc1
 libXxf86vm1
 libacl1
 libadns1
+libao-plugin4-esd
 libao-plugins4
 libao4
 libapparmor1
@@ -233,6 +233,7 @@ libatk-bridge-2_0-0
 libatm1
 libatspi0
 libattr1
+libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -273,7 +274,6 @@ libdbus-1-3
 libdcerpc-binding0
 libdcerpc0
 libdconf1
-libdirectfb-1_7-1
 libdmx1
 libdrm2
 libdrm_intel1
@@ -285,11 +285,13 @@ libelf0
 libelf1
 libenchant1
 liberation-fonts
+libesd0
 libevent-2_0-5
 libexif12
 libexpat1
 libext2fs2
 libffi4
+libfftw3-3
 libfontenc1
 libfreetype6
 libfuse2
@@ -299,7 +301,7 @@ libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
-libgcrypt11
+libgcrypt20
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -354,7 +356,6 @@ libjson0
 libkate1
 libkeyutils1
 libkmod2
-libkms1
 libksba8
 liblapack3
 liblcms2-2
@@ -406,10 +407,6 @@ libpdb0
 libpipeline1
 libpixman-1-0
 libplist1
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
 libpng16-16
 libpolkit0
 libpoppler44
@@ -431,6 +428,7 @@ libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
 libsamdb0
+libsamplerate0
 libsasl2-3
 libsecret-1-0
 libsecret-lang
@@ -448,6 +446,7 @@ libsndfile1
 libsolv-tools
 libsoup-2_4-1
 libspeex1
+libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -462,7 +461,6 @@ libtheora0
 libtidyp-1_04-0
 libtiff5
 libtirpc1
-libts-1_0-0
 libudev1
 libudisks2-0
 libupower-glib1
@@ -472,7 +470,6 @@ libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
-libvdpau1
 libvisual
 libvorbis0
 libvorbisenc2
@@ -484,8 +481,8 @@ libwbclient0
 libwebkitgtk-3_0-0
 libwebkitgtk3-lang
 libwebp4
+libwebrtc_audio_processing0
 libwrap0
-libx86-1
 libx86emu1
 libxcb-dri2-0
 libxcb-glx0
@@ -559,6 +556,8 @@ perl-Config-Crontab
 perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
+perl-Digest-HMAC
+perl-Digest-SHA1
 perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
@@ -575,6 +574,7 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-MLDBM
 perl-Net-DBus
+perl-Net-DNS
 perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-SSLeay
@@ -607,11 +607,6 @@ permissions
 pigz
 pinentry
 pkg-config
-plymouth
-plymouth-dracut
-plymouth-plugin-label
-plymouth-plugin-script
-plymouth-scripts
 pm-profiler
 pm-utils
 polkit
@@ -622,6 +617,8 @@ ppp
 pptp
 procps
 psmisc
+pulseaudio
+pulseaudio-esound-compat
 pytalloc
 python
 python-base
@@ -648,6 +645,7 @@ rgb
 rpcbind
 rpm
 rpm-python
+rtkit
 ruby
 ruby20
 rubygem-fast_gettext
@@ -663,9 +661,6 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
-splashy
-splashy-branding-openSUSE
-splashy-mkinitrd
 strace
 sudo
 suse-module-tools
