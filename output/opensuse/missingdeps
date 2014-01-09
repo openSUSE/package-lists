@@ -5,6 +5,11 @@ can't install fillmore-lombard:
   nothing provides gstreamer-0_10-plugin-gnonlin needed by lombard
 can't install jackEQ:
   nothing provides ladspa-swh-plugins >= 0.4.3 needed by jackEQ
+can't install patterns-openSUSE:
+  nothing provides libyui-gtk-pkg5 needed by patterns-openSUSE-gnome_yast
+  nothing provides libyui-ncurses-pkg5 needed by patterns-openSUSE-yast2_basis
+  nothing provides libyui-ncurses-pkg5 needed by patterns-openSUSE-yast2_install_wf
+  nothing provides libyui-qt-pkg5 needed by patterns-openSUSE-kde4_yast
 can't install pitivi:
   nothing provides gstreamer-0_10-plugin-gnonlin >= 0.10.16 needed by pitivi
 can't install rubygem-chef:

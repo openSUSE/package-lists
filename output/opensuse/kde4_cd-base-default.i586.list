@@ -85,6 +85,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+gnu-unifont-bitmap-fonts
 gpart
 gpg2
 gpm
@@ -217,7 +218,7 @@ libjasper1
 libjavascriptcoregtk-3_0-0
 libjbig2
 libjpeg8
-libjson0
+libjson-c2
 libkate1
 libkeyutils1
 libkmod2
@@ -259,6 +260,10 @@ libpdb0
 libpipeline1
 libpixman-1-0
 libplist1
+libply-boot-client2
+libply-splash-core2
+libply-splash-graphics2
+libply2
 libpng16-16
 libpolkit0
 libpopt0
@@ -317,6 +322,7 @@ libwayland-client0
 libwayland-server0
 libwbclient0
 libwrap0
+libx86-1
 libx86emu1
 libxcb-dri2-0
 libxcb-glx0
@@ -327,8 +333,8 @@ libxcb1
 libxml2-2
 libxtables10
 libyaml-0-2
-libyui-ncurses5
-libyui5
+libyui-ncurses6
+libyui6
 libz1
 libzio1
 libzypp
@@ -426,6 +432,11 @@ permissions
 pigz
 pinentry
 pkg-config
+plymouth
+plymouth-dracut
+plymouth-plugin-label
+plymouth-plugin-script
+plymouth-scripts
 pm-profiler
 pm-utils
 polkit

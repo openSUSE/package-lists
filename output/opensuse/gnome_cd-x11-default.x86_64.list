@@ -99,6 +99,7 @@ gawk
 gcr-data
 gcr-prompter
 gcr-viewer
+gd
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime-mini
@@ -119,6 +120,7 @@ gnome-keyring
 gnome-keyring-pam
 gnome-online-accounts
 gnome-online-accounts-lang
+gnu-unifont-bitmap-fonts
 gpart
 gpg2
 gpm
@@ -354,8 +356,8 @@ libjasper1
 libjavascriptcoregtk-3_0-0
 libjbig2
 libjpeg8
+libjson-c2
 libjson-glib-1_0-0
-libjson0
 libkate1
 libkeyutils1
 libkmod2
@@ -411,6 +413,10 @@ libpdb0
 libpipeline1
 libpixman-1-0
 libplist1
+libply-boot-client2
+libply-splash-core2
+libply-splash-graphics2
+libply2
 libpng16-16
 libpolkit0
 libpoppler44
@@ -474,6 +480,7 @@ libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
+libvdpau_nouveau
 libvisual
 libvorbis0
 libvorbisenc2
@@ -487,6 +494,7 @@ libwebkitgtk3-lang
 libwebp4
 libwebrtc_audio_processing0
 libwrap0
+libx86-1
 libx86emu1
 libxcb-dri2-0
 libxcb-glx0
@@ -501,8 +509,8 @@ libxshmfence1
 libxslt1
 libxtables10
 libyaml-0-2
-libyui-ncurses5
-libyui5
+libyui-ncurses6
+libyui6
 libz1
 libzio1
 libzypp
@@ -613,6 +621,11 @@ permissions
 pigz
 pinentry
 pkg-config
+plymouth
+plymouth-dracut
+plymouth-plugin-label
+plymouth-plugin-script
+plymouth-scripts
 pm-profiler
 pm-utils
 polkit
@@ -741,6 +754,7 @@ xf86-input-void
 xf86-input-wacom
 xf86-video-fbdev
 xf86-video-modesetting
+xf86-video-nouveau
 xf86-video-vesa
 xinetd
 xinit
@@ -751,7 +765,6 @@ xmodmap
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
-xorg-x11-driver-video-nouveau
 xorg-x11-essentials
 xorg-x11-libX11-ccache
 xorg-x11-server

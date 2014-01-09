@@ -129,6 +129,7 @@ gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
+gd
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -158,6 +159,7 @@ gnome-online-accounts
 gnome-online-accounts-lang
 gnome-pty-helper
 gnome-themes-accessibility
+gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gpart
 gparted
@@ -444,8 +446,8 @@ libjavascriptcoregtk-3_0-0
 libjbig2
 libjbig2dec0
 libjpeg8
+libjson-c2
 libjson-glib-1_0-0
-libjson0
 libkate1
 libkeybinder0
 libkeyutils1
@@ -513,6 +515,10 @@ libpdb0
 libpipeline1
 libpixman-1-0
 libplist1
+libply-boot-client2
+libply-splash-core2
+libply-splash-graphics2
+libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
@@ -592,6 +598,7 @@ libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
+libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
 libvisual
@@ -612,6 +619,7 @@ libwebp4
 libwnck-1-22
 libwnck2-lang
 libwrap0
+libx86-1
 libx86emu1
 libxatracker2
 libxcb-dri2-0
@@ -638,10 +646,10 @@ libxshmfence1
 libxslt1
 libxtables10
 libyaml-0-2
-libyui-gtk-pkg5
-libyui-gtk5
-libyui-ncurses5
-libyui5
+libyui-gtk-pkg6
+libyui-gtk6
+libyui-ncurses6
+libyui6
 libz1
 libzeitgeist-1_0-1
 libzio1
@@ -791,6 +799,12 @@ pigz
 pinentry
 pinentry-gtk2
 pkg-config
+plymouth
+plymouth-branding-openSUSE
+plymouth-dracut
+plymouth-plugin-label
+plymouth-plugin-script
+plymouth-scripts
 pm-profiler
 pm-utils
 pm-utils-ndiswrapper
@@ -852,6 +866,7 @@ sound-theme-freedesktop
 strace
 sudo
 suse-module-tools
+suspend
 sysconfig
 sysconfig-netconfig
 sysconfig-network
@@ -952,6 +967,7 @@ xf86-video-mach64
 xf86-video-mga
 xf86-video-modesetting
 xf86-video-neomagic
+xf86-video-nouveau
 xf86-video-nv
 xf86-video-qxl
 xf86-video-r128
@@ -1008,7 +1024,6 @@ xmodmap
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
-xorg-x11-driver-video-nouveau
 xorg-x11-essentials
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache

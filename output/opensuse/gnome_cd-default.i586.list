@@ -152,6 +152,7 @@ gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
+gd
 gdb
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -224,6 +225,7 @@ gnome-user-docs
 gnome-user-share
 gnome-version
 gnome-video-effects
+gnu-unifont-bitmap-fonts
 google-droid-fonts
 gpart
 gpg2
@@ -618,8 +620,8 @@ libjasper1
 libjavascriptcoregtk-3_0-0
 libjbig2
 libjpeg8
+libjson-c2
 libjson-glib-1_0-0
-libjson0
 libkate1
 libkeyutils1
 libkmod2
@@ -711,6 +713,10 @@ libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist1
+libply-boot-client2
+libply-splash-core2
+libply-splash-graphics2
+libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
@@ -828,6 +834,7 @@ libv4l1-0
 libv4l2-0
 libv4lconvert0
 libvdpau1
+libvdpau_nouveau
 libvisual
 libvorbis0
 libvorbisenc2
@@ -846,6 +853,7 @@ libwebp4
 libwebrtc_audio_processing0
 libwnck-1-22
 libwrap0
+libx86-1
 libx86emu1
 libxcb-dri2-0
 libxcb-glx0
@@ -870,8 +878,8 @@ libxslt1
 libxtables10
 libyaml-0-2
 libyelp0
-libyui-ncurses5
-libyui5
+libyui-ncurses6
+libyui6
 libz1
 libzapojit-0_0-0
 libzeitgeist-2_0-0
@@ -1009,6 +1017,11 @@ pigz
 pinentry
 pkcs11-helper
 pkg-config
+plymouth
+plymouth-dracut
+plymouth-plugin-label
+plymouth-plugin-script
+plymouth-scripts
 pm-profiler
 pm-utils
 polkit
@@ -1260,6 +1273,7 @@ xf86-input-void
 xf86-input-wacom
 xf86-video-fbdev
 xf86-video-modesetting
+xf86-video-nouveau
 xf86-video-vesa
 xhost
 xinetd
@@ -1271,7 +1285,6 @@ xmodmap
 xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
-xorg-x11-driver-video-nouveau
 xorg-x11-essentials
 xorg-x11-libX11-ccache
 xorg-x11-server

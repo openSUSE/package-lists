@@ -43,7 +43,7 @@
 <lock package="pullin-flash-player"/>
 <lock package="release-notes-openSUSE"/>
 <lock package="opensuse-manuals_en"/>
-<lock package="icewm"/>
+<lock package="icewm-default"/>
 <lock package="sudo"/>
 <lock package="pullin-fluendo-mp3"/>
 <install package="yast2-country"/>
@@ -65,7 +65,8 @@
 <lock package="scout"/>
 <lock package="rsyslog"/>
 <lock package="dconf"/>
-<install package="libyui-qt-pkg5"/>
+<addRequire name='libyui-qt-pkg'/>
+<!-- install package="libyui-qt-pkg"/ -->
 <lock package="SuSEfirewall2"/>
 <lock package="alsa-plugins"/>
 <lock package="autofs"/>
@@ -98,6 +99,7 @@
 <lock package="xorg-x11-driver-input"/>
 <lock package="xorg-x11-driver-video"/>
 <lock package="xorg-x11-driver-video-nouveau"/>
+<lock package="opensuse-startup_en"/>
 <lock package="xorg-x11-libX11-ccache"/>
 <lock package="yp-tools"/>
 <lock package="ypbind"/>
