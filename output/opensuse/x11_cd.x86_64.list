@@ -9,7 +9,6 @@ NetworkManager-gnome-lang
 PackageKit-gstreamer-plugin
 SuSEfirewall2
 aaa_base
-aaa_base-extras
 accountsservice
 accountsservice-lang
 acl
@@ -36,25 +35,21 @@ avahi-autoipd
 awesfx
 b43-fwcutter
 bash
+bash-completion
 bc
 bind-libs
 bind-utils
-binutils
 bluez-firmware
 boost-license1_54_0
 branding-openSUSE
-bridge-utils
 btrfsprogs
 bundle-lang-common-de
 bundle-lang-common-en
-bundle-lang-kde-de
-bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
 cdrkit-cdrtools-compat
-checkmedia
 cifs-utils
 command-not-found
 coreutils
@@ -146,7 +141,6 @@ glib-networking
 glib2-tools
 glibc
 glibc-32bit
-glibc-extra
 glibc-locale
 glibc-locale-32bit
 gnome-icon-theme
@@ -170,10 +164,10 @@ grep
 groff
 grsync
 grub
-grub-snapper-plugin
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
+grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -217,11 +211,9 @@ hwinfo
 iceauth
 icedax
 icewm
-icewm-default
 icewm-lite
 ifplugd
 info
-input-utils
 insserv-compat
 intel-gpu-tools
 intlfonts-euro-bitmap-fonts
@@ -415,6 +407,7 @@ libgsf-lang
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstfft-1_0-0
 libgstinterfaces-0_10-0
 libgstpbutils-1_0-0
 libgstreamer-0_10-0
@@ -463,6 +456,7 @@ liblua5_1
 liblzma5
 liblzo2-2
 libmagic1
+libmbim-glib0
 libmm-glib0
 libmnl0
 libmodman1
@@ -534,6 +528,8 @@ libpth20
 libpulse0
 libpyglib-gi-2_0-python2-0
 libpython2_7-1_0
+libqmi-glib1
+libqmi-tools
 libqrencode3
 librcc0
 librcd0
@@ -542,6 +538,7 @@ libreiserfs-0_3-0
 libreiserfscore0
 librest0
 librsvg-2-2
+libruby2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -591,7 +588,7 @@ libtumbler-1-0
 libudev1
 libudisks2-0
 libunique-1_0-0
-libupower-glib1
+libupower-glib2
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
@@ -615,7 +612,8 @@ libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk2-lang
 libwebkitgtk3-lang
-libwebp4
+libwebp5
+libwicked0
 libwnck-1-22
 libwnck2-lang
 libwrap0
@@ -642,6 +640,7 @@ libxkbcommon0
 libxkbfile1
 libxklavier16
 libxml2-2
+libxml2-tools
 libxshmfence1
 libxslt1
 libxtables10
@@ -660,6 +659,7 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 linux32
+linuxconsoletools
 lockdev
 logrotate
 lomoco
@@ -820,16 +820,13 @@ psmisc
 pytalloc
 python
 python-base
-python-cffi
 python-cups
 python-cupshelpers
 python-gobject
 python-gobject-cairo
-python-pycparser
 python-pycurl
 python-satsolver
 python-smbios
-python-xattr
 python-xml
 quota
 rcc-runtime
@@ -844,7 +841,7 @@ rpm
 rpm-python
 rsync
 ruby
-ruby20
+ruby-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba-libs
@@ -869,10 +866,10 @@ suse-module-tools
 suspend
 sysconfig
 sysconfig-netconfig
-sysconfig-network
 sysfsutils
 syslinux
 systemd
+systemd-bash-completion
 systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
@@ -883,7 +880,6 @@ terminfo-base
 thunar
 thunar-lang
 thunar-volman
-thunar-volman-branding-openSUSE
 thunar-volman-lang
 tightvnc
 time
@@ -895,7 +891,6 @@ translation-update-de
 translation-update-en_US
 tumbler
 tumbler-lang
-tunctl
 twm
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
@@ -919,12 +914,13 @@ vim
 virtualbox-guest-kmp-desktop
 virtualbox-guest-tools
 virtualbox-guest-x11
-vlan
 vorbis-tools
 vte2-lang
 wallpaper-branding-openSUSE
 wget
 which
+wicked
+wicked-service
 wireless-regdb
 wireless-tools
 wodim
@@ -995,7 +991,6 @@ xfce4-panel-plugin-mixer
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
-xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-session
 xfce4-session-branding-openSUSE
@@ -1070,5 +1065,3 @@ zip
 zisofs-tools
 zypp-plugin-python
 zypper
-zypper-aptitude
-zypper-log

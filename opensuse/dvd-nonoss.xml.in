@@ -144,7 +144,6 @@
 <addRequire name='libjpeg.so.8()(64bit)'/>
 <addRequire name='libgtk-x11-2.0.so.0()(64bit)'/>
 <addRequire name='libgtk-x11-2.0.so.0'/>
-<addRequire name='libgtk-3.so.0()(64bit)'/>
 <addRequire name='libgthread-2.0.so.0()(64bit)'/>
 <addRequire name='libgthread-2.0.so.0'/>
 <addRequire name='libgstvideo-0.10.so.0()(64bit)'/>
@@ -171,7 +170,6 @@
 <addRequire name='libgdk_pixbuf-2.0.so.0'/>
 <addRequire name='libgdk-x11-2.0.so.0()(64bit)'/>
 <addRequire name='libgdk-x11-2.0.so.0'/>
-<addRequire name='libgdk-3.so.0()(64bit)'/>
 <addRequire name='libgcc_s.so.1(GLIBC_2.0)'/>
 <addRequire name='libgcc_s.so.1(GCC_4.0.0)(64bit)'/>
 <addRequire name='libgcc_s.so.1(GCC_3.0)(64bit)'/>
@@ -189,7 +187,6 @@
 <addRequire name='libcurl.so.4'/>
 <addRequire name='libcairo.so.2()(64bit)'/>
 <addRequire name='libcairo.so.2'/>
-<addRequire name='libcairo-gobject.so.2()(64bit)'/>
 <addRequire name='libc.so.6(GLIBC_2.8)(64bit)'/>
 <addRequire name='libc.so.6(GLIBC_2.7)(64bit)'/>
 <addRequire name='libc.so.6(GLIBC_2.4)(64bit)'/>
@@ -254,7 +251,7 @@
 <addRequire name='ld-linux.so.2(GLIBC_2.3)'/>
 <addRequire name='ld-linux.so.2'/>
 <addRequire name='ld-linux-x86-64.so.2()(64bit)'/>
-<addRequire name='kdebase4-runtime >= 4.12.0'/>
+<addRequire name='kdebase4-runtime >= 4.12'/>
 <addRequire name='insserv'/>
 <addRequire name='hicolor-icon-theme'/>
 <addRequire name='gstreamer010'/>
