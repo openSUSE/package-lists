@@ -24,10 +24,13 @@ NetworkManager-vpnc-lang
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
+PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
+PackageKit-lang
 SuSEfirewall2
-a2ps
 aaa_base
+aaa_base-extras
 accountsservice
 accountsservice-lang
 acl
@@ -42,6 +45,7 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-plugins
+alsa-plugins-pulse
 alsa-utils
 apparmor-parser
 apparmor-profiles
@@ -74,6 +78,7 @@ bc
 bijiben
 bind-libs
 bind-utils
+binutils
 bluez
 bluez-firmware
 boost-license1_54_0
@@ -88,12 +93,14 @@ ca-certificates-mozilla
 canberra-gtk-play
 cantarell-fonts
 caribou
+caribou-common
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
 caribou-lang
 cdrdao
 cdrkit-cdrtools-compat
+checkmedia
 cheese
 cheese-lang
 cifs-utils
@@ -107,6 +114,7 @@ colord-gtk-lang
 colord-lang
 command-not-found
 coreutils
+coreutils-lang
 cpio
 cpio-lang
 cpp
@@ -120,7 +128,6 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
-cups-filters-ghostscript
 cups-libs
 cups-pk-helper
 cups-pk-helper-lang
@@ -164,6 +171,7 @@ dosfstools
 dracut
 duplicity
 dvd+rw-tools
+dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 elfutils
 elilo
@@ -192,7 +200,6 @@ findutils
 folks-lang
 fontconfig
 fonts-config
-foomatic-filters
 fortune
 fribidi
 fuse
@@ -237,7 +244,6 @@ gimp-lang
 gio-branding-openSUSE
 girepository-1_0
 gjs
-glamor
 glib-networking
 glib-networking-lang
 glib2-lang
@@ -415,6 +421,7 @@ gtk3-lang
 gtk3-metatheme-adwaita
 gtk3-theming-engine-adwaita
 gtk3-tools
+gtkhtml-4_0-lang
 gtksourceview-lang
 gucharmap
 gucharmap-lang
@@ -449,6 +456,7 @@ icc-profiles-scp-yamma
 iceauth
 icedax
 icewm
+icewm-default
 icewm-lite
 ifplugd
 info
@@ -647,8 +655,10 @@ libelf0
 libelf1
 libenca0
 libenchant1
+libepoxy0
 liberation-fonts
 libesd0
+libevdev2
 libevdocument3-4
 libevent-2_0-5
 libevview3-3
@@ -968,6 +978,7 @@ libsamplerate0
 libsasl2-3
 libsbc1
 libschroedinger-1_0-0
+libseccomp2
 libsecret-1-0
 libsecret-lang
 libseed-gtk3-0
@@ -1085,13 +1096,16 @@ libx86-1
 libx86emu1
 libxatracker2
 libxcb-dri2-0
+libxcb-dri3-0
 libxcb-glx0
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
+libxcb-present0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
+libxcb-sync1
 libxcb-util1
 libxcb-xf86dri0
 libxcb-xfixes0
@@ -1171,8 +1185,6 @@ nautilus-sendto-lang
 nautilus-totem
 ncftp
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-default
 net-tools
 netcat-openbsd
 netcfg
@@ -1191,16 +1203,18 @@ numlockx
 obex-data-server
 ofl
 open-vm-tools
-open-vm-tools-gui
+open-vm-tools-desktop
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-gnome
 openal-soft
+openldap2
 openldap2-client
 openobex
 openslp
 openssh
 openssh-askpass
+openssh-helpers
 openssl
 opensuse-startup_en
 openvpn
@@ -1324,7 +1338,6 @@ plymouth-plugin-script
 plymouth-scripts
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-gnome
@@ -1340,6 +1353,7 @@ pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-esound-compat
+pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-lirc
@@ -1361,9 +1375,9 @@ python-gobject-cairo
 python-httplib2
 python-lockfile
 python-pycurl
-python-satsolver
 python-smbc
 python-smbios
+python-solv
 python-xml
 python3
 python3-atspi
@@ -1547,7 +1561,6 @@ typelib-1_0-PeasGtk-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
 typelib-1_0-Secret-1
-typelib-1_0-SecretUnstable-0
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
@@ -1584,10 +1597,7 @@ vorbis-tools
 vorbis-tools-lang
 vpnc
 vte-lang
-w3m
 wallpaper-branding-openSUSE
-wdiff
-wdiff-lang
 wget
 which
 wicked
@@ -1677,9 +1687,9 @@ xterm
 xz
 xz-lang
 yast2
+yast2-add-on
 yast2-apparmor
 yast2-bootloader
-yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-gnome
 yast2-core
@@ -1757,3 +1767,5 @@ zip
 zisofs-tools
 zypp-plugin-python
 zypper
+zypper-aptitude
+zypper-log

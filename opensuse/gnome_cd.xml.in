@@ -25,7 +25,7 @@
     <lock package="pam-32bit"/> <!-- !i586 !x86_64 -->
     <install kind="package" name="branding-openSUSE"/>
     <install kind="package" name="gconf2-branding-openSUSE"/>
-    <install kind="package" name="rhythmbox"/>
+    <!-- install kind="package" name="rhythmbox"/ -->
 
     <reportProblems/>
     <showpool verbose="true"/>

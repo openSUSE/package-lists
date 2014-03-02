@@ -54,24 +54,21 @@
     <install kind="package" name="efibootmgr"/> <!-- !i586 -->
     <install kind="package" name="postgresql"/>
     <install kind="package" name="postgresql-devel"/>
+<install kind="package" name="postgresql-contrib"/>
+<install kind="package" name="postgresql-docs"/>
+<install kind="package" name="postgresql-server"/>
   <install kind="package" name="yast2-services-manager"/>
     <lock kind="package" name="liberation2-fonts"/>
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <install kind="package" name="postfix"/>
+<install kind="package" name="kdelibs4-branding-openSUSE"/>
     <!-- HOOK_FOR_NONOSS -->
-<addRequire name='zypper'/>
-<addRequire name='util-linux'/>
 <addRequire name='shared-mime-info'/>
-<addRequire name='sed'/>
 <addRequire name='rtld(GNU_HASH)'/>
-<addRequire name='rpm'/>
 <addRequire name='pkgconfig(glu)'/>
 <addRequire name='pkgconfig(gl)'/>
 <addRequire name='perl'/>
-<addRequire name='pciutils'/>
 <addRequire name='openttd-data'/>
-<addRequire name='openssh'/>
-<addRequire name='mkinitrd'/>
 <addRequire name='libz.so.1()(64bit)'/>
 <addRequire name='libxml2.so.2()(64bit)'/>
 <addRequire name='libtinfo.so.5()(64bit)'/>
@@ -251,32 +248,20 @@
 <addRequire name='ld-linux.so.2(GLIBC_2.3)'/>
 <addRequire name='ld-linux.so.2'/>
 <addRequire name='ld-linux-x86-64.so.2()(64bit)'/>
-<addRequire name='kdebase4-runtime >= 4.12'/>
-<addRequire name='insserv'/>
+<addRequire name='kdebase4-runtime >= 4.12.90'/>
 <addRequire name='hicolor-icon-theme'/>
 <addRequire name='gstreamer010'/>
 <addRequire name='gstreamer'/>
-<addRequire name='grep'/>
-<addRequire name='gpg2'/>
-<addRequire name='glibc'/>
 <addRequire name='ghostscript-cjk'/>
-<addRequire name='gawk'/>
 <addRequire name='freeglut-devel'/>
-<addRequire name='findutils'/>
-<addRequire name='fillup'/>
-<addRequire name='diffutils'/>
 <addRequire name='desktop-file-utils'/>
-<addRequire name='curl'/>
 <addRequire name='coreutils'/>
-<addRequire name='build-key'/>
-<addRequire name='bash'/>
 <addRequire name='aaa_base'/>
 <addRequire name='Mesa-devel'/>
 <addRequire name='/usr/bin/perl'/>
 <addRequire name='/usr/bin/env'/>
 <addRequire name='/sbin/ldconfig'/>
 <addRequire name='/bin/sh'/>
-<addRequire name='/bin/bash'/>
     <reportProblems/>
     <showpool verbose="true"/>
   </trial>

@@ -1,14 +1,19 @@
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
+PackageKit
+PackageKit-backend-zypp
+PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
 SuSEfirewall2
-a2ps
 aaa_base
+aaa_base-extras
 acl
 acpica
 adjtimex
 alsa-plugins
+alsa-plugins-pulse
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -23,6 +28,7 @@ bash
 bash-completion
 bind-libs
 bind-utils
+binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
@@ -83,7 +89,6 @@ fillup
 findutils
 fontconfig
 fonts-config
-foomatic-filters
 fuse
 gawk
 gcr-data
@@ -158,6 +163,7 @@ hwinfo
 iceauth
 icedax
 icewm
+icewm-default
 ifplugd
 info
 insserv-compat
@@ -274,8 +280,10 @@ libedit0
 libelf0
 libelf1
 libenchant1
+libepoxy0
 liberation-fonts
 libesd0
+libevdev2
 libevent-2_0-5
 libexif12
 libexpat1
@@ -286,7 +294,6 @@ libfontenc1
 libfreetype6
 libfuse2
 libgbm1
-libgc1
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -375,6 +382,7 @@ libnettle4
 libnfnetlink0
 libnl-config
 libnl3-200
+libnotify-tools
 libnotify4
 libntfs-3g84
 libogg0
@@ -421,6 +429,7 @@ libsamba-util0
 libsamdb0
 libsamplerate0
 libsasl2-3
+libseccomp2
 libsecret-1-0
 libsecret-lang
 libselinux1
@@ -479,9 +488,12 @@ libwrap0
 libx86-1
 libx86emu1
 libxcb-dri2-0
+libxcb-dri3-0
 libxcb-glx0
+libxcb-present0
 libxcb-render0
 libxcb-shm0
+libxcb-sync1
 libxcb-xfixes0
 libxcb1
 libxkbcommon0
@@ -529,11 +541,13 @@ ntp
 numlockx
 obex-data-server
 openSUSE-build-key
+openldap2
 openldap2-client
 openobex
 openslp
 openssh
 openssh-askpass
+openssh-helpers
 openssl
 os-prober
 p11-kit
@@ -629,8 +643,8 @@ python-cupshelpers
 python-gobject
 python-gobject-cairo
 python-pycurl
-python-satsolver
 python-smbc
+python-solv
 python-xml
 recode
 release-notes-openSUSE
@@ -698,9 +712,7 @@ usbutils
 util-linux
 vim
 vorbis-tools
-w3m
 wallpaper-branding-openSUSE
-wdiff
 wget
 which
 wicked
@@ -763,3 +775,5 @@ ypbind
 zisofs-tools
 zypp-plugin-python
 zypper
+zypper-aptitude
+zypper-log

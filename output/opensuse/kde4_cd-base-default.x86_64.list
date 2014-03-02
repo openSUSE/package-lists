@@ -3,6 +3,7 @@ Mesa-libGL1
 Mesa-libglapi0
 SuSEfirewall2
 aaa_base
+aaa_base-extras
 acl
 acpica
 adjtimex
@@ -18,6 +19,7 @@ bash
 bash-completion
 bind-libs
 bind-utils
+binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
@@ -83,6 +85,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-32bit
+glibc-extra
 glibc-locale-32bit
 gnu-unifont-bitmap-fonts
 gpart
@@ -91,7 +94,6 @@ gpm
 grep
 groff
 grub2-i386-pc
-grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -138,6 +140,7 @@ libXfixes3
 libXft2
 libXi6
 libXinerama1
+libXmuu1
 libXrandr2
 libXrender1
 libXt6
@@ -223,6 +226,7 @@ libkmod2
 libksba8
 libldap-2_4-2
 libldb1
+libltdl7
 liblua5_1
 liblzma5
 liblzo2-2
@@ -243,6 +247,8 @@ libnettle4
 libnfnetlink0
 libnl-config
 libnl3-200
+libnotify-tools
+libnotify4
 libntfs-3g84
 libnuma1
 libogg0
@@ -282,6 +288,7 @@ libsamba-hostconfig0
 libsamba-util0
 libsamdb0
 libsasl2-3
+libseccomp2
 libselinux1
 libsemanage1
 libsepol1
@@ -303,6 +310,7 @@ libtasn1-6
 libtdb1
 libtevent-util0
 libtevent0
+libtidyp-1_04-0
 libtiff5
 libtirpc1
 libudev1
@@ -324,13 +332,16 @@ libwrap0
 libx86-1
 libx86emu1
 libxcb-dri2-0
+libxcb-dri3-0
 libxcb-glx0
+libxcb-present0
 libxcb-render0
 libxcb-shm0
+libxcb-sync1
 libxcb-xfixes0
 libxcb1
 libxml2-2
-libxml2-tools
+libxshmfence1
 libxtables10
 libyaml-0-2
 libyui-ncurses6
@@ -362,10 +373,12 @@ ntfsprogs
 ntp
 numactl
 openSUSE-build-key
+openldap2
 openldap2-client
 openslp
 openssh
 openssh-askpass
+openssh-helpers
 openssl
 os-prober
 p11-kit
@@ -389,6 +402,7 @@ perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
 perl-HTML-Tagset
+perl-HTML-Tidy
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -399,6 +413,7 @@ perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-MLDBM
+perl-Net-DBus
 perl-Net-DNS
 perl-Net-Daemon
 perl-Net-HTTP
@@ -408,9 +423,12 @@ perl-PlRPC
 perl-RPC-XML
 perl-SQL-Statement
 perl-Term-ReadKey
+perl-Text-Wrapper
+perl-Tie-IxHash
 perl-TimeDate
 perl-URI
 perl-WWW-RobotRules
+perl-X11-Protocol
 perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
@@ -418,7 +436,9 @@ perl-XML-SAX
 perl-XML-SAX-Base
 perl-XML-SAX-Expat
 perl-XML-Simple
+perl-XML-Twig
 perl-XML-XPath
+perl-XML-XPathEngine
 perl-apparmor
 perl-base
 perl-gettext
@@ -449,7 +469,7 @@ python-cupshelpers
 python-gobject
 python-gobject-cairo
 python-pycurl
-python-satsolver
+python-solv
 python-xml
 recode
 release-notes-openSUSE
@@ -507,6 +527,8 @@ wicked-service
 wireless-regdb
 wireless-tools
 wodim
+xauth
+xdg-utils
 xinetd
 xtables-plugins
 xz
@@ -525,3 +547,5 @@ ypbind
 zisofs-tools
 zypp-plugin-python
 zypper
+zypper-aptitude
+zypper-log

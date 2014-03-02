@@ -9,6 +9,7 @@ NetworkManager-gnome-lang
 PackageKit-gstreamer-plugin
 SuSEfirewall2
 aaa_base
+aaa_base-extras
 accountsservice
 accountsservice-lang
 acl
@@ -39,6 +40,7 @@ bash-completion
 bc
 bind-libs
 bind-utils
+binutils
 bluez-firmware
 boost-license1_54_0
 branding-openSUSE
@@ -50,6 +52,7 @@ ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
 cdrkit-cdrtools-compat
+checkmedia
 cifs-utils
 command-not-found
 coreutils
@@ -136,11 +139,11 @@ gfxboot-branding-openSUSE
 ghostscript-fonts-std
 gio-branding-openSUSE
 girepository-1_0
-glamor
 glib-networking
 glib2-tools
 glibc
 glibc-32bit
+glibc-extra
 glibc-locale
 glibc-locale-32bit
 gnome-icon-theme
@@ -167,7 +170,6 @@ grub
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
-grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -211,6 +213,7 @@ hwinfo
 iceauth
 icedax
 icewm
+icewm-default
 icewm-lite
 ifplugd
 info
@@ -353,8 +356,10 @@ libelf0
 libelf1
 libenca0
 libenchant1
+libepoxy0
 liberation-fonts
 libesd0
+libevdev2
 libevent-2_0-5
 libexif12
 libexo-1-0
@@ -545,6 +550,7 @@ libsamba-util0
 libsamdb0
 libsamplerate0
 libsasl2-3
+libseccomp2
 libsecret-1-0
 libsecret-lang
 libselinux1
@@ -621,9 +627,12 @@ libx86-1
 libx86emu1
 libxatracker2
 libxcb-dri2-0
+libxcb-dri3-0
 libxcb-glx0
+libxcb-present0
 libxcb-render0
 libxcb-shm0
+libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
 libxcb1
@@ -640,7 +649,6 @@ libxkbcommon0
 libxkbfile1
 libxklavier16
 libxml2-2
-libxml2-tools
 libxshmfence1
 libxslt1
 libxtables10
@@ -692,8 +700,6 @@ mupdf
 nano
 nano-lang
 ncurses-utils
-ndiswrapper
-ndiswrapper-kmp-desktop
 net-tools
 netcat-openbsd
 netcfg
@@ -713,16 +719,18 @@ numlockx
 obex-data-server
 ofl
 open-vm-tools
-open-vm-tools-gui
+open-vm-tools-desktop
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-x11
 openSUSE-xfce-icon-theme
+openldap2
 openldap2-client
 openobex
 openslp
 openssh
 openssh-askpass
+openssh-helpers
 openssl
 opensuse-startup_en
 os-prober
@@ -807,7 +815,6 @@ plymouth-plugin-script
 plymouth-scripts
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 polkit
 polkit-default-privs
 polkit-gnome
@@ -825,8 +832,8 @@ python-cupshelpers
 python-gobject
 python-gobject-cairo
 python-pycurl
-python-satsolver
 python-smbios
+python-solv
 python-xml
 quota
 rcc-runtime
@@ -880,6 +887,7 @@ terminfo-base
 thunar
 thunar-lang
 thunar-volman
+thunar-volman-branding-openSUSE
 thunar-volman-lang
 tightvnc
 time
@@ -991,6 +999,7 @@ xfce4-panel-plugin-mixer
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
+xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-session
 xfce4-session-branding-openSUSE
@@ -1035,7 +1044,6 @@ xterm
 xz
 yast2
 yast2-bootloader
-yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-gnome
 yast2-core
@@ -1065,3 +1073,5 @@ zip
 zisofs-tools
 zypp-plugin-python
 zypper
+zypper-aptitude
+zypper-log

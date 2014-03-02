@@ -3,6 +3,7 @@ Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 aaa_base
+aaa_base-extras
 acl
 acpica
 adjtimex
@@ -13,14 +14,17 @@ bash
 bash-lang
 bind-libs
 bind-utils
+binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
 bzip2
 ca-certificates
 ca-certificates-mozilla
+checkmedia
 cifs-utils
 coreutils
+coreutils-lang
 cpio
 cpio-lang
 cpp
@@ -85,6 +89,7 @@ glib2-lang
 glib2-tools
 glibc
 glibc-32bit
+glibc-extra
 glibc-locale
 glibc-locale-32bit
 gnu-unifont-bitmap-fonts
@@ -97,7 +102,6 @@ groff
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
-grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
@@ -205,8 +209,10 @@ libdw1
 libedit0
 libelf0
 libelf1
+libepoxy0
 liberation-fonts
 libesd0
+libevdev2
 libevent-2_0-5
 libexpat1
 libext2fs2
@@ -245,13 +251,16 @@ libjson-c2
 libkeyutils1
 libkmod2
 libksba8
+liblcms1
 libldap-2_4-2
 libldapcpp1
 libldb1
+libltdl7
 liblua5_1
 liblzma5
 liblzo2-2
 libmagic1
+libmng1
 libmnl0
 libmodman1
 libmount1
@@ -300,6 +309,7 @@ libpulse0
 libpyglib-gi-2_0-python2-0
 libpython2_7-1_0
 libqrencode3
+libqt5-qtimageformats
 libreadline6
 libregistry0
 libruby2_1
@@ -308,6 +318,7 @@ libsamba-hostconfig0
 libsamba-util0
 libsamdb0
 libsasl2-3
+libseccomp2
 libselinux1
 libsemanage1
 libsepol1
@@ -347,14 +358,17 @@ libvorbisenc2
 libwayland-client0
 libwayland-server0
 libwbclient0
+libwebp5
 libwicked0
 libwrap0
 libx86-1
 libx86emu1
 libxcb-dri2-0
+libxcb-dri3-0
 libxcb-glx0
 libxcb-icccm4
 libxcb-image0
+libxcb-present0
 libxcb-randr0
 libxcb-render-util0
 libxcb-render0
@@ -368,7 +382,6 @@ libxcb1
 libxkbcommon0
 libxkbfile1
 libxml2-2
-libxml2-tools
 libxshmfence1
 libxtables10
 libyaml-0-2
@@ -408,9 +421,11 @@ numactl
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-x11
+openldap2
 openldap2-client
 openslp
 openssh
+openssh-helpers
 openssl
 os-prober
 p11-kit
@@ -593,8 +608,8 @@ xterm
 xz
 xz-lang
 yast2
+yast2-add-on
 yast2-bootloader
-yast2-branding-openSUSE
 yast2-core
 yast2-country
 yast2-country-data
@@ -619,6 +634,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-proxy
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
@@ -643,3 +659,5 @@ yast2-xml
 yast2-ycp-ui-bindings
 zypp-plugin-python
 zypper
+zypper-aptitude
+zypper-log

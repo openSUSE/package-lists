@@ -54,11 +54,15 @@
     <install kind="package" name="efibootmgr"/> <!-- !i586 -->
     <install kind="package" name="postgresql"/>
     <install kind="package" name="postgresql-devel"/>
+<install kind="package" name="postgresql-contrib"/>
+<install kind="package" name="postgresql-docs"/>
+<install kind="package" name="postgresql-server"/>
   <install kind="package" name="yast2-services-manager"/>
     <lock kind="package" name="liberation2-fonts"/>
     <lock kind="package" name="xen-tools-domU"/> <!-- !ppc !s390x !ia64 -->
     <lock kind="package" name="libqt4-x11-32bit"/>
     <install kind="package" name="postfix"/>
+<install kind="package" name="kdelibs4-branding-openSUSE"/>
     <!-- HOOK_FOR_NONOSS -->
     <reportProblems/>
     <showpool verbose="true"/>

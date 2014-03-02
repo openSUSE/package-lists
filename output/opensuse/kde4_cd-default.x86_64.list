@@ -11,9 +11,10 @@ PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
 SuSEfirewall2
-a2ps
 aaa_base
+aaa_base-extras
 acl
 acpica
 adjtimex
@@ -40,10 +41,16 @@ augeas-lenses
 autofs
 avahi
 avahi-autoipd
+baloo-core
+baloo-file
+baloo-kioslaves
+baloo-pim
+baloo-tools
 bash
 bash-completion
 bind-libs
 bind-utils
+binutils
 bluedevil
 bluez
 boost-license1_54_0
@@ -54,6 +61,7 @@ ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
 cdrkit-cdrtools-compat
+checkmedia
 choqok
 cifs-utils
 cln
@@ -116,7 +124,6 @@ fillup
 findutils
 fontconfig
 fonts-config
-foomatic-filters
 freerdp
 gawk
 gconf-polkit
@@ -139,6 +146,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-32bit
+glibc-extra
 glibc-locale-32bit
 gnome-keyring
 gnome-keyring-pam
@@ -151,7 +159,6 @@ gptfdisk
 grep
 groff
 grub2-i386-pc
-grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -188,6 +195,7 @@ hwinfo
 iceauth
 icedax
 icewm
+icewm-default
 icoutils
 ifplugd
 info
@@ -208,15 +216,12 @@ kde4-filesystem
 kde4-kgreeter-plugins
 kde4-print-manager
 kdeartwork4-screensaver
-kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
-kdebase4-wallpaper-default
-kdebase4-workspace-branding-upstream
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdegames4-carddecks-default
@@ -234,6 +239,7 @@ kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 keyutils
+kfilemetadata
 kgamma
 kget
 kgpg
@@ -267,6 +273,8 @@ krfb
 kruler
 kscreen
 ksnapshot
+ksplash-qml-branding-openSUSE
+ksplashx-branding-openSUSE
 ksshaskpass
 ksudoku
 ktorrent
@@ -346,6 +354,9 @@ libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libbaloofiles4
+libbaloopim4
+libbaloowidgets4
 libblkid1
 libbluedevil2
 libbluetooth3
@@ -394,9 +405,11 @@ libedit0
 libelf0
 libelf1
 libenchant1
+libepoxy0
 libepub0
 liberation-fonts
 libesd0
+libevdev2
 libevent-2_0-5
 libexif12
 libexiv2-12
@@ -411,7 +424,6 @@ libfreerdp-1_0-plugins
 libfreetype6
 libfuse2
 libgbm1
-libgc1
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -429,6 +441,7 @@ libgmp10
 libgnome-keyring0
 libgnutls28
 libgobject-2_0-0
+libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
@@ -475,6 +488,7 @@ libkactivities6
 libkate1
 libkcddb4
 libkcompactdisc4
+libkdcraw23
 libkde4
 libkdecore4
 libkdegames
@@ -531,7 +545,6 @@ libndr-nbt0
 libndr-standard0
 libndr0
 libneon27
-libnepomukwidgets4
 libnetapi0
 libnetfilter_conntrack3
 libnettle4
@@ -541,6 +554,7 @@ libnl3-200
 libnm-glib-vpn1
 libnm-glib4
 libnm-util2
+libnotify-tools
 libnotify4
 libntfs-3g84
 libnuma1
@@ -602,6 +616,7 @@ libqt4-sql
 libqt4-sql-mysql
 libraptor2-0
 librasqal3
+libraw10
 libraw1394-11
 librdf0
 libreadline6
@@ -613,6 +628,7 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
+libseccomp2
 libselinux1
 libsemanage1
 libsensors4
@@ -635,7 +651,6 @@ libsqlite3-0
 libssh2-1
 libssh4
 libstdc++6
-libstrigi0
 libtag1
 libtalloc2
 libtasn1
@@ -681,12 +696,15 @@ libwicked0
 libwrap0
 libx86-1
 libx86emu1
+libxapian22
 libxcb-composite0
 libxcb-damage0
 libxcb-dri2-0
+libxcb-dri3-0
 libxcb-glx0
 libxcb-image0
 libxcb-keysyms1
+libxcb-present0
 libxcb-randr0
 libxcb-render0
 libxcb-shape0
@@ -700,7 +718,6 @@ libxerces-c-3_1
 libxkbcommon0
 libxkbfile1
 libxml2-2
-libxml2-tools
 libxshmfence1
 libxslt1
 libxtables10
@@ -736,13 +753,11 @@ media-player-info
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
-mobipocket
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
 mtools
 ncurses-utils
-nepomuk-core
 net-tools
 netcat-openbsd
 netcfg
@@ -757,10 +772,12 @@ numactl
 numlockx
 openSUSE-build-key
 openal-soft
+openldap2
 openldap2-client
 openslp
 openssh
 openssh-askpass
+openssh-helpers
 openssl
 openvpn
 os-prober
@@ -879,8 +896,8 @@ python-gobject
 python-gobject-cairo
 python-keyring
 python-pycurl
-python-satsolver
 python-smbc
+python-solv
 python-xml
 recode
 release-notes-openSUSE
@@ -900,20 +917,18 @@ sessreg
 setxkbmap
 sg3_utils
 shadow
-shared-desktop-ontologies
 shared-mime-info
 shim
 smp_utils
 snapper
 snapper-zypp-plugin
-soprano
 soprano-backend-redland
 soprano-backend-virtuoso
 sound-theme-freedesktop
 strace
-strigi
 sudo
 suse-module-tools
+susegreeter-branding-openSUSE
 susehelp
 susehelp_en
 sweeper
@@ -967,9 +982,7 @@ virtuoso-drivers
 virtuoso-server
 vorbis-tools
 vpnc
-w3m
 wallpaper-branding-openSUSE
-wdiff
 wget
 which
 wicked
@@ -1038,3 +1051,5 @@ ypbind
 zisofs-tools
 zypp-plugin-python
 zypper
+zypper-aptitude
+zypper-log

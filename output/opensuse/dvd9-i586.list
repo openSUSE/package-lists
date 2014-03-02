@@ -37,14 +37,13 @@ NetworkManager-pptp-gnome
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 OpenPrintingPPDs
-OpenPrintingPPDs-ghostscript
-OpenPrintingPPDs-hpijs
-OpenPrintingPPDs-postscript
 PackageKit
 PackageKit-Qt-devel
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
+PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
 PgTcl
 QtZeitgeist-devel
 SuSEfirewall2
@@ -72,6 +71,7 @@ akregator
 alacarte
 alevt
 alpine
+alpine-branding-openSUSE
 alsa
 alsa-devel
 alsa-firmware
@@ -136,14 +136,10 @@ apparmor-profiles
 apparmor-utils
 apper
 appmenu-qt
-apport
-apport-crashdb-opensuse
-apport-gtk
-apport-kde
-apport-lang
 appres
 aqbanking
 aqbanking-devel
+aqbanking-lang
 arabic-ae-fonts
 arabic-amiri-fonts
 arabic-bitmap-fonts
@@ -205,6 +201,11 @@ avogadro-devel
 awesfx
 axis
 b43-fwcutter
+baloo-core
+baloo-file
+baloo-kioslaves
+baloo-pim
+baloo-tools
 banshee
 banshee-backend-engine-gstreamer
 banshee-backend-io-gio
@@ -239,6 +240,7 @@ biosdevname
 bison
 bitmap
 bitstream-vera-fonts
+blender
 blinken
 bluedevil
 bluedevil-lang
@@ -265,10 +267,12 @@ brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 bsd-games
+bsdtar
 bsf
 btrfsprogs
 build
 build-mkbaselibs
+build-mkdrpms
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -311,8 +315,11 @@ bundle-lang-kde-pl
 bundle-lang-kde-pt
 bundle-lang-kde-ru
 bundle-lang-kde-zh
+busybox
 bwidget
 bzip2
+bzr
+bzr-lang
 ca-certificates
 ca-certificates-mozilla
 cabextract
@@ -324,6 +331,7 @@ cantarell-fonts
 capi4hylafax
 capisuite
 caribou
+caribou-common
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
@@ -389,12 +397,12 @@ cups
 cups-backends
 cups-client
 cups-devel
-cups-filters-ghostscript
 cups-libs
 cups-pk-helper
 curl
 cvs
 cvsps
+cyradm
 cyreal-lobster-cyrillic-fonts
 cyrus-imapd
 cyrus-sasl
@@ -410,6 +418,7 @@ dasher
 dasher-data-extras
 dasher-data-recommended
 dasher-lang
+db45-utils
 db48-utils
 dbsplit-tools
 dbus-1
@@ -450,6 +459,7 @@ dhcp-server
 dhcp-tools
 dhcpcd
 dia
+dia-lang
 dialog
 diffstat
 diffutils
@@ -501,6 +511,7 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
+enblend-enfuse
 enchant-devel
 enscript
 eog
@@ -555,7 +566,6 @@ fd0ssh
 fdupes
 fetchmail
 fftw3-devel
-fifth-leg-font
 file
 file-devel
 file-magic
@@ -579,7 +589,6 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fonttosfnt
-foomatic-filters
 fortune
 four-in-a-row
 four-in-a-row-lang
@@ -724,7 +733,6 @@ glade-catalog-gtksourceview
 glade-catalog-vte
 glade-lang
 glade-sharp2
-glamor
 glew-devel
 glib-networking
 glib-sharp2
@@ -752,7 +760,6 @@ gnome-contacts
 gnome-control-center
 gnome-control-center-color
 gnome-control-center-user-faces
-gnome-desktop-sharp2
 gnome-desktop2
 gnome-desktop2-lang
 gnome-dictionary
@@ -1000,14 +1007,12 @@ help2man
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
-hplip
-hplip-hpijs
-hplip-sane
 htdig
 html-dtd
 html2ps
 html2text
 htmldoc
+hugin
 hunspell
 hunspell-devel
 hunspell-tools
@@ -1020,7 +1025,6 @@ i4l-isdnlog
 iagno
 ibus
 ibus-anthy
-ibus-anthy-devel
 ibus-branding-openSUSE-KDE
 ibus-googlepinyin
 ibus-gtk
@@ -1233,16 +1237,14 @@ kde4-l10n-zh_TW
 kde4-print-manager
 kdeartwork4-decorations
 kdeartwork4-screensaver
-kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
-kdebase4-wallpaper-default
 kdebase4-workspace
-kdebase4-workspace-branding-upstream
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
@@ -1289,6 +1291,7 @@ kernel-xen-devel
 kexec-tools
 keyutils
 keyutils-devel
+kfilemetadata
 kfilereplace
 kfloppy
 kgamma
@@ -1308,6 +1311,8 @@ kio_svn
 kiosktool
 kiosktool-lang
 kipi-plugins
+kipi-plugins-acquireimage
+kipi-plugins-geolocation
 kiriki
 kismet
 kiten
@@ -1356,6 +1361,7 @@ korganizer
 kpartx
 kpat
 kppp
+kqtquickcharts
 kradio
 krb5
 krb5-client
@@ -1376,6 +1382,8 @@ kshisen
 ksirk
 ksnapshot
 kspaceduel
+ksplash-qml-branding-openSUSE
+ksplashx-branding-openSUSE
 ksquares
 ksshaskpass
 kstars
@@ -1433,6 +1441,7 @@ libModemManagerQt0
 libNetworkManagerQt0
 libOSMesa-devel
 libOSMesa9
+libOpenCOLLADA0
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -1565,6 +1574,7 @@ libaspell15
 libass5
 libassuan-devel
 libassuan0
+libastro1
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -1593,6 +1603,9 @@ libavc1394-0
 libavogadro1
 libavutil52
 libbabl-0_1-0
+libbaloofiles4
+libbaloopim4
+libbaloowidgets4
 libbasicobjects0
 libblas3
 libblkid-devel
@@ -1633,7 +1646,7 @@ libbotan-1_10-0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
-libbrlapi0_5
+libbrlapi0_6
 libburn4
 libbz2-1
 libbz2-devel
@@ -1671,7 +1684,6 @@ libcdr-0_0-0
 libcelt0-2
 libcelt051-0
 libcfitsio2
-libcgroup1
 libchamplain-0_12-0
 libcheese-common
 libcheese-gtk23
@@ -1708,6 +1720,7 @@ libcurl-devel
 libcurl4
 libdaemon0
 libdar5000
+libdb-4_5
 libdb-4_8
 libdb-4_8-devel
 libdbi1
@@ -1763,6 +1776,7 @@ libelf0
 libelf1
 libenca0
 libenchant1
+libepoxy0
 libepub-devel
 libepub0
 liberation-fonts
@@ -1772,6 +1786,7 @@ libesmtp
 libestr0
 libetonyek-0_0-0
 libetpan17
+libevdev2
 libevdocument3-4
 libevent-2_0-5
 libevview3-3
@@ -1804,8 +1819,9 @@ libfli-devel
 libfli1
 libfltk1
 libfm
-libfm-gtk3-3
-libfm3
+libfm-gtk4
+libfm-lang
+libfm4
 libfolks-data
 libfolks-eds25
 libfolks-libsocialweb25
@@ -2031,6 +2047,8 @@ libhangul1
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
+libhdf5-8
+libhdf5_hl8
 libhogweed2
 libhyphen0
 libibus-1_0-5
@@ -2166,6 +2184,7 @@ liblibkremotecontrol1
 liblightdm-gobject-1-0
 liblirc_client0
 liblockdev1
+liblogging0
 libloudmouth-1-0
 liblouis2
 liblpsolve55-0
@@ -2181,7 +2200,7 @@ libm17n0
 libmagic1
 libmal-devel
 libmal1
-libmarblewidget17
+libmarblewidget18
 libmbim-glib0
 libmcrypt
 libmeanwhile1
@@ -2235,6 +2254,7 @@ libmygpo-qt1
 libmysqlclient-devel
 libmysqlclient18
 libmysqlclient_r18
+libmysqlcppconn6
 libmysqld18
 libmythes-1_2-0
 libnautilus-extension1
@@ -2245,7 +2265,6 @@ libndr-nbt0
 libndr-standard0
 libndr0
 libneon27
-libnepomukwidgets4
 libnet9
 libnetapi0
 libnetcontrol0
@@ -2322,6 +2341,7 @@ libpackagekit-qt2-6
 libpango-1_0-0
 libpangomm-1_4-1
 libpangox-1_0-0
+libpano13-2
 libparted0
 libpath_utils1
 libpcap1
@@ -2432,6 +2452,7 @@ libqt4-sql-postgresql
 libqt4-sql-sqlite
 libqt4-sql-unixODBC
 libqt4-x11
+libqt5-qtimageformats
 libqtcurve-cairo0
 libqtcurve-utils1
 libquadmath0
@@ -2462,15 +2483,21 @@ libregistry0
 libreiserfs-0_3-0
 libreiserfscore0
 libreoffice
+libreoffice-base
+libreoffice-base-drivers-mysql
 libreoffice-branding-openSUSE
 libreoffice-calc
 libreoffice-calc-extensions
 libreoffice-converter
 libreoffice-draw
+libreoffice-filters-optional
 libreoffice-gnome
 libreoffice-hyphen
 libreoffice-icon-theme-crystal
+libreoffice-icon-theme-galaxy
+libreoffice-icon-theme-hicontrast
 libreoffice-icon-theme-oxygen
+libreoffice-icon-theme-sifr
 libreoffice-icon-theme-tango
 libreoffice-impress
 libreoffice-kde4
@@ -2486,6 +2513,7 @@ libreoffice-l10n-it
 libreoffice-l10n-ja
 libreoffice-l10n-pl
 libreoffice-l10n-ru
+libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
 libreoffice-templates-de
@@ -2523,6 +2551,7 @@ libsamplerate0
 libsasl2-3
 libsbc1
 libschroedinger-1_0-0
+libseccomp2
 libsecret-1-0
 libsecret-devel
 libseed-gtk3-0
@@ -2558,6 +2587,7 @@ libsmokeqt
 libsmokeqt-devel
 libsmputils1-1
 libsnapper2
+libsnappy1
 libsndfile-devel
 libsndfile1
 libsnmp30
@@ -2678,6 +2708,7 @@ libvdpau1
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvigraimpex5
 libvirt
 libvirt-client
 libvirt-daemon
@@ -2745,12 +2776,15 @@ libwx_baseu-2_8-0-stl
 libwx_baseu-2_9-5-stl
 libwx_baseu_net-2_8-0-stl
 libwx_baseu_net-2_9-5-stl
+libwx_baseu_xml-2_8-0-stl
 libwx_baseu_xml-2_9-5-stl
 libwx_gtk2u_adv-2_8-0-stl
 libwx_gtk2u_adv-2_9-5-stl
+libwx_gtk2u_aui-2_8-0-stl
 libwx_gtk2u_aui-2_9-5-stl
 libwx_gtk2u_core-2_8-0-stl
 libwx_gtk2u_core-2_9-5-stl
+libwx_gtk2u_gl-2_8-0-stl
 libwx_gtk2u_gl-2_9-5-stl
 libwx_gtk2u_html-2_8-0-stl
 libwx_gtk2u_html-2_9-5-stl
@@ -2759,6 +2793,7 @@ libwx_gtk2u_propgrid-2_9-5-stl
 libwx_gtk2u_richtext-2_9-5-stl
 libwx_gtk2u_stc-2_9-5-stl
 libwx_gtk2u_webview-2_9-5-stl
+libwx_gtk2u_xrc-2_8-0-stl
 libwx_gtk2u_xrc-2_9-5-stl
 libx86-1
 libx86emu1
@@ -2810,6 +2845,7 @@ libxfconf-0-2
 libxfsm-4_6-0
 libxine-devel
 libxine2
+libxine2-pulse
 libxkbcommon-devel
 libxkbcommon0
 libxkbfile-devel
@@ -2825,6 +2861,7 @@ libxml2-devel
 libxml2-tools
 libxmmsclient-glib1
 libxmmsclient6
+libxshmfence-devel
 libxshmfence1
 libxslt-devel
 libxslt-python
@@ -2843,6 +2880,7 @@ libyui-ncurses-devel
 libyui-ncurses-pkg6
 libyui-ncurses6
 libyui-qt-devel
+libyui-qt-graph6
 libyui-qt-pkg6
 libyui-qt6
 libyui6
@@ -2911,7 +2949,6 @@ lxpanel
 lxpanel-lang
 lxrandr
 lxsession
-lxsession-edit
 lxshortcut
 lxtask
 lxterminal
@@ -2919,7 +2956,6 @@ lxterminal-lang
 lynx
 lzop
 m17n-db
-m2300w
 m4
 mailman
 mailx
@@ -2958,6 +2994,8 @@ meld
 meld-lang
 memtest86+
 menu-cache
+mercurial
+mercurial-lang
 metamail
 metatheme-adwaita-common
 mgetty
@@ -3123,13 +3161,9 @@ ncurses-devel
 ncurses-utils
 ndesk-dbus
 ndesk-dbus-glib
-ndiswrapper
-ndiswrapper-kmp-default
-ndiswrapper-kmp-desktop
 nemiver
 nemiver-lang
 nepomuk-core
-nepomuk-core-devel
 net-snmp
 net-snmp-devel
 net-tools
@@ -3158,6 +3192,13 @@ nuoveXT2-icon-theme
 nxtvepg
 obconf
 obex-data-server
+obs-service-download_files
+obs-service-format_spec_file
+obs-service-recompress
+obs-service-set_version
+obs-service-source_validator
+obs-service-tar_scm
+obs-service-verify_file
 ocaml
 ocaml-compiler-libs
 ocaml-facile
@@ -3170,7 +3211,7 @@ okteta-devel
 okular
 open-iscsi
 open-vm-tools
-open-vm-tools-gui
+open-vm-tools-desktop
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
@@ -3199,6 +3240,7 @@ opensp
 opensp-devel
 openssh
 openssh-askpass
+openssh-helpers
 openssl
 opensuse-startup_en
 openvpn
@@ -3587,7 +3629,6 @@ perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
 perl-Test-Fatal
-perl-Test-Inter
 perl-Test-LeakTrace
 perl-Test-Manifest
 perl-Test-Script
@@ -3737,7 +3778,6 @@ plymouth-plugin-script
 plymouth-scripts
 pm-profiler
 pm-utils
-pm-utils-ndiswrapper
 pmidi
 podofo
 polkit
@@ -3802,7 +3842,6 @@ python-M2Crypto
 python-Pygments
 python-SpiceClientGtk
 python-Twisted
-python-apport
 python-apsw
 python-atspi
 python-base
@@ -3851,16 +3890,10 @@ python-kde4-akonadi
 python-kde4-devel
 python-kde4-khtml
 python-kde4-knewstuff
-python-kde4-nepomuk
 python-kde4-phonon
 python-kde4-plasma
-python-kde4-soprano
 python-kdebase4
 python-keyring
-python-launchpadlib
-python-lazr.authentication
-python-lazr.restfulclient
-python-lazr.uri
 python-ldap
 python-liblarch
 python-liblarch_gtk
@@ -3868,17 +3901,15 @@ python-libxml2
 python-lockfile
 python-lxml
 python-matplotlib
+python-matplotlib-tk
 python-mechanize
 python-netifaces
-python-notify
 python-numpy
-python-oauth
 python-odfpy
 python-opensync
 python-orbit
 python-pam
 python-pexpect
-python-problem-report
 python-pyOpenSSL
 python-pyasn1
 python-pyasn1-modules
@@ -3895,8 +3926,6 @@ python-pyzmq
 python-qt4
 python-qt4-devel
 python-qt4-utils
-python-requests
-python-satsolver
 python-setuptools
 python-simplejson
 python-sip
@@ -3904,21 +3933,18 @@ python-sip-devel
 python-six
 python-smbc
 python-smbios
-python-testresources
+python-solv
+python-tk
 python-tornado
 python-urlgrabber
 python-virtualbox
-python-wadllib
-python-wsgi_intercept
 python-wxWidgets-2_9
 python-wxWidgets-2_9-lang
 python-xcb-proto-devel
 python-xdg
-python-xlib
 python-xml
 python-yum
 python-zope.interface
-python-zypp
 python3
 python3-atspi
 python3-base
@@ -3937,7 +3963,9 @@ pyzy-db-open-phrase
 qdox
 qemu
 qemu-ipxe
+qemu-ksm
 qemu-kvm
+qemu-linux-user
 qemu-seabios
 qemu-sgabios
 qemu-tools
@@ -3983,6 +4011,7 @@ rendercheck
 rgb
 rhino
 rhythmbox
+rhythmbox-lang
 ripit
 ristretto
 ristretto-lang
@@ -4059,8 +4088,6 @@ sg3_utils
 sgml-skel
 shadow
 shared-color-profiles
-shared-desktop-ontologies
-shared-desktop-ontologies-devel
 shared-mime-info
 sharutils
 sharutils-lang
@@ -4137,7 +4164,6 @@ star
 startup-notification-devel
 step
 strace
-strigi
 strigi-devel
 subversion
 subversion-devel
@@ -4149,6 +4175,7 @@ subversion-tools
 sudo
 suse-module-tools
 suse-xsl-stylesheets
+susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de
@@ -4364,7 +4391,6 @@ typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
 typelib-1_0-Rsvg-2_0
 typelib-1_0-Secret-1
-typelib-1_0-SecretUnstable-0
 typelib-1_0-Soup-2_4
 typelib-1_0-SpiceClientGlib-2_0
 typelib-1_0-SpiceClientGtk-3_0
@@ -4642,6 +4668,7 @@ xfce4-panel-plugin-weather-lang
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
+xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-screenshooter
 xfce4-screenshooter-doc
@@ -4671,7 +4698,6 @@ xfsdump
 xfsinfo
 xfsprogs
 xfwm4
-xfwm4-branding-openSUSE
 xfwm4-lang
 xfwm4-themes
 xfwp
@@ -4780,11 +4806,11 @@ xz-devel
 yakuake
 yakuake-lang
 yast2
+yast2-add-on
 yast2-add-on-creator
 yast2-apparmor
 yast2-auth-server
 yast2-bootloader
-yast2-branding-openSUSE
 yast2-buildtools
 yast2-ca-management
 yast2-control-center
@@ -4809,7 +4835,6 @@ yast2-installation
 yast2-installation-devel-doc
 yast2-instserver
 yast2-iscsi-client
-yast2-iscsi-server
 yast2-isns
 yast2-kdump
 yast2-ldap
@@ -4839,6 +4864,7 @@ yast2-printer-devel-doc
 yast2-product-creator
 yast2-proxy
 yast2-python-bindings
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
@@ -4858,7 +4884,6 @@ yast2-sysconfig
 yast2-testsuite
 yast2-tftp-server
 yast2-theme-openSUSE
-yast2-theme-openSUSE-Oxygen
 yast2-trans-af
 yast2-trans-ar
 yast2-trans-bg
@@ -4947,3 +4972,5 @@ zoo
 zsh
 zypp-plugin-python
 zypper
+zypper-aptitude
+zypper-log
