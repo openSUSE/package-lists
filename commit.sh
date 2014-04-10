@@ -23,25 +23,6 @@
 ./mk_group.sh output/opensuse/x11_cd.i586.list DVD osc/system:install:head/_product/DVD.group
 (cd osc/system:install:head/_product/ && osc ci -m "auto update")
 
-p=$(mktemp)
-( cd osc/openSUSE:Factory/Test-DVD-x86_64 && osc up )
-sed -n -e '1,/BEGIN-PACKAGELIST/p' osc/openSUSE:Factory/Test-DVD-x86_64/PRODUCT-x86_64.kiwi > $p
-for i in $(cat output/opensuse/core_dvd.x86_64.list); do
-  echo "<repopackage name='$i'/>" >> $p
-done
-sed -n -e '/END-PACKAGELIST/,$p' osc/openSUSE:Factory/Test-DVD-x86_64/PRODUCT-x86_64.kiwi >> $p
-xmllint --format $p -o osc/openSUSE:Factory/Test-DVD-x86_64/PRODUCT-x86_64.kiwi
-rm $p
-pushd osc/openSUSE:Factory/Test-DVD-x86_64
-if ! cmp -s .osc/PRODUCT-x86_64.kiwi PRODUCT-x86_64.kiwi; then
-  MEDIUM_NAME=$(grep MEDIUM_NAME PRODUCT-x86_64.kiwi | sed -e 's,^.*>Test-,,; s,<.*,,')
-  MEDIUM_NAME=$((MEDIUM_NAME+1))
-  sed -i -e "s,MEDIUM_NAME\">.*<,MEDIUM_NAME\">Test-$MEDIUM_NAME<," PRODUCT-x86_64.kiwi
-  echo "updating version $MEDIUM_NAME"
-  osc ci -m "auto update"
-fi
-popd
-
 osc up -u osc/openSUSE:$proj:Live/package-lists-images.*
 cp -a output/opensuse/*default.i586.list osc/openSUSE:$proj:Live/package-lists-images.i586
 cp -a output/opensuse/*default.x86_64.list osc/openSUSE:$proj:Live/package-lists-images.x86_64
