@@ -3,6 +3,9 @@ Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 ModemManager
+MozillaFirefox
+MozillaFirefox-branding-openSUSE
+MozillaFirefox-translations-common
 NetworkManager
 NetworkManager-gnome
 NetworkManager-gnome-lang
@@ -46,7 +49,6 @@ boost-license1_54_0
 branding-openSUSE
 btrfsprogs
 bundle-lang-common-de
-bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -110,6 +112,7 @@ exo-lang
 exo-tools
 expat
 fd0ssh
+fifth-leg-font
 file
 file-magic
 file-roller
@@ -133,7 +136,7 @@ gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdmflexiserver
 genisoimage
-gettext-runtime-mini
+gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
@@ -158,6 +161,7 @@ gnome-pty-helper
 gnome-themes-accessibility
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
+google-droid-fonts
 gpart
 gparted
 gpg2
@@ -170,6 +174,7 @@ grub
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
+grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -248,6 +253,11 @@ libGLU1
 libHX28
 libICE6
 libLLVM
+libQt5Core5
+libQt5DBus5
+libQt5Gui5
+libQt5Widgets5
+libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -359,6 +369,7 @@ libenchant1
 libepoxy0
 liberation-fonts
 libesd0
+libestr0
 libevdev2
 libevent-2_0-5
 libexif12
@@ -378,6 +389,7 @@ libgarcon-branding-openSUSE
 libgarcon-data
 libgarcon-lang
 libgbm1
+libgcc33
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -395,7 +407,6 @@ libglib-2_0-0
 libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
-libgnome-bluetooth12
 libgnome-menu-3-0
 libgnomesu
 libgnomesu-lang
@@ -406,6 +417,7 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgpg-error0
 libgphoto2-6
+libgpm2
 libgraphite2-3
 libgsf-1-114
 libgsf-lang
@@ -451,11 +463,13 @@ libkeybinder0
 libkeyutils1
 libkmod2
 libksba8
+liblcms1
 liblcms2-2
 libldap-2_4-2
 libldb1
 liblightdm-gobject-1-0
 liblockdev1
+liblogging0
 libltdl7
 liblua5_1
 liblzma5
@@ -463,6 +477,7 @@ liblzo2-2
 libmagic1
 libmbim-glib0
 libmm-glib0
+libmng1
 libmnl0
 libmodman1
 libmount1
@@ -491,6 +506,7 @@ libnm-gtk0
 libnm-util2
 libnotify-tools
 libnotify4
+libnsssharedhelper0
 libntfs-3g84
 libnuma1
 libogg0
@@ -510,6 +526,7 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpcre16-0
 libpdb0
 libpipeline1
 libpixman-1-0
@@ -536,6 +553,7 @@ libpython2_7-1_0
 libqmi-glib1
 libqmi-tools
 libqrencode3
+libqt5-qtimageformats
 librcc0
 librcd0
 libreadline6
@@ -609,6 +627,7 @@ libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvpx1
 libvte9
 libwayland-client0
 libwayland-cursor0
@@ -629,12 +648,18 @@ libxatracker2
 libxcb-dri2-0
 libxcb-dri3-0
 libxcb-glx0
+libxcb-icccm4
+libxcb-image0
 libxcb-present0
+libxcb-randr0
+libxcb-render-util0
 libxcb-render0
+libxcb-shape0
 libxcb-shm0
 libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
+libxcb-xkb1
 libxcb1
 libxfce4panel-1_0-4
 libxfce4ui-1-0
@@ -649,6 +674,7 @@ libxkbcommon0
 libxkbfile1
 libxklavier16
 libxml2-2
+libxml2-tools
 libxshmfence1
 libxslt1
 libxtables10
@@ -656,6 +682,8 @@ libyaml-0-2
 libyui-gtk-pkg6
 libyui-gtk6
 libyui-ncurses6
+libyui-qt-pkg6
+libyui-qt6
 libyui6
 libz1
 libzeitgeist-1_0-1
@@ -732,7 +760,6 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-opensuse-startup_en
 os-prober
 p11-kit
 p11-kit-tools
@@ -749,6 +776,7 @@ parted
 patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
 patterns-openSUSE-fonts
+patterns-openSUSE-rest_cd_x11
 patterns-openSUSE-sw_management
 patterns-openSUSE-x11
 patterns-openSUSE-x11_yast
@@ -847,6 +875,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rsyslog
 ruby
 ruby-stdlib
 rubygem-fast_gettext
@@ -875,9 +904,9 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -919,9 +948,6 @@ usbutils
 util-linux
 vaapi-intel-driver
 vim
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
 vorbis-tools
 vte2-lang
 wallpaper-branding-openSUSE
@@ -999,7 +1025,6 @@ xfce4-panel-plugin-mixer
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
-xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-session
 xfce4-session-branding-openSUSE
@@ -1018,6 +1043,7 @@ xfdesktop-lang
 xfsdump
 xfsprogs
 xfwm4
+xfwm4-branding-openSUSE
 xfwm4-lang
 xinetd
 xinit
@@ -1046,6 +1072,7 @@ yast2
 yast2-bootloader
 yast2-control-center
 yast2-control-center-gnome
+yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
@@ -1055,7 +1082,9 @@ yast2-packager
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-proxy
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
+yast2-scanner
 yast2-snapper
 yast2-storage
 yast2-theme-openSUSE

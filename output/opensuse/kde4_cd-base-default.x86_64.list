@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -23,6 +24,7 @@ binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
+bundle-lang-common-it
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -76,7 +78,7 @@ fontconfig
 gawk
 gdk-pixbuf-query-loaders
 genisoimage
-gettext-runtime-mini
+gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 gio-branding-openSUSE
@@ -86,6 +88,7 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
+glibc-locale
 glibc-locale-32bit
 gnu-unifont-bitmap-fonts
 gpart
@@ -93,7 +96,10 @@ gpg2
 gpm
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-pc
+grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -117,6 +123,7 @@ iproute2
 iptables
 iputils
 kbd
+kernel-default
 keyutils
 klogd
 kmod
@@ -168,6 +175,7 @@ libcap-ng0
 libcap2
 libcom_err2
 libcrack2
+libcroco-0_6-3
 libcryptsetup4
 libcurl4
 libdaemon0
@@ -184,6 +192,7 @@ libdw1
 libedit0
 libelf0
 libelf1
+libestr0
 libevent-2_0-5
 libexpat1
 libext2fs2
@@ -191,6 +200,7 @@ libffi4
 libfreetype6
 libfuse2
 libgbm1
+libgcc33
 libgcc_s1
 libgcrypt20
 libgdbm4
@@ -204,15 +214,14 @@ libgmp10
 libgnutls28
 libgobject-2_0-0
 libgpg-error0
+libgpm2
 libgraphite2-3
 libgtk-2_0-0
-libgudev-1_0-0
 libharfbuzz0
 libhogweed2
 libicu52_1
 libicu52_1-data
 libidn11
-libimobiledevice4
 libiptc0
 libiw30
 libjasper1
@@ -226,6 +235,7 @@ libkmod2
 libksba8
 libldap-2_4-2
 libldb1
+liblogging0
 libltdl7
 liblua5_1
 liblzma5
@@ -264,7 +274,6 @@ libpcre1
 libpdb0
 libpipeline1
 libpixman-1-0
-libplist1
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -313,11 +322,9 @@ libtevent0
 libtidyp-1_04-0
 libtiff5
 libtirpc1
-libudev1
-libupower-glib2
+libudev-mini1
 libusb-0_1-4
 libusb-1_0-0
-libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
@@ -341,6 +348,7 @@ libxcb-sync1
 libxcb-xfixes0
 libxcb1
 libxml2-2
+libxml2-tools
 libxshmfence1
 libxtables10
 libyaml-0-2
@@ -373,6 +381,8 @@ ntfsprogs
 ntp
 numactl
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openldap2
 openldap2-client
 openslp
@@ -387,6 +397,10 @@ pam
 pam-config
 pango-tools
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-sw_management
 pciutils
 pciutils-ids
 perl
@@ -448,12 +462,12 @@ pigz
 pinentry
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-profiler
-pm-utils
 polkit
 polkit-default-privs
 postfix
@@ -476,6 +490,7 @@ release-notes-openSUSE
 rpcbind
 rpm
 rpm-python
+rsyslog
 ruby
 ruby-stdlib
 rubygem-fast_gettext
@@ -492,12 +507,13 @@ snapper-zypp-plugin
 strace
 sudo
 suse-module-tools
+suspend
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 tar
@@ -510,11 +526,9 @@ typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-2_0
 typelib-1_0-Pango-1_0
-udev
 udev-configure-printer
+udev-mini
 update-alternatives
-upower
-usbmuxd
 usbutils
 util-linux
 vim
@@ -540,6 +554,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
 yast2-snapper
+yast2-trans-en_US
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools

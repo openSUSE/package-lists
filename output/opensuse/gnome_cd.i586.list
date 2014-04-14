@@ -104,6 +104,8 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
+cups-filters-foomatic-rip
+cups-filters-ghostscript
 cups-libs
 cups-pk-helper
 curl
@@ -263,6 +265,7 @@ gnome-video-effects
 gnome-web-photo
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
+gnuchess
 google-droid-fonts
 gpart
 gparted
@@ -522,7 +525,7 @@ libdconf1
 libdhash1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-1
+libdirectfb-1_7-3
 libdjvulibre21
 libdmapsharing-3_0-2
 libdmx1
@@ -551,6 +554,7 @@ libenchant1
 libepoxy0
 liberation-fonts
 libesd0
+libestr0
 libevdev2
 libevdocument3-4
 libevent-2_0-5
@@ -578,6 +582,7 @@ libfuse2
 libgadu3
 libgbm1
 libgc1
+libgcc33
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -622,6 +627,7 @@ libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgpm2
 libgpod-lang
 libgpod-tools
 libgpod4
@@ -718,6 +724,7 @@ libldb1
 liblensfun0
 liblirc_client0
 liblockdev1
+liblogging0
 liblouis2
 liblrdf2
 libltdl7
@@ -1070,6 +1077,7 @@ ntp
 numlockx
 obex-data-server
 ofl
+open-iscsi
 open-vm-tools
 open-vm-tools-desktop
 openSUSE-build-key
@@ -1084,7 +1092,6 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-opensuse-startup_en
 openvpn
 orca
 os-prober
@@ -1119,6 +1126,7 @@ patterns-openSUSE-imaging
 patterns-openSUSE-multimedia
 patterns-openSUSE-non_oss
 patterns-openSUSE-office
+patterns-openSUSE-rest_cd_gnome
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-x11
@@ -1189,7 +1197,6 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
-phalanx
 pigz
 pinentry
 pkcs11-helper
@@ -1262,6 +1269,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rsyslog
 rtkit
 ruby
 ruby-stdlib
@@ -1312,6 +1320,7 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -1319,7 +1328,6 @@ system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -1426,9 +1434,6 @@ util-linux
 vaapi-intel-driver
 vim
 vino
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
 vorbis-tools
 vpnc
 wallpaper-branding-openSUSE

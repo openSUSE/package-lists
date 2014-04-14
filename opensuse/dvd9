@@ -51,8 +51,7 @@ job install provides pattern() = devel_gnome
 job install name calibre
 
 job install name pangox-compat
-job lock name package
 job install name libpangox-1_0-0
-job install name libpangox-1_0-0-32bit
+job install name libpangox-1_0-0-32bit # !i586
 job lock name xen-tools-domU
 

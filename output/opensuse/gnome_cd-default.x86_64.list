@@ -1,3 +1,4 @@
+Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
@@ -57,6 +58,8 @@ branding-openSUSE
 brasero
 brasero-nautilus
 btrfsprogs
+bundle-lang-common-it
+bundle-lang-gnome-nb
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -87,6 +90,7 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
+cups-filters-foomatic-rip
 cups-libs
 cups-pk-helper
 curl
@@ -163,7 +167,7 @@ genisoimage
 geoclue
 geoclue-recommended
 geoclue2
-gettext-runtime-mini
+gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
@@ -175,6 +179,7 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
+glibc-locale
 glibc-locale-32bit
 gnome-bluetooth
 gnome-bluetooth-plugins-geoclue
@@ -191,6 +196,7 @@ gnome-disk-utility
 gnome-documents
 gnome-font-viewer
 gnome-games-recommended
+gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-js-common
@@ -205,6 +211,7 @@ gnome-music
 gnome-nettool
 gnome-online-accounts
 gnome-online-miners
+gnome-packagekit
 gnome-power-manager
 gnome-pty-helper
 gnome-screenshot
@@ -228,6 +235,7 @@ gnome-user-share
 gnome-version
 gnome-video-effects
 gnu-unifont-bitmap-fonts
+gnuchess
 google-droid-fonts
 gpart
 gpg2
@@ -240,7 +248,10 @@ grilo-plugin-upnp
 grilo-plugin-youtube
 grilo-plugins
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-pc
+grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -310,6 +321,7 @@ iceauth
 icedax
 icewm
 icewm-default
+icewm-lite
 ifplugd
 info
 info2html
@@ -321,6 +333,7 @@ iputils
 iso-codes
 iso_ent
 kbd
+kernel-default
 keyutils
 klogd
 kmod
@@ -454,7 +467,7 @@ libdcerpc0
 libdconf1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-1
+libdirectfb-1_7-3
 libdmapsharing-3_0-2
 libdmx1
 libdotconf0
@@ -481,6 +494,7 @@ libenchant1
 libepoxy0
 liberation-fonts
 libesd0
+libestr0
 libevdev2
 libevdocument3-4
 libevent-2_0-5
@@ -505,6 +519,7 @@ libfuse2
 libgadu3
 libgbm1
 libgc1
+libgcc33
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -546,6 +561,7 @@ libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgpm2
 libgpod-lang
 libgpod-tools
 libgpod4
@@ -632,6 +648,7 @@ libldap-2_4-2
 libldb1
 liblirc_client0
 liblockdev1
+liblogging0
 liblouis2
 liblrdf2
 libltdl7
@@ -857,7 +874,8 @@ libwebkitgtk-3_0-0
 libwebp5
 libwebrtc_audio_processing0
 libwicked0
-libwnck-1-22
+libwnck-3-0
+libwnck-lang
 libwrap0
 libx86-1
 libx86emu1
@@ -949,6 +967,8 @@ numactl
 numlockx
 obex-data-server
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openldap2
 openldap2-client
@@ -969,6 +989,23 @@ pam-config
 pango-tools
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-gnome
+patterns-openSUSE-gnome_basis
+patterns-openSUSE-gnome_games
+patterns-openSUSE-gnome_imaging
+patterns-openSUSE-gnome_internet
+patterns-openSUSE-gnome_multimedia
+patterns-openSUSE-imaging
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_gnome
+patterns-openSUSE-x11
 pciutils
 pciutils-ids
 perl
@@ -1026,12 +1063,12 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
-phalanx
 pigz
 pinentry
 pkcs11-helper
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
@@ -1047,6 +1084,7 @@ ppp
 pptp
 procps
 psmisc
+pullin-flash-player
 pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
@@ -1091,6 +1129,7 @@ rhythmbox-lang
 rpcbind
 rpm
 rpm-python
+rsyslog
 rtkit
 ruby
 ruby-stdlib
@@ -1125,12 +1164,14 @@ strace
 sudo
 suse-module-tools
 susehelp
-susehelp_en
+susehelp_cz
 sushi
+suspend
 swell-foop
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -1138,7 +1179,6 @@ system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -1200,7 +1240,6 @@ typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
 typelib-1_0-GstTag-1_0
 typelib-1_0-GstVideo-1_0
-typelib-1_0-Gtk-2_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
@@ -1227,7 +1266,7 @@ typelib-1_0-Tracker-0_16
 typelib-1_0-TrackerMiner-0_16
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit-3_0
-typelib-1_0-Wnck-1_0
+typelib-1_0-Wnck-3_0
 typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
@@ -1291,6 +1330,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
@@ -1311,6 +1351,7 @@ yast2-pkg-bindings
 yast2-ruby-bindings
 yast2-snapper
 yast2-sound
+yast2-trans-en_US
 yast2-xml
 yast2-ycp-ui-bindings
 yelp

@@ -98,6 +98,7 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
+cups-filters-foomatic-rip
 cups-libs
 cups-pk-helper
 curl
@@ -162,7 +163,7 @@ gd
 gdb
 gdk-pixbuf-query-loaders
 genisoimage
-gettext-runtime-mini
+gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
@@ -192,6 +193,7 @@ grub
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
+grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -457,6 +459,7 @@ libcollection2
 libcolord2
 libcom_err2
 libcrack2
+libcroco-0_6-3
 libcryptmount0
 libcryptsetup4
 libcurl4
@@ -488,6 +491,7 @@ libepoxy0
 libepub0
 liberation-fonts
 libesd0
+libestr0
 libevdev2
 libevent-2_0-5
 libexif12
@@ -506,6 +510,7 @@ libfreetype6
 libfuse2
 libgadu3
 libgbm1
+libgcc33
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -530,6 +535,7 @@ libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgpm2
 libgpod-tools
 libgpod4
 libgps21
@@ -621,6 +627,7 @@ libldb1
 liblensfun0
 liblirc_client0
 liblockdev1
+liblogging0
 libloudmouth-1-0
 liblqr-1-0
 libltdl7
@@ -833,6 +840,7 @@ libvncclient0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvpx1
 libwavpack1
 libwayland-client0
 libwayland-cursor0
@@ -871,6 +879,7 @@ libxerces-c-3_1
 libxkbcommon0
 libxkbfile1
 libxml2-2
+libxml2-tools
 libxshmfence1
 libxslt1
 libxtables10
@@ -939,6 +948,7 @@ ntp
 numactl
 numlockx
 ofl
+open-iscsi
 open-vm-tools
 open-vm-tools-desktop
 openSUSE-build-key
@@ -952,7 +962,6 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-opensuse-startup_en
 openvpn
 os-prober
 oxygen-icon-theme
@@ -987,6 +996,7 @@ patterns-openSUSE-kde4_yast
 patterns-openSUSE-multimedia
 patterns-openSUSE-non_oss
 patterns-openSUSE-office
+patterns-openSUSE-rest_cd_kde4
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde4
 patterns-openSUSE-x11
@@ -1058,7 +1068,7 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
-phonon-backend-gstreamer-0_10
+phonon-backend-gstreamer
 pigz
 pinentry
 pinentry-qt4
@@ -1072,7 +1082,6 @@ plasma-nm-openvpn
 plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
-plasmoid-quickaccess
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
@@ -1126,6 +1135,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rsyslog
 rtkit
 ruby
 ruby-stdlib
@@ -1166,6 +1176,7 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -1173,7 +1184,6 @@ system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -1212,9 +1222,6 @@ util-linux
 vaapi-intel-driver
 vcdimager
 vim
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
 vorbis-tools

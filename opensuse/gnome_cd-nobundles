@@ -11,7 +11,6 @@ job lock name gnome2-user-docs
 job install name branding-openSUSE
 job install provides pattern() = rest_cd_gnome
 job install name openSUSE-release-livecd-gnome
-job lock name kernel-desktop
 #INCLUDE ignore_opensuse
 #INCLUDE ignore_opensuse-cds
 #INCLUDE ignore_opensuse-gnome-cd

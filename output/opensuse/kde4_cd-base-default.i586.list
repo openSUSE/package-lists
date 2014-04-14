@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -23,6 +24,7 @@ binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
+bundle-lang-common-cs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -84,12 +86,15 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnu-unifont-bitmap-fonts
 gpart
 gpg2
 gpm
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -115,6 +120,7 @@ iproute2
 iptables
 iputils
 kbd
+kernel-default
 keyutils
 klogd
 kmod
@@ -182,6 +188,7 @@ libdw1
 libedit0
 libelf0
 libelf1
+libestr0
 libevent-2_0-5
 libexpat1
 libext2fs2
@@ -202,6 +209,7 @@ libgmp10
 libgnutls28
 libgobject-2_0-0
 libgpg-error0
+libgpm2
 libgraphite2-3
 libgtk-2_0-0
 libgudev-1_0-0
@@ -224,6 +232,7 @@ libkmod2
 libksba8
 libldap-2_4-2
 libldb1
+liblogging0
 libltdl7
 liblua5_1
 liblzma5
@@ -369,6 +378,8 @@ ntfs-3g
 ntfsprogs
 ntp
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openldap2
 openldap2-client
 openslp
@@ -383,6 +394,10 @@ pam
 pam-config
 pango-tools
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-sw_management
 pciutils
 pciutils-ids
 perl
@@ -444,6 +459,7 @@ pigz
 pinentry
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
@@ -472,6 +488,7 @@ release-notes-openSUSE
 rpcbind
 rpm
 rpm-python
+rsyslog
 ruby
 ruby-stdlib
 rubygem-fast_gettext
@@ -487,12 +504,13 @@ snapper-zypp-plugin
 strace
 sudo
 suse-module-tools
+suspend
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 tar
@@ -535,6 +553,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
 yast2-snapper
+yast2-trans-en_US
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools

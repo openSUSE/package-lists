@@ -27,9 +27,9 @@ bind-utils
 binutils
 boost-license1_54_0
 branding-openSUSE
-bundle-lang-common-en
-bundle-lang-gnome-en
-bundle-lang-kde-en
+bundle-lang-common-cs
+bundle-lang-gnome-nb
+bundle-lang-kde-ru
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -56,7 +56,6 @@ dbus-1-python
 dbus-1-x11
 dconf
 desktop-data-openSUSE
-desktop-translations
 device-mapper
 diffutils
 dirmngr
@@ -304,6 +303,7 @@ libfreehand-0_0-0
 libfreetype6
 libfuse2
 libgbm1
+libgcc33
 libgcc_s1
 libgck-1-0
 libgcr-3-1
@@ -485,7 +485,6 @@ libreoffice-l10n-en
 libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
-libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
@@ -542,6 +541,7 @@ libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvpx1
 libwayland-client0
 libwayland-cursor0
 libwayland-egl1
@@ -613,7 +613,6 @@ mkfontscale
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-myspell-american
 myspell-german-old
 ncurses-utils
 net-tools
@@ -623,7 +622,6 @@ openSUSE-release
 openSUSE-release-dvd
 openobex
 openssl
-opensuse-startup_en
 oxygen-icon-theme
 p11-kit
 p11-kit-tools
@@ -670,7 +668,7 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
-phonon-backend-gstreamer-0_10
+phonon-backend-gstreamer
 pigz
 pinentry
 pkg-config
@@ -679,7 +677,6 @@ plasma-addons-akonadi
 plasma-addons-lancelot
 plasma-addons-marble
 plasmoid-folderview
-plasmoid-quickaccess
 pm-utils
 polkit
 polkit-default-privs

@@ -42,18 +42,20 @@ close(OUT);
 
 open(TS, "testsolv -r t|");
 my @installs;
+my $ret = 0;
 while ( <TS> ) {
   if (/^install (.*)-[^-]+-[^-]+\.(\S*)@/) {
 	push(@installs, $1);
   } else {
-	print $_;
-	exit(1);
+	print "$file: $_";
+        $ret = 1;
   }
 }
+exit(1) if ($ret);
+
 close(TS);
 open(OUT, ">", "output/$file.$arch.list");
 for my $pkg (sort @installs) {
   print OUT "$pkg\n";
 }
 close(OUT);
-

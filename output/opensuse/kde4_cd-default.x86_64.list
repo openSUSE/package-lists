@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLESv2-2
@@ -56,6 +57,8 @@ bluez
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
+bundle-lang-common-it
+bundle-lang-kde-pt
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -79,6 +82,7 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
+cups-filters-foomatic-rip
 cups-libs
 cups-pk-helper
 curl
@@ -136,7 +140,7 @@ gd
 gdb
 gdk-pixbuf-query-loaders
 genisoimage
-gettext-runtime-mini
+gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
@@ -147,6 +151,7 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
+glibc-locale
 glibc-locale-32bit
 gnome-keyring
 gnome-keyring-pam
@@ -158,7 +163,10 @@ gpm
 gptfdisk
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-pc
+grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -196,6 +204,7 @@ iceauth
 icedax
 icewm
 icewm-default
+icewm-lite
 icoutils
 ifplugd
 info
@@ -222,6 +231,8 @@ kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
+kdebase4-workspace
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdegames4-carddecks-default
@@ -238,6 +249,7 @@ kdm
 kdm-branding-openSUSE
 kdnssd
 keditbookmarks
+kernel-default
 keyutils
 kfilemetadata
 kgamma
@@ -294,6 +306,7 @@ libIlmThread-2_1-11
 libLLVM
 libModemManagerQt0
 libNetworkManagerQt0
+libQtWebKit4
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -384,6 +397,7 @@ libclucene-shared1
 libcolord2
 libcom_err2
 libcrack2
+libcroco-0_6-3
 libcryptsetup4
 libcurl4
 libdaemon0
@@ -409,6 +423,7 @@ libepoxy0
 libepub0
 liberation-fonts
 libesd0
+libestr0
 libevdev2
 libevent-2_0-5
 libexif12
@@ -424,6 +439,7 @@ libfreerdp-1_0-plugins
 libfreetype6
 libfuse2
 libgbm1
+libgcc33
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -445,6 +461,7 @@ libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgpm2
 libgps21
 libgrantlee_core0
 libgrantlee_gui0
@@ -520,6 +537,7 @@ libldap-2_4-2
 libldb1
 liblirc_client0
 liblockdev1
+liblogging0
 libltdl7
 liblua5_1
 liblzma5
@@ -614,6 +632,7 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
+libqt4-x11
 libraptor2-0
 librasqal3
 libraw10
@@ -684,6 +703,7 @@ libvncclient0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvpx1
 libwavpack1
 libwayland-client0
 libwayland-cursor0
@@ -718,6 +738,7 @@ libxerces-c-3_1
 libxkbcommon0
 libxkbfile1
 libxml2-2
+libxml2-tools
 libxshmfence1
 libxslt1
 libxtables10
@@ -771,6 +792,8 @@ ntp
 numactl
 numlockx
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openldap2
 openldap2-client
@@ -781,13 +804,34 @@ openssh-helpers
 openssl
 openvpn
 os-prober
+oxygen-icon-theme
 p11-kit
 p11-kit-tools
+p7zip
 pam
 pam-config
 pango-tools
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-imaging
+patterns-openSUSE-kde
+patterns-openSUSE-kde4_basis
+patterns-openSUSE-kde4_games
+patterns-openSUSE-kde4_imaging
+patterns-openSUSE-kde4_internet
+patterns-openSUSE-kde4_multimedia
+patterns-openSUSE-kde4_pure
+patterns-openSUSE-kde4_utilities
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_kde4
+patterns-openSUSE-x11
 pciutils
 pciutils-ids
 pcsc-lite
@@ -846,7 +890,7 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
-phonon-backend-gstreamer-0_10
+phonon-backend-gstreamer
 pigz
 pinentry
 pinentry-qt4
@@ -860,8 +904,8 @@ plasma-nm-openvpn
 plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
-plasmoid-quickaccess
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
@@ -878,6 +922,7 @@ pptp
 procps
 psmisc
 ptools
+pullin-flash-player
 pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
@@ -905,6 +950,7 @@ rgb
 rpcbind
 rpm
 rpm-python
+rsyslog
 rtkit
 ruby
 ruby-stdlib
@@ -930,11 +976,13 @@ sudo
 suse-module-tools
 susegreeter-branding-openSUSE
 susehelp
-susehelp_en
+susehelp_cz
+suspend
 sweeper
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -942,7 +990,6 @@ system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -1022,6 +1069,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
@@ -1043,6 +1091,7 @@ yast2-pkg-bindings
 yast2-ruby-bindings
 yast2-snapper
 yast2-sound
+yast2-trans-en_US
 yast2-transfer
 yast2-xml
 yast2-ycp-ui-bindings

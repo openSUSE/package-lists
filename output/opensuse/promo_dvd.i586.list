@@ -24,6 +24,9 @@ NetworkManager-pptp-gnome
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 OpenPrintingPPDs
+OpenPrintingPPDs-ghostscript
+OpenPrintingPPDs-hpijs
+OpenPrintingPPDs-postscript
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -34,6 +37,8 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
+abiword
+abiword-docs
 accountsservice
 acl
 acpica
@@ -61,11 +66,14 @@ apache2-mod_dnssd
 apache2-mod_php5
 apache2-prefork
 apache2-utils
+apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
 appmenu-qt
+aqbanking
+aqbanking-lang
 arabic-ae-fonts
 arabic-bitmap-fonts
 arabic-fonts
@@ -74,7 +82,6 @@ arabic-kacstone-fonts
 arabic-naqsh-fonts
 argyllcms
 ark
-arphic-ukai-fonts
 arphic-uming-fonts
 arpwatch
 arpwatch-ethercodes
@@ -211,7 +218,6 @@ claws-mail
 claws-mail-lang
 clicfs
 cln
-cm-unicode-fonts
 cmake
 color-filesystem
 colord
@@ -230,13 +236,14 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
+cups-filters-foomatic-rip
+cups-filters-ghostscript
 cups-libs
 cups-pk-helper
 curl
 cvs
 cvsps
 cyradm
-cyreal-lobster-cyrillic-fonts
 cyrus-imapd
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -259,7 +266,6 @@ dejavu-fonts
 deltarpm
 desktop-data-openSUSE
 desktop-file-utils
-desktop-translations
 devhelp
 devhelp-lang
 device-mapper
@@ -291,6 +297,7 @@ dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 e2fsprogs-devel
 ed
+efont-unicode-bitmap-fonts
 ekiga
 ekiga-lang
 ekiga-plugins-gstreamer
@@ -303,7 +310,6 @@ empathy
 enblend-enfuse
 enscript
 eog
-esound-daemon
 espeak
 etags
 ethtool
@@ -316,7 +322,6 @@ exo-lang
 exo-tools
 expat
 farstream-data
-fbiterm
 fcitx
 fcitx-branding-openSUSE
 fcitx-chewing
@@ -339,6 +344,7 @@ fcitx-table-tw-smart-cangjie6
 fd0ssh
 fdupes
 fetchmail
+fifth-leg-font
 file
 file-magic
 file-roller
@@ -372,11 +378,6 @@ gcc-info
 gcc48
 gcc48-c++
 gcc48-info
-gcin
-gcin-branding-openSUSE
-gcin-gtk2-immodule
-gcin-gtk3-immodule
-gcin-qt4-immodule
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -506,15 +507,13 @@ gnome-vfs2
 gnome-vfs2-lang
 gnome-video-effects
 gnome-web-photo
-gnu-free-fonts
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
-google-arimo-fonts
-google-cousine-fonts
-google-croscore-fonts
+gnucash
+gnucash-lang
+gnuchess
+goffice-0_8-lang
 google-droid-fonts
-google-symbolneu-fonts
-google-tinos-fonts
 gpart
 gparted
 gperf
@@ -610,12 +609,15 @@ gtkspell-lang
 gucharmap
 guile
 guile-modules-2_0
+guile1
 gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
+gwenhywfar
+gwenhywfar-lang
 gwenview
 gxditview
 gzip
@@ -626,6 +628,8 @@ hdparm
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
+hplip-hpijs
+hplip-sane
 htdig
 hugin
 hunspell
@@ -634,34 +638,6 @@ hwinfo
 hylafax
 hylafax-client
 iagno
-ibus
-ibus-branding-openSUSE-KDE
-ibus-googlepinyin
-ibus-gtk
-ibus-gtk3
-ibus-lang
-ibus-libpinyin
-ibus-m17n
-ibus-pinyin
-ibus-qt
-ibus-sunpinyin
-ibus-table
-ibus-table-chinese
-ibus-table-chinese-array
-ibus-table-chinese-cangjie
-ibus-table-chinese-cantonese
-ibus-table-chinese-easy
-ibus-table-chinese-erbi
-ibus-table-chinese-quick
-ibus-table-chinese-scj
-ibus-table-chinese-stroke5
-ibus-table-chinese-wu
-ibus-table-chinese-wubi-haifeng
-ibus-table-chinese-wubi-jidian
-ibus-table-chinese-yong
-ibus-table-rustrad
-ibus-table-translit
-ibus-table-zhuyin
 icc-profiles
 icc-profiles-basiccolor-lstarrgb
 icc-profiles-basiccolor-printing2009-coat2
@@ -684,9 +660,14 @@ indic-fonts
 info
 info2html
 initviocons
+inkscape
+inkscape-extensions-extra
+inkscape-extensions-gimp
+inkscape-lang
 inn
 insserv-compat
 intel-gpu-tools
+intlfonts
 intlfonts-euro-bitmap-fonts
 ipa-gothic-fonts
 iproute2
@@ -880,6 +861,7 @@ leafpad
 lensfun-data
 less
 lftp
+libEMF1
 libFLAC++6
 libFLAC8
 libGLEW1_9
@@ -894,6 +876,7 @@ libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libImlib2-1
 libLLVM
+libMagick++-6_Q16-3
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libModemManagerQt0
@@ -907,6 +890,7 @@ libQtGLib-2_0-0
 libQtGStreamer-0_10-0
 libQtWebKit4
 libSDL-1_2-0
+libSDL_gfx15
 libSM6
 libSoundTouch0
 libX11-6
@@ -948,6 +932,7 @@ libXxf86dga1
 libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
+libabiword-2_8
 libabw-0_0-0
 libaccountsservice0
 libacl1
@@ -1099,6 +1084,7 @@ libdaemon0
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
+libdbi1
 libdbus-1-3
 libdbusmenu-qt2
 libdc1394-22
@@ -1107,7 +1093,7 @@ libdcerpc0
 libdconf1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-1
+libdirectfb-1_7-3
 libdiscid0
 libdjvulibre21
 libdmapsharing-3_0-2
@@ -1144,6 +1130,7 @@ libepub0
 liberation-fonts
 libesd0
 libesmtp
+libestr0
 libetonyek-0_0-0
 libetpan17
 libevdev2
@@ -1193,6 +1180,7 @@ libgarcon-data
 libgarcon-lang
 libgbm1
 libgc1
+libgcc33
 libgcc_s1
 libgcj-devel
 libgcj48
@@ -1250,8 +1238,6 @@ libgnome-lang
 libgnome-menu-3-0
 libgnomecanvas-2-0
 libgnomecanvas-lang
-libgnomekbd
-libgnomekbd-lang
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -1260,11 +1246,13 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
+libgoffice-0_8-8
 libgomp1
 libgooglepinyin0
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgpm2
 libgpod-tools
 libgpod4
 libgps21
@@ -1318,6 +1306,12 @@ libgucharmap_2_90-7
 libgudev-1_0-0
 libguess1
 libguile-2_0-22
+libguile-srfi-srfi-1-v-3-3
+libguile-srfi-srfi-13-14-v-3-3
+libguile-srfi-srfi-4-v-3-3
+libguile-srfi-srfi-60-v-2-2
+libguile17
+libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
@@ -1326,6 +1320,9 @@ libgvfscommon0
 libgvnc-1_0-0
 libgweather-3-6
 libgweather-data
+libgwengui-gtk2-0
+libgwenhywfar60
+libgwenhywfar60-plugins
 libgxps2
 libhangul1
 libharfbuzz-icu0
@@ -1364,6 +1361,7 @@ libjasper1
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
 libjbig2
+libjbig2dec0
 libjpeg-turbo
 libjpeg8
 libjson-c2
@@ -1409,6 +1407,7 @@ libkscreen
 libkscreen1
 libksuseinstall1
 libktexteditor
+libktoblzcheck1
 libktorrent5
 libkvkontakte1
 liblangtag1
@@ -1423,6 +1422,7 @@ liblensfun0
 liblightdm-gobject-1-0
 liblirc_client0
 liblockdev1
+liblogging0
 libloudmouth-1-0
 liblouis2
 liblpsolve55-0
@@ -1433,7 +1433,6 @@ liblua5_1
 liblua5_2
 liblzma5
 liblzo2-2
-libm17n0
 libmagic1
 libmarblewidget18
 libmbim-glib0
@@ -1502,6 +1501,8 @@ libntfs-3g84
 liboauth0
 libodfgen-0_0-0
 libofa0
+libofx
+libofx6
 libogg0
 liboggkate1
 libopal3_10_10
@@ -1509,6 +1510,7 @@ libopenal1
 libopenbabel4
 libopencc1
 libopencv2_4
+libopenjp2-6
 libopenjpeg1
 libopenobex2
 libopenraw1
@@ -1525,7 +1527,6 @@ libosinfo
 libosinfo-1_0-0
 libosip2
 libosip2-devel
-libotf0
 libotr5
 libp11-kit0
 libpackagekit-glib2-16
@@ -1559,6 +1560,7 @@ libpixman-1-0
 libpixman-1-0-devel
 libpkcs11-helper1
 libplist1
+libplotter2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -1596,7 +1598,6 @@ libpyglib-gi-2_0-python2-0
 libpyglib-gi-2_0-python3-0
 libpython2_7-1_0
 libpython3_4m1_0
-libpyzy-1_0-0
 libqalculate5
 libqca2
 libqimageblitz4
@@ -1632,6 +1633,7 @@ libreoffice-base
 libreoffice-base-drivers-mysql
 libreoffice-branding-openSUSE
 libreoffice-calc
+libreoffice-calc-extensions
 libreoffice-draw
 libreoffice-filters-optional
 libreoffice-gnome
@@ -1673,6 +1675,7 @@ libreoffice-thesaurus-it
 libreoffice-thesaurus-pt
 libreoffice-thesaurus-ru
 libreoffice-writer
+libreoffice-writer-extensions
 librest0
 librsvg-2-2
 librsync1
@@ -1832,6 +1835,7 @@ libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
 libwrap0
+libwv-1_2-3
 libwx_baseu-2_8-0-stl
 libwx_baseu_net-2_8-0-stl
 libwx_baseu_xml-2_8-0-stl
@@ -1894,6 +1898,7 @@ libxine2-pulse
 libxkbcommon0
 libxkbfile1
 libxklavier16
+libxml++-2_6-2
 libxml2-2
 libxml2-tools
 libxmmsclient-glib1
@@ -1942,7 +1947,6 @@ lsof
 lsscsi
 ltrace
 luit
-lv
 lvm2
 lxappearance
 lxappearance-lang
@@ -1964,7 +1968,6 @@ lxtask
 lxterminal
 lxterminal-lang
 lynx
-m17n-db
 m4
 mailman
 mailx
@@ -1995,6 +1998,7 @@ menu-cache
 metamail
 metatheme-adwaita-common
 mgetty
+mjpegtools
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
@@ -2015,6 +2019,7 @@ mtpaint
 mtpaint-lang
 mtr
 multipath-tools
+mupdf
 mutter
 mutter-data
 myspell-american
@@ -2118,6 +2123,7 @@ obex-data-server
 ofl
 okteta
 okular
+open-iscsi
 open-vm-tools
 open-vm-tools-desktop
 openSUSE-build-key
@@ -2126,7 +2132,6 @@ openSUSE-release-dvd-promo
 openSUSE-xfce-icon-theme
 openal-soft
 openbox
-opencc
 opencc-data
 openldap2
 openldap2-client
@@ -2135,6 +2140,7 @@ openmpi-libs
 openobex
 openslp
 openslp-server
+opensp
 openssh
 openssh-askpass
 openssh-helpers
@@ -2162,9 +2168,6 @@ pam_mount
 pango-devel
 pango-tools
 parallel-printer-support
-paratype-pt-mono-fonts
-paratype-pt-sans-fonts
-paratype-pt-serif-fonts
 parcellite
 parley
 parted
@@ -2231,6 +2234,7 @@ patterns-openSUSE-non_oss_opt
 patterns-openSUSE-office
 patterns-openSUSE-office_opt
 patterns-openSUSE-remote_desktop
+patterns-openSUSE-rest_promo_dvd
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-sw_management_kde4
@@ -2271,6 +2275,7 @@ perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
 perl-Crypt-Rijndael
+perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
@@ -2278,6 +2283,7 @@ perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
 perl-Date-Calc
+perl-Date-Manip
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
@@ -2287,10 +2293,15 @@ perl-Error
 perl-File-Listing
 perl-File-RandomAccess
 perl-File-Slurp
+perl-Finance-Quote
+perl-HTML-Element-Extended
 perl-HTML-Parser
 perl-HTML-SimpleParse
+perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Tidy
+perl-HTML-TokeParser-Simple
+perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -2333,15 +2344,18 @@ perl-Readonly
 perl-SNMP
 perl-SQL-Statement
 perl-Socket6
+perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
+perl-Test-Fatal
 perl-Test-Manifest
 perl-Text-Wrapper
 perl-Tie-IxHash
 perl-TimeDate
+perl-Try-Tiny
 perl-Types-Serialiser
 perl-URI
 perl-Unix-Syslog
@@ -2370,8 +2384,7 @@ perl-libwww-perl
 perl-razor-agents
 perl-solv
 permissions
-phalanx
-phonon-backend-gstreamer-0_10
+phonon-backend-gstreamer
 php5
 php5-ctype
 php5-dom
@@ -2400,7 +2413,6 @@ plasma-nm-openvpn
 plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
-plasmoid-quickaccess
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
@@ -2426,11 +2438,13 @@ procmail
 procps
 providers
 psmisc
+pstoedit
 psutils
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -2458,7 +2472,6 @@ python-gobject2
 python-gstreamer-0_10
 python-gtk
 python-httplib2
-python-ibus
 python-kde4
 python-kde4-akonadi
 python-kde4-khtml
@@ -2482,9 +2495,7 @@ python-smbc
 python-smbios
 python-solv
 python-urlgrabber
-python-virtualbox
 python-xcb-proto-devel
-python-xdg
 python-xml
 python-yum
 python3
@@ -2496,8 +2507,6 @@ python3-gobject
 python3-gobject-cairo
 python3-louis
 python3-speechd
-pyzy-db-android
-pyzy-db-open-phrase
 qemu
 qemu-ipxe
 qemu-ksm
@@ -2536,6 +2545,7 @@ rpm
 rpm-build
 rpm-python
 rsync
+rsyslog
 rtkit
 ruby
 ruby-stdlib
@@ -2579,13 +2589,13 @@ sharutils
 sharutils-lang
 shotwell
 siga
-sil-charis-fonts
 silc-toolkit
 simple-scan
 site-config
 skanlite
 skanlite-doc
 skanlite-lang
+slib
 smartmontools
 smbios-utils-python
 smp_utils
@@ -2601,7 +2611,6 @@ sox
 spamassassin
 speech-dispatcher
 speech-dispatcher-module-espeak
-sqlite3
 squashfs
 squid
 squidGuard
@@ -2634,6 +2643,7 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -2641,7 +2651,6 @@ system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-rpm-macros
 systemd-sysvinit
@@ -2668,12 +2677,8 @@ telepathy-salut
 telnet
 terminfo
 terminfo-base
-terminus-bitmap-fonts
 tftp
 thai-fonts
-thessalonica-oldstandard-otf-fonts
-thessalonica-theano-otf-fonts
-thryomanes-fonts
 thunar
 thunar-lang
 thunar-plugin-archive
@@ -2778,7 +2783,6 @@ typelib-1_0-TrackerMiner-0_16
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit-3_0
 typelib-1_0-Wnck-1_0
-typelib-1_0-Xkl-1_0
 typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
@@ -2801,8 +2805,6 @@ util-linux
 vaapi-intel-driver
 vacation
 valgrind
-vboxgtk
-vboxgtk-lang
 vcdimager
 viewnior
 viewnior-lang
@@ -2813,14 +2815,6 @@ vinagre
 vinagre-lang
 vino
 virt-utils
-virtualbox
-virtualbox-guest-kmp-default
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
-virtualbox-host-kmp-default
-virtualbox-host-kmp-desktop
-virtualbox-qt
 virtuoso-drivers
 virtuoso-server
 vlan
@@ -2844,8 +2838,6 @@ wodim
 wol
 words
 wpa_supplicant
-wqy-microhei-fonts
-wqy-zenhei-fonts
 wxWidgets-lang
 x11-tools
 xauth
@@ -2918,7 +2910,6 @@ xfce4-panel-plugin-notes-lang
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
-xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-screenshooter
 xfce4-screenshooter-doc
@@ -2942,6 +2933,7 @@ xfdesktop-lang
 xfsdump
 xfsprogs
 xfwm4
+xfwm4-branding-openSUSE
 xfwm4-lang
 xhost
 xinetd
@@ -3108,6 +3100,7 @@ yelp
 yelp-xsl
 yp-tools
 ypbind
+yudit
 yum-metadata-parser
 zd1211-firmware
 zenity

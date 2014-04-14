@@ -27,5 +27,5 @@ job lock name kernel-firmware
 job install name branding-openSUSE
 job install name kernel-default
 job install name openSUSE-release-ftp
-job install provides pattern() = kde4
+job install provides pattern() = kde
 

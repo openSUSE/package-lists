@@ -43,7 +43,7 @@ job install name openSUSE-release-dvd
 job install provides pattern() = devel_gnome
 job install name xfce4-panel
 job install name elilo
-job install name efibootmgr
+job install name efibootmgr # !i586
 job install name postgresql
 job install name postgresql-devel
 job install name postgresql-contrib

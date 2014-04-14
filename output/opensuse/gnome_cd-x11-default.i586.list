@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -32,6 +33,7 @@ binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
+bundle-lang-common-cs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -52,6 +54,7 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
+cups-filters-foomatic-rip
 cups-libs
 cups-pk-helper
 curl
@@ -107,6 +110,8 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
+gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-keyring
@@ -120,6 +125,8 @@ gpm
 gptfdisk
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -164,6 +171,7 @@ iceauth
 icedax
 icewm
 icewm-default
+icewm-lite
 ifplugd
 info
 insserv-compat
@@ -173,6 +181,7 @@ iptables
 iputils
 json-glib-lang
 kbd
+kernel-default
 keyutils
 klogd
 kmod
@@ -183,6 +192,11 @@ less
 libFLAC8
 libICE6
 libLLVM
+libQt5Core5
+libQt5DBus5
+libQt5Gui5
+libQt5Widgets5
+libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -283,6 +297,7 @@ libenchant1
 libepoxy0
 liberation-fonts
 libesd0
+libestr0
 libevdev2
 libevent-2_0-5
 libexif12
@@ -316,6 +331,7 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgpg-error0
 libgphoto2-6
+libgpm2
 libgraphite2-3
 libgstapp-0_10-0
 libgstapp-1_0-0
@@ -353,15 +369,18 @@ libkate1
 libkeyutils1
 libkmod2
 libksba8
+liblcms1
 liblcms2-2
 libldap-2_4-2
 libldb1
 liblockdev1
+liblogging0
 libltdl7
 liblua5_1
 liblzma5
 liblzo2-2
 libmagic1
+libmng1
 libmnl0
 libmodman1
 libmount1
@@ -399,6 +418,7 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpcre16-0
 libpdb0
 libpipeline1
 libpixman-1-0
@@ -420,6 +440,7 @@ libpulse0
 libpyglib-gi-2_0-python2-0
 libpython2_7-1_0
 libqrencode3
+libqt5-qtimageformats
 libreadline6
 librest0
 libruby2_1
@@ -475,6 +496,7 @@ libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvpx1
 libwayland-client0
 libwayland-cursor0
 libwayland-server0
@@ -490,11 +512,18 @@ libx86emu1
 libxcb-dri2-0
 libxcb-dri3-0
 libxcb-glx0
+libxcb-icccm4
+libxcb-image0
 libxcb-present0
+libxcb-randr0
+libxcb-render-util0
 libxcb-render0
+libxcb-shape0
 libxcb-shm0
 libxcb-sync1
+libxcb-util1
 libxcb-xfixes0
+libxcb-xkb1
 libxcb1
 libxkbcommon0
 libxkbfile1
@@ -505,6 +534,8 @@ libxslt1
 libxtables10
 libyaml-0-2
 libyui-ncurses6
+libyui-qt-pkg6
+libyui-qt6
 libyui6
 libz1
 libzio1
@@ -541,6 +572,8 @@ ntp
 numlockx
 obex-data-server
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openldap2
 openldap2-client
 openobex
@@ -557,6 +590,13 @@ pam-config
 pango-tools
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-sw_management
+patterns-openSUSE-x11
+patterns-openSUSE-x11_yast
 pciutils
 pciutils-ids
 perl
@@ -618,6 +658,7 @@ pigz
 pinentry
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
@@ -652,6 +693,7 @@ rgb
 rpcbind
 rpm
 rpm-python
+rsyslog
 rtkit
 ruby
 ruby-stdlib
@@ -671,9 +713,11 @@ sound-theme-freedesktop
 strace
 sudo
 suse-module-tools
+suspend
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -681,7 +725,6 @@ system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -750,6 +793,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
@@ -766,8 +810,11 @@ yast2-core
 yast2-hardware-detection
 yast2-perl-bindings
 yast2-pkg-bindings
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
+yast2-scanner
 yast2-snapper
+yast2-trans-en_US
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools

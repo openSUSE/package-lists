@@ -95,6 +95,7 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
+cups-filters-foomatic-rip
 cups-libs
 cups-pk-helper
 curl
@@ -129,8 +130,6 @@ dnsmasq
 dolphin
 dosfstools
 dracut
-dtv-scan-tables
-dvb
 dvd+rw-tools
 e2fsprogs
 elfutils
@@ -149,7 +148,6 @@ freerdp
 gawk
 gconf-polkit
 gconf2
-gconf2-branding-basedonopensuse
 gcr-data
 gcr-prompter
 gcr-viewer
@@ -159,7 +157,7 @@ gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime-mini
 gfxboot
-gfxboot-branding-basedonopensuse
+gfxboot-branding-openSUSE
 ghostscript-fonts-std
 gio-branding-basedonopensuse
 girepository-1_0
@@ -212,7 +210,6 @@ gzip
 hardlink
 hdparm
 hicolor-icon-theme
-hicolor-icon-theme-branding-basedonopensuse
 htdig
 hunspell
 hunspell-tools
@@ -318,7 +315,6 @@ kruler
 kscreen
 kscreen-lang
 ksnapshot
-ksplash-qml-branding-basedonopensuse
 ksplashx-branding-basedonopensuse
 ksshaskpass
 ksudoku
@@ -474,6 +470,7 @@ libepoxy0
 libepub0
 liberation-fonts
 libesd0
+libestr0
 libevdev2
 libevent-2_0-5
 libexif12
@@ -491,6 +488,7 @@ libfreetype6
 libfuse2
 libgadu3
 libgbm1
+libgcc33
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -513,6 +511,7 @@ libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgpm2
 libgpod-lang
 libgpod-tools
 libgpod4
@@ -606,6 +605,7 @@ libldb1
 liblensfun0
 liblirc_client0
 liblockdev1
+liblogging0
 libloudmouth-1-0
 liblqr-1-0
 libltdl7
@@ -806,6 +806,7 @@ libvncclient0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvpx1
 libwavpack1
 libwayland-client0
 libwayland-cursor0
@@ -870,7 +871,6 @@ luit
 lvm2
 mailx
 man
-manufacturer-PPDs
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -907,6 +907,7 @@ ntfs-3g
 ntfsprogs
 ntp
 numlockx
+open-iscsi
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-kde
@@ -918,12 +919,12 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-opensuse-startup_en
 openvpn
 os-prober
 oxygen-icon-theme
 p11-kit
 p11-kit-tools
+p7zip
 pam
 pam-config
 pam_fprint
@@ -1019,7 +1020,7 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
-phonon-backend-gstreamer-0_10
+phonon-backend-gstreamer
 pigz
 pinentry
 pinentry-qt4
@@ -1034,7 +1035,6 @@ plasma-nm-openvpn
 plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
-plasmoid-quickaccess
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
@@ -1086,6 +1086,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rsyslog
 rtkit
 ruby
 ruby-stdlib
@@ -1114,13 +1115,14 @@ sudo
 suse-module-tools
 susegreeter-branding-basedonopensuse
 susehelp
-susehelp_en
+susehelp_cz
 suspend
 sweeper
 sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -1128,7 +1130,6 @@ system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-basedonopensuse
 systemd-sysvinit
 sysvinit-tools
@@ -1166,9 +1167,6 @@ usbutils
 util-linux
 vcdimager
 vim
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
 virtuoso-drivers
 virtuoso-server
 vorbis-tools
@@ -1257,7 +1255,6 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-proxy
-yast2-qt-branding-basedonopensuse
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server

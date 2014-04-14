@@ -104,6 +104,8 @@ cryptsetup
 cryptsetup-mkinitrd
 cups
 cups-client
+cups-filters-foomatic-rip
+cups-filters-ghostscript
 cups-libs
 cups-pk-helper
 curl
@@ -190,7 +192,7 @@ genisoimage
 geoclue
 geoclue-recommended
 geoclue2
-gettext-runtime-mini
+gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript
@@ -266,6 +268,7 @@ gnome-video-effects
 gnome-web-photo
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
+gnuchess
 google-droid-fonts
 gpart
 gparted
@@ -284,6 +287,7 @@ grub
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
+grub2-snapper-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
@@ -524,7 +528,7 @@ libdconf1
 libdhash1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-1
+libdirectfb-1_7-3
 libdjvulibre21
 libdmapsharing-3_0-2
 libdmx1
@@ -553,6 +557,7 @@ libenchant1
 libepoxy0
 liberation-fonts
 libesd0
+libestr0
 libevdev2
 libevdocument3-4
 libevent-2_0-5
@@ -580,6 +585,7 @@ libfuse2
 libgadu3
 libgbm1
 libgc1
+libgcc33
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -624,6 +630,7 @@ libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgpm2
 libgpod-lang
 libgpod-tools
 libgpod4
@@ -720,6 +727,7 @@ libldb1
 liblensfun0
 liblirc_client0
 liblockdev1
+liblogging0
 liblouis2
 liblrdf2
 libltdl7
@@ -968,7 +976,8 @@ libwebp5
 libwebrtc_audio_processing0
 libwicked0
 libwmf-0_2-7
-libwnck-1-22
+libwnck-3-0
+libwnck-lang
 libwrap0
 libx86-1
 libx86emu1
@@ -1075,6 +1084,7 @@ numactl
 numlockx
 obex-data-server
 ofl
+open-iscsi
 open-vm-tools
 open-vm-tools-desktop
 openSUSE-build-key
@@ -1089,7 +1099,6 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-opensuse-startup_en
 openvpn
 orca
 os-prober
@@ -1124,6 +1133,7 @@ patterns-openSUSE-imaging
 patterns-openSUSE-multimedia
 patterns-openSUSE-non_oss
 patterns-openSUSE-office
+patterns-openSUSE-rest_cd_gnome
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-x11
@@ -1194,7 +1204,6 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
-phalanx
 pigz
 pinentry
 pkcs11-helper
@@ -1267,6 +1276,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rsyslog
 rtkit
 ruby
 ruby-stdlib
@@ -1318,6 +1328,7 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -1325,7 +1336,6 @@ system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
@@ -1388,7 +1398,6 @@ typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
 typelib-1_0-GstTag-1_0
 typelib-1_0-GstVideo-1_0
-typelib-1_0-Gtk-2_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
@@ -1415,7 +1424,7 @@ typelib-1_0-Tracker-0_16
 typelib-1_0-TrackerMiner-0_16
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit-3_0
-typelib-1_0-Wnck-1_0
+typelib-1_0-Wnck-3_0
 typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
@@ -1432,9 +1441,6 @@ util-linux
 vaapi-intel-driver
 vim
 vino
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
 vorbis-tools
 vpnc
 wallpaper-branding-openSUSE

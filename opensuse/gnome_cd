@@ -10,7 +10,6 @@ namespace namespace:language(en_US) @SYSTEM
 
 job lock name gtk2-engines-32bit
 job lock name gnome2-user-docs # !i586
-job lock name kernel-desktop # !x86_64
 
 job install provides pattern() = rest_cd_gnome
 job install name openSUSE-release-livecd-gnome

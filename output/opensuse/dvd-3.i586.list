@@ -15,7 +15,7 @@ binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
-bundle-lang-common-en
+bundle-lang-common-cs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -37,7 +37,6 @@ dbus-1-python
 dbus-1-x11
 dconf
 deltarpm
-desktop-translations
 device-mapper
 dhcpcd
 diffutils
@@ -47,7 +46,6 @@ dracut
 e2fsprogs
 elfutils
 ethtool
-exim
 expat
 file
 file-magic
@@ -127,6 +125,7 @@ libdw1
 libedit0
 libelf0
 libelf1
+libestr0
 libevent-2_0-5
 libexpat1
 libext2fs2
@@ -155,11 +154,13 @@ libimobiledevice4
 libiptc0
 libiw30
 libjavascriptcoregtk-3_0-0
+libjson-c2
 libkeyutils1
 libkmod2
 libksba8
 libldap-2_4-2
 libldapcpp1
+liblogging0
 libltdl7
 liblua5_1
 liblzma5
@@ -240,7 +241,10 @@ logrotate
 lsof
 lsscsi
 lvm2
+m4
+make
 mdadm
+metamail
 mozilla-nspr
 mtools
 multipath-tools
@@ -328,7 +332,9 @@ pm-utils
 polkit
 polkit-default-privs
 prctl
+procmail
 procps
+psmisc
 python
 python-base
 python-gobject
@@ -338,14 +344,19 @@ release-notes-openSUSE
 rpcbind
 rpm
 rsync
+rsyslog
 ruby
 ruby-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 sed
+sendmail
 sg3_utils
 shadow
 shared-mime-info
+sharutils
+sharutils-lang
+site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -355,6 +366,7 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE

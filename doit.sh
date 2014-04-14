@@ -1,11 +1,11 @@
 #!/bin/sh
 
-. options
+. ./options
 
 for arch in i586 x86_64; do
 
-  create_solv.pl $proj standard $arch
-  create_solv.pl $proj:NonFree standard $arch
+  perl create_solv.pl openSUSE:$proj standard $arch
+  perl create_solv.pl openSUSE:$proj:NonFree standard $arch
 
   case $file in
     opensuse/dvd-nonoss*)
@@ -36,16 +36,12 @@ for arch in i586 x86_64; do
     ./gen.pl opensuse/kde4_cd-nobundles $arch
     ./gen.pl opensuse/gnome_cd-x11-default $arch
     ./gen.pl opensuse/x11_cd $arch
-    ./gen.pl opensuse/x11_cd-initrd $arch
 
   if echo $file | grep -q -- "-default"; then
      for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp kernel-default-base kernel-default-extra smolt virtualbox-ose-kmp-default ndiswrapper-kmp-default preload-kmp-default tango-icon-theme oxygen-icon-theme mono-core marble-data gnome-packagekit Mesa libqt4-x11 gnome-icon-theme xorg-x11-fonts-core ghostscript gio-branding-upstream grub grub2 grub2-branding-openSUSE plymouth-branding-openSUSE kdebase4-workspace-branding-openSUSE kdebase4-workspace libQtWebKit4 opensuse-startup_en glibc-locale; do
           grep -vx $i output/$file.$GEN_ARCH.list > t && mv t output/$file.$GEN_ARCH.list
      done
      grep -v patterns-openSUSE output/$file.$GEN_ARCH.list > t && mv t output/$file.$GEN_ARCH.list
-  fi
-  if test "$file" = "opensuse/x11_cd-initrd"; then
-      grep -vx openSUSE-release-ftp output/$file.$GEN_ARCH.list > t && mv t output/$file.$GEN_ARCH.list
   fi
 
     ./gen.pl opensuse/dvd-nonoss $arch
