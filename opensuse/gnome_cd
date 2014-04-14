@@ -9,7 +9,7 @@ namespace namespace:language(en_US) @SYSTEM
 #INCLUDE ignore_opensuse-bundle-kde
 
 job lock name gtk2-engines-32bit
-job lock name gnome2-user-docs
+job lock name gnome2-user-docs # !i586
 job lock name kernel-desktop # !x86_64
 
 job install provides pattern() = rest_cd_gnome
