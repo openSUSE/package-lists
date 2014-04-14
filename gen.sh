@@ -31,23 +31,6 @@ fi
 
 ret=0
 
-prep_patterns()
-{
-  mkdir -p $TESTTRACK/CD1/suse/setup/descr/
-  grep -v $1 $TESTTRACK/patterns/$base-*.$arch.pat > $TESTTRACK/CD1/suse/setup/descr/$base.$arch.pat
-  pushd $TESTTRACK/CD1/suse/setup/descr/ > /dev/null
-  : > patterns
-  for i in *; do
-    echo -n "META SHA1 ";
-    sha1sum $i | awk '{ORS=""; print $1}';
-    echo -n " "; basename $i;
-    basename $i >> patterns
-  done >> $TESTTRACK/CD1/content
-  popd > /dev/null
-  rm -f $TESTTRACK/CD1/content.asc
-  gpg  --batch -a -b --sign $TESTTRACK/CD1/content
-}
-
 cp solver-system.xml output/`dirname $file`
 
 for i in $GEN_ARCH;
@@ -90,8 +73,6 @@ do
   cp -a $VAR/suse $TESTTRACK/CD1/
   cp -a $VAR/media.1 $TESTTRACK/CD1/
   
-  prep_patterns patterns-openSUSE-
-
   export ZYPP_LIBSOLV_FULLLOG=1
   export ZYPP_FULLLOG=1
   export ZYPP_MODALIAS_SYSFS=/tmp

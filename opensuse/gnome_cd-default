@@ -1,0 +1,25 @@
+namespace namespace:language(en_US) @SYSTEM
+
+#INCLUDE ignore_opensuse-bundle-kde.xml
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-cds.xml
+#INCLUDE ignore_opensuse-gnome-cd.xml
+#INCLUDE ignore_opensuse-images.xml
+#INCLUDE ignore_opensuse-basedon.xml
+job lock name gnome2-user-docs
+job lock name mozilla-xulrunner192
+job lock name samba-client
+job lock name gtk2-32bit
+
+job install name branding-openSUSE
+job install name kernel-default
+job install name openSUSE-release-ftp
+job install provides pattern() = gnome
+
+job lock name patterns-openSUSE-gnome_utilities
+job lock name patterns-openSUSE-office
+
+# get openSUSE-images under control 
+job lock name evolution
+job lock name kernel-firmware
+

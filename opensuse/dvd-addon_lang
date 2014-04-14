@@ -1,0 +1,217 @@
+# all languages  
+# for i in `find /usr/share/locale -maxdepth 1 -type d`; do basename $i; done | grep -v "@" | grep -v "\\." | sort -u > /tmp/langs 
+# for i in `cat /tmp/langs`; do echo "    <locale name=\"$i\"/>"; done 
+
+namespace namespace:language(aa) @SYSTEM
+namespace namespace:language(af) @SYSTEM
+namespace namespace:language(am) @SYSTEM
+namespace namespace:language(ang) @SYSTEM
+namespace namespace:language(ar) @SYSTEM
+namespace namespace:language(as) @SYSTEM
+namespace namespace:language(az) @SYSTEM
+namespace namespace:language(az_IR) @SYSTEM
+namespace namespace:language(be) @SYSTEM
+namespace namespace:language(bg) @SYSTEM
+namespace namespace:language(bn) @SYSTEM
+namespace namespace:language(bn_IN) @SYSTEM
+namespace namespace:language(bo) @SYSTEM
+namespace namespace:language(br) @SYSTEM
+namespace namespace:language(bs) @SYSTEM
+namespace namespace:language(byn) @SYSTEM
+namespace namespace:language(ca) @SYSTEM
+namespace namespace:language(cs) @SYSTEM
+namespace namespace:language(csb) @SYSTEM
+namespace namespace:language(cs_CZ) @SYSTEM
+namespace namespace:language(cy) @SYSTEM
+namespace namespace:language(da) @SYSTEM
+namespace namespace:language(de) @SYSTEM
+namespace namespace:language(de_AT) @SYSTEM
+namespace namespace:language(de_CH) @SYSTEM
+namespace namespace:language(de_DE) @SYSTEM
+namespace namespace:language(dv) @SYSTEM
+namespace namespace:language(dz) @SYSTEM
+namespace namespace:language(ee) @SYSTEM
+namespace namespace:language(el) @SYSTEM
+namespace namespace:language(el_GR) @SYSTEM
+namespace namespace:language(en) @SYSTEM
+namespace namespace:language(en_AU) @SYSTEM
+namespace namespace:language(en_CA) @SYSTEM
+namespace namespace:language(en_GB) @SYSTEM
+namespace namespace:language(en_IGID) @SYSTEM
+namespace namespace:language(en_US) @SYSTEM
+namespace namespace:language(eo) @SYSTEM
+namespace namespace:language(es) @SYSTEM
+namespace namespace:language(es_AR) @SYSTEM
+namespace namespace:language(es_CL) @SYSTEM
+namespace namespace:language(es_CO) @SYSTEM
+namespace namespace:language(es_CR) @SYSTEM
+namespace namespace:language(es_DO) @SYSTEM
+namespace namespace:language(es_EC) @SYSTEM
+namespace namespace:language(es_ES) @SYSTEM
+namespace namespace:language(es_GT) @SYSTEM
+namespace namespace:language(es_HN) @SYSTEM
+namespace namespace:language(es_MX) @SYSTEM
+namespace namespace:language(es_NI) @SYSTEM
+namespace namespace:language(es_PA) @SYSTEM
+namespace namespace:language(es_PE) @SYSTEM
+namespace namespace:language(es_PR) @SYSTEM
+namespace namespace:language(es_SV) @SYSTEM
+namespace namespace:language(es_UY) @SYSTEM
+namespace namespace:language(es_VE) @SYSTEM
+namespace namespace:language(et) @SYSTEM
+namespace namespace:language(et_EE) @SYSTEM
+namespace namespace:language(eu) @SYSTEM
+namespace namespace:language(eu_ES) @SYSTEM
+namespace namespace:language(fa) @SYSTEM
+namespace namespace:language(fi) @SYSTEM
+namespace namespace:language(fi_FI) @SYSTEM
+namespace namespace:language(fo) @SYSTEM
+namespace namespace:language(fr) @SYSTEM
+namespace namespace:language(fr_CA) @SYSTEM
+namespace namespace:language(fr_CH) @SYSTEM
+namespace namespace:language(fr_FR) @SYSTEM
+namespace namespace:language(fy) @SYSTEM
+namespace namespace:language(ga) @SYSTEM
+namespace namespace:language(gd) @SYSTEM
+namespace namespace:language(gez) @SYSTEM
+namespace namespace:language(gl) @SYSTEM
+namespace namespace:language(gn) @SYSTEM
+namespace namespace:language(gu) @SYSTEM
+namespace namespace:language(gv) @SYSTEM
+namespace namespace:language(haw) @SYSTEM
+namespace namespace:language(he) @SYSTEM
+namespace namespace:language(hi) @SYSTEM
+namespace namespace:language(hr) @SYSTEM
+namespace namespace:language(hu) @SYSTEM
+namespace namespace:language(hy) @SYSTEM
+namespace namespace:language(ia) @SYSTEM
+namespace namespace:language(id) @SYSTEM
+namespace namespace:language(is) @SYSTEM
+namespace namespace:language(it) @SYSTEM
+namespace namespace:language(it_CH) @SYSTEM
+namespace namespace:language(it_IT) @SYSTEM
+namespace namespace:language(iu) @SYSTEM
+namespace namespace:language(ja) @SYSTEM
+namespace namespace:language(ka) @SYSTEM
+namespace namespace:language(kk) @SYSTEM
+namespace namespace:language(kl) @SYSTEM
+namespace namespace:language(km) @SYSTEM
+namespace namespace:language(kn) @SYSTEM
+namespace namespace:language(ko) @SYSTEM
+namespace namespace:language(kok) @SYSTEM
+namespace namespace:language(ku) @SYSTEM
+namespace namespace:language(kw) @SYSTEM
+namespace namespace:language(ky) @SYSTEM
+namespace namespace:language(lg) @SYSTEM
+namespace namespace:language(li) @SYSTEM
+namespace namespace:language(lo) @SYSTEM
+namespace namespace:language(locale) @SYSTEM
+namespace namespace:language(lt) @SYSTEM
+namespace namespace:language(lv) @SYSTEM
+namespace namespace:language(mg) @SYSTEM
+namespace namespace:language(mi) @SYSTEM
+namespace namespace:language(mk) @SYSTEM
+namespace namespace:language(ml) @SYSTEM
+namespace namespace:language(mn) @SYSTEM
+namespace namespace:language(mr) @SYSTEM
+namespace namespace:language(ms) @SYSTEM
+namespace namespace:language(mt) @SYSTEM
+namespace namespace:language(my) @SYSTEM
+namespace namespace:language(nb) @SYSTEM
+namespace namespace:language(nb_NO) @SYSTEM
+namespace namespace:language(nds) @SYSTEM
+namespace namespace:language(ne) @SYSTEM
+namespace namespace:language(nl) @SYSTEM
+namespace namespace:language(nl_BE) @SYSTEM
+namespace namespace:language(nn) @SYSTEM
+namespace namespace:language(nn_NO) @SYSTEM
+namespace namespace:language(nso) @SYSTEM
+namespace namespace:language(oc) @SYSTEM
+namespace namespace:language(om) @SYSTEM
+namespace namespace:language(or) @SYSTEM
+namespace namespace:language(pa) @SYSTEM
+namespace namespace:language(pl) @SYSTEM
+namespace namespace:language(pl_PL) @SYSTEM
+namespace namespace:language(ps) @SYSTEM
+namespace namespace:language(pt) @SYSTEM
+namespace namespace:language(pt_BR) @SYSTEM
+namespace namespace:language(pt_PT) @SYSTEM
+namespace namespace:language(rm) @SYSTEM
+namespace namespace:language(ro) @SYSTEM
+namespace namespace:language(ru) @SYSTEM
+namespace namespace:language(ru_RU) @SYSTEM
+namespace namespace:language(rw) @SYSTEM
+namespace namespace:language(sa) @SYSTEM
+namespace namespace:language(se) @SYSTEM
+namespace namespace:language(si) @SYSTEM
+namespace namespace:language(sid) @SYSTEM
+namespace namespace:language(sk) @SYSTEM
+namespace namespace:language(sl) @SYSTEM
+namespace namespace:language(sl_SI) @SYSTEM
+namespace namespace:language(so) @SYSTEM
+namespace namespace:language(sp) @SYSTEM
+namespace namespace:language(sq) @SYSTEM
+namespace namespace:language(sq_AL) @SYSTEM
+namespace namespace:language(sr) @SYSTEM
+namespace namespace:language(ss) @SYSTEM
+namespace namespace:language(st) @SYSTEM
+namespace namespace:language(sv) @SYSTEM
+namespace namespace:language(sw) @SYSTEM
+namespace namespace:language(syr) @SYSTEM
+namespace namespace:language(ta) @SYSTEM
+namespace namespace:language(te) @SYSTEM
+namespace namespace:language(tg) @SYSTEM
+namespace namespace:language(th) @SYSTEM
+namespace namespace:language(ti) @SYSTEM
+namespace namespace:language(tig) @SYSTEM
+namespace namespace:language(tk) @SYSTEM
+namespace namespace:language(tl) @SYSTEM
+namespace namespace:language(tr) @SYSTEM
+namespace namespace:language(tt) @SYSTEM
+namespace namespace:language(ug) @SYSTEM
+namespace namespace:language(uk) @SYSTEM
+namespace namespace:language(uk_UA) @SYSTEM
+namespace namespace:language(ur) @SYSTEM
+namespace namespace:language(urd) @SYSTEM
+namespace namespace:language(uz) @SYSTEM
+namespace namespace:language(ve) @SYSTEM
+namespace namespace:language(ven) @SYSTEM
+namespace namespace:language(vi) @SYSTEM
+namespace namespace:language(wa) @SYSTEM
+namespace namespace:language(wal) @SYSTEM
+namespace namespace:language(wo) @SYSTEM
+namespace namespace:language(xh) @SYSTEM
+namespace namespace:language(yi) @SYSTEM
+namespace namespace:language(yo) @SYSTEM
+namespace namespace:language(zh) @SYSTEM
+namespace namespace:language(zh_CN) @SYSTEM
+namespace namespace:language(zh_HK) @SYSTEM
+namespace namespace:language(zh_TW) @SYSTEM
+namespace namespace:language(zu) @SYSTEM
+
+
+job lock name xerces-j2-xml-resolver
+job lock name xerces-j2-xml-apis
+job lock name gnu-javamail
+job lock name novell-NLDAPsdk-dyn
+job lock name gnuchess
+job lock name gimp
+job lock name atftp
+job lock name antivir
+job lock name java-1_4_2-ibm
+job lock name myspell-german-old
+job lock name squid
+job lock name eclipse
+job lock name texlive-doc
+job lock name texlive-latex-doc
+job lock name hpijs-standalone
+
+# ignore too huge, too specific packages  
+job lock name kde4-l10n-ml-data
+job lock name aspell-be
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-dvd5.xml
+#INCLUDE ignore_opensuse-basedon.xml
+job install provides pattern() = rest_dvd
+job install name icewm-lite
+

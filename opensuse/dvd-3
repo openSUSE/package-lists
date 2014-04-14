@@ -1,0 +1,15 @@
+namespace namespace:language(en_US) @SYSTEM
+
+job lock name novell-ipsec-tools
+job lock name novell-NLDAPsdk-dyn
+job lock name myspell-german
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-dvd5.xml
+#INCLUDE ignore_opensuse-basedon.xml
+job install name openSUSE-release-dvd
+job install name bundle-lang-other
+job install name xen-tools-domU
+job install provides pattern() = minimal_base
+job lock name libqt4-x11-32bit
+job lock name libicu50-32bit
+

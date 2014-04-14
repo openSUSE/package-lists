@@ -1,0 +1,105 @@
+namespace namespace:language(en_US) @SYSTEM
+
+job lock name oxygen-icon-theme-scalable
+job lock name spamassassin
+job lock name gutenprint
+job lock name rdesktop
+#INCLUDE ignore_opensuse-bundle-gnome.xml
+#INCLUDE ignore_opensuse-bundle-kde.xml
+job lock name compiz-kde
+job lock name gtk2-engines-32bit
+job lock name kde3-i18n-de
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-cds.xml
+#INCLUDE ignore_opensuse-kde-cd.xml
+job lock name pam-32bit
+job lock name kdelibs3
+job lock name kdelibs3-default-style
+job lock name MozillaFirefox
+
+job lock name patterns-openSUSE-office
+
+job lock name patterns-openSUSE-kde4_office
+job lock name mozilla-kde4-integration
+job lock name gimp
+job install provides pattern() = base
+job install provides pattern() = enhanced_base
+job install provides pattern() = fonts
+job install provides pattern() = imaging
+job install provides pattern() = kde4
+job install provides pattern() = kde4_basis
+job install provides pattern() = kde4_imaging
+job install provides pattern() = kde4_internet
+job install provides pattern() = kde4_multimedia
+job install provides pattern() = kde4_utilities
+job install provides pattern() = kde4_yast
+job install provides pattern() = multimedia
+job install provides pattern() = sw_management
+job install provides pattern() = sw_management_kde4
+job install provides pattern() = x11
+job install provides pattern() = yast2_basis
+job install provides pattern() = yast2_install_wf
+job install provides pattern() = games
+job install provides pattern() = kde4_games
+
+job install namekernel-default
+job install namekernel-firmware
+job install nameb43-fwcutter
+job install namememtest86+
+job install nameadaptec-firmware
+job install namempt-firmware
+job install nameatmel-firmware
+job install namelvm2
+job install namebundle-lang-common-en
+job install nameaspell-en
+job install nameinput-utils
+job install namenss_ldap
+job install namepam_krb5
+job install namepam_ldap
+job install nameyast2-trans-en_US
+job install namekrb5-client
+job install namecracklib-dict-full
+job install nameutil-linux
+job install namee2fsprogs
+job install namereiserfs
+job install namejfsutils
+job install namentfs-3g
+job install namexfsprogs
+job install namedosfstools
+job install namecryptsetup
+job install namebtrfsprogs
+job install nameipw-firmware
+job install namebluez-firmware
+job install namedvb
+job install namelomoco
+job install namepcmciautils
+job install namepam_fprint
+job install namequota
+job install namevirtualbox-guest-x11
+job install namezd1211-firmware
+job install namealsa-firmware
+job install nameawesfx
+job install namersync
+job install namesmartmontools
+job install namesbl
+job install nameespeak
+job install namenano
+job install namepullin-flash-player
+job install namemanufacturer-PPDs
+job install namedmidecode
+job install namexz
+job install namezip
+job install nameunzip
+job install namexfsdump
+job install namereiserfs
+job install namemc
+job install nameirda
+job install namepcmciautils
+job install namewpa_supplicant
+job install namexstroke
+job install namecrda
+job install namewireless-regdb
+job install nameiw
+job install namevirtualbox-guest-tools
+job install name openSUSE-release-livecd-kde
+

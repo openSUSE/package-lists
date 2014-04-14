@@ -1,0 +1,21 @@
+namespace namespace:language(en_US) @SYSTEM
+
+#INCLUDE ignore_opensuse-bundle-kde.xml
+#INCLUDE ignore_opensuse-bundle-gnome.xml
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-cds.xml
+#INCLUDE ignore_opensuse-kde-cd.xml
+#INCLUDE ignore_opensuse-basedon.xml
+#INCLUDE ignore_opensuse-images.xml
+
+job lock name gtk2-32bit
+job lock name kdelibs3
+job lock name kdelibs3-default-style
+job lock name samba-client
+job install name kernel-default
+job install name openSUSE-release-ftp
+job install provides pattern() = enhanced_base
+job lock name gtk2
+job lock name cups
+job lock name kernel-firmware
+

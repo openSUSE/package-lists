@@ -1,0 +1,7 @@
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-dvd5.xml
+#INCLUDE ignore_opensuse-basedon.xml
+job install provides pattern() = minimal_base
+job install provides pattern() = minimal_base-conflicts
+job install name kernel-default
+

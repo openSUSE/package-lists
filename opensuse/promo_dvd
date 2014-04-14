@@ -1,0 +1,45 @@
+# Tier 1
+namespace namespace:language(en_US) @SYSTEM
+namespace namespace:language(en_GB) @SYSTEM
+namespace namespace:language(pt) @SYSTEM
+namespace namespace:language(pt_BR) @SYSTEM
+namespace namespace:language(en) @SYSTEM
+namespace namespace:language(de) @SYSTEM
+namespace namespace:language(es) @SYSTEM
+namespace namespace:language(it) @SYSTEM
+namespace namespace:language(fr) @SYSTEM
+
+# Tier 2 
+namespace namespace:language(ru) @SYSTEM
+namespace namespace:language(cs) @SYSTEM
+namespace namespace:language(hu) @SYSTEM
+namespace namespace:language(nl) @SYSTEM
+namespace namespace:language(zh) @SYSTEM
+namespace namespace:language(zh_TW) @SYSTEM
+namespace namespace:language(zh_CN) @SYSTEM
+
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-basedon.xml
+#INCLUDE ignore_opensuse-dvd5.xml
+job install name branding-openSUSE
+job install provides pattern() = rest_promo_dvd
+job install name openSUSE-release-dvd-promo
+job lock name qt3
+job lock name oxygen-icon-theme-scalable
+job lock name gimp-help-it
+job lock name gimp-help-pl
+job lock name gimp-help-nl
+job lock name texlive-context
+job lock name libqt4-devel-doc-data
+job lock name icewm-default
+job lock name kdeartwork4-wallpapers
+job lock name gimp-help-de
+job lock name gimp-help-ja
+job lock name gimp-help-da
+job lock name gimp-help-zh
+job lock name gimp-help-ru
+job lock name gimp-help-es
+job lock name gimp-help-en_GB
+job lock name kde4-l10n-de-doc
+job lock name kde4-l10n-ru-doc
+

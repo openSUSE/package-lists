@@ -1,0 +1,30 @@
+namespace namespace:language(en_US) @SYSTEM
+
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-cds.xml
+#INCLUDE ignore_opensuse-basedon.xml
+job install name bind-libs
+job install name bind-utils
+job install name dhcpcd
+job install name e2fsprogs
+job install name file
+job install name fribidi
+job install name gfxboot-devel
+job install name grub
+job install name hwinfo
+job install name kernel-default
+job install name kiwi-tools
+job install name make
+job install name module-init-tools
+job install name squashfs
+job install name sysconfig
+job install name sysfsutils
+job install name tar
+job install name syslinux
+job install name patch
+job install name yast2-live-installer
+job install name memtest86+
+job install name checkmedia
+job install name yast2-firstboot
+job install name openSUSE-release-ftp
+

@@ -1,0 +1,260 @@
+namespace namespace:language(en_US) @SYSTEM
+namespace namespace:language(en_GB) @SYSTEM
+namespace namespace:language(pt) @SYSTEM
+namespace namespace:language(pt_BR) @SYSTEM
+namespace namespace:language(en) @SYSTEM
+namespace namespace:language(de) @SYSTEM
+namespace namespace:language(es) @SYSTEM
+namespace namespace:language(it) @SYSTEM
+namespace namespace:language(fr) @SYSTEM
+namespace namespace:language(ja) @SYSTEM
+namespace namespace:language(zh) @SYSTEM
+namespace namespace:language(zh_TW) @SYSTEM
+namespace namespace:language(zh_CN) @SYSTEM
+namespace namespace:language(ru) @SYSTEM
+namespace namespace:language(cs) @SYSTEM
+namespace namespace:language(hu) @SYSTEM
+namespace namespace:language(pl) @SYSTEM
+namespace namespace:language(da) @SYSTEM
+namespace namespace:language(el) @SYSTEM
+
+job lock name xerces-j2-xml-resolver
+job lock name xerces-j2-xml-apis
+job lock name gnu-javamail
+job lock name novell-NLDAPsdk-dyn
+job lock name gnuchess
+job lock name atftp
+job lock name notification-daemon-xfce
+job lock name java-1_4_2-ibm
+job lock name myspell-german-old
+job lock name squid
+job lock name icewm-default
+job lock name eclipse
+job lock name eclipse-archdep-platform-commons
+job lock name hpijs-standalone
+job lock name geronimo-tomcat-servlet-container
+job lock name iscan
+job lock name acroread_ja
+job lock name apache2-worker
+job lock name apper
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-dvd5.xml
+#INCLUDE ignore_opensuse-basedon.xml
+job install provides pattern() = rest_dvd
+job install name openSUSE-release-dvd
+job install provides pattern() = devel_gnome
+job install name xfce4-panel
+job install name elilo
+job install name efibootmgr
+job install name postgresql
+job install name postgresql-devel
+job install name postgresql-contrib
+job install name postgresql-docs
+job install name postgresql-server
+job install name yast2-services-manager
+job lock name liberation2-fonts
+job lock name xen-tools-domU
+job install name postfix
+job install name kdelibs4-branding-openSUSE
+
+# HOOK_FOR_NONOSS 
+job install provides shared-mime-info
+job install provides rtld(GNU_HASH)
+job install provides pkgconfig(glu)
+job install provides pkgconfig(gl)
+job install provides perl
+job install provides openttd-data
+job install provides libz.so.1()(64bit)
+job install provides libxml2.so.2()(64bit)
+job install provides libtinfo.so.5()(64bit)
+job install provides libtiff.so.5()(64bit)
+job install provides libstdc++.so.6(GLIBCXX_3.4.9)(64bit)
+job install provides libstdc++.so.6(GLIBCXX_3.4.15)(64bit)
+job install provides libstdc++.so.6(GLIBCXX_3.4.11)(64bit)
+job install provides libstdc++.so.6(GLIBCXX_3.4)(64bit)
+job install provides libstdc++.so.6(CXXABI_1.3.1)(64bit)
+job install provides libstdc++.so.6(CXXABI_1.3)(64bit)
+job install provides libstdc++.so.6(CXXABI_1.3)
+job install provides libstdc++.so.6()(64bit)
+job install provides libstdc++.so.6
+job install provides libssl3.so(NSS_3.2)
+job install provides libssl3.so
+job install provides libsmime3.so(NSS_3.4)
+job install provides libsmime3.so(NSS_3.2)
+job install provides libsmime3.so
+job install provides librt.so.1(GLIBC_2.2.5)(64bit)
+job install provides librt.so.1(GLIBC_2.2)
+job install provides librt.so.1()(64bit)
+job install provides librt.so.1
+job install provides libqt4-x11 >= 4.8.1
+job install provides libpthread.so.0(GLIBC_2.3.3)(64bit)
+job install provides libpthread.so.0(GLIBC_2.3.3)
+job install provides libpthread.so.0(GLIBC_2.3.2)(64bit)
+job install provides libpthread.so.0(GLIBC_2.3.2)
+job install provides libpthread.so.0(GLIBC_2.2.5)(64bit)
+job install provides libpthread.so.0(GLIBC_2.2.3)
+job install provides libpthread.so.0(GLIBC_2.2)
+job install provides libpthread.so.0(GLIBC_2.1)
+job install provides libpthread.so.0(GLIBC_2.0)
+job install provides libpthread.so.0()(64bit)
+job install provides libpthread.so.0
+job install provides libpng16.so.16(PNG16_0)(64bit)
+job install provides libpng16.so.16()(64bit)
+job install provides libplds4.so
+job install provides libplc4.so
+job install provides libpangoft2-1.0.so.0()(64bit)
+job install provides libpangoft2-1.0.so.0
+job install provides libpangocairo-1.0.so.0()(64bit)
+job install provides libpangocairo-1.0.so.0
+job install provides libpango-1.0.so.0()(64bit)
+job install provides libpango-1.0.so.0
+job install provides libnssutil3.so
+job install provides libnss3.so(NSS_3.9.2)
+job install provides libnss3.so(NSS_3.9)
+job install provides libnss3.so(NSS_3.6)
+job install provides libnss3.so(NSS_3.4)
+job install provides libnss3.so(NSS_3.3)
+job install provides libnss3.so(NSS_3.2)
+job install provides libnss3.so(NSS_3.12)
+job install provides libnss3.so(NSS_3.11)
+job install provides libnss3.so(NSS_3.10)
+job install provides libnss3.so
+job install provides libnspr4.so
+job install provides libncurses.so.5()(64bit)
+job install provides libm.so.6(GLIBC_2.2.5)(64bit)
+job install provides libm.so.6(GLIBC_2.1)
+job install provides libm.so.6(GLIBC_2.0)
+job install provides libm.so.6()(64bit)
+job install provides libm.so.6
+job install provides libkutils.so.4
+job install provides libkio.so.5()(64bit)
+job install provides libkdeui.so.5()(64bit)
+job install provides libkdeui.so.5
+job install provides libkdecore.so.5()(64bit)
+job install provides libkdecore.so.5
+job install provides libjpeg.so.8(LIBJPEG_8.0)(64bit)
+job install provides libjpeg.so.8()(64bit)
+job install provides libgtk-x11-2.0.so.0()(64bit)
+job install provides libgtk-x11-2.0.so.0
+job install provides libgthread-2.0.so.0()(64bit)
+job install provides libgthread-2.0.so.0
+job install provides libgstvideo-0.10.so.0()(64bit)
+job install provides libgstreamer-1.0.so.0()(64bit)
+job install provides libgstreamer-0.10.so.0()(64bit)
+job install provides libgstbase-1.0.so.0()(64bit)
+job install provides libgstbase-0.10.so.0()(64bit)
+job install provides libgstaudio-1.0.so.0()(64bit)
+job install provides libgstaudio-0.10.so.0()(64bit)
+job install provides libgslcblas.so.0()(64bit)
+job install provides libgsl.so.0()(64bit)
+job install provides libgobject-2.0.so.0()(64bit)
+job install provides libgobject-2.0.so.0
+job install provides libgmodule-2.0.so.0()(64bit)
+job install provides libgmodule-2.0.so.0
+job install provides libglut.so.3()(64bit)
+job install provides libglib-2.0.so.0()(64bit)
+job install provides libglib-2.0.so.0
+job install provides libgio-2.0.so.0()(64bit)
+job install provides libgfortran.so.3(GFORTRAN_1.4)(64bit)
+job install provides libgfortran.so.3(GFORTRAN_1.0)(64bit)
+job install provides libgfortran.so.3()(64bit)
+job install provides libgdk_pixbuf-2.0.so.0()(64bit)
+job install provides libgdk_pixbuf-2.0.so.0
+job install provides libgdk-x11-2.0.so.0()(64bit)
+job install provides libgdk-x11-2.0.so.0
+job install provides libgcc_s.so.1(GLIBC_2.0)
+job install provides libgcc_s.so.1(GCC_4.0.0)(64bit)
+job install provides libgcc_s.so.1(GCC_3.0)(64bit)
+job install provides libgcc_s.so.1()(64bit)
+job install provides libgcc_s.so.1
+job install provides libfreetype.so.6()(64bit)
+job install provides libfreetype.so.6
+job install provides libfontconfig.so.1()(64bit)
+job install provides libfontconfig.so.1
+job install provides libdl.so.2(GLIBC_2.2.5)(64bit)
+job install provides libdl.so.2(GLIBC_2.1)
+job install provides libdl.so.2(GLIBC_2.0)
+job install provides libdl.so.2()(64bit)
+job install provides libdl.so.2
+job install provides libcurl.so.4
+job install provides libcairo.so.2()(64bit)
+job install provides libcairo.so.2
+job install provides libc.so.6(GLIBC_2.8)(64bit)
+job install provides libc.so.6(GLIBC_2.7)(64bit)
+job install provides libc.so.6(GLIBC_2.4)(64bit)
+job install provides libc.so.6(GLIBC_2.4)
+job install provides libc.so.6(GLIBC_2.3.4)(64bit)
+job install provides libc.so.6(GLIBC_2.3.4)
+job install provides libc.so.6(GLIBC_2.3.2)(64bit)
+job install provides libc.so.6(GLIBC_2.3.2)
+job install provides libc.so.6(GLIBC_2.3)(64bit)
+job install provides libc.so.6(GLIBC_2.3)
+job install provides libc.so.6(GLIBC_2.2.5)(64bit)
+job install provides libc.so.6(GLIBC_2.2.4)
+job install provides libc.so.6(GLIBC_2.2)
+job install provides libc.so.6(GLIBC_2.14)(64bit)
+job install provides libc.so.6(GLIBC_2.11)(64bit)
+job install provides libc.so.6(GLIBC_2.1.3)
+job install provides libc.so.6(GLIBC_2.1)
+job install provides libc.so.6(GLIBC_2.0)
+job install provides libc.so.6(GCC_3.0)
+job install provides libc.so.6()(64bit)
+job install provides libc.so.6
+job install provides libboost_thread.so.1.54.0()(64bit)
+job install provides libboost_system.so.1.54.0()(64bit)
+job install provides libatk-1.0.so.0()(64bit)
+job install provides libatk-1.0.so.0
+job install provides libasound.so.2
+job install provides libXt.so.6()(64bit)
+job install provides libXt.so.6
+job install provides libXrender.so.1()(64bit)
+job install provides libXrender.so.1
+job install provides libXpm.so.4
+job install provides libXmu.so.6()(64bit)
+job install provides libXm.so.4()(64bit)
+job install provides libXm.so.4
+job install provides libXi.so.6()(64bit)
+job install provides libXft.so.2
+job install provides libXext.so.6()(64bit)
+job install provides libXext.so.6
+job install provides libXdmcp.so.6
+job install provides libXcursor.so.1
+job install provides libXau.so.6
+job install provides libX11.so.6()(64bit)
+job install provides libX11.so.6
+job install provides libSM.so.6()(64bit)
+job install provides libSM.so.6
+job install provides libSDL-1.2.so.0()(64bit)
+job install provides libQtSvg.so.4
+job install provides libQtGui.so.4()(64bit)
+job install provides libQtGui.so.4
+job install provides libQtDBus.so.4
+job install provides libQtCore.so.4()(64bit)
+job install provides libQtCore.so.4
+job install provides libIlmImf-Imf_2_1.so.21()(64bit)
+job install provides libIex-2_1.so.11()(64bit)
+job install provides libICE.so.6()(64bit)
+job install provides libICE.so.6
+job install provides libHalf.so.11()(64bit)
+job install provides libGLw1-32bit = 7.11.2
+job install provides libGLU.so.1()(64bit)
+job install provides libGL.so.1()(64bit)
+job install provides libGL.so.1
+job install provides ld-linux.so.2(GLIBC_2.3)
+job install provides ld-linux.so.2
+job install provides ld-linux-x86-64.so.2()(64bit)
+job install provides kdebase4-runtime >= 4.12.90
+job install provides hicolor-icon-theme
+job install provides gstreamer010
+job install provides gstreamer
+job install provides ghostscript-cjk
+job install provides freeglut-devel
+job install provides desktop-file-utils
+job install provides coreutils
+job install provides aaa_base
+job install provides Mesa-devel
+job install provides /usr/bin/perl
+job install provides /usr/bin/env
+job install provides /sbin/ldconfig
+job install provides /bin/sh
+

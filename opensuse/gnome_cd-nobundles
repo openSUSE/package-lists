@@ -1,0 +1,19 @@
+namespace namespace:language(en_US) @SYSTEM
+namespace namespace:language(de) @SYSTEM
+namespace namespace:language(ru) @SYSTEM
+
+#INCLUDE ignore_opensuse-bundle-gnome.xml
+#INCLUDE ignore_opensuse-bundle-kde.xml
+#INCLUDE ignore_opensuse-bundle-common.xml
+#INCLUDE ignore_opensuse-basedon.xml
+job lock name gtk2-engines-32bit
+job lock name gnome2-user-docs
+job install name branding-openSUSE
+job install provides pattern() = rest_cd_gnome
+job install name openSUSE-release-livecd-gnome
+job lock name kernel-desktop
+#INCLUDE ignore_opensuse.xml
+#INCLUDE ignore_opensuse-cds.xml
+#INCLUDE ignore_opensuse-gnome-cd.xml
+job lock name pam-32bit
+
