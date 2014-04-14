@@ -41,8 +41,8 @@ job lock name opensuse-manuals_ja
 job lock name iscan
 job lock name acroread_ja
 job lock name apache2-worker
-#INCLUDE ignore_opensuse.xml
-#INCLUDE ignore_opensuse-basedon.xml
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-basedon
 
 job install provides pattern() = rest_dvd9
 job install provides pattern() = rest_dvd

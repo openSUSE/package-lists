@@ -23,7 +23,6 @@ sub read_file_recursively($) {
     }
 
     if ($line =~ m/#.*!$arch/) {
-      print "skipping $line\n";
       next;
     }
     push(@lines, $line);
@@ -40,3 +39,22 @@ for my $line (read_file_recursively($file)) {
   print OUT "$line\n";
 }
 close(OUT);
+
+open(TS, "testsolv -r t|");
+my @installs;
+while ( <TS> ) {
+  if (/^install (.*)-[^-]+-[^-]+\.(\S*)@/) {
+	push(@installs, $1);
+	print "T $1\n";
+  } else {
+	print $_;
+	exit(1);
+  }
+}
+close(TS);
+open(OUT, ">", "output/$file.$arch.list");
+for my $pkg (sort @installs) {
+  print OUT "$pkg\n";
+}
+close(OUT);
+

@@ -18,9 +18,9 @@ namespace namespace:language(zh) @SYSTEM
 namespace namespace:language(zh_TW) @SYSTEM
 namespace namespace:language(zh_CN) @SYSTEM
 
-#INCLUDE ignore_opensuse.xml
-#INCLUDE ignore_opensuse-basedon.xml
-#INCLUDE ignore_opensuse-dvd5.xml
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-basedon
+#INCLUDE ignore_opensuse-dvd5
 job install name branding-openSUSE
 job install provides pattern() = rest_promo_dvd
 job install name openSUSE-release-dvd-promo

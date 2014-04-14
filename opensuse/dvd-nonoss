@@ -35,9 +35,9 @@ job lock name iscan
 job lock name acroread_ja
 job lock name apache2-worker
 job lock name apper
-#INCLUDE ignore_opensuse.xml
-#INCLUDE ignore_opensuse-dvd5.xml
-#INCLUDE ignore_opensuse-basedon.xml
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-dvd5
+#INCLUDE ignore_opensuse-basedon
 job install provides pattern() = rest_dvd
 job install name openSUSE-release-dvd
 job install provides pattern() = devel_gnome

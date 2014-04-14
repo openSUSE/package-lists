@@ -1,8 +1,8 @@
 namespace namespace:language(en_US) @SYSTEM
 
-#INCLUDE ignore_opensuse.xml
-#INCLUDE ignore_opensuse-cds.xml
-#INCLUDE ignore_opensuse-basedon.xml
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-cds
+#INCLUDE ignore_opensuse-basedon
 job install name bind-libs
 job install name bind-utils
 job install name dhcpcd

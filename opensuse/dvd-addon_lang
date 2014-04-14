@@ -209,9 +209,9 @@ job lock name hpijs-standalone
 # ignore too huge, too specific packages  
 job lock name kde4-l10n-ml-data
 job lock name aspell-be
-#INCLUDE ignore_opensuse.xml
-#INCLUDE ignore_opensuse-dvd5.xml
-#INCLUDE ignore_opensuse-basedon.xml
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-dvd5
+#INCLUDE ignore_opensuse-basedon
 job install provides pattern() = rest_dvd
 job install name icewm-lite
 

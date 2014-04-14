@@ -1,11 +1,11 @@
 namespace namespace:language(en_US) @SYSTEM
 
-#INCLUDE ignore_opensuse-bundle-kde.xml
-#INCLUDE ignore_opensuse.xml
-#INCLUDE ignore_opensuse-cds.xml
-#INCLUDE ignore_opensuse-gnome-cd.xml
-#INCLUDE ignore_opensuse-images.xml
-#INCLUDE ignore_opensuse-basedon.xml
+#INCLUDE ignore_opensuse-bundle-kde
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-cds
+#INCLUDE ignore_opensuse-gnome-cd
+#INCLUDE ignore_opensuse-images
+#INCLUDE ignore_opensuse-basedon
 job lock name gnome2-user-docs
 job lock name mozilla-xulrunner192
 job lock name samba-client

@@ -1,12 +1,12 @@
 namespace namespace:language(en_US) @SYSTEM
 
-#INCLUDE ignore_opensuse-bundle-kde.xml
-#INCLUDE ignore_opensuse-bundle-gnome.xml
-#INCLUDE ignore_opensuse.xml
-#INCLUDE ignore_opensuse-cds.xml
-#INCLUDE ignore_opensuse-kde-cd.xml
-#INCLUDE ignore_opensuse-basedon.xml
-#INCLUDE ignore_opensuse-images.xml
+#INCLUDE ignore_opensuse-bundle-kde
+#INCLUDE ignore_opensuse-bundle-gnome
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-cds
+#INCLUDE ignore_opensuse-kde-cd
+#INCLUDE ignore_opensuse-basedon
+#INCLUDE ignore_opensuse-images
 
 job lock name gtk2-32bit
 job lock name kdelibs3
