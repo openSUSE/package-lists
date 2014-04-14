@@ -45,7 +45,6 @@ my @installs;
 while ( <TS> ) {
   if (/^install (.*)-[^-]+-[^-]+\.(\S*)@/) {
 	push(@installs, $1);
-	print "T $1\n";
   } else {
 	print $_;
 	exit(1);
