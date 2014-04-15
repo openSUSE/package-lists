@@ -1,8 +1,11 @@
 . ./options
+
+mkdir -p osc
+test -d osc/openSUSE:$proj/_product || ( cd osc; osc co openSUSE:$proj/_product )
+
 ./mk_group.sh output/opensuse/dvd-i586.list DVD-i586 osc/openSUSE:$proj/_product/DVD5-i586.group only_i586
 ./mk_group.sh output/opensuse/dvd-x86_64.list DVD-x86_64 osc/openSUSE:$proj/_product/DVD5-x86_64.group only_x86_64
 
-./split_dvd9.sh output/opensuse/dvd9-i586.list output/opensuse/dvd9-x86_64.list output/opensuse/dvd9-all.list output/opensuse/dvd9-only_i586.list output/opensuse/dvd9-only_x86_64.list
 ./mk_group.sh output/opensuse/dvd9-only_i586.list DVD9-i586 osc/openSUSE:$proj/_product/DVD9-i586.group only_i586
 ./mk_group.sh output/opensuse/dvd9-only_x86_64.list DVD9-x86_64 osc/openSUSE:$proj/_product/DVD9-x86_64.group only_x86_64
 ./mk_group.sh output/opensuse/dvd9-all.list DVD9-biarch osc/openSUSE:$proj/_product/DVD9-biarch.group
@@ -20,8 +23,7 @@
 
 ( cd osc/openSUSE:$proj/_product/ && osc ci -m "auto update" )
 
-./mk_group.sh output/opensuse/x11_cd.i586.list DVD osc/system:install:head/_product/DVD.group
-(cd osc/system:install:head/_product/ && osc ci -m "auto update")
+test -d osc/openSUSE:$proj:Live || (cd osc; osc co openSUSE:$proj:Live)
 
 osc up -u osc/openSUSE:$proj:Live/package-lists-images.*
 cp -a output/opensuse/*default.i586.list osc/openSUSE:$proj:Live/package-lists-images.i586
@@ -39,7 +41,7 @@ osc up -u osc/openSUSE:$proj:Live/package-lists-x11.*
 cp -a output/opensuse/x11_cd.i586.list osc/openSUSE:$proj:Live/package-lists-x11.i586/packagelist
 cp -a output/opensuse/x11_cd.x86_64.list osc/openSUSE:$proj:Live/package-lists-x11.x86_64/packagelist
 
-osc ci -m "update from desdemona" osc/openSUSE:$proj:Live/package-lists-*
+osc ci -m "auto update" osc/openSUSE:$proj:Live/package-lists-*
 exit 0
 
 (cd osc/openSUSE:$proj:Live/kiwi-usb-kde-x86_64; osc up -e)

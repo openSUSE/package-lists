@@ -45,8 +45,10 @@ for arch in i586 x86_64; do
     
     ./gen.pl opensuse/promo_dvd $arch
     ./gen.pl opensuse/dvd-addon_lang $arch
+
 done
 
+./split_dvd9.sh output/opensuse/dvd9-i586.list output/opensuse/dvd9-x86_64.list output/opensuse/dvd9-all.list output/opensuse/dvd9-only_i586.list output/opensuse/dvd9-only_x86_64.list
 ./nonoss.sh
 ./langaddon.sh
 

@@ -27,9 +27,9 @@ bind-utils
 binutils
 boost-license1_54_0
 branding-openSUSE
-bundle-lang-common-pt
-bundle-lang-gnome-nb
-bundle-lang-kde-pt
+bundle-lang-common-en
+bundle-lang-gnome-en
+bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -56,6 +56,7 @@ dbus-1-python
 dbus-1-x11
 dconf
 desktop-data-openSUSE
+desktop-translations
 device-mapper
 diffutils
 dirmngr
@@ -485,6 +486,7 @@ libreoffice-l10n-en
 libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
+libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
@@ -613,6 +615,7 @@ mkfontscale
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+myspell-american
 myspell-german-old
 ncurses-utils
 net-tools
@@ -622,6 +625,7 @@ openSUSE-release
 openSUSE-release-dvd
 openobex
 openssl
+opensuse-startup_en
 oxygen-icon-theme
 p11-kit
 p11-kit-tools
@@ -776,7 +780,6 @@ yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-scanner
 yast2-theme-openSUSE
-yast2-trans-en_US
 yast2-transfer
 yast2-xml
 yast2-ycp-ui-bindings
