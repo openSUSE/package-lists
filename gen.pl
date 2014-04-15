@@ -39,7 +39,7 @@ print OUT "repo openSUSE:Factory-standard-$arch 0 solv trees/openSUSE:Factory-st
 for my $line (read_file_recursively($file)) {
   print OUT "$line\n";
 }
-print OUT "result transaction,recommended <inline>\n";
+print OUT "result transaction,problems,recommended <inline>\n";
 close(OUT);
 
 open(TS, "testsolv -r t|");
@@ -69,6 +69,6 @@ for my $pkg (sort @installs) {
 close(OUT);
 open(OUT, ">", "output/$file.$arch.suggests");
 for my $pkg (sort @suggested) {
-  print OUT "job install name $pkg\n";
+  print OUT "job install name $pkg [weak]\n";
 }
 close(OUT);

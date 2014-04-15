@@ -178,8 +178,10 @@ job lock name xfce4-panel-branding-upstream
 job lock name xfce4-settings-branding-upstream
 job lock name xfce4-notifyd-branding-upstream
 job lock name glib2-branding-SLED
-job lock name gdm-branding-upstream-XX
+job lock name gdm-branding-upstream
 job lock name gfxboot-branding-KDE
+job lock name epiphany-branding-SLED
+job lock name gtk3-branding-SLED
 
 job lock name kdeartwork4-wallpapers
 job lock name mozilla-xulrunner192
@@ -207,3 +209,9 @@ job lock name mkisofs
 job lock name cdda2wav
 
 job lock name module-init-tools
+
+job lock name libstdc++6-gcc49
+job lock name libstdc++6-gcc49-locale
+
+#INCLUDE non_ftp_packages
+

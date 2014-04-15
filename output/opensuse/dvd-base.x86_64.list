@@ -133,7 +133,6 @@ libffi4
 libfreetype6
 libfuse2
 libgc1
-libgcc33
 libgcc_s1
 libgcrypt20
 libgdbm4
@@ -145,11 +144,13 @@ libgmp10
 libgnutls28
 libgobject-2_0-0
 libgpg-error0
+libgudev-1_0-0
 libhavege1
 libhogweed2
 libicu52_1
 libicu52_1-data
 libidn11
+libimobiledevice4
 libiptc0
 libiw30
 libjavascriptcoregtk-3_0-0
@@ -180,6 +181,7 @@ libp11-kit0
 libparted0
 libpci3
 libpcre1
+libplist1
 libpng16-16
 libpolkit0
 libpopt0
@@ -210,9 +212,11 @@ libtasn1
 libtasn1-6
 libtidyp-1_04-0
 libtirpc1
-libudev-mini1
+libudev1
+libupower-glib2
 libusb-0_1-4
 libusb-1_0-0
+libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
@@ -322,6 +326,7 @@ permissions
 pigz
 pinentry
 pkg-config
+pm-utils
 polkit
 polkit-default-privs
 prctl
@@ -372,10 +377,12 @@ time
 timezone
 tnftp
 traceroute
-udev-mini
+udev
 unzip
 unzip-doc
 update-alternatives
+upower
+usbmuxd
 util-linux
 vim
 vim-data

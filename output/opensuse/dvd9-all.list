@@ -532,7 +532,7 @@ eog
 eog-plugins
 eog-plugins-lang
 epiphany
-epiphany-branding-SLED
+epiphany-branding-openSUSE
 epiphany-lang
 espeak
 etags
@@ -853,7 +853,6 @@ gnu-jaf
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gnucash
-gnucash-docs
 gnucash-lang
 gnuchess
 gnumeric
@@ -1241,8 +1240,6 @@ kde4-l10n-zh_TW
 kde4-print-manager
 kdeartwork4-decorations
 kdeartwork4-screensaver
-kdeartwork4-wallpapers
-kdeartwork4-wallpapers-weather
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
@@ -1807,7 +1804,7 @@ libexempi-devel
 libexempi3
 libexif-devel
 libexif12
-libexiv2-12
+libexiv2-13
 libexiv2-devel
 libexo-1-0
 libexo-1-0-branding-openSUSE
@@ -1860,7 +1857,6 @@ libgavl1
 libgbm-devel
 libgbm1
 libgc1
-libgcc33
 libgcc_s1
 libgcj-devel
 libgcj48
@@ -2657,6 +2653,7 @@ libstdc++-devel
 libstdc++33
 libstdc++48-devel
 libstdc++6
+libstdc++6-locale
 libstorage-devel
 libstorage-ruby
 libstorage5
@@ -2807,8 +2804,12 @@ libwx_baseu_xml-2_8-0-stl
 libwx_gtk2u_adv-2_8-0-stl
 libwx_gtk2u_aui-2_8-0-stl
 libwx_gtk2u_core-2_8-0-stl
+libwx_gtk2u_gizmos-2_8-0-stl
 libwx_gtk2u_gl-2_8-0-stl
 libwx_gtk2u_html-2_8-0-stl
+libwx_gtk2u_media-2_8-0-stl
+libwx_gtk2u_richtext-2_8-0-stl
+libwx_gtk2u_stc-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
 libx86-1
 libx86emu1
@@ -2862,6 +2863,7 @@ libxine-devel
 libxine2
 libxine2-pulse
 libxkbcommon-devel
+libxkbcommon-x11-0
 libxkbcommon0
 libxkbfile-devel
 libxkbfile1
@@ -3821,7 +3823,6 @@ polkit-default-privs
 polkit-devel
 polkit-gnome
 polkit-kde-agent-1
-poppler-data
 poppler-tools
 popt-devel
 posix_cc
@@ -3978,6 +3979,8 @@ python-solv
 python-tk
 python-tornado
 python-urlgrabber
+python-wxWidgets
+python-wxWidgets-lang
 python-xcb-proto-devel
 python-xdg
 python-xml

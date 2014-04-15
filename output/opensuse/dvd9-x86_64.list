@@ -545,7 +545,7 @@ eog
 eog-plugins
 eog-plugins-lang
 epiphany
-epiphany-branding-SLED
+epiphany-branding-openSUSE
 epiphany-lang
 esound-daemon
 espeak
@@ -875,7 +875,6 @@ gnu-jaf
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gnucash
-gnucash-docs
 gnucash-lang
 gnuchess
 gnumeric
@@ -1003,7 +1002,6 @@ gtk2-themes
 gtk2-theming-engine-adwaita
 gtk2-tools
 gtk2-tools-32bit
-gtk3-branding-SLED
 gtk3-branding-openSUSE
 gtk3-data
 gtk3-devel
@@ -1270,8 +1268,6 @@ kde4-l10n-zh_TW
 kde4-print-manager
 kdeartwork4-decorations
 kdeartwork4-screensaver
-kdeartwork4-wallpapers
-kdeartwork4-wallpapers-weather
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
@@ -1897,7 +1893,7 @@ libexempi3
 libexif-devel
 libexif12
 libexif12-32bit
-libexiv2-12
+libexiv2-13
 libexiv2-devel
 libexo-1-0
 libexo-1-0-branding-openSUSE
@@ -1956,7 +1952,6 @@ libgbm-devel
 libgbm1
 libgbm1-32bit
 libgc1
-libgcc33
 libgcc_s1
 libgcc_s1-32bit
 libgcj-devel
@@ -2573,6 +2568,7 @@ libpopt0
 libpopt0-32bit
 libportaudio2
 libpq5
+libpq5-32bit
 libpqxx-4_0
 libpqxx-devel
 libpresage1
@@ -2643,9 +2639,11 @@ libqt4-sql-32bit
 libqt4-sql-mysql
 libqt4-sql-mysql-32bit
 libqt4-sql-postgresql
+libqt4-sql-postgresql-32bit
 libqt4-sql-sqlite
 libqt4-sql-sqlite-32bit
 libqt4-sql-unixODBC
+libqt4-sql-unixODBC-32bit
 libqt4-x11
 libqt4-x11-32bit
 libqt5-qtimageformats
@@ -2844,6 +2842,7 @@ libstdc++33
 libstdc++48-devel
 libstdc++6
 libstdc++6-32bit
+libstdc++6-locale
 libstorage-devel
 libstorage-ruby
 libstorage5
@@ -2898,7 +2897,6 @@ libtunepimp5
 libturbojpeg0
 libucil2
 libudev-devel
-libudev-mini1
 libudev1
 libudev1-32bit
 libudf0
@@ -3017,28 +3015,18 @@ libwrap0-32bit
 libwv-1_2-3
 libwv2-4
 libwx_baseu-2_8-0-stl
-libwx_baseu-2_9-5-stl
 libwx_baseu_net-2_8-0-stl
-libwx_baseu_net-2_9-5-stl
 libwx_baseu_xml-2_8-0-stl
-libwx_baseu_xml-2_9-5-stl
 libwx_gtk2u_adv-2_8-0-stl
-libwx_gtk2u_adv-2_9-5-stl
 libwx_gtk2u_aui-2_8-0-stl
-libwx_gtk2u_aui-2_9-5-stl
 libwx_gtk2u_core-2_8-0-stl
-libwx_gtk2u_core-2_9-5-stl
+libwx_gtk2u_gizmos-2_8-0-stl
 libwx_gtk2u_gl-2_8-0-stl
-libwx_gtk2u_gl-2_9-5-stl
 libwx_gtk2u_html-2_8-0-stl
-libwx_gtk2u_html-2_9-5-stl
-libwx_gtk2u_media-2_9-5-stl
-libwx_gtk2u_propgrid-2_9-5-stl
-libwx_gtk2u_richtext-2_9-5-stl
-libwx_gtk2u_stc-2_9-5-stl
-libwx_gtk2u_webview-2_9-5-stl
+libwx_gtk2u_media-2_8-0-stl
+libwx_gtk2u_richtext-2_8-0-stl
+libwx_gtk2u_stc-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
-libwx_gtk2u_xrc-2_9-5-stl
 libx86-1
 libx86emu1
 libxapian22
@@ -3100,6 +3088,7 @@ libxine-devel
 libxine2
 libxine2-pulse
 libxkbcommon-devel
+libxkbcommon-x11-0
 libxkbcommon0
 libxkbcommon0-32bit
 libxkbfile-devel
@@ -4086,7 +4075,6 @@ polkit-default-privs
 polkit-devel
 polkit-gnome
 polkit-kde-agent-1
-poppler-data
 poppler-tools
 popt-devel
 posix_cc
@@ -4244,8 +4232,8 @@ python-solv
 python-tk
 python-tornado
 python-urlgrabber
-python-wxWidgets-2_9
-python-wxWidgets-2_9-lang
+python-wxWidgets
+python-wxWidgets-lang
 python-xcb-proto-devel
 python-xdg
 python-xml
@@ -6872,7 +6860,6 @@ typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
-udev-mini
 udhcp
 udisks
 udisks2
@@ -6892,6 +6879,7 @@ unclutter
 unison
 units
 unixODBC
+unixODBC-32bit
 unoconv
 unzip
 unzip-doc

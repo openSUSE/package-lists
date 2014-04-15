@@ -1,15 +1,9 @@
-namespace namespace:language(en) @SYSTEM
-
-#INCLUDE ignore_opensuse
-#INCLUDE ignore_opensuse-dvd5
-#INCLUDE ignore_opensuse-basedon
+#INCLUDE common-dvd5
 
 job lock name novell-ipsec-tools
-job lock name novell-NLDAPsdk-dyn
 job lock name myspell-german
 job lock name acroread_ja
 job lock name apache2-prefork
-job lock name libqt4-x11-32bit
 
 # there is a flip going on between dvd-1 and dvd-2
 job lock name postgresql
@@ -27,6 +21,5 @@ job install name apper
 job install name libreoffice-kde4
 job lock name libicu50-32bit
 
-job install name openSUSE-release-dvd
 job install provides pattern() = x11_yast
 

@@ -1,8 +1,9 @@
+#INCLUDE common-dvd5
+
 namespace namespace:language(en_US) @SYSTEM
 namespace namespace:language(en_GB) @SYSTEM
 namespace namespace:language(pt) @SYSTEM
 namespace namespace:language(pt_BR) @SYSTEM
-namespace namespace:language(en) @SYSTEM
 namespace namespace:language(de) @SYSTEM
 namespace namespace:language(es) @SYSTEM
 namespace namespace:language(it) @SYSTEM
@@ -19,17 +20,12 @@ namespace namespace:language(da) @SYSTEM
 namespace namespace:language(el) @SYSTEM
 #INCLUDE all-supplements
 
-#INCLUDE ignore_opensuse
-#INCLUDE ignore_opensuse-dvd5
-#INCLUDE ignore_opensuse-basedon
-
 #INCLUDE dvd-1.i586.suggests # !x86_64
 #INCLUDE dvd-1.x86_64.suggests # !i586
 
 job lock name xerces-j2-xml-resolver
 job lock name xerces-j2-xml-apis
 job lock name gnu-javamail
-job lock name novell-NLDAPsdk-dyn
 job lock name gnuchess
 job lock name atftp
 job lock name notification-daemon-xfce
@@ -45,10 +41,8 @@ job lock name apache2-worker
 job lock name apper
 job lock name liberation2-fonts
 job lock name xen-tools-domU
-job lock name libqt4-x11-32bit
 
 job install provides pattern() = rest_dvd
-job install name openSUSE-release-dvd
 job install provides pattern() = devel_gnome
 job install name xfce4-panel
 job install name elilo
