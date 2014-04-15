@@ -17,6 +17,12 @@ namespace namespace:language(hu) @SYSTEM
 namespace namespace:language(pl) @SYSTEM
 namespace namespace:language(da) @SYSTEM
 namespace namespace:language(el) @SYSTEM
+#INCLUDE all-modaliases
+
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-dvd5
+#INCLUDE ignore_opensuse-basedon
+
 
 job lock name xerces-j2-xml-resolver
 job lock name xerces-j2-xml-apis
@@ -35,9 +41,9 @@ job lock name iscan
 job lock name acroread_ja
 job lock name apache2-worker
 job lock name apper
-#INCLUDE ignore_opensuse
-#INCLUDE ignore_opensuse-dvd5
-#INCLUDE ignore_opensuse-basedon
+job lock name liberation2-fonts
+job lock name xen-tools-domU
+job lock name libqt4-x11-32bit
 
 job install provides pattern() = rest_dvd
 job install name openSUSE-release-dvd
@@ -51,11 +57,6 @@ job install name postgresql-contrib
 job install name postgresql-docs
 job install name postgresql-server
 job install name yast2-services-manager
-job lock name liberation2-fonts
-job lock name xen-tools-domU
-job lock name libqt4-x11-32bit
 job install name postfix
 job install name kdelibs4-branding-openSUSE
-
-# HOOK_FOR_NONOSS 
 
