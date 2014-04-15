@@ -468,6 +468,7 @@ fonts-config
 fortune
 four-in-a-row
 four-in-a-row-lang
+freeglut-devel
 freerdp
 freetype2-devel
 fribidi
@@ -1075,6 +1076,7 @@ libFS-devel
 libFS6
 libGLEW1_9
 libGLU1
+libGLw1-32bit
 libGeoIP1
 libHX28
 libHX28-32bit
@@ -1107,6 +1109,7 @@ libQtGLib-2_0-0
 libQtGStreamer-0_10-0
 libQtWebKit-devel
 libQtWebKit4
+libQtWebKit4-32bit
 libSDL-1_2-0
 libSDL-devel
 libSDL_gfx15
@@ -1145,6 +1148,7 @@ libXdamage1
 libXdamage1-32bit
 libXdmcp-devel
 libXdmcp6
+libXdmcp6-32bit
 libXevie-devel
 libXevie1
 libXext-devel
@@ -1166,11 +1170,15 @@ libXi6-32bit
 libXinerama-devel
 libXinerama1
 libXinerama1-32bit
+libXm4
+libXm4-32bit
 libXmu-devel
 libXmu6
+libXmu6-32bit
 libXmuu1
 libXp-devel
 libXp6
+libXp6-32bit
 libXpm-devel
 libXpm4
 libXpm4-32bit
@@ -1192,6 +1200,7 @@ libXt6
 libXt6-32bit
 libXtst-devel
 libXtst6
+libXtst6-32bit
 libXv-devel
 libXv1
 libXv1-32bit
@@ -1251,6 +1260,7 @@ libatspi0
 libatspi0-32bit
 libattica-devel
 libattica0_4
+libattica0_4-32bit
 libattr-devel
 libattr1
 libattr1-32bit
@@ -1313,6 +1323,7 @@ libbrasero-utils3-1
 libbrlapi0_6
 libburn4
 libbz2-1
+libbz2-1-32bit
 libbz2-devel
 libcacard0
 libcairo-gobject2
@@ -1386,6 +1397,7 @@ libcryptui0
 libcue1
 libcurl-devel
 libcurl4
+libcurl4-32bit
 libdaemon0
 libdb-4_5
 libdb-4_8
@@ -1394,6 +1406,7 @@ libdbi1
 libdbus-1-3
 libdbus-1-3-32bit
 libdbusmenu-qt2
+libdbusmenu-qt2-32bit
 libdc1394-22
 libdcerpc-binding0
 libdcerpc-binding0-32bit
@@ -1510,6 +1523,7 @@ libgbm1
 libgbm1-32bit
 libgc1
 libgcc33
+libgcc33-32bit
 libgcc_s1
 libgcc_s1-32bit
 libgcj-devel
@@ -1552,6 +1566,7 @@ libgfortran3
 libggz2
 libggz2-devel
 libgif6
+libgif6-32bit
 libgimp-2_0-0
 libgimpui-2_0-0
 libgio-2_0-0
@@ -1623,7 +1638,9 @@ libgssglue1
 libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
+libgstapp-1_0-0-32bit
 libgstaudio-1_0-0
+libgstaudio-1_0-0-32bit
 libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
 libgstbasevideo-0_10-23
@@ -1634,18 +1651,22 @@ libgstfft-1_0-0
 libgstinterfaces-0_10-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
+libgstpbutils-1_0-0-32bit
 libgstphotography-0_10-23
 libgstphotography-1_0-0
 libgstreamer-0_10-0
 libgstreamer-1_0-0
+libgstreamer-1_0-0-32bit
 libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
 libgstsdp-1_0-0
 libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
+libgsttag-1_0-0-32bit
 libgstvdp-0_10-23
 libgstvideo-1_0-0
+libgstvideo-1_0-0-32bit
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -1702,6 +1723,7 @@ libicu52_1
 libicu52_1-data
 libidn-devel
 libidn11
+libidn11-32bit
 libieee1284
 libimobiledevice-devel
 libimobiledevice4
@@ -1746,8 +1768,10 @@ libkcddb4
 libkcompactdisc4
 libkdcraw23
 libkde4
+libkde4-32bit
 libkde4-devel
 libkdecore4
+libkdecore4-32bit
 libkdecore4-devel
 libkdeedu4-data
 libkdegames
@@ -1783,6 +1807,7 @@ libksba8
 libkscreen
 libkscreen1
 libksuseinstall1
+libksuseinstall1-32bit
 libktexteditor
 libktoblzcheck1
 libktorrent5
@@ -1936,6 +1961,7 @@ libopensync-plugin-moto
 libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
+liborc-0_4-0-32bit
 liborcus-0_6-0
 libortp9
 libosinfo
@@ -1974,6 +2000,7 @@ libpeas-loader-python3
 libpeas-loader-seed
 libpgf6
 libphonon4
+libphonon4-32bit
 libpinyin-data
 libpinyin4
 libpipeline1
@@ -2023,6 +2050,7 @@ libpst4
 libpth20
 libpulse-devel
 libpulse-mainloop-glib0
+libpulse-mainloop-glib0-32bit
 libpulse0
 libpulse0-32bit
 libpurple
@@ -2037,6 +2065,7 @@ libpython2_7-1_0-32bit
 libpython3_4m1_0
 libqalculate5
 libqca2
+libqca2-32bit
 libqca2-devel
 libqimageblitz-devel
 libqimageblitz4
@@ -2216,13 +2245,14 @@ libspice-server1
 libsqlite3-0
 libsqlite3-0-32bit
 libssh2-1
+libssh2-1-32bit
 libssh4
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++33
 libstdc++48-devel
 libstdc++6
-libstdc++6-gcc49-32bit
+libstdc++6-32bit
 libstorage-ruby
 libstorage5
 libstrigi0
@@ -2284,6 +2314,7 @@ libusbredirhost1
 libusbredirparser1
 libustr-1_0-1
 libutempter0
+libutempter0-32bit
 libuuid-devel
 libuuid1
 libuuid1-32bit
@@ -2347,6 +2378,7 @@ libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk-devel
 libwebp5
+libwebp5-32bit
 libwebrtc_audio_processing0
 libwicked0
 libwmf-0_2-7
@@ -2451,6 +2483,7 @@ libxshmfence1-32bit
 libxslt-devel
 libxslt-tools
 libxslt1
+libxslt1-32bit
 libxtables10
 libyajl2
 libyaml-0-2
@@ -2740,6 +2773,8 @@ openssh-askpass
 openssh-helpers
 openssl
 opensuse-startup_en
+openttd-data
+openttd-opengfx
 openvpn
 optipng
 orage

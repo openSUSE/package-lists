@@ -15,6 +15,10 @@ sub read_file_recursively($) {
 
     my $line = $_;
 
+    if ($line =~ m/#.*!$arch/) {
+      next;
+    }
+
     if ($line =~ m/^#INCLUDE\s*(\S+)/) {
       push(@lines, "\n# from $1\n");
       push(@lines, read_file_recursively(dirname($file) . "/" . $1));
@@ -22,9 +26,6 @@ sub read_file_recursively($) {
       next;
     }
 
-    if ($line =~ m/#.*!$arch/) {
-      next;
-    }
     push(@lines, $line);
   }
 

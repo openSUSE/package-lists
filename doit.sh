@@ -4,17 +4,11 @@
 
 for arch in i586 x86_64; do
 
-  perl create_solv.pl openSUSE:$proj standard $arch
-  perl create_solv.pl openSUSE:$proj:NonFree standard $arch
+    perl create_solv.pl openSUSE:$proj standard $arch
+    perl create_solv.pl openSUSE:$proj:NonFree standard $arch
 
-  case $file in
-    opensuse/dvd-nonoss*)
-       grep -v libqt opensuse/dvd-1.xml.in > opensuse/dvd-nonoss.xml.in
-       installcheck $i testtrack/full-nf-$tree-$i/suse/setup/descr/packages | grep "nothing provides" | sed -e 's,.*nothing provides ,,; s, needed by.*,,' | sort -u | while read d; do
-         sed -i -e "s,<!-- HOOK_FOR_NONOSS -->,<!-- HOOK_FOR_NONOSS -->\n<addRequire name='$d'/>," opensuse/dvd-nonoss.xml.in
-       done
-       ;;
-  esac
+    installcheck $arch trees/openSUSE:$proj:NonFree-standard-$arch.solv | grep "nothing provides" | \
+	sed -e 's,^.*nothing provides ,job install provides ,; s, needed by.*,,' | sort -u > opensuse/dvd-nonoss-deps-$arch
 
     ./gen.pl opensuse/kde4_cd $arch
     ./gen.pl opensuse/kde4_cd-default $arch
@@ -37,12 +31,12 @@ for arch in i586 x86_64; do
     ./gen.pl opensuse/gnome_cd-x11-default $arch
     ./gen.pl opensuse/x11_cd $arch
 
-  if echo $file | grep -q -- "-default"; then
-     for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp kernel-default-base kernel-default-extra smolt virtualbox-ose-kmp-default ndiswrapper-kmp-default preload-kmp-default tango-icon-theme oxygen-icon-theme mono-core marble-data gnome-packagekit Mesa libqt4-x11 gnome-icon-theme xorg-x11-fonts-core ghostscript gio-branding-upstream grub grub2 grub2-branding-openSUSE plymouth-branding-openSUSE kdebase4-workspace-branding-openSUSE kdebase4-workspace libQtWebKit4 opensuse-startup_en glibc-locale; do
-          grep -vx $i output/$file.$GEN_ARCH.list > t && mv t output/$file.$GEN_ARCH.list
-     done
-     grep -v patterns-openSUSE output/$file.$GEN_ARCH.list > t && mv t output/$file.$GEN_ARCH.list
-  fi
+    if echo $file | grep -q -- "-default"; then
+	for i in kernel-default powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp kernel-default-base kernel-default-extra smolt virtualbox-ose-kmp-default ndiswrapper-kmp-default preload-kmp-default tango-icon-theme oxygen-icon-theme mono-core marble-data gnome-packagekit Mesa libqt4-x11 gnome-icon-theme xorg-x11-fonts-core ghostscript gio-branding-upstream grub grub2 grub2-branding-openSUSE plymouth-branding-openSUSE kdebase4-workspace-branding-openSUSE kdebase4-workspace libQtWebKit4 opensuse-startup_en glibc-locale; do
+            grep -vx $i output/$file.$GEN_ARCH.list > t && mv t output/$file.$GEN_ARCH.list
+	done
+	grep -v patterns-openSUSE output/$file.$GEN_ARCH.list > t && mv t output/$file.$GEN_ARCH.list
+    fi
 
     ./gen.pl opensuse/dvd-nonoss $arch
     

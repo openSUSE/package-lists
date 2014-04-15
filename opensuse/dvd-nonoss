@@ -55,4 +55,6 @@ job lock name xen-tools-domU
 job install name postfix
 job install name kdelibs4-branding-openSUSE
 
-# HOOK_FOR_NONOSS 
+#INCLUDE dvd-nonoss-deps-i586 # !x86_64
+#INCLUDE dvd-nonoss-deps-x86_64 # !i586
+
