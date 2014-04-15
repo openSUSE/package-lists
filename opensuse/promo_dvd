@@ -22,6 +22,7 @@ namespace namespace:language(zh_CN) @SYSTEM
 #INCLUDE ignore_opensuse-basedon
 #INCLUDE ignore_opensuse-dvd5
 job install name branding-openSUSE
+job install name postfix
 job install provides pattern() = rest_promo_dvd
 job install name openSUSE-release-dvd-promo
 job lock name qt3

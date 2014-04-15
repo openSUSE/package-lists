@@ -2,6 +2,7 @@ system x86_64 rpm
 
 namespace namespace:language(en) @SYSTEM
 
+#INCLUDE all-supplements
 #INCLUDE ignore_opensuse
 #INCLUDE ignore_opensuse-basedon
 #INCLUDE ignore_opensuse-cds

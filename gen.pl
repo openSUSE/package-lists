@@ -39,12 +39,19 @@ print OUT "repo openSUSE:Factory-standard-$arch 0 solv trees/openSUSE:Factory-st
 for my $line (read_file_recursively($file)) {
   print OUT "$line\n";
 }
+print OUT "result transaction,recommended <inline>\n";
 close(OUT);
 
 open(TS, "testsolv -r t|");
 my @installs;
+my @suggested;
 my $ret = 0;
 while ( <TS> ) {
+  next if /^recommended/;
+  if (/^suggested (.*)-[^-]+-[^-]+\.(\S*)@/) {
+    push(@suggested, $1);
+    next;
+  }
   if (/^install (.*)-[^-]+-[^-]+\.(\S*)@/) {
 	push(@installs, $1);
   } else {
@@ -58,5 +65,10 @@ close(TS);
 open(OUT, ">", "output/$file.$arch.list");
 for my $pkg (sort @installs) {
   print OUT "$pkg\n";
+}
+close(OUT);
+open(OUT, ">", "output/$file.$arch.suggests");
+for my $pkg (sort @suggested) {
+  print OUT "job install name $pkg\n";
 }
 close(OUT);

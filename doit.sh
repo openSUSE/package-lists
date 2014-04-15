@@ -15,7 +15,14 @@ for arch in i586 x86_64; do
     ./gen.pl opensuse/gnome_cd $arch
     ./gen.pl opensuse/gnome_cd-default $arch 
 
+    # first flash
+    : > opensuse/dvd-1.$arch.suggests
     ./gen.pl opensuse/dvd-1 $arch
+    
+    # then readd
+    mv output/opensuse/dvd-1.$arch.suggests opensuse/dvd-1.$arch.suggests
+    ./gen.pl opensuse/dvd-1 $arch
+
     ./gen.pl opensuse/dvd-2 $arch
     ./gen.pl opensuse/dvd-3 $arch
     ./gen.pl opensuse/dvd-base $arch
