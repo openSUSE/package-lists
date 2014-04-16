@@ -465,7 +465,6 @@ dejavu-fonts
 delayacct-utils
 deltarpm
 desktop-data-openSUSE
-desktop-data-openSUSE-extra
 desktop-file-utils
 devhelp
 devhelp-lang
@@ -899,6 +898,7 @@ grub2-branding-openSUSE
 grub2-i386-pc
 grub2-snapper-plugin
 grub2-x86_64-efi
+grub2-x86_64-xen
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
@@ -1251,8 +1251,6 @@ kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
-kdebase4-wallpaper-default
-kdebase4-wallpapers
 kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
@@ -4312,7 +4310,6 @@ scim-qt4
 scons
 scout
 screen
-scribus
 seahorse
 seahorse-daemon
 seahorse-sharing

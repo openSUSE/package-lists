@@ -213,5 +213,8 @@ job lock name module-init-tools
 job lock name libstdc++6-gcc49
 job lock name libstdc++6-gcc49-locale
 
+job lock name gettext-runtime-mini
+job lock name log4j-mini
+
 #INCLUDE non_ftp_packages
 
