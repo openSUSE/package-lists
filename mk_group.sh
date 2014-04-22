@@ -8,7 +8,7 @@ dest=$3
 cond=$4
 
 pushd $PWD/`dirname $dest` > /dev/null
-  osc up
+  osc -q up > /dev/null
 popd > /dev/null
 
 

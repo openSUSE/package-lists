@@ -350,7 +350,6 @@ caribou-common
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
-catdoc
 ccache
 cdparanoia
 cdparanoia-devel
@@ -3299,7 +3298,6 @@ myspell-spanish
 mysql-connector-java
 nagios
 nagios-plugins
-nagios-plugins-bgpstate
 nagios-plugins-breeze
 nagios-plugins-by_ssh
 nagios-plugins-cluster
@@ -3319,14 +3317,12 @@ nagios-plugins-ide_smart
 nagios-plugins-ifoperstatus
 nagios-plugins-ifstatus
 nagios-plugins-ircd
-nagios-plugins-linux_raid
 nagios-plugins-load
 nagios-plugins-log
 nagios-plugins-mailq
 nagios-plugins-mrtg
 nagios-plugins-mrtgtraf
 nagios-plugins-nagios
-nagios-plugins-netapp
 nagios-plugins-nt
 nagios-plugins-ntp_peer
 nagios-plugins-ntp_time
@@ -3346,7 +3342,6 @@ nagios-plugins-time
 nagios-plugins-ups
 nagios-plugins-users
 nagios-plugins-wave
-nagios-plugins-xenvm
 nagios-www
 nano
 nano-lang
@@ -4090,6 +4085,7 @@ python-devel
 python-dnspython
 python-doc
 python-doc-pdf
+python-ecdsa
 python-fcgi
 python-flickrapi
 python-gconf
@@ -4139,11 +4135,13 @@ python-odfpy
 python-opensync
 python-orbit
 python-pam
+python-paramiko
 python-pexpect
 python-pyOpenSSL
 python-pyasn1
 python-pyasn1-modules
 python-pybluez
+python-pycrypto
 python-pycurl
 python-pygame
 python-pymongo

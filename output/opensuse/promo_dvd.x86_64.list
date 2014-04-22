@@ -2204,7 +2204,6 @@ myspell-russian
 myspell-spanish
 nagios
 nagios-plugins
-nagios-plugins-bgpstate
 nagios-plugins-breeze
 nagios-plugins-by_ssh
 nagios-plugins-cluster
@@ -2223,13 +2222,11 @@ nagios-plugins-ide_smart
 nagios-plugins-ifoperstatus
 nagios-plugins-ifstatus
 nagios-plugins-ircd
-nagios-plugins-linux_raid
 nagios-plugins-load
 nagios-plugins-log
 nagios-plugins-mailq
 nagios-plugins-mrtg
 nagios-plugins-mrtgtraf
-nagios-plugins-netapp
 nagios-plugins-nt
 nagios-plugins-ntp_peer
 nagios-plugins-ntp_time
@@ -2266,7 +2263,6 @@ nbd-doc
 ncftp
 ncurses-devel
 ncurses-utils
-nepomuk-core
 net-snmp
 net-tools
 netcat-openbsd
@@ -2644,6 +2640,7 @@ python-cupshelpers
 python-curses
 python-dateutil
 python-deltarpm
+python-ecdsa
 python-gobject
 python-gobject-cairo
 python-gobject2
@@ -2662,7 +2659,9 @@ python-lockfile
 python-lxml
 python-numpy
 python-opensync
+python-paramiko
 python-pybluez
+python-pycrypto
 python-pycurl
 python-pyudev
 python-qt4

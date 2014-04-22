@@ -1030,6 +1030,7 @@ kde4-l10n-hi
 kde4-l10n-hr
 kde4-l10n-hu
 kde4-l10n-ia
+kde4-l10n-id
 kde4-l10n-is
 kde4-l10n-it
 kde4-l10n-it-data
@@ -2888,7 +2889,6 @@ myspell-yiddish
 myspell-zulu
 nagios
 nagios-plugins
-nagios-plugins-bgpstate
 nagios-plugins-breeze
 nagios-plugins-by_ssh
 nagios-plugins-cluster
@@ -2907,13 +2907,11 @@ nagios-plugins-ide_smart
 nagios-plugins-ifoperstatus
 nagios-plugins-ifstatus
 nagios-plugins-ircd
-nagios-plugins-linux_raid
 nagios-plugins-load
 nagios-plugins-log
 nagios-plugins-mailq
 nagios-plugins-mrtg
 nagios-plugins-mrtgtraf
-nagios-plugins-netapp
 nagios-plugins-nt
 nagios-plugins-ntp_peer
 nagios-plugins-ntp_time
@@ -2952,7 +2950,6 @@ nbd-doc
 ncftp
 ncurses-devel
 ncurses-utils
-nepomuk-core
 net-snmp
 net-tools
 netcat-openbsd
@@ -3331,6 +3328,7 @@ polkit-gnome
 polkit-kde-agent-1
 poppler-tools
 posix_cc
+postfix
 pothana2000-fonts
 ppp
 pptp
@@ -3373,6 +3371,7 @@ python-curses
 python-dateutil
 python-deltarpm
 python-devel
+python-ecdsa
 python-gconf
 python-gobject
 python-gobject-cairo
@@ -3395,8 +3394,10 @@ python-lxml
 python-numpy
 python-opensync
 python-pam
+python-paramiko
 python-pyOpenSSL
 python-pybluez
+python-pycrypto
 python-pycurl
 python-pyudev
 python-qt4
@@ -3505,7 +3506,6 @@ seamonkey-translations-common
 seamonkey-translations-other
 seamonkey-venkman
 sed
-sendmail
 sensors
 sessreg
 setserial
