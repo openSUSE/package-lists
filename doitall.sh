@@ -13,25 +13,15 @@ if grep -q 'dirty="true"' /tmp/state || grep -q 'state="building"' /tmp/state; t
    fi
 fi
 ./doit.sh
+./commit.sh
 
 cd update-tests
-test -f ../dirty && ./testall.sh
+./testall.sh
 cd ..
 
-for f in output/opensuse/*.list; do
-  saved=saved/`basename $f`
-  if cmp -s $f $saved; then
-    # reset timestamp
-    cp -a $saved $f
-  fi
-done 
-
 set -e
-
-./commit.sh
 
 git commit -m "auto commit" -a
 echo "all done"
 git push || true
 
-rm -fv dirty
