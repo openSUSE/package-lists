@@ -96,6 +96,7 @@ cryptsetup-mkinitrd
 cups
 cups-client
 cups-filters-foomatic-rip
+cups-filters-ghostscript
 cups-libs
 cups-pk-helper
 curl
@@ -190,6 +191,8 @@ gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-plugins-base
+gstreamer-plugins-good
+gstreamer-plugins-good-lang
 gtk2-data
 gtk2-engine-oxygen
 gtk2-immodule-amharic
@@ -416,6 +419,7 @@ libboost_filesystem1_54_0
 libboost_program_options1_54_0
 libboost_system1_54_0
 libboost_thread1_54_0
+libbtrfs0
 libburn4
 libbz2-1
 libcairo-gobject2
@@ -433,8 +437,6 @@ libcdda_paranoia0
 libcdio14
 libcelt0-2
 libcloog-isl4
-libclucene-core1
-libclucene-shared1
 libcolord2
 libcom_err2
 libcrack2
@@ -515,14 +517,19 @@ libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
 libgsm1
+libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstfft-1_0-0
 libgstinterfaces-0_10-0
 libgstpbutils-1_0-0
 libgstreamer-0_10-0
 libgstreamer-1_0-0
 libgstriff-1_0-0
+libgstrtp-1_0-0
+libgstrtsp-1_0-0
+libgstsdp-1_0-0
 libgsttag-1_0-0
 libgstvideo-1_0-0
 libgthread-2_0-0
@@ -540,7 +547,6 @@ libicu52_1
 libicu52_1-data
 libidn11
 libimobiledevice4
-libiodbc3
 libiptc0
 libisl10
 libiso9660-8
@@ -649,7 +655,7 @@ libnm-glib4
 libnm-util2
 libnotify-tools
 libnotify4
-libntfs-3g84
+libntfs-3g85
 libogg0
 liboggkate1
 libopenal1
@@ -716,13 +722,10 @@ libqt4-sql-sqlite
 libqt4-x11
 libqt5-qtimageformats
 libquadmath0
-libraptor2-0
-librasqal3
 libraw10
 libraw1394-11
 librcc0
 librcd0
-librdf0
 libreadline6
 libreiserfscore0
 libruby2_1
@@ -749,7 +752,6 @@ libsnapper2
 libsndfile1
 libsoftokn3
 libsolv-tools
-libsoprano4
 libsoup-2_4-1
 libsox2
 libspandsp2
@@ -1098,8 +1100,6 @@ smartmontools
 smp_utils
 snapper
 snapper-zypp-plugin
-soprano-backend-redland
-soprano-backend-virtuoso
 sound-theme-freedesktop
 sox
 strace
@@ -1158,8 +1158,6 @@ usbutils
 util-linux
 vcdimager
 vim
-virtuoso-drivers
-virtuoso-server
 vorbis-tools
 vpnc
 wallpaper-branding-basedonopensuse

@@ -287,7 +287,6 @@ bundle-lang-common-de
 bundle-lang-common-el
 bundle-lang-common-en
 bundle-lang-common-es
-bundle-lang-common-fi
 bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
@@ -335,6 +334,31 @@ cabextract
 cairo-devel
 cal10n
 calibre
+calligra
+calligra-doc
+calligra-krita
+calligra-l10n-cs
+calligra-l10n-da
+calligra-l10n-de
+calligra-l10n-de-doc
+calligra-l10n-el
+calligra-l10n-es
+calligra-l10n-es-doc
+calligra-l10n-fr
+calligra-l10n-fr-doc
+calligra-l10n-hu
+calligra-l10n-it
+calligra-l10n-it-doc
+calligra-l10n-pl
+calligra-l10n-pt
+calligra-l10n-pt-doc
+calligra-l10n-pt_BR
+calligra-l10n-pt_BR-doc
+calligra-l10n-ru
+calligra-l10n-ru-doc
+calligra-l10n-zh_CN
+calligra-l10n-zh_TW
+calligra-stage
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -395,6 +419,7 @@ crash-kmp-default
 crash-kmp-desktop
 crash-kmp-xen
 crda
+create-resources
 createrepo
 cron
 cronie
@@ -842,8 +867,6 @@ gnu-free-fonts
 gnu-jaf
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
-gnucash
-gnucash-lang
 gnuchess
 gnutls
 gobject-introspection
@@ -988,7 +1011,6 @@ gucharmap-devel
 gudev-sharp
 guile
 guile-modules-2_0
-guile1
 gupnp-av
 gutenprint
 gv
@@ -1433,6 +1455,7 @@ libNetworkManagerQt0
 libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
+libOpenColorIO1
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -1528,7 +1551,6 @@ libXxf86vm-devel
 libXxf86vm1
 libaa1
 libabiword-2_8
-libabw-0_0-0
 libaccountsservice0
 libacl-devel
 libacl1
@@ -1637,6 +1659,7 @@ libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
 libbrlapi0_6
+libbtrfs0
 libburn4
 libbz2-1
 libbz2-devel
@@ -1670,7 +1693,6 @@ libcdio-devel
 libcdio14
 libcdio_cdda1
 libcdio_paranoia1
-libcdr-0_0-0
 libcelt0-2
 libcelt051-0
 libcfitsio2
@@ -1687,7 +1709,6 @@ libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
-libcmis-0_4-4
 libcogl-pango15
 libcogl15
 libcollection2
@@ -1713,7 +1734,6 @@ libdar5000
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
-libdbi1
 libdbus-1-3
 libdbusmenu-qt-devel
 libdbusmenu-qt2
@@ -1747,7 +1767,6 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libe-book-0_0-0
 libeXosip2-6
 libeXosip2-devel
 libebackend-1_2-7
@@ -1774,7 +1793,6 @@ libesd-devel
 libesd0
 libesmtp
 libestr0
-libetonyek-0_0-0
 libetpan17
 libevdev-tools
 libevdev2
@@ -1794,12 +1812,9 @@ libexpat-devel
 libexpat1
 libext2fs-devel
 libext2fs2
-libexttextcat
-libexttextcat-2_0-0
 libfallocate0
 libfam0-gamin
 libfarstream-0_2-2
-libfbembed2_5
 libfcitx-4_2_8
 libfdt1
 libffi4
@@ -1823,7 +1838,6 @@ libfontenc1
 libfox1_6
 libfprint0
 libfreebl3
-libfreehand-0_0-0
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
@@ -2011,12 +2025,6 @@ libgudev-1_0-0
 libgudev-1_0-devel
 libguess1
 libguile-2_0-22
-libguile-srfi-srfi-1-v-3-3
-libguile-srfi-srfi-13-14-v-3-3
-libguile-srfi-srfi-4-v-3-3
-libguile-srfi-srfi-60-v-2-2
-libguile17
-libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-dlna-2_0-3
@@ -2042,7 +2050,6 @@ libhavege1
 libhdf5-8
 libhdf5_hl8
 libhogweed2
-libhyphen0
 libibus-1_0-5
 libical-devel
 libical1
@@ -2077,7 +2084,6 @@ libiterm1
 libitm1
 libiw-devel
 libiw30
-libixion-0_6-0
 libjack-devel
 libjack0
 libjasper-devel
@@ -2155,7 +2161,6 @@ libktoblzcheck1-devel
 libktorrent-devel
 libktorrent5
 libkvkontakte1
-liblangtag1
 liblapack3
 liblastfm-devel
 liblastfm1
@@ -2178,7 +2183,6 @@ liblockdev1
 liblogging0
 libloudmouth-1-0
 liblouis2
-liblpsolve55-0
 liblqr-1-0
 liblqr-devel
 liblrdf2
@@ -2228,7 +2232,6 @@ libmpfr4
 libmsn-devel
 libmsn0_3
 libmspack0
-libmspub-0_0-0
 libmtdev1
 libmtp-devel
 libmtp9
@@ -2238,16 +2241,13 @@ libmusicbrainz3-devel
 libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
-libmwaw-0_2-2
 libmxml1
 libmygpo-qt-devel
 libmygpo-qt1
 libmysqlclient-devel
 libmysqlclient18
 libmysqlclient_r18
-libmysqlcppconn6
 libmysqld18
-libmythes-1_2-0
 libnautilus-extension1
 libncurses5
 libncurses6
@@ -2280,11 +2280,10 @@ libnotify4
 libnova-0_15-0
 libnova-devel
 libnsssharedhelper0
-libntfs-3g84
+libntfs-3g85
 liboauth-devel
 liboauth0
 libobjc4
-libodfgen-0_0-0
 libofa0
 libofx
 libofx-devel
@@ -2316,7 +2315,6 @@ libopensync-plugin-moto
 libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
-liborcus-0_6-0
 libortp9
 libosinfo
 libosinfo-1_0-0
@@ -2465,8 +2463,6 @@ libqyoto2
 libqzeitgeist1
 libraptor-devel
 libraptor2-0
-librasqal-devel
-librasqal3
 libraw-devel
 libraw10
 libraw1394-11
@@ -2475,35 +2471,10 @@ librcc0
 librcd0
 librcps-devel
 librcps0
-librdf0
 libreadline6
-libredland-devel
 libref_array1
 libregistry0
 libreiserfscore0
-libreoffice
-libreoffice-base
-libreoffice-base-drivers-mysql
-libreoffice-branding-openSUSE
-libreoffice-calc
-libreoffice-draw
-libreoffice-filters-optional
-libreoffice-icon-theme-galaxy
-libreoffice-icon-theme-hicontrast
-libreoffice-icon-theme-oxygen
-libreoffice-icon-theme-sifr
-libreoffice-impress
-libreoffice-kde4
-libreoffice-l10n-en
-libreoffice-mailmerge
-libreoffice-math
-libreoffice-pyuno
-libreoffice-templates-en
-libreoffice-templates-labels-a4
-libreoffice-templates-labels-letter
-libreoffice-templates-presentation-layouts
-libreoffice-thesaurus-en-US
-libreoffice-writer
 librest0
 librsvg-2-2
 librsvg-devel
@@ -2569,7 +2540,6 @@ libsofia-sip-ua0
 libsoftokn3
 libsolv-devel
 libsolv-tools
-libsoprano-devel
 libsoprano4
 libsoup-2_4-1
 libsoup-devel
@@ -2587,6 +2557,7 @@ libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
 libspice-controller0
 libspice-server1
+libspnav0
 libsqlite3-0
 libssh-devel
 libssh2-1
@@ -2627,6 +2598,7 @@ libtidyp-1_04-0
 libtiff-devel
 libtiff5
 libtimidity-0_1-0
+libtinyxml0
 libtirpc1
 libtool
 libtotem-plparser-mini18
@@ -2695,7 +2667,6 @@ libvirt-daemon-driver-vbox
 libvirt-daemon-qemu
 libvirt-glib-1_0-0
 libvirt-python
-libvisio-0_0-0
 libvisual
 libvisual-devel
 libvmtools0
@@ -2736,7 +2707,6 @@ libwpd-0_9-9
 libwpd-devel
 libwpg-0_2-2
 libwpg-devel
-libwps-0_2-2
 libwrap0
 libwv-1_2-3
 libwv2-4
@@ -3114,7 +3084,6 @@ ndesk-dbus
 ndesk-dbus-glib
 nemiver
 nemiver-lang
-nepomuk-core
 net-snmp
 net-snmp-devel
 net-tools
@@ -3333,6 +3302,8 @@ pavucontrol
 pavucontrol-lang
 pax
 pbm2l7k
+pcfclock-kmp-default
+pcfclock-kmp-desktop
 pciutils
 pciutils-devel
 pciutils-ids
@@ -3419,6 +3390,7 @@ perl-Devel-CoreStack
 perl-Devel-GlobalDestruction
 perl-Devel-LexAlias
 perl-Devel-PartialDump
+perl-Devel-StackTrace
 perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -3444,7 +3416,6 @@ perl-File-Tail
 perl-File-Type
 perl-File-Which
 perl-FileHandle-Unget
-perl-Finance-Quote
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d
@@ -3453,16 +3424,13 @@ perl-GDTextUtil
 perl-Glib
 perl-Gtk2
 perl-HTML-Clean
-perl-HTML-Element-Extended
 perl-HTML-FillInForm
 perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
-perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Tidy
-perl-HTML-TokeParser-Simple
 perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-DAV
@@ -3565,7 +3533,6 @@ perl-Sub-Exporter
 perl-Sub-Exporter-Progressive
 perl-Sub-Install
 perl-Sub-Name
-perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Task-Weaken
@@ -3573,7 +3540,6 @@ perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
-perl-Test-Fatal
 perl-Test-LeakTrace
 perl-Test-Manifest
 perl-Test-Script
@@ -4075,7 +4041,6 @@ skanlite-lang
 skkdic
 slang-slsh
 slf4j
-slib
 slrn
 slrn-lang
 smartmontools
@@ -4110,9 +4075,6 @@ snapper-zypp-plugin
 snmp-mibs
 solarwolf
 sonar-icon-theme
-soprano
-soprano-backend-redland
-soprano-backend-virtuoso
 sound-juicer
 sound-juicer-lang
 sound-theme-freedesktop
@@ -4138,7 +4100,6 @@ star
 startup-notification-devel
 step
 strace
-strigi-devel
 subversion
 subversion-devel
 subversion-doc
@@ -4437,8 +4398,6 @@ virt-manager
 virt-manager-common
 virt-utils
 virt-viewer
-virtuoso-drivers
-virtuoso-server
 vlan
 vlock
 vm-install

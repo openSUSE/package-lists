@@ -332,6 +332,31 @@ cabextract
 cairo-devel
 cal10n
 calibre
+calligra
+calligra-doc
+calligra-krita
+calligra-l10n-cs
+calligra-l10n-da
+calligra-l10n-de
+calligra-l10n-de-doc
+calligra-l10n-el
+calligra-l10n-es
+calligra-l10n-es-doc
+calligra-l10n-fr
+calligra-l10n-fr-doc
+calligra-l10n-hu
+calligra-l10n-it
+calligra-l10n-it-doc
+calligra-l10n-pl
+calligra-l10n-pt
+calligra-l10n-pt-doc
+calligra-l10n-pt_BR
+calligra-l10n-pt_BR-doc
+calligra-l10n-ru
+calligra-l10n-ru-doc
+calligra-l10n-zh_CN
+calligra-l10n-zh_TW
+calligra-stage
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -391,6 +416,7 @@ crash-kmp-default
 crash-kmp-desktop
 crash-kmp-xen
 crda
+create-resources
 createrepo
 cron
 cronie
@@ -837,8 +863,6 @@ gnu-free-fonts
 gnu-jaf
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
-gnucash
-gnucash-lang
 gnutls
 gobject-introspection
 gobject-introspection-devel
@@ -982,7 +1006,6 @@ gucharmap-devel
 gudev-sharp
 guile
 guile-modules-2_0
-guile1
 gupnp-av
 gutenprint
 gv
@@ -1426,6 +1449,7 @@ libNetworkManagerQt0
 libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
+libOpenColorIO1
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -1629,6 +1653,7 @@ libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
 libbrlapi0_6
+libbtrfs0
 libburn4
 libbz2-1
 libbz2-devel
@@ -1703,7 +1728,6 @@ libdar5000
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
-libdbi1
 libdbus-1-3
 libdbusmenu-qt-devel
 libdbusmenu-qt2
@@ -1994,12 +2018,6 @@ libgudev-1_0-0
 libgudev-1_0-devel
 libguess1
 libguile-2_0-22
-libguile-srfi-srfi-1-v-3-3
-libguile-srfi-srfi-13-14-v-3-3
-libguile-srfi-srfi-4-v-3-3
-libguile-srfi-srfi-60-v-2-2
-libguile17
-libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-dlna-2_0-3
@@ -2254,7 +2272,7 @@ libnotify4
 libnova-0_15-0
 libnova-devel
 libnsssharedhelper0
-libntfs-3g84
+libntfs-3g85
 liboauth-devel
 liboauth0
 libobjc4
@@ -2437,8 +2455,6 @@ libqyoto2
 libqzeitgeist1
 libraptor-devel
 libraptor2-0
-librasqal-devel
-librasqal3
 libraw-devel
 libraw10
 libraw1394-11
@@ -2447,9 +2463,7 @@ librcc0
 librcd0
 librcps-devel
 librcps0
-librdf0
 libreadline6
-libredland-devel
 libref_array1
 libregistry0
 libreiserfscore0
@@ -2518,7 +2532,6 @@ libsofia-sip-ua0
 libsoftokn3
 libsolv-devel
 libsolv-tools
-libsoprano-devel
 libsoprano4
 libsoup-2_4-1
 libsoup-devel
@@ -2536,6 +2549,7 @@ libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
 libspice-controller0
 libspice-server1
+libspnav0
 libsqlite3-0
 libssh-devel
 libssh2-1
@@ -2576,6 +2590,7 @@ libtidyp-1_04-0
 libtiff-devel
 libtiff5
 libtimidity-0_1-0
+libtinyxml0
 libtirpc1
 libtool
 libtotem-plparser-mini18
@@ -3060,7 +3075,6 @@ ndesk-dbus
 ndesk-dbus-glib
 nemiver
 nemiver-lang
-nepomuk-core
 net-snmp
 net-snmp-devel
 net-tools
@@ -3277,6 +3291,8 @@ pavucontrol
 pavucontrol-lang
 pax
 pbm2l7k
+pcfclock-kmp-default
+pcfclock-kmp-desktop
 pciutils
 pciutils-devel
 pciutils-ids
@@ -3363,6 +3379,7 @@ perl-Devel-CoreStack
 perl-Devel-GlobalDestruction
 perl-Devel-LexAlias
 perl-Devel-PartialDump
+perl-Devel-StackTrace
 perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-MD4
@@ -3388,7 +3405,6 @@ perl-File-Tail
 perl-File-Type
 perl-File-Which
 perl-FileHandle-Unget
-perl-Finance-Quote
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d
@@ -3397,16 +3413,13 @@ perl-GDTextUtil
 perl-Glib
 perl-Gtk2
 perl-HTML-Clean
-perl-HTML-Element-Extended
 perl-HTML-FillInForm
 perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
-perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Tidy
-perl-HTML-TokeParser-Simple
 perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-DAV
@@ -3509,7 +3522,6 @@ perl-Sub-Exporter
 perl-Sub-Exporter-Progressive
 perl-Sub-Install
 perl-Sub-Name
-perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Task-Weaken
@@ -3517,7 +3529,6 @@ perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
-perl-Test-Fatal
 perl-Test-LeakTrace
 perl-Test-Manifest
 perl-Test-Script
@@ -4016,7 +4027,6 @@ skanlite-lang
 skkdic
 slang-slsh
 slf4j
-slib
 slrn
 slrn-lang
 smartmontools
@@ -4051,9 +4061,6 @@ snapper-zypp-plugin
 snmp-mibs
 solarwolf
 sonar-icon-theme
-soprano
-soprano-backend-redland
-soprano-backend-virtuoso
 sound-juicer
 sound-juicer-lang
 sound-theme-freedesktop
@@ -4078,7 +4085,6 @@ star
 startup-notification-devel
 step
 strace
-strigi-devel
 subversion
 subversion-devel
 subversion-doc
@@ -4376,8 +4382,6 @@ virt-manager
 virt-manager-common
 virt-utils
 virt-viewer
-virtuoso-drivers
-virtuoso-server
 vlan
 vlock
 vm-install
