@@ -144,6 +144,8 @@ libgmp10
 libgnutls28
 libgobject-2_0-0
 libgpg-error0
+libgsasl-lang
+libgsasl7
 libgudev-1_0-0
 libhavege1
 libhogweed2
@@ -175,6 +177,7 @@ libnfnetlink0
 libnl-config
 libnl3-200
 libntfs-3g85
+libntlm0
 libopenssl1_0_0
 libp11-kit0
 libparted0
@@ -189,7 +192,6 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-webkit
 libpth20
-libpyglib-gi-2_0-python2-0
 libpython2_7-1_0
 libqrencode3
 libreadline6
@@ -238,11 +240,10 @@ logrotate
 lsof
 lsscsi
 lvm2
-m4
-make
 mdadm
-metamail
 mozilla-nspr
+msmtp
+msmtp-mta
 mtools
 multipath-tools
 ncurses-utils
@@ -328,9 +329,7 @@ pm-utils
 polkit
 polkit-default-privs
 prctl
-procmail
 procps
-psmisc
 python
 python-base
 python-gobject
@@ -345,13 +344,9 @@ ruby-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 sed
-sendmail
 sg3_utils
 shadow
 shared-mime-info
-sharutils
-sharutils-lang
-site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -363,7 +358,6 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 tar

@@ -287,6 +287,7 @@ cogl-devel
 color-filesystem
 colord
 command-not-found
+compositeproto-devel
 coreutils
 cpio
 cpp
@@ -320,7 +321,7 @@ cyrus-sasl-devel
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-daps
+damageproto-devel
 db45-utils
 db48-utils
 dbsplit-tools
@@ -364,6 +365,7 @@ digikam-doc
 dirmngr
 dmidecode
 dmraid
+dmxproto-devel
 dmz-icon-theme-cursors
 dnsmasq
 docbook-dsssl-stylesheets
@@ -443,6 +445,7 @@ fcitx-table-tw-smart-cangjie6
 fd0ssh
 fdupes
 fetchmail
+fifth-leg-font
 file
 file-magic
 file-roller
@@ -452,13 +455,16 @@ findutils
 finger
 five-or-more
 five-or-more-lang
+fixesproto-devel
 flex
 font-util
+fontcacheproto-devel
 fontconfig
 fontconfig-32bit
 fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
+fontsproto-devel
 fortune
 four-in-a-row
 four-in-a-row-lang
@@ -514,6 +520,7 @@ genisoimage
 geoclue
 geoclue-recommended
 geoclue2
+geocode-glib
 geronimo-j2ee-1_4-apis
 geronimo-specs-poms
 gettext-runtime
@@ -574,7 +581,6 @@ glu-devel
 gmixer
 gmp-devel
 gnome-bluetooth
-gnome-bluetooth-plugins-geoclue
 gnome-calculator
 gnome-chess
 gnome-clocks
@@ -634,6 +640,7 @@ gnome-shell-browser-plugin
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
+gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-sudoku
@@ -774,6 +781,7 @@ gtkiterm
 gtksourceview-devel
 gtksourceview-sharp2
 gtkspell-lang
+gtkspell3-lang
 gucharmap
 gucharmap-devel
 guile
@@ -834,13 +842,8 @@ indic-fonts
 info
 info2html
 initviocons
-inkscape
-inkscape-extensions-dia
-inkscape-extensions-extra
-inkscape-extensions-fig
-inkscape-extensions-gimp
-inkscape-lang
 inn
+inputproto-devel
 insserv-compat
 intel-gpu-tools
 intlfonts
@@ -857,7 +860,6 @@ iputils
 ipw-firmware
 irda
 irqbalance
-isns
 iso-codes
 iso_ent
 ispell
@@ -900,6 +902,7 @@ kapptemplate
 kasumi
 kate
 kbd
+kbproto-devel
 kbruch
 kcachegrind
 kcalc
@@ -1093,7 +1096,6 @@ libImath-2_1-11
 libImlib2-1
 libLLVM
 libLLVM-32bit
-libMagick++-6_Q16-3
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libModemManagerQt0
@@ -1114,8 +1116,6 @@ libSM-devel
 libSM6
 libSM6-32bit
 libSoundTouch0
-libWindowsWM-devel
-libWindowsWM7
 libX11-6
 libX11-6-32bit
 libX11-data
@@ -1207,7 +1207,6 @@ libXxf86vm1-32bit
 libabiword-2_8
 libabw-0_0-0
 libaccountsservice0
-libacl-devel
 libacl1
 libacl1-32bit
 libadns1
@@ -1249,7 +1248,6 @@ libatm1
 libatomic1
 libatspi0
 libatspi0-32bit
-libattica-devel
 libattica0_4
 libattr-devel
 libattr1
@@ -1323,7 +1321,7 @@ libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
-libcamel-1_2-45
+libcamel-1_2-49
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
@@ -1367,8 +1365,8 @@ libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
 libcmis-0_4-4
-libcogl-pango15
-libcogl15
+libcogl-pango20
+libcogl20
 libcollection2
 libcolord-gtk1
 libcolord2
@@ -1405,7 +1403,7 @@ libdconf1
 libdhash1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-3
+libdirectfb-1_7-4
 libdiscid0
 libdjvulibre21
 libdmapsharing-3_0-2
@@ -1431,7 +1429,6 @@ libdvdread4
 libdw1
 libe-book-0_0-0
 libebackend-1_2-7
-libebl1
 libebook-1_2-14
 libebook-contacts-1_2-0
 libecal-1_2-16
@@ -1532,7 +1529,7 @@ libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
 libgdata-devel
-libgdata13
+libgdata19
 libgdbm4
 libgdict-1_0-6
 libgdiplus-devel
@@ -1548,6 +1545,7 @@ libgensec0-32bit
 libgeoclue0
 libgeocode-glib0
 libgexiv2-2
+libgfbgraph-0_2-0
 libgfortran3
 libggz2
 libggz2-devel
@@ -1573,9 +1571,9 @@ libgmodule-2_0-0-32bit
 libgmp10
 libgmpxx4
 libgnome
-libgnome-bluetooth12
+libgnome-bluetooth13
 libgnome-desktop-2-17
-libgnome-desktop-3-8
+libgnome-desktop-3-10
 libgnome-desktop-3-devel
 libgnome-desktop-3_0-common
 libgnome-keyring-devel
@@ -1616,6 +1614,7 @@ libgraphite2-3
 libgraphite2-3-32bit
 libgrilo-0_2-1
 libgrlnet-0_2-0
+libgrlpls-0_2-0
 libgsf-1-114
 libgsf-devel
 libgsm1
@@ -1661,7 +1660,8 @@ libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtkspell0
-libgtop-2_0-7
+libgtkspell3-3-0
+libgtop-2_0-10
 libgtop-devel
 libgucharmap_2_90-7
 libgudev-1_0-0
@@ -1671,7 +1671,6 @@ libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
 libgusb2
-libgvfscommon0
 libgvnc-1_0-0
 libgweather-3-6
 libgweather-data
@@ -1703,6 +1702,8 @@ libindidriver0
 libini_config3
 libiniparser0
 libiniparser0-32bit
+libinput-devel
+libinput0
 libiptc0
 libiptcdata
 libiptcdata0
@@ -1818,10 +1819,13 @@ libmal1
 libmarblewidget18
 libmbim-glib0
 libmeanwhile1
+libmediaart-1_0-0
+libmediaart-devel
 libmediastreamer_base3
 libmediastreamer_voip3
 libmediawiki1
 libmenu-cache3
+libmidori-core1
 libminiupnpc9
 libmission-control-plugins0
 libmjpegutils-2_0-0
@@ -1838,6 +1842,7 @@ libmount1
 libmount1-32bit
 libmowgli2
 libmozjs-17_0
+libmozjs-24
 libmpc3
 libmpcdec5
 libmpfr4
@@ -1913,7 +1918,7 @@ libopenal1
 libopenbabel4
 libopencc1
 libopencv2_4
-libopenjp2-6
+libopenjp2-7
 libopenjpeg1
 libopenobex2
 libopenraw1
@@ -1961,7 +1966,6 @@ libpdb0
 libpdb0-32bit
 libpeas-1_0-0
 libpeas-gtk-1_0-0
-libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-python3
 libpeas-loader-seed
@@ -1978,12 +1982,10 @@ libpixman-1-0-devel
 libpkcs11-helper1
 libplist-devel
 libplist1
-libplotter2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
 libply2
-libpng12-0
 libpng12-0-32bit
 libpng16-16
 libpng16-16-32bit
@@ -1991,14 +1993,13 @@ libpng16-compat-devel
 libpng16-devel
 libpodofo0_9_2
 libpolkit-qt-1-1
-libpolkit-qt-1-devel
 libpolkit0
 libpoppler-cpp0
 libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt4-devel
-libpoppler44
+libpoppler46
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -2025,8 +2026,6 @@ libpurple-branding-openSUSE
 libpurple-meanwhile
 libpurple-tcl
 libpwquality1
-libpyglib-gi-2_0-python2-0
-libpyglib-gi-2_0-python3-0
 libpython2_7-1_0
 libpython2_7-1_0-32bit
 libpython3_4m1_0
@@ -2109,16 +2108,6 @@ libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
 libreoffice-templates-ru
-libreoffice-thesaurus-cs
-libreoffice-thesaurus-de
-libreoffice-thesaurus-en-GB
-libreoffice-thesaurus-en-US
-libreoffice-thesaurus-es
-libreoffice-thesaurus-fr
-libreoffice-thesaurus-hu
-libreoffice-thesaurus-it
-libreoffice-thesaurus-pt
-libreoffice-thesaurus-ru
 libreoffice-writer
 libreoffice-writer-extensions
 librest0
@@ -2247,10 +2236,10 @@ libtirpc1
 libtool
 libtotem-plparser-mini18
 libtotem-plparser18
-libtracker-common-0_16-0
-libtracker-extract-0_16-0
-libtracker-miner-0_16-0
-libtracker-sparql-0_16-0
+libtracker-common-1_0
+libtracker-control-1_0-0
+libtracker-miner-1_0-0
+libtracker-sparql-1_0-0
 libts-1_0-0
 libtsan0
 libttf2
@@ -2281,7 +2270,7 @@ libv4l-devel
 libv4l1-0
 libv4l2-0
 libv4lconvert0
-libvala-0_22-0
+libvala-0_24-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2517,7 +2506,6 @@ lxterminal
 lxterminal-lang
 lzop
 m17n-db
-m2300w
 m4
 mailman
 mailx
@@ -2607,16 +2595,16 @@ mupdf
 mutter
 mutter-data
 mxml
-myspell-american
-myspell-brazilian
-myspell-british
-myspell-czech
-myspell-french
-myspell-hungarian
-myspell-italian
-myspell-portuguese
-myspell-russian
-myspell-spanish
+myspell-cs_CZ
+myspell-de
+myspell-dictionaries
+myspell-en
+myspell-es
+myspell-fr_FR
+myspell-hu_HU
+myspell-it_IT
+myspell-pt_BR
+myspell-ru_RU
 nagios
 nagios-plugins
 nagios-plugins-breeze
@@ -2709,6 +2697,7 @@ ofl
 okteta
 okular
 open-iscsi
+open-isns
 open-vm-tools
 open-vm-tools-desktop
 openSUSE-build-key
@@ -2735,7 +2724,6 @@ openssl
 opensuse-startup_en
 opensuse-startup_en-pdf
 openvpn
-optipng
 orage
 orage-doc
 orage-lang
@@ -2979,7 +2967,6 @@ perl-Test-Exception
 perl-Test-Manifest
 perl-Text-Wrapper
 perl-Tie-IxHash
-perl-Time-Duration
 perl-TimeDate
 perl-Types-Serialiser
 perl-URI
@@ -3004,7 +2991,6 @@ perl-YAML-LibYAML
 perl-apparmor
 perl-base
 perl-camgm
-perl-checkbot
 perl-common-sense
 perl-doc
 perl-gettext
@@ -3060,7 +3046,6 @@ pm-utils
 podofo
 polkit
 polkit-default-privs
-polkit-devel
 polkit-gnome
 polkit-kde-agent-1
 poppler-tools
@@ -3072,14 +3057,15 @@ ppp
 pptp
 prctl
 presage-data
+printproto-devel
 procinfo
 procmail
 procps
 providers
 psgml
 psmisc
-pstoedit
 psutils
+pthread-stubs-devel
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
@@ -3124,6 +3110,7 @@ python-gobject2
 python-gstreamer-0_10
 python-gtk
 python-httplib2
+python-imaging
 python-ipaddr
 python-kde4
 python-kde4-akonadi
@@ -3159,7 +3146,7 @@ python-smbios
 python-solv
 python-tk
 python-urlgrabber
-python-xcb-proto-devel
+python-virtualbox
 python-xdg
 python-xml
 python-yum
@@ -3190,6 +3177,7 @@ quilt
 quota
 quota-nfs
 radvd
+randrproto-devel
 raptor
 rarpd
 rcc-runtime
@@ -3198,6 +3186,7 @@ re2c
 readline-devel
 readline-doc
 recode
+recordproto-devel
 regexp
 reiserfs
 release-notes-openSUSE
@@ -3206,6 +3195,7 @@ remmina-lang
 remmina-plugin-rdp
 remmina-plugin-vnc
 remmina-plugin-xdmcp
+renderproto-devel
 rgb
 rhino
 rhythmbox
@@ -3252,6 +3242,7 @@ scim-hangul
 scim-qt4
 scout
 screen
+scrnsaverproto-devel
 seahorse
 seahorse-daemon
 seamonkey
@@ -3351,8 +3342,6 @@ systemd-logger
 systemd-presets-branding-openSUSE
 systemd-rpm-macros
 systemd-sysvinit
-systemtap
-systemtap-runtime
 sysvinit-tools
 tack
 taglib
@@ -5548,7 +5537,6 @@ tracker-devel
 tracker-gui
 tracker-miner-files
 trang
-transfig
 translation-update
 translation-update-cs
 translation-update-de
@@ -5566,6 +5554,7 @@ translation-update-zh_CN
 translation-update-zh_TW
 transmission-common
 transmission-gtk
+trapproto-devel
 tsclient
 tsclient-lang
 tumbler
@@ -5575,11 +5564,12 @@ typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
-typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
+typelib-1_0-Cogl-2_0
 typelib-1_0-CoglPango-1_0
+typelib-1_0-CoglPango-2_0
 typelib-1_0-EBook-1_2
 typelib-1_0-EBookContacts-1_2
 typelib-1_0-EDataServer-1_2
@@ -5595,7 +5585,6 @@ typelib-1_0-Gcr-3
 typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
-typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -5629,6 +5618,7 @@ typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-3_0
 typelib-1_0-Json-1_0
 typelib-1_0-LibvirtGLib-1_0
+typelib-1_0-MediaArt-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-NMClient-1_0
 typelib-1_0-NMGtk-1_0
@@ -5648,9 +5638,9 @@ typelib-1_0-SpiceClientGtk-3_0
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
 typelib-1_0-TotemPlParser-1_0
-typelib-1_0-Tracker-0_16
-typelib-1_0-TrackerExtract-0_16
-typelib-1_0-TrackerMiner-0_16
+typelib-1_0-Tracker-1_0
+typelib-1_0-TrackerControl-1_0
+typelib-1_0-TrackerMiner-1_0
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-Vte-2_90
 typelib-1_0-WebKit-1_0
@@ -5689,7 +5679,10 @@ vaapi-intel-driver
 vacation
 vala
 valgrind
+vboxgtk
+vboxgtk-lang
 vcdimager
+videoproto-devel
 viewnior
 viewnior-lang
 viewvc
@@ -5701,8 +5694,15 @@ vino
 virt-install
 virt-manager
 virt-manager-common
-virt-utils
 virt-viewer
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 vlan
 vm-install
 vorbis-tools
@@ -5756,6 +5756,7 @@ xen-kmp-desktop
 xen-libs
 xen-tools
 xerces-j2
+xextproto-devel
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -5792,6 +5793,9 @@ xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
+xf86dgaproto-devel
+xf86miscproto-devel
+xf86vidmodeproto-devel
 xfce4-appfinder
 xfce4-appfinder-lang
 xfce4-dict
@@ -5811,7 +5815,6 @@ xfce4-panel-plugin-notes-lang
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
-xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-screenshooter
 xfce4-screenshooter-doc
@@ -5835,8 +5838,10 @@ xfdesktop-lang
 xfsdump
 xfsprogs
 xfwm4
+xfwm4-branding-openSUSE
 xfwm4-lang
 xhost
+xineramaproto-devel
 xinetd
 xinit
 xkbcomp
@@ -5845,7 +5850,7 @@ xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver12
+xml-commons-resolver10
 xml-commons-which10
 xml2po
 xml2po-devel
@@ -5870,13 +5875,13 @@ xorg-x11-essentials
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache
-xorg-x11-proto-devel
 xorg-x11-server
 xorg-x11-server-extra
 xorg-x11-util-devel
 xournal
 xplanet
 xprop
+xproto-devel
 xrandr
 xrdb
 xscreensaver
@@ -6038,7 +6043,6 @@ yelp-tools
 yelp-xsl
 yp-tools
 ypbind
-yudit
 yum-metadata-parser
 zd1211-firmware
 zeitgeist

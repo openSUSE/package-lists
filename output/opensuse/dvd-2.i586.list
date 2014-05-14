@@ -19,6 +19,11 @@ at-spi2-atk-gtk2
 at-spi2-core
 atftp
 augeas-lenses
+baloo-core
+baloo-file
+baloo-kioslaves
+baloo-pim
+baloo-tools
 bash
 bash-completion
 bash-doc
@@ -165,6 +170,7 @@ kdelibs4-core
 kdepim4-runtime
 kdepimlibs4
 kdialog
+kfilemetadata
 kmod
 kmod-compat
 krb5
@@ -238,6 +244,7 @@ libaugeas0
 libavahi-client3
 libavahi-common3
 libavahi-glib1
+libbaloofiles4
 libblkid1
 libbluetooth3
 libbluray1
@@ -285,10 +292,10 @@ libdrm_nouveau2
 libdrm_radeon1
 libdw1
 libe-book-0_0-0
-libebl1
 libelf0
 libelf1
 libenchant1
+libepub0
 libestr0
 libetonyek-0_0-0
 libexif12
@@ -342,7 +349,6 @@ libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
-libgvfscommon0
 libharfbuzz-icu0
 libharfbuzz0
 libhogweed2
@@ -437,7 +443,8 @@ libplist1
 libpng16-16
 libpolkit-qt-1-1
 libpolkit0
-libpoppler44
+libpoppler-qt4-4
+libpoppler46
 libpopt0
 libprison0
 libprocps1
@@ -448,7 +455,6 @@ libproxy1-pacrunner-webkit
 libpth20
 libpulse-mainloop-glib0
 libpulse0
-libpyglib-gi-2_0-python2-0
 libpython2_7-1_0
 libqalculate5
 libqca2
@@ -489,7 +495,6 @@ libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
-libreoffice-thesaurus-en-US
 libreoffice-writer
 librest0
 libruby2_1
@@ -518,6 +523,7 @@ libsqlite3-0
 libssh2-1
 libssh4
 libstdc++6
+libtag1
 libtalloc2
 libtasn1
 libtasn1-6
@@ -556,6 +562,7 @@ libwpg-0_2-2
 libwps-0_2-2
 libwrap0
 libx86emu1
+libxapian22
 libxcb-composite0
 libxcb-damage0
 libxcb-dri2-0
@@ -592,6 +599,7 @@ libyui-qt6
 libyui6
 libz1
 libzio1
+libzip2
 libzypp
 lockdev
 logrotate
@@ -612,10 +620,12 @@ metatheme-adwaita-common
 mgetty
 mkfontdir
 mkfontscale
+mobipocket
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-myspell-american
+myspell-dictionaries
+myspell-en
 myspell-german-old
 ncurses-utils
 net-tools
@@ -734,8 +744,6 @@ systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
-systemtap
-systemtap-runtime
 sysvinit-tools
 tcsh
 terminfo-base

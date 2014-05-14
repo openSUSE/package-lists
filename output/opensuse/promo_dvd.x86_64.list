@@ -255,6 +255,7 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
+damageproto-devel
 db45-utils
 db48-utils
 dbus-1
@@ -352,6 +353,7 @@ fcitx-table-tw-smart-cangjie6
 fd0ssh
 fdupes
 fetchmail
+fifth-leg-font
 file
 file-magic
 file-roller
@@ -361,6 +363,7 @@ findutils
 finger
 five-or-more
 five-or-more-lang
+fixesproto-devel
 flex
 fontconfig
 fontconfig-32bit
@@ -410,6 +413,7 @@ genisoimage
 geoclue
 geoclue-recommended
 geoclue2
+geocode-glib
 gettext-runtime
 gettext-tools
 gfxboot
@@ -451,7 +455,6 @@ glibc-locale-32bit
 gmixer
 gmp-devel
 gnome-bluetooth
-gnome-bluetooth-plugins-geoclue
 gnome-calculator
 gnome-chess
 gnome-clocks
@@ -503,6 +506,7 @@ gnome-shell-browser-plugin
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
+gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-sudoku
@@ -617,6 +621,7 @@ gtk3-theming-engine-adwaita
 gtk3-tools
 gtkiterm
 gtkspell-lang
+gtkspell3-lang
 gucharmap
 guile
 guile-modules-2_0
@@ -668,10 +673,6 @@ indic-fonts
 info
 info2html
 initviocons
-inkscape
-inkscape-extensions-extra
-inkscape-extensions-gimp
-inkscape-lang
 inn
 insserv-compat
 intel-gpu-tools
@@ -685,7 +686,6 @@ iputils
 ipw-firmware
 irda
 irqbalance
-isns
 iso-codes
 iso_ent
 ispell
@@ -717,6 +717,7 @@ kanagram
 kapptemplate
 kate
 kbd
+kbproto-devel
 kbruch
 kcachegrind
 kcalc
@@ -871,7 +872,6 @@ leafpad
 lensfun-data
 less
 lftp
-libEMF1
 libFLAC++6
 libFLAC8
 libFLAC8-32bit
@@ -890,7 +890,6 @@ libIlmThread-2_1-11
 libImlib2-1
 libLLVM
 libLLVM-32bit
-libMagick++-6_Q16-3
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libModemManagerQt0
@@ -1065,7 +1064,7 @@ libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
-libcamel-1_2-45
+libcamel-1_2-49
 libcamgm100
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -1106,8 +1105,8 @@ libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
 libcmis-0_4-4
-libcogl-pango15
-libcogl15
+libcogl-pango20
+libcogl20
 libcolord-gtk1
 libcolord2
 libcolorhug2
@@ -1140,7 +1139,7 @@ libdcerpc0-32bit
 libdconf1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-3
+libdirectfb-1_7-4
 libdiscid0
 libdjvulibre21
 libdmapsharing-3_0-2
@@ -1164,7 +1163,6 @@ libdvdread4
 libdw1
 libe-book-0_0-0
 libebackend-1_2-7
-libebl1
 libebook-1_2-14
 libebook-contacts-1_2-0
 libecal-1_2-16
@@ -1255,7 +1253,7 @@ libgda-5_0-bdb
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
-libgdata13
+libgdata19
 libgdbm4
 libgdict-1_0-6
 libgdk_pixbuf-2_0-0
@@ -1269,6 +1267,7 @@ libgensec0-32bit
 libgeoclue0
 libgeocode-glib0
 libgexiv2-2
+libgfbgraph-0_2-0
 libgfortran3
 libgif6
 libgimp-2_0-0
@@ -1292,9 +1291,9 @@ libgmodule-2_0-0-32bit
 libgmp10
 libgmpxx4
 libgnome
-libgnome-bluetooth12
+libgnome-bluetooth13
 libgnome-desktop-2-17
-libgnome-desktop-3-8
+libgnome-desktop-3-10
 libgnome-desktop-3_0-common
 libgnome-keyring0
 libgnome-lang
@@ -1327,6 +1326,7 @@ libgraphite2-3
 libgraphite2-3-32bit
 libgrilo-0_2-1
 libgrlnet-0_2-0
+libgrlpls-0_2-0
 libgsf-1-114
 libgsm1
 libgssdp-1_0-3
@@ -1369,7 +1369,8 @@ libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtkspell0
-libgtop-2_0-7
+libgtkspell3-3-0
+libgtop-2_0-10
 libgucharmap_2_90-7
 libgudev-1_0-0
 libguess1
@@ -1378,7 +1379,6 @@ libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
 libgusb2
-libgvfscommon0
 libgvnc-1_0-0
 libgweather-3-6
 libgweather-data
@@ -1405,6 +1405,7 @@ libindi0
 libindidriver0
 libiniparser0
 libiniparser0-32bit
+libinput0
 libiptc0
 libiptcdata
 libiptcdata0
@@ -1505,6 +1506,7 @@ libmagic1
 libmarblewidget18
 libmbim-glib0
 libmeanwhile1
+libmediaart-1_0-0
 libmediastreamer_base3
 libmediastreamer_voip3
 libmediawiki1
@@ -1523,6 +1525,7 @@ libmount1
 libmount1-32bit
 libmowgli2
 libmozjs-17_0
+libmozjs-24
 libmpc3
 libmpcdec5
 libmpfr4
@@ -1587,7 +1590,7 @@ libopenal1
 libopenbabel4
 libopencc1
 libopencv2_4
-libopenjp2-6
+libopenjp2-7
 libopenjpeg1
 libopenobex2
 libopenraw1
@@ -1628,7 +1631,6 @@ libpdb0
 libpdb0-32bit
 libpeas-1_0-0
 libpeas-gtk-1_0-0
-libpeas-loader-gjs
 libpeas-loader-python
 libpeas-loader-python3
 libpeas-loader-seed
@@ -1643,7 +1645,6 @@ libpixman-1-0-32bit
 libpixman-1-0-devel
 libpkcs11-helper1
 libplist1
-libplotter2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -1657,7 +1658,7 @@ libpolkit-qt-1-1
 libpolkit0
 libpoppler-glib8
 libpoppler-qt4-4
-libpoppler44
+libpoppler46
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -1680,8 +1681,6 @@ libpurple-branding-openSUSE
 libpurple-meanwhile
 libpurple-tcl
 libpwquality1
-libpyglib-gi-2_0-python2-0
-libpyglib-gi-2_0-python3-0
 libpython2_7-1_0
 libpython2_7-1_0-32bit
 libpython3_4m1_0
@@ -1756,16 +1755,6 @@ libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
 libreoffice-templates-ru
-libreoffice-thesaurus-cs
-libreoffice-thesaurus-de
-libreoffice-thesaurus-en-GB
-libreoffice-thesaurus-en-US
-libreoffice-thesaurus-es
-libreoffice-thesaurus-fr
-libreoffice-thesaurus-hu
-libreoffice-thesaurus-it
-libreoffice-thesaurus-pt
-libreoffice-thesaurus-ru
 libreoffice-writer
 libreoffice-writer-extensions
 librest0
@@ -1881,10 +1870,10 @@ libtirpc1
 libtool
 libtotem-plparser-mini18
 libtotem-plparser18
-libtracker-common-0_16-0
-libtracker-extract-0_16-0
-libtracker-miner-0_16-0
-libtracker-sparql-0_16-0
+libtracker-common-1_0
+libtracker-control-1_0-0
+libtracker-miner-1_0-0
+libtracker-sparql-1_0-0
 libts-1_0-0
 libtsan0
 libtumbler-1-0
@@ -1910,7 +1899,7 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
-libvala-0_22-0
+libvala-0_24-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2054,7 +2043,6 @@ libyui6
 libz1
 libz1-32bit
 libzapojit-0_0-0
-libzeitgeist-2_0-0
 libzio1
 libzip2
 libzvbi0
@@ -2161,17 +2149,17 @@ multipath-tools
 mupdf
 mutter
 mutter-data
-myspell-american
-myspell-brazilian
-myspell-british
-myspell-czech
-myspell-dutch
-myspell-french
-myspell-hungarian
-myspell-italian
-myspell-portuguese
-myspell-russian
-myspell-spanish
+myspell-cs_CZ
+myspell-de
+myspell-dictionaries
+myspell-en
+myspell-es
+myspell-fr_FR
+myspell-hu_HU
+myspell-it_IT
+myspell-nl_NL
+myspell-pt_BR
+myspell-ru_RU
 nagios
 nagios-plugins
 nagios-plugins-breeze
@@ -2261,6 +2249,7 @@ ofl
 okteta
 okular
 open-iscsi
+open-isns
 open-vm-tools
 open-vm-tools-desktop
 openSUSE-build-key
@@ -2572,8 +2561,8 @@ procmail
 procps
 providers
 psmisc
-pstoedit
 psutils
+pthread-stubs-devel
 ptools
 pullin-flash-player
 pullin-fluendo-mp3
@@ -2632,7 +2621,7 @@ python-smbc
 python-smbios
 python-solv
 python-urlgrabber
-python-xcb-proto-devel
+python-virtualbox
 python-xml
 python-yum
 python3
@@ -2672,6 +2661,7 @@ remmina-lang
 remmina-plugin-rdp
 remmina-plugin-vnc
 remmina-plugin-xdmcp
+renderproto-devel
 rgb
 rhythmbox
 rhythmbox-lang
@@ -2795,8 +2785,6 @@ systemd-logger
 systemd-presets-branding-openSUSE
 systemd-rpm-macros
 systemd-sysvinit
-systemtap
-systemtap-runtime
 sysvinit-tools
 tack
 taglib
@@ -2871,7 +2859,6 @@ typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
-typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
@@ -2884,7 +2871,6 @@ typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
-typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -2919,8 +2905,8 @@ typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
 typelib-1_0-TotemPlParser-1_0
-typelib-1_0-Tracker-0_16
-typelib-1_0-TrackerMiner-0_16
+typelib-1_0-Tracker-1_0
+typelib-1_0-TrackerControl-1_0
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit-3_0
 typelib-1_0-Wnck-3_0
@@ -2946,6 +2932,8 @@ util-linux
 vaapi-intel-driver
 vacation
 valgrind
+vboxgtk
+vboxgtk-lang
 vcdimager
 viewnior
 viewnior-lang
@@ -2955,7 +2943,14 @@ vim-data
 vinagre
 vinagre-lang
 vino
-virt-utils
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 vlan
 vorbis-tools
 vpnc
@@ -2995,6 +2990,7 @@ xdm
 xdmbgrd
 xdpyinfo
 xen-libs
+xextproto-devel
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -3031,6 +3027,7 @@ xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
+xf86vidmodeproto-devel
 xfce4-appfinder
 xfce4-appfinder-lang
 xfce4-dict
@@ -3050,7 +3047,6 @@ xfce4-panel-plugin-notes-lang
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
-xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-screenshooter
 xfce4-screenshooter-doc
@@ -3074,6 +3070,7 @@ xfdesktop-lang
 xfsdump
 xfsprogs
 xfwm4
+xfwm4-branding-openSUSE
 xfwm4-lang
 xhost
 xinetd
@@ -3092,12 +3089,12 @@ xorg-x11-essentials
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache
-xorg-x11-proto-devel
 xorg-x11-server
 xorg-x11-server-extra
 xournal
 xplanet
 xprop
+xproto-devel
 xrandr
 xrdb
 xscreensaver
@@ -3240,7 +3237,6 @@ yelp
 yelp-xsl
 yp-tools
 ypbind
-yudit
 yum-metadata-parser
 zd1211-firmware
 zenity
