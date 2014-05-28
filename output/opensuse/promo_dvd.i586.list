@@ -258,6 +258,7 @@ dbus-1-python3
 dbus-1-x11
 dconf
 dd_rescue
+dd_rescue-lzo
 dd_rhelp
 ddclient
 deja-dup
@@ -415,7 +416,6 @@ ghostscript-x11
 gimp
 gimp-help
 gimp-help-browser
-gimp-help-pt_BR
 gimp-plugins-python
 gio-branding-openSUSE
 girepository-1_0
@@ -1557,7 +1557,7 @@ libpopt0
 libportaudio2
 libpresage1
 libprison0
-libprocps1
+libprocps3
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -1705,7 +1705,6 @@ libssh2-1
 libssh4
 libstartup-notification-1-0
 libstdc++-devel
-libstdc++33
 libstdc++48-devel
 libstdc++6
 libstorage-ruby
@@ -2405,10 +2404,12 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pytalloc
 python
+python-CherryPy
 python-atspi
 python-base
 python-beautifulsoup
 python-boto
+python-bottle
 python-cairo
 python-cloudfiles
 python-cssselect
@@ -2443,6 +2444,7 @@ python-pycurl
 python-pyudev
 python-qt4
 python-setuptools
+python-simplejson
 python-sip
 python-six
 python-smbc

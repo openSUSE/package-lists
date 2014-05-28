@@ -129,6 +129,7 @@ dbus-1-x11
 dconf
 dconf-lang
 dd_rescue
+dd_rescue-lzo
 dd_rhelp
 dejavu-fonts
 deltarpm
@@ -783,7 +784,7 @@ libpoppler46
 libpopt0
 libportaudio2
 libprison0
-libprocps1
+libprocps3
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -971,7 +972,6 @@ libz1
 libzio1
 libzip2
 libzypp
-link-grammar
 linux32
 linuxconsoletools
 lirc
@@ -1197,7 +1197,9 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pytalloc
 python
+python-CherryPy
 python-base
+python-bottle
 python-cairo
 python-cups
 python-cupshelpers
@@ -1205,6 +1207,7 @@ python-gobject
 python-gobject-cairo
 python-keyring
 python-pycurl
+python-simplejson
 python-smbc
 python-smbios
 python-solv

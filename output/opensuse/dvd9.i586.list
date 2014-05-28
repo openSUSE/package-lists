@@ -328,6 +328,7 @@ dbus-1-python3
 dbus-1-x11
 dconf
 dd_rescue
+dd_rescue-lzo
 dd_rhelp
 ddclient
 ddskk
@@ -1881,7 +1882,7 @@ libpopt0
 libportaudio2
 libpresage1
 libprison0
-libprocps1
+libprocps3
 libprotobuf8
 libproxy1
 libproxy1-config-gnome3
@@ -2051,7 +2052,6 @@ libssh4
 libsss_idmap0
 libstartup-notification-1-0
 libstdc++-devel
-libstdc++33
 libstdc++48-devel
 libstdc++6
 libstorage-devel
@@ -2900,6 +2900,7 @@ python-atspi
 python-base
 python-beautifulsoup
 python-boto
+python-bottle
 python-cairo
 python-cloudfiles
 python-cssselect
@@ -2946,6 +2947,7 @@ python-pytz
 python-pyudev
 python-qt4
 python-setuptools
+python-simplejson
 python-sip
 python-six
 python-smbc

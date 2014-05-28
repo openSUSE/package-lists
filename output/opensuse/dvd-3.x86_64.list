@@ -79,7 +79,6 @@ hwinfo
 info
 initviocons
 insserv-compat
-iproute2
 iptables
 iputils
 joe
@@ -186,7 +185,7 @@ libplist1
 libpng16-16
 libpolkit0
 libpopt0
-libprocps1
+libprocps3
 libproxy1
 libproxy1-config-gnome3
 libproxy1-pacrunner-webkit
@@ -240,7 +239,10 @@ logrotate
 lsof
 lsscsi
 lvm2
+m4
+make
 mdadm
+metamail
 mozilla-nspr
 mtools
 multipath-tools
@@ -326,9 +328,10 @@ pkg-config
 pm-utils
 polkit
 polkit-default-privs
-postfix
 prctl
+procmail
 procps
+psmisc
 python
 python-base
 python-gobject
@@ -343,10 +346,14 @@ ruby-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 sed
+sendmail
 sg3_utils
 shadow
 shared-mime-info
+sharutils
+sharutils-lang
 shim
+site-config
 snapper
 snapper-zypp-plugin
 strace

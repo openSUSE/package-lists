@@ -10,7 +10,7 @@ NetworkManager-pptp
 NetworkManager-vpnc
 PackageKit
 PackageKit-backend-zypp
-PackageKit-branding-basedonopensuse
+PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SuSEfirewall2
@@ -67,7 +67,7 @@ bluedevil
 bluez
 bluez-firmware
 boost-license1_54_0
-branding-basedonopensuse
+branding-openSUSE
 btrfsprogs
 bundle-lang-common-en
 bzip2
@@ -149,6 +149,7 @@ freerdp
 gawk
 gconf-polkit
 gconf2
+gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
@@ -160,7 +161,7 @@ gettext-runtime
 gfxboot
 gfxboot-branding-openSUSE
 ghostscript-fonts-std
-gio-branding-basedonopensuse
+gio-branding-openSUSE
 girepository-1_0
 glib-networking
 glib2-tools
@@ -212,6 +213,7 @@ gzip
 hardlink
 hdparm
 hicolor-icon-theme
+hicolor-icon-theme-branding-openSUSE
 htdig
 hunspell
 hunspell-tools
@@ -255,15 +257,15 @@ kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-openSUSE-lang
 kdebase4-runtime
-kdebase4-runtime-branding-basedonopensuse
+kdebase4-runtime-branding-openSUSE
 kdebase4-session
 kdebase4-workspace
-kdebase4-workspace-branding-basedonopensuse
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdegames4-carddecks-default
 kdelibs4
-kdelibs4-branding-basedonopensuse
+kdelibs4-branding-openSUSE
 kdelibs4-core
 kdenetwork4-filesharing
 kdepasswd
@@ -272,7 +274,7 @@ kdepim4-runtime
 kdepimlibs4
 kdialog
 kdm
-kdm-branding-basedonopensuse
+kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 kernel-default
@@ -317,7 +319,8 @@ kruler
 kscreen
 kscreen-lang
 ksnapshot
-ksplashx-branding-basedonopensuse
+ksplash-qml-branding-openSUSE
+ksplashx-branding-openSUSE
 ksshaskpass
 ksudoku
 ktorrent
@@ -694,7 +697,7 @@ libpoppler46
 libpopt0
 libportaudio2
 libprison0
-libprocps1
+libprocps3
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -851,7 +854,6 @@ libz1
 libzio1
 libzip2
 libzypp
-link-grammar
 lirc
 lirc-remotes
 lockdev
@@ -1057,7 +1059,9 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pytalloc
 python
+python-CherryPy
 python-base
+python-bottle
 python-cairo
 python-cups
 python-cupshelpers
@@ -1065,6 +1069,7 @@ python-gobject
 python-gobject-cairo
 python-keyring
 python-pycurl
+python-simplejson
 python-smbc
 python-solv
 python-xml
@@ -1104,7 +1109,7 @@ sox
 strace
 sudo
 suse-module-tools
-susegreeter-branding-basedonopensuse
+susegreeter-branding-openSUSE
 susehelp
 susehelp_en
 suspend
@@ -1121,7 +1126,7 @@ system-config-printer-dbus-service
 systemd
 systemd-bash-completion
 systemd-logger
-systemd-presets-branding-basedonopensuse
+systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
 taglib
@@ -1159,7 +1164,7 @@ vcdimager
 vim
 vorbis-tools
 vpnc
-wallpaper-branding-basedonopensuse
+wallpaper-branding-openSUSE
 wget
 which
 wicked
@@ -1243,6 +1248,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-proxy
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server

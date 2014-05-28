@@ -85,6 +85,7 @@ dbus-1-python
 dbus-1-x11
 dconf
 dd_rescue
+dd_rescue-lzo
 dd_rhelp
 dejavu-fonts
 deltarpm
@@ -536,7 +537,7 @@ libpoppler-glib8
 libpoppler46
 libpopt0
 libportaudio2
-libprocps1
+libprocps3
 libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
@@ -852,12 +853,15 @@ pulseaudio
 pulseaudio-esound-compat
 pytalloc
 python
+python-CherryPy
 python-base
+python-bottle
 python-cups
 python-cupshelpers
 python-gobject
 python-gobject-cairo
 python-pycurl
+python-simplejson
 python-smbios
 python-solv
 python-xml

@@ -481,6 +481,7 @@ dconf
 dcraw
 dcraw-lang
 dd_rescue
+dd_rescue-lzo
 dd_rhelp
 ddclient
 ddd
@@ -543,7 +544,6 @@ duplicity
 dvb
 dvd+rw-tools
 dynamic-wallpaper-branding-openSUSE
-dynamic-wallpapers-11x
 e2fsprogs
 e2fsprogs-devel
 ebtables
@@ -2007,8 +2007,6 @@ libgraphite2-3
 libgrilo-0_2-1
 libgrlnet-0_2-0
 libgrlpls-0_2-0
-libgsasl-lang
-libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsm1
@@ -2337,7 +2335,6 @@ libnova-0_15-0
 libnova-devel
 libnsssharedhelper0
 libntfs-3g85
-libntlm0
 liboauth-devel
 liboauth0
 libobjc4
@@ -2448,7 +2445,7 @@ libpqxx-devel
 libpresage1
 libprison-devel
 libprison0
-libprocps1
+libprocps3
 libprotobuf8
 libproxy-devel
 libproxy1
@@ -2666,7 +2663,6 @@ libssh4
 libsss_idmap0
 libstartup-notification-1-0
 libstdc++-devel
-libstdc++33
 libstdc++48-devel
 libstdc++6
 libstdc++6-locale
@@ -3096,8 +3092,6 @@ mpfr-devel
 mpt-firmware
 mpt-status
 mrtg
-msmtp
-msmtp-mta
 msynctool
 mtools
 mtpaint
@@ -3897,10 +3891,12 @@ python-SpiceClientGtk
 python-Twisted
 python-apsw
 python-atspi
+python-backports.ssl_match_hostname
 python-base
 python-beautifulsoup
 python-bonobo
 python-boto
+python-bottle
 python-cairo
 python-cairo-devel
 python-cloudfiles
@@ -3915,10 +3911,10 @@ python-deltarpm
 python-devel
 python-dnspython
 python-doc
-python-doc-pdf
 python-ecdsa
 python-fcgi
 python-flickrapi
+python-futures
 python-gconf
 python-gdata
 python-gdbm
@@ -7008,6 +7004,9 @@ xsm
 xsp
 xstdcmap
 xstroke
+xtables-addons-kmp-default
+xtables-addons-kmp-desktop
+xtables-addons-kmp-xen
 xtables-plugins
 xterm
 xtermset

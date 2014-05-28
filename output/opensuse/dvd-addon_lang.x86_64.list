@@ -425,6 +425,7 @@ dbus-1-python3
 dbus-1-x11
 dconf
 dd_rescue
+dd_rescue-lzo
 dd_rhelp
 ddclient
 ddskk
@@ -1008,7 +1009,6 @@ kde4-l10n-cs
 kde4-l10n-da
 kde4-l10n-de
 kde4-l10n-de-data
-kde4-l10n-de-doc
 kde4-l10n-devel
 kde4-l10n-el
 kde4-l10n-en_GB
@@ -2122,7 +2122,7 @@ libpopt0-32bit
 libportaudio2
 libpresage1
 libprison0
-libprocps1
+libprocps3
 libprotobuf8
 libproxy1
 libproxy1-config-gnome3
@@ -2359,7 +2359,6 @@ libssh2-1
 libssh4
 libstartup-notification-1-0
 libstdc++-devel
-libstdc++33
 libstdc++48-devel
 libstdc++6
 libstdc++6-32bit
@@ -3250,11 +3249,13 @@ pychecker
 pytalloc
 pytalloc-32bit
 python
+python-CherryPy
 python-SpiceClientGtk
 python-atspi
 python-base
 python-beautifulsoup
 python-boto
+python-bottle
 python-cairo
 python-cloudfiles
 python-cssselect
@@ -3295,6 +3296,7 @@ python-pycurl
 python-pyudev
 python-qt4
 python-setuptools
+python-simplejson
 python-sip
 python-six
 python-smbc

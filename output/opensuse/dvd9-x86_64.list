@@ -300,6 +300,7 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
+bundle-lang-common-nl
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -492,6 +493,7 @@ dconf
 dcraw
 dcraw-lang
 dd_rescue
+dd_rescue-lzo
 dd_rhelp
 ddclient
 ddd
@@ -555,7 +557,6 @@ duplicity
 dvb
 dvd+rw-tools
 dynamic-wallpaper-branding-openSUSE
-dynamic-wallpapers-11x
 e2fsprogs
 e2fsprogs-devel
 ebtables
@@ -2603,7 +2604,7 @@ libpqxx-devel
 libpresage1
 libprison-devel
 libprison0
-libprocps1
+libprocps3
 libprotobuf8
 libproxy-devel
 libproxy1
@@ -2848,7 +2849,6 @@ libssh4
 libsss_idmap0
 libstartup-notification-1-0
 libstdc++-devel
-libstdc++33
 libstdc++48-devel
 libstdc++6
 libstdc++6-32bit
@@ -4140,10 +4140,12 @@ python-SpiceClientGtk
 python-Twisted
 python-apsw
 python-atspi
+python-backports.ssl_match_hostname
 python-base
 python-beautifulsoup
 python-bonobo
 python-boto
+python-bottle
 python-cairo
 python-cairo-devel
 python-cloudfiles
@@ -4158,10 +4160,10 @@ python-deltarpm
 python-devel
 python-dnspython
 python-doc
-python-doc-pdf
 python-ecdsa
 python-fcgi
 python-flickrapi
+python-futures
 python-gconf
 python-gdata
 python-gdbm
@@ -7270,6 +7272,9 @@ xsm
 xsp
 xstdcmap
 xstroke
+xtables-addons-kmp-default
+xtables-addons-kmp-desktop
+xtables-addons-kmp-xen
 xtables-plugins
 xterm
 xtermset
