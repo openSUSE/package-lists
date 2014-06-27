@@ -221,6 +221,7 @@ kdebase4-runtime-branding-openSUSE
 kdebase4-session
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
+kdebase4-workspace-libs
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -320,7 +321,6 @@ libXss1
 libXt6
 libXtst6
 libXv1
-libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libacl1
@@ -376,6 +376,8 @@ libcdda_interface0
 libcdda_paranoia0
 libcelt0-2
 libcloog-isl4
+libclucene-core1
+libclucene-shared1
 libcolord2
 libcom_err2
 libcrack2
@@ -391,7 +393,6 @@ libdcerpc0
 libdconf1
 libdialog11
 libdmtx0
-libdmx1
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
@@ -413,6 +414,7 @@ libexpat1
 libext2fs2
 libffi4
 libfftw3-3
+libfltk1
 libfontenc1
 libfreebl3
 libfreerdp-1_0
@@ -515,7 +517,6 @@ libkscreen1
 libksuseinstall1
 libktexteditor
 libktorrent5
-liblcms1
 liblcms2-2
 libldap-2_4-2
 libldb1
@@ -528,7 +529,7 @@ liblzo2-2
 libmagic1
 libmbim-glib0
 libmm-glib0
-libmng1
+libmng2
 libmnl0
 libmodman1
 libmount1
@@ -638,6 +639,7 @@ libsnapper2
 libsndfile1
 libsoftokn3
 libsolv-tools
+libsoprano4
 libsoup-2_4-1
 libspeex1
 libspeexdsp1
@@ -645,6 +647,7 @@ libsqlite3-0
 libssh2-1
 libssh4
 libstdc++6
+libstrigi0
 libtag1
 libtalloc2
 libtasn1
@@ -843,6 +846,7 @@ phonon-backend-gstreamer
 pigz
 pinentry
 pinentry-qt4
+pixz
 pkcs11-helper
 pkg-config
 plasma-addons
@@ -943,13 +947,12 @@ sysvinit-tools
 tar
 tcl
 terminfo-base
-tightvnc
+tigervnc
 time
 timezone
 tnftp
 traceroute
 translation-update
-twm
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0
@@ -990,7 +993,6 @@ xdg-menu
 xdg-user-dirs
 xdg-utils
 xdm
-xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

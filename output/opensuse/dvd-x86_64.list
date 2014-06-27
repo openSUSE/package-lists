@@ -300,7 +300,6 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-nl
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -565,7 +564,7 @@ efibootmgr
 efont-unicode-bitmap-fonts
 ekiga
 ekiga-lang
-ekiga-plugins-gstreamer
+ekiga-plugins-evolution
 elfutils
 elilo
 emacs
@@ -1175,6 +1174,7 @@ irssi
 iscsitarget-kmp-default
 iscsitarget-kmp-desktop
 iscsitarget-kmp-xen
+iscsiuio
 iso-codes
 iso_ent
 ispell
@@ -1298,6 +1298,7 @@ kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
+kdebase4-workspace-libs
 kdebindings-smokegen
 kdegames4-carddecks-default
 kdelibs4
@@ -1473,7 +1474,7 @@ libFLAC8
 libFLAC8-32bit
 libFS-devel
 libFS6
-libGLEW1_9
+libGLEW1_10
 libGLU1
 libGLU1-32bit
 libGeoIP1
@@ -1492,7 +1493,7 @@ libImath-2_1-11
 libImlib2-1
 libLLVM
 libLLVM-32bit
-libMagick++-6_Q16-3
+libMagick++-6_Q16-5
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libModemManagerQt0
@@ -2312,9 +2313,7 @@ liblazy-devel
 liblazy1
 liblbxutil-devel
 liblbxutil1
-liblcms-devel
 liblcms1
-liblcms1-32bit
 liblcms2-2
 liblcms2-2-32bit
 liblcms2-devel
@@ -2362,15 +2361,14 @@ libmediawiki-devel
 libmediawiki1
 libmenu-cache3
 libmikmod3
-libminiupnpc9
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
 libmms-devel
 libmms0
 libmng-devel
-libmng1
-libmng1-32bit
+libmng2
+libmng2-32bit
 libmnl0
 libmodman1
 libmodplug1
@@ -2578,6 +2576,7 @@ libpresage1
 libprison-devel
 libprison0
 libprocps3
+libprotobuf-c0
 libprotobuf8
 libproxy-devel
 libproxy1
@@ -2793,6 +2792,7 @@ libsoftokn3
 libsoftokn3-32bit
 libsolv-devel
 libsolv-tools
+libsoprano4
 libsoup-2_4-1
 libsoup-devel
 libsource-highlight4
@@ -2906,6 +2906,7 @@ libv4l1-0
 libv4l1-0-32bit
 libv4l2-0
 libv4l2-0-32bit
+libv4l2rds0
 libv4lconvert0
 libv4lconvert0-32bit
 libvala-0_24-0
@@ -2975,6 +2976,7 @@ libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk-devel
 libwebp5
+libwebpmux1
 libwebrtc_audio_processing0
 libwicked0
 libwmf-0_2-7
@@ -3990,6 +3992,7 @@ pinfo
 pinpoint
 pitivi
 pitivi-lang
+pixz
 pk-update-icon
 pk-update-icon-lang
 pkcs11-helper
@@ -4078,6 +4081,7 @@ python-CherryPy
 python-ClientForm
 python-Genshi
 python-M2Crypto
+python-Pillow
 python-Pygments
 python-SpiceClientGtk
 python-Twisted
@@ -4127,7 +4131,6 @@ python-gtk
 python-gtk-devel
 python-gtksourceview
 python-httplib2
-python-imaging
 python-ipaddr
 python-kde4
 python-kde4-akonadi
@@ -4197,6 +4200,8 @@ python3
 python3-atspi
 python3-base
 python3-cairo
+python3-curses
+python3-dbm
 python3-doc
 python3-doc-pdf
 python3-gedit
@@ -4206,6 +4211,7 @@ python3-louis
 python3-pip
 python3-setuptools
 python3-speechd
+python3-tk
 qalculate
 qdox
 qemu
@@ -4533,7 +4539,7 @@ thunar-volman-branding-openSUSE
 thunar-volman-lang
 tidy
 tiff
-tightvnc
+tigervnc
 time
 timezone
 timezone-java
@@ -4956,9 +4962,11 @@ xfce4-panel-plugin-wavelan
 xfce4-panel-plugin-wavelan-lang
 xfce4-panel-plugin-weather
 xfce4-panel-plugin-weather-lang
+xfce4-panel-plugin-xfce4battery
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
+xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-screenshooter
 xfce4-screenshooter-doc

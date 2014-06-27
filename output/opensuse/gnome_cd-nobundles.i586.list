@@ -476,6 +476,7 @@ iptables
 iputils
 ipw-firmware
 irda
+iscsiuio
 iso-codes
 iso-codes-lang
 iso_ent
@@ -538,7 +539,6 @@ libXt6
 libXtst6
 libXv1
 libXvMC1
-libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libabw-0_0-0
@@ -693,6 +693,7 @@ libfarstream-0_2-2
 libfbembed2_5
 libffi4
 libfftw3-3
+libfltk1
 libfolks-data
 libfolks-eds25
 libfolks-libsocialweb25
@@ -874,12 +875,11 @@ libm17n0
 libmagic1
 libmbim-glib0
 libmediaart-1_0-0
-libminiupnpc9
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
 libmms0
-libmng1
+libmng2
 libmnl0
 libmodman1
 libmodplug1
@@ -912,7 +912,6 @@ libnettle4
 libnfnetlink0
 libnice10
 libnl-config
-libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -970,6 +969,7 @@ libpoppler46
 libpopt0
 libportaudio2
 libprocps3
+libprotobuf-c0
 libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
@@ -1387,6 +1387,7 @@ perl-libwww-perl
 permissions
 pigz
 pinentry
+pixz
 pkcs11-helper
 pkg-config
 plymouth
@@ -1453,6 +1454,8 @@ python3-gedit
 python3-gobject
 python3-gobject-cairo
 python3-louis
+python3-pip
+python3-setuptools
 python3-speechd
 quadrapassel
 quadrapassel-lang
@@ -1549,7 +1552,7 @@ telepathy-mission-control-plugin-goa
 telepathy-rakia
 telepathy-salut
 terminfo-base
-tightvnc
+tigervnc
 time
 timezone
 timezone-java
@@ -1573,7 +1576,6 @@ translation-update-ru
 transmission-common
 transmission-gtk
 transmission-gtk-lang
-twm
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
@@ -1683,7 +1685,6 @@ xdg-user-dirs-gtk-lang
 xdg-user-dirs-lang
 xdg-utils
 xdm
-xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

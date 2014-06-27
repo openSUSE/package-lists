@@ -7,7 +7,6 @@ alsa-oss-32bit
 alsa-plugins-32bit
 alsa-plugins-pulse-32bit
 anthy-32bit
-bundle-lang-common-nl
 cryptconfig-32bit
 cups-libs-32bit
 device-mapper-32bit
@@ -124,7 +123,6 @@ libjbig2-32bit
 libjpeg8-32bit
 libjson-c2-32bit
 libkeyutils1-32bit
-liblcms1-32bit
 liblcms2-2-32bit
 libldap-2_4-2-32bit
 libldb1-32bit
@@ -134,7 +132,7 @@ liblua5_1-32bit
 liblzma5-32bit
 libm17n0-32bit
 libmagic1-32bit
-libmng1-32bit
+libmng2-32bit
 libmount1-32bit
 libmysqlclient18-32bit
 libncurses5-32bit
@@ -271,3 +269,6 @@ unixODBC-32bit
 wine-32bit
 xen
 xen-doc-html
+xen-kmp-default
+xen-kmp-desktop
+xen-tools

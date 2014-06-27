@@ -217,7 +217,6 @@ libXrender1
 libXt6
 libXtst6
 libXv1
-libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libacl1
@@ -278,7 +277,6 @@ libdbus-1-3
 libdcerpc-binding0
 libdcerpc0
 libdconf1
-libdmx1
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
@@ -298,6 +296,7 @@ libexpat1
 libext2fs2
 libffi4
 libfftw3-3
+libfltk1
 libfontenc1
 libfreetype6
 libfuse2
@@ -361,7 +360,6 @@ libkate1
 libkeyutils1
 libkmod2
 libksba8
-liblcms1
 liblcms2-2
 libldap-2_4-2
 libldb1
@@ -371,7 +369,7 @@ liblua5_1
 liblzma5
 liblzo2-2
 libmagic1
-libmng1
+libmng2
 libmnl0
 libmodman1
 libmount1
@@ -638,6 +636,7 @@ perl-libwww-perl
 permissions
 pigz
 pinentry
+pixz
 pkg-config
 plymouth
 plymouth-dracut
@@ -712,13 +711,12 @@ systemd-sysvinit
 sysvinit-tools
 tar
 terminfo-base
-tightvnc
+tigervnc
 time
 timezone
 tnftp
 traceroute
 translation-update
-twm
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0
@@ -729,6 +727,8 @@ typelib-1_0-Pango-1_0
 udev
 udev-configure-printer
 udisks2
+unzip-doc
+unzip-rcc
 update-alternatives
 upower
 usbmuxd
@@ -751,7 +751,6 @@ xconsole
 xdg-menu
 xdg-utils
 xdm
-xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

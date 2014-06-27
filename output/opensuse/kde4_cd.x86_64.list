@@ -251,6 +251,7 @@ iptables
 iputils
 ipw-firmware
 irda
+iscsiuio
 iw
 jfsutils
 k3b
@@ -275,6 +276,7 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
+kdebase4-workspace-libs
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -390,7 +392,6 @@ libXt6
 libXtst6
 libXv1
 libXvMC1
-libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 libabw-0_0-0
@@ -479,7 +480,6 @@ libdconf1
 libdhash1
 libdialog11
 libdmtx0
-libdmx1
 libdnet1
 libdrm2
 libdrm_intel1
@@ -510,6 +510,7 @@ libfallocate0
 libfbembed2_5
 libffi4
 libfftw3-3
+libfltk1
 libfontenc1
 libfprint0
 libfreebl3
@@ -635,7 +636,6 @@ libktorrent5
 libkvkontakte1
 liblangtag1
 liblastfm1
-liblcms1
 liblcms2-2
 libldap-2_4-2
 libldapcpp1
@@ -657,7 +657,7 @@ libmediastreamer_base3
 libmediastreamer_voip3
 libmediawiki1
 libmm-glib0
-libmng1
+libmng2
 libmnl0
 libmodman1
 libmount1
@@ -688,7 +688,6 @@ libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
 libnl-config
-libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -741,6 +740,7 @@ libpopt0
 libportaudio2
 libprison0
 libprocps3
+libprotobuf-c0
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -813,6 +813,7 @@ libsnapper2
 libsndfile1
 libsoftokn3
 libsolv-tools
+libsoprano4
 libsoup-2_4-1
 libsox2
 libspandsp2
@@ -826,6 +827,7 @@ libstartup-notification-1-0
 libstdc++6
 libstorage-ruby
 libstorage5
+libstrigi0
 libtag-extras1
 libtag1
 libtag_c0
@@ -1105,6 +1107,7 @@ phonon-backend-gstreamer
 pigz
 pinentry
 pinentry-qt4
+pixz
 pkcs11-helper
 pkg-config
 plasma-addons
@@ -1225,13 +1228,12 @@ taglib
 tar
 tcl
 terminfo-base
-tightvnc
+tigervnc
 time
 timezone
 tnftp
 traceroute
 translation-update
-twm
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0
@@ -1277,7 +1279,6 @@ xdg-menu
 xdg-user-dirs
 xdg-utils
 xdm
-xdpyinfo
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

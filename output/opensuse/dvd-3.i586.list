@@ -78,6 +78,7 @@ hwinfo
 info
 initviocons
 insserv-compat
+iproute2
 iptables
 iputils
 joe
@@ -102,6 +103,7 @@ libXt6
 libacl1
 libadns1
 libaio1
+libarchive13
 libasm1
 libassuan0
 libattr1
@@ -237,10 +239,7 @@ logrotate
 lsof
 lsscsi
 lvm2
-m4
-make
 mdadm
-metamail
 mozilla-nspr
 mtools
 multipath-tools
@@ -322,14 +321,14 @@ perl-libwww-perl
 permissions
 pigz
 pinentry
+pixz
 pkg-config
 pm-utils
 polkit
 polkit-default-privs
+postfix
 prctl
-procmail
 procps
-psmisc
 python
 python-base
 python-gobject
@@ -344,13 +343,9 @@ ruby-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 sed
-sendmail
 sg3_utils
 shadow
 shared-mime-info
-sharutils
-sharutils-lang
-site-config
 snapper
 snapper-zypp-plugin
 strace

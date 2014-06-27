@@ -300,7 +300,7 @@ ed
 efont-unicode-bitmap-fonts
 ekiga
 ekiga-lang
-ekiga-plugins-gstreamer
+ekiga-plugins-evolution
 elfutils
 elilo
 emacs
@@ -671,6 +671,7 @@ iptables
 iputils
 ipw-firmware
 irda
+iscsiuio
 iso-codes
 iso_ent
 ispell
@@ -749,6 +750,7 @@ kdebase4-workspace
 kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
+kdebase4-workspace-libs
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -859,7 +861,7 @@ lftp
 libEMF1
 libFLAC++6
 libFLAC8
-libGLEW1_9
+libGLEW1_10
 libGLU1
 libGeoIP1
 libHX28
@@ -871,7 +873,7 @@ libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libImlib2-1
 libLLVM
-libMagick++-6_Q16-3
+libMagick++-6_Q16-5
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libModemManagerQt0
@@ -921,7 +923,6 @@ libXt6
 libXtst6
 libXv1
 libXvMC1
-libXxf86dga1
 libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
@@ -1146,6 +1147,7 @@ libfcitx-4_2_8
 libfdt1
 libffi4
 libfftw3-3
+libfltk1
 libfm
 libfm-gtk4
 libfm-lang
@@ -1422,12 +1424,11 @@ libmediastreamer_base3
 libmediastreamer_voip3
 libmediawiki1
 libmenu-cache3
-libminiupnpc9
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
 libmms0
-libmng1
+libmng2
 libmnl0
 libmodman1
 libmodplug1
@@ -1469,7 +1470,6 @@ libnettle4
 libnfnetlink0
 libnice10
 libnl-config
-libnl1
 libnl3-200
 libnm-glib-vpn1
 libnm-glib4
@@ -1558,6 +1558,7 @@ libportaudio2
 libpresage1
 libprison0
 libprocps3
+libprotobuf-c0
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -1690,6 +1691,7 @@ libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
 libsolv-tools
+libsoprano4
 libsoup-2_4-1
 libsox2
 libspandsp2
@@ -2349,6 +2351,7 @@ pigz
 pinentry
 pinentry-gtk2
 pinentry-qt4
+pixz
 pk-update-icon
 pk-update-icon-lang
 pkcs11-helper
@@ -2462,6 +2465,8 @@ python3-gedit
 python3-gobject
 python3-gobject-cairo
 python3-louis
+python3-pip
+python3-setuptools
 python3-speechd
 qemu
 qemu-ipxe
@@ -2641,7 +2646,7 @@ thunar-volman
 thunar-volman-branding-openSUSE
 thunar-volman-lang
 tiff
-tightvnc
+tigervnc
 time
 timezone
 timezone-java
@@ -2677,7 +2682,6 @@ tsclient
 tsclient-lang
 tumbler
 tumbler-lang
-twm
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
@@ -2811,7 +2815,6 @@ xdg-user-dirs-gtk
 xdg-utils
 xdm
 xdmbgrd
-xdpyinfo
 xextproto-devel
 xf86-input-evdev
 xf86-input-joystick
@@ -2869,6 +2872,7 @@ xfce4-panel-plugin-notes-lang
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
+xfce4-power-manager-branding-openSUSE
 xfce4-power-manager-lang
 xfce4-screenshooter
 xfce4-screenshooter-doc
