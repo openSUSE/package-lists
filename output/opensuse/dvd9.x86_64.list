@@ -49,8 +49,6 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
-abiword
-abiword-docs
 accountsservice
 acl
 acpica
@@ -115,6 +113,8 @@ apparmor-profiles
 apparmor-utils
 apper
 appmenu-qt
+aqbanking
+aqbanking-lang
 arabic-ae-fonts
 arabic-amiri-fonts
 arabic-bitmap-fonts
@@ -261,6 +261,7 @@ caribou-common
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
+cdparanoia-devel
 cdrdao
 cdrkit-cdrtools-compat
 cellwriter
@@ -408,7 +409,6 @@ enblend-enfuse
 enchant-devel
 enscript
 eog
-esound-daemon
 espeak
 etags
 ethtool
@@ -444,6 +444,7 @@ fcitx-table-tw-boshiamy
 fcitx-table-tw-cangjie-large
 fcitx-table-tw-cangjie5
 fcitx-table-tw-smart-cangjie6
+fcitx-zhuyin
 fd0ssh
 fdupes
 fetchmail
@@ -455,6 +456,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 five-or-more
 five-or-more-lang
 fixesproto-devel
@@ -503,7 +505,6 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gd
-gd-32bit
 gdb
 gdbm-devel
 gdk-pixbuf-devel
@@ -663,6 +664,8 @@ gnome-web-photo
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
+gnucash
+gnucash-lang
 gnumeric
 gnumeric-lang
 gnutls
@@ -788,12 +791,15 @@ gucharmap
 gucharmap-devel
 guile
 guile-modules-2_0
+guile1
 gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
+gwenhywfar
+gwenhywfar-lang
 gwenview
 gxditview
 gzip
@@ -900,7 +906,6 @@ joe
 json-glib-devel
 junit
 k3b
-kactivities4
 kaddressbook
 kaffeine
 kalgebra
@@ -1109,7 +1114,7 @@ libMagick++-6_Q16-5
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libModemManagerQt0
-libNetworkManagerQt0
+libNetworkManagerQt1
 libOSMesa-devel
 libOSMesa9
 libQt5CLucene5
@@ -1248,7 +1253,6 @@ libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
 libXxf86vm1-32bit
-libabiword-2_8
 libabw-0_0-0
 libaccountsservice0
 libacl1
@@ -1258,6 +1262,7 @@ libaio-devel
 libaio1
 libakonadi4
 libakonadiprotocolinternals1
+libamd-2_3_1
 libanalitza0
 libanjuta-3-0
 libao-devel
@@ -1314,6 +1319,7 @@ libavutil52
 libbabl-0_1-0
 libbaloofiles4
 libbaloopim4
+libbalooqueryparser4
 libbaloowidgets4
 libbasicobjects0
 libblas3
@@ -1364,6 +1370,7 @@ libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
+libcamd-2_3_1
 libcamel-1_2-49
 libcamgm100
 libcanberra-devel
@@ -1384,6 +1391,7 @@ libcap2-32bit
 libcapi20-3
 libcares2
 libcaribou0
+libccolamd-2_8_0
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
@@ -1393,6 +1401,7 @@ libcdio_paranoia1
 libcdr-0_0-0
 libcelt0-2
 libcelt051-0
+libcerror1
 libcfitsio2
 libchamplain-0_12-0
 libcheese-common
@@ -1400,6 +1409,8 @@ libcheese-gtk23
 libcheese7
 libchewing3
 libchm0
+libcholmod-2_1_2
+libclocale1
 libcloog-isl4
 libclucene-contribs-lib1
 libclucene-core1
@@ -1408,8 +1419,10 @@ libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
 libcmis-0_4-4
+libcnotify1
 libcogl-pango20
 libcogl20
+libcolamd-2_8_0
 libcollection2
 libcolord-gtk1
 libcolord2
@@ -1418,6 +1431,7 @@ libcolorhug2
 libcom_err-devel
 libcom_err2
 libcom_err2-32bit
+libcpath1
 libcrack2
 libcrack2-32bit
 libcroco-0_6-3
@@ -1427,6 +1441,7 @@ libcryptsetup4
 libcryptsetup4-32bit
 libcryptui-data
 libcryptui0
+libcsplit1
 libcue1
 libcurl-devel
 libcurl4
@@ -1434,6 +1449,7 @@ libdaemon0
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
+libdbi3
 libdbus-1-3
 libdbus-1-3-32bit
 libdbusmenu-qt2
@@ -1496,6 +1512,7 @@ libevdev2
 libevdocument3-4
 libevent-2_0-5
 libevview3-3
+libewf2
 libexempi3
 libexif-devel
 libexif12
@@ -1520,6 +1537,8 @@ libffi4
 libffi4-32bit
 libffi48-devel
 libfftw3-3
+libfipscheck1
+libfipscheck1-32bit
 libfltk1
 libfm
 libfm-gtk4
@@ -1566,6 +1585,8 @@ libgcr-devel
 libgcrypt-devel
 libgcrypt20
 libgcrypt20-32bit
+libgd3
+libgd3-32bit
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
@@ -1711,6 +1732,12 @@ libgucharmap_2_90-7
 libgudev-1_0-0
 libguess1
 libguile-2_0-22
+libguile-srfi-srfi-1-v-3-3
+libguile-srfi-srfi-13-14-v-3-3
+libguile-srfi-srfi-4-v-3-3
+libguile-srfi-srfi-60-v-2-2
+libguile17
+libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
@@ -1719,6 +1746,9 @@ libgvnc-1_0-0
 libgweather-3-6
 libgweather-data
 libgweather-devel
+libgwengui-gtk2-0
+libgwenhywfar60
+libgwenhywfar60-plugins
 libgxps2
 libhangul1
 libharfbuzz-icu0
@@ -1777,7 +1807,6 @@ libjson-c2
 libjson-c2-32bit
 libjson-glib-1_0-0
 libkactivities6
-libkanagramengine4
 libkate1
 libkcddb4
 libkcompactdisc4
@@ -1821,6 +1850,7 @@ libkscreen
 libkscreen1
 libksuseinstall1
 libktexteditor
+libktoblzcheck1
 libktorrent5
 libkvkontakte1
 liblangtag1
@@ -1859,7 +1889,7 @@ libm17n0-32bit
 libmagic1
 libmal-devel
 libmal1
-libmarblewidget18
+libmarblewidget19
 libmbim-glib0
 libmeanwhile1
 libmediaart-1_0-0
@@ -1869,6 +1899,7 @@ libmediastreamer_voip3
 libmediawiki1
 libmenu-cache3
 libmidori-core1
+libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
@@ -1913,6 +1944,7 @@ libncurses5
 libncurses5-32bit
 libncurses6
 libncurses6-32bit
+libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
 libndr-nbt0
@@ -1930,6 +1962,7 @@ libnetfilter_conntrack3
 libnetpbm11
 libnettle-devel
 libnettle4
+libnewt0_52
 libnfnetlink0
 libnice10
 libnl-config
@@ -1949,6 +1982,8 @@ liboauth-devel
 liboauth0
 libodfgen-0_0-0
 libofa0
+libofx
+libofx6
 libogg0
 libogg0-32bit
 liboggkate1
@@ -2022,7 +2057,7 @@ libpixman-1-0-32bit
 libpixman-1-0-devel
 libpkcs11-helper1
 libplist-devel
-libplist1
+libplist2
 libplotter2
 libply-boot-client2
 libply-splash-core2
@@ -2034,7 +2069,7 @@ libpng16-16
 libpng16-16-32bit
 libpng16-compat-devel
 libpng16-devel
-libpodofo0_9_2
+libpodofo0_9_3
 libpolkit-qt-1-1
 libpolkit0
 libpoppler-cpp0
@@ -2127,7 +2162,6 @@ librdf0
 libreadline6
 libref_array1
 libregistry0
-libreiserfs-0_3-0
 libreiserfscore0
 libreoffice
 libreoffice-base
@@ -2193,7 +2227,6 @@ libselinux1-32bit
 libsemanage1
 libsensors4
 libsepol1
-libsepol1-32bit
 libserf-1-1
 libsexy
 libsgutils2-2
@@ -2260,7 +2293,8 @@ libstdc++6-32bit
 libstorage-devel
 libstorage-ruby
 libstorage5
-libstrigi0
+libstreamanalyzer0
+libsuitesparseconfig-4_2_1
 libsunpinyin3
 libtag-extras1
 libtag1
@@ -2305,6 +2339,8 @@ libudev-devel
 libudev1
 libudev1-32bit
 libudisks2-0
+libumfpack-5_6_2
+libuna1
 libunique-1_0-0
 libunistring0
 libupower-glib2
@@ -2384,7 +2420,7 @@ libwebkitgtk-devel
 libwebp5
 libwebpmux1
 libwebrtc_audio_processing0
-libwicked0
+libwicked-0-5
 libwmf-0_2-7
 libwmf-tools
 libwnck-1-22
@@ -2395,7 +2431,6 @@ libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
 libwrap0
-libwv-1_2-3
 libwv2-4
 libwx_baseu-2_8-0-stl
 libwx_baseu_net-2_8-0-stl
@@ -2453,7 +2488,7 @@ libxcb1-32bit
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4ui-1-0
-libxfce4ui-branding-openSUSE
+libxfce4ui-branding-upstream
 libxfce4ui-lang
 libxfce4ui-tools
 libxfce4util-lang
@@ -2476,6 +2511,7 @@ libxkbui-devel
 libxkbui1
 libxklavier-devel
 libxklavier16
+libxml++-2_6-2
 libxml2-2
 libxml2-2-32bit
 libxml2-devel
@@ -2508,6 +2544,8 @@ libz1-32bit
 libzapojit-0_0-0
 libzeitgeist-1_0-1
 libzeitgeist-2_0-0
+libzhuyin-data
+libzhuyin5
 libzinnia0
 libzio1
 libzip2
@@ -2522,7 +2560,6 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
-link-grammar
 linux-glibc-devel
 linux32
 linuxconsoletools
@@ -2607,7 +2644,6 @@ mlterm-scim
 mlterm-uim
 mobile-broadband-provider-info
 mobipocket
-monitoring-tools
 mono-basic
 mono-core
 mono-data
@@ -2642,7 +2678,6 @@ mozilla-nss-devel
 mozilla-nss-tools
 mpt-firmware
 mpt-status
-mrtg
 msynctool
 mtools
 mtpaint
@@ -2663,51 +2698,6 @@ myspell-hu_HU
 myspell-it_IT
 myspell-pt_BR
 myspell-ru_RU
-nagios
-nagios-plugins
-nagios-plugins-breeze
-nagios-plugins-by_ssh
-nagios-plugins-cluster
-nagios-plugins-common
-nagios-plugins-dhcp
-nagios-plugins-dig
-nagios-plugins-disk
-nagios-plugins-disk_smb
-nagios-plugins-dns
-nagios-plugins-dummy
-nagios-plugins-file_age
-nagios-plugins-flexlm
-nagios-plugins-http
-nagios-plugins-icmp
-nagios-plugins-ide_smart
-nagios-plugins-ifoperstatus
-nagios-plugins-ifstatus
-nagios-plugins-ircd
-nagios-plugins-load
-nagios-plugins-log
-nagios-plugins-mailq
-nagios-plugins-mrtg
-nagios-plugins-mrtgtraf
-nagios-plugins-nt
-nagios-plugins-ntp_peer
-nagios-plugins-ntp_time
-nagios-plugins-nwstat
-nagios-plugins-oracle
-nagios-plugins-overcr
-nagios-plugins-ping
-nagios-plugins-procs
-nagios-plugins-real
-nagios-plugins-rpc
-nagios-plugins-sensors
-nagios-plugins-smtp
-nagios-plugins-ssh
-nagios-plugins-swap
-nagios-plugins-tcp
-nagios-plugins-time
-nagios-plugins-ups
-nagios-plugins-users
-nagios-plugins-wave
-nagios-www
 nano
 nano-lang
 nanum-fonts
@@ -2726,7 +2716,6 @@ nbd-doc
 ncftp
 ncurses-devel
 ncurses-utils
-net-snmp
 net-tools
 netcat-openbsd
 netcfg
@@ -2771,7 +2760,6 @@ openldap2
 openldap2-client
 openldap2-devel
 openmpi-libs
-openobex
 openslp
 openslp-server
 opensp
@@ -2779,8 +2767,6 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-opensuse-startup_en
-opensuse-startup_en-pdf
 openvpn
 optipng
 orage
@@ -2953,10 +2939,9 @@ perl-Convert-ASN1
 perl-Convert-BinHex
 perl-Convert-TNEF
 perl-Convert-UUlib
-perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
-perl-Crypt-Rijndael
+perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
@@ -2964,6 +2949,7 @@ perl-DBD-SQLite
 perl-DBI
 perl-Data-Dump
 perl-Date-Calc
+perl-Date-Manip
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
@@ -2973,10 +2959,15 @@ perl-Error
 perl-File-Listing
 perl-File-RandomAccess
 perl-File-Slurp
+perl-Finance-Quote
+perl-HTML-Element-Extended
 perl-HTML-Parser
 perl-HTML-SimpleParse
+perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Tidy
+perl-HTML-TokeParser-Simple
+perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -2984,7 +2975,6 @@ perl-HTTP-Message
 perl-HTTP-Negotiate
 perl-IO-HTML
 perl-IO-Socket-INET6
-perl-IO-Socket-IP
 perl-IO-Socket-SSL
 perl-IO-stringy
 perl-Image-ExifTool
@@ -3007,7 +2997,6 @@ perl-Net-HTTP
 perl-Net-IP
 perl-Net-Patricia
 perl-Net-SMTP-SSL
-perl-Net-SNMP
 perl-Net-SSLeay
 perl-Net-Server
 perl-NetAddr-IP
@@ -3016,19 +3005,20 @@ perl-Parse-RecDescent
 perl-PlRPC
 perl-RPC-XML
 perl-Readonly
-perl-SNMP
 perl-SQL-Statement
 perl-Socket6
+perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
-perl-Test-Manifest
+perl-Test-Fatal
 perl-Text-Wrapper
 perl-Tie-IxHash
 perl-Time-Duration
 perl-TimeDate
+perl-Try-Tiny
 perl-Types-Serialiser
 perl-URI
 perl-Unix-Syslog
@@ -3134,6 +3124,7 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -3212,13 +3203,13 @@ python-smbios
 python-solv
 python-tk
 python-urlgrabber
-python-virtualbox
 python-xdg
 python-xml
 python-yum
 python3
 python3-atspi
 python3-base
+python3-brlapi
 python3-cairo
 python3-devel
 python3-gedit
@@ -3230,6 +3221,7 @@ python3-setuptools
 python3-speechd
 qdox
 qemu
+qemu-block-curl
 qemu-ipxe
 qemu-ksm
 qemu-kvm
@@ -3319,7 +3311,6 @@ seamonkey-irc
 seamonkey-translations-common
 seamonkey-venkman
 sed
-sensors
 sessreg
 setserial
 setxkbmap
@@ -3342,6 +3333,7 @@ skanlite
 skanlite-doc
 skanlite-lang
 skkdic
+slib
 smartmontools
 smbios-utils-python
 smp_utils
@@ -5741,15 +5733,12 @@ update-desktop-files
 upower
 usb_modeswitch
 usb_modeswitch-data
-usbmuxd
 usbutils
 util-linux
 vaapi-intel-driver
 vacation
 vala
 valgrind
-vboxgtk
-vboxgtk-lang
 vcdimager
 videoproto-devel
 viewnior
@@ -5764,14 +5753,6 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
-virtualbox
-virtualbox-guest-kmp-default
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
-virtualbox-host-kmp-default
-virtualbox-host-kmp-desktop
-virtualbox-qt
 vlan
 vm-install
 vorbis-tools

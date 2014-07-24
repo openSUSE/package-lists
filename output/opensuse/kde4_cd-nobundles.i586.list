@@ -87,6 +87,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
+cdparanoia-devel
 cdrdao
 cdrkit-cdrtools-compat
 checkmedia
@@ -166,6 +167,7 @@ file-magic
 filesystem
 fillup
 findutils
+fipscheck
 fontconfig
 fonts-config
 freerdp
@@ -178,7 +180,6 @@ gcr-data
 gcr-lang
 gcr-prompter
 gcr-viewer
-gd
 gdb
 gdk-pixbuf-lang
 gdk-pixbuf-query-loaders
@@ -202,6 +203,7 @@ gnome-keyring-pam
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 google-droid-fonts
+google-opensans-fonts
 gpart
 gparted
 gpg2
@@ -283,7 +285,6 @@ iw
 jfsutils
 k3b
 k3b-lang
-kactivities4
 kaddressbook
 kbd
 kcalc
@@ -391,7 +392,7 @@ libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libLLVM
 libModemManagerQt0
-libNetworkManagerQt0
+libNetworkManagerQt1
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -462,6 +463,7 @@ libavahi-common3
 libavahi-core7
 libbaloofiles4
 libbaloopim4
+libbalooqueryparser4
 libbaloowidgets4
 libbasicobjects0
 libblkid1
@@ -546,6 +548,7 @@ libfallocate0
 libfbembed2_5
 libffi4
 libfftw3-3
+libfipscheck1
 libfltk1
 libfontenc1
 libfprint0
@@ -562,6 +565,7 @@ libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
+libgd3
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -691,7 +695,7 @@ liblua5_1
 liblzma5
 liblzo2-2
 libmagic1
-libmarblewidget18
+libmarblewidget19
 libmbim-glib0
 libmeanwhile1
 libmediastreamer_base3
@@ -719,6 +723,7 @@ libmysqld18
 libmythes-1_2-0
 libncurses5
 libncurses6
+libndp0
 libndr-krb5pac0
 libndr-nbt0
 libndr-standard0
@@ -727,6 +732,7 @@ libneon27
 libnetapi0
 libnetfilter_conntrack3
 libnettle4
+libnewt0_52
 libnfnetlink0
 libnl-config
 libnl3-200
@@ -766,7 +772,7 @@ libphonon4
 libpipeline1
 libpixman-1-0
 libpkcs11-helper1
-libplist1
+libplist2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -870,7 +876,7 @@ libstartup-notification-1-0
 libstdc++6
 libstorage-ruby
 libstorage5
-libstrigi0
+libstreamanalyzer0
 libtag-extras1
 libtag1
 libtag_c0
@@ -922,7 +928,7 @@ libwayland-server0
 libwbclient0
 libwebp5
 libwebrtc_audio_processing0
-libwicked0
+libwicked-0-5
 libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
@@ -1038,7 +1044,6 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-opensuse-startup_en
 openvpn
 os-prober
 oxygen-cursors4
@@ -1292,6 +1297,7 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-Notify-0_7
 typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
+typelib-1_0-Polkit-1_0
 udev
 udev-configure-printer
 udisks2
@@ -1304,16 +1310,12 @@ upower
 upower-lang
 usb_modeswitch
 usb_modeswitch-data
-usbmuxd
 usbutils
 util-linux
 util-linux-lang
 vaapi-intel-driver
 vcdimager
 vim
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
 vorbis-tools
 vorbis-tools-lang
 vpnc

@@ -53,6 +53,7 @@ dbus-1-glib
 dbus-1-python
 dbus-1-x11
 dconf
+dejavu-fonts
 deltarpm
 device-mapper
 dhcpcd
@@ -71,6 +72,7 @@ file-magic
 filesystem
 fillup
 findutils
+fipscheck
 fontconfig
 gawk
 gdk-pixbuf-query-loaders
@@ -85,6 +87,7 @@ glib2-tools
 glibc
 glibc-extra
 gnu-unifont-bitmap-fonts
+google-opensans-fonts
 gpart
 gpg2
 gpm
@@ -189,6 +192,7 @@ libevent-2_0-5
 libexpat1
 libext2fs2
 libffi4
+libfipscheck1
 libfreetype6
 libfuse2
 libgbm1
@@ -264,7 +268,7 @@ libpcre1
 libpdb0
 libpipeline1
 libpixman-1-0
-libplist1
+libplist2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -326,7 +330,7 @@ libvorbisfile3
 libwayland-client0
 libwayland-server0
 libwbclient0
-libwicked0
+libwicked-0-5
 libwrap0
 libx86-1
 libx86emu1
@@ -500,6 +504,7 @@ systemd-bash-completion
 systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+sysvinit-tools
 tar
 terminfo-base
 time
@@ -514,7 +519,6 @@ udev
 udev-configure-printer
 update-alternatives
 upower
-usbmuxd
 usbutils
 util-linux
 vim

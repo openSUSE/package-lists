@@ -90,6 +90,7 @@ file-magic
 filesystem
 fillup
 findutils
+fipscheck
 fontconfig
 fonts-config
 fuse
@@ -97,7 +98,6 @@ gawk
 gcr-data
 gcr-prompter
 gcr-viewer
-gd
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
@@ -119,6 +119,7 @@ gnome-keyring-pam
 gnome-online-accounts
 gnome-online-accounts-lang
 gnu-unifont-bitmap-fonts
+google-opensans-fonts
 gpart
 gpg2
 gpm
@@ -299,6 +300,7 @@ libexpat1
 libext2fs2
 libffi4
 libfftw3-3
+libfipscheck1
 libfltk1
 libfontenc1
 libfreetype6
@@ -309,6 +311,7 @@ libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
+libgd3
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -415,7 +418,7 @@ libpcre16-0
 libpdb0
 libpipeline1
 libpixman-1-0
-libplist1
+libplist2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -497,7 +500,7 @@ libwebkitgtk-3_0-0
 libwebkitgtk3-lang
 libwebp5
 libwebrtc_audio_processing0
-libwicked0
+libwicked-0-5
 libwrap0
 libx86-1
 libx86emu1
@@ -569,7 +572,6 @@ numlockx
 obex-data-server
 openSUSE-build-key
 openldap2-client
-openobex
 openslp
 openssh
 openssh-askpass
@@ -731,14 +733,14 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-Notify-0_7
 typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
+typelib-1_0-Polkit-1_0
 udev
 udev-configure-printer
 udisks2
+unzip
 unzip-doc
-unzip-rcc
 update-alternatives
 upower
-usbmuxd
 usbutils
 util-linux
 vim

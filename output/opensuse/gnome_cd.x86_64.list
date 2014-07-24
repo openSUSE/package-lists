@@ -70,6 +70,12 @@ boost-license1_54_0
 branding-openSUSE
 brasero
 brasero-nautilus
+brltty
+brltty-driver-at-spi2
+brltty-driver-brlapi
+brltty-driver-espeak
+brltty-driver-speech-dispatcher
+brltty-driver-xwindow
 btrfsprogs
 bundle-lang-common-en
 bundle-lang-gnome-en
@@ -166,6 +172,7 @@ file-roller
 filesystem
 fillup
 findutils
+fipscheck
 fontconfig
 fonts-config
 fortune
@@ -179,7 +186,6 @@ gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
-gd
 gdb
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
@@ -272,6 +278,7 @@ gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gnuchess
 google-droid-fonts
+google-opensans-fonts
 gpart
 gparted
 gpg2
@@ -448,6 +455,7 @@ libaccountsservice0
 libacl1
 libadns1
 libaio1
+libamd-2_3_1
 libao-plugins4
 libao4
 libapparmor1
@@ -475,6 +483,7 @@ libavahi-glib1
 libavahi-gobject0
 libbabl-0_1-0
 libbasicobjects0
+libblas3
 libblkid1
 libbluetooth3
 libbluray1
@@ -484,12 +493,14 @@ libboost_thread1_54_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
+libbrlapi0_6
 libbtrfs0
 libburn4
 libbz2-1
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
+libcamd-2_3_1
 libcamel-1_2-49
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -501,6 +512,7 @@ libcap-ng0
 libcap2
 libcares2
 libcaribou0
+libccolamd-2_8_0
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
@@ -513,6 +525,7 @@ libchamplain-0_12-0
 libcheese-common
 libcheese-gtk23
 libcheese7
+libcholmod-2_1_2
 libcloog-isl4
 libclucene-contribs-lib1
 libclucene-core1
@@ -523,6 +536,7 @@ libclutter-gtk-1_0-0
 libcmis-0_4-4
 libcogl-pango20
 libcogl20
+libcolamd-2_8_0
 libcollection2
 libcolord-gtk1
 libcolord2
@@ -594,6 +608,7 @@ libfarstream-0_2-2
 libfbembed2_5
 libffi4
 libfftw3-3
+libfipscheck1
 libfltk1
 libfolks-data
 libfolks-eds25
@@ -614,6 +629,7 @@ libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
+libgd3
 libgdata19
 libgdbm4
 libgdict-1_0-6
@@ -626,6 +642,7 @@ libgeoclue0
 libgeocode-glib0
 libgexiv2-2
 libgfbgraph-0_2-0
+libgfortran3
 libgif6
 libgimp-2_0-0
 libgimpui-2_0-0
@@ -749,6 +766,7 @@ libkms1
 libkpathsea6
 libksba8
 liblangtag1
+liblapack3
 liblcms1
 liblcms2-2
 libldap-2_4-2
@@ -768,6 +786,7 @@ libm17n0
 libmagic1
 libmbim-glib0
 libmediaart-1_0-0
+libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
@@ -794,6 +813,7 @@ libmythes-1_2-0
 libnautilus-extension1
 libncurses5
 libncurses6
+libndp0
 libndr-krb5pac0
 libndr-nbt0
 libndr-standard0
@@ -802,6 +822,7 @@ libneon27
 libnetapi0
 libnetfilter_conntrack3
 libnettle4
+libnewt0_52
 libnfnetlink0
 libnice10
 libnl-config
@@ -849,7 +870,7 @@ libpeas-loader-seed
 libpipeline1
 libpixman-1-0
 libpkcs11-helper1
-libplist1
+libplist2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -879,6 +900,7 @@ libpython3_4m1_0
 libqmi-glib1
 libqmi-tools
 libqrencode3
+libquadmath0
 libquicktime0
 libquvi
 libquvi-scripts
@@ -962,6 +984,7 @@ libstartup-notification-1-0
 libstdc++6
 libstorage-ruby
 libstorage5
+libsuitesparseconfig-4_2_1
 libtag1
 libtag_c0
 libtalloc2
@@ -987,6 +1010,7 @@ libtracker-sparql-1_0-0
 libts-1_0-0
 libudev1
 libudisks2-0
+libumfpack-5_6_2
 libunistring0
 libupower-glib2
 libusb-0_1-4
@@ -1023,7 +1047,7 @@ libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebp5
 libwebrtc_audio_processing0
-libwicked0
+libwicked-0-5
 libwmf-0_2-7
 libwnck-3-0
 libwnck-lang
@@ -1146,13 +1170,11 @@ openSUSE-release
 openSUSE-release-livecd-gnome
 openal-soft
 openldap2-client
-openobex
 openslp
 openssh
 openssh-askpass
 openssh-helpers
 openssl
-opensuse-startup_en
 openvpn
 orca
 os-prober
@@ -1318,6 +1340,7 @@ python-xml
 python3
 python3-atspi
 python3-base
+python3-brlapi
 python3-cairo
 python3-gedit
 python3-gobject
@@ -1496,15 +1519,11 @@ update-alternatives
 upower
 usb_modeswitch
 usb_modeswitch-data
-usbmuxd
 usbutils
 util-linux
 vaapi-intel-driver
 vim
 vino
-virtualbox-guest-kmp-desktop
-virtualbox-guest-tools
-virtualbox-guest-x11
 vorbis-tools
 vpnc
 wallpaper-branding-openSUSE
@@ -1519,6 +1538,7 @@ wpa_supplicant
 x11-tools
 xauth
 xbitmaps
+xbrlapi
 xchat
 xchat-perl
 xchat-python

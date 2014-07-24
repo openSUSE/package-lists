@@ -123,6 +123,7 @@ file-magic
 filesystem
 fillup
 findutils
+fipscheck
 fontconfig
 fonts-config
 freerdp
@@ -130,7 +131,6 @@ gawk
 gcr-data
 gcr-prompter
 gcr-viewer
-gd
 gdb
 gdk-pixbuf-query-loaders
 genisoimage
@@ -148,6 +148,7 @@ gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
 google-droid-fonts
+google-opensans-fonts
 gpart
 gpg2
 gpm
@@ -202,7 +203,6 @@ intlfonts-euro-bitmap-fonts
 iproute2
 iptables
 iputils
-kactivities4
 kaddressbook
 kbd
 kcalc
@@ -291,7 +291,7 @@ libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libLLVM
 libModemManagerQt0
-libNetworkManagerQt0
+libNetworkManagerQt1
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -352,6 +352,7 @@ libavahi-common3
 libavahi-core7
 libbaloofiles4
 libbaloopim4
+libbalooqueryparser4
 libbaloowidgets4
 libblkid1
 libbluedevil2
@@ -414,6 +415,7 @@ libexpat1
 libext2fs2
 libffi4
 libfftw3-3
+libfipscheck1
 libfltk1
 libfontenc1
 libfreebl3
@@ -427,6 +429,7 @@ libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
+libgd3
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -541,6 +544,7 @@ libmusicbrainz5-0
 libmysqlclient18
 libncurses5
 libncurses6
+libndp0
 libndr-krb5pac0
 libndr-nbt0
 libndr-standard0
@@ -549,6 +553,7 @@ libneon27
 libnetapi0
 libnetfilter_conntrack3
 libnettle4
+libnewt0_52
 libnfnetlink0
 libnl-config
 libnl3-200
@@ -579,7 +584,7 @@ libphonon4
 libpipeline1
 libpixman-1-0
 libpkcs11-helper1
-libplist1
+libplist2
 libply-boot-client2
 libply-splash-core2
 libply-splash-graphics2
@@ -630,6 +635,7 @@ libsemanage1
 libsensors4
 libsepol1
 libsgutils2-2
+libslang2
 libsmbclient-raw0
 libsmbclient0
 libsmbconf0
@@ -647,7 +653,7 @@ libsqlite3-0
 libssh2-1
 libssh4
 libstdc++6
-libstrigi0
+libstreamanalyzer0
 libtag1
 libtalloc2
 libtasn1
@@ -690,7 +696,7 @@ libwayland-server0
 libwbclient0
 libwebp5
 libwebrtc_audio_processing0
-libwicked0
+libwicked-0-5
 libwrap0
 libx86-1
 libx86emu1
@@ -960,6 +966,7 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-Notify-0_7
 typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
+typelib-1_0-Polkit-1_0
 udev
 udev-configure-printer
 udisks2
@@ -970,7 +977,6 @@ update-desktop-files
 upower
 usb_modeswitch
 usb_modeswitch-data
-usbmuxd
 usbutils
 util-linux
 vim

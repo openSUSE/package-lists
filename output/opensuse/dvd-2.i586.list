@@ -9,6 +9,7 @@ PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 aaa_base
 aaa_base-extras
+acl
 adjtimex
 apper
 at-spi2-atk-common
@@ -60,6 +61,7 @@ file-magic
 filesystem
 fillup
 findutils
+fipscheck
 fontconfig
 fonts-config
 ft2demos
@@ -193,6 +195,7 @@ libacl1
 libadns1
 libakonadi4
 libakonadiprotocolinternals1
+libapparmor1
 libarchive13
 libasm1
 libasound2
@@ -266,6 +269,7 @@ libexttextcat
 libexttextcat-2_0-0
 libfbembed2_5
 libffi4
+libfipscheck1
 libfontenc1
 libfreebl3
 libfreehand-0_0-0
@@ -276,6 +280,7 @@ libgcc_s1
 libgck-1-0
 libgcr-3-1
 libgcrypt20
+libgd3
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
@@ -382,7 +387,7 @@ libpcre16-0
 libpdb0
 libphonon4
 libpixman-1-0
-libplist1
+libplist2
 libpng16-16
 libpolkit-qt-1-1
 libpolkit0
@@ -404,7 +409,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-unixODBC
+libqt4-sql-sqlite
 libqt4-x11
 libqt5-qtimageformats
 libraptor2-0
@@ -458,7 +463,7 @@ libsqlite3-0
 libssh2-1
 libssh4
 libstdc++6
-libstrigi0
+libstreamanalyzer0
 libtalloc2
 libtasn1
 libtasn1-6
@@ -490,7 +495,7 @@ libwayland-server0
 libwbclient0
 libwebkitgtk-3_0-0
 libwebp5
-libwicked0
+libwicked-0-5
 libwpd-0_9-9
 libwpg-0_2-2
 libwps-0_2-2
@@ -553,9 +558,7 @@ netcfg
 obex-data-server
 openSUSE-release
 openSUSE-release-dvd
-openobex
 openssl
-opensuse-startup_en
 oxygen-icon-theme
 p11-kit
 p11-kit-tools
@@ -644,6 +647,7 @@ systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+sysvinit-tools
 tcsh
 terminfo-base
 time
@@ -652,12 +656,10 @@ timezone-java
 traceroute
 udev
 udisks2
-unixODBC
 unzip
 unzip-doc
 update-alternatives
 upower
-usbmuxd
 util-linux
 wallpaper-branding-openSUSE
 which

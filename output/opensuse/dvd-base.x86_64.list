@@ -1,6 +1,7 @@
 SuSEfirewall2
 aaa_base
 aaa_base-extras
+acl
 adjtimex
 augeas-lenses
 autofs
@@ -14,7 +15,7 @@ binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
-bundle-lang-common-fr
+bundle-lang-common-cs
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -32,6 +33,7 @@ curl
 dbus-1
 dbus-1-glib
 dbus-1-x11
+dejavu-fonts
 deltarpm
 device-mapper
 dhcpcd
@@ -49,6 +51,7 @@ file-magic
 filesystem
 fillup
 findutils
+fipscheck
 gawk
 gettext-runtime
 gio-branding-openSUSE
@@ -56,6 +59,7 @@ glib2-tools
 glibc
 glibc-extra
 glibc-locale
+google-opensans-fonts
 gpg2
 grep
 grub2
@@ -95,6 +99,7 @@ libXt6
 libacl1
 libadns1
 libaio1
+libapparmor1
 libarchive13
 libasm1
 libassuan0
@@ -123,6 +128,7 @@ libevent-2_0-5
 libexpat1
 libext2fs2
 libffi4
+libfipscheck1
 libfreetype6
 libfuse2
 libgc1
@@ -166,7 +172,7 @@ libp11-kit0
 libparted0
 libpci3
 libpcre1
-libplist1
+libplist2
 libpng16-16
 libpolkit0
 libpopt0
@@ -200,7 +206,7 @@ libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
-libwicked0
+libwicked-0-5
 libwrap0
 libx86emu1
 libxcb1
@@ -307,6 +313,7 @@ systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+sysvinit-tools
 tar
 tcsh
 telnet
@@ -320,7 +327,6 @@ unzip
 unzip-doc
 update-alternatives
 upower
-usbmuxd
 util-linux
 vim
 w3m

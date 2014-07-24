@@ -1,6 +1,7 @@
 SuSEfirewall2
 aaa_base
 aaa_base-extras
+acl
 adjtimex
 augeas-lenses
 autofs
@@ -36,6 +37,7 @@ dbus-1-glib
 dbus-1-python
 dbus-1-x11
 dconf
+dejavu-fonts
 deltarpm
 device-mapper
 dhcpcd
@@ -53,6 +55,7 @@ file-magic
 filesystem
 fillup
 findutils
+fipscheck
 gawk
 gettext-runtime
 gio-branding-openSUSE
@@ -62,6 +65,7 @@ glib2-tools
 glibc
 glibc-extra
 glibc-locale
+google-opensans-fonts
 gpg2
 grep
 grub2
@@ -103,6 +107,7 @@ libXt6
 libacl1
 libadns1
 libaio1
+libapparmor1
 libarchive13
 libasm1
 libassuan0
@@ -132,6 +137,7 @@ libevent-2_0-5
 libexpat1
 libext2fs2
 libffi4
+libfipscheck1
 libfreetype6
 libfuse2
 libgc1
@@ -146,6 +152,8 @@ libgmp10
 libgnutls28
 libgobject-2_0-0
 libgpg-error0
+libgsasl-lang
+libgsasl7
 libgudev-1_0-0
 libhavege1
 libhogweed2
@@ -177,12 +185,13 @@ libnfnetlink0
 libnl-config
 libnl3-200
 libntfs-3g85
+libntlm0
 libopenssl1_0_0
 libp11-kit0
 libparted0
 libpci3
 libpcre1
-libplist1
+libplist2
 libpng16-16
 libpolkit0
 libpopt0
@@ -220,7 +229,7 @@ libusbmuxd2
 libustr-1_0-1
 libutempter0
 libuuid1
-libwicked0
+libwicked-0-5
 libwrap0
 libx86emu1
 libxcb1
@@ -240,11 +249,10 @@ logrotate
 lsof
 lsscsi
 lvm2
-m4
-make
 mdadm
-metamail
 mozilla-nspr
+msmtp
+msmtp-mta
 mtools
 multipath-tools
 ncurses-utils
@@ -331,9 +339,7 @@ pm-utils
 polkit
 polkit-default-privs
 prctl
-procmail
 procps
-psmisc
 python
 python-base
 python-gobject
@@ -348,14 +354,10 @@ ruby-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 sed
-sendmail
 sg3_utils
 shadow
 shared-mime-info
-sharutils
-sharutils-lang
 shim
-site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -367,9 +369,9 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+sysvinit-tools
 tar
 tcsh
 telnet
@@ -383,7 +385,6 @@ unzip
 unzip-doc
 update-alternatives
 upower
-usbmuxd
 util-linux
 vim
 vim-data

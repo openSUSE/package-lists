@@ -11,10 +11,8 @@ cryptconfig-32bit
 cups-libs-32bit
 device-mapper-32bit
 efibootmgr
-esound-daemon
 fontconfig-32bit
 fribidi-32bit
-gd-32bit
 gdk-pixbuf-query-loaders-32bit
 glibc-32bit
 glibc-locale-32bit
@@ -90,12 +88,14 @@ libelf1-32bit
 libexif12-32bit
 libexpat1-32bit
 libffi4-32bit
+libfipscheck1-32bit
 libfprint0-32bit
 libfreebl3-32bit
 libfreetype6-32bit
 libgbm1-32bit
 libgcc_s1-32bit
 libgcrypt20-32bit
+libgd3-32bit
 libgdbm4-32bit
 libgdk_pixbuf-2_0-0-32bit
 libgensec0-32bit
@@ -108,6 +108,8 @@ libgobject-2_0-0-32bit
 libgpg-error0-32bit
 libgphoto2-6-32bit
 libgraphite2-3-32bit
+libgsasl-lang
+libgsasl7
 libgsm1-32bit
 libgstapp-0_10-0-32bit
 libgstreamer-0_10-0-32bit
@@ -143,6 +145,7 @@ libndr-standard0-32bit
 libndr0-32bit
 libnetapi0-32bit
 libnettle4-32bit
+libntlm0
 libnuma1
 libogg0-32bit
 libopenal1-32bit
@@ -233,6 +236,8 @@ mcelog
 mozilla-nspr-32bit
 mozilla-nss-32bit
 mozilla-nss-certs-32bit
+msmtp
+msmtp-mta
 nspluginwrapper
 nss-mdns-32bit
 nss_ldap-32bit
@@ -249,6 +254,7 @@ pam_mount-32bit
 pam_ssh-32bit
 pango-tools-32bit
 perl-32bit
+pulseaudio-esound-compat
 pytalloc-32bit
 rpm-32bit
 samba-32bit
