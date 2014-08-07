@@ -58,6 +58,8 @@ a2ps
 aaa_base
 aaa_base-extras
 abcde
+abiword
+abiword-docs
 accerciser
 accerciser-lang
 accountsservice
@@ -234,7 +236,6 @@ bcel
 bdftopcf
 bea-stax
 bea-stax-api
-beaver
 beforelight
 bijiben
 bin86
@@ -656,6 +657,9 @@ fribidi-devel
 frink
 frogr
 frogr-lang
+frozen-bubble
+frozen-bubble-lang
+frozen-bubble-server
 fslsfonts
 fstobdf
 ft2demos
@@ -707,6 +711,10 @@ gdl-lang
 gdm
 gdm-branding-openSUSE
 gdmflexiserver
+geany
+geany-lang
+geany-plugins
+geany-plugins-lang
 gedit
 gedit-plugin-devhelp
 gedit-plugin-zeitgeist
@@ -940,7 +948,6 @@ gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
 gsf-office-thumbnailer
 gsf-sharp
-gsl
 gsl-devel
 gstreamer
 gstreamer-0_10
@@ -1529,6 +1536,7 @@ libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
 libSDL-devel
+libSDL_Pango1
 libSDL_gfx15
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
@@ -1611,7 +1619,8 @@ libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
 libaa1
-libabw-0_0-0
+libabiword-3_0
+libabw-0_1-1
 libaccountsservice0
 libacl1
 libadns1
@@ -1755,7 +1764,7 @@ libcdio-devel
 libcdio14
 libcdio_cdda1
 libcdio_paranoia1
-libcdr-0_0-0
+libcdr-0_1-1
 libcelt0-2
 libcelt051-0
 libcerror1
@@ -1816,7 +1825,7 @@ libdconf1
 libdhash1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-4
+libdirectfb-1_7-5
 libdiscid0
 libdjvulibre-devel
 libdjvulibre21
@@ -1839,7 +1848,7 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libe-book-0_0-0
+libe-book-0_1-1
 libeXosip2-6
 libeXosip2-devel
 libebackend-1_2-7
@@ -1865,7 +1874,7 @@ libesd-devel
 libesd0
 libesmtp
 libestr0
-libetonyek-0_0-0
+libetonyek-0_1-1
 libetpan17
 libevdev-tools
 libevdev2
@@ -1916,7 +1925,7 @@ libfontenc1
 libfox1_6
 libfprint0
 libfreebl3
-libfreehand-0_0-0
+libfreehand-0_1-1
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
@@ -2052,6 +2061,7 @@ libgrlnet-0_2-0
 libgrlpls-0_2-0
 libgsf-1-114
 libgsf-devel
+libgsl0
 libgsm1
 libgssdp-1_0-3
 libgssglue-devel
@@ -2060,14 +2070,16 @@ libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstbadbase-1_0-0
+libgstbadvideo-1_0-0
 libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
 libgstbasevideo-0_10-23
 libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
-libgstegl-1_0-0
 libgstfft-1_0-0
 libgstgl-0_10-1
+libgstgl-1_0-0
 libgstinterfaces-0_10-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
@@ -2143,8 +2155,8 @@ libibus-1_0-5
 libical-devel
 libical1
 libicu-devel
-libicu52_1
-libicu52_1-data
+libicu53_1
+libicu53_1-data
 libid3tag0
 libidl-devel
 libidn-devel
@@ -2175,7 +2187,7 @@ libiterm1
 libitm1
 libiw-devel
 libiw30
-libixion-0_6-0
+libixion-0_8-0
 libjack-devel
 libjack0
 libjasper-devel
@@ -2329,7 +2341,7 @@ libmpfr4
 libmsn-devel
 libmsn0_3
 libmspack0
-libmspub-0_0-0
+libmspub-0_1-1
 libmtdev1
 libmtp-devel
 libmtp9
@@ -2339,7 +2351,7 @@ libmusicbrainz3-devel
 libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
-libmwaw-0_2-2
+libmwaw-0_3-3
 libmxml1
 libmygpo-qt-devel
 libmygpo-qt1
@@ -2387,7 +2399,7 @@ libntfs-3g85
 liboauth-devel
 liboauth0
 libobjc4
-libodfgen-0_0-0
+libodfgen-0_1-1
 libofa0
 libofx
 libofx-devel
@@ -2419,7 +2431,7 @@ libopensync-plugin-moto
 libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
-liborcus-0_6-0
+liborcus-0_8-0
 libortp9
 libosinfo
 libosinfo-1_0-0
@@ -2518,8 +2530,6 @@ libpurple-meanwhile
 libpurple-plugin-bot-sentry
 libpurple-plugin-bot-sentry-lang
 libpurple-plugin-facebookchat
-libpurple-plugin-mrim
-libpurple-plugin-mrim-lang
 libpurple-plugin-openfetion
 libpurple-plugin-openfetion-lang
 libpurple-plugin-pack
@@ -2634,6 +2644,10 @@ libreoffice-templates-ru
 libreoffice-writer
 libreoffice-writer-extensions
 librest0
+librevenge-0_0-0
+librevenge-devel
+librevenge-generators-0_0-0
+librevenge-stream-0_0-0
 librsvg-2-2
 librsvg-devel
 librsync1
@@ -2832,7 +2846,7 @@ libvirt-daemon-driver-vbox
 libvirt-daemon-qemu
 libvirt-glib-1_0-0
 libvirt-python
-libvisio-0_0-0
+libvisio-0_1-1
 libvisual
 libvisual-devel
 libvmtools0
@@ -2863,19 +2877,20 @@ libwebkitgtk-devel
 libwebp5
 libwebpmux1
 libwebrtc_audio_processing0
-libwicked-0-5
+libwicked-0-6
 libwmf-0_2-7
 libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck-devel
 libwnck-lang
-libwpd-0_9-9
+libwpd-0_10-10
 libwpd-devel
-libwpg-0_2-2
+libwpg-0_3-3
 libwpg-devel
-libwps-0_2-2
+libwps-0_3-3
 libwrap0
+libwv-1_2-3
 libwv2-4
 libwx_baseu-2_8-0-stl
 libwx_baseu_net-2_8-0-stl
@@ -2928,7 +2943,7 @@ libxcb1
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4ui-1-0
-libxfce4ui-branding-upstream
+libxfce4ui-branding-openSUSE
 libxfce4ui-lang
 libxfce4ui-tools
 libxfce4util-lang
@@ -3003,6 +3018,7 @@ lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
 lilo
+link-grammar
 links
 linphone
 linphone-devel
@@ -3267,6 +3283,7 @@ openSUSE-xfce-icon-theme
 openal-soft
 openbabel
 openbox
+openbox-adwaita-ob-theme
 opencc-data
 openconnect
 openconnect-devel
@@ -3458,6 +3475,7 @@ pcre-tools
 pcsc-lite
 perl
 perl-Algorithm-Diff
+perl-Alien-SDL
 perl-Apache-AuthCookie
 perl-Apache-DBI
 perl-Apache-Session
@@ -3466,6 +3484,7 @@ perl-AppConfig
 perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
+perl-B-Hooks-EndOfScope
 perl-BIND-Conf_Parser
 perl-BSD-Resource
 perl-BerkeleyDB
@@ -3477,6 +3496,7 @@ perl-Business-ISBN-Data
 perl-CDDB_get
 perl-CGI-Application
 perl-Cairo
+perl-Capture-Tiny
 perl-Carp-Assert
 perl-Carp-Clan
 perl-Chart
@@ -3490,8 +3510,10 @@ perl-Class-Load-XS
 perl-Class-MethodMaker
 perl-Class-Multimethods
 perl-Class-Singleton
+perl-Class-Tiny
 perl-Class-WhiteHole
 perl-Clone
+perl-Compress-Bzip2
 perl-Config-Crontab
 perl-Config-General
 perl-Config-IniFiles
@@ -3524,6 +3546,7 @@ perl-Devel-Caller
 perl-Devel-CoreStack
 perl-Devel-GlobalDestruction
 perl-Devel-LexAlias
+perl-Devel-PartialDump
 perl-Devel-StackTrace
 perl-Devel-Symdump
 perl-Digest-HMAC
@@ -3544,9 +3567,11 @@ perl-File-Find-Rule
 perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
+perl-File-ShareDir
 perl-File-Slurp
 perl-File-Tail
 perl-File-Type
+perl-File-Which
 perl-FileHandle-Unget
 perl-Finance-Quote
 perl-Font-AFM
@@ -3566,7 +3591,6 @@ perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Tidy
-perl-HTML-TokeParser-Simple
 perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-DAV
@@ -3584,6 +3608,7 @@ perl-IO-Stty
 perl-IO-Tty
 perl-IO-stringy
 perl-IPC-Run
+perl-IPC-Run3
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
@@ -3591,7 +3616,9 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
+perl-Lingua-EN-Sentence
 perl-List-MoreUtils
+perl-Locale-Maketext-Lexicon
 perl-Log-Dispatch
 perl-Log-Log4perl
 perl-MIME-Lite
@@ -3630,6 +3657,7 @@ perl-Net-XMPP
 perl-NetAddr-IP
 perl-Number-Compare
 perl-PDA-Pilot
+perl-PPI
 perl-Package-DeprecationManager
 perl-Package-Stash
 perl-Package-Stash-XS
@@ -3645,9 +3673,11 @@ perl-PlRPC
 perl-Pod-HtmlPsPdf
 perl-Pod-POM
 perl-PostScript-Simple
+perl-Probe-Perl
 perl-Quantum-Superpositions
 perl-RPC-XML
 perl-Readonly
+perl-SDL
 perl-SGMLS
 perl-SNMP
 perl-SOAP-Lite
@@ -3662,7 +3692,6 @@ perl-Sub-Exporter
 perl-Sub-Exporter-Progressive
 perl-Sub-Install
 perl-Sub-Name
-perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Task-Weaken
@@ -3670,9 +3699,9 @@ perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
-perl-Test-Fatal
 perl-Test-LeakTrace
 perl-Test-Manifest
+perl-Test-Script
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
@@ -3683,6 +3712,7 @@ perl-Text-Kakasi
 perl-Text-Wrapper
 perl-Tie-Cache
 perl-Tie-IxHash
+perl-Tie-Simple
 perl-Time-Duration
 perl-Time-Period
 perl-Time-modules
@@ -3693,6 +3723,7 @@ perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
 perl-Unix-Syslog
+perl-Variable-Magic
 perl-WWW-RobotRules
 perl-WeakRef
 perl-X11-Protocol
@@ -3727,6 +3758,7 @@ perl-ldap
 perl-libconfigfile
 perl-libwww-perl
 perl-libxml-perl
+perl-namespace-clean
 perl-qt4
 perl-qt4-devel
 perl-razor-agents
@@ -3787,7 +3819,6 @@ php5-zlib
 pia
 pico
 pidgin
-pidgin-mrim
 pidgin-openfetion
 pidgin-plugin-pack
 pidgin-plugin-skype
@@ -3996,6 +4027,7 @@ python-solv
 python-tk
 python-tornado
 python-urlgrabber
+python-virtualbox
 python-wxWidgets
 python-wxWidgets-lang
 python-xcb-proto-devel
@@ -6653,6 +6685,8 @@ vacation
 vala
 valgrind
 valgrind-devel
+vboxgtk
+vboxgtk-lang
 vcdimager
 vdr
 vhba-kmp-default
@@ -6673,6 +6707,14 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 vlan
 vlock
 vm-install
@@ -6750,6 +6792,7 @@ xdg-utils
 xditview
 xdm
 xdmbgrd
+xdotool
 xdpyinfo
 xedit
 xen-libs
@@ -6941,6 +6984,7 @@ xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
 xml-commons-resolver10
 xml-commons-which10
+xml-group-manager
 xml2po
 xml2po-devel
 xmlbeans

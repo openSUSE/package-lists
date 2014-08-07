@@ -198,7 +198,6 @@ grub2-i386-pc
 grub2-snapper-plugin
 gsettings-backend-dconf
 gsettings-desktop-schemas
-gsl
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-plugin-esd
@@ -344,6 +343,7 @@ less
 lftp
 libFLAC++6
 libFLAC8
+libGLEW1_10
 libGLU1
 libHX28
 libHalf11
@@ -392,7 +392,7 @@ libXv1
 libXvMC1
 libXxf86misc1
 libXxf86vm1
-libabw-0_0-0
+libabw-0_1-1
 libacl1
 libadns1
 libaio1
@@ -453,7 +453,7 @@ libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcdio14
-libcdr-0_0-0
+libcdr-0_1-1
 libcelt0-2
 libcloog-isl4
 libclucene-contribs-lib1
@@ -486,7 +486,7 @@ libdrm_nouveau2
 libdrm_radeon1
 libdvdread4
 libdw1
-libe-book-0_0-0
+libe-book-0_1-1
 libedit0
 libelf0
 libelf1
@@ -496,7 +496,7 @@ libepoxy0
 libepub0
 liberation-fonts
 libesd0
-libetonyek-0_0-0
+libetonyek-0_1-1
 libevdev2
 libevent-2_0-5
 libexif12
@@ -514,7 +514,7 @@ libfltk1
 libfontenc1
 libfprint0
 libfreebl3
-libfreehand-0_0-0
+libfreehand-0_1-1
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
@@ -553,6 +553,7 @@ libgps21
 libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
+libgsl0
 libgsm1
 libgstallocators-1_0-0
 libgstapp-0_10-0
@@ -583,8 +584,8 @@ libhogweed2
 libhyphen0
 libibus-1_0-5
 libical1
-libicu52_1
-libicu52_1-data
+libicu53_1
+libicu53_1-data
 libidn11
 libimobiledevice4
 libini_config3
@@ -668,11 +669,11 @@ libmpc3
 libmpcdec5
 libmpfr4
 libmsn0_3
-libmspub-0_0-0
+libmspub-0_1-1
 libmtdev1
 libmtp9
 libmusicbrainz5-0
-libmwaw-0_2-2
+libmwaw-0_3-3
 libmygpo-qt1
 libmysqlclient18
 libmysqld18
@@ -699,7 +700,7 @@ libnotify-tools
 libnotify4
 libnsssharedhelper0
 libntfs-3g85
-libodfgen-0_0-0
+libodfgen-0_1-1
 libogg0
 liboggkate1
 libopenal1
@@ -752,6 +753,7 @@ libpth20
 libpulse-mainloop-glib0
 libpulse0
 libpython2_7-1_0
+libpython3_4m1_0
 libqalculate5
 libqca2
 libqimageblitz4
@@ -789,6 +791,7 @@ libreoffice-l10n-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-writer
+librevenge-0_0-0
 libruby2_1
 libsamba-credentials0
 libsamba-hostconfig0
@@ -865,7 +868,7 @@ libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
 libvigraimpex5
-libvisio-0_0-0
+libvisio-0_1-1
 libvisual
 libvmtools0
 libvncclient0
@@ -881,10 +884,10 @@ libwayland-server0
 libwbclient0
 libwebp5
 libwebrtc_audio_processing0
-libwicked-0-5
-libwpd-0_9-9
-libwpg-0_2-2
-libwps-0_2-2
+libwicked-0-6
+libwpd-0_10-10
+libwpg-0_3-3
+libwps-0_3-3
 libwrap0
 libx86-1
 libx86emu1
@@ -1162,6 +1165,12 @@ python-smbc
 python-smbios
 python-solv
 python-xml
+python3
+python3-base
+python3-gobject
+python3-gobject-cairo
+python3-pip
+python3-setuptools
 qt4-qtscript
 quota
 rcc-runtime
@@ -1255,6 +1264,9 @@ util-linux
 vaapi-intel-driver
 vcdimager
 vim
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vorbis-tools
 vpnc
 wallpaper-branding-openSUSE

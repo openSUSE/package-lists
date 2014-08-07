@@ -37,6 +37,8 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
+abiword
+abiword-docs
 accountsservice
 acl
 acpica
@@ -122,7 +124,6 @@ bash
 bash-completion
 bash-doc
 bc
-beaver
 bijiben
 bin86
 bind
@@ -399,6 +400,8 @@ gdl-lang
 gdm
 gdm-branding-openSUSE
 gdmflexiserver
+geany
+geany-lang
 gedit
 gegl-0_2
 genisoimage
@@ -517,6 +520,7 @@ gnucash
 gnucash-lang
 gnuchess
 goffice-0_8-lang
+goffice-lang
 google-droid-fonts
 google-opensans-fonts
 gpart
@@ -546,7 +550,6 @@ grub2-snapper-plugin
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsf-office-thumbnailer
-gsl
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-libnice
@@ -934,7 +937,8 @@ libXvMC1
 libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
-libabw-0_0-0
+libabiword-3_0
+libabw-0_1-1
 libaccountsservice0
 libacl1
 libadns1
@@ -1052,7 +1056,7 @@ libcdda_paranoia0
 libcdio14
 libcdio_cdda1
 libcdio_paranoia1
-libcdr-0_0-0
+libcdr-0_1-1
 libcelt0-2
 libcelt051-0
 libcfitsio2
@@ -1100,7 +1104,7 @@ libdcerpc0
 libdconf1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-4
+libdirectfb-1_7-5
 libdiscid0
 libdjvulibre21
 libdmapsharing-3_0-2
@@ -1118,7 +1122,7 @@ libdv4
 libdvdnav4
 libdvdread4
 libdw1
-libe-book-0_0-0
+libe-book-0_1-1
 libebackend-1_2-7
 libebook-1_2-14
 libebook-contacts-1_2-0
@@ -1136,7 +1140,7 @@ libepub0
 liberation-fonts
 libesd0
 libesmtp
-libetonyek-0_0-0
+libetonyek-0_1-1
 libetpan17
 libevdev2
 libevdocument3-4
@@ -1175,7 +1179,7 @@ libfolks25
 libfontenc1
 libfprint0
 libfreebl3
-libfreehand-0_0-0
+libfreehand-0_1-1
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
@@ -1254,6 +1258,7 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
+libgoffice-0_10-10
 libgoffice-0_8-8
 libgomp1
 libgooglepinyin0
@@ -1271,6 +1276,7 @@ libgrilo-0_2-1
 libgrlnet-0_2-0
 libgrlpls-0_2-0
 libgsf-1-114
+libgsl0
 libgsm1
 libgssdp-1_0-3
 libgssglue1
@@ -1278,13 +1284,15 @@ libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstbadbase-1_0-0
+libgstbadvideo-1_0-0
 libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
 libgstbasevideo-0_10-23
 libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
-libgstegl-1_0-0
 libgstfft-1_0-0
+libgstgl-1_0-0
 libgstinterfaces-0_10-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
@@ -1344,8 +1352,8 @@ libhyphen0
 libibus-1_0-5
 libical1
 libicu-devel
-libicu52_1
-libicu52_1-data
+libicu53_1
+libicu53_1-data
 libidn11
 libieee1284
 libimobiledevice4
@@ -1364,7 +1372,7 @@ libisofs6
 libiterm1
 libitm1
 libiw30
-libixion-0_6-0
+libixion-0_8-0
 libjack0
 libjasper1
 libjavascriptcoregtk-1_0-0
@@ -1420,6 +1428,7 @@ libktorrent5
 libkvkontakte1
 liblangtag1
 liblapack3
+liblasem-0_4-4
 liblastfm1
 liblcms1
 liblcms2-2
@@ -1467,14 +1476,14 @@ libmpcdec5
 libmpfr4
 libmsn0_3
 libmspack0
-libmspub-0_0-0
+libmspub-0_1-1
 libmtdev1
 libmtp9
 libmusicbrainz3-6
 libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
-libmwaw-0_2-2
+libmwaw-0_3-3
 libmygpo-qt1
 libmysqlclient18
 libmysqlcppconn6
@@ -1509,7 +1518,7 @@ libnova-0_15-0
 libnsssharedhelper0
 libntfs-3g85
 liboauth0
-libodfgen-0_0-0
+libodfgen-0_1-1
 libofa0
 libofx
 libofx6
@@ -1531,7 +1540,7 @@ libopensync-plugin-moto
 libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
-liborcus-0_6-0
+liborcus-0_8-0
 libortp9
 libosinfo
 libosinfo-1_0-0
@@ -1674,6 +1683,8 @@ libreoffice-templates-ru
 libreoffice-writer
 libreoffice-writer-extensions
 librest0
+librevenge-0_0-0
+librevenge-stream-0_0-0
 librsvg-2-2
 librsync1
 libruby2_1
@@ -1801,7 +1812,7 @@ libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
 libvigraimpex5
-libvisio-0_0-0
+libvisio-0_1-1
 libvisual
 libvmtools0
 libvncclient0
@@ -1824,15 +1835,16 @@ libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebp5
 libwebrtc_audio_processing0
-libwicked-0-5
+libwicked-0-6
 libwmf-0_2-7
 libwnck-1-22
 libwnck-3-0
 libwnck-lang
-libwpd-0_9-9
-libwpg-0_2-2
-libwps-0_2-2
+libwpd-0_10-10
+libwpg-0_3-3
+libwps-0_3-3
 libwrap0
+libwv-1_2-3
 libwx_baseu-2_8-0-stl
 libwx_baseu_net-2_8-0-stl
 libwx_baseu_xml-2_8-0-stl
@@ -1931,6 +1943,7 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
+link-grammar
 linux-glibc-devel
 linuxconsoletools
 lirc
@@ -2078,6 +2091,7 @@ openSUSE-release-dvd-promo
 openSUSE-xfce-icon-theme
 openal-soft
 openbox
+openbox-adwaita-ob-theme
 opencc-data
 openldap2
 openldap2-client
@@ -2243,7 +2257,6 @@ perl-HTML-SimpleParse
 perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Tidy
-perl-HTML-TokeParser-Simple
 perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-Daemon
@@ -2284,17 +2297,14 @@ perl-RPC-XML
 perl-Readonly
 perl-SQL-Statement
 perl-Socket6
-perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
-perl-Test-Fatal
 perl-Text-Wrapper
 perl-Tie-IxHash
 perl-TimeDate
-perl-Try-Tiny
 perl-Types-Serialiser
 perl-URI
 perl-Unix-Syslog
@@ -2431,6 +2441,7 @@ python-smbc
 python-smbios
 python-solv
 python-urlgrabber
+python-virtualbox
 python-xml
 python-yum
 python3
@@ -2736,6 +2747,8 @@ util-linux
 vaapi-intel-driver
 vacation
 valgrind
+vboxgtk
+vboxgtk-lang
 vcdimager
 viewnior
 viewnior-lang
@@ -2745,6 +2758,14 @@ vim-data
 vinagre
 vinagre-lang
 vino
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 vlan
 vorbis-tools
 vpnc
@@ -2782,6 +2803,7 @@ xdg-user-dirs-gtk
 xdg-utils
 xdm
 xdmbgrd
+xdotool
 xextproto-devel
 xf86-input-evdev
 xf86-input-joystick
@@ -2836,6 +2858,7 @@ xfce4-panel-plugin-brightness
 xfce4-panel-plugin-mixer
 xfce4-panel-plugin-notes
 xfce4-panel-plugin-notes-lang
+xfce4-panel-plugin-xfce4battery
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager

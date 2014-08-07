@@ -49,6 +49,8 @@ SuSEfirewall2
 a2ps
 aaa_base
 aaa_base-extras
+abiword
+abiword-docs
 accountsservice
 acl
 acpica
@@ -175,7 +177,6 @@ bc
 bcel
 bea-stax
 bea-stax-api
-beaver
 bijiben
 bin86
 bind
@@ -516,6 +517,8 @@ gdl-lang
 gdm
 gdm-branding-openSUSE
 gdmflexiserver
+geany
+geany-lang
 gedit
 gedit-plugin-zeitgeist
 gegl-0_2
@@ -705,7 +708,6 @@ gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
 gsf-office-thumbnailer
 gsf-sharp
-gsl
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-devel
@@ -1253,7 +1255,8 @@ libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
 libXxf86vm1-32bit
-libabw-0_0-0
+libabiword-3_0
+libabw-0_1-1
 libaccountsservice0
 libacl1
 libacl1-32bit
@@ -1398,7 +1401,7 @@ libcdda_paranoia0
 libcdio14
 libcdio_cdda1
 libcdio_paranoia1
-libcdr-0_0-0
+libcdr-0_1-1
 libcelt0-2
 libcelt051-0
 libcerror1
@@ -1462,7 +1465,7 @@ libdconf1
 libdhash1
 libdialog11
 libdirac_encoder0
-libdirectfb-1_7-4
+libdirectfb-1_7-5
 libdiscid0
 libdjvulibre21
 libdmapsharing-3_0-2
@@ -1486,7 +1489,7 @@ libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
-libe-book-0_0-0
+libe-book-0_1-1
 libebackend-1_2-7
 libebook-1_2-14
 libebook-contacts-1_2-0
@@ -1506,7 +1509,7 @@ libepub0
 liberation-fonts
 libesd0
 libesmtp
-libetonyek-0_0-0
+libetonyek-0_1-1
 libetpan17
 libevdev2
 libevdocument3-4
@@ -1555,7 +1558,7 @@ libfprint0
 libfprint0-32bit
 libfreebl3
 libfreebl3-32bit
-libfreehand-0_0-0
+libfreehand-0_1-1
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
@@ -1682,6 +1685,7 @@ libgrlnet-0_2-0
 libgrlpls-0_2-0
 libgsf-1-114
 libgsf-devel
+libgsl0
 libgsm1
 libgssdp-1_0-3
 libgssglue1
@@ -1689,13 +1693,15 @@ libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstbadbase-1_0-0
+libgstbadvideo-1_0-0
 libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
 libgstbasevideo-0_10-23
 libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
-libgstegl-1_0-0
 libgstfft-1_0-0
+libgstgl-1_0-0
 libgstinterfaces-0_10-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
@@ -1763,8 +1769,8 @@ libibus-1_0-5
 libical-devel
 libical1
 libicu-devel
-libicu52_1
-libicu52_1-data
+libicu53_1
+libicu53_1-data
 libidn-devel
 libidn11
 libieee1284
@@ -1788,7 +1794,7 @@ libisofs6
 libiterm1
 libitm1
 libiw30
-libixion-0_6-0
+libixion-0_8-0
 libjack0
 libjasper-devel
 libjasper1
@@ -1921,7 +1927,7 @@ libmpcdec5
 libmpfr4
 libmsn0_3
 libmspack0
-libmspub-0_0-0
+libmspub-0_1-1
 libmtdev1
 libmtp-devel
 libmtp9
@@ -1929,7 +1935,7 @@ libmusicbrainz3-6
 libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
-libmwaw-0_2-2
+libmwaw-0_3-3
 libmxml1
 libmygpo-qt1
 libmysqlclient-devel
@@ -1980,7 +1986,7 @@ libntfs-3g85
 libnuma1
 liboauth-devel
 liboauth0
-libodfgen-0_0-0
+libodfgen-0_1-1
 libofa0
 libofx
 libofx6
@@ -2007,7 +2013,7 @@ libopensync-plugin-moto
 libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
-liborcus-0_6-0
+liborcus-0_8-0
 libortp9
 libosinfo
 libosinfo-1_0-0
@@ -2201,6 +2207,8 @@ libreoffice-templates-ru
 libreoffice-writer
 libreoffice-writer-extensions
 librest0
+librevenge-0_0-0
+librevenge-stream-0_0-0
 librsvg-2-2
 librsvg-devel
 librsync1
@@ -2386,7 +2394,7 @@ libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
 libvirt-python
-libvisio-0_0-0
+libvisio-0_1-1
 libvisual
 libvmtools0
 libvncclient0
@@ -2420,17 +2428,18 @@ libwebkitgtk-devel
 libwebp5
 libwebpmux1
 libwebrtc_audio_processing0
-libwicked-0-5
+libwicked-0-6
 libwmf-0_2-7
 libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck-devel
 libwnck-lang
-libwpd-0_9-9
-libwpg-0_2-2
-libwps-0_2-2
+libwpd-0_10-10
+libwpg-0_3-3
+libwps-0_3-3
 libwrap0
+libwv-1_2-3
 libwv2-4
 libwx_baseu-2_8-0-stl
 libwx_baseu_net-2_8-0-stl
@@ -2488,7 +2497,7 @@ libxcb1-32bit
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4ui-1-0
-libxfce4ui-branding-upstream
+libxfce4ui-branding-openSUSE
 libxfce4ui-lang
 libxfce4ui-tools
 libxfce4util-lang
@@ -2560,6 +2569,7 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
+link-grammar
 linux-glibc-devel
 linux32
 linuxconsoletools
@@ -2753,6 +2763,7 @@ openSUSE-release-dvd-biarch
 openSUSE-xfce-icon-theme
 openal-soft
 openbox
+openbox-adwaita-ob-theme
 opencc-data
 openexr-devel
 openjade
@@ -2966,7 +2977,6 @@ perl-HTML-SimpleParse
 perl-HTML-TableExtract
 perl-HTML-Tagset
 perl-HTML-Tidy
-perl-HTML-TokeParser-Simple
 perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-Daemon
@@ -3007,18 +3017,15 @@ perl-RPC-XML
 perl-Readonly
 perl-SQL-Statement
 perl-Socket6
-perl-Sub-Override
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
-perl-Test-Fatal
 perl-Text-Wrapper
 perl-Tie-IxHash
 perl-Time-Duration
 perl-TimeDate
-perl-Try-Tiny
 perl-Types-Serialiser
 perl-URI
 perl-Unix-Syslog
@@ -3203,6 +3210,7 @@ python-smbios
 python-solv
 python-tk
 python-urlgrabber
+python-virtualbox
 python-xdg
 python-xml
 python-yum
@@ -5739,6 +5747,8 @@ vaapi-intel-driver
 vacation
 vala
 valgrind
+vboxgtk
+vboxgtk-lang
 vcdimager
 videoproto-devel
 viewnior
@@ -5753,6 +5763,14 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 vlan
 vm-install
 vorbis-tools
@@ -5798,6 +5816,7 @@ xdg-user-dirs-gtk
 xdg-utils
 xdm
 xdmbgrd
+xdotool
 xen
 xen-doc-html
 xen-kmp-default
@@ -5861,6 +5880,7 @@ xfce4-panel-plugin-brightness
 xfce4-panel-plugin-mixer
 xfce4-panel-plugin-notes
 xfce4-panel-plugin-notes-lang
+xfce4-panel-plugin-xfce4battery
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager
@@ -5900,8 +5920,9 @@ xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver10
+xml-commons-resolver12
 xml-commons-which10
+xml-group-manager
 xml2po
 xml2po-devel
 xmlbeans
