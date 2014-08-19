@@ -3,6 +3,9 @@
 . ./options
 export LC_ALL=C
 
+if [ -n "$1" ]; then
+	export proj="$1"
+fi
 if ! test -e osc-plugin-factory/bs_mirrorfull; then
 	echo "please check out osc-plugin-factory here!" >&2
 	exit 1
