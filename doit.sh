@@ -8,7 +8,7 @@ if ! test -e osc-plugin-factory/bs_mirrorfull; then
 	exit 1
 fi
 
-grep -v openSUSE-release osc/openSUSE:Factory/_product/NON_FTP_PACKAGES.group | grep 'package name=' | \
+grep -v openSUSE-release osc/openSUSE:$proj/_product/NON_FTP_PACKAGES.group | grep 'package name=' | \
    sed -e 's,.*package name=",job lock name ,; s,"/>,,' > opensuse/non_ftp_packages
 
 for arch in i586 x86_64; do
@@ -19,42 +19,42 @@ for arch in i586 x86_64; do
    # installcheck $arch trees/openSUSE:$proj:NonFree-standard-$arch.solv | grep "nothing provides" | \
 #	sed -e 's,^.*nothing provides ,job install provides ,; s, needed by.*,,' | sort -u > opensuse/dvd-nonoss-deps-$arch
 
-    ./gen.pl opensuse/kde4_cd $arch
-    ./gen.pl opensuse/kde4_cd-default $arch
-    ./gen.pl opensuse/gnome_cd $arch
-    ./gen.pl opensuse/gnome_cd-default $arch 
+    ./gen.pl opensuse/kde4_cd $arch "$proj"
+    ./gen.pl opensuse/kde4_cd-default $arch "$proj"
+    ./gen.pl opensuse/gnome_cd $arch "$proj"
+    ./gen.pl opensuse/gnome_cd-default $arch "$proj"
 
     # first flash
     : > opensuse/dvd-1.$arch.suggests
-    if ./gen.pl opensuse/dvd-1 $arch; then
+    if ./gen.pl opensuse/dvd-1 $arch "$proj"; then
     
       # then readd
       mv output/opensuse/dvd-1.$arch.suggests opensuse/dvd-1.$arch.suggests
-      ./gen.pl opensuse/dvd-1 $arch
+      ./gen.pl opensuse/dvd-1 $arch "$proj"
     fi
 
-    ./gen.pl opensuse/dvd-2 $arch
-    ./gen.pl opensuse/dvd-3 $arch
-    ./gen.pl opensuse/dvd-base $arch
-    ./gen.pl opensuse/dvd9 $arch
+    ./gen.pl opensuse/dvd-2 $arch "$proj"
+    ./gen.pl opensuse/dvd-3 $arch "$proj"
+    ./gen.pl opensuse/dvd-base $arch "$proj"
+    ./gen.pl opensuse/dvd9 $arch "$proj"
 
     cat output/opensuse/dvd-1.$arch.list output/opensuse/dvd-2.$arch.list output/opensuse/dvd-3.$arch.list output/opensuse/dvd-base.$arch.list | LC_ALL=C sort -u > output/opensuse/dvd-$arch.list
     cat output/opensuse/dvd-$arch.list output/opensuse/dvd9.$arch.list | LC_ALL=C sort -u > output/opensuse/dvd9-$arch.list
 
-    ./gen.pl opensuse/kde4_cd-base-default $arch
-    ./gen.pl opensuse/kde4_cd-unstable $arch
-    ./gen.pl opensuse/gnome_cd-nobundles $arch
-    ./gen.pl opensuse/kde4_cd-nobundles $arch
-    ./gen.pl opensuse/gnome_cd-x11-default $arch
-    ./gen.pl opensuse/x11_cd $arch
+    ./gen.pl opensuse/kde4_cd-base-default $arch "$proj"
+    ./gen.pl opensuse/kde4_cd-unstable $arch "$proj"
+    ./gen.pl opensuse/gnome_cd-nobundles $arch "$proj"
+    ./gen.pl opensuse/kde4_cd-nobundles $arch "$proj"
+    ./gen.pl opensuse/gnome_cd-x11-default $arch "$proj"
+    ./gen.pl opensuse/x11_cd $arch "$proj"
 
     dumpsolv trees/openSUSE:$proj:NonFree-standard-$arch.solv | grep solvable:name: | sed -e 's,.*: ,,' | sort > output/opensuse/nonoss.$arch.list
-    echo "repo nonfree-standard-$arch 0 solv trees/openSUSE:Factory:NonFree-standard-$arch.solv" >  opensuse/dvd-nonoss
+    echo "repo nonfree-standard-$arch 0 solv trees/openSUSE:$proj:NonFree-standard-$arch.solv" >  opensuse/dvd-nonoss
     echo '#INCLUDE dvd-1' >>  opensuse/dvd-nonoss
     for pkg in $(grep -v openSUSE output/opensuse/nonoss.$arch.list); do 
       echo "job install name $pkg" >> opensuse/dvd-nonoss
     done
-    if ./gen.pl opensuse/dvd-nonoss $arch; then
+    if ./gen.pl opensuse/dvd-nonoss $arch "$proj"; then
       ( diff output/opensuse/dvd-1.$arch.list output/opensuse/dvd-nonoss.$arch.list | grep '^>' | cut '-d ' -f2 ;
         cat output/opensuse/nonoss.$arch.list ) | sort | uniq -u  > output/opensuse/nonoss.deps.$arch.list
     fi
@@ -69,8 +69,8 @@ for arch in i586 x86_64; do
     diff -u output/opensuse/kde4_cd.$arch.list output/opensuse/kde4_cd-default.$arch.list | grep -v +++ | grep ^+
     diff -u output/opensuse/gnome_cd.$arch.list output/opensuse/gnome_cd-default.$arch.list | grep -v +++ | grep ^+
     
-    ./gen.pl opensuse/promo_dvd $arch
-    ./gen.pl opensuse/dvd-addon_lang $arch
+    ./gen.pl opensuse/promo_dvd $arch "$proj"
+    ./gen.pl opensuse/dvd-addon_lang $arch "$proj"
 
 done
 
