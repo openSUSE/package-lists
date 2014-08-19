@@ -21,7 +21,7 @@ mkdir($repodir);
 my $tdir = tempdir();
 my $pfile = "$tdir/packages";    # the filename is important ;(
 
-system(
+die "bs_mirror of $project/$repo/$arch failed" if system(
     "osc-plugin-factory/bs_mirrorfull --nodebug https://build.opensuse.org/build/$project/$repo/$arch/ $repodir"
   );
 
