@@ -1,12 +1,24 @@
-#!/bin/sh
+#!/bin/bash
 
+set -e
 . ./options
 export LC_ALL=C
 
 if [ -n "$1" ]; then
 	export proj="$1"
 fi
-if ! test -e osc-plugin-factory/bs_mirrorfull; then
+
+echo "generate dvds for $proj at "
+date
+
+if [ ! -e osc/openSUSE\:$proj/_product/.osc ]; then
+	mkdir -p osc
+	cd osc
+	osc co openSUSE:$proj _product
+	cd -
+fi
+
+if [ ! -e osc-plugin-factory/bs_mirrorfull ]; then
 	echo "please check out osc-plugin-factory here!" >&2
 	exit 1
 fi
@@ -74,8 +86,8 @@ for arch in i586 x86_64; do
 	grep -v patterns-openSUSE $file > t && mv t $file
     done
 
-    diff -u output/opensuse/kde4_cd.$arch.list output/opensuse/kde4_cd-default.$arch.list | grep -v +++ | grep ^+
-    diff -u output/opensuse/gnome_cd.$arch.list output/opensuse/gnome_cd-default.$arch.list | grep -v +++ | grep ^+
+    diff -u output/opensuse/kde4_cd.$arch.list output/opensuse/kde4_cd-default.$arch.list | grep -v +++ | grep ^+ || true
+    diff -u output/opensuse/gnome_cd.$arch.list output/opensuse/gnome_cd-default.$arch.list | grep -v +++ | grep ^+ || true
     
     ./gen.pl opensuse/promo_dvd $arch "$proj"
     ./gen.pl opensuse/dvd-addon_lang $arch "$proj"
