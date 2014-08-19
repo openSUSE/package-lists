@@ -3,6 +3,11 @@
 . ./options
 export LC_ALL=C
 
+if ! test -e osc-plugin-factory/bs_mirrorfull; then
+	echo "please check out osc-plugin-factory here!" >&2
+	exit 1
+fi
+
 grep -v openSUSE-release osc/openSUSE:Factory/_product/NON_FTP_PACKAGES.group | grep 'package name=' | \
    sed -e 's,.*package name=",job lock name ,; s,"/>,,' > opensuse/non_ftp_packages
 
