@@ -16,6 +16,11 @@ for arch in i586 x86_64; do
     perl create_solv.pl openSUSE:$proj standard $arch
     perl create_solv.pl openSUSE:$proj:NonFree standard $arch
 
+    ./dump_supplements \
+	    trees/openSUSE:$proj-standard-$arch.solv \
+	    trees/openSUSE:$proj:NonFree-standard-$arch.solv \
+	    > opensuse/all-supplements
+
    # installcheck $arch trees/openSUSE:$proj:NonFree-standard-$arch.solv | grep "nothing provides" | \
 #	sed -e 's,^.*nothing provides ,job install provides ,; s, needed by.*,,' | sort -u > opensuse/dvd-nonoss-deps-$arch
 
