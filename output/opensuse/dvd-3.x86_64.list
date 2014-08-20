@@ -17,6 +17,7 @@ boost-license1_54_0
 branding-openSUSE
 btrfsprogs
 bundle-lang-common-en
+bundle-lang-gnome-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -25,7 +26,7 @@ checkmedia
 coreutils
 cpio
 cracklib
-cracklib-dict-small
+cracklib-dict-full
 crda
 cron
 cronie
@@ -45,7 +46,6 @@ diffutils
 dirmngr
 dmraid
 dracut
-e2fsprogs
 efibootmgr
 elfutils
 ethtool
@@ -155,13 +155,10 @@ libgpg-error0
 libgudev-1_0-0
 libhavege1
 libhogweed2
-libicu53_1
-libicu53_1-data
 libidn11
 libimobiledevice4
 libiptc0
 libiw30
-libjavascriptcoregtk-3_0-0
 libkeyutils1
 libkmod2
 libksba8
@@ -194,9 +191,8 @@ libpolkit0
 libpopt0
 libprocps3
 libproxy1
-libproxy1-config-gnome3
-libproxy1-pacrunner-webkit
 libpth20
+libpwquality1
 libpython2_7-1_0
 libqrencode3
 libreadline6

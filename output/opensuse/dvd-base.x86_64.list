@@ -15,7 +15,8 @@ binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
-bundle-lang-common-ca
+bundle-lang-common-it
+bundle-lang-gnome-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -23,7 +24,7 @@ checkmedia
 coreutils
 cpio
 cracklib
-cracklib-dict-small
+cracklib-dict-full
 crda
 cron
 cronie
@@ -41,7 +42,6 @@ diffutils
 dirmngr
 dmraid
 dracut
-e2fsprogs
 efibootmgr
 elfutils
 ethtool
@@ -179,6 +179,7 @@ libpopt0
 libprocps3
 libproxy1
 libpth20
+libpwquality1
 libpython2_7-1_0
 libqrencode3
 libreadline6

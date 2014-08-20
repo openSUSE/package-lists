@@ -410,6 +410,7 @@ enblend-enfuse
 enchant-devel
 enscript
 eog
+esound-daemon
 espeak
 etags
 ethtool
@@ -899,6 +900,7 @@ java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_7_0-openjdk
 java-1_7_0-openjdk-headless
+java-1_7_0-openjdk-plugin
 javapackages-tools
 jdepend
 jfsutils
@@ -1426,7 +1428,7 @@ libcnotify1
 libcogl-pango20
 libcogl20
 libcolamd-2_8_0
-libcollection2
+libcollection4
 libcolord-gtk1
 libcolord2
 libcolord2-32bit
@@ -1779,7 +1781,7 @@ libimobiledevice4
 libindi
 libindi0
 libindidriver0
-libini_config3
+libini_config5
 libiniparser0
 libiniparser0-32bit
 libinput-devel
@@ -2145,6 +2147,7 @@ libqt5-qtbase-common-devel
 libqt5-qtbase-devel
 libqt5-qtbase-doc
 libqt5-qtdeclarative-devel
+libqt5-qtdeclarative-tools
 libqt5-qtimageformats
 libqt5-qtsvg-devel
 libqt5-qttools
@@ -2293,6 +2296,7 @@ libsqlite3-0-32bit
 libssh2-1
 libssh4
 libsss_idmap0
+libsss_nss_idmap0
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++48-devel
@@ -3131,7 +3135,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -5791,6 +5794,7 @@ wicked-service
 wireless-regdb
 wireless-tools
 wireshark
+wireshark-ui-gtk
 wodim
 wol
 words
@@ -5876,7 +5880,6 @@ xfce4-notifyd-lang
 xfce4-panel
 xfce4-panel-branding-openSUSE
 xfce4-panel-lang
-xfce4-panel-plugin-brightness
 xfce4-panel-plugin-mixer
 xfce4-panel-plugin-notes
 xfce4-panel-plugin-notes-lang
