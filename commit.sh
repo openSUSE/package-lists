@@ -21,9 +21,7 @@ test -d osc/openSUSE:$proj/_product || ( cd osc; osc co openSUSE:$proj/_product 
 ./mk_group.sh output/opensuse/nonoss.deps.list Addon-NonOss-Deps osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps.group
 ./mk_group.sh output/opensuse/nonoss.deps-x86_64.list Addon-NonOss-Deps-x86_64 osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps-x86_64.group only_x86_64
 
-( cd osc/openSUSE:$proj/_product/ && osc ci -m "auto update" > /dev/null )
-
-test -d osc/openSUSE:$proj:Live || (cd osc; osc co openSUSE:$proj:Live)
+test -d osc/openSUSE:$proj:Live || (cd osc; osc co -e openSUSE:$proj:Live)
 
 osc -q up -u osc/openSUSE:$proj:Live/package-lists-images.*  > /dev/null
 cp -a output/opensuse/*default.i586.list osc/openSUSE:$proj:Live/package-lists-images.i586
@@ -41,5 +39,6 @@ osc -q up -u osc/openSUSE:$proj:Live/package-lists-x11.* > /dev/null
 cp -a output/opensuse/x11_cd.i586.list osc/openSUSE:$proj:Live/package-lists-x11.i586/packagelist
 cp -a output/opensuse/x11_cd.x86_64.list osc/openSUSE:$proj:Live/package-lists-x11.x86_64/packagelist
 
-osc -q ci -m "auto update" osc/openSUSE:$proj:Live/package-lists-* | grep -v nothing
 
+( cd osc/openSUSE:$proj/_product/ && osc ci -m "auto update" > /dev/null )
+osc -q ci -m "auto update" osc/openSUSE:$proj:Live/package-lists-* | grep -v nothing

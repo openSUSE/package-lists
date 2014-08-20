@@ -4,9 +4,9 @@ git pull
 
 . ./options
 
-(cd osc/openSUSE\:Factory/_product/ && osc up)
-osc api "/build/openSUSE:$proj/_result?package=bash&repository=standard" > /tmp/state
-if grep -q 'dirty="true"' /tmp/state || grep -q 'state="building"' /tmp/state; then
+(cd osc/openSUSE\:$proj/_product/ && osc up)
+osc api "/build/openSUSE:$proj/_result?package=bash&repository=standard" > "$proj.state"
+if grep -q 'dirty="true"' "$proj.state" || grep -q 'state="building"' "$proj.state"; then
    echo "standard still dirty"
    if test -z "$FORCE"; then
      exit 0

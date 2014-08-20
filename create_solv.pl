@@ -7,7 +7,7 @@ BEGIN {
     ($script_dir) = $0 =~ m-(.*)/-;
     $script_dir ||= '.';
     unshift @INC, $script_dir;
-    unshift @INC, "/suse/coolo/prod/osc-plugin-factory/";
+    unshift @INC, "osc-plugin-factory/";
 }
 
 require CreatePackageDescr;
@@ -21,9 +21,11 @@ mkdir($repodir);
 my $tdir = tempdir();
 my $pfile = "$tdir/packages";    # the filename is important ;(
 
-system(
-    "/suse/coolo/prod/osc-plugin-factory/bs_mirrorfull --nodebug https://build.opensuse.org/build/$project/$repo/$arch/ $repodir"
-  );
+unless ($ENV{'NO_BSMIRROR'}) {
+    die "bs_mirror of $project/$repo/$arch failed" if system(
+	"osc-plugin-factory/bs_mirrorfull --nodebug https://build.opensuse.org/build/$project/$repo/$arch/ $repodir"
+    );
+}
 
 my @rpms = glob("$repodir/*.rpm");
 
