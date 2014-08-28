@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-32bit
 GeoIP
+IPython
 ImageMagick
 ImageMagick-devel
 Mesa
@@ -677,6 +678,7 @@ gobject-introspection
 gobject-introspection-devel
 goffice-0_8-lang
 goffice-lang
+google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
 gpart
@@ -901,6 +903,9 @@ java-1_5_0-gcj-compat-devel
 java-1_7_0-openjdk
 java-1_7_0-openjdk-headless
 java-1_7_0-openjdk-plugin
+java-1_8_0-openjdk
+java-1_8_0-openjdk-headless
+java-1_8_0-openjdk-plugin
 javapackages-tools
 jdepend
 jfsutils
@@ -918,6 +923,7 @@ kanagram
 kapptemplate
 kasumi
 kate
+kate-python-plugins
 kbd
 kbproto-devel
 kbruch
@@ -960,14 +966,16 @@ kde4-l10n-zh_CN
 kde4-l10n-zh_TW
 kde4-print-manager
 kdeartwork4-screensaver
+kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
+kdebase4-wallpaper-default
 kdebase4-workspace
-kdebase4-workspace-branding-openSUSE
+kdebase4-workspace-branding-upstream
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
@@ -988,8 +996,6 @@ kdevelop4-lang
 kdevplatform
 kdevplatform-lang
 kdialog
-kdm
-kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -1407,6 +1413,7 @@ libcdr-0_1-1
 libcelt0-2
 libcelt051-0
 libcerror1
+libcfile1
 libcfitsio2
 libchamplain-0_12-0
 libcheese-common
@@ -2181,7 +2188,6 @@ libreoffice-calc-extensions
 libreoffice-draw
 libreoffice-filters-optional
 libreoffice-gnome
-libreoffice-icon-theme-crystal
 libreoffice-icon-theme-galaxy
 libreoffice-icon-theme-hicontrast
 libreoffice-icon-theme-oxygen
@@ -2247,6 +2253,7 @@ libsigsegv2
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslang2
+libsmartcols1
 libsmbclient-devel
 libsmbclient-raw0
 libsmbclient-raw0-32bit
@@ -2355,7 +2362,8 @@ libumfpack-5_6_2
 libuna1
 libunique-1_0-0
 libunistring0
-libupower-glib2
+libupnp6
+libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-0-32bit
@@ -2451,8 +2459,12 @@ libwx_baseu_xml-2_8-0-stl
 libwx_gtk2u_adv-2_8-0-stl
 libwx_gtk2u_aui-2_8-0-stl
 libwx_gtk2u_core-2_8-0-stl
+libwx_gtk2u_gizmos-2_8-0-stl
 libwx_gtk2u_gl-2_8-0-stl
 libwx_gtk2u_html-2_8-0-stl
+libwx_gtk2u_media-2_8-0-stl
+libwx_gtk2u_richtext-2_8-0-stl
+libwx_gtk2u_stc-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
 libx86-1
 libx86emu1
@@ -2562,6 +2574,7 @@ libzhuyin5
 libzinnia0
 libzio1
 libzip2
+libzmq3
 libzvbi0
 libzypp
 libzypp-devel
@@ -2996,6 +3009,7 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
+perl-Linux-Pid
 perl-List-MoreUtils
 perl-MIME-tools
 perl-MLDBM
@@ -3150,10 +3164,15 @@ python-Babel
 python-CherryPy
 python-ClientForm
 python-Genshi
+python-Jinja2
+python-MarkupSafe
 python-Pillow
+python-Pygments
 python-SpiceClientGtk
+python-Twisted
 python-apsw
 python-atspi
+python-backports.ssl_match_hostname
 python-base
 python-beautifulsoup
 python-boto
@@ -3169,7 +3188,9 @@ python-dateutil
 python-deltarpm
 python-devel
 python-dnspython
+python-docopt
 python-ecdsa
+python-futures
 python-gconf
 python-gobject
 python-gobject-cairo
@@ -3178,6 +3199,7 @@ python-gstreamer-0_10
 python-gtk
 python-httplib2
 python-ipaddr
+python-jedi
 python-kde4
 python-kde4-akonadi
 python-kde4-khtml
@@ -3189,6 +3211,8 @@ python-keyring
 python-libxml2
 python-lockfile
 python-lxml
+python-matplotlib
+python-matplotlib-tk
 python-mechanize
 python-netifaces
 python-numpy
@@ -3196,13 +3220,21 @@ python-odfpy
 python-opensync
 python-pam
 python-paramiko
+python-pexpect
+python-ply
 python-pyOpenSSL
 python-pybluez
 python-pycrypto
 python-pycurl
+python-pymongo
+python-pyparsing
 python-pypdf
+python-pyplete
+python-pyserial
+python-pysmell
 python-pytz
 python-pyudev
+python-pyzmq
 python-qt4
 python-setuptools
 python-simplejson
@@ -3212,11 +3244,15 @@ python-smbc
 python-smbios
 python-solv
 python-tk
+python-tornado
 python-urlgrabber
 python-virtualbox
+python-wxWidgets
+python-wxWidgets-lang
 python-xdg
 python-xml
 python-yum
+python-zope.interface
 python3
 python3-atspi
 python3-base
@@ -3381,7 +3417,6 @@ subversion-tools
 sudo
 suse-module-tools
 suse-xsl-stylesheets
-susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de
@@ -5160,6 +5195,7 @@ texlive-setdeck
 texlive-setdeck-doc
 texlive-setspace
 texlive-setspace-doc
+texlive-sfmath
 texlive-showexpl
 texlive-showexpl-doc
 texlive-showhyphens
@@ -5746,6 +5782,7 @@ usb_modeswitch
 usb_modeswitch-data
 usbutils
 util-linux
+util-linux-systemd
 vaapi-intel-driver
 vacation
 vala
@@ -5883,7 +5920,7 @@ xfce4-panel-lang
 xfce4-panel-plugin-mixer
 xfce4-panel-plugin-notes
 xfce4-panel-plugin-notes-lang
-xfce4-panel-plugin-xfce4battery
+xfce4-panel-plugin-power-manager
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager

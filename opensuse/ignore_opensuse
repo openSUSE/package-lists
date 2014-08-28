@@ -195,6 +195,8 @@ job lock name gnome-menus-legacy-branding-upstream
 job lock name PackageKit-branding-upstream
 job lock name gfxboot-branding-upstream
 job lock name midori-branding-upstream
+job lock name kdebase4-workspace-branding-upstream
+job lock name libxfce4ui-branding-upstream
 
 job lock name xfce4-settings-branding-upstream
 job lock name kdm-branding-upstream
@@ -219,6 +221,7 @@ job lock name libstdc++6-gcc49-32bit
 
 job lock name gettext-runtime-mini
 job lock name log4j-mini
+job lock name tightvnc
 
 #INCLUDE non_ftp_packages
 

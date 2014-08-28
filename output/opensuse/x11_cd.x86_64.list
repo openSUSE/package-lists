@@ -343,6 +343,7 @@ libcdio_cdda1
 libcdio_paranoia1
 libcelt0-2
 libcerror1
+libcfile1
 libclocale1
 libcloog-isl4
 libcnotify1
@@ -585,6 +586,7 @@ libsexy
 libsgutils2-2
 libsigc-2_0-0
 libslang2
+libsmartcols1
 libsmbclient-raw0
 libsmbclient0
 libsmbconf0
@@ -620,7 +622,7 @@ libudev1
 libudisks2-0
 libuna1
 libunique-1_0-0
-libupower-glib2
+libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
@@ -955,6 +957,7 @@ usb_modeswitch
 usb_modeswitch-data
 usbutils
 util-linux
+util-linux-systemd
 vaapi-intel-driver
 vim
 virtualbox-guest-kmp-desktop
@@ -1034,7 +1037,7 @@ xfce4-panel
 xfce4-panel-branding-openSUSE
 xfce4-panel-lang
 xfce4-panel-plugin-mixer
-xfce4-panel-plugin-xfce4battery
+xfce4-panel-plugin-power-manager
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xkb-lang
 xfce4-power-manager

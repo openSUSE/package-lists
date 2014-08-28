@@ -229,7 +229,6 @@ ifplugd
 info
 info2html
 initviocons
-input-utils
 insserv-compat
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -253,6 +252,7 @@ kde4-filesystem
 kde4-kgreeter-plugins
 kde4-print-manager
 kdeartwork4-screensaver
+kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
@@ -260,8 +260,9 @@ kdebase4-openSUSE-lang
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
+kdebase4-wallpaper-default
 kdebase4-workspace
-kdebase4-workspace-branding-openSUSE
+kdebase4-workspace-branding-upstream
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-libs
@@ -275,8 +276,6 @@ kdepim4
 kdepim4-runtime
 kdepimlibs4
 kdialog
-kdm
-kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 kernel-default
@@ -671,6 +670,7 @@ libopenal1
 libopencv2_4
 libopenjpeg1
 libopenssl1_0_0
+libopus0
 liborc-0_4-0
 libortp9
 libotr5
@@ -753,6 +753,7 @@ libsensors4
 libsepol1
 libsgutils2-2
 libslang2
+libsmartcols1
 libsmbclient-raw0
 libsmbclient0
 libsmbconf0
@@ -793,7 +794,8 @@ libtirpc1
 libturbojpeg0
 libudev1
 libudisks2-0
-libupower-glib2
+libupnp6
+libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
@@ -865,6 +867,7 @@ libz1
 libzio1
 libzip2
 libzypp
+linuxconsoletools
 lirc
 lirc-remotes
 lockdev
@@ -1120,7 +1123,6 @@ sox
 strace
 sudo
 suse-module-tools
-susegreeter-branding-openSUSE
 susehelp
 susehelp_en
 suspend
@@ -1170,6 +1172,7 @@ usb_modeswitch
 usb_modeswitch-data
 usbutils
 util-linux
+util-linux-systemd
 vcdimager
 vim
 vorbis-tools

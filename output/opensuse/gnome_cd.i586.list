@@ -274,6 +274,7 @@ gnome-web-photo
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gnuchess
+google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
 gpart
@@ -357,7 +358,6 @@ ibus
 ibus-gtk
 ibus-gtk3
 ibus-lang
-ibus-m17n
 icc-profiles
 icc-profiles-basiccolor-lstarrgb
 icc-profiles-basiccolor-printing2009-coat2
@@ -391,6 +391,10 @@ iw
 java-1_7_0-openjdk
 java-1_7_0-openjdk-headless
 java-1_7_0-openjdk-plugin
+java-1_8_0-openjdk
+java-1_8_0-openjdk-headless
+java-1_8_0-openjdk-plugin
+javapackages-tools
 jfsutils
 kbd
 kernel-default
@@ -781,7 +785,6 @@ liblua5_1
 liblua5_2
 liblzma5
 liblzo2-2
-libm17n0
 libmagic1
 libmbim-glib0
 libmediaart-1_0-0
@@ -848,7 +851,6 @@ libopus0
 liborc-0_4-0
 libosinfo
 libosinfo-1_0-0
-libotf0
 libp11-kit0
 libpackagekit-glib2-16
 libpango-1_0-0
@@ -952,6 +954,7 @@ libsigc-2_0-0
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslang2
+libsmartcols1
 libsmbclient-raw0
 libsmbclient0
 libsmbconf0
@@ -1012,7 +1015,7 @@ libudev1
 libudisks2-0
 libumfpack-5_6_2
 libunistring0
-libupower-glib2
+libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd2
@@ -1080,6 +1083,7 @@ libxklavier16
 libxml2-2
 libxml2-tools
 libxshmfence1
+libxslt-tools
 libxslt1
 libxtables10
 libyaml-0-2
@@ -1105,9 +1109,9 @@ lomoco
 lsb-release
 lsof
 lsscsi
+lua
 luit
 lvm2
-m17n-db
 mailx
 man
 master-boot-code
@@ -1518,6 +1522,7 @@ usb_modeswitch
 usb_modeswitch-data
 usbutils
 util-linux
+util-linux-systemd
 vaapi-intel-driver
 vim
 vino
