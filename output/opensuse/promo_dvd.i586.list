@@ -233,7 +233,6 @@ createrepo
 cron
 cronie
 cryptsetup
-cryptsetup-mkinitrd
 cups
 cups-client
 cups-filters-foomatic-rip
@@ -384,6 +383,7 @@ gcc-info
 gcc48
 gcc48-c++
 gcc48-info
+gcolor2
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -759,16 +759,14 @@ kde4-l10n-zh_CN
 kde4-l10n-zh_TW
 kde4-print-manager
 kdeartwork4-screensaver
-kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
-kdebase4-wallpaper-default
 kdebase4-workspace
-kdebase4-workspace-branding-upstream
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-libs
@@ -787,6 +785,8 @@ kdevelop4-lang
 kdevplatform
 kdevplatform-lang
 kdialog
+kdm
+kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -1972,6 +1972,7 @@ lsof
 lsscsi
 ltrace
 lua
+luasocket
 luit
 lvm2
 lxappearance
@@ -2354,7 +2355,6 @@ pigz
 pinentry
 pinentry-gtk2
 pinentry-qt4
-pixz
 pk-update-icon
 pk-update-icon-lang
 pkcs11-helper
@@ -2613,6 +2613,7 @@ subversion-server
 subversion-tools
 sudo
 suse-module-tools
+susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de

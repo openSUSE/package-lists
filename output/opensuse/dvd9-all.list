@@ -437,7 +437,6 @@ cron
 cronie
 cryptconfig
 cryptsetup
-cryptsetup-mkinitrd
 cscope
 csmash
 ctags
@@ -689,6 +688,7 @@ gcc48-java
 gcc48-locale
 gcc48-objc
 gccmakedep
+gcolor2
 gconf-editor
 gconf-editor-lang
 gconf-polkit
@@ -1291,16 +1291,14 @@ kde4-l10n-zh_TW
 kde4-print-manager
 kdeartwork4-decorations
 kdeartwork4-screensaver
-kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
-kdebase4-wallpaper-default
 kdebase4-workspace
-kdebase4-workspace-branding-upstream
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
@@ -1327,6 +1325,8 @@ kdevplatform-lang
 kdf
 kdialog
 kdiamond
+kdm
+kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -2949,6 +2949,7 @@ libxcb1
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4ui-1-0
+libxfce4ui-branding-openSUSE
 libxfce4ui-lang
 libxfce4ui-tools
 libxfce4util-lang
@@ -3049,6 +3050,7 @@ lsscsi
 ltrace
 lua
 lua-devel
+luasocket
 luit
 lvm2
 lxappearance
@@ -3836,7 +3838,6 @@ pinfo
 pinpoint
 pitivi
 pitivi-lang
-pixz
 pk-update-icon
 pk-update-icon-lang
 pkcs11-helper
@@ -4298,6 +4299,7 @@ subversion-tools
 sudo
 suse-module-tools
 suse-xsl-stylesheets
+susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de

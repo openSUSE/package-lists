@@ -391,7 +391,6 @@ createrepo
 cron
 cronie
 cryptsetup
-cryptsetup-mkinitrd
 ctags
 cups
 cups-backends
@@ -584,6 +583,7 @@ gcc48-gij
 gcc48-info
 gcc48-java
 gccmakedep
+gcolor2
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -1090,16 +1090,14 @@ kde4-l10n-zh_CN
 kde4-l10n-zh_TW
 kde4-print-manager
 kdeartwork4-screensaver
-kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
-kdebase4-wallpaper-default
 kdebase4-workspace
-kdebase4-workspace-branding-upstream
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-devel
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
@@ -1120,6 +1118,8 @@ kdevelop4-lang
 kdevplatform
 kdevplatform-lang
 kdialog
+kdm
+kdm-branding-openSUSE
 kdnssd
 kdump
 keditbookmarks
@@ -2688,6 +2688,7 @@ lsof
 lsscsi
 ltrace
 lua
+luasocket
 luit
 lvm2
 lxappearance
@@ -3196,7 +3197,6 @@ pigz
 pinentry
 pinentry-gtk2
 pinentry-qt4
-pixz
 pk-update-icon
 pk-update-icon-lang
 pkcs11-helper
@@ -3493,6 +3493,7 @@ subversion-tools
 sudo
 suse-module-tools
 suse-xsl-stylesheets
+susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de
@@ -3951,7 +3952,7 @@ xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver12
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

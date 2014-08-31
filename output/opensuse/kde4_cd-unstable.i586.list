@@ -93,7 +93,6 @@ crda
 cron
 cronie
 cryptsetup
-cryptsetup-mkinitrd
 cups
 cups-client
 cups-filters-foomatic-rip
@@ -252,7 +251,6 @@ kde4-filesystem
 kde4-kgreeter-plugins
 kde4-print-manager
 kdeartwork4-screensaver
-kdebase4-artwork
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
@@ -260,9 +258,8 @@ kdebase4-openSUSE-lang
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
-kdebase4-wallpaper-default
 kdebase4-workspace
-kdebase4-workspace-branding-upstream
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-libs
@@ -276,6 +273,8 @@ kdepim4
 kdepim4-runtime
 kdepimlibs4
 kdialog
+kdm
+kdm-branding-openSUSE
 kdnssd
 keditbookmarks
 kernel-default
@@ -1032,7 +1031,6 @@ phonon-backend-gstreamer
 pigz
 pinentry
 pinentry-qt4
-pixz
 pkcs11-helper
 pkg-config
 plasma-addons
@@ -1123,6 +1121,7 @@ sox
 strace
 sudo
 suse-module-tools
+susegreeter-branding-openSUSE
 susehelp
 susehelp_en
 suspend

@@ -15,8 +15,8 @@ binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
-bundle-lang-common-ar
-bundle-lang-gnome-it
+bundle-lang-common-fr
+bundle-lang-gnome-pl
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -29,7 +29,6 @@ crda
 cron
 cronie
 cryptsetup
-cryptsetup-mkinitrd
 curl
 dbus-1
 dbus-1-glib
@@ -75,6 +74,7 @@ hwinfo
 info
 initviocons
 insserv-compat
+iproute2
 iptables
 iputils
 joe
@@ -100,7 +100,6 @@ libacl1
 libadns1
 libaio1
 libapparmor1
-libarchive13
 libasm1
 libassuan0
 libattr1
@@ -282,7 +281,6 @@ perl-gettext
 permissions
 pigz
 pinentry
-pixz
 pkg-config
 pm-utils
 polkit
