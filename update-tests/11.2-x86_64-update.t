@@ -1,11 +1,14 @@
-repo @System 0 helix 11.2-x86_64-system.xml.gz
-repo factory 0 helix full-x86_64/1-package.xml
-repo nonoss 0 helix full-nf-x86_64/1-package.xml
+repo @System 0 testtags 11.2-x86_64-system.repo.gz
+
+repo factory 0 solv ../trees/openSUSE:Factory-standard-x86_64.solv
+repo nonoss 0 solv ../trees/openSUSE:Factory:NonFree-standard-x86_64.solv
+
 system x86_64 rpm @System
+
 namespace namespace:language(de_DE) @SYSTEM
 namespace namespace:language(de) @SYSTEM
-namespace namespace:language(de) @SYSTEM
-job install name product:openSUSE-fulltree
+
+# DROPS
 job erase name amavisd-new
 job erase name kernel-default-base
 job erase name kernel-debug-base

@@ -1,11 +1,13 @@
-repo @System 0 helix 11.4-x86_64-system.xml.gz
-repo factory 0 helix full-x86_64/1-package.xml
-repo nonoss 0 helix full-nf-x86_64/1-package.xml
+repo @System 0 testtags 11.4-x86_64-system.repo.gz
+
+repo factory 0 solv ../trees/openSUSE:Factory-standard-x86_64.solv
+repo nonoss 0 solv ../trees/openSUSE:Factory:NonFree-standard-x86_64.solv
+
 system x86_64 rpm @System
+
 namespace namespace:language(de_DE) @SYSTEM
 namespace namespace:language(de) @SYSTEM
-namespace namespace:language(de) @SYSTEM
-job install name product:openSUSE-fulltree
+
 job erase name kernel-default-base
 job erase name kernel-debug-base
 job erase name kernel-trace-base
@@ -29,4 +31,6 @@ job erase name libdb_java-4_5
 job erase name libdb_java-4_5-devel
 job erase name lucene-contrib-db
 job erase name python-managesieve
+
+# DROPS
 job distupgrade all packages

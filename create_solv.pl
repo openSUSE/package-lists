@@ -36,6 +36,6 @@ foreach my $package (@rpms) {
 }
 close(PACKAGES);
 
-system("susetags2solv < $pfile > trees/$project-$repo-$arch.solv");
+system("susetags2solv -X < $pfile > trees/$project-$repo-$arch.solv");
 unlink($pfile);
 rmdir(dirname($pfile));

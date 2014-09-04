@@ -1,11 +1,14 @@
-repo @System 0 helix 12.3-x86_64-system.xml.gz
-repo factory 0 helix full-x86_64/1-package.xml
-repo nonoss 0 helix full-nf-x86_64/1-package.xml
+repo @System 0 testtags 12.3-x86_64-system.repo
+
+repo factory 0 solv ../trees/openSUSE:Factory-standard-x86_64.solv
+repo nonoss 0 solv ../trees/openSUSE:Factory:NonFree-standard-x86_64.solv
+
 system x86_64 rpm @System
+
 namespace namespace:language(de_DE) @SYSTEM
 namespace namespace:language(de) @SYSTEM
-namespace namespace:language(de) @SYSTEM
-job install name product:openSUSE-fulltree
+
+# DROPS
 job erase name libdb-4_5-devel
 job erase name libdb-4_5-devel-32bit
 job erase name libdb_java-4_5
@@ -23,7 +26,6 @@ job erase name firebird-classic
 job erase name ht
 job erase name libreoffice-kde
 job erase name libreoffice-kde4
-job erase name satsolver-tools-obsolete
 job erase name libsatsolver-devel
 job erase name libsatsolver-demo
 job erase name java-cup-bootstrap
@@ -42,4 +44,5 @@ job erase name libwx_gtk2u_core-2_8-0-compat-lib-stl
 job erase name libwx_gtk2u_adv-2_8-0-compat-lib-stl
 job erase name libwx_baseu_net-2_8-0-compat-lib-stl
 job erase name libwx_baseu-2_8-0-compat-lib-stl
+
 job distupgrade all packages
