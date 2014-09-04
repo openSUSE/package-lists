@@ -10,43 +10,7 @@ export LC_ALL=C
 # $arch   -- architecture that we are testing
 # $output -- output suffix as indicated in the testit-*.xml files
 
-function process {
-  suffix=$1; arch=$2; output=$3
-
-  rm -rf /tmp/myrepos /var/cache/zypp
-  export TESTTRACK=$PWD/../testtrack
-  rm -rf $TESTTRACK/CD1
-  mkdir -p $TESTTRACK/CD1
-  cp -a $TESTTRACK/content.$arch.small $TESTTRACK/CD1/content
-  cp -a $TESTTRACK/full-$suffix/suse $TESTTRACK/CD1/
-  cp -a $TESTTRACK/full-$suffix/media.1 $TESTTRACK/CD1/
-
-  mkdir -p $TESTTRACK/CD1/suse/setup/descr/
-  cp $TESTTRACK/patterns/dvd-*.$arch.pat $TESTTRACK/CD1/suse/setup/descr/
-  pushd $TESTTRACK/CD1/suse/setup/descr/ > /dev/null
-  : > patterns
-  for i in *;
-    do echo -n "META SHA1 ";
-    sha1sum $i | awk '{ORS=""; print $1}';
-    echo -n " "; basename $i;
-    basename $i >> patterns
-  done >> $TESTTRACK/CD1/content
-  popd > /dev/null
-  rm -f $TESTTRACK/CD1/content.asc
-  gpg  --batch -a -b --sign $TESTTRACK/CD1/content
-  rm -rf full-$output
-  /usr/lib/zypp/testsuite/bin/deptestomatic.multi testit-$output.xml > testit-$output.log 2>&1
-
-  zcat full-$output/*-package.xml.gz | fgrep -v '<vendor>' > full-$output/1-package.xml
-}
-
-
-for arch in i586 x86_64; do
-  process $tree-$arch $arch $arch
-  process nf-$tree-$arch $arch nf-$arch
-done
-
-for i in *-update.xml; do 
+for i in *-update.t; do 
   echo $i
   out=`./update.sh $i`
   if test -z "$out"; then
