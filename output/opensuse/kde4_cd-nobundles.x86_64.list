@@ -182,6 +182,7 @@ gcr-prompter
 gcr-viewer
 gdb
 gdk-pixbuf-lang
+gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
@@ -237,6 +238,7 @@ gstreamer-plugins-base
 gstreamer-plugins-base-lang
 gstreamer-plugins-good
 gstreamer-plugins-good-lang
+gstreamer-plugins-qt
 gtk2-data
 gtk2-engine-oxygen
 gtk2-immodule-amharic
@@ -394,6 +396,7 @@ libIex-2_1-11
 libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libLLVM
+libMagickCore-6_Q16-2
 libModemManagerQt0
 libNetworkManagerQt1
 libQt5Core5
@@ -629,7 +632,7 @@ libhyphen0
 libibus-1_0-5
 libical1
 libicu53_1
-libicu53_1-data
+libicu53_1-ledata
 libidn11
 libimobiledevice4
 libini_config5
@@ -844,6 +847,7 @@ libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-writer
 librevenge-0_0-0
+librsvg-2-2
 libruby2_1
 libsamba-credentials0
 libsamba-hostconfig0
@@ -899,7 +903,8 @@ libtelepathy-glib0
 libtelepathy-qt4-2
 libtevent-util0
 libtevent0
-libtheora0
+libtheoradec1
+libtheoraenc1
 libtidy-0_99-0
 libtidyp-1_04-0
 libtiff5
@@ -1426,6 +1431,7 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core
@@ -1465,7 +1471,6 @@ yast2-sound
 yast2-storage
 yast2-sudo
 yast2-sysconfig
-yast2-theme-openSUSE
 yast2-trans-cs
 yast2-trans-da
 yast2-trans-de

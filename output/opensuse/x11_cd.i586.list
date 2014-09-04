@@ -339,6 +339,7 @@ libcdio_cdda1
 libcdio_paranoia1
 libcelt0-2
 libcerror1
+libcfile1
 libclocale1
 libcloog-isl4
 libcnotify1
@@ -447,7 +448,7 @@ libharfbuzz-icu0
 libharfbuzz0
 libhogweed2
 libicu53_1
-libicu53_1-data
+libicu53_1-ledata
 libidn11
 libimobiledevice4
 libiptc0
@@ -606,7 +607,8 @@ libtdb1
 libtelepathy-glib0
 libtevent-util0
 libtevent0
-libtheora0
+libtheoradec1
+libtheoraenc1
 libthunarx-2-0
 libtidyp-1_04-0
 libtiff5
@@ -1078,6 +1080,7 @@ xterm
 xz
 yast2
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-gnome
 yast2-control-center-qt
@@ -1095,7 +1098,6 @@ yast2-ruby-bindings
 yast2-scanner
 yast2-snapper
 yast2-storage
-yast2-theme-openSUSE
 yast2-trans-de
 yast2-trans-stats
 yast2-transfer

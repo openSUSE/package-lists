@@ -740,7 +740,7 @@ libhyphen0
 libibus-1_0-5
 libical1
 libicu53_1
-libicu53_1-data
+libicu53_1-ledata
 libidn11
 libieee1284
 libimobiledevice4
@@ -998,7 +998,8 @@ libtelepathy-glib0
 libtelepathy-logger3
 libtevent-util0
 libtevent0
-libtheora0
+libtheoradec1
+libtheoraenc1
 libtidyp-1_04-0
 libtiff5
 libtimidity-0_1-0
@@ -1620,6 +1621,7 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-gnome
 yast2-core
@@ -1658,7 +1660,6 @@ yast2-sound
 yast2-storage
 yast2-sudo
 yast2-sysconfig
-yast2-theme-openSUSE
 yast2-trans-cs
 yast2-trans-da
 yast2-trans-de
