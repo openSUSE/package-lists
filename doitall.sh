@@ -15,6 +15,14 @@ fi
 ./doit.sh
 ./commit.sh
 
+pushd create-drop-list
+./createdrops.py trees/openSUSE:$proj-standard-x86_64.solv \
+                 trees/openSUSE:NonFree:$proj-standard-x86_64.solv \
+                 *.solv > osc/openSUSE:$proj/_product/obsoletepackages.inc
+cd ../osc/openSUSE:$proj/_product
+osc ci -m "updated drop list"
+popd
+
 cd update-tests
 ./testall.sh
 cd ..
