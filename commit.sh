@@ -43,3 +43,5 @@ cp -a output/opensuse/x11_cd.x86_64.list osc/openSUSE:$proj:Live/package-lists-x
 
 osc -q ci -m "auto update" osc/openSUSE:$proj:Live/package-lists-* | grep -v nothing
 
+installcheck x86_64 --withobsoletes trees/openSUSE:$proj-standard-x86_64.solv > openSUSE:$proj.installcheck
+osc api -X PUT -f openSUSE:$proj.installcheck  /source/openSUSE:$proj:Staging/dashboard/installcheck
