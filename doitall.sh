@@ -24,7 +24,8 @@ osc ci -m "updated drop list"
 popd
 
 cd update-tests
-./testall.sh
+./testall.sh > update-tests-report 2>&1
+osc api -X PUT -f update-tests-report /source/openSUSE:$proj:Staging/dashboard/update-tests
 cd ..
 
 set -e
