@@ -1,6 +1,6 @@
 #! /bin/sh
 
-git pull
+git pull --rebase
 
 . ./options
 
@@ -16,8 +16,8 @@ fi
 ./commit.sh
 
 pushd create-drop-list
-./createdrops.py trees/openSUSE:$proj-standard-x86_64.solv \
-                 trees/openSUSE:NonFree:$proj-standard-x86_64.solv \
+./createdrops.py ../trees/openSUSE:$proj-standard-x86_64.solv \
+                 ../trees/openSUSE:NonFree:$proj-standard-x86_64.solv \
                  *.solv > ../osc/openSUSE:$proj/_product/obsoletepackages.inc
 cd ../osc/openSUSE:$proj/_product
 osc ci -m "updated drop list"
@@ -32,5 +32,5 @@ set -e
 
 git commit -m "auto commit" -a
 echo "all done"
-git push || true
+git push < /dev/null || true
 
