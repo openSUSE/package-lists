@@ -376,6 +376,7 @@ coreutils
 cpio
 cpp
 cpp48
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -1460,6 +1461,7 @@ libcolord2
 libcolorhug2
 libcom_err-devel
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -1551,6 +1553,7 @@ libfftw3-3
 libfipscheck1
 libfltk1
 libfm
+libfm-extra4
 libfm-gtk4
 libfm-lang
 libfm4
@@ -1751,6 +1754,7 @@ libhdf5_hl8
 libhogweed2
 libhyphen0
 libibus-1_0-5
+libibverbs1
 libical-devel
 libical1
 libicu-devel
@@ -2086,6 +2090,7 @@ libraw1394-devel
 librcc0
 librcd0
 librdf0
+librdmacm1
 libreadline6
 libregistry0
 libreiserfscore0
@@ -2516,6 +2521,7 @@ lxmusic-lang
 lxpanel
 lxpanel-lang
 lxrandr
+lxrandr-lang
 lxsession
 lxshortcut
 lxtask
@@ -3013,7 +3019,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -3062,11 +3067,13 @@ python-boto
 python-bottle
 python-cairo
 python-cloudfiles
+python-configobj
 python-cssselect
 python-cups
 python-cupshelpers
 python-curses
 python-dateutil
+python-decorator
 python-deltarpm
 python-devel
 python-docopt
@@ -3114,6 +3121,7 @@ python-virtualbox
 python-xml
 python-yum
 python3
+python3-apparmor
 python3-atspi
 python3-base
 python3-brlapi
@@ -3428,6 +3436,7 @@ tsclient
 tsclient-lang
 tumbler
 tumbler-lang
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
@@ -3707,6 +3716,7 @@ xinetd
 xinit
 xkbcomp
 xkeyboard-config
+xkill
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis

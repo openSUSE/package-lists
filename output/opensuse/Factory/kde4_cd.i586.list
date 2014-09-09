@@ -90,6 +90,7 @@ coreutils
 cpio
 cpp
 cpp48
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -467,6 +468,7 @@ libcmis-0_4-4
 libcollection4
 libcolord2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -1136,7 +1138,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -1164,18 +1165,23 @@ python-CherryPy
 python-base
 python-bottle
 python-cairo
+python-configobj
 python-cups
 python-cupshelpers
+python-decorator
 python-gobject
 python-gobject-cairo
 python-keyring
 python-pycurl
+python-pyudev
 python-simplejson
+python-six
 python-smbc
 python-smbios
 python-solv
 python-xml
 python3
+python3-apparmor
 python3-base
 python3-gobject
 python3-gobject-cairo
@@ -1251,6 +1257,7 @@ timezone
 tnftp
 traceroute
 translation-update
+tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0

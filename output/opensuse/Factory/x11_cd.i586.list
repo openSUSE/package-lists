@@ -62,6 +62,7 @@ coreutils
 cpio
 cpp
 cpp48
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -346,6 +347,7 @@ libcnotify1
 libcolord2
 libcom_err2
 libcpath1
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -846,7 +848,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -862,12 +863,16 @@ python
 python-CherryPy
 python-base
 python-bottle
+python-configobj
 python-cups
 python-cupshelpers
+python-decorator
 python-gobject
 python-gobject-cairo
 python-pycurl
+python-pyudev
 python-simplejson
+python-six
 python-smbios
 python-solv
 python-xml
@@ -933,6 +938,7 @@ translation-update
 translation-update-de
 tumbler
 tumbler-lang
+tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-2_0
