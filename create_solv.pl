@@ -7,7 +7,7 @@ BEGIN {
     ($script_dir) = $0 =~ m-(.*)/-;
     $script_dir ||= '.';
     unshift @INC, $script_dir;
-    unshift @INC, "osc-plugin-factory";
+    unshift @INC, "osc-plugin-factory/";
 }
 
 require CreatePackageDescr;
