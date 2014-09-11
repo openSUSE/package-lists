@@ -86,7 +86,6 @@ coreutils
 cpio
 cpp
 cpp48
-cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -451,7 +450,6 @@ libcolord-gtk1
 libcolord2
 libcolorhug2
 libcom_err2
-libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptsetup4
@@ -1072,6 +1070,7 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
+pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -1101,10 +1100,8 @@ python-boto
 python-bottle
 python-cairo
 python-cloudfiles
-python-configobj
 python-cups
 python-cupshelpers
-python-decorator
 python-ecdsa
 python-gobject
 python-gobject-cairo
@@ -1113,14 +1110,11 @@ python-lockfile
 python-paramiko
 python-pycrypto
 python-pycurl
-python-pyudev
 python-simplejson
-python-six
 python-smbc
 python-solv
 python-xml
 python3
-python3-apparmor
 python3-atspi
 python3-base
 python3-brlapi
@@ -1219,7 +1213,6 @@ tracker-miner-files
 translation-update
 transmission-common
 transmission-gtk
-tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0

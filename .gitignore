@@ -1,8 +1,8 @@
 osc
-rebuilds/*
 dirty
 rebuildsppc
-opensuse/dvd-1.*.suggests
-opensuse/non_ftp_packages
-opensuse/dvd-nonoss
-output/opensuse/dvd-nonoss.*.list
+opensuse/*/dvd-1.*.suggests
+opensuse/*/non_ftp_packages
+opensuse/*/dvd-nonoss
+output/opensuse/*/dvd-nonoss.*.list
+osc-plugin-factory

@@ -23,6 +23,7 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-plugins
+alsa-plugins-pulse
 alsa-utils
 aspell
 aspell-de
@@ -62,7 +63,6 @@ coreutils
 cpio
 cpp
 cpp48
-cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -107,7 +107,6 @@ e2fsprogs
 efibootmgr
 elfutils
 elilo
-esound-daemon
 espeak
 ethtool
 exo-lang
@@ -351,7 +350,6 @@ libcnotify1
 libcolord2
 libcom_err2
 libcpath1
-libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -389,6 +387,7 @@ libexpat1
 libext2fs2
 libfallocate0
 libffi4
+libfftw3-3
 libfipscheck1
 libfltk1
 libfontenc1
@@ -601,6 +600,7 @@ libsoftokn3
 libsolv-tools
 libsoup-2_4-1
 libspeex1
+libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
@@ -651,6 +651,7 @@ libwebkitgtk-3_0-0
 libwebkitgtk2-lang
 libwebkitgtk3-lang
 libwebp5
+libwebrtc_audio_processing0
 libwicked-0-6
 libwnck-1-22
 libwnck2-lang
@@ -855,6 +856,7 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
+pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -865,21 +867,19 @@ ppp
 pptp
 procps
 psmisc
+pulseaudio
+pulseaudio-esound-compat
 pytalloc
 python
 python-CherryPy
 python-base
 python-bottle
-python-configobj
 python-cups
 python-cupshelpers
-python-decorator
 python-gobject
 python-gobject-cairo
 python-pycurl
-python-pyudev
 python-simplejson
-python-six
 python-smbios
 python-solv
 python-xml
@@ -895,6 +895,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rtkit
 ruby
 ruby-stdlib
 rubygem-fast_gettext
@@ -947,7 +948,6 @@ translation-update
 translation-update-de
 tumbler
 tumbler-lang
-tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-2_0
