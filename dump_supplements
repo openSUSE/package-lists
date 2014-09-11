@@ -46,9 +46,10 @@ for my $d (@{$pool->solvables_iter()}) {
 my %suppl;
 for my $s ($sel->solvables()) {
 	for my $dep ($s->lookup_deparray($solv::SOLVABLE_SUPPLEMENTS)) {
-		my $str = $dep->str();
-		next unless $str =~ /^namespace:(?:modalias|filesystem)/;
-		$suppl{$str} = 1;
+		for my $str (split(/ /, $dep->str())) {
+		  next unless $str =~ /^namespace:(?:modalias|filesystem)/;
+		  $suppl{$str} = 1;
+		}
 	}
 }
 
