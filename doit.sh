@@ -1,11 +1,12 @@
 #!/bin/bash
 
 set -e
-. ./options
 export LC_ALL=C
 
 if [ -n "$1" ]; then
 	export proj="$1"
+else
+        export proj="Factory"
 fi
 
 echo "generate dvds for $proj at "

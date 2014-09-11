@@ -2,7 +2,8 @@
 
 git pull --rebase
 
-. ./options
+proj=$1
+test -n "$proj" || proj=Factory
 
 (cd osc/openSUSE\:$proj/_product/ && osc up)
 osc api "/build/openSUSE:$proj/_result?package=bash&repository=standard" > "$proj.state"
@@ -12,8 +13,8 @@ if grep -q 'dirty="true"' "$proj.state" || grep -q 'state="building"' "$proj.sta
      exit 0
    fi
 fi
-./doit.sh
-./commit.sh
+./doit.sh $proj
+./commit.sh $proj
 
 pushd create-drop-list
 ./createdrops.py ../trees/openSUSE:$proj-standard-x86_64.solv \

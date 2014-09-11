@@ -1,4 +1,7 @@
-. ./options
+#! /bin/sh
+
+proj=$1
+test -n "$proj" || proj=Factory
 
 mkdir -p osc
 test -d osc/openSUSE:$proj/_product || ( cd osc; osc co openSUSE:$proj/_product )
