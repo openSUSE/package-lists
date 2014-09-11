@@ -1,0 +1,26 @@
+namespace namespace:language(en) @SYSTEM
+namespace namespace:language(de) @SYSTEM
+namespace namespace:language(ru) @SYSTEM
+
+job lock name oxygen-icon-theme-scalable
+job lock name spamassassin
+job lock name gutenprint
+job lock name rdesktop
+#INCLUDE ignore_opensuse-bundle-gnome
+#INCLUDE ignore_opensuse-bundle-kde
+#INCLUDE ignore_opensuse-bundle-common
+job lock name compiz-kde
+job lock name gtk2-engines-32bit
+job lock name kde3-i18n-de
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-cds
+#INCLUDE ignore_opensuse-kde-cd
+#INCLUDE ignore_opensuse-basedon
+job lock name pam-32bit
+job lock name kdelibs3
+job lock name kdelibs3-default-style
+job install name branding-openSUSE
+job install provides pattern() = kde4_office
+job install provides pattern() = rest_cd_kde4
+job install name openSUSE-release-livecd-kde
+

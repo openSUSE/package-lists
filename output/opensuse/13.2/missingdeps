@@ -1,0 +1,31 @@
+can't install compicc:
+  nothing provides compizconfig-settings-manager < 0.9 needed by compicc
+can't install fillmore-lombard:
+  nothing provides gstreamer-0_10-plugin-gnonlin needed by fillmore
+  nothing provides gstreamer-0_10-plugin-gnonlin needed by lombard
+can't install lsb:
+  nothing provides /usr/bin/foomatic-rip needed by lsb
+can't install python-lazr.restfulclient:
+  nothing provides python-lazr.authentication needed by python-lazr.restfulclient
+can't install rubygem-chef:
+  nothing provides rubygem(2.1.0:json) <= 1.7.7 needed by rubygem-chef
+  nothing provides rubygem(2.1.0:mixlib-cli:1.3) >= 1.3 needed by rubygem-chef
+can't install rubygem-faraday_middleware:
+  nothing provides rubygem(2.1.0:faraday) < 0.9 needed by rubygem-faraday_middleware
+can't install rubygem-file-tail:
+  nothing provides rubygem(2.1.0:tins:0) >= 0.5 needed by rubygem-file-tail
+can't install rubygem-mail:
+  nothing provides rubygem(2.1.0:treetop:1.4) >= 1.4.8 needed by rubygem-mail
+can't install rubygem-mail-2_4:
+  nothing provides rubygem(2.1.0:treetop:1.4) >= 1.4.8 needed by rubygem-mail-2_4
+can't install rubygem-ohai:
+  nothing provides rubygem(2.1.0:systemu:2.5) >= 2.5.2 needed by rubygem-ohai
+can't install rubygem-railties-3_2:
+  nothing provides rubygem(2.1.0:rack-ssl:1.3) >= 1.3.2 needed by rubygem-railties-3_2
+can't install rubygem-sinatra:
+  nothing provides rubygem(2.1.0:rack-protection:1) >= 1.4 needed by rubygem-sinatra
+  nothing provides rubygem(2.1.0:tilt:1) >= 1.3 needed by rubygem-sinatra
+can't install xf86-video-geode:
+  nothing provides X11_ABI_VIDEODRV = 15.0 needed by xf86-video-geode
+can't install yast2-branding-openSUSE:
+  nothing provides yast2-theme-openSUSE-any needed by yast2-branding-openSUSE
