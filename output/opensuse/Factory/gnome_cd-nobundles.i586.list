@@ -197,6 +197,7 @@ evolution-lang
 expat
 farstream-data
 fd0ssh
+fdupes
 file
 file-magic
 file-roller
@@ -1051,7 +1052,7 @@ librest0
 librevenge-0_0-0
 librsvg-2-2
 librsync1
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -1512,7 +1513,10 @@ rpm-python
 rsync
 rtkit
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba

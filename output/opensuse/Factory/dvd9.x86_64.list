@@ -2230,7 +2230,7 @@ librevenge-stream-0_0-0
 librsvg-2-2
 librsvg-devel
 librsync1
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-credentials0-32bit
 libsamba-hostconfig0
@@ -3311,8 +3311,10 @@ rpm-python
 rsync
 rtkit
 ruby
-ruby-devel
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 rubygem-yard

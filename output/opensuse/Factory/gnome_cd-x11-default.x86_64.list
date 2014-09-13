@@ -86,6 +86,7 @@ efibootmgr
 elfutils
 ethtool
 expat
+fdupes
 file
 file-magic
 filesystem
@@ -446,7 +447,7 @@ libqrencode3
 libqt5-qtimageformats
 libreadline6
 librest0
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -711,7 +712,10 @@ rpm
 rpm-python
 rtkit
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba-libs
