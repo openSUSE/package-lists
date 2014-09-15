@@ -428,6 +428,11 @@ libIex-2_1-11
 libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libLLVM
+libQt5Core5
+libQt5DBus5
+libQt5Gui5
+libQt5Widgets5
+libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -871,6 +876,7 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpcre16-0
 libpdb0
 libpeas-1_0-0
 libpeas-gtk-1_0-0
@@ -910,6 +916,7 @@ libpython3_4m1_0
 libqmi-glib1
 libqmi-tools
 libqrencode3
+libqt5-qtimageformats
 libquadmath0
 libquicktime0
 libquvi
@@ -1079,6 +1086,8 @@ libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
 libxcb-present0
+libxcb-randr0
+libxcb-render-util0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
@@ -1086,8 +1095,10 @@ libxcb-sync1
 libxcb-util1
 libxcb-xf86dri0
 libxcb-xfixes0
+libxcb-xkb1
 libxcb-xv0
 libxcb1
+libxkbcommon-x11-0
 libxkbcommon0
 libxkbfile1
 libxklavier16
@@ -1103,6 +1114,8 @@ libyui-gtk-pkg6
 libyui-gtk6
 libyui-ncurses-pkg6
 libyui-ncurses6
+libyui-qt-pkg6
+libyui-qt6
 libyui6
 libz1
 libzapojit-0_0-0
@@ -1669,6 +1682,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-proxy
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
