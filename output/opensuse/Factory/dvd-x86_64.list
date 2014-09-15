@@ -483,6 +483,7 @@ dbsplit-tools
 dbus-1
 dbus-1-devel
 dbus-1-glib
+dbus-1-glib-32bit
 dbus-1-glib-devel
 dbus-1-mono
 dbus-1-python
@@ -657,6 +658,10 @@ fonttosfnt
 fortune
 four-in-a-row
 four-in-a-row-lang
+fprintd
+fprintd-lang
+fprintd-pam
+fprintd-pam-32bit
 freeglut-devel
 freerdp
 freetype2-devel
@@ -1959,9 +1964,7 @@ libfontenc-devel
 libfontenc1
 libfox1_6
 libfprint0
-libfprint0-32bit
 libfreebl3
-libfreebl3-32bit
 libfreehand-0_1-1
 libfreerdp-1_0
 libfreerdp-1_0-plugins
@@ -2824,7 +2827,6 @@ libsocks0
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
-libsoftokn3-32bit
 libsolv-devel
 libsolv-tools
 libsoprano4
@@ -3315,12 +3317,9 @@ mozc
 mozc-gui-tools
 mozilla-kde4-integration
 mozilla-nspr
-mozilla-nspr-32bit
 mozilla-nspr-devel
 mozilla-nss
-mozilla-nss-32bit
 mozilla-nss-certs
-mozilla-nss-certs-32bit
 mozilla-nss-devel
 mozilla-nss-tools
 mpfr-devel
@@ -3486,8 +3485,6 @@ pam-modules
 pam-modules-32bit
 pam_apparmor
 pam_apparmor-32bit
-pam_fprint
-pam_fprint-32bit
 pam_krb5
 pam_krb5-32bit
 pam_ldap
