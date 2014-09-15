@@ -56,6 +56,7 @@ elfutils
 enscript
 ethtool
 expat
+fdupes
 file
 file-magic
 filesystem
@@ -362,6 +363,7 @@ libmspub-0_1-1
 libmtdev1
 libmtp9
 libmwaw-0_3-3
+libmysqlclient18
 libmythes-1_2-0
 libncurses5
 libncurses6
@@ -397,7 +399,6 @@ libpolkit-qt-1-1
 libpolkit0
 libpoppler46
 libpopt0
-libpq5
 libprison0
 libprocps3
 libproxy1
@@ -414,7 +415,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-postgresql
+libqt4-sql-mysql
 libqt4-x11
 libqt5-qtimageformats
 libraptor2-0
@@ -443,7 +444,7 @@ libreoffice-templates-presentation-layouts
 libreoffice-writer
 librest0
 librevenge-0_0-0
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -637,7 +638,10 @@ readline-doc
 rpm
 rsyslog
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 samba-libs
 sed

@@ -47,8 +47,8 @@ dmraid
 dracut
 elfutils
 ethtool
-exim
 expat
+fdupes
 file
 file-magic
 filesystem
@@ -197,7 +197,7 @@ libpwquality1
 libpython2_7-1_0
 libqrencode3
 libreadline6
-libruby2_1
+libruby2_1-2_1
 libsasl2-3
 libseccomp2
 libselinux1
@@ -329,6 +329,7 @@ pkg-config
 pm-utils
 polkit
 polkit-default-privs
+postfix
 prctl
 procps
 python
@@ -341,7 +342,10 @@ rpcbind
 rpm
 rsync
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 sed
@@ -359,6 +363,7 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools

@@ -101,6 +101,7 @@ coreutils
 cpio
 cpp
 cpp48
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -164,6 +165,7 @@ evolution-data-server
 expat
 farstream-data
 fd0ssh
+fdupes
 file
 file-magic
 file-roller
@@ -420,6 +422,11 @@ libIex-2_1-11
 libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libLLVM
+libQt5Core5
+libQt5DBus5
+libQt5Gui5
+libQt5Widgets5
+libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -545,6 +552,7 @@ libcolord-gtk1
 libcolord2
 libcolorhug2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -861,6 +869,7 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpcre16-0
 libpdb0
 libpeas-1_0-0
 libpeas-gtk-1_0-0
@@ -900,6 +909,7 @@ libpython3_4m1_0
 libqmi-glib1
 libqmi-tools
 libqrencode3
+libqt5-qtimageformats
 libquadmath0
 libquicktime0
 libquvi
@@ -931,7 +941,7 @@ librest0
 librevenge-0_0-0
 librsvg-2-2
 librsync1
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -1069,6 +1079,8 @@ libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
 libxcb-present0
+libxcb-randr0
+libxcb-render-util0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
@@ -1076,8 +1088,10 @@ libxcb-sync1
 libxcb-util1
 libxcb-xf86dri0
 libxcb-xfixes0
+libxcb-xkb1
 libxcb-xv0
 libxcb1
+libxkbcommon-x11-0
 libxkbcommon0
 libxkbfile1
 libxklavier16
@@ -1093,6 +1107,8 @@ libyui-gtk-pkg6
 libyui-gtk6
 libyui-ncurses-pkg6
 libyui-ncurses6
+libyui-qt-pkg6
+libyui-qt6
 libyui6
 libz1
 libzapojit-0_0-0
@@ -1294,7 +1310,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -1325,8 +1340,10 @@ python-boto
 python-bottle
 python-cairo
 python-cloudfiles
+python-configobj
 python-cups
 python-cupshelpers
+python-decorator
 python-ecdsa
 python-gobject
 python-gobject-cairo
@@ -1335,12 +1352,15 @@ python-lockfile
 python-paramiko
 python-pycrypto
 python-pycurl
+python-pyudev
 python-simplejson
+python-six
 python-smbc
 python-smbios
 python-solv
 python-xml
 python3
+python3-apparmor
 python3-atspi
 python3-base
 python3-brlapi
@@ -1367,7 +1387,10 @@ rpm-python
 rsync
 rtkit
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba
@@ -1456,6 +1479,7 @@ tracker-miner-files
 translation-update
 transmission-common
 transmission-gtk
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
@@ -1649,6 +1673,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-proxy
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server

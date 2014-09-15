@@ -124,6 +124,7 @@ cpio
 cpio-lang
 cpp
 cpp48
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -196,6 +197,7 @@ evolution-lang
 expat
 farstream-data
 fd0ssh
+fdupes
 file
 file-magic
 file-roller
@@ -646,6 +648,7 @@ libcolord-gtk1
 libcolord2
 libcolorhug2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -1049,7 +1052,7 @@ librest0
 librevenge-0_0-0
 librsvg-2-2
 librsync1
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -1428,7 +1431,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -1462,8 +1464,10 @@ python-boto
 python-bottle
 python-cairo
 python-cloudfiles
+python-configobj
 python-cups
 python-cupshelpers
+python-decorator
 python-ecdsa
 python-gobject
 python-gobject-cairo
@@ -1472,12 +1476,15 @@ python-lockfile
 python-paramiko
 python-pycrypto
 python-pycurl
+python-pyudev
 python-simplejson
+python-six
 python-smbc
 python-smbios
 python-solv
 python-xml
 python3
+python3-apparmor
 python3-atspi
 python3-base
 python3-brlapi
@@ -1506,7 +1513,10 @@ rpm-python
 rsync
 rtkit
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba
@@ -1609,6 +1619,7 @@ translation-update-ru
 transmission-common
 transmission-gtk
 transmission-gtk-lang
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0

@@ -225,6 +225,7 @@ coreutils
 cpio
 cpp
 cpp48
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -1091,6 +1092,7 @@ libcolord2
 libcolorhug2
 libcom_err-devel
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -1176,6 +1178,7 @@ libfftw3-3
 libfipscheck1
 libfltk1
 libfm
+libfm-extra4
 libfm-gtk4
 libfm-lang
 libfm4
@@ -1358,6 +1361,7 @@ libhdf5_hl8
 libhogweed2
 libhyphen0
 libibus-1_0-5
+libibverbs1
 libical1
 libicu-devel
 libicu53_1
@@ -1650,6 +1654,7 @@ libraw1394-11
 librcc0
 librcd0
 librdf0
+librdmacm1
 libreadline6
 libregistry0
 libreiserfscore0
@@ -1694,7 +1699,7 @@ librevenge-0_0-0
 librevenge-stream-0_0-0
 librsvg-2-2
 librsync1
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -1986,6 +1991,7 @@ lxmusic-lang
 lxpanel
 lxpanel-lang
 lxrandr
+lxrandr-lang
 lxsession
 lxshortcut
 lxtask
@@ -2371,7 +2377,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -2417,11 +2422,13 @@ python-boto
 python-bottle
 python-cairo
 python-cloudfiles
+python-configobj
 python-cssselect
 python-cups
 python-cupshelpers
 python-curses
 python-dateutil
+python-decorator
 python-deltarpm
 python-docopt
 python-ecdsa
@@ -2465,6 +2472,7 @@ python-virtualbox
 python-xml
 python-yum
 python3
+python3-apparmor
 python3-atspi
 python3-base
 python3-brlapi
@@ -2518,7 +2526,10 @@ rpm-python
 rsync
 rtkit
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba
@@ -2691,6 +2702,7 @@ tsclient
 tsclient-lang
 tumbler
 tumbler-lang
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
@@ -2914,6 +2926,7 @@ xinetd
 xinit
 xkbcomp
 xkeyboard-config
+xkill
 xli
 xmessage
 xmms2

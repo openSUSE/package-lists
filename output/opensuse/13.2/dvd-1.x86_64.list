@@ -1196,6 +1196,7 @@ itstool
 ivtv
 iw
 iwidgets
+jakarta-commons-dbcp
 jakarta-commons-digester
 jakarta-commons-discovery
 jakarta-commons-fileupload
@@ -1873,8 +1874,6 @@ libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
-libeXosip2-6
-libeXosip2-devel
 libebackend-1_2-7
 libebook-1_2-14
 libebook-contacts-1_2-0
@@ -1940,6 +1939,7 @@ libfli-devel
 libfli1
 libfltk1
 libfm
+libfm-extra4
 libfm-gtk4
 libfm-lang
 libfm4
@@ -2207,6 +2207,7 @@ libhogweed2
 libhogweed2-32bit
 libhyphen0
 libibus-1_0-5
+libibverbs1
 libical-devel
 libical1
 libicu-devel
@@ -2689,6 +2690,7 @@ librcd0
 librcps-devel
 librcps0
 librdf0
+librdmacm1
 libreadline6
 libref_array1
 libregistry0
@@ -2740,7 +2742,7 @@ librevenge-stream-0_0-0
 librsvg-2-2
 librsvg-devel
 librsync1
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-credentials0-32bit
 libsamba-hostconfig0
@@ -3204,6 +3206,7 @@ lxmusic-lang
 lxpanel
 lxpanel-lang
 lxrandr
+lxrandr-lang
 lxsession
 lxshortcut
 lxtask
@@ -3989,7 +3992,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 pmidi
 podofo
@@ -4081,6 +4083,7 @@ python-cups
 python-cupshelpers
 python-curses
 python-dateutil
+python-decorator
 python-deltarpm
 python-devel
 python-dnspython
@@ -4180,6 +4183,7 @@ python-xml
 python-yum
 python-zope.interface
 python3
+python3-apparmor
 python3-atspi
 python3-base
 python3-brlapi
@@ -4277,15 +4281,17 @@ rsvg2-sharp
 rsync
 rtkit
 ruby
+ruby-common
 ruby-devel
-ruby-doc-ri
 ruby-kde4
 ruby-qt4
 ruby-qt4-devel
-ruby-stdlib
+ruby2.1
+ruby2.1-devel
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-mysql
-rubygem-racc
 rubygem-ruby-dbus
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
@@ -4573,6 +4579,7 @@ tsclient
 tsclient-lang
 tumbler
 tumbler-lang
+tuned
 tv-common
 tv-fonts
 twm

@@ -15,7 +15,7 @@ binutils
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
-bundle-lang-common-en
+bundle-lang-common-nl
 bundle-lang-gnome-fr
 bzip2
 ca-certificates
@@ -44,6 +44,7 @@ dracut
 elfutils
 ethtool
 expat
+fdupes
 file
 file-magic
 filesystem
@@ -181,7 +182,7 @@ libpwquality1
 libpython2_7-1_0
 libqrencode3
 libreadline6
-libruby2_1
+libruby2_1-2_1
 libsasl2-3
 libseccomp2
 libselinux1
@@ -291,7 +292,10 @@ rpcbind
 rpm
 rsync
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 sed

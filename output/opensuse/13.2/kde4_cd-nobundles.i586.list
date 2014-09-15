@@ -102,6 +102,7 @@ cpio
 cpio-lang
 cpp
 cpp48
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -161,6 +162,7 @@ espeak
 ethtool
 expat
 fd0ssh
+fdupes
 file
 file-magic
 filesystem
@@ -506,6 +508,7 @@ libcmis-0_4-4
 libcollection4
 libcolord2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -845,7 +848,7 @@ libreoffice-templates-labels-letter
 libreoffice-writer
 librevenge-0_0-0
 librsvg-2-2
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -1186,7 +1189,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -1216,18 +1218,23 @@ python-CherryPy
 python-base
 python-bottle
 python-cairo
+python-configobj
 python-cups
 python-cupshelpers
+python-decorator
 python-gobject
 python-gobject-cairo
 python-keyring
 python-pycurl
+python-pyudev
 python-simplejson
+python-six
 python-smbc
 python-smbios
 python-solv
 python-xml
 python3
+python3-apparmor
 python3-base
 python3-gobject
 python3-gobject-cairo
@@ -1246,7 +1253,10 @@ rpm-python
 rsync
 rtkit
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba-libs
@@ -1309,6 +1319,7 @@ traceroute
 translation-update
 translation-update-de
 translation-update-ru
+tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0

@@ -87,6 +87,7 @@ coreutils
 cpio
 cpp
 cpp48
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -139,6 +140,7 @@ enblend-enfuse
 espeak
 ethtool
 expat
+fdupes
 file
 file-magic
 filesystem
@@ -450,6 +452,7 @@ libclucene-core1
 libclucene-shared1
 libcolord2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptsetup4
@@ -490,7 +493,6 @@ libfftw3-3
 libfipscheck1
 libfltk1
 libfontenc1
-libfprint0
 libfreebl3
 libfreerdp-1_0
 libfreerdp-1_0-plugins
@@ -723,6 +725,7 @@ libpulse0
 libpwquality-lang
 libpwquality1
 libpython2_7-1_0
+libpython3_4m1_0
 libqalculate5
 libqca2
 libqimageblitz4
@@ -746,7 +749,7 @@ librcd0
 libreadline6
 libreiserfscore0
 librsvg-2-2
-libruby2_1
+libruby2_1-2_1
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
@@ -946,7 +949,6 @@ p11-kit-tools
 p7zip
 pam
 pam-config
-pam_fprint
 pam_krb5
 pam_ldap
 pango-tools
@@ -1060,7 +1062,6 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
-pm-profiler
 pm-utils
 polkit
 polkit-default-privs
@@ -1087,16 +1088,22 @@ python-CherryPy
 python-base
 python-bottle
 python-cairo
+python-configobj
 python-cups
 python-cupshelpers
+python-decorator
 python-gobject
 python-gobject-cairo
 python-keyring
 python-pycurl
+python-pyudev
 python-simplejson
+python-six
 python-smbc
 python-solv
 python-xml
+python3-apparmor
+python3-base
 qt4-qtscript
 quota
 rcc-runtime
@@ -1110,7 +1117,10 @@ rpm-python
 rsync
 rtkit
 ruby
-ruby-stdlib
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 samba-libs
@@ -1164,6 +1174,7 @@ timezone
 tnftp
 traceroute
 translation-update
+tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0
