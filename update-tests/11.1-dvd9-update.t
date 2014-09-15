@@ -9,5 +9,6 @@ namespace namespace:language(de_DE) @SYSTEM
 namespace namespace:language(de) @SYSTEM
 
 # DROPS
-job erase name openCryptoki-32bit
+job erase name syslog-ng
+
 job distupgrade all packages

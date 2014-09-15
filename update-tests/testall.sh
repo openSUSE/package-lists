@@ -1,6 +1,5 @@
 export LC_ALL=C
 
-. ../options
 (cd ../osc/openSUSE\:Factory/_product/ && osc up )
 
 #
@@ -10,7 +9,8 @@ export LC_ALL=C
 # $arch   -- architecture that we are testing
 # $output -- output suffix as indicated in the testit-*.xml files
 
-for i in *-update.t; do 
-  ./update.sh $i
+for i in $(ls -1 *-update.t | tac); do 
+  echo "testing $i"
+  ./update.sh $i || break
 done
 

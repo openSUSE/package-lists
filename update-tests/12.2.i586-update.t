@@ -12,6 +12,7 @@ job erase name libdb-4_5-devel
 job erase name krb5-mini
 job erase name krb5-mini-devel
 job erase name libreoffice-kde4
+job erase name syslog-ng
 
 # DROPS
 job distupgrade all packages
