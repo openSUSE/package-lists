@@ -7,6 +7,7 @@ alsa-oss-32bit
 alsa-plugins-32bit
 alsa-plugins-pulse-32bit
 anthy-32bit
+bundle-lang-common-nb
 cryptconfig-32bit
 cups-libs-32bit
 dbus-1-glib-32bit
@@ -14,7 +15,6 @@ device-mapper-32bit
 efibootmgr
 fontconfig-32bit
 fprintd-pam-32bit
-fribidi-32bit
 gdk-pixbuf-query-loaders-32bit
 glibc-32bit
 glibc-locale-32bit
@@ -92,6 +92,7 @@ libexpat1-32bit
 libffi4-32bit
 libfipscheck1-32bit
 libfreetype6-32bit
+libfribidi0-32bit
 libgbm1-32bit
 libgcc_s1-32bit
 libgcrypt20-32bit
@@ -246,7 +247,6 @@ pam_mount-32bit
 pam_ssh-32bit
 pango-tools-32bit
 perl-32bit
-pulseaudio-esound-compat
 pytalloc-32bit
 rpm-32bit
 samba-32bit
