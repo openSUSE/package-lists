@@ -294,10 +294,10 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-nl
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
+bundle-lang-common-sv
 bundle-lang-common-zh
 bundle-lang-gnome-cs
 bundle-lang-gnome-da
@@ -574,6 +574,7 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
+esound-daemon
 espeak
 etags
 ethtool
@@ -585,6 +586,7 @@ evolution-ews
 evolution-ews-lang
 exif
 exiftool
+exim
 exo-lang
 exo-tools
 expat
@@ -1520,6 +1522,9 @@ libFS6
 libGLEW1_10
 libGLU1
 libGeoIP1
+libGraphicsMagick-Q16-3
+libGraphicsMagick3-config
+libGraphicsMagickWand-Q16-2
 libHX28
 libHalf11
 libICE-devel
@@ -3103,11 +3108,13 @@ lvm2
 lxappearance
 lxappearance-lang
 lxappearance-obconf
+lxappearance-obconf-lang
 lxcc
 lxde-common
 lxde-common-branding-openSUSE
 lxdm
 lxinput
+lxinput-lang
 lxlauncher
 lxmenu-data
 lxmusic
@@ -3119,6 +3126,7 @@ lxrandr-lang
 lxsession
 lxshortcut
 lxtask
+lxtask-lang
 lxterminal
 lxterminal-lang
 lynx
@@ -3753,6 +3761,7 @@ perl-Test-Exception
 perl-Test-LeakTrace
 perl-Test-Manifest
 perl-Test-Script
+perl-Test-Simple
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
@@ -3952,7 +3961,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -6718,7 +6726,6 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udhcp
-udisks
 udisks2
 ufraw
 ufraw-lang

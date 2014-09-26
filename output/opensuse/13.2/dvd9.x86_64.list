@@ -411,6 +411,7 @@ enblend-enfuse
 enchant-devel
 enscript
 eog
+esound-daemon
 espeak
 etags
 ethtool
@@ -505,6 +506,7 @@ gcc48-java
 gccmakedep
 gcolor2
 gconf-polkit
+gconf-sharp2
 gconf2
 gconf2-branding-openSUSE
 gcr-data
@@ -2616,11 +2618,13 @@ lvm2
 lxappearance
 lxappearance-lang
 lxappearance-obconf
+lxappearance-obconf-lang
 lxcc
 lxde-common
 lxde-common-branding-openSUSE
 lxdm
 lxinput
+lxinput-lang
 lxmenu-data
 lxmusic
 lxmusic-lang
@@ -2631,6 +2635,7 @@ lxrandr-lang
 lxsession
 lxshortcut
 lxtask
+lxtask-lang
 lxterminal
 lxterminal-lang
 lzop
@@ -3149,7 +3154,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -5750,7 +5754,6 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udhcp
-udisks
 udisks2
 uim
 uim-32bit
@@ -5952,9 +5955,8 @@ xkill
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver11
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

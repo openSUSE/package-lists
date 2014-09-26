@@ -582,6 +582,7 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
+esound-daemon
 espeak
 etags
 ethtool
@@ -1524,6 +1525,9 @@ libGLEW1_10
 libGLU1
 libGLU1-32bit
 libGeoIP1
+libGraphicsMagick-Q16-3
+libGraphicsMagick3-config
+libGraphicsMagickWand-Q16-2
 libHX28
 libHX28-32bit
 libHalf11
@@ -3237,11 +3241,13 @@ lvm2
 lxappearance
 lxappearance-lang
 lxappearance-obconf
+lxappearance-obconf-lang
 lxcc
 lxde-common
 lxde-common-branding-openSUSE
 lxdm
 lxinput
+lxinput-lang
 lxlauncher
 lxmenu-data
 lxmusic
@@ -3253,6 +3259,7 @@ lxrandr-lang
 lxsession
 lxshortcut
 lxtask
+lxtask-lang
 lxterminal
 lxterminal-lang
 lynx
@@ -3881,6 +3888,7 @@ perl-Test-Exception
 perl-Test-LeakTrace
 perl-Test-Manifest
 perl-Test-Script
+perl-Test-Simple
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
@@ -4079,7 +4087,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4720,7 +4727,6 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udhcp
-udisks
 udisks2
 ufraw
 ufraw-lang
