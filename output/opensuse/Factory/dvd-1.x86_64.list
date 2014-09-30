@@ -119,7 +119,6 @@ ant-manual
 ant-scripts
 ant-swing
 anthy
-anthy-32bit
 antlr
 antlr-devel
 antlr-java
@@ -406,6 +405,7 @@ clamz
 claws-mail
 claws-mail-lang
 clicfs
+clisp
 cln
 cln-devel
 cloop-kmp-default
@@ -582,6 +582,7 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
+esound-daemon
 espeak
 etags
 ethtool
@@ -624,6 +625,7 @@ fd0ssh
 fdupes
 festival
 fetchmail
+ffcall
 fftw3-devel
 fifth-leg-font
 file
@@ -1046,7 +1048,6 @@ gtk3-metatheme-sonar
 gtk3-theme-oxygen
 gtk3-theming-engine-adwaita
 gtk3-tools
-gtk3-tools-32bit
 gtkiterm
 gtksourceview-devel
 gtksourceview-sharp2
@@ -1100,9 +1101,6 @@ hunspell-devel
 hunspell-tools
 hwinfo
 hwinfo-devel
-hxtools
-hxtools-man
-hxtools-scripts
 hylafax
 hylafax-client
 hyper-v
@@ -1115,7 +1113,6 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk-32bit
 ibus-gtk3
-ibus-gtk3-32bit
 ibus-lang
 ibus-libpinyin
 ibus-libzhuyin
@@ -1265,6 +1262,7 @@ json-glib-devel
 juk
 junit
 k3b
+kactivities4
 kaddressbook
 kaffeine
 kakasi
@@ -1703,12 +1701,10 @@ libatasmart4
 libatk-1_0-0
 libatk-1_0-0-32bit
 libatk-bridge-2_0-0
-libatk-bridge-2_0-0-32bit
 libatkmm-1_6-1
 libatm1
 libatomic1
 libatspi0
-libatspi0-32bit
 libattica0_4
 libattr-devel
 libattr1
@@ -1787,7 +1783,6 @@ libc-client2007e_suse
 libcaca0
 libcacard0
 libcairo-gobject2
-libcairo-gobject2-32bit
 libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
@@ -1802,9 +1797,7 @@ libcanberra-gtk0-32bit
 libcanberra-gtk2-module
 libcanberra-gtk2-module-32bit
 libcanberra-gtk3-0
-libcanberra-gtk3-0-32bit
 libcanberra-gtk3-module
-libcanberra-gtk3-module-32bit
 libcanberra0
 libcanberra0-32bit
 libcap-ng-devel
@@ -1849,7 +1842,6 @@ libcolamd-2_8_0
 libcollection4
 libcolord-gtk1
 libcolord2
-libcolord2-32bit
 libcolorhug2
 libcom_err-devel
 libcom_err2
@@ -1928,7 +1920,6 @@ libedata-book-1_2-20
 libedata-cal-1_2-23
 libedataserver-1_2-18
 libedit0
-libedit0-32bit
 libeews-1_2-0
 libeigen2-devel
 libelf0
@@ -1983,11 +1974,7 @@ libfipscheck1-32bit
 libfli-devel
 libfli1
 libfltk1
-libfm
 libfm-extra4
-libfm-gtk4
-libfm-lang
-libfm4
 libfolks-data
 libfolks-eds25
 libfolks-libsocialweb25
@@ -2004,7 +1991,6 @@ libfreerdp-1_0-plugins
 libfreetype6
 libfreetype6-32bit
 libfribidi0
-libfribidi0-32bit
 libftgl2
 libfuse2
 libgadu-devel
@@ -2196,7 +2182,6 @@ libgthread-2_0-0-32bit
 libgtk-2_0-0
 libgtk-2_0-0-32bit
 libgtk-3-0
-libgtk-3-0-32bit
 libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
 libgtkhex-3-0
@@ -2412,7 +2397,6 @@ liblzma5
 liblzma5-32bit
 liblzo2-2
 libm17n0
-libm17n0-32bit
 libmagic1
 libmagic1-32bit
 libmal-devel
@@ -2484,7 +2468,6 @@ libnautilus-extension1
 libncurses5
 libncurses5-32bit
 libncurses6
-libncurses6-32bit
 libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -2569,7 +2552,6 @@ libosip2
 libosip2-devel
 libossp-uuid16
 libotf0
-libotf0-32bit
 libotr-devel
 libotr5
 libp11-kit0
@@ -2812,13 +2794,11 @@ libselinux-devel
 libselinux1
 libselinux1-32bit
 libsemanage1
-libsemanage1-32bit
 libsensors4
 libsensors4-32bit
 libsensors4-devel
 libsepol-devel
 libsepol1
-libsepol1-32bit
 libserf-1-1
 libsexy
 libsfcUtil0
@@ -2827,6 +2807,7 @@ libshout3
 libsidplay1
 libsigc++2-devel
 libsigc-2_0-0
+libsigsegv2
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslang2
@@ -2975,7 +2956,6 @@ libusbmuxd2
 libusbredirhost1
 libusbredirparser1
 libustr-1_0-1
-libustr-1_0-1-32bit
 libutempter0
 libuuid-devel
 libuuid1
@@ -2989,6 +2969,11 @@ libv4l2-0-32bit
 libv4l2rds0
 libv4lconvert0
 libv4lconvert0-32bit
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvala-0_24-0
 libvamp-hostsdk3
 libvcdinfo0
@@ -2997,6 +2982,7 @@ libvdpau1
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvdpau_va_gl1
 libvigraimpex5
 libvirt
 libvirt-client
@@ -3042,7 +3028,6 @@ libwavpack1
 libwayland-client0
 libwayland-client0-32bit
 libwayland-cursor0
-libwayland-cursor0-32bit
 libwayland-egl-devel
 libwayland-egl1
 libwayland-server0
@@ -3150,7 +3135,6 @@ libxine2-pulse
 libxkbcommon-devel
 libxkbcommon-x11-0
 libxkbcommon0
-libxkbcommon0-32bit
 libxkbfile-devel
 libxkbfile1
 libxkbui-devel
@@ -3251,17 +3235,15 @@ lxlauncher
 lxmenu-data
 lxmusic
 lxmusic-lang
-lxpanel
-lxpanel-lang
 lxrandr
 lxrandr-lang
 lxsession
-lxshortcut
 lxtask
 lxtask-lang
 lxterminal
 lxterminal-lang
 lynx
+lyx
 lzip
 lzop
 m17n-db
@@ -3322,7 +3304,6 @@ mlocate
 mlocate-lang
 mlterm
 mlterm-scim
-mlterm-uim
 mmv
 mobile-broadband-provider-info
 mobipocket
@@ -3653,8 +3634,6 @@ pcfclock-kmp-desktop
 pciutils
 pciutils-devel
 pciutils-ids
-pcmanfm
-pcmanfm-lang
 pcmciautils
 pcre-devel
 pcre-doc
@@ -3751,7 +3730,6 @@ perl-Eval-Closure
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
 perl-ExtUtils-PkgConfig
-perl-File-Find-Rule
 perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
@@ -3844,7 +3822,6 @@ perl-Net-Server
 perl-Net-Telnet
 perl-Net-XMPP
 perl-NetAddr-IP
-perl-Number-Compare
 perl-PDA-Pilot
 perl-PPI
 perl-Package-DeprecationManager
@@ -3896,7 +3873,6 @@ perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
 perl-Text-Diff
-perl-Text-Glob
 perl-Text-Iconv
 perl-Text-Kakasi
 perl-Text-Wrapper
@@ -4090,7 +4066,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4377,7 +4352,6 @@ scim
 scim-gtk
 scim-gtk-32bit
 scim-gtk3
-scim-gtk3-32bit
 scim-hangul
 scim-qt4
 scons
@@ -4516,7 +4490,6 @@ synaptiks
 sysconfig
 sysconfig-netconfig
 sysfsutils
-sysinfo
 syslinux
 system-config-printer
 system-config-printer-applet
@@ -4734,14 +4707,6 @@ udhcp
 udisks2
 ufraw
 ufraw-lang
-uim
-uim-32bit
-uim-gtk2
-uim-gtk2-32bit
-uim-gtk3
-uim-gtk3-32bit
-uim-qt4
-uim-qt4-32bit
 umbrello
 un-fonts
 unclutter
@@ -4764,6 +4729,7 @@ util-linux-systemd
 v4l-conf
 v4l-tools
 v4l-utils
+vaapi-dummy-driver
 vaapi-intel-driver
 vacation
 vala
@@ -5043,6 +5009,8 @@ xgamma
 xgc
 xhost
 xhtml-dtd
+xindy
+xindy-rules
 xine-ui
 xineramaproto-devel
 xinetd

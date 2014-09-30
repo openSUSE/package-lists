@@ -294,7 +294,7 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-ko
+bundle-lang-common-nb
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -400,6 +400,7 @@ clamz
 claws-mail
 claws-mail-lang
 clicfs
+clisp
 cln
 cln-devel
 cloop-kmp-default
@@ -573,6 +574,7 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
+esound-daemon
 espeak
 etags
 ethtool
@@ -615,6 +617,7 @@ fd0ssh
 fdupes
 festival
 fetchmail
+ffcall
 fftw3-devel
 fifth-leg-font
 file
@@ -1080,9 +1083,6 @@ hunspell-devel
 hunspell-tools
 hwinfo
 hwinfo-devel
-hxtools
-hxtools-man
-hxtools-scripts
 hylafax
 hylafax-client
 hyper-v
@@ -1243,6 +1243,7 @@ json-glib-devel
 juk
 junit
 k3b
+kactivities4
 kaddressbook
 kaffeine
 kakasi
@@ -1901,11 +1902,7 @@ libfipscheck1
 libfli-devel
 libfli1
 libfltk1
-libfm
 libfm-extra4
-libfm-gtk4
-libfm-lang
-libfm4
 libfolks-data
 libfolks-eds25
 libfolks-libsocialweb25
@@ -2051,8 +2048,6 @@ libgraphite2-3
 libgrilo-0_2-1
 libgrlnet-0_2-0
 libgrlpls-0_2-0
-libgsasl-lang
-libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsl0
@@ -2388,7 +2383,6 @@ libnova-0_15-0
 libnova-devel
 libnsssharedhelper0
 libntfs-3g85
-libntlm0
 liboauth-devel
 liboauth0
 libobjc4
@@ -2659,6 +2653,7 @@ libshout3
 libsidplay1
 libsigc++2-devel
 libsigc-2_0-0
+libsigsegv2
 libsilc-1_1-2
 libsilcclient-1_1-3
 libslang2
@@ -2798,6 +2793,11 @@ libv4l1-0
 libv4l2-0
 libv4l2rds0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvala-0_24-0
 libvamp-hostsdk3
 libvcdinfo0
@@ -2806,6 +2806,7 @@ libvdpau1
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvdpau_va_gl1
 libvigraimpex5
 libvirt
 libvirt-client
@@ -3033,17 +3034,15 @@ lxlauncher
 lxmenu-data
 lxmusic
 lxmusic-lang
-lxpanel
-lxpanel-lang
 lxrandr
 lxrandr-lang
 lxsession
-lxshortcut
 lxtask
 lxtask-lang
 lxterminal
 lxterminal-lang
 lynx
+lyx
 lzip
 lzop
 m17n-db
@@ -3103,7 +3102,6 @@ mlocate
 mlocate-lang
 mlterm
 mlterm-scim
-mlterm-uim
 mmv
 mobile-broadband-provider-info
 mobipocket
@@ -3146,8 +3144,6 @@ mpfr-devel
 mpt-firmware
 mpt-status
 mrtg
-msmtp
-msmtp-mta
 msynctool
 mtools
 mtpaint
@@ -3425,8 +3421,6 @@ pcfclock-kmp-desktop
 pciutils
 pciutils-devel
 pciutils-ids
-pcmanfm
-pcmanfm-lang
 pcmciautils
 pcre-devel
 pcre-doc
@@ -3522,7 +3516,6 @@ perl-Eval-Closure
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
 perl-ExtUtils-PkgConfig
-perl-File-Find-Rule
 perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
@@ -3615,7 +3608,6 @@ perl-Net-Server
 perl-Net-Telnet
 perl-Net-XMPP
 perl-NetAddr-IP
-perl-Number-Compare
 perl-PDA-Pilot
 perl-PPI
 perl-Package-DeprecationManager
@@ -3667,7 +3659,6 @@ perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
 perl-Text-Diff
-perl-Text-Glob
 perl-Text-Iconv
 perl-Text-Kakasi
 perl-Text-Wrapper
@@ -3861,7 +3852,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4280,7 +4270,6 @@ synaptiks
 sysconfig
 sysconfig-netconfig
 sysfsutils
-sysinfo
 syslinux
 syslog-service
 system-config-printer
@@ -4498,10 +4487,6 @@ udhcp
 udisks2
 ufraw
 ufraw-lang
-uim
-uim-gtk2
-uim-gtk3
-uim-qt4
 umbrello
 un-fonts
 unclutter
@@ -4523,6 +4508,7 @@ util-linux-systemd
 v4l-conf
 v4l-tools
 v4l-utils
+vaapi-dummy-driver
 vaapi-intel-driver
 vacation
 vala
@@ -4800,6 +4786,8 @@ xgamma
 xgc
 xhost
 xhtml-dtd
+xindy
+xindy-rules
 xine-ui
 xineramaproto-devel
 xinetd

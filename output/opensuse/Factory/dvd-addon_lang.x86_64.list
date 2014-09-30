@@ -93,7 +93,6 @@ ant-manual
 ant-scripts
 ant-swing
 anthy
-anthy-32bit
 antlr
 antlr-java
 apache-commons-io
@@ -496,6 +495,7 @@ enchant-devel
 enchant-voikko
 enscript
 eog
+esound-daemon
 espeak
 etags
 ethtool
@@ -858,7 +858,6 @@ gtk3-immodules-tigrigna
 gtk3-metatheme-adwaita
 gtk3-theming-engine-adwaita
 gtk3-tools
-gtk3-tools-32bit
 gtkiterm
 gtksourceview-devel
 gtksourceview-sharp2
@@ -1000,6 +999,7 @@ joe
 json-glib-devel
 junit
 k3b
+kactivities4
 kaddressbook
 kaffeine
 kalgebra
@@ -1327,7 +1327,6 @@ libXp-devel
 libXp6
 libXpm-devel
 libXpm4
-libXpm4-32bit
 libXprintAppUtil-devel
 libXprintAppUtil1
 libXprintUtil-devel
@@ -1343,7 +1342,6 @@ libXss1
 libXss1-32bit
 libXt-devel
 libXt6
-libXt6-32bit
 libXtst-devel
 libXtst6
 libXv-devel
@@ -1395,12 +1393,10 @@ libatasmart4
 libatk-1_0-0
 libatk-1_0-0-32bit
 libatk-bridge-2_0-0
-libatk-bridge-2_0-0-32bit
 libatkmm-1_6-1
 libatm1
 libatomic1
 libatspi0
-libatspi0-32bit
 libattica0_4
 libattr-devel
 libattr1
@@ -1468,7 +1464,6 @@ libbz2-1
 libbz2-devel
 libcacard0
 libcairo-gobject2
-libcairo-gobject2-32bit
 libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
@@ -1482,9 +1477,7 @@ libcanberra-gtk0-32bit
 libcanberra-gtk2-module
 libcanberra-gtk2-module-32bit
 libcanberra-gtk3-0
-libcanberra-gtk3-0-32bit
 libcanberra-gtk3-module
-libcanberra-gtk3-module-32bit
 libcanberra0
 libcanberra0-32bit
 libcap-ng0
@@ -1521,7 +1514,6 @@ libcogl-pango20
 libcogl20
 libcolord-gtk1
 libcolord2
-libcolord2-32bit
 libcolorhug2
 libcom_err-devel
 libcom_err2
@@ -1588,7 +1580,6 @@ libedata-book-1_2-20
 libedata-cal-1_2-23
 libedataserver-1_2-18
 libedit0
-libedit0-32bit
 libelf0
 libelf1
 libelf1-32bit
@@ -1632,11 +1623,7 @@ libfftw3-3
 libfipscheck1
 libfipscheck1-32bit
 libfltk1
-libfm
 libfm-extra4
-libfm-gtk4
-libfm-lang
-libfm4
 libfolks-data
 libfolks-eds25
 libfolks-libsocialweb25
@@ -1652,7 +1639,6 @@ libfreerdp-1_0-plugins
 libfreetype6
 libfreetype6-32bit
 libfribidi0
-libfribidi0-32bit
 libfuse2
 libgadu3
 libgarcon-1-0
@@ -1679,7 +1665,6 @@ libgcrypt-devel
 libgcrypt20
 libgcrypt20-32bit
 libgd3
-libgd3-32bit
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
@@ -1809,7 +1794,6 @@ libgthread-2_0-0-32bit
 libgtk-2_0-0
 libgtk-2_0-0-32bit
 libgtk-3-0
-libgtk-3-0-32bit
 libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
 libgtkhtml-4_0-0
@@ -1978,7 +1962,6 @@ liblzma5
 liblzma5-32bit
 liblzo2-2
 libm17n0
-libm17n0-32bit
 libmagic1
 libmal-devel
 libmal1
@@ -1990,7 +1973,6 @@ libmediaart-devel
 libmediastreamer_base3
 libmediastreamer_voip3
 libmediawiki1
-libmenu-cache3
 libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
@@ -2035,7 +2017,6 @@ libnautilus-extension1
 libncurses5
 libncurses5-32bit
 libncurses6
-libncurses6-32bit
 libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -2105,7 +2086,6 @@ libosinfo-1_0-0
 libosip2
 libosip2-devel
 libotf0
-libotf0-32bit
 libotr5
 libp11-kit0
 libpackagekit-glib2-18
@@ -2483,6 +2463,11 @@ libv4l1-0
 libv4l2-0
 libv4l2rds0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvala-0_24-0
 libvcdinfo0
 libvdeplug3
@@ -2490,6 +2475,7 @@ libvdpau1
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvdpau_va_gl1
 libvigraimpex5
 libvirt-client
 libvirt-daemon
@@ -2518,7 +2504,6 @@ libvorbisenc2-32bit
 libvorbisfile3
 libvorbisfile3-32bit
 libvpx1
-libvpx1-32bit
 libvte2_90-9
 libvte9
 libwacom-data
@@ -2527,7 +2512,6 @@ libwavpack1
 libwayland-client0
 libwayland-client0-32bit
 libwayland-cursor0
-libwayland-cursor0-32bit
 libwayland-egl-devel
 libwayland-egl1
 libwayland-server0
@@ -2624,7 +2608,6 @@ libxine2-pulse
 libxkbcommon-devel
 libxkbcommon-x11-0
 libxkbcommon0
-libxkbcommon0-32bit
 libxkbfile-devel
 libxkbfile1
 libxkbui-devel
@@ -2708,12 +2691,9 @@ lxinput-lang
 lxmenu-data
 lxmusic
 lxmusic-lang
-lxpanel
-lxpanel-lang
 lxrandr
 lxrandr-lang
 lxsession
-lxshortcut
 lxtask
 lxtask-lang
 lxterminal
@@ -2759,7 +2739,6 @@ mjpegtools
 mkfontdir
 mkfontscale
 mlterm-scim
-mlterm-uim
 mobile-broadband-provider-info
 mobipocket
 mono-basic
@@ -3050,8 +3029,6 @@ patterns-openSUSE-yast2_install_wf
 pax
 pciutils
 pciutils-ids
-pcmanfm
-pcmanfm-lang
 pcmciautils
 pcre-devel
 pcre-doc
@@ -3250,7 +3227,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -3419,7 +3395,6 @@ scim
 scim-gtk
 scim-gtk-32bit
 scim-gtk3
-scim-gtk3-32bit
 scim-hangul
 scim-qt4
 scout
@@ -3748,14 +3723,6 @@ udev
 udev-configure-printer
 udhcp
 udisks2
-uim
-uim-32bit
-uim-gtk2
-uim-gtk2-32bit
-uim-gtk3
-uim-gtk3-32bit
-uim-qt4
-uim-qt4-32bit
 umbrello
 un-fonts
 unison
@@ -3770,6 +3737,7 @@ usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
+vaapi-dummy-driver
 vaapi-intel-driver
 vacation
 vala

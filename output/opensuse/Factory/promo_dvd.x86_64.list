@@ -321,6 +321,7 @@ empathy
 enblend-enfuse
 enscript
 eog
+esound-daemon
 espeak
 etags
 ethtool
@@ -734,6 +735,7 @@ javapackages-tools
 jfsutils
 joe
 k3b
+kactivities4
 kaddressbook
 kaffeine
 kalgebra
@@ -1246,11 +1248,7 @@ libfftw3-3
 libfipscheck1
 libfipscheck1-32bit
 libfltk1
-libfm
 libfm-extra4
-libfm-gtk4
-libfm-lang
-libfm4
 libfolks-data
 libfolks-eds25
 libfolks-libsocialweb25
@@ -1565,7 +1563,6 @@ libmediaart-1_0-0
 libmediastreamer_base3
 libmediastreamer_voip3
 libmediawiki1
-libmenu-cache3
 libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
@@ -1964,6 +1961,11 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvala-0_24-0
 libvcdinfo0
 libvdeplug3
@@ -1971,6 +1973,7 @@ libvdpau1
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvdpau_va_gl1
 libvigraimpex5
 libvisio-0_1-1
 libvisual
@@ -2154,12 +2157,9 @@ lxinput-lang
 lxmenu-data
 lxmusic
 lxmusic-lang
-lxpanel
-lxpanel-lang
 lxrandr
 lxrandr-lang
 lxsession
-lxshortcut
 lxtask
 lxtask-lang
 lxterminal
@@ -2408,8 +2408,6 @@ patterns-openSUSE-yast2_install_wf
 pax
 pciutils
 pciutils-ids
-pcmanfm
-pcmanfm-lang
 pcmciautils
 pcre-devel
 pcsc-lite
@@ -2582,7 +2580,6 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -2964,6 +2961,7 @@ usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
+vaapi-dummy-driver
 vaapi-intel-driver
 vacation
 valgrind
