@@ -554,7 +554,6 @@ fprintd-lang
 fprintd-pam
 freerdp
 freetype2-devel
-fribidi
 frink
 ft2demos
 fuse
@@ -1573,6 +1572,7 @@ libfreehand-0_1-1
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
+libfribidi0
 libfuse2
 libgadu3
 libgarcon-1-0
@@ -2323,6 +2323,11 @@ libv4l1-0
 libv4l2-0
 libv4l2rds0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvala-0_24-0
 libvcdinfo0
 libvdeplug3
@@ -2330,6 +2335,7 @@ libvdpau1
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvdpau_va_gl1
 libvigraimpex5
 libvirt-client
 libvirt-daemon
@@ -2639,6 +2645,10 @@ myspell-hr_HR
 myspell-hu_HU
 myspell-is
 myspell-it_IT
+myspell-lightproof-en
+myspell-lightproof-hu_HU
+myspell-lightproof-pt_BR
+myspell-lightproof-ru_RU
 myspell-lt_LT
 myspell-lv_LV
 myspell-nl_NL
@@ -3554,6 +3564,7 @@ usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
+vaapi-dummy-driver
 vaapi-intel-driver
 vacation
 vala

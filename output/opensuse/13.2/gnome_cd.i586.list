@@ -179,7 +179,6 @@ fortune
 fprintd
 fprintd-lang
 fprintd-pam
-fribidi
 fuse
 gamin-server
 gawk
@@ -635,6 +634,7 @@ libfprint0
 libfreebl3
 libfreehand-0_1-1
 libfreetype6
+libfribidi0
 libfuse2
 libgadu3
 libgbm1
@@ -1041,10 +1041,16 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvdpau1
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvdpau_va_gl1
 libvisio-0_1-1
 libvisual
 libvmtools0
@@ -1157,6 +1163,7 @@ mutter
 mutter-data
 myspell-dictionaries
 myspell-en
+myspell-lightproof-en
 nano
 nano-lang
 nautilus
@@ -1551,6 +1558,7 @@ usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
+vaapi-dummy-driver
 vaapi-intel-driver
 vim
 vino

@@ -297,7 +297,6 @@ bundle-lang-common-ja
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
-bundle-lang-common-sv
 bundle-lang-common-zh
 bundle-lang-gnome-cs
 bundle-lang-gnome-da
@@ -305,6 +304,7 @@ bundle-lang-gnome-de
 bundle-lang-gnome-el
 bundle-lang-gnome-en
 bundle-lang-gnome-es
+bundle-lang-gnome-fi
 bundle-lang-gnome-fr
 bundle-lang-gnome-hu
 bundle-lang-gnome-it
@@ -401,6 +401,7 @@ classpathx-mail-javadoc
 claws-mail
 claws-mail-lang
 clicfs
+clisp
 cln
 cln-devel
 cloop-kmp-default
@@ -586,7 +587,6 @@ evolution-ews
 evolution-ews-lang
 exif
 exiftool
-exim
 exo-lang
 exo-tools
 expat
@@ -618,6 +618,7 @@ fd0ssh
 fdupes
 festival
 fetchmail
+ffcall
 fftw3-devel
 fifth-leg-font
 file
@@ -656,7 +657,6 @@ freetype
 freetype-tools
 freetype2-devel
 frei0r-plugins
-fribidi
 fribidi-devel
 frink
 frogr
@@ -1097,9 +1097,6 @@ hunspell-devel
 hunspell-tools
 hwinfo
 hwinfo-devel
-hxtools
-hxtools-man
-hxtools-scripts
 hylafax
 hylafax-client
 hyper-v
@@ -1984,6 +1981,7 @@ libfreehand-0_1-1
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
+libfribidi0
 libftgl2
 libfuse2
 libgadu-devel
@@ -2114,6 +2112,8 @@ libgraphite2-3
 libgrilo-0_2-1
 libgrlnet-0_2-0
 libgrlpls-0_2-0
+libgsasl-lang
+libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsl0
@@ -2451,6 +2451,7 @@ libnova-0_15-0
 libnova-devel
 libnsssharedhelper0
 libntfs-3g85
+libntlm0
 liboauth-devel
 liboauth0
 libobjc4
@@ -2879,6 +2880,11 @@ libv4l1-0
 libv4l2-0
 libv4l2rds0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvala-0_24-0
 libvamp-hostsdk3
 libvcdinfo0
@@ -2887,6 +2893,7 @@ libvdpau1
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvdpau_va_gl1
 libvigraimpex5
 libvirt
 libvirt-client
@@ -3130,6 +3137,7 @@ lxtask-lang
 lxterminal
 lxterminal-lang
 lynx
+lyx
 lzip
 lzop
 m17n-db
@@ -3206,7 +3214,6 @@ mono-debugger
 mono-devel
 mono-entityframework
 mono-extras
-mono-kde4
 mono-locale-extras
 mono-mvc
 mono-nunit
@@ -3236,6 +3243,8 @@ mpfr-devel
 mpt-firmware
 mpt-status
 mrtg
+msmtp
+msmtp-mta
 msynctool
 mtools
 mtpaint
@@ -3259,6 +3268,10 @@ myspell-fr_FR
 myspell-german-old
 myspell-hu_HU
 myspell-it_IT
+myspell-lightproof-en
+myspell-lightproof-hu_HU
+myspell-lightproof-pt_BR
+myspell-lightproof-ru_RU
 myspell-pl_PL
 myspell-pt_BR
 myspell-ru_RU
@@ -3621,7 +3634,6 @@ perl-Eval-Closure
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
 perl-ExtUtils-PkgConfig
-perl-File-Find-Rule
 perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
@@ -3714,7 +3726,6 @@ perl-Net-Server
 perl-Net-Telnet
 perl-Net-XMPP
 perl-NetAddr-IP
-perl-Number-Compare
 perl-PDA-Pilot
 perl-PPI
 perl-Package-DeprecationManager
@@ -3766,7 +3777,6 @@ perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
 perl-Text-Diff
-perl-Text-Glob
 perl-Text-Iconv
 perl-Text-Kakasi
 perl-Text-Wrapper
@@ -4381,7 +4391,6 @@ synaptiks
 sysconfig
 sysconfig-netconfig
 sysfsutils
-sysinfo
 syslinux
 syslog-service
 system-config-printer
@@ -6754,6 +6763,7 @@ util-linux-systemd
 v4l-conf
 v4l-tools
 v4l-utils
+vaapi-dummy-driver
 vaapi-intel-driver
 vacation
 vala
@@ -7031,6 +7041,8 @@ xgamma
 xgc
 xhost
 xhtml-dtd
+xindy
+xindy-rules
 xine-ui
 xineramaproto-devel
 xinetd

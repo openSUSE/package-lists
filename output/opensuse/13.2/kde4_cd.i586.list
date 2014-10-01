@@ -260,6 +260,10 @@ ipw-firmware
 irda
 iscsiuio
 iw
+java-1_8_0-openjdk
+java-1_8_0-openjdk-headless
+java-1_8_0-openjdk-plugin
+javapackages-tools
 jfsutils
 k3b
 kaddressbook
@@ -661,6 +665,7 @@ libloudmouth-1-0
 liblqr-1-0
 libltdl7
 liblua5_1
+liblua5_2
 liblzma5
 liblzo2-2
 libmagic1
@@ -882,10 +887,16 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvcdinfo0
 libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
+libvdpau_va_gl1
 libvigraimpex5
 libvisio-0_1-1
 libvisual
@@ -939,6 +950,7 @@ libxkbfile1
 libxml2-2
 libxml2-tools
 libxshmfence1
+libxslt-tools
 libxslt1
 libxtables10
 libyaml-0-2
@@ -960,6 +972,7 @@ lomoco
 lsb-release
 lsof
 lsscsi
+lua
 luit
 lvm2
 mailx
@@ -987,6 +1000,7 @@ mtools
 multipath-tools
 myspell-dictionaries
 myspell-en
+myspell-lightproof-en
 nano
 nano-lang
 ncurses-utils
@@ -1263,6 +1277,7 @@ terminfo-base
 tigervnc
 time
 timezone
+timezone-java
 tnftp
 traceroute
 translation-update
@@ -1288,6 +1303,7 @@ usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
+vaapi-dummy-driver
 vaapi-intel-driver
 vcdimager
 vim
