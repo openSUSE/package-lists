@@ -11,6 +11,7 @@ aaa_base
 aaa_base-extras
 acl
 adjtimex
+adwaita-icon-theme
 apper
 at-spi2-atk-common
 at-spi2-atk-gtk2
@@ -81,9 +82,6 @@ glib2-tools
 glibc
 glibc-extra
 glibc-locale
-gnome-icon-theme
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
 gnome-online-accounts
 gnuchess
 google-carlito-fonts
@@ -113,7 +111,6 @@ gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
-gtk3-theming-engine-adwaita
 gtk3-tools
 gvfs
 gvfs-backend-afc
@@ -521,8 +518,8 @@ libxcb-util1
 libxcb-xfixes0
 libxcb-xkb1
 libxcb1
-libxkbcommon-x11-0
-libxkbcommon0
+libxkbcommon-0_4_3
+libxkbcommon-x11-0_4_3
 libxml2-2
 libxshmfence1
 libxslt-tools

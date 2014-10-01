@@ -49,6 +49,7 @@ acl
 acpica
 adaptec-firmware
 adjtimex
+adwaita-icon-theme
 aisleriot
 akonadi
 akonadi-runtime
@@ -326,6 +327,7 @@ espeak
 etags
 ethtool
 evince
+evince-browser-plugin
 evolution
 evolution-data-server
 exif
@@ -516,6 +518,8 @@ gnome-shell-browser-plugin
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
+gnome-shell-search-provider-gnome-calculator
+gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
@@ -540,6 +544,7 @@ gnucash-lang
 gnuchess
 goffice-0_8-lang
 goffice-lang
+gom-lang
 google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
@@ -555,7 +560,6 @@ graphviz-gd
 graphviz-gnome
 grep
 grilo-plugin-tracker
-grilo-plugin-upnp
 grilo-plugin-youtube
 grilo-plugins
 groff
@@ -632,7 +636,6 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-immodule-xim
 gtk3-metatheme-adwaita
-gtk3-theming-engine-adwaita
 gtk3-tools
 gtkiterm
 gtkspell-lang
@@ -641,7 +644,6 @@ gucharmap
 guile
 guile-modules-2_0
 guile1
-gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
@@ -1251,8 +1253,8 @@ libfltk1
 libfm-extra4
 libfolks-data
 libfolks-eds25
-libfolks-libsocialweb25
 libfolks-telepathy25
+libfolks-tracker25
 libfolks25
 libfontenc1
 libfprint0
@@ -1338,6 +1340,8 @@ libgnome-lang
 libgnome-menu-3-0
 libgnomecanvas-2-0
 libgnomecanvas-lang
+libgnomekbd
+libgnomekbd-lang
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -1349,6 +1353,7 @@ libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgoffice-0_10-10
 libgoffice-0_8-8
+libgom-1_0-0
 libgomp1
 libgooglepinyin0
 libgpg-error0
@@ -1399,6 +1404,7 @@ libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
 libgstvdp-0_10-23
 libgstvideo-1_0-0
+libgsystem0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -1424,7 +1430,6 @@ libguile-srfi-srfi-60-v-2-2
 libguile17
 libguilereadline-v-17-17
 libgupnp-1_0-4
-libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
 libgusb2
 libgvnc-1_0-0
@@ -1457,7 +1462,7 @@ libindi0
 libindidriver0
 libiniparser0
 libiniparser0-32bit
-libinput0
+libinput5
 libiptc0
 libiptcdata
 libiptcdata0
@@ -1474,6 +1479,7 @@ libjasper1
 libjasper1-32bit
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
+libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2-32bit
 libjbig2dec0
@@ -1748,6 +1754,7 @@ libqjson0
 libqmi-glib1
 libqmi-tools
 libqoauth1
+libqqwing2
 libqrencode3
 libqt4
 libqt4-32bit
@@ -1868,7 +1875,6 @@ libsndfile1-32bit
 libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
-libsocialweb-client2
 libsocialweb0
 libsocks0
 libsofia-sip-ua-glib3
@@ -1929,7 +1935,6 @@ libtiff5-32bit
 libtimidity-0_1-0
 libtirpc1
 libtool
-libtotem-plparser-mini18
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -1966,7 +1971,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_24-0
+libvala-0_26-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -1986,7 +1991,7 @@ libvorbisenc2-32bit
 libvorbisfile3
 libvorbisfile3-32bit
 libvpx1
-libvte2_90-9
+libvte-2_91-0
 libvte9
 libwacom-data
 libwacom2
@@ -1999,7 +2004,8 @@ libwayland-server0
 libwayland-server0-32bit
 libwbclient0
 libwbclient0-32bit
-libwebkit2gtk-3_0-25
+libwebkit2gtk-4_0-37
+libwebkit2gtk3-lang
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebp5
@@ -2082,8 +2088,8 @@ libxfconf-0-2
 libxfsm-4_6-0
 libxine2
 libxine2-pulse
-libxkbcommon-x11-0
-libxkbcommon0
+libxkbcommon-0_4_3
+libxkbcommon-x11-0_4_3
 libxkbfile1
 libxklavier16
 libxml++-2_6-2
@@ -2686,11 +2692,6 @@ readline-doc
 recode
 reiserfs
 release-notes-openSUSE
-remmina
-remmina-lang
-remmina-plugin-rdp
-remmina-plugin-vnc
-remmina-plugin-xdmcp
 renderproto-devel
 rgb
 rhythmbox
@@ -2858,8 +2859,6 @@ timezone-java
 tk
 tnftp
 totem
-totem-browser-plugin
-totem-browser-plugin-gmp
 totem-pl-parser
 totem-plugins
 traceroute
@@ -2892,6 +2891,7 @@ typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
+typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
@@ -2900,10 +2900,12 @@ typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
 typelib-1_0-GMenu-3_0
+typelib-1_0-GSystem-1_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
+typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -2921,7 +2923,9 @@ typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-3_0
+typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
+typelib-1_0-MediaArt-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-NMClient-1_0
 typelib-1_0-NMGtk-1_0
@@ -2942,7 +2946,9 @@ typelib-1_0-Tracker-1_0
 typelib-1_0-TrackerControl-1_0
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit-3_0
+typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
+typelib-1_0-Xkl-1_0
 typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
@@ -2992,7 +2998,7 @@ vte2-lang
 w3m
 wallpaper-branding-openSUSE
 wdiff
-webkit2gtk-3_0-injected-bundles
+webkit2gtk-4_0-injected-bundles
 wget
 which
 whois

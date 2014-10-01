@@ -56,6 +56,7 @@ acl
 acpica
 adaptec-firmware
 adjtimex
+adwaita-icon-theme
 aisleriot
 akonadi
 akonadi-runtime
@@ -214,6 +215,7 @@ at-spi2-atk-common
 at-spi2-atk-devel
 at-spi2-atk-gtk2
 at-spi2-core
+at-spi2-core-devel
 atk-devel
 atmel-firmware
 attr
@@ -500,6 +502,7 @@ espeak
 etags
 ethtool
 evince
+evince-browser-plugin
 evolution
 evolution-data-server
 evolution-data-server-devel
@@ -719,6 +722,8 @@ gnome-shell-browser-plugin
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
+gnome-shell-search-provider-gnome-calculator
+gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
@@ -747,6 +752,7 @@ gobject-introspection
 gobject-introspection-devel
 goffice-0_8-lang
 goffice-lang
+gom-lang
 google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
@@ -762,7 +768,6 @@ graphviz-gd
 graphviz-gnome
 grep
 grilo-plugin-tracker
-grilo-plugin-upnp
 grilo-plugin-youtube
 grilo-plugins
 groff
@@ -856,7 +861,6 @@ gtk3-immodule-vietnamese
 gtk3-immodule-xim
 gtk3-immodules-tigrigna
 gtk3-metatheme-adwaita
-gtk3-theming-engine-adwaita
 gtk3-tools
 gtkiterm
 gtksourceview-devel
@@ -868,7 +872,6 @@ gucharmap-devel
 guile
 guile-modules-2_0
 guile1
-gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
@@ -1626,8 +1629,8 @@ libfltk1
 libfm-extra4
 libfolks-data
 libfolks-eds25
-libfolks-libsocialweb25
 libfolks-telepathy25
+libfolks-tracker25
 libfolks25
 libfontenc-devel
 libfontenc1
@@ -1722,6 +1725,8 @@ libgnome-lang
 libgnome-menu-3-0
 libgnomecanvas-2-0
 libgnomecanvas-lang
+libgnomekbd
+libgnomekbd-lang
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -1734,6 +1739,7 @@ libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgoffice-0_10-10
 libgoffice-0_8-8
+libgom-1_0-0
 libgomp1
 libgooglepinyin0
 libgpg-error-devel
@@ -1789,12 +1795,12 @@ libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
 libgstvdp-0_10-23
 libgstvideo-1_0-0
+libgsystem0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
 libgtk-2_0-0-32bit
 libgtk-3-0
-libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
 libgtkhtml-4_0-0
 libgtkhtml-editor-4_0-0
@@ -1816,7 +1822,6 @@ libguile-srfi-srfi-60-v-2-2
 libguile17
 libguilereadline-v-17-17
 libgupnp-1_0-4
-libgupnp-av-1_0-2
 libgupnp-igd-1_0-4
 libgusb2
 libgvnc-1_0-0
@@ -1855,7 +1860,7 @@ libindidriver0
 libiniparser0
 libiniparser0-32bit
 libinput-devel
-libinput0
+libinput5
 libiptc0
 libiptcdata
 libiptcdata0
@@ -1873,6 +1878,7 @@ libjasper1
 libjasper1-32bit
 libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
+libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2-32bit
 libjbig2dec0
@@ -1969,7 +1975,6 @@ libmarblewidget19
 libmbim-glib0
 libmeanwhile1
 libmediaart-1_0-0
-libmediaart-devel
 libmediastreamer_base3
 libmediastreamer_voip3
 libmediawiki1
@@ -2182,6 +2187,7 @@ libqjson0
 libqmi-glib1
 libqmi-tools
 libqoauth1
+libqqwing2
 libqrencode3
 libqt4
 libqt4-32bit
@@ -2361,7 +2367,6 @@ libsndfile1-32bit
 libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
-libsocialweb-client2
 libsocialweb0
 libsocks0
 libsofia-sip-ua-glib3
@@ -2380,7 +2385,6 @@ libspeex1
 libspeex1-32bit
 libspeexdsp1
 libspice-client-glib-2_0-8
-libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
 libspice-controller0
 libspice-server1
@@ -2427,7 +2431,6 @@ libtiff5-32bit
 libtimidity-0_1-0
 libtirpc1
 libtool
-libtotem-plparser-mini18
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -2468,7 +2471,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_24-0
+libvala-0_26-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2490,7 +2493,6 @@ libvirt-daemon-driver-storage
 libvirt-daemon-driver-xen
 libvirt-daemon-qemu
 libvirt-daemon-xen
-libvirt-glib-1_0-0
 libvirt-python
 libvisio-0_1-1
 libvisual
@@ -2504,7 +2506,7 @@ libvorbisenc2-32bit
 libvorbisfile3
 libvorbisfile3-32bit
 libvpx1
-libvte2_90-9
+libvte-2_91-0
 libvte9
 libwacom-data
 libwacom2
@@ -2518,7 +2520,8 @@ libwayland-server0
 libwayland-server0-32bit
 libwbclient0
 libwbclient0-32bit
-libwebkit2gtk-3_0-25
+libwebkit2gtk-4_0-37
+libwebkit2gtk3-lang
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk-devel
@@ -2605,9 +2608,9 @@ libxfsm-4_6-0
 libxine-devel
 libxine2
 libxine2-pulse
+libxkbcommon-0_4_3
 libxkbcommon-devel
-libxkbcommon-x11-0
-libxkbcommon0
+libxkbcommon-x11-0_4_3
 libxkbfile-devel
 libxkbfile1
 libxkbui-devel
@@ -3241,7 +3244,6 @@ python
 python-CherryPy
 python-Jinja2
 python-MarkupSafe
-python-SpiceClientGtk
 python-atspi
 python-base
 python-beautifulsoup
@@ -3260,14 +3262,12 @@ python-deltarpm
 python-devel
 python-docopt
 python-ecdsa
-python-gconf
 python-gobject
 python-gobject-cairo
 python-gobject2
 python-gstreamer-0_10
 python-gtk
 python-httplib2
-python-ipaddr
 python-jedi
 python-kde4
 python-kde4-akonadi
@@ -3348,11 +3348,6 @@ recordproto-devel
 regexp
 reiserfs
 release-notes-openSUSE
-remmina
-remmina-lang
-remmina-plugin-rdp
-remmina-plugin-vnc
-remmina-plugin-xdmcp
 renderproto-devel
 rgb
 rhino
@@ -3550,8 +3545,6 @@ tktable
 tls
 tnftp
 totem
-totem-browser-plugin
-totem-browser-plugin-gmp
 totem-pl-parser
 totem-plugins
 traceroute
@@ -3635,6 +3628,7 @@ typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
+typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
 typelib-1_0-Cogl-1_0
@@ -3648,14 +3642,15 @@ typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
 typelib-1_0-GMenu-3_0
+typelib-1_0-GSystem-1_0
 typelib-1_0-GTop-2_0
-typelib-1_0-GVnc-1_0
 typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
 typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
+typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -3682,13 +3677,12 @@ typelib-1_0-Gtk-2_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
-typelib-1_0-GtkVnc-2_0
 typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-3_0
+typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
-typelib-1_0-LibvirtGLib-1_0
 typelib-1_0-MediaArt-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-NMClient-1_0
@@ -3704,8 +3698,6 @@ typelib-1_0-Rest-0_7
 typelib-1_0-Rsvg-2_0
 typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
-typelib-1_0-SpiceClientGlib-2_0
-typelib-1_0-SpiceClientGtk-3_0
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
 typelib-1_0-TotemPlParser-1_0
@@ -3713,9 +3705,10 @@ typelib-1_0-Tracker-1_0
 typelib-1_0-TrackerControl-1_0
 typelib-1_0-TrackerMiner-1_0
 typelib-1_0-UpowerGlib-1_0
-typelib-1_0-Vte-2_90
+typelib-1_0-Vte-2.91
 typelib-1_0-WebKit-1_0
 typelib-1_0-WebKit-3_0
+typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
 typelib-1_0-Zpj-0_0
@@ -3754,9 +3747,6 @@ vim-data
 vinagre
 vinagre-lang
 vino
-virt-install
-virt-manager
-virt-manager-common
 virt-viewer
 virtualbox
 virtualbox-guest-kmp-default
@@ -3777,7 +3767,7 @@ w3m
 wallpaper-branding-openSUSE
 wayland-devel
 wdiff
-webkit2gtk-3_0-injected-bundles
+webkit2gtk-4_0-injected-bundles
 wget
 which
 whois
