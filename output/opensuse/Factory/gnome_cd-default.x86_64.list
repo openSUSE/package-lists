@@ -348,6 +348,11 @@ libFLAC8
 libGLU1
 libICE6
 libLLVM
+libQt5Core5
+libQt5DBus5
+libQt5Gui5
+libQt5Widgets5
+libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -679,6 +684,7 @@ libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
 libmms0
+libmng2
 libmnl0
 libmodman1
 libmodplug1
@@ -739,6 +745,7 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpcre16-0
 libpdb0
 libpeas-1_0-0
 libpeas-gtk-1_0-0
@@ -778,6 +785,7 @@ libqmi-glib1
 libqmi-tools
 libqqwing2
 libqrencode3
+libqt5-qtimageformats
 libquicktime0
 libquvi
 libquvi-scripts
@@ -911,6 +919,7 @@ libxcb-image0
 libxcb-keysyms1
 libxcb-present0
 libxcb-randr0
+libxcb-render-util0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
@@ -934,6 +943,8 @@ libyaml-0-2
 libyelp0
 libyui-ncurses-pkg6
 libyui-ncurses6
+libyui-qt-pkg6
+libyui-qt6
 libyui6
 libz1
 libzapojit-0_0-0
@@ -1381,7 +1392,7 @@ yast2-apparmor
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-control-center
-yast2-control-center-gnome
+yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
@@ -1406,6 +1417,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-proxy
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
