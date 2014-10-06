@@ -72,12 +72,14 @@ apache2
 apache2-mod_dnssd
 apache2-prefork
 apache2-utils
+apparmor-abstractions
 apparmor-docs
 apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
 appmenu-qt
+appstream-glib
 aqbanking
 aqbanking-lang
 arabic-ae-fonts
@@ -523,6 +525,7 @@ gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -1008,6 +1011,8 @@ libao-plugins4
 libao4
 libapparmor-devel
 libapparmor1
+libappstream-builder1
+libappstream-glib1
 libapr-util1
 libapr1
 libarchive13
@@ -2126,6 +2131,7 @@ libzio1
 libzip2
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightdm
 lightdm-gtk-greeter

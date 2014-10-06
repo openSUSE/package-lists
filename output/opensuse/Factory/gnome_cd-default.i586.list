@@ -32,9 +32,11 @@ alsa-oss
 alsa-plugins
 alsa-plugins-pulse
 alsa-utils
+apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+appstream-glib
 argyllcms
 at-spi2-atk-common
 at-spi2-atk-gtk2
@@ -229,6 +231,7 @@ gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -388,6 +391,8 @@ libaio1
 libao-plugins4
 libao4
 libapparmor1
+libappstream-builder1
+libappstream-glib1
 libarchive13
 libasm1
 libasound2
@@ -942,6 +947,7 @@ libzapojit-0_0-0
 libzio1
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightsoff
 linuxconsoletools
