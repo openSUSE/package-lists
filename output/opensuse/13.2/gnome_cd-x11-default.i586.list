@@ -12,6 +12,7 @@ aaa_base-extras
 acl
 acpica
 adjtimex
+adwaita-icon-theme
 alsa-plugins
 alsa-plugins-pulse
 apparmor-parser
@@ -111,8 +112,6 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
 gnome-online-accounts
@@ -131,8 +130,6 @@ grub2-snapper-plugin
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
-gstreamer-0_10
-gstreamer-0_10-plugins-base
 gstreamer-plugins-base
 gtk2-branding-openSUSE
 gtk2-data
@@ -150,7 +147,6 @@ gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
-gtk3-theming-engine-adwaita
 gtk3-tools
 gvfs
 gvfs-backend-afc
@@ -334,13 +330,10 @@ libgpg-error0
 libgphoto2-6
 libgpm2
 libgraphite2-3
-libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
-libgstinterfaces-0_10-0
 libgstpbutils-1_0-0
-libgstreamer-0_10-0
 libgstreamer-1_0-0
 libgstriff-1_0-0
 libgsttag-1_0-0
@@ -410,7 +403,7 @@ libopenobex2
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
-libpackagekit-glib2-16
+libpackagekit-glib2-18
 libpango-1_0-0
 libparted0
 libpcap1
@@ -530,8 +523,8 @@ libxcb-util1
 libxcb-xfixes0
 libxcb-xkb1
 libxcb1
-libxkbcommon-x11-0
-libxkbcommon0
+libxkbcommon-0_4_3
+libxkbcommon-x11-0_4_3
 libxkbfile1
 libxml2-2
 libxml2-tools

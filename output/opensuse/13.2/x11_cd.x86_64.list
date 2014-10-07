@@ -19,6 +19,7 @@ acl
 acpica
 adaptec-firmware
 adjtimex
+adwaita-icon-theme
 alsa
 alsa-firmware
 alsa-oss
@@ -207,7 +208,6 @@ gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
-gtk3-theming-engine-adwaita
 gtk3-tools
 gvfs
 gvfs-backend-afc
@@ -537,7 +537,7 @@ libopenraw1
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
-libpackagekit-glib2-16
+libpackagekit-glib2-18
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
@@ -698,8 +698,8 @@ libxfce4util-lang
 libxfce4util6
 libxfconf-0-2
 libxfsm-4_6-0
-libxkbcommon-x11-0
-libxkbcommon0
+libxkbcommon-0_4_3
+libxkbcommon-x11-0_4_3
 libxkbfile1
 libxklavier16
 libxml2-2
