@@ -34,6 +34,7 @@ alsa-plugins-pulse
 alsa-utils
 amarok
 android-tools
+apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -158,7 +159,6 @@ fipscheck
 fontconfig
 fonts-config
 fprintd
-fprintd-lang
 fprintd-pam
 freerdp
 gawk
@@ -215,7 +215,6 @@ gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-plugins-base
 gstreamer-plugins-good
-gstreamer-plugins-good-lang
 gstreamer-plugins-qt
 gtk2-branding-openSUSE
 gtk2-data
@@ -563,6 +562,7 @@ libgiomm-2_4-1
 libgirepository-1_0-1
 libglib-2_0-0
 libglibmm-2_4-1
+libgltf-0_0-0
 libgmodule-2_0-0
 libgmp10
 libgnome-keyring0
@@ -780,7 +780,6 @@ libproxy1-pacrunner-webkit
 libpth20
 libpulse-mainloop-glib0
 libpulse0
-libpwquality-lang
 libpwquality1
 libpython2_7-1_0
 libpython3_4m1_0
@@ -1277,7 +1276,6 @@ syslinux
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
-system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion

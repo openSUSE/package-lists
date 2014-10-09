@@ -17,7 +17,6 @@ boost-license1_54_0
 branding-openSUSE
 btrfsprogs
 bundle-lang-common-en
-bundle-lang-gnome-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -48,6 +47,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+exim
 expat
 fdupes
 file
@@ -245,10 +245,7 @@ logrotate
 lsof
 lsscsi
 lvm2
-m4
-make
 mdadm
-metamail
 mozilla-nspr
 mtools
 multipath-tools
@@ -335,9 +332,7 @@ pm-utils
 polkit
 polkit-default-privs
 prctl
-procmail
 procps
-psmisc
 python
 python-base
 python-gobject
@@ -355,14 +350,10 @@ ruby2.1-stdlib
 rubygem-fast_gettext
 rubygem-ruby-dbus
 sed
-sendmail
 sg3_utils
 shadow
 shared-mime-info
-sharutils
-sharutils-lang
 shim
-site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -374,7 +365,6 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools

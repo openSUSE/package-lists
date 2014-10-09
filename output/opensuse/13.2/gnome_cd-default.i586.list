@@ -32,6 +32,7 @@ alsa-oss
 alsa-plugins
 alsa-plugins-pulse
 alsa-utils
+apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
@@ -239,7 +240,6 @@ gnome-version
 gnome-video-effects
 gnu-unifont-bitmap-fonts
 gnuchess
-gom-lang
 google-droid-fonts
 google-opensans-fonts
 gpart
@@ -345,6 +345,11 @@ libFLAC8
 libGLU1
 libICE6
 libLLVM
+libQt5Core5
+libQt5DBus5
+libQt5Gui5
+libQt5Widgets5
+libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -557,7 +562,6 @@ libgnome-desktop-3_0-common
 libgnome-keyring0
 libgnome-menu-3-0
 libgnomekbd
-libgnomekbd-lang
 libgnomesu
 libgnomesu0
 libgnutls28
@@ -570,7 +574,6 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgpm2
-libgpod-lang
 libgpod-tools
 libgpod4
 libgraphite2-3
@@ -676,6 +679,7 @@ libmission-control-plugins0
 libmjpegutils-2_0-0
 libmm-glib0
 libmms0
+libmng2
 libmnl0
 libmodman1
 libmodplug1
@@ -735,6 +739,7 @@ libpcap1
 libpci3
 libpciaccess0
 libpcre1
+libpcre16-0
 libpdb0
 libpeas-1_0-0
 libpeas-gtk-1_0-0
@@ -772,7 +777,9 @@ libpython2_7-1_0
 libpython3_4m1_0
 libqmi-glib1
 libqmi-tools
+libqqwing2
 libqrencode3
+libqt5-qtimageformats
 libquicktime0
 libquvi
 libquvi-scripts
@@ -888,13 +895,11 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebkit2gtk-4_0-37
-libwebkit2gtk3-lang
 libwebkitgtk-3_0-0
 libwebp5
 libwebrtc_audio_processing0
 libwicked-0-6
 libwnck-3-0
-libwnck-lang
 libwrap0
 libx86-1
 libx86emu1
@@ -906,6 +911,7 @@ libxcb-image0
 libxcb-keysyms1
 libxcb-present0
 libxcb-randr0
+libxcb-render-util0
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
@@ -929,6 +935,8 @@ libyaml-0-2
 libyelp0
 libyui-ncurses-pkg6
 libyui-ncurses6
+libyui-qt-pkg6
+libyui-qt6
 libyui6
 libz1
 libzapojit-0_0-0
@@ -1146,7 +1154,6 @@ recode
 release-notes-openSUSE
 rgb
 rhythmbox
-rhythmbox-lang
 rpcbind
 rpm
 rpm-python
@@ -1196,7 +1203,6 @@ syslinux
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
-system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-bash-completion
@@ -1373,7 +1379,7 @@ yast2-apparmor
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-control-center
-yast2-control-center-gnome
+yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
@@ -1398,6 +1404,7 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-proxy
+yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server

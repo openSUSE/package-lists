@@ -72,6 +72,7 @@ apache2
 apache2-mod_dnssd
 apache2-prefork
 apache2-utils
+apparmor-abstractions
 apparmor-docs
 apparmor-parser
 apparmor-profiles
@@ -87,6 +88,7 @@ arabic-kacst-fonts
 arabic-kacstone-fonts
 arabic-naqsh-fonts
 argyllcms
+aria2
 ark
 arphic-uming-fonts
 arpwatch
@@ -381,7 +383,6 @@ fortune
 four-in-a-row
 four-in-a-row-lang
 fprintd
-fprintd-lang
 fprintd-pam
 fprintd-pam-32bit
 freerdp
@@ -544,7 +545,6 @@ gnucash-lang
 gnuchess
 goffice-0_8-lang
 goffice-lang
-gom-lang
 google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
@@ -639,7 +639,6 @@ gtk3-metatheme-adwaita
 gtk3-tools
 gtkiterm
 gtkspell-lang
-gtkspell3-lang
 gucharmap
 guile
 guile-modules-2_0
@@ -1327,6 +1326,7 @@ libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
 libglibmm-2_4-1
+libgltf-0_0-0
 libglut3
 libgme0
 libgmime-2_6-0
@@ -1345,7 +1345,6 @@ libgnome-menu-3-0
 libgnomecanvas-2-0
 libgnomecanvas-lang
 libgnomekbd
-libgnomekbd-lang
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -1759,6 +1758,7 @@ libqjson0
 libqmi-glib1
 libqmi-tools
 libqoauth1
+libqqwing2
 libqrencode3
 libqt4
 libqt4-32bit
@@ -2009,7 +2009,6 @@ libwayland-server0-32bit
 libwbclient0
 libwbclient0-32bit
 libwebkit2gtk-4_0-37
-libwebkit2gtk3-lang
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebp5
@@ -2018,7 +2017,7 @@ libwicked-0-6
 libwmf-0_2-7
 libwnck-1-22
 libwnck-3-0
-libwnck-lang
+libwnck2-lang
 libwpd-0_10-10
 libwpg-0_3-3
 libwps-0_3-3
@@ -2172,7 +2171,6 @@ lxpanel-lang
 lxrandr
 lxrandr-lang
 lxsession
-lxshortcut
 lxtask
 lxtask-lang
 lxterminal
@@ -2701,10 +2699,14 @@ readline-doc
 recode
 reiserfs
 release-notes-openSUSE
+remmina
+remmina-lang
+remmina-plugin-rdp
+remmina-plugin-vnc
+remmina-plugin-xdmcp
 renderproto-devel
 rgb
 rhythmbox
-rhythmbox-lang
 ristretto
 ristretto-lang
 rpcbind
@@ -2819,7 +2821,6 @@ syslinux
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
-system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-32bit
@@ -2962,6 +2963,8 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udisks2
+uget
+uget-lang
 umbrello
 un-fonts
 unison
@@ -3007,6 +3010,7 @@ vte2-lang
 w3m
 wallpaper-branding-openSUSE
 wdiff
+wdiff-lang
 webkit2gtk-4_0-injected-bundles
 wget
 which

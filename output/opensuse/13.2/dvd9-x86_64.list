@@ -144,6 +144,7 @@ apache2-mod_tidy
 apache2-prefork
 apache2-utils
 apel
+apparmor-abstractions
 apparmor-docs
 apparmor-parser
 apparmor-profiles
@@ -294,6 +295,7 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ca
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -601,6 +603,7 @@ evolution-ews
 evolution-ews-lang
 exif
 exiftool
+exim
 exo-lang
 exo-tools
 expat
@@ -663,7 +666,6 @@ fortune
 four-in-a-row
 four-in-a-row-lang
 fprintd
-fprintd-lang
 fprintd-pam
 fprintd-pam-32bit
 freeglut-devel
@@ -936,7 +938,6 @@ gobject-introspection
 gobject-introspection-devel
 goffice-0_8-lang
 goffice-lang
-gom-lang
 google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
@@ -1073,7 +1074,6 @@ gtksourceview-devel
 gtksourceview-sharp2
 gtksourceview2-lang
 gtkspell-lang
-gtkspell3-lang
 gucharmap
 gucharmap-devel
 gudev-sharp
@@ -1133,7 +1133,6 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk-32bit
 ibus-gtk3
-ibus-lang
 ibus-libpinyin
 ibus-libzhuyin
 ibus-m17n
@@ -2112,6 +2111,7 @@ libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
 libgdl-3-5
+libgdlmm-3_0-2
 libgdm1
 libgee-0_8-2
 libgee2
@@ -2148,6 +2148,7 @@ libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
 libglibmm-2_4-1
+libgltf-0_0-0
 libglut3
 libgme0
 libgmime-2_6-0
@@ -2172,7 +2173,6 @@ libgnomecanvas-2-0
 libgnomecanvas-devel
 libgnomecanvas-lang
 libgnomekbd
-libgnomekbd-lang
 libgnomesu
 libgnomesu0
 libgnomeui
@@ -2246,7 +2246,7 @@ libgstreamer-1_0-0
 libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
-libgstrtspserver-0_10-0
+libgstrtspserver-1_0-0
 libgstsdp-1_0-0
 libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
@@ -2268,6 +2268,7 @@ libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-2_0-0
 libgtksourceview-3_0-1
+libgtksourceviewmm-3_0-0
 libgtkspell0
 libgtkspell3-3-0
 libgtop-2_0-10
@@ -2756,6 +2757,7 @@ libqjson0
 libqmi-glib1
 libqmi-tools
 libqoauth1
+libqqwing2
 libqrencode3
 libqscintilla-devel
 libqscintilla2-11
@@ -3132,7 +3134,6 @@ libwbclient0-32bit
 libwbxml2-0
 libwbxml2-devel
 libwebkit2gtk-4_0-37
-libwebkit2gtk3-lang
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk-devel
@@ -3145,7 +3146,7 @@ libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck-devel
-libwnck-lang
+libwnck2-lang
 libwpd-0_10-10
 libwpd-devel
 libwpg-0_3-3
@@ -3341,7 +3342,6 @@ lxpanel-lang
 lxrandr
 lxrandr-lang
 lxsession
-lxshortcut
 lxtask
 lxtask-lang
 lxterminal
@@ -3504,6 +3504,8 @@ nbd-doc
 ncftp
 ncurses-devel
 ncurses-utils
+nemiver
+nemiver-lang
 net-snmp
 net-snmp-devel
 net-tools
@@ -4403,13 +4405,17 @@ rekonq
 rekonq-doc
 rekonq-lang
 release-notes-openSUSE
+remmina
+remmina-lang
+remmina-plugin-rdp
+remmina-plugin-vnc
+remmina-plugin-xdmcp
 rendercheck
 renderproto-devel
 resourceproto-devel
 rgb
 rhino
 rhythmbox
-rhythmbox-lang
 ripit
 ristretto
 ristretto-lang
@@ -4619,7 +4625,6 @@ syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
-system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-32bit
@@ -6960,6 +6965,8 @@ udhcp
 udisks2
 ufraw
 ufraw-lang
+uget
+uget-lang
 umbrello
 un-fonts
 unclutter
@@ -7032,6 +7039,7 @@ w3m-el
 wallpaper-branding-openSUSE
 wayland-devel
 wdiff
+wdiff-lang
 webkit2gtk-4_0-injected-bundles
 wget
 which
