@@ -78,6 +78,7 @@ brltty-driver-brlapi
 brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
+btrfsmaintenance
 btrfsprogs
 bundle-lang-common-en
 bundle-lang-gnome-en
@@ -308,7 +309,6 @@ gsf-office-thumbnailer
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-libnice
-gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
@@ -480,7 +480,6 @@ libatkmm-1_6-1
 libatm1
 libatspi0
 libattr1
-libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -598,7 +597,6 @@ libenca0
 libenchant1
 libepoxy0
 liberation-fonts
-libesd0
 libetonyek-0_1-1
 libevdev2
 libevdocument3-4
@@ -960,7 +958,6 @@ libselinux1
 libsemanage1
 libsensors4
 libsepol1
-libsexy
 libsgutils2-2
 libsidplay1
 libsigc-2_0-0
@@ -1312,10 +1309,11 @@ pkg-config
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
-plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-utils
+polari
+polari-lang
 polkit
 polkit-default-privs
 polkit-gnome
@@ -1328,7 +1326,6 @@ psmisc
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-lirc
@@ -1528,6 +1525,7 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 typelib-1_0-Peas-1_0
 typelib-1_0-PeasGtk-1_0
+typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
 typelib-1_0-Secret-1
@@ -1579,10 +1577,6 @@ x11-tools
 xauth
 xbitmaps
 xbrlapi
-xchat
-xchat-perl
-xchat-python
-xchat-tcl
 xconsole
 xdg-menu
 xdg-user-dirs

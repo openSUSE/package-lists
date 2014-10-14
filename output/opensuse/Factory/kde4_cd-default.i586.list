@@ -56,6 +56,7 @@ bluedevil
 bluez
 boost-license1_54_0
 branding-openSUSE
+btrfsmaintenance
 btrfsprogs
 bzip2
 ca-certificates
@@ -347,7 +348,6 @@ libatm1
 libatspi0
 libattica0_4
 libattr1
-libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -409,7 +409,6 @@ libenchant1
 libepoxy0
 libepub0
 liberation-fonts
-libesd0
 libevdev2
 libevent-2_0-5
 libexif12
@@ -536,6 +535,7 @@ libmpfr4
 libmtdev1
 libmtp9
 libmusicbrainz5-0
+libmysqlclient18
 libncurses5
 libncurses6
 libndp0
@@ -613,7 +613,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-sqlite
+libqt4-sql-mysql
 libqt5-qtimageformats
 libraw10
 libraw1394-11
@@ -875,7 +875,6 @@ plasma-nm-vpnc
 plasmoid-folderview
 plymouth
 plymouth-dracut
-plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-utils
@@ -891,7 +890,6 @@ psmisc
 ptools
 pullin-flash-player
 pulseaudio
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-jack
 pulseaudio-module-lirc

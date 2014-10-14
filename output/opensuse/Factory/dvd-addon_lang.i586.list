@@ -276,6 +276,7 @@ brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 bsf
+btrfsmaintenance
 btrfsprogs
 bundle-lang-common-ar
 bundle-lang-common-ca
@@ -489,7 +490,6 @@ enchant-devel
 enchant-voikko
 enscript
 eog
-esound-daemon
 espeak
 etags
 ethtool
@@ -772,7 +772,6 @@ gstreamer
 gstreamer-0_10
 gstreamer-0_10-devel
 gstreamer-0_10-libnice
-gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
@@ -1354,7 +1353,6 @@ libatspi0
 libattica0_4
 libattr-devel
 libattr1
-libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -1524,7 +1522,6 @@ libenchant1
 libepoxy0
 libepub0
 liberation-fonts
-libesd0
 libesmtp
 libetonyek-0_1-1
 libetpan17
@@ -1995,7 +1992,7 @@ libpackagekit-glib2-18
 libpackagekitqt4-0
 libpango-1_0-0
 libpangomm-1_4-1
-libpano13-2
+libpano13-3
 libparted0
 libpcap1
 libpci3
@@ -3034,10 +3031,11 @@ plasmoid-folderview
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
-plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-utils
+polari
+polari-lang
 polkit
 polkit-default-privs
 polkit-gnome
@@ -3525,6 +3523,7 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 typelib-1_0-Peas-1_0
 typelib-1_0-PeasGtk-1_0
+typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
 typelib-1_0-Rsvg-2_0

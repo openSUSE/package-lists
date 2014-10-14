@@ -14,7 +14,6 @@ acpica
 adjtimex
 adwaita-icon-theme
 alsa-plugins
-alsa-plugins-pulse
 apparmor-abstractions
 apparmor-parser
 apparmor-profiles
@@ -34,6 +33,7 @@ bind-utils
 binutils
 boost-license1_54_0
 branding-openSUSE
+btrfsmaintenance
 btrfsprogs
 bzip2
 ca-certificates
@@ -238,7 +238,6 @@ libatk-bridge-2_0-0
 libatm1
 libatspi0
 libattr1
-libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -292,14 +291,12 @@ libelf1
 libenchant1
 libepoxy0
 liberation-fonts
-libesd0
 libevdev2
 libevent-2_0-5
 libexif12
 libexpat1
 libext2fs2
 libffi4
-libfftw3-3
 libfipscheck1
 libfltk1
 libfontenc1
@@ -441,7 +438,6 @@ libsamba-credentials0
 libsamba-hostconfig0
 libsamba-util0
 libsamdb0
-libsamplerate0
 libsasl2-3
 libseccomp2
 libsecret-1-0
@@ -461,7 +457,6 @@ libsndfile1
 libsolv-tools
 libsoup-2_4-1
 libspeex1
-libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -501,7 +496,6 @@ libwbclient0
 libwebkitgtk-3_0-0
 libwebkitgtk3-lang
 libwebp5
-libwebrtc_audio_processing0
 libwicked-0-6
 libwrap0
 libx86-1
@@ -656,7 +650,6 @@ pinentry
 pkg-config
 plymouth
 plymouth-dracut
-plymouth-plugin-label
 plymouth-plugin-script
 plymouth-scripts
 pm-utils
@@ -668,8 +661,6 @@ ppp
 pptp
 procps
 psmisc
-pulseaudio
-pulseaudio-esound-compat
 pytalloc
 python
 python-CherryPy
@@ -697,7 +688,6 @@ rgb
 rpcbind
 rpm
 rpm-python
-rtkit
 ruby
 ruby-common
 ruby2.1
