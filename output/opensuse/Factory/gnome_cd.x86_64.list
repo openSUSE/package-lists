@@ -9,6 +9,9 @@ MozillaFirefox
 MozillaFirefox-branding-openSUSE
 NetworkManager
 NetworkManager-gnome
+NetworkManager-openconnect
+NetworkManager-openconnect-gnome
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-pptp
@@ -42,6 +45,7 @@ apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+appstream-glib
 argyllcms
 aspell
 aspell-en
@@ -270,8 +274,10 @@ gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
+gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -281,6 +287,8 @@ gnome-user-docs
 gnome-user-share
 gnome-version
 gnome-video-effects
+gnome-weather
+gnome-weather-lang
 gnome-web-photo
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
@@ -470,6 +478,8 @@ libamd-2_3_1
 libao-plugins4
 libao4
 libapparmor1
+libappstream-builder1
+libappstream-glib1
 libarchive13
 libasm1
 libasound2
@@ -998,6 +1008,7 @@ libsss_idmap0
 libsss_nss_idmap0
 libstartup-notification-1-0
 libstdc++6
+libstoken1
 libstorage-ruby
 libstorage5
 libsuitesparseconfig-4_2_1
@@ -1018,6 +1029,7 @@ libtidyp-1_04-0
 libtiff5
 libtimidity-0_1-0
 libtirpc1
+libtomcrypt0
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -1121,6 +1133,7 @@ libzapojit-0_0-0
 libzio1
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightsoff
 linuxconsoletools
@@ -1197,6 +1210,7 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-gnome
 openal-soft
+openconnect
 openldap2-client
 openslp
 openssh
@@ -1498,6 +1512,7 @@ typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
 typelib-1_0-GMenu-3_0
 typelib-1_0-GSystem-1_0
+typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
 typelib-1_0-GdkPixbuf-2_0

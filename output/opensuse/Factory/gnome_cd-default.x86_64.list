@@ -6,6 +6,9 @@ Mesa-libglapi0
 ModemManager
 NetworkManager
 NetworkManager-gnome
+NetworkManager-openconnect
+NetworkManager-openconnect-gnome
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-pptp
@@ -36,6 +39,7 @@ apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+appstream-glib
 argyllcms
 at-spi2-atk-common
 at-spi2-atk-gtk2
@@ -234,6 +238,7 @@ gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -392,6 +397,8 @@ libaio1
 libao-plugins4
 libao4
 libapparmor1
+libappstream-builder1
+libappstream-glib1
 libarchive13
 libasm1
 libasound2
@@ -838,6 +845,7 @@ libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
 libstdc++6
+libstoken1
 libstorage-ruby
 libstorage5
 libtag1
@@ -857,6 +865,7 @@ libtidyp-1_04-0
 libtiff5
 libtimidity-0_1-0
 libtirpc1
+libtomcrypt0
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -942,6 +951,7 @@ libzapojit-0_0-0
 libzio1
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightsoff
 linuxconsoletools
@@ -999,6 +1009,7 @@ obex-data-server
 open-iscsi
 openSUSE-build-key
 openal-soft
+openconnect
 openldap2-client
 openslp
 openssh

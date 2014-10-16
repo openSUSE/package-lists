@@ -31,6 +31,9 @@ MozillaThunderbird-translations-common
 NetworkManager
 NetworkManager-devel
 NetworkManager-gnome
+NetworkManager-openconnect
+NetworkManager-openconnect-gnome
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-pptp
@@ -143,6 +146,7 @@ apparmor-profiles
 apparmor-utils
 appmenu-qt
 appres
+appstream-glib
 aqbanking
 aqbanking-devel
 aqbanking-lang
@@ -872,8 +876,10 @@ gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
+gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -889,6 +895,8 @@ gnome-vfs2
 gnome-vfs2-devel
 gnome-vfs2-lang
 gnome-video-effects
+gnome-weather
+gnome-weather-lang
 gnome-web-photo
 gnu-free-fonts
 gnu-jaf
@@ -1647,6 +1655,8 @@ libao4
 libapparmor-devel
 libapparmor1
 libappindicator3-1
+libappstream-builder1
+libappstream-glib1
 libapr-util1
 libapr-util1-devel
 libapr1
@@ -3004,6 +3014,7 @@ libzip2
 libzmq3
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightdm
 lightdm-gtk-greeter
