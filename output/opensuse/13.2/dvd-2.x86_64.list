@@ -131,8 +131,8 @@ info
 insserv-compat
 ispell
 ispell-american
-java-1_8_0-openjdk
-java-1_8_0-openjdk-headless
+java-1_7_0-openjdk
+java-1_7_0-openjdk-headless
 javapackages-tools
 kbd
 kde4-filesystem
@@ -147,6 +147,7 @@ kmod
 kmod-compat
 krb5
 ksh
+lcms2
 libFLAC8
 libGLEW1_10
 libGLU1
@@ -355,7 +356,6 @@ libmspub-0_1-1
 libmtdev1
 libmtp9
 libmwaw-0_3-3
-libmysqlclient18
 libmythes-1_2-0
 libncurses5
 libncurses6
@@ -407,7 +407,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-mysql
+libqt4-sql-sqlite
 libqt4-x11
 libqt5-qtimageformats
 libraptor2-0

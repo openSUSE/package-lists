@@ -131,8 +131,8 @@ info
 insserv-compat
 ispell
 ispell-american
-java-1_7_0-openjdk
-java-1_7_0-openjdk-headless
+java-1_8_0-openjdk
+java-1_8_0-openjdk-headless
 javapackages-tools
 kbd
 kde4-filesystem
@@ -147,7 +147,6 @@ kmod
 kmod-compat
 krb5
 ksh
-lcms2
 libFLAC8
 libGLEW1_10
 libGLU1
@@ -391,6 +390,7 @@ libpolkit-qt-1-1
 libpolkit0
 libpoppler46
 libpopt0
+libpq5
 libprison0
 libprocps3
 libproxy1
@@ -407,7 +407,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-unixODBC
+libqt4-sql-postgresql
 libqt4-x11
 libqt5-qtimageformats
 libraptor2-0
@@ -665,7 +665,6 @@ timezone-java
 traceroute
 udev
 udisks2
-unixODBC
 unzip
 unzip-doc
 update-alternatives
