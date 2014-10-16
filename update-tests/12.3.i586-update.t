@@ -1,7 +1,7 @@
 repo @System 0 testtags 12.3-i586-system.repo.gz
 
-repo factory 0 solv ../trees/openSUSE:Factory-standard-i586.solv
-repo nonoss 0 solv ../trees/openSUSE:Factory:NonFree-standard-i586.solv
+repo factory 0 solv ../trees/openSUSE:@PROJ@-standard-i586.solv
+repo nonoss 0 solv ../trees/openSUSE:@PROJ@:NonFree-standard-i586.solv
 
 system i586 rpm @System
 
