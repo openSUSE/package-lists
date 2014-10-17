@@ -22,6 +22,9 @@ MozillaThunderbird
 MozillaThunderbird-translations-common
 NetworkManager
 NetworkManager-gnome
+NetworkManager-openconnect
+NetworkManager-openconnect-gnome
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-pptp
@@ -79,6 +82,7 @@ apparmor-profiles
 apparmor-utils
 apper
 appmenu-qt
+appstream-glib
 aqbanking
 aqbanking-lang
 arabic-ae-fonts
@@ -523,8 +527,10 @@ gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
+gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -538,6 +544,8 @@ gnome-version
 gnome-vfs2
 gnome-vfs2-lang
 gnome-video-effects
+gnome-weather
+gnome-weather-lang
 gnome-web-photo
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
@@ -1010,6 +1018,8 @@ libao-plugins4
 libao4
 libapparmor-devel
 libapparmor1
+libappstream-builder1
+libappstream-glib1
 libapr-util1
 libapr1
 libarchive13
@@ -1907,6 +1917,7 @@ libstdc++-devel
 libstdc++48-devel
 libstdc++6
 libstdc++6-32bit
+libstoken1
 libstorage-ruby
 libstorage5
 libstreamanalyzer0
@@ -1939,6 +1950,7 @@ libtiff5
 libtiff5-32bit
 libtimidity-0_1-0
 libtirpc1
+libtomcrypt0
 libtool
 libtotem-plparser18
 libtracker-common-1_0
@@ -2128,6 +2140,7 @@ libzio1
 libzip2
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightdm
 lightdm-gtk-greeter
@@ -2298,6 +2311,7 @@ openal-soft
 openbox
 openbox-adwaita-ob-theme
 opencc-data
+openconnect
 openldap2
 openldap2-client
 openldap2-devel
@@ -2568,6 +2582,8 @@ plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
 pm-utils
+polari
+polari-lang
 polkit
 polkit-default-privs
 polkit-gnome
@@ -2910,6 +2926,7 @@ typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
 typelib-1_0-GMenu-3_0
 typelib-1_0-GSystem-1_0
+typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
 typelib-1_0-GdkPixbuf-2_0
@@ -2944,6 +2961,7 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 typelib-1_0-Peas-1_0
 typelib-1_0-PeasGtk-1_0
+typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
 typelib-1_0-Secret-1

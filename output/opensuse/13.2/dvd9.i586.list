@@ -24,6 +24,9 @@ MozillaThunderbird-translations-common
 NetworkManager
 NetworkManager-devel
 NetworkManager-gnome
+NetworkManager-openconnect
+NetworkManager-openconnect-gnome
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-pptp
@@ -110,6 +113,7 @@ apparmor-profiles
 apparmor-utils
 apper
 appmenu-qt
+appstream-glib
 aqbanking
 aqbanking-lang
 arabic-ae-fonts
@@ -631,8 +635,10 @@ gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
+gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -647,6 +653,8 @@ gnome-vfs-sharp2
 gnome-vfs2
 gnome-vfs2-lang
 gnome-video-effects
+gnome-weather
+gnome-weather-lang
 gnome-web-photo
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
@@ -1232,6 +1240,8 @@ libao4
 libapparmor-devel
 libapparmor1
 libappindicator3-1
+libappstream-builder1
+libappstream-glib1
 libapr-util1
 libapr-util1-devel
 libapr1
@@ -2161,6 +2171,7 @@ libstartup-notification-1-0
 libstdc++-devel
 libstdc++48-devel
 libstdc++6
+libstoken1
 libstorage-devel
 libstorage-ruby
 libstorage5
@@ -2191,6 +2202,7 @@ libtiff-devel
 libtiff5
 libtimidity-0_1-0
 libtirpc1
+libtomcrypt0
 libtool
 libtotem-plparser18
 libtracker-common-1_0
@@ -2397,6 +2409,7 @@ libzio1
 libzip2
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightdm
 lightdm-gtk-greeter
@@ -2599,6 +2612,7 @@ openal-soft
 openbox
 openbox-adwaita-ob-theme
 opencc-data
+openconnect
 openexr-devel
 openjade
 openldap2
@@ -2928,6 +2942,8 @@ plymouth-plugin-script
 plymouth-scripts
 pm-utils
 podofo
+polari
+polari-lang
 polkit
 polkit-default-privs
 polkit-gnome
@@ -3385,6 +3401,7 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 typelib-1_0-Peas-1_0
 typelib-1_0-PeasGtk-1_0
+typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
 typelib-1_0-Rsvg-2_0

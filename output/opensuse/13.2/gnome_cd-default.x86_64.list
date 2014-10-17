@@ -6,6 +6,9 @@ Mesa-libglapi0
 ModemManager
 NetworkManager
 NetworkManager-gnome
+NetworkManager-openconnect
+NetworkManager-openconnect-gnome
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-pptp
@@ -36,6 +39,7 @@ apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+appstream-glib
 argyllcms
 at-spi2-atk-common
 at-spi2-atk-gtk2
@@ -234,6 +238,7 @@ gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -393,6 +398,8 @@ libaio1
 libao-plugins4
 libao4
 libapparmor1
+libappstream-builder1
+libappstream-glib1
 libarchive13
 libasm1
 libasound2
@@ -578,8 +585,6 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgpm2
-libgpod-tools
-libgpod4
 libgraphite2-3
 libgrilo-0_2-1
 libgrlnet-0_2-0
@@ -811,7 +816,6 @@ libselinux1
 libsemanage1
 libsensors4
 libsepol1
-libsexy
 libsgutils2-2
 libsidplay1
 libsigc-2_0-0
@@ -844,6 +848,7 @@ libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
 libstdc++6
+libstoken1
 libstorage-ruby
 libstorage5
 libtag1
@@ -863,6 +868,7 @@ libtidyp-1_04-0
 libtiff5
 libtimidity-0_1-0
 libtirpc1
+libtomcrypt0
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -948,6 +954,7 @@ libzapojit-0_0-0
 libzio1
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightsoff
 linuxconsoletools
@@ -966,7 +973,6 @@ mailx
 man
 master-boot-code
 mdadm
-media-player-info
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
@@ -1006,6 +1012,7 @@ obex-data-server
 open-iscsi
 openSUSE-build-key
 openal-soft
+openconnect
 openldap2-client
 openslp
 openssh
@@ -1095,6 +1102,8 @@ plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
 pm-utils
+polari
+polari-lang
 polkit
 polkit-default-privs
 polkit-gnome
@@ -1158,7 +1167,6 @@ quadrapassel
 recode
 release-notes-openSUSE
 rgb
-rhythmbox
 rpcbind
 rpm
 rpm-python
@@ -1290,9 +1298,9 @@ typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
 typelib-1_0-Peas-1_0
 typelib-1_0-PeasGtk-1_0
+typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
-typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
@@ -1335,10 +1343,6 @@ x11-tools
 xauth
 xbitmaps
 xbrlapi
-xchat
-xchat-perl
-xchat-python
-xchat-tcl
 xconsole
 xdg-menu
 xdg-user-dirs
