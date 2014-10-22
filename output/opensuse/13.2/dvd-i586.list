@@ -234,6 +234,9 @@ baobab
 bash
 bash-completion
 bash-doc
+bbswitch-kmp-default
+bbswitch-kmp-desktop
+bbswitch-kmp-xen
 bc
 bcel
 bdftopcf
@@ -405,6 +408,9 @@ claws-mail-lang
 clicfs
 cln
 cln-devel
+cloop-kmp-default
+cloop-kmp-desktop
+cloop-kmp-xen
 clucene-core-devel
 clutter-devel
 clutter-gst-devel
@@ -427,6 +433,9 @@ cppunit-devel
 cpupower
 cracklib
 cracklib-dict-full
+crash-kmp-default
+crash-kmp-desktop
+crash-kmp-xen
 crda
 create-resources
 createrepo
@@ -1058,6 +1067,9 @@ hamcrest
 hardlink
 harfbuzz-devel
 haveged
+hdjmod-kmp-default
+hdjmod-kmp-desktop
+hdjmod-kmp-xen
 hdparm
 help2man
 hfsutils
@@ -1175,6 +1187,9 @@ ipa-pmincho-fonts
 ipadic
 iproute2
 ipsec-tools
+ipset-kmp-default
+ipset-kmp-desktop
+ipset-kmp-xen
 iptables
 iptraf-ng
 iputils
@@ -3434,6 +3449,8 @@ pavucontrol
 pavucontrol-lang
 pax
 pbm2l7k
+pcfclock-kmp-default
+pcfclock-kmp-desktop
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4004,6 +4021,7 @@ python-solv
 python-tk
 python-tornado
 python-urlgrabber
+python-virtualbox
 python-wxWidgets
 python-wxWidgets-lang
 python-xcb-proto-devel
@@ -4536,8 +4554,13 @@ vacation
 vala
 valgrind
 valgrind-devel
+vboxgtk
+vboxgtk-lang
 vcdimager
 vdr
+vhba-kmp-default
+vhba-kmp-desktop
+vhba-kmp-xen
 videoproto-devel
 viewnior
 viewnior-lang
@@ -4553,6 +4576,14 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 vlan
 vlock
 vm-install
@@ -4885,6 +4916,9 @@ xsm
 xsp
 xstdcmap
 xstroke
+xtables-addons-kmp-default
+xtables-addons-kmp-desktop
+xtables-addons-kmp-xen
 xtables-plugins
 xterm
 xtermset
