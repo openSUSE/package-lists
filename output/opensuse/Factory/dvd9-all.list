@@ -223,16 +223,6 @@ baloo-file
 baloo-kioslaves
 baloo-pim
 baloo-tools
-banshee
-banshee-backend-engine-gstreamer
-banshee-backend-io-gio
-banshee-backend-platform-gnome
-banshee-backend-platform-unix
-banshee-core
-banshee-dmp
-banshee-dmp-apple-devices
-banshee-dmp-mtp
-banshee-extensions-default
 baobab
 bash
 bash-completion
@@ -498,6 +488,7 @@ dd_rescue-lzo
 dd_rhelp
 ddclient
 ddd
+ddskk
 deja-dup
 dejagnu
 dejavu-fonts
@@ -570,6 +561,7 @@ ekiga-plugins-evolution
 elfutils
 elilo
 emacs
+emacs-apel
 emacs-info
 emacs-nox
 emacs-x11
@@ -644,6 +636,7 @@ fixesproto-devel
 flac
 flac-devel
 flex
+flim
 font-util
 fontcacheproto-devel
 fontconfig
@@ -710,7 +703,6 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gd
-gdata-sharp
 gdb
 gdbm-devel
 gdk-pixbuf-devel
@@ -772,7 +764,6 @@ gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
 gio-branding-openSUSE
-gio-sharp
 girepository-1_0
 git
 git-core
@@ -827,8 +818,6 @@ gnome-dictionary
 gnome-disk-utility
 gnome-do
 gnome-do-lang
-gnome-do-plugins
-gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-doc-utils-lang
@@ -992,7 +981,6 @@ gthumb
 gthumb-lang
 gtk-doc
 gtk-doc-lang
-gtk-sharp-beans
 gtk-sharp2
 gtk-sharp2-complete
 gtk-sharp2-doc
@@ -1052,7 +1040,6 @@ gtksourceview2-lang
 gtkspell-lang
 gucharmap
 gucharmap-devel
-gudev-sharp
 guile
 guile-modules-2_0
 guile1
@@ -2440,6 +2427,7 @@ libnettle-devel
 libnettle4
 libnewt0_52
 libnfnetlink0
+libnfsidmap-sss
 libnice10
 libnl-config
 libnl3-200
@@ -2798,6 +2786,7 @@ libssh2-1
 libssh4
 libsss_idmap0
 libsss_nss_idmap0
+libsss_sudo
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++48-devel
@@ -3222,8 +3211,6 @@ mono-wcf
 mono-web
 mono-winforms
 mono-winfxcore
-mono-zeroconf
-mono-zeroconf-provider-avahi
 monodevelop
 monodoc-core
 moodbar
@@ -4107,6 +4094,7 @@ python-wxWidgets
 python-wxWidgets-lang
 python-xcb-proto-devel
 python-xdg
+python-xlib
 python-xml
 python-yum
 python-zope.interface
@@ -4292,6 +4280,7 @@ sk1
 skanlite
 skanlite-doc
 skanlite-lang
+skkdic
 slang-slsh
 slf4j
 slib
@@ -4404,7 +4393,6 @@ sysvinit-tools
 tack
 taglib
 taglib-extras-devel
-taglib-sharp
 tali
 tali-lang
 tango-icon-theme
@@ -6809,6 +6797,7 @@ vte016-sharp
 vte2-lang
 vym
 w3m
+w3m-el
 wallpaper-branding-openSUSE
 wayland-devel
 wdiff
@@ -6826,7 +6815,6 @@ wireless-regdb
 wireless-tools
 wireshark
 wireshark-ui-gtk
-wnck-sharp
 wodim
 wol
 wondershaper
