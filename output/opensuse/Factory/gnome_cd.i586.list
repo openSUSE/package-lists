@@ -290,6 +290,7 @@ gnome-web-photo
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gnuchess
+google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
 gpart
@@ -366,6 +367,9 @@ hunspell
 hunspell-tools
 hwinfo
 iagno
+ibus
+ibus-gtk
+ibus-gtk3
 icc-profiles
 icc-profiles-basiccolor-lstarrgb
 icc-profiles-basiccolor-printing2009-coat2
@@ -397,6 +401,10 @@ iscsiuio
 iso-codes
 iso_ent
 iw
+java-1_8_0-openjdk
+java-1_8_0-openjdk-headless
+java-1_8_0-openjdk-plugin
+javapackages-tools
 jfsutils
 kbd
 kernel-default
@@ -412,6 +420,7 @@ lensfun-data
 less
 lftp
 libFLAC8
+libGLEW1_10
 libGLU1
 libHX28
 libHalf11
@@ -458,6 +467,7 @@ libXv1
 libXvMC1
 libXxf86misc1
 libXxf86vm1
+libabw-0_1-1
 libaccountsservice0
 libacl1
 libadns1
@@ -495,6 +505,8 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
+libboost_date_time1_54_0
+libboost_iostreams1_54_0
 libboost_system1_54_0
 libboost_thread1_54_0
 libbrasero-burn3-1
@@ -526,6 +538,7 @@ libcdda_paranoia0
 libcdio14
 libcdio_cdda1
 libcdio_paranoia1
+libcdr-0_1-1
 libcelt0-2
 libchamplain-0_12-0
 libcheese-common
@@ -533,9 +546,13 @@ libcheese-gtk23
 libcheese7
 libcholmod-3_0_2
 libcloog-isl4
+libclucene-contribs-lib1
+libclucene-core1
+libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gtk-1_0-0
+libcmis-0_4-4
 libcogl-pango20
 libcogl20
 libcolamd-2_9_1
@@ -577,6 +594,7 @@ libdv4
 libdvdnav4
 libdvdread4
 libdw1
+libe-book-0_1-1
 libebackend-1_2-7
 libebook-1_2-14
 libebook-contacts-1_2-0
@@ -591,6 +609,7 @@ libenca0
 libenchant1
 libepoxy0
 liberation-fonts
+libetonyek-0_1-1
 libevdev2
 libevdocument3-4
 libevent-2_0-5
@@ -600,9 +619,12 @@ libexif12
 libexiv2-13
 libexpat1
 libext2fs2
+libexttextcat
+libexttextcat-2_0-0
 libfallocate0
 libfam0-gamin
 libfarstream-0_2-2
+libfbembed2_5
 libffi4
 libfftw3-3
 libfipscheck1
@@ -616,6 +638,7 @@ libfolks25
 libfontenc1
 libfprint0
 libfreebl3
+libfreehand-0_1-1
 libfreetype6
 libfribidi0
 libfuse2
@@ -650,6 +673,7 @@ libgirepository-1_0-1
 libgjs0
 libglib-2_0-0
 libglibmm-2_4-1
+libgltf-0_0-0
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -738,6 +762,7 @@ libgxps2
 libharfbuzz-icu0
 libharfbuzz0
 libhogweed2
+libhyphen0
 libibus-1_0-5
 libical1
 libicu54_1
@@ -754,6 +779,7 @@ libisl10
 libisoburn1
 libisofs6
 libiw30
+libixion-0_8-0
 libjack0
 libjasper1
 libjavascriptcoregtk-1_0-0
@@ -769,6 +795,7 @@ libkmod2
 libkms1
 libkpathsea6
 libksba8
+liblangtag1
 liblapack3
 liblash1
 liblcms1
@@ -780,6 +807,7 @@ liblensfun0
 liblirc_client0
 liblockdev1
 liblouis2
+liblpsolve55-0
 liblrdf2
 libltdl7
 liblua5_1
@@ -805,11 +833,14 @@ libmozjs-24
 libmpc3
 libmpcdec5
 libmpfr4
+libmspub-0_1-1
 libmtdev1
 libmtp9
 libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
+libmwaw-0_3-3
+libmythes-1_2-0
 libnautilus-extension1
 libncurses5
 libncurses6
@@ -837,6 +868,7 @@ libnotify4
 libnsssharedhelper0
 libntfs-3g85
 liboauth0
+libodfgen-0_1-1
 libofa0
 libogg0
 liboggkate1
@@ -847,6 +879,7 @@ libopenraw1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
+liborcus-0_8-0
 libosinfo
 libosinfo-1_0-0
 libp11-kit0
@@ -906,15 +939,31 @@ libquicktime0
 libquvi
 libquvi-scripts
 libraptor2-0
+librasqal3
 libraw10
 libraw1394-11
 librcc0
 librcd0
+librdf0
 libreadline6
 libref_array1
 libregistry0
 libreiserfscore0
+libreoffice
+libreoffice-branding-openSUSE
+libreoffice-calc
+libreoffice-draw
+libreoffice-gnome
+libreoffice-icon-theme-sifr
+libreoffice-icon-theme-tango
+libreoffice-impress
+libreoffice-l10n-en
+libreoffice-pyuno
+libreoffice-templates-labels-a4
+libreoffice-templates-labels-letter
+libreoffice-writer
 librest0
+librevenge-0_0-0
 librsvg-2-2
 librsync1
 libruby2_1-2_1
@@ -1023,6 +1072,7 @@ libvdpau_nouveau
 libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
+libvisio-0_1-1
 libvisual
 libvorbis0
 libvorbisenc2
@@ -1045,6 +1095,9 @@ libwebrtc_audio_processing0
 libwicked-0-6
 libwmf-0_2-7
 libwnck-3-0
+libwpd-0_10-10
+libwpg-0_3-3
+libwps-0_3-3
 libwrap0
 libx86-1
 libx86emu1
@@ -1075,6 +1128,7 @@ libxklavier16
 libxml2-2
 libxml2-tools
 libxshmfence1
+libxslt-tools
 libxslt1
 libxtables10
 libyaml-0-2
@@ -1126,6 +1180,9 @@ mtools
 multipath-tools
 mutter
 mutter-data
+myspell-dictionaries
+myspell-en
+myspell-lightproof-en
 nano
 nano-lang
 nautilus
@@ -1433,6 +1490,7 @@ terminfo-base
 tigervnc
 time
 timezone
+timezone-java
 tk
 tnftp
 totem
@@ -1513,6 +1571,7 @@ typelib-1_0-Zpj-0_0
 udev
 udev-configure-printer
 udisks2
+unoconv
 unzip
 unzip-doc
 update-alternatives
