@@ -571,7 +571,6 @@ freetype2-devel
 frink
 ft2demos
 fuse
-g3utils
 galculator
 galculator-lang
 gamin-server
@@ -625,6 +624,7 @@ ggz-client-libs-devel
 ggz-client-libs-lang
 ghostscript
 ghostscript-cjk
+ghostscript-fonts
 ghostscript-fonts-grops
 ghostscript-fonts-other
 ghostscript-fonts-std
@@ -891,8 +891,8 @@ hugin
 hunspell
 hunspell-tools
 hwinfo
-hylafax
-hylafax-client
+hylafax+
+hylafax+-client
 iagno
 icc-profiles
 icc-profiles-basiccolor-lstarrgb
@@ -1878,6 +1878,7 @@ liblash1
 liblastfm1
 liblbxutil-devel
 liblbxutil1
+liblcms1
 liblcms2-2
 liblcms2-devel
 libldap-2_4-2
@@ -2599,7 +2600,6 @@ memtest86+
 menu-cache
 metamail
 metatheme-adwaita-common
-mgetty
 mjpegtools
 mkfontdir
 mkfontscale
