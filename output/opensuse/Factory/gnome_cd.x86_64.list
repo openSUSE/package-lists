@@ -2,7 +2,6 @@ Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
-Mesa-libGLESv2-2
 Mesa-libglapi0
 ModemManager
 MozillaFirefox
@@ -172,6 +171,7 @@ evince
 evince-browser-plugin
 evolution
 evolution-data-server
+evolution-data-server-lang
 expat
 farstream-data
 fd0ssh
@@ -320,7 +320,6 @@ gsf-office-thumbnailer
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-libnice
-gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-ugly
@@ -343,7 +342,6 @@ gtk2-immodule-vietnamese
 gtk2-metatheme-adwaita
 gtk2-theming-engine-adwaita
 gtk2-tools
-gtk3-branding-openSUSE
 gtk3-data
 gtk3-immodule-amharic
 gtk3-immodule-inuktitut
@@ -535,7 +533,6 @@ libcap2
 libcares2
 libcaribou0
 libccolamd-2_9_1
-libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
 libcdio14
@@ -576,14 +573,11 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdbus-1-3
-libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
 libdhash1
 libdialog11
-libdirac_encoder0
-libdirectfb-1_7-5
 libdjvulibre21
 libdleyna-core-1_0-3
 libdmapsharing-3_0-2
@@ -716,17 +710,13 @@ libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
-libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
-libgstbasevideo-0_10-23
-libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
 libgstfft-1_0-0
 libgstgl-1_0-0
 libgstinterfaces-0_10-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
-libgstphotography-0_10-23
 libgstphotography-1_0-0
 libgstreamer-0_10-0
 libgstreamer-1_0-0
@@ -734,10 +724,8 @@ libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
 libgstsdp-1_0-0
-libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
 libgsturidownloader-1_0-0
-libgstvdp-0_10-23
 libgstvideo-1_0-0
 libgsystem0
 libgthread-2_0-0
@@ -796,7 +784,6 @@ libjson-glib-1_0-0
 libkate1
 libkeyutils1
 libkmod2
-libkms1
 libkpathsea6
 libksba8
 liblangtag1
@@ -819,7 +806,7 @@ liblua5_2
 liblzma5
 liblzo2-2
 libmagic1
-libmbim-glib0
+libmbim-glib4
 libmediaart-1_0-0
 libminiupnpc10
 libmission-control-plugins0
@@ -835,12 +822,10 @@ libmowgli2
 libmozjs-17_0
 libmozjs-24
 libmpc3
-libmpcdec5
 libmpfr4
 libmspub-0_1-1
 libmtdev1
 libmtp9
-libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
 libmwaw-0_3-3
@@ -946,7 +931,6 @@ libquvi-scripts
 libraptor2-0
 librasqal3
 libraw10
-libraw1394-11
 librcc0
 librcd0
 librdf0
@@ -1043,7 +1027,6 @@ libtheoradec1
 libtheoraenc1
 libtidyp-1_04-0
 libtiff5
-libtimidity-0_1-0
 libtirpc1
 libtomcrypt0
 libtotem-plparser18
@@ -1051,7 +1034,6 @@ libtracker-common-1_0
 libtracker-control-1_0-0
 libtracker-miner-1_0-0
 libtracker-sparql-1_0-0
-libts-1_0-0
 libudev1
 libudisks2-0
 libumfpack-5_7_1
@@ -1093,6 +1075,7 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebkit2gtk-4_0-37
+libwebkit2gtk3-lang
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebp5
@@ -1146,7 +1129,6 @@ libyui6
 libz1
 libzapojit-0_0-0
 libzio1
-libzvbi0
 libzypp
 libzypp-plugin-appdata
 liferea
@@ -1426,6 +1408,7 @@ ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
 ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
+s2tc
 samba
 samba-client
 samba-libs
