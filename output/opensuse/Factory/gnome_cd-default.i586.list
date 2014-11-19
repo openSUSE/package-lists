@@ -1,6 +1,7 @@
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
+Mesa-libGLESv2-2
 Mesa-libglapi0
 ModemManager
 NetworkManager
@@ -146,7 +147,6 @@ eog
 espeak
 ethtool
 evolution-data-server
-evolution-data-server-lang
 expat
 farstream-data
 fdupes
@@ -267,6 +267,7 @@ gsettings-desktop-schemas
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-libnice
+gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 gstreamer-0_10-plugins-ugly
@@ -289,6 +290,7 @@ gtk2-immodule-vietnamese
 gtk2-metatheme-adwaita
 gtk2-theming-engine-adwaita
 gtk2-tools
+gtk3-branding-openSUSE
 gtk3-data
 gtk3-immodule-amharic
 gtk3-immodule-inuktitut
@@ -446,6 +448,7 @@ libcanberra0
 libcap-ng0
 libcap2
 libcaribou0
+libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
 libcdio14
@@ -477,10 +480,13 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdbus-1-3
+libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
 libdialog11
+libdirac_encoder0
+libdirectfb-1_7-6
 libdleyna-core-1_0-3
 libdmapsharing-3_0-2
 libdmx1
@@ -594,13 +600,17 @@ libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
+libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
+libgstbasevideo-0_10-23
+libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
 libgstfft-1_0-0
 libgstgl-1_0-0
 libgstinterfaces-0_10-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
+libgstphotography-0_10-23
 libgstphotography-1_0-0
 libgstreamer-0_10-0
 libgstreamer-1_0-0
@@ -608,8 +618,10 @@ libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
 libgstsdp-1_0-0
+libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
 libgsturidownloader-1_0-0
+libgstvdp-0_10-23
 libgstvideo-1_0-0
 libgsystem0
 libgthread-2_0-0
@@ -659,6 +671,7 @@ libjson-glib-1_0-0
 libkate1
 libkeyutils1
 libkmod2
+libkms1
 libksba8
 liblash1
 liblcms2-2
@@ -690,9 +703,11 @@ libmount1
 libmozjs-17_0
 libmozjs-24
 libmpc3
+libmpcdec5
 libmpfr4
 libmtdev1
 libmtp9
+libmusicbrainz4
 libmusicbrainz5-0
 libmutter0
 libnautilus-extension1
@@ -786,6 +801,7 @@ libquvi
 libquvi-scripts
 libraptor2-0
 libraw10
+libraw1394-11
 libreadline6
 librest0
 librsvg-2-2
@@ -856,6 +872,7 @@ libtheoradec1
 libtheoraenc1
 libtidyp-1_04-0
 libtiff5
+libtimidity-0_1-0
 libtirpc1
 libtomcrypt0
 libtotem-plparser18
@@ -863,6 +880,7 @@ libtracker-common-1_0
 libtracker-control-1_0-0
 libtracker-miner-1_0-0
 libtracker-sparql-1_0-0
+libts-1_0-0
 libudev1
 libudisks2-0
 libunistring0
@@ -894,7 +912,6 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebkit2gtk-4_0-37
-libwebkit2gtk3-lang
 libwebkitgtk-3_0-0
 libwebp5
 libwebrtc_audio_processing0
@@ -941,6 +958,7 @@ libyui6
 libz1
 libzapojit-0_0-0
 libzio1
+libzvbi0
 libzypp
 libzypp-plugin-appdata
 liferea

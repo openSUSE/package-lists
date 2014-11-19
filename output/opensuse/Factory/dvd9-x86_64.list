@@ -598,7 +598,7 @@ eog
 eog-plugins
 eog-plugins-lang
 epiphany
-epiphany-branding-upstream
+epiphany-branding-openSUSE
 epiphany-lang
 esound-daemon
 espeak
@@ -609,7 +609,6 @@ evince-browser-plugin
 evolution
 evolution-data-server
 evolution-data-server-devel
-evolution-data-server-lang
 evolution-ews
 evolution-ews-lang
 exif
@@ -993,6 +992,7 @@ gstreamer-0_10-devel
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugin-gnomevfs
+gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-devel
 gstreamer-0_10-plugins-gl
@@ -1065,6 +1065,7 @@ gtk2-themes
 gtk2-theming-engine-adwaita
 gtk2-tools
 gtk2-tools-32bit
+gtk3-branding-openSUSE
 gtk3-data
 gtk3-devel
 gtk3-engine-oxygen
@@ -1875,6 +1876,7 @@ libcapi20-3-32bit
 libcares2
 libcaribou0
 libccolamd-2_9_1
+libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
 libcdio++0
@@ -1953,6 +1955,8 @@ libdcerpc0-32bit
 libdconf1
 libdhash1
 libdialog11
+libdirac_encoder0
+libdirectfb-1_7-6
 libdiscid0
 libdjvulibre-devel
 libdjvulibre21
@@ -2233,7 +2237,10 @@ libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
+libgstbasecamerabinsrc-0_10-23
 libgstbasecamerabinsrc-1_0-0
+libgstbasevideo-0_10-23
+libgstcodecparsers-0_10-23
 libgstcodecparsers-1_0-0
 libgstfft-1_0-0
 libgstgl-0_10-1
@@ -2241,6 +2248,7 @@ libgstgl-1_0-0
 libgstinterfaces-0_10-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
+libgstphotography-0_10-23
 libgstphotography-1_0-0
 libgstreamer-0_10-0
 libgstreamer-0_10-0-32bit
@@ -2250,8 +2258,10 @@ libgstrtp-1_0-0
 libgstrtsp-1_0-0
 libgstrtspserver-1_0-0
 libgstsdp-1_0-0
+libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
 libgsturidownloader-1_0-0
+libgstvdp-0_10-23
 libgstvideo-1_0-0
 libgsystem0
 libgthread-2_0-0
@@ -2417,6 +2427,7 @@ libkmahjongg
 libkmahjongg-devel
 libkmahjongglib4
 libkmod2
+libkms1
 libkolab0
 libkolabxml1
 libkomparediff2-4
@@ -3019,6 +3030,7 @@ libtidyp-1_04-0
 libtiff-devel
 libtiff5
 libtiff5-32bit
+libtimidity-0_1-0
 libtinyxml0
 libtirpc1
 libtomcrypt0
@@ -3028,6 +3040,7 @@ libtracker-common-1_0
 libtracker-control-1_0-0
 libtracker-miner-1_0-0
 libtracker-sparql-1_0-0
+libts-1_0-0
 libtsan0
 libttf2
 libtumbler-1-0
@@ -3139,7 +3152,6 @@ libwbclient0-32bit
 libwbxml2-0
 libwbxml2-devel
 libwebkit2gtk-4_0-37
-libwebkit2gtk3-lang
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk-devel
@@ -3300,6 +3312,7 @@ lightdm-lang
 lightsoff
 lilo
 link-grammar
+links
 linphone
 linphone-devel
 linux-glibc-devel
