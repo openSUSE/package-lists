@@ -594,7 +594,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -613,6 +612,7 @@ expat
 expect
 expect-devel
 farstream-data
+fbiterm
 fcitx
 fcitx-branding-openSUSE
 fcitx-chewing
@@ -633,7 +633,6 @@ fcitx-table-tw-boshiamy
 fcitx-table-tw-cangjie-large
 fcitx-table-tw-cangjie5
 fcitx-table-tw-smart-cangjie6
-fcitx-zhuyin
 fd0ssh
 fdupes
 festival
@@ -675,6 +674,7 @@ freeglut-devel
 freerdp
 freetype2-devel
 frei0r-plugins
+fribidi
 fribidi-devel
 frink
 frogr
@@ -2893,6 +2893,7 @@ libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
 libsocks0
+libsodium13
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
@@ -3227,12 +3228,12 @@ libzapojit-0_0-0
 libzeitgeist-1_0-1
 libzeitgeist-2_0-0
 libzhuyin-data
-libzhuyin5
+libzhuyin6
 libzinnia0
 libzio1
 libzip-devel
 libzip2
-libzmq3
+libzmq4
 libzvbi0
 libzypp
 libzypp-plugin-appdata
@@ -3302,6 +3303,7 @@ m4
 mailman
 mailx
 make
+make-lang
 makedepend
 makedev
 makedumpfile
@@ -4118,6 +4120,7 @@ ptools
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4421,7 +4424,6 @@ seamonkey
 seamonkey-dom-inspector
 seamonkey-irc
 seamonkey-translations-common
-seamonkey-venkman
 sed
 selinux-doc
 servletapi5
