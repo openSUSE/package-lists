@@ -109,7 +109,6 @@ apache2-devel
 apache2-doc
 apache2-example-pages
 apache2-mod_dnssd
-apache2-mod_mono
 apache2-mod_perl
 apache2-mod_php5
 apache2-prefork
@@ -137,7 +136,6 @@ ark
 arphic-uming-fonts
 arpwatch
 arpwatch-ethercodes
-art-sharp2
 aspell
 aspell-af
 aspell-agal
@@ -272,8 +270,6 @@ bluez
 bluez-devel
 bluez-firmware
 bogofilter
-boo
-boo-2_0_9_3
 boost-devel
 boost-jam
 boost-license1_54_0
@@ -349,7 +345,6 @@ bundle-lang-kde-ru
 bundle-lang-kde-sv
 bundle-lang-kde-zh
 busybox
-bwidget
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -433,7 +428,6 @@ dbus-1-devel
 dbus-1-glib
 dbus-1-glib-32bit
 dbus-1-glib-devel
-dbus-1-mono
 dbus-1-python
 dbus-1-python3
 dbus-1-x11
@@ -523,8 +517,6 @@ exiftool
 exo-lang
 exo-tools
 expat
-expect
-expect-devel
 farstream-data
 fbiterm
 fcitx
@@ -548,6 +540,7 @@ fcitx-table-tw-boshiamy
 fcitx-table-tw-cangjie-large
 fcitx-table-tw-cangjie5
 fcitx-table-tw-smart-cangjie6
+fcitx-zhuyin
 fd0ssh
 fdupes
 fetchmail
@@ -581,7 +574,6 @@ fprintd-pam-32bit
 freerdp
 freetype2-devel
 fribidi
-frink
 ft2demos
 fuse
 galculator
@@ -659,9 +651,7 @@ glade
 glade-catalog-gtksourceview
 glade-catalog-vte
 glade-lang
-glade-sharp2
 glib-networking
-glib-sharp2
 glib2-devel
 glib2-tools
 glibc
@@ -719,7 +709,6 @@ gnome-online-accounts-devel
 gnome-online-miners
 gnome-packagekit
 gnome-power-manager
-gnome-print-sharp
 gnome-pty-helper
 gnome-robots
 gnome-robots-lang
@@ -728,7 +717,6 @@ gnome-session
 gnome-session-core
 gnome-session-default-session
 gnome-settings-daemon
-gnome-sharp2
 gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-search-provider-bijiben
@@ -751,7 +739,6 @@ gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-version
-gnome-vfs-sharp2
 gnome-vfs2
 gnome-vfs2-lang
 gnome-video-effects
@@ -798,7 +785,6 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
 gsf-office-thumbnailer
-gsf-sharp
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-devel
@@ -825,10 +811,6 @@ gsynaptics
 gsynaptics-lang
 gtk-doc
 gtk-doc-lang
-gtk-sharp2
-gtk-sharp2-complete
-gtk-sharp2-doc
-gtk-sharp2-gapi
 gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
@@ -877,7 +859,6 @@ gtk3-metatheme-adwaita
 gtk3-tools
 gtkiterm
 gtksourceview-devel
-gtksourceview-sharp2
 gtkspell-lang
 gucharmap
 gucharmap-devel
@@ -932,7 +913,6 @@ icewm-lite
 icoutils
 ifplugd
 iftop
-ikvm
 ilmbase-devel
 imake
 imhangul
@@ -994,10 +974,8 @@ ispell-slovak
 ispell-slovene
 ispell-spanish
 ispell-swedish
-itk
 itstool
 iw
-iwidgets
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_8_0-openjdk
@@ -1698,8 +1676,6 @@ libgdata-devel
 libgdata19
 libgdbm4
 libgdict-1_0-6
-libgdiplus-devel
-libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
 libgdl-3-5
@@ -2018,7 +1994,6 @@ libmng2-32bit
 libmnl0
 libmodman1
 libmodplug1
-libmonosgen-2_0-1
 libmount1
 libmount1-32bit
 libmowgli2
@@ -2675,6 +2650,8 @@ libyui6
 libz1
 libz1-32bit
 libzapojit-0_0-0
+libzhuyin-data
+libzhuyin6
 libzinnia0
 libzio1
 libzip2
@@ -2774,22 +2751,6 @@ mkfontscale
 mlterm-scim
 mobile-broadband-provider-info
 mobipocket
-mono-basic
-mono-core
-mono-data
-mono-data-oracle
-mono-data-postgresql
-mono-data-sqlite
-mono-devel
-mono-extras
-mono-locale-extras
-mono-mvc
-mono-nunit
-mono-wcf
-mono-web
-mono-winforms
-mono-winfxcore
-monodoc-core
 moodbar
 mousetweaks
 mozc
@@ -2976,13 +2937,11 @@ patterns-openSUSE-devel_ide
 patterns-openSUSE-devel_java
 patterns-openSUSE-devel_kde
 patterns-openSUSE-devel_kernel
-patterns-openSUSE-devel_mono
 patterns-openSUSE-devel_perl
 patterns-openSUSE-devel_python
 patterns-openSUSE-devel_qt4
 patterns-openSUSE-devel_rpm_build
 patterns-openSUSE-devel_ruby
-patterns-openSUSE-devel_tcl
 patterns-openSUSE-devel_web
 patterns-openSUSE-dhcp_dns_server
 patterns-openSUSE-directory_server
@@ -3470,7 +3429,6 @@ slib
 smartmontools
 smbios-utils-python
 smp_utils
-snack
 snapper
 snapper-zypp-plugin
 snmp-mibs
@@ -3539,14 +3497,8 @@ tamil-gtk2im-32bit
 tango-icon-theme
 tar
 tcl
-tcl-devel
-tcllib
-tclplug
-tcludp
-tclx
 tcpdump
 tcsh
-tdom
 tei-roma
 tei-xsl-stylesheets
 telepathy-gabble
@@ -3576,12 +3528,7 @@ tigervnc
 time
 timezone
 timezone-java
-tix
 tk
-tk-devel
-tkimg
-tktable
-tls
 tnftp
 totem
 totem-pl-parser
@@ -3999,7 +3946,6 @@ xscreensaver-data-extra
 xset
 xsetroot
 xslide
-xsp
 xstroke
 xtables-plugins
 xterm

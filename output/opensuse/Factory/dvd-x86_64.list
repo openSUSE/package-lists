@@ -56,7 +56,6 @@ PackageKit-branding-openSUSE
 PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
-PgTcl
 QtZeitgeist-devel
 SuSEfirewall2
 WindowMaker
@@ -143,7 +142,6 @@ apache2-devel
 apache2-doc
 apache2-example-pages
 apache2-mod_dnssd
-apache2-mod_mono
 apache2-mod_perl
 apache2-mod_php5
 apache2-mod_tidy
@@ -175,7 +173,6 @@ armagetron
 arphic-uming-fonts
 arpwatch
 arpwatch-ethercodes
-art-sharp2
 as10k1
 aspell
 aspell-cs
@@ -278,8 +275,6 @@ bluez-cups
 bluez-devel
 bluez-firmware
 bogofilter
-boo
-boo-2_0_9_3
 boost-devel
 boost-jam
 boost-license1_54_0
@@ -347,7 +342,6 @@ bundle-lang-kde-pt
 bundle-lang-kde-ru
 bundle-lang-kde-zh
 busybox
-bwidget
 bzip2
 bzr
 bzr-lang
@@ -496,7 +490,6 @@ dbus-1-devel
 dbus-1-glib
 dbus-1-glib-32bit
 dbus-1-glib-devel
-dbus-1-mono
 dbus-1-python
 dbus-1-python3
 dbus-1-x11
@@ -615,7 +608,6 @@ exo-lang
 exo-tools
 expat
 expect
-expect-devel
 farstream-data
 fbiterm
 fcitx
@@ -638,6 +630,7 @@ fcitx-table-tw-boshiamy
 fcitx-table-tw-cangjie-large
 fcitx-table-tw-cangjie5
 fcitx-table-tw-smart-cangjie6
+fcitx-zhuyin
 fd0ssh
 fdupes
 festival
@@ -681,7 +674,6 @@ freetype2-devel
 frei0r-plugins
 fribidi
 fribidi-devel
-frink
 frogr
 frogr-lang
 frozen-bubble
@@ -886,7 +878,6 @@ gnome-online-miners
 gnome-packagekit
 gnome-photos
 gnome-power-manager
-gnome-print-sharp
 gnome-pty-helper
 gnome-robots
 gnome-robots-lang
@@ -895,7 +886,6 @@ gnome-session
 gnome-session-core
 gnome-session-default-session
 gnome-settings-daemon
-gnome-sharp2
 gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-search-provider-bijiben
@@ -977,7 +967,6 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
 gsf-office-thumbnailer
-gsf-sharp
 gsl-devel
 gstreamer
 gstreamer-0_10
@@ -1017,9 +1006,6 @@ gtk-doc
 gtk-doc-lang
 gtk-sharp-beans
 gtk-sharp2
-gtk-sharp2-complete
-gtk-sharp2-doc
-gtk-sharp2-gapi
 gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
@@ -1073,7 +1059,6 @@ gtk3-theme-oxygen
 gtk3-tools
 gtkiterm
 gtksourceview-devel
-gtksourceview-sharp2
 gtksourceview2-lang
 gtkspell-lang
 gucharmap
@@ -1184,7 +1169,6 @@ id3lib
 id3v2
 ifplugd
 iftop
-ikvm
 ilbc
 ilmbase-devel
 imake
@@ -1250,11 +1234,9 @@ ispell-polish
 ispell-portuguese
 ispell-russian
 ispell-spanish
-itk
 itstool
 ivtv
 iw
-iwidgets
 jakarta-commons-dbcp
 jakarta-commons-digester
 jakarta-commons-discovery
@@ -2085,7 +2067,6 @@ libgdata19
 libgdbm4
 libgdbm4-32bit
 libgdict-1_0-6
-libgdiplus-devel
 libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
@@ -2489,7 +2470,6 @@ libmono-2_0-1
 libmono-2_0-devel
 libmonoboehm-2_0-1
 libmonoboehm-2_0-devel
-libmonosgen-2_0-1
 libmount1
 libmount1-32bit
 libmowgli2
@@ -3371,19 +3351,12 @@ mmv
 mobile-broadband-provider-info
 mobipocket
 mono-addins
-mono-basic
 mono-core
 mono-data
-mono-data-oracle
-mono-data-postgresql
 mono-data-sqlite
-mono-debugger
-mono-devel
 mono-extras
 mono-kde4
-mono-locale-extras
 mono-mvc
-mono-nunit
 mono-qt4
 mono-qt4-devel
 mono-wcf
@@ -3392,7 +3365,6 @@ mono-winforms
 mono-winfxcore
 mono-zeroconf
 mono-zeroconf-provider-avahi
-monodoc-core
 moodbar
 motv
 mousetweaks
@@ -3605,13 +3577,11 @@ patterns-openSUSE-devel_ide
 patterns-openSUSE-devel_java
 patterns-openSUSE-devel_kde
 patterns-openSUSE-devel_kernel
-patterns-openSUSE-devel_mono
 patterns-openSUSE-devel_perl
 patterns-openSUSE-devel_python
 patterns-openSUSE-devel_qt4
 patterns-openSUSE-devel_rpm_build
 patterns-openSUSE-devel_ruby
-patterns-openSUSE-devel_tcl
 patterns-openSUSE-devel_web
 patterns-openSUSE-dhcp_dns_server
 patterns-openSUSE-directory_server
@@ -4373,7 +4343,6 @@ rsh
 rsibreak
 rsibreak-lang
 rstart
-rsvg2-sharp
 rsync
 rsyslog
 rtkit
@@ -4495,7 +4464,6 @@ smuxi-frontend-gnome-xmpp
 smuxi-frontend-lang
 smuxi-server
 smuxi-server-lang
-snack
 snapper
 snapper-zypp-plugin
 snmp-mibs
@@ -4586,15 +4554,9 @@ tar
 tasque
 tasque-lang
 tcl
-tcl-devel
-tcllib
-tclplug
-tcludp
-tclx
 tcpd-devel
 tcpdump
 tcsh
-tdom
 tei-roma
 tei-xsl-stylesheets
 telepathy-gabble
@@ -4628,12 +4590,7 @@ tigervnc
 time
 timezone
 timezone-java
-tix
 tk
-tk-devel
-tkimg
-tktable
-tls
 tmpwatch
 tnftp
 totem
@@ -4849,9 +4806,7 @@ vobject
 vorbis-tools
 vpnc
 vsftpd
-vtcl
 vte-devel
-vte016-sharp
 vte2-lang
 vym
 w3m
@@ -5175,7 +5130,6 @@ xsetpointer
 xsetroot
 xslide
 xsm
-xsp
 xstdcmap
 xstroke
 xtables-addons-kmp-default
