@@ -48,7 +48,6 @@ dracut
 efibootmgr
 elfutils
 ethtool
-exim
 expat
 fdupes
 file
@@ -332,6 +331,7 @@ pkg-config
 pm-utils
 polkit
 polkit-default-privs
+postfix
 prctl
 procps
 python
@@ -366,6 +366,7 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
