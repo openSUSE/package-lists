@@ -42,13 +42,11 @@ deltarpm
 device-mapper
 dhcpcd
 diffutils
-dirmngr
 dmraid
 dracut
 efibootmgr
 elfutils
 ethtool
-exim
 expat
 fdupes
 file
@@ -68,6 +66,7 @@ glibc-extra
 glibc-locale
 google-opensans-fonts
 gpg2
+gpg2-lang
 grep
 grub2
 grub2-branding-openSUSE
@@ -109,7 +108,6 @@ libXext6
 libXmuu1
 libXt6
 libacl1
-libadns1
 libaio1
 libapparmor1
 libasm1
@@ -183,6 +181,7 @@ libnettle4
 libnfnetlink0
 libnl-config
 libnl3-200
+libnpth0
 libntfs-3g85
 libopenssl1_0_0
 libp11-kit0
@@ -195,7 +194,6 @@ libpolkit0
 libpopt0
 libprocps3
 libproxy1
-libpth20
 libpwquality1
 libpython2_7-1_0
 libqrencode3
@@ -332,6 +330,7 @@ pkg-config
 pm-utils
 polkit
 polkit-default-privs
+postfix
 prctl
 procps
 python
@@ -366,6 +365,7 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools

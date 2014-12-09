@@ -38,7 +38,6 @@ deltarpm
 device-mapper
 dhcpcd
 diffutils
-dirmngr
 dmraid
 dracut
 elfutils
@@ -60,6 +59,7 @@ glibc-extra
 glibc-locale
 google-opensans-fonts
 gpg2
+gpg2-lang
 grep
 grub2
 grub2-branding-openSUSE
@@ -97,7 +97,6 @@ libXext6
 libXmuu1
 libXt6
 libacl1
-libadns1
 libaio1
 libapparmor1
 libasm1
@@ -138,10 +137,12 @@ libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
+libgnutls28
 libgobject-2_0-0
 libgpg-error0
 libgudev-1_0-0
 libhavege1
+libhogweed2
 libidn11
 libimobiledevice5
 libiptc0
@@ -162,9 +163,11 @@ libmozjs-17_0
 libncurses5
 libncurses6
 libnetfilter_conntrack3
+libnettle4
 libnfnetlink0
 libnl-config
 libnl3-200
+libnpth0
 libntfs-3g85
 libopenssl1_0_0
 libp11-kit0
@@ -177,7 +180,6 @@ libpolkit0
 libpopt0
 libprocps3
 libproxy1
-libpth20
 libpwquality1
 libpython2_7-1_0
 libqrencode3
