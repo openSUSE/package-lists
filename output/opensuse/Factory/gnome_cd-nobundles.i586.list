@@ -12,6 +12,9 @@ NetworkManager
 NetworkManager-gnome
 NetworkManager-gnome-lang
 NetworkManager-lang
+NetworkManager-openconnect
+NetworkManager-openconnect-gnome
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-lang
@@ -883,7 +886,7 @@ libiptc0
 libiptcdata
 libiptcdata-lang
 libiptcdata0
-libisl10
+libisl13
 libisoburn1
 libisofs6
 libiw30
@@ -1139,6 +1142,7 @@ libsss_nss_idmap0
 libsss_sudo
 libstartup-notification-1-0
 libstdc++6
+libstoken1
 libstorage-ruby
 libstorage5
 libsuitesparseconfig-4_4_1
@@ -1159,6 +1163,7 @@ libtidyp-1_04-0
 libtiff5
 libtimidity-0_1-0
 libtirpc1
+libtomcrypt0
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -1349,6 +1354,7 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-gnome
 openal-soft
+openconnect
 openldap2-client
 openslp
 openssh
