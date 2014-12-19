@@ -21,7 +21,6 @@ augeas-lenses
 bash
 bash-completion
 bash-doc
-bind-libs
 bind-utils
 binutils
 boost-license1_56_0
@@ -208,6 +207,7 @@ libaugeas0
 libavahi-client3
 libavahi-common3
 libavahi-glib1
+libbind9-140
 libblkid1
 libbluetooth3
 libbluray1
@@ -248,6 +248,7 @@ libdcerpc-binding0
 libdcerpc0
 libdconf1
 libdmtx0
+libdns146
 libdrm2
 libdrm_intel1
 libdrm_nouveau2
@@ -318,6 +319,10 @@ libicu54_1
 libicu54_1-ledata
 libidn11
 libimobiledevice5
+libirs141
+libisc142
+libisccc140
+libisccfg140
 libixion-0_8-0
 libjasper1
 libjavascriptcoregtk-3_0-0
@@ -343,6 +348,7 @@ liblpsolve55-0
 libltdl7
 liblua5_1
 liblua5_2
+liblwres141
 liblzma5
 libmagic1
 libmng2
