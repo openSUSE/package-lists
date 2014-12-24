@@ -291,6 +291,7 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ca
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -301,7 +302,6 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-ko
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -4518,6 +4518,8 @@ typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
 typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
+ucode-amd
+ucode-intel
 udev
 udev-configure-printer
 udhcp
