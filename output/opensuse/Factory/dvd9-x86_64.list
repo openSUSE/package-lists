@@ -1605,7 +1605,7 @@ libQt5Sensors5
 libQt5SerialPort5
 libQt5Sql-devel
 libQt5Sql5
-libQt5Sql5-sqlite
+libQt5Sql5-postgresql
 libQt5Svg5
 libQt5Test-devel
 libQt5Test5
@@ -2328,8 +2328,8 @@ libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
-libhdf5-8
-libhdf5_hl8
+libhdf5-9
+libhdf5_hl9
 libhogweed2
 libhogweed2-32bit
 libhyphen0
@@ -3293,7 +3293,7 @@ libxtables10
 libyajl2
 libyaml-0-2
 libyaz-devel
-libyaz4
+libyaz5
 libyelp0
 libyui-devel
 libyui-ncurses-devel
@@ -7167,6 +7167,7 @@ xen-kmp-default
 xen-kmp-desktop
 xen-libs
 xen-tools
+xen-tools-domU
 xerces-j2
 xerces-j2-xml-apis
 xerces-j2-xml-resolver

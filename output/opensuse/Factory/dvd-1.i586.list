@@ -1533,7 +1533,7 @@ libQt5PrintSupport5
 libQt5Sensors5
 libQt5SerialPort5
 libQt5Sql5
-libQt5Sql5-mysql
+libQt5Sql5-sqlite
 libQt5Svg5
 libQt5Test5
 libQt5WebKit5
@@ -2171,8 +2171,8 @@ libhangul1
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
-libhdf5-8
-libhdf5_hl8
+libhdf5-9
+libhdf5_hl9
 libhogweed2
 libhyphen0
 libibus-1_0-5
@@ -3007,7 +3007,7 @@ libxtables10
 libyajl2
 libyaml-0-2
 libyaz-devel
-libyaz4
+libyaz5
 libyelp0
 libyui-ncurses-pkg6
 libyui-ncurses6
@@ -4675,6 +4675,7 @@ xf86-video-chips
 xf86-video-cirrus
 xf86-video-dummy
 xf86-video-fbdev
+xf86-video-geode
 xf86-video-glint
 xf86-video-i128
 xf86-video-intel
