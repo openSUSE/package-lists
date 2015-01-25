@@ -112,6 +112,7 @@ db48-utils
 dbus-1
 dbus-1-glib
 dbus-1-python
+dbus-1-python3
 dbus-1-x11
 dconf
 dejavu-fonts
@@ -1098,7 +1099,6 @@ python
 python-CherryPy
 python-base
 python-bottle
-python-cairo
 python-configobj
 python-cups
 python-cupshelpers
@@ -1110,11 +1110,17 @@ python-pycurl
 python-pyudev
 python-simplejson
 python-six
-python-smbc
 python-solv
 python-xml
+python3
 python3-apparmor
 python3-base
+python3-cairo
+python3-gobject
+python3-gobject-cairo
+python3-pip
+python3-setuptools
+python3-smbc
 qt4-qtscript
 quota
 rcc-runtime
