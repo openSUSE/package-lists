@@ -253,6 +253,7 @@ binutils
 binutils-devel
 biosdevname
 bison
+bison-lang
 bitmap
 bitstream-vera-fonts
 blender
@@ -298,6 +299,7 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
+bundle-lang-common-nl
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -577,7 +579,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -1221,6 +1222,8 @@ java-1_5_0-gcj-compat-devel
 java-1_8_0-openjdk
 java-1_8_0-openjdk-headless
 java-1_8_0-openjdk-plugin
+java-1_9_0-openjdk
+java-1_9_0-openjdk-headless
 javacc
 javapackages-tools
 jdepend
@@ -1493,22 +1496,23 @@ libFLAC8
 libFOX-1_6-0
 libFS-devel
 libFS6
-libGLEW1_11
+libGLEW1_12
 libGLU1
 libGeoIP1
 libGraphicsMagick-Q16-3
 libGraphicsMagick3-config
 libGraphicsMagickWand-Q16-2
 libHX28
-libHalf11
+libHalf12
 libICE-devel
 libICE6
 libIDL-2-0
-libIex-2_1-11
-libIexMath-2_1-11
-libIlmImf-Imf_2_1-21
-libIlmThread-2_1-11
-libImath-2_1-11
+libIex-2_2-12
+libIexMath-2_2-12
+libIlmImf-2_2-22
+libIlmImfUtil-2_2-22
+libIlmThread-2_2-12
+libImath-2_2-12
 libImlib2-1
 libLLVM
 libMagick++-6_Q16-5
@@ -1534,7 +1538,7 @@ libQt5PrintSupport5
 libQt5Sensors5
 libQt5SerialPort5
 libQt5Sql5
-libQt5Sql5-sqlite
+libQt5Sql5-unixODBC
 libQt5Svg5
 libQt5Test5
 libQt5WebKit5
@@ -2370,8 +2374,6 @@ libmpcdec-devel
 libmpcdec5
 libmpd1
 libmpfr4
-libmsn-devel
-libmsn0_3
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -3459,7 +3461,6 @@ patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
-pax
 pbm2l7k
 pcfclock-kmp-default
 pcfclock-kmp-desktop
@@ -3905,6 +3906,7 @@ pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4268,6 +4270,7 @@ sound-theme-freedesktop
 source-highlight
 sox
 spamassassin
+spax
 speech-dispatcher
 speech-dispatcher-configure
 speech-dispatcher-module-espeak

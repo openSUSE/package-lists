@@ -192,6 +192,7 @@ bind-utils
 binutils
 binutils-devel
 bison
+bison-lang
 bitstream-vera-fonts
 blinken
 bluedevil
@@ -1089,19 +1090,20 @@ libFLAC++6
 libFLAC8
 libFS-devel
 libFS6
-libGLEW1_11
+libGLEW1_12
 libGLU1
 libGeoIP1
 libHX28
-libHalf11
+libHalf12
 libICE-devel
 libICE6
 libIDL-2-0
-libIex-2_1-11
-libIexMath-2_1-11
-libIlmImf-Imf_2_1-21
-libIlmThread-2_1-11
-libImath-2_1-11
+libIex-2_2-12
+libIexMath-2_2-12
+libIlmImf-2_2-22
+libIlmImfUtil-2_2-22
+libIlmThread-2_2-12
+libImath-2_2-12
 libImlib2-1
 libLLVM
 libMagick++-6_Q16-5
@@ -1139,7 +1141,7 @@ libQt5Sensors5
 libQt5SerialPort5
 libQt5Sql-devel
 libQt5Sql5
-libQt5Sql5-sqlite
+libQt5Sql5-unixODBC
 libQt5Svg5
 libQt5Test-devel
 libQt5Test5
@@ -1519,6 +1521,7 @@ libfreerdp-1_0-plugins
 libfreetype6
 libfribidi0
 libfuse2
+libfvalue1
 libgadu3
 libgarcon-1-0
 libgarcon-branding-openSUSE
@@ -2799,7 +2802,6 @@ patterns-openSUSE-xfce_laptop
 patterns-openSUSE-xfce_office
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
-pax
 pciutils
 pciutils-ids
 pcmanfm
@@ -3233,6 +3235,7 @@ sound-theme-freedesktop
 source-highlight
 sox
 spamassassin
+spax
 speech-dispatcher
 speech-dispatcher-module-espeak
 splix
@@ -3243,6 +3246,7 @@ sshfs
 sssd
 sssd-krb5-common
 sssd-ldap
+star
 startup-notification-devel
 step
 strace
@@ -5601,6 +5605,7 @@ uget-lang
 umbrello
 un-fonts
 unison
+unixODBC
 unoconv
 unzip
 unzip-doc

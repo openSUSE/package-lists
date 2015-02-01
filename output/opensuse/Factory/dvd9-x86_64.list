@@ -263,6 +263,7 @@ binutils
 binutils-devel
 biosdevname
 bison
+bison-lang
 bitmap
 bitstream-vera-fonts
 blender
@@ -310,7 +311,6 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-nb
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -1543,7 +1543,7 @@ libFLAC8-32bit
 libFOX-1_6-0
 libFS-devel
 libFS6
-libGLEW1_11
+libGLEW1_12
 libGLU1
 libGLU1-32bit
 libGeoIP1
@@ -1552,16 +1552,17 @@ libGraphicsMagick3-config
 libGraphicsMagickWand-Q16-2
 libHX28
 libHX28-32bit
-libHalf11
+libHalf12
 libICE-devel
 libICE6
 libICE6-32bit
 libIDL-2-0
-libIex-2_1-11
-libIexMath-2_1-11
-libIlmImf-Imf_2_1-21
-libIlmThread-2_1-11
-libImath-2_1-11
+libIex-2_2-12
+libIexMath-2_2-12
+libIlmImf-2_2-22
+libIlmImfUtil-2_2-22
+libIlmThread-2_2-12
+libImath-2_2-12
 libImlib2-1
 libLLVM
 libLLVM-32bit
@@ -1602,7 +1603,7 @@ libQt5Sensors5
 libQt5SerialPort5
 libQt5Sql-devel
 libQt5Sql5
-libQt5Sql5-postgresql
+libQt5Sql5-unixODBC
 libQt5Svg5
 libQt5Test-devel
 libQt5Test5
@@ -2083,6 +2084,7 @@ libfreetype6-32bit
 libfribidi0
 libftgl2
 libfuse2
+libfvalue1
 libgadu-devel
 libgadu3
 libgarcon-1-0
@@ -2545,8 +2547,6 @@ libmpcdec-devel
 libmpcdec5
 libmpd1
 libmpfr4
-libmsn-devel
-libmsn0_3
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -3790,7 +3790,6 @@ patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
-pax
 pbm2l7k
 pcfclock-kmp-default
 pcfclock-kmp-desktop
@@ -4615,6 +4614,7 @@ sound-theme-freedesktop
 source-highlight
 sox
 spamassassin
+spax
 speech-dispatcher
 speech-dispatcher-configure
 speech-dispatcher-module-espeak
@@ -7349,9 +7349,10 @@ xmanja
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
+xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
 xml-commons-resolver10
-xml-commons-resolver12
+xml-commons-resolver11
 xml-commons-which10
 xml-group-manager
 xml2po

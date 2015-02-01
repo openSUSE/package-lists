@@ -198,6 +198,7 @@ bind-utils
 binutils
 binutils-devel
 bison
+bison-lang
 bitstream-vera-fonts
 blinken
 bluedevil
@@ -1109,21 +1110,22 @@ libFLAC8
 libFLAC8-32bit
 libFS-devel
 libFS6
-libGLEW1_11
+libGLEW1_12
 libGLU1
 libGeoIP1
 libHX28
 libHX28-32bit
-libHalf11
+libHalf12
 libICE-devel
 libICE6
 libICE6-32bit
 libIDL-2-0
-libIex-2_1-11
-libIexMath-2_1-11
-libIlmImf-Imf_2_1-21
-libIlmThread-2_1-11
-libImath-2_1-11
+libIex-2_2-12
+libIexMath-2_2-12
+libIlmImf-2_2-22
+libIlmImfUtil-2_2-22
+libIlmThread-2_2-12
+libImath-2_2-12
 libImlib2-1
 libLLVM
 libLLVM-32bit
@@ -1162,7 +1164,7 @@ libQt5Sensors5
 libQt5SerialPort5
 libQt5Sql-devel
 libQt5Sql5
-libQt5Sql5-postgresql
+libQt5Sql5-unixODBC
 libQt5Svg5
 libQt5Test-devel
 libQt5Test5
@@ -1588,6 +1590,7 @@ libfreetype6
 libfreetype6-32bit
 libfribidi0
 libfuse2
+libfvalue1
 libgadu3
 libgarcon-1-0
 libgarcon-branding-openSUSE
@@ -2124,7 +2127,6 @@ libpoppler49
 libpopt0
 libpopt0-32bit
 libportaudio2
-libpq5
 libpresage1
 libprison0
 libprocps3
@@ -2976,7 +2978,6 @@ patterns-openSUSE-xfce_laptop
 patterns-openSUSE-xfce_office
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
-pax
 pciutils
 pciutils-ids
 pcmanfm
@@ -3420,6 +3421,7 @@ sound-theme-freedesktop
 source-highlight
 sox
 spamassassin
+spax
 speech-dispatcher
 speech-dispatcher-module-espeak
 splix
@@ -3431,6 +3433,7 @@ sssd
 sssd-32bit
 sssd-krb5-common
 sssd-ldap
+star
 startup-notification-devel
 step
 strace
@@ -5790,6 +5793,7 @@ uget-lang
 umbrello
 un-fonts
 unison
+unixODBC
 unoconv
 unzip
 unzip-doc
@@ -5980,8 +5984,9 @@ xkill
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
+xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver12
+xml-commons-resolver11
 xml-commons-which10
 xml-group-manager
 xml2po

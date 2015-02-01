@@ -129,8 +129,8 @@ info
 insserv-compat
 ispell
 ispell-american
-java-1_8_0-openjdk
-java-1_8_0-openjdk-headless
+java-1_9_0-openjdk
+java-1_9_0-openjdk-headless
 javapackages-tools
 kbd
 kde4-filesystem
@@ -145,13 +145,13 @@ kmod
 kmod-compat
 krb5
 libFLAC8
-libGLEW1_11
+libGLEW1_12
 libGLU1
-libHalf11
+libHalf12
 libICE6
-libIex-2_1-11
-libIlmImf-Imf_2_1-21
-libIlmThread-2_1-11
+libIex-2_2-12
+libIlmImf-2_2-22
+libIlmThread-2_2-12
 libLLVM
 libOpenCOLLADA0
 libQt5Core5
@@ -412,7 +412,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-unixODBC
+libqt4-sql-sqlite
 libqt4-x11
 libqt5-qtbase-platformtheme-gtk2
 libqt5-qtimageformats
@@ -673,7 +673,6 @@ timezone-java
 traceroute
 udev
 udisks2
-unixODBC
 unzip
 unzip-doc
 update-alternatives
