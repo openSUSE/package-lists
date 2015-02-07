@@ -422,6 +422,7 @@ cloop-kmp-desktop
 cloop-kmp-xen
 clucene-core-devel
 clutter-devel
+clutter-gst-devel
 clutter-gtk-devel
 cmake
 cmpi-provider-register
@@ -769,7 +770,6 @@ ghostscript
 ghostscript-cjk
 ghostscript-devel
 ghostscript-fonts
-ghostscript-fonts-grops
 ghostscript-fonts-other
 ghostscript-fonts-std
 ghostscript-x11
@@ -988,8 +988,10 @@ gstreamer-devel
 gstreamer-libnice
 gstreamer-plugin-gnonlin
 gstreamer-plugin-gstclutter
+gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
 gstreamer-plugins-base
+gstreamer-plugins-base-devel
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
@@ -1270,7 +1272,6 @@ kakasi-dict
 kalarm
 kalgebra
 kalzium
-kanagram
 kapptemplate
 kasumi
 kate
@@ -1342,7 +1343,6 @@ kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-libs
 kdebase4-workspace-plasma-calendar
 kdebindings-smokegen
-kdeedu-data
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -1394,7 +1394,6 @@ kgeography
 kget
 kgoldrunner
 kgpg
-khangman
 khmeros-fonts
 kig
 kimagemapeditor
@@ -1502,7 +1501,6 @@ kwalletmanager
 kwebkitpart
 kwikdisk
 kwin
-kwordquiz
 kwrite
 laptop-mode-tools
 latex2html-pngicons
@@ -1870,6 +1868,7 @@ libclucene-core1
 libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-2_0-0
+libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcmis-0_5-5
 libcogl-pango20
@@ -2362,7 +2361,6 @@ libkde4
 libkde4-devel
 libkdecore4
 libkdecore4-devel
-libkdeedu4-devel
 libkdegames
 libkdegames-devel
 libkdegames6
@@ -2371,7 +2369,6 @@ libkdepimlibs4
 libkdepimlibs4-devel
 libkdevplatform-devel
 libkdevplatform8
-libkeduvocdocument4
 libkerfuffle4
 libkexiv2-11
 libkexiv2-devel
@@ -2386,7 +2383,6 @@ libkfbapi1
 libkgapi2-2
 libkgeomap-devel
 libkgeomap2
-libkhangmanengine4
 libkipi-devel
 libkipi11
 libkmahjongg
@@ -2687,8 +2683,7 @@ libpqxx-devel
 libpresage1
 libprison-devel
 libprison0
-libprocps3
-libprotobuf-c0
+libprocps4
 libprotobuf8
 libproxy-devel
 libproxy1
@@ -3588,7 +3583,6 @@ paprefs-lang
 par
 parallel-printer-support
 parcellite
-parley
 parted
 patch
 patchutils
@@ -4678,6 +4672,7 @@ typelib-1_0-Caribou-1_0
 typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
+typelib-1_0-ClutterGst-3_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-Cogl-2_0
 typelib-1_0-CoglPango-1_0
@@ -4711,10 +4706,17 @@ typelib-1_0-Grl-0_2
 typelib-1_0-Gsf-1
 typelib-1_0-Gst-0_10
 typelib-1_0-Gst-1_0
+typelib-1_0-GstAllocators-1_0
 typelib-1_0-GstApp-0_10
+typelib-1_0-GstApp-1_0
 typelib-1_0-GstAudio-1_0
+typelib-1_0-GstFft-1_0
 typelib-1_0-GstInterfaces-0_10
 typelib-1_0-GstPbutils-1_0
+typelib-1_0-GstRiff-1_0
+typelib-1_0-GstRtp-1_0
+typelib-1_0-GstRtsp-1_0
+typelib-1_0-GstSdp-1_0
 typelib-1_0-GstTag-1_0
 typelib-1_0-GstVideo-1_0
 typelib-1_0-Gtk-2_0

@@ -295,6 +295,7 @@ clicfs
 cln
 clucene-core-devel
 clutter-devel
+clutter-gst-devel
 clutter-gtk-devel
 cmake
 cogl-devel
@@ -739,8 +740,10 @@ gstreamer-0_10-utils
 gstreamer-devel
 gstreamer-libnice
 gstreamer-plugin-gstclutter
+gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
 gstreamer-plugins-base
+gstreamer-plugins-base-devel
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-qt
@@ -926,7 +929,6 @@ kaddressbook
 kaffeine
 kalgebra
 kalzium
-kanagram
 kapptemplate
 kasumi
 kate
@@ -983,7 +985,6 @@ kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-libs
 kdebase4-workspace-plasma-calendar
-kdeedu-data
 kdegames4-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -1025,7 +1026,6 @@ kgamma
 kgeography
 kget
 kgpg
-khangman
 khmeros-fonts
 kig
 kio_audiocd
@@ -1097,7 +1097,6 @@ kvkbd
 kwalletmanager
 kwebkitpart
 kwin
-kwordquiz
 kwrite
 latex2html-pngicons
 leafpad
@@ -1443,6 +1442,7 @@ libclucene-core1
 libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-2_0-0
+libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcmis-0_5-5
 libcnotify1
@@ -1867,7 +1867,6 @@ libkdegames6
 libkdepim4
 libkdepimlibs4
 libkdevplatform8
-libkeduvocdocument4
 libkerfuffle4
 libkexiv2-11
 libkexiv2-devel
@@ -1879,7 +1878,6 @@ libkface3
 libkfbapi1
 libkgapi2-2
 libkgeomap2
-libkhangmanengine4
 libkipi11
 libkmahjongg
 libkmahjongglib4
@@ -2130,8 +2128,7 @@ libpopt0-32bit
 libportaudio2
 libpresage1
 libprison0
-libprocps3
-libprotobuf-c0
+libprocps4
 libprotobuf8
 libproxy1
 libproxy1-config-gnome3
@@ -2871,7 +2868,6 @@ pango-tools-32bit
 pangox-compat
 parallel-printer-support
 parcellite
-parley
 parted
 patch
 patchutils
@@ -5705,6 +5701,7 @@ typelib-1_0-Caribou-1_0
 typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-2_0
+typelib-1_0-ClutterGst-3_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-Cogl-2_0
 typelib-1_0-CoglPango-1_0
@@ -5735,10 +5732,17 @@ typelib-1_0-Grl-0_2
 typelib-1_0-Gsf-1
 typelib-1_0-Gst-0_10
 typelib-1_0-Gst-1_0
+typelib-1_0-GstAllocators-1_0
 typelib-1_0-GstApp-0_10
+typelib-1_0-GstApp-1_0
 typelib-1_0-GstAudio-1_0
+typelib-1_0-GstFft-1_0
 typelib-1_0-GstInterfaces-0_10
 typelib-1_0-GstPbutils-1_0
+typelib-1_0-GstRiff-1_0
+typelib-1_0-GstRtp-1_0
+typelib-1_0-GstRtsp-1_0
+typelib-1_0-GstSdp-1_0
 typelib-1_0-GstTag-1_0
 typelib-1_0-GstVideo-1_0
 typelib-1_0-Gtk-2_0
