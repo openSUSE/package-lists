@@ -309,7 +309,6 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-ko
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -490,6 +489,7 @@ dbsplit-tools
 dbus-1
 dbus-1-devel
 dbus-1-glib
+dbus-1-glib-32bit
 dbus-1-glib-devel
 dbus-1-python
 dbus-1-python3
@@ -666,6 +666,9 @@ fonttosfnt
 fortune
 four-in-a-row
 four-in-a-row-lang
+fprintd
+fprintd-pam
+fprintd-pam-32bit
 freeglut-devel
 freerdp
 freetype2-devel
@@ -2028,6 +2031,7 @@ libfolks-tracker25
 libfolks25
 libfontenc-devel
 libfontenc1
+libfprint0
 libfreebl3
 libfreehand-0_1-1
 libfreerdp-1_0
@@ -2487,7 +2491,6 @@ libmonoboehm-2_0-1
 libmonoboehm-2_0-devel
 libmount1
 libmount1-32bit
-libmowgli2
 libmozjs-17_0
 libmozjs-24
 libmpc3
@@ -2926,7 +2929,7 @@ libspice-server1
 libspnav0
 libsqlite3-0
 libsqlite3-0-32bit
-libsrtp2
+libsrtp-1_5_0
 libssh-devel
 libssh2-1
 libssh4
@@ -4108,6 +4111,7 @@ postgresql93-docs
 postgresql93-server
 pothana2000-fonts
 powertop
+powertop-lang
 ppp
 pptp
 pptpd
