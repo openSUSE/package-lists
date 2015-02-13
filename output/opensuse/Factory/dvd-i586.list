@@ -291,7 +291,6 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
-bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -302,6 +301,7 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
+bundle-lang-common-nl
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -4719,6 +4719,7 @@ xf86-video-nv
 xf86-video-qxl
 xf86-video-r128
 xf86-video-savage
+xf86-video-siliconmotion
 xf86-video-sis
 xf86-video-sisusb
 xf86-video-tdfx
