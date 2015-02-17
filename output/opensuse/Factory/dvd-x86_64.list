@@ -1121,12 +1121,9 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk-32bit
 ibus-gtk3
-ibus-libpinyin
-ibus-libzhuyin
 ibus-m17n
 ibus-mozc
 ibus-mozc-candidate-window
-ibus-pinyin
 ibus-qt
 ibus-sunpinyin
 ibus-table
@@ -1250,6 +1247,8 @@ java-1_5_0-gcj-compat-devel
 java-1_8_0-openjdk
 java-1_8_0-openjdk-headless
 java-1_8_0-openjdk-plugin
+java-1_9_0-openjdk
+java-1_9_0-openjdk-headless
 javacc
 javapackages-tools
 jdepend
@@ -2507,7 +2506,7 @@ libmusicbrainz-devel
 libmusicbrainz3-6
 libmusicbrainz3-devel
 libmusicbrainz4
-libmusicbrainz5-0
+libmusicbrainz5-1
 libmutter0
 libmwaw-0_3-3
 libmxml1
@@ -2588,7 +2587,6 @@ libopenal1
 libopenal1-32bit
 libopenbabel-devel
 libopenbabel4
-libopencc1
 libopencv2_4
 libopenjp2-7
 libopenjpeg1
@@ -2645,7 +2643,7 @@ libpeas-loader-seed
 libpgf6
 libphonon4
 libpinyin-data
-libpinyin4
+libpinyin5
 libpipeline1
 libpisock-devel
 libpisock9
@@ -2721,7 +2719,6 @@ libpwquality1
 libpython2_7-1_0
 libpython2_7-1_0-32bit
 libpython3_4m1_0
-libpyzy-1_0-0
 libqalculate-devel
 libqalculate5
 libqca2
@@ -2944,7 +2941,7 @@ libstdc++6-32bit
 libstdc++6-locale
 libstoken1
 libstorage-ruby
-libstorage5
+libstorage6
 libstreamanalyzer0
 libstroke
 libsuitesparseconfig-4_4_3
@@ -3520,8 +3517,6 @@ openal-soft
 openbabel
 openbox
 openbox-adwaita-ob-theme
-opencc
-opencc-data
 openconnect
 openconnect-devel
 opencv
@@ -3940,6 +3935,7 @@ perl-Text-DelimMatch
 perl-Text-Diff
 perl-Text-Iconv
 perl-Text-Kakasi
+perl-Text-Unidecode
 perl-Text-Wrapper
 perl-Tie-Cache
 perl-Tie-IxHash
@@ -3987,6 +3983,7 @@ perl-doc
 perl-gettext
 perl-ldap
 perl-libconfigfile
+perl-libintl-perl
 perl-libwww-perl
 perl-libxml-perl
 perl-namespace-clean
@@ -4295,8 +4292,6 @@ python3-smbc
 python3-speechd
 python3-tk
 python3-xdg
-pyzy-db-android
-pyzy-db-open-phrase
 qalculate
 qdox
 qemu
