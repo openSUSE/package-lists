@@ -303,6 +303,7 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -422,9 +423,6 @@ claws-mail-lang
 clicfs
 cln
 cln-devel
-cloop-kmp-default
-cloop-kmp-desktop
-cloop-kmp-xen
 clucene-core-devel
 clutter-devel
 clutter-gst-devel
@@ -600,7 +598,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -1405,6 +1402,7 @@ kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pv-devel
 kernel-source
 kernel-syms
 kernel-xen
@@ -2522,6 +2520,7 @@ libmediaart-1_0-0
 libmediawiki-devel
 libmediawiki1
 libmenu-cache3
+libmetalink3
 libmidori-core1
 libmikmod3
 libminiupnpc10
@@ -3791,8 +3790,6 @@ patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
-pcfclock-kmp-default
-pcfclock-kmp-desktop
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4240,6 +4237,7 @@ pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -7090,8 +7088,6 @@ virtualbox-qt
 vlan
 vlock
 vm-install
-vmware-guest-kmp-default
-vmware-guest-kmp-desktop
 vobject
 vorbis-tools
 vpnc
