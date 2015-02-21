@@ -463,6 +463,8 @@ cups
 cups-backends
 cups-client
 cups-devel
+cups-filters
+cups-filters-cups-browsed
 cups-filters-foomatic-rip
 cups-filters-ghostscript
 cups-libs
@@ -1140,6 +1142,7 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk-32bit
 ibus-gtk3
+ibus-libpinyin
 ibus-m17n
 ibus-mozc
 ibus-mozc-candidate-window
@@ -1281,7 +1284,6 @@ jing
 jline
 joe
 json-glib-devel
-juk
 junit
 k3b
 kactivities4
@@ -1604,7 +1606,7 @@ libQt5Sensors5
 libQt5SerialPort5
 libQt5Sql-devel
 libQt5Sql5
-libQt5Sql5-unixODBC
+libQt5Sql5-mysql
 libQt5Svg5
 libQt5Test-devel
 libQt5Test5
@@ -2639,6 +2641,7 @@ libopenal1
 libopenal1-32bit
 libopenbabel-devel
 libopenbabel4
+libopencc2
 libopencv2_4
 libopenjp2-7
 libopenjpeg1
@@ -2787,6 +2790,7 @@ libqjson0
 libqmi-glib1
 libqmi-tools
 libqoauth1
+libqpdf13
 libqqwing2
 libqrencode3
 libqscintilla-devel
@@ -3062,9 +3066,6 @@ libts-1_0-0
 libtsan0
 libttf2
 libtumbler-1-0
-libtunepimp
-libtunepimp-devel
-libtunepimp5
 libturbojpeg0
 libudev-devel
 libudev1
@@ -3607,6 +3608,8 @@ openal-soft
 openbabel
 openbox
 openbox-adwaita-ob-theme
+opencc
+opencc-data
 openconnect
 openconnect-devel
 opencv
