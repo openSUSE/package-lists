@@ -224,16 +224,6 @@ baloo-file
 baloo-kioslaves
 baloo-pim
 baloo-tools
-banshee
-banshee-backend-engine-gstreamer
-banshee-backend-io-gio
-banshee-backend-platform-gnome
-banshee-backend-platform-unix
-banshee-core
-banshee-dmp
-banshee-dmp-apple-devices
-banshee-dmp-mtp
-banshee-extensions-default
 baobab
 bash
 bash-completion
@@ -719,7 +709,6 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gd
-gdata-sharp
 gdb
 gdbm-devel
 gdk-pixbuf-devel
@@ -781,7 +770,6 @@ gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
 gio-branding-openSUSE
-gio-sharp
 girepository-1_0
 git
 git-core
@@ -836,8 +824,6 @@ gnome-dictionary
 gnome-disk-utility
 gnome-do
 gnome-do-lang
-gnome-do-plugins
-gnome-do-plugins-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-doc-utils-lang
@@ -1004,7 +990,6 @@ gthumb
 gthumb-lang
 gtk-doc
 gtk-doc-lang
-gtk-sharp-beans
 gtk-sharp2
 gtk-sharp2-complete
 gtk-sharp2-doc
@@ -1064,7 +1049,6 @@ gtksourceview2-lang
 gtkspell-lang
 gucharmap
 gucharmap-devel
-gudev-sharp
 guile
 guile-modules-2_0
 guile1
@@ -1121,9 +1105,11 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
 ibus-libpinyin
+ibus-libzhuyin
 ibus-m17n
 ibus-mozc
 ibus-mozc-candidate-window
+ibus-pinyin
 ibus-qt
 ibus-sunpinyin
 ibus-table
@@ -1261,6 +1247,7 @@ jing
 jline
 joe
 json-glib-devel
+juk
 junit
 k3b
 kactivities4
@@ -2363,8 +2350,6 @@ liblasem-0_4-4
 liblash1
 liblastfm-devel
 liblastfm1
-liblazy-devel
-liblazy1
 liblbxutil-devel
 liblbxutil1
 liblcms1
@@ -2632,6 +2617,7 @@ libpurple-tcl
 libpwquality1
 libpython2_7-1_0
 libpython3_4m1_0
+libpyzy-1_0-0
 libqalculate-devel
 libqalculate5
 libqca2
@@ -2889,6 +2875,9 @@ libtre5
 libts-1_0-0
 libttf2
 libtumbler-1-0
+libtunepimp
+libtunepimp-devel
+libtunepimp5
 libturbojpeg0
 libudev-devel
 libudev1
@@ -3259,8 +3248,6 @@ mono-wcf
 mono-web
 mono-winforms
 mono-winfxcore
-mono-zeroconf
-mono-zeroconf-provider-avahi
 monodevelop
 monodoc-core
 moodbar
@@ -4178,6 +4165,8 @@ python3-smbc
 python3-speechd
 python3-tk
 python3-xdg
+pyzy-db-android
+pyzy-db-open-phrase
 qalculate
 qdox
 qemu
@@ -4451,7 +4440,6 @@ sysvinit-tools
 tack
 taglib
 taglib-extras-devel
-taglib-sharp
 tali
 tali-lang
 tango-icon-theme
@@ -6881,7 +6869,6 @@ wireless-regdb
 wireless-tools
 wireshark
 wireshark-ui-gtk
-wnck-sharp
 wodim
 wol
 wondershaper
