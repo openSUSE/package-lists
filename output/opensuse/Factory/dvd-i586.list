@@ -1525,15 +1525,19 @@ libQt5OpenGL5
 libQt5Positioning5
 libQt5PrintSupport5
 libQt5Sensors5
+libQt5Sensors5-imports
 libQt5SerialPort5
 libQt5Sql5
-libQt5Sql5-mysql
+libQt5Sql5-postgresql
 libQt5Svg5
 libQt5Test5
 libQt5WebChannel5
+libQt5WebChannel5-imports
 libQt5WebKit5
+libQt5WebKit5-imports
 libQt5WebKitWidgets5
 libQt5WebSockets5
+libQt5WebSockets5-imports
 libQt5Widgets5
 libQt5X11Extras5
 libQt5Xml5
@@ -2339,6 +2343,8 @@ libmediawiki-devel
 libmediawiki1
 libmenu-cache3
 libmetalink3
+libmhash2
+libmicrohttpd10
 libmikmod3
 libminiupnpc10
 libmission-control-plugins0
@@ -2689,7 +2695,7 @@ libsepol1
 libserf-1-1
 libsexy
 libsfcUtil0
-libsgutils2-2
+libsgutils2-1_40-2
 libshout3
 libsidplay1
 libsigc++2-devel
@@ -3131,7 +3137,6 @@ metamail
 metatheme-adwaita-common
 metatheme-sonar-common
 mgetty
-mhash
 mhash-devel
 midori-branding-openSUSE
 minicom
