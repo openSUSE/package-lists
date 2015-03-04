@@ -46,6 +46,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+exim
 expat
 fdupes
 file
@@ -161,7 +162,7 @@ libgudev-1_0-0
 libhavege1
 libhogweed2
 libidn11
-libimobiledevice5
+libimobiledevice6
 libiptc0
 libirs141
 libisc142
@@ -184,6 +185,7 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
+libmysqlclient18
 libncurses5
 libncurses6
 libnetfilter_conntrack3
@@ -202,6 +204,7 @@ libplist3
 libpng16-16
 libpolkit0
 libpopt0
+libpq5
 libprocps4
 libproxy1
 libpwquality1
@@ -218,6 +221,7 @@ libsgutils2-1_40-2
 libsmartcols1
 libsnapper3
 libsolv-tools
+libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -254,11 +258,7 @@ logrotate
 lsof
 lsscsi
 lvm2
-m4
-make
-make-lang
 mdadm
-metamail
 mozilla-nspr
 mtools
 multipath-tools
@@ -345,9 +345,7 @@ pm-utils
 polkit
 polkit-default-privs
 prctl
-procmail
 procps
-psmisc
 python
 python-base
 python-gobject
@@ -365,13 +363,9 @@ ruby2.1-rubygem-gem2rpm
 ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
 sed
-sendmail
 sg3_utils
 shadow
 shared-mime-info
-sharutils
-sharutils-lang
-site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -383,7 +377,6 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
