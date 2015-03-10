@@ -1,3 +1,4 @@
+Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
@@ -70,6 +71,8 @@ brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 btrfsmaintenance
 btrfsprogs
+bundle-lang-common-en
+bundle-lang-gnome-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -99,6 +102,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -191,6 +195,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-bluetooth
 gnome-calculator
 gnome-chess
@@ -217,6 +222,7 @@ gnome-music
 gnome-nettool
 gnome-online-accounts
 gnome-online-miners
+gnome-packagekit
 gnome-power-manager
 gnome-pty-helper
 gnome-screenshot
@@ -257,6 +263,8 @@ grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -326,6 +334,7 @@ iceauth
 icedax
 icewm
 icewm-default
+icewm-lite
 ifplugd
 info
 info2html
@@ -339,6 +348,7 @@ iscsiuio
 iso-codes
 iso_ent
 kbd
+kernel-default
 keyutils
 klogd
 kmod
@@ -483,7 +493,7 @@ libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
-libdialog11
+libdialog12
 libdirac_encoder0
 libdirectfb-1_7-6
 libdleyna-core-1_0-3
@@ -700,7 +710,6 @@ libmagic1
 libmbim-glib4
 libmediaart-1_0-0
 libmetalink3
-libmicrohttpd10
 libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
@@ -1028,6 +1037,8 @@ numlockx
 obex-data-server
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openconnect
 openldap2-client
@@ -1047,6 +1058,25 @@ pam-config
 pango-tools
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-gnome
+patterns-openSUSE-gnome_basis
+patterns-openSUSE-gnome_games
+patterns-openSUSE-gnome_imaging
+patterns-openSUSE-gnome_internet
+patterns-openSUSE-gnome_multimedia
+patterns-openSUSE-gnome_yast
+patterns-openSUSE-imaging
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_gnome
+patterns-openSUSE-x11
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -1115,6 +1145,7 @@ pinentry
 pkcs11-helper
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
@@ -1224,6 +1255,7 @@ suse-module-tools
 susehelp
 susehelp_en
 sushi
+suspend
 swell-foop
 sysconfig
 sysconfig-netconfig
@@ -1387,6 +1419,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra

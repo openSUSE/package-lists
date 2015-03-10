@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLESv2-2
@@ -57,6 +58,8 @@ boost-license1_56_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
+bundle-lang-common-en
+bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -78,6 +81,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -146,6 +150,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
@@ -157,6 +162,8 @@ gpm
 gptfdisk
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -198,6 +205,7 @@ iceauth
 icedax
 icewm
 icewm-default
+icewm-lite
 icoutils
 ifplugd
 info
@@ -222,9 +230,12 @@ kdeartwork4-screensaver
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
+kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
+kdebase4-workspace
 kdebase4-workspace-addons
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-libs
@@ -241,6 +252,7 @@ kdm
 kdm-branding-openSUSE
 kdnssd
 keditbookmarks
+kernel-default
 keyutils
 kfilemetadata
 kgamma
@@ -299,6 +311,7 @@ libQt5DBus5
 libQt5Gui5
 libQt5Widgets5
 libQt5X11Extras5
+libQtWebKit4
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -397,7 +410,7 @@ libdbusmenu-qt2
 libdcerpc-binding0
 libdcerpc0
 libdconf1
-libdialog11
+libdialog12
 libdmtx0
 libdns146
 libdns_sd
@@ -536,7 +549,6 @@ liblzo2-2
 libmagic1
 libmbim-glib4
 libmetalink3
-libmicrohttpd10
 libmm-glib0
 libmng2
 libmnl0
@@ -627,6 +639,7 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-sqlite
+libqt4-x11
 libqt5-qtbase-platformtheme-gtk2
 libqt5-qtimageformats
 libraw10
@@ -794,6 +807,8 @@ ntp
 numlockx
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openldap2-client
 openslp
@@ -804,6 +819,7 @@ openssl
 openvpn
 os-prober
 oxygen-cursors4
+oxygen-icon-theme
 p11-kit
 p11-kit-tools
 p7zip
@@ -812,6 +828,27 @@ pam-config
 pango-tools
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-imaging
+patterns-openSUSE-kde
+patterns-openSUSE-kde4_basis
+patterns-openSUSE-kde4_games
+patterns-openSUSE-kde4_imaging
+patterns-openSUSE-kde4_internet
+patterns-openSUSE-kde4_multimedia
+patterns-openSUSE-kde4_pure
+patterns-openSUSE-kde4_utilities
+patterns-openSUSE-kde4_yast
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_kde4
+patterns-openSUSE-x11
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 pcsc-lite
@@ -890,6 +927,7 @@ plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
@@ -974,6 +1012,7 @@ suse-module-tools
 susegreeter-branding-openSUSE
 susehelp
 susehelp_en
+suspend
 sweeper
 sysconfig
 sysconfig-netconfig
@@ -1062,6 +1101,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
