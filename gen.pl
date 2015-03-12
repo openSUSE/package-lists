@@ -5,6 +5,7 @@ use File::Basename;
 my $file = $ARGV[0] || die 'need file';
 my $arch = $ARGV[1] || die 'need arch';
 my $proj = $ARGV[2] || 'Factory';
+my $repo = $ARGV[3] || 'standard';
 
 sub read_file_recursively($) {
   my $tfile = shift;
@@ -36,7 +37,7 @@ sub read_file_recursively($) {
 }
 
 open(OUT, ">t");
-print OUT "repo openSUSE:$proj-standard-$arch 0 solv trees/openSUSE:$proj-standard-$arch.solv\n";
+print OUT "repo openSUSE:$proj-$repo-$arch 0 solv trees/openSUSE:$proj-$repo-$arch.solv\n";
 for my $line (read_file_recursively($file)) {
   print OUT "$line\n";
 }
