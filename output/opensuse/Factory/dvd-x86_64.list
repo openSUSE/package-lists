@@ -2346,7 +2346,7 @@ libiterm1
 libitm1
 libiw-devel
 libiw30
-libixion-0_8-0
+libixion-0_10-0
 libjack-devel
 libjack0
 libjasper-devel
@@ -2452,7 +2452,9 @@ libldb1-32bit
 liblensfun0
 liblibkremotecontrol1
 liblightdm-gobject-1-0
+liblirc0
 liblirc_client0
+liblirc_driver0
 liblockdev1
 liblockdev1-32bit
 liblogging0
@@ -2488,6 +2490,7 @@ libmediawiki1
 libmenu-cache3
 libmetalink3
 libmhash2
+libmicrohttpd10
 libmikmod3
 libminiupnpc10
 libmission-control-plugins0
@@ -3279,9 +3282,7 @@ link-grammar
 links
 linux-glibc-devel
 linuxconsoletools
-lirc
 lirc-devel
-lirc-remotes
 listres
 lklug-fonts
 lndir
@@ -3709,6 +3710,8 @@ patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
+pcfclock-kmp-desktop
 pciutils
 pciutils-devel
 pciutils-ids
