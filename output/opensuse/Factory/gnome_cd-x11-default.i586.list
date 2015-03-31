@@ -101,6 +101,7 @@ gawk
 gcr-data
 gcr-prompter
 gcr-viewer
+gdk-pixbuf-lang
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
@@ -110,6 +111,7 @@ ghostscript-fonts-std
 gio-branding-openSUSE
 girepository-1_0
 glib-networking
+glib-networking-lang
 glib2-tools
 glibc
 glibc-extra
@@ -245,7 +247,6 @@ libavahi-common3
 libavahi-glib1
 libbind9-140
 libblkid1
-libbluetooth3
 libbluray1
 libboost_system1_56_0
 libboost_thread1_56_0
@@ -316,7 +317,6 @@ libgd3
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
-libgeoclue0
 libgio-2_0-0
 libgirepository-1_0-1
 libglib-2_0-0
@@ -340,7 +340,6 @@ libgstreamer-1_0-0
 libgstriff-1_0-0
 libgsttag-1_0-0
 libgstvideo-1_0-0
-libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
@@ -359,7 +358,7 @@ libisccfg140
 libisl13
 libiw30
 libjasper1
-libjavascriptcoregtk-3_0-0
+libjavascriptcoregtk-4_0-18
 libjbig2
 libjpeg8
 libjson-c2
@@ -409,7 +408,6 @@ libnpth0
 libntfs-3g85
 libogg0
 liboggkate1
-libopenobex2
 libopenssl1_0_0
 liborc-0_4-0
 libp11-kit0
@@ -433,7 +431,6 @@ libpolkit0
 libpopt0
 libprocps4
 libproxy1
-libproxy1-pacrunner-webkit
 libpulse0
 libpwquality1
 libpython2_7-1_0
@@ -503,10 +500,11 @@ libvorbisfile3
 libvpx1
 libwayland-client0
 libwayland-cursor0
+libwayland-egl1
 libwayland-server0
 libwbclient0
-libwebkitgtk-3_0-0
-libwebkitgtk3-lang
+libwebkit2gtk-4_0-37
+libwebkit2gtk3-lang
 libwebp5
 libwicked-0-6
 libwrap0
@@ -577,7 +575,6 @@ ntfs-3g
 ntfsprogs
 ntp
 numlockx
-obex-data-server
 open-iscsi
 openSUSE-build-key
 openldap2-client
@@ -780,6 +777,7 @@ util-linux-systemd
 vim
 vorbis-tools
 wallpaper-branding-openSUSE
+webkit2gtk-4_0-injected-bundles
 wget
 which
 wicked

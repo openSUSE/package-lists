@@ -137,6 +137,7 @@ gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
+gdk-pixbuf-lang
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -149,6 +150,7 @@ ghostscript-fonts-std
 gio-branding-openSUSE
 girepository-1_0
 glib-networking
+glib-networking-lang
 glib2-tools
 glibc
 glibc-32bit
@@ -473,7 +475,7 @@ libiw30
 libjack0
 libjasper1
 libjavascriptcoregtk-1_0-0
-libjavascriptcoregtk-3_0-0
+libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2dec0
 libjpeg8
@@ -540,7 +542,6 @@ libogg0
 liboggkate1
 libopenjp2-7
 libopenjpeg1
-libopenobex2
 libopenraw1
 libopenssl1_0_0
 libopus0
@@ -571,7 +572,6 @@ libportaudio2
 libprocps4
 libproxy1
 libproxy1-networkmanager
-libproxy1-pacrunner-webkit
 libpulse0
 libpwquality1
 libpython2_7-1_0
@@ -670,12 +670,13 @@ libvpx1
 libvte9
 libwayland-client0
 libwayland-cursor0
+libwayland-egl1
 libwayland-server0
 libwbclient0
+libwebkit2gtk-4_0-37
+libwebkit2gtk3-lang
 libwebkitgtk-1_0-0
-libwebkitgtk-3_0-0
 libwebkitgtk2-lang
-libwebkitgtk3-lang
 libwebp5
 libwicked-0-6
 libwnck-1-22
@@ -785,7 +786,6 @@ ntfsprogs
 ntp
 numactl
 numlockx
-obex-data-server
 ofl
 open-vm-tools
 open-vm-tools-desktop
@@ -1030,6 +1030,7 @@ virtualbox-guest-x11
 vorbis-tools
 vte2-lang
 wallpaper-branding-openSUSE
+webkit2gtk-4_0-injected-bundles
 wget
 which
 wicked

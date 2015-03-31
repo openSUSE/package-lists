@@ -72,10 +72,12 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gd
+gdk-pixbuf-lang
 gdk-pixbuf-query-loaders
 ghostscript-fonts-std
 gio-branding-openSUSE
 glib-networking
+glib-networking-lang
 glib2-tools
 glibc
 glibc-extra
@@ -209,7 +211,6 @@ libavahi-common3
 libavahi-glib1
 libbind9-140
 libblkid1
-libbluetooth3
 libbluray1
 libboost_date_time1_56_0
 libboost_iostreams1_56_0
@@ -258,6 +259,7 @@ libe-book-0_1-1
 libelf0
 libelf1
 libenchant1
+libepoxy0
 liberation-fonts
 libestr0
 libetonyek-0_1-1
@@ -284,7 +286,6 @@ libgd3
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgensec0
-libgeoclue0
 libgif7
 libgio-2_0-0
 libglib-2_0-0
@@ -327,6 +328,7 @@ libisccfg140
 libixion-0_10-0
 libjasper1
 libjavascriptcoregtk-3_0-0
+libjavascriptcoregtk-4_0-18
 libjbig2
 libjpeg8
 libjson-c2
@@ -379,7 +381,6 @@ libnpth0
 libodfgen-0_1-1
 libogg0
 libopenjpeg1
-libopenobex2
 libopenssl1_0_0
 liborc-0_4-0
 liborcus-0_8-0
@@ -502,9 +503,10 @@ libvorbisfile3
 libvpx1
 libwayland-client0
 libwayland-cursor0
+libwayland-egl1
 libwayland-server0
 libwbclient0
-libwebkitgtk-3_0-0
+libwebkit2gtk-4_0-37
 libwebp5
 libwicked-0-6
 libwpd-0_10-10
@@ -569,7 +571,6 @@ myspell-lightproof-en
 ncurses-utils
 net-tools
 netcfg
-obex-data-server
 openSUSE-release
 openSUSE-release-dvd
 openssl
@@ -685,6 +686,7 @@ upower
 util-linux
 util-linux-systemd
 wallpaper-branding-openSUSE
+webkit2gtk-4_0-injected-bundles
 which
 wicked
 wicked-service

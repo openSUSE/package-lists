@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-32bit
 GeoIP
+GeoIP-data
 ImageMagick
 ImageMagick-devel
 Mesa
@@ -533,6 +534,7 @@ gd
 gdb
 gdbm-devel
 gdk-pixbuf-devel
+gdk-pixbuf-lang
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -545,6 +547,7 @@ geany
 geany-lang
 gedit
 gedit-plugin-zeitgeist
+gedit-plugins-data
 gegl-0_2
 genisoimage
 geoclue
@@ -590,6 +593,7 @@ glade-catalog-vte
 glade-lang
 glade-sharp2
 glib-networking
+glib-networking-lang
 glib-sharp2
 glib2-devel
 glib2-tools
@@ -621,13 +625,13 @@ gnome-doc-utils
 gnome-doc-utils-devel
 gnome-doc-utils-lang
 gnome-documents
+gnome-documents_books-common
 gnome-font-viewer
 gnome-games
 gnome-games-recommended
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
-gnome-js-common
 gnome-keyring
 gnome-keyring-32bit
 gnome-keyring-pam
@@ -657,10 +661,12 @@ gnome-screenshot
 gnome-session
 gnome-session-core
 gnome-session-default-session
+gnome-session-wayland
 gnome-settings-daemon
 gnome-sharp2
 gnome-shell
 gnome-shell-browser-plugin
+gnome-shell-calendar
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
@@ -670,6 +676,7 @@ gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-shell-wayland
 gnome-software
 gnome-sudoku
 gnome-system-monitor
@@ -1410,7 +1417,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-49
+libcamel-1_2-52
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
@@ -1531,13 +1538,14 @@ libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
-libebackend-1_2-7
-libebook-1_2-14
-libebook-contacts-1_2-0
-libecal-1_2-16
-libedata-book-1_2-20
-libedata-cal-1_2-23
-libedataserver-1_2-18
+libebackend-1_2-10
+libebook-1_2-16
+libebook-contacts-1_2-1
+libecal-1_2-18
+libedata-book-1_2-25
+libedata-cal-1_2-27
+libedataserver-1_2-20
+libedataserverui-1_2-1
 libedit0
 libefivar0
 libelf0
@@ -1545,6 +1553,7 @@ libelf1
 libelf1-32bit
 libenca0
 libenchant1
+libepoxy-devel
 libepoxy0
 libepub0
 liberation-fonts
@@ -1643,7 +1652,8 @@ libgda-ui-5_0-plugins
 libgdata-devel
 libgdata19
 libgdbm4
-libgdict-1_0-6
+libgdict-1_0-8
+libgdict-data
 libgdiplus-devel
 libgdiplus0
 libgdk_pixbuf-2_0-0
@@ -1736,6 +1746,7 @@ libgsf-1-114
 libgsf-devel
 libgsl0
 libgsm1
+libgsound0
 libgssdp-1_0-3
 libgssglue1
 libgstallocators-1_0-0
@@ -1767,7 +1778,6 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvdp-0_10-23
 libgstvideo-1_0-0
-libgsystem0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -1775,8 +1785,6 @@ libgtk-2_0-0-32bit
 libgtk-3-0
 libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
-libgtkhtml-4_0-0
-libgtkhtml-editor-4_0-0
 libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
@@ -1838,7 +1846,8 @@ libindicator3-7
 libindidriver1
 libini_config5
 libinput-devel
-libinput5
+libinput-udev
+libinput10
 libiptc0
 libiptcdata
 libiptcdata0
@@ -1962,6 +1971,7 @@ libmarblewidget20
 libmbim-glib4
 libmeanwhile1
 libmediaart-1_0-0
+libmediaart-2_0-0
 libmediawiki1
 libmenu-cache3
 libmetalink3
@@ -2066,7 +2076,6 @@ libopencc2
 libopencv2_4
 libopenjp2-7
 libopenjpeg1
-libopenobex2
 libopenraw1
 libopenssl-devel
 libopenssl1_0_0
@@ -2112,7 +2121,6 @@ libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
-libpeas-loader-seed
 libpgf6
 libphonon4
 libpinyin-data
@@ -2152,7 +2160,7 @@ libportaudio2
 libpresage1
 libprison0
 libprocps4
-libprotobuf8
+libprotobuf9
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde4
@@ -2295,7 +2303,6 @@ libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-devel
-libseed-gtk3-0
 libselinux1
 libselinux1-32bit
 libsemanage1
@@ -2404,7 +2411,6 @@ libtiff5
 libtiff5-32bit
 libtimidity-0_1-0
 libtirpc1
-libtomcrypt0
 libtool
 libtotem-plparser18
 libtracker-common-1_0
@@ -2450,7 +2456,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_26-0
+libvala-0_28-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2832,7 +2838,6 @@ numlockx
 nunit
 nuoveXT2-icon-theme
 obconf
-obex-data-server
 ofl
 okteta
 okular
@@ -5754,8 +5759,8 @@ typelib-1_0-EDataServer-1_2
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
+typelib-1_0-GFBGraph-0_2
 typelib-1_0-GMenu-3_0
-typelib-1_0-GSystem-1_0
 typelib-1_0-GTop-2_0
 typelib-1_0-GVnc-1_0
 typelib-1_0-GWeather-3_0
@@ -5795,7 +5800,6 @@ typelib-1_0-GtkVnc-2_0
 typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-1_0
-typelib-1_0-JavaScriptCore-3_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
@@ -5828,7 +5832,6 @@ typelib-1_0-TrackerMiner-1_0
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-Vte-2.91
 typelib-1_0-WebKit-1_0
-typelib-1_0-WebKit-3_0
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0

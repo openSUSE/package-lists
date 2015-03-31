@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-x11
 GeoIP
+GeoIP-data
 GraphicsMagick-devel
 IPython
 ImageMagick
@@ -219,6 +220,7 @@ avogadro-devel
 awesfx
 axis
 b43-fwcutter
+babl-devel
 baloo-core
 baloo-file
 baloo-kioslaves
@@ -415,9 +417,6 @@ claws-mail-lang
 clicfs
 cln
 cln-devel
-cloop-kmp-default
-cloop-kmp-desktop
-cloop-kmp-xen
 clucene-core-devel
 clutter-devel
 clutter-gst-devel
@@ -728,6 +727,7 @@ gdata-sharp
 gdb
 gdbm-devel
 gdk-pixbuf-devel
+gdk-pixbuf-lang
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -743,8 +743,12 @@ gedit
 gedit-plugin-devhelp
 gedit-plugin-zeitgeist
 gedit-plugins
+gedit-plugins-data
 gedit-plugins-lang
 gegl-0_2
+gegl-0_3
+gegl-0_3-lang
+gegl-unstable-devel
 genisoimage
 geoclue
 geoclue-recommended
@@ -810,6 +814,7 @@ glade-lang
 glade-sharp2
 glew-devel
 glib-networking
+glib-networking-lang
 glib-sharp2
 glib2-devel
 glib2-tools
@@ -847,6 +852,7 @@ gnome-doc-utils
 gnome-doc-utils-devel
 gnome-doc-utils-lang
 gnome-documents
+gnome-documents_books-common
 gnome-dvb-daemon
 gnome-dvb-daemon-lang
 gnome-font-viewer
@@ -856,7 +862,6 @@ gnome-games-recommended
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
-gnome-js-common
 gnome-keyring
 gnome-keyring-pam
 gnome-keyring-sharp
@@ -886,10 +891,12 @@ gnome-screenshot
 gnome-session
 gnome-session-core
 gnome-session-default-session
+gnome-session-wayland
 gnome-settings-daemon
 gnome-sharp2
 gnome-shell
 gnome-shell-browser-plugin
+gnome-shell-calendar
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
@@ -901,6 +908,7 @@ gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-shell-wayland
 gnome-software
 gnome-sudoku
 gnome-system-monitor
@@ -1823,7 +1831,7 @@ libcairo-script-interpreter2
 libcairo2
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-49
+libcamel-1_2-52
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
@@ -1940,14 +1948,15 @@ libdw1
 libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
-libebackend-1_2-7
-libebook-1_2-14
-libebook-contacts-1_2-0
-libecal-1_2-16
+libebackend-1_2-10
+libebook-1_2-16
+libebook-contacts-1_2-1
+libecal-1_2-18
 libecpg6
-libedata-book-1_2-20
-libedata-cal-1_2-23
-libedataserver-1_2-18
+libedata-book-1_2-25
+libedata-cal-1_2-27
+libedataserver-1_2-20
+libedataserverui-1_2-1
 libedit0
 libeews-1_2-0
 libefivar0
@@ -1956,6 +1965,7 @@ libelf0
 libelf1
 libenca0
 libenchant1
+libepoxy-devel
 libepoxy0
 libepub-devel
 libepub0
@@ -2063,7 +2073,8 @@ libgda-ui-5_0-plugins
 libgdata-devel
 libgdata19
 libgdbm4
-libgdict-1_0-6
+libgdict-1_0-8
+libgdict-data
 libgdiplus-devel
 libgdiplus0
 libgdk_pixbuf-2_0-0
@@ -2072,6 +2083,7 @@ libgdlmm-3_0-2
 libgdm1
 libgee-0_8-2
 libgegl-0_2-0
+libgegl-0_3-0
 libgensec0
 libgeoclue0
 libgeocode-glib0
@@ -2162,6 +2174,7 @@ libgsf-1-114
 libgsf-devel
 libgsl0
 libgsm1
+libgsound0
 libgssdp-1_0-3
 libgssglue-devel
 libgssglue1
@@ -2196,15 +2209,12 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvdp-0_10-23
 libgstvideo-1_0-0
-libgsystem0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgtk-vnc-1_0-0
 libgtk-vnc-2_0-0
 libgtkhex-3-0
-libgtkhtml-4_0-0
-libgtkhtml-editor-4_0-0
 libgtkimageview0
 libgtkmm-2_4-1
 libgtkmm-3_0-1
@@ -2276,7 +2286,8 @@ libindidriver1
 libindimain1
 libini_config5
 libinput-devel
-libinput5
+libinput-udev
+libinput10
 libiodbc-devel
 libiodbc3
 libiptc0
@@ -2420,6 +2431,7 @@ libmbim-glib4
 libmcrypt
 libmeanwhile1
 libmediaart-1_0-0
+libmediaart-2_0-0
 libmediawiki-devel
 libmediawiki1
 libmenu-cache3
@@ -2535,7 +2547,6 @@ libopencc2
 libopencv2_4
 libopenjp2-7
 libopenjpeg1
-libopenobex2
 libopenraw1
 libopenssl-devel
 libopenssl1_0_0
@@ -2577,7 +2588,6 @@ libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
-libpeas-loader-seed
 libpgf6
 libphonon4
 libpinyin-data
@@ -2621,7 +2631,7 @@ libpresage1
 libprison-devel
 libprison0
 libprocps4
-libprotobuf8
+libprotobuf9
 libproxy-devel
 libproxy1
 libproxy1-config-gnome3
@@ -2783,7 +2793,6 @@ libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-devel
-libseed-gtk3-0
 libselinux-devel
 libselinux1
 libsemanage1
@@ -2903,7 +2912,6 @@ libtiff5
 libtimidity-0_1-0
 libtinyxml0
 libtirpc1
-libtomcrypt0
 libtool
 libtotem-plparser18
 libtracker-common-1_0
@@ -2953,7 +2961,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_26-0
+libvala-0_28-0
 libvamp-hostsdk3
 libvcdinfo0
 libvdeplug3
@@ -3391,7 +3399,6 @@ nunit
 nuoveXT2-icon-theme
 nxtvepg
 obconf
-obex-data-server
 obs-service-download_files
 obs-service-format_spec_file
 obs-service-recompress
@@ -6753,8 +6760,8 @@ typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
 typelib-1_0-GES-1_0
+typelib-1_0-GFBGraph-0_2
 typelib-1_0-GMenu-3_0
-typelib-1_0-GSystem-1_0
 typelib-1_0-GTop-2_0
 typelib-1_0-GUdev-1_0
 typelib-1_0-GVnc-1_0
@@ -6765,7 +6772,6 @@ typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
 typelib-1_0-GeocodeGlib-1_0
-typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -6796,7 +6802,6 @@ typelib-1_0-GtkVnc-2_0
 typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-1_0
-typelib-1_0-JavaScriptCore-3_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
@@ -6829,11 +6834,9 @@ typelib-1_0-TrackerMiner-1_0
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-Vte-2.91
 typelib-1_0-WebKit-1_0
-typelib-1_0-WebKit-3_0
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
-typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
 ucode-amd
 ucode-intel

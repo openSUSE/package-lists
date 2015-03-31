@@ -159,7 +159,6 @@ dbus-1-python
 dbus-1-python3
 dbus-1-x11
 dconf
-dconf-lang
 dd_rescue
 dd_rescue-lzo
 dd_rhelp
@@ -297,10 +296,10 @@ gnome-disk-utility
 gnome-disk-utility-lang
 gnome-documents
 gnome-documents-lang
+gnome-documents_books-common
 gnome-font-viewer
 gnome-font-viewer-lang
 gnome-games-recommended
-gnome-js-common
 gnome-keyring
 gnome-keyring-lang
 gnome-keyring-pam
@@ -330,10 +329,12 @@ gnome-session
 gnome-session-core
 gnome-session-default-session
 gnome-session-lang
+gnome-session-wayland
 gnome-settings-daemon
 gnome-settings-daemon-lang
 gnome-shell
 gnome-shell-browser-plugin
+gnome-shell-calendar
 gnome-shell-lang
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
@@ -344,6 +345,7 @@ gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-shell-wayland
 gnome-software
 gnome-sudoku
 gnome-sudoku-lang
@@ -413,6 +415,7 @@ gstreamer-0_10-utils-unversioned
 gstreamer-lang
 gstreamer-libnice
 gstreamer-plugin-gstclutter
+gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
 gstreamer-plugins-bad-lang
 gstreamer-plugins-base
@@ -442,7 +445,6 @@ gtk3-immodule-vietnamese
 gtk3-lang
 gtk3-metatheme-adwaita
 gtk3-tools
-gtkhtml-4_0-lang
 gtksourceview-lang
 gtkspell3-lang
 gucharmap
@@ -626,7 +628,7 @@ libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-49
+libcamel-1_2-52
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -658,6 +660,7 @@ libclucene-core1
 libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-2_0-0
+libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcmis-0_5-5
 libcogl-pango20
@@ -706,13 +709,14 @@ libdvdnav4
 libdvdread4
 libdw1
 libe-book-0_1-1
-libebackend-1_2-7
-libebook-1_2-14
-libebook-contacts-1_2-0
-libecal-1_2-16
-libedata-book-1_2-20
-libedata-cal-1_2-23
-libedataserver-1_2-18
+libebackend-1_2-10
+libebook-1_2-16
+libebook-contacts-1_2-1
+libecal-1_2-18
+libedata-book-1_2-25
+libedata-cal-1_2-27
+libedataserver-1_2-20
+libedataserverui-1_2-1
 libedit0
 libefivar0
 libelf0
@@ -768,7 +772,8 @@ libgd3
 libgdata-lang
 libgdata19
 libgdbm4
-libgdict-1_0-6
+libgdict-1_0-8
+libgdict-data
 libgdk_pixbuf-2_0-0
 libgdm1
 libgee-0_8-2
@@ -822,6 +827,7 @@ libgrlpls-0_2-0
 libgsf-1-114
 libgsf-lang
 libgsm1
+libgsound0
 libgssdp-1_0-3
 libgstallocators-1_0-0
 libgstapp-0_10-0
@@ -852,12 +858,9 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvdp-0_10-23
 libgstvideo-1_0-0
-libgsystem0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtkhtml-4_0-0
-libgtkhtml-editor-4_0-0
 libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
@@ -890,7 +893,8 @@ libidn11
 libieee1284
 libimobiledevice6
 libini_config5
-libinput5
+libinput-udev
+libinput10
 libiptc0
 libiptcdata
 libiptcdata-lang
@@ -944,6 +948,7 @@ libm17n0
 libmagic1
 libmbim-glib4
 libmediaart-1_0-0
+libmediaart-2_0-0
 libmetalink3
 libmicrohttpd10
 libminiupnpc10
@@ -1005,7 +1010,6 @@ libogg0
 liboggkate1
 libopenal1
 libopenjpeg1
-libopenobex2
 libopenraw1
 libopenssl1_0_0
 libopus0
@@ -1032,7 +1036,6 @@ libpeas-gtk-1_0-0
 libpeas-lang
 libpeas-loader-python
 libpeas-loader-python3
-libpeas-loader-seed
 libpipeline1
 libpixman-1-0
 libpkcs11-helper1
@@ -1117,7 +1120,6 @@ libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-lang
-libseed-gtk3-0
 libselinux1
 libsemanage1
 libsensors4
@@ -1182,7 +1184,6 @@ libtidyp-1_04-0
 libtiff5
 libtimidity-0_1-0
 libtirpc1
-libtomcrypt0
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -1370,7 +1371,6 @@ ntfs-3g
 ntfsprogs
 ntp
 numlockx
-obex-data-server
 ofl
 open-iscsi
 open-vm-tools
@@ -1708,8 +1708,8 @@ typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
+typelib-1_0-GFBGraph-0_2
 typelib-1_0-GMenu-3_0
-typelib-1_0-GSystem-1_0
 typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
@@ -1731,7 +1731,6 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-IBus-1_0
-typelib-1_0-JavaScriptCore-3_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-MediaArt-1_0
@@ -1754,7 +1753,6 @@ typelib-1_0-TotemPlParser-1_0
 typelib-1_0-Tracker-1_0
 typelib-1_0-TrackerControl-1_0
 typelib-1_0-UpowerGlib-1_0
-typelib-1_0-WebKit-3_0
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
