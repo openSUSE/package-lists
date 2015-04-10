@@ -199,6 +199,8 @@ ethtool
 evince
 evince-browser-plugin
 evince-lang
+evince-plugin-pdfdocument
+evince-plugin-psdocument
 evolution
 evolution-data-server
 evolution-data-server-lang
@@ -214,7 +216,6 @@ file-roller-lang
 filesystem
 fillup
 findutils
-fipscheck
 folks-lang
 fontconfig
 fonts-config
@@ -692,7 +693,6 @@ libdhash1
 libdialog12
 libdirac_encoder0
 libdirectfb-1_7-7
-libdjvulibre21
 libdleyna-core-1_0-3
 libdmapsharing-3_0-2
 libdmx1
@@ -744,7 +744,6 @@ libfbembed2_5
 libfdisk1
 libffi4
 libfftw3-3
-libfipscheck1
 libfltk1
 libfluidsynth1
 libfolks-data
@@ -921,12 +920,10 @@ libkate1
 libkeyutils1
 libkmod2
 libkms1
-libkpathsea6
 libksba8
 liblangtag1
 liblapack3
 liblash1
-liblcms1
 liblcms2-2
 libldap-2_4-2
 libldapcpp1

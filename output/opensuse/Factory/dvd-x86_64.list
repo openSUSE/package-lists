@@ -202,6 +202,7 @@ atk-devel
 atmel-firmware
 attr
 audacity
+audacity-lang
 audiofile-devel
 audit
 audit-devel
@@ -280,7 +281,6 @@ bogofilter
 boost-devel
 boost-jam
 boost-license1_56_0
-bootcycle
 bovo
 branding-openSUSE
 brasero
@@ -306,6 +306,7 @@ bundle-lang-common-de
 bundle-lang-common-el
 bundle-lang-common-en
 bundle-lang-common-es
+bundle-lang-common-fi
 bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
@@ -599,11 +600,20 @@ etags
 ethtool
 evince
 evince-browser-plugin
+evince-plugin-comicsdocument
+evince-plugin-djvudocument
+evince-plugin-dvidocument
+evince-plugin-pdfdocument
+evince-plugin-psdocument
+evince-plugin-tiffdocument
+evince-plugin-xpsdocument
 evolution
 evolution-data-server
 evolution-data-server-devel
 evolution-ews
 evolution-ews-lang
+evolution-plugin-bogofilter
+evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -1867,6 +1877,7 @@ libccolamd-2_9_1
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
+libcddb2
 libcdio++0
 libcdio-devel
 libcdio16
@@ -1884,6 +1895,7 @@ libchewing3
 libchm0
 libcholmod-3_0_5
 libchromaprint0
+libclastfm0
 libcloog-isl4
 libclucene-contribs-lib1
 libclucene-core1
@@ -2037,7 +2049,6 @@ libffi48-devel
 libfftw3-3
 libfftw3_threads3
 libfipscheck1
-libfipscheck1-32bit
 libfli-devel
 libfli1
 libfltk1
@@ -2150,6 +2161,7 @@ libglib-2_0-0-32bit
 libglibmm-2_4-1
 libgltf-0_0-0
 libglut3
+libglyr1
 libgme0
 libgmime-2_6-0
 libgmm++-devel
@@ -2976,7 +2988,7 @@ libstreamanalyzer0
 libstroke
 libsuitesparseconfig-4_4_4
 libsunpinyin3
-libsvn_auth_kwallet-1-0
+libsvn_auth_gnome_keyring-1-0
 libtag-devel
 libtag-extras1
 libtag1
@@ -3094,7 +3106,6 @@ libvirt-daemon-driver-secret
 libvirt-daemon-driver-storage
 libvirt-daemon-driver-uml
 libvirt-daemon-driver-vbox
-libvirt-daemon-driver-xen
 libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
@@ -4142,6 +4153,9 @@ powertop-lang
 ppp
 pptp
 pptpd
+pragha
+pragha-lang
+pragha-plugins
 prctl
 presage-data
 presentproto-devel
@@ -4326,9 +4340,11 @@ python3-numpy
 python3-pip
 python3-py
 python3-pycurl
+python3-qt4
 python3-requests
 python3-setuptools
 python3-simplejson
+python3-sip
 python3-smbc
 python3-speechd
 python3-tk
@@ -4396,8 +4412,6 @@ renderproto-devel
 resourceproto-devel
 rgb
 rhino
-rhythmbox
-rhythmbox-lang
 ripit
 ristretto
 ristretto-lang

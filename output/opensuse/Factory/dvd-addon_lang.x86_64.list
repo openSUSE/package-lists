@@ -271,11 +271,9 @@ bluedevil-lang
 bluez
 bluez-devel
 bluez-firmware
-bogofilter
 boost-devel
 boost-jam
 boost-license1_56_0
-bootcycle
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -511,9 +509,12 @@ etags
 ethtool
 evince
 evince-browser-plugin
+evince-plugin-pdfdocument
+evince-plugin-psdocument
 evolution
 evolution-data-server
 evolution-data-server-devel
+evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -1500,6 +1501,7 @@ libcaribou0
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
+libcddb2
 libcdio16
 libcdio_cdda2
 libcdio_paranoia2
@@ -1514,6 +1516,7 @@ libcheese7
 libchewing3
 libchm0
 libchromaprint0
+libclastfm0
 libcloog-isl4
 libclucene-contribs-lib1
 libclucene-core1
@@ -1642,7 +1645,6 @@ libffi4-32bit
 libffi48-devel
 libfftw3-3
 libfipscheck1
-libfipscheck1-32bit
 libfltk1
 libfluidsynth1
 libfm
@@ -1731,6 +1733,7 @@ libglib-2_0-0-32bit
 libglibmm-2_4-1
 libgltf-0_0-0
 libglut3
+libglyr1
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -1942,6 +1945,7 @@ libkeduvocdocument4
 libkerfuffle4
 libkexiv2-11
 libkexiv2-devel
+libkeybinder-3_0-0
 libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
@@ -1960,7 +1964,6 @@ libkolab0
 libkolabxml1
 libkomparediff2-4
 libkonq5
-libkpathsea6
 libkqoauth0
 libksane0
 libksba8
@@ -2444,7 +2447,7 @@ libstorage-ruby
 libstorage6
 libstreamanalyzer0
 libsunpinyin3
-libsvn_auth_kwallet-1-0
+libsvn_auth_gnome_keyring-1-0
 libtag-extras1
 libtag1
 libtag_c0
@@ -2537,7 +2540,6 @@ libvirt-daemon-driver-nwfilter
 libvirt-daemon-driver-qemu
 libvirt-daemon-driver-secret
 libvirt-daemon-driver-storage
-libvirt-daemon-driver-xen
 libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
@@ -3281,6 +3283,9 @@ postfix
 pothana2000-fonts
 ppp
 pptp
+pragha
+pragha-lang
+pragha-plugins
 prctl
 presage-data
 printproto-devel
@@ -3438,8 +3443,6 @@ remmina-plugin-xdmcp
 renderproto-devel
 rgb
 rhino
-rhythmbox
-rhythmbox-lang
 ristretto
 ristretto-lang
 rp-pppoe

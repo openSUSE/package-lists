@@ -196,6 +196,7 @@ atk-devel
 atmel-firmware
 attr
 audacity
+audacity-lang
 audiofile-devel
 audit
 audit-devel
@@ -276,7 +277,6 @@ boo-2_0_9_3
 boost-devel
 boost-jam
 boost-license1_56_0
-bootcycle
 bovo
 branding-openSUSE
 brasero
@@ -595,11 +595,20 @@ etags
 ethtool
 evince
 evince-browser-plugin
+evince-plugin-comicsdocument
+evince-plugin-djvudocument
+evince-plugin-dvidocument
+evince-plugin-pdfdocument
+evince-plugin-psdocument
+evince-plugin-tiffdocument
+evince-plugin-xpsdocument
 evolution
 evolution-data-server
 evolution-data-server-devel
 evolution-ews
 evolution-ews-lang
+evolution-plugin-bogofilter
+evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -1841,6 +1850,7 @@ libccolamd-2_9_1
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
+libcddb2
 libcdio++0
 libcdio-devel
 libcdio16
@@ -1860,6 +1870,7 @@ libchewing3
 libchm0
 libcholmod-3_0_5
 libchromaprint0
+libclastfm0
 libclocale1
 libcloog-isl4
 libclucene-contribs-lib1
@@ -2106,6 +2117,7 @@ libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
 libglut3
+libglyr1
 libgme0
 libgmime-2_6-0
 libgmm++-devel
@@ -4020,6 +4032,9 @@ powertop-lang
 ppp
 pptp
 pptpd
+pragha
+pragha-lang
+pragha-plugins
 prctl
 presage-data
 presentproto-devel
@@ -4205,9 +4220,11 @@ python3-numpy
 python3-pip
 python3-py
 python3-pycurl
+python3-qt4
 python3-requests
 python3-setuptools
 python3-simplejson
+python3-sip
 python3-smbc
 python3-speechd
 python3-tk
@@ -4275,8 +4292,6 @@ renderproto-devel
 resourceproto-devel
 rgb
 rhino
-rhythmbox
-rhythmbox-lang
 ripit
 ristretto
 ristretto-lang

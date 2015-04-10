@@ -156,11 +156,9 @@ bluedevil
 bluedevil-lang
 bluez
 bluez-firmware
-bogofilter
 boost-devel
 boost-jam
 boost-license1_56_0
-bootcycle
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -340,8 +338,11 @@ etags
 ethtool
 evince
 evince-browser-plugin
+evince-plugin-pdfdocument
+evince-plugin-psdocument
 evolution
 evolution-data-server
+evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -380,7 +381,6 @@ filesystem
 fillup
 findutils
 finger
-fipscheck
 five-or-more
 five-or-more-lang
 fixesproto-devel
@@ -1147,6 +1147,7 @@ libccolamd-2_9_1
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
+libcddb2
 libcdio16
 libcdio_cdda2
 libcdio_paranoia2
@@ -1162,6 +1163,7 @@ libchewing3
 libchm0
 libcholmod-3_0_5
 libchromaprint0
+libclastfm0
 libcloog-isl4
 libclucene-contribs-lib1
 libclucene-core1
@@ -1281,8 +1283,6 @@ libfdt1
 libffi4
 libffi4-32bit
 libfftw3-3
-libfipscheck1
-libfipscheck1-32bit
 libfltk1
 libfluidsynth1
 libfm
@@ -1366,6 +1366,7 @@ libglib-2_0-0-32bit
 libglibmm-2_4-1
 libgltf-0_0-0
 libglut3
+libglyr1
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -1554,6 +1555,7 @@ libkdevplatform8
 libkeduvocdocument4
 libkerfuffle4
 libkexiv2-11
+libkeybinder-3_0-0
 libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
@@ -1572,7 +1574,6 @@ libkolab0
 libkolabxml1
 libkomparediff2-4
 libkonq5
-libkpathsea6
 libkqoauth0
 libksane0
 libksba8
@@ -1965,7 +1966,7 @@ libstorage6
 libstreamanalyzer0
 libsuitesparseconfig-4_4_4
 libsunpinyin3
-libsvn_auth_kwallet-1-0
+libsvn_auth_gnome_keyring-1-0
 libtag-extras1
 libtag1
 libtag_c0
@@ -2639,6 +2640,9 @@ postfix
 pothana2000-fonts
 ppp
 pptp
+pragha
+pragha-lang
+pragha-plugins
 prctl
 presage-data
 procinfo
@@ -2778,8 +2782,6 @@ remmina-plugin-vnc
 remmina-plugin-xdmcp
 renderproto-devel
 rgb
-rhythmbox
-rhythmbox-lang
 ristretto
 ristretto-lang
 rp-pppoe
@@ -3013,7 +3015,6 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-IBus-1_0
-typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-MediaArt-1_0
@@ -3029,7 +3030,6 @@ typelib-1_0-PeasGtk-1_0
 typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
-typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
@@ -3037,7 +3037,6 @@ typelib-1_0-TotemPlParser-1_0
 typelib-1_0-Tracker-1_0
 typelib-1_0-TrackerControl-1_0
 typelib-1_0-UpowerGlib-1_0
-typelib-1_0-WebKit-1_0
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
