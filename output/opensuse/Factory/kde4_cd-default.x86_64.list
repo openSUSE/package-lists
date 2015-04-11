@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLESv2-2
@@ -78,6 +79,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -146,6 +148,7 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
+glibc-locale
 glibc-locale-32bit
 gnome-keyring
 gnome-keyring-pam
@@ -158,6 +161,8 @@ gpm
 gptfdisk
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-pc
 grub2-snapper-plugin
 grub2-x86_64-efi
@@ -223,9 +228,12 @@ kdeartwork4-screensaver
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-openSUSE
+kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-session
+kdebase4-workspace
 kdebase4-workspace-addons
+kdebase4-workspace-branding-openSUSE
 kdebase4-workspace-ksysguardd
 kdebase4-workspace-liboxygenstyle
 kdebase4-workspace-libs
@@ -300,6 +308,7 @@ libQt5DBus5
 libQt5Gui5
 libQt5Widgets5
 libQt5X11Extras5
+libQtWebKit4
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -631,6 +640,7 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-sqlite
+libqt4-x11
 libqt5-qtbase-platformtheme-gtk2
 libqt5-qtimageformats
 libraw10
@@ -811,6 +821,7 @@ openssl
 openvpn
 os-prober
 oxygen-cursors4
+oxygen-icon-theme
 p11-kit
 p11-kit-tools
 p7zip
@@ -819,6 +830,27 @@ pam-config
 pango-tools
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-imaging
+patterns-openSUSE-kde
+patterns-openSUSE-kde4_basis
+patterns-openSUSE-kde4_games
+patterns-openSUSE-kde4_imaging
+patterns-openSUSE-kde4_internet
+patterns-openSUSE-kde4_multimedia
+patterns-openSUSE-kde4_pure
+patterns-openSUSE-kde4_utilities
+patterns-openSUSE-kde4_yast
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_kde4
+patterns-openSUSE-x11
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 pcsc-lite
@@ -897,6 +929,7 @@ plasma-nm-pptp
 plasma-nm-vpnc
 plasmoid-folderview
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
@@ -1081,6 +1114,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
