@@ -3,7 +3,6 @@ ConsoleKit-x11
 GeoIP
 GeoIP-data
 GraphicsMagick-devel
-IPython
 ImageMagick
 ImageMagick-devel
 ImageMagick-doc
@@ -192,6 +191,9 @@ at-spi2-core-devel
 atftp
 atk-devel
 atmel-firmware
+atril
+atril-backends
+atril-lang
 attr
 audacity
 audacity-lang
@@ -1090,6 +1092,8 @@ hdjmod-kmp-desktop
 hdjmod-kmp-xen
 hdparm
 help2man
+hexchat
+hexchat-lang
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -1714,6 +1718,8 @@ libatk-bridge-2_0-0
 libatkmm-1_6-1
 libatm1
 libatomic1
+libatrildocument3
+libatrilview3
 libatspi0
 libattica0_4
 libattr-devel
@@ -2279,7 +2285,6 @@ libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
-libjbig2dec0
 libjpeg-turbo
 libjpeg62
 libjpeg62-devel
@@ -2487,6 +2492,7 @@ libnova-devel
 libnpth0
 libnsssharedhelper0
 libntfs-3g85
+libntlm0
 liboauth-devel
 liboauth0
 libobjc4
@@ -2787,7 +2793,6 @@ libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
 libsocks0
-libsodium13
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
@@ -3090,7 +3095,6 @@ libzinnia0
 libzio1
 libzip-devel
 libzip2
-libzmq4
 libzvbi0
 libzypp
 libzypp-plugin-appdata
@@ -3143,6 +3147,7 @@ lxmusic
 lxmusic-lang
 lxpanel
 lxpanel-lang
+lxpanel-plugin-power-manager
 lxrandr
 lxrandr-lang
 lxsession
@@ -3182,6 +3187,7 @@ mariadb
 mariadb-client
 mariadb-errormessages
 master-boot-code
+mate-desktop-gsettings-schemas
 mc
 mc-lang
 mdadm
@@ -3251,7 +3257,6 @@ mtpaint
 mtpaint-lang
 mtr
 multipath-tools
-mupdf
 mutt
 mutter
 mutter-data
@@ -3989,12 +3994,10 @@ python-Jinja2
 python-M2Crypto
 python-MarkupSafe
 python-Pillow
-python-Pygments
 python-SpiceClientGtk
 python-Twisted
 python-apsw
 python-atspi
-python-backports.ssl_match_hostname
 python-base
 python-beautifulsoup
 python-bonobo
@@ -4019,7 +4022,6 @@ python-docopt
 python-ecdsa
 python-fcgi
 python-flickrapi
-python-futures
 python-gconf
 python-gdata
 python-gdbm
@@ -4068,7 +4070,6 @@ python-opensync
 python-orbit
 python-pam
 python-paramiko
-python-pexpect
 python-ply
 python-pyOpenSSL
 python-pyasn1
@@ -4077,7 +4078,6 @@ python-pybluez
 python-pycrypto
 python-pycurl
 python-pygame
-python-pymongo
 python-pypdf
 python-pyplete
 python-pyserial
@@ -4086,7 +4086,6 @@ python-pytz
 python-pyudev
 python-pywbem
 python-pyxb
-python-pyzmq
 python-qt4
 python-qt4-devel
 python-qt4-utils
@@ -4098,7 +4097,6 @@ python-sip-devel
 python-six
 python-smbios
 python-solv
-python-tornado
 python-urlgrabber
 python-wxWidgets
 python-wxWidgets-lang
@@ -5162,7 +5160,6 @@ yum-metadata-parser
 zd1211-firmware
 zeitgeist
 zenity
-zeromq-tools
 zinnia
 zinnia-tomoe
 zip

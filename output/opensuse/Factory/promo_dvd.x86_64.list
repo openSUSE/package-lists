@@ -120,6 +120,9 @@ at-spi2-atk-gtk2
 at-spi2-core
 atk-devel
 atmel-firmware
+atril
+atril-backends
+atril-lang
 attr
 audit
 augeas-lenses
@@ -680,6 +683,8 @@ hardlink
 harfbuzz-devel
 haveged
 hdparm
+hexchat
+hexchat-lang
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -1053,6 +1058,8 @@ libatk-bridge-2_0-0
 libatkmm-1_6-1
 libatm1
 libatomic1
+libatrildocument3
+libatrilview3
 libatspi0
 libattica0_4
 libattr1
@@ -1537,7 +1544,6 @@ libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2-32bit
-libjbig2dec0
 libjpeg-turbo
 libjpeg8
 libjpeg8-32bit
@@ -1578,6 +1584,7 @@ libkolab0
 libkolabxml1
 libkomparediff2-4
 libkonq5
+libkpathsea6
 libkqoauth0
 libksane0
 libksba8
@@ -1702,6 +1709,7 @@ libnova-0_15-0
 libnpth0
 libnsssharedhelper0
 libntfs-3g85
+libntlm0
 libnuma1
 liboauth0
 libodfgen-0_1-1
@@ -1716,7 +1724,6 @@ libopenal1
 libopenbabel4
 libopencc2
 libopencv2_4
-libopenjp2-7
 libopenjpeg1
 libopenraw1
 libopenssl1_0_0
@@ -1915,7 +1922,6 @@ libsepol1
 libsepol1-32bit
 libserf-1-1
 libserializer
-libsexy
 libsgutils2-1_40-2
 libsidplay1
 libsigc-2_0-0
@@ -2230,6 +2236,7 @@ lxmusic
 lxmusic-lang
 lxpanel
 lxpanel-lang
+lxpanel-plugin-power-manager
 lxrandr
 lxrandr-lang
 lxsession
@@ -2260,6 +2267,7 @@ mariadb
 mariadb-client
 mariadb-errormessages
 master-boot-code
+mate-desktop-gsettings-schemas
 mc
 mc-lang
 mcelog
@@ -2288,7 +2296,6 @@ mtpaint
 mtpaint-lang
 mtr
 multipath-tools
-mupdf
 mutter
 mutter-data
 myspell-cs_CZ
@@ -3124,11 +3131,6 @@ x11-tools
 xauth
 xbitmaps
 xbrlapi
-xchat
-xchat-lang
-xchat-perl
-xchat-python
-xchat-tcl
 xconsole
 xdg-menu
 xdg-user-dirs
