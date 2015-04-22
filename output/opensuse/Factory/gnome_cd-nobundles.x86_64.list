@@ -860,6 +860,7 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvdp-0_10-23
 libgstvideo-1_0-0
+libgstwayland-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -1435,7 +1436,6 @@ pcmciautils
 perl
 perl-Bootloader
 perl-Bootloader-YAML
-perl-Clone
 perl-Config-Crontab
 perl-Crypt-SmbHash
 perl-DBD-SQLite
@@ -1458,17 +1458,12 @@ perl-IO-HTML
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
-perl-MLDBM
 perl-Net-DBus
 perl-Net-DNS
-perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-SSLeay
-perl-Params-Util
 perl-Parse-RecDescent
-perl-PlRPC
 perl-RPC-XML
-perl-SQL-Statement
 perl-Term-ReadKey
 perl-Text-Wrapper
 perl-Tie-IxHash
