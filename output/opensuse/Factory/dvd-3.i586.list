@@ -46,7 +46,6 @@ dracut
 efibootmgr
 elfutils
 ethtool
-exim
 expat
 fdupes
 file
@@ -190,7 +189,6 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
-libmysqlclient18
 libncurses5
 libncurses6
 libnetfilter_conntrack3
@@ -209,7 +207,6 @@ libplist3
 libpng16-16
 libpolkit0
 libpopt0
-libpq5
 libprocps4
 libproxy1
 libpwquality1
@@ -226,7 +223,6 @@ libsgutils2-1_40-2
 libsmartcols1
 libsnapper3
 libsolv-tools
-libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -350,6 +346,7 @@ pkg-config
 pm-utils
 polkit
 polkit-default-privs
+postfix
 prctl
 procps
 python
@@ -383,6 +380,7 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
