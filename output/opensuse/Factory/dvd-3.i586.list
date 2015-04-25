@@ -158,9 +158,7 @@ libgmp10
 libgnutls30
 libgobject-2_0-0
 libgpg-error0
-libgraphite2-3
 libgudev-1_0-0
-libharfbuzz0
 libhavege1
 libhogweed4
 libidn11
@@ -230,7 +228,6 @@ libstorage-ruby
 libstorage6
 libtasn1
 libtasn1-6
-libtidyp-1_04-0
 libtirpc1
 libudev1
 libunwind
@@ -296,15 +293,15 @@ pciutils-ids
 perl
 perl-Bootloader
 perl-Bootloader-YAML
+perl-CPAN-Changes
 perl-Config-Crontab
-perl-Data-Dump
+perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-SHA1
 perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
 perl-HTML-Tagset
-perl-HTML-Tidy
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -319,8 +316,9 @@ perl-Net-DNS
 perl-Net-HTTP
 perl-Net-SSLeay
 perl-Parse-RecDescent
-perl-Text-Wrapper
-perl-Tie-IxHash
+perl-Pod-Coverage
+perl-Test-Pod
+perl-Test-Pod-Coverage
 perl-TimeDate
 perl-URI
 perl-WWW-RobotRules
@@ -333,8 +331,6 @@ perl-XML-SAX-Base
 perl-XML-SAX-Expat
 perl-XML-Simple
 perl-XML-Twig
-perl-XML-XPath
-perl-XML-XPathEngine
 perl-YAML-LibYAML
 perl-base
 perl-gettext

@@ -491,7 +491,6 @@ libtevent-util0
 libtevent0
 libtheoradec1
 libtheoraenc1
-libtidyp-1_04-0
 libtiff5
 libudev1
 libudisks2-0
@@ -592,13 +591,13 @@ patterns-openSUSE-x11_yast
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
+perl-CPAN-Changes
 perl-Config-Crontab
-perl-Data-Dump
+perl-Devel-Symdump
 perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
 perl-HTML-Tagset
-perl-HTML-Tidy
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -611,8 +610,9 @@ perl-LWP-Protocol-https
 perl-Net-DBus
 perl-Net-HTTP
 perl-Net-SSLeay
-perl-Text-Wrapper
-perl-Tie-IxHash
+perl-Pod-Coverage
+perl-Test-Pod
+perl-Test-Pod-Coverage
 perl-TimeDate
 perl-URI
 perl-WWW-RobotRules
@@ -624,8 +624,6 @@ perl-XML-SAX-Base
 perl-XML-SAX-Expat
 perl-XML-Simple
 perl-XML-Twig
-perl-XML-XPath
-perl-XML-XPathEngine
 perl-base
 perl-gettext
 perl-libwww-perl

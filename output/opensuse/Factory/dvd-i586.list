@@ -2839,7 +2839,6 @@ libtheoraenc1
 libthunarx-2-0
 libtidy-0_99-0
 libtidy-0_99-0-devel
-libtidyp-1_04-0
 libtiff-devel
 libtiff5
 libtimidity-0_1-0
@@ -3148,7 +3147,6 @@ makedumpfile
 makeinfo
 man
 man-pages
-man-pages-cs
 man-pages-fr
 man-pages-it
 man-pages-ja
@@ -3534,10 +3532,9 @@ perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-Bootloader-YAML
-perl-Business-ISBN
-perl-Business-ISBN-Data
 perl-CDDB_get
 perl-CGI-Application
+perl-CPAN-Changes
 perl-Cairo
 perl-Capture-Tiny
 perl-Carp-Assert
@@ -3581,10 +3578,12 @@ perl-DBD-SQLite
 perl-DBD-XBase
 perl-DBD-mysql
 perl-DBI
-perl-Data-Dump
 perl-Data-OptList
 perl-Date-Calc
 perl-Date-Manip
+perl-DateTime
+perl-DateTime-Locale
+perl-DateTime-TimeZone
 perl-Devel-Caller
 perl-Devel-CoreStack
 perl-Devel-GlobalDestruction
@@ -3630,7 +3629,6 @@ perl-HTML-Parser
 perl-HTML-SimpleParse
 perl-HTML-Tagset
 perl-HTML-Template
-perl-HTML-Tidy
 perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-DAV
@@ -3657,6 +3655,7 @@ perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Lingua-EN-Sentence
 perl-Linux-Pid
+perl-List-AllUtils
 perl-List-MoreUtils
 perl-Locale-Maketext-Lexicon
 perl-Log-Dispatch
@@ -3709,6 +3708,7 @@ perl-Parse-RecDescent
 perl-Parse-Yapp
 perl-Perl-Tidy
 perl-PerlMagick
+perl-Pod-Coverage
 perl-Pod-HtmlPsPdf
 perl-Pod-POM
 perl-PostScript-Simple
@@ -3739,6 +3739,8 @@ perl-TermReadLine-Gnu
 perl-Test-Exception
 perl-Test-LeakTrace
 perl-Test-Manifest
+perl-Test-Pod
+perl-Test-Pod-Coverage
 perl-Test-Simple
 perl-Text-CSV_XS
 perl-Text-ChaSen
@@ -3747,7 +3749,6 @@ perl-Text-Diff
 perl-Text-Iconv
 perl-Text-Kakasi
 perl-Text-Unidecode
-perl-Text-Wrapper
 perl-Tie-Cache
 perl-Tie-IxHash
 perl-Tie-Simple
@@ -3780,7 +3781,6 @@ perl-XML-Stream
 perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
-perl-XML-XPathEngine
 perl-XML-XSLT
 perl-YAML
 perl-YAML-LibYAML
@@ -3977,8 +3977,10 @@ python-boto
 python-bottle
 python-cairo
 python-cairo-devel
+python-cffi
 python-cloudfiles
 python-configobj
+python-cryptography
 python-cssselect
 python-cssutils
 python-cups
@@ -3992,6 +3994,7 @@ python-dnspython
 python-doc
 python-docopt
 python-ecdsa
+python-enum34
 python-fcgi
 python-flickrapi
 python-gconf
@@ -4047,6 +4050,7 @@ python-pyOpenSSL
 python-pyasn1
 python-pyasn1-modules
 python-pybluez
+python-pycparser
 python-pycrypto
 python-pycurl
 python-pygame

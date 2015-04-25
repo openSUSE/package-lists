@@ -634,7 +634,6 @@ libtevent0
 libtheoradec1
 libtheoraenc1
 libthunarx-2-0
-libtidyp-1_04-0
 libtiff5
 libtirpc1
 libtumbler-1-0
@@ -824,15 +823,15 @@ pcmciautils
 perl
 perl-Bootloader
 perl-Bootloader-YAML
+perl-CPAN-Changes
 perl-Config-Crontab
-perl-Data-Dump
+perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-SHA1
 perl-Encode-Locale
 perl-File-Listing
 perl-HTML-Parser
 perl-HTML-Tagset
-perl-HTML-Tidy
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -847,8 +846,9 @@ perl-Net-DNS
 perl-Net-HTTP
 perl-Net-SSLeay
 perl-Parse-RecDescent
-perl-Text-Wrapper
-perl-Tie-IxHash
+perl-Pod-Coverage
+perl-Test-Pod
+perl-Test-Pod-Coverage
 perl-TimeDate
 perl-URI
 perl-WWW-RobotRules
@@ -862,8 +862,6 @@ perl-XML-SAX-Expat
 perl-XML-Simple
 perl-XML-Twig
 perl-XML-Writer
-perl-XML-XPath
-perl-XML-XPathEngine
 perl-YAML-LibYAML
 perl-base
 perl-gettext

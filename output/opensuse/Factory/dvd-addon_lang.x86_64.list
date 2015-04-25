@@ -2467,7 +2467,6 @@ libtheoradec1
 libtheoraenc1
 libthunarx-2-0
 libtidy-0_99-0
-libtidyp-1_04-0
 libtiff-devel
 libtiff5
 libtiff5-32bit
@@ -2756,7 +2755,6 @@ makeinfo
 malaga-suomi
 man
 man-pages
-man-pages-cs
 man-pages-it
 man-pages-ja
 man-pages-ko
@@ -3106,6 +3104,7 @@ perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
 perl-Bootloader-YAML
+perl-CPAN-Changes
 perl-Carp-Clan
 perl-Class-Singleton
 perl-Config-Crontab
@@ -3121,8 +3120,11 @@ perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
-perl-Data-Dump
 perl-Date-Calc
+perl-DateTime
+perl-DateTime-Locale
+perl-DateTime-TimeZone
+perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
@@ -3136,7 +3138,6 @@ perl-File-Slurp
 perl-HTML-Parser
 perl-HTML-SimpleParse
 perl-HTML-Tagset
-perl-HTML-Tidy
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -3152,12 +3153,15 @@ perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Linux-Pid
+perl-List-AllUtils
 perl-List-MoreUtils
 perl-MIME-tools
 perl-Mail-DKIM
 perl-Mail-SPF
 perl-Mail-SpamAssassin
 perl-MailTools
+perl-Module-Implementation
+perl-Module-Runtime
 perl-Net-CIDR-Lite
 perl-Net-DBus
 perl-Net-DNS
@@ -3169,7 +3173,9 @@ perl-Net-SMTP-SSL
 perl-Net-SSLeay
 perl-Net-Server
 perl-NetAddr-IP
+perl-Params-Validate
 perl-Parse-RecDescent
+perl-Pod-Coverage
 perl-RPC-XML
 perl-Readonly
 perl-Socket6
@@ -3178,11 +3184,13 @@ perl-Sys-Hostname-Long
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
+perl-Test-Pod
+perl-Test-Pod-Coverage
 perl-Text-Unidecode
-perl-Text-Wrapper
 perl-Tie-IxHash
 perl-Time-Duration
 perl-TimeDate
+perl-Try-Tiny
 perl-Types-Serialiser
 perl-URI
 perl-Unix-Syslog
@@ -3201,7 +3209,6 @@ perl-XML-Simple
 perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
-perl-XML-XPathEngine
 perl-YAML-LibYAML
 perl-apparmor
 perl-base
@@ -3310,8 +3317,10 @@ python-beautifulsoup
 python-boto
 python-bottle
 python-cairo
+python-cffi
 python-cloudfiles
 python-configobj
+python-cryptography
 python-cssselect
 python-cups
 python-cupshelpers
@@ -3323,6 +3332,7 @@ python-devel
 python-dnspython
 python-docopt
 python-ecdsa
+python-enum34
 python-gconf
 python-gobject
 python-gobject-cairo
@@ -3351,6 +3361,7 @@ python-paramiko
 python-ply
 python-pyOpenSSL
 python-pybluez
+python-pycparser
 python-pycrypto
 python-pycurl
 python-pyplete
