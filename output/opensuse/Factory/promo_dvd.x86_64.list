@@ -87,6 +87,8 @@ apparmor-utils
 apper
 appmenu-qt
 appstream-glib
+aqbanking
+aqbanking-lang
 arabic-ae-fonts
 arabic-bitmap-fonts
 arabic-fonts
@@ -563,7 +565,10 @@ gnome-weather
 gnome-web-photo
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
+gnucash
+gnucash-lang
 gnuchess
+goffice-0_8-lang
 goffice-lang
 google-carlito-fonts
 google-droid-fonts
@@ -662,12 +667,15 @@ gtkspell-lang
 gucharmap
 guile
 guile-modules-2_0
+guile1
 gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
+gwenhywfar
+gwenhywfar-lang
 gwenview
 gxditview
 gzip
@@ -1202,6 +1210,7 @@ libdaemon0
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
+libdbi3
 libdbus-1-3
 libdbus-1-3-32bit
 libdbusmenu-qt2
@@ -1401,6 +1410,7 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgoffice-0_10-10
+libgoffice-0_8-8
 libgom-1_0-0
 libgomp1
 libgooglepinyin0
@@ -1471,6 +1481,12 @@ libgucharmap_2_90-7
 libgudev-1_0-0
 libguess1
 libguile-2_0-22
+libguile-srfi-srfi-1-v-3-3
+libguile-srfi-srfi-13-14-v-3-3
+libguile-srfi-srfi-4-v-3-3
+libguile-srfi-srfi-60-v-2-2
+libguile17
+libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-dlna-2_0-3
@@ -1480,6 +1496,9 @@ libgusb2
 libgvnc-1_0-0
 libgweather-3-6
 libgweather-data
+libgwengui-gtk2-0
+libgwenhywfar60
+libgwenhywfar60-plugins
 libgxps2
 libhangul1
 libharfbuzz-icu0
@@ -1578,6 +1597,7 @@ libkscreen
 libkscreen1
 libksuseinstall1
 libktexteditor
+libktoblzcheck1
 libktorrent5
 libkvkontakte1
 liblangtag1
@@ -1699,6 +1719,8 @@ libnuma1
 liboauth0
 libodfgen-0_1-1
 libofa0
+libofx
+libofx6
 libogg0
 libogg0-32bit
 liboggkate1
@@ -2150,6 +2172,7 @@ libxkbcommon-x11-0
 libxkbcommon0
 libxkbfile1
 libxklavier16
+libxml++-2_6-2
 libxml2-2
 libxml2-2-32bit
 libxml2-tools
@@ -2358,6 +2381,7 @@ openldap2-devel
 openmpi-libs
 openslp
 openslp-server
+opensp
 openssh
 openssh-askpass
 openssh-helpers
@@ -2496,12 +2520,14 @@ perl-Convert-TNEF
 perl-Convert-UUlib
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
+perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
 perl-Date-Calc
+perl-Date-Manip
 perl-DateTime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
@@ -2516,9 +2542,15 @@ perl-Exporter-Tiny
 perl-File-Listing
 perl-File-RandomAccess
 perl-File-Slurp
+perl-Finance-Quote
+perl-Font-AFM
+perl-HTML-Element-Extended
+perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
+perl-HTML-TableExtract
 perl-HTML-Tagset
+perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -2844,6 +2876,7 @@ site-config
 skanlite
 skanlite-doc
 skanlite-lang
+slib
 smartmontools
 smbios-utils-python
 smp_utils
