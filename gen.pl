@@ -17,15 +17,18 @@ sub read_file_recursively($) {
 
     my $line = $_;
 
-    if ($line =~ m/#.*!$arch/) {
+    if ($line =~ m/#.*!$arch.*$/) {
       next;
     }
-
     if ($line =~ m/^#INCLUDE\s*(\S+)/) {
       push(@lines, "\n# from $1\n");
       push(@lines, read_file_recursively(dirname($file) . "/" . $1));
       push(@lines, "# end $1\n\n");
       next;
+    }
+    if ($line =~ m/#.*!/) {
+      # cut comments at the end of the line
+      $line = (split/#.*!/, $line)[0];
     }
 
     push(@lines, $line);
