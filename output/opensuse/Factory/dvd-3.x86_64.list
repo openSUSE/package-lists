@@ -46,6 +46,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+exim
 expat
 fdupes
 file
@@ -187,6 +188,7 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
+libmysqlclient18
 libncurses5
 libncurses6
 libnetfilter_conntrack3
@@ -205,6 +207,7 @@ libplist3
 libpng16-16
 libpolkit0
 libpopt0
+libpq5
 libprocps4
 libproxy1
 libpwquality1
@@ -212,6 +215,7 @@ libpython2_7-1_0
 libqrencode3
 libreadline6
 libruby2_1-2_1
+libruby2_2-2_2
 libsasl2-3
 libseccomp2
 libselinux1
@@ -221,6 +225,7 @@ libsgutils2-1_40-2
 libsmartcols1
 libsnapper3
 libsolv-tools
+libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -342,7 +347,6 @@ pkg-config
 pm-utils
 polkit
 polkit-default-privs
-postfix
 prctl
 procps
 python
@@ -357,10 +361,12 @@ rsync
 ruby
 ruby-common
 ruby2.1
-ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
-ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
+ruby2.2
+ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-ruby-dbus
+ruby2.2-stdlib
 sed
 sg3_utils
 shadow
@@ -377,7 +383,6 @@ sysfsutils
 syslinux
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools

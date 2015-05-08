@@ -616,7 +616,6 @@ evolution-plugin-bogofilter
 evolution-plugin-spamassassin
 exif
 exiftool
-exim
 exo-lang
 exo-tools
 expat
@@ -1611,8 +1610,8 @@ libQt5Sensors5-imports
 libQt5SerialPort5
 libQt5Sql-devel
 libQt5Sql5
+libQt5Sql5-postgresql
 libQt5Sql5-sqlite
-libQt5Sql5-unixODBC
 libQt5Svg5
 libQt5Test-devel
 libQt5Test5
@@ -2194,6 +2193,8 @@ libgraphite2-3
 libgrilo-0_2-1
 libgrlnet-0_2-0
 libgrlpls-0_2-0
+libgsasl-lang
+libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsl0
@@ -2291,8 +2292,8 @@ libibverbs1
 libical-devel
 libical1
 libicu-devel
-libicu54_1
-libicu54_1-ledata
+libicu55_1
+libicu55_1-ledata
 libid3tag0
 libidl-devel
 libidn-devel
@@ -2810,6 +2811,7 @@ librsvg-2-2
 librsvg-devel
 librsync2
 libruby2_1-2_1
+libruby2_2-2_2
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-passdb0
@@ -2884,7 +2886,6 @@ libspeechd-devel
 libspeechd2
 libspeex1
 libspeexdsp1
-libspf2-2
 libspice-client-glib-2_0-8
 libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
@@ -3343,6 +3344,8 @@ mpfr-devel
 mpt-firmware
 mpt-status
 mrtg
+msmtp
+msmtp-mta
 msynctool
 mtools
 mtpaint
@@ -4342,12 +4345,14 @@ ruby-kde4
 ruby-qt4
 ruby-qt4-devel
 ruby2.1
-ruby2.1-devel
-ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
-ruby2.1-rubygem-ruby-dbus
-ruby2.1-rubygem-yard
 ruby2.1-stdlib
+ruby2.2
+ruby2.2-devel
+ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-ruby-dbus
+ruby2.2-rubygem-yard
+ruby2.2-stdlib
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
 rxvt-unicode
@@ -7016,6 +7021,8 @@ virtualbox-qt
 vlan
 vlock
 vm-install
+vmware-guest-kmp-default
+vmware-guest-kmp-desktop
 vobject
 vorbis-tools
 vpnc

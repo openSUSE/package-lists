@@ -1427,8 +1427,8 @@ libibus-1_0-5
 libibverbs1
 libical1
 libicu-devel
-libicu54_1
-libicu54_1-ledata
+libicu55_1
+libicu55_1-ledata
 libidn11
 libieee1284
 libimobiledevice6
@@ -1778,6 +1778,7 @@ librevenge-stream-0_0-0
 librsvg-2-2
 librsync2
 libruby2_1-2_1
+libruby2_2-2_2
 libsamba-credentials0
 libsamba-hostconfig0
 libsamba-passdb0
@@ -2643,10 +2644,12 @@ rtkit
 ruby
 ruby-common
 ruby2.1
-ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
-ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
+ruby2.2
+ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-ruby-dbus
+ruby2.2-stdlib
 s2tc
 sac
 samba
@@ -2926,6 +2929,8 @@ virtualbox-host-kmp-default
 virtualbox-host-kmp-desktop
 virtualbox-qt
 vlan
+vmware-guest-kmp-default
+vmware-guest-kmp-desktop
 vorbis-tools
 vpnc
 vsftpd

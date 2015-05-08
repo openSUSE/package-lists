@@ -46,7 +46,6 @@ dracut
 efibootmgr
 elfutils
 ethtool
-exim
 expat
 fdupes
 file
@@ -159,6 +158,8 @@ libgmp10
 libgnutls30
 libgobject-2_0-0
 libgpg-error0
+libgsasl-lang
+libgsasl7
 libgudev-1_0-0
 libhavege1
 libhogweed4
@@ -188,7 +189,6 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
-libmysqlclient18
 libncurses5
 libncurses6
 libnetfilter_conntrack3
@@ -198,6 +198,7 @@ libnl-config
 libnl3-200
 libnpth0
 libntfs-3g85
+libntlm0
 libopenssl1_0_0
 libp11-kit0
 libparted0
@@ -207,7 +208,6 @@ libplist3
 libpng16-16
 libpolkit0
 libpopt0
-libpq5
 libprocps4
 libproxy1
 libpwquality1
@@ -215,6 +215,7 @@ libpython2_7-1_0
 libqrencode3
 libreadline6
 libruby2_1-2_1
+libruby2_2-2_2
 libsasl2-3
 libseccomp2
 libselinux1
@@ -224,7 +225,6 @@ libsgutils2-1_40-2
 libsmartcols1
 libsnapper3
 libsolv-tools
-libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -263,6 +263,8 @@ lsscsi
 lvm2
 mdadm
 mozilla-nspr
+msmtp
+msmtp-mta
 mtools
 multipath-tools
 ncurses-utils
@@ -360,10 +362,12 @@ rsync
 ruby
 ruby-common
 ruby2.1
-ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
-ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
+ruby2.2
+ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-ruby-dbus
+ruby2.2-stdlib
 sed
 sg3_utils
 shadow
