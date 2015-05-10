@@ -303,6 +303,7 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -1926,6 +1927,7 @@ libcom_err-devel
 libcom_err2
 libcom_err2-32bit
 libcommoncpp2-1_8-0
+libcorosync4
 libcppunit-1_13-0
 libcpupower0
 libcrack2
@@ -1967,13 +1969,14 @@ libdiscid0
 libdjvulibre-devel
 libdjvulibre21
 libdleyna-core-1_0-4
+libdlm3
 libdmapsharing-3_0-2
 libdmtx-devel
 libdmtx0
 libdmx-devel
 libdmx1
 libdnet1
-libdns146
+libdns160
 libdns_sd
 libdotconf0
 libdrm-devel
@@ -2130,6 +2133,7 @@ libgdbm4
 libgdbm4-32bit
 libgdict-1_0-8
 libgdict-data
+libgdiplus-devel
 libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
@@ -2368,7 +2372,7 @@ libiptc0
 libiptcdata
 libiptcdata0
 libirs141
-libisc142
+libisc148
 libisccc140
 libisccfg140
 libisl13
@@ -2543,6 +2547,7 @@ libmono-2_0-1
 libmono-2_0-devel
 libmonoboehm-2_0-1
 libmonoboehm-2_0-devel
+libmonosgen-2_0-1
 libmount1
 libmount1-32bit
 libmozjs-17_0
@@ -2777,6 +2782,7 @@ libpython3_4m1_0
 libpyzy-1_0-0
 libqalculate-devel
 libqalculate5
+libqb0
 libqca2
 libqca2-devel
 libqhull6-6_3_1_1494
@@ -3430,16 +3436,14 @@ mobipocket
 mono-addins
 mono-core
 mono-data
-mono-data-sqlite
+mono-data-oracle
+mono-devel
 mono-extras
 mono-kde4
-mono-mvc
 mono-qt4
 mono-qt4-devel
-mono-wcf
 mono-web
 mono-winforms
-mono-winfxcore
 mono-zeroconf
 mono-zeroconf-provider-avahi
 moodbar
