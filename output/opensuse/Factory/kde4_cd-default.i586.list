@@ -1,4 +1,3 @@
-Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -64,8 +63,6 @@ breeze5-style-lang
 breeze5-wallpapers
 btrfsmaintenance
 btrfsprogs
-bundle-lang-common-en
-bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -87,7 +84,6 @@ crda
 cron
 cronie
 cryptsetup
-cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -157,7 +153,6 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
-glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
@@ -169,8 +164,6 @@ gpm
 gptfdisk
 grep
 groff
-grub2
-grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -210,7 +203,6 @@ iceauth
 icedax
 icewm
 icewm-default
-icewm-lite
 icoutils
 ifplugd
 info
@@ -222,10 +214,6 @@ iproute2
 iptables
 iputils
 iscsiuio
-java-1_8_0-openjdk
-java-1_8_0-openjdk-headless
-java-1_8_0-openjdk-plugin
-javapackages-tools
 kactivities5
 kactivities5-imports
 kate-plugins
@@ -249,7 +237,6 @@ kde4-filesystem
 kdeartwork4-screensaver
 kdebase4-libkonq
 kdebase4-nsplugin
-kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
 kdebase4-workspace-libs
 kdeclarative-components
@@ -267,7 +254,6 @@ kdepimlibs4
 kdialog
 kdnssd
 keditbookmarks
-kernel-default
 keyutils
 kfilemetadata
 kfilemetadata5
@@ -471,7 +457,6 @@ libQt5X11Extras5
 libQt5Xml5
 libQt5XmlPatterns5
 libQtQuick5
-libQtWebKit4
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -715,7 +700,6 @@ liblirc_client0
 liblockdev1
 libltdl7
 liblua5_1
-liblua5_2
 liblwres141
 liblzma5
 liblzo2-2
@@ -808,7 +792,6 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
-libqt4-x11
 libqt5-linguist
 libqt5-qtbase-platformtheme-gtk2
 libqt5-qtgraphicaleffects
@@ -936,7 +919,6 @@ libxkbfile1
 libxml2-2
 libxml2-tools
 libxshmfence1
-libxslt-tools
 libxslt1
 libxtables10
 libyaml-0-2
@@ -955,7 +937,6 @@ logrotate
 lsb-release
 lsof
 lsscsi
-lua
 luit
 lvm2
 mailx
@@ -989,8 +970,6 @@ ntp
 numlockx
 open-iscsi
 openSUSE-build-key
-openSUSE-release
-openSUSE-release-ftp
 openal-soft
 openldap2-client
 openslp
@@ -999,7 +978,6 @@ openssh-askpass
 openssh-helpers
 openssl
 os-prober
-oxygen-icon-theme
 oxygen5-sounds
 p11-kit
 p11-kit-tools
@@ -1009,27 +987,6 @@ pam-config
 pango-tools
 parallel-printer-support
 parted
-patterns-openSUSE-apparmor
-patterns-openSUSE-base
-patterns-openSUSE-enhanced_base
-patterns-openSUSE-fonts
-patterns-openSUSE-games
-patterns-openSUSE-imaging
-patterns-openSUSE-kde
-patterns-openSUSE-kde_games
-patterns-openSUSE-kde_imaging
-patterns-openSUSE-kde_internet
-patterns-openSUSE-kde_multimedia
-patterns-openSUSE-kde_plasma
-patterns-openSUSE-kde_utilities
-patterns-openSUSE-kde_utilities_opt
-patterns-openSUSE-kde_yast
-patterns-openSUSE-multimedia
-patterns-openSUSE-non_oss
-patterns-openSUSE-sw_management
-patterns-openSUSE-sw_management_kde
-patterns-openSUSE-x11
-patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 pcsc-lite
@@ -1123,7 +1080,6 @@ plasma5-workspace-branding-openSUSE
 plasma5-workspace-lang
 plasma5-workspace-libs
 plymouth
-plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
@@ -1155,18 +1111,14 @@ python-CherryPy
 python-base
 python-bottle
 python-configobj
-python-cssselect
 python-cups
 python-cupshelpers
 python-decorator
 python-gobject
 python-gobject-cairo
-python-javapackages
 python-keyring
-python-lxml
 python-pycurl
 python-pyudev
-python-pyxb
 python-simplejson
 python-six
 python-solv
@@ -1230,7 +1182,6 @@ suse-module-tools
 susegreeter-branding-openSUSE
 susehelp
 susehelp_en
-suspend
 sweeper
 sysconfig
 sysconfig-netconfig
@@ -1252,7 +1203,6 @@ terminfo-base
 tigervnc
 time
 timezone
-timezone-java
 tnftp
 traceroute
 translation-update
@@ -1318,7 +1268,6 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
-xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop

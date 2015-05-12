@@ -20,7 +20,7 @@ job lock name pam-32bit
 job lock name kdelibs3
 job lock name kdelibs3-default-style
 job install name branding-openSUSE
-job install provides pattern() = kde4_office
-job install provides pattern() = rest_cd_kde4
+job install provides pattern() = kde_office
+job install provides pattern() = rest_cd_kde
 job install name openSUSE-release-livecd-kde
 
