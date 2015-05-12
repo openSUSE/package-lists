@@ -2,8 +2,10 @@ Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
+ModemManager
 MozillaFirefox
 MozillaFirefox-branding-openSUSE
+NetworkManager
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -47,6 +49,7 @@ augeas-lenses
 autofs
 autoyast2-installation
 avahi
+avahi-autoipd
 awesfx
 b43-fwcutter
 baloo-core
@@ -128,12 +131,15 @@ deltarpm
 desktop-data-openSUSE
 desktop-file-utils
 device-mapper
+dhcp
+dhcp-client
 dhcpcd
 dialog
 diffutils
 dmidecode
 dmraid
 dmz-icon-theme-cursors
+dnsmasq
 dolphin
 dosfstools
 dracut
@@ -603,6 +609,7 @@ libbasicobjects0
 libbind9-140
 libblkid1
 libbluedevil2
+libbluetooth3
 libboost_date_time1_56_0
 libboost_filesystem1_56_0
 libboost_iostreams1_56_0
@@ -848,10 +855,12 @@ liblwres141
 liblzma5
 liblzo2-2
 libmagic1
+libmbim-glib4
 libmeanwhile1
 libmediawiki1
 libmetalink3
 libmicrohttpd10
+libmm-glib0
 libmng2
 libmnl0
 libmodman1
@@ -871,6 +880,7 @@ libmysqld18
 libmythes-1_2-0
 libncurses5
 libncurses6
+libndp0
 libndr-krb5pac0
 libndr-nbt0
 libndr-standard0
@@ -879,11 +889,13 @@ libneon27
 libnetapi0
 libnetfilter_conntrack3
 libnettle6
+libnewt0_52
 libnfnetlink0
 libnfsidmap-sss
 libnis1
 libnl-config
 libnl3-200
+libnm0
 libnotify-tools
 libnotify4
 libnpth0
@@ -939,6 +951,7 @@ libprocps4
 libprotobuf-c1
 libproxy1
 libproxy1-config-kde4
+libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpulse-mainloop-glib0
 libpulse0
@@ -951,6 +964,8 @@ libqca-qt5-plugins
 libqca2
 libqimageblitz4
 libqjson0
+libqmi-glib1
+libqmi-tools
 libqoauth1
 libqrencode3
 libqt4
@@ -1423,6 +1438,7 @@ recode
 reiserfs
 release-notes-openSUSE
 rgb
+rp-pppoe
 rpcbind
 rpm
 rpm-python
@@ -1493,6 +1509,7 @@ systemsettings5-lang
 sysvinit-tools
 taglib
 tar
+tcl
 terminfo-base
 tigervnc
 time
@@ -1520,6 +1537,8 @@ unzip-doc
 update-alternatives
 update-desktop-files
 upower
+usb_modeswitch
+usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
