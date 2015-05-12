@@ -29,4 +29,5 @@ job install name kernel-default
 job install name openSUSE-release-ftp
 job install provides pattern() = kde
 job install name baloo5-tools
+job install name NetworkManager
 

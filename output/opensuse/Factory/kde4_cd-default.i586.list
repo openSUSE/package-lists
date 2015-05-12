@@ -1,6 +1,8 @@
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
+ModemManager
+NetworkManager
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -35,6 +37,7 @@ augeas-lenses
 autofs
 autoyast2-installation
 avahi
+avahi-autoipd
 baloo-core
 baloo-kioslaves
 baloo-pim
@@ -107,12 +110,15 @@ deltarpm
 desktop-data-openSUSE
 desktop-file-utils
 device-mapper
+dhcp
+dhcp-client
 dhcpcd
 dialog
 diffutils
 dmidecode
 dmraid
 dmz-icon-theme-cursors
+dnsmasq
 dolphin
 dosfstools
 dracut
@@ -521,6 +527,7 @@ libbalooqueryparser4
 libbaloowidgets4
 libbind9-140
 libblkid1
+libbluetooth3
 libboost_system1_56_0
 libboost_thread1_56_0
 libbtrfs0
@@ -704,8 +711,10 @@ liblwres141
 liblzma5
 liblzo2-2
 libmagic1
+libmbim-glib4
 libmetalink3
 libmicrohttpd10
+libmm-glib0
 libmng2
 libmnl0
 libmodman1
@@ -719,6 +728,7 @@ libmusicbrainz5-1
 libmysqlclient18
 libncurses5
 libncurses6
+libndp0
 libndr-krb5pac0
 libndr-nbt0
 libndr-standard0
@@ -727,10 +737,12 @@ libneon27
 libnetapi0
 libnetfilter_conntrack3
 libnettle6
+libnewt0_52
 libnfnetlink0
 libnis1
 libnl-config
 libnl3-200
+libnm0
 libnotify-tools
 libnotify4
 libnpth0
@@ -775,6 +787,7 @@ libprison0
 libprocps4
 libproxy1
 libproxy1-config-kde4
+libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpulse-mainloop-glib0
 libpulse0
@@ -786,6 +799,8 @@ libqca-qt5
 libqca-qt5-plugins
 libqca2
 libqjson0
+libqmi-glib1
+libqmi-tools
 libqoauth1
 libqrencode3
 libqt4
@@ -817,6 +832,7 @@ libselinux1
 libsemanage1
 libsepol1
 libsgutils2-1_40-2
+libslang2
 libsmartcols1
 libsmbclient-raw0
 libsmbclient0
@@ -1143,6 +1159,7 @@ python3-smbc
 recode
 release-notes-openSUSE
 rgb
+rp-pppoe
 rpcbind
 rpm
 rpm-python
@@ -1199,6 +1216,7 @@ systemsettings5
 systemsettings5-lang
 sysvinit-tools
 tar
+tcl
 terminfo-base
 tigervnc
 time
@@ -1225,6 +1243,8 @@ unzip-doc
 update-alternatives
 update-desktop-files
 upower
+usb_modeswitch
+usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
@@ -1239,6 +1259,7 @@ wicked-service
 wireless-regdb
 wireless-tools
 wodim
+wpa_supplicant
 x11-tools
 xauth
 xbitmaps
