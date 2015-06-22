@@ -4,6 +4,4 @@ namespace namespace:language(en) @SYSTEM
 #INCLUDE ignore_opensuse-basedon
 #INCLUDE ignore_opensuse-dvd5
 
-job install name openSUSE-release-dvd # !ppc64le # !ppc64
-job install name openSUSE-release-BE # !ppc64le # !i586 # !x86_64
-job install name openSUSE-release-LE # !ppc64 # !i586 # !x86_64
+job install name openSUSE-release-dvd
