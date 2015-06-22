@@ -11,11 +11,11 @@ bash-completion
 bc
 bind-utils
 binutils
-boost-license1_56_0
+boost-license1_58_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
-bundle-lang-common-ar
+bundle-lang-common-de
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -68,6 +68,7 @@ gzip
 hardlink
 haveged
 hdparm
+hostname
 hwinfo
 info
 initviocons
@@ -106,8 +107,8 @@ libavahi-client3
 libavahi-common3
 libbind9-140
 libblkid1
-libboost_system1_56_0
-libboost_thread1_56_0
+libboost_system1_58_0
+libboost_thread1_58_0
 libbtrfs0
 libburn4
 libburnia-tools
@@ -183,7 +184,7 @@ libnfnetlink0
 libnl-config
 libnl3-200
 libnpth0
-libntfs-3g85
+libntfs-3g86
 libopenssl1_0_0
 libp11-kit0
 libparted0
@@ -199,7 +200,6 @@ libpwquality1
 libpython2_7-1_0
 libqrencode3
 libreadline6
-libruby2_1-2_1
 libruby2_2-2_2
 libsasl2-3
 libseccomp2
@@ -220,12 +220,12 @@ libtirpc1
 libudev1
 libunwind
 libupower-glib3
-libusb-0_1-4
 libusb-1_0-0
 libusbmuxd4
 libustr-1_0-1
 libutempter0
 libuuid1
+libverto1
 libwicked-0-6
 libwrap0
 libx86emu1
@@ -330,11 +330,9 @@ rpm
 rsync
 ruby
 ruby-common
-ruby2.1
-ruby2.1-rubygem-gem2rpm
-ruby2.1-stdlib
 ruby2.2
 ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-dbus
 ruby2.2-stdlib
 sed

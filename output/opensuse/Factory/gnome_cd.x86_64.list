@@ -69,7 +69,7 @@ bind-utils
 binutils
 bluez
 bluez-firmware
-boost-license1_56_0
+boost-license1_58_0
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -104,7 +104,7 @@ command-not-found
 coreutils
 cpio
 cpp
-cpp48
+cpp5
 cpupower
 cracklib
 cracklib-dict-full
@@ -134,6 +134,7 @@ dbus-1-python3
 dbus-1-x11
 dconf
 dd_rescue
+dd_rescue-crypt
 dd_rescue-lzo
 dd_rhelp
 deja-dup
@@ -365,6 +366,7 @@ hdparm
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
+hostname
 hunspell
 hunspell-tools
 hwinfo
@@ -507,10 +509,10 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
-libboost_date_time1_56_0
-libboost_iostreams1_56_0
-libboost_system1_56_0
-libboost_thread1_56_0
+libboost_date_time1_58_0
+libboost_iostreams1_58_0
+libboost_system1_58_0
+libboost_thread1_58_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -547,7 +549,6 @@ libcheese-gtk23
 libcheese7
 libcholmod-3_0_5
 libchromaprint0
-libcloog-isl4
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
@@ -838,6 +839,7 @@ libmozjs-17_0
 libmozjs-24
 libmpc3
 libmpfr4
+libmspack0
 libmspub-0_1-1
 libmtdev1
 libmtp9
@@ -873,7 +875,7 @@ libnotify-tools
 libnotify4
 libnpth0
 libnsssharedhelper0
-libntfs-3g85
+libntfs-3g86
 libnuma1
 liboauth0
 libodfgen-0_1-1
@@ -916,7 +918,7 @@ libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler51
+libpoppler52
 libpopt0
 libportaudio2
 libprocps4
@@ -965,6 +967,7 @@ libreoffice-icon-theme-tango
 libreoffice-impress
 libreoffice-l10n-en
 libreoffice-pyuno
+libreoffice-share-linker
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-writer
@@ -972,7 +975,6 @@ librest0
 librevenge-0_0-0
 librsvg-2-2
 librsync2
-libruby2_1-2_1
 libruby2_2-2_2
 libsamba-credentials0
 libsamba-hostconfig0
@@ -1077,13 +1079,14 @@ libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
+libverto1
 libvisio-0_1-1
 libvisual
 libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvpx1
+libvpx2
 libvte-2_91-0
 libwacom-data
 libwacom2
@@ -1288,6 +1291,7 @@ perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
+perl-Dist-CheckConflicts
 perl-Encode-Locale
 perl-Exporter-Tiny
 perl-File-Listing
@@ -1439,11 +1443,9 @@ rsync
 rtkit
 ruby
 ruby-common
-ruby2.1
-ruby2.1-rubygem-gem2rpm
-ruby2.1-stdlib
 ruby2.2
 ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-dbus
 ruby2.2-stdlib
 s2tc
@@ -1620,6 +1622,7 @@ vino
 virtualbox-guest-kmp-desktop
 virtualbox-guest-tools
 virtualbox-guest-x11
+vmware-guest-kmp-desktop
 vorbis-tools
 vpnc
 wallpaper-branding-openSUSE

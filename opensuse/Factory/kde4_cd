@@ -19,12 +19,26 @@ job lock name kdelibs3-default-style
 job install provides pattern() = kde_office
 job install provides pattern() = rest_cd_kde
 job install name openSUSE-release-livecd-kde
-job install name kdelibs4-branding-openSUSE
-job install name kdebase4-openSUSE
-job install name branding-openSUSE
-job install name kdebase4-runtime-branding-openSUSE
+
+job install name plasma5-desktop-branding-openSUSE
+job install name plasma5-workspace-branding-openSUSE
+
+#job install name kdelibs4-branding-openSUSE
+#job install name kdebase4-openSUSE
+#job install name branding-openSUSE
+#job install name kdebase4-runtime-branding-openSUSE
 job install name baloo5-tools
 job install name NetworkManager
 job lock name cdrecord
 
-job install name libreoffice-writer
+#job install name libreoffice-writer
+job lock name libreoffice
+
+job lock name ksplash-qml-branding-openSUSE
+job lock name ksplashx-branding-openSUSE
+
+job lock name NetworkManager-lang
+job lock name digikam-lang
+job lock name mc-lang
+job lock name nano-lang
+

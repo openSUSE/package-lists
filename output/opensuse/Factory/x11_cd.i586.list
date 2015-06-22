@@ -46,7 +46,7 @@ bc
 bind-utils
 binutils
 bluez-firmware
-boost-license1_56_0
+boost-license1_58_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
@@ -63,7 +63,7 @@ command-not-found
 coreutils
 cpio
 cpp
-cpp48
+cpp5
 cpupower
 cracklib
 cracklib-dict-full
@@ -87,6 +87,7 @@ dbus-1-python3
 dbus-1-x11
 dconf
 dd_rescue
+dd_rescue-crypt
 dd_rescue-lzo
 dd_rhelp
 dejavu-fonts
@@ -213,6 +214,7 @@ hdparm
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
+hostname
 hunspell
 hunspell-tools
 hwinfo
@@ -319,8 +321,8 @@ libbind9-140
 libblkid1
 libbluetooth3
 libbluray1
-libboost_system1_56_0
-libboost_thread1_56_0
+libboost_system1_58_0
+libboost_thread1_58_0
 libbtrfs0
 libburn4
 libburnia-tools
@@ -344,7 +346,6 @@ libcdio_paranoia2
 libcerror1
 libcfile1
 libclocale1
-libcloog-isl4
 libcnotify1
 libcolord2
 libcom_err2
@@ -506,6 +507,7 @@ libmount1
 libmozjs-17_0
 libmpc3
 libmpfr4
+libmspack0
 libmtdev1
 libmtp9
 libncurses5
@@ -532,7 +534,7 @@ libnotify-tools
 libnotify4
 libnpth0
 libnsssharedhelper0
-libntfs-3g85
+libntfs-3g86
 libogg0
 liboggkate1
 libopenjp2-7
@@ -561,7 +563,7 @@ libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler51
+libpoppler52
 libpopt0
 libportaudio2
 libprocps4
@@ -582,7 +584,6 @@ libreadline6
 libreiserfscore0
 librest0
 librsvg-2-2
-libruby2_1-2_1
 libruby2_2-2_2
 libsamba-credentials0
 libsamba-hostconfig0
@@ -655,12 +656,13 @@ libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
+libverto1
 libvisual
 libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvpx1
+libvpx2
 libvte9
 libwayland-client0
 libwayland-cursor0
@@ -931,11 +933,9 @@ rpm-python
 rsync
 ruby
 ruby-common
-ruby2.1
-ruby2.1-rubygem-gem2rpm
-ruby2.1-stdlib
 ruby2.2
 ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-dbus
 ruby2.2-stdlib
 s2tc
@@ -1019,6 +1019,7 @@ vim
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
 virtualbox-guest-x11
+vmware-guest-kmp-default
 vorbis-tools
 vte2-lang
 wallpaper-branding-openSUSE

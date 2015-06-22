@@ -53,7 +53,6 @@ job lock name digikam-doc
 
 job lock name kdeartwork4-weatherwallpapers
 job lock name kdeartwork4-wallpapers-weather
-job lock name breeze5-wallpapers
 
 job lock name sane-backends
 
@@ -65,4 +64,7 @@ job lock name akregator
 job lock name libreoffice-pyuno
 job lock name ImageMagick
 job lock name java-1_7_0-openjdk
+
+# needed for usb-moderswitch, but too large
+job lock name tcl
 

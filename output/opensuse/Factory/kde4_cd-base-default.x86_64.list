@@ -27,7 +27,7 @@ bash
 bash-completion
 bind-utils
 binutils
-boost-license1_56_0
+boost-license1_58_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
@@ -128,6 +128,7 @@ hardlink
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
+hostname
 hwinfo
 icedax
 ifplugd
@@ -189,8 +190,8 @@ libavahi-client3
 libavahi-common3
 libbind9-140
 libblkid1
-libboost_system1_56_0
-libboost_thread1_56_0
+libboost_system1_58_0
+libboost_thread1_58_0
 libbtrfs0
 libburn4
 libburnia-tools
@@ -306,7 +307,7 @@ libnl3-200
 libnotify-tools
 libnotify4
 libnpth0
-libntfs-3g85
+libntfs-3g86
 libnuma1
 libogg0
 liboggkate1
@@ -338,7 +339,6 @@ libpython3_4m1_0
 libqrencode3
 libreadline6
 librest0
-libruby2_1-2_1
 libruby2_2-2_2
 libsamba-credentials0
 libsamba-hostconfig0
@@ -379,12 +379,12 @@ libtirpc1
 libudev1
 libunwind
 libupower-glib3
-libusb-0_1-4
 libusb-1_0-0
 libusbmuxd4
 libustr-1_0-1
 libutempter0
 libuuid1
+libverto1
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -474,6 +474,7 @@ perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
+perl-Dist-CheckConflicts
 perl-Encode-Locale
 perl-Exporter-Tiny
 perl-File-Listing
@@ -580,11 +581,9 @@ rpm
 rpm-python
 ruby
 ruby-common
-ruby2.1
-ruby2.1-rubygem-gem2rpm
-ruby2.1-stdlib
 ruby2.2
 ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-dbus
 ruby2.2-stdlib
 s2tc
@@ -660,7 +659,6 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-bootloader
-yast2-branding-openSUSE
 yast2-core
 yast2-country
 yast2-country-data

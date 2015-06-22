@@ -6,12 +6,10 @@ Mesa-libglapi0-32bit
 alsa-oss-32bit
 alsa-plugins-32bit
 alsa-plugins-pulse-32bit
-bundle-lang-common-ar
 cryptconfig-32bit
 cups-libs-32bit
 dbus-1-glib-32bit
 device-mapper-32bit
-exim
 fontconfig-32bit
 fprintd-pam-32bit
 gdk-pixbuf-query-loaders-32bit
@@ -118,6 +116,7 @@ liblcms2-2-32bit
 libldap-2_4-2-32bit
 libldb1-32bit
 liblockdev1-32bit
+liblsan0
 libltdl7-32bit
 liblua5_1-32bit
 liblzma5-32bit
@@ -172,10 +171,9 @@ libsmbldap0-32bit
 libsndfile1-32bit
 libsnmp30-32bit
 libspeex1-32bit
-libspf2-2
 libsqlite3-0-32bit
 libstdc++6-32bit
-libsvn_auth_gnome_keyring-1-0
+libsvn_auth_kwallet-1-0
 libtalloc2-32bit
 libtasn1-6-32bit
 libtdb1-32bit
@@ -189,12 +187,13 @@ libuuid1-32bit
 libv4l1-0-32bit
 libv4l2-0-32bit
 libv4lconvert0-32bit
+libverto1-32bit
 libvirt-daemon-driver-libxl
 libvirt-daemon-xen
 libvorbis0-32bit
 libvorbisenc2-32bit
 libvorbisfile3-32bit
-libvpx1-32bit
+libvpx2-32bit
 libwayland-client0-32bit
 libwayland-server0-32bit
 libwbclient0-32bit
@@ -218,7 +217,6 @@ nss-mdns-32bit
 nss_ldap-32bit
 numactl
 opie-32bit
-oxygen5-cursors
 p11-kit-32bit
 pam-32bit
 pam-modules-32bit

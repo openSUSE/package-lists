@@ -56,7 +56,7 @@ bijiben
 bind-utils
 binutils
 bluez
-boost-license1_56_0
+boost-license1_58_0
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -89,7 +89,7 @@ command-not-found
 coreutils
 cpio
 cpp
-cpp48
+cpp5
 cpupower
 cracklib
 cracklib-dict-full
@@ -310,6 +310,7 @@ hardlink
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
+hostname
 hunspell
 hunspell-tools
 hwinfo
@@ -425,8 +426,8 @@ libbind9-140
 libblkid1
 libbluetooth3
 libbluray1
-libboost_system1_56_0
-libboost_thread1_56_0
+libboost_system1_58_0
+libboost_thread1_58_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -458,7 +459,6 @@ libcheese-common
 libcheese-gtk23
 libcheese7
 libchromaprint0
-libcloog-isl4
 libclutter-1_0-0
 libclutter-gst-2_0-0
 libclutter-gst-3_0-0
@@ -741,7 +741,7 @@ libnm0
 libnotify-tools
 libnotify4
 libnpth0
-libntfs-3g85
+libntfs-3g86
 liboauth0
 libofa0
 libogg0
@@ -778,7 +778,7 @@ libply2
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler51
+libpoppler52
 libpopt0
 libportaudio2
 libprocps4
@@ -810,7 +810,6 @@ libreadline6
 librest0
 librsvg-2-2
 librsync2
-libruby2_1-2_1
 libruby2_2-2_2
 libsamba-credentials0
 libsamba-hostconfig0
@@ -886,7 +885,6 @@ libudisks2-0
 libunistring2
 libunwind
 libupower-glib3
-libusb-0_1-4
 libusb-1_0-0
 libusbmuxd4
 libustr-1_0-1
@@ -898,11 +896,12 @@ libv4l2-0
 libv4lconvert0
 libvdpau1
 libvdpau_nouveau
+libverto1
 libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvpx1
+libvpx2
 libvte-2_91-0
 libwacom-data
 libwacom2
@@ -912,7 +911,6 @@ libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwbclient0
-libwebkit2gtk-4_0-37
 libwebkitgtk-3_0-0
 libwebp5
 libwebrtc_audio_processing0
@@ -1051,6 +1049,7 @@ perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
+perl-Dist-CheckConflicts
 perl-Encode-Locale
 perl-Exporter-Tiny
 perl-File-Listing
@@ -1187,11 +1186,9 @@ rpm-python
 rtkit
 ruby
 ruby-common
-ruby2.1
-ruby2.1-rubygem-gem2rpm
-ruby2.1-stdlib
 ruby2.2
 ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-dbus
 ruby2.2-stdlib
 s2tc
@@ -1404,7 +1401,6 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-bootloader
-yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core

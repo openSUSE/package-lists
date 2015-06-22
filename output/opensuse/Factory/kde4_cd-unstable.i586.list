@@ -2,6 +2,11 @@ Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
+ModemManager
+NetworkManager
+NetworkManager-openvpn
+NetworkManager-pptp
+NetworkManager-vpnc
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -45,6 +50,7 @@ augeas-lenses
 autofs
 autoyast2-installation
 avahi
+avahi-autoipd
 awesfx
 b43-fwcutter
 baloo-core
@@ -61,7 +67,7 @@ binutils
 bluedevil
 bluez
 bluez-firmware
-boost-license1_56_0
+boost-license1_58_0
 branding-openSUSE
 breeze
 breeze4-style
@@ -89,7 +95,7 @@ command-not-found
 coreutils
 cpio
 cpp
-cpp48
+cpp5
 cpupower
 cracklib
 cracklib-dict-full
@@ -121,12 +127,17 @@ deltarpm
 desktop-data-openSUSE
 desktop-file-utils
 device-mapper
+dhcp
+dhcp-client
 dhcpcd
 dialog
 diffutils
+digikam
+digikam-lang
 dmidecode
 dmraid
 dmz-icon-theme-cursors
+dnsmasq
 dolphin
 dosfstools
 dracut
@@ -219,6 +230,7 @@ hardlink
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
+hostname
 htdig
 hunspell
 hunspell-tools
@@ -362,6 +374,8 @@ ksplashx-branding-openSUSE
 ksshaskpass5
 ksshaskpass5-lang
 ksudoku
+ksysguard5
+ksysguard5-lang
 ktexteditor
 ktexteditor-lang
 ktorrent
@@ -374,6 +388,7 @@ kwebkitpart-lang
 kwin5
 kwin5-lang
 kwrite
+lensfun-data
 less
 libFLAC++6
 libFLAC8
@@ -550,6 +565,7 @@ libasm1
 libasound2
 libaspell15
 libassuan0
+libastro1
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -573,10 +589,11 @@ libbaloowidgets4
 libbind9-140
 libblkid1
 libbluedevil2
-libboost_filesystem1_56_0
-libboost_program_options1_56_0
-libboost_system1_56_0
-libboost_thread1_56_0
+libbluetooth3
+libboost_filesystem1_58_0
+libboost_program_options1_58_0
+libboost_system1_58_0
+libboost_thread1_58_0
 libbtrfs0
 libburn4
 libburnia-tools
@@ -594,7 +611,6 @@ libcap2
 libcdda_interface0
 libcdda_paranoia0
 libcdio16
-libcloog-isl4
 libclucene-core1
 libclucene-shared1
 libcolord2
@@ -754,9 +770,13 @@ libkerfuffle4
 libkexiv2-11
 libkeyutils1
 libkf5kdegames6
+libkface
+libkface3
 libkfbapi-lang
 libkfbapi1
 libkgapi2-2
+libkgeomap
+libkgeomap2
 libkipi11
 libkmahjongg4
 libkmahjongglib4
@@ -770,9 +790,11 @@ libksba8
 libkscreen2-plugin
 libksuseinstall1
 libksysguard5
+libksysguard5-helper
 libksysguard5-lang
 libktorrent5
 libktorrent5-lang
+libkvkontakte-lang
 libkvkontakte1
 libkwalletbackend5-5
 liblastfm1
@@ -780,6 +802,7 @@ liblcms2-2
 libldap-2_4-2
 libldapcpp1
 libldb1
+liblensfun0
 liblirc_client0
 liblockdev1
 libloudmouth-1-0
@@ -790,10 +813,13 @@ liblwres141
 liblzma5
 liblzo2-2
 libmagic1
+libmarblewidget21
+libmbim-glib4
 libmeanwhile1
 libmediawiki1
 libmetalink3
 libmicrohttpd10
+libmm-glib0
 libmng2
 libmnl0
 libmodman1
@@ -810,6 +836,7 @@ libmysqlclient18
 libmysqld18
 libncurses5
 libncurses6
+libndp0
 libndr-krb5pac0
 libndr-nbt0
 libndr-standard0
@@ -818,14 +845,18 @@ libneon27
 libnetapi0
 libnetfilter_conntrack3
 libnettle6
+libnewt0_52
 libnfnetlink0
 libnis1
 libnl-config
 libnl3-200
+libnm-glib-vpn1
+libnm-util2
+libnm0
 libnotify-tools
 libnotify4
 libnpth0
-libntfs-3g85
+libntfs-3g86
 libogg0
 liboggkate1
 libopenal1
@@ -846,6 +877,7 @@ libpciaccess0
 libpcre1
 libpcre16-0
 libpcsclite1
+libpgf6
 libphonon4
 libphonon4qt5
 libpipeline1
@@ -862,7 +894,7 @@ libpolkit-qt5-1-1
 libpolkit0
 libpoppler-qt4-4
 libpoppler-qt5-1
-libpoppler51
+libpoppler52
 libpopt0
 libportaudio2
 libprison0
@@ -870,6 +902,7 @@ libprocps4
 libprotobuf-c1
 libproxy1
 libproxy1-config-kde4
+libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpulse-mainloop-glib0
 libpulse0
@@ -882,12 +915,15 @@ libqca-qt5-plugins
 libqca2
 libqimageblitz4
 libqjson0
+libqmi-glib1
+libqmi-tools
 libqoauth1
 libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-mysql
+libqt4-sql-sqlite
 libqt4-x11
 libqt5-linguist
 libqt5-qtbase-platformtheme-gtk2
@@ -904,7 +940,6 @@ libreadline6
 libreiserfscore0
 librest0
 librsvg-2-2
-libruby2_1-2_1
 libruby2_2-2_2
 libsamba-credentials0
 libsamba-hostconfig0
@@ -915,8 +950,11 @@ libsamplerate0
 libsasl2-3
 libsbc1
 libseccomp2
+libsecret-1-0
+libsecret-lang
 libselinux1
 libsemanage1
+libsensors4
 libsepol1
 libsgutils2-1_40-2
 libslang2
@@ -978,6 +1016,7 @@ libva-x11-1
 libva1
 libvcdinfo0
 libvdpau_nouveau
+libverto1
 libvigraimpex5
 libvisual
 libvncclient0
@@ -985,7 +1024,7 @@ libvncserver0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvpx1
+libvpx2
 libwavpack1
 libwayland-client0
 libwayland-cursor0
@@ -1100,6 +1139,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
+openvpn
 os-prober
 oxygen-icon-theme
 oxygen5-sounds
@@ -1154,6 +1194,7 @@ perl-Devel-Symdump
 perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
+perl-Dist-CheckConflicts
 perl-Encode-Locale
 perl-Exporter-Tiny
 perl-File-Listing
@@ -1209,6 +1250,7 @@ phonon4qt5-backend-gstreamer
 pigz
 pinentry
 pinentry-qt4
+pkcs11-helper
 pkg-config
 plasma-framework
 plasma-framework-components
@@ -1216,6 +1258,9 @@ plasma-framework-lang
 plasma-framework-private
 plasma-nm5
 plasma-nm5-lang
+plasma-nm5-openvpn
+plasma-nm5-pptp
+plasma-nm5-vpnc
 plasma5-addons
 plasma5-addons-kimpanel
 plasma5-addons-lang
@@ -1296,6 +1341,7 @@ recode
 reiserfs
 release-notes-openSUSE
 rgb
+rp-pppoe
 rpcbind
 rpm
 rpm-python
@@ -1303,11 +1349,9 @@ rsync
 rtkit
 ruby
 ruby-common
-ruby2.1
-ruby2.1-rubygem-gem2rpm
-ruby2.1-stdlib
 ruby2.2
 ruby2.2-rubygem-fast_gettext
+ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-dbus
 ruby2.2-stdlib
 s2tc
@@ -1317,7 +1361,6 @@ sbl
 scout
 sddm
 sddm-branding-openSUSE
-sddm-lang
 sed
 sessreg
 setxkbmap
@@ -1392,6 +1435,7 @@ vaapi-dummy-driver
 vcdimager
 vim
 vorbis-tools
+vpnc
 wallpaper-branding-openSUSE
 wget
 which
