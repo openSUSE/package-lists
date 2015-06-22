@@ -23,6 +23,8 @@ job lock name yast2-branding-SLES
 job lock name java-1_5_0-sun
 job lock name java-1_6_0-sun
 job lock name java-1_7_0-openjdk-headless
+# For now, the only java version we want is 1.8
+job lock name java-1_9_0-openjdk-headless
 job lock name linphone
 # non-oss 
 job lock name poppler-data
