@@ -118,8 +118,6 @@ apparmor-profiles
 apparmor-utils
 apper
 appstream-glib
-aqbanking
-aqbanking-lang
 arabic-ae-fonts
 arabic-amiri-fonts
 arabic-bitmap-fonts
@@ -701,14 +699,11 @@ gnome-web-photo
 gnu-free-fonts
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
-gnucash
-gnucash-lang
 gnumeric
 gnumeric-lang
 gnutls
 gobject-introspection
 gobject-introspection-devel
-goffice-0_8-lang
 goffice-lang
 google-carlito-fonts
 google-droid-fonts
@@ -816,15 +811,12 @@ gucharmap
 gucharmap-devel
 guile
 guile-modules-2_0
-guile1
 gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
-gwenhywfar
-gwenhywfar-lang
 gwenview
 gxditview
 gzip
@@ -1232,7 +1224,7 @@ libKF5Attica5
 libKF5Auth5
 libKF5Baloo1
 libKF5BalooXapian1
-libKF5BluezQt5
+libKF5BluezQt6
 libKF5Bookmarks5
 libKF5Codecs5
 libKF5Completion5
@@ -1613,7 +1605,6 @@ libdaemon0
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
-libdbi3
 libdbus-1-3
 libdbusmenu-glib4
 libdbusmenu-gtk3-4
@@ -1632,7 +1623,6 @@ libdmapsharing-3_0-2
 libdmtx0
 libdmx-devel
 libdmx1
-libdnet1
 libdns160
 libdns_sd
 libdotconf0
@@ -1676,7 +1666,7 @@ libewf2
 libexempi3
 libexif-devel
 libexif12
-libexiv2-13
+libexiv2-14
 libexiv2-devel
 libexo-1-0
 libexo-1-0-branding-openSUSE
@@ -1816,7 +1806,6 @@ libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
 libgoffice-0_10-10
-libgoffice-0_8-8
 libgom-1_0-0
 libgomp1
 libgooglepinyin0
@@ -1883,12 +1872,6 @@ libgucharmap_2_90-7
 libgudev-1_0-0
 libguess1
 libguile-2_0-22
-libguile-srfi-srfi-1-v-3-3
-libguile-srfi-srfi-13-14-v-3-3
-libguile-srfi-srfi-4-v-3-3
-libguile-srfi-srfi-60-v-2-2
-libguile17
-libguilereadline-v-17-17
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-dlna-2_0-3
@@ -1899,9 +1882,6 @@ libgvnc-1_0-0
 libgweather-3-6
 libgweather-data
 libgweather-devel
-libgwengui-gtk2-0
-libgwenhywfar60
-libgwenhywfar60-plugins
 libgxps2
 libgypsy0
 libhangul1
@@ -2014,7 +1994,6 @@ libksuseinstall1
 libksysguard5
 libksysguard5-devel
 libksysguard5-helper
-libktoblzcheck1
 libktorrent5
 libktpaccountskcminternal9
 libkvkontakte-lang
@@ -2143,8 +2122,6 @@ liboauth-devel
 liboauth0
 libodfgen-0_1-1
 libofa0
-libofx
-libofx6
 libogg0
 liboggkate1
 liboldX-devel
@@ -2532,7 +2509,6 @@ libvirt-glib-1_0-0
 libvirt-python
 libvisio-0_1-1
 libvisual
-libvmtools0
 libvncclient0
 libvncserver0
 libvorbis0
@@ -2640,7 +2616,6 @@ libxkbui-devel
 libxkbui1
 libxklavier-devel
 libxklavier16
-libxml++-2_6-2
 libxml2-2
 libxml2-devel
 libxml2-tools
@@ -2867,8 +2842,6 @@ ofl
 okular
 open-iscsi
 open-isns
-open-vm-tools
-open-vm-tools-desktop
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd-biarch
@@ -3064,14 +3037,12 @@ perl-Convert-TNEF
 perl-Convert-UUlib
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
 perl-Date-Calc
-perl-Date-Manip
 perl-DateTime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
@@ -3087,15 +3058,9 @@ perl-Exporter-Tiny
 perl-File-Listing
 perl-File-RandomAccess
 perl-File-Slurp
-perl-Finance-Quote
-perl-Font-AFM
-perl-HTML-Element-Extended
-perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
-perl-HTML-TableExtract
 perl-HTML-Tagset
-perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-Daemon
 perl-HTTP-Date
@@ -3483,7 +3448,6 @@ skanlite
 skanlite-doc
 skanlite-lang
 skkdic
-slib
 smartmontools
 smbios-utils-python
 smp_utils
@@ -5998,8 +5962,6 @@ virtualbox-host-kmp-desktop
 virtualbox-qt
 vlan
 vm-install
-vmware-guest-kmp-default
-vmware-guest-kmp-desktop
 vorbis-tools
 vpnc
 vsftpd
