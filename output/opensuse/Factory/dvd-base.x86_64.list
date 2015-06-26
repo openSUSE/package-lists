@@ -9,7 +9,7 @@ bc
 boost-license1_58_0
 branding-openSUSE
 btrfsprogs
-bundle-lang-common-nb
+bundle-lang-common-fi
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -73,11 +73,14 @@ kmod-compat
 kpartx
 krb5
 less
+libICE6
+libSM6
 libX11-6
 libX11-data
 libXau6
 libXext6
 libXmuu1
+libXt6
 libacl1
 libaio1
 libapparmor1
@@ -117,6 +120,7 @@ libfuse2
 libgc1
 libgcc_s1
 libgcrypt20
+libgdbm4
 libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
@@ -222,8 +226,10 @@ pam-config
 patterns-openSUSE-base
 patterns-openSUSE-minimal_base
 patterns-openSUSE-minimal_base-conflicts
+perl
 perl-Bootloader
 perl-base
+perl-gettext
 permissions
 pigz
 pinentry
@@ -264,6 +270,7 @@ update-alternatives
 upower
 util-linux
 util-linux-systemd
+vim
 w3m
 wallpaper-branding-openSUSE
 wget
@@ -275,3 +282,4 @@ wol
 xauth
 xz
 zypper
+zypper-aptitude

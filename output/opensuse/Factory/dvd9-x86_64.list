@@ -95,7 +95,9 @@ alsa-firmware
 alsa-oss
 alsa-oss-32bit
 alsa-plugins
+alsa-plugins-32bit
 alsa-plugins-pulse
+alsa-plugins-pulse-32bit
 alsa-utils
 amarok
 amavisd-new
@@ -313,11 +315,11 @@ bundle-lang-common-de
 bundle-lang-common-el
 bundle-lang-common-en
 bundle-lang-common-es
+bundle-lang-common-fi
 bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-nb
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -357,6 +359,7 @@ bzr
 bzr-lang
 ca-certificates
 ca-certificates-mozilla
+cabextract
 cairo-devel
 cal10n
 calibre
@@ -564,6 +567,7 @@ docbook_4
 docbook_5
 dolphin
 dos2unix
+dosbox
 dosfstools
 doxygen
 dracut
@@ -1662,6 +1666,7 @@ libFS-devel
 libFS6
 libGLEW1_12
 libGLU1
+libGLU1-32bit
 libGeoIP1
 libGraphicsMagick-Q16-3
 libGraphicsMagick3-config
@@ -1752,6 +1757,7 @@ libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libOSMesa-devel
 libOSMesa9
+libOSMesa9-32bit
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1814,6 +1820,8 @@ libSDL_Pango1
 libSDL_gfx15
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
+libSDL_net-1_2-0
+libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSM-devel
 libSM6
@@ -1878,6 +1886,7 @@ libXp-devel
 libXp6
 libXpm-devel
 libXpm4
+libXpm4-32bit
 libXprintAppUtil-devel
 libXprintAppUtil1
 libXprintUtil-devel
@@ -1893,6 +1902,7 @@ libXss1
 libXss1-32bit
 libXt-devel
 libXt6
+libXt6-32bit
 libXtst-devel
 libXtst6
 libXv-devel
@@ -2070,6 +2080,7 @@ libcap-ng0
 libcap2
 libcap2-32bit
 libcapi20-3
+libcapi20-3-32bit
 libcares2
 libcaribou0
 libccolamd-2_9_1
@@ -2140,6 +2151,7 @@ libdaemon0
 libdar5000
 libdb-4_5
 libdb-4_8
+libdb-4_8-32bit
 libdb-4_8-devel
 libdbus-1-3
 libdbus-1-3-32bit
@@ -2229,6 +2241,7 @@ libexempi-devel
 libexempi3
 libexif-devel
 libexif12
+libexif12-32bit
 libexiv2-14
 libexiv2-devel
 libexo-1-0
@@ -2313,6 +2326,7 @@ libgcrypt-devel
 libgcrypt20
 libgcrypt20-32bit
 libgd3
+libgd3-32bit
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
@@ -2323,6 +2337,7 @@ libgda-ui-5_0-plugins
 libgdata-devel
 libgdata19
 libgdbm4
+libgdbm4-32bit
 libgdict-1_0-8
 libgdict-data
 libgdiplus-devel
@@ -2418,6 +2433,7 @@ libgpg-error0-32bit
 libgpgme-devel
 libgpgme11
 libgphoto2-6
+libgphoto2-6-32bit
 libgphoto2-devel
 libgpm2
 libgpod-devel
@@ -2435,6 +2451,7 @@ libgsf-1-114
 libgsf-devel
 libgsl0
 libgsm1
+libgsm1-32bit
 libgsound0
 libgssdp-1_0-3
 libgssglue-devel
@@ -2536,6 +2553,7 @@ libidn11
 libidn11-32bit
 libiec61883
 libieee1284
+libieee1284-32bit
 libimobiledevice-devel
 libimobiledevice6
 libindi
@@ -2691,6 +2709,7 @@ liblirc_client0
 liblirc_driver0
 libloader
 liblockdev1
+liblockdev1-32bit
 liblogging0
 libloudmouth-1-0
 liblouis2
@@ -2702,6 +2721,7 @@ liblsan0
 libltdl7
 libltdl7-32bit
 liblua5_1
+liblua5_1-32bit
 liblua5_2
 liblwres141
 liblxpanel0
@@ -2711,6 +2731,7 @@ liblzma5-32bit
 liblzo2-2
 libm17n0
 libmagic1
+libmagic1-32bit
 libmal-devel
 libmal1
 libmarblewidget21
@@ -2808,6 +2829,7 @@ libnice10
 libnis1
 libnl-config
 libnl3-200
+libnl3-200-32bit
 libnm-glib-vpn1
 libnm-glib4
 libnm-gtk0
@@ -2843,6 +2865,7 @@ libonig2
 libopagent1
 libopal3_10_10
 libopenal1
+libopenal1-32bit
 libopenbabel-devel
 libopenbabel4
 libopencc2
@@ -2883,6 +2906,7 @@ libpano13-3
 libparted0
 libpath_utils1
 libpcap1
+libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
@@ -3043,6 +3067,7 @@ libqt5-qtserialport-devel
 libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
+libqt5-qtwebengine
 libqt5-qtwebsockets-devel
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
@@ -3146,6 +3171,7 @@ libselinux1
 libselinux1-32bit
 libsemanage1
 libsensors4
+libsensors4-32bit
 libsensors4-devel
 libsepol-devel
 libsepol1
@@ -3188,6 +3214,7 @@ libsndfile-devel
 libsndfile1
 libsndfile1-32bit
 libsnmp30
+libsnmp30-32bit
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
@@ -3217,6 +3244,7 @@ libspice-server1
 libspnav0
 libsqlite3-0
 libsqlite3-0-32bit
+libsrtp1
 libssh-devel
 libssh2-1
 libssh4
@@ -3304,6 +3332,7 @@ libunwind
 libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
+libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd-devel
@@ -3320,9 +3349,12 @@ libuv1
 libv4l
 libv4l-devel
 libv4l1-0
+libv4l1-0-32bit
 libv4l2-0
+libv4l2-0-32bit
 libv4l2rds0
 libv4lconvert0
+libv4lconvert0-32bit
 libva-drm1
 libva-egl1
 libva-glx1
@@ -3376,6 +3408,7 @@ libvorbisenc2-32bit
 libvorbisfile3
 libvorbisfile3-32bit
 libvpx2
+libvpx2-32bit
 libvte-2_91-0
 libvte9
 libwacom-data
@@ -3415,6 +3448,7 @@ libwpg-0_3-3
 libwpg-devel
 libwps-0_3-3
 libwrap0
+libwrap0-32bit
 libwv-1_2-3
 libwv2-4
 libwx_baseu-2_8-0-stl
@@ -3515,6 +3549,7 @@ libxslt-devel
 libxslt-python
 libxslt-tools
 libxslt1
+libxslt1-32bit
 libxtables10
 libyajl2
 libyaml-0-2
@@ -3778,6 +3813,7 @@ nmap
 notification-daemon
 notify-sharp
 nscd
+nspluginwrapper
 nss-mdns
 nss-mdns-32bit
 nss_ldap
@@ -3869,6 +3905,7 @@ oxygen5-lang
 oxygen5-sounds
 oxygen5-style
 p11-kit
+p11-kit-32bit
 p11-kit-devel
 p11-kit-tools
 p7zip
@@ -4031,6 +4068,7 @@ pdfmod-lang
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
+perl-32bit
 perl-Algorithm-Diff
 perl-Alien-SDL
 perl-Apache-AuthCookie
@@ -4709,6 +4747,7 @@ ristretto-lang
 rp-pppoe
 rpcbind
 rpm
+rpm-32bit
 rpm-build
 rpm-devel
 rpm-python
@@ -4752,6 +4791,7 @@ samba-libs-32bit
 samba-winbind
 samba-winbind-32bit
 sane-backends
+sane-backends-32bit
 sane-backends-autoconfig
 sane-backends-devel
 sash
@@ -7443,6 +7483,8 @@ whois
 wicked
 wicked-service
 wiggle
+wine
+wine-32bit
 wireless-regdb
 wireless-tools
 wireshark
@@ -7679,10 +7721,8 @@ xmanja
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
 xml-commons-resolver10
-xml-commons-resolver11
 xml-commons-which10
 xml-group-manager
 xml2po
