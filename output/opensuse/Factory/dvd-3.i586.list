@@ -96,6 +96,8 @@ libassuan0
 libattr1
 libaudit1
 libaugeas0
+libavahi-client3
+libavahi-common3
 libblkid1
 libboost_system1_58_0
 libboost_thread1_58_0
@@ -113,6 +115,7 @@ libcurl4
 libdb-4_8
 libdbus-1-3
 libdconf1
+libdns_sd
 libdw1
 libedit0
 libefivar0
@@ -164,7 +167,6 @@ libnl3-200
 libnpth0
 libopenssl1_0_0
 libp11-kit0
-libpci3
 libpcre1
 libplist3
 libpng16-16
@@ -223,6 +225,7 @@ netcfg
 nfs-client
 nfsidmap
 nscd
+ntp
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
@@ -282,6 +285,7 @@ tcsh-lang
 telnet
 terminfo-base
 time
+timezone
 tnftp
 traceroute
 udev
