@@ -7,6 +7,9 @@ case $proj in
 	Factory) arches="i586 x86_64"
 		repo="standard"
 		;;
+	42) arches="x86_64"
+	    repo="standard"
+		;;
 	Factory:PowerPC) arches="ppc64 ppc64le"
 			repo="standard"
 		;;

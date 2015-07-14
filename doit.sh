@@ -13,6 +13,9 @@ case $proj in
 	Factory)arches="i586 x86_64"
 		repo="standard"
 		;;
+	42)arches="x86_64"
+		repo="standard"
+		;;
 	Factory:PowerPC) arches="ppc64 ppc64le"
 		repo="standard"
 		;;
@@ -68,12 +71,14 @@ for arch in $arches; do
     ./gen.pl opensuse/$proj/gnome_cd-default $arch "$proj" $repo
 
     ./gen.pl opensuse/$proj/kde4_cd-base-default $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/kde4_cd-unstable $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/gnome_cd-nobundles $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/x11_cd $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
+    if test "$proj" = "Factory"; then
+      ./gen.pl opensuse/$proj/kde4_cd-unstable $arch "$proj" $repo
+      ./gen.pl opensuse/$proj/gnome_cd-nobundles $arch "$proj" $repo
+      ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
+      ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
+      ./gen.pl opensuse/$proj/x11_cd $arch "$proj" $repo
+      ./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
+    fi
    fi
 
     # first flash
@@ -113,12 +118,14 @@ for arch in $arches; do
         diff -u output/opensuse/$proj/kde4_cd.$arch.list output/opensuse/$proj/kde4_cd-default.$arch.list | grep -v +++ | grep ^+ || true
         diff -u output/opensuse/$proj/gnome_cd.$arch.list output/opensuse/$proj/gnome_cd-default.$arch.list | grep -v +++ | grep ^+ || true
 
-       ./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
-       ./gen.pl opensuse/$proj/dvd-addon_lang $arch "$proj" $repo
+       if test "$proj" = "Factory"; then
+         ./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
+         ./gen.pl opensuse/$proj/dvd-addon_lang $arch "$proj" $repo
+       fi
     fi
 done
 
-if $(is_x86 $arch);then
+if $(is_x86 $arch) && test "$proj" = "Factory" ;then
     ./split_dvd9.sh output/opensuse/$proj/dvd9-i586.list output/opensuse/$proj/dvd9-x86_64.list output/opensuse/$proj/dvd9-all.list output/opensuse/$proj/dvd9-only_i586.list output/opensuse/$proj/dvd9-only_x86_64.list
 
     diff output/opensuse/$proj/nonoss.deps.i586.list output/opensuse/$proj/nonoss.deps.x86_64.list | grep '^>' | cut '-d ' -f2 > output/opensuse/$proj/nonoss.deps-x86_64.list
