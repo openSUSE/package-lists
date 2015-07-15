@@ -574,6 +574,7 @@ elfutils
 elilo
 emacs
 emacs-apel
+emacs-flim
 emacs-info
 emacs-nox
 emacs-x11
@@ -660,7 +661,6 @@ fixesproto-devel
 flac
 flac-devel
 flex
-flim
 flute
 font-util
 fontcacheproto-devel
@@ -1579,6 +1579,8 @@ ktux
 kubrick
 kunitconversion-devel
 kwallet-devel
+kwallet-tools
+kwallet-tools-lang
 kwalletd5
 kwalletmanager
 kwayland-devel
@@ -1647,6 +1649,7 @@ libKF5DNSSD5
 libKF5Declarative5
 libKF5Emoticons5
 libKF5GlobalAccel5
+libKF5GlobalAccelPrivate5
 libKF5GuiAddons5
 libKF5I18n5
 libKF5IconThemes5
@@ -2071,7 +2074,6 @@ libdmtx-devel
 libdmtx0
 libdmx-devel
 libdmx1
-libdnet1
 libdns160
 libdns_sd
 libdotconf0
@@ -3161,7 +3163,6 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
-libvmtools0
 libvncclient0
 libvncserver0
 libvorbis-devel
@@ -3570,8 +3571,6 @@ okteta-devel
 okular
 open-iscsi
 open-isns
-open-vm-tools
-open-vm-tools-desktop
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
@@ -3615,9 +3614,9 @@ orca
 oro
 os-prober
 osc
-oxygen-cursors4
 oxygen-icon-theme
 oxygen5
+oxygen5-cursors
 oxygen5-decoration
 oxygen5-devel
 oxygen5-lang
@@ -4904,8 +4903,6 @@ virtualbox-qt
 vlan
 vlock
 vm-install
-vmware-guest-kmp-default
-vmware-guest-kmp-desktop
 vobject
 vorbis-tools
 vpnc
