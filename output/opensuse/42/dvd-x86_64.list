@@ -8,6 +8,7 @@ Mesa
 Mesa-32bit
 Mesa-demo-x
 Mesa-devel
+Mesa-dri-devel
 Mesa-libEGL-devel
 Mesa-libEGL1
 Mesa-libEGL1-32bit
@@ -323,6 +324,7 @@ colord-gtk-lang
 colord-lang
 command-not-found
 commoncpp2-devel
+compositeproto-devel
 coreutils
 coreutils-lang
 cpio
@@ -364,6 +366,7 @@ cyrus-sasl-devel
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
+damageproto-devel
 dasher
 dasher-data-extras
 dasher-data-recommended
@@ -417,6 +420,7 @@ dirmngr-lang
 djvulibre
 dmidecode
 dmraid
+dmxproto-devel
 dmz-icon-theme-cursors
 dnsmasq
 docbook-dsssl-stylesheets
@@ -430,6 +434,8 @@ dos2unix
 dosfstools
 doxygen
 dracut
+dri2proto-devel
+dri3proto-devel
 drkonqi5
 duplicity
 dvd+rw-tools
@@ -459,7 +465,6 @@ eog
 eog-lang
 eog-plugins
 eog-plugins-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -493,17 +498,20 @@ fillup
 findutils
 finger
 fipscheck
+fixesproto-devel
 flac
 flac-devel
 flex
 flute
 folks-lang
 font-util
+fontcacheproto-devel
 fontconfig
 fontconfig-32bit
 fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
+fontsproto-devel
 fonttosfnt
 fortune
 frameworkintegration-devel
@@ -622,11 +630,10 @@ git-gui
 git-web
 gitk
 gjs
+glade
 glade-catalog-gtksourceview
 glade-catalog-vte
-glade3
-glade3-lang
-glamor
+glade-lang
 glew-devel
 glib-networking
 glib-networking-lang
@@ -641,6 +648,7 @@ glibc-info
 glibc-locale
 glibc-locale-32bit
 glibmm2-devel
+glproto-devel
 glu-devel
 gmixer
 gmp-devel
@@ -970,6 +978,7 @@ inkscape-extensions-gimp
 inkscape-lang
 inn
 input-utils
+inputproto-devel
 insserv-compat
 inst-source-utils
 install-initrd-openSUSE
@@ -1049,6 +1058,7 @@ kauth-devel
 kbd
 kbookmarks-devel
 kbounce
+kbproto-devel
 kbreakout
 kcalc
 kcharselect
@@ -1570,7 +1580,6 @@ libaio1
 libakonadi4
 libakonadiprotocolinternals-devel
 libakonadiprotocolinternals1
-libamd-2_4_1
 libao-devel
 libao-plugins4
 libao4
@@ -1684,7 +1693,6 @@ libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
-libcamd-2_4_1
 libcamel-1_2-52
 libcamgm100
 libcanberra-devel
@@ -1704,7 +1712,6 @@ libcap2-32bit
 libcapi20-3
 libcares2
 libcaribou0
-libccolamd-2_9_1
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
@@ -1722,7 +1729,6 @@ libcheese-common
 libcheese-gtk23
 libcheese7
 libchm0
-libcholmod-3_0_5
 libcloog-isl4
 libclucene-contribs-lib1
 libclucene-core1
@@ -1734,7 +1740,6 @@ libclutter-gtk-1_0-0
 libcmis-0_5-5
 libcogl-pango20
 libcogl20
-libcolamd-2_9_1
 libcollection2
 libcolord-gtk1
 libcolord2
@@ -1931,7 +1936,7 @@ libgirepository-1_0-1
 libgit2-22
 libgjs0
 libglade-2_0-0
-libgladeui-1-11
+libgladeui-2-6
 libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
@@ -1964,8 +1969,6 @@ libgnomekbd-lang
 libgnomesu
 libgnomesu-lang
 libgnomesu0
-libgnomeui
-libgnomeui-lang
 libgnutls-devel
 libgnutls28
 libgoa-1_0-0
@@ -2691,7 +2694,6 @@ libstoken1
 libstorage-ruby
 libstorage5
 libstreamanalyzer0
-libsuitesparseconfig-4_4_4
 libtag-devel
 libtag-extras1
 libtag1
@@ -2741,7 +2743,6 @@ libudev1
 libudev1-32bit
 libudf0
 libudisks2-0
-libumfpack-5_7_1
 libunicap-devel
 libunicap2
 libunistring0
@@ -2776,6 +2777,7 @@ libvcdinfo0
 libvdeplug3
 libvdpau1
 libvdpau_nouveau
+libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
@@ -2798,7 +2800,12 @@ libwacom-data
 libwacom2
 libwavpack1
 libwayland-client0
+libwayland-client0-32bit
+libwayland-cursor0
+libwayland-egl-devel
+libwayland-egl1
 libwayland-server0
+libwayland-server0-32bit
 libwbclient0
 libwbclient0-32bit
 libwbxml2-0
@@ -2841,12 +2848,14 @@ libxcb-dpms0
 libxcb-dri2-0
 libxcb-dri2-0-32bit
 libxcb-dri3-0
+libxcb-dri3-0-32bit
 libxcb-glx0
 libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
 libxcb-present0
+libxcb-present0-32bit
 libxcb-randr0
 libxcb-record0
 libxcb-render-util0
@@ -2858,6 +2867,7 @@ libxcb-shape0
 libxcb-shm0
 libxcb-shm0-32bit
 libxcb-sync1
+libxcb-sync1-32bit
 libxcb-util1
 libxcb-xevie0
 libxcb-xf86dri0
@@ -2887,7 +2897,9 @@ libxml2-2
 libxml2-2-32bit
 libxml2-devel
 libxml2-tools
+libxshmfence-devel
 libxshmfence1
+libxshmfence1-32bit
 libxslt-devel
 libxslt-tools
 libxslt1
@@ -3158,9 +3170,9 @@ orca-lang
 oro
 os-prober
 osc
-oxygen-cursors4
 oxygen-icon-theme
 oxygen5
+oxygen5-cursors
 oxygen5-decoration
 oxygen5-devel
 oxygen5-lang
@@ -3611,6 +3623,8 @@ ppp
 pptp
 pptpd
 prctl
+presentproto-devel
+printproto-devel
 privoxy
 procinfo
 procmail
@@ -3621,11 +3635,13 @@ psmisc
 psmisc-lang
 pstoedit
 psutils
+pthread-stubs-devel
 ptools
 pullin-bcm43xx-firmware
 pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
@@ -3672,7 +3688,6 @@ python-gstreamer-0_10
 python-gtk
 python-gtk-devel
 python-httplib2
-python-javapackages
 python-keyring
 python-ldap
 python-liblarch
@@ -3691,7 +3706,6 @@ python-pycrypto
 python-pycurl
 python-pyserial
 python-pyudev
-python-pyxb
 python-qt4
 python-sip
 python-sip-devel
@@ -3753,6 +3767,7 @@ qwt-devel
 qwt-devel-doc
 qwt-examples
 radvd
+randrproto-devel
 rarpd
 rcc-runtime
 rdesktop
@@ -3760,9 +3775,12 @@ re2c
 readline-devel
 readline-doc
 recode
+recordproto-devel
 regexp
 reiserfs
 rendercheck
+renderproto-devel
+resourceproto-devel
 rgb
 rhino
 ripit
@@ -3814,6 +3832,7 @@ sbl
 scons
 scout
 screen
+scrnsaverproto-devel
 sddm
 sddm-branding-openSUSE
 seahorse
@@ -3993,6 +4012,7 @@ translation-update-zh_TW
 transmission-common
 transmission-gtk
 transmission-gtk-lang
+trapproto-devel
 tre
 tre-lang
 tuned
@@ -4123,6 +4143,7 @@ vcdimager
 vdr
 vhba-kmp-default
 vhba-kmp-xen
+videoproto-devel
 viewnior
 viewnior-lang
 viewres
@@ -4148,6 +4169,7 @@ vte-lang
 vym
 w3m
 wallpaper-branding-openSUSE
+wayland-devel
 webkit2gtk-4_0-injected-bundles
 wget
 which
@@ -4178,6 +4200,7 @@ xbitmaps
 xbitmaps-devel
 xbrlapi
 xcalc
+xcb-proto-devel
 xcb-util-devel
 xclipboard
 xclock
@@ -4209,6 +4232,7 @@ xerces-j2
 xerces-j2-xml-apis
 xerces-j2-xml-resolver
 xev
+xextproto-devel
 xeyes
 xf86-input-evdev
 xf86-input-joystick
@@ -4230,10 +4254,10 @@ xf86-video-i128
 xf86-video-intel
 xf86-video-mach64
 xf86-video-mga
-xf86-video-modesetting
 xf86-video-neomagic
 xf86-video-nouveau
 xf86-video-nv
+xf86-video-qxl
 xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion
@@ -4246,6 +4270,10 @@ xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
 xf86dga
+xf86dgaproto-devel
+xf86driproto-devel
+xf86miscproto-devel
+xf86vidmodeproto-devel
 xfd
 xfindproxy
 xfontsel
@@ -4258,6 +4286,7 @@ xgamma
 xgc
 xhost
 xhtml-dtd
+xineramaproto-devel
 xinetd
 xinit
 xinput
@@ -4310,7 +4339,6 @@ xorg-x11-essentials
 xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache
-xorg-x11-proto-devel
 xorg-x11-server
 xorg-x11-server-extra
 xorg-x11-server-sdk
@@ -4322,6 +4350,7 @@ xplsprinters
 xpr
 xprehashprinterlist
 xprop
+xproto-devel
 xrandr
 xrdb
 xrefresh
