@@ -575,6 +575,7 @@ libqt5-qtimageformats
 librcc0
 librcd0
 libreadline6
+libregistry0
 libreiserfscore0
 librest0
 librsvg-2-2
@@ -593,7 +594,7 @@ libselinux1
 libsemanage1
 libsepol1
 libsexy
-libsgutils2-1_40-2
+libsgutils2-1_41-2
 libsigc-2_0-0
 libslang2
 libsmartcols1
@@ -671,7 +672,6 @@ libwicked-0-6
 libwnck-1-22
 libwnck2-lang
 libwrap0
-libx86-1
 libx86emu1
 libxatracker2
 libxcb-dri2-0
@@ -865,7 +865,6 @@ plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
-pm-utils
 polkit
 polkit-default-privs
 polkit-gnome
@@ -909,7 +908,9 @@ ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-dbus
 ruby2.2-stdlib
 s2tc
+samba-client
 samba-libs
+samba-winbind
 sbl
 scout
 sed
@@ -928,7 +929,6 @@ spice-vdagent
 strace
 sudo
 suse-module-tools
-suspend
 sysconfig
 sysconfig-netconfig
 sysfsutils
