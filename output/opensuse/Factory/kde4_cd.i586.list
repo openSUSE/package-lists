@@ -600,7 +600,7 @@ libdconf1
 libdhash1
 libdialog12
 libdmtx0
-libdns160
+libdns161
 libdns_sd
 libdrm2
 libdrm_intel1
@@ -1296,13 +1296,18 @@ python
 python-CherryPy
 python-base
 python-bottle
+python-cffi
 python-configobj
+python-cryptography
 python-cups
 python-cupshelpers
 python-decorator
+python-enum34
 python-gobject
 python-gobject-cairo
 python-keyring
+python-pyOpenSSL
+python-pycparser
 python-pycurl
 python-pyudev
 python-simplejson

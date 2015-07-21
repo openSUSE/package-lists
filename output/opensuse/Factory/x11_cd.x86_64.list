@@ -352,7 +352,7 @@ libdb-4_8
 libdbus-1-3
 libdconf1
 libdialog12
-libdns160
+libdns161
 libdns_sd
 libdrm2
 libdrm_intel1
@@ -837,10 +837,15 @@ psmisc
 pullin-bcm43xx-firmware
 python
 python-base
+python-cffi
 python-configobj
+python-cryptography
 python-decorator
+python-enum34
 python-gobject
 python-gobject-cairo
+python-pyOpenSSL
+python-pycparser
 python-pyudev
 python-six
 python-smbios

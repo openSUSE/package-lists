@@ -1720,7 +1720,7 @@ libdmapsharing-3_0-2
 libdmtx0
 libdmx-devel
 libdmx1
-libdns160
+libdns161
 libdns_sd
 libdotconf0
 libdrm-devel
@@ -3231,7 +3231,6 @@ perl-Net-CIDR-Lite
 perl-Net-DBus
 perl-Net-DNS
 perl-Net-HTTP
-perl-Net-IP
 perl-Net-LibIDN
 perl-Net-Patricia
 perl-Net-SMTP-SSL
@@ -3245,7 +3244,6 @@ perl-RPC-XML
 perl-Readonly
 perl-Socket6
 perl-Sub-Uplevel
-perl-Sys-Hostname-Long
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
@@ -3391,8 +3389,10 @@ python-beautifulsoup
 python-boto
 python-bottle
 python-cairo
+python-cffi
 python-cloudfiles
 python-configobj
+python-cryptography
 python-cssselect
 python-cups
 python-cupshelpers
@@ -3403,6 +3403,7 @@ python-deltarpm
 python-devel
 python-dnspython
 python-ecdsa
+python-enum34
 python-gconf
 python-gobject
 python-gobject-cairo
@@ -3419,7 +3420,9 @@ python-lxml
 python-numpy
 python-opensync
 python-paramiko
+python-pyOpenSSL
 python-pybluez
+python-pycparser
 python-pycrypto
 python-pycurl
 python-pyudev

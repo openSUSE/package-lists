@@ -689,7 +689,7 @@ libdialog12
 libdleyna-core-1_0-4
 libdmapsharing-3_0-2
 libdmx1
-libdns160
+libdns161
 libdns_sd
 libdotconf0
 libdrm2
@@ -1518,13 +1518,16 @@ python-base
 python-beautifulsoup
 python-boto
 python-bottle
+python-cffi
 python-cloudfiles
 python-configobj
+python-cryptography
 python-cssselect
 python-cups
 python-cupshelpers
 python-decorator
 python-ecdsa
+python-enum34
 python-gobject
 python-gobject-cairo
 python-httplib2
@@ -1532,6 +1535,8 @@ python-javapackages
 python-lockfile
 python-lxml
 python-paramiko
+python-pyOpenSSL
+python-pycparser
 python-pycrypto
 python-pycurl
 python-pyudev
