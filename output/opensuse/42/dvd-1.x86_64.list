@@ -115,6 +115,7 @@ ant-junit
 ant-manual
 ant-scripts
 ant-swing
+anthy
 antlr
 antlr-devel
 antlr-java
@@ -474,6 +475,8 @@ evolution-plugin-bogofilter
 evolution-plugin-spamassassin
 exif
 exiftool
+exo-lang
+exo-tools
 expat
 expect
 extra-cmake-modules
@@ -929,6 +932,7 @@ hylafax+-client
 hyper-v
 i4l-isdnlog
 ibus
+ibus-anthy
 ibus-branding-openSUSE-KDE
 ibus-gtk
 ibus-gtk-32bit
@@ -1841,6 +1845,8 @@ libexif-devel
 libexif12
 libexiv2-13
 libexiv2-devel
+libexo-1-0
+libexo-1-0-branding-upstream
 libexpat-devel
 libexpat1
 libexpat1-32bit
@@ -1864,6 +1870,9 @@ libfipscheck1-32bit
 libfli-devel
 libfli1
 libfltk1
+libfm-extra4
+libfm-gtk4
+libfm4
 libfolks-data
 libfolks-eds25
 libfolks-telepathy25
@@ -2144,6 +2153,7 @@ libkdepimlibs4-devel
 libkerfuffle4
 libkexiv2-11
 libkexiv2-devel
+libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
 libkf5kdegames6
@@ -2221,6 +2231,7 @@ libltdl7
 libltdl7-32bit
 liblua5_1
 liblua5_2
+liblxpanel0
 liblzma5
 liblzma5-32bit
 liblzo2-2
@@ -2234,6 +2245,7 @@ libmediaart-1_0-0
 libmediaart-2_0-0
 libmediawiki-devel
 libmediawiki1
+libmenu-cache3
 libmhash2
 libminiupnpc10
 libmission-control-plugins0
@@ -2260,6 +2272,7 @@ libmpc3
 libmpcdec-devel
 libmpcdec5
 libmpfr4
+libmspack0
 libmspub-0_1-1
 libmtdev1
 libmtp-devel
@@ -2824,9 +2837,11 @@ libwebrtc_audio_processing0
 libwicked-0-6
 libwmf-0_2-7
 libwmf-tools
+libwnck-1-22
 libwnck-3-0
 libwnck-devel
 libwnck-lang
+libwnck2-lang
 libwpd-0_10-10
 libwpd-devel
 libwpg-0_3-3
@@ -2834,6 +2849,19 @@ libwpg-devel
 libwps-0_3-3
 libwrap0
 libwv2-4
+libwx_baseu-2_8-0-stl
+libwx_baseu_net-2_8-0-stl
+libwx_baseu_xml-2_8-0-stl
+libwx_gtk2u_adv-2_8-0-stl
+libwx_gtk2u_aui-2_8-0-stl
+libwx_gtk2u_core-2_8-0-stl
+libwx_gtk2u_gizmos-2_8-0-stl
+libwx_gtk2u_gl-2_8-0-stl
+libwx_gtk2u_html-2_8-0-stl
+libwx_gtk2u_media-2_8-0-stl
+libwx_gtk2u_richtext-2_8-0-stl
+libwx_gtk2u_stc-2_8-0-stl
+libwx_gtk2u_xrc-2_8-0-stl
 libx86emu1
 libxapian-devel
 libxapian22
@@ -2880,6 +2908,13 @@ libxcb-xvmc0
 libxcb1
 libxcb1-32bit
 libxerces-c-3_1
+libxfce4ui-1-0
+libxfce4ui-2-0
+libxfce4ui-lang
+libxfce4ui-tools
+libxfce4util-lang
+libxfce4util7
+libxfconf-0-2
 libxine-devel
 libxine2
 libxine2-pulse
@@ -2956,6 +2991,9 @@ lxde-common-branding-openSUSE
 lxinput
 lxinput-lang
 lxmenu-data
+lxpanel
+lxpanel-lang
+lxpanel-plugin-power-manager
 lxrandr
 lxrandr-lang
 lxtask
@@ -2996,6 +3034,7 @@ mdadm
 meanwhile-devel
 media-player-info
 memtest86+
+menu-cache
 metamail
 metatheme-adwaita-common
 metatheme-sonar-common
@@ -3708,6 +3747,8 @@ python-six
 python-smbios
 python-solv
 python-urlgrabber
+python-wxWidgets
+python-wxWidgets-lang
 python-xcb-proto-devel
 python-xdg
 python-xlib
@@ -4180,6 +4221,7 @@ wqy-microhei-fonts
 wsdl4j
 wv2-devel
 wwwoffle
+wxWidgets-lang
 x11-japanese-bitmap-fonts
 x11-tools
 x11perf
@@ -4262,6 +4304,12 @@ xf86dgaproto-devel
 xf86driproto-devel
 xf86miscproto-devel
 xf86vidmodeproto-devel
+xfce4-power-manager
+xfce4-power-manager-lang
+xfce4-screenshooter
+xfce4-screenshooter-lang
+xfconf
+xfconf-lang
 xfd
 xfindproxy
 xfontsel
