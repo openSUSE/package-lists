@@ -979,6 +979,7 @@ inkscape-extensions-dia
 inkscape-extensions-extra
 inkscape-extensions-fig
 inkscape-extensions-gimp
+inkscape-extensions-skencil
 inkscape-lang
 inn
 input-utils
@@ -1137,7 +1138,6 @@ kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
-kernel-syms
 kernel-xen
 kernel-xen-devel
 kexec-tools
@@ -3079,7 +3079,6 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
-mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -3537,8 +3536,6 @@ perl-libxml-perl
 perl-razor-agents
 perl-solv
 permissions
-pesign
-pesign-obs-integration
 pfstools
 phalanx
 phonon-backend-gstreamer
@@ -3703,6 +3700,7 @@ pytalloc
 pytalloc-32bit
 python
 python-M2Crypto
+python-Pillow
 python-Twisted
 python-atspi
 python-base
@@ -3734,7 +3732,17 @@ python-gstreamer-0_10
 python-gtk
 python-gtk-devel
 python-httplib2
+python-kde4
+python-kde4-akonadi
+python-kde4-devel
+python-kde4-doc
+python-kde4-khtml
+python-kde4-knewstuff
+python-kde4-phonon
+python-kde4-plasma
+python-kdebase4
 python-keyring
+python-lcms
 python-ldap
 python-liblarch
 python-liblarch_gtk
@@ -3753,6 +3761,8 @@ python-pycurl
 python-pyserial
 python-pyudev
 python-qt4
+python-qt4-devel
+python-qt4-utils
 python-sip
 python-sip-devel
 python-six
@@ -3914,6 +3924,7 @@ silc-toolkit
 simple-scan
 simple-scan-lang
 site-config
+sk1
 skanlite
 skanlite-doc
 skanlite-lang
