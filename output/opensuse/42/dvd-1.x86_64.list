@@ -210,7 +210,6 @@ bash
 bash-completion
 bash-doc
 bash-lang
-bbswitch-kmp-default
 bc
 bcel
 bdftopcf
@@ -906,7 +905,6 @@ hamcrest
 hardlink
 harfbuzz-devel
 haveged
-hdjmod-kmp-default
 hdparm
 help2man
 hfsutils
@@ -992,7 +990,6 @@ ipa-mincho-fonts
 ipa-pgothic-fonts
 ipa-pmincho-fonts
 iproute2
-ipset-kmp-default
 iptables
 iptraf-ng
 iputils
@@ -1122,13 +1119,16 @@ kdump
 keditbookmarks
 kemoticons-devel
 kernel-default
+kernel-default-devel
 kernel-desktop
 kernel-desktop-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pv-devel
 kernel-source
+kernel-syms
 kernel-xen
 kernel-xen-devel
 kexec-tools
@@ -1858,7 +1858,6 @@ libfam0-gamin
 libfarstream-0_2-5
 libfaxutil5_5_5
 libfbembed2_5
-libfdt1
 libffi4
 libffi4-32bit
 libffi48-devel
@@ -2791,7 +2790,6 @@ libva-x11-1
 libva1
 libvala-0_28-0
 libvcdinfo0
-libvdeplug3
 libvdpau1
 libvdpau_nouveau
 libvdpau_r300
@@ -3078,6 +3076,7 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
+mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -3343,7 +3342,6 @@ patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
-pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -3533,6 +3531,8 @@ perl-libxml-perl
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfstools
 phalanx
 phonon-backend-gstreamer
@@ -3795,19 +3795,9 @@ python3-xdg
 qalculate
 qdox
 qemu
-qemu-arm
 qemu-block-curl
-qemu-extra
-qemu-ipxe
-qemu-kvm
 qemu-lang
-qemu-ppc
-qemu-s390
-qemu-seabios
-qemu-sgabios
 qemu-tools
-qemu-vgabios
-qemu-x86
 qhull
 qhull-devel
 qoauth-devel
@@ -4198,7 +4188,6 @@ valgrind
 valgrind-devel
 vcdimager
 vdr
-vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -4208,12 +4197,6 @@ vim-data
 vim-plugin-devhelp
 vino
 vino-lang
-virtualbox
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
-virtualbox-host-kmp-default
-virtualbox-qt
 vlan
 vlock
 vorbis-tools
@@ -4282,6 +4265,7 @@ xedit
 xen
 xen-doc-html
 xen-kmp-default
+xen-kmp-desktop
 xen-libs
 xen-tools
 xerces-j2
@@ -4440,7 +4424,6 @@ xslide
 xsm
 xstdcmap
 xstroke
-xtables-addons-kmp-default
 xtables-plugins
 xterm
 xtermset
