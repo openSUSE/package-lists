@@ -533,7 +533,6 @@ dhcp-doc
 dhcp-relay
 dhcp-server
 dhcp-tools
-dhcpcd
 dia
 dia-lang
 dialog
@@ -566,6 +565,9 @@ dosfstools
 doxygen
 dracut
 dragonplayer
+drbd-kmp-default
+drbd-kmp-desktop
+drbd-kmp-xen
 dri2proto-devel
 dri3proto-devel
 drkonqi5
@@ -604,7 +606,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -1291,6 +1292,7 @@ jakarta-taglibs-standard
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_8_0-openjdk
+java-1_8_0-openjdk-devel
 java-1_8_0-openjdk-headless
 java-1_8_0-openjdk-plugin
 javacc
@@ -2518,8 +2520,8 @@ libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
-libhdf5-9
-libhdf5_hl9
+libhdf5-10
+libhdf5_hl10
 libhogweed4
 libhogweed4-32bit
 libhyphen0
@@ -3213,6 +3215,7 @@ libspeechd-devel
 libspeechd2
 libspeex1
 libspeex1-32bit
+libspeexdsp1
 libspice-client-glib-2_0-8
 libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
@@ -4478,6 +4481,7 @@ pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
