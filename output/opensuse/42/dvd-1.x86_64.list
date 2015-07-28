@@ -579,6 +579,8 @@ gedit-lang
 gedit-plugin-devhelp
 gegl-0_2
 gegl-0_2-lang
+gegl-0_3
+gegl-0_3-lang
 genisoimage
 geoclue
 geoclue-recommended
@@ -701,6 +703,7 @@ gnome-online-accounts-lang
 gnome-online-miners
 gnome-packagekit
 gnome-packagekit-lang
+gnome-photos
 gnome-power-manager
 gnome-power-manager-lang
 gnome-pty-helper
@@ -722,6 +725,7 @@ gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
+gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
@@ -1644,6 +1648,8 @@ libavahi-devel
 libavahi-glib1
 libavahi-gobject0
 libavc1394-0
+libavcodec56
+libavformat56
 libavutil54
 libbabl-0_1-0
 libbaloofiles4
@@ -1937,6 +1943,7 @@ libgdk_pixbuf-2_0-0-32bit
 libgdm1
 libgee-0_8-2
 libgegl-0_2-0
+libgegl-0_3-0
 libgensec0
 libgensec0-32bit
 libgeoclue0
@@ -2109,6 +2116,8 @@ libimobiledevice6
 libini_config3
 libiniparser0
 libiniparser0-32bit
+libinput-udev
+libinput10
 libiodbc-devel
 libiodbc3
 libiptc0
@@ -3794,8 +3803,11 @@ python-zope.interface
 python3
 python3-atspi
 python3-base
+python3-bottle
 python3-brlapi
 python3-cairo
+python3-coverage
+python3-cups
 python3-curses
 python3-dbm
 python3-gedit
@@ -3803,8 +3815,13 @@ python3-gobject
 python3-gobject-cairo
 python3-gobject-devel
 python3-louis
+python3-nose
 python3-pip
+python3-py
+python3-pycurl
+python3-requests
 python3-setuptools
+python3-simplejson
 python3-smbc
 python3-speechd
 python3-tk
@@ -3992,6 +4009,8 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+system-config-printer
+system-config-printer-applet
 system-config-printer-common
 system-config-printer-common-lang
 system-config-printer-dbus-service
