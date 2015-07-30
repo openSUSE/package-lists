@@ -96,6 +96,7 @@ alsa-plugins-pulse
 alsa-utils
 amarok
 amarok-lang
+amavisd-new-docs
 amor
 android-tools
 ant
@@ -305,6 +306,7 @@ chmlib-devel
 choqok
 cifs-utils
 cim-schema
+clamav
 clamz
 clicfs
 cln
@@ -440,6 +442,7 @@ dvd+rw-tools
 dynamic-wallpaper-branding-openSUSE
 e2fsprogs
 e2fsprogs-devel
+ebtables
 ed
 editres
 eekboard
@@ -758,6 +761,7 @@ gnome-web-photo-lang
 gnu-free-fonts
 gnu-jaf
 gnu-unifont-bitmap-fonts
+gnutls
 gobject-introspection
 gobject-introspection-devel
 goffice-0_8-lang
@@ -1818,6 +1822,7 @@ libdmtx-devel
 libdmtx0
 libdmx-devel
 libdmx1
+libdnet1
 libdns_sd
 libdotconf0
 libdrm-devel
@@ -2346,6 +2351,7 @@ libneon27
 libnet9
 libnetapi0
 libnetapi0-32bit
+libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm-devel
 libnetpbm11
@@ -2831,9 +2837,30 @@ libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
 libvigraimpex5
+libvirt
+libvirt-client
+libvirt-daemon
+libvirt-daemon-config-network
+libvirt-daemon-config-nwfilter
+libvirt-daemon-driver-interface
+libvirt-daemon-driver-libxl
+libvirt-daemon-driver-lxc
+libvirt-daemon-driver-network
+libvirt-daemon-driver-nodedev
+libvirt-daemon-driver-nwfilter
+libvirt-daemon-driver-qemu
+libvirt-daemon-driver-secret
+libvirt-daemon-driver-storage
+libvirt-daemon-driver-uml
+libvirt-daemon-driver-vbox
+libvirt-daemon-qemu
+libvirt-daemon-xen
+libvirt-glib-1_0-0
+libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
+libvmtools0
 libvncclient0
 libvncserver0
 libvorbis-devel
@@ -3190,6 +3217,7 @@ ntfsprogs
 ntp
 ntp-doc
 numactl
+numad
 numlockx
 nuoveXT2-icon-theme
 nxtvepg
@@ -3211,6 +3239,8 @@ okteta-devel
 okular
 open-iscsi
 open-isns
+open-vm-tools
+open-vm-tools-desktop
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
@@ -3741,6 +3771,7 @@ python-Twisted
 python-atspi
 python-base
 python-beautifulsoup
+python-bonobo
 python-cairo
 python-cairo-devel
 python-cffi
@@ -3757,7 +3788,12 @@ python-devel
 python-doc
 python-enum34
 python-fcgi
+python-gconf
 python-gdbm
+python-gnome
+python-gnome-devel
+python-gnomecanvas
+python-gnomevfs
 python-gobject
 python-gobject-cairo
 python-gobject-devel
@@ -3768,6 +3804,7 @@ python-gstreamer-0_10
 python-gtk
 python-gtk-devel
 python-httplib2
+python-ipaddr
 python-kde4
 python-kde4-akonadi
 python-kde4-devel
@@ -3787,6 +3824,7 @@ python-lockfile
 python-lxml
 python-numpy
 python-opensync
+python-orbit
 python-pam
 python-pyOpenSSL
 python-pyasn1
@@ -4179,6 +4217,8 @@ typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
+typelib-1_0-Libosinfo-1_0
+typelib-1_0-LibvirtGLib-1_0
 typelib-1_0-MediaArt-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
@@ -4214,6 +4254,7 @@ ucode-amd
 ucode-intel
 udev
 udev-configure-printer
+udhcp
 udisks2
 udisks2-lang
 uget
@@ -4259,6 +4300,9 @@ vim-data
 vim-plugin-devhelp
 vino
 vino-lang
+virt-install
+virt-manager
+virt-manager-common
 virtualbox
 virtualbox-guest-kmp-default
 virtualbox-guest-kmp-desktop
@@ -4269,6 +4313,7 @@ virtualbox-host-kmp-desktop
 virtualbox-qt
 vlan
 vlock
+vm-install
 vorbis-tools
 vorbis-tools-lang
 vpnc
