@@ -1,6 +1,7 @@
 ConsoleKit
 ConsoleKit-32bit
 ConsoleKit-x11
+FastCGI
 GraphicsMagick-devel
 ImageMagick
 ImageMagick-devel
@@ -296,6 +297,12 @@ ca-certificates
 ca-certificates-mozilla
 cairo-devel
 cal10n
+calligra
+calligra-doc
+calligra-extras-dolphin
+calligra-extras-okular
+calligra-stage
+calligra-words-common
 canberra-gtk-play
 cantarell-fonts
 caribou
@@ -312,6 +319,7 @@ cdrdao
 cdrkit-cdrtools-compat
 cellwriter
 cfitsio-devel
+chasen
 checkmedia
 cheese
 cheese-lang
@@ -319,6 +327,7 @@ chmlib-devel
 choqok
 cifs-utils
 cim-schema
+ckermit
 clamav
 clamz
 clicfs
@@ -351,6 +360,9 @@ cpupower
 cracklib
 cracklib-dict-full
 cracklib-dict-small
+crash-kmp-default
+crash-kmp-desktop
+crash-kmp-xen
 crda
 createrepo
 cron
@@ -359,6 +371,7 @@ cryptconfig
 cryptconfig-32bit
 cryptsetup
 cscope
+csmash
 ctags
 cups
 cups-backends
@@ -382,6 +395,8 @@ cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
 damageproto-devel
+dar
+dar-lang
 dasher
 dasher-data-extras
 dasher-data-recommended
@@ -453,6 +468,9 @@ dos2unix
 dosfstools
 doxygen
 dracut
+drbd-kmp-default
+drbd-kmp-desktop
+drbd-kmp-xen
 dri2proto-devel
 dri3proto-devel
 drkonqi5
@@ -550,6 +568,7 @@ fslsfonts
 fstobdf
 ft2demos
 fuse
+fvwm-themes
 fvwm2
 g3utils
 galculator
@@ -953,6 +972,8 @@ hdjmod-kmp-desktop
 hdjmod-kmp-xen
 hdparm
 help2man
+hexchat
+hexchat-lang
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -1063,6 +1084,7 @@ ipa-gothic-fonts
 ipa-mincho-fonts
 ipa-pgothic-fonts
 ipa-pmincho-fonts
+ipadic
 iproute2
 ipset-kmp-default
 ipset-kmp-desktop
@@ -1187,6 +1209,7 @@ kde-l10n-zh_CN
 kde-l10n-zh_TW
 kde-oxygen-fonts
 kde4-filesystem
+kde4-l10n-devel
 kdeartwork4-decorations
 kdeartwork4-screensaver
 kdebase4-libkonq
@@ -1200,6 +1223,7 @@ kdeclarative-devel
 kded
 kded-devel
 kded-lang
+kdeedu-data
 kdegames-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -1431,6 +1455,7 @@ libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libImath-2_1-11
 libImlib2-1
+libKEduVocDocument5
 libKF5Activities5
 libKF5Activities5-lang
 libKF5Archive5
@@ -1595,6 +1620,8 @@ libQtWebKit4
 libSDL-1_2-0
 libSDL-devel
 libSDL_gfx15
+libSDL_image-1_2-0
+libSDL_mixer-1_2-0
 libSM-devel
 libSM6
 libSM6-32bit
@@ -1753,6 +1780,8 @@ libavahi-core7
 libavahi-devel
 libavahi-glib1
 libavahi-gobject0
+libavahi-qt4-1
+libavahi-qt4-devel
 libavc1394-0
 libavcodec56
 libavformat56
@@ -1890,6 +1919,7 @@ libcue1
 libcurl-devel
 libcurl4
 libdaemon0
+libdar5000
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
@@ -1984,7 +2014,7 @@ libexttextcat-2_0-0
 libfallocate0
 libfam0-gamin
 libfarstream-0_2-5
-libfaxutil5_5_5
+libfaxutil5_5_6
 libfbembed2_5
 libfdt1
 libffi4
@@ -2243,8 +2273,6 @@ libieee1284
 libimobiledevice-devel
 libimobiledevice6
 libini_config3
-libiniparser0
-libiniparser0-32bit
 libinput-udev
 libinput10
 libiodbc-devel
@@ -2391,6 +2419,8 @@ liblzma5-32bit
 liblzo2-2
 libm17n0
 libmagic1
+libmal-devel
+libmal1
 libmarblewidget21
 libmate-desktop-2-17
 libmbim-glib4
@@ -2402,6 +2432,7 @@ libmediawiki-devel
 libmediawiki1
 libmenu-cache3
 libmhash2
+libmikmod3
 libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
@@ -2552,8 +2583,6 @@ libpcre16-0
 libpcrecpp0
 libpcreposix0
 libpcsclite1
-libpdb0
-libpdb0-32bit
 libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-lang
@@ -2591,6 +2620,7 @@ libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit-qt5-1-devel
 libpolkit0
+libpoppler-cpp0
 libpoppler-devel
 libpoppler-glib8
 libpoppler-qt4-4
@@ -2774,6 +2804,8 @@ libsamba-credentials0
 libsamba-credentials0-32bit
 libsamba-hostconfig0
 libsamba-hostconfig0-32bit
+libsamba-passdb0
+libsamba-passdb0-32bit
 libsamba-util0
 libsamba-util0-32bit
 libsamdb0
@@ -2822,7 +2854,7 @@ libsmi
 libsmi2
 libsmokegen-devel
 libsmputils1-1
-libsnapper2
+libsnapper3
 libsnappy1
 libsndfile-devel
 libsndfile1
@@ -2853,6 +2885,7 @@ libspeex1
 libspeex1-32bit
 libspeexdsp1
 libspice-server1
+libspnav0
 libsqlite3-0
 libsqlite3-0-32bit
 libssh-devel
@@ -3020,6 +3053,7 @@ libwebkitgtk2-lang
 libwebkitgtk3-lang
 libwebp-devel
 libwebp5
+libwebpdecoder1
 libwebpdemux1
 libwebpmux1
 libwebrtc_audio_processing0
@@ -3207,6 +3241,7 @@ lzip
 lzop
 m17n-db
 m4
+mailman
 mailx
 make
 makedepend
@@ -3243,6 +3278,8 @@ mgetty
 mhash-devel
 milou5
 milou5-lang
+minicom
+minicom-lang
 mirror
 mjpegtools
 mkcomposecache
@@ -3356,6 +3393,7 @@ numad
 numlockx
 nuoveXT2-icon-theme
 nxtvepg
+obconf
 obs-service-download_files
 obs-service-format_spec_file
 obs-service-recompress
@@ -3452,6 +3490,7 @@ pango-tools-32bit
 par
 parallel-printer-support
 parcellite
+parley
 parted
 patch
 patchutils
@@ -3580,11 +3619,14 @@ perl-Business-ISBN
 perl-Business-ISBN-Data
 perl-CDDB_get
 perl-CGI-Application
+perl-Cairo
 perl-Carp-Assert
 perl-Carp-Clan
 perl-Chart
+perl-Class-Accessor
 perl-Class-Data-Inheritable
 perl-Class-ISA
+perl-Class-Inspector
 perl-Class-MethodMaker
 perl-Class-Multimethods
 perl-Class-Singleton
@@ -3603,6 +3645,7 @@ perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
 perl-Crypt-Rijndael
 perl-Crypt-SmbHash
+perl-DBD-CSV
 perl-DBD-ODBC
 perl-DBD-Pg
 perl-DBD-SQLite
@@ -3625,6 +3668,7 @@ perl-Error
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
 perl-ExtUtils-PkgConfig
+perl-FastCGI
 perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
@@ -3634,6 +3678,7 @@ perl-File-Type
 perl-FileHandle-Unget
 perl-Font-AFM
 perl-GD
+perl-GDGraph
 perl-GDTextUtil
 perl-HTML-Clean
 perl-HTML-FillInForm
@@ -3650,6 +3695,7 @@ perl-HTTP-Message
 perl-HTTP-Negotiate
 perl-HTTPS-Daemon
 perl-IO-HTML
+perl-IO-SessionData
 perl-IO-Socket-INET6
 perl-IO-Socket-IP
 perl-IO-Socket-SSL
@@ -3662,6 +3708,7 @@ perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
 perl-JSON
+perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-List-MoreUtils
@@ -3706,20 +3753,24 @@ perl-RPC-XML
 perl-Readonly
 perl-SGMLS
 perl-SNMP
+perl-SOAP-Lite
 perl-SQL-Statement
 perl-SVN-Simple
 perl-Set-Crontab
 perl-Set-Object
 perl-Set-Scalar
 perl-Socket6
+perl-Sub-Name
 perl-Sub-Uplevel
 perl-Sys-Hostname-Long
+perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
 perl-Test-Exception
 perl-Test-LeakTrace
 perl-Text-CSV_XS
+perl-Text-ChaSen
 perl-Text-DelimMatch
 perl-Text-Iconv
 perl-Text-Kakasi
@@ -3730,6 +3781,7 @@ perl-Time-Duration
 perl-Time-Period
 perl-Time-modules
 perl-TimeDate
+perl-Types-Serialiser
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
@@ -3759,6 +3811,7 @@ perl-YAML-LibYAML
 perl-apparmor
 perl-base
 perl-camgm
+perl-common-sense
 perl-doc
 perl-gettext
 perl-ldap
@@ -3955,6 +4008,7 @@ python-dateutil
 python-decorator
 python-deltarpm
 python-devel
+python-dnspython
 python-doc
 python-ecdsa
 python-enum34
@@ -4096,6 +4150,9 @@ recode
 recordproto-devel
 regexp
 reiserfs
+rekonq
+rekonq-doc
+rekonq-lang
 rendercheck
 renderproto-devel
 resourceproto-devel
@@ -4110,6 +4167,8 @@ rpm-devel
 rpm-python
 rrdtool
 rsh
+rsibreak
+rsibreak-lang
 rstart
 rsync
 rsyslog
@@ -4126,6 +4185,7 @@ ruby2.1-stdlib
 runvdr-extreme-systemd
 rxvt-unicode
 rzip
+rzsz
 s2tc
 s2tc-32bit
 sablot
