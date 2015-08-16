@@ -55,6 +55,7 @@ OpenPrintingPPDs-ghostscript
 OpenPrintingPPDs-hpijs
 OpenPrintingPPDs-postscript
 PackageKit
+PackageKit-Qt-devel
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-browser-plugin
@@ -197,6 +198,7 @@ autoconf-archive
 autoconf-el
 autofs
 automake
+automoc4
 autotrace
 autoyast2-installation
 avahi
@@ -447,6 +449,7 @@ dleyna-renderer
 dleyna-server
 dmidecode
 dmraid
+dmxproto-devel
 dmz-icon-theme-cursors
 dnsmasq
 docbook-dsssl-stylesheets
@@ -538,6 +541,8 @@ flac-devel
 flex
 flute
 folks-lang
+font-util
+fontcacheproto-devel
 fontconfig
 fontconfig-32bit
 fontconfig-devel
@@ -584,6 +589,7 @@ gcc48-info
 gcc48-java
 gcc48-locale
 gcc48-objc
+gccmakedep
 gcolor2
 gconf-editor
 gconf-editor-lang
@@ -809,6 +815,8 @@ gpg2
 gpg2-lang
 gpgme
 gpm
+gpsd
+gpsd-devel
 gptfdisk
 grantlee-devel
 graphviz
@@ -1038,6 +1046,7 @@ id3v2
 ifplugd
 iftop
 ilmbase-devel
+imake
 indent
 indic-fonts
 info
@@ -1213,6 +1222,7 @@ kdegames-carddecks-default
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
+kdelibs4-doc
 kdelibs4support
 kdelibs4support-devel
 kdelibs4support-lang
@@ -1599,6 +1609,7 @@ libQt5Xml-devel
 libQt5Xml5
 libQt5XmlPatterns5
 libQtQuick5
+libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
 libSDL-devel
@@ -1616,12 +1627,17 @@ libX11-devel
 libX11-xcb1
 libX11-xcb1-32bit
 libXRes1
+libXScrnSaver-devel
+libXTrap-devel
 libXTrap6
 libXau-devel
 libXau6
 libXau6-32bit
+libXaw-devel
 libXaw3d8
+libXaw6
 libXaw7
+libXaw8
 libXcomposite-devel
 libXcomposite1
 libXcomposite1-32bit
@@ -1633,6 +1649,7 @@ libXdamage1
 libXdamage1-32bit
 libXdmcp-devel
 libXdmcp6
+libXevie-devel
 libXevie1
 libXext-devel
 libXext6
@@ -1640,7 +1657,9 @@ libXext6-32bit
 libXfixes-devel
 libXfixes3
 libXfixes3-32bit
+libXfont-devel
 libXfont1
+libXfontcache-devel
 libXfontcache1
 libXft-devel
 libXft2
@@ -1659,6 +1678,8 @@ libXp-devel
 libXp6
 libXpm-devel
 libXpm4
+libXprintAppUtil-devel
+libXprintAppUtil1
 libXprintUtil-devel
 libXprintUtil1
 libXrandr-devel
@@ -1673,12 +1694,16 @@ libXss1-32bit
 libXt-devel
 libXt6
 libXt6-32bit
+libXtst-devel
 libXtst6
 libXv-devel
 libXv1
 libXv1-32bit
+libXvMC-devel
 libXvMC1
+libXxf86dga-devel
 libXxf86dga1
+libXxf86misc-devel
 libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
@@ -1692,6 +1717,7 @@ libadns1
 libaio-devel
 libaio1
 libakonadi4
+libakonadiprotocolinternals-devel
 libakonadiprotocolinternals1
 libao-devel
 libao-plugins4
@@ -1746,6 +1772,8 @@ libavahi-core7
 libavahi-devel
 libavahi-glib1
 libavahi-gobject0
+libavahi-qt4-1
+libavahi-qt4-devel
 libavc1394-0
 libavcodec56
 libavformat56
@@ -1909,6 +1937,7 @@ libdleyna-core-1_0-4
 libdlm3
 libdmtx-devel
 libdmtx0
+libdmx-devel
 libdmx1
 libdnet1
 libdns_sd
@@ -1963,6 +1992,7 @@ libexempi3
 libexif-devel
 libexif12
 libexiv2-13
+libexiv2-devel
 libexo-1-0
 libexo-1-0-branding-openSUSE
 libexpat-devel
@@ -2273,21 +2303,28 @@ libkactivities6
 libkate1
 libkatepartinterfaces4
 libkcddb4
+libkcddb4-devel
 libkcompactdisc4
+libkcompactdisc4-devel
+libkdcraw-devel
 libkdcraw23
 libkde4
+libkde4-devel
 libkdecoration2-devel
 libkdecorations2-5
 libkdecorations2private5
 libkdecore4
+libkdecore4-devel
 libkdegames
 libkdegames-devel
 libkdegames4
 libkdegames6
 libkdepim4
 libkdepimlibs4
+libkdepimlibs4-devel
 libkerfuffle4
 libkexiv2-11
+libkexiv2-devel
 libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
@@ -2299,6 +2336,7 @@ libkfbapi1
 libkgapi2-2
 libkgeomap-devel
 libkgeomap2
+libkipi-devel
 libkipi11
 libkmahjongg
 libkmahjongg-devel
@@ -2309,9 +2347,11 @@ libkms1
 libkolab0
 libkolabxml1
 libkomparediff2-5
+libkonq-devel
 libkonq5
 libkpathsea6
 libkqoauth0
+libksane-devel
 libksane0
 libksba8
 libkscreen
@@ -2333,6 +2373,7 @@ libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
+liblastfm-devel
 liblastfm1
 liblayout
 liblazy-devel
@@ -2420,6 +2461,7 @@ libmusicbrainz5-1
 libmutter0
 libmwaw-0_3-3
 libmxml1
+libmygpo-qt-devel
 libmygpo-qt1
 libmysqlclient-devel
 libmysqlclient18
@@ -2513,6 +2555,7 @@ libotr-devel
 libotr5
 libp11-kit0
 libpackagekit-glib2-18
+libpackagekitqt4-0
 libpagemaker-0_0-0
 libpango-1_0-0
 libpango-1_0-0-32bit
@@ -2579,6 +2622,7 @@ libpq5
 libpq5-32bit
 libpqxx-4_0
 libpqxx-devel
+libprison-devel
 libprison0
 libprocps3
 libprotobuf-c1
@@ -2620,16 +2664,23 @@ libqb0
 libqca-qt5
 libqca-qt5-plugins
 libqca2
+libqca2-devel
 libqhull6-6_3_1_1494
+libqimageblitz-devel
 libqimageblitz4
+libqjson-devel
 libqjson0
 libqmi-glib1
 libqmi-tools
 libqoauth1
 libqpdf13
 libqrencode3
+libqscintilla-devel
+libqscintilla2-12
 libqt4
 libqt4-32bit
+libqt4-devel
+libqt4-linguist
 libqt4-qt3support
 libqt4-qt3support-32bit
 libqt4-sql
@@ -2673,6 +2724,7 @@ libquazip1
 libquicktime0
 libquvi
 libquvi-scripts
+libqwt5
 libraptor2-0
 librasqal3
 libraw-devel
@@ -3137,6 +3189,7 @@ lirc-devel
 lirc-remotes
 listres
 lklug-fonts
+lndir
 lockdev
 log4j
 logrotate
@@ -3182,6 +3235,7 @@ m4
 mailman
 mailx
 make
+makedepend
 makedev
 makedumpfile
 makeinfo
@@ -3761,6 +3815,7 @@ pesign-obs-integration
 pfstools
 phalanx
 phonon-backend-gstreamer
+phonon-devel
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
 php-doc
@@ -3957,6 +4012,7 @@ python-gobject-cairo
 python-gobject-devel
 python-gobject2
 python-gobject2-devel
+python-gpsd
 python-gstreamer-0_10
 python-gtk
 python-gtk-devel
@@ -3965,6 +4021,7 @@ python-ibus
 python-ipaddr
 python-kde4
 python-kde4-akonadi
+python-kde4-devel
 python-kde4-doc
 python-kde4-khtml
 python-kde4-knewstuff
@@ -3993,6 +4050,8 @@ python-pycurl
 python-pyserial
 python-pyudev
 python-qt4
+python-qt4-devel
+python-qt4-utils
 python-sip
 python-sip-devel
 python-six
@@ -4056,6 +4115,7 @@ qemu-vgabios
 qemu-x86
 qhull
 qhull-devel
+qoauth-devel
 qrencode-devel
 qt-creator
 qt4-qtscript
@@ -4063,6 +4123,9 @@ quagga
 quilt
 quota
 quota-nfs
+qwt-devel
+qwt-devel-doc
+qwt-examples
 radvd
 randrproto-devel
 rarpd
@@ -4072,6 +4135,7 @@ re2c
 readline-devel
 readline-doc
 recode
+recordproto-devel
 regexp
 reiserfs
 rekonq
@@ -4322,6 +4386,7 @@ translation-update-zh_TW
 transmission-common
 transmission-gtk
 transmission-gtk-lang
+trapproto-devel
 tre
 tre-lang
 tuned
@@ -4523,6 +4588,7 @@ xbitmaps-devel
 xbrlapi
 xcalc
 xcb-proto-devel
+xcb-util-devel
 xchat
 xchat-gnome
 xchat-gnome-lang
@@ -4596,7 +4662,9 @@ xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
 xf86dga
+xf86dgaproto-devel
 xf86driproto-devel
+xf86miscproto-devel
 xf86vidmodeproto-devel
 xfce4-mixer
 xfce4-mixer-lang
@@ -4667,10 +4735,13 @@ xmlstarlet
 xmlto
 xmodmap
 xmore
+xorg-cf-files
 xorg-docs
 xorg-scripts
+xorg-sgml-doctools
 xorg-x11
 xorg-x11-Xvnc
+xorg-x11-devel
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
@@ -4680,6 +4751,7 @@ xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
 xorg-x11-server-sdk
+xorg-x11-util-devel
 xosd
 xosview
 xournal
