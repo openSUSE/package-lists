@@ -231,7 +231,6 @@ bbswitch-kmp-xen
 bc
 bcel
 bdftopcf
-bea-stax
 bea-stax-api
 beforelight
 bijiben
@@ -459,6 +458,7 @@ dmz-icon-theme-cursors
 dnsmasq
 docbook-dsssl-stylesheets
 docbook-tdg
+docbook-xml-website
 docbook-xsl-stylesheets
 docbook5-xsl-stylesheets
 docbook_3
@@ -1068,7 +1068,6 @@ inkscape-extensions-gimp
 inkscape-extensions-skencil
 inkscape-lang
 inn
-input-utils
 inputproto-devel
 insserv-compat
 inst-source-utils
@@ -1624,6 +1623,7 @@ libSDL-devel
 libSDL_gfx15
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
+libSDL_ttf-2_0-0
 libSM-devel
 libSM6
 libSM6-32bit
@@ -2272,6 +2272,11 @@ libiec61883
 libieee1284
 libimobiledevice-devel
 libimobiledevice6
+libindi-devel
+libindi1
+libindiAlignmentDriver1
+libindidriver1
+libindimain1
 libini_config3
 libinput-udev
 libinput10
@@ -2884,6 +2889,8 @@ libspeechd2
 libspeex1
 libspeex1-32bit
 libspeexdsp1
+libspice-client-glib-2_0-8
+libspice-client-gtk-2_0-4
 libspice-server1
 libspnav0
 libsqlite3-0
@@ -2966,6 +2973,7 @@ libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd-devel
 libusbmuxd4
+libusbredirhost1
 libusbredirparser1
 libustr-1_0-1
 libutempter0
@@ -3194,6 +3202,7 @@ liferea-lang
 lilo
 links
 linux-glibc-devel
+linuxconsoletools
 lirc
 lirc-devel
 lirc-remotes
@@ -3991,6 +4000,7 @@ pytalloc-32bit
 python
 python-M2Crypto
 python-Pillow
+python-SpiceClientGtk
 python-Twisted
 python-atspi
 python-base
@@ -4061,6 +4071,7 @@ python-pyasn1-modules
 python-pycparser
 python-pycrypto
 python-pycurl
+python-pygame
 python-pyserial
 python-pyudev
 python-qt4
@@ -4207,8 +4218,6 @@ sane-backends-autoconfig
 sane-backends-devel
 sash
 saxon6
-saxon9
-saxon9-scripts
 sazanami-fonts
 sbc
 sbl
