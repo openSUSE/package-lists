@@ -106,7 +106,6 @@ apache2-devel
 apache2-doc
 apache2-example-pages
 apache2-mod_dnssd
-apache2-mod_perl
 apache2-mod_php5
 apache2-prefork
 apache2-utils
@@ -518,7 +517,6 @@ evince-plugin-psdocument
 evolution
 evolution-data-server
 evolution-data-server-devel
-evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -2222,10 +2220,6 @@ libopenjpeg1
 libopenraw1
 libopenssl-devel
 libopenssl1_0_0
-libopensync
-libopensync-plugin-google-calendar
-libopensync-plugin-moto
-libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
 liborcus-0_8-0
@@ -2449,12 +2443,9 @@ libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
 libreoffice-share-linker
-libreoffice-templates-de
-libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
-libreoffice-templates-ru
 libreoffice-voikko
 libreoffice-writer
 libreoffice-writer-extensions
@@ -2541,6 +2532,7 @@ libstorage6
 libstreamanalyzer0
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
+libsvn_auth_kwallet-1-0
 libswresample1
 libtag-extras1
 libtag1
@@ -2761,7 +2753,7 @@ libyui6
 libz1
 libzapojit-0_0-0
 libzhuyin-data
-libzhuyin6
+libzhuyin7
 libzinnia0
 libzio1
 libzip4
@@ -2869,7 +2861,6 @@ mozilla-nss-devel
 mozilla-nss-tools
 mpt-firmware
 mpt-status
-msynctool
 mtools
 mtpaint
 mtpaint-lang
@@ -3220,8 +3211,6 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
-perl-Linux-Pid
-perl-List-AllUtils
 perl-List-MoreUtils
 perl-MIME-tools
 perl-Mail-DKIM
@@ -3253,7 +3242,6 @@ perl-Test-Exception
 perl-Test-Pod
 perl-Test-Pod-Coverage
 perl-Text-Unidecode
-perl-Tie-IxHash
 perl-Time-Duration
 perl-TimeDate
 perl-Try-Tiny
@@ -3400,7 +3388,6 @@ python-cssselect
 python-cups
 python-cupshelpers
 python-curses
-python-dateutil
 python-decorator
 python-deltarpm
 python-devel
@@ -3423,11 +3410,9 @@ python-libxml2
 python-lockfile
 python-lxml
 python-numpy
-python-opensync
 python-paramiko
 python-pyOpenSSL
 python-pyasn1
-python-pybluez
 python-pycparser
 python-pycrypto
 python-pycurl
@@ -3487,7 +3472,6 @@ randrproto-devel
 rarpd
 rcc-runtime
 rdesktop
-re2c
 readline-devel
 readline-doc
 recode
@@ -3591,7 +3575,6 @@ sound-juicer-lang
 sound-theme-freedesktop
 source-highlight
 sox
-spamassassin
 spax
 speech-dispatcher
 speech-dispatcher-module-espeak

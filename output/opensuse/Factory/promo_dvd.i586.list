@@ -337,7 +337,6 @@ evince-plugin-pdfdocument
 evince-plugin-psdocument
 evolution
 evolution-data-server
-evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -1701,10 +1700,6 @@ libopencv2_4
 libopenjpeg1
 libopenraw1
 libopenssl1_0_0
-libopensync
-libopensync-plugin-google-calendar
-libopensync-plugin-moto
-libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
 liborcus-0_8-0
@@ -1847,12 +1842,9 @@ libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
 libreoffice-share-linker
-libreoffice-templates-de
-libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
-libreoffice-templates-ru
 libreoffice-writer
 libreoffice-writer-extensions
 librepository
@@ -1932,6 +1924,7 @@ libstreamanalyzer0
 libsuitesparseconfig-4_4_4
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
+libsvn_auth_kwallet-1-0
 libswresample1
 libtag-extras1
 libtag1
@@ -2106,7 +2099,7 @@ libyui6
 libz1
 libzapojit-0_0-0
 libzhuyin-data
-libzhuyin6
+libzhuyin7
 libzio1
 libzip4
 libzypp
@@ -2200,7 +2193,6 @@ mozilla-nss
 mozilla-nss-certs
 mpt-firmware
 mpt-status
-msynctool
 mtools
 mtpaint
 mtpaint-lang
@@ -2448,7 +2440,6 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
-perl-List-AllUtils
 perl-List-MoreUtils
 perl-MIME-tools
 perl-Mail-DKIM
@@ -2596,7 +2587,6 @@ python-cssselect
 python-cups
 python-cupshelpers
 python-curses
-python-dateutil
 python-decorator
 python-deltarpm
 python-dnspython
@@ -2615,11 +2605,9 @@ python-keyring
 python-lockfile
 python-lxml
 python-numpy
-python-opensync
 python-paramiko
 python-pyOpenSSL
 python-pyasn1
-python-pybluez
 python-pycparser
 python-pycrypto
 python-pycurl
@@ -2674,7 +2662,6 @@ radvd
 rarpd
 rcc-runtime
 rdesktop
-re2c
 readline-doc
 recode
 reiserfs
@@ -2762,7 +2749,6 @@ sound-juicer
 sound-juicer-lang
 sound-theme-freedesktop
 sox
-spamassassin
 spax
 speech-dispatcher
 speech-dispatcher-module-espeak

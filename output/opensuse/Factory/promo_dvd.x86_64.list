@@ -342,7 +342,6 @@ evince-plugin-pdfdocument
 evince-plugin-psdocument
 evolution
 evolution-data-server
-evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -1210,7 +1209,6 @@ libcairo2
 libcairomm-1_0-1
 libcamd-2_4_1
 libcamel-1_2-52
-libcamgm100
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -1773,10 +1771,6 @@ libopenjpeg1
 libopenraw1
 libopenssl1_0_0
 libopenssl1_0_0-32bit
-libopensync
-libopensync-plugin-google-calendar
-libopensync-plugin-moto
-libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
 liborcus-0_8-0
@@ -1924,12 +1918,9 @@ libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
 libreoffice-share-linker
-libreoffice-templates-de
-libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
-libreoffice-templates-ru
 libreoffice-writer
 libreoffice-writer-extensions
 librepository
@@ -2021,6 +2012,7 @@ libstreamanalyzer0
 libsuitesparseconfig-4_4_4
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
+libsvn_auth_kwallet-1-0
 libswresample1
 libtag-extras1
 libtag1
@@ -2209,7 +2201,7 @@ libz1
 libz1-32bit
 libzapojit-0_0-0
 libzhuyin-data
-libzhuyin6
+libzhuyin7
 libzio1
 libzip4
 libzypp
@@ -2304,7 +2296,6 @@ mozilla-nss
 mozilla-nss-certs
 mpt-firmware
 mpt-status
-msynctool
 mtools
 mtpaint
 mtpaint-lang
@@ -2509,11 +2500,9 @@ perl
 perl-Archive-Zip
 perl-Authen-SASL
 perl-BerkeleyDB
-perl-Bit-Vector
 perl-Bootloader
 perl-Bootloader-YAML
 perl-CPAN-Changes
-perl-Carp-Clan
 perl-Class-Singleton
 perl-Config-Crontab
 perl-Config-IniFiles
@@ -2528,7 +2517,6 @@ perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
-perl-Date-Calc
 perl-DateTime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
@@ -2560,7 +2548,6 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
-perl-List-AllUtils
 perl-List-MoreUtils
 perl-MIME-tools
 perl-Mail-DKIM
@@ -2585,10 +2572,8 @@ perl-Pod-Coverage
 perl-RPC-XML
 perl-Readonly
 perl-Socket6
-perl-Sub-Uplevel
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
-perl-Test-Exception
 perl-Test-Pod
 perl-Test-Pod-Coverage
 perl-Text-Unidecode
@@ -2613,7 +2598,6 @@ perl-XML-XPath
 perl-YAML-LibYAML
 perl-apparmor
 perl-base
-perl-camgm
 perl-common-sense
 perl-gettext
 perl-ldap
@@ -2709,7 +2693,6 @@ python-cssselect
 python-cups
 python-cupshelpers
 python-curses
-python-dateutil
 python-decorator
 python-deltarpm
 python-dnspython
@@ -2728,11 +2711,9 @@ python-keyring
 python-lockfile
 python-lxml
 python-numpy
-python-opensync
 python-paramiko
 python-pyOpenSSL
 python-pyasn1
-python-pybluez
 python-pycparser
 python-pycrypto
 python-pycurl
@@ -2787,7 +2768,6 @@ radvd
 rarpd
 rcc-runtime
 rdesktop
-re2c
 readline-doc
 recode
 reiserfs
@@ -2881,7 +2861,6 @@ sound-juicer
 sound-juicer-lang
 sound-theme-freedesktop
 sox
-spamassassin
 spax
 speech-dispatcher
 speech-dispatcher-module-espeak
@@ -3256,10 +3235,8 @@ yast2
 yast2-add-on
 yast2-add-on-creator
 yast2-apparmor
-yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
-yast2-ca-management
 yast2-control-center
 yast2-control-center-qt
 yast2-core

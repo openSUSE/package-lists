@@ -108,7 +108,6 @@ apache2-devel
 apache2-doc
 apache2-example-pages
 apache2-mod_dnssd
-apache2-mod_perl
 apache2-mod_php5
 apache2-prefork
 apache2-utils
@@ -523,7 +522,6 @@ evince-plugin-psdocument
 evolution
 evolution-data-server
 evolution-data-server-devel
-evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -1675,7 +1673,6 @@ libcairo-script-interpreter2
 libcairo2
 libcairomm-1_0-1
 libcamel-1_2-52
-libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -2294,10 +2291,6 @@ libopenraw1
 libopenssl-devel
 libopenssl1_0_0
 libopenssl1_0_0-32bit
-libopensync
-libopensync-plugin-google-calendar
-libopensync-plugin-moto
-libopensync-plugin-python-module
 libopus0
 liborc-0_4-0
 liborcus-0_8-0
@@ -2527,12 +2520,9 @@ libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
 libreoffice-share-linker
-libreoffice-templates-de
-libreoffice-templates-en
 libreoffice-templates-labels-a4
 libreoffice-templates-labels-letter
 libreoffice-templates-presentation-layouts
-libreoffice-templates-ru
 libreoffice-voikko
 libreoffice-writer
 libreoffice-writer-extensions
@@ -2631,6 +2621,7 @@ libstorage6
 libstreamanalyzer0
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
+libsvn_auth_kwallet-1-0
 libswresample1
 libtag-extras1
 libtag1
@@ -2866,7 +2857,7 @@ libz1
 libz1-32bit
 libzapojit-0_0-0
 libzhuyin-data
-libzhuyin6
+libzhuyin7
 libzinnia0
 libzio1
 libzip4
@@ -2975,7 +2966,6 @@ mozilla-nss-devel
 mozilla-nss-tools
 mpt-firmware
 mpt-status
-msynctool
 mtools
 mtpaint
 mtpaint-lang
@@ -3283,11 +3273,9 @@ perl
 perl-Archive-Zip
 perl-Authen-SASL
 perl-BerkeleyDB
-perl-Bit-Vector
 perl-Bootloader
 perl-Bootloader-YAML
 perl-CPAN-Changes
-perl-Carp-Clan
 perl-Class-Singleton
 perl-Config-Crontab
 perl-Config-IniFiles
@@ -3302,7 +3290,6 @@ perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
-perl-Date-Calc
 perl-DateTime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
@@ -3334,8 +3321,6 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
-perl-Linux-Pid
-perl-List-AllUtils
 perl-List-MoreUtils
 perl-MIME-tools
 perl-Mail-DKIM
@@ -3360,14 +3345,11 @@ perl-Pod-Coverage
 perl-RPC-XML
 perl-Readonly
 perl-Socket6
-perl-Sub-Uplevel
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
-perl-Test-Exception
 perl-Test-Pod
 perl-Test-Pod-Coverage
 perl-Text-Unidecode
-perl-Tie-IxHash
 perl-Time-Duration
 perl-TimeDate
 perl-Try-Tiny
@@ -3392,7 +3374,6 @@ perl-XML-XPath
 perl-YAML-LibYAML
 perl-apparmor
 perl-base
-perl-camgm
 perl-checkbot
 perl-common-sense
 perl-doc
@@ -3515,7 +3496,6 @@ python-cssselect
 python-cups
 python-cupshelpers
 python-curses
-python-dateutil
 python-decorator
 python-deltarpm
 python-devel
@@ -3538,12 +3518,10 @@ python-libxml2
 python-lockfile
 python-lxml
 python-numpy
-python-opensync
 python-pam
 python-paramiko
 python-pyOpenSSL
 python-pyasn1
-python-pybluez
 python-pycparser
 python-pycrypto
 python-pycurl
@@ -3603,7 +3581,6 @@ randrproto-devel
 rarpd
 rcc-runtime
 rdesktop
-re2c
 readline-devel
 readline-doc
 recode
@@ -3713,7 +3690,6 @@ sound-juicer-lang
 sound-theme-freedesktop
 source-highlight
 sox
-spamassassin
 spax
 speech-dispatcher
 speech-dispatcher-module-espeak
@@ -4231,10 +4207,8 @@ yast2
 yast2-add-on
 yast2-add-on-creator
 yast2-apparmor
-yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
-yast2-ca-management
 yast2-control-center
 yast2-control-center-qt
 yast2-core
