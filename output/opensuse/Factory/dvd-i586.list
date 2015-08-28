@@ -956,6 +956,7 @@ grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
+grub2-systemd-sleep-plugin
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
@@ -2923,9 +2924,6 @@ libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
 libreoffice-share-linker
-libreoffice-templates-labels-a4
-libreoffice-templates-labels-letter
-libreoffice-templates-presentation-layouts
 libreoffice-writer
 libreoffice-writer-extensions
 librepository
@@ -3704,6 +3702,7 @@ patterns-openSUSE-lxde_laptop
 patterns-openSUSE-lxde_office
 patterns-openSUSE-mail_server
 patterns-openSUSE-minimal_base
+patterns-openSUSE-minimal_base-conflicts
 patterns-openSUSE-misc_server
 patterns-openSUSE-multimedia
 patterns-openSUSE-multimedia_opt
@@ -4529,6 +4528,7 @@ speech-dispatcher-configure
 speech-dispatcher-module-espeak
 speedcrunch
 speex-devel
+speexdsp-devel
 spice-vdagent
 splix
 sqlite3
