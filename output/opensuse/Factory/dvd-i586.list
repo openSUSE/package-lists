@@ -605,6 +605,7 @@ evolution-data-server-devel
 evolution-ews
 evolution-ews-lang
 evolution-plugin-bogofilter
+evolution-plugin-spamassassin
 exif
 exiftool
 exo-lang
@@ -3764,6 +3765,8 @@ perl-Bit-Vector
 perl-Bootloader
 perl-Bootloader-YAML
 perl-CDDB_get
+perl-CGI
+perl-CGI-Application
 perl-CPAN-Changes
 perl-Cairo
 perl-Carp-Assert
@@ -3772,6 +3775,7 @@ perl-Chart
 perl-Class-Accessor
 perl-Class-Data-Inheritable
 perl-Class-Date
+perl-Class-ISA
 perl-Class-Inspector
 perl-Class-Load
 perl-Class-Load-XS
@@ -3847,11 +3851,15 @@ perl-GD
 perl-GD-Graph3d
 perl-GDGraph
 perl-GDTextUtil
+perl-Glib
+perl-Gtk2
 perl-HTML-Clean
+perl-HTML-FillInForm
 perl-HTML-Format
 perl-HTML-Parser
 perl-HTML-SimpleParse
 perl-HTML-Tagset
+perl-HTML-Template
 perl-HTML-Tree
 perl-HTTP-Cookies
 perl-HTTP-DAV
@@ -3904,6 +3912,7 @@ perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-IP
 perl-Net-IPv4Addr
+perl-Net-Jabber
 perl-Net-LibIDN
 perl-Net-Netmask
 perl-Net-Patricia
@@ -3912,12 +3921,14 @@ perl-Net-SNMP
 perl-Net-SSLeay
 perl-Net-Server
 perl-Net-Telnet
+perl-Net-XMPP
 perl-NetAddr-IP
 perl-PDA-Pilot
 perl-Package-DeprecationManager
 perl-Package-Stash
 perl-Package-Stash-XS
 perl-PadWalker
+perl-Pango
 perl-Params-Util
 perl-Params-Validate
 perl-Parse-RecDescent
@@ -3967,6 +3978,8 @@ perl-TimeDate
 perl-Try-Tiny
 perl-Types-Serialiser
 perl-URI
+perl-Unicode-Map8
+perl-Unicode-String
 perl-Unix-Syslog
 perl-Variable-Magic
 perl-WWW-RobotRules
@@ -4354,6 +4367,7 @@ randrproto-devel
 rarpd
 rcc-runtime
 rdesktop
+re2c
 readline-devel
 readline-doc
 recode
@@ -4522,6 +4536,7 @@ sound-juicer-lang
 sound-theme-freedesktop
 source-highlight
 sox
+spamassassin
 spax
 speech-dispatcher
 speech-dispatcher-configure
