@@ -1991,6 +1991,7 @@ libcairo2
 libcairomm-1_0-1
 libcamd-2_4_1
 libcamel-1_2-52
+libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -3835,6 +3836,7 @@ perl-B-Hooks-EndOfScope
 perl-BIND-Conf_Parser
 perl-BSD-Resource
 perl-BerkeleyDB
+perl-Bit-Vector
 perl-Bootloader
 perl-Bootloader-YAML
 perl-CDDB_get
@@ -3843,6 +3845,7 @@ perl-CGI-Application
 perl-CPAN-Changes
 perl-Cairo
 perl-Carp-Assert
+perl-Carp-Clan
 perl-Chart
 perl-Class-Accessor
 perl-Class-Data-Inheritable
@@ -3882,6 +3885,7 @@ perl-DBD-XBase
 perl-DBD-mysql
 perl-DBI
 perl-Data-OptList
+perl-Date-Calc
 perl-Date-Manip
 perl-DateTime
 perl-DateTime-Locale
@@ -4026,10 +4030,12 @@ perl-Sub-Exporter-Progressive
 perl-Sub-Identify
 perl-Sub-Install
 perl-Sub-Name
+perl-Sub-Uplevel
 perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
+perl-Test-Exception
 perl-Test-LeakTrace
 perl-Test-Pod
 perl-Test-Pod-Coverage
@@ -4074,6 +4080,7 @@ perl-YAML
 perl-YAML-LibYAML
 perl-apparmor
 perl-base
+perl-camgm
 perl-checkbot
 perl-common-sense
 perl-doc
@@ -7514,9 +7521,11 @@ yast2
 yast2-add-on
 yast2-add-on-creator
 yast2-apparmor
+yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-buildtools
+yast2-ca-management
 yast2-control-center
 yast2-control-center-qt
 yast2-core

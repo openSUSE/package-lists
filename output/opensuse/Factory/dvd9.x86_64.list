@@ -1585,6 +1585,7 @@ libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_1
 libcamel-1_2-52
+libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -3204,9 +3205,11 @@ perl
 perl-Archive-Zip
 perl-Authen-SASL
 perl-BerkeleyDB
+perl-Bit-Vector
 perl-Bootloader
 perl-Bootloader-YAML
 perl-CPAN-Changes
+perl-Carp-Clan
 perl-Class-Singleton
 perl-Config-Crontab
 perl-Config-IniFiles
@@ -3221,6 +3224,7 @@ perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
 perl-DBD-SQLite
 perl-DBI
+perl-Date-Calc
 perl-DateTime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
@@ -3276,8 +3280,10 @@ perl-Pod-Coverage
 perl-RPC-XML
 perl-Readonly
 perl-Socket6
+perl-Sub-Uplevel
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
+perl-Test-Exception
 perl-Test-Pod
 perl-Test-Pod-Coverage
 perl-Text-Unidecode
@@ -3305,6 +3311,7 @@ perl-XML-XPath
 perl-YAML-LibYAML
 perl-apparmor
 perl-base
+perl-camgm
 perl-checkbot
 perl-common-sense
 perl-doc
@@ -6349,9 +6356,11 @@ yast2
 yast2-add-on
 yast2-add-on-creator
 yast2-apparmor
+yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-buildtools
+yast2-ca-management
 yast2-control-center
 yast2-control-center-qt
 yast2-core
