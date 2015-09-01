@@ -697,6 +697,9 @@ fribidi
 fribidi-devel
 frogr
 frogr-lang
+frozen-bubble
+frozen-bubble-lang
+frozen-bubble-server
 fslsfonts
 fstobdf
 ft2demos
@@ -1780,6 +1783,7 @@ libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
 libSDL-devel
+libSDL_Pango1
 libSDL_gfx15
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
@@ -3538,7 +3542,6 @@ lxmusic
 lxmusic-lang
 lxpanel
 lxpanel-lang
-lxpanel-plugin-power-manager
 lxrandr
 lxrandr-lang
 lxsession
@@ -3944,6 +3947,7 @@ pentaho-libxml
 pentaho-reporting-flow-engine
 perl
 perl-Algorithm-Diff
+perl-Alien-SDL
 perl-Apache-DBI
 perl-Apache-Session
 perl-AppConfig
@@ -3962,6 +3966,7 @@ perl-CGI
 perl-CGI-Application
 perl-CPAN-Changes
 perl-Cairo
+perl-Capture-Tiny
 perl-Carp-Assert
 perl-Carp-Clan
 perl-Chart
@@ -3978,6 +3983,7 @@ perl-Class-Singleton
 perl-Class-Tiny
 perl-Class-WhiteHole
 perl-Clone
+perl-Compress-Bzip2
 perl-Config-Crontab
 perl-Config-General
 perl-Config-IniFiles
@@ -4035,9 +4041,11 @@ perl-FastCGI
 perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
+perl-File-ShareDir
 perl-File-Slurp
 perl-File-Tail
 perl-File-Type
+perl-File-Which
 perl-FileHandle-Unget
 perl-Font-AFM
 perl-GD
@@ -4077,7 +4085,9 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
+perl-Lingua-EN-Sentence
 perl-List-MoreUtils
+perl-Locale-Maketext-Lexicon
 perl-Log-Dispatch
 perl-Log-Log4perl
 perl-MIME-Lite
@@ -4117,6 +4127,7 @@ perl-Net-Telnet
 perl-Net-XMPP
 perl-NetAddr-IP
 perl-PDA-Pilot
+perl-PPI
 perl-Package-DeprecationManager
 perl-Package-Stash
 perl-Package-Stash-XS
@@ -4134,6 +4145,7 @@ perl-PostScript-Simple
 perl-Quantum-Superpositions
 perl-RPC-XML
 perl-Readonly
+perl-SDL
 perl-SGMLS
 perl-SNMP
 perl-SOAP-Lite
@@ -4164,6 +4176,7 @@ perl-Text-Iconv
 perl-Text-Kakasi
 perl-Text-Unidecode
 perl-Tie-Cache
+perl-Tie-Simple
 perl-Time-Duration
 perl-Time-Period
 perl-Time-modules
