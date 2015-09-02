@@ -436,6 +436,8 @@ cups-pk-helper-lang
 curl
 cvs
 cvsps
+cyradm
+cyrus-imapd
 cyrus-sasl
 cyrus-sasl-crammd5
 cyrus-sasl-devel
@@ -520,6 +522,7 @@ docbook_4
 docbook_5
 dolphin
 dos2unix
+dosbox
 dosfstools
 doxygen
 dracut
@@ -575,6 +578,7 @@ evolution-plugin-bogofilter
 evolution-plugin-spamassassin
 exif
 exiftool
+exim
 exo-lang
 exo-tools
 expat
@@ -1370,16 +1374,12 @@ kemoticons-devel
 kernel-default
 kernel-default-devel
 kernel-desktop
-kernel-desktop-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
-kernel-pv-devel
 kernel-source
-kernel-syms
 kernel-xen
-kernel-xen-devel
 kexec-tools
 keyutils
 keyutils-devel
@@ -1743,6 +1743,8 @@ libSDL-devel
 libSDL_gfx15
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
+libSDL_net-1_2-0
+libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSM-devel
 libSM6
@@ -2092,6 +2094,8 @@ libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
+libeXosip2-11
+libeXosip2-devel
 libebackend-1_2-10
 libebook-1_2-16
 libebook-contacts-1_2-1
@@ -2117,7 +2121,6 @@ liberation-fonts
 libesd-devel
 libesd0
 libesmtp
-libestr0
 libetonyek-0_1-1
 libetpan17
 libevdev-tools
@@ -2564,7 +2567,6 @@ liblightdm-gobject-1-0
 liblirc_client0
 liblockdev1
 liblockdev1-32bit
-liblogging0
 libloudmouth-1-0
 liblouis2
 liblpsolve55-0
@@ -3062,6 +3064,7 @@ libspeechd2
 libspeex1
 libspeex1-32bit
 libspeexdsp1
+libspf2-2
 libspice-client-glib-2_0-8
 libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
@@ -3523,7 +3526,6 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
-mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -3870,6 +3872,8 @@ perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
 perl-Crypt-Rijndael
 perl-Crypt-SmbHash
+perl-Cyrus-IMAP
+perl-Cyrus-SIEVE-managesieve
 perl-DBD-CSV
 perl-DBD-ODBC
 perl-DBD-Pg
@@ -3905,6 +3909,8 @@ perl-Font-AFM
 perl-GD
 perl-GDGraph
 perl-GDTextUtil
+perl-Glib
+perl-Gtk2
 perl-HTML-Clean
 perl-HTML-FillInForm
 perl-HTML-Parser
@@ -3959,6 +3965,7 @@ perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-IP
 perl-Net-IPv4Addr
+perl-Net-Jabber
 perl-Net-Netmask
 perl-Net-Patricia
 perl-Net-SMTP-SSL
@@ -3966,8 +3973,10 @@ perl-Net-SNMP
 perl-Net-SSLeay
 perl-Net-Server
 perl-Net-Telnet
+perl-Net-XMPP
 perl-NetAddr-IP
 perl-PDA-Pilot
+perl-Pango
 perl-Params-Util
 perl-Parse-RecDescent
 perl-Parse-Yapp
@@ -4049,8 +4058,6 @@ perl-libxml-perl
 perl-razor-agents
 perl-solv
 permissions
-pesign
-pesign-obs-integration
 pfstools
 phalanx
 phonon-backend-gstreamer
@@ -4412,7 +4419,6 @@ rsibreak
 rsibreak-lang
 rstart
 rsync
-rsyslog
 rtkit
 ruby
 ruby-common
@@ -4471,7 +4477,6 @@ sed
 sed-lang
 selinux-doc
 sendfax
-sendmail
 sessreg
 setserial
 setxkbmap
@@ -4531,6 +4536,7 @@ snapper
 snapper-zypp-plugin
 sni-qt
 snmp-mibs
+solarwolf
 solid-devel
 solid-imports
 solid-tools
@@ -4593,7 +4599,6 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
-syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
