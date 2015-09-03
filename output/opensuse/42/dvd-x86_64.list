@@ -562,6 +562,7 @@ eog
 eog-lang
 eog-plugins
 eog-plugins-lang
+esound-daemon
 espeak
 etags
 ethtool
@@ -1374,12 +1375,16 @@ kemoticons-devel
 kernel-default
 kernel-default-devel
 kernel-desktop
+kernel-desktop-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pv-devel
 kernel-source
+kernel-syms
 kernel-xen
+kernel-xen-devel
 kexec-tools
 keyutils
 keyutils-devel
@@ -1425,6 +1430,7 @@ kipi-plugins
 kipi-plugins-acquireimage
 kipi-plugins-geolocation
 kipi-plugins-lang
+kismet
 kitemmodels-devel
 kitemviews-devel
 kiten
@@ -3526,6 +3532,7 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
+mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -4058,6 +4065,8 @@ perl-libxml-perl
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfstools
 phalanx
 phonon-backend-gstreamer
@@ -4207,7 +4216,6 @@ pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
-pulseaudio-esound-compat
 pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
