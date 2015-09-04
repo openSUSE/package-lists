@@ -15,6 +15,8 @@ PackageKit-gtk3-module
 SuSEfirewall2
 aaa_base
 aaa_base-extras
+accountsservice
+accountsservice-lang
 acl
 acpica
 adaptec-firmware
@@ -84,6 +86,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
+catdoc
 cdrdao
 cdrkit-cdrtools-compat
 checkmedia
@@ -260,6 +263,7 @@ iw
 jfsutils
 k3b
 k3b-lang
+kaccounts-integration
 kactivities5
 kactivities5-imports
 kaddressbook
@@ -280,6 +284,7 @@ kde-gtk-config5
 kde-gtk-config5-lang
 kde-oxygen-fonts
 kde-print-manager
+kde-user-manager
 kde4-filesystem
 kdeartwork4-screensaver
 kdebase4-libkonq
@@ -324,7 +329,6 @@ kinit-lang
 kio
 kio-core
 kio-extras5
-kio-extras5-lang
 kio-lang
 kio_audiocd
 kio_kamera
@@ -388,6 +392,7 @@ kwallet-tools-lang
 kwalletd5
 kwalletd5-lang
 kwalletmanager
+kwayland
 kwebkitpart
 kwebkitpart-lang
 kwin5
@@ -410,8 +415,8 @@ libKF5Archive5
 libKF5Attica5
 libKF5Auth5
 libKF5Auth5-lang
-libKF5Baloo1
-libKF5BalooXapian1
+libKF5Baloo5
+libKF5BalooEngine5
 libKF5Bookmarks5
 libKF5Bookmarks5-lang
 libKF5Codecs5
@@ -484,8 +489,6 @@ libKF5ThreadWeaver5
 libKF5UnitConversion5
 libKF5UnitConversion5-lang
 libKF5Wallet5
-libKF5WaylandClient5
-libKF5WaylandServer5
 libKF5WebKit5
 libKF5WidgetsAddons5
 libKF5WidgetsAddons5-lang
@@ -559,6 +562,8 @@ libXtst6
 libXv1
 libXxf86misc1
 libXxf86vm1
+libaccounts-glib0
+libaccounts-qt5-1
 libacl1
 libaio1
 libakonadi4
@@ -812,11 +817,12 @@ libldapcpp1
 libldb1
 liblensfun0
 liblirc_client0
+liblmdb-0_9_14
 liblockdev1
 libloudmouth-1-0
 liblqr-1-0
 libltdl7
-liblua5_1
+liblua5_3
 liblwres141
 liblzma5
 liblzo2-2
@@ -966,6 +972,7 @@ libsemanage1
 libsensors4
 libsepol1
 libsgutils2-1_41-2
+libsignon-qt5-1
 libslang2
 libsmartcols1
 libsmbclient-raw0
@@ -1279,6 +1286,8 @@ plasma5-addons-lang
 plasma5-desktop
 plasma5-desktop-branding-openSUSE
 plasma5-desktop-lang
+plasma5-pa
+plasma5-pa-lang
 plasma5-session
 plasma5-workspace
 plasma5-workspace-branding-openSUSE
@@ -1311,6 +1320,7 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
+purpose
 pytalloc
 python
 python-CherryPy
@@ -1423,10 +1433,12 @@ systemsettings5-lang
 sysvinit-tools
 taglib
 tar
+tcl
 terminfo-base
 tigervnc
 time
 timezone
+tk
 tnftp
 traceroute
 translation-update
@@ -1449,6 +1461,8 @@ unzip-doc
 update-alternatives
 update-desktop-files
 upower
+usb_modeswitch
+usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
@@ -1487,6 +1501,7 @@ xf86-video-nouveau
 xf86-video-vesa
 xfsdump
 xfsprogs
+xhost
 xinetd
 xinit
 xkbcomp
