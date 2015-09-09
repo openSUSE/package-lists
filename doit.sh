@@ -75,9 +75,11 @@ for arch in $arches; do
       ./gen.pl opensuse/$proj/kde4_cd-unstable $arch "$proj" $repo
       ./gen.pl opensuse/$proj/gnome_cd-nobundles $arch "$proj" $repo
       ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
+      ./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
+    fi
+    if test "$proj" = "Factory" -o "$proj" = "Leap:42.1"; then
       ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
       ./gen.pl opensuse/$proj/x11_cd $arch "$proj" $repo
-      ./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
     fi
    fi
 
