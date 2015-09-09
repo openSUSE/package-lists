@@ -7,9 +7,9 @@ case $proj in
 	Factory) arches="i586 x86_64"
 		repo="standard"
 		;;
-	42) arches="x86_64"
-	    repo="standard"
-		;;
+	Leap:42.1) arches="x86_64"
+            repo="standard"
+                ;;
 	Factory:PowerPC) arches="ppc64 ppc64le"
 			repo="standard"
 		;;
@@ -51,7 +51,9 @@ if [ "$arches" = "i586 x86_64" ];then
        cp -a output/opensuse/$proj/x11_cd.$arch.list osc/openSUSE:$proj:Live/package-lists-x11.$arch/packagelist
    done
    osc -q ci -m "auto update" osc/openSUSE:$proj:Live/package-lists-* | grep -v nothing
+fi
 
+if [ -f trees/openSUSE:$proj-$repo-x86_64.solv ]; then
    installcheck x86_64 --withobsoletes trees/openSUSE:$proj-$repo-x86_64.solv > openSUSE:$proj.installcheck
    osc api -X PUT -f openSUSE:$proj.installcheck  /source/openSUSE:$proj:Staging/dashboard/installcheck
 fi
