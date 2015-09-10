@@ -300,6 +300,7 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ca
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -3197,7 +3198,6 @@ libvirt-daemon-driver-storage
 libvirt-daemon-driver-uml
 libvirt-daemon-driver-vbox
 libvirt-daemon-qemu
-libvirt-glib-1_0-0
 libvirt-python
 libvisio-0_1-1
 libvisual
@@ -7100,7 +7100,6 @@ typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
-typelib-1_0-LibvirtGLib-1_0
 typelib-1_0-MediaArt-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
