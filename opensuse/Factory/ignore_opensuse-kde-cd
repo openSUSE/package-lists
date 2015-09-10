@@ -66,6 +66,4 @@ job lock name ImageMagick
 job lock name java-1_7_0-openjdk
 
 # needed for usb-moderswitch, but too large
-# let's see what happens if we allow it: Plasma 5 needs it :(
-#job lock name tcl
-
+job lock name tcl
