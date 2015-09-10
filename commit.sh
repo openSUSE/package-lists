@@ -53,6 +53,15 @@ if [ "$arches" = "i586 x86_64" ];then
    osc -q ci -m "auto update" osc/openSUSE:$proj:Live/package-lists-* | grep -v nothing
 fi
 
+if [ "$proj" = "Leap:42.1" ]; then
+  test -d osc/openSUSE:$proj/package-lists-openSUSE-images || ( cd osc; osc co openSUSE:$proj/package-lists-openSUSE-images )
+  osc -q up osc/openSUSE:$proj/package-lists-openSUSE-images > /dev/null
+  for file in gnome_cd-default gnome_cd-x11-default kde4_cd-base-default kde4_cd-default; do
+    cp output/opensuse/$proj/${file}.${arch}.list osc/openSUSE:$proj/package-lists-openSUSE-images/${file}.${arch}.list
+  done
+  osc -q ci -m "auto update" osc/openSUSE:$proj/package-lists-openSUSE-images | grep -v nothing
+fi
+
 if [ -f trees/openSUSE:$proj-$repo-x86_64.solv ]; then
    installcheck x86_64 --withobsoletes trees/openSUSE:$proj-$repo-x86_64.solv > openSUSE:$proj.installcheck
    osc api -X PUT -f openSUSE:$proj.installcheck  /source/openSUSE:$proj:Staging/dashboard/installcheck
