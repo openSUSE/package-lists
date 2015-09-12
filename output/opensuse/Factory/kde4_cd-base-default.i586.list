@@ -83,6 +83,7 @@ filesystem
 fillup
 findutils
 fontconfig
+fonts-config
 gamin-server
 gawk
 gcr-data
@@ -230,6 +231,8 @@ libext2fs2
 libfam0-gamin
 libfdisk1
 libffi4
+libfont-specimen0
+libfontenc1
 libfreetype6
 libfuse2
 libgbm1
@@ -420,6 +423,8 @@ man
 master-boot-code
 mdadm
 metatheme-adwaita-common
+mkfontdir
+mkfontscale
 mozilla-nspr
 mtools
 multipath-tools
@@ -645,15 +650,18 @@ xz
 yast2
 yast2-add-on
 yast2-apparmor
+yast2-auth-client
 yast2-bootloader
 yast2-core
 yast2-country
 yast2-country-data
 yast2-firewall
+yast2-fonts
 yast2-hardware-detection
 yast2-inetd
 yast2-installation
 yast2-iscsi-client
+yast2-journal
 yast2-ldap
 yast2-mail
 yast2-metapackage-handler
@@ -686,6 +694,7 @@ yast2-tune
 yast2-update
 yast2-users
 yast2-vm
+yast2-vpn
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
