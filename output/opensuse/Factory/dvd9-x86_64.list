@@ -95,7 +95,9 @@ alsa-firmware
 alsa-oss
 alsa-oss-32bit
 alsa-plugins
+alsa-plugins-32bit
 alsa-plugins-pulse
+alsa-plugins-pulse-32bit
 alsa-utils
 amarok
 amavisd-new
@@ -276,6 +278,8 @@ bluez-qt-imports
 bluez-qt-udev
 bogofilter-common
 bogofilter-db
+boo
+boo-2_0_9_3
 boost-devel
 boost-jam
 boost-license1_58_0
@@ -315,7 +319,6 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-nl
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -355,6 +358,7 @@ bzr
 bzr-lang
 ca-certificates
 ca-certificates-mozilla
+cabextract
 cairo-devel
 cal10n
 calibre
@@ -362,29 +366,6 @@ calligra
 calligra-doc
 calligra-extras-dolphin
 calligra-extras-okular
-calligra-l10n-cs
-calligra-l10n-da
-calligra-l10n-de
-calligra-l10n-de-doc
-calligra-l10n-el
-calligra-l10n-en_GB
-calligra-l10n-es
-calligra-l10n-es-doc
-calligra-l10n-fr
-calligra-l10n-fr-doc
-calligra-l10n-hu
-calligra-l10n-it
-calligra-l10n-it-doc
-calligra-l10n-ja
-calligra-l10n-pl
-calligra-l10n-pt
-calligra-l10n-pt-doc
-calligra-l10n-pt_BR
-calligra-l10n-pt_BR-doc
-calligra-l10n-ru
-calligra-l10n-ru-doc
-calligra-l10n-zh_CN
-calligra-l10n-zh_TW
 calligra-stage
 calligra-words-common
 canberra-gtk-play
@@ -562,6 +543,7 @@ docbook_4
 docbook_5
 dolphin
 dos2unix
+dosbox
 dosfstools
 doxygen
 dracut
@@ -1210,6 +1192,7 @@ id3lib
 id3v2
 ifplugd
 iftop
+ikvm
 ilmbase-devel
 imake
 indent
@@ -1664,6 +1647,7 @@ libFS-devel
 libFS6
 libGLEW1_13
 libGLU1
+libGLU1-32bit
 libGeoIP1
 libGraphicsMagick-Q16-3
 libGraphicsMagick3-config
@@ -1753,6 +1737,7 @@ libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libOSMesa-devel
 libOSMesa9
+libOSMesa9-32bit
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1815,6 +1800,8 @@ libSDL_Pango1
 libSDL_gfx15
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
+libSDL_net-1_2-0
+libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSM-devel
 libSM6
@@ -1879,6 +1866,7 @@ libXp-devel
 libXp6
 libXpm-devel
 libXpm4
+libXpm4-32bit
 libXprintAppUtil-devel
 libXprintAppUtil1
 libXprintUtil-devel
@@ -1894,6 +1882,7 @@ libXss1
 libXss1-32bit
 libXt-devel
 libXt6
+libXt6-32bit
 libXtst-devel
 libXtst6
 libXv-devel
@@ -2071,6 +2060,7 @@ libcap-ng0
 libcap2
 libcap2-32bit
 libcapi20-3
+libcapi20-3-32bit
 libcares2
 libcaribou0
 libccolamd-2_9_1
@@ -2141,6 +2131,7 @@ libdaemon0
 libdar5000
 libdb-4_5
 libdb-4_8
+libdb-4_8-32bit
 libdb-4_8-devel
 libdbus-1-3
 libdbus-1-3-32bit
@@ -2231,6 +2222,7 @@ libexempi-devel
 libexempi3
 libexif-devel
 libexif12
+libexif12-32bit
 libexiv2-14
 libexiv2-devel
 libexo-1-0
@@ -2317,6 +2309,7 @@ libgcrypt-devel
 libgcrypt20
 libgcrypt20-32bit
 libgd3
+libgd3-32bit
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
@@ -2327,8 +2320,11 @@ libgda-ui-5_0-plugins
 libgdata-devel
 libgdata19
 libgdbm4
+libgdbm4-32bit
 libgdict-1_0-8
 libgdict-data
+libgdiplus-devel
+libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
 libgdl-3-5
@@ -2417,6 +2413,7 @@ libgpg-error0-32bit
 libgpgme-devel
 libgpgme11
 libgphoto2-6
+libgphoto2-6-32bit
 libgphoto2-devel
 libgpm2
 libgpod-devel
@@ -2434,6 +2431,7 @@ libgsf-1-114
 libgsf-devel
 libgsl0
 libgsm1
+libgsm1-32bit
 libgsound0
 libgssdp-1_0-3
 libgssglue-devel
@@ -2536,6 +2534,7 @@ libidn11
 libidn11-32bit
 libiec61883
 libieee1284
+libieee1284-32bit
 libimobiledevice-devel
 libimobiledevice6
 libindi
@@ -2554,6 +2553,7 @@ libiodbc3
 libiptc0
 libiptcdata
 libiptcdata0
+libirrecord0
 libirs141
 libisc148
 libisccc140
@@ -2689,6 +2689,7 @@ liblirc_driver0
 liblmdb-0_9_14
 libloader
 liblockdev1
+liblockdev1-32bit
 liblogging0
 libloudmouth-1-0
 liblouis2
@@ -2702,6 +2703,7 @@ libltdl7-32bit
 liblua5_1
 liblua5_2
 liblua5_3
+liblua5_3-32bit
 liblwres141
 liblxpanel0
 liblz4-1_4
@@ -2710,6 +2712,7 @@ liblzma5-32bit
 liblzo2-2
 libm17n0
 libmagic1
+libmagic1-32bit
 libmal-devel
 libmal1
 libmarblewidget21
@@ -2809,6 +2812,7 @@ libnilfsgc0
 libnis1
 libnl-config
 libnl3-200
+libnl3-200-32bit
 libnm-glib-vpn1
 libnm-glib4
 libnm-gtk0
@@ -2846,6 +2850,7 @@ libonig2
 libopagent1
 libopal3_10_10
 libopenal1
+libopenal1-32bit
 libopenbabel-devel
 libopenbabel4
 libopencc2
@@ -2883,6 +2888,7 @@ libpano13-3
 libparted0
 libpath_utils1
 libpcap1
+libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
@@ -3142,6 +3148,7 @@ libselinux1
 libselinux1-32bit
 libsemanage1
 libsensors4
+libsensors4-32bit
 libsensors4-devel
 libsepol-devel
 libsepol1
@@ -3184,6 +3191,7 @@ libsnappy1
 libsndfile-devel
 libsndfile1
 libsnmp30
+libsnmp30-32bit
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
@@ -3304,6 +3312,7 @@ libunwind
 libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
+libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd-devel
@@ -3319,9 +3328,12 @@ libuv1
 libv4l
 libv4l-devel
 libv4l1-0
+libv4l1-0-32bit
 libv4l2-0
+libv4l2-0-32bit
 libv4l2rds0
 libv4lconvert0
+libv4lconvert0-32bit
 libva-drm1
 libva-egl1
 libva-glx1
@@ -3373,6 +3385,7 @@ libvorbisenc2
 libvorbisfile3
 libvorbisfile3-32bit
 libvpx2
+libvpx2-32bit
 libvte-2_91-0
 libvte9
 libwacom-data
@@ -3412,6 +3425,7 @@ libwpg-0_3-3
 libwpg-devel
 libwps-0_4-4
 libwrap0
+libwrap0-32bit
 libwv-1_2-3
 libwv2-4
 libwx_baseu-2_8-0-stl
@@ -3513,6 +3527,7 @@ libxslt-devel
 libxslt-python
 libxslt-tools
 libxslt1
+libxslt1-32bit
 libxtables10
 libyajl2
 libyaml-0-2
@@ -3668,6 +3683,7 @@ mono-core
 mono-data
 mono-data-oracle
 mono-data-sqlite
+mono-devel
 mono-extras
 mono-kde4
 mono-locale-extras
@@ -3679,6 +3695,7 @@ mono-wcf
 mono-web
 mono-winforms
 mono-winfxcore
+monodevelop
 monodoc-core
 moodbar
 motv
@@ -3767,6 +3784,7 @@ nmap
 notification-daemon
 notify-sharp
 nscd
+nspluginwrapper
 nss-mdns
 nss-mdns-32bit
 nss_ldap
@@ -3778,6 +3796,7 @@ ntp-doc
 numactl
 numad
 numlockx
+nunit
 nuoveXT2-icon-theme
 nxtvepg
 obconf
@@ -3857,6 +3876,7 @@ oxygen5-lang
 oxygen5-sounds
 oxygen5-style
 p11-kit
+p11-kit-32bit
 p11-kit-devel
 p11-kit-tools
 p7zip
@@ -4019,6 +4039,7 @@ pdfmod-lang
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
+perl-32bit
 perl-Algorithm-Diff
 perl-Alien-SDL
 perl-Apache-DBI
@@ -4693,6 +4714,7 @@ ristretto-lang
 rp-pppoe
 rpcbind
 rpm
+rpm-32bit
 rpm-build
 rpm-devel
 rpm-python
@@ -4735,6 +4757,7 @@ samba-libs-32bit
 samba-winbind
 samba-winbind-32bit
 sane-backends
+sane-backends-32bit
 sane-backends-autoconfig
 sane-backends-devel
 sash
@@ -7423,6 +7446,8 @@ whois
 wicked
 wicked-service
 wiggle
+wine
+wine-32bit
 wireless-regdb
 wireless-tools
 wireshark
