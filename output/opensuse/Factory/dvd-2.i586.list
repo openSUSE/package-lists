@@ -135,6 +135,7 @@ java-1_8_0-openjdk
 java-1_8_0-openjdk-headless
 javapackages-tools
 kbd
+kbd-legacy
 kde4-filesystem
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
@@ -158,6 +159,7 @@ libLLVM
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
+libQt5Network5
 libQt5Widgets5
 libQt5X11Extras5
 libQtWebKit4
@@ -264,6 +266,7 @@ libepoxy0
 liberation-fonts
 libestr0
 libetonyek-0_1-1
+libevdev2
 libexif12
 libexiv2-14
 libexpat1
@@ -324,6 +327,8 @@ libicu55_1
 libicu55_1-ledata
 libidn11
 libimobiledevice6
+libinput-udev
+libinput10
 libirs141
 libisc148
 libisccc140
@@ -480,6 +485,7 @@ libssh2-1
 libssh4
 libstdc++6
 libstreamanalyzer0
+libsystemd0
 libtalloc2
 libtasn1
 libtasn1-6
@@ -490,6 +496,7 @@ libtevent0
 libtheoradec1
 libtheoraenc1
 libtiff5
+libts-1_0-0
 libudev1
 libudisks2-0
 libupower-glib3
@@ -543,12 +550,12 @@ libxshmfence1
 libxslt-tools
 libxslt1
 libyaml-0-2
-libyui-ncurses-pkg6
-libyui-ncurses6
-libyui-qt-graph6
-libyui-qt-pkg6
-libyui-qt6
-libyui6
+libyui-ncurses-pkg7
+libyui-ncurses7
+libyui-qt-graph7
+libyui-qt-pkg7
+libyui-qt7
+libyui7
 libz1
 libzio1
 libzypp

@@ -234,6 +234,7 @@ iso-codes-lang
 iw
 jfsutils
 kbd
+kbd-legacy
 kernel-desktop
 kernel-firmware
 keyutils
@@ -254,6 +255,7 @@ libLLVM
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
+libQt5Network5
 libQt5Widgets5
 libQt5X11Extras5
 libSDL-1_2-0
@@ -441,6 +443,8 @@ libicu55_1
 libicu55_1-ledata
 libidn11
 libimobiledevice6
+libinput-udev
+libinput10
 libiptc0
 libirs141
 libisc148
@@ -587,6 +591,7 @@ libstdc++6
 libstdc++6-32bit
 libstorage-ruby
 libstorage6
+libsystemd0
 libtalloc2
 libtasn1
 libtasn1-6
@@ -595,6 +600,7 @@ libtheoraenc1
 libthunarx-2-0
 libtiff5
 libtirpc1
+libts-1_0-0
 libtumbler-1-0
 libudev1
 libuna1
@@ -678,11 +684,11 @@ libxshmfence1
 libxslt1
 libxtables10
 libyaml-0-2
-libyui-ncurses-pkg6
-libyui-ncurses6
-libyui-qt-pkg6
-libyui-qt6
-libyui6
+libyui-ncurses-pkg7
+libyui-ncurses7
+libyui-qt-pkg7
+libyui-qt7
+libyui7
 libz1
 libzio1
 libzypp
