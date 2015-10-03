@@ -371,9 +371,8 @@ caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
 catdoc
-cdda2wav
 cdrdao
-cdrecord
+cdrkit-cdrtools-compat
 cellwriter
 cervisia
 checkmedia
@@ -928,6 +927,7 @@ icc-profiles-scp-fogra
 icc-profiles-scp-yamma
 iceauth
 icecream
+icedax
 icewm
 icewm-default
 icewm-lite
@@ -1226,7 +1226,9 @@ kitemviews-devel
 kiten
 kiwi
 kiwi-config-openSUSE
+kiwi-desc-isoboot
 kiwi-desc-netboot
+kiwi-desc-oemboot
 kiwi-desc-vmxboot
 kiwi-media-requires
 kiwi-pxeboot
@@ -2600,8 +2602,6 @@ libsamplerate0
 libsasl2-3
 libsasl2-3-32bit
 libsbc1
-libscg1_0
-libschily1_0
 libschroedinger-1_0-0
 libseccomp2
 libseccomp2-32bit
@@ -3025,7 +3025,6 @@ milou5
 mjpegtools
 mkfontdir
 mkfontscale
-mkisofs
 mlterm-scim
 mobile-broadband-provider-info
 mobipocket
