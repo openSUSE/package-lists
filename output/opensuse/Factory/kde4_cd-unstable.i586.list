@@ -61,6 +61,7 @@ baloo-tools
 baloo5
 baloo5-file
 baloo5-lang
+baloo5-widgets
 bash
 bash-completion
 bind-utils
@@ -139,6 +140,7 @@ dmraid
 dmz-icon-theme-cursors
 dnsmasq
 dolphin
+dolphin-part
 dosfstools
 dracut
 drkonqi5
@@ -350,7 +352,6 @@ konqueror
 konqueror-plugins
 konsole
 konsole-part
-konsole4-part
 kontact
 konversation
 kopete
@@ -593,8 +594,6 @@ libavformat56
 libavutil54
 libbaloofiles4
 libbaloopim4
-libbalooqueryparser4
-libbaloowidgets4
 libbind9-140
 libblkid1
 libbluedevil2
@@ -643,6 +642,7 @@ libdialog12
 libdmtx0
 libdns161
 libdns_sd
+libdolphinvcs5
 libdrm2
 libdrm_amdgpu1
 libdrm_intel1
@@ -782,7 +782,7 @@ libkdegames4
 libkdegames6
 libkdepim4
 libkdepimlibs4
-libkerfuffle4
+libkerfuffle15
 libkexiv2-11
 libkeyutils1
 libkf5kdegames6
@@ -828,7 +828,7 @@ liblwres141
 liblzma5
 liblzo2-2
 libmagic1
-libmarblewidget21
+libmarblewidget22
 libmbim-glib4
 libmeanwhile1
 libmediawiki1
@@ -985,7 +985,8 @@ libsoftokn3
 libsolv-tools
 libsoprano4
 libsoup-2_4-1
-libsox2
+libsox3
+libsoxr0
 libspeex1
 libspeexdsp1
 libsqlite3-0

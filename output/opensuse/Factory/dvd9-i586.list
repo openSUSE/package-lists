@@ -229,6 +229,7 @@ baloo-pim
 baloo-tools
 baloo5-devel
 baloo5-file
+baloo5-widgets
 baobab
 bash
 bash-completion
@@ -296,6 +297,7 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ca
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -525,6 +527,7 @@ docbook_3
 docbook_4
 docbook_5
 dolphin
+dolphin-part
 dos2unix
 dosbox
 dosfstools
@@ -1911,8 +1914,6 @@ libavutil54
 libbabl-0_1-0
 libbaloofiles4
 libbaloopim4
-libbalooqueryparser4
-libbaloowidgets4
 libbase
 libbasicobjects0
 libbind9-140
@@ -2079,6 +2080,7 @@ libdmx1
 libdnet1
 libdns161
 libdns_sd
+libdolphinvcs5
 libdotconf0
 libdrm-devel
 libdrm2
@@ -2491,7 +2493,7 @@ libkdepimlibs4-devel
 libkdevplatform-devel
 libkdevplatform8
 libkeduvocdocument4
-libkerfuffle4
+libkerfuffle15
 libkexiv2-11
 libkexiv2-devel
 libkeybinder-3_0-0
@@ -2584,7 +2586,8 @@ libm17n0
 libmagic1
 libmal-devel
 libmal1
-libmarblewidget21
+libmarblewidget-qt5-22
+libmarblewidget22
 libmate-desktop-2-17
 libmbim-glib4
 libmcrypt
@@ -2890,7 +2893,7 @@ libqt5-qtxmlpatterns-devel
 libqtcurve-cairo1
 libqtcurve-utils2
 libquadmath0
-libquazip1
+libquazip5-1
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
@@ -2989,6 +2992,7 @@ libshout3
 libsidplay1
 libsigc++2-devel
 libsigc-2_0-0
+libsignon-glib1
 libsignon-qt5-1
 libsigsegv2
 libsilc-1_1-4
@@ -3027,7 +3031,7 @@ libsoprano4
 libsoup-2_4-1
 libsoup-devel
 libsource-highlight4
-libsox2
+libsox3
 libsoxr0
 libspandsp2
 libspectre-devel
@@ -3422,6 +3426,7 @@ marble
 marble-data
 marble-devel
 marble-doc
+marble-kde
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -4717,6 +4722,7 @@ tcsh-lang
 tdom
 tei-roma
 tei-xsl-stylesheets
+telepathy-accounts-signon
 telepathy-gabble
 telepathy-haze
 telepathy-idle

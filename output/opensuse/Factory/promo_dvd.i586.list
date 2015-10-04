@@ -128,6 +128,7 @@ baloo-kioslaves
 baloo-pim
 baloo-tools
 baloo5-file
+baloo5-widgets
 baobab
 bash
 bash-completion
@@ -304,6 +305,7 @@ dmz-icon-theme-cursors
 dnsmasq
 docbook_4
 dolphin
+dolphin-part
 dos2unix
 dosfstools
 dracut
@@ -874,7 +876,6 @@ konqueror
 konqueror-plugins
 konsole
 konsole-part
-konsole4-part
 kontact
 konversation
 konversation-lang
@@ -1126,8 +1127,6 @@ libavutil54
 libbabl-0_1-0
 libbaloofiles4
 libbaloopim4
-libbalooqueryparser4
-libbaloowidgets4
 libbase
 libbind9-140
 libblas3
@@ -1257,6 +1256,7 @@ libdmx1
 libdnet1
 libdns161
 libdns_sd
+libdolphinvcs5
 libdotconf0
 libdrm2
 libdrm_amdgpu1
@@ -1552,7 +1552,7 @@ libkdegames6
 libkdepim4
 libkdepimlibs4
 libkdevplatform8
-libkerfuffle4
+libkerfuffle15
 libkexiv2-11
 libkeybinder-3_0-0
 libkeybinder0
@@ -1617,7 +1617,8 @@ liblz4-1_4
 liblzma5
 liblzo2-2
 libmagic1
-libmarblewidget21
+libmarblewidget-qt5-22
+libmarblewidget22
 libmate-desktop-2-17
 libmbim-glib4
 libmeanwhile1
@@ -1805,7 +1806,7 @@ libqt5-qtimageformats
 libqt5-qtquickcontrols
 libqt5-qttools
 libquadmath0
-libquazip1
+libquazip5-1
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
@@ -1880,6 +1881,7 @@ libserializer
 libsgutils2-1_41-2
 libsidplay1
 libsigc-2_0-0
+libsignon-glib1
 libsignon-qt5-1
 libsilc-1_1-4
 libsilcclient-1_1-4
@@ -1907,7 +1909,8 @@ libsoftokn3
 libsolv-tools
 libsoprano4
 libsoup-2_4-1
-libsox2
+libsox3
+libsoxr0
 libspandsp2
 libspectre1
 libspeechd2
@@ -2176,6 +2179,7 @@ manufacturer-PPDs
 marble
 marble-data
 marble-doc
+marble-kde
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -2824,6 +2828,7 @@ tcl
 tcpdump
 tcsh
 tcsh-lang
+telepathy-accounts-signon
 telepathy-gabble
 telepathy-haze
 telepathy-idle
