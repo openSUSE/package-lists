@@ -3,10 +3,12 @@
 git pull --rebase
 
 proj=$1
+repo=$2
 test -n "$proj" || proj=Factory
+test -n "$repo" || repo=standard
 
 (cd osc/openSUSE\:$proj/_product/ && osc up)
-osc api "/build/openSUSE:$proj/_result?package=bash&repository=standard" > "$proj.state"
+osc api "/build/openSUSE:$proj/_result?package=bash&repository=$repo" > "$proj.state"
 if grep -q 'dirty="true"' "$proj.state" || grep -q 'state="building"' "$proj.state"; then
    echo "standard still dirty"
    if test -z "$FORCE"; then
