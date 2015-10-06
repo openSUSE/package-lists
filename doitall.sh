@@ -10,7 +10,7 @@ test -n "$repo" || repo=standard
 (cd osc/openSUSE\:$proj/_product/ && osc up)
 osc api "/build/openSUSE:$proj/_result?package=bash&repository=$repo" > "$proj.state"
 if grep -q 'dirty="true"' "$proj.state" || grep -q 'state="building"' "$proj.state"; then
-   echo "standard still dirty"
+   echo "$repo still dirty"
    if test -z "$FORCE"; then
      exit 0
    fi
