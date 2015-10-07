@@ -1,3 +1,4 @@
+Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
@@ -68,6 +69,8 @@ brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 btrfsmaintenance
 btrfsprogs
+bundle-lang-common-en
+bundle-lang-gnome-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -97,6 +100,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -192,6 +196,7 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
+glibc-locale
 glibc-locale-32bit
 gnome-bluetooth
 gnome-calculator
@@ -219,8 +224,8 @@ gnome-music
 gnome-nettool
 gnome-online-accounts
 gnome-online-miners
+gnome-packagekit
 gnome-power-manager
-gnome-pty-helper
 gnome-screenshot
 gnome-session
 gnome-session-core
@@ -262,6 +267,8 @@ grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-pc
 grub2-snapper-plugin
 grub2-systemd-sleep-plugin
@@ -331,6 +338,7 @@ iceauth
 icedax
 icewm
 icewm-default
+icewm-lite
 ifplugd
 info
 info2html
@@ -345,6 +353,7 @@ iso-codes
 iso_ent
 kbd
 kbd-legacy
+kernel-default
 keyutils
 klogd
 kmod
@@ -404,8 +413,8 @@ libaio1
 libao-plugins4
 libao4
 libapparmor1
-libappstream-builder7
-libappstream-glib7
+libappstream-builder8
+libappstream-glib8
 libarchive13
 libasm1
 libasound2
@@ -444,7 +453,7 @@ libbz2-1
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
-libcamel-1_2-52
+libcamel-1_2-54
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -461,8 +470,8 @@ libcdio_cdda2
 libcdio_paranoia2
 libchamplain-0_12-0
 libcheese-common
-libcheese-gtk23
-libcheese7
+libcheese-gtk25
+libcheese8
 libchromaprint0
 libclutter-1_0-0
 libclutter-gst-2_0-0
@@ -483,6 +492,7 @@ libcryptui0
 libcue1
 libcurl4
 libdaemon0
+libdatrie1
 libdb-4_8
 libdbus-1-3
 libdcerpc-binding0
@@ -506,11 +516,11 @@ libdvdread4
 libdw1
 libebackend-1_2-10
 libebook-1_2-16
-libebook-contacts-1_2-1
-libecal-1_2-18
+libebook-contacts-1_2-2
+libecal-1_2-19
 libedata-book-1_2-25
-libedata-cal-1_2-27
-libedataserver-1_2-20
+libedata-cal-1_2-28
+libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
 libefivar0
@@ -558,9 +568,9 @@ libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
 libgd3
-libgdata19
+libgdata22
 libgdbm4
-libgdict-1_0-8
+libgdict-1_0-9
 libgdict-data
 libgdk_pixbuf-2_0-0
 libgdm1
@@ -582,7 +592,7 @@ libgmime-2_6-0
 libgmodule-2_0-0
 libgmp10
 libgnome-bluetooth13
-libgnome-desktop-3-10
+libgnome-desktop-3-12
 libgnome-desktop-3_0-common
 libgnome-keyring0
 libgnome-menu-3-0
@@ -652,6 +662,7 @@ libgxps2
 libharfbuzz-icu0
 libharfbuzz0
 libhogweed4
+libhyphen0
 libibus-1_0-5
 libical1
 libicu55_1
@@ -694,7 +705,6 @@ liblockdev1
 liblouis2
 liblrdf2
 libltdl7
-liblua5_2
 liblua5_3
 liblwres141
 liblz4-1_4
@@ -702,7 +712,6 @@ liblzma5
 liblzo2-2
 libmagic1
 libmbim-glib4
-libmediaart-1_0-0
 libmediaart-2_0-0
 libmetalink3
 libmicrohttpd10
@@ -884,10 +893,13 @@ libtelepathy-glib0
 libtelepathy-logger3
 libtevent-util0
 libtevent0
+libthai-data
+libthai0
 libtheoradec1
 libtheoraenc1
 libtiff5
 libtirpc1
+libtotem-plparser-mini18
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -926,6 +938,7 @@ libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwbclient0
+libwebkit2gtk-4_0-37
 libwebkitgtk-3_0-0
 libwebp5
 libwebrtc_audio_processing0
@@ -1027,6 +1040,8 @@ numactl
 numlockx
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openconnect
 openldap2-client
@@ -1046,6 +1061,25 @@ pam-config
 pango-tools
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-gnome
+patterns-openSUSE-gnome_basis
+patterns-openSUSE-gnome_games
+patterns-openSUSE-gnome_imaging
+patterns-openSUSE-gnome_internet
+patterns-openSUSE-gnome_multimedia
+patterns-openSUSE-gnome_yast
+patterns-openSUSE-imaging
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_gnome
+patterns-openSUSE-x11
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -1119,6 +1153,7 @@ pinentry
 pkcs11-helper
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
@@ -1324,7 +1359,7 @@ typelib-1_0-GtkSource-3_0
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
-typelib-1_0-MediaArt-1_0
+typelib-1_0-MediaArt-2_0
 typelib-1_0-Meta-3_0
 typelib-1_0-NMClient-1_0
 typelib-1_0-NMGtk-1_0
@@ -1409,6 +1444,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
@@ -1426,6 +1462,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core

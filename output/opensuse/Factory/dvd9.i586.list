@@ -654,7 +654,6 @@ gnome-online-miners
 gnome-packagekit
 gnome-power-manager
 gnome-print-sharp
-gnome-pty-helper
 gnome-robots
 gnome-robots-lang
 gnome-screenshot
@@ -1057,7 +1056,8 @@ kf5-filesystem
 kfilemetadata
 kfilemetadata5
 kfilemetadata5-devel
-kgamma
+kgamma5
+kgamma5-lang
 kgeography
 kget
 kglobalaccel-devel
@@ -1432,8 +1432,8 @@ libao4
 libapparmor-devel
 libapparmor1
 libappindicator3-1
-libappstream-builder7
-libappstream-glib7
+libappstream-builder8
+libappstream-glib8
 libapr-util1
 libapr-util1-devel
 libapr1
@@ -1531,7 +1531,7 @@ libcairo-script-interpreter2
 libcairo2
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-52
+libcamel-1_2-54
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
@@ -1560,8 +1560,8 @@ libcfile1
 libcfitsio2
 libchamplain-0_12-0
 libcheese-common
-libcheese-gtk23
-libcheese7
+libcheese-gtk25
+libcheese8
 libchewing3
 libchm0
 libcholmod-3_0_6
@@ -1600,6 +1600,7 @@ libcue1
 libcurl-devel
 libcurl4
 libdaemon0
+libdatrie1
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
@@ -1640,11 +1641,11 @@ libdw1
 libe-book-0_1-1
 libebackend-1_2-10
 libebook-1_2-16
-libebook-contacts-1_2-1
-libecal-1_2-18
+libebook-contacts-1_2-2
+libecal-1_2-19
 libedata-book-1_2-25
-libedata-cal-1_2-27
-libedataserver-1_2-20
+libedata-cal-1_2-28
+libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
 libefivar0
@@ -1745,9 +1746,9 @@ libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
 libgdata-devel
-libgdata19
+libgdata22
 libgdbm4
-libgdict-1_0-8
+libgdict-1_0-9
 libgdict-data
 libgdiplus-devel
 libgdiplus0
@@ -1788,7 +1789,7 @@ libgmpxx4
 libgnome
 libgnome-bluetooth13
 libgnome-desktop-2-17
-libgnome-desktop-3-10
+libgnome-desktop-3-12
 libgnome-desktop-3-devel
 libgnome-desktop-3_0-common
 libgnome-keyring-devel
@@ -2026,7 +2027,6 @@ liblpsolve55-0
 liblqr-1-0
 liblrdf2
 libltdl7
-liblua5_1
 liblua5_2
 liblua5_3
 liblwres141
@@ -2043,7 +2043,6 @@ libmarblewidget22
 libmate-desktop-2-17
 libmbim-glib4
 libmeanwhile1
-libmediaart-1_0-0
 libmediaart-2_0-0
 libmediawiki1
 libmenu-cache3
@@ -2439,6 +2438,8 @@ libtelepathy-qt4-2
 libtelepathy-qt5-0
 libtevent-util0
 libtevent0
+libthai-data
+libthai0
 libtheora0
 libtheoradec1
 libtheoraenc1
@@ -2448,6 +2449,7 @@ libtiff-devel
 libtiff5
 libtirpc1
 libtool
+libtotem-plparser-mini18
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -2491,7 +2493,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_28-0
+libvala-0_30-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -5889,7 +5891,7 @@ typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
 typelib-1_0-LibvirtGLib-1_0
-typelib-1_0-MediaArt-1_0
+typelib-1_0-MediaArt-2_0
 typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
 typelib-1_0-NM-1_0
