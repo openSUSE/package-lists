@@ -527,7 +527,6 @@ gnome-online-accounts
 gnome-online-miners
 gnome-packagekit
 gnome-power-manager
-gnome-pty-helper
 gnome-robots
 gnome-robots-lang
 gnome-screenshot
@@ -845,7 +844,8 @@ kexec-tools
 keyutils
 kfilemetadata
 kfilemetadata5
-kgamma
+kgamma5
+kgamma5-lang
 kgeography
 kget
 kglobalaccel5
@@ -1129,8 +1129,8 @@ libao-plugins4
 libao4
 libapparmor-devel
 libapparmor1
-libappstream-builder7
-libappstream-glib7
+libappstream-builder8
+libappstream-glib8
 libapr-util1
 libapr1
 libarchive13
@@ -1227,7 +1227,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-52
+libcamel-1_2-54
 libcamgm100
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -1257,8 +1257,8 @@ libcelt051-0
 libcfitsio2
 libchamplain-0_12-0
 libcheese-common
-libcheese-gtk23
-libcheese7
+libcheese-gtk25
+libcheese8
 libchewing3
 libchm0
 libcholmod-3_0_6
@@ -1295,6 +1295,8 @@ libcryptui0
 libcue1
 libcurl4
 libdaemon0
+libdatrie1
+libdatrie1-32bit
 libdb-4_5
 libdb-4_8
 libdb-4_8-devel
@@ -1337,11 +1339,11 @@ libdw1
 libe-book-0_1-1
 libebackend-1_2-10
 libebook-1_2-16
-libebook-contacts-1_2-1
-libecal-1_2-18
+libebook-contacts-1_2-2
+libecal-1_2-19
 libedata-book-1_2-25
-libedata-cal-1_2-27
-libedataserver-1_2-20
+libedata-cal-1_2-28
+libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
 libefivar0
@@ -1436,9 +1438,9 @@ libgda-5_0-bdb
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
-libgdata19
+libgdata22
 libgdbm4
-libgdict-1_0-8
+libgdict-1_0-9
 libgdict-data
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
@@ -1481,7 +1483,7 @@ libgmpxx4
 libgnome
 libgnome-bluetooth13
 libgnome-desktop-2-17
-libgnome-desktop-3-10
+libgnome-desktop-3-12
 libgnome-desktop-3_0-common
 libgnome-keyring0
 libgnome-lang
@@ -1707,7 +1709,6 @@ liblrdf2
 liblsan0
 libltdl7
 libltdl7-32bit
-liblua5_1
 liblua5_2
 liblua5_3
 liblwres141
@@ -1722,7 +1723,6 @@ libmarblewidget22
 libmate-desktop-2-17
 libmbim-glib4
 libmeanwhile1
-libmediaart-1_0-0
 libmediaart-2_0-0
 libmediawiki1
 libmenu-cache3
@@ -2097,6 +2097,9 @@ libtevent-util0
 libtevent-util0-32bit
 libtevent0
 libtevent0-32bit
+libthai-data
+libthai0
+libthai0-32bit
 libtheora0
 libtheoradec1
 libtheoraenc1
@@ -2106,6 +2109,7 @@ libtiff5
 libtiff5-32bit
 libtirpc1
 libtool
+libtotem-plparser-mini18
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -2144,7 +2148,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_28-0
+libvala-0_30-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2491,8 +2495,6 @@ pam_ldap
 pam_ldap-32bit
 pam_mount
 pam_mount-32bit
-pango-tools
-pango-tools-32bit
 parallel-printer-support
 parcellite
 parley
@@ -3112,7 +3114,7 @@ typelib-1_0-GtkSource-3_0
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
-typelib-1_0-MediaArt-1_0
+typelib-1_0-MediaArt-2_0
 typelib-1_0-Meta-3_0
 typelib-1_0-NMClient-1_0
 typelib-1_0-NMGtk-1_0
@@ -3170,6 +3172,14 @@ vim-data
 vinagre
 vinagre-lang
 vino
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 vlan
 vorbis-tools
 vpnc

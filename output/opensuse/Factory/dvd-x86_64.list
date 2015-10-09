@@ -302,6 +302,7 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -791,6 +792,8 @@ git-email
 git-gui
 git-svn
 git-web
+gitg
+gitg-lang
 gitk
 gjs
 glabels
@@ -869,7 +872,6 @@ gnome-online-miners
 gnome-packagekit
 gnome-photos
 gnome-power-manager
-gnome-pty-helper
 gnome-robots
 gnome-robots-lang
 gnome-screenshot
@@ -1111,6 +1113,7 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk-32bit
 ibus-gtk3
+ibus-libpinyin
 ibus-libzhuyin
 ibus-m17n
 ibus-mozc
@@ -1411,7 +1414,8 @@ kfilemetadata5
 kfilemetadata5-devel
 kfilereplace
 kfloppy
-kgamma
+kgamma5
+kgamma5-lang
 kgeography
 kget
 kglobalaccel-devel
@@ -1882,8 +1886,8 @@ libapparmor-devel
 libapparmor1
 libapparmor1-32bit
 libappindicator3-1
-libappstream-builder7
-libappstream-glib7
+libappstream-builder8
+libappstream-glib8
 libapr-util1
 libapr-util1-devel
 libapr1
@@ -2002,7 +2006,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-52
+libcamel-1_2-54
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
@@ -2038,8 +2042,8 @@ libcelt051-0
 libcfitsio2
 libchamplain-0_12-0
 libcheese-common
-libcheese-gtk23
-libcheese7
+libcheese-gtk25
+libcheese8
 libchewing3
 libchm0
 libcholmod-3_0_6
@@ -2082,6 +2086,8 @@ libcurl-devel
 libcurl4
 libdaemon0
 libdar5000
+libdatrie1
+libdatrie1-32bit
 libdb-4_5
 libdb-4_8
 libdb-4_8-32bit
@@ -2139,12 +2145,12 @@ libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
 libebook-1_2-16
-libebook-contacts-1_2-1
-libecal-1_2-18
+libebook-contacts-1_2-2
+libecal-1_2-19
 libecpg6
 libedata-book-1_2-25
-libedata-cal-1_2-27
-libedataserver-1_2-20
+libedata-cal-1_2-28
+libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
 libeews-1_2-0
@@ -2271,10 +2277,10 @@ libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
 libgdata-devel
-libgdata19
+libgdata22
 libgdbm4
 libgdbm4-32bit
-libgdict-1_0-8
+libgdict-1_0-9
 libgdict-data
 libgdiplus0
 libgdk_pixbuf-2_0-0
@@ -2305,6 +2311,9 @@ libgio-2_0-0-32bit
 libgiomm-2_4-1
 libgirepository-1_0-1
 libgit2-23
+libgit2-glib-1_0-0
+libgitg-1_0-0
+libgitg-ext-1_0-0
 libgjs0
 libglade-2_0-0
 libglademm
@@ -2328,7 +2337,7 @@ libgmpxx4
 libgnome
 libgnome-bluetooth13
 libgnome-desktop-2-17
-libgnome-desktop-3-10
+libgnome-desktop-3-12
 libgnome-desktop-3-devel
 libgnome-desktop-3_0-common
 libgnome-devel
@@ -2651,7 +2660,6 @@ liblrdf2
 liblsan0
 libltdl7
 libltdl7-32bit
-liblua5_1
 liblua5_2
 liblua5_3
 liblua5_3-32bit
@@ -2672,7 +2680,6 @@ libmate-desktop-2-17
 libmbim-glib4
 libmcrypt
 libmeanwhile1
-libmediaart-1_0-0
 libmediaart-2_0-0
 libmediawiki-devel
 libmediawiki1
@@ -3215,6 +3222,9 @@ libtevent-util0
 libtevent-util0-32bit
 libtevent0
 libtevent0-32bit
+libthai-data
+libthai0
+libthai0-32bit
 libtheora-devel
 libtheora0
 libtheoradec1
@@ -3228,6 +3238,7 @@ libtiff5-32bit
 libtimidity-0_1-0
 libtirpc1
 libtool
+libtotem-plparser-mini18
 libtotem-plparser18
 libtracker-common-1_0
 libtracker-control-1_0-0
@@ -3283,7 +3294,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_28-0
+libvala-0_30-0
 libvamp-hostsdk3
 libvcdinfo0
 libvdeplug3
@@ -3829,8 +3840,6 @@ pam_ssh-32bit
 pan
 pan-lang
 pango-devel
-pango-tools
-pango-tools-32bit
 paprefs
 paprefs-lang
 par
@@ -4998,7 +5007,7 @@ typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
 typelib-1_0-LibvirtGLib-1_0
-typelib-1_0-MediaArt-1_0
+typelib-1_0-MediaArt-2_0
 typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
 typelib-1_0-NM-1_0
@@ -5088,6 +5097,14 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox
+virtualbox-guest-kmp-default
+virtualbox-guest-kmp-desktop
+virtualbox-guest-tools
+virtualbox-guest-x11
+virtualbox-host-kmp-default
+virtualbox-host-kmp-desktop
+virtualbox-qt
 vlan
 vlock
 vm-install
