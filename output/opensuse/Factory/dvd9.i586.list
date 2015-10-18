@@ -1039,11 +1039,10 @@ keditbookmarks
 kemoticons-devel
 kernel-default
 kernel-default-devel
-kernel-desktop
-kernel-desktop-devel
 kernel-devel
 kernel-firmware
 kernel-macros
+kernel-pae
 kernel-pae-devel
 kernel-pv-devel
 kernel-source
@@ -2212,7 +2211,7 @@ libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler55
+libpoppler56
 libpopt0
 libportaudio2
 libpresage1
@@ -5969,11 +5968,11 @@ virt-manager-common
 virt-viewer
 virtualbox
 virtualbox-guest-kmp-default
-virtualbox-guest-kmp-desktop
+virtualbox-guest-kmp-pae
 virtualbox-guest-tools
 virtualbox-guest-x11
 virtualbox-host-kmp-default
-virtualbox-host-kmp-desktop
+virtualbox-host-kmp-pae
 virtualbox-qt
 vlan
 vm-install
