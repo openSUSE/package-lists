@@ -280,6 +280,7 @@ branding-openSUSE
 brasero
 brasero-nautilus
 breeze
+breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -532,6 +533,10 @@ dosfstools
 doxygen
 dracut
 dragonplayer
+drbd
+drbd-kmp-default
+drbd-kmp-xen
+drbd-utils
 dri2proto-devel
 dri3proto-devel
 drkonqi5
@@ -570,6 +575,7 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
+esound-daemon
 espeak
 etags
 ethtool
@@ -604,8 +610,6 @@ fcitx-branding-openSUSE
 fcitx-chewing
 fcitx-cloudpinyin
 fcitx-config-gtk3
-fcitx-config-kde5
-fcitx-config-kde5-icons
 fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
@@ -825,8 +829,6 @@ gnome-contacts
 gnome-control-center
 gnome-control-center-color
 gnome-control-center-user-faces
-gnome-desktop2
-gnome-desktop2-lang
 gnome-dictionary
 gnome-disk-utility
 gnome-doc-utils
@@ -923,6 +925,7 @@ gparted
 gperf
 gpg2
 gpgme
+gpgmepp5
 gpm
 gpsd
 gpsd-devel
@@ -1397,6 +1400,8 @@ kexec-tools
 keyutils
 keyutils-devel
 kf5-filesystem
+kf5-kcm-fcitx
+kf5-kcm-fcitx-icons
 kfilemetadata
 kfilemetadata5
 kfilemetadata5-devel
@@ -1893,6 +1898,7 @@ libaspell15
 libass5
 libassuan-devel
 libassuan0
+libastro-qt5-1
 libastro1
 libatasmart4
 libatk-1_0-0
@@ -2125,6 +2131,7 @@ libdrm_nouveau2-32bit
 libdrm_radeon1
 libdrm_radeon1-32bit
 libdv4
+libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
@@ -2133,6 +2140,7 @@ libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
+libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2324,7 +2332,6 @@ libgmp10-32bit
 libgmpxx4
 libgnome
 libgnome-bluetooth13
-libgnome-desktop-2-17
 libgnome-desktop-3-12
 libgnome-desktop-3-devel
 libgnome-desktop-3_0-common
@@ -2667,6 +2674,7 @@ libmal1
 libmarblewidget-qt5-22
 libmarblewidget22
 libmate-desktop-2-17
+libmatroska6
 libmbim-glib4
 libmcrypt
 libmeanwhile1
@@ -2900,6 +2908,7 @@ libpresage1
 libprison-devel
 libprison0
 libprocps5
+libprojectM2
 libprotobuf-c1
 libproxy-devel
 libproxy1
@@ -3189,6 +3198,7 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample1
+libswscale3
 libsystemd0
 libsystemd0-32bit
 libtag-devel
@@ -3256,6 +3266,7 @@ libunicap2
 libunique-1_0-0
 libunistring2
 libunwind
+libupnp6
 libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
@@ -3316,6 +3327,7 @@ libvirt-daemon-driver-secret
 libvirt-daemon-driver-storage
 libvirt-daemon-driver-uml
 libvirt-daemon-driver-vbox
+libvirt-daemon-lxc
 libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
@@ -3323,6 +3335,8 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
+libvlc5
+libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -4384,7 +4398,6 @@ pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4919,8 +4932,6 @@ trapproto-devel
 tre
 tre-lang
 treeline
-tsclient
-tsclient-lang
 tumbler
 tumbler-lang
 tuned
@@ -5086,6 +5097,11 @@ virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
+vlc
+vlc-gnome
+vlc-noX
+vlc-noX-lang
+vlc-qt
 vlock
 vm-install
 vobject
@@ -5165,6 +5181,7 @@ xdmbgrd
 xdotool
 xdpyinfo
 xedit
+xembed-sni-proxy
 xen
 xen-doc-html
 xen-kmp-default
@@ -5437,8 +5454,6 @@ yast2-core-devel
 yast2-country
 yast2-country-data
 yast2-devel-doc
-yast2-dhcp-server
-yast2-dns-server
 yast2-drbd
 yast2-firewall
 yast2-firstboot

@@ -59,6 +59,7 @@ bluez-qt-udev
 boost-license1_58_0
 branding-openSUSE
 breeze
+breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -148,6 +149,7 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gdb
+gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
@@ -167,6 +169,7 @@ google-droid-fonts
 google-opensans-fonts
 gpart
 gpg2
+gpgmepp5
 gpm
 gptfdisk
 grep
@@ -322,6 +325,7 @@ kwin5
 kwrite
 less
 libFLAC8
+libGLEW1_13
 libGLU1
 libHalf12
 libICE6
@@ -416,6 +420,7 @@ libQt5Xml5
 libQt5XmlPatterns5
 libQtQuick5
 libSDL-1_2-0
+libSDL_image-1_2-0
 libSM6
 libX11-6
 libX11-data
@@ -446,6 +451,7 @@ libXtst6
 libXv1
 libXxf86misc1
 libXxf86vm1
+libaa1
 libaccounts-glib0
 libaccounts-qt5-1
 libacl1
@@ -459,6 +465,7 @@ libarchive13
 libasm1
 libasound2
 libaspell15
+libass5
 libassuan0
 libatasmart4
 libatk-1_0-0
@@ -473,6 +480,7 @@ libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libavc1394-0
 libavcodec56
 libavformat56
 libavutil54
@@ -487,6 +495,7 @@ libbtrfs0
 libburn4
 libburnia-tools
 libbz2-1
+libcaca0
 libcairo-gobject2
 libcairo2
 libcanberra-gtk-module-common
@@ -499,6 +508,9 @@ libcap-ng0
 libcap2
 libcdda_interface0
 libcdda_paranoia0
+libcddb2
+libcdio16
+libchromaprint0
 libclucene-core1
 libclucene-shared1
 libcolord2
@@ -514,6 +526,7 @@ libdb-4_8
 libdbus-1-3
 libdbusmenu-qt2
 libdbusmenu-qt5-2
+libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
@@ -527,11 +540,16 @@ libdrm_amdgpu1
 libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
+libdvbpsi10
+libdvdnav4
+libdvdread4
 libdw1
+libebml4
 libedit0
 libefivar0
 libelf0
 libelf1
+libenca0
 libenchant1
 libepoxy0
 libepub0
@@ -553,6 +571,8 @@ libfreebl3
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
+libfribidi0
+libftgl2
 libfuse2
 libgbm1
 libgc1
@@ -571,6 +591,7 @@ libgio-2_0-0
 libgirepository-1_0-1
 libgit2-23
 libglib-2_0-0
+libgme0
 libgmodule-2_0-0
 libgmp10
 libgnome-keyring0
@@ -618,6 +639,7 @@ libisc148
 libisccc140
 libisccfg140
 libisl13
+libiso9660-10
 libisoburn1
 libisofs6
 libiw30
@@ -672,6 +694,7 @@ liblwres141
 liblzma5
 liblzo2-2
 libmagic1
+libmatroska6
 libmbim-glib4
 libmetalink3
 libmicrohttpd10
@@ -679,6 +702,7 @@ libmm-glib0
 libmng2
 libmnl0
 libmodman1
+libmodplug1
 libmount1
 libmozjs-17_0
 libmpc3
@@ -712,6 +736,7 @@ libntfs-3g86
 libogg0
 liboggkate1
 libopenal1
+libopencv2_4
 libopenjp2-7
 libopenjpeg1
 libopenssl1_0_0
@@ -747,6 +772,7 @@ libpoppler56
 libpopt0
 libprison0
 libprocps5
+libprojectM2
 libproxy1
 libproxy1-config-kde4
 libproxy1-networkmanager
@@ -779,6 +805,7 @@ libraw10
 libraw1394-11
 libreadline6
 librest0
+librsvg-2-2
 libruby2_2-2_2
 libsamba-credentials0
 libsamba-hostconfig0
@@ -788,6 +815,7 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
+libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libselinux1
@@ -795,6 +823,7 @@ libsemanage1
 libsensors4
 libsepol1
 libsgutils2-1_41-2
+libshout3
 libsignon-qt5-1
 libslang2
 libsmartcols1
@@ -820,6 +849,7 @@ libstorage-ruby
 libstorage6
 libstreamanalyzer0
 libswresample1
+libswscale3
 libsystemd0
 libtag1
 libtalloc2
@@ -831,6 +861,7 @@ libtevent-util0
 libtevent0
 libthai-data
 libthai0
+libtheora0
 libtheoradec1
 libtheoraenc1
 libtidy-0_99-0
@@ -842,6 +873,7 @@ libudev1
 libudisks2-0
 libunistring2
 libunwind
+libupnp6
 libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
@@ -858,9 +890,12 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
+libvcdinfo0
 libvdpau_nouveau
 libverto1
 libvisual
+libvlc5
+libvlccore8
 libvncclient0
 libvncserver0
 libvorbis0
@@ -900,6 +935,7 @@ libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
 libxcb-xkb1
+libxcb-xv0
 libxcb1
 libxkbcommon-x11-0
 libxkbcommon0
@@ -918,6 +954,7 @@ libyui7
 libz1
 libzio1
 libzip4
+libzvbi0
 libzypp
 linuxconsoletools
 lockdev
@@ -1219,6 +1256,10 @@ util-linux
 util-linux-systemd
 vaapi-dummy-driver
 vim
+vlc
+vlc-noX
+vlc-noX-lang
+vlc-qt
 vorbis-tools
 vpnc
 wallpaper-branding-openSUSE
@@ -1238,6 +1279,7 @@ xdg-menu
 xdg-user-dirs
 xdg-utils
 xdm
+xembed-sni-proxy
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

@@ -284,6 +284,7 @@ branding-openSUSE
 brasero
 brasero-nautilus
 breeze
+breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -544,8 +545,6 @@ fcitx-branding-openSUSE
 fcitx-chewing
 fcitx-cloudpinyin
 fcitx-config-gtk3
-fcitx-config-kde5
-fcitx-config-kde5-icons
 fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
@@ -698,8 +697,6 @@ gnome-contacts
 gnome-control-center
 gnome-control-center-color
 gnome-control-center-user-faces
-gnome-desktop2
-gnome-desktop2-lang
 gnome-dictionary
 gnome-disk-utility
 gnome-doc-utils
@@ -787,6 +784,7 @@ gparted
 gperf
 gpg2
 gpgme
+gpgmepp5
 gpm
 gptfdisk
 graphite2-devel
@@ -1186,6 +1184,8 @@ kexec-tools
 keyutils
 keyutils-devel
 kf5-filesystem
+kf5-kcm-fcitx
+kf5-kcm-fcitx-icons
 kfilemetadata
 kfilemetadata5
 kfilemetadata5-devel
@@ -1347,7 +1347,6 @@ libHalf12
 libICE-devel
 libICE6
 libICE6-32bit
-libIDL-2-0
 libIex-2_2-12
 libIexMath-2_2-12
 libIlmImf-2_2-22
@@ -1476,6 +1475,7 @@ libQtWebKit4
 libSDL-1_2-0
 libSDL-devel
 libSDL_gfx15
+libSDL_image-1_2-0
 libSM-devel
 libSM6
 libSM6-32bit
@@ -1566,6 +1566,7 @@ libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
 libXxf86vm1-32bit
+libaa1
 libabiword-3_0
 libabw-0_1-1
 libaccounts-glib0
@@ -1600,6 +1601,7 @@ libaspell15
 libass5
 libassuan-devel
 libassuan0
+libastro-qt5-1
 libastro1
 libatasmart4
 libatk-1_0-0
@@ -1630,6 +1632,7 @@ libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
 libavahi-ui-gtk3-0
+libavc1394-0
 libavcodec56
 libavformat56
 libavogadro1
@@ -1644,10 +1647,6 @@ libblkid1
 libblkid1-32bit
 libbluetooth3
 libbluray1
-libbonobo
-libbonobo-lang
-libbonoboui
-libbonoboui-lang
 libboost_atomic1_58_0
 libboost_chrono1_58_0
 libboost_container1_58_0
@@ -1683,6 +1682,7 @@ libburnia-tools
 libbz2-1
 libbz2-1-32bit
 libbz2-devel
+libcaca0
 libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
@@ -1797,12 +1797,14 @@ libdrm_nouveau2-32bit
 libdrm_radeon1
 libdrm_radeon1-32bit
 libdv4
+libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
+libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -1881,6 +1883,7 @@ libfreerdp-1_0-plugins
 libfreetype6
 libfreetype6-32bit
 libfribidi0
+libftgl2
 libfuse2
 libgadu3
 libgarcon-1-0
@@ -1956,23 +1959,18 @@ libgmodule-2_0-0-32bit
 libgmp10
 libgmp10-32bit
 libgmpxx4
-libgnome
 libgnome-bluetooth13
-libgnome-desktop-2-17
 libgnome-desktop-3-12
 libgnome-desktop-3-devel
 libgnome-desktop-3_0-common
 libgnome-keyring-devel
 libgnome-keyring0
-libgnome-lang
 libgnome-menu-3-0
 libgnomecanvas-2-0
 libgnomecanvas-lang
 libgnomekbd
 libgnomesu
 libgnomesu0
-libgnomeui
-libgnomeui-lang
 libgnutls-devel
 libgnutls30
 libgnutls30-32bit
@@ -2231,6 +2229,7 @@ libmal1
 libmarblewidget-qt5-22
 libmarblewidget22
 libmate-desktop-2-17
+libmatroska6
 libmbim-glib4
 libmeanwhile1
 libmediaart-2_0-0
@@ -2418,6 +2417,7 @@ libportaudio2
 libpresage1
 libprison0
 libprocps5
+libprojectM2
 libprotobuf-c1
 libproxy1
 libproxy1-config-gnome3
@@ -2621,6 +2621,7 @@ libsepol1-32bit
 libserf-1-1
 libserializer
 libsgutils2-1_41-2
+libshout3
 libsidplay1
 libsigc-2_0-0
 libsignon-glib1
@@ -2688,6 +2689,7 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample1
+libswscale3
 libsystemd0
 libsystemd0-32bit
 libtag-extras1
@@ -2742,6 +2744,7 @@ libudisks2-0
 libunique-1_0-0
 libunistring2
 libunwind
+libupnp6
 libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
@@ -2797,6 +2800,8 @@ libvirt-glib-1_0-0
 libvirt-python
 libvisio-0_1-1
 libvisual
+libvlc5
+libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -2950,6 +2955,7 @@ libzhuyin7
 libzinnia0
 libzio1
 libzip4
+libzvbi0
 libzypp
 libzypp-plugin-appdata
 liferea
@@ -3220,7 +3226,6 @@ optipng
 orage
 orage-doc
 orage-lang
-orbit2
 orca
 oro
 os-prober
@@ -3966,8 +3971,6 @@ translation-update-zh_TW
 transmission-common
 transmission-gtk
 trapproto-devel
-tsclient
-tsclient-lang
 tumbler
 tumbler-lang
 tuned
@@ -4113,6 +4116,11 @@ virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
+vlc
+vlc-gnome
+vlc-noX
+vlc-noX-lang
+vlc-qt
 vm-install
 vorbis-tools
 vpnc
@@ -4156,6 +4164,7 @@ xdg-utils
 xdm
 xdmbgrd
 xdotool
+xembed-sni-proxy
 xen
 xen-doc-html
 xen-kmp-default
@@ -4320,8 +4329,6 @@ yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
-yast2-dhcp-server
-yast2-dns-server
 yast2-firewall
 yast2-fonts
 yast2-ftp-server
