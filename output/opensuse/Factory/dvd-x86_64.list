@@ -232,9 +232,10 @@ b43-fwcutter
 baloo-core
 baloo-kioslaves
 baloo-pim
-baloo-tools
 baloo5-devel
 baloo5-file
+baloo5-kioslaves
+baloo5-tools
 baloo5-widgets
 baobab
 bash
@@ -1411,7 +1412,6 @@ keyutils-devel
 kf5-filesystem
 kf5-kcm-fcitx
 kf5-kcm-fcitx-icons
-kfilemetadata
 kfilemetadata5
 kfilemetadata5-devel
 kfilereplace
@@ -2140,7 +2140,6 @@ libdrm_nouveau2-32bit
 libdrm_radeon1
 libdrm_radeon1-32bit
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
@@ -2149,7 +2148,6 @@ libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2302,8 +2300,8 @@ libgensec0-32bit
 libgeoclue0
 libgeocode-glib0
 libges-1_0-0
-libgetdata++3
-libgetdata5
+libgetdata++6
+libgetdata7
 libgexiv2-2
 libgfbgraph-0_2-0
 libgfortran3
@@ -2685,7 +2683,6 @@ libmal1
 libmarblewidget-qt5-22
 libmarblewidget22
 libmate-desktop-2-17
-libmatroska6
 libmbim-glib4
 libmcrypt
 libmeanwhile1
@@ -2919,7 +2916,6 @@ libpresage1
 libprison-devel
 libprison0
 libprocps5
-libprojectM2
 libprotobuf-c1
 libproxy-devel
 libproxy1
@@ -3210,7 +3206,6 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample1
-libswscale3
 libsystemd0
 libsystemd0-32bit
 libtag-devel
@@ -3278,7 +3273,6 @@ libunicap2
 libunique-1_0-0
 libunistring2
 libunwind
-libupnp6
 libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
@@ -3347,8 +3341,6 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -5118,11 +5110,6 @@ virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
-vlc
-vlc-gnome
-vlc-noX
-vlc-noX-lang
-vlc-qt
 vlock
 vm-install
 vobject
@@ -5478,6 +5465,8 @@ yast2-core-devel
 yast2-country
 yast2-country-data
 yast2-devel-doc
+yast2-dhcp-server
+yast2-dns-server
 yast2-drbd
 yast2-firewall
 yast2-firstboot

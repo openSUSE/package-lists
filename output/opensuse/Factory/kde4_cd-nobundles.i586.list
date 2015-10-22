@@ -70,10 +70,11 @@ b43-fwcutter
 baloo-core
 baloo-kioslaves
 baloo-pim
-baloo-tools
 baloo5
 baloo5-file
+baloo5-kioslaves
 baloo5-lang
+baloo5-tools
 baloo5-widgets
 bash
 bash-completion
@@ -165,6 +166,7 @@ dolphin
 dolphin-part
 dosfstools
 dracut
+dragonplayer
 drkonqi5
 dvd+rw-tools
 e2fsprogs
@@ -373,7 +375,6 @@ keditbookmarks
 kernel-default
 kernel-firmware
 keyutils
-kfilemetadata
 kfilemetadata5
 kfilemetadata5-lang
 kgamma5
@@ -595,7 +596,6 @@ libQt5XmlPatterns5
 libQtQuick5
 libQtWebKit4
 libSDL-1_2-0
-libSDL_image-1_2-0
 libSM6
 libX11-6
 libX11-data
@@ -627,7 +627,6 @@ libXv1
 libXvMC1
 libXxf86misc1
 libXxf86vm1
-libaa1
 libabw-0_1-1
 libaccounts-glib0
 libaccounts-qt5-1
@@ -642,7 +641,6 @@ libarchive13
 libasm1
 libasound2
 libaspell15
-libass5
 libassuan0
 libastro1
 libatasmart4
@@ -659,7 +657,6 @@ libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
-libavc1394-0
 libavcodec56
 libavformat56
 libavutil54
@@ -681,7 +678,6 @@ libbtrfs0
 libburn4
 libburnia-tools
 libbz2-1
-libcaca0
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
@@ -696,10 +692,8 @@ libcap2
 libcares2
 libcdda_interface0
 libcdda_paranoia0
-libcddb2
 libcdio16
 libcdr-0_1-1
-libchromaprint0
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
@@ -735,12 +729,9 @@ libdrm_amdgpu1
 libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
-libdvbpsi10
-libdvdnav4
 libdvdread4
 libdw1
 libe-book-0_1-1
-libebml4
 libedit0
 libefivar0
 libelf0
@@ -774,8 +765,6 @@ libfreehand-0_1-1
 libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
-libfribidi0
-libftgl2
 libfuse2
 libgadu3
 libgbm1
@@ -799,7 +788,6 @@ libgit2-23
 libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
-libgme0
 libgmodule-2_0-0
 libgmp10
 libgnome-keyring0
@@ -943,7 +931,6 @@ liblzma5
 liblzo2-2
 libmagic1
 libmarblewidget22
-libmatroska6
 libmbim-glib4
 libmeanwhile1
 libmediawiki1
@@ -953,7 +940,6 @@ libmm-glib0
 libmng2
 libmnl0
 libmodman1
-libmodplug1
 libmount1
 libmozjs-17_0
 libmpc3
@@ -1037,14 +1023,12 @@ libpng16-16
 libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit0
-libpoppler-qt4-4
 libpoppler-qt5-1
 libpoppler56
 libpopt0
 libportaudio2
 libprison0
 libprocps5
-libprojectM2
 libprotobuf-c1
 libproxy1
 libproxy1-config-kde4
@@ -1116,7 +1100,6 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
-libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -1125,7 +1108,6 @@ libsemanage1
 libsensors4
 libsepol1
 libsgutils2-1_41-2
-libshout3
 libsigc-2_0-0
 libsignon-qt5-1
 libslang2
@@ -1158,7 +1140,6 @@ libstorage-ruby
 libstorage6
 libstreamanalyzer0
 libswresample1
-libswscale3
 libsystemd0
 libtag-extras1
 libtag1
@@ -1172,7 +1153,6 @@ libtevent-util0
 libtevent0
 libthai-data
 libthai0
-libtheora0
 libtheoradec1
 libtheoraenc1
 libtidy-0_99-0
@@ -1184,7 +1164,6 @@ libudev1
 libudisks2-0
 libunistring2
 libunwind
-libupnp6
 libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
@@ -1211,8 +1190,6 @@ libverto1
 libvigraimpex5
 libvisio-0_1-1
 libvisual
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -1258,7 +1235,6 @@ libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
 libxcb-xkb1
-libxcb-xv0
 libxcb1
 libxerces-c-3_1
 libxkbcommon-x11-0
@@ -1280,7 +1256,6 @@ libyui7
 libz1
 libzio1
 libzip4
-libzvbi0
 libzypp
 linuxconsoletools
 lockdev
@@ -1309,7 +1284,6 @@ milou5-lang
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
-mobipocket
 moodbar
 mozilla-kde4-integration
 mozilla-nspr
@@ -1691,10 +1665,6 @@ vim
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
 virtualbox-guest-x11
-vlc
-vlc-noX
-vlc-noX-lang
-vlc-qt
 vorbis-tools
 vorbis-tools-lang
 vpnc

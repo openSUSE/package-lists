@@ -126,8 +126,9 @@ b43-fwcutter
 baloo-core
 baloo-kioslaves
 baloo-pim
-baloo-tools
 baloo5-file
+baloo5-kioslaves
+baloo5-tools
 baloo5-widgets
 baobab
 bash
@@ -310,6 +311,7 @@ dolphin-part
 dos2unix
 dosfstools
 dracut
+dragonplayer
 drkonqi5
 dtv-scan-tables
 duplicity
@@ -448,7 +450,6 @@ ghostscript-x11
 gimp
 gimp-help
 gimp-help-browser
-gimp-plugin-aa
 gimp-plugins-python
 gio-branding-openSUSE
 girepository-1_0
@@ -824,7 +825,6 @@ kexec-tools
 keyutils
 kf5-kcm-fcitx
 kf5-kcm-fcitx-icons
-kfilemetadata
 kfilemetadata5
 kgamma5
 kgamma5-lang
@@ -1040,7 +1040,6 @@ libQtQuick5
 libQtWebKit4
 libSDL-1_2-0
 libSDL_gfx15
-libSDL_image-1_2-0
 libSM6
 libSoundTouch0
 libX11-6
@@ -1073,7 +1072,6 @@ libXv1
 libXvMC1
 libXxf86misc1
 libXxf86vm1
-libaa1
 libabiword-3_0
 libabw-0_1-1
 libaccounts-glib0
@@ -1124,7 +1122,6 @@ libavahi-core7
 libavahi-glib1
 libavahi-gobject0
 libavahi-ui-gtk3-0
-libavc1394-0
 libavcodec56
 libavformat56
 libavogadro1
@@ -1172,7 +1169,6 @@ libbtrfs0
 libburn4
 libburnia-tools
 libbz2-1
-libcaca0
 libcacard0
 libcairo-gobject2
 libcairo2
@@ -1267,13 +1263,11 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -1340,7 +1334,6 @@ libfreerdp-1_0
 libfreerdp-1_0-plugins
 libfreetype6
 libfribidi0
-libftgl2
 libfuse2
 libgadu3
 libgarcon-1-0
@@ -1622,7 +1615,6 @@ libmagic1
 libmarblewidget-qt5-22
 libmarblewidget22
 libmate-desktop-2-17
-libmatroska6
 libmbim-glib4
 libmeanwhile1
 libmediaart-2_0-0
@@ -1767,7 +1759,6 @@ libportaudio2
 libpresage1
 libprison0
 libprocps5
-libprojectM2
 libprotobuf-c1
 libproxy1
 libproxy1-config-gnome3
@@ -1883,7 +1874,6 @@ libsepol1
 libserf-1-1
 libserializer
 libsgutils2-1_41-2
-libshout3
 libsidplay1
 libsigc-2_0-0
 libsignon-glib1
@@ -1940,7 +1930,6 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample1
-libswscale3
 libsystemd0
 libtag-extras1
 libtag1
@@ -1983,7 +1972,6 @@ libumfpack-5_7_1
 libunique-1_0-0
 libunistring2
 libunwind
-libupnp6
 libupower-glib3
 libusb-0_1-4
 libusb-1_0-0
@@ -2017,8 +2005,6 @@ libverto1
 libvigraimpex5
 libvisio-0_1-1
 libvisual
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -2128,7 +2114,6 @@ libzhuyin-data
 libzhuyin7
 libzio1
 libzip4
-libzvbi0
 libzypp
 libzypp-plugin-appdata
 liferea
@@ -3000,11 +2985,6 @@ virtualbox-host-kmp-default
 virtualbox-host-kmp-pae
 virtualbox-qt
 vlan
-vlc
-vlc-gnome
-vlc-noX
-vlc-noX-lang
-vlc-qt
 vorbis-tools
 vpnc
 vsftpd
@@ -3169,6 +3149,8 @@ yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
+yast2-dhcp-server
+yast2-dns-server
 yast2-firewall
 yast2-fonts
 yast2-ftp-server
