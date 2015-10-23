@@ -507,7 +507,6 @@ dialog
 diffstat
 diffutils
 digikam
-digikam-doc
 ding
 ding-dict-de_en
 djvulibre
@@ -662,6 +661,7 @@ fprintd-pam
 frameworkintegration-devel
 frameworkintegration-plugin
 freeglut-devel
+freeipmi
 freerdp
 freetype2-devel
 frei0r-plugins
@@ -702,6 +702,11 @@ gcc5-locale
 gcc5-objc
 gccmakedep
 gcin
+gcin-branding-openSUSE
+gcin-gtk2-immodule
+gcin-gtk3-immodule
+gcin-qt4-immodule
+gcin-qt5-immodule
 gcolor2
 gconf-editor
 gconf-editor-lang
@@ -773,18 +778,6 @@ giggle-lang
 gimp
 gimp-help
 gimp-help-browser
-gimp-help-da
-gimp-help-de
-gimp-help-el
-gimp-help-en_GB
-gimp-help-es
-gimp-help-fr
-gimp-help-it
-gimp-help-ja
-gimp-help-pl
-gimp-help-pt_BR
-gimp-help-ru
-gimp-help-zh
 gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
@@ -918,16 +911,19 @@ gnu-jaf
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gnuchess
-gnumeric
 gnutls
 gobject-introspection
 gobject-introspection-devel
 goffice-0_8-lang
 goffice-lang
+google-arimo-fonts
 google-carlito-fonts
+google-cousine-fonts
 google-croscore-fonts
 google-droid-fonts
 google-opensans-fonts
+google-symbolneu-fonts
+google-tinos-fonts
 gpart
 gparted
 gperf
@@ -1324,7 +1320,6 @@ kde-l10n-es-data
 kde-l10n-es-doc
 kde-l10n-fr
 kde-l10n-fr-data
-kde-l10n-fr-doc
 kde-l10n-hu
 kde-l10n-it
 kde-l10n-it-data
@@ -1332,14 +1327,11 @@ kde-l10n-it-doc
 kde-l10n-ja
 kde-l10n-pl
 kde-l10n-pl-data
-kde-l10n-pl-doc
 kde-l10n-pt
 kde-l10n-pt_BR
 kde-l10n-pt_BR-data
-kde-l10n-pt_BR-doc
 kde-l10n-ru
 kde-l10n-ru-data
-kde-l10n-ru-doc
 kde-l10n-zh_CN
 kde-l10n-zh_TW
 kde-oxygen-fonts
@@ -2774,9 +2766,9 @@ libply-splash-core2
 libply-splash-graphics2
 libply2
 libpng12-0
-libpng12-compat-devel
 libpng12-devel
 libpng16-16
+libpng16-compat-devel
 libpng16-devel
 libpodofo-devel
 libpodofo0_9_3
@@ -2794,6 +2786,7 @@ libpoppler56
 libpopt0
 libportaudio2
 libportmidi0
+libpowerman0
 libpq5
 libpqxx-4_0
 libpqxx-devel
@@ -3097,6 +3090,7 @@ libtirpc1
 libtool
 libtotem-plparser-mini18
 libtotem-plparser18
+libtowitoko2
 libtracker-common-1_0
 libtracker-control-1_0-0
 libtracker-miner-1_0-0
@@ -3120,6 +3114,7 @@ libunique-1_0-0
 libunistring2
 libunwind
 libupower-glib3
+libupsclient1
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-devel
@@ -3569,6 +3564,7 @@ numad
 numlockx
 nuoveXT2-icon-theme
 nut
+nut-cgi
 nxtvepg
 obconf
 obs-service-download_files
@@ -3636,7 +3632,6 @@ oro
 os-prober
 osc
 oxygen-icon-theme
-oxygen-icon-theme-large
 oxygen5
 oxygen5-cursors
 oxygen5-decoration
@@ -4176,7 +4171,6 @@ polkit-default-privs
 polkit-devel
 polkit-gnome
 polkit-kde-agent-5
-poppler-data
 poppler-tools
 popt-devel
 posix_cc
@@ -4509,7 +4503,6 @@ seahorse
 seahorse-daemon
 seahorse-sharing
 seahorse-sharing-lang
-seamonkey
 sed
 selinux-doc
 sendfax
@@ -4715,7 +4708,6 @@ tigervnc
 time
 timezone
 timezone-java
-timidity
 tk
 tmpwatch
 tnftp
@@ -4953,7 +4945,6 @@ wicked
 wicked-service
 wiggle
 wine
-wine-gecko
 wireless-regdb
 wireless-tools
 wireshark
