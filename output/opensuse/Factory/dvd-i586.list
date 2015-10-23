@@ -72,6 +72,7 @@ acpid
 adaptec-firmware
 adjtimex
 adobe-sourcecodepro-fonts
+adobe-sourcehansans-fonts
 adobe-sourcesanspro-fonts
 adobe-sourceserifpro-fonts
 adwaita-icon-theme
@@ -162,6 +163,7 @@ aria2
 aria2-lang
 ark
 armagetron
+arphic-ukai-fonts
 arphic-uming-fonts
 arpwatch
 arpwatch-ethercodes
@@ -396,6 +398,7 @@ clucene-core-devel
 clutter-devel
 clutter-gst-devel
 clutter-gtk-devel
+cm-unicode-fonts
 cmake
 cmpi-provider-register
 cogl-devel
@@ -442,6 +445,7 @@ curl
 cvs
 cvsps
 cyradm
+cyreal-lobster-cyrillic-fonts
 cyrus-imapd
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -503,6 +507,7 @@ dialog
 diffstat
 diffutils
 digikam
+digikam-doc
 ding
 ding-dict-de_en
 djvulibre
@@ -696,6 +701,7 @@ gcc5-java
 gcc5-locale
 gcc5-objc
 gccmakedep
+gcin
 gcolor2
 gconf-editor
 gconf-editor-lang
@@ -767,6 +773,18 @@ giggle-lang
 gimp
 gimp-help
 gimp-help-browser
+gimp-help-da
+gimp-help-de
+gimp-help-el
+gimp-help-en_GB
+gimp-help-es
+gimp-help-fr
+gimp-help-it
+gimp-help-ja
+gimp-help-pl
+gimp-help-pt_BR
+gimp-help-ru
+gimp-help-zh
 gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
@@ -900,12 +918,14 @@ gnu-jaf
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 gnuchess
+gnumeric
 gnutls
 gobject-introspection
 gobject-introspection-devel
 goffice-0_8-lang
 goffice-lang
 google-carlito-fonts
+google-croscore-fonts
 google-droid-fonts
 google-opensans-fonts
 gpart
@@ -1169,10 +1189,13 @@ intlfonts-japanese-big-bitmap-fonts
 intlfonts-japanese-bitmap-fonts
 intltool
 iodbc
+ipa-ex-gothic-fonts
+ipa-ex-mincho-fonts
 ipa-gothic-fonts
 ipa-mincho-fonts
 ipa-pgothic-fonts
 ipa-pmincho-fonts
+ipa-uigothic-fonts
 ipadic
 iproute2
 ipsec-tools
@@ -1301,6 +1324,7 @@ kde-l10n-es-data
 kde-l10n-es-doc
 kde-l10n-fr
 kde-l10n-fr-data
+kde-l10n-fr-doc
 kde-l10n-hu
 kde-l10n-it
 kde-l10n-it-data
@@ -1308,11 +1332,14 @@ kde-l10n-it-doc
 kde-l10n-ja
 kde-l10n-pl
 kde-l10n-pl-data
+kde-l10n-pl-doc
 kde-l10n-pt
 kde-l10n-pt_BR
 kde-l10n-pt_BR-data
+kde-l10n-pt_BR-doc
 kde-l10n-ru
 kde-l10n-ru-data
+kde-l10n-ru-doc
 kde-l10n-zh_CN
 kde-l10n-zh_TW
 kde-oxygen-fonts
@@ -2019,6 +2046,7 @@ libcryptui0
 libcue1
 libcurl-devel
 libcurl4
+libcxgb3-rdmav2
 libdaemon0
 libdar5000
 libdatrie1
@@ -2574,6 +2602,8 @@ libmikmod3
 libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
+libmlx4-rdmav2
+libmlx5-rdmav2
 libmm-glib0
 libmms-devel
 libmms0
@@ -2600,6 +2630,7 @@ libmpxwrappers0
 libmspack0
 libmspub-0_1-1
 libmtdev1
+libmthca-rdmav2
 libmtp-devel
 libmtp9
 libmusicbrainz-devel
@@ -2625,6 +2656,7 @@ libndr-nbt0
 libndr-standard0
 libndr0
 libneon27
+libnes-rdmav2
 libnet9
 libnetapi0
 libnetcontrol0
@@ -3338,6 +3370,7 @@ lua
 lua-devel
 luasocket
 luit
+lv
 lvm2
 lxappearance
 lxappearance-lang
@@ -3406,6 +3439,7 @@ metamail
 metatheme-adwaita-common
 metatheme-sonar-common
 mgetty
+mgopen-fonts
 mhash-devel
 midori-branding-openSUSE
 milou5
@@ -3424,6 +3458,7 @@ mlterm-scim
 mmv
 mobile-broadband-provider-info
 mobipocket
+monapo-fonts
 mono-core
 mono-data
 mono-data-sqlite
@@ -3519,6 +3554,7 @@ nfs-doc
 nfs-kernel-server
 nfsidmap
 nilfs-utils
+nkf
 nmap
 notification-daemon
 notify-sharp
@@ -3532,6 +3568,7 @@ ntp-doc
 numad
 numlockx
 nuoveXT2-icon-theme
+nut
 nxtvepg
 obconf
 obs-service-download_files
@@ -3599,6 +3636,7 @@ oro
 os-prober
 osc
 oxygen-icon-theme
+oxygen-icon-theme-large
 oxygen5
 oxygen5-cursors
 oxygen5-decoration
@@ -3626,6 +3664,9 @@ paprefs
 paprefs-lang
 par
 parallel-printer-support
+paratype-pt-mono-fonts
+paratype-pt-sans-fonts
+paratype-pt-serif-fonts
 parcellite
 parley
 parted
@@ -3740,7 +3781,13 @@ pcmciautils
 pcre-devel
 pcre-doc
 pcre-tools
+pcsc-acr38
+pcsc-asedriveiiie-usb
+pcsc-asekey
+pcsc-cyberjack
+pcsc-gempc
 pcsc-lite
+pcsc-towitoko
 pdfmod
 pdfmod-lang
 pentaho-libxml
@@ -4129,6 +4176,7 @@ polkit-default-privs
 polkit-devel
 polkit-gnome
 polkit-kde-agent-5
+poppler-data
 poppler-tools
 popt-devel
 posix_cc
@@ -4394,6 +4442,7 @@ rhino
 ripit
 ristretto
 ristretto-lang
+rng-tools
 rp-pppoe
 rpcbind
 rpm
@@ -4406,6 +4455,7 @@ rsibreak-lang
 rstart
 rsync
 rsyslog
+rt2860
 rtkit
 ruby
 ruby-common
@@ -4459,6 +4509,7 @@ seahorse
 seahorse-daemon
 seahorse-sharing
 seahorse-sharing-lang
+seamonkey
 sed
 selinux-doc
 sendfax
@@ -4549,6 +4600,7 @@ speex-devel
 speexdsp-devel
 spice-vdagent
 splix
+spu-tools
 sqlite3
 sqlite3-devel
 sqlite3-doc
@@ -4623,6 +4675,7 @@ tcpd-devel
 tcpdump
 tcsh
 tcsh-lang
+technisat-usb2-firmware
 tei-roma
 tei-xsl-stylesheets
 telepathy-accounts-signon
@@ -4638,11 +4691,15 @@ telnet
 tennebon-dynamic-wallpaper
 terminfo
 terminfo-base
+terminus-bitmap-fonts
 texlive-latex-doc
 tftp
 tgt
 thai-fonts
+thessalonica-oldstandard-otf-fonts
+thessalonica-theano-otf-fonts
 threadweaver-devel
+thryomanes-fonts
 thunar
 thunar-lang
 thunar-plugin-archive
@@ -4658,6 +4715,7 @@ tigervnc
 time
 timezone
 timezone-java
+timidity
 tk
 tmpwatch
 tnftp
@@ -4871,6 +4929,7 @@ virtualbox-host-kmp-default
 virtualbox-host-kmp-pae
 virtualbox-qt
 vlan
+vlgothic-fonts
 vlock
 vm-install
 vobject
@@ -4894,6 +4953,7 @@ wicked
 wicked-service
 wiggle
 wine
+wine-gecko
 wireless-regdb
 wireless-tools
 wireshark
@@ -4905,6 +4965,7 @@ words
 wpa_supplicant
 wpa_supplicant-gui
 wqy-microhei-fonts
+wqy-zenhei-fonts
 wsdl4j
 wv2-devel
 wwwoffle
@@ -4913,6 +4974,7 @@ x11-japanese-bitmap-fonts
 x11-tools
 x11perf
 xalan-j2
+xano-mincho-fonts
 xauth
 xawtv
 xbacklight
