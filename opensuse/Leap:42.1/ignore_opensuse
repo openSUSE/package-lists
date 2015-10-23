@@ -212,10 +212,6 @@ job lock name ncurses-devel-32bit
 job lock name binutils-devel-32bit
 job lock name avogadro-devel-32bit
 
-job lock name cdrecord
-job lock name mkisofs
-job lock name cdda2wav
-
 job lock name module-init-tools
 
 job lock name libstdc++6-gcc49
@@ -231,4 +227,7 @@ job lock name ghc-HTTP
 
 job lock name python-matplotlib
 #INCLUDE non_ftp_packages
+
+job lock name python-strict-tls-check
+job lock name cdrkit-cdrtools-compat
 
