@@ -83,7 +83,11 @@ acpica
 acpid
 adaptec-firmware
 adjtimex
+adobe-cid-keyed-moe-fonts
+adobe-cid-keyed-wada-fonts
+adobe-cid-keyed-wadah-fonts
 adobe-sourcecodepro-fonts
+adobe-sourcehansans-fonts
 adobe-sourcesanspro-fonts
 adobe-sourceserifpro-fonts
 adwaita-icon-theme
@@ -180,6 +184,7 @@ argyllcms
 aria2
 aria2-lang
 ark
+arphic-ukai-fonts
 arphic-uming-fonts
 arpwatch
 arpwatch-ethercodes
@@ -329,6 +334,35 @@ ca-certificates-mozilla
 cabextract
 cairo-devel
 cal10n
+calligra
+calligra-doc
+calligra-extras-dolphin
+calligra-extras-okular
+calligra-l10n-cs
+calligra-l10n-da
+calligra-l10n-de
+calligra-l10n-de-doc
+calligra-l10n-el
+calligra-l10n-en_GB
+calligra-l10n-es
+calligra-l10n-es-doc
+calligra-l10n-fr
+calligra-l10n-fr-doc
+calligra-l10n-hu
+calligra-l10n-it
+calligra-l10n-it-doc
+calligra-l10n-ja
+calligra-l10n-pl
+calligra-l10n-pt
+calligra-l10n-pt-doc
+calligra-l10n-pt_BR
+calligra-l10n-pt_BR-doc
+calligra-l10n-ru
+calligra-l10n-ru-doc
+calligra-l10n-zh_CN
+calligra-l10n-zh_TW
+calligra-stage
+calligra-words-common
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -374,6 +408,7 @@ clutter-gst-devel
 clutter-gtk-devel
 clutter-gtk-lang
 clutter-lang
+cm-unicode-fonts
 cmake
 cmpi-provider-register
 cogl-devel
@@ -426,6 +461,7 @@ curl
 cvs
 cvsps
 cyradm
+cyreal-lobster-cyrillic-fonts
 cyrus-imapd
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -470,6 +506,7 @@ delayacct-utils
 deltarpm
 desktop-data-openSUSE
 desktop-file-utils
+desktop-translations
 devhelp
 devhelp-lang
 device-mapper
@@ -642,6 +679,7 @@ fprintd-pam-32bit
 frameworkintegration-devel
 frameworkintegration-plugin
 freeglut-devel
+freeipmi
 freerdp
 freetype2-devel
 frei0r-plugins
@@ -681,6 +719,12 @@ gcc48-java
 gcc48-locale
 gcc48-objc
 gccmakedep
+gcin
+gcin-branding-openSUSE
+gcin-gtk2-immodule
+gcin-gtk3-immodule
+gcin-qt4-immodule
+gcin-qt5-immodule
 gcolor2
 gconf-editor
 gconf-editor-lang
@@ -929,9 +973,14 @@ gobject-introspection
 gobject-introspection-devel
 goffice-lang
 gom-lang
+google-arimo-fonts
 google-carlito-fonts
+google-cousine-fonts
+google-croscore-fonts
 google-droid-fonts
 google-opensans-fonts
+google-symbolneu-fonts
+google-tinos-fonts
 gpart
 gparted
 gperf
@@ -1206,10 +1255,13 @@ intlfonts-japanese-big-bitmap-fonts
 intlfonts-japanese-bitmap-fonts
 intltool
 iodbc
+ipa-ex-gothic-fonts
+ipa-ex-mincho-fonts
 ipa-gothic-fonts
 ipa-mincho-fonts
 ipa-pgothic-fonts
 ipa-pmincho-fonts
+ipa-uigothic-fonts
 ipadic
 iproute2
 ipsec-tools
@@ -2148,6 +2200,7 @@ libcryptui0
 libcue1
 libcurl-devel
 libcurl4
+libcxgb3-rdmav2
 libdaemon0
 libdar5000
 libdb-4_5
@@ -2732,6 +2785,8 @@ libmikmod3
 libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
+libmlx4-rdmav2
+libmlx5-rdmav2
 libmm-glib0
 libmms-devel
 libmms0
@@ -2760,6 +2815,7 @@ libmsn0_3
 libmspack0
 libmspub-0_1-1
 libmtdev1
+libmthca-rdmav2
 libmtp-devel
 libmtp9
 libmusicbrainz-devel
@@ -2793,6 +2849,7 @@ libndr-standard0-32bit
 libndr0
 libndr0-32bit
 libneon27
+libnes-rdmav2
 libnet9
 libnetapi0
 libnetapi0-32bit
@@ -2918,10 +2975,10 @@ libply-splash-graphics2
 libply2
 libpng12-0
 libpng12-0-32bit
-libpng12-compat-devel
 libpng12-devel
 libpng16-16
 libpng16-16-32bit
+libpng16-compat-devel
 libpng16-devel
 libpodofo-devel
 libpodofo0_9_3
@@ -2936,6 +2993,7 @@ libpoppler44
 libpopt0
 libpopt0-32bit
 libportaudio2
+libpowerman0
 libpq5
 libpq5-32bit
 libpqxx-4_0
@@ -3219,6 +3277,7 @@ libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
 libspice-controller0
 libspice-server1
+libspnav0
 libsqlite3-0
 libsqlite3-0-32bit
 libssh-devel
@@ -3276,6 +3335,7 @@ libtimidity-0_1-0
 libtirpc1
 libtool
 libtotem-plparser18
+libtowitoko2
 libtracker-common-1_0
 libtracker-control-1_0-0
 libtracker-miner-1_0-0
@@ -3300,6 +3360,7 @@ libunique-1_0-0
 libunistring0
 libunwind
 libupower-glib3
+libupsclient1
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-0-32bit
@@ -3576,6 +3637,7 @@ lua
 lua-devel
 luasocket
 luit
+lv
 lvm2
 lxappearance
 lxappearance-lang
@@ -3641,6 +3703,7 @@ mercurial-lang
 metamail
 metatheme-adwaita-common
 metatheme-sonar-common
+mgopen-fonts
 mhash-devel
 midori-branding-openSUSE
 milou5
@@ -3659,6 +3722,7 @@ mlocate-lang
 mmv
 mobile-broadband-provider-info
 mobipocket
+monapo-fonts
 monitoring-tools
 mono-core
 mono-data
@@ -3757,6 +3821,7 @@ nfs-doc
 nfs-kernel-server
 nfsidmap
 nilfs-utils
+nkf
 nmap
 notification-daemon
 notification-daemon-lang
@@ -3775,6 +3840,8 @@ numactl
 numad
 numlockx
 nuoveXT2-icon-theme
+nut
+nut-cgi
 nxtvepg
 obconf
 obs-service-download_files
@@ -3881,6 +3948,9 @@ paprefs
 paprefs-lang
 par
 parallel-printer-support
+paratype-pt-mono-fonts
+paratype-pt-sans-fonts
+paratype-pt-serif-fonts
 parcellite
 parley
 parted
@@ -3993,7 +4063,13 @@ pcmciautils
 pcre-devel
 pcre-doc
 pcre-tools
+pcsc-acr38
+pcsc-asedriveiiie-usb
+pcsc-asekey
+pcsc-cyberjack
+pcsc-gempc
 pcsc-lite
+pcsc-towitoko
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
@@ -4656,6 +4732,7 @@ rhino
 ripit
 ristretto
 ristretto-lang
+rng-tools
 rp-pppoe
 rpcbind
 rpm
@@ -4669,6 +4746,7 @@ rsibreak
 rsibreak-lang
 rstart
 rsync
+rt2860
 rtkit
 ruby
 ruby-common
@@ -4810,6 +4888,7 @@ speex-devel
 speexdsp-devel
 spice-vdagent
 splix
+spu-tools
 sqlite3
 sqlite3-devel
 sqlite3-doc
@@ -4887,6 +4966,7 @@ tcl
 tcpd-devel
 tcpdump
 tcsh
+technisat-usb2-firmware
 tei-roma
 tei-xsl-stylesheets
 telepathy-accounts-signon
@@ -4901,11 +4981,15 @@ telepathy-salut
 telnet
 terminfo
 terminfo-base
+terminus-bitmap-fonts
 texlive-latex-doc
 tftp
 tgt
 thai-fonts
+thessalonica-oldstandard-otf-fonts
+thessalonica-theano-otf-fonts
 threadweaver-devel
+thryomanes-fonts
 thunar
 thunar-lang
 thunar-plugin-archive
@@ -5136,6 +5220,7 @@ virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
+vlgothic-fonts
 vlock
 vm-install
 vobject
@@ -5172,6 +5257,7 @@ words
 wpa_supplicant
 wpa_supplicant-gui
 wqy-microhei-fonts
+wqy-zenhei-fonts
 wsdl4j
 wv2-devel
 wwwoffle
@@ -5180,6 +5266,7 @@ x11-japanese-bitmap-fonts
 x11-tools
 x11perf
 xalan-j2
+xano-mincho-fonts
 xauth
 xawtv
 xbacklight

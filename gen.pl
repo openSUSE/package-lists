@@ -48,17 +48,17 @@ print OUT "result transaction,problems,recommended <inline>\n";
 close(OUT);
 
 open(TS, "testsolv -r t|");
-my @installs;
-my @suggested;
+my %installs;
+my %suggested;
 my $ret = 0;
 while ( <TS> ) {
-  next if /^recommended/;
-  if (/^suggested (.*)-[^-]+-[^-]+\.(\S*)@/) {
-    push(@suggested, $1);
+#  next if /^recommended/;
+  if (/^(suggested|recommended) (.*)-[^-]+-[^-]+\.(\S*)@/) {
+    $suggested{$2} = 1;
     next;
   }
-  if (/^install (.*)-[^-]+-[^-]+\.(\S*)@/) {
-	push(@installs, $1);
+  if (/^(install) (.*)-[^-]+-[^-]+\.(\S*)@/) {
+	$installs{$2} = 1;
   } else {
 	print "$file: $_";
         $ret = 1;
@@ -68,12 +68,12 @@ exit(1) if ($ret);
 
 close(TS);
 open(OUT, ">", "output/$file.$arch.list");
-for my $pkg (sort @installs) {
+for my $pkg (sort keys %installs) {
   print OUT "$pkg\n";
 }
 close(OUT);
 open(OUT, ">", "output/$file.$arch.suggests");
-for my $pkg (sort @suggested) {
+for my $pkg (sort keys %suggested) {
   print OUT "job install name $pkg [weak]\n";
 }
 close(OUT);
