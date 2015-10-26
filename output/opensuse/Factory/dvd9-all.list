@@ -281,7 +281,6 @@ branding-openSUSE
 brasero
 brasero-nautilus
 breeze
-breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -578,7 +577,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -1041,6 +1039,7 @@ gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-immodule-xim
 gtk2-metatheme-adwaita
+gtk2-metatheme-breeze
 gtk2-metatheme-gilouche
 gtk2-metatheme-industrial
 gtk2-metatheme-sonar
@@ -1063,6 +1062,7 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-immodule-xim
 gtk3-metatheme-adwaita
+gtk3-metatheme-breeze
 gtk3-metatheme-sonar
 gtk3-tools
 gtkiterm
@@ -1124,6 +1124,7 @@ i4l-isdnlog
 iagno
 ibus
 ibus-branding-openSUSE-KDE
+ibus-chewing
 ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
@@ -2433,8 +2434,8 @@ libibverbs1
 libical-devel
 libical1
 libicu-devel
-libicu55_1
-libicu55_1-ledata
+libicu56_1
+libicu56_1-ledata
 libid3tag0
 libidl-devel
 libidn-devel
@@ -2754,7 +2755,6 @@ libosinfo
 libosinfo-1_0-0
 libosip2
 libosip2-devel
-libossp-uuid16
 libotf0
 libotr-devel
 libotr5
@@ -3478,6 +3478,7 @@ mercurial
 mercurial-lang
 metamail
 metatheme-adwaita-common
+metatheme-breeze-common
 metatheme-sonar-common
 mgetty
 mgopen-fonts
@@ -4257,11 +4258,11 @@ postgresql-devel
 postgresql-docs
 postgresql-init
 postgresql-server
-postgresql93
-postgresql93-contrib
-postgresql93-devel
-postgresql93-docs
-postgresql93-server
+postgresql94
+postgresql94-contrib
+postgresql94-devel
+postgresql94-docs
+postgresql94-server
 pothana2000-fonts
 powerdevil5
 powertop
@@ -4293,6 +4294,7 @@ pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4434,6 +4436,7 @@ python3-base
 python3-bottle
 python3-brlapi
 python3-cairo
+python3-chardet
 python3-coverage
 python3-cups
 python3-curses
@@ -4458,6 +4461,8 @@ python3-sip
 python3-smbc
 python3-speechd
 python3-tk
+python3-urllib3
+python3-wheel
 python3-xdg
 pyzy-db-android
 pyzy-db-open-phrase

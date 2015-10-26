@@ -165,7 +165,6 @@ branding-openSUSE
 brasero
 brasero-nautilus
 breeze
-breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -637,6 +636,7 @@ gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-immodule-xim
 gtk2-metatheme-adwaita
+gtk2-metatheme-breeze
 gtk2-metatheme-gilouche
 gtk2-metatheme-industrial
 gtk2-theme-clearlooks
@@ -656,6 +656,7 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-immodule-xim
 gtk3-metatheme-adwaita
+gtk3-metatheme-breeze
 gtk3-tools
 gtkiterm
 gtkspell-lang
@@ -1583,8 +1584,8 @@ libhyphen0
 libibus-1_0-5
 libibverbs1
 libical1
-libicu55_1
-libicu55_1-ledata
+libicu56_1
+libicu56_1-ledata
 libidn11
 libidn11-32bit
 libieee1284
@@ -2367,6 +2368,7 @@ memtest86+
 menu-cache
 metamail
 metatheme-adwaita-common
+metatheme-breeze-common
 milou5
 mjpegtools
 mkfontdir
@@ -2828,6 +2830,7 @@ python3-base
 python3-bottle
 python3-brlapi
 python3-cairo
+python3-chardet
 python3-coverage
 python3-cups
 python3-gedit
@@ -2843,6 +2846,8 @@ python3-setuptools
 python3-simplejson
 python3-smbc
 python3-speechd
+python3-urllib3
+python3-wheel
 qemu
 qemu-block-curl
 qemu-ipxe

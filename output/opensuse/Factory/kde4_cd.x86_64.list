@@ -73,7 +73,6 @@ bluez-firmware
 boost-license1_58_0
 branding-openSUSE
 breeze
-breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -235,6 +234,7 @@ gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-metatheme-adwaita
+gtk2-metatheme-breeze
 gtk2-theming-engine-adwaita
 gtk2-tools
 gtk3-branding-openSUSE
@@ -244,6 +244,7 @@ gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
+gtk3-metatheme-breeze
 gtk3-tools
 guile-modules-2_0
 gwenview
@@ -719,8 +720,8 @@ libhogweed4
 libhttp-parser-suse0
 libibus-1_0-5
 libical1
-libicu55_1
-libicu55_1-ledata
+libicu56_1
+libicu56_1-ledata
 libidn11
 libimobiledevice6
 libini_config5
@@ -1122,6 +1123,7 @@ mdadm
 media-player-info
 memtest86+
 metatheme-adwaita-common
+metatheme-breeze-common
 milou5
 mkfontdir
 mkfontscale
@@ -1355,6 +1357,7 @@ python3-apparmor
 python3-base
 python3-bottle
 python3-cairo
+python3-chardet
 python3-coverage
 python3-cups
 python3-gobject
@@ -1367,6 +1370,8 @@ python3-requests
 python3-setuptools
 python3-simplejson
 python3-smbc
+python3-urllib3
+python3-wheel
 qt4-qtscript
 quota
 rcc-runtime

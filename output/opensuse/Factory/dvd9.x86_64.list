@@ -222,7 +222,6 @@ branding-openSUSE
 brasero
 brasero-nautilus
 breeze
-breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -801,6 +800,7 @@ gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-immodule-xim
 gtk2-metatheme-adwaita
+gtk2-metatheme-breeze
 gtk2-metatheme-gilouche
 gtk2-metatheme-industrial
 gtk2-theme-clearlooks
@@ -821,6 +821,7 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-immodule-xim
 gtk3-metatheme-adwaita
+gtk3-metatheme-breeze
 gtk3-tools
 gtkiterm
 gtksourceview-devel
@@ -1991,8 +1992,8 @@ libibverbs1
 libical-devel
 libical1
 libicu-devel
-libicu55_1
-libicu55_1-ledata
+libicu56_1
+libicu56_1-ledata
 libidn-devel
 libidn11
 libidn11-32bit
@@ -2925,6 +2926,7 @@ memtest86+
 menu-cache
 metamail
 metatheme-adwaita-common
+metatheme-breeze-common
 midori
 midori-branding-openSUSE
 midori-lang
@@ -3521,6 +3523,7 @@ python3-base
 python3-bottle
 python3-brlapi
 python3-cairo
+python3-chardet
 python3-coverage
 python3-cups
 python3-devel
@@ -3537,6 +3540,8 @@ python3-setuptools
 python3-simplejson
 python3-smbc
 python3-speechd
+python3-urllib3
+python3-wheel
 qdox
 qemu
 qemu-block-curl
@@ -6318,9 +6323,8 @@ xli
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver11
+xml-commons-resolver12
 xml-commons-which10
 xml-group-manager
 xml2po
