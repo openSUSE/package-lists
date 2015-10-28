@@ -92,7 +92,7 @@ namespace namespace:modalias(pci:v00001002d00005D4[89ACDEF]sv*sd*bc*sc*i*) @SYST
 namespace namespace:modalias(pci:v00001002d00005D5[027]sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00001002d00005E4[8ABCDF]sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00001002d0000660[012345678]sv*sd*bc*sc*i*) @SYSTEM
-namespace namespace:modalias(pci:v00001002d0000661[013]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000661[0137]sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00001002d0000662[013]sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00001002d00006631sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00001002d0000664[01679]sv*sd*bc*sc*i*) @SYSTEM
@@ -893,6 +893,7 @@ namespace namespace:modalias(usb:v0846p9001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v0846p9018d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v0846p901[239]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v0846p9030d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9043d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v0846p90[14]0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v0846p90[24]1d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v0846pF001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
