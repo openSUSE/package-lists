@@ -97,7 +97,6 @@ amavisd-new
 amavisd-new-docs
 amor
 analitza
-android-tools
 anjuta
 anjuta-extras
 anjuta-extras-lang
@@ -533,6 +532,7 @@ docbook_4
 docbook_5
 dolphin
 dolphin-part
+dolphin4
 dos2unix
 dosbox
 dosfstools
@@ -1431,6 +1431,7 @@ keyutils-devel
 kf5-filesystem
 kf5-kcm-fcitx
 kf5-kcm-fcitx-icons
+kfilemetadata
 kfilemetadata5
 kfilemetadata5-devel
 kfilereplace
@@ -1933,6 +1934,8 @@ libavutil54
 libbabl-0_1-0
 libbaloofiles4
 libbaloopim4
+libbalooqueryparser4
+libbaloowidgets4
 libbase
 libbasicobjects0
 libbind9-140
@@ -2588,7 +2591,7 @@ liblightdm-gobject-1-0
 liblirc0
 liblirc_client0
 liblirc_driver0
-liblmdb-0_9_14
+liblmdb-0_9_16
 libloader
 liblockdev1
 liblogging0
@@ -3871,6 +3874,7 @@ perl-AppConfig
 perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
+perl-B-Utils
 perl-BIND-Conf_Parser
 perl-BSD-Resource
 perl-BerkeleyDB
@@ -4018,6 +4022,7 @@ perl-MailTools
 perl-Mcrypt
 perl-Module-Build
 perl-Module-Implementation
+perl-Module-Info
 perl-Module-Runtime
 perl-Module-Runtime-Conflicts
 perl-Moose
@@ -4293,7 +4298,6 @@ psutils
 pthread-stubs-devel
 ptools
 pullin-bcm43xx-firmware
-pullin-flash-player
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
@@ -4309,7 +4313,6 @@ purple-plugin-pack-lang
 purpose
 pwgen
 pychecker
-pytalloc
 python
 python-Babel
 python-CherryPy
@@ -4411,6 +4414,7 @@ python-pytz
 python-pyudev
 python-pywbem
 python-pyxb
+python-pyxdg
 python-qt4
 python-qt4-devel
 python-qt4-utils
@@ -4422,12 +4426,12 @@ python-sip-devel
 python-six
 python-smbios
 python-solv
+python-talloc
 python-tk
 python-urlgrabber
 python-wxWidgets
 python-wxWidgets-lang
 python-xcb-proto-devel
-python-xdg
 python-xlib
 python-xml
 python-yum
@@ -4722,7 +4726,6 @@ subversion-tools
 sudo
 suse-module-tools
 suse-xsl-stylesheets
-susegreeter-branding-openSUSE
 susehelp
 susehelp_cz
 susehelp_de
