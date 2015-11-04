@@ -9,9 +9,14 @@ job lock name python-opengl
 job lock name smolt-gui
 job lock name esound-daemon
 
+job lock name libreoffice-draw
+job lock name libreoffice-impress
 job lock name libreoffice-icon-theme-andromeda
 job lock name libreoffice-icon-theme-crystal
-job lock name libreoffice-icon-theme-galaxy
+job lock name libreoffice-icon-theme-breeze
+# Tango icon theme now depends on -galaxy
+#job lock name libreoffice-icon-theme-galaxy
+job lock name libreoffice-icon-theme-sifr
 job lock name libreoffice-icon-theme-hicontrast
 job lock name libreoffice-icon-theme-industrial
 job lock name libreoffice-icon-theme-oxygen
