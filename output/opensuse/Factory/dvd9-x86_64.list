@@ -309,7 +309,6 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
-bundle-lang-common-ca
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -2723,7 +2722,7 @@ liblockdev1
 liblockdev1-32bit
 liblogging0
 libloudmouth-1-0
-liblouis2
+liblouis9
 liblpsolve55-0
 liblqr-1-0
 liblqr-devel
@@ -4258,6 +4257,7 @@ perl-Mail-Mbox-MessageParser
 perl-Mail-SPF
 perl-Mail-SpamAssassin
 perl-MailTools
+perl-Math-Base-Convert
 perl-Mcrypt
 perl-Module-Build
 perl-Module-Implementation
