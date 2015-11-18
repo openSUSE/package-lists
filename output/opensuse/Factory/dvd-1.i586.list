@@ -234,7 +234,6 @@ bash-completion
 bash-doc
 bbswitch-kmp-default
 bbswitch-kmp-pae
-bbswitch-kmp-xen
 bc
 bcel
 bdftopcf
@@ -414,7 +413,6 @@ cracklib
 cracklib-dict-full
 crash-kmp-default
 crash-kmp-pae
-crash-kmp-xen
 crda
 createrepo
 cron
@@ -882,7 +880,6 @@ gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-shell-wayland
 gnome-software
-gnome-software-lang
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -913,7 +910,9 @@ google-carlito-fonts
 google-cousine-fonts
 google-croscore-fonts
 google-droid-fonts
+google-noto-fonts
 google-opensans-fonts
+google-roboto-fonts
 google-symbolneu-fonts
 google-tinos-fonts
 gpart
@@ -1068,7 +1067,6 @@ harfbuzz-devel
 haveged
 hdjmod-kmp-default
 hdjmod-kmp-pae
-hdjmod-kmp-xen
 hdparm
 help2man
 hexchat
@@ -1103,6 +1101,7 @@ ibus-chewing
 ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
+ibus-lang
 ibus-libpinyin
 ibus-libzhuyin
 ibus-m17n
@@ -1144,6 +1143,8 @@ icecream-monitor
 icedax
 icedtea-web-javadoc
 icewm
+icewm-config-upstream
+icewm-lang
 icewm-lite
 ico
 icoutils
@@ -1191,7 +1192,6 @@ iproute2
 ipsec-tools
 ipset-kmp-default
 ipset-kmp-pae
-ipset-kmp-xen
 iptables
 iptraf-ng
 iputils
@@ -1394,7 +1394,6 @@ kernel-pae-devel
 kernel-pv-devel
 kernel-source
 kernel-syms
-kernel-xen
 kernel-xen-devel
 kexec-tools
 keyutils
@@ -1408,7 +1407,6 @@ kfilemetadata5-devel
 kfilereplace
 kfloppy
 kgamma5
-kgamma5-lang
 kgeography
 kget
 kglobalaccel-devel
@@ -2525,7 +2523,6 @@ libktoblzcheck1-devel
 libktorrent-devel
 libktorrent5
 libktpaccountskcminternal9
-libkvkontakte-lang
 libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
@@ -3389,6 +3386,7 @@ lynx
 lzip
 lzop
 m17n-db
+m17n-db-lang
 m4
 mailman
 mailx
@@ -3547,6 +3545,7 @@ nkf
 nmap
 notification-daemon
 notify-sharp
+noto-sans
 nscd
 nss-mdns
 nss_ldap
@@ -4870,7 +4869,6 @@ vcdimager
 vdr
 vhba-kmp-default
 vhba-kmp-pae
-vhba-kmp-xen
 videoproto-devel
 viewnior
 viewnior-lang
@@ -5215,7 +5213,6 @@ xstdcmap
 xstroke
 xtables-addons-kmp-default
 xtables-addons-kmp-pae
-xtables-addons-kmp-xen
 xtables-plugins
 xterm
 xterm-bin

@@ -154,6 +154,7 @@ apparmor-parser
 apparmor-profiles
 apparmor-utils
 apper
+apper-lang
 appres
 appstream-glib
 aqbanking
@@ -245,7 +246,6 @@ bash
 bash-completion
 bash-doc
 bbswitch-kmp-default
-bbswitch-kmp-xen
 bc
 bcel
 bdftopcf
@@ -430,7 +430,6 @@ cracklib
 cracklib-dict-full
 cracklib-dict-small
 crash-kmp-default
-crash-kmp-xen
 crda
 createrepo
 cron
@@ -553,7 +552,6 @@ dracut
 dragonplayer
 drbd
 drbd-kmp-default
-drbd-kmp-xen
 drbd-utils
 dri2proto-devel
 dri3proto-devel
@@ -924,7 +922,6 @@ gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-shell-wayland
 gnome-software
-gnome-software-lang
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -959,7 +956,9 @@ google-carlito-fonts
 google-cousine-fonts
 google-croscore-fonts
 google-droid-fonts
+google-noto-fonts
 google-opensans-fonts
+google-roboto-fonts
 google-symbolneu-fonts
 google-tinos-fonts
 gpart
@@ -1122,7 +1121,6 @@ hardlink
 harfbuzz-devel
 haveged
 hdjmod-kmp-default
-hdjmod-kmp-xen
 hdparm
 help2man
 hexchat
@@ -1158,6 +1156,7 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk-32bit
 ibus-gtk3
+ibus-lang
 ibus-libpinyin
 ibus-libzhuyin
 ibus-m17n
@@ -1199,7 +1198,9 @@ icecream-monitor
 icedax
 icedtea-web-javadoc
 icewm
+icewm-config-upstream
 icewm-default
+icewm-lang
 icewm-lite
 ico
 icoutils
@@ -1247,7 +1248,6 @@ ipadic
 iproute2
 ipsec-tools
 ipset-kmp-default
-ipset-kmp-xen
 iptables
 iptraf-ng
 iputils
@@ -1454,7 +1454,6 @@ kernel-macros
 kernel-pv-devel
 kernel-source
 kernel-syms
-kernel-xen
 kernel-xen-devel
 kexec-tools
 keyutils
@@ -1468,7 +1467,6 @@ kfilemetadata5-devel
 kfilereplace
 kfloppy
 kgamma5
-kgamma5-lang
 kgeography
 kget
 kglobalaccel-devel
@@ -2687,7 +2685,6 @@ libktoblzcheck1-devel
 libktorrent-devel
 libktorrent5
 libktpaccountskcminternal9
-libkvkontakte-lang
 libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
@@ -3668,6 +3665,7 @@ lynx
 lzip
 lzop
 m17n-db
+m17n-db-lang
 m4
 mailman
 mailx
@@ -3839,6 +3837,7 @@ nkf
 nmap
 notification-daemon
 notify-sharp
+noto-sans
 nscd
 nspluginwrapper
 nss-mdns
@@ -7451,7 +7450,6 @@ valgrind
 vcdimager
 vdr
 vhba-kmp-default
-vhba-kmp-xen
 videoproto-devel
 viewnior
 viewnior-lang
@@ -7802,7 +7800,6 @@ xsp
 xstdcmap
 xstroke
 xtables-addons-kmp-default
-xtables-addons-kmp-xen
 xtables-plugins
 xterm
 xterm-bin

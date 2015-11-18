@@ -12,8 +12,13 @@ aaa_base-extras
 acl
 adjtimex
 adwaita-icon-theme
+alsa
+alsa-oss
+alsa-plugins
+alsa-utils
 apache-commons-logging
 apper
+apper-lang
 at-spi2-atk-common
 at-spi2-atk-gtk2
 at-spi2-core
@@ -28,7 +33,6 @@ boost-license1_58_0
 branding-openSUSE
 bundle-lang-common-en
 bundle-lang-gnome-en
-bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -51,6 +55,7 @@ dconf
 desktop-data-openSUSE
 desktop-translations
 device-mapper
+dialog
 diffutils
 dmz-icon-theme-cursors
 dracut
@@ -127,7 +132,9 @@ hunspell
 hunspell-tools
 hwinfo
 icewm
+icewm-config-upstream
 icewm-default
+icewm-lang
 icoutils
 info
 insserv-compat
@@ -264,6 +271,7 @@ libdcerpc-binding0-32bit
 libdcerpc0
 libdcerpc0-32bit
 libdconf1
+libdialog12
 libdmtx0
 libdns161
 libdrm2
@@ -298,6 +306,7 @@ libformula
 libfreebl3
 libfreehand-0_1-1
 libfreetype6
+libfribidi0
 libfuse2
 libgbm1
 libgcc_s1
@@ -440,6 +449,7 @@ libpackagekit-glib2-18
 libpackagekitqt4-0
 libpagemaker-0_0-0
 libpango-1_0-0
+libpci3
 libpciaccess0
 libpcre1
 libpcre1-32bit
@@ -510,6 +520,7 @@ libsamba-util0
 libsamba-util0-32bit
 libsamdb0
 libsamdb0-32bit
+libsamplerate0
 libsasl2-3
 libsasl2-3-32bit
 libseccomp2
@@ -630,6 +641,7 @@ lockdev
 logrotate
 lsof
 lua
+luit
 m4
 make
 make-lang
@@ -662,6 +674,8 @@ pam
 pam-32bit
 pam-config
 patterns-openSUSE-x11_yast
+pciutils
+pciutils-ids
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
@@ -794,6 +808,7 @@ xerces-j2-xml-resolver
 xkeyboard-config
 xorg-x11-fonts
 xorg-x11-fonts-core
+xterm
 xterm-bin
 xz
 yast2
