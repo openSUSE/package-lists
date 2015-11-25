@@ -32,7 +32,6 @@ adaptec-firmware
 adjtimex
 adwaita-icon-theme
 aisleriot
-alacarte
 alsa
 alsa-firmware
 alsa-oss
@@ -68,7 +67,7 @@ bind-utils
 binutils
 bluez
 bluez-firmware
-boost-license1_58_0
+boost-license1_59_0
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -145,6 +144,7 @@ dhcp-client
 dialog
 diffutils
 dleyna-connector-dbus
+dleyna-renderer
 dleyna-server
 dmidecode
 dmraid
@@ -203,6 +203,8 @@ gdm-branding-openSUSE
 gdmflexiserver
 gedit
 gegl-0_2
+gegl-0_3
+gegl-0_3-lang
 genisoimage
 geoclue
 geoclue-recommended
@@ -250,6 +252,7 @@ gnome-nettool
 gnome-online-accounts
 gnome-online-miners
 gnome-packagekit
+gnome-photos
 gnome-power-manager
 gnome-screenshot
 gnome-session
@@ -265,6 +268,7 @@ gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
+gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
@@ -491,10 +495,10 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
-libboost_date_time1_58_0
-libboost_iostreams1_58_0
-libboost_system1_58_0
-libboost_thread1_58_0
+libboost_date_time1_59_0
+libboost_iostreams1_59_0
+libboost_system1_59_0
+libboost_thread1_59_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -648,6 +652,7 @@ libgdk_pixbuf-2_0-0
 libgdm1
 libgee-0_8-2
 libgegl-0_2-0
+libgegl-0_3-0
 libgensec0
 libgeoclue0
 libgeocode-glib0
@@ -671,7 +676,6 @@ libgnome-bluetooth13
 libgnome-desktop-3-12
 libgnome-desktop-3_0-common
 libgnome-keyring0
-libgnome-menu-3-0
 libgnomekbd
 libgnomesu
 libgnomesu0
@@ -693,6 +697,7 @@ libgsf-1-114
 libgsm1
 libgsound0
 libgssdp-1_0-3
+libgstadaptivedemux-1_0-0
 libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -906,6 +911,7 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
+libpsl0
 libpst4
 libpulse-mainloop-glib0
 libpulse0
@@ -1529,7 +1535,6 @@ typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
 typelib-1_0-GFBGraph-0_2
-typelib-1_0-GMenu-3_0
 typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3

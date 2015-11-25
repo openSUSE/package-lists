@@ -27,7 +27,6 @@ acpica
 adjtimex
 adwaita-icon-theme
 aisleriot
-alacarte
 alsa
 alsa-oss
 alsa-plugins
@@ -55,7 +54,7 @@ bijiben
 bind-utils
 binutils
 bluez
-boost-license1_58_0
+boost-license1_59_0
 branding-openSUSE
 brasero
 brasero-nautilus
@@ -123,6 +122,7 @@ dhcp-client
 dialog
 diffutils
 dleyna-connector-dbus
+dleyna-renderer
 dleyna-server
 dmidecode
 dmraid
@@ -165,12 +165,15 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gdb
+gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdm
 gdm-branding-openSUSE
 gdmflexiserver
 gedit
+gegl-0_3
+gegl-0_3-lang
 genisoimage
 geoclue
 geoclue-recommended
@@ -211,6 +214,7 @@ gnome-music
 gnome-nettool
 gnome-online-accounts
 gnome-online-miners
+gnome-photos
 gnome-power-manager
 gnome-screenshot
 gnome-session
@@ -226,6 +230,7 @@ gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
+gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
@@ -334,7 +339,6 @@ kpartx
 krb5
 less
 libFLAC8
-libGLU1
 libHalf12
 libICE6
 libIex-2_2-12
@@ -381,6 +385,7 @@ libXxf86vm1
 libaccountsservice0
 libacl1
 libaio1
+libamd-2_4_1
 libao-plugins4
 libao4
 libapparmor1
@@ -407,12 +412,14 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libavahi-gobject0
+libbabl-0_1-0
 libbind9-140
+libblas3
 libblkid1
 libbluetooth3
 libbluray1
-libboost_system1_58_0
-libboost_thread1_58_0
+libboost_system1_59_0
+libboost_thread1_59_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -424,6 +431,7 @@ libbz2-1
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
+libcamd-2_4_1
 libcamel-1_2-54
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -434,6 +442,7 @@ libcanberra0
 libcap-ng0
 libcap2
 libcaribou0
+libccolamd-2_9_1
 libcdda_interface0
 libcdda_paranoia0
 libcdio16
@@ -443,6 +452,7 @@ libchamplain-0_12-0
 libcheese-common
 libcheese-gtk25
 libcheese8
+libcholmod-3_0_6
 libchromaprint0
 libclutter-1_0-0
 libclutter-gst-2_0-0
@@ -450,6 +460,7 @@ libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcogl-pango20
 libcogl20
+libcolamd-2_9_1
 libcolord-gtk1
 libcolord2
 libcom_err2
@@ -543,10 +554,12 @@ libgdict-data
 libgdk_pixbuf-2_0-0
 libgdm1
 libgee-0_8-2
+libgegl-0_3-0
 libgensec0
 libgeoclue0
 libgeocode-glib0
 libgfbgraph-0_2-0
+libgfortran3
 libgif7
 libgio-2_0-0
 libgiomm-2_4-1
@@ -562,7 +575,6 @@ libgnome-bluetooth13
 libgnome-desktop-3-12
 libgnome-desktop-3_0-common
 libgnome-keyring0
-libgnome-menu-3-0
 libgnomekbd
 libgnomesu
 libgnomesu0
@@ -584,6 +596,7 @@ libgsf-1-114
 libgsm1
 libgsound0
 libgssdp-1_0-3
+libgstadaptivedemux-1_0-0
 libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -659,6 +672,7 @@ libkate1
 libkeyutils1
 libkmod2
 libksba8
+liblapack3
 liblash1
 liblcms2-2
 libldap-2_4-2
@@ -732,6 +746,7 @@ liboggkate1
 libopenal1
 libopenjp2-7
 libopenjpeg1
+libopenraw1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
@@ -771,6 +786,7 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
+libpsl0
 libpulse-mainloop-glib0
 libpulse0
 libpurple
@@ -785,6 +801,7 @@ libqqwing2
 libqrencode3
 libqt5-qtbase-platformtheme-gtk2
 libqt5-qtimageformats
+libquadmath0
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
@@ -845,6 +862,7 @@ libstdc++6
 libstoken1
 libstorage-ruby
 libstorage6
+libsuitesparseconfig-4_4_5
 libsystemd0
 libtag1
 libtag_c0
@@ -872,6 +890,7 @@ libtracker-sparql-1_0-0
 libts-1_0-0
 libudev1
 libudisks2-0
+libumfpack-5_7_1
 libunistring2
 libunwind
 libupower-glib3
@@ -1272,7 +1291,6 @@ typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
 typelib-1_0-GFBGraph-0_2
-typelib-1_0-GMenu-3_0
 typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
