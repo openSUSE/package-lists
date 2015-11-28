@@ -304,7 +304,6 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
-bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -410,6 +409,7 @@ cmpi-provider-register
 cogl-devel
 color-filesystem
 colord
+colord-lang
 command-not-found
 compositeproto-devel
 conduit
@@ -756,7 +756,6 @@ gedit-plugins-data
 gedit-plugins-lang
 gegl-0_2
 gegl-0_3
-gegl-0_3-lang
 genisoimage
 geoclue
 geoclue-recommended
@@ -843,6 +842,7 @@ gnome-calculator
 gnome-chess
 gnome-clocks
 gnome-color-manager
+gnome-color-manager-lang
 gnome-common
 gnome-contacts
 gnome-control-center
@@ -993,12 +993,14 @@ gsf-sharp
 gsl-devel
 gstreamer
 gstreamer-0_10
+gstreamer-0_10-lang
 gstreamer-0_10-libnice
 gstreamer-0_10-plugin-esd
 gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-bad
 gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
+gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-gl
 gstreamer-0_10-plugins-gl-lang
 gstreamer-0_10-plugins-good
@@ -1145,7 +1147,6 @@ ibus-googlepinyin
 ibus-gtk
 ibus-gtk-32bit
 ibus-gtk3
-ibus-lang
 ibus-libpinyin
 ibus-libzhuyin
 ibus-m17n
@@ -1189,7 +1190,6 @@ icedtea-web-javadoc
 icewm
 icewm-config-upstream
 icewm-default
-icewm-lang
 icewm-lite
 icoutils
 id3lib
@@ -1241,6 +1241,7 @@ irqbalance
 irssi
 iscsiuio
 iso-codes
+iso-codes-lang
 iso_ent
 ispell
 ispell-american
@@ -3646,7 +3647,6 @@ lynx
 lzip
 lzop
 m17n-db
-m17n-db-lang
 m4
 mailman
 mailx
@@ -4848,6 +4848,7 @@ sharutils
 sharutils-lang
 shim
 shotwell
+shotwell-lang
 siga
 signon-kwallet-extension
 signon-plugin-oauth2
