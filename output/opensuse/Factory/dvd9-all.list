@@ -404,8 +404,6 @@ colord
 colord-lang
 command-not-found
 compositeproto-devel
-conduit
-conduit-lang
 coreutils
 cpio
 cpp
@@ -467,8 +465,6 @@ dbus-1-mono
 dbus-1-python
 dbus-1-python3
 dbus-1-x11
-dbus-sharp
-dbus-sharp-glib
 dconf
 dcraw
 dcraw-lang
@@ -587,6 +583,8 @@ evolution-data-server-devel
 evolution-ews
 evolution-ews-lang
 evolution-plugin-bogofilter
+evolution-plugin-rss
+evolution-plugin-rss-lang
 evolution-plugin-spamassassin
 exif
 exiftool
@@ -749,9 +747,6 @@ getdata-devel
 getdata-doc
 gettext-runtime
 gettext-tools
-gftp
-gftp-common
-gftp-common-lang
 gfxboot
 gfxboot-branding-openSUSE
 gfxboot-devel
@@ -2308,8 +2303,6 @@ libgoffice-0_10-10
 libgoffice-0_8-8
 libgom-1_0-0
 libgomp1
-libgoocanvas3
-libgoocanvas3-lang
 libgooglepinyin0
 libgpg-error-devel
 libgpg-error0
@@ -2610,7 +2603,7 @@ libmhash2
 libmicrohttpd12
 libmidori-core1
 libmikmod3
-libminiupnpc10
+libminiupnpc15
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmlx4-rdmav2
@@ -3072,7 +3065,7 @@ libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
 libstdc++6-devel-gcc5
-libstdc++6-gcc48-locale
+libstdc++6-locale
 libstoken1
 libstorage-devel
 libstorage-ruby
@@ -3115,7 +3108,7 @@ libtidy-0_99-0-devel
 libtiff-devel
 libtiff5
 libtimidity-0_1-0
-libtirpc1
+libtirpc3
 libtool
 libtotem-plparser-mini18
 libtotem-plparser18
@@ -3385,7 +3378,6 @@ lmdb-devel
 lndir
 lockdev
 log4j
-log4net
 logrotate
 lokalize
 lomoco
@@ -3594,7 +3586,6 @@ nilfs-utils
 nkf
 nmap
 notification-daemon
-notify-sharp
 noto-sans
 nscd
 nss-mdns
@@ -3697,8 +3688,6 @@ pam_krb5
 pam_ldap
 pam_mount
 pam_ssh
-pan
-pan-lang
 pango-devel
 pangox-compat
 paprefs
@@ -3841,8 +3830,6 @@ pcsc-cyberjack
 pcsc-gempc
 pcsc-lite
 pcsc-towitoko
-pdfmod
-pdfmod-lang
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
@@ -4332,9 +4319,7 @@ python-doc
 python-ecdsa
 python-enum34
 python-fcgi
-python-flickrapi
 python-gconf
-python-gdata
 python-gdbm
 python-gnome
 python-gnome-devel
@@ -4346,7 +4331,6 @@ python-gobject-cairo
 python-gobject-devel
 python-gobject2
 python-gobject2-devel
-python-goocanvas
 python-gpsd
 python-gstreamer-0_10
 python-gtk
@@ -4631,27 +4615,6 @@ smb4k-doc
 smb4k-lang
 smbios-utils-python
 smp_utils
-smuxi
-smuxi-engine
-smuxi-engine-campfire
-smuxi-engine-campfire-lang
-smuxi-engine-irc
-smuxi-engine-irc-lang
-smuxi-engine-lang
-smuxi-engine-twitter
-smuxi-engine-twitter-lang
-smuxi-engine-xmpp
-smuxi-frontend
-smuxi-frontend-gnome
-smuxi-frontend-gnome-irc
-smuxi-frontend-gnome-irc-lang
-smuxi-frontend-gnome-lang
-smuxi-frontend-gnome-twitter
-smuxi-frontend-gnome-twitter-lang
-smuxi-frontend-gnome-xmpp
-smuxi-frontend-lang
-smuxi-server
-smuxi-server-lang
 snack
 snapper
 snapper-zypp-plugin
@@ -4718,8 +4681,6 @@ svg-schema
 sweeper
 swell-foop
 swig
-synapse
-synapse-lang
 sysconfig
 sysconfig-netconfig
 sysfsutils
@@ -4745,8 +4706,6 @@ tali
 tali-lang
 tango-icon-theme
 tar
-tasque
-tasque-lang
 tcl
 tcl-devel
 tcllib
@@ -7194,7 +7153,6 @@ vlan
 vlgothic-fonts
 vlock
 vm-install
-vobject
 vorbis-tools
 vpnc
 vsftpd
@@ -7242,8 +7200,6 @@ xbrlapi
 xcb-proto-devel
 xcb-util-devel
 xchat
-xchat-gnome
-xchat-gnome-lang
 xchat-lang
 xchat-perl
 xchat-python
