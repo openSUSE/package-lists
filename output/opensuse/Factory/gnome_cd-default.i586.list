@@ -412,6 +412,8 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libavahi-gobject0
+libavcodec56
+libavutil54
 libbabl-0_1-0
 libbind9-140
 libblas3
@@ -864,6 +866,8 @@ libstoken1
 libstorage-ruby
 libstorage6
 libsuitesparseconfig-4_4_6
+libswresample1
+libswscale3
 libsystemd0
 libtag1
 libtag_c0
@@ -905,6 +909,11 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvdpau1
 libvdpau_nouveau
 libverto1
@@ -1353,6 +1362,7 @@ usb_modeswitch-data
 usbutils
 util-linux
 util-linux-systemd
+vaapi-dummy-driver
 vim
 vino
 vorbis-tools

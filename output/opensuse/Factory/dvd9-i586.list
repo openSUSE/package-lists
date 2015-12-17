@@ -351,7 +351,6 @@ cairo-devel
 cal10n
 calibre
 calligra
-calligra-doc
 calligra-extras-dolphin
 calligra-extras-okular
 calligra-l10n-cs
@@ -943,7 +942,7 @@ google-carlito-fonts
 google-cousine-fonts
 google-croscore-fonts
 google-droid-fonts
-google-noto-fonts
+google-noto-fonts-doc
 google-opensans-fonts
 google-roboto-fonts
 google-symbolneu-fonts
@@ -3109,6 +3108,7 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample1
+libswscale3
 libsystemd0
 libtag-devel
 libtag-extras1
@@ -3618,7 +3618,7 @@ nilfs-utils
 nkf
 nmap
 notification-daemon
-noto-sans
+noto-sans-fonts
 nscd
 nss-mdns
 nss_ldap
@@ -4322,6 +4322,7 @@ python-ClientForm
 python-Genshi
 python-M2Crypto
 python-Pillow
+python-Pygments
 python-SpiceClientGtk
 python-Twisted
 python-Unidecode
