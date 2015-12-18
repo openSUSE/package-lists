@@ -220,6 +220,10 @@ libzypp
 logrotate
 lsof
 lvm2
+m4
+make
+make-lang
+metamail
 mozilla-nspr
 mtools
 ncurses-utils
@@ -255,9 +259,10 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
-postfix
 prctl
+procmail
 procps
+psmisc
 python
 python-base
 python-gobject
@@ -267,9 +272,13 @@ rpcbind
 rpm
 rsync
 sed
+sendmail
 sg3_utils
 shadow
 shared-mime-info
+sharutils
+sharutils-lang
+site-config
 snapper
 snapper-zypp-plugin
 strace
