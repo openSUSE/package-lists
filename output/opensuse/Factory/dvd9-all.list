@@ -310,7 +310,6 @@ bundle-lang-common-ja
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
-bundle-lang-common-sv
 bundle-lang-common-zh
 bundle-lang-gnome-cs
 bundle-lang-gnome-da
@@ -1009,6 +1008,7 @@ gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
 gstreamer-plugins-base
 gstreamer-plugins-base-devel
+gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
@@ -2047,6 +2047,7 @@ libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcmis-0_5-5
 libcnotify1
+libcogl-gles2-20
 libcogl-pango20
 libcogl20
 libcolamd-2_9_1
@@ -4713,6 +4714,7 @@ swell-foop
 swig
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
 syslog-service
@@ -7043,6 +7045,7 @@ typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-3_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-Cogl-2_0
+typelib-1_0-CoglGst-2_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-CoglPango-2_0
 typelib-1_0-EBook-1_2
