@@ -363,6 +363,8 @@ krfb
 kross
 kruler
 kscreen5
+kscreenlocker
+kscreenlocker-lang
 kservice
 ksnapshot
 ksshaskpass5
@@ -394,6 +396,7 @@ libKF5Auth5
 libKF5Baloo5
 libKF5BalooEngine5
 libKF5Bookmarks5
+libKF5CalendarEvents5
 libKF5Codecs5
 libKF5Completion5
 libKF5ConfigCore5
@@ -438,11 +441,11 @@ libKF5TextWidgets5
 libKF5ThreadWeaver5
 libKF5UnitConversion5
 libKF5Wallet5
-libKF5WebKit5
 libKF5WidgetsAddons5
 libKF5WindowSystem5
 libKF5XmlGui5
 libKF5XmlRpcClient5
+libKScreenLocker5
 libLLVM
 libQt5CLucene5
 libQt5Concurrent5
@@ -665,6 +668,7 @@ libgphoto2-6
 libgpm2
 libgpod-tools
 libgpod4
+libgps22
 libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
@@ -1460,7 +1464,6 @@ xdg-menu
 xdg-user-dirs
 xdg-utils
 xdm
-xembed-sni-proxy
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
