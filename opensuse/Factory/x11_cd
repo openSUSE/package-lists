@@ -50,4 +50,4 @@ job install name yast2-live-installer
 job install provides pattern() = rest_cd_x11
 job install name openSUSE-release-livecd-x11
 
-job lock name xen
+job lock name MozillaFirefox-translations-common
