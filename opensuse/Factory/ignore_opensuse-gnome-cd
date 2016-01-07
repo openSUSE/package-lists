@@ -27,3 +27,5 @@ job lock name tango-icon-theme
 # shrink the live CD - pattern change pending
 job lock name colord
 job lock name tk
+# p7zip iis nice for regular setups, but a waste on the live CD
+job lock name p7zip
