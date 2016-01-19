@@ -36,6 +36,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+exim
 expat
 file
 file-magic
@@ -163,6 +164,7 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
+libmysqlclient18
 libncurses5
 libncurses6
 libnettle6
@@ -176,6 +178,7 @@ libpcre1
 libpng16-16
 libpolkit0
 libpopt0
+libpq5
 libprocps5
 libproxy1
 libpsl5
@@ -191,6 +194,7 @@ libsgutils2-1_41-2
 libsmartcols1
 libsnapper3
 libsolv-tools
+libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -218,10 +222,6 @@ libzypp
 logrotate
 lsof
 lvm2
-m4
-make
-make-lang
-metamail
 mozilla-nspr
 mtools
 ncurses-utils
@@ -258,9 +258,7 @@ pkg-config
 polkit
 polkit-default-privs
 prctl
-procmail
 procps
-psmisc
 python
 python-base
 python-gobject
@@ -270,13 +268,9 @@ rpcbind
 rpm
 rsync
 sed
-sendmail
 sg3_utils
 shadow
 shared-mime-info
-sharutils
-sharutils-lang
-site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -286,7 +280,6 @@ sysconfig
 sysconfig-netconfig
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools

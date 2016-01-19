@@ -381,7 +381,6 @@ libmtdev1
 libmtp-udev
 libmtp9
 libmwaw-0_3-3
-libmysqlclient18
 libmythes-1_2-0
 libncurses5
 libncurses6
@@ -436,7 +435,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-mysql
+libqt4-sql-unixODBC
 libqt4-x11
 libqt5-qtbase-platformtheme-gtk2
 libqt5-qtimageformats
@@ -715,6 +714,7 @@ timezone-java
 traceroute
 udev
 udisks2
+unixODBC
 unzip
 unzip-doc
 update-alternatives
