@@ -23,7 +23,7 @@ my $pfile = "$tdir/packages";    # the filename is important ;(
 
 unless ($ENV{'NO_BSMIRROR'}) {
     die "bs_mirror of $project/$repo/$arch failed" if system(
-	"osc-plugin-factory/bs_mirrorfull --nodebug https://build.opensuse.org/build/$project/$repo/$arch/ $repodir"
+	"osc-plugin-factory/bs_mirrorfull --nodebug https://api.opensuse.org/public/build/$project/$repo/$arch/ $repodir"
     );
 }
 
