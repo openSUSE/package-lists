@@ -33,6 +33,7 @@ boost-license1_60_0
 branding-openSUSE
 bundle-lang-common-en
 bundle-lang-gnome-en
+bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -145,6 +146,7 @@ java-1_8_0-openjdk-headless
 javapackages-tools
 kbd
 kbd-legacy
+kconf_update5
 kde4-filesystem
 kdebase4-runtime
 kdebase4-runtime-branding-openSUSE
@@ -165,6 +167,7 @@ libICE6
 libIex-2_2-12
 libIlmImf-2_2-22
 libIlmThread-2_2-12
+libKF5ConfigCore5
 libLLVM
 libQt5Core5
 libQt5DBus5
@@ -462,7 +465,7 @@ libpopt0-32bit
 libprison0
 libprocps5
 libproxy1
-libproxy1-config-kde4
+libproxy1-config-kde
 libproxy1-pacrunner-webkit
 libpulse-mainloop-glib0
 libpulse0
@@ -761,7 +764,6 @@ shared-mime-info
 sharutils
 sharutils-lang
 site-config
-sound-theme-freedesktop
 squid
 suse-module-tools
 sysconfig
