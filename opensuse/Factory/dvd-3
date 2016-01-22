@@ -2,8 +2,8 @@
 
 job lock name novell-ipsec-tools
 job lock name myspell-german
-job install name xen-tools-domU # !ppc64 # !ppc64le
+job install name xen-tools-domU # !ppc64 # !ppc64le # !aarch64
 job install provides pattern() = minimal_base
-job lock name libqt4-x11-32bit # !ppc64le
-job lock name libicu50-32bit # !ppc64le
+job lock name libqt4-x11-32bit # !ppc64le # !aarch64
+job lock name libicu50-32bit # !ppc64le # !aarch64
 

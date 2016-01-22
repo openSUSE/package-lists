@@ -19,12 +19,16 @@ case $proj in
 	Factory:PowerPC) arches="ppc64 ppc64le"
 		repo="standard"
 		;;
+	Factory:ARM)
+		arches="aarch64"
+		repo="standard"
+		;;
 esac
 
 is_x86(){
 	case $1 in
 		i586|x86_64) return 0;;
-		ppc64|ppc64le) return 1;;
+		aarch64|ppc64|ppc64le) return 1;;
 	esac
 }
 
