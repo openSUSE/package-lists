@@ -388,11 +388,10 @@ caribou-gtk2-module
 caribou-gtk3-module
 ccache
 cd-discid
-cdda2wav
 cdparanoia
 cdparanoia-devel
 cdrdao
-cdrecord
+cdrkit-cdrtools-compat
 cellwriter
 cervisia
 cfitsio-devel
@@ -1162,6 +1161,7 @@ icc-profiles-scp-yamma
 iceauth
 icecream
 icecream-monitor
+icedax
 icedtea-web-javadoc
 icewm
 icewm-config-upstream
@@ -1453,7 +1453,9 @@ kitemviews-devel
 kiten
 kiwi
 kiwi-config-openSUSE
+kiwi-desc-isoboot
 kiwi-desc-netboot
+kiwi-desc-oemboot
 kiwi-desc-vmxboot
 kiwi-doc
 kiwi-media-requires
@@ -3109,8 +3111,6 @@ libsamplerate0
 libsasl2-3
 libsasl2-3-32bit
 libsbc1
-libscg1_0
-libschily1_0
 libschroedinger-1_0-0
 libseccomp2
 libseccomp2-32bit
@@ -3646,7 +3646,6 @@ mirror
 mjpegtools
 mkfontdir
 mkfontscale
-mkisofs
 mlmmj
 mlocate
 mlocate-lang
@@ -5106,6 +5105,7 @@ wireless-regdb
 wireless-tools
 wireshark
 wireshark-ui-gtk
+wodim
 wol
 wondershaper
 words
