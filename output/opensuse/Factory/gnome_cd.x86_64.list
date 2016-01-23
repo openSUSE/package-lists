@@ -94,8 +94,9 @@ caribou-common
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
+cdda2wav
 cdrdao
-cdrkit-cdrtools-compat
+cdrecord
 checkmedia
 cheese
 cifs-utils
@@ -369,7 +370,6 @@ ibus
 ibus-gtk
 ibus-gtk3
 iceauth
-icedax
 icewm
 icewm-config-upstream
 icewm-default
@@ -968,6 +968,8 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
+libscg1_0
+libschily1_0
 libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
@@ -1170,6 +1172,7 @@ memtest86+
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
+mkisofs
 mobile-broadband-provider-info
 mousetweaks
 mozilla-nspr
@@ -1617,7 +1620,6 @@ wicked
 wicked-service
 wireless-regdb
 wireless-tools
-wodim
 wpa_supplicant
 x11-tools
 xauth
