@@ -40,9 +40,6 @@ autofs
 autoyast2-installation
 avahi
 avahi-autoipd
-baloo-core
-baloo-kioslaves
-baloo-pim
 baloo5-file
 baloo5-kioslaves
 baloo5-tools
@@ -72,7 +69,6 @@ ca-certificates-mozilla
 cantarell-fonts
 cdrkit-cdrtools-compat
 checkmedia
-choqok
 cifs-utils
 cln
 command-not-found
@@ -139,7 +135,6 @@ findutils
 fontconfig
 fonts-config
 frameworkintegration-plugin
-freerdp
 gamin-server
 gawk
 gconf-polkit
@@ -205,7 +200,7 @@ gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
 gtk3-tools
 guile-modules-2_0
-gwenview
+gwenview5
 gzip
 hardlink
 hdparm
@@ -252,8 +247,6 @@ kde-oxygen-fonts
 kde-print-manager
 kde-user-manager
 kde4-filesystem
-kdebase4-runtime-branding-openSUSE
-kdebase4-workspace-libs
 kdeclarative-components
 kded
 kdegames-carddecks-default
@@ -288,7 +281,6 @@ kmag
 kmahjongg
 kmenuedit5
 kmines
-kmix
 kmod
 kmod-compat
 kmousetool
@@ -301,9 +293,7 @@ kpartx
 kpat
 kpeople5
 krb5
-krdc
 kreversi
-krfb
 kross
 kruler
 kscreen5
@@ -318,7 +308,7 @@ ksysguard5
 ktexteditor
 kwallet-tools
 kwalletd5
-kwalletmanager
+kwalletmanager5
 kwayland
 kwin5
 kwrite
@@ -363,7 +353,9 @@ libKF5JobWidgets5
 libKF5JsEmbed5
 libKF5KCMUtils5
 libKF5KDELibs4Support5
+libKF5KDcraw5
 libKF5KHtml5
+libKF5Kipi30_0_0
 libKF5ModemManagerQt6
 libKF5NetworkManagerQt6
 libKF5NewStuff5
@@ -479,7 +471,6 @@ libavahi-core7
 libavcodec56
 libavformat56
 libavutil54
-libbaloofiles4
 libbind9-140
 libblkid1
 libbluetooth3
@@ -502,8 +493,6 @@ libcap-ng0
 libcap2
 libcdda_interface0
 libcdda_paranoia0
-libclucene-core1
-libclucene-shared1
 libcolord2
 libcom_err2
 libcpupower0
@@ -553,8 +542,6 @@ libfltk1
 libfont-specimen0
 libfontenc1
 libfreebl3
-libfreerdp-1_0
-libfreerdp-1_0-plugins
 libfreetype6
 libfribidi0
 libfuse2
@@ -640,7 +627,6 @@ libkactivities6
 libkate1
 libkcddb4
 libkcompactdisc4
-libkdcraw23
 libkde4
 libkdecorations2-5
 libkdecorations2private5
@@ -652,7 +638,6 @@ libkdepimlibs4
 libkerfuffle15
 libkeyutils1
 libkf5kdegames6
-libkipi11
 libkmahjongg4
 libkmahjongglib4
 libkmod2
@@ -736,7 +721,6 @@ libpci3
 libpciaccess0
 libpcre1
 libpcre16-0
-libpcsclite1
 libphonon4
 libphonon4qt5
 libpipeline1
@@ -773,7 +757,6 @@ libqca2
 libqjson0
 libqmi-glib1
 libqmi-tools
-libqoauth1
 libqrencode3
 libqt4
 libqt4-qt3support
@@ -817,7 +800,6 @@ libsnapper3
 libsndfile1
 libsoftokn3
 libsolv-tools
-libsoprano4
 libsoup-2_4-1
 libsoxr0
 libspeex1
@@ -829,7 +811,6 @@ libstdc++6
 libstdc++6-32bit
 libstorage-ruby
 libstorage6
-libstreamanalyzer0
 libswresample1
 libsystemd0
 libtag1
@@ -838,7 +819,6 @@ libtasn1
 libtasn1-6
 libtdb1
 libteamdctl0
-libtelepathy-qt4-2
 libtevent-util0
 libtevent0
 libthai-data
@@ -871,8 +851,6 @@ libva1
 libvdpau_nouveau
 libverto1
 libvisual
-libvncclient0
-libvncserver0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -888,7 +866,6 @@ libwebrtc_audio_processing0
 libwicked-0-6
 libwrap0
 libx86emu1
-libxapian22
 libxcb-composite0
 libxcb-cursor0
 libxcb-damage0
@@ -989,7 +966,6 @@ parallel-printer-support
 parted
 pciutils
 pciutils-ids
-pcsc-lite
 perl
 perl-Bootloader
 perl-Bootloader-YAML
@@ -1118,7 +1094,6 @@ python-gobject
 python-gobject-cairo
 python-idna
 python-ipaddress
-python-keyring
 python-pyOpenSSL
 python-pyasn1
 python-pycparser
@@ -1146,6 +1121,7 @@ python3-pycurl
 python3-requests
 python3-setuptools
 python3-simplejson
+python3-six
 python3-smbc
 python3-urllib3
 python3-wheel

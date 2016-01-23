@@ -147,7 +147,6 @@ kbd-legacy
 kconf_update5
 kde4-filesystem
 kdebase4-runtime
-kdebase4-runtime-branding-openSUSE
 kdebase4-workspace-libs
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -166,6 +165,7 @@ libIlmImf-2_2-22
 libIlmThread-2_2-12
 libKF5ConfigCore5
 libLLVM
+libOpenCOLLADA0
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -405,7 +405,7 @@ libogg0
 libopenjp2-7
 libopenssl1_0_0
 liborc-0_4-0
-liborcus-0_8-0
+liborcus-0_10-0
 libp11-kit0
 libpackagekit-glib2-18
 libpackagekitqt4-0
@@ -491,14 +491,12 @@ libsmbldap0
 libsndfile1
 libsoftokn3
 libsolv-tools
-libsoprano4
 libsoup-2_4-1
 libspeex1
 libsqlite3-0
 libssh2-1
 libssh4
 libstdc++6
-libstreamanalyzer0
 libsystemd0
 libtalloc2
 libtasn1
@@ -674,6 +672,7 @@ python3
 python3-base
 python3-pip
 python3-setuptools
+python3-six
 readline-doc
 rpm
 rsyslog

@@ -79,3 +79,7 @@ job lock name kde4-l10n-da-data
 job lock name kde4-l10n-it-doc
 
 job lock name libzypp-devel
+
+job install provides pattern() = console
+job install name cdrecord
+job lock name wodim
