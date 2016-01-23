@@ -169,6 +169,7 @@ evince-plugin-pdfdocument
 evince-plugin-psdocument
 evolution
 evolution-data-server
+evolution-data-server-lang
 expat
 farstream-data
 fd0ssh
@@ -495,7 +496,6 @@ libblkid1
 libbluetooth3
 libbluray1
 libboost_date_time1_60_0
-libboost_iostreams1_60_0
 libboost_system1_60_0
 libboost_thread1_60_0
 libbrasero-burn3-1
@@ -645,7 +645,7 @@ libgcrypt20
 libgd3
 libgdata22
 libgdbm4
-libgdict-1_0-9
+libgdict-1_0-10
 libgdict-data
 libgdk_pixbuf-2_0-0
 libgdm1
@@ -765,7 +765,6 @@ libisl13
 libisoburn1
 libisofs6
 libiw30
-libixion-0_10-0
 libjack0
 libjasper1
 libjavascriptcoregtk-1_0-0
@@ -791,7 +790,6 @@ liblirc_client0
 liblockdev1
 liblouis-data
 liblouis9
-liblpsolve55-0
 liblrdf2
 libltdl7
 liblua5_3
@@ -872,7 +870,6 @@ libopenraw1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
-liborcus-0_8-0
 libosinfo
 libosinfo-1_0-0
 libp11-kit0
@@ -942,7 +939,6 @@ libregistry0
 libreiserfscore0
 libreoffice
 libreoffice-branding-upstream
-libreoffice-calc
 libreoffice-gnome
 libreoffice-icon-theme-galaxy
 libreoffice-icon-theme-tango
@@ -1408,6 +1404,7 @@ python3-pycurl
 python3-requests
 python3-setuptools
 python3-simplejson
+python3-six
 python3-smbc
 python3-speechd
 python3-urllib3

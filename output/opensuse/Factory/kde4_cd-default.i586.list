@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -40,9 +41,6 @@ autofs
 autoyast2-installation
 avahi
 avahi-autoipd
-baloo-core
-baloo-kioslaves
-baloo-pim
 baloo5-file
 baloo5-kioslaves
 baloo5-tools
@@ -64,15 +62,17 @@ breeze5-cursors
 breeze5-decoration
 breeze5-icons
 breeze5-style
+breeze5-wallpapers
 btrfsmaintenance
 btrfsprogs
+bundle-lang-common-en
+bundle-lang-kde-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
 cdrkit-cdrtools-compat
 checkmedia
-choqok
 cifs-utils
 cln
 command-not-found
@@ -87,6 +87,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -139,7 +140,6 @@ findutils
 fontconfig
 fonts-config
 frameworkintegration-plugin
-freerdp
 gamin-server
 gawk
 gconf-polkit
@@ -161,6 +161,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
@@ -175,6 +176,8 @@ gpm
 gptfdisk
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -204,7 +207,7 @@ gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
 gtk3-tools
 guile-modules-2_0
-gwenview
+gwenview5
 gzip
 hardlink
 hdparm
@@ -251,8 +254,7 @@ kde-oxygen-fonts
 kde-print-manager
 kde-user-manager
 kde4-filesystem
-kdebase4-runtime-branding-openSUSE
-kdebase4-workspace-libs
+kdebase4-runtime
 kdeclarative-components
 kded
 kdegames-carddecks-default
@@ -266,6 +268,7 @@ kdepimlibs4
 kdialog
 kdnssd
 keditbookmarks
+kernel-default
 keyutils
 kfilemetadata5
 kgamma5
@@ -287,7 +290,6 @@ kmag
 kmahjongg
 kmenuedit5
 kmines
-kmix
 kmod
 kmod-compat
 kmousetool
@@ -300,9 +302,7 @@ kpartx
 kpat
 kpeople5
 krb5
-krdc
 kreversi
-krfb
 kross
 kruler
 kscreen5
@@ -317,7 +317,7 @@ ksysguard5
 ktexteditor
 kwallet-tools
 kwalletd5
-kwalletmanager
+kwalletmanager5
 kwayland
 kwin5
 kwrite
@@ -362,7 +362,9 @@ libKF5JobWidgets5
 libKF5JsEmbed5
 libKF5KCMUtils5
 libKF5KDELibs4Support5
+libKF5KDcraw5
 libKF5KHtml5
+libKF5Kipi30_0_0
 libKF5ModemManagerQt6
 libKF5NetworkManagerQt6
 libKF5NewStuff5
@@ -410,6 +412,7 @@ libQt5Svg5
 libQt5Test5
 libQt5WebChannel5
 libQt5WebChannel5-imports
+libQt5WebKit5
 libQt5WebKit5-imports
 libQt5WebKitWidgets5
 libQt5Widgets5
@@ -417,6 +420,7 @@ libQt5X11Extras5
 libQt5Xml5
 libQt5XmlPatterns5
 libQtQuick5
+libQtWebKit4
 libSDL-1_2-0
 libSM6
 libX11-6
@@ -478,7 +482,6 @@ libavahi-core7
 libavcodec56
 libavformat56
 libavutil54
-libbaloofiles4
 libbind9-140
 libblkid1
 libbluetooth3
@@ -501,8 +504,6 @@ libcap-ng0
 libcap2
 libcdda_interface0
 libcdda_paranoia0
-libclucene-core1
-libclucene-shared1
 libcolord2
 libcom_err2
 libcpupower0
@@ -552,8 +553,6 @@ libfltk1
 libfont-specimen0
 libfontenc1
 libfreebl3
-libfreerdp-1_0
-libfreerdp-1_0-plugins
 libfreetype6
 libfribidi0
 libfuse2
@@ -638,7 +637,6 @@ libkactivities6
 libkate1
 libkcddb4
 libkcompactdisc4
-libkdcraw23
 libkde4
 libkdecorations2-5
 libkdecorations2private5
@@ -650,7 +648,6 @@ libkdepimlibs4
 libkerfuffle15
 libkeyutils1
 libkf5kdegames6
-libkipi11
 libkmahjongg4
 libkmahjongglib4
 libkmod2
@@ -732,7 +729,6 @@ libpci3
 libpciaccess0
 libpcre1
 libpcre16-0
-libpcsclite1
 libphonon4
 libphonon4qt5
 libpipeline1
@@ -769,12 +765,12 @@ libqca2
 libqjson0
 libqmi-glib1
 libqmi-tools
-libqoauth1
 libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-sqlite
+libqt4-x11
 libqt5-linguist
 libqt5-qtbase-platformtheme-gtk2
 libqt5-qtgraphicaleffects
@@ -813,7 +809,6 @@ libsnapper3
 libsndfile1
 libsoftokn3
 libsolv-tools
-libsoprano4
 libsoup-2_4-1
 libsoxr0
 libspeex1
@@ -824,7 +819,6 @@ libssh4
 libstdc++6
 libstorage-ruby
 libstorage6
-libstreamanalyzer0
 libswresample1
 libsystemd0
 libtag1
@@ -833,7 +827,6 @@ libtasn1
 libtasn1-6
 libtdb1
 libteamdctl0
-libtelepathy-qt4-2
 libtevent-util0
 libtevent0
 libthai-data
@@ -866,8 +859,6 @@ libva1
 libvdpau_nouveau
 libverto1
 libvisual
-libvncclient0
-libvncserver0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -883,7 +874,6 @@ libwebrtc_audio_processing0
 libwicked-0-6
 libwrap0
 libx86emu1
-libxapian22
 libxcb-composite0
 libxcb-cursor0
 libxcb-damage0
@@ -963,6 +953,8 @@ ntp
 numlockx
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openldap2-client
 openslp
@@ -981,9 +973,28 @@ pam
 pam-config
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-imaging
+patterns-openSUSE-kde
+patterns-openSUSE-kde_games
+patterns-openSUSE-kde_imaging
+patterns-openSUSE-kde_internet
+patterns-openSUSE-kde_multimedia
+patterns-openSUSE-kde_plasma
+patterns-openSUSE-kde_utilities
+patterns-openSUSE-kde_yast
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_kde
+patterns-openSUSE-x11
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
-pcsc-lite
 perl
 perl-Bootloader
 perl-Bootloader-YAML
@@ -1075,6 +1086,7 @@ plasma5-workspace
 plasma5-workspace-branding-openSUSE
 plasma5-workspace-libs
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
@@ -1112,7 +1124,6 @@ python-gobject
 python-gobject-cairo
 python-idna
 python-ipaddress
-python-keyring
 python-pyOpenSSL
 python-pyasn1
 python-pycparser
@@ -1140,6 +1151,7 @@ python3-pycurl
 python3-requests
 python3-setuptools
 python3-simplejson
+python3-six
 python3-smbc
 python3-urllib3
 python3-wheel
@@ -1271,6 +1283,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
@@ -1287,6 +1300,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core

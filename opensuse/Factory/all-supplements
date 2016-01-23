@@ -665,8 +665,6 @@ namespace namespace:modalias(pci:v00008086d0000423Dsv*sd0000121[16]bc*sc*i*) @SY
 namespace namespace:modalias(pci:v00008086d0000423Dsv*sd0000131[16]bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00008086d00005A84sv*sd*bc03sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00008086d0000A0[01]1sv*sd*bc03sc*i*) @SYSTEM
-namespace namespace:modalias(pci:v000080EEd0000BEEFsv*sd*bc*sc*i*) @SYSTEM
-namespace namespace:modalias(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00009005d00000410sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00009005d00000412sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00009005d0000041Esv*sd*bc*sc*i*) @SYSTEM
@@ -1498,7 +1496,7 @@ namespace namespace:modalias(usb:vFFFFp0000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(virtio:d00000003v*) @SYSTEM
 namespace namespace:modalias(virtio:d00000004v*) @SYSTEM
 namespace namespace:modalias(x86cpu:vendor%3A0000%3Afamily%3A*%3Amodel%3A*%3Afeature%3A*) @SYSTEM
-namespace namespace:modalias(x86cpu:vendor%{3}A0002%{3}Afamily%{3}A*%{3}Amodel%{3}A*%{3}Afeature%{3}A*) @SYSTEM
+namespace namespace:modalias(x86cpu:vendor%3A0002%3Afamily%3A*%3Amodel%3A*%3Afeature%3A*) @SYSTEM
 namespace namespace:modalias(pci:v000014F1d00008802sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00004444d00000016sv*sd*bc*sc*i*) @SYSTEM
 namespace namespace:modalias(pci:v00004444d00000803sv*sd*bc*sc*i*) @SYSTEM
