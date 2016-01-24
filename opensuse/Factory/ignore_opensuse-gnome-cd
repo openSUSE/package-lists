@@ -27,7 +27,8 @@ job lock name tango-icon-theme
 # shrink the live CD - pattern change pending
 job lock name colord
 job lock name tk
-# p7zip iis nice for regular setups, but a waste on the live CD
-job lock name p7zip
 # deja-dup was added to fill up the live CDs.. now they are full (pattern change pending)
 job lock name deja-dup
+
+# GNOME relies on webkit1 GTK3 and Webkit2 GTK3... let's not add webkit2 GTK2
+job lock name libwebkitgtk-1_0-0
