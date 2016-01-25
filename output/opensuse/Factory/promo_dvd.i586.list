@@ -296,6 +296,9 @@ dhcp-server
 dhcp-tools
 dialog
 diffutils
+digikam
+digikam-lang
+digikam-libs
 dleyna-connector-dbus
 dleyna-renderer
 dleyna-server
@@ -328,6 +331,7 @@ emacs
 emacs-info
 emacs-nox
 empathy
+enblend-enfuse
 enscript
 eog
 espeak
@@ -341,6 +345,7 @@ evolution
 evolution-data-server
 evolution-plugin-spamassassin
 exif
+exiftool
 exo-lang
 exo-tools
 expat
@@ -596,6 +601,7 @@ gstreamer-plugins-base
 gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
+gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-utils
 gsynaptics
@@ -666,6 +672,7 @@ hostname
 hplip-hpijs
 hplip-sane
 htdig
+hugin
 hunspell
 hunspell-tools
 hwinfo
@@ -849,6 +856,10 @@ kio-pimlibs
 kio_audiocd
 kio_kamera
 kio_mtp
+kipi-plugins
+kipi-plugins-acquireimage
+kipi-plugins-geolocation
+kipi-plugins-lang
 kiten
 kiwi
 kiwi-config-openSUSE
@@ -1134,6 +1145,7 @@ libaspell15
 libass5
 libassuan0
 libastro-qt5-1
+libastro1
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -1275,6 +1287,7 @@ libdb-4_8-devel
 libdbus-1-3
 libdbusmenu-qt2
 libdbusmenu-qt5-2
+libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
@@ -1422,6 +1435,7 @@ libgladeui-2-6
 libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
+libglut3
 libglyr1
 libgme0
 libgmime-2_6-0
@@ -1517,6 +1531,8 @@ libhangul1
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
+libhdf5-10
+libhdf5_hl10
 libhogweed4
 libhttp-parser-suse0
 libhyphen0
@@ -1589,6 +1605,7 @@ libkolabxml1
 libkomparediff2-5
 libkonq5
 libkpathsea6
+libkqoauth0
 libksba8
 libkscreen
 libkscreen1
@@ -1598,6 +1615,8 @@ libksysguard5
 libksysguard5-helper
 libktorrent5
 libktpaccountskcminternal9
+libkvkontakte-lang
+libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
@@ -1632,6 +1651,7 @@ liblzma5
 liblzo2-2
 libmagic1
 libmarblewidget-qt5-23
+libmarblewidget22
 libmate-desktop-2-17
 libmbedtls9
 libmbim-glib4
@@ -1721,6 +1741,7 @@ libopal3_10_10
 libopenal1
 libopenbabel4
 libopencc2
+libopencv2_4
 libopenjp2-7
 libopenjpeg1
 libopenraw1
@@ -1740,6 +1761,7 @@ libpackagekitqt5-0
 libpagemaker-0_0-0
 libpango-1_0-0
 libpangomm-1_4-1
+libpano13-3
 libparted0
 libpcap1
 libpci3
@@ -1751,6 +1773,7 @@ libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
+libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -1811,6 +1834,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
+libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
 libqt5-linguist
@@ -2020,6 +2044,7 @@ libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
 libverto1
+libvigraimpex5
 libvisio-0_1-1
 libvisual
 libvmtools0
@@ -2053,6 +2078,16 @@ libwpg-0_3-3
 libwps-0_4-4
 libwrap0
 libwv-1_2-3
+libwx_baseu-2_8-0-stl
+libwx_baseu_net-2_8-0-stl
+libwx_baseu_xml-2_8-0-stl
+libwx_gtk2u_adv-2_8-0-stl
+libwx_gtk2u_aui-2_8-0-stl
+libwx_gtk2u_core-2_8-0-stl
+libwx_gtk2u_gl-2_8-0-stl
+libwx_gtk2u_html-2_8-0-stl
+libwx_gtk2u_qa-2_8-0-stl
+libwx_gtk2u_xrc-2_8-0-stl
 libx86emu1
 libxalan-c111
 libxapian22
@@ -2440,6 +2475,7 @@ perl-Encode-Locale
 perl-Error
 perl-Exporter-Tiny
 perl-File-Listing
+perl-File-RandomAccess
 perl-File-ShareDir
 perl-File-Slurp
 perl-HTML-Parser
@@ -2453,6 +2489,7 @@ perl-IO-HTML
 perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-stringy
+perl-Image-ExifTool
 perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
@@ -2985,6 +3022,7 @@ wodim
 wol
 words
 wpa_supplicant
+wxWidgets-lang
 x11-tools
 xauth
 xbitmaps
