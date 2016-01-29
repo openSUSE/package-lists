@@ -237,6 +237,7 @@ baloo-kioslaves
 baloo-pim
 baloo5-devel
 baloo5-file
+baloo5-imports
 baloo5-kioslaves
 baloo5-tools
 baloo5-widgets
@@ -591,7 +592,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -759,6 +759,7 @@ gedit-plugins
 gedit-plugins-data
 gedit-plugins-lang
 gegl-0_2
+gegl-0_2-lang
 gegl-0_3
 genisoimage
 geoclue
@@ -794,6 +795,7 @@ giggle-lang
 gimp
 gimp-help
 gimp-help-browser
+gimp-lang
 gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
@@ -1287,7 +1289,6 @@ kalarm5
 kalgebra
 kalzium
 kanagram
-kapptemplate
 karchive-devel
 kate
 kate-plugins
@@ -1545,11 +1546,11 @@ krfb
 kross
 kross-devel
 kruler
+krunner-devel
 krusader
 ksaneplugin
 kscreen5
 kscreenlocker
-kscreenlocker-lang
 kservice
 kservice-devel
 ksh
@@ -2628,7 +2629,6 @@ libkeyutils1-32bit
 libkf5kdegames6
 libkface
 libkface-devel
-libkgapi-lang
 libkgeomap-devel
 libkipi-devel
 libkmahjongg
@@ -3421,6 +3421,7 @@ libwebkit2gtk-4_0-37
 libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk-devel
+libwebkitgtk2-lang
 libwebp-devel
 libwebp5
 libwebpdecoder1
@@ -4392,6 +4393,7 @@ planner
 planner-lang
 plasma-framework
 plasma-framework-components
+plasma-framework-devel
 plasma-framework-private
 plasma-nm5
 plasma-nm5-openconnect
@@ -4468,6 +4470,7 @@ pullin-bcm43xx-firmware
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4532,6 +4535,7 @@ python-ipaddr
 python-ipaddress
 python-javapackages
 python-kde4
+python-kde4-devel
 python-kde4-doc
 python-kde4-khtml
 python-kde4-knewstuff
@@ -4563,6 +4567,8 @@ python-pywbem
 python-pyxb
 python-pyxdg
 python-qt4
+python-qt4-devel
+python-qt4-utils
 python-requests
 python-simplejson
 python-sip
