@@ -36,7 +36,6 @@ dracut
 efibootmgr
 elfutils
 ethtool
-exim
 expat
 file
 file-magic
@@ -143,6 +142,8 @@ libgmp10
 libgnutls30
 libgobject-2_0-0
 libgpg-error0
+libgsasl-lang
+libgsasl7
 libhavege1
 libhogweed4
 libicu56_1
@@ -164,7 +165,6 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
-libmysqlclient18
 libncurses5
 libncurses6
 libnettle6
@@ -172,13 +172,13 @@ libnghttp2-14
 libnl-config
 libnl3-200
 libnpth0
+libntlm0
 libopenssl1_0_0
 libp11-kit0
 libpcre1
 libpng16-16
 libpolkit0
 libpopt0
-libpq5
 libprocps5
 libproxy1
 libpsl5
@@ -194,7 +194,6 @@ libsgutils2-1_41-2
 libsmartcols1
 libsnapper3
 libsolv-tools
-libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -223,6 +222,8 @@ logrotate
 lsof
 lvm2
 mozilla-nspr
+msmtp
+msmtp-mta
 mtools
 ncurses-utils
 net-tools
