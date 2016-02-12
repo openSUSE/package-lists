@@ -97,7 +97,6 @@ coreutils
 cpio
 cpp
 cpp5
-cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -381,6 +380,7 @@ libIlmImf-2_2-22
 libIlmThread-2_2-12
 libKF5Activities5
 libKF5AkonadiCalendar5
+libKF5AkonadiContact5
 libKF5AkonadiMime5
 libKF5AkonadiNotes5
 libKF5AkonadiPrivate5
@@ -590,7 +590,6 @@ libcdio16
 libcollection4
 libcolord2
 libcom_err2
-libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -959,6 +958,7 @@ libthai0
 libtheoradec1
 libtheoraenc1
 libtiff5
+libtirpc-netconfig
 libtirpc3
 libts-1_0-0
 libturbojpeg0
@@ -1277,11 +1277,9 @@ python-CherryPy
 python-base
 python-bottle
 python-cffi
-python-configobj
 python-cryptography
 python-cups
 python-cupshelpers
-python-decorator
 python-enum34
 python-gobject
 python-gobject-cairo
@@ -1291,7 +1289,6 @@ python-pyOpenSSL
 python-pyasn1
 python-pycparser
 python-pycurl
-python-pyudev
 python-simplejson
 python-six
 python-smbios
@@ -1401,7 +1398,6 @@ timezone
 tnftp
 traceroute
 translation-update
-tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0
