@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -33,6 +34,7 @@ boost-license1_60_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
+bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -43,7 +45,6 @@ cifs-utils
 command-not-found
 coreutils
 cpio
-cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -102,6 +103,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
@@ -111,6 +113,8 @@ gpg2
 gpm
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -144,6 +148,7 @@ iputils
 iscsiuio
 kbd
 kbd-legacy
+kernel-default
 keyutils
 klogd
 kmod
@@ -206,7 +211,6 @@ libcap-ng0
 libcap2
 libcolord2
 libcom_err2
-libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptsetup4
@@ -385,6 +389,7 @@ libtevent0
 libthai-data
 libthai0
 libtiff5
+libtirpc-netconfig
 libtirpc3
 libudev1
 libunwind
@@ -452,6 +457,8 @@ ntfsprogs
 ntp
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openldap2-client
 openslp
 openssh
@@ -464,6 +471,11 @@ p11-kit-tools
 pam
 pam-config
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-sw_management
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -536,6 +548,7 @@ pigz
 pinentry
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-script
 plymouth-scripts
@@ -550,16 +563,12 @@ python
 python-CherryPy
 python-base
 python-bottle
-python-configobj
 python-cups
 python-cupshelpers
-python-decorator
 python-gobject
 python-gobject-cairo
 python-pycurl
-python-pyudev
 python-simplejson
-python-six
 python-solv
 python-talloc
 python-xml
@@ -633,7 +642,6 @@ time
 timezone
 tnftp
 traceroute
-tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0
@@ -673,6 +681,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-core
 yast2-country
 yast2-country-data
