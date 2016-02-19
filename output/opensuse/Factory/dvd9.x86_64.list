@@ -323,6 +323,7 @@ coreutils
 cpio
 cpp
 cpp5
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -645,10 +646,6 @@ gnome-contacts
 gnome-control-center
 gnome-control-center-color
 gnome-control-center-user-faces
-gnome-desktop-sharp2
-gnome-desktop-sharp2-devel
-gnome-desktop2
-gnome-desktop2-lang
 gnome-dictionary
 gnome-disk-utility
 gnome-doc-utils
@@ -684,7 +681,6 @@ gnome-online-miners
 gnome-packagekit
 gnome-photos
 gnome-power-manager
-gnome-print-sharp
 gnome-robots
 gnome-robots-lang
 gnome-screenshot
@@ -846,8 +842,6 @@ gtk3-metatheme-breeze
 gtk3-tools
 gtkiterm
 gtksourceview-devel
-gtksourceview-sharp2
-gtksourceview2-sharp
 gtkspell-lang
 gucharmap
 gucharmap-devel
@@ -1708,6 +1702,7 @@ libcom_err-devel
 libcom_err2
 libcom_err2-32bit
 libcpath1
+libcpupower0
 libcrack2
 libcrack2-32bit
 libcroco-0_6-3
@@ -1815,7 +1810,7 @@ libfallocate0
 libfam0-gamin
 libfam0-gamin-32bit
 libfarstream-0_2-5
-libfaxutil5_5_6
+libfaxutil5_5_7
 libfbembed2_5
 libfcitx-4_2_9
 libfdisk1
@@ -1933,7 +1928,6 @@ libgmp10-32bit
 libgmpxx4
 libgnome
 libgnome-bluetooth13
-libgnome-desktop-2-17
 libgnome-desktop-3-12
 libgnome-desktop-3-devel
 libgnome-desktop-3_0-common
@@ -2171,7 +2165,7 @@ libldb1-32bit
 liblensfun0
 liblightdm-gobject-1-0
 liblirc_client0
-liblmdb-0_9_16
+liblmdb-0_9_17
 libloader
 liblockdev1
 libloudmouth-1-0
@@ -3509,6 +3503,7 @@ python-beautifulsoup
 python-bottle
 python-cairo
 python-cffi
+python-configobj
 python-cryptography
 python-cssselect
 python-cssutils
@@ -3516,6 +3511,7 @@ python-cups
 python-cupshelpers
 python-curses
 python-dateutil
+python-decorator
 python-deltarpm
 python-devel
 python-dnspython
@@ -3544,6 +3540,7 @@ python-pycparser
 python-pycurl
 python-pypdf
 python-pytz
+python-pyudev
 python-pyxb
 python-qt4
 python-qt5
@@ -3632,7 +3629,6 @@ rpcbind
 rpm
 rpm-build
 rpm-python
-rsvg2-sharp
 rsync
 rtkit
 ruby
@@ -4514,6 +4510,7 @@ transmission-gtk
 trapproto-devel
 tumbler
 tumbler-lang
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-AppIndicator3-0_1
 typelib-1_0-Atk-1_0
@@ -4660,7 +4657,6 @@ vorbis-tools
 vpnc
 vsftpd
 vte-devel
-vte016-sharp
 vte2-lang
 w3m
 wallpaper-branding-openSUSE
@@ -4677,7 +4673,6 @@ wireless-regdb
 wireless-tools
 wireshark
 wireshark-ui-gtk
-wnck-sharp
 wodim
 wol
 words

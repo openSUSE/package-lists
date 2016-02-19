@@ -127,6 +127,7 @@ cpio
 cpio-lang
 cpp
 cpp5
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -643,6 +644,7 @@ libcollection4
 libcolord-gtk1
 libcolord2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -1491,10 +1493,12 @@ python-base
 python-beautifulsoup
 python-bottle
 python-cffi
+python-configobj
 python-cryptography
 python-cssselect
 python-cups
 python-cupshelpers
+python-decorator
 python-enum34
 python-gobject
 python-gobject-cairo
@@ -1507,6 +1511,7 @@ python-pyOpenSSL
 python-pyasn1
 python-pycparser
 python-pycurl
+python-pyudev
 python-pyxb
 python-simplejson
 python-six
@@ -1658,6 +1663,7 @@ translation-update
 transmission-common
 transmission-gtk
 transmission-gtk-lang
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0

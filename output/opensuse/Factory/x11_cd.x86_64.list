@@ -65,6 +65,7 @@ coreutils
 cpio
 cpp
 cpp5
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -340,6 +341,7 @@ libcnotify1
 libcolord2
 libcom_err2
 libcpath1
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -844,7 +846,9 @@ pullin-bcm43xx-firmware
 python
 python-base
 python-cffi
+python-configobj
 python-cryptography
+python-decorator
 python-enum34
 python-gobject
 python-gobject-cairo
@@ -853,6 +857,7 @@ python-ipaddress
 python-pyOpenSSL
 python-pyasn1
 python-pycparser
+python-pyudev
 python-six
 python-smbios
 python-solv
@@ -928,6 +933,7 @@ traceroute
 translation-update
 tumbler
 tumbler-lang
+tuned
 ucode-amd
 ucode-intel
 udev

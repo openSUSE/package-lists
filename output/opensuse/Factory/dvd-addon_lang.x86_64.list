@@ -407,6 +407,7 @@ coreutils
 cpio
 cpp
 cpp5
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -1797,6 +1798,7 @@ libcolorhug2
 libcom_err-devel
 libcom_err2
 libcom_err2-32bit
+libcpupower0
 libcrack2
 libcrack2-32bit
 libcroco-0_6-3
@@ -1901,7 +1903,7 @@ libfallocate0
 libfam0-gamin
 libfam0-gamin-32bit
 libfarstream-0_2-5
-libfaxutil5_5_6
+libfaxutil5_5_7
 libfbembed2_5
 libfcitx-4_2_9
 libfdisk1
@@ -2244,7 +2246,7 @@ libldb1-32bit
 liblensfun0
 liblightdm-gobject-1-0
 liblirc_client0
-liblmdb-0_9_16
+liblmdb-0_9_17
 libloader
 liblockdev1
 libloudmouth-1-0
@@ -3634,11 +3636,13 @@ python-beautifulsoup
 python-bottle
 python-cairo
 python-cffi
+python-configobj
 python-cryptography
 python-cssselect
 python-cups
 python-cupshelpers
 python-curses
+python-decorator
 python-deltarpm
 python-devel
 python-dnspython
@@ -3662,6 +3666,7 @@ python-pyOpenSSL
 python-pyasn1
 python-pycparser
 python-pycurl
+python-pyudev
 python-pyxb
 python-qt4
 python-requests
@@ -3954,6 +3959,7 @@ transmission-gtk
 trapproto-devel
 tumbler
 tumbler-lang
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-AppIndicator3-0_1
 typelib-1_0-Atk-1_0

@@ -90,6 +90,7 @@ coreutils
 cpio
 cpp
 cpp5
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -467,6 +468,7 @@ libcolamd-2_9_1
 libcolord-gtk1
 libcolord2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptsetup4
@@ -1152,9 +1154,11 @@ python-base
 python-beautifulsoup
 python-bottle
 python-cffi
+python-configobj
 python-cryptography
 python-cups
 python-cupshelpers
+python-decorator
 python-enum34
 python-gobject
 python-gobject-cairo
@@ -1165,6 +1169,7 @@ python-pyOpenSSL
 python-pyasn1
 python-pycparser
 python-pycurl
+python-pyudev
 python-simplejson
 python-six
 python-solv
@@ -1286,6 +1291,7 @@ tracker-miner-files
 translation-update
 transmission-common
 transmission-gtk
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0

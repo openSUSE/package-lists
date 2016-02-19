@@ -97,6 +97,7 @@ coreutils
 cpio
 cpp
 cpp5
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -588,6 +589,7 @@ libcdio16
 libcollection4
 libcolord2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -762,7 +764,7 @@ libldap-2_4-2
 libldapcpp1
 libldb1
 liblirc_client0
-liblmdb-0_9_16
+liblmdb-0_9_17
 liblockdev1
 libltdl7
 liblua5_3
@@ -1272,9 +1274,11 @@ python-CherryPy
 python-base
 python-bottle
 python-cffi
+python-configobj
 python-cryptography
 python-cups
 python-cupshelpers
+python-decorator
 python-enum34
 python-gobject
 python-gobject-cairo
@@ -1284,6 +1288,7 @@ python-pyOpenSSL
 python-pyasn1
 python-pycparser
 python-pycurl
+python-pyudev
 python-simplejson
 python-six
 python-smbios
@@ -1391,6 +1396,7 @@ timezone
 tnftp
 traceroute
 translation-update
+tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-GnomeKeyring-1_0
