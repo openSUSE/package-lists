@@ -31,3 +31,6 @@ job install provides pattern() = kde
 job install name baloo5-tools
 job install name NetworkManager
 
+job lock name dragonplayer
+job lock name pulseaudio-module-jack
+job lock name kdelibs4
