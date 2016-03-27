@@ -37,6 +37,7 @@ MozillaFirefox-translations-common
 MozillaThunderbird
 MozillaThunderbird-translations-common
 NetworkManager
+NetworkManager-branding-openSUSE
 NetworkManager-connection-editor
 NetworkManager-devel
 NetworkManager-gnome
@@ -140,6 +141,7 @@ apache-commons-io
 apache-commons-lang
 apache-commons-logging
 apache-commons-validator
+apache-pdfbox
 apache-rpm-macros-control
 apache2
 apache2-devel
@@ -1182,6 +1184,7 @@ icewm
 icewm-config-upstream
 icewm-lite
 icoutils
+icu4j
 idnkit
 ifplugd
 iftop
@@ -2140,7 +2143,6 @@ libdb-4_5
 libdb-4_8
 libdb-4_8-32bit
 libdb-4_8-devel
-libdbi3
 libdbus-1-3
 libdbus-1-3-32bit
 libdbusmenu-glib4
@@ -2155,7 +2157,7 @@ libdcerpc0
 libdcerpc0-32bit
 libdconf1
 libdhash1
-libdialog12
+libdialog13
 libdirac_encoder0
 libdirectfb-1_7-7
 libdiscid0
@@ -2528,8 +2530,8 @@ libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
-libhdf5-11
-libhdf5_hl11
+libhdf5-10
+libhdf5_hl10
 libhogweed4
 libhogweed4-32bit
 libhttp-parser-suse0
@@ -2841,7 +2843,6 @@ libnova-devel
 libnpth0
 libnsssharedhelper0
 libntfs-3g86
-libntlm0
 libnuma1
 liboauth-devel
 liboauth0
@@ -2881,7 +2882,7 @@ libopensync
 libopus0
 liborc-0_4-0
 liborc-0_4-0-32bit
-liborcus-0_10-0
+liborcus-0_11-0
 libortp10
 libosinfo
 libosinfo-1_0-0
@@ -2957,7 +2958,7 @@ libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler58
+libpoppler59
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -4045,6 +4046,7 @@ perl-AppConfig
 perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
+perl-B-Hooks-EndOfScope
 perl-B-Utils
 perl-BIND-Conf_Parser
 perl-BSD-Resource
@@ -4130,6 +4132,7 @@ perl-ExtUtils-PkgConfig
 perl-FastCGI
 perl-File-Listing
 perl-File-MMagic
+perl-File-Path
 perl-File-RandomAccess
 perl-File-ShareDir
 perl-File-Slurp
@@ -4283,6 +4286,7 @@ perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
 perl-Unix-Syslog
+perl-Variable-Magic
 perl-WWW-RobotRules
 perl-WeakRef
 perl-X11-Protocol
@@ -4317,6 +4321,8 @@ perl-libconfigfile
 perl-libintl-perl
 perl-libwww-perl
 perl-libxml-perl
+perl-namespace-autoclean
+perl-namespace-clean
 perl-qt4
 perl-qt4-devel
 perl-razor-agents
@@ -4618,8 +4624,6 @@ python3-nose
 python3-numpy
 python3-pip
 python3-py
-python3-pyOpenSSL
-python3-pyasn1
 python3-pycurl
 python3-pyxdg
 python3-qt4
@@ -4706,7 +4710,6 @@ rpm-32bit
 rpm-build
 rpm-devel
 rpm-python
-rrdtool
 rsibreak
 rsibreak-lang
 rsync
