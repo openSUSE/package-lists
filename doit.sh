@@ -114,7 +114,7 @@ for arch in $arches; do
         dumpsolv trees/openSUSE:$proj:NonFree-$repo-$arch.solv | grep solvable:name: | sed -e 's,.*: ,,' | sort > output/opensuse/$proj/nonoss.$arch.list
         echo "repo nonfree-$repo-$arch 0 solv trees/openSUSE:$proj:NonFree-standard-$arch.solv" >  opensuse/$proj/dvd-nonoss
         echo '#INCLUDE dvd-1' >>  opensuse/$proj/dvd-nonoss
-        for pkg in $(grep -v openSUSE output/opensuse/$proj/nonoss.$arch.list); do
+        for pkg in $(grep -v -e openSUSE -e libGLw output/opensuse/$proj/nonoss.$arch.list); do
            echo "job install name $pkg" >> opensuse/$proj/dvd-nonoss
         done
         if ./gen.pl opensuse/$proj/dvd-nonoss $arch "$proj" $repo; then
