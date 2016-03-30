@@ -46,7 +46,6 @@ OpenPrintingPPDs-postscript
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
-PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SuSEfirewall2
@@ -672,7 +671,6 @@ gnome-screenshot
 gnome-session
 gnome-session-core
 gnome-session-default-session
-gnome-session-wayland
 gnome-settings-daemon
 gnome-sharp2
 gnome-shell
@@ -688,7 +686,6 @@ gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
-gnome-shell-wayland
 gnome-software
 gnome-sudoku
 gnome-system-monitor
@@ -696,6 +693,7 @@ gnome-terminal
 gnome-tetravex
 gnome-tetravex-lang
 gnome-themes-accessibility
+gnome-themes-accessibility-gtk2
 gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
@@ -752,6 +750,7 @@ gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
 gsf-office-thumbnailer
 gsf-sharp
+gspell-lang
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
@@ -834,6 +833,7 @@ gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
+gvfs-backend-samba
 gvfs-backends
 gvfs-fuse
 gwenview5
@@ -1598,7 +1598,7 @@ libcairo-script-interpreter2
 libcairo2
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-54
+libcamel-1_2-57
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
@@ -1615,7 +1615,6 @@ libcaribou0
 libccolamd-2_9_1
 libcdda_interface0
 libcdda_paranoia0
-libcddb2
 libcdio16
 libcdio_cdda2
 libcdio_paranoia2
@@ -1634,7 +1633,6 @@ libchm0
 libcholmod-3_0_6
 libchromaprint1
 libcilkrts5
-libclastfm0
 libclocale1
 libclucene-contribs-lib1
 libclucene-core1
@@ -1786,6 +1784,7 @@ libfstrm0
 libfuse2
 libfvalue1
 libgadu3
+libgames-support2
 libgarcon-1-0
 libgarcon-branding-openSUSE
 libgarcon-data
@@ -1842,7 +1841,7 @@ libgimpui-2_0-0
 libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
-libgit2-23
+libgit2-24
 libgjs0
 libglade-2_0-0
 libgladeui-2-6
@@ -1850,7 +1849,6 @@ libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
 libglut3
-libglyr1
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -1895,14 +1893,15 @@ libgpod4
 libgps22
 libgrantlee_core0
 libgraphite2-3
-libgrilo-0_2-1
-libgrlnet-0_2-0
-libgrlpls-0_2-0
+libgrilo-0_3-0
+libgrlnet-0_3-0
+libgrlpls-0_3-0
 libgsf-1-114
 libgsf-devel
 libgsl0
 libgsm1
 libgsound0
+libgspell-1-1
 libgssdp-1_0-3
 libgssglue1
 libgstadaptivedemux-1_0-0
@@ -1930,6 +1929,7 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvideo-1_0-0
 libgstwayland-1_0-0
+libgsystem0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -2035,7 +2035,6 @@ libkdepimlibs4
 libkdevplatform8
 libkerfuffle15
 libkexiv2-devel
-libkeybinder-3_0-0
 libkeybinder0
 libkeyutils1
 libkf5kdegames6
@@ -2217,6 +2216,7 @@ libosinfo
 libosinfo-1_0-0
 libosip2
 libosip2-devel
+libostree-1-1
 libotf0
 libotr5
 libp11-kit0
@@ -2291,7 +2291,6 @@ libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpsl5
 libpspell15
-libpst4
 libpt2_10_10
 libptexenc1
 libpulse-devel
@@ -2393,6 +2392,7 @@ libreoffice-pyuno
 libreoffice-share-linker
 libreoffice-writer
 libreoffice-writer-extensions
+libreofficekit
 librepository
 librest0
 librevenge-0_0-0
@@ -2418,7 +2418,6 @@ libsensors4
 libsepol1
 libserf-1-1
 libserializer
-libsexy
 libsgutils2-1_42-2
 libsidplay1
 libsigc-2_0-0
@@ -2563,7 +2562,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_30-0
+libvala-0_32-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2673,6 +2672,7 @@ libxcb-xtest0
 libxcb-xv0
 libxcb-xvmc0
 libxcb1
+libxdg-app0
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4panel-2_0-4
@@ -3292,7 +3292,6 @@ ppp
 pptp
 pragha
 pragha-lang
-pragha-plugins
 prctl
 presage-data
 printproto-devel
@@ -6032,13 +6031,14 @@ typelib-1_0-Gcr-3
 typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
+typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
-typelib-1_0-Grl-0_2
+typelib-1_0-Grl-0_3
 typelib-1_0-Gsf-1
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAllocators-1_0
@@ -6148,6 +6148,7 @@ vte2-lang
 w3m
 wallpaper-branding-openSUSE
 wayland-devel
+wayland-protocols-devel
 wdiff
 wdiff-lang
 webkit2gtk-4_0-injected-bundles
@@ -6174,11 +6175,6 @@ xbitmaps
 xbitmaps-devel
 xbrlapi
 xcb-util-devel
-xchat
-xchat-lang
-xchat-perl
-xchat-python
-xchat-tcl
 xconsole
 xdg-menu
 xdg-user-dirs
@@ -6193,6 +6189,7 @@ xextproto-devel
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse
