@@ -57,7 +57,6 @@ PackageKit
 PackageKit-Qt-devel
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
-PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SuSEfirewall2
@@ -315,7 +314,6 @@ bundle-lang-common-de
 bundle-lang-common-el
 bundle-lang-common-en
 bundle-lang-common-es
-bundle-lang-common-fi
 bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
@@ -609,7 +607,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -628,6 +625,7 @@ evolution-data-server-devel
 evolution-ews
 evolution-ews-lang
 evolution-plugin-bogofilter
+evolution-plugin-pst-import
 evolution-plugin-rss
 evolution-plugin-rss-lang
 evolution-plugin-spamassassin
@@ -917,7 +915,6 @@ gnome-screenshot
 gnome-session
 gnome-session-core
 gnome-session-default-session
-gnome-session-wayland
 gnome-settings-daemon
 gnome-sharp2
 gnome-shell
@@ -934,7 +931,6 @@ gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
-gnome-shell-wayland
 gnome-software
 gnome-sudoku
 gnome-system-monitor
@@ -942,6 +938,7 @@ gnome-terminal
 gnome-tetravex
 gnome-tetravex-lang
 gnome-themes-accessibility
+gnome-themes-accessibility-gtk2
 gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
@@ -1016,6 +1013,7 @@ gsettings-desktop-schemas-devel
 gsf-office-thumbnailer
 gsf-sharp
 gsl-devel
+gspell-lang
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
@@ -1124,6 +1122,7 @@ gutenprint
 gv
 gvfs
 gvfs-backend-afc
+gvfs-backend-samba
 gvfs-backends
 gvfs-fuse
 gvim
@@ -2100,7 +2099,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-54
+libcamel-1_2-57
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
@@ -2124,7 +2123,6 @@ libccolamd-2_9_1
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
-libcddb2
 libcdio++0
 libcdio-devel
 libcdio16
@@ -2145,7 +2143,6 @@ libchm0
 libcholmod-3_0_6
 libchromaprint1
 libcilkrts5
-libclastfm0
 libclocale1
 libclucene-contribs-lib1
 libclucene-core1
@@ -2347,6 +2344,7 @@ libfuse2
 libfvalue1
 libgadu-devel
 libgadu3
+libgames-support2
 libgarcon-1-0
 libgarcon-branding-openSUSE
 libgarcon-data
@@ -2418,7 +2416,7 @@ libgio-2_0-0
 libgio-2_0-0-32bit
 libgiomm-2_4-1
 libgirepository-1_0-1
-libgit2-23
+libgit2-24
 libgit2-glib-1_0-0
 libgitg-1_0-0
 libgitg-ext-1_0-0
@@ -2433,7 +2431,6 @@ libglib-2_0-0-32bit
 libglibmm-2_4-1
 libgltf-0_0-0
 libglut3
-libglyr1
 libgme0
 libgmime-2_6-0
 libgmm++-devel
@@ -2491,9 +2488,9 @@ libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
 libgraphite2-3-32bit
-libgrilo-0_2-1
-libgrlnet-0_2-0
-libgrlpls-0_2-0
+libgrilo-0_3-0
+libgrlnet-0_3-0
+libgrlpls-0_3-0
 libgsasl-lang
 libgsasl7
 libgsf-1-114
@@ -2502,6 +2499,7 @@ libgsl0
 libgsm1
 libgsm1-32bit
 libgsound0
+libgspell-1-1
 libgssdp-1_0-3
 libgssglue-devel
 libgssglue1
@@ -2542,6 +2540,7 @@ libgstvdp-0_10-23
 libgstvideo-1_0-0
 libgstvideo-1_0-0-32bit
 libgstwayland-1_0-0
+libgsystem0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -2688,7 +2687,6 @@ libkdevplatform8
 libkeduvocdocument4
 libkerfuffle15
 libkexiv2-devel
-libkeybinder-3_0-0
 libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
@@ -2948,6 +2946,7 @@ libosinfo
 libosinfo-1_0-0
 libosip2
 libosip2-devel
+libostree-1-1
 libotf0
 libotr-devel
 libotr5
@@ -3063,7 +3062,7 @@ libpurple-plugin-openfetion-lang
 libpurple-plugin-pack
 libpurple-plugin-sipe
 libpurple-plugin-skype
-libpurple-plugin-skype-lang
+libpurple-plugin-skypeweb
 libpurple-tcl
 libpwquality1
 libpython2_7-1_0
@@ -3193,6 +3192,7 @@ libreoffice-pyuno
 libreoffice-share-linker
 libreoffice-writer
 libreoffice-writer-extensions
+libreofficekit
 librepository
 librest0
 librevenge-0_0-0
@@ -3235,7 +3235,6 @@ libsepol1-32bit
 libserf-1-1
 libserf-devel
 libserializer
-libsexy
 libsfcUtil0
 libsgutils2-1_42-2
 libshout3
@@ -3434,7 +3433,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_30-0
+libvala-0_32-0
 libvamp-hostsdk3
 libvcdinfo0
 libvdeplug3
@@ -3587,6 +3586,7 @@ libxcb-xv0
 libxcb-xvmc0
 libxcb1
 libxcb1-32bit
+libxdg-app0
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4panel-2_0-4
@@ -3612,6 +3612,7 @@ libxkbui1
 libxklavier-devel
 libxklavier16
 libxml++-2_6-2
+libxml++-3_0-1
 libxml++-devel
 libxml-security-c17
 libxml2-2
@@ -3883,6 +3884,7 @@ nilfs-utils
 nkf
 nmap
 notification-daemon
+noto-sans-cjk-fonts
 noto-sans-fonts
 nscd
 nspluginwrapper
@@ -4496,6 +4498,7 @@ pidgin
 pidgin-openfetion
 pidgin-plugin-pack
 pidgin-plugin-skype
+pidgin-plugin-skypeweb
 pidgin-sipe
 pigz
 pin
@@ -4573,7 +4576,6 @@ pptp
 pptpd
 pragha
 pragha-lang
-pragha-plugins
 prctl
 presage-data
 presentproto-devel
@@ -4593,6 +4595,7 @@ pullin-bcm43xx-firmware
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -7485,13 +7488,14 @@ typelib-1_0-Gcr-3
 typelib-1_0-GcrUi-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
+typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
-typelib-1_0-Grl-0_2
+typelib-1_0-Grl-0_3
 typelib-1_0-Gsf-1
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAllocators-1_0
@@ -7625,6 +7629,7 @@ w3m
 w3m-el
 wallpaper-branding-openSUSE
 wayland-devel
+wayland-protocols-devel
 wdiff
 wdiff-lang
 webkit2gtk-4_0-injected-bundles
@@ -7662,11 +7667,6 @@ xbitmaps-devel
 xbrlapi
 xcb-proto-devel
 xcb-util-devel
-xchat
-xchat-lang
-xchat-perl
-xchat-python
-xchat-tcl
 xconsole
 xdelta
 xdg-menu
@@ -7688,6 +7688,7 @@ xextproto-devel
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse

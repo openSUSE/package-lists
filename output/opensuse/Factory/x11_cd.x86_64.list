@@ -132,9 +132,6 @@ fprintd
 fprintd-pam
 fuse
 gawk
-gconf-polkit
-gconf2
-gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
@@ -159,7 +156,10 @@ glibc-locale-32bit
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pam
+gnome-online-accounts
+gnome-online-accounts-lang
 gnome-themes-accessibility
+gnome-themes-accessibility-gtk2
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 google-droid-fonts
@@ -169,6 +169,7 @@ gpart
 gparted
 gpg2
 gpm
+gptfdisk
 grep
 groff
 grsync
@@ -206,16 +207,22 @@ gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
 gtk3-tools
 gvfs
+gvfs-backend-afc
+gvfs-backends
 gvfs-fuse
 gvfs-lang
 gzip
 hardlink
 hdjmod-kmp-default
 hdparm
+hexchat
+hexchat-lang
 hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hostname
+hunspell
+hunspell-tools
 hwinfo
 iceauth
 icedax
@@ -302,6 +309,7 @@ libasm1
 libasound2
 libaspell15
 libassuan0
+libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
 libatkmm-1_6-1
@@ -313,9 +321,11 @@ libaugeas0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libavahi-glib1
 libbind9-140
 libblkid1
 libbluetooth3
+libbluray1
 libboost_system1_60_0
 libboost_thread1_60_0
 libbtrfs0
@@ -335,6 +345,9 @@ libcap-ng0
 libcap2
 libcdda_interface0
 libcdda_paranoia0
+libcdio16
+libcdio_cdda2
+libcdio_paranoia2
 libcerror1
 libcfile1
 libclocale1
@@ -369,6 +382,7 @@ libefivar0
 libelf0
 libelf1
 libenca0
+libenchant1
 libepoxy0
 liberation-fonts
 libevdev2
@@ -401,6 +415,9 @@ libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
+libgd3
+libgdata-lang
+libgdata22
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgio-2_0-0
@@ -415,8 +432,11 @@ libgnomesu
 libgnomesu-lang
 libgnomesu0
 libgnutls30
+libgoa-1_0-0
+libgoa-backend-1_0-1
 libgobject-2_0-0
 libgpg-error0
+libgphoto2-6
 libgpm2
 libgraphite2-3
 libgsf-1-114
@@ -424,6 +444,7 @@ libgsf-lang
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstfft-1_0-0
 libgstinterfaces-0_10-0
 libgstpbutils-1_0-0
 libgstreamer-0_10-0
@@ -437,8 +458,10 @@ libgtk-3-0
 libgtkmm-2_4-1
 libgudev-1_0-0
 libguess1
+libharfbuzz-icu0
 libharfbuzz0
 libhogweed4
+libhyphen0
 libicu56_1
 libicu56_1-ledata
 libidn11
@@ -457,6 +480,7 @@ libisofs6
 libiw30
 libjack0
 libjasper1
+libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2dec0
 libjpeg8
@@ -472,6 +496,7 @@ libldap-2_4-2
 libldap-data
 libldapcpp1
 liblightdm-gobject-1-0
+liblockdev1
 libltdl7
 liblua5_3
 liblwres141
@@ -491,6 +516,8 @@ libmpc3
 libmpfr4
 libmspack0
 libmtdev1
+libmtp-udev
+libmtp9
 libncurses6
 libndp0
 libnetfilter_conntrack3
@@ -515,6 +542,7 @@ libnpth0
 libnsssharedhelper0
 libntfs-3g86
 libnuma1
+liboauth0
 libogg0
 liboggkate1
 libopenjp2-7
@@ -570,7 +598,6 @@ libsecret-1-0
 libselinux1
 libsemanage1
 libsepol1
-libsexy
 libsgutils2-1_42-2
 libsigc-2_0-0
 libslang2
@@ -596,6 +623,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libteamdctl0
+libtelepathy-glib0
 libthai-data
 libthai0
 libtheoradec1
@@ -607,6 +635,7 @@ libtirpc3
 libts-1_0-0
 libtumbler-1-0
 libudev1
+libudisks2-0
 libuna1
 libunique-1_0-0
 libunwind
@@ -633,6 +662,7 @@ libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvpx3
 libvte9
 libwacom-data
 libwacom2
@@ -640,6 +670,8 @@ libwayland-client0
 libwayland-cursor0
 libwayland-egl1
 libwayland-server0
+libwebkit2gtk-4_0-37
+libwebkit2gtk3-lang
 libwebp6
 libwicked-0-6
 libwnck-1-22
@@ -685,6 +717,7 @@ libxml-security-c17
 libxml2-2
 libxml2-tools
 libxshmfence1
+libxslt1
 libxtables11
 libyaml-0-2
 libyui-ncurses-pkg7
@@ -701,6 +734,7 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 linuxconsoletools
+lockdev
 logrotate
 lomoco
 lsb-release
@@ -938,9 +972,14 @@ translation-update
 tumbler
 tumbler-lang
 tuned
+typelib-1_0-Atk-1_0
+typelib-1_0-GdkPixbuf-2_0
+typelib-1_0-Gtk-2_0
+typelib-1_0-Pango-1_0
 ucode-amd
 ucode-intel
 udev
+udisks2
 unzip
 unzip-doc
 update-alternatives
@@ -958,6 +997,7 @@ virtualbox-guest-x11
 vorbis-tools
 vte2-lang
 wallpaper-branding-openSUSE
+webkit2gtk-4_0-injected-bundles
 wget
 which
 wicked
@@ -969,8 +1009,6 @@ wpa_supplicant
 x11-tools
 xauth
 xbitmaps
-xchat
-xchat-lang
 xconsole
 xdg-menu
 xdg-user-dirs

@@ -31,7 +31,6 @@ NetworkManager-vpnc-lang
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
-PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 PackageKit-lang
@@ -231,7 +230,6 @@ gcr-prompter
 gcr-viewer
 gdb
 gdk-pixbuf-lang
-gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdm
@@ -319,7 +317,6 @@ gnome-session
 gnome-session-core
 gnome-session-default-session
 gnome-session-lang
-gnome-session-wayland
 gnome-settings-daemon
 gnome-settings-daemon-lang
 gnome-shell
@@ -336,7 +333,6 @@ gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
-gnome-shell-wayland
 gnome-software
 gnome-software-lang
 gnome-sudoku
@@ -346,6 +342,7 @@ gnome-system-monitor-lang
 gnome-terminal
 gnome-terminal-lang
 gnome-themes-accessibility
+gnome-themes-accessibility-gtk2
 gnome-tweak-tool
 gnome-tweak-tool-lang
 gnome-user-docs
@@ -392,6 +389,7 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gsf-office-thumbnailer
+gspell-lang
 gstreamer
 gstreamer-lang
 gstreamer-libnice
@@ -437,6 +435,7 @@ guile-modules-2_0
 gupnp-av
 gvfs
 gvfs-backend-afc
+gvfs-backend-samba
 gvfs-backends
 gvfs-fuse
 gvfs-lang
@@ -583,6 +582,7 @@ libavahi-core7
 libavahi-glib1
 libavahi-gobject0
 libavcodec56
+libavformat56
 libavutil54
 libb64-0
 libbabl-0_1-0
@@ -604,7 +604,7 @@ libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-54
+libcamel-1_2-57
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -702,6 +702,7 @@ libevent-2_0-5
 libevview3-3
 libexempi3
 libexif12
+libexiv2-14
 libexpat1
 libext2fs2
 libexttextcat
@@ -751,6 +752,7 @@ libgegl-0_3-0
 libgensec0
 libgeoclue0
 libgeocode-glib0
+libgexiv2-2
 libgfbgraph-0_2-0
 libgfortran3
 libgif7
@@ -787,13 +789,14 @@ libgphoto2-6
 libgphoto2-6-lang
 libgpm2
 libgraphite2-3
-libgrilo-0_2-1
-libgrlnet-0_2-0
-libgrlpls-0_2-0
+libgrilo-0_3-0
+libgrlnet-0_3-0
+libgrlpls-0_3-0
 libgsf-1-114
 libgsf-lang
 libgsm1
 libgsound0
+libgspell-1-1
 libgssdp-1_0-3
 libgstadaptivedemux-1_0-0
 libgstallocators-1_0-0
@@ -817,6 +820,7 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvideo-1_0-0
 libgstwayland-1_0-0
+libgsystem0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -969,13 +973,13 @@ liboggkate1
 libopenal1
 libopenjp2-7
 libopenjpeg1
-libopenraw1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
 libosinfo
 libosinfo-1_0-0
 libosinfo-lang
+libostree-1-1
 libotf0
 libp11-kit0
 libpackagekit-glib2-18
@@ -1016,7 +1020,6 @@ libproxy1-config-gnome3
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpsl5
-libpst4
 libpulse-mainloop-glib0
 libpulse0
 libpurple
@@ -1038,6 +1041,7 @@ libquvi-0_9-0_9_4
 libquvi-scripts
 libraptor2-0
 librasqal3
+libraw15
 librcc0
 librcd0
 librdf0
@@ -1056,6 +1060,7 @@ libreoffice-l10n-ru
 libreoffice-pyuno
 libreoffice-share-linker
 libreoffice-writer
+libreofficekit
 librest0
 librevenge-0_0-0
 librsvg-2-2
@@ -1229,6 +1234,7 @@ libxcb-xfixes0
 libxcb-xkb1
 libxcb-xv0
 libxcb1
+libxdg-app0
 libxerces-c-3_1
 libxkbcommon-x11-0
 libxkbcommon0
@@ -1687,13 +1693,14 @@ typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
+typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
-typelib-1_0-Grl-0_2
+typelib-1_0-Grl-0_3
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -1718,6 +1725,7 @@ typelib-1_0-PeasGtk-1_0
 typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
+typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
@@ -1782,6 +1790,7 @@ xdm
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse

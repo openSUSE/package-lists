@@ -40,7 +40,6 @@ OpenPrintingPPDs-postscript
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
-PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SuSEfirewall2
@@ -545,7 +544,6 @@ gnome-screenshot
 gnome-session
 gnome-session-core
 gnome-session-default-session
-gnome-session-wayland
 gnome-settings-daemon
 gnome-shell
 gnome-shell-browser-plugin
@@ -560,7 +558,6 @@ gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
-gnome-shell-wayland
 gnome-software
 gnome-sudoku
 gnome-system-monitor
@@ -568,6 +565,7 @@ gnome-terminal
 gnome-tetravex
 gnome-tetravex-lang
 gnome-themes-accessibility
+gnome-themes-accessibility-gtk2
 gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
@@ -615,6 +613,7 @@ grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsf-office-thumbnailer
+gspell-lang
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
@@ -686,6 +685,7 @@ gupnp-av
 gutenprint
 gvfs
 gvfs-backend-afc
+gvfs-backend-samba
 gvfs-backends
 gvfs-fuse
 gwenview5
@@ -1287,7 +1287,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-54
+libcamel-1_2-57
 libcamgm100
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -1307,7 +1307,6 @@ libcaribou0
 libccolamd-2_9_1
 libcdda_interface0
 libcdda_paranoia0
-libcddb2
 libcdio16
 libcdio_cdda2
 libcdio_paranoia2
@@ -1324,7 +1323,6 @@ libchm0
 libcholmod-3_0_6
 libchromaprint1
 libcilkrts5
-libclastfm0
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
@@ -1472,6 +1470,7 @@ libfreetype6-32bit
 libfribidi0
 libfuse2
 libgadu3
+libgames-support2
 libgarcon-1-0
 libgarcon-branding-openSUSE
 libgarcon-data
@@ -1525,7 +1524,7 @@ libgio-2_0-0
 libgio-2_0-0-32bit
 libgiomm-2_4-1
 libgirepository-1_0-1
-libgit2-23
+libgit2-24
 libgjs0
 libglade-2_0-0
 libgladeui-2-6
@@ -1533,7 +1532,6 @@ libglib-2_0-0
 libglib-2_0-0-32bit
 libglibmm-2_4-1
 libgltf-0_0-0
-libglyr1
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -1571,13 +1569,14 @@ libgps22
 libgrantlee_core0
 libgraphite2-3
 libgraphite2-3-32bit
-libgrilo-0_2-1
-libgrlnet-0_2-0
-libgrlpls-0_2-0
+libgrilo-0_3-0
+libgrlnet-0_3-0
+libgrlpls-0_3-0
 libgsf-1-114
 libgsl0
 libgsm1
 libgsound0
+libgspell-1-1
 libgssdp-1_0-3
 libgssglue1
 libgstadaptivedemux-1_0-0
@@ -1605,6 +1604,7 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvideo-1_0-0
 libgstwayland-1_0-0
+libgsystem0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -1704,7 +1704,6 @@ libkdepim
 libkdepimlibs4
 libkdevplatform8
 libkerfuffle15
-libkeybinder-3_0-0
 libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
@@ -1884,6 +1883,7 @@ libosinfo
 libosinfo-1_0-0
 libosip2
 libosip2-devel
+libostree-1-1
 libotr5
 libp11-kit0
 libp11-kit0-32bit
@@ -1947,7 +1947,6 @@ libproxy1-config-kde
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpsl5
-libpst4
 libpt2_10_10
 libpulse-mainloop-glib0
 libpulse0
@@ -2036,6 +2035,7 @@ libreoffice-pyuno
 libreoffice-share-linker
 libreoffice-writer
 libreoffice-writer-extensions
+libreofficekit
 librepository
 librest0
 librevenge-0_0-0
@@ -2207,7 +2207,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_30-0
+libvala-0_32-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2306,6 +2306,7 @@ libxcb-xkb1
 libxcb-xv0
 libxcb1
 libxcb1-32bit
+libxdg-app0
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4panel-2_0-4
@@ -2809,7 +2810,6 @@ ppp
 pptp
 pragha
 pragha-lang
-pragha-plugins
 prctl
 presage-data
 procinfo
@@ -3143,13 +3143,14 @@ typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
+typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
-typelib-1_0-Grl-0_2
+typelib-1_0-Grl-0_3
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -3174,6 +3175,7 @@ typelib-1_0-PeasGtk-1_0
 typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
+typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
@@ -3266,6 +3268,7 @@ xerces-j2-xml-apis
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse
