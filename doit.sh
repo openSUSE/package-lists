@@ -111,7 +111,7 @@ for arch in $arches; do
     if $(is_x86 $arch); then
         cat output/opensuse/$proj/dvd-$arch.list output/opensuse/$proj/dvd9.$arch.list | LC_ALL=C sort -u > output/opensuse/$proj/dvd9-$arch.list
 
-        dumpsolv trees/openSUSE:$proj:NonFree-$repo-$arch.solv | grep solvable:name: | grep -v libGLw | sed -e 's,.*: ,,' | sort > output/opensuse/$proj/nonoss.$arch.list
+        dumpsolv trees/openSUSE:$proj:NonFree-$repo-$arch.solv | grep solvable:name: | sed -e 's,.*: ,,' | sort > output/opensuse/$proj/nonoss.$arch.list
         echo "repo nonfree-$repo-$arch 0 solv trees/openSUSE:$proj:NonFree-standard-$arch.solv" >  opensuse/$proj/dvd-nonoss
         echo '#INCLUDE dvd-1' >>  opensuse/$proj/dvd-nonoss
         for pkg in $(grep -v openSUSE output/opensuse/$proj/nonoss.$arch.list); do
