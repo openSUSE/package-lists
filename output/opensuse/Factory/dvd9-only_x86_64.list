@@ -13,6 +13,7 @@ device-mapper-32bit
 drbd
 drbd-kmp-default
 drbd-utils
+fipscheck
 fontconfig-32bit
 fprintd-pam-32bit
 gdk-pixbuf-query-loaders-32bit
@@ -26,6 +27,8 @@ gtk2-engine-cleanice-32bit
 gtk2-engine-murrine-32bit
 gtk2-tools-32bit
 ibus-gtk-32bit
+kernel-default-devel
+kernel-syms
 krb5-32bit
 libFLAC8-32bit
 libGLU1-32bit
@@ -88,6 +91,7 @@ libexif12-32bit
 libexpat1-32bit
 libfam0-gamin-32bit
 libffi4-32bit
+libfipscheck1
 libfreetype6-32bit
 libgbm1-32bit
 libgcc_s1-32bit
@@ -228,6 +232,7 @@ libxshmfence1-32bit
 libxslt1-32bit
 libz1-32bit
 mcelog
+mozilla-nss-tools
 msmtp
 msmtp-mta
 nspluginwrapper
@@ -244,6 +249,8 @@ pam_ldap-32bit
 pam_mount-32bit
 pam_ssh-32bit
 perl-32bit
+pesign
+pesign-obs-integration
 pulseaudio-esound-compat
 python-talloc-32bit
 rpm-32bit
