@@ -660,6 +660,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 five-or-more
 five-or-more-lang
 fixesproto-devel
@@ -1287,9 +1288,9 @@ juk
 junit
 k3b
 kaccounts-integration
-kactivities5
 kactivities5-devel
 kactivities5-imports
+kactivitymanagerd
 kaddressbook5
 kakasi
 kakasi-dict
@@ -1423,11 +1424,13 @@ kdump
 keditbookmarks
 kemoticons-devel
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -1724,7 +1727,7 @@ libKF5QGpgme5
 libKF5QuickAddons5
 libKF5Runner5
 libKF5Sane5
-libKF5Screen6
+libKF5Screen7
 libKF5Solid5
 libKF5SonnetCore5
 libKF5SonnetUi5
@@ -2216,6 +2219,7 @@ libffi-devel-gcc5
 libffi4
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfli-devel
 libfli1
 libfltk1
@@ -2636,7 +2640,7 @@ liblua5_2
 liblua5_3
 liblwres141
 liblxpanel0
-liblz4-1_4
+liblz4-1_7
 liblzma5
 liblzo2-2
 libm17n0
@@ -3571,6 +3575,7 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
+mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -4185,6 +4190,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4271,7 +4278,6 @@ plasma-nm5-openvpn
 plasma-nm5-pptp
 plasma-nm5-vpnc
 plasma5-addons
-plasma5-addons-kimpanel
 plasma5-desktop
 plasma5-desktop-branding-openSUSE
 plasma5-pa
