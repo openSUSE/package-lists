@@ -66,7 +66,6 @@ b43-fwcutter
 baobab
 bash
 bash-completion
-bc
 bijiben
 bind-utils
 binutils
@@ -132,10 +131,6 @@ dbus-1-python
 dbus-1-python3
 dbus-1-x11
 dconf
-dd_rescue
-dd_rescue-crypt
-dd_rescue-lzo
-dd_rhelp
 dejavu-fonts
 deltarpm
 desktop-data-openSUSE
@@ -235,7 +230,6 @@ gnome-dictionary
 gnome-disk-utility
 gnome-documents
 gnome-documents_books-common
-gnome-font-viewer
 gnome-games-recommended
 gnome-keyring
 gnome-keyring-pam
@@ -283,14 +277,12 @@ gnome-video-effects
 gnome-weather
 gnome-web-photo
 gnu-unifont-bitmap-fonts
-gnu_ddrescue
 gnuchess
 google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
 google-roboto-fonts
 gpart
-gparted
 gpg2
 gpgme
 gpm
@@ -300,7 +292,6 @@ grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
 groff
-grsync
 grub
 grub2
 grub2-branding-openSUSE
@@ -353,7 +344,6 @@ gzip
 hardlink
 hdjmod-kmp-default
 hdparm
-hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hostname
@@ -400,9 +390,7 @@ kmod
 kmod-compat
 kpartx
 krb5
-krb5-client
 less
-lftp
 libFLAC8
 libGLEW1_13
 libHX28
@@ -566,7 +554,6 @@ libdialog13
 libdleyna-core-1_0-4
 libdmapsharing-3_0-2
 libdmx1
-libdnet1
 libdns162
 libdns_sd
 libdotconf0
@@ -608,7 +595,6 @@ libexpat1
 libext2fs2
 libexttextcat
 libexttextcat-2_0-0
-libfallocate0
 libfam0-gamin
 libfarstream-0_2-5
 libfbembed2_5
@@ -719,7 +705,6 @@ libgsystem0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtkspell3-3-0
@@ -743,8 +728,8 @@ libhogweed4
 libhyphen0
 libibus-1_0-5
 libical1
-libicu56_1
-libicu56_1-ledata
+libicu57_1
+libicu57_1-ledata
 libidn11
 libidnkit1
 libieee1284
@@ -813,7 +798,6 @@ libmozjs-17_0
 libmozjs-24
 libmpc3
 libmpfr4
-libmspack0
 libmspub-0_1-1
 libmtdev1
 libmtp-udev
@@ -839,9 +823,6 @@ libnfnetlink0
 libnfsidmap-sss
 libnghttp2-14
 libnice10
-libnilfs0
-libnilfscleaner0
-libnilfsgc0
 libnl-config
 libnl3-200
 libnm-glib-vpn1
@@ -1060,7 +1041,6 @@ libvdpau1
 libverto1
 libvisio-0_1-1
 libvisual
-libvmtools0
 libvorbis0
 libvorbisenc2
 libvorbisfile3
@@ -1085,7 +1065,6 @@ libwpg-0_3-3
 libwps-0_4-4
 libwrap0
 libx86emu1
-libxalan-c111
 libxapian22
 libxatracker2
 libxcb-dri2-0
@@ -1108,12 +1087,10 @@ libxcb-xkb1
 libxcb-xv0
 libxcb1
 libxdg-app0
-libxerces-c-3_1
 libxkbcommon-x11-0
 libxkbcommon0
 libxkbfile1
 libxklavier16
-libxml-security-c17
 libxml2-2
 libxml2-tools
 libxshmfence1
@@ -1148,8 +1125,6 @@ lvm2
 mailx
 man
 master-boot-code
-mc
-mc-lang
 mdadm
 memtest86+
 metatheme-adwaita-common
@@ -1186,11 +1161,9 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
-nilfs-utils
 notification-daemon
 nscd
 nss-mdns
-nss_ldap
 ntfs-3g
 ntfsprogs
 ntp
@@ -1198,8 +1171,6 @@ numactl
 numlockx
 ofl
 open-iscsi
-open-vm-tools
-open-vm-tools-desktop
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-gnome
@@ -1218,8 +1189,6 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
-pam_krb5
-pam_ldap
 pam_mount
 parallel-printer-support
 parted
