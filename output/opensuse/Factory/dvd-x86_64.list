@@ -979,7 +979,6 @@ gstreamer-0_10-plugins-ugly-lang
 gstreamer-devel
 gstreamer-libnice
 gstreamer-plugin-gnonlin
-gstreamer-plugin-gstclutter
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
 gstreamer-plugins-base
@@ -1063,7 +1062,6 @@ gutenprint
 gv
 gvfs
 gvfs-backend-afc
-gvfs-backend-samba
 gvfs-backends
 gvfs-fuse
 gvim
@@ -2077,7 +2075,6 @@ libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
 libclutter-1_0-0
-libclutter-gst-2_0-0
 libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcmis-0_5-5
@@ -2319,8 +2316,6 @@ libgeany0
 libgee-0_8-2
 libgegl-0_2-0
 libgegl-0_3-0
-libgensec0
-libgensec0-32bit
 libgeoclue0
 libgeocode-glib0
 libges-1_0-0
@@ -3070,7 +3065,6 @@ librdmacm1
 libreadline5
 libreadline6
 libref_array1
-libregistry0
 libreiserfscore0
 libreoffice
 libreoffice-base
@@ -3119,6 +3113,8 @@ librsvg-devel
 libruby2_2-2_2
 libsamba-credentials0
 libsamba-credentials0-32bit
+libsamba-errors0
+libsamba-errors0-32bit
 libsamba-hostconfig0
 libsamba-hostconfig0-32bit
 libsamba-passdb0
@@ -3163,8 +3159,6 @@ libsilcclient-1_1-4
 libslang2
 libsmartcols1
 libsmbclient-devel
-libsmbclient-raw0
-libsmbclient-raw0-32bit
 libsmbclient0
 libsmbconf0
 libsmbconf0-32bit
@@ -3226,7 +3220,7 @@ libstdc++-devel
 libstdc++6
 libstdc++6-32bit
 libstdc++6-devel-gcc5
-libstdc++6-locale
+libstdc++6-gcc6-locale
 libstoken1
 libstorage-ruby
 libstorage6
@@ -4721,7 +4715,6 @@ s2tc-32bit
 sablot
 sac
 samba
-samba-32bit
 samba-client
 samba-client-32bit
 samba-doc
