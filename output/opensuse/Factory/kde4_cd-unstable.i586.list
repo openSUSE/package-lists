@@ -803,8 +803,6 @@ libksuseinstall1
 libksysguard5
 libksysguard5-helper
 libksysguard5-lang
-libktorrent5
-libktorrent5-lang
 libkwalletbackend5-5
 liblastfm1
 liblcms2-2
@@ -924,7 +922,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-unixODBC
+libqt4-sql-mysql
 libqt4-x11
 libqt5-linguist
 libqt5-qtgraphicaleffects
@@ -1181,7 +1179,6 @@ pciutils-ids
 pcmciautils
 perl
 perl-Bootloader
-perl-Bootloader-YAML
 perl-CPAN-Changes
 perl-Class-Singleton
 perl-Config-Crontab
@@ -1239,7 +1236,6 @@ perl-XML-SAX-Expat
 perl-XML-Simple
 perl-XML-Twig
 perl-XML-XPath
-perl-YAML-LibYAML
 perl-apparmor
 perl-base
 perl-gettext
@@ -1369,6 +1365,7 @@ ruby-common
 ruby2.2
 ruby2.2-rubygem-abstract_method
 ruby2.2-rubygem-cfa
+ruby2.2-rubygem-cfa_grub2
 ruby2.2-rubygem-cheetah
 ruby2.2-rubygem-fast_gettext
 ruby2.2-rubygem-gem2rpm
@@ -1443,7 +1440,6 @@ ucode-intel
 udev
 udev-configure-printer
 udisks2
-unixODBC
 unzip
 unzip-doc
 update-alternatives

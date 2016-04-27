@@ -354,6 +354,34 @@ cabextract
 cairo-devel
 cal10n
 calibre
+calligra
+calligra-extras-dolphin
+calligra-extras-okular
+calligra-l10n-cs
+calligra-l10n-da
+calligra-l10n-de
+calligra-l10n-de-doc
+calligra-l10n-el
+calligra-l10n-en_GB
+calligra-l10n-es
+calligra-l10n-es-doc
+calligra-l10n-fr
+calligra-l10n-fr-doc
+calligra-l10n-hu
+calligra-l10n-it
+calligra-l10n-it-doc
+calligra-l10n-ja
+calligra-l10n-pl
+calligra-l10n-pt
+calligra-l10n-pt-doc
+calligra-l10n-pt_BR
+calligra-l10n-pt_BR-doc
+calligra-l10n-ru
+calligra-l10n-ru-doc
+calligra-l10n-zh_CN
+calligra-l10n-zh_TW
+calligra-stage
+calligra-words-common
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -566,7 +594,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -591,6 +618,7 @@ evolution-plugin-rss-lang
 evolution-plugin-spamassassin
 exif
 exiftool
+exim
 exo-lang
 exo-tools
 expat
@@ -2567,7 +2595,8 @@ libksysguard5-helper
 libktoblzcheck1
 libktoblzcheck1-devel
 libktorrent-devel
-libktorrent5
+libktorrent6
+libktorrent6-lang
 libktpaccountskcminternal9
 libkvkontakte-lang
 libkvkontakte1
@@ -2780,6 +2809,7 @@ libpango-1_0-0
 libpangomm-1_4-1
 libpangox-1_0-0
 libpano13-3
+libpaper1
 libparted0
 libpath_utils1
 libpcap1
@@ -2835,6 +2865,7 @@ libpoppler59
 libpopt0
 libportaudio2
 libportmidi0
+libpotrace0
 libpowerman0
 libpq5
 libpqxx-4_0
@@ -2881,6 +2912,7 @@ libqalculate-devel
 libqalculate5
 libqb0
 libqca-qt5
+libqca-qt5-devel
 libqca-qt5-plugins
 libqca2
 libqca2-devel
@@ -3077,11 +3109,13 @@ libspeechd-devel
 libspeechd2
 libspeex1
 libspeexdsp1
+libspf2-2
 libspice-client-glib-2_0-8
 libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
 libspice-controller0
 libspice-server1
+libspnav0
 libsqlite3-0
 libsrtp1
 libssh-devel
@@ -3882,7 +3916,6 @@ perl-BSD-Resource
 perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
-perl-Bootloader-YAML
 perl-CDDB_get
 perl-CGI
 perl-CGI-Application
@@ -4136,7 +4169,6 @@ perl-XML-Writer
 perl-XML-XPath
 perl-XML-XSLT
 perl-YAML
-perl-YAML-LibYAML
 perl-apparmor
 perl-autobox
 perl-base
@@ -4315,6 +4347,7 @@ pullin-bcm43xx-firmware
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4569,6 +4602,7 @@ ruby2.2
 ruby2.2-devel
 ruby2.2-rubygem-abstract_method
 ruby2.2-rubygem-cfa
+ruby2.2-rubygem-cfa_grub2
 ruby2.2-rubygem-cheetah
 ruby2.2-rubygem-fast_gettext
 ruby2.2-rubygem-gem2rpm
@@ -5167,6 +5201,8 @@ texlive-cjkpunct-doc
 texlive-cjkutils
 texlive-cjkutils-bin
 texlive-cjkutils-doc
+texlive-classpack
+texlive-classpack-doc
 texlive-cloze
 texlive-cloze-doc
 texlive-cm
@@ -5198,6 +5234,7 @@ texlive-collection-context
 texlive-collection-fontsrecommended
 texlive-collection-fontutils
 texlive-collection-genericrecommended
+texlive-collection-htmlxml
 texlive-collection-langcjk
 texlive-collection-langcyrillic
 texlive-collection-langczechslovak
@@ -5815,6 +5852,9 @@ texlive-isomath
 texlive-isomath-doc
 texlive-itnumpar
 texlive-itnumpar-doc
+texlive-jadetex
+texlive-jadetex-bin
+texlive-jadetex-doc
 texlive-japanese
 texlive-japanese-doc
 texlive-japanese-otf
@@ -6255,6 +6295,7 @@ texlive-parallel
 texlive-parallel-doc
 texlive-parskip
 texlive-parskip-doc
+texlive-passivetex
 texlive-patgen
 texlive-patgen-bin
 texlive-patgen2-tutorial
@@ -6779,6 +6820,9 @@ texlive-tex-virtual-academy-pl
 texlive-tex4ebook
 texlive-tex4ebook-bin
 texlive-tex4ebook-doc
+texlive-tex4ht
+texlive-tex4ht-bin
+texlive-tex4ht-doc
 texlive-texbytopic
 texlive-texconfig
 texlive-texconfig-bin
@@ -7281,6 +7325,7 @@ unixODBC
 unoconv
 unzip
 unzip-doc
+unzip-rcc
 update-alternatives
 update-desktop-files
 upower
@@ -7611,7 +7656,6 @@ yast2-devel-doc
 yast2-devtools
 yast2-dhcp-server
 yast2-dns-server
-yast2-drbd
 yast2-firewall
 yast2-firstboot
 yast2-fonts

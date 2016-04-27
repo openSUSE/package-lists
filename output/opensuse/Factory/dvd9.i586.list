@@ -2050,7 +2050,6 @@ libksuseinstall1
 libksysguard5
 libksysguard5-devel
 libksysguard5-helper
-libktorrent5
 libktpaccountskcminternal9
 libkvkontakte-lang
 libkvkontakte1
@@ -2221,6 +2220,7 @@ libpango-1_0-0
 libpangomm-1_4-1
 libpangox-1_0-0
 libpano13-3
+libpaper1
 libparted0
 libpath_utils1
 libpcap1
@@ -2272,6 +2272,7 @@ libpoppler-qt5-devel
 libpoppler59
 libpopt0
 libportaudio2
+libpotrace0
 libpresage1
 libprison0
 libprocps5
@@ -3091,7 +3092,6 @@ perl-Authen-SASL
 perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
-perl-Bootloader-YAML
 perl-CPAN-Changes
 perl-Carp-Clan
 perl-Class-Inspector
@@ -3196,7 +3196,6 @@ perl-XML-Simple
 perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
-perl-YAML-LibYAML
 perl-apparmor
 perl-base
 perl-camgm
@@ -3457,6 +3456,7 @@ ruby-common
 ruby2.2
 ruby2.2-rubygem-abstract_method
 ruby2.2-rubygem-cfa
+ruby2.2-rubygem-cfa_grub2
 ruby2.2-rubygem-cheetah
 ruby2.2-rubygem-fast_gettext
 ruby2.2-rubygem-gem2rpm
@@ -4013,6 +4013,8 @@ texlive-cjkpunct-doc
 texlive-cjkutils
 texlive-cjkutils-bin
 texlive-cjkutils-doc
+texlive-classpack
+texlive-classpack-doc
 texlive-cloze
 texlive-cloze-doc
 texlive-cm
@@ -4044,6 +4046,7 @@ texlive-collection-context
 texlive-collection-fontsrecommended
 texlive-collection-fontutils
 texlive-collection-genericrecommended
+texlive-collection-htmlxml
 texlive-collection-langcjk
 texlive-collection-langcyrillic
 texlive-collection-langczechslovak
@@ -4661,6 +4664,9 @@ texlive-isomath
 texlive-isomath-doc
 texlive-itnumpar
 texlive-itnumpar-doc
+texlive-jadetex
+texlive-jadetex-bin
+texlive-jadetex-doc
 texlive-japanese
 texlive-japanese-doc
 texlive-japanese-otf
@@ -5101,6 +5107,7 @@ texlive-parallel
 texlive-parallel-doc
 texlive-parskip
 texlive-parskip-doc
+texlive-passivetex
 texlive-patgen
 texlive-patgen-bin
 texlive-patgen2-tutorial
@@ -5625,6 +5632,9 @@ texlive-tex-virtual-academy-pl
 texlive-tex4ebook
 texlive-tex4ebook-bin
 texlive-tex4ebook-doc
+texlive-tex4ht
+texlive-tex4ht-bin
+texlive-tex4ht-doc
 texlive-texbytopic
 texlive-texconfig
 texlive-texconfig-bin
