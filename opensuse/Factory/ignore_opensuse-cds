@@ -213,6 +213,7 @@ job lock name intel-gpu-tools
 job lock name hexchat-lang
 
 # This is the list for the Rescue-CD - we really do not need vdpau on it (and we need to save space)
+job lock name Mesa-libva
 job lock name libvdpau_nouveau
 job lock name libvdpau_r300
 job lock name libvdpau_r600
