@@ -1176,6 +1176,7 @@ libavahi-core7
 libavahi-glib1
 libavahi-gobject0
 libavahi-ui-gtk3-0
+libavc1394-0
 libavcodec56
 libavformat56
 libavogadro1
@@ -1227,6 +1228,7 @@ libburn4
 libburnia-tools
 libbz2-1
 libbzrtp0
+libcaca0
 libcacard0
 libcairo-gobject2
 libcairo2
@@ -1249,6 +1251,7 @@ libcblas3
 libccolamd-2_9_1
 libcdda_interface0
 libcdda_paranoia0
+libcddb2
 libcdio16
 libcdio_cdda2
 libcdio_paranoia2
@@ -1265,6 +1268,7 @@ libchm0
 libcholmod-3_0_6
 libchromaprint1
 libcilkrts5
+libclastfm0
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
@@ -1308,6 +1312,7 @@ libdleyna-core-1_0-4
 libdmapsharing-3_0-2
 libdmtx0
 libdmx1
+libdnet1
 libdns162
 libdns_sd
 libdolphinvcs5
@@ -1318,11 +1323,13 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
+libdvbpsi10
 libdvdnav4
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
+libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -1445,6 +1452,7 @@ libgladeui-2-6
 libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
+libglyr1
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -1602,6 +1610,7 @@ libkdepim
 libkdepimlibs4
 libkdevplatform8
 libkerfuffle15
+libkeybinder-3_0-0
 libkeybinder0
 libkeyutils1
 libkf5kdegames6
@@ -1661,6 +1670,7 @@ libmagic1
 libmarblewidget-qt5-23
 libmarblewidget22
 libmate-desktop-2-17
+libmatroska6
 libmbedtls9
 libmbim-glib4
 libmeanwhile1
@@ -1923,6 +1933,7 @@ libsepol1
 libserf-1-1
 libserializer
 libsgutils2-1_42-2
+libshout3
 libsidplay1
 libsigc-2_0-0
 libsignon-glib1
@@ -1971,7 +1982,7 @@ libstdc++6
 libstdc++6-devel-gcc5
 libstoken1
 libstorage-ruby
-libstorage6
+libstorage7
 libsuitesparseconfig-4_4_6
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
@@ -2055,6 +2066,9 @@ libverto1
 libvigraimpex5
 libvisio-0_1-1
 libvisual
+libvlc5
+libvlccore8
+libvmtools0
 libvncclient0
 libvorbis0
 libvorbisenc2
@@ -2097,6 +2111,7 @@ libwx_gtk2u_html-2_8-0-stl
 libwx_gtk2u_qa-2_8-0-stl
 libwx_gtk2u_xrc-2_8-0-stl
 libx86emu1
+libxalan-c111
 libxapian22
 libxatracker2
 libxcb-composite0
@@ -2140,6 +2155,7 @@ libxkbcommon-x11-0
 libxkbcommon0
 libxkbfile1
 libxklavier16
+libxml-security-c17
 libxml2-2
 libxml2-tools
 libxmmsclient-glib1
@@ -2162,6 +2178,7 @@ libzhuyin-data
 libzhuyin7
 libzio1
 libzip4
+libzvbi0
 libzypp
 libzypp-plugin-appdata
 liferea
@@ -2319,6 +2336,8 @@ obconf
 ofl
 okular
 open-iscsi
+open-vm-tools
+open-vm-tools-desktop
 openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd-promo
@@ -2559,7 +2578,7 @@ perl-libwww-perl
 perl-razor-agents
 perl-solv
 permissions
-phonon-backend-gstreamer
+phonon-backend-vlc
 phonon4qt5-backend-gstreamer
 pidgin
 pigz
@@ -2608,6 +2627,7 @@ ppp
 pptp
 pragha
 pragha-lang
+pragha-plugins
 prctl
 presage-data
 procinfo
@@ -3014,6 +3034,8 @@ vinagre
 vinagre-lang
 vino
 vlan
+vlc-noX
+vlc-noX-lang
 vorbis-tools
 vpnc
 vsftpd
