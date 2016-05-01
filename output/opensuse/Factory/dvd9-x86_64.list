@@ -2231,7 +2231,6 @@ libdrm_nouveau2-32bit
 libdrm_radeon1
 libdrm_radeon1-32bit
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
@@ -2240,7 +2239,6 @@ libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2505,6 +2503,7 @@ libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstaudio-1_0-0-32bit
+libgstbadaudio-1_0-0
 libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
 libgstbasecamerabinsrc-0_10-23
@@ -2784,7 +2783,6 @@ libmal1
 libmarblewidget-qt5-23
 libmarblewidget22
 libmate-desktop-2-17
-libmatroska6
 libmbedtls9
 libmbim-glib4
 libmcrypt
@@ -3472,8 +3470,6 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -4442,7 +4438,7 @@ pfscalibration
 pfstmo
 pfstools
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon-devel
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
@@ -4602,6 +4598,7 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
+pulseaudio-utils-32bit
 purple-plugin-pack-lang
 purpose
 pwgen
@@ -7625,8 +7622,6 @@ virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
-vlc-noX
-vlc-noX-lang
 vlgothic-fonts
 vlock
 vm-install
