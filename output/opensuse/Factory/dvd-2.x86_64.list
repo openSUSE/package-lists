@@ -169,6 +169,7 @@ libXft2
 libXi6
 libXinerama1
 libXmu6
+libXmuu1
 libXpm4
 libXrandr2
 libXrender1
@@ -608,9 +609,13 @@ python-six
 python-xml
 python3
 python3-base
+python3-curses
+python3-dbm
+python3-idle
 python3-pip
 python3-setuptools
 python3-six
+python3-tk
 readline-doc
 rpm
 rsyslog
@@ -646,6 +651,7 @@ systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
+tcl
 tcsh
 tcsh-lang
 terminfo-base
@@ -653,6 +659,7 @@ thin-provisioning-tools
 time
 timezone
 timezone-java
+tk
 traceroute
 udev
 udisks2
@@ -671,6 +678,7 @@ xdg-menu
 xdg-utils
 xerces-j2-xml-apis
 xerces-j2-xml-resolver
+xhost
 xkeyboard-config
 xorg-x11-fonts
 xorg-x11-fonts-core
