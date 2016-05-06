@@ -310,7 +310,6 @@ bundle-lang-common-de
 bundle-lang-common-el
 bundle-lang-common-en
 bundle-lang-common-es
-bundle-lang-common-fi
 bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
@@ -2312,6 +2311,7 @@ libgc1
 libgcab-1_0-0
 libgcc_s1
 libgcc_s1-32bit
+libgcc_s1-gcc6-32bit
 libgcj-devel
 libgcj-devel-gcc5
 libgcj-gcc5
@@ -2831,6 +2831,7 @@ libnettle6
 libnettle6-32bit
 libnewt0_52
 libnfnetlink0
+libnfs8
 libnfsidmap-sss
 libnghttp2-14
 libnice10
@@ -2972,7 +2973,7 @@ libpoppler-glib8
 libpoppler-qt4-4
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler59
+libpoppler60
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -3033,7 +3034,7 @@ libqimageblitz-devel
 libqimageblitz4
 libqjson-devel
 libqjson0
-libqmi-glib1
+libqmi-glib5
 libqmi-tools
 libqoauth1
 libqpdf17
@@ -3261,7 +3262,6 @@ libstdc++-devel
 libstdc++6
 libstdc++6-32bit
 libstdc++6-devel-gcc5
-libstdc++6-gcc6-32bit
 libstdc++6-gcc6-locale
 libstoken1
 libstorage-ruby
@@ -3614,7 +3614,6 @@ lndir
 lockdev
 log4j
 logrotate
-lokalize
 lomoco
 loudmouth-devel
 lsb-release
