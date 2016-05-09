@@ -142,7 +142,6 @@ libndr-standard0-32bit
 libndr0-32bit
 libnetapi0-32bit
 libnettle6-32bit
-libnfs8
 libnl3-200-32bit
 libogg0-32bit
 libopenal1-32bit
@@ -240,6 +239,7 @@ pam_krb5-32bit
 pam_ldap-32bit
 pam_mount-32bit
 pam_ssh-32bit
+pcfclock-kmp-default
 perl-32bit
 pulseaudio-utils-32bit
 python-talloc-32bit
@@ -250,10 +250,6 @@ samba-libs-32bit
 samba-winbind-32bit
 sane-backends-32bit
 scim-gtk-32bit
-seamonkey
-seamonkey-dom-inspector
-seamonkey-irc
-seamonkey-translations-common
 shim
 sssd-32bit
 systemd-32bit
