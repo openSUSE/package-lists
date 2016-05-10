@@ -10,6 +10,9 @@ case $proj in
 	Leap:42.1) arches="x86_64"
             repo="standard"
                 ;;
+	Leap:42.*:Ports) arches="ppc64le aarch64"
+            repo="ports"
+                ;;
 	Factory:PowerPC) arches="ppc64 ppc64le"
 			repo="standard"
 		;;
