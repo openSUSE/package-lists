@@ -1,0 +1,61 @@
+#INCLUDE common-dvd5
+
+namespace namespace:language(en_US) @SYSTEM
+namespace namespace:language(en_GB) @SYSTEM
+namespace namespace:language(pt) @SYSTEM
+namespace namespace:language(pt_BR) @SYSTEM
+namespace namespace:language(de) @SYSTEM
+namespace namespace:language(es) @SYSTEM
+namespace namespace:language(it) @SYSTEM
+namespace namespace:language(fr) @SYSTEM
+namespace namespace:language(ja) @SYSTEM
+namespace namespace:language(zh) @SYSTEM
+namespace namespace:language(zh_TW) @SYSTEM
+namespace namespace:language(zh_CN) @SYSTEM
+namespace namespace:language(ru) @SYSTEM
+namespace namespace:language(cs) @SYSTEM
+namespace namespace:language(hu) @SYSTEM
+namespace namespace:language(pl) @SYSTEM
+namespace namespace:language(da) @SYSTEM
+namespace namespace:language(el) @SYSTEM
+#INCLUDE all-supplements
+
+#INCLUDE dvd-1.i586.suggests # !x86_64 # !ppc64le # !ppc64
+#INCLUDE dvd-1.x86_64.suggests # !i586 # !ppc64le # !ppc64
+#INCLUDE dvd-1.ppc64.suggests # !x86_64 # !ppc64le # !x86_64
+#INCLUDE dvd-1.ppc64le.suggests # !x86_64 # !i586 # !ppc64
+
+job lock name xerces-j2-xml-resolver
+job lock name xerces-j2-xml-apis
+job lock name gnu-javamail
+job lock name gnuchess
+job lock name atftp
+job lock name notification-daemon-xfce
+job lock name java-1_4_2-ibm
+job lock name myspell-german-old
+job lock name squid
+job lock name icewm-default
+job lock name hpijs-standalone
+job lock name geronimo-tomcat-servlet-container
+job lock name iscan
+job lock name acroread_ja
+job lock name apache2-worker
+job lock name apper
+job lock name liberation2-fonts
+job lock name xen-tools-domU
+
+job install provides pattern() = rest_dvd
+job install provides pattern() = devel_gnome
+job install name xfce4-panel
+job install name elilo #!ppc64 # !ppc64le
+job install name efibootmgr # !i586 # !ppc64 # !ppc64le
+job install name postgresql
+job install name postgresql-devel
+job install name postgresql-contrib
+job install name postgresql-docs
+job install name postgresql-server
+job install name yast2-services-manager
+job install name postfix
+job install name kdelibs4-branding-openSUSE
+job install name ibus
+

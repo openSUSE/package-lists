@@ -1,3 +1,6 @@
+#!/usr/bin/perl -w
+
+use strict;
 use File::Temp qw/tempdir/;
 use File::Basename;
 
@@ -16,7 +19,7 @@ my $project = $ARGV[0];
 my $repo = $ARGV[1];
 my $arch = $ARGV[2];
 
-$repodir = "/var/cache/repo-checker/repo-$project-$repo-$arch";
+my $repodir = ($ENV{XDG_CACHE_HOME}||$ENV{HOME}."/.cache")."/opensuse-repo-checker/repo-$project-$repo-$arch";
 mkdir($repodir);
 my $tdir = tempdir();
 my $pfile = "$tdir/packages";    # the filename is important ;(

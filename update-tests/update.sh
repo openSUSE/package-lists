@@ -1,4 +1,3 @@
-rm -rf /tmp/myrepos
 : > drops.list
 proj=$2
 test -n "$proj" || proj=Factory

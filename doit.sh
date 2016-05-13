@@ -13,7 +13,7 @@ case $proj in
 	Factory)arches="i586 x86_64"
 		repo="standard"
 		;;
-        Leap:42.1) arches="x86_64"
+        Leap:42.2) arches="x86_64"
                 repo="standard"
                 ;;
         Leap:42.*:Ports) arches="ppc64le aarch64"
@@ -84,7 +84,7 @@ for arch in $arches; do
       ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
       ./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
     fi
-    if test "$proj" = "Factory" -o "$proj" = "Leap:42.1"; then
+    if test "$proj" = "Factory" -o "$proj" = "Leap:42.2"; then
       ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
       ./gen.pl opensuse/$proj/x11_cd $arch "$proj" $repo
     fi
@@ -112,7 +112,9 @@ for arch in $arches; do
 
     cat output/opensuse/$proj/dvd-1.$arch.list output/opensuse/$proj/dvd-2.$arch.list output/opensuse/$proj/dvd-3.$arch.list output/opensuse/$proj/dvd-base.$arch.list | LC_ALL=C sort -u > output/opensuse/$proj/dvd-$arch.list
     if $(is_x86 $arch); then
-        cat output/opensuse/$proj/dvd-$arch.list output/opensuse/$proj/dvd9.$arch.list | LC_ALL=C sort -u > output/opensuse/$proj/dvd9-$arch.list
+       if test "$proj" = "Factory"; then
+	   cat output/opensuse/$proj/dvd-$arch.list output/opensuse/$proj/dvd9.$arch.list | LC_ALL=C sort -u > output/opensuse/$proj/dvd9-$arch.list
+       fi
 
         dumpsolv trees/openSUSE:$proj:NonFree-$repo-$arch.solv | grep solvable:name: | grep -v "libGLw" | sed -e 's,.*: ,,' | sort > output/opensuse/$proj/nonoss.$arch.list
         echo "repo nonfree-$repo-$arch 0 solv trees/openSUSE:$proj:NonFree-standard-$arch.solv" >  opensuse/$proj/dvd-nonoss

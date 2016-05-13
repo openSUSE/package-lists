@@ -1,7 +1,8 @@
+#!/bin/bash
 export LC_ALL=C
 
-(cd ../osc/openSUSE\:Factory/_product/ && osc up )
 proj=$1
+(cd ../osc/openSUSE\:$proj/_product/ && osc up )
 
 #
 # Process a single test case, recreating all the structures every time.
