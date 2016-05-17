@@ -42,7 +42,8 @@ job install name yast2-trans-stats
 job lock name python3-base
 job lock name samba-libs
 
-job install name yast2-live-installer
+# live-installer has been dropped - 2016-05-17 - dimstar
+#job install name yast2-live-installer
 
 #INCLUDE ignore_opensuse
 #INCLUDE ignore_opensuse-basedon
