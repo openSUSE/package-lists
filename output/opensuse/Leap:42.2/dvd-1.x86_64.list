@@ -477,6 +477,7 @@ dasher
 dasher-data-extras
 dasher-data-recommended
 dasher-lang
+db45-utils
 db48-utils
 dbsplit-tools
 dbus-1
@@ -569,6 +570,7 @@ duplicity
 dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
+ebtables
 ecj
 ed
 editres
@@ -1510,9 +1512,14 @@ kismet
 kitemmodels-devel
 kitemviews-devel
 kiten
+kiwi
+kiwi-desc-netboot
+kiwi-desc-vmxboot
 kiwi-doc
 kiwi-media-requires
 kiwi-pxeboot
+kiwi-templates
+kiwi-tools
 kjobwidgets-devel
 kjots
 kjs-devel
@@ -2184,6 +2191,7 @@ libcurl4
 libcxgb3-rdmav2
 libdaemon0
 libdar5000
+libdb-4_5
 libdb-4_8
 libdb-4_8-32bit
 libdb-4_8-devel
@@ -2291,6 +2299,7 @@ libfam0-gamin
 libfarstream-0_2-5
 libfaxutil5_5_6
 libfbembed2_5
+libfdt1
 libffi-devel-gcc5
 libffi4
 libffi4-32bit
@@ -2827,6 +2836,7 @@ libnes-rdmav2
 libnet9
 libnetapi0
 libnetapi0-32bit
+libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm-devel
 libnetpbm11
@@ -3082,17 +3092,20 @@ libquvi-0_9-0_9_4
 libquvi-scripts
 libqwt5
 libqzeitgeist1
+librados2
 libraptor2-0
 librasqal3
 libraw-devel
 libraw10
 libraw1394-11
 libraw1394-devel
+librbd1
 librcc0
 librcd0
 librcps-devel
 librcps0
 librdf0
+librdmacm1
 libreadline6
 libref_array1
 libregistry0
@@ -3337,6 +3350,7 @@ libunwind
 libupnp6
 libupower-glib3
 libupsclient1
+liburcu0
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-0-32bit
@@ -3368,6 +3382,7 @@ libva1
 libvala-0_28-0
 libvamp-hostsdk3
 libvcdinfo0
+libvdeplug3
 libvdpau1
 libvdpau_nouveau
 libvdpau_r300
@@ -3375,7 +3390,25 @@ libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
 libvigraimpex5
+libvirt
 libvirt-client
+libvirt-daemon
+libvirt-daemon-config-network
+libvirt-daemon-config-nwfilter
+libvirt-daemon-driver-interface
+libvirt-daemon-driver-libxl
+libvirt-daemon-driver-lxc
+libvirt-daemon-driver-network
+libvirt-daemon-driver-nodedev
+libvirt-daemon-driver-nwfilter
+libvirt-daemon-driver-qemu
+libvirt-daemon-driver-secret
+libvirt-daemon-driver-storage
+libvirt-daemon-driver-uml
+libvirt-daemon-driver-vbox
+libvirt-daemon-lxc
+libvirt-daemon-qemu
+libvirt-daemon-xen
 libvirt-glib-1_0-0
 libvirt-python
 libvisio-0_1-1
@@ -3587,6 +3620,7 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
+lttng-ust
 lua
 lua-devel
 luasocket
@@ -3793,6 +3827,7 @@ ntfsprogs
 ntp
 ntp-doc
 numactl
+numad
 numlockx
 nuoveXT2-icon-theme
 nut
@@ -4065,6 +4100,7 @@ perl-Class-Load
 perl-Class-Load-XS
 perl-Class-MethodMaker
 perl-Class-Multimethods
+perl-Class-Singleton
 perl-Class-Tiny
 perl-Class-WhiteHole
 perl-Clone
@@ -4123,6 +4159,7 @@ perl-File-Listing
 perl-File-MMagic
 perl-File-RandomAccess
 perl-File-ShareDir
+perl-File-Slurp
 perl-File-Tail
 perl-File-Type
 perl-File-Which
@@ -4164,6 +4201,8 @@ perl-IPC-Run3
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
+perl-JSON
+perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Lingua-EN-Sentence
@@ -4226,6 +4265,7 @@ perl-PostScript-Simple
 perl-Probe-Perl
 perl-Quantum-Superpositions
 perl-RPC-XML
+perl-Readonly
 perl-SDL
 perl-SGMLS
 perl-SNMP
@@ -4266,6 +4306,7 @@ perl-Time-Period
 perl-Time-modules
 perl-TimeDate
 perl-Try-Tiny
+perl-Types-Serialiser
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
@@ -4298,6 +4339,7 @@ perl-autobox
 perl-base
 perl-camgm
 perl-checkbot
+perl-common-sense
 perl-doc
 perl-gettext
 perl-ldap
@@ -4306,6 +4348,7 @@ perl-libwww-perl
 perl-libxml-perl
 perl-namespace-clean
 perl-razor-agents
+perl-solv
 permissions
 pesign
 pesign-obs-integration
@@ -4622,7 +4665,22 @@ pyzy-db-android
 pyzy-db-open-phrase
 qalculate
 qdox
+qemu
+qemu-arm
+qemu-block-curl
+qemu-block-rbd
+qemu-extra
+qemu-ipxe
+qemu-kvm
+qemu-lang
 qemu-linux-user
+qemu-ppc
+qemu-s390
+qemu-seabios
+qemu-sgabios
+qemu-tools
+qemu-vgabios
+qemu-x86
 qhull
 qhull-devel
 qoauth-devel
@@ -5094,6 +5152,7 @@ ucode-amd
 ucode-intel
 udev
 udev-configure-printer
+udhcp
 udisks2
 udisks2-lang
 ufraw
@@ -5166,6 +5225,7 @@ virtualbox-qt
 vlan
 vlgothic-fonts
 vlock
+vm-install
 vobject
 vorbis-tools
 vorbis-tools-lang
@@ -5554,6 +5614,7 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
+yast2-product-creator
 yast2-proxy
 yast2-python-bindings
 yast2-qt-branding-openSUSE
