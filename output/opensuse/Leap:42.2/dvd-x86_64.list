@@ -598,7 +598,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -2268,7 +2267,6 @@ liberation-fonts
 libesd-devel
 libesd0
 libesmtp
-libestr0
 libetonyek-0_1-1
 libetpan17
 libevdev-tools
@@ -2346,6 +2344,7 @@ libgc1
 libgcab-1_0-0
 libgcc_s1
 libgcc_s1-32bit
+libgcc_s1-gcc48-32bit
 libgcj-devel
 libgcj48
 libgcj48-devel
@@ -2480,6 +2479,8 @@ libgraphite2-3-32bit
 libgrilo-0_2-1
 libgrlnet-0_2-0
 libgrlpls-0_2-0
+libgsasl-lang
+libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsf-lang
@@ -2729,7 +2730,6 @@ liblmdb-0_9_14
 libloader
 liblockdev1
 liblockdev1-32bit
-liblogging0
 libloudmouth-1-0
 liblouis2
 liblpsolve55-0
@@ -2757,6 +2757,7 @@ libmbedtls9
 libmbim-glib4
 libmcrypt
 libmeanwhile1
+libmediaart-1_0-0
 libmediaart-2_0-0
 libmediastreamer_base4
 libmediastreamer_voip4
@@ -2863,6 +2864,7 @@ libnova-0_15-0
 libnova-devel
 libnsssharedhelper0
 libntfs-3g84
+libntlm0
 libnuma1
 liboauth-devel
 liboauth0
@@ -3712,6 +3714,8 @@ mpfr-devel
 mpt-firmware
 mpt-status
 mrtg
+msmtp
+msmtp-mta
 mtools
 mtpaint
 mtpaint-lang
@@ -4482,6 +4486,7 @@ pullin-bcm43xx-firmware
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
@@ -4691,7 +4696,6 @@ rsibreak
 rsibreak-lang
 rstart
 rsync
-rsyslog
 rt2860
 rtkit
 ruby
@@ -4883,7 +4887,6 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
-syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -5070,7 +5073,7 @@ typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
 typelib-1_0-LibvirtGLib-1_0
-typelib-1_0-MediaArt-2_0
+typelib-1_0-MediaArt-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
 typelib-1_0-NM-1_0
@@ -5205,7 +5208,7 @@ wine-32bit
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-gtk
+wireshark-ui-qt
 wodim
 wol
 wondershaper
@@ -5442,7 +5445,7 @@ xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver12
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

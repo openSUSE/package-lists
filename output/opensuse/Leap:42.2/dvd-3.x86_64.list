@@ -175,6 +175,8 @@ libgnutls28
 libgobject-2_0-0
 libgpg-error0
 libgraphite2-3
+libgsasl-lang
+libgsasl7
 libharfbuzz0
 libhavege1
 libhogweed2
@@ -208,6 +210,7 @@ libnettle4
 libnfnetlink0
 libnl-config
 libnl3-200
+libntlm0
 libopenssl1_0_0
 libp11-kit0
 libparted0
@@ -286,6 +289,8 @@ lvm2
 mkfontdir
 mkfontscale
 mozilla-nspr
+msmtp
+msmtp-mta
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -368,7 +373,6 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
-postfix
 prctl
 procps
 pytalloc
@@ -408,7 +412,6 @@ sysconfig-netconfig
 syslinux
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools

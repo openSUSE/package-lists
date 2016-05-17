@@ -142,7 +142,6 @@ icewm
 icewm-default
 info
 insserv-compat
-iproute2
 java-1_8_0-openjdk
 java-1_8_0-openjdk-headless
 javapackages-tools
@@ -271,7 +270,6 @@ libelf1
 libenchant1
 libepoxy0
 liberation-fonts
-libestr0
 libetonyek-0_1-1
 libevdev2
 libexif12
@@ -314,6 +312,8 @@ libgpg-error0-32bit
 libgphoto2-6
 libgphoto2-6-lang
 libgraphite2-3
+libgsasl-lang
+libgsasl7
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
@@ -361,7 +361,6 @@ libldb1
 libldb1-32bit
 libloader
 liblockdev1
-liblogging0
 liblpsolve55-0
 libltdl7
 liblua5_1
@@ -370,7 +369,6 @@ liblzma5
 liblzma5-32bit
 libmagic1
 libmng1
-libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
@@ -379,6 +377,7 @@ libmspub-0_1-1
 libmtdev1
 libmtp9
 libmwaw-0_3-3
+libmysqlclient18
 libmythes-1_2-0
 libncurses5
 libncurses6
@@ -397,6 +396,7 @@ libnettle4
 libnl-config
 libnl3-200
 libnotify4
+libntlm0
 libodfgen-0_1-1
 libogg0
 libopenssl1_0_0
@@ -434,7 +434,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-sqlite
+libqt4-sql-mysql
 libqt4-x11
 libqt5-qtbase-platformtheme-gtk2
 libqt5-qtimageformats
@@ -574,7 +574,6 @@ libxml2-2
 libxshmfence1
 libxslt-tools
 libxslt1
-libxtables10
 libyaml-0-2
 libyui-ncurses-pkg7
 libyui-ncurses7
@@ -598,6 +597,8 @@ mkfontscale
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+msmtp
+msmtp-mta
 myspell-dictionaries
 myspell-en
 myspell-en_US
@@ -666,7 +667,6 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
-postfix
 procps
 ptools
 pytalloc
@@ -680,7 +680,6 @@ python3-pip
 python3-setuptools
 readline-doc
 rpm
-rsyslog
 ruby
 ruby-common
 ruby2.1
@@ -707,7 +706,6 @@ sound-theme-freedesktop
 suse-module-tools
 sysconfig
 sysconfig-netconfig
-syslog-service
 systemd
 systemd-32bit
 systemd-bash-completion

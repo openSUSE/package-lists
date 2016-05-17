@@ -596,7 +596,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -2339,7 +2338,7 @@ libgbm1-32bit
 libgc1
 libgcab-1_0-0
 libgcc_s1
-libgcc_s1-32bit
+libgcc_s1-gcc48-32bit
 libgcj-devel
 libgcj48
 libgcj48-devel
@@ -2750,6 +2749,7 @@ libmbedtls9
 libmbim-glib4
 libmcrypt
 libmeanwhile1
+libmediaart-1_0-0
 libmediaart-2_0-0
 libmediastreamer_base4
 libmediastreamer_voip4
@@ -4471,6 +4471,7 @@ pullin-bcm43xx-firmware
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
@@ -5056,7 +5057,7 @@ typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
 typelib-1_0-LibvirtGLib-1_0
-typelib-1_0-MediaArt-2_0
+typelib-1_0-MediaArt-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
 typelib-1_0-NM-1_0
@@ -5191,7 +5192,7 @@ wine-32bit
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-gtk
+wireshark-ui-qt
 wodim
 wol
 wondershaper
@@ -5425,7 +5426,7 @@ xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver12
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po
