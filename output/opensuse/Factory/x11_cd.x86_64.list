@@ -34,7 +34,6 @@ attr
 augeas
 augeas-lenses
 autofs
-autoyast2-installation
 avahi
 avahi-autoipd
 awesfx
@@ -218,7 +217,6 @@ icewm-default
 idnkit
 ifplugd
 info
-initviocons
 insserv-compat
 intlfonts-euro-bitmap-fonts
 iproute2
@@ -472,7 +470,6 @@ libksba8
 liblcms2-2
 libldap-2_4-2
 libldap-data
-libldapcpp1
 liblightdm-gobject-1-0
 liblockdev1
 libltdl7
@@ -660,6 +657,7 @@ libxcb-shm0
 libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
+libxcb-xinerama0
 libxcb-xkb1
 libxcb1
 libxerces-c-3_1
@@ -794,7 +792,6 @@ perl-Net-DBus
 perl-Net-DNS
 perl-Net-HTTP
 perl-Net-SSLeay
-perl-Parse-RecDescent
 perl-Pod-Coverage
 perl-Test-Pod
 perl-Test-Pod-Coverage
@@ -802,7 +799,6 @@ perl-TimeDate
 perl-URI
 perl-WWW-RobotRules
 perl-X11-Protocol
-perl-X500-DN
 perl-XML-NamespaceSupport
 perl-XML-Parser
 perl-XML-SAX
@@ -1051,7 +1047,6 @@ xterm
 xterm-bin
 xz
 yast2
-yast2-add-on
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-control-center
@@ -1059,31 +1054,20 @@ yast2-control-center-qt
 yast2-core
 yast2-country
 yast2-country-data
-yast2-firewall
 yast2-hardware-detection
-yast2-installation
-yast2-ldap
-yast2-live-installer
 yast2-network
-yast2-online-update
 yast2-packager
-yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-proxy
 yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-scanner
-yast2-security
-yast2-services-manager
-yast2-slp
 yast2-snapper
 yast2-storage
 yast2-trans-de
 yast2-trans-stats
 yast2-transfer
-yast2-update
-yast2-users
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings

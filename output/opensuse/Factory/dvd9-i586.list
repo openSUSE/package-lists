@@ -311,7 +311,6 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-ko
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -354,7 +353,6 @@ ca-certificates-mozilla
 cabextract
 cairo-devel
 cal10n
-calibre
 calligra
 calligra-extras-dolphin
 calligra-extras-okular
@@ -829,7 +827,6 @@ glade-lang
 glade-sharp2
 glew-devel
 glib-networking
-glib-networking-lang
 glib-sharp2
 glib2-devel
 glib2-tools
@@ -958,7 +955,6 @@ gpart
 gparted
 gperf
 gpg2
-gpg2-lang
 gpgme
 gpgmepp5
 gpm
@@ -1073,6 +1069,7 @@ gtk2-theme-thinice
 gtk2-themes
 gtk2-theming-engine-adwaita
 gtk2-tools
+gtk3-branding-openSUSE
 gtk3-data
 gtk3-devel
 gtk3-immodule-amharic
@@ -1757,8 +1754,6 @@ libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
 libQgpsmm22
-libQt5Bluetooth5
-libQt5Bluetooth5-imports
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1778,8 +1773,6 @@ libQt5Location5
 libQt5Multimedia5
 libQt5Network-devel
 libQt5Network5
-libQt5Nfc5
-libQt5Nfc5-imports
 libQt5OpenGL-devel
 libQt5OpenGL5
 libQt5PlatformHeaders-devel
@@ -2892,7 +2885,6 @@ libprison0
 libprocps5
 libprotobuf-c1
 libprotobuf-lite9
-libprotobuf9
 libproxy-devel
 libproxy1
 libproxy1-config-gnome3
@@ -2960,8 +2952,6 @@ libqt5-linguist
 libqt5-linguist-devel
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
-libqt5-qtbase-doc
-libqt5-qtconnectivity-tools
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -2977,7 +2967,7 @@ libqt5-qtserialport-devel
 libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
-libqt5-qtwebengine
+libqt5-qttools-doc
 libqt5-qtwebsockets-devel
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
@@ -4319,7 +4309,6 @@ plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
 pmidi
-podofo
 polari
 polkit
 polkit-default-privs
@@ -4385,18 +4374,13 @@ purpose
 pwgen
 pychecker
 python
-python-Babel
 python-CherryPy
-python-ClientForm
-python-Genshi
 python-M2Crypto
 python-Pillow
 python-Pillow-tk
-python-Pygments
 python-SpiceClientGtk
 python-Twisted
 python-Unidecode
-python-apsw
 python-atspi
 python-base
 python-beautifulsoup
@@ -4408,7 +4392,6 @@ python-cffi
 python-configobj
 python-cryptography
 python-cssselect
-python-cssutils
 python-cups
 python-cupshelpers
 python-curses
@@ -4457,11 +4440,8 @@ python-liblarch
 python-liblarch_gtk
 python-libxml2
 python-lxml
-python-mechanize
 python-ndg-httpsclient
-python-netifaces
 python-numpy
-python-odfpy
 python-opensync
 python-orbit
 python-packaging
@@ -4474,10 +4454,8 @@ python-pycrypto
 python-pycurl
 python-pygame
 python-pyparsing
-python-pypdf
 python-pyserial
 python-python-dateutil
-python-pytz
 python-pyudev
 python-pywbem
 python-pyxb
@@ -4485,9 +4463,7 @@ python-pyxdg
 python-qt4
 python-qt4-devel
 python-qt4-utils
-python-qt5
 python-requests
-python-setuptools
 python-simplejson
 python-sip
 python-sip-devel
