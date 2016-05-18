@@ -353,6 +353,7 @@ ca-certificates-mozilla
 cabextract
 cairo-devel
 cal10n
+calibre
 calligra
 calligra-extras-dolphin
 calligra-extras-okular
@@ -1754,6 +1755,8 @@ libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
 libQgpsmm22
+libQt5Bluetooth5
+libQt5Bluetooth5-imports
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1773,6 +1776,8 @@ libQt5Location5
 libQt5Multimedia5
 libQt5Network-devel
 libQt5Network5
+libQt5Nfc5
+libQt5Nfc5-imports
 libQt5OpenGL-devel
 libQt5OpenGL5
 libQt5PlatformHeaders-devel
@@ -2952,6 +2957,7 @@ libqt5-linguist
 libqt5-linguist-devel
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
+libqt5-qtconnectivity-tools
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -4309,6 +4315,7 @@ plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
 pmidi
+podofo
 polari
 polkit
 polkit-default-privs
@@ -4374,13 +4381,18 @@ purpose
 pwgen
 pychecker
 python
+python-Babel
 python-CherryPy
+python-ClientForm
+python-Genshi
 python-M2Crypto
 python-Pillow
 python-Pillow-tk
+python-Pygments
 python-SpiceClientGtk
 python-Twisted
 python-Unidecode
+python-apsw
 python-atspi
 python-base
 python-beautifulsoup
@@ -4392,6 +4404,7 @@ python-cffi
 python-configobj
 python-cryptography
 python-cssselect
+python-cssutils
 python-cups
 python-cupshelpers
 python-curses
@@ -4440,8 +4453,11 @@ python-liblarch
 python-liblarch_gtk
 python-libxml2
 python-lxml
+python-mechanize
 python-ndg-httpsclient
+python-netifaces
 python-numpy
+python-odfpy
 python-opensync
 python-orbit
 python-packaging
@@ -4454,8 +4470,10 @@ python-pycrypto
 python-pycurl
 python-pygame
 python-pyparsing
+python-pypdf
 python-pyserial
 python-python-dateutil
+python-pytz
 python-pyudev
 python-pywbem
 python-pyxb
@@ -4463,7 +4481,9 @@ python-pyxdg
 python-qt4
 python-qt4-devel
 python-qt4-utils
+python-qt5
 python-requests
+python-setuptools
 python-simplejson
 python-sip
 python-sip-devel

@@ -48,7 +48,7 @@ job install provides pattern() = rest_dvd9
 job install provides pattern() = rest_dvd
 job install name openSUSE-release-dvd-biarch
 job install provides pattern() = devel_gnome
-#job install name calibre
+job install name calibre
 
 job install name pangox-compat
 job install name libpangox-1_0-0
