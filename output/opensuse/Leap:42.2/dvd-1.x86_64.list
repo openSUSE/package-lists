@@ -2090,7 +2090,6 @@ libboost_test1_54_0
 libboost_thread1_54_0
 libboost_timer1_54_0
 libboost_wave1_54_0
-libbotan-1_10-1
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -2603,6 +2602,7 @@ libiptc0
 libiptcdata
 libiptcdata-lang
 libiptcdata0
+libiscsi7
 libisl10
 libiso9660-10
 libisoburn1
@@ -3066,8 +3066,6 @@ libqt5-linguist
 libqt5-linguist-devel
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
-libqt5-qtbase-doc
-libqt5-qtbase-platformtheme-gtk2
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -3083,6 +3081,7 @@ libqt5-qtserialport-devel
 libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
+libqt5-qttools-doc
 libqt5-qtwebsockets-devel
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
@@ -3092,14 +3091,12 @@ libquvi-0_9-0_9_4
 libquvi-scripts
 libqwt5
 libqzeitgeist1
-librados2
 libraptor2-0
 librasqal3
 libraw-devel
 libraw10
 libraw1394-11
 libraw1394-devel
-librbd1
 librcc0
 librcd0
 librcps-devel
@@ -3350,7 +3347,6 @@ libunwind
 libupnp6
 libupower-glib3
 libupsclient1
-liburcu0
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-0-32bit
@@ -3620,7 +3616,6 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
-lttng-ust
 lua
 lua-devel
 luasocket
@@ -4668,7 +4663,9 @@ qdox
 qemu
 qemu-arm
 qemu-block-curl
-qemu-block-rbd
+qemu-block-dmg
+qemu-block-iscsi
+qemu-block-ssh
 qemu-extra
 qemu-ipxe
 qemu-kvm
@@ -4685,7 +4682,6 @@ qhull
 qhull-devel
 qoauth-devel
 qrencode-devel
-qt-creator
 qt4-qtscript
 quadrapassel
 quadrapassel-lang
@@ -5212,6 +5208,7 @@ vinagre
 vinagre-lang
 vino
 vino-lang
+virglrenderer
 virt-install
 virt-manager
 virt-manager-common
