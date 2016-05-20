@@ -19,7 +19,7 @@ fi
 ./commit.sh $proj
 
 pushd create-drop-list
-#susetags2solv -d MANUAL_OBSOLETES > MANUAL_OBSOLETES.solv
+susetags2solv -d MANUAL_OBSOLETES > MANUAL_OBSOLETES.solv
 ./createdrops.py ../trees/openSUSE:$proj-standard-x86_64.solv \
                  ../trees/openSUSE:$proj:NonFree-standard-x86_64.solv \
                  *.solv > ../osc/openSUSE:$proj/_product/obsoletepackages.inc
