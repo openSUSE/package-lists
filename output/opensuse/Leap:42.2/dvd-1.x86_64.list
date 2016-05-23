@@ -262,7 +262,6 @@ bash-completion
 bash-doc
 bash-lang
 bbswitch-kmp-default
-bbswitch-kmp-xen
 bc
 bcel
 bdftopcf
@@ -433,7 +432,6 @@ cpupower
 cracklib
 cracklib-dict-full
 crash-kmp-default
-crash-kmp-xen
 crda
 createrepo
 cron
@@ -559,10 +557,6 @@ dosfstools
 doxygen
 dracut
 dragonplayer
-drbd
-drbd-kmp-default
-drbd-kmp-xen
-drbd-utils
 dri2proto-devel
 dri3proto-devel
 drkonqi5
@@ -570,7 +564,6 @@ duplicity
 dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
-ebtables
 ecj
 ed
 editres
@@ -953,7 +946,6 @@ gnu-free-fonts
 gnu-jaf
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
-gnutls
 gobject-introspection
 gobject-introspection-devel
 goffice-lang
@@ -1132,7 +1124,6 @@ hardlink
 harfbuzz-devel
 haveged
 hdjmod-kmp-default
-hdjmod-kmp-xen
 hdparm
 help2man
 hexchat
@@ -1253,7 +1244,6 @@ ipadic
 iproute2
 ipsec-tools
 ipset-kmp-default
-ipset-kmp-xen
 iptables
 iptraf-ng
 iputils
@@ -1450,11 +1440,8 @@ kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
-kernel-pv-devel
 kernel-source
 kernel-syms
-kernel-xen
-kernel-xen-devel
 kexec-tools
 keyutils
 keyutils-devel
@@ -2836,7 +2823,6 @@ libnes-rdmav2
 libnet9
 libnetapi0
 libnetapi0-32bit
-libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm-devel
 libnetpbm11
@@ -3253,9 +3239,7 @@ libspeex1
 libspeex1-32bit
 libspeexdsp1
 libspice-client-glib-2_0-8
-libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
-libspice-controller0
 libspice-server1
 libspnav0
 libsqlite3-0
@@ -3386,27 +3370,6 @@ libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
 libvigraimpex5
-libvirt
-libvirt-client
-libvirt-daemon
-libvirt-daemon-config-network
-libvirt-daemon-config-nwfilter
-libvirt-daemon-driver-interface
-libvirt-daemon-driver-libxl
-libvirt-daemon-driver-lxc
-libvirt-daemon-driver-network
-libvirt-daemon-driver-nodedev
-libvirt-daemon-driver-nwfilter
-libvirt-daemon-driver-qemu
-libvirt-daemon-driver-secret
-libvirt-daemon-driver-storage
-libvirt-daemon-driver-uml
-libvirt-daemon-driver-vbox
-libvirt-daemon-lxc
-libvirt-daemon-qemu
-libvirt-daemon-xen
-libvirt-glib-1_0-0
-libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
@@ -3614,8 +3577,6 @@ lskat
 lsof
 lsscsi
 ltrace
-lttng-modules
-lttng-modules-kmp-default
 lua
 lua-devel
 luasocket
@@ -3822,7 +3783,6 @@ ntfsprogs
 ntp
 ntp-doc
 numactl
-numad
 numlockx
 nuoveXT2-icon-theme
 nut
@@ -4529,7 +4489,6 @@ python
 python-M2Crypto
 python-Pillow
 python-Pillow-tk
-python-SpiceClientGtk
 python-Twisted
 python-atspi
 python-base
@@ -4576,7 +4535,6 @@ python-gtksourceview
 python-httplib2
 python-ibus
 python-idna
-python-ipaddr
 python-ipaddress
 python-kde4
 python-kde4-akonadi
@@ -5049,7 +5007,6 @@ tv-common
 tv-fonts
 twm
 typelib-1_0-AccountsService-1_0
-typelib-1_0-AppIndicator3-0_1
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
@@ -5072,7 +5029,6 @@ typelib-1_0-GFBGraph-0_2
 typelib-1_0-GMenu-3_0
 typelib-1_0-GTop-2_0
 typelib-1_0-GUdev-1_0
-typelib-1_0-GVnc-1_0
 typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
@@ -5103,14 +5059,11 @@ typelib-1_0-Gtk-2_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
-typelib-1_0-GtkVnc-2_0
 typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
-typelib-1_0-Libosinfo-1_0
-typelib-1_0-LibvirtGLib-1_0
 typelib-1_0-MediaArt-1_0
 typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
@@ -5129,8 +5082,6 @@ typelib-1_0-Rest-0_7
 typelib-1_0-Rsvg-2_0
 typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
-typelib-1_0-SpiceClientGlib-2_0
-typelib-1_0-SpiceClientGtk-3_0
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
 typelib-1_0-TotemPlParser-1_0
@@ -5148,7 +5099,6 @@ ucode-amd
 ucode-intel
 udev
 udev-configure-printer
-udhcp
 udisks2
 udisks2-lang
 ufraw
@@ -5195,7 +5145,6 @@ valgrind-devel
 vcdimager
 vdr
 vhba-kmp-default
-vhba-kmp-xen
 videoproto-devel
 viewnior
 viewnior-lang
@@ -5209,10 +5158,6 @@ vinagre-lang
 vino
 vino-lang
 virglrenderer
-virt-install
-virt-manager
-virt-manager-common
-virt-viewer
 virtualbox
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
@@ -5222,7 +5167,6 @@ virtualbox-qt
 vlan
 vlgothic-fonts
 vlock
-vm-install
 vobject
 vorbis-tools
 vorbis-tools-lang
@@ -5307,7 +5251,6 @@ xdpyinfo
 xedit
 xen
 xen-doc-html
-xen-kmp-default
 xen-libs
 xen-tools
 xerces-j2
@@ -5542,8 +5485,6 @@ xslide
 xsm
 xstdcmap
 xstroke
-xtables-addons-kmp-default
-xtables-addons-kmp-xen
 xtables-plugins
 xterm
 xtermset
