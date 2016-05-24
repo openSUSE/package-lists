@@ -1,6 +1,7 @@
 namespace namespace:language(en) @SYSTEM
 
-#INCLUDE all-supplements
+#INCLUDE all-supplements.i586 # !x86_64
+#INCLUDE all-supplements.x86_64 # !i586
 #INCLUDE ignore_opensuse
 #INCLUDE ignore_opensuse-basedon
 #INCLUDE ignore_opensuse-cds

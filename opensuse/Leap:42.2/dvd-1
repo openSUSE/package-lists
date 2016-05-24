@@ -18,7 +18,10 @@ namespace namespace:language(hu) @SYSTEM
 namespace namespace:language(pl) @SYSTEM
 namespace namespace:language(da) @SYSTEM
 namespace namespace:language(el) @SYSTEM
-#INCLUDE all-supplements
+#INCLUDE all-supplements.i586 # !x86_64 # !ppc64le # !ppc64
+#INCLUDE all-supplements.x86_64 # !i586 # !ppc64le # !ppc64
+#INCLUDE all-supplements.ppc64 # !x86_64 # !ppc64le # !x86_64
+#INCLUDE all-supplements.ppc64le # !x86_64 # !i586 # !ppc64
 
 #INCLUDE dvd-1.i586.suggests # !x86_64 # !ppc64le # !ppc64
 #INCLUDE dvd-1.x86_64.suggests # !i586 # !ppc64le # !ppc64
