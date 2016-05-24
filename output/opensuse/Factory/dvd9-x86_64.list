@@ -1319,7 +1319,6 @@ kalarm5
 kalgebra
 kalzium
 kanagram
-kapptemplate
 karchive-devel
 kate
 kate-plugins
@@ -1581,6 +1580,7 @@ krfb
 kross
 kross-devel
 kruler
+krunner-devel
 krusader
 kscreen5
 kscreenlocker
@@ -1638,6 +1638,7 @@ kwrite
 kxmlgui-devel
 kxmlrpcclient5-devel
 latex2html-pngicons
+ldns
 leafpad
 lensfun-data
 lensfun-devel
@@ -1861,7 +1862,6 @@ libX11-devel
 libX11-xcb1
 libX11-xcb1-32bit
 libXRes1
-libXScrnSaver-devel
 libXTrap-devel
 libXTrap6
 libXau-devel
@@ -1924,6 +1924,7 @@ libXrender-devel
 libXrender1
 libXrender1-32bit
 libXres-devel
+libXss-devel
 libXss1
 libXss1-32bit
 libXt-devel
@@ -2747,6 +2748,7 @@ libldap-data
 libldapcpp1
 libldb1
 libldb1-32bit
+libldns1
 liblensfun0
 liblibkremotecontrol1
 liblightdm-gobject-1-0
@@ -3134,6 +3136,7 @@ libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
 libqt5-qttools-doc
+libqt5-qtwebengine
 libqt5-qtwebsockets-devel
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
@@ -3581,13 +3584,11 @@ libxcb-shm0-32bit
 libxcb-sync1
 libxcb-sync1-32bit
 libxcb-util1
-libxcb-xevie0
 libxcb-xf86dri0
 libxcb-xfixes0
 libxcb-xfixes0-32bit
 libxcb-xinerama0
 libxcb-xkb1
-libxcb-xprint0
 libxcb-xtest0
 libxcb-xv0
 libxcb-xvmc0
@@ -3912,8 +3913,11 @@ nut-cgi
 nxtvepg
 obconf
 obs-service-download_files
+obs-service-download_url
+obs-service-extract_file
 obs-service-format_spec_file
 obs-service-recompress
+obs-service-refresh_patches
 obs-service-set_version
 obs-service-source_validator
 obs-service-tar_scm
@@ -4035,6 +4039,7 @@ patterns-openSUSE-devel_kde
 patterns-openSUSE-devel_kde_frameworks
 patterns-openSUSE-devel_kernel
 patterns-openSUSE-devel_mono
+patterns-openSUSE-devel_osc_build
 patterns-openSUSE-devel_perl
 patterns-openSUSE-devel_python
 patterns-openSUSE-devel_python3
@@ -4522,6 +4527,7 @@ planner
 planner-lang
 plasma-framework
 plasma-framework-components
+plasma-framework-devel
 plasma-framework-private
 plasma-nm5
 plasma-nm5-openconnect
@@ -4972,6 +4978,7 @@ source-highlight
 sox
 spamassassin
 spax
+spec-cleaner
 spectacle
 speech-dispatcher
 speech-dispatcher-configure
@@ -7578,6 +7585,7 @@ uget
 uget-lang
 umbrello
 un-fonts
+unbound
 unbound-anchor
 unclutter
 unison

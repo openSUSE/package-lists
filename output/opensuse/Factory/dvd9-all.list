@@ -1608,6 +1608,7 @@ kwrite
 kxmlgui-devel
 kxmlrpcclient5-devel
 latex2html-pngicons
+ldns
 leafpad
 lensfun-data
 lensfun-devel
@@ -1822,7 +1823,6 @@ libX11-data
 libX11-devel
 libX11-xcb1
 libXRes1
-libXScrnSaver-devel
 libXTrap-devel
 libXTrap6
 libXau-devel
@@ -1873,6 +1873,7 @@ libXrandr2
 libXrender-devel
 libXrender1
 libXres-devel
+libXss-devel
 libXss1
 libXt-devel
 libXt6
@@ -2619,6 +2620,7 @@ libldap-2_4-2
 libldap-data
 libldapcpp1
 libldb1
+libldns1
 liblensfun0
 liblibkremotecontrol1
 liblightdm-gobject-1-0
@@ -2963,6 +2965,7 @@ libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
 libqt5-qttools-doc
+libqt5-qtwebengine
 libqt5-qtwebsockets-devel
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
@@ -3358,12 +3361,10 @@ libxcb-shape0
 libxcb-shm0
 libxcb-sync1
 libxcb-util1
-libxcb-xevie0
 libxcb-xf86dri0
 libxcb-xfixes0
 libxcb-xinerama0
 libxcb-xkb1
-libxcb-xprint0
 libxcb-xtest0
 libxcb-xv0
 libxcb-xvmc0
@@ -3677,8 +3678,11 @@ nut-cgi
 nxtvepg
 obconf
 obs-service-download_files
+obs-service-download_url
+obs-service-extract_file
 obs-service-format_spec_file
 obs-service-recompress
+obs-service-refresh_patches
 obs-service-set_version
 obs-service-source_validator
 obs-service-tar_scm
@@ -3791,6 +3795,7 @@ patterns-openSUSE-devel_kde
 patterns-openSUSE-devel_kde_frameworks
 patterns-openSUSE-devel_kernel
 patterns-openSUSE-devel_mono
+patterns-openSUSE-devel_osc_build
 patterns-openSUSE-devel_perl
 patterns-openSUSE-devel_python
 patterns-openSUSE-devel_python3
@@ -4717,6 +4722,7 @@ source-highlight
 sox
 spamassassin
 spax
+spec-cleaner
 spectacle
 speech-dispatcher
 speech-dispatcher-configure
@@ -7321,6 +7327,7 @@ uget
 uget-lang
 umbrello
 un-fonts
+unbound
 unbound-anchor
 unclutter
 unison

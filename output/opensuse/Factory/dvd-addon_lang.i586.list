@@ -300,9 +300,13 @@ brltty-driver-brlapi
 brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
+bsdtar
 bsf
 btrfsmaintenance
 btrfsprogs
+build
+build-mkbaselibs
+build-mkdrpms
 bundle-lang-common-ar
 bundle-lang-common-ca
 bundle-lang-common-cs
@@ -362,6 +366,8 @@ bundle-lang-kde-sv
 bundle-lang-kde-zh
 busybox
 bzip2
+bzr
+bzr-lang
 ca-certificates
 ca-certificates-mozilla
 cairo-devel
@@ -1015,6 +1021,7 @@ kaddressbook5
 kalgebra
 kalzium
 kanagram
+kapptemplate
 karchive-devel
 kate
 kate-plugins
@@ -1278,7 +1285,6 @@ kreversi
 kross
 kross-devel
 kruler
-krunner-devel
 kscreen5
 kscreenlocker
 kservice
@@ -1321,6 +1327,7 @@ kwrite
 kxmlgui-devel
 kxmlrpcclient5-devel
 latex2html-pngicons
+ldns
 leafpad
 lensfun-data
 less
@@ -1507,7 +1514,6 @@ libX11-data
 libX11-devel
 libX11-xcb1
 libXRes1
-libXScrnSaver-devel
 libXTrap-devel
 libXTrap6
 libXau-devel
@@ -1557,6 +1563,7 @@ libXrandr2
 libXrender-devel
 libXrender1
 libXres-devel
+libXss-devel
 libXss1
 libXt-devel
 libXt6
@@ -2155,6 +2162,7 @@ libldap-2_4-2
 libldap-data
 libldapcpp1
 libldb1
+libldns1
 liblensfun0
 liblightdm-gobject-1-0
 liblirc_client0
@@ -2777,12 +2785,10 @@ libxcb-shape0
 libxcb-shm0
 libxcb-sync1
 libxcb-util1
-libxcb-xevie0
 libxcb-xf86dri0
 libxcb-xfixes0
 libxcb-xinerama0
 libxcb-xkb1
-libxcb-xprint0
 libxcb-xtest0
 libxcb-xv0
 libxcb-xvmc0
@@ -2923,6 +2929,8 @@ mdadm
 media-player-info
 memtest86+
 menu-cache
+mercurial
+mercurial-lang
 metamail
 metatheme-adwaita-common
 metatheme-breeze-common
@@ -3073,6 +3081,16 @@ numad
 numlockx
 nuoveXT2-icon-theme
 obconf
+obs-service-download_files
+obs-service-download_url
+obs-service-extract_file
+obs-service-format_spec_file
+obs-service-recompress
+obs-service-refresh_patches
+obs-service-set_version
+obs-service-source_validator
+obs-service-tar_scm
+obs-service-verify_file
 ofl
 okular
 open-iscsi
@@ -3108,6 +3126,7 @@ orage-lang
 orca
 oro
 os-prober
+osc
 oxygen5
 oxygen5-cursors
 oxygen5-decoration
@@ -3148,6 +3167,7 @@ patterns-openSUSE-devel_java
 patterns-openSUSE-devel_kde
 patterns-openSUSE-devel_kde_frameworks
 patterns-openSUSE-devel_kernel
+patterns-openSUSE-devel_osc_build
 patterns-openSUSE-devel_perl
 patterns-openSUSE-devel_python
 patterns-openSUSE-devel_qt4
@@ -3257,6 +3277,7 @@ perl-Convert-TNEF
 perl-Convert-UUlib
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
+perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
@@ -3392,7 +3413,6 @@ pkcs11-helper
 pkg-config
 plasma-framework
 plasma-framework-components
-plasma-framework-devel
 plasma-framework-private
 plasma-nm5
 plasma-nm5-openconnect
@@ -3460,6 +3480,7 @@ purpose
 pychecker
 python
 python-CherryPy
+python-M2Crypto
 python-SpiceClientGtk
 python-atspi
 python-base
@@ -3490,14 +3511,17 @@ python-idna
 python-ipaddr
 python-ipaddress
 python-javapackages
+python-keyring
 python-libxml2
 python-lxml
 python-ndg-httpsclient
 python-numpy
+python-packaging
 python-pyOpenSSL
 python-pyasn1
 python-pycparser
 python-pycurl
+python-pyparsing
 python-pyudev
 python-pyxb
 python-qt4
@@ -3545,6 +3569,7 @@ qemu-block-curl
 qemu-ipxe
 qemu-ksm
 qemu-kvm
+qemu-linux-user
 qemu-seabios
 qemu-sgabios
 qemu-tools
@@ -3672,6 +3697,7 @@ source-highlight
 sox
 spamassassin
 spax
+spec-cleaner
 spectacle
 speech-dispatcher
 speech-dispatcher-module-espeak
@@ -3892,6 +3918,7 @@ uget
 uget-lang
 umbrello
 un-fonts
+unbound
 unbound-anchor
 unison
 unoconv
