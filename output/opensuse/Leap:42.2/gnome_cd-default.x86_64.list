@@ -2,6 +2,7 @@ Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
+Mesa-libva
 ModemManager
 NetworkManager
 NetworkManager-gnome
@@ -380,6 +381,7 @@ libXss1
 libXt6
 libXtst6
 libXv1
+libXvnc1
 libXxf86misc1
 libXxf86vm1
 libaccountsservice0
@@ -1343,6 +1345,7 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xdm
+xdm-xsession
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

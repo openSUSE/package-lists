@@ -1,6 +1,7 @@
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
+Mesa-libva
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -222,6 +223,7 @@ libXrender1
 libXt6
 libXtst6
 libXv1
+libXvnc1
 libXxf86misc1
 libXxf86vm1
 libacl1
@@ -805,6 +807,7 @@ xconsole
 xdg-menu
 xdg-utils
 xdm
+xdm-xsession
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

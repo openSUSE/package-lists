@@ -3,6 +3,7 @@ Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
+Mesa-libva
 ModemManager
 MozillaFirefox
 MozillaFirefox-branding-openSUSE
@@ -537,6 +538,7 @@ libXt6
 libXtst6
 libXv1
 libXvMC1
+libXvnc1
 libXxf86misc1
 libXxf86vm1
 libaccountsservice0
@@ -1692,6 +1694,7 @@ xdg-user-dirs-gtk-lang
 xdg-user-dirs-lang
 xdg-utils
 xdm
+xdm-xsession
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -1715,7 +1718,6 @@ xf86-video-mga
 xf86-video-neomagic
 xf86-video-nouveau
 xf86-video-nv
-xf86-video-qxl
 xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion
