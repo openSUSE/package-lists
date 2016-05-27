@@ -1,9 +1,0 @@
-#INCLUDE common-dvd5
-
-job lock name novell-ipsec-tools
-job lock name myspell-german
-job install name xen-tools-domU
-job install provides pattern() = minimal_base
-job lock name libqt4-x11-32bit
-job lock name libicu50-32bit
-
