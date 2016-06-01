@@ -343,6 +343,7 @@ ca-certificates-mozilla
 cabextract
 cairo-devel
 cal10n
+calendarsupport
 calligra
 calligra-extras-dolphin
 calligra-extras-okular
@@ -573,6 +574,7 @@ epiphany-lang
 espeak
 etags
 ethtool
+eventviews
 evince
 evince-browser-plugin
 evince-plugin-comicsdocument
@@ -923,6 +925,7 @@ gpsd-devel
 gptfdisk
 grantlee-devel
 grantlee5
+grantleetheme
 graphite2-devel
 graphviz
 graphviz-gd
@@ -1341,6 +1344,8 @@ kdelibs4support-devel
 kdenetwork4-filesharing
 kdepasswd
 kdepim
+kdepim-addons
+kdepim-apps-libs
 kdepim-runtime
 kdepimlibs4
 kdesdk4-scripts
@@ -1357,6 +1362,7 @@ kdevplatform
 kdevplatform-lang
 kdewebkit-devel
 kdf
+kdgantt2
 kdialog
 kdiamond
 kdnssd
@@ -1611,6 +1617,7 @@ libKF5BluezQt6
 libKF5Bookmarks5
 libKF5CalendarCore5
 libKF5CalendarEvents5
+libKF5CalendarSupport5
 libKF5CalendarUtils5
 libKF5Codecs5
 libKF5Completion5
@@ -1624,13 +1631,15 @@ libKF5DBusAddons5
 libKF5DNSSD5
 libKF5Declarative5
 libKF5Emoticons5
+libKF5EventViews5
 libKF5GAPICalendar5
 libKF5GAPIContacts5
 libKF5GAPICore5
-libKF5GAPIDrive5
 libKF5GAPITasks5
 libKF5GlobalAccel5
 libKF5GlobalAccelPrivate5
+libKF5GrantleeTheme5
+libKF5Gravatar5
 libKF5GuiAddons5
 libKF5Holidays5
 libKF5I18n5
@@ -1638,6 +1647,7 @@ libKF5IMAP5
 libKF5IconThemes5
 libKF5IdentityManagement5
 libKF5IdleTime5
+libKF5IncidenceEditor5
 libKF5ItemModels5
 libKF5ItemViews5
 libKF5JS5
@@ -1646,6 +1656,7 @@ libKF5JobWidgets5
 libKF5JsEmbed5
 libKF5KCMUtils5
 libKF5KDELibs4Support5
+libKF5KDGantt2-5
 libKF5KDcraw5
 libKF5KExiv2-15_0_0
 libKF5KFace10_0_0
@@ -1655,6 +1666,10 @@ libKF5KMahjongglib5
 libKF5Kipi31_0_0
 libKF5KontactInterface5
 libKF5Ldap5
+libKF5Libkdepim5
+libKF5Libkleo5
+libKF5MailCommon5
+libKF5MailImporter5
 libKF5Mbox5
 libKF5MediaPlayer5
 libKF5Mime5
@@ -1666,6 +1681,7 @@ libKF5NewStuff5
 libKF5Notifications5
 libKF5NotifyConfig5
 libKF5Parts5
+libKF5PimCommon5
 libKF5PimTextEdit5
 libKF5Plotting5
 libKF5Pty5
@@ -2312,6 +2328,7 @@ libgps22
 libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
+libgravatar
 libgrilo-0_3-0
 libgrlnet-0_3-0
 libgrlpls-0_3-0
@@ -2501,6 +2518,7 @@ libkface
 libkface-devel
 libkgeomap-devel
 libkipi-devel
+libkleo
 libkmahjongg
 libkmahjongg-devel
 libkmod2
@@ -2517,6 +2535,7 @@ libkscreen
 libkscreen1
 libkscreen2-devel
 libkscreen2-plugin
+libksieve
 libksuseinstall1
 libksysguard5
 libksysguard5-devel
@@ -3399,6 +3418,7 @@ lzip
 lzop
 m17n-db
 m4
+mailcommon
 mailman
 mailx
 make
@@ -3434,6 +3454,7 @@ memtest86+
 menu-cache
 mercurial
 mercurial-lang
+messagelib
 metamail
 metatheme-adwaita-common
 metatheme-breeze-common
@@ -4136,6 +4157,7 @@ pidgin-plugin-skype
 pidgin-plugin-skypeweb
 pidgin-sipe
 pigz
+pimcommon
 pin
 pinentry
 pinentry-gnome3

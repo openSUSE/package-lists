@@ -90,6 +90,7 @@ bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
+calendarsupport
 cantarell-fonts
 cdrdao
 cdrkit-cdrtools-compat
@@ -153,6 +154,7 @@ efibootmgr
 elfutils
 espeak
 ethtool
+eventviews
 expat
 fdupes
 file
@@ -200,6 +202,7 @@ gpgmepp5
 gpm
 gptfdisk
 grantlee5
+grantleetheme
 grep
 groff
 grub2
@@ -303,8 +306,11 @@ kdelibs4support-lang
 kdenetwork4-filesharing
 kdepasswd
 kdepim
+kdepim-addons
+kdepim-apps-libs
 kdepim-runtime
 kdepimlibs4
+kdgantt2
 kdialog
 kdnssd
 keditbookmarks
@@ -421,6 +427,7 @@ libKF5Bookmarks5
 libKF5Bookmarks5-lang
 libKF5CalendarCore5
 libKF5CalendarEvents5
+libKF5CalendarSupport5
 libKF5CalendarUtils5
 libKF5Codecs5
 libKF5Codecs5-lang
@@ -441,14 +448,16 @@ libKF5DNSSD5-lang
 libKF5Declarative5
 libKF5Declarative5-lang
 libKF5Emoticons5
+libKF5EventViews5
 libKF5GAPICalendar5
 libKF5GAPIContacts5
 libKF5GAPICore5
-libKF5GAPIDrive5
 libKF5GAPITasks5
 libKF5GlobalAccel5
 libKF5GlobalAccel5-lang
 libKF5GlobalAccelPrivate5
+libKF5GrantleeTheme5
+libKF5Gravatar5
 libKF5GuiAddons5
 libKF5Holidays5
 libKF5I18n5
@@ -458,6 +467,7 @@ libKF5IconThemes5
 libKF5IconThemes5-lang
 libKF5IdentityManagement5
 libKF5IdleTime5
+libKF5IncidenceEditor5
 libKF5ItemModels5
 libKF5ItemViews5
 libKF5ItemViews5-lang
@@ -469,6 +479,7 @@ libKF5JsEmbed5-lang
 libKF5KCMUtils5
 libKF5KCMUtils5-lang
 libKF5KDELibs4Support5
+libKF5KDGantt2-5
 libKF5KDcraw5
 libKF5KHtml5
 libKF5KHtml5-lang
@@ -476,6 +487,10 @@ libKF5KMahjongglib5
 libKF5Kipi31_0_0
 libKF5KontactInterface5
 libKF5Ldap5
+libKF5Libkdepim5
+libKF5Libkleo5
+libKF5MailCommon5
+libKF5MailImporter5
 libKF5Mbox5
 libKF5Mime5
 libKF5ModemManagerQt6
@@ -488,6 +503,7 @@ libKF5NotifyConfig5
 libKF5NotifyConfig5-lang
 libKF5Parts5
 libKF5Parts5-lang
+libKF5PimCommon5
 libKF5PimTextEdit5
 libKF5Pty5
 libKF5Pty5-lang
@@ -724,6 +740,7 @@ libgpod-tools
 libgpod4
 libgps22
 libgraphite2-3
+libgravatar
 libgsm1
 libgstallocators-1_0-0
 libgstapp-1_0-0
@@ -792,6 +809,7 @@ libkerfuffle16
 libkeyutils1
 libkf5kdegames6
 libkgapi-lang
+libkleo
 libkmahjongg
 libkmod2
 libkolab1
@@ -800,6 +818,7 @@ libkomparediff2-5
 libkonq5
 libksba8
 libkscreen2-plugin
+libksieve
 libksuseinstall1
 libksysguard5
 libksysguard5-helper
@@ -1092,6 +1111,7 @@ lsof
 lsscsi
 luit
 lvm2
+mailcommon
 mailx
 man
 mariadb
@@ -1103,6 +1123,7 @@ mc-lang
 mdadm
 media-player-info
 memtest86+
+messagelib
 metatheme-adwaita-common
 metatheme-breeze-common
 milou5
@@ -1249,6 +1270,7 @@ permissions
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 pigz
+pimcommon
 pinentry
 pinentry-qt5
 pkcs11-helper
