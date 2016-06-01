@@ -68,7 +68,6 @@ aisleriot
 akonadi-contact
 akonadi-search
 akonadi-server
-akonadi5
 akonadi_resources
 akregator5
 alsa
@@ -472,14 +471,6 @@ dia-lang
 dialog
 diffstat
 diffutils
-digikam
-digikam-lang
-digikam-libs
-digikam-plugin-color
-digikam-plugin-decorate
-digikam-plugin-enhance
-digikam-plugin-fxfilters
-digikam-plugin-transform
 dleyna-connector-dbus
 dleyna-renderer
 dleyna-server
@@ -521,7 +512,6 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
-enblend-enfuse
 enchant-devel
 enchant-voikko
 enscript
@@ -824,7 +814,6 @@ gstreamer-plugins-base-devel
 gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
-gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-utils
 gsynaptics
@@ -906,7 +895,6 @@ hplip
 hplip-hpijs
 hplip-sane
 htdig
-hugin
 hwinfo
 hylafax+
 hylafax+-client
@@ -1215,10 +1203,6 @@ kio_audiocd
 kio_kamera
 kio_mtp
 kipi-plugin-icons
-kipi-plugins
-kipi-plugins-acquireimage
-kipi-plugins-geolocation
-kipi-plugins-lang
 kipi-plugins5
 kitemmodels-devel
 kitemviews-devel
@@ -1326,7 +1310,6 @@ kxmlrpcclient5-devel
 latex2html-pngicons
 ldns
 leafpad
-lensfun-data
 less
 lftp
 libAnalitza5
@@ -1351,12 +1334,14 @@ libImath-2_2-12
 libImlib2-1
 libKEduVocDocument5
 libKF5Activities5
+libKF5AkonadiAgentBase5
 libKF5AkonadiCalendar5
 libKF5AkonadiContact5
+libKF5AkonadiCore5
 libKF5AkonadiMime5
 libKF5AkonadiNotes5
-libKF5AkonadiPrivate5
 libKF5AkonadiSearch
+libKF5AkonadiWidgets5
 libKF5AlarmCalendar5
 libKF5Archive5
 libKF5Attica5
@@ -1406,7 +1391,7 @@ libKF5KDcraw5
 libKF5KExiv2-15_0_0
 libKF5KHtml5
 libKF5KMahjongglib5
-libKF5Kipi30_0_0
+libKF5Kipi31_0_0
 libKF5KontactInterface5
 libKF5Ldap5
 libKF5Mbox5
@@ -1615,7 +1600,6 @@ libass5
 libassuan-devel
 libassuan0
 libastro-qt5-1
-libastro1
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -2042,8 +2026,6 @@ libhangul1
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
-libhdf5-10
-libhdf5_hl10
 libhogweed4
 libhttp-parser-suse0
 libhunspell-1_4-0
@@ -2113,7 +2095,7 @@ libkdegames6
 libkdepim
 libkdepimlibs4
 libkdevplatform8
-libkerfuffle15
+libkerfuffle16
 libkexiv2-devel
 libkeybinder-3_0-0
 libkeybinder0
@@ -2125,7 +2107,6 @@ libkolab1
 libkolabxml1
 libkomparediff2-5
 libkonq5
-libkqoauth0
 libksba8
 libkscreen
 libkscreen1
@@ -2136,8 +2117,6 @@ libksysguard5
 libksysguard5-devel
 libksysguard5-helper
 libktpaccountskcminternal9
-libkvkontakte-lang
-libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
@@ -2155,7 +2134,6 @@ libldap-data
 libldapcpp1
 libldb1
 libldns1
-liblensfun1
 liblightdm-gobject-1-0
 liblirc_client0
 liblmdb-0_9_17
@@ -2179,8 +2157,7 @@ libm17n0
 libmagic1
 libmal-devel
 libmal1
-libmarblewidget-qt5-23
-libmarblewidget22
+libmarblewidget-qt5-24
 libmatroska6
 libmbedtls9
 libmbim-glib4
@@ -2304,7 +2281,6 @@ libpackagekitqt5-0
 libpagemaker-0_0-0
 libpango-1_0-0
 libpangomm-1_4-1
-libpano13-3
 libparted0
 libpcap1
 libpci3
@@ -2319,7 +2295,6 @@ libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
-libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -2393,7 +2368,6 @@ libqt4-devel
 libqt4-linguist
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-mysql
 libqt4-sql-sqlite
 libqt4-x11
 libqt5-linguist
@@ -2686,7 +2660,6 @@ libvdpau_radeonsi
 libvdpau_va_gl1
 libverto-devel
 libverto1
-libvigraimpex5
 libvirt-client
 libvirt-daemon
 libvirt-daemon-driver-interface
@@ -2740,16 +2713,6 @@ libwps-0_4-4
 libwrap0
 libwv-1_2-3
 libwv2-4
-libwx_baseu-2_8-0-stl
-libwx_baseu_net-2_8-0-stl
-libwx_baseu_xml-2_8-0-stl
-libwx_gtk2u_adv-2_8-0-stl
-libwx_gtk2u_aui-2_8-0-stl
-libwx_gtk2u_core-2_8-0-stl
-libwx_gtk2u_gl-2_8-0-stl
-libwx_gtk2u_html-2_8-0-stl
-libwx_gtk2u_qa-2_8-0-stl
-libwx_gtk2u_xrc-2_8-0-stl
 libx86emu1
 libxalan-c111
 libxapian22
@@ -3972,7 +3935,6 @@ words
 wpa_supplicant
 wqy-microhei-fonts
 wv2-devel
-wxWidgets-lang
 x11-tools
 xalan-j2
 xauth

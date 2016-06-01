@@ -82,7 +82,6 @@ aisleriot-themes
 akonadi-contact
 akonadi-search
 akonadi-server
-akonadi5
 akonadi_resources
 akregator5
 alevt
@@ -521,15 +520,6 @@ dia-lang
 dialog
 diffstat
 diffutils
-digikam
-digikam-doc
-digikam-lang
-digikam-libs
-digikam-plugin-color
-digikam-plugin-decorate
-digikam-plugin-enhance
-digikam-plugin-fxfilters
-digikam-plugin-transform
 ding
 ding-dict-de_en
 djvulibre
@@ -583,7 +573,6 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
-enblend-enfuse
 enchant-devel
 enscript
 eog
@@ -1012,7 +1001,6 @@ gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
-gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-utils
 gstreamer-validate
@@ -1121,7 +1109,6 @@ html-dtd
 html2ps
 html2text
 htmldoc
-hugin
 hunspell-devel
 hwinfo
 hwinfo-devel
@@ -1468,10 +1455,6 @@ kio_mtp
 kiosktool
 kiosktool-lang
 kipi-plugin-icons
-kipi-plugins
-kipi-plugins-acquireimage
-kipi-plugins-geolocation
-kipi-plugins-lang
 kipi-plugins5
 kiriki
 kismet
@@ -1644,12 +1627,14 @@ libImath-2_2-12
 libImlib2-1
 libKEduVocDocument5
 libKF5Activities5
+libKF5AkonadiAgentBase5
 libKF5AkonadiCalendar5
 libKF5AkonadiContact5
+libKF5AkonadiCore5
 libKF5AkonadiMime5
 libKF5AkonadiNotes5
-libKF5AkonadiPrivate5
 libKF5AkonadiSearch
+libKF5AkonadiWidgets5
 libKF5AlarmCalendar5
 libKF5Archive5
 libKF5Attica5
@@ -1701,7 +1686,7 @@ libKF5KFace10_0_0
 libKF5KGeoMap10_0_0
 libKF5KHtml5
 libKF5KMahjongglib5
-libKF5Kipi30_0_0
+libKF5Kipi31_0_0
 libKF5KontactInterface5
 libKF5Ldap5
 libKF5Mbox5
@@ -1934,7 +1919,6 @@ libass5
 libassuan-devel
 libassuan0
 libastro-qt5-1
-libastro1
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -2469,8 +2453,6 @@ libhangul1
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
-libhdf5-10
-libhdf5_hl10
 libhogweed4
 libhttp-parser-suse0
 libhunspell-1_4-0
@@ -2561,7 +2543,7 @@ libkdepimlibs4
 libkdevplatform-devel
 libkdevplatform8
 libkeduvocdocument4
-libkerfuffle15
+libkerfuffle16
 libkexiv2-devel
 libkeybinder-3_0-0
 libkeybinder0
@@ -2581,7 +2563,6 @@ libkomparediff2-5
 libkonq-devel
 libkonq5
 libkpathsea6
-libkqoauth0
 libksane-devel
 libksba8
 libkscreen
@@ -2598,8 +2579,6 @@ libktorrent-devel
 libktorrent6
 libktorrent6-lang
 libktpaccountskcminternal9
-libkvkontakte-lang
-libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
@@ -2650,8 +2629,7 @@ libm17n0
 libmagic1
 libmal-devel
 libmal1
-libmarblewidget-qt5-23
-libmarblewidget22
+libmarblewidget-qt5-24
 libmate-desktop-2-17
 libmatroska6
 libmbedtls9
@@ -2814,7 +2792,6 @@ libpagemaker-0_0-0
 libpango-1_0-0
 libpangomm-1_4-1
 libpangox-1_0-0
-libpano13-3
 libpaper1
 libparted0
 libpath_utils1
@@ -2832,7 +2809,6 @@ libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
 libpfs2
-libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -2890,7 +2866,7 @@ libproxy1-pacrunner-webkit
 libpsl5
 libpspell15
 libpst4
-libpt2_10_10
+libpt2_10_11
 libptexenc1
 libpth-devel
 libpth20
@@ -3160,7 +3136,6 @@ libtelepathy-farstream3
 libtelepathy-glib0
 libtelepathy-logger-qt5
 libtelepathy-logger3
-libtelepathy-qt4-2
 libtelepathy-qt5-0
 libtevent-util0
 libtevent0
@@ -3248,7 +3223,6 @@ libvdpau_radeonsi
 libvdpau_va_gl1
 libverto-devel
 libverto1
-libvigraimpex5
 libvirt
 libvirt-client
 libvirt-daemon
@@ -3948,7 +3922,6 @@ perl-CDDB_get
 perl-CGI
 perl-CGI-Application
 perl-CPAN-Changes
-perl-Cairo
 perl-Capture-Tiny
 perl-Carp-Assert
 perl-Carp-Clan
@@ -4035,8 +4008,6 @@ perl-GD
 perl-GD-Graph3d
 perl-GDGraph
 perl-GDTextUtil
-perl-Glib
-perl-Gtk2
 perl-HTML-Clean
 perl-HTML-FillInForm
 perl-HTML-Format
@@ -4118,7 +4089,6 @@ perl-Package-DeprecationManager
 perl-Package-Stash
 perl-Package-Stash-XS
 perl-PadWalker
-perl-Pango
 perl-Params-Util
 perl-Params-Validate
 perl-Parse-RecDescent
