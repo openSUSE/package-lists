@@ -37,6 +37,7 @@ at-spi2-atk-gtk2
 at-spi2-core
 attr
 audit
+augeas
 augeas-lenses
 autofs
 autoyast2-installation
@@ -147,6 +148,7 @@ fontconfig
 fonts-config
 frameworkintegration-plugin
 freerdp
+fribidi
 gawk
 gconf-polkit
 gconf2
@@ -221,6 +223,7 @@ hunspell-tools
 hwinfo
 iceauth
 icewm
+icewm-config-upstream
 icewm-default
 icoutils
 ifplugd
@@ -813,7 +816,7 @@ libssh4
 libstdc++6
 libstdc++6-32bit
 libstorage-ruby
-libstorage6
+libstorage7
 libswresample1
 libtag1
 libtalloc2
@@ -914,8 +917,6 @@ libzio1
 libzip2
 libzypp
 linuxconsoletools
-lirc
-lirc-remotes
 lockdev
 logrotate
 lsb-release
@@ -980,7 +981,6 @@ pciutils-ids
 pcsc-lite
 perl
 perl-Bootloader
-perl-Bootloader-YAML
 perl-Clone
 perl-Config-Crontab
 perl-Crypt-SmbHash
@@ -1033,7 +1033,6 @@ perl-XML-Simple
 perl-XML-Twig
 perl-XML-XPath
 perl-XML-XPathEngine
-perl-YAML-LibYAML
 perl-apparmor
 perl-base
 perl-gettext
@@ -1138,8 +1137,13 @@ rtkit
 ruby
 ruby-common
 ruby2.1
+ruby2.1-rubygem-abstract_method
+ruby2.1-rubygem-cfa
+ruby2.1-rubygem-cfa_grub2
+ruby2.1-rubygem-cheetah
 ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
+ruby2.1-rubygem-ruby-augeas
 ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
 s2tc
@@ -1253,6 +1257,7 @@ xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
+xf86-video-amdgpu
 xf86-video-fbdev
 xf86-video-nouveau
 xf86-video-vesa

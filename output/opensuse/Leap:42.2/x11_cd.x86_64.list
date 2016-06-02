@@ -35,6 +35,7 @@ at-spi2-core
 atmel-firmware
 attr
 audit
+augeas
 augeas-lenses
 autofs
 autoyast2-installation
@@ -125,6 +126,7 @@ fontconfig
 fonts-config
 fprintd
 fprintd-pam
+fribidi
 fuse
 gawk
 gconf-polkit
@@ -216,8 +218,8 @@ hunspell-tools
 hwinfo
 iceauth
 icewm
+icewm-config-upstream
 icewm-default
-icewm-lite
 ifplugd
 info
 initviocons
@@ -613,7 +615,7 @@ libstartup-notification-1-0
 libstdc++6
 libstdc++6-32bit
 libstorage-ruby
-libstorage6
+libstorage7
 libtalloc2
 libtasn1
 libtasn1-6
@@ -805,7 +807,6 @@ pciutils-ids
 pcmciautils
 perl
 perl-Bootloader
-perl-Bootloader-YAML
 perl-Config-Crontab
 perl-Data-Dump
 perl-Digest-HMAC
@@ -846,7 +847,6 @@ perl-XML-Twig
 perl-XML-Writer
 perl-XML-XPath
 perl-XML-XPathEngine
-perl-YAML-LibYAML
 perl-base
 perl-gettext
 perl-libwww-perl
@@ -910,8 +910,13 @@ rtkit
 ruby
 ruby-common
 ruby2.1
+ruby2.1-rubygem-abstract_method
+ruby2.1-rubygem-cfa
+ruby2.1-rubygem-cfa_grub2
+ruby2.1-rubygem-cheetah
 ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
+ruby2.1-rubygem-ruby-augeas
 ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
 s2tc
@@ -1019,6 +1024,7 @@ xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
+xf86-video-amdgpu
 xf86-video-ark
 xf86-video-ast
 xf86-video-ati
@@ -1034,6 +1040,7 @@ xf86-video-mga
 xf86-video-neomagic
 xf86-video-nouveau
 xf86-video-nv
+xf86-video-qxl
 xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion

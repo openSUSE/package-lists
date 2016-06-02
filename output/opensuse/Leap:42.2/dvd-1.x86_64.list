@@ -224,6 +224,7 @@ audacity-lang
 audiofile-devel
 audit
 audit-devel
+augeas
 augeas-lenses
 autoconf
 autoconf-archive
@@ -1199,6 +1200,8 @@ icecream
 icecream-monitor
 icedtea-web-javadoc
 icewm
+icewm-config-upstream
+icewm-lang
 icewm-lite
 ico
 icoutils
@@ -1316,6 +1319,7 @@ kalarm
 kalgebra
 kalzium
 kanagram
+kapptemplate
 karchive-devel
 kate
 kate-plugins
@@ -1578,7 +1582,6 @@ kross
 kross-devel
 kross-lang
 kruler
-krunner-devel
 krusader
 kscd
 kscreen5
@@ -2591,6 +2594,7 @@ libiptc0
 libiptcdata
 libiptcdata-lang
 libiptcdata0
+libirrecord0
 libiscsi7
 libisl10
 libiso9660-10
@@ -2715,7 +2719,9 @@ libldb1-32bit
 liblensfun0
 liblibkremotecontrol1
 liblightdm-gobject-1-0
+liblirc0
 liblirc_client0
+liblirc_driver0
 liblmdb-0_9_14
 libloader
 liblockdev1
@@ -3260,7 +3266,7 @@ libstdc++6-32bit
 libstdc++6-gcc48-locale
 libstoken1
 libstorage-ruby
-libstorage6
+libstorage7
 libstroke
 libsuitesparseconfig-4_4_5
 libsunpinyin3
@@ -3560,9 +3566,7 @@ lilo
 links
 linux-glibc-devel
 linuxconsoletools
-lirc
 lirc-devel
-lirc-remotes
 listres
 lklug-fonts
 lmdb-devel
@@ -3579,6 +3583,8 @@ lskat
 lsof
 lsscsi
 ltrace
+lttng-modules
+lttng-modules-kmp-default
 lua
 lua-devel
 luasocket
@@ -4041,7 +4047,6 @@ perl-BSD-Resource
 perl-BerkeleyDB
 perl-Bit-Vector
 perl-Bootloader
-perl-Bootloader-YAML
 perl-Business-ISBN
 perl-Business-ISBN-Data
 perl-CDDB_get
@@ -4292,7 +4297,6 @@ perl-XML-XPath
 perl-XML-XPathEngine
 perl-XML-XSLT
 perl-YAML
-perl-YAML-LibYAML
 perl-apparmor
 perl-autobox
 perl-base
@@ -4385,7 +4389,6 @@ planner
 planner-lang
 plasma-framework
 plasma-framework-components
-plasma-framework-devel
 plasma-framework-lang
 plasma-framework-private
 plasma-nm5
@@ -4705,8 +4708,13 @@ ruby-common
 ruby-devel
 ruby2.1
 ruby2.1-devel
+ruby2.1-rubygem-abstract_method
+ruby2.1-rubygem-cfa
+ruby2.1-rubygem-cfa_grub2
+ruby2.1-rubygem-cheetah
 ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
+ruby2.1-rubygem-ruby-augeas
 ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
 rubygem-ruby-fcgi
@@ -5272,6 +5280,7 @@ xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
+xf86-video-amdgpu
 xf86-video-ark
 xf86-video-ast
 xf86-video-ati
@@ -5287,6 +5296,7 @@ xf86-video-mga
 xf86-video-neomagic
 xf86-video-nouveau
 xf86-video-nv
+xf86-video-qxl
 xf86-video-r128
 xf86-video-savage
 xf86-video-siliconmotion
@@ -5525,7 +5535,6 @@ yast2-country-data
 yast2-devel-doc
 yast2-dhcp-server
 yast2-dns-server
-yast2-drbd
 yast2-firewall
 yast2-firstboot
 yast2-fonts

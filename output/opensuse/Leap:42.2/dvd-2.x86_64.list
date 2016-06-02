@@ -14,11 +14,16 @@ aaa_base-extras
 acl
 adjtimex
 adwaita-icon-theme
+alsa
+alsa-oss
+alsa-plugins
+alsa-utils
 apache-commons-logging
 at-spi2-atk-common
 at-spi2-atk-gtk2
 at-spi2-core
 atftp
+augeas
 augeas-lenses
 bash
 bash-completion
@@ -53,6 +58,7 @@ dconf
 desktop-data-openSUSE
 desktop-translations
 device-mapper
+dialog
 diffutils
 dirmngr
 dirmngr-lang
@@ -70,6 +76,7 @@ fipscheck
 flute
 fontconfig
 fonts-config
+fribidi
 ft2demos
 fuse
 g3utils
@@ -140,7 +147,9 @@ hunspell
 hunspell-tools
 hwinfo
 icewm
+icewm-config-upstream
 icewm-default
+icewm-lang
 info
 insserv-compat
 java-1_8_0-openjdk
@@ -259,6 +268,7 @@ libdcerpc-binding0-32bit
 libdcerpc0
 libdcerpc0-32bit
 libdconf1
+libdialog11
 libdrm2
 libdrm_amdgpu1
 libdrm_intel1
@@ -408,6 +418,7 @@ libp11-kit0
 libpackagekit-glib2-18
 libpagemaker-0_0-0
 libpango-1_0-0
+libpci3
 libpciaccess0
 libpcre1
 libpcre1-32bit
@@ -479,6 +490,7 @@ libsamba-util0
 libsamba-util0-32bit
 libsamdb0
 libsamdb0-32bit
+libsamplerate0
 libsasl2-3
 libsasl2-3-32bit
 libseccomp2
@@ -621,6 +633,8 @@ pam-32bit
 pam-config
 pango-tools
 patterns-openSUSE-x11_yast
+pciutils
+pciutils-ids
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
@@ -684,8 +698,12 @@ rpm
 ruby
 ruby-common
 ruby2.1
+ruby2.1-rubygem-abstract_method
+ruby2.1-rubygem-cfa
+ruby2.1-rubygem-cheetah
 ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
+ruby2.1-rubygem-ruby-augeas
 ruby2.1-stdlib
 s2tc
 s2tc-32bit

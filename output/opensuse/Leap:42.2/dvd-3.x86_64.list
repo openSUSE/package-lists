@@ -4,6 +4,7 @@ aaa_base-malloccheck
 acl
 adjtimex
 audit
+augeas
 augeas-lenses
 autoyast2-installation
 bash
@@ -250,7 +251,7 @@ libsqlite3-0
 libssh2-1
 libstdc++6
 libstorage-ruby
-libstorage6
+libstorage7
 libtalloc2
 libtasn1
 libtasn1-6
@@ -323,7 +324,6 @@ pciutils
 pciutils-ids
 perl
 perl-Bootloader
-perl-Bootloader-YAML
 perl-Config-Crontab
 perl-Crypt-SmbHash
 perl-Data-Dump
@@ -364,7 +364,6 @@ perl-XML-Simple
 perl-XML-Twig
 perl-XML-XPath
 perl-XML-XPathEngine
-perl-YAML-LibYAML
 perl-base
 perl-gettext
 perl-libwww-perl
@@ -389,8 +388,13 @@ rsync
 ruby
 ruby-common
 ruby2.1
+ruby2.1-rubygem-abstract_method
+ruby2.1-rubygem-cfa
+ruby2.1-rubygem-cfa_grub2
+ruby2.1-rubygem-cheetah
 ruby2.1-rubygem-fast_gettext
 ruby2.1-rubygem-gem2rpm
+ruby2.1-rubygem-ruby-augeas
 ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
 samba-client
