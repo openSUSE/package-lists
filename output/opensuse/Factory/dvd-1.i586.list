@@ -2075,6 +2075,8 @@ libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
+libdevmapper-event1_03
+libdevmapper1_03
 libdhash1
 libdialog13
 libdirac_encoder0
@@ -2101,7 +2103,6 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
@@ -2110,7 +2111,6 @@ libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2586,6 +2586,8 @@ libltdl7
 liblua5_1
 liblua5_2
 liblua5_3
+liblvm2app2_2
+liblvm2cmd2_02
 liblwres141
 liblxpanel0
 liblz4-1_7
@@ -2596,7 +2598,6 @@ libmagic1
 libmal-devel
 libmal1
 libmarblewidget-qt5-24
-libmatroska6
 libmbedtls9
 libmbim-glib4
 libmcrypt
@@ -3197,8 +3198,6 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -4100,7 +4099,7 @@ pfscalibration
 pfstmo
 pfstools
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon-devel
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
@@ -4487,6 +4486,7 @@ ruby-qt4-devel
 ruby2.2
 ruby2.2-devel
 ruby2.2-rubygem-abstract_method
+ruby2.2-rubygem-byebug
 ruby2.2-rubygem-cfa
 ruby2.2-rubygem-cfa_grub2
 ruby2.2-rubygem-cheetah
@@ -4901,8 +4901,6 @@ virt-manager
 virt-manager-common
 virt-viewer
 vlan
-vlc-noX
-vlc-noX-lang
 vlgothic-fonts
 vlock
 vm-install

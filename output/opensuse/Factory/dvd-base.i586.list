@@ -32,7 +32,6 @@ dracut
 efibootmgr
 elfutils
 ethtool
-expat
 file
 file-magic
 filesystem
@@ -110,6 +109,8 @@ libcryptsetup4
 libcurl4
 libdb-4_8
 libdbus-1-3
+libdevmapper-event1_03
+libdevmapper1_03
 libdns_sd
 libdw1
 libedit0
@@ -147,6 +148,8 @@ libksba8
 libldap-2_4-2
 libldap-data
 liblua5_3
+liblvm2app2_2
+liblvm2cmd2_02
 liblzma5
 liblzo2-2
 libmagic1
