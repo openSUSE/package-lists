@@ -510,6 +510,14 @@ dia-lang
 dialog
 diffstat
 diffutils
+digikam
+digikam-lang
+digikam-libs
+digikam-plugin-color
+digikam-plugin-decorate
+digikam-plugin-enhance
+digikam-plugin-fxfilters
+digikam-plugin-transform
 ding
 ding-dict-de_en
 djvulibre
@@ -563,6 +571,7 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
+enblend-enfuse
 enchant-devel
 enscript
 eog
@@ -819,6 +828,7 @@ gnome-common
 gnome-contacts
 gnome-control-center
 gnome-control-center-color
+gnome-control-center-goa
 gnome-control-center-user-faces
 gnome-dictionary
 gnome-disk-utility
@@ -941,7 +951,6 @@ groff
 groff-full
 gromit
 grsync
-grub
 grub2
 grub2-branding-openSUSE
 grub2-i386-efi
@@ -979,6 +988,7 @@ gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
+gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-utils
 gstreamer-validate
@@ -1083,6 +1093,7 @@ html-dtd
 html2ps
 html2text
 htmldoc
+hugin
 hunspell-devel
 hwinfo
 hwinfo-devel
@@ -1427,6 +1438,10 @@ kio_mtp
 kiosktool
 kiosktool-lang
 kipi-plugin-icons
+kipi-plugins
+kipi-plugins-acquireimage
+kipi-plugins-geolocation
+kipi-plugins-lang
 kipi-plugins5
 kiriki
 kismet
@@ -1848,7 +1863,6 @@ libXv-devel
 libXv1
 libXvMC-devel
 libXvMC1
-libXvnc1
 libXxf86dga-devel
 libXxf86dga1
 libXxf86misc-devel
@@ -1897,6 +1911,7 @@ libass5
 libassuan-devel
 libassuan0
 libastro-qt5-1
+libastro1
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -2419,6 +2434,8 @@ libhangul1
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
+libhdf5-10
+libhdf5_hl10
 libhogweed4
 libhttp-parser-suse0
 libhunspell-1_4-0
@@ -2517,6 +2534,7 @@ libkf5kdegames6
 libkface
 libkface-devel
 libkgeomap-devel
+libkipi-data
 libkipi-devel
 libkleo
 libkmahjongg
@@ -2529,6 +2547,7 @@ libkomparediff2-5
 libkonq-devel
 libkonq5
 libkpathsea6
+libkqoauth0
 libksane-devel
 libksba8
 libkscreen
@@ -2546,6 +2565,8 @@ libktorrent-devel
 libktorrent6
 libktorrent6-lang
 libktpaccountskcminternal9
+libkvkontakte-lang
+libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
@@ -2598,6 +2619,7 @@ libmagic1
 libmal-devel
 libmal1
 libmarblewidget-qt5-24
+libmarblewidget22
 libmbedtls9
 libmbim-glib4
 libmcrypt
@@ -2757,6 +2779,7 @@ libpackagekitqt5-0
 libpagemaker-0_0-0
 libpango-1_0-0
 libpangomm-1_4-1
+libpano13-3
 libparted0
 libpath_utils1
 libpcap1
@@ -2773,6 +2796,7 @@ libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
 libpfs2
+libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -3176,6 +3200,7 @@ libvdpau_radeonsi
 libvdpau_va_gl1
 libverto-devel
 libverto1
+libvigraimpex5
 libvirt
 libvirt-client
 libvirt-daemon
@@ -3363,7 +3388,6 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
-lilo
 link-grammar
 links
 linux-glibc-devel
@@ -5133,7 +5157,6 @@ xmodmap
 xorg-cf-files
 xorg-docs
 xorg-sgml-doctools
-xorg-x11-Xvnc
 xorg-x11-devel
 xorg-x11-driver-input
 xorg-x11-driver-video

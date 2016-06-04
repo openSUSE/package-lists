@@ -266,6 +266,7 @@ gnome-clocks-lang
 gnome-contacts
 gnome-contacts-lang
 gnome-control-center
+gnome-control-center-goa
 gnome-control-center-lang
 gnome-control-center-user-faces
 gnome-desktop-lang
@@ -364,7 +365,6 @@ grilo-plugin-youtube
 grilo-plugins
 grilo-plugins-lang
 groff
-grub
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
@@ -525,7 +525,6 @@ libXt6
 libXtst6
 libXv1
 libXvMC1
-libXvnc1
 libXxf86misc1
 libXxf86vm1
 libabw-0_1-1
@@ -1467,25 +1466,17 @@ python-atspi
 python-base
 python-beautifulsoup
 python-bottle
-python-cffi
 python-configobj
-python-cryptography
 python-cssselect
 python-cups
 python-cupshelpers
 python-decorator
-python-enum34
 python-gobject
 python-gobject-Gdk
 python-gobject-cairo
 python-httplib2
-python-idna
-python-ipaddress
 python-javapackages
 python-lxml
-python-pyOpenSSL
-python-pyasn1
-python-pycparser
 python-pycurl
 python-pyudev
 python-pyxb
@@ -1800,7 +1791,6 @@ xkeyboard-config-lang
 xli
 xmessage
 xmodmap
-xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials

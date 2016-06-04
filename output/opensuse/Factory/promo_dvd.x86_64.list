@@ -307,6 +307,14 @@ dhcp-server
 dhcp-tools
 dialog
 diffutils
+digikam
+digikam-lang
+digikam-libs
+digikam-plugin-color
+digikam-plugin-decorate
+digikam-plugin-enhance
+digikam-plugin-fxfilters
+digikam-plugin-transform
 dleyna-connector-dbus
 dleyna-renderer
 dleyna-server
@@ -339,6 +347,7 @@ emacs
 emacs-info
 emacs-nox
 empathy
+enblend-enfuse
 enscript
 eog
 espeak
@@ -353,6 +362,7 @@ evolution
 evolution-data-server
 evolution-plugin-spamassassin
 exif
+exiftool
 exo-lang
 exo-tools
 expat
@@ -492,6 +502,7 @@ gnome-color-manager-lang
 gnome-contacts
 gnome-control-center
 gnome-control-center-color
+gnome-control-center-goa
 gnome-control-center-user-faces
 gnome-dictionary
 gnome-disk-utility
@@ -588,7 +599,6 @@ grilo-plugins
 groff
 groff-full
 grsync
-grub
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
@@ -611,6 +621,7 @@ gstreamer-plugins-base
 gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
+gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-utils
 gsynaptics
@@ -683,6 +694,7 @@ hostname
 hplip-hpijs
 hplip-sane
 htdig
+hugin
 hwinfo
 hylafax+
 hylafax+-client
@@ -698,9 +710,6 @@ icc-profiles-scp-fogra
 icc-profiles-scp-yamma
 iceauth
 icedax
-icewm
-icewm-config-upstream
-icewm-lite
 icoutils
 idnkit
 ifplugd
@@ -867,6 +876,10 @@ kio_audiocd
 kio_kamera
 kio_mtp
 kipi-plugin-icons
+kipi-plugins
+kipi-plugins-acquireimage
+kipi-plugins-geolocation
+kipi-plugins-lang
 kipi-plugins5
 kiten
 kiwi
@@ -1154,7 +1167,6 @@ libXtst6
 libXv1
 libXv1-32bit
 libXvMC1
-libXvnc1
 libXxf86misc1
 libXxf86vm1
 libXxf86vm1-32bit
@@ -1192,6 +1204,7 @@ libaspell15
 libass5
 libassuan0
 libastro-qt5-1
+libastro1
 libatasmart4
 libatk-1_0-0
 libatk-1_0-0-32bit
@@ -1631,6 +1644,8 @@ libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
+libhdf5-10
+libhdf5_hl10
 libhogweed4
 libhogweed4-32bit
 libhttp-parser-suse0
@@ -1702,6 +1717,7 @@ libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
 libkf5kdegames6
+libkipi-data
 libkleo
 libkmahjongg
 libkmod2
@@ -1709,6 +1725,7 @@ libkolab1
 libkolabxml1
 libkomparediff2-5
 libkonq5
+libkqoauth0
 libksba8
 libkscreen
 libkscreen1
@@ -1718,6 +1735,8 @@ libksuseinstall1
 libksysguard5
 libksysguard5-helper
 libktpaccountskcminternal9
+libkvkontakte-lang
+libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
@@ -1761,6 +1780,7 @@ liblzma5-32bit
 liblzo2-2
 libmagic1
 libmarblewidget-qt5-24
+libmarblewidget22
 libmatroska6
 libmbedtls9
 libmbim-glib4
@@ -1800,6 +1820,7 @@ libmutter0
 libmwaw-0_3-3
 libmygpo-qt1
 libmysqlclient18
+libmysqlclient18-32bit
 libmysqlclient_r18
 libmysqlcppconn7
 libmysqld18
@@ -1887,6 +1908,7 @@ libpagemaker-0_0-0
 libpango-1_0-0
 libpango-1_0-0-32bit
 libpangomm-1_4-1
+libpano13-3
 libparted0
 libpcap1
 libpci3
@@ -1900,6 +1922,7 @@ libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
+libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -1968,6 +1991,8 @@ libqt4-qt3support
 libqt4-qt3support-32bit
 libqt4-sql
 libqt4-sql-32bit
+libqt4-sql-mysql
+libqt4-sql-mysql-32bit
 libqt4-sql-sqlite
 libqt4-sql-sqlite-32bit
 libqt4-x11
@@ -2208,6 +2233,7 @@ libvdpau_radeonsi
 libvdpau_va_gl1
 libverto1
 libverto1-32bit
+libvigraimpex5
 libvisio-0_1-1
 libvisual
 libvlc5
@@ -2250,6 +2276,16 @@ libwpg-0_3-3
 libwps-0_4-4
 libwrap0
 libwv-1_2-3
+libwx_baseu-2_8-0-stl
+libwx_baseu_net-2_8-0-stl
+libwx_baseu_xml-2_8-0-stl
+libwx_gtk2u_adv-2_8-0-stl
+libwx_gtk2u_aui-2_8-0-stl
+libwx_gtk2u_core-2_8-0-stl
+libwx_gtk2u_gl-2_8-0-stl
+libwx_gtk2u_html-2_8-0-stl
+libwx_gtk2u_qa-2_8-0-stl
+libwx_gtk2u_xrc-2_8-0-stl
 libx86emu1
 libxalan-c111
 libxapian22
@@ -2662,6 +2698,7 @@ perl-Encode-Locale
 perl-Error
 perl-Exporter-Tiny
 perl-File-Listing
+perl-File-RandomAccess
 perl-File-ShareDir
 perl-File-Slurp
 perl-HTML-Parser
@@ -2675,6 +2712,7 @@ perl-IO-HTML
 perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-stringy
+perl-Image-ExifTool
 perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
@@ -2821,9 +2859,7 @@ python-base
 python-beautifulsoup
 python-bottle
 python-cairo
-python-cffi
 python-configobj
-python-cryptography
 python-cssselect
 python-cups
 python-cupshelpers
@@ -2831,7 +2867,6 @@ python-curses
 python-decorator
 python-deltarpm
 python-dnspython
-python-enum34
 python-gobject
 python-gobject-Gdk
 python-gobject-cairo
@@ -2839,14 +2874,9 @@ python-gobject2
 python-gstreamer-0_10
 python-gtk
 python-httplib2
-python-idna
-python-ipaddress
 python-javapackages
 python-lxml
 python-numpy
-python-pyOpenSSL
-python-pyasn1
-python-pycparser
 python-pycurl
 python-pyudev
 python-pyxb
@@ -3235,6 +3265,7 @@ wodim
 wol
 words
 wpa_supplicant
+wxWidgets-lang
 x11-tools
 xauth
 xbitmaps
@@ -3341,7 +3372,6 @@ xmessage
 xmms2
 xmms2-plugin-base
 xmodmap
-xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
