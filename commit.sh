@@ -29,12 +29,12 @@ for arch in $arches; do
     ./mk_group.sh output/opensuse/$proj/dvd-$arch.list DVD-$arch osc/openSUSE:$proj/_product/DVD5-$arch.group only_$arch
 
     if [ "$arch" = "i586" -o "$arch" = "x86_64" ];then
-      ./mk_group.sh output/opensuse/$proj/dvd9-only_$arch.list DVD9-$arch osc/openSUSE:$proj/_product/DVD9-$arch.group only_$arch
+      #./mk_group.sh output/opensuse/$proj/dvd9-only_$arch.list DVD9-$arch osc/openSUSE:$proj/_product/DVD9-$arch.group only_$arch
       ./mk_group.sh output/opensuse/$proj/promo_dvd.$arch.list REST-DVD-promo-$arch osc/openSUSE:$proj/_product/DVD5-promo-$arch.group only_$arch
-      ./mk_group.sh output/opensuse/$proj/langaddon.$arch.list REST-DVD-$arch osc/openSUSE:$proj/_product/DVD5-lang-$arch.group only_$arch
+      #./mk_group.sh output/opensuse/$proj/langaddon.$arch.list REST-DVD-$arch osc/openSUSE:$proj/_product/DVD5-lang-$arch.group only_$arch
     fi
     if [ "$arch" = "x86_64" ];then
-      ./mk_group.sh output/opensuse/$proj/dvd9-all.list DVD9-biarch osc/openSUSE:$proj/_product/DVD9-biarch.group
+      #./mk_group.sh output/opensuse/$proj/dvd9-all.list DVD9-biarch osc/openSUSE:$proj/_product/DVD9-biarch.group
       ./mk_group.sh output/opensuse/$proj/nonoss.list Addon-NonOss osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss.group
       ./mk_group.sh output/opensuse/$proj/nonoss-$arch.list Addon-NonOss-$arch osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-$arch.group only_$arch
       ./mk_group.sh output/opensuse/$proj/nonoss.deps.list Addon-NonOss-Deps osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps.group
