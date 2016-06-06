@@ -16,6 +16,7 @@ adwaita-icon-theme
 alsa
 alsa-oss
 alsa-plugins
+alsa-plugins-pulse
 alsa-utils
 apache-commons-logging
 at-spi2-atk-common
@@ -146,6 +147,7 @@ krb5
 krb5-32bit
 libFLAC8
 libGLEW1_13
+libGLU1
 libHalf12
 libICE6
 libIex-2_2-12
@@ -153,6 +155,7 @@ libIlmImf-2_2-22
 libIlmThread-2_2-12
 libKF5ConfigCore5
 libLLVM
+libMagickCore-6_Q16-2
 libOpenCOLLADA0
 libQt5CLucene5
 libQt5Core5
@@ -214,6 +217,7 @@ libatspi0
 libattica0_4
 libattr1
 libattr1-32bit
+libaudiofile1
 libaudit1
 libaudit1-32bit
 libaugeas0
@@ -290,6 +294,7 @@ libelf1
 libenchant1
 libepoxy0
 liberation-fonts
+libesd0
 libestr0
 libetonyek-0_1-1
 libevdev2
@@ -304,6 +309,7 @@ libfbembed2_5
 libfdisk1
 libffi4
 libffi4-32bit
+libfftw3-3
 libfontenc1
 libfonts
 libformula
@@ -311,6 +317,7 @@ libfreebl3
 libfreehand-0_1-1
 libfreetype6
 libfribidi0
+libftgl2
 libfuse2
 libgbm1
 libgcc_s1
@@ -336,6 +343,7 @@ libgnutls30-32bit
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
+libgomp1
 libgpg-error0
 libgpg-error0-32bit
 libgphoto2-6
@@ -396,6 +404,7 @@ libloader
 liblockdev1
 liblogging0
 liblpsolve55-0
+liblqr-1-0
 libltdl7
 liblua5_3
 liblzma5
@@ -553,6 +562,7 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
+libsoxr0
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -624,6 +634,7 @@ libwbclient0
 libwbclient0-32bit
 libwebkit2gtk-4_0-37
 libwebp6
+libwebrtc_audio_processing0
 libwicked-0-6
 libwpd-0_10-10
 libwpg-0_3-3
@@ -702,6 +713,8 @@ p11-kit-tools
 pam
 pam-32bit
 pam-config
+pam-modules
+pam-modules-32bit
 patterns-openSUSE-x11_yast
 pciutils
 pciutils-ids
@@ -755,6 +768,10 @@ procmail
 procps
 psmisc
 ptools
+pulseaudio
+pulseaudio-bash-completion
+pulseaudio-esound-compat
+pulseaudio-utils
 python
 python-base
 python-cssselect
@@ -777,6 +794,7 @@ python3-tk
 readline-doc
 rpm
 rsyslog
+rtkit
 ruby
 ruby-common
 ruby2.2
@@ -847,6 +865,7 @@ xerces-j2-xml-apis
 xerces-j2-xml-resolver
 xhost
 xkeyboard-config
+xlockmore
 xorg-x11-fonts
 xorg-x11-fonts-core
 xterm-bin

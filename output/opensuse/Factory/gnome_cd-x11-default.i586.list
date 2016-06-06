@@ -16,6 +16,7 @@ adwaita-icon-theme
 alsa
 alsa-oss
 alsa-plugins
+alsa-plugins-pulse
 alsa-utils
 apparmor-abstractions
 apparmor-parser
@@ -106,6 +107,7 @@ gawk
 gcr-data
 gcr-prompter
 gcr-viewer
+gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 genisoimage
 gettext-runtime
@@ -191,8 +193,14 @@ kpartx
 krb5
 less
 libFLAC8
+libGLU1
+libHalf12
 libICE6
+libIex-2_2-12
+libIlmImf-2_2-22
+libIlmThread-2_2-12
 libLLVM
+libMagickCore-6_Q16-2
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -244,6 +252,7 @@ libatk-bridge-2_0-0
 libatm1
 libatspi0
 libattr1
+libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -300,6 +309,7 @@ libelf1
 libenchant1
 libepoxy0
 liberation-fonts
+libesd0
 libevdev2
 libevent-2_0-5
 libexif12
@@ -308,11 +318,13 @@ libext2fs2
 libfam0-gamin
 libfdisk1
 libffi4
+libfftw3-3
 libfltk1
 libfont-specimen0
 libfontenc1
 libfreetype6
 libfribidi0
+libftgl2
 libfuse2
 libgbm1
 libgcc_s1
@@ -334,6 +346,7 @@ libgnutls30
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
+libgomp1
 libgpg-error0
 libgphoto2-6
 libgpm2
@@ -386,6 +399,7 @@ libldap-data
 libldapcpp1
 libldb1
 liblockdev1
+liblqr-1-0
 libltdl7
 liblua5_3
 liblvm2app2_2
@@ -452,6 +466,7 @@ libpopt0
 libprocps5
 libproxy1
 libpsl5
+libpulse-mainloop-glib0
 libpulse0
 libpwquality1
 libpython2_7-1_0
@@ -460,6 +475,7 @@ libqrencode3
 libqt5-qtimageformats
 libreadline6
 librest0
+librsvg-2-2
 libruby2_2-2_2
 libsamba-credentials0
 libsamba-errors0
@@ -484,7 +500,9 @@ libsnapper3
 libsndfile1
 libsolv-tools
 libsoup-2_4-1
+libsoxr0
 libspeex1
+libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -528,6 +546,7 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebp6
+libwebrtc_audio_processing0
 libwicked-0-6
 libwrap0
 libx86emu1
@@ -610,6 +629,7 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
+pam-modules
 parallel-printer-support
 parted
 pciutils
@@ -693,6 +713,10 @@ ppp
 pptp
 procps
 psmisc
+pulseaudio
+pulseaudio-bash-completion
+pulseaudio-esound-compat
+pulseaudio-utils
 python
 python-CherryPy
 python-base
@@ -737,6 +761,7 @@ rgb
 rpcbind
 rpm
 rpm-python
+rtkit
 ruby
 ruby-common
 ruby2.2
@@ -842,6 +867,7 @@ xinit
 xkbcomp
 xkeyboard-config
 xli
+xlockmore
 xmessage
 xmodmap
 xorg-x11-driver-input
