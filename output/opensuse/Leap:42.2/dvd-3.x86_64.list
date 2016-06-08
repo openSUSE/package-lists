@@ -63,6 +63,7 @@ fipscheck
 fontconfig
 fonts-config
 ft2demos
+gamin-server
 gawk
 gettext-runtime
 gio-branding-openSUSE
@@ -156,6 +157,7 @@ libelf1
 libevent-2_0-5
 libexpat1
 libext2fs2
+libfam0-gamin
 libfdisk1
 libffi4
 libfipscheck1
@@ -167,7 +169,6 @@ libgc1
 libgcc_s1
 libgcrypt20
 libgdbm4
-libgensec0
 libgio-2_0-0
 libgirepository-1_0-1
 libglib-2_0-0
@@ -177,8 +178,6 @@ libgnutls28
 libgobject-2_0-0
 libgpg-error0
 libgraphite2-3
-libgsasl-lang
-libgsasl7
 libharfbuzz0
 libhavege1
 libhogweed2
@@ -212,7 +211,6 @@ libnettle4
 libnfnetlink0
 libnl-config
 libnl3-200
-libntlm0
 libopenssl1_0_0
 libp11-kit0
 libparted0
@@ -227,10 +225,10 @@ libpth20
 libpython2_7-1_0
 libqrencode3
 libreadline6
-libregistry0
 libreiserfscore0
 libruby2_1-2_1
 libsamba-credentials0
+libsamba-errors0
 libsamba-hostconfig0
 libsamba-passdb0
 libsamba-util0
@@ -242,7 +240,6 @@ libsemanage1
 libsepol1
 libsgutils2-2
 libsmartcols1
-libsmbclient-raw0
 libsmbclient0
 libsmbconf0
 libsmbldap0
@@ -289,11 +286,12 @@ logrotate
 lsof
 lsscsi
 lvm2
+m4
+make
+metamail
 mkfontdir
 mkfontscale
 mozilla-nspr
-msmtp
-msmtp-mta
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -375,7 +373,10 @@ pkg-config
 polkit
 polkit-default-privs
 prctl
+procmail
 procps
+psmisc
+psmisc-lang
 pytalloc
 python
 python-base
@@ -403,11 +404,15 @@ samba-libs
 samba-winbind
 sed
 sed-lang
+sendmail
 sg3_utils
 shadow
 shared-mime-info
 shared-mime-info-lang
+sharutils
+sharutils-lang
 shim
+site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -418,6 +423,7 @@ sysconfig-netconfig
 syslinux
 systemd
 systemd-bash-completion
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools

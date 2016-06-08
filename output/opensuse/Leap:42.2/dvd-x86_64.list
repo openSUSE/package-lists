@@ -2161,7 +2161,7 @@ libcmis-0_5-5
 libcogl-pango20
 libcogl20
 libcolamd-2_9_1
-libcollection2
+libcollection4
 libcolord-gtk1
 libcolord2
 libcolorhug2
@@ -2267,6 +2267,7 @@ liberation-fonts
 libesd-devel
 libesd0
 libesmtp
+libestr0
 libetonyek-0_1-1
 libetpan17
 libevdev-devel
@@ -2294,6 +2295,7 @@ libexttextcat
 libexttextcat-2_0-0
 libfallocate0
 libfam0-gamin
+libfam0-gamin-32bit
 libfarstream-0_2-5
 libfaxutil5_5_6
 libfbembed2_5
@@ -2385,8 +2387,6 @@ libgdm1
 libgee-0_8-2
 libgegl-0_2-0
 libgegl-0_3-0
-libgensec0
-libgensec0-32bit
 libgeoclue0
 libgeocode-glib0
 libges-1_0-0
@@ -2482,8 +2482,6 @@ libgraphite2-3-32bit
 libgrilo-0_2-1
 libgrlnet-0_2-0
 libgrlpls-0_2-0
-libgsasl-lang
-libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsf-lang
@@ -2596,7 +2594,7 @@ libindiAlignmentDriver1
 libindicator3-7
 libindidriver1
 libindimain1
-libini_config3
+libini_config5
 libinput-udev
 libinput10
 libiodbc-devel
@@ -2737,6 +2735,7 @@ liblmdb-0_9_14
 libloader
 liblockdev1
 liblockdev1-32bit
+liblogging0
 libloudmouth-1-0
 liblouis2
 liblpsolve55-0
@@ -2872,7 +2871,6 @@ libnova-devel
 libnsl2
 libnsssharedhelper0
 libntfs-3g84
-libntlm0
 libnuma1
 liboauth-devel
 liboauth0
@@ -3112,7 +3110,6 @@ librdf0
 librdmacm1
 libreadline6
 libref_array1
-libregistry0
 libreiserfscore0
 libreoffice
 libreoffice-base
@@ -3167,6 +3164,8 @@ librsync2
 libruby2_1-2_1
 libsamba-credentials0
 libsamba-credentials0-32bit
+libsamba-errors0
+libsamba-errors0-32bit
 libsamba-hostconfig0
 libsamba-hostconfig0-32bit
 libsamba-passdb0
@@ -3214,8 +3213,6 @@ libsilcclient-1_1-4
 libslang2
 libsmartcols1
 libsmbclient-devel
-libsmbclient-raw0
-libsmbclient-raw0-32bit
 libsmbclient0
 libsmbconf0
 libsmbconf0-32bit
@@ -3717,8 +3714,6 @@ mpfr-devel
 mpt-firmware
 mpt-status
 mrtg
-msmtp
-msmtp-mta
 mtdev-devel
 mtools
 mtpaint
@@ -3834,7 +3829,6 @@ okteta
 okteta-devel
 okular
 open-iscsi
-open-isns
 open-vm-tools
 open-vm-tools-desktop
 openSUSE-build-key
@@ -4719,6 +4713,7 @@ rsibreak
 rsibreak-lang
 rstart
 rsync
+rsyslog
 rt2860
 rtkit
 ruby
@@ -4745,7 +4740,6 @@ s2tc-32bit
 sablot
 sac
 samba
-samba-32bit
 samba-client
 samba-client-32bit
 samba-doc
@@ -4778,6 +4772,7 @@ sed
 sed-lang
 selinux-doc
 sendfax
+sendmail
 sensors
 servletapi5
 sessreg
@@ -4915,6 +4910,7 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common

@@ -89,6 +89,7 @@ findutils
 fipscheck
 fontconfig
 fonts-config
+gamin-server
 gawk
 gcr-data
 gcr-prompter
@@ -226,6 +227,7 @@ libepoxy0
 libevent-2_0-5
 libexpat1
 libext2fs2
+libfam0-gamin
 libfdisk1
 libffi4
 libfipscheck1
@@ -242,7 +244,6 @@ libgcr-3-1
 libgcrypt20
 libgdbm4
 libgdk_pixbuf-2_0-0
-libgensec0
 libgio-2_0-0
 libgirepository-1_0-1
 libglib-2_0-0
@@ -325,6 +326,7 @@ libreiserfscore0
 librest0
 libruby2_1-2_1
 libsamba-credentials0
+libsamba-errors0
 libsamba-hostconfig0
 libsamba-passdb0
 libsamba-util0
@@ -338,7 +340,6 @@ libsemanage1
 libsepol1
 libsgutils2-2
 libsmartcols1
-libsmbclient-raw0
 libsmbclient0
 libsmbconf0
 libsmbldap0
