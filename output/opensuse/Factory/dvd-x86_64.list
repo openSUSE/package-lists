@@ -1819,6 +1819,7 @@ libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
 libSDL-devel
+libSDL2-2_0-0
 libSDL_Pango1
 libSDL_gfx15
 libSDL_image-1_2-0
@@ -2367,8 +2368,11 @@ libges-1_0-0
 libgetdata++6
 libgetdata7
 libgexiv2-2
+libgfapi0
 libgfbgraph-0_2-0
 libgfortran3
+libgfrpc0
+libgfxdr0
 libggz2
 libggz2-devel
 libgif7
@@ -2392,6 +2396,7 @@ libglib-2_0-0
 libglib-2_0-0-32bit
 libglibmm-2_4-1
 libgltf-0_0-0
+libglusterfs0
 libglut3
 libglyr1
 libgme0
@@ -2599,6 +2604,7 @@ libirs141
 libisc160
 libisccc140
 libisccfg140
+libiscsi7
 libisl15
 libiso9660-10
 libisoburn1
@@ -3326,8 +3332,7 @@ libtheora0
 libtheoradec1
 libtheoraenc1
 libthunarx-2-0
-libtidy-0_99-0
-libtidy-0_99-0-devel
+libtidy5
 libtiff-devel
 libtiff5
 libtiff5-32bit
@@ -3410,6 +3415,7 @@ libverto-devel
 libverto1
 libverto1-32bit
 libvigraimpex5
+libvirglrenderer0
 libvirt
 libvirt-client
 libvirt-daemon
@@ -4691,6 +4697,9 @@ qemu
 qemu-arm
 qemu-block-curl
 qemu-block-dmg
+qemu-block-gluster
+qemu-block-iscsi
+qemu-block-ssh
 qemu-extra
 qemu-ipxe
 qemu-ksm
