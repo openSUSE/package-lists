@@ -11,7 +11,6 @@ ImageMagick-doc
 ImageMagick-extra
 LibVNCServer-devel
 Mesa
-Mesa-32bit
 Mesa-demo-x
 Mesa-devel
 Mesa-dri-devel
@@ -20,7 +19,6 @@ Mesa-libEGL1
 Mesa-libEGL1-32bit
 Mesa-libGL-devel
 Mesa-libGL1
-Mesa-libGL1-32bit
 Mesa-libGLESv1_CM-devel
 Mesa-libGLESv1_CM1
 Mesa-libGLESv2-2
@@ -96,9 +94,7 @@ agrep
 aisleriot
 aisleriot-lang
 aisleriot-themes
-akonadi
 akonadi-runtime
-akregator
 alacarte
 alacarte-lang
 alevt
@@ -152,6 +148,7 @@ apache-commons-httpclient
 apache-commons-io
 apache-commons-lang
 apache-commons-logging
+apache-rpm-macros-control
 apache2
 apache2-devel
 apache2-doc
@@ -283,7 +280,6 @@ bison
 bitmap
 bitstream-vera-fonts
 blinken
-blogilo
 bluedevil5
 bluedevil5-lang
 bluez
@@ -1101,7 +1097,6 @@ gtk3-tools
 gtkiterm
 gtksourceview-devel
 gtksourceview-lang
-gtksourceview2-lang
 gtkspell-lang
 gtkspell3-lang
 gucharmap
@@ -1313,10 +1308,8 @@ kaccounts-integration
 kactivities5
 kactivities5-devel
 kactivities5-imports
-kaddressbook
 kakasi
 kakasi-dict
-kalarm
 kalgebra
 kalzium
 kanagram
@@ -1418,7 +1411,6 @@ kdelibs4support-devel
 kdelibs4support-lang
 kdenetwork4-filesharing
 kdepasswd
-kdepim4
 kdepim4-runtime
 kdepimlibs4
 kdesdk4-scripts
@@ -1514,7 +1506,6 @@ kiwi-pxeboot
 kiwi-templates
 kiwi-tools
 kjobwidgets-devel
-kjots
 kjs-devel
 kjsembed-devel
 kjumpingcube
@@ -1523,7 +1514,6 @@ klinkstatus
 klogd
 kmag
 kmahjongg
-kmail
 kmediaplayer-devel
 kmenuedit5
 kmenuedit5-lang
@@ -1537,8 +1527,6 @@ kmplot
 knavalbattle
 knetwalk
 knewstuff-devel
-knode
-knotes
 knotifications-devel
 knotifyconfig-devel
 kolf
@@ -1551,11 +1539,9 @@ konquest
 konsole
 konsole-part
 konsole4-part
-kontact
 konversation
 konversation-lang
 kopete
-korganizer
 kpackage
 kpackage-devel
 kpackage-lang
@@ -1612,8 +1598,6 @@ ktexteditor-devel
 ktexteditor-lang
 ktextwidgets-devel
 ktimer
-ktimetracker
-ktnef
 ktouch
 ktp-accounts-kcm
 ktp-approver
@@ -1793,7 +1777,6 @@ libKF5XmlRpcClient5
 libKF5XmlRpcClient5-lang
 libKScreenLocker5
 libLLVM
-libLLVM-32bit
 libMagick++-6_Q16-3
 libMagickCore-6_Q16-1
 libMagickWand-6_Q16-1
@@ -2042,7 +2025,6 @@ libavogadro1
 libavutil54
 libbabl-0_1-0
 libbaloofiles4
-libbaloopim4
 libbalooqueryparser4
 libbaloowidgets4
 libbase
@@ -2222,13 +2204,9 @@ libdrm-devel
 libdrm2
 libdrm2-32bit
 libdrm_amdgpu1
-libdrm_amdgpu1-32bit
 libdrm_intel1
-libdrm_intel1-32bit
 libdrm_nouveau2
-libdrm_nouveau2-32bit
 libdrm_radeon1
-libdrm_radeon1-32bit
 libdv4
 libdvdnav4
 libdvdread-devel
@@ -2524,7 +2502,6 @@ libgtkhex-3-0
 libgtkimageview0
 libgtkmm-2_4-1
 libgtkmm-3_0-1
-libgtksourceview-2_0-0
 libgtksourceview-3_0-1
 libgtksourceviewmm-3_0-0
 libgtkspell0
@@ -2645,7 +2622,6 @@ libkdegames
 libkdegames-devel
 libkdegames4
 libkdegames6
-libkdepim4
 libkdepimlibs4
 libkdepimlibs4-devel
 libkdevplatform-devel
@@ -2841,6 +2817,7 @@ libnettle4
 libnettle4-32bit
 libnewt0_52
 libnfnetlink0
+libnghttp2-14
 libnice10
 libnilfs0
 libnilfscleaner0
@@ -2924,7 +2901,6 @@ libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
-libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -3175,6 +3151,7 @@ libscg1_0
 libschily1_0
 libschroedinger-1_0-0
 libseccomp2
+libseccomp2-32bit
 libsecret-1-0
 libsecret-devel
 libsecret-lang
@@ -3276,6 +3253,8 @@ libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample1
 libswscale3
+libsystemd0
+libsystemd0-32bit
 libtag-devel
 libtag-extras1
 libtag1
@@ -3380,6 +3359,9 @@ libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
+libverto-devel
+libverto1
+libverto1-32bit
 libvigraimpex5
 libvisio-0_1-1
 libvisual
@@ -3468,7 +3450,6 @@ libxcb-dri2-0-32bit
 libxcb-dri3-0
 libxcb-dri3-0-32bit
 libxcb-glx0
-libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
@@ -3648,8 +3629,6 @@ mcelog
 mdadm
 meanwhile-devel
 media-player-info
-meld
-meld-lang
 memtest86+
 menu-cache
 mercurial
@@ -4459,6 +4438,7 @@ pragha-lang
 pragha-plugins
 prctl
 presentproto-devel
+primus-32bit
 printproto-devel
 privoxy
 procinfo
@@ -4538,7 +4518,6 @@ python-gpsd
 python-gstreamer-0_10
 python-gtk
 python-gtk-devel
-python-gtksourceview
 python-httplib2
 python-ibus
 python-idna
@@ -4887,7 +4866,7 @@ svg-schema
 sweeper
 swell-foop
 swell-foop-lang
-swig
+swig3
 synapse
 synapse-lang
 sysconfig

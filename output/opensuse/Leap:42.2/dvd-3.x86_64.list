@@ -1,7 +1,6 @@
 aaa_base
 aaa_base-extras
 aaa_base-malloccheck
-acl
 adjtimex
 audit
 augeas
@@ -52,6 +51,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+exim
 expat
 fdupes
 file
@@ -199,6 +199,7 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
+libmysqlclient18
 libncurses5
 libncurses6
 libndr-krb5pac0
@@ -219,6 +220,7 @@ libpcre1
 libpng16-16
 libpolkit0
 libpopt0
+libpq5
 libprocps3
 libproxy1
 libpth20
@@ -238,18 +240,19 @@ libseccomp2
 libselinux1
 libsemanage1
 libsepol1
-libsgutils2-2
 libsmartcols1
 libsmbclient0
 libsmbconf0
 libsmbldap0
 libsnapper3
 libsolv-tools
+libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
 libstorage-ruby
 libstorage7
+libsystemd0
 libtalloc2
 libtasn1
 libtasn1-6
@@ -266,6 +269,7 @@ libusb-1_0-0
 libustr-1_0-1
 libutempter0
 libuuid1
+libverto1
 libwbclient0
 libwicked-0-6
 libwrap0
@@ -286,9 +290,6 @@ logrotate
 lsof
 lsscsi
 lvm2
-m4
-make
-metamail
 mkfontdir
 mkfontscale
 mozilla-nspr
@@ -373,10 +374,7 @@ pkg-config
 polkit
 polkit-default-privs
 prctl
-procmail
 procps
-psmisc
-psmisc-lang
 pytalloc
 python
 python-base
@@ -404,15 +402,10 @@ samba-libs
 samba-winbind
 sed
 sed-lang
-sendmail
-sg3_utils
 shadow
 shared-mime-info
 shared-mime-info-lang
-sharutils
-sharutils-lang
 shim
-site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -423,7 +416,6 @@ sysconfig-netconfig
 syslinux
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
