@@ -18,6 +18,7 @@ job lock name kdelibs3
 job lock name kdelibs3-default-style
 job install provides pattern() = kde_office
 job install provides pattern() = rest_cd_kde
+job lock name patterns-openSUSE-kde_games
 job install name openSUSE-release-livecd-kde
 
 job install name plasma5-desktop-branding-openSUSE
