@@ -156,6 +156,7 @@ espeak
 ethtool
 eventviews
 expat
+farstream-data
 fdupes
 file
 file-magic
@@ -213,7 +214,11 @@ grub2-systemd-sleep-plugin
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
+gstreamer-libnice
+gstreamer-plugins-bad
+gstreamer-plugins-bad-lang
 gstreamer-plugins-base
+gstreamer-plugins-farstream
 gstreamer-plugins-good
 gtk2-branding-openSUSE
 gtk2-data
@@ -268,6 +273,7 @@ jfsutils
 k3b
 k3b-lang
 kaccounts-integration
+kaccounts-providers
 kactivities5-imports
 kactivitymanagerd
 kaddressbook5
@@ -386,6 +392,7 @@ ksysguard5
 ksysguard5-lang
 ktexteditor
 ktexteditor-lang
+ktp-accounts-kcm
 kwallet-tools
 kwallet-tools-lang
 kwalletd5
@@ -572,6 +579,7 @@ libQtQuick5
 libQtWebKit4
 libSDL-1_2-0
 libSM6
+libSoundTouch0
 libX11-6
 libX11-data
 libX11-xcb1
@@ -614,6 +622,7 @@ libarchive13
 libasm1
 libasound2
 libaspell15
+libass5
 libassuan0
 libatasmart4
 libatk-1_0-0
@@ -629,6 +638,8 @@ libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libavahi-glib1
+libavahi-gobject0
 libavcodec56
 libavformat56
 libavutil54
@@ -655,6 +666,7 @@ libcap2
 libcdda_interface0
 libcdda_paranoia0
 libcdio16
+libchromaprint1
 libcolord2
 libcom_err2
 libcpupower0
@@ -683,6 +695,8 @@ libdrm_amdgpu1
 libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
+libdv4
+libdvdnav4
 libdvdread4
 libdw1
 libedit0
@@ -702,10 +716,12 @@ libexiv2-14
 libexpat1
 libext2fs2
 libfam0-gamin
+libfarstream-0_2-5
 libfdisk1
 libffi4
 libfftw3-3
 libfltk1
+libfluidsynth1
 libfont-specimen0
 libfontenc1
 libfreebl3
@@ -713,6 +729,7 @@ libfreetype6
 libfribidi0
 libftgl2
 libfuse2
+libgadu3
 libgbm1
 libgc1
 libgcc_s1
@@ -728,6 +745,7 @@ libgio-2_0-0
 libgirepository-1_0-1
 libgit2-24
 libglib-2_0-0
+libgme0
 libgmodule-2_0-0
 libgmp10
 libgnome-keyring0
@@ -745,10 +763,19 @@ libgps22
 libgraphite2-3
 libgravatar
 libgsm1
+libgssdp-1_0-3
+libgstadaptivedemux-1_0-0
 libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstbadaudio-1_0-0
+libgstbadbase-1_0-0
+libgstbadvideo-1_0-0
+libgstbasecamerabinsrc-1_0-0
+libgstcodecparsers-1_0-0
 libgstfft-1_0-0
+libgstgl-1_0-0
+libgstmpegts-1_0-0
 libgstpbutils-1_0-0
 libgstphotography-1_0-0
 libgstreamer-1_0-0
@@ -757,13 +784,17 @@ libgstrtp-1_0-0
 libgstrtsp-1_0-0
 libgstsdp-1_0-0
 libgsttag-1_0-0
+libgsturidownloader-1_0-0
 libgstvideo-1_0-0
+libgstwayland-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
 libguess1
 libguile-2_0-22
+libgupnp-1_0-4
+libgupnp-igd-1_0-4
 libgypsy0
 libharfbuzz0
 libhogweed4
@@ -827,7 +858,9 @@ libksuseinstall1
 libksysguard5
 libksysguard5-helper
 libksysguard5-lang
+libktpaccountskcminternal9
 libkwalletbackend5-5
+liblash1
 liblastfm1
 liblcms2-2
 libldap-2_4-2
@@ -839,6 +872,7 @@ liblmdb-0_9_17
 liblockdev1
 libloudmouth-1-0
 liblqr-1-0
+liblrdf2
 libltdl7
 liblua5_3
 liblvm2app2_2
@@ -850,10 +884,15 @@ libmagic1
 libmbim-glib4
 libmetalink3
 libmicrohttpd12
+libminiupnpc16
+libmission-control-plugins0
+libmjpegutils-2_0-0
 libmm-glib0
+libmms0
 libmng2
 libmnl0
 libmodman1
+libmodplug1
 libmount1
 libmozjs-17_0
 libmpc3
@@ -879,9 +918,11 @@ libnettle6
 libnewt0_52
 libnfnetlink0
 libnghttp2-14
+libnice10
 libnl-config
 libnl3-200
 libnm-glib-vpn1
+libnm-glib4
 libnm-util2
 libnm0
 libnotify-tools
@@ -929,6 +970,7 @@ libportaudio2
 libpq5
 libprison0
 libprocps5
+libprotobuf-c1
 libproxy1
 libproxy1-config-kde
 libproxy1-networkmanager
@@ -936,6 +978,9 @@ libproxy1-pacrunner-webkit
 libpsl5
 libpulse-mainloop-glib0
 libpulse0
+libpurple
+libpurple-branding-openSUSE
+libpurple-lang
 libpwquality1
 libpython2_7-1_0
 libpython3_5m1_0
@@ -957,6 +1002,8 @@ libqt5-qtgraphicaleffects
 libqt5-qtimageformats
 libqt5-qtquickcontrols
 libqt5-qttools
+libquicktime0
+libraptor2-0
 libraw1394-11
 libraw15
 librcc0
@@ -976,6 +1023,7 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
+libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libselinux1
@@ -983,7 +1031,10 @@ libsemanage1
 libsensors4
 libsepol1
 libsgutils2-1_42-2
+libsignon-glib1
 libsignon-qt5-1
+libsilc-1_1-4
+libsilcclient-1_1-4
 libslang2
 libsmartcols1
 libsmbclient0
@@ -992,11 +1043,15 @@ libsmbldap0
 libsmputils1-1
 libsnapper3
 libsndfile1
+libsocks0
+libsofia-sip-ua-glib3
+libsofia-sip-ua0
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
 libsox3
 libsoxr0
+libspandsp2
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -1006,6 +1061,7 @@ libstdc++6
 libstorage-ruby
 libstorage7
 libswresample1
+libswscale3
 libsystemd0
 libtag-extras1
 libtag1
@@ -1015,6 +1071,8 @@ libtasn1
 libtasn1-6
 libtdb1
 libteamdctl0
+libtelepathy-glib0
+libtelepathy-qt5-0
 libtevent-util0
 libtevent0
 libthai-data
@@ -1108,6 +1166,7 @@ libyui7
 libz1
 libzio1
 libzip4
+libzvbi0
 libzypp
 linuxconsoletools
 lockdev
@@ -1411,6 +1470,7 @@ setxkbmap
 sg3_utils
 shadow
 shared-mime-info
+silc-toolkit
 smartmontools
 smp_utils
 snapper
@@ -1444,6 +1504,13 @@ systemsettings5-lang
 sysvinit-tools
 taglib
 tar
+telepathy-accounts-signon
+telepathy-gabble
+telepathy-haze
+telepathy-idle
+telepathy-mission-control
+telepathy-rakia
+telepathy-salut
 terminfo-base
 thin-provisioning-tools
 tigervnc
@@ -1569,7 +1636,6 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
 yast2-proxy
-yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
