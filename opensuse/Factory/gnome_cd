@@ -14,6 +14,8 @@ job install provides pattern() = rest_cd_gnome
 job install name openSUSE-release-livecd-gnome
 job install name branding-openSUSE
 job install name gconf2-branding-openSUSE
+# the live isos are still based on gfxboot
+job install name gfxboot
 #job install name rhythmbox
 
 job install provides libyui-qt-pkg

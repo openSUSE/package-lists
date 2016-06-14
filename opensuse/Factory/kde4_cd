@@ -31,6 +31,9 @@ job install name baloo5-tools
 job install name NetworkManager
 job lock name cdrecord
 
+# the live isos are still based on gfxboot
+job install name gfxboot
+
 #job install name libreoffice-writer
 job lock name libreoffice
 
