@@ -161,7 +161,6 @@ libXau6
 libXcomposite1
 libXcursor1
 libXdamage1
-libXevie1
 libXext6
 libXfixes3
 libXft2
@@ -209,6 +208,7 @@ libcroco-0_6-3
 libcryptsetup4
 libcurl4
 libdaemon0
+libdatrie1
 libdb-4_8
 libdbus-1-3
 libdcerpc-binding0
@@ -309,10 +309,10 @@ libpciaccess0
 libpcre1
 libpipeline1
 libpixman-1-0
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
+libply-boot-client4
+libply-splash-core4
+libply-splash-graphics4
+libply4
 libpng16-16
 libpolkit0
 libpopt0
@@ -361,6 +361,8 @@ libtasn1-6
 libtdb1
 libtevent-util0
 libtevent0
+libthai-data
+libthai0
 libtidyp-1_04-0
 libtiff5
 libtirpc-netconfig
@@ -438,7 +440,6 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
-pango-tools
 parted
 pciutils
 pciutils-ids
@@ -506,6 +507,7 @@ pinentry
 pkg-config
 plymouth
 plymouth-dracut
+plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
 polkit
@@ -519,12 +521,10 @@ pytalloc
 python
 python-base
 python-configobj
-python-cups
-python-cupshelpers
 python-decorator
 python-gobject
+python-gobject-Gdk
 python-gobject-cairo
-python-pycurl
 python-pyudev
 python-six
 python-solv
@@ -536,7 +536,9 @@ python3-bottle
 python3-cairo
 python3-coverage
 python3-cups
+python3-cupshelpers
 python3-gobject
+python3-gobject-Gdk
 python3-gobject-cairo
 python3-nose
 python3-pip
@@ -682,6 +684,7 @@ yast2-tune
 yast2-update
 yast2-users
 yast2-vm
+yast2-vpn
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools

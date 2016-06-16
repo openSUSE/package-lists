@@ -7,6 +7,7 @@ ModemManager
 MozillaFirefox
 MozillaFirefox-branding-openSUSE
 NetworkManager
+NetworkManager-branding-upstream
 NetworkManager-openvpn
 NetworkManager-openvpn-lang
 NetworkManager-pptp
@@ -16,7 +17,6 @@ NetworkManager-vpnc-lang
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
-PackageKit-browser-plugin
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 PackageKit-lang
@@ -257,7 +257,6 @@ gstreamer-plugins-base
 gstreamer-plugins-base-lang
 gstreamer-plugins-good
 gstreamer-plugins-good-lang
-gtk2-branding-openSUSE
 gtk2-data
 gtk2-immodule-amharic
 gtk2-immodule-inuktitut
@@ -578,7 +577,6 @@ libXcomposite1
 libXcursor1
 libXdamage1
 libXdmcp6
-libXevie1
 libXext6
 libXfixes3
 libXfont1
@@ -674,6 +672,7 @@ libcryptmount0
 libcryptsetup4
 libcurl4
 libdaemon0
+libdatrie1
 libdb-4_8
 libdbus-1-3
 libdbusmenu-qt2
@@ -904,6 +903,7 @@ libnuma1
 libogg0
 liboggkate1
 libopenal1
+libopenjp2-7
 libopenjpeg1
 libopenssl1_0_0
 libopus0
@@ -929,24 +929,24 @@ libpipeline1
 libpixman-1-0
 libpkcs11-helper1
 libplist3
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
+libply-boot-client4
+libply-splash-core4
+libply-splash-graphics4
+libply4
 libpng16-16
 libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit0
 libpoppler-qt4-4
 libpoppler-qt5-1
-libpoppler44
+libpoppler59
 libpopt0
 libportaudio2
 libprison0
 libprocps3
 libprotobuf-c1
 libproxy1
-libproxy1-config-kde4
+libproxy1-config-kde
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpth20
@@ -1041,9 +1041,12 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtdb1
+libteamdctl0
 libtelepathy-qt4-2
 libtevent-util0
 libtevent0
+libthai-data
+libthai0
 libtheora0
 libtheoradec1
 libtheoraenc1
@@ -1223,7 +1226,6 @@ pam-config
 pam_krb5
 pam_ldap
 pam_mount
-pango-tools
 parallel-printer-support
 parted
 patterns-openSUSE-apparmor
@@ -1349,6 +1351,7 @@ plasma5-workspace-libs
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
+plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
 polkit
@@ -1383,11 +1386,10 @@ python-base
 python-cffi
 python-configobj
 python-cryptography
-python-cups
-python-cupshelpers
 python-decorator
 python-enum34
 python-gobject
+python-gobject-Gdk
 python-gobject-cairo
 python-idna
 python-ipaddress
@@ -1395,7 +1397,6 @@ python-keyring
 python-pyOpenSSL
 python-pyasn1
 python-pycparser
-python-pycurl
 python-pyudev
 python-six
 python-smbios
@@ -1408,7 +1409,9 @@ python3-bottle
 python3-cairo
 python3-coverage
 python3-cups
+python3-cupshelpers
 python3-gobject
+python3-gobject-Gdk
 python3-gobject-cairo
 python3-nose
 python3-pip
@@ -1468,7 +1471,6 @@ snapper-zypp-plugin
 sni-qt
 solid-imports
 solid-tools
-sound-theme-freedesktop
 spectacle
 spice-vdagent
 sssd
@@ -1702,6 +1704,7 @@ yast2-tune
 yast2-update
 yast2-users
 yast2-vm
+yast2-vpn
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings

@@ -126,6 +126,8 @@ glibc
 glibc-32bit
 glibc-extra
 glibc-locale-32bit
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
 gnome-online-accounts
@@ -215,7 +217,6 @@ libXcomposite1
 libXcursor1
 libXdamage1
 libXdmcp6
-libXevie1
 libXext6
 libXfixes3
 libXfont1
@@ -266,12 +267,6 @@ libburnia-tools
 libbz2-1
 libcairo-gobject2
 libcairo2
-libcanberra-gtk-module-common
-libcanberra-gtk0
-libcanberra-gtk2-module
-libcanberra-gtk3-0
-libcanberra-gtk3-module
-libcanberra0
 libcap-ng0
 libcap2
 libcdda_interface0
@@ -288,6 +283,7 @@ libcroco-0_6-3
 libcryptsetup4
 libcurl4
 libdaemon0
+libdatrie1
 libdb-4_8
 libdbus-1-3
 libdcerpc-binding0
@@ -329,6 +325,7 @@ libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
+libgdata22
 libgdbm4
 libgdk_pixbuf-2_0-0
 libgio-2_0-0
@@ -410,6 +407,7 @@ libnetapi0
 libnetfilter_conntrack3
 libnettle4
 libnfnetlink0
+libnfs8
 libnl-config
 libnl3-200
 libnotify-tools
@@ -417,6 +415,7 @@ libnotify4
 libnsl2
 libntfs-3g84
 libnuma1
+liboauth0
 libogg0
 libopenssl1_0_0
 liborc-0_4-0
@@ -432,10 +431,10 @@ libpcre16-0
 libpipeline1
 libpixman-1-0
 libplist3
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
+libply-boot-client4
+libply-splash-core4
+libply-splash-graphics4
+libply4
 libpng16-16
 libpolkit0
 libpopt0
@@ -494,6 +493,8 @@ libtdb1
 libtelepathy-glib0
 libtevent-util0
 libtevent0
+libthai-data
+libthai0
 libtheoradec1
 libtheoraenc1
 libtidyp-1_04-0
@@ -515,7 +516,6 @@ libverto1
 libvisual
 libvorbis0
 libvorbisenc2
-libvorbisfile3
 libvpx1
 libwayland-client0
 libwayland-server0
@@ -604,7 +604,6 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
-pango-tools
 parallel-printer-support
 parted
 pciutils
@@ -673,6 +672,7 @@ pinentry
 pkg-config
 plymouth
 plymouth-dracut
+plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
 polkit
@@ -692,18 +692,16 @@ python-base
 python-cffi
 python-configobj
 python-cryptography
-python-cups
-python-cupshelpers
 python-decorator
 python-enum34
 python-gobject
+python-gobject-Gdk
 python-gobject-cairo
 python-idna
 python-ipaddress
 python-pyOpenSSL
 python-pyasn1
 python-pycparser
-python-pycurl
 python-pyudev
 python-six
 python-solv
@@ -715,7 +713,9 @@ python3-bottle
 python3-cairo
 python3-coverage
 python3-cups
+python3-cupshelpers
 python3-gobject
+python3-gobject-Gdk
 python3-gobject-cairo
 python3-nose
 python3-pip
@@ -758,7 +758,6 @@ shim
 smp_utils
 snapper
 snapper-zypp-plugin
-sound-theme-freedesktop
 strace
 sudo
 suse-module-tools
@@ -910,6 +909,7 @@ yast2-tune
 yast2-update
 yast2-users
 yast2-vm
+yast2-vpn
 yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings

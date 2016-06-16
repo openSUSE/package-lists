@@ -8,6 +8,8 @@ MozillaFirefox
 MozillaFirefox-branding-openSUSE
 MozillaFirefox-translations-common
 NetworkManager
+NetworkManager-branding-upstream
+NetworkManager-connection-editor
 NetworkManager-gnome
 PackageKit-gstreamer-plugin
 SuSEfirewall2
@@ -24,6 +26,7 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-plugins
+alsa-plugins-pulse
 alsa-utils
 aspell
 aspell-de
@@ -107,7 +110,6 @@ e2fsprogs
 efibootmgr
 elfutils
 elilo
-esound-daemon
 espeak
 ethtool
 exo-tools
@@ -160,6 +162,7 @@ gnome-keyring
 gnome-keyring-pam
 gnome-online-accounts
 gnome-themes-accessibility
+gnome-themes-accessibility-gtk2
 gnu-unifont-bitmap-fonts
 gnu_ddrescue
 google-droid-fonts
@@ -272,7 +275,6 @@ libXcomposite1
 libXcursor1
 libXdamage1
 libXdmcp6
-libXevie1
 libXext6
 libXfixes3
 libXfont1
@@ -359,6 +361,7 @@ libcryptsetup4
 libcsplit1
 libcurl4
 libdaemon0
+libdatrie1
 libdb-4_8
 libdbus-1-3
 libdcerpc-binding0
@@ -392,6 +395,7 @@ libfallocate0
 libfam0-gamin
 libfdisk1
 libffi4
+libfftw3-3
 libfipscheck1
 libfltk1
 libfontenc1
@@ -410,9 +414,9 @@ libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
+libgdata22
 libgdbm4
 libgdk_pixbuf-2_0-0
-libgeoclue0
 libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
@@ -427,6 +431,7 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
+libgomp1
 libgpg-error0
 libgphoto2-6
 libgraphite2-3
@@ -513,6 +518,7 @@ libnetfilter_conntrack3
 libnettle4
 libnewt0_52
 libnfnetlink0
+libnfs8
 libnilfs0
 libnilfscleaner0
 libnilfsgc0
@@ -530,6 +536,7 @@ libnsl2
 libnsssharedhelper0
 libntfs-3g84
 libnuma1
+liboauth0
 libogg0
 libopenjp2-7
 libopenraw1
@@ -548,20 +555,21 @@ libpcre16-0
 libpipeline1
 libpixman-1-0
 libplist3
-libply-boot-client2
-libply-splash-core2
-libply-splash-graphics2
-libply2
+libply-boot-client4
+libply-splash-core4
+libply-splash-graphics4
+libply4
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler44
+libpoppler59
 libpopt0
 libportaudio2
 libprocps3
 libproxy1
 libproxy1-networkmanager
 libpth20
+libpulse-mainloop-glib0
 libpulse0
 libpython2_7-1_0
 libqmi-glib1
@@ -605,7 +613,9 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
+libsoxr0
 libspeex1
+libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
@@ -618,9 +628,12 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtdb1
+libteamdctl0
 libtelepathy-glib0
 libtevent-util0
 libtevent0
+libthai-data
+libthai0
 libtheoradec1
 libtheoraenc1
 libthunarx-2-0
@@ -666,6 +679,7 @@ libwbclient0
 libwebkit2gtk-4_0-37
 libwebkitgtk-1_0-0
 libwebp5
+libwebrtc_audio_processing0
 libwicked-0-6
 libwnck-1-22
 libwrap0
@@ -789,7 +803,6 @@ pam-modules
 pam_krb5
 pam_ldap
 pam_mount
-pango-tools
 parted
 patterns-openSUSE-base
 patterns-openSUSE-enhanced_base
@@ -857,6 +870,7 @@ pkg-config
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
+plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
 polkit
@@ -868,6 +882,10 @@ pptp
 procps
 psmisc
 pullin-bcm43xx-firmware
+pulseaudio
+pulseaudio-bash-completion
+pulseaudio-esound-compat
+pulseaudio-utils
 pytalloc
 python
 python-base
@@ -877,6 +895,7 @@ python-cryptography
 python-decorator
 python-enum34
 python-gobject
+python-gobject-Gdk
 python-gobject-cairo
 python-idna
 python-ipaddress
@@ -900,6 +919,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rtkit
 ruby
 ruby-common
 ruby2.1
@@ -931,7 +951,6 @@ smbios-utils-python
 smp_utils
 snapper
 snapper-zypp-plugin
-sound-theme-freedesktop
 spice-vdagent
 strace
 sudo
@@ -961,6 +980,10 @@ translation-update
 translation-update-de
 tumbler
 tuned
+typelib-1_0-Atk-1_0
+typelib-1_0-GdkPixbuf-2_0
+typelib-1_0-Gtk-2_0
+typelib-1_0-Pango-1_0
 ucode-amd
 ucode-intel
 udev
