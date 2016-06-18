@@ -307,7 +307,6 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
-bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -441,7 +440,7 @@ compositeproto-devel
 coreutils
 cpio
 cpp
-cpp5
+cpp6
 cppunit-devel
 cpupower
 cracklib
@@ -570,6 +569,7 @@ doxygen
 dracut
 dragonplayer
 drbd
+drbd-kmp-default
 drbd-utils
 dri2proto-devel
 dri3proto-devel
@@ -731,14 +731,14 @@ gcc-gij
 gcc-info
 gcc-java
 gcc-objc
-gcc5
-gcc5-c++
-gcc5-fortran
-gcc5-gij
-gcc5-info
-gcc5-java
-gcc5-locale
-gcc5-objc
+gcc6
+gcc6-c++
+gcc6-fortran
+gcc6-gij
+gcc6-info
+gcc6-java
+gcc6-locale
+gcc6-objc
 gccmakedep
 gcin
 gcin-branding-openSUSE
@@ -1998,7 +1998,7 @@ libarchive13
 libaria2-0
 libart_lgpl-devel
 libart_lgpl_2-2
-libasan2
+libasan3
 libasm1
 libasound2
 libasound2-32bit
@@ -2250,7 +2250,6 @@ libdrm_nouveau2-32bit
 libdrm_radeon1
 libdrm_radeon1-32bit
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
@@ -2259,7 +2258,6 @@ libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2375,11 +2373,10 @@ libgc1
 libgcab-1_0-0
 libgcc_s1
 libgcc_s1-32bit
-libgcc_s1-gcc6-32bit
 libgcj-devel
-libgcj-devel-gcc5
-libgcj-gcc5
-libgcj-jar-gcc5
+libgcj-devel-gcc6
+libgcj-gcc6
+libgcj-jar-gcc6
 libgcj_bc1
 libgck-1-0
 libgck-devel
@@ -2513,8 +2510,6 @@ libgravatar
 libgrilo-0_3-0
 libgrlnet-0_3-0
 libgrlpls-0_3-0
-libgsasl-lang
-libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsl0
@@ -2818,7 +2813,6 @@ libmal1
 libmarblewidget-qt5-24
 libmarblewidget22
 libmate-desktop-2-17
-libmatroska6
 libmbedtls9
 libmbim-glib4
 libmcrypt
@@ -2859,8 +2853,8 @@ libmpcdec-devel
 libmpcdec5
 libmpd1
 libmpfr4
-libmpx0
-libmpxwrappers0
+libmpx2
+libmpxwrappers2
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -2936,7 +2930,6 @@ libnsl2
 libnsl2-32bit
 libnsssharedhelper0
 libntfs-3g87
-libntlm0
 libnuma1
 liboauth-devel
 liboauth0
@@ -3350,8 +3343,9 @@ libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
 libstdc++6-32bit
-libstdc++6-devel-gcc5
-libstdc++6-gcc6-locale
+libstdc++6-devel-gcc6
+libstdc++6-gcc5-32bit
+libstdc++6-gcc5-locale
 libstoken1
 libstorage-devel
 libstorage-ruby
@@ -3509,8 +3503,6 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -3865,8 +3857,6 @@ mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
-msmtp
-msmtp-mta
 mt_st
 mtdev-devel
 mtools
@@ -4502,7 +4492,7 @@ pfscalibration
 pfstmo
 pfstools
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon-devel
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
@@ -4641,6 +4631,7 @@ pragha-plugins
 prctl
 presage-data
 presentproto-devel
+primus-32bit
 printproto-devel
 privoxy
 procinfo
@@ -4841,6 +4832,7 @@ qemu-ksm
 qemu-kvm
 qemu-lang
 qemu-linux-user
+qemu-ovmf-x86_64
 qemu-ppc
 qemu-s390
 qemu-seabios
@@ -7691,8 +7683,6 @@ virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
-vlc-noX
-vlc-noX-lang
 vlgothic-fonts
 vlock
 vm-install
@@ -7721,7 +7711,7 @@ wine-32bit
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-gtk
+wireshark-ui-qt
 wodim
 wol
 wondershaper
@@ -7911,9 +7901,8 @@ xlockmore
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver11
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

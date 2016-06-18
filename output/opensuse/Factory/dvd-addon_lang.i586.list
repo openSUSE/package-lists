@@ -167,7 +167,6 @@ aspell-gl
 aspell-gu
 aspell-gv
 aspell-he
-aspell-hi
 aspell-hr
 aspell-hu
 aspell-hy
@@ -185,6 +184,7 @@ aspell-mi
 aspell-mk
 aspell-ml
 aspell-mn
+aspell-mr
 aspell-ms
 aspell-mt
 aspell-nb
@@ -405,7 +405,7 @@ compositeproto-devel
 coreutils
 cpio
 cpp
-cpp5
+cpp6
 cpupower
 cracklib
 cracklib-dict-full
@@ -612,11 +612,11 @@ gcc-c++
 gcc-gij
 gcc-info
 gcc-java
-gcc5
-gcc5-c++
-gcc5-gij
-gcc5-info
-gcc5-java
+gcc6
+gcc6-c++
+gcc6-gij
+gcc6-info
+gcc6-java
 gccmakedep
 gcolor2
 gconf-polkit
@@ -1623,7 +1623,7 @@ libapr1-devel
 libarchive13
 libaria2-0
 libart_lgpl_2-2
-libasan2
+libasan3
 libasm1
 libasound2
 libaspell15
@@ -1655,6 +1655,7 @@ libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
 libavahi-ui-gtk3-0
+libavc1394-0
 libavcodec56
 libavformat56
 libavogadro1
@@ -1707,6 +1708,7 @@ libburnia-tools
 libbz2-1
 libbz2-devel
 libbzrtp0
+libcaca0
 libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
@@ -1810,12 +1812,14 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
+libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
+libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -1903,9 +1907,9 @@ libgc1
 libgcab-1_0-0
 libgcc_s1
 libgcj-devel
-libgcj-devel-gcc5
-libgcj-gcc5
-libgcj-jar-gcc5
+libgcj-devel-gcc6
+libgcj-gcc6
+libgcj-jar-gcc6
 libgcj_bc1
 libgck-1-0
 libgck-devel
@@ -2204,6 +2208,7 @@ libmal-devel
 libmal1
 libmarblewidget-qt5-24
 libmarblewidget22
+libmatroska6
 libmbedtls9
 libmbim-glib4
 libmeanwhile1
@@ -2229,8 +2234,8 @@ libmozjs-24
 libmpc3
 libmpcdec5
 libmpfr4
-libmpx0
-libmpxwrappers0
+libmpx2
+libmpxwrappers2
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -2460,6 +2465,7 @@ libreoffice-calc-extensions
 libreoffice-draw
 libreoffice-filters-optional
 libreoffice-gnome
+libreoffice-gtk3
 libreoffice-icon-theme-breeze
 libreoffice-icon-theme-galaxy
 libreoffice-icon-theme-hicontrast
@@ -2563,6 +2569,7 @@ libsepol1
 libserf-1-1
 libserializer
 libsgutils2-1_42-2
+libshout3
 libsidplay1
 libsigc-2_0-0
 libsignon-glib1
@@ -2613,7 +2620,7 @@ libssh4
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
-libstdc++6-devel-gcc5
+libstdc++6-devel-gcc6
 libstoken1
 libstorage-ruby
 libstorage7
@@ -2723,6 +2730,8 @@ libvirt-glib-1_0-0
 libvirt-python
 libvisio-0_1-1
 libvisual
+libvlc5
+libvlccore8
 libvmtools0
 libvncclient0
 libvoikko1
@@ -3089,7 +3098,6 @@ nss_ldap
 ntfs-3g
 ntfsprogs
 ntp
-numad
 numlockx
 nuoveXT2-icon-theme
 obconf
@@ -3399,7 +3407,7 @@ permissions
 pesign
 pesign-obs-integration
 phalanx
-phonon-backend-gstreamer
+phonon-backend-vlc
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
 php5
@@ -3967,6 +3975,8 @@ virt-manager
 virt-manager-common
 virt-viewer
 vlan
+vlc-noX
+vlc-noX-lang
 vm-install
 vorbis-tools
 vpnc
@@ -3988,7 +3998,7 @@ wicked-service
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-gtk
+wireshark-ui-qt
 wodim
 wol
 words

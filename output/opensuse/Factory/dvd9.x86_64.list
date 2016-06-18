@@ -331,7 +331,7 @@ compositeproto-devel
 coreutils
 cpio
 cpp
-cpp5
+cpp6
 cpupower
 cracklib
 cracklib-dict-full
@@ -552,11 +552,11 @@ gcc-c++
 gcc-gij
 gcc-info
 gcc-java
-gcc5
-gcc5-c++
-gcc5-gij
-gcc5-info
-gcc5-java
+gcc6
+gcc6-c++
+gcc6-gij
+gcc6-info
+gcc6-java
 gccmakedep
 gcolor2
 gconf-polkit
@@ -1556,7 +1556,7 @@ libapr1-devel
 libarchive13
 libaria2-0
 libart_lgpl_2-2
-libasan2
+libasan3
 libasm1
 libasound2
 libasound2-32bit
@@ -1595,7 +1595,6 @@ libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
 libavahi-ui-gtk3-0
-libavc1394-0
 libavcodec56
 libavformat56
 libavogadro1
@@ -1655,7 +1654,6 @@ libbz2-1
 libbz2-1-32bit
 libbz2-devel
 libbzrtp0
-libcaca0
 libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
@@ -1787,14 +1785,12 @@ libdrm_nouveau2-32bit
 libdrm_radeon1
 libdrm_radeon1-32bit
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -1890,9 +1886,9 @@ libgcab-1_0-0
 libgcc_s1
 libgcc_s1-32bit
 libgcj-devel
-libgcj-devel-gcc5
-libgcj-gcc5
-libgcj-jar-gcc5
+libgcj-devel-gcc6
+libgcj-gcc6
+libgcj-jar-gcc6
 libgcj_bc1
 libgck-1-0
 libgck-devel
@@ -2231,7 +2227,6 @@ libmal1
 libmarblewidget-qt5-24
 libmarblewidget22
 libmate-desktop-2-17
-libmatroska6
 libmbedtls9
 libmbim-glib4
 libmeanwhile1
@@ -2260,8 +2255,8 @@ libmozjs-24
 libmpc3
 libmpcdec5
 libmpfr4
-libmpx0
-libmpxwrappers0
+libmpx2
+libmpxwrappers2
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -2591,7 +2586,6 @@ libsepol1
 libserf-1-1
 libserializer
 libsgutils2-1_42-2
-libshout3
 libsidplay1
 libsigc-2_0-0
 libsignon-glib1
@@ -2651,7 +2645,7 @@ libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
 libstdc++6-32bit
-libstdc++6-devel-gcc5
+libstdc++6-devel-gcc6
 libstoken1
 libstorage-devel
 libstorage-ruby
@@ -2782,8 +2776,6 @@ libvirt-glib-1_0-0
 libvirt-python
 libvisio-0_1-1
 libvisual
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvorbis0
@@ -3479,7 +3471,7 @@ permissions
 pesign
 pesign-obs-integration
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
 photorec
@@ -3686,6 +3678,7 @@ qemu-ipxe
 qemu-ksm
 qemu-kvm
 qemu-linux-user
+qemu-ovmf-x86_64
 qemu-seabios
 qemu-sgabios
 qemu-tools
@@ -6431,8 +6424,6 @@ virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
-vlc-noX
-vlc-noX-lang
 vm-install
 vorbis-tools
 vpnc
@@ -6454,7 +6445,7 @@ wicked-service
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-gtk
+wireshark-ui-qt
 wodim
 wol
 words
@@ -6578,9 +6569,8 @@ xli
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver11
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

@@ -10,7 +10,6 @@ ImageMagick-devel
 ImageMagick-extra
 LibVNCServer-devel
 Mesa
-Mesa-32bit
 Mesa-demo-x
 Mesa-devel
 Mesa-dri-devel
@@ -19,7 +18,6 @@ Mesa-libEGL1
 Mesa-libEGL1-32bit
 Mesa-libGL-devel
 Mesa-libGL1
-Mesa-libGL1-32bit
 Mesa-libGLESv1_CM-devel
 Mesa-libGLESv1_CM1
 Mesa-libGLESv2-2
@@ -428,7 +426,7 @@ compositeproto-devel
 coreutils
 cpio
 cpp
-cpp5
+cpp6
 cppunit-devel
 cpupower
 cracklib
@@ -552,6 +550,7 @@ doxygen
 dracut
 dragonplayer
 drbd
+drbd-kmp-default
 drbd-utils
 dri2proto-devel
 dri3proto-devel
@@ -708,14 +707,14 @@ gcc-gij
 gcc-info
 gcc-java
 gcc-objc
-gcc5
-gcc5-c++
-gcc5-fortran
-gcc5-gij
-gcc5-info
-gcc5-java
-gcc5-locale
-gcc5-objc
+gcc6
+gcc6-c++
+gcc6-fortran
+gcc6-gij
+gcc6-info
+gcc6-java
+gcc6-locale
+gcc6-objc
 gccmakedep
 gcin
 gcin-branding-openSUSE
@@ -1744,7 +1743,6 @@ libKF5XmlGui5
 libKF5XmlRpcClient5
 libKScreenLocker5
 libLLVM
-libLLVM-32bit
 libMagick++-6_Q16-6
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
@@ -1948,7 +1946,7 @@ libarchive13
 libaria2-0
 libart_lgpl-devel
 libart_lgpl_2-2
-libasan2
+libasan3
 libasm1
 libasound2
 libasound2-32bit
@@ -2184,15 +2182,10 @@ libdrm-devel
 libdrm2
 libdrm2-32bit
 libdrm_amdgpu1
-libdrm_amdgpu1-32bit
 libdrm_intel1
-libdrm_intel1-32bit
 libdrm_nouveau2
-libdrm_nouveau2-32bit
 libdrm_radeon1
-libdrm_radeon1-32bit
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
@@ -2201,7 +2194,6 @@ libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2211,7 +2203,6 @@ libedata-cal-1_2-28
 libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
-libedit0-32bit
 libeews-1_2-0
 libefivar0
 libeigen2-devel
@@ -2312,11 +2303,11 @@ libgbm1-32bit
 libgc1
 libgcab-1_0-0
 libgcc_s1
-libgcc_s1-gcc6-32bit
+libgcc_s1-32bit
 libgcj-devel
-libgcj-devel-gcc5
-libgcj-gcc5
-libgcj-jar-gcc5
+libgcj-devel-gcc6
+libgcj-gcc6
+libgcj-jar-gcc6
 libgcj_bc1
 libgck-1-0
 libgck-devel
@@ -2749,7 +2740,6 @@ libmal-devel
 libmal1
 libmarblewidget-qt5-24
 libmarblewidget22
-libmatroska6
 libmbedtls9
 libmbim-glib4
 libmcrypt
@@ -2790,8 +2780,8 @@ libmpcdec-devel
 libmpcdec5
 libmpd1
 libmpfr4
-libmpx0
-libmpxwrappers0
+libmpx2
+libmpxwrappers2
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -2935,7 +2925,6 @@ libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
-libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -3271,9 +3260,9 @@ libsss_nss_idmap0
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
-libstdc++6-32bit
-libstdc++6-devel-gcc5
-libstdc++6-gcc6-locale
+libstdc++6-devel-gcc6
+libstdc++6-gcc5-32bit
+libstdc++6-gcc5-locale
 libstoken1
 libstorage-ruby
 libstorage7
@@ -3425,8 +3414,6 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -3511,7 +3498,6 @@ libxcb-dri2-0-32bit
 libxcb-dri3-0
 libxcb-dri3-0-32bit
 libxcb-glx0
-libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
@@ -4363,7 +4349,7 @@ pfscalibration
 pfstmo
 pfstools
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon-devel
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
@@ -4500,6 +4486,7 @@ pragha-plugins
 prctl
 presage-data
 presentproto-devel
+primus-32bit
 printproto-devel
 privoxy
 procinfo
@@ -4686,6 +4673,7 @@ qemu-ksm
 qemu-kvm
 qemu-lang
 qemu-linux-user
+qemu-ovmf-x86_64
 qemu-ppc
 qemu-s390
 qemu-seabios
@@ -5184,8 +5172,6 @@ virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
-vlc-noX
-vlc-noX-lang
 vlgothic-fonts
 vlock
 vm-install
@@ -5214,7 +5200,7 @@ wine-32bit
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-gtk
+wireshark-ui-qt
 wodim
 wol
 wondershaper
@@ -5400,9 +5386,8 @@ xlockmore
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver11
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

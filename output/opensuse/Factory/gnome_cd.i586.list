@@ -100,7 +100,7 @@ command-not-found
 coreutils
 cpio
 cpp
-cpp5
+cpp6
 cpupower
 cracklib
 cracklib-dict-full
@@ -364,10 +364,6 @@ iscsiuio
 iso-codes
 iso_ent
 iw
-java-1_8_0-openjdk
-java-1_8_0-openjdk-headless
-java-1_8_0-openjdk-plugin
-javapackages-tools
 jfsutils
 kbd
 kbd-legacy
@@ -919,6 +915,7 @@ libreiserfscore0
 libreoffice
 libreoffice-branding-upstream
 libreoffice-gnome
+libreoffice-gtk3
 libreoffice-icon-theme-galaxy
 libreoffice-icon-theme-tango
 libreoffice-l10n-en
@@ -1097,7 +1094,6 @@ libxml-security-c17
 libxml2-2
 libxml2-tools
 libxshmfence1
-libxslt-tools
 libxslt1
 libxtables11
 libyaml-0-2
@@ -1330,7 +1326,6 @@ python-base
 python-beautifulsoup
 python-bottle
 python-configobj
-python-cssselect
 python-cups
 python-cupshelpers
 python-decorator
@@ -1338,11 +1333,8 @@ python-gobject
 python-gobject-Gdk
 python-gobject-cairo
 python-httplib2
-python-javapackages
-python-lxml
 python-pycurl
 python-pyudev
-python-pyxb
 python-simplejson
 python-six
 python-smbios
@@ -1467,7 +1459,6 @@ thin-provisioning-tools
 tigervnc
 time
 timezone
-timezone-java
 tnftp
 totem
 totem-pl-parser
@@ -1551,6 +1542,7 @@ unoconv
 unzip
 unzip-doc
 update-alternatives
+update-desktop-files
 upower
 usbutils
 util-linux
