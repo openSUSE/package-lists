@@ -1,3 +1,4 @@
+Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
@@ -99,6 +100,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -194,6 +196,7 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
+glibc-locale
 glibc-locale-32bit
 gnome-bluetooth
 gnome-calculator
@@ -206,6 +209,7 @@ gnome-dictionary
 gnome-disk-utility
 gnome-font-viewer
 gnome-games-recommended
+gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-keyring
@@ -218,6 +222,7 @@ gnome-mines
 gnome-music
 gnome-nettool
 gnome-online-accounts
+gnome-packagekit
 gnome-power-manager
 gnome-screenshot
 gnome-session
@@ -258,6 +263,8 @@ grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-pc
 grub2-snapper-plugin
 grub2-x86_64-efi
@@ -329,6 +336,7 @@ iscsiuio
 iso-codes
 iso_ent
 kbd
+kernel-default
 keyutils
 klogd
 kmod
@@ -899,6 +907,7 @@ libwavpack1
 libwayland-client0
 libwayland-server0
 libwbclient0
+libwebkit2gtk-4_0-37
 libwebkitgtk-3_0-0
 libwebp5
 libwebrtc_audio_processing0
@@ -999,6 +1008,8 @@ numactl
 numlockx
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openconnect
 openldap2-client
 openslp
@@ -1015,6 +1026,26 @@ pam
 pam-config
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-gnome
+patterns-openSUSE-gnome_basis
+patterns-openSUSE-gnome_games
+patterns-openSUSE-gnome_imaging
+patterns-openSUSE-gnome_internet
+patterns-openSUSE-gnome_multimedia
+patterns-openSUSE-gnome_yast
+patterns-openSUSE-imaging
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_gnome
+patterns-openSUSE-update_test
+patterns-openSUSE-x11
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -1082,6 +1113,7 @@ pk-update-icon
 pkcs11-helper
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
@@ -1375,6 +1407,7 @@ xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
@@ -1391,6 +1424,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core
