@@ -53,6 +53,7 @@ dbus-1-glib
 dbus-1-x11
 dconf
 desktop-data-openSUSE
+desktop-file-utils
 desktop-translations
 dialog
 diffutils
@@ -318,7 +319,6 @@ libgstreamer-1_0-0
 libgstriff-1_0-0
 libgsttag-1_0-0
 libgstvideo-1_0-0
-libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
@@ -707,6 +707,7 @@ unixODBC
 unzip
 unzip-doc
 update-alternatives
+update-desktop-files
 util-linux
 util-linux-systemd
 wallpaper-branding-openSUSE
@@ -741,7 +742,6 @@ yast2-scanner
 yast2-transfer
 yast2-xml
 yast2-ycp-ui-bindings
-zip
 zypper
 zypper-aptitude
 zypper-log
