@@ -726,10 +726,10 @@ gcc6-objc
 gccmakedep
 gcin
 gcin-branding-openSUSE
-gcin-gtk2-immodule
-gcin-gtk3-immodule
-gcin-qt4-immodule
-gcin-qt5-immodule
+gcin-gtk2
+gcin-gtk3
+gcin-qt4
+gcin-qt5
 gcolor2
 gconf-editor
 gconf-editor-lang
@@ -2280,6 +2280,7 @@ libgbm1
 libgc1
 libgcab-1_0-0
 libgcc_s1
+libgcin-im-client1
 libgcj-devel
 libgcj-devel-gcc6
 libgcj-gcc6
@@ -4178,10 +4179,12 @@ perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
+perl-Test-Deep
 perl-Test-Exception
 perl-Test-LeakTrace
 perl-Test-Pod
 perl-Test-Pod-Coverage
+perl-Test-Warn
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
