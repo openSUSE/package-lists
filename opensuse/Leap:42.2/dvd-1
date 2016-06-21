@@ -47,7 +47,7 @@ job lock name xen-tools-domU
 job install provides pattern() = rest_dvd
 job install provides pattern() = devel_gnome
 job install name xfce4-panel
-job install name elilo #!ppc64 # !ppc64le
+job install name elilo # !ppc64 # !ppc64le # !aarch64
 job install name efibootmgr # !i586 # !ppc64 # !ppc64le
 job install name postgresql
 job install name postgresql-devel
