@@ -68,6 +68,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+exim
 expat
 fdupes
 file
@@ -356,6 +357,7 @@ libmodman1
 libmount1
 libmozjs-17_0
 libmtp9
+libmysqlclient18
 libncurses5
 libncurses6
 libndr-krb5pac0
@@ -394,6 +396,7 @@ libpng16-16
 libpolkit0
 libpopt0
 libpopt0-32bit
+libpq5
 libprocps3
 libproxy1
 libpth20
@@ -436,6 +439,7 @@ libsnapper3
 libsolv-tools
 libsoup-2_4-1
 libsoup-lang
+libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -516,9 +520,6 @@ logrotate
 lsof
 lsscsi
 lvm2
-m4
-make
-metamail
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
@@ -607,10 +608,7 @@ pkg-config
 polkit
 polkit-default-privs
 prctl
-procmail
 procps
-psmisc
-psmisc-lang
 pytalloc
 pytalloc-32bit
 python
@@ -646,14 +644,10 @@ samba-winbind
 samba-winbind-32bit
 sed
 sed-lang
-sendmail
 shadow
 shared-mime-info
 shared-mime-info-lang
-sharutils
-sharutils-lang
 shim
-site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -665,7 +659,6 @@ syslinux
 systemd
 systemd-32bit
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
