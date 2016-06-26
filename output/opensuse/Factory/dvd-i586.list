@@ -1527,6 +1527,7 @@ kross-devel
 kruler
 krunner-devel
 krusader
+kscd
 kscreen5
 kscreenlocker
 kservice
@@ -2122,7 +2123,6 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
@@ -2131,7 +2131,6 @@ libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2636,7 +2635,6 @@ libmal-devel
 libmal1
 libmarblewidget-qt5-24
 libmarblewidget22
-libmatroska6
 libmbedtls9
 libmbim-glib4
 libmcrypt
@@ -3241,8 +3239,6 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -3860,7 +3856,6 @@ perl-AppConfig
 perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
-perl-B-Hooks-EndOfScope
 perl-B-Utils
 perl-BIND-Conf_Parser
 perl-BSD-Resource
@@ -4102,7 +4097,6 @@ perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
 perl-Unix-Syslog
-perl-Variable-Magic
 perl-WWW-RobotRules
 perl-WeakRef
 perl-X11-Protocol
@@ -4135,8 +4129,6 @@ perl-libconfigfile
 perl-libintl-perl
 perl-libwww-perl
 perl-libxml-perl
-perl-namespace-autoclean
-perl-namespace-clean
 perl-qt4
 perl-qt4-devel
 perl-razor-agents
@@ -4148,7 +4140,7 @@ pfscalibration
 pfstmo
 pfstools
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon-devel
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
@@ -4957,8 +4949,6 @@ virt-manager
 virt-manager-common
 virt-viewer
 vlan
-vlc-noX
-vlc-noX-lang
 vlgothic-fonts
 vlock
 vm-install
@@ -4986,7 +4976,7 @@ wine
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-qt
+wireshark-ui-gtk
 wodim
 wol
 wondershaper
@@ -5172,9 +5162,8 @@ xlockmore
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver11
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

@@ -285,7 +285,6 @@ ca-certificates
 ca-certificates-mozilla
 cairo-devel
 calendarsupport
-calibre
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -1171,6 +1170,7 @@ kross
 kross-devel
 kruler
 krunner-devel
+kscd
 kscreen5
 kscreenlocker
 kservice
@@ -1354,8 +1354,6 @@ libMagickWand-6_Q16-2
 libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
-libQt5Bluetooth5
-libQt5Bluetooth5-imports
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1373,8 +1371,6 @@ libQt5Help5
 libQt5Multimedia5
 libQt5Network-devel
 libQt5Network5
-libQt5Nfc5
-libQt5Nfc5-imports
 libQt5OpenGL-devel
 libQt5OpenGL5
 libQt5PlatformHeaders-devel
@@ -1384,7 +1380,6 @@ libQt5PrintSupport5
 libQt5Script5
 libQt5Sensors5
 libQt5Sensors5-imports
-libQt5SerialPort5
 libQt5Sql-devel
 libQt5Sql5
 libQt5Sql5-mysql
@@ -1399,8 +1394,6 @@ libQt5WebKit5-devel
 libQt5WebKit5-imports
 libQt5WebKitWidgets-devel
 libQt5WebKitWidgets5
-libQt5WebSockets5
-libQt5WebSockets5-imports
 libQt5Widgets-devel
 libQt5Widgets5
 libQt5X11Extras5
@@ -1549,7 +1542,6 @@ libavahi-gobject0
 libavahi-qt4-1
 libavahi-qt4-devel
 libavahi-ui-gtk3-0
-libavc1394-0
 libavcodec56
 libavformat56
 libavogadro1
@@ -1607,7 +1599,6 @@ libburnia-tools
 libbz2-1
 libbz2-devel
 libbzrtp0
-libcaca0
 libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
@@ -1720,14 +1711,12 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2131,7 +2120,6 @@ libmal1
 libmarblewidget-qt5-24
 libmarblewidget22
 libmate-desktop-2-17
-libmatroska6
 libmbedtls9
 libmbim-glib4
 libmeanwhile1
@@ -2297,7 +2285,6 @@ libpng12-0
 libpng16-16
 libpng16-compat-devel
 libpng16-devel
-libpodofo0_9_3
 libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit-qt5-1-devel
@@ -2360,7 +2347,6 @@ libqt5-linguist
 libqt5-linguist-devel
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
-libqt5-qtconnectivity-tools
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -2372,7 +2358,6 @@ libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
 libqt5-qttools-doc
-libqt5-qtwebengine
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
 libquadmath0
@@ -2453,7 +2438,6 @@ libsepol1
 libserf-1-1
 libserializer
 libsgutils2-1_42-2
-libshout3
 libsidplay1
 libsigc-2_0-0
 libsignon-glib1
@@ -2623,8 +2607,6 @@ libvirt-glib-1_0-0
 libvirt-python
 libvisio-0_1-1
 libvisual
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvorbis0
@@ -2648,12 +2630,9 @@ libwebkitgtk-3_0-0
 libwebkitgtk-devel
 libwebkitgtk2-lang
 libwebp6
-libwebpdemux2
-libwebpmux2
 libwebrtc_audio_processing0
 libwicked-0-6
 libwmf-0_2-7
-libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck-devel
@@ -3200,7 +3179,6 @@ perl-Dist-CheckConflicts
 perl-Encode-Detect
 perl-Encode-Locale
 perl-Error
-perl-Exporter-Tiny
 perl-File-Listing
 perl-File-RandomAccess
 perl-File-ShareDir
@@ -3222,7 +3200,6 @@ perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Linux-Pid
-perl-List-MoreUtils
 perl-MIME-tools
 perl-Mail-DKIM
 perl-Mail-SPF
@@ -3245,6 +3222,7 @@ perl-Parse-RecDescent
 perl-Pod-Coverage
 perl-RPC-XML
 perl-Readonly
+perl-Scalar-List-Utils
 perl-Socket6
 perl-Sub-Uplevel
 perl-Term-ReadKey
@@ -3292,7 +3270,7 @@ permissions
 pesign
 pesign-obs-integration
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
 photorec
@@ -3344,7 +3322,6 @@ plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
-podofo
 polari
 polkit
 polkit-default-privs
@@ -3388,15 +3365,9 @@ pulseaudio-utils
 purpose
 pychecker
 python
-python-Babel
 python-CherryPy
-python-ClientForm
-python-Genshi
 python-M2Crypto
-python-Pillow
-python-Pygments
 python-SpiceClientGtk
-python-apsw
 python-atspi
 python-base
 python-beautifulsoup
@@ -3406,7 +3377,6 @@ python-cffi
 python-configobj
 python-cryptography
 python-cssselect
-python-cssutils
 python-cups
 python-cupshelpers
 python-curses
@@ -3430,24 +3400,17 @@ python-javapackages
 python-keyring
 python-libxml2
 python-lxml
-python-mechanize
 python-ndg-httpsclient
-python-netifaces
 python-numpy
-python-odfpy
 python-packaging
 python-pyOpenSSL
 python-pyasn1
 python-pycparser
 python-pycurl
 python-pyparsing
-python-pypdf
-python-python-dateutil
-python-pytz
 python-pyudev
 python-pyxb
 python-qt4
-python-qt5
 python-requests
 python-setuptools
 python-simplejson
@@ -3633,7 +3596,6 @@ spectacle
 speech-dispatcher
 speech-dispatcher-module-espeak
 splix
-sqlite3
 sqlite3-devel
 squashfs
 sshfs
@@ -6227,8 +6189,6 @@ virt-manager
 virt-manager-common
 virt-viewer
 vlan
-vlc-noX
-vlc-noX-lang
 vm-install
 vorbis-tools
 vpnc
@@ -6250,7 +6210,7 @@ wicked-service
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-qt
+wireshark-ui-gtk
 wodim
 wol
 words
@@ -6371,9 +6331,8 @@ xli
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver11
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

@@ -354,7 +354,6 @@ cabextract
 cairo-devel
 cal10n
 calendarsupport
-calibre
 calligra
 calligra-extras-dolphin
 calligra-extras-okular
@@ -1566,6 +1565,7 @@ kross-devel
 kruler
 krunner-devel
 krusader
+kscd
 kscreen5
 kscreenlocker
 kservice
@@ -1772,8 +1772,6 @@ libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
 libQgpsmm22
-libQt5Bluetooth5
-libQt5Bluetooth5-imports
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1793,8 +1791,6 @@ libQt5Location5
 libQt5Multimedia5
 libQt5Network-devel
 libQt5Network5
-libQt5Nfc5
-libQt5Nfc5-imports
 libQt5OpenGL-devel
 libQt5OpenGL5
 libQt5PlatformHeaders-devel
@@ -2173,7 +2169,6 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
@@ -2182,7 +2177,6 @@ libe-book-0_1-1
 libeXosip2-11
 libeXosip2-devel
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2692,7 +2686,6 @@ libmal1
 libmarblewidget-qt5-24
 libmarblewidget22
 libmate-desktop-2-17
-libmatroska6
 libmbedtls9
 libmbim-glib4
 libmcrypt
@@ -2987,7 +2980,6 @@ libqt5-linguist
 libqt5-linguist-devel
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
-libqt5-qtconnectivity-tools
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -3004,7 +2996,6 @@ libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
 libqt5-qttools-doc
-libqt5-qtwebengine
 libqt5-qtwebsockets-devel
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
@@ -3310,8 +3301,6 @@ libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvncserver0
@@ -3977,7 +3966,6 @@ perl-AppConfig
 perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
-perl-B-Hooks-EndOfScope
 perl-B-Utils
 perl-BIND-Conf_Parser
 perl-BSD-Resource
@@ -4219,7 +4207,6 @@ perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
 perl-Unix-Syslog
-perl-Variable-Magic
 perl-WWW-RobotRules
 perl-WeakRef
 perl-X11-Protocol
@@ -4253,8 +4240,6 @@ perl-libconfigfile
 perl-libintl-perl
 perl-libwww-perl
 perl-libxml-perl
-perl-namespace-autoclean
-perl-namespace-clean
 perl-qt4
 perl-qt4-devel
 perl-razor-agents
@@ -4266,7 +4251,7 @@ pfscalibration
 pfstmo
 pfstools
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon-devel
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
@@ -4368,7 +4353,6 @@ plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
 pmidi
-podofo
 polari
 polkit
 polkit-default-privs
@@ -4434,18 +4418,13 @@ purpose
 pwgen
 pychecker
 python
-python-Babel
 python-CherryPy
-python-ClientForm
-python-Genshi
 python-M2Crypto
 python-Pillow
 python-Pillow-tk
-python-Pygments
 python-SpiceClientGtk
 python-Twisted
 python-Unidecode
-python-apsw
 python-atspi
 python-base
 python-beautifulsoup
@@ -4457,7 +4436,6 @@ python-cffi
 python-configobj
 python-cryptography
 python-cssselect
-python-cssutils
 python-cups
 python-cupshelpers
 python-curses
@@ -4506,11 +4484,8 @@ python-liblarch
 python-liblarch_gtk
 python-libxml2
 python-lxml
-python-mechanize
 python-ndg-httpsclient
-python-netifaces
 python-numpy
-python-odfpy
 python-opensync
 python-orbit
 python-packaging
@@ -4523,10 +4498,8 @@ python-pycrypto
 python-pycurl
 python-pygame
 python-pyparsing
-python-pypdf
 python-pyserial
 python-python-dateutil
-python-pytz
 python-pyudev
 python-pywbem
 python-pyxb
@@ -4534,7 +4507,6 @@ python-pyxdg
 python-qt4
 python-qt4-devel
 python-qt4-utils
-python-qt5
 python-requests
 python-setuptools
 python-simplejson
@@ -7438,8 +7410,6 @@ virt-manager
 virt-manager-common
 virt-viewer
 vlan
-vlc-noX
-vlc-noX-lang
 vlgothic-fonts
 vlock
 vm-install
@@ -7467,7 +7437,7 @@ wine
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-qt
+wireshark-ui-gtk
 wodim
 wol
 wondershaper
@@ -7654,9 +7624,8 @@ xlockmore
 xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
-xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver11
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po

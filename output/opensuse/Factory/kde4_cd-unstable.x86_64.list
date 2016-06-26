@@ -997,7 +997,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-unixODBC
+libqt4-sql-mysql
 libqt4-x11
 libqt5-linguist
 libqt5-qtgraphicaleffects
@@ -1290,7 +1290,6 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-Dist-CheckConflicts
 perl-Encode-Locale
-perl-Exporter-Tiny
 perl-File-Listing
 perl-HTML-Parser
 perl-HTML-Tagset
@@ -1303,7 +1302,6 @@ perl-IO-HTML
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
-perl-List-MoreUtils
 perl-Module-Implementation
 perl-Module-Runtime
 perl-Net-DBus
@@ -1314,6 +1312,7 @@ perl-Params-Validate
 perl-Parse-RecDescent
 perl-Pod-Coverage
 perl-RPC-XML
+perl-Scalar-List-Utils
 perl-Term-ReadKey
 perl-Test-Pod
 perl-Test-Pod-Coverage
@@ -1544,7 +1543,6 @@ ucode-intel
 udev
 udev-configure-printer
 udisks2
-unixODBC
 unzip
 unzip-doc
 update-alternatives
