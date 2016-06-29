@@ -62,7 +62,6 @@ dirmngr-lang
 dmz-icon-theme-cursors
 dracut
 elfutils
-exim
 expat
 fdupes
 file
@@ -168,6 +167,7 @@ libICE6
 libKF5ConfigCore5
 libKF5ConfigCore5-lang
 libLLVM
+libOpenCOLLADA0
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -223,6 +223,7 @@ libbase
 libblkid1
 libbluray1
 libboost_date_time1_54_0
+libboost_filesystem1_54_0
 libboost_iostreams1_54_0
 libboost_system1_54_0
 libboost_thread1_54_0
@@ -265,6 +266,7 @@ libelf1
 libenchant1
 libepoxy0
 liberation-fonts
+libestr0
 libetonyek-0_1-1
 libevdev2
 libexif12
@@ -328,7 +330,7 @@ libidn11
 libimobiledevice6
 libinput-udev
 libinput10
-libixion-0_10-0
+libixion-0_11-0
 libjasper1
 libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
@@ -349,6 +351,7 @@ liblcms2-2
 libldap-2_4-2
 libloader
 liblockdev1
+liblogging0
 liblpsolve55-0
 libltdl7
 liblua5_1
@@ -364,7 +367,6 @@ libmspub-0_1-1
 libmtdev1
 libmtp9
 libmwaw-0_3-3
-libmysqlclient18
 libmythes-1_2-0
 libncurses5
 libncurses6
@@ -380,7 +382,7 @@ libogg0
 libopenjp2-7
 libopenssl1_0_0
 liborc-0_4-0
-liborcus-0_8-0
+liborcus-0_11-0
 libp11-kit0
 libpackagekit-glib2-18
 libpagemaker-0_0-0
@@ -396,7 +398,6 @@ libpng16-16
 libpolkit0
 libpoppler59
 libpopt0
-libpq5
 libprocps3
 libproxy1
 libproxy1-config-kde
@@ -460,7 +461,6 @@ libsolv-tools
 libsoup-2_4-1
 libsoup-lang
 libspeex1
-libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -540,6 +540,9 @@ logrotate
 lsof
 lua
 luit
+m4
+make
+metamail
 metatheme-adwaita-common
 mgetty
 mkfontdir
@@ -614,7 +617,10 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
+procmail
 procps
+psmisc
+psmisc-lang
 ptools
 python
 python-base
@@ -625,6 +631,7 @@ python3-pip
 python3-setuptools
 readline-doc
 rpm
+rsyslog
 ruby
 ruby-common
 ruby2.1
@@ -641,17 +648,23 @@ sac
 sed
 sed-lang
 sendfax
+sendmail
 shadow
 shared-mime-info
 shared-mime-info-lang
+sharutils
+sharutils-lang
+site-config
 suse-module-tools
 sysconfig
 sysconfig-netconfig
+syslog-service
 systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
+tcsh
 terminfo-base
 time
 timezone
@@ -692,7 +705,6 @@ yast2-hardware-detection
 yast2-packager
 yast2-perl-bindings
 yast2-pkg-bindings
-yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-scanner
 yast2-transfer

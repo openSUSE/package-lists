@@ -11,7 +11,6 @@ ImageMagick-doc
 ImageMagick-extra
 LibVNCServer-devel
 Mesa
-Mesa-32bit
 Mesa-demo-x
 Mesa-devel
 Mesa-dri-devel
@@ -20,7 +19,6 @@ Mesa-libEGL1
 Mesa-libEGL1-32bit
 Mesa-libGL-devel
 Mesa-libGL1
-Mesa-libGL1-32bit
 Mesa-libGLESv1_CM-devel
 Mesa-libGLESv1_CM1
 Mesa-libGLESv2-2
@@ -553,6 +551,9 @@ dosfstools
 doxygen
 dracut
 dragonplayer
+drbd
+drbd-kmp-default
+drbd-utils
 dri2proto-devel
 dri3proto-devel
 drkonqi5
@@ -612,7 +613,6 @@ evolution-plugin-pst-import
 evolution-plugin-spamassassin
 exif
 exiftool
-exim
 exo-lang
 exo-tools
 expat
@@ -799,11 +799,11 @@ gitg
 gitg-lang
 gitk
 gjs
+glade
 glade-catalog-gtksourceview
 glade-catalog-vte
+glade-lang
 glade-sharp2
-glade3
-glade3-lang
 glew-devel
 glib-networking
 glib-networking-lang
@@ -850,6 +850,9 @@ gnome-disk-utility-lang
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-doc-utils-lang
+gnome-documents
+gnome-documents-lang
+gnome-documents_books-common
 gnome-font-viewer
 gnome-font-viewer-lang
 gnome-games
@@ -883,6 +886,7 @@ gnome-nibbles-lang
 gnome-online-accounts
 gnome-online-accounts-devel
 gnome-online-accounts-lang
+gnome-online-miners
 gnome-packagekit
 gnome-packagekit-lang
 gnome-photos
@@ -904,6 +908,7 @@ gnome-shell-calendar
 gnome-shell-lang
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
+gnome-shell-search-provider-documents
 gnome-shell-search-provider-epiphany
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
@@ -944,7 +949,7 @@ gnu_ddrescue
 gnuchess
 gobject-introspection
 gobject-introspection-devel
-goffice-0_8-lang
+goffice-lang
 gom-lang
 google-arimo-fonts
 google-carlito-fonts
@@ -1313,7 +1318,6 @@ kakasi-dict
 kalgebra
 kalzium
 kanagram
-kapptemplate
 karchive-devel
 kate
 kate-plugins
@@ -1569,6 +1573,7 @@ kross
 kross-devel
 kross-lang
 kruler
+krunner-devel
 krusader
 kscd
 kscreen5
@@ -1777,13 +1782,13 @@ libKF5XmlRpcClient5
 libKF5XmlRpcClient5-lang
 libKScreenLocker5
 libLLVM
-libLLVM-32bit
 libMagick++-6_Q16-3
 libMagickCore-6_Q16-1
 libMagickWand-6_Q16-1
 libOSMesa-devel
 libOSMesa9
 libOSMesa9-32bit
+libOpenCOLLADA0
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -2205,13 +2210,9 @@ libdrm-devel
 libdrm2
 libdrm2-32bit
 libdrm_amdgpu1
-libdrm_amdgpu1-32bit
 libdrm_intel1
-libdrm_intel1-32bit
 libdrm_nouveau2
-libdrm_nouveau2-32bit
 libdrm_radeon1
-libdrm_radeon1-32bit
 libdv4
 libdvdnav4
 libdvdread-devel
@@ -2230,7 +2231,6 @@ libedata-cal-1_2-28
 libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
-libedit0-32bit
 libeews-1_2-0
 libeigen2-devel
 libelf0
@@ -2246,6 +2246,7 @@ liberation-fonts
 libesd-devel
 libesd0
 libesmtp
+libestr0
 libetonyek-0_1-1
 libetpan17
 libevdev-devel
@@ -2379,7 +2380,7 @@ libgjs0
 libglade-2_0-0
 libglademm
 libglademm-2_4-1
-libgladeui-1-11
+libgladeui-2-6
 libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
@@ -2424,7 +2425,7 @@ libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
 libgobject-2_0-0-32bit
-libgoffice-0_8-8
+libgoffice-0_10-10
 libgom-1_0-0
 libgomp1
 libgoocanvas3
@@ -2583,7 +2584,7 @@ libiterm1
 libitm1
 libiw-devel
 libiw30
-libixion-0_10-0
+libixion-0_11-0
 libjack-devel
 libjack0
 libjasper-devel
@@ -2676,6 +2677,7 @@ libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
+liblasem-0_4-4
 liblastfm-devel
 liblastfm1
 liblayout
@@ -2703,6 +2705,7 @@ liblmdb-0_9_14
 libloader
 liblockdev1
 liblockdev1-32bit
+liblogging0
 libloudmouth-1-0
 liblouis-data
 liblouis9
@@ -2795,7 +2798,6 @@ libnautilus-extension1
 libncurses5
 libncurses5-32bit
 libncurses6
-libncurses6-32bit
 libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -2877,7 +2879,7 @@ libopenssl1_0_0
 libopenssl1_0_0-32bit
 libopus0
 liborc-0_4-0
-liborcus-0_8-0
+liborcus-0_11-0
 libortp9
 libosinfo
 libosinfo-1_0-0
@@ -2904,7 +2906,6 @@ libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
-libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -2920,7 +2921,7 @@ libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
-libpinyin6
+libpinyin7
 libpipeline1
 libpisock-devel
 libpisock9
@@ -3125,6 +3126,7 @@ libreoffice-templates-presentation-layouts
 libreoffice-templates-ru
 libreoffice-writer
 libreoffice-writer-extensions
+libreofficekit
 librepository
 librest0
 librevenge-0_0-0
@@ -3230,7 +3232,6 @@ libspeechd2
 libspeex1
 libspeex1-32bit
 libspeexdsp1
-libspf2-2
 libspice-client-glib-2_0-8
 libspice-client-gtk-3_0-4
 libspice-server1
@@ -3248,6 +3249,7 @@ libstdc++-devel
 libstdc++48-devel
 libstdc++6
 libstdc++6-32bit
+libstdc++6-gcc48-32bit
 libstdc++6-gcc48-locale
 libstoken1
 libstorage-ruby
@@ -3460,7 +3462,6 @@ libxcb-dri2-0-32bit
 libxcb-dri3-0
 libxcb-dri3-0-32bit
 libxcb-glx0
-libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
@@ -3537,6 +3538,7 @@ libyui-qt7
 libyui7
 libz1
 libz1-32bit
+libzapojit-0_0-0
 libzeitgeist-2_0-0
 libzhuyin-data
 libzhuyin7
@@ -4382,6 +4384,7 @@ planner
 planner-lang
 plasma-framework
 plasma-framework-components
+plasma-framework-devel
 plasma-framework-lang
 plasma-framework-private
 plasma-nm5
@@ -4453,6 +4456,7 @@ pragha-lang
 pragha-plugins
 prctl
 presentproto-devel
+primus-32bit
 printproto-devel
 privoxy
 procinfo
@@ -4696,6 +4700,7 @@ rsibreak
 rsibreak-lang
 rstart
 rsync
+rsyslog
 rt2860
 rtkit
 ruby
@@ -4704,6 +4709,7 @@ ruby-devel
 ruby2.1
 ruby2.1-devel
 ruby2.1-rubygem-abstract_method
+ruby2.1-rubygem-byebug
 ruby2.1-rubygem-cfa
 ruby2.1-rubygem-cfa_grub2
 ruby2.1-rubygem-cheetah
@@ -4754,6 +4760,7 @@ sed
 sed-lang
 selinux-doc
 sendfax
+sendmail
 sensors
 servletapi5
 sessreg
@@ -4883,13 +4890,14 @@ svg-schema
 sweeper
 swell-foop
 swell-foop-lang
-swig3
+swig
 synapse
 synapse-lang
 sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -5103,6 +5111,7 @@ typelib-1_0-WebKit-1_0
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
+typelib-1_0-Zpj-0_0
 ucode-amd
 ucode-intel
 udev
@@ -5202,7 +5211,7 @@ wine-32bit
 wireless-regdb
 wireless-tools
 wireshark
-wireshark-ui-qt
+wireshark-ui-gtk
 wodim
 wol
 wondershaper
@@ -5533,6 +5542,7 @@ yast2-country
 yast2-country-data
 yast2-dhcp-server
 yast2-dns-server
+yast2-drbd
 yast2-firewall
 yast2-firstboot
 yast2-fonts
@@ -5569,7 +5579,6 @@ yast2-printer
 yast2-product-creator
 yast2-proxy
 yast2-python-bindings
-yast2-qt-branding-openSUSE
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
