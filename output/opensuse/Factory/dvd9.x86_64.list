@@ -292,6 +292,7 @@ ca-certificates
 ca-certificates-mozilla
 cairo-devel
 calendarsupport
+calibre
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -1376,6 +1377,8 @@ libMagickWand-6_Q16-2
 libOSMesa-devel
 libOSMesa9
 libOpenCOLLADA0
+libQt5Bluetooth5
+libQt5Bluetooth5-imports
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1393,6 +1396,8 @@ libQt5Help5
 libQt5Multimedia5
 libQt5Network-devel
 libQt5Network5
+libQt5Nfc5
+libQt5Nfc5-imports
 libQt5OpenGL-devel
 libQt5OpenGL5
 libQt5PlatformHeaders-devel
@@ -1402,6 +1407,7 @@ libQt5PrintSupport5
 libQt5Script5
 libQt5Sensors5
 libQt5Sensors5-imports
+libQt5SerialPort5
 libQt5Sql-devel
 libQt5Sql5
 libQt5Sql5-mysql
@@ -1416,6 +1422,8 @@ libQt5WebKit5-devel
 libQt5WebKit5-imports
 libQt5WebKitWidgets-devel
 libQt5WebKitWidgets5
+libQt5WebSockets5
+libQt5WebSockets5-imports
 libQt5Widgets-devel
 libQt5Widgets5
 libQt5X11Extras5
@@ -2113,7 +2121,6 @@ libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2-32bit
-libjbig2dec0
 libjpeg-turbo
 libjpeg62
 libjpeg62-devel
@@ -2407,6 +2414,7 @@ libpng16-16
 libpng16-16-32bit
 libpng16-compat-devel
 libpng16-devel
+libpodofo0_9_3
 libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit-qt5-1-devel
@@ -2478,6 +2486,7 @@ libqt5-linguist
 libqt5-linguist-devel
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
+libqt5-qtconnectivity-tools
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -2489,6 +2498,7 @@ libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
 libqt5-qttools-doc
+libqt5-qtwebengine
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
 libquadmath0
@@ -2779,6 +2789,7 @@ libvorbisfile3-32bit
 libvpx3
 libvte-2_91-0
 libvte9
+libvulkan_intel
 libwacom-data
 libwacom2
 libwavpack1
@@ -2797,9 +2808,12 @@ libwebkitgtk-3_0-0
 libwebkitgtk-devel
 libwebkitgtk2-lang
 libwebp6
+libwebpdemux2
+libwebpmux2
 libwebrtc_audio_processing0
 libwicked-0-6
 libwmf-0_2-7
+libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck-devel
@@ -3070,7 +3084,6 @@ mtpaint
 mtpaint-lang
 mtr
 multipath-tools
-mupdf
 mutter
 mutter-data
 mxml
@@ -3511,6 +3524,7 @@ plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
+podofo
 polari
 polkit
 polkit-default-privs
@@ -3555,9 +3569,15 @@ pulseaudio-utils-32bit
 purpose
 pychecker
 python
+python-Babel
 python-CherryPy
+python-ClientForm
+python-Genshi
 python-M2Crypto
+python-Pillow
+python-Pygments
 python-SpiceClientGtk
+python-apsw
 python-atspi
 python-base
 python-beautifulsoup
@@ -3567,6 +3587,7 @@ python-cffi
 python-configobj
 python-cryptography
 python-cssselect
+python-cssutils
 python-cups
 python-cupshelpers
 python-curses
@@ -3590,8 +3611,11 @@ python-javapackages
 python-keyring
 python-libxml2
 python-lxml
+python-mechanize
 python-ndg-httpsclient
+python-netifaces
 python-numpy
+python-odfpy
 python-packaging
 python-pam
 python-pyOpenSSL
@@ -3599,9 +3623,13 @@ python-pyasn1
 python-pycparser
 python-pycurl
 python-pyparsing
+python-pypdf
+python-python-dateutil
+python-pytz
 python-pyudev
 python-pyxb
 python-qt4
+python-qt5
 python-requests
 python-setuptools
 python-simplejson
@@ -3795,6 +3823,7 @@ spectacle
 speech-dispatcher
 speech-dispatcher-module-espeak
 splix
+sqlite3
 sqlite3-devel
 squashfs
 sshfs
@@ -6438,7 +6467,6 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xdm
-xdm-xsession
 xdmbgrd
 xdotool
 xen

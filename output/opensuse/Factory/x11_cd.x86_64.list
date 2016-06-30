@@ -108,6 +108,9 @@ efibootmgr
 elfutils
 espeak
 ethtool
+evince
+evince-browser-plugin
+evince-plugin-pdfdocument
 exo-tools
 expat
 fd0ssh
@@ -378,7 +381,9 @@ libepoxy0
 liberation-fonts
 libesd0
 libevdev2
+libevdocument3-4
 libevent-2_0-5
+libevview3-3
 libewf2
 libexif12
 libexo-1-0
@@ -420,6 +425,8 @@ libglib-2_0-0
 libglibmm-2_4-1
 libgmodule-2_0-0
 libgmp10
+libgnome-desktop-3-12
+libgnome-desktop-3_0-common
 libgnomesu
 libgnomesu0
 libgnutls30
@@ -469,7 +476,6 @@ libiw30
 libjack0
 libjasper1
 libjbig2
-libjbig2dec0
 libjpeg8
 libjson-c2
 libjson-glib-1_0-0
@@ -647,6 +653,7 @@ libvorbisenc2
 libvorbisfile3
 libvpx3
 libvte9
+libvulkan_intel
 libwacom-data
 libwacom2
 libwayland-client0
@@ -735,7 +742,6 @@ mozilla-nss-certs
 mpt-firmware
 mt_st
 mtools
-mupdf
 nano
 ncurses-utils
 net-tools
@@ -976,7 +982,6 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xdm
-xdm-xsession
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

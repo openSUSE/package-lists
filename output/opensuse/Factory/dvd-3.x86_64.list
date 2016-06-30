@@ -249,6 +249,8 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgraphite2-3
+libgsasl-lang
+libgsasl7
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
@@ -309,6 +311,7 @@ libnl3-200
 libnotify4
 libnpth0
 libnsl2
+libntlm0
 liboauth0
 libogg0
 libopenssl1_0_0
@@ -404,6 +407,8 @@ lsof
 lvm2
 metatheme-adwaita-common
 mozilla-nspr
+msmtp
+msmtp-mta
 mt_st
 mtools
 ncurses-utils
@@ -440,7 +445,6 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
-postfix
 prctl
 procps
 python
@@ -469,7 +473,6 @@ sysconfig
 sysconfig-netconfig
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
