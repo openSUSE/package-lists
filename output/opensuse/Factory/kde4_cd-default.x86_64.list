@@ -885,7 +885,7 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebp6
-libwebrtc_audio_processing0
+libwebrtc_audio_processing1
 libwicked-0-6
 libwrap0
 libx86emu1
@@ -927,6 +927,7 @@ libyui-qt-pkg7
 libyui-qt7
 libyui7
 libz1
+libzbar0
 libzio1
 libzip4
 libzvbi0
@@ -1104,19 +1105,13 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 purpose
 python
-python-CherryPy
 python-base
-python-bottle
 python-configobj
-python-cups
-python-cupshelpers
 python-decorator
 python-gobject
 python-gobject-Gdk
 python-gobject-cairo
-python-pycurl
 python-pyudev
-python-simplejson
 python-six
 python-solv
 python-talloc
@@ -1127,6 +1122,7 @@ python3-base
 python3-cairo
 python3-chardet
 python3-cups
+python3-cupshelpers
 python3-curses
 python3-dbm
 python3-gobject
