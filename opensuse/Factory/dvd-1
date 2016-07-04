@@ -53,7 +53,7 @@ job install name mokutil # !i586 # !ppc64 # !ppc64le
 job install name postgresql
 job install name postgresql-devel
 job install name postgresql-contrib
-job install name postgresql-docs
+#job install name postgresql-docs
 job install name postgresql-server
 job install name yast2-services-manager
 job install name postfix
