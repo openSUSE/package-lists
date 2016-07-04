@@ -90,12 +90,14 @@ for arch in $arches; do
     fi
    fi
 
-   #if test "$proj" = "Leap:42.1" ;then
-     # As we do not have bundle-lang packages, we want to get rid of all -lang on the 'installation images' to save the space
-     for file in gnome_cd-default gnome_cd-x11-default kde4_cd-base-default kde4_cd-default x11_cd; do
-       sed -i '/.*-lang$/d' output/opensuse/$proj/$file.${arch}.list
-     done
-   #fi
+   if $(is_x86 $arch); then
+     #if test "$proj" = "Leap:42.1" ;then
+        # As we do not have bundle-lang packages, we want to get rid of all -lang on the 'installation images' to save the space
+        for file in gnome_cd-default gnome_cd-x11-default kde4_cd-base-default kde4_cd-default x11_cd; do
+          sed -i '/.*-lang$/d' output/opensuse/$proj/$file.${arch}.list
+        done
+      #fi
+   fi
 
     # first flash
     : > opensuse/$proj/dvd-1.$arch.suggests
