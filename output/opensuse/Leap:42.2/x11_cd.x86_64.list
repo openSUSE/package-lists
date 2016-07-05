@@ -26,6 +26,7 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-plugins
+alsa-plugins-pulse
 alsa-utils
 aspell
 aspell-de
@@ -109,7 +110,6 @@ e2fsprogs
 efibootmgr
 elfutils
 elilo
-esound-daemon
 espeak
 ethtool
 exo-tools
@@ -395,6 +395,7 @@ libfallocate0
 libfam0-gamin
 libfdisk1
 libffi4
+libfftw3-3
 libfipscheck1
 libfltk1
 libfontenc1
@@ -430,6 +431,7 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
+libgomp1
 libgpg-error0
 libgphoto2-6
 libgraphite2-3
@@ -560,13 +562,14 @@ libply4
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler59
+libpoppler60
 libpopt0
 libportaudio2
 libprocps3
 libproxy1
 libproxy1-networkmanager
 libpth20
+libpulse-mainloop-glib0
 libpulse0
 libpython2_7-1_0
 libqmi-glib1
@@ -610,7 +613,9 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
+libsoxr0
 libspeex1
+libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
@@ -674,6 +679,7 @@ libwbclient0
 libwebkit2gtk-4_0-37
 libwebkitgtk-1_0-0
 libwebp5
+libwebrtc_audio_processing0
 libwicked-0-6
 libwnck-1-22
 libwrap0
@@ -876,6 +882,10 @@ pptp
 procps
 psmisc
 pullin-bcm43xx-firmware
+pulseaudio
+pulseaudio-bash-completion
+pulseaudio-esound-compat
+pulseaudio-utils
 pytalloc
 python
 python-base
@@ -909,6 +919,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rtkit
 ruby
 ruby-common
 ruby2.1
