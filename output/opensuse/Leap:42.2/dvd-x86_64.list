@@ -302,7 +302,6 @@ brasero
 brasero-lang
 brasero-nautilus
 breeze
-breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -620,6 +619,7 @@ evolution-plugin-pst-import
 evolution-plugin-spamassassin
 exif
 exiftool
+exim
 exo-lang
 exo-tools
 expat
@@ -1019,7 +1019,6 @@ gstreamer-0_10-plugins-bad-lang
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-lang
 gstreamer-0_10-plugins-good
-gstreamer-0_10-plugins-good-extra
 gstreamer-0_10-plugins-good-lang
 gstreamer-0_10-plugins-ugly
 gstreamer-0_10-plugins-ugly-lang
@@ -1077,6 +1076,7 @@ gtk2-immodule-vietnamese
 gtk2-immodule-xim
 gtk2-lang
 gtk2-metatheme-adwaita
+gtk2-metatheme-breeze
 gtk2-metatheme-gilouche
 gtk2-metatheme-industrial
 gtk2-metatheme-sonar
@@ -1102,6 +1102,7 @@ gtk3-immodule-vietnamese
 gtk3-immodule-xim
 gtk3-lang
 gtk3-metatheme-adwaita
+gtk3-metatheme-breeze
 gtk3-theme-oxygen
 gtk3-tools
 gtkiterm
@@ -1317,9 +1318,9 @@ junit
 k3b
 k3b-lang
 kaccounts-integration
-kactivities5
 kactivities5-devel
 kactivities5-imports
+kactivitymanagerd
 kakasi
 kakasi-dict
 kalgebra
@@ -1685,7 +1686,6 @@ libImath-2_1-11
 libImlib2-1
 libKEduVocDocument5
 libKF5Activities5
-libKF5Activities5-lang
 libKF5Archive5
 libKF5Attica5
 libKF5Auth5
@@ -1762,14 +1762,13 @@ libKF5Pty5-lang
 libKF5QuickAddons5
 libKF5Runner5
 libKF5Sane5
-libKF5Screen6
+libKF5Screen7
 libKF5Solid5
 libKF5Solid5-lang
 libKF5SonnetCore5
 libKF5SonnetCore5-lang
 libKF5SonnetUi5
 libKF5Style5
-libKF5Style5-lang
 libKF5Su5
 libKF5Su5-lang
 libKF5TextWidgets5
@@ -2261,7 +2260,6 @@ liberation-fonts
 libesd-devel
 libesd0
 libesmtp
-libestr0
 libetonyek-0_1-1
 libetpan17
 libevdev-devel
@@ -2341,7 +2339,6 @@ libgbm1-32bit
 libgc1
 libgcc_s1
 libgcc_s1-32bit
-libgcc_s1-gcc48-32bit
 libgcj-devel
 libgcj48
 libgcj48-devel
@@ -2726,7 +2723,6 @@ liblmdb-0_9_14
 libloader
 liblockdev1
 liblockdev1-32bit
-liblogging0
 libloudmouth-1-0
 liblouis-data
 liblouis9
@@ -3255,6 +3251,7 @@ libspeechd2
 libspeex1
 libspeex1-32bit
 libspeexdsp1
+libspf2-2
 libspice-client-glib-2_0-8
 libspice-client-gtk-3_0-4
 libspice-server1
@@ -3355,6 +3352,7 @@ libunwind
 libupnp6
 libupower-glib3
 libupsclient1
+liburcu0
 libusb-0_1-4
 libusb-1_0-0
 libusb-1_0-0-32bit
@@ -3687,6 +3685,7 @@ mercurial
 mercurial-lang
 metamail
 metatheme-adwaita-common
+metatheme-breeze-common
 metatheme-sonar-common
 mgetty
 mgopen-fonts
@@ -3720,7 +3719,6 @@ mono-wcf
 mono-web
 mono-winforms
 mono-winfxcore
-moodbar
 mosh
 motv
 mousetweaks
@@ -4429,11 +4427,11 @@ plasma-nm5-openvpn
 plasma-nm5-pptp
 plasma-nm5-vpnc
 plasma5-addons
-plasma5-addons-kimpanel
 plasma5-addons-lang
 plasma5-desktop
 plasma5-desktop-branding-openSUSE
 plasma5-desktop-lang
+plasma5-integration-plugin
 plasma5-pa
 plasma5-pa-lang
 plasma5-pk-updates
@@ -4733,7 +4731,6 @@ rsibreak
 rsibreak-lang
 rstart
 rsync
-rsyslog
 rt2860
 rtkit
 ruby
@@ -4793,7 +4790,6 @@ sed
 sed-lang
 selinux-doc
 sendfax
-sendmail
 sensors
 servletapi5
 sessreg
@@ -4928,9 +4924,9 @@ synapse
 synapse-lang
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
-syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common

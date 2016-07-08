@@ -65,7 +65,6 @@ bluez-qt-udev
 boost-license1_54_0
 branding-openSUSE
 breeze
-breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -202,6 +201,7 @@ gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-metatheme-adwaita
+gtk2-metatheme-breeze
 gtk2-theming-engine-adwaita
 gtk2-tools
 gtk3-branding-openSUSE
@@ -211,6 +211,7 @@ gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
+gtk3-metatheme-breeze
 gtk3-tools
 guile-modules-2_0
 gzip
@@ -238,8 +239,8 @@ iptables
 iputils
 iscsiuio
 kaccounts-integration
-kactivities5
 kactivities5-imports
+kactivitymanagerd
 kate-plugins
 kbd
 kcalc
@@ -381,7 +382,7 @@ libKF5Parts5
 libKF5Pty5
 libKF5QuickAddons5
 libKF5Runner5
-libKF5Screen6
+libKF5Screen7
 libKF5Solid5
 libKF5SonnetCore5
 libKF5SonnetUi5
@@ -613,7 +614,6 @@ libguile-2_0-22
 libgypsy0
 libharfbuzz0
 libhogweed2
-libibus-1_0-5
 libical1
 libicu52_1
 libicu52_1-data
@@ -937,6 +937,7 @@ master-boot-code
 mdadm
 media-player-info
 metatheme-adwaita-common
+metatheme-breeze-common
 milou5
 mkfontdir
 mkfontscale
@@ -1058,9 +1059,9 @@ plasma-nm5-openvpn
 plasma-nm5-pptp
 plasma-nm5-vpnc
 plasma5-addons
-plasma5-addons-kimpanel
 plasma5-desktop
 plasma5-desktop-branding-openSUSE
+plasma5-integration-plugin
 plasma5-pa
 plasma5-pk-updates
 plasma5-session

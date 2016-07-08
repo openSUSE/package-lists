@@ -86,7 +86,6 @@ bluez-firmware
 boost-license1_54_0
 branding-openSUSE
 breeze
-breeze-gtk
 breeze4-style
 breeze5-cursors
 breeze5-decoration
@@ -246,12 +245,6 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gstreamer
-gstreamer-0_10
-gstreamer-0_10-lang
-gstreamer-0_10-plugin-esd
-gstreamer-0_10-plugins-base
-gstreamer-0_10-plugins-base-lang
-gstreamer-0_10-plugins-good
 gstreamer-lang
 gstreamer-plugins-base
 gstreamer-plugins-base-lang
@@ -264,6 +257,7 @@ gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-lang
 gtk2-metatheme-adwaita
+gtk2-metatheme-breeze
 gtk2-theming-engine-adwaita
 gtk2-tools
 gtk3-branding-openSUSE
@@ -274,6 +268,7 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-lang
 gtk3-metatheme-adwaita
+gtk3-metatheme-breeze
 gtk3-tools
 guile-modules-2_0
 gzip
@@ -311,8 +306,8 @@ iw
 jfsutils
 json-glib-lang
 kaccounts-integration
-kactivities5
 kactivities5-imports
+kactivitymanagerd
 kate-plugins
 kbd
 kcalc
@@ -443,7 +438,6 @@ libIex-2_1-11
 libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libKF5Activities5
-libKF5Activities5-lang
 libKF5Archive5
 libKF5Attica5
 libKF5Auth5
@@ -508,14 +502,13 @@ libKF5Pty5
 libKF5Pty5-lang
 libKF5QuickAddons5
 libKF5Runner5
-libKF5Screen6
+libKF5Screen7
 libKF5Solid5
 libKF5Solid5-lang
 libKF5SonnetCore5
 libKF5SonnetCore5-lang
 libKF5SonnetUi5
 libKF5Style5
-libKF5Style5-lang
 libKF5Su5
 libKF5Su5-lang
 libKF5TextWidgets5
@@ -755,14 +748,11 @@ libgps22
 libgraphite2-3
 libgsm1
 libgstallocators-1_0-0
-libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
-libgstinterfaces-0_10-0
 libgstpbutils-1_0-0
 libgstphotography-1_0-0
-libgstreamer-0_10-0
 libgstreamer-1_0-0
 libgstriff-1_0-0
 libgstrtp-1_0-0
@@ -780,7 +770,6 @@ libguile-2_0-22
 libgypsy0
 libharfbuzz0
 libhogweed2
-libibus-1_0-5
 libical1
 libicu52_1
 libicu52_1-data
@@ -899,6 +888,7 @@ libnsl2
 libnsssharedhelper0
 libntfs-3g84
 libnuma1
+libofa0
 libogg0
 liboggkate1
 libopenal1
@@ -1166,6 +1156,7 @@ mdadm
 media-player-info
 memtest86+
 metatheme-adwaita-common
+metatheme-breeze-common
 milou5
 milou5-lang
 mkfontdir
@@ -1173,7 +1164,6 @@ mkfontscale
 mkisofs
 mobile-broadband-provider-info
 mobipocket
-moodbar
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nss
@@ -1331,11 +1321,11 @@ plasma-nm5-openvpn
 plasma-nm5-pptp
 plasma-nm5-vpnc
 plasma5-addons
-plasma5-addons-kimpanel
 plasma5-addons-lang
 plasma5-desktop
 plasma5-desktop-branding-openSUSE
 plasma5-desktop-lang
+plasma5-integration-plugin
 plasma5-pa
 plasma5-pa-lang
 plasma5-pk-updates
