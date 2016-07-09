@@ -532,7 +532,6 @@ dirmngr
 dirmngr-lang
 djvulibre
 dleyna-connector-dbus
-dleyna-renderer
 dleyna-server
 dmidecode
 dmraid
@@ -750,8 +749,6 @@ gedit-plugins-data
 gedit-plugins-lang
 gegl-0_2
 gegl-0_2-lang
-gegl-0_3
-gegl-0_3-lang
 genisoimage
 geoclue2
 geocode-glib
@@ -892,7 +889,6 @@ gnome-online-accounts-lang
 gnome-online-miners
 gnome-packagekit
 gnome-packagekit-lang
-gnome-photos
 gnome-power-manager
 gnome-power-manager-lang
 gnome-robots
@@ -915,7 +911,6 @@ gnome-shell-search-provider-documents
 gnome-shell-search-provider-epiphany
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
-gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
@@ -952,7 +947,6 @@ gnu_ddrescue
 gobject-introspection
 gobject-introspection-devel
 goffice-lang
-gom-lang
 google-arimo-fonts
 google-carlito-fonts
 google-cousine-fonts
@@ -981,10 +975,6 @@ graphviz-gd
 graphviz-gnome
 grep
 grilo-lang
-grilo-plugin-tracker
-grilo-plugin-youtube
-grilo-plugins
-grilo-plugins-lang
 groff
 groff-full
 gromit
@@ -994,6 +984,7 @@ grub2
 grub2-branding-openSUSE
 grub2-i386-pc
 grub2-snapper-plugin
+grub2-systemd-sleep-plugin
 grub2-x86_64-efi
 grub2-x86_64-xen
 gsettings-backend-dconf
@@ -2114,7 +2105,6 @@ libccolamd-2_9_1
 libcdaudio1
 libcdda_interface0
 libcdda_paranoia0
-libcddb2
 libcdio++0
 libcdio-devel
 libcdio16
@@ -2131,7 +2121,6 @@ libcheese8
 libchewing3
 libchm0
 libcholmod-3_0_6
-libclastfm0
 libcloog-isl4
 libclucene-contribs-lib1
 libclucene-core1
@@ -2200,7 +2189,6 @@ libdjvulibre-devel
 libdjvulibre21
 libdleyna-core-1_0-4
 libdlm3
-libdmapsharing-3_0-2
 libdmtx-devel
 libdmtx0
 libdmx-devel
@@ -2369,7 +2357,6 @@ libgdlmm-3_0-2
 libgdm1
 libgee-0_8-2
 libgegl-0_2-0
-libgegl-0_3-0
 libgeocode-glib0
 libges-1_0-0
 libgetdata++3
@@ -2399,7 +2386,6 @@ libglib-2_0-0-32bit
 libglibmm-2_4-1
 libgltf-0_0-0
 libglut3
-libglyr1
 libgme0
 libgmime-2_6-0
 libgmm++-devel
@@ -2438,7 +2424,6 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgoffice-0_10-10
-libgom-1_0-0
 libgomp1
 libgoocanvas3
 libgoocanvas3-lang
@@ -2461,9 +2446,8 @@ libgrantlee_core0
 libgrantlee_gui0
 libgraphite2-3
 libgraphite2-3-32bit
-libgrilo-0_2-1
-libgrlnet-0_2-0
-libgrlpls-0_2-0
+libgrilo-0_3-0
+libgrlpls-0_3-0
 libgsf-1-114
 libgsf-devel
 libgsf-lang
@@ -2474,10 +2458,12 @@ libgspell-1-1
 libgssdp-1_0-3
 libgssglue-devel
 libgssglue1
+libgstadaptivedemux-1_0-0
 libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstbadaudio-1_0-0
 libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
 libgstbasecamerabinsrc-0_10-23
@@ -2745,7 +2731,6 @@ libmbedtls9
 libmbim-glib4
 libmcrypt
 libmeanwhile1
-libmediaart-1_0-0
 libmediaart-2_0-0
 libmediastreamer_base4
 libmediastreamer_voip4
@@ -4475,7 +4460,6 @@ pptp
 pptpd
 pragha
 pragha-lang
-pragha-plugins
 prctl
 presentproto-devel
 printproto-devel
@@ -5075,7 +5059,7 @@ typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
-typelib-1_0-Grl-0_2
+typelib-1_0-Grl-0_3
 typelib-1_0-Gsf-1
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAllocators-1_0
@@ -5083,7 +5067,6 @@ typelib-1_0-GstApp-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstFft-1_0
 typelib-1_0-GstPbutils-1_0
-typelib-1_0-GstRiff-1_0
 typelib-1_0-GstRtp-1_0
 typelib-1_0-GstRtsp-1_0
 typelib-1_0-GstSdp-1_0
@@ -5098,7 +5081,7 @@ typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
-typelib-1_0-MediaArt-1_0
+typelib-1_0-MediaArt-2_0
 typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
 typelib-1_0-NM-1_0
