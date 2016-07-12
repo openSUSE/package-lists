@@ -18,6 +18,7 @@ require CreatePackageDescr;
 my $project = $ARGV[0];
 my $repo = $ARGV[1];
 my $arch = $ARGV[2];
+my $api = $ARGV[3] // "api.opensuse.org";
 
 my $repodir = ($ENV{XDG_CACHE_HOME}||$ENV{HOME}."/.cache")."/opensuse-repo-checker/repo-$project-$repo-$arch";
 mkdir($repodir);
@@ -26,7 +27,7 @@ my $pfile = "$tdir/packages";    # the filename is important ;(
 
 unless ($ENV{'NO_BSMIRROR'}) {
     die "bs_mirror of $project/$repo/$arch failed" if system(
-	"osc-plugin-factory/bs_mirrorfull --nodebug https://api.opensuse.org/public/build/$project/$repo/$arch/ $repodir"
+	"osc-plugin-factory/bs_mirrorfull --nodebug https://$api/public/build/$project/$repo/$arch/ $repodir"
     );
 }
 
