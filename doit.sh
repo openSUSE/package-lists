@@ -62,11 +62,11 @@ for arch in $arches; do
 
     ./dump_supplements \
         trees/openSUSE:$proj-$repo-$arch.solv \
-        > opensuse/$proj/all-supplements
+        > opensuse/$proj/all-supplements.$arch
         if $(is_x86 $arch);then
             ./dump_supplements \
                 trees/openSUSE:$proj:NonFree-$repo-$arch.solv \
-            >> opensuse/$proj/all-supplements
+            >> opensuse/$proj/all-supplements.$arch
         fi
 
    # installcheck $arch trees/openSUSE:$proj:NonFree-$repo-$arch.solv | grep "nothing provides" | \
