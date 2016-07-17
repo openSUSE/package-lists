@@ -10,6 +10,7 @@ ImageMagick-devel
 ImageMagick-extra
 LibVNCServer-devel
 Mesa
+Mesa-32bit
 Mesa-demo-x
 Mesa-devel
 Mesa-dri-devel
@@ -18,6 +19,7 @@ Mesa-libEGL1
 Mesa-libEGL1-32bit
 Mesa-libGL-devel
 Mesa-libGL1
+Mesa-libGL1-32bit
 Mesa-libGLESv1_CM-devel
 Mesa-libGLESv1_CM1
 Mesa-libGLESv2-2
@@ -1745,6 +1747,7 @@ libKF5XmlGui5
 libKF5XmlRpcClient5
 libKScreenLocker5
 libLLVM
+libLLVM-32bit
 libMagick++-6_Q16-6
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
@@ -2183,9 +2186,13 @@ libdrm-devel
 libdrm2
 libdrm2-32bit
 libdrm_amdgpu1
+libdrm_amdgpu1-32bit
 libdrm_intel1
+libdrm_intel1-32bit
 libdrm_nouveau2
+libdrm_nouveau2-32bit
 libdrm_radeon1
+libdrm_radeon1-32bit
 libdv4
 libdvdnav4
 libdvdread-devel
@@ -2204,10 +2211,10 @@ libedata-cal-1_2-28
 libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
+libedit0-32bit
 libeews-1_2-0
 libefivar0
 libeigen2-devel
-libelf0
 libelf1
 libelf1-32bit
 libenca0
@@ -2931,6 +2938,7 @@ libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
+libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -3269,7 +3277,6 @@ libstdc++-devel
 libstdc++6
 libstdc++6-32bit
 libstdc++6-devel-gcc6
-libstdc++6-gcc5-32bit
 libstdc++6-gcc5-locale
 libstoken1
 libstorage-ruby
@@ -3517,6 +3524,7 @@ libxcb-dri2-0-32bit
 libxcb-dri3-0
 libxcb-dri3-0-32bit
 libxcb-glx0
+libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
@@ -4498,7 +4506,6 @@ pragha-plugins
 prctl
 presage-data
 presentproto-devel
-primus-32bit
 printproto-devel
 privoxy
 procinfo
