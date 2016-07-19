@@ -97,7 +97,12 @@ agrep
 aisleriot
 aisleriot-lang
 aisleriot-themes
-akonadi-runtime
+akonadi-contact
+akonadi-search
+akonadi-server
+akonadi5
+akonadi_resources
+akregator5
 alacarte
 alacarte-lang
 alevt
@@ -247,7 +252,6 @@ axis
 b43-fwcutter
 baloo-core
 baloo-kioslaves
-baloo-pim
 baloo5
 baloo5-devel
 baloo5-file
@@ -387,7 +391,6 @@ cheese-lang
 chewing-data
 chewing-utils
 chmlib-devel
-choqok
 cifs-utils
 cim-schema
 circuslinux
@@ -970,6 +973,7 @@ gpsd
 gpsd-devel
 gptfdisk
 grantlee-devel
+grantlee5
 graphite2-devel
 graphviz
 graphviz-gd
@@ -1114,6 +1118,7 @@ gvfs-lang
 gvim
 gwenhywfar-devel
 gwenhywfar-lang
+gwenview5
 gxditview
 gzip
 hamcrest
@@ -1307,11 +1312,14 @@ kaccounts-integration
 kactivities5-devel
 kactivities5-imports
 kactivitymanagerd
+kaddressbook5
 kakasi
 kakasi-dict
+kalarm5
 kalgebra
 kalzium
 kanagram
+kapptemplate
 karchive-devel
 kate
 kate-plugins
@@ -1328,6 +1336,7 @@ kbreakout
 kbruch
 kcachegrind
 kcalc
+kcalutils
 kcharselect
 kchmviewer
 kcm_sddm
@@ -1409,7 +1418,8 @@ kdelibs4support-devel
 kdelibs4support-lang
 kdenetwork4-filesharing
 kdepasswd
-kdepim4-runtime
+kdepim
+kdepim-runtime
 kdepimlibs4
 kdesdk4-scripts
 kdesignerplugin
@@ -1447,7 +1457,6 @@ kfilemetadata5
 kfilemetadata5-devel
 kfilemetadata5-lang
 kfilereplace
-kfloppy
 kgamma5
 kgamma5-lang
 kgeography
@@ -1479,6 +1488,7 @@ kio-core
 kio-devel
 kio-extras5
 kio-lang
+kio-pimlibs
 kio_audiocd
 kio_iso
 kio_kamera
@@ -1507,16 +1517,18 @@ kjobwidgets-devel
 kjs-devel
 kjsembed-devel
 kjumpingcube
+kleopatra5
 klettres
 klinkstatus
 klogd
 kmag
 kmahjongg
+kmail5
+kmailtransport
 kmediaplayer-devel
 kmenuedit5
 kmenuedit5-lang
 kmines
-kmix
 kmod
 kmod-compat
 kmousetool
@@ -1525,6 +1537,7 @@ kmplot
 knavalbattle
 knetwalk
 knewstuff-devel
+knotes5
 knotifications-devel
 knotifyconfig-devel
 kolf
@@ -1537,9 +1550,11 @@ konquest
 konsole
 konsole-part
 konsole4-part
+kontact5
 konversation
 konversation-lang
 kopete
+korganizer5
 kpackage
 kpackage-devel
 kpackage-lang
@@ -1567,7 +1582,6 @@ kross
 kross-devel
 kross-lang
 kruler
-krunner-devel
 krusader
 kscd
 kscreen5
@@ -1586,7 +1600,6 @@ ksplashx-branding-openSUSE
 ksquares
 ksshaskpass5
 ksshaskpass5-lang
-kstars
 ksudoku
 ksysguard5
 ksysguard5-lang
@@ -1619,7 +1632,6 @@ kwallet-tools
 kwallet-tools-lang
 kwalletd5
 kwalletd5-lang
-kwalletmanager
 kwalletmanager5
 kwayland
 kwayland-devel
@@ -1673,6 +1685,13 @@ libImlib2-1
 libKEduVocDocument5
 libKF5Activities5
 libKF5ActivitiesStats1
+libKF5AkonadiCalendar5
+libKF5AkonadiContact5
+libKF5AkonadiMime5
+libKF5AkonadiNotes5
+libKF5AkonadiPrivate5
+libKF5AkonadiSearch
+libKF5AlarmCalendar5
 libKF5Archive5
 libKF5Attica5
 libKF5Auth5
@@ -1682,7 +1701,9 @@ libKF5BalooEngine5
 libKF5BluezQt6
 libKF5Bookmarks5
 libKF5Bookmarks5-lang
+libKF5CalendarCore5
 libKF5CalendarEvents5
+libKF5CalendarUtils5
 libKF5Codecs5
 libKF5Codecs5-lang
 libKF5Completion5
@@ -1692,6 +1713,7 @@ libKF5ConfigCore5-lang
 libKF5ConfigGui5
 libKF5ConfigWidgets5
 libKF5ConfigWidgets5-lang
+libKF5Contacts5
 libKF5CoreAddons5
 libKF5Crash5
 libKF5DBusAddons5
@@ -1708,8 +1730,10 @@ libKF5GuiAddons5
 libKF5Holidays5
 libKF5I18n5
 libKF5I18n5-lang
+libKF5IMAP5
 libKF5IconThemes5
 libKF5IconThemes5-lang
+libKF5IdentityManagement5
 libKF5IdleTime5
 libKF5ItemModels5
 libKF5ItemViews5
@@ -1731,7 +1755,11 @@ libKF5KHtml5
 libKF5KHtml5-lang
 libKF5KMahjongglib5
 libKF5Kipi30_0_0
+libKF5KontactInterface5
+libKF5Ldap5
+libKF5Mbox5
 libKF5MediaPlayer5
+libKF5Mime5
 libKF5ModemManagerQt-devel
 libKF5ModemManagerQt6
 libKF5NetworkManagerQt-devel
@@ -1744,9 +1772,11 @@ libKF5NotifyConfig5
 libKF5NotifyConfig5-lang
 libKF5Parts5
 libKF5Parts5-lang
+libKF5PimTextEdit5
 libKF5Plotting5
 libKF5Pty5
 libKF5Pty5-lang
+libKF5QGpgme5
 libKF5QuickAddons5
 libKF5Runner5
 libKF5Sane5
@@ -1759,9 +1789,11 @@ libKF5SonnetUi5
 libKF5Style5
 libKF5Su5
 libKF5Su5-lang
+libKF5Syndication5
 libKF5TextWidgets5
 libKF5TextWidgets5-lang
 libKF5ThreadWeaver5
+libKF5Tnef5
 libKF5UnitConversion5
 libKF5UnitConversion5-lang
 libKF5Wallet5
@@ -1955,7 +1987,6 @@ libadns1
 libaio-devel
 libaio1
 libakonadi4
-libakonadiprotocolinternals-devel
 libakonadiprotocolinternals1
 libalkimia-devel
 libalkimia4
@@ -2560,7 +2591,6 @@ libieee1284
 libieee1284-32bit
 libimobiledevice-devel
 libimobiledevice6
-libindi
 libindi-devel
 libindi1
 libindiAlignmentDriver1
@@ -2625,8 +2655,8 @@ libkdegames
 libkdegames-devel
 libkdegames4
 libkdegames6
+libkdepim
 libkdepimlibs4
-libkdepimlibs4-devel
 libkdevplatform-devel
 libkdevplatform8
 libkeduvocdocument4
@@ -2639,9 +2669,6 @@ libkeyutils1-32bit
 libkf5kdegames6
 libkface
 libkface-devel
-libkfbapi-lang
-libkfbapi1
-libkgapi2-2
 libkgeomap-devel
 libkipi-devel
 libkmahjongg
@@ -2650,7 +2677,7 @@ libkmahjongg4
 libkmahjongglib4
 libkmod2
 libkms1
-libkolab0
+libkolab1
 libkolabxml1
 libkomparediff2-5
 libkonq-devel
@@ -2966,7 +2993,6 @@ libpq5
 libpq5-32bit
 libpqxx-4_0
 libpqxx-devel
-libprison-devel
 libprison0
 libprocps3
 libprotobuf-c1
@@ -4397,7 +4423,6 @@ planner
 planner-lang
 plasma-framework
 plasma-framework-components
-plasma-framework-devel
 plasma-framework-lang
 plasma-framework-private
 plasma-nm5
@@ -4419,7 +4444,6 @@ plasma5-pk-updates-lang
 plasma5-session
 plasma5-workspace
 plasma5-workspace-branding-openSUSE
-plasma5-workspace-devel
 plasma5-workspace-lang
 plasma5-workspace-libs
 plymouth
@@ -4553,8 +4577,6 @@ python-ibus
 python-idna
 python-ipaddress
 python-kde4
-python-kde4-akonadi
-python-kde4-devel
 python-kde4-doc
 python-kde4-khtml
 python-kde4-knewstuff
@@ -4585,8 +4607,6 @@ python-pyserial
 python-pyudev
 python-pywbem
 python-qt4
-python-qt4-devel
-python-qt4-utils
 python-sip
 python-sip-devel
 python-six
@@ -5165,7 +5185,6 @@ vaapi-intel-driver
 vacation
 vala
 valgrind
-valgrind-devel
 vcdimager
 vdr
 vhba-kmp-default
@@ -5488,7 +5507,6 @@ xorg-x11-util-devel
 xosd
 xosview
 xournal
-xplanet
 xplsprinters
 xpr
 xprehashprinterlist
