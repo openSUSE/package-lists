@@ -611,6 +611,7 @@ fprintd-pam
 fprintd-pam-32bit
 frameworkintegration-devel
 frameworkintegration-plugin
+freerdp
 freetype2-devel
 fribidi
 ft2demos
@@ -1240,7 +1241,6 @@ kio_mtp
 kipi-plugin-icons
 kipi-plugins
 kipi-plugins-acquireimage
-kipi-plugins-geolocation
 kipi-plugins-lang
 kipi-plugins5
 kitemmodels-devel
@@ -1674,7 +1674,6 @@ libaspell15
 libass5
 libassuan-devel
 libassuan0
-libastro-qt5-1
 libastro1
 libatasmart4
 libatk-1_0-0
@@ -1959,6 +1958,7 @@ libformula
 libfprint0
 libfreebl3
 libfreehand-0_1-1
+libfreerdp2
 libfreetype6
 libfreetype6-32bit
 libfribidi0
@@ -2302,7 +2302,6 @@ libm17n0
 libmagic1
 libmal-devel
 libmal1
-libmarblewidget-qt5-24
 libmarblewidget22
 libmbedtls9
 libmbim-glib4
@@ -2567,11 +2566,13 @@ libquadmath0
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
+librados2
 libraptor2-0
 librasqal3
 libraw1394-11
 libraw1394-devel
 libraw15
+librbd1
 librcc0
 librcd0
 librdf0
@@ -3107,10 +3108,6 @@ man-pages-ja
 man-pages-posix
 man-pages-zh_CN
 manufacturer-PPDs
-marble
-marble-data
-marble-doc
-marble-kde
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -3683,7 +3680,6 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pulseaudio-utils-32bit
 purpose
-purpose-lang
 pychecker
 python
 python-CherryPy
@@ -3808,6 +3804,7 @@ reiserfs
 release-notes-openSUSE
 remmina
 remmina-lang
+remmina-plugin-rdp
 remmina-plugin-vnc
 remmina-plugin-xdmcp
 renderproto-devel

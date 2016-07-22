@@ -401,6 +401,7 @@ four-in-a-row-lang
 fprintd
 fprintd-pam
 frameworkintegration-plugin
+freerdp
 fribidi
 ft2demos
 fuse
@@ -860,7 +861,6 @@ kio_mtp
 kipi-plugin-icons
 kipi-plugins
 kipi-plugins-acquireimage
-kipi-plugins-geolocation
 kipi-plugins-lang
 kipi-plugins5
 kiten
@@ -1149,6 +1149,7 @@ libao-plugins4
 libao4
 libapparmor-devel
 libapparmor1
+libappindicator3-1
 libappstream-builder8
 libappstream-glib8
 libappstream3
@@ -1163,7 +1164,6 @@ libasound2
 libaspell15
 libass5
 libassuan0
-libastro-qt5-1
 libastro1
 libatasmart4
 libatk-1_0-0
@@ -1303,6 +1303,8 @@ libdb-4_5
 libdb-4_8
 libdb-4_8-devel
 libdbus-1-3
+libdbusmenu-glib4
+libdbusmenu-gtk3-4
 libdbusmenu-qt2
 libdbusmenu-qt5-2
 libdc1394-22
@@ -1395,6 +1397,7 @@ libformula
 libfprint0
 libfreebl3
 libfreehand-0_1-1
+libfreerdp2
 libfreetype6
 libfribidi0
 libfuse2
@@ -1567,6 +1570,7 @@ libidn11
 libidnkit1
 libieee1284
 libimobiledevice6
+libindicator3-7
 libinput-udev
 libinput10
 libiptc0
@@ -1671,7 +1675,6 @@ liblz4-1_7
 liblzma5
 liblzo2-2
 libmagic1
-libmarblewidget-qt5-24
 libmarblewidget22
 libmbedtls9
 libmbim-glib4
@@ -2248,10 +2251,6 @@ man-pages
 man-pages-posix
 man-pages-zh_CN
 manufacturer-PPDs
-marble
-marble-data
-marble-doc
-marble-kde
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -2659,7 +2658,6 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 purpose
-purpose-lang
 python
 python-CherryPy
 python-atspi
@@ -2749,6 +2747,7 @@ reiserfs
 release-notes-openSUSE
 remmina
 remmina-lang
+remmina-plugin-rdp
 remmina-plugin-vnc
 remmina-plugin-xdmcp
 rgb

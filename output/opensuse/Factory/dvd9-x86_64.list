@@ -1498,7 +1498,6 @@ kiosktool-lang
 kipi-plugin-icons
 kipi-plugins
 kipi-plugins-acquireimage
-kipi-plugins-geolocation
 kipi-plugins-lang
 kipi-plugins5
 kiriki
@@ -2002,7 +2001,6 @@ libaspell15
 libass5
 libassuan-devel
 libassuan0
-libastro-qt5-1
 libastro1
 libatasmart4
 libatk-1_0-0
@@ -3169,12 +3167,14 @@ libquvi-0_9-0_9_4
 libquvi-scripts
 libqwt5
 libqyoto2
+librados2
 libraptor2-0
 librasqal3
 libraw-devel
 libraw1394-11
 libraw1394-devel
 libraw15
+librbd1
 librcc0
 librcd0
 librcps-devel
@@ -3336,6 +3336,7 @@ libssh2-1
 libssh4
 libsss_idmap0
 libsss_nss_idmap0
+libsss_simpleifp0
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
@@ -3770,11 +3771,6 @@ man-pages-ja
 man-pages-posix
 man-pages-zh_CN
 manufacturer-PPDs
-marble
-marble-data
-marble-devel
-marble-doc
-marble-kde
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -4413,12 +4409,10 @@ perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
-perl-Test-Deep
 perl-Test-Exception
 perl-Test-LeakTrace
 perl-Test-Pod
 perl-Test-Pod-Coverage
-perl-Test-Warn
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
@@ -4649,7 +4643,6 @@ pulseaudio-utils
 pulseaudio-utils-32bit
 purple-plugin-pack-lang
 purpose
-purpose-lang
 pwgen
 pychecker
 python
@@ -4864,6 +4857,7 @@ rekonq-lang
 release-notes-openSUSE
 remmina
 remmina-lang
+remmina-plugin-rdp
 remmina-plugin-vnc
 remmina-plugin-xdmcp
 renderproto-devel
