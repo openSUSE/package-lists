@@ -963,7 +963,6 @@ libpoppler-qt5-1
 libpoppler60
 libpopt0
 libportaudio2
-libpq5
 libprison0
 libprocps3
 libprotobuf-c1
@@ -990,7 +989,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-postgresql
+libqt4-sql-unixODBC
 libqt4-x11
 libqt5-linguist
 libqt5-qtgraphicaleffects
@@ -1543,6 +1542,7 @@ udev
 udev-configure-printer
 udisks2
 udisks2-lang
+unixODBC
 unzip
 unzip-doc
 update-alternatives

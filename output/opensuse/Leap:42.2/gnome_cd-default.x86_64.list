@@ -41,6 +41,7 @@ apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
+appstream-glib
 at-spi2-atk-common
 at-spi2-atk-gtk2
 at-spi2-core
@@ -166,6 +167,7 @@ fribidi
 fuse
 gamin-server
 gawk
+gcab
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -236,6 +238,7 @@ gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
+gnome-software
 gnome-sudoku
 gnome-system-monitor
 gnome-terminal
@@ -389,6 +392,8 @@ libaio1
 libao-plugins4
 libao4
 libapparmor1
+libappstream-builder8
+libappstream-glib8
 libarchive13
 libasm1
 libasound2
@@ -530,6 +535,7 @@ libfuse2
 libgadu3
 libgbm1
 libgc1
+libgcab-1_0-0
 libgcc_s1
 libgcc_s1-32bit
 libgck-1-0
@@ -606,11 +612,13 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvideo-1_0-0
 libgstwayland-1_0-0
+libgsystem0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
+libgtkspell3-3-0
 libgtop-2_0-10
 libgucharmap_2_90-7
 libgudev-1_0-0
@@ -728,6 +736,7 @@ libopus0
 liborc-0_4-0
 libosinfo
 libosinfo-1_0-0
+libostree-1-1
 libp11-kit0
 libpackagekit-glib2-18
 libpango-1_0-0
@@ -923,6 +932,7 @@ libxcb-xinerama0
 libxcb-xkb1
 libxcb-xv0
 libxcb1
+libxdg-app0
 libxkbcommon-x11-0
 libxkbcommon0
 libxkbfile1
@@ -944,6 +954,7 @@ libzbar0
 libzio1
 libzvbi0
 libzypp
+libzypp-plugin-appdata
 liferea
 lightsoff
 linuxconsoletools
