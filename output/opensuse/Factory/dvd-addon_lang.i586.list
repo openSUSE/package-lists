@@ -579,7 +579,6 @@ filesystem
 fillup
 findutils
 finger
-fipscheck
 firebird
 five-or-more
 five-or-more-lang
@@ -1180,9 +1179,7 @@ kernel-devel
 kernel-firmware
 kernel-macros
 kernel-pae
-kernel-pae-devel
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -1223,6 +1220,7 @@ kio_mtp
 kipi-plugin-icons
 kipi-plugins
 kipi-plugins-acquireimage
+kipi-plugins-geolocation
 kipi-plugins-lang
 kipi-plugins5
 kitemmodels-devel
@@ -1864,7 +1862,6 @@ libfdt1
 libffi-devel-gcc5
 libffi4
 libfftw3-3
-libfipscheck1
 libfltk1
 libfluidsynth1
 libfm
@@ -2200,6 +2197,7 @@ libm17n0
 libmagic1
 libmal-devel
 libmal1
+libmarblewidget-qt5-24
 libmarblewidget22
 libmbedtls9
 libmbim-glib4
@@ -2927,6 +2925,10 @@ man-pages-ja
 man-pages-posix
 man-pages-zh_CN
 manufacturer-PPDs
+marble
+marble-data
+marble-doc
+marble-kde
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -2959,7 +2961,6 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
-mozilla-nss-tools
 mpt-firmware
 mpt-status
 mt_st
@@ -3393,8 +3394,6 @@ perl-libxml-perl
 perl-razor-agents
 perl-solv
 permissions
-pesign
-pesign-obs-integration
 phalanx
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer

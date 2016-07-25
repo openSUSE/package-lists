@@ -230,7 +230,6 @@ baobab
 bash
 bash-completion
 bash-doc
-bbswitch-kmp-default
 bbswitch-kmp-pae
 bc
 bcel
@@ -427,7 +426,6 @@ cpupower
 cracklib
 cracklib-dict-full
 cracklib-dict-small
-crash-kmp-default
 crash-kmp-pae
 crda
 createrepo
@@ -648,7 +646,6 @@ filesystem
 fillup
 findutils
 finger
-fipscheck
 firebird
 five-or-more
 five-or-more-lang
@@ -1070,7 +1067,6 @@ hamcrest
 hardlink
 harfbuzz-devel
 haveged
-hdjmod-kmp-default
 hdjmod-kmp-pae
 hdparm
 help2man
@@ -1389,9 +1385,7 @@ kernel-docs
 kernel-firmware
 kernel-macros
 kernel-pae
-kernel-pae-devel
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -1438,6 +1432,7 @@ kiosktool-lang
 kipi-plugin-icons
 kipi-plugins
 kipi-plugins-acquireimage
+kipi-plugins-geolocation
 kipi-plugins-lang
 kipi-plugins5
 kiriki
@@ -2184,7 +2179,6 @@ libffi-devel-gcc5
 libffi4
 libfftw3-3
 libfftw3_threads3
-libfipscheck1
 libfli-devel
 libfli1
 libfltk1
@@ -3475,6 +3469,11 @@ man-pages-ja
 man-pages-posix
 man-pages-zh_CN
 manufacturer-PPDs
+marble
+marble-data
+marble-devel
+marble-doc
+marble-kde
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -3534,7 +3533,6 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
-mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -3816,7 +3814,6 @@ patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
-pcfclock-kmp-default
 pcfclock-kmp-pae
 pciutils
 pciutils-devel
@@ -4113,8 +4110,6 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4670,7 +4665,6 @@ swell-foop
 swig
 sysconfig
 sysconfig-netconfig
-sysdig-kmp-default
 sysdig-kmp-pae
 sysfsutils
 syslinux
@@ -4912,7 +4906,6 @@ vala
 valgrind
 vcdimager
 vdr
-vhba-kmp-default
 vhba-kmp-pae
 videoproto-devel
 viewnior
@@ -5188,7 +5181,6 @@ xset
 xsetroot
 xslide
 xstroke
-xtables-addons-kmp-default
 xtables-addons-kmp-pae
 xtables-plugins
 xterm
