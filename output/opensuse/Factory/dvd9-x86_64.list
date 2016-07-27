@@ -447,6 +447,7 @@ cracklib-dict-full
 cracklib-dict-small
 crash-kmp-default
 crda
+create-resources
 createrepo
 cron
 cronie
@@ -1578,6 +1579,7 @@ kremotecontrol
 krename
 kreversi
 krfb
+krita
 kross
 kross-devel
 kruler
@@ -1795,6 +1797,7 @@ libOSMesa-devel
 libOSMesa9
 libOSMesa9-32bit
 libOpenCOLLADA0
+libOpenColorIO1
 libQgpsmm22
 libQt5Bluetooth5
 libQt5Bluetooth5-imports
@@ -2510,7 +2513,7 @@ libgsasl-lang
 libgsasl7
 libgsf-1-114
 libgsf-devel
-libgsl0
+libgsl19
 libgsm1
 libgsm1-32bit
 libgsound0
@@ -3398,6 +3401,7 @@ libtiff-devel
 libtiff5
 libtiff5-32bit
 libtimidity-0_1-0
+libtinyxml0
 libtirpc-netconfig
 libtirpc3
 libtirpc3-32bit
@@ -5230,6 +5234,8 @@ texlive-babel-bahasa
 texlive-babel-bahasa-doc
 texlive-babel-basque
 texlive-babel-basque-doc
+texlive-babel-belarusian
+texlive-babel-belarusian-doc
 texlive-babel-bosnian
 texlive-babel-bosnian-doc
 texlive-babel-breton
@@ -5285,8 +5291,12 @@ texlive-babel-latin
 texlive-babel-latin-doc
 texlive-babel-latvian
 texlive-babel-latvian-doc
+texlive-babel-macedonian
+texlive-babel-macedonian-doc
 texlive-babel-norsk
 texlive-babel-norsk-doc
+texlive-babel-occitan
+texlive-babel-occitan-doc
 texlive-babel-piedmontese
 texlive-babel-piedmontese-doc
 texlive-babel-polish
@@ -5323,9 +5333,10 @@ texlive-babel-thai
 texlive-babel-thai-doc
 texlive-babel-turkish
 texlive-babel-turkish-doc
-texlive-babel-ukraineb
-texlive-babel-ukraineb-doc
+texlive-babel-ukrainian
+texlive-babel-ukrainian-doc
 texlive-babel-vietnamese
+texlive-babel-vietnamese-doc
 texlive-babel-welsh
 texlive-babel-welsh-doc
 texlive-babelbib
@@ -5389,6 +5400,8 @@ texlive-bibtex8-bin
 texlive-bibtex8-doc
 texlive-bibtexu
 texlive-bibtexu-bin
+texlive-bibunits
+texlive-bibunits-doc
 texlive-bidi
 texlive-bidi-atbegshi
 texlive-bidi-atbegshi-doc
@@ -5405,6 +5418,8 @@ texlive-bigfoot
 texlive-bigfoot-doc
 texlive-binomexp
 texlive-binomexp-doc
+texlive-blochsphere
+texlive-blochsphere-doc
 texlive-blockdraw_mp
 texlive-blockdraw_mp-doc
 texlive-bloques
@@ -5477,6 +5492,9 @@ texlive-charter-fonts
 texlive-checkcites
 texlive-checkcites-bin
 texlive-checkcites-doc
+texlive-checklistings
+texlive-checklistings-bin
+texlive-checklistings-doc
 texlive-chemfig
 texlive-chemfig-doc
 texlive-chemgreek
@@ -5488,6 +5506,8 @@ texlive-chktex-bin
 texlive-chktex-doc
 texlive-chngcntr
 texlive-chngcntr-doc
+texlive-churchslavonic
+texlive-churchslavonic-doc
 texlive-circuitikz
 texlive-circuitikz-doc
 texlive-cite
@@ -5526,6 +5546,9 @@ texlive-cmbright-doc
 texlive-cmcyr
 texlive-cmcyr-doc
 texlive-cmcyr-fonts
+texlive-cmexb
+texlive-cmexb-doc
+texlive-cmexb-fonts
 texlive-cmextra
 texlive-cnbwp
 texlive-cnbwp-doc
@@ -5673,6 +5696,8 @@ texlive-csquotes-doc
 texlive-cstex
 texlive-ctable
 texlive-ctable-doc
+texlive-ctablestack
+texlive-ctablestack-doc
 texlive-ctan_chk
 texlive-ctanify
 texlive-ctanify-bin
@@ -5711,6 +5736,10 @@ texlive-de-macro-bin
 texlive-de-macro-doc
 texlive-dehyph-exptl
 texlive-dehyph-exptl-doc
+texlive-delim
+texlive-delim-doc
+texlive-delimseasy
+texlive-delimseasy-doc
 texlive-detex
 texlive-detex-bin
 texlive-dhua
@@ -5733,6 +5762,8 @@ texlive-dottex
 texlive-dottex-doc
 texlive-dratex
 texlive-dratex-doc
+texlive-drawmatrix
+texlive-drawmatrix-doc
 texlive-droit-fr
 texlive-droit-fr-doc
 texlive-drs
@@ -5763,6 +5794,7 @@ texlive-dviljk-bin
 texlive-dvipdfmx
 texlive-dvipdfmx-bin
 texlive-dvipdfmx-def
+texlive-dvipdfmx-def-doc
 texlive-dvipdfmx-doc
 texlive-dvipng
 texlive-dvipng-bin
@@ -5774,13 +5806,24 @@ texlive-dvips-doc
 texlive-dvipsconfig
 texlive-dvisvgm
 texlive-dvisvgm-bin
+texlive-dvisvgm-def
+texlive-dvisvgm-def-doc
+texlive-e-french
+texlive-e-french-doc
 texlive-ebproof
 texlive-ebproof-doc
 texlive-ec
 texlive-ec-doc
+texlive-econometrics
+texlive-econometrics-doc
 texlive-eepic
 texlive-eepic-doc
 texlive-einfuehrung
+texlive-einfuehrung2
+texlive-ellipse
+texlive-ellipse-doc
+texlive-ellipsis
+texlive-ellipsis-doc
 texlive-elocalloc
 texlive-elocalloc-doc
 texlive-emp
@@ -5905,6 +5948,8 @@ texlive-findhyph-doc
 texlive-finstrut
 texlive-finstrut-doc
 texlive-first-latex-doc
+texlive-fitbox
+texlive-fitbox-doc
 texlive-fix2col
 texlive-fix2col-doc
 texlive-fixlatvian
@@ -5924,6 +5969,8 @@ texlive-fnpara
 texlive-fnpara-doc
 texlive-font-change
 texlive-font-change-doc
+texlive-font-change-xetex
+texlive-font-change-xetex-doc
 texlive-fontbook
 texlive-fontbook-doc
 texlive-fontch
@@ -5936,6 +5983,9 @@ texlive-fontname-doc
 texlive-fontools
 texlive-fontools-bin
 texlive-fontools-doc
+texlive-fonts-churchslavonic
+texlive-fonts-churchslavonic-doc
+texlive-fonts-churchslavonic-fonts
 texlive-fonts-tlwg
 texlive-fonts-tlwg-doc
 texlive-fonts-tlwg-fonts
@@ -5951,6 +6001,7 @@ texlive-forest
 texlive-forest-doc
 texlive-forloop
 texlive-forloop-doc
+texlive-formation-latex-ul
 texlive-fourier
 texlive-fourier-doc
 texlive-fourier-fonts
@@ -5964,8 +6015,6 @@ texlive-fragmaster-bin
 texlive-fragmaster-doc
 texlive-framed
 texlive-framed-doc
-texlive-frenchle
-texlive-frenchle-doc
 texlive-frletter
 texlive-frletter-doc
 texlive-frontespizio
@@ -6001,6 +6050,8 @@ texlive-gfsporson-doc
 texlive-gfsporson-fonts
 texlive-gincltex
 texlive-gincltex-doc
+texlive-gloss-occitan
+texlive-gloss-occitan-doc
 texlive-glyphlist
 texlive-gmp
 texlive-gmp-doc
@@ -6013,6 +6064,8 @@ texlive-gradientframe-doc
 texlive-grafcet
 texlive-grafcet-doc
 texlive-graphics
+texlive-graphics-cfg
+texlive-graphics-cfg-doc
 texlive-graphics-doc
 texlive-graphics-pln
 texlive-graphics-pln-doc
@@ -6026,6 +6079,8 @@ texlive-greekdates
 texlive-greekdates-doc
 texlive-greektex
 texlive-greektex-doc
+texlive-greektonoi
+texlive-greektonoi-doc
 texlive-grundgesetze
 texlive-grundgesetze-doc
 texlive-gsftopk
@@ -6065,7 +6120,9 @@ texlive-hyphen-armenian
 texlive-hyphen-base
 texlive-hyphen-basque
 texlive-hyphen-bulgarian
+texlive-hyphen-bulgarian-doc
 texlive-hyphen-catalan
+texlive-hyphen-churchslavonic
 texlive-hyphen-coptic
 texlive-hyphen-croatian
 texlive-hyphen-czech
@@ -6083,6 +6140,7 @@ texlive-hyphen-german
 texlive-hyphen-greek
 texlive-hyphen-greek-doc
 texlive-hyphen-hungarian
+texlive-hyphen-hungarian-doc
 texlive-hyphen-icelandic
 texlive-hyphen-indonesian
 texlive-hyphen-interlingua
@@ -6094,6 +6152,7 @@ texlive-hyphen-latvian
 texlive-hyphen-lithuanian
 texlive-hyphen-mongolian
 texlive-hyphen-norwegian
+texlive-hyphen-occitan
 texlive-hyphen-piedmontese
 texlive-hyphen-polish
 texlive-hyphen-portuguese
@@ -6104,6 +6163,7 @@ texlive-hyphen-serbian
 texlive-hyphen-slovak
 texlive-hyphen-slovenian
 texlive-hyphen-spanish
+texlive-hyphen-spanish-doc
 texlive-hyphen-swedish
 texlive-hyphen-thai
 texlive-hyphen-turkish
@@ -6221,6 +6281,7 @@ texlive-lastpage
 texlive-lastpage-doc
 texlive-latex
 texlive-latex-bib-ex
+texlive-latex-bib2-ex
 texlive-latex-bin
 texlive-latex-bin-bin
 texlive-latex-brochure
@@ -6240,6 +6301,7 @@ texlive-latex-tabellen
 texlive-latex-veryshortguide
 texlive-latex-web-companion
 texlive-latex2e-help-texinfo
+texlive-latex2e-help-texinfo-fr
 texlive-latex2e-help-texinfo-spanish
 texlive-latex2man
 texlive-latex2man-bin
@@ -6313,10 +6375,13 @@ texlive-lpic
 texlive-lpic-doc
 texlive-lplfitch
 texlive-lplfitch-doc
+texlive-lroundrect
+texlive-lroundrect-doc
 texlive-lshort-bulgarian
 texlive-lshort-czech
 texlive-lshort-dutch
 texlive-lshort-english
+texlive-lshort-estonian
 texlive-lshort-finnish
 texlive-lshort-french
 texlive-lshort-german
@@ -6374,7 +6439,11 @@ texlive-luasseq
 texlive-luasseq-doc
 texlive-luatex
 texlive-luatex-bin
+texlive-luatex-def
+texlive-luatex-def-doc
 texlive-luatex-doc
+texlive-luatex85
+texlive-luatex85-doc
 texlive-luatexbase
 texlive-luatexbase-doc
 texlive-luatexko
@@ -6414,6 +6483,8 @@ texlive-match_parens-doc
 texlive-math-e
 texlive-mathcomp
 texlive-mathcomp-doc
+texlive-mathpartir
+texlive-mathpartir-doc
 texlive-mathpazo
 texlive-mathpazo-doc
 texlive-mathpazo-fonts
@@ -6469,6 +6540,8 @@ texlive-mflogo-doc
 texlive-mflogo-font
 texlive-mflogo-font-doc
 texlive-mflogo-font-fonts
+texlive-mflua
+texlive-mflua-bin
 texlive-mfnfss
 texlive-mfnfss-doc
 texlive-mfpic
@@ -6517,6 +6590,8 @@ texlive-mp3d
 texlive-mp3d-doc
 texlive-mparhack
 texlive-mparhack-doc
+texlive-mparrows
+texlive-mparrows-doc
 texlive-mpattern
 texlive-mpattern-doc
 texlive-mpcolornames
@@ -6529,6 +6604,8 @@ texlive-mptopdf-bin
 texlive-mptopdf-doc
 texlive-ms
 texlive-ms-doc
+texlive-msg
+texlive-msg-doc
 texlive-multido
 texlive-multido-doc
 texlive-multiobjective
@@ -6556,6 +6633,8 @@ texlive-needspace
 texlive-needspace-doc
 texlive-neuralnetwork
 texlive-neuralnetwork-doc
+texlive-nevelok
+texlive-nevelok-doc
 texlive-newsletr
 texlive-newsletr-doc
 texlive-newtxtt
@@ -6577,6 +6656,8 @@ texlive-numprint
 texlive-numprint-doc
 texlive-oberdiek
 texlive-oberdiek-doc
+texlive-ocgx2
+texlive-ocgx2-doc
 texlive-odsfile
 texlive-odsfile-doc
 texlive-omega
@@ -6610,6 +6691,8 @@ texlive-path
 texlive-path-doc
 texlive-pb-diagram
 texlive-pb-diagram-doc
+texlive-pbibtex-base
+texlive-pbibtex-base-doc
 texlive-pdfbook2
 texlive-pdfbook2-bin
 texlive-pdfbook2-doc
@@ -6633,12 +6716,16 @@ texlive-pdftricks
 texlive-pdftricks-doc
 texlive-pdftricks2
 texlive-pdftricks2-doc
+texlive-pdfxup
+texlive-pdfxup-bin
+texlive-pdfxup-doc
 texlive-pedigree-perl
 texlive-pedigree-perl-bin
 texlive-pedigree-perl-doc
 texlive-perfectcut
 texlive-perfectcut-doc
 texlive-petri-nets
+texlive-petri-nets-bin
 texlive-petri-nets-doc
 texlive-pfarrei
 texlive-pfarrei-bin
@@ -6649,6 +6736,8 @@ texlive-pgf-blur-doc
 texlive-pgf-doc
 texlive-pgf-soroban
 texlive-pgf-soroban-doc
+texlive-pgf-spectra
+texlive-pgf-spectra-doc
 texlive-pgf-umlcd
 texlive-pgf-umlcd-doc
 texlive-pgf-umlsd
@@ -6661,6 +6750,8 @@ texlive-pgfmolbio
 texlive-pgfmolbio-doc
 texlive-pgfopts
 texlive-pgfopts-doc
+texlive-pgfornament
+texlive-pgfornament-doc
 texlive-pgfplots
 texlive-pgfplots-doc
 texlive-philokalia
@@ -6726,6 +6817,8 @@ texlive-proba
 texlive-proba-doc
 texlive-productbox
 texlive-productbox-doc
+texlive-prooftrees
+texlive-prooftrees-doc
 texlive-przechlewski-book
 texlive-przechlewski-book-doc
 texlive-ps2pk
@@ -6764,6 +6857,8 @@ texlive-pst-bspline
 texlive-pst-bspline-doc
 texlive-pst-calendar
 texlive-pst-calendar-doc
+texlive-pst-cie
+texlive-pst-cie-doc
 texlive-pst-circ
 texlive-pst-circ-doc
 texlive-pst-coil
@@ -6913,9 +7008,13 @@ texlive-pstricks-examples
 texlive-pstricks-examples-en
 texlive-pstricks_calcnotes
 texlive-ptex
+texlive-ptex-base
+texlive-ptex-base-doc
 texlive-ptex-bin
 texlive-ptex-doc
 texlive-ptex-fonts
+texlive-ptex-fonts-doc
+texlive-ptex-fonts-fonts
 texlive-ptext
 texlive-ptext-doc
 texlive-purifyeps
@@ -6951,6 +7050,8 @@ texlive-realscripts
 texlive-realscripts-doc
 texlive-rec-thy
 texlive-rec-thy-doc
+texlive-regexpatch
+texlive-regexpatch-doc
 texlive-relsize
 texlive-relsize-doc
 texlive-reotex
@@ -7020,6 +7121,8 @@ texlive-showhyphens
 texlive-showhyphens-doc
 texlive-shuffle
 texlive-shuffle-doc
+texlive-signchart
+texlive-signchart-doc
 texlive-simplified-latex
 texlive-siunitx
 texlive-siunitx-doc
@@ -7042,6 +7145,9 @@ texlive-spelling
 texlive-spelling-doc
 texlive-splines
 texlive-splines-doc
+texlive-srcredact
+texlive-srcredact-bin
+texlive-srcredact-doc
 texlive-statex
 texlive-statex-doc
 texlive-statex2
@@ -7119,6 +7225,8 @@ texlive-tex-gyre-fonts
 texlive-tex-gyre-math
 texlive-tex-gyre-math-doc
 texlive-tex-gyre-math-fonts
+texlive-tex-ini-files
+texlive-tex-ini-files-doc
 texlive-tex-overview
 texlive-tex-ps
 texlive-tex-ps-doc
@@ -7159,6 +7267,7 @@ texlive-texlive-common
 texlive-texlive-cz
 texlive-texlive-de
 texlive-texlive-en
+texlive-texlive-es
 texlive-texlive-fr
 texlive-texlive-it
 texlive-texlive-pl
@@ -7194,12 +7303,15 @@ texlive-tie-bin
 texlive-tikz-3dplot
 texlive-tikz-3dplot-doc
 texlive-tikz-bayesnet
+texlive-tikz-bayesnet-doc
 texlive-tikz-cd
 texlive-tikz-cd-doc
 texlive-tikz-dependency
 texlive-tikz-dependency-doc
 texlive-tikz-dimline
 texlive-tikz-dimline-doc
+texlive-tikz-feynman
+texlive-tikz-feynman-doc
 texlive-tikz-inet
 texlive-tikz-inet-doc
 texlive-tikz-opm
@@ -7236,6 +7348,7 @@ texlive-tipa-de
 texlive-tipa-doc
 texlive-tipa-fonts
 texlive-tipfr
+texlive-tipfr-doc
 texlive-titlepages
 texlive-titlesec
 texlive-titlesec-doc
@@ -7313,6 +7426,8 @@ texlive-udesoftec-doc
 texlive-uhc
 texlive-uhc-doc
 texlive-uhc-fonts
+texlive-uhrzeit
+texlive-uhrzeit-doc
 texlive-ukrhyph
 texlive-ukrhyph-doc
 texlive-ulem
@@ -7323,13 +7438,19 @@ texlive-umlaute
 texlive-umlaute-doc
 texlive-underscore
 texlive-underscore-doc
+texlive-unicode-data
+texlive-unicode-data-doc
 texlive-unicode-math
 texlive-unicode-math-doc
 texlive-unisugar
 texlive-unisugar-doc
+texlive-updmap-map
 texlive-uptex
+texlive-uptex-base
+texlive-uptex-base-doc
 texlive-uptex-bin
-texlive-uptex-doc
+texlive-uptex-fonts
+texlive-uptex-fonts-doc
 texlive-url
 texlive-url-doc
 texlive-utf8mex
@@ -7352,6 +7473,8 @@ texlive-venndiagram-doc
 texlive-verbatimcopy
 texlive-verbatimcopy-doc
 texlive-visualfaq
+texlive-visualpstricks
+texlive-visualtikz
 texlive-vlna
 texlive-vlna-bin
 texlive-vntex
@@ -7385,6 +7508,8 @@ texlive-xcolor-doc
 texlive-xdvi
 texlive-xdvi-bin
 texlive-xdvi-doc
+texlive-xebaposter
+texlive-xebaposter-doc
 texlive-xecjk
 texlive-xecjk-doc
 texlive-xecolor
@@ -7402,6 +7527,7 @@ texlive-xespotcolor-doc
 texlive-xetex
 texlive-xetex-bin
 texlive-xetex-def
+texlive-xetex-def-doc
 texlive-xetex-doc
 texlive-xetex-itrans
 texlive-xetex-itrans-doc
@@ -7430,6 +7556,8 @@ texlive-xmltex
 texlive-xmltex-bin
 texlive-xmltex-doc
 texlive-xmltexconfig
+texlive-xpatch
+texlive-xpatch-doc
 texlive-xpicture
 texlive-xpicture-doc
 texlive-xstring
