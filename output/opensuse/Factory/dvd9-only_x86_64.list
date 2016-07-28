@@ -6,16 +6,18 @@ Mesa-libglapi0-32bit
 alsa-oss-32bit
 alsa-plugins-32bit
 alsa-plugins-pulse-32bit
-bbswitch-kmp-default
-crash-kmp-default
+brasero
+brasero-lang
+brasero-nautilus
+cdrdao
 cryptconfig-32bit
 cups-libs-32bit
 dbus-1-glib-32bit
 drbd
 drbd-kmp-default
 drbd-utils
+dvd+rw-tools
 esound-daemon
-fipscheck
 fontconfig-32bit
 fprintd-pam-32bit
 gdk-pixbuf-query-loaders-32bit
@@ -28,9 +30,8 @@ grub2-x86_64-xen
 gtk2-engine-cleanice-32bit
 gtk2-engine-murrine-32bit
 gtk2-tools-32bit
-hdjmod-kmp-default
 ibus-gtk-32bit
-kernel-syms
+k3b
 krb5-32bit
 libFLAC8-32bit
 libGLU1-32bit
@@ -66,6 +67,7 @@ libaudit1-32bit
 libavahi-client3-32bit
 libavahi-common3-32bit
 libblkid1-32bit
+libburn4
 libbz2-1-32bit
 libcairo2-32bit
 libcanberra-gtk0-32bit
@@ -94,7 +96,6 @@ libexif12-32bit
 libexpat1-32bit
 libfam0-gamin-32bit
 libffi4-32bit
-libfipscheck1
 libfreetype6-32bit
 libgbm1-32bit
 libgcc_s1-32bit
@@ -126,6 +127,8 @@ libhogweed4-32bit
 libibus-1_0-5-32bit
 libidn11-32bit
 libieee1284-32bit
+libisoburn1
+libisofs6
 libjasper1-32bit
 libjbig2-32bit
 libjpeg8-32bit
@@ -214,6 +217,7 @@ libuuid1-32bit
 libv4l1-0-32bit
 libv4l2-0-32bit
 libv4lconvert0-32bit
+libvcdinfo0
 libverto1-32bit
 libvirt-daemon-driver-libxl
 libvirt-daemon-xen
@@ -240,7 +244,6 @@ libxslt1-32bit
 libz1-32bit
 mcelog
 mokutil
-mozilla-nss-tools
 msmtp
 msmtp-mta
 nspluginwrapper
@@ -257,10 +260,7 @@ pam_krb5-32bit
 pam_ldap-32bit
 pam_mount-32bit
 pam_ssh-32bit
-pcfclock-kmp-default
 perl-32bit
-pesign
-pesign-obs-integration
 primus-32bit
 pulseaudio-utils-32bit
 python-talloc-32bit
@@ -274,10 +274,9 @@ sane-backends-32bit
 scim-gtk-32bit
 shim
 sssd-32bit
-sysdig-kmp-default
 systemd-32bit
 unixODBC-32bit
-vhba-kmp-default
+vcdimager
 virtualbox
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
@@ -290,5 +289,5 @@ xen-doc-html
 xen-tools
 xml-commons-jaxp-1.2-apis
 xml-commons-resolver11
-xtables-addons-kmp-default
+xorriso
 yast2-drbd

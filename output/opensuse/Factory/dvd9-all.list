@@ -236,6 +236,7 @@ baobab
 bash
 bash-completion
 bash-doc
+bbswitch-kmp-default
 bc
 bcel
 bcm20702a1-firmware
@@ -272,9 +273,6 @@ boost-jam
 boost-license1_60_0
 bovo
 branding-openSUSE
-brasero
-brasero-lang
-brasero-nautilus
 breeze
 breeze4-style
 breeze5-cursors
@@ -391,7 +389,6 @@ ccache
 cd-discid
 cdparanoia
 cdparanoia-devel
-cdrdao
 cdrkit-cdrtools-compat
 cellwriter
 cervisia
@@ -436,6 +433,7 @@ cpupower
 cracklib
 cracklib-dict-full
 cracklib-dict-small
+crash-kmp-default
 crda
 create-resources
 createrepo
@@ -560,7 +558,6 @@ dri3proto-devel
 drkonqi5
 dtv-scan-tables
 dvb
-dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
 ebtables
@@ -659,6 +656,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 firebird
 five-or-more
 five-or-more-lang
@@ -1097,6 +1095,7 @@ hamcrest
 hardlink
 harfbuzz-devel
 haveged
+hdjmod-kmp-default
 hdparm
 help2man
 hexchat
@@ -1272,7 +1271,6 @@ joe
 json-glib-devel
 juk
 junit
-k3b
 kaccounts-integration
 kaccounts-providers
 kactivities5-devel
@@ -1420,6 +1418,7 @@ kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2025,8 +2024,6 @@ libbrasero-media3-1
 libbrasero-utils3-1
 libbrlapi0_6
 libbtrfs0
-libburn4
-libburnia-tools
 libbz2-1
 libbz2-devel
 libbzrtp0
@@ -2228,6 +2225,7 @@ libffi-devel-gcc5
 libffi4
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfli-devel
 libfli1
 libfltk1
@@ -2526,8 +2524,6 @@ libisccfg140
 libiscsi7
 libisl15
 libiso9660-10
-libisoburn1
-libisofs6
 libiterm1
 libitm1
 libiw-devel
@@ -3255,7 +3251,6 @@ libva-glx1
 libva-x11-1
 libva1
 libvala-0_32-0
-libvcdinfo0
 libvdeplug3
 libvdpau1
 libvdpau_nouveau
@@ -3626,6 +3621,7 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
+mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -3926,6 +3922,7 @@ patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4222,6 +4219,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4643,7 +4642,6 @@ ruby2.2-rubygem-fast_gettext
 ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-augeas
 ruby2.2-rubygem-ruby-dbus
-ruby2.2-rubygem-yard
 ruby2.2-stdlib
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
@@ -4799,6 +4797,7 @@ swell-foop
 swig
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
 syslog-service
@@ -7501,8 +7500,8 @@ vaapi-intel-driver
 vacation
 vala
 valgrind
-vcdimager
 vdr
+vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -7734,7 +7733,6 @@ xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
 xml-commons-which10
-xml-group-manager
 xml2po
 xml2po-devel
 xmlbeans
@@ -7778,6 +7776,7 @@ xsetroot
 xslide
 xsp
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin

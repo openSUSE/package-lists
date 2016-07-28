@@ -37,6 +37,7 @@ file-magic
 filesystem
 fillup
 findutils
+fontconfig
 gawk
 gettext-runtime
 gio-branding-openSUSE
@@ -80,7 +81,10 @@ libX11-6
 libX11-data
 libXau6
 libXext6
+libXft2
 libXmuu1
+libXrender1
+libXss1
 libXt6
 libacl1
 libadns1
@@ -98,7 +102,6 @@ libboost_system1_60_0
 libboost_thread1_60_0
 libbtrfs0
 libburn4
-libburnia-tools
 libbz2-1
 libcap-ng0
 libcap2
@@ -273,6 +276,7 @@ systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
+tcl
 tcsh
 tcsh-lang
 telnet
@@ -280,6 +284,7 @@ terminfo-base
 thin-provisioning-tools
 time
 timezone
+tk
 tnftp
 traceroute
 udev
@@ -296,6 +301,8 @@ wicked-service
 wireless-regdb
 wol
 xauth
+xhost
+xorriso
 xz
 zypper
 zypper-aptitude

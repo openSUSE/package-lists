@@ -229,6 +229,7 @@ baobab
 bash
 bash-completion
 bash-doc
+bbswitch-kmp-default
 bbswitch-kmp-pae
 bc
 bcel
@@ -264,9 +265,6 @@ boost-jam
 boost-license1_60_0
 bovo
 branding-openSUSE
-brasero
-brasero-lang
-brasero-nautilus
 breeze
 breeze4-style
 breeze5-cursors
@@ -381,7 +379,6 @@ ccache
 cd-discid
 cdparanoia
 cdparanoia-devel
-cdrdao
 cdrkit-cdrtools-compat
 cellwriter
 cervisia
@@ -424,6 +421,7 @@ cppunit-devel
 cpupower
 cracklib
 cracklib-dict-full
+crash-kmp-default
 crash-kmp-pae
 crda
 create-resources
@@ -546,7 +544,6 @@ dri3proto-devel
 drkonqi5
 dtv-scan-tables
 dvb
-dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
 ebtables
@@ -644,6 +641,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 firebird
 five-or-more
 five-or-more-lang
@@ -1065,6 +1063,7 @@ hamcrest
 hardlink
 harfbuzz-devel
 haveged
+hdjmod-kmp-default
 hdjmod-kmp-pae
 hdparm
 help2man
@@ -1237,7 +1236,6 @@ joe
 json-glib-devel
 juk
 junit
-k3b
 kaccounts-integration
 kaccounts-providers
 kactivities5-devel
@@ -1382,7 +1380,9 @@ kernel-docs
 kernel-firmware
 kernel-macros
 kernel-pae
+kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -1982,8 +1982,6 @@ libbrasero-media3-1
 libbrasero-utils3-1
 libbrlapi0_6
 libbtrfs0
-libburn4
-libburnia-tools
 libbz2-1
 libbz2-devel
 libbzrtp0
@@ -2176,6 +2174,7 @@ libffi-devel-gcc5
 libffi4
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfli-devel
 libfli1
 libfltk1
@@ -2472,8 +2471,6 @@ libisccfg140
 libiscsi7
 libisl15
 libiso9660-10
-libisoburn1
-libisofs6
 libiterm1
 libitm1
 libiw-devel
@@ -3186,7 +3183,6 @@ libva-glx1
 libva-x11-1
 libva1
 libvala-0_32-0
-libvcdinfo0
 libvdeplug3
 libvdpau1
 libvdpau_nouveau
@@ -3529,6 +3525,7 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
+mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -3808,6 +3805,7 @@ patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
 pcfclock-kmp-pae
 pciutils
 pciutils-devel
@@ -4104,6 +4102,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4656,6 +4656,7 @@ swell-foop
 swig
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysdig-kmp-pae
 sysfsutils
 syslinux
@@ -4895,8 +4896,8 @@ vaapi-intel-driver
 vacation
 vala
 valgrind
-vcdimager
 vdr
+vhba-kmp-default
 vhba-kmp-pae
 videoproto-devel
 viewnior
@@ -5126,7 +5127,6 @@ xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
 xml-commons-resolver10
 xml-commons-which10
-xml-group-manager
 xml2po
 xml2po-devel
 xmlbeans
@@ -5169,6 +5169,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-addons-kmp-pae
 xtables-plugins
 xterm
