@@ -16,6 +16,7 @@ adwaita-icon-theme
 at-spi2-atk-common
 at-spi2-atk-gtk2
 at-spi2-core
+audit
 augeas-lenses
 bash
 bash-completion
@@ -151,6 +152,7 @@ libXmuu1
 libXpm4
 libXrandr2
 libXrender1
+libXss1
 libXt6
 libXtst6
 libXv1
@@ -171,6 +173,7 @@ libatspi0
 libattr1
 libaudit1
 libaugeas0
+libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-glib1
@@ -179,6 +182,7 @@ libbluray1
 libboost_system1_60_0
 libboost_thread1_60_0
 libbtrfs0
+libburn4
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -266,6 +270,8 @@ libicu57_1
 libicu57_1-ledata
 libidn11
 libimobiledevice6
+libisoburn1
+libisofs6
 libjasper1
 libjavascriptcoregtk-4_0-18
 libjbig2
@@ -465,6 +471,7 @@ systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
+tcl
 tcsh
 tcsh-lang
 telnet
@@ -472,6 +479,7 @@ terminfo-base
 thin-provisioning-tools
 time
 timezone
+tk
 tnftp
 traceroute
 typelib-1_0-Atk-1_0
@@ -496,7 +504,9 @@ wol
 xauth
 xen-libs
 xen-tools-domU
+xhost
 xkeyboard-config
+xorriso
 xz
 zypp-plugin-python
 zypper

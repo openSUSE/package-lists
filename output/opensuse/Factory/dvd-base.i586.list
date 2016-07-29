@@ -2,6 +2,7 @@ aaa_base
 aaa_base-extras
 acl
 adjtimex
+audit
 augeas-lenses
 bash
 bash-completion
@@ -37,6 +38,7 @@ file-magic
 filesystem
 fillup
 findutils
+fontconfig
 gawk
 gettext-runtime
 gio-branding-openSUSE
@@ -80,7 +82,10 @@ libX11-6
 libX11-data
 libXau6
 libXext6
+libXft2
 libXmuu1
+libXrender1
+libXss1
 libXt6
 libacl1
 libadns1
@@ -91,12 +96,14 @@ libassuan0
 libattr1
 libaudit1
 libaugeas0
+libauparse0
 libavahi-client3
 libavahi-common3
 libblkid1
 libboost_system1_60_0
 libboost_thread1_60_0
 libbtrfs0
+libburn4
 libbz2-1
 libcap-ng0
 libcap2
@@ -139,6 +146,8 @@ libhogweed4
 libicu57_1
 libicu57_1-ledata
 libidn11
+libisoburn1
+libisofs6
 libkeyutils1
 libkmod2
 libksba8
@@ -268,6 +277,7 @@ systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
+tcl
 tcsh
 tcsh-lang
 telnet
@@ -275,6 +285,7 @@ terminfo-base
 thin-provisioning-tools
 time
 timezone
+tk
 tnftp
 traceroute
 udev
@@ -291,6 +302,8 @@ wicked-service
 wireless-regdb
 wol
 xauth
+xhost
+xorriso
 xz
 zypper
 zypper-aptitude
