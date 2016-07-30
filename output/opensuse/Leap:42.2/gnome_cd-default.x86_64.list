@@ -353,7 +353,6 @@ gstreamer-0_10-utils
 gstreamer-0_10-utils-unversioned
 gstreamer-lang
 gstreamer-libnice
-gstreamer-plugin-gstclutter
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
 gstreamer-plugins-bad-lang
@@ -512,6 +511,8 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libavahi-gobject0
+libavcodec56
+libavutil54
 libblkid1
 libbluetooth3
 libbluray1
@@ -550,7 +551,6 @@ libcheese-gtk25
 libcheese8
 libcloog-isl4
 libclutter-1_0-0
-libclutter-gst-2_0-0
 libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcogl-pango20
@@ -837,6 +837,7 @@ libofa0
 libogg0
 liboggkate1
 libopenjp2-7
+libopenjpeg1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
@@ -961,6 +962,8 @@ libstdc++6-32bit
 libstoken1
 libstorage-ruby
 libstorage7
+libswresample1
+libswscale3
 libsystemd0
 libtag1
 libtag_c0
@@ -1004,6 +1007,11 @@ libv4l
 libv4l1-0
 libv4l2-0
 libv4lconvert0
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
 libvdpau_nouveau
 libverto1
 libvisual
@@ -1428,7 +1436,7 @@ typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
 typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
-typelib-1_0-ClutterGst-2_0
+typelib-1_0-ClutterGst-3_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
@@ -1504,6 +1512,7 @@ usbutils
 util-linux
 util-linux-lang
 util-linux-systemd
+vaapi-dummy-driver
 vim
 vino
 vino-lang

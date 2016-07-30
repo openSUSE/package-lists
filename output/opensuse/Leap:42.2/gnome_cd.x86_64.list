@@ -398,7 +398,6 @@ gstreamer-0_10-utils
 gstreamer-0_10-utils-unversioned
 gstreamer-lang
 gstreamer-libnice
-gstreamer-plugin-gstclutter
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
 gstreamer-plugins-bad-lang
@@ -571,6 +570,8 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libavahi-gobject0
+libavcodec56
+libavutil54
 libbabl-0_1-0
 libbasicobjects0
 libblas3
@@ -616,7 +617,6 @@ libcheese8
 libcholmod-3_0_6
 libcloog-isl4
 libclutter-1_0-0
-libclutter-gst-2_0-0
 libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcogl-pango20
@@ -926,6 +926,7 @@ libofa0
 libogg0
 liboggkate1
 libopenjp2-7
+libopenjpeg1
 libopenraw1
 libopenssl1_0_0
 libopus0
@@ -1062,6 +1063,8 @@ libstoken1
 libstorage-ruby
 libstorage7
 libsuitesparseconfig-4_4_5
+libswresample1
+libswscale3
 libsystemd0
 libtag1
 libtag_c0
@@ -1589,7 +1592,7 @@ typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
 typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
-typelib-1_0-ClutterGst-2_0
+typelib-1_0-ClutterGst-3_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
