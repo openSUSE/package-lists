@@ -268,6 +268,7 @@ bash
 bash-completion
 bash-doc
 bash-lang
+bbswitch-kmp-default
 bc
 bcel
 bdftopcf
@@ -598,7 +599,6 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
-esound-daemon
 espeak
 etags
 ethtool
@@ -624,7 +624,6 @@ evolution-plugin-pst-import
 evolution-plugin-spamassassin
 exif
 exiftool
-exim
 exo-lang
 exo-tools
 expat
@@ -1030,7 +1029,6 @@ gstreamer-devel
 gstreamer-lang
 gstreamer-libnice
 gstreamer-plugin-gnonlin
-gstreamer-plugin-gstclutter
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
 gstreamer-plugins-bad-lang
@@ -1333,7 +1331,6 @@ kalarm5
 kalgebra
 kalzium
 kanagram
-kapptemplate
 karchive-devel
 kate
 kate-plugins
@@ -1595,6 +1592,7 @@ kross
 kross-devel
 kross-lang
 kruler
+krunner-devel
 krusader
 kscd
 kscreen5
@@ -2175,7 +2173,6 @@ libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
 libclutter-1_0-0
-libclutter-gst-2_0-0
 libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
 libcmis-0_5-5
@@ -2359,6 +2356,7 @@ libftgl2
 libfuse2
 libgadu-devel
 libgadu3
+libgames-support2
 libgarcon-1-0
 libgarcon-branding-openSUSE
 libgarcon-data
@@ -2399,7 +2397,7 @@ libgdata-lang
 libgdata22
 libgdbm4
 libgdbm4-32bit
-libgdict-1_0-8
+libgdict-1_0-10
 libgdict-data
 libgdiplus0
 libgdk_pixbuf-2_0-0
@@ -2500,6 +2498,8 @@ libgraphite2-3
 libgraphite2-3-32bit
 libgrilo-0_3-0
 libgrlpls-0_3-0
+libgsasl-lang
+libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsf-lang
@@ -2615,7 +2615,6 @@ libindi1
 libindiAlignmentDriver1
 libindicator3-7
 libindidriver1
-libindimain1
 libini_config5
 libinput-udev
 libinput10
@@ -2782,8 +2781,8 @@ libmbim-glib4
 libmcrypt
 libmeanwhile1
 libmediaart-2_0-0
-libmediastreamer_base4
-libmediastreamer_voip4
+libmediastreamer_base6
+libmediastreamer_voip6
 libmenu-cache3
 libmhash2
 libmikmod3
@@ -2892,6 +2891,7 @@ libnova-devel
 libnsl2
 libnsssharedhelper0
 libntfs-3g84
+libntlm0
 libnuma1
 liboauth-devel
 liboauth0
@@ -2928,7 +2928,7 @@ libopenssl1_0_0-32bit
 libopus0
 liborc-0_4-0
 liborcus-0_11-0
-libortp9
+libortp10
 libosinfo
 libosinfo-1_0-0
 libosinfo-lang
@@ -3225,7 +3225,6 @@ libsepol1
 libsepol1-32bit
 libserf-1-1
 libserializer
-libsexy
 libsfcUtil0
 libsgutils2-2
 libshout3
@@ -3282,7 +3281,6 @@ libspeechd2
 libspeex1
 libspeex1-32bit
 libspeexdsp1
-libspf2-2
 libspice-client-glib-2_0-8
 libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
@@ -3791,6 +3789,8 @@ mpfr-devel
 mpt-firmware
 mpt-status
 mrtg
+msmtp
+msmtp-mta
 mtdev-devel
 mtools
 mtpaint
@@ -4475,6 +4475,7 @@ planner
 planner-lang
 plasma-framework
 plasma-framework-components
+plasma-framework-devel
 plasma-framework-lang
 plasma-framework-private
 plasma-nm5
@@ -4496,6 +4497,7 @@ plasma5-pk-updates-lang
 plasma5-session
 plasma5-workspace
 plasma5-workspace-branding-openSUSE
+plasma5-workspace-devel
 plasma5-workspace-lang
 plasma5-workspace-libs
 plymouth
@@ -4562,6 +4564,7 @@ pullin-bcm43xx-firmware
 pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
+pulseaudio-esound-compat
 pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
@@ -5111,7 +5114,6 @@ typelib-1_0-Atspi-2_0
 typelib-1_0-Caribou-1_0
 typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
-typelib-1_0-ClutterGst-2_0
 typelib-1_0-ClutterGst-3_0
 typelib-1_0-Cogl-1_0
 typelib-1_0-Cogl-2_0
@@ -5333,13 +5335,6 @@ xbrlapi
 xcalc
 xcb-proto-devel
 xcb-util-devel
-xchat
-xchat-gnome
-xchat-gnome-lang
-xchat-lang
-xchat-perl
-xchat-python
-xchat-tcl
 xclipboard
 xclock
 xcmsdb
