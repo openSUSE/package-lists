@@ -1411,6 +1411,7 @@ kde4-filesystem
 kdebase4-libkonq
 kdebase4-nsplugin
 kdebase4-runtime
+kdebase4-workspace-libs
 kdebindings-smokegen
 kdeclarative-components
 kdeclarative-devel
@@ -1437,6 +1438,11 @@ kdesignerplugin
 kdesignerplugin-devel
 kdesignerplugin-lang
 kdesu-devel
+kdevelop4
+kdevelop4-devel
+kdevelop4-lang
+kdevelop4-plugin-cppsupport
+kdevelop4-plugins-php
 kdevplatform
 kdevplatform-lang
 kdewebkit-devel
@@ -1636,6 +1642,7 @@ ktp-send-file
 ktp-text-ui
 ktuberling
 kturtle
+ktux
 kubrick
 kunitconversion-devel
 kwallet-devel
@@ -3114,18 +3121,22 @@ libqt5-qttools-doc
 libqt5-qtwebsockets-devel
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
+libqtcurve-cairo1
+libqtcurve-utils2
 libquadmath0
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
 libqwt5
 libqzeitgeist1
+librados2
 libraptor2-0
 librasqal3
 libraw-devel
 libraw1394-11
 libraw1394-devel
 libraw15
+librbd1
 librcc0
 librcd0
 librcps-devel
@@ -3426,6 +3437,7 @@ libverto-devel
 libverto1
 libverto1-32bit
 libvigraimpex5
+libvirglrenderer0
 libvirt
 libvirt-client
 libvirt-daemon
@@ -3655,6 +3667,7 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
+lttng-ust
 lua
 lua-devel
 luasocket
@@ -4719,6 +4732,7 @@ qemu-arm
 qemu-block-curl
 qemu-block-dmg
 qemu-block-iscsi
+qemu-block-rbd
 qemu-block-ssh
 qemu-extra
 qemu-ipxe
@@ -4737,6 +4751,8 @@ qhull-devel
 qoauth-devel
 qrencode-devel
 qt4-qtscript
+qtcurve-gtk2
+qtcurve-qt5
 quadrapassel
 quadrapassel-lang
 quagga
@@ -5266,7 +5282,6 @@ vinagre
 vinagre-lang
 vino
 vino-lang
-virglrenderer
 virt-install
 virt-manager
 virt-manager-common
