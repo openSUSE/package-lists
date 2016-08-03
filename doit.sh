@@ -4,50 +4,50 @@ set -e
 export LC_ALL=C
 
 if [ -n "$1" ]; then
-	export proj="$1"
+        export proj="$1"
 else
         export proj="Factory"
 fi
 
 case $proj in
-	Factory)arches="i586 x86_64"
-		repo="standard"
-		;;
+        Factory)arches="i586 x86_64"
+                repo="standard"
+                ;;
         Leap:42.2) arches="x86_64"
                 repo="standard"
                 ;;
         Leap:42.*:Ports) arches="ppc64le aarch64"
                 repo="ports"
                 ;;
-	Factory:PowerPC) arches="ppc64 ppc64le"
-		repo="standard"
-		;;
-	Factory:ARM)
-		arches="aarch64"
-		repo="standard"
-		;;
+        Factory:PowerPC) arches="ppc64 ppc64le"
+                repo="standard"
+                ;;
+        Factory:ARM)
+                arches="aarch64"
+                repo="standard"
+                ;;
 esac
 
 is_x86(){
-	case $1 in
-		i586|x86_64) return 0;;
-		aarch64|ppc64|ppc64le) return 1;;
-	esac
+        case $1 in
+                i586|x86_64) return 0;;
+                aarch64|ppc64|ppc64le) return 1;;
+        esac
 }
 
 echo "generate dvds for $proj $repo at "
 date
 
 if [ ! -e osc/openSUSE\:$proj/_product/.osc ]; then
-	mkdir -p osc
-	cd osc
-	osc co openSUSE:$proj _product
-	cd -
+        mkdir -p osc
+        cd osc
+        osc co openSUSE:$proj _product
+        cd -
 fi
 
 if [ ! -e osc-plugin-factory/bs_mirrorfull ]; then
-	echo "please check out osc-plugin-factory here!" >&2
-	exit 1
+        echo "please check out osc-plugin-factory here!" >&2
+        exit 1
 fi
 
 grep -v openSUSE-release osc/openSUSE:$proj/_product/NON_FTP_PACKAGES.group | grep 'package name=' | \
@@ -70,7 +70,7 @@ for arch in $arches; do
         fi
 
    # installcheck $arch trees/openSUSE:$proj:NonFree-$repo-$arch.solv | grep "nothing provides" | \
-#	sed -e 's,^.*nothing provides ,job install provides ,; s, needed by.*,,' | sort -u > opensuse/$proj/dvd-nonoss-deps-$arch
+#       sed -e 's,^.*nothing provides ,job install provides ,; s, needed by.*,,' | sort -u > opensuse/$proj/dvd-nonoss-deps-$arch
    if $(is_x86 $arch) ;then
     ./gen.pl opensuse/$proj/kde4_cd $arch "$proj" $repo
     ./gen.pl opensuse/$proj/kde4_cd-default $arch "$proj" $repo
@@ -82,7 +82,7 @@ for arch in $arches; do
       ./gen.pl opensuse/$proj/kde4_cd-unstable $arch "$proj" $repo
       ./gen.pl opensuse/$proj/gnome_cd-nobundles $arch "$proj" $repo
       ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
-      ./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
+      #./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
     fi
     if test "$proj" = "Factory" -o "$proj" = "Leap:42.2"; then
       ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
@@ -114,16 +114,19 @@ for arch in $arches; do
 
     cat output/opensuse/$proj/dvd-1.$arch.list output/opensuse/$proj/dvd-2.$arch.list output/opensuse/$proj/dvd-3.$arch.list output/opensuse/$proj/dvd-base.$arch.list | LC_ALL=C sort -u > output/opensuse/$proj/dvd-$arch.list
     if $(is_x86 $arch); then
-       if test "$proj" = "Factory"; then
-	   cat output/opensuse/$proj/dvd-$arch.list output/opensuse/$proj/dvd9.$arch.list | LC_ALL=C sort -u > output/opensuse/$proj/dvd9-$arch.list
-       fi
+        #cat output/opensuse/$proj/dvd-$arch.list output/opensuse/$proj/dvd9.$arch.list | LC_ALL=C sort -u > output/opensuse/$proj/dvd9-$arch.list
 
+        # install all solvables from NonFree project
         dumpsolv trees/openSUSE:$proj:NonFree-$repo-$arch.solv | grep solvable:name: | grep -v "libGLw" | sed -e 's,.*: ,,' | sort > output/opensuse/$proj/nonoss.$arch.list
         echo "repo nonfree-$repo-$arch 0 solv trees/openSUSE:$proj:NonFree-standard-$arch.solv" >  opensuse/$proj/dvd-nonoss
         echo '#INCLUDE dvd-1' >>  opensuse/$proj/dvd-nonoss
         for pkg in $(grep -v openSUSE output/opensuse/$proj/nonoss.$arch.list); do
            echo "job install name $pkg" >> opensuse/$proj/dvd-nonoss
         done
+        # from the full list of installed packages in
+        # dvd-nonoss.$arch.list eliminate the common ones in
+        # dvd-1.$arch.list and put only the non-oss ones into
+        # nonoss.deps.$arch.list
         if ./gen.pl opensuse/$proj/dvd-nonoss $arch "$proj" $repo; then
             ( diff output/opensuse/$proj/dvd-1.$arch.list output/opensuse/$proj/dvd-nonoss.$arch.list | grep '^>' | cut '-d ' -f2 ;
             cat output/opensuse/$proj/nonoss.$arch.list ) | sort | uniq -u  > output/opensuse/$proj/nonoss.deps.$arch.list
@@ -145,15 +148,23 @@ for arch in $arches; do
     fi
 done
 
-if $(is_x86 $arch) && test "$proj" = "Factory" ;then
-    ./split_dvd9.sh output/opensuse/$proj/dvd9-i586.list output/opensuse/$proj/dvd9-x86_64.list output/opensuse/$proj/dvd9-all.list output/opensuse/$proj/dvd9-only_i586.list output/opensuse/$proj/dvd9-only_x86_64.list
+if $(is_x86 $arch); then
+    #./split_dvd9.sh output/opensuse/$proj/dvd9-i586.list output/opensuse/$proj/dvd9-x86_64.list output/opensuse/$proj/dvd9-all.list output/opensuse/$proj/dvd9-only_i586.list output/opensuse/$proj/dvd9-only_x86_64.list
 
+    case "$arches" in
+        *i586*) ;;
+        *)
+            # fake empty i586 list so diff below thinks everything is
+            # x86_64
+            > output/opensuse/$proj/nonoss.deps.i586.list
+            > output/opensuse/$proj/nonoss.i586.list
+        ;;
+    esac
     diff output/opensuse/$proj/nonoss.deps.i586.list output/opensuse/$proj/nonoss.deps.x86_64.list | grep '^>' | cut '-d ' -f2 > output/opensuse/$proj/nonoss.deps-x86_64.list
     cat output/opensuse/$proj/nonoss.deps.i586.list output/opensuse/$proj/nonoss.deps.x86_64.list | sort | uniq -d > output/opensuse/$proj/nonoss.deps.list
 
     diff output/opensuse/$proj/nonoss.i586.list output/opensuse/$proj/nonoss.x86_64.list | grep '^>' | cut '-d ' -f2 > output/opensuse/$proj/nonoss-x86_64.list
     cat output/opensuse/$proj/nonoss.i586.list output/opensuse/$proj/nonoss.x86_64.list | sort | uniq -d > output/opensuse/$proj/nonoss.list
 
-    ./langaddon.sh
-
+    #./langaddon.sh
 fi
