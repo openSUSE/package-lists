@@ -441,6 +441,8 @@ cups
 cups-backends
 cups-client
 cups-devel
+cups-filters
+cups-filters-cups-browsed
 cups-filters-foomatic-rip
 cups-filters-ghostscript
 cups-libs
@@ -1156,6 +1158,13 @@ indic-fonts
 info
 info2html
 initviocons
+inkscape
+inkscape-extensions-dia
+inkscape-extensions-extra
+inkscape-extensions-fig
+inkscape-extensions-gimp
+inkscape-extensions-skencil
+inkscape-lang
 inn
 inputproto-devel
 insserv-compat
@@ -2800,6 +2809,7 @@ libpixman-1-0-devel
 libpkcs11-helper1
 libplist-devel
 libplist3
+libplotter2
 libply-boot-client4
 libply-splash-core4
 libply-splash-graphics4
@@ -2881,6 +2891,7 @@ libqjson0
 libqmi-glib5
 libqmi-tools
 libqoauth1
+libqpdf17
 libqqwing2
 libqrencode3
 libqscintilla-devel
@@ -4209,6 +4220,7 @@ polkit-default-privs
 polkit-devel
 polkit-gnome
 polkit-kde-agent-5
+poppler-tools
 popt-devel
 posix_cc
 poster
@@ -4247,6 +4259,7 @@ procps
 providers
 psgml
 psmisc
+pstoedit
 psutils
 pthread-stubs-devel
 ptools
@@ -4269,6 +4282,8 @@ pychecker
 python
 python-CherryPy
 python-M2Crypto
+python-Pillow
+python-Pillow-tk
 python-PyYAML
 python-SpiceClientGtk
 python-Twisted
@@ -4324,6 +4339,7 @@ python-kde4-phonon
 python-kde4-plasma
 python-kdebase4
 python-keyring
+python-lcms
 python-ldap
 python-liblarch
 python-liblarch_gtk
@@ -4564,6 +4580,7 @@ sil-charis-fonts
 silc-toolkit
 simple-scan
 site-config
+sk1
 skanlite
 skanlite-doc
 skkdic
@@ -5311,6 +5328,7 @@ yelp-xsl
 yp-tools
 ypbind
 ypserv
+yudit
 yum-metadata-parser
 zd1211-firmware
 zenity
