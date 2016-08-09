@@ -230,6 +230,9 @@ job lock name python-matplotlib
 job lock name ruby2.1
 #INCLUDE non_ftp_packages
 
+# esound should not be part of default installs - we have pulseaudio compat
+job lock name esound-daemon
+
 # Kiwi still requires cdrkit-cdrtools-compat, so we must lock cdrtools
 #job lock name cdrkit-cdrtools-compat
 job lock name cdda2wav

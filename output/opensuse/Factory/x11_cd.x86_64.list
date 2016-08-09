@@ -23,6 +23,7 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-plugins
+alsa-plugins-pulse
 alsa-utils
 aspell
 aspell-en
@@ -106,7 +107,6 @@ dracut
 e2fsprogs
 efibootmgr
 elfutils
-esound-daemon
 espeak
 ethtool
 evince
@@ -571,6 +571,7 @@ libprocps5
 libproxy1
 libproxy1-networkmanager
 libpsl5
+libpulse-mainloop-glib0
 libpulse0
 libpwquality1
 libpython2_7-1_0
@@ -603,7 +604,9 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
+libsoxr0
 libspeex1
+libspeexdsp1
 libsqlite3-0
 libssh2-1
 libsss_nss_idmap0
@@ -616,6 +619,7 @@ libsystemd0
 libtalloc2
 libtasn1
 libtasn1-6
+libtdb1
 libteamdctl0
 libthai-data
 libthai0
@@ -655,6 +659,7 @@ libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwebp6
+libwebrtc_audio_processing1
 libwicked-0-6
 libwnck-1-22
 libwrap0
@@ -849,6 +854,10 @@ pptp
 procps
 psmisc
 pullin-bcm43xx-firmware
+pulseaudio
+pulseaudio-bash-completion
+pulseaudio-esound-compat
+pulseaudio-utils
 python
 python-base
 python-configobj
@@ -873,6 +882,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rtkit
 ruby
 ruby-common
 ruby2.2

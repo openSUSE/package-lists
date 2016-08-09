@@ -16,6 +16,7 @@ adwaita-icon-theme
 alsa
 alsa-oss
 alsa-plugins
+alsa-plugins-pulse
 alsa-utils
 apache-commons-logging
 at-spi2-atk-common
@@ -59,7 +60,6 @@ diffutils
 dmz-icon-theme-cursors
 dracut
 elfutils
-esound-daemon
 expat
 fdupes
 file
@@ -463,7 +463,9 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
+libsoxr0
 libspeex1
+libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -471,6 +473,7 @@ libstdc++6-32bit
 libsystemd0
 libtasn1
 libtasn1-6
+libtdb1
 libtelepathy-glib0
 libthai-data
 libthai0
@@ -502,6 +505,7 @@ libwayland-egl1
 libwayland-server0
 libwebkit2gtk-4_0-37
 libwebp6
+libwebrtc_audio_processing1
 libwicked-0-6
 libwpd-0_10-10
 libwpg-0_3-3
@@ -626,6 +630,10 @@ procmail
 procps
 psmisc
 ptools
+pulseaudio
+pulseaudio-bash-completion
+pulseaudio-esound-compat
+pulseaudio-utils
 python
 python-base
 python-cssselect
@@ -645,6 +653,7 @@ python3-six
 python3-tk
 readline-doc
 rpm
+rtkit
 ruby
 ruby-common
 ruby2.2
