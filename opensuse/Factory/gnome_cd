@@ -17,9 +17,8 @@ job install name branding-openSUSE
 job install name gconf2-branding-openSUSE
 # the live isos are still based on gfxboot
 job install name gfxboot
-#job install name rhythmbox
 
 job install provides libyui-qt-pkg
 
-# Install yast2 branding until sr#411752 is accepted
-job install name yast2-qt-branding-openSUSE
+# adobe-sourcecodepro-fonts is the monospace font for openSUSE
+job install name adobe-sourcecodepro-fonts
