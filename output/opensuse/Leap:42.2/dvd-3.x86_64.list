@@ -8,6 +8,7 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
+PackageKit-lang
 aaa_base
 aaa_base-extras
 aaa_base-malloccheck
@@ -23,6 +24,7 @@ autoyast2-installation
 bash
 bash-completion
 bash-doc
+bash-lang
 bc
 bind-libs
 bind-utils
@@ -31,7 +33,6 @@ boost-license1_54_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
-bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -39,7 +40,9 @@ cantarell-fonts
 checkmedia
 cifs-utils
 coreutils
+coreutils-lang
 cpio
+cpio-lang
 cracklib
 cracklib-dict-small
 cron
@@ -80,14 +83,18 @@ fuse
 gamin-server
 gawk
 gcr-data
+gcr-lang
 gcr-prompter
 gcr-viewer
 gd
+gdk-pixbuf-lang
 gdk-pixbuf-query-loaders
 gettext-runtime
 gio-branding-openSUSE
 girepository-1_0
 glib-networking
+glib-networking-lang
+glib2-lang
 glib2-tools
 glibc
 glibc-32bit
@@ -100,6 +107,7 @@ gnome-online-accounts
 gnome-online-accounts-lang
 google-opensans-fonts
 gpg2
+gpg2-lang
 gptfdisk
 grep
 grub2
@@ -110,14 +118,18 @@ grub2-systemd-sleep-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
+gsettings-desktop-schemas-lang
 gstreamer
+gstreamer-lang
 gstreamer-plugins-base
+gstreamer-plugins-base-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-immodule-amharic
 gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
+gtk2-lang
 gtk2-metatheme-adwaita
 gtk2-theming-engine-adwaita
 gtk2-tools
@@ -127,6 +139,7 @@ gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
+gtk3-lang
 gtk3-metatheme-adwaita
 gtk3-tools
 gvfs
@@ -151,6 +164,7 @@ iptables
 iputils
 iscsiuio
 joe
+json-glib-lang
 kbd
 keyutils
 klogd
@@ -291,6 +305,7 @@ libgobject-2_0-0
 libgpg-error0
 libgpg-error0-32bit
 libgphoto2-6
+libgphoto2-6-lang
 libgraphite2-3
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -408,6 +423,7 @@ libsasl2-3-32bit
 libseccomp2
 libseccomp2-32bit
 libsecret-1-0
+libsecret-lang
 libselinux1
 libselinux1-32bit
 libsemanage1
@@ -421,6 +437,7 @@ libsmbldap0-32bit
 libsnapper3
 libsolv-tools
 libsoup-2_4-1
+libsoup-lang
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -595,6 +612,7 @@ prctl
 procmail
 procps
 psmisc
+psmisc-lang
 pytalloc
 pytalloc-32bit
 python
@@ -629,9 +647,11 @@ samba-libs-32bit
 samba-winbind
 samba-winbind-32bit
 sed
+sed-lang
 sendmail
 shadow
 shared-mime-info
+shared-mime-info-lang
 sharutils
 sharutils-lang
 shim
@@ -652,6 +672,7 @@ systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
 tar
+tar-lang
 tcsh
 telnet
 terminfo-base
@@ -665,6 +686,7 @@ typelib-1_0-Gtk-2_0
 typelib-1_0-Pango-1_0
 udev
 udisks2
+udisks2-lang
 unzip
 unzip-doc
 update-alternatives
@@ -675,6 +697,7 @@ update-test-reboot-needed
 update-test-security
 update-test-trival
 util-linux
+util-linux-lang
 util-linux-systemd
 vim
 vim-data
@@ -692,6 +715,7 @@ xen-libs
 xen-tools-domU
 xtables-plugins
 xz
+xz-lang
 yast2
 yast2-add-on
 yast2-auth-client
