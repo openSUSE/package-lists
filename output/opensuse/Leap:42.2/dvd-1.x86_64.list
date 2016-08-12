@@ -42,19 +42,15 @@ NetworkManager-connection-editor
 NetworkManager-devel
 NetworkManager-gnome
 NetworkManager-gnome-lang
-NetworkManager-lang
 NetworkManager-openconnect
 NetworkManager-openconnect-gnome
 NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
-NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
-NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
-NetworkManager-vpnc-lang
 OpenPrintingPPDs
 OpenPrintingPPDs-ghostscript
 OpenPrintingPPDs-hpijs
@@ -65,7 +61,6 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
-PackageKit-lang
 QtZeitgeist-devel
 SuSEfirewall2
 WindowMaker
@@ -79,7 +74,6 @@ abcde
 accerciser
 accerciser-lang
 accountsservice
-accountsservice-lang
 acl
 acpica
 acpid
@@ -244,7 +238,6 @@ autoyast2-installation
 avahi
 avahi-autoipd
 avahi-compat-mDNSResponder-devel
-avahi-lang
 avalon-framework
 avogadro
 avogadro-devel
@@ -266,7 +259,6 @@ baobab-lang
 bash
 bash-completion
 bash-doc
-bash-lang
 bbswitch-kmp-default
 bc
 bcel
@@ -329,6 +321,20 @@ btrfsprogs
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-cs
+bundle-lang-common-da
+bundle-lang-common-de
+bundle-lang-common-el
+bundle-lang-common-en
+bundle-lang-common-es
+bundle-lang-common-fr
+bundle-lang-common-hu
+bundle-lang-common-it
+bundle-lang-common-ja
+bundle-lang-common-pl
+bundle-lang-common-pt
+bundle-lang-common-ru
+bundle-lang-common-zh
 busybox
 bzip2
 bzr
@@ -425,9 +431,7 @@ compositeproto-devel
 conduit
 conduit-lang
 coreutils
-coreutils-lang
 cpio
-cpio-lang
 cpp
 cpp48
 cppunit-devel
@@ -436,6 +440,7 @@ cracklib
 cracklib-dict-full
 crash-kmp-default
 crda
+create-resources
 createrepo
 cron
 cronie
@@ -457,7 +462,6 @@ cups-filters-ghostscript
 cups-libs
 cups-libs-32bit
 cups-pk-helper
-cups-pk-helper-lang
 curl
 cvs
 cvsps
@@ -665,7 +669,6 @@ fonttosfnt
 four-in-a-row
 four-in-a-row-lang
 fprintd
-fprintd-lang
 fprintd-pam
 fprintd-pam-32bit
 frameworkintegration-devel
@@ -724,9 +727,7 @@ gconf-polkit
 gconf2
 gconf2-branding-openSUSE
 gconf2-devel
-gconf2-lang
 gcr-data
-gcr-lang
 gcr-prompter
 gcr-viewer
 gd
@@ -734,7 +735,6 @@ gd-32bit
 gdb
 gdbm-devel
 gdk-pixbuf-devel
-gdk-pixbuf-lang
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -807,6 +807,8 @@ gitg
 gitg-lang
 gitk
 gjs
+glabels
+glabels-lang
 glade
 glade-catalog-gtksourceview
 glade-catalog-vte
@@ -814,10 +816,8 @@ glade-lang
 glade-sharp2
 glew-devel
 glib-networking
-glib-networking-lang
 glib-sharp2
 glib2-devel
-glib2-lang
 glib2-tools
 glibc
 glibc-32bit
@@ -872,7 +872,6 @@ gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-32bit
-gnome-keyring-lang
 gnome-keyring-pam
 gnome-keyring-pam-32bit
 gnome-klotski
@@ -913,6 +912,9 @@ gnome-settings-daemon-lang
 gnome-shell
 gnome-shell-browser-plugin
 gnome-shell-calendar
+gnome-shell-classic
+gnome-shell-extensions-common
+gnome-shell-extensions-common-lang
 gnome-shell-lang
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
@@ -958,7 +960,7 @@ gnu_ddrescue
 gnutls
 gobject-introspection
 gobject-introspection-devel
-goffice-lang
+goffice-0_8-lang
 google-arimo-fonts
 google-carlito-fonts
 google-cousine-fonts
@@ -973,7 +975,6 @@ gpart
 gparted
 gperf
 gpg2
-gpg2-lang
 gpgme
 gpgmepp5
 gpm
@@ -1003,7 +1004,6 @@ grub2-x86_64-xen
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel
-gsettings-desktop-schemas-lang
 gsf-office-thumbnailer
 gsl
 gsl-devel
@@ -1022,20 +1022,16 @@ gstreamer-0_10-plugins-good-lang
 gstreamer-0_10-plugins-ugly
 gstreamer-0_10-plugins-ugly-lang
 gstreamer-devel
-gstreamer-lang
 gstreamer-libnice
 gstreamer-plugin-gnonlin
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
-gstreamer-plugins-bad-lang
 gstreamer-plugins-base
 gstreamer-plugins-base-devel
-gstreamer-plugins-base-lang
 gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
-gstreamer-plugins-good-lang
 gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-plugins-ugly-lang
@@ -1072,7 +1068,6 @@ gtk2-immodule-inuktitut
 gtk2-immodule-thai
 gtk2-immodule-vietnamese
 gtk2-immodule-xim
-gtk2-lang
 gtk2-metatheme-adwaita
 gtk2-metatheme-breeze
 gtk2-metatheme-gilouche
@@ -1098,7 +1093,6 @@ gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-immodule-xim
-gtk3-lang
 gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
 gtk3-theme-oxygen
@@ -1208,7 +1202,6 @@ icecream-monitor
 icedtea-web-javadoc
 icewm
 icewm-config-upstream
-icewm-lang
 icewm-lite
 ico
 icoutils
@@ -1310,7 +1303,6 @@ jing
 jline
 joe
 json-glib-devel
-json-glib-lang
 juk
 junit
 k3b
@@ -1589,6 +1581,7 @@ kremotecontrol
 krename
 kreversi
 krfb
+krita
 kross
 kross-devel
 kross-lang
@@ -1829,6 +1822,7 @@ libOSMesa-devel
 libOSMesa9
 libOSMesa9-32bit
 libOpenCOLLADA0
+libOpenColorIO1
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -2370,7 +2364,7 @@ libgbm1-32bit
 libgc1
 libgcab-1_0-0
 libgcc_s1
-libgcc_s1-gcc48-32bit
+libgcc_s1-32bit
 libgcin-im-client1
 libgcj-devel
 libgcj48
@@ -2474,7 +2468,7 @@ libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
 libgobject-2_0-0-32bit
-libgoffice-0_10-10
+libgoffice-0_8-8
 libgomp1
 libgoocanvas3
 libgoocanvas3-lang
@@ -2486,7 +2480,6 @@ libgpgme-devel
 libgpgme11
 libgphoto2-6
 libgphoto2-6-32bit
-libgphoto2-6-lang
 libgphoto2-devel
 libgpod-devel
 libgpod-lang
@@ -2723,7 +2716,6 @@ libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
-liblasem-0_4-4
 liblastfm-devel
 liblastfm1
 liblayout
@@ -3033,7 +3025,6 @@ libpulse0
 libpulse0-32bit
 libpurple
 libpurple-branding-openSUSE
-libpurple-lang
 libpurple-meanwhile
 libpurple-plugin-bot-sentry
 libpurple-plugin-bot-sentry-lang
@@ -3044,7 +3035,6 @@ libpurple-plugin-sipe
 libpurple-plugin-skype
 libpurple-plugin-skype-lang
 libpurple-tcl
-libpwquality-lang
 libpwquality1
 libpython2_7-1_0
 libpython2_7-1_0-32bit
@@ -3213,7 +3203,6 @@ libseccomp2
 libseccomp2-32bit
 libsecret-1-0
 libsecret-devel
-libsecret-lang
 libselinux-devel
 libselinux1
 libselinux1-32bit
@@ -3249,6 +3238,8 @@ libsmbldap0-32bit
 libsmi
 libsmi2
 libsmokegen-devel
+libsmokekde-devel
+libsmokekde3
 libsmokeqt
 libsmokeqt-devel
 libsmputils1-1
@@ -3271,7 +3262,6 @@ libsolv-devel
 libsolv-tools
 libsoup-2_4-1
 libsoup-devel
-libsoup-lang
 libsource-highlight4
 libsox3
 libsoxr0
@@ -3354,6 +3344,7 @@ libtiff-devel
 libtiff5
 libtiff5-32bit
 libtimidity-0_1-0
+libtinyxml0
 libtirpc-netconfig
 libtirpc3
 libtool
@@ -3607,6 +3598,8 @@ libxml2-2
 libxml2-2-32bit
 libxml2-devel
 libxml2-tools
+libxmmsclient-glib1
+libxmmsclient6
 libxshmfence1
 libxshmfence1-32bit
 libxslt-devel
@@ -3690,6 +3683,8 @@ lxinput
 lxinput-lang
 lxlauncher
 lxmenu-data
+lxmusic
+lxmusic-lang
 lxpanel
 lxpanel-lang
 lxrandr
@@ -3713,6 +3708,7 @@ makedumpfile
 makeinfo
 man
 man-pages
+man-pages-fr
 man-pages-ja
 man-pages-posix
 man-pages-zh_CN
@@ -4158,6 +4154,7 @@ perl-Carp-Clan
 perl-Chart
 perl-Class-Accessor
 perl-Class-Data-Inheritable
+perl-Class-Date
 perl-Class-ISA
 perl-Class-Inspector
 perl-Class-Load
@@ -4566,7 +4563,6 @@ providers
 proxymngr
 psgml
 psmisc
-psmisc-lang
 pstoedit
 psutils
 pthread-stubs-devel
@@ -4576,7 +4572,6 @@ pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
 pulseaudio-esound-compat
-pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-jack
@@ -4595,6 +4590,7 @@ python
 python-M2Crypto
 python-Pillow
 python-Pillow-tk
+python-PyYAML
 python-SpiceClientGtk
 python-Twisted
 python-atspi
@@ -4609,7 +4605,6 @@ python-cloudfiles
 python-configobj
 python-cryptography
 python-curses
-python-dateutil
 python-decorator
 python-deltarpm
 python-devel
@@ -4672,8 +4667,10 @@ python-pycrypto
 python-pycurl
 python-pygame
 python-pyserial
+python-python-dateutil
 python-pyudev
 python-pywbem
+python-pyxdg
 python-qt4
 python-requests
 python-sip
@@ -4685,7 +4682,6 @@ python-urlgrabber
 python-wxWidgets
 python-wxWidgets-lang
 python-xcb-proto-devel
-python-xdg
 python-xlib
 python-xml
 python-yum
@@ -4714,9 +4710,11 @@ python3-numpy
 python3-pip
 python3-py
 python3-pycurl
+python3-qt4
 python3-requests
 python3-setuptools
 python3-simplejson
+python3-sip
 python3-smbc
 python3-speechd
 python3-tk
@@ -4797,7 +4795,6 @@ rpm-build
 rpm-devel
 rpm-python
 rrdtool
-rsh
 rsibreak
 rsibreak-lang
 rstart
@@ -4858,7 +4855,6 @@ seahorse-lang
 seahorse-sharing
 seahorse-sharing-lang
 sed
-sed-lang
 selinux-doc
 sensors
 servletapi5
@@ -4870,7 +4866,6 @@ sgml-skel
 shadow
 shared-color-profiles
 shared-mime-info
-shared-mime-info-lang
 sharutils
 sharutils-lang
 shim
@@ -5000,7 +4995,6 @@ syslinux
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
-system-config-printer-common-lang
 system-config-printer-dbus-service
 systemd
 systemd-32bit
@@ -5020,7 +5014,6 @@ tali
 tali-lang
 tango-icon-theme
 tar
-tar-lang
 tasque
 tasque-lang
 tcl
@@ -5114,6 +5107,7 @@ transmission-gtk-lang
 trapproto-devel
 tre
 tre-lang
+treeline
 tumbler
 tumbler-lang
 tuned
@@ -5222,7 +5216,6 @@ udev
 udev-configure-printer
 udhcp
 udisks2
-udisks2-lang
 ufraw
 ufraw-lang
 uget
@@ -5246,14 +5239,12 @@ update-test-reboot-needed
 update-test-security
 update-test-trival
 upower
-upower-lang
 urlview
 usb_modeswitch
 usb_modeswitch-data
 usbutils
 utempter-devel
 util-linux
-util-linux-lang
 util-linux-systemd
 util-macros-devel
 v4l-conf
@@ -5295,7 +5286,6 @@ vlock
 vm-install
 vobject
 vorbis-tools
-vorbis-tools-lang
 vpnc
 vsftpd
 vte-devel
@@ -5360,7 +5350,6 @@ xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-user-dirs-gtk-lang
-xdg-user-dirs-lang
 xdg-utils
 xditview
 xdm
@@ -5533,7 +5522,6 @@ xkbevd
 xkbprint
 xkbutils
 xkeyboard-config
-xkeyboard-config-lang
 xkill
 xli
 xload
@@ -5549,7 +5537,7 @@ xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver12
+xml-commons-resolver10
 xml-commons-which10
 xml-group-manager
 xml2po
@@ -5562,6 +5550,8 @@ xmlgraphics-commons
 xmlgraphics-fop
 xmlstarlet
 xmlto
+xmms2
+xmms2-plugin-base
 xmodmap
 xmore
 xorg-cf-files
@@ -5620,7 +5610,6 @@ xwininfo
 xwud
 xz
 xz-devel
-xz-lang
 yakuake
 yakuake-lang
 yast2
