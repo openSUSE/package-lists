@@ -603,6 +603,7 @@ evince-plugin-xpsdocument
 evolution
 evolution-data-server
 evolution-data-server-devel
+evolution-data-server-lang
 evolution-ews
 evolution-ews-lang
 evolution-plugin-bogofilter
@@ -657,8 +658,6 @@ findutils
 finger
 fipscheck
 firebird
-five-or-more
-five-or-more-lang
 fixesproto-devel
 flac
 flac-devel
@@ -672,8 +671,6 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fontsproto-devel
-four-in-a-row
-four-in-a-row-lang
 fprintd
 fprintd-pam
 fprintd-pam-32bit
@@ -829,7 +826,6 @@ gnome-backgrounds
 gnome-backgrounds-lang
 gnome-bluetooth
 gnome-calculator
-gnome-chess
 gnome-clocks
 gnome-color-manager
 gnome-color-manager-lang
@@ -848,9 +844,6 @@ gnome-documents
 gnome-documents_books-common
 gnome-dvb-daemon
 gnome-dvb-daemon-lang
-gnome-games
-gnome-games-extra-data
-gnome-games-recommended
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
@@ -858,26 +851,18 @@ gnome-keyring
 gnome-keyring-32bit
 gnome-keyring-pam
 gnome-keyring-pam-32bit
-gnome-klotski
-gnome-klotski-lang
-gnome-mahjongg
 gnome-maps
 gnome-menus
 gnome-menus-branding-openSUSE
 gnome-menus-devel
-gnome-mines
 gnome-music
 gnome-nettool
-gnome-nibbles
-gnome-nibbles-lang
 gnome-online-accounts
 gnome-online-accounts-devel
 gnome-online-miners
 gnome-packagekit
 gnome-photos
 gnome-power-manager
-gnome-robots
-gnome-robots-lang
 gnome-screenshot
 gnome-session
 gnome-session-core
@@ -898,11 +883,8 @@ gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-software
-gnome-sudoku
 gnome-system-monitor
 gnome-terminal
-gnome-tetravex
-gnome-tetravex-lang
 gnome-themes-accessibility
 gnome-themes-accessibility-gtk2
 gnome-tweak-tool
@@ -1115,7 +1097,6 @@ hylafax+
 hylafax+-client
 hyper-v
 i4l-isdnlog
-iagno
 ibus
 ibus-branding-openSUSE-KDE
 ibus-chewing
@@ -2289,7 +2270,6 @@ libftgl2
 libfuse2
 libgadu-devel
 libgadu3
-libgames-support2
 libgarcon-1-0
 libgarcon-branding-openSUSE
 libgarcon-data
@@ -3041,7 +3021,6 @@ libqmi-glib5
 libqmi-tools
 libqoauth1
 libqpdf17
-libqqwing2
 libqrencode3
 libqscintilla-devel
 libqscintilla2-12
@@ -3610,7 +3589,6 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
-lightsoff
 link-grammar
 links
 linux-glibc-devel
@@ -4686,7 +4664,6 @@ qrencode-devel
 qt4-qtscript
 qtcurve-gtk2
 qtcurve-qt5
-quadrapassel
 quagga
 quilt
 quota
@@ -4905,7 +4882,6 @@ susehelp_it
 sushi
 svg-schema
 sweeper
-swell-foop
 swig
 sysconfig
 sysconfig-netconfig
@@ -4929,8 +4905,6 @@ sysvinit-tools
 tack
 taglib
 taglib-extras-devel
-tali
-tali-lang
 tango-icon-theme
 tar
 tcl
