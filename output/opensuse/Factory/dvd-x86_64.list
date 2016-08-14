@@ -654,6 +654,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 firebird
 fixesproto-devel
 flac
@@ -1380,11 +1381,13 @@ kdump
 keditbookmarks
 kemoticons-devel
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2233,6 +2236,7 @@ libffi4
 libffi4-32bit
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfli-devel
 libfli1
 libfltk1
@@ -3713,6 +3717,7 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
+mozilla-nss-tools
 mpfr-devel
 mpt-firmware
 mpt-status
@@ -4311,6 +4316,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
