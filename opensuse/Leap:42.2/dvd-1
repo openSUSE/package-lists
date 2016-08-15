@@ -48,7 +48,6 @@ job lock name liberation2-fonts
 job lock name xen-tools-domU
 
 job install provides pattern() = rest_dvd
-job install provides pattern() = devel_gnome
 job install name xfce4-panel
 job install name elilo # !ppc64 # !ppc64le # !aarch64
 job install name efibootmgr # !i586 # !ppc64 # !ppc64le
@@ -59,6 +58,5 @@ job install name postgresql-docs
 job install name postgresql-server
 job install name yast2-services-manager
 job install name postfix
-job install name kdelibs4-branding-openSUSE
 job install name ibus
 
