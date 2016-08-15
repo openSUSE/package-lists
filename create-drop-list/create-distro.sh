@@ -1,16 +1,19 @@
 #!/bin/bash
-mkdir -p $1/suse/setup/descr
-wget http://download.opensuse.org/distribution/leap/$1/repo/oss/content -O $1/content
-wget http://download.opensuse.org/distribution/leap/$1/repo/oss/suse/setup/descr/packages.gz -O $1/suse/setup/descr/packages.gz
-susetags2solv -X -c $1/content -d $1/suse/setup/descr/ > $1.repo.oss.solv
-rm -rf $1
-mkdir -p $1/suse/setup/descr
+createsolv()
+{
+	dir="$1"
+	solv="$2"
+	output=output
+	rm -rf $output
+	mkdir -p $output/suse/setup/descr
+	wget http://download.opensuse.org/$dir/content -O $output/content
+	wget http://download.opensuse.org/$dir/suse/setup/descr/packages.gz -O $output/suse/setup/descr/packages.gz
+	susetags2solv -X -c $output/content -d $output/suse/setup/descr/ > "$solv"
+	rm -rf $output
+}
 
-wget http://download.opensuse.org/distribution/leap/$1/repo/non-oss/content -O $1/content
-wget http://download.opensuse.org/distribution/leap/$1/repo/non-oss/suse/setup/descr/packages.gz -O $1/suse/setup/descr/packages.gz
-susetags2solv -X -c $1/content -d $1/suse/setup/descr/ > $1.repo.nonoss.solv
-
-rm -rf $1
+createsolv "distribution/leap/$1/repo/oss" "$1.repo.oss.solv"
+createsolv "distribution/leap/$1/repo/non-oss" "$1.repo.nonoss.solv"
 
 mergesolv $1.repo.oss.solv $1.repo.nonoss.solv > $1.repo.solv
 rm $1.repo.oss.solv $1.repo.nonoss.solv
