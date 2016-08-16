@@ -277,7 +277,6 @@ libelf1
 libenchant1
 libepoxy0
 liberation-fonts
-libestr0
 libetonyek-0_1-1
 libevdev2
 libexif12
@@ -319,6 +318,8 @@ libgpg-error0
 libgphoto2-6
 libgphoto2-6-lang
 libgraphite2-3
+libgsasl-lang
+libgsasl7
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
@@ -361,7 +362,6 @@ liblcms2-2
 libldap-2_4-2
 libloader
 liblockdev1
-liblogging0
 liblpsolve55-0
 libltdl7
 liblua5_1
@@ -386,6 +386,7 @@ libnfs8
 libnl-config
 libnl3-200
 libnotify4
+libntlm0
 liboauth0
 libodfgen-0_1-1
 libogg0
@@ -555,9 +556,6 @@ logrotate
 lsof
 lua
 luit
-m4
-make
-metamail
 metatheme-adwaita-common
 mgetty
 mkfontdir
@@ -565,6 +563,8 @@ mkfontscale
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+msmtp
+msmtp-mta
 myspell-dictionaries
 myspell-en
 myspell-en_US
@@ -632,10 +632,7 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
-procmail
 procps
-psmisc
-psmisc-lang
 ptools
 python
 python-base
@@ -646,7 +643,6 @@ python3-pip
 python3-setuptools
 readline-doc
 rpm
-rsyslog
 ruby
 ruby-common
 ruby2.1
@@ -663,23 +659,17 @@ sac
 sed
 sed-lang
 sendfax
-sendmail
 shadow
 shared-mime-info
 shared-mime-info-lang
-sharutils
-sharutils-lang
-site-config
 suse-module-tools
 sysconfig
 sysconfig-netconfig
-syslog-service
 systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
-tcsh
 terminfo-base
 time
 timezone

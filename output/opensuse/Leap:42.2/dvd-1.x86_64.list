@@ -1,6 +1,3 @@
-ConsoleKit
-ConsoleKit-32bit
-ConsoleKit-x11
 FastCGI
 GeoIP
 GeoIP-data
@@ -37,7 +34,7 @@ MozillaFirefox-translations-common
 MozillaThunderbird
 MozillaThunderbird-translations-common
 NetworkManager
-NetworkManager-branding-upstream
+NetworkManager-branding-openSUSE
 NetworkManager-connection-editor
 NetworkManager-devel
 NetworkManager-gnome
@@ -76,6 +73,7 @@ aaa_base
 aaa_base-extras
 aaa_base-malloccheck
 abcde
+abiword
 accerciser
 accerciser-lang
 accountsservice
@@ -270,6 +268,7 @@ bash-lang
 bbswitch-kmp-default
 bc
 bcel
+bcm20702a1-firmware
 bdftopcf
 bea-stax-api
 beforelight
@@ -490,8 +489,6 @@ dbus-1-glib-devel
 dbus-1-python
 dbus-1-python3
 dbus-1-x11
-dbus-sharp
-dbus-sharp-glib
 dconf
 dcraw
 dcraw-lang
@@ -630,6 +627,26 @@ expect
 extra-cmake-modules
 farstream-data
 fbiterm
+fcitx
+fcitx-branding-openSUSE
+fcitx-chewing
+fcitx-cloudpinyin
+fcitx-config-gtk3
+fcitx-googlepinyin
+fcitx-gtk2
+fcitx-gtk3
+fcitx-mozc
+fcitx-pinyin
+fcitx-qt4
+fcitx-qt5
+fcitx-sunpinyin
+fcitx-table
+fcitx-table-cn-wubi-large
+fcitx-table-tw-boshiamy
+fcitx-table-tw-cangjie-large
+fcitx-table-tw-cangjie5
+fcitx-table-tw-smart-cangjie6
+fcitx-zhuyin
 fd0ssh
 fdupes
 festival
@@ -814,11 +831,9 @@ glade
 glade-catalog-gtksourceview
 glade-catalog-vte
 glade-lang
-glade-sharp2
 glew-devel
 glib-networking
 glib-networking-lang
-glib-sharp2
 glib2-devel
 glib2-lang
 glib2-tools
@@ -865,6 +880,8 @@ gnome-doc-utils-lang
 gnome-documents
 gnome-documents-lang
 gnome-documents_books-common
+gnome-dvb-daemon
+gnome-dvb-daemon-lang
 gnome-font-viewer
 gnome-font-viewer-lang
 gnome-games
@@ -964,7 +981,7 @@ gnu_ddrescue
 gnutls
 gobject-introspection
 gobject-introspection-devel
-goffice-0_8-lang
+goffice-lang
 google-arimo-fonts
 google-carlito-fonts
 google-cousine-fonts
@@ -1054,7 +1071,6 @@ gthumb
 gthumb-lang
 gtk-doc
 gtk-doc-lang
-gtk-sharp2
 gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
@@ -1178,6 +1194,8 @@ ibus-lang
 ibus-libpinyin
 ibus-libzhuyin
 ibus-m17n
+ibus-mozc
+ibus-mozc-candidate-window
 ibus-pinyin
 ibus-qt
 ibus-sunpinyin
@@ -1332,6 +1350,7 @@ kalarm5
 kalgebra
 kalzium
 kanagram
+kapptemplate
 karchive-devel
 kate
 kate-plugins
@@ -1470,6 +1489,8 @@ kexec-tools
 keyutils
 keyutils-devel
 kf5-filesystem
+kf5-kcm-fcitx
+kf5-kcm-fcitx-icons
 kfilemetadata
 kfilemetadata5
 kfilemetadata5-devel
@@ -1600,7 +1621,6 @@ kross
 kross-devel
 kross-lang
 kruler
-krunner-devel
 krusader
 kscd
 kscreen5
@@ -1998,6 +2018,7 @@ libXxf86vm-devel
 libXxf86vm1
 libXxf86vm1-32bit
 libaa1
+libabiword-3_0
 libabw-0_1-1
 libaccounts-glib0
 libaccounts-qt5-1
@@ -2329,6 +2350,7 @@ libfam0-gamin-32bit
 libfarstream-0_2-5
 libfaxutil5_5_6
 libfbembed2_5
+libfcitx-4_2_9
 libfdisk1
 libfdt1
 libffi-devel-gcc5
@@ -2378,7 +2400,7 @@ libgbm1-32bit
 libgc1
 libgcab-1_0-0
 libgcc_s1
-libgcc_s1-32bit
+libgcc_s1-gcc6-32bit
 libgcin-im-client1
 libgcj-devel
 libgcj48
@@ -2408,7 +2430,6 @@ libgdbm4
 libgdbm4-32bit
 libgdict-1_0-10
 libgdict-data
-libgdiplus0
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
 libgdl-3-5
@@ -2482,7 +2503,7 @@ libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
 libgobject-2_0-0-32bit
-libgoffice-0_8-8
+libgoffice-0_10-10
 libgomp1
 libgoocanvas3
 libgoocanvas3-lang
@@ -2542,6 +2563,7 @@ libgstreamer-1_0-0
 libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
+libgstrtspserver-1_0-0
 libgstsdp-1_0-0
 libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
@@ -2731,6 +2753,7 @@ libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
+liblasem-0_4-4
 liblastfm-devel
 liblastfm1
 liblayout
@@ -2806,11 +2829,6 @@ libmng1-32bit
 libmnl0
 libmodman1
 libmodplug1
-libmono-2_0-1
-libmono-2_0-devel
-libmonoboehm-2_0-1
-libmonoboehm-2_0-devel
-libmonosgen-2_0-1
 libmount1
 libmount1-32bit
 libmozjs-17_0
@@ -3019,6 +3037,7 @@ libpq5
 libpq5-32bit
 libpqxx-4_0
 libpqxx-devel
+libpresage1
 libprison0
 libprocps3
 libprotobuf-c1
@@ -3153,6 +3172,7 @@ libreoffice-calc-extensions
 libreoffice-draw
 libreoffice-filters-optional
 libreoffice-gnome
+libreoffice-gtk3
 libreoffice-icon-theme-breeze
 libreoffice-icon-theme-galaxy
 libreoffice-icon-theme-hicontrast
@@ -3519,26 +3539,33 @@ libwpg-devel
 libwps-0_4-4
 libwrap0
 libwrap0-32bit
+libwv-1_2-3
 libwv2-4
 libwx_baseu-2_8-0-stl
+libwx_baseu-suse-nostl1
 libwx_baseu-suse1
 libwx_baseu_net-2_8-0-stl
+libwx_baseu_net-suse-nostl1
 libwx_baseu_net-suse1
 libwx_baseu_xml-2_8-0-stl
+libwx_baseu_xml-suse-nostl1
 libwx_baseu_xml-suse1
 libwx_gtk2u_adv-2_8-0-stl
+libwx_gtk2u_adv-suse-nostl1
 libwx_gtk2u_adv-suse1
 libwx_gtk2u_aui-2_8-0-stl
 libwx_gtk2u_aui-suse1
 libwx_gtk2u_core-2_8-0-stl
+libwx_gtk2u_core-suse-nostl1
 libwx_gtk2u_core-suse1
 libwx_gtk2u_gizmos-2_8-0-stl
 libwx_gtk2u_gl-2_8-0-stl
 libwx_gtk2u_gl-suse1
 libwx_gtk2u_html-2_8-0-stl
+libwx_gtk2u_html-suse-nostl1
 libwx_gtk2u_html-suse1
 libwx_gtk2u_media-2_8-0-stl
-libwx_gtk2u_qa-2_8-0-stl
+libwx_gtk2u_qa-suse-nostl1
 libwx_gtk2u_qa-suse1
 libwx_gtk2u_richtext-2_8-0-stl
 libwx_gtk2u_stc-2_8-0-stl
@@ -3645,6 +3672,7 @@ libzbar0
 libzeitgeist-2_0-0
 libzhuyin-data
 libzhuyin7
+libzinnia0
 libzio1
 libzip-devel
 libzip2
@@ -3661,6 +3689,7 @@ lightdm-lang
 lightsoff
 lightsoff-lang
 lilo
+link-grammar
 links
 linux-glibc-devel
 linuxconsoletools
@@ -3671,7 +3700,6 @@ lmdb-devel
 lndir
 lockdev
 log4j
-log4net
 logrotate
 lokalize
 lomoco
@@ -3697,7 +3725,6 @@ lxappearance-obconf-lang
 lxcc
 lxde-common
 lxde-common-branding-openSUSE
-lxdm
 lxinput
 lxinput-lang
 lxlauncher
@@ -3795,20 +3822,12 @@ mobile-broadband-provider-info
 mobipocket
 monapo-fonts
 monitoring-tools
-mono-core
-mono-data
-mono-data-sqlite
-mono-extras
-mono-locale-extras
-mono-mvc
-mono-wcf
-mono-web
-mono-winforms
-mono-winfxcore
 mosh
 motv
 mousetweaks
 mousetweaks-lang
+mozc
+mozc-gui-tools
 mozilla-kde4-integration
 mozilla-nspr
 mozilla-nspr-devel
@@ -3858,8 +3877,6 @@ nagios
 nagios-www
 nano
 nano-lang
-nanum-fonts
-nanum-gothic-coding-fonts
 nasm
 nautilus
 nautilus-deja-dup
@@ -3896,7 +3913,6 @@ nkf
 nmap
 notification-daemon
 notification-daemon-lang
-notify-sharp
 noto-sans-cjk-fonts
 noto-sans-fonts
 nscd
@@ -4411,6 +4427,7 @@ perl-XML-XPath
 perl-XML-XPathEngine
 perl-XML-XSLT
 perl-YAML
+perl-YAML-LibYAML
 perl-apparmor
 perl-autobox
 perl-base
@@ -4423,6 +4440,8 @@ perl-ldap
 perl-libconfigfile
 perl-libwww-perl
 perl-libxml-perl
+perl-qt4
+perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
@@ -4502,7 +4521,6 @@ planner
 planner-lang
 plasma-framework
 plasma-framework-components
-plasma-framework-devel
 plasma-framework-lang
 plasma-framework-private
 plasma-nm5
@@ -4524,7 +4542,6 @@ plasma5-pk-updates-lang
 plasma5-session
 plasma5-workspace
 plasma5-workspace-branding-openSUSE
-plasma5-workspace-devel
 plasma5-workspace-lang
 plasma5-workspace-libs
 plymouth
@@ -4572,6 +4589,7 @@ pptpd
 pragha
 pragha-lang
 prctl
+presage-data
 presentproto-devel
 printproto-devel
 privoxy
@@ -4640,6 +4658,7 @@ python-gdata
 python-gdbm
 python-gnome
 python-gnome-devel
+python-gnome-dvb-daemon
 python-gnomecanvas
 python-gnomevfs
 python-gobject
@@ -4691,7 +4710,6 @@ python-pyserial
 python-python-dateutil
 python-pyudev
 python-pywbem
-python-pyxdg
 python-qt4
 python-requests
 python-sip
@@ -4703,6 +4721,7 @@ python-urlgrabber
 python-wxWidgets
 python-wxWidgets-lang
 python-xcb-proto-devel
+python-xdg
 python-xlib
 python-xml
 python-yum
@@ -4731,6 +4750,7 @@ python3-numpy
 python3-pip
 python3-py
 python3-pycurl
+python3-pyxdg
 python3-qt4
 python3-requests
 python3-setuptools
@@ -4739,7 +4759,6 @@ python3-sip
 python3-smbc
 python3-speechd
 python3-tk
-python3-xdg
 pyzy-db-android
 pyzy-db-open-phrase
 qalculate
@@ -4923,26 +4942,6 @@ smbios-utils-python
 smp_utils
 smproxy
 smuxi
-smuxi-engine
-smuxi-engine-campfire
-smuxi-engine-campfire-lang
-smuxi-engine-irc
-smuxi-engine-irc-lang
-smuxi-engine-lang
-smuxi-engine-twitter
-smuxi-engine-twitter-lang
-smuxi-engine-xmpp
-smuxi-frontend
-smuxi-frontend-gnome
-smuxi-frontend-gnome-irc
-smuxi-frontend-gnome-irc-lang
-smuxi-frontend-gnome-lang
-smuxi-frontend-gnome-twitter
-smuxi-frontend-gnome-twitter-lang
-smuxi-frontend-gnome-xmpp
-smuxi-frontend-lang
-smuxi-server
-smuxi-server-lang
 snapper
 snapper-zypp-plugin
 sni-qt
@@ -5039,8 +5038,6 @@ tali-lang
 tango-icon-theme
 tar
 tar-lang
-tasque
-tasque-lang
 tcl
 tcpd-devel
 tcpdump
@@ -5098,6 +5095,7 @@ totem
 totem-lang
 totem-pl-parser
 totem-pl-parser-lang
+totem-plugin-gnome-dvb-daemon
 totem-plugin-zeitgeist
 totem-plugins
 traceroute
@@ -5568,7 +5566,7 @@ xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver10
+xml-commons-resolver12
 xml-commons-which10
 xml-group-manager
 xml2po
@@ -5794,6 +5792,8 @@ zd1211-firmware
 zeitgeist
 zenity
 zenity-lang
+zinnia
+zinnia-tomoe
 zip
 zisofs-tools
 zlib-devel

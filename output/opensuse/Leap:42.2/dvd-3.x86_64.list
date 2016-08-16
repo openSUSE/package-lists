@@ -307,6 +307,8 @@ libgpg-error0-32bit
 libgphoto2-6
 libgphoto2-6-lang
 libgraphite2-3
+libgsasl-lang
+libgsasl7
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
@@ -376,6 +378,7 @@ libnfs8
 libnl-config
 libnl3-200
 libnotify4
+libntlm0
 liboauth0
 libogg0
 libopenssl1_0_0
@@ -518,13 +521,12 @@ logrotate
 lsof
 lsscsi
 lvm2
-m4
-make
-metamail
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
 mozilla-nspr
+msmtp
+msmtp-mta
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -609,10 +611,7 @@ pkg-config
 polkit
 polkit-default-privs
 prctl
-procmail
 procps
-psmisc
-psmisc-lang
 pytalloc
 pytalloc-32bit
 python
@@ -648,14 +647,10 @@ samba-winbind
 samba-winbind-32bit
 sed
 sed-lang
-sendmail
 shadow
 shared-mime-info
 shared-mime-info-lang
-sharutils
-sharutils-lang
 shim
-site-config
 snapper
 snapper-zypp-plugin
 strace
@@ -667,7 +662,6 @@ syslinux
 systemd
 systemd-32bit
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
