@@ -30,7 +30,7 @@ bash-completion
 bash-doc
 binutils
 blog
-boost-license1_60_0
+boost-license1_61_0
 branding-openSUSE
 bundle-lang-common-en
 bundle-lang-gnome-en
@@ -143,6 +143,7 @@ krb5
 libFLAC8
 libGLEW1_13
 libGLU1
+libGeneratedSaxParser0_2
 libHalf12
 libICE6
 libIex-2_2-12
@@ -151,7 +152,10 @@ libIlmThread-2_2-12
 libKF5ConfigCore5
 libLLVM
 libMagickCore-6_Q16-2
-libOpenCOLLADA0
+libMathMLSolver0_2
+libOpenCOLLADABaseUtils0_2
+libOpenCOLLADAFramework0_2
+libOpenCOLLADASaxFrameworkLoader0_2
 libQt5CLucene5
 libQt5Core5
 libQt5DBus5
@@ -171,6 +175,7 @@ libQt5XmlPatterns5
 libQtQuick5
 libQtWebKit4
 libSM6
+libUTF0_2
 libX11-6
 libX11-data
 libX11-xcb1
@@ -218,11 +223,11 @@ libavahi-glib1
 libbase
 libblkid1
 libbluray1
-libboost_date_time1_60_0
-libboost_filesystem1_60_0
-libboost_iostreams1_60_0
-libboost_system1_60_0
-libboost_thread1_60_0
+libboost_date_time1_61_0
+libboost_filesystem1_61_0
+libboost_iostreams1_61_0
+libboost_system1_61_0
+libboost_thread1_61_0
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -403,7 +408,7 @@ libpng16-16
 libpolkit0
 libpoppler63
 libpopt0
-libprocps5
+libprocps6
 libproxy1
 libproxy1-config-kde
 libproxy1-pacrunner-webkit

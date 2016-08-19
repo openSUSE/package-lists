@@ -71,7 +71,7 @@ binutils
 blog
 bluez
 bluez-firmware
-boost-license1_60_0
+boost-license1_61_0
 branding-openSUSE
 brltty
 brltty-driver-at-spi2
@@ -217,7 +217,6 @@ glibc-locale
 gnome-bluetooth
 gnome-calculator
 gnome-chess
-gnome-chess-lang
 gnome-clocks
 gnome-contacts
 gnome-control-center
@@ -230,7 +229,6 @@ gnome-documents_books-common
 gnome-keyring
 gnome-keyring-pam
 gnome-mahjongg
-gnome-mahjongg-lang
 gnome-maps
 gnome-menus
 gnome-menus-branding-openSUSE
@@ -344,7 +342,6 @@ hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
 iagno
-iagno-lang
 ibus
 ibus-gtk
 ibus-gtk3
@@ -384,6 +381,7 @@ less
 libFLAC8
 libGLEW1_13
 libGLU1
+libGeneratedSaxParser0_2
 libHX28
 libHalf12
 libICE6
@@ -392,7 +390,10 @@ libIlmImf-2_2-22
 libIlmThread-2_2-12
 libLLVM
 libMagickCore-6_Q16-2
-libOpenCOLLADA0
+libMathMLSolver0_2
+libOpenCOLLADABaseUtils0_2
+libOpenCOLLADAFramework0_2
+libOpenCOLLADASaxFrameworkLoader0_2
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -402,6 +403,7 @@ libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libSoundTouch0
+libUTF0_2
 libX11-6
 libX11-data
 libX11-xcb1
@@ -476,9 +478,9 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
-libboost_date_time1_60_0
-libboost_system1_60_0
-libboost_thread1_60_0
+libboost_date_time1_61_0
+libboost_system1_61_0
+libboost_thread1_61_0
 libbrlapi0_6
 libbs2b0
 libbtrfs0
@@ -882,7 +884,7 @@ libpoppler-glib8
 libpoppler63
 libpopt0
 libportaudio2
-libprocps5
+libprocps6
 libprotobuf-c1
 libprotobuf-lite9
 libproxy1
@@ -1069,7 +1071,7 @@ libwps-0_4-4
 libwrap0
 libx86emu1
 libxalan-c111
-libxapian22
+libxapian30
 libxatracker2
 libxcb-dri2-0
 libxcb-dri3-0
@@ -1120,7 +1122,6 @@ libzypp
 libzypp-plugin-appdata
 liferea
 lightsoff
-lightsoff-lang
 linuxconsoletools
 lockdev
 logrotate
@@ -1443,7 +1444,6 @@ susehelp
 susehelp_en
 sushi
 swell-foop
-swell-foop-lang
 sysconfig
 sysconfig-netconfig
 sysfsutils
