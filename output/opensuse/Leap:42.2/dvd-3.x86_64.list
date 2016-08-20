@@ -193,6 +193,7 @@ libXmuu1
 libXpm4
 libXrandr2
 libXrender1
+libXss1
 libXt6
 libXtst6
 libXv1
@@ -228,7 +229,6 @@ libboost_system1_54_0
 libboost_thread1_54_0
 libbtrfs0
 libburn4
-libburnia-tools
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -667,11 +667,13 @@ systemd-sysvinit
 sysvinit-tools
 tar
 tar-lang
+tcl
 tcsh
 telnet
 terminfo-base
 time
 timezone
+tk
 tnftp
 traceroute
 typelib-1_0-Atk-1_0
@@ -707,6 +709,8 @@ xauth
 xdg-utils
 xen-libs
 xen-tools-domU
+xhost
+xorriso
 xtables-plugins
 xz
 xz-lang

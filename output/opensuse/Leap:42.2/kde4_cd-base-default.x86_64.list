@@ -169,6 +169,7 @@ libXinerama1
 libXmuu1
 libXrandr2
 libXrender1
+libXss1
 libXt6
 libXtst6
 libXxf86vm1
@@ -194,7 +195,6 @@ libboost_system1_54_0
 libboost_thread1_54_0
 libbtrfs0
 libburn4
-libburnia-tools
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -596,9 +596,11 @@ systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
 tar
+tcl
 terminfo-base
 time
 timezone
+tk
 tnftp
 traceroute
 tuned
@@ -636,7 +638,9 @@ wireless-regdb
 wireless-tools
 xauth
 xdg-utils
+xhost
 xinetd
+xorriso
 xtables-plugins
 xz
 yast2

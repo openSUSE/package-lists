@@ -229,6 +229,7 @@ libXmuu1
 libXpm4
 libXrandr2
 libXrender1
+libXss1
 libXt6
 libXtst6
 libXv1
@@ -263,7 +264,6 @@ libboost_system1_54_0
 libboost_thread1_54_0
 libbtrfs0
 libburn4
-libburnia-tools
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -780,10 +780,12 @@ systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
 tar
+tcl
 terminfo-base
 tigervnc
 time
 timezone
+tk
 tnftp
 traceroute
 translation-update
@@ -842,6 +844,7 @@ xf86-video-amdgpu
 xf86-video-fbdev
 xf86-video-nouveau
 xf86-video-vesa
+xhost
 xinetd
 xinit
 xkbcomp
@@ -855,6 +858,7 @@ xorg-x11-driver-video
 xorg-x11-essentials
 xorg-x11-libX11-ccache
 xorg-x11-server
+xorriso
 xprop
 xrandr
 xrdb
