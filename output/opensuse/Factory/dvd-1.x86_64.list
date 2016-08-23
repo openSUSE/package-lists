@@ -22,7 +22,6 @@ Mesa-libGLESv2-2
 Mesa-libGLESv2-devel
 Mesa-libglapi-devel
 Mesa-libglapi0
-Mesa-libglapi0-32bit
 Mesa-libva
 ModemManager
 ModemManager-devel
@@ -93,7 +92,6 @@ alsa-firmware
 alsa-oss
 alsa-oss-32bit
 alsa-plugins
-alsa-plugins-32bit
 alsa-plugins-pulse
 alsa-plugins-pulse-32bit
 alsa-utils
@@ -341,7 +339,6 @@ bzr
 bzr-lang
 ca-certificates
 ca-certificates-mozilla
-cabextract
 cairo-devel
 cal10n
 calendarsupport
@@ -542,7 +539,6 @@ docbook_5
 dolphin
 dolphin-part
 dos2unix
-dosbox
 dosfstools
 doxygen
 dracut
@@ -1595,7 +1591,6 @@ libFS-devel
 libFS6
 libGLEW1_13
 libGLU1
-libGLU1-32bit
 libGeneratedSaxParser0_2
 libGeoIP1
 libGraphicsMagick-Q16-3
@@ -1733,7 +1728,6 @@ libMagickWand-6_Q16-2
 libMathMLSolver0_2
 libOSMesa-devel
 libOSMesa9
-libOSMesa9-32bit
 libOpenCOLLADABaseUtils0_2
 libOpenCOLLADAFramework0_2
 libOpenCOLLADASaxFrameworkLoader0_2
@@ -1800,8 +1794,6 @@ libSDL2-2_0-0
 libSDL_gfx15
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
-libSDL_net-1_2-0
-libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSM-devel
 libSM6
@@ -1865,7 +1857,6 @@ libXp-devel
 libXp6
 libXpm-devel
 libXpm4
-libXpm4-32bit
 libXprintAppUtil-devel
 libXprintAppUtil1
 libXprintUtil-devel
@@ -1896,7 +1887,6 @@ libXxf86misc-devel
 libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
-libXxf86vm1-32bit
 libaa1
 libabiword-3_0
 libabw-0_1-1
@@ -2059,7 +2049,6 @@ libcap-ng0
 libcap2
 libcap2-32bit
 libcapi20-3
-libcapi20-3-32bit
 libcares2
 libcaribou0
 libcblas3
@@ -2127,7 +2116,6 @@ libdatrie1
 libdatrie1-32bit
 libdb-4_5
 libdb-4_8
-libdb-4_8-32bit
 libdb-4_8-devel
 libdbus-1-3
 libdbus-1-3-32bit
@@ -2193,7 +2181,6 @@ libeews-1_2-0
 libefivar0
 libeigen2-devel
 libelf1
-libelf1-32bit
 libenca0
 libenchant1
 libepoxy-devel
@@ -2217,7 +2204,6 @@ libexempi-devel
 libexempi3
 libexif-devel
 libexif12
-libexif12-32bit
 libexiv2-14
 libexiv2-devel
 libexo-1-0
@@ -2304,7 +2290,6 @@ libgcrypt-devel
 libgcrypt20
 libgcrypt20-32bit
 libgd3
-libgd3-32bit
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
@@ -2315,7 +2300,6 @@ libgda-ui-5_0-plugins
 libgdata-devel
 libgdata22
 libgdbm4
-libgdbm4-32bit
 libgdict-1_0-10
 libgdict-data
 libgdiplus0
@@ -2410,7 +2394,6 @@ libgpg-error0-32bit
 libgpgme-devel
 libgpgme11
 libgphoto2-6
-libgphoto2-6-32bit
 libgphoto2-devel
 libgpm2
 libgpod-devel
@@ -2430,7 +2413,6 @@ libgsf-devel
 libgsl19
 libgslcblas0
 libgsm1
-libgsm1-32bit
 libgsound0
 libgspell-1-1
 libgssdp-1_0-3
@@ -2441,7 +2423,6 @@ libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
-libgstaudio-1_0-0-32bit
 libgstbadaudio-1_0-0
 libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
@@ -2460,7 +2441,6 @@ libgstphotography-0_10-23
 libgstphotography-1_0-0
 libgstreamer-0_10-0
 libgstreamer-1_0-0
-libgstreamer-1_0-0-32bit
 libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
@@ -2468,12 +2448,10 @@ libgstrtspserver-1_0-0
 libgstsdp-1_0-0
 libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
-libgsttag-1_0-0-32bit
 libgsturidownloader-1_0-0
 libgstvalidate-1_0-0
 libgstvdp-0_10-23
 libgstvideo-1_0-0
-libgstvideo-1_0-0-32bit
 libgstwayland-1_0-0
 libgsystem0
 libgthread-2_0-0
@@ -2544,7 +2522,6 @@ libidn11-32bit
 libidnkit1
 libiec61883-0
 libieee1284
-libieee1284-32bit
 libimobiledevice-devel
 libimobiledevice6
 libindi-devel
@@ -2695,7 +2672,6 @@ liblirc_driver0
 liblmdb-0_9_17
 libloader
 liblockdev1
-liblockdev1-32bit
 libloudmouth-1-0
 liblouis-data
 liblouis9
@@ -2709,7 +2685,6 @@ libltdl7-32bit
 liblua5_1
 liblua5_2
 liblua5_3
-liblua5_3-32bit
 liblvm2app2_2
 liblvm2cmd2_02
 liblwres141
@@ -2720,7 +2695,6 @@ liblzma5-32bit
 liblzo2-2
 libm17n0
 libmagic1
-libmagic1-32bit
 libmal-devel
 libmal1
 libmarblewidget-qt5-24
@@ -2791,7 +2765,6 @@ libmythes-1_2-0
 libnautilus-extension1
 libncurses5
 libncurses6
-libncurses6-32bit
 libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -2824,7 +2797,6 @@ libnilfscleaner0
 libnilfsgc0
 libnl-config
 libnl3-200
-libnl3-200-32bit
 libnm-glib-vpn1
 libnm-glib4
 libnm-gtk0
@@ -2864,7 +2836,6 @@ libonig2
 libopagent1
 libopal3_10_10
 libopenal1
-libopenal1-32bit
 libopenbabel-devel
 libopenbabel4
 libopencc2
@@ -2881,7 +2852,6 @@ libopts-devel
 libopts25
 libopus0
 liborc-0_4-0
-liborc-0_4-0-32bit
 liborcus-0_11-0
 libortp10
 libosinfo
@@ -2905,7 +2875,6 @@ libpano13-3
 libparted0
 libpath_utils1
 libpcap1
-libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
@@ -3166,7 +3135,6 @@ libselinux1
 libselinux1-32bit
 libsemanage1
 libsensors4
-libsensors4-32bit
 libsensors4-devel
 libsepol-devel
 libsepol1
@@ -3206,7 +3174,6 @@ libsndfile-devel
 libsndfile1
 libsndfile1-32bit
 libsnmp30
-libsnmp30-32bit
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
@@ -3338,7 +3305,6 @@ libupsclient1
 liburcu2
 libusb-0_1-4
 libusb-1_0-0
-libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd-devel
@@ -3354,12 +3320,9 @@ libuv1
 libv4l
 libv4l-devel
 libv4l1-0
-libv4l1-0-32bit
 libv4l2-0
-libv4l2-0-32bit
 libv4l2rds0
 libv4lconvert0
-libv4lconvert0-32bit
 libva-drm1
 libva-egl1
 libva-glx1
@@ -3414,7 +3377,6 @@ libvorbisenc2-32bit
 libvorbisfile3
 libvorbisfile3-32bit
 libvpx4
-libvpx4-32bit
 libvte-2_91-0
 libvte9
 libvulkan_intel
@@ -3457,7 +3419,6 @@ libwpg-0_3-3
 libwpg-devel
 libwps-0_4-4
 libwrap0
-libwrap0-32bit
 libwv-1_2-3
 libwv2-4
 libwx_baseu-suse1
@@ -3558,7 +3519,6 @@ libxslt-devel
 libxslt-python
 libxslt-tools
 libxslt1
-libxslt1-32bit
 libxtables11
 libyajl2
 libyaml-0-2
@@ -3885,7 +3845,6 @@ oxygen5-lang
 oxygen5-sounds
 oxygen5-style
 p11-kit
-p11-kit-32bit
 p11-kit-devel
 p11-kit-tools
 p7zip
@@ -4035,7 +3994,6 @@ pcsc-towitoko
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
-perl-32bit
 perl-Algorithm-Diff
 perl-Apache-AuthCookie
 perl-Apache-DBI
@@ -4703,7 +4661,6 @@ rng-tools
 rp-pppoe
 rpcbind
 rpm
-rpm-32bit
 rpm-build
 rpm-devel
 rpm-python
@@ -4746,7 +4703,6 @@ samba-libs-32bit
 samba-winbind
 samba-winbind-32bit
 sane-backends
-sane-backends-32bit
 sane-backends-autoconfig
 sane-backends-devel
 sash
@@ -5169,8 +5125,6 @@ whois
 wicked
 wicked-service
 wiggle
-wine
-wine-32bit
 wireless-regdb
 wireless-tools
 wireshark
