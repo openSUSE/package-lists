@@ -73,6 +73,7 @@ aaa_base-extras
 aaa_base-malloccheck
 abcde
 abiword
+abiword-docs
 accerciser
 accerciser-lang
 accountsservice
@@ -153,6 +154,7 @@ apache-commons-httpclient
 apache-commons-io
 apache-commons-lang
 apache-commons-logging
+apache-commons-validator
 apache-rpm-macros-control
 apache2
 apache2-devel
@@ -1145,6 +1147,7 @@ gutenprint
 gv
 gvfs
 gvfs-backend-afc
+gvfs-backend-samba
 gvfs-backends
 gvfs-fuse
 gvfs-lang
@@ -1860,6 +1863,7 @@ libOSMesa9
 libOSMesa9-32bit
 libOpenCOLLADA0
 libOpenColorIO1
+libQgpsmm22
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -2844,6 +2848,7 @@ libmspub-0_1-1
 libmtdev1
 libmthca-rdmav2
 libmtp-devel
+libmtp-udev
 libmtp9
 libmusicbrainz-devel
 libmusicbrainz3-6
@@ -3708,7 +3713,6 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
-lttng-ust
 lua
 lua-devel
 luasocket
@@ -4841,6 +4845,8 @@ rtkit
 ruby
 ruby-common
 ruby-devel
+ruby-qt4
+ruby-qt4-devel
 ruby2.1
 ruby2.1-devel
 ruby2.1-rubygem-abstract_method
@@ -5563,7 +5569,7 @@ xmessage
 xml-commons
 xml-commons-jaxp-1.1-apis
 xml-commons-jaxp-1.3-apis
-xml-commons-resolver10
+xml-commons-resolver12
 xml-commons-which10
 xml-group-manager
 xml2po
