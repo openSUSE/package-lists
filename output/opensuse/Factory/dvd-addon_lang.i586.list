@@ -578,6 +578,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 firebird
 fixesproto-devel
 flex
@@ -1160,12 +1161,14 @@ kdump
 keditbookmarks
 kemoticons-devel
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-firmware
 kernel-macros
 kernel-pae
 kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -1725,6 +1728,7 @@ libcdio16
 libcdio_cdda2
 libcdio_paranoia2
 libcdr-0_1-1
+libcelt0-2
 libcelt051-0
 libchamplain-0_12-0
 libcheese-common
@@ -1852,6 +1856,7 @@ libfdt1
 libffi-devel-gcc5
 libffi4
 libfftw3-3
+libfipscheck1
 libfltk1
 libfluidsynth1
 libfm
@@ -2735,6 +2740,7 @@ libwebkitgtk-3_0-0
 libwebkitgtk-devel
 libwebkitgtk2-lang
 libwebp6
+libwebpmux2
 libwebrtc_audio_processing1
 libwicked-0-6
 libwmf-0_2-7
@@ -2950,6 +2956,7 @@ mozilla-nspr-devel
 mozilla-nss
 mozilla-nss-certs
 mozilla-nss-devel
+mozilla-nss-tools
 mpt-firmware
 mpt-status
 mt-st
@@ -3389,6 +3396,8 @@ perl-namespace-clean
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 phalanx
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
