@@ -26,6 +26,7 @@ adaptec-firmware
 adjtimex
 adwaita-icon-theme
 akonadi-contact
+akonadi-mime
 akonadi-search
 akonadi-server
 akonadi_resources
@@ -263,6 +264,7 @@ icewm-default
 icoutils
 idnkit
 ifplugd
+incidenceeditor
 info
 info2html
 initviocons
@@ -343,12 +345,12 @@ kio
 kio-core
 kio-extras5
 kio-lang
-kio-pimlibs
 kio_audiocd
 kio_kamera
 kio_mtp
 kipi-plugin-icons
 kipi-plugins5
+kldap
 kleopatra5
 klogd
 kmahjongg
@@ -534,7 +536,6 @@ libKF5Tnef5
 libKF5UnitConversion5
 libKF5UnitConversion5-lang
 libKF5Wallet5
-libKF5WebKit5
 libKF5WidgetsAddons5
 libKF5WidgetsAddons5-lang
 libKF5WindowSystem5
@@ -644,8 +645,10 @@ libavahi-core7
 libavahi-glib1
 libavahi-gobject0
 libavcodec56
-libavformat56
+libavcodec57
+libavformat57
 libavutil54
+libavutil55
 libbasicobjects0
 libbind9-140
 libblkid1
@@ -1014,6 +1017,7 @@ libqt5-qtgraphicaleffects
 libqt5-qtimageformats
 libqt5-qtquickcontrols
 libqt5-qttools
+libqt5-qtwebengine
 libquicktime0
 libraptor2-0
 libraw1394-11
@@ -1057,6 +1061,7 @@ libsmbios2
 libsmbldap0
 libsmputils1-1
 libsnapper3
+libsnappy1
 libsndfile1
 libsocks0
 libsofia-sip-ua-glib3
@@ -1069,6 +1074,7 @@ libspandsp2
 libspeex1
 libspeexdsp1
 libsqlite3-0
+libsrtp1
 libssh2-1
 libssh4
 libsss_idmap0
@@ -1079,6 +1085,7 @@ libstdc++6
 libstorage-ruby
 libstorage7
 libswresample1
+libswresample2
 libswscale3
 libsystemd0
 libtag1
@@ -1120,6 +1127,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
+libvdpau1
 libverto1
 libvisual
 libvmtools0
@@ -1137,6 +1145,7 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebp6
+libwebpdemux2
 libwebpmux2
 libwebrtc_audio_processing1
 libwicked-0-6
@@ -1200,6 +1209,7 @@ lsscsi
 luit
 lvm2
 mailcommon
+mailimporter
 mailx
 man
 mariadb

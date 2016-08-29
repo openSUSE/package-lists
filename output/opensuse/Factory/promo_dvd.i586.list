@@ -53,6 +53,7 @@ adobe-sourceserifpro-fonts
 adwaita-icon-theme
 aisleriot
 akonadi-contact
+akonadi-mime
 akonadi-search
 akonadi-server
 akonadi_resources
@@ -682,6 +683,7 @@ icoutils
 idnkit
 ifplugd
 iftop
+incidenceeditor
 indic-fonts
 info
 info2html
@@ -824,7 +826,6 @@ kexec-tools
 keyutils
 kf5-kcm-fcitx
 kf5-kcm-fcitx-icons
-kfilemetadata
 kfilemetadata5
 kgamma5
 kgeography
@@ -841,7 +842,6 @@ kinit
 kio
 kio-core
 kio-extras5
-kio-pimlibs
 kio_audiocd
 kio_kamera
 kio_mtp
@@ -862,6 +862,7 @@ kiwi-media-requires
 kiwi-pxeboot
 kiwi-templates
 kiwi-tools
+kldap
 kleopatra5
 klettres
 klogd
@@ -1073,6 +1074,7 @@ libQt5PrintSupport5
 libQt5Script5
 libQt5Sensors5
 libQt5Sensors5-imports
+libQt5SerialPort5
 libQt5Sql5
 libQt5Sql5-mysql
 libQt5Sql5-sqlite
@@ -1176,14 +1178,15 @@ libavahi-glib1
 libavahi-gobject0
 libavahi-ui-gtk3-0
 libavcodec56
+libavcodec57
 libavformat56
+libavformat57
 libavogadro1
 libavutil54
+libavutil55
 libb64-0
 libbabl-0_1-0
 libbaloofiles4
-libbalooqueryparser4
-libbaloowidgets4
 libbase
 libbind9-140
 libblas3
@@ -1667,7 +1670,7 @@ liblz4-1_7
 liblzma5
 liblzo2-2
 libmagic1
-libmarblewidget-qt5-24
+libmarblewidget-qt5-25
 libmarblewidget22
 libmbedtls9
 libmbim-glib4
@@ -1860,6 +1863,7 @@ libqt5-qtgraphicaleffects
 libqt5-qtimageformats
 libqt5-qtquickcontrols
 libqt5-qttools
+libqt5-qtwebengine
 libquadmath0
 libquicktime0
 libquvi-0_9-0_9_4
@@ -1988,6 +1992,7 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample1
+libswresample2
 libswscale3
 libsystemd0
 libtag-extras1
@@ -2091,6 +2096,7 @@ libwebkitgtk-1_0-0
 libwebkitgtk-3_0-0
 libwebkitgtk2-lang
 libwebp6
+libwebpdemux2
 libwebpmux2
 libwebrtc_audio_processing1
 libwicked-0-6
@@ -2233,6 +2239,7 @@ lxterminal-lang
 lynx
 m4
 mailcommon
+mailimporter
 mailman
 mailx
 make

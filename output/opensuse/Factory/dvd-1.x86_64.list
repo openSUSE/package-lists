@@ -82,6 +82,7 @@ agrep
 aisleriot
 aisleriot-themes
 akonadi-contact
+akonadi-mime
 akonadi-search
 akonadi-server
 akonadi_resources
@@ -1157,6 +1158,7 @@ ifplugd
 iftop
 ilmbase-devel
 imake
+incidenceeditor
 indent
 indic-fonts
 info
@@ -1398,7 +1400,6 @@ keyutils-devel
 kf5-filesystem
 kf5-kcm-fcitx
 kf5-kcm-fcitx-icons
-kfilemetadata
 kfilemetadata5
 kfilemetadata5-devel
 kfilereplace
@@ -1428,7 +1429,6 @@ kio
 kio-core
 kio-devel
 kio-extras5
-kio-pimlibs
 kio_audiocd
 kio_iso
 kio_kamera
@@ -1460,6 +1460,7 @@ kjobwidgets-devel
 kjs-devel
 kjsembed-devel
 kjumpingcube
+kldap
 kleopatra5
 klettres
 klinkstatus
@@ -1974,14 +1975,15 @@ libavahi-qt4-devel
 libavahi-ui-gtk3-0
 libavc1394-0
 libavcodec56
+libavcodec57
 libavformat56
+libavformat57
 libavogadro1
 libavutil54
+libavutil55
 libb64-0
 libbabl-0_1-0
 libbaloofiles4
-libbalooqueryparser4
-libbaloowidgets4
 libbase
 libbasicobjects0
 libbind9-140
@@ -2611,7 +2613,6 @@ libkdecorations2-5
 libkdecorations2private5
 libkdecore4
 libkdecore4-devel
-libkdeedu4-devel
 libkdegames
 libkdegames-devel
 libkdegames4
@@ -2620,7 +2621,6 @@ libkdepim
 libkdepimlibs4
 libkdevplatform-devel
 libkdevplatform8
-libkeduvocdocument4
 libkerfuffle16
 libkexiv2-devel
 libkeybinder-3_0-0
@@ -2724,7 +2724,7 @@ libmagic1
 libmagic1-32bit
 libmal-devel
 libmal1
-libmarblewidget-qt5-24
+libmarblewidget-qt5-25
 libmarblewidget22
 libmbedtls9
 libmbim-glib4
@@ -3065,6 +3065,7 @@ libqt5-qtsvg-devel
 libqt5-qttools
 libqt5-qttools-devel
 libqt5-qttools-doc
+libqt5-qtwebengine
 libqt5-qtwebsockets-devel
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
@@ -3260,6 +3261,7 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample1
+libswresample2
 libswscale3
 libsystemd0
 libsystemd0-32bit
@@ -3400,6 +3402,7 @@ libvirt-daemon-lxc
 libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
+libvirt-libs
 libvirt-python
 libvisio-0_1-1
 libvisual
@@ -3645,6 +3648,7 @@ lzop
 m17n-db
 m4
 mailcommon
+mailimporter
 mailman
 mailx
 make
