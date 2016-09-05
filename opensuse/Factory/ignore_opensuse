@@ -234,8 +234,8 @@ job lock name ruby2.1
 job lock name esound-daemon
 
 # Kiwi still requires cdrkit-cdrtools-compat, so we must lock cdrtools
-job lock name cdrkit-cdrtools-compat
-job lock name genisoimage
+#job lock name cdrkit-cdrtools-compat
+#job lock name genisoimage
 #job lock name cdda2wav
 #job lock name mkisofs
 #job lock name cdrecord
