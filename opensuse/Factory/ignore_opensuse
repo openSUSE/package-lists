@@ -235,6 +235,8 @@ job lock name esound-daemon
 
 # Kiwi still requires cdrkit-cdrtools-compat, so we must lock cdrtools
 #job lock name cdrkit-cdrtools-compat
+# The new package is not ready and does not work
+job lock name cdrtools-cdrkit-compat
 #job lock name genisoimage
 #job lock name cdda2wav
 #job lock name mkisofs

@@ -43,7 +43,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
-cdrtools-cdrkit-compat
+cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
 command-not-found
@@ -108,6 +108,7 @@ gcr-prompter
 gcr-viewer
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+genisoimage
 gettext-runtime
 ghostscript-fonts-std
 gio-branding-openSUSE
@@ -167,6 +168,7 @@ hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
 iceauth
+icedax
 icewm
 icewm-config-upstream
 icewm-default
@@ -235,6 +237,8 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
+libao-plugins4
+libao4
 libapparmor1
 libarchive13
 libasm1
@@ -382,6 +386,7 @@ libjbig2
 libjpeg8
 libjson-c2
 libjson-glib-1_0-0
+libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -433,6 +438,7 @@ libntfs-3g87
 libnuma1
 liboauth0
 libogg0
+liboggkate1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
@@ -529,6 +535,7 @@ libverto1
 libvisual
 libvorbis0
 libvorbisenc2
+libvorbisfile3
 libvpx4
 libwacom-data
 libwacom2
@@ -829,6 +836,7 @@ usbutils
 util-linux
 util-linux-systemd
 vim
+vorbis-tools
 wallpaper-branding-openSUSE
 webkit2gtk-4_0-injected-bundles
 wget
@@ -837,6 +845,7 @@ wicked
 wicked-service
 wireless-regdb
 wireless-tools
+wodim
 x11-tools
 xauth
 xbitmaps
@@ -934,6 +943,7 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
+zisofs-tools
 zypp-plugin-python
 zypper
 zypper-aptitude

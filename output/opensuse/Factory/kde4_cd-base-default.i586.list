@@ -36,7 +36,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
-cdrtools-cdrkit-compat
+cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
 command-not-found
@@ -91,6 +91,7 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gdk-pixbuf-query-loaders
+genisoimage
 gettext-runtime
 gio-branding-openSUSE
 girepository-1_0
@@ -128,6 +129,7 @@ hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
+icedax
 idnkit
 ifplugd
 info
@@ -146,6 +148,7 @@ kmod-compat
 kpartx
 krb5
 less
+libFLAC8
 libICE6
 libLLVM
 libSM6
@@ -170,6 +173,8 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
+libao-plugins4
+libao4
 libapparmor1
 libasm1
 libasound2
@@ -269,7 +274,9 @@ libiw30
 libjasper1
 libjbig2
 libjpeg8
+libjson-c2
 libjson-glib-1_0-0
+libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -308,6 +315,8 @@ libnotify4
 libnpth0
 libnsl2
 libntfs-3g87
+libogg0
+liboggkate1
 libopenssl1_0_0
 libp11-kit0
 libpackagekit-glib2-18
@@ -329,6 +338,7 @@ libpopt0
 libprocps6
 libproxy1
 libpsl5
+libpulse0
 libpwquality1
 libpython2_7-1_0
 libpython3_5m1_0
@@ -354,8 +364,10 @@ libsmbconf0
 libsmbldap0
 libsmputils1-1
 libsnapper3
+libsndfile1
 libsolv-tools
 libsoup-2_4-1
+libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -380,6 +392,9 @@ libustr-1_0-1
 libutempter0
 libuuid1
 libverto1
+libvorbis0
+libvorbisenc2
+libvorbisfile3
 libwayland-client0
 libwayland-cursor0
 libwayland-egl1
@@ -640,6 +655,7 @@ usbutils
 util-linux
 util-linux-systemd
 vim
+vorbis-tools
 wallpaper-branding-openSUSE
 wget
 which
@@ -647,6 +663,7 @@ wicked
 wicked-service
 wireless-regdb
 wireless-tools
+wodim
 xauth
 xdg-utils
 xinetd
@@ -705,6 +722,7 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
+zisofs-tools
 zypp-plugin-python
 zypper
 zypper-aptitude
