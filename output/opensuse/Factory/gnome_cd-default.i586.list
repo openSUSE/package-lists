@@ -1,4 +1,5 @@
 AppStream
+Mesa
 Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
@@ -29,6 +30,7 @@ accountsservice
 acl
 acpica
 adjtimex
+adwaita-icon-theme
 alsa
 alsa-oss
 alsa-plugins
@@ -62,6 +64,8 @@ boost-license1_61_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
+bundle-lang-common-en
+bundle-lang-gnome-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -72,7 +76,6 @@ caribou-common
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
-cdrkit-cdrtools-compat
 checkmedia
 cheese
 cifs-utils
@@ -88,6 +91,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -125,7 +129,6 @@ dnsmasq
 docbook_4
 dosfstools
 dracut
-dvd+rw-tools
 e2fsprogs
 efibootmgr
 elfutils
@@ -140,7 +143,6 @@ farstream-data
 fdupes
 file
 file-magic
-file-roller
 filesystem
 fillup
 findutils
@@ -164,7 +166,6 @@ gdm-branding-openSUSE
 gdmflexiserver
 gedit
 gegl-0_3
-genisoimage
 geoclue2
 geocode-glib
 gettext-runtime
@@ -176,6 +177,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-bluetooth
 gnome-calculator
 gnome-clocks
@@ -195,6 +197,7 @@ gnome-mines
 gnome-music
 gnome-nettool
 gnome-online-accounts
+gnome-packagekit
 gnome-photos
 gnome-power-manager
 gnome-screenshot
@@ -238,6 +241,8 @@ grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -289,7 +294,6 @@ hostname
 hwinfo
 iagno
 iceauth
-icedax
 icewm
 icewm-config-upstream
 icewm-default
@@ -308,6 +312,7 @@ iso-codes
 iso_ent
 kbd
 kbd-legacy
+kernel-default
 keyutils
 klogd
 kmod
@@ -407,7 +412,6 @@ libboost_system1_61_0
 libboost_thread1_61_0
 libbs2b0
 libbtrfs0
-libburn4
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -647,8 +651,6 @@ libisc160
 libisccc140
 libisccfg140
 libisl15
-libisoburn1
-libisofs6
 libiw30
 libjack0
 libjasper1
@@ -919,6 +921,7 @@ libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwbclient0
+libwebkit2gtk-4_0-37
 libwebkitgtk-3_0-0
 libwebp6
 libwebpmux2
@@ -1005,7 +1008,6 @@ nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-terminal
 nautilus-extension-tracker-tags
-nautilus-file-roller
 nautilus-sendto
 nautilus-totem
 ncurses-utils
@@ -1024,6 +1026,8 @@ ntp
 numlockx
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openconnect
 openldap2-client
@@ -1041,6 +1045,25 @@ pam-config
 pam-modules
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-gnome
+patterns-openSUSE-gnome_basis
+patterns-openSUSE-gnome_games
+patterns-openSUSE-gnome_imaging
+patterns-openSUSE-gnome_internet
+patterns-openSUSE-gnome_multimedia
+patterns-openSUSE-gnome_yast
+patterns-openSUSE-imaging
+patterns-openSUSE-multimedia
+patterns-openSUSE-non_oss
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_gnome
+patterns-openSUSE-x11
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -1120,6 +1143,7 @@ pinentry-gnome3
 pkcs11-helper
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
@@ -1350,7 +1374,6 @@ wicked
 wicked-service
 wireless-regdb
 wireless-tools
-wodim
 wpa_supplicant
 x11-tools
 xauth
@@ -1384,6 +1407,7 @@ xmodmap
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-extra
@@ -1401,6 +1425,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core
@@ -1456,8 +1481,6 @@ yelp-xsl
 yp-tools
 ypbind
 zenity
-zip
-zisofs-tools
 zypp-plugin-python
 zypper
 zypper-aptitude

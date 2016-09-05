@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -11,6 +12,7 @@ aaa_base-extras
 acl
 acpica
 adjtimex
+adwaita-icon-theme
 alsa-plugins
 apparmor-abstractions
 apparmor-parser
@@ -32,11 +34,11 @@ boost-license1_61_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
+bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
-cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
 command-not-found
@@ -91,7 +93,6 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gdk-pixbuf-query-loaders
-genisoimage
 gettext-runtime
 gio-branding-openSUSE
 girepository-1_0
@@ -99,6 +100,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
@@ -108,6 +110,8 @@ gpg2
 gpm
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -129,7 +133,6 @@ hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
-icedax
 idnkit
 ifplugd
 info
@@ -141,6 +144,7 @@ iputils
 iscsiuio
 kbd
 kbd-legacy
+kernel-default
 keyutils
 klogd
 kmod
@@ -148,7 +152,6 @@ kmod-compat
 kpartx
 krb5
 less
-libFLAC8
 libICE6
 libLLVM
 libSM6
@@ -173,8 +176,6 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
-libao-plugins4
-libao4
 libapparmor1
 libasm1
 libasound2
@@ -274,9 +275,7 @@ libiw30
 libjasper1
 libjbig2
 libjpeg8
-libjson-c2
 libjson-glib-1_0-0
-libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -315,8 +314,6 @@ libnotify4
 libnpth0
 libnsl2
 libntfs-3g87
-libogg0
-liboggkate1
 libopenssl1_0_0
 libp11-kit0
 libpackagekit-glib2-18
@@ -338,7 +335,6 @@ libpopt0
 libprocps6
 libproxy1
 libpsl5
-libpulse0
 libpwquality1
 libpython2_7-1_0
 libpython3_5m1_0
@@ -364,10 +360,8 @@ libsmbconf0
 libsmbldap0
 libsmputils1-1
 libsnapper3
-libsndfile1
 libsolv-tools
 libsoup-2_4-1
-libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -392,9 +386,6 @@ libustr-1_0-1
 libutempter0
 libuuid1
 libverto1
-libvorbis0
-libvorbisenc2
-libvorbisfile3
 libwayland-client0
 libwayland-cursor0
 libwayland-egl1
@@ -452,6 +443,8 @@ ntfsprogs
 ntp
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openldap2-client
 openslp
 openssh
@@ -464,6 +457,11 @@ p11-kit-tools
 pam
 pam-config
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-sw_management
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -541,6 +539,7 @@ pigz
 pinentry
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
@@ -655,7 +654,6 @@ usbutils
 util-linux
 util-linux-systemd
 vim
-vorbis-tools
 wallpaper-branding-openSUSE
 wget
 which
@@ -663,7 +661,6 @@ wicked
 wicked-service
 wireless-regdb
 wireless-tools
-wodim
 xauth
 xdg-utils
 xinetd
@@ -675,6 +672,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-core
 yast2-country
 yast2-country-data
@@ -722,7 +720,6 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
-zisofs-tools
 zypp-plugin-python
 zypper
 zypper-aptitude

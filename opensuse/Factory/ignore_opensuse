@@ -237,8 +237,7 @@ job lock name esound-daemon
 #job lock name cdrkit-cdrtools-compat
 # The new package is not ready and does not work
 job lock name cdrtools-cdrkit-compat
-#job lock name genisoimage
+job lock name genisoimage
 #job lock name cdda2wav
-#job lock name mkisofs
-#job lock name cdrecord
-
+job lock name mkisofs
+job lock name cdrecord
