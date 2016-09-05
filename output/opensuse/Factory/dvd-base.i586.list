@@ -16,6 +16,7 @@ bundle-lang-common-da
 bzip2
 ca-certificates
 ca-certificates-mozilla
+cdrkit-cdrtools-compat
 coreutils
 cpio
 cracklib
@@ -40,6 +41,7 @@ fillup
 findutils
 fontconfig
 gawk
+genisoimage
 gettext-runtime
 gio-branding-openSUSE
 glib2-tools
@@ -60,6 +62,7 @@ haveged
 hdparm
 hostname
 hwinfo
+icedax
 info
 insserv-compat
 iproute2
@@ -76,6 +79,7 @@ kmod-compat
 kpartx
 krb5
 less
+libFLAC8
 libICE6
 libSM6
 libX11-6
@@ -90,8 +94,11 @@ libXt6
 libacl1
 libadns1
 libaio1
+libao-plugins4
+libao4
 libapparmor1
 libasm1
+libasound2
 libassuan0
 libattr1
 libaudit1
@@ -148,6 +155,8 @@ libicu57_1-ledata
 libidn11
 libisoburn1
 libisofs6
+libjson-c2
+libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -173,6 +182,8 @@ libnl-config
 libnl3-200
 libnpth0
 libnsl2
+libogg0
+liboggkate1
 libopenssl1_0_0
 libp11-kit0
 libpcre1
@@ -182,6 +193,7 @@ libpopt0
 libprocps6
 libproxy1
 libpsl5
+libpulse0
 libqrencode3
 libreadline6
 libsasl2-3
@@ -192,7 +204,9 @@ libsepol1
 libsgutils2-1_42-2
 libsmartcols1
 libsnapper3
+libsndfile1
 libsolv-tools
+libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -208,6 +222,9 @@ libustr-1_0-1
 libutempter0
 libuuid1
 libverto1
+libvorbis0
+libvorbisenc2
+libvorbisfile3
 libwicked-0-6
 libwrap0
 libx86emu1
@@ -293,6 +310,7 @@ update-alternatives
 util-linux
 util-linux-systemd
 vim
+vorbis-tools
 w3m
 wallpaper-branding-openSUSE
 wget
@@ -300,10 +318,12 @@ which
 wicked
 wicked-service
 wireless-regdb
+wodim
 wol
 xauth
 xhost
 xorriso
 xz
+zisofs-tools
 zypper
 zypper-aptitude

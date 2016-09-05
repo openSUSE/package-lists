@@ -34,6 +34,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
+cdrkit-cdrtools-compat
 coreutils
 cpio
 cracklib
@@ -67,6 +68,7 @@ gcr-data
 gcr-prompter
 gcr-viewer
 gdk-pixbuf-query-loaders
+genisoimage
 gettext-runtime
 gio-branding-openSUSE
 girepository-1_0
@@ -118,6 +120,7 @@ hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
+icedax
 info
 insserv-compat
 iproute2
@@ -132,6 +135,7 @@ kmod-compat
 kpartx
 krb5
 less
+libFLAC8
 libICE6
 libLLVM
 libSM6
@@ -159,6 +163,8 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
+libao-plugins4
+libao4
 libapparmor1
 libarchive13
 libasm1
@@ -275,7 +281,9 @@ libjasper1
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjpeg8
+libjson-c2
 libjson-glib-1_0-0
+libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -310,6 +318,7 @@ libnpth0
 libnsl2
 liboauth0
 libogg0
+liboggkate1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
@@ -326,6 +335,7 @@ libpopt0
 libprocps6
 libproxy1
 libpsl5
+libpulse0
 libpython2_7-1_0
 libqrencode3
 libreadline6
@@ -339,8 +349,10 @@ libsepol1
 libsgutils2-1_42-2
 libsmartcols1
 libsnapper3
+libsndfile1
 libsolv-tools
 libsoup-2_4-1
+libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -367,6 +379,7 @@ libverto1
 libvisual
 libvorbis0
 libvorbisenc2
+libvorbisfile3
 libvpx4
 libwayland-client0
 libwayland-cursor0
@@ -499,6 +512,7 @@ util-linux
 util-linux-systemd
 vim
 vim-data
+vorbis-tools
 w3m
 wallpaper-branding-openSUSE
 webkit2gtk-4_0-injected-bundles
@@ -506,6 +520,7 @@ wget
 which
 wicked
 wicked-service
+wodim
 wol
 xauth
 xen-libs
@@ -514,6 +529,7 @@ xhost
 xkeyboard-config
 xorriso
 xz
+zisofs-tools
 zypp-plugin-python
 zypper
 zypper-aptitude

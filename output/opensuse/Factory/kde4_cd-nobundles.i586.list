@@ -106,6 +106,8 @@ ca-certificates
 ca-certificates-mozilla
 calendarsupport
 cantarell-fonts
+cdrdao
+cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
 clamz
@@ -167,6 +169,7 @@ dosfstools
 dracut
 dragonplayer
 drkonqi5
+dvd+rw-tools
 e2fsprogs
 efibootmgr
 elfutils
@@ -202,6 +205,7 @@ gdb
 gdk-pixbuf-lang
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+genisoimage
 gettext-runtime
 ghostscript-fonts-std
 gio-branding-openSUSE
@@ -287,6 +291,7 @@ hostname
 htdig
 hwinfo
 iceauth
+icedax
 icewm
 icewm-config-upstream
 icewm-default
@@ -309,6 +314,8 @@ iscsiuio
 iw
 jfsutils
 json-glib-lang
+k3b
+k3b-lang
 kaccounts-integration
 kaccounts-providers
 kactivities5-imports
@@ -448,6 +455,7 @@ kwin5-lang
 kwrite
 less
 lftp
+libFLAC++6
 libFLAC8
 libGLU1
 libHX28
@@ -698,6 +706,7 @@ libboost_system1_61_0
 libboost_thread1_61_0
 libbs2b0
 libbtrfs0
+libburn4
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -713,6 +722,7 @@ libcap2
 libcares2
 libcdda_interface0
 libcdda_paranoia0
+libcdio16
 libcelt0-2
 libchromaprint1
 libcollection4
@@ -873,6 +883,9 @@ libisc160
 libisccc140
 libisccfg140
 libisl15
+libiso9660-10
+libisoburn1
+libisofs6
 libiw30
 libjack0
 libjasper1
@@ -953,6 +966,7 @@ libmodplug1
 libmount1
 libmozjs-17_0
 libmpc3
+libmpcdec5
 libmpfr4
 libmspack0
 libmtdev1
@@ -1120,6 +1134,7 @@ libsoftokn3
 libsolv-tools
 libsoup-2_4-1
 libsoup-lang
+libsox3
 libsoxr0
 libspandsp2
 libspeex1
@@ -1179,6 +1194,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
+libvcdinfo0
 libvdpau1
 libverto1
 libvisual
@@ -1587,6 +1603,7 @@ snapper-zypp-plugin
 sni-qt
 solid-imports
 solid-tools
+sox
 spectacle
 sssd
 sssd-krb5-common
@@ -1660,6 +1677,7 @@ util-linux-lang
 util-linux-systemd
 vaapi-dummy-driver
 vaapi-intel-driver
+vcdimager
 vim
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
@@ -1674,6 +1692,7 @@ wicked
 wicked-service
 wireless-regdb
 wireless-tools
+wodim
 wpa_supplicant
 x11-tools
 xauth
@@ -1825,6 +1844,7 @@ yp-tools
 ypbind
 zd1211-firmware
 zip
+zisofs-tools
 zypp-plugin-python
 zypper
 zypper-aptitude

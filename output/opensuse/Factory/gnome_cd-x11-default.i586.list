@@ -1,4 +1,3 @@
-Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -13,7 +12,6 @@ aaa_base-extras
 acl
 acpica
 adjtimex
-adwaita-icon-theme
 alsa
 alsa-oss
 alsa-plugins
@@ -41,11 +39,11 @@ boost-license1_61_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
-bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
+cdrkit-cdrtools-compat
 checkmedia
 cifs-utils
 command-not-found
@@ -60,7 +58,6 @@ crda
 cron
 cronie
 cryptsetup
-cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -111,6 +108,7 @@ gcr-prompter
 gcr-viewer
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+genisoimage
 gettext-runtime
 ghostscript-fonts-std
 gio-branding-openSUSE
@@ -119,11 +117,9 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
-glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnome-online-accounts
-gnome-online-accounts-lang
 gnu-unifont-bitmap-fonts
 google-opensans-fonts
 google-roboto-fonts
@@ -133,8 +129,6 @@ gpm
 gptfdisk
 grep
 groff
-grub2
-grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -165,7 +159,6 @@ gvfs-backend-afc
 gvfs-backend-samba
 gvfs-backends
 gvfs-fuse
-gvfs-lang
 gzip
 hardlink
 hdparm
@@ -174,6 +167,7 @@ hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
 iceauth
+icedax
 icewm
 icewm-config-upstream
 icewm-default
@@ -189,7 +183,6 @@ iputils
 iscsiuio
 kbd
 kbd-legacy
-kernel-default
 keyutils
 klogd
 kmod
@@ -243,6 +236,8 @@ libXxf86vm1
 libacl1
 libadns1
 libaio1
+libao-plugins4
+libao4
 libapparmor1
 libarchive13
 libasm1
@@ -334,7 +329,6 @@ libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
 libgd3
-libgdata-lang
 libgdata22
 libgdbm4
 libgdk_pixbuf-2_0-0
@@ -343,7 +337,6 @@ libgirepository-1_0-1
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
-libgnome-keyring-lang
 libgnome-keyring0
 libgnutls30
 libgoa-1_0-0
@@ -391,6 +384,7 @@ libjbig2
 libjpeg8
 libjson-c2
 libjson-glib-1_0-0
+libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -441,6 +435,7 @@ libnsl2
 libntfs-3g87
 liboauth0
 libogg0
+liboggkate1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
@@ -536,6 +531,7 @@ libverto1
 libvisual
 libvorbis0
 libvorbisenc2
+libvorbisfile3
 libvpx4
 libwacom-data
 libwacom2
@@ -544,8 +540,6 @@ libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwbclient0
-libwebkit2gtk-4_0-37
-libwebkit2gtk3-lang
 libwebp6
 libwebrtc_audio_processing1
 libwicked-0-6
@@ -612,7 +606,6 @@ netcfg
 nfs-client
 nfsidmap
 notification-daemon
-notification-daemon-lang
 nscd
 ntfs-3g
 ntfsprogs
@@ -620,8 +613,6 @@ ntp
 numlockx
 open-iscsi
 openSUSE-build-key
-openSUSE-release
-openSUSE-release-ftp
 openldap2-client
 openslp
 openssh
@@ -636,14 +627,6 @@ pam-config
 pam-modules
 parallel-printer-support
 parted
-patterns-openSUSE-apparmor
-patterns-openSUSE-base
-patterns-openSUSE-enhanced_base
-patterns-openSUSE-fonts
-patterns-openSUSE-sw_management
-patterns-openSUSE-x11
-patterns-openSUSE-x11_yast
-patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -721,7 +704,6 @@ pigz
 pinentry
 pkg-config
 plymouth
-plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
@@ -847,6 +829,7 @@ usbutils
 util-linux
 util-linux-systemd
 vim
+vorbis-tools
 wallpaper-branding-openSUSE
 webkit2gtk-4_0-injected-bundles
 wget
@@ -855,6 +838,7 @@ wicked
 wicked-service
 wireless-regdb
 wireless-tools
+wodim
 x11-tools
 xauth
 xbitmaps
@@ -885,7 +869,6 @@ xmodmap
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
-xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
@@ -902,7 +885,6 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
-yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core
@@ -954,6 +936,7 @@ yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
 ypbind
+zisofs-tools
 zypp-plugin-python
 zypper
 zypper-aptitude
