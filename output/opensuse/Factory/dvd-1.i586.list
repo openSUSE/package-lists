@@ -8,7 +8,6 @@ ImageMagick-devel
 ImageMagick-extra
 LibVNCServer-devel
 Mesa
-Mesa-demo-x
 Mesa-devel
 Mesa-dri-devel
 Mesa-libEGL-devel
@@ -288,6 +287,7 @@ bsdtar
 bsf
 btrfsmaintenance
 btrfsprogs
+btrfsprogs-udev-rules
 build
 build-mkbaselibs
 build-mkdrpms
@@ -3061,6 +3061,7 @@ libspeechd2
 libspeex1
 libspeexdsp1
 libspice-client-glib-2_0-8
+libspice-client-glib-helper
 libspice-client-gtk-2_0-4
 libspice-client-gtk-3_0-4
 libspice-controller0
@@ -4907,14 +4908,10 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
-virtualbox
 virtualbox-guest-kmp-default
 virtualbox-guest-kmp-pae
 virtualbox-guest-tools
 virtualbox-guest-x11
-virtualbox-host-kmp-default
-virtualbox-host-kmp-pae
-virtualbox-qt
 vlan
 vlgothic-fonts
 vlock

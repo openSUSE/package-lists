@@ -3,7 +3,6 @@ GeoIP
 GeoIP-data
 ImageMagick
 Mesa
-Mesa-demo-x
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -175,6 +174,7 @@ brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 btrfsmaintenance
 btrfsprogs
+btrfsprogs-udev-rules
 bundle-lang-common-cs
 bundle-lang-common-de
 bundle-lang-common-en
@@ -1959,6 +1959,7 @@ libspeechd2
 libspeex1
 libspeexdsp1
 libspice-client-glib-2_0-8
+libspice-client-glib-helper
 libspice-client-gtk-3_0-4
 libspice-server1
 libsqlite3-0
@@ -3027,10 +3028,6 @@ vinagre
 vinagre-lang
 vino
 virtualbox
-virtualbox-guest-kmp-default
-virtualbox-guest-kmp-pae
-virtualbox-guest-tools
-virtualbox-guest-x11
 virtualbox-host-kmp-default
 virtualbox-host-kmp-pae
 virtualbox-qt
