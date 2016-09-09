@@ -68,6 +68,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+exim
 expat
 fdupes
 file
@@ -308,8 +309,6 @@ libgpg-error0-32bit
 libgphoto2-6
 libgphoto2-6-lang
 libgraphite2-3
-libgsasl-lang
-libgsasl7
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
@@ -361,6 +360,7 @@ libmount1
 libmozjs-17_0
 libmtp-udev
 libmtp9
+libmysqlclient18
 libncurses5
 libncurses6
 libndr-krb5pac0
@@ -380,7 +380,6 @@ libnfs8
 libnl-config
 libnl3-200
 libnotify4
-libntlm0
 liboauth0
 libogg0
 libopenssl1_0_0
@@ -401,6 +400,7 @@ libpng16-16
 libpolkit0
 libpopt0
 libpopt0-32bit
+libpq5
 libprocps3
 libproxy1
 libpth20
@@ -443,6 +443,7 @@ libsnapper3
 libsolv-tools
 libsoup-2_4-1
 libsoup-lang
+libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -527,8 +528,6 @@ metatheme-adwaita-common
 mkfontdir
 mkfontscale
 mozilla-nspr
-msmtp
-msmtp-mta
 ncurses-utils
 net-tools
 netcat-openbsd
