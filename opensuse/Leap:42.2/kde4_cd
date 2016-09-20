@@ -21,7 +21,7 @@ job install provides pattern() = kde_office
 job install provides pattern() = rest_cd_kde
 #TODO job install name openSUSE-release-livecd-kde
 
-#job install name plasma5-desktop-branding-openSUSE
+job lock name plasma5-desktop-branding-openSUSE
 job install name plasma5-workspace-branding-openSUSE
 
 #job install name kdelibs4-branding-openSUSE
