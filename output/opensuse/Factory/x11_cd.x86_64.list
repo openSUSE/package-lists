@@ -38,7 +38,6 @@ augeas
 augeas-lenses
 autofs
 avahi
-avahi-autoipd
 awesfx
 b43-fwcutter
 bash
@@ -298,6 +297,7 @@ libaio1
 libao-plugins4
 libao4
 libapparmor1
+libappindicator3-1
 libarchive13
 libasm1
 libasound2
@@ -361,6 +361,8 @@ libdaemon0
 libdatrie1
 libdb-4_8
 libdbus-1-3
+libdbusmenu-glib4
+libdbusmenu-gtk3-4
 libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
@@ -464,6 +466,7 @@ libicu57_1-ledata
 libidn11
 libidnkit1
 libimobiledevice6
+libindicator3-7
 libinput-udev
 libinput10
 libiptc0
@@ -474,6 +477,7 @@ libisccfg140
 libisl15
 libiw30
 libjack0
+libjansson4
 libjasper1
 libjbig2
 libjpeg8
@@ -526,11 +530,9 @@ libnilfscleaner0
 libnilfsgc0
 libnl-config
 libnl3-200
-libnm-glib-vpn1
-libnm-glib4
-libnm-gtk0
-libnm-util2
 libnm0
+libnma-data
+libnma0
 libnotify-tools
 libnotify4
 libnpth0
@@ -556,6 +558,7 @@ libpci3
 libpciaccess0
 libpcre1
 libpcre16-0
+libpcre2-8-0
 libpipeline1
 libpixman-1-0
 libplist3

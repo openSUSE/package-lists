@@ -104,10 +104,6 @@ amarok
 amavisd-new
 amavisd-new-docs
 analitza
-anjuta
-anjuta-extras
-anjuta-extras-lang
-anjuta-lang
 ant
 ant-antlr
 ant-apache-bcel
@@ -210,14 +206,12 @@ autoconf
 autoconf-archive
 autoconf-el
 autofs
-autogen
 automake
 automoc4
 autotrace
 autoyast2
 autoyast2-installation
 avahi
-avahi-autoipd
 avahi-compat-mDNSResponder-devel
 avalon-framework
 avogadro
@@ -404,7 +398,6 @@ chmlib-devel
 cifs-utils
 cim-schema
 circuslinux
-ckermit
 clamav
 clamz
 claws-mail
@@ -518,6 +511,7 @@ dia-lang
 dialog
 diffstat
 diffutils
+diffutils-lang
 digikam
 digikam-lang
 digikam-libs
@@ -611,8 +605,6 @@ evolution-ews
 evolution-ews-lang
 evolution-plugin-bogofilter
 evolution-plugin-pst-import
-evolution-plugin-rss
-evolution-plugin-rss-lang
 evolution-plugin-spamassassin
 exif
 exiftool
@@ -691,6 +683,7 @@ fribidi-devel
 frogr
 frogr-lang
 ft2demos
+ftsteutates-kmp-default
 fuse
 fvwm-themes
 fvwm2
@@ -806,10 +799,10 @@ gitk
 gjs
 glabels
 glabels-lang
-glade
 glade-catalog-gtksourceview
 glade-catalog-vte
-glade-lang
+glade3
+glade3-lang
 glew-devel
 glib-networking
 glib2-devel
@@ -826,6 +819,7 @@ glproto-devel
 glu-devel
 gmixer
 gmp-devel
+gnome-autoar-schema
 gnome-backgrounds
 gnome-backgrounds-lang
 gnome-bluetooth
@@ -1923,7 +1917,6 @@ libakonadiprotocolinternals1
 libalkimia-devel
 libalkimia4
 libamd-2_4_1
-libanjuta-3-0
 libao-devel
 libao-plugins4
 libao4
@@ -2050,7 +2043,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-57
+libcamel-1_2-59
 libcamgm100
 libcanberra-devel
 libcanberra-gtk-module-common
@@ -2198,7 +2191,7 @@ libecal-1_2-19
 libecpg6
 libedata-book-1_2-25
 libedata-cal-1_2-28
-libedataserver-1_2-21
+libedataserver-1_2-22
 libedataserverui-1_2-1
 libedit0
 libedit0-32bit
@@ -2319,13 +2312,6 @@ libgcrypt20
 libgcrypt20-32bit
 libgd3
 libgd3-32bit
-libgda-5_0-4
-libgda-5_0-4-lang
-libgda-5_0-bdb
-libgda-5_0-sqlcipher
-libgda-5_0-sqlite
-libgda-ui-5_0-4
-libgda-ui-5_0-plugins
 libgdata-devel
 libgdata22
 libgdbm4
@@ -2369,7 +2355,7 @@ libgjs0
 libglade-2_0-0
 libglademm
 libglademm-2_4-1
-libgladeui-2-6
+libgladeui-1-11
 libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
@@ -2387,6 +2373,8 @@ libgmp10
 libgmp10-32bit
 libgmpxx4
 libgnome
+libgnome-autoar-0-0
+libgnome-autoar-gtk-0-0
 libgnome-bluetooth13
 libgnome-desktop-3-12
 libgnome-desktop-3-devel
@@ -2592,6 +2580,7 @@ libiw30
 libixion-0_11-0
 libjack-devel
 libjack0
+libjansson4
 libjasper-devel
 libjasper1
 libjasper1-32bit
@@ -2839,9 +2828,12 @@ libnl3-200
 libnl3-200-32bit
 libnm-glib-vpn1
 libnm-glib4
+libnm-gtk-data
 libnm-gtk0
 libnm-util2
 libnm0
+libnma-data
+libnma0
 libnotify-devel
 libnotify-tools
 libnotify4
@@ -2889,7 +2881,6 @@ libopenssl-devel
 libopenssl1_0_0
 libopenssl1_0_0-32bit
 libopensync
-libopts-devel
 libopts25
 libopus0
 liborc-0_4-0
@@ -2925,6 +2916,10 @@ libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
+libpcre2-16-0
+libpcre2-32-0
+libpcre2-8-0
+libpcre2-posix1
 libpcrecpp0
 libpcreposix0
 libpcsclite1
@@ -3381,7 +3376,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_32-0
+libvala-0_34-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -3623,6 +3618,7 @@ logrotate
 lokalize
 lomoco
 loudmouth-devel
+lrzip
 lsb-release
 lskat
 lsof
@@ -3704,8 +3700,6 @@ mgopen-fonts
 mhash-devel
 midori-branding-openSUSE
 milou5
-minicom
-minicom-lang
 mirror
 mjpegtools
 mkfontdir
@@ -3788,7 +3782,6 @@ nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-terminal
 nautilus-extension-tracker-tags
-nautilus-file-roller
 nautilus-sendto
 nautilus-share
 nautilus-share-lang
@@ -4049,6 +4042,7 @@ pcmciautils
 pcre-devel
 pcre-doc
 pcre-tools
+pcre2-devel
 pcsc-acr38
 pcsc-asedriveiiie-usb
 pcsc-asekey
@@ -4755,7 +4749,6 @@ ruby2.2-stdlib
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
 rzip
-rzsz
 s2tc
 s2tc-32bit
 sablot
@@ -5045,6 +5038,7 @@ typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
 typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
+typelib-1_0-Gepub-0_4
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -5076,7 +5070,6 @@ typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
 typelib-1_0-LibvirtGLib-1_0
 typelib-1_0-MediaArt-2_0
-typelib-1_0-Meta-3_0
 typelib-1_0-ModemManager-1_0
 typelib-1_0-NM-1_0
 typelib-1_0-NMClient-1_0
