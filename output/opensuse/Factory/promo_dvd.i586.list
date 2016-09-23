@@ -68,6 +68,8 @@ amarok
 amavisd-new
 amavisd-new-docs
 analitza
+anjuta
+anjuta-lang
 apache-commons-logging
 apache2
 apache2-mod_dnssd
@@ -115,6 +117,7 @@ augeas
 augeas-lenses
 autoconf
 autofs
+autogen
 automake
 autoyast2-installation
 avahi
@@ -295,7 +298,6 @@ dhcp-server
 dhcp-tools
 dialog
 diffutils
-diffutils-lang
 digikam
 digikam-lang
 digikam-libs
@@ -423,6 +425,7 @@ gdbm-devel
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gdl-lang
 gdm
 gdm-branding-openSUSE
 gdmflexiserver
@@ -460,8 +463,8 @@ git-svn
 git-web
 gitk
 gjs
-glade3
-glade3-lang
+glade
+glade-lang
 glib-networking
 glib2-tools
 glibc
@@ -487,6 +490,7 @@ gnome-dictionary
 gnome-disk-utility
 gnome-documents
 gnome-documents_books-common
+gnome-games
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
@@ -532,8 +536,6 @@ gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-version
-gnome-vfs2
-gnome-vfs2-lang
 gnome-video-effects
 gnome-weather
 gnu-unifont-bitmap-fonts
@@ -577,7 +579,6 @@ gsf-office-thumbnailer
 gstreamer
 gstreamer-0_10
 gstreamer-0_10-lang
-gstreamer-0_10-plugin-gnomevfs
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-base-lang
 gstreamer-libnice
@@ -933,7 +934,6 @@ libGeoIP1
 libHX28
 libHalf12
 libICE6
-libIDL-2-0
 libIex-2_2-12
 libIlmImf-2_2-22
 libIlmThread-2_2-12
@@ -1129,6 +1129,7 @@ libaio1
 libakonadi4
 libakonadiprotocolinternals1
 libamd-2_4_1
+libanjuta-3-0
 libao-plugins4
 libao4
 libapparmor-devel
@@ -1181,10 +1182,6 @@ libblkid-devel
 libblkid1
 libbluetooth3
 libbluray1
-libbonobo
-libbonobo-lang
-libbonoboui
-libbonoboui-lang
 libboost_atomic1_61_0
 libboost_chrono1_61_0
 libboost_container1_61_0
@@ -1406,11 +1403,18 @@ libgck-modules-gnome-keyring
 libgcr-3-1
 libgcrypt20
 libgd3
+libgda-5_0-4
+libgda-5_0-4-lang
+libgda-5_0-bdb
+libgda-5_0-sqlite
+libgda-ui-5_0-4
+libgda-ui-5_0-plugins
 libgdata22
 libgdbm4
 libgdict-1_0-10
 libgdict-data
 libgdk_pixbuf-2_0-0
+libgdl-3-5
 libgdm1
 libgeany0
 libgee-0_8-2
@@ -1429,7 +1433,7 @@ libgirepository-1_0-1
 libgit2-24
 libgjs0
 libglade-2_0-0
-libgladeui-1-11
+libgladeui-2-6
 libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
@@ -1439,21 +1443,18 @@ libgmime-2_6-0
 libgmodule-2_0-0
 libgmp10
 libgmpxx4
-libgnome
 libgnome-autoar-0-0
 libgnome-autoar-gtk-0-0
 libgnome-bluetooth13
 libgnome-desktop-3-12
 libgnome-desktop-3_0-common
+libgnome-games-support-1-2
 libgnome-keyring0
-libgnome-lang
 libgnomecanvas-2-0
 libgnomecanvas-lang
 libgnomekbd
 libgnomesu
 libgnomesu0
-libgnomeui
-libgnomeui-lang
 libgnutls30
 libgoa-1_0-0
 libgoa-backend-1_0-1
@@ -1509,7 +1510,6 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvideo-1_0-0
 libgstwayland-1_0-0
-libgsystem0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -1758,6 +1758,8 @@ libopenjp2-7
 libopenjpeg1
 libopenraw1
 libopenssl1_0_0
+libopts-devel
+libopts25
 libopus0
 liborc-0_4-0
 liborcus-0_11-0
@@ -1907,6 +1909,8 @@ libreoffice-writer-extensions
 libreofficekit
 librepository
 librest0
+libretro-gobject0
+libretro-gtk0
 librevenge-0_0-0
 librsvg-2-2
 libruby2_2-2_2
@@ -2052,6 +2056,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
+libvala-0_34-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2139,7 +2144,6 @@ libxcb-xinerama0
 libxcb-xkb1
 libxcb-xv0
 libxcb1
-libxdg-app0
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4panel-2_0-4
@@ -2362,7 +2366,6 @@ openvpn
 orage
 orage-doc
 orage-lang
-orbit2
 orca
 os-prober
 oxygen5-icon-theme

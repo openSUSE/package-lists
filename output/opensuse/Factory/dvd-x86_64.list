@@ -104,6 +104,10 @@ amarok
 amavisd-new
 amavisd-new-docs
 analitza
+anjuta
+anjuta-extras
+anjuta-extras-lang
+anjuta-lang
 ant
 ant-antlr
 ant-apache-bcel
@@ -206,6 +210,7 @@ autoconf
 autoconf-archive
 autoconf-el
 autofs
+autogen
 automake
 automoc4
 autotrace
@@ -292,6 +297,7 @@ btrfsprogs-udev-rules
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -511,7 +517,6 @@ dia-lang
 dialog
 diffstat
 diffutils
-diffutils-lang
 digikam
 digikam-lang
 digikam-libs
@@ -605,6 +610,8 @@ evolution-ews
 evolution-ews-lang
 evolution-plugin-bogofilter
 evolution-plugin-pst-import
+evolution-plugin-rss
+evolution-plugin-rss-lang
 evolution-plugin-spamassassin
 exif
 exiftool
@@ -799,10 +806,10 @@ gitk
 gjs
 glabels
 glabels-lang
+glade
 glade-catalog-gtksourceview
 glade-catalog-vte
-glade3
-glade3-lang
+glade-lang
 glew-devel
 glib-networking
 glib2-devel
@@ -843,6 +850,7 @@ gnome-documents
 gnome-documents_books-common
 gnome-dvb-daemon
 gnome-dvb-daemon-lang
+gnome-games
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
@@ -1917,6 +1925,7 @@ libakonadiprotocolinternals1
 libalkimia-devel
 libalkimia4
 libamd-2_4_1
+libanjuta-3-0
 libao-devel
 libao-plugins4
 libao4
@@ -2312,6 +2321,13 @@ libgcrypt20
 libgcrypt20-32bit
 libgd3
 libgd3-32bit
+libgda-5_0-4
+libgda-5_0-4-lang
+libgda-5_0-bdb
+libgda-5_0-sqlcipher
+libgda-5_0-sqlite
+libgda-ui-5_0-4
+libgda-ui-5_0-plugins
 libgdata-devel
 libgdata22
 libgdbm4
@@ -2355,7 +2371,7 @@ libgjs0
 libglade-2_0-0
 libglademm
 libglademm-2_4-1
-libgladeui-1-11
+libgladeui-2-6
 libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
@@ -2380,6 +2396,7 @@ libgnome-desktop-3-12
 libgnome-desktop-3-devel
 libgnome-desktop-3_0-common
 libgnome-devel
+libgnome-games-support-1-2
 libgnome-keyring-devel
 libgnome-keyring0
 libgnome-lang
@@ -2477,7 +2494,6 @@ libgstvdp-0_10-23
 libgstvideo-1_0-0
 libgstvideo-1_0-0-32bit
 libgstwayland-1_0-0
-libgsystem0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -2881,6 +2897,7 @@ libopenssl-devel
 libopenssl1_0_0
 libopenssl1_0_0-32bit
 libopensync
+libopts-devel
 libopts25
 libopus0
 liborc-0_4-0
@@ -3140,6 +3157,8 @@ libreoffice-writer-extensions
 libreofficekit
 librepository
 librest0
+libretro-gobject0
+libretro-gtk0
 librevenge-0_0-0
 librevenge-devel
 librevenge-generators-0_0-0
@@ -3530,7 +3549,6 @@ libxcb-xv0
 libxcb-xvmc0
 libxcb1
 libxcb1-32bit
-libxdg-app0
 libxerces-c-3_1
 libxfce4panel-1_0-4
 libxfce4panel-2_0-4
