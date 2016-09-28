@@ -245,3 +245,5 @@ job lock name bundle-lang-kde-ru
 job lock name bundle-lang-kde-sv
 job lock name bundle-lang-kde-zh
 
+# The Live images don't need any multi-arch capabilities
+job lock name glibc-32bit
