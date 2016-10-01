@@ -217,8 +217,6 @@ avogadro-devel
 awesfx
 axis
 b43-fwcutter
-baloo-core
-baloo-kioslaves
 baloo5-devel
 baloo5-file
 baloo5-imports
@@ -511,12 +509,6 @@ diffstat
 diffutils
 digikam
 digikam-lang
-digikam-libs
-digikam-plugin-color
-digikam-plugin-decorate
-digikam-plugin-enhance
-digikam-plugin-fxfilters
-digikam-plugin-transform
 ding
 ding-dict-de_en
 djvulibre
@@ -604,6 +596,8 @@ evolution-plugin-rss-lang
 evolution-plugin-spamassassin
 exif
 exiftool
+exiv2
+exiv2-lang
 exo-lang
 exo-tools
 expat
@@ -973,7 +967,6 @@ gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
-gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-utils
 gstreamer-validate
@@ -1358,8 +1351,8 @@ kdevelop4-devel
 kdevelop4-lang
 kdevelop4-plugin-cppsupport
 kdevelop4-plugins-php
-kdevplatform
-kdevplatform-lang
+kdevplatform4
+kdevplatform4-lang
 kdewebkit-devel
 kdf
 kdgantt2
@@ -1424,11 +1417,8 @@ kio_kamera
 kio_mtp
 kiosktool
 kiosktool-lang
-kipi-plugin-icons
 kipi-plugins
-kipi-plugins-acquireimage
 kipi-plugins-lang
-kipi-plugins5
 kiriki
 kismet
 kitemmodels-devel
@@ -1938,9 +1928,9 @@ libavogadro1
 libavutil55
 libb64-0
 libbabl-0_1-0
-libbaloofiles4
 libbase
 libbasicobjects0
+libbctoolbox0
 libbind9-140
 libblas3
 libblkid-devel
@@ -2087,6 +2077,7 @@ libdevmapper-event1_03
 libdevmapper1_03
 libdhash1
 libdialog13
+libdigikamcore5
 libdirac_encoder0
 libdirectfb-1_7-7
 libdiscid0
@@ -2522,7 +2513,6 @@ libkdegames4
 libkdegames6
 libkdepim
 libkdepimlibs4
-libkdevplatform-devel
 libkdevplatform8
 libkerfuffle16
 libkexiv2-devel
@@ -2546,7 +2536,6 @@ libkomparediff2-5
 libkonq-devel
 libkonq5
 libkpathsea6
-libkqoauth0
 libksane-devel
 libksba8
 libkscreen
@@ -2564,8 +2553,6 @@ libktorrent-devel
 libktorrent6
 libktorrent6-lang
 libktpaccountskcminternal9
-libkvkontakte-lang
-libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
@@ -2618,14 +2605,15 @@ libmagic1
 libmal-devel
 libmal1
 libmarblewidget-qt5-25
-libmarblewidget22
-libmbedtls9
+libmbedcrypto0
+libmbedtls10
+libmbedx509-0
 libmbim-glib4
 libmcrypt
 libmeanwhile1
 libmediaart-2_0-0
-libmediastreamer_base6
-libmediastreamer_voip6
+libmediastreamer_base7
+libmediastreamer_voip7
 libmenu-cache3
 libmetalink3
 libmhash2
@@ -2764,7 +2752,7 @@ libopts25
 libopus0
 liborc-0_4-0
 liborcus-0_11-0
-libortp10
+libortp12
 libosinfo
 libosinfo-1_0-0
 libosip2
@@ -2801,7 +2789,6 @@ libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
 libpfs2
-libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -3469,6 +3456,7 @@ makeinfo
 man
 man-pages
 man-pages-fr
+man-pages-fr-extra
 man-pages-ja
 man-pages-posix
 man-pages-zh_CN
@@ -4579,6 +4567,7 @@ sharutils
 sharutils-lang
 shotwell
 shotwell-lang
+showfoto
 siga
 signon-kwallet-extension
 signon-plugin-oauth2

@@ -244,8 +244,6 @@ avahi-compat-mDNSResponder-devel
 avalon-framework
 awesfx
 b43-fwcutter
-baloo-core
-baloo-kioslaves
 baloo5-devel
 baloo5-file
 baloo5-imports
@@ -481,12 +479,6 @@ diffstat
 diffutils
 digikam
 digikam-lang
-digikam-libs
-digikam-plugin-color
-digikam-plugin-decorate
-digikam-plugin-enhance
-digikam-plugin-fxfilters
-digikam-plugin-transform
 dleyna-connector-dbus
 dleyna-renderer
 dleyna-server
@@ -546,6 +538,8 @@ evolution-data-server-devel
 evolution-plugin-spamassassin
 exif
 exiftool
+exiv2
+exiv2-lang
 exo-lang
 exo-tools
 expat
@@ -830,7 +824,6 @@ gstreamer-plugins-base-devel
 gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
-gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-utils
 gsynaptics
@@ -1169,8 +1162,8 @@ kdesu-devel
 kdevelop4
 kdevelop4-lang
 kdevelop4-plugin-cppsupport
-kdevplatform
-kdevplatform-lang
+kdevplatform4
+kdevplatform4-lang
 kdewebkit-devel
 kdgantt2
 kdialog
@@ -1224,12 +1217,8 @@ kio-extras5
 kio_audiocd
 kio_kamera
 kio_mtp
-kipi-plugin-icons
 kipi-plugins
-kipi-plugins-acquireimage
-kipi-plugins-geolocation
 kipi-plugins-lang
-kipi-plugins5
 kitemmodels-devel
 kitemviews-devel
 kiten
@@ -1703,8 +1692,8 @@ libavogadro1
 libavutil55
 libb64-0
 libbabl-0_1-0
-libbaloofiles4
 libbase
+libbctoolbox0
 libbind9-140
 libblas3
 libblkid-devel
@@ -1847,6 +1836,7 @@ libdevmapper-event1_03
 libdevmapper1_03
 libdevmapper1_03-32bit
 libdialog13
+libdigikamcore5
 libdiscid0
 libdjvulibre21
 libdleyna-core-1_0-4
@@ -2235,7 +2225,6 @@ libkolab1
 libkolabxml1
 libkomparediff2-5
 libkonq5
-libkqoauth0
 libksba8
 libkscreen
 libkscreen1
@@ -2247,8 +2236,6 @@ libksysguard5
 libksysguard5-devel
 libksysguard5-helper
 libktpaccountskcminternal9
-libkvkontakte-lang
-libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
@@ -2299,13 +2286,14 @@ libmagic1
 libmal-devel
 libmal1
 libmarblewidget-qt5-25
-libmarblewidget22
-libmbedtls9
+libmbedcrypto0
+libmbedtls10
+libmbedx509-0
 libmbim-glib4
 libmeanwhile1
 libmediaart-2_0-0
-libmediastreamer_base6
-libmediastreamer_voip6
+libmediastreamer_base7
+libmediastreamer_voip7
 libmenu-cache3
 libmetalink3
 libmicrohttpd12
@@ -2342,7 +2330,6 @@ libmxml1
 libmygpo-qt1
 libmysqlclient-devel
 libmysqlclient18
-libmysqlclient18-32bit
 libmysqlclient_r18
 libmysqlcppconn7
 libmysqld18
@@ -2411,7 +2398,7 @@ liboldX6
 libopenal1
 libopenbabel4
 libopencc2
-libopencv3_1
+libopencv-qt56_3
 libopenjp2-7
 libopenjpeg1
 libopenraw1
@@ -2423,7 +2410,7 @@ libopts25
 libopus0
 liborc-0_4-0
 liborcus-0_11-0
-libortp10
+libortp12
 libosinfo
 libosinfo-1_0-0
 libosip2
@@ -2460,7 +2447,6 @@ libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
-libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -2544,8 +2530,6 @@ libqt4-qt3support
 libqt4-qt3support-32bit
 libqt4-sql
 libqt4-sql-32bit
-libqt4-sql-mysql
-libqt4-sql-mysql-32bit
 libqt4-sql-sqlite
 libqt4-sql-sqlite-32bit
 libqt4-x11
@@ -3116,6 +3100,7 @@ makeinfo
 malaga-suomi
 man
 man-pages
+man-pages-fr
 man-pages-ja
 man-pages-posix
 man-pages-zh_CN
@@ -3907,6 +3892,7 @@ sharutils-lang
 shim
 shotwell
 shotwell-lang
+showfoto
 siga
 signon-kwallet-extension
 signon-plugin-oauth2
