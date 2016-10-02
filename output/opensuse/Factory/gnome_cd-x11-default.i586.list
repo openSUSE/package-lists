@@ -21,8 +21,6 @@ apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-at-spi2-atk-common
-at-spi2-atk-gtk2
 at-spi2-core
 attr
 audit
@@ -138,15 +136,6 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
 gstreamer-plugins-base
-gtk2-branding-openSUSE
-gtk2-data
-gtk2-immodule-amharic
-gtk2-immodule-inuktitut
-gtk2-immodule-thai
-gtk2-immodule-vietnamese
-gtk2-metatheme-adwaita
-gtk2-theming-engine-adwaita
-gtk2-tools
 gtk3-branding-openSUSE
 gtk3-data
 gtk3-immodule-amharic
@@ -294,6 +283,7 @@ libdevmapper1_03
 libdialog13
 libdns162
 libdns_sd
+libdouble-conversion1
 libdrm2
 libdrm_amdgpu1
 libdrm_intel1
@@ -357,7 +347,6 @@ libgstreamer-1_0-0
 libgstriff-1_0-0
 libgsttag-1_0-0
 libgstvideo-1_0-0
-libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
 libharfbuzz-icu0
@@ -468,6 +457,7 @@ libpwquality1
 libpython2_7-1_0
 libpython3_5m1_0
 libqrencode3
+libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libreadline6
 librest0
@@ -542,6 +532,7 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebp6
+libwebpdemux2
 libwebrtc_audio_processing1
 libwicked-0-6
 libwrap0
