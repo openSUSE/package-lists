@@ -68,3 +68,6 @@ job lock name ghostscript-fonts-std
 job lock name xlockmore
 # and again too big - dimstar 2016-09-24
 job lock name ksudoku
+
+# javascriptcore is only needed for libproxy's pac-parser
+job lock name libjavascriptcoregtk-4_0-18
