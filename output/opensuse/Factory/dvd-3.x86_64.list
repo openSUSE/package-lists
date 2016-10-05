@@ -57,7 +57,6 @@ dracut
 efibootmgr
 elfutils
 ethtool
-exim
 file
 file-magic
 filesystem
@@ -310,7 +309,6 @@ libmount1
 libmozjs-17_0
 libmtp-udev
 libmtp9
-libmysqlclient18
 libncurses5
 libncurses6
 libnettle6
@@ -337,7 +335,6 @@ libplist3
 libpng16-16
 libpolkit0
 libpopt0
-libpq5
 libprocps6
 libproxy1
 libpsl5
@@ -359,7 +356,6 @@ libsndfile1
 libsolv-tools
 libsoup-2_4-1
 libspeex1
-libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -421,6 +417,10 @@ lockdev
 logrotate
 lsof
 lvm2
+m4
+make
+make-lang
+metamail
 metatheme-adwaita-common
 mozilla-nspr
 mt-st
@@ -460,7 +460,9 @@ pkg-config
 polkit
 polkit-default-privs
 prctl
+procmail
 procps
+psmisc
 python
 python-base
 python-gobject
@@ -474,10 +476,14 @@ rsync
 s2tc
 s2tc-32bit
 sed
+sendmail
 sg3_utils
 shadow
 shared-mime-info
+sharutils
+sharutils-lang
 shim
+site-config
 snapper
 snapper-zypp-plugin
 strace
