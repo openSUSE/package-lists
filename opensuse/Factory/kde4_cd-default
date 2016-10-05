@@ -38,3 +38,6 @@ job lock name gwenview5
 job lock name kwalletmanager5
 job lock name konversation
 job lock name kpat
+
+# Let's take MozillaFirefox out of the image - we need space
+job lock name MozillaFirefox

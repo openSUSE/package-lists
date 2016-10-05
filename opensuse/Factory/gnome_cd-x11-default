@@ -15,3 +15,6 @@ job install name kernel-default
 job install name openSUSE-release-ftp
 job install provides pattern() = x11
 job lock name kernel-firmware
+
+# Let's take MozillaFirefox out of the image - we need space
+job lock name MozillaFirefox
