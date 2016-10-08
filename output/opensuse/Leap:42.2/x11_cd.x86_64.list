@@ -26,7 +26,6 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-plugins
-alsa-plugins-pulse
 alsa-utils
 aspell
 aspell-de
@@ -110,6 +109,7 @@ e2fsprogs
 efibootmgr
 elfutils
 elilo
+esound-daemon
 espeak
 ethtool
 exo-tools
@@ -339,7 +339,6 @@ libcanberra-gtk3-module
 libcanberra0
 libcap-ng0
 libcap2
-libcdata1
 libcdda_interface0
 libcdda_paranoia0
 libcdio16
@@ -360,7 +359,6 @@ libcroco-0_6-3
 libcryptmount0
 libcryptsetup4
 libcsplit1
-libcthreads1
 libcurl4
 libdaemon0
 libdatrie1
@@ -397,7 +395,6 @@ libfallocate0
 libfam0-gamin
 libfdisk1
 libffi4
-libfftw3-3
 libfipscheck1
 libfltk1
 libfontenc1
@@ -406,7 +403,6 @@ libfreebl3
 libfreetype6
 libfuse2
 libfvalue1
-libfwnt1
 libgarcon-1-0
 libgarcon-branding-openSUSE
 libgarcon-data
@@ -434,7 +430,6 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
-libgomp1
 libgpg-error0
 libgphoto2-6
 libgraphite2-3
@@ -575,7 +570,6 @@ libprocps3
 libproxy1
 libproxy1-networkmanager
 libpth20
-libpulse-mainloop-glib0
 libpulse0
 libpython2_7-1_0
 libqmi-glib1
@@ -618,9 +612,7 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
-libsoxr0
 libspeex1
-libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
@@ -686,7 +678,6 @@ libwbclient0
 libwebkit2gtk-4_0-37
 libwebkitgtk-1_0-0
 libwebp5
-libwebrtc_audio_processing1
 libwicked-0-6
 libwnck-1-22
 libwrap0
@@ -889,10 +880,6 @@ pptp
 procps
 psmisc
 pullin-bcm43xx-firmware
-pulseaudio
-pulseaudio-bash-completion
-pulseaudio-esound-compat
-pulseaudio-utils
 pytalloc
 python
 python-base
@@ -926,7 +913,6 @@ rpcbind
 rpm
 rpm-python
 rsync
-rtkit
 ruby
 ruby-common
 ruby2.1
