@@ -125,10 +125,13 @@ apache-commons-beanutils
 apache-commons-codec
 apache-commons-collections
 apache-commons-daemon
+apache-commons-dbcp
 apache-commons-httpclient
 apache-commons-io
 apache-commons-lang
 apache-commons-logging
+apache-commons-pool
+apache-commons-pool2
 apache-commons-validator
 apache-pdfbox
 apache-rpm-macros-control
@@ -282,6 +285,8 @@ brltty-driver-xwindow
 bsd-games
 bsdtar
 bsf
+btrfs-subpage-blocksize-kmp-default
+btrfs-subpage-blocksize-kmp-pae
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
@@ -385,6 +390,7 @@ cdrkit-cdrtools-compat
 cellwriter
 cervisia
 cfitsio-devel
+cglib
 chasen
 checkmedia
 cheese
@@ -541,6 +547,7 @@ dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
 ebtables
+ecj
 ed
 eekboard
 efibootmgr
@@ -733,6 +740,7 @@ genisoimage
 geoclue2
 geocode-glib
 geronimo-j2ee-1_4-apis
+geronimo-jta-1_1-api
 geronimo-specs-poms
 getdata
 getdata-devel
@@ -1199,6 +1207,7 @@ jakarta-commons-discovery
 jakarta-commons-fileupload
 jakarta-commons-launcher
 jakarta-commons-modeler
+jakarta-taglibs-standard
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_8_0-openjdk
@@ -3098,6 +3107,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtasn1-devel
+libtcnative-1-0
 libtdb1
 libteamdctl0
 libtelepathy-farstream3
@@ -4723,6 +4733,13 @@ tlp
 tlp-rdw
 tmux
 tnftp
+tomcat
+tomcat-admin-webapps
+tomcat-el-3_0-api
+tomcat-jsp-2_3-api
+tomcat-lib
+tomcat-servlet-3_1-api
+tomcat-webapps
 totem
 totem-pl-parser
 totem-plugin-gnome-dvb-daemon
