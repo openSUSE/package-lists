@@ -9,6 +9,7 @@ ImageMagick-doc
 ImageMagick-extra
 LibVNCServer-devel
 Mesa
+Mesa-32bit
 Mesa-devel
 Mesa-dri-devel
 Mesa-libEGL-devel
@@ -16,6 +17,7 @@ Mesa-libEGL1
 Mesa-libEGL1-32bit
 Mesa-libGL-devel
 Mesa-libGL1
+Mesa-libGL1-32bit
 Mesa-libGLESv1_CM-devel
 Mesa-libGLESv1_CM1
 Mesa-libGLESv2-2
@@ -272,6 +274,7 @@ bdftopcf
 bea-stax-api
 beforelight
 bijiben
+bijiben-lang
 bin86
 bind
 bind-chrootenv
@@ -1663,7 +1666,6 @@ kservice
 kservice-devel
 kservice-lang
 ksh
-kshisen
 ksirk
 kspaceduel
 ksplash-qml-branding-openSUSE
@@ -1896,6 +1898,7 @@ libKF5XmlRpcClient5
 libKF5XmlRpcClient5-lang
 libKScreenLocker5
 libLLVM
+libLLVM-32bit
 libMagick++-6_Q16-3
 libMagickCore-6_Q16-1
 libMagickWand-6_Q16-1
@@ -2324,9 +2327,13 @@ libdrm-devel
 libdrm2
 libdrm2-32bit
 libdrm_amdgpu1
+libdrm_amdgpu1-32bit
 libdrm_intel1
+libdrm_intel1-32bit
 libdrm_nouveau2
+libdrm_nouveau2-32bit
 libdrm_radeon1
+libdrm_radeon1-32bit
 libdv4
 libdvdnav4
 libdvdread-devel
@@ -2345,6 +2352,7 @@ libedata-cal-1_2-28
 libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
+libedit0-32bit
 libeews-1_2-0
 libefivar0
 libeigen2-devel
@@ -2387,6 +2395,7 @@ libext2fs2
 libexttextcat
 libexttextcat-2_0-0
 libf2fs1
+libfabric1
 libfallocate0
 libfam0-gamin
 libfam0-gamin-32bit
@@ -2870,7 +2879,6 @@ libmikmod3
 libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
-libmlx4-rdmav2
 libmlx5-rdmav2
 libmm-glib0
 libmms-devel
@@ -2919,6 +2927,7 @@ libnautilus-extension1
 libncurses5
 libncurses5-32bit
 libncurses6
+libncurses6-32bit
 libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -3029,6 +3038,7 @@ libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
+libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -3097,6 +3107,8 @@ libproxy1-config-gnome3
 libproxy1-config-kde
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
+libpsm2-2
+libpsm2-compat
 libpspell15
 libpst4
 libpt2_10_10
@@ -3379,8 +3391,8 @@ libstdc++-devel
 libstdc++48-devel
 libstdc++6
 libstdc++6-32bit
-libstdc++6-gcc48-32bit
 libstdc++6-gcc48-locale
+libstdc++6-gcc6-32bit
 libstoken1
 libstorage-ruby
 libstorage7
@@ -3632,6 +3644,7 @@ libxcb-dri2-0-32bit
 libxcb-dri3-0
 libxcb-dri3-0-32bit
 libxcb-glx0
+libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
@@ -4650,7 +4663,6 @@ pragha-plugins
 prctl
 presage-data
 presentproto-devel
-primus-32bit
 printproto-devel
 privoxy
 procinfo
@@ -5544,8 +5556,6 @@ xfce4-panel-plugin-mpc
 xfce4-panel-plugin-mpc-lang
 xfce4-panel-plugin-netload
 xfce4-panel-plugin-netload-lang
-xfce4-panel-plugin-notes
-xfce4-panel-plugin-notes-lang
 xfce4-panel-plugin-places
 xfce4-panel-plugin-places-lang
 xfce4-panel-plugin-power-manager
@@ -5584,7 +5594,6 @@ xfce4-taskmanager
 xfce4-taskmanager-lang
 xfce4-terminal
 xfce4-terminal-lang
-xfce4-vala
 xfconf
 xfconf-lang
 xfd
