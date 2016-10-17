@@ -57,7 +57,6 @@ dracut
 efibootmgr
 elfutils
 ethtool
-exim
 file
 file-magic
 filesystem
@@ -256,6 +255,8 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgraphite2-3
+libgsasl-lang
+libgsasl7
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
@@ -308,7 +309,6 @@ libmount1
 libmozjs-17_0
 libmtp-udev
 libmtp9
-libmysqlclient18
 libncurses5
 libncurses6
 libnettle6
@@ -319,6 +319,7 @@ libnl3-200
 libnotify4
 libnpth0
 libnsl2
+libntlm0
 liboauth0
 libogg0
 liboggkate1
@@ -335,7 +336,6 @@ libplist3
 libpng16-16
 libpolkit0
 libpopt0
-libpq5
 libprocps6
 libproxy1
 libpsl5
@@ -357,7 +357,6 @@ libsndfile1
 libsolv-tools
 libsoup-2_4-1
 libspeex1
-libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -419,6 +418,8 @@ lsof
 lvm2
 metatheme-adwaita-common
 mozilla-nspr
+msmtp
+msmtp-mta
 mt-st
 mtools
 ncurses-utils
