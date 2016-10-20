@@ -75,3 +75,9 @@ job lock name marble
 job lock name digikam
 job lock name dia
 job lock name inkscape
+
+# And again: the hunt for space - 2016-10-20
+# Devel patterns are not that essential in Tumbleweed; it's so fast
+# moving, that you can't really work witout the online repo for this anyway
+# Let's block the 'less modern' ones first
+job lock name patterns-openSUSE-devel_qt4
