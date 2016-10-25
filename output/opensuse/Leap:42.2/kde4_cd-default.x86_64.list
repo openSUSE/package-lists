@@ -1,3 +1,4 @@
+Mesa-dri-nouveau
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLESv2-2
@@ -17,7 +18,6 @@ PackageKit-gtk3-module
 SuSEfirewall2
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 accountsservice
 acl
 acpica
@@ -1242,6 +1242,7 @@ snapper-zypp-plugin
 sni-qt
 solid-imports
 solid-tools
+sound-theme-freedesktop
 spectacle
 strace
 sudo
@@ -1298,12 +1299,6 @@ unzip
 unzip-doc
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data

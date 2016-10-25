@@ -1,4 +1,5 @@
 AppStream
+Mesa-dri-nouveau
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLESv2-2
@@ -25,7 +26,6 @@ PackageKit-gtk3-module
 SuSEfirewall2
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 accountsservice
 acl
 acpica
@@ -1230,6 +1230,7 @@ silc-toolkit
 smp_utils
 snapper
 snapper-zypp-plugin
+sound-theme-freedesktop
 speech-dispatcher
 speech-dispatcher-module-espeak
 strace
@@ -1347,12 +1348,6 @@ udisks2
 unzip
 unzip-doc
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 usb_modeswitch
 usb_modeswitch-data

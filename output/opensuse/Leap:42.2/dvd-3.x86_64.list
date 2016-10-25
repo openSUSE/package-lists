@@ -11,7 +11,6 @@ PackageKit-gtk3-module
 PackageKit-lang
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 adjtimex
 adwaita-icon-theme
 at-spi2-atk-common
@@ -558,7 +557,6 @@ pam-config
 parted
 patterns-openSUSE-base
 patterns-openSUSE-minimal_base
-patterns-openSUSE-update_test
 patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
@@ -656,6 +654,7 @@ shared-mime-info-lang
 shim
 snapper
 snapper-zypp-plugin
+sound-theme-freedesktop
 strace
 sudo
 suse-module-tools
@@ -688,12 +687,6 @@ udisks2-lang
 unzip
 unzip-doc
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 util-linux
 util-linux-lang
 util-linux-systemd

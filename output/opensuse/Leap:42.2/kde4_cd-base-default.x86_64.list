@@ -9,7 +9,6 @@ PackageKit-gtk3-module
 SuSEfirewall2
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 acl
 acpica
 adjtimex
@@ -581,6 +580,7 @@ shim
 smp_utils
 snapper
 snapper-zypp-plugin
+sound-theme-freedesktop
 strace
 sudo
 suse-module-tools
@@ -621,12 +621,6 @@ udev-configure-printer
 unzip
 unzip-doc
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 usbutils
 util-linux
 util-linux-systemd

@@ -12,6 +12,7 @@ Mesa
 Mesa-32bit
 Mesa-devel
 Mesa-dri-devel
+Mesa-dri-nouveau
 Mesa-libEGL-devel
 Mesa-libEGL1
 Mesa-libEGL1-32bit
@@ -70,7 +71,6 @@ WindowMaker-themes
 a2ps
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 abcde
 abiword
 abiword-docs
@@ -1660,6 +1660,7 @@ kservice
 kservice-devel
 kservice-lang
 ksh
+kshisen
 ksirk
 kspaceduel
 ksplash-qml-branding-openSUSE
@@ -4185,7 +4186,6 @@ patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-sw_management_kde
 patterns-openSUSE-tabletpc
 patterns-openSUSE-technical_writing
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_opt
 patterns-openSUSE-xen_server
@@ -5023,6 +5023,7 @@ sonar-icon-theme
 sonnet-devel
 sound-juicer
 sound-juicer-lang
+sound-theme-freedesktop
 source-highlight
 sox
 spamassassin
@@ -5040,6 +5041,8 @@ sqlite3
 sqlite3-devel
 sqlite3-doc
 squashfs
+squid
+squidGuard
 sshfs
 sssd
 sssd-32bit
@@ -5325,12 +5328,6 @@ unzip
 unzip-doc
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
 upower
 upower-lang
 urlview
