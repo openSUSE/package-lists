@@ -250,8 +250,6 @@ avogadro-devel
 awesfx
 axis
 b43-fwcutter
-baloo-core
-baloo-kioslaves
 baloo5
 baloo5-devel
 baloo5-file
@@ -526,12 +524,6 @@ diffstat
 diffutils
 digikam
 digikam-lang
-digikam-libs
-digikam-plugin-color
-digikam-plugin-decorate
-digikam-plugin-enhance
-digikam-plugin-fxfilters
-digikam-plugin-transform
 ding
 ding-dict-de_en
 dirmngr
@@ -626,7 +618,8 @@ evolution-plugin-pst-import
 evolution-plugin-spamassassin
 exif
 exiftool
-exim
+exiv2
+exiv2-lang
 exo-lang
 exo-tools
 expat
@@ -1084,7 +1077,6 @@ gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
 gstreamer-plugins-good-lang
-gstreamer-plugins-qt
 gstreamer-plugins-ugly
 gstreamer-plugins-ugly-lang
 gstreamer-utils
@@ -1566,12 +1558,8 @@ kio_audiocd
 kio_iso
 kio_kamera
 kio_mtp
-kipi-plugin-icons
 kipi-plugins
-kipi-plugins-acquireimage
-kipi-plugins-geolocation
 kipi-plugins-lang
-kipi-plugins5
 kiriki
 kismet
 kitemmodels-devel
@@ -2154,7 +2142,6 @@ libavformat57
 libavogadro1
 libavutil55
 libbabl-0_1-0
-libbaloofiles4
 libbase
 libbasicobjects0
 libblas3
@@ -2313,6 +2300,7 @@ libdcerpc0-32bit
 libdconf1
 libdhash1
 libdialog11
+libdigikamcore5
 libdirac_encoder0
 libdirectfb-1_7-1
 libdiscid0
@@ -2596,6 +2584,8 @@ libgravatar
 libgrilo-0_3-0
 libgrlnet-0_3-0
 libgrlpls-0_3-0
+libgsasl-lang
+libgsasl7
 libgsf-1-114
 libgsf-devel
 libgsf-lang
@@ -2798,7 +2788,6 @@ libkomparediff2-5
 libkonq-devel
 libkonq5
 libkpathsea6
-libkqoauth0
 libksane-devel
 libksba8
 libkscreen
@@ -2817,8 +2806,6 @@ libktorrent-devel
 libktorrent6
 libktorrent6-lang
 libktpaccountskcminternal9
-libkvkontakte-lang
-libkvkontakte1
 libkwalletbackend5-5
 liblangtag1
 liblapack3
@@ -2873,7 +2860,6 @@ libmagic1-32bit
 libmal-devel
 libmal1
 libmarblewidget-qt5-25
-libmarblewidget22
 libmbedtls9
 libmbim-glib4
 libmcrypt
@@ -2983,6 +2969,7 @@ libnova-devel
 libnsl2
 libnsssharedhelper0
 libntfs-3g84
+libntlm0
 libnuma1
 liboauth-devel
 liboauth0
@@ -3058,7 +3045,6 @@ libpeas-gtk-1_0-0
 libpeas-lang
 libpeas-loader-python
 libpeas-loader-python3
-libpgf6
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -3378,7 +3364,6 @@ libspeechd2
 libspeex1
 libspeex1-32bit
 libspeexdsp1
-libspf2-2
 libspice-client-glib-2_0-8
 libspice-client-glib-helper
 libspice-client-gtk-2_0-4
@@ -3912,6 +3897,8 @@ mpfr-devel
 mpt-firmware
 mpt-status
 mrtg
+msmtp
+msmtp-mta
 mtdev-devel
 mtools
 mtpaint
@@ -5020,6 +5007,7 @@ shim
 shotwell
 shotwell-lang
 showfont
+showfoto
 siga
 signon-kwallet-extension
 signon-plugin-oauth2
