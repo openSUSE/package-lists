@@ -1,4 +1,5 @@
 Mesa
+Mesa-dri-nouveau
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libGLESv2-2
@@ -192,6 +193,7 @@ fprintd
 fprintd-lang
 fprintd-pam
 frameworkintegration-plugin
+fuse
 gamin-server
 gawk
 gconf-polkit
@@ -353,6 +355,8 @@ kde4-filesystem
 kdebase4-runtime
 kdebase4-workspace-libs
 kdeclarative-components
+kdeconnect-kde
+kdeconnect-kde-lang
 kded
 kded-lang
 kdegames-carddecks-default
@@ -778,6 +782,7 @@ libexif12
 libexiv2-14
 libexpat1
 libext2fs2
+libfakekey0
 libfallocate0
 libfam0-gamin
 libfarstream-0_2-5
@@ -1620,6 +1625,7 @@ solid-tools
 sound-theme-freedesktop
 sox
 spectacle
+sshfs
 sssd
 sssd-krb5-common
 sssd-ldap
