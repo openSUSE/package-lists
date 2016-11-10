@@ -4,7 +4,6 @@ GeoIP-data
 ImageMagick
 Mesa
 Mesa-32bit
-Mesa-dri-nouveau
 Mesa-libEGL1
 Mesa-libEGL1-32bit
 Mesa-libGL1
@@ -351,6 +350,7 @@ evince-plugin-pdfdocument
 evince-plugin-psdocument
 evolution
 evolution-data-server
+evolution-data-server-lang
 evolution-plugin-spamassassin
 exif
 exiftool
@@ -646,6 +646,7 @@ gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
 gtk3-tools
 gtkiterm
+gtksourceview-lang
 gtkspell-lang
 gucharmap
 guile-modules-2_0
@@ -2231,7 +2232,6 @@ libvala-0_34-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
-libvdpau_nouveau
 libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
@@ -3325,7 +3325,6 @@ xf86-video-intel
 xf86-video-mach64
 xf86-video-mga
 xf86-video-neomagic
-xf86-video-nouveau
 xf86-video-nv
 xf86-video-qxl
 xf86-video-r128
