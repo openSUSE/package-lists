@@ -258,8 +258,6 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgraphite2-3
-libgsasl-lang
-libgsasl7
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
@@ -322,7 +320,6 @@ libnl3-200
 libnotify4
 libnpth0
 libnsl2
-libntlm0
 liboauth0
 libogg0
 liboggkate1
@@ -420,10 +417,12 @@ lockdev
 logrotate
 lsof
 lvm2
+m4
+make
+make-lang
+metamail
 metatheme-adwaita-common
 mozilla-nspr
-msmtp
-msmtp-mta
 mt-st
 mtools
 ncurses-utils
@@ -461,7 +460,9 @@ pkg-config
 polkit
 polkit-default-privs
 prctl
+procmail
 procps
+psmisc
 python
 python-base
 python-gobject
@@ -475,10 +476,14 @@ rsync
 s2tc
 s2tc-32bit
 sed
+sendmail
 sg3_utils
 shadow
 shared-mime-info
+sharutils
+sharutils-lang
 shim
+site-config
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
