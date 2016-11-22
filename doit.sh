@@ -13,7 +13,7 @@ case $proj in
         Factory)arches="i586 x86_64"
                 repo="standard"
                 ;;
-        Leap:42.2) arches="x86_64"
+        Leap:42.3) arches="x86_64"
                 repo="standard"
                 ;;
         Leap:42.*:Ports) arches="ppc64le aarch64"
@@ -84,7 +84,7 @@ for arch in $arches; do
       ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
       #./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
     fi
-    if test "$proj" = "Factory" -o "$proj" = "Leap:42.2"; then
+    if test "$proj" = "Factory" -o "$proj" = "Leap:42.3"; then
       ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
       ./gen.pl opensuse/$proj/x11_cd $arch "$proj" $repo
     fi

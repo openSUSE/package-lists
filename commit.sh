@@ -7,7 +7,7 @@ case $proj in
 	Factory) arches="i586 x86_64"
 		repo="standard"
 		;;
-	Leap:42.2) arches="x86_64"
+	Leap:42.3) arches="x86_64"
             repo="standard"
                 ;;
 	Leap:42.*:Ports) arches="ppc64le aarch64"
@@ -60,7 +60,7 @@ if [ "$arches" = "i586 x86_64" ];then
    osc -q ci -m "auto update" osc/openSUSE:$proj:Live/package-lists-* | grep -v nothing
 fi
 
-if [ "$proj" = "Leap:42.2" ]; then
+if [ "$proj" = "Leap:42.3" ]; then
   test -d osc/openSUSE:$proj/package-lists-openSUSE-images || ( cd osc; osc co openSUSE:$proj/package-lists-openSUSE-images )
   osc -q up osc/openSUSE:$proj/package-lists-openSUSE-images > /dev/null
   for file in gnome_cd-default gnome_cd-x11-default kde4_cd-base-default kde4_cd-default; do
