@@ -282,6 +282,7 @@ btrfsprogs-udev-rules
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -405,7 +406,6 @@ colord
 colord-lang
 command-not-found
 coreutils
-coreutils-lang
 cpio
 cpp
 cpp6
@@ -1310,7 +1310,6 @@ kdnssd
 kdnssd-framework-devel
 kdoctools
 kdoctools-devel
-kdoctools-lang
 kdump
 keditbookmarks
 kemoticons-devel
