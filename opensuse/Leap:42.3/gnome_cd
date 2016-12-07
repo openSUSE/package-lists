@@ -1,0 +1,19 @@
+namespace namespace:language(en) @SYSTEM
+
+#INCLUDE all-supplements.i586 # !x86_64
+#INCLUDE all-supplements.x86_64 # !i586
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-basedon
+#INCLUDE ignore_opensuse-cds
+#INCLUDE ignore_opensuse-gnome-cd
+#INCLUDE ignore_opensuse-bundle-kde
+
+job lock name gtk2-engines-32bit
+job lock name gnome2-user-docs # !i586
+
+job install provides pattern() = rest_cd_gnome
+#TODO job install name openSUSE-release-livecd-gnome
+job install name branding-openSUSE
+job install name gconf2-branding-openSUSE
+
+job install provides libyui-qt-pkg

@@ -1,0 +1,45 @@
+namespace namespace:language(en) @SYSTEM
+#INCLUDE all-supplements.i586 # !x86_64
+#INCLUDE all-supplements.x86_64 # !i586
+
+job lock name oxygen-icon-theme-scalable
+job lock name spamassassin
+job lock name gutenprint
+job lock name rdesktop
+#INCLUDE ignore_opensuse-bundle-gnome
+job lock name compiz-kde
+job lock name gtk2-engines-32bit
+job lock name kde3-i18n-de
+#INCLUDE ignore_opensuse
+#INCLUDE ignore_opensuse-cds
+#INCLUDE ignore_opensuse-kde-cd
+#INCLUDE ignore_opensuse-basedon
+job lock name pam-32bit
+job lock name kdelibs3
+job lock name kdelibs3-default-style
+job install provides pattern() = kde_office
+job install provides pattern() = rest_cd_kde
+#TODO job install name openSUSE-release-livecd-kde
+
+#job lock name plasma5-desktop-branding-openSUSE
+job install name plasma5-workspace-branding-openSUSE
+
+#job install name kdelibs4-branding-openSUSE
+#job install name kdebase4-openSUSE
+#job install name branding-openSUSE
+#job install name kdebase4-runtime-branding-openSUSE
+job install name baloo5-tools
+job install name NetworkManager
+job lock name cdrecord
+
+#job install name libreoffice-writer
+job lock name libreoffice
+
+job lock name ksplash-qml-branding-openSUSE
+job lock name ksplashx-branding-openSUSE
+
+job lock name NetworkManager-lang
+job lock name digikam-lang
+job lock name mc-lang
+job lock name nano-lang
+
