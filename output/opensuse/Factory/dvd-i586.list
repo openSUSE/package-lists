@@ -282,7 +282,6 @@ btrfsprogs-udev-rules
 build
 build-mkbaselibs
 build-mkdrpms
-bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -2476,6 +2475,7 @@ libldns1
 liblensfun1
 liblibkremotecontrol1
 liblightdm-gobject-1-0
+liblilv-0-0
 liblirc0
 liblirc_client0
 liblirc_driver0
@@ -2901,6 +2901,7 @@ libsensors4
 libsensors4-devel
 libsepol-devel
 libsepol1
+libserd-0-0
 libserf-1-1
 libserf-devel
 libserializer
@@ -2943,6 +2944,7 @@ libsofia-sip-ua0
 libsoftokn3
 libsolv-devel
 libsolv-tools
+libsord-0-0
 libsoup-2_4-1
 libsox3
 libsoxr0
@@ -2960,6 +2962,7 @@ libspice-controller0
 libspice-server1
 libspnav0
 libsqlite3-0
+libsratom-0-0
 libsrtp1
 libssh-devel
 libssh2-1
@@ -3562,7 +3565,6 @@ pam-devel
 pam-modules
 pam_apparmor
 pam_krb5
-pam_ldap
 pam_mount
 pam_ssh
 pango-devel
