@@ -1,5 +1,7 @@
 7kaa
+Mesa-32bit
 Mesa-devel
+Mesa-libGL1-32bit
 Mesa-libGLESv1_CM-devel
 Mesa-libGLESv1_CM1
 Mesa-libGLESv2-devel
@@ -7,6 +9,7 @@ Mesa-libglapi-devel
 alsa-devel-32bit
 ffmpeg
 gtk2-engine-oxygen-32bit
+libLLVM3_8-32bit
 libOSMesa-devel
 libSDL-1_2-0-32bit
 libXdmcp6-32bit
@@ -14,6 +17,11 @@ libavdevice57
 libavfilter6
 libavresample3
 libcurl4-32bit
+libdrm_amdgpu1-32bit
+libdrm_intel1-32bit
+libdrm_nouveau2-32bit
+libdrm_radeon1-32bit
+libedit0-32bit
 libenet7
 libfreebl3-32bit
 libgbm-devel
@@ -26,13 +34,16 @@ libnm-glib4-32bit
 libnm-util2-32bit
 libopenssl1_0_0-steam
 libopenssl1_0_0-steam-32bit
+libpciaccess0-32bit
 libpostproc54
 libpsl5-32bit
 libregina3
 libsoftokn3-32bit
 libssh2-1-32bit
+libstdc++6-32bit
 libtheora0-32bit
 libwayland-egl-devel
+libxcb-glx0-32bit
 mozilla-nspr-32bit
 mozilla-nss-32bit
 mozilla-nss-certs-32bit

@@ -3,14 +3,11 @@ GeoIP
 GeoIP-data
 ImageMagick
 Mesa
-Mesa-32bit
 Mesa-libEGL1
 Mesa-libEGL1-32bit
 Mesa-libGL1
-Mesa-libGL1-32bit
 Mesa-libGLESv2-2
 Mesa-libglapi0
-Mesa-libglapi0-32bit
 Mesa-libva
 ModemManager
 ModemManager-bash-completion
@@ -644,6 +641,7 @@ gtk3-immodule-vietnamese
 gtk3-immodule-xim
 gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
+gtk3-schema
 gtk3-tools
 gtkiterm
 gtkspell-lang
@@ -1060,7 +1058,6 @@ libKF5XmlGui5
 libKF5XmlRpcClient5
 libKScreenLocker5
 libLLVM3_8
-libLLVM3_8-32bit
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
 libMathMLSolver0_2
@@ -1151,7 +1148,6 @@ libXv1-32bit
 libXvMC1
 libXxf86misc1
 libXxf86vm1
-libXxf86vm1-32bit
 libabiword-3_0
 libabw-0_1-1
 libaccounts-glib0
@@ -1377,13 +1373,9 @@ libdouble-conversion1
 libdrm2
 libdrm2-32bit
 libdrm_amdgpu1
-libdrm_amdgpu1-32bit
 libdrm_intel1
-libdrm_intel1-32bit
 libdrm_nouveau2
-libdrm_nouveau2-32bit
 libdrm_radeon1
-libdrm_radeon1-32bit
 libdv4
 libdvbpsi10
 libdvdnav4
@@ -1400,10 +1392,8 @@ libedata-cal-1_2-28
 libedataserver-1_2-22
 libedataserverui-1_2-1
 libedit0
-libedit0-32bit
 libefivar0
 libelf1
-libelf1-32bit
 libenca0
 libenchant1
 libepoxy0
@@ -1816,7 +1806,6 @@ libmythes-1_2-0
 libnautilus-extension1
 libncurses5
 libncurses6
-libncurses6-32bit
 libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -1906,7 +1895,6 @@ libparted0
 libpcap1
 libpci3
 libpciaccess0
-libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -2138,8 +2126,8 @@ libssh4
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
-libstdc++6-32bit
 libstdc++6-devel-gcc6
+libstdc++6-gcc5-32bit
 libstoken1
 libstorage-ruby
 libstorage7
@@ -2309,7 +2297,6 @@ libxcb-dri2-0-32bit
 libxcb-dri3-0
 libxcb-dri3-0-32bit
 libxcb-glx0
-libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
@@ -2850,6 +2837,7 @@ pragha-lang
 pragha-plugins
 prctl
 presage-data
+primus-32bit
 procinfo
 procmail
 procps

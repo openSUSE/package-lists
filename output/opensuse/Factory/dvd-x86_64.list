@@ -8,7 +8,6 @@ ImageMagick-devel
 ImageMagick-extra
 LibVNCServer-devel
 Mesa
-Mesa-32bit
 Mesa-dri-devel
 Mesa-dri-nouveau
 Mesa-libEGL-devel
@@ -16,7 +15,6 @@ Mesa-libEGL1
 Mesa-libEGL1-32bit
 Mesa-libGL-devel
 Mesa-libGL1
-Mesa-libGL1-32bit
 Mesa-libGLESv2-2
 Mesa-libglapi0
 Mesa-libglapi0-32bit
@@ -298,7 +296,6 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
-bundle-lang-common-nl
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -1007,6 +1004,7 @@ gtk3-immodule-xim
 gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
 gtk3-metatheme-sonar
+gtk3-schema
 gtk3-tools
 gtkiterm
 gtksourceview2-lang
@@ -1673,7 +1671,6 @@ libKF5XmlGui5
 libKF5XmlRpcClient5
 libKScreenLocker5
 libLLVM3_8
-libLLVM3_8-32bit
 libMagick++-6_Q16-6
 libMagickCore-6_Q16-2
 libMagickWand-6_Q16-2
@@ -2089,13 +2086,9 @@ libdrm-devel
 libdrm2
 libdrm2-32bit
 libdrm_amdgpu1
-libdrm_amdgpu1-32bit
 libdrm_intel1
-libdrm_intel1-32bit
 libdrm_nouveau2
-libdrm_nouveau2-32bit
 libdrm_radeon1
-libdrm_radeon1-32bit
 libdv4
 libdvbpsi10
 libdvdnav4
@@ -2116,7 +2109,6 @@ libedata-cal-1_2-28
 libedataserver-1_2-22
 libedataserverui-1_2-1
 libedit0
-libedit0-32bit
 libeews-1_2-0
 libefivar0
 libeigen2-devel
@@ -2820,7 +2812,6 @@ libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
-libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -2858,7 +2849,7 @@ libpng16-16-32bit
 libpng16-compat-devel
 libpng16-devel
 libpodofo-devel
-libpodofo0_9_3
+libpodofo0_9_4
 libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit-qt5-1-devel
@@ -3154,6 +3145,7 @@ libstdc++-devel
 libstdc++6
 libstdc++6-32bit
 libstdc++6-devel-gcc6
+libstdc++6-gcc5-32bit
 libstdc++6-gcc5-locale
 libstoken1
 libstorage-ruby
@@ -3395,7 +3387,6 @@ libxcb-dri2-0-32bit
 libxcb-dri3-0
 libxcb-dri3-0-32bit
 libxcb-glx0
-libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
@@ -4358,6 +4349,7 @@ pragha-plugins
 prctl
 presage-data
 presentproto-devel
+primus-32bit
 printproto-devel
 privoxy
 procinfo
