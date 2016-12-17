@@ -32,12 +32,10 @@ acpica
 adaptec-firmware
 adjtimex
 adwaita-icon-theme
+akonadi-calendar-tools
 akonadi-contact
 akonadi-mime
-akonadi-search
 akonadi-server
-akonadi_resources
-akregator5
 alsa
 alsa-firmware
 alsa-oss
@@ -233,7 +231,6 @@ gpart
 gparted
 gpg2
 gpg2-lang
-gpgmepp5
 gpm
 gptfdisk
 grantlee5
@@ -325,7 +322,8 @@ kaccounts-integration
 kaccounts-providers
 kactivities5-imports
 kactivitymanagerd
-kaddressbook5
+kaddressbook
+kalarmcal
 kate-plugins
 kbd
 kbd-legacy
@@ -367,13 +365,9 @@ kdelibs4-core
 kdelibs4support
 kdelibs4support-lang
 kdenetwork4-filesharing
-kdepasswd
-kdepim
 kdepim-addons
 kdepim-apps-libs
 kdepim-runtime
-kdepimlibs4
-kdgantt2
 kdialog
 kdnssd
 kdoctools
@@ -405,11 +399,13 @@ kio_audiocd
 kio_kamera
 kio_mtp
 kldap
-kleopatra5
+kleopatra
 klogd
 kmag
 kmahjongg
-kmail5
+kmail
+kmail-account-wizard
+kmail-application-icons
 kmailtransport
 kmenuedit5
 kmenuedit5-lang
@@ -417,13 +413,13 @@ kmines
 kmod
 kmod-compat
 kmousetool
-knotes5
+knotes
 kompare
 konsole
 konsole-part
-kontact5
+kontact
 konversation
-korganizer5
+korganizer
 kpackage
 kpackage-lang
 kpartx
@@ -451,6 +447,7 @@ ksysguard5
 ksysguard5-lang
 ktexteditor
 ktexteditor-lang
+ktnef
 ktp-accounts-kcm
 kwallet-tools
 kwallet-tools-lang
@@ -498,8 +495,10 @@ libKF5CalendarCore5
 libKF5CalendarEvents5
 libKF5CalendarSupport5
 libKF5CalendarUtils5
+libKF5Cddb5
 libKF5Codecs5
 libKF5Codecs5-lang
+libKF5CompactDisc5
 libKF5Completion5
 libKF5Completion5-lang
 libKF5ConfigCore5
@@ -548,12 +547,11 @@ libKF5JsEmbed5-lang
 libKF5KCMUtils5
 libKF5KCMUtils5-lang
 libKF5KDELibs4Support5
-libKF5KDGantt2-5
 libKF5KDcraw5
 libKF5KHtml5
 libKF5KHtml5-lang
 libKF5KMahjongglib5
-libKF5Kipi31_0_0
+libKF5Kipi32_0_0
 libKF5KontactInterface5
 libKF5Ldap5
 libKF5Libkdepim5
@@ -566,6 +564,7 @@ libKF5ModemManagerQt6
 libKF5NetworkManagerQt6
 libKF5NewStuff5
 libKF5NewStuff5-lang
+libKF5NewStuffCore5
 libKF5Notifications5
 libKF5Notifications5-lang
 libKF5NotifyConfig5
@@ -576,7 +575,6 @@ libKF5PimCommon5
 libKF5PimTextEdit5
 libKF5Pty5
 libKF5Pty5-lang
-libKF5QGpgme5
 libKF5QuickAddons5
 libKF5Runner5
 libKF5Screen7
@@ -588,7 +586,7 @@ libKF5SonnetUi5
 libKF5Style5
 libKF5Su5
 libKF5Su5-lang
-libKF5Syndication5
+libKF5SyntaxHighlighting5
 libKF5TextWidgets5
 libKF5TextWidgets5-lang
 libKF5ThreadWeaver5
@@ -604,6 +602,7 @@ libKF5XmlGui5
 libKF5XmlGui5-lang
 libKF5XmlRpcClient5
 libKF5XmlRpcClient5-lang
+libKGantt2
 libKScreenLocker5
 libLLVM3_8
 libMagickCore-6_Q16-2
@@ -914,7 +913,6 @@ libkaccounts1
 libkactivities6
 libkate1
 libkcddb4
-libkcompactdisc4
 libkde4
 libkdecorations2-5
 libkdecorations2private5
@@ -927,8 +925,8 @@ libkdepimlibs4
 libkerfuffle16
 libkeyutils1
 libkf5kdegames6
+libkgantt-lang
 libkgapi-lang
-libkipi-data
 libkleo
 libkmahjongg
 libkmod2
@@ -936,7 +934,6 @@ libkms1
 libkolab1
 libkolabxml1
 libkomparediff2-5
-libkonq5
 libksba8
 libkscreen2-plugin
 libksieve
@@ -1085,6 +1082,7 @@ libqalculate5
 libqca-qt5
 libqca-qt5-plugins
 libqca2
+libqgpgme7
 libqjson0
 libqmi-glib5
 libqmi-tools
@@ -1136,7 +1134,6 @@ libsepol1
 libserd-0-0
 libsgutils2-1_43-2
 libsigc-2_0-0
-libsignon-glib1
 libsignon-qt5-1
 libsilc-1_1-4
 libsilcclient-1_1-4
@@ -1309,6 +1306,7 @@ mariadb
 mariadb-client
 mariadb-errormessages
 master-boot-code
+mbox-importer
 mc
 mc-lang
 mdadm
@@ -1477,6 +1475,9 @@ permissions
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 pigz
+pim-data-exporter
+pim-sieve-editor
+pim-storage-service-manager
 pimcommon
 pinentry
 pinentry-qt5
@@ -1644,6 +1645,7 @@ susehelp
 susehelp_de
 susehelp_en
 sweeper
+syntax-highlighting
 sysconfig
 sysconfig-netconfig
 sysfsutils
@@ -1664,7 +1666,6 @@ sysvinit-tools
 taglib
 tar
 tar-lang
-telepathy-accounts-signon
 telepathy-gabble
 telepathy-haze
 telepathy-idle

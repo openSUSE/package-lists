@@ -52,12 +52,11 @@ adobe-sourcecodepro-fonts
 adobe-sourcesanspro-fonts
 adobe-sourceserifpro-fonts
 adwaita-icon-theme
+akonadi-calendar-tools
 akonadi-contact
 akonadi-mime
-akonadi-search
 akonadi-server
-akonadi_resources
-akregator5
+akregator
 alsa
 alsa-firmware
 alsa-oss
@@ -560,7 +559,6 @@ gparted
 gperf
 gpg2
 gpgme
-gpgmepp5
 gpm
 gptfdisk
 grantlee5
@@ -739,7 +737,8 @@ kaccounts-integration
 kaccounts-providers
 kactivities5-imports
 kactivitymanagerd
-kaddressbook5
+kaddressbook
+kalarmcal
 kalgebra
 kalzium
 kanagram
@@ -794,8 +793,6 @@ kde-oxygen-fonts
 kde-print-manager
 kde-user-manager
 kde4-filesystem
-kdebase4-libkonq
-kdebase4-nsplugin
 kdebase4-runtime
 kdebase4-workspace-libs
 kdeclarative-components
@@ -808,8 +805,6 @@ kdelibs4-branding-openSUSE
 kdelibs4-core
 kdelibs4support
 kdenetwork4-filesharing
-kdepasswd
-kdepim
 kdepim-addons
 kdepim-apps-libs
 kdepim-runtime
@@ -819,7 +814,6 @@ kdevelop4-lang
 kdevelop4-plugin-cppsupport
 kdevplatform4
 kdevplatform4-lang
-kdgantt2
 kdialog
 kdnssd
 kdoctools
@@ -865,12 +859,14 @@ kiwi-pxeboot
 kiwi-templates
 kiwi-tools
 kldap
-kleopatra5
+kleopatra
 klettres
 klogd
 kmag
 kmahjongg
-kmail5
+kmail
+kmail-account-wizard
+kmail-application-icons
 kmailtransport
 kmenuedit5
 kmines
@@ -878,17 +874,17 @@ kmod
 kmod-compat
 kmousetool
 kmplot
-knotes5
+knotes
 kompare
 konqueror
 konqueror-plugins
 konsole
 konsole-part
-kontact5
+kontact
 konversation
 konversation-lang
 kopete
-korganizer5
+korganizer
 kpackage
 kpartx
 kpat
@@ -911,6 +907,7 @@ ksshaskpass5
 ksudoku
 ksysguard5
 ktexteditor
+ktnef
 ktouch
 ktp-accounts-kcm
 ktp-approver
@@ -976,7 +973,9 @@ libKF5CalendarCore5
 libKF5CalendarEvents5
 libKF5CalendarSupport5
 libKF5CalendarUtils5
+libKF5Cddb5
 libKF5Codecs5
+libKF5CompactDisc5
 libKF5Completion5
 libKF5ConfigCore5
 libKF5ConfigGui5
@@ -1008,15 +1007,17 @@ libKF5IncidenceEditor5
 libKF5ItemModels5
 libKF5ItemViews5
 libKF5JS5
+libKF5JSApi5
 libKF5JobWidgets5
 libKF5JsEmbed5
 libKF5KCMUtils5
 libKF5KDELibs4Support5
-libKF5KDGantt2-5
 libKF5KDcraw5
+libKF5KExiv2-15_0_0
 libKF5KHtml5
 libKF5KMahjongglib5
-libKF5Kipi31_0_0
+libKF5Kipi32_0_0
+libKF5Konq6
 libKF5KontactInterface5
 libKF5Ldap5
 libKF5Libkdepim5
@@ -1028,6 +1029,7 @@ libKF5Mime5
 libKF5ModemManagerQt6
 libKF5NetworkManagerQt6
 libKF5NewStuff5
+libKF5NewStuffCore5
 libKF5Notifications5
 libKF5NotifyConfig5
 libKF5Parts5
@@ -1035,7 +1037,6 @@ libKF5PimCommon5
 libKF5PimTextEdit5
 libKF5Plotting5
 libKF5Pty5
-libKF5QGpgme5
 libKF5QuickAddons5
 libKF5Runner5
 libKF5Sane5
@@ -1046,6 +1047,7 @@ libKF5SonnetUi5
 libKF5Style5
 libKF5Su5
 libKF5Syndication5
+libKF5SyntaxHighlighting5
 libKF5TextWidgets5
 libKF5ThreadWeaver5
 libKF5Tnef5
@@ -1056,6 +1058,7 @@ libKF5WidgetsAddons5
 libKF5WindowSystem5
 libKF5XmlGui5
 libKF5XmlRpcClient5
+libKGantt2
 libKScreenLocker5
 libLLVM3_8
 libMagickCore-6_Q16-2
@@ -1217,7 +1220,6 @@ libavutil55
 libb64-0
 libbabl-0_1-0
 libbase
-libbctoolbox0
 libbind9-140
 libblas3
 libblkid-devel
@@ -1261,7 +1263,6 @@ libbtrfs0
 libburn4
 libbz2-1
 libbz2-1-32bit
-libbzrtp0
 libcaca0
 libcacard0
 libcairo-gobject2
@@ -1680,7 +1681,6 @@ libkactivities6
 libkate1
 libkatepartinterfaces4
 libkcddb4
-libkcompactdisc4
 libkde4
 libkdecorations2-5
 libkdecorations2private5
@@ -1697,7 +1697,7 @@ libkeybinder0
 libkeyutils1
 libkeyutils1-32bit
 libkf5kdegames6
-libkipi-data
+libkgantt-lang
 libkleo
 libkmahjongg
 libkmod2
@@ -1705,10 +1705,7 @@ libkms1
 libkolab1
 libkolabxml1
 libkomparediff2-5
-libkonq5
 libksba8
-libkscreen
-libkscreen1
 libkscreen2-plugin
 libksieve
 libksuseinstall1
@@ -1758,16 +1755,11 @@ liblzma5
 liblzma5-32bit
 liblzo2-2
 libmagic1
-libmarblewidget-qt5-25
+libmarblewidget-qt5-26
 libmatroska6
-libmbedcrypto0
-libmbedtls10
-libmbedx509-0
 libmbim-glib4
 libmeanwhile1
 libmediaart-2_0-0
-libmediastreamer_base7
-libmediastreamer_voip7
 libmenu-cache3
 libmetalink3
 libminiupnpc16
@@ -1799,6 +1791,7 @@ libmutter0
 libmwaw-0_3-3
 libmygpo-qt1
 libmysqlclient18
+libmysqlclient18-32bit
 libmysqlclient_r18
 libmysqlcppconn7
 libmysqld18
@@ -1873,7 +1866,6 @@ libopts25
 libopus0
 liborc-0_4-0
 liborcus-0_11-0
-libortp12
 libosinfo
 libosinfo-1_0-0
 libosip2
@@ -1925,7 +1917,6 @@ libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit0
 libpoppler-glib8
-libpoppler-qt4-4
 libpoppler-qt5-1
 libpoppler65
 libpopt0
@@ -1958,6 +1949,7 @@ libqalculate5
 libqca-qt5
 libqca-qt5-plugins
 libqca2
+libqgpgme7
 libqimageblitz4
 libqjson0
 libqmi-glib5
@@ -1971,8 +1963,8 @@ libqt4-qt3support
 libqt4-qt3support-32bit
 libqt4-sql
 libqt4-sql-32bit
-libqt4-sql-sqlite
-libqt4-sql-sqlite-32bit
+libqt4-sql-mysql
+libqt4-sql-mysql-32bit
 libqt4-x11
 libqt4-x11-32bit
 libqt5-linguist
@@ -2118,7 +2110,6 @@ libspice-client-glib-helper
 libspice-client-gtk-3_0-5
 libspice-server1
 libsqlite3-0
-libsqlite3-0-32bit
 libsratom-0-0
 libsrtp1
 libssh2-1
@@ -2439,6 +2430,7 @@ mariadb
 mariadb-client
 mariadb-errormessages
 master-boot-code
+mbox-importer
 mc
 mc-lang
 mcelog
@@ -2786,6 +2778,9 @@ phonon-backend-vlc
 phonon4qt5-backend-gstreamer
 pidgin
 pigz
+pim-data-exporter
+pim-sieve-editor
+pim-storage-service-manager
 pimcommon
 pinentry
 pinentry-gnome3
@@ -3080,6 +3075,7 @@ sushi
 sweeper
 swell-foop
 swig
+syntax-highlighting
 sysconfig
 sysconfig-netconfig
 sysfsutils

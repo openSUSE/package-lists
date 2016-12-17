@@ -255,6 +255,7 @@ kded
 kdelibs4support
 kdenetwork4-filesharing
 kdoctools
+keditbookmarks
 keyutils
 kfilemetadata5
 kgamma5
@@ -267,6 +268,7 @@ kinit
 kio
 kio-core
 kio-extras5
+kio_audiocd
 kio_kamera
 klogd
 kmahjongg
@@ -315,7 +317,9 @@ libKF5BalooEngine5
 libKF5BluezQt6
 libKF5Bookmarks5
 libKF5CalendarEvents5
+libKF5Cddb5
 libKF5Codecs5
+libKF5CompactDisc5
 libKF5Completion5
 libKF5ConfigCore5
 libKF5ConfigGui5
@@ -342,10 +346,11 @@ libKF5KCMUtils5
 libKF5KDELibs4Support5
 libKF5KHtml5
 libKF5KMahjongglib5
-libKF5Kipi31_0_0
+libKF5Kipi32_0_0
 libKF5ModemManagerQt6
 libKF5NetworkManagerQt6
 libKF5NewStuff5
+libKF5NewStuffCore5
 libKF5Notifications5
 libKF5NotifyConfig5
 libKF5Parts5
@@ -358,6 +363,7 @@ libKF5SonnetCore5
 libKF5SonnetUi5
 libKF5Style5
 libKF5Su5
+libKF5SyntaxHighlighting5
 libKF5TextWidgets5
 libKF5ThreadWeaver5
 libKF5UnitConversion5
@@ -648,7 +654,6 @@ libkdegames
 libkerfuffle16
 libkeyutils1
 libkf5kdegames6
-libkipi-data
 libkmahjongg
 libkmod2
 libkms1
@@ -699,6 +704,7 @@ libmpfr4
 libmtdev1
 libmtp-udev
 libmtp9
+libmusicbrainz5-1
 libmysqlclient18
 libncurses6
 libndp0
@@ -818,7 +824,6 @@ libsensors4
 libsepol1
 libserd-0-0
 libsgutils2-1_43-2
-libsignon-glib1
 libsignon-qt5-1
 libsilc-1_1-4
 libsilcclient-1_1-4
@@ -1219,6 +1224,7 @@ sudo
 suse-module-tools
 susehelp
 susehelp_en
+syntax-highlighting
 sysconfig
 sysconfig-netconfig
 syslinux
@@ -1234,7 +1240,6 @@ systemd-sysvinit
 systemsettings5
 sysvinit-tools
 tar
-telepathy-accounts-signon
 telepathy-gabble
 telepathy-haze
 telepathy-idle
