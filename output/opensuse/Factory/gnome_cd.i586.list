@@ -226,6 +226,8 @@ gnome-control-center-goa
 gnome-control-center-user-faces
 gnome-dictionary
 gnome-disk-utility
+gnome-documents
+gnome-documents_books-common
 gnome-keyring
 gnome-keyring-pam
 gnome-logs
@@ -237,6 +239,7 @@ gnome-mines
 gnome-music
 gnome-nettool
 gnome-online-accounts
+gnome-online-miners
 gnome-packagekit
 gnome-photos
 gnome-power-manager
@@ -250,6 +253,7 @@ gnome-shell-browser-plugin
 gnome-shell-calendar
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
+gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
@@ -271,6 +275,7 @@ gnome-video-effects
 gnome-weather
 gnu-unifont-bitmap-fonts
 gnuchess
+google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
 google-roboto-fonts
@@ -339,6 +344,9 @@ hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
 iagno
+ibus
+ibus-gtk
+ibus-gtk3
 iceauth
 icedax
 icewm
@@ -374,7 +382,9 @@ kpartx
 krb5
 less
 libFLAC8
+libGLEW1_13
 libGLU1
+libGeneratedSaxParser0_2
 libHX28
 libHalf12
 libICE6
@@ -383,6 +393,10 @@ libIlmImf-2_2-22
 libIlmThread-2_2-12
 libLLVM3_8
 libMagickCore-6_Q16-2
+libMathMLSolver0_2
+libOpenCOLLADABaseUtils0_2
+libOpenCOLLADAFramework0_2
+libOpenCOLLADASaxFrameworkLoader0_2
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -392,6 +406,7 @@ libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libSoundTouch0
+libUTF0_2
 libX11-6
 libX11-data
 libX11-xcb1
@@ -421,6 +436,7 @@ libXv1
 libXvMC1
 libXxf86misc1
 libXxf86vm1
+libabw-0_1-1
 libaccountsservice0
 libacl1
 libaio1
@@ -465,6 +481,7 @@ libblas3
 libblkid1
 libbluetooth3
 libbluray1
+libboost_date_time1_62_0
 libboost_system1_62_0
 libboost_thread1_62_0
 libbrlapi0_6
@@ -493,6 +510,7 @@ libcdda_paranoia0
 libcdio16
 libcdio_cdda2
 libcdio_paranoia2
+libcdr-0_1-1
 libcelt0-2
 libchamplain-0_12-0
 libcheese-common
@@ -500,9 +518,13 @@ libcheese-gtk25
 libcheese8
 libcholmod-3_0_6
 libchromaprint1
+libclucene-contribs-lib1
+libclucene-core1
+libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
+libcmis-0_5-5
 libcogl-pango20
 libcogl20
 libcolamd-2_9_1
@@ -549,6 +571,7 @@ libdv4
 libdvdnav4
 libdvdread4
 libdw1
+libe-book-0_1-1
 libebackend-1_2-10
 libebook-1_2-16
 libebook-contacts-1_2-2
@@ -565,6 +588,7 @@ libenchant1
 libepoxy0
 liberation-fonts
 libesd0
+libetonyek-0_1-1
 libevdev2
 libevdocument3-4
 libevent-2_0-5
@@ -574,6 +598,8 @@ libexif12
 libexiv2-14
 libexpat1
 libext2fs2
+libexttextcat
+libexttextcat-2_0-0
 libfam0-gamin
 libfarstream-0_2-5
 libfdisk1
@@ -591,6 +617,7 @@ libfont-specimen0
 libfontenc1
 libfprint0
 libfreebl3
+libfreehand-0_1-1
 libfreetype6
 libfribidi0
 libftgl2
@@ -624,6 +651,7 @@ libgirepository-1_0-1
 libgjs0
 libglib-2_0-0
 libglibmm-2_4-1
+libgltf-0_0-0
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -741,6 +769,7 @@ libkeyutils1
 libkmod2
 libkms1
 libksba8
+liblangtag1
 liblapack3
 liblash1
 liblcms2-2
@@ -784,11 +813,14 @@ libmpc3
 libmpcdec5
 libmpfr4
 libmspack0
+libmspub-0_1-1
 libmtdev1
 libmtp-udev
 libmtp9
 libmusicbrainz5-1
 libmutter0
+libmwaw-0_3-3
+libmythes-1_2-0
 libnautilus-extension1
 libncurses5
 libncurses6
@@ -824,6 +856,7 @@ libnsl2
 libnsssharedhelper0
 libntfs-3g87
 liboauth0
+libodfgen-0_1-1
 libofa0
 libogg0
 liboggkate1
@@ -838,6 +871,7 @@ libosinfo-1_0-0
 libostree-1-1
 libp11-kit0
 libpackagekit-glib2-18
+libpagemaker-0_0-0
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
@@ -892,16 +926,27 @@ libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
 libraptor2-0
+librasqal3
 libraw15
 librcc0
 librcd0
+librdf0
 libreadline7
 libref_array1
 libreiserfscore0
+libreoffice
+libreoffice-branding-upstream
+libreoffice-gnome
+libreoffice-gtk3
 libreoffice-icon-theme-galaxy
 libreoffice-icon-theme-tango
+libreoffice-l10n-en
+libreoffice-pyuno
 libreoffice-share-linker
+libreoffice-writer
+libreofficekit
 librest0
+librevenge-0_0-0
 librsvg-2-2
 libruby2_2-2_2
 libsamba-credentials0
@@ -1016,6 +1061,7 @@ libva-x11-1
 libva1
 libvdpau1
 libverto1
+libvisio-0_1-1
 libvisual
 libvmtools0
 libvorbis0
@@ -1040,6 +1086,9 @@ libwebpmux2
 libwebrtc_audio_processing1
 libwicked-0-6
 libwnck-3-0
+libwpd-0_10-10
+libwpg-0_3-3
+libwps-0_4-4
 libwrap0
 libx86emu1
 libxalan-c111
@@ -1085,6 +1134,7 @@ libyui-qt-pkg7
 libyui-qt7
 libyui7
 libz1
+libzapojit-0_0-0
 libzbar0
 libzio1
 libzvbi0
@@ -1122,6 +1172,10 @@ mt-st
 mtools
 mutter
 mutter-data
+myspell-dictionaries
+myspell-en
+myspell-en_US
+myspell-lightproof-en
 nano
 nano-lang
 nautilus
@@ -1464,6 +1518,7 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
+typelib-1_0-GData-0_0
 typelib-1_0-GFBGraph-0_2
 typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
@@ -1472,6 +1527,7 @@ typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gdm-1_0
 typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
+typelib-1_0-Gepub-0_4
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -1507,18 +1563,22 @@ typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
 typelib-1_0-TotemPlParser-1_0
 typelib-1_0-Tracker-1_0
+typelib-1_0-TrackerControl-1_0
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
+typelib-1_0-Zpj-0_0
 ucode-amd
 ucode-intel
 udev
 udev-configure-printer
 udisks2
+unoconv
 unzip
 unzip-doc
 update-alternatives
+update-desktop-files
 upower
 usbutils
 util-linux
