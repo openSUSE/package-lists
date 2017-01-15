@@ -606,7 +606,7 @@ libKF5XmlRpcClient5
 libKF5XmlRpcClient5-lang
 libKGantt2
 libKScreenLocker5
-libLLVM3_8
+libLLVM3_9
 libMagickCore-6_Q16-2
 libQt5CLucene5
 libQt5Concurrent5
@@ -962,6 +962,7 @@ liblua5_3
 liblvm2app2_2
 liblvm2cmd2_02
 liblwres141
+liblz4-1_7
 liblzma5
 liblzo2-2
 libmagic1
@@ -1392,7 +1393,6 @@ patterns-openSUSE-kde_plasma
 patterns-openSUSE-kde_utilities
 patterns-openSUSE-kde_yast
 patterns-openSUSE-multimedia
-patterns-openSUSE-non_oss
 patterns-openSUSE-office
 patterns-openSUSE-rest_cd_kde
 patterns-openSUSE-sw_management
@@ -1430,6 +1430,7 @@ perl-HTTP-Date
 perl-HTTP-Message
 perl-HTTP-Negotiate
 perl-IO-HTML
+perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
@@ -1438,6 +1439,7 @@ perl-Module-Runtime
 perl-Net-DBus
 perl-Net-DNS
 perl-Net-HTTP
+perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Package-Stash
 perl-Package-Stash-XS
@@ -1446,6 +1448,7 @@ perl-Parse-RecDescent
 perl-Pod-Coverage
 perl-RPC-XML
 perl-Scalar-List-Utils
+perl-Socket6
 perl-Sub-Exporter-Progressive
 perl-Sub-Identify
 perl-Term-ReadKey

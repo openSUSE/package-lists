@@ -139,7 +139,7 @@ krb5
 less
 libFLAC8
 libICE6
-libLLVM3_8
+libLLVM3_9
 libSM6
 libX11-6
 libX11-data
@@ -295,6 +295,7 @@ libltdl7
 liblua5_3
 liblvm2app2_2
 liblvm2cmd2_02
+liblz4-1_7
 liblzma5
 liblzo2-2
 libmagic1
@@ -411,6 +412,10 @@ lockdev
 logrotate
 lsof
 lvm2
+m4
+make
+make-lang
+metamail
 metatheme-adwaita-common
 mozilla-nspr
 mt-st
@@ -449,9 +454,10 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
-postfix
 prctl
+procmail
 procps
+psmisc
 publicsuffix
 python
 python-base
@@ -466,8 +472,12 @@ rpm
 rsync
 s2tc
 sed
+sendmail
 shadow
 shared-mime-info
+sharutils
+sharutils-lang
+site-config
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
@@ -478,7 +488,6 @@ sysconfig
 sysconfig-netconfig
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
