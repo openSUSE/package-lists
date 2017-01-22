@@ -1002,8 +1002,8 @@ gtk3-immodule-xim
 gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
 gtk3-metatheme-sonar
-gtk3-schema
 gtk3-tools
+gtk4-schema
 gtkiterm
 gtksourceview2-lang
 gtkspell-lang
@@ -1485,6 +1485,7 @@ ktexteditor-devel
 ktextwidgets-devel
 ktimer
 ktnef
+ktoblzcheck-devel
 ktouch
 ktp-accounts-kcm
 ktp-approver
@@ -2554,7 +2555,6 @@ libksysguard5
 libksysguard5-devel
 libksysguard5-helper
 libktoblzcheck1
-libktoblzcheck1-devel
 libktorrent-devel
 libktorrent6
 libktorrent6-lang
@@ -4427,6 +4427,13 @@ python-idna
 python-ipaddr
 python-ipaddress
 python-javapackages
+python-kde4
+python-kde4-doc
+python-kde4-khtml
+python-kde4-knewstuff
+python-kde4-phonon
+python-kde4-plasma
+python-kdebase4
 python-keyring
 python-ldap
 python-liblarch
