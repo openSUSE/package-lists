@@ -411,10 +411,6 @@ lockdev
 logrotate
 lsof
 lvm2
-m4
-make
-make-lang
-metamail
 metatheme-adwaita-common
 mozilla-nspr
 mt-st
@@ -453,10 +449,9 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
+postfix
 prctl
-procmail
 procps
-psmisc
 publicsuffix
 python
 python-base
@@ -471,12 +466,8 @@ rpm
 rsync
 s2tc
 sed
-sendmail
 shadow
 shared-mime-info
-sharutils
-sharutils-lang
-site-config
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
@@ -487,6 +478,7 @@ sysconfig
 sysconfig-netconfig
 systemd
 systemd-bash-completion
+systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysvinit-tools
