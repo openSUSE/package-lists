@@ -24,7 +24,6 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-plugins
-alsa-plugins-pulse
 alsa-utils
 aspell
 aspell-en
@@ -242,13 +241,8 @@ lftp
 libFLAC8
 libGLU1
 libHX28
-libHalf12
 libICE6
-libIex-2_2-12
-libIlmImf-2_2-22
-libIlmThread-2_2-12
 libLLVM3_9
-libMagickCore-6_Q16-2
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -304,7 +298,6 @@ libatkmm-1_6-1
 libatm1
 libatspi0
 libattr1
-libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -377,7 +370,6 @@ libelf1
 libenca0
 libepoxy0
 liberation-fonts
-libesd0
 libevdev2
 libevdocument3-4
 libevent-2_0-5
@@ -391,14 +383,12 @@ libext2fs2
 libfallocate0
 libfdisk1
 libffi4
-libfftw3-3
 libfltk1
 libfontenc1
 libfprint0
 libfreebl3
 libfreetype6
 libfribidi0
-libftgl2
 libfuse2
 libfvalue1
 libgarcon-1-0
@@ -429,7 +419,6 @@ libgnomesu0
 libgnutls30
 libgoa-1_0-0
 libgobject-2_0-0
-libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
@@ -486,7 +475,6 @@ libldap-2_4-2
 libldap-data
 liblightdm-gobject-1-0
 liblockdev1
-liblqr-1-0
 libltdl7
 liblua5_3
 liblvm2app2_2
@@ -568,7 +556,6 @@ libprocps6
 libproxy1
 libproxy1-networkmanager
 libpsl5
-libpulse-mainloop-glib0
 libpulse0
 libpwquality1
 libpython2_7-1_0
@@ -602,9 +589,7 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
-libsoxr0
 libspeex1
-libspeexdsp1
 libsqlite3-0
 libssh2-1
 libsss_nss_idmap0
@@ -616,7 +601,6 @@ libsystemd0
 libtalloc2
 libtasn1
 libtasn1-6
-libtdb1
 libteamdctl0
 libthai-data
 libthai0
@@ -658,7 +642,6 @@ libwayland-egl1
 libwayland-server0
 libwebp6
 libwebpdemux2
-libwebrtc_audio_processing1
 libwicked-0-6
 libwnck-1-22
 libwrap0
@@ -856,10 +839,6 @@ procps
 psmisc
 publicsuffix
 pullin-bcm43xx-firmware
-pulseaudio
-pulseaudio-bash-completion
-pulseaudio-esound-compat
-pulseaudio-utils
 python
 python-base
 python-configobj
@@ -884,7 +863,6 @@ rpcbind
 rpm
 rpm-python
 rsync
-rtkit
 ruby
 ruby-common
 ruby2.2
@@ -1046,7 +1024,6 @@ xinit
 xkbcomp
 xkeyboard-config
 xli
-xlockmore
 xmessage
 xmodmap
 xorg-x11-driver-input
