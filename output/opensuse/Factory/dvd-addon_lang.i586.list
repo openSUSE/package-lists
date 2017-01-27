@@ -773,8 +773,6 @@ gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-ugly
 gstreamer-utils
-gsynaptics
-gsynaptics-lang
 gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
@@ -1451,6 +1449,8 @@ libQt5X11Extras5
 libQt5Xml-devel
 libQt5Xml5
 libQt5XmlPatterns5
+libQtAV1
+libQtAVWidgets1
 libQtQuick5
 libQtWebKit4
 libSDL-1_2-0
@@ -1556,8 +1556,11 @@ libavahi-glib1
 libavahi-gobject0
 libavahi-ui-gtk3-0
 libavcodec57
+libavdevice57
+libavfilter6
 libavformat57
 libavogadro1
+libavresample3
 libavutil55
 libb64-0
 libbabl-0_1-0
@@ -1945,6 +1948,7 @@ libhangul1
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
+libhdf4
 libhdf5-100
 libhdf5_hl100
 libhogweed4
@@ -2127,6 +2131,7 @@ libndr0
 libneon27
 libnet9
 libnetapi0
+libnetcdf11
 libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm11
@@ -2241,6 +2246,7 @@ libpoppler-qt5-devel
 libpoppler66
 libpopt0
 libportaudio2
+libpostproc54
 libpq5
 libpresage1
 libprison0
