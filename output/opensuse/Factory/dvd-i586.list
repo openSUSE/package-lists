@@ -199,7 +199,6 @@ autoconf-el
 autofs
 autogen
 automake
-autotrace
 autoyast2
 autoyast2-installation
 avahi
@@ -291,6 +290,7 @@ bundle-lang-common-fr
 bundle-lang-common-hu
 bundle-lang-common-it
 bundle-lang-common-ja
+bundle-lang-common-nl
 bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
@@ -1647,9 +1647,9 @@ libKF5XmlRpcClient5
 libKGantt2
 libKScreenLocker5
 libLLVM3_9
-libMagick++-6_Q16-6
-libMagickCore-6_Q16-2
-libMagickWand-6_Q16-2
+libMagick++-6_Q16-7
+libMagickCore-6_Q16-3
+libMagickWand-6_Q16-3
 libMathMLSolver0_2
 libOSMesa9
 libOpenCOLLADABaseUtils0_2
@@ -1828,7 +1828,6 @@ libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
-libautotrace3
 libavahi-client3
 libavahi-common3
 libavahi-core7
