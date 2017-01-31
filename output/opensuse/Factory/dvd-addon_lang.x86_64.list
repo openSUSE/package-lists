@@ -1278,6 +1278,7 @@ lensfun-data
 less
 lftp
 libAnalitza5
+libAppStreamQt2
 libEMF1
 libFLAC++6
 libFLAC8
@@ -1388,6 +1389,7 @@ libKF5Parts5
 libKF5PimCommon5
 libKF5PimTextEdit5
 libKF5Plotting5
+libKF5Prison5
 libKF5Pty5
 libKF5QuickAddons5
 libKF5Runner5
@@ -1400,6 +1402,7 @@ libKF5Style5
 libKF5Su5
 libKF5Syndication5
 libKF5SyntaxHighlighting5
+libKF5SyntaxHighlighting5-lang
 libKF5TextWidgets5
 libKF5ThreadWeaver5
 libKF5Tnef5
@@ -1596,16 +1599,12 @@ libavahi-devel
 libavahi-glib1
 libavahi-gobject0
 libavahi-ui-gtk3-0
-libavc1394-0
-libavcodec56
 libavcodec57
 libavdevice57
 libavfilter6
-libavformat56
 libavformat57
 libavogadro1
 libavresample3
-libavutil54
 libavutil55
 libb64-0
 libbabl-0_1-0
@@ -1654,7 +1653,6 @@ libburn4
 libbz2-1
 libbz2-1-32bit
 libbz2-devel
-libcaca0
 libcacard0
 libcairo-gobject2
 libcairo-script-interpreter2
@@ -1771,14 +1769,12 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
-libdvbpsi10
 libdvdnav4
 libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
-libebml4
 libebook-1_2-16
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2082,6 +2078,7 @@ libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2-32bit
+libjemalloc2
 libjpeg-turbo
 libjpeg62
 libjpeg62-devel
@@ -2177,7 +2174,6 @@ libmagic1
 libmal-devel
 libmal1
 libmarblewidget-qt5-26
-libmatroska6
 libmbim
 libmbim-glib4
 libmeanwhile1
@@ -2282,7 +2278,6 @@ libopenal1
 libopenbabel4
 libopencc2
 libopencv-qt56_3
-libopencv3_1
 libopenjp2-7
 libopenjpeg1
 libopenraw1
@@ -2577,7 +2572,6 @@ libserd-0-0
 libserf-1-1
 libserializer
 libsgutils2-1_43-2
-libshout3
 libsidplay1
 libsigc-2_0-0
 libsignon-glib1
@@ -2641,9 +2635,7 @@ libsuitesparseconfig-4_4_6
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
-libswresample1
 libswresample2
-libswscale3
 libswscale4
 libsystemd0
 libsystemd0-32bit
@@ -2675,6 +2667,7 @@ libthai0-32bit
 libtheora0
 libtheoradec1
 libtheoraenc1
+libthrift-0_9_3
 libthunarx-2-0
 libtiff-devel
 libtiff5
@@ -2703,7 +2696,6 @@ libunique-1_0-0
 libunistring2
 libunistring2-32bit
 libunwind
-libupnp6
 libupower-glib3
 liburcu2
 libusb-0_1-4
@@ -2760,8 +2752,6 @@ libvirt-libs
 libvirt-python
 libvisio-0_1-1
 libvisual
-libvlc5
-libvlccore8
 libvmtools0
 libvncclient0
 libvoikko1
@@ -2965,6 +2955,7 @@ lxtask
 lxtask-lang
 lxterminal
 lxterminal-lang
+lzo-devel
 lzop
 m17n-db
 m4
@@ -3466,7 +3457,7 @@ permissions
 pesign
 pesign-obs-integration
 phalanx
-phonon-backend-vlc
+phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
 php5
@@ -4034,9 +4025,6 @@ virtualbox
 virtualbox-host-kmp-default
 virtualbox-qt
 vlan
-vlc-codec-gstreamer
-vlc-lang
-vlc-noX
 vm-install
 vorbis-tools
 vpnc
