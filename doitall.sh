@@ -38,3 +38,4 @@ git commit -m "auto commit" -a
 echo "all done"
 # git push < /dev/null || true
 
+exit 0
