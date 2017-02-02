@@ -12,8 +12,6 @@ aaa_base
 aaa_base-extras
 adjtimex
 adwaita-icon-theme
-at-spi2-atk-common
-at-spi2-atk-gtk2
 at-spi2-core
 audit
 augeas-lenses
@@ -23,7 +21,7 @@ bash-doc
 bc
 binutils
 blog
-boost-license1_62_0
+boost-license1_63_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
@@ -92,15 +90,6 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
 gstreamer-plugins-base
-gtk2-branding-openSUSE
-gtk2-data
-gtk2-immodule-amharic
-gtk2-immodule-inuktitut
-gtk2-immodule-thai
-gtk2-immodule-vietnamese
-gtk2-metatheme-adwaita
-gtk2-theming-engine-adwaita
-gtk2-tools
 gtk3-branding-openSUSE
 gtk3-data
 gtk3-immodule-amharic
@@ -109,7 +98,15 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
 gtk3-tools
+gtk4-branding-upstream
+gtk4-data
+gtk4-immodule-amharic
+gtk4-immodule-inuktitut
+gtk4-immodule-thai
+gtk4-immodule-vietnamese
+gtk4-lang
 gtk4-schema
+gtk4-tools
 gvfs
 gvfs-backend-afc
 gvfs-backends
@@ -141,6 +138,7 @@ libFLAC8
 libICE6
 libLLVM3_9
 libSM6
+libSPIRV-Tools-1_1
 libX11-6
 libX11-data
 libX11-xcb1
@@ -185,8 +183,8 @@ libavahi-common3
 libavahi-glib1
 libblkid1
 libbluray1
-libboost_system1_62_0
-libboost_thread1_62_0
+libboost_system1_63_0
+libboost_thread1_63_0
 libbtrfs0
 libburn4
 libbz2-1
@@ -254,6 +252,7 @@ libgobject-2_0-0
 libgpg-error0
 libgpgme11
 libgphoto2-6
+libgraphene-1_0-0
 libgraphite2-3
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -263,8 +262,8 @@ libgstreamer-1_0-0
 libgstriff-1_0-0
 libgsttag-1_0-0
 libgstvideo-1_0-0
-libgtk-2_0-0
 libgtk-3-0
+libgtk-4-0
 libgudev-1_0-0
 libharfbuzz-icu0
 libharfbuzz0
@@ -380,6 +379,7 @@ libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvulkan1
 libwayland-client0
 libwayland-cursor0
 libwayland-egl1
@@ -496,7 +496,8 @@ tnftp
 traceroute
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
-typelib-1_0-Gtk-2_0
+typelib-1_0-Graphene-1_0
+typelib-1_0-Gtk-4_0
 typelib-1_0-Pango-1_0
 udev
 udisks2
@@ -506,6 +507,7 @@ util-linux-systemd
 vim
 vim-data
 vorbis-tools
+vulkan
 w3m
 wallpaper-branding-openSUSE
 webkit2gtk-4_0-injected-bundles

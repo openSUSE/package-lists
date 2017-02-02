@@ -46,7 +46,7 @@ bind-utils
 binutils
 blog
 bluez-firmware
-boost-license1_62_0
+boost-license1_63_0
 branding-openSUSE
 btrfsmaintenance
 btrfsprogs
@@ -189,14 +189,20 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
 gtk3-tools
+gtk4-branding-upstream
+gtk4-data
+gtk4-immodule-amharic
+gtk4-immodule-inuktitut
+gtk4-immodule-thai
+gtk4-immodule-vietnamese
 gtk4-schema
+gtk4-tools
 gvfs
 gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
 hardlink
-hdjmod-kmp-default
 hdparm
 hexchat
 hfsutils
@@ -249,6 +255,7 @@ libQt5Widgets5
 libQt5X11Extras5
 libSDL-1_2-0
 libSM6
+libSPIRV-Tools-1_1
 libX11-6
 libX11-data
 libX11-xcb1
@@ -307,8 +314,8 @@ libbind9-140
 libblkid1
 libbluetooth3
 libbluray1
-libboost_system1_62_0
-libboost_thread1_62_0
+libboost_system1_63_0
+libboost_thread1_63_0
 libbtrfs0
 libbz2-1
 libcairo-gobject2
@@ -421,6 +428,7 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgpm2
+libgraphene-1_0-0
 libgraphite2-3
 libgsf-1-114
 libgstapp-1_0-0
@@ -433,6 +441,7 @@ libgstvideo-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
+libgtk-4-0
 libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgudev-1_0-0
@@ -628,6 +637,7 @@ libvorbis0
 libvorbisenc2
 libvorbisfile3
 libvte-2_91-0
+libvulkan1
 libvulkan_intel
 libvulkan_radeon
 libwacom-data
@@ -886,7 +896,6 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
-spice-vdagent
 sssd-wbclient
 strace
 sudo
@@ -917,7 +926,8 @@ tumbler
 tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
-typelib-1_0-Gtk-2_0
+typelib-1_0-Graphene-1_0
+typelib-1_0-Gtk-4_0
 typelib-1_0-Pango-1_0
 ucode-amd
 ucode-intel
@@ -931,11 +941,11 @@ usbutils
 util-linux
 util-linux-systemd
 vaapi-intel-driver
-vhba-kmp-default
 vim
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
 vorbis-tools
+vulkan
 wallpaper-branding-openSUSE
 wget
 which
@@ -962,7 +972,6 @@ xf86-input-mouse
 xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
-xf86-video-amdgpu
 xf86-video-ark
 xf86-video-ast
 xf86-video-ati
@@ -986,7 +995,6 @@ xf86-video-sis
 xf86-video-sisusb
 xf86-video-tdfx
 xf86-video-tga
-xf86-video-trident
 xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware
