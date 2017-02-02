@@ -1,936 +1,2620 @@
-Mesa-libEGL1
-Mesa-libGL1
-Mesa-libglapi0
-Mesa-libva
-PackageKit
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
-PackageKit-gstreamer-plugin
-PackageKit-gtk3-module
-SuSEfirewall2
-aaa_base
-aaa_base-extras
-aaa_base-malloccheck
-acl
-acpica
-adjtimex
-alsa
-alsa-oss
-alsa-plugins
-alsa-plugins-pulse
-alsa-utils
-apparmor-abstractions
-apparmor-parser
-apparmor-profiles
-apparmor-utils
-at-spi2-atk-common
-at-spi2-atk-gtk2
-at-spi2-core
-attr
-audit
-augeas
-augeas-lenses
-autofs
-autoyast2-installation
-bash
-bash-completion
-bind-libs
-bind-utils
-binutils
-boost-license1_54_0
-branding-openSUSE
-btrfsmaintenance
-btrfsprogs
-btrfsprogs-udev-rules
-bzip2
-ca-certificates
-ca-certificates-mozilla
-cantarell-fonts
-checkmedia
-cifs-utils
-command-not-found
-coreutils
-cpio
-cpp
-cpp48
-cpupower
-cracklib
-cracklib-dict-full
-crda
-cron
-cronie
-cryptsetup
-cups-client
-cups-filters-foomatic-rip
-cups-filters-ghostscript
-cups-libs
-cups-pk-helper
-curl
-cyrus-sasl
-cyrus-sasl-crammd5
-cyrus-sasl-digestmd5
-cyrus-sasl-gssapi
-cyrus-sasl-plain
-db48-utils
-dbus-1
-dbus-1-glib
-dbus-1-python
-dbus-1-python3
-dbus-1-x11
-dconf
-dejavu-fonts
-deltarpm
-desktop-data-openSUSE
-device-mapper
-dialog
-diffutils
-dirmngr
-dmidecode
-dmraid
-dmz-icon-theme-cursors
-dosfstools
-dracut
-e2fsprogs
-efibootmgr
-elfutils
-ethtool
-expat
-fdupes
-file
-file-magic
-filesystem
-fillup
-findutils
-fipscheck
-fontconfig
-fonts-config
-fribidi
-fuse
-gamin-server
-gawk
-gcr-data
-gcr-prompter
-gcr-viewer
-gd
-gdk-pixbuf-query-loaders
-genisoimage
-gettext-runtime
-gfxboot
-gfxboot-branding-openSUSE
-ghostscript-fonts-std
-gio-branding-openSUSE
-girepository-1_0
-glib-networking
-glib2-tools
-glibc
-glibc-32bit
-glibc-extra
-glibc-locale-32bit
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
-gnome-keyring
-gnome-keyring-pam
-gnome-online-accounts
-gnu-unifont-bitmap-fonts
-google-opensans-fonts
-google-roboto-fonts
-gpart
-gpg2
-gpm
-gptfdisk
-grep
-groff
-grub2-i386-pc
-grub2-snapper-plugin
-grub2-systemd-sleep-plugin
-grub2-x86_64-efi
-gsettings-backend-dconf
-gsettings-desktop-schemas
-gstreamer
-gstreamer-plugins-base
-gtk2-branding-openSUSE
-gtk2-data
-gtk2-immodule-amharic
-gtk2-immodule-inuktitut
-gtk2-immodule-thai
-gtk2-immodule-vietnamese
-gtk2-metatheme-adwaita
-gtk2-theming-engine-adwaita
-gtk2-tools
-gtk3-branding-openSUSE
-gtk3-data
-gtk3-immodule-amharic
-gtk3-immodule-inuktitut
-gtk3-immodule-thai
-gtk3-immodule-vietnamese
-gtk3-metatheme-adwaita
-gtk3-tools
-gvfs
-gvfs-backend-afc
-gvfs-backend-samba
-gvfs-backends
-gvfs-fuse
-gzip
-hardlink
-hdparm
-hicolor-icon-theme
-hicolor-icon-theme-branding-openSUSE
-hunspell
-hunspell-tools
-hwinfo
-iceauth
-icewm
-icewm-config-upstream
-icewm-default
-ifplugd
-info
-initviocons
-insserv-compat
-intlfonts-euro-bitmap-fonts
-iproute2
-iptables
-iputils
-iscsiuio
-kbd
-kbd-legacy
-keyutils
-klogd
-kmod
-kmod-compat
-kpartx
-krb5
-less
-libFLAC8
-libICE6
-libLLVM
-libQt5Core5
-libQt5DBus5
-libQt5Gui5
-libQt5Network5
-libQt5Widgets5
-libQt5X11Extras5
-libSDL-1_2-0
-libSM6
-libX11-6
-libX11-data
-libX11-xcb1
-libXau6
-libXaw7
-libXcomposite1
-libXcursor1
-libXdamage1
-libXdmcp6
-libXext6
-libXfixes3
-libXfont1
-libXfontcache1
-libXft2
-libXi6
-libXinerama1
-libXmu6
-libXmuu1
-libXpm4
-libXrandr2
-libXrender1
-libXss1
-libXt6
-libXtst6
-libXv1
-libXvnc1
-libXxf86misc1
-libXxf86vm1
-libacl1
-libadns1
-libaio1
-libapparmor1
-libarchive13
-libasm1
-libasound2
-libaspell15
-libassuan0
-libatasmart4
-libatk-1_0-0
-libatk-bridge-2_0-0
-libatm1
-libatspi0
-libattr1
-libaudiofile1
-libaudit1
-libaugeas0
-libauparse0
-libavahi-client3
-libavahi-common3
-libavahi-glib1
-libblkid1
-libbluray1
-libboost_system1_54_0
-libboost_thread1_54_0
-libbtrfs0
-libburn4
-libbz2-1
-libcairo-gobject2
-libcairo2
-libcap-ng0
-libcap2
-libcdda_interface0
-libcdda_paranoia0
-libcdio16
-libcdio_cdda2
-libcdio_paranoia2
-libcloog-isl4
-libcolord2
-libcom_err2
-libcpupower0
-libcrack2
-libcroco-0_6-3
-libcryptsetup4
-libcurl4
-libdaemon0
-libdatrie1
-libdb-4_8
-libdbus-1-3
-libdcerpc-binding0
-libdcerpc0
-libdconf1
-libdialog11
-libdrm2
-libdrm_amdgpu1
-libdrm_intel1
-libdrm_nouveau2
-libdrm_radeon1
-libdw1
-libedit0
-libelf0
-libelf1
-libenchant1
-libepoxy0
-liberation-fonts
-libesd0
-libevdev2
-libevent-2_0-5
-libexif12
-libexpat1
-libext2fs2
-libfam0-gamin
-libfdisk1
-libffi4
-libfftw3-3
-libfipscheck1
-libfltk1
-libfont-specimen0
-libfontenc1
-libfreetype6
-libfuse2
-libgbm1
-libgcc_s1
-libgcc_s1-32bit
-libgck-1-0
-libgck-modules-gnome-keyring
-libgcr-3-1
-libgcrypt20
-libgdata22
-libgdbm4
-libgdk_pixbuf-2_0-0
-libgio-2_0-0
-libgirepository-1_0-1
-libglib-2_0-0
-libgmodule-2_0-0
-libgmp10
-libgnome-keyring0
-libgnutls28
-libgoa-1_0-0
-libgoa-backend-1_0-1
-libgobject-2_0-0
-libgomp1
-libgpg-error0
-libgphoto2-6
-libgraphite2-3
-libgstapp-1_0-0
-libgstaudio-1_0-0
-libgstfft-1_0-0
-libgstpbutils-1_0-0
-libgstreamer-1_0-0
-libgstriff-1_0-0
-libgsttag-1_0-0
-libgstvideo-1_0-0
-libgtk-2_0-0
-libgtk-3-0
-libgudev-1_0-0
-libharfbuzz-icu0
-libharfbuzz0
-libhogweed2
-libhyphen0
-libicu52_1
-libicu52_1-data
-libidn11
-libimobiledevice6
-libinput-udev
-libinput10
-libiptc0
-libisl10
-libisoburn1
-libisofs6
-libiw30
-libjasper1
-libjavascriptcoregtk-4_0-18
-libjbig2
-libjpeg8
-libjson-c2
-libjson-glib-1_0-0
-libkeyutils1
-libkmod2
-libksba8
-liblcms1
-liblcms2-2
-libldap-2_4-2
-libldap-data
-libldapcpp1
-libldb1
-liblockdev1
-libltdl7
-liblua5_1
-liblzma5
-liblzo2-2
-libmagic1
-libmng1
-libmnl0
-libmodman1
-libmount1
-libmozjs-17_0
-libmpc3
-libmpfr4
-libmtdev1
-libmtp-udev
-libmtp9
-libncurses5
-libncurses6
-libndr-krb5pac0
-libndr-nbt0
-libndr-standard0
-libndr0
-libnetapi0
-libnetfilter_conntrack3
-libnettle4
-libnfnetlink0
-libnfs8
-libnl-config
-libnl3-200
-libnotify-tools
-libnotify4
-libnsl2
-libntfs-3g84
-libnuma1
-liboauth0
-libogg0
-libopenssl1_0_0
-libopus0
-liborc-0_4-0
-libp11-kit0
-libpackagekit-glib2-18
-libpango-1_0-0
-libparted0
-libpcap1
-libpci3
-libpciaccess0
-libpcre1
-libpcre16-0
-libpipeline1
-libpixman-1-0
-libplist3
-libply-boot-client4
-libply-splash-core4
-libply-splash-graphics4
-libply4
-libpng16-16
-libpolkit0
-libpopt0
-libprocps3
-libproxy1
-libpth20
-libpulse-mainloop-glib0
-libpulse0
-libpython2_7-1_0
-libpython3_4m1_0
-libqrencode3
-libqt5-qtimageformats
-libreadline6
-libreiserfscore0
-librest0
-libruby2_1-2_1
-libsamba-credentials0
-libsamba-errors0
-libsamba-hostconfig0
-libsamba-passdb0
-libsamba-util0
-libsamdb0
-libsamplerate0
-libsasl2-3
-libscg1_0
-libschily1_0
-libseccomp2
-libsecret-1-0
-libselinux1
-libsemanage1
-libsepol1
-libsgutils2-2
-libsmartcols1
-libsmbclient0
-libsmbconf0
-libsmbldap0
-libsmputils1-1
-libsnapper4
-libsndfile1
-libsolv-tools
-libsoup-2_4-1
-libsoxr0
-libspeex1
-libspeexdsp1
-libsqlite3-0
-libssh2-1
-libstdc++6
-libstdc++6-32bit
-libstorage-ruby
-libstorage7
-libsystemd0
-libtalloc2
-libtasn1
-libtasn1-6
-libtdb1
-libtelepathy-glib0
-libtevent-util0
-libtevent0
-libthai-data
-libthai0
-libtheoradec1
-libtheoraenc1
-libtidyp-1_04-0
-libtiff5
-libtirpc-netconfig
-libtirpc3
-libts-1_0-0
-libudev1
-libudisks2-0
-libunwind
-libusb-0_1-4
-libusb-1_0-0
-libusbmuxd4
-libustr-1_0-1
-libutempter0
-libuuid1
-libvdpau_nouveau
-libverto1
-libvisual
-libvorbis0
-libvorbisenc2
-libvpx1
-libwacom-data
-libwacom2
-libwayland-client0
-libwayland-server0
-libwbclient0
-libwebp5
-libwebrtc_audio_processing1
-libwicked-0-6
-libwrap0
-libx86emu1
-libxcb-dri2-0
-libxcb-dri3-0
-libxcb-glx0
-libxcb-icccm4
-libxcb-image0
-libxcb-keysyms1
-libxcb-present0
-libxcb-randr0
-libxcb-render-util0
-libxcb-render0
-libxcb-shape0
-libxcb-shm0
-libxcb-sync1
-libxcb-util1
-libxcb-xfixes0
-libxcb-xinerama0
-libxcb-xkb1
-libxcb1
-libxkbcommon-x11-0
-libxkbcommon0
-libxkbfile1
-libxml2-2
-libxml2-tools
-libxshmfence1
-libxslt1
-libxtables10
-libyaml-0-2
-libyui-ncurses-pkg7
-libyui-ncurses7
-libyui-qt-pkg7
-libyui-qt7
-libyui7
-libz1
-libzio1
-libzypp
-linuxconsoletools
-lockdev
-logrotate
-lsb-release
-lsof
-lsscsi
-luit
-lvm2
-mailx
-man
-master-boot-code
-mdadm
-metatheme-adwaita-common
-mkfontdir
-mkfontscale
-mkisofs
-mozilla-nspr
-mtools
-ncurses-utils
-net-tools
-netcat-openbsd
-netcfg
-nfs-client
-nfsidmap
-notification-daemon
-nscd
-ntfs-3g
-ntfsprogs
-ntp
-numactl
-numlockx
-open-iscsi
-openSUSE-build-key
-openldap2-client
-openslp
-openssh
-openssh-askpass
-openssh-helpers
-openssl
-os-prober
-p11-kit
-p11-kit-tools
-pam
-pam-config
-parallel-printer-support
-parted
-pciutils
-pciutils-ids
-perl
-perl-Bootloader
-perl-Clone
-perl-Config-Crontab
-perl-Crypt-SmbHash
-perl-DBD-SQLite
-perl-DBI
-perl-Data-Dump
-perl-Digest-HMAC
-perl-Digest-MD4
-perl-Digest-SHA1
-perl-Encode-Locale
-perl-File-Listing
-perl-HTML-Parser
-perl-HTML-Tagset
-perl-HTML-Tidy
-perl-HTTP-Cookies
-perl-HTTP-Daemon
-perl-HTTP-Date
-perl-HTTP-Message
-perl-HTTP-Negotiate
-perl-IO-HTML
-perl-IO-Socket-SSL
-perl-LWP-MediaTypes
-perl-LWP-Protocol-https
-perl-MLDBM
-perl-Math-Base-Convert
-perl-Module-Runtime
-perl-Net-DBus
-perl-Net-DNS
-perl-Net-Daemon
-perl-Net-HTTP
-perl-Net-SSLeay
-perl-Params-Util
-perl-Parse-RecDescent
-perl-PlRPC
-perl-RPC-XML
-perl-SQL-Statement
-perl-Term-ReadKey
-perl-Text-Wrapper
-perl-Tie-IxHash
-perl-TimeDate
-perl-URI
-perl-WWW-RobotRules
-perl-X11-Protocol
-perl-X500-DN
-perl-XML-LibXML
-perl-XML-NamespaceSupport
-perl-XML-Parser
-perl-XML-SAX
-perl-XML-SAX-Base
-perl-XML-SAX-Expat
-perl-XML-Simple
-perl-XML-Twig
-perl-XML-XPath
-perl-XML-XPathEngine
-perl-apparmor
-perl-base
-perl-gettext
-perl-libwww-perl
-permissions
-pigz
-pinentry
-pkg-config
-plymouth
-plymouth-dracut
-plymouth-plugin-label-ft
-plymouth-plugin-script
-plymouth-scripts
-polkit
-polkit-default-privs
-postfix
-ppp
-pptp
-procps
-psmisc
-pulseaudio
-pulseaudio-bash-completion
-pulseaudio-esound-compat
-pulseaudio-utils
-pytalloc
-python
-python-base
-python-cffi
-python-configobj
-python-cryptography
-python-decorator
-python-enum34
-python-gobject
-python-gobject-Gdk
-python-gobject-cairo
-python-idna
-python-ipaddress
-python-pyOpenSSL
-python-pyasn1
-python-pycparser
-python-pyudev
-python-six
-python-solv
-python-xml
-python3
-python3-apparmor
-python3-base
-python3-bottle
-python3-cairo
-python3-coverage
-python3-cups
-python3-cupshelpers
-python3-gobject
-python3-gobject-Gdk
-python3-gobject-cairo
-python3-nose
-python3-pip
-python3-py
-python3-pycurl
-python3-requests
-python3-setuptools
-python3-simplejson
-python3-smbc
-recode
-release-notes-openSUSE
-rgb
-rpcbind
-rpm
-rpm-python
-rtkit
-ruby
-ruby-common
-ruby2.1
-ruby2.1-rubygem-abstract_method
-ruby2.1-rubygem-cfa
-ruby2.1-rubygem-cfa_grub2
-ruby2.1-rubygem-cheetah
-ruby2.1-rubygem-fast_gettext-1_2
-ruby2.1-rubygem-gem2rpm
-ruby2.1-rubygem-ruby-augeas
-ruby2.1-rubygem-ruby-dbus
-ruby2.1-stdlib
-s2tc
-s2tc-32bit
-samba-libs
-scout
-sed
-sessreg
-setxkbmap
-sg3_utils
-shadow
-shared-mime-info
-shim
-smp_utils
-snapper
-snapper-zypp-plugin
-sound-theme-freedesktop
-strace
-sudo
-suse-module-tools
-sysconfig
-sysconfig-netconfig
-syslinux
-system-config-printer
-system-config-printer-applet
-system-config-printer-common
-system-config-printer-dbus-service
-systemd
-systemd-bash-completion
-systemd-logger
-systemd-presets-branding-openSUSE
-systemd-sysvinit
-sysvinit-tools
-tar
-tcl
-terminfo-base
-tigervnc
-time
-timezone
-tk
-tnftp
-traceroute
-translation-update
-tuned
-typelib-1_0-Atk-1_0
-typelib-1_0-GdkPixbuf-2_0
-typelib-1_0-GnomeKeyring-1_0
-typelib-1_0-Gtk-3_0
-typelib-1_0-Notify-0_7
-typelib-1_0-PackageKitGlib-1_0
-typelib-1_0-Pango-1_0
-typelib-1_0-Polkit-1_0
-ucode-amd
-ucode-intel
-udev
-udev-configure-printer
-udisks2
-unzip
-unzip-doc
-update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
-update-test-trival
-usbutils
-util-linux
-util-linux-systemd
-vim
-wallpaper-branding-openSUSE
-webkit2gtk-4_0-injected-bundles
-wget
-which
-wicked
-wicked-service
-wireless-regdb
-wireless-tools
-x11-tools
-xauth
-xbitmaps
-xconsole
-xdg-menu
-xdg-utils
-xdm
-xdm-xsession
-xf86-input-evdev
-xf86-input-joystick
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-vmmouse
-xf86-input-void
-xf86-input-wacom
-xf86-video-amdgpu
-xf86-video-fbdev
-xf86-video-nouveau
-xf86-video-vesa
-xhost
-xinetd
-xinit
-xkbcomp
-xkeyboard-config
-xli
-xmessage
-xmodmap
-xorg-x11-Xvnc
-xorg-x11-driver-input
-xorg-x11-driver-video
-xorg-x11-essentials
-xorg-x11-libX11-ccache
-xorg-x11-server
-xorriso
-xprop
-xrandr
-xrdb
-xset
-xsetroot
-xtables-plugins
-xterm
-xz
-yast2
-yast2-add-on
-yast2-apparmor
-yast2-auth-client
-yast2-bootloader
-yast2-control-center
-yast2-control-center-qt
-yast2-core
-yast2-country
-yast2-country-data
-yast2-firewall
-yast2-fonts
-yast2-hardware-detection
-yast2-inetd
-yast2-installation
-yast2-iscsi-client
-yast2-journal
-yast2-ldap
-yast2-mail
-yast2-metapackage-handler
-yast2-network
-yast2-nfs-client
-yast2-nfs-common
-yast2-nis-client
-yast2-ntp-client
-yast2-online-update
-yast2-online-update-frontend
-yast2-packager
-yast2-pam
-yast2-perl-bindings
-yast2-pkg-bindings
-yast2-printer
-yast2-proxy
-yast2-ruby-bindings
-yast2-samba-client
-yast2-samba-server
-yast2-scanner
-yast2-security
-yast2-services-manager
-yast2-slp
-yast2-snapper
-yast2-storage
-yast2-sudo
-yast2-sysconfig
-yast2-trans-stats
-yast2-transfer
-yast2-tune
-yast2-update
-yast2-users
-yast2-vm
-yast2-vpn
-yast2-x11
-yast2-xml
-yast2-ycp-ui-bindings
-yp-tools
-ypbind
-zisofs-tools
-zypp-plugin-python
-zypper
-zypper-aptitude
-zypper-log
+repo openSUSE:Factory-standard-i586 0 solv trees/openSUSE:Factory-standard-i586.solv
+namespace namespace:language(en) @SYSTEM
+namespace namespace:language(de) @SYSTEM
+
+
+# from all-supplements.i586
+
+namespace namespace:filesystem(btrfs) @SYSTEM
+namespace namespace:filesystem(ext2) @SYSTEM
+namespace namespace:filesystem(ext3) @SYSTEM
+namespace namespace:filesystem(ext4) @SYSTEM
+namespace namespace:filesystem(f2fs) @SYSTEM
+namespace namespace:filesystem(fuse) @SYSTEM
+namespace namespace:filesystem(jffs2) @SYSTEM
+namespace namespace:filesystem(jfs) @SYSTEM
+namespace namespace:filesystem(minix) @SYSTEM
+namespace namespace:filesystem(ntfs-3g) @SYSTEM
+namespace namespace:filesystem(reiserfs) @SYSTEM
+namespace namespace:filesystem(squashfs) @SYSTEM
+namespace namespace:filesystem(ubifs) @SYSTEM
+namespace namespace:filesystem(vfat) @SYSTEM
+namespace namespace:filesystem(xfs) @SYSTEM
+namespace namespace:modalias(*:[bs]vnD[Ee][Ll][Ll]*:*)) @SYSTEM
+namespace namespace:modalias(bcma:m04BFid0812rev11cl*) @SYSTEM
+namespace namespace:modalias(bcma:m04BFid0812rev17cl*) @SYSTEM
+namespace namespace:modalias(bcma:m04BFid0812rev18cl*) @SYSTEM
+namespace namespace:modalias(bcma:m04BFid0812rev1Dcl*) @SYSTEM
+namespace namespace:modalias(bcma:m04BFid0812rev1[178]cl*) @SYSTEM
+namespace namespace:modalias(devname:vhba%5Fctl)) @SYSTEM
+namespace namespace:modalias(dmi:*svnDell*) @SYSTEM
+namespace namespace:modalias(dmi:*svnMicrosoftCorporation*pnVirtualMachine*rnVirtualMachine*) @SYSTEM
+namespace namespace:modalias(i2c:cx25840) @SYSTEM
+namespace namespace:modalias(pci:v*d*sv*sd*bc06sc07i00*) @SYSTEM
+namespace namespace:modalias(pci:v00000001d00008168sv*sd00002410bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000007AAd0000004[47]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000030sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000040sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000050sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000054sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000056sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000058sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000059sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000062sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000621sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000622sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000624sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000626sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000628sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000640sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000642sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001000d00000646sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000130[45679ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000131[01235678BCD]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000315[01245]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00003E5[04]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000413[67]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000414[456789AB]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000415[0123456]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004237sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004242sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000433[67]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004437sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000496[67]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004A4[89ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004A5[04]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004B4[89ABC]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004C5[789A]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004C6[467]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004E4[456789AB]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00004E5[012346]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000514[45678CD]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000515[789AE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000546[024]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000554[89ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000555[0124]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000564[ABF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000565[237]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000583[45]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000595[45]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000596[012459]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000597[45]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00005A4[12]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00005A6[12]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00005B6[02345]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00005C6[13]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00005D4[89ACDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00005D5[027]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00005E4[8ABCDF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000660[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000661[0137]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000662[013]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00006631sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000664[01679]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000665[018CDF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000666[03457F]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000670[0123456789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000671[89CDF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000672[0123456789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000673[89E]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000674[0123456789A]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000675[0189BDF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000676[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000677[01289B]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000678[048A]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000679[01289ABEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000067A[01289A]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000067B[0189AE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000067C[0124789ACF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000067DFsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000067E[013789BF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000067FFsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000680[012689]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000681[016789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000682[0123456789ABCDF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000683[015789BDF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000684[01239C]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000685[089]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000688[089ACD]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000689[89BCDE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000068A[0189]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000068B[089AEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000068C[01789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000068D[89AE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000068E[014589]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000068F[1289AE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000690[01237]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000692[0189BF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000693[089]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000710[012345689ABCEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000714[012345679ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000715[123EF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000718[013678ABCDF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000719[36BF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000071C[01234567DE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000071D[2456AE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00007211sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000724[03456789ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000728[0134789BC]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000729[0137]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000072[01]0sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d00007300sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000783[45]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000791[EF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000793Fsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000794[12]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000796[CDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000940[01235ABF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000944[012346ABCE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000945[026ABE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000946[02AB]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000947[AB]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000948[0789AF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000949[0158CEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000094A[013]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000094B[13459]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000094C[013456789BCD]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000950[01456789F]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000951[1579]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000954[012EF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000955[2357F]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000958[0136789ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000959[01356789B]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000095C[0245679CDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000961[0123456]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000964[012345789ABCEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000971[012345]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000980[23456789A]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000983[0123456789ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000985[0123456789ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000987[04567]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000098E4sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000990[013456789ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000991[03789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d0000999[0123456789ABCD]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001002d000099A[024]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001011d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001013d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001022d00007443sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001022d0000746Bsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00008400sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00008420sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00008500sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00008520sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00008600sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00008620sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00008820sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009320sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009388sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009397sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d0000939Asv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009440sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009520sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009525sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009540sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009660sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009750sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009850sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009880sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009910sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001023d00009930sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v0000102Bd*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v0000102Cd*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001039d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v0000105Dd*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000016A[14D]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000020[37]1sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000022[67]1sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d00002300sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000023[12]2sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000024[23]2sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d00002532sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d00002[12]00sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000054[23]2sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000063[12]2sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d00008044sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000080[023]1sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000080[234]0sv*sd*bc02sc00i00*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d00008432sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d000084[34]0sv*sd*bc02sc00i00*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d00008[8C]30sv*sd*bc02sc00i00*) @SYSTEM
+namespace namespace:modalias(pci:v00001077d0000F001sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010C8d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v000010DEd*sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010DEd*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd0000002Bsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd00008129sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd00008136sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd0000816[789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd00008179sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd0000817[1234]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd0000817[678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd0000818Bsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd00008191sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd00008192sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd00008193sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd00008812sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd00008821sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000010ECd0000B723sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v0000117Cd00000030sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001186d00004300sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001186d00004300sv00001186sd00004B10bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001186d00004302sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011ABd00002A0[AC]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011ABd00002A2[4B]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011ABd00002A4[123]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011ABd00002A[34]0sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011ABd00002B36sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011FEd0000004[01234567ABCDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011FEd0000005[012]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011FEd0000006[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000011FEd00000072sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v0000121Ad*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001259d0000C107sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v0000126FD*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v000012D2d*sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000012D2d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v0000139Ad0000000[57]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001414d00005353sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000020sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000021sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000022sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000023sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000024sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000025sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000026sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000002[0123456]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000030sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000031sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000032sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000035sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d00000036sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000003[012567]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000400[0123456789ABCDE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000408[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000440[0123456789ABCDE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000448[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000460[0123456789ABCDE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000468[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000500[0123456789ABCDE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000501[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000508[0123456789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000509[0123456789ABCD]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000540[0123456789ABCDE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000541[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000548[0123456789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000549[0123456789ABCD]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000560[0123456789ABCDE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000561[012345678]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000568[0123456789]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000569[0123456789ABCD]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000600[123456789D]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000601[145]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000640[123456789D]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000641[145]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000660[123456789D]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001425d0000661[145]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001432d00007708sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001432d00007711sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001432d0000772[278]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001432d000077[3456]8sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001462d0000891Asv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014C1d0000000[89]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000163[9ABC]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000163[DEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000164Asv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000164Asv0000103Csd0000310[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000164Csv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000164[EF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d00001650sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000166[23F]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000168[ADE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000016AAsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000016AAsv0000103Csd00003102bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000016ACsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000016A[12459BDEF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000043*sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d00004365sv000014E4sd00004365bc02sc80i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000043A3sv*sd*bc02sc80i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000043B[ABC]sv*sd*bc02sc80i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000043C[345ABC]sv*sd*bc02sc80i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000043D[39]sv*sd*bc02sc80i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d000043E[9CF]sv*sd*bc02sc80i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000440Dsv*sd*bc02sc80i*) @SYSTEM
+namespace namespace:modalias(pci:v000014E4d0000AA52sv*sd*bc02sc80i*) @SYSTEM
+namespace namespace:modalias(pci:v000014F1d00005B7Asv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015ADd*sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015ADd*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001000sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001001sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001002sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001003sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001004sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001005sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001006sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001007sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001008sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001009sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000100Asv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000100Bsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000100Csv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000100Dsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000100Esv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000100Fsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001011sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00001867sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00005A44sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00005E8Csv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006274sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006278sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006282sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006340sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000634Asv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006354sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006368sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006372sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006732sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000673Csv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006746sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006750sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000675Asv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006764sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d0000676Esv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000015B3d00006778sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001657d00000013sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001657d00000014sv*sd*bc02sc00i*) @SYSTEM
+namespace namespace:modalias(pci:v00001657d00000014sv*sd*bc0Csc04i00*) @SYSTEM
+namespace namespace:modalias(pci:v00001657d00000017sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001657d00000022sv*sd*bc02sc00i*) @SYSTEM
+namespace namespace:modalias(pci:v00001657d0000002[123]sv*sd*bc0Csc04i00*) @SYSTEM
+namespace namespace:modalias(pci:v00001657d00000646sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001678d00000100sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001678d00000110sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v0000168Cd0000003[CE]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v0000168Cd0000004[0126]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v0000168Cd0000005[06]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000016ECd00000116sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001737d00001032sv*sd00000024bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d0000030[12]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d00000401sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d00000601sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d00000681sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d000006[08]1sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d00000701sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d00000781sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d000007[08]1sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d0000306[02]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d0000309[012]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d0000359[3F]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d000035[69]2sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d00003[23]90sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d0000536[02]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001814d0000539[02ABF]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001867d00005A44sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001867d00005E8Csv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001867d00006274sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001867d00006278sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001867d00006282sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001A03d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00001A03d000020[01]0sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001A3Bd00001059sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00001B36d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00003D3Dd*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00004040d0000000[12345]sv*sd*bc02sc00i00*) @SYSTEM
+namespace namespace:modalias(pci:v00004040d0000002[45]sv*sd*bc02sc00i00*) @SYSTEM
+namespace namespace:modalias(pci:v00004040d00000100sv*sd*bc02sc00i00*) @SYSTEM
+namespace namespace:modalias(pci:v00005333d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000004[26]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000082sv*sd0000130[145678]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000082sv*sd0000132[168]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000082sv*sd00004820bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000082sv*sd0000C020bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000083sv*sd0000120[56]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000083sv*sd0000122[56]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000083sv*sd0000130[56]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000083sv*sd0000132[56]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000084sv*sd0000121[56]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000084sv*sd0000131[56]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000085sv*sd0000131[168]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000085sv*sd0000C22[08]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000087sv*sd0000130[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000087sv*sd0000132[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000089sv*sd0000131[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000008Asv*sd0000530[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000008Asv*sd0000532[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000008Bsv*sd0000531[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000090sv*sd0000521[156]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000091sv*sd0000520[1567]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000091sv*sd0000522[156]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000010[26A]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000011[26]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000012[26]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000015[2567A]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000016Asv0000152Dsd00008990bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000016[26A]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000040[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000041[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000042[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000435sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000885sv*sd0000130[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000885sv*sd0000132[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000886sv*sd0000131[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000887sv*sd00004[04]62bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000888sv*sd00004262bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000088Esv*sd0000406[0A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000088Esv*sd0000446[0A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000088Esv*sd00004860bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000088Fsv*sd0000426[0A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000088Fsv*sd00005260bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000890sv*sd00004[048]22bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000891sv*sd00004222bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000892sv*sd00000[04]62bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000893sv*sd00000262bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000894sv*sd00000[048]22bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000895sv*sd00000222bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000896sv*sd0000500[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000896sv*sd0000502[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000897sv*sd0000501[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008AEsv*sd0000100[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008AEsv*sd0000102[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008AFsv*sd0000101[57]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000402[0A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000406[02A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000407[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000416[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd00004170bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000446[2A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000447[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd000044[26]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd000045[67]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000486Ebc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd00004870bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd00004A6[CE]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd00004A70bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd00004C[67]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000507[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd00005[17]70bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C02[0A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C06[02A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C07[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C16[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C170bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C360bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C462bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C47[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C4[26]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C5[67]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000C7[67]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B1sv*sd0000CC[67]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B2sv*sd0000426[2A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B2sv*sd0000427[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B2sv*sd000042[26]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B2sv*sd000043[67]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B2sv*sd0000C26[2A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B2sv*sd0000C27[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B2sv*sd0000C2[26]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B2sv*sd0000C370bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd0000006[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd0000007[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd0000017[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd0000047[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd00001[01]70bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd0000806[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd0000807[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd0000817[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B3sv*sd00008[45]70bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B4sv*sd0000027[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B4sv*sd00000370bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B4sv*sd0000827[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000008B4sv*sd00008370bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd00001010bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd0000500[02A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd0000501[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd0000502[0A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd00005090bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd0000510[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd000051[19]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd00005412bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd000054[01]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd000054[29]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd000055[19]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd00005[CF]10bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd0000900[0A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd0000901[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd0000911[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd000094[01]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Asv*sd00009510bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Bsv*sd0000520[02A]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Bsv*sd0000521[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Bsv*sd00005290bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Bsv*sd00005302bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Bsv*sd00005310bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Bsv*sd000092[01]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000095Bsv*sd00009310bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000A0[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000A1[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000A2[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000A84sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000C0[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000C1[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000C2[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000D0[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000D1[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000D2[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00000F3[0123]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv0000103Csd00002741bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000252[0123456789BCD]bc*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000255[01345]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000256[0123567]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000258[123567]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000259[012368]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd000025A0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd000025[78]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000270[12]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000271[12]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000272[12]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000273[12]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000274[12]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000275[1234]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001043sv00008086sd0000276[12]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000104Fsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001132sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000160[26ABDE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000161[26ABDE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000162[26ABDE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000190[26ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000191[26ABDE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000192[1367AB]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000193[2ABD]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001A8[45]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00001D6[0123456789AB]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000022B[0123]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002410sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002420sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002440sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000244Csv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002450sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002480sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000248Csv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024C0sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024CCsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024D0sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd0000000[04]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd0000001[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00000044bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00000050bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00000132bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000001[13]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000001[5F]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00000250bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000008[15]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000009[135]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd0000101[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000010[5B]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00001132bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00001150bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000011[13]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000080[15]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00008132bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00008150bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000081[13]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000090[15]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00009132bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd00009150bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd000091[13]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd0000B0B0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd0000C0[15]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd0000C110bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F3sv*sd0000D0[15B]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F4sv*sd0000[0189]030bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F5sv*sd00000010bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024F6sv*sd00000030bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FBsv*sd00000000bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FBsv*sd000020[15]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FBsv*sd000021[15]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd0000001[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd00000050bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd000001[135]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd000008[15]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd000009[135]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd000010[1D]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd000011[13]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd000080[15]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd000081[13]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000024FDsv*sd00009[01]10bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002526sv*sd000000[0136]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002526sv*sd00001030bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002526sv*sd000014[12]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002562sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002572sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002582sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000258Asv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000258Asv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002592sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002592sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000025A1sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000025[678]2sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002640sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002641sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002670sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002671sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002672sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002673sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002674sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002675sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002676sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002677sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002678sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002679sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000267Asv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000267Bsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000267Csv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000267Dsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000267Esv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000267Fsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000271Bsv*sd00000010bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002720sv*sd00000A10bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002772sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000027A2sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000027AEsv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000027AEsv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000027B8sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000027B9sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000027BDsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000027[7A]2sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000029B2sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000029C2sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000029D2sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000029[789ABCD]2sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002A[014]2sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00002E[012349]2sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000030DCsv*sd00000060bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00003165sv*sd0000401[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00003165sv*sd00004[145]10bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00003165sv*sd00008[01]10bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00003166sv*sd0000421[02]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00003166sv*sd00004310bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d000031DCsv*sd000000[36]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00003577sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00003577sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00003582sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000358Esv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000358[2E]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004222sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004222sv*sd00001005bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004222sv*sd000010[34]4bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004227sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004227sv*sd00001014bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004229sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000422Bsv*sd0000110[18]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000422Bsv*sd0000112[18]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000422Csv*sd0000130[167]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000422Csv*sd0000132[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000422[0134]sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004230sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004232sv*sd0000120[1456]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004232sv*sd0000122[1456]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004232sv*sd0000130[1456]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004232sv*sd0000132[1456]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004235sv*sd0000100[14]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004235sv*sd0000102[14]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004235sv*sd0000110[14]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004235sv*sd0000112[14]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004236sv*sd0000101[14]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004236sv*sd0000111[14]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004237sv*sd0000121[1456]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004237sv*sd0000131[1456]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004238sv*sd0000111[18]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00004239sv*sd0000131[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000423Asv*sd000010[02]1bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000423Bsv*sd00001011bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000423Csv*sd0000120[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000423Csv*sd00001221bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000423Csv*sd0000130[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000423Csv*sd0000132[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000423Dsv*sd0000121[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000423Dsv*sd0000131[16]bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000590[268ABE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000591[23567ABDE]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000592[1367]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000593Bsv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00005A8[45]sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00007121sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00007123sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00007125sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00009DF0sv*sd000000[0136]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00009DF0sv*sd00000[234567A]10bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d00009DF0sv*sd00002[0A]10bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000A001sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000A011sv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000A0[01]1sv*sd*bc03sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000A370sv*sd000000[36]0bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00008086d0000A370sv*sd00001030bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000080EEd0000BEEFsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v000080EEd0000BEEFsv*sd*bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)) @SYSTEM
+namespace namespace:modalias(pci:v00009005d00000410sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00009005d00000412sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00009005d0000041Esv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00009005d0000041Fsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00009005d00000430sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00009005d00000432sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00009005d0000043Esv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00009005d0000043Fsv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v0000EDD8d*sv*sd*bc03sc*i*)) @SYSTEM
+namespace namespace:modalias(pcmcia:m02D0c0448f*fn*pfn*pa*pb*pc*pd*) @SYSTEM
+namespace namespace:modalias(pcmcia:m02D0c0476f*fn*pfn*pa*pb*pc*pd*) @SYSTEM
+namespace namespace:modalias(pcmcia:m02DBc6064f*fn*pfn*pa*pb*pc*pd*) @SYSTEM
+namespace namespace:modalias(pcmcia:m02D[BF]c8103f*fn*pfn*pa*pb*pc*pd*) @SYSTEM
+namespace namespace:modalias(platform:cbe-mic) @SYSTEM
+namespace namespace:modalias(platform:wl12xx) @SYSTEM
+namespace namespace:modalias(platform:wl18xx) @SYSTEM
+namespace namespace:modalias(ps3:8) @SYSTEM
+namespace namespace:modalias(sdio:c*v0271d030[01]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v0271d040[012]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v0271d0418*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02D0d432[49]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02D0d433[0459]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02D0d4345*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02D0d435[46]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02D0dA887*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02D0dA94[CD]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02D0dA962*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02D0dA9A6*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd9105*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd910[34]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd911[69AB]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd911[AB]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd912[9ADE]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd912[AE]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd9136*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd913[569]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd9142*) @SYSTEM
+namespace namespace:modalias(sdio:c*v02DFd914[12]*) @SYSTEM
+namespace namespace:modalias(sdio:c*v0303d0100*) @SYSTEM
+namespace namespace:modalias(sdio:c*v041Bd0[23]01*) @SYSTEM
+namespace namespace:modalias(sdio:c*v041Bd9330*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev02*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev04*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev05*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev06*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev07*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev09*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev0A*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev0B*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev0C*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev0D*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev0F*) @SYSTEM
+namespace namespace:modalias(ssb:v4243id0812rev10*) @SYSTEM
+namespace namespace:modalias(usb:v0001p0000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0053p5301d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0303p0100d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v03EBp4102d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v03EBp760[3456]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v03EBp761[347]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v03F0p011Cd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v03F0p1F01d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v03F0p1F02d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v03F0p311Dd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0409p0249d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0409p02B4d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0409p02B6d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v040Dp3801d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p00D[89]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p00E6d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p00E8d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p00F4d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p011[69]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p012Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p0137d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p0148d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p015[08D]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p016Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p017Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p0197d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p01A[28]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p01EEd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p01FDd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p0241d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0411p0253d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0413p60F6d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0413p6A05d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0413p6F0[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v041Bp0[23]01d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v041Bp9330d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v043Ep3101d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v043Ep7A1[23]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v043Ep7A[234]2d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0451p3410d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0451p505[23AF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0451p5152d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0451pF430d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v045Ep00BBd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v045Ep00BCd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v045Ep00BDd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v045Ep00CAd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC00E*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC00F*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC012*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC01B*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC01D*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC01E*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC024*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC025*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC031*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC041*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC501*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC502*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC503*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC504*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC505*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC506*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC508*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC50E*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC702*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v046DpC704*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0471p1236d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0471p200Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0471p200Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0471p209Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0471p20DDd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0471p2104d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0471p2126d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0471p218[012]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0483p2015d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0483p2016d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0489pE02[7C]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0489pE03[6CD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0489pE04[DE]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0489pE05[67F]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0489pE07[68]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0489pE095d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v048Dp900[56]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v048Dp9135d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v048Dp9306d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v049Fp0032d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v04A5p900[01]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v04B3p454[3BC]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04B4p5500d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v04BBp0919d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v04BBp093Dd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04BBp093Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04BBp094Cd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v04BBp094[4578BE]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04BBp0950d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v04C1p009Dd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04C5p1330d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04CAp300[45678BDF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04CAp301[04]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04CAp4605d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04DAp180[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04DAp23F6d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04DAp3904d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04E8p2018d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04E8p4471d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF1d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF7d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF7d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF8d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF8d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF9d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF9d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFFAd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFFAd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFFBd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFFBd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFFCd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFFCd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF[256]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF[789ABC]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v04F2pAFF[789ABC]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0506p0A01d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp0050d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp1004d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp1004d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp1102d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp1102d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp11F1d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp11F2d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp11[0F]2d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp1[01]03d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp2102d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp2102d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp2103d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp2103d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp210[23]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp705Cd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp705[0A]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp805[3C]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp815Cd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp815Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp825[AB]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp905[BC]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp935[AB]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp945Bd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp[12]102d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v050Dp[89]45Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v055DpA000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v057Cp2200d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v057Cp8403d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v057Cp840[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v057Cp8501d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0586p340[129F]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0586p3415d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0586p3417d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0586p341Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0586p341Fd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0586p341[023]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0586p341[68AE]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0586p3421d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0586p343Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0592p0002d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v05A3p8388d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v05A6p0101d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v05B8p0000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v05BAp0007d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v05BAp000Ad*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v05CCp335[0123]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v05CCp336[23]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v05D8p810Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v05DDpFF31d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0602p1001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0665p5161d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v066Bp2211d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v067Bp2303d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0681p001Bd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v069Ap032[01]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v069Ap0821d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v06CDp010[12356789ABCF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06CDp011[0234589ABC]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06CDp012[1A]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06CDp013[15]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06DAp0002d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v06DAp0003d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v06DAp0004d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v06DAp0005d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v06DAp0201d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v06DAp0601d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v06E0p0319d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06E0pF10[89]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06E0pF11[01245]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06F8p*d*dc*dsc*dp*icFFisc*ip*in*)) @SYSTEM
+namespace namespace:modalias(usb:v06F8pE002d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06F8pE033d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06F8pE036d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06F8pE03[124]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v06F8pE03[35]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v06F8pE0[12]0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v072Fp9000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v072Fp9006d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v072Fp90CFd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0769p31F3d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v077Bp2219d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v077Bp2227d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0789p0167d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0789p016Dd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0789p016[234689B]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0789p0170d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v079Bp004Ad*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v079Bp0062d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp002Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp002Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp003[CF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp0047d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp004[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp0051d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp0056d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp0056d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v07AAp7613d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p2[78]70d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p307[01234]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p6001d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p8178d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p8178d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p8188d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p8189d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p8189d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p818[89]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07B8p81[78]8d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07B8pB000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v07B8pB21[BCDEF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CAp033[57]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CAp0825d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CAp1835d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CAp1867d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CApA110d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CApA807d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CApA835d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CApA867d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CApB568d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CApB808d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CApB835d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07CAp[234]835d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07D1p330[0236]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07D1p3A0[78]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07D1p3A0[9F]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07D1p3A10d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07D1p3C0[3467]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07D1p3C0[9ABDEF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07D1p3C10d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07D1p3C1[13567]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v07FAp7712d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0812p3101d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083Ap3501d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v083Ap4505d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v083Ap6618d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083Ap751[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083ApA512d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083ApA618d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083ApA704d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083ApA70[123]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083ApB511d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083ApC512d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083ApF511d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083ApF522d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083Ap[78]522d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v083Ap[BCD]522d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p425[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p430[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p5F0[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9018d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p901[239]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9021d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9021d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9030d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9041d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9041d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9043d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p90[14]0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p90[24]1d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p90[24]1d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0846pF001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846pF001d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0864p410[02]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v08B9p1197d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v08DDp0120d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v08E6p0430d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v08E6p0432d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v08E6p0435d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v08FFp1600d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v08FFp2580d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v08FFp5501d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0925p1234d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0930p021[59C]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0930p022[07]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0930p0A07d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0930p0A08d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v093BpA00[24]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v09AEp0001d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0A5Cp0BDCd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0A5Cp2033d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0A5Cp21E6d0112dcFFdsc01dp01icFFisc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0A5CpBD1[7EF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0A5CpBD27d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0ACEp121[15]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0ACEp1221d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0ACEp2011d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0ACEp20FFd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p166Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p170Cd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p171Bd*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p171Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p172[34]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p173[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p173[6F]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p1742d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p176[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p1779d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p1784d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p1786d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p1791d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p179[0D]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17ABd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17ABd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17A[7D]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17BAd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17BAd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17BCd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17D0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17D3d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B05p17E8d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0B3Bp1612d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0B3Bp[15]630d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0BAFp00F[1256789A]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BAFp0121d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp018Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp1E1Ed*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp2E2Ed*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp317Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp317Fd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp5077d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp5088d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp5088d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8170d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8170d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8176d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8176d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8177d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8177d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8178d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8178d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Ad*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Bd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Bd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Dd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Ed*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817Fd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817[0678ABCDEF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817[0678ABDEF]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817[1234]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp817[CD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp818[6A]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp818[AB]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8191d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8191d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8192d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp819Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp819[1A]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp871[23]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8724d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp8754d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDApB720d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0BDApC512d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0BDAp[01]724d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0C4Bp0100d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0C4Bp0300d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0C4Bp0400d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0C4Bp0401d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0C4Bp0500d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0C4Bp0501d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0CCDp005[8A]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CCDp006[02]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CCDp0078d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CCDp0081d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CCDp009[39]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CCDp00AAd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CCDp00ABd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CCDp10A[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CDEp0001d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0CDEp001Cd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CDEp001[23]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CDEp002[25]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CDEp002[367]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF2p6250d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p000[123456]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p0036d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p1006d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p100[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p101[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p20FFd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p300[0248]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p311[DEF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p3121d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p701[05]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p817[AB]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p9170d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p9271d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3p937[45]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3pB00[23]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3pE00[3456]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0CF3pE019d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0D5CpA00[12]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0D8Ep71[01]0d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0D8Ep780[123]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0D8Ep781[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p1020d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p382[012]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p387[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p4600d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p687[47]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p6899d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p822[BC]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p82[12]Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p871[BC]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p87[01]Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0p899Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0pA861d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DB0pA874d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DC3p0802d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0DC3p1104d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0DC3p1701d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0DC3p1702d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0017d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p002[47F]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p002[BCD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p003[9BCDEF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p004[01278AD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p004[59BC]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0052d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0052d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p005Cd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p005Cd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p005[013F]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p005[2C]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p005[2C]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p005[789BD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0061d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0061d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p006[0256789AEF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p006[34C]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0070d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0070d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0077d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p0078d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p007[07]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p907[15]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p90ACd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0DF6p9712d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0E0Bp90[34]1d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0E66p000[139B]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0E66p0019d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0E66p0019d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0E66p001[378]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0E66p001[56]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0E66p0020d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0E66p002[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0E8Dp760[AB]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0EB0p9021d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0EB0p9061d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0EB0p9071d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0EB0p9071d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v0EB1p666[68]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0F03p0001d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0FD9p0011d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0FD9p002[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0FD9p003Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0FE9pB307d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v100Dp903[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1039p210[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1039p211[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1039p212[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1039p213[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v103Cp1629d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v103Cp1629d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v1044p700[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1044p8003d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1044p800[8A]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1044p800[BCD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1058p0631d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v10ACp0102d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1BB[24]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1E14d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1E6Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1E78d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1E80d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1EB[CE]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1EF0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1F9[08C]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p1FA[08A]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v10B8p238[34]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v110Ap1131d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v110Ap115[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v110Ap11[13]0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1110p900[01F]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1110p9010d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1110p902[1234]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1110p903[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1110p904[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1162p0300d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1164p0871d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1164p1E[8DF]Cd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1164p1F08d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1164p2EDCd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v126FpA006d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1286p2001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1286p2041d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1286p2042d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v1286p2043d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1286p2044d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v1286p2049d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1286p204[AE]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v1286p2052d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v129Bp160[BC]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v129Bp1828d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v12FDp1001d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1371p0002d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1371p001[34]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1371p5743d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1371p90[23]2d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1385p425[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1385p5F0[0123]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13B1p001Ed*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v13B1p0024d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v13B1p002Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13B1p002[038]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13B1p0039d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13B1p003[1B]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3247d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3262d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3273d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3284d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3304d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p330[57]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p330[69]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p331[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p332[129]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p332[35]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p332[78]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p333[34569]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3340d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p334[012]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p334[689]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3350d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3357d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3357d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p335[789]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p335[89]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3362d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3365d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3375d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3399d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p339[35]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p340[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p340[28]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3423d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p343[14]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3474d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3487d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p3490d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v13D3p34[37]2d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1415p0003d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1435p0326d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1435p0711d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1435p0804d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1435p082[6789]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1472p0009d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v147Ep2016d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1482p3C09d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp2573d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp2671d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp2[078]70d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp307[012]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp3370d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp357[23]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp537[02]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp5572d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp760[1ABCD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp8070d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148Fp9021d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v148FpF[13]01d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v14B2p330[012]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v14B2p3C0[6789]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v14B2p3C10d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v14B2p3C1[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v14B2p3C22d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v14B2p3C2[3578C]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v14EApAB13d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v14F0p00C9d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v14F7p0004d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v14F7p0500d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1554p5010d%5B0%2D2%5D*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1554p5010d3%5B0%2D9A%2DE%5D*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1554p5010d3F00dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v157Ep300Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v157Ep300[67]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v157Ep300[BD]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v157Ep3013d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v157Ep3204d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v157Ep320[56]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1582p6003d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1584p6003d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v15A4p100[0123]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v15A4p9035d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v15A9p0004d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v15A9p0006d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v15A9p001[02]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v15C5p0008d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v160Ap3184d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1631pC019d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1660p1921d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1668p1200d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1668p7605d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v167Bp4001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v168Cp000[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1690p071[0123]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1690p0722d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1690p074[04]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1690p0752d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1690p076[14]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v16ABp780[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v16ABp781[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1737p007[01789]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1740p060[025]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1740p0615d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1740p2000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1740p3701d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1740p7100d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1740p960[35]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1740p970[12356789]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1740p9801d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1761p0B05d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v177Fp0154d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v177Fp016[45]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v177Fp01[56]3d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v177Fp0254d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v177Fp0302d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v177Fp0324d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v177Fp03[12]3d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v178Dp02BEd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v185Bp1E78d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v185Bp1E80d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v18C5p0002d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v18C5p0008d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v18C5p0012d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v18E8p6196d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v18E8p6229d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v18E8p6238d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v18E8p6259d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1915p2233d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1943p225[57]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1943pA250d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1A32p0304d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1A61p34[12]0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1B75p307[012]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1B75p7318d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1B75p7733d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1B75p9170d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1B75pA200d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1B80pE409d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1B80pE41[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1D4Dp000[2CE]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1D4Dp001[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1E59p0002d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1EDAp2012d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v1EDAp2[23]10d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3200d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3306d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3307d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3307d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3308d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3308d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3309d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3309d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2001p330Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p330Dd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p330[789AB]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2001p330[789AD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p330[AB]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3317d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3A0[012345]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3C1[579ABCDEF]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3C2[01235]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2001p3D04d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2013p024[58]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2013p025Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2013p025[CD]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2013p0262d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2013p1FAAd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019p1201d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019p1201d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2019p3220d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2019p4901d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019p4902d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019p4902d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2019p5201d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019p5304d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB01d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB28d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2Ad*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2Bd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2Bd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2Ed*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2[459]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2[ABE]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB2[ABE]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2019pAB50d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pED06d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pED17d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pED17d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v2019pED19d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2019pED1[68]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v203Dp1480d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v203Dp14A[19]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2040p5200d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2040p70[5678]0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2040p8400d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2040p9580d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2040p9941d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2040p9950d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2040pB2[01]0d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2040pF900d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v20B8p8888d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v20F4p624Dd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v20F4p624Dd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v20F4p646Bd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v20F4p648Bd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v20F4p648Bd*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v20F4p724Ad*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2304p022[89CE]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2304p023[67ABDE]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2304p024[358]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2357p0100d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2357p010[09]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v25D4p4CA[1B]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2717p4106d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2955p[01]001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2A5Fp1000d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v4855p0090d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v4855p0090d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v4855p0091d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v4855p0091d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v4855p009[01]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v4855p009[01]d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v4856p0091d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v4856p0091d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v5A57p028[0234]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v5A57p5257d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v6891pA727d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v6933p5001d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7167p3840d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p4085d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p761[12]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7622d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7710d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p771[178]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7722d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7733d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7811d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7811d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7822d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7822d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:v7392p7[36]18d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v8086p018[012678]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v8086p0200d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v8086p140[356]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v8087p07D[679]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v8516p2[078]70d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v8516p307[012]d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v8516p3572d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v9846p9041d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:vCACEp0300d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:vCDABp8010d*dc*dsc*dp*icFFiscFFipFFin*) @SYSTEM
+namespace namespace:modalias(usb:vF201p5370d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:vFFFFp0000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(virtio:d00000003v*)) @SYSTEM
+namespace namespace:modalias(virtio:d00000004v*) @SYSTEM
+namespace namespace:modalias(x86cpu:vendor%3A0000%3Afamily%3A*%3Amodel%3A*%3Afeature%3A*) @SYSTEM
+namespace namespace:modalias(x86cpu:vendor%3A0002%3Afamily%3A*%3Amodel%3A*%3Afeature%3A*) @SYSTEM
+namespace namespace:modalias(pci:v000014F1d00008802sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00004444d00000016sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(pci:v00004444d00000803sv*sd*bc*sc*i*) @SYSTEM
+namespace namespace:modalias(usb:v1164p0602d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v1164p0622d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v11BAp1001d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v11BAp1003d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2040p2400d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2040p2900d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2040p2950d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2040p7300d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2040p7500d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2040p7501d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+# end all-supplements.i586
+
+
+
+job lock name oxygen-icon-theme-scalable
+job lock name spamassassin
+job lock name gutenprint
+job lock name rdesktop
+job lock name gimp
+job lock name ufraw
+
+# SLE themes 
+job install name branding-openSUSE
+job lock name gnome-menus-branding-SLED
+job lock name gtk2-branding-SLED
+job lock name gtk2-theme-SLED
+
+
+# from ignore_opensuse-bundle-gnome
+
+job lock name bundle-lang-gnome-ar
+job lock name bundle-lang-gnome-ca
+job lock name bundle-lang-gnome-cs
+job lock name bundle-lang-gnome-da
+job lock name bundle-lang-gnome-de
+job lock name bundle-lang-gnome-en
+job lock name bundle-lang-gnome-el
+job lock name bundle-lang-gnome-es
+job lock name bundle-lang-gnome-fi
+job lock name bundle-lang-gnome-fr
+job lock name bundle-lang-gnome-hu
+job lock name bundle-lang-gnome-it
+job lock name bundle-lang-gnome-ja
+job lock name bundle-lang-gnome-ko
+job lock name bundle-lang-gnome-nb
+job lock name bundle-lang-gnome-nl
+job lock name bundle-lang-gnome-pl
+job lock name bundle-lang-gnome-pt
+job lock name bundle-lang-gnome-ru
+job lock name bundle-lang-gnome-sv
+job lock name bundle-lang-gnome-zh
+
+# end ignore_opensuse-bundle-gnome
+
+
+job lock name compiz-kde
+job lock name gtk2-engines-32bit
+job lock name kde3-i18n-de
+job lock name vim-data
+job lock name java-1_7_0-openjdk
+job lock name gimp
+job lock name netpbm
+
+job lock name gnome-icon-theme-extras
+job lock name gnome-icon-theme-symbolic
+job lock name patterns-openSUSE-yast2_basis
+
+job lock name PackageKit
+job lock name zeitgeist
+
+job lock name ghostscript
+job lock name cups
+job lock name pullin-flash-player
+job lock name pullin-fluendo-mp3
+job lock name patterns-openSUSE-apparmor
+job install name yast2-country
+job install name yast2-trans-stats
+job lock name python3-base
+job lock name samba-libs
+
+# live-installer has been dropped - 2016-05-17 - dimstar
+#job install name yast2-live-installer
+
+# the live isos are still based on gfxboot
+job install name gfxboot
+
+
+# from ignore_opensuse
+
+# SLE themes 
+job lock name gnome-menus-branding-SLED
+job lock name bootsplash-branding-SLED
+job lock name bootsplash-branding-SLES
+job lock name gfxboot-branding-SLED
+job lock name gfxboot-branding-SLES
+job lock name gtk2-branding-SLED
+job lock name gtk2-theme-SLED
+job lock name gimp-branding-SLED
+job lock name OpenOffice_org-branding-SLED
+job lock name gnome-session-branding-upstream
+job lock name glib2-branding-SLED
+job lock name glib2-branding-SLES
+job lock name yast2-registration-branding-SLE
+job lock name desktop-data-SLED
+job lock name install-initrd-branding-SLED
+job lock name install-initrd-branding-SLES
+job lock name compiz-branding-SLE
+job lock name yast2-branding-SLED
+job lock name yast2-theme-SLE
+job lock name yast2-branding-SLES
+# java is openjdk 
+job lock name java-1_5_0-sun
+job lock name java-1_6_0-sun
+job lock name java-1_7_0-openjdk-headless
+# For now, the only java version we want is 1.8
+job lock name java-1_9_0-openjdk-headless
+job lock name linphone
+# non-oss 
+job lock name poppler-data
+# pulled in by patch 
+job lock name fetchmsfonts
+# just too big 
+job lock name python-wxGTK-doc
+job lock name boost-doc
+job lock name ghostscript-omni
+job lock name kde3-i18n-de-doc
+job lock name kde3-i18n-sv
+# unwanted kernel flavors 
+job lock name kernel-trace-base
+job lock name kernel-debug-base
+job lock name ghostscript-mini
+job lock name libcdio7-mini
+job lock name libunbound-devel-mini
+job lock name Novell-ricoh-fonts
+job lock name ghostscript-mini
+job lock name libgcc41
+job lock name vdr-internal
+job lock name libffi41
+job lock name antlr-bootstrap
+job lock name libstdc++41
+job lock name release-notes-dc
+job lock name release-notes-as
+job lock name release-notes-mono
+job lock name java-1_7_0-icedtea
+job lock name opensuse-manuals_ru
+job lock name kernel-debug
+job lock name java-1_5_0-sun
+job lock name kde4-kdm-branding-upstream
+job lock name libdvdnav
+job lock name dummy-release
+job lock name libgcc42-32bit
+job lock name libgcc42
+job lock name libstdc++42
+job lock name libstdc++41-32bit
+job lock name libstdc++42-32bit
+job lock name libstdc++43-32bit
+job lock name libstdc++43
+job lock name libgcc43
+job lock name libgcc43-32bit
+job lock name libgomp43
+job lock name libstdc++44-32bit
+job lock name libstdc++44
+job lock name libgcc44
+job lock name libgomp44
+job lock name libstdc++45-32bit
+job lock name libstdc++45
+job lock name libgcc45
+job lock name libgomp45
+job lock name gtk2-branding-upstream
+job lock name gtk3-branding-upstream
+job lock name glib2-branding-upstream
+job lock name libgarcon-branding-upstream
+# FTP only 
+job lock name tin
+# KDE3 is not needed 
+job lock name kde3-i18n-cs
+job lock name kde3-i18n-da
+job lock name kde3-i18n-de
+job lock name kde3-i18n-en_GB
+job lock name kde3-i18n-es
+job lock name kde3-i18n-fi
+job lock name kde3-i18n-fr
+job lock name kde3-i18n-hu
+job lock name kde3-i18n-it
+job lock name kde3-i18n-ja
+job lock name kde3-i18n-nb
+job lock name kde3-i18n-nl
+job lock name kde3-i18n-pl
+job lock name kde3-i18n-pt
+job lock name kde3-i18n-pt_BR
+job lock name kde3-i18n-ru
+job lock name kde3-i18n-zh_CN
+job lock name kde3-i18n-zh_TW
+job lock name kde3-i18n-af
+job lock name kde3-i18n-ar
+job lock name kde3-i18n-az
+job lock name kde3-i18n-be
+job lock name kde3-i18n-bg
+job lock name kde3-i18n-bn
+job lock name kde3-i18n-br
+job lock name kde3-i18n-bs
+job lock name kde3-i18n-ca
+job lock name kde3-i18n-csb
+job lock name kde3-i18n-cy
+job lock name kde3-i18n-el
+job lock name kde3-i18n-eo
+job lock name kde3-i18n-et
+job lock name kde3-i18n-eu
+job lock name kde3-i18n-fa
+job lock name kde3-i18n-fy
+job lock name kde3-i18n-ga
+job lock name kde3-i18n-gl
+job lock name kde3-i18n-he
+job lock name kde3-i18n-hi
+job lock name kde3-i18n-hr
+job lock name kde3-i18n-is
+job lock name kde3-i18n-kk
+job lock name kde3-i18n-km
+job lock name kde3-i18n-ko
+job lock name kde3-i18n-lt
+job lock name kde3-i18n-lv
+job lock name kde3-i18n-mk
+job lock name kde3-i18n-mn
+job lock name kde3-i18n-ms
+job lock name kde3-i18n-nds
+job lock name kde3-i18n-nn
+job lock name kde3-i18n-pa
+job lock name kde3-i18n-ro
+job lock name kde3-i18n-rw
+job lock name kde3-i18n-se
+job lock name kde3-i18n-sk
+job lock name kde3-i18n-sl
+job lock name kde3-i18n-sr
+job lock name kde3-i18n-srLatn
+job lock name kde3-i18n-ss
+job lock name kde3-i18n-ta
+job lock name kde3-i18n-te
+job lock name kde3-i18n-tg
+job lock name kde3-i18n-th
+job lock name kde3-i18n-tr
+job lock name kde3-i18n-uk
+job lock name kde3-i18n-uz
+job lock name kde3-i18n-uzcyrillic
+job lock name kde3-i18n-vi
+job lock name kde3-i18n-wa
+job lock name kdebase3-workspace
+# old names 
+job lock name opensuse-manual_de
+job lock name opensuse-manual_en
+job lock name texlive-notnow
+job lock name bundle-lang-gnome-extras-ar
+job lock name bundle-lang-gnome-extras-ca
+job lock name bundle-lang-gnome-extras-ko
+job lock name bundle-lang-gnome-ar
+job lock name bundle-lang-gnome-ca
+job lock name bundle-lang-gnome-ko
+job lock name bundle-lang-kde-ar
+job lock name bundle-lang-kde-ca
+job lock name bundle-lang-kde-ko
+
+job lock name xerces-j2-bootstrap
+job lock name xml-commons-apis-bootstrap
+job lock name xml-commons-resolver-bootstrap
+job lock name xml-commons-which-bootstrap
+
+job lock name glib2-branding-Moblin
+job lock name gnome-menus-branding-Moblin
+job lock name gtk2-branding-Moblin
+
+job lock name kdelibs4-branding-upstream
+job lock name xfce4-panel-branding-upstream
+job lock name xfce4-settings-branding-upstream
+job lock name xfce4-notifyd-branding-upstream
+job lock name glib2-branding-SLED
+job lock name gdm-branding-upstream
+job lock name gfxboot-branding-KDE
+job lock name epiphany-branding-SLED
+job lock name gtk3-branding-SLED
+
+job lock name kdeartwork4-wallpapers
+job lock name mozilla-xulrunner192
+job lock name qt3
+job lock name kdebase3-ksysguardd
+job lock name kernel-default-base
+job lock name kernel-desktop-base
+job lock name kernel-pae-base
+job lock name xfdesktop-branding-upstream
+job lock name gnome-menus-legacy-branding-upstream
+job lock name PackageKit-branding-upstream
+job lock name gfxboot-branding-upstream
+job lock name midori-branding-upstream
+job lock name kdebase4-workspace-branding-upstream
+job lock name libxfce4ui-branding-upstream
+
+job lock name xfce4-settings-branding-upstream
+job lock name kdm-branding-upstream
+job lock name libpoppler19
+
+job lock name glibc-devel-32bit
+job lock name libstdc++47-devel-32bit
+job lock name ncurses-devel-32bit
+job lock name binutils-devel-32bit
+job lock name avogadro-devel-32bit
+
+job lock name module-init-tools
+
+job lock name libstdc++6-gcc49
+job lock name libstdc++6-gcc49-locale
+job lock name libgcc_s1-gcc49-32bit
+job lock name libstdc++6-gcc49-32bit
+
+job lock name gettext-runtime-mini
+job lock name log4j-mini
+job lock name tightvnc
+
+job lock name ghc-HTTP
+
+job lock name python-matplotlib
+job lock name ruby2.1
+
+# from non_ftp_packages
+
+job lock name openSUSE-images
+job lock name openSUSE-driverupdate
+job lock name desktop-data-SLED
+job lock name desktop-data-SLED-extra-gnome
+job lock name desktop-data-SLES-extra-gnome
+job lock name epiphany-branding-SLED
+job lock name gconf2-branding-SLED
+job lock name gconf2-branding-SLES
+job lock name gfxboot-branding-SLED
+job lock name gfxboot-branding-SLES
+job lock name gimp-branding-SLED
+job lock name glib2-branding-SLED
+job lock name glib2-branding-SLES
+job lock name gnome-menus-branding-SLED
+job lock name gtk2-branding-SLED
+job lock name gtk2-theme-SLED
+job lock name MozillaFirefox-branding-SLED
+job lock name OpenOffice_org-branding-SLED
+job lock name splashy-branding-SLED
+job lock name yast2-registration-branding-SLE
+job lock name bootdisk
+job lock name bootpmac
+job lock name cpq_etk
+job lock name i386-rescue
+job lock name installation-images
+job lock name installation-images-openSUSE
+job lock name installation-images-openSUSE-debuginfo
+job lock name installation-images-extras
+job lock name instlux
+job lock name instlux-local
+job lock name instlux-net
+job lock name skelcd
+job lock name skelcd-control-openSUSE
+job lock name skelcd-control-openSUSE-LangAddOn
+job lock name skelcd-debuginfo
+job lock name skelcd-openSUSE
+job lock name yast2-slide-show
+job lock name yast2-slide-show-SuSELinux
+job lock name yast2-all-packages
+job lock name libmicro-ctcs-glue
+job lock name bonnie-ctcs2-glue
+job lock name sysbench-ctcs-glue
+job lock name policycoreutils-gui
+job lock name enchant-zemberek
+job lock name dummy-release
+job lock name compiz-branding-SLE
+job lock name sle-sdk-release-sp
+job lock name sled-release-sp
+job lock name sles-release-sp
+job lock name sle-sdk-release
+job lock name openSUSE-Addon-Lang-release
+job lock name openSUSE-Addon-Lang-release-cd
+job lock name openSUSE-OSP-release
+job lock name openSUSE-OSP-release-dvd-promo
+job lock name openSUSE-Addon-NonOss-release
+job lock name openSUSE-Addon-NonOss-release-biarch
+job lock name openSUSE-Addon-NonOss-release-ftp
+job lock name openSUSE-Addon-NonOss-release-addon-nonoss
+job lock name openSUSE-LiveCD-release
+job lock name openSUSE-LiveCD-release-livecd-gnome
+job lock name openSUSE-LiveCD-release-livecd-kde
+job lock name openSUSE-Promo-release
+job lock name openSUSE-Promo-release-promodvd
+job lock name openSUSE-Addon-NonOss-release-ppc
+job lock name skelcd-openSUSE-non-OSS
+job lock name promo-dvd-parts
+job lock name kiwi-promo-dvd-parts
+job lock name kiwi-profiled-livecd-kde
+job lock name kiwi-profiled-livecd-gnome
+job lock name kiwi-profiled-livecd-gnome-promo
+job lock name kiwi-profiled-livecd-kde-iso
+job lock name kiwi-profiled-livecd-gnome-iso
+job lock name kiwi-image-livecd-kde-promo-part
+job lock name kiwi-image-livecd-gnome-promo-part
+job lock name kiwi-image-livecd-x11-promo-part
+job lock name clicfs-profile-gnome
+job lock name clicfs-profile-kde
+job lock name kiwi-profiled-livecd-x11-iso
+job lock name kiwi-profiled-livecd-x11
+job lock name kiwi-image-livecd-gnome
+job lock name kiwi-image-livecd-kde-unpackaged
+job lock name kiwi-image-livecd-kde-original
+job lock name kiwi-image-livecd-gnome.i586
+job lock name kiwi-image-livecd-gnome.x86_64
+job lock name kiwi-image-livecd-gnome-promo
+job lock name kiwi-image-livecd-gnome-unpackaged
+job lock name kiwi-image-livecd-gnome-original
+job lock name kiwi-image-livecd-kde
+job lock name kiwi-image-livecd-kde.i586
+job lock name kiwi-image-livecd-kde.x86_64
+job lock name kiwi-image-livecd-x11
+job lock name package-lists-openSUSE-X11-cd
+job lock name package-lists-openSUSE-GNOME-cd
+job lock name package-lists-openSUSE-KDE-cd
+job lock name package-lists-openSUSE-images
+job lock name cpp41
+job lock name cpp43
+job lock name cpp47
+job lock name cross-armv5tel-gcc47-icecream-backend
+job lock name cross-armv7hl-gcc47-icecream-backend
+job lock name cross-hppa-gcc47-icecream-backend
+job lock name cross-i386-gcc47-icecream-backend
+job lock name cross-ia64-gcc47-icecream-backend
+job lock name cross-ppc-gcc47-icecream-backend
+job lock name cross-ppc64-gcc47-icecream-backend
+job lock name cross-s390-gcc47-icecream-backend
+job lock name cross-s390x-gcc47-icecream-backend
+job lock name cross-x86_64-gcc47-icecream-backend
+job lock name gcc41
+job lock name gcc41-32bit
+job lock name gcc41-ada
+job lock name gcc41-c++
+job lock name gcc41-fortran
+job lock name gcc41-fortran-32bit
+job lock name gcc41-gij
+job lock name gcc41-gij-32bit
+job lock name gcc41-info
+job lock name gcc41-java
+job lock name gcc41-locale
+job lock name gcc41-obj-c++
+job lock name gcc41-objc
+job lock name gcc41-objc-32bit
+job lock name gcc41-testresults
+job lock name gcc43
+job lock name gcc43-32bit
+job lock name gcc43-ada
+job lock name gcc43-c++
+job lock name gcc43-debugsource
+job lock name gcc43-fortran
+job lock name gcc43-fortran-32bit
+job lock name gcc43-gij
+job lock name gcc43-gij-32bit
+job lock name gcc43-info
+job lock name gcc43-java
+job lock name gcc43-locale
+job lock name gcc43-obj-c++
+job lock name gcc43-objc
+job lock name gcc43-objc-32bit
+job lock name gcc43-testresults
+job lock name gcc47
+job lock name gcc47-32bit
+job lock name gcc47-ada
+job lock name gcc47-ada-32bit
+job lock name gcc47-c++
+job lock name gcc47-debugsource
+job lock name gcc47-fortran
+job lock name gcc47-fortran-32bit
+job lock name gcc47-gij
+job lock name gcc47-gij-32bit
+job lock name gcc47-info
+job lock name gcc47-java
+job lock name gcc47-locale
+job lock name gcc47-obj-c++
+job lock name gcc47-objc
+job lock name gcc47-objc-32bit
+job lock name libada41
+job lock name libada43
+job lock name libada47
+job lock name libada47-32bit
+job lock name libffi4-gcc47
+job lock name libffi4-gcc47-32bit
+job lock name libffi41
+job lock name libffi41-32bit
+job lock name libffi41-devel
+job lock name libffi41-devel-32bit
+job lock name libffi43
+job lock name libffi43-32bit
+job lock name libffi43-debugsource
+job lock name libffi43-devel
+job lock name libffi43-devel-32bit
+job lock name libffi47
+job lock name libffi47-debugsource
+job lock name libffi47-devel
+job lock name libffi47-devel-32bit
+job lock name libgcc33
+job lock name libgcc33-32bit
+job lock name libgcc41
+job lock name libgcc41-32bit
+job lock name libgcc43
+job lock name libgcc43-32bit
+job lock name libgcc_s1-gcc47
+job lock name libgcc_s1-gcc47-32bit
+job lock name libgcj41
+job lock name libgcj41-32bit
+job lock name libgcj41-devel
+job lock name libgcj41-devel-32bit
+job lock name libgcj43
+job lock name libgcj43-32bit
+job lock name libgcj43-devel
+job lock name libgcj43-devel-32bit
+job lock name libgcj43-jar
+job lock name libgcj47
+job lock name libgcj47-32bit
+job lock name libgcj47-debugsource
+job lock name libgcj47-devel
+job lock name libgcj47-devel-32bit
+job lock name libgcj47-jar
+job lock name libgcj_bc1-gcc47
+job lock name libgcj_bc43
+job lock name libgfortran3-gcc47
+job lock name libgfortran3-gcc47-32bit
+job lock name libgfortran41
+job lock name libgfortran41-32bit
+job lock name libgfortran43
+job lock name libgfortran43-32bit
+job lock name libgomp1-gcc47
+job lock name libgomp1-gcc47-32bit
+job lock name libgomp43
+job lock name libgomp43-32bit
+job lock name libmudflap41
+job lock name libmudflap41-32bit
+job lock name libobjc4-gcc47
+job lock name libobjc4-gcc47-32bit
+job lock name libobjc41
+job lock name libobjc41-32bit
+job lock name libobjc43
+job lock name libobjc43-32bit
+job lock name libquadmath0-gcc47
+job lock name libquadmath0-gcc47-32bit
+job lock name libstdc++41
+job lock name libstdc++41-32bit
+job lock name libstdc++41-devel
+job lock name libstdc++41-devel-32bit
+job lock name libstdc++41-doc
+job lock name libstdc++43
+job lock name libstdc++43-32bit
+job lock name libstdc++43-devel
+job lock name libstdc++43-devel-32bit
+job lock name libstdc++43-doc
+job lock name libstdc++47-devel
+job lock name libstdc++47-devel-32bit
+job lock name libstdc++47-doc
+job lock name libstdc++6-gcc47
+job lock name libstdc++6-gcc47-32bit
+job lock name libstdc++6-gcc47-locale
+job lock name cpp45
+job lock name gcc45-32bit
+job lock name gcc45-ada
+job lock name gcc45-ada-32bit
+job lock name gcc45-c++
+job lock name gcc45-fortran-32bit
+job lock name gcc45-fortran
+job lock name gcc45-gij-32bit
+job lock name gcc45-gij
+job lock name gcc45-info
+job lock name gcc45-java
+job lock name gcc45-locale
+job lock name gcc45-objc-32bit
+job lock name gcc45-obj-c++
+job lock name gcc45-objc
+job lock name gcc45
+job lock name gcc45-testresults
+job lock name libada45
+job lock name libffi45-32bit
+job lock name libffi45-devel-32bit
+job lock name libffi45-devel
+job lock name libffi45
+job lock name libgcj_bc45
+job lock name libgcj45-32bit
+job lock name libgcj45-devel-32bit
+job lock name libgcj45-devel
+job lock name libgcj45
+job lock name libgfortran45-32bit
+job lock name libgfortran45
+job lock name libmudflap45-32bit
+job lock name libmudflap45
+job lock name libobjc45-32bit
+job lock name libobjc45
+job lock name libstdc++45
+job lock name libgcj45-jar
+job lock name libstdc++45-devel-32bit
+job lock name libstdc++45-devel
+job lock name libstdc++45-doc
+job lock name libgcc45
+job lock name libgcc45-32bit
+job lock name libstdc++45-32bit
+job lock name libgomp45
+job lock name libgomp45-32bit
+job lock name cpp46
+job lock name gcc46-32bit
+job lock name gcc46-ada
+job lock name gcc46-ada-32bit
+job lock name gcc46-c++
+job lock name gcc46-fortran-32bit
+job lock name gcc46-fortran
+job lock name gcc46-gij-32bit
+job lock name gcc46-gij
+job lock name gcc46-info
+job lock name gcc46-java
+job lock name gcc46-locale
+job lock name gcc46-objc-32bit
+job lock name gcc46-obj-c++
+job lock name gcc46-objc
+job lock name gcc46
+job lock name gcc46-testresults
+job lock name libada46
+job lock name libffi46-32bit
+job lock name libffi46-devel-32bit
+job lock name libffi46-devel
+job lock name libffi46
+job lock name libgcj_bc46
+job lock name libgcj46-32bit
+job lock name libgcj46-devel-32bit
+job lock name libgcj46-devel
+job lock name libgcj46
+job lock name libgfortran46-32bit
+job lock name libgfortran46
+job lock name libmudflap46-32bit
+job lock name libmudflap46
+job lock name libobjc46-32bit
+job lock name libobjc46
+job lock name libstdc++46
+job lock name libgcj46-jar
+job lock name libstdc++46-devel-32bit
+job lock name libstdc++46-devel
+job lock name libstdc++46-doc
+job lock name libgcc46
+job lock name libgcc46-32bit
+job lock name libstdc++46-32bit
+job lock name libgomp46
+job lock name libgomp46-32bit
+job lock name gnome-panel-branding-SLED
+job lock name gtk3-branding-SLED
+job lock name yast2-wagon-control-SLE
+job lock name dbench-ctcs2-glue
+job lock name antlr-bootstrap
+job lock name systemd-mini
+job lock name systemd-mini-bash-completion
+job lock name krb5-mini
+job lock name krb5-mini-devel
+job lock name udev-mini
+job lock name systemd-mini-analyze
+job lock name systemd-mini-devel
+job lock name systemd-mini-sysvinit
+job lock name libudev-mini1
+job lock name libudev-mini-devel
+job lock name java-cup-bootstrap
+job lock name java-1_7_0-openjdk-bootstrap
+job lock name java-1_7_0-openjdk-bootstrap-devel
+job lock name java-1_7_0-openjdk-bootstrap-headless
+job lock name bootsplash-branding-SLED
+job lock name bootsplash-branding-SLES
+job lock name ghostscript-mini
+job lock name ghostscript-mini-devel
+job lock name libcdio++0-mini
+job lock name libcdio-mini-devel
+job lock name libcdio-mini-utils
+job lock name libcdio_cdda0-mini
+job lock name libcdio_paranoia0-mini
+job lock name libudf0-mini
+job lock name yast2-branding-SLED
+job lock name yast2-branding-SLES
+job lock name yast2-slide-show-SLED
+job lock name yast2-slide-show-SLES
+job lock name yast2-theme-SLE
+job lock name yast2-trans-am
+job lock name yast2-trans-be
+job lock name yast2-trans-ms
+job lock name yast2-trans-my
+job lock name yast2-trans-tk
+job lock name sysvinit
+# end non_ftp_packages
+
+
+
+# esound should not be part of default installs - we have pulseaudio compat
+job lock name esound-daemon
+
+# Kiwi still requires cdrkit-cdrtools-compat, so we must lock cdrtools
+#job lock name cdrkit-cdrtools-compat
+# The new package is not ready and does not work
+job lock name cdrtools-cdrkit-compat
+#job lock name genisoimage
+#job lock name cdda2wav
+job lock name mkisofs
+job lock name cdrecord
+job install name cdrkit-cdrtools-compat
+
+# kipi-plugins-geolocation does no longer exist
+job lock name kipi-plugins-geolocation
+
+job lock name libqt5-qtstyleplugins-platformtheme-gtk2
+# end non_ftp_packages
+
+
+
+# from ignore_opensuse-basedon
+
+job lock name bootsplash-branding-basedonopensuse
+job lock name branding-basedonopensuse
+job lock name compiz-branding-basedonopensuse
+job lock name epiphany-branding-basedonopensuse
+job lock name exo-branding-basedonopensuse
+job lock name gconf2-branding-basedonopensuse
+job lock name gdm-branding-basedonopensuse
+job lock name gfxboot-branding-basedonopensuse
+job lock name gimp-branding-basedonopensuse
+job lock name gio-branding-basedonopensuse
+job lock name gnome-menus-branding-basedonopensuse
+job lock name gnome-panel-branding-basedonopensuse
+job lock name gtk2-branding-basedonopensuse
+job lock name gtk3-branding-basedonopensuse
+job lock name hicolor-icon-theme-branding-basedonopensuse
+job lock name install-initrd-branding-basedonopensuse
+job lock name kdebase4-runtime-branding-basedonopensuse
+job lock name kdebase4-workspace-branding-basedonopensuse
+job lock name kdelibs4-branding-basedonopensuse
+job lock name kdm-branding-basedonopensuse
+job lock name kio_sysinfo-branding-basedonopensuse
+job lock name libgarcon-branding-basedonopensuse
+job lock name libpurple-branding-basedonopensuse
+job lock name libreoffice-branding-basedonopensuse
+job lock name libsocialweb-branding-basedonopensuse
+job lock name libxfce4ui-branding-basedonopensuse
+job lock name lxde-common-branding-basedonopensuse
+job lock name MozillaFirefox-branding-basedonopensuse
+job lock name PackageKit-branding-basedonopensuse
+job lock name splashy-branding-basedonopensuse
+job lock name xfce4-notifyd-branding-basedonopensuse
+job lock name xfce4-panel-branding-basedonopensuse
+job lock name xfce4-session-branding-basedonopensuse
+job lock name xfce4-settings-branding-basedonopensuse
+job lock name xfdesktop-branding-basedonopensuse
+job lock name xfwm4-branding-basedonopensuse
+job lock name yast2-branding-basedonopensuse
+job lock name bootsplash-branding-KDE
+
+# end ignore_opensuse-basedon
+
+
+
+# from ignore_opensuse-cds
+
+job lock name apparmor-admin_en
+job lock name apparmor-admin_en-pdf
+job lock name desktop-translations
+job lock name digikamimageplugins-superimpose
+job lock name enscript
+job lock name ft2demos
+job lock name ghostscript-fonts-other-XXX
+job lock name hplip-hpijs
+job lock name ispell
+job lock name ispell-american
+job lock name ispell-brazilian
+job lock name ispell-british
+job lock name ispell-bulgarian
+job lock name ispell-catalan
+job lock name ispell-czech
+job lock name ispell-danish
+job lock name ispell-dutch
+job lock name ispell-esperanto
+job lock name ispell-estonian
+job lock name ispell-finnish
+job lock name ispell-french
+job lock name ispell-german
+job lock name ispell-greek
+job lock name ispell-hungarian
+job lock name ispell-italian
+job lock name ispell-ngerman
+job lock name ispell-norsk
+job lock name ispell-nswiss
+job lock name ispell-polish
+job lock name ispell-portuguese
+job lock name ispell-russian
+job lock name ispell-slovak
+job lock name ispell-slovene
+job lock name ispell-spanish
+job lock name ispell-swedish
+job lock name jarnal
+job lock name java-1_5_0-gcj-compat
+job lock name kdegames4-carddecks-other
+job lock name kdelibs3-doc
+job lock name kdelibs4-icons-scalable
+job lock name man-pages-de
+job lock name man-pages-ru
+job lock name man-pages-it
+job lock name man-pages-es
+job lock name myspell-german
+job lock name myspell-russian
+job lock name myspell-italian
+job lock name myspell-spanish
+job lock name myspell-french
+job lock name myspell-polish
+job lock name nfs-kernel-server
+job lock name notification-daemon-xfce
+job lock name OpenOffice_org-hyphen
+job lock name OpenOffice_org-mailmerge
+job lock name libreoffice-mailmerge
+job lock name OpenOffice_org-math
+job lock name libreoffice-math
+job lock name OpenOffice_org-templates-presentation-layouts
+job lock name OpenOffice_org-templates-de
+job lock name OpenOffice_org-templates-ru
+job lock name OpenOffice_org-templates-en
+job lock name OpenOffice_org-templates-it
+job lock name OpenOffice_org-templates-es
+job lock name libreoffice-templates-presentation-layouts
+job lock name OpenOffice_org-thesaurus-de
+job lock name OpenOffice_org-thesaurus-en
+job lock name OpenOffice_org-thesaurus-en_US
+job lock name OpenOffice_org-thesaurus-ru
+job lock name OpenOffice_org-thesaurus-it
+job lock name OpenOffice_org-thesaurus-es
+job lock name OpenOffice_org-help-de
+job lock name OpenOffice_org-help-ru
+job lock name OpenOffice_org-help-it
+job lock name OpenOffice_org-help-es
+job lock name OpenOffice_org-help-fr
+job lock name OpenOffice_org-help-pl
+job lock name libreoffice-help-de
+job lock name libreoffice-help-ru
+job lock name libreoffice-help-it
+job lock name libreoffice-help-es
+job lock name libreoffice-help-fr
+job lock name libreoffice-help-pl
+job lock name OpenOffice_org-thesaurus-fr
+job lock name OpenOffice_org-thesaurus-pl
+job lock name OpenOffice_org-base
+job lock name libreoffice-filters-optional
+job lock name opensuse-manuals_de
+job lock name opensuse-manuals_en-pdf
+job lock name opensuse-manuals_de-pdf
+job lock name readline-doc
+job lock name RealPlayer
+job lock name smartlink-softmodem
+job lock name xml-commons-apis
+job lock name yast2-theme-openSUSE-Crystal
+job lock name kernel-debug
+job lock name kernel-pae
+job lock name kernel-xen
+job lock name kde3-i18n-de-data
+job lock name kde3-i18n-de-doc
+job lock name kde4-l10n-de-data
+job lock name kde4-l10n-de-doc
+job lock name kde4-l10n-it-data
+job lock name kde4-l10n-it-doc
+job lock name kde4-l10n-es-data
+job lock name kde4-l10n-es-doc
+job lock name kde4-l10n-ru-data
+job lock name kde4-l10n-ru-doc
+job lock name kde4-l10n-fr-data
+job lock name kde4-l10n-fr-doc
+job lock name kde4-l10n-pl-data
+job lock name kde4-l10n-pl-doc
+job lock name perl-doc
+job lock name hpijs-standalone
+job lock name glibc-64bit
+job lock name openSUSE-release-dvd
+job lock name mono-devel
+job lock name libxml2-devel
+job lock name opensuse-gnomequick_de
+job lock name opensuse-kdequick_de
+job lock name graphviz
+job lock name linux-kernel-headers
+job lock name lsb-buildenv
+job lock name libdvdnav
+job lock name bogofilter
+job lock name bash-doc
+job lock name kernel-xen-base
+job lock name gtk2-32bit
+job lock name mozilla-xulrunner190
+job lock name mozilla-xulrunner191
+# lock package="kernel-source"/ 
+# see http://lists.opensuse.org/opensuse-factory/2009-04/msg00090.html 
+job lock name cups-backends
+job lock name ghostscript-omni
+job lock name gutenprint
+job lock name hplip
+job lock name bundle-lang-gnome-extras-ar
+job lock name bundle-lang-gnome-extras-ca
+job lock name bundle-lang-gnome-extras-cs
+job lock name bundle-lang-gnome-extras-da
+job lock name bundle-lang-gnome-extras-de
+job lock name bundle-lang-gnome-extras-en
+job lock name bundle-lang-gnome-extras-es
+job lock name bundle-lang-gnome-extras-fi
+job lock name bundle-lang-gnome-extras-fr
+job lock name bundle-lang-gnome-extras-hu
+job lock name bundle-lang-gnome-extras-it
+job lock name bundle-lang-gnome-extras-ja
+job lock name bundle-lang-gnome-extras-ko
+job lock name bundle-lang-gnome-extras-nb
+job lock name bundle-lang-gnome-extras-nl
+job lock name bundle-lang-gnome-extras-pl
+job lock name bundle-lang-gnome-extras-pt
+job lock name bundle-lang-gnome-extras-ru
+job lock name bundle-lang-gnome-extras-sv
+job lock name bundle-lang-gnome-extras-zh
+job lock name gimp-plugins-python
+job lock name xorg-x11-libX11-32bit
+job lock name patterns-openSUSE-gnome_admin
+job lock name patterns-openSUSE-gnome_multimedia_opt
+job lock name patterns-openSUSE-gnome_imaging_opt
+job lock name patterns-openSUSE-gnome_office_opt
+job lock name patterns-openSUSE-apparmor_opt
+job lock name patterns-openSUSE-enhanced_base_opt
+job lock name patterns-openSUSE-fonts_opt
+job lock name patterns-openSUSE-imaging_opt
+job lock name patterns-openSUSE-kde_utilities_opt
+job lock name patterns-openSUSE-multimedia_opt
+job lock name patterns-openSUSE-non_oss_opt
+job lock name patterns-openSUSE-office_opt
+job lock name patterns-openSUSE-x11_opt
+job lock name patterns-openSUSE-gnome_basis_opt
+job lock name samba-client-32bit
+job lock name libasound2-32bit
+job lock name nss_ldap-32bit
+job lock name nss-mdns-32bit
+job lock name java-1_6_0-openjdk
+job lock name glibc-devel
+job lock name tclXX
+job lock name xorg-x11-fonts
+job lock name hxtools
+job lock name libreoffice-templates-de
+job lock name libreoffice-templates-ru
+job lock name libreoffice-thesaurus-de
+job lock name libreoffice-thesaurus-ru
+job lock name make
+job lock name webyast-base
+job lock name rng-tools
+job lock name pam-32bit
+job lock name kernel-devel
+job lock name dvb
+job lock name exim
+
+job lock name gbrainy
+job lock name mono-core
+
+job lock name libreoffice-base
+job lock name bootsplash-branding-openSUSE
+
+job lock name vim-data
+job lock name libreoffice-templates-en
+job lock name libreoffice-thesaurus-en-US
+job lock name libreoffice-help-en-US
+job lock name netpbm
+job lock name manufacturer-PPDs
+
+# desperate attempt to shrink the X11 CD
+job lock name iso-codes-lang
+
+job lock name tcl
+job lock name p7zip
+
+job lock name intel-gpu-tools
+job lock name hexchat-lang
+
+# This is the list for the Rescue-CD - we really do not need vdpau on it (and we need to save space)
+job lock name Mesa-libva
+job lock name libvdpau_nouveau
+job lock name libvdpau_r300
+job lock name libvdpau_r600
+job lock name libvdpau_radeonsi
+job lock name libvdpau_va_gl1
+
+# We don't have any other of the first-tier languages on the rescue CD
+job lock name aspell-de
+job lock name bundle-lang-common-de
+job lock name bundle-lang-kde-en
+job lock name bundle-lang-kde-ar
+job lock name bundle-lang-kde-ca
+job lock name bundle-lang-kde-cs
+job lock name bundle-lang-kde-da
+job lock name bundle-lang-kde-de
+job lock name bundle-lang-kde-el
+job lock name bundle-lang-kde-es
+job lock name bundle-lang-kde-fi
+job lock name bundle-lang-kde-fr
+job lock name bundle-lang-kde-hu
+job lock name bundle-lang-kde-it
+job lock name bundle-lang-kde-ja
+job lock name bundle-lang-kde-ko
+job lock name bundle-lang-kde-nb
+job lock name bundle-lang-kde-nl
+job lock name bundle-lang-kde-pl
+job lock name bundle-lang-kde-pt
+job lock name bundle-lang-kde-ru
+job lock name bundle-lang-kde-sv
+job lock name bundle-lang-kde-zh
+
+# The Live images don't need any multi-arch capabilities
+job lock name glibc-32bit
+# end ignore_opensuse-cds
+
+
+job install provides pattern() = rest_cd_x11
+job install name openSUSE-release-livecd-x11
+
+job lock name MozillaFirefox-translations-common
+job lock name libjavascriptcoregtk-4_0-18
+
+# We need space - dimstar - 2018-06-18
+job lock name ghostscript-fonts-std
+# The Rescue CD is not installable - there is no need to PW check
+job lock name cracklib-dict-full
+
+# Install yast2 branding until sr#411752 is accepted
+job install name yast2-qt-branding-openSUSE
+
+# The rescue CD exploded in size - there should not really be a need for bi-arch
+job lock name glibc-32bit
+
+job lock name Mesa-dri-nouveau
+job lock name release-notes-openSUSE
+
+job lock name gnome-themes-accessibility
+
+job lock name google-droid-fonts
+job lock name virtualbox-guest-x11
+job lock name libMagickCore-6_Q16-3
+result transaction,problems,recommended <inline>
