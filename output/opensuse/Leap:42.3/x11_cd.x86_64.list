@@ -1,5 +1,4 @@
 Mesa
-Mesa-dri-nouveau
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -27,7 +26,6 @@ alsa
 alsa-firmware
 alsa-oss
 alsa-plugins
-alsa-plugins-pulse
 alsa-utils
 aspell
 aspell-de
@@ -112,6 +110,7 @@ e2fsprogs
 efibootmgr
 elfutils
 elilo
+esound-daemon
 espeak
 ethtool
 exo-tools
@@ -213,7 +212,6 @@ gvfs-backends
 gvfs-fuse
 gzip
 hardlink
-hdjmod-kmp-default
 hdparm
 hexchat
 hfsutils
@@ -233,7 +231,6 @@ insserv-compat
 intel-gpu-tools
 intlfonts-euro-bitmap-fonts
 iproute2
-ipset-kmp-default
 iptables
 iputils
 ipw-firmware
@@ -397,7 +394,6 @@ libfallocate0
 libfam0-gamin
 libfdisk1
 libffi4
-libfftw3-3
 libfipscheck1
 libfltk1
 libfontenc1
@@ -433,7 +429,6 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
-libgomp1
 libgpg-error0
 libgphoto2-6
 libgraphite2-3
@@ -575,7 +570,6 @@ libprocps3
 libproxy1
 libproxy1-networkmanager
 libpth20
-libpulse-mainloop-glib0
 libpulse0
 libpython2_7-1_0
 libqmi-glib1
@@ -618,9 +612,7 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
-libsoxr0
 libspeex1
-libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstartup-notification-1-0
@@ -686,7 +678,6 @@ libwbclient0
 libwebkit2gtk-4_0-37
 libwebkitgtk-1_0-0
 libwebp5
-libwebrtc_audio_processing1
 libwicked-0-6
 libwnck-1-22
 libwrap0
@@ -889,10 +880,6 @@ pptp
 procps
 psmisc
 pullin-bcm43xx-firmware
-pulseaudio
-pulseaudio-bash-completion
-pulseaudio-esound-compat
-pulseaudio-utils
 pytalloc
 python
 python-base
@@ -926,7 +913,6 @@ rpcbind
 rpm
 rpm-python
 rsync
-rtkit
 ruby
 ruby-common
 ruby2.1
@@ -934,7 +920,7 @@ ruby2.1-rubygem-abstract_method
 ruby2.1-rubygem-cfa
 ruby2.1-rubygem-cfa_grub2
 ruby2.1-rubygem-cheetah
-ruby2.1-rubygem-fast_gettext
+ruby2.1-rubygem-fast_gettext-1_2
 ruby2.1-rubygem-gem2rpm
 ruby2.1-rubygem-ruby-augeas
 ruby2.1-rubygem-ruby-dbus
@@ -959,7 +945,6 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
-spice-vdagent
 strace
 sudo
 suse-module-tools
@@ -991,7 +976,7 @@ tumbler
 tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
-typelib-1_0-Gtk-2_0
+typelib-1_0-Gtk-3_0
 typelib-1_0-Pango-1_0
 ucode-amd
 ucode-intel
@@ -1069,7 +1054,6 @@ xf86-video-sis
 xf86-video-sisusb
 xf86-video-tdfx
 xf86-video-tga
-xf86-video-trident
 xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo

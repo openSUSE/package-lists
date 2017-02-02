@@ -63,7 +63,6 @@ dirmngr-lang
 dmz-icon-theme-cursors
 dracut
 elfutils
-exim
 expat
 fdupes
 file
@@ -154,6 +153,7 @@ icewm-default
 icewm-lang
 info
 insserv-compat
+iproute2
 java-1_8_0-openjdk
 java-1_8_0-openjdk-headless
 javapackages-tools
@@ -280,6 +280,7 @@ libelf1
 libenchant1
 libepoxy0
 liberation-fonts
+libestr0
 libetonyek-0_1-1
 libevdev2
 libexif12
@@ -362,6 +363,7 @@ libldap-2_4-2
 libldap-data
 libloader
 liblockdev1
+liblogging0
 liblpsolve55-0
 libltdl7
 liblua5_1
@@ -369,6 +371,7 @@ liblua5_2
 liblzma5
 libmagic1
 libmng1
+libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
@@ -378,7 +381,6 @@ libmtdev1
 libmtp-udev
 libmtp9
 libmwaw-0_3-3
-libmysqlclient18
 libmythes-1_2-0
 libncurses5
 libncurses6
@@ -411,7 +413,6 @@ libpng16-16
 libpolkit0
 libpoppler60
 libpopt0
-libpq5
 libprocps3
 libproxy1
 libproxy1-config-kde
@@ -477,7 +478,6 @@ libsolv-tools
 libsoup-2_4-1
 libsoup-lang
 libspeex1
-libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -544,6 +544,7 @@ libxml2-2
 libxshmfence1
 libxslt-tools
 libxslt1
+libxtables10
 libyaml-0-2
 libyui-ncurses-pkg7
 libyui-ncurses7
@@ -633,6 +634,7 @@ pinentry
 pkg-config
 polkit
 polkit-default-privs
+postfix
 procps
 ptools
 python
@@ -644,13 +646,14 @@ python3-pip
 python3-setuptools
 readline-doc
 rpm
+rsyslog
 ruby
 ruby-common
 ruby2.1
 ruby2.1-rubygem-abstract_method
 ruby2.1-rubygem-cfa
 ruby2.1-rubygem-cheetah
-ruby2.1-rubygem-fast_gettext
+ruby2.1-rubygem-fast_gettext-1_2
 ruby2.1-rubygem-gem2rpm
 ruby2.1-rubygem-ruby-augeas
 ruby2.1-stdlib
@@ -667,6 +670,7 @@ sound-theme-freedesktop
 suse-module-tools
 sysconfig
 sysconfig-netconfig
+syslog-service
 systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
