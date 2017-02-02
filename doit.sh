@@ -134,9 +134,9 @@ for arch in $arches; do
 
         for file in output/opensuse/$proj/*default.$arch.list; do
             for i in adwaita-icon-theme kernel-default libyui-gtk-pkg6 libyui-gtk6 powersave suspend OpenOffice_org-icon-themes smartmontools gtk-lang gimp-lang vte-lang icewm-lite yast2-trans-en_US bundle-lang-common-en opensuse-manual_en bundle-lang-kde-en bundle-lang-gnome-en openSUSE-release openSUSE-release-ftp ault-base kernel-default-extra smolt virtualbox-ose-kmp-default ndiswrapper-kmp-default preload-kmp-default tango-icon-theme oxygen-icon-theme oxygen5-icon-theme-large mono-core marble-data gnome-packagekit Mesa libqt4-x11 gnome-icon-theme xorg-x11-fonts-core ghostscript gio-branding-upstream grub grub2 grub2-branding-openSUSE plymouth-branding-openSUSE kdebase4-workspace-branding-openSUSE kdebase4-workspace libQtWebKit4 opensuse-startup_en glibc-locale kdebase4-runtime cups breeze5-wallpapers yast2-branding-openSUSE libwebkit2gtk-4_0-37 libQt5WebKit5 ; do
-                grep -vx $i $file > t && mv t $file
+                grep -vx $i $file > t.$proj && mv t.$proj $file
         done
-            grep -v patterns-openSUSE $file > t && mv t $file
+            grep -v patterns-openSUSE $file > t.$proj && mv t.$proj $file
         done
         diff -u output/opensuse/$proj/kde4_cd.$arch.list output/opensuse/$proj/kde4_cd-default.$arch.list | grep -v +++ | grep ^+ || true
         diff -u output/opensuse/$proj/gnome_cd.$arch.list output/opensuse/$proj/gnome_cd-default.$arch.list | grep -v +++ | grep ^+ || true
