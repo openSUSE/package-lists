@@ -30,3 +30,11 @@ job install name adobe-sourcecodepro-fonts
 # https://bugzilla.opensuse.org/show_bug.cgi?id=537343
 job install name gnome-keyring-pam-32bit #!i586
 
+# As we need to allow glibc-32bit for above hack, we need to be very
+# selective with what else we allow / block
+
+job lock name sssd-32bit
+job lock name libsamba-util0-32bit
+
+
+
