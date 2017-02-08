@@ -28,5 +28,5 @@ job install name adobe-sourcecodepro-fonts
 # hacked up pam configuration with gkr disabled in the 'auth' section
 # See also https://bugzilla.opensuse.org/show_bug.cgi?id=544314 and
 # https://bugzilla.opensuse.org/show_bug.cgi?id=537343
-job install name gnome-keyring-pam-32bit
+job install name gnome-keyring-pam-32bit [weak]
 
