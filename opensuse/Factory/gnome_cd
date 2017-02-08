@@ -22,3 +22,11 @@ job install provides libyui-qt-pkg
 
 # adobe-sourcecodepro-fonts is the monospace font for openSUSE
 job install name adobe-sourcecodepro-fonts
+
+# Force gnome-keyring-pam-32bit onto the live image so that installs
+# of random stuff do not pull it in later on - the live CD is a 
+# hacked up pam configuration with gkr disabled in the 'auth' section
+# See also https://bugzilla.opensuse.org/show_bug.cgi?id=544314 and
+# https://bugzilla.opensuse.org/show_bug.cgi?id=537343
+job install name gnome-keyring-pam-32bit
+
