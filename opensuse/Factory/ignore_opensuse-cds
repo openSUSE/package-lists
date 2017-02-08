@@ -185,7 +185,8 @@ job lock name libreoffice-thesaurus-ru
 job lock name make
 job lock name webyast-base
 job lock name rng-tools
-job lock name pam-32bit
+# Let's get pam-32bit on the live image if needed
+#job lock name pam-32bit
 job lock name kernel-devel
 job lock name dvb
 job lock name exim
