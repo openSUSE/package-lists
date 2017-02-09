@@ -15,7 +15,6 @@ adjtimex
 alsa
 alsa-oss
 alsa-plugins
-alsa-plugins-pulse
 alsa-utils
 apparmor-abstractions
 apparmor-parser
@@ -241,7 +240,6 @@ libatk-bridge-2_0-0
 libatm1
 libatspi0
 libattr1
-libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
@@ -297,7 +295,6 @@ libelf1
 libenchant1
 libepoxy0
 liberation-fonts
-libesd0
 libevdev2
 libevent-2_0-5
 libexif12
@@ -452,7 +449,6 @@ libpopt0
 libprocps6
 libproxy1
 libpsl5
-libpulse-mainloop-glib0
 libpulse0
 libpwquality1
 libpython2_7-1_0
@@ -487,9 +483,7 @@ libsnapper4
 libsndfile1
 libsolv-tools
 libsoup-2_4-1
-libsoxr0
 libspeex1
-libspeexdsp1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -534,7 +528,6 @@ libwayland-server0
 libwbclient0
 libwebp6
 libwebpdemux2
-libwebrtc_audio_processing1
 libwicked-0-6
 libwrap0
 libx86emu1
@@ -712,10 +705,6 @@ pptp
 procps
 psmisc
 publicsuffix
-pulseaudio
-pulseaudio-bash-completion
-pulseaudio-esound-compat
-pulseaudio-utils
 python
 python-base
 python-configobj
@@ -756,7 +745,6 @@ rgb
 rpcbind
 rpm
 rpm-python
-rtkit
 ruby
 ruby-common
 ruby2.2
