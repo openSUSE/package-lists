@@ -272,6 +272,7 @@ btrfsprogs-udev-rules
 build
 build-mkbaselibs
 build-mkdrpms
+bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -3893,6 +3894,7 @@ patterns-openSUSE-lxde_laptop
 patterns-openSUSE-lxde_office
 patterns-openSUSE-mail_server
 patterns-openSUSE-minimal_base
+patterns-openSUSE-minimal_base-conflicts
 patterns-openSUSE-misc_server
 patterns-openSUSE-multimedia
 patterns-openSUSE-multimedia_opt
