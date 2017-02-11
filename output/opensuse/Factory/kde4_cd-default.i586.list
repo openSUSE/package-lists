@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -20,6 +21,7 @@ accountsservice
 acl
 acpica
 adjtimex
+adwaita-icon-theme
 alsa
 alsa-oss
 alsa-plugins
@@ -63,9 +65,11 @@ breeze5-cursors
 breeze5-decoration
 breeze5-icons
 breeze5-style
+breeze5-wallpapers
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
+bundle-lang-common-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -86,6 +90,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -160,6 +165,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
@@ -173,6 +179,8 @@ gpm
 grantlee5
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -256,6 +264,7 @@ kdelibs4support
 kdenetwork4-filesharing
 kdoctools
 keditbookmarks
+kernel-default
 keyutils
 kfilemetadata5
 kgamma5
@@ -399,6 +408,7 @@ libQt5Svg5
 libQt5Test5
 libQt5WebChannel5
 libQt5WebChannel5-imports
+libQt5WebKit5
 libQt5WebKit5-imports
 libQt5WebKitWidgets5
 libQt5Widgets5
@@ -406,6 +416,7 @@ libQt5X11Extras5
 libQt5Xml5
 libQt5XmlPatterns5
 libQtQuick5
+libQtWebKit4
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -794,6 +805,7 @@ libqt4
 libqt4-qt3support
 libqt4-sql
 libqt4-sql-sqlite
+libqt4-x11
 libqt5-linguist
 libqt5-qdbus
 libqt5-qtbase-platformtheme-gtk3
@@ -1000,6 +1012,8 @@ ntp
 numlockx
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openldap2-client
 openslp
@@ -1018,6 +1032,25 @@ pam-config
 pam-modules
 parallel-printer-support
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-fonts
+patterns-openSUSE-games
+patterns-openSUSE-imaging
+patterns-openSUSE-kde
+patterns-openSUSE-kde_games
+patterns-openSUSE-kde_imaging
+patterns-openSUSE-kde_internet
+patterns-openSUSE-kde_multimedia
+patterns-openSUSE-kde_plasma
+patterns-openSUSE-kde_utilities
+patterns-openSUSE-kde_yast
+patterns-openSUSE-multimedia
+patterns-openSUSE-sw_management
+patterns-openSUSE-sw_management_kde
+patterns-openSUSE-x11
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -1120,6 +1153,7 @@ plasma5-workspace
 plasma5-workspace-branding-openSUSE
 plasma5-workspace-libs
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
@@ -1323,6 +1357,7 @@ xmodmap
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
@@ -1339,6 +1374,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core
