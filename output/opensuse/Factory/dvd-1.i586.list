@@ -471,6 +471,7 @@ dos2unix
 dosbox
 dosfstools
 doxygen
+dpdk-kmp-default
 dracut
 dragonplayer
 dri2proto-devel
@@ -1108,7 +1109,6 @@ kate4-parts
 katomic
 kauth-devel
 kbd
-kbd-legacy
 kblackbox
 kblocks
 kbookmarks-devel
@@ -1566,8 +1566,8 @@ libKGantt2
 libKScreenLocker5
 libLLVM3_9
 libMagick++-6_Q16-7
-libMagickCore-6_Q16-3
-libMagickWand-6_Q16-3
+libMagickCore-6_Q16-4
+libMagickWand-6_Q16-4
 libMathMLSolver0_2
 libOSMesa9
 libOpenCOLLADABaseUtils0_2
@@ -4051,13 +4051,13 @@ postgresql-docs
 postgresql-init
 postgresql-server
 postgresql93-docs
-postgresql94
-postgresql94-contrib
-postgresql94-devel
 postgresql94-docs
-postgresql94-server
 postgresql95-docs
+postgresql96
+postgresql96-contrib
+postgresql96-devel
 postgresql96-docs
+postgresql96-server
 pothana2000-fonts
 powerdevil5
 powertop

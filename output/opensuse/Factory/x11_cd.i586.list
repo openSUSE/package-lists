@@ -228,7 +228,6 @@ iso-codes
 iw
 jfsutils
 kbd
-kbd-legacy
 kernel-default
 kernel-firmware
 keyutils
@@ -244,8 +243,13 @@ lftp
 libFLAC8
 libGLU1
 libHX28
+libHalf12
 libICE6
+libIex-2_2-12
+libIlmImf-2_2-22
+libIlmThread-2_2-12
 libLLVM3_9
+libMagickCore-6_Q16-4
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -387,12 +391,14 @@ libext2fs2
 libfallocate0
 libfdisk1
 libffi4
+libfftw3-3
 libfltk1
 libfontenc1
 libfprint0
 libfreebl3
 libfreetype6
 libfribidi0
+libftgl2
 libfuse2
 libfvalue1
 libgarcon-1-0
@@ -423,6 +429,7 @@ libgnomesu0
 libgnutls30
 libgoa-1_0-0
 libgobject-2_0-0
+libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
@@ -479,6 +486,7 @@ libldap-2_4-2
 libldap-data
 liblightdm-gobject-1-0
 liblockdev1
+liblqr-1-0
 libltdl7
 liblua5_3
 liblvm2app2_2
@@ -809,6 +817,7 @@ perl-Socket6
 perl-Test-Pod
 perl-Test-Pod-Coverage
 perl-TimeDate
+perl-Try-Tiny
 perl-URI
 perl-WWW-RobotRules
 perl-X11-Protocol
@@ -1028,6 +1037,7 @@ xinit
 xkbcomp
 xkeyboard-config
 xli
+xlockmore
 xmessage
 xmodmap
 xorg-x11-driver-input
