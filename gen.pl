@@ -39,7 +39,7 @@ sub read_file_recursively($) {
   return @lines;
 }
 
-open(OUT, ">t");
+open(OUT, ">t.$proj-$repo-$arch");
 print OUT "repo openSUSE:$proj-$repo-$arch 0 solv trees/openSUSE:$proj-$repo-$arch.solv\n";
 for my $line (read_file_recursively($file)) {
   print OUT "$line\n";
@@ -47,7 +47,7 @@ for my $line (read_file_recursively($file)) {
 print OUT "result transaction,problems,recommended <inline>\n";
 close(OUT);
 
-open(TS, "testsolv -r t|");
+open(TS, "testsolv -r t.$proj-$repo-$arch|");
 my %installs;
 my %suggested;
 my $ret = 0;
