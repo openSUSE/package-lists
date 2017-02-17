@@ -34,7 +34,7 @@ cd ..
 
 set -e
 
-git commit -m "auto commit" -a
+git commit -m "auto commit for $proj/$repo" -a
 echo "all done"
 # git push < /dev/null || true
 
