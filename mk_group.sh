@@ -28,5 +28,5 @@ done
 echo "</packagelist>" >> $dest
 echo "</group>" >> $dest
 
-xmllint --format $dest > t && mv t $dest
+xmllint --format $dest > $list.t && mv $list.t $dest
 
