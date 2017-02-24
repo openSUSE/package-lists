@@ -22,6 +22,9 @@ case $proj in
         Factory:PowerPC) arches="ppc64 ppc64le"
                 repo="standard"
                 ;;
+        Factory:zSystems) arches="s390x"
+                repo="standard"
+                ;;
         Factory:ARM)
                 arches="aarch64"
                 repo="standard"
