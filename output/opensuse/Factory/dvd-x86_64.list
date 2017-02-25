@@ -489,7 +489,6 @@ dpdk-kmp-default
 dracut
 dragonplayer
 drbd
-drbd-kmp-default
 drbd-utils
 dri2proto-devel
 dri3proto-devel
@@ -1610,8 +1609,8 @@ libMagick++-6_Q16-7
 libMagickCore-6_Q16-4
 libMagickWand-6_Q16-4
 libMathMLSolver0_2
-libOSMesa9
-libOSMesa9-32bit
+libOSMesa8
+libOSMesa8-32bit
 libOpenCOLLADABaseUtils0_2
 libOpenCOLLADAFramework0_2
 libOpenCOLLADASaxFrameworkLoader0_2
@@ -2090,7 +2089,7 @@ libevdev-devel
 libevdev-tools
 libevdev2
 libevdocument3-4
-libevent-2_0-5
+libevent-2_1-8
 libevview3-3
 libewsutils0
 libexempi-devel
@@ -4724,7 +4723,6 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
-sysdig-kmp-default
 sysfsutils
 syslinux
 system-config-printer
