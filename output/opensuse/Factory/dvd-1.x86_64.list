@@ -613,6 +613,7 @@ freeglut-devel
 freeipmi
 freerdp
 freetype2-devel
+frei0r-plugins
 fribidi
 fribidi-devel
 frogr
@@ -879,7 +880,9 @@ gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
 gstreamer-plugins-ugly
+gstreamer-transcoder
 gstreamer-utils
+gstreamer-validate
 gtg
 gtg-lang
 gthumb
@@ -2146,6 +2149,7 @@ libgarcon-1-0
 libgarcon-branding-openSUSE
 libgarcon-data
 libgarcon-lang
+libgavl1
 libgbm1
 libgbm1-32bit
 libgc1
@@ -2190,6 +2194,7 @@ libgee-0_8-2
 libgegl-0_2-0
 libgegl-0_3-0
 libgeocode-glib0
+libges-1_0-0
 libgetdata++7
 libgetdata8
 libgexiv2-2
@@ -2322,7 +2327,9 @@ libgstrtspserver-1_0-0
 libgstsdp-1_0-0
 libgsttag-1_0-0
 libgsttag-1_0-0-32bit
+libgsttranscoder-1_0-0
 libgsturidownloader-1_0-0
+libgstvalidate-1_0-0
 libgstvideo-1_0-0
 libgstvideo-1_0-0-32bit
 libgstwayland-1_0-0
@@ -2448,6 +2455,7 @@ libjpeg62-devel
 libjpeg8
 libjpeg8-32bit
 libjson-glib-1_0-0
+libjte1
 libkaccounts1
 libkactivities6
 libkate1
@@ -2700,6 +2708,7 @@ libopenal1
 libopenal1-32bit
 libopenbabel-devel
 libopenbabel4
+libopenblas_pthreads0
 libopencc2
 libopencv-qt56_3
 libopencv3_1
@@ -4233,6 +4242,8 @@ pinentry-gtk2
 pinentry-qt5
 pinfo
 pinpoint
+pitivi
+pitivi-lang
 pk-update-icon
 pk-update-icon-lang
 pkcs11-helper
@@ -4338,6 +4349,7 @@ pychecker
 python
 python-CherryPy
 python-M2Crypto
+python-Pillow
 python-PyYAML
 python-SecretStorage
 python-Twisted
@@ -4428,11 +4440,14 @@ python-xml
 python-yum
 python-zope.interface
 python3
+python3-Cycler
 python3-apparmor
 python3-atspi
 python3-base
 python3-brlapi
 python3-cairo
+python3-cairocffi
+python3-cffi
 python3-chardet
 python3-cups
 python3-cupshelpers
@@ -4442,11 +4457,20 @@ python3-gedit
 python3-gobject
 python3-gobject-Gdk
 python3-gobject-cairo
+python3-gst
 python3-idle
 python3-louis
+python3-matplotlib
+python3-matplotlib-cairo
+python3-matplotlib-gtk3
+python3-numpy
 python3-pip
 python3-py
+python3-pycparser
 python3-pycurl
+python3-pyparsing
+python3-python-dateutil
+python3-pytz
 python3-pyxdg
 python3-qt4
 python3-requests
@@ -4815,6 +4839,7 @@ typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
 typelib-1_0-GData-0_0
+typelib-1_0-GES-1_0
 typelib-1_0-GFBGraph-0_2
 typelib-1_0-GUdev-1_0
 typelib-1_0-GVnc-1_0
@@ -4837,6 +4862,8 @@ typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
 typelib-1_0-GstTag-1_0
+typelib-1_0-GstTranscoder-1_0
+typelib-1_0-GstValidate-1_0
 typelib-1_0-GstVideo-1_0
 typelib-1_0-Gtk-2_0
 typelib-1_0-Gtk-3_0
