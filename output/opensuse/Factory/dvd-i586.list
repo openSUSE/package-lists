@@ -303,8 +303,6 @@ bundle-lang-kde-ru
 bundle-lang-kde-zh
 busybox
 bzip2
-bzr
-bzr-lang
 ca-certificates
 ca-certificates-mozilla
 cabextract
@@ -855,6 +853,7 @@ gsf-office-thumbnailer
 gsl-devel
 gstreamer
 gstreamer-devel
+gstreamer-lang
 gstreamer-libnice
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
@@ -1119,7 +1118,6 @@ kapptemplate
 karchive-devel
 kate
 kate-plugins
-kate4-parts
 katomic
 kauth-devel
 kbd
@@ -1215,13 +1213,6 @@ kdesignerplugin
 kdesignerplugin-devel
 kdesignerplugin-lang
 kdesu-devel
-kdevelop4
-kdevelop4-devel
-kdevelop4-lang
-kdevelop4-plugin-cppsupport
-kdevelop4-plugins-php
-kdevplatform4
-kdevplatform4-lang
 kdewebkit-devel
 kdf
 kdialog
@@ -2359,7 +2350,6 @@ libjte1
 libkaccounts1
 libkactivities6
 libkate1
-libkatepartinterfaces4
 libkcddb4
 libkchart-lang
 libkcompactdisc4
@@ -2375,7 +2365,6 @@ libkdegames4
 libkdegames6
 libkdepim
 libkdepimlibs4
-libkdevplatform8
 libkerfuffle16
 libkexiv2-devel
 libkeybinder-3_0-0
@@ -3335,8 +3324,6 @@ meld
 meld-lang
 memtest86+
 menu-cache
-mercurial
-mercurial-lang
 messagelib
 metamail
 metatheme-adwaita-common
@@ -3471,7 +3458,6 @@ obs-service-recompress
 obs-service-refresh_patches
 obs-service-set_version
 obs-service-source_validator
-obs-service-tar_scm
 obs-service-verify_file
 ocfs2-tools
 ofl
@@ -4135,7 +4121,6 @@ python
 python-CherryPy
 python-M2Crypto
 python-Pillow
-python-PyYAML
 python-SecretStorage
 python-Twisted
 python-Unidecode
@@ -4189,7 +4174,6 @@ python-ndg-httpsclient
 python-numpy
 python-opensync
 python-orbit
-python-packaging
 python-pam
 python-pyOpenSSL
 python-pyasn1
@@ -4198,7 +4182,6 @@ python-pycparser
 python-pycrypto
 python-pycurl
 python-pygame
-python-pyparsing
 python-pyserial
 python-python-dateutil
 python-pyudev
@@ -4208,11 +4191,9 @@ python-pyxdg
 python-qt4
 python-requests
 python-rpm-macros
-python-setuptools
 python-simplejson
 python-sip
 python-sip-devel
-python-six
 python-smbios
 python-solv
 python-talloc
@@ -4223,9 +4204,15 @@ python-xcb-proto-devel
 python-xml
 python-yum
 python-zope.interface
+python2-appdirs
+python2-packaging
+python2-pyparsing
+python2-setuptools
+python2-six
 python3
 python3-Cycler
 python3-apparmor
+python3-appdirs
 python3-atspi
 python3-base
 python3-brlapi
@@ -4248,6 +4235,7 @@ python3-matplotlib
 python3-matplotlib-cairo
 python3-matplotlib-gtk3
 python3-numpy
+python3-packaging
 python3-pip
 python3-py
 python3-pycparser

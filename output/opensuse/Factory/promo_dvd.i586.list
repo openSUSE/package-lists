@@ -234,7 +234,6 @@ claws-mail
 claws-mail-lang
 clicfs
 cln
-cmake
 color-filesystem
 colord
 colord-lang
@@ -569,6 +568,7 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gsf-office-thumbnailer
 gstreamer
+gstreamer-lang
 gstreamer-libnice
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
@@ -751,7 +751,6 @@ kanagram
 kapptemplate
 kate
 kate-plugins
-kate4-parts
 kbd
 kbruch
 kcachegrind
@@ -814,11 +813,6 @@ kdepim-addons
 kdepim-apps-libs
 kdepim-runtime
 kdepimlibs4
-kdevelop4
-kdevelop4-lang
-kdevelop4-plugin-cppsupport
-kdevplatform4
-kdevplatform4-lang
 kdialog
 kdnssd
 kdoctools
@@ -1526,7 +1520,6 @@ libgpm2
 libgpod-tools
 libgpod4
 libgps22
-libgrantlee_core0
 libgraphite2-3
 libgravatar
 libgrilo-0_3-0
@@ -1647,7 +1640,6 @@ libjte1
 libkaccounts1
 libkactivities6
 libkate1
-libkatepartinterfaces4
 libkcddb4
 libkcompactdisc4
 libkde4
@@ -1659,7 +1651,6 @@ libkdegames4
 libkdegames6
 libkdepim
 libkdepimlibs4
-libkdevplatform8
 libkerfuffle16
 libkeybinder-3_0-0
 libkeybinder0
@@ -2785,17 +2776,21 @@ python-pyxb
 python-pyxdg
 python-requests
 python-rpm-macros
-python-setuptools
 python-simplejson
-python-six
 python-smbios
 python-solv
 python-talloc
 python-urlgrabber
 python-xml
 python-yum
+python2-appdirs
+python2-packaging
+python2-pyparsing
+python2-setuptools
+python2-six
 python3
 python3-apparmor
+python3-appdirs
 python3-atspi
 python3-base
 python3-brlapi
@@ -2811,9 +2806,11 @@ python3-gobject-Gdk
 python3-gobject-cairo
 python3-idle
 python3-louis
+python3-packaging
 python3-pip
 python3-py
 python3-pycurl
+python3-pyparsing
 python3-requests
 python3-setuptools
 python3-six

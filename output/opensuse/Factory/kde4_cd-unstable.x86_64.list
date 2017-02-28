@@ -217,6 +217,7 @@ grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
+gstreamer-lang
 gstreamer-libnice
 gstreamer-plugins-bad
 gstreamer-plugins-base
@@ -1462,12 +1463,13 @@ python-gobject-Gdk
 python-gobject-cairo
 python-pyudev
 python-rpm-macros
-python-six
 python-solv
 python-talloc
 python-xml
+python2-six
 python3
 python3-apparmor
+python3-appdirs
 python3-base
 python3-cairo
 python3-chardet
@@ -1478,9 +1480,11 @@ python3-dbm
 python3-gobject
 python3-gobject-Gdk
 python3-gobject-cairo
+python3-packaging
 python3-pip
 python3-py
 python3-pycurl
+python3-pyparsing
 python3-requests
 python3-setuptools
 python3-six
