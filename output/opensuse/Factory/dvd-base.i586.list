@@ -34,6 +34,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+fdupes
 file
 file-magic
 filesystem
@@ -193,6 +194,7 @@ libpsl5
 libpulse0
 libqrencode3
 libreadline7
+libruby2_2-2_2
 libsasl2-3
 libseccomp2
 libselinux1
@@ -229,6 +231,7 @@ libxcb1
 libxml2-2
 libxml2-tools
 libxtables12
+libyaml-0-2
 libz1
 libzio1
 libzypp
@@ -277,6 +280,10 @@ publicsuffix
 rpcbind
 rpm
 rsync
+ruby-common
+ruby2.2
+ruby2.2-rubygem-gem2rpm
+ruby2.2-stdlib
 sed
 shadow
 shared-mime-info
@@ -325,3 +332,4 @@ xz
 zisofs-tools
 zypper
 zypper-aptitude
+zypper-lifecycle-plugin

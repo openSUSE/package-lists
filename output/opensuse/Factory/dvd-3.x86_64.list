@@ -55,6 +55,7 @@ dracut
 efibootmgr
 elfutils
 ethtool
+fdupes
 file
 file-magic
 filesystem
@@ -340,6 +341,7 @@ libpython2_7-1_0
 libqrencode3
 libreadline7
 librest0
+libruby2_2-2_2
 libsasl2-3
 libseccomp2
 libsecret-1-0
@@ -406,6 +408,7 @@ libxshmfence1
 libxslt1
 libxtables12
 libyajl2
+libyaml-0-2
 libz1
 libzio1
 libzypp
@@ -466,6 +469,10 @@ readline-doc
 rpcbind
 rpm
 rsync
+ruby-common
+ruby2.2
+ruby2.2-rubygem-gem2rpm
+ruby2.2-stdlib
 s2tc
 s2tc-32bit
 sed
@@ -531,4 +538,5 @@ zisofs-tools
 zypp-plugin-python
 zypper
 zypper-aptitude
+zypper-lifecycle-plugin
 zypper-log
