@@ -192,6 +192,7 @@ argyllcms
 aria2
 aria2-lang
 ark
+armagetron
 arphic-ukai-fonts
 arphic-uming-fonts
 arpwatch
@@ -3540,12 +3541,20 @@ libvirt-daemon-driver-nwfilter
 libvirt-daemon-driver-qemu
 libvirt-daemon-driver-secret
 libvirt-daemon-driver-storage
+libvirt-daemon-driver-storage-core
+libvirt-daemon-driver-storage-disk
+libvirt-daemon-driver-storage-iscsi
+libvirt-daemon-driver-storage-logical
+libvirt-daemon-driver-storage-mpath
+libvirt-daemon-driver-storage-rbd
+libvirt-daemon-driver-storage-scsi
 libvirt-daemon-driver-uml
 libvirt-daemon-driver-vbox
 libvirt-daemon-lxc
 libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
+libvirt-libs
 libvirt-python
 libvisio-0_1-1
 libvisual
@@ -5504,6 +5513,7 @@ xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
+xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
