@@ -719,6 +719,7 @@ gpart
 gparted
 gperf
 gpg2
+gpg2-lang
 gpgme
 gpm
 gptfdisk
@@ -1809,7 +1810,7 @@ libedataserver-1_2-22
 libedataserverui-1_2-1
 libedit0
 libedit0-32bit
-libefivar0
+libefivar1
 libelf1
 libelf1-32bit
 libenca0
@@ -2778,6 +2779,13 @@ libvirt-daemon-driver-nwfilter
 libvirt-daemon-driver-qemu
 libvirt-daemon-driver-secret
 libvirt-daemon-driver-storage
+libvirt-daemon-driver-storage-core
+libvirt-daemon-driver-storage-disk
+libvirt-daemon-driver-storage-iscsi
+libvirt-daemon-driver-storage-logical
+libvirt-daemon-driver-storage-mpath
+libvirt-daemon-driver-storage-rbd
+libvirt-daemon-driver-storage-scsi
 libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
