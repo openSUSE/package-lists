@@ -38,3 +38,6 @@ job lock name libreoffice-calc
 
 # sigh - a new kernel, again more space needed (20170226)
 job lock name apparmor-utils
+
+# Can we get rid of webkit1 on the live? (20170312)
+job lock name libwebkitgtk-3_0-0
