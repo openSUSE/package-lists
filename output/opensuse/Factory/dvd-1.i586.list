@@ -198,7 +198,7 @@ baobab
 bash
 bash-completion
 bash-doc
-bbswitch-kmp-pae
+bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bea-stax
@@ -472,6 +472,7 @@ dos2unix
 dosbox
 dosfstools
 doxygen
+dpdk-kmp-default
 dracut
 dragonplayer
 dri2proto-devel
@@ -579,6 +580,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -938,7 +940,7 @@ hardlink
 harfbuzz-devel
 haveged
 hddtemp
-hdjmod-kmp-pae
+hdjmod-kmp-default
 hdparm
 help2man
 hexchat
@@ -1218,8 +1220,9 @@ kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
-kernel-pae
+kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2017,6 +2020,7 @@ libffi-devel
 libffi7
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libflatpak0
 libfli-devel
 libfli1
@@ -2560,6 +2564,7 @@ libopenjpeg1
 libopenraw1
 libopenssl-devel
 libopenssl1_0_0
+libopensync
 libopts-devel
 libopts25
 libopus0
@@ -3349,6 +3354,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpi-selector
 mpt-firmware
@@ -3624,7 +3630,7 @@ patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
-pcfclock-kmp-pae
+pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -3920,6 +3926,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4160,6 +4168,7 @@ python-libxml2
 python-lxml
 python-ndg-httpsclient
 python-numpy
+python-opensync
 python-orbit
 python-pam
 python-pyOpenSSL
@@ -4477,7 +4486,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
-sysdig-kmp-pae
+sysdig-kmp-default
 sysfsutils
 syslinux
 system-config-printer
@@ -4700,7 +4709,7 @@ vala
 valgrind
 vcdimager
 vdr
-vhba-kmp-pae
+vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -4715,9 +4724,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
-virtualbox
-virtualbox-host-kmp-pae
-virtualbox-qt
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vlock
@@ -4959,7 +4968,7 @@ xset
 xsetroot
 xslide
 xstroke
-xtables-addons-kmp-pae
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
