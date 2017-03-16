@@ -52,6 +52,7 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
+SUSEConnect
 SuSEfirewall2
 WindowMaker
 WindowMaker-applets
@@ -594,7 +595,6 @@ filesystem
 fillup
 findutils
 finger
-fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -1250,13 +1250,11 @@ kdump
 keditbookmarks
 kemoticons-devel
 kernel-default
-kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -1610,6 +1608,8 @@ libOpenCOLLADABaseUtils0_2
 libOpenCOLLADAFramework0_2
 libOpenCOLLADASaxFrameworkLoader0_2
 libOpenColorIO1
+libQt5Bluetooth5
+libQt5Bluetooth5-imports
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1628,6 +1628,8 @@ libQt5Location5
 libQt5Multimedia5
 libQt5Network-devel
 libQt5Network5
+libQt5Nfc5
+libQt5Nfc5-imports
 libQt5OpenGL-devel
 libQt5OpenGL5
 libQt5PlatformHeaders-devel
@@ -2118,7 +2120,6 @@ libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
-libfipscheck1
 libflatpak0
 libfli-devel
 libfli1
@@ -2892,6 +2893,7 @@ libqt5-qdbus
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
 libqt5-qtbase-platformtheme-gtk3
+libqt5-qtconnectivity-tools
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -3591,7 +3593,6 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpfr-devel
 mpi-selector
 mpt-firmware
@@ -4178,8 +4179,6 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4438,6 +4437,7 @@ python-pywbem
 python-pyxb
 python-pyxdg
 python-qt4
+python-qt5
 python-requests
 python-rpm-macros
 python-simplejson
@@ -5307,6 +5307,7 @@ yast2-printer
 yast2-product-creator
 yast2-proxy
 yast2-python-bindings
+yast2-registration
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
