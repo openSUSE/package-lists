@@ -41,6 +41,7 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
+SUSEConnect
 SuSEfirewall2
 a2ps
 aaa_base
@@ -1391,6 +1392,8 @@ libMathMLSolver0_2
 libOpenCOLLADABaseUtils0_2
 libOpenCOLLADAFramework0_2
 libOpenCOLLADASaxFrameworkLoader0_2
+libQt5Bluetooth5
+libQt5Bluetooth5-imports
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1405,9 +1408,12 @@ libQt5Gui-devel
 libQt5Gui-private-headers-devel
 libQt5Gui5
 libQt5Help5
+libQt5Location5
 libQt5Multimedia5
 libQt5Network-devel
 libQt5Network5
+libQt5Nfc5
+libQt5Nfc5-imports
 libQt5OpenGL-devel
 libQt5OpenGL5
 libQt5PlatformHeaders-devel
@@ -1432,6 +1438,8 @@ libQt5WebKit5-devel
 libQt5WebKit5-imports
 libQt5WebKitWidgets-devel
 libQt5WebKitWidgets5
+libQt5WebSockets5
+libQt5WebSockets5-imports
 libQt5Widgets-devel
 libQt5Widgets5
 libQt5X11Extras5
@@ -2314,6 +2322,7 @@ libqt5-qdbus
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
 libqt5-qtbase-platformtheme-gtk3
+libqt5-qtconnectivity-tools
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -3443,7 +3452,7 @@ python-python-dateutil
 python-pyudev
 python-pyxb
 python-pyxdg
-python-qt4
+python-qt5
 python-requests
 python-rpm-macros
 python-simplejson
@@ -3852,6 +3861,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox
+virtualbox-host-kmp-default
+virtualbox-qt
 vlan
 vm-install
 vorbis-tools
@@ -4071,6 +4083,7 @@ yast2-printer
 yast2-product-creator
 yast2-proxy
 yast2-python-bindings
+yast2-registration
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server

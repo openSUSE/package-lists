@@ -48,6 +48,7 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
+SUSEConnect
 SuSEfirewall2
 WindowMaker
 WindowMaker-applets
@@ -199,6 +200,7 @@ baobab
 bash
 bash-completion
 bash-doc
+bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bea-stax
@@ -474,6 +476,7 @@ dos2unix
 dosbox
 dosfstools
 doxygen
+dpdk-kmp-default
 dracut
 dragonplayer
 dri2proto-devel
@@ -949,6 +952,7 @@ hardlink
 harfbuzz-devel
 haveged
 hddtemp
+hdjmod-kmp-default
 hdparm
 help2man
 hexchat
@@ -1578,6 +1582,8 @@ libOpenCOLLADABaseUtils0_2
 libOpenCOLLADAFramework0_2
 libOpenCOLLADASaxFrameworkLoader0_2
 libOpenColorIO1
+libQt5Bluetooth5
+libQt5Bluetooth5-imports
 libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
@@ -1596,6 +1602,8 @@ libQt5Location5
 libQt5Multimedia5
 libQt5Network-devel
 libQt5Network5
+libQt5Nfc5
+libQt5Nfc5-imports
 libQt5OpenGL-devel
 libQt5OpenGL5
 libQt5PlatformHeaders-devel
@@ -2732,6 +2740,7 @@ libqt5-qdbus
 libqt5-qtbase-common-devel
 libqt5-qtbase-devel
 libqt5-qtbase-platformtheme-gtk3
+libqt5-qtconnectivity-tools
 libqt5-qtdeclarative-devel
 libqt5-qtdeclarative-tools
 libqt5-qtgraphicaleffects
@@ -3646,6 +3655,7 @@ patterns-openSUSE-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4200,6 +4210,7 @@ python-pywbem
 python-pyxb
 python-pyxdg
 python-qt4
+python-qt5
 python-requests
 python-rpm-macros
 python-simplejson
@@ -4503,6 +4514,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
 system-config-printer
@@ -4727,6 +4739,7 @@ vala
 valgrind
 vcdimager
 vdr
+vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -4741,6 +4754,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vlock
@@ -4986,6 +5002,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
@@ -5046,6 +5063,7 @@ yast2-printer
 yast2-product-creator
 yast2-proxy
 yast2-python-bindings
+yast2-registration
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
