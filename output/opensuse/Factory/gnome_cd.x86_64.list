@@ -646,7 +646,7 @@ libgadu3
 libgbm1
 libgc1
 libgcab-1_0-0
-libgcc_s1
+libgcc_s1-gcc7
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -699,7 +699,7 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgom-1_0-0
-libgomp1
+libgomp1-gcc7
 libgpg-error0
 libgpg-error0-32bit
 libgpgme11
@@ -960,7 +960,7 @@ libqqwing2
 libqrencode3
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
-libquadmath0
+libquadmath0-gcc7
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
@@ -1046,7 +1046,7 @@ libsss_nss_idmap0
 libsss_simpleifp0
 libstaroffice-0_0-0
 libstartup-notification-1-0
-libstdc++6
+libstdc++6-gcc7
 libstoken1
 libstorage-ruby
 libstorage7
@@ -1831,3 +1831,4 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
+zypper-migration-plugin

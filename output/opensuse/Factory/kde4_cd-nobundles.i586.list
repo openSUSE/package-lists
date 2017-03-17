@@ -812,7 +812,7 @@ libfuse2
 libgadu3
 libgbm1
 libgc1
-libgcc_s1
+libgcc_s1-gcc7
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -833,7 +833,7 @@ libgmp10
 libgnome-keyring0
 libgnutls30
 libgobject-2_0-0
-libgomp1
+libgomp1-gcc7
 libgpg-error0
 libgpgme11
 libgpgmepp6
@@ -1181,7 +1181,7 @@ libsss_idmap0
 libsss_nss_idmap0
 libsss_simpleifp0
 libstartup-notification-1-0
-libstdc++6
+libstdc++6-gcc7
 libstorage-ruby
 libstorage7
 libswresample2
@@ -1896,3 +1896,4 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
+zypper-migration-plugin

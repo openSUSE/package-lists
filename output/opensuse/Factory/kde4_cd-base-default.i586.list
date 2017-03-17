@@ -242,7 +242,7 @@ libfontenc1
 libfreetype6
 libfuse2
 libgbm1
-libgcc_s1
+libgcc_s1-gcc7
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -373,7 +373,7 @@ libsoup-2_4-1
 libspeex1
 libsqlite3-0
 libssh2-1
-libstdc++6
+libstdc++6-gcc7
 libstorage-ruby
 libstorage7
 libsystemd0
@@ -739,3 +739,4 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
+zypper-migration-plugin

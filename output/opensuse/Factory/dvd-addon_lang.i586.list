@@ -1536,7 +1536,7 @@ libatk-1_0-0
 libatk-bridge-2_0-0
 libatkmm-1_6-1
 libatm1
-libatomic1
+libatomic1-gcc7
 libatspi0
 libattica0_4
 libattr-devel
@@ -1670,7 +1670,7 @@ libchewing3
 libchm0
 libcholmod-3_0_6
 libchromaprint1
-libcilkrts5
+libcilkrts5-gcc7
 libclastfm0
 libclucene-contribs-lib1
 libclucene-core1
@@ -1819,7 +1819,7 @@ libgarcon-lang
 libgbm1
 libgc1
 libgcab-1_0-0
-libgcc_s1
+libgcc_s1-gcc7
 libgcj-devel
 libgcj-devel-gcc6
 libgcj-gcc6
@@ -1889,7 +1889,7 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgoffice-0_10-10
 libgom-1_0-0
-libgomp1
+libgomp1-gcc7
 libgooglepinyin0
 libgpg-error-devel
 libgpg-error0
@@ -2010,7 +2010,7 @@ libiso9660-10
 libisoburn1
 libisofs6
 libiterm1
-libitm1
+libitm1-gcc7
 libiw30
 libixion-0_12-0
 libjack0
@@ -2129,8 +2129,8 @@ libmozjs-24
 libmpc3
 libmpcdec5
 libmpfr4
-libmpx2
-libmpxwrappers2
+libmpx2-gcc7
+libmpxwrappers2-gcc7
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -2338,7 +2338,7 @@ libqt5-qttools-doc
 libqt5-qtwebengine
 libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
-libquadmath0
+libquadmath0-gcc7
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
@@ -2522,8 +2522,8 @@ libssh4
 libstaroffice-0_0-0
 libstartup-notification-1-0
 libstdc++-devel
-libstdc++6
 libstdc++6-devel-gcc6
+libstdc++6-gcc7
 libstoken1
 libstorage-ruby
 libstorage7
@@ -2572,7 +2572,7 @@ libtracker-sparql-1_0-0
 libts-1_0-0
 libtumbler-1-0
 libturbojpeg0
-libubsan0
+libubsan0-gcc7
 libudev1
 libudisks2-0
 libumfpack-5_7_1
@@ -4194,3 +4194,4 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
+zypper-migration-plugin
