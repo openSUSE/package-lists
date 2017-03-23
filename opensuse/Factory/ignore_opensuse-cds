@@ -249,3 +249,6 @@ job lock name bundle-lang-kde-zh
 # GCC7 should not be there yet
 job lock name libgcc_s1-gcc7
 
+# GTK 4.0 is not ready
+job lock name libgtk-4-0
+
