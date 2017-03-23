@@ -264,7 +264,6 @@ incidenceeditor
 info
 info2html
 initviocons
-insserv-compat
 intlfonts-euro-bitmap-fonts
 iproute2
 iptables
@@ -760,7 +759,7 @@ libgdk_pixbuf-2_0-0
 libgif7
 libgio-2_0-0
 libgirepository-1_0-1
-libgit2-24
+libgit2-25
 libglib-2_0-0
 libgme0
 libgmodule-2_0-0
@@ -950,7 +949,6 @@ libnl3-200
 libnm-glib4
 libnm-util2
 libnm0
-libnma-data
 libnma0
 libnotify-tools
 libnotify4
@@ -1255,6 +1253,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nma-data
 noto-sans-fonts
 nscd
 nss-mdns
@@ -1556,6 +1555,7 @@ system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
+system-group-hardware
 systemd
 systemd-bash-completion
 systemd-logger

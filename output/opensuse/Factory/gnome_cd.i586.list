@@ -217,7 +217,6 @@ glib2-tools
 glibc
 glibc-extra
 glibc-locale
-gnome-autoar-schema
 gnome-bluetooth
 gnome-calculator
 gnome-chess
@@ -250,7 +249,6 @@ gnome-session-core
 gnome-session-default-session
 gnome-settings-daemon
 gnome-shell
-gnome-shell-browser-plugin
 gnome-shell-calendar
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
@@ -495,7 +493,7 @@ libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-59
+libcamel-1_2-60
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -558,7 +556,6 @@ libdhash1
 libdialog13
 libdleyna-core-1_0-4
 libdmapsharing-3_0-2
-libdmx1
 libdnet1
 libdns165
 libdns_sd
@@ -575,7 +572,7 @@ libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
-libebook-1_2-16
+libebook-1_2-19
 libebook-contacts-1_2-2
 libecal-1_2-19
 libedata-book-1_2-25
@@ -645,7 +642,7 @@ libgegl-0_3-0
 libgeocode-glib0
 libgexiv2-2
 libgfbgraph-0_2-0
-libgfortran3-gcc6
+libgfortran3
 libgif7
 libgimp-2_0-0
 libgimpui-2_0-0
@@ -815,7 +812,7 @@ libmodman1
 libmodplug1
 libmount1
 libmozjs-17_0
-libmozjs-24
+libmozjs-38
 libmpc3
 libmpcdec5
 libmpfr4
@@ -825,7 +822,7 @@ libmtdev1
 libmtp-udev
 libmtp9
 libmusicbrainz5-1
-libmutter0
+libmutter-0-0
 libmwaw-0_3-3
 libmythes-1_2-0
 libnautilus-extension1
@@ -852,7 +849,6 @@ libnm-glib4
 libnm-gtk0
 libnm-util2
 libnm0
-libnma-data
 libnma0
 libnotify4
 libnpth0
@@ -1119,7 +1115,6 @@ libxcb-util1
 libxcb-xfixes0
 libxcb-xinerama0
 libxcb-xkb1
-libxcb-xv0
 libxcb1
 libxerces-c-3_1
 libxkbcommon-x11-0
@@ -1198,6 +1193,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nma-data
 notification-daemon
 nscd
 nss-mdns
@@ -1496,6 +1492,7 @@ system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
+system-group-hardware
 systemd
 systemd-bash-completion
 systemd-logger
@@ -1555,6 +1552,7 @@ typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
 typelib-1_0-Grl-0_3
+typelib-1_0-Gspell-1_0
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -1578,6 +1576,7 @@ typelib-1_0-PeasGtk-1_0
 typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
+typelib-1_0-Rsvg-2_0
 typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
@@ -1684,7 +1683,6 @@ xorg-x11-essentials
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
-xorg-x11-server-extra
 xprop
 xrandr
 xrdb

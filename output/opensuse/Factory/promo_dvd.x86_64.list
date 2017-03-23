@@ -241,8 +241,8 @@ claws-mail
 claws-mail-lang
 clicfs
 cln
-color-filesystem
 colord
+colord-color-profiles
 colord-lang
 command-not-found
 compface
@@ -481,7 +481,6 @@ glibc-info
 glibc-locale
 glibc-locale-32bit
 gmp-devel
-gnome-autoar-schema
 gnome-bluetooth
 gnome-calculator
 gnome-chess
@@ -523,7 +522,6 @@ gnome-session-core
 gnome-session-default-session
 gnome-settings-daemon
 gnome-shell
-gnome-shell-browser-plugin
 gnome-shell-calendar
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
@@ -699,15 +697,6 @@ ibus-table-chinese-yong
 ibus-table-rustrad
 ibus-table-translit
 ibus-table-zhuyin
-icc-profiles
-icc-profiles-basiccolor-lstarrgb
-icc-profiles-basiccolor-printing2009-coat2
-icc-profiles-lcms-lab
-icc-profiles-mini
-icc-profiles-openicc-rgb
-icc-profiles-scp-argyll
-icc-profiles-scp-fogra
-icc-profiles-scp-yamma
 iceauth
 icedax
 icoutils
@@ -1321,7 +1310,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_1
-libcamel-1_2-59
+libcamel-1_2-60
 libcamgm100
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -1414,7 +1403,6 @@ libdjvulibre21
 libdleyna-core-1_0-4
 libdmapsharing-3_0-2
 libdmtx0
-libdmx1
 libdnet1
 libdns165
 libdns_sd
@@ -1437,7 +1425,7 @@ libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
-libebook-1_2-16
+libebook-1_2-19
 libebook-contacts-1_2-2
 libecal-1_2-19
 libedata-book-1_2-25
@@ -1552,7 +1540,7 @@ libgegl-0_3-0
 libgeocode-glib0
 libgexiv2-2
 libgfbgraph-0_2-0
-libgfortran3-gcc6
+libgfortran3
 libgif7
 libgimp-2_0-0
 libgimpui-2_0-0
@@ -1560,7 +1548,7 @@ libgio-2_0-0
 libgio-2_0-0-32bit
 libgiomm-2_4-1
 libgirepository-1_0-1
-libgit2-24
+libgit2-25
 libgjs0
 libglade-2_0-0
 libgladeui-2-6
@@ -1834,19 +1822,19 @@ libmodplug1
 libmount1
 libmount1-32bit
 libmozjs-17_0
-libmozjs-24
+libmozjs-38
 libmpc3
 libmpcdec5
 libmpfr4
 libmpx2
-libmpxwrappers2-gcc7
+libmpxwrappers2
 libmspack0
 libmspub-0_1-1
 libmtdev1
 libmtp-udev
 libmtp9
 libmusicbrainz5-1
-libmutter0
+libmutter-0-0
 libmwaw-0_3-3
 libmygpo-qt1
 libmysqlclient18
@@ -1890,7 +1878,6 @@ libnm-glib4
 libnm-gtk0
 libnm-util2
 libnm0
-libnma-data
 libnma0
 libnotify-tools
 libnotify4
@@ -2095,7 +2082,6 @@ libreoffice-writer-extensions
 libreofficekit
 librepository
 librest0
-libretro-gobject0
 libretro-gtk0
 librevenge-0_0-0
 librsvg-2-2
@@ -2272,7 +2258,7 @@ libva-egl1
 libva-glx1
 libva-x11-1
 libva1
-libvala-0_34-0
+libvala-0_36-0
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -2377,7 +2363,6 @@ libxcb-xfixes0
 libxcb-xfixes0-32bit
 libxcb-xinerama0
 libxcb-xkb1
-libxcb-xv0
 libxcb1
 libxcb1-32bit
 libxerces-c-3_1
@@ -2573,6 +2558,7 @@ nfs-client
 nfs-kernel-server
 nfsidmap
 nilfs-utils
+nma-data
 nmap
 notification-daemon
 noto-sans-fonts
@@ -3099,7 +3085,6 @@ setxkbmap
 sg3_utils
 sgml-skel
 shadow
-shared-color-profiles
 shared-mime-info
 sharutils
 sharutils-lang
@@ -3176,6 +3161,7 @@ system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
+system-group-hardware
 systemd
 systemd-32bit
 systemd-bash-completion
@@ -3266,6 +3252,7 @@ typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
 typelib-1_0-Grl-0_3
+typelib-1_0-Gspell-1_0
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -3289,6 +3276,7 @@ typelib-1_0-PeasGtk-1_0
 typelib-1_0-Polari-1_0
 typelib-1_0-Polkit-1_0
 typelib-1_0-Rest-0_7
+typelib-1_0-Rsvg-2_0
 typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
@@ -3472,7 +3460,6 @@ xorg-x11-fonts
 xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
-xorg-x11-server-extra
 xorriso
 xournal
 xprop
