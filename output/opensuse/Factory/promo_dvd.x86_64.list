@@ -1689,7 +1689,6 @@ libidnkit1
 libieee1284
 libimobiledevice6
 libindicator3-7
-libinfinipath4
 libinput-udev
 libinput10
 libiptc0
@@ -1981,7 +1980,8 @@ libproxy1-config-kde
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
 libpsl5
-libpsm_infinipath1
+libpsm2-2
+libpsm2-compat
 libpt2_10_11
 libpulse-mainloop-glib0
 libpulse0
@@ -3162,6 +3162,8 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 system-group-hardware
+system-user-nobody
+system-user-wwwrun
 systemd
 systemd-32bit
 systemd-bash-completion
