@@ -129,6 +129,7 @@ device-mapper
 dhcp
 dhcp-client
 dialog
+dialog-lang
 diffutils
 dmidecode
 dmraid
@@ -641,7 +642,7 @@ libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
 libdhash1
-libdialog13
+libdialog14
 libdmtx0
 libdnet1
 libdns165
@@ -693,6 +694,7 @@ libgio-2_0-0
 libgirepository-1_0-1
 libgit2-25
 libglib-2_0-0
+libglvnd0
 libgmodule-2_0-0
 libgmp10
 libgnutls30
@@ -1418,6 +1420,7 @@ sysconfig-netconfig
 sysfsutils
 syslinux
 system-group-hardware
+system-user-mail
 system-user-man
 systemd
 systemd-bash-completion

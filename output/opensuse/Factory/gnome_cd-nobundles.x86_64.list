@@ -1,8 +1,6 @@
 AppStream
 Mesa
-Mesa-libEGL1
 Mesa-libGL1
-Mesa-libGLESv2-2
 Mesa-libglapi0
 ModemManager
 ModemManager-bash-completion
@@ -158,6 +156,7 @@ device-mapper
 dhcp
 dhcp-client
 dialog
+dialog-lang
 diffutils
 diffutils-lang
 dleyna-connector-dbus
@@ -648,7 +647,7 @@ libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
 libdhash1
-libdialog13
+libdialog14
 libdleyna-core-1_0-4
 libdmapsharing-3_0-2
 libdnet1
@@ -749,6 +748,7 @@ libgjs0
 libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
+libglvnd0
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -1355,7 +1355,6 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
-pam-modules
 pam_mount
 parallel-printer-support
 parted
@@ -1640,6 +1639,7 @@ system-config-printer-common
 system-config-printer-common-lang
 system-config-printer-dbus-service
 system-group-hardware
+system-user-mail
 system-user-man
 systemd
 systemd-bash-completion

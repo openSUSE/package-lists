@@ -1,4 +1,3 @@
-Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 PackageKit
@@ -274,7 +273,7 @@ libdcerpc0
 libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
-libdialog13
+libdialog14
 libdns165
 libdns_sd
 libdouble-conversion1
@@ -318,6 +317,7 @@ libgdk_pixbuf-2_0-0
 libgio-2_0-0
 libgirepository-1_0-1
 libglib-2_0-0
+libglvnd0
 libgmodule-2_0-0
 libgmp10
 libgnome-keyring0
@@ -601,7 +601,6 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
-pam-modules
 parallel-printer-support
 parted
 pciutils
@@ -773,6 +772,7 @@ system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
+system-user-mail
 system-user-man
 systemd
 systemd-bash-completion

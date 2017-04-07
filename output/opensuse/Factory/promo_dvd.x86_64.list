@@ -3,14 +3,9 @@ GeoIP
 GeoIP-data
 ImageMagick
 Mesa
-Mesa-32bit
 Mesa-libEGL1
-Mesa-libEGL1-32bit
 Mesa-libGL1
-Mesa-libGL1-32bit
-Mesa-libGLESv2-2
 Mesa-libglapi0
-Mesa-libglapi0-32bit
 Mesa-libva
 ModemManager
 ModemManager-bash-completion
@@ -307,6 +302,7 @@ dhcp-relay
 dhcp-server
 dhcp-tools
 dialog
+dialog-lang
 diffutils
 digikam
 digikam-lang
@@ -1072,7 +1068,6 @@ libKF5XmlRpcClient5
 libKGantt2
 libKScreenLocker5
 libLLVM3_9
-libLLVM3_9-32bit
 libMagickCore-7_Q16HDRI2
 libMagickWand-7_Q16HDRI0
 libMathMLSolver0_2
@@ -1125,7 +1120,6 @@ libX11-6
 libX11-6-32bit
 libX11-data
 libX11-xcb1
-libX11-xcb1-32bit
 libXRes1
 libXau6
 libXau6-32bit
@@ -1166,7 +1160,6 @@ libXv1-32bit
 libXvMC1
 libXxf86misc1
 libXxf86vm1
-libXxf86vm1-32bit
 libabiword-3_0
 libabw-0_1-1
 libaccounts-glib0
@@ -1399,7 +1392,7 @@ libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
 libdevmapper1_03-32bit
-libdialog13
+libdialog14
 libdigikamcore5
 libdiscid0
 libdjvulibre21
@@ -1413,15 +1406,10 @@ libdolphinvcs5
 libdotconf0
 libdouble-conversion1
 libdrm2
-libdrm2-32bit
 libdrm_amdgpu1
-libdrm_amdgpu1-32bit
 libdrm_intel1
-libdrm_intel1-32bit
 libdrm_nouveau2
-libdrm_nouveau2-32bit
 libdrm_radeon1
-libdrm_radeon1-32bit
 libdv4
 libdvdnav4
 libdvdread4
@@ -1436,10 +1424,8 @@ libedata-cal-1_2-28
 libedataserver-1_2-22
 libedataserverui-1_2-1
 libedit0
-libedit0-32bit
 libefivar1
 libelf1
-libelf1-32bit
 libenca0
 libenchant1
 libepoxy0
@@ -1506,7 +1492,6 @@ libgarcon-branding-openSUSE
 libgarcon-data
 libgarcon-lang
 libgbm1
-libgbm1-32bit
 libgc1
 libgcab-1_0-0
 libgcc_s1
@@ -1559,6 +1544,8 @@ libglib-2_0-0
 libglib-2_0-0-32bit
 libglibmm-2_4-1
 libgltf-0_0-0
+libglvnd0
+libglvnd0-32bit
 libglyr1
 libgme0
 libgmime-2_6-0
@@ -1846,7 +1833,6 @@ libmysqld18
 libmythes-1_2-0
 libnautilus-extension1
 libncurses6
-libncurses6-32bit
 libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -1935,7 +1921,6 @@ libparted0
 libpcap1
 libpci3
 libpciaccess0
-libpciaccess0-32bit
 libpcre1
 libpcre1-32bit
 libpcre16-0
@@ -2292,11 +2277,9 @@ libwacom-data
 libwacom2
 libwavpack1
 libwayland-client0
-libwayland-client0-32bit
 libwayland-cursor0
 libwayland-egl1
 libwayland-server0
-libwayland-server0-32bit
 libwbclient0
 libwbclient0-32bit
 libwebkit2gtk-4_0-37
@@ -2340,16 +2323,12 @@ libxcb-cursor0
 libxcb-damage0
 libxcb-dpms0
 libxcb-dri2-0
-libxcb-dri2-0-32bit
 libxcb-dri3-0
-libxcb-dri3-0-32bit
 libxcb-glx0
-libxcb-glx0-32bit
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
 libxcb-present0
-libxcb-present0-32bit
 libxcb-randr0
 libxcb-record0
 libxcb-render-util0
@@ -2360,10 +2339,8 @@ libxcb-shape0
 libxcb-shm0
 libxcb-shm0-32bit
 libxcb-sync1
-libxcb-sync1-32bit
 libxcb-util1
 libxcb-xfixes0
-libxcb-xfixes0-32bit
 libxcb-xinerama0
 libxcb-xkb1
 libxcb1
@@ -2391,7 +2368,6 @@ libxml2-tools
 libxmmsclient-glib1
 libxmmsclient6
 libxshmfence1
-libxshmfence1-32bit
 libxslt-tools
 libxslt1
 libxtables12
@@ -3165,8 +3141,12 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 system-group-hardware
+system-user-daemon
+system-user-mail
 system-user-man
+system-user-news
 system-user-nobody
+system-user-uucp
 system-user-wwwrun
 systemd
 systemd-32bit

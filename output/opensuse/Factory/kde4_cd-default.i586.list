@@ -511,7 +511,7 @@ libdcerpc0
 libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
-libdialog13
+libdialog14
 libdmtx0
 libdns165
 libdns_sd
@@ -569,6 +569,7 @@ libgio-2_0-0
 libgirepository-1_0-1
 libgit2-25
 libglib-2_0-0
+libglvnd0
 libgme0
 libgmodule-2_0-0
 libgmp10
@@ -1016,7 +1017,6 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
-pam-modules
 parallel-printer-support
 parted
 pciutils
@@ -1241,6 +1241,7 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 system-group-hardware
+system-user-mail
 system-user-man
 systemd
 systemd-bash-completion

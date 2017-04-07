@@ -1,5 +1,4 @@
 Mesa
-Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 Mesa-libva
@@ -56,6 +55,7 @@ desktop-data-openSUSE
 desktop-file-utils
 desktop-translations
 dialog
+dialog-lang
 diffutils
 dmz-icon-theme-cursors
 dracut
@@ -238,7 +238,7 @@ libdbus-1-3
 libdbusmenu-qt2
 libdconf1
 libdevmapper1_03
-libdialog13
+libdialog14
 libdouble-conversion1
 libdrm2
 libdrm_amdgpu1
@@ -269,7 +269,6 @@ libfreetype6
 libfribidi0
 libftgl2
 libfuse2
-libgbm1
 libgcc_s1
 libgck-1-0
 libgcr-3-1
@@ -282,6 +281,7 @@ libgif7
 libgio-2_0-0
 libglib-2_0-0
 libgltf-0_0-0
+libglvnd0
 libgmodule-2_0-0
 libgmp10
 libgnutls30
@@ -558,7 +558,6 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
-pam-modules
 patterns-openSUSE-x11_yast
 pciutils
 pciutils-ids

@@ -8,7 +8,6 @@ Mesa-libEGL-devel
 Mesa-libEGL1
 Mesa-libGL-devel
 Mesa-libGL1
-Mesa-libGLESv2-2
 Mesa-libglapi0
 Mesa-libva
 ModemManager
@@ -434,6 +433,7 @@ dhcp-tools
 dia
 dia-lang
 dialog
+dialog-lang
 diffstat
 diffutils
 digikam
@@ -1705,7 +1705,7 @@ libdcerpc0
 libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
-libdialog13
+libdialog14
 libdigikamcore5
 libdiscid0
 libdjvulibre21
@@ -1855,6 +1855,8 @@ libgladeui-2-6
 libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
+libglvnd-devel
+libglvnd0
 libglyr1
 libgme0
 libgmime-2_6-0
@@ -3666,8 +3668,12 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 system-group-hardware
+system-user-daemon
+system-user-mail
 system-user-man
+system-user-news
 system-user-nobody
+system-user-uucp
 system-user-wwwrun
 systemd
 systemd-bash-completion

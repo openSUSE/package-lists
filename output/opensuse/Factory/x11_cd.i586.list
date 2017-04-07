@@ -1,5 +1,4 @@
 Mesa
-Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 ModemManager
@@ -350,7 +349,7 @@ libdbusmenu-gtk3-4
 libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
-libdialog13
+libdialog14
 libdnet1
 libdns165
 libdns_sd
@@ -407,6 +406,7 @@ libgirepository-1_0-1
 libglade-2_0-0
 libglib-2_0-0
 libglibmm-2_4-1
+libglvnd0
 libgmodule-2_0-0
 libgmp10
 libgnome-desktop-3-12
@@ -893,6 +893,7 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+system-user-mail
 system-user-man
 systemd
 systemd-bash-completion

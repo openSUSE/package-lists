@@ -14,7 +14,6 @@ Mesa-libEGL-devel
 Mesa-libEGL1
 Mesa-libGL-devel
 Mesa-libGL1
-Mesa-libGLESv2-2
 Mesa-libglapi0
 Mesa-libva
 ModemManager
@@ -451,6 +450,7 @@ dhcp-relay
 dhcp-server
 dhcp-tools
 dialog
+dialog-lang
 diffstat
 diffutils
 ding
@@ -1565,6 +1565,7 @@ libKF5XmlRpcClient5
 libKGantt2
 libKScreenLocker5
 libLLVM3_9
+libMagick++-7_Q16HDRI2
 libMagickCore-7_Q16HDRI2
 libMagickWand-7_Q16HDRI0
 libMathMLSolver0_2
@@ -1939,7 +1940,7 @@ libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
 libdhash1
-libdialog13
+libdialog14
 libdirectfb-1_7-7
 libdiscid0
 libdjvulibre-devel
@@ -2134,6 +2135,8 @@ libglibmm-2_4-1
 libgltf-0_0-0
 libglusterfs0
 libglut3
+libglvnd-devel
+libglvnd0
 libglyr1
 libgme0
 libgmime-2_6-0
@@ -3943,6 +3946,7 @@ pesign
 pesign-obs-integration
 pfscalibration
 pfstmo
+pfstools
 phalanx
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
@@ -4509,9 +4513,13 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 system-group-hardware
+system-user-daemon
 system-user-games
+system-user-mail
 system-user-man
+system-user-news
 system-user-nobody
+system-user-uucp
 system-user-wwwrun
 systemd
 systemd-bash-completion
