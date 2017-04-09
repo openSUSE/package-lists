@@ -1,3 +1,4 @@
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -14,6 +15,7 @@ aaa_base-malloccheck
 acl
 acpica
 adjtimex
+adwaita-icon-theme
 alsa-plugins
 apparmor-abstractions
 apparmor-parser
@@ -107,6 +109,7 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
+glibc-locale
 glibc-locale-32bit
 gnome-keyring
 gnome-keyring-pam
@@ -117,6 +120,8 @@ gpg2
 gpm
 grep
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-pc
 grub2-snapper-plugin
 grub2-systemd-sleep-plugin
@@ -147,6 +152,7 @@ iputils
 iscsiuio
 kbd
 kbd-legacy
+kernel-default
 keyutils
 klogd
 kmod
@@ -433,6 +439,8 @@ ntp
 numactl
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openldap2-client
 openslp
 openssh
@@ -445,6 +453,12 @@ p11-kit-tools
 pam
 pam-config
 parted
+patterns-openSUSE-apparmor
+patterns-openSUSE-base
+patterns-openSUSE-enhanced_base
+patterns-openSUSE-sw_management
+patterns-openSUSE-update_test
+patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -512,6 +526,7 @@ pigz
 pinentry
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
@@ -653,6 +668,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-core
 yast2-country
 yast2-country-data
