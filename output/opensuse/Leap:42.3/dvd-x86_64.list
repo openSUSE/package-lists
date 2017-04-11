@@ -565,7 +565,6 @@ dpdk-kmp-default
 dracut
 dragonplayer
 drbd
-drbd-kmp-default
 drbd-utils
 dri2proto-devel
 dri3proto-devel
@@ -2379,7 +2378,7 @@ libedataserverui-1_2-1
 libedit0
 libedit0-32bit
 libeews-1_2-0
-libefivar0
+libefivar1
 libeigen2-devel
 libelf0
 libelf1
@@ -3810,8 +3809,6 @@ lskat
 lsof
 lsscsi
 ltrace
-lttng-modules
-lttng-modules-kmp-default
 lua
 lua-devel
 luasocket
@@ -4104,6 +4101,7 @@ orca-lang
 oro
 os-prober
 osc
+osinfo-db
 oxygen5
 oxygen5-cursors
 oxygen5-decoration
@@ -4913,6 +4911,7 @@ qemu-block-rbd
 qemu-block-ssh
 qemu-extra
 qemu-ipxe
+qemu-ksm
 qemu-kvm
 qemu-lang
 qemu-linux-user
