@@ -1,3 +1,4 @@
+SUSEConnect
 aaa_base
 aaa_base-extras
 aaa_base-malloccheck
@@ -8,6 +9,7 @@ bash
 bash-completion
 bash-lang
 bc
+blog
 boost-license1_54_0
 branding-openSUSE
 btrfsprogs
@@ -31,12 +33,14 @@ device-mapper
 diffutils
 dirmngr
 dirmngr-lang
+dmidecode
 dmraid
 dracut
 efibootmgr
 elfutils
 ethtool
 expat
+fdupes
 file
 file-magic
 filesystem
@@ -170,6 +174,7 @@ libpth20
 libqrencode3
 libreadline6
 libreiserfscore0
+libruby2_1-2_1
 libsasl2-3
 libseccomp2
 libselinux1
@@ -200,6 +205,7 @@ libxcb1
 libxml2-2
 libxml2-tools
 libxtables10
+libyaml-0-2
 libz1
 libzio1
 libzypp
@@ -243,9 +249,14 @@ polkit
 polkit-default-privs
 prctl
 procps
+rollback-helper
 rpcbind
 rpm
 rsync
+ruby-common
+ruby2.1
+ruby2.1-rubygem-gem2rpm
+ruby2.1-stdlib
 sed
 sed-lang
 shadow

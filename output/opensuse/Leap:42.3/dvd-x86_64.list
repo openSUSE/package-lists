@@ -158,6 +158,7 @@ apache-commons-logging
 apache-commons-pool
 apache-commons-pool2
 apache-commons-validator
+apache-pdfbox
 apache-rpm-macros-control
 apache2
 apache2-devel
@@ -291,6 +292,7 @@ bison
 bitmap
 bitstream-vera-fonts
 blinken
+blog
 bluedevil5
 bluedevil5-lang
 bluez
@@ -565,6 +567,7 @@ dpdk-kmp-default
 dracut
 dragonplayer
 drbd
+drbd-kmp-default
 drbd-utils
 dri2proto-devel
 dri3proto-devel
@@ -1269,6 +1272,7 @@ icewm-lang
 icewm-lite
 ico
 icoutils
+icu4j
 id3lib
 id3v2
 ifplugd
@@ -2628,6 +2632,7 @@ libgstallocators-1_0-0
 libgstapp-0_10-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstaudio-1_0-0-32bit
 libgstbadaudio-1_0-0
 libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
@@ -2645,6 +2650,7 @@ libgstphotography-0_10-23
 libgstphotography-1_0-0
 libgstreamer-0_10-0
 libgstreamer-1_0-0
+libgstreamer-1_0-0-32bit
 libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
@@ -2652,10 +2658,12 @@ libgstrtspserver-1_0-0
 libgstsdp-1_0-0
 libgstsignalprocessor-0_10-23
 libgsttag-1_0-0
+libgsttag-1_0-0-32bit
 libgsturidownloader-1_0-0
 libgstvalidate-1_0-0
 libgstvdp-0_10-23
 libgstvideo-1_0-0
+libgstvideo-1_0-0-32bit
 libgstwayland-1_0-0
 libgsystem0
 libgthread-2_0-0
@@ -2992,6 +3000,7 @@ libnm0
 libnotify-devel
 libnotify-tools
 libnotify4
+libnotmuch4
 libnova-0_15-0
 libnova-devel
 libnsl2
@@ -3032,6 +3041,7 @@ libopenssl1_0_0
 libopenssl1_0_0-32bit
 libopus0
 liborc-0_4-0
+liborc-0_4-0-32bit
 liborcus-0_11-0
 libortp12
 libosinfo
@@ -3406,8 +3416,7 @@ libspeex1-32bit
 libspeexdsp1
 libspice-client-glib-2_0-8
 libspice-client-glib-helper
-libspice-client-gtk-2_0-4
-libspice-client-gtk-3_0-4
+libspice-client-gtk-3_0-5
 libspice-controller0
 libspice-server1
 libspnav0
@@ -3999,6 +4008,8 @@ nbd-doc
 ncftp
 ncurses-devel
 ncurses-utils
+ndiswrapper
+ndiswrapper-kmp-default
 nemiver
 nemiver-lang
 net-snmp
@@ -4352,6 +4363,7 @@ perl-Encode-JIS2K
 perl-Encode-Locale
 perl-Error
 perl-Eval-Closure
+perl-Expect
 perl-Exporter-Tiny
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
@@ -4749,7 +4761,6 @@ python-Pillow-tk
 python-PyICU
 python-PyYAML
 python-SecretStorage
-python-SpiceClientGtk
 python-Twisted
 python-atspi
 python-base
@@ -4839,6 +4850,7 @@ python-six
 python-smbios
 python-solv
 python-urlgrabber
+python-urwid
 python-vobject
 python-wxWidgets
 python-wxWidgets-lang
@@ -4968,6 +4980,7 @@ ripit
 ristretto
 ristretto-lang
 rng-tools
+rollback-helper
 rp-pppoe
 rpcbind
 rpm
@@ -5414,6 +5427,7 @@ update-test-security
 update-test-trival
 upower
 upower-lang
+urlscan
 urlview
 usb_modeswitch
 usb_modeswitch-data
