@@ -585,7 +585,6 @@ filesystem
 fillup
 findutils
 finger
-fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -1225,14 +1224,11 @@ kdump
 keditbookmarks
 kemoticons-devel
 kernel-default
-kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
-kernel-pae-devel
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2059,7 +2055,6 @@ libffi-devel
 libffi7
 libfftw3-3
 libfftw3_threads3
-libfipscheck1
 libflatpak0
 libfli-devel
 libfli1
@@ -3409,7 +3404,6 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpfr-devel
 mpg123-esound
 mpg123-openal
@@ -3502,6 +3496,7 @@ obs-service-download_files
 obs-service-download_url
 obs-service-extract_file
 obs-service-format_spec_file
+obs-service-obs_scm-common
 obs-service-recompress
 obs-service-refresh_patches
 obs-service-set_version
@@ -3984,8 +3979,6 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
