@@ -1291,7 +1291,7 @@ inn
 inputproto-devel
 insserv-compat
 inst-source-utils
-install-initrd
+install-initrd-openSUSE
 intel-gpu-tools
 intlfonts
 intlfonts-chinese-big-bitmap-fonts
@@ -1613,6 +1613,7 @@ kmozillahelper
 kmplot
 knavalbattle
 knetwalk
+knewstuff-core-devel
 knewstuff-devel
 knotes5
 knotifications-devel
@@ -1735,6 +1736,7 @@ lensfun-doc
 less
 lftp
 libAnalitza5
+libAppStreamQt2
 libEMF1
 libFLAC++6
 libFLAC8
@@ -1805,6 +1807,7 @@ libKF5DNSSD5
 libKF5DNSSD5-lang
 libKF5Declarative5
 libKF5Declarative5-lang
+libKF5DocTools5
 libKF5Emoticons5
 libKF5EventViews5
 libKF5GAPICalendar5
@@ -1862,6 +1865,7 @@ libKF5NetworkManagerQt-devel
 libKF5NetworkManagerQt6
 libKF5NewStuff5
 libKF5NewStuff5-lang
+libKF5NewStuffCore5
 libKF5Notifications5
 libKF5Notifications5-lang
 libKF5NotifyConfig5
@@ -1871,6 +1875,7 @@ libKF5Parts5-lang
 libKF5PimCommon5
 libKF5PimTextEdit5
 libKF5Plotting5
+libKF5Prison5
 libKF5Pty5
 libKF5Pty5-lang
 libKF5QGpgme5
@@ -1887,6 +1892,8 @@ libKF5Style5
 libKF5Su5
 libKF5Su5-lang
 libKF5Syndication5
+libKF5SyntaxHighlighting5
+libKF5SyntaxHighlighting5-lang
 libKF5TextWidgets5
 libKF5TextWidgets5-lang
 libKF5ThreadWeaver5
@@ -1967,11 +1974,14 @@ libQt5X11Extras5
 libQt5Xml-devel
 libQt5Xml5
 libQt5XmlPatterns5
+libQtAV1
+libQtAVWidgets1
 libQtQuick5
 libQtWebKit-devel
 libQtWebKit4
 libSDL-1_2-0
 libSDL-devel
+libSDL2-2_0-0
 libSDL_Pango1
 libSDL_gfx15
 libSDL_image-1_2-0
@@ -2152,6 +2162,8 @@ libavahi-qt4-devel
 libavahi-ui-gtk3-0
 libavc1394-0
 libavcodec57
+libavdevice57
+libavfilter6
 libavformat57
 libavogadro1
 libavresample3
@@ -2375,6 +2387,7 @@ libedataserver-1_2-21
 libedataserverui-1_2-1
 libedit0
 libedit0-32bit
+libeditorconfig0
 libeews-1_2-0
 libefivar1
 libeigen2-devel
@@ -2406,7 +2419,6 @@ libexif-devel
 libexif12
 libexif12-32bit
 libexiv2-14
-libexiv2-devel
 libexo-1-0
 libexo-1-0-branding-openSUSE
 libexpat-devel
@@ -2593,6 +2605,7 @@ libgpg-error0
 libgpg-error0-32bit
 libgpgme-devel
 libgpgme11
+libgpgmepp6
 libgphoto2-6
 libgphoto2-6-32bit
 libgphoto2-6-lang
@@ -2703,6 +2716,7 @@ libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
+libhdf4
 libhdf5-10
 libhdf5_hl10
 libhogweed2
@@ -2964,6 +2978,7 @@ libnes-rdmav2
 libnet9
 libnetapi0
 libnetapi0-32bit
+libnetcdf7
 libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm-devel
@@ -3115,6 +3130,7 @@ libpoppler60
 libpopt0
 libpopt0-32bit
 libportaudio2
+libpostproc54
 libpowerman0
 libpq5
 libpqxx-4_0
@@ -3171,7 +3187,7 @@ libpython2_7-1_0-32bit
 libpython3_4m1_0
 libpyzy-1_0-0
 libqalculate-devel
-libqalculate5
+libqalculate6
 libqb0
 libqca-qt5
 libqca-qt5-devel
@@ -4039,6 +4055,7 @@ nxtvepg
 obconf
 obs-service-download_files
 obs-service-format_spec_file
+obs-service-obs_scm-common
 obs-service-recompress
 obs-service-set_version
 obs-service-source_validator
@@ -4740,8 +4757,6 @@ purpose
 purpose-lang
 pwgen
 pychecker
-pytalloc
-pytalloc-32bit
 python
 python-M2Crypto
 python-Pillow
@@ -4837,6 +4852,8 @@ python-sip-devel
 python-six
 python-smbios
 python-solv
+python-talloc
+python-talloc-32bit
 python-urlgrabber
 python-urwid
 python-vobject
@@ -5158,6 +5175,7 @@ swell-foop-lang
 swig
 synapse
 synapse-lang
+syntax-highlighting
 sysconfig
 sysconfig-netconfig
 sysdig-kmp-default
@@ -5795,6 +5813,7 @@ yast2-auth-client
 yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
+yast2-branding-openSUSE-Oxygen
 yast2-ca-management
 yast2-control-center
 yast2-control-center-qt

@@ -470,6 +470,7 @@ kwin5
 kwin5-lang
 less
 lftp
+libAppStreamQt2
 libFLAC8
 libGLEW1_13
 libGLU1
@@ -523,6 +524,7 @@ libKF5DNSSD5
 libKF5DNSSD5-lang
 libKF5Declarative5
 libKF5Declarative5-lang
+libKF5DocTools5
 libKF5Emoticons5
 libKF5EventViews5
 libKF5GAPICalendar5
@@ -573,6 +575,7 @@ libKF5ModemManagerQt6
 libKF5NetworkManagerQt6
 libKF5NewStuff5
 libKF5NewStuff5-lang
+libKF5NewStuffCore5
 libKF5Notifications5
 libKF5Notifications5-lang
 libKF5NotifyConfig5
@@ -581,6 +584,7 @@ libKF5Parts5
 libKF5Parts5-lang
 libKF5PimCommon5
 libKF5PimTextEdit5
+libKF5Prison5
 libKF5Pty5
 libKF5Pty5-lang
 libKF5QGpgme5
@@ -596,6 +600,8 @@ libKF5Style5
 libKF5Su5
 libKF5Su5-lang
 libKF5Syndication5
+libKF5SyntaxHighlighting5
+libKF5SyntaxHighlighting5-lang
 libKF5TextWidgets5
 libKF5TextWidgets5-lang
 libKF5ThreadWeaver5
@@ -688,6 +694,7 @@ libakonadiprotocolinternals1
 libao-plugins4
 libao4
 libapparmor1
+libappstream4
 libarchive13
 libasm1
 libasound2
@@ -776,6 +783,7 @@ libdvdnav4
 libdvdread4
 libdw1
 libedit0
+libeditorconfig0
 libefivar1
 libelf0
 libelf1
@@ -834,6 +842,7 @@ libgobject-2_0-0
 libgomp1
 libgpg-error0
 libgpgme11
+libgpgmepp6
 libgphoto2-6
 libgphoto2-6-lang
 libgpod-lang
@@ -1071,7 +1080,7 @@ libpwquality-lang
 libpwquality1
 libpython2_7-1_0
 libpython3_4m1_0
-libqalculate5
+libqalculate6
 libqca-qt5
 libqca-qt5-plugins
 libqca2
@@ -1520,7 +1529,6 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 purpose
 purpose-lang
-pytalloc
 python
 python-base
 python-cffi
@@ -1540,6 +1548,7 @@ python-pyudev
 python-six
 python-smbios
 python-solv
+python-talloc
 python-xml
 python3
 python3-apparmor
@@ -1630,6 +1639,7 @@ suse-module-tools
 susehelp
 susehelp_en
 sweeper
+syntax-highlighting
 sysconfig
 sysconfig-netconfig
 sysfsutils
@@ -1797,6 +1807,7 @@ yast2-apparmor
 yast2-auth-client
 yast2-bootloader
 yast2-branding-openSUSE
+yast2-branding-openSUSE-Oxygen
 yast2-control-center
 yast2-control-center-qt
 yast2-core
