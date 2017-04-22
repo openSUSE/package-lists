@@ -1,5 +1,4 @@
 AppStream
-Mesa
 Mesa-libGL1
 Mesa-libglapi0
 ModemManager
@@ -29,7 +28,6 @@ accountsservice
 acl
 acpica
 adjtimex
-adwaita-icon-theme
 alsa
 alsa-oss
 alsa-plugins
@@ -61,8 +59,6 @@ branding-openSUSE
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
-bundle-lang-common-en
-bundle-lang-gnome-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -89,7 +85,6 @@ crda
 cron
 cronie
 cryptsetup
-cups
 cups-client
 cups-filters-foomatic-rip
 cups-filters-ghostscript
@@ -180,7 +175,6 @@ glib2-tools
 glibc
 glibc-32bit
 glibc-extra
-glibc-locale
 gnome-bluetooth
 gnome-calculator
 gnome-clocks
@@ -200,7 +194,6 @@ gnome-menus-branding-openSUSE
 gnome-mines
 gnome-music
 gnome-online-accounts
-gnome-packagekit
 gnome-photos
 gnome-power-manager
 gnome-screenshot
@@ -242,8 +235,6 @@ grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
 groff
-grub2
-grub2-branding-openSUSE
 grub2-i386-pc
 grub2-snapper-plugin
 grub2-systemd-sleep-plugin
@@ -316,7 +307,6 @@ iso_ent
 issue-generator
 kbd
 kbd-legacy
-kernel-default
 keyutils
 klogd
 kmod
@@ -938,7 +928,6 @@ libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwbclient0
-libwebkit2gtk-4_0-37
 libwebp6
 libwebpdemux2
 libwebpmux2
@@ -1041,8 +1030,6 @@ numactl
 numlockx
 open-iscsi
 openSUSE-build-key
-openSUSE-release
-openSUSE-release-ftp
 openal-soft
 openconnect
 openldap2-client
@@ -1060,24 +1047,6 @@ pam
 pam-config
 parallel-printer-support
 parted
-patterns-openSUSE-apparmor
-patterns-openSUSE-base
-patterns-openSUSE-enhanced_base
-patterns-openSUSE-fonts
-patterns-openSUSE-games
-patterns-openSUSE-gnome
-patterns-openSUSE-gnome_basis
-patterns-openSUSE-gnome_games
-patterns-openSUSE-gnome_imaging
-patterns-openSUSE-gnome_internet
-patterns-openSUSE-gnome_multimedia
-patterns-openSUSE-gnome_yast
-patterns-openSUSE-imaging
-patterns-openSUSE-multimedia
-patterns-openSUSE-sw_management
-patterns-openSUSE-sw_management_gnome
-patterns-openSUSE-x11
-patterns-openSUSE-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -1158,7 +1127,6 @@ pinentry-gnome3
 pkcs11-helper
 pkg-config
 plymouth
-plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
@@ -1433,7 +1401,6 @@ xmodmap
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
-xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
@@ -1450,7 +1417,6 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
-yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core
