@@ -1,3 +1,4 @@
+Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 PackageKit
@@ -26,7 +27,6 @@ autoyast2-installation
 bash
 bash-completion
 bind-utils
-binutils
 blog
 boost-license1_63_0
 branding-openSUSE
@@ -240,6 +240,7 @@ libfont-specimen0
 libfontenc1
 libfreetype6
 libfuse2
+libgbm1
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -401,6 +402,7 @@ libvorbisfile3
 libwayland-client0
 libwayland-cursor0
 libwayland-egl1
+libwayland-server0
 libwbclient0
 libwicked-0-6
 libwrap0
@@ -412,6 +414,7 @@ libxcb-present0
 libxcb-render0
 libxcb-shm0
 libxcb-sync1
+libxcb-xfixes0
 libxcb1
 libxkbcommon0
 libxml2-2

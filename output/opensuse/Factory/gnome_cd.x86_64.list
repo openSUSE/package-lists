@@ -1,6 +1,7 @@
 AppStream
 Mesa
 Mesa-dri-nouveau
+Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 ModemManager
@@ -64,7 +65,6 @@ baobab
 bash
 bash-completion
 bind-utils
-binutils
 blog
 bluez
 bluez-firmware
@@ -1654,6 +1654,7 @@ update-desktop-files
 upower
 usbutils
 util-linux
+util-linux-lang
 util-linux-systemd
 vaapi-dummy-driver
 vaapi-intel-driver

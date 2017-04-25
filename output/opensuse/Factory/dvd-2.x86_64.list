@@ -1,4 +1,5 @@
 Mesa
+Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
 Mesa-libva
@@ -25,7 +26,6 @@ augeas-lenses
 bash
 bash-completion
 bash-doc
-binutils
 blog
 boost-license1_63_0
 branding-openSUSE
@@ -281,6 +281,7 @@ libfreetype6
 libfribidi0
 libftgl2
 libfuse2
+libgbm1
 libgcc_s1
 libgck-1-0
 libgcr-3-1
@@ -696,6 +697,7 @@ unzip-doc
 update-alternatives
 update-desktop-files
 util-linux
+util-linux-lang
 util-linux-systemd
 vorbis-tools
 wallpaper-branding-openSUSE
