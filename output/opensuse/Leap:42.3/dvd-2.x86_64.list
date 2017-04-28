@@ -9,6 +9,7 @@ PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 PackageKit-lang
+SUSEConnect
 aaa_base
 aaa_base-extras
 adjtimex
@@ -33,6 +34,9 @@ bind-utils
 blog
 boost-license1_54_0
 branding-openSUSE
+btrfsmaintenance
+btrfsprogs
+btrfsprogs-udev-rules
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -50,6 +54,7 @@ cups-libs
 curl
 dbus-1
 dbus-1-glib
+dbus-1-python
 dbus-1-x11
 dconf
 desktop-data-openSUSE
@@ -60,6 +65,7 @@ dialog
 diffutils
 dirmngr
 dirmngr-lang
+dmidecode
 dmz-icon-theme-cursors
 dracut
 elfutils
@@ -87,6 +93,7 @@ gd
 gdk-pixbuf-lang
 gdk-pixbuf-query-loaders
 gio-branding-openSUSE
+girepository-1_0
 glib-networking
 glib-networking-lang
 glib2-lang
@@ -241,6 +248,7 @@ libboost_filesystem1_54_0
 libboost_iostreams1_54_0
 libboost_system1_54_0
 libboost_thread1_54_0
+libbtrfs0
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -285,6 +293,7 @@ libetonyek-0_1-1
 libevdev2
 libexif12
 libexpat1
+libext2fs2
 libexttextcat
 libexttextcat-2_0-0
 libfdisk1
@@ -309,6 +318,7 @@ libgdbm4
 libgdk_pixbuf-2_0-0
 libgif6
 libgio-2_0-0
+libgirepository-1_0-1
 libglib-2_0-0
 libgltf-0_0-0
 libgmodule-2_0-0
@@ -369,6 +379,7 @@ libltdl7
 liblua5_1
 liblua5_2
 liblzma5
+liblzo2-2
 libmagic1
 libmng1
 libmnl0
@@ -436,6 +447,7 @@ libraptor2-0
 librasqal3
 librdf0
 libreadline6
+libreiserfscore0
 libreoffice
 libreoffice-base
 libreoffice-branding-upstream
@@ -472,6 +484,7 @@ libsemanage1
 libsepol1
 libserializer
 libsmartcols1
+libsnapper4
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -640,12 +653,19 @@ procps
 ptools
 python
 python-base
+python-gobject
+python-gobject-Gdk
+python-gobject-cairo
 python-xml
 python3
 python3-base
+python3-gobject
+python3-gobject-Gdk
+python3-gobject-cairo
 python3-pip
 python3-setuptools
 readline-doc
+rollback-helper
 rpm
 rsyslog
 ruby
@@ -667,6 +687,8 @@ sendfax
 shadow
 shared-mime-info
 shared-mime-info-lang
+snapper
+snapper-zypp-plugin
 sound-theme-freedesktop
 suse-module-tools
 sysconfig
@@ -681,6 +703,10 @@ terminfo-base
 time
 timezone
 traceroute
+typelib-1_0-Atk-1_0
+typelib-1_0-GdkPixbuf-2_0
+typelib-1_0-Gtk-3_0
+typelib-1_0-Pango-1_0
 udev
 udisks2
 udisks2-lang
@@ -720,9 +746,11 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
 yast2-scanner
+yast2-snapper
 yast2-transfer
 yast2-xml
 yast2-ycp-ui-bindings
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-log
