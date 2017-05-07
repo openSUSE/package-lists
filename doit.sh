@@ -145,7 +145,7 @@ for arch in $arches; do
         diff -u output/opensuse/$proj/gnome_cd.$arch.list output/opensuse/$proj/gnome_cd-default.$arch.list | grep -v +++ | grep ^+ || true
 
        if test "$proj" = "Factory"; then
-         ./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
+         #./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
          ./gen.pl opensuse/$proj/dvd-addon_lang $arch "$proj" $repo
        fi
     fi
