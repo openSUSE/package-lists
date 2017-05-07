@@ -468,6 +468,11 @@ p11-kit-tools
 pam
 pam-config
 parted
+patterns-base-apparmor
+patterns-base-base
+patterns-base-enhanced_base
+patterns-base-sw_management
+patterns-yast-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -555,6 +560,7 @@ polkit-default-privs
 postfix
 ppp
 pptp
+prctl
 procps
 psmisc
 publicsuffix
@@ -696,6 +702,7 @@ wicked-service
 wireless-regdb
 wireless-tools
 wodim
+wol
 xauth
 xdg-utils
 xinetd

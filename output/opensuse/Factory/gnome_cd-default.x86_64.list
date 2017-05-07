@@ -1,4 +1,5 @@
 AppStream
+ImageMagick
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -155,6 +156,7 @@ gcr-viewer
 gdb
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gdk-pixbuf-thumbnailer
 gdm
 gdm-branding-openSUSE
 gdmflexiserver
@@ -206,6 +208,7 @@ gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
+gnome-shell-search-provider-gnome-weather
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-software
@@ -214,10 +217,12 @@ gnome-system-monitor
 gnome-terminal
 gnome-themes-accessibility
 gnome-themes-accessibility-gtk2
+gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
 gnome-version
 gnome-video-effects
+gnome-weather
 gnu-unifont-bitmap-fonts
 gnuchess
 google-droid-fonts
@@ -239,6 +244,7 @@ grub2-systemd-sleep-plugin
 grub2-x86_64-efi
 gsettings-backend-dconf
 gsettings-desktop-schemas
+gsf-office-thumbnailer
 gstreamer
 gstreamer-libnice
 gstreamer-plugin-gstclutter-3_0
@@ -320,6 +326,8 @@ libIex-2_2-12
 libIlmImf-2_2-22
 libIlmThread-2_2-12
 libLLVM4
+libMagickCore-7_Q16HDRI2
+libMagickWand-7_Q16HDRI0
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -387,6 +395,7 @@ libavahi-common3
 libavahi-core7
 libavahi-glib1
 libavahi-gobject0
+libavahi-ui-gtk3-0
 libavcodec57
 libavformat57
 libavutil55
@@ -403,6 +412,7 @@ libbs2b0
 libbtrfs0
 libburn4
 libbz2-1
+libcacard0
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
@@ -425,6 +435,7 @@ libcdio16
 libcdio_cdda2
 libcdio_paranoia2
 libcelt0-2
+libcelt051-0
 libchamplain-0_12-0
 libcheese-common
 libcheese-gtk25
@@ -514,6 +525,7 @@ libfolks25
 libfont-specimen0
 libfontenc1
 libfreebl3
+libfreerdp2
 libfreetype6
 libfribidi0
 libftgl2
@@ -606,6 +618,7 @@ libgstwayland-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
+libgtk-vnc-2_0-0
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtkspell3-3-0
@@ -619,6 +632,7 @@ libgupnp-dlna-2_0-3
 libgupnp-dlna-backend-gstreamer
 libgupnp-igd-1_0-4
 libgusb2
+libgvnc-1_0-0
 libgweather-3-6
 libgweather-data
 libgxps2
@@ -673,6 +687,7 @@ libldb1
 liblilv-0-0
 liblirc_client0
 liblockdev1
+liblqr-1-0
 liblrdf2
 libltdl7
 liblua5_3
@@ -804,6 +819,9 @@ libquvi-scripts
 libraptor2-0
 libraw16
 libreadline7
+libreoffice-icon-theme-galaxy
+libreoffice-icon-theme-tango
+libreoffice-share-linker
 librest0
 librsvg-2-2
 libruby2_2-2_2
@@ -852,6 +870,9 @@ libsoxr0
 libspandsp2
 libspeex1
 libspeexdsp1
+libspice-client-glib-2_0-8
+libspice-client-glib-helper
+libspice-client-gtk-3_0-5
 libsqlite3-0
 libsratom-0-0
 libssh2-1
@@ -898,6 +919,8 @@ libunwind
 libupower-glib3
 libusb-1_0-0
 libusbmuxd4
+libusbredirhost1
+libusbredirparser1
 libustr-1_0-1
 libutempter0
 libuuid1
@@ -1045,6 +1068,28 @@ pam
 pam-config
 parallel-printer-support
 parted
+patterns-base-apparmor
+patterns-base-base
+patterns-base-enhanced_base
+patterns-base-sw_management
+patterns-base-x11
+patterns-desktop-imaging
+patterns-desktop-multimedia
+patterns-fonts-fonts
+patterns-games-games
+patterns-gnome-gnome
+patterns-gnome-gnome_admin
+patterns-gnome-gnome_basis
+patterns-gnome-gnome_games
+patterns-gnome-gnome_imaging
+patterns-gnome-gnome_internet
+patterns-gnome-gnome_multimedia
+patterns-gnome-gnome_office
+patterns-gnome-gnome_utilities
+patterns-gnome-gnome_yast
+patterns-gnome-sw_management_gnome
+patterns-office-office
+patterns-yast-yast2_basis
 pciutils
 pciutils-ids
 perl
@@ -1136,6 +1181,7 @@ polkit-gnome
 postfix
 ppp
 pptp
+prctl
 procps
 psmisc
 publicsuffix
@@ -1253,6 +1299,8 @@ sudo
 suse-module-tools
 susehelp
 susehelp_en
+susepaste
+susepaste-screenshot
 sushi
 swell-foop
 sysconfig
@@ -1372,6 +1420,7 @@ util-linux
 util-linux-systemd
 vaapi-dummy-driver
 vim
+vinagre
 vino
 vorbis-tools
 vpnc
@@ -1383,11 +1432,14 @@ wicked
 wicked-service
 wireless-regdb
 wireless-tools
+wmctrl
 wodim
+wol
 wpa_supplicant
 x11-tools
 xauth
 xbitmaps
+xclip
 xconsole
 xdg-menu
 xdg-user-dirs
