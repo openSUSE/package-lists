@@ -370,7 +370,6 @@ cppunit-devel
 cpupower
 cracklib
 cracklib-dict-full
-cracklib-dict-small
 crash-kmp-default
 crda
 create-resources
@@ -2000,6 +1999,7 @@ liberation2-fonts
 libesd-devel
 libesd0
 libesmtp
+libestr0
 libetonyek-0_1-1
 libetpan17
 libevdev-devel
@@ -2026,6 +2026,7 @@ libfakekey0
 libfallocate0
 libfam0-gamin
 libfarstream-0_2-5
+libfastjson4
 libfaxutil5_5_9
 libfcgi0
 libfcitx-4_2_9
@@ -2428,6 +2429,7 @@ liblirc_driver0
 liblmdb-0_9_17
 libloader
 liblockdev1
+liblogging0
 libloudmouth-1-0
 liblouis-data
 liblouis9
@@ -3545,6 +3547,8 @@ parley
 parted
 patch
 patchutils
+patterns-base-minimal_base
+patterns-base-minimal_base-conflicts
 patterns-openSUSE-apparmor
 patterns-openSUSE-apparmor_opt
 patterns-openSUSE-base
@@ -3612,7 +3616,6 @@ patterns-openSUSE-lxde_laptop
 patterns-openSUSE-lxde_office
 patterns-openSUSE-mail_server
 patterns-openSUSE-minimal_base
-patterns-openSUSE-minimal_base-conflicts
 patterns-openSUSE-misc_server
 patterns-openSUSE-multimedia
 patterns-openSUSE-multimedia_opt
@@ -3631,7 +3634,6 @@ patterns-openSUSE-tabletpc
 patterns-openSUSE-technical_writing
 patterns-openSUSE-x11
 patterns-openSUSE-x11_opt
-patterns-openSUSE-x11_yast
 patterns-openSUSE-xen_server
 patterns-openSUSE-xfce
 patterns-openSUSE-xfce_basis
@@ -3639,6 +3641,7 @@ patterns-openSUSE-xfce_laptop
 patterns-openSUSE-xfce_office
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
+patterns-yast-x11_yast
 pavucontrol
 pavucontrol-lang
 pbm2l7k
@@ -4349,6 +4352,7 @@ rpm-python
 rsibreak
 rsibreak-lang
 rsync
+rsyslog
 rt2860
 rtkit
 ruby
@@ -4511,11 +4515,15 @@ sysconfig-netconfig
 sysdig-kmp-default
 sysfsutils
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 system-group-hardware
+system-group-trusted
+system-group-wheel
+system-user-bin
 system-user-daemon
 system-user-games
 system-user-lp
