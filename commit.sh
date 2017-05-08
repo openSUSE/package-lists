@@ -40,6 +40,9 @@ for arch in $arches; do
       ./mk_group.sh output/opensuse/$proj/nonoss.deps.list Addon-NonOss-Deps osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps.group
       ./mk_group.sh output/opensuse/$proj/nonoss.deps-$arch.list Addon-NonOss-Deps-$arch osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps-$arch.group only_$arch
     fi
+    if [ "$proj" = "Factory" ]; then
+      ./mk_group.sh output/opensuse/$proj/dvd-kubic.list openSUSE-Kubic osc/openSUSE:$proj/_product/openSUSE-Kubic.group
+    fi
 done
 
 ( cd osc/openSUSE:$proj/_product/ && osc ci -m "auto update" > /dev/null )
