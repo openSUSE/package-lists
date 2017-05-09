@@ -56,9 +56,12 @@ adobe-sourcecodepro-fonts
 adobe-sourcesanspro-fonts
 adobe-sourceserifpro-fonts
 adwaita-icon-theme
+akonadi-calendar-lang
 akonadi-calendar-tools
+akonadi-calendar-tools-lang
 akonadi-contact
 akonadi-contact-lang
+akonadi-import-wizard
 akonadi-mime
 akonadi-mime-lang
 akonadi-notes-lang
@@ -339,6 +342,7 @@ ca-certificates
 ca-certificates-mozilla
 cairo-devel
 calendarsupport
+calendarsupport-lang
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -492,6 +496,7 @@ espeak
 etags
 ethtool
 eventviews
+eventviews-lang
 evince
 evince-plugin-pdfdocument
 evince-plugin-psdocument
@@ -885,6 +890,7 @@ iio-sensor-proxy
 ilmbase-devel
 imhangul
 incidenceeditor
+incidenceeditor-lang
 indent
 indic-fonts
 info
@@ -956,6 +962,10 @@ kaccounts-providers-lang
 kactivities5-devel
 kactivities5-imports
 kactivitymanagerd
+kaddressbook
+kaddressbook-lang
+kalarmcal
+kalarmcal-lang
 kalgebra
 kalzium
 kamera-lang
@@ -975,6 +985,7 @@ kcachegrind
 kcalc
 kcalc-lang
 kcalutils
+kcalutils-lang
 kcharselect
 kcharselect-lang
 kcm_sddm
@@ -990,6 +1001,7 @@ kcontacts-lang
 kcoreaddons
 kcoreaddons-devel
 kcrash-devel
+kdav
 kdbg
 kdbg-lang
 kdbusaddons-devel
@@ -1093,8 +1105,11 @@ kdelibs4support-devel
 kdenetwork4-filesharing
 kdenetwork4-filesharing-lang
 kdepim-addons
+kdepim-addons-lang
 kdepim-apps-libs
 kdepim-apps-libs-lang
+kdepim-runtime
+kdepim-runtime-lang
 kdepimlibs4
 kdesignerplugin
 kdesignerplugin-devel
@@ -1143,9 +1158,11 @@ khotkeys5-devel
 khtml-devel
 ki18n-devel
 kiconthemes-devel
+kidentitymanagement-lang
 kidletime-devel
 kig
 kimageformats
+kimap-lang
 kinfocenter5
 kinit
 kinit-devel
@@ -1180,10 +1197,17 @@ kjs-devel-lang
 kjsembed-devel
 kldap
 kldap-lang
+kleopatra
+kleopatra-lang
 klettres
 klogd
 kmag
 kmahjongg
+kmail
+kmail-account-wizard
+kmail-account-wizard-lang
+kmail-application-icons
+kmail-lang
 kmailtransport
 kmailtransport-lang
 kmediaplayer-devel
@@ -1198,9 +1222,11 @@ kmplot
 knewstuff-core-devel
 knewstuff-devel
 knotes
+knotes-lang
 knotifications-devel
 knotifyconfig-devel
 kompare
+kompare-lang
 konsole
 konsole-lang
 konsole-part
@@ -1211,6 +1237,7 @@ konversation
 konversation-lang
 kopete
 korganizer
+korganizer-lang
 kpackage
 kpackage-devel
 kparts-devel
@@ -1246,6 +1273,7 @@ ksysguard5
 ktexteditor
 ktexteditor-devel
 ktextwidgets-devel
+ktnef-lang
 ktouch
 ktp-accounts-kcm
 ktp-accounts-kcm-lang
@@ -1317,6 +1345,7 @@ libKF5AkonadiPrivate5
 libKF5AkonadiSearch
 libKF5AkonadiWidgets5
 libKF5AkonadiXml5
+libKF5AlarmCalendar5
 libKF5Archive5
 libKF5Attica5
 libKF5Auth5
@@ -1351,6 +1380,7 @@ libKF5Gravatar5
 libKF5GuiAddons5
 libKF5Holidays5
 libKF5I18n5
+libKF5IMAP5
 libKF5IconThemes5
 libKF5IdentityManagement5
 libKF5IdleTime5
@@ -1376,6 +1406,7 @@ libKF5Libkleo5
 libKF5MailCommon5
 libKF5MailImporter5
 libKF5MailTransport5
+libKF5MailTransportAkonadi5
 libKF5Mbox5
 libKF5MediaPlayer5
 libKF5Mime5
@@ -1389,6 +1420,7 @@ libKF5Notifications5
 libKF5NotifyConfig5
 libKF5Parts5
 libKF5PimCommon5
+libKF5PimCommonAkonadi5
 libKF5PimTextEdit5
 libKF5Plotting5
 libKF5Prison5
@@ -1415,6 +1447,11 @@ libKF5WindowSystem5
 libKF5XmlGui5
 libKF5XmlRpcClient5
 libKGantt2
+libKPimGAPICalendar5
+libKPimGAPIContacts5
+libKPimGAPICore5
+libKPimGAPITasks5
+libKPimKDAV5
 libKScreenLocker5
 libLLVM4
 libMagickCore-7_Q16HDRI2
@@ -2091,12 +2128,16 @@ libkleo-lang
 libkmahjongg
 libkmod2
 libkms1
+libkolab1
+libkolabxml1
 libkomparediff2-5
 libkomparediff2-lang
 libksane-lang
 libksba8
 libkscreen2-devel
 libkscreen2-plugin
+libksieve
+libksieve-lang
 libksuseinstall1
 libksysguard5
 libksysguard5-devel
@@ -2860,6 +2901,7 @@ lzop
 m17n-db
 m4
 mailcommon
+mailcommon-lang
 mailimporter
 mailimporter-lang
 mailman
@@ -2885,6 +2927,7 @@ mariadb-client
 mariadb-errormessages
 master-boot-code
 mbimcli-bash-completion
+mbox-importer
 mc
 mc-lang
 mdadm
@@ -2894,6 +2937,7 @@ menu-cache
 mercurial
 mercurial-lang
 messagelib
+messagelib-lang
 metamail
 metatheme-adwaita-common
 metatheme-breeze-common
@@ -3361,6 +3405,10 @@ php5-xmlreader
 php5-xmlwriter
 pidgin
 pigz
+pim-data-exporter
+pim-data-exporter-lang
+pim-sieve-editor
+pim-sieve-editor-lang
 pimcommon
 pimcommon-lang
 pinentry

@@ -20,9 +20,12 @@ acl
 acpica
 adaptec-firmware
 adjtimex
+akonadi-calendar-lang
 akonadi-calendar-tools
+akonadi-calendar-tools-lang
 akonadi-contact
 akonadi-contact-lang
+akonadi-import-wizard
 akonadi-mime
 akonadi-mime-lang
 akonadi-notes-lang
@@ -89,6 +92,7 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 calendarsupport
+calendarsupport-lang
 cantarell-fonts
 cdrkit-cdrtools-compat
 checkmedia
@@ -152,6 +156,7 @@ elfutils
 espeak
 ethtool
 eventviews
+eventviews-lang
 expat
 fd0ssh
 fdupes
@@ -226,6 +231,7 @@ icoutils
 idnkit
 ifplugd
 incidenceeditor
+incidenceeditor-lang
 info
 info2html
 initviocons
@@ -246,6 +252,10 @@ kaccounts-providers
 kaccounts-providers-lang
 kactivities5-imports
 kactivitymanagerd
+kaddressbook
+kaddressbook-lang
+kalarmcal
+kalarmcal-lang
 kamera-lang
 kate
 kate-lang
@@ -255,6 +265,7 @@ kbd-legacy
 kcalc
 kcalc-lang
 kcalutils
+kcalutils-lang
 kcharselect
 kcharselect-lang
 kcm_sddm
@@ -265,6 +276,7 @@ kconf_update5
 kcontacts-lang
 kcoreaddons
 kcoreaddons-lang
+kdav
 kdbusaddons-tools
 kde-cli-tools5
 kde-cli-tools5-lang
@@ -285,8 +297,11 @@ kdelibs4-core
 kdelibs4support
 kdelibs4support-lang
 kdepim-addons
+kdepim-addons-lang
 kdepim-apps-libs
 kdepim-apps-libs-lang
+kdepim-runtime
+kdepim-runtime-lang
 kdialog
 kdialog-lang
 kdnssd
@@ -307,7 +322,9 @@ khelpcenter5
 khelpcenter5-lang
 khotkeys5
 khotkeys5-lang
+kidentitymanagement-lang
 kimageformats
+kimap-lang
 kinfocenter5
 kinfocenter5-lang
 kinit
@@ -323,7 +340,14 @@ kio_kamera
 kio_mtp
 kldap
 kldap-lang
+kleopatra
+kleopatra-lang
 klogd
+kmail
+kmail-account-wizard
+kmail-account-wizard-lang
+kmail-application-icons
+kmail-lang
 kmailtransport
 kmailtransport-lang
 kmenuedit5
@@ -333,7 +357,9 @@ kmod
 kmod-compat
 kmousetool
 knotes
+knotes-lang
 kompare
+kompare-lang
 konqueror
 konqueror-lang
 konsole
@@ -344,6 +370,7 @@ kontact-lang
 kontactinterface-lang
 konversation
 korganizer
+korganizer-lang
 kpackage
 kpackage-lang
 kpartx
@@ -369,6 +396,7 @@ ksysguard5
 ksysguard5-lang
 ktexteditor
 ktexteditor-lang
+ktnef-lang
 ktp-accounts-kcm
 ktp-accounts-kcm-lang
 kwallet-tools
@@ -405,6 +433,7 @@ libKF5AkonadiPrivate5
 libKF5AkonadiSearch
 libKF5AkonadiWidgets5
 libKF5AkonadiXml5
+libKF5AlarmCalendar5
 libKF5Archive5
 libKF5Attica5
 libKF5Auth5
@@ -450,6 +479,7 @@ libKF5GuiAddons5
 libKF5Holidays5
 libKF5I18n5
 libKF5I18n5-lang
+libKF5IMAP5
 libKF5IconThemes5
 libKF5IconThemes5-lang
 libKF5IdentityManagement5
@@ -477,6 +507,7 @@ libKF5Libkleo5
 libKF5MailCommon5
 libKF5MailImporter5
 libKF5MailTransport5
+libKF5MailTransportAkonadi5
 libKF5Mbox5
 libKF5Mime5
 libKF5ModemManagerQt6
@@ -491,6 +522,7 @@ libKF5NotifyConfig5-lang
 libKF5Parts5
 libKF5Parts5-lang
 libKF5PimCommon5
+libKF5PimCommonAkonadi5
 libKF5PimTextEdit5
 libKF5Prison5
 libKF5Pty5
@@ -525,6 +557,11 @@ libKF5XmlGui5-lang
 libKF5XmlRpcClient5
 libKF5XmlRpcClient5-lang
 libKGantt2
+libKPimGAPICalendar5
+libKPimGAPIContacts5
+libKPimGAPICore5
+libKPimGAPITasks5
+libKPimKDAV5
 libKScreenLocker5
 libLLVM4
 libQt5CLucene5
@@ -794,14 +831,19 @@ libkdepimlibs4
 libkerfuffle17
 libkeyutils1
 libkgantt-lang
+libkgapi-lang
 libkipi-data
 libkleo
 libkleo-lang
 libkmod2
+libkolab1
+libkolabxml1
 libkomparediff2-5
 libkomparediff2-lang
 libksba8
 libkscreen2-plugin
+libksieve
+libksieve-lang
 libksuseinstall1
 libksysguard5
 libksysguard5-helper
@@ -1115,6 +1157,7 @@ lsscsi
 luit
 lvm2
 mailcommon
+mailcommon-lang
 mailimporter
 mailimporter-lang
 mailx
@@ -1124,11 +1167,13 @@ mariadb-client
 mariadb-errormessages
 master-boot-code
 mbimcli-bash-completion
+mbox-importer
 mc
 mdadm
 media-player-info
 memtest86+
 messagelib
+messagelib-lang
 metatheme-breeze-common
 milou5
 milou5-lang
@@ -1283,6 +1328,10 @@ permissions
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 pigz
+pim-data-exporter
+pim-data-exporter-lang
+pim-sieve-editor
+pim-sieve-editor-lang
 pimcommon
 pimcommon-lang
 pinentry
