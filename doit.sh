@@ -147,7 +147,7 @@ for arch in $arches; do
        if test "$proj" = "Factory"; then
          #./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
          ./gen.pl opensuse/$proj/dvd-addon_lang $arch "$proj" $repo
-         ./gen.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
+         #./gen.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
        fi
     fi
 done
