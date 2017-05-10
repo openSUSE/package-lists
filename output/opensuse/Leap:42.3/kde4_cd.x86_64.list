@@ -35,7 +35,8 @@ adjtimex
 adwaita-icon-theme
 akonadi-contact
 akonadi-contact-lang
-akonadi-runtime
+akonadi-server
+akonadi-server-lang
 alsa
 alsa-firmware
 alsa-oss
@@ -374,7 +375,6 @@ kdelibs4support-lang
 kdenetwork4-filesharing
 kdenetwork4-filesharing-lang
 kdepasswd
-kdepim4-runtime
 kdepimlibs4
 kdialog
 kdnssd
@@ -485,10 +485,12 @@ libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libKF5Activities5
 libKF5ActivitiesStats1
+libKF5AkonadiAgentBase5
 libKF5AkonadiContact5
 libKF5AkonadiCore5
 libKF5AkonadiPrivate5
 libKF5AkonadiWidgets5
+libKF5AkonadiXml5
 libKF5Archive5
 libKF5Attica5
 libKF5Auth5
@@ -608,6 +610,7 @@ libQt5Script5
 libQt5Sensors5
 libQt5Sensors5-imports
 libQt5Sql5
+libQt5Sql5-mysql
 libQt5Sql5-sqlite
 libQt5Svg5
 libQt5Test5
@@ -697,7 +700,6 @@ libblkid1
 libbluetooth3
 libbluray1
 libboost_filesystem1_54_0
-libboost_program_options1_54_0
 libboost_system1_54_0
 libboost_thread1_54_0
 libbs2b0
@@ -899,14 +901,10 @@ libkdepimlibs4
 libkerfuffle17
 libkeyutils1
 libkf5kdegames6
-libkfbapi-lang
-libkfbapi1
 libkipi-data
 libkmahjongg
 libkmahjongg-lang
 libkmod2
-libkolab0
-libkolabxml1
 libkomparediff2-5
 libkomparediff2-lang
 libkonq5
@@ -1057,7 +1055,7 @@ libqrencode3
 libqt4
 libqt4-qt3support
 libqt4-sql
-libqt4-sql-mysql
+libqt4-sql-sqlite
 libqt4-x11
 libqt5-linguist
 libqt5-qtgraphicaleffects
