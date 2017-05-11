@@ -117,6 +117,7 @@ coreutils
 coreutils-lang
 cpio
 cpio-lang
+cpio-mt
 cpp
 cpp6
 cpupower
@@ -753,7 +754,7 @@ libgjs0
 libglib-2_0-0
 libglibmm-2_4-1
 libgltf-0_0-0
-libglvnd0
+libglvnd
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -1304,7 +1305,6 @@ mozilla-nss-certs
 mpg123-openal
 mpg123-pulse
 mpt-firmware
-mt-st
 mtools
 mutter
 mutter-data
@@ -1648,6 +1648,7 @@ speech-dispatcher-module-espeak
 sssd
 sssd-krb5-common
 sssd-ldap
+star
 strace
 sudo
 suse-module-tools
@@ -1673,6 +1674,7 @@ system-group-hardware
 system-user-lp
 system-user-mail
 system-user-man
+system-user-nobody
 system-user-srvGeoClue
 systemd
 systemd-bash-completion

@@ -47,6 +47,7 @@ cifs-utils
 command-not-found
 coreutils
 cpio
+cpio-mt
 cpp
 cpp6
 cpupower
@@ -323,7 +324,7 @@ libgdk_pixbuf-2_0-0
 libgio-2_0-0
 libgirepository-1_0-1
 libglib-2_0-0
-libglvnd0
+libglvnd
 libgmodule-2_0-0
 libgmp10
 libgnome-keyring0
@@ -581,7 +582,6 @@ metatheme-adwaita-common
 mkfontdir
 mkfontscale
 mozilla-nspr
-mt-st
 mtools
 ncurses-utils
 net-tools
@@ -795,6 +795,7 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
+star
 strace
 sudo
 suse-module-tools
@@ -810,6 +811,7 @@ system-config-printer-dbus-service
 system-user-lp
 system-user-mail
 system-user-man
+system-user-nobody
 systemd
 systemd-bash-completion
 systemd-logger

@@ -77,6 +77,7 @@ cifs-utils
 command-not-found
 coreutils
 cpio
+cpio-mt
 cpp
 cpp6
 cpupower
@@ -558,7 +559,7 @@ libgirepository-1_0-1
 libgjs0
 libglib-2_0-0
 libglibmm-2_4-1
-libglvnd0
+libglvnd
 libgme0
 libgmime-2_6-0
 libgmodule-2_0-0
@@ -1021,7 +1022,6 @@ mozilla-nss
 mozilla-nss-certs
 mpg123-openal
 mpg123-pulse
-mt-st
 mtools
 mutter
 mutter-data
@@ -1289,6 +1289,7 @@ snapper
 snapper-zypp-plugin
 snmp-mibs
 sound-theme-freedesktop
+star
 strace
 sudo
 suse-module-tools
@@ -1309,6 +1310,7 @@ system-group-hardware
 system-user-lp
 system-user-mail
 system-user-man
+system-user-nobody
 system-user-srvGeoClue
 systemd
 systemd-bash-completion

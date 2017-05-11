@@ -1,6 +1,3 @@
-Mesa-libEGL1
-Mesa-libGL1
-Mesa-libglapi0
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -43,6 +40,7 @@ cifs-utils
 command-not-found
 coreutils
 cpio
+cpio-mt
 cpupower
 cracklib
 cracklib-dict-full
@@ -152,11 +150,9 @@ krb5
 less
 libFLAC8
 libICE6
-libLLVM4
 libSM6
 libX11-6
 libX11-data
-libX11-xcb1
 libXau6
 libXcomposite1
 libXcursor1
@@ -171,7 +167,6 @@ libXrandr2
 libXrender1
 libXt6
 libXtst6
-libXxf86vm1
 libacl1
 libaio1
 libao-plugins4
@@ -220,10 +215,6 @@ libdevmapper1_03
 libdns165
 libdns_sd
 libdrm2
-libdrm_amdgpu1
-libdrm_intel1
-libdrm_nouveau2
-libdrm_radeon1
 libdw1
 libedit0
 libefivar1
@@ -239,7 +230,6 @@ libfont-specimen0
 libfontenc1
 libfreetype6
 libfuse2
-libgbm1
 libgcc_s1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -250,7 +240,7 @@ libgdk_pixbuf-2_0-0
 libgio-2_0-0
 libgirepository-1_0-1
 libglib-2_0-0
-libglvnd0
+libglvnd
 libgmodule-2_0-0
 libgmp10
 libgnome-keyring0
@@ -327,7 +317,6 @@ libpango-1_0-0
 libparted0
 libpcap1
 libpci3
-libpciaccess0
 libpcre1
 libpipeline1
 libpixman-1-0
@@ -402,24 +391,16 @@ libvorbisfile3
 libwayland-client0
 libwayland-cursor0
 libwayland-egl1
-libwayland-server0
 libwbclient0
 libwicked-0-6
 libwrap0
 libx86emu1
-libxcb-dri2-0
-libxcb-dri3-0
-libxcb-glx0
-libxcb-present0
 libxcb-render0
 libxcb-shm0
-libxcb-sync1
-libxcb-xfixes0
 libxcb1
 libxkbcommon0
 libxml2-2
 libxml2-tools
-libxshmfence1
 libxtables12
 libyaml-0-2
 libyui-ncurses-pkg7
@@ -441,7 +422,6 @@ metatheme-adwaita-common
 mkfontdir
 mkfontscale
 mozilla-nspr
-mt-st
 mtools
 ncurses-utils
 net-tools
@@ -634,8 +614,6 @@ ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-augeas
 ruby2.2-rubygem-ruby-dbus
 ruby2.2-stdlib
-s2tc
-s2tc-32bit
 samba-libs
 scout
 sed
@@ -647,6 +625,7 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
+star
 strace
 sudo
 suse-module-tools
@@ -660,6 +639,7 @@ system-config-printer-dbus-service
 system-user-lp
 system-user-mail
 system-user-man
+system-user-nobody
 systemd
 systemd-bash-completion
 systemd-logger

@@ -1,8 +1,3 @@
-Mesa
-Mesa-libEGL1
-Mesa-libGL1
-Mesa-libglapi0
-Mesa-libva
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -29,6 +24,9 @@ bash-doc
 blog
 boost-license1_64_0
 branding-openSUSE
+btrfsmaintenance
+btrfsprogs
+btrfsprogs-udev-rules
 bundle-lang-common-en
 bundle-lang-gnome-en
 bundle-lang-kde-en
@@ -40,6 +38,7 @@ cdrkit-cdrtools-compat
 checkmedia
 coreutils
 cpio
+cpio-mt
 cracklib
 cracklib-dict-full
 cron
@@ -89,6 +88,7 @@ gcr-viewer
 gdk-pixbuf-query-loaders
 genisoimage
 gio-branding-openSUSE
+girepository-1_0
 glib-networking
 glib2-tools
 glibc
@@ -123,7 +123,15 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
 gtk3-tools
+gtk4-branding-upstream
+gtk4-data
+gtk4-immodule-amharic
+gtk4-immodule-inuktitut
+gtk4-immodule-thai
+gtk4-immodule-vietnamese
+gtk4-lang
 gtk4-schema
+gtk4-tools
 gvfs
 gvfs-backend-afc
 gvfs-backends
@@ -156,7 +164,6 @@ libGLU1
 libGeneratedSaxParser0_2
 libICE6
 libKF5ConfigCore5
-libLLVM4
 libMathMLSolver0_2
 libOpenCOLLADABaseUtils0_2
 libOpenCOLLADAFramework0_2
@@ -169,6 +176,7 @@ libQt5Widgets5
 libQt5X11Extras5
 libQtWebKit4
 libSM6
+libSPIRV-Tools-suse2
 libUTF0_2
 libX11-6
 libX11-data
@@ -192,7 +200,6 @@ libXss1
 libXt6
 libXtst6
 libXv1
-libXxf86vm1
 libabw-0_1-1
 libacl1
 libao-plugins4
@@ -221,6 +228,8 @@ libboost_date_time1_64_0
 libboost_filesystem1_64_0
 libboost_iostreams1_64_0
 libboost_system1_64_0
+libboost_thread1_64_0
+libbtrfs0
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -250,13 +259,8 @@ libdevmapper1_03
 libdialog14
 libdouble-conversion1
 libdrm2
-libdrm_amdgpu1
-libdrm_intel1
-libdrm_nouveau2
-libdrm_radeon1
 libdw1
 libe-book-0_1-1
-libedit0
 libelf1
 libenchant1
 libepoxy0
@@ -265,6 +269,7 @@ libetonyek-0_1-1
 libevdev2
 libexif12
 libexpat1
+libext2fs2
 libexttextcat
 libexttextcat-2_0-0
 libfdisk1
@@ -278,7 +283,6 @@ libfreetype6
 libfribidi0
 libftgl2
 libfuse2
-libgbm1
 libgcc_s1
 libgck-1-0
 libgcr-3-1
@@ -289,9 +293,10 @@ libgdbm4
 libgdk_pixbuf-2_0-0
 libgif7
 libgio-2_0-0
+libgirepository-1_0-1
 libglib-2_0-0
 libgltf-0_0-0
-libglvnd0
+libglvnd
 libgmodule-2_0-0
 libgmp10
 libgnutls30
@@ -300,6 +305,7 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgpg-error0
 libgphoto2-6
+libgraphene-1_0-0
 libgraphite2-3
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -311,6 +317,7 @@ libgsttag-1_0-0
 libgstvideo-1_0-0
 libgtk-2_0-0
 libgtk-3-0
+libgtk-4-0
 libgudev-1_0-0
 libharfbuzz-icu0
 libharfbuzz0
@@ -349,6 +356,7 @@ libltdl7
 liblua5_3
 liblz4-1_7
 liblzma5
+liblzo2-2
 libmagic1
 libmetalink3
 libmng2
@@ -386,7 +394,6 @@ libpackagekit-glib2-18
 libpagemaker-0_0-0
 libpango-1_0-0
 libpci3
-libpciaccess0
 libpcre1
 libpcre16-0
 libpcsclite1
@@ -451,6 +458,7 @@ libsemanage1
 libsepol1
 libserializer
 libsmartcols1
+libsnapper4
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -487,6 +495,7 @@ libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvulkan1
 libwacom-data
 libwacom2
 libwayland-client0
@@ -502,13 +511,10 @@ libwpg-0_3-3
 libwps-0_4-4
 libwrap0
 libx86emu1
-libxcb-dri2-0
-libxcb-dri3-0
 libxcb-glx0
 libxcb-icccm4
 libxcb-image0
 libxcb-keysyms1
-libxcb-present0
 libxcb-randr0
 libxcb-render-util0
 libxcb-render0
@@ -523,7 +529,6 @@ libxcb1
 libxkbcommon-x11-0
 libxkbcommon0
 libxml2-2
-libxshmfence1
 libxslt-tools
 libxslt1
 libyaml-0-2
@@ -552,7 +557,6 @@ mkfontscale
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mt-st
 myspell-dictionaries
 myspell-en
 myspell-en_US
@@ -626,11 +630,15 @@ ptools
 publicsuffix
 python
 python-base
+python-gobject
+python-gobject-Gdk
+python-gobject-cairo
 python-javapackages
 python-pyxb
 python-rpm-macros
 python-xml
 python2-cssselect
+python2-dbus-python
 python2-lxml
 python2-six
 python3
@@ -638,6 +646,9 @@ python3-appdirs
 python3-base
 python3-curses
 python3-dbm
+python3-gobject
+python3-gobject-Gdk
+python3-gobject-cairo
 python3-idle
 python3-packaging
 python3-pip
@@ -657,7 +668,6 @@ ruby2.2-rubygem-fast_gettext
 ruby2.2-rubygem-gem2rpm
 ruby2.2-rubygem-ruby-augeas
 ruby2.2-stdlib
-s2tc
 sac
 sed
 sendmail
@@ -666,8 +676,11 @@ shared-mime-info
 sharutils
 sharutils-lang
 site-config
+snapper
+snapper-zypp-plugin
 sound-theme-freedesktop
 squid
+star
 suse-module-tools
 sysconfig
 sysconfig-netconfig
@@ -686,6 +699,11 @@ timezone
 timezone-java
 tk
 traceroute
+typelib-1_0-Atk-1_0
+typelib-1_0-GdkPixbuf-2_0
+typelib-1_0-Graphene-1_0
+typelib-1_0-Gtk-4_0
+typelib-1_0-Pango-1_0
 udev
 udisks2
 unzip
@@ -695,6 +713,7 @@ update-desktop-files
 util-linux
 util-linux-systemd
 vorbis-tools
+vulkan
 wallpaper-branding-openSUSE
 webkit2gtk-4_0-injected-bundles
 which
@@ -725,10 +744,12 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
 yast2-scanner
+yast2-snapper
 yast2-transfer
 yast2-xml
 yast2-ycp-ui-bindings
 zisofs-tools
+zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-lifecycle-plugin

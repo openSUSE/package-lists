@@ -77,6 +77,7 @@ cln
 command-not-found
 coreutils
 cpio
+cpio-mt
 cpp
 cpp6
 cpupower
@@ -568,7 +569,7 @@ libgio-2_0-0
 libgirepository-1_0-1
 libgit2-25
 libglib-2_0-0
-libglvnd0
+libglvnd
 libgme0
 libgmodule-2_0-0
 libgmp10
@@ -984,7 +985,6 @@ mozilla-nss
 mozilla-nss-certs
 mpg123-openal
 mpg123-pulse
-mt-st
 mtools
 ncurses-utils
 net-tools
@@ -1266,6 +1266,7 @@ solid-tools
 sound-theme-freedesktop
 spectacle
 sshfs
+star
 strace
 sudo
 suse-module-tools
@@ -1284,6 +1285,7 @@ system-group-hardware
 system-user-lp
 system-user-mail
 system-user-man
+system-user-nobody
 systemd
 systemd-bash-completion
 systemd-logger
