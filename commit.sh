@@ -39,9 +39,9 @@ for arch in $arches; do
       ./mk_group.sh output/opensuse/$proj/nonoss-$arch.list Addon-NonOss-$arch osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-$arch.group only_$arch
       ./mk_group.sh output/opensuse/$proj/nonoss.deps.list Addon-NonOss-Deps osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps.group
       ./mk_group.sh output/opensuse/$proj/nonoss.deps-$arch.list Addon-NonOss-Deps-$arch osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps-$arch.group only_$arch
-      #if [ "$proj" = "Factory" ]; then
-      #  ./mk_group.sh output/opensuse/$proj/dvd-kubic.$arch.list openSUSE-Kubic osc/openSUSE:$proj/_product/openSUSE-Kubic.group
-      #fi
+      if [ "$proj" = "Factory" ]; then
+        ./mk_group.sh output/opensuse/$proj/dvd-kubic.$arch.list openSUSE-Kubic osc/openSUSE:$proj/_product/openSUSE-Kubic.group
+      fi
     fi
 done
 
