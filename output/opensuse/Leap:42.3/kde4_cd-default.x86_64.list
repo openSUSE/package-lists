@@ -23,7 +23,9 @@ accountsservice
 acl
 acpica
 adjtimex
+akonadi-calendar-tools
 akonadi-contact
+akonadi-import-wizard
 akonadi-mime
 alsa
 alsa-oss
@@ -76,6 +78,7 @@ btrfsprogs-udev-rules
 bzip2
 ca-certificates
 ca-certificates-mozilla
+calendarsupport
 cantarell-fonts
 catdoc
 checkmedia
@@ -136,6 +139,7 @@ e2fsprogs
 efibootmgr
 elfutils
 ethtool
+eventviews
 expat
 farstream-data
 fdupes
@@ -239,6 +243,7 @@ icewm-config-upstream
 icewm-default
 icoutils
 ifplugd
+incidenceeditor
 info
 info2html
 initviocons
@@ -288,6 +293,7 @@ kdelibs4-core
 kdelibs4support
 kdenetwork4-filesharing
 kdepasswd
+kdepim-addons
 kdepim-apps-libs
 kdepim-runtime
 kdialog
@@ -314,21 +320,28 @@ kio_mtp
 kipi-plugin-icons
 kipi-plugins5
 kldap
+kleopatra
 klogd
 kmag
 kmahjongg
+kmail
+kmail-account-wizard
+kmail-application-icons
 kmailtransport
 kmenuedit5
 kmines
 kmod
 kmod-compat
 kmousetool
+knotes
 kompare
 konqueror
 konqueror-plugins
 konsole
 konsole-part
+kontact
 konversation
+korganizer
 kpackage
 kpartx
 kpat
@@ -384,6 +397,7 @@ libKF5BluezQt6
 libKF5Bookmarks5
 libKF5CalendarCore5
 libKF5CalendarEvents5
+libKF5CalendarSupport5
 libKF5CalendarUtils5
 libKF5Cddb5
 libKF5Codecs5
@@ -400,9 +414,11 @@ libKF5DNSSD5
 libKF5Declarative5
 libKF5DocTools5
 libKF5Emoticons5
+libKF5EventViews5
 libKF5GlobalAccel5
 libKF5GlobalAccelPrivate5
 libKF5GrantleeTheme5
+libKF5Gravatar5
 libKF5GuiAddons5
 libKF5Holidays5
 libKF5I18n5
@@ -410,6 +426,7 @@ libKF5IMAP5
 libKF5IconThemes5
 libKF5IdentityManagement5
 libKF5IdleTime5
+libKF5IncidenceEditor5
 libKF5ItemModels5
 libKF5ItemViews5
 libKF5JS5
@@ -427,6 +444,9 @@ libKF5Ldap5
 libKF5Libkdepim5
 libKF5LibkdepimAkonadi5
 libKF5Libkleo5
+libKF5MailCommon5
+libKF5MailImporter5
+libKF5MailImporterAkonadi5
 libKF5MailTransport5
 libKF5MailTransportAkonadi5
 libKF5Mbox5
@@ -454,6 +474,7 @@ libKF5Su5
 libKF5SyntaxHighlighting5
 libKF5TextWidgets5
 libKF5ThreadWeaver5
+libKF5Tnef5
 libKF5UnitConversion5
 libKF5Wallet5
 libKF5WebKit5
@@ -461,6 +482,7 @@ libKF5WidgetsAddons5
 libKF5WindowSystem5
 libKF5XmlGui5
 libKF5XmlRpcClient5
+libKGantt2
 libKPimGAPICalendar5
 libKPimGAPIContacts5
 libKPimGAPICore5
@@ -677,6 +699,7 @@ libgpgmepp6
 libgphoto2-6
 libgps22
 libgraphite2-3
+libgravatar
 libgsm1
 libgssdp-1_0-3
 libgstadaptivedemux-1_0-0
@@ -762,6 +785,7 @@ libkomparediff2-5
 libkonq5
 libksba8
 libkscreen2-plugin
+libksieve
 libksuseinstall1
 libksysguard5
 libksysguard5-helper
@@ -1072,11 +1096,15 @@ lsof
 lsscsi
 luit
 lvm2
+mailcommon
+mailimporter
 mailx
 man
 master-boot-code
+mbox-importer
 mdadm
 media-player-info
+messagelib
 metatheme-adwaita-common
 metatheme-breeze-common
 milou5
@@ -1188,6 +1216,7 @@ permissions
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 pigz
+pim-sieve-editor
 pimcommon
 pinentry
 pinentry-qt4
