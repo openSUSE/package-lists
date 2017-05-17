@@ -15,6 +15,7 @@ Mesa-libEGL1
 Mesa-libGL-devel
 Mesa-libGL1
 Mesa-libglapi0
+Mesa-libglapi0-32bit
 Mesa-libva
 ModemManager
 ModemManager-bash-completion
@@ -87,6 +88,7 @@ alsa-firmware
 alsa-oss
 alsa-oss-32bit
 alsa-plugins
+alsa-plugins-32bit
 alsa-plugins-pulse
 alsa-plugins-pulse-32bit
 alsa-utils
@@ -311,6 +313,7 @@ bzr
 bzr-lang
 ca-certificates
 ca-certificates-mozilla
+cabextract
 cairo-devel
 calendarsupport
 calligra
@@ -478,6 +481,7 @@ docbook_5
 dolphin
 dolphin-part
 dos2unix
+dosbox
 dosfstools
 doxygen
 dracut
@@ -581,6 +585,7 @@ fd0ssh
 fdupes
 festival
 fetchmail
+ffmpegthumbs
 fftw3-devel
 fifth-leg-font
 file
@@ -1218,6 +1223,7 @@ kde-l10n-ru
 kde-l10n-ru-data
 kde-l10n-zh_CN
 kde-l10n-zh_TW
+kde-odf-thumbnail
 kde-oxygen-fonts
 kde-print-manager
 kde-user-manager
@@ -1233,6 +1239,7 @@ kded-devel
 kdeedu-data
 kdegames-carddecks-default
 kdegames4-carddecks-default
+kdegraphics-thumbnailers
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
@@ -1506,6 +1513,7 @@ libFLAC8-32bit
 libFOX-1_6-0
 libGLEW1_13
 libGLU1
+libGLU1-32bit
 libGeneratedSaxParser0_2
 libGeoIP1
 libGraphicsMagick-Q16-3
@@ -1655,6 +1663,8 @@ libMagick++-7_Q16HDRI2
 libMagickCore-7_Q16HDRI2
 libMagickWand-7_Q16HDRI0
 libMathMLSolver0_2
+libOSMesa8
+libOSMesa8-32bit
 libOpenCOLLADABaseUtils0_2
 libOpenCOLLADAFramework0_2
 libOpenCOLLADASaxFrameworkLoader0_2
@@ -1723,6 +1733,8 @@ libSDL2-2_0-0
 libSDL_gfx15
 libSDL_image-1_2-0
 libSDL_mixer-1_2-0
+libSDL_net-1_2-0
+libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSM-devel
 libSM6
@@ -1774,6 +1786,7 @@ libXp-devel
 libXp6
 libXpm-devel
 libXpm4
+libXpm4-32bit
 libXprintUtil-devel
 libXprintUtil1
 libXrandr2
@@ -1794,6 +1807,7 @@ libXxf86dga1
 libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
+libXxf86vm1-32bit
 libaa1
 libabiword-3_0
 libabw-0_1-1
@@ -1867,8 +1881,10 @@ libavahi-gobject0
 libavahi-ui-gtk3-0
 libavc1394-0
 libavcodec57
+libavfilter6
 libavformat57
 libavogadro1
+libavresample3
 libavutil55
 libb64-0
 libbabl-0_1-0
@@ -1980,6 +1996,7 @@ libcap-ng0
 libcap2
 libcap2-32bit
 libcapi20-3
+libcapi20-3-32bit
 libcares2
 libcaribou0
 libccolamd-2_9_1
@@ -2044,6 +2061,7 @@ libdatrie1
 libdatrie1-32bit
 libdb-4_5
 libdb-4_8
+libdb-4_8-32bit
 libdb-4_8-devel
 libdbus-1-3
 libdbus-1-3-32bit
@@ -2106,6 +2124,7 @@ libeditorconfig0
 libefivar1
 libeigen2-devel
 libelf1
+libelf1-32bit
 libenca0
 libenchant1
 libepoxy0
@@ -2129,6 +2148,7 @@ libexempi-devel
 libexempi3
 libexif-devel
 libexif12
+libexif12-32bit
 libexiv2-14
 libexo-1-0
 libexo-1-0-branding-openSUSE
@@ -2213,6 +2233,7 @@ libgcrypt-devel
 libgcrypt20
 libgcrypt20-32bit
 libgd3
+libgd3-32bit
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
@@ -2222,6 +2243,7 @@ libgda-ui-5_0-4
 libgda-ui-5_0-plugins
 libgdata22
 libgdbm4
+libgdbm4-32bit
 libgdict-1_0-10
 libgdict-data
 libgdiplus0
@@ -2321,6 +2343,7 @@ libgpgme-devel
 libgpgme11
 libgpgmepp6
 libgphoto2-6
+libgphoto2-6-32bit
 libgphoto2-devel
 libgpm2
 libgpod-devel
@@ -2339,6 +2362,7 @@ libgsf-devel
 libgsl19
 libgslcblas0
 libgsm1
+libgsm1-32bit
 libgsound0
 libgspell-1-1
 libgssdp-1_0-3
@@ -2348,6 +2372,7 @@ libgstadaptivedemux-1_0-0
 libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstaudio-1_0-0-32bit
 libgstbadaudio-1_0-0
 libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
@@ -2359,16 +2384,19 @@ libgstmpegts-1_0-0
 libgstpbutils-1_0-0
 libgstphotography-1_0-0
 libgstreamer-1_0-0
+libgstreamer-1_0-0-32bit
 libgstriff-1_0-0
 libgstrtp-1_0-0
 libgstrtsp-1_0-0
 libgstrtspserver-1_0-0
 libgstsdp-1_0-0
 libgsttag-1_0-0
+libgsttag-1_0-0-32bit
 libgsttranscoder-1_0-0
 libgsturidownloader-1_0-0
 libgstvalidate-1_0-0
 libgstvideo-1_0-0
+libgstvideo-1_0-0-32bit
 libgstwayland-1_0-0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
@@ -2414,6 +2442,7 @@ libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
+libhdf4
 libhdf5-100
 libhdf5_hl100
 libhogweed4
@@ -2441,6 +2470,7 @@ libidn2-0-32bit
 libidnkit1
 libiec61883-0
 libieee1284
+libieee1284-32bit
 libimobiledevice-devel
 libimobiledevice6
 libindi-devel
@@ -2575,6 +2605,7 @@ liblirc_driver0
 liblmdb-0_9_17
 libloader
 liblockdev1
+liblockdev1-32bit
 liblogging0
 libloudmouth-1-0
 liblouis-data
@@ -2589,6 +2620,7 @@ libltdl7-32bit
 liblua5_1
 liblua5_2
 liblua5_3
+liblua5_3-32bit
 liblvm2app2_2
 liblvm2cmd2_02
 liblwres141
@@ -2601,6 +2633,7 @@ liblzma5-32bit
 liblzo2-2
 libm17n0
 libmagic1
+libmagic1-32bit
 libmal-devel
 libmal1
 libmarblewidget-qt5-26
@@ -2640,6 +2673,8 @@ libmpcdec-devel
 libmpcdec5
 libmpd1
 libmpfr4
+libmpg123-0
+libmpg123-0-32bit
 libmpx2
 libmpxwrappers2
 libmspack0
@@ -2664,6 +2699,7 @@ libmysqld18
 libmythes-1_2-0
 libnautilus-extension1
 libncurses6
+libncurses6-32bit
 libndp0
 libndr-krb5pac0
 libndr-krb5pac0-32bit
@@ -2678,6 +2714,7 @@ libnes-rdmav2
 libnet9
 libnetapi0
 libnetapi0-32bit
+libnetcdf11
 libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm-devel
@@ -2696,6 +2733,7 @@ libnilfscleaner0
 libnilfsgc0
 libnl-config
 libnl3-200
+libnl3-200-32bit
 libnm-glib-vpn1
 libnm-glib4
 libnm-gtk0
@@ -2732,6 +2770,7 @@ libonig2
 libopagent1
 libopal3_10_10
 libopenal1
+libopenal1-32bit
 libopenbabel-devel
 libopenbabel4
 libopencc2
@@ -2749,6 +2788,7 @@ libopts25
 libopus0
 libopusfile0
 liborc-0_4-0
+liborc-0_4-0-32bit
 liborcus-0_12-0
 libosinfo
 libosinfo-1_0-0
@@ -2772,6 +2812,7 @@ libpano13-3
 libparted0
 libpath_utils1
 libpcap1
+libpcap1-32bit
 libpci3
 libpciaccess-devel
 libpciaccess0
@@ -2827,6 +2868,7 @@ libpopt0
 libpopt0-32bit
 libportaudio2
 libportmidi0
+libpostproc54
 libpowerman0
 libpq5
 libpqxx-5_0
@@ -3036,6 +3078,7 @@ libselinux1-32bit
 libsemanage-migrate-store
 libsemanage1
 libsensors4
+libsensors4-32bit
 libsensors4-devel
 libsepol-devel
 libsepol1
@@ -3076,6 +3119,7 @@ libsndfile-devel
 libsndfile1
 libsndfile1-32bit
 libsnmp30
+libsnmp30-32bit
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
@@ -3208,6 +3252,7 @@ libupsclient1
 liburcu2
 libusb-0_1-4
 libusb-1_0-0
+libusb-1_0-0-32bit
 libusb-1_0-devel
 libusb-compat-devel
 libusbmuxd-devel
@@ -3223,9 +3268,12 @@ libuv1
 libv4l
 libv4l-devel
 libv4l1-0
+libv4l1-0-32bit
 libv4l2-0
+libv4l2-0-32bit
 libv4l2rds0
 libv4lconvert0
+libv4lconvert0-32bit
 libva-drm1
 libva-egl1
 libva-glx1
@@ -3311,6 +3359,7 @@ libwebkitgtk2-lang
 libwebkitgtk3-lang
 libwebp-devel
 libwebp6
+libwebp6-32bit
 libwebpdecoder2
 libwebpdemux2
 libwebpextras0
@@ -3330,6 +3379,7 @@ libwpg-0_3-3
 libwpg-devel
 libwps-0_4-4
 libwrap0
+libwrap0-32bit
 libwscodecs1
 libwsutil7
 libwv-1_2-3
@@ -3422,6 +3472,7 @@ libxslt-devel
 libxslt-python
 libxslt-tools
 libxslt1
+libxslt1-32bit
 libxtables12
 libyajl2
 libyaml-0-2
@@ -3754,6 +3805,7 @@ oxygen5-lang
 oxygen5-sounds
 oxygen5-style
 p11-kit
+p11-kit-32bit
 p11-kit-devel
 p11-kit-tools
 p7zip
@@ -3896,6 +3948,7 @@ pcsc-towitoko
 pentaho-libxml
 pentaho-reporting-flow-engine
 perl
+perl-32bit
 perl-Algorithm-Diff
 perl-Apache-AuthCookie
 perl-Apache-DBI
@@ -4586,6 +4639,7 @@ rng-tools
 rp-pppoe
 rpcbind
 rpm
+rpm-32bit
 rpm-build
 rpm-devel
 rpm-python
@@ -4628,6 +4682,7 @@ samba-libs-32bit
 samba-winbind
 samba-winbind-32bit
 sane-backends
+sane-backends-32bit
 sane-backends-autoconfig
 sane-backends-devel
 sash
@@ -4730,6 +4785,7 @@ sssd-32bit
 sssd-krb5-common
 sssd-ldap
 star
+star-rmt
 step
 step-lang
 stix-fonts
@@ -4802,6 +4858,7 @@ taglib
 taglib-extras-devel
 tango-icon-theme
 tar
+tar-rmt
 tcl
 tcpd-devel
 tcpdump
@@ -5043,6 +5100,8 @@ whois
 wicked
 wicked-service
 wiggle
+wine
+wine-32bit
 wireless-regdb
 wireless-tools
 wireshark

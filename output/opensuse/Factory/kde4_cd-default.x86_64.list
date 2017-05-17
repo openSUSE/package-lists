@@ -129,6 +129,7 @@ ethtool
 expat
 farstream-data
 fdupes
+ffmpegthumbs
 file
 file-magic
 filesystem
@@ -246,12 +247,14 @@ kcoreaddons
 kdbusaddons-tools
 kde-cli-tools5
 kde-gtk-config5
+kde-odf-thumbnail
 kde-oxygen-fonts
 kde-print-manager
 kde-user-manager
 kdeclarative-components
 kdeconnect-kde
 kded
+kdegraphics-thumbnailers
 kdelibs4support
 kdenetwork4-filesharing
 kdoctools
@@ -345,6 +348,8 @@ libKF5JobWidgets5
 libKF5JsEmbed5
 libKF5KCMUtils5
 libKF5KDELibs4Support5
+libKF5KDcraw5
+libKF5KExiv2-15_0_0
 libKF5KHtml5
 libKF5KMahjongglib5
 libKF5Kipi32_0_0
@@ -464,7 +469,9 @@ libavahi-core7
 libavahi-glib1
 libavahi-gobject0
 libavcodec57
+libavfilter6
 libavformat57
+libavresample3
 libavutil55
 libbind9-140
 libblkid1
@@ -617,6 +624,9 @@ libgupnp-1_0-4
 libgupnp-igd-1_0-4
 libgypsy0
 libharfbuzz0
+libhdf4
+libhdf5-100
+libhdf5_hl100
 libhogweed4
 libhttp-parser-suse0
 libhunspell-1_6-0
@@ -718,6 +728,7 @@ libndr-standard0
 libndr0
 libneon27
 libnetapi0
+libnetcdf11
 libnetfilter_conntrack3
 libnettle6
 libnewt0_52
@@ -770,6 +781,7 @@ libpolkit0
 libpoppler-qt5-1
 libpoppler67
 libpopt0
+libpostproc54
 libprocps6
 libprotobuf-c1
 libproxy1
@@ -806,6 +818,7 @@ libqt5-qttools
 libquicktime0
 libraptor2-0
 libraw1394-11
+libraw16
 libreadline7
 librest0
 librsvg-2-2
@@ -858,6 +871,7 @@ libstdc++6
 libstorage-ruby
 libstorage7
 libswresample2
+libswscale4
 libsystemd0
 libtag1
 libtalloc2
@@ -1266,7 +1280,6 @@ solid-tools
 sound-theme-freedesktop
 spectacle
 sshfs
-star
 strace
 sudo
 suse-module-tools
@@ -1294,6 +1307,7 @@ systemd-sysvinit
 systemsettings5
 sysvinit-tools
 tar
+tar-rmt
 telepathy-gabble
 telepathy-haze
 telepathy-idle

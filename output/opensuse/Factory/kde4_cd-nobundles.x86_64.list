@@ -193,6 +193,7 @@ expat
 farstream-data
 fd0ssh
 fdupes
+ffmpegthumbs
 file
 file-magic
 filesystem
@@ -380,6 +381,7 @@ kde-l10n-de-doc
 kde-l10n-ru
 kde-l10n-ru-data
 kde-l10n-ru-doc
+kde-odf-thumbnail
 kde-oxygen-fonts
 kde-print-manager
 kde-print-manager-lang
@@ -393,6 +395,7 @@ kdeconnect-kde-lang
 kded
 kded-lang
 kdegames-carddecks-default
+kdegraphics-thumbnailers
 kdelibs4
 kdelibs4-branding-openSUSE
 kdelibs4-core
@@ -613,6 +616,7 @@ libKF5KCMUtils5
 libKF5KCMUtils5-lang
 libKF5KDELibs4Support5
 libKF5KDcraw5
+libKF5KExiv2-15_0_0
 libKF5KHtml5
 libKF5KHtml5-lang
 libKF5KMahjongglib5
@@ -779,7 +783,9 @@ libavahi-core7
 libavahi-glib1
 libavahi-gobject0
 libavcodec57
+libavfilter6
 libavformat57
+libavresample3
 libavutil55
 libbasicobjects0
 libbind9-140
@@ -954,6 +960,9 @@ libgupnp-1_0-4
 libgupnp-igd-1_0-4
 libgypsy0
 libharfbuzz0
+libhdf4
+libhdf5-100
+libhdf5_hl100
 libhogweed4
 libhttp-parser-suse0
 libhunspell-1_6-0
@@ -1087,6 +1096,7 @@ libndr-standard0
 libndr0
 libneon27
 libnetapi0
+libnetcdf11
 libnetfilter_conntrack3
 libnettle6
 libnewt0_52
@@ -1150,6 +1160,7 @@ libpoppler-qt5-1
 libpoppler67
 libpopt0
 libportaudio2
+libpostproc54
 libprison0
 libprocps6
 libprotobuf-c1
@@ -1263,6 +1274,7 @@ libstdc++6
 libstorage-ruby
 libstorage7
 libswresample2
+libswscale4
 libsystemd0
 libtag-extras1
 libtag1
@@ -1759,7 +1771,6 @@ sshfs
 sssd
 sssd-krb5-common
 sssd-ldap
-star
 strace
 sudo
 suse-module-tools
@@ -1794,6 +1805,7 @@ sysvinit-tools
 taglib
 tar
 tar-lang
+tar-rmt
 telepathy-gabble
 telepathy-haze
 telepathy-idle
