@@ -97,4 +97,8 @@ job lock name espeak
 job lock name libgtkmm-3_0-1
 
 # And again - 2017-05-17 - dimstar - This is rescue, no audio system
-job lock name alsa
+job lcok name alsa-utils
+job lock name alsa-oss
+job lcok name icewm
+job lock name icewm-default
+job lock name dialog
