@@ -361,32 +361,13 @@ cal10n
 calendarsupport
 calendarsupport-lang
 calligra
+calligra-doc
 calligra-extras-dolphin
-calligra-l10n-cs
-calligra-l10n-da
-calligra-l10n-de
-calligra-l10n-de-doc
-calligra-l10n-el
-calligra-l10n-en_GB
-calligra-l10n-es
-calligra-l10n-es-doc
-calligra-l10n-fr
-calligra-l10n-fr-doc
-calligra-l10n-hu
-calligra-l10n-it
-calligra-l10n-it-doc
-calligra-l10n-ja
-calligra-l10n-pl
-calligra-l10n-pt
-calligra-l10n-pt-doc
-calligra-l10n-pt_BR
-calligra-l10n-pt_BR-doc
-calligra-l10n-ru
-calligra-l10n-ru-doc
-calligra-l10n-zh_CN
-calligra-l10n-zh_TW
+calligra-extras-okular
+calligra-lang
+calligra-sheets
 calligra-stage
-calligra-words-common
+calligra-words
 canberra-gtk-play
 cantarell-fonts
 capi4hylafax
@@ -1872,6 +1853,7 @@ libIlmImf-Imf_2_1-21
 libIlmThread-2_1-11
 libImath-2_1-11
 libImlib2-1
+libKChart2
 libKEduVocDocument5
 libKF5Activities5
 libKF5ActivitiesStats1
@@ -2431,7 +2413,6 @@ libcryptui0
 libcue1
 libcurl-devel
 libcurl4
-libcxgb3-rdmav2
 libdaemon0
 libdar5000
 libdatrie1
@@ -2907,6 +2888,7 @@ libkate1
 libkatepartinterfaces4
 libkcddb4
 libkcddb4-devel
+libkchart-lang
 libkcompactdisc-lang
 libkcompactdisc4
 libkcompactdisc4-devel
@@ -3028,7 +3010,7 @@ libmagic1
 libmagic1-32bit
 libmal-devel
 libmal1
-libmarblewidget-qt5-25
+libmarblewidget-qt5-27
 libmbim-glib4
 libmcrypt
 libmeanwhile1
@@ -3039,7 +3021,6 @@ libmikmod3
 libminiupnpc10
 libmission-control-plugins0
 libmjpegutils-2_0-0
-libmlx5-rdmav2
 libmm-glib0
 libmms-devel
 libmms0
@@ -3063,7 +3044,6 @@ libmsn0_3
 libmspack0
 libmspub-0_1-1
 libmtdev1
-libmthca-rdmav2
 libmtp-devel
 libmtp-udev
 libmtp9
@@ -3098,7 +3078,6 @@ libndr-standard0-32bit
 libndr0
 libndr0-32bit
 libneon27
-libnes-rdmav2
 libnet9
 libnetapi0
 libnetapi0-32bit
@@ -3950,6 +3929,8 @@ lskat
 lsof
 lsscsi
 ltrace
+lttng-modules
+lttng-modules-kmp-default
 lua
 lua-devel
 luasocket
@@ -4007,6 +3988,7 @@ marble-data
 marble-devel
 marble-doc
 marble-kde
+marble-lang
 mariadb
 mariadb-client
 mariadb-errormessages
@@ -4084,6 +4066,9 @@ mozilla-nss-certs
 mozilla-nss-devel
 mozilla-nss-tools
 mpfr-devel
+mpg123-esound
+mpg123-openal
+mpg123-pulse
 mpt-firmware
 mpt-status
 mrtg
@@ -5100,6 +5085,7 @@ randrproto-devel
 rarpd
 rcc-runtime
 rdesktop
+rdma-core
 re2c
 readline-devel
 readline-doc
@@ -5420,6 +5406,7 @@ translation-update-cs
 translation-update-da
 translation-update-de
 translation-update-el
+translation-update-en
 translation-update-en_GB
 translation-update-en_US
 translation-update-es
@@ -6108,4 +6095,5 @@ zsh
 zypp-plugin-python
 zypper
 zypper-aptitude
+zypper-lifecycle-plugin
 zypper-log
