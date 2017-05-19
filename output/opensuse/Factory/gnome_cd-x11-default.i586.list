@@ -105,6 +105,7 @@ gcr-prompter
 gcr-viewer
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gdk-pixbuf-thumbnailer
 genisoimage
 gettext-runtime
 ghostscript-fonts-std
@@ -600,6 +601,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
+openssl-1_0_0
 os-prober
 p11-kit
 p11-kit-tools
@@ -709,9 +711,6 @@ publicsuffix
 python
 python-base
 python-configobj
-python-gobject
-python-gobject-Gdk
-python-gobject-cairo
 python-pyudev
 python-rpm-macros
 python-solv
@@ -719,6 +718,7 @@ python-talloc
 python-xml
 python2-dbus-python
 python2-decorator
+python2-gobject
 python2-six
 python3
 python3-CherryPy

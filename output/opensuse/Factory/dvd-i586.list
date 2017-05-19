@@ -198,7 +198,7 @@ baobab
 bash
 bash-completion
 bash-doc
-bbswitch-kmp-default
+bbswitch-kmp-pae
 bc
 bcm20702a1-firmware
 bea-stax
@@ -375,7 +375,7 @@ cppunit-devel
 cpupower
 cracklib
 cracklib-dict-full
-crash-kmp-default
+crash-kmp-pae
 crda
 create-resources
 createrepo
@@ -587,7 +587,6 @@ filesystem
 fillup
 findutils
 finger
-fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -928,15 +927,7 @@ gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
 gtk3-metatheme-sonar
 gtk3-tools
-gtk4-branding-upstream
-gtk4-data
-gtk4-immodule-amharic
-gtk4-immodule-inuktitut
-gtk4-immodule-thai
-gtk4-immodule-vietnamese
-gtk4-lang
 gtk4-schema
-gtk4-tools
 gtkiterm
 gtksourceview2-lang
 gtkspell-lang
@@ -1253,9 +1244,8 @@ kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
-kernel-pae-devel
+kernel-pae
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -1712,7 +1702,6 @@ libSDL_sound-1_0-1
 libSDL_ttf-2_0-0
 libSM-devel
 libSM6
-libSPIRV-Tools-suse2
 libSoundTouch0
 libUTF0_2
 libX11-6
@@ -1991,7 +1980,6 @@ libcryptui0
 libcue2
 libcurl-devel
 libcurl4
-libcxgb3-rdmav2
 libdaemon0
 libdar5000
 libdatrie1
@@ -2102,7 +2090,6 @@ libffi-devel
 libffi7
 libfftw3-3
 libfftw3_threads3
-libfipscheck1
 libflatpak0
 libfli-devel
 libfli1
@@ -2261,7 +2248,6 @@ libgpod-devel
 libgpod-tools
 libgpod4
 libgps22
-libgraphene-1_0-0
 libgraphite2-3
 libgravatar
 libgrilo-0_3-0
@@ -2306,7 +2292,6 @@ libgstwayland-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtk-4-0
 libgtk-vnc-2_0-0
 libgtkhex-3-0
 libgtkimageview0
@@ -2351,11 +2336,9 @@ libhogweed4
 libhttp-parser-suse0
 libhunspell-1_6-0
 libhyphen0
-libibumad-devel
+libibcm1
 libibumad3
 libibus-1_0-5
-libibverbs-devel
-libibverbs-runtime
 libibverbs1
 libical-devel
 libical2
@@ -2534,8 +2517,7 @@ libmikmod3
 libminiupnpc16
 libmission-control-plugins0
 libmjpegutils-2_0-0
-libmlx4-rdmav2
-libmlx5-rdmav2
+libmlx5-1
 libmm-glib0
 libmms-devel
 libmms0
@@ -2562,7 +2544,6 @@ libmpxwrappers2
 libmspack0
 libmspub-0_1-1
 libmtdev1
-libmthca-rdmav2
 libmtp-devel
 libmtp-udev
 libmtp9
@@ -2587,7 +2568,6 @@ libndr-nbt0
 libndr-standard0
 libndr0
 libneon27
-libnes-rdmav2
 libnet9
 libnetapi0
 libnetcdf11
@@ -2649,7 +2629,9 @@ libopencv-qt56_3
 libopencv3_1
 libopenjp2-7
 libopenjpeg1
+libopenmpt0
 libopenraw1
+libopenssl-1_0_0-devel
 libopenssl-devel
 libopenssl1_0_0
 libopensync
@@ -3147,7 +3129,6 @@ libvorbisfile3
 libvpx4
 libvte-2_91-0
 libvte9
-libvulkan1
 libvulkan_intel
 libvulkan_radeon
 libwacom-data
@@ -3437,7 +3418,6 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpfr-devel
 mpg123-esound
 mpg123-openal
@@ -3576,6 +3556,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
+openssl-1_0_0
 openvpn
 opie
 oprofile
@@ -3716,7 +3697,7 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
-pcfclock-kmp-default
+pcfclock-kmp-pae
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4012,8 +3993,6 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4213,9 +4192,6 @@ python-gnome-devel
 python-gnome-dvb-daemon
 python-gnomecanvas
 python-gnomevfs
-python-gobject
-python-gobject-Gdk
-python-gobject-cairo
 python-gobject2
 python-gobject2-devel
 python-gtk
@@ -4268,6 +4244,9 @@ python2-dbus-python
 python2-decorator
 python2-dnspython
 python2-ecdsa
+python2-gobject
+python2-gobject-Gdk
+python2-gobject-cairo
 python2-httplib2
 python2-idna
 python2-keyring
@@ -4395,6 +4374,8 @@ randrproto-devel
 rarpd
 rcc-runtime
 rdesktop
+rdma-core
+rdma-core-devel
 re2c
 readline-devel
 readline-doc
@@ -4426,6 +4407,7 @@ rpm-devel
 rpm-python
 rsibreak
 rsibreak-lang
+rsocket
 rsync
 rsyslog
 rt2860
@@ -4520,6 +4502,9 @@ slang-slsh
 slrn
 slrn-lang
 smartmontools
+smb4k
+smb4k-doc
+smb4k-lang
 smbios-utils-python
 smp_utils
 snapper
@@ -4593,7 +4578,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
-sysdig-kmp-default
+sysdig-kmp-pae
 sysfsutils
 syslinux
 syslog-service
@@ -4739,7 +4724,6 @@ typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
-typelib-1_0-Graphene-1_0
 typelib-1_0-Grl-0_3
 typelib-1_0-Gsf-1
 typelib-1_0-Gspell-1_0
@@ -4752,7 +4736,6 @@ typelib-1_0-GstValidate-1_0
 typelib-1_0-GstVideo-1_0
 typelib-1_0-Gtk-2_0
 typelib-1_0-Gtk-3_0
-typelib-1_0-Gtk-4_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-GtkVnc-2_0
@@ -4847,9 +4830,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
+virtualbox
+virtualbox-host-kmp-pae
+virtualbox-qt
 vlan
 vlgothic-fonts
 vlock
@@ -4858,7 +4841,6 @@ vorbis-tools
 vpnc
 vsftpd
 vte2-lang
-vulkan
 vym
 w3m
 w3m-el
@@ -5096,7 +5078,7 @@ xset
 xsetroot
 xslide
 xstroke
-xtables-addons-kmp-default
+xtables-addons-kmp-pae
 xtables-plugins
 xterm
 xterm-bin

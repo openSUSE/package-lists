@@ -104,7 +104,6 @@ cpio
 cpio-mt
 cpp
 cpp6
-cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -180,6 +179,7 @@ gconf2
 gconf2-branding-openSUSE
 gdb
 gdk-pixbuf-query-loaders
+gdk-pixbuf-thumbnailer
 genisoimage
 gettext-runtime
 gfxboot
@@ -237,7 +237,6 @@ incidenceeditor-lang
 info
 info2html
 initviocons
-insserv-compat
 intlfonts-euro-bitmap-fonts
 iproute2
 iptables
@@ -689,7 +688,6 @@ libcdda_paranoia0
 libcelt0-2
 libcollection4
 libcom_err2
-libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -1235,6 +1233,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
+openssl-1_0_0
 os-prober
 oxygen5-icon-theme
 oxygen5-sounds
@@ -1413,26 +1412,17 @@ purpose
 purpose-lang
 python
 python-base
-python-configobj
-python-gobject
-python-gobject-cairo
-python-pyudev
 python-rpm-macros
 python-smbios
 python-solv
 python-talloc
 python-xml
-python2-dbus-python
-python2-decorator
-python2-six
 python3
 python3-apparmor
 python3-appdirs
 python3-base
 python3-curses
 python3-dbm
-python3-gobject
-python3-gobject-cairo
 python3-packaging
 python3-pip
 python3-pyparsing
@@ -1485,7 +1475,6 @@ smartmontools
 smbios-utils-python
 smp_utils
 snapper
-snapper-zypp-plugin
 sni-qt
 solid-imports
 solid-tools
@@ -1536,7 +1525,6 @@ timezone
 tnftp
 traceroute
 translation-update
-tuned
 ucode-amd
 ucode-intel
 udev
@@ -1552,8 +1540,6 @@ util-linux-systemd
 vaapi-dummy-driver
 vaapi-intel-driver
 vim
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
 vorbis-tools
 wallpaper-branding-openSUSE
 wget

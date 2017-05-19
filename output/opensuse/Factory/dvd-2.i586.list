@@ -85,7 +85,9 @@ gawk
 gcr-data
 gcr-prompter
 gcr-viewer
+gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
+gdk-pixbuf-thumbnailer
 genisoimage
 gio-branding-openSUSE
 girepository-1_0
@@ -123,15 +125,7 @@ gtk3-immodule-thai
 gtk3-immodule-vietnamese
 gtk3-metatheme-adwaita
 gtk3-tools
-gtk4-branding-upstream
-gtk4-data
-gtk4-immodule-amharic
-gtk4-immodule-inuktitut
-gtk4-immodule-thai
-gtk4-immodule-vietnamese
-gtk4-lang
 gtk4-schema
-gtk4-tools
 gvfs
 gvfs-backend-afc
 gvfs-backends
@@ -176,7 +170,6 @@ libQt5Widgets5
 libQt5X11Extras5
 libQtWebKit4
 libSM6
-libSPIRV-Tools-suse2
 libUTF0_2
 libX11-6
 libX11-data
@@ -248,6 +241,7 @@ libcmis-0_5-5
 libcolord2
 libcom_err2
 libcrack2
+libcroco-0_6-3
 libcryptsetup4
 libcurl4
 libdatrie1
@@ -305,7 +299,6 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgpg-error0
 libgphoto2-6
-libgraphene-1_0-0
 libgraphite2-3
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -317,7 +310,6 @@ libgsttag-1_0-0
 libgstvideo-1_0-0
 libgtk-2_0-0
 libgtk-3-0
-libgtk-4-0
 libgudev-1_0-0
 libharfbuzz-icu0
 libharfbuzz0
@@ -448,6 +440,7 @@ libreoffice-writer
 librepository
 librest0
 librevenge-0_0-0
+librsvg-2-2
 libruby2_2-2_2
 libsamplerate0
 libsasl2-3
@@ -495,7 +488,6 @@ libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvulkan1
 libwacom-data
 libwacom2
 libwayland-client0
@@ -568,6 +560,7 @@ notification-daemon
 openSUSE-release
 openSUSE-release-dvd
 openssl
+openssl-1_0_0
 p11-kit
 p11-kit-tools
 pam
@@ -630,15 +623,13 @@ ptools
 publicsuffix
 python
 python-base
-python-gobject
-python-gobject-Gdk
-python-gobject-cairo
 python-javapackages
 python-pyxb
 python-rpm-macros
 python-xml
 python2-cssselect
 python2-dbus-python
+python2-gobject
 python2-lxml
 python2-six
 python3
@@ -646,9 +637,6 @@ python3-appdirs
 python3-base
 python3-curses
 python3-dbm
-python3-gobject
-python3-gobject-Gdk
-python3-gobject-cairo
 python3-idle
 python3-packaging
 python3-pip
@@ -701,8 +689,7 @@ tk
 traceroute
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
-typelib-1_0-Graphene-1_0
-typelib-1_0-Gtk-4_0
+typelib-1_0-Gtk-3_0
 typelib-1_0-Pango-1_0
 udev
 udisks2
@@ -713,7 +700,6 @@ update-desktop-files
 util-linux
 util-linux-systemd
 vorbis-tools
-vulkan
 wallpaper-branding-openSUSE
 webkit2gtk-4_0-injected-bundles
 which

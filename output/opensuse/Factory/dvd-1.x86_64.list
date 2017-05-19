@@ -594,7 +594,6 @@ filesystem
 fillup
 findutils
 finger
-fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -1258,13 +1257,11 @@ kdump
 keditbookmarks
 kemoticons-devel
 kernel-default
-kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2042,7 +2039,6 @@ libcryptui0
 libcue2
 libcurl-devel
 libcurl4
-libcxgb3-rdmav2
 libdaemon0
 libdar5000
 libdatrie1
@@ -2146,6 +2142,7 @@ libext2fs2
 libexttextcat
 libexttextcat-2_0-0
 libf2fs1
+libfabric1
 libfakekey0
 libfallocate0
 libfam0-gamin
@@ -2161,7 +2158,6 @@ libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
-libfipscheck1
 libflatpak0
 libfli-devel
 libfli1
@@ -2433,12 +2429,10 @@ libhogweed4-32bit
 libhttp-parser-suse0
 libhunspell-1_6-0
 libhyphen0
-libibumad-devel
+libibcm1
 libibumad3
 libibus-1_0-5
 libibus-1_0-5-32bit
-libibverbs-devel
-libibverbs-runtime
 libibverbs1
 libical-devel
 libical2
@@ -2631,8 +2625,7 @@ libmikmod3
 libminiupnpc16
 libmission-control-plugins0
 libmjpegutils-2_0-0
-libmlx4-rdmav2
-libmlx5-rdmav2
+libmlx5-1
 libmm-glib0
 libmms-devel
 libmms0
@@ -2662,7 +2655,6 @@ libmpxwrappers2
 libmspack0
 libmspub-0_1-1
 libmtdev1
-libmthca-rdmav2
 libmtp-devel
 libmtp-udev
 libmtp9
@@ -2692,7 +2684,6 @@ libndr-standard0-32bit
 libndr0
 libndr0-32bit
 libneon27
-libnes-rdmav2
 libnet9
 libnetapi0
 libnetapi0-32bit
@@ -2760,7 +2751,9 @@ libopencv-qt56_3
 libopencv3_1
 libopenjp2-7
 libopenjpeg1
+libopenmpt0
 libopenraw1
+libopenssl-1_0_0-devel
 libopenssl-devel
 libopenssl1_0_0
 libopenssl1_0_0-32bit
@@ -3619,7 +3612,6 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpfr-devel
 mpg123-esound
 mpg123-openal
@@ -3762,6 +3754,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
+openssl-1_0_0
 openvpn
 opie
 opie-32bit
@@ -4205,8 +4198,6 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4407,9 +4398,6 @@ python-gnome-devel
 python-gnome-dvb-daemon
 python-gnomecanvas
 python-gnomevfs
-python-gobject
-python-gobject-Gdk
-python-gobject-cairo
 python-gobject2
 python-gobject2-devel
 python-gtk
@@ -4463,6 +4451,9 @@ python2-dbus-python
 python2-decorator
 python2-dnspython
 python2-ecdsa
+python2-gobject
+python2-gobject-Gdk
+python2-gobject-cairo
 python2-httplib2
 python2-idna
 python2-keyring
@@ -4591,6 +4582,8 @@ randrproto-devel
 rarpd
 rcc-runtime
 rdesktop
+rdma-core
+rdma-core-devel
 re2c
 readline-devel
 readline-doc
@@ -4623,6 +4616,7 @@ rpm-devel
 rpm-python
 rsibreak
 rsibreak-lang
+rsocket
 rsync
 rt2860
 rtkit
@@ -4722,6 +4716,9 @@ slang-slsh
 slrn
 slrn-lang
 smartmontools
+smb4k
+smb4k-doc
+smb4k-lang
 smbios-utils-python
 smp_utils
 snapper

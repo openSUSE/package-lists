@@ -900,6 +900,7 @@ liboggkate1
 libopenal1
 libopenjp2-7
 libopenjpeg1
+libopenmpt0
 libopenraw1
 libopenssl1_0_0
 libopenssl1_0_0-32bit
@@ -1270,6 +1271,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
+openssl-1_0_0
 openvpn
 orca
 os-prober
@@ -1423,9 +1425,6 @@ python-base
 python-beautifulsoup
 python-configobj
 python-enum34
-python-gobject
-python-gobject-Gdk
-python-gobject-cairo
 python-ipaddress
 python-pyudev
 python-rpm-macros
@@ -1441,6 +1440,9 @@ python2-chardet
 python2-cryptography
 python2-dbus-python
 python2-decorator
+python2-gobject
+python2-gobject-Gdk
+python2-gobject-cairo
 python2-httplib2
 python2-idna
 python2-packaging
