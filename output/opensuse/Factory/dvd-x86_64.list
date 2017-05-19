@@ -596,6 +596,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -1260,11 +1261,13 @@ kdump
 keditbookmarks
 kemoticons-devel
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2164,6 +2167,7 @@ libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libflatpak0
 libfli-devel
 libfli1
@@ -3619,6 +3623,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-esound
 mpg123-openal
@@ -4207,6 +4212,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -5044,6 +5051,7 @@ vala
 valgrind
 vcdimager
 vdr
+vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang

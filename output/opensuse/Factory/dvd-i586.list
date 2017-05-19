@@ -198,7 +198,7 @@ baobab
 bash
 bash-completion
 bash-doc
-bbswitch-kmp-pae
+bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bea-stax
@@ -375,7 +375,7 @@ cppunit-devel
 cpupower
 cracklib
 cracklib-dict-full
-crash-kmp-pae
+crash-kmp-default
 crda
 create-resources
 createrepo
@@ -587,6 +587,7 @@ filesystem
 fillup
 findutils
 finger
+fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -1244,8 +1245,9 @@ kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
-kernel-pae
+kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2090,6 +2092,7 @@ libffi-devel
 libffi7
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libflatpak0
 libfli-devel
 libfli1
@@ -3418,6 +3421,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-esound
 mpg123-openal
@@ -3697,7 +3701,7 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
-pcfclock-kmp-pae
+pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -3993,6 +3997,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4578,7 +4584,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
-sysdig-kmp-pae
+sysdig-kmp-default
 sysfsutils
 syslinux
 syslog-service
@@ -4817,6 +4823,7 @@ vala
 valgrind
 vcdimager
 vdr
+vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -4830,9 +4837,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
-virtualbox
-virtualbox-host-kmp-pae
-virtualbox-qt
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vlock
@@ -5078,7 +5085,7 @@ xset
 xsetroot
 xslide
 xstroke
-xtables-addons-kmp-pae
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
