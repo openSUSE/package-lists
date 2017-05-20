@@ -24,9 +24,6 @@ bash-doc
 blog
 boost-license1_64_0
 branding-openSUSE
-btrfsmaintenance
-btrfsprogs
-btrfsprogs-udev-rules
 bundle-lang-common-en
 bundle-lang-gnome-en
 bundle-lang-kde-en
@@ -57,6 +54,7 @@ dialog
 diffutils
 dmz-icon-theme-cursors
 dracut
+dump-rmt
 elfutils
 expat
 fdupes
@@ -90,7 +88,6 @@ gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
 genisoimage
 gio-branding-openSUSE
-girepository-1_0
 glib-networking
 glib2-tools
 glibc
@@ -99,6 +96,7 @@ glibc-locale
 gnome-online-accounts
 google-carlito-fonts
 gpg2
+gpg2-lang
 gptfdisk
 graphviz
 graphviz-gd
@@ -221,8 +219,6 @@ libboost_date_time1_64_0
 libboost_filesystem1_64_0
 libboost_iostreams1_64_0
 libboost_system1_64_0
-libboost_thread1_64_0
-libbtrfs0
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -263,7 +259,6 @@ libetonyek-0_1-1
 libevdev2
 libexif12
 libexpat1
-libext2fs2
 libexttextcat
 libexttextcat-2_0-0
 libfdisk1
@@ -287,7 +282,6 @@ libgdbm4
 libgdk_pixbuf-2_0-0
 libgif7
 libgio-2_0-0
-libgirepository-1_0-1
 libglib-2_0-0
 libgltf-0_0-0
 libglvnd
@@ -348,7 +342,6 @@ libltdl7
 liblua5_3
 liblz4-1_7
 liblzma5
-liblzo2-2
 libmagic1
 libmetalink3
 libmng2
@@ -451,7 +444,6 @@ libsemanage1
 libsepol1
 libserializer
 libsmartcols1
-libsnapper4
 libsndfile1
 libsoftokn3
 libsolv-tools
@@ -472,7 +464,7 @@ libtheoraenc1
 libtiff5
 libtirpc-netconfig
 libtirpc3
-libts-1_0-0
+libts0
 libudev1
 libudisks2-0
 libunistring2
@@ -628,8 +620,6 @@ python-pyxb
 python-rpm-macros
 python-xml
 python2-cssselect
-python2-dbus-python
-python2-gobject
 python2-lxml
 python2-six
 python3
@@ -664,15 +654,13 @@ shared-mime-info
 sharutils
 sharutils-lang
 site-config
-snapper
-snapper-zypp-plugin
 sound-theme-freedesktop
 squid
-star-rmt
 suse-module-tools
 sysconfig
 sysconfig-netconfig
 system-user-lp
+system-user-mail
 systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
@@ -687,10 +675,6 @@ timezone
 timezone-java
 tk
 traceroute
-typelib-1_0-Atk-1_0
-typelib-1_0-GdkPixbuf-2_0
-typelib-1_0-Gtk-3_0
-typelib-1_0-Pango-1_0
 udev
 udisks2
 unzip
@@ -730,12 +714,10 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-ruby-bindings
 yast2-scanner
-yast2-snapper
 yast2-transfer
 yast2-xml
 yast2-ycp-ui-bindings
 zisofs-tools
-zypp-plugin-python
 zypper
 zypper-aptitude
 zypper-lifecycle-plugin

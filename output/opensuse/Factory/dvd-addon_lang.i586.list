@@ -720,6 +720,7 @@ gpart
 gparted
 gperf
 gpg2
+gpg2-lang
 gpgme
 gpm
 gptfdisk
@@ -2398,7 +2399,6 @@ libreoffice-base
 libreoffice-base-drivers-mysql
 libreoffice-branding-upstream
 libreoffice-calc
-libreoffice-calc-extensions
 libreoffice-draw
 libreoffice-filters-optional
 libreoffice-gnome
@@ -2481,7 +2481,6 @@ libreoffice-pyuno
 libreoffice-share-linker
 libreoffice-voikko
 libreoffice-writer
-libreoffice-writer-extensions
 libreofficekit
 librepository
 librest0
@@ -2607,7 +2606,7 @@ libtracker-common-1_0
 libtracker-control-1_0-0
 libtracker-miner-1_0-0
 libtracker-sparql-1_0-0
-libts-1_0-0
+libts0
 libtumbler-1-0
 libturbojpeg0
 libubsan0
@@ -2934,6 +2933,7 @@ myspell-ar
 myspell-bg_BG
 myspell-bn_BD
 myspell-bn_IN
+myspell-bo
 myspell-br_FR
 myspell-bs
 myspell-bs_BA
@@ -3190,7 +3190,6 @@ patterns-network-network_admin
 patterns-non_oss
 patterns-non_oss_opt
 patterns-office-office
-patterns-office-office_opt
 patterns-server-dhcp_dns_server
 patterns-server-directory_server
 patterns-server-file_server
@@ -3461,12 +3460,15 @@ python-enum34
 python-flup
 python-gconf
 python-gobject2
+python-gpgme
 python-gtk
 python-ibus
+python-iniparse
 python-ipaddr
 python-ipaddress
 python-javapackages
 python-libxml2
+python-pyliblzma
 python-pyudev
 python-pyxb
 python-qt5-utils
