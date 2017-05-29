@@ -141,6 +141,7 @@ aspell-gl
 aspell-gu
 aspell-gv
 aspell-he
+aspell-hi
 aspell-hr
 aspell-hu
 aspell-hy
@@ -158,7 +159,6 @@ aspell-mi
 aspell-mk
 aspell-ml
 aspell-mn
-aspell-mr
 aspell-ms
 aspell-mt
 aspell-nb
@@ -372,7 +372,7 @@ coreutils
 cpio
 cpio-mt
 cpp
-cpp6
+cpp7
 cpupower
 cracklib
 cracklib-dict-full
@@ -578,9 +578,9 @@ gcab
 gcc
 gcc-c++
 gcc-info
-gcc6
-gcc6-c++
-gcc6-info
+gcc7
+gcc7-c++
+gcc7-info
 gcolor2
 gconf-polkit
 gconf2
@@ -1556,7 +1556,7 @@ libapr1-devel
 libarchive13
 libaria2-0
 libart_lgpl_2-2
-libasan3
+libasan4
 libasm1
 libasound2
 libaspell15
@@ -1857,7 +1857,7 @@ libgcj-devel
 libgcj-devel-gcc6
 libgcj-gcc6
 libgcj-jar-gcc6
-libgcj_bc1-gcc6
+libgcj_bc1
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -1883,7 +1883,7 @@ libgegl-0_3-0
 libgeocode-glib0
 libgexiv2-2
 libgfbgraph-0_2-0
-libgfortran3
+libgfortran4
 libggz2
 libggz2-devel
 libgif7
@@ -2019,8 +2019,8 @@ libibverbs1
 libical-devel
 libical2
 libicu-devel
-libicu58_2
-libicu58_2-ledata
+libicu59_1
+libicu59_1-ledata
 libidn-devel
 libidn11
 libidn2-0
@@ -2558,7 +2558,7 @@ libstaroffice-0_0-0
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
-libstdc++6-devel-gcc6
+libstdc++6-devel-gcc7
 libstoken1
 libstorage-ruby
 libstorage7
@@ -2669,7 +2669,6 @@ libvisio-0_1-1
 libvisual
 libvmtools0
 libvncclient0
-libvncserver0
 libvoikko1
 libvorbis0
 libvorbisenc2
@@ -3451,7 +3450,6 @@ python-atspi
 python-base
 python-beautifulsoup
 python-cairo
-python-configobj
 python-curses
 python-deltarpm
 python-devel
@@ -3489,6 +3487,7 @@ python2-bottle
 python2-cffi
 python2-chardet
 python2-cheroot
+python2-configobj
 python2-cryptography
 python2-cssselect
 python2-dbus-python
