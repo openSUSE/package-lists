@@ -34,7 +34,7 @@ esac
 is_x86(){
         case $1 in
                 i586|x86_64) return 0;;
-                aarch64|ppc64|ppc64le) return 1;;
+                aarch64|ppc64|ppc64le|s390x) return 1;;
         esac
 }
 
