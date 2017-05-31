@@ -17,15 +17,7 @@ if grep -q 'dirty="true"' "$proj.state" || grep -q 'state="building"' "$proj.sta
 fi
 ./doit.sh $proj
 ./commit.sh $proj
-
-pushd create-drop-list
-susetags2solv -d MANUAL_OBSOLETES > MANUAL_OBSOLETES.solv
-./createdrops.py ../trees/openSUSE:$proj-standard-x86_64.solv \
-                 ../trees/openSUSE:$proj:NonFree-standard-x86_64.solv \
-                 *.solv > ../osc/openSUSE:$proj/_product/obsoletepackages.inc
-cd ../osc/openSUSE:$proj/_product
-osc ci -m "updated drop list"
-popd
+./update-drop-list.sh $proj
 
 cd update-tests
 ./testall.sh $proj > update-tests-report.$proj.txt 2>&1
