@@ -74,6 +74,11 @@ if [ "$proj" = "Leap:42.3" ]; then
 fi
 
 if [ -f trees/openSUSE:$proj-$repo-x86_64.solv ]; then
-   installcheck x86_64 --withobsoletes trees/openSUSE:$proj-$repo-x86_64.solv > openSUSE:$proj.installcheck
-   osc api -X PUT -f openSUSE:$proj.installcheck  /source/openSUSE:$proj:Staging/dashboard/installcheck
+  file="openSUSE:$proj.installcheck"
+  remote="/source/openSUSE:$proj:Staging/dashboard/installcheck"
+
+  installcheck x86_64 --withobsoletes trees/openSUSE:$proj-$repo-x86_64.solv > "$file"
+  if [ "$(< "$file")" != "$(osc api "$remote")" ] ; then
+    osc -d api -X PUT -f "$file" "$remote"
+  fi
 fi
