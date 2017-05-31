@@ -40,6 +40,7 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
+SUSEConnect
 SuSEfirewall2
 a2ps
 aaa_base
@@ -364,6 +365,7 @@ claws-mail-lang
 clicfs
 cln
 clucene-core-devel
+clutter-lang
 cmake
 colord
 colord-color-profiles
@@ -812,6 +814,7 @@ gtk3-metatheme-breeze
 gtk3-tools
 gtk4-schema
 gtkiterm
+gtksourceview-lang
 gtkspell-lang
 gucharmap
 guile-modules-2_0
@@ -3636,12 +3639,10 @@ python-ibus
 python-iniparse
 python-ipaddr
 python-ipaddress
-python-javapackages
 python-libxml2
 python-pam
 python-pyliblzma
 python-pyudev
-python-pyxb
 python-qt5-utils
 python-rpm-macros
 python-smbios
@@ -3787,12 +3788,14 @@ rgb
 rhino
 ristretto
 ristretto-lang
+rollback-helper
 rp-pppoe
 rpcbind
 rpm
 rpm-build
 rpm-python
 rsocket
+rsvg-thumbnailer
 rsync
 rtkit
 ruby
@@ -4472,3 +4475,4 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
+zypper-migration-plugin

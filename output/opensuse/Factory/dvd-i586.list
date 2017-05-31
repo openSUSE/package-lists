@@ -47,6 +47,7 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
+SUSEConnect
 SuSEfirewall2
 WindowMaker
 WindowMaker-applets
@@ -361,6 +362,7 @@ clicfs
 cln
 cln-devel
 clucene-core-devel
+clutter-lang
 cm-unicode-fonts
 cmake
 cmpi-provider-register
@@ -969,6 +971,7 @@ gtk3-metatheme-sonar
 gtk3-tools
 gtk4-schema
 gtkiterm
+gtksourceview-lang
 gtksourceview2-lang
 gtkspell-lang
 gucharmap
@@ -2555,6 +2558,7 @@ libktorrent6
 libktorrent6-lang
 libktpaccountskcminternal9
 libkwalletbackend5-5
+libkyotocabinet16
 liblangtag1
 liblapack3
 liblasem-0_4-4
@@ -3546,6 +3550,8 @@ mtpaint-lang
 mtr
 multipath-tools
 mutt
+mutt-doc
+mutt-lang
 mutter
 mutter-data
 mxml
@@ -3604,6 +3610,24 @@ nma-data
 nmap
 notification-daemon
 noto-sans-fonts
+noto-sans-jp-bold-fonts
+noto-sans-jp-fonts
+noto-sans-jp-regular-fonts
+noto-sans-sc-bold-fonts
+noto-sans-sc-fonts
+noto-sans-sc-regular-fonts
+noto-sans-tc-bold-fonts
+noto-sans-tc-fonts
+noto-sans-tc-regular-fonts
+noto-serif-jp-bold-fonts
+noto-serif-jp-fonts
+noto-serif-jp-regular-fonts
+noto-serif-sc-bold-fonts
+noto-serif-sc-fonts
+noto-serif-sc-regular-fonts
+noto-serif-tc-bold-fonts
+noto-serif-tc-fonts
+noto-serif-tc-regular-fonts
 nscd
 nss-mdns
 nss_ldap
@@ -4316,7 +4340,6 @@ python-ibus
 python-iniparse
 python-ipaddr
 python-ipaddress
-python-javapackages
 python-ldap
 python-liblarch
 python-liblarch_gtk
@@ -4328,7 +4351,6 @@ python-pygame
 python-pyliblzma
 python-pyudev
 python-pywbem
-python-pyxb
 python-qt5-utils
 python-rpm-macros
 python-sip-common
@@ -4518,6 +4540,7 @@ ripit
 ristretto
 ristretto-lang
 rng-tools
+rollback-helper
 rp-pppoe
 rpcbind
 rpm
@@ -4527,6 +4550,7 @@ rpm-python
 rsibreak
 rsibreak-lang
 rsocket
+rsvg-thumbnailer
 rsync
 rsyslog
 rt2860
@@ -5376,3 +5400,4 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
+zypper-migration-plugin
