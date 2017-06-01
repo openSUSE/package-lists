@@ -107,6 +107,7 @@ dmz-icon-theme-cursors
 dnsmasq
 dosfstools
 dracut
+drm-kmp-default
 e2fsprogs
 efibootmgr
 elfutils
@@ -208,7 +209,6 @@ gtk3-metatheme-adwaita
 gtk3-tools
 gvfs
 gvfs-backend-afc
-gvfs-backend-samba
 gvfs-backends
 gvfs-fuse
 gzip
@@ -605,7 +605,6 @@ libsgutils2-2
 libsigc-2_0-0
 libslang2
 libsmartcols1
-libsmbclient0
 libsmbconf0
 libsmbios2
 libsmbldap0
@@ -934,9 +933,7 @@ ruby2.1-rubygem-ruby-dbus
 ruby2.1-stdlib
 s2tc
 s2tc-32bit
-samba-client
 samba-libs
-samba-winbind
 sbl
 scout
 sed
