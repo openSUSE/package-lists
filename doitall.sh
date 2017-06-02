@@ -17,7 +17,7 @@ if grep -q 'dirty="true"' "$proj.state" || grep -q 'state="building"' "$proj.sta
 fi
 ./doit.sh $proj
 ./commit.sh $proj
-./update-drop-list.sh $proj
+./create-drop-list.sh $proj
 
 cd update-tests
 ./testall.sh $proj > update-tests-report.$proj.txt 2>&1
