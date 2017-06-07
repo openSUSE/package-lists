@@ -223,7 +223,6 @@ icewm-default
 idnkit
 ifplugd
 info
-info2html
 initviocons
 insserv-compat
 intlfonts-euro-bitmap-fonts
@@ -1039,6 +1038,7 @@ parted
 patterns-base-apparmor
 patterns-base-base
 patterns-base-enhanced_base
+patterns-base-minimal_base
 patterns-base-sw_management
 patterns-base-x11
 patterns-desktop-imaging
@@ -1283,8 +1283,6 @@ sshfs
 strace
 sudo
 suse-module-tools
-susehelp
-susehelp_en
 susepaste
 syntax-highlighting
 sysconfig
@@ -1295,6 +1293,10 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 system-group-hardware
+system-group-trusted
+system-group-wheel
+system-user-bin
+system-user-daemon
 system-user-lp
 system-user-mail
 system-user-man

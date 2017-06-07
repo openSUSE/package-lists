@@ -740,6 +740,7 @@ parted
 patterns-base-apparmor
 patterns-base-base
 patterns-base-enhanced_base
+patterns-base-minimal_base
 patterns-base-sw_management
 patterns-base-x11
 patterns-fonts-fonts
@@ -905,6 +906,11 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+system-group-hardware
+system-group-trusted
+system-group-wheel
+system-user-bin
+system-user-daemon
 system-user-lp
 system-user-mail
 system-user-man
