@@ -2,6 +2,6 @@
 #INCLUDE ignore_opensuse-dvd5
 #INCLUDE ignore_opensuse-basedon
 job install name patterns-base-minimal_base
-job install name patterns-base-minimal_base-conflicts
+job install name patterns-base-minimal_base_conflicts
 job install name kernel-default
 
