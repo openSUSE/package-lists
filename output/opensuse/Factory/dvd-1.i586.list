@@ -169,6 +169,8 @@ atk-devel
 atmel-firmware
 attica-qt5-devel
 attr
+audacity
+audacity-lang
 audiofile-devel
 audit
 audit-devel
@@ -380,7 +382,6 @@ cppunit-devel
 cpupower
 cracklib
 cracklib-dict-full
-crash-kmp-default
 crda
 create-resources
 createrepo
@@ -2416,6 +2417,7 @@ libgwengui-cpp0
 libgwengui-fox16-0
 libgwengui-gtk2-0
 libgwengui-qt4-0
+libgwengui-qt5-0
 libgwenhywfar60
 libgwenhywfar60-plugins
 libgxps2
@@ -2441,6 +2443,7 @@ libical2
 libicu-devel
 libicu59_1
 libicu59_1-ledata
+libid3tag0
 libidl-devel
 libidn-devel
 libidn11
@@ -2728,9 +2731,10 @@ libopal3_10_10
 libopenal1
 libopenbabel-devel
 libopenbabel4
+libopenblas_pthreads0
 libopencc2
 libopencv-qt56_3
-libopencv3_1
+libopencv3_2
 libopenjp2-7
 libopenjpeg1
 libopenmpt0
@@ -3079,6 +3083,7 @@ libstoken1
 libstorage-ruby
 libstorage7
 libstroke
+libsuil-0-0
 libsuitesparseconfig-4_4_6
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
@@ -3094,6 +3099,7 @@ libtalloc2
 libtasn1
 libtasn1-6
 libtasn1-devel
+libtbb2
 libtcnative-1-0
 libtdb1
 libteamdctl0
@@ -3174,6 +3180,7 @@ libva-glx1
 libva-x11-1
 libva1
 libvala-0_36-0
+libvamp-hostsdk3
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -3269,16 +3276,23 @@ libwscodecs1
 libwsutil7
 libwv-1_2-3
 libwv2-4
+libwx_baseu-suse-nostl3
 libwx_baseu-suse3
+libwx_baseu_net-suse-nostl3
 libwx_baseu_net-suse3
+libwx_baseu_xml-suse-nostl3
 libwx_baseu_xml-suse3
+libwx_gtk2u_adv-suse-nostl3
 libwx_gtk2u_adv-suse3
 libwx_gtk2u_aui-suse3
+libwx_gtk2u_core-suse-nostl3
 libwx_gtk2u_core-suse3
 libwx_gtk2u_gl-suse3
+libwx_gtk2u_html-suse-nostl3
 libwx_gtk2u_html-suse3
 libwx_gtk2u_media-suse3
 libwx_gtk2u_propgrid-suse3
+libwx_gtk2u_qa-suse-nostl3
 libwx_gtk2u_qa-suse3
 libwx_gtk2u_richtext-suse3
 libwx_gtk2u_stc-suse3
@@ -4327,6 +4341,13 @@ python-ibus
 python-iniparse
 python-ipaddr
 python-ipaddress
+python-kde4
+python-kde4-doc
+python-kde4-khtml
+python-kde4-knewstuff
+python-kde4-phonon
+python-kde4-plasma
+python-kdebase4
 python-ldap
 python-liblarch
 python-liblarch_gtk
@@ -4338,6 +4359,7 @@ python-pygame
 python-pyliblzma
 python-pyudev
 python-pywbem
+python-qt4-utils
 python-qt5-utils
 python-rpm-macros
 python-sip-common
@@ -4394,6 +4416,7 @@ python2-pyserial
 python2-python-dateutil
 python2-pytz
 python2-pyxdg
+python2-qt4
 python2-qt5
 python2-requests
 python2-setuptools
@@ -4454,9 +4477,11 @@ python3-pyparsing
 python3-python-dateutil
 python3-pytz
 python3-pyxdg
+python3-qt4
 python3-requests
 python3-setuptools
 python3-simplejson
+python3-sip
 python3-six
 python3-smbc
 python3-speechd
@@ -4685,6 +4710,7 @@ subversion-python
 subversion-server
 subversion-tools
 sudo
+suil-plugins
 sunpinyin-data
 suse-module-tools
 susepaste
@@ -4808,6 +4834,7 @@ transmission-gtk
 trapproto-devel
 tre
 tre-lang
+treeline
 tumbler
 tumbler-lang
 tuned
@@ -4953,9 +4980,6 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vlock
