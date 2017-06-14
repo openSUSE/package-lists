@@ -17,7 +17,10 @@ if grep -q 'dirty="true"' "$proj.state" || grep -q 'state="building"' "$proj.sta
 fi
 ./doit.sh $proj
 ./commit.sh $proj
-./create-drop-list.sh $proj
+if [ "$proj" = "Factory" -o "$proj" = "Leap:42.3" ]; then
+  # Do only create the drop list for the main arch - to avoid constant conflcits in obsoletepackages.inc
+  ./create-drop-list.sh $proj
+fi
 
 cd update-tests
 ./testall.sh $proj > update-tests-report.$proj.txt 2>&1
