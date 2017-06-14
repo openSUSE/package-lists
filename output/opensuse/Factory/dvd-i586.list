@@ -207,6 +207,7 @@ bash-doc
 bbswitch-kmp-default
 bc
 bcm20702a1-firmware
+bcm43xx-firmware
 bea-stax
 bea-stax-api
 bijiben
@@ -1708,7 +1709,6 @@ libOpenCOLLADASaxFrameworkLoader0_2
 libOpenColorIO1
 libQt5Bluetooth5
 libQt5Bluetooth5-imports
-libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
 libQt5Core-devel
@@ -2628,6 +2628,7 @@ libmetalink3
 libmhash2
 libmikmod3
 libminiupnpc16
+libminizip1
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmlx5-1
@@ -3074,7 +3075,6 @@ libspice-server1
 libspnav0
 libsqlite3-0
 libsratom-0-0
-libsrtp1
 libssh-devel
 libssh2-1
 libssh4
@@ -4343,12 +4343,10 @@ python-gnomecanvas
 python-gnomevfs
 python-gobject2
 python-gobject2-devel
-python-gpgme
 python-gtk
 python-gtk-devel
 python-gtksourceview
 python-ibus
-python-iniparse
 python-ipaddr
 python-ipaddress
 python-kde4
@@ -4407,8 +4405,10 @@ python2-flup
 python2-gobject
 python2-gobject-Gdk
 python2-gobject-cairo
+python2-gpgme
 python2-httplib2
 python2-idna
+python2-iniparse
 python2-keyring
 python2-lxml
 python2-numpy

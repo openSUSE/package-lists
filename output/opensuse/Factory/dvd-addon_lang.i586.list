@@ -1430,7 +1430,6 @@ libOpenCOLLADAFramework0_2
 libOpenCOLLADASaxFrameworkLoader0_2
 libQt5Bluetooth5
 libQt5Bluetooth5-imports
-libQt5CLucene5
 libQt5Concurrent-devel
 libQt5Concurrent5
 libQt5Core-devel
@@ -2155,6 +2154,7 @@ libmediaart-2_0-0
 libmenu-cache3
 libmetalink3
 libminiupnpc16
+libminizip1
 libmission-control-plugins0
 libmjpegutils-2_0-0
 libmlx5-1
@@ -2557,7 +2557,6 @@ libspice-controller0
 libspice-server1
 libsqlite3-0
 libsratom-0-0
-libsrtp1
 libssh2-1
 libssh4
 libstaroffice-0_0-0
@@ -3475,10 +3474,8 @@ python-devel
 python-enum34
 python-gconf
 python-gobject2
-python-gpgme
 python-gtk
 python-ibus
-python-iniparse
 python-ipaddr
 python-ipaddress
 python-libxml2
@@ -3515,8 +3512,10 @@ python2-flup
 python2-gobject
 python2-gobject-Gdk
 python2-gobject-cairo
+python2-gpgme
 python2-httplib2
 python2-idna
+python2-iniparse
 python2-keyring
 python2-lxml
 python2-numpy
