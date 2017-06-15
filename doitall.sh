@@ -21,7 +21,13 @@ fi
 
 cd update-tests
 ./testall.sh $proj > update-tests-report.$proj.txt 2>&1
-osc api -X PUT -f update-tests-report.$proj.txt /source/openSUSE:$proj:Staging/dashboard/update-tests.txt
+
+file="update-tests-report.$proj.txt"
+remote="/source/openSUSE:$proj:Staging/dashboard/update-tests.txt"
+if [ "$(< "$file")" != "$(osc api "$remote")" ] ; then
+  osc -d api -X PUT -f "$file" "$remote"
+fi
+
 cd ..
 
 set -e
