@@ -1555,7 +1555,7 @@ libFS-devel
 libFS6
 libGLEW1_13
 libGLU1
-libGeneratedSaxParser0_2
+libGeneratedSaxParser0_3
 libGeoIP1
 libGraphicsMagick-Q16-3
 libGraphicsMagick3-config
@@ -1701,11 +1701,11 @@ libLLVM4
 libMagick++-7_Q16HDRI2
 libMagickCore-7_Q16HDRI2
 libMagickWand-7_Q16HDRI0
-libMathMLSolver0_2
+libMathMLSolver0_3
 libOSMesa8
-libOpenCOLLADABaseUtils0_2
-libOpenCOLLADAFramework0_2
-libOpenCOLLADASaxFrameworkLoader0_2
+libOpenCOLLADABaseUtils0_3
+libOpenCOLLADAFramework0_3
+libOpenCOLLADASaxFrameworkLoader0_3
 libOpenColorIO1
 libQt5Bluetooth5
 libQt5Bluetooth5-imports
@@ -1776,7 +1776,7 @@ libSDL_ttf-2_0-0
 libSM-devel
 libSM6
 libSoundTouch0
-libUTF0_2
+libUTF0_3
 libX11-6
 libX11-data
 libX11-devel
@@ -2997,6 +2997,7 @@ librevenge-0_0-0
 librevenge-devel
 librevenge-generators-0_0-0
 librevenge-stream-0_0-0
+librhash0
 librsvg-2-2
 libruby2_2-2_2
 libsamba-credentials0
@@ -5007,6 +5008,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vlock
