@@ -160,13 +160,11 @@ apache-commons-beanutils
 apache-commons-codec
 apache-commons-collections
 apache-commons-daemon
-apache-commons-dbcp
 apache-commons-httpclient
 apache-commons-io
 apache-commons-lang
 apache-commons-logging
 apache-commons-pool
-apache-commons-pool2
 apache-commons-validator
 apache-pdfbox
 apache-rpm-macros-control
@@ -193,7 +191,6 @@ aqbanking
 aqbanking-devel
 aqbanking-lang
 arabic-ae-fonts
-arabic-amiri-fonts
 arabic-bitmap-fonts
 arabic-fonts
 arabic-kacst-fonts
@@ -287,6 +284,7 @@ bbswitch-kmp-default
 bc
 bcel
 bcm20702a1-firmware
+bcm43xx-firmware
 bdftopcf
 bea-stax-api
 beforelight
@@ -393,7 +391,6 @@ cellwriter
 cervisia
 cervisia-lang
 cfitsio-devel
-cglib
 chasen
 checkmedia
 cheese
@@ -481,7 +478,6 @@ cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
 damageproto-devel
-daps
 dar
 dar-lang
 dasher
@@ -577,7 +573,6 @@ dvd+rw-tools
 e2fsprogs
 e2fsprogs-devel
 ebtables
-ecj
 ed
 edict
 editres
@@ -802,7 +797,6 @@ genisoimage
 geoclue2
 geocode-glib
 geronimo-j2ee-1_4-apis
-geronimo-jta-1_1-api
 geronimo-specs-poms
 getdata
 getdata-devel
@@ -1357,8 +1351,6 @@ jakarta-commons-discovery
 jakarta-commons-fileupload
 jakarta-commons-launcher
 jakarta-commons-modeler
-jakarta-commons-pool-tomcat5
-jakarta-taglibs-standard
 java-1_5_0-gcj-compat
 java-1_5_0-gcj-compat-devel
 java-1_8_0-openjdk
@@ -1499,8 +1491,6 @@ kde-print-manager
 kde-print-manager-lang
 kde-user-manager
 kde4-filesystem
-kdebase4-libkonq
-kdebase4-nsplugin
 kdebase4-runtime
 kdebase4-workspace-libs
 kdebindings-smokegen
@@ -1524,7 +1514,6 @@ kdelibs4support-devel
 kdelibs4support-lang
 kdenetwork4-filesharing
 kdenetwork4-filesharing-lang
-kdepasswd
 kdepim-addons
 kdepim-addons-lang
 kdepim-apps-libs
@@ -1548,6 +1537,7 @@ kdewebkit-devel
 kdf
 kdf-lang
 kdialog
+kdialog-lang
 kdiamond
 kdiamond-lang
 kdnssd
@@ -1557,6 +1547,7 @@ kdoctools-devel
 kdoctools-lang
 kdump
 keditbookmarks
+keditbookmarks-lang
 kemoticons-devel
 kernel-default
 kernel-default-devel
@@ -1696,7 +1687,8 @@ kolourpaint-lang
 kompare
 kompare-lang
 konqueror
-konqueror-plugins
+konqueror-devel
+konqueror-lang
 konquest
 konsole
 konsole-lang
@@ -2181,7 +2173,6 @@ libXss1
 libXss1-32bit
 libXt-devel
 libXt6
-libXt6-32bit
 libXtst-devel
 libXtst6
 libXv-devel
@@ -2512,7 +2503,6 @@ libepoxy0
 libepub-devel
 libepub0
 liberation-fonts
-liberation2-fonts
 libesd-devel
 libesd0
 libesmtp
@@ -2952,8 +2942,6 @@ libkolab1
 libkolabxml1
 libkomparediff2-5
 libkomparediff2-lang
-libkonq-devel
-libkonq5
 libkpathsea6
 libksane-devel
 libksane-lang
@@ -3587,7 +3575,6 @@ libtasn1
 libtasn1-6
 libtasn1-6-32bit
 libtasn1-devel
-libtcnative-1-0
 libtdb1
 libtdb1-32bit
 libteamdctl0
@@ -4175,7 +4162,6 @@ notification-daemon-lang
 noto-sans-cjk-fonts
 noto-sans-fonts
 nscd
-nspluginwrapper
 nss-mdns
 nss-mdns-32bit
 nss_ldap
@@ -4249,7 +4235,6 @@ openvpn
 opie
 opie-32bit
 oprofile
-optipng
 orage
 orage-doc
 orage-lang
@@ -4698,7 +4683,6 @@ perl-apparmor
 perl-autobox
 perl-base
 perl-camgm
-perl-checkbot
 perl-common-sense
 perl-doc
 perl-gettext
@@ -5315,7 +5299,6 @@ subversion-server
 subversion-tools
 sudo
 suse-module-tools
-suse-xsl-stylesheets
 susehelp
 susehelp_cz
 susehelp_de
@@ -5411,13 +5394,6 @@ tk
 tmpwatch
 tmux
 tnftp
-tomcat
-tomcat-admin-webapps
-tomcat-el-3_0-api
-tomcat-jsp-2_3-api
-tomcat-lib
-tomcat-servlet-3_1-api
-tomcat-webapps
 totem
 totem-lang
 totem-pl-parser
@@ -5664,7 +5640,6 @@ wondershaper
 words
 wpa_supplicant
 wpa_supplicant-gui
-wqy-microhei-fonts
 wqy-zenhei-fonts
 wsdl4j
 wv2-devel
