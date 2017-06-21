@@ -1820,7 +1820,7 @@ libakonadi4
 libakonadiprotocolinternals1
 libalkimia-devel
 libalkimia4
-libamd-2_4_1
+libamd-2_4_6
 libanjuta-3-0
 libao-devel
 libao-plugins4
@@ -1977,7 +1977,7 @@ libcairo-script-interpreter2
 libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
-libcamd-2_4_1
+libcamd-2_4_6
 libcamel-1_2-60
 libcamgm100
 libcanberra-devel
@@ -1998,7 +1998,7 @@ libcapi20-3
 libcapi20-3-32bit
 libcares2
 libcaribou0
-libccolamd-2_9_1
+libccolamd-2_9_6
 libcdda_interface0
 libcdda_paranoia0
 libcddb2
@@ -2017,7 +2017,7 @@ libcheese-gtk25
 libcheese8
 libchewing3
 libchm0
-libcholmod-3_0_6
+libcholmod-3_0_11
 libchromaprint1
 libcilkrts5
 libclastfm0
@@ -2030,7 +2030,7 @@ libclutter-gtk-1_0-0
 libcmis-0_5-5
 libcogl-pango20
 libcogl20
-libcolamd-2_9_1
+libcolamd-2_9_6
 libcollection4
 libcolord-gtk1
 libcolord2
@@ -2645,6 +2645,7 @@ libmeanwhile1
 libmediaart-2_0-0
 libmenu-cache3
 libmetalink3
+libmetis5
 libmhash2
 libmikmod3
 libminiupnpc16
@@ -3167,7 +3168,7 @@ libstorage-ruby
 libstorage7
 libstroke
 libsuil-0-0
-libsuitesparseconfig-4_4_6
+libsuitesparseconfig-4_5_5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
@@ -3207,7 +3208,7 @@ libtheora-devel
 libtheora0
 libtheoradec1
 libtheoraenc1
-libthrift-0_9_3
+libthrift-0_10_0
 libthunarx-2-0
 libtidy5
 libtiff-devel
@@ -3239,7 +3240,7 @@ libudev1
 libudev1-32bit
 libudf0
 libudisks2-0
-libumfpack-5_7_1
+libumfpack-5_7_6
 libunbound2
 libunicap-devel
 libunicap2
@@ -4442,8 +4443,7 @@ python-Twisted
 python-base
 python-beautifulsoup
 python-bonobo
-python-cairo
-python-cairo-devel
+python-cairo-common-devel
 python-curses
 python-deltarpm
 python-devel
@@ -4508,6 +4508,8 @@ python2-appdirs
 python2-asn1crypto
 python2-atspi
 python2-bottle
+python2-cairo
+python2-cairo-devel
 python2-cffi
 python2-chardet
 python2-cheroot
