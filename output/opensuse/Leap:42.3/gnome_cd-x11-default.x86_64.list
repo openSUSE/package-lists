@@ -325,8 +325,8 @@ libfontenc1
 libfreetype6
 libfuse2
 libgbm1
-libgcc_s1
-libgcc_s1-32bit
+libgcc_s1-gcc7
+libgcc_s1-gcc7-32bit
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -344,7 +344,7 @@ libgnutls28
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
-libgomp1
+libgomp1-gcc7
 libgpg-error0
 libgphoto2-6
 libgraphite2-3
@@ -491,8 +491,8 @@ libspeex1
 libspeexdsp1
 libsqlite3-0
 libssh2-1
-libstdc++6
-libstdc++6-32bit
+libstdc++6-gcc7
+libstdc++6-gcc7-32bit
 libstorage-ruby
 libstorage7
 libsystemd0
