@@ -236,6 +236,7 @@ lvm2
 mtools
 ncurses-utils
 net-tools
+net-tools-lang
 netcfg
 openSUSE-build-key
 openSUSE-release
@@ -298,16 +299,17 @@ sysconfig
 sysconfig-netconfig
 syslog-service
 system-group-hardware
-system-group-trusted
 system-group-wheel
 system-user-bin
 system-user-daemon
 system-user-mail
 system-user-nobody
+system-user-root
 systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
 systemd-sysvinit
+sysuser-shadow
 sysvinit-tools
 tcl
 terminfo-base

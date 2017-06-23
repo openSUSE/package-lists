@@ -1305,7 +1305,6 @@ system-config-printer-applet
 system-config-printer-common
 system-config-printer-dbus-service
 system-group-hardware
-system-group-trusted
 system-group-wheel
 system-user-bin
 system-user-daemon
@@ -1313,12 +1312,14 @@ system-user-lp
 system-user-mail
 system-user-man
 system-user-nobody
+system-user-root
 systemd
 systemd-bash-completion
 systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 systemsettings5
+sysuser-shadow
 sysvinit-tools
 tar
 tar-rmt
