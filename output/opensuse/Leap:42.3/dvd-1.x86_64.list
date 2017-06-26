@@ -2234,7 +2234,7 @@ libatk-1_0-0-32bit
 libatk-bridge-2_0-0
 libatkmm-1_6-1
 libatm1
-libatomic1-gcc7
+libatomic1
 libatrildocument3
 libatrilview3
 libatspi0
@@ -2582,8 +2582,8 @@ libgbm1
 libgbm1-32bit
 libgc1
 libgcab-1_0-0
-libgcc_s1-gcc7
-libgcc_s1-gcc7-32bit
+libgcc_s1
+libgcc_s1-32bit
 libgcin-im-client1
 libgcj-devel
 libgcj48
@@ -2693,7 +2693,7 @@ libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgoffice-0_10-10
 libgom-1_0-0
-libgomp1-gcc7
+libgomp1
 libgoocanvas3
 libgoocanvas3-lang
 libgooglepinyin0
@@ -2859,7 +2859,7 @@ libiso9660-10
 libisoburn1
 libisofs6
 libiterm1
-libitm1-gcc7
+libitm1
 libiw-devel
 libiw30
 libixion-0_11-0
@@ -3038,6 +3038,7 @@ libmpcdec-devel
 libmpcdec5
 libmpd1
 libmpfr4
+libmpg123-0
 libmsn-devel
 libmsn0_3
 libmspack0
@@ -3350,7 +3351,7 @@ libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
 libqtcurve-cairo1
 libqtcurve-utils2
-libquadmath0-gcc7
+libquadmath0
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
@@ -3542,9 +3543,9 @@ libsss_sudo
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++48-devel
+libstdc++6
+libstdc++6-32bit
 libstdc++6-gcc48-locale
-libstdc++6-gcc7
-libstdc++6-gcc7-32bit
 libstoken1
 libstorage-ruby
 libstorage7
@@ -3606,7 +3607,7 @@ libtracker-miner-1_0-0
 libtracker-sparql-1_0-0
 libtre5
 libts-1_0-0
-libtsan0-gcc7
+libtsan0
 libtumbler-1-0
 libtunepimp
 libtunepimp-devel
@@ -5011,7 +5012,6 @@ python3-cupshelpers
 python3-curses
 python3-dbm
 python3-devel
-python3-doc
 python3-docutils
 python3-gedit
 python3-gobject
@@ -5976,7 +5976,6 @@ yast2-printer
 yast2-product-creator
 yast2-proxy
 yast2-python-bindings
-yast2-registration
 yast2-ruby-bindings
 yast2-samba-client
 yast2-samba-server
