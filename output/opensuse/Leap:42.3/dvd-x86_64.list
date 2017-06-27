@@ -2987,6 +2987,7 @@ libldb1-32bit
 liblensfun0
 liblibkremotecontrol1
 liblightdm-gobject-1-0
+liblilv-0-0
 liblirc0
 liblirc_client0
 liblirc_driver0
@@ -3473,6 +3474,7 @@ libsensors4-devel
 libsepol-devel
 libsepol1
 libsepol1-32bit
+libserd-0-0
 libserf-1-1
 libserf-devel
 libserializer
@@ -3520,6 +3522,7 @@ libsofia-sip-ua0
 libsoftokn3
 libsolv-devel
 libsolv-tools
+libsord-0-0
 libsoup-2_4-1
 libsoup-devel
 libsoup-lang
@@ -3542,6 +3545,7 @@ libspice-server1
 libspnav0
 libsqlite3-0
 libsqlite3-0-32bit
+libsratom-0-0
 libsrtp1
 libssh-devel
 libssh2-1
@@ -3558,6 +3562,7 @@ libstoken1
 libstorage-ruby
 libstorage7
 libstroke
+libsuil-0-0
 libsuitesparseconfig-4_4_5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
@@ -5017,19 +5022,23 @@ python3-base
 python3-bottle
 python3-brlapi
 python3-cairo
+python3-cffi
 python3-coverage
+python3-cryptography
 python3-cssselect
 python3-cups
 python3-cupshelpers
 python3-curses
 python3-dbm
 python3-devel
+python3-doc
 python3-docutils
 python3-gedit
 python3-gobject
 python3-gobject-Gdk
 python3-gobject-cairo
 python3-gst
+python3-idna
 python3-louis
 python3-lxml
 python3-nose
@@ -5037,6 +5046,8 @@ python3-numpy
 python3-pip
 python3-py
 python3-pyOpenSSL
+python3-pyasn1
+python3-pycparser
 python3-pycrypto
 python3-pycurl
 python3-pytz
@@ -5298,6 +5309,7 @@ subversion-python
 subversion-server
 subversion-tools
 sudo
+suil-plugins
 suse-module-tools
 susehelp
 susehelp_cz
