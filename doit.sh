@@ -148,8 +148,8 @@ for arch in $arches; do
          #./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
          ./gen.pl opensuse/$proj/dvd-addon_lang $arch "$proj" $repo
          if test "$arch" = "x86_64"; then
-           ./gen-norecommends.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
-           ./gen-norecommends.pl opensuse/$proj/dvd-kubic-addon $arch "$proj" $repo
+           ./gen.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
+           ./gen.pl opensuse/$proj/dvd-kubic-addon $arch "$proj" $repo
          fi
        fi
     fi
