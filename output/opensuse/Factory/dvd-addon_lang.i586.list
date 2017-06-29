@@ -76,8 +76,6 @@ amavisd-new
 amavisd-new-docs
 analitza
 analitza-lang
-anjuta
-anjuta-lang
 apache-commons-io
 apache-commons-logging
 apache-pdfbox
@@ -202,7 +200,6 @@ augeas
 augeas-lenses
 autoconf
 autofs
-autogen
 automake
 autoyast2-installation
 avahi
@@ -359,6 +356,9 @@ chrome-gnome-shell
 cifs-utils
 clamav
 clamz
+clang
+clang3_8-checker
+clang4
 claws-mail
 claws-mail-lang
 clicfs
@@ -546,6 +546,8 @@ findutils
 finger
 fipscheck
 fixesproto-devel
+flatpak
+flatpak-builder
 flex
 flute
 fontconfig
@@ -597,7 +599,6 @@ gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
-gdl-lang
 gdm
 gdm-branding-openSUSE
 gdmflexiserver
@@ -632,6 +633,8 @@ git-email
 git-gui
 git-svn
 git-web
+gitg
+gitg-lang
 gitk
 gjs
 glade
@@ -647,9 +650,30 @@ glibc-locale
 glu-devel
 gmp-devel
 gnome-bluetooth
+gnome-builder
+gnome-builder-lang
+gnome-builder-plugin-beautifier
+gnome-builder-plugin-clang
+gnome-builder-plugin-cmake
+gnome-builder-plugin-ctags
+gnome-builder-plugin-devhelp
+gnome-builder-plugin-fpaste
+gnome-builder-plugin-gettext
+gnome-builder-plugin-gnome-code-assistance
+gnome-builder-plugin-html-completion
+gnome-builder-plugin-jedi
+gnome-builder-plugin-jhbuild
+gnome-builder-plugin-mingw
+gnome-builder-plugin-symbol-tree
+gnome-builder-plugin-sysmon
+gnome-builder-plugin-todo
+gnome-builder-plugin-vala-pack
+gnome-builder-plugin-xml-pack
 gnome-calculator
+gnome-characters
 gnome-chess
 gnome-clocks
+gnome-code-assistance
 gnome-color-manager
 gnome-color-manager-lang
 gnome-contacts
@@ -690,6 +714,7 @@ gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
+gnome-shell-search-provider-gnome-characters
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
@@ -868,6 +893,7 @@ ibus-table-zhuyin
 ibus-unikey
 iceauth
 icecream
+icecream-clang-wrappers
 icedax
 icewm
 icewm-config-upstream
@@ -1420,7 +1446,9 @@ libKPimGAPICore5
 libKPimGAPITasks5
 libKPimKDAV5
 libKScreenLocker5
+libLLVM3_8
 libLLVM4
+libLTO4
 libMagickCore-7_Q16HDRI2
 libMagickWand-7_Q16HDRI0
 libMathMLSolver0_3
@@ -1541,7 +1569,6 @@ libaio1
 libakonadi4
 libakonadiprotocolinternals1
 libamd-2_4_6
-libanjuta-3-0
 libao-devel
 libao-plugins4
 libao4
@@ -1706,6 +1733,8 @@ libchm0
 libcholmod-3_0_11
 libchromaprint1
 libcilkrts5
+libclang3_8
+libclang4
 libclastfm0
 libclucene-contribs-lib1
 libclucene-core1
@@ -1867,18 +1896,11 @@ libgcr-3-1
 libgcrypt-devel
 libgcrypt20
 libgd3
-libgda-5_0-4
-libgda-5_0-4-lang
-libgda-5_0-bdb
-libgda-5_0-sqlite
-libgda-ui-5_0-4
-libgda-ui-5_0-plugins
 libgdata22
 libgdbm4
 libgdict-1_0-10
 libgdict-data
 libgdk_pixbuf-2_0-0
-libgdl-3-5
 libgdm1
 libgeany0
 libgee-0_8-2
@@ -1894,6 +1916,9 @@ libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
 libgit2-25
+libgit2-glib-1_0-0
+libgitg-1_0-0
+libgitg-ext-1_0-0
 libgjs0
 libglade-2_0-0
 libgladeui-2-6
@@ -1949,7 +1974,7 @@ libgrlnet-0_3-0
 libgrlpls-0_3-0
 libgsf-1-114
 libgsf-devel
-libgsl19
+libgsl23
 libgslcblas0
 libgsm1
 libgsound0
@@ -2057,7 +2082,6 @@ libjansson4
 libjasper-devel
 libjasper1
 libjavascriptcoregtk-1_0-0
-libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjemalloc2
@@ -2241,6 +2265,7 @@ libodfgen-0_1-1
 libofa0
 libogg0
 liboggkate1
+libomp4-devel
 libopenal1
 libopenbabel4
 libopenblas_pthreads0
@@ -2253,8 +2278,6 @@ libopenraw1
 libopenssl-1_0_0-devel
 libopenssl-devel
 libopenssl1_0_0
-libopts-devel
-libopts25
 libopus0
 libopusfile0
 liborc-0_4-0
@@ -2265,6 +2288,7 @@ libosip2
 libosip2-devel
 libospf0
 libospfapiclient0
+libostree
 libostree-1-1
 libotf0
 libotr5
@@ -2696,9 +2720,7 @@ libwayland-server0
 libwbclient0
 libwebkit2gtk-4_0-37
 libwebkitgtk-1_0-0
-libwebkitgtk-3_0-0
 libwebkitgtk2-lang
-libwebkitgtk3-lang
 libwebp6
 libwebpdemux2
 libwebpmux2
@@ -2815,8 +2837,6 @@ libzmf-0_0-0
 libzvbi0
 libzypp
 libzypp-plugin-appdata
-liferea
-liferea-lang
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-branding-openSUSE
@@ -3557,6 +3577,7 @@ python3-cffi
 python3-chardet
 python3-cheroot
 python3-cryptography
+python3-cssselect
 python3-cupshelpers
 python3-curses
 python3-dbm
@@ -3568,7 +3589,9 @@ python3-gobject-Gdk
 python3-gobject-cairo
 python3-idle
 python3-idna
+python3-jedi
 python3-louis
+python3-lxml
 python3-packaging
 python3-pip
 python3-portend
@@ -3761,6 +3784,8 @@ sysconfig
 sysconfig-netconfig
 sysfsutils
 syslinux
+sysprof
+sysprof-lang
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -3863,6 +3888,7 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
+typelib-1_0-Flatpak-1_0
 typelib-1_0-GData-0_0
 typelib-1_0-GFBGraph-0_2
 typelib-1_0-GVnc-1_0
@@ -3952,6 +3978,7 @@ util-linux
 util-linux-systemd
 vaapi-dummy-driver
 vacation
+vala
 valgrind
 vcdimager
 viewnior
@@ -4001,6 +4028,12 @@ xbitmaps
 xbrlapi
 xclip
 xconsole
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gtk-lang
+xdg-desktop-portal-kde
+xdg-desktop-portal-kde-lang
+xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk

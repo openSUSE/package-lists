@@ -261,6 +261,7 @@ gnome-bluetooth
 gnome-bluetooth-lang
 gnome-calculator
 gnome-calculator-lang
+gnome-characters
 gnome-chess
 gnome-chess-lang
 gnome-clocks
@@ -317,6 +318,7 @@ gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-gnome-calculator
+gnome-shell-search-provider-gnome-characters
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
@@ -414,8 +416,6 @@ gtk3-tools
 gtk4-schema
 gtksourceview-lang
 gtkspell3-lang
-gucharmap
-gucharmap-lang
 guile-modules-2_0
 gupnp-av
 gvfs
@@ -829,7 +829,6 @@ libgtksourceview-3_0-1
 libgtkspell3-3-0
 libgtop-2_0-10
 libgtop-lang
-libgucharmap_2_90-7
 libgudev-1_0-0
 libguess1
 libguile-2_0-22

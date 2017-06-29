@@ -359,6 +359,9 @@ cim-schema
 circuslinux
 clamav
 clamz
+clang
+clang3_8-checker
+clang4
 claws-mail
 claws-mail-lang
 clicfs
@@ -544,6 +547,7 @@ evince-plugin-tiffdocument
 evince-plugin-xpsdocument
 evolution
 evolution-data-server
+evolution-data-server-lang
 evolution-ews
 evolution-ews-lang
 evolution-plugin-bogofilter
@@ -604,6 +608,8 @@ fipscheck
 fixesproto-devel
 flac
 flac-devel
+flatpak
+flatpak-builder
 flex
 flute
 fontconfig
@@ -767,9 +773,30 @@ gmp-devel
 gnome-backgrounds
 gnome-backgrounds-lang
 gnome-bluetooth
+gnome-builder
+gnome-builder-lang
+gnome-builder-plugin-beautifier
+gnome-builder-plugin-clang
+gnome-builder-plugin-cmake
+gnome-builder-plugin-ctags
+gnome-builder-plugin-devhelp
+gnome-builder-plugin-fpaste
+gnome-builder-plugin-gettext
+gnome-builder-plugin-gnome-code-assistance
+gnome-builder-plugin-html-completion
+gnome-builder-plugin-jedi
+gnome-builder-plugin-jhbuild
+gnome-builder-plugin-mingw
+gnome-builder-plugin-symbol-tree
+gnome-builder-plugin-sysmon
+gnome-builder-plugin-todo
+gnome-builder-plugin-vala-pack
+gnome-builder-plugin-xml-pack
 gnome-calculator
+gnome-characters
 gnome-chess
 gnome-clocks
+gnome-code-assistance
 gnome-color-manager
 gnome-color-manager-lang
 gnome-contacts
@@ -816,6 +843,7 @@ gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
 gnome-shell-search-provider-epiphany
 gnome-shell-search-provider-gnome-calculator
+gnome-shell-search-provider-gnome-characters
 gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
@@ -888,6 +916,7 @@ gsf-office-thumbnailer
 gsl-devel
 gstreamer
 gstreamer-devel
+gstreamer-lang
 gstreamer-libnice
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
@@ -1039,6 +1068,7 @@ ibus-table-translit
 ibus-table-zhuyin
 iceauth
 icecream
+icecream-clang-wrappers
 icecream-monitor
 icedax
 icedtea-web-javadoc
@@ -1113,6 +1143,8 @@ java-1_8_0-openjdk-headless
 java-1_8_0-openjdk-plugin
 javapackages-tools
 jfsutils
+jhbuild
+jhbuild-lang
 jhead
 jing
 jline
@@ -1654,7 +1686,9 @@ libKPimGAPICore5
 libKPimGAPITasks5
 libKPimKDAV5
 libKScreenLocker5
+libLLVM3_8
 libLLVM4
+libLTO4
 libMagick++-7_Q16HDRI2
 libMagickCore-7_Q16HDRI2
 libMagickWand-7_Q16HDRI0
@@ -1966,6 +2000,10 @@ libburn4
 libbz2-1
 libbz2-1-32bit
 libbz2-devel
+libc++-devel
+libc++1
+libc++abi-devel
+libc++abi1
 libc-client2007e_suse
 libcaca0
 libcacard0
@@ -2017,6 +2055,8 @@ libchm0
 libcholmod-3_0_11
 libchromaprint1
 libcilkrts5
+libclang3_8
+libclang4
 libclastfm0
 libclucene-contribs-lib1
 libclucene-core1
@@ -2231,7 +2271,6 @@ libgd3-32bit
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
-libgda-5_0-sqlcipher
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
@@ -2353,7 +2392,7 @@ libgrlnet-0_3-0
 libgrlpls-0_3-0
 libgsf-1-114
 libgsf-devel
-libgsl19
+libgsl23
 libgslcblas0
 libgsm1
 libgsm1-32bit
@@ -2501,7 +2540,6 @@ libjasper-devel
 libjasper1
 libjasper1-32bit
 libjavascriptcoregtk-1_0-0
-libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2-32bit
@@ -2759,6 +2797,7 @@ libogg0-32bit
 liboggkate1
 liboil
 liboil-devel
+libomp4-devel
 libonig2
 libopagent1
 libopal3_10_10
@@ -2792,6 +2831,7 @@ libosip2
 libosip2-devel
 libospf0
 libospfapiclient0
+libostree
 libostree-1-1
 libotf0
 libotr-devel
@@ -3347,9 +3387,7 @@ libwbxml2-1
 libwbxml2-devel
 libwebkit2gtk-4_0-37
 libwebkitgtk-1_0-0
-libwebkitgtk-3_0-0
 libwebkitgtk2-lang
-libwebkitgtk3-lang
 libwebp-devel
 libwebp6
 libwebp6-32bit
@@ -3500,8 +3538,6 @@ libzmf-0_0-0
 libzvbi0
 libzypp
 libzypp-plugin-appdata
-liferea
-liferea-lang
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-branding-openSUSE
@@ -4493,7 +4529,6 @@ python-wxWidgets-3_0-lang
 python-xcb-proto-devel
 python-xml
 python-yum
-python-zope.interface
 python2-CherryPy
 python2-M2Crypto
 python2-PySocks
@@ -4550,6 +4585,7 @@ python2-six
 python2-tempora
 python2-typing
 python2-urllib3
+python2-zope.interface
 python3
 python3-CherryPy
 python3-Cycler
@@ -4568,6 +4604,7 @@ python3-cffi
 python3-chardet
 python3-cheroot
 python3-cryptography
+python3-cssselect
 python3-cupshelpers
 python3-curses
 python3-dbm
@@ -4580,7 +4617,9 @@ python3-gobject-cairo
 python3-gst
 python3-idle
 python3-idna
+python3-jedi
 python3-louis
+python3-lxml
 python3-matplotlib
 python3-matplotlib-cairo
 python3-matplotlib-gtk3
@@ -4859,6 +4898,8 @@ sysconfig-netconfig
 sysdig-kmp-default
 sysfsutils
 syslinux
+sysprof
+sysprof-lang
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -4986,6 +5027,7 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
+typelib-1_0-Flatpak-1_0
 typelib-1_0-GData-0_0
 typelib-1_0-GES-1_0
 typelib-1_0-GFBGraph-0_2
@@ -5162,6 +5204,12 @@ xcb-proto-devel
 xclip
 xconsole
 xdelta
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gtk-lang
+xdg-desktop-portal-kde
+xdg-desktop-portal-kde-lang
+xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
