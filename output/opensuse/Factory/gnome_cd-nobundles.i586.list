@@ -132,9 +132,6 @@ cryptsetup
 cups
 cups-client
 cups-filters
-cups-filters-cups-browsed
-cups-filters-foomatic-rip
-cups-filters-ghostscript
 cups-libs
 cups-pk-helper
 cups-pk-helper-lang
@@ -1542,6 +1539,7 @@ python2-PySocks
 python2-appdirs
 python2-asn1crypto
 python2-atspi
+python2-certifi
 python2-cffi
 python2-chardet
 python2-configobj
@@ -1573,6 +1571,7 @@ python3-base
 python3-bottle
 python3-brlapi
 python3-cairo
+python3-certifi
 python3-cffi
 python3-chardet
 python3-cheroot

@@ -400,9 +400,6 @@ cups-backends
 cups-client
 cups-devel
 cups-filters
-cups-filters-cups-browsed
-cups-filters-foomatic-rip
-cups-filters-ghostscript
 cups-libs
 cups-libs-32bit
 cups-pk-helper
@@ -1848,7 +1845,7 @@ libaio1
 libakonadi4
 libakonadiprotocolinternals1
 libalkimia-devel
-libalkimia4
+libalkimia5
 libamd-2_4_6
 libanjuta-3-0
 libao-devel
@@ -4295,7 +4292,6 @@ phalanx
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 phonon4qt5-devel
-php-doc
 php5
 php5-bcmath
 php5-bz2
@@ -4442,7 +4438,6 @@ privoxy
 procinfo
 procmail
 procps
-providers
 psgml
 psmisc
 psutils
@@ -4464,7 +4459,6 @@ pulseaudio-utils
 pulseaudio-utils-32bit
 purpose
 pwgen
-pychecker
 python
 python-Twisted
 python-base
@@ -4535,6 +4529,7 @@ python2-appdirs
 python2-asn1crypto
 python2-atspi
 python2-bottle
+python2-certifi
 python2-cffi
 python2-chardet
 python2-cheroot
@@ -4596,6 +4591,7 @@ python3-bottle
 python3-brlapi
 python3-cairo
 python3-cairocffi
+python3-certifi
 python3-cffi
 python3-chardet
 python3-cheroot
@@ -4762,7 +4758,6 @@ sane-backends
 sane-backends-32bit
 sane-backends-autoconfig
 sane-backends-devel
-sash
 saxon6
 saxon9
 saxon9-scripts
@@ -5187,7 +5182,6 @@ wpa_supplicant
 wpa_supplicant-gui
 wqy-zenhei-fonts
 wv2-devel
-wwwoffle
 x11-tools
 xalan-j2
 xano-mincho-fonts
@@ -5199,7 +5193,7 @@ xbrlapi
 xcb-proto-devel
 xclip
 xconsole
-xdelta
+xdelta3
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-desktop-portal-gtk-lang

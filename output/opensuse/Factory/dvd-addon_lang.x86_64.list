@@ -390,9 +390,6 @@ cups-backends
 cups-client
 cups-devel
 cups-filters
-cups-filters-cups-browsed
-cups-filters-foomatic-rip
-cups-filters-ghostscript
 cups-libs
 cups-libs-32bit
 cups-pk-helper
@@ -3638,7 +3635,6 @@ presage-data
 procinfo
 procmail
 procps
-providers
 psgml
 psmisc
 pstoedit
@@ -3659,7 +3655,6 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 pulseaudio-utils-32bit
 purpose
-pychecker
 python
 python-base
 python-beautifulsoup
@@ -3697,6 +3692,7 @@ python2-appdirs
 python2-asn1crypto
 python2-atspi
 python2-bottle
+python2-certifi
 python2-cffi
 python2-chardet
 python2-cheroot
@@ -3750,6 +3746,7 @@ python3-base
 python3-bottle
 python3-brlapi
 python3-cairo
+python3-certifi
 python3-cffi
 python3-chardet
 python3-cheroot
@@ -3867,7 +3864,6 @@ samba-winbind
 samba-winbind-32bit
 sane-backends
 sane-backends-autoconfig
-sash
 saxon6
 saxon9
 saxon9-scripts
