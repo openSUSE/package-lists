@@ -15,7 +15,6 @@ bundle-lang-common-ar
 bzip2
 ca-certificates
 ca-certificates-mozilla
-cdrkit-cdrtools-compat
 coreutils
 cpio
 cpio-mt
@@ -41,7 +40,6 @@ fillup
 findutils
 fontconfig
 gawk
-genisoimage
 gettext-runtime
 glibc
 glibc-extra
@@ -57,7 +55,6 @@ gzip
 hardlink
 hostname
 hwinfo
-icedax
 info
 insserv-compat
 iproute2
@@ -69,7 +66,6 @@ kmod
 kmod-compat
 kpartx
 krb5
-libFLAC8
 libX11-6
 libX11-data
 libXau6
@@ -80,11 +76,8 @@ libXrender1
 libXss1
 libacl1
 libaio1
-libao-plugins4
-libao4
 libapparmor1
 libasm1
-libasound2
 libassuan0
 libattr1
 libaudit1
@@ -128,7 +121,6 @@ libidn2-0
 libisoburn1
 libisofs6
 libjte1
-libkate1
 libkeyutils1
 libkmod2
 libksba8
@@ -151,8 +143,6 @@ libnl-config
 libnl3-200
 libnpth0
 libnsl2
-libogg0
-liboggkate1
 libopenssl1_0_0
 libp11-kit0
 libpcre1
@@ -161,7 +151,6 @@ libpopt0
 libprocps6
 libproxy1
 libpsl5
-libpulse0
 libqrencode3
 libreadline7
 libruby2_2-2_2
@@ -172,9 +161,7 @@ libsemanage1
 libsepol1
 libsmartcols1
 libsnapper4
-libsndfile1
 libsolv-tools
-libspeex1
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -190,9 +177,6 @@ libustr-1_0-1
 libutempter0
 libuuid1
 libverto1
-libvorbis0
-libvorbisenc2
-libvorbisfile3
 libwicked-0-6
 libwrap0
 libx86emu1
@@ -269,17 +253,14 @@ udev
 update-alternatives
 util-linux
 util-linux-systemd
-vorbis-tools
 which
 wicked
 wicked-service
 wireless-regdb
-wodim
 xauth
 xhost
 xorriso
 xz
-zisofs-tools
 zypper
 zypper-aptitude
 zypper-lifecycle-plugin
