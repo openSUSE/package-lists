@@ -71,7 +71,6 @@ WindowMaker-themes
 a2ps
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 abcde
 abiword
 abiword-docs
@@ -193,6 +192,7 @@ aqbanking
 aqbanking-devel
 aqbanking-lang
 arabic-ae-fonts
+arabic-amiri-fonts
 arabic-bitmap-fonts
 arabic-fonts
 arabic-kacst-fonts
@@ -479,6 +479,7 @@ cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
 damageproto-devel
+daps
 dar
 dar-lang
 dasher
@@ -552,8 +553,8 @@ docbook_3
 docbook_4
 docbook_5
 dolphin
-dolphin-lang
 dolphin-part
+dolphin-part-lang
 dos2unix
 dosbox
 dosfstools
@@ -1696,8 +1697,8 @@ konqueror-devel
 konqueror-lang
 konquest
 konsole
-konsole-lang
 konsole-part
+konsole-part-lang
 kontact
 kontact-lang
 kontactinterface-lang
@@ -2507,7 +2508,7 @@ libepoxy-devel
 libepoxy0
 libepub-devel
 libepub0
-liberation-fonts
+liberation2-fonts
 libesd-devel
 libesd0
 libesmtp
@@ -4245,6 +4246,7 @@ openvpn
 opie
 opie-32bit
 oprofile
+optipng
 orage
 orage-doc
 orage-lang
@@ -4388,7 +4390,6 @@ patterns-openSUSE-sw_management_gnome
 patterns-openSUSE-sw_management_kde
 patterns-openSUSE-tabletpc
 patterns-openSUSE-technical_writing
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_opt
 patterns-openSUSE-xen_server
@@ -4691,6 +4692,7 @@ perl-apparmor
 perl-autobox
 perl-base
 perl-camgm
+perl-checkbot
 perl-common-sense
 perl-doc
 perl-gettext
@@ -5312,6 +5314,7 @@ subversion-tools
 sudo
 suil-plugins
 suse-module-tools
+suse-xsl-stylesheets
 susehelp
 susehelp_cz
 susehelp_de
@@ -5577,11 +5580,6 @@ unzip
 unzip-doc
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
 upower
 upower-lang
 urlscan
@@ -5659,6 +5657,7 @@ wondershaper
 words
 wpa_supplicant
 wpa_supplicant-gui
+wqy-microhei-fonts
 wqy-zenhei-fonts
 wsdl4j
 wv2-devel

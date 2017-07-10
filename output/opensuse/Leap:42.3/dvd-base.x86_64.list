@@ -1,7 +1,6 @@
 SUSEConnect
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 adjtimex
 audit
 augeas-lenses
@@ -236,7 +235,6 @@ pam-config
 patterns-openSUSE-base
 patterns-openSUSE-minimal_base
 patterns-openSUSE-minimal_base-conflicts
-patterns-openSUSE-update_test
 perl
 perl-Bootloader
 perl-base
@@ -286,11 +284,6 @@ tnftp
 traceroute
 udev
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
 util-linux
 util-linux-lang
 util-linux-systemd

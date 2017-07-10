@@ -16,7 +16,6 @@ SUSEConnect
 SuSEfirewall2
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 accountsservice
 acl
 acpica
@@ -813,7 +812,6 @@ patterns-openSUSE-enhanced_base
 patterns-openSUSE-fonts
 patterns-openSUSE-rest_cd_x11
 patterns-openSUSE-sw_management
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-x11_yast
 patterns-openSUSE-xfce_basis
@@ -991,11 +989,6 @@ udisks2
 unzip
 unzip-doc
 update-alternatives
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
 upower
 usb_modeswitch
 usb_modeswitch-data

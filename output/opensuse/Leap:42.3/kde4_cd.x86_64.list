@@ -25,7 +25,6 @@ SUSEConnect
 SuSEfirewall2
 aaa_base
 aaa_base-extras
-aaa_base-malloccheck
 accountsservice
 accountsservice-lang
 acl
@@ -174,8 +173,8 @@ dmraid
 dmz-icon-theme-cursors
 dnsmasq
 dolphin
-dolphin-lang
 dolphin-part
+dolphin-part-lang
 dosfstools
 dracut
 dragonplayer
@@ -479,8 +478,8 @@ knotes-lang
 kompare
 kompare-lang
 konsole
-konsole-lang
 konsole-part
+konsole-part-lang
 kontact
 kontact-lang
 kontactinterface-lang
@@ -1472,7 +1471,6 @@ patterns-openSUSE-office
 patterns-openSUSE-rest_cd_kde
 patterns-openSUSE-sw_management
 patterns-openSUSE-sw_management_kde
-patterns-openSUSE-update_test
 patterns-openSUSE-x11
 patterns-openSUSE-yast2_basis
 patterns-openSUSE-yast2_install_wf
@@ -1780,11 +1778,6 @@ unzip
 unzip-doc
 update-alternatives
 update-desktop-files
-update-test-affects-package-manager
-update-test-interactive
-update-test-optional
-update-test-reboot-needed
-update-test-security
 upower
 upower-lang
 usb_modeswitch
