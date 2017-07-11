@@ -1,8 +1,10 @@
 : > drops.list
 proj=$2
+product=$3
 test -n "$proj" || proj=Factory
+test -n "$product" || product=_product
 
-for i in `grep obsoletepackage ../osc/openSUSE\:$proj/_product/obsoletepackages.inc | sed -e 's,.*>\(.*\)</ob.*,\1,'`; do
+for i in `grep obsoletepackage ../osc/openSUSE\:$proj/$product/obsoletepackages.inc | sed -e 's,.*>\(.*\)</ob.*,\1,'`; do
    grep -xq $i $1.list || continue
    echo "job droporphaned name $i" >> drops.list
 done

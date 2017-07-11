@@ -2,7 +2,8 @@
 export LC_ALL=C
 
 proj=$1
-(cd ../osc/openSUSE\:$proj/_product/ && osc up )
+product=$2
+( cd ../osc/openSUSE\:$proj/$product/ && osc up )
 
 #
 # Process a single test case, recreating all the structures every time.
@@ -13,6 +14,6 @@ proj=$1
 
 for i in $(ls -1 *-update.t | tac); do 
   echo "testing $i"
-  ./update.sh $i $proj || break
+  ./update.sh $i $proj $product || break
 done
 
