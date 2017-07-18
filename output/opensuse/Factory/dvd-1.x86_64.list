@@ -485,7 +485,6 @@ dos2unix
 dosbox
 dosfstools
 doxygen
-dpdk-kmp-default
 dracut
 dragonplayer
 drbd
@@ -908,6 +907,7 @@ gsf-office-thumbnailer
 gsl-devel
 gstreamer
 gstreamer-devel
+gstreamer-lang
 gstreamer-libnice
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
@@ -1390,6 +1390,7 @@ knavalbattle
 knavalbattle-lang
 knetwalk
 knetwalk-lang
+knewstuff
 knewstuff-core-devel
 knewstuff-devel
 knotes
@@ -3074,7 +3075,7 @@ librevenge-generators-0_0-0
 librevenge-stream-0_0-0
 librhash0
 librsvg-2-2
-libruby2_2-2_2
+libruby2_4-2_4
 libsamba-credentials0
 libsamba-credentials0-32bit
 libsamba-errors0
@@ -3980,7 +3981,6 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
-pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4730,18 +4730,18 @@ ruby-common
 ruby-devel
 ruby-qt4
 ruby-qt4-devel
-ruby2.2
-ruby2.2-devel
-ruby2.2-rubygem-abstract_method
-ruby2.2-rubygem-byebug
-ruby2.2-rubygem-cfa
-ruby2.2-rubygem-cfa_grub2
-ruby2.2-rubygem-cheetah
-ruby2.2-rubygem-fast_gettext
-ruby2.2-rubygem-gem2rpm
-ruby2.2-rubygem-ruby-augeas
-ruby2.2-rubygem-ruby-dbus
-ruby2.2-stdlib
+ruby2.4
+ruby2.4-devel
+ruby2.4-rubygem-abstract_method
+ruby2.4-rubygem-byebug
+ruby2.4-rubygem-cfa
+ruby2.4-rubygem-cfa_grub2
+ruby2.4-rubygem-cheetah
+ruby2.4-rubygem-fast_gettext
+ruby2.4-rubygem-gem2rpm
+ruby2.4-rubygem-ruby-augeas
+ruby2.4-rubygem-ruby-dbus
+ruby2.4-stdlib
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
 rzip
@@ -4833,6 +4833,7 @@ solid-devel
 solid-imports
 solid-tools
 sonar-icon-theme
+sonnet
 sonnet-devel
 sound-juicer
 sound-juicer-lang
@@ -5401,7 +5402,6 @@ xset
 xsetroot
 xslide
 xstroke
-xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
