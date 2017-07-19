@@ -22,8 +22,8 @@ createsolv()
 	output=output
 	rm -rf $output
 	mkdir -p $output/suse/setup/descr
-	curl -s -f http://download.opensuse.org/$repopath/content -o $output/content
-	curl -s -f http://download.opensuse.org/$repopath/suse/setup/descr/packages.gz -o $output/suse/setup/descr/packages.gz
+	curl -s -L -f http://download.opensuse.org/$repopath/content -o $output/content
+	curl -s -L -f http://download.opensuse.org/$repopath/suse/setup/descr/packages.gz -o $output/suse/setup/descr/packages.gz
 	susetags2solv -X -c $output/content -d $output/suse/setup/descr/ > "$solv"
 	rm -rf $output
 }
