@@ -326,6 +326,7 @@ calligra-sheets
 calligra-stage
 calligra-words
 canberra-gtk-play
+canna-libs
 cantarell-fonts
 capi4hylafax
 caribou
@@ -541,6 +542,7 @@ evince-plugin-tiffdocument
 evince-plugin-xpsdocument
 evolution
 evolution-data-server
+evolution-data-server-lang
 evolution-ews
 evolution-ews-lang
 evolution-plugin-bogofilter
@@ -2241,7 +2243,7 @@ libfreerdp2
 libfreetype6
 libfribidi0
 libfstrm0
-libftdi1
+libftdi1-2
 libftgl2
 libfuse2
 libgadu-devel
@@ -2523,6 +2525,7 @@ libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
+libjd0
 libjemalloc2
 libjpeg-turbo
 libjpeg62
@@ -3084,6 +3087,7 @@ libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
 libsocks0
+libsodium18
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
@@ -3555,7 +3559,11 @@ mkfontscale
 mlmmj
 mlocate
 mlocate-lang
+mlterm
+mlterm-canna
+mlterm-ibus
 mlterm-scim
+mlterm-wnn
 mmv
 mobile-broadband-provider-info
 mobipocket
@@ -3876,6 +3884,7 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4183,6 +4192,7 @@ permissions
 pesign
 pesign-obs-integration
 pfscalibration
+pfstmo
 pfstools
 phalanx
 phonon-backend-gstreamer
@@ -4356,7 +4366,6 @@ pulseaudio-utils
 purpose
 pwgen
 python
-python-Twisted
 python-base
 python-beautifulsoup
 python-bonobo
@@ -4408,27 +4417,30 @@ python-smbios
 python-solv
 python-talloc
 python-urlgrabber
-python-urwid
 python-wxWidgets-3_0
 python-wxWidgets-3_0-lang
 python-xcb-proto-devel
 python-xml
 python-yum
+python2-Automat
 python2-CherryPy
 python2-M2Crypto
 python2-PySocks
 python2-PyYAML
 python2-SecretStorage
+python2-Twisted
 python2-Unidecode
 python2-appdirs
 python2-asn1crypto
 python2-atspi
+python2-attrs
 python2-bottle
 python2-certifi
 python2-cffi
 python2-chardet
 python2-cheroot
 python2-configobj
+python2-constantly
 python2-cryptography
 python2-cssselect
 python2-dbus-python
@@ -4441,7 +4453,9 @@ python2-gobject-Gdk
 python2-gobject-cairo
 python2-gpgme
 python2-httplib2
+python2-hyperlink
 python2-idna
+python2-incremental
 python2-iniparse
 python2-keyring
 python2-lxml
@@ -4471,6 +4485,7 @@ python2-six
 python2-tempora
 python2-typing
 python2-urllib3
+python2-urwid
 python2-zope.interface
 python3
 python3-CherryPy
@@ -5292,6 +5307,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
@@ -5303,7 +5319,6 @@ yakuake
 yakuake-lang
 yast2
 yast2-add-on
-yast2-add-on-creator
 yast2-apparmor
 yast2-auth-client
 yast2-auth-server
@@ -5350,7 +5365,6 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
-yast2-product-creator
 yast2-proxy
 yast2-python-bindings
 yast2-ruby-bindings

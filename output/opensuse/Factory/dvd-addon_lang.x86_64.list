@@ -98,6 +98,8 @@ apparmor-profiles
 apparmor-utils
 appstream-glib
 apr-devel
+apulse
+apulse-32bit
 arabic-ae-fonts
 arabic-bitmap-fonts
 arabic-fonts
@@ -338,6 +340,7 @@ ca-certificates-mozilla
 cairo-devel
 calendarsupport
 canberra-gtk-play
+canna-libs
 cantarell-fonts
 capi4hylafax
 caribou
@@ -495,6 +498,7 @@ evince-plugin-pdfdocument
 evince-plugin-psdocument
 evolution
 evolution-data-server
+evolution-data-server-lang
 evolution-plugin-spamassassin
 exif
 exiftool
@@ -1322,7 +1326,6 @@ libAppStreamQt2
 libEMF1
 libFLAC++6
 libFLAC8
-libFLAC8-32bit
 libGLEW1_13
 libGLU1
 libGeneratedSaxParser0_3
@@ -2166,6 +2169,7 @@ libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2-32bit
+libjd0
 libjemalloc2
 libjpeg-turbo
 libjpeg62
@@ -2473,7 +2477,6 @@ libpspell15
 libpulse-devel
 libpulse-mainloop-glib0
 libpulse0
-libpulse0-32bit
 libpurple
 libpurple-branding-openSUSE
 libpurple-plugin-sametime
@@ -2689,12 +2692,12 @@ libsmputils1-1
 libsnapper4
 libsnappy1
 libsndfile1
-libsndfile1-32bit
 libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
 libsocks0
+libsodium18
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
@@ -2707,7 +2710,6 @@ libspandsp2
 libspectre1
 libspeechd2
 libspeex1
-libspeex1-32bit
 libspeexdsp1
 libspice-client-glib-2_0-8
 libspice-client-glib-helper
@@ -2866,7 +2868,6 @@ libvoikko1
 libvorbis0
 libvorbis0-32bit
 libvorbisenc2
-libvorbisenc2-32bit
 libvorbisfile3
 libvorbisfile3-32bit
 libvpx4
@@ -3100,7 +3101,11 @@ milou5
 mjpegtools
 mkfontdir
 mkfontscale
+mlterm
+mlterm-canna
+mlterm-ibus
 mlterm-scim
+mlterm-wnn
 mobile-broadband-provider-info
 mobipocket
 mosh
@@ -3659,7 +3664,6 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-pulseaudio-utils-32bit
 purpose
 python
 python-base
@@ -4366,7 +4370,6 @@ xz
 xz-devel
 yast2
 yast2-add-on
-yast2-add-on-creator
 yast2-apparmor
 yast2-auth-client
 yast2-auth-server
@@ -4410,7 +4413,6 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-printer
-yast2-product-creator
 yast2-proxy
 yast2-python-bindings
 yast2-ruby-bindings
