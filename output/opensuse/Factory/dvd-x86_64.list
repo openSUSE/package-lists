@@ -3260,7 +3260,6 @@ libts0
 libtsan0
 libtumbler-1-0
 libtunepimp
-libtunepimp-devel
 libtunepimp5
 libturbojpeg0
 libubsan0
@@ -3914,6 +3913,7 @@ patterns-base-minimal_base_conflicts
 patterns-base-sw_management
 patterns-base-x11
 patterns-base-x11_opt
+patterns-base-x86
 patterns-desktop-books
 patterns-desktop-imaging
 patterns-desktop-imaging_opt
@@ -4459,7 +4459,6 @@ pthread-stubs-devel
 ptools
 publicsuffix
 pullin-bcm43xx-firmware
-pullin-fluendo-mp3
 pulseaudio
 pulseaudio-bash-completion
 pulseaudio-esound-compat
