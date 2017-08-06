@@ -5,6 +5,7 @@ GeoIP-data
 GraphicsMagick-devel
 ImageMagick
 ImageMagick-devel
+ImageMagick-extra
 LibVNCServer-devel
 Mesa
 Mesa-dri-devel
@@ -182,6 +183,7 @@ autoconf-el
 autofs
 autogen
 automake
+autotrace
 autoyast2
 autoyast2-installation
 avahi
@@ -321,6 +323,7 @@ calendarsupport
 calligra
 calligra-doc
 calligra-extras-dolphin
+calligra-extras-okular
 calligra-lang
 calligra-sheets
 calligra-stage
@@ -465,6 +468,7 @@ diffstat
 diffutils
 ding
 ding-dict-de_en
+djvulibre
 dleyna-connector-dbus
 dleyna-renderer
 dleyna-server
@@ -534,6 +538,7 @@ ethtool
 eventviews
 evince
 evince-plugin-comicsdocument
+evince-plugin-djvudocument
 evince-plugin-dvidocument
 evince-plugin-pdfdocument
 evince-plugin-psdocument
@@ -619,6 +624,7 @@ fprintd-pam
 frameworkintegration-devel
 frameworkintegration-plugin
 freeglut-devel
+freeipmi
 freerdp
 freetype2-devel
 frei0r-plugins
@@ -938,6 +944,7 @@ gstreamer-plugins-good-extra
 gstreamer-plugins-ugly
 gstreamer-transcoder
 gstreamer-utils
+gstreamer-validate
 gtg
 gtg-lang
 gthumb
@@ -1025,6 +1032,7 @@ hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hostname
+hp2xx
 hplip
 hplip-hpijs
 hplip-sane
@@ -1924,6 +1932,7 @@ libaudiofile1
 libaudit1
 libaugeas0
 libauparse0
+libautotrace3
 libavahi-client3
 libavahi-common3
 libavahi-core7
@@ -2118,6 +2127,8 @@ libdevmapper1_03
 libdhash1
 libdialog14
 libdiscid0
+libdjvulibre-devel
+libdjvulibre21
 libdleyna-core-1_0-4
 libdlm3
 libdmapsharing-3_0-2
@@ -2844,13 +2855,17 @@ libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit-qt5-1-devel
 libpolkit0
+libpoppler-cpp0
+libpoppler-devel
 libpoppler-glib8
 libpoppler-qt5-1
+libpoppler-qt5-devel
 libpoppler67
 libpopt0
 libportaudio2
 libportmidi0
 libpostproc54
+libpowerman0
 libpq5
 libpqxx-5_0
 libpqxx-devel
@@ -3188,6 +3203,7 @@ libunique-1_0-0
 libunistring2
 libunwind
 libupower-glib3
+libupsclient1
 liburcu2
 libusb-0_1-4
 libusb-1_0-0
@@ -3294,6 +3310,7 @@ libwiretap6
 libwmf-0_2-7
 libwmf-devel
 libwmf-gnome
+libwmf-tools
 libwnck-1-22
 libwnck-3-0
 libwnck2-lang
@@ -3556,6 +3573,7 @@ mlterm-scim
 mlterm-wnn
 mmv
 mobile-broadband-provider-info
+mobipocket
 monapo-fonts
 mono-core
 mono-data
@@ -3679,6 +3697,8 @@ ntp
 ntp-doc
 numlockx
 nuoveXT2-icon-theme
+nut
+nut-cgi
 nxtvepg
 obconf
 obs-service-download_files
@@ -3697,6 +3717,8 @@ ofl
 okteta
 okteta-devel
 okteta-lang
+okular
+okular-lang
 open-iscsi
 open-vm-tools
 open-vm-tools-desktop
@@ -4796,6 +4818,7 @@ system-user-news
 system-user-nobody
 system-user-root
 system-user-srvGeoClue
+system-user-upsd
 system-user-uucp
 system-user-wwwrun
 systemd
