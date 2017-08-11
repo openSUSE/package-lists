@@ -42,3 +42,6 @@ job lock name apparmor-utils
 # Can we get rid of webkit1 on the live? (20170312)
 job lock name libwebkitgtk-3_0-0
 
+# no one needed
+job lock name gdk-pixbuf-lang
+
