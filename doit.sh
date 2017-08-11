@@ -41,10 +41,10 @@ is_x86(){
 echo "generate dvds for $proj $repo at "
 date
 
-if [ ! -e osc/openSUSE\:$proj/_product/.osc ]; then
+if [ ! -e osc/openSUSE\:$proj/000product/.osc ]; then
         mkdir -p osc
         cd osc
-        osc co openSUSE:$proj _product
+        osc co openSUSE:$proj 000product
         cd -
 fi
 
@@ -53,7 +53,7 @@ if [ ! -e osc-plugin-factory/bs_mirrorfull ]; then
         exit 1
 fi
 
-grep -v openSUSE-release osc/openSUSE:$proj/_product/NON_FTP_PACKAGES.group | grep 'package name=' | \
+grep -v openSUSE-release osc/openSUSE:$proj/000product/NON_FTP_PACKAGES.group | grep 'package name=' | \
    sed -e 's,.*package name=",job lock name ,; s,"/>,,' > opensuse/$proj/non_ftp_packages
 
 for arch in $arches; do

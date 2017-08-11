@@ -23,30 +23,30 @@ case $proj in
 esac
 
 mkdir -p osc
-test -d osc/openSUSE:$proj/_product || ( cd osc; osc co openSUSE:$proj/_product )
+test -d osc/openSUSE:$proj/000product || ( cd osc; osc co openSUSE:$proj/000product )
 
 for arch in $arches; do
-    ./mk_group.sh output/opensuse/$proj/dvd-$arch.list DVD-$arch osc/openSUSE:$proj/_product/DVD5-$arch.group only_$arch
+    ./mk_group.sh output/opensuse/$proj/dvd-$arch.list DVD-$arch osc/openSUSE:$proj/000product/DVD5-$arch.group only_$arch
 
     #if [ "$arch" = "i586" -o "$arch" = "x86_64" ];then
-      #./mk_group.sh output/opensuse/$proj/dvd9-only_$arch.list DVD9-$arch osc/openSUSE:$proj/_product/DVD9-$arch.group only_$arch
-      #./mk_group.sh output/opensuse/$proj/promo_dvd.$arch.list REST-DVD-promo-$arch osc/openSUSE:$proj/_product/DVD5-promo-$arch.group only_$arch
-      #./mk_group.sh output/opensuse/$proj/langaddon.$arch.list REST-DVD-$arch osc/openSUSE:$proj/_product/DVD5-lang-$arch.group only_$arch
+      #./mk_group.sh output/opensuse/$proj/dvd9-only_$arch.list DVD9-$arch osc/openSUSE:$proj/000product/DVD9-$arch.group only_$arch
+      #./mk_group.sh output/opensuse/$proj/promo_dvd.$arch.list REST-DVD-promo-$arch osc/openSUSE:$proj/000product/DVD5-promo-$arch.group only_$arch
+      #./mk_group.sh output/opensuse/$proj/langaddon.$arch.list REST-DVD-$arch osc/openSUSE:$proj/000product/DVD5-lang-$arch.group only_$arch
     #fi
     if [ "$arch" = "x86_64" ];then
-      #./mk_group.sh output/opensuse/$proj/dvd9-all.list DVD9-biarch osc/openSUSE:$proj/_product/DVD9-biarch.group
-      ./mk_group.sh output/opensuse/$proj/nonoss.list Addon-NonOss osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss.group
-      ./mk_group.sh output/opensuse/$proj/nonoss-$arch.list Addon-NonOss-$arch osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-$arch.group only_$arch
-      ./mk_group.sh output/opensuse/$proj/nonoss.deps.list Addon-NonOss-Deps osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps.group
-      ./mk_group.sh output/opensuse/$proj/nonoss.deps-$arch.list Addon-NonOss-Deps-$arch osc/openSUSE:$proj/_product/openSUSE-Addon-NonOss-Deps-$arch.group only_$arch
+      #./mk_group.sh output/opensuse/$proj/dvd9-all.list DVD9-biarch osc/openSUSE:$proj/000product/DVD9-biarch.group
+      ./mk_group.sh output/opensuse/$proj/nonoss.list Addon-NonOss osc/openSUSE:$proj/000product/openSUSE-Addon-NonOss.group
+      ./mk_group.sh output/opensuse/$proj/nonoss-$arch.list Addon-NonOss-$arch osc/openSUSE:$proj/000product/openSUSE-Addon-NonOss-$arch.group only_$arch
+      ./mk_group.sh output/opensuse/$proj/nonoss.deps.list Addon-NonOss-Deps osc/openSUSE:$proj/000product/openSUSE-Addon-NonOss-Deps.group
+      ./mk_group.sh output/opensuse/$proj/nonoss.deps-$arch.list Addon-NonOss-Deps-$arch osc/openSUSE:$proj/000product/openSUSE-Addon-NonOss-Deps-$arch.group only_$arch
       if [ "$proj" = "Factory" ]; then
-        ./mk_group.sh output/opensuse/$proj/dvd-kubic.$arch.list openSUSE-Kubic osc/openSUSE:$proj/_product/openSUSE-Kubic.group
-        ./mk_group.sh output/opensuse/$proj/dvd-kubic-addon.$arch.list openSUSE-Kubic-DVD osc/openSUSE:$proj/_product/openSUSE-Kubic-DVD.group
+        ./mk_group.sh output/opensuse/$proj/dvd-kubic.$arch.list openSUSE-Kubic osc/openSUSE:$proj/000product/openSUSE-Kubic.group
+        ./mk_group.sh output/opensuse/$proj/dvd-kubic-addon.$arch.list openSUSE-Kubic-DVD osc/openSUSE:$proj/000product/openSUSE-Kubic-DVD.group
       fi
     fi
 done
 
-( cd osc/openSUSE:$proj/_product/ && osc ci -m "auto update" > /dev/null )
+( cd osc/openSUSE:$proj/000product/ && osc ci -m "auto update" > /dev/null )
 
 if [ "$arches" = "i586 x86_64" ];then
    test -d osc/openSUSE:$proj:Live || (cd osc; osc co -e openSUSE:$proj:Live)
