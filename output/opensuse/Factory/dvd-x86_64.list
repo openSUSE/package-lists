@@ -126,7 +126,6 @@ apparmor-abstractions
 apparmor-docs
 apparmor-parser
 apparmor-profiles
-apparmor-utils
 appstream-glib
 apr-devel
 apr-util-devel
@@ -683,7 +682,6 @@ gd
 gdb
 gdbm-devel
 gdk-pixbuf-devel
-gdk-pixbuf-lang
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -945,7 +943,6 @@ gtk2-engine-industrial
 gtk2-engine-mist
 gtk2-engine-murrine
 gtk2-engine-murrine-32bit
-gtk2-engine-oxygen
 gtk2-engine-redmond95
 gtk2-engine-thinice
 gtk2-engines
@@ -963,7 +960,6 @@ gtk2-theme-clearlooks
 gtk2-theme-crux
 gtk2-theme-industrial
 gtk2-theme-mist
-gtk2-theme-oxygen
 gtk2-theme-redmond95
 gtk2-theme-thinice
 gtk2-theming-engine-adwaita
@@ -1218,6 +1214,8 @@ kdbusaddons-devel
 kdbusaddons-tools
 kde-cli-tools5
 kde-gtk-config5
+kde-gtk-config5-gtk2
+kde-gtk-config5-gtk3
 kde-l10n-cs
 kde-l10n-da
 kde-l10n-da-data
@@ -2310,7 +2308,7 @@ libgio-2_0-0
 libgio-2_0-0-32bit
 libgiomm-2_4-1
 libgirepository-1_0-1
-libgit2-25
+libgit2-26
 libgit2-glib-1_0-0
 libgitg-1_0-0
 libgitg-ext-1_0-0
@@ -2641,6 +2639,7 @@ libloader
 liblockdev1
 liblockdev1-32bit
 liblogging0
+liblognorm5
 libloudmouth-1-0
 liblouis-data
 liblouis9
@@ -2900,7 +2899,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler67
+libpoppler68
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -3354,7 +3353,6 @@ libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
 libvirt-libs
-libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
@@ -3520,12 +3518,12 @@ libyaml-0-2
 libyaz-devel
 libyaz5
 libyelp0
-libyui-ncurses-pkg7
-libyui-ncurses7
-libyui-qt-graph7
-libyui-qt-pkg7
-libyui-qt7
-libyui7
+libyui-ncurses-pkg8
+libyui-ncurses8
+libyui-qt-graph8
+libyui-qt-pkg8
+libyui-qt8
+libyui8
 libz1
 libz1-32bit
 libzapojit-0_0-0
@@ -4563,6 +4561,7 @@ python2-idna
 python2-incremental
 python2-iniparse
 python2-keyring
+python2-libvirt-python
 python2-lxml
 python2-numpy
 python2-packaging
@@ -4597,7 +4596,6 @@ python3-CherryPy
 python3-Cycler
 python3-Pillow
 python3-PySocks
-python3-apparmor
 python3-appdirs
 python3-asn1crypto
 python3-atspi

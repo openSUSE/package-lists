@@ -56,7 +56,6 @@ amarok-lang
 apparmor-abstractions
 apparmor-parser
 apparmor-profiles
-apparmor-utils
 ark
 ark-lang
 aspell
@@ -371,6 +370,8 @@ kdbusaddons-tools
 kde-cli-tools5
 kde-cli-tools5-lang
 kde-gtk-config5
+kde-gtk-config5-gtk2
+kde-gtk-config5-gtk3
 kde-gtk-config5-lang
 kde-l10n-de
 kde-l10n-de-data
@@ -688,10 +689,7 @@ libLLVM4
 libQt5Concurrent5
 libQt5Core5
 libQt5DBus5
-libQt5Designer5
-libQt5DesignerComponents5
 libQt5Gui5
-libQt5Help5
 libQt5Multimedia5
 libQt5Network5
 libQt5OpenGL5
@@ -897,7 +895,7 @@ libgif7
 libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
-libgit2-25
+libgit2-26
 libglib-2_0-0
 libglibmm-2_4-1
 libglvnd
@@ -1112,7 +1110,6 @@ libnm-glib4
 libnm-util2
 libnm0
 libnma0
-libnotify-tools
 libnotify4
 libnpth0
 libnsl2
@@ -1156,7 +1153,7 @@ libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit0
 libpoppler-qt5-1
-libpoppler67
+libpoppler68
 libpopt0
 libportaudio2
 libpostproc54
@@ -1191,14 +1188,12 @@ libqt4-qt3support
 libqt4-sql
 libqt4-sql-sqlite
 libqt4-x11
-libqt5-linguist
 libqt5-qdbus
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtgraphicaleffects
 libqt5-qtimageformats
 libqt5-qtpaths
 libqt5-qtquickcontrols
-libqt5-qttools
 libqt5-qttranslations
 libqt5-qtwebengine
 libquicktime0
@@ -1375,11 +1370,11 @@ libxshmfence1
 libxslt1
 libxtables12
 libyaml-0-2
-libyui-ncurses-pkg7
-libyui-ncurses7
-libyui-qt-pkg7
-libyui-qt7
-libyui7
+libyui-ncurses-pkg8
+libyui-ncurses8
+libyui-qt-pkg8
+libyui-qt8
+libyui8
 libz1
 libzbar0
 libzio1
@@ -1679,7 +1674,6 @@ python2-six
 python3
 python3-CherryPy
 python3-PySocks
-python3-apparmor
 python3-appdirs
 python3-asn1crypto
 python3-base

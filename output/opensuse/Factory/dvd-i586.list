@@ -122,7 +122,6 @@ apparmor-abstractions
 apparmor-docs
 apparmor-parser
 apparmor-profiles
-apparmor-utils
 appstream-glib
 apr-devel
 apr-util-devel
@@ -688,7 +687,6 @@ gd
 gdb
 gdbm-devel
 gdk-pixbuf-devel
-gdk-pixbuf-lang
 gdk-pixbuf-loader-libopenraw
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -1242,6 +1240,8 @@ kdbusaddons-devel
 kdbusaddons-tools
 kde-cli-tools5
 kde-gtk-config5
+kde-gtk-config5-gtk2
+kde-gtk-config5-gtk3
 kde-l10n-cs
 kde-l10n-da
 kde-l10n-da-data
@@ -2317,7 +2317,7 @@ libgimpui-2_0-0
 libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
-libgit2-25
+libgit2-26
 libgit2-glib-1_0-0
 libgitg-1_0-0
 libgitg-ext-1_0-0
@@ -2628,6 +2628,7 @@ liblmdb-0_9_17
 libloader
 liblockdev1
 liblogging0
+liblognorm5
 libloudmouth-1-0
 liblouis-data
 liblouis9
@@ -2860,7 +2861,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler67
+libpoppler68
 libpopt0
 libportaudio2
 libportmidi0
@@ -3267,7 +3268,6 @@ libvirt-daemon-lxc
 libvirt-daemon-qemu
 libvirt-glib-1_0-0
 libvirt-libs
-libvirt-python
 libvisio-0_1-1
 libvisual
 libvisual-devel
@@ -3429,12 +3429,12 @@ libyaml-0-2
 libyaz-devel
 libyaz5
 libyelp0
-libyui-ncurses-pkg7
-libyui-ncurses7
-libyui-qt-graph7
-libyui-qt-pkg7
-libyui-qt7
-libyui7
+libyui-ncurses-pkg8
+libyui-ncurses8
+libyui-qt-graph8
+libyui-qt-pkg8
+libyui-qt8
+libyui8
 libz1
 libzapojit-0_0-0
 libzbar0
@@ -4464,6 +4464,7 @@ python2-idna
 python2-incremental
 python2-iniparse
 python2-keyring
+python2-libvirt-python
 python2-lxml
 python2-numpy
 python2-packaging
@@ -4498,7 +4499,6 @@ python3-CherryPy
 python3-Cycler
 python3-Pillow
 python3-PySocks
-python3-apparmor
 python3-appdirs
 python3-asn1crypto
 python3-atspi
