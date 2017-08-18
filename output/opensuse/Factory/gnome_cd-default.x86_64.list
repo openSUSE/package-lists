@@ -172,7 +172,6 @@ gjs
 glib-networking
 glib2-tools
 glibc
-glibc-32bit
 glibc-extra
 gnome-bluetooth
 gnome-calculator
@@ -227,6 +226,8 @@ gnome-video-effects
 gnome-weather
 gnu-unifont-bitmap-fonts
 gnuchess
+gnustep-base
+gnustep-make
 google-droid-fonts
 google-opensans-fonts
 google-roboto-fonts
@@ -378,7 +379,6 @@ libappstream4
 libarchive13
 libasm1
 libasound2
-libaspell15
 libass9
 libassuan0
 libatasmart4
@@ -751,6 +751,7 @@ libnsl2
 libntfs-3g87
 libnuma1
 liboauth0
+libobjc4
 libofa0
 libogg0
 liboggkate1
@@ -1283,7 +1284,6 @@ ruby2.4-rubygem-ruby-augeas
 ruby2.4-rubygem-ruby-dbus
 ruby2.4-stdlib
 s2tc
-s2tc-32bit
 samba-libs
 sane-backends
 sane-backends-autoconfig
@@ -1427,6 +1427,7 @@ ucode-intel
 udev
 udev-configure-printer
 udisks2
+unar
 unzip
 unzip-doc
 update-alternatives
