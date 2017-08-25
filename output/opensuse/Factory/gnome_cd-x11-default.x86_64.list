@@ -123,6 +123,7 @@ google-roboto-fonts
 gpart
 gpg2
 gpm
+gpsd
 gptfdisk
 grep
 groff
@@ -246,6 +247,7 @@ libavahi-common3
 libavahi-glib1
 libbind9-140
 libblkid1
+libbluetooth3
 libbluray2
 libboost_system1_64_0
 libboost_thread1_64_0
@@ -593,7 +595,8 @@ notification-daemon
 nscd
 ntfs-3g
 ntfsprogs
-ntp
+ntpsec
+ntpsec-utils
 numactl
 numlockx
 open-iscsi
@@ -729,6 +732,8 @@ psmisc
 publicsuffix
 python
 python-base
+python-gpsd
+python-ntp
 python-pyudev
 python-rpm-macros
 python-solv
@@ -738,6 +743,7 @@ python2-configobj
 python2-dbus-python
 python2-decorator
 python2-gobject
+python2-psutil
 python2-six
 python3
 python3-PySocks
