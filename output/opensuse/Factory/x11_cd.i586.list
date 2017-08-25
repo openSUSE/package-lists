@@ -106,6 +106,8 @@ elfutils
 ethtool
 evince
 evince-plugin-pdfdocument
+exo-data
+exo-helpers
 exo-tools
 expat
 fd0ssh
@@ -154,6 +156,7 @@ gpart
 gparted
 gpg2
 gpm
+gpsd
 gptfdisk
 grep
 groff
@@ -361,6 +364,7 @@ libewf2
 libexif12
 libexo-1-0
 libexo-1-0-branding-openSUSE
+libexo-2-0
 libexpat1
 libext2fs2
 libfallocate0
@@ -402,7 +406,6 @@ libgnomesu0
 libgnutls30
 libgoa-1_0-0
 libgobject-2_0-0
-libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
@@ -711,7 +714,8 @@ nss-mdns
 nss_ldap
 ntfs-3g
 ntfsprogs
-ntp
+ntpsec
+ntpsec-utils
 numlockx
 ofl
 open-iscsi
@@ -860,6 +864,8 @@ publicsuffix
 pullin-bcm43xx-firmware
 python
 python-base
+python-gpsd
+python-ntp
 python-pyudev
 python-rpm-macros
 python-smbios
@@ -869,6 +875,7 @@ python2-configobj
 python2-dbus-python
 python2-decorator
 python2-gobject
+python2-psutil
 python2-six
 quota
 rcc-runtime

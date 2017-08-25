@@ -21,6 +21,7 @@ augeas-lenses
 bash
 bash-completion
 bash-doc
+bea-stax-api
 blog
 boost-license1_64_0
 branding-openSUSE
@@ -80,6 +81,9 @@ ftvalid
 ftview
 fuse
 gawk
+gconf-polkit
+gconf2
+gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-viewer
@@ -88,6 +92,7 @@ gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
 gio-branding-openSUSE
+girepository-1_0
 glib-networking
 glib2-tools
 glibc
@@ -133,6 +138,7 @@ hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
+icedtea-web
 icewm
 icewm-config-upstream
 icewm-default
@@ -143,6 +149,7 @@ issue-generator
 java-1_8_0-openjdk
 java-1_8_0-openjdk-headless
 javapackages-tools
+jline
 kbd
 kbd-legacy
 kconf_update5
@@ -154,6 +161,7 @@ libGLU1
 libGeneratedSaxParser0_3
 libICE6
 libKF5ConfigCore5
+libKF5ConfigCore5-lang
 libMathMLSolver0_3
 libOpenCOLLADABaseUtils0_3
 libOpenCOLLADAFramework0_3
@@ -278,6 +286,7 @@ libgdbm4
 libgdk_pixbuf-2_0-0
 libgif7
 libgio-2_0-0
+libgirepository-1_0-1
 libglib-2_0-0
 libgltf-0_1-1
 libglvnd
@@ -300,6 +309,7 @@ libgstreamer-1_0-0
 libgstriff-1_0-0
 libgsttag-1_0-0
 libgstvideo-1_0-0
+libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
@@ -625,6 +635,7 @@ python3-setuptools
 python3-six
 python3-tk
 readline-doc
+rhino
 rpm
 ruby
 ruby-common
@@ -659,6 +670,7 @@ systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysuser-shadow
 sysvinit-tools
+tagsoup
 tcl
 tcsh
 tcsh-lang
@@ -689,6 +701,7 @@ xerces-j2-xml-resolver
 xhost
 xkeyboard-config
 xlockmore
+xmlbeans
 xorg-x11-fonts
 xorg-x11-fonts-core
 xterm-bin
