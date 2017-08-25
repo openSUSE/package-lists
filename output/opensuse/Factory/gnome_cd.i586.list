@@ -281,6 +281,7 @@ gpart
 gpg2
 gpgme
 gpm
+gpsd
 gptfdisk
 grep
 grilo-plugin-tracker
@@ -1210,7 +1211,8 @@ nscd
 nss-mdns
 ntfs-3g
 ntfsprogs
-ntp
+ntpsec
+ntpsec-utils
 numlockx
 ofl
 open-iscsi
@@ -1392,7 +1394,9 @@ python
 python-base
 python-beautifulsoup
 python-enum34
+python-gpsd
 python-ipaddress
+python-ntp
 python-pyudev
 python-rpm-macros
 python-smbios
@@ -1416,6 +1420,7 @@ python2-gobject-cairo
 python2-httplib2
 python2-idna
 python2-packaging
+python2-psutil
 python2-py
 python2-pyOpenSSL
 python2-pyasn1
@@ -1658,7 +1663,6 @@ upower
 usbutils
 util-linux
 util-linux-systemd
-vaapi-dummy-driver
 vim
 vinagre
 vino

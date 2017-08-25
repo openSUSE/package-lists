@@ -1,5 +1,6 @@
 AppStream
 ImageMagick
+Mesa
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -30,6 +31,7 @@ accountsservice
 acl
 acpica
 adjtimex
+adwaita-icon-theme
 alsa
 alsa-oss
 alsa-plugins
@@ -61,6 +63,8 @@ branding-openSUSE
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
+bundle-lang-common-en
+bundle-lang-gnome-en
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -88,6 +92,7 @@ crda
 cron
 cronie
 cryptsetup
+cups
 cups-client
 cups-libs
 cups-pk-helper
@@ -173,6 +178,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+glibc-locale
 gnome-bluetooth
 gnome-calculator
 gnome-characters
@@ -193,6 +199,7 @@ gnome-menus-branding-openSUSE
 gnome-mines
 gnome-music
 gnome-online-accounts
+gnome-packagekit
 gnome-photos
 gnome-power-manager
 gnome-screenshot
@@ -235,12 +242,15 @@ gpart
 gpg2
 gpgme
 gpm
+gpsd
 gptfdisk
 grep
 grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
 groff
+grub2
+grub2-branding-openSUSE
 grub2-i386-efi
 grub2-i386-pc
 grub2-snapper-plugin
@@ -312,6 +322,7 @@ iso_ent
 issue-generator
 kbd
 kbd-legacy
+kernel-default
 keyutils
 klogd
 kmod
@@ -948,6 +959,7 @@ libwayland-cursor0
 libwayland-egl1
 libwayland-server0
 libwbclient0
+libwebkit2gtk-4_0-37
 libwebp6
 libwebpdemux2
 libwebpmux2
@@ -1045,10 +1057,13 @@ nscd
 nss-mdns
 ntfs-3g
 ntfsprogs
-ntp
+ntpsec
+ntpsec-utils
 numlockx
 open-iscsi
 openSUSE-build-key
+openSUSE-release
+openSUSE-release-ftp
 openal-soft
 openconnect
 openldap2-client
@@ -1185,6 +1200,7 @@ pinentry-gnome3
 pkcs11-helper
 pkg-config
 plymouth
+plymouth-branding-openSUSE
 plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
@@ -1211,6 +1227,8 @@ pulseaudio-utils
 python
 python-base
 python-beautifulsoup
+python-gpsd
+python-ntp
 python-pyudev
 python-rpm-macros
 python-solv
@@ -1224,6 +1242,7 @@ python2-gobject
 python2-gobject-Gdk
 python2-gobject-cairo
 python2-httplib2
+python2-psutil
 python2-six
 python3
 python3-PySocks
@@ -1432,7 +1451,6 @@ upower
 usbutils
 util-linux
 util-linux-systemd
-vaapi-dummy-driver
 vim
 vinagre
 vino
@@ -1480,6 +1498,7 @@ xmodmap
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
+xorg-x11-fonts-core
 xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
@@ -1496,6 +1515,7 @@ yast2-add-on
 yast2-apparmor
 yast2-auth-client
 yast2-bootloader
+yast2-branding-openSUSE
 yast2-control-center
 yast2-control-center-qt
 yast2-core
