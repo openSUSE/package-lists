@@ -429,7 +429,6 @@ dasher
 dasher-data-extras
 dasher-data-recommended
 dasher-lang
-db45-utils
 db48-utils
 dbsplit-tools
 dbus-1
@@ -594,6 +593,7 @@ fd0ssh
 fdupes
 festival
 fetchmail
+ffmpeg
 ffmpegthumbs
 fftw3-devel
 fifth-leg-font
@@ -929,6 +929,7 @@ gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
+gstreamer-plugins-libav
 gstreamer-plugins-ugly
 gstreamer-transcoder
 gstreamer-utils
@@ -1270,7 +1271,6 @@ kded
 kded-devel
 kdeedu-data
 kdegames-carddecks-default
-kdegames4-carddecks-default
 kdegraphics-thumbnailers
 kdelibs4
 kdelibs4-branding-openSUSE
@@ -1323,6 +1323,7 @@ kget
 kglobalaccel-devel
 kglobalaccel5
 kgoldrunner
+kgoldrunner-lang
 kgpg
 kguiaddons-devel
 khangman
@@ -1418,6 +1419,7 @@ konqueror
 konqueror-devel
 konqueror-lang
 konquest
+konquest-lang
 konsole
 konsole-part
 konsole-part-lang
@@ -1448,6 +1450,7 @@ krdc-lang
 kremotecontrol
 krename
 kreversi
+kreversi-lang
 krfb
 krfb-lang
 krita
@@ -1467,12 +1470,14 @@ kshisen
 kshisen-lang
 ksirk
 kspaceduel
+kspaceduel-lang
 ksplash-qml-branding-openSUSE
 ksplashx-branding-openSUSE
 ksquares
 ksquares-lang
 ksshaskpass5
 ksudoku
+ksudoku-lang
 ksysguard5
 ksystemlog
 ksystemlog-lang
@@ -1492,6 +1497,7 @@ ktuberling-lang
 kturtle
 kturtle-lang
 kubrick
+kubrick-lang
 kunitconversion-devel
 kvm_stat
 kwallet-devel
@@ -1894,6 +1900,7 @@ libavahi-gobject0
 libavahi-ui-gtk3-0
 libavc1394-0
 libavcodec57
+libavdevice57
 libavfilter6
 libavformat57
 libavogadro1
@@ -2078,7 +2085,6 @@ libdaemon0
 libdar5000
 libdatrie1
 libdatrie1-32bit
-libdb-4_5
 libdb-4_8
 libdb-4_8-32bit
 libdb-4_8-devel
@@ -2651,6 +2657,7 @@ liblzma5
 liblzma5-32bit
 liblzo2-2
 libm17n0
+libmad0
 libmagic1
 libmagic1-32bit
 libmal-devel
@@ -3244,6 +3251,7 @@ libts0
 libtsan0
 libtumbler-1-0
 libturbojpeg0
+libtwolame0
 libubsan0
 libucm0
 libucp0
@@ -3376,8 +3384,8 @@ libwebpextras0
 libwebpmux2
 libwebrtc_audio_processing1
 libwicked-0-6
-libwireshark8
-libwiretap6
+libwireshark10
+libwiretap7
 libwmf-0_2-7
 libwmf-tools
 libwnck-1-22
@@ -3390,8 +3398,8 @@ libwpg-devel
 libwps-0_4-4
 libwrap0
 libwrap0-32bit
-libwscodecs1
-libwsutil7
+libwscodecs0
+libwsutil8
 libwv-1_2-3
 libwv2-4
 libwx_baseu-suse-nostl3
@@ -3547,6 +3555,7 @@ loudmouth-devel
 lrzip
 lsb-release
 lskat
+lskat-lang
 lsof
 lsscsi
 ltrace
@@ -5387,6 +5396,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
