@@ -7,11 +7,23 @@ repo=$2
 test -n "$proj" || proj=Factory
 test -n "$repo" || repo=standard
 
-if [ "$proj" = "Factory" ]; then
-    product=000product
-else
-    product=_product
-fi
+case $proj in
+    Factory)
+        product=_product
+        ;;
+    Leap:15.*)
+        product=000product
+        ;;
+    Leap:15.*:Ports)
+        product=000product
+        ;;
+    Factory:PowerPC)
+        product=_product
+	;;
+    Factory:ARM)
+        product=_product
+        ;;
+esac
 
 (cd osc/openSUSE\:$proj/$product/ && osc up)
 osc api "/build/openSUSE:$proj/_result?package=bash&repository=$repo" > "$proj.state"
