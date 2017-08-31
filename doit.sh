@@ -12,22 +12,28 @@ fi
 case $proj in
         Factory)arches="i586 x86_64"
                 repo="standard"
+                product=_product
                 ;;
-        Leap:42.3) arches="x86_64"
+        Leap:15.*) arches="x86_64"
                 repo="standard"
+                product=000product
                 ;;
-        Leap:42.*:Ports) arches="ppc64le aarch64"
+        Leap:15.*:Ports) arches="ppc64le aarch64"
                 repo="ports"
+                product=000product
                 ;;
         Factory:PowerPC) arches="ppc64 ppc64le"
                 repo="standard"
+                product=_product
                 ;;
         Factory:zSystems) arches="s390x"
                 repo="standard"
+                product=_product
                 ;;
         Factory:ARM)
                 arches="aarch64"
                 repo="standard"
+                product=_product
                 ;;
 esac
 
@@ -41,10 +47,10 @@ is_x86(){
 echo "generate dvds for $proj $repo at "
 date
 
-if [ ! -e osc/openSUSE\:$proj/_product/.osc ]; then
+if [ ! -e osc/openSUSE\:$proj/$product/.osc ]; then
         mkdir -p osc
         cd osc
-        osc co openSUSE:$proj _product
+        osc co openSUSE:$proj $product
         cd -
 fi
 
@@ -53,7 +59,7 @@ if [ ! -e osc-plugin-factory/bs_mirrorfull ]; then
         exit 1
 fi
 
-grep -v openSUSE-release osc/openSUSE:$proj/_product/NON_FTP_PACKAGES.group | grep 'package name=' | \
+grep -v openSUSE-release osc/openSUSE:$proj/$product/NON_FTP_PACKAGES.group | grep 'package name=' | \
    sed -e 's,.*package name=",job lock name ,; s,"/>,,' > opensuse/$proj/non_ftp_packages
 
 for arch in $arches; do
@@ -87,7 +93,7 @@ for arch in $arches; do
       ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
       #./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
     fi
-    if test "$proj" = "Factory" -o "$proj" = "Leap:42.3"; then
+    if test "$proj" = "Factory" -o "$proj" = "Leap:15.0"; then
       ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
       ./gen.pl opensuse/$proj/x11_cd $arch "$proj" $repo
     fi
