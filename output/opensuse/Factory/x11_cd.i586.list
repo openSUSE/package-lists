@@ -735,6 +735,7 @@ pam_mount
 parted
 patterns-base-apparmor
 patterns-base-base
+patterns-base-basesystem
 patterns-base-enhanced_base
 patterns-base-minimal_base
 patterns-base-sw_management
@@ -863,7 +864,6 @@ python
 python-base
 python-gpsd
 python-ntp
-python-pyudev
 python-rpm-macros
 python-smbios
 python-solv
@@ -873,6 +873,7 @@ python2-dbus-python
 python2-decorator
 python2-gobject
 python2-psutil
+python2-pyudev
 python2-six
 quota
 rcc-runtime
