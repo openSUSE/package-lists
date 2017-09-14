@@ -14,6 +14,7 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
+PackageKit-lang
 SUSEConnect
 SuSEfirewall2
 aaa_base
@@ -53,6 +54,8 @@ aspell-en
 at-spi2-atk-common
 at-spi2-atk-gtk2
 at-spi2-core
+at-spi2-core-lang
+atk-lang
 atmel-firmware
 attica-qt5
 attr
@@ -107,6 +110,7 @@ checkmedia
 cifs-utils
 command-not-found
 coreutils
+coreutils-lang
 cpio
 cpio-mt
 cpp
@@ -194,6 +198,8 @@ ghostscript-fonts-std
 gio-branding-openSUSE
 girepository-1_0
 glib-networking
+glib-networking-lang
+glib2-lang
 glib2-tools
 glibc
 glibc-extra
@@ -219,6 +225,7 @@ grub2-snapper-plugin
 grub2-systemd-sleep-plugin
 gsettings-backend-dconf
 gsettings-desktop-schemas
+gsettings-desktop-schemas-lang
 gstreamer
 gstreamer-plugins-base
 gstreamer-plugins-good
@@ -238,6 +245,7 @@ gtk3-immodule-amharic
 gtk3-immodule-inuktitut
 gtk3-immodule-thai
 gtk3-immodule-vietnamese
+gtk3-lang
 gtk3-metatheme-adwaita
 gtk3-metatheme-breeze
 gtk3-tools
@@ -276,6 +284,7 @@ iso_ent
 issue-generator
 iw
 jfsutils
+json-glib-lang
 k3b
 k3b-lang
 kaccounts-integration
@@ -812,6 +821,7 @@ libgphoto2-6
 libgpm2
 libgps22
 libgraphite2-3
+libgraphviz6
 libgravatar
 libgravatar-lang
 libgsm1
@@ -1067,6 +1077,7 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
+libsoup-lang
 libsox3
 libsoxr0
 libspeex1
@@ -1176,6 +1187,7 @@ libxtables12
 libyaml-0-2
 libyui-ncurses-pkg8
 libyui-ncurses8
+libyui-qt-graph8
 libyui-qt-pkg8
 libyui-qt8
 libyui8

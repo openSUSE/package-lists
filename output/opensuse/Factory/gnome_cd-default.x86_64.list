@@ -61,6 +61,7 @@ branding-openSUSE
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
+bubblewrap
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -519,7 +520,6 @@ libfluidsynth1
 libfolks-data
 libfolks-eds25
 libfolks-telepathy25
-libfolks-tracker25
 libfolks25
 libfont-specimen0
 libfontenc1
@@ -540,8 +540,6 @@ libgcrypt20
 libgd3
 libgdata22
 libgdbm4
-libgdict-1_0-10
-libgdict-data
 libgdk_pixbuf-2_0-0
 libgdm1
 libgee-0_8-2
@@ -571,6 +569,7 @@ libgnome-keyring0
 libgnomekbd
 libgnomesu
 libgnomesu0
+libgnustep-base1_25
 libgnutls30
 libgoa-1_0-0
 libgoa-backend-1_0-1
@@ -583,6 +582,7 @@ libgphoto2-6
 libgpm2
 libgraphene-1_0-0
 libgraphite2-3
+libgraphviz6
 libgrilo-0_3-0
 libgrlnet-0_3-0
 libgrlpls-0_3-0
@@ -620,8 +620,7 @@ libgtk-3-0
 libgtk-vnc-2_0-0
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
-libgtkspell3-3-0
-libgtop-2_0-10
+libgtop-2_0-11
 libgudev-1_0-0
 libgupnp-1_0-4
 libgupnp-av-1_0-2
@@ -710,7 +709,7 @@ libmodman1
 libmodplug1
 libmount1
 libmozjs-17_0
-libmozjs-38
+libmozjs-52
 libmp3lame0
 libmpc3
 libmpcdec5
@@ -720,7 +719,7 @@ libmtdev1
 libmtp-udev
 libmtp9
 libmusicbrainz5-1
-libmutter-0-0
+libmutter-1-0
 libnautilus-extension1
 libncurses6
 libndp0
@@ -751,6 +750,7 @@ libnsl2
 libntfs-3g87
 libnuma1
 liboauth0
+libobjc4
 libofa0
 libogg0
 liboggkate1
@@ -905,10 +905,10 @@ libtirpc-netconfig
 libtirpc3
 libtotem-plparser-mini18
 libtotem-plparser18
-libtracker-common-1_0
-libtracker-control-1_0-0
-libtracker-miner-1_0-0
-libtracker-sparql-1_0-0
+libtracker-common-2_0
+libtracker-control-2_0-0
+libtracker-miner-2_0-0
+libtracker-sparql-2_0-0
 libts0
 libtwolame0
 libudev1
@@ -990,6 +990,7 @@ libyaml-0-2
 libyelp0
 libyui-ncurses-pkg8
 libyui-ncurses8
+libyui-qt-graph8
 libyui-qt-pkg8
 libyui-qt8
 libyui8
@@ -1032,7 +1033,6 @@ nautilus
 nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-terminal
-nautilus-extension-tracker-tags
 nautilus-sendto
 nautilus-totem
 ncurses-utils
@@ -1225,8 +1225,6 @@ python2-configobj
 python2-dbus-python
 python2-decorator
 python2-gobject
-python2-gobject-Gdk
-python2-gobject-cairo
 python2-httplib2
 python2-pyudev
 python2-six
@@ -1361,8 +1359,8 @@ totem-pl-parser
 totem-plugins
 traceroute
 tracker
-tracker-gui
 tracker-miner-files
+tracker-miners
 translation-update
 transmission-common
 transmission-gtk
@@ -1422,7 +1420,7 @@ typelib-1_0-Soup-2_4
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
 typelib-1_0-TotemPlParser-1_0
-typelib-1_0-Tracker-1_0
+typelib-1_0-Tracker-2_0
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Xkl-1_0
@@ -1431,6 +1429,7 @@ ucode-intel
 udev
 udev-configure-printer
 udisks2
+unar
 unzip
 unzip-doc
 update-alternatives
