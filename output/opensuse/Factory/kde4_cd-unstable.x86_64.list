@@ -8,6 +8,7 @@ NetworkManager
 NetworkManager-branding-openSUSE
 NetworkManager-lang
 NetworkManager-openvpn
+NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-vpnc
 PackageKit
@@ -46,8 +47,10 @@ alsa-plugins-pulse
 alsa-utils
 apparmor-abstractions
 apparmor-parser
+apparmor-parser-lang
 apparmor-profiles
 apparmor-utils
+apparmor-utils-lang
 ark
 ark-lang
 aspell
@@ -231,8 +234,11 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gsettings-desktop-schemas-lang
 gstreamer
+gstreamer-lang
 gstreamer-plugins-base
+gstreamer-plugins-base-lang
 gstreamer-plugins-good
+gstreamer-plugins-good-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-immodule-amharic
@@ -1538,6 +1544,7 @@ sg3_utils
 sgml-skel
 shadow
 shared-mime-info
+shared-mime-info-lang
 shim
 signon-plugin-oauth2
 signon-plugins
@@ -1569,6 +1576,7 @@ system-group-hardware
 system-group-wheel
 system-user-bin
 system-user-daemon
+system-user-lp
 system-user-mail
 system-user-man
 system-user-nobody

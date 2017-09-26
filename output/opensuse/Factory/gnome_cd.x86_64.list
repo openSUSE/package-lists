@@ -10,6 +10,7 @@ MozillaFirefox
 MozillaFirefox-branding-openSUSE
 NetworkManager
 NetworkManager-applet
+NetworkManager-applet-lang
 NetworkManager-branding-openSUSE
 NetworkManager-connection-editor
 NetworkManager-lang
@@ -17,6 +18,7 @@ NetworkManager-openconnect
 NetworkManager-openconnect-gnome
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
+NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
 NetworkManager-vpnc
@@ -46,6 +48,7 @@ alsa-plugins-pulse
 alsa-utils
 apparmor-abstractions
 apparmor-parser
+apparmor-parser-lang
 apparmor-profiles
 appstream-glib
 appstream-glib-lang
@@ -356,14 +359,19 @@ gsettings-desktop-schemas-lang
 gsf-office-thumbnailer
 gspell-lang
 gstreamer
+gstreamer-lang
 gstreamer-libnice
 gstreamer-plugin-gstclutter-3_0
 gstreamer-plugins-bad
+gstreamer-plugins-bad-lang
 gstreamer-plugins-base
+gstreamer-plugins-base-lang
 gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
+gstreamer-plugins-good-lang
 gstreamer-plugins-ugly
+gstreamer-plugins-ugly-lang
 gstreamer-utils
 gtk2-branding-openSUSE
 gtk2-data
@@ -1023,7 +1031,7 @@ libpython2_7-1_0
 libpython3_6m1_0
 libqmi-glib5
 libqmi-tools
-libqpdf17
+libqpdf18
 libqqwing2
 libqrencode3
 libqt5-qtbase-platformtheme-gtk3
@@ -1638,6 +1646,7 @@ sg3_utils
 sgml-skel
 shadow
 shared-mime-info
+shared-mime-info-lang
 shim
 simple-scan
 simple-scan-lang
@@ -1674,6 +1683,7 @@ system-group-hardware
 system-group-wheel
 system-user-bin
 system-user-daemon
+system-user-lp
 system-user-mail
 system-user-man
 system-user-nobody
