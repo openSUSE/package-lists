@@ -151,6 +151,7 @@ docbook_4
 dolphin
 dolphin-part
 dolphin-part-lang
+dos2unix
 dosfstools
 dracut
 dragonplayer
@@ -180,12 +181,15 @@ fprintd
 fprintd-pam
 frameworkintegration-plugin
 fuse
+fvwm-themes
+fvwm2
 gamin-server
 gawk
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
 gdb
+gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
 genisoimage
@@ -234,6 +238,7 @@ gstreamer-plugins-good-lang
 gzip
 hack-fonts
 hardlink
+haveged
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -254,6 +259,7 @@ iptables
 iputils
 ipw-firmware
 irda
+irqbalance
 iscsiuio
 iso_ent
 issue-generator
@@ -405,6 +411,7 @@ kscreenlocker
 kscreenlocker-lang
 kservice
 kservice-lang
+ksh
 ksshaskpass5
 ksshaskpass5-lang
 ksysguard5
@@ -792,6 +799,7 @@ libgudev-1_0-0
 libguess1
 libgypsy0
 libharfbuzz0
+libhavege1
 libhdf4
 libhdf5-100
 libhdf5_hl100
@@ -913,6 +921,7 @@ libnotify4
 libnpth0
 libnsl2
 libntfs-3g87
+libnuma1
 libogg0
 liboggkate1
 libopenal1
@@ -942,7 +951,7 @@ libpng16-16
 libpolkit-qt5-1-1
 libpolkit0
 libpoppler-qt5-1
-libpoppler68
+libpoppler70
 libpopt0
 libportaudio2
 libpostproc54
@@ -978,6 +987,7 @@ librcd0
 libreadline7
 libref_array1
 libreiserfscore0
+librsvg-2-2
 libruby2_4-2_4
 libsamba-credentials0
 libsamba-errors0
@@ -1023,6 +1033,7 @@ libsss_simpleifp0
 libstdc++6
 libstorage-ruby
 libstorage7
+libstroke
 libswresample2
 libswscale4
 libsystemd0
@@ -1120,6 +1131,7 @@ libxkbfile1
 libxml-security-c17
 libxml2-2
 libxml2-tools
+libxosd2
 libxshmfence1
 libxslt-tools
 libxslt1
@@ -1142,13 +1154,13 @@ lomoco
 lsb-release
 lsof
 lsscsi
-luit
 lvm2
 mailcommon
 mailcommon-lang
 mailimporter
 mailimporter-lang
 mailx
+makedev
 man
 mariadb
 mariadb-client
@@ -1168,6 +1180,7 @@ milou5
 milou5-lang
 mkfontdir
 mkfontscale
+mmv
 mobile-broadband-provider-info
 mozilla-nspr
 mozilla-nss
@@ -1214,6 +1227,7 @@ pam
 pam-config
 pam_krb5
 pam_mount
+par
 parted
 parted-lang
 patterns-base-apparmor
@@ -1235,6 +1249,7 @@ patterns-kde-kde_office
 patterns-kde-kde_plasma
 patterns-kde-kde_utilities
 patterns-kde-kde_yast
+patterns-media-rest_cd_core
 patterns-media-rest_cd_kde
 patterns-office-office
 patterns-yast-yast2_basis
@@ -1373,6 +1388,7 @@ plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
+pmidi
 polkit
 polkit-default-privs
 polkit-kde-agent-5
@@ -1453,6 +1469,7 @@ samba-libs
 sbc
 sbl
 scout
+screen
 sddm
 sddm-branding-openSUSE
 sddm-theme-openSUSE
@@ -1513,6 +1530,8 @@ sysuser-shadow
 sysvinit-tools
 tar
 tar-rmt
+tcsh
+tcsh-lang
 terminfo-base
 thin-provisioning-tools
 tigervnc
@@ -1546,10 +1565,10 @@ wireless-tools
 wodim
 wol
 wpa_supplicant
-x11-tools
 xauth
 xbitmaps
 xconsole
+xdg-menu
 xdg-user-dirs
 xdg-utils
 xdm
@@ -1559,7 +1578,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
-xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
 xf86-video-ark
@@ -1596,20 +1614,20 @@ xli
 xmessage
 xmlcharent
 xmodmap
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
 xorg-x11-fonts-core
-xorg-x11-libX11-ccache
 xorg-x11-server
+xosd
+xosview
 xprop
 xrandr
 xrdb
 xset
 xsetroot
 xtables-plugins
-xterm
 xterm-bin
+xtermset
 xz
 yast2
 yast2-add-on
@@ -1674,6 +1692,7 @@ ypbind
 zd1211-firmware
 zip
 zisofs-tools
+zsh
 zypp-plugin-python
 zypper
 zypper-aptitude

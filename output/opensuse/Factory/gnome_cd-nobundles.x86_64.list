@@ -80,6 +80,7 @@ baobab-lang
 bash
 bash-completion
 bash-lang
+bc
 bijiben
 bijiben-lang
 bind-utils
@@ -152,6 +153,10 @@ dbus-1-glib
 dbus-1-glib-tool
 dbus-1-x11
 dconf
+dd_rescue
+dd_rescue-crypt
+dd_rescue-lzo
+dd_rhelp
 dejavu-fonts
 deltarpm
 desktop-data-openSUSE
@@ -171,6 +176,7 @@ dmraid
 dmz-icon-theme-cursors
 dnsmasq
 docbook_4
+dos2unix
 dosfstools
 dracut
 dvd+rw-tools
@@ -210,6 +216,8 @@ fprintd
 fprintd-lang
 fprintd-pam
 fuse
+fvwm-themes
+fvwm2
 gamin-server
 gawk
 gcab
@@ -246,6 +254,7 @@ ghostscript-fonts-std
 ghostscript-x11
 gimp
 gimp-lang
+gimp-plugin-aa
 gio-branding-openSUSE
 girepository-1_0
 gjs
@@ -348,12 +357,14 @@ gnome-video-effects
 gnome-weather
 gnome-weather-lang
 gnu-unifont-bitmap-fonts
+gnu_ddrescue
 gnuchess
 google-carlito-fonts
 google-droid-fonts
 google-opensans-fonts
 google-roboto-fonts
 gpart
+gparted
 gpg2
 gpg2-lang
 gpgme
@@ -367,6 +378,8 @@ grilo-plugin-youtube
 grilo-plugins
 grilo-plugins-lang
 groff
+grsync
+grsync-lang
 grub2
 grub2-branding-openSUSE
 grub2-i386-pc
@@ -418,6 +431,7 @@ gtk4-schema
 gtksourceview-lang
 gtkspell3-lang
 gupnp-av
+gv
 gvfs
 gvfs-backend-afc
 gvfs-backend-samba
@@ -426,7 +440,9 @@ gvfs-fuse
 gvfs-lang
 gzip
 hardlink
+haveged
 hdparm
+hfsutils
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
 hostname
@@ -459,6 +475,7 @@ iptables
 iputils
 ipw-firmware
 irda
+irqbalance
 iscsiuio
 iso-codes
 iso_ent
@@ -476,8 +493,11 @@ kmod
 kmod-compat
 kpartx
 krb5
+krb5-client
+ksh
 lensfun-data
 less
+lftp
 libFLAC8
 libGLU1
 libGeneratedSaxParser0_3
@@ -509,6 +529,7 @@ libX11-data
 libX11-xcb1
 libXRes1
 libXau6
+libXaw3d8
 libXaw7
 libXcomposite1
 libXcursor1
@@ -526,12 +547,15 @@ libXmuu1
 libXpm4
 libXrandr2
 libXrender1
+libXss1
 libXt6
 libXtst6
 libXv1
+libXvMC1
 libXxf86misc1
 libXxf86vm1
 liba52-0
+libaa1
 libabw-0_1-1
 libaccountsservice0
 libacl1
@@ -587,6 +611,7 @@ libbsd0
 libbtrfs0
 libburn4
 libbz2-1
+libcaca0
 libcacard0
 libcairo-gobject2
 libcairo2
@@ -669,6 +694,7 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
+libdvdnav4
 libdvdread4
 libdw1
 libe-book-0_1-1
@@ -689,6 +715,7 @@ libenchant1
 libeot0
 libepoxy0
 liberation2-fonts
+libesmtp
 libetonyek-0_1-1
 libevdev2
 libevdocument3-4
@@ -701,6 +728,7 @@ libexpat1
 libext2fs2
 libexttextcat
 libexttextcat-2_0-0
+libfallocate0
 libfam0-gamin
 libfarstream-0_2-5
 libfdisk1
@@ -825,6 +853,7 @@ libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
 libgtk-vnc-2_0-0
+libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtkspell3-3-0
@@ -845,6 +874,7 @@ libgweather-lang
 libgxps2
 libharfbuzz-icu0
 libharfbuzz0
+libhavege1
 libhogweed4
 libhunspell-1_6-0
 libhyphen0
@@ -960,6 +990,9 @@ libnfs8
 libnfsidmap-sss
 libnghttp2-14
 libnice10
+libnilfs0
+libnilfscleaner0
+libnilfsgc0
 libnl-config
 libnl3-200
 libnm-glib-vpn1
@@ -1020,10 +1053,11 @@ libply-boot-client4
 libply-splash-core4
 libply-splash-graphics4
 libply4
+libpng12-0
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler68
+libpoppler70
 libpopt0
 libportaudio2
 libprocps6
@@ -1144,6 +1178,7 @@ libstdc++6
 libstoken1
 libstorage-ruby
 libstorage7
+libstroke
 libsuitesparseconfig-4_5_5
 libswresample2
 libswscale4
@@ -1162,6 +1197,7 @@ libtevent-util0
 libtevent0
 libthai-data
 libthai0
+libtheora0
 libtheoradec1
 libtheoraenc1
 libtiff5
@@ -1253,8 +1289,11 @@ libxcb-util1
 libxcb-xfixes0
 libxcb-xinerama0
 libxcb-xkb1
+libxcb-xv0
 libxcb1
 libxerces-c-3_1
+libxine2
+libxine2-pulse
 libxkbcommon-x11-0
 libxkbcommon0
 libxkbfile1
@@ -1264,6 +1303,7 @@ libxml2-2
 libxml2-tools
 libxmlsec1-1
 libxmlsec1-nss1
+libxosd2
 libxshmfence1
 libxslt-tools
 libxslt1
@@ -1295,19 +1335,23 @@ lsof
 lsscsi
 lua53
 lua53-luasocket
-luit
 lvm2
 m17n-db
 m17n-db-lang
 mailx
+makedev
 man
 master-boot-code
 mbimcli-bash-completion
+mc
+mc-lang
+mcelog
 mdadm
 memtest86+
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
+mmv
 mobile-broadband-provider-info
 mousetweaks
 mousetweaks-lang
@@ -1346,11 +1390,13 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nilfs-utils
 nma-data
 notification-daemon
 notification-daemon-lang
 nscd
 nss-mdns
+nss_ldap
 ntfs-3g
 ntfsprogs
 ntp
@@ -1381,7 +1427,9 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
+pam_krb5
 pam_mount
+par
 parallel-printer-support
 parted
 parted-lang
@@ -1407,6 +1455,7 @@ patterns-gnome-gnome_office
 patterns-gnome-gnome_utilities
 patterns-gnome-gnome_yast
 patterns-gnome-sw_management_gnome
+patterns-media-rest_cd_core
 patterns-media-rest_cd_gnome
 patterns-office-office
 patterns-yast-yast2_basis
@@ -1515,6 +1564,7 @@ plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
+pmidi
 polari
 polari-lang
 polkit
@@ -1610,10 +1660,10 @@ python3-pycparser
 python3-pycups
 python3-pycurl
 python3-pyparsing
+python3-pysmbc
 python3-requests
 python3-setuptools
 python3-six
-python3-smbc
 python3-speechd
 python3-urllib3
 quadrapassel
@@ -1653,6 +1703,7 @@ sane-backends-autoconfig
 sbc
 sbl
 scout
+screen
 seahorse
 seahorse-daemon
 seahorse-lang
@@ -1719,6 +1770,8 @@ sysvinit-tools
 tar
 tar-lang
 tar-rmt
+tcsh
+tcsh-lang
 telepathy-gabble
 telepathy-haze
 telepathy-idle
@@ -1817,6 +1870,7 @@ ucode-amd
 ucode-intel
 udev
 udev-configure-printer
+udftools
 udisks2
 udisks2-lang
 unar
@@ -1855,7 +1909,6 @@ wmctrl
 wodim
 wol
 wpa_supplicant
-x11-tools
 xauth
 xbitmaps
 xbrlapi
@@ -1873,7 +1926,6 @@ xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
 xf86-video-ark
@@ -1903,6 +1955,7 @@ xf86-video-vmware
 xf86-video-voodoo
 xfsdump
 xfsprogs
+xine-ui
 xinit
 xkbcomp
 xkeyboard-config
@@ -1911,20 +1964,20 @@ xli
 xlockmore
 xmessage
 xmodmap
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
 xorg-x11-fonts-core
-xorg-x11-libX11-ccache
 xorg-x11-server
+xosd
+xosview
 xprop
 xrandr
 xrdb
 xset
 xsetroot
 xtables-plugins
-xterm
 xterm-bin
+xtermset
 xz
 xz-lang
 yast2
@@ -1995,6 +2048,7 @@ zenity
 zenity-lang
 zip
 zisofs-tools
+zsh
 zypp-plugin-python
 zypper
 zypper-aptitude

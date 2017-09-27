@@ -59,7 +59,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db48-utils
 dbus-1
 dbus-1-glib
 dbus-1-glib-tool
@@ -73,6 +72,7 @@ dmidecode
 dmraid
 docbook-xsl-stylesheets
 docbook_4
+dos2unix
 dosfstools
 dracut
 drkonqi5
@@ -131,6 +131,7 @@ gtk3-tools
 gtk4-schema
 gzip
 hardlink
+haveged
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -141,10 +142,10 @@ idnkit
 ifplugd
 info
 initviocons
-insserv-compat
 iproute2
 iptables
 iputils
+irqbalance
 iscsiuio
 iso_ent
 issue-generator
@@ -262,7 +263,6 @@ libasound2
 libassuan0
 libatk-1_0-0
 libatk-bridge-2_0-0
-libatm1
 libatspi0
 libattr1
 libaudit1
@@ -312,11 +312,14 @@ libedit0
 libefivar1
 libelf1
 libepoxy0
+libesmtp
+libestr0
 libevdev2
 libevent-2_1-8
 libexpat1
 libext2fs2
 libfam0-gamin
+libfastjson4
 libfdisk1
 libffi7
 libfont-specimen0
@@ -353,6 +356,7 @@ libgtk-3-0
 libgudev-1_0-0
 libgypsy0
 libharfbuzz0
+libhavege1
 libhogweed4
 libhunspell-1_6-0
 libicu59_1
@@ -383,6 +387,8 @@ libldap-2_4-2
 libldap-data
 libldapcpp1
 libldb1
+liblogging0
+liblognorm5
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
@@ -428,7 +434,6 @@ libp11-kit0
 libpackagekit-glib2-18
 libpango-1_0-0
 libparted0
-libpcap1
 libpci3
 libpcre1
 libphonon4qt5
@@ -560,13 +565,13 @@ libzio1
 libzypp
 lifecycle-data-openSUSE
 logrotate
-lsb-release
 lsof
 lsscsi
 lvm2
 mailx
 man
 master-boot-code
+mcelog
 mdadm
 media-player-info
 metatheme-adwaita-common
@@ -576,6 +581,7 @@ mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
 mtools
+nano
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -712,8 +718,6 @@ plymouth-scripts
 polkit
 polkit-default-privs
 postfix
-ppp
-pptp
 prctl
 procps
 psmisc
@@ -752,6 +756,8 @@ rollback-helper
 rpcbind
 rpm
 rpm-python
+rsync
+rsyslog
 ruby
 ruby-common
 ruby2.4
@@ -766,6 +772,7 @@ ruby2.4-rubygem-ruby-dbus
 ruby2.4-stdlib
 samba-libs
 scout
+screen
 sed
 sg3_utils
 sgml-skel
@@ -785,6 +792,7 @@ suse-module-tools
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 system-group-hardware
 system-group-wheel
 system-user-bin
@@ -796,7 +804,6 @@ system-user-nobody
 system-user-root
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysuser-shadow
@@ -892,7 +899,6 @@ yast2-vpn
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
-ypbind
 zisofs-tools
 zypp-plugin-python
 zypper

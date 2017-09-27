@@ -98,7 +98,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db48-utils
 dbus-1
 dbus-1-glib
 dbus-1-glib-tool
@@ -121,6 +120,7 @@ dmraid
 dmz-icon-theme-cursors
 dnsmasq
 docbook_4
+dos2unix
 dosfstools
 dracut
 dvd+rw-tools
@@ -284,6 +284,7 @@ gvfs-backends
 gvfs-fuse
 gzip
 hardlink
+haveged
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -305,6 +306,7 @@ intlfonts-euro-bitmap-fonts
 iproute2
 iptables
 iputils
+irqbalance
 iscsiuio
 iso-codes
 iso_ent
@@ -501,6 +503,7 @@ libenca0
 libenchant1
 libepoxy0
 liberation2-fonts
+libestr0
 libevdev2
 libevdocument3-4
 libevent-2_1-8
@@ -512,6 +515,7 @@ libexpat1
 libext2fs2
 libfam0-gamin
 libfarstream-0_2-5
+libfastjson4
 libfdisk1
 libffi7
 libfftw3-3
@@ -635,6 +639,7 @@ libgweather-data
 libgxps2
 libharfbuzz-icu0
 libharfbuzz0
+libhavege1
 libhogweed4
 libhunspell-1_6-0
 libhyphen0
@@ -683,6 +688,8 @@ libldb1
 liblilv-0-0
 liblirc_client0
 liblockdev1
+liblogging0
+liblognorm5
 liblqr-1-0
 liblrdf2
 libltdl7
@@ -749,6 +756,7 @@ libnotify4
 libnpth0
 libnsl2
 libntfs-3g87
+libnuma1
 liboauth0
 libobjc4
 libofa0
@@ -790,7 +798,7 @@ libply4
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler68
+libpoppler70
 libpopt0
 libprocps6
 libprotobuf-c1
@@ -1009,7 +1017,6 @@ lsof
 lsscsi
 lua53
 lua53-luasocket
-luit
 lvm2
 mailx
 man
@@ -1029,6 +1036,7 @@ mpg123-pulse
 mtools
 mutter
 mutter-data
+nano
 nautilus
 nautilus-evince
 nautilus-extension-seahorse
@@ -1256,10 +1264,10 @@ python3-pycparser
 python3-pycups
 python3-pycurl
 python3-pyparsing
+python3-pysmbc
 python3-requests
 python3-setuptools
 python3-six
-python3-smbc
 python3-urllib3
 quadrapassel
 recode
@@ -1271,6 +1279,8 @@ rpcbind
 rpm
 rpm-python
 rsvg-thumbnailer
+rsync
+rsyslog
 rtkit
 ruby
 ruby-common
@@ -1290,6 +1300,7 @@ sane-backends
 sane-backends-autoconfig
 sbc
 scout
+screen
 seahorse
 seahorse-daemon
 sed
@@ -1315,6 +1326,7 @@ swell-foop
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 system-config-printer
 system-config-printer-applet
 system-config-printer-common
@@ -1331,7 +1343,6 @@ system-user-root
 system-user-srvGeoClue
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysuser-shadow
@@ -1452,7 +1463,6 @@ wmctrl
 wodim
 wol
 wpa_supplicant
-x11-tools
 xauth
 xbitmaps
 xclip
@@ -1467,7 +1477,6 @@ xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
 xf86-video-fbdev
@@ -1479,10 +1488,8 @@ xli
 xlockmore
 xmessage
 xmodmap
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
-xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
 xrandr
@@ -1490,8 +1497,8 @@ xrdb
 xset
 xsetroot
 xtables-plugins
-xterm
 xterm-bin
+xtermset
 xz
 yast2
 yast2-add-on
@@ -1551,7 +1558,6 @@ yast2-ycp-ui-bindings
 yelp
 yelp-xsl
 yp-tools
-ypbind
 zenity
 zip
 zisofs-tools

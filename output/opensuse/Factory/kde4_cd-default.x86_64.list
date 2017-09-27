@@ -94,7 +94,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db48-utils
 dbus-1
 dbus-1-glib
 dbus-1-glib-tool
@@ -117,6 +116,7 @@ docbook-xsl-stylesheets
 docbook_4
 dolphin
 dolphin-part
+dos2unix
 dosfstools
 dracut
 drkonqi5
@@ -201,6 +201,7 @@ gtk4-schema
 gzip
 hack-fonts
 hardlink
+haveged
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -220,6 +221,7 @@ intlfonts-euro-bitmap-fonts
 iproute2
 iptables
 iputils
+irqbalance
 iscsiuio
 iso_ent
 issue-generator
@@ -526,6 +528,8 @@ libelf1
 libepoxy0
 libepub0
 liberation2-fonts
+libesmtp
+libestr0
 libevdev2
 libevent-2_1-8
 libexif12
@@ -534,6 +538,7 @@ libexpat1
 libext2fs2
 libfakekey0
 libfam0-gamin
+libfastjson4
 libfdisk1
 libffi7
 libfftw3-3
@@ -592,6 +597,7 @@ libgtk-3-0
 libgudev-1_0-0
 libgypsy0
 libharfbuzz0
+libhavege1
 libhdf4
 libhdf5-100
 libhdf5_hl100
@@ -652,6 +658,8 @@ libldb1
 liblirc_client0
 liblmdb-0_9_17
 liblockdev1
+liblogging0
+liblognorm5
 libltdl7
 liblua5_3-5
 liblvm2app2_2
@@ -731,7 +739,7 @@ libpng16-16
 libpolkit-qt5-1-1
 libpolkit0
 libpoppler-qt5-1
-libpoppler68
+libpoppler70
 libpopt0
 libpostproc54
 libprocps6
@@ -912,15 +920,14 @@ libzypp
 lifecycle-data-openSUSE
 lockdev
 logrotate
-lsb-release
 lsof
 lsscsi
-luit
 lvm2
 mailx
 man
 master-boot-code
 mbimcli-bash-completion
+mcelog
 mdadm
 media-player-info
 metatheme-adwaita-common
@@ -935,6 +942,7 @@ mozilla-nss-certs
 mpg123-openal
 mpg123-pulse
 mtools
+nano
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -1164,6 +1172,8 @@ rp-pppoe
 rpcbind
 rpm
 rpm-python
+rsync
+rsyslog
 rtkit
 ruby
 ruby-common
@@ -1181,6 +1191,7 @@ s2tc
 samba-libs
 sbc
 scout
+screen
 sddm
 sddm-branding-openSUSE
 sddm-theme-openSUSE
@@ -1214,6 +1225,7 @@ syntax-highlighting
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 system-group-hardware
 system-group-wheel
 system-user-bin
@@ -1225,7 +1237,6 @@ system-user-nobody
 system-user-root
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 systemsettings5
@@ -1270,7 +1281,6 @@ wireless-tools
 wodim
 wol
 wpa_supplicant
-x11-tools
 xauth
 xbitmaps
 xconsole
@@ -1284,7 +1294,6 @@ xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
-xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
 xf86-video-fbdev
@@ -1297,10 +1306,8 @@ xlockmore
 xmessage
 xmlcharent
 xmodmap
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
-xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
 xrandr
@@ -1308,8 +1315,8 @@ xrdb
 xset
 xsetroot
 xtables-plugins
-xterm
 xterm-bin
+xtermset
 xz
 yast2
 yast2-add-on
@@ -1367,7 +1374,6 @@ yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
-ypbind
 zisofs-tools
 zypp-plugin-python
 zypper

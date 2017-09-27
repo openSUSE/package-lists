@@ -99,6 +99,7 @@ dmidecode
 dmraid
 dmz-icon-theme-cursors
 dnsmasq
+dos2unix
 dosfstools
 dracut
 e2fsprogs
@@ -125,6 +126,8 @@ fonts-config
 fprintd
 fprintd-pam
 fuse
+fvwm-themes
+fvwm2
 gawk
 gcr-data
 gcr-prompter
@@ -187,6 +190,7 @@ gvfs-backends
 gvfs-fuse
 gzip
 hardlink
+haveged
 hdparm
 hexchat
 hfsutils
@@ -208,6 +212,7 @@ iptables
 iputils
 ipw-firmware
 irda
+irqbalance
 iscsiuio
 iso-codes
 issue-generator
@@ -224,6 +229,7 @@ kmod-compat
 kpartx
 krb5
 krb5-client
+ksh
 leafpad
 less
 lftp
@@ -290,6 +296,7 @@ libavahi-client3
 libavahi-common3
 libavahi-core7
 libavahi-glib1
+libbasicobjects0
 libbind9-140
 libblkid1
 libbluetooth3
@@ -320,6 +327,7 @@ libcerror1
 libcfile1
 libclocale1
 libcnotify1
+libcollection4
 libcolord2
 libcom_err2
 libcpath1
@@ -339,6 +347,7 @@ libdbusmenu-gtk3-4
 libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
+libdhash1
 libdns165
 libdns_sd
 libdouble-conversion1
@@ -375,6 +384,7 @@ libfontenc1
 libfprint0
 libfreebl3
 libfreetype6
+libfribidi0
 libfuse2
 libfvalue1
 libgarcon-1-0
@@ -427,6 +437,7 @@ libgtkmm-2_4-1
 libgudev-1_0-0
 libguess1
 libharfbuzz0
+libhavege1
 libhogweed4
 libicu59_1
 libicu59_1-ledata
@@ -435,6 +446,7 @@ libidn2-0
 libidnkit1
 libimobiledevice6
 libindicator3-7
+libini_config5
 libinput-udev
 libinput10
 libiptc0
@@ -459,6 +471,7 @@ liblcms2-2
 libldap-2_4-2
 libldap-data
 libldapcpp1
+libldb1
 liblightdm-gobject-1-0
 liblockdev1
 libltdl7
@@ -491,6 +504,7 @@ libnettle6
 libnewt0_52
 libnfnetlink0
 libnfs8
+libnfsidmap-sss
 libnghttp2-14
 libnilfs0
 libnilfscleaner0
@@ -505,6 +519,7 @@ libnpth0
 libnsl2
 libnsssharedhelper0
 libntfs-3g87
+libnuma1
 liboauth0
 libobjc4
 libogg0
@@ -518,6 +533,7 @@ libp11-kit0
 libpango-1_0-0
 libpangomm-1_4-1
 libparted0
+libpath_utils1
 libpcap1
 libpci3
 libpciaccess0
@@ -533,7 +549,7 @@ libply4
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler68
+libpoppler70
 libpopt0
 libprocps6
 libproxy1
@@ -550,6 +566,7 @@ libqt5-qttranslations
 librcc0
 librcd0
 libreadline7
+libref_array1
 libreiserfscore0
 librest0
 librsvg-2-2
@@ -574,16 +591,21 @@ libsoup-2_4-1
 libspeex1
 libsqlite3-0
 libssh2-1
+libsss_idmap0
 libsss_nss_idmap0
+libsss_simpleifp0
 libstartup-notification-1-0
 libstdc++6
 libstorage-ruby
 libstorage7
+libstroke
 libsystemd0
 libtalloc2
 libtasn1
 libtasn1-6
+libtdb1
 libteamdctl0
+libtevent0
 libthai-data
 libthai0
 libtheoradec1
@@ -661,6 +683,7 @@ libxkbfile1
 libxklavier16
 libxml2-2
 libxml2-tools
+libxosd2
 libxshmfence1
 libxslt1
 libxtables12
@@ -684,9 +707,9 @@ lomoco
 lsb-release
 lsof
 lsscsi
-luit
 lvm2
 mailx
+makedev
 man
 master-boot-code
 mbimcli-bash-completion
@@ -696,6 +719,7 @@ memtest86+
 metatheme-adwaita-common
 mkfontdir
 mkfontscale
+mmv
 mobile-broadband-provider-info
 mozilla-nspr
 mozilla-nss
@@ -739,6 +763,7 @@ pam
 pam-config
 pam_krb5
 pam_mount
+par
 parted
 patterns-base-apparmor
 patterns-base-base
@@ -748,6 +773,7 @@ patterns-base-minimal_base
 patterns-base-sw_management
 patterns-base-x11
 patterns-fonts-fonts
+patterns-media-rest_cd_core
 patterns-media-rest_cd_x11
 patterns-xfce-xfce_basis
 patterns-yast-x11_yast
@@ -856,6 +882,7 @@ plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
+pmidi
 polkit
 polkit-default-privs
 polkit-gnome
@@ -905,6 +932,7 @@ ruby2.4-rubygem-ruby-dbus
 ruby2.4-stdlib
 s2tc
 scout
+screen
 sed
 sessreg
 setxkbmap
@@ -917,6 +945,9 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
+sssd
+sssd-krb5-common
+sssd-ldap
 sssd-wbclient
 strace
 sudo
@@ -944,6 +975,7 @@ sysuser-shadow
 sysvinit-tools
 tar
 tar-rmt
+tcsh
 terminfo-base
 thin-provisioning-tools
 thunar
@@ -983,10 +1015,10 @@ wireless-tools
 wodim
 wol
 wpa_supplicant
-x11-tools
 xauth
 xbitmaps
 xconsole
+xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -996,7 +1028,6 @@ xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
 xf86-video-ark
@@ -1054,20 +1085,20 @@ xkeyboard-config
 xli
 xmessage
 xmodmap
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
 xorg-x11-fonts-core
-xorg-x11-libX11-ccache
 xorg-x11-server
+xosd
+xosview
 xprop
 xrandr
 xrdb
 xset
 xsetroot
 xtables-plugins
-xterm
 xterm-bin
+xtermset
 xz
 yast2
 yast2-add-on
@@ -1115,6 +1146,7 @@ yast2-snapper
 yast2-storage
 yast2-sudo
 yast2-sysconfig
+yast2-trans-en_US
 yast2-trans-stats
 yast2-transfer
 yast2-tune
@@ -1130,6 +1162,7 @@ ypbind
 zd1211-firmware
 zip
 zisofs-tools
+zsh
 zypp-plugin-python
 zypper
 zypper-aptitude

@@ -67,7 +67,6 @@ cyrus-sasl-crammd5
 cyrus-sasl-digestmd5
 cyrus-sasl-gssapi
 cyrus-sasl-plain
-db48-utils
 dbus-1
 dbus-1-glib
 dbus-1-glib-tool
@@ -84,6 +83,7 @@ dmraid
 dmz-icon-theme-cursors
 docbook-xsl-stylesheets
 docbook_4
+dos2unix
 dosfstools
 dracut
 drkonqi5
@@ -155,6 +155,7 @@ gvfs-backends
 gvfs-fuse
 gzip
 hardlink
+haveged
 hdparm
 hicolor-icon-theme
 hicolor-icon-theme-branding-openSUSE
@@ -174,6 +175,7 @@ intlfonts-euro-bitmap-fonts
 iproute2
 iptables
 iputils
+irqbalance
 iscsiuio
 iso_ent
 issue-generator
@@ -305,7 +307,6 @@ libassuan0
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
-libatm1
 libatspi0
 libattr1
 libaudit1
@@ -367,12 +368,14 @@ libelf1
 libenchant1
 libepoxy0
 liberation2-fonts
+libestr0
 libevdev2
 libevent-2_1-8
 libexif12
 libexpat1
 libext2fs2
 libfam0-gamin
+libfastjson4
 libfdisk1
 libffi7
 libfftw3-3
@@ -427,6 +430,7 @@ libgudev-1_0-0
 libgypsy0
 libharfbuzz-icu0
 libharfbuzz0
+libhavege1
 libhogweed4
 libhunspell-1_6-0
 libhyphen0
@@ -462,6 +466,8 @@ libldap-data
 libldapcpp1
 libldb1
 liblockdev1
+liblogging0
+liblognorm5
 liblqr-1-0
 libltdl7
 liblua5_3-5
@@ -501,6 +507,7 @@ libnotify4
 libnpth0
 libnsl2
 libntfs-3g87
+libnuma1
 liboauth0
 libogg0
 liboggkate1
@@ -511,7 +518,6 @@ libp11-kit0
 libpackagekit-glib2-18
 libpango-1_0-0
 libparted0
-libpcap1
 libpci3
 libpciaccess0
 libpcre1
@@ -660,10 +666,8 @@ libzypp
 lifecycle-data-openSUSE
 lockdev
 logrotate
-lsb-release
 lsof
 lsscsi
-luit
 lvm2
 mailx
 man
@@ -677,6 +681,7 @@ mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
 mtools
+nano
 ncurses-utils
 net-tools
 netcat-openbsd
@@ -818,8 +823,6 @@ plymouth-scripts
 polkit
 polkit-default-privs
 postfix
-ppp
-pptp
 prctl
 procps
 psmisc
@@ -858,6 +861,8 @@ rollback-helper
 rpcbind
 rpm
 rpm-python
+rsync
+rsyslog
 ruby
 ruby-common
 ruby2.4
@@ -873,6 +878,7 @@ ruby2.4-stdlib
 s2tc
 samba-libs
 scout
+screen
 sed
 sessreg
 setxkbmap
@@ -895,6 +901,7 @@ susepaste-screenshot
 sysconfig
 sysconfig-netconfig
 syslinux
+syslog-service
 system-group-hardware
 system-group-wheel
 system-user-bin
@@ -906,7 +913,6 @@ system-user-nobody
 system-user-root
 systemd
 systemd-bash-completion
-systemd-logger
 systemd-presets-branding-openSUSE
 systemd-sysvinit
 sysuser-shadow
@@ -950,7 +956,6 @@ wireless-tools
 wmctrl
 wodim
 wol
-x11-tools
 xauth
 xbitmaps
 xclip
@@ -963,7 +968,6 @@ xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
-xf86-input-vmmouse
 xf86-input-void
 xf86-input-wacom
 xf86-video-fbdev
@@ -976,10 +980,8 @@ xlockmore
 xmessage
 xmlcharent
 xmodmap
-xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-essentials
-xorg-x11-libX11-ccache
 xorg-x11-server
 xprop
 xrandr
@@ -987,8 +989,8 @@ xrdb
 xset
 xsetroot
 xtables-plugins
-xterm
 xterm-bin
+xtermset
 xz
 yast2
 yast2-add-on
@@ -1045,7 +1047,6 @@ yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
-ypbind
 zisofs-tools
 zypp-plugin-python
 zypper
