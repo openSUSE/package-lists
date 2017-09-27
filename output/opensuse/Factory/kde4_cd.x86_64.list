@@ -70,7 +70,6 @@ baloo5-widgets
 baloo5-widgets-lang
 bash
 bash-completion
-bc
 bind-utils
 blog
 bluedevil5
@@ -129,10 +128,6 @@ dbus-1-glib
 dbus-1-glib-tool
 dbus-1-x11
 dconf
-dd_rescue
-dd_rescue-crypt
-dd_rescue-lzo
-dd_rhelp
 dejavu-fonts
 deltarpm
 desktop-data-openSUSE
@@ -181,15 +176,12 @@ fprintd
 fprintd-pam
 frameworkintegration-plugin
 fuse
-fvwm-themes
-fvwm2
 gamin-server
 gawk
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
 gdb
-gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
 genisoimage
@@ -206,7 +198,6 @@ glibc
 glibc-extra
 glibc-locale
 gnu-unifont-bitmap-fonts
-gnu_ddrescue
 google-noto-fonts-doc
 google-opensans-fonts
 google-roboto-fonts
@@ -400,7 +391,6 @@ kpeople5-lang
 kpimtextedit
 kpimtextedit-lang
 krb5
-krb5-client
 kross
 kross-lang
 kruler
@@ -411,7 +401,6 @@ kscreenlocker
 kscreenlocker-lang
 kservice
 kservice-lang
-ksh
 ksshaskpass5
 ksshaskpass5-lang
 ksysguard5
@@ -431,7 +420,6 @@ kwebkitpart-lang
 kwin5
 kwin5-lang
 less
-lftp
 libAppStreamQt2
 libFLAC8
 libGLU1
@@ -741,7 +729,6 @@ libexiv2-26
 libexpat1
 libext2fs2
 libfakekey0
-libfallocate0
 libfam0-gamin
 libfdisk1
 libffi7
@@ -988,7 +975,6 @@ librcd0
 libreadline7
 libref_array1
 libreiserfscore0
-librsvg-2-2
 libruby2_4-2_4
 libsamba-credentials0
 libsamba-errors0
@@ -1034,7 +1020,6 @@ libsss_simpleifp0
 libstdc++6
 libstorage-ruby
 libstorage7
-libstroke
 libswresample2
 libswscale4
 libsystemd0
@@ -1132,7 +1117,6 @@ libxkbfile1
 libxml-security-c17
 libxml2-2
 libxml2-tools
-libxosd2
 libxshmfence1
 libxslt-tools
 libxslt1
@@ -1161,7 +1145,6 @@ mailcommon-lang
 mailimporter
 mailimporter-lang
 mailx
-makedev
 man
 mariadb
 mariadb-client
@@ -1170,7 +1153,6 @@ master-boot-code
 mbimcli-bash-completion
 mbox-importer
 mbox-importer-lang
-mc
 mcelog
 mdadm
 media-player-info
@@ -1182,7 +1164,6 @@ milou5
 milou5-lang
 mkfontdir
 mkfontscale
-mmv
 mobile-broadband-provider-info
 mozilla-nspr
 mozilla-nss
@@ -1201,7 +1182,6 @@ nfsidmap
 noto-sans-fonts
 nscd
 nss-mdns
-nss_ldap
 ntfs-3g
 ntfsprogs
 ntp
@@ -1228,9 +1208,7 @@ p11-kit
 p11-kit-tools
 pam
 pam-config
-pam_krb5
 pam_mount
-par
 parted
 parted-lang
 patterns-base-apparmor
@@ -1391,7 +1369,6 @@ plymouth-dracut
 plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
-pmidi
 polkit
 polkit-default-privs
 polkit-kde-agent-5
@@ -1534,8 +1511,6 @@ sysuser-shadow
 sysvinit-tools
 tar
 tar-rmt
-tcsh
-tcsh-lang
 terminfo-base
 thin-provisioning-tools
 tigervnc
@@ -1572,7 +1547,6 @@ wpa_supplicant
 xauth
 xbitmaps
 xconsole
-xdg-menu
 xdg-user-dirs
 xdg-utils
 xdm
@@ -1622,7 +1596,6 @@ xorg-x11-driver-video
 xorg-x11-essentials
 xorg-x11-fonts-core
 xorg-x11-server
-xosd
 xosview
 xprop
 xrandr
@@ -1696,7 +1669,6 @@ ypbind
 zd1211-firmware
 zip
 zisofs-tools
-zsh
 zypp-plugin-python
 zypper
 zypper-aptitude
