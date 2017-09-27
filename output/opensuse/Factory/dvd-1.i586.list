@@ -9,7 +9,6 @@ ImageMagick-extra
 LibVNCServer-devel
 Mesa
 Mesa-dri-devel
-Mesa-dri-nouveau
 Mesa-libEGL-devel
 Mesa-libEGL1
 Mesa-libGL-devel
@@ -400,7 +399,6 @@ coreutils-lang
 cpio
 cpio-mt
 cpp
-cpp6
 cpp7
 cppunit-devel
 cpupower
@@ -454,12 +452,7 @@ dbus-1-x11
 dconf
 dcraw
 dcraw-lang
-dd_rescue
-dd_rescue-crypt
-dd_rescue-lzo
-dd_rhelp
 ddclient
-ddd
 ddskk
 dejagnu
 dejavu-fonts
@@ -501,6 +494,7 @@ docbook_4
 docbook_5
 dolphin
 dolphin-part
+dolphin-part-lang
 dos2unix
 dosfstools
 doxygen
@@ -637,7 +631,6 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fontsproto-devel
-fortune
 fossil
 fprintd
 fprintd-pam
@@ -665,8 +658,6 @@ ftstring
 ftvalid
 ftview
 fuse
-fvwm-themes
-fvwm2
 galculator
 galculator-lang
 gamin-server
@@ -678,9 +669,6 @@ gcc-c++
 gcc-fortran
 gcc-info
 gcc-objc
-gcc6
-gcc6-info
-gcc6-locale
 gcc7
 gcc7-c++
 gcc7-fortran
@@ -745,7 +733,9 @@ gedit-plugins
 gedit-plugins-data
 gedit-plugins-lang
 gegl-0_2
+gegl-0_2-lang
 gegl-0_3
+gegl-0_3-lang
 genisoimage
 geoclue2
 geocode-glib
@@ -937,7 +927,6 @@ gnome-video-effects
 gnome-weather
 gnome-weather-lang
 gnu-unifont-bitmap-fonts
-gnu_ddrescue
 gnutls
 goffice-0_8-lang
 goffice-lang
@@ -951,7 +940,6 @@ google-opensans-fonts
 google-roboto-fonts
 google-tinos-fonts
 gpart
-gparted
 gperf
 gpg2
 gpg2-lang
@@ -977,7 +965,6 @@ grisbi-lang
 groff
 groff-full
 gromit
-grsync
 grub2
 grub2-branding-openSUSE
 grub2-i386-efi
@@ -1025,7 +1012,6 @@ gtk2-engine-hcengine
 gtk2-engine-industrial
 gtk2-engine-mist
 gtk2-engine-murrine
-gtk2-engine-oxygen
 gtk2-engine-redmond95
 gtk2-engine-thinice
 gtk2-engines
@@ -1043,7 +1029,6 @@ gtk2-theme-clearlooks
 gtk2-theme-crux
 gtk2-theme-industrial
 gtk2-theme-mist
-gtk2-theme-oxygen
 gtk2-theme-redmond95
 gtk2-theme-thinice
 gtk2-theming-engine-adwaita
@@ -1103,7 +1088,6 @@ hp2xx
 hplip
 hplip-hpijs
 hplip-sane
-htdig
 html-dtd
 html2ps
 html2text
@@ -1177,7 +1161,7 @@ inn
 inputproto-devel
 insserv-compat
 inst-source-utils
-install-initrd-openSUSE
+install-initrd-Kubic
 intlfonts
 intlfonts-euro-bitmap-fonts
 intltool
@@ -1246,6 +1230,7 @@ kaccounts-providers-lang
 kactivities5-devel
 kactivities5-imports
 kactivitymanagerd
+kactivitymanagerd-lang
 kaddressbook
 kakasi
 kakasi-dict
@@ -1351,6 +1336,7 @@ kde-oxygen-fonts
 kde-print-manager
 kde-print-manager-lang
 kde-user-manager
+kde-user-manager-lang
 kde4-filesystem
 kdebase4-runtime
 kdebase4-workspace-libs
@@ -1388,7 +1374,6 @@ kdialog
 kdialog-lang
 kdiamond
 kdiamond-lang
-kdnssd
 kdnssd-framework-devel
 kdoctools
 kdoctools-devel
@@ -1456,7 +1441,6 @@ kio_audiocd-lang
 kio_audiocd4
 kio_iso
 kio_kamera
-kio_mtp
 kipi-plugins
 kipi-plugins-lang
 kiriki
@@ -1491,6 +1475,7 @@ klines-lang
 klinkstatus
 klogd
 kmag
+kmag-lang
 kmahjongg
 kmahjongg-lang
 kmail
@@ -1504,6 +1489,7 @@ kmines-lang
 kmod
 kmod-compat
 kmousetool
+kmousetool-lang
 kmouth
 kmozillahelper
 kmplot
@@ -1532,6 +1518,7 @@ konquest
 konquest-lang
 konsole
 konsole-part
+konsole-part-lang
 kontact
 konversation
 konversation-lang
@@ -1555,13 +1542,13 @@ kpty-devel
 kqtquickcharts
 kradio
 krb5
-krb5-client
 krb5-devel
 krdc
 krdc-lang
 kremotecontrol
 krename
 kreversi
+kreversi-lang
 krfb
 krfb-lang
 krita
@@ -1580,7 +1567,6 @@ kscreenlocker
 kservice
 kservice-devel
 kservice-lang
-ksh
 kshisen
 kshisen-lang
 ksirk
@@ -1592,6 +1578,7 @@ ksquares
 ksquares-lang
 ksshaskpass5
 ksudoku
+ksudoku-lang
 ksysguard5
 ksystemlog
 ksystemlog-lang
@@ -1989,7 +1976,6 @@ libarchive13
 libaria2-0
 libart_lgpl-devel
 libart_lgpl_2-2
-libasan3
 libasan4
 libasm1
 libasound2
@@ -2287,7 +2273,6 @@ libexttextcat-2_0-0
 libf2fs1
 libfabric1
 libfakekey0
-libfallocate0
 libfam0-gamin
 libfarstream-0_2-5
 libfaxutil5_5_9
@@ -2315,7 +2300,6 @@ libfm4
 libfolks-data
 libfolks-eds25
 libfolks-telepathy25
-libfolks-tracker25
 libfolks25
 libfont-specimen0
 libfontenc-devel
@@ -2613,7 +2597,6 @@ libjansson4
 libjasper-devel
 libjasper1
 libjavascriptcoregtk-1_0-0
-libjavascriptcoregtk-3_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjd0
@@ -2819,9 +2802,6 @@ libnfs8
 libnfsidmap-sss
 libnghttp2-14
 libnice10
-libnilfs0
-libnilfscleaner0
-libnilfsgc0
 libnl-config
 libnl3-200
 libnm-glib-vpn1
@@ -3219,7 +3199,6 @@ libstdc++6-gcc6-locale
 libstoken1
 libstorage-ruby
 libstorage7
-libstroke
 libsuil-0-0
 libsuitesparseconfig-4_5_5
 libsunpinyin3
@@ -3319,7 +3298,6 @@ libvamp-hostsdk3
 libvcdinfo0
 libvdeplug3
 libvdpau1
-libvdpau_nouveau
 libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
@@ -3379,9 +3357,7 @@ libwbxml2-devel
 libwebkit2gtk-4_0-37
 libwebkit2gtk3-lang
 libwebkitgtk-1_0-0
-libwebkitgtk-3_0-0
 libwebkitgtk2-lang
-libwebkitgtk3-lang
 libwebp-devel
 libwebp6
 libwebpdecoder2
@@ -3498,7 +3474,6 @@ libxmlsec1-nss1
 libxmlsec1-openssl1
 libxmmsclient-glib1
 libxmmsclient6
-libxosd2
 libxshmfence1
 libxslt-devel
 libxslt-python
@@ -3532,8 +3507,6 @@ libzvbi0
 libzypp
 libzypp-plugin-appdata
 lifecycle-data-openSUSE
-liferea
-liferea-lang
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-branding-openSUSE
@@ -3608,7 +3581,6 @@ mailman
 mailx
 make
 make-lang
-makedev
 makedumpfile
 makeinfo
 man
@@ -3659,7 +3631,6 @@ mlterm-canna
 mlterm-ibus
 mlterm-scim
 mlterm-wnn
-mmv
 mobile-broadband-provider-info
 mobipocket
 monapo-fonts
@@ -3758,7 +3729,6 @@ nfs-client
 nfs-doc
 nfs-kernel-server
 nfsidmap
-nilfs-utils
 nkf
 nma-data
 nmap
@@ -3881,7 +3851,6 @@ pam-config
 pam-devel
 pam-modules
 pam_apparmor
-pam_krb5
 pam_mount
 pam_ssh
 pango-devel
@@ -3968,8 +3937,6 @@ patterns-lxde-lxde_office
 patterns-media-rest_cd_core
 patterns-media-rest_dvd
 patterns-network-network_admin
-patterns-non_oss
-patterns-non_oss_opt
 patterns-office-office
 patterns-server-dhcp_dns_server
 patterns-server-directory_server
@@ -4391,6 +4358,7 @@ plasma5-addons
 plasma5-defaults-openSUSE
 plasma5-desktop
 plasma5-integration-plugin
+plasma5-integration-plugin-lang
 plasma5-pa
 plasma5-pk-updates
 plasma5-pk-updates-lang
@@ -4407,7 +4375,6 @@ plymouth-plugin-label
 plymouth-plugin-label-ft
 plymouth-plugin-script
 plymouth-scripts
-pmidi
 polari
 polari-lang
 polkit
@@ -4542,6 +4509,7 @@ python2-cairo-devel
 python2-certifi
 python2-cffi
 python2-chardet
+python2-click
 python2-configobj
 python2-constantly
 python2-cryptography
@@ -4583,7 +4551,6 @@ python2-qt4
 python2-qt5
 python2-requests
 python2-setuptools
-python2-simplejson
 python2-sip
 python2-sip-devel
 python2-six
@@ -4592,13 +4559,16 @@ python2-urllib3
 python2-urwid
 python2-zope.interface
 python3
+python3-Automat
 python3-Cycler
 python3-Pillow
 python3-PySocks
+python3-Twisted
 python3-apparmor
 python3-appdirs
 python3-asn1crypto
 python3-atspi
+python3-attrs
 python3-base
 python3-brlapi
 python3-cairo
@@ -4606,20 +4576,23 @@ python3-cairocffi
 python3-certifi
 python3-cffi
 python3-chardet
+python3-click
+python3-constantly
 python3-cryptography
 python3-cssselect
 python3-cupshelpers
 python3-curses
 python3-dbm
 python3-dbus-python
-python3-flup
 python3-gedit
 python3-gobject
 python3-gobject-Gdk
 python3-gobject-cairo
 python3-gst
+python3-hyperlink
 python3-idle
 python3-idna
+python3-incremental
 python3-jedi
 python3-louis
 python3-lxml
@@ -4636,9 +4609,11 @@ python3-py
 python3-pyOpenSSL
 python3-pyasn1
 python3-pycparser
+python3-pycrypto
 python3-pycups
 python3-pycurl
 python3-pyparsing
+python3-pyserial
 python3-pysmbc
 python3-python-dateutil
 python3-pytz
@@ -4646,12 +4621,12 @@ python3-pyxdg
 python3-qt4
 python3-requests
 python3-setuptools
-python3-simplejson
 python3-sip
 python3-six
 python3-speechd
 python3-tk
 python3-urllib3
+python3-zope.interface
 pyzy-db-android
 pyzy-db-open-phrase
 qalculate
@@ -5097,7 +5072,6 @@ ucode-amd
 ucode-intel
 udev
 udev-configure-printer
-udftools
 udhcp
 udisks2
 udisks2-lang
@@ -5240,7 +5214,6 @@ xf86-video-i128
 xf86-video-mach64
 xf86-video-mga
 xf86-video-neomagic
-xf86-video-nouveau
 xf86-video-nv
 xf86-video-qxl
 xf86-video-r128
@@ -5351,7 +5324,6 @@ xfwm4-lang
 xfwm4-themes
 xhost
 xhtml-dtd
-xine-ui
 xineramaproto-devel
 xinetd
 xinit
@@ -5389,8 +5361,6 @@ xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-sdk
 xorriso
-xosd
-xosview
 xournal
 xprop
 xproto-devel
@@ -5565,7 +5535,6 @@ zip
 zisofs-tools
 zlib-devel
 zoo
-zsh
 zypp-plugin-python
 zypper
 zypper-aptitude
