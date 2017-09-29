@@ -316,6 +316,9 @@ libavahi-client3
 libavahi-common3
 libavahi-core7
 libavahi-glib1
+libavcodec57
+libavformat57
+libavutil55
 libbind9-140
 libblkid1
 libbluray2
@@ -334,6 +337,7 @@ libcdda_paranoia0
 libcdio16
 libcdio_cdda2
 libcdio_paranoia2
+libcelt0-2
 libcolord2
 libcom_err2
 libcpupower0
@@ -407,13 +411,13 @@ libgnutls30
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
-libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
 libgpm2
 libgraphite2-3
 libgraphviz6
+libgsm1
 libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
@@ -485,6 +489,7 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-17_0
+libmp3lame0
 libmpc3
 libmpfr4
 libmtdev1
@@ -511,6 +516,7 @@ libnuma1
 liboauth0
 libogg0
 liboggkate1
+libopenjpeg1
 libopenssl1_0_0
 libopus0
 liborc-0_4-0
@@ -558,6 +564,7 @@ libsamba-util0
 libsamdb0
 libsamplerate0
 libsasl2-3
+libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libselinux1
@@ -582,6 +589,7 @@ libssh4
 libstdc++6
 libstorage-ruby
 libstorage7
+libswresample2
 libsystemd0
 libtag1
 libtalloc2
@@ -599,6 +607,7 @@ libtiff5
 libtirpc-netconfig
 libtirpc3
 libts0
+libtwolame0
 libudev1
 libudisks2-0
 libunistring2
@@ -608,6 +617,12 @@ libusbmuxd4
 libustr-1_0-1
 libutempter0
 libuuid1
+libva-drm1
+libva-egl1
+libva-glx1
+libva-x11-1
+libva1
+libvdpau1
 libverto1
 libvisual
 libvorbis0
@@ -623,6 +638,7 @@ libwayland-server0
 libwbclient0
 libwebp6
 libwebpdemux2
+libwebpmux2
 libwicked-0-6
 libwrap0
 libx86emu1
