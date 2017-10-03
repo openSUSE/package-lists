@@ -1,5 +1,4 @@
 AppStream
-FastCGI
 GeoIP
 GeoIP-data
 GraphicsMagick-devel
@@ -219,6 +218,7 @@ baobab-lang
 bash
 bash-completion
 bash-doc
+bash-lang
 bbswitch-kmp-default
 bc
 bcm20702a1-firmware
@@ -365,7 +365,6 @@ cervisia-lang
 cfitsio-devel
 cfitsio-devel-doc
 cglib
-chasen
 checkmedia
 cheese
 cheese-lang
@@ -960,7 +959,6 @@ graphviz-gnome
 graphviz-plugins-core
 grep
 grep-lang
-grepmail
 grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
@@ -1179,7 +1177,6 @@ ipa-mincho-fonts
 ipa-pgothic-fonts
 ipa-pmincho-fonts
 ipa-uigothic-fonts
-ipadic
 iproute2
 ipsec-tools
 iptables
@@ -1188,7 +1185,6 @@ iputils
 ipw-firmware
 irda
 irqbalance
-irssi
 iscsiuio
 iso-codes
 iso-codes-lang
@@ -3630,7 +3626,6 @@ mgopen-fonts
 mhash-devel
 midori-branding-openSUSE
 milou5
-mirror
 mjpegtools
 mkfontdir
 mkfontscale
@@ -3739,7 +3734,6 @@ nfs-client
 nfs-doc
 nfs-kernel-server
 nfsidmap
-nkf
 nma-data
 nmap
 notification-daemon
@@ -3997,7 +3991,6 @@ perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-B-Hooks-EndOfScope
-perl-B-Utils
 perl-BIND-Conf_Parser
 perl-BSD-Resource
 perl-BerkeleyDB
@@ -4038,7 +4031,6 @@ perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
 perl-Crypt-Rijndael
-perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
@@ -4051,7 +4043,6 @@ perl-DBD-mysql
 perl-DBI
 perl-Data-OptList
 perl-Date-Calc
-perl-Date-Manip
 perl-DateTime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
@@ -4079,7 +4070,6 @@ perl-Exporter-Tiny
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
 perl-ExtUtils-PkgConfig
-perl-FastCGI
 perl-File-Listing
 perl-File-MMagic
 perl-File-Path
@@ -4088,7 +4078,6 @@ perl-File-ShareDir
 perl-File-Slurp
 perl-File-Tail
 perl-File-Type
-perl-FileHandle-Unget
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d
@@ -4112,7 +4101,6 @@ perl-HTTP-Message
 perl-HTTP-Negotiate
 perl-HTTPS-Daemon
 perl-IO-HTML
-perl-IO-SessionData
 perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-String
@@ -4139,7 +4127,6 @@ perl-MLDBM
 perl-MLDBM-Sync
 perl-MRO-Compat
 perl-Mail-DKIM
-perl-Mail-Mbox-MessageParser
 perl-Mail-SPF
 perl-Mail-SpamAssassin
 perl-MailTools
@@ -4147,10 +4134,8 @@ perl-Math-Base-Convert
 perl-Mcrypt
 perl-Module-Build
 perl-Module-Implementation
-perl-Module-Info
 perl-Module-Runtime
 perl-Module-Runtime-Conflicts
-perl-Module-Signature
 perl-Moose
 perl-NKF
 perl-Net-CIDR-Lite
@@ -4160,7 +4145,6 @@ perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-IP
 perl-Net-IPv4Addr
-perl-Net-Jabber
 perl-Net-LibIDN
 perl-Net-Netmask
 perl-Net-Patricia
@@ -4169,7 +4153,6 @@ perl-Net-SNMP
 perl-Net-SSLeay
 perl-Net-Server
 perl-Net-Telnet
-perl-Net-XMPP
 perl-NetAddr-IP
 perl-PDA-Pilot
 perl-Package-DeprecationManager
@@ -4193,7 +4176,6 @@ perl-Readonly
 perl-Role-Tiny
 perl-SGMLS
 perl-SNMP
-perl-SOAP-Lite
 perl-SQL-Statement
 perl-SVN-Simple
 perl-Scalar-List-Utils
@@ -4209,7 +4191,6 @@ perl-Sub-Install
 perl-Sub-Name
 perl-Sub-Quote
 perl-Sub-Uplevel
-perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
@@ -4219,7 +4200,6 @@ perl-Test-LeakTrace
 perl-Test-Pod
 perl-Test-Pod-Coverage
 perl-Text-CSV_XS
-perl-Text-ChaSen
 perl-Text-DelimMatch
 perl-Text-Iconv
 perl-Text-Kakasi
@@ -5168,7 +5148,6 @@ wdiff-lang
 webkit2gtk-4_0-injected-bundles
 wget
 which
-whois
 wicked
 wicked-service
 wiggle
@@ -5410,7 +5389,6 @@ yakuake
 yakuake-lang
 yast2
 yast2-add-on
-yast2-apparmor
 yast2-auth-client
 yast2-auth-server
 yast2-bootloader
