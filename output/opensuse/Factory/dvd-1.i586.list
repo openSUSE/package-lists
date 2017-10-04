@@ -1,4 +1,5 @@
 AppStream
+FastCGI
 GeoIP
 GeoIP-data
 GraphicsMagick-devel
@@ -221,8 +222,15 @@ bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bcm43xx-firmware
+bcmatroska2-devel
+bctoolbox-devel
+bcunit-devel
+bcunit-doc
 bea-stax
 bea-stax-api
+belcard-devel
+belle-sip-devel
+belr-devel
 bijiben
 bijiben-lang
 bin86
@@ -328,6 +336,7 @@ busybox
 bzip2
 bzr
 bzr-lang
+bzrtp-devel
 ca-certificates
 ca-certificates-mozilla
 cairo-devel
@@ -398,6 +407,7 @@ compface
 coreutils
 coreutils-lang
 cpio
+cpio-lang
 cpio-mt
 cpp
 cpp7
@@ -617,6 +627,7 @@ file-roller-lang
 filesystem
 fillup
 findutils
+findutils-lang
 finger
 fipscheck
 fixesproto-devel
@@ -1961,6 +1972,7 @@ libalkimia-devel
 libalkimia5
 libamd-2_4_6
 libanjuta-3-0
+libantlr3c3
 libao-devel
 libao-plugins4
 libao4
@@ -2008,18 +2020,29 @@ libavahi-glib1
 libavahi-gobject0
 libavahi-ui-gtk3-0
 libavc1394-0
+libavcodec-devel
 libavcodec57
 libavdevice57
 libavfilter6
 libavformat57
 libavogadro1
 libavogadrolibs-suse0
+libavresample-devel
 libavresample3
+libavutil-devel
 libavutil55
 libb64-0
 libbabl-0_1-0
 libbase
 libbasicobjects0
+libbcg729-0
+libbcmatroska2-0
+libbctoolbox-tester1
+libbctoolbox1
+libbcunit1
+libbelcard1
+libbellesip0
+libbelr1
 libbind9-140
 libblas3
 libblkid-devel
@@ -2099,6 +2122,7 @@ libbtrfs0
 libburn4
 libbz2-1
 libbz2-devel
+libbzrtp0
 libc-client2007e_suse
 libcaca0
 libcacard0
@@ -2687,6 +2711,11 @@ liblensfun1
 liblibkremotecontrol1
 liblightdm-gobject-1-0
 liblilv-0-0
+liblinphone++9
+liblinphone-data
+liblinphone-devel
+liblinphone-lang
+liblinphone9
 liblirc0
 liblirc_client0
 liblirc_driver0
@@ -2718,11 +2747,16 @@ libmagic1
 libmal-devel
 libmal1
 libmarblewidget-qt5-28
+libmbedcrypto0
+libmbedtls10
+libmbedx509-0
 libmbim
 libmbim-glib4
 libmcrypt
 libmeanwhile1
 libmediaart-2_0-0
+libmediastreamer_base10
+libmediastreamer_voip10
 libmediawiki-devel
 libmenu-cache3
 libmetalink3
@@ -2857,6 +2891,7 @@ libopus0
 libopusfile0
 liborc-0_4-0
 liborcus-0_12-0
+libortp13
 libosinfo
 libosinfo-1_0-0
 libosip2
@@ -3204,7 +3239,9 @@ libsuitesparseconfig-4_5_5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
+libswresample-devel
 libswresample2
+libswscale-devel
 libswscale4
 libsystemd0
 libsz2
@@ -3596,6 +3633,7 @@ mariadb
 mariadb-client
 mariadb-errormessages
 master-boot-code
+mbedtls-devel
 mbimcli-bash-completion
 mbox-importer
 mbox-importer-lang
@@ -3604,6 +3642,8 @@ mc-lang
 mdadm
 meanwhile-devel
 media-player-info
+mediastreamer2
+mediastreamer2-devel
 meld
 meld-lang
 memtest86+
@@ -3830,6 +3870,7 @@ orbit2
 orbit2-devel
 orca
 orca-lang
+ortp-devel
 os-prober
 osc
 osinfo-db
@@ -3984,6 +4025,7 @@ perl-Archive-Zip
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-B-Hooks-EndOfScope
+perl-B-Utils
 perl-BIND-Conf_Parser
 perl-BSD-Resource
 perl-BerkeleyDB
@@ -4024,6 +4066,7 @@ perl-Crypt-DES
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
 perl-Crypt-Rijndael
+perl-Crypt-SSLeay
 perl-Crypt-SmbHash
 perl-Cyrus-IMAP
 perl-Cyrus-SIEVE-managesieve
@@ -4063,6 +4106,7 @@ perl-Exporter-Tiny
 perl-ExtUtils-Depends
 perl-ExtUtils-F77
 perl-ExtUtils-PkgConfig
+perl-FastCGI
 perl-File-Listing
 perl-File-MMagic
 perl-File-Path
@@ -4071,6 +4115,7 @@ perl-File-ShareDir
 perl-File-Slurp
 perl-File-Tail
 perl-File-Type
+perl-FileHandle-Unget
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d
@@ -4094,6 +4139,7 @@ perl-HTTP-Message
 perl-HTTP-Negotiate
 perl-HTTPS-Daemon
 perl-IO-HTML
+perl-IO-SessionData
 perl-IO-Socket-INET6
 perl-IO-Socket-SSL
 perl-IO-String
@@ -4127,8 +4173,10 @@ perl-Math-Base-Convert
 perl-Mcrypt
 perl-Module-Build
 perl-Module-Implementation
+perl-Module-Info
 perl-Module-Runtime
 perl-Module-Runtime-Conflicts
+perl-Module-Signature
 perl-Moose
 perl-NKF
 perl-Net-CIDR-Lite
@@ -4138,6 +4186,7 @@ perl-Net-Daemon
 perl-Net-HTTP
 perl-Net-IP
 perl-Net-IPv4Addr
+perl-Net-Jabber
 perl-Net-LibIDN
 perl-Net-Netmask
 perl-Net-Patricia
@@ -4146,6 +4195,7 @@ perl-Net-SNMP
 perl-Net-SSLeay
 perl-Net-Server
 perl-Net-Telnet
+perl-Net-XMPP
 perl-NetAddr-IP
 perl-PDA-Pilot
 perl-Package-DeprecationManager
@@ -4169,6 +4219,7 @@ perl-Readonly
 perl-Role-Tiny
 perl-SGMLS
 perl-SNMP
+perl-SOAP-Lite
 perl-SQL-Statement
 perl-SVN-Simple
 perl-Scalar-List-Utils
@@ -4184,6 +4235,7 @@ perl-Sub-Install
 perl-Sub-Name
 perl-Sub-Quote
 perl-Sub-Uplevel
+perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
@@ -5373,6 +5425,7 @@ xtermset
 xtrans
 xz
 xz-devel
+xz-lang
 yakuake
 yakuake-lang
 yast2
