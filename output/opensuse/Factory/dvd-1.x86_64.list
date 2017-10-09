@@ -249,6 +249,7 @@ blinken
 blinken-lang
 blog
 bluedevil5
+bluedevil5-lang
 bluez
 bluez-cups
 bluez-devel
@@ -519,6 +520,7 @@ drbd-utils
 dri2proto-devel
 dri3proto-devel
 drkonqi5
+drkonqi5-lang
 dvd+rw-tools
 dwz
 e2fsprogs
@@ -1276,6 +1278,7 @@ kcalutils
 kcharselect
 kchmviewer
 kcm_sddm
+kcm_sddm-lang
 kcmutils-devel
 kcodecs-devel
 kcolorchooser
@@ -1296,9 +1299,11 @@ kdbg-lang
 kdbusaddons-devel
 kdbusaddons-tools
 kde-cli-tools5
+kde-cli-tools5-lang
 kde-gtk-config5
 kde-gtk-config5-gtk2
 kde-gtk-config5-gtk3
+kde-gtk-config5-lang
 kde-l10n-cs
 kde-l10n-da
 kde-l10n-da-data
@@ -1334,6 +1339,7 @@ kde-odf-thumbnail
 kde-oxygen-fonts
 kde-print-manager
 kde-user-manager
+kde-user-manager-lang
 kde4-filesystem
 kdebase4-runtime
 kdebase4-workspace-libs
@@ -1395,6 +1401,7 @@ kfilemetadata5-devel
 kfilemetadata5-lang
 kfilereplace
 kgamma5
+kgamma5-lang
 kgeography
 kgeography-lang
 kget
@@ -1410,6 +1417,7 @@ khelpcenter5
 khmeros-fonts
 khotkeys5
 khotkeys5-devel
+khotkeys5-lang
 khtml-devel
 ki18n-devel
 kiconthemes-devel
@@ -1419,6 +1427,7 @@ kig-lang
 kimageformats
 kimagemapeditor
 kinfocenter5
+kinfocenter5-lang
 kinit
 kinit-devel
 kinit-lang
@@ -1433,6 +1442,8 @@ kio_iso
 kio_kamera
 kipi-plugins
 kipi-plugins-lang
+kirigami2
+kirigami2-lang
 kiriki
 kiriki-lang
 kismet
@@ -1474,6 +1485,7 @@ kmail-lang
 kmailtransport
 kmediaplayer-devel
 kmenuedit5
+kmenuedit5-lang
 kmines
 kmod
 kmod-compat
@@ -1546,7 +1558,9 @@ krunner-devel
 krusader
 kscd
 kscreen5
+kscreen5-lang
 kscreenlocker
+kscreenlocker-lang
 kservice
 kservice-devel
 kservice-lang
@@ -1560,8 +1574,10 @@ ksplashx-branding-openSUSE
 ksquares
 ksquares-lang
 ksshaskpass5
+ksshaskpass5-lang
 ksudoku
 ksysguard5
+ksysguard5-lang
 ksystemlog
 ksystemlog-lang
 kteatime
@@ -1597,6 +1613,7 @@ kwidgetsaddons-devel
 kwikdisk
 kwin5
 kwin5-devel
+kwin5-lang
 kwindowsystem-devel
 kwordquiz
 kwordquiz-lang
@@ -1835,6 +1852,8 @@ libQt5PlatformHeaders-devel
 libQt5Positioning5
 libQt5PrintSupport-devel
 libQt5PrintSupport5
+libQt5QuickControls2-5
+libQt5QuickTemplates2-5
 libQt5Script5
 libQt5Sensors5
 libQt5Sensors5-imports
@@ -2172,6 +2191,7 @@ libchewing3
 libchm0
 libcholmod-3_0_11
 libcilkrts5
+libclamav7
 libclang3_8
 libclang4
 libclastfm0
@@ -2717,6 +2737,7 @@ libksuseinstall1
 libksysguard5
 libksysguard5-devel
 libksysguard5-helper
+libksysguard5-lang
 libktoblzcheck1
 libktorrent-devel
 libktorrent-lang
@@ -2897,7 +2918,6 @@ libnova-devel
 libnpth0
 libnsl2
 libnsl2-32bit
-libnsssharedhelper0
 libntfs-3g87
 libnuma1
 liboauth0
@@ -3116,6 +3136,7 @@ libqt5-qtlocation-devel
 libqt5-qtmultimedia-devel
 libqt5-qtpaths
 libqt5-qtquickcontrols
+libqt5-qtquickcontrols2
 libqt5-qtscript-devel
 libqt5-qtsensors-devel
 libqt5-qtserialport-devel
@@ -3763,6 +3784,7 @@ mgopen-fonts
 mhash-devel
 midori-branding-openSUSE
 milou5
+milou5-lang
 mirror
 mjpegtools
 mkfontdir
@@ -3900,6 +3922,8 @@ noto-serif-tc-regular-fonts
 nscd
 nss-mdns
 nss-mdns-32bit
+nss_ldap
+nss_ldap-32bit
 ntfs-3g
 ntfsprogs
 ntp
@@ -4157,6 +4181,7 @@ perl-Chart
 perl-Class-Accessor
 perl-Class-Data-Inheritable
 perl-Class-Date
+perl-Class-Factory-Util
 perl-Class-ISA
 perl-Class-Inspector
 perl-Class-Load
@@ -4195,6 +4220,9 @@ perl-DBI
 perl-Data-OptList
 perl-Date-Calc
 perl-DateTime
+perl-DateTime-Format-Builder
+perl-DateTime-Format-ISO8601
+perl-DateTime-Format-Strptime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
 perl-Devel-Caller
@@ -4222,6 +4250,7 @@ perl-ExtUtils-Depends
 perl-ExtUtils-F77
 perl-ExtUtils-PkgConfig
 perl-FastCGI
+perl-File-Find-Rule
 perl-File-Listing
 perl-File-MMagic
 perl-File-Path
@@ -4312,6 +4341,7 @@ perl-Net-Server
 perl-Net-Telnet
 perl-Net-XMPP
 perl-NetAddr-IP
+perl-Number-Compare
 perl-PDA-Pilot
 perl-Package-DeprecationManager
 perl-Package-Stash
@@ -4361,6 +4391,7 @@ perl-Test-Pod-Coverage
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
+perl-Text-Glob
 perl-Text-Iconv
 perl-Text-Kakasi
 perl-Text-Soundex
@@ -4502,15 +4533,20 @@ plasma-framework-devel
 plasma-framework-lang
 plasma-framework-private
 plasma-nm5
+plasma-nm5-lang
 plasma-nm5-openconnect
 plasma-nm5-openvpn
 plasma-nm5-pptp
 plasma-nm5-vpnc
 plasma5-addons
+plasma5-addons-lang
 plasma5-defaults-openSUSE
 plasma5-desktop
+plasma5-desktop-lang
 plasma5-integration-plugin
+plasma5-integration-plugin-lang
 plasma5-pa
+plasma5-pa-lang
 plasma5-pk-updates
 plasma5-pk-updates-lang
 plasma5-session
@@ -4534,6 +4570,7 @@ polkit-default-privs
 polkit-devel
 polkit-gnome
 polkit-kde-agent-5
+polkit-kde-agent-5-lang
 poppler-tools
 popt-devel
 posix_cc
@@ -4556,6 +4593,7 @@ postgresql96-docs
 postgresql96-server
 pothana2000-fonts
 powerdevil5
+powerdevil5-lang
 powertop
 powertop-lang
 poxml-lang
@@ -5042,6 +5080,7 @@ systemd-rpm-macros
 systemd-sysvinit
 systemsettings5
 systemsettings5-devel
+systemsettings5-lang
 sysuser-shadow
 sysvinit-tools
 tack

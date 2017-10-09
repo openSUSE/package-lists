@@ -271,6 +271,7 @@ kio-core
 kio-extras5
 kio_audiocd
 kio_kamera
+kirigami2
 klogd
 kmag
 kmahjongg
@@ -392,6 +393,8 @@ libQt5Network5
 libQt5OpenGL5
 libQt5Positioning5
 libQt5PrintSupport5
+libQt5QuickControls2-5
+libQt5QuickTemplates2-5
 libQt5Script5
 libQt5Sensors5
 libQt5Sensors5-imports
@@ -765,6 +768,7 @@ libqt5-qtgraphicaleffects
 libqt5-qtimageformats
 libqt5-qtpaths
 libqt5-qtquickcontrols
+libqt5-qtquickcontrols2
 libqt5-qttranslations
 libqt5-qtvirtualkeyboard
 libqt5-qtwebengine
@@ -1004,6 +1008,7 @@ perl-B-Hooks-EndOfScope
 perl-Bootloader
 perl-CPAN-Changes
 perl-Class-Data-Inheritable
+perl-Class-Factory-Util
 perl-Class-Inspector
 perl-Class-Method-Modifiers
 perl-Class-Singleton
@@ -1012,6 +1017,9 @@ perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
 perl-DateTime
+perl-DateTime-Format-Builder
+perl-DateTime-Format-ISO8601
+perl-DateTime-Format-Strptime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
 perl-Devel-Caller
@@ -1025,6 +1033,7 @@ perl-Dist-CheckConflicts
 perl-Encode-Locale
 perl-Eval-Closure
 perl-Exception-Class
+perl-File-Find-Rule
 perl-File-Listing
 perl-File-ShareDir
 perl-HTML-Parser
@@ -1046,9 +1055,13 @@ perl-Net-DNS
 perl-Net-HTTP
 perl-Net-LibIDN
 perl-Net-SSLeay
+perl-Number-Compare
+perl-Package-DeprecationManager
 perl-Package-Stash
 perl-Package-Stash-XS
 perl-PadWalker
+perl-Params-Util
+perl-Params-Validate
 perl-Params-ValidationCompiler
 perl-Parse-RecDescent
 perl-Perl-Tidy
@@ -1058,12 +1071,14 @@ perl-Role-Tiny
 perl-Specio
 perl-Sub-Exporter-Progressive
 perl-Sub-Identify
+perl-Sub-Install
 perl-Sub-Name
 perl-Sub-Quote
 perl-Term-ReadKey
 perl-Test-Fatal
 perl-Test-Pod
 perl-Test-Pod-Coverage
+perl-Text-Glob
 perl-TimeDate
 perl-Try-Tiny
 perl-URI
