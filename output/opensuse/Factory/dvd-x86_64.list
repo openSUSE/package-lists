@@ -293,7 +293,6 @@ bubblewrap
 build
 build-mkbaselibs
 build-mkdrpms
-bundle-lang-common-ar
 bundle-lang-common-cs
 bundle-lang-common-da
 bundle-lang-common-de
@@ -488,8 +487,10 @@ dhcp-relay
 dhcp-server
 dhcp-tools
 dialog
+dialog-lang
 diffstat
 diffutils
+diffutils-lang
 ding
 ding-dict-de_en
 djvulibre
@@ -658,7 +659,6 @@ fprintd-pam-32bit
 frameworkintegration-devel
 frameworkintegration-plugin
 freeglut-devel
-freeipmi
 freerdp
 freetype2-devel
 frei0r-plugins
@@ -685,6 +685,7 @@ gamin-server
 gawk
 gcab
 gcal
+gcal-lang
 gcc
 gcc-c++
 gcc-fortran
@@ -1800,6 +1801,7 @@ libKF5Tnef5
 libKF5Torrent6
 libKF5UnitConversion5
 libKF5UnitConversion5-lang
+libKF5Vkontakte2
 libKF5Wallet5
 libKF5WebKit5
 libKF5WidgetsAddons5
@@ -2652,6 +2654,7 @@ libiodbc-devel
 libiodbc3
 libiptc0
 libiptcdata
+libiptcdata-lang
 libiptcdata0
 libirrecord0
 libirs141
@@ -2743,6 +2746,7 @@ libksysguard5-lang
 libktoblzcheck1
 libktorrent-devel
 libktorrent-lang
+libkvkontakte-lang
 libkwalletbackend5-5
 libkyotocabinet16
 liblangtag1
@@ -3044,7 +3048,6 @@ libpopt0-32bit
 libportaudio2
 libportmidi0
 libpostproc54
-libpowerman0
 libpq5
 libpqxx-5_0
 libpqxx-devel
@@ -3091,6 +3094,7 @@ libpurple-plugin-skypeweb
 libpurple-plugin-telegram
 libpurple-plugin-telegram-lang
 libpurple-tcl
+libpwquality-lang
 libpwquality1
 libpython2_7-1_0
 libpython2_7-1_0-32bit
@@ -3421,7 +3425,6 @@ libunistring2-32bit
 libunwind
 libunwind-devel
 libupower-glib3
-libupsclient1
 liburcu6
 libusb-0_1-4
 libusb-1_0-0
@@ -3739,6 +3742,7 @@ lzip
 lzo-devel
 lzop
 m17n-db
+m17n-db-lang
 m4
 mailcommon
 mailimporter
@@ -3893,6 +3897,7 @@ nemiver-lang
 net-snmp
 net-snmp-devel
 net-tools
+net-tools-lang
 netcat-openbsd
 netcfg
 netpbm
@@ -3936,8 +3941,6 @@ numactl
 numad
 numlockx
 nuoveXT2-icon-theme
-nut
-nut-cgi
 nxtvepg
 obconf
 obs-service-download_files
@@ -4243,6 +4246,7 @@ perl-Digest-MD4
 perl-Digest-SHA1
 perl-Dist-CheckConflicts
 perl-Email-Date-Format
+perl-Encode
 perl-Encode-Detect
 perl-Encode-HanExtra
 perl-Encode-JIS2K
@@ -4956,6 +4960,7 @@ seahorse-lang
 seahorse-sharing
 seahorse-sharing-lang
 sed
+sed-lang
 sendmail
 sensors
 servletapi5
@@ -5079,7 +5084,6 @@ system-user-news
 system-user-nobody
 system-user-root
 system-user-srvGeoClue
-system-user-upsd
 system-user-uucp
 system-user-wwwrun
 systemd
@@ -5100,6 +5104,7 @@ taglib-extras-devel
 tagsoup
 tango-icon-theme
 tar
+tar-lang
 tar-rmt
 tcl
 tcpd-devel
