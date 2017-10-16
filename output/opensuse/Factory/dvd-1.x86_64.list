@@ -816,7 +816,6 @@ gnome-builder-plugin-clang
 gnome-builder-plugin-cmake
 gnome-builder-plugin-ctags
 gnome-builder-plugin-devhelp
-gnome-builder-plugin-fpaste
 gnome-builder-plugin-gettext
 gnome-builder-plugin-gnome-code-assistance
 gnome-builder-plugin-html-completion
@@ -1061,6 +1060,7 @@ gtksourceview-lang
 gtkspell-lang
 gucharmap
 gucharmap-lang
+guestfs-data
 guile-modules-2_0
 gupnp-av
 gutenprint
@@ -1623,6 +1623,7 @@ kxmlgui-devel
 kxmlrpcclient5-devel
 lame
 latex2html-pngicons
+ldmtool
 ldns
 leafpad
 lensfun-data
@@ -2582,6 +2583,7 @@ libgucharmap_2_90-7
 libgudev-1_0-0
 libgudev-1_0-devel
 libguess1
+libguestfs0
 libguile-2_0-22
 libgupnp-1_0-4
 libgupnp-av-1_0-2
@@ -2610,6 +2612,7 @@ libhavege1
 libhdf4
 libhdf5-100
 libhdf5_hl100
+libhivex0
 libhogweed4
 libhogweed4-32bit
 libhttp-parser-suse0
@@ -2760,6 +2763,7 @@ libldap-data
 libldapcpp1
 libldb1
 libldb1-32bit
+libldm-1_0-0
 libldns1
 liblensfun1
 liblibkremotecontrol1
@@ -2918,6 +2922,8 @@ libnova-devel
 libnpth0
 libnsl2
 libnsl2-32bit
+libnss_nis2
+libnss_nis2-32bit
 libntfs-3g87
 libnuma1
 liboauth0
@@ -3002,7 +3008,7 @@ libpfs2
 libphonon4
 libphonon4qt5
 libpinyin-data
-libpinyin10
+libpinyin13
 libpipeline1
 libpisock-devel
 libpisock9
@@ -3213,7 +3219,7 @@ libreoffice-share-linker
 libreoffice-writer
 libreofficekit
 librepository
-librest0
+librest-0_7-0
 libretro-gtk0
 librevenge-0_0-0
 librevenge-devel
@@ -3287,7 +3293,7 @@ libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
-libsodium18
+libsodium23
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
@@ -3335,7 +3341,6 @@ libsuil-0-0
 libsuitesparseconfig-4_5_5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
-libsvn_auth_kwallet-1-0
 libswresample-devel
 libswresample2
 libswscale-devel
@@ -3397,6 +3402,7 @@ libtsan0
 libtumbler-1-0
 libturbojpeg0
 libtwolame0
+libtxc_dxtn
 libubsan0
 libucm0
 libucp0
@@ -3484,6 +3490,7 @@ libvirt-daemon-qemu
 libvirt-daemon-xen
 libvirt-glib-1_0-0
 libvirt-libs
+libvirt-sandbox-1_0-5
 libvisio-0_1-1
 libvisual
 libvisual-devel
@@ -3657,7 +3664,8 @@ libz1-32bit
 libzapojit-0_0-0
 libzbar0
 libzebra1
-libzhuyin-data
+libzhuyin-1_1-data
+libzhuyin13
 libzhuyin7
 libzinnia0
 libzio1
@@ -3977,10 +3985,10 @@ openexr-devel
 openldap2
 openldap2-client
 openldap2-devel
-openmpi
-openmpi-config
-openmpi-devel
-openmpi-libs
+openmpi2
+openmpi2-config
+openmpi2-devel
+openmpi2-libs
 openslp
 openslp-devel
 openslp-server
@@ -4006,6 +4014,7 @@ ortp-devel
 os-prober
 osc
 osinfo-db
+ovmf
 oxygen5
 oxygen5-cursors
 oxygen5-decoration
@@ -4777,6 +4786,7 @@ python3-gst
 python3-idle
 python3-idna
 python3-jedi
+python3-libguestfs
 python3-louis
 python3-lxml
 python3-matplotlib
@@ -4787,6 +4797,7 @@ python3-ndg-httpsclient
 python3-numpy
 python3-olefile
 python3-packaging
+python3-passlib
 python3-pip
 python3-py
 python3-pyOpenSSL
@@ -4807,6 +4818,7 @@ python3-six
 python3-speechd
 python3-tk
 python3-urllib3
+python3-virt-bootstrap
 pyzy-db-android
 pyzy-db-open-phrase
 qalculate
@@ -4907,7 +4919,6 @@ ruby2.4-stdlib
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
 rzip
-s2tc
 s2tc-32bit
 sablot
 sac
@@ -4978,6 +4989,7 @@ site-config
 skanlite
 skanlite-lang
 skkdic
+skopeo
 smartmontools
 smbios-utils-python
 smp_utils
@@ -5036,6 +5048,7 @@ subversion-tools
 sudo
 suil-plugins
 sunpinyin-data
+supermin
 suse-module-tools
 susepaste
 susepaste-screenshot
@@ -5226,7 +5239,10 @@ typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-Libosinfo-1_0
+typelib-1_0-LibvirtGConfig-1_0
 typelib-1_0-LibvirtGLib-1_0
+typelib-1_0-LibvirtGObject-1_0
+typelib-1_0-LibvirtSandbox-1_0
 typelib-1_0-MediaArt-2_0
 typelib-1_0-ModemManager-1_0
 typelib-1_0-NM-1_0
@@ -5319,6 +5335,7 @@ vino
 virt-install
 virt-manager
 virt-manager-common
+virt-sandbox
 virt-viewer
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
@@ -5727,6 +5744,7 @@ ypserv
 yum-metadata-parser
 zd1211-firmware
 zenity
+zerofree
 zinnia
 zinnia-tomoe
 zip

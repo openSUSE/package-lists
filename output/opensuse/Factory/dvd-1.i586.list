@@ -601,7 +601,6 @@ fcitx-config-gtk3
 fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
-fcitx-libpinyin
 fcitx-mozc
 fcitx-pinyin
 fcitx-qt4
@@ -830,7 +829,6 @@ gnome-builder-plugin-clang
 gnome-builder-plugin-cmake
 gnome-builder-plugin-ctags
 gnome-builder-plugin-devhelp
-gnome-builder-plugin-fpaste
 gnome-builder-plugin-gettext
 gnome-builder-plugin-gnome-code-assistance
 gnome-builder-plugin-html-completion
@@ -2876,6 +2874,7 @@ libnova-0_15-0
 libnova-devel
 libnpth0
 libnsl2
+libnss_nis2
 libnsssharedhelper0
 libntfs-3g87
 libnuma1
@@ -2956,7 +2955,7 @@ libpfs2
 libphonon4
 libphonon4qt5
 libpinyin-data
-libpinyin10
+libpinyin13
 libpipeline1
 libpisock-devel
 libpisock9
@@ -3154,7 +3153,7 @@ libreoffice-share-linker
 libreoffice-writer
 libreofficekit
 librepository
-librest0
+librest-0_7-0
 libretro-gtk0
 librevenge-0_0-0
 librevenge-devel
@@ -3217,7 +3216,7 @@ libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
 libsocialweb0
-libsodium18
+libsodium23
 libsofia-sip-ua-glib3
 libsofia-sip-ua0
 libsoftokn3
@@ -3263,7 +3262,6 @@ libsuil-0-0
 libsuitesparseconfig-4_5_5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
-libsvn_auth_kwallet-1-0
 libswresample-devel
 libswresample2
 libswscale-devel
@@ -3557,7 +3555,8 @@ libzapojit-0_0-0
 libzbar0
 libzebra1
 libzeitgeist-2_0-0
-libzhuyin-data
+libzhuyin-1_1-data
+libzhuyin13
 libzhuyin7
 libzinnia0
 libzio1
@@ -3870,10 +3869,10 @@ openexr-devel
 openldap2
 openldap2-client
 openldap2-devel
-openmpi
 openmpi-config
-openmpi-devel
-openmpi-libs
+openmpi2
+openmpi2-devel
+openmpi2-libs
 openslp
 openslp-devel
 openslp-server
@@ -3898,6 +3897,7 @@ ortp-devel
 os-prober
 osc
 osinfo-db
+ovmf
 oxygen5
 oxygen5-cursors
 oxygen5-decoration
