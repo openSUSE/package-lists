@@ -20,6 +20,7 @@ acpica
 adaptec-firmware
 adjtimex
 adwaita-icon-theme
+alsa-plugins-pulse
 apparmor-abstractions
 apparmor-parser
 apparmor-profiles
@@ -365,6 +366,7 @@ libexpat1
 libext2fs2
 libfdisk1
 libffi7
+libfftw3-3
 libfltk1
 libfont-specimen0
 libfontenc1
@@ -402,6 +404,7 @@ libgnustep-base1_25
 libgnutls30
 libgoa-1_0-0
 libgobject-2_0-0
+libgomp1
 libgpg-error0
 libgpgme11
 libgphoto2-6
@@ -449,6 +452,7 @@ libjpeg8
 libjson-c2
 libjson-glib-1_0-0
 libkate1
+libkeybinder-3_0-0
 libkeybinder0
 libkeyutils1
 libkmod2
@@ -542,6 +546,7 @@ libprocps6
 libproxy1
 libproxy1-networkmanager
 libpsl5
+libpulse-mainloop-glib0
 libpulse0
 libpwquality1
 libpython2_7-1_0
@@ -575,7 +580,9 @@ libsndfile1
 libsoftokn3
 libsolv-tools
 libsoup-2_4-1
+libsoxr0
 libspeex1
+libspeexdsp1
 libsqlite3-0
 libssh2-1
 libsss_idmap0
@@ -632,6 +639,7 @@ libwayland-egl1
 libwayland-server0
 libwebp6
 libwebpdemux2
+libwebrtc_audio_processing1
 libwicked-0-6
 libwnck-1-22
 libwnck-3-0
@@ -708,6 +716,7 @@ mobile-broadband-provider-info
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mpg123-pulse
 mpt-firmware
 mtools
 nano
@@ -884,6 +893,9 @@ procps
 psmisc
 publicsuffix
 pullin-bcm43xx-firmware
+pulseaudio
+pulseaudio-bash-completion
+pulseaudio-utils
 python
 python-base
 python-rpm-macros
@@ -908,6 +920,7 @@ rpcbind
 rpm
 rpm-python
 rsync
+rtkit
 ruby
 ruby-common
 ruby2.4
@@ -1051,6 +1064,8 @@ xfce4-panel
 xfce4-panel-branding-openSUSE
 xfce4-panel-plugin-mixer
 xfce4-panel-plugin-power-manager
+xfce4-panel-plugin-pulseaudio
+xfce4-panel-plugin-whiskermenu
 xfce4-panel-plugin-xkb
 xfce4-power-manager
 xfce4-power-manager-branding-openSUSE
