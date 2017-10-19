@@ -1976,7 +1976,6 @@ libaccounts-qt5-1
 libaccountsservice0
 libacl1
 libacl1-32bit
-libaec0
 libaio-devel
 libaio1
 libakonadi4
@@ -2950,6 +2949,7 @@ liboggkate1
 liboil
 liboil-devel
 libomp4-devel
+libonig4
 libopagent1
 libopal3_10_10
 libopenal1
@@ -3341,7 +3341,7 @@ libstdc++-devel
 libstdc++6
 libstdc++6-32bit
 libstdc++6-devel-gcc7
-libstdc++6-gcc6-locale
+libstdc++6-locale
 libstoken1
 libstorage-ruby
 libstorage7
@@ -3355,7 +3355,6 @@ libswscale-devel
 libswscale4
 libsystemd0
 libsystemd0-32bit
-libsz2
 libtag-devel
 libtag-extras1
 libtag1
@@ -5003,6 +5002,9 @@ skanlite
 skanlite-lang
 skkdic
 skopeo
+slang-slsh
+slrn
+slrn-lang
 smartmontools
 smbios-utils-python
 smp_utils
@@ -5352,9 +5354,9 @@ virt-manager
 virt-manager-common
 virt-sandbox
 virt-viewer
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
+virtualbox
+virtualbox-host-kmp-default
+virtualbox-qt
 vlan
 vlgothic-fonts
 vm-install
