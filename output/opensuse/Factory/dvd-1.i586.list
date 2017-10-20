@@ -218,6 +218,7 @@ bash
 bash-completion
 bash-doc
 bash-lang
+bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bcm43xx-firmware
@@ -633,6 +634,7 @@ fillup
 findutils
 findutils-lang
 finger
+fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -1090,6 +1092,7 @@ hardlink
 harfbuzz-devel
 haveged
 hddtemp
+hdjmod-kmp-default
 hdparm
 help2man
 hexchat
@@ -1401,11 +1404,14 @@ keditbookmarks
 keditbookmarks-lang
 kemoticons-devel
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2326,6 +2332,7 @@ libffi-devel
 libffi7
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -2350,6 +2357,7 @@ libformula
 libfprint0
 libfreebl3
 libfreehand-0_1-1
+libfreeipmi17
 libfreerdp2
 libfreetype6
 libfribidi0
@@ -2610,6 +2618,7 @@ libinput-udev
 libinput10
 libiodbc-devel
 libiodbc3
+libipmimonitoring6
 libiptc0
 libiptcdata
 libiptcdata0
@@ -2982,6 +2991,7 @@ libpopt0
 libportaudio2
 libportmidi0
 libpostproc54
+libpowerman0
 libpq5
 libpqxx-5_0
 libpqxx-devel
@@ -3319,6 +3329,7 @@ libunistring2
 libunwind
 libunwind-devel
 libupower-glib3
+libupsclient1
 liburcu6
 libusb-0_1-4
 libusb-1_0-0
@@ -3711,6 +3722,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -3816,6 +3828,8 @@ ntp
 ntp-doc
 numlockx
 nuoveXT2-icon-theme
+nut
+nut-cgi
 nxtvepg
 obconf
 obs-service-download_files
@@ -4012,6 +4026,7 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4325,6 +4340,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4929,6 +4946,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
 sysprof
@@ -4950,6 +4968,7 @@ system-user-news
 system-user-nobody
 system-user-root
 system-user-srvGeoClue
+system-user-upsd
 system-user-uucp
 system-user-wwwrun
 systemd
@@ -5182,11 +5201,13 @@ util-macros-devel
 v4l-conf
 v4l-tools
 v4l-utils
+v4l2loopback-kmp-default
 vacation
 vala
 valgrind
 vcdimager
 vdr
+vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -5200,6 +5221,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vm-install
@@ -5449,6 +5473,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
