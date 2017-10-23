@@ -15,6 +15,7 @@ job install name atftp
 job install name squid
 job install name icewm-default
 job lock name libicu50-32bit # !ppc64le # !aarch64
+job install name liberation2-fonts
 
 job install provides pattern() = x11_yast
 
