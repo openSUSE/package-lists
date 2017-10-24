@@ -76,12 +76,20 @@ adobe-sourcesanspro-fonts
 adobe-sourceserifpro-fonts
 adwaita-icon-theme
 agrep
+akonadi-calendar-lang
 akonadi-calendar-tools
+akonadi-calendar-tools-lang
 akonadi-contact
+akonadi-contact-lang
 akonadi-import-wizard
+akonadi-import-wizard-lang
 akonadi-mime
+akonadi-mime-lang
+akonadi-notes-lang
 akonadi-search
+akonadi-search-lang
 akonadi-server
+akonadi-server-lang
 akonadi-server-sqlite
 akregator
 akregator-lang
@@ -342,6 +350,7 @@ ca-certificates
 ca-certificates-mozilla
 cairo-devel
 calendarsupport
+calendarsupport-lang
 calligra
 calligra-doc
 calligra-extras-dolphin
@@ -559,6 +568,7 @@ espeak
 etags
 ethtool
 eventviews
+eventviews-lang
 evince
 evince-lang
 evince-plugin-comicsdocument
@@ -966,6 +976,7 @@ gpm
 gptfdisk
 grantlee5
 grantleetheme
+grantleetheme-lang
 graphite2-devel
 graphviz
 graphviz-gd
@@ -1172,6 +1183,7 @@ iftop
 iio-sensor-proxy
 ilmbase-devel
 incidenceeditor
+incidenceeditor-lang
 indent
 indic-fonts
 info
@@ -1251,11 +1263,13 @@ kactivities5-imports
 kactivitymanagerd
 kactivitymanagerd-lang
 kaddressbook
+kaddressbook-lang
 kakasi
 kakasi-dict
 kalarm
 kalarm-lang
 kalarmcal
+kalarmcal-lang
 kalgebra
 kalgebra-lang
 kalzium
@@ -1291,6 +1305,7 @@ kcachegrind-lang
 kcalc
 kcalc-lang
 kcalutils
+kcalutils-lang
 kcharselect
 kcharselect-lang
 kchmviewer
@@ -1304,6 +1319,7 @@ kcompletion-devel
 kconf_update5
 kconfig-devel
 kconfigwidgets-devel
+kcontacts-lang
 kcoreaddons
 kcoreaddons-devel
 kcoreaddons-lang
@@ -1381,8 +1397,11 @@ kdelibs4support-lang
 kdenetwork4-filesharing
 kdenetwork4-filesharing-lang
 kdepim-addons
+kdepim-addons-lang
 kdepim-apps-libs
+kdepim-apps-libs-lang
 kdepim-runtime
+kdepim-runtime-lang
 kdepimlibs4
 kdesdk4-scripts
 kdesignerplugin
@@ -1433,6 +1452,7 @@ kglobalaccel5
 kgoldrunner
 kgoldrunner-lang
 kgpg
+kgpg-lang
 kguiaddons-devel
 khangman
 khangman-lang
@@ -1445,11 +1465,13 @@ khotkeys5-lang
 khtml-devel
 ki18n-devel
 kiconthemes-devel
+kidentitymanagement-lang
 kidletime-devel
 kig
 kig-lang
 kimageformats
 kimagemapeditor
+kimap-lang
 kinfocenter5
 kinfocenter5-lang
 kinit
@@ -1496,6 +1518,7 @@ kjumpingcube-lang
 kldap
 kldap-lang
 kleopatra
+kleopatra-lang
 klettres
 klettres-lang
 klines
@@ -1508,12 +1531,15 @@ kmahjongg
 kmahjongg-lang
 kmail
 kmail-account-wizard
+kmail-account-wizard-lang
 kmail-application-icons
 kmail-lang
 kmailtransport
+kmailtransport-lang
 kmediaplayer-devel
 kmenuedit5
 kmenuedit5-lang
+kmime-lang
 kmines
 kmines-lang
 kmod
@@ -1532,6 +1558,7 @@ knewstuff
 knewstuff-core-devel
 knewstuff-devel
 knotes
+knotes-lang
 knotifications-devel
 knotifyconfig-devel
 kolf
@@ -1550,6 +1577,8 @@ konsole
 konsole-part
 konsole-part-lang
 kontact
+kontact-lang
+kontactinterface-lang
 konversation
 konversation-lang
 kopete
@@ -1566,6 +1595,7 @@ kpeople5
 kpeople5-devel
 kpeople5-lang
 kpimtextedit
+kpimtextedit-lang
 kplotting-devel
 kppp
 kpty-devel
@@ -1625,6 +1655,7 @@ ktextwidgets-devel
 ktimer
 ktimer-lang
 ktnef
+ktnef-lang
 ktoblzcheck-devel
 ktouch
 ktouch-lang
@@ -2500,6 +2531,7 @@ libgraphene-1_0-0
 libgraphite2-3
 libgraphviz6
 libgravatar
+libgravatar-lang
 libgrilo-0_3-0
 libgrlnet-0_3-0
 libgrlpls-0_3-0
@@ -2676,6 +2708,7 @@ libkdegames-lang
 libkdegames4
 libkdegames6
 libkdepim
+libkdepim-lang
 libkdepimlibs4
 libkeduvocdocument-lang
 libkerfuffle17
@@ -2686,11 +2719,13 @@ libkeyutils1
 libkf5kdegames6
 libkface
 libkface-devel
+libkgapi-lang
 libkgeomap-devel
 libkioarchive5
 libkipi-data
 libkipi-devel
 libkleo
+libkleo-lang
 libkmahjongg
 libkmahjongg-devel
 libkmahjongg-lang
@@ -2706,6 +2741,7 @@ libksba8
 libkscreen2-devel
 libkscreen2-plugin
 libksieve
+libksieve-lang
 libksuseinstall1
 libksysguard5
 libksysguard5-devel
@@ -2857,7 +2893,7 @@ libnettle-devel
 libnettle6
 libnewt0_52
 libnfnetlink0
-libnfs8
+libnfs11
 libnfsidmap-sss
 libnghttp2-14
 libnice10
@@ -3315,6 +3351,7 @@ libts0
 libtumbler-1-0
 libturbojpeg0
 libtwolame0
+libtxc_dxtn
 libubsan0
 libudev-devel
 libudev1
@@ -3639,7 +3676,9 @@ lzop
 m17n-db
 m4
 mailcommon
+mailcommon-lang
 mailimporter
+mailimporter-lang
 mailman
 mailx
 make
@@ -3677,6 +3716,7 @@ menu-cache
 mercurial
 mercurial-lang
 messagelib
+messagelib-lang
 metamail
 metatheme-adwaita-common
 metatheme-breeze-common
@@ -4405,9 +4445,11 @@ pidgin-plugin-skypeweb
 pidgin-plugin-telegram
 pigz
 pim-data-exporter
+pim-data-exporter-lang
 pim-sieve-editor
 pim-sieve-editor-lang
 pimcommon
+pimcommon-lang
 pinentry
 pinentry-gnome3
 pinentry-gtk2
@@ -4810,7 +4852,6 @@ ruby2.4-stdlib
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
 rzip
-s2tc
 sablot
 sac
 samba
