@@ -193,6 +193,8 @@ atmel-firmware
 attica-qt5
 attica-qt5-devel
 attr
+audacity
+audacity-lang
 audiofile-devel
 audit
 audit-devel
@@ -633,6 +635,8 @@ fd0ssh
 fdupes
 festival
 fetchmail
+ffmpeg
+ffmpegthumbs
 fftw3-devel
 fifth-leg-font
 file
@@ -645,6 +649,7 @@ fillup
 findutils
 findutils-lang
 finger
+fipscheck
 fixesproto-devel
 flac
 flac-devel
@@ -1007,6 +1012,7 @@ gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
 gstreamer-plugins-good-lang
+gstreamer-plugins-libav
 gstreamer-plugins-ugly
 gstreamer-plugins-ugly-lang
 gstreamer-transcoder
@@ -1372,6 +1378,7 @@ kdebindings-smokegen
 kdeclarative-components
 kdeclarative-devel
 kdeconnect-kde
+kdeconnect-kde-lang
 kded
 kded-devel
 kded-lang
@@ -1420,6 +1427,7 @@ kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2091,6 +2099,8 @@ libavahi-ui-gtk3-0
 libavc1394-0
 libavcodec-devel
 libavcodec57
+libavdevice57
+libavfilter6
 libavformat57
 libavogadro1
 libavogadrolibs-suse0
@@ -2399,6 +2409,7 @@ libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -2660,6 +2671,7 @@ libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
+libhdf4
 libhdf5-100
 libhdf5_hl100
 libhivex0
@@ -2951,6 +2963,7 @@ libneon27
 libnet9
 libnetapi0
 libnetapi0-32bit
+libnetcdf11
 libnetcontrol0
 libnetfilter_conntrack3
 libnetpbm-devel
@@ -3104,6 +3117,7 @@ libpopt0
 libpopt0-32bit
 libportaudio2
 libportmidi0
+libpostproc54
 libpowerman0
 libpq5
 libpqxx-5_0
@@ -3395,6 +3409,7 @@ libstdc++6-locale
 libstoken1
 libstorage-ruby
 libstorage7
+libsuil-0-0
 libsuitesparseconfig-4_5_5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
@@ -3507,6 +3522,7 @@ libva-glx1
 libva-x11-1
 libva1
 libvala-0_38-0
+libvamp-hostsdk3
 libvcdinfo0
 libvdeplug3
 libvdpau1
@@ -3604,16 +3620,23 @@ libwscodecs1
 libwsutil8
 libwv-1_2-3
 libwv2-4
+libwx_baseu-suse-nostl3
 libwx_baseu-suse3
+libwx_baseu_net-suse-nostl3
 libwx_baseu_net-suse3
+libwx_baseu_xml-suse-nostl3
 libwx_baseu_xml-suse3
+libwx_gtk2u_adv-suse-nostl3
 libwx_gtk2u_adv-suse3
 libwx_gtk2u_aui-suse3
+libwx_gtk2u_core-suse-nostl3
 libwx_gtk2u_core-suse3
 libwx_gtk2u_gl-suse3
+libwx_gtk2u_html-suse-nostl3
 libwx_gtk2u_html-suse3
 libwx_gtk2u_media-suse3
 libwx_gtk2u_propgrid-suse3
+libwx_gtk2u_qa-suse-nostl3
 libwx_gtk2u_qa-suse3
 libwx_gtk2u_richtext-suse3
 libwx_gtk2u_stc-suse3
@@ -3882,6 +3905,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -4511,6 +4535,8 @@ perl-qt4-devel
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -5105,6 +5131,7 @@ subversion-python
 subversion-server
 subversion-tools
 sudo
+suil-plugins
 sunpinyin-data
 supermin
 suse-module-tools
