@@ -25,6 +25,7 @@ mkdir($repodir);
 my $tdir = tempdir();
 my $pfile = "$tdir/packages";    # the filename is important ;(
 
+
 unless ($ENV{'NO_BSMIRROR'}) {
     die "bs_mirror of $project/$repo/$arch failed" if system(
 	"osc-plugin-factory/bs_mirrorfull --nodebug https://$api/public/build/$project/$repo/$arch/ $repodir"
