@@ -1602,6 +1602,7 @@ kradio
 krb5
 krb5-32bit
 krb5-devel
+krb5-server
 krdc
 krdc-lang
 kremotecontrol
@@ -2378,6 +2379,7 @@ libesmtp
 libestr0
 libetonyek-0_1-1
 libetpan17
+libev4
 libevdev-devel
 libevdev-tools
 libevdev2
@@ -3316,6 +3318,7 @@ libsamba-hostconfig0
 libsamba-hostconfig0-32bit
 libsamba-passdb0
 libsamba-passdb0-32bit
+libsamba-policy0
 libsamba-util0
 libsamba-util0-32bit
 libsamdb0
@@ -3355,8 +3358,8 @@ libsmbclient0
 libsmbconf0
 libsmbconf0-32bit
 libsmbios2
-libsmbldap0
-libsmbldap0-32bit
+libsmbldap2
+libsmbldap2-32bit
 libsmi
 libsmi2
 libsmokegen-devel
@@ -3538,6 +3541,7 @@ libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
 libverto-devel
+libverto-libev1
 libverto1
 libverto1-32bit
 libvigraimpex11
@@ -4763,6 +4767,7 @@ python-kde4-phonon
 python-kde4-plasma
 python-kdebase4
 python-ldap
+python-ldb
 python-liblarch
 python-liblarch_gtk
 python-opensync
@@ -4778,6 +4783,8 @@ python-smbios
 python-solv
 python-talloc
 python-talloc-32bit
+python-tdb
+python-tevent
 python-urlgrabber
 python-wxWidgets-3_0
 python-wxWidgets-3_0-lang
@@ -5017,8 +5024,12 @@ samba
 samba-client
 samba-client-32bit
 samba-doc
+samba-dsdb-modules
+samba-kdc
+samba-kdc-32bit
 samba-libs
 samba-libs-32bit
+samba-python
 samba-winbind
 samba-winbind-32bit
 sane-backends
@@ -5209,6 +5220,7 @@ tcpd-devel
 tcpdump
 tcsh
 tcsh-lang
+tdb-tools
 technisat-usb2-firmware
 tei-roma
 tei-xsl-stylesheets
@@ -5493,6 +5505,7 @@ xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
+xdg-user-dirs-lang
 xdg-utils
 xdm
 xdm-xsession

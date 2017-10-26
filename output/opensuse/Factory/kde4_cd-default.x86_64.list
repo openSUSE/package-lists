@@ -288,6 +288,7 @@ kpackage
 kpartx
 kpeople5
 krb5
+krb5-server
 kreversi
 kross
 kruler
@@ -532,6 +533,7 @@ libepub0
 liberation2-fonts
 libesmtp
 libestr0
+libev4
 libevdev2
 libevent-2_1-8
 libexif12
@@ -781,6 +783,7 @@ libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
 libsamba-passdb0
+libsamba-policy0
 libsamba-util0
 libsamdb0
 libsamplerate0
@@ -799,7 +802,7 @@ libslang2
 libsmartcols1
 libsmbclient0
 libsmbconf0
-libsmbldap0
+libsmbldap2
 libsmputils1-1
 libsnapper4
 libsnappy1
@@ -855,6 +858,7 @@ libva-glx1
 libva-x11-1
 libva1
 libvdpau1
+libverto-libev1
 libverto1
 libvisual
 libvorbis0
@@ -1004,8 +1008,10 @@ pciutils
 pciutils-ids
 perl
 perl-B-Hooks-EndOfScope
+perl-Bit-Vector
 perl-Bootloader
 perl-CPAN-Changes
+perl-Carp-Clan
 perl-Class-Data-Inheritable
 perl-Class-Factory-Util
 perl-Class-Inspector
@@ -1015,6 +1021,7 @@ perl-Config-Crontab
 perl-Crypt-SmbHash
 perl-DBD-SQLite
 perl-DBI
+perl-Date-Calc
 perl-DateTime
 perl-DateTime-Format-Builder
 perl-DateTime-Format-ISO8601
@@ -1073,7 +1080,9 @@ perl-Sub-Identify
 perl-Sub-Install
 perl-Sub-Name
 perl-Sub-Quote
+perl-Sub-Uplevel
 perl-Term-ReadKey
+perl-Test-Exception
 perl-Test-Fatal
 perl-Test-Pod
 perl-Test-Pod-Coverage
@@ -1151,9 +1160,12 @@ pulseaudio-utils
 purpose
 python
 python-base
+python-ldb
 python-rpm-macros
 python-solv
 python-talloc
+python-tdb
+python-tevent
 python-xml
 python2-configobj
 python2-dbus-python
@@ -1200,7 +1212,13 @@ ruby2.4-rubygem-gem2rpm
 ruby2.4-rubygem-ruby-augeas
 ruby2.4-rubygem-ruby-dbus
 ruby2.4-stdlib
+samba
+samba-client
+samba-dsdb-modules
+samba-kdc
 samba-libs
+samba-python
+samba-winbind
 sbc
 scout
 screen
@@ -1256,6 +1274,7 @@ sysuser-shadow
 sysvinit-tools
 tar
 tar-rmt
+tdb-tools
 terminfo-base
 thin-provisioning-tools
 tigervnc

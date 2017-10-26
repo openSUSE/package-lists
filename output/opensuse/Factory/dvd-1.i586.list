@@ -1604,6 +1604,7 @@ kqtquickcharts
 kradio
 krb5
 krb5-devel
+krb5-server
 krdc
 krdc-lang
 kremotecontrol
@@ -2332,6 +2333,7 @@ libesd0
 libesmtp
 libetonyek-0_1-1
 libetpan17
+libev4
 libevdev-devel
 libevdev-tools
 libevdev2
@@ -2914,7 +2916,6 @@ libnova-devel
 libnpth0
 libnsl2
 libnss_nis2
-libnsssharedhelper0
 libntfs-3g87
 libnuma1
 liboauth0
@@ -3206,6 +3207,7 @@ libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
 libsamba-passdb0
+libsamba-policy0
 libsamba-util0
 libsamdb0
 libsamplerate-devel
@@ -3239,7 +3241,7 @@ libsmbclient-devel
 libsmbclient0
 libsmbconf0
 libsmbios2
-libsmbldap0
+libsmbldap2
 libsmi
 libsmi2
 libsmokegen-devel
@@ -3402,6 +3404,7 @@ libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
 libverto-devel
+libverto-libev1
 libverto1
 libvigraimpex11
 libvirglrenderer0
@@ -4601,6 +4604,7 @@ python-kde4-phonon
 python-kde4-plasma
 python-kdebase4
 python-ldap
+python-ldb
 python-liblarch
 python-liblarch_gtk
 python-opensync
@@ -4615,6 +4619,8 @@ python-sip-common
 python-smbios
 python-solv
 python-talloc
+python-tdb
+python-tevent
 python-urlgrabber
 python-wxWidgets-3_0
 python-wxWidgets-3_0-lang
@@ -4858,7 +4864,10 @@ sac
 samba
 samba-client
 samba-doc
+samba-dsdb-modules
+samba-kdc
 samba-libs
+samba-python
 samba-winbind
 sane-backends
 sane-backends-autoconfig
@@ -5038,6 +5047,7 @@ tcpd-devel
 tcpdump
 tcsh
 tcsh-lang
+tdb-tools
 technisat-usb2-firmware
 tei-roma
 tei-xsl-stylesheets
@@ -5321,6 +5331,7 @@ xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
+xdg-user-dirs-lang
 xdg-utils
 xdm
 xdm-xsession
