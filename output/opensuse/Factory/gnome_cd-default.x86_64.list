@@ -129,6 +129,7 @@ efibootmgr
 elfutils
 empathy
 eog
+espeak
 ethtool
 evince
 evince-plugin-pdfdocument
@@ -344,6 +345,7 @@ libSoundTouch0
 libX11-6
 libX11-data
 libX11-xcb1
+libXRes1
 libXau6
 libXaw7
 libXcomposite1
@@ -411,6 +413,7 @@ libbluetooth3
 libbluray2
 libboost_system1_65_1
 libboost_thread1_65_1
+libbrlapi0_6
 libbs2b0
 libbsd0
 libbtrfs0
@@ -479,6 +482,7 @@ libdleyna-core-1_0-4
 libdmapsharing-3_0-2
 libdns165
 libdns_sd
+libdotconf0
 libdouble-conversion1
 libdrm2
 libdrm_amdgpu1
@@ -693,6 +697,8 @@ liblirc_client0
 liblockdev1
 liblogging0
 liblognorm5
+liblouis-data
+liblouis14
 liblqr-1-0
 liblrdf2
 libltdl7
@@ -803,6 +809,7 @@ libpolkit0
 libpoppler-glib8
 libpoppler68
 libpopt0
+libportaudio2
 libprocps6
 libprotobuf-c1
 libproxy1
@@ -878,6 +885,7 @@ libsord-0-0
 libsoup-2_4-1
 libsoxr0
 libspandsp2
+libspeechd2
 libspeex1
 libspeexdsp1
 libspice-client-glib-2_0-8
@@ -969,6 +977,7 @@ libwebpmux2
 libwebrtc_audio_processing1
 libwicked-0-6
 libwinpr2
+libwnck-3-0
 libwrap0
 libx86emu1
 libxcb-dri2-0
@@ -1077,6 +1086,7 @@ openssh-helpers
 openssl
 openssl-1_0_0
 openvpn
+orca
 os-prober
 osinfo-db
 p11-kit
@@ -1265,7 +1275,9 @@ python3
 python3-PySocks
 python3-appdirs
 python3-asn1crypto
+python3-atspi
 python3-base
+python3-brlapi
 python3-cairo
 python3-certifi
 python3-cffi
@@ -1280,6 +1292,7 @@ python3-gobject
 python3-gobject-Gdk
 python3-gobject-cairo
 python3-idna
+python3-louis
 python3-ndg-httpsclient
 python3-packaging
 python3-pip
@@ -1294,6 +1307,7 @@ python3-pysmbc
 python3-requests
 python3-setuptools
 python3-six
+python3-speechd
 python3-urllib3
 quadrapassel
 recode
@@ -1348,6 +1362,8 @@ snapper
 snapper-zypp-plugin
 snmp-mibs
 sound-theme-freedesktop
+speech-dispatcher
+speech-dispatcher-module-espeak
 strace
 sudo
 suse-module-tools
@@ -1465,6 +1481,7 @@ typelib-1_0-TotemPlParser-1_0
 typelib-1_0-Tracker-2_0
 typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit2-4_0
+typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
 ucode-amd
 ucode-intel
