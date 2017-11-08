@@ -33,7 +33,6 @@ NetworkManager-devel
 NetworkManager-lang
 NetworkManager-openconnect
 NetworkManager-openconnect-gnome
-NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-lang
@@ -316,6 +315,20 @@ bundle-lang-common-pl
 bundle-lang-common-pt
 bundle-lang-common-ru
 bundle-lang-common-zh
+bundle-lang-gnome-cs
+bundle-lang-gnome-da
+bundle-lang-gnome-de
+bundle-lang-gnome-el
+bundle-lang-gnome-en
+bundle-lang-gnome-es
+bundle-lang-gnome-fr
+bundle-lang-gnome-hu
+bundle-lang-gnome-it
+bundle-lang-gnome-ja
+bundle-lang-gnome-pl
+bundle-lang-gnome-pt
+bundle-lang-gnome-ru
+bundle-lang-gnome-zh
 bundle-lang-kde-cs
 bundle-lang-kde-da
 bundle-lang-kde-de
@@ -401,7 +414,6 @@ cmpi-provider-register
 cogl-lang
 colord
 colord-color-profiles
-colord-gtk-lang
 colord-lang
 command-not-found
 compface
@@ -433,7 +445,6 @@ cups-config
 cups-devel
 cups-filters
 cups-pk-helper
-cups-pk-helper-lang
 curl
 cvs
 cvsps
@@ -544,7 +555,6 @@ emacs-info
 emacs-nox
 emacs-x11
 empathy
-empathy-lang
 enblend-enfuse
 enchant-devel
 enscript
@@ -683,7 +693,6 @@ galculator-lang
 gamin-server
 gawk
 gcab
-gcab-lang
 gcal
 gcal-lang
 gcc
@@ -788,7 +797,6 @@ giflib-devel
 giggle
 giggle-lang
 gimp
-gimp-lang
 gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
@@ -889,12 +897,10 @@ gnome-keyring-pam
 gnome-logs
 gnome-logs-lang
 gnome-mahjongg
-gnome-mahjongg-lang
 gnome-maps
 gnome-maps-lang
 gnome-menus
 gnome-menus-branding-openSUSE
-gnome-menus-lang
 gnome-mines
 gnome-mines-lang
 gnome-music
@@ -947,7 +953,6 @@ gnome-tweak-tool-lang
 gnome-user-docs
 gnome-user-docs-lang
 gnome-user-share
-gnome-user-share-lang
 gnome-version
 gnome-vfs2
 gnome-vfs2-devel
@@ -1032,7 +1037,6 @@ gtg
 gtg-lang
 gthumb
 gthumb-lang
-gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-devel
@@ -2261,7 +2265,6 @@ libcroco-0_6-3
 libcryptmount0
 libcryptsetup4
 libcryptui-data
-libcryptui-lang
 libcryptui0
 libcue2
 libcups2
@@ -2504,7 +2507,6 @@ libgnome-devel
 libgnome-games-support-1-2
 libgnome-games-support-lang
 libgnome-keyring-devel
-libgnome-keyring-lang
 libgnome-keyring0
 libgnome-lang
 libgnomecanvas-2-0
@@ -2513,7 +2515,6 @@ libgnomecanvas-lang
 libgnomekbd
 libgnomekbd-lang
 libgnomesu
-libgnomesu-lang
 libgnomesu0
 libgnomeui
 libgnomeui-lang
@@ -2553,7 +2554,6 @@ libgrlnet-0_3-0
 libgrlpls-0_3-0
 libgsf-1-114
 libgsf-devel
-libgsf-lang
 libgsl23
 libgslcblas0
 libgsm1
@@ -2670,7 +2670,6 @@ libiodbc3
 libipmimonitoring6
 libiptc0
 libiptcdata
-libiptcdata-lang
 libiptcdata0
 libirrecord0
 libirs141
@@ -2972,7 +2971,6 @@ liborcus-0_12-0
 libortp13
 libosinfo
 libosinfo-1_0-0
-libosinfo-lang
 libosip2
 libosip2-devel
 libospf0
@@ -3272,7 +3270,6 @@ libsndfile1
 libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
-libsocialweb-lang
 libsocialweb0
 libsodium23
 libsofia-sip-ua-glib3
@@ -3493,7 +3490,6 @@ libwmf-0_2-7
 libwmf-tools
 libwnck-1-22
 libwnck-3-0
-libwnck-lang
 libwnck2-lang
 libwpd-0_10-10
 libwpd-devel
@@ -3696,7 +3692,6 @@ lzip
 lzo-devel
 lzop
 m17n-db
-m17n-db-lang
 m4
 mailcommon
 mailcommon-lang
@@ -3863,7 +3858,6 @@ nkf
 nma-data
 nmap
 notification-daemon
-notification-daemon-lang
 noto-sans-fonts
 noto-sans-jp-bold-fonts
 noto-sans-jp-fonts
@@ -4530,7 +4524,6 @@ polkit
 polkit-default-privs
 polkit-devel
 polkit-gnome
-polkit-gnome-lang
 polkit-kde-agent-5
 polkit-kde-agent-5-lang
 poppler-tools
@@ -4812,7 +4805,6 @@ qt4-qtscript
 qtcurve-gtk2
 qtcurve-qt5
 quadrapassel
-quadrapassel-lang
 quagga
 quilt
 quota
@@ -4917,7 +4909,6 @@ sddm-theme-openSUSE
 seahorse
 seahorse-daemon
 seahorse-lang
-seahorse-nautilus-lang
 seahorse-sharing
 seahorse-sharing-lang
 sed
@@ -5013,7 +5004,6 @@ suse-module-tools
 susepaste
 susepaste-screenshot
 sushi
-sushi-lang
 svg-schema
 sweeper
 swell-foop
@@ -5142,7 +5132,6 @@ trang
 translation-update
 transmission-common
 transmission-gtk
-transmission-gtk-lang
 tre
 tre-lang
 treeline
@@ -5297,7 +5286,6 @@ vim-plugin-devhelp
 vinagre
 vinagre-lang
 vino
-vino-lang
 virt-install
 virt-manager
 virt-manager-common
@@ -5359,7 +5347,6 @@ xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
-xdg-user-dirs-gtk-lang
 xdg-user-dirs-lang
 xdg-utils
 xdm
@@ -5711,7 +5698,6 @@ ypserv
 yum-metadata-parser
 zd1211-firmware
 zenity
-zenity-lang
 zinnia
 zinnia-tomoe
 zip

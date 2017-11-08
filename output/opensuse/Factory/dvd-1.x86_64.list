@@ -143,6 +143,7 @@ apparmor-profiles
 apparmor-utils
 apparmor-utils-lang
 appstream-glib
+appstream-glib-lang
 apr-devel
 apr-util-devel
 apulse
@@ -230,7 +231,6 @@ bash
 bash-completion
 bash-doc
 bash-lang
-bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bcm43xx-firmware
@@ -429,7 +429,6 @@ cppunit-devel
 cpupower
 cracklib
 cracklib-dict-full
-crash-kmp-default
 crda
 create-resources
 createrepo
@@ -525,12 +524,10 @@ dolphin-part
 dos2unix
 dosfstools
 doxygen
-dpdk-kmp-default
 dracut
 dragonplayer
 dragonplayer-lang
 drbd
-drbd-kmp-default
 drbd-utils
 dri2proto-devel
 dri3proto-devel
@@ -4239,7 +4236,6 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
-pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -5428,13 +5424,11 @@ util-macros-devel
 v4l-conf
 v4l-tools
 v4l-utils
-v4l2loopback-kmp-default
 vacation
 vala
 valgrind
 vcdimager
 vdr
-vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -5703,7 +5697,6 @@ xset
 xsetroot
 xslide
 xstroke
-xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
