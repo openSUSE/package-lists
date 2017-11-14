@@ -1708,7 +1708,7 @@ libAppStreamQt2
 libFLAC++6
 libFLAC8
 libFOX-1_6-0
-libGLEW2_0
+libGLEW2_1
 libGLU1
 libGeneratedSaxParser0_3
 libGeoIP1
@@ -2691,7 +2691,7 @@ libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
-libhdf5-100
+libhdf5-101
 libhdf5_hl100
 libhivex0
 libhogweed4
@@ -3132,7 +3132,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler68
+libpoppler70
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -3359,6 +3359,7 @@ libserf-devel
 libserializer
 libsfcUtil0
 libsgutils2-1_43-2
+libsha1detectcoll1
 libshout3
 libsigc++2-devel
 libsigc-2_0-0
@@ -3540,11 +3541,10 @@ libv4l1-0
 libv4l2-0
 libv4l2rds0
 libv4lconvert0
-libva-drm1
-libva-egl1
-libva-glx1
-libva-x11-1
-libva1
+libva-drm2
+libva-glx2
+libva-x11-2
+libva2
 libvala-0_38-0
 libvamp-hostsdk3
 libvcdinfo0
@@ -4134,8 +4134,6 @@ pam
 pam-32bit
 pam-config
 pam-devel
-pam-modules
-pam-modules-32bit
 pam_apparmor
 pam_apparmor-32bit
 pam_krb5-32bit
@@ -4753,7 +4751,6 @@ python-beautifulsoup
 python-bonobo
 python-cairo-common-devel
 python-curses
-python-deltarpm
 python-devel
 python-enum34
 python-fcgi
@@ -4820,6 +4817,7 @@ python2-cryptography
 python2-cssselect
 python2-dbus-python
 python2-decorator
+python2-deltarpm
 python2-dnspython
 python2-ecdsa
 python2-gobject
