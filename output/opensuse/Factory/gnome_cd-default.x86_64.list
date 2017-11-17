@@ -72,6 +72,7 @@ caribou-common
 caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
+carla
 cdrkit-cdrtools-compat
 checkmedia
 cheese
@@ -565,6 +566,7 @@ libgexiv2-2
 libgfbgraph-0_2-0
 libgfortran4
 libgif7
+libgig7
 libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
@@ -677,7 +679,6 @@ libisl15
 libisoburn1
 libisofs6
 libiw30
-libjack0
 libjansson4
 libjasper1
 libjavascriptcoregtk-4_0-18
@@ -697,7 +698,9 @@ libldap-data
 libldapcpp1
 libldb1
 liblilv-0-0
+liblinuxsampler4
 liblirc_client0
+liblo7
 liblockdev1
 liblogging0
 liblognorm5
@@ -740,6 +743,7 @@ libmtp-udev
 libmtp9
 libmusicbrainz5-1
 libmutter-1-0
+libmxml1
 libnautilus-extension1
 libncurses6
 libndp0
@@ -799,6 +803,7 @@ libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-loader-python
 libpeas-loader-python3
+libphonon4
 libpipeline1
 libpixman-1-0
 libpkcs11-helper1
@@ -831,6 +836,9 @@ libqmi-glib5
 libqmi-tools
 libqqwing2
 libqrencode3
+libqt4
+libqt4-sql
+libqt4-sql-sqlite
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
@@ -1176,6 +1184,7 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
+phonon-backend-gstreamer
 pigz
 pinentry
 pinentry-gnome3
@@ -1209,7 +1218,9 @@ python
 python-base
 python-beautifulsoup
 python-ldb
+python-qt4-utils
 python-rpm-macros
+python-sip-common
 python-solv
 python-talloc
 python-tdb
@@ -1255,8 +1266,10 @@ python3-pycups
 python3-pycurl
 python3-pyparsing
 python3-pysmbc
+python3-qt4
 python3-requests
 python3-setuptools
+python3-sip
 python3-six
 python3-speechd
 python3-urllib3

@@ -111,6 +111,7 @@ caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
 caribou-lang
+carla
 cdrkit-cdrtools-compat
 checkmedia
 cheese
@@ -445,6 +446,7 @@ ibus-gtk
 ibus-gtk3
 ibus-lang
 ibus-m17n
+ibus-qt
 ibus-table
 ibus-table-rustrad
 ibus-table-translit
@@ -509,6 +511,7 @@ libQt5Gui5
 libQt5Network5
 libQt5Widgets5
 libQt5X11Extras5
+libQtWebKit4
 libSDL-1_2-0
 libSM6
 libSoundTouch0
@@ -759,6 +762,7 @@ libgexiv2-2
 libgfbgraph-0_2-0
 libgfortran4
 libgif7
+libgig7
 libgimp-2_0-0
 libgimpui-2_0-0
 libgio-2_0-0
@@ -889,7 +893,6 @@ libisoburn1
 libisofs6
 libiw30
 libixion-0_12-0
-libjack0
 libjansson4
 libjasper1
 libjavascriptcoregtk-4_0-18
@@ -911,7 +914,9 @@ libldapcpp1
 libldb1
 liblensfun1
 liblilv-0-0
+liblinuxsampler4
 liblirc_client0
+liblo7
 liblockdev1
 liblouis-data
 liblouis14
@@ -956,6 +961,7 @@ libmtp9
 libmusicbrainz5-1
 libmutter-1-0
 libmwaw-0_3-3
+libmxml1
 libmythes-1_2-0
 libnautilus-extension1
 libncurses6
@@ -1026,6 +1032,7 @@ libpeas-gtk-1_0-0
 libpeas-lang
 libpeas-loader-python
 libpeas-loader-python3
+libphonon4
 libpipeline1
 libpixman-1-0
 libpkcs11-helper1
@@ -1061,6 +1068,10 @@ libqmi-tools
 libqpdf18
 libqqwing2
 libqrencode3
+libqt4
+libqt4-sql
+libqt4-sql-sqlite
+libqt4-x11
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
@@ -1488,6 +1499,7 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
+phonon-backend-gstreamer
 pigz
 pinentry
 pinentry-gnome3
@@ -1528,7 +1540,9 @@ python
 python-base
 python-beautifulsoup
 python-ldb
+python-qt4-utils
 python-rpm-macros
+python-sip-common
 python-smbios
 python-solv
 python-talloc
@@ -1577,8 +1591,10 @@ python3-pycups
 python3-pycurl
 python3-pyparsing
 python3-pysmbc
+python3-qt4
 python3-requests
 python3-setuptools
+python3-sip
 python3-six
 python3-speechd
 python3-urllib3
