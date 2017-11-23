@@ -40,7 +40,6 @@ job lock name pullin-fluendo-mp3
 job lock name patterns-openSUSE-apparmor
 job install name yast2-country
 job install name yast2-trans-stats
-job lock name python3-base
 job lock name samba-libs
 
 # live-installer has been dropped - 2016-05-17 - dimstar
@@ -107,4 +106,3 @@ job lock name awesfx
 job lock name sbl
 job lock name open-vm-tools
 
-job install Name NetworkManager
