@@ -296,6 +296,7 @@ brltty-driver-brlapi
 brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
+brltty-lang
 bsd-games
 bsdtar
 btrfsmaintenance
@@ -2851,7 +2852,7 @@ libldapcpp1
 libldb1
 libldb1-32bit
 libldm-1_0-0
-libldns1
+libldns2
 liblensfun1
 liblibkremotecontrol1
 liblightdm-gobject-1-0
@@ -3040,10 +3041,12 @@ libopenjp2-7
 libopenjpeg1
 libopenmpt0
 libopenraw1
-libopenssl-1_0_0-devel
+libopenssl-1_1_0-devel
 libopenssl-devel
 libopenssl1_0_0
 libopenssl1_0_0-32bit
+libopenssl1_1_0
+libopenssl1_1_0-32bit
 libopensync
 libopts-devel
 libopts25
@@ -3176,6 +3179,7 @@ libpurple-plugin-sametime
 libpurple-plugin-sipe
 libpurple-plugin-sipe-lang
 libpurple-plugin-skype
+libpurple-plugin-skype-lang
 libpurple-plugin-skypeweb
 libpurple-plugin-telegram
 libpurple-plugin-telegram-lang
@@ -4096,7 +4100,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-openssl-1_0_0
+openssl-1_1_0
 openvpn
 opie
 opie-32bit
@@ -4688,16 +4692,12 @@ postgresql
 postgresql-contrib
 postgresql-devel
 postgresql-docs
-postgresql-init
 postgresql-server
-postgresql93-docs
-postgresql94-docs
-postgresql95-docs
-postgresql96
-postgresql96-contrib
-postgresql96-devel
-postgresql96-docs
-postgresql96-server
+postgresql10
+postgresql10-contrib
+postgresql10-devel
+postgresql10-docs
+postgresql10-server
 pothana2000-fonts
 powerdevil5
 powerdevil5-lang
@@ -5291,6 +5291,7 @@ trang
 translation-update
 transmission-common
 transmission-gtk
+transmission-gtk-lang
 tre
 tre-lang
 treeline

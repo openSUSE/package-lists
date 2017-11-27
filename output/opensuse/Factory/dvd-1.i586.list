@@ -293,6 +293,7 @@ brltty-driver-brlapi
 brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
+brltty-lang
 bsd-games
 bsdtar
 btrfsmaintenance
@@ -2783,7 +2784,7 @@ libldap-2_4-2
 libldap-data
 libldapcpp1
 libldb1
-libldns1
+libldns2
 liblensfun1
 liblibkremotecontrol1
 liblightdm-gobject-1-0
@@ -2957,9 +2958,10 @@ libopenjp2-7
 libopenjpeg1
 libopenmpt0
 libopenraw1
-libopenssl-1_0_0-devel
+libopenssl-1_1_0-devel
 libopenssl-devel
 libopenssl1_0_0
+libopenssl1_1_0
 libopensync
 libopts-devel
 libopts25
@@ -3085,6 +3087,7 @@ libpurple-plugin-sametime
 libpurple-plugin-sipe
 libpurple-plugin-sipe-lang
 libpurple-plugin-skype
+libpurple-plugin-skype-lang
 libpurple-plugin-skypeweb
 libpurple-plugin-telegram
 libpurple-plugin-telegram-lang
@@ -3948,7 +3951,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-openssl-1_0_0
+openssl-1_1_0
 openvpn
 opie
 oprofile
@@ -4536,8 +4539,11 @@ postgresql
 postgresql-contrib
 postgresql-devel
 postgresql-docs
-postgresql-init
 postgresql-server
+postgresql10
+postgresql10-contrib
+postgresql10-docs
+postgresql10-server
 postgresql93-docs
 postgresql94-docs
 postgresql95-docs
@@ -5134,6 +5140,7 @@ trang
 translation-update
 transmission-common
 transmission-gtk
+transmission-gtk-lang
 tre
 tre-lang
 treeline
