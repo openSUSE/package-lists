@@ -172,7 +172,6 @@ as10k1
 aspell
 aspell-cs
 aspell-da
-aspell-de
 aspell-devel
 aspell-el
 aspell-en
@@ -213,6 +212,7 @@ autoyast2
 autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
+avahi-lang
 avalon-framework
 avogadro
 avogadro-devel
@@ -438,8 +438,6 @@ create-resources
 createrepo
 cron
 cronie
-cryptconfig
-cryptconfig-32bit
 cryptsetup
 cscope
 csmash
@@ -657,8 +655,6 @@ fipscheck
 fixesproto-devel
 flac
 flac-devel
-flatpak
-flatpak-builder
 flex
 flute
 folks-lang
@@ -1730,6 +1726,7 @@ libIlmImfUtil-2_2-22
 libIlmThread-2_2-12
 libImath-2_2-12
 libImlib2-1
+libJudy1
 libKChart2
 libKEduVocDocument5
 libKF5Activities5
@@ -2461,6 +2458,7 @@ libfribidi0
 libfstrm0
 libftgl2
 libfuse2
+libfwupd2
 libgadu-devel
 libgadu3
 libgarcon-1-0
@@ -2610,6 +2608,7 @@ libgrlnet-0_3-0
 libgrlpls-0_3-0
 libgsf-1-114
 libgsf-devel
+libgsf-lang
 libgsl23
 libgslcblas0
 libgsm1
@@ -2897,6 +2896,8 @@ libmagic1
 libmal-devel
 libmal1
 libmarblewidget-qt5-28
+libmariadb-devel
+libmariadb3
 libmbedcrypto0
 libmbedtls10
 libmbedx509-0
@@ -2958,11 +2959,8 @@ libmutter-1-0
 libmwaw-0_3-3
 libmxml1
 libmygpo-qt1
-libmysqlclient-devel
-libmysqlclient18
-libmysqlclient_r18
 libmysqlcppconn7
-libmysqld18
+libmysqld19
 libmythes-1_2-0
 libnautilus-extension1
 libncurses6
@@ -3061,7 +3059,6 @@ libosip2
 libosip2-devel
 libospf0
 libospfapiclient0
-libostree
 libostree-1-1
 libotf0
 libotr-devel
@@ -3129,7 +3126,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler70
+libpoppler72
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -3278,8 +3275,6 @@ libreoffice-base
 libreoffice-base-drivers-mysql
 libreoffice-branding-upstream
 libreoffice-calc
-libreoffice-draw
-libreoffice-filters-optional
 libreoffice-gnome
 libreoffice-gtk3
 libreoffice-icon-theme-breeze
@@ -3472,7 +3467,6 @@ libtheora-devel
 libtheora0
 libtheoradec1
 libtheoraenc1
-libthrift-0_10_0
 libthunarx-2-0
 libtidy5
 libtiff-devel
@@ -3834,7 +3828,6 @@ lxterminal
 lxterminal-lang
 lynx
 lzip
-lzo-devel
 lzop
 m17n-db
 m17n-db-lang
@@ -5310,7 +5303,6 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
-typelib-1_0-Flatpak-1_0
 typelib-1_0-GData-0_0
 typelib-1_0-GES-1_0
 typelib-1_0-GFBGraph-0_2
@@ -5498,12 +5490,6 @@ xbrlapi
 xclip
 xconsole
 xdelta3
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-xdg-desktop-portal-gtk-lang
-xdg-desktop-portal-kde
-xdg-desktop-portal-kde-lang
-xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -5857,6 +5843,7 @@ ypserv
 yum-metadata-parser
 zd1211-firmware
 zenity
+zenity-lang
 zerofree
 zinnia
 zinnia-tomoe

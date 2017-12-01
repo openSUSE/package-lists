@@ -44,6 +44,7 @@ e2fsprogs
 efibootmgr
 elfutils
 elfutils-lang
+exim
 fdupes
 file
 file-magic
@@ -131,10 +132,8 @@ libebl-plugins
 libedit0
 libefivar1
 libelf1
-libestr0
 libexpat1
 libext2fs2
-libfastjson4
 libfdisk1
 libffi7
 libfreetype6
@@ -151,8 +150,6 @@ libgnutls30
 libgobject-2_0-0
 libgpg-error0
 libhogweed4
-libicu59_1
-libicu59_1-ledata
 libidn2-0
 libisoburn1
 libisofs6
@@ -162,8 +159,6 @@ libkmod2
 libksba8
 libldap-2_4-2
 libldap-data
-liblogging0
-liblognorm5
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
@@ -171,6 +166,7 @@ liblz4-1
 liblzma5
 liblzo2-2
 libmagic1
+libmariadb3
 libmnl0
 libmodman1
 libmount1
@@ -187,6 +183,7 @@ libp11-kit0
 libpcre1
 libpng16-16
 libpopt0
+libpq5
 libprocps6
 libproxy1
 libpsl5
@@ -203,6 +200,7 @@ libsepol1
 libsmartcols1
 libsnapper4
 libsolv-tools
+libspf2-2
 libsqlite3-0
 libssh2-1
 libstdc++6
@@ -234,6 +232,7 @@ lifecycle-data-openSUSE
 logrotate
 lsof
 lvm2
+mailx
 mtools
 ncurses-utils
 net-tools
@@ -261,7 +260,6 @@ permissions
 pigz
 pinentry
 pkg-config
-postfix
 procps
 publicsuffix
 python-base
@@ -284,7 +282,6 @@ python3-tk
 readline-doc
 rollback-helper
 rpm
-rsyslog
 ruby-common
 ruby2.4
 ruby2.4-rubygem-gem2rpm
@@ -300,13 +297,11 @@ sound-theme-freedesktop
 suse-module-tools
 sysconfig
 sysconfig-netconfig
-syslog-service
 system-group-hardware
 system-group-wheel
 system-user-bin
 system-user-daemon
 system-user-mail
-system-user-news
 system-user-nobody
 system-user-root
 systemd
@@ -319,7 +314,6 @@ tcl
 terminfo-base
 thin-provisioning-tools
 time
-timezone
 tk
 traceroute
 udev

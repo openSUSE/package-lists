@@ -169,7 +169,6 @@ as10k1
 aspell
 aspell-cs
 aspell-da
-aspell-de
 aspell-devel
 aspell-el
 aspell-en
@@ -211,6 +210,7 @@ autoyast2
 autoyast2-installation
 avahi
 avahi-compat-mDNSResponder-devel
+avahi-lang
 avalon-framework
 avogadro
 avogadro-devel
@@ -436,7 +436,6 @@ create-resources
 createrepo
 cron
 cronie
-cryptconfig
 cryptsetup
 cscope
 csmash
@@ -598,6 +597,7 @@ evolution-plugin-rss-lang
 evolution-plugin-spamassassin
 exif
 exiftool
+exim
 exo-branding-openSUSE
 exo-data
 exo-helpers
@@ -655,8 +655,6 @@ fipscheck
 fixesproto-devel
 flac
 flac-devel
-flatpak
-flatpak-builder
 flex
 flute
 folks-lang
@@ -1736,6 +1734,7 @@ libIlmImfUtil-2_2-22
 libIlmThread-2_2-12
 libImath-2_2-12
 libImlib2-1
+libJudy1
 libKChart2
 libKEduVocDocument5
 libKF5Activities5
@@ -2351,7 +2350,6 @@ libepub0
 liberation-fonts
 liberation2-fonts
 libesmtp
-libestr0
 libetonyek-0_1-1
 libetpan17
 libev4
@@ -2379,7 +2377,6 @@ libfabric1
 libfakekey0
 libfam0-gamin
 libfarstream-0_2-5
-libfastjson4
 libfaxutil5_5_9
 libfcgi0
 libfcitx-4_2_9
@@ -2422,6 +2419,7 @@ libfstrm0
 libftdi1-2
 libftgl2
 libfuse2
+libfwupd2
 libgadu-devel
 libgadu3
 libgarcon-1-0
@@ -2460,8 +2458,6 @@ libgeany0
 libgee-0_8-2
 libgegl-0_2-0
 libgegl-0_3-0
-libgeoclue-devel
-libgeoclue0
 libgeocode-glib0
 libges-1_0-0
 libgetdata++7
@@ -2562,6 +2558,7 @@ libgrlnet-0_3-0
 libgrlpls-0_3-0
 libgsf-1-114
 libgsf-devel
+libgsf-lang
 libgsl23
 libgslcblas0
 libgsm1
@@ -2703,7 +2700,6 @@ libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjd0
-libjemalloc2
 libjpeg-turbo
 libjpeg62
 libjpeg62-devel
@@ -2807,8 +2803,6 @@ liblirc_driver0
 liblmdb-0_9_17
 libloader
 liblockdev1
-liblogging0
-liblognorm5
 libloudmouth-1-0
 liblouis-data
 liblouis14
@@ -2834,6 +2828,8 @@ libmagic1
 libmal-devel
 libmal1
 libmarblewidget-qt5-28
+libmariadb-devel
+libmariadb3
 libmbedcrypto0
 libmbedtls10
 libmbedx509-0
@@ -2893,11 +2889,8 @@ libmutter-1-0
 libmwaw-0_3-3
 libmxml1
 libmygpo-qt1
-libmysqlclient-devel
-libmysqlclient18
-libmysqlclient_r18
 libmysqlcppconn7
-libmysqld18
+libmysqld19
 libmythes-1_2-0
 libnautilus-extension1
 libncurses6
@@ -2985,7 +2978,6 @@ libosip2
 libosip2-devel
 libospf0
 libospfapiclient0
-libostree
 libostree-1-1
 libotf0
 libotr-devel
@@ -3047,7 +3039,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler70
+libpoppler72
 libpopt0
 libportaudio2
 libportmidi0
@@ -3303,6 +3295,7 @@ libspeechd-devel
 libspeechd2
 libspeex1
 libspeexdsp1
+libspf2-2
 libspice-client-glib-2_0-8
 libspice-client-glib-helper
 libspice-client-gtk-3_0-5
@@ -3361,7 +3354,6 @@ libtheora-devel
 libtheora0
 libtheoradec1
 libtheoraenc1
-libthrift-0_10_0
 libthunarx-2-0
 libtidy5
 libtiff-devel
@@ -3704,7 +3696,6 @@ lxterminal
 lxterminal-lang
 lynx
 lzip
-lzo-devel
 lzop
 m17n-db
 m4
@@ -4870,7 +4861,6 @@ rsibreak-lang
 rsocket
 rsvg-thumbnailer
 rsync
-rsyslog
 rt2860
 rtkit
 ruby
@@ -5037,7 +5027,6 @@ sysconfig-netconfig
 sysdig-kmp-default
 sysfsutils
 syslinux
-syslog-service
 sysprof
 sysprof-lang
 system-config-printer
@@ -5176,7 +5165,6 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
-typelib-1_0-Flatpak-1_0
 typelib-1_0-GData-0_0
 typelib-1_0-GES-1_0
 typelib-1_0-GFBGraph-0_2
@@ -5725,6 +5713,7 @@ ypserv
 yum-metadata-parser
 zd1211-firmware
 zenity
+zenity-lang
 zinnia
 zinnia-tomoe
 zip
