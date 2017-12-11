@@ -60,10 +60,9 @@ if [ ! -e osc-plugin-factory/bs_mirrorfull ]; then
 fi
 
 grep -v openSUSE-release osc/openSUSE:$proj/$product/NON_FTP_PACKAGES.group | grep 'package name=' | \
-   sed -e 's,.*package name=",job lock name ,; s,"/>,,' > opensuse/$proj/non_ftp_packages
+    sed -e 's,.*package name=",job lock name ,; s,"/>,,' > opensuse/$proj/non_ftp_packages
 
 for arch in $arches; do
-
     perl create_solv.pl openSUSE:$proj $repo $arch
     if $(is_x86 $arch);then
         perl create_solv.pl openSUSE:$proj:NonFree $repo $arch
@@ -80,41 +79,41 @@ for arch in $arches; do
 
    # installcheck $arch trees/openSUSE:$proj:NonFree-$repo-$arch.solv | grep "nothing provides" | \
 #       sed -e 's,^.*nothing provides ,job install provides ,; s, needed by.*,,' | sort -u > opensuse/$proj/dvd-nonoss-deps-$arch
-   if $(is_x86 $arch) ;then
-    ./gen.pl opensuse/$proj/kde4_cd $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/kde4_cd-default $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/gnome_cd $arch "$proj" $repo
-    ./gen.pl opensuse/$proj/gnome_cd-default $arch "$proj" $repo
 
-    ./gen.pl opensuse/$proj/kde4_cd-base-default $arch "$proj" $repo
-    if test "$proj" = "Factory"; then
-      ./gen.pl opensuse/$proj/kde4_cd-unstable $arch "$proj" $repo
-      ./gen.pl opensuse/$proj/gnome_cd-nobundles $arch "$proj" $repo
-      ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
-      #./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
-    fi
-    if test "$proj" = "Factory" -o "$proj" = "Leap:15.0"; then
-      ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
-      ./gen.pl opensuse/$proj/x11_cd $arch "$proj" $repo
-    fi
-   fi
+    if $(is_x86 $arch) ;then
+        ./gen.pl opensuse/$proj/kde4_cd $arch "$proj" $repo
+        ./gen.pl opensuse/$proj/kde4_cd-default $arch "$proj" $repo
+        ./gen.pl opensuse/$proj/gnome_cd $arch "$proj" $repo
+        ./gen.pl opensuse/$proj/gnome_cd-default $arch "$proj" $repo
 
-   if $(is_x86 $arch); then
-     #if test "$proj" = "Leap:42.1" ;then
+        ./gen.pl opensuse/$proj/kde4_cd-base-default $arch "$proj" $repo
+        if test "$proj" = "Factory"; then
+            ./gen.pl opensuse/$proj/kde4_cd-unstable $arch "$proj" $repo
+            ./gen.pl opensuse/$proj/gnome_cd-nobundles $arch "$proj" $repo
+            ./gen.pl opensuse/$proj/kde4_cd-nobundles $arch "$proj" $repo
+            #./gen.pl opensuse/$proj/dvd9 $arch "$proj" $repo
+        fi
+        if test "$proj" = "Factory" -o "$proj" = "Leap:15.0"; then
+            ./gen.pl opensuse/$proj/gnome_cd-x11-default $arch "$proj" $repo
+            ./gen.pl opensuse/$proj/x11_cd $arch "$proj" $repo
+        fi
+    fi
+
+    if $(is_x86 $arch); then
+        #if test "$proj" = "Leap:42.1" ;then
         # As we do not have bundle-lang packages, we want to get rid of all -lang on the 'installation images' to save the space
         for file in gnome_cd-default gnome_cd-x11-default kde4_cd-base-default kde4_cd-default x11_cd; do
-          sed -i '/.*-lang$/d' output/opensuse/$proj/$file.${arch}.list
+            sed -i '/.*-lang$/d' output/opensuse/$proj/$file.${arch}.list
         done
-      #fi
-   fi
+        #fi
+    fi
 
     # first flash
     : > opensuse/$proj/dvd-1.$arch.suggests
     if ./gen.pl opensuse/$proj/dvd-1 $arch "$proj" $repo; then
-
-      # then readd
-      mv output/opensuse/$proj/dvd-1.$arch.suggests opensuse/$proj/dvd-1.$arch.suggests
-      ./gen.pl opensuse/$proj/dvd-1 $arch "$proj" $repo
+        # then readd
+        mv output/opensuse/$proj/dvd-1.$arch.suggests opensuse/$proj/dvd-1.$arch.suggests
+        ./gen.pl opensuse/$proj/dvd-1 $arch "$proj" $repo
     fi
 
     ./gen.pl opensuse/$proj/dvd-2 $arch "$proj" $repo
@@ -130,7 +129,7 @@ for arch in $arches; do
         echo "repo nonfree-$repo-$arch 0 solv trees/openSUSE:$proj:NonFree-standard-$arch.solv" >  opensuse/$proj/dvd-nonoss
         echo '#INCLUDE dvd-1' >>  opensuse/$proj/dvd-nonoss
         for pkg in $(grep -v openSUSE output/opensuse/$proj/nonoss.$arch.list); do
-           echo "job install name $pkg" >> opensuse/$proj/dvd-nonoss
+            echo "job install name $pkg" >> opensuse/$proj/dvd-nonoss
         done
         # from the full list of installed packages in
         # dvd-nonoss.$arch.list eliminate the common ones in
@@ -150,14 +149,14 @@ for arch in $arches; do
         diff -u output/opensuse/$proj/kde4_cd.$arch.list output/opensuse/$proj/kde4_cd-default.$arch.list | grep -v +++ | grep ^+ || true
         diff -u output/opensuse/$proj/gnome_cd.$arch.list output/opensuse/$proj/gnome_cd-default.$arch.list | grep -v +++ | grep ^+ || true
 
-       if test "$proj" = "Factory"; then
-         #./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
-         #./gen.pl opensuse/$proj/dvd-addon_lang $arch "$proj" $repo
-         if test "$arch" = "x86_64"; then
-           ./gen.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
-           ./gen.pl opensuse/$proj/dvd-kubic-addon $arch "$proj" $repo
-         fi
-       fi
+        if test "$proj" = "Factory"; then
+            #./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
+            #./gen.pl opensuse/$proj/dvd-addon_lang $arch "$proj" $repo
+            if test "$arch" = "x86_64"; then
+                ./gen.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
+                ./gen.pl opensuse/$proj/dvd-kubic-addon $arch "$proj" $repo
+            fi
+        fi
     fi
 done
 
