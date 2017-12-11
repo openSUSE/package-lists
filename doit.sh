@@ -14,12 +14,12 @@ case $proj in
                 repo="standard"
                 product=000product
                 ;;
-        Leap:15.*) arches="x86_64"
-                repo="standard"
+        Leap:15.*:Ports) arches="aarch64 ppc64le"
+                repo="ports"
                 product=000product
                 ;;
-        Leap:15.*:Ports) arches="ppc64le aarch64"
-                repo="ports"
+        Leap:15.*) arches="x86_64"
+                repo="standard"
                 product=000product
                 ;;
         Factory:PowerPC) arches="ppc64 ppc64le"
