@@ -238,7 +238,6 @@ bcmatroska2-devel
 bctoolbox-devel
 bcunit-devel
 bcunit-doc
-bea-stax
 bea-stax-api
 belcard-devel
 belle-sip-devel
@@ -664,6 +663,7 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fontsproto-devel
+fortune
 fossil
 fprintd
 fprintd-lang
@@ -2646,7 +2646,6 @@ libjack0
 libjansson4
 libjasper-devel
 libjasper1
-libjavascriptcoregtk-1_0-0
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjd0
@@ -3421,8 +3420,6 @@ libwbxml2-1
 libwbxml2-devel
 libwebkit2gtk-4_0-37
 libwebkit2gtk3-lang
-libwebkitgtk-1_0-0
-libwebkitgtk2-lang
 libwebp-devel
 libwebp6
 libwebpdecoder2
@@ -3879,7 +3876,6 @@ openexr-devel
 openldap2
 openldap2-client
 openldap2-devel
-openmpi-config
 openslp
 openslp-devel
 openslp-server
@@ -4262,7 +4258,6 @@ perl-SNMP
 perl-SOAP-Lite
 perl-SQL-Statement
 perl-SVN-Simple
-perl-Scalar-List-Utils
 perl-Set-Crontab
 perl-Set-Object
 perl-Set-Scalar
@@ -4477,16 +4472,9 @@ postgresql-docs
 postgresql-server
 postgresql10
 postgresql10-contrib
+postgresql10-devel
 postgresql10-docs
 postgresql10-server
-postgresql93-docs
-postgresql94-docs
-postgresql95-docs
-postgresql96
-postgresql96-contrib
-postgresql96-devel
-postgresql96-docs
-postgresql96-server
 pothana2000-fonts
 powerdevil5
 powerdevil5-lang
@@ -4573,7 +4561,6 @@ python-wxWidgets-3_0-lang
 python-xml
 python2-Automat
 python2-M2Crypto
-python2-PySocks
 python2-PyYAML
 python2-SecretStorage
 python2-Twisted
@@ -4608,7 +4595,6 @@ python2-keyring
 python2-libvirt-python
 python2-libxml2-python
 python2-lxml
-python2-ndg-httpsclient
 python2-numpy
 python2-packaging
 python2-ply
@@ -4815,8 +4801,6 @@ sane-backends
 sane-backends-autoconfig
 sane-backends-devel
 saxon6
-saxon9
-saxon9-scripts
 sazanami-fonts
 sbc
 sbl
@@ -5269,12 +5253,6 @@ xbrlapi
 xclip
 xconsole
 xdelta3
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-xdg-desktop-portal-gtk-lang
-xdg-desktop-portal-kde
-xdg-desktop-portal-kde-lang
-xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -5331,8 +5309,6 @@ xfce4-appfinder-lang
 xfce4-dev-tools
 xfce4-dict
 xfce4-dict-lang
-xfce4-mixer
-xfce4-mixer-lang
 xfce4-notifyd
 xfce4-notifyd-branding-openSUSE
 xfce4-notifyd-lang
@@ -5360,7 +5336,6 @@ xfce4-panel-plugin-genmon
 xfce4-panel-plugin-genmon-lang
 xfce4-panel-plugin-mailwatch
 xfce4-panel-plugin-mailwatch-lang
-xfce4-panel-plugin-mixer
 xfce4-panel-plugin-mount
 xfce4-panel-plugin-mount-lang
 xfce4-panel-plugin-mpc
@@ -5492,7 +5467,6 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-auth-client
-yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-branding-openSUSE-Oxygen
