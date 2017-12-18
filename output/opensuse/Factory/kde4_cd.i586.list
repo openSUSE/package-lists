@@ -416,6 +416,8 @@ kscreenlocker
 kscreenlocker-lang
 kservice
 kservice-lang
+ksmtp
+ksmtp-lang
 ksshaskpass5
 ksshaskpass5-lang
 ksysguard5
@@ -593,6 +595,7 @@ libKPimGAPICore5
 libKPimGAPITasks5
 libKPimImportWizard5
 libKPimKDAV5
+libKPimSMTP5
 libKScreenLocker5
 libLLVM4
 libQt5Concurrent5
@@ -614,6 +617,7 @@ libQt5Sql5-mysql
 libQt5Sql5-sqlite
 libQt5Svg5
 libQt5Test5
+libQt5TextToSpeech5
 libQt5WebChannel5
 libQt5WebChannel5-imports
 libQt5WebKit5
@@ -725,6 +729,7 @@ libdnet1
 libdns165
 libdns_sd
 libdolphinvcs5
+libdotconf0
 libdouble-conversion1
 libdrm2
 libdrm_amdgpu1
@@ -857,7 +862,6 @@ libkipi-data
 libkleo
 libkleo-lang
 libkmod2
-libkolab1
 libkolabxml1
 libkomparediff2-5
 libkomparediff2-lang
@@ -1033,6 +1037,7 @@ libsolv-tools
 libsoup-2_4-1
 libsoup-lang
 libsoxr0
+libspeechd2
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -1462,6 +1467,7 @@ python3-pip
 python3-pyparsing
 python3-setuptools
 python3-six
+python3-speechd
 qqc2-desktop-style
 quota
 rcc-runtime
@@ -1527,6 +1533,8 @@ sonnet
 sound-theme-freedesktop
 spectacle
 spectacle-lang
+speech-dispatcher
+speech-dispatcher-module-espeak
 sshfs
 sssd
 sssd-krb5-common
