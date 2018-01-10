@@ -492,7 +492,6 @@ lensfun-data
 less
 libFLAC8
 libGLU1
-libGeneratedSaxParser0_3
 libHX28
 libHalf12
 libICE6
@@ -502,10 +501,6 @@ libIlmThread-2_2-12
 libLLVM5
 libMagickCore-7_Q16HDRI5
 libMagickWand-7_Q16HDRI5
-libMathMLSolver0_3
-libOpenCOLLADABaseUtils0_3
-libOpenCOLLADAFramework0_3
-libOpenCOLLADASaxFrameworkLoader0_3
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -515,7 +510,6 @@ libQt5X11Extras5
 libSDL-1_2-0
 libSM6
 libSoundTouch0
-libUTF0_3
 libX11-6
 libX11-data
 libX11-xcb1
@@ -590,6 +584,7 @@ libbluray2
 libboost_date_time1_66_0
 libboost_filesystem1_66_0
 libboost_iostreams1_66_0
+libboost_locale1_66_0
 libboost_system1_66_0
 libboost_thread1_66_0
 libbrlapi0_6
@@ -700,6 +695,7 @@ libenca0
 libenchant1
 libeot0
 libepoxy0
+libepubgen-0_1-1
 liberation2-fonts
 libesmtp
 libetonyek-0_1-1
@@ -768,7 +764,6 @@ libgirepository-1_0-1
 libgjs0
 libglib-2_0-0
 libglibmm-2_4-1
-libgltf-0_1-1
 libglvnd
 libgme0
 libgmime-3_0-0
@@ -865,8 +860,8 @@ libhunspell-1_6-0
 libhyphen0
 libibus-1_0-5
 libical2
-libicu59_1
-libicu59_1-ledata
+libicu60_2
+libicu60_2-ledata
 libidn11
 libidn2-0
 libidnkit1
@@ -887,7 +882,7 @@ libisl15
 libisoburn1
 libisofs6
 libiw30
-libixion-0_12-0
+libixion-0_13-0
 libjack0
 libjansson4
 libjasper1
@@ -895,7 +890,7 @@ libjavascriptcoregtk-4_0-18
 libjbig2
 libjemalloc2
 libjpeg8
-libjson-c2
+libjson-c3
 libjson-glib-1_0-0
 libjte1
 libkate1
@@ -1002,7 +997,7 @@ libopenssl1_0_0
 libopenssl1_1_0
 libopus0
 liborc-0_4-0
-liborcus-0_12-0
+liborcus-0_13-0
 libosinfo
 libosinfo-1_0-0
 libosinfo-lang
@@ -1037,7 +1032,7 @@ libply4
 libpng16-16
 libpolkit0
 libpoppler-glib8
-libpoppler72
+libpoppler73
 libpopt0
 libportaudio2
 libprocps6
@@ -1067,6 +1062,7 @@ libqt5-qttranslations
 libquadmath0
 libquvi-0_9-0_9_4
 libquvi-scripts
+libqxp-0_0-0
 libraptor2-0
 librasqal3
 libraw1394-11
@@ -1081,8 +1077,7 @@ libreoffice
 libreoffice-branding-upstream
 libreoffice-gnome
 libreoffice-gtk3
-libreoffice-icon-theme-galaxy
-libreoffice-icon-theme-tango
+libreoffice-icon-themes
 libreoffice-l10n-de
 libreoffice-l10n-en
 libreoffice-l10n-ru

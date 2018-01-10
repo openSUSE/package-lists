@@ -754,6 +754,7 @@ gedit-plugins-lang
 gegl-0_2
 gegl-0_2-lang
 gegl-0_3
+gegl-0_3-lang
 genisoimage
 geoclue2
 geocode-glib
@@ -783,6 +784,7 @@ giflib-devel
 giggle
 giggle-lang
 gimp
+gimp-lang
 gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
@@ -891,6 +893,7 @@ gnome-maps
 gnome-maps-lang
 gnome-menus
 gnome-menus-branding-openSUSE
+gnome-menus-lang
 gnome-mines
 gnome-mines-lang
 gnome-music
@@ -1716,7 +1719,6 @@ libFLAC8
 libFOX-1_6-0
 libGLEW2_1
 libGLU1
-libGeneratedSaxParser0_3
 libGeoIP1
 libGraphicsMagick-Q16-3
 libGraphicsMagick3-config
@@ -1906,10 +1908,6 @@ libLTO5
 libMagick++-7_Q16HDRI4
 libMagickCore-7_Q16HDRI5
 libMagickWand-7_Q16HDRI5
-libMathMLSolver0_3
-libOpenCOLLADABaseUtils0_3
-libOpenCOLLADAFramework0_3
-libOpenCOLLADASaxFrameworkLoader0_3
 libOpenColorIO1
 libQgpsmm23
 libQt5Bluetooth5
@@ -1983,7 +1981,6 @@ libSM6
 libSM6-32bit
 libSPIRV-Tools-suse4
 libSoundTouch0
-libUTF0_3
 libX11-6
 libX11-6-32bit
 libX11-data
@@ -2159,6 +2156,7 @@ libboost_date_time1_66_0
 libboost_filesystem1_66_0
 libboost_headers1_66_0-devel
 libboost_iostreams1_66_0
+libboost_locale1_66_0
 libboost_python-py2_7-1_66_0
 libboost_regex1_66_0
 libboost_signals1_66_0
@@ -2168,6 +2166,8 @@ libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
 libbrlapi0_6
+libbrotlicommon1
+libbrotlienc1
 libbs2b0
 libbsd0
 libbtrfs0
@@ -2323,7 +2323,7 @@ libdvdread-devel
 libdvdread4
 libdw1
 libe-book-0_1-1
-libeXosip2-11
+libeXosip2-12
 libeXosip2-devel
 libebackend-1_2-10
 libebl-plugins
@@ -2347,6 +2347,7 @@ libeot0
 libepoxy0
 libepub-devel
 libepub0
+libepubgen-0_1-1
 liberation-fonts
 liberation2-fonts
 libesmtp
@@ -2494,7 +2495,6 @@ libgle3
 libglib-2_0-0
 libglib-2_0-0-32bit
 libglibmm-2_4-1
-libgltf-0_1-1
 libglusterfs0
 libglut3
 libglvnd
@@ -2666,8 +2666,8 @@ libibverbs1
 libical-devel
 libical2
 libicu-devel
-libicu59_1
-libicu59_1-ledata
+libicu60_2
+libicu60_2-ledata
 libid3tag0
 libidl-devel
 libidn-devel
@@ -2707,7 +2707,7 @@ libiterm1
 libitm1
 libiw-devel
 libiw30
-libixion-0_12-0
+libixion-0_13-0
 libjack-devel
 libjack0
 libjansson4
@@ -2723,7 +2723,7 @@ libjpeg62
 libjpeg62-devel
 libjpeg8
 libjpeg8-32bit
-libjson-c2
+libjson-c3
 libjson-glib-1_0-0
 libjsoncpp19
 libjsonrpc_glib-1_0-0
@@ -3009,7 +3009,7 @@ libopts25
 libopus0
 libopusfile0
 liborc-0_4-0
-liborcus-0_12-0
+liborcus-0_13-0
 libortp13
 libosinfo
 libosinfo-1_0-0
@@ -3085,7 +3085,7 @@ libpoppler-devel
 libpoppler-glib8
 libpoppler-qt5-1
 libpoppler-qt5-devel
-libpoppler72
+libpoppler73
 libpopt0
 libpopt0-32bit
 libportaudio2
@@ -3205,6 +3205,7 @@ libquadmath0
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
+libqxp-0_0-0
 librados2
 libraptor2-0
 librasqal3
@@ -3232,12 +3233,9 @@ libreoffice-draw
 libreoffice-filters-optional
 libreoffice-gnome
 libreoffice-gtk3
-libreoffice-icon-theme-breeze
-libreoffice-icon-theme-galaxy
-libreoffice-icon-theme-hicontrast
-libreoffice-icon-theme-sifr
-libreoffice-icon-theme-tango
+libreoffice-icon-themes
 libreoffice-impress
+libreoffice-kde4
 libreoffice-l10n-cs
 libreoffice-l10n-da
 libreoffice-l10n-de
@@ -4892,6 +4890,7 @@ release-notes-openSUSE
 remmina
 remmina-lang
 remmina-plugin-rdp
+remmina-plugin-secret
 remmina-plugin-vnc
 remmina-plugin-xdmcp
 renderproto-devel
@@ -5359,14 +5358,15 @@ vim-plugin-devhelp
 vinagre
 vinagre-lang
 vino
+vino-lang
 virt-install
 virt-manager
 virt-manager-common
 virt-sandbox
 virt-viewer
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
+virtualbox
+virtualbox-host-kmp-default
+virtualbox-qt
 vlan
 vlgothic-fonts
 vm-install
