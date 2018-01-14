@@ -1,5 +1,7 @@
 AppStream
 AppStream-lang
+GeoIP
+GeoIP-data
 ImageMagick
 Mesa
 Mesa-libEGL1
@@ -485,6 +487,7 @@ lensfun-data
 less
 libFLAC8
 libGLU1
+libGeoIP1
 libHX28
 libHX28-32bit
 libHalf12
@@ -574,7 +577,7 @@ libavutil55
 libb64-0
 libbabl-0_1-0
 libbasicobjects0
-libbind9-140
+libbind9-160
 libblkid1
 libblkid1-32bit
 libbluetooth3
@@ -671,7 +674,7 @@ libdialog14
 libdleyna-core-1_0-4
 libdmapsharing-3_0-2
 libdnet1
-libdns165
+libdns169
 libdns_sd
 libdotconf0
 libdouble-conversion1
@@ -884,10 +887,10 @@ libiptc0
 libiptcdata
 libiptcdata-lang
 libiptcdata0
-libirs141
-libisc160
-libisccc140
-libisccfg140
+libirs160
+libisc166
+libisccc160
+libisccfg160
 libisl15
 libisoburn1
 libisofs6
@@ -927,7 +930,7 @@ libltdl7
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
-liblwres141
+liblwres160
 liblz4-1
 liblz4-1-32bit
 liblzma5
@@ -1553,6 +1556,7 @@ python2-gobject-Gdk
 python2-gobject-cairo
 python2-httplib2
 python2-pyudev
+python2-rpm
 python2-six
 python3
 python3-PySocks
@@ -1560,6 +1564,7 @@ python3-appdirs
 python3-asn1crypto
 python3-atspi
 python3-base
+python3-bind
 python3-brlapi
 python3-cairo
 python3-certifi
@@ -1579,6 +1584,7 @@ python3-louis
 python3-ndg-httpsclient
 python3-packaging
 python3-pip
+python3-ply
 python3-py
 python3-pyOpenSSL
 python3-pyasn1
@@ -1603,7 +1609,6 @@ rollback-helper
 rp-pppoe
 rpcbind
 rpm
-rpm-python
 rsvg-thumbnailer
 rsync
 rtkit

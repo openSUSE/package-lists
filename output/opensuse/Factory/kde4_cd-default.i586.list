@@ -1,3 +1,5 @@
+GeoIP
+GeoIP-data
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -309,6 +311,7 @@ less
 libAppStreamQt2
 libFLAC8
 libGLU1
+libGeoIP1
 libHalf12
 libICE6
 libIex-2_2-12
@@ -471,7 +474,7 @@ libavfilter6
 libavformat57
 libavresample3
 libavutil55
-libbind9-140
+libbind9-160
 libblkid1
 libbluetooth3
 libbluray2
@@ -519,7 +522,7 @@ libdevmapper-event1_03
 libdevmapper1_03
 libdialog14
 libdmtx0
-libdns165
+libdns169
 libdns_sd
 libdolphinvcs5
 libdouble-conversion1
@@ -621,10 +624,10 @@ libimobiledevice6
 libinput-udev
 libinput10
 libiptc0
-libirs141
-libisc160
-libisccc140
-libisccfg140
+libirs160
+libisc166
+libisccc160
+libisccfg160
 libisl15
 libisoburn1
 libisofs6
@@ -672,7 +675,7 @@ libltdl7
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
-liblwres141
+liblwres160
 liblz4-1
 liblzma5
 liblzo2-2
@@ -1129,11 +1132,13 @@ python2-dbus-python
 python2-decorator
 python2-gobject
 python2-pyudev
+python2-rpm
 python2-six
 python3
 python3-apparmor
 python3-appdirs
 python3-base
+python3-bind
 python3-cupshelpers
 python3-curses
 python3-dbm
@@ -1141,6 +1146,7 @@ python3-dbus-python
 python3-gobject
 python3-packaging
 python3-pip
+python3-ply
 python3-pycups
 python3-pycurl
 python3-pyparsing
@@ -1154,7 +1160,6 @@ rollback-helper
 rp-pppoe
 rpcbind
 rpm
-rpm-python
 rsync
 rsyslog
 rtkit

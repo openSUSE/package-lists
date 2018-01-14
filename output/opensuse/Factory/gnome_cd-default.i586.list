@@ -1,4 +1,6 @@
 AppStream
+GeoIP
+GeoIP-data
 ImageMagick
 Mesa-libEGL1
 Mesa-libGL1
@@ -327,6 +329,7 @@ krb5-server
 less
 libFLAC8
 libGLU1
+libGeoIP1
 libHalf12
 libICE6
 libIex-2_2-12
@@ -408,7 +411,7 @@ libavformat57
 libavutil55
 libb64-0
 libbabl-0_1-0
-libbind9-140
+libbind9-160
 libblkid1
 libbluetooth3
 libbluray2
@@ -484,7 +487,7 @@ libdevmapper1_03
 libdialog14
 libdleyna-core-1_0-4
 libdmapsharing-3_0-2
-libdns165
+libdns169
 libdns_sd
 libdotconf0
 libdouble-conversion1
@@ -666,10 +669,10 @@ libinput10
 libiptc0
 libiptcdata
 libiptcdata0
-libirs141
-libisc160
-libisccc140
-libisccfg140
+libirs160
+libisc166
+libisccc160
+libisccfg160
 libisl15
 libisoburn1
 libisofs6
@@ -707,7 +710,7 @@ libltdl7
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
-liblwres141
+liblwres160
 liblz4-1
 liblzma5
 liblzo2-2
@@ -1218,6 +1221,7 @@ python2-decorator
 python2-gobject
 python2-httplib2
 python2-pyudev
+python2-rpm
 python2-six
 python3
 python3-PySocks
@@ -1225,6 +1229,7 @@ python3-appdirs
 python3-asn1crypto
 python3-atspi
 python3-base
+python3-bind
 python3-brlapi
 python3-cairo
 python3-certifi
@@ -1244,6 +1249,7 @@ python3-louis
 python3-ndg-httpsclient
 python3-packaging
 python3-pip
+python3-ply
 python3-py
 python3-pyOpenSSL
 python3-pyasn1
@@ -1265,7 +1271,6 @@ rollback-helper
 rp-pppoe
 rpcbind
 rpm
-rpm-python
 rsvg-thumbnailer
 rsync
 rsyslog

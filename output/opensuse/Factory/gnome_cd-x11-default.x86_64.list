@@ -1,3 +1,5 @@
+GeoIP
+GeoIP-data
 ImageMagick
 Mesa-libEGL1
 Mesa-libGL1
@@ -195,6 +197,7 @@ kservice
 less
 libFLAC8
 libGLU1
+libGeoIP1
 libHalf12
 libICE6
 libIex-2_2-12
@@ -298,7 +301,7 @@ libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-glib1
-libbind9-140
+libbind9-160
 libblkid1
 libbluray2
 libboost_system1_66_0
@@ -337,7 +340,7 @@ libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
 libdialog14
-libdns165
+libdns169
 libdns_sd
 libdouble-conversion1
 libdrm2
@@ -423,10 +426,10 @@ libimobiledevice6
 libinput-udev
 libinput10
 libiptc0
-libirs141
-libisc160
-libisccc140
-libisccfg140
+libirs160
+libisc166
+libisccc160
+libisccfg160
 libisl15
 libiw30
 libjasper1
@@ -452,7 +455,7 @@ libltdl7
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
-liblwres141
+liblwres160
 liblz4-1
 liblzma5
 liblzo2-2
@@ -757,10 +760,12 @@ python2-dbus-python
 python2-decorator
 python2-gobject
 python2-pyudev
+python2-rpm
 python2-six
 python3
 python3-appdirs
 python3-base
+python3-bind
 python3-cupshelpers
 python3-curses
 python3-dbm
@@ -768,6 +773,7 @@ python3-dbus-python
 python3-gobject
 python3-packaging
 python3-pip
+python3-ply
 python3-pycups
 python3-pycurl
 python3-pyparsing
@@ -779,7 +785,6 @@ rgb
 rollback-helper
 rpcbind
 rpm
-rpm-python
 rsync
 rsyslog
 ruby
