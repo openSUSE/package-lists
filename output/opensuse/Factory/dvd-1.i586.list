@@ -380,6 +380,7 @@ cellwriter
 cervisia
 cervisia-lang
 cfitsio-devel
+cfitsio-devel-doc
 cglib
 chasen
 checkmedia
@@ -515,6 +516,7 @@ docbook_4
 docbook_5
 dolphin
 dolphin-part
+dolphin-part-lang
 dos2unix
 dosfstools
 doxygen
@@ -555,7 +557,9 @@ enchant-devel
 enscript
 eog
 eog-lang
+eog-plugin-exif-display
 eog-plugins
+eog-plugins-data
 eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
@@ -653,6 +657,8 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fontsproto-devel
+fortune
+fossil
 fprintd
 fprintd-lang
 fprintd-pam
@@ -733,7 +739,25 @@ geany-plugins
 geany-plugins-lang
 gedit
 gedit-lang
+gedit-plugin-bookmarks
+gedit-plugin-bracketcompletion
+gedit-plugin-charmap
+gedit-plugin-codecomment
+gedit-plugin-colorpicker
+gedit-plugin-colorschemer
+gedit-plugin-commander
+gedit-plugin-dashboard
 gedit-plugin-devhelp
+gedit-plugin-drawspaces
+gedit-plugin-findinfiles
+gedit-plugin-git
+gedit-plugin-joinlines
+gedit-plugin-multiedit
+gedit-plugin-smartspaces
+gedit-plugin-synctex
+gedit-plugin-terminal
+gedit-plugin-textsize
+gedit-plugin-wordcompletion
 gedit-plugins
 gedit-plugins-data
 gedit-plugins-lang
@@ -1250,6 +1274,7 @@ kaccounts-providers-lang
 kactivities5-devel
 kactivities5-imports
 kactivitymanagerd
+kactivitymanagerd-lang
 kaddressbook
 kaddressbook-lang
 kakasi
@@ -1565,6 +1590,7 @@ konquest
 konquest-lang
 konsole
 konsole-part
+konsole-part-lang
 kontact
 kontact-lang
 kontactinterface-lang
@@ -1610,6 +1636,7 @@ kruler
 kruler-lang
 krunner-devel
 krusader
+krusader-doc
 kscd
 kscreen5
 kscreen5-lang
@@ -1679,6 +1706,7 @@ kwordquiz-lang
 kxmlgui-devel
 kxmlrpcclient5-devel
 lame
+laptop-mode-tools
 latex2html-pngicons
 ldns
 leafpad
@@ -1875,6 +1903,7 @@ libKPimKDAV5
 libKPimSMTP5
 libKScreenLocker5
 libLLVM3_8
+libLLVM4
 libLLVM5
 libLTO5
 libMagick++-7_Q16HDRI4
@@ -2342,6 +2371,7 @@ libfreerdp2
 libfreetype6
 libfribidi0
 libfstrm0
+libftdi1-2
 libftgl2
 libfuse2
 libfwupd2
@@ -2367,6 +2397,7 @@ libgd3
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
+libgda-5_0-sqlcipher
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
@@ -2552,6 +2583,7 @@ libgwengui-qt5-0
 libgwenhywfar60
 libgwenhywfar60-plugins
 libgxps2
+libgypsy-devel
 libgypsy0
 libhangul1
 libharfbuzz-icu0
@@ -2862,7 +2894,7 @@ libogg0
 liboggkate1
 liboil
 liboil-devel
-libomp5-devel
+libomp4-devel
 libonig4
 libopagent1
 libopal3_10_10
@@ -2994,6 +3026,7 @@ libpurple-plugin-libsteam
 libpurple-plugin-mrim
 libpurple-plugin-mrim-lang
 libpurple-plugin-pack
+libpurple-plugin-pack-extras
 libpurple-plugin-pack-lang
 libpurple-plugin-prpltwtr
 libpurple-plugin-prpltwtr-lang
@@ -3519,6 +3552,7 @@ libz1
 libzapojit-0_0-0
 libzbar0
 libzebra1
+libzeitgeist-2_0-0
 libzhuyin-1_1-data
 libzhuyin13
 libzhuyin7
@@ -3541,6 +3575,7 @@ lightsoff-lang
 link-grammar
 links
 linux-glibc-devel
+lirc-core
 lirc-devel
 lklug-fonts
 lksctp-tools
@@ -4346,6 +4381,7 @@ pidgin
 pidgin-plugin-libsteam
 pidgin-plugin-mrim
 pidgin-plugin-pack
+pidgin-plugin-pack-extras
 pidgin-plugin-prpltwtr
 pidgin-plugin-sipe
 pidgin-plugin-skype
@@ -4525,6 +4561,7 @@ python2-attrs
 python2-cairo
 python2-cairo-devel
 python2-cffi
+python2-click
 python2-configobj
 python2-constantly
 python2-cryptography
@@ -4539,6 +4576,7 @@ python2-gobject-Gdk
 python2-gobject-cairo
 python2-gpgme
 python2-gpsd
+python2-graphviz
 python2-httplib2
 python2-hyperlink
 python2-idna
@@ -4576,13 +4614,16 @@ python2-urwid
 python2-yum
 python2-zope.interface
 python3
+python3-Automat
 python3-Cycler
 python3-Pillow
 python3-PySocks
+python3-Twisted
 python3-apparmor
 python3-appdirs
 python3-asn1crypto
 python3-atspi
+python3-attrs
 python3-base
 python3-bind
 python3-brlapi
@@ -4591,6 +4632,8 @@ python3-cairocffi
 python3-certifi
 python3-cffi
 python3-chardet
+python3-click
+python3-constantly
 python3-cryptography
 python3-cssselect
 python3-cupshelpers
@@ -4602,8 +4645,10 @@ python3-gobject
 python3-gobject-Gdk
 python3-gobject-cairo
 python3-gst
+python3-hyperlink
 python3-idle
 python3-idna
+python3-incremental
 python3-ipaddr
 python3-jedi
 python3-libvirt-python
@@ -4625,9 +4670,11 @@ python3-py
 python3-pyOpenSSL
 python3-pyasn1
 python3-pycparser
+python3-pycrypto
 python3-pycups
 python3-pycurl
 python3-pyparsing
+python3-pyserial
 python3-pysmbc
 python3-python-dateutil
 python3-pytz
@@ -4640,6 +4687,7 @@ python3-six
 python3-speechd
 python3-tk
 python3-urllib3
+python3-zope.interface
 pyzy-db-android
 pyzy-db-open-phrase
 qalculate
@@ -4963,8 +5011,6 @@ time
 timezone
 timezone-java
 tk
-tlp
-tlp-rdw
 tmux
 tnftp
 tomcat
@@ -5026,6 +5072,7 @@ typelib-1_0-Gdm-1_0
 typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Gepub-0_5
+typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -5046,6 +5093,7 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-GtkVnc-2_0
+typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
@@ -5081,6 +5129,7 @@ typelib-1_0-Vte-2.91
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
+typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
 typelib-1_0-libdazzle-1_0
 ucode-amd
@@ -5147,9 +5196,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
-virtualbox
-virtualbox-host-kmp-default
-virtualbox-qt
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vm-install
