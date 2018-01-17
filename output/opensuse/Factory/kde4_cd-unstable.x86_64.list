@@ -1,6 +1,10 @@
+AppStream
+AppStream-lang
 GeoIP
 GeoIP-data
 Mesa
+Mesa-dri
+Mesa-gallium
 Mesa-libEGL1
 Mesa-libGL1
 Mesa-libglapi0
@@ -57,6 +61,8 @@ apparmor-parser-lang
 apparmor-profiles
 apparmor-utils
 apparmor-utils-lang
+appstream-glib
+appstream-glib-lang
 ark
 ark-lang
 aspell
@@ -161,6 +167,8 @@ dialog
 dialog-lang
 diffutils
 diffutils-lang
+discover
+discover-lang
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -195,12 +203,15 @@ filesystem
 fillup
 findutils
 findutils-lang
+flatpak
 fontconfig
 fonts-config
 frameworkintegration-plugin
 fuse
 gamin-server
 gawk
+gcab
+gcab-lang
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -741,6 +752,8 @@ libakonadiprotocolinternals1
 libao-plugins4
 libao4
 libapparmor1
+libappstream-builder8
+libappstream-glib8
 libappstream4
 libarchive13
 libasm1
@@ -868,6 +881,7 @@ libfastjson4
 libfdisk1
 libffi7
 libfftw3-3
+libflatpak0
 libfltk1
 libfont-specimen0
 libfontenc1
@@ -878,6 +892,7 @@ libfribidi0
 libftgl2
 libfuse2
 libgbm1
+libgcab-1_0-0
 libgcc_s1
 libgck-1-0
 libgcr-3-1
@@ -1083,6 +1098,8 @@ libopus0
 libopusfile0
 liborc-0_4-0
 liborcus-0_13-0
+libostree
+libostree-1-1
 libp11-kit0
 libpackagekit-glib2-18
 libpackagekitqt5-0
@@ -1239,7 +1256,6 @@ libtirpc3
 libts0
 libturbojpeg0
 libtwolame0
-libtxc_dxtn
 libudev1
 libudisks2-0
 libunistring2
@@ -1334,7 +1350,9 @@ libz1
 libzio1
 libzip5
 libzmf-0_0-0
+libzstd1
 libzypp
+libzypp-plugin-appdata
 lifecycle-data-openSUSE
 lockdev
 logrotate
@@ -1723,6 +1741,7 @@ traceroute
 translation-update
 tuned
 typelib-1_0-Atk-1_0
+typelib-1_0-Flatpak-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-Pango-1_0

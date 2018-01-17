@@ -9,7 +9,9 @@ ImageMagick-devel
 ImageMagick-extra
 LibVNCServer-devel
 Mesa
+Mesa-dri
 Mesa-dri-devel
+Mesa-gallium
 Mesa-libEGL-devel
 Mesa-libEGL1
 Mesa-libGL-devel
@@ -398,7 +400,7 @@ circuslinux
 clamav
 clamz
 clang
-clang3_8-checker
+clang4-checker
 clang5
 claws-mail
 claws-mail-lang
@@ -501,6 +503,8 @@ diffutils
 diffutils-lang
 ding
 ding-dict-de_en
+discover
+discover-lang
 djvulibre
 dleyna-connector-dbus
 dleyna-renderer
@@ -652,6 +656,7 @@ fipscheck
 fixesproto-devel
 flac
 flac-devel
+flatpak
 flatpak-builder
 flex
 flute
@@ -1899,7 +1904,7 @@ libKPimImportWizard5
 libKPimKDAV5
 libKPimSMTP5
 libKScreenLocker5
-libLLVM3_8
+libLLVM4
 libLLVM5
 libLTO5
 libMagick++-7_Q16HDRI4
@@ -2226,7 +2231,7 @@ libchm0
 libcholmod-3_0_11
 libcilkrts5
 libclamav7
-libclang3_8
+libclang4
 libclang5
 libclastfm0
 libclucene-contribs-lib1
@@ -3013,6 +3018,7 @@ libosip2
 libosip2-devel
 libospf0
 libospfapiclient0
+libostree
 libostree-1-1
 libotf0
 libotr-devel
@@ -3434,7 +3440,6 @@ libtsan0
 libtumbler-1-0
 libturbojpeg0
 libtwolame0
-libtxc_dxtn
 libubsan0
 libudev-devel
 libudev1
@@ -3559,7 +3564,7 @@ libwebpmux2
 libwebrtc_audio_processing1
 libwicked-0-6
 libwinpr2
-libwireshark10
+libwireshark9
 libwiretap7
 libwmf-0_2-7
 libwmf-tools
@@ -3700,6 +3705,7 @@ libzio1
 libzip-devel
 libzip5
 libzmf-0_0-0
+libzstd1
 libzvbi0
 libzypp
 libzypp-plugin-appdata
@@ -5216,6 +5222,7 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
+typelib-1_0-Flatpak-1_0
 typelib-1_0-GData-0_0
 typelib-1_0-GES-1_0
 typelib-1_0-GFBGraph-0_2
@@ -5407,6 +5414,12 @@ xbrlapi
 xclip
 xconsole
 xdelta3
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gtk-lang
+xdg-desktop-portal-kde
+xdg-desktop-portal-kde-lang
+xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
