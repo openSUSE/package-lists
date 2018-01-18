@@ -6,7 +6,6 @@ PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 SUSEConnect
-SuSEfirewall2
 aaa_base
 aaa_base-extras
 acl
@@ -40,6 +39,7 @@ ca-certificates-mozilla
 cantarell-fonts
 cdrkit-cdrtools-compat
 checkmedia
+chrony
 cifs-utils
 command-not-found
 coreutils
@@ -78,6 +78,7 @@ dosfstools
 dracut
 drkonqi5
 e2fsprogs
+ebtables
 efibootmgr
 elfutils
 ethtool
@@ -88,6 +89,7 @@ file-magic
 filesystem
 fillup
 findutils
+firewalld
 fontconfig
 fonts-config
 gawk
@@ -139,6 +141,7 @@ ifplugd
 info
 initviocons
 iproute2
+ipset
 iptables
 iputils
 irqbalance
@@ -303,6 +306,7 @@ libfdisk1
 libffi7
 libfont-specimen0
 libfontenc1
+libfreebl3
 libfreetype6
 libfuse2
 libgbm1
@@ -342,12 +346,14 @@ libidn2-0
 libidnkit1
 libinput-udev
 libinput10
+libipset11
 libiptc0
 libirs160
 libisc166
 libisccc160
 libisccfg160
 libiw30
+libjansson4
 libjasper1
 libjbig2
 libjemalloc2
@@ -386,6 +392,7 @@ libnfnetlink0
 libnghttp2-14
 libnl-config
 libnl3-200
+libnm0
 libnpth0
 libnsl2
 libntfs-3g87
@@ -437,6 +444,7 @@ libsmartcols1
 libsmputils1-1
 libsnapper4
 libsndfile1
+libsoftokn3
 libsolv-tools
 libsoup-2_4-1
 libspeex1
@@ -444,8 +452,8 @@ libsqlite3-0
 libssh2-1
 libsss_nss_idmap0
 libstdc++6
-libstorage-ruby
-libstorage7
+libstorage-ng-ruby
+libstorage-ng1
 libsystemd0
 libtalloc2
 libtasn1
@@ -526,6 +534,8 @@ metatheme-adwaita-common
 mkfontdir
 mkfontscale
 mozilla-nspr
+mozilla-nss
+mozilla-nss-certs
 mtools
 nano
 ncurses-utils
@@ -568,7 +578,6 @@ perl-CPAN-Changes
 perl-Config-Crontab
 perl-Crypt-SmbHash
 perl-Devel-Symdump
-perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-Encode-Locale
@@ -585,9 +594,7 @@ perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Net-DBus
-perl-Net-DNS
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Parse-RecDescent
 perl-Pod-Coverage
@@ -645,6 +652,8 @@ python3-cupshelpers
 python3-curses
 python3-dbm
 python3-dbus-python
+python3-decorator
+python3-firewall
 python3-gobject
 python3-packaging
 python3-pip
@@ -654,6 +663,8 @@ python3-pycurl
 python3-pyparsing
 python3-setuptools
 python3-six
+python3-slip
+python3-slip-dbus
 recode
 release-notes-openSUSE
 rollback-helper
@@ -723,6 +734,7 @@ tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-3_0
+typelib-1_0-NM-1_0
 typelib-1_0-Pango-1_0
 ucode-amd
 ucode-intel
@@ -789,7 +801,7 @@ yast2-security
 yast2-services-manager
 yast2-slp
 yast2-snapper
-yast2-storage
+yast2-storage-ng
 yast2-sudo
 yast2-sysconfig
 yast2-trans-stats

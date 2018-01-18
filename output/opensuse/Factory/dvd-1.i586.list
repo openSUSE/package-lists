@@ -98,7 +98,6 @@ akonadi-server-lang
 akonadi-server-sqlite
 akregator
 akregator-lang
-alevt
 alpine
 alsa
 alsa-devel
@@ -391,6 +390,7 @@ chewing-data
 chewing-utils
 chmlib-devel
 chrome-gnome-shell
+chrony
 cifs-utils
 cim-schema
 circuslinux
@@ -646,8 +646,9 @@ filesystem
 fillup
 findutils
 findutils-lang
-finger
 fipscheck
+firewalld
+firewalld-lang
 fixesproto-devel
 flac
 flac-devel
@@ -799,7 +800,6 @@ giggle
 giggle-lang
 gimp
 gimp-lang
-gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
 gio-branding-openSUSE
@@ -1223,6 +1223,7 @@ ipa-uigothic-fonts
 ipadic
 iproute2
 ipsec-tools
+ipset
 iptables
 iptraf-ng
 iputils
@@ -1251,7 +1252,6 @@ ispell-portuguese
 ispell-russian
 ispell-spanish
 issue-generator
-ivtv
 iw
 jakarta-taglibs-standard
 java-1_8_0-openjdk
@@ -1327,6 +1327,8 @@ kcharselect-lang
 kchmviewer
 kcm_sddm
 kcm_sddm-lang
+kcm_tablet
+kcm_tablet-lang
 kcmutils-devel
 kcodecs-devel
 kcolorchooser
@@ -1618,7 +1620,6 @@ kplotting-devel
 kppp
 kpty-devel
 kqtquickcharts
-kradio
 krb5
 krb5-devel
 krb5-server
@@ -2009,7 +2010,6 @@ libXft-devel
 libXft2
 libXi6
 libXinerama1
-libXm4
 libXmu-devel
 libXmu6
 libXmuu1
@@ -2034,7 +2034,6 @@ libXxf86misc1
 libXxf86vm-devel
 libXxf86vm1
 liba52-0
-libaa1
 libabiword-3_0
 libabw-0_1-1
 libaccounts-glib0
@@ -2625,6 +2624,7 @@ libinput10
 libiodbc-devel
 libiodbc3
 libipmimonitoring6
+libipset11
 libiptc0
 libiptcdata
 libiptcdata-lang
@@ -3258,8 +3258,9 @@ libstdc++6
 libstdc++6-devel-gcc7
 libstdc++6-locale
 libstoken1
-libstorage-ruby
-libstorage7
+libstorage-ng-lang
+libstorage-ng-ruby
+libstorage-ng1
 libsuil-0-0
 libsuitesparseconfig-4_5_5
 libsunpinyin3
@@ -3712,7 +3713,6 @@ mono-web
 mono-winforms
 mono-winfxcore
 mosh
-motv
 mousetweaks
 mousetweaks-lang
 mozc
@@ -3828,7 +3828,6 @@ numlockx
 nuoveXT2-icon-theme
 nut
 nut-cgi
-nxtvepg
 obconf
 obs-service-download_files
 obs-service-download_url
@@ -4642,6 +4641,8 @@ python3-cupshelpers
 python3-curses
 python3-dbm
 python3-dbus-python
+python3-decorator
+python3-firewall
 python3-gedit
 python3-gobject
 python3-gobject-Gdk
@@ -4686,6 +4687,8 @@ python3-requests
 python3-setuptools
 python3-sip
 python3-six
+python3-slip
+python3-slip-dbus
 python3-speechd
 python3-tk
 python3-urllib3
@@ -4908,6 +4911,7 @@ sudo
 suil-plugins
 sunpinyin-data
 suse-module-tools
+susefirewall2-to-firewalld
 susepaste
 susepaste-screenshot
 sushi
@@ -5174,8 +5178,6 @@ util-linux-lang
 util-linux-systemd
 util-macros-devel
 v4l-conf
-v4l-tools
-v4l-utils
 vacation
 vala
 valgrind
@@ -5198,6 +5200,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vm-install
@@ -5521,7 +5526,7 @@ yast2-slp-server
 yast2-snapper
 yast2-sound
 yast2-squid
-yast2-storage
+yast2-storage-ng
 yast2-sudo
 yast2-sysconfig
 yast2-tftp-server

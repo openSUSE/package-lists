@@ -30,7 +30,6 @@ PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 PackageKit-lang
 SUSEConnect
-SuSEfirewall2
 aaa_base
 aaa_base-extras
 accountsservice
@@ -131,6 +130,7 @@ cantarell-fonts
 cdrdao
 cdrkit-cdrtools-compat
 checkmedia
+chrony
 cifs-utils
 command-not-found
 coreutils
@@ -193,6 +193,7 @@ drkonqi5
 drkonqi5-lang
 dvd+rw-tools
 e2fsprogs
+ebtables
 efibootmgr
 elfutils
 elfutils-lang
@@ -210,6 +211,8 @@ filesystem
 fillup
 findutils
 findutils-lang
+firewalld
+firewalld-lang
 flatpak
 fontconfig
 fonts-config
@@ -327,6 +330,7 @@ initviocons
 insserv-compat
 intlfonts-euro-bitmap-fonts
 iproute2
+ipset
 iptables
 iputils
 ipw-firmware
@@ -365,6 +369,8 @@ kcharselect
 kcharselect-lang
 kcm_sddm
 kcm_sddm-lang
+kcm_tablet
+kcm_tablet-lang
 kcolorchooser
 kcolorchooser-lang
 kconf_update5
@@ -988,6 +994,7 @@ libimobiledevice6
 libini_config5
 libinput-udev
 libinput10
+libipset11
 libiptc0
 libirs160
 libisc166
@@ -1274,8 +1281,9 @@ libsss_simpleifp0
 libstaroffice-0_0-0
 libstartup-notification-1-0
 libstdc++6
-libstorage-ruby
-libstorage7
+libstorage-ng-lang
+libstorage-ng-ruby
+libstorage-ng1
 libswresample2
 libswscale4
 libsystemd0
@@ -1370,6 +1378,7 @@ libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
 libxcb-xinerama0
+libxcb-xinput0
 libxcb-xkb1
 libxcb1
 libxerces-c-3_1
@@ -1530,7 +1539,6 @@ perl-Config-Crontab
 perl-Crypt-SmbHash
 perl-Date-Calc
 perl-Devel-Symdump
-perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-Encode-Locale
@@ -1547,9 +1555,7 @@ perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Net-DBus
-perl-Net-DNS
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Parse-RecDescent
 perl-Pod-Coverage
@@ -1676,6 +1682,8 @@ python3-cupshelpers
 python3-curses
 python3-dbm
 python3-dbus-python
+python3-decorator
+python3-firewall
 python3-gobject
 python3-packaging
 python3-pip
@@ -1685,6 +1693,8 @@ python3-pycurl
 python3-pyparsing
 python3-setuptools
 python3-six
+python3-slip
+python3-slip-dbus
 python3-speechd
 qqc2-desktop-style
 quota
@@ -1803,6 +1813,7 @@ typelib-1_0-Atk-1_0
 typelib-1_0-Flatpak-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-3_0
+typelib-1_0-NM-1_0
 typelib-1_0-Pango-1_0
 ucode-amd
 ucode-intel
@@ -1951,7 +1962,7 @@ yast2-services-manager
 yast2-slp
 yast2-snapper
 yast2-sound
-yast2-storage
+yast2-storage-ng
 yast2-sudo
 yast2-sysconfig
 yast2-trans-en_US

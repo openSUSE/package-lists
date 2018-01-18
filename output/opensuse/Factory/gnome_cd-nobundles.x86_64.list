@@ -40,7 +40,6 @@ PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 PackageKit-lang
 SUSEConnect
-SuSEfirewall2
 aaa_base
 aaa_base-extras
 accountsservice
@@ -121,6 +120,7 @@ checkmedia
 cheese
 cheese-lang
 chrome-gnome-shell
+chrony
 cifs-utils
 clutter-gtk-lang
 clutter-lang
@@ -183,6 +183,7 @@ dosfstools
 dracut
 dvd+rw-tools
 e2fsprogs
+ebtables
 efibootmgr
 elfutils
 elfutils-lang
@@ -212,6 +213,8 @@ filesystem
 fillup
 findutils
 findutils-lang
+firewalld
+firewalld-lang
 folks-lang
 fontconfig
 fonts-config
@@ -469,6 +472,7 @@ initviocons
 insserv-compat
 intlfonts-euro-bitmap-fonts
 iproute2
+ipset
 iptables
 iputils
 ipw-firmware
@@ -875,6 +879,7 @@ libimobiledevice6
 libini_config5
 libinput-udev
 libinput10
+libipset11
 libiptc0
 libiptcdata
 libiptcdata-lang
@@ -1157,8 +1162,9 @@ libstaroffice-0_0-0
 libstartup-notification-1-0
 libstdc++6
 libstoken1
-libstorage-ruby
-libstorage7
+libstorage-ng-lang
+libstorage-ng-ruby
+libstorage-ng1
 libsuitesparseconfig-4_5_5
 libswresample2
 libswscale4
@@ -1442,7 +1448,6 @@ perl-Config-Crontab
 perl-Crypt-SmbHash
 perl-Date-Calc
 perl-Devel-Symdump
-perl-Digest-HMAC
 perl-Digest-MD4
 perl-Digest-SHA1
 perl-Encode-Locale
@@ -1459,9 +1464,7 @@ perl-IO-Socket-SSL
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Net-DBus
-perl-Net-DNS
 perl-Net-HTTP
-perl-Net-LibIDN
 perl-Net-SSLeay
 perl-Parse-RecDescent
 perl-Pod-Coverage
@@ -1563,6 +1566,8 @@ python3-cupshelpers
 python3-curses
 python3-dbm
 python3-dbus-python
+python3-decorator
+python3-firewall
 python3-gedit
 python3-gobject
 python3-gobject-Gdk
@@ -1584,6 +1589,8 @@ python3-pysmbc
 python3-requests
 python3-setuptools
 python3-six
+python3-slip
+python3-slip-dbus
 python3-speechd
 python3-urllib3
 quadrapassel
@@ -1763,6 +1770,7 @@ typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-MediaArt-2_0
+typelib-1_0-NM-1_0
 typelib-1_0-NMClient-1_0
 typelib-1_0-NMGtk-1_0
 typelib-1_0-NetworkManager-1_0
@@ -1943,7 +1951,7 @@ yast2-services-manager
 yast2-slp
 yast2-snapper
 yast2-sound
-yast2-storage
+yast2-storage-ng
 yast2-sudo
 yast2-sysconfig
 yast2-trans-en_US
