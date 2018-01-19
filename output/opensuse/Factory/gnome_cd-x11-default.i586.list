@@ -24,6 +24,8 @@ alsa-utils
 apparmor-abstractions
 apparmor-parser
 apparmor-profiles
+at-spi2-atk-common
+at-spi2-atk-gtk2
 at-spi2-core
 attica-qt5
 attr
@@ -140,6 +142,15 @@ gsettings-backend-dconf
 gsettings-desktop-schemas
 gstreamer
 gstreamer-plugins-base
+gtk2-branding-openSUSE
+gtk2-data
+gtk2-immodule-amharic
+gtk2-immodule-inuktitut
+gtk2-immodule-thai
+gtk2-immodule-vietnamese
+gtk2-metatheme-adwaita
+gtk2-theming-engine-adwaita
+gtk2-tools
 gtk3-branding-openSUSE
 gtk3-data
 gtk3-immodule-amharic
@@ -377,7 +388,6 @@ libfontenc1
 libfreebl3
 libfreetype6
 libfribidi0
-libftgl2
 libfuse2
 libgbm1
 libgcc_s1
@@ -390,6 +400,7 @@ libgdbm4
 libgdk_pixbuf-2_0-0
 libgio-2_0-0
 libgirepository-1_0-1
+libglade-2_0-0
 libglib-2_0-0
 libglvnd
 libgmodule-2_0-0
@@ -414,6 +425,7 @@ libgstreamer-1_0-0
 libgstriff-1_0-0
 libgsttag-1_0-0
 libgstvideo-1_0-0
+libgtk-2_0-0
 libgtk-3-0
 libgudev-1_0-0
 libharfbuzz-icu0
@@ -911,7 +923,6 @@ xinit
 xkbcomp
 xkeyboard-config
 xli
-xlockmore
 xmessage
 xmlcharent
 xmodmap
@@ -921,6 +932,8 @@ xorg-x11-server
 xprop
 xrandr
 xrdb
+xscreensaver
+xscreensaver-data
 xset
 xsetroot
 xtables-plugins
