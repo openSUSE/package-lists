@@ -26,6 +26,8 @@ crda
 cron
 cronie
 dbus-1
+dbus-1-glib
+dbus-1-glib-tool
 dbus-1-x11
 device-mapper
 diffutils
@@ -48,7 +50,10 @@ findutils-lang
 fontconfig
 gawk
 gettext-runtime
+gio-branding-openSUSE
+girepository-1_0
 glib2-lang
+glib2-tools
 glibc
 glibc-extra
 glibc-locale
@@ -124,9 +129,13 @@ libfuse2
 libgcc_s1
 libgcrypt20
 libgdbm4
+libgio-2_0-0
+libgirepository-1_0-1
 libglib-2_0-0
+libgmodule-2_0-0
 libgmp10
 libgnutls30
+libgobject-2_0-0
 libgpg-error0
 libhogweed4
 libidn2-0
@@ -165,7 +174,7 @@ libprocps6
 libproxy1
 libpsl5
 libpython3_6m1_0
-libqrencode3
+libqrencode4
 libreadline7
 libreiserfscore0
 libruby2_5-2_5
@@ -240,6 +249,9 @@ procps
 publicsuffix
 python-rpm-macros
 python3-base
+python3-dbus-python
+python3-gobject
+python3-zypp-plugin
 rollback-helper
 rpm
 ruby-common
@@ -249,7 +261,11 @@ ruby2.5-stdlib
 sed
 sed-lang
 shadow
+shared-mime-info
+shared-mime-info-lang
 snapper
+snapper-zypp-plugin
+sound-theme-freedesktop
 suse-module-tools
 sysconfig
 sysconfig-netconfig
@@ -276,6 +292,7 @@ update-alternatives
 util-linux
 util-linux-lang
 util-linux-systemd
+wallpaper-branding-openSUSE
 which
 wicked
 wicked-service
