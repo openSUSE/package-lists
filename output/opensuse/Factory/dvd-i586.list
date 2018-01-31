@@ -36,11 +36,13 @@ NetworkManager-devel
 NetworkManager-lang
 NetworkManager-openconnect
 NetworkManager-openconnect-gnome
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
+NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-lang
@@ -416,6 +418,7 @@ cmpi-provider-register
 cogl-lang
 colord
 colord-color-profiles
+colord-gtk-lang
 colord-lang
 command-not-found
 compface
@@ -446,6 +449,7 @@ cups-config
 cups-devel
 cups-filters
 cups-pk-helper
+cups-pk-helper-lang
 curl
 cvs
 cvsps
@@ -727,7 +731,9 @@ gconf-polkit
 gconf2
 gconf2-branding-openSUSE
 gconf2-devel
+gconf2-lang
 gcr-data
+gcr-lang
 gcr-prompter
 gcr-viewer
 gd
@@ -905,6 +911,7 @@ gnome-keyring-pam
 gnome-logs
 gnome-logs-lang
 gnome-mahjongg
+gnome-mahjongg-lang
 gnome-maps
 gnome-maps-lang
 gnome-menus
@@ -962,6 +969,7 @@ gnome-tweak-tool-lang
 gnome-user-docs
 gnome-user-docs-lang
 gnome-user-share
+gnome-user-share-lang
 gnome-version
 gnome-vfs2
 gnome-vfs2-devel
@@ -1048,6 +1056,7 @@ gtg
 gtg-lang
 gthumb
 gthumb-lang
+gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-devel
@@ -2236,6 +2245,7 @@ libcroco-0_6-3
 libcryptmount0
 libcryptsetup4
 libcryptui-data
+libcryptui-lang
 libcryptui0
 libcue2
 libcups2
@@ -2477,6 +2487,7 @@ libgnome-devel
 libgnome-games-support-1-2
 libgnome-games-support-lang
 libgnome-keyring-devel
+libgnome-keyring-lang
 libgnome-keyring0
 libgnome-lang
 libgnomecanvas-2-0
@@ -2485,6 +2496,7 @@ libgnomecanvas-lang
 libgnomekbd
 libgnomekbd-lang
 libgnomesu
+libgnomesu-lang
 libgnomesu0
 libgnomeui
 libgnomeui-lang
@@ -2934,6 +2946,7 @@ liborcus-0_13-0
 libortp13
 libosinfo
 libosinfo-1_0-0
+libosinfo-lang
 libosip2
 libosip2-devel
 libospf0
@@ -3227,6 +3240,7 @@ libsndfile1
 libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
+libsocialweb-lang
 libsocialweb0
 libsodium23
 libsofia-sip-ua-glib3
@@ -3444,6 +3458,7 @@ libwmf-0_2-7
 libwmf-tools
 libwnck-1-22
 libwnck-3-0
+libwnck-lang
 libwnck2-lang
 libwpd-0_10-10
 libwpd-devel
@@ -3806,6 +3821,7 @@ nkf
 nma-data
 nmap
 notification-daemon
+notification-daemon-lang
 noto-coloremoji-fonts
 noto-sans-fonts
 noto-sans-jp-bold-fonts
@@ -4460,6 +4476,7 @@ polkit
 polkit-default-privs
 polkit-devel
 polkit-gnome
+polkit-gnome-lang
 polkit-kde-agent-5
 polkit-kde-agent-5-lang
 poppler-tools
@@ -4691,6 +4708,7 @@ qt4-qtscript
 qtcurve-gtk2
 qtcurve-qt5
 quadrapassel
+quadrapassel-lang
 quagga
 quilt
 quota
@@ -4786,6 +4804,7 @@ sddm-theme-openSUSE
 seahorse
 seahorse-daemon
 seahorse-lang
+seahorse-nautilus-lang
 seahorse-sharing
 seahorse-sharing-lang
 sed
@@ -4884,6 +4903,7 @@ susefirewall2-to-firewalld
 susepaste
 susepaste-screenshot
 sushi
+sushi-lang
 svg-schema
 sweeper
 sweeper-lang
@@ -5178,6 +5198,7 @@ vlan
 vlgothic-fonts
 vm-install
 vorbis-tools
+vorbis-tools-lang
 vpnc
 vsftpd
 vte-lang
@@ -5232,6 +5253,7 @@ xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
+xdg-user-dirs-gtk-lang
 xdg-user-dirs-lang
 xdg-utils
 xdm
