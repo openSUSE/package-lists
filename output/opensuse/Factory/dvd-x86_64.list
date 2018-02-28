@@ -658,6 +658,7 @@ filesystem
 fillup
 findutils
 findutils-lang
+fipscheck
 firewalld
 firewalld-lang
 fixesproto-devel
@@ -1448,11 +1449,13 @@ keditbookmarks
 keditbookmarks-lang
 kemoticons-devel
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2355,6 +2358,7 @@ libedit0
 libeditorconfig0
 libefivar1
 libeigen2-devel
+libelf-devel
 libelf1
 libenca0
 libenchant1
@@ -2402,6 +2406,7 @@ libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -3872,6 +3877,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -4492,6 +4498,8 @@ perl-namespace-clean
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
