@@ -665,7 +665,6 @@ libdrm_amdgpu1
 libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
-libdv4
 libdvdread4
 libdw1
 libe-book-0_1-1
@@ -923,8 +922,10 @@ libmp3lame0
 libmpc3
 libmpcdec5
 libmpeg2-0
+libmpeg2encpp-2_0-0
 libmpfr6
 libmpg123-0
+libmplex2-2_0-0
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -977,7 +978,7 @@ libopeniscsiusr0_1_0
 libopenjp2-7
 libopenjpeg1
 libopenssl1_0_0
-libopenssl1_1_0
+libopenssl1_1
 libopus0
 liborc-0_4-0
 liborcus-0_13-0
@@ -1022,7 +1023,7 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
-libpsl6
+libpsl5
 libpulse-mainloop-glib0
 libpulse0
 libpurple
@@ -1034,14 +1035,13 @@ libpython2_7-1_0
 libpython3_6m1_0
 libqmi-glib5
 libqmi-tools
-libqpdf18
+libqpdf21
 libqqwing2
 libqrencode4
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
 libquadmath0
-libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
 libqxp-0_0-0
@@ -1094,7 +1094,7 @@ libslang2
 libsmartcols1
 libsmbclient0
 libsmbconf0
-libsmbios
+libsmbios2
 libsmbldap2
 libsmputils1-1
 libsnapper4
@@ -1352,7 +1352,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-openssl-1_1_0
+openssl-1_1
 openvpn
 orca
 orca-lang
@@ -1794,6 +1794,7 @@ xauth
 xbitmaps
 xbrlapi
 xclip
+xclock
 xconsole
 xdg-menu
 xdg-user-dirs

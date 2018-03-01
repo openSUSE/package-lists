@@ -502,7 +502,6 @@ libdrm_amdgpu1
 libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
-libdv4
 libdvdread4
 libdw1
 libebackend-1_2-10
@@ -742,8 +741,10 @@ libmp3lame0
 libmpc3
 libmpcdec5
 libmpeg2-0
+libmpeg2encpp-2_0-0
 libmpfr6
 libmpg123-0
+libmplex2-2_0-0
 libmtdev1
 libmtp-udev
 libmtp9
@@ -789,7 +790,7 @@ libopeniscsiusr0_1_0
 libopenjp2-7
 libopenjpeg1
 libopenssl1_0_0
-libopenssl1_1_0
+libopenssl1_1
 libopus0
 liborc-0_4-0
 libosinfo
@@ -830,7 +831,7 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
-libpsl6
+libpsl5
 libpulse-mainloop-glib0
 libpulse0
 libpurple
@@ -846,7 +847,6 @@ libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
 libquadmath0
-libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
 libraptor2-0
@@ -1095,7 +1095,7 @@ openssh
 openssh-askpass
 openssh-helpers
 openssl
-openssl-1_1_0
+openssl-1_1
 openvpn
 orca
 os-prober
@@ -1481,6 +1481,7 @@ wpa_supplicant
 xauth
 xbitmaps
 xclip
+xclock
 xconsole
 xdg-menu
 xdg-user-dirs
