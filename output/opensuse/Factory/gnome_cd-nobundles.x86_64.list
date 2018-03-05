@@ -744,7 +744,7 @@ libfwupd2
 libgadu3
 libgbm1
 libgcab-1_0-0
-libgcc_s1
+libgcc_s1-gcc8
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -797,7 +797,7 @@ libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
 libgom-1_0-0
-libgomp1
+libgomp1-gcc8
 libgpg-error0
 libgpgme11
 libgpgmepp6
@@ -994,7 +994,7 @@ libnss_nis2
 libntfs-3g87
 libnuma1
 liboauth0
-libobjc4
+libobjc4-gcc8
 libodfgen-0_1-1
 libofa0
 libogg0
@@ -1071,7 +1071,7 @@ libqrencode4
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
-libquadmath0
+libquadmath0-gcc8
 libquvi-0_9-0_9_4
 libquvi-scripts
 libqxp-0_0-0
@@ -1162,7 +1162,7 @@ libsss_nss_idmap0
 libsss_simpleifp0
 libstaroffice-0_0-0
 libstartup-notification-1-0
-libstdc++6
+libstdc++6-gcc8
 libstoken1
 libstorage-ng-lang
 libstorage-ng-ruby
@@ -1552,13 +1552,16 @@ python2-six
 python3
 python3-PySocks
 python3-appdirs
+python3-asn1crypto
 python3-atspi
 python3-base
 python3-bind
 python3-brlapi
 python3-cairo
 python3-certifi
+python3-cffi
 python3-chardet
+python3-cryptography
 python3-cupshelpers
 python3-curses
 python3-dbm
@@ -1576,6 +1579,9 @@ python3-packaging
 python3-pip
 python3-ply
 python3-py
+python3-pyOpenSSL
+python3-pyasn1
+python3-pycparser
 python3-pycups
 python3-pycurl
 python3-pyparsing
