@@ -385,7 +385,7 @@ libgarcon-1-0
 libgarcon-branding-openSUSE
 libgarcon-data
 libgbm1
-libgcc_s1
+libgcc_s1-gcc8
 libgck-1-0
 libgck-modules-gnome-keyring
 libgcr-3-1
@@ -410,7 +410,7 @@ libgnustep-base1_25
 libgnutls30
 libgoa-1_0-0
 libgobject-2_0-0
-libgomp1
+libgomp1-gcc8
 libgpg-error0
 libgpgme11
 libgphoto2-6
@@ -517,7 +517,7 @@ libnss_nis2
 libntfs-3g87
 libnuma1
 liboauth0
-libobjc4
+libobjc4-gcc8
 libogg0
 liboggkate1
 libopeniscsiusr0_1_0
@@ -599,7 +599,7 @@ libsss_idmap0
 libsss_nss_idmap0
 libsss_simpleifp0
 libstartup-notification-1-0
-libstdc++6
+libstdc++6-gcc8
 libstorage-ng-ruby
 libstorage-ng1
 libsystemd0
@@ -994,6 +994,7 @@ usbutils
 util-linux
 util-linux-systemd
 vim
+vim-data
 vim-data-common
 virtualbox-guest-kmp-default
 virtualbox-guest-tools

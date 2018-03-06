@@ -2102,7 +2102,7 @@ libatk-1_0-0
 libatk-bridge-2_0-0
 libatkmm-1_6-1
 libatm1
-libatomic1
+libatomic1-gcc8
 libatspi0
 libattica0_4
 libattr-devel
@@ -2410,7 +2410,7 @@ libgavl1
 libgbm1
 libgc1
 libgcab-1_0-0
-libgcc_s1
+libgcc_s1-gcc8
 libgcin-im-client1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -2513,7 +2513,7 @@ libgobject-2_0-0
 libgoffice-0_10-10
 libgoffice-0_8-8
 libgom-1_0-0
-libgomp1
+libgomp1-gcc8
 libgooglepinyin0
 libgpg-error-devel
 libgpg-error0
@@ -2666,7 +2666,7 @@ libiso9660-10
 libisoburn1
 libisofs6
 libiterm1
-libitm1
+libitm1-gcc8
 libiw-devel
 libiw30
 libixion-0_13-0
@@ -2858,8 +2858,8 @@ libmpeg2encpp-2_0-0
 libmpfr6
 libmpg123-0
 libmplex2-2_0-0
-libmpx2
-libmpxwrappers2
+libmpx2-gcc8
+libmpxwrappers2-gcc8
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -2916,7 +2916,7 @@ libnss_nis2
 libntfs-3g87
 libnuma1
 liboauth0
-libobjc4
+libobjc4-gcc8
 libobrender32
 libobt2
 libodfgen-0_1-1
@@ -3135,7 +3135,7 @@ libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
 libqtcurve-cairo1
 libqtcurve-utils2
-libquadmath0
+libquadmath0-gcc8
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
@@ -3288,9 +3288,9 @@ libsss_simpleifp0
 libstaroffice-0_0-0
 libstartup-notification-1-0
 libstdc++-devel
-libstdc++6
 libstdc++6-devel-gcc7
-libstdc++6-locale
+libstdc++6-gcc8
+libstdc++6-gcc8-locale
 libstoken1
 libstorage-ng-ruby
 libstorage-ng1

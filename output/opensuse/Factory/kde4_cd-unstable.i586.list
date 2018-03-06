@@ -903,7 +903,7 @@ libfribidi0
 libfuse2
 libgbm1
 libgcab-1_0-0
-libgcc_s1
+libgcc_s1-gcc8
 libgck-1-0
 libgcr-3-1
 libgcrypt20
@@ -921,7 +921,7 @@ libgmodule-2_0-0
 libgmp10
 libgnutls30
 libgobject-2_0-0
-libgomp1
+libgomp1-gcc8
 libgpg-error0
 libgpgme11
 libgpgmepp6
@@ -1245,7 +1245,7 @@ libsqlite3-0
 libssh2-1
 libssh4
 libstaroffice-0_0-0
-libstdc++6
+libstdc++6-gcc8
 libstorage-ng-ruby
 libstorage-ng1
 libswresample2
@@ -1782,6 +1782,7 @@ util-linux-lang
 util-linux-systemd
 vcdimager
 vim
+vim-data
 vim-data-common
 vorbis-tools
 vpnc
