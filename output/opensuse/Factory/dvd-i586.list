@@ -36,13 +36,11 @@ NetworkManager-devel
 NetworkManager-lang
 NetworkManager-openconnect
 NetworkManager-openconnect-gnome
-NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-gnome
 NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-gnome
-NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-lang
@@ -388,7 +386,6 @@ cellwriter
 cervisia
 cervisia-lang
 cfitsio-devel
-cfitsio-devel-doc
 cglib
 chasen
 checkmedia
@@ -422,7 +419,6 @@ cmpi-provider-register
 cogl-lang
 colord
 colord-color-profiles
-colord-gtk-lang
 colord-lang
 command-not-found
 compface
@@ -453,7 +449,6 @@ cups-config
 cups-devel
 cups-filters
 cups-pk-helper
-cups-pk-helper-lang
 curl
 cvs
 cvsps
@@ -530,7 +525,6 @@ docbook_4
 docbook_5
 dolphin
 dolphin-part
-dolphin-part-lang
 dos2unix
 dosfstools
 doxygen
@@ -572,9 +566,7 @@ enchant-devel
 enscript
 eog
 eog-lang
-eog-plugin-exif-display
 eog-plugins
-eog-plugins-data
 eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
@@ -674,8 +666,6 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fontsproto-devel
-fortune
-fossil
 fprintd
 fprintd-lang
 fprintd-pam
@@ -734,7 +724,6 @@ gconf-polkit
 gconf2
 gconf2-branding-openSUSE
 gconf2-devel
-gconf2-lang
 gcr-data
 gcr-lang
 gcr-prompter
@@ -759,25 +748,7 @@ geany-plugins
 geany-plugins-lang
 gedit
 gedit-lang
-gedit-plugin-bookmarks
-gedit-plugin-bracketcompletion
-gedit-plugin-charmap
-gedit-plugin-codecomment
-gedit-plugin-colorpicker
-gedit-plugin-colorschemer
-gedit-plugin-commander
-gedit-plugin-dashboard
 gedit-plugin-devhelp
-gedit-plugin-drawspaces
-gedit-plugin-findinfiles
-gedit-plugin-git
-gedit-plugin-joinlines
-gedit-plugin-multiedit
-gedit-plugin-smartspaces
-gedit-plugin-synctex
-gedit-plugin-terminal
-gedit-plugin-textsize
-gedit-plugin-wordcompletion
 gedit-plugins
 gedit-plugins-data
 gedit-plugins-lang
@@ -912,7 +883,6 @@ gnome-keyring-pam
 gnome-logs
 gnome-logs-lang
 gnome-mahjongg
-gnome-mahjongg-lang
 gnome-maps
 gnome-maps-lang
 gnome-menus
@@ -970,7 +940,6 @@ gnome-tweak-tool-lang
 gnome-user-docs
 gnome-user-docs-lang
 gnome-user-share
-gnome-user-share-lang
 gnome-version
 gnome-vfs2
 gnome-vfs2-devel
@@ -1057,7 +1026,6 @@ gtg
 gtg-lang
 gthumb
 gthumb-lang
-gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-devel
@@ -1226,7 +1194,6 @@ inputproto-devel
 insserv-compat
 inst-source-utils
 install-initrd-Kubic
-intlfonts
 intlfonts-euro-bitmap-fonts
 intltool
 iodbc
@@ -1294,7 +1261,6 @@ kaccounts-providers-lang
 kactivities5-devel
 kactivities5-imports
 kactivitymanagerd
-kactivitymanagerd-lang
 kaddressbook
 kaddressbook-lang
 kakasi
@@ -1613,7 +1579,6 @@ konquest
 konquest-lang
 konsole
 konsole-part
-konsole-part-lang
 kontact
 kontact-lang
 kontactinterface-lang
@@ -1658,7 +1623,6 @@ kruler
 kruler-lang
 krunner-devel
 krusader
-krusader-doc
 kscd
 kscreen5
 kscreen5-lang
@@ -2250,7 +2214,6 @@ libcroco-0_6-3
 libcryptmount0
 libcryptsetup12
 libcryptui-data
-libcryptui-lang
 libcryptui0
 libcue2
 libcups2
@@ -2396,7 +2359,6 @@ libfreerdp2
 libfreetype6
 libfribidi0
 libfstrm0
-libftdi1-2
 libftgl2
 libfuse2
 libfwupd2
@@ -2422,7 +2384,6 @@ libgd3
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
-libgda-5_0-sqlcipher
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
@@ -2490,7 +2451,6 @@ libgnome-devel
 libgnome-games-support-1-2
 libgnome-games-support-lang
 libgnome-keyring-devel
-libgnome-keyring-lang
 libgnome-keyring0
 libgnome-lang
 libgnomecanvas-2-0
@@ -2499,7 +2459,6 @@ libgnomecanvas-lang
 libgnomekbd
 libgnomekbd-lang
 libgnomesu
-libgnomesu-lang
 libgnomesu0
 libgnomeui
 libgnomeui-lang
@@ -2610,7 +2569,6 @@ libgwengui-qt5-0
 libgwenhywfar60
 libgwenhywfar60-plugins
 libgxps2
-libgypsy-devel
 libgypsy0
 libhangul1
 libharfbuzz-icu0
@@ -2626,7 +2584,7 @@ libibus-1_0-5
 libibverbs
 libibverbs1
 libical-devel
-libical2
+libical3
 libicu-devel
 libicu60_2
 libicu60_2-ledata
@@ -2956,7 +2914,6 @@ liborcus-0_13-0
 libortp13
 libosinfo
 libosinfo-1_0-0
-libosinfo-lang
 libosip2
 libosip2-devel
 libospf0
@@ -3062,7 +3019,6 @@ libpurple-plugin-libsteam
 libpurple-plugin-mrim
 libpurple-plugin-mrim-lang
 libpurple-plugin-pack
-libpurple-plugin-pack-extras
 libpurple-plugin-pack-lang
 libpurple-plugin-prpltwtr
 libpurple-plugin-prpltwtr-lang
@@ -3249,7 +3205,6 @@ libsndfile1
 libsnmp30
 libsocialweb
 libsocialweb-branding-openSUSE
-libsocialweb-lang
 libsocialweb0
 libsodium23
 libsofia-sip-ua-glib3
@@ -3466,7 +3421,6 @@ libwmf-0_2-7
 libwmf-tools
 libwnck-1-22
 libwnck-3-0
-libwnck-lang
 libwnck2-lang
 libwpd-0_10-10
 libwpd-devel
@@ -3585,7 +3539,6 @@ libz1
 libzapojit-0_0-0
 libzbar0
 libzebra1
-libzeitgeist-2_0-0
 libzhuyin-1_1-data
 libzhuyin13
 libzhuyin7
@@ -3608,7 +3561,6 @@ lightsoff
 lightsoff-lang
 links
 linux-glibc-devel
-lirc-core
 lirc-devel
 lklug-fonts
 lksctp-tools
@@ -3828,7 +3780,6 @@ nkf
 nma-data
 nmap
 notification-daemon
-notification-daemon-lang
 noto-coloremoji-fonts
 noto-sans-fonts
 noto-sans-jp-bold-fonts
@@ -4306,6 +4257,7 @@ perl-Test-Fatal
 perl-Test-LeakTrace
 perl-Test-Pod
 perl-Test-Pod-Coverage
+perl-Test-Requires
 perl-Text-CSV_XS
 perl-Text-ChaSen
 perl-Text-DelimMatch
@@ -4418,7 +4370,6 @@ pidgin
 pidgin-plugin-libsteam
 pidgin-plugin-mrim
 pidgin-plugin-pack
-pidgin-plugin-pack-extras
 pidgin-plugin-prpltwtr
 pidgin-plugin-sipe
 pidgin-plugin-skype
@@ -4486,7 +4437,6 @@ polkit
 polkit-default-privs
 polkit-devel
 polkit-gnome
-polkit-gnome-lang
 polkit-kde-agent-5
 polkit-kde-agent-5-lang
 poppler-tools
@@ -4716,7 +4666,6 @@ qt4-qtscript
 qtcurve-gtk2
 qtcurve-qt5
 quadrapassel
-quadrapassel-lang
 quagga
 quilt
 quota
@@ -4815,7 +4764,6 @@ sddm-theme-openSUSE
 seahorse
 seahorse-daemon
 seahorse-lang
-seahorse-nautilus-lang
 seahorse-sharing
 seahorse-sharing-lang
 sed
@@ -4913,7 +4861,6 @@ susefirewall2-to-firewalld
 susepaste
 susepaste-screenshot
 sushi
-sushi-lang
 svg-schema
 sweeper
 sweeper-lang
@@ -5079,7 +5026,6 @@ typelib-1_0-Gdm-1_0
 typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Gepub-0_5
-typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -5100,7 +5046,6 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-GtkVnc-2_0
-typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
@@ -5136,7 +5081,6 @@ typelib-1_0-Vte-2.91
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
-typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
 typelib-1_0-libdazzle-1_0
 ucode-amd
@@ -5208,7 +5152,6 @@ vlan
 vlgothic-fonts
 vm-install
 vorbis-tools
-vorbis-tools-lang
 vpnc
 vsftpd
 vte-lang
@@ -5264,7 +5207,6 @@ xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
-xdg-user-dirs-gtk-lang
 xdg-user-dirs-lang
 xdg-utils
 xdm
