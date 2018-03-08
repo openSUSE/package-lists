@@ -12,6 +12,7 @@ ModemManager-lang
 NetworkManager
 NetworkManager-branding-openSUSE
 NetworkManager-pptp
+NetworkManager-pptp-lang
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -173,6 +174,7 @@ efibootmgr
 elfutils
 elfutils-lang
 espeak
+espeak-ng
 ethtool
 eventviews
 eventviews-lang
@@ -200,6 +202,7 @@ gawk
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
+gconf2-lang
 gdb
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
@@ -759,7 +762,8 @@ libenca0
 libepoxy0
 libepub0
 liberation-fonts
-libesmtp
+libesmtp6
+libespeak-ng1
 libev4
 libevdev2
 libevent-2_1-8
@@ -964,6 +968,7 @@ libpango-1_0-0
 libparted0
 libpath_utils1
 libpcap1
+libpcaudio0
 libpci3
 libpciaccess0
 libpcre1

@@ -17,7 +17,9 @@ NetworkManager-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-lang
 NetworkManager-pptp
+NetworkManager-pptp-lang
 NetworkManager-vpnc
+NetworkManager-vpnc-lang
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -115,6 +117,7 @@ breeze5-wallpapers
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
+bubblewrap
 bundle-lang-common-en
 bzip2
 ca-certificates
@@ -192,6 +195,7 @@ efibootmgr
 elfutils
 elfutils-lang
 espeak
+espeak-ng
 ethtool
 eventviews
 eventviews-lang
@@ -218,6 +222,7 @@ gcab-lang
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
+gconf2-lang
 gcr-data
 gcr-lang
 gcr-prompter
@@ -874,7 +879,8 @@ libepoxy0
 libepub0
 libepubgen-0_1-1
 liberation-fonts
-libesmtp
+libesmtp6
+libespeak-ng1
 libestr0
 libetonyek-0_1-1
 libev4
@@ -1119,6 +1125,7 @@ libpagemaker-0_0-0
 libpango-1_0-0
 libparted0
 libpcap1
+libpcaudio0
 libpci3
 libpciaccess0
 libpcre1
@@ -1804,6 +1811,10 @@ xauth
 xbitmaps
 xclock
 xconsole
+xdg-desktop-portal
+xdg-desktop-portal-kde
+xdg-desktop-portal-kde-lang
+xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-lang
