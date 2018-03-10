@@ -107,6 +107,7 @@ bluez-qt-udev
 boost-license1_66_0
 branding-openSUSE
 breeze
+breeze4-style
 breeze5-cursors
 breeze5-decoration
 breeze5-icons
@@ -251,6 +252,7 @@ gpart
 gpg2
 gpg2-lang
 gpm
+gptfdisk
 grantlee5
 grantleetheme
 grantleetheme-lang
@@ -311,6 +313,7 @@ icewm
 icewm-config-upstream
 icewm-default
 icewm-lang
+icoutils
 ifplugd
 incidenceeditor
 incidenceeditor-lang
@@ -380,6 +383,9 @@ kde-print-manager
 kde-print-manager-lang
 kde-user-manager
 kde-user-manager-lang
+kde4-filesystem
+kdebase4-runtime
+kdebase4-workspace-libs
 kdeclarative-components
 kdeconnect-kde
 kdeconnect-kde-lang
@@ -387,6 +393,9 @@ kded
 kded-lang
 kdegames-carddecks-default
 kdegraphics-thumbnailers
+kdelibs4
+kdelibs4-branding-upstream
+kdelibs4-core
 kdelibs4support
 kdelibs4support-lang
 kdenetwork4-filesharing
@@ -751,6 +760,8 @@ libaccounts-glib0
 libaccounts-qt5-1
 libacl1
 libaio1
+libakonadi4
+libakonadiprotocolinternals1
 libao-plugins4
 libao4
 libapparmor1
@@ -764,10 +775,12 @@ libasound2
 libaspell15
 libass9
 libassuan0
+libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
 libatm1
 libatspi0
+libattica0_4
 libattr1
 libaudit1
 libaugeas0
@@ -830,6 +843,7 @@ libdaemon0
 libdatrie1
 libdb-4_8
 libdbus-1-3
+libdbusmenu-qt2
 libdbusmenu-qt5-2
 libdcerpc-binding0
 libdcerpc0
@@ -857,6 +871,7 @@ libeditorconfig0
 libefivar1
 libelf1
 libenca0
+libenchant1
 libeot0
 libepoxy0
 libepub0
@@ -982,14 +997,18 @@ libjson-c3
 libjson-glib-1_0-0
 libjte1
 libkaccounts1
+libkactivities6
 libkate1
 libkcompactdisc-lang
+libkde4
 libkdecorations2-5
 libkdecorations2private5
+libkdecore4
 libkdegames
 libkdegames-lang
 libkdepim
 libkdepim-lang
+libkdepimlibs4
 libkerfuffle17
 libkeyutils1
 libkf5kdegames6
@@ -1009,6 +1028,7 @@ libksba8
 libkscreen2-plugin
 libksieve
 libksieve-lang
+libksuseinstall1
 libksysguard5
 libksysguard5-helper
 libksysguard5-lang
@@ -1107,6 +1127,7 @@ libpci3
 libpciaccess0
 libpcre1
 libpcre2-16-0
+libphonon4
 libphonon4qt5
 libpipeline1
 libpixman-1-0
@@ -1117,6 +1138,7 @@ libply-splash-core4
 libply-splash-graphics4
 libply4
 libpng16-16
+libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit0
 libpoppler-qt5-1
@@ -1124,6 +1146,7 @@ libpoppler73
 libpopt0
 libportaudio2
 libpostproc54
+libprison0
 libprocps6
 libproxy1
 libproxy1-config-kde
@@ -1140,9 +1163,15 @@ libqalculate13
 libqca-qt5
 libqca-qt5-plugins
 libqgpgme7
+libqjson0
 libqmi-glib5
 libqmi-tools
 libqrencode4
+libqt4
+libqt4-qt3support
+libqt4-sql
+libqt4-sql-sqlite
+libqt4-x11
 libqt5-qdbus
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtgraphicaleffects
@@ -1171,6 +1200,7 @@ libreoffice-calc
 libreoffice-draw
 libreoffice-icon-themes
 libreoffice-impress
+libreoffice-kde4
 libreoffice-l10n-en
 libreoffice-share-linker
 libreoffice-writer
@@ -1244,6 +1274,7 @@ libts0
 libturbojpeg0
 libtwolame0
 libudev1
+libudisks2-0
 libunistring2
 libunwind
 libupower-glib3
@@ -1505,6 +1536,7 @@ perl-base
 perl-gettext
 perl-libwww-perl
 permissions
+phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 pigz
 pim-data-exporter
@@ -1563,6 +1595,7 @@ prctl
 procps
 psmisc
 psmisc-lang
+ptools
 publicsuffix
 pullin-bcm43xx-firmware
 pulseaudio
@@ -1676,6 +1709,7 @@ smartmontools
 smp_utils
 snapper
 snapper-zypp-plugin
+sni-qt
 solid-imports
 solid-tools
 sonnet
@@ -1737,6 +1771,8 @@ ucode-amd
 ucode-intel
 udev
 udev-configure-printer
+udisks2
+udisks2-lang
 unixODBC
 unzip
 unzip-doc
