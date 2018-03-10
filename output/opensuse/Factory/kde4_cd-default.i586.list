@@ -307,8 +307,6 @@ kruler
 kscreen5
 kscreenlocker
 kservice
-ksplash-qml-branding-openSUSE
-ksplashx-branding-openSUSE
 ksshaskpass5
 ksudoku
 ksysguard5
@@ -897,7 +895,7 @@ libvisual
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvpx4
+libvpx5
 libwacom-data
 libwacom2
 libwavpack1
@@ -1120,8 +1118,10 @@ plasma5-workspace-branding-openSUSE
 plasma5-workspace-libs
 plymouth
 plymouth-dracut
+plymouth-plugin-label
 plymouth-plugin-label-ft
 plymouth-plugin-script
+plymouth-plugin-two-step
 plymouth-scripts
 polkit
 polkit-default-privs
@@ -1261,6 +1261,7 @@ system-user-root
 systemd
 systemd-bash-completion
 systemd-presets-branding-openSUSE
+systemd-presets-common-SUSE
 systemd-sysvinit
 systemsettings5
 sysuser-shadow
