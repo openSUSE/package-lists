@@ -32,12 +32,7 @@ NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
 NetworkManager-vpnc-lang
-PackageKit
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
-PackageKit-gtk3-module
-PackageKit-lang
 SUSEConnect
 aaa_base
 aaa_base-extras
@@ -85,6 +80,7 @@ baobab-lang
 bash
 bash-completion
 bash-lang
+bcache-tools
 bijiben
 bijiben-lang
 bind-utils
@@ -130,6 +126,7 @@ cogl-lang
 command-not-found
 coreutils
 coreutils-lang
+corosync
 cpio
 cpio-lang
 cpio-mt
@@ -555,6 +552,7 @@ libasound2
 libaspell15
 libass9
 libassuan0
+libatasmart-utils
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -581,6 +579,8 @@ libbasicobjects0
 libbind9-160
 libblkid1
 libblkid1-32bit
+libblockdev
+libblockdev2
 libbluetooth3
 libbluray2
 libboost_date_time1_66_0
@@ -594,6 +594,8 @@ libbs2b0
 libbsd0
 libbtrfs0
 libburn4
+libbytesize-lang
+libbytesize1
 libbz2-1
 libcacard0
 libcairo-gobject2
@@ -621,6 +623,7 @@ libcdio_paranoia2
 libcdr-0_1-1
 libcelt0-2
 libcelt051-0
+libcfg6
 libchamplain-0_12-0
 libcheese-common
 libcheese-gtk25
@@ -632,6 +635,7 @@ libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
+libcmap4
 libcmis-0_5-5
 libcogl-pango20
 libcogl20
@@ -641,6 +645,8 @@ libcolord-gtk1
 libcolord2
 libcom_err2
 libcom_err2-32bit
+libcorosync_common4
+libcpg4
 libcpupower0
 libcrack2
 libcrack2-32bit
@@ -674,6 +680,7 @@ libdevmapper1_03-32bit
 libdhash1
 libdialog14
 libdleyna-core-1_0-5
+libdlm3
 libdmapsharing-3_0-2
 libdnet1
 libdns169
@@ -892,7 +899,6 @@ libirs160
 libisc166
 libisccc160
 libisccfg160
-libisl15
 libisoburn1
 libisofs6
 libiw30
@@ -1074,6 +1080,7 @@ libpwquality-lang
 libpwquality1
 libpython2_7-1_0
 libpython3_6m1_0
+libqb0
 libqmi-glib5
 libqmi-tools
 libqpdf21
@@ -1083,6 +1090,7 @@ libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
 libquadmath0-gcc8
+libquorum5
 libquvi-0_9-0_9_4
 libquvi-scripts
 libqxp-0_0-0
@@ -1110,6 +1118,7 @@ librest-0_7-0
 librevenge-0_0-0
 librsvg-2-2
 libruby2_5-2_5
+libsam4
 libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
@@ -1203,6 +1212,7 @@ libtirpc3
 libtirpc3-32bit
 libtotem-plparser-mini18
 libtotem-plparser18
+libtotem_pg5
 libtracker-common-2_0
 libtracker-control-2_0-0
 libtracker-miner-2_0-0
@@ -1212,6 +1222,7 @@ libtwolame0
 libudev1
 libudev1-32bit
 libudisks2-0
+libudisks2_btrfs
 libumfpack-5_7_6
 libunistring2
 libunwind
@@ -1240,9 +1251,11 @@ libverto1-32bit
 libvisio-0_1-1
 libvisual
 libvmtools0
+libvolume_key1
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvotequorum8
 libvpx5
 libvte-2_91-0
 libvulkan_radeon
@@ -1335,6 +1348,8 @@ lsscsi
 lua53
 lua53-luasocket
 lvm2
+lvm2-clvm
+lvm2-cmirrord
 mailx
 man
 master-boot-code
@@ -1351,6 +1366,7 @@ mousetweaks-lang
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpg123-openal
 mpg123-pulse
 mpt-firmware

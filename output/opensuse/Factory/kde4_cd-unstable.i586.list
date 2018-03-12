@@ -1,5 +1,3 @@
-AppStream
-AppStream-lang
 GeoIP
 GeoIP-data
 Mesa
@@ -20,12 +18,7 @@ NetworkManager-pptp
 NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-lang
-PackageKit
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
-PackageKit-gtk3-module
-PackageKit-lang
 SUSEConnect
 aaa_base
 aaa_base-extras
@@ -62,8 +55,6 @@ apparmor-parser-lang
 apparmor-profiles
 apparmor-utils
 apparmor-utils-lang
-appstream-glib
-appstream-glib-lang
 ark
 ark-lang
 aspell
@@ -96,6 +87,7 @@ baloo5-widgets-lang
 bash
 bash-completion
 bash-lang
+bcache-tools
 bind-utils
 blog
 bluedevil5
@@ -117,7 +109,6 @@ breeze5-wallpapers
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
-bubblewrap
 bundle-lang-common-en
 bzip2
 ca-certificates
@@ -133,6 +124,7 @@ cifs-utils
 command-not-found
 coreutils
 coreutils-lang
+corosync
 cpio
 cpio-lang
 cpio-mt
@@ -170,8 +162,6 @@ dialog
 dialog-lang
 diffutils
 diffutils-lang
-discover
-discover-lang
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -210,15 +200,12 @@ findutils
 findutils-lang
 firewalld
 firewalld-lang
-flatpak
 fontconfig
 fonts-config
 frameworkintegration-plugin
 fuse
 gamin-server
 gawk
-gcab
-gcab-lang
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -765,8 +752,6 @@ libakonadiprotocolinternals1
 libao-plugins4
 libao4
 libapparmor1
-libappstream-builder8
-libappstream-glib8
 libappstream4
 libarchive13
 libargon2-1
@@ -775,6 +760,7 @@ libasound2
 libaspell15
 libass9
 libassuan0
+libatasmart-utils
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -795,6 +781,8 @@ libavresample3
 libavutil55
 libbind9-160
 libblkid1
+libblockdev
+libblockdev2
 libbluetooth3
 libbluray2
 libboost_date_time1_66_0
@@ -806,6 +794,8 @@ libboost_thread1_66_0
 libbsd0
 libbtrfs0
 libburn4
+libbytesize-lang
+libbytesize1
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -823,12 +813,16 @@ libcdda_paranoia0
 libcdio16
 libcdr-0_1-1
 libcelt0-2
+libcfg6
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
+libcmap4
 libcmis-0_5-5
 libcolord2
 libcom_err2
+libcorosync_common4
+libcpg4
 libcpupower0
 libcrack2
 libcroco-0_6-3
@@ -851,6 +845,7 @@ libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
 libdialog14
+libdlm3
 libdmtx0
 libdns169
 libdns_sd
@@ -895,7 +890,6 @@ libfastjson4
 libfdisk1
 libffi7
 libfftw3-3
-libflatpak0
 libfltk1
 libfont-specimen0
 libfontenc1
@@ -905,7 +899,6 @@ libfreetype6
 libfribidi0
 libfuse2
 libgbm1
-libgcab-1_0-0
 libgcc_s1-gcc8
 libgck-1-0
 libgcr-3-1
@@ -979,7 +972,6 @@ libirs160
 libisc166
 libisccc160
 libisccfg160
-libisl15
 libiso9660-10
 libisoburn1
 libisofs6
@@ -1113,8 +1105,6 @@ libopus0
 libopusfile0
 liborc-0_4-0
 liborcus-0_13-0
-libostree
-libostree-1-1
 libp11-kit0
 libpackagekit-glib2-18
 libpackagekitqt5-0
@@ -1160,6 +1150,7 @@ libpwquality1
 libpython2_7-1_0
 libpython3_6m1_0
 libqalculate13
+libqb0
 libqca-qt5
 libqca-qt5-plugins
 libqgpgme7
@@ -1183,6 +1174,7 @@ libqt5-qttranslations
 libqt5-qtvirtualkeyboard
 libqt5-qtwayland
 libqt5-qtwebengine
+libquorum5
 libqxp-0_0-0
 libraptor2-0
 librasqal3
@@ -1208,6 +1200,7 @@ librest-0_7-0
 librevenge-0_0-0
 librsvg-2-2
 libruby2_5-2_5
+libsam4
 libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
@@ -1270,11 +1263,13 @@ libtheoraenc1
 libtiff5
 libtirpc-netconfig
 libtirpc3
+libtotem_pg5
 libts0
 libturbojpeg0
 libtwolame0
 libudev1
 libudisks2-0
+libudisks2_btrfs
 libunistring2
 libunwind
 libupower-glib3
@@ -1298,9 +1293,11 @@ libverto-libev1
 libverto1
 libvisio-0_1-1
 libvisual
+libvolume_key1
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvotequorum8
 libvpx5
 libwacom-data
 libwacom2
@@ -1370,7 +1367,6 @@ libzip5
 libzmf-0_0-0
 libzstd1
 libzypp
-libzypp-plugin-appdata
 lifecycle-data-openSUSE
 lockdev
 logrotate
@@ -1378,6 +1374,8 @@ lomoco
 lsof
 lsscsi
 lvm2
+lvm2-clvm
+lvm2-cmirrord
 mailcommon
 mailcommon-lang
 mailimporter
@@ -1408,6 +1406,7 @@ mobile-broadband-provider-info
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpg123-openal
 mpg123-pulse
 mpt-firmware
@@ -1762,7 +1761,6 @@ traceroute
 translation-update
 tuned
 typelib-1_0-Atk-1_0
-typelib-1_0-Flatpak-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-NM-1_0
@@ -1806,10 +1804,6 @@ xauth
 xbitmaps
 xclock
 xconsole
-xdg-desktop-portal
-xdg-desktop-portal-kde
-xdg-desktop-portal-kde-lang
-xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-lang

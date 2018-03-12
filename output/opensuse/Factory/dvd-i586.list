@@ -50,15 +50,10 @@ OpenPrintingPPDs
 OpenPrintingPPDs-ghostscript
 OpenPrintingPPDs-hpijs
 OpenPrintingPPDs-postscript
-PackageKit
 PackageKit-Qt-devel
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
-PackageKit-lang
 SUSEConnect
-SuSEfirewall2
 WindowMaker
 WindowMaker-applets
 WindowMaker-themes
@@ -238,6 +233,7 @@ bash-doc
 bash-lang
 bbswitch-kmp-default
 bc
+bcache-tools
 bcm20702a1-firmware
 bcm43xx-firmware
 bcmatroska2-devel
@@ -429,6 +425,7 @@ command-not-found
 compface
 coreutils
 coreutils-lang
+corosync
 cpio
 cpio-lang
 cpio-mt
@@ -511,8 +508,6 @@ diffutils
 diffutils-lang
 ding
 ding-dict-de_en
-discover
-discover-lang
 djvulibre
 dleyna-connector-dbus
 dleyna-renderer
@@ -666,7 +661,6 @@ firewalld-lang
 fixesproto-devel
 flac
 flac-devel
-flatpak
 flatpak-builder
 flex
 flute
@@ -2003,7 +1997,7 @@ libSDL_mixer-1_2-0
 libSDL_ttf-2_0-0
 libSM-devel
 libSM6
-libSPIRV-Tools-suse5
+libSPIRV-Tools-suse6
 libSoundTouch0
 libX11-6
 libX11-data
@@ -2040,6 +2034,7 @@ libXpm-devel
 libXpm4
 libXprintUtil-devel
 libXprintUtil1
+libXrandr-devel
 libXrandr2
 libXrender-devel
 libXrender1
@@ -2095,6 +2090,7 @@ libass9
 libassuan-devel
 libassuan0
 libastro1
+libatasmart-utils
 libatasmart4
 libatk-1_0-0
 libatk-bridge-2_0-0
@@ -2145,6 +2141,8 @@ libbind9-160
 libblas3
 libblkid-devel
 libblkid1
+libblockdev
+libblockdev2
 libbluetooth3
 libbluray2
 libbonobo
@@ -2173,6 +2171,8 @@ libbs2b0
 libbsd0
 libbtrfs0
 libburn4
+libbytesize-lang
+libbytesize1
 libbz2-1
 libbz2-devel
 libbzrtp0
@@ -2210,6 +2210,7 @@ libcdio_paranoia2
 libcdr-0_1-1
 libcelt0-2
 libcelt051-0
+libcfg6
 libcfitsio5
 libchamplain-0_12-0
 libcheese-common
@@ -2241,6 +2242,7 @@ libcolorhug2
 libcom_err-devel
 libcom_err2
 libcorosync_common4
+libcpg4
 libcppunit-1_14-0
 libcpupower0
 libcrack2
@@ -2435,7 +2437,6 @@ libgdlmm-3_0-2
 libgdm1
 libgeany0
 libgee-0_8-2
-libgegl-0_2-0
 libgegl-0_3-0
 libgeocode-glib0
 libgepub0
@@ -2661,7 +2662,6 @@ libisc166
 libisccc160
 libisccfg160
 libiscsi8
-libisl15
 libiso9660-10
 libisoburn1
 libisofs6
@@ -2961,7 +2961,6 @@ libosip2
 libosip2-devel
 libospf0
 libospfapiclient0
-libostree
 libostree-1-1
 libotf0
 libotr-devel
@@ -3138,6 +3137,7 @@ libqtcurve-cairo1
 libqtcurve-utils2
 libquadmath0-gcc8
 libquicktime0
+libquorum5
 libquvi-0_9-0_9_4
 libquvi-scripts
 libqxp-0_0-0
@@ -3199,6 +3199,7 @@ librevenge-stream-0_0-0
 librhash0
 librsvg-2-2
 libruby2_5-2_5
+libsam4
 libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
@@ -3338,6 +3339,7 @@ libtirpc3
 libtool
 libtotem-plparser-mini18
 libtotem-plparser18
+libtotem_pg5
 libtowitoko2
 libtracker-common-2_0
 libtracker-control-2_0-0
@@ -3353,6 +3355,7 @@ libudev-devel
 libudev1
 libudf0
 libudisks2-0
+libudisks2_btrfs
 libumfpack-5_7_6
 libunbound2
 libunicap-devel
@@ -3431,10 +3434,12 @@ libvisual-devel
 libvmtools0
 libvncclient0
 libvncserver0
+libvolume_key1
 libvorbis-devel
 libvorbis0
 libvorbisenc2
 libvorbisfile3
+libvotequorum8
 libvpx5
 libvte-2_91-0
 libvte9
@@ -3638,6 +3643,8 @@ lua53-luasocket
 luit
 lv
 lvm2
+lvm2-clvm
+lvm2-cmirrord
 lxappearance
 lxappearance-lang
 lxappearance-obconf
@@ -4911,7 +4918,6 @@ subversion-tools
 sudo
 sunpinyin-data
 suse-module-tools
-susefirewall2-to-firewalld
 susepaste
 susepaste-screenshot
 sushi
@@ -5067,7 +5073,6 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
-typelib-1_0-Flatpak-1_0
 typelib-1_0-GData-0_0
 typelib-1_0-GES-1_0
 typelib-1_0-GFBGraph-0_2
@@ -5222,6 +5227,7 @@ vym
 w3m
 w3m-el
 wallpaper-branding-openSUSE
+wayland-devel
 wdiff
 wdiff-lang
 webkit2gtk-4_0-injected-bundles

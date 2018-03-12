@@ -1,4 +1,3 @@
-AppStream
 GeoIP
 GeoIP-data
 Mesa-dri
@@ -13,11 +12,7 @@ NetworkManager-branding-openSUSE
 NetworkManager-openvpn
 NetworkManager-pptp
 NetworkManager-vpnc
-PackageKit
-PackageKit-backend-zypp
-PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
-PackageKit-gtk3-module
 SUSEConnect
 aaa_base
 aaa_base-extras
@@ -34,7 +29,6 @@ apparmor-abstractions
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-appstream-glib
 ark
 at-spi2-atk-common
 at-spi2-atk-gtk2
@@ -71,7 +65,6 @@ breeze5-style
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
-bubblewrap
 bzip2
 ca-certificates
 ca-certificates-mozilla
@@ -115,7 +108,6 @@ dhcp
 dhcp-client
 dialog
 diffutils
-discover
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -143,14 +135,12 @@ filesystem
 fillup
 findutils
 firewalld
-flatpak
 fontconfig
 fonts-config
 frameworkintegration-plugin
 fuse
 gamin-server
 gawk
-gcab
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -465,8 +455,6 @@ libaio1
 libao-plugins4
 libao4
 libapparmor1
-libappstream-builder8
-libappstream-glib8
 libappstream4
 libarchive13
 libargon2-1
@@ -570,7 +558,6 @@ libfastjson4
 libfdisk1
 libffi7
 libfftw3-3
-libflatpak0
 libfltk1
 libfont-specimen0
 libfontenc1
@@ -579,7 +566,6 @@ libfreetype6
 libfribidi0
 libfuse2
 libgbm1
-libgcab-1_0-0
 libgcc_s1-gcc8
 libgck-1-0
 libgcr-3-1
@@ -647,7 +633,6 @@ libirs160
 libisc166
 libisccc160
 libisccfg160
-libisl15
 libisoburn1
 libisofs6
 libiw30
@@ -747,8 +732,6 @@ libopenssl1_0_0
 libopenssl1_1
 libopus0
 liborc-0_4-0
-libostree
-libostree-1-1
 libp11-kit0
 libpackagekit-glib2-18
 libpackagekitqt5-0
@@ -957,7 +940,6 @@ libzio1
 libzip5
 libzstd1
 libzypp
-libzypp-plugin-appdata
 lifecycle-data-openSUSE
 lockdev
 logrotate
@@ -1277,7 +1259,6 @@ traceroute
 translation-update
 tuned
 typelib-1_0-Atk-1_0
-typelib-1_0-Flatpak-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-NM-1_0
@@ -1313,8 +1294,6 @@ xauth
 xbitmaps
 xclock
 xconsole
-xdg-desktop-portal
-xdg-desktop-portal-kde
 xdg-menu
 xdg-user-dirs
 xdg-utils
