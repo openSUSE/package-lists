@@ -50,8 +50,13 @@ OpenPrintingPPDs
 OpenPrintingPPDs-ghostscript
 OpenPrintingPPDs-hpijs
 OpenPrintingPPDs-postscript
+PackageKit
 PackageKit-Qt-devel
+PackageKit-backend-zypp
+PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
+PackageKit-lang
 SUSEConnect
 WindowMaker
 WindowMaker-applets
@@ -509,6 +514,8 @@ diffutils
 diffutils-lang
 ding
 ding-dict-de_en
+discover
+discover-lang
 djvulibre
 dleyna-connector-dbus
 dleyna-renderer
@@ -663,6 +670,7 @@ firewalld-lang
 fixesproto-devel
 flac
 flac-devel
+flatpak
 flatpak-builder
 flex
 flute
@@ -3045,6 +3053,7 @@ libosip2
 libosip2-devel
 libospf0
 libospfapiclient0
+libostree
 libostree-1-1
 libotf0
 libotr-devel
@@ -5237,6 +5246,7 @@ typelib-1_0-Cogl-1_0
 typelib-1_0-CoglPango-1_0
 typelib-1_0-EvinceDocument-3_0
 typelib-1_0-EvinceView-3_0
+typelib-1_0-Flatpak-1_0
 typelib-1_0-GData-0_0
 typelib-1_0-GES-1_0
 typelib-1_0-GFBGraph-0_2
@@ -5428,6 +5438,12 @@ xclip
 xclock
 xconsole
 xdelta3
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gtk-lang
+xdg-desktop-portal-kde
+xdg-desktop-portal-kde-lang
+xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk

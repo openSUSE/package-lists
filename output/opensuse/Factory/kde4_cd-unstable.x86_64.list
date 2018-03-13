@@ -1,3 +1,5 @@
+AppStream
+AppStream-lang
 GeoIP
 GeoIP-data
 Mesa
@@ -18,7 +20,12 @@ NetworkManager-pptp
 NetworkManager-pptp-lang
 NetworkManager-vpnc
 NetworkManager-vpnc-lang
+PackageKit
+PackageKit-backend-zypp
+PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
+PackageKit-gtk3-module
+PackageKit-lang
 SUSEConnect
 aaa_base
 aaa_base-extras
@@ -55,6 +62,8 @@ apparmor-parser-lang
 apparmor-profiles
 apparmor-utils
 apparmor-utils-lang
+appstream-glib
+appstream-glib-lang
 ark
 ark-lang
 aspell
@@ -109,6 +118,7 @@ breeze5-wallpapers
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
+bubblewrap
 bundle-lang-common-en
 bzip2
 ca-certificates
@@ -162,6 +172,8 @@ dialog
 dialog-lang
 diffutils
 diffutils-lang
+discover
+discover-lang
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -200,12 +212,15 @@ findutils
 findutils-lang
 firewalld
 firewalld-lang
+flatpak
 fontconfig
 fonts-config
 frameworkintegration-plugin
 fuse
 gamin-server
 gawk
+gcab
+gcab-lang
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -752,6 +767,8 @@ libakonadiprotocolinternals1
 libao-plugins4
 libao4
 libapparmor1
+libappstream-builder8
+libappstream-glib8
 libappstream4
 libarchive13
 libargon2-1
@@ -891,6 +908,7 @@ libfastjson4
 libfdisk1
 libffi7
 libfftw3-3
+libflatpak0
 libfltk1
 libfont-specimen0
 libfontenc1
@@ -900,6 +918,7 @@ libfreetype6
 libfribidi0
 libfuse2
 libgbm1
+libgcab-1_0-0
 libgcc_s1-gcc8
 libgck-1-0
 libgcr-3-1
@@ -1106,6 +1125,8 @@ libopus0
 libopusfile0
 liborc-0_4-0
 liborcus-0_13-0
+libostree
+libostree-1-1
 libp11-kit0
 libpackagekit-glib2-18
 libpackagekitqt5-0
@@ -1368,6 +1389,7 @@ libzip5
 libzmf-0_0-0
 libzstd1
 libzypp
+libzypp-plugin-appdata
 lifecycle-data-openSUSE
 lockdev
 logrotate
@@ -1765,6 +1787,7 @@ traceroute
 translation-update
 tuned
 typelib-1_0-Atk-1_0
+typelib-1_0-Flatpak-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-NM-1_0
@@ -1808,6 +1831,10 @@ xauth
 xbitmaps
 xclock
 xconsole
+xdg-desktop-portal
+xdg-desktop-portal-kde
+xdg-desktop-portal-kde-lang
+xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-lang
