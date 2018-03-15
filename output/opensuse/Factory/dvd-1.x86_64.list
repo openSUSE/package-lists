@@ -118,10 +118,6 @@ amavisd-new
 amavisd-new-docs
 analitza
 analitza-lang
-anjuta
-anjuta-extras
-anjuta-extras-lang
-anjuta-lang
 antlr
 antlr-devel
 antlr-java
@@ -211,7 +207,6 @@ augeas-lenses
 autoconf
 autoconf-el
 autofs
-autogen
 automake
 autotrace
 autoyast2
@@ -407,9 +402,6 @@ circuslinux
 ckermit
 clamav
 clamz
-clang
-clang4-checker
-clang5
 claws-mail
 claws-mail-lang
 clicfs
@@ -424,6 +416,7 @@ cmpi-provider-register
 cogl-lang
 colord
 colord-color-profiles
+colord-gtk-lang
 colord-lang
 command-not-found
 compface
@@ -455,6 +448,7 @@ cups-config
 cups-devel
 cups-filters
 cups-pk-helper
+cups-pk-helper-lang
 curl
 cvs
 cvsps
@@ -565,10 +559,14 @@ emacs-apel
 emacs-flim
 emacs-info
 emacs-nox
+emacs-plugin-devhelp
 emacs-x11
 empathy
 empathy-lang
 enblend-enfuse
+enchant-1-backend-voikko
+enchant-2-backend-voikko
+enchant-data
 enchant-devel
 enscript
 eog
@@ -738,6 +736,7 @@ gconf2-lang
 gcr-data
 gcr-lang
 gcr-prompter
+gcr-ssh-askpass
 gcr-viewer
 gd
 gdb
@@ -838,23 +837,11 @@ gnome-backgrounds-lang
 gnome-bluetooth
 gnome-bluetooth-lang
 gnome-builder
+gnome-builder-doc
 gnome-builder-lang
-gnome-builder-plugin-beautifier
-gnome-builder-plugin-clang
-gnome-builder-plugin-cmake
-gnome-builder-plugin-ctags
-gnome-builder-plugin-devhelp
-gnome-builder-plugin-gettext
-gnome-builder-plugin-gnome-code-assistance
-gnome-builder-plugin-html-completion
 gnome-builder-plugin-jedi
 gnome-builder-plugin-jhbuild
-gnome-builder-plugin-mingw
-gnome-builder-plugin-symbol-tree
-gnome-builder-plugin-sysmon
-gnome-builder-plugin-todo
 gnome-builder-plugin-vala-pack
-gnome-builder-plugin-xml-pack
 gnome-calculator
 gnome-calculator-lang
 gnome-characters
@@ -863,7 +850,6 @@ gnome-chess
 gnome-chess-lang
 gnome-clocks
 gnome-clocks-lang
-gnome-code-assistance
 gnome-color-manager
 gnome-color-manager-lang
 gnome-contacts
@@ -885,6 +871,8 @@ gnome-dvb-daemon
 gnome-dvb-daemon-lang
 gnome-font-viewer
 gnome-font-viewer-lang
+gnome-games
+gnome-games-lang
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
@@ -949,11 +937,12 @@ gnome-terminal
 gnome-terminal-lang
 gnome-themes-accessibility
 gnome-themes-accessibility-gtk2
-gnome-tweak-tool
-gnome-tweak-tool-lang
+gnome-tweaks
+gnome-tweaks-lang
 gnome-user-docs
 gnome-user-docs-lang
 gnome-user-share
+gnome-user-share-lang
 gnome-version
 gnome-vfs2
 gnome-vfs2-devel
@@ -1020,12 +1009,11 @@ gstreamer
 gstreamer-devel
 gstreamer-lang
 gstreamer-libnice
-gstreamer-plugin-gstclutter-3_0
+gstreamer-plugin-cluttergst3
 gstreamer-plugins-bad
 gstreamer-plugins-bad-lang
 gstreamer-plugins-base
 gstreamer-plugins-base-lang
-gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-extra
@@ -1098,7 +1086,6 @@ gtkspell3-lang
 gucharmap
 gucharmap-lang
 guestfs-data
-guile-modules-2_0
 gupnp-av
 gutenprint
 gv
@@ -1187,7 +1174,6 @@ ibus-table-translit
 ibus-table-zhuyin
 iceauth
 icecream
-icecream-clang-wrappers
 icecream-monitor
 icedax
 icedtea-web
@@ -1911,9 +1897,7 @@ libKPimImportWizard5
 libKPimKDAV5
 libKPimSMTP5
 libKScreenLocker5
-libLLVM4
 libLLVM5
-libLTO5
 libMagick++-7_Q16HDRI4
 libMagickCore-7_Q16HDRI5
 libMagickWand-7_Q16HDRI5
@@ -2071,7 +2055,6 @@ libakonadiprotocolinternals1
 libalkimia-devel
 libalkimia7
 libamd-2_4_6
-libanjuta-3-0
 libantlr3c3
 libao-devel
 libao-plugins4
@@ -2194,10 +2177,6 @@ libbz2-1
 libbz2-1-32bit
 libbz2-devel
 libbzrtp0
-libc++-devel
-libc++1
-libc++abi-devel
-libc++abi1
 libc-client2007e_suse
 libcaca0
 libcacard0
@@ -2207,7 +2186,7 @@ libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
 libcamd-2_4_6
-libcamel-1_2-60
+libcamel-1_2-61
 libcanberra-devel
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -2248,7 +2227,6 @@ libchm0
 libcholmod-3_0_11
 libcilkrts5
 libclamav7
-libclang4
 libclang5
 libclastfm0
 libclucene-contribs-lib1
@@ -2355,8 +2333,8 @@ libecal-1_2-19
 libecpg6
 libedata-book-1_2-25
 libedata-cal-1_2-28
-libedataserver-1_2-22
-libedataserverui-1_2-1
+libedataserver-1_2-23
+libedataserverui-1_2-2
 libedit0
 libeditorconfig0
 libefivar1
@@ -2364,6 +2342,7 @@ libeigen2-devel
 libelf-devel
 libelf1
 libenca0
+libenchant-2-2
 libenchant1
 libeot0
 libepoxy0
@@ -2439,6 +2418,7 @@ libfreerdp2
 libfreetype6
 libfreetype6-32bit
 libfribidi0
+libfribidi0-32bit
 libfstrm0
 libftgl2
 libfuse2
@@ -2464,12 +2444,6 @@ libgcrypt-devel
 libgcrypt20
 libgcrypt20-32bit
 libgd3
-libgda-5_0-4
-libgda-5_0-4-lang
-libgda-5_0-bdb
-libgda-5_0-sqlite
-libgda-ui-5_0-4
-libgda-ui-5_0-plugins
 libgdata-lang
 libgdata22
 libgdbm4
@@ -2534,7 +2508,7 @@ libgnome
 libgnome-autoar-0-0
 libgnome-autoar-gtk-0-0
 libgnome-bluetooth13
-libgnome-desktop-3-12
+libgnome-desktop-3-17
 libgnome-desktop-3_0-common
 libgnome-devel
 libgnome-games-support-1-2
@@ -2598,7 +2572,7 @@ libgsl23
 libgslcblas0
 libgsm1
 libgsound0
-libgspell-1-1
+libgspell-1-2
 libgssdp-1_0-3
 libgssglue-devel
 libgssglue1
@@ -2649,7 +2623,6 @@ libgudev-1_0-0
 libgudev-1_0-devel
 libguess1
 libguestfs0
-libguile-2_0-22
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-dlna-2_0-3
@@ -2657,7 +2630,7 @@ libgupnp-dlna-backend-gstreamer
 libgupnp-igd-1_0-4
 libgusb2
 libgvnc-1_0-0
-libgweather-3-6
+libgweather-3-15
 libgweather-lang
 libgwengui-cpp0
 libgwengui-fox16-0
@@ -2669,12 +2642,14 @@ libgwenhywfar60-plugins
 libgxps2
 libgypsy0
 libhangul1
+libharfbuzz-gobject0
 libharfbuzz-icu0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
 libhdf5-101
 libhdf5_hl100
+libhfstospell10
 libhivex0
 libhogweed4
 libhogweed4-32bit
@@ -2698,6 +2673,7 @@ libidn2-0
 libidn2-0-32bit
 libiec61883-0
 libieee1284-3
+libimagequant0
 libimobiledevice-devel
 libimobiledevice6
 libinchi0
@@ -2751,7 +2727,7 @@ libjson-c3
 libjson-c3-32bit
 libjson-glib-1_0-0
 libjsoncpp19
-libjsonrpc_glib-1_0-0
+libjsonrpc-glib-1_0-1
 libjte1
 libkaccounts1
 libkactivities6
@@ -2881,6 +2857,7 @@ libmad0
 libmagic1
 libmal-devel
 libmal1
+libmanette-0_2-0
 libmarblewidget-qt5-28
 libmariadb-devel
 libmariadb3
@@ -2944,7 +2921,7 @@ libmtp9
 libmusicbrainz-devel
 libmusicbrainz4
 libmusicbrainz5-1
-libmutter-1-0
+libmutter-2-0
 libmwaw-0_3-3
 libmxml1
 libmygpo-qt1
@@ -3013,7 +2990,6 @@ libogg0-32bit
 liboggkate1
 liboil
 liboil-devel
-libomp5-devel
 libonig4
 libopagent1
 libopal3_10_10
@@ -3031,7 +3007,6 @@ libopenssl-1_1-devel
 libopenssl-devel
 libopenssl1_1
 libopenssl1_1-32bit
-libopts-devel
 libopts25
 libopus0
 libopusfile0
@@ -3290,6 +3265,7 @@ libreoffice-writer
 libreofficekit
 librepository
 librest-0_7-0
+libretro-gtk-0_14
 librevenge-0_0-0
 librevenge-devel
 librevenge-generators-0_0-0
@@ -3513,7 +3489,7 @@ libva-drm2
 libva-glx2
 libva-x11-2
 libva2
-libvala-0_38-0
+libvala-0_40-0
 libvamp-hostsdk3
 libvcdinfo0
 libvdeplug3
@@ -3562,6 +3538,7 @@ libvisual-devel
 libvmtools0
 libvncclient0
 libvncserver0
+libvoikko1
 libvolume_key1
 libvorbis-devel
 libvorbis0
@@ -3746,6 +3723,7 @@ lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
+lightsoff-doc
 lightsoff-lang
 links
 linux-glibc-devel
@@ -3815,6 +3793,7 @@ make
 make-lang
 makedumpfile
 makeinfo
+malaga-suomi
 man
 man-pages
 man-pages-fr
@@ -4629,7 +4608,9 @@ plymouth-dracut
 plymouth-plugin-label
 plymouth-plugin-label-ft
 plymouth-plugin-script
+plymouth-plugin-two-step
 plymouth-scripts
+pngquant
 polari
 polari-lang
 polkit
@@ -4747,7 +4728,6 @@ python2-keyring
 python2-lxml
 python2-numpy
 python2-packaging
-python2-ply
 python2-pyasn1
 python2-pycparser
 python2-pycrypto
@@ -4756,7 +4736,6 @@ python2-pygame
 python2-pyparsing
 python2-python-dateutil
 python2-pyudev
-python2-pywbem
 python2-pyxdg
 python2-qt5
 python2-rpm
@@ -4769,8 +4748,10 @@ python2-urwid
 python2-yum
 python3
 python3-Cycler
+python3-M2Crypto
 python3-Pillow
 python3-PySocks
+python3-PyYAML
 python3-apparmor
 python3-appdirs
 python3-asn1crypto
@@ -4826,6 +4807,7 @@ python3-pyparsing
 python3-pysmbc
 python3-python-dateutil
 python3-pytz
+python3-pywbem
 python3-pyxdg
 python3-requests
 python3-rpm
@@ -5251,7 +5233,7 @@ typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
 typelib-1_0-Grl-0_3
 typelib-1_0-Gsf-1
-typelib-1_0-Gspell-1_0
+typelib-1_0-Gspell-1
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -5264,6 +5246,7 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-GtkVnc-2_0
+typelib-1_0-HarfBuzz-0_0
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
@@ -5275,8 +5258,8 @@ typelib-1_0-LibvirtSandbox-1_0
 typelib-1_0-MediaArt-2_0
 typelib-1_0-ModemManager-1_0
 typelib-1_0-NM-1_0
+typelib-1_0-NMA-1_0
 typelib-1_0-NMClient-1_0
-typelib-1_0-NMGtk-1_0
 typelib-1_0-NetworkManager-1_0
 typelib-1_0-Notify-0_7
 typelib-1_0-PackageKitGlib-1_0
@@ -5429,6 +5412,7 @@ xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
+xdg-user-dirs-gtk-lang
 xdg-user-dirs-lang
 xdg-utils
 xdm

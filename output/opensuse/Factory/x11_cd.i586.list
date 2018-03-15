@@ -390,6 +390,7 @@ libfontenc1
 libfprint0
 libfreebl3
 libfreetype6
+libfribidi0
 libfuse2
 libfvalue1
 libgarcon-1-0
@@ -413,7 +414,7 @@ libglibmm-2_4-1
 libglvnd
 libgmodule-2_0-0
 libgmp10
-libgnome-desktop-3-12
+libgnome-desktop-3-17
 libgnome-desktop-3_0-common
 libgnomesu
 libgnomesu0
@@ -857,8 +858,10 @@ pkg-config
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
+plymouth-plugin-label
 plymouth-plugin-label-ft
 plymouth-plugin-script
+plymouth-plugin-two-step
 plymouth-scripts
 polkit
 polkit-default-privs

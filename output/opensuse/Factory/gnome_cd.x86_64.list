@@ -128,6 +128,7 @@ cifs-utils
 clutter-gtk-lang
 clutter-lang
 cogl-lang
+colord-gtk-lang
 command-not-found
 coreutils
 coreutils-lang
@@ -149,6 +150,7 @@ cups-client
 cups-config
 cups-filters
 cups-pk-helper
+cups-pk-helper-lang
 curl
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -192,6 +194,9 @@ elfutils
 elfutils-lang
 empathy
 empathy-lang
+enchant-1-backend-voikko
+enchant-2-backend-voikko
+enchant-data
 eog
 eog-lang
 espeak
@@ -238,6 +243,7 @@ gconf2-lang
 gcr-data
 gcr-lang
 gcr-prompter
+gcr-ssh-askpass
 gcr-viewer
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -352,11 +358,12 @@ gnome-terminal
 gnome-terminal-lang
 gnome-themes-accessibility
 gnome-themes-accessibility-gtk2
-gnome-tweak-tool
-gnome-tweak-tool-lang
+gnome-tweaks
+gnome-tweaks-lang
 gnome-user-docs
 gnome-user-docs-lang
 gnome-user-share
+gnome-user-share-lang
 gnome-version
 gnome-video-effects
 gnu-unifont-bitmap-fonts
@@ -392,12 +399,11 @@ gspell-lang
 gstreamer
 gstreamer-lang
 gstreamer-libnice
-gstreamer-plugin-gstclutter-3_0
+gstreamer-plugin-cluttergst3
 gstreamer-plugins-bad
 gstreamer-plugins-bad-lang
 gstreamer-plugins-base
 gstreamer-plugins-base-lang
-gstreamer-plugins-cogl
 gstreamer-plugins-farstream
 gstreamer-plugins-good
 gstreamer-plugins-good-lang
@@ -607,7 +613,7 @@ libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
 libcamd-2_4_6
-libcamel-1_2-60
+libcamel-1_2-61
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -672,6 +678,7 @@ libcupsppdc1
 libcurl4
 libdaemon0
 libdatrie1
+libdazzle-1_0-0
 libdb-4_8
 libdbus-1-3
 libdbus-1-3-32bit
@@ -707,12 +714,13 @@ libebook-contacts-1_2-2
 libecal-1_2-19
 libedata-book-1_2-25
 libedata-cal-1_2-28
-libedataserver-1_2-22
-libedataserverui-1_2-1
+libedataserver-1_2-23
+libedataserverui-1_2-2
 libedit0
 libefivar1
 libelf1
 libenca0
+libenchant-2-2
 libenchant1
 libeot0
 libepoxy0
@@ -796,7 +804,7 @@ libgmp10
 libgnome-autoar-0-0
 libgnome-autoar-gtk-0-0
 libgnome-bluetooth13
-libgnome-desktop-3-12
+libgnome-desktop-3-17
 libgnome-desktop-3_0-common
 libgnome-games-support-1-2
 libgnome-games-support-lang
@@ -832,7 +840,7 @@ libgsf-1-114
 libgsf-lang
 libgsm1
 libgsound0
-libgspell-1-1
+libgspell-1-2
 libgssdp-1_0-3
 libgstadaptivedemux-1_0-0
 libgstallocators-1_0-0
@@ -875,12 +883,13 @@ libgupnp-dlna-backend-gstreamer
 libgupnp-igd-1_0-4
 libgusb2
 libgvnc-1_0-0
-libgweather-3-6
+libgweather-3-15
 libgweather-lang
 libgxps2
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
+libhfstospell10
 libhogweed4
 libhunspell-1_6-0
 libhyphen0
@@ -891,6 +900,7 @@ libicu60_2-ledata
 libidn11
 libidn2-0
 libieee1284-3
+libimagequant0
 libimobiledevice6
 libini_config5
 libinput-udev
@@ -979,7 +989,7 @@ libmtdev1
 libmtp-udev
 libmtp9
 libmusicbrainz5-1
-libmutter-1-0
+libmutter-2-0
 libmwaw-0_3-3
 libmythes-1_2-0
 libnautilus-extension1
@@ -1255,6 +1265,7 @@ libverto1-32bit
 libvisio-0_1-1
 libvisual
 libvmtools0
+libvoikko1
 libvolume_key1
 libvorbis0
 libvorbisenc2
@@ -1342,6 +1353,7 @@ libzypp
 libzypp-plugin-appdata
 lifecycle-data-openSUSE
 lightsoff
+lightsoff-doc
 lightsoff-lang
 lockdev
 logrotate
@@ -1355,6 +1367,7 @@ lvm2
 lvm2-clvm
 lvm2-cmirrord
 mailx
+malaga-suomi
 man
 master-boot-code
 mbimcli-bash-completion
@@ -1533,9 +1546,12 @@ pkg-config
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
+plymouth-plugin-label
 plymouth-plugin-label-ft
 plymouth-plugin-script
+plymouth-plugin-two-step
 plymouth-scripts
+pngquant
 polari
 polari-lang
 polkit
@@ -1793,7 +1809,7 @@ typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
 typelib-1_0-Grl-0_3
-typelib-1_0-Gspell-1_0
+typelib-1_0-Gspell-1
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -1807,9 +1823,7 @@ typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
 typelib-1_0-MediaArt-2_0
 typelib-1_0-NM-1_0
-typelib-1_0-NMClient-1_0
-typelib-1_0-NMGtk-1_0
-typelib-1_0-NetworkManager-1_0
+typelib-1_0-NMA-1_0
 typelib-1_0-Notify-0_7
 typelib-1_0-PackageKitGlib-1_0
 typelib-1_0-Pango-1_0
@@ -1885,6 +1899,7 @@ xconsole
 xdg-menu
 xdg-user-dirs
 xdg-user-dirs-gtk
+xdg-user-dirs-gtk-lang
 xdg-user-dirs-lang
 xdg-utils
 xdm

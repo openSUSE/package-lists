@@ -94,6 +94,8 @@ e2fsprogs
 ebtables
 efibootmgr
 elfutils
+enchant-2-backend-voikko
+enchant-data
 ethtool
 expat
 fdupes
@@ -158,7 +160,6 @@ gtk3-metatheme-adwaita
 gtk3-tools
 gtk4-schema
 gvfs
-gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
@@ -320,7 +321,7 @@ libebl-plugins
 libedit0
 libefivar1
 libelf1
-libenchant1
+libenchant-2-2
 libepoxy0
 liberation-fonts
 libesmtp6
@@ -383,14 +384,13 @@ libgudev-1_0-0
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
+libhfstospell10
 libhogweed4
-libhunspell-1_6-0
 libhyphen0
 libicu60_2
 libicu60_2-ledata
 libidn11
 libidn2-0
-libimobiledevice6
 libinput-udev
 libinput10
 libipset11
@@ -470,7 +470,6 @@ libpcre1
 libpcre2-16-0
 libpipeline1
 libpixman-1-0
-libplist3
 libply-boot-client4
 libply-splash-core4
 libply-splash-graphics4
@@ -539,12 +538,12 @@ libudisks2_btrfs
 libunistring2
 libunwind
 libusb-1_0-0
-libusbmuxd4
 libustr-1_0-1
 libutempter0
 libuuid1
 libverto1
 libvisual
+libvoikko1
 libvolume_key1
 libvorbis0
 libvorbisenc2
@@ -608,6 +607,7 @@ lvm2
 lvm2-clvm
 lvm2-cmirrord
 mailx
+malaga-suomi
 man
 master-boot-code
 mcelog
@@ -713,8 +713,10 @@ pinentry
 pkg-config
 plymouth
 plymouth-dracut
+plymouth-plugin-label
 plymouth-plugin-label-ft
 plymouth-plugin-script
+plymouth-plugin-two-step
 plymouth-scripts
 polkit
 polkit-default-privs
@@ -842,7 +844,6 @@ udisks2
 unzip
 unzip-doc
 update-alternatives
-usbmuxd
 usbutils
 util-linux
 util-linux-systemd

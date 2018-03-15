@@ -1,3 +1,5 @@
+AppStream
+AppStream-lang
 GeoIP
 GeoIP-data
 Mesa
@@ -53,6 +55,8 @@ apparmor-parser-lang
 apparmor-profiles
 apparmor-utils
 apparmor-utils-lang
+appstream-glib
+appstream-glib-lang
 ark
 ark-lang
 aspell
@@ -100,6 +104,7 @@ breeze5-wallpapers
 btrfsmaintenance
 btrfsprogs
 btrfsprogs-udev-rules
+bubblewrap
 bundle-lang-common-en
 bzip2
 ca-certificates
@@ -151,6 +156,8 @@ dialog
 dialog-lang
 diffutils
 diffutils-lang
+discover
+discover-lang
 dmidecode
 dmraid
 dmz-icon-theme-cursors
@@ -190,6 +197,7 @@ findutils
 findutils-lang
 firewalld
 firewalld-lang
+flatpak
 fontconfig
 fonts-config
 fprintd
@@ -199,11 +207,14 @@ frameworkintegration-plugin
 fuse
 gamin-server
 gawk
+gcab
+gcab-lang
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
 gconf2-lang
 gdb
+gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
 genisoimage
@@ -277,6 +288,7 @@ iso_ent
 issue-generator
 iw
 jfsutils
+json-glib-lang
 kaccounts-integration
 kaccounts-integration-lang
 kaccounts-providers
@@ -679,6 +691,8 @@ libaio1
 libao-plugins4
 libao4
 libapparmor1
+libappstream-builder8
+libappstream-glib8
 libappstream4
 libarchive13
 libargon2-1
@@ -775,6 +789,7 @@ libfam0-gamin
 libfdisk1
 libffi7
 libfftw3-3
+libflatpak0
 libfltk1
 libfont-specimen0
 libfontenc1
@@ -784,6 +799,7 @@ libfreetype6
 libfribidi0
 libfuse2
 libgbm1
+libgcab-1_0-0
 libgcc_s1-gcc8
 libgcrypt20
 libgd3
@@ -841,6 +857,7 @@ libicu60_2
 libicu60_2-ledata
 libidn11
 libidn2-0
+libimagequant0
 libimobiledevice6
 libini_config5
 libinput-udev
@@ -862,6 +879,7 @@ libjemalloc2
 libjpeg-turbo
 libjpeg8
 libjson-c3
+libjson-glib-1_0-0
 libjte1
 libkaccounts1
 libkate1
@@ -958,6 +976,8 @@ libopenjpeg1
 libopenssl1_1
 libopus0
 liborc-0_4-0
+libostree
+libostree-1-1
 libp11-kit0
 libpackagekit-glib2-18
 libpackagekitqt5-0
@@ -1024,6 +1044,7 @@ libref_array1
 libreiserfscore0
 libreoffice-icon-themes
 libreoffice-share-linker
+librsvg-2-2
 libruby2_5-2_5
 libsamba-credentials0
 libsamba-errors0
@@ -1186,6 +1207,7 @@ libzio1
 libzip5
 libzstd1
 libzypp
+libzypp-plugin-appdata
 lifecycle-data-openSUSE
 lockdev
 logrotate
@@ -1384,9 +1406,12 @@ plasma5-workspace-libs
 plymouth
 plymouth-branding-openSUSE
 plymouth-dracut
+plymouth-plugin-label
 plymouth-plugin-label-ft
 plymouth-plugin-script
+plymouth-plugin-two-step
 plymouth-scripts
+pngquant
 polkit
 polkit-default-privs
 polkit-kde-agent-5
@@ -1564,6 +1589,7 @@ tnftp
 traceroute
 translation-update
 tuned
+typelib-1_0-Flatpak-1_0
 typelib-1_0-NM-1_0
 ucode-amd
 ucode-intel
@@ -1600,6 +1626,10 @@ wpa_supplicant
 xauth
 xbitmaps
 xconsole
+xdg-desktop-portal
+xdg-desktop-portal-kde
+xdg-desktop-portal-kde-lang
+xdg-desktop-portal-lang
 xdg-user-dirs
 xdg-user-dirs-lang
 xdg-utils

@@ -26,6 +26,7 @@ bash-doc
 bash-lang
 bcache-tools
 blog
+boost-license1_66_0
 branding-openSUSE
 bundle-lang-common-en
 bundle-lang-gnome-en
@@ -65,6 +66,8 @@ dump-rmt
 e2fsprogs
 elfutils
 elfutils-lang
+enchant-2-backend-voikko
+enchant-data
 expat
 fdupes
 file
@@ -130,7 +133,6 @@ gtk3-metatheme-adwaita
 gtk3-tools
 gtk4-schema
 gvfs
-gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gvfs-lang
@@ -209,6 +211,8 @@ libblkid1
 libblockdev
 libblockdev2
 libbluray2
+libboost_system1_66_0
+libboost_thread1_66_0
 libbytesize-lang
 libbytesize1
 libbz2-1
@@ -245,7 +249,7 @@ libdrm2
 libdw1
 libebl-plugins
 libelf1
-libenchant1
+libenchant-2-2
 libepoxy0
 libevdev2
 libexif12
@@ -298,13 +302,12 @@ libgtk-3-0
 libgudev-1_0-0
 libharfbuzz-icu0
 libharfbuzz0
+libhfstospell10
 libhogweed4
-libhunspell-1_6-0
 libhyphen0
 libicu60_2
 libicu60_2-ledata
 libidn2-0
-libimobiledevice6
 libinput-udev
 libinput10
 libjasper1
@@ -358,7 +361,6 @@ libpci3
 libpcre1
 libpcre2-16-0
 libpixman-1-0
-libplist3
 libpng16-16
 libpolkit0
 libpopt0
@@ -415,12 +417,12 @@ libudisks2_btrfs
 libunistring2
 libunwind
 libusb-1_0-0
-libusbmuxd4
 libustr-1_0-1
 libutempter0
 libuuid1
 libverto1
 libvisual
+libvoikko1
 libvolume_key1
 libvorbis0
 libvorbisenc2
@@ -477,6 +479,7 @@ m4
 mailx
 make
 make-lang
+malaga-suomi
 mdadm
 metamail
 metatheme-adwaita-common
@@ -592,7 +595,6 @@ sysconfig-netconfig
 system-group-hardware
 system-user-lp
 system-user-mail
-system-user-nobody
 system-user-root
 systemd
 systemd-bash-completion
@@ -612,7 +614,6 @@ udev
 udisks2
 udisks2-lang
 update-alternatives
-usbmuxd
 util-linux
 util-linux-lang
 util-linux-systemd
