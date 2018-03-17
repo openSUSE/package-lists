@@ -116,6 +116,10 @@ amavisd-new
 amavisd-new-docs
 analitza
 analitza-lang
+anjuta
+anjuta-extras
+anjuta-extras-lang
+anjuta-lang
 antlr
 antlr-devel
 antlr-java
@@ -204,6 +208,7 @@ augeas-lenses
 autoconf
 autoconf-el
 autofs
+autogen
 automake
 autotrace
 autoyast2
@@ -701,6 +706,8 @@ ftstring
 ftvalid
 ftview
 fuse
+fwupd
+fwupd-lang
 galculator
 galculator-lang
 gamin-server
@@ -1095,6 +1102,7 @@ gtkspell-lang
 gtkspell3-lang
 gucharmap
 gucharmap-lang
+guile-modules-2_0
 gupnp-av
 gutenprint
 gv
@@ -2049,6 +2057,7 @@ libakonadiprotocolinternals1
 libalkimia-devel
 libalkimia7
 libamd-2_4_6
+libanjuta-3-0
 libantlr3c3
 libao-devel
 libao-plugins4
@@ -2081,7 +2090,7 @@ libatk-1_0-0
 libatk-bridge-2_0-0
 libatkmm-1_6-1
 libatm1
-libatomic1-gcc8
+libatomic1
 libatspi0
 libattica0_4
 libattr-devel
@@ -2385,6 +2394,7 @@ libfstrm0
 libftdi1-2
 libftgl2
 libfuse2
+libfwup1
 libfwupd2
 libgadu-devel
 libgadu3
@@ -2396,7 +2406,7 @@ libgavl1
 libgbm1
 libgc1
 libgcab-1_0-0
-libgcc_s1-gcc8
+libgcc_s1
 libgcin-im-client1
 libgck-1-0
 libgck-modules-gnome-keyring
@@ -2405,6 +2415,13 @@ libgcr-3-1
 libgcrypt-devel
 libgcrypt20
 libgd3
+libgda-5_0-4
+libgda-5_0-4-lang
+libgda-5_0-bdb
+libgda-5_0-sqlcipher
+libgda-5_0-sqlite
+libgda-ui-5_0-4
+libgda-ui-5_0-plugins
 libgdata-lang
 libgdata22
 libgdbm4
@@ -2492,7 +2509,7 @@ libgobject-2_0-0
 libgoffice-0_10-10
 libgoffice-0_8-8
 libgom-1_0-0
-libgomp1-gcc8
+libgomp1
 libgooglepinyin0
 libgpg-error-devel
 libgpg-error0
@@ -2571,6 +2588,7 @@ libgucharmap_2_90-7
 libgudev-1_0-0
 libgudev-1_0-devel
 libguess1
+libguile-2_0-22
 libgupnp-1_0-4
 libgupnp-av-1_0-2
 libgupnp-dlna-2_0-3
@@ -2642,11 +2660,12 @@ libisc166
 libisccc160
 libisccfg160
 libiscsi8
+libisl19
 libiso9660-10
 libisoburn1
 libisofs6
 libiterm1
-libitm1-gcc8
+libitm1
 libiw-devel
 libiw30
 libixion-0_13-0
@@ -2839,8 +2858,8 @@ libmpeg2encpp-2_0-0
 libmpfr6
 libmpg123-0
 libmplex2-2_0-0
-libmpx2-gcc8
-libmpxwrappers2-gcc8
+libmpx2
+libmpxwrappers2
 libmspack0
 libmspub-0_1-1
 libmtdev1
@@ -2897,7 +2916,7 @@ libnss_nis2
 libntfs-3g87
 libnuma1
 liboauth0
-libobjc4-gcc8
+libobjc4
 libobrender32
 libobt2
 libodfgen-0_1-1
@@ -2925,7 +2944,9 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
+libopenssl1_0_0
 libopenssl1_1
+libopts-devel
 libopts25
 libopus0
 libopusfile0
@@ -2987,8 +3008,6 @@ libply-boot-client4
 libply-splash-core4
 libply-splash-graphics4
 libply4
-libpng12-0
-libpng12-devel
 libpng16-16
 libpng16-compat-devel
 libpng16-devel
@@ -3114,7 +3133,7 @@ libqt5-qtx11extras-devel
 libqt5-qtxmlpatterns-devel
 libqtcurve-cairo1
 libqtcurve-utils2
-libquadmath0-gcc8
+libquadmath0
 libquicktime0
 libquorum5
 libquvi-0_9-0_9_4
@@ -3270,9 +3289,9 @@ libsss_simpleifp0
 libstaroffice-0_0-0
 libstartup-notification-1-0
 libstdc++-devel
+libstdc++6
 libstdc++6-devel-gcc7
-libstdc++6-gcc8
-libstdc++6-gcc8-locale
+libstdc++6-gcc7-locale
 libstoken1
 libstorage-ng-ruby
 libstorage-ng1
