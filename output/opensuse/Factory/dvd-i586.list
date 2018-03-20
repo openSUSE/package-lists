@@ -235,6 +235,7 @@ bash
 bash-completion
 bash-doc
 bash-lang
+bbswitch-kmp-default
 bc
 bcache-tools
 bcm20702a1-firmware
@@ -661,6 +662,7 @@ filesystem
 fillup
 findutils
 findutils-lang
+fipscheck
 firewalld
 firewalld-lang
 fixesproto-devel
@@ -1125,6 +1127,7 @@ hardlink
 harfbuzz-devel
 haveged
 hddtemp
+hdjmod-kmp-default
 hdparm
 help2man
 hexchat
@@ -1451,7 +1454,9 @@ kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2357,6 +2362,7 @@ libfdt1
 libffi7
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -3626,6 +3632,8 @@ lskat-lang
 lsof
 lsscsi
 ltrace
+lttng-modules
+lttng-modules-kmp-default
 lua-macros
 lua51
 lua51-devel
@@ -4053,6 +4061,7 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
 pciutils
 pciutils-devel
 pciutils-ids
@@ -4363,6 +4372,8 @@ perl-namespace-clean
 perl-razor-agents
 perl-solv
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4924,6 +4935,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
 sysprof
@@ -5186,6 +5198,7 @@ valgrind
 vcdimager
 vdr
 vdr-lang
+vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -5202,6 +5215,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlgothic-fonts
 vm-install
@@ -5460,6 +5476,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
