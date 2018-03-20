@@ -9,7 +9,7 @@ test -n "$repo" || repo=standard
 
 case $proj in
     Factory)
-        product=_product
+        product=000product
         ;;
     Leap:15.*)
         product=000product

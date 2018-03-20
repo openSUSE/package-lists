@@ -12,7 +12,7 @@ fi
 case $proj in
         Factory)arches="i586 x86_64"
                 repo="standard"
-                product=_product
+                product=000product
                 ;;
         Leap:15.*) arches="x86_64"
                 repo="standard"
