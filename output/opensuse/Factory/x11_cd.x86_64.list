@@ -68,6 +68,7 @@ cpio
 cpio-mt
 cpp
 cpp7
+cpupower
 cracklib
 cracklib-dict-small
 crda
@@ -332,6 +333,7 @@ libcom_err2
 libcorosync_common4
 libcpath1
 libcpg4
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -626,7 +628,7 @@ libtirpc3
 libtotem_pg5
 libts0
 libtumbler-1-0
-libudev-mini1
+libudev1
 libudisks2-0
 libudisks2_btrfs
 libuna1
@@ -878,7 +880,13 @@ python-rpm-macros
 python-smbios
 python-solv
 python-xml
+python2-configobj
+python2-dbus-python
+python2-decorator
+python2-gobject
+python2-pyudev
 python2-rpm
+python2-six
 python3
 python3-apparmor
 python3-appdirs
@@ -986,6 +994,7 @@ tnftp
 traceroute
 translation-update
 tumbler
+tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-3_0

@@ -136,6 +136,7 @@ cpio-lang
 cpio-mt
 cpp
 cpp7
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -643,6 +644,7 @@ libcolorhug2
 libcom_err2
 libcorosync_common4
 libcpg4
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -1191,7 +1193,7 @@ libtracker-miner-2_0-0
 libtracker-sparql-2_0-0
 libts0
 libtwolame0
-libudev-mini1
+libudev1
 libudisks2-0
 libudisks2_btrfs
 libumfpack-5_7_6
@@ -1427,6 +1429,7 @@ patterns-gnome-gnome_yast
 patterns-gnome-sw_management_gnome
 patterns-media-rest_cd_core
 patterns-media-rest_cd_gnome
+patterns-office-office
 patterns-yast-yast2_basis
 patterns-yast-yast2_install_wf
 pciutils
@@ -1534,11 +1537,15 @@ python-talloc
 python-tdb
 python-tevent
 python-xml
+python2-configobj
 python2-dbus-python
+python2-decorator
 python2-gobject
 python2-gobject-Gdk
 python2-gobject-cairo
+python2-pyudev
 python2-rpm
+python2-six
 python3
 python3-PySocks
 python3-appdirs
@@ -1722,6 +1729,7 @@ translation-update
 transmission-common
 transmission-gtk
 transmission-gtk-lang
+tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
@@ -1819,7 +1827,6 @@ vpnc
 vte-lang
 wallpaper-branding-openSUSE
 webkit2gtk-4_0-injected-bundles
-wesnoth-data
 wget
 which
 wicked

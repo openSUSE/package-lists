@@ -57,6 +57,7 @@ cpio
 cpio-mt
 cpp
 cpp7
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -283,6 +284,7 @@ libcolord2
 libcom_err2
 libcorosync_common4
 libcpg4
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptsetup12
@@ -523,7 +525,7 @@ libtirpc-netconfig
 libtirpc3
 libtotem_pg5
 libts0
-libudev-mini1
+libudev1
 libudisks2-0
 libudisks2_btrfs
 libunistring2
@@ -720,7 +722,13 @@ python-base
 python-rpm-macros
 python-solv
 python-xml
+python2-configobj
+python2-dbus-python
+python2-decorator
+python2-gobject
+python2-pyudev
 python2-rpm
+python2-six
 python3
 python3-appdirs
 python3-base
@@ -814,6 +822,7 @@ timezone
 tnftp
 traceroute
 translation-update
+tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-GdkPixbuf-2_0
 typelib-1_0-Gtk-3_0

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 export LC_ALL=C
 
 if [ -n "$1" ]; then

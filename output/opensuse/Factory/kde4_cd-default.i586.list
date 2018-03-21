@@ -85,6 +85,7 @@ cpio
 cpio-mt
 cpp
 cpp7
+cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -510,6 +511,7 @@ libcdda_paranoia0
 libcelt0-2
 libcolord2
 libcom_err2
+libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptsetup12
@@ -798,8 +800,6 @@ libraw16
 libre2-0
 libreadline7
 libreiserfscore0
-libreoffice-icon-themes
-libreoffice-share-linker
 librest-0_7-0
 librsvg-2-2
 libruby2_5-2_5
@@ -863,7 +863,7 @@ libtirpc3
 libts0
 libturbojpeg0
 libtwolame0
-libudev-mini1
+libudev1
 libunistring2
 libunwind
 libupower-glib3
@@ -1024,7 +1024,6 @@ patterns-kde-kde_games
 patterns-kde-kde_imaging
 patterns-kde-kde_internet
 patterns-kde-kde_multimedia
-patterns-kde-kde_office
 patterns-kde-kde_plasma
 patterns-kde-kde_utilities
 patterns-kde-kde_yast
@@ -1145,7 +1144,13 @@ python-talloc
 python-tdb
 python-tevent
 python-xml
+python2-configobj
+python2-dbus-python
+python2-decorator
+python2-gobject
+python2-pyudev
 python2-rpm
+python2-six
 python3
 python3-apparmor
 python3-appdirs
@@ -1265,6 +1270,7 @@ timezone
 tnftp
 traceroute
 translation-update
+tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-Flatpak-1_0
 typelib-1_0-GdkPixbuf-2_0
@@ -1289,7 +1295,6 @@ vim-data-common
 vorbis-tools
 vpnc
 wallpaper-branding-openSUSE
-wesnoth-data
 wget
 which
 wicked
