@@ -76,7 +76,6 @@ bzip2
 ca-certificates
 ca-certificates-mozilla
 cantarell-fonts
-cdrkit-cdrtools-compat
 checkmedia
 chrony
 cifs-utils
@@ -86,7 +85,6 @@ cpio
 cpio-mt
 cpp
 cpp7
-cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -128,7 +126,6 @@ dos2unix
 dosfstools
 dracut
 drkonqi5
-dvd+rw-tools
 e2fsprogs
 ebtables
 efibootmgr
@@ -161,7 +158,6 @@ gdb
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
-genisoimage
 gettext-runtime
 ghostscript-fonts-std
 gio-branding-openSUSE
@@ -219,7 +215,6 @@ hicolor-icon-theme-branding-openSUSE
 hostname
 hwinfo
 iceauth
-icedax
 icewm
 icewm-config-upstream
 icewm-default
@@ -498,7 +493,6 @@ libboost_system1_66_0
 libboost_thread1_66_0
 libbsd0
 libbtrfs0
-libburn4
 libbz2-1
 libcairo-gobject2
 libcairo2
@@ -516,7 +510,6 @@ libcdda_paranoia0
 libcelt0-2
 libcolord2
 libcom_err2
-libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptsetup12
@@ -649,8 +642,6 @@ libisc166
 libisccc160
 libisccfg160
 libisl19
-libisoburn1
-libisofs6
 libiw30
 libjansson4
 libjasper1
@@ -661,7 +652,6 @@ libjpeg-turbo
 libjpeg8
 libjson-c4
 libjson-glib-1_0-0
-libjte1
 libkaccounts1
 libkate1
 libkdecorations2-5
@@ -786,7 +776,7 @@ libpulse0
 libpwquality1
 libpython2_7-1_0
 libpython3_6m1_0
-libqalculate13
+libqalculate14
 libqca-qt5
 libqca-qt5-plugins
 libqmi-glib5
@@ -808,6 +798,8 @@ libraw16
 libre2-0
 libreadline7
 libreiserfscore0
+libreoffice-icon-themes
+libreoffice-share-linker
 librest-0_7-0
 librsvg-2-2
 libruby2_5-2_5
@@ -871,7 +863,7 @@ libtirpc3
 libts0
 libturbojpeg0
 libtwolame0
-libudev1
+libudev-mini1
 libunistring2
 libunwind
 libupower-glib3
@@ -1032,6 +1024,7 @@ patterns-kde-kde_games
 patterns-kde-kde_imaging
 patterns-kde-kde_internet
 patterns-kde-kde_multimedia
+patterns-kde-kde_office
 patterns-kde-kde_plasma
 patterns-kde-kde_utilities
 patterns-kde-kde_yast
@@ -1152,13 +1145,7 @@ python-talloc
 python-tdb
 python-tevent
 python-xml
-python2-configobj
-python2-dbus-python
-python2-decorator
-python2-gobject
-python2-pyudev
 python2-rpm
-python2-six
 python3
 python3-apparmor
 python3-appdirs
@@ -1278,7 +1265,6 @@ timezone
 tnftp
 traceroute
 translation-update
-tuned
 typelib-1_0-Atk-1_0
 typelib-1_0-Flatpak-1_0
 typelib-1_0-GdkPixbuf-2_0
@@ -1303,13 +1289,13 @@ vim-data-common
 vorbis-tools
 vpnc
 wallpaper-branding-openSUSE
+wesnoth-data
 wget
 which
 wicked
 wicked-service
 wireless-regdb
 wireless-tools
-wodim
 wol
 wpa_supplicant
 xauth
@@ -1408,7 +1394,6 @@ yast2-x11
 yast2-xml
 yast2-ycp-ui-bindings
 yp-tools
-zisofs-tools
 zypper
 zypper-aptitude
 zypper-lifecycle-plugin

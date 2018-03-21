@@ -98,7 +98,6 @@ branding-openSUSE
 brltty
 brltty-driver-at-spi2
 brltty-driver-brlapi
-brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 brltty-lang
@@ -117,7 +116,6 @@ caribou-gtk-module-common
 caribou-gtk2-module
 caribou-gtk3-module
 caribou-lang
-cdrkit-cdrtools-compat
 checkmedia
 cheese
 cheese-lang
@@ -137,7 +135,6 @@ cpio-lang
 cpio-mt
 cpp
 cpp7
-cpupower
 cracklib
 cracklib-dict-full
 crda
@@ -184,7 +181,6 @@ docbook_4
 dos2unix
 dosfstools
 dracut
-dvd+rw-tools
 e2fsprogs
 ebtables
 efibootmgr
@@ -255,7 +251,6 @@ gedit
 gedit-lang
 gegl-0_3
 gegl-0_3-lang
-genisoimage
 geoclue2
 geocode-glib
 gettext-runtime
@@ -464,7 +459,6 @@ ibus-table
 ibus-table-rustrad
 ibus-table-translit
 iceauth
-icedax
 icewm
 icewm-config-upstream
 icewm-default
@@ -521,7 +515,7 @@ libQt5Widgets5
 libQt5X11Extras5
 libSDL-1_2-0
 libSM6
-libSoundTouch0
+libSoundTouch1
 libX11-6
 libX11-data
 libX11-xcb1
@@ -607,7 +601,6 @@ libbrlapi0_6
 libbs2b0
 libbsd0
 libbtrfs0
-libburn4
 libbytesize-lang
 libbytesize1
 libbz2-1
@@ -660,7 +653,6 @@ libcolorhug2
 libcom_err2
 libcorosync_common4
 libcpg4
-libcpupower0
 libcrack2
 libcroco-0_6-3
 libcryptmount0
@@ -908,8 +900,6 @@ libisc166
 libisccc160
 libisccfg160
 libisl19
-libisoburn1
-libisofs6
 libiw30
 libixion-0_13-0
 libjack0
@@ -921,7 +911,6 @@ libjemalloc2
 libjpeg8
 libjson-c4
 libjson-glib-1_0-0
-libjte1
 libkate1
 libkeyutils1
 libkmod2
@@ -1221,7 +1210,7 @@ libtracker-miner-2_0-0
 libtracker-sparql-2_0-0
 libts0
 libtwolame0
-libudev1
+libudev-mini1
 libudisks2-0
 libudisks2_btrfs
 libumfpack-5_7_6
@@ -1574,15 +1563,11 @@ python-talloc
 python-tdb
 python-tevent
 python-xml
-python2-configobj
 python2-dbus-python
-python2-decorator
 python2-gobject
 python2-gobject-Gdk
 python2-gobject-cairo
-python2-pyudev
 python2-rpm
-python2-six
 python3
 python3-PySocks
 python3-appdirs
@@ -1767,7 +1752,6 @@ translation-update
 transmission-common
 transmission-gtk
 transmission-gtk-lang
-tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
@@ -1873,7 +1857,6 @@ wicked-service
 wireless-regdb
 wireless-tools
 wmctrl
-wodim
 wol
 wol-lang
 wpa_supplicant
@@ -2014,7 +1997,6 @@ zd1211-firmware
 zenity
 zenity-lang
 zip
-zisofs-tools
 zypper
 zypper-aptitude
 zypper-lifecycle-plugin

@@ -283,9 +283,6 @@ boost_1_66-jam
 bovo
 bovo-lang
 branding-openSUSE
-brasero
-brasero-lang
-brasero-nautilus
 breeze
 breeze4-style
 breeze5-cursors
@@ -298,7 +295,6 @@ bridge-utils
 brltty
 brltty-driver-at-spi2
 brltty-driver-brlapi
-brltty-driver-espeak
 brltty-driver-speech-dispatcher
 brltty-driver-xwindow
 brltty-lang
@@ -353,7 +349,6 @@ bundle-lang-kde-pl
 bundle-lang-kde-pt
 bundle-lang-kde-ru
 bundle-lang-kde-zh
-busybox
 bzip2
 bzr
 bzr-lang
@@ -385,8 +380,6 @@ ccache
 cd-discid
 cdparanoia
 cdparanoia-devel
-cdrdao
-cdrkit-cdrtools-compat
 cedict
 cellwriter
 cervisia
@@ -546,7 +539,6 @@ dri2proto-devel
 dri3proto-devel
 drkonqi5
 drkonqi5-lang
-dvd+rw-tools
 dwz
 e2fsprogs
 e2fsprogs-devel
@@ -692,7 +684,6 @@ freeglut-devel
 freerdp
 freetype2-devel
 frei0r-plugins
-fribidi
 fribidi-devel
 frogr
 frogr-lang
@@ -776,7 +767,6 @@ gedit-plugins-data
 gedit-plugins-lang
 gegl-0_3
 gegl-0_3-lang
-genisoimage
 geoclue2
 geocode-glib
 geronimo-jta-1_1-api
@@ -786,8 +776,6 @@ getdata-devel
 getdata-doc
 gettext-runtime
 gettext-tools
-gfxboot
-gfxboot-branding-openSUSE
 ggz-client-libs
 ggz-client-libs-devel
 ggz-client-libs-lang
@@ -1188,7 +1176,6 @@ ibus-table-zhuyin
 iceauth
 icecream
 icecream-monitor
-icedax
 icedtea-web
 icedtea-web-javadoc
 icewm
@@ -1268,8 +1255,6 @@ joe
 json-glib-lang
 juk
 juk-lang
-k3b
-k3b-lang
 k4dirstat
 k4dirstat-lang
 kaccounts-integration
@@ -1519,15 +1504,7 @@ kitemmodels-devel
 kitemviews-devel
 kiten
 kiten-lang
-kiwi
-kiwi-desc-isoboot
-kiwi-desc-netboot
-kiwi-desc-oemboot
-kiwi-desc-vmxboot
-kiwi-doc
-kiwi-media-requires
 kiwi-pxeboot
-kiwi-templates
 kjobwidgets-devel
 kjs-devel
 kjs-devel-lang
@@ -1676,7 +1653,6 @@ ktextwidgets-devel
 ktimer
 ktimer-lang
 ktnef
-ktnef-lang
 ktoblzcheck-devel
 ktouch
 ktouch-lang
@@ -1709,7 +1685,6 @@ kwordquiz
 kwordquiz-lang
 kxmlgui-devel
 kxmlrpcclient5-devel
-lame
 latex2html-pngicons
 ldmtool
 ldns
@@ -1988,7 +1963,7 @@ libSM-devel
 libSM6
 libSM6-32bit
 libSPIRV-Tools-suse6
-libSoundTouch0
+libSoundTouch1
 libX11-6
 libX11-6-32bit
 libX11-data
@@ -2517,7 +2492,6 @@ libglvnd-32bit
 libglvnd-devel
 libglyr1
 libgme0
-libgmime-2_6-0
 libgmime-3_0-0
 libgmm++-devel
 libgmodule-2_0-0
@@ -3168,7 +3142,7 @@ libpython2_7-1_0-32bit
 libpython3_6m1_0
 libpyzy-1_0-0
 libqalculate-devel
-libqalculate13
+libqalculate14
 libqb0
 libqca-qt5
 libqca-qt5-devel
@@ -3468,8 +3442,8 @@ libtumbler-1-0
 libturbojpeg0
 libtwolame0
 libubsan0
-libudev-devel
-libudev1
+libudev-mini-devel
+libudev-mini1
 libudev1-32bit
 libudf0
 libudisks2-0
@@ -3512,7 +3486,6 @@ libva-x11-2
 libva2
 libvala-0_40-0
 libvamp-hostsdk3
-libvcdinfo0
 libvdeplug3
 libvdpau1
 libvdpau_r300
@@ -4326,7 +4299,6 @@ perl-File-MMagic
 perl-File-Path
 perl-File-RandomAccess
 perl-File-ShareDir
-perl-File-Slurp
 perl-File-Tail
 perl-File-Type
 perl-FileHandle-Unget
@@ -4364,8 +4336,6 @@ perl-IPC-Run
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
-perl-JSON
-perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Linux-Pid
@@ -4430,7 +4400,6 @@ perl-Pod-HtmlPsPdf
 perl-PostScript-Simple
 perl-Quantum-Superpositions
 perl-RPC-XML
-perl-Readonly
 perl-Role-Tiny
 perl-SGMLS
 perl-SNMP
@@ -4474,7 +4443,6 @@ perl-Time-Period
 perl-Time-modules
 perl-TimeDate
 perl-Try-Tiny
-perl-Types-Serialiser
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
@@ -4503,7 +4471,6 @@ perl-YAML
 perl-YAML-LibYAML
 perl-apparmor
 perl-base
-perl-common-sense
 perl-doc
 perl-gettext
 perl-ldap
@@ -4513,7 +4480,6 @@ perl-libxml-perl
 perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
-perl-solv
 permissions
 pesign
 pesign-obs-integration
@@ -4736,7 +4702,6 @@ python2-configobj
 python2-cryptography
 python2-cssselect
 python2-dbus-python
-python2-decorator
 python2-deltarpm
 python2-dnspython
 python2-ecdsa
@@ -4758,7 +4723,6 @@ python2-pycurl
 python2-pygame
 python2-pyparsing
 python2-python-dateutil
-python2-pyudev
 python2-pyxdg
 python2-qt5
 python2-rpm
@@ -5079,6 +5043,7 @@ sudo
 sunpinyin-data
 supermin
 suse-module-tools
+susefirewall2-to-firewalld
 susepaste
 susepaste-screenshot
 sushi
@@ -5202,7 +5167,6 @@ totem
 totem-lang
 totem-pl-parser
 totem-pl-parser-lang
-totem-plugin-brasero
 totem-plugin-gnome-dvb-daemon
 totem-plugins
 traceroute
@@ -5220,7 +5184,6 @@ tre
 tre-lang
 tumbler
 tumbler-lang
-tuned
 tv-common
 tv-fonts
 typelib-1_0-AccountsService-1_0
@@ -5353,7 +5316,6 @@ v4l-conf
 vacation
 vala
 valgrind
-vcdimager
 vdr
 vdr-lang
 vhba-kmp-default
@@ -5406,7 +5368,6 @@ wireless-tools
 wireshark
 wireshark-ui-qt
 wmctrl
-wodim
 wol
 wol-lang
 wondershaper
@@ -5793,7 +5754,6 @@ zerofree
 zinnia
 zinnia-tomoe
 zip
-zisofs-tools
 zlib-devel
 zoo
 zypper
