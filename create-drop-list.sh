@@ -17,6 +17,6 @@ if [ "$(osc status | wc -l)" -gt 0 ]; then
   # be rebuilt anyway, invalidating the currently running build of the FTP Tree
   # Also all DVD builds might be invalid, but comapred to the build time of the FTP tree
   # they are negelctable
-  echo "Attemptint to abortbuild openSUSE:$proj/_product:openSUSE-ftp-ftp-i586_x86_64/images/local"
-  osc abortbuild openSUSE:$proj/_product:openSUSE-ftp-ftp-i586_x86_64/images/local
+  echo "Attemptint to abortbuild openSUSE:$proj/000product:openSUSE-ftp-ftp-i586_x86_64/images/local"
+  osc abortbuild openSUSE:$proj/000product:openSUSE-ftp-ftp-i586_x86_64/images/local
 fi

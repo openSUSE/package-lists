@@ -18,10 +18,10 @@ case $proj in
         product=000product
         ;;
     Factory:PowerPC)
-        product=_product
+        product=000product
 	;;
     Factory:ARM)
-        product=_product
+        product=000product
         ;;
 esac
 

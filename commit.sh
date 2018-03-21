@@ -18,12 +18,12 @@ case $proj in
         ;;
     Factory:PowerPC) arches="ppc64 ppc64le"
         repo="standard"
-        product=_product
+        product=000product
 	;;
     Factory:ARM)
         arches="aarch64"
         repo="standard"
-        product=_product
+        product=000product
         ;;
 esac
 
