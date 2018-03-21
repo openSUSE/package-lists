@@ -6,7 +6,7 @@ test -n "$proj" || proj=Factory
 case $proj in
     Factory) arches="i586 x86_64"
         repo="standard"
-        product=_product
+        product=000product
         ;;
     Leap:15.*) arches="x86_64"
         repo="standard"
@@ -51,7 +51,7 @@ for arch in $arches; do
     fi
 done
 
-( cd osc/openSUSE:$proj/$product/ && osc ci -m "auto update" > /dev/null )
+( cd osc/openSUSE:$proj/$product/ && osc ci -m "auto update" --noservice > /dev/null )
 
 if [ "$arches" = "i586 x86_64" ];then
    test -d osc/openSUSE:$proj:Live || (cd osc; osc co -e openSUSE:$proj:Live)
