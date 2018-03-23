@@ -1442,6 +1442,7 @@ kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pae
 kernel-pae-devel
 kernel-source
 kernel-syms
@@ -3615,6 +3616,7 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
+lttng-modules-kmp-pae
 lua-macros
 lua51
 lua51-devel
@@ -4125,7 +4127,6 @@ perl-DBD-mysql
 perl-DBI
 perl-Data-OptList
 perl-Date-Calc
-perl-Date-Manip
 perl-DateTime
 perl-DateTime-Format-Builder
 perl-DateTime-Format-ISO8601
@@ -4548,6 +4549,7 @@ python-ipaddress
 python-ldb
 python-liblarch
 python-liblarch_gtk
+python-notify
 python-pyliblzma
 python-qt5-utils
 python-rpm-macros
@@ -4749,6 +4751,8 @@ rsvg-thumbnailer
 rsync
 rt2860
 rtkit
+rtl8812au-kmp-default
+rtl8812au-kmp-pae
 ruby
 ruby-common
 ruby-devel
