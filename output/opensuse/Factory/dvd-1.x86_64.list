@@ -2167,7 +2167,6 @@ libbz2-1
 libbz2-1-32bit
 libbz2-devel
 libbzrtp0
-libc-client2007e_suse
 libcaca0
 libcacard0
 libcairo-gobject2
@@ -2244,6 +2243,7 @@ libcppunit-1_14-0
 libcpupower0
 libcrack2
 libcrack2-32bit
+libcreaterepo_c0
 libcroco-0_6-3
 libcryptmount0
 libcryptmount0-32bit
@@ -2641,6 +2641,7 @@ libgypsy0
 libhangul1
 libharfbuzz-gobject0
 libharfbuzz-icu0
+libharfbuzz-subset0
 libharfbuzz0
 libharfbuzz0-32bit
 libhavege1
@@ -2669,7 +2670,6 @@ libidn11
 libidn2-0
 libidn2-0-32bit
 libiec61883-0
-libieee1284-3
 libimagequant0
 libimobiledevice-devel
 libimobiledevice6
@@ -4510,7 +4510,6 @@ php7-gd
 php7-gettext
 php7-gmp
 php7-iconv
-php7-imap
 php7-json
 php7-ldap
 php7-mbstring
@@ -4731,7 +4730,6 @@ python2-pyparsing
 python2-python-dateutil
 python2-pyudev
 python2-pyxdg
-python2-qt5
 python2-rpm
 python2-setuptools
 python2-sip
@@ -4758,6 +4756,8 @@ python3-cairocffi
 python3-certifi
 python3-cffi
 python3-chardet
+python3-cmdln
+python3-createrepo_c
 python3-cryptography
 python3-cssselect
 python3-cupshelpers
@@ -4803,9 +4803,11 @@ python3-python-dateutil
 python3-pytz
 python3-pywbem
 python3-pyxdg
+python3-qt5
 python3-requests
 python3-rpm
 python3-setuptools
+python3-sip
 python3-six
 python3-slip
 python3-slip-dbus
@@ -5304,6 +5306,7 @@ unison
 units
 unixODBC
 unoconv
+unrar_wrapper
 unzip
 unzip-doc
 update-alternatives
