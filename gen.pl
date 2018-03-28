@@ -17,7 +17,7 @@ sub read_file_recursively($) {
 
     my $line = $_;
 
-    if ($line =~ m/#.*!$arch.*$/) {
+    if ($line =~ m/#.*!$arch[^\w].*$/) {
       next;
     }
     if ($line =~ m/^#INCLUDE\s*(\S+)/) {
