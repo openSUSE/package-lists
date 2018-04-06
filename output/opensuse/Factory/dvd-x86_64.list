@@ -480,10 +480,14 @@ dbus-1-glib-devel
 dbus-1-glib-tool
 dbus-1-x11
 dconf
+dconf-editor
+dconf-editor-lang
 dcraw
 dcraw-lang
 ddclient
 ddskk
+deja-dup
+deja-dup-lang
 dejagnu
 dejavu-fonts
 delayacct-utils
@@ -542,6 +546,7 @@ dri3proto-devel
 drkonqi5
 drkonqi5-lang
 dump-rmt
+duplicity
 dwz
 e2fsprogs
 e2fsprogs-devel
@@ -552,6 +557,8 @@ edict
 eekboard
 efibootmgr
 efont-unicode-bitmap-fonts
+eiciel
+eiciel-lang
 ekiga
 ekiga-lang
 ekiga-plugins-evolution
@@ -565,8 +572,6 @@ emacs-info
 emacs-nox
 emacs-plugin-devhelp
 emacs-x11
-empathy
-empathy-lang
 enblend-enfuse
 enchant-1-backend-voikko
 enchant-2-backend-voikko
@@ -871,8 +876,6 @@ gnome-documents-lang
 gnome-documents_books-common
 gnome-dvb-daemon
 gnome-dvb-daemon-lang
-gnome-font-viewer
-gnome-font-viewer-lang
 gnome-games
 gnome-games-lang
 gnome-icon-theme
@@ -889,9 +892,6 @@ gnome-mahjongg
 gnome-mahjongg-lang
 gnome-maps
 gnome-maps-lang
-gnome-menus
-gnome-menus-branding-openSUSE
-gnome-menus-lang
 gnome-mines
 gnome-mines-lang
 gnome-music
@@ -911,6 +911,7 @@ gnome-session
 gnome-session-core
 gnome-session-default-session
 gnome-session-lang
+gnome-session-wayland
 gnome-settings-daemon
 gnome-settings-daemon-lang
 gnome-shell
@@ -927,6 +928,7 @@ gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
+gnome-shell-search-provider-gnote
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-software
@@ -952,9 +954,10 @@ gnome-vfs2-lang
 gnome-video-effects
 gnome-weather
 gnome-weather-lang
+gnote
+gnote-lang
 gnu-unifont-bitmap-fonts
 gnutls
-goffice-0_8-lang
 goffice-lang
 google-arimo-fonts
 google-carlito-fonts
@@ -989,8 +992,6 @@ grilo-plugin-tracker
 grilo-plugin-youtube
 grilo-plugins
 grilo-plugins-lang
-grisbi
-grisbi-lang
 groff
 groff-full
 gromit
@@ -1115,6 +1116,8 @@ haveged
 hddtemp
 hdjmod-kmp-default
 hdparm
+health-checker
+health-checker-plugins-caasp
 help2man
 hexchat
 hexchat-lang
@@ -2213,6 +2216,7 @@ libcdio_paranoia2
 libcdr-0_1-1
 libcelt0-2
 libcelt051-0
+libcetcd0
 libcfg6
 libcfitsio5
 libchamplain-0_12-0
@@ -2541,7 +2545,6 @@ libgoa-backend-1_0-1
 libgobject-2_0-0
 libgobject-2_0-0-32bit
 libgoffice-0_10-10
-libgoffice-0_8-8
 libgom-1_0-0
 libgomp1
 libgooglepinyin0
@@ -2718,7 +2721,7 @@ libjacknet0
 libjackserver0
 libjansson4
 libjasper-devel
-libjasper1
+libjasper4
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjbig2-32bit
@@ -2981,6 +2984,7 @@ libnsl2
 libnsl2-32bit
 libnss_nis2
 libnss_nis2-32bit
+libnss_usrfiles2
 libntfs-3g87
 libnuma1
 liboauth0
@@ -2991,7 +2995,7 @@ libodfgen-0_1-1
 libofa0
 libofx
 libofx-devel
-libofx6
+libofx7
 libogg-devel
 libogg0
 libogg0-32bit
@@ -3282,6 +3286,7 @@ librevenge-generators-0_0-0
 librevenge-stream-0_0-0
 librhash0
 librsvg-2-2
+librsync2
 libruby2_5-2_5
 libsam4
 libsamba-credentials0
@@ -3332,7 +3337,7 @@ libsmbclient-devel
 libsmbclient0
 libsmbconf0
 libsmbconf0-32bit
-libsmbios2
+libsmbios_c2
 libsmbldap2
 libsmbldap2-32bit
 libsmi
@@ -3348,8 +3353,6 @@ libsocialweb-branding-openSUSE
 libsocialweb-lang
 libsocialweb0
 libsodium23
-libsofia-sip-ua-glib3
-libsofia-sip-ua0
 libsoftokn3
 libsolv-devel
 libsolv-tools
@@ -3417,7 +3420,6 @@ libtcnative-1-0
 libtdb1
 libtdb1-32bit
 libteamdctl0
-libtelepathy-farstream3
 libtelepathy-glib0
 libtelepathy-logger3
 libtemplate_glib-1_0-0
@@ -3930,6 +3932,8 @@ nano
 nano-lang
 nasm
 nautilus
+nautilus-deja-dup
+nautilus-eiciel
 nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-terminal
@@ -3962,10 +3966,14 @@ nmap
 notification-daemon
 notification-daemon-lang
 noto-coloremoji-fonts
+noto-sans-cjk-fonts
 noto-sans-fonts
 noto-sans-jp-bold-fonts
 noto-sans-jp-fonts
 noto-sans-jp-regular-fonts
+noto-sans-kr-bold-fonts
+noto-sans-kr-fonts
+noto-sans-kr-regular-fonts
 noto-sans-sc-bold-fonts
 noto-sans-sc-fonts
 noto-sans-sc-regular-fonts
@@ -4118,6 +4126,7 @@ patterns-base-enhanced_base
 patterns-base-enhanced_base_opt
 patterns-base-minimal_base
 patterns-base-minimal_base_conflicts
+patterns-base-readonly_root_tools
 patterns-base-sw_management
 patterns-base-x11
 patterns-base-x11_opt
@@ -4141,20 +4150,16 @@ patterns-fonts-fonts
 patterns-fonts-fonts_opt
 patterns-games-games
 patterns-gnome-gnome
-patterns-gnome-gnome_admin
 patterns-gnome-gnome_basis
 patterns-gnome-gnome_basis_opt
 patterns-gnome-gnome_games
 patterns-gnome-gnome_ide
 patterns-gnome-gnome_imaging
-patterns-gnome-gnome_imaging_opt
 patterns-gnome-gnome_internet
-patterns-gnome-gnome_laptop
 patterns-gnome-gnome_multimedia
-patterns-gnome-gnome_multimedia_opt
 patterns-gnome-gnome_office
-patterns-gnome-gnome_office_opt
 patterns-gnome-gnome_utilities
+patterns-gnome-gnome_x11
 patterns-gnome-gnome_yast
 patterns-gnome-sw_management_gnome
 patterns-kde-devel_kde
@@ -4574,7 +4579,6 @@ pinentry-gnome3
 pinentry-gtk2
 pinentry-qt5
 pinfo
-pinpoint
 pitivi
 pitivi-lang
 pk-update-icon
@@ -4689,6 +4693,7 @@ purpose-lang
 pwgen
 python
 python-base
+python-cloudfiles
 python-curses
 python-devel
 python-enum34
@@ -4728,15 +4733,19 @@ python2-decorator
 python2-deltarpm
 python2-dnspython
 python2-ecdsa
+python2-fasteners
 python2-gobject
 python2-gobject-Gdk
 python2-gobject-cairo
 python2-gpgme
 python2-gpsd
+python2-httplib2
 python2-idna
 python2-iniparse
 python2-keyring
+python2-lockfile
 python2-lxml
+python2-monotonic
 python2-numpy
 python2-packaging
 python2-pyasn1
@@ -4882,8 +4891,10 @@ rcc-runtime
 rdesktop
 rdma-core
 re2c
+read-only-root-fs
 readline-devel
 readline-doc
+rebootmgr
 reiserfs
 relaxngDatatype
 release-notes-openSUSE
@@ -5144,14 +5155,10 @@ tdb-tools
 technisat-usb2-firmware
 tei-roma
 tei-xsl-stylesheets
-telepathy-gabble
-telepathy-haze
 telepathy-idle
 telepathy-logger
 telepathy-mission-control
 telepathy-mission-control-plugin-goa
-telepathy-rakia
-telepathy-salut
 telnet
 template-glib-lang
 terminfo
@@ -5207,6 +5214,7 @@ tracker-miner-files
 tracker-miners
 tracker-miners-lang
 trang
+transactional-update
 translation-update
 transmission-common
 transmission-gtk
@@ -5363,8 +5371,6 @@ vim-data-common
 vim-plugin-devhelp
 vinagre
 vinagre-lang
-vino
-vino-lang
 virt-install
 virt-manager
 virt-manager-common

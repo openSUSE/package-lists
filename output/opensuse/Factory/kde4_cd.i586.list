@@ -13,6 +13,8 @@ ModemManager-bash-completion
 ModemManager-lang
 NetworkManager
 NetworkManager-branding-openSUSE
+NetworkManager-openconnect
+NetworkManager-openconnect-lang
 NetworkManager-pptp
 NetworkManager-pptp-lang
 PackageKit
@@ -871,7 +873,7 @@ libisofs6
 libiw30
 libjack0
 libjansson4
-libjasper1
+libjasper4
 libjbig2
 libjemalloc2
 libjpeg-turbo
@@ -1068,7 +1070,7 @@ libslang2
 libsmartcols1
 libsmbclient0
 libsmbconf0
-libsmbios2
+libsmbios_c2
 libsmbldap2
 libsmputils1-1
 libsnapper4
@@ -1090,6 +1092,7 @@ libsss_idmap0
 libsss_nss_idmap0
 libsss_simpleifp0
 libstdc++6
+libstoken1
 libstorage-ng-ruby
 libstorage-ng1
 libswresample2
@@ -1268,6 +1271,8 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-kde
 openal-soft
+openconnect
+openconnect-lang
 openldap2-client
 openslp
 openssh
@@ -1383,6 +1388,7 @@ plasma-framework-lang
 plasma-framework-private
 plasma-nm5
 plasma-nm5-lang
+plasma-nm5-openconnect
 plasma-nm5-pptp
 plasma5-addons
 plasma5-addons-lang

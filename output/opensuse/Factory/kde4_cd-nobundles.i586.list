@@ -17,12 +17,12 @@ MozillaFirefox-translations-common
 NetworkManager
 NetworkManager-branding-openSUSE
 NetworkManager-lang
+NetworkManager-openconnect
+NetworkManager-openconnect-lang
 NetworkManager-openvpn
 NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-lang
-NetworkManager-vpnc
-NetworkManager-vpnc-lang
 PackageKit
 PackageKit-backend-zypp
 PackageKit-branding-openSUSE
@@ -197,7 +197,6 @@ ebtables
 efibootmgr
 elfutils
 elfutils-lang
-enchant-1-backend-voikko
 espeak
 espeak-ng
 ethtool
@@ -894,7 +893,6 @@ libeditorconfig0
 libefivar1
 libelf1
 libenca0
-libenchant1
 libeot0
 libepoxy0
 libepub0
@@ -984,7 +982,6 @@ libgypsy0
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
-libhfstospell10
 libhogweed4
 libhttp_parser2_7_1
 libhunspell-1_6-0
@@ -1013,7 +1010,7 @@ libiw30
 libixion-0_13-0
 libjack0
 libjansson4
-libjasper1
+libjasper4
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjemalloc2
@@ -1263,7 +1260,7 @@ libslang2
 libsmartcols1
 libsmbclient0
 libsmbconf0
-libsmbios2
+libsmbios_c2
 libsmbldap2
 libsmputils1-1
 libsnapper4
@@ -1287,6 +1284,7 @@ libsss_simpleifp0
 libstaroffice-0_0-0
 libstartup-notification-1-0
 libstdc++6
+libstoken1
 libstorage-ng-lang
 libstorage-ng-ruby
 libstorage-ng1
@@ -1338,7 +1336,6 @@ libverto1
 libvisio-0_1-1
 libvisual
 libvmtools0
-libvoikko1
 libvolume_key1
 libvorbis0
 libvorbisenc2
@@ -1433,7 +1430,6 @@ mailcommon-lang
 mailimporter
 mailimporter-lang
 mailx
-malaga-suomi
 man
 mariadb
 mariadb-client
@@ -1495,6 +1491,8 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-livecd-kde
 openal-soft
+openconnect
+openconnect-lang
 openldap2-client
 openslp
 openssh
@@ -1615,9 +1613,9 @@ plasma-framework-lang
 plasma-framework-private
 plasma-nm5
 plasma-nm5-lang
+plasma-nm5-openconnect
 plasma-nm5-openvpn
 plasma-nm5-pptp
-plasma-nm5-vpnc
 plasma5-addons
 plasma5-addons-lang
 plasma5-defaults-openSUSE
@@ -1862,7 +1860,6 @@ virtualbox-guest-tools
 virtualbox-guest-x11
 vorbis-tools
 vorbis-tools-lang
-vpnc
 wallpaper-branding-openSUSE
 wget
 which
