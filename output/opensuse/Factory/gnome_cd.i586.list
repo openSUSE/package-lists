@@ -5,6 +5,7 @@ GeoIP-data
 ImageMagick
 Mesa
 Mesa-dri
+Mesa-dri-nouveau
 Mesa-gallium
 Mesa-libEGL1
 Mesa-libGL1
@@ -111,12 +112,6 @@ ca-certificates
 ca-certificates-mozilla
 canberra-gtk-play
 cantarell-fonts
-caribou
-caribou-common
-caribou-gtk-module-common
-caribou-gtk2-module
-caribou-gtk3-module
-caribou-lang
 checkmedia
 cheese
 cheese-lang
@@ -621,7 +616,6 @@ libcanberra0
 libcap-ng0
 libcap2
 libcares2
-libcaribou0
 libccolamd-2_9_6
 libcdda_interface0
 libcdda_paranoia0
@@ -1762,7 +1756,6 @@ tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
-typelib-1_0-Caribou-1_0
 typelib-1_0-Champlain-0_12
 typelib-1_0-Clutter-1_0
 typelib-1_0-ClutterGst-3_0
@@ -1896,6 +1889,7 @@ xf86-video-i128
 xf86-video-mach64
 xf86-video-mga
 xf86-video-neomagic
+xf86-video-nouveau
 xf86-video-nv
 xf86-video-qxl
 xf86-video-r128
