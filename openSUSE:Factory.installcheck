@@ -1,0 +1,372 @@
+can't install python3-pep8-1.7.0-3.2.noarch:
+  package is obsoleted by python3-pycodestyle-2.3.1-2.2.noarch
+can't install python2-msgpack-python-0.4.8-2.4.x86_64:
+  package is obsoleted by python2-msgpack-0.5.6-1.1.x86_64
+can't install mate-calc-1.20.0-1.1.x86_64:
+  package is obsoleted by galculator-2.1.4-1.1.x86_64
+can't install obexd-client-0.48-5.13.x86_64:
+  package is obsoleted by bluez-5.49-2.1.x86_64
+can't install libpsm2-compat-10.3.46-1.1.x86_64:
+  package is obsoleted by libpsm_infinipath1-3.3-9.1.x86_64
+can't install gettext-its-gtk3-3.22.29-2.1.x86_64:
+  package is obsoleted by gettext-its-gtk4-3.93.0-3.1.x86_64
+can't install ghostscript-mini-9.22-2.1.x86_64:
+  package is obsoleted by ghostscript-9.22-2.1.x86_64
+can't install kdesdk4-scripts-17.08.3-1.2.x86_64:
+  package is obsoleted by kdesdk-scripts-17.12.3-1.1.x86_64
+can't install openssl-1_0_0-1.0.2n-2.1.x86_64:
+  package is obsoleted by openssl-1_1-1.1.0h-1.1.x86_64
+can't install gtk3-schema-3.22.29-2.1.noarch:
+  package is obsoleted by gtk4-schema-3.93.0-3.1.noarch
+can't install kdebase4-workspace-4.11.22-15.1.x86_64:
+  package is obsoleted by plasma5-desktop-5.12.4-1.1.x86_64
+can't install bpython-0.15-1.5.noarch:
+  package is obsoleted by python2-bpython-0.16-1.2.noarch
+can't install libevtlog-devel-0.2.13-2.5.x86_64:
+  package is obsoleted by syslog-ng-devel-3.14.1-1.1.x86_64
+can't install python-SocksiPy-1.02-8.6.noarch:
+  package is obsoleted by python2-PySocks-1.6.8-1.1.noarch
+can't install oxygen4-cursors-4.11.22-15.1.x86_64:
+  package is obsoleted by oxygen5-cursors-5.12.4-1.1.x86_64
+can't install python3-msgpack-python-0.4.8-2.4.x86_64:
+  package is obsoleted by python3-msgpack-0.5.6-1.1.x86_64
+can't install kdesdk4-scripts-kf5-porting-17.08.3-1.2.x86_64:
+  package is obsoleted by kdesdk-scripts-kf5-porting-17.12.3-1.1.x86_64
+can't install python-hp3parclient-3.3.2-1.1.noarch:
+  package is obsoleted by python-3parclient-4.2.5-1.1.noarch
+can't install jaxen-bootstrap-1.1-25.1.noarch:
+  package is obsoleted by jaxen-1.1.1-30.1.noarch
+can't install kdebase4-workspace-devel-4.11.22-15.1.x86_64:
+  package is obsoleted by patterns-kde-kde_plasma-20170319-15.1.noarch
+can't install akonadi-runtime-1.13.0-11.2.x86_64:
+  package is obsoleted by akonadi-server-17.12.3-1.1.x86_64
+can't install python-PyWebDAV-0.9.8-2.3.noarch:
+  package is obsoleted by python2-PyWebDAV3-0.9.11-1.2.noarch
+can't install wok-plugins-kimchi-2.5.0-2.1.noarch:
+  package wok-plugins-kimchi-2.5.0-2.1.noarch requires wok = 2.5.0, but none of the providers can be installed
+  nothing provides python-pam needed by wok-2.5.0-2.3.noarch
+can't install qore-ssh2-module-0.9.9-4.12.x86_64:
+  nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.12.x86_64
+can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.11.x86_64:
+  package ruby2.5-rubygem-rhc-testsuite-1.38.7-1.11.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64
+    (we have ruby2.5-rubygem-commander-4.4.4-1.1.x86_64)
+  nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64
+    (we have ruby2.5-rubygem-httpclient-2.8.3-1.8.x86_64)
+can't install qore-uuid-module-1.3-3.11.x86_64:
+  nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.11.x86_64
+can't install kiwi-instsource-plugins-openSUSE-13-2-0.9-10.3.noarch:
+  nothing provides kiwi-instsource needed by kiwi-instsource-plugins-openSUSE-13-2-0.9-10.3.noarch
+can't install python-django-mediasync-2.2.0-10.7.noarch:
+  nothing provides python-boto needed by python-django-mediasync-2.2.0-10.7.noarch
+can't install python3-boto3-1.5.1-1.2.noarch:
+  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
+    (we have python3-botocore-1.9.6-1.1.noarch)
+can't install gns3-2.0.3-1.2.noarch:
+  package gns3-2.0.3-1.2.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
+  nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.3.noarch
+  nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.3.noarch
+can't install vala-panel-extras-weather-0.1.5-1.3.x86_64:
+  nothing provides libgweather-3.so.6()(64bit) needed by vala-panel-extras-weather-0.1.5-1.3.x86_64
+can't install libnautilus-extension1-32bit-3.28.0.1-1.1.x86_64:
+  nothing provides libgexiv2.so.2 needed by libnautilus-extension1-32bit-3.28.0.1-1.1.x86_64
+can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.12.x86_64:
+  package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.12.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+can't install ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64:
+  nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64
+    (we have ruby2.5-rubygem-commander-4.4.4-1.1.x86_64)
+  nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64
+    (we have ruby2.5-rubygem-httpclient-2.8.3-1.8.x86_64)
+can't install python-django-registration-2.2-1.2.noarch:
+  nothing provides python-Django >= 1.8 needed by python-django-registration-2.2-1.2.noarch
+can't install libvotca_xtp4-1.4.1-2.2.x86_64:
+  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
+  nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
+  nothing provides libboost_system.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
+  nothing provides libboost_serialization.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
+  nothing provides libboost_timer.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
+can't install wok-plugins-ginger-2.4.0-3.1.noarch:
+  package wok-plugins-ginger-2.4.0-3.1.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
+  package wok-plugins-gingerbase-2.3.0-2.2.noarch requires wok >= 2.4.0, but none of the providers can be installed
+  nothing provides python-pam needed by wok-2.5.0-2.3.noarch
+can't install qore-mysql-module-2.0.1-4.10.x86_64:
+  nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.1-4.10.x86_64
+can't install ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64:
+  nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
+can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.11.x86_64:
+  package ruby2.5-rubygem-rhc-doc-1.38.7-1.11.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64
+    (we have ruby2.5-rubygem-commander-4.4.4-1.1.x86_64)
+  nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64
+    (we have ruby2.5-rubygem-httpclient-2.8.3-1.8.x86_64)
+can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.6.x86_64:
+  package ruby2.5-rubygem-gettext-setup-doc-0.28-1.6.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
+can't install jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64:
+  nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64
+  nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64
+can't install python3-ec2uploadimg-6.0.1-1.1.noarch:
+  package python3-ec2uploadimg-6.0.1-1.1.noarch requires python3-boto3 >= 1.4.1, but none of the providers can be installed
+  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
+    (we have python3-botocore-1.9.6-1.1.noarch)
+can't install gufw-lang-16.04.0-1.8.noarch:
+  package gufw-lang-16.04.0-1.8.noarch requires gufw = 16.04.0, but none of the providers can be installed
+  nothing provides typelib-1_0-WebKit-3_0 needed by gufw-16.04.0-1.8.noarch
+can't install ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64:
+  package ruby2.5-2.5.0-4.1.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
+  package ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
+  package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:test-unit:3.2.7)) provided by ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64
+can't install DevIL-devel-1.7.8-6.2.x86_64:
+  package DevIL-devel-1.7.8-6.2.x86_64 requires libIL1 = 1.7.8, but none of the providers can be installed
+  nothing provides libjasper.so.1()(64bit) needed by libIL1-1.7.8-6.2.x86_64
+can't install qore-pgsql-module-2.3-4.12.x86_64:
+  nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.12.x86_64
+can't install hgview-1.8.2-3.12.noarch:
+  nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
+can't install python3-ec2publishimg-2.0.0-1.2.noarch:
+  package python3-ec2publishimg-2.0.0-1.2.noarch requires python3-boto3, but none of the providers can be installed
+  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
+    (we have python3-botocore-1.9.6-1.1.noarch)
+can't install ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64:
+  nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
+can't install hgview-qt4-1.8.2-3.12.noarch:
+  package hgview-qt4-1.8.2-3.12.noarch requires hgview = 1.8.2, but none of the providers can be installed
+  nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
+can't install libyami-utils-1.1.0-2.2.x86_64:
+  nothing provides libva-drm.so.1()(64bit) needed by libyami-utils-1.1.0-2.2.x86_64
+  nothing provides libva-x11.so.1()(64bit) needed by libyami-utils-1.1.0-2.2.x86_64
+  nothing provides libva.so.1()(64bit) needed by libyami-utils-1.1.0-2.2.x86_64
+can't install python2-boto3-1.5.1-1.2.noarch:
+  nothing provides python2-botocore < 1.9.0 needed by python2-boto3-1.5.1-1.2.noarch
+    (we have python2-botocore-1.9.6-1.1.noarch)
+can't install budgie-desktop-devel-10.4-4.2.x86_64:
+  package budgie-desktop-devel-10.4-4.2.x86_64 requires budgie-desktop = 10.4-4.2, but none of the providers can be installed
+  nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-1.so.0()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-clutter-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-cogl-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+can't install python-plaso-1.5.1-1.7.noarch:
+  nothing provides pybde needed by python-plaso-1.5.1-1.7.noarch
+  nothing provides pyfsntfs needed by python-plaso-1.5.1-1.7.noarch
+  nothing provides pyfvde needed by python-plaso-1.5.1-1.7.noarch
+  nothing provides pyqcow needed by python-plaso-1.5.1-1.7.noarch
+  nothing provides pyscca needed by python-plaso-1.5.1-1.7.noarch
+  nothing provides pysmraw needed by python-plaso-1.5.1-1.7.noarch
+  nothing provides pyvmdk needed by python-plaso-1.5.1-1.7.noarch
+  nothing provides pyewf = 0~20140608 needed by python-plaso-1.5.1-1.7.noarch
+  nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.7.noarch
+    (we have python2-construct-2.8.12-1.3.noarch)
+  nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.7.noarch
+can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
+  nothing provides python-Django >= 1.4.2 needed by python-django-debug-toolbar-1.3.0-1.3.noarch
+can't install peerunity-qt-0.2.2-3.5.x86_64:
+  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
+  nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
+  nothing provides libboost_system.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
+  nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
+  nothing provides libqrencode.so.3()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
+can't install NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64:
+  nothing provides novell-ipsec-tools >= 0.7 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+  nothing provides novell-nortelplugins >= 0.1.4 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+  nothing provides turnpike >= 0.1.2 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.6.x86_64:
+  package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.6.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
+can't install qore-yaml-module-0.4-4.10.x86_64:
+  nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.10.x86_64
+can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
+  package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
+can't install gnome-shell-extension-gpaste-3.26.0-1.1.noarch:
+  nothing provides typelib(Clutter) = 1 needed by gnome-shell-extension-gpaste-3.26.0-1.1.noarch
+    (we have mutter-3.28.0-2.1.x86_64)
+    (we have typelib-1_0-Clutter-1_0-1.26.2-4.1.x86_64)
+can't install patterns-caasp-Stack-1.0-31.1.x86_64:
+  package patterns-caasp-Stack-1.0-31.1.x86_64 requires caasp-container-manifests, but none of the providers can be installed
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+can't install python-gcs-oauth2-boto-plugin-1.14-1.4.noarch:
+  nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.4.noarch
+can't install vusb-analyzer-1.1-18.3.noarch:
+  nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
+can't install peerunityd-0.2.2-3.5.x86_64:
+  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
+  nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
+  nothing provides libboost_system.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
+  nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
+can't install libIL1-1.7.8-6.2.x86_64:
+  nothing provides libjasper.so.1()(64bit) needed by libIL1-1.7.8-6.2.x86_64
+can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.13.x86_64:
+  package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.13.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
+can't install typelib_1_0-Budgie-0_1-10.4-4.2.x86_64:
+  package typelib_1_0-Budgie-0_1-10.4-4.2.x86_64 requires budgie-desktop = 10.4-4.2, but none of the providers can be installed
+  nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-1.so.0()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-clutter-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-cogl-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+can't install scim-bridge-qt4-32bit-0.4.17-1.4.x86_64:
+  nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.4.x86_64
+can't install lttng-modules-kmp-default-2.10.5_k4.15.13_2-1.26.x86_64:
+  nothing provides kernel-uname-r = 4.15.13-2-default needed by lttng-modules-kmp-default-2.10.5_k4.15.13_2-1.26.x86_64
+    (we have kernel-vanilla-base-4.16.0-1.5.x86_64)
+    (we have kernel-syzkaller-4.16.0-1.5.x86_64)
+    (we have kernel-debug-base-4.16.0-1.5.x86_64)
+    (we have kernel-default-base-4.16.0-1.5.x86_64)
+    (we have kernel-vanilla-4.16.0-1.5.x86_64)
+    (we have kernel-debug-4.16.0-1.5.x86_64)
+    (we have kernel-kvmsmall-base-4.16.0-1.5.x86_64)
+    (we have kernel-kvmsmall-4.16.0-1.5.x86_64)
+    (we have kernel-syzkaller-base-4.16.0-1.5.x86_64)
+    (we have kernel-default-4.16.0-1.5.x86_64)
+can't install NetworkManager-novellvpn-gnome-0.9.0.r29-18.11.x86_64:
+  package NetworkManager-novellvpn-gnome-0.9.0.r29-18.11.x86_64 requires NetworkManager-novellvpn = 0.9.0.r29-18.11, but none of the providers can be installed
+  nothing provides novell-ipsec-tools >= 0.7 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+  nothing provides novell-nortelplugins >= 0.1.4 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+  nothing provides turnpike >= 0.1.2 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.13.x86_64:
+  package ruby2.5-rubygem-pry_debug-doc-0.1.0-6.13.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
+can't install votca-xtp-devel-1.4.1-2.2.x86_64:
+  package votca-xtp-devel-1.4.1-2.2.x86_64 requires votca-xtp = 1.4.1, but none of the providers can be installed
+  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
+can't install ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64:
+  nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+can't install love-0_7_2-0.7.2-2.1.x86_64:
+  package love-0_7_2-0.7.2-2.1.x86_64 requires libIL.so.1()(64bit), but none of the providers can be installed
+  nothing provides libjasper.so.1()(64bit) needed by libIL1-1.7.8-6.2.x86_64
+can't install ruby2.5-rubygem-json-2.1.0-1.9.x86_64:
+  package ruby2.5-2.5.0-4.1.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
+  package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
+  package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
+  package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.9.x86_64
+can't install libdevil-tools-1.7.8-6.2.x86_64:
+  package libdevil-tools-1.7.8-6.2.x86_64 requires libIL.so.1()(64bit), but none of the providers can be installed
+  package libdevil-tools-1.7.8-6.2.x86_64 requires libILU.so.1()(64bit), but none of the providers can be installed
+  package libdevil-tools-1.7.8-6.2.x86_64 requires libIL1 = 1.7.8, but none of the providers can be installed
+  nothing provides libjasper.so.1()(64bit) needed by libIL1-1.7.8-6.2.x86_64
+can't install qore-sqlite3-module-1.0.1-4.9.x86_64:
+  nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.9.x86_64
+can't install wok-plugins-gingerbase-2.3.0-2.2.noarch:
+  package wok-plugins-gingerbase-2.3.0-2.2.noarch requires wok >= 2.4.0, but none of the providers can be installed
+  nothing provides python-pam needed by wok-2.5.0-2.3.noarch
+can't install libginac6-32bit-1.7.2-1.7.x86_64:
+  nothing provides libcln.so.6 needed by libginac6-32bit-1.7.2-1.7.x86_64
+can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64:
+  package ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+  nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+can't install kohana2-2.3.4-1.5.noarch:
+  nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.5.noarch
+can't install cmpi-bindings-ruby-1.0.1-1.16.x86_64:
+  nothing provides libruby2.4.so.2.4()(64bit) needed by cmpi-bindings-ruby-1.0.1-1.16.x86_64
+can't install libginac-devel-32bit-1.7.2-1.7.x86_64:
+  package libginac-devel-32bit-1.7.2-1.7.x86_64 requires libginac6-32bit = 1.7.2, but none of the providers can be installed
+  nothing provides libcln.so.6 needed by libginac6-32bit-1.7.2-1.7.x86_64
+can't install python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch:
+  nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch
+can't install caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch:
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+can't install gufw-16.04.0-1.8.noarch:
+  nothing provides typelib-1_0-WebKit-3_0 needed by gufw-16.04.0-1.8.noarch
+can't install policycoreutils-gui-2.6-3.1.x86_64:
+  nothing provides python-gnome needed by policycoreutils-gui-2.6-3.1.x86_64
+can't install qore-xml-module-1.2-4.10.x86_64:
+  nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.10.x86_64
+can't install wok-2.5.0-2.3.noarch:
+  nothing provides python-pam needed by wok-2.5.0-2.3.noarch
+can't install bind-dyndb-ldap-10.0-2.5.x86_64:
+  nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
+  nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
+can't install ruby2.5-rubygem-fluentd-doc-1.0.0-1.4.x86_64:
+  package ruby2.5-rubygem-fluentd-doc-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
+can't install pink-pony-1.4.1-1.13.x86_64:
+  package pink-pony-1.4.1-1.13.x86_64 requires libIL.so.1()(64bit), but none of the providers can be installed
+  nothing provides libjasper.so.1()(64bit) needed by libIL1-1.7.8-6.2.x86_64
+can't install pink-pony-data-1.4.1-1.13.noarch:
+  package pink-pony-data-1.4.1-1.13.noarch requires pink-pony = 1.4.1, but none of the providers can be installed
+  package pink-pony-1.4.1-1.13.x86_64 requires libIL.so.1()(64bit), but none of the providers can be installed
+  nothing provides libjasper.so.1()(64bit) needed by libIL1-1.7.8-6.2.x86_64
+can't install NetworkManager-novellvpn-lang-0.9.0.r29-18.11.noarch:
+  package NetworkManager-novellvpn-lang-0.9.0.r29-18.11.noarch requires NetworkManager-novellvpn = 0.9.0.r29, but none of the providers can be installed
+  nothing provides novell-ipsec-tools >= 0.7 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+  nothing provides novell-nortelplugins >= 0.1.4 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+  nothing provides turnpike >= 0.1.2 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
+can't install python3-ec2deprecateimg-4.0.0-1.2.noarch:
+  package python3-ec2deprecateimg-4.0.0-1.2.noarch requires python3-boto3, but none of the providers can be installed
+  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
+    (we have python3-botocore-1.9.6-1.1.noarch)
+can't install python-launchpadlib-1.10.2-6.9.noarch:
+  nothing provides python-lazr.restfulclient >= 0.9.19 needed by python-launchpadlib-1.10.2-6.9.noarch
+can't install budgie-desktop-10.4-4.2.x86_64:
+  nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-1.so.0()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-clutter-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+  nothing provides libmutter-cogl-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
+can't install ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64:
+  package ruby2.5-2.5.0-4.1.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
+  package ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
+  package ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
+  package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:power_assert:1.1.1)) provided by ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64
+can't install scim-bridge-gtk2-32bit-0.4.17-1.4.x86_64:
+  nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.4.x86_64
+can't install gns3-server-2.0.3-1.3.noarch:
+  nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.3.noarch
+  nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.3.noarch
+can't install gtk3-metatheme-bluebird-1.2-1.1.noarch:
+  nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.1.noarch
+can't install ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64:
+  nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
+can't install votca-xtp-1.4.1-2.2.x86_64:
+  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
+can't install qore-json-module-1.4-5.10.x86_64:
+  nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.10.x86_64
+can't install paperwork-0.3.2-1.6.noarch:
+  nothing provides poppler needed by paperwork-0.3.2-1.6.noarch
+  nothing provides python-whoosh needed by paperwork-0.3.2-1.6.noarch
+can't install python-openstack-doc-tools-1.5.0-1.4.noarch:
+  nothing provides python-cliff-tablib >= 1.0 needed by python-openstack-doc-tools-1.5.0-1.4.noarch
+can't install python3-ec2utilsbase-3.1.2-1.1.noarch:
+  package python3-ec2utilsbase-3.1.2-1.1.noarch requires python3-boto3 >= 1.3.0, but none of the providers can be installed
+  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
+    (we have python3-botocore-1.9.6-1.1.noarch)

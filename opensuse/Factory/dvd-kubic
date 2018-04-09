@@ -1,0 +1,14 @@
+
+# The Kubic DVD is supposed to be small, build without recommended packages
+solverflags ignorerecommended
+
+# We can't use ignore_opensuse, as that also ignores openSUSE-Kubic-release
+job lock name libudev-mini1
+
+job install provides pattern() = SUSE%2dMicroOS
+job install provides pattern() = SUSE%2dCaaSP%2dStack
+job install name kernel-default
+
+#job lock name Mesa
+#job lock name libgtk-3-0
+

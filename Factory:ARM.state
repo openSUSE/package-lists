@@ -1,0 +1,14 @@
+<resultlist state="d34efafa4c8454d39a33230756d321aa">
+  <result project="openSUSE:Factory:ARM" repository="standard" arch="aarch64" code="building" state="building">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:ARM" repository="standard" arch="armv7l" code="building" state="building">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:ARM" repository="standard" arch="armv6l" code="building" state="building">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:ARM" repository="standard" arch="x86_64" code="published" state="published">
+    <status package="bash" code="disabled" />
+  </result>
+</resultlist>

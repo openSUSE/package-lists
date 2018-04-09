@@ -1,0 +1,797 @@
+can't install openh323-devel-1.19.0.1-3.1.x86_64:
+  package is obsoleted by h323plus-devel-1.26.5-5.1.x86_64
+can't install jaxen-bootstrap-1.1-27.1.noarch:
+  package is obsoleted by jaxen-1.1.1-29.3.noarch
+can't install python3-kde4-4.14.3-6.11.x86_64:
+  package is obsoleted by patterns-openSUSE-kde_plasma-20170518-6.1.x86_64
+can't install kdebase4-workspace-devel-4.11.22-5.29.x86_64:
+  package is obsoleted by patterns-openSUSE-kde_plasma-20170518-6.1.x86_64
+can't install oxygen4-cursors-4.11.22-5.29.x86_64:
+  package is obsoleted by oxygen5-cursors-5.8.7-1.1.x86_64
+can't install xdg-app-0.5.2-3.2.x86_64:
+  package is obsoleted by flatpak-0.8.6-1.1.x86_64
+can't install python-py-bcrypt-0.4-9.2.x86_64:
+  package is obsoleted by python-bcrypt-3.1.3-1.1.x86_64
+can't install kdebase4-workspace-4.11.22-5.29.x86_64:
+  package is obsoleted by plasma5-desktop-5.8.7.1-3.1.x86_64
+can't install python-lazy_object_proxy-1.2.1-3.2.x86_64:
+  package is obsoleted by python-lazy-object-proxy-1.2.2-1.1.x86_64
+can't install kdebase4-workspace-ksysguardd-4.11.22-5.29.x86_64:
+  package is obsoleted by ksysguard5-5.8.7-1.12.x86_64
+can't install lxdm-0.4.1-6.4.x86_64:
+  package is obsoleted by lightdm-1.22.0-4.1.x86_64
+can't install ghostscript-mini-9.15-13.14.x86_64:
+  package is obsoleted by ghostscript-9.15-13.14.x86_64
+can't install akonadi-runtime-1.13.0-6.5.x86_64:
+  package is obsoleted by akonadi-server-17.04.2-1.6.x86_64
+can't install ruby2.2-rubygem-bunny-2.0.0-7.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:amq-protocol) >= 1.9.2 needed by ruby2.2-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.4-rubygem-delayed_job-4.1.1-4.3.x86_64:
+  package ruby2.4-rubygem-delayed_job-4.1.1-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0, but none of the providers can be installed
+  package ruby2.4-rubygem-delayed_job-4.1.1-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-rails-doc-4_2-4.2.4-7.3.x86_64:
+  package ruby2.4-rubygem-rails-doc-4_2-4.2.4-7.3.x86_64 requires ruby2.4-rubygem-rails-4_2 = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64:
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install purpose-32bit-1.1-3.6.x86_64:
+  nothing provides libaccounts-qt5.so.1 needed by purpose-32bit-1.1-3.6.x86_64
+  nothing provides libkaccounts.so.1 needed by purpose-32bit-1.1-3.6.x86_64
+can't install ruby2.3-rubygem-amqp-testsuite-1.5.0-6.3.x86_64:
+  package ruby2.3-rubygem-amqp-testsuite-1.5.0-6.3.x86_64 requires ruby2.3-rubygem-amqp = 1.5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:amq-protocol) >= 1.9.2 needed by ruby2.3-rubygem-amqp-1.5.0-6.3.x86_64
+can't install libxapp1-32bit-1.0.3-1.1.x86_64:
+  nothing provides libgnomekbdui.so.8 needed by libxapp1-32bit-1.0.3-1.1.x86_64
+can't install ruby2.3-rubygem-studio_api-doc-3.2.2-3.3.x86_64:
+  package ruby2.3-rubygem-studio_api-doc-3.2.2-3.3.x86_64 requires ruby2.3-rubygem-studio_api = 3.2.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:activeresource) >= 2.3.8 needed by ruby2.3-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.4-rubygem-delayed_job-testsuite-4.1.1-4.3.x86_64:
+  package ruby2.4-rubygem-delayed_job-testsuite-4.1.1-4.3.x86_64 requires ruby2.4-rubygem-delayed_job = 4.1.1, but none of the providers can be installed
+  package ruby2.4-rubygem-delayed_job-4.1.1-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0, but none of the providers can be installed
+  package ruby2.4-rubygem-delayed_job-4.1.1-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-amqp-doc-1.5.0-6.3.x86_64:
+  package ruby2.4-rubygem-amqp-doc-1.5.0-6.3.x86_64 requires ruby2.4-rubygem-amqp = 1.5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:amq-protocol) >= 1.9.2 needed by ruby2.4-rubygem-amqp-1.5.0-6.3.x86_64
+can't install ruby2.3-rubygem-r10k-testsuite-1.5.1-7.3.x86_64:
+  package ruby2.3-rubygem-r10k-testsuite-1.5.1-7.3.x86_64 requires ruby2.3-rubygem-r10k = 1.5.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colored) = 1.2 needed by ruby2.3-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.4-rubygem-jquery-rails-4.0.5-4.3.x86_64:
+  package ruby2.4-rubygem-jquery-rails-4.0.5-4.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.2.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.2-rubygem-bunny-testsuite-2.0.0-7.3.x86_64:
+  package ruby2.2-rubygem-bunny-testsuite-2.0.0-7.3.x86_64 requires ruby2.2-rubygem-bunny = 2.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:amq-protocol) >= 1.9.2 needed by ruby2.2-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.4-rubygem-quiet_assets-doc-1.1.0-6.3.x86_64:
+  package ruby2.4-rubygem-quiet_assets-1.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-quiet_assets-1.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 3.1, but none of the providers can be installed
+  package ruby2.4-rubygem-quiet_assets-doc-1.1.0-6.3.x86_64 requires ruby2.4-rubygem-quiet_assets = 1.1.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.2-rubygem-studio_api-3.2.2-3.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:activeresource) >= 2.3.8 needed by ruby2.2-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.4-rubygem-globalid-doc-0.3.6-7.3.x86_64:
+  package ruby2.4-rubygem-globalid-doc-0.3.6-7.3.x86_64 requires ruby2.4-rubygem-globalid = 0.3.6, but none of the providers can be installed
+  package ruby2.4-rubygem-globalid-0.3.6-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.1.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-amqp-doc-1.5.0-6.3.x86_64:
+  package ruby2.3-rubygem-amqp-doc-1.5.0-6.3.x86_64 requires ruby2.3-rubygem-amqp = 1.5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:amq-protocol) >= 1.9.2 needed by ruby2.3-rubygem-amqp-1.5.0-6.3.x86_64
+can't install golang-github-fitstar-falcore-0.0.0+git20150708.286078d-1.1.x86_64:
+  nothing provides golang(internal/golang.org/x/net/http2/hpack) needed by golang-github-fitstar-falcore-0.0.0+git20150708.286078d-1.1.x86_64
+can't install adminer-elasticsearch-4.2.5-3.1.noarch:
+  nothing provides php-pear-horde_elasticsearch needed by adminer-elasticsearch-4.2.5-3.1.noarch
+can't install ruby2.2-rubygem-cri-doc-2_6-2.6.1-5.3.x86_64:
+  package ruby2.2-rubygem-cri-doc-2_6-2.6.1-5.3.x86_64 requires ruby2.2-rubygem-cri-2_6 = 2.6.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colored:1) >= 1.2 needed by ruby2.2-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install ruby2.4-rubygem-activejob-doc-4_2-4.2.4-7.3.x86_64:
+  package ruby2.4-rubygem-activejob-doc-4_2-4.2.4-7.3.x86_64 requires ruby2.4-rubygem-activejob-4_2 = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-activejob-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install python-google-api-python-client-1.5.4-1.3.noarch:
+  nothing provides python-uritemplate >= 3.0.0 needed by python-google-api-python-client-1.5.4-1.3.noarch
+    (we have python-uritemplate-0.6-8.1.noarch)
+can't install ruby2.1-rubygem-studio_api-testsuite-3.2.2-3.3.x86_64:
+  package ruby2.1-rubygem-studio_api-testsuite-3.2.2-3.3.x86_64 requires ruby2.1-rubygem-studio_api = 3.2.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.1.0:activeresource) >= 2.3.8 needed by ruby2.1-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.4-rubygem-rails-i18n-doc-4.0.5-4.3.x86_64:
+  package ruby2.4-rubygem-rails-i18n-4.0.5-4.3.x86_64 requires rubygem(ruby:2.4.0:railties:4) >= 4, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-i18n-doc-4.0.5-4.3.x86_64 requires ruby2.4-rubygem-rails-i18n = 4.0.5, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-actionpack-4_2-4.2.4-8.16.x86_64:
+  package ruby2.4-rubygem-actionpack-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-cri-doc-2.7.0-6.3.x86_64:
+  package ruby2.4-rubygem-cri-doc-2.7.0-6.3.x86_64 requires ruby2.4-rubygem-cri = 2.7.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colored:1) >= 1.2 needed by ruby2.4-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.2-rubygem-cri-doc-2.7.0-6.3.x86_64:
+  package ruby2.2-rubygem-cri-doc-2.7.0-6.3.x86_64 requires ruby2.2-rubygem-cri = 2.7.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colored:1) >= 1.2 needed by ruby2.2-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.2-rubygem-studio_api-testsuite-3.2.2-3.3.x86_64:
+  package ruby2.2-rubygem-studio_api-testsuite-3.2.2-3.3.x86_64 requires ruby2.2-rubygem-studio_api = 3.2.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:activeresource) >= 2.3.8 needed by ruby2.2-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.4-rubygem-factory_girl_rails-4.5.0-6.3.x86_64:
+  package ruby2.4-rubygem-factory_girl_rails-4.5.0-6.3.x86_64 requires rubygem(ruby:2.4.0:factory_girl:4.5) >= 4.5, but none of the providers can be installed
+  package ruby2.4-rubygem-factory_girl-4.5.0-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-rails-dom-testing-testsuite-1.0.7-7.3.x86_64:
+  package ruby2.4-rubygem-rails-dom-testing-testsuite-1.0.7-7.3.x86_64 requires ruby2.4-rubygem-rails-dom-testing = 1.0.7, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.beta, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install libxplayer-plparser18-32bit-1.0.2-3.4.x86_64:
+  nothing provides libgmime-2.6.so.0 needed by libxplayer-plparser18-32bit-1.0.2-3.4.x86_64
+can't install ruby2.3-rubygem-r10k-1.5.1-7.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:colored) = 1.2 needed by ruby2.3-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.4-rubygem-bunny-doc-2.0.0-7.3.x86_64:
+  package ruby2.4-rubygem-bunny-doc-2.0.0-7.3.x86_64 requires ruby2.4-rubygem-bunny = 2.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:amq-protocol) >= 1.9.2 needed by ruby2.4-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.1-rubygem-delayed_job_active_record-4.0.3-6.2.x86_64:
+  nothing provides rubygem(ruby:2.1.0:delayed_job) < 4.1 needed by ruby2.1-rubygem-delayed_job_active_record-4.0.3-6.2.x86_64
+    (we have ruby2.1-rubygem-delayed_job-4.1.1-4.3.x86_64)
+can't install ruby2.4-rubygem-responders-doc-2.1.0-6.3.x86_64:
+  package ruby2.4-rubygem-responders-2.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.2.0, but none of the providers can be installed
+  package ruby2.4-rubygem-responders-2.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5, but none of the providers can be installed
+  package ruby2.4-rubygem-responders-doc-2.1.0-6.3.x86_64 requires ruby2.4-rubygem-responders = 2.1.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install libgeis1-32bit-2.2.17-4.5.x86_64:
+  nothing provides libframe.so.6 needed by libgeis1-32bit-2.2.17-4.5.x86_64
+  nothing provides libframe.so.6(FRAME_2.2) needed by libgeis1-32bit-2.2.17-4.5.x86_64
+  nothing provides libgrail.so.6 needed by libgeis1-32bit-2.2.17-4.5.x86_64
+  nothing provides libgrail.so.6(GRAIL_3.1) needed by libgeis1-32bit-2.2.17-4.5.x86_64
+can't install ruby2.3-rubygem-cri-2_6-2.6.1-5.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:colored:1) >= 1.2 needed by ruby2.3-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install ruby2.3-rubygem-studio_api-testsuite-3.2.2-3.3.x86_64:
+  package ruby2.3-rubygem-studio_api-testsuite-3.2.2-3.3.x86_64 requires ruby2.3-rubygem-studio_api = 3.2.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:activeresource) >= 2.3.8 needed by ruby2.3-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.1-rubygem-rhc-doc-1.35.3-5.3.x86_64:
+  package ruby2.1-rubygem-rhc-doc-1.35.3-5.3.x86_64 requires ruby2.1-rubygem-rhc = 1.35.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.1.0:commander) < 4.3.0 needed by ruby2.1-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.1-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.1.0:net-ssh) < 2.9.3 needed by ruby2.1-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.1-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.4-rubygem-factory_girl-testsuite-4.5.0-6.3.x86_64:
+  package ruby2.4-rubygem-factory_girl-testsuite-4.5.0-6.3.x86_64 requires ruby2.4-rubygem-factory_girl = 4.5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-factory_girl-4.5.0-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-actionview-doc-4_2-4.2.4-12.16.x86_64:
+  package ruby2.4-rubygem-actionview-doc-4_2-4.2.4-12.16.x86_64 requires ruby2.4-rubygem-actionview-4_2 = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-actionview-4_2-4.2.4-12.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-simplecov-testsuite-0.10.0-6.3.x86_64:
+  package ruby2.4-rubygem-simplecov-testsuite-0.10.0-6.3.x86_64 requires ruby2.4-rubygem-simplecov = 0.10.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.8 needed by ruby2.4-rubygem-simplecov-0.10.0-6.3.x86_64
+can't install ruby2.2-rubygem-devise-testsuite-3.5.2-7.3.x86_64:
+  package ruby2.2-rubygem-devise-testsuite-3.5.2-7.3.x86_64 requires ruby2.2-rubygem-devise = 3.5.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:orm_adapter:0) >= 0.1 needed by ruby2.2-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.2.0:warden:1.2) >= 1.2.3 needed by ruby2.2-rubygem-devise-3.5.2-7.3.x86_64
+can't install ruby2.4-rubygem-exception_notification-4.1.1-6.3.x86_64:
+  package ruby2.4-rubygem-exception_notification-4.1.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-ra10ke-doc-0.1.1-3.3.x86_64:
+  package ruby2.3-rubygem-ra10ke-doc-0.1.1-3.3.x86_64 requires ruby2.3-rubygem-ra10ke = 0.1.1, but none of the providers can be installed
+  package ruby2.3-rubygem-ra10ke-0.1.1-3.3.x86_64 requires rubygem(ruby:2.3.0:r10k) >= 0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colored) = 1.2 needed by ruby2.3-rubygem-r10k-1.5.1-7.3.x86_64
+can't install gcin-qt4-32bit-2.8.4-6.32.x86_64:
+  nothing provides gcin-32bit = 2.8.4 needed by gcin-qt4-32bit-2.8.4-6.32.x86_64
+can't install ruby2.2-rubygem-rhc-1.35.3-5.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:commander) < 4.3.0 needed by ruby2.2-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.2-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.2.0:net-ssh) < 2.9.3 needed by ruby2.2-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.2-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.4-rubygem-coffee-rails-testsuite-4.1.0-6.3.x86_64:
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-testsuite-4.1.0-6.3.x86_64 requires ruby2.4-rubygem-coffee-rails = 4.1.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-jbuilder-2.3.1-6.3.x86_64:
+  package ruby2.4-rubygem-jbuilder-2.3.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-jbuilder-2.3.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-delayed_job-doc-4.1.1-4.3.x86_64:
+  package ruby2.4-rubygem-delayed_job-doc-4.1.1-4.3.x86_64 requires ruby2.4-rubygem-delayed_job = 4.1.1, but none of the providers can be installed
+  package ruby2.4-rubygem-delayed_job-4.1.1-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0, but none of the providers can be installed
+  package ruby2.4-rubygem-delayed_job-4.1.1-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install golang-github-fitstar-falcore-source-0.0.0+git20150708.286078d-1.1.x86_64:
+  package golang-github-fitstar-falcore-source-0.0.0+git20150708.286078d-1.1.x86_64 requires golang-github-fitstar-falcore = 0.0.0+git20150708.286078d, but none of the providers can be installed
+  nothing provides golang(internal/golang.org/x/net/http2/hpack) needed by golang-github-fitstar-falcore-0.0.0+git20150708.286078d-1.1.x86_64
+can't install nagvis-demos-1.8.5-3.2.noarch:
+  package nagvis-demos-1.8.5-3.2.noarch requires nagvis = 1.8.5, but none of the providers can be installed
+  nothing provides php5-ZendFramework needed by nagvis-1.8.5-3.2.noarch
+  nothing provides php5-pear-xml_parser needed by nagvis-1.8.5-3.2.noarch
+can't install ruby2.4-rubygem-studio_api-testsuite-3.2.2-3.3.x86_64:
+  package ruby2.4-rubygem-studio_api-testsuite-3.2.2-3.3.x86_64 requires ruby2.4-rubygem-studio_api = 3.2.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:activeresource) >= 2.3.8 needed by ruby2.4-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.4-rubygem-bunny-2.0.0-7.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:amq-protocol) >= 1.9.2 needed by ruby2.4-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.4-rubygem-r10k-testsuite-1.5.1-7.3.x86_64:
+  package ruby2.4-rubygem-r10k-testsuite-1.5.1-7.3.x86_64 requires ruby2.4-rubygem-r10k = 1.5.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colored) = 1.2 needed by ruby2.4-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.4-rubygem-turbolinks-2.5.3-6.3.x86_64:
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-turbolinks-2.5.3-6.3.x86_64 requires rubygem(ruby:2.4.0:coffee-rails) >= 0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install google-cloud-sdk-0.9.44-5.2.noarch:
+  package google-cloud-sdk-0.9.44-5.2.noarch requires google-api-python-client >= 1.2, but none of the providers can be installed
+  nothing provides python-uritemplate >= 3.0.0 needed by python-google-api-python-client-1.5.4-1.3.noarch
+    (we have python-uritemplate-0.6-8.1.noarch)
+can't install ruby2.4-rubygem-cri-2_6-2.6.1-5.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:colored:1) >= 1.2 needed by ruby2.4-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install libidn2-0-32bit-2.0.2-1.1.x86_64:
+  nothing provides libunistring.so.0 needed by libidn2-0-32bit-2.0.2-1.1.x86_64
+can't install ruby2.4-rubygem-bunny-testsuite-2.0.0-7.3.x86_64:
+  package ruby2.4-rubygem-bunny-testsuite-2.0.0-7.3.x86_64 requires ruby2.4-rubygem-bunny = 2.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:amq-protocol) >= 1.9.2 needed by ruby2.4-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.3-rubygem-rhc-doc-1.35.3-5.3.x86_64:
+  package ruby2.3-rubygem-rhc-doc-1.35.3-5.3.x86_64 requires ruby2.3-rubygem-rhc = 1.35.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:commander) < 4.3.0 needed by ruby2.3-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.3-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.3.0:net-ssh) < 2.9.3 needed by ruby2.3-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.3-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.4-rubygem-actionpack-doc-4_2-4.2.4-8.16.x86_64:
+  package ruby2.4-rubygem-actionpack-doc-4_2-4.2.4-8.16.x86_64 requires ruby2.4-rubygem-actionpack-4_2 = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-actionpack-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install lua51-luasocket-3.0~rc1+git20140716-1.2.x86_64:
+  nothing provides Lua(API) = 5.1 needed by lua51-luasocket-3.0~rc1+git20140716-1.2.x86_64
+    (we have lua-5.2.4-6.1.x86_64)
+can't install ruby2.4-rubygem-gettext_i18n_rails_js-1.0.2-5.3.x86_64:
+  package ruby2.4-rubygem-gettext_i18n_rails_js-1.0.2-5.3.x86_64 requires rubygem(ruby:2.4.0:rails) >= 3.2.0, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-activemodel-4_2-4.2.4-8.16.x86_64:
+  package ruby2.4-rubygem-activemodel-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-jekyll-3.1.6-3.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:colorator:0) >= 0.1 needed by ruby2.4-rubygem-jekyll-3.1.6-3.3.x86_64
+  nothing provides rubygem(ruby:2.4.0:rouge:1) >= 1.7 needed by ruby2.4-rubygem-jekyll-3.1.6-3.3.x86_64
+can't install cacti-spine-0.8.8f-8.1.x86_64:
+  package cacti-spine-0.8.8f-8.1.x86_64 requires cacti, but none of the providers can be installed
+  package cacti-1.0.4-17.1.noarch conflicts with cacti-spine < 1.0.4 provided by cacti-spine-0.8.8f-8.1.x86_64
+can't install ruby2.4-rubygem-jquery-rails-testsuite-4.0.5-4.3.x86_64:
+  package ruby2.4-rubygem-jquery-rails-4.0.5-4.3.x86_64 requires rubygem(ruby:2.4.0:rails-dom-testing:1) >= 1, but none of the providers can be installed
+  package ruby2.4-rubygem-jquery-rails-testsuite-4.0.5-4.3.x86_64 requires ruby2.4-rubygem-jquery-rails = 4.0.5, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.beta, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-activejob-4_2-4.2.4-7.3.x86_64:
+  package ruby2.4-rubygem-activejob-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install python-tooz-1.43.0-3.4.noarch:
+  nothing provides python-voluptuous >= 0.8.9 needed by python-tooz-1.43.0-3.4.noarch
+    (we have python-voluptuous-0.8.7-3.2.noarch)
+can't install ruby2.2-rubygem-r10k-1.5.1-7.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:colored) = 1.2 needed by ruby2.2-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.4-rubygem-devise-doc-3.5.2-7.3.x86_64:
+  package ruby2.4-rubygem-devise-doc-3.5.2-7.3.x86_64 requires ruby2.4-rubygem-devise = 3.5.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:orm_adapter:0) >= 0.1 needed by ruby2.4-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.4.0:warden:1.2) >= 1.2.3 needed by ruby2.4-rubygem-devise-3.5.2-7.3.x86_64
+can't install liblilv-0-0-32bit-0.22.0-1.1.x86_64:
+  nothing provides libsratom-0.so.0 needed by liblilv-0-0-32bit-0.22.0-1.1.x86_64
+can't install ruby2.4-rubygem-rhc-1.35.3-5.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:commander) < 4.3.0 needed by ruby2.4-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.4-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.4.0:net-ssh) < 2.9.3 needed by ruby2.4-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.4-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.4-rubygem-jquery-ui-rails-6.0.1-6.1.x86_64:
+  package ruby2.4-rubygem-jquery-ui-rails-6.0.1-6.1.x86_64 requires rubygem(ruby:2.4.0:railties) >= 3.2.16, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-factory_girl-doc-4.5.0-6.3.x86_64:
+  package ruby2.4-rubygem-factory_girl-doc-4.5.0-6.3.x86_64 requires ruby2.4-rubygem-factory_girl = 4.5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-factory_girl-4.5.0-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.2-rubygem-cri-2_6-2.6.1-5.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:colored:1) >= 1.2 needed by ruby2.2-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install nagvis-1.8.5-3.2.noarch:
+  nothing provides php5-ZendFramework needed by nagvis-1.8.5-3.2.noarch
+  nothing provides php5-pear-xml_parser needed by nagvis-1.8.5-3.2.noarch
+can't install gcin-qt5-32bit-2.8.4-6.32.x86_64:
+  nothing provides gcin-32bit = 2.8.4 needed by gcin-qt5-32bit-2.8.4-6.32.x86_64
+can't install ruby2.3-rubygem-bunny-testsuite-2.0.0-7.3.x86_64:
+  package ruby2.3-rubygem-bunny-testsuite-2.0.0-7.3.x86_64 requires ruby2.3-rubygem-bunny = 2.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:amq-protocol) >= 1.9.2 needed by ruby2.3-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.4-rubygem-quiet_assets-testsuite-1.1.0-6.3.x86_64:
+  package ruby2.4-rubygem-quiet_assets-1.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-quiet_assets-1.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 3.1, but none of the providers can be installed
+  package ruby2.4-rubygem-quiet_assets-testsuite-1.1.0-6.3.x86_64 requires ruby2.4-rubygem-quiet_assets = 1.1.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-cri-testsuite-2.7.0-6.3.x86_64:
+  package ruby2.3-rubygem-cri-testsuite-2.7.0-6.3.x86_64 requires ruby2.3-rubygem-cri = 2.7.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colored:1) >= 1.2 needed by ruby2.3-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.1-rubygem-studio_api-3.2.2-3.3.x86_64:
+  nothing provides rubygem(ruby:2.1.0:activeresource) >= 2.3.8 needed by ruby2.1-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.2-rubygem-rhc-testsuite-1.35.3-5.3.x86_64:
+  package ruby2.2-rubygem-rhc-testsuite-1.35.3-5.3.x86_64 requires ruby2.2-rubygem-rhc = 1.35.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:commander) < 4.3.0 needed by ruby2.2-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.2-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.2.0:net-ssh) < 2.9.3 needed by ruby2.2-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.2-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.4-rubygem-railties-doc-4_2-4.2.4-7.3.x86_64:
+  package ruby2.4-rubygem-railties-doc-4_2-4.2.4-7.3.x86_64 requires ruby2.4-rubygem-railties-4_2 = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-web-console-doc-2.2.1-7.3.x86_64:
+  package ruby2.4-rubygem-web-console-2.2.1-7.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0, but none of the providers can be installed
+  package ruby2.4-rubygem-web-console-doc-2.2.1-7.3.x86_64 requires ruby2.4-rubygem-web-console = 2.2.1, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-ra10ke-doc-0.1.1-3.3.x86_64:
+  package ruby2.4-rubygem-ra10ke-doc-0.1.1-3.3.x86_64 requires ruby2.4-rubygem-ra10ke = 0.1.1, but none of the providers can be installed
+  package ruby2.4-rubygem-ra10ke-0.1.1-3.3.x86_64 requires rubygem(ruby:2.4.0:r10k) >= 0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colored) = 1.2 needed by ruby2.4-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.2-rubygem-bunny-doc-2.0.0-7.3.x86_64:
+  package ruby2.2-rubygem-bunny-doc-2.0.0-7.3.x86_64 requires ruby2.2-rubygem-bunny = 2.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:amq-protocol) >= 1.9.2 needed by ruby2.2-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.3-rubygem-cri-2.7.0-6.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:colored:1) >= 1.2 needed by ruby2.3-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.4-rubygem-jquery-ui-rails-doc-6.0.1-6.1.x86_64:
+  package ruby2.4-rubygem-jquery-ui-rails-6.0.1-6.1.x86_64 requires rubygem(ruby:2.4.0:railties) >= 3.2.16, but none of the providers can be installed
+  package ruby2.4-rubygem-jquery-ui-rails-doc-6.0.1-6.1.x86_64 requires ruby2.4-rubygem-jquery-ui-rails = 6.0.1, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-rhc-doc-1.35.3-5.3.x86_64:
+  package ruby2.4-rubygem-rhc-doc-1.35.3-5.3.x86_64 requires ruby2.4-rubygem-rhc = 1.35.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:commander) < 4.3.0 needed by ruby2.4-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.4-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.4.0:net-ssh) < 2.9.3 needed by ruby2.4-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.4-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.4-rubygem-cri-doc-2_6-2.6.1-5.3.x86_64:
+  package ruby2.4-rubygem-cri-doc-2_6-2.6.1-5.3.x86_64 requires ruby2.4-rubygem-cri-2_6 = 2.6.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colored:1) >= 1.2 needed by ruby2.4-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install ruby2.4-rubygem-js-routes-doc-1.1.2-4.3.x86_64:
+  package ruby2.4-rubygem-js-routes-1.1.2-4.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 3.2, but none of the providers can be installed
+  package ruby2.4-rubygem-js-routes-doc-1.1.2-4.3.x86_64 requires ruby2.4-rubygem-js-routes = 1.1.2, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.1-rubygem-pry_debug-doc-0.1.0-3.2.x86_64:
+  package ruby2.1-rubygem-pry_debug-doc-0.1.0-3.2.x86_64 requires ruby2.1-rubygem-pry_debug = 0.1.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.1.0:pry:0.9) >= 0.9 needed by ruby2.1-rubygem-pry_debug-0.1.0-3.2.x86_64
+can't install ruby2.4-rubygem-studio_api-doc-3.2.2-3.3.x86_64:
+  package ruby2.4-rubygem-studio_api-doc-3.2.2-3.3.x86_64 requires ruby2.4-rubygem-studio_api = 3.2.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:activeresource) >= 2.3.8 needed by ruby2.4-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.3-rubygem-devise-testsuite-3.5.2-7.3.x86_64:
+  package ruby2.3-rubygem-devise-testsuite-3.5.2-7.3.x86_64 requires ruby2.3-rubygem-devise = 3.5.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:orm_adapter:0) >= 0.1 needed by ruby2.3-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.3.0:warden:1.2) >= 1.2.3 needed by ruby2.3-rubygem-devise-3.5.2-7.3.x86_64
+can't install ruby2.4-rubygem-haml-rails-testsuite-0.9.0-6.3.x86_64:
+  package ruby2.4-rubygem-haml-rails-testsuite-0.9.0-6.3.x86_64 requires ruby2.4-rubygem-haml-rails = 0.9.0, but none of the providers can be installed
+  package ruby2.4-rubygem-haml-rails-0.9.0-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.0.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-web-console-2-2.3.0-3.3.x86_64:
+  package ruby2.4-rubygem-web-console-2-2.3.0-3.3.x86_64 requires rubygem(ruby:2.4.0:activemodel) >= 4.0, but none of the providers can be installed
+  package ruby2.4-rubygem-activemodel-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-ra10ke-0.1.1-3.3.x86_64:
+  package ruby2.3-rubygem-ra10ke-0.1.1-3.3.x86_64 requires rubygem(ruby:2.3.0:r10k) >= 0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colored) = 1.2 needed by ruby2.3-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.2-rubygem-cri-testsuite-2.7.0-6.3.x86_64:
+  package ruby2.2-rubygem-cri-testsuite-2.7.0-6.3.x86_64 requires ruby2.2-rubygem-cri = 2.7.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colored:1) >= 1.2 needed by ruby2.2-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.4-rubygem-sass-rails-5.0.4-4.3.x86_64:
+  package ruby2.4-rubygem-sass-rails-5.0.4-4.3.x86_64 requires rubygem(ruby:2.4.0:sprockets-rails) >= 2.0, but none of the providers can be installed
+  package ruby2.4-rubygem-sass-rails-5.0.4-4.3.x86_64 requires rubygem(ruby:2.4.0:sprockets-rails) < 4.0, but none of the providers can be installed
+  package ruby2.4-rubygem-sprockets-rails-2.3.3-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install prosody-0.9.12-1.19.x86_64:
+  package prosody-0.9.12-1.19.x86_64 requires lua51-luasocket, but none of the providers can be installed
+  nothing provides Lua(API) = 5.1 needed by lua51-luasocket-3.0~rc1+git20140716-1.2.x86_64
+    (we have lua-5.2.4-6.1.x86_64)
+can't install ruby2.2-rubygem-ra10ke-doc-0.1.1-3.3.x86_64:
+  package ruby2.2-rubygem-ra10ke-doc-0.1.1-3.3.x86_64 requires ruby2.2-rubygem-ra10ke = 0.1.1, but none of the providers can be installed
+  package ruby2.2-rubygem-ra10ke-0.1.1-3.3.x86_64 requires rubygem(ruby:2.2.0:r10k) >= 0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colored) = 1.2 needed by ruby2.2-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.3-rubygem-cri-doc-2_6-2.6.1-5.3.x86_64:
+  package ruby2.3-rubygem-cri-doc-2_6-2.6.1-5.3.x86_64 requires ruby2.3-rubygem-cri-2_6 = 2.6.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colored:1) >= 1.2 needed by ruby2.3-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install ruby2.4-rubygem-rails-deprecated_sanitizer-1.0.3-6.3.x86_64:
+  package ruby2.4-rubygem-rails-deprecated_sanitizer-1.0.3-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.alpha, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ktexteditor-32bit-5.32.0-1.29.x86_64:
+  nothing provides libeditorconfig.so.0 needed by ktexteditor-32bit-5.32.0-1.29.x86_64
+can't install ruby2.3-rubygem-cri-testsuite-2_6-2.6.1-5.3.x86_64:
+  package ruby2.3-rubygem-cri-testsuite-2_6-2.6.1-5.3.x86_64 requires ruby2.3-rubygem-cri-2_6 = 2.6.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colored:1) >= 1.2 needed by ruby2.3-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install ruby2.4-rubygem-coffee-rails-doc-4.1.0-6.3.x86_64:
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-doc-4.1.0-6.3.x86_64 requires ruby2.4-rubygem-coffee-rails = 4.1.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-devise-3.5.2-7.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:orm_adapter:0) >= 0.1 needed by ruby2.3-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.3.0:warden:1.2) >= 1.2.3 needed by ruby2.3-rubygem-devise-3.5.2-7.3.x86_64
+can't install ruby2.4-rubygem-simplecov-0.10.0-6.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.8 needed by ruby2.4-rubygem-simplecov-0.10.0-6.3.x86_64
+can't install ruby2.4-rubygem-sprockets-rails-2.3.3-4.3.x86_64:
+  package ruby2.4-rubygem-sprockets-rails-2.3.3-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-web-console-doc-2-2.3.0-3.3.x86_64:
+  package ruby2.4-rubygem-web-console-2-2.3.0-3.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0, but none of the providers can be installed
+  package ruby2.4-rubygem-web-console-doc-2-2.3.0-3.3.x86_64 requires ruby2.4-rubygem-web-console-2 = 2.3.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-factory_girl_rails-doc-4.5.0-6.3.x86_64:
+  package ruby2.4-rubygem-factory_girl_rails-4.5.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 3.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-factory_girl_rails-doc-4.5.0-6.3.x86_64 requires ruby2.4-rubygem-factory_girl_rails = 4.5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-activerecord-doc-4_2-4.2.4-8.16.x86_64:
+  package ruby2.4-rubygem-activerecord-doc-4_2-4.2.4-8.16.x86_64 requires ruby2.4-rubygem-activerecord-4_2 = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-activerecord-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-factory_girl-4.5.0-6.3.x86_64:
+  package ruby2.4-rubygem-factory_girl-4.5.0-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.2-rubygem-devise-doc-3.5.2-7.3.x86_64:
+  package ruby2.2-rubygem-devise-doc-3.5.2-7.3.x86_64 requires ruby2.2-rubygem-devise = 3.5.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:orm_adapter:0) >= 0.1 needed by ruby2.2-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.2.0:warden:1.2) >= 1.2.3 needed by ruby2.2-rubygem-devise-3.5.2-7.3.x86_64
+can't install ruby2.4-rubygem-amqp-testsuite-1.5.0-6.3.x86_64:
+  package ruby2.4-rubygem-amqp-testsuite-1.5.0-6.3.x86_64 requires ruby2.4-rubygem-amqp = 1.5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:amq-protocol) >= 1.9.2 needed by ruby2.4-rubygem-amqp-1.5.0-6.3.x86_64
+can't install ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64:
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64:
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-simplecov-doc-0.10.0-6.3.x86_64:
+  package ruby2.4-rubygem-simplecov-doc-0.10.0-6.3.x86_64 requires ruby2.4-rubygem-simplecov = 0.10.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.8 needed by ruby2.4-rubygem-simplecov-0.10.0-6.3.x86_64
+can't install ruby2.4-rubygem-jekyll-doc-3.1.6-3.3.x86_64:
+  package ruby2.4-rubygem-jekyll-doc-3.1.6-3.3.x86_64 requires ruby2.4-rubygem-jekyll = 3.1.6, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colorator:0) >= 0.1 needed by ruby2.4-rubygem-jekyll-3.1.6-3.3.x86_64
+  nothing provides rubygem(ruby:2.4.0:rouge:1) >= 1.7 needed by ruby2.4-rubygem-jekyll-3.1.6-3.3.x86_64
+can't install ruby2.3-rubygem-jekyll-3.1.6-3.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:colorator:0) >= 0.1 needed by ruby2.3-rubygem-jekyll-3.1.6-3.3.x86_64
+  nothing provides rubygem(ruby:2.3.0:rouge:1) >= 1.7 needed by ruby2.3-rubygem-jekyll-3.1.6-3.3.x86_64
+can't install ruby2.2-rubygem-r10k-testsuite-1.5.1-7.3.x86_64:
+  package ruby2.2-rubygem-r10k-testsuite-1.5.1-7.3.x86_64 requires ruby2.2-rubygem-r10k = 1.5.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colored) = 1.2 needed by ruby2.2-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.4-rubygem-amqp-1.5.0-6.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:amq-protocol) >= 1.9.2 needed by ruby2.4-rubygem-amqp-1.5.0-6.3.x86_64
+can't install ruby2.4-rubygem-studio_api-3.2.2-3.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:activeresource) >= 2.3.8 needed by ruby2.4-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.4-rubygem-quiet_assets-1.1.0-6.3.x86_64:
+  package ruby2.4-rubygem-quiet_assets-1.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-quiet_assets-1.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 3.1, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install python-pytidylib-0.2.4-3.1.noarch:
+  nothing provides libtidy5 needed by python-pytidylib-0.2.4-3.1.noarch
+can't install ruby2.4-rubygem-haml-rails-doc-0.9.0-6.3.x86_64:
+  package ruby2.4-rubygem-haml-rails-doc-0.9.0-6.3.x86_64 requires ruby2.4-rubygem-haml-rails = 0.9.0, but none of the providers can be installed
+  package ruby2.4-rubygem-haml-rails-0.9.0-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.0.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.1-rubygem-jekyll-doc-3.1.6-3.3.x86_64:
+  package ruby2.1-rubygem-jekyll-doc-3.1.6-3.3.x86_64 requires ruby2.1-rubygem-jekyll = 3.1.6, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.1.0:colorator:0) >= 0.1 needed by ruby2.1-rubygem-jekyll-3.1.6-3.3.x86_64
+  nothing provides rubygem(ruby:2.1.0:rouge:1) >= 1.7 needed by ruby2.1-rubygem-jekyll-3.1.6-3.3.x86_64
+can't install ruby2.4-rubygem-ra10ke-0.1.1-3.3.x86_64:
+  package ruby2.4-rubygem-ra10ke-0.1.1-3.3.x86_64 requires rubygem(ruby:2.4.0:r10k) >= 0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colored) = 1.2 needed by ruby2.4-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.2-rubygem-ra10ke-0.1.1-3.3.x86_64:
+  package ruby2.2-rubygem-ra10ke-0.1.1-3.3.x86_64 requires rubygem(ruby:2.2.0:r10k) >= 0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colored) = 1.2 needed by ruby2.2-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.3-rubygem-devise-doc-3.5.2-7.3.x86_64:
+  package ruby2.3-rubygem-devise-doc-3.5.2-7.3.x86_64 requires ruby2.3-rubygem-devise = 3.5.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:orm_adapter:0) >= 0.1 needed by ruby2.3-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.3.0:warden:1.2) >= 1.2.3 needed by ruby2.3-rubygem-devise-3.5.2-7.3.x86_64
+can't install ruby2.4-rubygem-devise-testsuite-3.5.2-7.3.x86_64:
+  package ruby2.4-rubygem-devise-testsuite-3.5.2-7.3.x86_64 requires ruby2.4-rubygem-devise = 3.5.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:orm_adapter:0) >= 0.1 needed by ruby2.4-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.4.0:warden:1.2) >= 1.2.3 needed by ruby2.4-rubygem-devise-3.5.2-7.3.x86_64
+can't install ruby2.2-rubygem-amqp-1.5.0-6.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:amq-protocol) >= 1.9.2 needed by ruby2.2-rubygem-amqp-1.5.0-6.3.x86_64
+can't install ruby2.1-rubygem-rhc-testsuite-1.35.3-5.3.x86_64:
+  package ruby2.1-rubygem-rhc-testsuite-1.35.3-5.3.x86_64 requires ruby2.1-rubygem-rhc = 1.35.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.1.0:commander) < 4.3.0 needed by ruby2.1-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.1-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.1.0:net-ssh) < 2.9.3 needed by ruby2.1-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.1-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.4-rubygem-actionmailer-doc-4_2-4.2.4-7.3.x86_64:
+  package ruby2.4-rubygem-actionmailer-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:rails-dom-testing:1) >= 1, but none of the providers can be installed
+  package ruby2.4-rubygem-actionmailer-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:rails-dom-testing) >= 1.0.5, but none of the providers can be installed
+  package ruby2.4-rubygem-actionmailer-doc-4_2-4.2.4-7.3.x86_64 requires ruby2.4-rubygem-actionmailer-4_2 = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.beta, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.1-rubygem-pry_debug-0.1.0-3.2.x86_64:
+  nothing provides rubygem(ruby:2.1.0:pry:0.9) >= 0.9 needed by ruby2.1-rubygem-pry_debug-0.1.0-3.2.x86_64
+can't install ruby2.4-rubygem-sdoc-doc-0.4.1-6.3.x86_64:
+  package ruby2.4-rubygem-sdoc-doc-0.4.1-6.3.x86_64 requires ruby2.4-rubygem-sdoc = 0.4.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-sdoc-0.4.1-6.3.x86_64
+can't install ruby2.4-rubygem-sdoc-testsuite-0.4.1-6.3.x86_64:
+  package ruby2.4-rubygem-sdoc-testsuite-0.4.1-6.3.x86_64 requires ruby2.4-rubygem-sdoc = 0.4.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-sdoc-0.4.1-6.3.x86_64
+can't install ruby2.4-rubygem-globalid-0.3.6-7.3.x86_64:
+  package ruby2.4-rubygem-globalid-0.3.6-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.1.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install python-launchpadlib-1.10.2-3.1.noarch:
+  nothing provides python-lazr.restfulclient >= 0.9.19 needed by python-launchpadlib-1.10.2-3.1.noarch
+can't install ruby2.1-rubygem-rhc-1.35.3-5.3.x86_64:
+  nothing provides rubygem(ruby:2.1.0:commander) < 4.3.0 needed by ruby2.1-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.1-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.1.0:net-ssh) < 2.9.3 needed by ruby2.1-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.1-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.4-rubygem-turbolinks-doc-2.5.3-6.3.x86_64:
+  package ruby2.4-rubygem-turbolinks-2.5.3-6.3.x86_64 requires rubygem(ruby:2.4.0:coffee-rails) >= 0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-turbolinks-doc-2.5.3-6.3.x86_64 requires ruby2.4-rubygem-turbolinks = 2.5.3, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-actionview-4_2-4.2.4-12.16.x86_64:
+  package ruby2.4-rubygem-actionview-4_2-4.2.4-12.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-sass-rails-doc-5.0.4-4.3.x86_64:
+  package ruby2.4-rubygem-sass-rails-5.0.4-4.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-sass-rails-5.0.4-4.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-sass-rails-doc-5.0.4-4.3.x86_64 requires ruby2.4-rubygem-sass-rails = 5.0.4, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-activemodel-doc-4_2-4.2.4-8.16.x86_64:
+  package ruby2.4-rubygem-activemodel-doc-4_2-4.2.4-8.16.x86_64 requires ruby2.4-rubygem-activemodel-4_2 = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-activemodel-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-studio_api-3.2.2-3.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:activeresource) >= 2.3.8 needed by ruby2.3-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install swtchart-0.7.0-3.28.noarch:
+  nothing provides osgi(org.eclipse.swt) needed by swtchart-0.7.0-3.28.noarch
+can't install ruby2.4-rubygem-r10k-1.5.1-7.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:colored) = 1.2 needed by ruby2.4-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.4-rubygem-responders-2.1.0-6.3.x86_64:
+  package ruby2.4-rubygem-responders-2.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.2.0, but none of the providers can be installed
+  package ruby2.4-rubygem-responders-2.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-turbolinks-testsuite-2.5.3-6.3.x86_64:
+  package ruby2.4-rubygem-turbolinks-2.5.3-6.3.x86_64 requires rubygem(ruby:2.4.0:coffee-rails) >= 0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-coffee-rails-4.1.0-6.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 4.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-turbolinks-testsuite-2.5.3-6.3.x86_64 requires ruby2.4-rubygem-turbolinks = 2.5.3, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-sprockets-rails-doc-2.3.3-4.3.x86_64:
+  package ruby2.4-rubygem-sprockets-rails-doc-2.3.3-4.3.x86_64 requires ruby2.4-rubygem-sprockets-rails = 2.3.3, but none of the providers can be installed
+  package ruby2.4-rubygem-sprockets-rails-2.3.3-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-actionmailer-4_2-4.2.4-7.3.x86_64:
+  package ruby2.4-rubygem-actionmailer-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:actionpack) = 4.2.4, but none of the providers can be installed
+  package ruby2.4-rubygem-actionpack-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install wyrmsun-2.5.3-1.1.noarch:
+  nothing provides wyrmgus = 2.5.3 needed by wyrmsun-2.5.3-1.1.noarch
+can't install ruby2.3-rubygem-jekyll-doc-3.1.6-3.3.x86_64:
+  package ruby2.3-rubygem-jekyll-doc-3.1.6-3.3.x86_64 requires ruby2.3-rubygem-jekyll = 3.1.6, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colorator:0) >= 0.1 needed by ruby2.3-rubygem-jekyll-3.1.6-3.3.x86_64
+  nothing provides rubygem(ruby:2.3.0:rouge:1) >= 1.7 needed by ruby2.3-rubygem-jekyll-3.1.6-3.3.x86_64
+can't install ruby2.2-rubygem-jekyll-3.1.6-3.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:colorator:0) >= 0.1 needed by ruby2.2-rubygem-jekyll-3.1.6-3.3.x86_64
+  nothing provides rubygem(ruby:2.2.0:rouge:1) >= 1.7 needed by ruby2.2-rubygem-jekyll-3.1.6-3.3.x86_64
+can't install ruby2.2-rubygem-amqp-doc-1.5.0-6.3.x86_64:
+  package ruby2.2-rubygem-amqp-doc-1.5.0-6.3.x86_64 requires ruby2.2-rubygem-amqp = 1.5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:amq-protocol) >= 1.9.2 needed by ruby2.2-rubygem-amqp-1.5.0-6.3.x86_64
+can't install ruby2.4-rubygem-rails-i18n-4.0.5-4.3.x86_64:
+  package ruby2.4-rubygem-rails-i18n-4.0.5-4.3.x86_64 requires rubygem(ruby:2.4.0:railties:4) >= 4, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-cri-testsuite-2_6-2.6.1-5.3.x86_64:
+  package ruby2.4-rubygem-cri-testsuite-2_6-2.6.1-5.3.x86_64 requires ruby2.4-rubygem-cri-2_6 = 2.6.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colored:1) >= 1.2 needed by ruby2.4-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install ktexteditor-devel-32bit-5.32.0-1.29.x86_64:
+  package ktexteditor-devel-32bit-5.32.0-1.29.x86_64 requires ktexteditor-32bit = 5.32.0, but none of the providers can be installed
+  nothing provides libeditorconfig.so.0 needed by ktexteditor-32bit-5.32.0-1.29.x86_64
+can't install gcin-gtk2-32bit-2.8.4-6.32.x86_64:
+  nothing provides gcin-32bit = 2.8.4 needed by gcin-gtk2-32bit-2.8.4-6.32.x86_64
+can't install ruby2.4-rubygem-rhc-testsuite-1.35.3-5.3.x86_64:
+  package ruby2.4-rubygem-rhc-testsuite-1.35.3-5.3.x86_64 requires ruby2.4-rubygem-rhc = 1.35.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:commander) < 4.3.0 needed by ruby2.4-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.4-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.4.0:net-ssh) < 2.9.3 needed by ruby2.4-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.4-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install ruby2.2-rubygem-devise-3.5.2-7.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:orm_adapter:0) >= 0.1 needed by ruby2.2-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.2.0:warden:1.2) >= 1.2.3 needed by ruby2.2-rubygem-devise-3.5.2-7.3.x86_64
+can't install ruby2.3-rubygem-bunny-doc-2.0.0-7.3.x86_64:
+  package ruby2.3-rubygem-bunny-doc-2.0.0-7.3.x86_64 requires ruby2.3-rubygem-bunny = 2.0.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:amq-protocol) >= 1.9.2 needed by ruby2.3-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.2-rubygem-amqp-testsuite-1.5.0-6.3.x86_64:
+  package ruby2.2-rubygem-amqp-testsuite-1.5.0-6.3.x86_64 requires ruby2.2-rubygem-amqp = 1.5.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:amq-protocol) >= 1.9.2 needed by ruby2.2-rubygem-amqp-1.5.0-6.3.x86_64
+can't install octave-forge-secs3d-0.0.1-1.2.noarch:
+  nothing provides octave-forge-bim needed by octave-forge-secs3d-0.0.1-1.2.noarch
+can't install ruby2.1-rubygem-jekyll-3.1.6-3.3.x86_64:
+  nothing provides rubygem(ruby:2.1.0:colorator:0) >= 0.1 needed by ruby2.1-rubygem-jekyll-3.1.6-3.3.x86_64
+  nothing provides rubygem(ruby:2.1.0:rouge:1) >= 1.7 needed by ruby2.1-rubygem-jekyll-3.1.6-3.3.x86_64
+can't install ruby2.4-rubygem-js-routes-testsuite-1.1.2-4.3.x86_64:
+  package ruby2.4-rubygem-js-routes-1.1.2-4.3.x86_64 requires rubygem(ruby:2.4.0:railties) >= 3.2, but none of the providers can be installed
+  package ruby2.4-rubygem-js-routes-testsuite-1.1.2-4.3.x86_64 requires ruby2.4-rubygem-js-routes = 1.1.2, but none of the providers can be installed
+  package ruby2.4-rubygem-railties-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-exception_notification-doc-4.1.1-6.3.x86_64:
+  package ruby2.4-rubygem-exception_notification-doc-4.1.1-6.3.x86_64 requires ruby2.4-rubygem-exception_notification = 4.1.1, but none of the providers can be installed
+  package ruby2.4-rubygem-exception_notification-4.1.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install slurm-openlava-16.05.8.1-1.15.x86_64:
+  nothing provides slurm-perlapi needed by slurm-openlava-16.05.8.1-1.15.x86_64
+can't install ruby2.4-rubygem-rails-dom-testing-doc-1.0.7-7.3.x86_64:
+  package ruby2.4-rubygem-rails-dom-testing-doc-1.0.7-7.3.x86_64 requires ruby2.4-rubygem-rails-dom-testing = 1.0.7, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.beta, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-rails-deprecated_sanitizer-doc-1.0.3-6.3.x86_64:
+  package ruby2.4-rubygem-rails-deprecated_sanitizer-doc-1.0.3-6.3.x86_64 requires ruby2.4-rubygem-rails-deprecated_sanitizer = 1.0.3, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-deprecated_sanitizer-1.0.3-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.alpha, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-haml-rails-0.9.0-6.3.x86_64:
+  package ruby2.4-rubygem-haml-rails-0.9.0-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.0.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-js-routes-1.1.2-4.3.x86_64:
+  package ruby2.4-rubygem-js-routes-1.1.2-4.3.x86_64 requires rubygem(ruby:2.4.0:sprockets-rails) >= 0, but none of the providers can be installed
+  package ruby2.4-rubygem-sprockets-rails-2.3.3-4.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install sap-locale-1.0-94.3.x86_64:
+  nothing provides libc.so.6(GLIBC_PRIVATE)(64bit) needed by sap-locale-1.0-94.3.x86_64
+can't install slurm-seff-16.05.8.1-1.15.x86_64:
+  nothing provides slurm-perlapi needed by slurm-seff-16.05.8.1-1.15.x86_64
+can't install ruby2.2-rubygem-rhc-doc-1.35.3-5.3.x86_64:
+  package ruby2.2-rubygem-rhc-doc-1.35.3-5.3.x86_64 requires ruby2.2-rubygem-rhc = 1.35.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:commander) < 4.3.0 needed by ruby2.2-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.2-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.2.0:net-ssh) < 2.9.3 needed by ruby2.2-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.2-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install python-gcs-oauth2-boto-plugin-1.8-4.1.noarch:
+  package python-gcs-oauth2-boto-plugin-1.8-4.1.noarch requires google-api-python-client >= 1.1, but none of the providers can be installed
+  nothing provides python-uritemplate >= 3.0.0 needed by python-google-api-python-client-1.5.4-1.3.noarch
+    (we have python-uritemplate-0.6-8.1.noarch)
+can't install ruby2.4-rubygem-exception_notification-testsuite-4.1.1-6.3.x86_64:
+  package ruby2.4-rubygem-exception_notification-testsuite-4.1.1-6.3.x86_64 requires ruby2.4-rubygem-exception_notification = 4.1.1, but none of the providers can be installed
+  package ruby2.4-rubygem-exception_notification-4.1.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64:
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.beta, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-activerecord-4_2-4.2.4-8.16.x86_64:
+  package ruby2.4-rubygem-activerecord-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-rails-4_2-4.2.4-7.3.x86_64:
+  package ruby2.4-rubygem-rails-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-r10k-doc-1.5.1-7.3.x86_64:
+  package ruby2.4-rubygem-r10k-doc-1.5.1-7.3.x86_64 requires ruby2.4-rubygem-r10k = 1.5.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colored) = 1.2 needed by ruby2.4-rubygem-r10k-1.5.1-7.3.x86_64
+can't install kaccounts-integration-32bit-17.04.2-1.1.x86_64:
+  nothing provides libaccounts-qt5.so.1 needed by kaccounts-integration-32bit-17.04.2-1.1.x86_64
+  nothing provides libkaccounts.so.1 needed by kaccounts-integration-32bit-17.04.2-1.1.x86_64
+  nothing provides libsignon-qt5.so.1 needed by kaccounts-integration-32bit-17.04.2-1.1.x86_64
+can't install ruby2.3-rubygem-cri-doc-2.7.0-6.3.x86_64:
+  package ruby2.3-rubygem-cri-doc-2.7.0-6.3.x86_64 requires ruby2.3-rubygem-cri = 2.7.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colored:1) >= 1.2 needed by ruby2.3-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.2-rubygem-cri-2.7.0-6.3.x86_64:
+  nothing provides rubygem(ruby:2.2.0:colored:1) >= 1.2 needed by ruby2.2-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.4-rubygem-jquery-rails-doc-4.0.5-4.3.x86_64:
+  package ruby2.4-rubygem-jquery-rails-4.0.5-4.3.x86_64 requires rubygem(ruby:2.4.0:rails-dom-testing:1) >= 1, but none of the providers can be installed
+  package ruby2.4-rubygem-jquery-rails-doc-4.0.5-4.3.x86_64 requires ruby2.4-rubygem-jquery-rails = 4.0.5, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5.0, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-dom-testing-1.0.7-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.beta, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.2-rubygem-cri-testsuite-2_6-2.6.1-5.3.x86_64:
+  package ruby2.2-rubygem-cri-testsuite-2_6-2.6.1-5.3.x86_64 requires ruby2.2-rubygem-cri-2_6 = 2.6.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colored:1) >= 1.2 needed by ruby2.2-rubygem-cri-2_6-2.6.1-5.3.x86_64
+can't install octave-forge-secs1d-0.0.9-1.2.noarch:
+  nothing provides octave-forge-bim needed by octave-forge-secs1d-0.0.9-1.2.noarch
+can't install libbctoolbox-tester0-32bit-0.2.0-3.7.x86_64:
+  nothing provides libcunit.so.1 needed by libbctoolbox-tester0-32bit-0.2.0-3.7.x86_64
+can't install ruby2.3-rubygem-rhc-1.35.3-5.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:commander) < 4.3.0 needed by ruby2.3-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.3-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.3.0:net-ssh) < 2.9.3 needed by ruby2.3-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.3-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install php5-pear-phpunit-DbUnit-1.3.1-3.1.noarch:
+  nothing provides php5-pear-phpunit >= 3.7.0 needed by php5-pear-phpunit-DbUnit-1.3.1-3.1.noarch
+can't install ruby2.4-rubygem-rails-deprecated_sanitizer-testsuite-1.0.3-6.3.x86_64:
+  package ruby2.4-rubygem-rails-deprecated_sanitizer-testsuite-1.0.3-6.3.x86_64 requires ruby2.4-rubygem-rails-deprecated_sanitizer = 1.0.3, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-deprecated_sanitizer-1.0.3-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 4.2.0.alpha, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-jbuilder-testsuite-2.3.1-6.3.x86_64:
+  package ruby2.4-rubygem-jbuilder-testsuite-2.3.1-6.3.x86_64 requires ruby2.4-rubygem-jbuilder = 2.3.1, but none of the providers can be installed
+  package ruby2.4-rubygem-jbuilder-2.3.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-jbuilder-2.3.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.2-rubygem-jekyll-doc-3.1.6-3.3.x86_64:
+  package ruby2.2-rubygem-jekyll-doc-3.1.6-3.3.x86_64 requires ruby2.2-rubygem-jekyll = 3.1.6, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colorator:0) >= 0.1 needed by ruby2.2-rubygem-jekyll-3.1.6-3.3.x86_64
+  nothing provides rubygem(ruby:2.2.0:rouge:1) >= 1.7 needed by ruby2.2-rubygem-jekyll-3.1.6-3.3.x86_64
+can't install ruby2.4-rubygem-sdoc-0.4.1-6.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-sdoc-0.4.1-6.3.x86_64
+can't install google-cloud-sdk-doc-0.9.44-5.2.noarch:
+  package google-cloud-sdk-doc-0.9.44-5.2.noarch requires google-cloud-sdk = 0.9.44, but none of the providers can be installed
+  package google-cloud-sdk-0.9.44-5.2.noarch requires google-api-python-client >= 1.2, but none of the providers can be installed
+  nothing provides python-uritemplate >= 3.0.0 needed by python-google-api-python-client-1.5.4-1.3.noarch
+    (we have python-uritemplate-0.6-8.1.noarch)
+can't install gnome-session-wayland-3.20.2-8.4.x86_64:
+  nothing provides xorg-x11-server-wayland needed by gnome-session-wayland-3.20.2-8.4.x86_64
+can't install ruby2.1-rubygem-studio_api-doc-3.2.2-3.3.x86_64:
+  package ruby2.1-rubygem-studio_api-doc-3.2.2-3.3.x86_64 requires ruby2.1-rubygem-studio_api = 3.2.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.1.0:activeresource) >= 2.3.8 needed by ruby2.1-rubygem-studio_api-3.2.2-3.3.x86_64
+can't install ruby2.4-rubygem-activesupport-doc-4_2-4.2.4-8.17.x86_64:
+  package ruby2.4-rubygem-activesupport-doc-4_2-4.2.4-8.17.x86_64 requires ruby2.4-rubygem-activesupport-4_2 = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-bunny-2.0.0-7.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:amq-protocol) >= 1.9.2 needed by ruby2.3-rubygem-bunny-2.0.0-7.3.x86_64
+can't install ruby2.2-rubygem-r10k-doc-1.5.1-7.3.x86_64:
+  package ruby2.2-rubygem-r10k-doc-1.5.1-7.3.x86_64 requires ruby2.2-rubygem-r10k = 1.5.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:colored) = 1.2 needed by ruby2.2-rubygem-r10k-1.5.1-7.3.x86_64
+can't install ruby2.4-rubygem-cri-2.7.0-6.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:colored:1) >= 1.2 needed by ruby2.4-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.4-rubygem-web-console-2.2.1-7.3.x86_64:
+  package ruby2.4-rubygem-web-console-2.2.1-7.3.x86_64 requires rubygem(ruby:2.4.0:activemodel) >= 4.0, but none of the providers can be installed
+  package ruby2.4-rubygem-activemodel-4_2-4.2.4-8.16.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.4-rubygem-cri-testsuite-2.7.0-6.3.x86_64:
+  package ruby2.4-rubygem-cri-testsuite-2.7.0-6.3.x86_64 requires ruby2.4-rubygem-cri = 2.7.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:colored:1) >= 1.2 needed by ruby2.4-rubygem-cri-2.7.0-6.3.x86_64
+can't install ruby2.1-rubygem-pry_debug-testsuite-0.1.0-3.2.x86_64:
+  package ruby2.1-rubygem-pry_debug-testsuite-0.1.0-3.2.x86_64 requires ruby2.1-rubygem-pry_debug = 0.1.0, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.1.0:pry:0.9) >= 0.9 needed by ruby2.1-rubygem-pry_debug-0.1.0-3.2.x86_64
+can't install ruby2.4-rubygem-devise-3.5.2-7.3.x86_64:
+  nothing provides rubygem(ruby:2.4.0:orm_adapter:0) >= 0.1 needed by ruby2.4-rubygem-devise-3.5.2-7.3.x86_64
+  nothing provides rubygem(ruby:2.4.0:warden:1.2) >= 1.2.3 needed by ruby2.4-rubygem-devise-3.5.2-7.3.x86_64
+can't install ruby2.4-rubygem-gettext_i18n_rails_js-doc-1.0.2-5.3.x86_64:
+  package ruby2.4-rubygem-gettext_i18n_rails_js-1.0.2-5.3.x86_64 requires rubygem(ruby:2.4.0:rails) >= 3.2.0, but none of the providers can be installed
+  package ruby2.4-rubygem-gettext_i18n_rails_js-doc-1.0.2-5.3.x86_64 requires ruby2.4-rubygem-gettext_i18n_rails_js = 1.0.2, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-r10k-doc-1.5.1-7.3.x86_64:
+  package ruby2.3-rubygem-r10k-doc-1.5.1-7.3.x86_64 requires ruby2.3-rubygem-r10k = 1.5.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:colored) = 1.2 needed by ruby2.3-rubygem-r10k-1.5.1-7.3.x86_64
+can't install policycoreutils-gui-2.5-5.2.x86_64:
+  nothing provides selinux-policy needed by policycoreutils-gui-2.5-5.2.x86_64
+can't install ruby2.4-rubygem-jbuilder-doc-2.3.1-6.3.x86_64:
+  package ruby2.4-rubygem-jbuilder-doc-2.3.1-6.3.x86_64 requires ruby2.4-rubygem-jbuilder = 2.3.1, but none of the providers can be installed
+  package ruby2.4-rubygem-jbuilder-2.3.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) >= 3.0.0, but none of the providers can be installed
+  package ruby2.4-rubygem-jbuilder-2.3.1-6.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) < 5, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.3-rubygem-amqp-1.5.0-6.3.x86_64:
+  nothing provides rubygem(ruby:2.3.0:amq-protocol) >= 1.9.2 needed by ruby2.3-rubygem-amqp-1.5.0-6.3.x86_64
+can't install ruby2.3-rubygem-rhc-testsuite-1.35.3-5.3.x86_64:
+  package ruby2.3-rubygem-rhc-testsuite-1.35.3-5.3.x86_64 requires ruby2.3-rubygem-rhc = 1.35.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.3.0:commander) < 4.3.0 needed by ruby2.3-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.3-rubygem-commander-4.3.5-7.3.x86_64)
+  nothing provides rubygem(ruby:2.3.0:net-ssh) < 2.9.3 needed by ruby2.3-rubygem-rhc-1.35.3-5.3.x86_64
+    (we have ruby2.3-rubygem-net-ssh-3.0.1-4.3.x86_64)
+can't install gcin-gtk3-32bit-2.8.4-6.32.x86_64:
+  nothing provides gcin-32bit = 2.8.4 needed by gcin-gtk3-32bit-2.8.4-6.32.x86_64
+can't install ruby2.1-rubygem-delayed_job_active_record-doc-4.0.3-6.2.x86_64:
+  package ruby2.1-rubygem-delayed_job_active_record-doc-4.0.3-6.2.x86_64 requires ruby2.1-rubygem-delayed_job_active_record = 4.0.3, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.1.0:delayed_job) < 4.1 needed by ruby2.1-rubygem-delayed_job_active_record-4.0.3-6.2.x86_64
+    (we have ruby2.1-rubygem-delayed_job-4.1.1-4.3.x86_64)
+can't install libpsl5-32bit-0.17.0-1.2.x86_64:
+  nothing provides libunistring.so.0 needed by libpsl5-32bit-0.17.0-1.2.x86_64
+can't install purpose-devel-32bit-1.1-3.6.x86_64:
+  package purpose-devel-32bit-1.1-3.6.x86_64 requires purpose-32bit = 1.1, but none of the providers can be installed
+  nothing provides libaccounts-qt5.so.1 needed by purpose-32bit-1.1-3.6.x86_64
+  nothing provides libkaccounts.so.1 needed by purpose-32bit-1.1-3.6.x86_64
+can't install ruby2.4-rubygem-gettext_i18n_rails_js-testsuite-1.0.2-5.3.x86_64:
+  package ruby2.4-rubygem-gettext_i18n_rails_js-1.0.2-5.3.x86_64 requires rubygem(ruby:2.4.0:rails) >= 3.2.0, but none of the providers can be installed
+  package ruby2.4-rubygem-gettext_i18n_rails_js-testsuite-1.0.2-5.3.x86_64 requires ruby2.4-rubygem-gettext_i18n_rails_js = 1.0.2, but none of the providers can be installed
+  package ruby2.4-rubygem-rails-4_2-4.2.4-7.3.x86_64 requires rubygem(ruby:2.4.0:activesupport) = 4.2.4, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.4.0:json:1) >= 1.7 needed by ruby2.4-rubygem-activesupport-4_2-4.2.4-8.17.x86_64
+can't install ruby2.2-rubygem-studio_api-doc-3.2.2-3.3.x86_64:
+  package ruby2.2-rubygem-studio_api-doc-3.2.2-3.3.x86_64 requires ruby2.2-rubygem-studio_api = 3.2.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.2.0:activeresource) >= 2.3.8 needed by ruby2.2-rubygem-studio_api-3.2.2-3.3.x86_64
