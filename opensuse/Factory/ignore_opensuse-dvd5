@@ -109,3 +109,5 @@ job lock name java-1_9_0-openjdk-devel
 
 ## wow, we run out of space... drop 40MB of cjk fonts:
 job lock name noto-sans-cjk-fonts
+## still run out of space, as kr was dropped, try jp also
+job lock name noto-sans-jp-fonts
