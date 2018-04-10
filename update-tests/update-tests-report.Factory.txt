@@ -1,9 +1,9 @@
-At revision 80.
+At revision 82.
 testing 13.1-x86_64-update.t
 testing 13.1-i586-update.t
-Found 4 problems:
+Found 2 problems:
 Problem 1:
-nothing provides kernel-pae-devel = 4.16.0-1 needed by kernel-syms-4.16.0-1.5.i586
+nothing provides kernel-pae-devel = 4.16.0-1 needed by kernel-syms-4.16.0-1.6.i586
 
 Solution 1:
   - allow deinstallation of kernel-syms-3.11.6-4.1.i586
@@ -13,19 +13,7 @@ Solution 2:
   - keep obsolete kernel-devel-3.11.6-4.1.noarch
 
 Problem 2:
-package perl-Date-Manip-6.40-2.1.2.noarch requires perl(:MODULE_COMPAT_5.18.1), but none of the providers can be installed
-
-Solution 1:
-  - allow deinstallation of gnucash-2.4.13-2.1.3.i586
-
-Solution 2:
-  - keep obsolete perl-5.18.1-2.1.11.i586
-
-Solution 3:
-  - keep obsolete perl-5.18.1-2.1.11.i586
-
-Problem 3:
-nothing provides kernel-pae-devel = 4.16.0-1 needed by kernel-syms-4.16.0-1.5.i586
+nothing provides kernel-pae-devel = 4.16.0-1 needed by kernel-syms-4.16.0-1.6.i586
 
 Solution 1:
   - allow deinstallation of kernel-syms-3.11.10-21.1.i586
@@ -33,16 +21,4 @@ Solution 1:
 Solution 2:
   - keep obsolete kernel-default-devel-3.11.6-4.1.i586
   - keep obsolete kernel-devel-3.11.6-4.1.noarch
-
-Problem 4:
-package perl-5.18.1-2.1.11.i586 requires perl-base = 5.18.1, but none of the providers can be installed
-
-Solution 1:
-  - allow deinstallation of gnucash-lang-2.4.13-2.1.3.noarch
-
-Solution 2:
-  - keep obsolete perl-base-5.18.1-2.1.11.i586
-
-Solution 3:
-  - keep obsolete perl-base-5.18.1-2.1.11.i586
 

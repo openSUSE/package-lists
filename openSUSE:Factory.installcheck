@@ -182,27 +182,6 @@ can't install qore-yaml-module-0.4-4.10.x86_64:
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
-can't install gnome-shell-extension-gpaste-3.26.0-1.1.noarch:
-  nothing provides typelib(Clutter) = 1 needed by gnome-shell-extension-gpaste-3.26.0-1.1.noarch
-    (we have mutter-3.28.0-2.1.x86_64)
-    (we have typelib-1_0-Clutter-1_0-1.26.2-4.1.x86_64)
-can't install patterns-caasp-Stack-1.0-31.1.x86_64:
-  package patterns-caasp-Stack-1.0-31.1.x86_64 requires caasp-container-manifests, but none of the providers can be installed
-  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
-  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
 can't install python-gcs-oauth2-boto-plugin-1.14-1.4.noarch:
   nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.4.noarch
 can't install vusb-analyzer-1.1-18.3.noarch:
@@ -227,16 +206,16 @@ can't install scim-bridge-qt4-32bit-0.4.17-1.4.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.4.x86_64
 can't install lttng-modules-kmp-default-2.10.5_k4.15.13_2-1.26.x86_64:
   nothing provides kernel-uname-r = 4.15.13-2-default needed by lttng-modules-kmp-default-2.10.5_k4.15.13_2-1.26.x86_64
-    (we have kernel-vanilla-base-4.16.0-1.5.x86_64)
     (we have kernel-syzkaller-4.16.0-1.5.x86_64)
     (we have kernel-debug-base-4.16.0-1.5.x86_64)
-    (we have kernel-default-base-4.16.0-1.5.x86_64)
-    (we have kernel-vanilla-4.16.0-1.5.x86_64)
+    (we have kernel-vanilla-base-4.16.0-1.6.x86_64)
     (we have kernel-debug-4.16.0-1.5.x86_64)
-    (we have kernel-kvmsmall-base-4.16.0-1.5.x86_64)
-    (we have kernel-kvmsmall-4.16.0-1.5.x86_64)
+    (we have kernel-kvmsmall-base-4.16.0-1.6.x86_64)
+    (we have kernel-default-4.16.0-1.6.x86_64)
+    (we have kernel-vanilla-4.16.0-1.6.x86_64)
+    (we have kernel-kvmsmall-4.16.0-1.6.x86_64)
     (we have kernel-syzkaller-base-4.16.0-1.5.x86_64)
-    (we have kernel-default-4.16.0-1.5.x86_64)
+    (we have kernel-default-base-4.16.0-1.6.x86_64)
 can't install NetworkManager-novellvpn-gnome-0.9.0.r29-18.11.x86_64:
   package NetworkManager-novellvpn-gnome-0.9.0.r29-18.11.x86_64 requires NetworkManager-novellvpn = 0.9.0.r29-18.11, but none of the providers can be installed
   nothing provides novell-ipsec-tools >= 0.7 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
@@ -272,8 +251,6 @@ can't install qore-sqlite3-module-1.0.1-4.9.x86_64:
 can't install wok-plugins-gingerbase-2.3.0-2.2.noarch:
   package wok-plugins-gingerbase-2.3.0-2.2.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
-can't install libginac6-32bit-1.7.2-1.7.x86_64:
-  nothing provides libcln.so.6 needed by libginac6-32bit-1.7.2-1.7.x86_64
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
@@ -285,9 +262,6 @@ can't install kohana2-2.3.4-1.5.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.5.noarch
 can't install cmpi-bindings-ruby-1.0.1-1.16.x86_64:
   nothing provides libruby2.4.so.2.4()(64bit) needed by cmpi-bindings-ruby-1.0.1-1.16.x86_64
-can't install libginac-devel-32bit-1.7.2-1.7.x86_64:
-  package libginac-devel-32bit-1.7.2-1.7.x86_64 requires libginac6-32bit = 1.7.2, but none of the providers can be installed
-  nothing provides libcln.so.6 needed by libginac6-32bit-1.7.2-1.7.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch
 can't install caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch:
@@ -338,6 +312,23 @@ can't install python3-ec2deprecateimg-4.0.0-1.2.noarch:
     (we have python3-botocore-1.9.6-1.1.noarch)
 can't install python-launchpadlib-1.10.2-6.9.noarch:
   nothing provides python-lazr.restfulclient >= 0.9.19 needed by python-launchpadlib-1.10.2-6.9.noarch
+can't install patterns-caasp-Stack-1.0-32.1.x86_64:
+  package patterns-caasp-Stack-1.0-32.1.x86_64 requires caasp-container-manifests, but none of the providers can be installed
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r266_3eff585-1.1.noarch
 can't install budgie-desktop-10.4-4.2.x86_64:
   nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
   nothing provides libmutter-1.so.0()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
