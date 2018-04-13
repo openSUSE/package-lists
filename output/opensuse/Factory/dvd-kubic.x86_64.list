@@ -309,6 +309,7 @@ pam-config
 parted
 patterns-caasp-MicroOS
 patterns-caasp-Stack
+patterns-caasp-container-runtime
 pciutils
 pciutils-ids
 perl
@@ -327,7 +328,6 @@ psmisc
 python
 python-base
 python-enum34
-python-etcd
 python-ipaddress
 python-rpm-macros
 python-xml
@@ -336,18 +336,15 @@ python2-appdirs
 python2-asn1crypto
 python2-cffi
 python2-cryptography
-python2-dnspython
 python2-idna
 python2-packaging
 python2-pyOpenSSL
 python2-pyasn1
 python2-pycparser
 python2-pyparsing
-python2-pyroute2
 python2-setuptools
 python2-six
 python2-typing
-python2-urllib3
 python3
 python3-Babel
 python3-Jinja2
@@ -365,7 +362,9 @@ python3-cffi
 python3-chardet
 python3-configobj
 python3-cryptography
+python3-dnspython
 python3-ecdsa
+python3-etcd
 python3-idna
 python3-jsonpatch
 python3-jsonpointer
@@ -379,6 +378,7 @@ python3-pyasn1
 python3-pycparser
 python3-pycrypto
 python3-pyparsing
+python3-pyroute2
 python3-pyserial
 python3-pytz
 python3-pyzmq

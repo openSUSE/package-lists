@@ -1,24 +1,13 @@
-At revision 87.
+At revision 90.
 testing 13.1-x86_64-update.t
-testing 13.1-i586-update.t
-Found 2 problems:
+Found 1 problems:
 Problem 1:
-nothing provides kernel-pae-devel = 4.16.1-1 needed by kernel-syms-4.16.1-1.6.i586
+nothing provides lightdm-gtk-greeter = 2.0.4 needed by lightdm-gtk-greeter-branding-openSUSE-2.0-1.6.noarch
 
 Solution 1:
-  - allow deinstallation of kernel-syms-3.11.6-4.1.i586
+  - allow deinstallation of lightdm-gtk-greeter-branding-openSUSE-1.3-5.1.1.noarch
 
 Solution 2:
-  - keep obsolete kernel-syms-3.11.6-4.1.i586
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-
-Problem 2:
-nothing provides kernel-pae-devel = 4.16.1-1 needed by kernel-syms-4.16.1-1.6.i586
-
-Solution 1:
-  - allow deinstallation of kernel-syms-3.11.10-21.1.i586
-
-Solution 2:
-  - keep obsolete kernel-default-devel-3.11.6-4.1.i586
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
+  - keep obsolete lightdm-gtk-greeter-branding-openSUSE-1.3-5.1.1.noarch
+  - keep obsolete lightdm-gtk-greeter-1.3.1-5.6.1.x86_64
 
