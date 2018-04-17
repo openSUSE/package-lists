@@ -660,7 +660,6 @@ filesystem
 fillup
 findutils
 findutils-lang
-fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -1028,6 +1027,7 @@ gtg
 gtg-lang
 gthumb
 gthumb-lang
+gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-devel
@@ -1431,13 +1431,11 @@ keditbookmarks
 keditbookmarks-lang
 kemoticons-devel
 kernel-default
-kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2333,7 +2331,6 @@ libedit0
 libeditorconfig0
 libefivar1
 libeigen2-devel
-libelf-devel
 libelf1
 libenca0
 libenchant-2-2
@@ -2383,7 +2380,6 @@ libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
-libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -4112,8 +4108,8 @@ patterns-base-enhanced_base
 patterns-base-enhanced_base_opt
 patterns-base-minimal_base
 patterns-base-minimal_base_conflicts
-patterns-base-readonly_root_tools
 patterns-base-sw_management
+patterns-base-transactional_base
 patterns-base-x11
 patterns-base-x11_opt
 patterns-base-x86
@@ -4493,8 +4489,6 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -5114,6 +5108,7 @@ systemd-32bit
 systemd-coredump
 systemd-logger
 systemd-presets-branding-openSUSE
+systemd-presets-branding-transactional-server
 systemd-presets-common-SUSE
 systemd-rpm-macros
 systemd-sysvinit

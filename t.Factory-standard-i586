@@ -858,6 +858,7 @@ namespace namespace:modalias(bcma:m04BFid0812rev11cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev17cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev18cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev1Dcl*) @SYSTEM
+namespace namespace:modalias(cpu:type%3Ax86*ven0000*) @SYSTEM
 namespace namespace:modalias(devname:vhba%5Fctl)) @SYSTEM
 namespace namespace:modalias(dmi:*svnDell*) @SYSTEM
 namespace namespace:modalias(dmi:*svnMicrosoftCorporation*pnVirtualMachine*rnVirtualMachine*) @SYSTEM
@@ -1032,7 +1033,6 @@ namespace namespace:modalias(ssb:v4243id0812rev0C*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev0D*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev0F*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev10*) @SYSTEM
-namespace namespace:modalias(type:x86*ven0000*)) @SYSTEM
 namespace namespace:modalias(type:x86*ven0002*)) @SYSTEM
 namespace namespace:modalias(usb:v0001p0000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v0053p5301d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
@@ -2306,6 +2306,7 @@ job install name gstreamer-plugins-ugly-lang [weak]
 job install name gstreamer-utils [weak]
 job install name gtg [weak]
 job install name gthumb [weak]
+job install name gtk-vnc-lang [weak]
 job install name gtk2-branding-openSUSE [weak]
 job install name gtk2-data [weak]
 job install name gtk2-engine-cleanice [weak]

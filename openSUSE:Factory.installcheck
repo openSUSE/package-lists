@@ -253,6 +253,10 @@ can't install ruby2.5-rubygem-json-2.1.0-1.9.x86_64:
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.9.x86_64
+can't install dkms-2.3-1.2.noarch:
+  package dkms-2.3-1.2.noarch requires kernel-syms, but none of the providers can be installed
+  nothing provides kernel-default-devel = 4.16.2-1 needed by kernel-syms-4.16.2-1.5.x86_64
+    (we have kernel-default-devel-4.16.1-1.6.x86_64)
 can't install libdevil-tools-1.7.8-6.2.x86_64:
   package libdevil-tools-1.7.8-6.2.x86_64 requires libIL.so.1()(64bit), but none of the providers can be installed
   package libdevil-tools-1.7.8-6.2.x86_64 requires libILU.so.1()(64bit), but none of the providers can be installed
@@ -263,6 +267,9 @@ can't install qore-sqlite3-module-1.0.1-4.9.x86_64:
 can't install wok-plugins-gingerbase-2.3.0-2.2.noarch:
   package wok-plugins-gingerbase-2.3.0-2.2.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
+can't install kernel-vanilla-devel-4.16.1-1.6.x86_64:
+  nothing provides kernel-source-vanilla = 4.16.1-1 needed by kernel-vanilla-devel-4.16.1-1.6.x86_64
+    (we have kernel-source-vanilla-4.16.2-1.5.noarch)
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
@@ -284,6 +291,9 @@ can't install qore-xml-module-1.2-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.10.x86_64
 can't install wok-2.5.0-2.3.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
+can't install kernel-syms-4.16.2-1.5.x86_64:
+  nothing provides kernel-default-devel = 4.16.2-1 needed by kernel-syms-4.16.2-1.5.x86_64
+    (we have kernel-default-devel-4.16.1-1.6.x86_64)
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
@@ -345,6 +355,9 @@ can't install ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
 can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
+can't install kernel-default-devel-4.16.1-1.6.x86_64:
+  nothing provides kernel-devel = 4.16.1-1 needed by kernel-default-devel-4.16.1-1.6.x86_64
+    (we have kernel-devel-4.16.2-1.5.noarch)
 can't install qore-json-module-1.4-5.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.10.x86_64
 can't install paperwork-0.3.2-1.6.noarch:

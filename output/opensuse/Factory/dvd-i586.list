@@ -1011,6 +1011,7 @@ gtg
 gtg-lang
 gthumb
 gthumb-lang
+gtk-vnc-lang
 gtk2-branding-openSUSE
 gtk2-data
 gtk2-devel
@@ -3930,8 +3931,8 @@ patterns-base-enhanced_base
 patterns-base-enhanced_base_opt
 patterns-base-minimal_base
 patterns-base-minimal_base_conflicts
-patterns-base-readonly_root_tools
 patterns-base-sw_management
+patterns-base-transactional_base
 patterns-base-x11
 patterns-base-x11_opt
 patterns-base-x86
@@ -4914,6 +4915,7 @@ systemd
 systemd-coredump
 systemd-logger
 systemd-presets-branding-openSUSE
+systemd-presets-branding-transactional-server
 systemd-presets-common-SUSE
 systemd-rpm-macros
 systemd-sysvinit
