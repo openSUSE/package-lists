@@ -393,6 +393,7 @@ cracklib
 cracklib-dict-full
 crash-kmp-default
 crda
+create-resources
 createrepo
 cron
 cronie
@@ -1081,9 +1082,7 @@ i4l-isdnlog
 iagno
 iagno-lang
 ibus
-ibus-branding-openSUSE-KDE
 ibus-chewing
-ibus-googlepinyin
 ibus-gtk
 ibus-gtk3
 ibus-lang
@@ -1092,7 +1091,6 @@ ibus-libzhuyin
 ibus-m17n
 ibus-pinyin
 ibus-qt
-ibus-sunpinyin
 ibus-table
 ibus-table-chinese-array
 ibus-table-chinese-cangjie
@@ -1501,6 +1499,8 @@ kreversi
 kreversi-lang
 krfb
 krfb-lang
+krita
+krita-lang
 kross
 kross-devel
 kross-lang
@@ -1725,6 +1725,7 @@ libLLVM6
 libMagick++-7_Q16HDRI4
 libMagickCore-7_Q16HDRI5
 libMagickWand-7_Q16HDRI5
+libOpenColorIO1
 libQgpsmm23
 libQt5Bluetooth5
 libQt5Bluetooth5-imports
@@ -3100,6 +3101,7 @@ libtidy5
 libtiff-devel
 libtiff5
 libtiff5-32bit
+libtinyxml0
 libtirpc-netconfig
 libtirpc3
 libtirpc3-32bit
@@ -3359,6 +3361,7 @@ libzebra1
 libzhuyin-1_1-data
 libzhuyin13
 libzhuyin7
+libzimg2
 libzio1
 libzip-devel
 libzip5
@@ -3394,6 +3397,8 @@ lsof
 lsscsi
 lsvpd
 ltrace
+lttng-modules
+lttng-modules-kmp-default
 lua-macros
 lua51
 lua51-devel
@@ -3709,8 +3714,8 @@ patterns-base-enhanced_base
 patterns-base-enhanced_base_opt
 patterns-base-minimal_base
 patterns-base-minimal_base_conflicts
-patterns-base-readonly_root_tools
 patterns-base-sw_management
+patterns-base-transactional_base
 patterns-base-x11
 patterns-base-x11_opt
 patterns-base-x86
@@ -4279,7 +4284,6 @@ python-enum34
 python-gnome-dvb-daemon
 python-gobject2
 python-gtk
-python-ibus
 python-ipaddress
 python-ldb
 python-liblarch
@@ -4312,8 +4316,6 @@ python2-dnspython
 python2-ecdsa
 python2-fasteners
 python2-gobject
-python2-gobject-Gdk
-python2-gobject-cairo
 python2-gpgme
 python2-gpsd
 python2-httplib2
@@ -4374,6 +4376,7 @@ python3-gedit
 python3-gobject
 python3-gobject-Gdk
 python3-gobject-cairo
+python3-gobject2
 python3-gst
 python3-idna
 python3-ipaddr
@@ -4688,6 +4691,7 @@ systemd-32bit
 systemd-coredump
 systemd-logger
 systemd-presets-branding-openSUSE
+systemd-presets-branding-transactional-server
 systemd-presets-common-SUSE
 systemd-rpm-macros
 systemd-sysvinit
