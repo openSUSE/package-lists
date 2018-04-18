@@ -378,6 +378,7 @@ cellwriter
 cervisia
 cervisia-lang
 cfitsio-devel
+cfitsio-devel-doc
 cglib
 chasen
 checkmedia
@@ -521,6 +522,7 @@ docbook_4
 docbook_5
 dolphin
 dolphin-part
+dolphin-part-lang
 dos2unix
 dosfstools
 doxygen
@@ -566,7 +568,9 @@ enchant-devel
 enscript
 eog
 eog-lang
+eog-plugin-exif-display
 eog-plugins
+eog-plugins-data
 eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
@@ -668,6 +672,8 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fontsproto-devel
+fortune
+fossil
 fprintd
 fprintd-lang
 fprintd-pam
@@ -753,7 +759,25 @@ geany-plugins
 geany-plugins-lang
 gedit
 gedit-lang
+gedit-plugin-bookmarks
+gedit-plugin-bracketcompletion
+gedit-plugin-charmap
+gedit-plugin-codecomment
+gedit-plugin-colorpicker
+gedit-plugin-colorschemer
+gedit-plugin-commander
+gedit-plugin-dashboard
 gedit-plugin-devhelp
+gedit-plugin-drawspaces
+gedit-plugin-findinfiles
+gedit-plugin-git
+gedit-plugin-joinlines
+gedit-plugin-multiedit
+gedit-plugin-smartspaces
+gedit-plugin-synctex
+gedit-plugin-terminal
+gedit-plugin-textsize
+gedit-plugin-wordcompletion
 gedit-plugins
 gedit-plugins-data
 gedit-plugins-lang
@@ -1242,6 +1266,7 @@ kaccounts-providers-lang
 kactivities5-devel
 kactivities5-imports
 kactivitymanagerd
+kactivitymanagerd-lang
 kaddressbook
 kaddressbook-lang
 kakasi
@@ -1556,6 +1581,7 @@ konquest
 konquest-lang
 konsole
 konsole-part
+konsole-part-lang
 kontact
 kontact-lang
 kontactinterface-lang
@@ -1601,6 +1627,7 @@ kruler
 kruler-lang
 krunner-devel
 krusader
+krusader-doc
 kscd
 kscreen5
 kscreen5-lang
@@ -1669,6 +1696,7 @@ kwordquiz
 kwordquiz-lang
 kxmlgui-devel
 kxmlrpcclient5-devel
+lame
 latex2html-pngicons
 ldns
 leafpad
@@ -2342,6 +2370,7 @@ libfreerdp2
 libfreetype6
 libfribidi0
 libfstrm0
+libftdi1-2
 libftgl2
 libfuse2
 libfwup1
@@ -2368,6 +2397,7 @@ libgd3
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
+libgda-5_0-sqlcipher
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
@@ -2553,6 +2583,7 @@ libgwengui-qt5-0
 libgwenhywfar60
 libgwenhywfar60-plugins
 libgxps2
+libgypsy-devel
 libgypsy0
 libhangul1
 libharfbuzz-gobject0
@@ -2893,6 +2924,7 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
+libopenssl1_0_0
 libopenssl1_1
 libopts-devel
 libopts25
@@ -2903,6 +2935,7 @@ liborcus-0_13-0
 libortp13
 libosinfo
 libosinfo-1_0-0
+libosinfo-lang
 libosip2
 libosip2-devel
 libospf0
@@ -3010,6 +3043,7 @@ libpurple-plugin-lurch
 libpurple-plugin-mrim
 libpurple-plugin-mrim-lang
 libpurple-plugin-pack
+libpurple-plugin-pack-extras
 libpurple-plugin-pack-lang
 libpurple-plugin-prpltwtr
 libpurple-plugin-prpltwtr-lang
@@ -3538,9 +3572,11 @@ libz1
 libzapojit-0_0-0
 libzbar0
 libzebra1
+libzeitgeist-2_0-0
 libzhuyin-1_1-data
 libzhuyin13
 libzhuyin7
+libzimg2
 libzinnia0
 libzio1
 libzip-devel
@@ -3553,13 +3589,14 @@ libzypp-plugin-appdata
 lifecycle-data-openSUSE
 lightdm
 lightdm-gtk-greeter
-lightdm-gtk-greeter-branding-upstream
+lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
 lightsoff-lang
 links
 linux-glibc-devel
+lirc-core
 lirc-devel
 lklug-fonts
 lksctp-tools
@@ -3814,6 +3851,13 @@ numlockx
 nuoveXT2-icon-theme
 nut
 nut-cgi
+nut-devel-doc-html
+nut-devel-doc-pdf
+nut-doc-asciidoc
+nut-doc-html
+nut-doc-images
+nut-doc-pdf
+nut-drivers-net
 obconf
 obs-service-download_files
 obs-service-download_url
@@ -4366,6 +4410,7 @@ pidgin
 pidgin-plugin-libsteam
 pidgin-plugin-mrim
 pidgin-plugin-pack
+pidgin-plugin-pack-extras
 pidgin-plugin-prpltwtr
 pidgin-plugin-sipe
 pidgin-plugin-skype
@@ -5038,6 +5083,7 @@ typelib-1_0-Gdm-1_0
 typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Gepub-0_6
+typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -5058,6 +5104,7 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-GtkVnc-2_0
+typelib-1_0-Gucharmap-2_90
 typelib-1_0-HarfBuzz-0_0
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
@@ -5094,6 +5141,7 @@ typelib-1_0-Vte-2.91
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
+typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
 typelib-1_0-libdazzle-1_0
 ucode-amd
@@ -5164,6 +5212,7 @@ vlan
 vlgothic-fonts
 vm-install
 vorbis-tools
+vorbis-tools-lang
 vpnc
 vsftpd
 vte-lang

@@ -658,6 +658,7 @@ filesystem
 fillup
 findutils
 findutils-lang
+fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -1428,11 +1429,13 @@ keditbookmarks
 keditbookmarks-lang
 kemoticons-devel
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 keyutils-devel
@@ -2328,6 +2331,7 @@ libedit0
 libeditorconfig0
 libefivar1
 libeigen2-devel
+libelf-devel
 libelf1
 libenca0
 libenchant-2-2
@@ -2377,6 +2381,7 @@ libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -3704,6 +3709,7 @@ libzebra1
 libzhuyin-1_1-data
 libzhuyin13
 libzhuyin7
+libzimg2
 libzinnia0
 libzio1
 libzip-devel
@@ -3716,7 +3722,7 @@ libzypp-plugin-appdata
 lifecycle-data-openSUSE
 lightdm
 lightdm-gtk-greeter
-lightdm-gtk-greeter-branding-upstream
+lightdm-gtk-greeter-branding-openSUSE
 lightdm-gtk-greeter-lang
 lightdm-lang
 lightsoff
@@ -4484,6 +4490,8 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools

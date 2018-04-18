@@ -152,6 +152,7 @@ cryptsetup
 cups
 cups-client
 cups-config
+cups-filters
 curl
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -239,8 +240,14 @@ gdb
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
+gegl-0_3
+gegl-0_3-lang
 gettext-runtime
+ghostscript
 ghostscript-fonts-std
+ghostscript-x11
+gimp
+gimp-lang
 gio-branding-openSUSE
 girepository-1_0
 glib-networking
@@ -335,6 +342,7 @@ ipw-firmware
 irda
 irqbalance
 iscsiuio
+iso-codes
 iso_ent
 issue-generator
 iw
@@ -618,6 +626,7 @@ libKF5ItemModels5
 libKF5ItemViews5
 libKF5ItemViews5-lang
 libKF5JS5
+libKF5JSApi5
 libKF5JobWidgets5
 libKF5JobWidgets5-lang
 libKF5JsEmbed5
@@ -733,6 +742,7 @@ libQt5X11Extras5
 libQt5Xml5
 libQt5XmlPatterns5
 libQtQuick5
+libSDL-1_2-0
 libSM6
 libX11-6
 libX11-data
@@ -769,6 +779,7 @@ libacl1
 libaio1
 libakonadi4
 libakonadiprotocolinternals1
+libamd-2_4_6
 libao-plugins4
 libao4
 libapparmor1
@@ -797,11 +808,13 @@ libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libavahi-glib1
 libavcodec57
 libavfilter6
 libavformat57
 libavresample3
 libavutil55
+libbabl-0_1-0
 libbasicobjects0
 libbind9-160
 libblkid1
@@ -824,6 +837,7 @@ libbz2-1
 libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
+libcamd-2_4_6
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -833,16 +847,20 @@ libcanberra0
 libcap-ng0
 libcap2
 libcares2
+libccolamd-2_9_6
 libcdda_interface0
 libcdda_paranoia0
 libcdr-0_1-1
 libcelt0-2
 libcfg6
+libchm0
+libcholmod-3_0_11
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
 libcmap4
 libcmis-0_5-5
+libcolamd-2_9_6
 libcollection4
 libcolord2
 libcom_err2
@@ -873,6 +891,7 @@ libdevmapper-event1_03
 libdevmapper1_03
 libdhash1
 libdialog14
+libdjvulibre21
 libdlm3
 libdmtx0
 libdnet1
@@ -935,7 +954,11 @@ libgcrypt20
 libgd3
 libgdbm4
 libgdk_pixbuf-2_0-0
+libgegl-0_3-0
+libgfortran4
 libgif7
+libgimp-2_0-0
+libgimpui-2_0-0
 libgio-2_0-0
 libgiomm-2_4-1
 libgirepository-1_0-1
@@ -1078,9 +1101,11 @@ liblzma5
 liblzo2-2
 libmagic1
 libmariadb3
+libmarkdown2
 libmbim
 libmbim-glib4
 libmetalink3
+libmetis5
 libminizip1
 libmm-glib0
 libmng2
@@ -1127,6 +1152,7 @@ libodfgen-0_1-1
 libogg0
 liboggkate1
 libopenal1
+libopenblas_pthreads0
 libopeniscsiusr0_1_0
 libopenjp2-7
 libopenjpeg1
@@ -1164,6 +1190,7 @@ libpng16-16
 libpolkit-qt-1-1
 libpolkit-qt5-1-1
 libpolkit0
+libpoppler-glib8
 libpoppler-qt5-1
 libpoppler73
 libpopt0
@@ -1191,6 +1218,7 @@ libqgpgme7
 libqjson0
 libqmi-glib5
 libqmi-tools
+libqpdf21
 libqrencode4
 libqt4
 libqt4-qt3support
@@ -1208,6 +1236,7 @@ libqt5-qttranslations
 libqt5-qtvirtualkeyboard
 libqt5-qtwayland
 libqt5-qtwebengine
+libquadmath0
 libquorum5
 libqxp-0_0-0
 libraptor2-0
@@ -1273,6 +1302,7 @@ libsolv-tools
 libsoup-2_4-1
 libsoup-lang
 libsoxr0
+libspectre1
 libspeechd2
 libspeex1
 libspeexdsp1
@@ -1290,6 +1320,7 @@ libstoken1
 libstorage-ng-lang
 libstorage-ng-ruby
 libstorage-ng1
+libsuitesparseconfig-4_5_5
 libswresample2
 libswscale4
 libsystemd0
@@ -1315,6 +1346,7 @@ libtwolame0
 libudev1
 libudisks2-0
 libudisks2_btrfs
+libumfpack-5_7_6
 libunistring2
 libunwind
 libupower-glib3
@@ -1358,6 +1390,7 @@ libwebpdemux2
 libwebpmux2
 libwebrtc_audio_processing1
 libwicked-0-6
+libwmf-0_2-7
 libwpd-0_10-10
 libwpg-0_3-3
 libwps-0_4-4
@@ -1411,6 +1444,7 @@ libyui-qt-pkg8
 libyui-qt8
 libyui8
 libz1
+libzimg2
 libzio1
 libzip5
 libzmf-0_0-0
@@ -1453,6 +1487,7 @@ milou5-lang
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
+mobipocket
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
@@ -1488,6 +1523,8 @@ ntp
 numactl
 numlockx
 ofl
+okular
+okular-lang
 open-iscsi
 open-vm-tools
 open-vm-tools-desktop
@@ -1651,6 +1688,7 @@ polkit
 polkit-default-privs
 polkit-kde-agent-5
 polkit-kde-agent-5-lang
+poppler-tools
 postfix
 powerdevil5
 powerdevil5-lang

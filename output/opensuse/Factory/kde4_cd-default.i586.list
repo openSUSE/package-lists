@@ -96,6 +96,7 @@ cronie
 cryptsetup
 cups-client
 cups-config
+cups-filters
 curl
 cyrus-sasl
 cyrus-sasl-crammd5
@@ -133,6 +134,7 @@ e2fsprogs
 ebtables
 efibootmgr
 elfutils
+espeak-ng
 ethtool
 expat
 fdupes
@@ -163,6 +165,7 @@ gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
 gettext-runtime
 ghostscript-fonts-std
+ghostscript-x11
 gio-branding-openSUSE
 girepository-1_0
 glib-networking
@@ -358,6 +361,7 @@ libKF5IdleTime5
 libKF5ItemModels5
 libKF5ItemViews5
 libKF5JS5
+libKF5JSApi5
 libKF5JobWidgets5
 libKF5JsEmbed5
 libKF5KCMUtils5
@@ -416,6 +420,7 @@ libQt5Sql5
 libQt5Sql5-sqlite
 libQt5Svg5
 libQt5Test5
+libQt5TextToSpeech5
 libQt5WaylandClient5
 libQt5WaylandCompositor5
 libQt5WebChannel5
@@ -485,6 +490,7 @@ libauparse0
 libavahi-client3
 libavahi-common3
 libavahi-core7
+libavahi-glib1
 libavcodec57
 libavfilter6
 libavformat57
@@ -518,6 +524,7 @@ libcdda_interface0
 libcdda_paranoia0
 libcelt0-2
 libcfg6
+libchm0
 libcmap4
 libcolord2
 libcom_err2
@@ -545,11 +552,13 @@ libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
 libdialog14
+libdjvulibre21
 libdlm3
 libdmtx0
 libdns169
 libdns_sd
 libdolphinvcs5
+libdotconf0
 libdouble-conversion1
 libdrm2
 libdrm_amdgpu1
@@ -565,6 +574,7 @@ libelf1
 libepoxy0
 libepub0
 liberation-fonts
+libespeak-ng1
 libestr0
 libev4
 libevdev2
@@ -708,6 +718,7 @@ liblz4-1
 liblzma5
 liblzo2-2
 libmagic1
+libmarkdown2
 libmbim
 libmbim-glib4
 libmetalink3
@@ -764,6 +775,7 @@ libpackagekitqt5-0
 libpango-1_0-0
 libparted0
 libpcap1
+libpcaudio0
 libpci3
 libpciaccess0
 libpcre1
@@ -801,6 +813,7 @@ libqca-qt5
 libqca-qt5-plugins
 libqmi-glib5
 libqmi-tools
+libqpdf21
 libqrencode4
 libqt5-qdbus
 libqt5-qtbase-platformtheme-gtk3
@@ -854,6 +867,8 @@ libsoftokn3
 libsolv-tools
 libsoup-2_4-1
 libsoxr0
+libspectre1
+libspeechd2
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -971,6 +986,7 @@ libyui-qt-pkg8
 libyui-qt8
 libyui8
 libz1
+libzimg2
 libzio1
 libzip5
 libzstd1
@@ -996,6 +1012,7 @@ milou5
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
+mobipocket
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
@@ -1018,6 +1035,7 @@ ntfs-3g
 ntfsprogs
 ntp
 numlockx
+okular
 open-iscsi
 openSUSE-build-key
 openal-soft
@@ -1149,6 +1167,7 @@ pngquant
 polkit
 polkit-default-privs
 polkit-kde-agent-5
+poppler-tools
 postfix
 powerdevil5
 ppp
@@ -1205,6 +1224,7 @@ python3-setuptools
 python3-six
 python3-slip
 python3-slip-dbus
+python3-speechd
 python3-zypp-plugin
 qqc2-desktop-style
 release-notes-openSUSE
@@ -1264,6 +1284,8 @@ solid-tools
 sonnet
 sound-theme-freedesktop
 spectacle
+speech-dispatcher
+speech-dispatcher-module-espeak
 sshfs
 strace
 sudo
