@@ -691,7 +691,7 @@ job lock name blender-doc
 job lock name gnucash-docs
 job lock name oxygen-icon-theme-large
 job lock name kernel-debug
-# highly outdated at the moment 
+## highly outdated at the moment 
 job lock name opensuse-manuals_hu
 job lock name opensuse-manuals_ja
 job lock name opensuse-manuals_ru
@@ -729,24 +729,24 @@ job lock name digikam-doc
 job lock name python3-doc-pdf
 job lock name calibre
 
-# attemt to shrink the DVD - 20151115 by dimstar
+## attemt to shrink the DVD - 20151115 by dimstar
 job lock name valgrind-devel
 
-# Further shrinkg the DVD - 20160330 by dimstar
+## Further shrinkg the DVD - 20160330 by dimstar
 job lock name ImageMagick-doc
 job lock name python-doc
 job lock name python3-doc
 
-# This appeared newly - and makes the DVD explode again - 20160531 - dimstar
+## This appeared newly - and makes the DVD explode again - 20160531 - dimstar
 job lock name mathjax
 
 job lock name ocaml-compiler-libs
 job lock name gimp-help
 
-# Hunt for space
+## Hunt for space
 job lock name libqt4-devel
 
-# More space needed - 2017-02-02
+## More space needed - 2017-02-02
 job lock name ant
 job lock name java-1_8_0-openjdk-devel
 job lock name java-1_7_0-openjdk-devel
@@ -756,6 +756,9 @@ job lock name java-1_9_0-openjdk-devel
 job lock name noto-sans-cjk-fonts
 ## still run out of space, as kr was dropped, try jp also
 job lock name noto-sans-jp-fonts
+
+## more space needed - dimstar - 20180419
+job lock name amarok-lang
 # end ignore_opensuse-dvd5
 
 
