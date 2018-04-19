@@ -1,12 +1,10 @@
-<resultlist state="31a520916618503f5ac6e9f9b34371cb">
-  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="building" state="building">
+<resultlist state="1652270ec5a5dd5115d486058868a698">
+  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="building" state="building" dirty="true">
     <status package="bash" code="blocked">
       <details>audit-devel, autoconf, bison, fdupes, makeinfo, ncurses-devel, patchutils, pkg-config, readline-devel, screen, sed, rpm-build, gcc-PIE, libaudit1, libauparse0, info, m4, perl-Text-Unidecode, patch, terminfo-base, libutempter0, findutils, glibc-devel, util-linux, xz, gcc, cpio, file, gawk, perl-base, bzip2, gzip, make, binutils, which, glibc-locale, dwz, systemd-rpm-macros, libzio1, libdb-4_8, libgdbm4, libtirpc3, libnsl2, libcrack2, system-user-root, system-group-hardware, libgmp10, linux-glibc-devel, libuuid1, libblkid1, libcap-ng0, libmount1, libsmartcols1, libfdisk1, gcc7, cpp, libmagic1, update-alternatives, libdw1, libtirpc-netconfig, cracklib, shadow, sysuser-shadow, libmpfr6, libmpc3, libisl19, cpp7, libasan4, libcilkrts5, libubsan0, file-magic, libebl-plugins, libsemanage1, libsepol1, libustr-1_0-1, gettext-tools-mini, libstdc++6, krb5-mini, libatomic1, libgomp1, libitm1, liblsan0, libmpx2, libmpxwrappers2, libtsan0, gettext-runtime-mini, libcom_err2, libkeyutils1, libverto1</details>
     </status>
   </result>
   <result project="openSUSE:Factory" repository="standard" arch="i586" code="building" state="building">
-    <status package="bash" code="blocked">
-      <details>audit-devel, autoconf, bison, fdupes, makeinfo, ncurses-devel, patchutils, pkg-config, readline-devel, screen, sed, rpm-build, gcc-PIE, libaudit1, libauparse0, info, m4, perl-Text-Unidecode, patch, terminfo-base, libutempter0, findutils, glibc-devel, util-linux, xz, cpio, gcc, file, gawk, perl-base, gzip, bzip2, make, binutils, which, glibc-locale, dwz, systemd-rpm-macros, libzio1, libdb-4_8, libgdbm4, libtirpc3, libnsl2, libcrack2, system-user-root, system-group-hardware, libgmp10, linux-glibc-devel, libuuid1, libblkid1, libcap-ng0, libmount1, libsmartcols1, libfdisk1, gcc7, cpp, libmagic1, update-alternatives, libdw1, libtirpc-netconfig, cracklib, shadow, sysuser-shadow, libmpfr6, libmpc3, libisl19, cpp7, libasan4, libcilkrts5, libubsan0, file-magic, libebl-plugins, libsemanage1, libsepol1, libustr-1_0-1, gettext-tools-mini, libstdc++6, krb5-mini, libatomic1, libgomp1, libitm1, libmpx2, libmpxwrappers2, gettext-runtime-mini, libcom_err2, libkeyutils1, libverto1</details>
-    </status>
+    <status package="bash" code="succeeded" />
   </result>
 </resultlist>
