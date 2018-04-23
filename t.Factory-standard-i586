@@ -862,6 +862,7 @@ namespace namespace:modalias(bcma:m04BFid0812rev17cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev18cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev1Dcl*) @SYSTEM
 namespace namespace:modalias(cpu:type%3Ax86*ven0000*) @SYSTEM
+namespace namespace:modalias(cpu:type%3Ax86*ven0002*) @SYSTEM
 namespace namespace:modalias(devname:vhba%5Fctl)) @SYSTEM
 namespace namespace:modalias(dmi:*svnDell*) @SYSTEM
 namespace namespace:modalias(dmi:*svnMicrosoftCorporation*pnVirtualMachine*rnVirtualMachine*) @SYSTEM
@@ -1036,7 +1037,6 @@ namespace namespace:modalias(ssb:v4243id0812rev0C*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev0D*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev0F*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev10*) @SYSTEM
-namespace namespace:modalias(type:x86*ven0002*)) @SYSTEM
 namespace namespace:modalias(usb:v0001p0000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v0053p5301d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v03EBp4102d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
@@ -1278,6 +1278,7 @@ namespace namespace:modalias(bcma:m04BFid0812rev11cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev17cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev18cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev1Dcl*) @SYSTEM
+namespace namespace:modalias(cpu:type%3Ax86*ven0002*) @SYSTEM
 namespace namespace:modalias(devname:vhba%5F000000ctl)) @SYSTEM
 namespace namespace:modalias(pci:v*d*sv*sd*bc06sc07i00*) @SYSTEM
 namespace namespace:modalias(pci:v00001000d00000030sv*sd*bc*sc*i*) @SYSTEM
@@ -1423,7 +1424,6 @@ namespace namespace:modalias(ssb:v4243id0812rev0C*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev0D*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev0F*) @SYSTEM
 namespace namespace:modalias(ssb:v4243id0812rev10*) @SYSTEM
-namespace namespace:modalias(type:x86*ven0002*)) @SYSTEM
 namespace namespace:modalias(usb:v0001p0000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v0053p5301d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v03EBp4102d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
@@ -2475,6 +2475,7 @@ job install name iagno [weak]
 job install name iagno-lang [weak]
 job install name ibus [weak]
 job install name ibus-chewing [weak]
+job install name ibus-googlepinyin [weak]
 job install name ibus-gtk [weak]
 job install name ibus-gtk3 [weak]
 job install name ibus-lang [weak]
@@ -2485,6 +2486,7 @@ job install name ibus-mozc [weak]
 job install name ibus-mozc-candidate-window [weak]
 job install name ibus-pinyin [weak]
 job install name ibus-qt [weak]
+job install name ibus-sunpinyin [weak]
 job install name ibus-table-chinese-array [weak]
 job install name ibus-table-chinese-cangjie [weak]
 job install name ibus-table-chinese-cantonese [weak]
@@ -3283,12 +3285,13 @@ job install name libstdc++-devel [weak]
 job install name libstdc++6 [weak]
 job install name libstdc++6-gcc7-locale [weak]
 job install name libsvn_auth_gnome_keyring-1-0 [weak]
+job install name libsvn_auth_kwallet-1-0 [weak]
 job install name libtag-devel [weak]
 job install name libtcnative-1-0 [weak]
 job install name libtheora-devel [weak]
 job install name libtiff-devel [weak]
 job install name libtool [weak]
-job install name libudisks2_btrfs [weak]
+job install name libudisks2-0_btrfs [weak]
 job install name libunicap-devel [weak]
 job install name libusb-compat-devel [weak]
 job install name libusbmuxd-devel [weak]
@@ -4139,6 +4142,7 @@ job install name smartmontools [weak]
 job install name smbios-utils-python [weak]
 job install name smp_utils [weak]
 job install name snapper [weak]
+job install name snapper-zypp-plugin [weak]
 job install name sni-qt [weak]
 job install name solarwolf [weak]
 job install name solid-devel [weak]
@@ -4866,6 +4870,7 @@ job install name bundle-lang-kde-pt [weak]
 job install name bundle-lang-kde-ru [weak]
 job install name bundle-lang-kde-zh [weak]
 job install name bzip2 [weak]
+job install name bzr [weak]
 job install name bzr-lang [weak]
 job install name ca-certificates [weak]
 job install name ca-certificates-mozilla [weak]
@@ -5415,6 +5420,7 @@ job install name iagno [weak]
 job install name iagno-lang [weak]
 job install name ibus [weak]
 job install name ibus-chewing [weak]
+job install name ibus-googlepinyin [weak]
 job install name ibus-gtk [weak]
 job install name ibus-gtk3 [weak]
 job install name ibus-lang [weak]
@@ -5423,6 +5429,7 @@ job install name ibus-libzhuyin [weak]
 job install name ibus-m17n [weak]
 job install name ibus-pinyin [weak]
 job install name ibus-qt [weak]
+job install name ibus-sunpinyin [weak]
 job install name ibus-table-chinese-array [weak]
 job install name ibus-table-chinese-cangjie [weak]
 job install name ibus-table-chinese-cantonese [weak]
@@ -6084,11 +6091,12 @@ job install name libstdc++6-32bit [weak]
 job install name libstdc++6-gcc7-locale [weak]
 job install name libstdc++6-locale [weak]
 job install name libsvn_auth_gnome_keyring-1-0 [weak]
+job install name libsvn_auth_kwallet-1-0 [weak]
 job install name libtag-devel [weak]
 job install name libtheora-devel [weak]
 job install name libtiff-devel [weak]
 job install name libtool [weak]
-job install name libudisks2_btrfs [weak]
+job install name libudisks2-0_btrfs [weak]
 job install name libunicap-devel [weak]
 job install name libusb-compat-devel [weak]
 job install name libusbmuxd-devel [weak]
@@ -6204,6 +6212,7 @@ job install name meanwhile-devel [weak]
 job install name media-player-info [weak]
 job install name meld [weak]
 job install name menu-cache [weak]
+job install name mercurial [weak]
 job install name mercurial-lang [weak]
 job install name metamail [weak]
 job install name mgopen-fonts [weak]
@@ -6843,6 +6852,7 @@ job install name slrn [weak]
 job install name smartmontools [weak]
 job install name smp_utils [weak]
 job install name snapper [weak]
+job install name snapper-zypp-plugin [weak]
 job install name sni-qt [weak]
 job install name solarwolf [weak]
 job install name solid-devel [weak]

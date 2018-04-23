@@ -1,22 +1,22 @@
-can't install python3-pep8-1.7.0-3.2.noarch:
-  package is obsoleted by python3-pycodestyle-2.3.1-2.2.noarch
 can't install latexila-3.27.1-2.1.x86_64:
   package is obsoleted by gnome-latex-3.28.0-1.1.x86_64
 can't install mate-calc-1.20.1-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.1.x86_64
 can't install obexd-client-0.48-5.13.x86_64:
   package is obsoleted by bluez-5.49-2.1.x86_64
+can't install python3-pep8-1.7.0-3.2.noarch:
+  package is obsoleted by python3-pycodestyle-2.4.0-1.1.noarch
 can't install libpsm2-compat-10.3.46-1.1.x86_64:
   package is obsoleted by libpsm_infinipath1-3.3-9.1.x86_64
 can't install Supybot-0.83.4.1-28.1.noarch:
   package is obsoleted by python3-limnoria-2018.01.28-1.1.noarch
-can't install gettext-its-gtk3-3.22.29-3.1.x86_64:
+can't install gettext-its-gtk3-3.22.30-1.1.x86_64:
   package is obsoleted by gettext-its-gtk4-3.93.0-3.1.x86_64
 can't install kdesdk4-scripts-17.08.3-1.2.x86_64:
   package is obsoleted by kdesdk-scripts-17.12.3-1.1.x86_64
 can't install openssl-1_0_0-1.0.2n-2.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-1.1.x86_64
-can't install gtk3-schema-3.22.29-3.1.noarch:
+can't install gtk3-schema-3.22.30-1.1.noarch:
   package is obsoleted by gtk4-schema-3.93.0-3.1.noarch
 can't install bpython-0.15-1.5.noarch:
   package is obsoleted by python2-bpython-0.16-1.2.noarch
@@ -121,11 +121,6 @@ can't install python3-ec2uploadimg-6.0.1-1.1.noarch:
   package python3-ec2uploadimg-6.0.1-1.1.noarch requires python3-boto3 >= 1.4.1, but none of the providers can be installed
   nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
     (we have python3-botocore-1.9.6-1.1.noarch)
-can't install gufw-lang-16.04.0-1.8.noarch:
-  package gufw-lang-16.04.0-1.8.noarch requires gufw = 16.04.0, but none of the providers can be installed
-  nothing provides typelib-1_0-WebKit-3_0 needed by gufw-16.04.0-1.8.noarch
-can't install ibus-googlepinyin-0.1.2-12.4.noarch:
-  nothing provides python-ibus needed by ibus-googlepinyin-0.1.2-12.4.noarch
 can't install ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64:
   package ruby2.5-2.5.0-4.1.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
@@ -134,8 +129,6 @@ can't install qore-pgsql-module-2.3-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.12.x86_64
 can't install hgview-1.8.2-3.12.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
-can't install ibus-sunpinyin-2.0.99-2.2.x86_64:
-  nothing provides python-ibus needed by ibus-sunpinyin-2.0.99-2.2.x86_64
 can't install python3-ec2publishimg-2.0.0-1.2.noarch:
   package python3-ec2publishimg-2.0.0-1.2.noarch requires python3-boto3, but none of the providers can be installed
   nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
@@ -278,8 +271,6 @@ can't install cmpi-bindings-ruby-1.0.1-1.16.x86_64:
   nothing provides libruby2.4.so.2.4()(64bit) needed by cmpi-bindings-ruby-1.0.1-1.16.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch
-can't install gufw-16.04.0-1.8.noarch:
-  nothing provides typelib-1_0-WebKit-3_0 needed by gufw-16.04.0-1.8.noarch
 can't install policycoreutils-gui-2.6-3.1.x86_64:
   nothing provides python-gnome needed by policycoreutils-gui-2.6-3.1.x86_64
 can't install qore-xml-module-1.2-4.10.x86_64:
@@ -352,6 +343,8 @@ can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
 can't install qore-json-module-1.4-5.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.10.x86_64
+can't install perl-Wx-0.9932-2.8.x86_64:
+  nothing provides libwx_baseu-suse-nostl3 >= 3.0.3 needed by perl-Wx-0.9932-2.8.x86_64
 can't install paperwork-0.3.2-1.6.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.6.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.6.noarch

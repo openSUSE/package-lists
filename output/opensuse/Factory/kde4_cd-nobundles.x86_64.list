@@ -103,7 +103,6 @@ baloo5-widgets-lang
 bash
 bash-completion
 bash-lang
-bcache-tools
 bind-utils
 blog
 bluedevil5
@@ -138,7 +137,6 @@ cifs-utils
 command-not-found
 coreutils
 coreutils-lang
-corosync
 cpio
 cpio-lang
 cpio-mt
@@ -819,6 +817,13 @@ libavresample3
 libavutil55
 libbabl-0_1-0
 libbasicobjects0
+libbd_btrfs2
+libbd_crypto2
+libbd_fs2
+libbd_mdraid2
+libbd_part2
+libbd_swap2
+libbd_utils2
 libbind9-160
 libblkid1
 libblockdev
@@ -855,20 +860,16 @@ libcdda_interface0
 libcdda_paranoia0
 libcdr-0_1-1
 libcelt0-2
-libcfg6
 libchm0
 libcholmod-3_0_11
 libclucene-contribs-lib1
 libclucene-core1
 libclucene-shared1
-libcmap4
 libcmis-0_5-5
 libcolamd-2_9_6
 libcollection4
 libcolord2
 libcom_err2
-libcorosync_common4
-libcpg4
 libcpupower0
 libcrack2
 libcreaterepo_c0
@@ -895,7 +896,6 @@ libdevmapper1_03
 libdhash1
 libdialog14
 libdjvulibre21
-libdlm3
 libdmtx0
 libdnet1
 libdns169
@@ -1015,6 +1015,8 @@ libhttp_parser2_7_1
 libhunspell-1_6-0
 libhyphen0
 libibus-1_0-5
+libibverbs
+libibverbs1
 libical3
 libicu60_2
 libicu60_2-ledata
@@ -1095,6 +1097,7 @@ liblmdb-0_9_17
 liblockdev1
 liblpsolve55-0
 libltdl7
+liblttng-ust0
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
@@ -1110,6 +1113,8 @@ libmbim-glib4
 libmetalink3
 libmetis5
 libminizip1
+libmlx4-1
+libmlx5-1
 libmm-glib0
 libmng2
 libmnl0
@@ -1179,6 +1184,7 @@ libpci3
 libpciaccess0
 libpcre1
 libpcre2-16-0
+libpcsclite1
 libphonon4
 libphonon4qt5
 libpipeline1
@@ -1206,6 +1212,7 @@ libproxy1
 libproxy1-config-kde
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
+libpskc0
 libpsl5
 libpulse-mainloop-glib0
 libpulse0
@@ -1214,7 +1221,6 @@ libpwquality1
 libpython2_7-1_0
 libpython3_6m1_0
 libqalculate14
-libqb0
 libqca-qt5
 libqca-qt5-plugins
 libqgpgme7
@@ -1240,8 +1246,8 @@ libqt5-qtvirtualkeyboard
 libqt5-qtwayland
 libqt5-qtwebengine
 libquadmath0
-libquorum5
 libqxp-0_0-0
+librados2
 libraptor2-0
 librasqal3
 libraw1394-11
@@ -1269,7 +1275,6 @@ librest-0_7-0
 librevenge-0_0-0
 librsvg-2-2
 libruby2_5-2_5
-libsam4
 libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
@@ -1342,17 +1347,17 @@ libtheoraenc1
 libtiff5
 libtirpc-netconfig
 libtirpc3
-libtotem_pg5
 libts0
 libturbojpeg0
 libtwolame0
 libudev1
 libudisks2-0
-libudisks2_btrfs
+libudisks2-0_btrfs
 libumfpack-5_7_6
 libunistring2
 libunwind
 libupower-glib3
+liburcu6
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd4
@@ -1377,7 +1382,6 @@ libvolume_key1
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvotequorum8
 libvpx5
 libvulkan_radeon
 libwacom-data
@@ -1462,8 +1466,6 @@ lsb-release
 lsof
 lsscsi
 lvm2
-lvm2-clvm
-lvm2-cmirrord
 mailcommon
 mailcommon-lang
 mailimporter
@@ -1494,11 +1496,12 @@ mobipocket
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpg123-openal
 mpg123-pulse
 mpt-firmware
 mtools
+multipath-tools
+multipath-tools-rbd
 myspell-de
 myspell-de_DE
 myspell-dictionaries
@@ -1584,6 +1587,7 @@ patterns-yast-yast2_install_wf
 pciutils
 pciutils-ids
 pcmciautils
+pcsc-lite
 perl
 perl-Bit-Vector
 perl-Bootloader
@@ -1762,6 +1766,7 @@ python3-zypp-plugin
 qqc2-desktop-style
 quota
 rcc-runtime
+rdma-core
 reiserfs
 release-notes-openSUSE
 rgb

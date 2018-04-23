@@ -242,11 +242,11 @@ baobab
 baobab-lang
 bash
 bash-completion
+bash-completion-devel
 bash-doc
 bash-lang
 bbswitch-kmp-default
 bc
-bcache-tools
 bcm20702a1-firmware
 bcm43xx-firmware
 bcmatroska2-devel
@@ -421,7 +421,6 @@ command-not-found
 compface
 coreutils
 coreutils-lang
-corosync
 cpio
 cpio-lang
 cpio-mt
@@ -1148,6 +1147,7 @@ iagno
 iagno-lang
 ibus
 ibus-chewing
+ibus-googlepinyin
 ibus-gtk
 ibus-gtk-32bit
 ibus-gtk3
@@ -1159,6 +1159,7 @@ ibus-mozc
 ibus-mozc-candidate-window
 ibus-pinyin
 ibus-qt
+ibus-sunpinyin
 ibus-table
 ibus-table-chinese-array
 ibus-table-chinese-cangjie
@@ -1606,7 +1607,6 @@ kpty-devel
 kqtquickcharts
 krb5
 krb5-32bit
-krb5-client
 krb5-devel
 krb5-server
 krdc
@@ -2132,6 +2132,13 @@ libbcmatroska2-0
 libbctoolbox-tester1
 libbctoolbox1
 libbcunit1
+libbd_btrfs2
+libbd_crypto2
+libbd_fs2
+libbd_mdraid2
+libbd_part2
+libbd_swap2
+libbd_utils2
 libbelcard1
 libbellesip0
 libbelr1
@@ -2214,7 +2221,6 @@ libcdr-0_1-1
 libcelt0-2
 libcelt051-0
 libcetcd0
-libcfg6
 libcfitsio6
 libchamplain-0_12-0
 libcheese-common
@@ -2247,7 +2253,6 @@ libcom_err2
 libcom_err2-32bit
 libcontainers-common
 libcorosync_common4
-libcpg4
 libcppunit-1_14-0
 libcpupower0
 libcrack2
@@ -2518,7 +2523,6 @@ libgnome-desktop-3_0-common
 libgnome-devel
 libgnome-games-support-1-2
 libgnome-games-support-lang
-libgnome-keyring-devel
 libgnome-keyring-lang
 libgnome-keyring0
 libgnome-lang
@@ -3058,6 +3062,7 @@ libpcre2-8-0
 libpcrecpp0
 libpcreposix0
 libpcsclite1
+libpcscspy0
 libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-lang
@@ -3120,6 +3125,8 @@ libproxy1-config-gnome3
 libproxy1-config-kde
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
+libpskc-devel
+libpskc0
 libpsl5
 libpspell15
 libpst4
@@ -3219,7 +3226,6 @@ libqtcurve-cairo1
 libqtcurve-utils2
 libquadmath0
 libquicktime0
-libquorum5
 libquvi-0_9-0_9_4
 libquvi-scripts
 libqxp-0_0-0
@@ -3285,7 +3291,6 @@ librhash0
 librsvg-2-2
 librsync2
 libruby2_5-2_5
-libsam4
 libsamba-credentials0
 libsamba-credentials0-32bit
 libsamba-errors0
@@ -3396,6 +3401,7 @@ libsuil-0-0
 libsuitesparseconfig-4_5_5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
+libsvn_auth_kwallet-1-0
 libswresample-devel
 libswresample2
 libswscale-devel
@@ -3443,7 +3449,6 @@ libtirpc3-32bit
 libtool
 libtotem-plparser-mini18
 libtotem-plparser18
-libtotem_pg5
 libtowitoko2
 libtracker-common-2_0
 libtracker-control-2_0-0
@@ -3461,7 +3466,7 @@ libudev1
 libudev1-32bit
 libudf0
 libudisks2-0
-libudisks2_btrfs
+libudisks2-0_btrfs
 libumfpack-5_7_6
 libunbound2
 libunicap-devel
@@ -3484,6 +3489,7 @@ libusbredirhost1
 libusbredirparser1
 libustr-1_0-1
 libutempter0
+libutf8proc2
 libuuid-devel
 libuuid1
 libuuid1-32bit
@@ -3555,7 +3561,6 @@ libvorbis0-32bit
 libvorbisenc2
 libvorbisfile3
 libvorbisfile3-32bit
-libvotequorum8
 libvpx5
 libvte-2_91-0
 libvte9
@@ -3601,23 +3606,23 @@ libwscodecs1
 libwsutil8
 libwv-1_2-4
 libwv2-4
-libwx_baseu-suse-nostl3
-libwx_baseu-suse3
-libwx_baseu_net-suse-nostl3
-libwx_baseu_net-suse3
-libwx_baseu_xml-suse-nostl3
-libwx_baseu_xml-suse3
-libwx_gtk2u_adv-suse-nostl3
-libwx_gtk2u_adv-suse3
-libwx_gtk2u_aui-suse3
-libwx_gtk2u_core-suse-nostl3
-libwx_gtk2u_core-suse3
-libwx_gtk2u_gl-suse3
-libwx_gtk2u_html-suse-nostl3
-libwx_gtk2u_html-suse3
-libwx_gtk2u_qa-suse-nostl3
-libwx_gtk2u_qa-suse3
-libwx_gtk2u_xrc-suse3
+libwx_baseu-suse-nostl3_0_4
+libwx_baseu-suse3_0_4
+libwx_baseu_net-suse-nostl3_0_4
+libwx_baseu_net-suse3_0_4
+libwx_baseu_xml-suse-nostl3_0_4
+libwx_baseu_xml-suse3_0_4
+libwx_gtk2u_adv-suse-nostl3_0_4
+libwx_gtk2u_adv-suse3_0_4
+libwx_gtk2u_aui-suse3_0_4
+libwx_gtk2u_core-suse-nostl3_0_4
+libwx_gtk2u_core-suse3_0_4
+libwx_gtk2u_gl-suse3_0_4
+libwx_gtk2u_html-suse-nostl3_0_4
+libwx_gtk2u_html-suse3_0_4
+libwx_gtk2u_qa-suse-nostl3_0_4
+libwx_gtk2u_qa-suse3_0_4
+libwx_gtk2u_xrc-suse3_0_4
 libx86emu1
 libxalan-c111
 libxapian30
@@ -3764,8 +3769,6 @@ lua53-luasocket
 luit
 lv
 lvm2
-lvm2-clvm
-lvm2-cmirrord
 lxappearance
 lxappearance-lang
 lxappearance-obconf
@@ -4026,7 +4029,6 @@ openSUSE-xfce-icon-theme
 openafs
 openafs-client
 openafs-kmp-default
-openafs-krb5-mit
 openal-soft
 openal-soft-devel
 openbabel
@@ -4209,6 +4211,7 @@ pcsc-asekey
 pcsc-cyberjack
 pcsc-gempc
 pcsc-lite
+pcsc-lite-devel
 pcsc-towitoko
 pentaho-libxml
 pentaho-reporting-flow-engine
@@ -4692,6 +4695,7 @@ python-enum34
 python-gnome-dvb-daemon
 python-gobject2
 python-gtk
+python-ibus
 python-ipaddress
 python-ldb
 python-liblarch

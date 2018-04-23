@@ -86,7 +86,6 @@ baobab-lang
 bash
 bash-completion
 bash-lang
-bcache-tools
 bijiben
 bijiben-lang
 bind-utils
@@ -125,7 +124,6 @@ colord-gtk-lang
 command-not-found
 coreutils
 coreutils-lang
-corosync
 cpio
 cpio-lang
 cpio-mt
@@ -581,6 +579,13 @@ libavutil55
 libb64-0
 libbabl-0_1-0
 libbasicobjects0
+libbd_btrfs2
+libbd_crypto2
+libbd_fs2
+libbd_mdraid2
+libbd_part2
+libbd_swap2
+libbd_utils2
 libbind9-160
 libblkid1
 libblockdev
@@ -625,7 +630,6 @@ libcdio_paranoia2
 libcdr-0_1-1
 libcelt0-2
 libcelt051-0
-libcfg6
 libchamplain-0_12-0
 libcheese-common
 libcheese-gtk25
@@ -637,7 +641,6 @@ libclucene-shared1
 libclutter-1_0-0
 libclutter-gst-3_0-0
 libclutter-gtk-1_0-0
-libcmap4
 libcmis-0_5-5
 libcogl-pango20
 libcogl20
@@ -647,8 +650,6 @@ libcolord-gtk1
 libcolord2
 libcolorhug2
 libcom_err2
-libcorosync_common4
-libcpg4
 libcpupower0
 libcrack2
 libcreaterepo_c0
@@ -681,7 +682,6 @@ libdevmapper1_03
 libdhash1
 libdialog14
 libdleyna-core-1_0-5
-libdlm3
 libdmapsharing-3_0-2
 libdnet1
 libdns169
@@ -923,7 +923,6 @@ libldap-data
 libldapcpp1
 libldb1
 liblilv-0-0
-liblirc_client0
 liblockdev1
 liblouis-data
 liblouis14
@@ -1034,6 +1033,7 @@ libpciaccess0
 libpcre1
 libpcre2-16-0
 libpcre2-8-0
+libpcsclite1
 libpeas-1_0-0
 libpeas-gtk-1_0-0
 libpeas-lang
@@ -1060,6 +1060,7 @@ libproxy1
 libproxy1-config-gnome3
 libproxy1-networkmanager
 libproxy1-pacrunner-webkit
+libpskc0
 libpsl5
 libpulse-mainloop-glib0
 libpulse0
@@ -1070,7 +1071,6 @@ libpwquality-lang
 libpwquality1
 libpython2_7-1_0
 libpython3_6m1_0
-libqb0
 libqmi-glib5
 libqmi-tools
 libqpdf21
@@ -1080,7 +1080,6 @@ libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
 libquadmath0
-libquorum5
 libquvi-0_9-0_9_4
 libquvi-scripts
 libqxp-0_0-0
@@ -1108,7 +1107,6 @@ librest-0_7-0
 librevenge-0_0-0
 librsvg-2-2
 libruby2_5-2_5
-libsam4
 libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
@@ -1196,7 +1194,6 @@ libtirpc-netconfig
 libtirpc3
 libtotem-plparser-mini18
 libtotem-plparser18
-libtotem_pg5
 libtracker-common-2_0
 libtracker-control-2_0-0
 libtracker-miner-2_0-0
@@ -1205,11 +1202,12 @@ libts0
 libtwolame0
 libudev1
 libudisks2-0
-libudisks2_btrfs
+libudisks2-0_btrfs
 libumfpack-5_7_6
 libunistring2
 libunwind
 libupower-glib3
+liburcu6
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd4
@@ -1237,7 +1235,6 @@ libvolume_key1
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvotequorum8
 libvpx5
 libvte-2_91-0
 libvulkan_radeon
@@ -1329,8 +1326,6 @@ lsscsi
 lua53
 lua53-luasocket
 lvm2
-lvm2-clvm
-lvm2-cmirrord
 mailx
 malaga-suomi
 man
@@ -1347,11 +1342,11 @@ mousetweaks-lang
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpg123-openal
 mpg123-pulse
 mpt-firmware
 mtools
+multipath-tools
 mutter
 mutter-data
 mutter-lang
@@ -1459,6 +1454,7 @@ patterns-yast-yast2_install_wf
 pciutils
 pciutils-ids
 pcmciautils
+pcsc-lite
 perl
 perl-Bit-Vector
 perl-Bootloader
@@ -1548,7 +1544,6 @@ pulseaudio-bash-completion
 pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
-pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils

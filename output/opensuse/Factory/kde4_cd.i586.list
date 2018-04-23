@@ -88,7 +88,6 @@ baloo5-widgets-lang
 bash
 bash-completion
 bash-lang
-bcache-tools
 bind-utils
 blog
 bluedevil5
@@ -123,7 +122,6 @@ cifs-utils
 command-not-found
 coreutils
 coreutils-lang
-corosync
 cpio
 cpio-lang
 cpio-mt
@@ -724,6 +722,13 @@ libavformat57
 libavresample3
 libavutil55
 libbasicobjects0
+libbd_btrfs2
+libbd_crypto2
+libbd_fs2
+libbd_mdraid2
+libbd_part2
+libbd_swap2
+libbd_utils2
 libbind9-160
 libblkid1
 libblockdev
@@ -746,13 +751,9 @@ libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcelt0-2
-libcfg6
 libchm0
-libcmap4
 libcollection4
 libcom_err2
-libcorosync_common4
-libcpg4
 libcpupower0
 libcrack2
 libcreaterepo_c0
@@ -775,7 +776,6 @@ libdevmapper1_03
 libdhash1
 libdialog14
 libdjvulibre21
-libdlm3
 libdmtx0
 libdnet1
 libdns169
@@ -1014,6 +1014,7 @@ libpci3
 libpciaccess0
 libpcre1
 libpcre2-16-0
+libpcsclite1
 libphonon4qt5
 libpipeline1
 libpixman-1-0
@@ -1035,6 +1036,7 @@ libprocps6
 libproxy1
 libproxy1-config-kde
 libproxy1-networkmanager
+libpskc0
 libpsl5
 libpulse-mainloop-glib0
 libpulse0
@@ -1043,7 +1045,6 @@ libpwquality1
 libpython2_7-1_0
 libpython3_6m1_0
 libqalculate14
-libqb0
 libqca-qt5
 libqca-qt5-plugins
 libqgpgme7
@@ -1060,7 +1061,6 @@ libqt5-qttranslations
 libqt5-qtvirtualkeyboard
 libqt5-qtwayland
 libqt5-qtwebengine
-libquorum5
 libraw1394-11
 libraw16
 librcc0
@@ -1073,7 +1073,6 @@ libreoffice-icon-themes
 libreoffice-share-linker
 librsvg-2-2
 libruby2_5-2_5
-libsam4
 libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
@@ -1141,16 +1140,16 @@ libtheoraenc1
 libtiff5
 libtirpc-netconfig
 libtirpc3
-libtotem_pg5
 libts0
 libturbojpeg0
 libtwolame0
 libudev1
 libudisks2-0
-libudisks2_btrfs
+libudisks2-0_btrfs
 libunistring2
 libunwind
 libupower-glib3
+liburcu6
 libusb-0_1-4
 libusb-1_0-0
 libusbmuxd4
@@ -1174,7 +1173,6 @@ libvolume_key1
 libvorbis0
 libvorbisenc2
 libvorbisfile3
-libvotequorum8
 libvpx5
 libvulkan_radeon
 libwacom-data
@@ -1226,6 +1224,7 @@ libxkbfile1
 libxml-security-c17
 libxml2-2
 libxml2-tools
+libxmlsec1-1
 libxshmfence1
 libxslt-tools
 libxslt1
@@ -1252,8 +1251,6 @@ lsb-release
 lsof
 lsscsi
 lvm2
-lvm2-clvm
-lvm2-cmirrord
 mailcommon
 mailcommon-lang
 mailimporter
@@ -1282,11 +1279,11 @@ mobipocket
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpg123-openal
 mpg123-pulse
 mpt-firmware
 mtools
+multipath-tools
 nano
 ncurses-utils
 net-tools
@@ -1357,6 +1354,7 @@ patterns-yast-yast2_install_wf
 pciutils
 pciutils-ids
 pcmciautils
+pcsc-lite
 perl
 perl-Bit-Vector
 perl-Bootloader
