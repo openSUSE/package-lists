@@ -30,8 +30,6 @@ can't install oxygen4-cursors-4.11.22-15.1.x86_64:
   package is obsoleted by oxygen5-cursors-5.12.4-1.1.x86_64
 can't install kdesdk4-scripts-kf5-porting-17.08.3-1.2.x86_64:
   package is obsoleted by kdesdk-scripts-kf5-porting-17.12.3-1.1.x86_64
-can't install python-hp3parclient-3.3.2-1.1.noarch:
-  package is obsoleted by python-3parclient-4.2.5-1.1.noarch
 can't install ghostscript-mini-9.23-1.1.x86_64:
   package is obsoleted by ghostscript-9.23-1.1.x86_64
 can't install jaxen-bootstrap-1.1-25.1.noarch:
@@ -63,9 +61,6 @@ can't install kiwi-instsource-plugins-openSUSE-13-2-0.9-10.3.noarch:
   nothing provides kiwi-instsource needed by kiwi-instsource-plugins-openSUSE-13-2-0.9-10.3.noarch
 can't install python-django-mediasync-2.2.0-10.7.noarch:
   nothing provides python-boto needed by python-django-mediasync-2.2.0-10.7.noarch
-can't install python3-boto3-1.5.1-1.2.noarch:
-  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
-    (we have python3-botocore-1.9.6-1.1.noarch)
 can't install gns3-2.0.3-1.2.noarch:
   package gns3-2.0.3-1.2.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.3.noarch
@@ -117,10 +112,6 @@ can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.6.x86_64:
 can't install jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64:
   nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64
-can't install python3-ec2uploadimg-6.0.1-1.1.noarch:
-  package python3-ec2uploadimg-6.0.1-1.1.noarch requires python3-boto3 >= 1.4.1, but none of the providers can be installed
-  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
-    (we have python3-botocore-1.9.6-1.1.noarch)
 can't install ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64:
   package ruby2.5-2.5.0-4.1.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
@@ -129,10 +120,6 @@ can't install qore-pgsql-module-2.3-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.12.x86_64
 can't install hgview-1.8.2-3.12.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
-can't install python3-ec2publishimg-2.0.0-1.2.noarch:
-  package python3-ec2publishimg-2.0.0-1.2.noarch requires python3-boto3, but none of the providers can be installed
-  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
-    (we have python3-botocore-1.9.6-1.1.noarch)
 can't install ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64:
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
 can't install hgview-qt4-1.8.2-3.12.noarch:
@@ -146,9 +133,6 @@ can't install libyami-utils-1.1.0-2.2.x86_64:
   nothing provides libva-drm.so.1()(64bit) needed by libyami-utils-1.1.0-2.2.x86_64
   nothing provides libva-x11.so.1()(64bit) needed by libyami-utils-1.1.0-2.2.x86_64
   nothing provides libva.so.1()(64bit) needed by libyami-utils-1.1.0-2.2.x86_64
-can't install python2-boto3-1.5.1-1.2.noarch:
-  nothing provides python2-botocore < 1.9.0 needed by python2-boto3-1.5.1-1.2.noarch
-    (we have python2-botocore-1.9.6-1.1.noarch)
 can't install budgie-desktop-devel-10.4-4.2.x86_64:
   package budgie-desktop-devel-10.4-4.2.x86_64 requires budgie-desktop = 10.4-4.2, but none of the providers can be installed
   nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
@@ -169,21 +153,21 @@ can't install python-plaso-1.5.1-1.7.noarch:
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.7.noarch
 can't install patterns-caasp-Stack-1.0-34.1.x86_64:
   package patterns-caasp-Stack-1.0-34.1.x86_64 requires caasp-container-manifests, but none of the providers can be installed
-  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
 can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
   nothing provides python-Django >= 1.4.2 needed by python-django-debug-toolbar-1.3.0-1.3.noarch
 can't install peerunity-qt-0.2.2-3.5.x86_64:
@@ -201,8 +185,47 @@ can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.6.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
 can't install qore-yaml-module-0.4-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.10.x86_64
+can't install caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch:
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
 can't install libavfilter6-32bit-3.4.2-4.1.x86_64:
   nothing provides libzimg.so.2 needed by libavfilter6-32bit-3.4.2-4.1.x86_64
+can't install vpp-plugins-18.01-7.2.x86_64:
+  nothing provides librte_cryptodev.so.18.02()(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_cryptodev.so.18.02(DPDK_16.04)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_cryptodev.so.18.02(DPDK_17.08)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_eal.so.18.02()(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_eal.so.18.02(DPDK_16.11)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_eal.so.18.02(DPDK_17.05)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_eal.so.18.02(DPDK_2.0)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_ethdev.so.18.02()(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_ethdev.so.18.02(DPDK_16.07)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_ethdev.so.18.02(DPDK_2.2)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_mbuf.so.18.02()(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_mbuf.so.18.02(DPDK_2.0)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_mempool.so.18.02()(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_mempool.so.18.02(DPDK_16.07)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_mempool.so.18.02(DPDK_17.11)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_mempool.so.18.02(DPDK_2.0)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_pmd_bond.so.18.02()(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_pmd_bond.so.18.02(DPDK_2.0)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_ring.so.18.02()(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_ring.so.18.02(DPDK_2.0)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_sched.so.18.02()(64bit) needed by vpp-plugins-18.01-7.2.x86_64
+  nothing provides librte_sched.so.18.02(DPDK_2.0)(64bit) needed by vpp-plugins-18.01-7.2.x86_64
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
@@ -288,10 +311,6 @@ can't install NetworkManager-novellvpn-lang-0.9.0.r29-18.11.noarch:
   nothing provides novell-ipsec-tools >= 0.7 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
   nothing provides novell-nortelplugins >= 0.1.4 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
   nothing provides turnpike >= 0.1.2 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
-can't install python3-ec2deprecateimg-4.0.0-1.2.noarch:
-  package python3-ec2deprecateimg-4.0.0-1.2.noarch requires python3-boto3, but none of the providers can be installed
-  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
-    (we have python3-botocore-1.9.6-1.1.noarch)
 can't install libnautilus-extension1-32bit-3.28.1-1.1.x86_64:
   nothing provides libgexiv2.so.2 needed by libnautilus-extension1-32bit-3.28.1-1.1.x86_64
 can't install python-launchpadlib-1.10.2-6.9.noarch:
@@ -301,22 +320,6 @@ can't install budgie-desktop-10.4-4.2.x86_64:
   nothing provides libmutter-1.so.0()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
   nothing provides libmutter-clutter-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
   nothing provides libmutter-cogl-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-can't install caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch:
-  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
-  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r272_98378ff-1.1.noarch
 can't install gstreamer-plugins-libav-32bit-1.12.5-1.1.x86_64:
   package gstreamer-plugins-libav-32bit-1.12.5-1.1.x86_64 requires libavfilter.so.6, but none of the providers can be installed
   package gstreamer-plugins-libav-32bit-1.12.5-1.1.x86_64 requires libavfilter.so.6(LIBAVFILTER_6), but none of the providers can be installed
@@ -350,7 +353,3 @@ can't install paperwork-0.3.2-1.6.noarch:
   nothing provides python-whoosh needed by paperwork-0.3.2-1.6.noarch
 can't install python-openstack-doc-tools-1.5.0-1.4.noarch:
   nothing provides python-cliff-tablib >= 1.0 needed by python-openstack-doc-tools-1.5.0-1.4.noarch
-can't install python3-ec2utilsbase-3.1.2-1.1.noarch:
-  package python3-ec2utilsbase-3.1.2-1.1.noarch requires python3-boto3 >= 1.3.0, but none of the providers can be installed
-  nothing provides python3-botocore < 1.9.0 needed by python3-boto3-1.5.1-1.2.noarch
-    (we have python3-botocore-1.9.6-1.1.noarch)
