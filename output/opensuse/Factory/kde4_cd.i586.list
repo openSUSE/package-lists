@@ -41,6 +41,10 @@ akonadi-import-wizard-lang
 akonadi-mime
 akonadi-mime-lang
 akonadi-notes-lang
+akonadi-plugin-calendar
+akonadi-plugin-contacts
+akonadi-plugin-kalarmcal
+akonadi-plugin-mime
 akonadi-search
 akonadi-search-lang
 akonadi-server
@@ -327,6 +331,7 @@ kcontacts-lang
 kcoreaddons
 kcoreaddons-lang
 kdav
+kdav-lang
 kdbusaddons-tools
 kde-cli-tools5
 kde-cli-tools5-lang
@@ -761,7 +766,10 @@ libcroco-0_6-3
 libcryptmount0
 libcryptsetup12
 libcups2
+libcupscgi1
 libcupsimage2
+libcupsmime1
+libcupsppdc1
 libcurl4
 libdaemon0
 libdatrie1
@@ -911,7 +919,7 @@ libkdecorations2-5
 libkdecorations2private5
 libkdepim
 libkdepim-lang
-libkerfuffle17
+libkerfuffle18
 libkeyutils1
 libkgantt-lang
 libkgapi-lang
@@ -1506,6 +1514,7 @@ python3-base
 python3-bind
 python3-cmdln
 python3-createrepo_c
+python3-cupshelpers
 python3-curses
 python3-dbm
 python3-dbus-python
@@ -1515,6 +1524,8 @@ python3-gobject
 python3-packaging
 python3-pip
 python3-ply
+python3-pycups
+python3-pycurl
 python3-pyparsing
 python3-setuptools
 python3-six
@@ -1641,6 +1652,7 @@ typelib-1_0-NM-1_0
 ucode-amd
 ucode-intel
 udev
+udev-configure-printer
 udisks2
 udisks2-lang
 unixODBC
