@@ -1,17 +1,4 @@
-Server returned an error: HTTP Error 500: Internal Server Error
-
-Request: https://api.opensuse.org/source/openSUSE:Factory:PowerPC/000product?linkrev=base&rev=latest
-Headers:
-status: 500 Internal Server Error
-x-request-id: 5a1a12ee-e7d3-4591-89d2-a85845016a2f
-x-powered-by: Phusion Passenger 5.1.11
-connection: close
-strict-transport-security: max-age=31536000
-content-length: 131
-server: Apache/2.4.23 (Linux/SUSE)
-x-runtime: 0.015767
-date: Thu, 26 Apr 2018 00:40:03 GMT
-content-type: application/xml; charset=utf-8
+At revision dc801676d017155a1682aa2ab0259634.
 testing 13.1-x86_64-update.t
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC-standard-x86_64.solv'
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC:NonFree-standard-x86_64.solv'
