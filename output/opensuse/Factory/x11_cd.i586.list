@@ -14,7 +14,6 @@ NetworkManager
 NetworkManager-applet
 NetworkManager-branding-openSUSE
 NetworkManager-connection-editor
-SUSEConnect
 aaa_base
 aaa_base-extras
 accountsservice
@@ -201,6 +200,7 @@ ifplugd
 info
 initviocons
 insserv-compat
+intel-vaapi-driver
 intlfonts-euro-bitmap-fonts
 iproute2
 ipset
@@ -260,9 +260,11 @@ libXmuu1
 libXpm4
 libXrandr2
 libXrender1
+libXss1
 libXt6
 libXtst6
 libXv1
+libXvMC1
 libXxf86misc1
 libXxf86vm1
 libacl1
@@ -505,7 +507,7 @@ libmng2
 libmnl0
 libmodman1
 libmount1
-libmozjs-17_0
+libmozjs-52
 libmpc3
 libmpfr6
 libmtdev1
@@ -657,6 +659,7 @@ libvorbis0
 libvorbisenc2
 libvorbisfile3
 libvte-2_91-0
+libvulkan_intel
 libvulkan_radeon
 libwacom-data
 libwacom2
@@ -919,7 +922,6 @@ rcc-runtime
 reiserfs
 rgb
 ristretto
-rollback-helper
 rp-pppoe
 rpcbind
 rpm
@@ -1051,6 +1053,7 @@ xf86-video-dummy
 xf86-video-fbdev
 xf86-video-glint
 xf86-video-i128
+xf86-video-intel
 xf86-video-mach64
 xf86-video-mga
 xf86-video-neomagic
@@ -1118,6 +1121,7 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-auth-client
+yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-control-center
@@ -1158,6 +1162,7 @@ yast2-slp
 yast2-snapper
 yast2-storage-ng
 yast2-sudo
+yast2-support
 yast2-sysconfig
 yast2-trans-en
 yast2-trans-en_US
@@ -1178,4 +1183,3 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
-zypper-migration-plugin

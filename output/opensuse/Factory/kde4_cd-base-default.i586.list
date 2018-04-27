@@ -1,6 +1,5 @@
 GeoIP
 GeoIP-data
-SUSEConnect
 aaa_base
 aaa_base-extras
 acl
@@ -249,7 +248,7 @@ libmetalink3
 libmnl0
 libmodman1
 libmount1
-libmozjs-17_0
+libmozjs-52
 libncurses6
 libnetfilter_conntrack3
 libnettle6
@@ -471,7 +470,6 @@ python3-slip
 python3-slip-dbus
 python3-zypp-plugin
 release-notes-openSUSE
-rollback-helper
 rpcbind
 rpm
 rsync
@@ -564,6 +562,7 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-auth-client
+yast2-auth-server
 yast2-bootloader
 yast2-core
 yast2-country
@@ -599,6 +598,7 @@ yast2-slp
 yast2-snapper
 yast2-storage-ng
 yast2-sudo
+yast2-support
 yast2-sysconfig
 yast2-trans-en
 yast2-trans-stats
@@ -614,4 +614,3 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
-zypper-migration-plugin

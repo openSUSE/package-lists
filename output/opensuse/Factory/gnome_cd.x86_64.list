@@ -462,6 +462,7 @@ iio-sensor-proxy
 info
 initviocons
 insserv-compat
+intel-vaapi-driver
 intlfonts-euro-bitmap-fonts
 iproute2
 ipset
@@ -538,6 +539,7 @@ libXss1
 libXt6
 libXtst6
 libXv1
+libXvMC1
 libXxf86misc1
 libXxf86vm1
 liba52-0
@@ -985,7 +987,6 @@ libmnl0
 libmodman1
 libmount1
 libmount1-32bit
-libmozjs-17_0
 libmozjs-52
 libmp3lame0
 libmpc3
@@ -1282,6 +1283,7 @@ libvorbisenc2
 libvorbisfile3
 libvpx5
 libvte-2_91-0
+libvulkan_intel
 libvulkan_radeon
 libwacom-data
 libwacom2
@@ -1875,7 +1877,6 @@ unar
 unzip
 unzip-doc
 update-alternatives
-update-desktop-files
 upower
 upower-lang
 usbmuxd
@@ -1935,6 +1936,7 @@ xf86-video-dummy
 xf86-video-fbdev
 xf86-video-glint
 xf86-video-i128
+xf86-video-intel
 xf86-video-mach64
 xf86-video-mga
 xf86-video-neomagic
@@ -1984,6 +1986,7 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-auth-client
+yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-control-center
@@ -2024,6 +2027,7 @@ yast2-snapper
 yast2-sound
 yast2-storage-ng
 yast2-sudo
+yast2-support
 yast2-sysconfig
 yast2-trans-en
 yast2-trans-en_US

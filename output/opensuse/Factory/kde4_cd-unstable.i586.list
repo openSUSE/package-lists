@@ -26,7 +26,6 @@ PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 PackageKit-lang
-SUSEConnect
 aaa_base
 aaa_base-extras
 accountsservice
@@ -1079,7 +1078,7 @@ libmng2
 libmnl0
 libmodman1
 libmount1
-libmozjs-17_0
+libmozjs-52
 libmp3lame0
 libmpc3
 libmpfr6
@@ -1687,7 +1686,6 @@ rcc-runtime
 reiserfs
 release-notes-openSUSE
 rgb
-rollback-helper
 rp-pppoe
 rpcbind
 rpm
@@ -1882,6 +1880,7 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-auth-client
+yast2-auth-server
 yast2-bootloader
 yast2-branding-openSUSE
 yast2-branding-openSUSE-Oxygen
@@ -1922,6 +1921,7 @@ yast2-snapper
 yast2-sound
 yast2-storage-ng
 yast2-sudo
+yast2-support
 yast2-sysconfig
 yast2-trans-en
 yast2-trans-en_US
@@ -1941,4 +1941,3 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
-zypper-migration-plugin

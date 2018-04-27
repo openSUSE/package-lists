@@ -3,6 +3,8 @@ Mesa-32bit
 Mesa-devel
 Mesa-dri-32bit
 Mesa-gallium-32bit
+Mesa-libEGL-devel
+Mesa-libGL-devel
 Mesa-libGL1-32bit
 Mesa-libGLESv1_CM-devel
 Mesa-libGLESv1_CM1
@@ -10,8 +12,12 @@ Mesa-libGLESv2-2
 Mesa-libGLESv2-devel
 Mesa-libglapi-devel
 Mesa-libglapi0-32bit
+alsa-devel
 alsa-devel-32bit
 bsdiff
+damageproto-devel
+freeglut-devel
+glu-devel
 gtk2-engine-oxygen-32bit
 libFLAC8-32bit
 libLLVM6-32bit
@@ -19,7 +25,9 @@ libOSMesa-devel
 libOSMesa8
 libSDL-1_2-0-32bit
 libX11-xcb1-32bit
+libXdamage-devel
 libXdmcp6-32bit
+libXxf86vm-devel
 libXxf86vm1-32bit
 libc++1
 libc++abi1
@@ -36,6 +44,8 @@ libelf1-32bit
 libenet7
 libfreebl3-32bit
 libgbm-devel
+libglut3
+libglvnd-devel
 libncurses6-32bit
 libnghttp2-14-32bit
 libnm-glib4-32bit
@@ -70,3 +80,5 @@ pulseaudio-utils-32bit
 steamtricks
 steamtricks-data
 ubuntu-fonts
+wayland-devel
+xf86vidmodeproto-devel

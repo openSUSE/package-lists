@@ -11,7 +11,6 @@ PackageKit-backend-zypp
 PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
-SUSEConnect
 aaa_base
 aaa_base-extras
 acl
@@ -434,7 +433,7 @@ libmng2
 libmnl0
 libmodman1
 libmount1
-libmozjs-17_0
+libmozjs-52
 libmpc3
 libmpfr6
 libmtdev1
@@ -754,7 +753,6 @@ python3-slip-dbus
 python3-zypp-plugin
 release-notes-openSUSE
 rgb
-rollback-helper
 rpcbind
 rpm
 rsync
@@ -890,6 +888,7 @@ yast2
 yast2-add-on
 yast2-apparmor
 yast2-auth-client
+yast2-auth-server
 yast2-bootloader
 yast2-control-center
 yast2-control-center-qt
@@ -928,6 +927,7 @@ yast2-slp
 yast2-snapper
 yast2-storage-ng
 yast2-sudo
+yast2-support
 yast2-sysconfig
 yast2-trans-en
 yast2-trans-stats
@@ -944,4 +944,3 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
-zypper-migration-plugin
