@@ -858,7 +858,7 @@ namespace namespace:filesystem(squashfs) @SYSTEM
 namespace namespace:filesystem(ubifs) @SYSTEM
 namespace namespace:filesystem(vfat) @SYSTEM
 namespace namespace:filesystem(xfs) @SYSTEM
-namespace namespace:modalias(QEMU0002:*)) @SYSTEM
+namespace namespace:modalias(acpi*:QEMU0002%3A*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev11cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev17cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev18cl*) @SYSTEM
@@ -1275,7 +1275,7 @@ namespace namespace:filesystem(squashfs) @SYSTEM
 namespace namespace:filesystem(ubifs) @SYSTEM
 namespace namespace:filesystem(vfat) @SYSTEM
 namespace namespace:filesystem(xfs) @SYSTEM
-namespace namespace:modalias(QEMU0002:*)) @SYSTEM
+namespace namespace:modalias(acpi*:QEMU0002%3A*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev11cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev17cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev18cl*) @SYSTEM
@@ -5662,7 +5662,6 @@ job install name mlterm-scim [weak]
 job install name mlterm-wnn [weak]
 job install name mobile-broadband-provider-info [weak]
 job install name monapo-fonts [weak]
-job install name monitoring-tools [weak]
 job install name mosh [weak]
 job install name mousetweaks [weak]
 job install name mousetweaks-lang [weak]
@@ -6756,7 +6755,7 @@ job install name iozone-doc
 job install name ivtv-firmware
 job install name john-wordlists
 job install name libunrar-devel
-job install name libunrar5_6_1
+job install name libunrar5_6_3
 job install name mikachan-fonts
 job install name moneyplex-daten
 job install name moneyplex-suse
