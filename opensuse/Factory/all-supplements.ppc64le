@@ -13,7 +13,7 @@ namespace namespace:filesystem(squashfs) @SYSTEM
 namespace namespace:filesystem(ubifs) @SYSTEM
 namespace namespace:filesystem(vfat) @SYSTEM
 namespace namespace:filesystem(xfs) @SYSTEM
-namespace namespace:modalias(QEMU0002:*)) @SYSTEM
+namespace namespace:modalias(acpi*:QEMU0002%3A*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev11cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev17cl*) @SYSTEM
 namespace namespace:modalias(bcma:m04BFid0812rev18cl*) @SYSTEM
