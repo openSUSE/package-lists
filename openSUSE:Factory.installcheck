@@ -185,9 +185,6 @@ can't install caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch:
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
-can't install geany-plugins-lang-1.33-1.1.noarch:
-  package geany-plugins-lang-1.33-1.1.noarch requires geany-plugins = 1.33, but none of the providers can be installed
-  nothing provides libgit2.so.26()(64bit) needed by geany-plugins-1.33-1.1.x86_64
 can't install pdf2djvu-0.9.9-1.1.x86_64:
   nothing provides libpoppler.so.73()(64bit) needed by pdf2djvu-0.9.9-1.1.x86_64
 can't install libgimp-2_0-0-32bit-2.10.0-1.1.x86_64:
@@ -234,17 +231,11 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
-can't install openQA-local-db-4.5.1524586233.92db89bc-1.1.noarch:
-  package openQA-local-db-4.5.1524586233.92db89bc-1.1.noarch requires openQA, but none of the providers can be installed
-  nothing provides perl-Mojolicious-Plugin-AssetPack = 2.02 needed by openQA-4.5.1524586233.92db89bc-1.1.noarch
-    (we have perl-Mojolicious-Plugin-AssetPack-2.03-1.1.noarch)
 can't install ruby2.5-rubygem-json-2.1.0-1.9.x86_64:
   package ruby2.5-2.5.0-4.1.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.9.x86_64
-can't install geany-plugins-1.33-1.1.x86_64:
-  nothing provides libgit2.so.26()(64bit) needed by geany-plugins-1.33-1.1.x86_64
 can't install qore-sqlite3-module-1.0.1-4.9.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.9.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.2.noarch:
@@ -259,9 +250,6 @@ can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
 can't install kohana2-2.3.4-1.5.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.5.noarch
-can't install openQA-4.5.1524586233.92db89bc-1.1.noarch:
-  nothing provides perl-Mojolicious-Plugin-AssetPack = 2.02 needed by openQA-4.5.1524586233.92db89bc-1.1.noarch
-    (we have perl-Mojolicious-Plugin-AssetPack-2.03-1.1.noarch)
 can't install cmpi-bindings-ruby-1.0.1-1.16.x86_64:
   nothing provides libruby2.4.so.2.4()(64bit) needed by cmpi-bindings-ruby-1.0.1-1.16.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch:
