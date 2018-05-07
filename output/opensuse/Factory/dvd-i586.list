@@ -218,7 +218,6 @@ baobab
 baobab-lang
 bash
 bash-completion
-bash-completion-devel
 bash-doc
 bash-lang
 bbswitch-kmp-default
@@ -607,7 +606,6 @@ filesystem
 fillup
 findutils
 findutils-lang
-fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -1324,15 +1322,11 @@ kdump
 keditbookmarks
 keditbookmarks-lang
 kernel-default
-kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
-kernel-pae
-kernel-pae-devel
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 kf5-kcm-fcitx
@@ -2060,7 +2054,6 @@ libedataserverui-1_2-2
 libedit0
 libeditorconfig0
 libefivar1
-libelf-devel
 libelf1
 libenca0
 libenchant-2-2
@@ -2104,7 +2097,6 @@ libfdt1
 libffi7
 libfftw3-3
 libfftw3_threads3
-libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -3166,7 +3158,6 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
-lttng-modules-kmp-pae
 lua53
 lua53-luasocket
 luit
@@ -3271,7 +3262,6 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -3414,7 +3404,6 @@ openSUSE-xfce-icon-theme
 openafs
 openafs-client
 openafs-kmp-default
-openafs-kmp-pae
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3855,8 +3844,6 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4253,7 +4240,6 @@ rsync
 rt2860
 rtkit
 rtl8812au-kmp-default
-rtl8812au-kmp-pae
 ruby
 ruby-common
 ruby-devel
