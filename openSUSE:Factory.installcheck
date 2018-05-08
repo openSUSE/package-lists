@@ -22,24 +22,24 @@ can't install gtk3-schema-3.22.30-2.1.noarch:
   package is obsoleted by gtk4-schema-3.93.0-3.1.noarch
 can't install libevtlog-devel-0.2.13-2.5.x86_64:
   package is obsoleted by syslog-ng-devel-3.14.1-1.1.x86_64
-can't install oxygen4-cursors-4.11.22-15.1.x86_64:
-  package is obsoleted by oxygen5-cursors-5.12.4-1.1.x86_64
+can't install bpython-0.15-1.5.noarch:
+  package is obsoleted by python2-bpython-0.17.1-1.1.noarch
 can't install Supybot-0.83.4.1-28.1.noarch:
   package is obsoleted by python2-limnoria-2018.04.21-1.1.noarch
 can't install ghostscript-mini-9.23-1.1.x86_64:
   package is obsoleted by ghostscript-9.23-1.1.x86_64
+can't install oxygen4-cursors-4.11.22-15.1.x86_64:
+  package is obsoleted by oxygen5-cursors-5.12.5-1.1.x86_64
 can't install jaxen-bootstrap-1.1-25.1.noarch:
   package is obsoleted by jaxen-1.1.1-30.1.noarch
+can't install kdebase4-workspace-4.11.22-15.1.x86_64:
+  package is obsoleted by plasma5-desktop-5.12.5-1.1.x86_64
 can't install kdebase4-workspace-devel-4.11.22-15.1.x86_64:
   package is obsoleted by patterns-kde-kde_plasma-20170319-15.1.noarch
 can't install python-PyWebDAV-0.9.8-2.3.noarch:
   package is obsoleted by python2-PyWebDAV3-0.9.11-1.2.noarch
 can't install gcompris-17.05-4.1.x86_64:
   package is obsoleted by gcompris-qt-0.90-2.1.x86_64
-can't install kdebase4-workspace-4.11.22-15.1.x86_64:
-  package is obsoleted by plasma5-desktop-5.12.4-2.1.x86_64
-can't install bpython-0.15-1.5.noarch:
-  package is obsoleted by python2-bpython-0.17-1.1.noarch
 can't install kdesdk4-scripts-17.08.3-1.2.x86_64:
   package is obsoleted by kdesdk-scripts-18.04.0-1.1.x86_64
 can't install wok-plugins-kimchi-2.5.0-2.1.noarch:
@@ -65,9 +65,6 @@ can't install gns3-2.0.3-1.2.noarch:
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.3.noarch
 can't install vala-panel-extras-weather-0.1.5-1.3.x86_64:
   nothing provides libgweather-3.so.6()(64bit) needed by vala-panel-extras-weather-0.1.5-1.3.x86_64
-can't install docker-compose-1.17.0-2.1.noarch:
-  package docker-compose-1.17.0-2.1.noarch requires python-docker >= 2.5.1, but none of the providers can be installed
-  package docker-compose-1.17.0-2.1.noarch conflicts with python-docker >= 3 provided by python2-docker-3.3.0-1.1.noarch
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.12.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.12.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
@@ -118,6 +115,8 @@ can't install hgview-1.8.2-3.12.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
 can't install ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64:
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
+can't install python2-netCDF4-1.3.1-1.1.x86_64:
+  nothing provides libnetcdf.so.11()(64bit) needed by python2-netCDF4-1.3.1-1.1.x86_64
 can't install hgview-qt4-1.8.2-3.12.noarch:
   package hgview-qt4-1.8.2-3.12.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
@@ -250,6 +249,9 @@ can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
+can't install cura-lulzbot-3.2.16-1.1.noarch:
+  nothing provides cura-engine-lulzbot = 3.2.16 needed by cura-lulzbot-3.2.16-1.1.noarch
+    (we have cura-engine-lulzbot-3.2.19-1.1.x86_64)
 can't install kohana2-2.3.4-1.5.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.5.noarch
 can't install cmpi-bindings-ruby-1.0.1-1.16.x86_64:
@@ -292,6 +294,8 @@ can't install scim-bridge-gtk2-32bit-0.4.17-1.4.x86_64:
 can't install gns3-server-2.0.3-1.3.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.3.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.3.noarch
+can't install python3-netCDF4-1.3.1-1.1.x86_64:
+  nothing provides libnetcdf.so.11()(64bit) needed by python3-netCDF4-1.3.1-1.1.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.1.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.1.noarch
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64:
