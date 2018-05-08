@@ -606,6 +606,7 @@ filesystem
 fillup
 findutils
 findutils-lang
+fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -1322,11 +1323,15 @@ kdump
 keditbookmarks
 keditbookmarks-lang
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pae
+kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 kf5-kcm-fcitx
@@ -1461,7 +1466,6 @@ kpimtextedit-lang
 kppp
 kqtquickcharts
 krb5
-krb5-server
 krdc
 krdc-lang
 kremotecontrol
@@ -1720,8 +1724,8 @@ libKPimSMTP5
 libKScreenLocker5
 libLLVM6
 libMagick++-7_Q16HDRI4
-libMagickCore-7_Q16HDRI5
-libMagickWand-7_Q16HDRI5
+libMagickCore-7_Q16HDRI6
+libMagickWand-7_Q16HDRI6
 libOpenColorIO1
 libQt5Bluetooth5
 libQt5Bluetooth5-imports
@@ -2054,6 +2058,7 @@ libedataserverui-1_2-2
 libedit0
 libeditorconfig0
 libefivar1
+libelf-devel
 libelf1
 libenca0
 libenchant-2-2
@@ -2067,7 +2072,6 @@ libesmtp6
 libespeak-ng1
 libetonyek-0_1-1
 libetpan20
-libev4
 libevdev-devel
 libevdev-tools
 libevdev2
@@ -2097,6 +2101,7 @@ libfdt1
 libffi7
 libfftw3-3
 libfftw3_threads3
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -2144,6 +2149,7 @@ libgck-modules-gnome-keyring
 libgconfmm-2_6-1
 libgcr-3-1
 libgcrypt20
+libgcrypt20-hmac
 libgd3
 libgda-5_0-4
 libgda-5_0-4-lang
@@ -2783,7 +2789,6 @@ libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
 libsamba-passdb0
-libsamba-policy0
 libsamba-util0
 libsamdb0
 libsamplerate0
@@ -2949,7 +2954,6 @@ libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
-libverto-libev1
 libverto1
 libvigraimpex11
 libvirglrenderer0
@@ -3158,6 +3162,7 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
+lttng-modules-kmp-pae
 lua53
 lua53-luasocket
 luit
@@ -3262,6 +3267,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -3404,6 +3410,7 @@ openSUSE-xfce-icon-theme
 openafs
 openafs-client
 openafs-kmp-default
+openafs-kmp-pae
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3573,7 +3580,6 @@ perl-B-Utils
 perl-BIND-Conf_Parser
 perl-BSD-Resource
 perl-BerkeleyDB
-perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
 perl-CGI
@@ -3581,7 +3587,6 @@ perl-CGI-Application
 perl-CPAN-Changes
 perl-Cairo
 perl-Carp-Assert
-perl-Carp-Clan
 perl-Chart
 perl-Class-Accessor
 perl-Class-Data-Inheritable
@@ -3623,7 +3628,6 @@ perl-DBD-XBase
 perl-DBD-mysql
 perl-DBI
 perl-Data-OptList
-perl-Date-Calc
 perl-DateTime
 perl-DateTime-Format-Builder
 perl-DateTime-Format-ISO8601
@@ -3780,12 +3784,10 @@ perl-Sub-Identify
 perl-Sub-Install
 perl-Sub-Name
 perl-Sub-Quote
-perl-Sub-Uplevel
 perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
-perl-Test-Exception
 perl-Test-Fatal
 perl-Test-LeakTrace
 perl-Test-Pod
@@ -3844,6 +3846,8 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4032,7 +4036,6 @@ python-gnome-dvb-daemon
 python-gobject2
 python-gtk
 python-ipaddress
-python-ldb
 python-liblarch
 python-liblarch_gtk
 python-notify
@@ -4043,8 +4046,6 @@ python-sip-common
 python-smbios
 python-solv
 python-talloc
-python-tdb
-python-tevent
 python-urlgrabber
 python-xml
 python2-M2Crypto
@@ -4240,6 +4241,7 @@ rsync
 rt2860
 rtkit
 rtl8812au-kmp-default
+rtl8812au-kmp-pae
 ruby
 ruby-common
 ruby-devel
@@ -4267,10 +4269,7 @@ sac
 samba
 samba-client
 samba-doc
-samba-dsdb-modules
-samba-kdc
 samba-libs
-samba-python
 samba-winbind
 sane-backends
 sane-backends-autoconfig
@@ -4443,7 +4442,6 @@ tcl
 tcpdump
 tcsh
 tcsh-lang
-tdb-tools
 technisat-usb2-firmware
 tei-roma
 tei-xsl-stylesheets

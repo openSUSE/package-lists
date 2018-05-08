@@ -107,6 +107,7 @@ firewalld
 fontconfig
 fonts-config
 fuse
+gamin-server
 gawk
 gcr-data
 gcr-prompter
@@ -204,8 +205,8 @@ libIex-2_2-23
 libIlmImf-2_2-23
 libIlmThread-2_2-23
 libLLVM6
-libMagickCore-7_Q16HDRI5
-libMagickWand-7_Q16HDRI5
+libMagickCore-7_Q16HDRI6
+libMagickWand-7_Q16HDRI6
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -305,6 +306,8 @@ libdaemon0
 libdatrie1
 libdb-4_8
 libdbus-1-3
+libdcerpc-binding0
+libdcerpc0
 libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
@@ -332,6 +335,7 @@ libevent-2_1-8
 libexif12
 libexpat1
 libext2fs2
+libfam0-gamin
 libfastjson4
 libfdisk1
 libffi7
@@ -421,6 +425,7 @@ liblcms2-2
 libldap-2_4-2
 libldap-data
 libldapcpp1
+libldb1
 liblockdev1
 liblogging0
 liblognorm5
@@ -449,6 +454,11 @@ libmtdev1
 libmtp-udev
 libmtp9
 libncurses6
+libndr-krb5pac0
+libndr-nbt0
+libndr-standard0
+libndr0
+libnetapi0
 libnetfilter_conntrack3
 libnettle6
 libnfnetlink0
@@ -504,6 +514,12 @@ libreiserfscore0
 librest-0_7-0
 librsvg-2-2
 libruby2_5-2_5
+libsamba-credentials0
+libsamba-errors0
+libsamba-hostconfig0
+libsamba-passdb0
+libsamba-util0
+libsamdb0
 libsamplerate0
 libsasl2-3
 libseccomp2
@@ -513,6 +529,8 @@ libsemanage1
 libsepol1
 libsgutils2-1_43-2
 libsmartcols1
+libsmbconf0
+libsmbldap2
 libsmputils1-1
 libsnapper4
 libsndfile1
@@ -522,7 +540,6 @@ libsoup-2_4-1
 libspeex1
 libsqlite3-0
 libssh4
-libsss_nss_idmap0
 libstdc++6
 libstorage-ng-ruby
 libstorage-ng1
@@ -530,6 +547,9 @@ libsystemd0
 libtalloc2
 libtasn1
 libtasn1-6
+libtdb1
+libtevent-util0
+libtevent0
 libthai-data
 libthai0
 libtheoradec1
@@ -560,6 +580,7 @@ libwayland-client0
 libwayland-cursor0
 libwayland-egl1
 libwayland-server0
+libwbclient0
 libwebp7
 libwebpdemux2
 libwebpmux3
@@ -734,6 +755,7 @@ python
 python-base
 python-rpm-macros
 python-solv
+python-talloc
 python-xml
 python2-configobj
 python2-dbus-python
@@ -787,6 +809,7 @@ ruby2.5-rubygem-simpleidn
 ruby2.5-rubygem-unf
 ruby2.5-rubygem-unf_ext
 ruby2.5-stdlib
+samba-libs
 scout
 screen
 sed
@@ -800,7 +823,6 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
-sssd-wbclient
 strace
 sudo
 suse-module-tools

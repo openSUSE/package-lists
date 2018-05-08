@@ -1464,7 +1464,6 @@ kppp
 kqtquickcharts
 krb5
 krb5-32bit
-krb5-server
 krdc
 krdc-lang
 kremotecontrol
@@ -1723,8 +1722,8 @@ libKPimSMTP5
 libKScreenLocker5
 libLLVM6
 libMagick++-7_Q16HDRI4
-libMagickCore-7_Q16HDRI5
-libMagickWand-7_Q16HDRI5
+libMagickCore-7_Q16HDRI6
+libMagickWand-7_Q16HDRI6
 libOpenColorIO1
 libQt5Bluetooth5
 libQt5Bluetooth5-imports
@@ -2114,7 +2113,6 @@ libesmtp6
 libespeak-ng1
 libetonyek-0_1-1
 libetpan20
-libev4
 libevdev-devel
 libevdev-tools
 libevdev2
@@ -2198,6 +2196,7 @@ libgconfmm-2_6-1
 libgcr-3-1
 libgcrypt20
 libgcrypt20-32bit
+libgcrypt20-hmac
 libgd3
 libgda-5_0-4
 libgda-5_0-4-lang
@@ -2891,7 +2890,6 @@ libsamba-hostconfig0
 libsamba-hostconfig0-32bit
 libsamba-passdb0
 libsamba-passdb0-32bit
-libsamba-policy0
 libsamba-util0
 libsamba-util0-32bit
 libsamdb0
@@ -3078,7 +3076,6 @@ libvdpau_r300
 libvdpau_r600
 libvdpau_radeonsi
 libvdpau_va_gl1
-libverto-libev1
 libverto1
 libverto1-32bit
 libvigraimpex11
@@ -3720,7 +3717,6 @@ perl-B-Utils
 perl-BIND-Conf_Parser
 perl-BSD-Resource
 perl-BerkeleyDB
-perl-Bit-Vector
 perl-Bootloader
 perl-CDDB_get
 perl-CGI
@@ -3728,7 +3724,6 @@ perl-CGI-Application
 perl-CPAN-Changes
 perl-Cairo
 perl-Carp-Assert
-perl-Carp-Clan
 perl-Chart
 perl-Class-Accessor
 perl-Class-Data-Inheritable
@@ -3770,7 +3765,6 @@ perl-DBD-XBase
 perl-DBD-mysql
 perl-DBI
 perl-Data-OptList
-perl-Date-Calc
 perl-Date-Manip
 perl-DateTime
 perl-DateTime-Format-Builder
@@ -3928,12 +3922,10 @@ perl-Sub-Identify
 perl-Sub-Install
 perl-Sub-Name
 perl-Sub-Quote
-perl-Sub-Uplevel
 perl-Task-Weaken
 perl-Template-Toolkit
 perl-Term-ReadKey
 perl-TermReadLine-Gnu
-perl-Test-Exception
 perl-Test-Fatal
 perl-Test-LeakTrace
 perl-Test-Pod
@@ -4181,7 +4173,6 @@ python-gnome-dvb-daemon
 python-gobject2
 python-gtk
 python-ipaddress
-python-ldb
 python-liblarch
 python-liblarch_gtk
 python-notify
@@ -4193,8 +4184,6 @@ python-smbios
 python-solv
 python-talloc
 python-talloc-32bit
-python-tdb
-python-tevent
 python-urlgrabber
 python-xml
 python2-M2Crypto
@@ -4425,12 +4414,8 @@ samba
 samba-client
 samba-client-32bit
 samba-doc
-samba-dsdb-modules
-samba-kdc
-samba-kdc-32bit
 samba-libs
 samba-libs-32bit
-samba-python
 samba-winbind
 samba-winbind-32bit
 sane-backends
@@ -4611,7 +4596,6 @@ tcl
 tcpdump
 tcsh
 tcsh-lang
-tdb-tools
 technisat-usb2-firmware
 tei-roma
 tei-xsl-stylesheets

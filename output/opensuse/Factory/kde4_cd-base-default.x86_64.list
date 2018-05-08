@@ -81,6 +81,7 @@ findutils
 firewalld
 fontconfig
 fonts-config
+gamin-server
 gawk
 gettext-runtime
 gio-branding-openSUSE
@@ -175,6 +176,8 @@ libcurl4
 libdaemon0
 libdb-4_8
 libdbus-1-3
+libdcerpc-binding0
+libdcerpc0
 libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
@@ -190,6 +193,7 @@ libestr0
 libevent-2_1-8
 libexpat1
 libext2fs2
+libfam0-gamin
 libfastjson4
 libfdisk1
 libffi7
@@ -237,6 +241,7 @@ libksba8
 libldap-2_4-2
 libldap-data
 libldapcpp1
+libldb1
 liblogging0
 liblognorm5
 liblua5_3-5
@@ -253,6 +258,11 @@ libmodman1
 libmount1
 libmozjs-52
 libncurses6
+libndr-krb5pac0
+libndr-nbt0
+libndr-standard0
+libndr0
+libnetapi0
 libnetfilter_conntrack3
 libnettle6
 libnfnetlink0
@@ -284,6 +294,12 @@ libqrencode4
 libreadline7
 libreiserfscore0
 libruby2_5-2_5
+libsamba-credentials0
+libsamba-errors0
+libsamba-hostconfig0
+libsamba-passdb0
+libsamba-util0
+libsamdb0
 libsasl2-3
 libseccomp2
 libselinux1
@@ -291,13 +307,14 @@ libsemanage1
 libsepol1
 libsgutils2-1_43-2
 libsmartcols1
+libsmbconf0
+libsmbldap2
 libsmputils1-1
 libsnapper4
 libsoftokn3
 libsolv-tools
 libsqlite3-0
 libssh4
-libsss_nss_idmap0
 libstdc++6
 libstorage-ng-ruby
 libstorage-ng1
@@ -305,6 +322,9 @@ libsystemd0
 libtalloc2
 libtasn1
 libtasn1-6
+libtdb1
+libtevent-util0
+libtevent0
 libtirpc-netconfig
 libtirpc3
 libudev1
@@ -315,6 +335,7 @@ libustr-1_0-1
 libutempter0
 libuuid1
 libverto1
+libwbclient0
 libwicked-0-6
 libwrap0
 libx86emu1
@@ -443,6 +464,7 @@ python
 python-base
 python-rpm-macros
 python-solv
+python-talloc
 python-xml
 python2-configobj
 python2-dbus-python
@@ -495,6 +517,7 @@ ruby2.5-rubygem-simpleidn
 ruby2.5-rubygem-unf
 ruby2.5-rubygem-unf_ext
 ruby2.5-stdlib
+samba-libs
 scout
 screen
 sed
@@ -506,7 +529,6 @@ smp_utils
 snapper
 snapper-zypp-plugin
 sound-theme-freedesktop
-sssd-wbclient
 strace
 sudo
 suse-module-tools

@@ -329,7 +329,6 @@ kmod
 kmod-compat
 kpartx
 krb5
-krb5-server
 less
 libFLAC8
 libGLU1
@@ -340,8 +339,8 @@ libIex-2_2-23
 libIlmImf-2_2-23
 libIlmThread-2_2-23
 libLLVM6
-libMagickCore-7_Q16HDRI5
-libMagickWand-7_Q16HDRI5
+libMagickCore-7_Q16HDRI6
+libMagickWand-7_Q16HDRI6
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
@@ -542,7 +541,6 @@ libepoxy0
 liberation-fonts
 libespeak-ng1
 libestr0
-libev4
 libevdev2
 libevdocument3-4
 libevent-2_1-8
@@ -886,7 +884,6 @@ libsamba-credentials0
 libsamba-errors0
 libsamba-hostconfig0
 libsamba-passdb0
-libsamba-policy0
 libsamba-util0
 libsamdb0
 libsamplerate0
@@ -991,7 +988,6 @@ libva-glx2
 libva-x11-2
 libva2
 libvdpau1
-libverto-libev1
 libverto1
 libvisual
 libvoikko1
@@ -1177,13 +1173,10 @@ pciutils
 pciutils-ids
 pcsc-lite
 perl
-perl-Bit-Vector
 perl-Bootloader
 perl-CPAN-Changes
-perl-Carp-Clan
 perl-Config-Crontab
 perl-Crypt-SmbHash
-perl-Date-Calc
 perl-Devel-Symdump
 perl-Digest-MD4
 perl-Digest-SHA1
@@ -1205,8 +1198,6 @@ perl-Net-HTTP
 perl-Net-SSLeay
 perl-Parse-RecDescent
 perl-Pod-Coverage
-perl-Sub-Uplevel
-perl-Test-Exception
 perl-Test-Pod
 perl-Test-Pod-Coverage
 perl-TimeDate
@@ -1263,12 +1254,9 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 python
 python-base
-python-ldb
 python-rpm-macros
 python-solv
 python-talloc
-python-tdb
-python-tevent
 python-xml
 python2-configobj
 python2-dbus-python
@@ -1351,11 +1339,7 @@ ruby2.5-rubygem-unf_ext
 ruby2.5-stdlib
 samba
 samba-client
-samba-dsdb-modules
-samba-kdc
 samba-libs
-samba-python
-samba-winbind
 sane-backends
 sane-backends-autoconfig
 sbc
@@ -1412,7 +1396,6 @@ sysuser-shadow
 sysvinit-tools
 tar
 tar-rmt
-tdb-tools
 telepathy-idle
 telepathy-logger
 telepathy-mission-control
