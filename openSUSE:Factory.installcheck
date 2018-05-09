@@ -65,6 +65,10 @@ can't install gns3-2.0.3-1.2.noarch:
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.3.noarch
 can't install vala-panel-extras-weather-0.1.5-1.3.x86_64:
   nothing provides libgweather-3.so.6()(64bit) needed by vala-panel-extras-weather-0.1.5-1.3.x86_64
+can't install openlmi-scripts-networking-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-networking-0.4.0-1.10.noarch
+can't install openlmi-scripts-account-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-account-0.4.0-1.10.noarch
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.12.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.12.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
@@ -109,6 +113,8 @@ can't install ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64:
   package ruby2.5-2.5.0-4.1.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:test-unit:3.2.7)) provided by ruby2.5-rubygem-test-unit-3.2.7-1.3.x86_64
+can't install openlmi-scripts-powermanagement-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-powermanagement-0.4.0-1.10.noarch
 can't install qore-pgsql-module-2.3-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.12.x86_64
 can't install hgview-1.8.2-3.12.noarch:
@@ -161,6 +167,8 @@ can't install NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64:
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.6.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.6.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
+can't install openlmi-scripts-hardware-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-hardware-0.4.0-1.10.noarch
 can't install qore-yaml-module-0.4-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.10.x86_64
 can't install caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch:
@@ -179,6 +187,8 @@ can't install caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch:
   nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
   nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
   nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-3.0.0+git_r274_c9dd4f7-1.1.noarch
+can't install openlmi-scripts-software-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-software-0.4.0-1.10.noarch
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
@@ -204,6 +214,10 @@ can't install peerunityd-0.2.2-3.5.x86_64:
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.13.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.13.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
+can't install openlmi-scripts-logicalfile-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-logicalfile-0.4.0-1.10.noarch
+can't install openlmi-scripts-system-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-system-0.4.0-1.10.noarch
 can't install typelib_1_0-Budgie-0_1-10.4-4.2.x86_64:
   package typelib_1_0-Budgie-0_1-10.4-4.2.x86_64 requires budgie-desktop = 10.4-4.2, but none of the providers can be installed
   nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
@@ -237,6 +251,8 @@ can't install ruby2.5-rubygem-json-2.1.0-1.9.x86_64:
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.9.x86_64
+can't install openlmi-python-test-0.6.0-11.3.noarch:
+  nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.3.noarch
 can't install qore-sqlite3-module-1.0.1-4.9.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.9.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.2.noarch:
@@ -265,6 +281,11 @@ can't install wok-2.5.0-2.3.noarch:
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
+can't install openlmi-scripts-0.4.0-1.10.noarch:
+  package openlmi-scripts-0.4.0-1.10.noarch requires openlmi-scripts-journald = 0.4.0-1.10, but none of the providers can be installed
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-journald-0.4.0-1.10.noarch
+can't install openlmi-scripts-service-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-service-0.4.0-1.10.noarch
 can't install ruby2.5-rubygem-fluentd-doc-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-doc-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
@@ -298,6 +319,8 @@ can't install python3-netCDF4-1.3.1-1.1.x86_64:
   nothing provides libnetcdf.so.11()(64bit) needed by python3-netCDF4-1.3.1-1.1.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.1.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.1.noarch
+can't install openlmi-scripts-storage-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-storage-0.4.0-1.10.noarch
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
 can't install votca-xtp-1.4.1-2.2.x86_64:
@@ -328,5 +351,7 @@ can't install paperwork-0.3.2-1.6.noarch:
   nothing provides python-whoosh needed by paperwork-0.3.2-1.6.noarch
 can't install python-openstack-doc-tools-1.5.0-1.4.noarch:
   nothing provides python-cliff-tablib >= 1.0 needed by python-openstack-doc-tools-1.5.0-1.4.noarch
+can't install openlmi-scripts-journald-0.4.0-1.10.noarch:
+  nothing provides openlmi-tools >= 0.9.1 needed by openlmi-scripts-journald-0.4.0-1.10.noarch
 can't install python2-pygit2-0.26.0-1.5.x86_64:
   nothing provides libgit2.so.26()(64bit) needed by python2-pygit2-0.26.0-1.5.x86_64
