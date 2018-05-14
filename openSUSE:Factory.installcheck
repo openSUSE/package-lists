@@ -1,3 +1,5 @@
+can't install openssl-1_0_0-1.0.2n-2.1.x86_64:
+  package is obsoleted by openssl-1_1-1.1.0h-2.1.x86_64
 can't install latexila-3.27.1-2.1.x86_64:
   package is obsoleted by gnome-latex-3.28.0-1.1.x86_64
 can't install mate-calc-1.20.1-1.1.x86_64:
@@ -16,8 +18,6 @@ can't install akonadi-runtime-1.13.0-11.2.x86_64:
   package is obsoleted by akonadi-server-18.04.0-1.1.x86_64
 can't install Supybot-0.83.4.1-28.1.noarch:
   package is obsoleted by python3-limnoria-2018.04.21-2.1.noarch
-can't install openssl-1_0_0-1.0.2n-2.1.x86_64:
-  package is obsoleted by openssl-1_1-1.1.0h-1.1.x86_64
 can't install gtk3-schema-3.22.30-2.1.noarch:
   package is obsoleted by gtk4-schema-3.93.0-3.1.noarch
 can't install libevtlog-devel-0.2.13-2.5.x86_64:
@@ -55,8 +55,6 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.11.x86_64:
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.8.x86_64)
 can't install qore-uuid-module-1.3-3.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.11.x86_64
-can't install kiwi-instsource-plugins-openSUSE-13-2-0.9-10.3.noarch:
-  nothing provides kiwi-instsource needed by kiwi-instsource-plugins-openSUSE-13-2-0.9-10.3.noarch
 can't install python-django-mediasync-2.2.0-10.7.noarch:
   nothing provides python-boto needed by python-django-mediasync-2.2.0-10.7.noarch
 can't install gns3-2.0.3-1.2.noarch:
@@ -81,6 +79,8 @@ can't install ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.4-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.8.x86_64)
+can't install tilix-1.7.7-2.1.x86_64:
+  nothing provides libphobos2.so.0.79()(64bit) needed by tilix-1.7.7-2.1.x86_64
 can't install python-django-registration-2.2-1.2.noarch:
   nothing provides python-Django >= 1.8 needed by python-django-registration-2.2-1.2.noarch
 can't install libvotca_xtp4-1.4.1-2.2.x86_64:
@@ -142,12 +142,6 @@ can't install python2-netCDF4-1.3.1-1.1.x86_64:
 can't install hgview-qt4-1.8.2-3.12.noarch:
   package hgview-qt4-1.8.2-3.12.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
-can't install budgie-desktop-devel-10.4-4.2.x86_64:
-  package budgie-desktop-devel-10.4-4.2.x86_64 requires budgie-desktop = 10.4-4.2, but none of the providers can be installed
-  nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-1.so.0()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-clutter-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-cogl-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
 can't install python-plaso-1.5.1-1.7.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.7.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.7.noarch
@@ -164,8 +158,6 @@ can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
   nothing provides python-Django >= 1.4.2 needed by python-django-debug-toolbar-1.3.0-1.3.noarch
 can't install libgimpui-2_0-0-32bit-2.10.0-1.1.x86_64:
   nothing provides libgexiv2.so.2 needed by libgimpui-2_0-0-32bit-2.10.0-1.1.x86_64
-  nothing provides libbabl-0.1.so.0 needed by libgimpui-2_0-0-32bit-2.10.0-1.1.x86_64
-  nothing provides libgegl-0.4.so.0 needed by libgimpui-2_0-0-32bit-2.10.0-1.1.x86_64
 can't install peerunity-qt-0.2.2-3.5.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
@@ -192,8 +184,6 @@ can't install python-dfVFS-0~20171230-1.2.noarch:
   nothing provides python-pycrypto needed by python-dfVFS-0~20171230-1.2.noarch
 can't install libgimp-2_0-0-32bit-2.10.0-1.1.x86_64:
   nothing provides libgexiv2.so.2 needed by libgimp-2_0-0-32bit-2.10.0-1.1.x86_64
-  nothing provides libbabl-0.1.so.0 needed by libgimp-2_0-0-32bit-2.10.0-1.1.x86_64
-  nothing provides libgegl-0.4.so.0 needed by libgimp-2_0-0-32bit-2.10.0-1.1.x86_64
 can't install python-gcs-oauth2-boto-plugin-1.14-1.4.noarch:
   nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.4.noarch
 can't install vusb-analyzer-1.1-18.3.noarch:
@@ -206,12 +196,6 @@ can't install peerunityd-0.2.2-3.5.x86_64:
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.13.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.13.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
-can't install typelib_1_0-Budgie-0_1-10.4-4.2.x86_64:
-  package typelib_1_0-Budgie-0_1-10.4-4.2.x86_64 requires budgie-desktop = 10.4-4.2, but none of the providers can be installed
-  nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-1.so.0()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-clutter-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-cogl-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.4.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.4.x86_64
 can't install NetworkManager-novellvpn-gnome-0.9.0.r29-18.11.x86_64:
@@ -260,6 +244,9 @@ can't install kohana2-2.3.4-1.5.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.5.noarch
 can't install cmpi-bindings-ruby-1.0.1-1.16.x86_64:
   nothing provides libruby2.4.so.2.4()(64bit) needed by cmpi-bindings-ruby-1.0.1-1.16.x86_64
+can't install tilix-lang-1.7.7-2.1.noarch:
+  package tilix-lang-1.7.7-2.1.noarch requires tilix = 1.7.7, but none of the providers can be installed
+  nothing provides libphobos2.so.0.79()(64bit) needed by tilix-1.7.7-2.1.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch
 can't install qore-xml-module-1.2-4.10.x86_64:
@@ -283,11 +270,6 @@ can't install libnautilus-extension1-32bit-3.28.1-1.1.x86_64:
   nothing provides libgexiv2.so.2 needed by libnautilus-extension1-32bit-3.28.1-1.1.x86_64
 can't install python-launchpadlib-1.10.2-6.9.noarch:
   nothing provides python-lazr.restfulclient >= 0.9.19 needed by python-launchpadlib-1.10.2-6.9.noarch
-can't install budgie-desktop-10.4-4.2.x86_64:
-  nothing provides libgnome-desktop-3.so.12()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-1.so.0()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-clutter-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
-  nothing provides libmutter-cogl-1.so()(64bit) needed by budgie-desktop-10.4-4.2.x86_64
 can't install python3-pygit2-0.26.0-1.5.x86_64:
   nothing provides libgit2.so.26()(64bit) needed by python3-pygit2-0.26.0-1.5.x86_64
 can't install ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64:
