@@ -154,9 +154,6 @@ gcab
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
-gcr-data
-gcr-prompter
-gcr-viewer
 gdb
 gdk-pixbuf-loader-rsvg
 gdk-pixbuf-query-loaders
@@ -598,8 +595,6 @@ libfuse2
 libgbm1
 libgcab-1_0-0
 libgcc_s1
-libgck-1-0
-libgcr-3-1
 libgcrypt20
 libgd3
 libgdbm4
@@ -753,7 +748,6 @@ libnghttp2-14
 libnl-config
 libnl3-200
 libnm0
-libnma0
 libnotify4
 libnpth0
 libnsl2
@@ -1025,7 +1019,6 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
-nma-data
 noto-sans-fonts
 nscd
 nss-mdns
@@ -1174,6 +1167,7 @@ publicsuffix
 pulseaudio
 pulseaudio-bash-completion
 pulseaudio-module-bluetooth
+pulseaudio-module-gconf
 pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf

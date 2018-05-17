@@ -15,6 +15,8 @@ NetworkManager
 NetworkManager-branding-openSUSE
 NetworkManager-openconnect
 NetworkManager-openconnect-lang
+NetworkManager-openvpn
+NetworkManager-openvpn-lang
 NetworkManager-pptp
 NetworkManager-pptp-lang
 PackageKit
@@ -1034,6 +1036,7 @@ libpcsclite1
 libphonon4qt5
 libpipeline1
 libpixman-1-0
+libpkcs11-helper1
 libplist3
 libply-boot-client4
 libply-splash-core4
@@ -1335,6 +1338,7 @@ openssh-askpass
 openssh-helpers
 openssl
 openssl-1_1
+openvpn
 os-prober
 oxygen5-icon-theme
 oxygen5-sounds
@@ -1432,6 +1436,7 @@ pimcommon
 pimcommon-lang
 pinentry
 pinentry-qt5
+pkcs11-helper
 pkg-config
 plasma-framework
 plasma-framework-components
@@ -1440,6 +1445,7 @@ plasma-framework-private
 plasma-nm5
 plasma-nm5-lang
 plasma-nm5-openconnect
+plasma-nm5-openvpn
 plasma-nm5-pptp
 plasma5-addons
 plasma5-addons-lang
@@ -1488,6 +1494,7 @@ pulseaudio
 pulseaudio-bash-completion
 pulseaudio-lang
 pulseaudio-module-bluetooth
+pulseaudio-module-gconf
 pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
