@@ -55,6 +55,8 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.11.x86_64:
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.8.x86_64)
 can't install qore-uuid-module-1.3-3.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.11.x86_64
+can't install libkcarchivercore0-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcarchivercore0-8.6.0.0-1.2.x86_64
 can't install zathura-plugin-djvu-0.2.6-1.1.x86_64:
   package zathura-plugin-djvu-0.2.6-1.1.x86_64 requires zathura, but none of the providers can be installed
   nothing provides libsynctex.so.1()(64bit) needed by zathura-0.3.8-1.1.x86_64
@@ -64,6 +66,24 @@ can't install gns3-2.0.3-1.2.noarch:
   package gns3-2.0.3-1.2.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.3.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.3.noarch
+can't install kopano-server-packages-8.6.0.0-1.2.x86_64:
+  package kopano-server-packages-8.6.0.0-1.2.x86_64 requires kopano-dagent = 8.6.0.0, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-dagent-8.6.0.0-1.2.x86_64
+can't install sword-1.7.5~a1-2.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by sword-1.7.5~a1-2.2.x86_64
+can't install libkcssl0-8.6.0.0-1.2.x86_64:
+  package libkcssl0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0()(64bit), but none of the providers can be installed
+  package libkcssl0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+can't install kopano-backup-8.6.0.0-1.2.x86_64:
+  package kopano-backup-8.6.0.0-1.2.x86_64 requires python3-kopano = 8.6.0.0, but none of the providers can be installed
+  package python3-kopano-8.6.0.0-1.2.x86_64 requires python3-mapi, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by python3-mapi-8.6.0.0-1.2.x86_64
+can't install kopano-migration-pst-8.6.0.0-1.2.x86_64:
+  package kopano-migration-pst-8.6.0.0-1.2.x86_64 requires python3-kopano = 8.6.0.0, but none of the providers can be installed
+  package python3-kopano-8.6.0.0-1.2.x86_64 requires python3-mapi, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by python3-mapi-8.6.0.0-1.2.x86_64
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.12.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.12.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
@@ -78,6 +98,8 @@ can't install ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64:
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.8.x86_64)
 can't install python-django-registration-2.2-1.2.noarch:
   nothing provides python-Django >= 1.8 needed by python-django-registration-2.2-1.2.noarch
+can't install aegisub-3.2.2-9.5.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by aegisub-3.2.2-9.5.x86_64
 can't install libvotca_xtp4-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
@@ -90,6 +112,12 @@ can't install wok-plugins-ginger-2.4.0-3.1.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
 can't install qore-mysql-module-2.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.1-4.10.x86_64
+can't install xiphos-4.0.7-1.2.x86_64:
+  nothing provides libicui18n.so.60.2()(64bit) needed by xiphos-4.0.7-1.2.x86_64
+can't install libkcinetmapi0-8.6.0.0-1.2.x86_64:
+  package libkcinetmapi0-8.6.0.0-1.2.x86_64 requires libkcicalmapi.so.0()(64bit), but none of the providers can be installed
+  package libkcinetmapi0-8.6.0.0-1.2.x86_64 requires libkcicalmapi.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcicalmapi0-8.6.0.0-1.2.x86_64
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
 can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.11.x86_64:
@@ -104,38 +132,53 @@ can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.6.x86_64:
 can't install jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64:
   nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.7.x86_64
+can't install kopano-gateway-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-gateway-8.6.0.0-1.2.x86_64
 can't install zathura-devel-0.3.8-1.1.x86_64:
   package zathura-devel-0.3.8-1.1.x86_64 requires zathura = 0.3.8, but none of the providers can be installed
   nothing provides libsynctex.so.1()(64bit) needed by zathura-0.3.8-1.1.x86_64
+can't install kopano-monitor-8.6.0.0-1.2.x86_64:
+  package kopano-monitor-8.6.0.0-1.2.x86_64 requires libkcutil.so.0()(64bit), but none of the providers can be installed
+  package kopano-monitor-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  package kopano-monitor-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KERNEL32_1)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+can't install python3-mapi-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by python3-mapi-8.6.0.0-1.2.x86_64
 can't install qore-pgsql-module-2.3-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.12.x86_64
 can't install hgview-1.8.2-3.12.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
 can't install zathura-0.3.8-1.1.x86_64:
   nothing provides libsynctex.so.1()(64bit) needed by zathura-0.3.8-1.1.x86_64
+can't install widelands-build19-2.5.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by widelands-build19-2.5.x86_64
+can't install php-mapi-8.6.0.0-1.2.x86_64:
+  package php-mapi-8.6.0.0-1.2.x86_64 requires kopano-client = 8.6.0.0, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-client-8.6.0.0-1.2.x86_64
 can't install ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64:
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
 can't install python2-netCDF4-1.3.1-1.1.x86_64:
   nothing provides libnetcdf.so.11()(64bit) needed by python2-netCDF4-1.3.1-1.1.x86_64
+can't install widelands-data-build19-2.5.noarch:
+  package widelands-data-build19-2.5.noarch requires widelands = build19, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by widelands-build19-2.5.x86_64
 can't install hgview-qt4-1.8.2-3.12.noarch:
   package hgview-qt4-1.8.2-3.12.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
-can't install caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch:
-  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
+can't install libmapi1-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by libmapi1-8.6.0.0-1.2.x86_64
+can't install libkcsoap0-8.6.0.0-1.2.x86_64:
+  package libkcsoap0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0()(64bit), but none of the providers can be installed
+  package libkcsoap0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  package libkcsoap0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KERNEL32_1)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+can't install libkcutil0-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+can't install widelands-debug-build19-2.5.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by widelands-debug-build19-2.5.x86_64
 can't install python-plaso-1.5.1-1.7.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.7.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.7.noarch
@@ -148,6 +191,15 @@ can't install python-plaso-1.5.1-1.7.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.7.noarch
     (we have python2-construct-2.8.12-1.3.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.7.noarch
+can't install python3-kopano-8.6.0.0-1.2.x86_64:
+  package python3-kopano-8.6.0.0-1.2.x86_64 requires python3-mapi, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by python3-mapi-8.6.0.0-1.2.x86_64
+can't install kopano-utils-8.6.0.0-1.2.x86_64:
+  package kopano-utils-8.6.0.0-1.2.x86_64 requires libkcarchiver.so.0()(64bit), but none of the providers can be installed
+  package kopano-utils-8.6.0.0-1.2.x86_64 requires libkcarchiver.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcarchiver0-8.6.0.0-1.2.x86_64
+can't install kopano-ical-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-ical-8.6.0.0-1.2.x86_64
 can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
   nothing provides python-Django >= 1.4.2 needed by python-django-debug-toolbar-1.3.0-1.3.noarch
 can't install libgimpui-2_0-0-32bit-2.10.0-1.1.x86_64:
@@ -165,13 +217,43 @@ can't install NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64:
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.6.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.6.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
+can't install libkcserver0-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcserver0-8.6.0.0-1.2.x86_64
 can't install qore-yaml-module-0.4-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.10.x86_64
+can't install bibletime-2.11.1-1.1.x86_64:
+  package bibletime-2.11.1-1.1.x86_64 requires libsword-1.7.5.so()(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
+can't install kopano-webapp-3.4.5-1.1.noarch:
+  package kopano-webapp-3.4.5-1.1.noarch requires php-mapi, but none of the providers can be installed
+  package php-mapi-8.6.0.0-1.2.x86_64 requires kopano-client = 8.6.0.0, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-client-8.6.0.0-1.2.x86_64
+can't install kopano-server-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-server-8.6.0.0-1.2.x86_64
+can't install caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch:
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
 can't install pdf2djvu-0.9.9-1.1.x86_64:
   nothing provides libpoppler.so.73()(64bit) needed by pdf2djvu-0.9.9-1.1.x86_64
+can't install libkcicalmapi0-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcicalmapi0-8.6.0.0-1.2.x86_64
 can't install libgimp-2_0-0-32bit-2.10.0-1.1.x86_64:
   nothing provides libgexiv2.so.2 needed by libgimp-2_0-0-32bit-2.10.0-1.1.x86_64
 can't install python-gcs-oauth2-boto-plugin-1.14-1.4.noarch:
@@ -183,9 +265,14 @@ can't install peerunityd-0.2.2-3.5.x86_64:
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
   nothing provides libboost_system.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
   nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
+can't install 0ad-0.0.22-4.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by 0ad-0.0.22-4.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by 0ad-0.0.22-4.2.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.13.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.13.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
+can't install libkcarchiver0-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcarchiver0-8.6.0.0-1.2.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.4.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.4.x86_64
 can't install NetworkManager-novellvpn-gnome-0.9.0.r29-18.11.x86_64:
@@ -202,6 +289,9 @@ can't install pdf2djvu-lang-0.9.9-1.1.noarch:
 can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.13.x86_64:
   package ruby2.5-rubygem-pry_debug-doc-0.1.0-6.13.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
+can't install xiphos-lang-4.0.7-1.2.noarch:
+  package xiphos-lang-4.0.7-1.2.noarch requires xiphos = 4.0.7, but none of the providers can be installed
+  nothing provides libicui18n.so.60.2()(64bit) needed by xiphos-4.0.7-1.2.x86_64
 can't install votca-xtp-devel-1.4.1-2.2.x86_64:
   package votca-xtp-devel-1.4.1-2.2.x86_64 requires votca-xtp = 1.4.1, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
@@ -216,16 +306,30 @@ can't install ruby2.5-rubygem-json-2.1.0-1.9.x86_64:
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.9.x86_64
+can't install kopano-devel-8.6.0.0-1.2.x86_64:
+  package kopano-devel-8.6.0.0-1.2.x86_64 requires libkcarchiver0 = 8.6.0.0-1.2, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcarchiver0-8.6.0.0-1.2.x86_64
 can't install zathura-plugin-cb-0.1.6-1.1.x86_64:
   package zathura-plugin-cb-0.1.6-1.1.x86_64 requires zathura, but none of the providers can be installed
   nothing provides libsynctex.so.1()(64bit) needed by zathura-0.3.8-1.1.x86_64
 can't install openlmi-python-test-0.6.0-11.3.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.3.noarch
+can't install libsword-1_7_5-1.7.5~a1-2.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install qore-sqlite3-module-1.0.1-4.9.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.9.x86_64
+can't install kopano-contacts-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-contacts-8.6.0.0-1.2.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.2.noarch:
   package wok-plugins-gingerbase-2.3.0-2.2.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
+can't install libkcmapi0-8.6.0.0-1.2.x86_64:
+  package libkcmapi0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0()(64bit), but none of the providers can be installed
+  package libkcmapi0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  package libkcmapi0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KERNEL32_1)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
 can't install zathura-lang-0.3.8-1.1.noarch:
   package zathura-lang-0.3.8-1.1.noarch requires zathura = 0.3.8, but none of the providers can be installed
   nothing provides libsynctex.so.1()(64bit) needed by zathura-0.3.8-1.1.x86_64
@@ -243,8 +347,15 @@ can't install kohana2-2.3.4-1.5.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.5.noarch
 can't install cmpi-bindings-ruby-1.0.1-1.16.x86_64:
   nothing provides libruby2.4.so.2.4()(64bit) needed by cmpi-bindings-ruby-1.0.1-1.16.x86_64
+can't install sword-devel-1.7.5~a1-2.2.x86_64:
+  package sword-devel-1.7.5~a1-2.2.x86_64 requires libsword-1_7_5 = 1.7.5~a1, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.2-1.2.noarch
+can't install openttd-1.8.0-1.1.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by openttd-1.8.0-1.1.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by openttd-1.8.0-1.1.x86_64
 can't install qore-xml-module-1.2-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.10.x86_64
 can't install wok-2.5.0-2.3.noarch:
@@ -271,36 +382,64 @@ can't install ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64:
   package ruby2.5-stdlib-2.5.0-4.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:power_assert:1.1.1)) provided by ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64
 can't install scim-bridge-gtk2-32bit-0.4.17-1.4.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.4.x86_64
+can't install kopano-dagent-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-dagent-8.6.0.0-1.2.x86_64
 can't install gns3-server-2.0.3-1.3.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.3.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.3.noarch
 can't install python3-netCDF4-1.3.1-1.1.x86_64:
   nothing provides libnetcdf.so.11()(64bit) needed by python3-netCDF4-1.3.1-1.1.x86_64
+can't install kopano-archiver-8.6.0.0-1.2.x86_64:
+  package kopano-archiver-8.6.0.0-1.2.x86_64 requires libkcarchiver.so.0()(64bit), but none of the providers can be installed
+  package kopano-archiver-8.6.0.0-1.2.x86_64 requires libkcarchiver.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcarchiver0-8.6.0.0-1.2.x86_64
+can't install kopano-search-8.6.0.0-1.2.x86_64:
+  package kopano-search-8.6.0.0-1.2.x86_64 requires python3-kopano = 8.6.0.0, but none of the providers can be installed
+  package python3-kopano-8.6.0.0-1.2.x86_64 requires python3-mapi, but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by python3-mapi-8.6.0.0-1.2.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.1.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.1.noarch
+can't install kopano-spooler-8.6.0.0-1.2.x86_64:
+  package kopano-spooler-8.6.0.0-1.2.x86_64 requires libkcarchiver.so.0()(64bit), but none of the providers can be installed
+  package kopano-spooler-8.6.0.0-1.2.x86_64 requires libkcarchiver.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcarchiver0-8.6.0.0-1.2.x86_64
+can't install libkcfreebusy0-8.6.0.0-1.2.x86_64:
+  package libkcfreebusy0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0()(64bit), but none of the providers can be installed
+  package libkcfreebusy0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  package libkcfreebusy0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KERNEL32_1)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+can't install kopano-client-8.6.0.0-1.2.x86_64:
+  nothing provides libicuuc.so.60.2()(64bit) needed by kopano-client-8.6.0.0-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.6.x86_64
 can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
+can't install libkcsync0-8.6.0.0-1.2.x86_64:
+  package libkcsync0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0()(64bit), but none of the providers can be installed
+  package libkcsync0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KC_8.6)(64bit), but none of the providers can be installed
+  package libkcsync0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KERNEL32_1)(64bit), but none of the providers can be installed
+  nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+  nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
 can't install qore-json-module-1.4-5.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.10.x86_64
 can't install patterns-caasp-Stack-1.0-37.1.x86_64:
   package patterns-caasp-Stack-1.0-37.1.x86_64 requires caasp-container-manifests, but none of the providers can be installed
-  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
-  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r281_fdda2c3-1.1.noarch
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
 can't install perl-Wx-0.9932-2.8.x86_64:
   nothing provides libwx_baseu-suse-nostl3 >= 3.0.3 needed by perl-Wx-0.9932-2.8.x86_64
 can't install paperwork-0.3.2-1.6.noarch:
