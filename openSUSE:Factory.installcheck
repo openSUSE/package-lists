@@ -174,6 +174,9 @@ can't install libkcsoap0-8.6.0.0-1.2.x86_64:
   package libkcsoap0-8.6.0.0-1.2.x86_64 requires libkcutil.so.0(KERNEL32_1)(64bit), but none of the providers can be installed
   nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+can't install libgoa-backend-1_0-1-32bit-3.28.0-2.1.x86_64:
+  package libgoa-backend-1_0-1-32bit-3.28.0-2.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.2-2.1.x86_64
 can't install libkcutil0-8.6.0.0-1.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
@@ -202,8 +205,6 @@ can't install kopano-ical-8.6.0.0-1.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by kopano-ical-8.6.0.0-1.2.x86_64
 can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
   nothing provides python-Django >= 1.4.2 needed by python-django-debug-toolbar-1.3.0-1.3.noarch
-can't install libgimpui-2_0-0-32bit-2.10.0-1.1.x86_64:
-  nothing provides libgexiv2.so.2 needed by libgimpui-2_0-0-32bit-2.10.0-1.1.x86_64
 can't install peerunity-qt-0.2.2-3.5.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
@@ -231,22 +232,6 @@ can't install kopano-webapp-3.4.5-1.1.noarch:
   nothing provides libicuuc.so.60.2()(64bit) needed by kopano-client-8.6.0.0-1.2.x86_64
 can't install kopano-server-8.6.0.0-1.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by kopano-server-8.6.0.0-1.2.x86_64
-can't install caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch:
-  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
@@ -254,8 +239,6 @@ can't install pdf2djvu-0.9.9-1.1.x86_64:
   nothing provides libpoppler.so.73()(64bit) needed by pdf2djvu-0.9.9-1.1.x86_64
 can't install libkcicalmapi0-8.6.0.0-1.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by libkcicalmapi0-8.6.0.0-1.2.x86_64
-can't install libgimp-2_0-0-32bit-2.10.0-1.1.x86_64:
-  nothing provides libgexiv2.so.2 needed by libgimp-2_0-0-32bit-2.10.0-1.1.x86_64
 can't install python-gcs-oauth2-boto-plugin-1.14-1.4.noarch:
   nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.4.noarch
 can't install vusb-analyzer-1.1-18.3.noarch:
@@ -314,6 +297,9 @@ can't install zathura-plugin-cb-0.1.6-1.1.x86_64:
   nothing provides libsynctex.so.1()(64bit) needed by zathura-0.3.8-1.1.x86_64
 can't install openlmi-python-test-0.6.0-11.3.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.3.noarch
+can't install libmidori-core1-32bit-0.5.11-4.2.x86_64:
+  package libmidori-core1-32bit-0.5.11-4.2.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.2-2.1.x86_64
 can't install libsword-1_7_5-1.7.5~a1-2.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
@@ -347,6 +333,22 @@ can't install kohana2-2.3.4-1.5.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.5.noarch
 can't install cmpi-bindings-ruby-1.0.1-1.16.x86_64:
   nothing provides libruby2.4.so.2.4()(64bit) needed by cmpi-bindings-ruby-1.0.1-1.16.x86_64
+can't install caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch:
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
 can't install sword-devel-1.7.5~a1-2.2.x86_64:
   package sword-devel-1.7.5~a1-2.2.x86_64 requires libsword-1_7_5 = 1.7.5~a1, but none of the providers can be installed
   nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
@@ -371,10 +373,11 @@ can't install NetworkManager-novellvpn-lang-0.9.0.r29-18.11.noarch:
   nothing provides novell-ipsec-tools >= 0.7 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
   nothing provides novell-nortelplugins >= 0.1.4 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
   nothing provides turnpike >= 0.1.2 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
-can't install libnautilus-extension1-32bit-3.28.1-1.1.x86_64:
-  nothing provides libgexiv2.so.2 needed by libnautilus-extension1-32bit-3.28.1-1.1.x86_64
 can't install python-launchpadlib-1.10.2-6.9.noarch:
   nothing provides python-lazr.restfulclient >= 0.9.19 needed by python-launchpadlib-1.10.2-6.9.noarch
+can't install libedataserverui-1_2-2-32bit-3.28.2-1.2.x86_64:
+  package libedataserverui-1_2-2-32bit-3.28.2-1.2.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.2-2.1.x86_64
 can't install ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64:
   package ruby2.5-2.5.0-4.1.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
@@ -425,23 +428,25 @@ can't install qore-json-module-1.4-5.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.10.x86_64
 can't install patterns-caasp-Stack-1.0-37.1.x86_64:
   package patterns-caasp-Stack-1.0-37.1.x86_64 requires caasp-container-manifests, but none of the providers can be installed
-  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
-  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-1.1.noarch
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r283_c4e427f-2.1.noarch
 can't install perl-Wx-0.9932-2.8.x86_64:
   nothing provides libwx_baseu-suse-nostl3 >= 3.0.3 needed by perl-Wx-0.9932-2.8.x86_64
+can't install libwebkit2gtk-4_0-37-32bit-2.20.2-2.1.x86_64:
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.2-2.1.x86_64
 can't install paperwork-0.3.2-1.6.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.6.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.6.noarch
