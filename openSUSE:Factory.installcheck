@@ -158,6 +158,9 @@ can't install php-mapi-8.6.0.0-1.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by kopano-client-8.6.0.0-1.2.x86_64
 can't install ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64:
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
+can't install llvm5-LTO-devel-32bit-5.0.2-1.1.x86_64:
+  nothing provides llvm5-LTO-devel = 5.0.2 needed by llvm5-LTO-devel-32bit-5.0.2-1.1.x86_64
+    (we have llvm5-LTO-devel-5.0.1-8.2.x86_64)
 can't install python2-netCDF4-1.3.1-1.1.x86_64:
   nothing provides libnetcdf.so.11()(64bit) needed by python2-netCDF4-1.3.1-1.1.x86_64
 can't install widelands-data-build19-2.5.noarch:
@@ -180,6 +183,9 @@ can't install libgoa-backend-1_0-1-32bit-3.28.0-2.1.x86_64:
 can't install libkcutil0-8.6.0.0-1.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libkcutil0-8.6.0.0-1.2.x86_64
+can't install clang5-devel-32bit-5.0.2-1.1.x86_64:
+  nothing provides clang5-devel = 5.0.2 needed by clang5-devel-32bit-5.0.2-1.1.x86_64
+    (we have clang5-devel-5.0.1-8.2.x86_64)
 can't install widelands-debug-build19-2.5.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by widelands-debug-build19-2.5.x86_64
 can't install python-plaso-1.5.1-1.7.noarch:
@@ -258,6 +264,9 @@ can't install libkcarchiver0-8.6.0.0-1.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by libkcarchiver0-8.6.0.0-1.2.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.4.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.4.x86_64
+can't install llvm5-devel-32bit-5.0.2-1.1.x86_64:
+  nothing provides llvm5-devel = 5.0.2 needed by llvm5-devel-32bit-5.0.2-1.1.x86_64
+    (we have llvm5-devel-5.0.1-8.2.x86_64)
 can't install NetworkManager-novellvpn-gnome-0.9.0.r29-18.11.x86_64:
   package NetworkManager-novellvpn-gnome-0.9.0.r29-18.11.x86_64 requires NetworkManager-novellvpn = 0.9.0.r29-18.11, but none of the providers can be installed
   nothing provides novell-ipsec-tools >= 0.7 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
