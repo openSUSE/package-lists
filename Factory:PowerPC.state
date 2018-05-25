@@ -1,4 +1,4 @@
-<resultlist state="5bcb516ad7083d9b00c4cb72655a4928">
+<resultlist state="09d58c147197e26167185798d6cd56ee">
   <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc" code="unpublished" state="unpublished">
     <status package="bash" code="unresolvable">
       <details>nothing provides perl = 5.26.1 needed by makeinfo</details>
@@ -14,7 +14,7 @@
       <details>nothing provides perl = 5.26.1 needed by makeinfo</details>
     </status>
   </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="blocked" state="blocked">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished">
     <status package="bash" code="disabled" />
   </result>
 </resultlist>
