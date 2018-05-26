@@ -2210,7 +2210,7 @@ libgda-ui-5_0-4
 libgda-ui-5_0-plugins
 libgdata-lang
 libgdata22
-libgdbm4
+libgdbm5
 libgdbm_compat4
 libgdk_pixbuf-2_0-0
 libgdk_pixbuf-2_0-0-32bit
@@ -2923,6 +2923,7 @@ libsmartcols1
 libsmbclient0
 libsmbconf0
 libsmbconf0-32bit
+libsmbios-lang
 libsmbios_c2
 libsmbldap2
 libsmbldap2-32bit
@@ -4179,7 +4180,6 @@ python-pyliblzma
 python-qt5-utils
 python-rpm-macros
 python-sip-common
-python-smbios
 python-solv
 python-talloc
 python-talloc-32bit
@@ -4302,6 +4302,8 @@ python3-sip
 python3-six
 python3-slip
 python3-slip-dbus
+python3-smbios
+python3-smbios-utils
 python3-speechd
 python3-tk
 python3-urllib3
@@ -4478,7 +4480,6 @@ slang-slsh
 slrn
 slrn-lang
 smartmontools
-smbios-utils-python
 smp_utils
 snapper
 snapper-zypp-plugin

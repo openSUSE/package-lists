@@ -411,7 +411,7 @@ libgcr-3-1
 libgcrypt20
 libgd3
 libgdata22
-libgdbm4
+libgdbm5
 libgdbm_compat4
 libgdk_pixbuf-2_0-0
 libgio-2_0-0
@@ -886,7 +886,6 @@ pulseaudio-utils
 python
 python-base
 python-rpm-macros
-python-smbios
 python-solv
 python-xml
 python2-configobj
@@ -918,6 +917,8 @@ python3-setuptools
 python3-six
 python3-slip
 python3-slip-dbus
+python3-smbios
+python3-smbios-utils
 python3-zypp-plugin
 quota
 rcc-runtime
@@ -954,7 +955,6 @@ sg3_utils
 shadow
 shared-mime-info
 smartmontools
-smbios-utils-python
 smp_utils
 snapper
 snapper-zypp-plugin

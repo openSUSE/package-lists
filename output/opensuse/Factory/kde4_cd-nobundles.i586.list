@@ -955,7 +955,7 @@ libgcab-1_0-0
 libgcc_s1
 libgcrypt20
 libgd3
-libgdbm4
+libgdbm5
 libgdbm_compat4
 libgdk_pixbuf-2_0-0
 libgegl-0_4-0
@@ -1295,6 +1295,7 @@ libslang2
 libsmartcols1
 libsmbclient0
 libsmbconf0
+libsmbios-lang
 libsmbios_c2
 libsmbldap2
 libsmputils1-1
@@ -1711,7 +1712,6 @@ purpose-lang
 python
 python-base
 python-rpm-macros
-python-smbios
 python-solv
 python-talloc
 python-xml
@@ -1746,6 +1746,8 @@ python3-setuptools
 python3-six
 python3-slip
 python3-slip-dbus
+python3-smbios
+python3-smbios-utils
 python3-speechd
 python3-zypp-plugin
 qqc2-desktop-style
@@ -1798,7 +1800,6 @@ signon-ui
 signond
 signond-libs
 smartmontools
-smbios-utils-python
 smp_utils
 snapper
 snapper-zypp-plugin
