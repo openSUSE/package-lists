@@ -103,8 +103,6 @@ can't install libvotca_xtp4-1.4.1-2.2.x86_64:
   nothing provides libboost_system.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
   nothing provides libboost_serialization.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
   nothing provides libboost_timer.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
-can't install clisp-2.49.92-2.1.x86_64:
-  nothing provides libgdbm.so.4()(64bit) needed by clisp-2.49.92-2.1.x86_64
 can't install wok-plugins-ginger-2.4.0-3.1.noarch:
   package wok-plugins-ginger-2.4.0-3.1.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
   package wok-plugins-gingerbase-2.3.0-2.2.noarch requires wok >= 2.4.0, but none of the providers can be installed
@@ -157,10 +155,6 @@ can't install php-mapi-8.6.0.0-1.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by kopano-client-8.6.0.0-1.2.x86_64
 can't install ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64:
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
-can't install cedilla-0.7-6.4.noarch:
-  package cedilla-0.7-6.4.noarch requires clisp, but none of the providers can be installed
-  package cedilla-0.7-6.4.noarch requires /usr/bin/clisp, but none of the providers can be installed
-  nothing provides libgdbm.so.4()(64bit) needed by clisp-2.49.92-2.1.x86_64
 can't install python2-netCDF4-1.3.1-1.1.x86_64:
   nothing provides libnetcdf.so.11()(64bit) needed by python2-netCDF4-1.3.1-1.1.x86_64
 can't install widelands-data-build19-2.5.noarch:
@@ -299,9 +293,6 @@ can't install ruby2.5-rubygem-json-2.1.0-1.9.x86_64:
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.2.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.9.x86_64
-can't install clisp-doc-2.49.92-2.1.noarch:
-  package clisp-doc-2.49.92-2.1.noarch requires clisp, but none of the providers can be installed
-  nothing provides libgdbm.so.4()(64bit) needed by clisp-2.49.92-2.1.x86_64
 can't install kopano-devel-8.6.0.0-1.2.x86_64:
   package kopano-devel-8.6.0.0-1.2.x86_64 requires libkcarchiver0 = 8.6.0.0-1.2, but none of the providers can be installed
   nothing provides libicuuc.so.60.2()(64bit) needed by libkcarchiver0-8.6.0.0-1.2.x86_64
@@ -383,9 +374,6 @@ can't install NetworkManager-novellvpn-lang-0.9.0.r29-18.11.noarch:
   nothing provides novell-ipsec-tools >= 0.7 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
   nothing provides novell-nortelplugins >= 0.1.4 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
   nothing provides turnpike >= 0.1.2 needed by NetworkManager-novellvpn-0.9.0.r29-18.11.x86_64
-can't install xindy-2.5.1-1.2.x86_64:
-  package xindy-2.5.1-1.2.x86_64 requires clisp, but none of the providers can be installed
-  nothing provides libgdbm.so.4()(64bit) needed by clisp-2.49.92-2.1.x86_64
 can't install python-launchpadlib-1.10.2-6.9.noarch:
   nothing provides python-lazr.restfulclient >= 0.9.19 needed by python-launchpadlib-1.10.2-6.9.noarch
 can't install libedataserverui-1_2-2-32bit-3.28.2-1.2.x86_64:

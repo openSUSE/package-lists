@@ -1,9 +1,9 @@
-At revision 230.
+At revision 233.
 testing 13.1-x86_64-update.t
 testing 13.1-i586-update.t
 Found 2 problems:
 Problem 1:
-nothing provides kernel-pae-devel = 4.16.11-1 needed by kernel-syms-4.16.11-1.6.i586
+nothing provides kernel-pae-devel = 4.16.11-1 needed by kernel-syms-4.16.11-1.7.i586
 
 Solution 1:
   - keep obsolete kernel-syms-3.11.6-4.1.i586
@@ -16,7 +16,7 @@ Solution 1:
   - keep obsolete kernel-source-3.11.10-21.1.noarch
 
 Problem 2:
-nothing provides kernel-pae-devel = 4.16.11-1 needed by kernel-syms-4.16.11-1.6.i586
+nothing provides kernel-pae-devel = 4.16.11-1 needed by kernel-syms-4.16.11-1.7.i586
 
 Solution 1:
   - keep obsolete kernel-syms-3.11.10-21.1.i586
