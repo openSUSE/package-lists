@@ -6,6 +6,7 @@ GeoIP-data
 ImageMagick
 ImageMagick-extra
 Mesa
+Mesa-demo-x
 Mesa-dri
 Mesa-dri-devel
 Mesa-dri-nouveau
@@ -593,6 +594,7 @@ fprintd-lang
 fprintd-pam
 fprintd-pam-32bit
 frameworkintegration-plugin
+freeipmi
 freerdp
 freetype2-devel
 frei0r-plugins
@@ -1083,6 +1085,7 @@ intel-gpu-tools
 intel-vaapi-driver
 intlfonts-euro-bitmap-fonts
 intltool
+inxi
 ipa-ex-gothic-fonts
 ipa-ex-mincho-fonts
 ipa-gothic-fonts
@@ -2286,12 +2289,12 @@ libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstbadaudio-1_0-0
-libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
 libgstbasecamerabinsrc-1_0-0
 libgstcodecparsers-1_0-0
 libgstfft-1_0-0
 libgstgl-1_0-0
+libgstisoff-1_0-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
 libgstphotography-1_0-0
@@ -2307,6 +2310,7 @@ libgsturidownloader-1_0-0
 libgstvalidate-1_0-0
 libgstvideo-1_0-0
 libgstwayland-1_0-0
+libgstwebrtc-1_0-0
 libgthread-2_0-0
 libgthread-2_0-0-32bit
 libgtk-2_0-0
@@ -2371,6 +2375,8 @@ libindicator3-7
 libini_config5
 libinput-udev
 libinput10
+libipmiconsole2
+libipmidetect0
 libipmimonitoring6
 libipset11
 libiptc0
@@ -2864,7 +2870,6 @@ libsamplerate0
 libsasl2-3
 libsasl2-3-32bit
 libsbc1
-libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -2925,7 +2930,7 @@ libspnav0
 libsqlite3-0
 libsqlite3-0-32bit
 libsratom-0-0
-libsrtp1
+libsrtp2-1
 libssh2-1
 libssh4
 libsss_certmap0
@@ -3712,6 +3717,7 @@ perl-Convert-ASN1
 perl-Convert-BinHex
 perl-Convert-TNEF
 perl-Convert-UUlib
+perl-Cpanel-JSON-XS
 perl-Crypt-Blowfish
 perl-Crypt-CBC
 perl-Crypt-DES
@@ -3921,6 +3927,7 @@ perl-WeakRef
 perl-X11-Protocol
 perl-X500-DN
 perl-XML-DOM
+perl-XML-Dumper
 perl-XML-LibXML
 perl-XML-LibXSLT
 perl-XML-NamespaceSupport
@@ -4299,6 +4306,9 @@ qemu-s390
 qemu-seabios
 qemu-sgabios
 qemu-tools
+qemu-ui-curses
+qemu-ui-gtk
+qemu-ui-sdl
 qemu-vgabios
 qemu-x86
 qqc2-desktop-style
@@ -4628,6 +4638,7 @@ transmission-gtk
 transmission-gtk-lang
 tre
 tre-lang
+tree
 tumbler
 tumbler-lang
 tuned

@@ -3,6 +3,7 @@ AppStream-lang
 GeoIP
 GeoIP-data
 Mesa
+Mesa-demo-x
 Mesa-dri
 Mesa-gallium
 Mesa-libEGL1
@@ -267,8 +268,6 @@ gstreamer
 gstreamer-lang
 gstreamer-plugins-base
 gstreamer-plugins-base-lang
-gstreamer-plugins-good
-gstreamer-plugins-good-lang
 gzip
 hack-fonts
 hardlink
@@ -288,6 +287,7 @@ initviocons
 insserv-compat
 intel-vaapi-driver
 intlfonts-euro-bitmap-fonts
+inxi
 iproute2
 ipset
 iptables
@@ -859,6 +859,7 @@ libgphoto2-6
 libgphoto2-6-lang
 libgpm2
 libgps23
+libgraphene-1_0-0
 libgraphite2-3
 libgraphviz6
 libgravatar
@@ -868,13 +869,11 @@ libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstfft-1_0-0
+libgstgl-1_0-0
 libgstpbutils-1_0-0
 libgstphotography-1_0-0
 libgstreamer-1_0-0
 libgstriff-1_0-0
-libgstrtp-1_0-0
-libgstrtsp-1_0-0
-libgstsdp-1_0-0
 libgsttag-1_0-0
 libgstvideo-1_0-0
 libgthread-2_0-0
@@ -1178,10 +1177,6 @@ libusbmuxd4
 libustr-1_0-1
 libutempter0
 libuuid1
-libv4l
-libv4l1-0
-libv4l2-0
-libv4lconvert0
 libva-drm2
 libva-glx2
 libva-x11-2
@@ -1198,7 +1193,6 @@ libvulkan_intel
 libvulkan_radeon
 libwacom-data
 libwacom2
-libwavpack1
 libwayland-client0
 libwayland-cursor0
 libwayland-egl1
@@ -1385,6 +1379,7 @@ perl
 perl-Bootloader
 perl-CPAN-Changes
 perl-Config-Crontab
+perl-Cpanel-JSON-XS
 perl-Crypt-SmbHash
 perl-Devel-Symdump
 perl-Digest-MD4
@@ -1415,6 +1410,7 @@ perl-URI
 perl-WWW-RobotRules
 perl-X11-Protocol
 perl-X500-DN
+perl-XML-Dumper
 perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
@@ -1587,6 +1583,7 @@ sddm-branding-openSUSE
 sddm-theme-openSUSE
 sed
 sed-lang
+sensors
 sessreg
 setxkbmap
 sg3_utils
@@ -1655,6 +1652,7 @@ timezone
 tnftp
 traceroute
 translation-update
+tree
 tuned
 typelib-1_0-Flatpak-1_0
 typelib-1_0-NM-1_0
@@ -1681,6 +1679,7 @@ vim-data
 vim-data-common
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
+virtualbox-guest-x11
 vorbis-tools
 vorbis-tools-lang
 wallpaper-branding-openSUSE

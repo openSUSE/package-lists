@@ -1,6 +1,7 @@
 GeoIP
 GeoIP-data
 Mesa
+Mesa-demo-x
 Mesa-dri
 Mesa-gallium
 Mesa-libEGL1
@@ -203,6 +204,7 @@ initviocons
 insserv-compat
 intel-vaapi-driver
 intlfonts-euro-bitmap-fonts
+inxi
 iproute2
 ipset
 iptables
@@ -436,11 +438,14 @@ libgpg-error0
 libgpgme11
 libgphoto2-6
 libgpm2
+libgraphene-1_0-0
 libgraphite2-3
 libgraphviz6
 libgsf-1-114
+libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
+libgstgl-1_0-0
 libgstpbutils-1_0-0
 libgstreamer-1_0-0
 libgstriff-1_0-0
@@ -605,6 +610,7 @@ libseccomp2
 libsecret-1-0
 libselinux1
 libsemanage1
+libsensors4
 libsepol1
 libsgutils2-1_43-2
 libsigc-2_0-0
@@ -820,6 +826,7 @@ perl
 perl-Bootloader
 perl-CPAN-Changes
 perl-Config-Crontab
+perl-Cpanel-JSON-XS
 perl-Crypt-SmbHash
 perl-Devel-Symdump
 perl-Digest-MD4
@@ -850,6 +857,7 @@ perl-URI
 perl-WWW-RobotRules
 perl-X11-Protocol
 perl-X500-DN
+perl-XML-Dumper
 perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
@@ -961,6 +969,7 @@ ruby2.5-stdlib
 scout
 screen
 sed
+sensors
 sessreg
 setxkbmap
 sg3_utils
@@ -1014,6 +1023,7 @@ timezone
 tnftp
 traceroute
 translation-update
+tree
 tumbler
 tuned
 typelib-1_0-NM-1_0
@@ -1036,6 +1046,7 @@ vim-data
 vim-data-common
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
+virtualbox-guest-x11
 wallpaper-branding-openSUSE
 wget
 which

@@ -4,6 +4,7 @@ GeoIP
 GeoIP-data
 ImageMagick
 Mesa
+Mesa-demo-x
 Mesa-dri
 Mesa-dri-nouveau
 Mesa-gallium
@@ -477,6 +478,7 @@ initviocons
 insserv-compat
 intel-vaapi-driver
 intlfonts-euro-bitmap-fonts
+inxi
 iproute2
 ipset
 iptables
@@ -854,12 +856,12 @@ libgstallocators-1_0-0
 libgstapp-1_0-0
 libgstaudio-1_0-0
 libgstbadaudio-1_0-0
-libgstbadbase-1_0-0
 libgstbadvideo-1_0-0
 libgstbasecamerabinsrc-1_0-0
 libgstcodecparsers-1_0-0
 libgstfft-1_0-0
 libgstgl-1_0-0
+libgstisoff-1_0-0
 libgstmpegts-1_0-0
 libgstpbutils-1_0-0
 libgstphotography-1_0-0
@@ -872,6 +874,7 @@ libgsttag-1_0-0
 libgsturidownloader-1_0-0
 libgstvideo-1_0-0
 libgstwayland-1_0-0
+libgstwebrtc-1_0-0
 libgthread-2_0-0
 libgtk-2_0-0
 libgtk-3-0
@@ -1044,6 +1047,7 @@ libopenblas_pthreads0
 libopeniscsiusr0_1_0
 libopenjp2-7
 libopenjpeg1
+libopenmpt0
 libopenssl1_1
 libopus0
 liborc-0_4-0
@@ -1153,7 +1157,6 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
-libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -1195,7 +1198,7 @@ libspice-client-glib-helper
 libspice-client-gtk-3_0-5
 libsqlite3-0
 libsratom-0-0
-libsrtp1
+libsrtp2-1
 libssh4
 libsss_certmap0
 libsss_idmap0
@@ -1509,6 +1512,7 @@ perl
 perl-Bootloader
 perl-CPAN-Changes
 perl-Config-Crontab
+perl-Cpanel-JSON-XS
 perl-Crypt-SmbHash
 perl-Devel-Symdump
 perl-Digest-MD4
@@ -1539,6 +1543,7 @@ perl-URI
 perl-WWW-RobotRules
 perl-X11-Protocol
 perl-X500-DN
+perl-XML-Dumper
 perl-XML-LibXML
 perl-XML-NamespaceSupport
 perl-XML-Parser
@@ -1700,6 +1705,7 @@ seahorse-lang
 seahorse-nautilus-lang
 sed
 sed-lang
+sensors
 sessreg
 setxkbmap
 sg3_utils
@@ -1785,6 +1791,7 @@ translation-update
 transmission-common
 transmission-gtk
 transmission-gtk-lang
+tree
 tuned
 typelib-1_0-AccountsService-1_0
 typelib-1_0-Atk-1_0
