@@ -169,6 +169,7 @@ as10k1
 aspell
 aspell-cs
 aspell-da
+aspell-de
 aspell-el
 aspell-en
 aspell-es
@@ -347,6 +348,7 @@ cpio-lang
 cpio-mt
 cpp
 cpp7
+cppcheck
 cpupower
 cracklib
 cracklib-dict-full
@@ -487,6 +489,7 @@ emacs-plugin-devhelp
 emacs-x11
 enblend-enfuse
 enchant-1-backend-voikko
+enchant-2-backend-hunspell
 enchant-2-backend-voikko
 enchant-data
 enscript
@@ -1002,6 +1005,9 @@ hdjmod-kmp-default
 hdparm
 health-checker
 health-checker-plugins-caasp
+heaptrack
+heaptrack-gui
+heaptrack-lang
 hexchat
 hexchat-lang
 hfsutils
@@ -1711,6 +1717,7 @@ libQt5Nfc5
 libQt5Nfc5-imports
 libQt5OpenGL5
 libQt5Positioning5
+libQt5PositioningQuick5
 libQt5PrintSupport5
 libQt5QuickControls2-5
 libQt5QuickTemplates2-5
@@ -1820,7 +1827,7 @@ libaio-devel
 libaio1
 libakonadi4
 libakonadiprotocolinternals1
-libamd-2_4_6
+libamd2
 libanjuta-3-0
 libao-plugins4
 libao4
@@ -1903,6 +1910,7 @@ libboost_filesystem1_66_0
 libboost_headers1_66_0-devel
 libboost_iostreams1_66_0
 libboost_locale1_66_0
+libboost_program_options1_66_0
 libboost_python-py2_7-1_66_0
 libboost_regex1_66_0
 libboost_signals1_66_0
@@ -1930,7 +1938,7 @@ libcairo-gobject2
 libcairo2
 libcairo2-32bit
 libcairomm-1_0-1
-libcamd-2_4_6
+libcamd2
 libcamel-1_2-61
 libcanberra-gtk-module-common
 libcanberra-gtk0
@@ -1946,7 +1954,7 @@ libcap2
 libcap2-32bit
 libcapi20-3
 libcares2
-libccolamd-2_9_6
+libccolamd2
 libcdda_interface0
 libcdda_paranoia0
 libcddb2
@@ -1964,7 +1972,7 @@ libcheese-gtk25
 libcheese8
 libchewing3
 libchm0
-libcholmod-3_0_11
+libcholmod3
 libcilkrts5
 libclamav7
 libclammspack0
@@ -1980,7 +1988,7 @@ libcmap4
 libcmis-0_5-5
 libcogl-pango20
 libcogl20
-libcolamd-2_9_6
+libcolamd2
 libcollection4
 libcolord-gtk1
 libcolord2
@@ -2365,7 +2373,7 @@ libical3
 libicu61_1
 libicu61_1-ledata
 libid3tag0
-libidn11
+libidn12
 libidn2-0
 libidn2-0-32bit
 libidn2-lang
@@ -2429,7 +2437,7 @@ libkdegames-lang
 libkdepim
 libkdepim-lang
 libkdepimlibs4
-libkdevplatform10
+libkdevplatform52
 libkeduvocdocument-lang
 libkerfuffle18
 libkeybinder-3_0-0
@@ -2750,8 +2758,6 @@ libpurple-plugin-prpltwtr-lang
 libpurple-plugin-sametime
 libpurple-plugin-sipe
 libpurple-plugin-sipe-lang
-libpurple-plugin-skype
-libpurple-plugin-skype-lang
 libpurple-plugin-skypeweb
 libpurple-plugin-telegram
 libpurple-plugin-telegram-lang
@@ -2762,7 +2768,7 @@ libpython2_7-1_0
 libpython2_7-1_0-32bit
 libpython3_6m1_0
 libpyzy-1_0-0
-libqalculate14
+libqalculate17
 libqb0
 libqca-qt5
 libqca-qt5-plugins
@@ -2950,7 +2956,7 @@ libstorage-ng-lang
 libstorage-ng-ruby
 libstorage-ng1
 libsuil-0-0
-libsuitesparseconfig-4_5_5
+libsuitesparseconfig5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
@@ -3011,7 +3017,7 @@ libudev1
 libudev1-32bit
 libudisks2-0
 libudisks2-0_btrfs
-libumfpack-5_7_6
+libumfpack5
 libunbound2
 libunique-1_0-0
 libunistring2
@@ -3551,6 +3557,7 @@ oxygen5-sounds
 p11-kit
 p11-kit-tools
 p7zip
+p7zip-full
 pam
 pam-32bit
 pam-config
@@ -4013,7 +4020,6 @@ pidgin-plugin-mrim
 pidgin-plugin-pack
 pidgin-plugin-prpltwtr
 pidgin-plugin-sipe
-pidgin-plugin-skype
 pidgin-plugin-skypeweb
 pidgin-plugin-telegram
 pigz
@@ -4155,10 +4161,10 @@ python-sip-common
 python-solv
 python-talloc
 python-talloc-32bit
-python-urlgrabber
 python-xml
 python2-M2Crypto
 python2-PyYAML
+python2-Pygments
 python2-SecretStorage
 python2-appdirs
 python2-asn1crypto
@@ -4196,6 +4202,7 @@ python2-rpm
 python2-setuptools
 python2-six
 python2-typing
+python2-urlgrabber
 python2-urwid
 python2-yum
 python3
@@ -4244,7 +4251,6 @@ python3-lxml
 python3-matplotlib
 python3-matplotlib-cairo
 python3-matplotlib-gtk3
-python3-matplotlib-tk
 python3-ndg-httpsclient
 python3-numpy
 python3-olefile
@@ -4276,7 +4282,6 @@ python3-slip-dbus
 python3-smbios
 python3-smbios-utils
 python3-speechd
-python3-tk
 python3-urllib3
 python3-virt-bootstrap
 python3-xcffib
