@@ -45,15 +45,6 @@ can't install python-PyWebDAV-0.9.8-2.3.noarch:
 can't install wok-plugins-kimchi-2.5.0-2.1.noarch:
   package wok-plugins-kimchi-2.5.0-2.1.noarch requires wok = 2.5.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
-can't install octave-forge-optics-0.1.3-1.9.noarch:
-  package octave-forge-optics-0.1.3-1.9.noarch requires octave-cli >= 3.2.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install qore-ssh2-module-0.9.9-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.12.x86_64
 can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.11.x86_64:
@@ -62,45 +53,16 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.11.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.4-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.11.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.8.x86_64)
-can't install octave-forge-fits-1.0.7-1.9.x86_64:
-  package octave-forge-fits-1.0.7-1.9.x86_64 requires octave-cli >= 3.0.0, but none of the providers can be installed
-  package octave-forge-fits-1.0.7-1.9.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-fits-1.0.7-1.9.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-specfun-1.1.0-1.11.x86_64:
-  package octave-forge-specfun-1.1.0-1.11.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-specfun-1.1.0-1.11.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-specfun-1.1.0-1.11.x86_64 requires octave-cli >= 3.4.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
+can't install octave-forge-ncarray-1.0.3-1.9.noarch:
+  package octave-forge-ncarray-1.0.3-1.9.noarch requires octave-forge-netcdf >= 1.0.2, but none of the providers can be installed
+  nothing provides liboctave.so.4()(64bit) needed by octave-forge-netcdf-1.0.11-1.7.x86_64
+  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-netcdf-1.0.11-1.7.x86_64
 can't install qore-uuid-module-1.3-3.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.11.x86_64
 can't install psi+-plugins-videostatusplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-videostatusplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-io-2.4.8-1.3.x86_64:
-  package octave-forge-io-2.4.8-1.3.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-io-2.4.8-1.3.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-io-2.4.8-1.3.x86_64 requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install python-django-mediasync-2.2.0-10.7.noarch:
   nothing provides python-boto needed by python-django-mediasync-2.2.0-10.7.noarch
 can't install gns3-2.0.3-1.2.noarch:
@@ -116,28 +78,8 @@ can't install libqt5-qtwebengine-devel-32bit-5.11.0-1.1.x86_64:
 can't install octave-forge-signal-1.3.2-1.9.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-signal-1.3.2-1.9.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-signal-1.3.2-1.9.x86_64
-can't install octave-4.4.0-1.1.x86_64:
-  package octave-4.4.0-1.1.x86_64 requires octave-cli = 4.4.0, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install sword-1.7.5~a1-2.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by sword-1.7.5~a1-2.2.x86_64
-can't install codec2-examples-0.6-1.3.noarch:
-  package codec2-examples-0.6-1.3.noarch requires /usr/bin/octave, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install swiften-devel-4.0-2.4.x86_64:
   package swiften-devel-4.0-2.4.x86_64 requires libSwiften4 = 4.0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by libSwiften4-4.0-2.4.x86_64
@@ -213,17 +155,6 @@ can't install wok-plugins-ginger-2.4.0-3.1.noarch:
   package wok-plugins-ginger-2.4.0-3.1.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
   package wok-plugins-gingerbase-2.3.0-2.2.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
-can't install octave-forge-lssa-0.1.2-4.3.x86_64:
-  package octave-forge-lssa-0.1.2-4.3.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-lssa-0.1.2-4.3.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-lssa-0.1.2-4.3.x86_64 requires octave-cli >= 3.6.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install qore-mysql-module-2.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.1-4.10.x86_64
 can't install libkface-devel-17.08.3-1.3.x86_64:
@@ -232,27 +163,6 @@ can't install libkface-devel-17.08.3-1.3.x86_64:
   nothing provides libopencv_imgproc.so.3.3()(64bit) needed by libKF5KFace10_0_0-17.08.3-1.3.x86_64
   nothing provides libopencv_face.so.3.3()(64bit) needed by libKF5KFace10_0_0-17.08.3-1.3.x86_64
   nothing provides libopencv_objdetect.so.3.3()(64bit) needed by libKF5KFace10_0_0-17.08.3-1.3.x86_64
-can't install dateutils-octave-0.4.3-1.1.x86_64:
-  package dateutils-octave-0.4.3-1.1.x86_64 requires octave, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires octave-cli = 4.4.0, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-ncarray-1.0.3-1.8.noarch:
-  package octave-forge-ncarray-1.0.3-1.8.noarch requires octave-cli >= 3.4.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-plugins-enummessagesplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-enummessagesplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
@@ -295,17 +205,6 @@ can't install psi+-plugins-gomokugameplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-gomokugameplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-struct-1.0.14-1.4.x86_64:
-  package octave-forge-struct-1.0.14-1.4.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-struct-1.0.14-1.4.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-struct-1.0.14-1.4.x86_64 requires octave-cli >= 2.9.7, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-plugins-juickplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-juickplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
@@ -315,6 +214,10 @@ can't install libQt5WebKit5-32bit-5.212~alpha2-4.6.x86_64:
   package libQt5WebKit5-32bit-5.212~alpha2-4.6.x86_64 requires libQt5Positioning.so.5(Qt_5), but none of the providers can be installed
   nothing provides libQt5PositioningQuick.so.5 needed by libQt5Positioning5-32bit-5.11.0-1.1.x86_64
   nothing provides libQt5PositioningQuick.so.5(Qt_5.11.0_PRIVATE_API) needed by libQt5Positioning5-32bit-5.11.0-1.1.x86_64
+can't install octave-forge-vrml-1.0.13-1.9.x86_64:
+  package octave-forge-vrml-1.0.13-1.9.x86_64 requires octave-forge-linear-algebra, but none of the providers can be installed
+  nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
 can't install leechcraft-poshuku-onlinebookmarks-0.6.70+git.10870.g558588d6ec-2.2.x86_64:
   package leechcraft-poshuku-onlinebookmarks-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
@@ -323,79 +226,16 @@ can't install psi+-plugins-stopspamplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-stopspamplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-control-3.0.0-1.11.x86_64:
-  package octave-forge-control-3.0.0-1.11.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-control-3.0.0-1.11.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-control-3.0.0-1.11.x86_64 requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-mvn-1.1.0-1.8.noarch:
-  package octave-forge-mvn-1.1.0-1.8.noarch requires octave-cli >= 3.6.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-plugins-messagefilterplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-messagefilterplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-octclip-1.0.8-1.10.x86_64:
-  package octave-forge-octclip-1.0.8-1.10.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-octclip-1.0.8-1.10.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-octclip-1.0.8-1.10.x86_64 requires octave-cli >= 2.9.7, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install python2-jupyter_octave_kernel-0.28.3-1.1.noarch:
-  package python2-jupyter_octave_kernel-0.28.3-1.1.noarch requires octave, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires octave-cli = 4.4.0, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-data-smoothing-1.3.0-1.8.noarch:
-  package octave-forge-data-smoothing-1.3.0-1.8.noarch requires octave-cli >= 3.6.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install leechcraft-poshuku-fua-0.6.70+git.10870.g558588d6ec-2.2.x86_64:
   package leechcraft-poshuku-fua-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
 can't install qore-pgsql-module-2.3-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.12.x86_64
-can't install octave-forge-quaternion-2.4.0-1.11.x86_64:
-  package octave-forge-quaternion-2.4.0-1.11.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-quaternion-2.4.0-1.11.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-quaternion-2.4.0-1.11.x86_64 requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install hgview-1.8.2-3.12.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
 can't install libQt5Positioning5-32bit-5.11.0-1.1.x86_64:
@@ -428,15 +268,6 @@ can't install libqt5-qtwebengine-32bit-5.11.0-1.1.x86_64:
   package libqt5-qtwebengine-32bit-5.11.0-1.1.x86_64 requires libQt5Positioning.so.5(Qt_5), but none of the providers can be installed
   nothing provides libQt5PositioningQuick.so.5 needed by libQt5Positioning5-32bit-5.11.0-1.1.x86_64
   nothing provides libQt5PositioningQuick.so.5(Qt_5.11.0_PRIVATE_API) needed by libQt5Positioning5-32bit-5.11.0-1.1.x86_64
-can't install octave-CSXCAD-0.6.1-5.1.noarch:
-  package octave-CSXCAD-0.6.1-5.1.noarch requires octave-cli, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install widelands-data-build19-2.5.noarch:
   package widelands-data-build19-2.5.noarch requires widelands = build19, but none of the providers can be installed
   nothing provides libicuuc.so.60.2()(64bit) needed by widelands-build19-2.5.x86_64
@@ -451,28 +282,10 @@ can't install libQt5WebKitWidgets-devel-32bit-5.212~alpha2-4.6.x86_64:
 can't install hgview-qt4-1.8.2-3.12.noarch:
   package hgview-qt4-1.8.2-3.12.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.12.noarch
-can't install octave-forge-dataframe-1.2.0-1.2.noarch:
-  package octave-forge-dataframe-1.2.0-1.2.noarch requires octave-cli >= 3.4.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install leechcraft-poshuku-autosearch-0.6.70+git.10870.g558588d6ec-2.2.x86_64:
   package leechcraft-poshuku-autosearch-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
-can't install octave-forge-symbolic-2.6.0-1.2.noarch:
-  package octave-forge-symbolic-2.6.0-1.2.noarch requires octave-cli, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install libksysguard5-32bit-5.12.5-1.1.x86_64:
   package libksysguard5-32bit-5.12.5-1.1.x86_64 requires libQt5WebKit.so.5, but none of the providers can be installed
   package libksysguard5-32bit-5.12.5-1.1.x86_64 requires libQt5WebKit.so.5(Qt_5), but none of the providers can be installed
@@ -483,41 +296,6 @@ can't install libksysguard5-32bit-5.12.5-1.1.x86_64:
 can't install libgoa-backend-1_0-1-32bit-3.28.0-2.1.x86_64:
   package libgoa-backend-1_0-1-32bit-3.28.0-2.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.2-2.1.x86_64
-can't install python2-oct2py-4.0.6-1.1.noarch:
-  package python2-jupyter_octave_kernel-0.28.3-1.1.noarch requires octave, but none of the providers can be installed
-  package python2-oct2py-4.0.6-1.1.noarch requires python2-jupyter_octave_kernel >= 0.25, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires octave-cli = 4.4.0, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install python3-oct2py-4.0.6-1.1.noarch:
-  package python3-jupyter_octave_kernel-0.28.3-1.1.noarch requires octave, but none of the providers can be installed
-  package python3-oct2py-4.0.6-1.1.noarch requires python3-jupyter_octave_kernel >= 0.25, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires octave-cli = 4.4.0, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-financial-0.5.0-1.4.noarch:
-  package octave-forge-financial-0.5.0-1.4.noarch requires octave-cli >= 4.0.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install poezio-0.11-1.2.x86_64:
   package poezio-0.11-1.2.x86_64 requires python3-slixmpp, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by python3-slixmpp-1.3.0-1.4.x86_64
@@ -530,42 +308,10 @@ can't install plasma5-workspace-libs-32bit-5.12.5-1.2.x86_64:
   package libQt5WebKit5-32bit-5.212~alpha2-4.6.x86_64 requires libQt5Positioning.so.5(Qt_5), but none of the providers can be installed
   nothing provides libQt5PositioningQuick.so.5 needed by libQt5Positioning5-32bit-5.11.0-1.1.x86_64
   nothing provides libQt5PositioningQuick.so.5(Qt_5.11.0_PRIVATE_API) needed by libQt5Positioning5-32bit-5.11.0-1.1.x86_64
-can't install octave-forge-tsa-4.4.1-1.7.x86_64:
-  package octave-forge-tsa-4.4.1-1.7.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-tsa-4.4.1-1.7.x86_64 requires octave-cli >= 2.9.7, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-plugins-translateplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-translateplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-openEMS-0.0.35-3.2.x86_64:
-  package octave-openEMS-0.0.35-3.2.x86_64 requires octave-cli, but none of the providers can be installed
-  package octave-openEMS-0.0.35-3.2.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-openEMS-0.0.35-3.2.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-sockets-1.2.0-1.10.x86_64:
-  package octave-forge-sockets-1.2.0-1.10.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-sockets-1.2.0-1.10.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-sockets-1.2.0-1.10.x86_64 requires octave-cli >= 3.2.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install leechcraft-poshuku-fatape-0.6.70+git.10870.g558588d6ec-2.2.x86_64:
   package leechcraft-poshuku-fatape-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
@@ -585,31 +331,15 @@ can't install python-plaso-1.5.1-1.7.noarch:
     (we have python2-construct-2.8.12-1.3.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.7.noarch
 can't install octave-forge-optim-1.5.2-1.7.x86_64:
-  package octave-forge-optim-1.5.2-1.7.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-optim-1.5.2-1.7.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-optim-1.5.2-1.7.x86_64 requires octave-cli >= 3.6.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
+  package octave-forge-optim-1.5.2-1.7.x86_64 requires octave-forge-parallel >= 3.0.4, but none of the providers can be installed
+  nothing provides liboctave.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
+  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
 can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
   nothing provides python-Django >= 1.4.2 needed by python-django-debug-toolbar-1.3.0-1.3.noarch
 can't install leechcraft-poshuku-speeddial-0.6.70+git.10870.g558588d6ec-2.2.x86_64:
   package leechcraft-poshuku-speeddial-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
-can't install octave-forge-fuzzy-logic-toolkit-0.4.4-1.8.noarch:
-  package octave-forge-fuzzy-logic-toolkit-0.4.4-1.8.noarch requires octave-cli >= 3.2.4, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-plugins-cleanerplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-cleanerplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
@@ -625,16 +355,9 @@ can't install nomacs-3.8.1-1.1.x86_64:
   nothing provides libopencv_core.so.3.3()(64bit) needed by nomacs-3.8.1-1.1.x86_64
   nothing provides libopencv_imgproc.so.3.3()(64bit) needed by nomacs-3.8.1-1.1.x86_64
 can't install octave-forge-miscellaneous-1.2.1-1.12.x86_64:
-  package octave-forge-miscellaneous-1.2.1-1.12.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-miscellaneous-1.2.1-1.12.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-miscellaneous-1.2.1-1.12.x86_64 requires octave-cli >= 3.6.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
+  package octave-forge-miscellaneous-1.2.1-1.12.x86_64 requires octave-forge-general >= 1.3.1, but none of the providers can be installed
+  nothing provides liboctave.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
+  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
@@ -655,31 +378,10 @@ can't install psi+-plugins-imagepreviewplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-imagepreviewplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install python3-jupyter_octave_kernel-0.28.3-1.1.noarch:
-  package python3-jupyter_octave_kernel-0.28.3-1.1.noarch requires octave, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires octave-cli = 4.4.0, but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-4.4.0-1.1.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-plugins-contentdownloaderplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-contentdownloaderplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-secs3d-0.0.1-1.4.noarch:
-  package octave-forge-secs3d-0.0.1-1.4.noarch requires octave-cli >= 3.2.4, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
@@ -687,24 +389,6 @@ can't install psi+-plugins-birthdayreminderplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-birthdayreminderplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-secs1d-0.0.9-1.4.noarch:
-  package octave-forge-secs1d-0.0.9-1.4.noarch requires octave-cli >= 3.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-divand-1.1.2-1.8.noarch:
-  package octave-forge-divand-1.1.2-1.8.noarch requires octave-cli >= 3.4.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install libedataserverui-1_2-2-32bit-3.28.2-2.1.x86_64:
   package libedataserverui-1_2-2-32bit-3.28.2-2.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.2-2.1.x86_64
@@ -714,51 +398,15 @@ can't install leechcraft-poshuku-filescheme-0.6.70+git.10870.g558588d6ec-2.2.x86
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
 can't install pdf2djvu-0.9.9-1.1.x86_64:
   nothing provides libpoppler.so.73()(64bit) needed by pdf2djvu-0.9.9-1.1.x86_64
-can't install octave-forge-queueing-1.2.5-1.3.noarch:
-  package octave-forge-queueing-1.2.5-1.3.noarch requires octave-cli >= 3.8.1, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install octave-forge-mechanics-1.3.1-1.10.x86_64:
-  package octave-forge-mechanics-1.3.1-1.10.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-mechanics-1.3.1-1.10.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-mechanics-1.3.1-1.10.x86_64 requires octave-cli >= 3.4.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
+  package octave-forge-mechanics-1.3.1-1.10.x86_64 requires octave-forge-general >= 1.2.2, but none of the providers can be installed
+  nothing provides liboctave.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
+  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
 can't install leechcraft-poshuku-onlinebookmarks-delicious-0.6.70+git.10870.g558588d6ec-2.2.x86_64:
   package leechcraft-poshuku-onlinebookmarks-delicious-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku-onlinebookmarks = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   package leechcraft-poshuku-onlinebookmarks-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
-can't install octave-forge-fpl-1.3.5-1.8.noarch:
-  package octave-forge-fpl-1.3.5-1.8.noarch requires octave-cli >= 3.2.3, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-gsl-2.1.0-1.3.x86_64:
-  package octave-forge-gsl-2.1.0-1.3.x86_64 requires octave-cli, but none of the providers can be installed
-  package octave-forge-gsl-2.1.0-1.3.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-gsl-2.1.0-1.3.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install leechcraft-poshuku-onlinebookmarks-readitlater-0.6.70+git.10870.g558588d6ec-2.2.x86_64:
   package leechcraft-poshuku-onlinebookmarks-readitlater-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku-onlinebookmarks = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   package leechcraft-poshuku-onlinebookmarks-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
@@ -787,6 +435,11 @@ can't install patterns-caasp-Stack-1.0-38.1.x86_64:
   nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r298_a05a932-1.1.noarch
   nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r298_a05a932-1.1.noarch
   nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r298_a05a932-1.1.noarch
+can't install octave-forge-data-smoothing-1.3.0-1.9.noarch:
+  package octave-forge-data-smoothing-1.3.0-1.9.noarch requires octave-forge-optim >= 1.0.3, but none of the providers can be installed
+  package octave-forge-optim-1.5.2-1.7.x86_64 requires octave-forge-parallel >= 3.0.4, but none of the providers can be installed
+  nothing provides liboctave.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
+  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
 can't install psi+-plugins-jabberdiskplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-jabberdiskplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
@@ -838,41 +491,12 @@ can't install libQt5Location5-32bit-5.11.0-1.1.x86_64:
 can't install pdf2djvu-lang-0.9.9-1.1.noarch:
   package pdf2djvu-lang-0.9.9-1.1.noarch requires pdf2djvu = 0.9.9, but none of the providers can be installed
   nothing provides libpoppler.so.73()(64bit) needed by pdf2djvu-0.9.9-1.1.x86_64
-can't install octave-forge-image-acquisition-0.2.2-1.10.x86_64:
-  package octave-forge-image-acquisition-0.2.2-1.10.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-image-acquisition-0.2.2-1.10.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-image-acquisition-0.2.2-1.10.x86_64 requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-1.2.109+0-1.1.x86_64:
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.13.x86_64:
   package ruby2.5-rubygem-pry_debug-doc-0.1.0-6.13.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.13.x86_64
-can't install octave-forge-geometry-2.1.1-1.6.noarch:
-  package octave-forge-geometry-2.1.1-1.6.noarch requires octave-cli >= 4.0.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-bim-1.1.5-1.2.noarch:
-  package octave-forge-bim-1.1.5-1.2.noarch requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install xiphos-lang-4.0.7-1.2.noarch:
   package xiphos-lang-4.0.7-1.2.noarch requires xiphos = 4.0.7, but none of the providers can be installed
   nothing provides libicui18n.so.60.2()(64bit) needed by xiphos-4.0.7-1.2.x86_64
@@ -897,63 +521,15 @@ can't install ruby2.5-rubygem-json-2.1.0-1.9.x86_64:
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.9.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.2.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.9.x86_64
-can't install octave-devel-4.4.0-1.1.x86_64:
-  package octave-devel-4.4.0-1.1.x86_64 requires octave-cli = 4.4.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-secs2d-0.0.8-1.4.x86_64:
-  package octave-forge-secs2d-0.0.8-1.4.x86_64 requires octave-cli >= 2.9.17, but none of the providers can be installed
-  package octave-forge-secs2d-0.0.8-1.4.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-secs2d-0.0.8-1.4.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install leechcraft-poshuku-dcac-0.6.70+git.10870.g558588d6ec-2.2.x86_64:
   package leechcraft-poshuku-dcac-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
-can't install octave-forge-level-set-0.3.0-1.7.x86_64:
-  package octave-forge-level-set-0.3.0-1.7.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-level-set-0.3.0-1.7.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-level-set-0.3.0-1.7.x86_64 requires octave-cli >= 3.6.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install octave-forge-econometrics-1.1.1-1.10.x86_64:
-  package octave-forge-econometrics-1.1.1-1.10.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-econometrics-1.1.1-1.10.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-econometrics-1.1.1-1.10.x86_64 requires octave-cli >= 2.9.7, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-interval-3.0.0-1.4.x86_64:
-  package octave-forge-interval-3.0.0-1.4.x86_64 requires octave-cli >= 3.8.2, but none of the providers can be installed
-  package octave-forge-interval-3.0.0-1.4.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-interval-3.0.0-1.4.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
+  package octave-forge-econometrics-1.1.1-1.10.x86_64 requires octave-forge-optim, but none of the providers can be installed
+  package octave-forge-optim-1.5.2-1.7.x86_64 requires octave-forge-parallel >= 3.0.4, but none of the providers can be installed
+  nothing provides liboctave.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
+  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
 can't install caasp-container-manifests-4.0.0+git_r298_a05a932-1.1.noarch:
   nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r298_a05a932-1.1.noarch
   nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r298_a05a932-1.1.noarch
@@ -999,17 +575,6 @@ can't install libsword-1_7_5-1.7.5~a1-2.2.x86_64:
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install qore-sqlite3-module-1.0.1-4.9.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.9.x86_64
-can't install octave-forge-doctest-0.5.0-1.4.x86_64:
-  package octave-forge-doctest-0.5.0-1.4.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-doctest-0.5.0-1.4.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-doctest-0.5.0-1.4.x86_64 requires octave-cli >= 4.0.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.2.noarch:
   package wok-plugins-gingerbase-2.3.0-2.2.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
@@ -1021,17 +586,6 @@ can't install libksysguard5-devel-32bit-5.12.5-1.1.x86_64:
   package libQt5WebKit5-32bit-5.212~alpha2-4.6.x86_64 requires libQt5Positioning.so.5(Qt_5), but none of the providers can be installed
   nothing provides libQt5PositioningQuick.so.5 needed by libQt5Positioning5-32bit-5.11.0-1.1.x86_64
   nothing provides libQt5PositioningQuick.so.5(Qt_5.11.0_PRIVATE_API) needed by libQt5Positioning5-32bit-5.11.0-1.1.x86_64
-can't install octave-forge-ltfat-2.2.0-1.8.x86_64:
-  package octave-forge-ltfat-2.2.0-1.8.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-ltfat-2.2.0-1.8.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-ltfat-2.2.0-1.8.x86_64 requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.12.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.12.x86_64
@@ -1043,47 +597,8 @@ can't install psi+-plugins-attentionplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-attentionplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-strings-1.2.0-1.12.x86_64:
-  package octave-forge-strings-1.2.0-1.12.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-strings-1.2.0-1.12.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-strings-1.2.0-1.12.x86_64 requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install kohana2-2.3.4-1.5.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.5.noarch
-can't install octave-forge-stk-2.5.0-1.3.x86_64:
-  package octave-forge-stk-2.5.0-1.3.x86_64 requires octave-cli >= 3.2.2, but none of the providers can be installed
-  package octave-forge-stk-2.5.0-1.3.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-ga-0.10.0-1.8.noarch:
-  package octave-forge-ga-0.10.0-1.8.noarch requires octave-cli >= 3.4.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-splines-1.3.2-1.3.noarch:
-  package octave-forge-splines-1.3.2-1.3.noarch requires octave-cli >= 3.6.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-plugins-extendedmenuplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-extendedmenuplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
@@ -1092,36 +607,10 @@ can't install sword-devel-1.7.5~a1-2.2.x86_64:
   package sword-devel-1.7.5~a1-2.2.x86_64 requires libsword-1_7_5 = 1.7.5~a1, but none of the providers can be installed
   nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
-can't install octave-forge-msh-1.0.10-1.4.x86_64:
-  package octave-forge-msh-1.0.10-1.4.x86_64 requires octave-cli >= 3.0, but none of the providers can be installed
-  package octave-forge-msh-1.0.10-1.4.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-msh-1.0.10-1.4.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install octave-forge-tisean-0.2.3-1.14.x86_64:
-  package octave-forge-tisean-0.2.3-1.14.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-tisean-0.2.3-1.14.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-tisean-0.2.3-1.14.x86_64 requires octave-cli >= 4.0.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-cli-4.4.0-1.1.x86_64:
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
+  package octave-forge-tisean-0.2.3-1.14.x86_64 requires octave-forge-signal >= 1.3.0, but none of the providers can be installed
+  nothing provides liboctave.so.4()(64bit) needed by octave-forge-signal-1.3.2-1.9.x86_64
+  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-signal-1.3.2-1.9.x86_64
 can't install psi+-plugins-imageplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-imageplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
@@ -1138,24 +627,13 @@ can't install psi+-plugins-extendedoptionsplugin-1.2.109+0-1.1.x86_64:
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install octave-nlopt_optimize-2.4.2-4.10.x86_64:
   nothing provides octave-cli = 4.2.2 needed by octave-nlopt_optimize-2.4.2-4.10.x86_64
-    (we have octave-cli-4.4.0-1.1.x86_64)
+    (we have octave-cli-4.4.0-2.1.x86_64)
   nothing provides liboctave.so.4()(64bit) needed by octave-nlopt_optimize-2.4.2-4.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-nlopt_optimize-2.4.2-4.10.x86_64
 can't install qore-xml-module-1.2-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.10.x86_64
 can't install wok-2.5.0-2.3.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.3.noarch
-can't install octave-forge-mapping-1.2.1-1.9.x86_64:
-  package octave-forge-mapping-1.2.1-1.9.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-mapping-1.2.1-1.9.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-mapping-1.2.1-1.9.x86_64 requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install plplot-octave-5.13.0-7.1.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by plplot-octave-5.13.0-7.1.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by plplot-octave-5.13.0-7.1.x86_64
@@ -1178,17 +656,6 @@ can't install psi+-plugins-icqdieplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-icqdieplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-octproj-1.1.5-1.11.x86_64:
-  package octave-forge-octproj-1.1.5-1.11.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-octproj-1.1.5-1.11.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-octproj-1.1.5-1.11.x86_64 requires octave-cli >= 2.9.7, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64:
   package ruby2.5-2.5.0-4.2.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-power_assert-1.1.1-1.3.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
@@ -1199,44 +666,12 @@ can't install scim-bridge-gtk2-32bit-0.4.17-1.4.x86_64:
 can't install gns3-server-2.0.3-1.3.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.3.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.3.noarch
-can't install octave-forge-nurbs-1.3.10-1.10.x86_64:
-  package octave-forge-nurbs-1.3.10-1.10.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-nurbs-1.3.10-1.10.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-nurbs-1.3.10-1.10.x86_64 requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-instrument-control-0.2.3-1.5.x86_64:
-  package octave-forge-instrument-control-0.2.3-1.5.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-instrument-control-0.2.3-1.5.x86_64 requires liboctave.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-instrument-control-0.2.3-1.5.x86_64 requires octave-cli >= 3.2.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install psi+-plugins-otrplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-otrplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.1.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.1.noarch
-can't install octave-forge-nan-3.1.4-1.3.x86_64:
-  package octave-forge-nan-3.1.4-1.3.x86_64 requires liboctinterp.so.5()(64bit), but none of the providers can be installed
-  package octave-forge-nan-3.1.4-1.3.x86_64 requires octave-cli >= 3.2.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install libKF5WebKit5-32bit-5.46.0-1.1.x86_64:
   package libKF5WebKit5-32bit-5.46.0-1.1.x86_64 requires libQt5WebKit.so.5, but none of the providers can be installed
   package libKF5WebKit5-32bit-5.46.0-1.1.x86_64 requires libQt5WebKit.so.5(Qt_5), but none of the providers can be installed
@@ -1251,15 +686,6 @@ can't install psi+-plugins-gnupgplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-gnupgplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install octave-forge-vrml-1.0.13-1.8.x86_64:
-  package octave-forge-vrml-1.0.13-1.8.x86_64 requires octave-cli >= 2.9.7, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
 can't install pfstools-octave-2.0.6-1.5.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
@@ -1284,30 +710,3 @@ can't install leechcraft-poshuku-cleanweb-0.6.70+git.10870.g558588d6ec-2.2.x86_6
   package leechcraft-poshuku-cleanweb-0.6.70+git.10870.g558588d6ec-2.2.x86_64 requires leechcraft-poshuku = 0.6.70+git.10870.g558588d6ec, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
   nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by leechcraft-poshuku-0.6.70+git.10870.g558588d6ec-2.2.x86_64
-can't install octave-forge-statistics-1.3.0-1.3.noarch:
-  package octave-forge-statistics-1.3.0-1.3.noarch requires octave-cli >= 4.0.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-cgi-0.1.2-1.3.noarch:
-  package octave-forge-cgi-0.1.2-1.3.noarch requires octave-cli >= 3.8.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-can't install octave-forge-generate_html-0.3.1-1.2.noarch:
-  package octave-forge-generate_html-0.3.1-1.2.noarch requires octave-cli >= 3.2.0, but none of the providers can be installed
-  nothing provides libamd-2.4.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libccolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcholmod-3.0.11.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcolamd-2.9.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libcxsparse-3.1.9.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libsuitesparseconfig-4.5.5.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
-  nothing provides libumfpack-5.7.6.so()(64bit) needed by octave-cli-4.4.0-1.1.x86_64
