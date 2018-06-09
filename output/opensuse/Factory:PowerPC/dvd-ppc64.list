@@ -49,7 +49,6 @@ PackageKit-branding-openSUSE
 PackageKit-gstreamer-plugin
 PackageKit-gtk3-module
 PackageKit-lang
-SUSEConnect
 SuSEfirewall2
 WindowMaker
 WindowMaker-applets
@@ -306,7 +305,7 @@ cpio
 cpio-lang
 cpio-mt
 cpp
-cpp7
+cpp8
 cppcheck
 cpupower
 cracklib
@@ -578,12 +577,12 @@ gcc-c++
 gcc-fortran
 gcc-info
 gcc-objc
-gcc7
-gcc7-c++
-gcc7-fortran
-gcc7-info
-gcc7-locale
-gcc7-objc
+gcc8
+gcc8-c++
+gcc8-fortran
+gcc8-info
+gcc8-locale
+gcc8-objc
 gcin
 gcin-branding-openSUSE
 gcin-gtk2-immodule
@@ -1670,7 +1669,7 @@ libarchive13
 libargon2-1
 libaria2-0
 libart_lgpl_2-2
-libasan4
+libasan5
 libasm1
 libasound2
 libasound2-32bit
@@ -1838,6 +1837,7 @@ libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
+libdeflt1_0
 libdevmapper-event1_03
 libdevmapper1_03
 libdhash1
@@ -1913,6 +1913,7 @@ libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
+libfind2_0
 libfipscheck1
 libfl-devel
 libfl2
@@ -1983,6 +1984,7 @@ libgexiv2-2
 libgfapi0
 libgfbgraph-0_2-0
 libgfortran4
+libgfortran5
 libgfrpc0
 libgfxdr0
 libgif7
@@ -2543,6 +2545,7 @@ libreiserfscore0
 librest-0_7-0
 libretro-gtk-0_14
 librevenge-0_0-0
+librmt1_0
 librsvg-2-2
 librsync2
 librtas2
@@ -2556,6 +2559,7 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
+libschily1_0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -2627,7 +2631,7 @@ libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
 libstdc++6-32bit
-libstdc++6-devel-gcc7
+libstdc++6-devel-gcc8
 libstdc++6-gcc7-locale
 libstoken1
 libstorage-ng-lang
@@ -2683,7 +2687,7 @@ libtsan0
 libtumbler-1-0
 libturbojpeg0
 libtwolame0
-libubsan0
+libubsan1
 libudev-devel
 libudev1
 libudisks2-0
@@ -2921,8 +2925,6 @@ lsof
 lsscsi
 lsvpd
 ltrace
-lttng-modules
-lttng-modules-kmp-default
 lua53
 lua53-luasocket
 luit
@@ -3942,7 +3944,6 @@ ripit
 ristretto
 ristretto-lang
 rng-tools
-rollback-helper
 rp-pppoe
 rpcbind
 rpm
@@ -4076,7 +4077,6 @@ sssd-32bit
 sssd-krb5-common
 sssd-ldap
 star
-star-rmt
 step
 step-lang
 stix-fonts
@@ -4105,7 +4105,6 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
-sysdig-kmp-default
 sysfsutils
 sysprof
 sysprof-lang
@@ -4774,5 +4773,3 @@ zypper
 zypper-aptitude
 zypper-lifecycle-plugin
 zypper-log
-zypper-migration-plugin
-zypper-search-packages-plugin
