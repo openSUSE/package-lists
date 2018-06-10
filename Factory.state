@@ -1,10 +1,8 @@
-<resultlist state="c91445a6fe48b6010bdfb647750b3a34">
-  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="building" state="building">
+<resultlist state="f24fbfef767f8a6961db1bb1f7d57323">
+  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="scheduling" state="scheduling" dirty="true">
     <status package="bash" code="succeeded" />
   </result>
-  <result project="openSUSE:Factory" repository="standard" arch="i586" code="scheduling" state="scheduling" dirty="true">
-    <status package="bash" code="building">
-      <details>building on build34:2</details>
-    </status>
+  <result project="openSUSE:Factory" repository="standard" arch="i586" code="building" state="building" dirty="true">
+    <status package="bash" code="scheduled" />
   </result>
 </resultlist>
