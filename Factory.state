@@ -1,10 +1,8 @@
-<resultlist state="db9ddaf2aa36907ef3d93d22de5c269b">
-  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="scheduling" state="scheduling" dirty="true">
+<resultlist state="e13601b21dbf13bb7ea86f22cfa23aa7">
+  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="building" state="building" dirty="true">
     <status package="bash" code="succeeded" />
   </result>
-  <result project="openSUSE:Factory" repository="standard" arch="i586" code="building" state="building">
-    <status package="bash" code="building">
-      <details>building on lamb54:9</details>
-    </status>
+  <result project="openSUSE:Factory" repository="standard" arch="i586" code="scheduling" state="scheduling" dirty="true">
+    <status package="bash" code="failed" />
   </result>
 </resultlist>
