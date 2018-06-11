@@ -2,7 +2,7 @@
   <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="published" state="published">
     <status package="bash" code="succeeded" />
   </result>
-  <result project="openSUSE:Factory" repository="standard" arch="i586" code="building" state="building">
+  <result project="openSUSE:Factory" repository="standard" arch="i586" code="building" state="building" dirty="true">
     <status package="bash" code="failed" />
   </result>
 </resultlist>
