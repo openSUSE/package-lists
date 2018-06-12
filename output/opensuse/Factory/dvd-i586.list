@@ -342,7 +342,7 @@ cpio
 cpio-lang
 cpio-mt
 cpp
-cpp7
+cpp8
 cppcheck
 cpupower
 cracklib
@@ -567,7 +567,6 @@ filesystem
 fillup
 findutils
 findutils-lang
-fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -622,12 +621,12 @@ gcc-c++
 gcc-fortran
 gcc-info
 gcc-objc
-gcc7
-gcc7-c++
-gcc7-fortran
-gcc7-info
-gcc7-locale
-gcc7-objc
+gcc8
+gcc8-c++
+gcc8-fortran
+gcc8-info
+gcc8-locale
+gcc8-objc
 gcin
 gcin-branding-openSUSE
 gcin-gtk2
@@ -1295,15 +1294,11 @@ kdump
 keditbookmarks
 keditbookmarks-lang
 kernel-default
-kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
-kernel-pae
-kernel-pae-devel
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 kf5-kcm-fcitx
@@ -1824,7 +1819,7 @@ libarchive13
 libargon2-1
 libaria2-0
 libart_lgpl_2-2
-libasan4
+libasan5
 libasm1
 libasound2
 libaspell15
@@ -1939,7 +1934,6 @@ libcheese8
 libchewing3
 libchm0
 libcholmod3
-libcilkrts5
 libclamav7
 libclammspack0
 libclang6
@@ -1993,6 +1987,7 @@ libdc1394-22
 libdcerpc-binding0
 libdcerpc0
 libdconf1
+libdeflt1_0
 libdevmapper-event1_03
 libdevmapper1_03
 libdhash1
@@ -2032,7 +2027,6 @@ libedataserverui-1_2-2
 libedit0
 libeditorconfig0
 libefivar1
-libelf-devel
 libelf1
 libenca0
 libenchant-2-2
@@ -2075,7 +2069,7 @@ libfdt1
 libffi7
 libfftw3-3
 libfftw3_threads3
-libfipscheck1
+libfind2_0
 libfl-devel
 libfl2
 libflatpak0
@@ -2147,7 +2141,7 @@ libges-1_0-0
 libgexiv2-2
 libgfapi0
 libgfbgraph-0_2-0
-libgfortran4
+libgfortran5
 libgfrpc0
 libgfxdr0
 libgif7
@@ -2752,6 +2746,7 @@ librest-0_7-0
 libretro-gtk-0_14
 librevenge-0_0-0
 librevenge-stream-0_0-0
+librmt1_0
 librsvg-2-2
 librsync2
 libruby2_5-2_5
@@ -2764,6 +2759,7 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
+libschily1_0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -2832,7 +2828,7 @@ libstaroffice-0_0-0
 libstartup-notification-1-0
 libstdc++-devel
 libstdc++6
-libstdc++6-devel-gcc7
+libstdc++6-devel-gcc8
 libstdc++6-gcc7-locale
 libstoken1
 libstorage-ng-lang
@@ -2884,7 +2880,7 @@ libts0
 libtumbler-1-0
 libturbojpeg0
 libtwolame0
-libubsan0
+libubsan1
 libudev-devel
 libudev1
 libudisks2-0
@@ -3133,7 +3129,6 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
-lttng-modules-kmp-pae
 lua53
 lua53-luasocket
 luit
@@ -3238,7 +3233,6 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -3381,7 +3375,6 @@ openSUSE-xfce-icon-theme
 openafs
 openafs-client
 openafs-kmp-default
-openafs-kmp-pae
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3818,8 +3811,6 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4212,7 +4203,6 @@ rsync
 rt2860
 rtkit
 rtl8812au-kmp-default
-rtl8812au-kmp-pae
 ruby
 ruby-common
 ruby-devel
@@ -4333,7 +4323,6 @@ sssd
 sssd-krb5-common
 sssd-ldap
 star
-star-rmt
 step
 step-lang
 stix-fonts
