@@ -109,7 +109,6 @@ dconf
 dejavu-fonts
 deltarpm
 desktop-data-openSUSE
-desktop-file-utils
 device-mapper
 dhcp
 dhcp-client
@@ -132,7 +131,6 @@ e2fsprogs
 ebtables
 efibootmgr
 elfutils
-espeak-ng
 ethtool
 expat
 fdupes
@@ -246,7 +244,6 @@ kcalc
 kcharselect
 kcm_sddm
 kcm_tablet
-kcolorchooser
 kconf_update5
 kcoreaddons
 kdbusaddons-tools
@@ -268,7 +265,6 @@ kdoctools
 keditbookmarks
 keyutils
 kfilemetadata5
-kgamma5
 kglobalaccel5
 khelpcenter5
 khotkeys5
@@ -279,7 +275,6 @@ kio
 kio-core
 kio-extras5
 kio_audiocd
-kio_kamera
 kirigami2
 klogd
 kmag
@@ -299,7 +294,6 @@ kpeople5
 krb5
 kreversi
 kross
-kruler
 kscreen5
 kscreenlocker
 kservice
@@ -356,7 +350,6 @@ libKF5IdleTime5
 libKF5ItemModels5
 libKF5ItemViews5
 libKF5JS5
-libKF5JSApi5
 libKF5JobWidgets5
 libKF5JsEmbed5
 libKF5KCMUtils5
@@ -416,7 +409,6 @@ libQt5Sql5
 libQt5Sql5-sqlite
 libQt5Svg5
 libQt5Test5
-libQt5TextToSpeech5
 libQt5WaylandClient5
 libQt5WaylandCompositor5
 libQt5WebChannel5
@@ -527,7 +519,6 @@ libcares2
 libcdda_interface0
 libcdda_paranoia0
 libcelt0-2
-libchm0
 libcolord2
 libcom_err2
 libcpupower0
@@ -552,12 +543,10 @@ libdconf1
 libdevmapper-event1_03
 libdevmapper1_03
 libdialog14
-libdjvulibre21
 libdmtx0
 libdns169
 libdns_sd
 libdolphinvcs5
-libdotconf0
 libdouble-conversion1
 libdrm2
 libdrm_amdgpu1
@@ -574,10 +563,8 @@ libepoxy0
 libepub0
 liberation-fonts
 libesmtp6
-libespeak-ng1
 libevdev2
 libevent-2_1-8
-libexif12
 libexiv2-26
 libexpat1
 libext2fs2
@@ -598,7 +585,6 @@ libgbm1
 libgcab-1_0-0
 libgcc_s1
 libgcrypt20
-libgd3
 libgdbm5
 libgdbm_compat4
 libgdk_pixbuf-2_0-0
@@ -617,7 +603,6 @@ libgomp1
 libgpg-error0
 libgpgme11
 libgpgmepp6
-libgphoto2-6
 libgpm2
 libgps23
 libgraphene-1_0-0
@@ -676,7 +661,6 @@ libjasper4
 libjavascriptcoregtk-4_0-18
 libjbig2
 libjemalloc2
-libjpeg-turbo
 libjpeg8
 libjson-c4
 libjson-glib-1_0-0
@@ -684,7 +668,7 @@ libjte1
 libkaccounts1
 libkate1
 libkdecorations2-5
-libkdecorations2private5
+libkdecorations2private6
 libkdegames
 libkerfuffle18
 libkeyutils1
@@ -706,7 +690,6 @@ libldapcpp1
 libldb1
 liblirc_client0
 liblmdb-0_9_22
-liblockdev1
 libltdl7
 liblttng-ust0
 liblua5_3-5
@@ -717,7 +700,6 @@ liblz4-1
 liblzma5
 liblzo2-2
 libmagic1
-libmarkdown2
 libmbim
 libmbim-glib4
 libmetalink3
@@ -776,7 +758,6 @@ libpackagekitqt5-0
 libpango-1_0-0
 libparted0
 libpcap1
-libpcaudio0
 libpci3
 libpciaccess0
 libpcre1
@@ -867,8 +848,6 @@ libsoftokn3
 libsolv-tools
 libsoup-2_4-1
 libsoxr0
-libspectre1
-libspeechd2
 libspeex1
 libspeexdsp1
 libsqlite3-0
@@ -897,7 +876,6 @@ libtiff5
 libtirpc-netconfig
 libtirpc3
 libts0
-libturbojpeg0
 libtwolame0
 libudev1
 libudisks2-0
@@ -991,7 +969,6 @@ libzstd1
 libzypp
 libzypp-plugin-appdata
 lifecycle-data-openSUSE
-lockdev
 logrotate
 lsof
 lsscsi
@@ -1009,7 +986,6 @@ milou5
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
-mobipocket
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
@@ -1033,7 +1009,6 @@ ntfsprogs
 ntp
 numactl
 numlockx
-okular
 open-iscsi
 openSUSE-build-key
 openal-soft
@@ -1061,13 +1036,11 @@ patterns-base-enhanced_base
 patterns-base-minimal_base
 patterns-base-sw_management
 patterns-base-x11
-patterns-desktop-imaging
 patterns-desktop-multimedia
 patterns-fonts-fonts
 patterns-games-games
 patterns-kde-kde
 patterns-kde-kde_games
-patterns-kde-kde_imaging
 patterns-kde-kde_internet
 patterns-kde-kde_multimedia
 patterns-kde-kde_plasma
@@ -1219,7 +1192,6 @@ python3-setuptools
 python3-six
 python3-slip
 python3-slip-dbus
-python3-speechd
 python3-zypp-plugin
 qqc2-desktop-style
 rdma-core
@@ -1275,8 +1247,6 @@ solid-tools
 sonnet
 sound-theme-freedesktop
 spectacle
-speech-dispatcher
-speech-dispatcher-module-espeak
 sshfs
 strace
 sudo
@@ -1325,7 +1295,6 @@ udisks2
 unzip
 unzip-doc
 update-alternatives
-update-desktop-files
 upower
 usbmuxd
 usbutils

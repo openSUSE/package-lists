@@ -696,6 +696,7 @@ giggle
 giggle-lang
 gimp
 gimp-lang
+gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
 gio-branding-openSUSE
@@ -1811,6 +1812,7 @@ libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 liba52-0
+libaa1
 libabiword-3_0
 libabw-0_1-1
 libaccounts-glib0
@@ -1968,6 +1970,7 @@ libcheese8
 libchewing3
 libchm0
 libcholmod3
+libchromaprint1
 libclamav7
 libclammspack0
 libclang6
@@ -2057,11 +2060,14 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
+libdvbpsi10
+libdvdnav4
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
 libebl-plugins
+libebml4
 libebook-1_2-19
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2426,7 +2432,8 @@ libkcompactdisc-lang
 libkcompactdisc4
 libkde4
 libkdecorations2-5
-libkdecorations2private5
+libkdecorations2-5-lang
+libkdecorations2private6
 libkdecore4
 libkdegames
 libkdegames-lang
@@ -2520,6 +2527,7 @@ libmagic1
 libmanette-0_2-0
 libmariadb3
 libmarkdown2
+libmatroska6
 libmaxminddb0
 libmbim
 libmbim-glib4
@@ -2627,6 +2635,7 @@ libopenal1
 libopenbabel5
 libopenblas_pthreads0
 libopencc2
+libopencv3_4
 libopeniscsiusr0_1_0
 libopenjp2-7
 libopenjpeg1
@@ -2719,7 +2728,9 @@ libpq5
 libpresage1
 libprison0
 libprocps6
+libprojectM-qt5-2
 libprotobuf-c1
+libprotobuf-lite15
 libprotobuf15
 libproxy1
 libproxy1-config-gnome3
@@ -2872,6 +2883,7 @@ libsasl2-3
 libsasl2-3-32bit
 libsbc1
 libschily1_0
+libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -2905,10 +2917,6 @@ libsnapper4
 libsnappy1
 libsndfile1
 libsnmp30
-libsocialweb
-libsocialweb-branding-openSUSE
-libsocialweb-lang
-libsocialweb0
 libsodium23
 libsoftokn3
 libsolv-devel
@@ -2968,6 +2976,7 @@ libtalloc2-32bit
 libtasn1
 libtasn1-6
 libtasn1-6-32bit
+libtbb2
 libtcnative-1-0
 libtdb1
 libtdb1-32bit
@@ -3019,6 +3028,7 @@ libunique-1_0-0
 libunistring2
 libunistring2-32bit
 libunwind
+libupnp6
 libupower-glib3
 libupsclient1
 liburcu6
@@ -3040,6 +3050,7 @@ libv4l2-0
 libv4lconvert0
 libva-drm2
 libva-glx2
+libva-wayland2
 libva-x11-2
 libva2
 libvala-0_40-0
@@ -3086,6 +3097,8 @@ libvirt-libs
 libvirt-sandbox-1_0-5
 libvisio-0_1-1
 libvisual
+libvlc5
+libvlccore9
 libvmtools0
 libvncclient0
 libvncserver0
@@ -4739,7 +4752,6 @@ unrar_wrapper
 unzip
 unzip-doc
 update-alternatives
-update-desktop-files
 upower
 upower-lang
 urlscan
@@ -4779,6 +4791,11 @@ virtualbox-guest-kmp-default
 virtualbox-guest-tools
 virtualbox-guest-x11
 vlan
+vlc
+vlc-codec-gstreamer
+vlc-lang
+vlc-noX
+vlc-qt
 vlgothic-fonts
 vm-install
 vorbis-tools

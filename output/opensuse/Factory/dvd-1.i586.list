@@ -482,9 +482,7 @@ enchant-data
 enscript
 eog
 eog-lang
-eog-plugin-exif-display
 eog-plugins
-eog-plugins-data
 eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
@@ -565,6 +563,7 @@ filesystem
 fillup
 findutils
 findutils-lang
+fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -579,8 +578,6 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fontsproto-devel
-fortune
-fossil
 fprintd
 fprintd-lang
 fprintd-pam
@@ -663,25 +660,7 @@ geany-plugins
 geany-plugins-lang
 gedit
 gedit-lang
-gedit-plugin-bookmarks
-gedit-plugin-bracketcompletion
-gedit-plugin-charmap
-gedit-plugin-codecomment
-gedit-plugin-colorpicker
-gedit-plugin-colorschemer
-gedit-plugin-commander
-gedit-plugin-dashboard
 gedit-plugin-devhelp
-gedit-plugin-drawspaces
-gedit-plugin-findinfiles
-gedit-plugin-git
-gedit-plugin-joinlines
-gedit-plugin-multiedit
-gedit-plugin-smartspaces
-gedit-plugin-synctex
-gedit-plugin-terminal
-gedit-plugin-textsize
-gedit-plugin-wordcompletion
 gedit-plugins
 gedit-plugins-data
 gedit-plugins-lang
@@ -705,6 +684,7 @@ giggle
 giggle-lang
 gimp
 gimp-lang
+gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
 gio-branding-openSUSE
@@ -1291,11 +1271,15 @@ kdump
 keditbookmarks
 keditbookmarks-lang
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pae
+kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 kf5-kcm-fcitx
@@ -1445,7 +1429,6 @@ kross-lang
 kruler
 kruler-lang
 krusader
-krusader-doc
 kscd
 kscreen5
 kscreen5-lang
@@ -1501,7 +1484,6 @@ kwin5
 kwin5-lang
 kwordquiz
 kwordquiz-lang
-lame
 latex2html-pngicons
 ldns
 leafpad
@@ -1790,6 +1772,7 @@ libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 liba52-0
+libaa1
 libabiword-3_0
 libabw-0_1-1
 libaccounts-glib0
@@ -1931,6 +1914,7 @@ libcheese8
 libchewing3
 libchm0
 libcholmod3
+libchromaprint1
 libclamav7
 libclammspack0
 libclang6
@@ -2008,11 +1992,14 @@ libdrm_intel1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
+libdvbpsi10
+libdvdnav4
 libdvdread4
 libdw1
 libe-book-0_1-1
 libebackend-1_2-10
 libebl-plugins
+libebml4
 libebook-1_2-19
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -2024,6 +2011,7 @@ libedataserverui-1_2-2
 libedit0
 libeditorconfig0
 libefivar1
+libelf-devel
 libelf1
 libenca0
 libenchant-2-2
@@ -2067,6 +2055,7 @@ libffi7
 libfftw3-3
 libfftw3_threads3
 libfind2_0
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -2091,7 +2080,6 @@ libfreerdp2
 libfreetype6
 libfribidi0
 libfstrm0
-libftdi1-2
 libftgl2
 libfuse2
 libfwup1
@@ -2117,7 +2105,6 @@ libgd3
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
-libgda-5_0-sqlcipher
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
@@ -2314,7 +2301,6 @@ libiptc0
 libiptcdata
 libiptcdata-lang
 libiptcdata0
-libirrecord0
 libirs160
 libisc166
 libisccc160
@@ -2350,7 +2336,8 @@ libkcompactdisc-lang
 libkcompactdisc4
 libkde4
 libkdecorations2-5
-libkdecorations2private5
+libkdecorations2-5-lang
+libkdecorations2private6
 libkdecore4
 libkdegames
 libkdegames-lang
@@ -2409,9 +2396,7 @@ liblibkremotecontrol1
 liblightdm-gobject-1-0
 liblilv-0-0
 liblink-grammar5
-liblirc0
 liblirc_client0
-liblirc_driver0
 liblmdb-0_9_22
 liblockdev1
 libloudmouth-1-0
@@ -2436,6 +2421,7 @@ libmagic1
 libmanette-0_2-0
 libmariadb3
 libmarkdown2
+libmatroska6
 libmaxminddb0
 libmbim
 libmbim-glib4
@@ -2532,6 +2518,7 @@ libopenal1
 libopenbabel5
 libopenblas_pthreads0
 libopencc2
+libopencv3_4
 libopeniscsiusr0_1_0
 libopenjp2-7
 libopenjpeg1
@@ -2539,7 +2526,6 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
-libopenssl1_0_0
 libopenssl1_1
 libopenssl1_1-hmac
 libopts-devel
@@ -2618,7 +2604,9 @@ libpq5
 libpresage1
 libprison0
 libprocps6
+libprojectM-qt5-2
 libprotobuf-c1
+libprotobuf-lite15
 libprotobuf15
 libproxy1
 libproxy1-config-gnome3
@@ -2644,7 +2632,6 @@ libpurple-plugin-lurch
 libpurple-plugin-mrim
 libpurple-plugin-mrim-lang
 libpurple-plugin-pack
-libpurple-plugin-pack-extras
 libpurple-plugin-pack-lang
 libpurple-plugin-prpltwtr
 libpurple-plugin-prpltwtr-lang
@@ -2757,6 +2744,7 @@ libsamplerate0
 libsasl2-3
 libsbc1
 libschily1_0
+libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -2787,10 +2775,6 @@ libsnapper4
 libsnappy1
 libsndfile1
 libsnmp30
-libsocialweb
-libsocialweb-branding-openSUSE
-libsocialweb-lang
-libsocialweb0
 libsodium23
 libsoftokn3
 libsolv-devel
@@ -2845,6 +2829,7 @@ libtag_c0
 libtalloc2
 libtasn1
 libtasn1-6
+libtbb2
 libtcnative-1-0
 libtdb1
 libteamdctl0
@@ -2887,6 +2872,7 @@ libunbound2
 libunique-1_0-0
 libunistring2
 libunwind
+libupnp6
 libupower-glib3
 libupsclient1
 liburcu6
@@ -2907,6 +2893,7 @@ libv4l2-0
 libv4lconvert0
 libva-drm2
 libva-glx2
+libva-wayland2
 libva-x11-2
 libva2
 libvala-0_40-0
@@ -2948,6 +2935,8 @@ libvirt-glib-1_0-0
 libvirt-libs
 libvisio-0_1-1
 libvisual
+libvlc5
+libvlccore9
 libvmtools0
 libvncclient0
 libvncserver0
@@ -3087,7 +3076,6 @@ libz1
 libzapojit-0_0-0
 libzbar0
 libzebra1
-libzeitgeist-2_0-0
 libzhuyin-1_1-data
 libzhuyin13
 libzhuyin7
@@ -3110,7 +3098,6 @@ lightsoff
 lightsoff-lang
 links
 linux-glibc-devel
-lirc-core
 lklug-fonts
 lockdev
 log4j
@@ -3126,6 +3113,7 @@ lsscsi
 ltrace
 lttng-modules
 lttng-modules-kmp-default
+lttng-modules-kmp-pae
 lua53
 lua53-luasocket
 luit
@@ -3230,6 +3218,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -3336,13 +3325,6 @@ numlockx
 nuoveXT2-icon-theme
 nut
 nut-cgi
-nut-devel-doc-html
-nut-devel-doc-pdf
-nut-doc-asciidoc
-nut-doc-html
-nut-doc-images
-nut-doc-pdf
-nut-drivers-net
 obconf
 obs-service-download_files
 obs-service-download_url
@@ -3372,6 +3354,7 @@ openSUSE-xfce-icon-theme
 openafs
 openafs-client
 openafs-kmp-default
+openafs-kmp-pae
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3807,6 +3790,8 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -3859,7 +3844,6 @@ pidgin
 pidgin-plugin-libsteam
 pidgin-plugin-mrim
 pidgin-plugin-pack
-pidgin-plugin-pack-extras
 pidgin-plugin-prpltwtr
 pidgin-plugin-sipe
 pidgin-plugin-skypeweb
@@ -4199,6 +4183,7 @@ rsync
 rt2860
 rtkit
 rtl8812au-kmp-default
+rtl8812au-kmp-pae
 ruby
 ruby-common
 ruby-devel
@@ -4493,7 +4478,6 @@ typelib-1_0-Gdm-1_0
 typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Gepub-0_6
-typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -4512,7 +4496,6 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-GtkVnc-2_0
-typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
@@ -4545,7 +4528,6 @@ typelib-1_0-Vte-2.91
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
-typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
 typelib-1_0-libdazzle-1_0
 ucode-amd
@@ -4572,7 +4554,6 @@ unrar_wrapper
 unzip
 unzip-doc
 update-alternatives
-update-desktop-files
 upower
 upower-lang
 urlscan
@@ -4611,6 +4592,11 @@ virtualbox-guest-kmp-default
 virtualbox-guest-tools
 virtualbox-guest-x11
 vlan
+vlc
+vlc-codec-gstreamer
+vlc-lang
+vlc-noX
+vlc-qt
 vlgothic-fonts
 vm-install
 vorbis-tools
