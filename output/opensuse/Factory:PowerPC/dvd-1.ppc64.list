@@ -224,8 +224,8 @@ bluez-qt-imports
 bluez-qt-udev
 bogofilter-common
 bogofilter-db
-boost-license1_66_0
-boost_1_66-jam
+boost-license1_67_0
+boost_1_67-jam
 bovo
 bovo-lang
 branding-openSUSE
@@ -642,6 +642,7 @@ giggle
 giggle-lang
 gimp
 gimp-lang
+gimp-plugin-aa
 gimp-plugins-python
 gimp-ufraw
 gio-branding-openSUSE
@@ -1231,8 +1232,6 @@ khmeros-fonts
 khotkeys5
 khotkeys5-lang
 kidentitymanagement-lang
-kig
-kig-lang
 kimageformats
 kimagemapeditor
 kimagemapeditor-lang
@@ -1640,6 +1639,7 @@ libXxf86dga1
 libXxf86misc1
 libXxf86vm1
 liba52-0
+libaa1
 libabiword-3_0
 libaccounts-glib0
 libaccounts-qt5-1
@@ -1721,15 +1721,14 @@ libblockdev
 libblockdev2
 libbluetooth3
 libbluray2
-libboost_filesystem1_66_0
-libboost_headers1_66_0-devel
-libboost_iostreams1_66_0
-libboost_program_options1_66_0
-libboost_python-py2_7-1_66_0
-libboost_regex1_66_0
-libboost_signals1_66_0
-libboost_system1_66_0
-libboost_thread1_66_0
+libboost_filesystem1_67_0
+libboost_headers1_67_0-devel
+libboost_iostreams1_67_0
+libboost_program_options1_67_0
+libboost_regex1_67_0
+libboost_signals1_67_0
+libboost_system1_67_0
+libboost_thread1_67_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
@@ -1768,7 +1767,7 @@ libccolamd2
 libcdda_interface0
 libcdda_paranoia0
 libcddb2
-libcdio16
+libcdio18
 libcdio_cdda2
 libcdio_paranoia2
 libcelt0-2
@@ -1782,6 +1781,7 @@ libcheese8
 libchewing3
 libchm0
 libcholmod3
+libchromaprint1
 libclamav7
 libclammspack0
 libclang6
@@ -1856,10 +1856,13 @@ libdrm_amdgpu1
 libdrm_nouveau2
 libdrm_radeon1
 libdv4
+libdvbpsi10
+libdvdnav4
 libdvdread4
 libdw1
 libebackend-1_2-10
 libebl-plugins
+libebml4
 libebook-1_2-19
 libebook-contacts-1_2-2
 libecal-1_2-19
@@ -1951,7 +1954,6 @@ libgcc_s1
 libgcc_s1-32bit
 libgck-1-0
 libgck-modules-gnome-keyring
-libgconfmm-2_6-1
 libgcr-3-1
 libgcrypt20
 libgcrypt20-32bit
@@ -1996,8 +1998,6 @@ libgitg-1_0-0
 libgitg-ext-1_0-0
 libgjs0
 libglade-2_0-0
-libglademm
-libglademm-2_4-1
 libgladeui-2-6
 libgle3
 libglib-2_0-0
@@ -2101,7 +2101,6 @@ libgtk-3-0
 libgtk-vnc-2_0-0
 libgtkhex-3-0
 libgtkimageview0
-libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtksourceviewmm-3_0-0
@@ -2193,7 +2192,8 @@ libkcompactdisc-lang
 libkcompactdisc4
 libkde4
 libkdecorations2-5
-libkdecorations2private5
+libkdecorations2-5-lang
+libkdecorations2private6
 libkdecore4
 libkdegames
 libkdegames-lang
@@ -2272,6 +2272,7 @@ libmagic1
 libmanette-0_2-0
 libmariadb3
 libmarkdown2
+libmatroska6
 libmaxminddb0
 libmbim
 libmbim-glib4
@@ -2365,6 +2366,7 @@ libopenal1
 libopenbabel5
 libopenblas_openmp0
 libopencc2
+libopencv3_4
 libopeniscsiusr0_1_0
 libopenjp2-7
 libopenjpeg1
@@ -2452,6 +2454,7 @@ libpresage1
 libprison0
 libprocps6
 libprotobuf-c1
+libprotobuf-lite15
 libprotobuf15
 libproxy1
 libproxy1-config-gnome3
@@ -2557,6 +2560,7 @@ libsamplerate0
 libsasl2-3
 libsbc1
 libschily1_0
+libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -2589,10 +2593,6 @@ libsnappy1
 libsndfile1
 libsndfile1-32bit
 libsnmp30
-libsocialweb
-libsocialweb-branding-openSUSE
-libsocialweb-lang
-libsocialweb0
 libsodium23
 libsoftokn3
 libsolv-devel
@@ -2649,6 +2649,7 @@ libtag_c0
 libtalloc2
 libtasn1
 libtasn1-6
+libtbb2
 libtcnative-1-0
 libtdb1
 libteamdctl0
@@ -2694,6 +2695,7 @@ libunbound2
 libunique-1_0-0
 libunistring2
 libunwind
+libupnp6
 libupower-glib3
 libupsclient1
 liburcu6
@@ -2715,6 +2717,7 @@ libv4l2-0
 libv4lconvert0
 libva-drm2
 libva-glx2
+libva-wayland2
 libva-x11-2
 libva2
 libvala-0_40-0
@@ -2753,6 +2756,8 @@ libvirt-daemon-qemu
 libvirt-glib-1_0-0
 libvirt-libs
 libvisual
+libvlc5
+libvlccore9
 libvncclient0
 libvncserver0
 libvoikko1
@@ -3172,8 +3177,6 @@ pam_apparmor-32bit
 pam_mount
 pam_ssh
 pam_ssh-32bit
-paprefs
-paprefs-lang
 par
 parallel-printer-support
 paratype-pt-mono-fonts
@@ -3632,6 +3635,8 @@ pk-update-icon
 pk-update-icon-lang
 pkcs11-helper
 pkg-config
+plasma-browser-integration
+plasma-browser-integration-lang
 plasma-framework
 plasma-framework-components
 plasma-framework-lang
@@ -3731,7 +3736,6 @@ pulseaudio
 pulseaudio-bash-completion
 pulseaudio-lang
 pulseaudio-module-bluetooth
-pulseaudio-module-gconf
 pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
@@ -4321,7 +4325,6 @@ unrar_wrapper
 unzip
 unzip-doc
 update-alternatives
-update-desktop-files
 upower
 upower-lang
 urlscan
@@ -4357,6 +4360,11 @@ virt-manager
 virt-manager-common
 virt-viewer
 vlan
+vlc
+vlc-codec-gstreamer
+vlc-lang
+vlc-noX
+vlc-qt
 vlgothic-fonts
 vm-install
 vorbis-tools
