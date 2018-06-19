@@ -10,7 +10,7 @@ BEGIN {
     ($script_dir) = $0 =~ m-(.*)/-;
     $script_dir ||= '.';
     unshift @INC, $script_dir;
-    unshift @INC, "osc-plugin-factory/";
+    unshift @INC, "openSUSE-release-tools/";
 }
 
 require CreatePackageDescr;
@@ -28,7 +28,7 @@ my $pfile = "$tdir/packages";    # the filename is important ;(
 
 unless ($ENV{'NO_BSMIRROR'}) {
     die "bs_mirror of $project/$repo/$arch failed" if system(
-	"osc-plugin-factory/bs_mirrorfull --nodebug https://$api/public/build/$project/$repo/$arch/ $repodir"
+	"openSUSE-release-tools/bs_mirrorfull --nodebug https://$api/public/build/$project/$repo/$arch/ $repodir"
     );
 }
 

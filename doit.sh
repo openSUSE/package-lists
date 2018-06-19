@@ -54,8 +54,8 @@ if [ ! -e osc/openSUSE\:$proj/$product/.osc ]; then
         cd -
 fi
 
-if [ ! -e osc-plugin-factory/bs_mirrorfull ]; then
-        echo "please check out osc-plugin-factory here!" >&2
+if [ ! -e openSUSE-release-tools/bs_mirrorfull ]; then
+        echo "please check out openSUSE-release-tools here!" >&2
         exit 1
 fi
 
