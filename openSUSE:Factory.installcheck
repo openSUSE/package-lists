@@ -132,9 +132,6 @@ can't install leechcraft-azoth-acetamide-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install hgview-1.8.2-3.13.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
-can't install Herwig-devel-7.1.3-1.2.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by Herwig-devel-7.1.3-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by Herwig-devel-7.1.3-1.2.x86_64
 can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
@@ -242,14 +239,14 @@ can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install lttng-modules-kmp-default-2.10.5_k4.16.12_3-2.30.x86_64:
   nothing provides kernel-uname-r = 4.16.12-3-default needed by lttng-modules-kmp-default-2.10.5_k4.16.12_3-2.30.x86_64
-    (we have kernel-debug-base-4.17.1-1.4.x86_64)
-    (we have kernel-debug-4.17.1-1.4.x86_64)
-    (we have kernel-vanilla-base-4.17.1-1.4.x86_64)
-    (we have kernel-default-4.17.1-1.4.x86_64)
-    (we have kernel-vanilla-4.17.1-1.4.x86_64)
-    (we have kernel-kvmsmall-4.17.1-1.4.x86_64)
-    (we have kernel-default-base-4.17.1-1.4.x86_64)
-    (we have kernel-kvmsmall-base-4.17.1-1.4.x86_64)
+    (we have kernel-debug-4.17.1-1.5.x86_64)
+    (we have kernel-vanilla-base-4.17.1-1.5.x86_64)
+    (we have kernel-kvmsmall-4.17.1-1.5.x86_64)
+    (we have kernel-vanilla-4.17.1-1.5.x86_64)
+    (we have kernel-debug-base-4.17.1-1.5.x86_64)
+    (we have kernel-kvmsmall-base-4.17.1-1.5.x86_64)
+    (we have kernel-default-base-4.17.1-1.5.x86_64)
+    (we have kernel-default-4.17.1-1.5.x86_64)
 can't install psi+-plugins-historykeeperplugin-1.2.109+0-1.1.x86_64:
   package psi+-plugins-historykeeperplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
   nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
@@ -451,13 +448,6 @@ can't install leechcraft-laughty-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-laughty-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-laughty-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install gnucash-lang-3.0-1.2.noarch:
-  package gnucash-lang-3.0-1.2.noarch requires gnucash = 3.0, but none of the providers can be installed
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_locale.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
 can't install leechcraft-poshuku-onlinebookmarks-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-poshuku-onlinebookmarks-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-poshuku-onlinebookmarks-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -975,17 +965,6 @@ can't install leechcraft-rosenthal-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
 can't install octave-forge-database-2.4.2-1.4.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-database-2.4.2-1.4.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-database-2.4.2-1.4.x86_64
-can't install python3-gnucash-3.0-1.2.x86_64:
-  package python3-gnucash-3.0-1.2.x86_64 requires libgnc-core-utils.so()(64bit), but none of the providers can be installed
-  package python3-gnucash-3.0-1.2.x86_64 requires libgnc-module.so()(64bit), but none of the providers can be installed
-  package python3-gnucash-3.0-1.2.x86_64 requires libgncmod-app-utils.so()(64bit), but none of the providers can be installed
-  package python3-gnucash-3.0-1.2.x86_64 requires libgncmod-engine.so()(64bit), but none of the providers can be installed
-  package python3-gnucash-3.0-1.2.x86_64 requires gnucash = 3.0, but none of the providers can be installed
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_locale.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
 can't install python-pycdio-0.20-1.15.x86_64:
   nothing provides libcdio.so.16()(64bit) needed by python-pycdio-0.20-1.15.x86_64
   nothing provides libcdio.so.16(CDIO_16)(64bit) needed by python-pycdio-0.20-1.15.x86_64
@@ -1009,12 +988,6 @@ can't install leechcraft-aggregator-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
 can't install leechcraft-blasq-vangog-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-blasq-vangog-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install gnucash-3.0-1.2.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_locale.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
 can't install python3-tagpy-2013.1-10.4.x86_64:
   nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by python3-tagpy-2013.1-10.4.x86_64
 can't install xiphos-lang-4.0.7-1.2.noarch:
@@ -1154,14 +1127,14 @@ can't install OpenImageIO-1.8.10-1.2.x86_64:
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by libOpenImageIO1_8-1.8.10-1.2.x86_64
 can't install sysdig-kmp-default-0.21.0_k4.16.12_3-1.17.x86_64:
   nothing provides kernel-uname-r = 4.16.12-3-default needed by sysdig-kmp-default-0.21.0_k4.16.12_3-1.17.x86_64
-    (we have kernel-debug-base-4.17.1-1.4.x86_64)
-    (we have kernel-debug-4.17.1-1.4.x86_64)
-    (we have kernel-vanilla-base-4.17.1-1.4.x86_64)
-    (we have kernel-default-4.17.1-1.4.x86_64)
-    (we have kernel-vanilla-4.17.1-1.4.x86_64)
-    (we have kernel-kvmsmall-4.17.1-1.4.x86_64)
-    (we have kernel-default-base-4.17.1-1.4.x86_64)
-    (we have kernel-kvmsmall-base-4.17.1-1.4.x86_64)
+    (we have kernel-debug-4.17.1-1.5.x86_64)
+    (we have kernel-vanilla-base-4.17.1-1.5.x86_64)
+    (we have kernel-kvmsmall-4.17.1-1.5.x86_64)
+    (we have kernel-vanilla-4.17.1-1.5.x86_64)
+    (we have kernel-debug-base-4.17.1-1.5.x86_64)
+    (we have kernel-kvmsmall-base-4.17.1-1.5.x86_64)
+    (we have kernel-default-base-4.17.1-1.5.x86_64)
+    (we have kernel-default-4.17.1-1.5.x86_64)
 can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.8.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.8.noarch
@@ -1560,8 +1533,6 @@ can't install leechcraft-lmp-mtpsync-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-lmp-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   package leechcraft-lmp-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install Herwig-libs-7.1.3-1.2.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by Herwig-libs-7.1.3-1.2.x86_64
 can't install libtomahawk-plugins-telepathy-0.8.99~git20170808T143449-1.2.x86_64:
   package libtomahawk-plugins-telepathy-0.8.99~git20170808T143449-1.2.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.66.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20170808T143449-1.2.x86_64
@@ -1573,13 +1544,6 @@ can't install vegastrike-extra-0.5.1.r1-8.2.noarch:
   package vegastrike-extra-0.5.1.r1-8.2.noarch requires vegastrike-data >= 0.5.1.r1, but none of the providers can be installed
   package vegastrike-data-0.5.1.r1-8.7.noarch requires vegastrike >= 0.5.1.r1, but none of the providers can be installed
   nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by vegastrike-0.5.1.r1-20.4.x86_64
-can't install gnucash-devel-3.0-1.2.x86_64:
-  package gnucash-devel-3.0-1.2.x86_64 requires gnucash = 3.0, but none of the providers can be installed
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-  nothing provides libboost_locale.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-commander-4.4.4-1.1.x86_64)

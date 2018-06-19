@@ -1,8 +1,6 @@
-U    openSUSE-Tumbleweed-Kubic.product
-U    openSUSE.product
-At revision 278.
+At revision 279.
 testing 13.1-x86_64-update.t
-Found 8 problems:
+Found 6 problems:
 Problem 1:
 nothing provides libboost_system.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
 
@@ -10,42 +8,24 @@ Solution 1:
   - keep obsolete blender-2.67b-2.2.1.x86_64
 
 Problem 2:
-nothing provides libboost_system.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-
-Solution 1:
-  - keep obsolete gnucash-2.4.13-2.1.3.x86_64
-  - keep obsolete aqbanking-5.0.32beta-1.2.x86_64
-  - keep obsolete aqbanking-devel-5.0.32beta-1.2.x86_64
-  - keep obsolete aqbanking-lang-5.0.32beta-1.2.noarch
-
-Problem 3:
 nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
 
 Solution 1:
   - keep obsolete libavogadro1-1.1.0-4.1.4.x86_64
 
-Problem 4:
-nothing provides libboost_system.so.1.66.0()(64bit) needed by gnucash-3.0-1.2.x86_64
-
-Solution 1:
-  - keep obsolete gnucash-lang-2.4.13-2.1.3.noarch
-  - keep obsolete aqbanking-5.0.32beta-1.2.x86_64
-  - keep obsolete aqbanking-devel-5.0.32beta-1.2.x86_64
-  - keep obsolete aqbanking-lang-5.0.32beta-1.2.noarch
-
-Problem 5:
+Problem 3:
 nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
 
 Solution 1:
   - keep obsolete avogadro-1.1.0-4.1.4.x86_64
 
-Problem 6:
+Problem 4:
 nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
 
 Solution 1:
   - keep obsolete avogadro-devel-1.1.0-4.1.4.x86_64
 
-Problem 7:
+Problem 5:
 package paprefs-0.9.10-14.11.x86_64 requires pulseaudio-module-gconf, but none of the providers can be installed
 
 Solution 1:
@@ -643,7 +623,7 @@ Solution 2:
   - keep obsolete texlive-ps2pkm-bin-2013.20130620.svn30088-11.6.3.x86_64
   - keep obsolete kdebase4-workspace-4.11.11-115.3.x86_64
 
-Problem 8:
+Problem 6:
 package pulseaudio-module-gconf-4.0.git.270.g9490a-12.1.x86_64 requires libpulsecommon-4.0.so()(64bit), but none of the providers can be installed
 
 Solution 1:
