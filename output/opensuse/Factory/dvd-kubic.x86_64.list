@@ -1,5 +1,6 @@
 aaa_base
 apparmor-parser
+attr
 audit
 autofs
 babeltrace
@@ -22,6 +23,8 @@ ceph-common
 chrony
 cloud-init
 cloud-init-config-caasp
+cni
+cni-plugins
 conntrack-tools
 container-feeder
 containerd-kubic
@@ -29,6 +32,8 @@ coreutils
 cpio
 cracklib
 cracklib-dict-small
+cri-o
+cri-tools
 curl
 dbus-1
 dbus-1-glib
@@ -57,6 +62,7 @@ gawk
 gettext-runtime
 gio-branding-openSUSE
 git-core
+glib-networking
 glib2-tools
 glibc
 gpg2
@@ -68,6 +74,7 @@ grub2-branding-openSUSE
 grub2-i386-pc
 grub2-snapper-plugin
 grub2-x86_64-efi
+gsettings-desktop-schemas
 gzip
 hardlink
 haveged
@@ -117,6 +124,7 @@ less
 libacl1
 libaio1
 libapparmor1
+libarchive13
 libargon2-1
 libasm1
 libassuan0
@@ -221,6 +229,7 @@ libnuma1
 liboath0
 libopeniscsiusr0_1_0
 libopenssl1_1
+libostree-1-1
 libp11-kit0
 libparted0
 libpci3
@@ -253,6 +262,7 @@ libsnappy1
 libsodium23
 libsoftokn3
 libsolv-tools
+libsoup-2_4-1
 libsqlite3-0
 libssh4
 libstdc++6
@@ -296,6 +306,7 @@ net-tools
 netcfg
 nfs-client
 nfsidmap
+ntp2chrony
 oath-toolkit-xml
 open-iscsi
 open-lldp
@@ -326,6 +337,7 @@ permissions
 pigz
 pinentry
 pkg-config
+podman
 procps
 psmisc
 python-rpm-macros
@@ -387,6 +399,7 @@ rpcbind
 rpm
 rsync
 rsyslog
+runc
 salt
 salt-minion
 screen

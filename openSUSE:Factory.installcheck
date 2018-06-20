@@ -12,6 +12,8 @@ can't install python3-pep8-1.7.0-3.3.noarch:
   package is obsoleted by python3-pycodestyle-2.4.0-1.1.noarch
 can't install akonadi-runtime-1.13.0-11.4.x86_64:
   package is obsoleted by akonadi-server-18.04.2-1.1.x86_64
+can't install gcompris-17.05-5.2.x86_64:
+  package is obsoleted by gcompris-qt-0.91-2.1.x86_64
 can't install python-PyWebDAV-0.9.8-2.4.noarch:
   package is obsoleted by python2-PyWebDAV3-0.9.11-1.3.noarch
 can't install libevtlog-devel-0.2.13-2.7.x86_64:
@@ -40,8 +42,6 @@ can't install ghostscript-mini-9.23-2.1.x86_64:
   package is obsoleted by ghostscript-9.23-2.1.x86_64
 can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
-can't install gcompris-17.05-5.2.x86_64:
-  package is obsoleted by gcompris-qt-0.91-1.1.x86_64
 can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-kf5-porting-18.04.2-1.1.x86_64
 can't install leechcraft-blogique-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
@@ -85,10 +85,6 @@ can't install octave-forge-ncarray-1.0.3-1.9.noarch:
 can't install leechcraft-azoth-standardstyles-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-standardstyles-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-videostatusplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-videostatusplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install qpid-tools-0.32-1.7.x86_64:
   package qpid-tools-0.32-1.7.x86_64 requires python-qpid-qmf, but none of the providers can be installed
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidtypes.so.1()(64bit), but none of the providers can be installed
@@ -171,19 +167,6 @@ can't install leechcraft-azoth-vader-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-vader-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-azoth-vader-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install openmw-0.43.0-1.2.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libboost_program_options.so.1.66.0()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libOpenThreads.so.20()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libosg.so.131()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libosgDB.so.131()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libosgGA.so.131()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libosgText.so.131()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libosgUtil.so.131()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libosgParticle.so.131()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libosgViewer.so.131()(64bit) needed by openmw-0.43.0-1.2.x86_64
-  nothing provides libosgFX.so.131()(64bit) needed by openmw-0.43.0-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
@@ -207,14 +190,6 @@ can't install leechcraft-azoth-shx-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-shx-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-azoth-shx-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install swiften-devel-4.0-2.4.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by swiften-devel-4.0-2.4.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by swiften-devel-4.0-2.4.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by swiften-devel-4.0-2.4.x86_64
-  nothing provides libboost_program_options.so.1.66.0()(64bit) needed by swiften-devel-4.0-2.4.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by swiften-devel-4.0-2.4.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by swiften-devel-4.0-2.4.x86_64
-  nothing provides libboost_serialization.so.1.66.0()(64bit) needed by swiften-devel-4.0-2.4.x86_64
 can't install vegastrike-speech-0.5.1.r1-8.2.noarch:
   package vegastrike-speech-0.5.1.r1-8.2.noarch requires vegastrike-data >= 0.5.1.r1, but none of the providers can be installed
   package vegastrike-data-0.5.1.r1-8.7.noarch requires vegastrike >= 0.5.1.r1, but none of the providers can be installed
@@ -223,49 +198,30 @@ can't install leechcraft-pogooglue-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-pogooglue-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-pogooglue-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-skinsplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-skinsplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64:
   package libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.1.x86_64
-can't install psi+-plugins-watcherplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-watcherplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install lttng-modules-kmp-default-2.10.5_k4.16.12_3-2.30.x86_64:
   nothing provides kernel-uname-r = 4.16.12-3-default needed by lttng-modules-kmp-default-2.10.5_k4.16.12_3-2.30.x86_64
-    (we have kernel-debug-4.17.1-1.5.x86_64)
-    (we have kernel-vanilla-base-4.17.1-1.5.x86_64)
-    (we have kernel-kvmsmall-4.17.1-1.5.x86_64)
-    (we have kernel-vanilla-4.17.1-1.5.x86_64)
-    (we have kernel-debug-base-4.17.1-1.5.x86_64)
-    (we have kernel-kvmsmall-base-4.17.1-1.5.x86_64)
-    (we have kernel-default-base-4.17.1-1.5.x86_64)
-    (we have kernel-default-4.17.1-1.5.x86_64)
-can't install psi+-plugins-historykeeperplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-historykeeperplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
+    (we have kernel-kvmsmall-4.17.1-1.6.x86_64)
+    (we have kernel-default-base-4.17.1-1.6.x86_64)
+    (we have kernel-debug-base-4.17.1-1.6.x86_64)
+    (we have kernel-vanilla-base-4.17.1-1.6.x86_64)
+    (we have kernel-kvmsmall-base-4.17.1-1.6.x86_64)
+    (we have kernel-vanilla-4.17.1-1.6.x86_64)
+    (we have kernel-default-4.17.1-1.6.x86_64)
+    (we have kernel-debug-4.17.1-1.6.x86_64)
 can't install cgal-devel-4.12-2.2.x86_64:
   package cgal-devel-4.12-2.2.x86_64 requires libCGAL13 = 4.12, but none of the providers can be installed
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by libCGAL13-4.12-2.2.x86_64
 can't install python-django-registration-2.2-1.2.noarch:
   nothing provides python-Django >= 1.8 needed by python-django-registration-2.2-1.2.noarch
-can't install cinnamon-session-3.8.1-1.2.x86_64:
-  package cinnamon-session-3.8.1-1.2.x86_64 requires cinnamon, but none of the providers can be installed
-  nothing provides typelib(NMGtk) needed by cinnamon-3.8.3-1.2.x86_64
 can't install libedataserverui-1_2-2-32bit-3.28.2-2.2.x86_64:
   package libedataserverui-1_2-2-32bit-3.28.2-2.2.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.1.x86_64
-can't install psi+-plugins-clientswitcherplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-clientswitcherplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-fenet-kwin-0.6.70+git.11552.gf61ee51c3d-1.1.noarch:
   package leechcraft-fenet-kwin-0.6.70+git.11552.gf61ee51c3d-1.1.noarch requires leechcraft-fenet = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   package leechcraft-fenet-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
@@ -290,23 +246,6 @@ can't install leechcraft-historyholder-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-historyholder-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-historyholder-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install swift-im-4.0-2.4.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by swift-im-4.0-2.4.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by swift-im-4.0-2.4.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by swift-im-4.0-2.4.x86_64
-  nothing provides libboost_program_options.so.1.66.0()(64bit) needed by swift-im-4.0-2.4.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by swift-im-4.0-2.4.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by swift-im-4.0-2.4.x86_64
-  nothing provides libboost_serialization.so.1.66.0()(64bit) needed by swift-im-4.0-2.4.x86_64
-  nothing provides libidn.so.11()(64bit) needed by swift-im-4.0-2.4.x86_64
-can't install nomacs-lang-3.8.1-1.1.noarch:
-  package nomacs-lang-3.8.1-1.1.noarch requires nomacs = 3.8.1, but none of the providers can be installed
-  nothing provides libopencv_core.so.3.3()(64bit) needed by nomacs-3.8.1-1.1.x86_64
-  nothing provides libopencv_imgproc.so.3.3()(64bit) needed by nomacs-3.8.1-1.1.x86_64
-can't install psi+-plugins-conferenceloggerplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-conferenceloggerplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-lmp-ppl-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-lmp-ppl-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -333,14 +272,8 @@ can't install epour-0.7.0-1.4.x86_64:
   package epour-0.7.0-1.4.x86_64 requires python3-libtorrent-rasterbar, but none of the providers can be installed
   nothing provides libboost_system.so.1.66.0()(64bit) needed by python3-libtorrent-rasterbar-1.1.7-1.2.x86_64
   nothing provides libboost_python-py3.so.1.66.0()(64bit) needed by python3-libtorrent-rasterbar-1.1.7-1.2.x86_64
-can't install cinnamon-3.8.3-1.2.x86_64:
-  nothing provides typelib(NMGtk) needed by cinnamon-3.8.3-1.2.x86_64
 can't install qpid-cpp-client-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
-can't install psi+-plugins-enummessagesplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-enummessagesplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-eleeminator-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-eleeminator-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-eleeminator-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -367,16 +300,8 @@ can't install tomahawk-kde-0.8.99~git20170808T143449-1.2.x86_64:
   package tomahawk-kde-0.8.99~git20170808T143449-1.2.x86_64 requires tomahawk = 0.8.99~git20170808T143449, but none of the providers can be installed
   nothing provides libboost_system.so.1.66.0()(64bit) needed by tomahawk-0.8.99~git20170808T143449-1.2.x86_64
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by tomahawk-0.8.99~git20170808T143449-1.2.x86_64
-can't install psi+-plugins-pepchangenotifyplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-pepchangenotifyplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install python3-pgmagick-0.7.4-1.2.x86_64:
   nothing provides libboost_python-py3.so.1.66.0()(64bit) needed by python3-pgmagick-0.7.4-1.2.x86_64
-can't install psi+-plugins-qipxstatusesplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-qipxstatusesplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-azoth-metacontacts-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-metacontacts-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -393,17 +318,9 @@ can't install leechcraft-poshuku-filescheme-0.6.70+git.11552.gf61ee51c3d-1.1.x86
 can't install soapysdr0.6-module-mirisdr-0.2.5-3.2.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by soapysdr0.6-module-mirisdr-0.2.5-3.2.x86_64
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by soapysdr0.6-module-mirisdr-0.2.5-3.2.x86_64
-can't install psi+-plugins-gomokugameplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-gomokugameplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
-can't install psi+-plugins-juickplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-juickplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install cgal-demo-examples-devel-4.12-2.2.noarch:
   package cgal-demo-examples-devel-4.12-2.2.noarch requires cgal-devel = 4.12, but none of the providers can be installed
   package cgal-devel-4.12-2.2.x86_64 requires libCGAL13 = 4.12, but none of the providers can be installed
@@ -427,8 +344,6 @@ can't install leechcraft-seekthru-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-seekthru-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   package leechcraft-seekthru-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install libcpprest2_10-2.10.2-1.1.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by libcpprest2_10-2.10.2-1.1.x86_64
 can't install octave-forge-miscellaneous-1.2.1-1.13.x86_64:
   package octave-forge-miscellaneous-1.2.1-1.13.x86_64 requires octave-forge-general >= 1.3.1, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
@@ -436,10 +351,6 @@ can't install octave-forge-miscellaneous-1.2.1-1.13.x86_64:
 can't install leechcraft-aggregator-bodyfetch-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-aggregator-bodyfetch-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-stopspamplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-stopspamplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-monocle-seen-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-monocle-seen-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-monocle-seen-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
@@ -448,20 +359,29 @@ can't install leechcraft-laughty-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-laughty-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-laughty-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
+can't install patterns-caasp-Stack-1.0-39.1.x86_64:
+  package patterns-caasp-Stack-1.0-39.1.x86_64 requires caasp-container-manifests, but none of the providers can be installed
+  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
+  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
 can't install leechcraft-poshuku-onlinebookmarks-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-poshuku-onlinebookmarks-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-poshuku-onlinebookmarks-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install libtomahawk0_8_99-0.8.99~git20170808T143449-1.2.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20170808T143449-1.2.x86_64
-can't install psi+-plugins-messagefilterplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-messagefilterplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install cinnamon-session-lang-3.8.1-1.1.noarch:
-  package cinnamon-session-lang-3.8.1-1.1.noarch requires cinnamon-session >= 3.8.0, but none of the providers can be installed
-  package cinnamon-session-3.8.1-1.2.x86_64 requires cinnamon, but none of the providers can be installed
-  nothing provides typelib(NMGtk) needed by cinnamon-3.8.3-1.2.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
 can't install leechcraft-azoth-modnok-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
@@ -486,13 +406,13 @@ can't install leechcraft-azoth-autoidler-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install freeorion-0.4.7.1-2.2.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
+  nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-  nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_regex.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
+  nothing provides libboost_locale.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_date_time.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_serialization.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-  nothing provides libboost_locale.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_iostreams.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_log.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
 can't install widelands-build19-2.5.x86_64:
@@ -546,8 +466,8 @@ can't install blender-lang-2.79b-4.1.noarch:
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_regex.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_locale.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
+  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_atomic.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_chrono.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
 can't install libleechcraft-util-xsd-qt5-0_6_75-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
@@ -624,10 +544,6 @@ can't install deluge-lang-1.3.15-1.6.noarch:
   package deluge-1.3.15-1.6.noarch requires python-libtorrent-rasterbar >= 0.14, but none of the providers can be installed
   nothing provides libboost_system.so.1.66.0()(64bit) needed by python2-libtorrent-rasterbar-1.1.7-1.2.x86_64
   nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by python2-libtorrent-rasterbar-1.1.7-1.2.x86_64
-can't install psi+-plugins-translateplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-translateplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-azoth-lastseen-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-lastseen-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -663,19 +579,12 @@ can't install libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64:
   nothing provides libosgSim.so.131()(64bit) needed by libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64
 can't install qpid-cpp-client-devel-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-devel-1.37.0-1.3.x86_64
-can't install psi+-plugins-cleanerplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-cleanerplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-azoth-embedmedia-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-embedmedia-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft-azoth = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_locale.so.1.66.0()(64bit) needed by leechcraft-azoth-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install leechcraft-blasq-deathnote-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-blasq-deathnote-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install cinnamon-metatheme-numix-2.6-1.5.noarch:
-  package cinnamon-metatheme-numix-2.6-1.5.noarch requires cinnamon >= 2.6, but none of the providers can be installed
-  nothing provides typelib(NMGtk) needed by cinnamon-3.8.3-1.2.x86_64
 can't install FlightGear-2017.3.1-3.4.x86_64:
   nothing provides libOpenThreads.so.20()(64bit) needed by FlightGear-2017.3.1-3.4.x86_64
   nothing provides libosg.so.131()(64bit) needed by FlightGear-2017.3.1-3.4.x86_64
@@ -706,13 +615,13 @@ can't install epour-lang-0.7.0-1.4.noarch:
 can't install freeorion-data-0.4.7.1-2.2.noarch:
   package freeorion-data-0.4.7.1-2.2.noarch requires freeorion = 0.4.7.1, but none of the providers can be installed
   nothing provides libboost_system.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
+  nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-  nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_regex.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
+  nothing provides libboost_locale.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_date_time.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_serialization.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-  nothing provides libboost_locale.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_iostreams.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_log.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
 can't install qpid-cpp-server-store-1.37.0-1.3.x86_64:
@@ -721,9 +630,6 @@ can't install qpid-cpp-server-store-1.37.0-1.3.x86_64:
   package qpid-cpp-server-1.37.0-1.3.x86_64 requires libqpidcommon.so.2()(64bit), but none of the providers can be installed
   package qpid-cpp-server-1.37.0-1.3.x86_64 requires qpid-cpp-client = 1.37.0-1.3, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
-can't install nomacs-3.8.1-1.1.x86_64:
-  nothing provides libopencv_core.so.3.3()(64bit) needed by nomacs-3.8.1-1.1.x86_64
-  nothing provides libopencv_imgproc.so.3.3()(64bit) needed by nomacs-3.8.1-1.1.x86_64
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -773,10 +679,6 @@ can't install leechcraft-lackman-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
 can't install libmidori-core1-32bit-0.5.11-4.3.x86_64:
   package libmidori-core1-32bit-0.5.11-4.3.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.1.x86_64
-can't install psi+-plugins-imagepreviewplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-imagepreviewplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-azoth-xoox-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-xoox-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-azoth-xoox-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -800,20 +702,12 @@ can't install leechcraft-lmp-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-lmp-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   package leechcraft-lmp-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-contentdownloaderplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-contentdownloaderplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-monocle-postrus-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-monocle-postrus-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
-can't install psi+-plugins-birthdayreminderplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-birthdayreminderplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-poshuku-onlinebookmarks-delicious-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-poshuku-onlinebookmarks-delicious-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -866,27 +760,6 @@ can't install leechcraft-azoth-murm-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-murm-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-azoth-murm-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-storagenotesplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-storagenotesplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install patterns-caasp-Stack-1.0-38.1.x86_64:
-  package patterns-caasp-Stack-1.0-38.1.x86_64 requires caasp-container-manifests, but none of the providers can be installed
-  nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-flannel-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-haproxy-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-kubedns-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-mariadb-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-openldap-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-pause-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-pv-recycler-node-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-salt-api-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-salt-master-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-salt-minion-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-  nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
 can't install qore-pgsql-module-2.3-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.13.x86_64
 can't install octave-forge-data-smoothing-1.3.0-1.9.noarch:
@@ -894,10 +767,6 @@ can't install octave-forge-data-smoothing-1.3.0-1.9.noarch:
   package octave-forge-optim-1.5.2-1.8.x86_64 requires octave-forge-parallel >= 3.0.4, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
-can't install psi+-plugins-jabberdiskplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-jabberdiskplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-intermutko-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-intermutko-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-intermutko-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -938,10 +807,6 @@ can't install leechcraft-azoth-chathistory-0.6.70+git.11552.gf61ee51c3d-1.1.x86_
   package leechcraft-azoth-chathistory-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-azoth-chathistory-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-screenshotplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-screenshotplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-monocle-dik-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-monocle-dik-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-monocle-dik-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
@@ -951,9 +816,6 @@ can't install octave-forge-image-2.6.1-1.3.x86_64:
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-image-2.6.1-1.3.x86_64
 can't install python-django-mediasync-2.2.0-10.8.noarch:
   nothing provides python-boto needed by python-django-mediasync-2.2.0-10.8.noarch
-can't install cpprest-devel-2.10.2-1.1.x86_64:
-  package cpprest-devel-2.10.2-1.1.x86_64 requires libcpprest2_10 = 2.10.2, but none of the providers can be installed
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by libcpprest2_10-2.10.2-1.1.x86_64
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
@@ -977,9 +839,6 @@ can't install leechcraft-lmp-dumbsync-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-lmp-dumbsync-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-lmp-dumbsync-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-1.2.109+0-1.1.x86_64:
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-aggregator-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-aggregator-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-aggregator-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -1008,16 +867,9 @@ can't install leechcraft-netstoremanager-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
   package leechcraft-netstoremanager-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   package leechcraft-netstoremanager-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install cinnamon-lang-3.8.1-1.1.noarch:
-  package cinnamon-lang-3.8.1-1.1.noarch requires cinnamon >= 3.8.0, but none of the providers can be installed
-  nothing provides typelib(NMGtk) needed by cinnamon-3.8.3-1.2.x86_64
 can't install octave-forge-parallel-3.1.1-1.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-parallel-3.1.1-1.3.x86_64
-can't install psi+-plugins-httpuploadplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-httpuploadplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-azoth-keeso-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-keeso-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft-azoth = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_locale.so.1.66.0()(64bit) needed by leechcraft-azoth-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -1083,10 +935,6 @@ can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
 can't install octave-forge-general-2.0.0-1.9.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
-can't install psi+-plugins-chessplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-chessplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-kinotify-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-kinotify-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-kinotify-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -1109,10 +957,6 @@ can't install leechcraft-azoth-autopaste-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
-can't install poedit-lang-2.0.7-1.3.noarch:
-  package poedit-lang-2.0.7-1.3.noarch requires poedit = 2.0.7, but none of the providers can be installed
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by poedit-2.0.7-1.3.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by poedit-2.0.7-1.3.x86_64
 can't install leechcraft-azoth-velvetbird-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-velvetbird-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft-azoth = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_locale.so.1.66.0()(64bit) needed by leechcraft-azoth-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -1127,14 +971,14 @@ can't install OpenImageIO-1.8.10-1.2.x86_64:
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by libOpenImageIO1_8-1.8.10-1.2.x86_64
 can't install sysdig-kmp-default-0.21.0_k4.16.12_3-1.17.x86_64:
   nothing provides kernel-uname-r = 4.16.12-3-default needed by sysdig-kmp-default-0.21.0_k4.16.12_3-1.17.x86_64
-    (we have kernel-debug-4.17.1-1.5.x86_64)
-    (we have kernel-vanilla-base-4.17.1-1.5.x86_64)
-    (we have kernel-kvmsmall-4.17.1-1.5.x86_64)
-    (we have kernel-vanilla-4.17.1-1.5.x86_64)
-    (we have kernel-debug-base-4.17.1-1.5.x86_64)
-    (we have kernel-kvmsmall-base-4.17.1-1.5.x86_64)
-    (we have kernel-default-base-4.17.1-1.5.x86_64)
-    (we have kernel-default-4.17.1-1.5.x86_64)
+    (we have kernel-kvmsmall-4.17.1-1.6.x86_64)
+    (we have kernel-default-base-4.17.1-1.6.x86_64)
+    (we have kernel-debug-base-4.17.1-1.6.x86_64)
+    (we have kernel-vanilla-base-4.17.1-1.6.x86_64)
+    (we have kernel-kvmsmall-base-4.17.1-1.6.x86_64)
+    (we have kernel-vanilla-4.17.1-1.6.x86_64)
+    (we have kernel-default-4.17.1-1.6.x86_64)
+    (we have kernel-debug-4.17.1-1.6.x86_64)
 can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.8.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.8.noarch
@@ -1147,10 +991,6 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install psi+-plugins-attentionplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-attentionplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-azoth-otroid-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-otroid-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-azoth-otroid-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -1190,10 +1030,6 @@ can't install leechcraft-fenet-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-fenet-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   package leechcraft-fenet-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-extendedmenuplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-extendedmenuplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
 can't install blender-2.79b-4.1.x86_64:
@@ -1201,28 +1037,17 @@ can't install blender-2.79b-4.1.x86_64:
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_regex.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_locale.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
+  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_atomic.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
   nothing provides libboost_chrono.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
 can't install sword-devel-1.7.5~a1-2.2.x86_64:
   package sword-devel-1.7.5~a1-2.2.x86_64 requires libsword-1_7_5 = 1.7.5~a1, but none of the providers can be installed
   nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
-can't install poedit-2.0.7-1.3.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by poedit-2.0.7-1.3.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by poedit-2.0.7-1.3.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
-can't install psi+-plugins-imageplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-imageplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-can't install psi+-plugins-devel-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-devel-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install patterns-leechcraft-leechcraft-20170319-1.4.x86_64:
   package patterns-leechcraft-leechcraft-20170319-1.4.x86_64 requires leechcraft-cstp, but none of the providers can be installed
   package leechcraft-cstp-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
@@ -1243,10 +1068,6 @@ can't install switchboard-plug-networking-0.1.1-1.2.x86_64:
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
 can't install btfs-2.18-1.4.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by btfs-2.18-1.4.x86_64
-can't install psi+-plugins-extendedoptionsplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-extendedoptionsplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install octave-forge-tisean-0.2.3-1.15.x86_64:
   package octave-forge-tisean-0.2.3-1.15.x86_64 requires octave-forge-signal >= 1.3.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-signal-1.3.2-1.9.x86_64
@@ -1350,10 +1171,6 @@ can't install caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch:
 can't install paprefs-lang-0.9.10-14.11.noarch:
   package paprefs-lang-0.9.10-14.11.noarch requires paprefs = 0.9.10, but none of the providers can be installed
   nothing provides pulseaudio-module-gconf needed by paprefs-0.9.10-14.11.x86_64
-can't install psi+-plugins-icqdieplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-icqdieplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-azoth-rosenthal-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-rosenthal-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -1361,8 +1178,8 @@ can't install openlmi-python-test-0.6.0-11.4.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.4.noarch
 can't install python-espressopp-1.9.5-2.4.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
   nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
+  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
   nothing provides libboost_serialization.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
   nothing provides libboost_mpi.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
 can't install leechcraft-monocle-pdf-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
@@ -1384,10 +1201,6 @@ can't install leechcraft-networkmonitor-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
 can't install leechcraft-lmp-potorchu-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-lmp-potorchu-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-lang-1.2.107+3-1.2.noarch:
-  package psi+-lang-1.2.107+3-1.2.noarch requires psi+, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
 can't install vegastrike-data-0.5.1.r1-8.7.noarch:
@@ -1422,29 +1235,11 @@ can't install leechcraft-poshuku-speeddial-0.6.70+git.11552.gf61ee51c3d-1.1.x86_
   package leechcraft-poshuku-speeddial-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-poshuku-speeddial-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-otrplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-otrplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install lrslib-6.2-1.2.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by lrslib-6.2-1.2.x86_64
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by lrslib-6.2-1.2.x86_64
-can't install libSwiften4-4.0-2.4.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by libSwiften4-4.0-2.4.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by libSwiften4-4.0-2.4.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by libSwiften4-4.0-2.4.x86_64
-  nothing provides libboost_program_options.so.1.66.0()(64bit) needed by libSwiften4-4.0-2.4.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by libSwiften4-4.0-2.4.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by libSwiften4-4.0-2.4.x86_64
-  nothing provides libboost_serialization.so.1.66.0()(64bit) needed by libSwiften4-4.0-2.4.x86_64
-  nothing provides libidn.so.11()(64bit) needed by libSwiften4-4.0-2.4.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by libSwiften4-4.0-2.4.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
-can't install psi+-plugins-gnupgplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-gnupgplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install perl-Wx-0.9932-2.10.x86_64:
   nothing provides libwx_baseu-suse-nostl3 >= 3.0.3 needed by perl-Wx-0.9932-2.10.x86_64
 can't install libleechcraft-util-network-qt5-0_6_75_1-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
@@ -1516,10 +1311,6 @@ can't install leechcraft-poshuku-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-poshuku-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   package leechcraft-poshuku-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install psi+-plugins-autoreplyplugin-1.2.109+0-1.1.x86_64:
-  package psi+-plugins-autoreplyplugin-1.2.109+0-1.1.x86_64 requires psi+ = 1.2.109+0, but none of the providers can be installed
-  nothing provides libidn.so.11()(64bit) needed by psi+-1.2.109+0-1.1.x86_64
-  nothing provides libidn.so.11(LIBIDN_1.0)(64bit) needed by psi+-1.2.109+0-1.1.x86_64
 can't install leechcraft-poshuku-fua-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-poshuku-fua-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-poshuku-fua-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -1549,9 +1340,6 @@ can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.4-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
-can't install cinnamon-theme-adapta-3.93.1.18-1.1.noarch:
-  package cinnamon-theme-adapta-3.93.1.18-1.1.noarch requires cinnamon, but none of the providers can be installed
-  nothing provides typelib(NMGtk) needed by cinnamon-3.8.3-1.2.x86_64
 can't install leechcraft-poshuku-webkitview-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-poshuku-webkitview-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
