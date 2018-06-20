@@ -1954,6 +1954,7 @@ libgcc_s1
 libgcc_s1-32bit
 libgck-1-0
 libgck-modules-gnome-keyring
+libgconfmm-2_6-1
 libgcr-3-1
 libgcrypt20
 libgcrypt20-32bit
@@ -1998,6 +1999,8 @@ libgitg-1_0-0
 libgitg-ext-1_0-0
 libgjs0
 libglade-2_0-0
+libglademm
+libglademm-2_4-1
 libgladeui-2-6
 libgle3
 libglib-2_0-0
@@ -2101,6 +2104,7 @@ libgtk-3-0
 libgtk-vnc-2_0-0
 libgtkhex-3-0
 libgtkimageview0
+libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtksourceviewmm-3_0-0
@@ -2663,7 +2667,7 @@ libthai0
 libtheora0
 libtheoradec1
 libtheoraenc1
-libthunarx-2-0
+libthunarx-3-0
 libtidy5
 libtiff5
 libtiff5-32bit
@@ -2926,6 +2930,8 @@ lsof
 lsscsi
 lsvpd
 ltrace
+lttng-modules
+lttng-modules-kmp-default
 lua53
 lua53-luasocket
 luit
@@ -3176,6 +3182,8 @@ pam_apparmor-32bit
 pam_mount
 pam_ssh
 pam_ssh-32bit
+paprefs
+paprefs-lang
 par
 parallel-printer-support
 paratype-pt-mono-fonts
@@ -3735,6 +3743,7 @@ pulseaudio
 pulseaudio-bash-completion
 pulseaudio-lang
 pulseaudio-module-bluetooth
+pulseaudio-module-gconf
 pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
