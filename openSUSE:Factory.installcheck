@@ -96,11 +96,6 @@ can't install patterns-leechcraft-leechcraft_media-20170319-1.4.x86_64:
   package leechcraft-lmp-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   package leechcraft-lmp-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install OpenImageIO-devel-1.8.10-1.2.x86_64:
-  package OpenImageIO-devel-1.8.10-1.2.x86_64 requires libOpenImageIO_Util1_8 = 1.8.10, but none of the providers can be installed
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by libOpenImageIO_Util1_8-1.8.10-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by libOpenImageIO_Util1_8-1.8.10-1.2.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by libOpenImageIO_Util1_8-1.8.10-1.2.x86_64
 can't install qbittorrent-nox-4.1.1-1.2.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by qbittorrent-nox-4.1.1-1.2.x86_64
 can't install leechcraft-lmp-httstream-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
@@ -204,16 +199,6 @@ can't install libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64:
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install lttng-modules-kmp-default-2.10.5_k4.16.12_3-2.30.x86_64:
-  nothing provides kernel-uname-r = 4.16.12-3-default needed by lttng-modules-kmp-default-2.10.5_k4.16.12_3-2.30.x86_64
-    (we have kernel-kvmsmall-4.17.1-1.6.x86_64)
-    (we have kernel-default-base-4.17.1-1.6.x86_64)
-    (we have kernel-debug-base-4.17.1-1.6.x86_64)
-    (we have kernel-vanilla-base-4.17.1-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.17.1-1.6.x86_64)
-    (we have kernel-vanilla-4.17.1-1.6.x86_64)
-    (we have kernel-default-4.17.1-1.6.x86_64)
-    (we have kernel-debug-4.17.1-1.6.x86_64)
 can't install cgal-devel-4.12-2.2.x86_64:
   package cgal-devel-4.12-2.2.x86_64 requires libCGAL13 = 4.12, but none of the providers can be installed
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by libCGAL13-4.12-2.2.x86_64
@@ -257,10 +242,6 @@ can't install NetworkManager-novellvpn-gnome-0.9.0.r29-18.12.x86_64:
 can't install libleechcraft-util-sys-qt5-0_6_75_1-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by libleechcraft-util-sys-qt5-0_6_75_1-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by libleechcraft-util-sys-qt5-0_6_75_1-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install libOpenImageIO1_8-1.8.10-1.2.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by libOpenImageIO1_8-1.8.10-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by libOpenImageIO1_8-1.8.10-1.2.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by libOpenImageIO1_8-1.8.10-1.2.x86_64
 can't install leechcraft-otlozhu-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-otlozhu-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-otlozhu-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -321,6 +302,29 @@ can't install soapysdr0.6-module-mirisdr-0.2.5-3.2.x86_64:
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install vpp-plugins-18.04-1.1.x86_64:
+  nothing provides librte_cryptodev.so.18.02.1()(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_cryptodev.so.18.02.1(DPDK_16.04)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_cryptodev.so.18.02.1(DPDK_17.08)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_eal.so.18.02.1()(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_eal.so.18.02.1(DPDK_16.11)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_eal.so.18.02.1(DPDK_17.05)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_eal.so.18.02.1(DPDK_2.0)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_ethdev.so.18.02.1()(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_ethdev.so.18.02.1(DPDK_16.07)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_ethdev.so.18.02.1(DPDK_2.2)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_mbuf.so.18.02.1()(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_mbuf.so.18.02.1(DPDK_2.0)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_mempool.so.18.02.1()(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_mempool.so.18.02.1(DPDK_16.07)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_mempool.so.18.02.1(DPDK_17.11)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_mempool.so.18.02.1(DPDK_2.0)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_pmd_bond.so.18.02.1()(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_pmd_bond.so.18.02.1(DPDK_2.0)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_ring.so.18.02.1()(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_ring.so.18.02.1(DPDK_2.0)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_sched.so.18.02.1()(64bit) needed by vpp-plugins-18.04-1.1.x86_64
+  nothing provides librte_sched.so.18.02.1(DPDK_2.0)(64bit) needed by vpp-plugins-18.04-1.1.x86_64
 can't install cgal-demo-examples-devel-4.12-2.2.noarch:
   package cgal-demo-examples-devel-4.12-2.2.noarch requires cgal-devel = 4.12, but none of the providers can be installed
   package cgal-devel-4.12-2.2.x86_64 requires libCGAL13 = 4.12, but none of the providers can be installed
@@ -415,9 +419,6 @@ can't install freeorion-0.4.7.1-2.2.x86_64:
   nothing provides libboost_serialization.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_iostreams.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_log.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-can't install widelands-build19-2.5.x86_64:
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by widelands-build19-2.5.x86_64
-  nothing provides libicuuc.so.60.2()(64bit) needed by widelands-build19-2.5.x86_64
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
@@ -432,17 +433,11 @@ can't install leechcraft-anhero-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-anhero-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64:
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
-can't install python-OpenImageIO-1.8.10-1.2.x86_64:
-  nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by python-OpenImageIO-1.8.10-1.2.x86_64
 can't install octave-forge-netcdf-1.0.11-1.7.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-netcdf-1.0.11-1.7.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-netcdf-1.0.11-1.7.x86_64
 can't install qbittorrent-4.1.1-1.2.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by qbittorrent-4.1.1-1.2.x86_64
-can't install widelands-data-build19-2.5.noarch:
-  package widelands-data-build19-2.5.noarch requires widelands = build19, but none of the providers can be installed
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by widelands-build19-2.5.x86_64
-  nothing provides libicuuc.so.60.2()(64bit) needed by widelands-build19-2.5.x86_64
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -561,9 +556,6 @@ can't install leechcraft-poshuku-foc-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
 can't install leechcraft-azoth-mucommands-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-mucommands-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install widelands-debug-build19-2.5.x86_64:
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by widelands-debug-build19-2.5.x86_64
-  nothing provides libicuuc.so.60.2()(64bit) needed by widelands-debug-build19-2.5.x86_64
 can't install NetworkManager-openswan-gnome-1.0.8-2.2.x86_64:
   nothing provides libnm-gtk.so.0()(64bit) needed by NetworkManager-openswan-gnome-1.0.8-2.2.x86_64
 can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
@@ -669,8 +661,8 @@ can't install ruby2.5-rubygem-power_assert-1.1.1-1.4.x86_64:
   package ruby2.5-stdlib-2.5.0-4.3.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:power_assert:1.1.1)) provided by ruby2.5-rubygem-power_assert-1.1.1-1.4.x86_64
 can't install bibletime-2.11.1-1.1.x86_64:
   package bibletime-2.11.1-1.1.x86_64 requires libsword-1.7.5.so()(64bit), but none of the providers can be installed
-  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
+  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install leechcraft-lackman-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-lackman-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-lackman-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -947,10 +939,8 @@ can't install libleechcraft-util-gui-qt5-0_6_75_1-0.6.70+git.11552.gf61ee51c3d-1
   nothing provides libboost_system.so.1.66.0()(64bit) needed by libleechcraft-util-sys-qt5-0_6_75_1-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by libleechcraft-util-sys-qt5-0_6_75_1-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install libsword-1_7_5-1.7.5~a1-2.2.x86_64:
-  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
-can't install paprefs-0.9.10-14.11.x86_64:
-  nothing provides pulseaudio-module-gconf needed by paprefs-0.9.10-14.11.x86_64
+  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install leechcraft-azoth-autopaste-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-autopaste-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-azoth-autopaste-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -964,21 +954,16 @@ can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
 can't install kig-18.04.1-1.2.x86_64:
   nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by kig-18.04.1-1.2.x86_64
-can't install OpenImageIO-1.8.10-1.2.x86_64:
-  package OpenImageIO-1.8.10-1.2.x86_64 requires libOpenImageIO.so.1.8()(64bit), but none of the providers can be installed
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by libOpenImageIO1_8-1.8.10-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by libOpenImageIO1_8-1.8.10-1.2.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by libOpenImageIO1_8-1.8.10-1.2.x86_64
 can't install sysdig-kmp-default-0.21.0_k4.16.12_3-1.17.x86_64:
   nothing provides kernel-uname-r = 4.16.12-3-default needed by sysdig-kmp-default-0.21.0_k4.16.12_3-1.17.x86_64
-    (we have kernel-kvmsmall-4.17.1-1.6.x86_64)
-    (we have kernel-default-base-4.17.1-1.6.x86_64)
-    (we have kernel-debug-base-4.17.1-1.6.x86_64)
-    (we have kernel-vanilla-base-4.17.1-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.17.1-1.6.x86_64)
-    (we have kernel-vanilla-4.17.1-1.6.x86_64)
-    (we have kernel-default-4.17.1-1.6.x86_64)
-    (we have kernel-debug-4.17.1-1.6.x86_64)
+    (we have kernel-kvmsmall-base-4.17.2-1.4.x86_64)
+    (we have kernel-default-base-4.17.2-1.4.x86_64)
+    (we have kernel-debug-4.17.2-1.4.x86_64)
+    (we have kernel-kvmsmall-4.17.2-1.4.x86_64)
+    (we have kernel-vanilla-4.17.2-1.4.x86_64)
+    (we have kernel-default-4.17.2-1.4.x86_64)
+    (we have kernel-debug-base-4.17.2-1.4.x86_64)
+    (we have kernel-vanilla-base-4.17.2-1.4.x86_64)
 can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.8.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.8.noarch
@@ -1043,8 +1028,8 @@ can't install blender-2.79b-4.1.x86_64:
   nothing provides libboost_chrono.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
 can't install sword-devel-1.7.5~a1-2.2.x86_64:
   package sword-devel-1.7.5~a1-2.2.x86_64 requires libsword-1_7_5 = 1.7.5~a1, but none of the providers can be installed
-  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
+  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
@@ -1168,9 +1153,6 @@ can't install caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch:
   nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
   nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
   nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r307_0f1f0e9-1.1.noarch
-can't install paprefs-lang-0.9.10-14.11.noarch:
-  package paprefs-lang-0.9.10-14.11.noarch requires paprefs = 0.9.10, but none of the providers can be installed
-  nothing provides pulseaudio-module-gconf needed by paprefs-0.9.10-14.11.x86_64
 can't install leechcraft-azoth-rosenthal-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-rosenthal-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -1251,10 +1233,6 @@ can't install leechcraft-liznoo-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-liznoo-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   package leechcraft-liznoo-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires leechcraft = 0.6.70+git.11552.gf61ee51c3d, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
-can't install libOpenImageIO_Util1_8-1.8.10-1.2.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by libOpenImageIO_Util1_8-1.8.10-1.2.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by libOpenImageIO_Util1_8-1.8.10-1.2.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by libOpenImageIO_Util1_8-1.8.10-1.2.x86_64
 can't install leechcraft-kbswitch-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-kbswitch-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-kbswitch-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
