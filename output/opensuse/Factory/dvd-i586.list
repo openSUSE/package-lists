@@ -347,7 +347,6 @@ cpupower
 cracklib
 cracklib-dict-full
 crda
-create-resources
 createrepo
 cron
 cronie
@@ -1588,6 +1587,7 @@ libKF5GrantleeTheme5
 libKF5Gravatar5
 libKF5GuiAddons5
 libKF5Holidays5
+libKF5Holidays5-lang
 libKF5I18n5
 libKF5I18n5-lang
 libKF5IMAP5
@@ -2427,7 +2427,7 @@ liblmdb-0_9_22
 liblockdev1
 libloudmouth-1-0
 liblouis-data
-liblouis14
+liblouis16
 liblpsolve55-0
 liblqr-1-0
 liblrdf2
@@ -2630,7 +2630,7 @@ libpowerman0
 libpq5
 libpresage1
 libprison0
-libprocps6
+libprocps7
 libprojectM-qt5-2
 libprotobuf-c1
 libprotobuf-lite15
@@ -3538,6 +3538,7 @@ pcsc-lite
 pcsc-towitoko
 perl
 perl-Algorithm-Diff
+perl-AnyEvent
 perl-Apache-AuthCookie
 perl-Apache-DBI
 perl-Apache-Session
@@ -3648,6 +3649,7 @@ perl-GDGraph
 perl-GDTextUtil
 perl-Glib
 perl-Gtk2
+perl-Guard
 perl-HTML-Clean
 perl-HTML-FillInForm
 perl-HTML-Format
@@ -3675,6 +3677,8 @@ perl-IPC-Run
 perl-Image-ExifTool
 perl-Image-Size
 perl-Inline
+perl-JSON
+perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
 perl-Linux-Pid
@@ -3780,6 +3784,7 @@ perl-Time-Period
 perl-Time-modules
 perl-TimeDate
 perl-Try-Tiny
+perl-Types-Serialiser
 perl-URI
 perl-Unicode-Map8
 perl-Unicode-String
@@ -3809,6 +3814,7 @@ perl-YAML
 perl-YAML-LibYAML
 perl-apparmor
 perl-base
+perl-common-sense
 perl-doc
 perl-gettext
 perl-ldap
@@ -3975,6 +3981,7 @@ prctl
 presage-data
 presentproto-devel
 printproto-devel
+prison-qt5-imports
 privoxy
 procinfo
 procmail
