@@ -72,6 +72,10 @@ can't install leechcraft-aggregator-webaccess-0.6.70+git.11552.gf61ee51c3d-1.1.x
   package leechcraft-aggregator-webaccess-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-aggregator-webaccess-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
+can't install libavdevice58-32bit-4.0-1.1.x86_64:
+  package libavdevice58-32bit-4.0-1.1.x86_64 requires libavfilter.so.7, but none of the providers can be installed
+  package libavdevice58-32bit-4.0-1.1.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
+  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0-1.1.x86_64
 can't install leechcraft-poshuku-fatape-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-poshuku-fatape-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-poshuku-fatape-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -362,6 +366,8 @@ can't install leechcraft-poshuku-onlinebookmarks-0.6.70+git.11552.gf61ee51c3d-1.
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
+can't install libavfilter7-32bit-4.0-1.1.x86_64:
+  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0-1.1.x86_64
 can't install leechcraft-azoth-modnok-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package leechcraft-azoth-modnok-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-util-qt5.so.0.6.75()(64bit), but none of the providers can be installed
   package leechcraft-azoth-modnok-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
@@ -388,11 +394,11 @@ can't install freeorion-0.4.7.1-2.2.x86_64:
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_locale.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_serialization.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
+  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_iostreams.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_log.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
+  nothing provides libboost_regex.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
@@ -429,16 +435,6 @@ can't install octave-forge-mechanics-1.3.1-1.11.x86_64:
   package octave-forge-mechanics-1.3.1-1.11.x86_64 requires octave-forge-general >= 1.2.2, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-general-2.0.0-1.9.x86_64
-can't install blender-lang-2.79b-4.1.noarch:
-  package blender-lang-2.79b-4.1.noarch requires blender = 2.79b, but none of the providers can be installed
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_locale.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_atomic.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_chrono.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
 can't install libleechcraft-util-xsd-qt5-0_6_75-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   package libleechcraft-util-xsd-qt5-0_6_75-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64 requires libleechcraft-xsd-qt5.so.0.6.75.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
@@ -579,11 +575,11 @@ can't install freeorion-data-0.4.7.1-2.2.noarch:
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_locale.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_serialization.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
+  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_iostreams.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
   nothing provides libboost_log.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
+  nothing provides libboost_regex.so.1.66.0()(64bit) needed by freeorion-0.4.7.1-2.2.x86_64
 can't install qpid-cpp-server-store-1.37.0-1.3.x86_64:
   package qpid-cpp-server-store-1.37.0-1.3.x86_64 requires qpid-cpp-server = 1.37.0, but none of the providers can be installed
   package qpid-cpp-server-1.37.0-1.3.x86_64 requires libqpidtypes.so.1()(64bit), but none of the providers can be installed
@@ -982,15 +978,6 @@ can't install leechcraft-fenet-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by leechcraft-0.6.70+git.11552.gf61ee51c3d-1.1.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
-can't install blender-2.79b-4.1.x86_64:
-  nothing provides libboost_system.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_thread.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_filesystem.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_locale.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_date_time.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_regex.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_atomic.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-  nothing provides libboost_chrono.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
 can't install sword-devel-1.7.5~a1-2.2.x86_64:
   package sword-devel-1.7.5~a1-2.2.x86_64 requires libsword-1_7_5 = 1.7.5~a1, but none of the providers can be installed
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64

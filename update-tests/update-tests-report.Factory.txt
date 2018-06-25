@@ -1,27 +1,19 @@
-U    openSUSE-Tumbleweed-Kubic.product
-U    openSUSE.product
-At revision 298.
+At revision 299.
 testing 13.1-x86_64-update.t
-Found 4 problems:
+Found 3 problems:
 Problem 1:
-nothing provides libboost_system.so.1.66.0()(64bit) needed by blender-2.79b-4.1.x86_64
-
-Solution 1:
-  - keep obsolete blender-2.67b-2.2.1.x86_64
-
-Problem 2:
 nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
 
 Solution 1:
   - keep obsolete libavogadro1-1.1.0-4.1.4.x86_64
 
-Problem 3:
+Problem 2:
 nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
 
 Solution 1:
   - keep obsolete avogadro-1.1.0-4.1.4.x86_64
 
-Problem 4:
+Problem 3:
 nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
 
 Solution 1:

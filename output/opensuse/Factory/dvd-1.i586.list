@@ -480,9 +480,7 @@ enchant-data
 enscript
 eog
 eog-lang
-eog-plugin-exif-display
 eog-plugins
-eog-plugins-data
 eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
@@ -578,8 +576,6 @@ fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
 fontsproto-devel
-fortune
-fossil
 fprintd
 fprintd-lang
 fprintd-pam
@@ -662,25 +658,7 @@ geany-plugins
 geany-plugins-lang
 gedit
 gedit-lang
-gedit-plugin-bookmarks
-gedit-plugin-bracketcompletion
-gedit-plugin-charmap
-gedit-plugin-codecomment
-gedit-plugin-colorpicker
-gedit-plugin-colorschemer
-gedit-plugin-commander
-gedit-plugin-dashboard
 gedit-plugin-devhelp
-gedit-plugin-drawspaces
-gedit-plugin-findinfiles
-gedit-plugin-git
-gedit-plugin-joinlines
-gedit-plugin-multiedit
-gedit-plugin-smartspaces
-gedit-plugin-synctex
-gedit-plugin-terminal
-gedit-plugin-textsize
-gedit-plugin-wordcompletion
 gedit-plugins
 gedit-plugins-data
 gedit-plugins-lang
@@ -1445,7 +1423,6 @@ kross-lang
 kruler
 kruler-lang
 krusader
-krusader-doc
 kscd
 kscreen5
 kscreen5-lang
@@ -1501,7 +1478,6 @@ kwin5
 kwin5-lang
 kwordquiz
 kwordquiz-lang
-lame
 latex2html-pngicons
 ldns
 leafpad
@@ -1846,12 +1822,17 @@ libavahi-gobject0
 libavahi-ui-gtk3-0
 libavc1394-0
 libavcodec57
-libavdevice57
+libavcodec58
+libavdevice58
 libavfilter6
+libavfilter7
 libavformat57
+libavformat58
 libavogadrolibs-suse0
 libavresample3
+libavresample4
 libavutil55
+libavutil56
 libb64-0
 libbabl-0_1-0
 libbasicobjects0
@@ -2098,7 +2079,6 @@ libfreerdp2
 libfreetype6
 libfribidi0
 libfstrm0
-libftdi1-2
 libftgl2
 libfuse2
 libfwup1
@@ -2124,7 +2104,6 @@ libgd3
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
-libgda-5_0-sqlcipher
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
@@ -2321,7 +2300,6 @@ libiptc0
 libiptcdata
 libiptcdata-lang
 libiptcdata0
-libirrecord0
 libirs160
 libisc166
 libisccc160
@@ -2417,9 +2395,7 @@ liblibkremotecontrol1
 liblightdm-gobject-1-0
 liblilv-0-0
 liblink-grammar5
-liblirc0
 liblirc_client0
-liblirc_driver0
 liblmdb-0_9_22
 liblockdev1
 libloudmouth-1-0
@@ -2492,6 +2468,7 @@ libmxml1
 libmygpo-qt1
 libmypaint-1_3-0
 libmypaint-lang
+libmysofa0
 libmysqld19
 libmythes-1_2-0
 libnautilus-extension1
@@ -2549,7 +2526,6 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
-libopenssl1_0_0
 libopenssl1_1
 libopenssl1_1-hmac
 libopts-devel
@@ -2596,6 +2572,7 @@ libpeas-lang
 libpeas-loader-python
 libpeas-loader-python3
 libpfs2
+libpgm-5_2-0
 libphonon4
 libphonon4qt5
 libpinyin-data
@@ -2623,6 +2600,7 @@ libpopt0
 libportaudio2
 libportmidi0
 libpostproc54
+libpostproc55
 libpowerman0
 libpq5
 libpresage1
@@ -2656,7 +2634,6 @@ libpurple-plugin-lurch
 libpurple-plugin-mrim
 libpurple-plugin-mrim-lang
 libpurple-plugin-pack
-libpurple-plugin-pack-extras
 libpurple-plugin-pack-lang
 libpurple-plugin-prpltwtr
 libpurple-plugin-prpltwtr-lang
@@ -2758,6 +2735,7 @@ librevenge-stream-0_0-0
 librmt1_0
 librsvg-2-2
 librsync2
+librubberband2
 libruby2_5-2_5
 libsamba-credentials0
 libsamba-errors0
@@ -2846,7 +2824,9 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample2
+libswresample3
 libswscale4
+libswscale5
 libsystemd0
 libtag-extras1
 libtag1
@@ -3100,7 +3080,6 @@ libz1
 libzapojit-0_0-0
 libzbar0
 libzebra1
-libzeitgeist-2_0-0
 libzhuyin-1_1-data
 libzhuyin13
 libzhuyin7
@@ -3109,6 +3088,7 @@ libzinnia0
 libzio1
 libzip5
 libzmf-0_0-0
+libzmq5
 libzstd1
 libzvbi0
 libzypp
@@ -3123,7 +3103,6 @@ lightsoff
 lightsoff-lang
 links
 linux-glibc-devel
-lirc-core
 lklug-fonts
 lockdev
 log4j
@@ -3348,13 +3327,6 @@ numlockx
 nuoveXT2-icon-theme
 nut
 nut-cgi
-nut-devel-doc-html
-nut-devel-doc-pdf
-nut-doc-asciidoc
-nut-doc-html
-nut-doc-images
-nut-doc-pdf
-nut-drivers-net
 obconf
 obs-service-download_files
 obs-service-download_url
@@ -3875,7 +3847,6 @@ pidgin
 pidgin-plugin-libsteam
 pidgin-plugin-mrim
 pidgin-plugin-pack
-pidgin-plugin-pack-extras
 pidgin-plugin-prpltwtr
 pidgin-plugin-sipe
 pidgin-plugin-skypeweb
@@ -4510,7 +4481,6 @@ typelib-1_0-Gdm-1_0
 typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Gepub-0_6
-typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -4529,7 +4499,6 @@ typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
 typelib-1_0-GtkVnc-2_0
-typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
@@ -4562,7 +4531,6 @@ typelib-1_0-Vte-2.91
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
-typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
 typelib-1_0-libdazzle-1_0
 ucode-amd
@@ -5027,6 +4995,7 @@ yum-metadata-parser
 zd1211-firmware
 zenity
 zenity-lang
+zeromq-tools
 zinnia
 zinnia-tomoe
 zip
