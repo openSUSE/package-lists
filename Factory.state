@@ -1,9 +1,8 @@
-
-Request: https://api.opensuse.org/build/openSUSE:Factory/_result?package=bash&repository=standard
-Headers:
-content-length: 53
-strict-transport-security: max-age=31536000
-server: Apache/2.4.23 (Linux/SUSE)
-connection: close
-date: Thu, 28 Jun 2018 06:51:01 GMT
-content-type: text/html; charset=iso-8859-1
+<resultlist state="63e0144866853f9da3f747368c996b2f">
+  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="published" state="published">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory" repository="standard" arch="i586" code="published" state="published">
+    <status package="bash" code="succeeded" />
+  </result>
+</resultlist>
