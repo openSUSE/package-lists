@@ -312,7 +312,6 @@ cracklib
 cracklib-dict-full
 crash-kmp-default
 crda
-create-resources
 createrepo
 cron
 cronie
@@ -1187,7 +1186,6 @@ kdelibs4support
 kdelibs4support-lang
 kdenetwork4-filesharing
 kdenetwork4-filesharing-lang
-kdepimlibs4
 kdevelop5
 kdevelop5-lang
 kdevplatform
@@ -1267,7 +1265,6 @@ klettres
 klettres-lang
 klines
 klines-lang
-klinkstatus
 klogd
 kmag
 kmag-lang
@@ -1700,12 +1697,17 @@ libavahi-gobject0
 libavahi-ui-gtk3-0
 libavc1394-0
 libavcodec57
-libavdevice57
+libavcodec58
+libavdevice58
 libavfilter6
+libavfilter7
 libavformat57
+libavformat58
 libavogadrolibs-suse0
 libavresample3
+libavresample4
 libavutil55
+libavutil56
 libb64-0
 libbabl-0_1-0
 libbasicobjects0
@@ -1958,7 +1960,6 @@ libgcc_s1
 libgcc_s1-32bit
 libgck-1-0
 libgck-modules-gnome-keyring
-libgconfmm-2_6-1
 libgcr-3-1
 libgcrypt20
 libgcrypt20-32bit
@@ -2003,8 +2004,6 @@ libgitg-1_0-0
 libgitg-ext-1_0-0
 libgjs0
 libglade-2_0-0
-libglademm
-libglademm-2_4-1
 libgladeui-2-6
 libgle3
 libglib-2_0-0
@@ -2108,7 +2107,6 @@ libgtk-3-0
 libgtk-vnc-2_0-0
 libgtkhex-3-0
 libgtkimageview0
-libgtkmm-2_4-1
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtksourceviewmm-3_0-0
@@ -2325,6 +2323,7 @@ libmxml1
 libmygpo-qt1
 libmypaint-1_3-0
 libmypaint-lang
+libmysofa0
 libmysqld19
 libnautilus-extension1
 libncurses6
@@ -2456,6 +2455,7 @@ libpopt0
 libportaudio2
 libportmidi0
 libpostproc54
+libpostproc55
 libpowerman0
 libpq5
 libpresage1
@@ -2557,6 +2557,7 @@ librmt1_0
 librsvg-2-2
 librsync2
 librtas2
+librubberband2
 libruby2_5-2_5
 libsamba-credentials0
 libsamba-errors0
@@ -2648,7 +2649,9 @@ libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
 libswresample2
+libswresample3
 libswscale4
+libswscale5
 libsystemd0
 libsystemd0-32bit
 libtag-extras1
@@ -2906,6 +2909,7 @@ libzhuyin7
 libzimg2
 libzio1
 libzip5
+libzmq5
 libzstd1
 libzvbi0
 libzypp
@@ -3002,6 +3006,7 @@ metatheme-adwaita-common
 metatheme-breeze-common
 metatheme-sonar-common
 mgopen-fonts
+mhvtl-kmp-default
 midori-branding-openSUSE
 milou5
 milou5-lang
@@ -3186,8 +3191,6 @@ pam_apparmor-32bit
 pam_mount
 pam_ssh
 pam_ssh-32bit
-paprefs
-paprefs-lang
 par
 parallel-printer-support
 paratype-pt-mono-fonts
@@ -4124,6 +4127,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 sysprof
 sysprof-lang
@@ -4787,6 +4791,7 @@ yum-metadata-parser
 zd1211-firmware
 zenity
 zenity-lang
+zeromq-tools
 zip
 zlib-devel
 zoo
