@@ -1,6 +1,6 @@
-At revision 310.
+At revision 313.
 testing 13.1-x86_64-update.t
-Found 3 problems:
+Found 4 problems:
 Problem 1:
 nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
 
@@ -18,4 +18,14 @@ nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1
 
 Solution 1:
   - keep obsolete avogadro-devel-1.1.0-4.1.4.x86_64
+
+Problem 4:
+package paprefs-0.9.10+20180501.534d20a-1.1.x86_64 requires pulseaudio-module-gsettings, but none of the providers can be installed
+
+Solution 1:
+  - keep obsolete paprefs-0.9.10-9.2.1.x86_64
+  - keep obsolete paprefs-lang-0.9.10-9.2.1.noarch
+
+Solution 2:
+  - allow deinstallation of pulseaudio-module-gconf-4.0.git.270.g9490a-12.1.x86_64
 
