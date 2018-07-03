@@ -69,10 +69,6 @@ can't install SimGear-devel-2017.3.1-3.3.x86_64:
   nothing provides libosgUtil.so.131()(64bit) needed by libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64
   nothing provides libosgParticle.so.131()(64bit) needed by libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64
   nothing provides libosgSim.so.131()(64bit) needed by libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64
-can't install libavdevice58-32bit-4.0-1.1.x86_64:
-  package libavdevice58-32bit-4.0-1.1.x86_64 requires libavfilter.so.7, but none of the providers can be installed
-  package libavdevice58-32bit-4.0-1.1.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0-1.1.x86_64
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
 can't install qpid-tools-0.32-1.7.x86_64:
@@ -80,6 +76,10 @@ can't install qpid-tools-0.32-1.7.x86_64:
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidtypes.so.1()(64bit), but none of the providers can be installed
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidmessaging.so.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
+can't install libavdevice58-32bit-4.0.1-1.1.x86_64:
+  package libavdevice58-32bit-4.0.1-1.1.x86_64 requires libavfilter.so.7, but none of the providers can be installed
+  package libavdevice58-32bit-4.0.1-1.1.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
+  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -193,8 +193,6 @@ can't install patterns-caasp-Stack-1.0-39.1.x86_64:
   nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r309_e863888-1.1.noarch
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
-can't install libavfilter7-32bit-4.0-1.1.x86_64:
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0-1.1.x86_64
 can't install python-openstack-doc-tools-1.5.0-1.5.noarch:
   nothing provides python-cliff-tablib >= 1.0 needed by python-openstack-doc-tools-1.5.0-1.5.noarch
 can't install freeorion-0.4.7.1-2.2.x86_64:
@@ -364,11 +362,6 @@ can't install python-django-mediasync-2.2.0-10.8.noarch:
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
-can't install python-pycdio-0.20-1.15.x86_64:
-  nothing provides libcdio.so.16()(64bit) needed by python-pycdio-0.20-1.15.x86_64
-  nothing provides libcdio.so.16(CDIO_16)(64bit) needed by python-pycdio-0.20-1.15.x86_64
-  nothing provides libiso9660.so.10()(64bit) needed by python-pycdio-0.20-1.15.x86_64
-  nothing provides libiso9660.so.10(ISO9660_10)(64bit) needed by python-pycdio-0.20-1.15.x86_64
 can't install pdf2djvu-lang-0.9.9-1.1.noarch:
   package pdf2djvu-lang-0.9.9-1.1.noarch requires pdf2djvu = 0.9.9, but none of the providers can be installed
   nothing provides libpoppler.so.73()(64bit) needed by pdf2djvu-0.9.9-1.1.x86_64
@@ -405,11 +398,11 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
 can't install libedataserverui-1_2-2-32bit-3.28.3-1.1.x86_64:
   package libedataserverui-1_2-2-32bit-3.28.3-1.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.1.x86_64
+can't install libavfilter7-32bit-4.0.1-1.1.x86_64:
+  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
-can't install gstreamer-plugins-bad-32bit-1.14.1-4.1.x86_64:
-  nothing provides libsrt.so.1 needed by gstreamer-plugins-bad-32bit-1.14.1-4.1.x86_64
 can't install libsword-1_7_5-1.7.5~a1-2.2.x86_64:
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
   nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
