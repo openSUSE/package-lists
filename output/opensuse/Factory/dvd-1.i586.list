@@ -624,8 +624,6 @@ gcin-gtk3
 gcin-qt4
 gcin-qt5
 gcolor2
-gconf-editor
-gconf-editor-lang
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -1318,6 +1316,8 @@ khmeros-fonts
 khotkeys5
 khotkeys5-lang
 kidentitymanagement-lang
+kig
+kig-lang
 kimageformats
 kimagemapeditor
 kimagemapeditor-lang
@@ -1875,6 +1875,7 @@ libboost_headers1_67_0-devel
 libboost_iostreams1_67_0
 libboost_locale1_67_0
 libboost_program_options1_67_0
+libboost_python-py2_7-1_67_0
 libboost_regex1_67_0
 libboost_signals1_67_0
 libboost_system1_67_0
@@ -2522,6 +2523,8 @@ libnss_nis2
 libnss_usrfiles2
 libntfs-3g87
 libnuma1
+libnumbertext-1_0-0
+libnumbertext-data
 liboauth0
 libobjc4
 libobrender32
@@ -2727,12 +2730,12 @@ libreoffice-gnome
 libreoffice-gtk3
 libreoffice-icon-themes
 libreoffice-impress
-libreoffice-kde4
 libreoffice-l10n-cs
 libreoffice-l10n-da
 libreoffice-l10n-de
 libreoffice-l10n-el
 libreoffice-l10n-en
+libreoffice-l10n-en_GB
 libreoffice-l10n-es
 libreoffice-l10n-fr
 libreoffice-l10n-hu
@@ -2746,6 +2749,7 @@ libreoffice-l10n-zh_TW
 libreoffice-mailmerge
 libreoffice-math
 libreoffice-pyuno
+libreoffice-qt5
 libreoffice-share-linker
 libreoffice-writer
 libreofficekit
@@ -2815,7 +2819,6 @@ libspeexdsp1
 libspice-client-glib-2_0-8
 libspice-client-glib-helper
 libspice-client-gtk-3_0-5
-libspice-controller0
 libspice-server1
 libsqlite3-0
 libsratom-0-0
@@ -3431,6 +3434,8 @@ pam-devel
 pam_apparmor
 pam_mount
 pam_ssh
+paprefs
+paprefs-lang
 par
 parallel-printer-support
 paratype-pt-mono-fonts
@@ -4002,7 +4007,7 @@ pulseaudio
 pulseaudio-bash-completion
 pulseaudio-lang
 pulseaudio-module-bluetooth
-pulseaudio-module-gconf
+pulseaudio-module-gsettings
 pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
@@ -4632,7 +4637,6 @@ vinagre-lang
 virt-install
 virt-manager
 virt-manager-common
-virt-viewer
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
 virtualbox-guest-x11

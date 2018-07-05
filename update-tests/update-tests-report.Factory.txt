@@ -1,27 +1,7 @@
-U    openSUSE-Tumbleweed-Kubic.product
-U    openSUSE.product
-At revision 326.
+At revision 327.
 testing 13.1-x86_64-update.t
-Found 4 problems:
+Found 1 problems:
 Problem 1:
-nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
-
-Solution 1:
-  - keep obsolete libavogadro1-1.1.0-4.1.4.x86_64
-
-Problem 2:
-nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
-
-Solution 1:
-  - keep obsolete avogadro-1.1.0-4.1.4.x86_64
-
-Problem 3:
-nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by libavogadro1-1.2.0-2.2.x86_64
-
-Solution 1:
-  - keep obsolete avogadro-devel-1.1.0-4.1.4.x86_64
-
-Problem 4:
 package paprefs-0.9.10+20180501.534d20a-1.1.x86_64 requires pulseaudio-module-gsettings, but none of the providers can be installed
 
 Solution 1:

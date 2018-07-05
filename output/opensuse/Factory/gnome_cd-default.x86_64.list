@@ -157,9 +157,6 @@ fwupd
 gamin-server
 gawk
 gcab
-gconf-polkit
-gconf2
-gconf2-branding-openSUSE
 gcr-data
 gcr-prompter
 gcr-ssh-askpass
@@ -474,7 +471,6 @@ libcdio18
 libcdio_cdda2
 libcdio_paranoia2
 libcelt0-2
-libcelt051-0
 libchamplain-0_12-0
 libcheese-common
 libcheese-gtk25
@@ -1264,7 +1260,7 @@ publicsuffix
 pulseaudio
 pulseaudio-bash-completion
 pulseaudio-module-bluetooth
-pulseaudio-module-gconf
+pulseaudio-module-gsettings
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
