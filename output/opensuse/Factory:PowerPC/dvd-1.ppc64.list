@@ -586,8 +586,6 @@ gcin-gtk2-immodule
 gcin-gtk3-immodule
 gcin-qt4-immodule
 gcolor2
-gconf-editor
-gconf-editor-lang
 gconf-polkit
 gconf2
 gconf2-branding-openSUSE
@@ -1230,6 +1228,8 @@ khmeros-fonts
 khotkeys5
 khotkeys5-lang
 kidentitymanagement-lang
+kig
+kig-lang
 kimageformats
 kimagemapeditor
 kimagemapeditor-lang
@@ -1728,6 +1728,7 @@ libboost_filesystem1_67_0
 libboost_headers1_67_0-devel
 libboost_iostreams1_67_0
 libboost_program_options1_67_0
+libboost_python-py2_7-1_67_0
 libboost_regex1_67_0
 libboost_signals1_67_0
 libboost_system1_67_0
@@ -2618,7 +2619,6 @@ libspeexdsp1
 libspice-client-glib-2_0-8
 libspice-client-glib-helper
 libspice-client-gtk-3_0-5
-libspice-controller0
 libspice-server1
 libsqlite3-0
 libsqlite3-0-32bit
@@ -3190,6 +3190,8 @@ pam_apparmor-32bit
 pam_mount
 pam_ssh
 pam_ssh-32bit
+paprefs
+paprefs-lang
 par
 parallel-printer-support
 paratype-pt-mono-fonts
@@ -3755,7 +3757,7 @@ pulseaudio
 pulseaudio-bash-completion
 pulseaudio-lang
 pulseaudio-module-bluetooth
-pulseaudio-module-gconf
+pulseaudio-module-gsettings
 pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
@@ -4379,7 +4381,6 @@ vinagre-lang
 virt-install
 virt-manager
 virt-manager-common
-virt-viewer
 vlan
 vlc
 vlc-codec-gstreamer
