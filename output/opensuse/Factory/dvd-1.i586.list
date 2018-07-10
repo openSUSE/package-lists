@@ -221,6 +221,7 @@ bash
 bash-completion
 bash-doc
 bash-lang
+bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bcm43xx-firmware
@@ -555,6 +556,7 @@ filesystem
 fillup
 findutils
 findutils-lang
+fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -985,6 +987,7 @@ hack-fonts
 hardlink
 haveged
 hddtemp
+hdjmod-kmp-default
 hdparm
 health-checker
 health-checker-plugins-caasp
@@ -1284,7 +1287,9 @@ kernel-docs
 kernel-firmware
 kernel-macros
 kernel-pae
+kernel-pae-devel
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 kf5-kcm-fcitx
@@ -2067,6 +2072,7 @@ libffi7
 libfftw3-3
 libfftw3_threads3
 libfind2_0
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -2598,6 +2604,7 @@ libphonon4qt5
 libpinyin-data
 libpinyin13
 libpipeline1
+libpipewire-0_1-0
 libpisock9
 libpixman-1-0
 libpixman-1-0-devel
@@ -2808,6 +2815,7 @@ libsoup-2_4-1
 libsoup-lang
 libsox3
 libsoxr0
+libspa-lib0
 libspandsp2
 libspectre1
 libspeechd2
@@ -3139,6 +3147,9 @@ lskat-lang
 lsof
 lsscsi
 ltrace
+lttng-modules
+lttng-modules-kmp-default
+lttng-modules-kmp-pae
 lua53
 lua53-luasocket
 luit
@@ -3216,6 +3227,7 @@ metatheme-adwaita-common
 metatheme-breeze-common
 metatheme-sonar-common
 mgopen-fonts
+mhvtl-kmp-default
 midori-branding-openSUSE
 milou5
 milou5-lang
@@ -3244,6 +3256,7 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -3383,6 +3396,9 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
 openSUSE-xfce-icon-theme
+openafs
+openafs-client
+openafs-kmp-default
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3521,6 +3537,7 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
 pciutils
 pciutils-ids
 pcmanfm
@@ -3823,6 +3840,8 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
+pesign
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4028,9 +4047,11 @@ python2-Pygments
 python2-SecretStorage
 python2-appdirs
 python2-asn1crypto
+python2-backports
 python2-cairo
 python2-cffi
 python2-configobj
+python2-configparser
 python2-cryptography
 python2-cssselect
 python2-dbus-python
@@ -4038,6 +4059,7 @@ python2-decorator
 python2-deltarpm
 python2-dnspython
 python2-ecdsa
+python2-entrypoints
 python2-fasteners
 python2-gobject
 python2-gpgme
@@ -4217,6 +4239,7 @@ rsvg-thumbnailer
 rsync
 rt2860
 rtkit
+rtl8812au-kmp-default
 rtl8812au-kmp-pae
 ruby
 ruby-common
@@ -4363,6 +4386,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
 sysprof
@@ -4603,11 +4627,13 @@ util-linux-lang
 util-linux-systemd
 util-macros-devel
 v4l-conf
+v4l2loopback-kmp-default
 vacation
 vala
 valgrind
 vdr
 vdr-lang
+vhba-kmp-default
 videoproto-devel
 viewnior
 viewnior-lang
@@ -4622,6 +4648,9 @@ virt-install
 virt-manager
 virt-manager-common
 virt-viewer
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlc
 vlc-codec-gstreamer
@@ -4874,6 +4903,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
