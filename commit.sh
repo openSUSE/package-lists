@@ -49,6 +49,12 @@ for arch in $arches; do
         ./mk_group.sh output/opensuse/$proj/dvd-kubic-addon.$arch.list openSUSE-Kubic-DVD osc/openSUSE:$proj/$product/openSUSE-Kubic-DVD.group
       fi
     fi
+    if [ "$arch" = "aarch64" ];then
+      if [ "$proj" = "Factory:ARM" ]; then
+        ./mk_group.sh output/opensuse/$proj/dvd-kubic.$arch.list openSUSE-Kubic-$arch osc/openSUSE:$proj/$product/openSUSE-Kubic-$arch.group only_$arch
+        ./mk_group.sh output/opensuse/$proj/dvd-kubic-addon.$arch.list openSUSE-Kubic-DVD-$arch osc/openSUSE:$proj/$product/openSUSE-Kubic-DVD-$arch.group only_$arch
+      fi
+    fi
 done
 
 ( cd osc/openSUSE:$proj/$product/ && osc ci -m "auto update" --noservice > /dev/null )
