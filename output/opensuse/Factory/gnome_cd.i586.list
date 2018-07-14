@@ -579,13 +579,10 @@ libavahi-core7
 libavahi-glib1
 libavahi-gobject0
 libavahi-ui-gtk3-0
-libavcodec57
 libavcodec58
-libavfilter6
-libavformat57
+libavfilter7
 libavformat58
-libavresample3
-libavutil55
+libavresample4
 libavutil56
 libb64-0
 libbabl-0_1-0
@@ -885,6 +882,7 @@ libgvnc-1_0-0
 libgweather-3-15
 libgweather-lang
 libgxps2
+libhandle1
 libharfbuzz-icu0
 libharfbuzz0
 libhavege1
@@ -987,6 +985,7 @@ libmtp9
 libmusicbrainz5-1
 libmutter-2-0
 libmwaw-0_3-3
+libmysofa0
 libmythes-1_2-0
 libnautilus-extension1
 libncurses6
@@ -1027,7 +1026,6 @@ libopenal1
 libopenblas_pthreads0
 libopeniscsiusr0_1_0
 libopenjp2-7
-libopenjpeg1
 libopenmpt0
 libopenssl1_1
 libopus0
@@ -1057,6 +1055,7 @@ libpeas-gtk-1_0-0
 libpeas-lang
 libpeas-loader-python
 libpeas-loader-python3
+libpgm-5_2-0
 libpipeline1
 libpipewire-0_1-0
 libpixman-1-0
@@ -1072,7 +1071,7 @@ libpoppler-glib8
 libpoppler74
 libpopt0
 libportaudio2
-libpostproc54
+libpostproc55
 libprocps7
 libprotobuf-c1
 libproxy1
@@ -1125,6 +1124,7 @@ libreofficekit
 librest-0_7-0
 librevenge-0_0-0
 librsvg-2-2
+librubberband2
 libruby2_5-2_5
 libsamba-credentials0
 libsamba-errors0
@@ -1156,6 +1156,7 @@ libsmputils1-1
 libsnapper4
 libsndfile1
 libsnmp30
+libsodium23
 libsoftokn3
 libsolv-tools
 libsord-0-0
@@ -1188,9 +1189,7 @@ libstorage-ng-lang
 libstorage-ng-ruby
 libstorage-ng1
 libsuitesparseconfig5
-libswresample2
 libswresample3
-libswscale4
 libswscale5
 libsystemd0
 libtag1
@@ -1331,6 +1330,7 @@ libzbar0
 libzimg2
 libzio1
 libzmf-0_0-0
+libzmq5
 libzstd1
 libzvbi0
 libzypp
@@ -1641,7 +1641,6 @@ rpm
 rsvg-thumbnailer
 rsync
 rtkit
-rtl8812au-kmp-default
 ruby
 ruby-common
 ruby2.5
@@ -1845,9 +1844,6 @@ vim-data
 vim-data-common
 vinagre
 vinagre-lang
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
 vorbis-tools
 vorbis-tools-lang
 vpnc
@@ -2007,6 +2003,7 @@ ypbind
 zd1211-firmware
 zenity
 zenity-lang
+zeromq-tools
 zip
 zypper
 zypper-aptitude
