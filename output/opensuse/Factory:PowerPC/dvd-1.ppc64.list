@@ -1134,7 +1134,6 @@ kde-l10n-da-doc
 kde-l10n-de
 kde-l10n-de-data
 kde-l10n-de-doc
-kde-l10n-devel
 kde-l10n-el
 kde-l10n-en_GB
 kde-l10n-en_GB-data
@@ -1194,8 +1193,6 @@ kdiamond-lang
 kdoctools
 kdoctools-lang
 kdump
-keditbookmarks
-keditbookmarks-lang
 kernel-default
 kernel-default-devel
 kernel-devel
@@ -1258,6 +1255,8 @@ kiten
 kiten-lang
 kjumpingcube
 kjumpingcube-lang
+kleopatra
+kleopatra-lang
 klettres
 klettres-lang
 klines
@@ -1269,6 +1268,7 @@ kmahjongg
 kmahjongg-lang
 kmenuedit5
 kmenuedit5-lang
+kmime-lang
 kmines
 kmines-lang
 kmod
@@ -1311,7 +1311,6 @@ kpeople5
 kpeople5-lang
 kpimtextedit
 kpimtextedit-lang
-kppp
 kqtquickcharts
 krb5
 krb5-32bit
@@ -1472,7 +1471,9 @@ libKF5KHtml5-lang
 libKF5KMahjongglib5
 libKF5Kipi32_0_0
 libKF5Kirigami2-5
+libKF5Libkleo5
 libKF5MediaWiki5
+libKF5Mime5
 libKF5ModemManagerQt6
 libKF5NetworkManagerQt6
 libKF5NewStuff5
@@ -2215,6 +2216,8 @@ libkeyutils1-32bit
 libkf5kdegames6
 libkioarchive5
 libkipi-data
+libkleo
+libkleo-lang
 libkmahjongg
 libkmahjongg-lang
 libkmod2
@@ -2383,6 +2386,7 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
+libopenssl1_0_0
 libopenssl1_0_0-32bit
 libopenssl1_1
 libopenssl1_1-hmac
@@ -2538,8 +2542,6 @@ libqt5-qtquickcontrols2
 libqt5-qttranslations
 libqt5-qtvirtualkeyboard
 libqt5-qtwayland
-libqtcurve-cairo1
-libqtcurve-utils2
 libquicktime0
 libquvi-0_9-0_9_4
 libquvi-scripts
@@ -3096,6 +3098,9 @@ nfsidmap
 nkf
 nma-data
 nmap
+nodejs-common
+nodejs6
+nodejs6-devel
 notification-daemon
 notification-daemon-lang
 noto-coloremoji-fonts
@@ -3115,6 +3120,7 @@ noto-serif-sc-regular-fonts
 noto-serif-tc-bold-fonts
 noto-serif-tc-fonts
 noto-serif-tc-regular-fonts
+npm6
 nscd
 nss-mdns
 nss-mdns-32bit
@@ -3261,6 +3267,7 @@ patterns-kde-kde_imaging
 patterns-kde-kde_internet
 patterns-kde-kde_multimedia
 patterns-kde-kde_office
+patterns-kde-kde_pim
 patterns-kde-kde_plasma
 patterns-kde-kde_utilities
 patterns-kde-kde_utilities_opt
@@ -3734,7 +3741,6 @@ powerpc-utils-python
 powerpc32
 powertop
 powertop-lang
-poxml-lang
 ppc64-diag
 ppp
 pptp
@@ -3765,8 +3771,6 @@ pulseaudio-bash-completion
 pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gsettings
-pulseaudio-module-jack
-pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
@@ -3940,8 +3944,6 @@ qemu-vgabios
 qemu-x86
 qqc2-desktop-style
 qt4-qtscript
-qtcurve-gtk2
-qtcurve-qt5
 quadrapassel
 quadrapassel-lang
 quagga
@@ -3998,6 +4000,7 @@ ruby2.5-rubygem-byebug
 ruby2.5-rubygem-cfa
 ruby2.5-rubygem-cfa_grub2
 ruby2.5-rubygem-cheetah
+ruby2.5-rubygem-execjs
 ruby2.5-rubygem-fast_gettext
 ruby2.5-rubygem-gem2rpm
 ruby2.5-rubygem-pkg-config
@@ -4005,6 +4008,7 @@ ruby2.5-rubygem-ruby-augeas
 ruby2.5-rubygem-ruby-dbus
 ruby2.5-rubygem-simpleidn
 ruby2.5-rubygem-trollop
+ruby2.5-rubygem-uglifier
 ruby2.5-rubygem-unf
 ruby2.5-rubygem-unf_ext
 ruby2.5-stdlib
