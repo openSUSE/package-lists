@@ -1,13 +1,11 @@
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.04.21-2.2.noarch
-can't install kdebase4-workspace-devel-4.11.22-15.3.x86_64:
-  package is obsoleted by patterns-kde-kde_plasma-20170319-18.1.noarch
 can't install kdebase4-workspace-4.11.22-15.3.x86_64:
   package is obsoleted by plasma5-desktop-5.13.2-1.1.x86_64
 can't install gtk3-schema-3.22.30-3.1.noarch:
   package is obsoleted by gtk4-schema-3.93.0-3.2.noarch
-can't install NetworkManager-openswan-1.0.8-2.2.x86_64:
-  package is obsoleted by NetworkManager-libreswan-1.2.6-1.1.x86_64
+can't install kdebase4-workspace-devel-4.11.22-15.3.x86_64:
+  package is obsoleted by patterns-kde-kde_plasma-20180709-1.1.noarch
 can't install obexd-client-0.48-5.14.x86_64:
   package is obsoleted by bluez-5.50-1.1.x86_64
 can't install openssl-1_0_0-1.0.2n-2.2.x86_64:
@@ -30,10 +28,6 @@ can't install gettext-its-gtk3-3.22.30-3.1.x86_64:
   package is obsoleted by gettext-its-gtk4-3.93.0-3.2.x86_64
 can't install libpsm2-compat-10.3.46-1.2.x86_64:
   package is obsoleted by libpsm_infinipath1-3.3-9.2.x86_64
-can't install oxygen4-cursors-4.11.22-15.3.x86_64:
-  package is obsoleted by oxygen5-cursors-5.13.2-1.1.x86_64
-can't install NetworkManager-openswan-gnome-1.0.8-2.2.x86_64:
-  package is obsoleted by NetworkManager-libreswan-gnome-1.2.6-1.1.x86_64
 can't install mate-calc-1.20.2-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
 can't install star-rmt-1.5.3-7.2.x86_64:
@@ -44,6 +38,8 @@ can't install ghostscript-mini-9.23-2.1.x86_64:
   package is obsoleted by ghostscript-9.23-2.1.x86_64
 can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
+can't install oxygen4-cursors-4.11.22-15.3.x86_64:
+  package is obsoleted by oxygen5-cursors-5.13.3-1.1.x86_64
 can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-kf5-porting-18.04.2-1.1.x86_64
 can't install akonadi-runtime-1.13.0-11.4.x86_64:
@@ -69,6 +65,13 @@ can't install qpid-tools-0.32-1.7.x86_64:
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidtypes.so.1()(64bit), but none of the providers can be installed
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidmessaging.so.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
+can't install patterns-kde-kde_imaging-20180709-1.1.noarch:
+  package patterns-kde-kde_imaging-20180709-1.1.noarch requires pattern() = kde_plasma, but none of the providers can be installed
+  package patterns-kde-kde_plasma-20180709-1.1.noarch requires plasma5-session, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have kwin5-5.13.2-1.1.x86_64)
+  nothing provides plasma5-desktop >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have plasma5-desktop-5.13.2-1.1.x86_64)
 can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -106,6 +109,12 @@ can't install caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch:
 can't install paperwork-0.3.2-1.7.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.7.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.7.noarch
+can't install plasma5-session-wayland-5.13.3-1.1.noarch:
+  package plasma5-session-wayland-5.13.3-1.1.noarch requires plasma5-session >= 5.13.3, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have kwin5-5.13.2-1.1.x86_64)
+  nothing provides plasma5-desktop >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have plasma5-desktop-5.13.2-1.1.x86_64)
 can't install sword-1.7.5~a1-2.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by sword-1.7.5~a1-2.2.x86_64
 can't install libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64:
@@ -119,6 +128,10 @@ can't install Herwig-devel-7.1.3-1.3.x86_64:
   nothing provides libRivet-2.5.4.so()(64bit) needed by ThePEG-libs-2.1.3-1.1.x86_64
 can't install python-django-registration-2.2-1.2.noarch:
   nothing provides python-Django >= 1.8 needed by python-django-registration-2.2-1.2.noarch
+can't install plasma5-desktop-5.13.2-1.1.x86_64:
+  package plasma5-desktop-5.13.2-1.1.x86_64 requires plasma5-workspace >= 5.13.2, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
 can't install libvotca_xtp4-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
@@ -139,6 +152,12 @@ can't install qpid-cpp-client-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
 can't install xiphos-4.0.7-1.2.x86_64:
   nothing provides libicui18n.so.60.2()(64bit) needed by xiphos-4.0.7-1.2.x86_64
+can't install patterns-kde-kde_plasma-20180709-1.1.noarch:
+  package patterns-kde-kde_plasma-20180709-1.1.noarch requires plasma5-session, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have kwin5-5.13.2-1.1.x86_64)
+  nothing provides plasma5-desktop >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have plasma5-desktop-5.13.2-1.1.x86_64)
 can't install Herwig-libs-7.1.3-1.3.x86_64:
   package Herwig-libs-7.1.3-1.3.x86_64 requires libThePEG.so.27()(64bit), but none of the providers can be installed
   nothing provides libRivet-2.5.4.so()(64bit) needed by ThePEG-libs-2.1.3-1.1.x86_64
@@ -219,10 +238,22 @@ can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
 can't install qore-xml-module-1.2-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.11.x86_64
-can't install NetworkManager-openswan-gnome-1.0.8-2.2.x86_64:
-  nothing provides libnm-gtk.so.0()(64bit) needed by NetworkManager-openswan-gnome-1.0.8-2.2.x86_64
+can't install patterns-media-rest_cd_kde-20170319-21.1.x86_64:
+  package patterns-media-rest_cd_kde-20170319-21.1.x86_64 requires pattern() = kde_plasma, but none of the providers can be installed
+  package patterns-kde-kde_plasma-20180709-1.1.noarch requires plasma5-session, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have kwin5-5.13.2-1.1.x86_64)
+  nothing provides plasma5-desktop >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have plasma5-desktop-5.13.2-1.1.x86_64)
 can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
   nothing provides python-Django >= 1.4.2 needed by python-django-debug-toolbar-1.3.0-1.3.noarch
+can't install patterns-kde-kde-20180709-1.1.noarch:
+  package patterns-kde-kde-20180709-1.1.noarch requires pattern() = kde_plasma, but none of the providers can be installed
+  package patterns-kde-kde_plasma-20180709-1.1.noarch requires plasma5-session, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have kwin5-5.13.2-1.1.x86_64)
+  nothing provides plasma5-desktop >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have plasma5-desktop-5.13.2-1.1.x86_64)
 can't install libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64:
   nothing provides libOpenThreads.so.20()(64bit) needed by libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64
   nothing provides libosg.so.131()(64bit) needed by libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64
@@ -234,6 +265,11 @@ can't install libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64:
   nothing provides libosgSim.so.131()(64bit) needed by libSimGearCore-2017_3_1-2017.3.1-3.3.x86_64
 can't install qpid-cpp-client-devel-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-devel-1.37.0-1.3.x86_64
+can't install plasma5-session-5.13.3-1.1.noarch:
+  nothing provides kwin5 >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have kwin5-5.13.2-1.1.x86_64)
+  nothing provides plasma5-desktop >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have plasma5-desktop-5.13.2-1.1.x86_64)
 can't install FlightGear-2017.3.1-3.4.x86_64:
   nothing provides libOpenThreads.so.20()(64bit) needed by FlightGear-2017.3.1-3.4.x86_64
   nothing provides libosg.so.131()(64bit) needed by FlightGear-2017.3.1-3.4.x86_64
@@ -273,6 +309,13 @@ can't install bibletime-2.11.1-1.1.x86_64:
 can't install libmidori-core1-32bit-0.5.11-4.3.x86_64:
   package libmidori-core1-32bit-0.5.11-4.3.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.2.x86_64
+can't install patterns-media-rest_dvd-20170319-21.1.x86_64:
+  package patterns-media-rest_dvd-20170319-21.1.x86_64 requires pattern() = kde_plasma, but none of the providers can be installed
+  package patterns-kde-kde_plasma-20180709-1.1.noarch requires plasma5-session, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have kwin5-5.13.2-1.1.x86_64)
+  nothing provides plasma5-desktop >= 5.13.3 needed by plasma5-session-5.13.3-1.1.noarch
+    (we have plasma5-desktop-5.13.2-1.1.x86_64)
 can't install ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64:
   package ruby2.5-rubygem-fluentd-testsuite-1.0.0-1.4.x86_64 requires rubygem(ruby:2.5.0:fluentd) = 1.0.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:strptime:0.1) >= 0.1.7 needed by ruby2.5-rubygem-fluentd-1.0.0-1.4.x86_64
@@ -284,6 +327,14 @@ can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
 can't install dkgpg-1.0.6-1.2.x86_64:
   nothing provides libTMCG.so.12()(64bit) needed by dkgpg-1.0.6-1.2.x86_64
+can't install plasma5-desktop-lang-5.13.2-1.1.noarch:
+  package plasma5-desktop-lang-5.13.2-1.1.noarch requires plasma5-desktop = 5.13.2, but none of the providers can be installed
+  package plasma5-desktop-5.13.2-1.1.x86_64 requires plasma5-workspace >= 5.13.2, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
+can't install plasma5-workspace-5.13.3-1.1.x86_64:
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
 can't install qore-pgsql-module-2.3-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.13.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
@@ -320,8 +371,18 @@ can't install libQtAVWidgets1-32bit-1.12.0-2.2.x86_64:
   package libQtAV1-32bit-1.12.0-2.2.x86_64 requires libavfilter.so.7, but none of the providers can be installed
   package libQtAV1-32bit-1.12.0-2.2.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
   nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
+can't install kf5-kcm-fcitx-icons-0.5.5-2.2.noarch:
+  package kf5-kcm-fcitx-icons-0.5.5-2.2.noarch requires kf5-kcm-fcitx = 0.5.5, but none of the providers can be installed
+  package kf5-kcm-fcitx-0.5.5-2.2.x86_64 requires plasma5-workspace, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
 can't install ruby2.5-rubygem-commander-4.4.4-1.1.x86_64:
   nothing provides rubygem(ruby:2.5.0:highline:1.7) >= 1.7.2 needed by ruby2.5-rubygem-commander-4.4.4-1.1.x86_64
+can't install sddm-branding-openSUSE-0.17.0-11.1.x86_64:
+  package sddm-branding-openSUSE-0.17.0-11.1.x86_64 requires sddm-theme-openSUSE, but none of the providers can be installed
+  package sddm-theme-openSUSE-15.0~git20180504T125857~b35c1c4-4.1.noarch requires plasma5-workspace, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
 can't install xiphos-lang-4.0.7-1.2.noarch:
   package xiphos-lang-4.0.7-1.2.noarch requires xiphos = 4.0.7, but none of the providers can be installed
   nothing provides libicui18n.so.60.2()(64bit) needed by xiphos-4.0.7-1.2.x86_64
@@ -335,6 +396,10 @@ can't install votca-xtp-devel-1.4.1-2.2.x86_64:
 can't install usbtop-0.2-1.2.x86_64:
   nothing provides libboost_system.so.1.66.0()(64bit) needed by usbtop-0.2-1.2.x86_64
   nothing provides libboost_thread.so.1.66.0()(64bit) needed by usbtop-0.2-1.2.x86_64
+can't install plasma5-workspace-lang-5.13.3-1.1.noarch:
+  package plasma5-workspace-lang-5.13.3-1.1.noarch requires plasma5-workspace = 5.13.3, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
 can't install libQtAV1-32bit-1.12.0-2.2.x86_64:
   package libQtAV1-32bit-1.12.0-2.2.x86_64 requires libavfilter.so.7, but none of the providers can be installed
   package libQtAV1-32bit-1.12.0-2.2.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
@@ -346,6 +411,10 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
+can't install kf5-kcm-fcitx-0.5.5-2.2.x86_64:
+  package kf5-kcm-fcitx-0.5.5-2.2.x86_64 requires plasma5-workspace, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
@@ -425,6 +494,10 @@ can't install python-espressopp-1.9.5-2.4.x86_64:
   nothing provides libboost_mpi.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
   nothing provides libboost_python-py2_7.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
   nothing provides libboost_serialization.so.1.66.0()(64bit) needed by python-espressopp-1.9.5-2.4.x86_64
+can't install sddm-theme-openSUSE-15.0~git20180504T125857~b35c1c4-4.1.noarch:
+  package sddm-theme-openSUSE-15.0~git20180504T125857~b35c1c4-4.1.noarch requires plasma5-workspace, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
 can't install gns3-2.0.3-1.3.noarch:
@@ -438,6 +511,10 @@ can't install pfstools-octave-2.0.6-1.5.x86_64:
   nothing provides liboctinterp.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
 can't install ThePEG-libs-2.1.3-1.1.x86_64:
   nothing provides libRivet-2.5.4.so()(64bit) needed by ThePEG-libs-2.1.3-1.1.x86_64
+can't install plasma5-workspace-branding-openSUSE-15.0~git20180504T125857~b35c1c4-4.1.noarch:
+  package plasma5-workspace-branding-openSUSE-15.0~git20180504T125857~b35c1c4-4.1.noarch requires plasma5-workspace >= 5.13.2, but none of the providers can be installed
+  nothing provides kwin5 >= 5.13.3. needed by plasma5-workspace-5.13.3-1.1.x86_64
+    (we have kwin5-5.13.2-1.1.x86_64)
 can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
