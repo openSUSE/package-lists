@@ -263,7 +263,6 @@ kdelibs4support
 kdenetwork4-filesharing
 kdialog
 kdoctools
-keditbookmarks
 keyutils
 kfilemetadata5
 kgamma5
@@ -278,6 +277,7 @@ kio-core
 kio-extras5
 kio_audiocd
 kirigami2
+kleopatra
 klogd
 kmag
 kmahjongg
@@ -293,6 +293,7 @@ konsole-part
 kpackage
 kpartx
 kpeople5
+kpimtextedit
 krb5
 kreversi
 kross
@@ -363,6 +364,8 @@ libKF5KHtml5
 libKF5KMahjongglib5
 libKF5Kipi32_0_0
 libKF5Kirigami2-5
+libKF5Libkleo5
+libKF5Mime5
 libKF5ModemManagerQt6
 libKF5NetworkManagerQt6
 libKF5NewStuff5
@@ -370,6 +373,7 @@ libKF5NewStuffCore5
 libKF5Notifications5
 libKF5NotifyConfig5
 libKF5Parts5
+libKF5PimTextEdit5
 libKF5Prison5
 libKF5Pty5
 libKF5Purpose5
@@ -680,6 +684,7 @@ libkeyutils1
 libkf5kdegames6
 libkioarchive5
 libkipi-data
+libkleo
 libkmahjongg
 libkmod2
 libkomparediff2-5
@@ -694,7 +699,6 @@ libldap-data
 libldapcpp1
 libldb1
 liblilv-0-0
-liblirc_client0
 liblmdb-0_9_22
 libltdl7
 liblua5_3-5
@@ -801,6 +805,7 @@ libpython3_6m1_0
 libqalculate17
 libqca-qt5
 libqca-qt5-plugins
+libqgpgme7
 libqmi-glib5
 libqmi-tools
 libqpdf21
@@ -1058,6 +1063,7 @@ patterns-kde-kde
 patterns-kde-kde_games
 patterns-kde-kde_internet
 patterns-kde-kde_multimedia
+patterns-kde-kde_pim
 patterns-kde-kde_plasma
 patterns-kde-kde_utilities
 patterns-kde-kde_yast
@@ -1166,7 +1172,6 @@ pulseaudio
 pulseaudio-bash-completion
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
-pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
