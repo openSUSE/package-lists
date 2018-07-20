@@ -792,13 +792,10 @@ libavahi-client3
 libavahi-common3
 libavahi-core7
 libavahi-glib1
-libavcodec56
 libavcodec58
-libavfilter5
-libavformat56
+libavfilter7
 libavformat58
-libavresample2
-libavutil54
+libavresample4
 libavutil56
 libbabl-0_1-0
 libbasicobjects0
@@ -1077,6 +1074,7 @@ libldap-2_4-2
 libldap-data
 libldapcpp1
 libldb1
+liblilv-0-0
 liblmdb-0_9_22
 liblockdev1
 liblpsolve55-0
@@ -1119,6 +1117,7 @@ libmusicbrainz5-1
 libmwaw-0_3-3
 libmypaint-1_3-0
 libmypaint-lang
+libmysofa0
 libmythes-1_2-0
 libncurses6
 libndp0
@@ -1152,7 +1151,6 @@ libopenal1
 libopenblas_pthreads0
 libopeniscsiusr0_1_0
 libopenjp2-7
-libopenjpeg1
 libopenmpt0
 libopenssl1_1
 libopus0
@@ -1175,6 +1173,7 @@ libpciaccess0
 libpcre1
 libpcre2-16-0
 libpcsclite1
+libpgm-5_2-0
 libphonon4qt5
 libpipeline1
 libpipewire-0_1-0
@@ -1193,7 +1192,7 @@ libpoppler-qt5-1
 libpoppler74
 libpopt0
 libportaudio2
-libpostproc53
+libpostproc55
 libpq5
 libprocps7
 libproxy1
@@ -1256,6 +1255,7 @@ libreoffice-writer
 librest-0_7-0
 librevenge-0_0-0
 librsvg-2-2
+librubberband2
 libruby2_5-2_5
 libsamba-credentials0
 libsamba-errors0
@@ -1266,7 +1266,6 @@ libsamdb0
 libsamplerate0
 libsasl2-3
 libsbc1
-libschroedinger-1_0-0
 libseccomp2
 libsecret-1-0
 libsecret-lang
@@ -1274,6 +1273,7 @@ libselinux1
 libsemanage1
 libsensors4
 libsepol1
+libserd-0-0
 libsgutils2-1_43-2
 libsigc-2_0-0
 libsignon-qt5-1
@@ -1288,8 +1288,10 @@ libsmputils1-1
 libsnapper4
 libsnappy1
 libsndfile1
+libsodium23
 libsoftokn3
 libsolv-tools
+libsord-0-0
 libsoup-2_4-1
 libsoup-lang
 libsoxr0
@@ -1299,6 +1301,7 @@ libspeechd2
 libspeex1
 libspeexdsp1
 libsqlite3-0
+libsratom-0-0
 libsrt1
 libssh2-1
 libssh4
@@ -1314,9 +1317,7 @@ libstorage-ng-lang
 libstorage-ng-ruby
 libstorage-ng1
 libsuitesparseconfig5
-libswresample1
 libswresample3
-libswscale3
 libswscale5
 libsystemd0
 libtag1
@@ -1360,6 +1361,7 @@ libva-x11-2
 libva2
 libvdpau1
 libverto1
+libvidstab1_1
 libvisio-0_1-1
 libvisual
 libvmtools0
@@ -1436,9 +1438,11 @@ libyui-qt-pkg8
 libyui-qt8
 libyui8
 libz1
+libzimg2
 libzio1
 libzip5
 libzmf-0_0-0
+libzmq5
 libzstd1
 libzypp
 libzypp-plugin-appdata
@@ -2032,6 +2036,7 @@ yast2-ycp-ui-bindings
 yp-tools
 ypbind
 zd1211-firmware
+zeromq-tools
 zip
 zypper
 zypper-aptitude
