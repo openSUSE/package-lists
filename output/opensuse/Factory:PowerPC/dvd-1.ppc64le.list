@@ -409,8 +409,6 @@ dragonplayer-lang
 drbd
 drbd-kmp-default
 drbd-utils
-dri2proto-devel
-dri3proto-devel
 drkonqi5
 drkonqi5-lang
 duplicity
@@ -432,9 +430,11 @@ elfutils
 elfutils-lang
 emacs
 emacs-apel
+emacs-flim
 emacs-info
 emacs-nox
 emacs-plugin-devhelp
+emacs-w3m
 emacs-x11
 enblend-enfuse
 enchant-1-backend-voikko
@@ -525,7 +525,6 @@ fipscheck
 firewall-macros
 firewalld
 firewalld-lang
-fixesproto-devel
 flac
 flatpak
 flatpak-builder
@@ -535,7 +534,6 @@ fontconfig
 fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
-fontsproto-devel
 fprintd
 fprintd-lang
 fprintd-pam
@@ -669,7 +667,6 @@ glibc-devel
 glibc-extra
 glibc-info
 glibc-locale
-glproto-devel
 gmp-devel
 gnome-backgrounds
 gnome-backgrounds-lang
@@ -1004,7 +1001,6 @@ indic-fonts
 info
 initviocons
 inn
-inputproto-devel
 insserv-compat
 inst-source-utils
 install-initrd-Kubic
@@ -1095,7 +1091,6 @@ kblocks
 kblocks-lang
 kbounce
 kbounce-lang
-kbproto-devel
 kbreakout
 kbreakout-lang
 kbruch
@@ -3691,7 +3686,6 @@ pragha-lang
 pragha-plugins
 prctl
 presage-data
-presentproto-devel
 printproto-devel
 prison-qt5-imports
 privoxy
@@ -3896,7 +3890,6 @@ quilt
 quota
 quota-nfs
 radvd
-randrproto-devel
 rarpd
 rcc-runtime
 rdesktop
@@ -3915,8 +3908,6 @@ remmina-plugin-rdp
 remmina-plugin-secret
 remmina-plugin-vnc
 remmina-plugin-xdmcp
-renderproto-devel
-resourceproto-devel
 rgb
 rhino
 ripit
@@ -4162,7 +4153,6 @@ scim-lang
 scim-qt4
 scout
 screen
-scrnsaverproto-devel
 sddm
 sddm-branding-openSUSE
 sddm-theme-openSUSE
@@ -4531,7 +4521,6 @@ valgrind
 vdr
 vdr-lang
 vhba-kmp-default
-videoproto-devel
 viewnior
 viewnior-lang
 viewvc
@@ -4613,7 +4602,6 @@ xdm-xsession
 xdmbgrd
 xdotool
 xerces-j2
-xextproto-devel
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -4645,7 +4633,6 @@ xf86-video-tga
 xf86-video-v4l
 xf86-video-vesa
 xf86-video-voodoo
-xf86driproto-devel
 xfce4-appfinder
 xfce4-appfinder-lang
 xfce4-dev-tools
@@ -4742,7 +4729,6 @@ xfwm4-lang
 xfwm4-themes
 xhost
 xhtml-dtd
-xineramaproto-devel
 xinetd
 xinit
 xkbcomp
@@ -4777,10 +4763,10 @@ xorg-x11-libX11-ccache
 xorg-x11-server
 xorg-x11-server-sdk
 xorg-x11-server-wayland
+xorgproto-devel
 xorriso
 xournal
 xprop
-xproto-devel
 xrandr
 xrdb
 xsane
