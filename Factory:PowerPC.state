@@ -1,11 +1,14 @@
-
-Request: https://api.opensuse.org/build/openSUSE:Factory:PowerPC/_result?package=bash&repository=standard
-Headers:
-content-language: en
-accept-ranges: bytes
-strict-transport-security: max-age=31536000
-vary: accept-language,accept-charset
-server: Apache/2.4.23 (Linux/SUSE)
-connection: close
-date: Tue, 24 Jul 2018 10:01:42 GMT
-content-type: text/html; charset=utf-8
+<resultlist state="273a72bb7f05861b21afa10ca9ac40e5">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc" code="unpublished" state="unpublished">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64" code="unpublished" state="unpublished">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64le" code="unpublished" state="unpublished">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished">
+    <status package="bash" code="disabled" />
+  </result>
+</resultlist>
