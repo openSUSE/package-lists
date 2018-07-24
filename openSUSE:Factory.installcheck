@@ -1,5 +1,7 @@
 can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-kf5-porting-18.04.3-1.1.x86_64
+can't install kdebase4-workspace-4.11.22-15.3.x86_64:
+  package is obsoleted by plasma5-desktop-5.13.3-1.2.x86_64
 can't install obexd-client-0.48-5.14.x86_64:
   package is obsoleted by bluez-5.50-1.2.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
@@ -30,8 +32,6 @@ can't install gettext-its-gtk3-3.22.30-3.1.x86_64:
   package is obsoleted by gettext-its-gtk4-3.93.0-3.2.x86_64
 can't install libpsm2-compat-10.3.46-1.2.x86_64:
   package is obsoleted by libpsm_infinipath1-3.3-9.2.x86_64
-can't install kdebase4-workspace-4.11.22-15.3.x86_64:
-  package is obsoleted by plasma5-desktop-5.13.3-1.1.x86_64
 can't install akonadi-runtime-1.13.0-11.4.x86_64:
   package is obsoleted by akonadi-server-18.04.3-1.1.x86_64
 can't install mate-calc-1.20.2-1.1.x86_64:
@@ -81,8 +81,6 @@ can't install python3-susepubliccloudinfo-amazon-1.0.2-1.3.noarch:
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
-can't install libwebkit2gtk-4_0-37-32bit-2.20.3-1.2.x86_64:
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.2.x86_64
 can't install caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch:
   nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch
   nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch
@@ -106,7 +104,7 @@ can't install sword-1.7.5~a1-2.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by sword-1.7.5~a1-2.2.x86_64
 can't install libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64:
   package libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.2.x86_64
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
@@ -163,6 +161,10 @@ can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
 can't install python-openstack-doc-tools-1.5.0-1.5.noarch:
   nothing provides python-cliff-tablib >= 1.0 needed by python-openstack-doc-tools-1.5.0-1.5.noarch
+can't install libQtAV1-32bit-1.12.0-2.3.x86_64:
+  package libQtAV1-32bit-1.12.0-2.3.x86_64 requires libavfilter.so.7, but none of the providers can be installed
+  package libQtAV1-32bit-1.12.0-2.3.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
+  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
@@ -255,7 +257,7 @@ can't install bibletime-2.11.1-1.1.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install libmidori-core1-32bit-0.5.11-4.3.x86_64:
   package libmidori-core1-32bit-0.5.11-4.3.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.2.x86_64
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install machinery-1.23.1-1.5.x86_64:
   package machinery-1.23.1-1.5.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
@@ -297,11 +299,6 @@ can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
 can't install pdf2djvu-lang-0.9.9-1.1.noarch:
   package pdf2djvu-lang-0.9.9-1.1.noarch requires pdf2djvu = 0.9.9, but none of the providers can be installed
   nothing provides libpoppler.so.73()(64bit) needed by pdf2djvu-0.9.9-1.1.x86_64
-can't install libQtAVWidgets1-32bit-1.12.0-2.2.x86_64:
-  package libQtAVWidgets1-32bit-1.12.0-2.2.x86_64 requires libQtAV.so.1, but none of the providers can be installed
-  package libQtAV1-32bit-1.12.0-2.2.x86_64 requires libavfilter.so.7, but none of the providers can be installed
-  package libQtAV1-32bit-1.12.0-2.2.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
@@ -316,10 +313,6 @@ can't install qpid-qmf-devel-1.37.0-1.3.x86_64:
 can't install votca-xtp-devel-1.4.1-2.2.x86_64:
   package votca-xtp-devel-1.4.1-2.2.x86_64 requires votca-xtp = 1.4.1, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
-can't install libQtAV1-32bit-1.12.0-2.2.x86_64:
-  package libQtAV1-32bit-1.12.0-2.2.x86_64 requires libavfilter.so.7, but none of the providers can be installed
-  package libQtAV1-32bit-1.12.0-2.2.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -340,7 +333,7 @@ can't install machinery-doc-1.23.1-1.5.x86_64:
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
 can't install libedataserverui-1_2-2-32bit-3.28.4-1.1.x86_64:
   package libedataserverui-1_2-2-32bit-3.28.4-1.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-1.2.x86_64
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
@@ -368,6 +361,8 @@ can't install qpid-cpp-server-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
+can't install libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64:
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install libavfilter7-32bit-4.0.1-1.1.x86_64:
   nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install sword-devel-1.7.5~a1-2.2.x86_64:
@@ -379,6 +374,11 @@ can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install switchboard-plug-networking-0.1.1-1.2.x86_64:
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
+can't install libQtAVWidgets1-32bit-1.12.0-2.3.x86_64:
+  package libQtAVWidgets1-32bit-1.12.0-2.3.x86_64 requires libQtAV.so.1, but none of the providers can be installed
+  package libQtAV1-32bit-1.12.0-2.3.x86_64 requires libavfilter.so.7, but none of the providers can be installed
+  package libQtAV1-32bit-1.12.0-2.3.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
+  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
@@ -410,6 +410,8 @@ can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
+can't install gambas3-gb-pdf-3.10.0-5.4.x86_64:
+  nothing provides libpoppler.so.74()(64bit) needed by gambas3-gb-pdf-3.10.0-5.4.x86_64
 can't install gns3-2.0.3-1.3.noarch:
   package gns3-2.0.3-1.3.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
