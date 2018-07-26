@@ -460,8 +460,6 @@ libhandle1
 libharfbuzz0
 libhavege1
 libhogweed4
-libibverbs
-libibverbs1
 libicu-suse61_1
 libicu61_1-ledata
 libidn12
@@ -502,7 +500,6 @@ libldb1
 liblightdm-gobject-1-0
 liblockdev1
 libltdl7
-liblttng-ust0
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
@@ -515,8 +512,6 @@ libmbim
 libmbim-glib4
 libmediacheck4
 libmetalink3
-libmlx4-1
-libmlx5-1
 libmm-glib0
 libmng2
 libmnl0
@@ -536,6 +531,8 @@ libnewt0_52
 libnfnetlink0
 libnfs11
 libnfsidmap-sss
+libnftables0
+libnftnl7
 libnghttp2-14
 libnilfs0
 libnilfscleaner0
@@ -597,7 +594,6 @@ libqrencode4
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
-librados2
 librcc0
 librcd0
 libreadline7
@@ -769,7 +765,6 @@ mpg123-pulse
 mpt-firmware
 mtools
 multipath-tools
-multipath-tools-rbd
 nano
 ncurses-utils
 net-tools
@@ -777,6 +772,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nftables
 nilfs-utils
 nma-data
 notification-daemon
@@ -941,7 +937,6 @@ python3-smbios-utils
 python3-zypp-plugin
 quota
 rcc-runtime
-rdma-core
 reiserfs
 rgb
 ristretto

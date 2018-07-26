@@ -237,6 +237,7 @@ glib2-tools
 glibc
 glibc-extra
 glibc-locale
+gmenudbusmenuproxy
 gnu-unifont-bitmap-fonts
 google-noto-fonts-doc
 google-roboto-fonts
@@ -881,8 +882,6 @@ libhttp_parser2_7_1
 libhunspell-1_6-0
 libhyphen0
 libibus-1_0-5
-libibverbs
-libibverbs1
 libical3
 libicu-suse61_1
 libicu61_1-ledata
@@ -950,7 +949,6 @@ liblilv-0-0
 liblmdb-0_9_22
 liblockdev1
 libltdl7
-liblttng-ust0
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
@@ -966,8 +964,6 @@ libmbim-glib4
 libmediacheck4
 libmetalink3
 libminizip1
-libmlx4-1
-libmlx5-1
 libmm-glib0
 libmng2
 libmnl0
@@ -997,6 +993,8 @@ libnettle6
 libnewt0_52
 libnfnetlink0
 libnfsidmap-sss
+libnftables0
+libnftnl7
 libnghttp2-14
 libnl-config
 libnl3-200
@@ -1080,7 +1078,6 @@ libqt5-qttranslations
 libqt5-qtvirtualkeyboard
 libqt5-qtwayland
 libqt5-qtwebengine
-librados2
 libraw1394-11
 libraw16
 librcc0
@@ -1308,7 +1305,6 @@ mpg123-pulse
 mpt-firmware
 mtools
 multipath-tools
-multipath-tools-rbd
 nano
 ncurses-utils
 net-tools
@@ -1317,6 +1313,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nftables
 noto-sans-fonts
 nscd
 nss-mdns
@@ -1553,7 +1550,6 @@ python3-zypp-plugin
 qqc2-desktop-style
 quota
 rcc-runtime
-rdma-core
 reiserfs
 release-notes-openSUSE
 rgb
@@ -1709,6 +1705,7 @@ xdg-user-dirs
 xdg-user-dirs-lang
 xdg-utils
 xdm
+xembedsniproxy
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

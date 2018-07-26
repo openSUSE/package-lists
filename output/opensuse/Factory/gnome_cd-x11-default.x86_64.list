@@ -393,8 +393,6 @@ libhavege1
 libhogweed4
 libhunspell-1_6-0
 libhyphen0
-libibverbs
-libibverbs1
 libicu-suse61_1
 libicu61_1-ledata
 libidn2-0
@@ -410,6 +408,7 @@ libisl19
 libisoburn1
 libisofs6
 libiw30
+libjansson4
 libjasper4
 libjavascriptcoregtk-4_0-18
 libjbig2
@@ -429,7 +428,6 @@ libldb1
 liblockdev1
 liblqr-1-0
 libltdl7
-liblttng-ust0
 liblua5_3-5
 liblwres160
 liblz4-1
@@ -438,8 +436,6 @@ liblzo2-2
 libmagic1
 libmediacheck4
 libmetalink3
-libmlx4-1
-libmlx5-1
 libmng2
 libmnl0
 libmodman1
@@ -460,6 +456,8 @@ libnetfilter_conntrack3
 libnettle6
 libnfnetlink0
 libnfs11
+libnftables0
+libnftnl7
 libnghttp2-14
 libnl-config
 libnl3-200
@@ -505,7 +503,6 @@ libqrencode4
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtimageformats
 libqt5-qttranslations
-librados2
 libreadline7
 libreiserfscore0
 librest-0_7-0
@@ -640,7 +637,6 @@ mozilla-nss
 mozilla-nss-certs
 mtools
 multipath-tools
-multipath-tools-rbd
 nano
 ncurses-utils
 net-tools
@@ -648,6 +644,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nftables
 notification-daemon
 nscd
 ntfs-3g
@@ -784,7 +781,6 @@ python3-six
 python3-slip
 python3-slip-dbus
 python3-zypp-plugin
-rdma-core
 release-notes-openSUSE
 rgb
 rpcbind

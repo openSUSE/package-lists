@@ -166,6 +166,7 @@ glib-networking
 glib2-tools
 glibc
 glibc-extra
+gmenudbusmenuproxy
 gnu-unifont-bitmap-fonts
 google-noto-fonts-doc
 google-roboto-fonts
@@ -741,6 +742,8 @@ libnetfilter_conntrack3
 libnettle6
 libnewt0_52
 libnfnetlink0
+libnftables0
+libnftnl7
 libnghttp2-14
 libnl-config
 libnl3-200
@@ -1022,6 +1025,7 @@ netcat-openbsd
 netcfg
 nfs-client
 nfsidmap
+nftables
 noto-sans-fonts
 nscd
 nss-mdns
@@ -1345,6 +1349,7 @@ xdg-menu
 xdg-user-dirs
 xdg-utils
 xdm
+xembedsniproxy
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard

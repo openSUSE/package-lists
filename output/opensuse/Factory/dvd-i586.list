@@ -128,9 +128,6 @@ apache2
 apache2-devel
 apache2-doc
 apache2-example-pages
-apache2-mod_dnssd
-apache2-mod_perl
-apache2-mod_php7
 apache2-prefork
 apache2-utils
 apparmor-abstractions
@@ -724,6 +721,7 @@ glibc-devel
 glibc-extra
 glibc-info
 glibc-locale
+gmenudbusmenuproxy
 gmp-devel
 gnome-backgrounds
 gnome-backgrounds-lang
@@ -2497,6 +2495,8 @@ libnewt0_52
 libnfnetlink0
 libnfs11
 libnfsidmap-sss
+libnftables0
+libnftnl7
 libnghttp2-14
 libnice10
 libnl-config
@@ -3279,7 +3279,6 @@ myspell-pl_PL
 myspell-pt_BR
 myspell-ru_RU
 nagios
-nagios-www
 nano
 nano-lang
 nasm
@@ -3311,6 +3310,7 @@ nfs-client
 nfs-doc
 nfs-kernel-server
 nfsidmap
+nftables
 nkf
 nma-data
 nmap
@@ -3541,10 +3541,8 @@ pcsc-towitoko
 perl
 perl-Algorithm-Diff
 perl-AnyEvent
-perl-Apache-AuthCookie
 perl-Apache-DBI
 perl-Apache-Session
-perl-Apache-SessionX
 perl-AppConfig
 perl-Archive-Zip
 perl-Authen-SASL
@@ -3683,7 +3681,6 @@ perl-JSON
 perl-JSON-XS
 perl-LWP-MediaTypes
 perl-LWP-Protocol-https
-perl-Linux-Pid
 perl-List-MoreUtils
 perl-List-MoreUtils-XS
 perl-Log-Dispatch
@@ -3780,7 +3777,6 @@ perl-Text-Kakasi
 perl-Text-Soundex
 perl-Text-Unidecode
 perl-Tie-Cache
-perl-Tie-IxHash
 perl-Time-Duration
 perl-Time-Period
 perl-Time-modules
@@ -4533,8 +4529,6 @@ subversion
 subversion-bash-completion
 subversion-doc
 subversion-perl
-subversion-python
-subversion-server
 subversion-tools
 sudo
 sunpinyin-data
@@ -4821,7 +4815,6 @@ vdr-lang
 vhba-kmp-default
 viewnior
 viewnior-lang
-viewvc
 vim
 vim-data
 vim-data-common
@@ -4901,6 +4894,7 @@ xdm
 xdm-xsession
 xdmbgrd
 xdotool
+xembedsniproxy
 xen-libs
 xen-tools-domU
 xerces-j2
