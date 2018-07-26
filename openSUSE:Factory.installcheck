@@ -44,17 +44,6 @@ can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
 can't install oxygen4-cursors-4.11.22-15.3.x86_64:
   package is obsoleted by oxygen5-cursors-5.13.3-1.1.x86_64
-can't install gdal-devel-2.3.1-3.2.x86_64:
-  package gdal-devel-2.3.1-3.2.x86_64 requires libgdal20 = 2.3.1, but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install libSimGearCore-2018_2_2-2018.2.2-1.1.x86_64:
-  package libSimGearCore-2018_2_2-2018.2.2-1.1.x86_64 requires OpenSceneGraph-plugins = 3.4.1, but none of the providers can be installed
-  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install cacti-doc-1.1.38-1.1.noarch:
-  package cacti-doc-1.1.38-1.1.noarch requires cacti = 1.1.38, but none of the providers can be installed
-  package cacti-1.1.38-1.1.noarch requires mod_php_any >= 5.4, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
 can't install qpid-tools-0.32-1.7.x86_64:
@@ -62,8 +51,6 @@ can't install qpid-tools-0.32-1.7.x86_64:
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidtypes.so.1()(64bit), but none of the providers can be installed
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidmessaging.so.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
-can't install apache2-mod_maxminddb-1.1.0-1.3.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_maxminddb-1.1.0-1.3.x86_64
 can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -75,10 +62,6 @@ can't install hgview-1.8.2-3.13.noarch:
 can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
-can't install adminer-pgsql-4.6.3-1.1.noarch:
-  package adminer-pgsql-4.6.3-1.1.noarch requires adminer = 4.6.3, but none of the providers can be installed
-  package adminer-4.6.3-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.2-1.3.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.2-1.3.noarch
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
@@ -103,34 +86,16 @@ can't install caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch:
 can't install paperwork-0.3.2-1.7.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.7.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.7.noarch
-can't install apache2-mod_evasive-1.10.1-14.10.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_evasive-1.10.1-14.10.x86_64
 can't install sword-1.7.5~a1-2.2.x86_64:
   nothing provides libicuuc.so.60.2()(64bit) needed by sword-1.7.5~a1-2.2.x86_64
-can't install kopano-webapp-3.4.13-1.1.noarch:
-  package kopano-webapp-3.4.13-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64:
   package libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install postfixadmin-3.2-1.1.noarch:
-  package postfixadmin-3.2-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install python-django-registration-2.2-1.2.noarch:
   nothing provides python-Django >= 1.8 needed by python-django-registration-2.2-1.2.noarch
-can't install python-gdal-2.3.1-3.2.x86_64:
-  package python-gdal-2.3.1-3.2.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install owasp-modsecurity-crs-optional_rules-2.2.9-2.3.noarch:
-  package owasp-modsecurity-crs-optional_rules-2.2.9-2.3.noarch requires owasp-modsecurity-crs = 2.2.9, but none of the providers can be installed
-  package owasp-modsecurity-crs-2.2.9-2.3.noarch requires apache2-mod_security2, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_security2-2.9.2-1.3.x86_64
-can't install nagios-www-4.3.4-7.1.x86_64:
-  package nagios-www-4.3.4-7.1.x86_64 requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install libvotca_xtp4-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
@@ -148,12 +113,6 @@ can't install qpid-cpp-client-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
 can't install xiphos-4.0.7-1.2.x86_64:
   nothing provides libicui18n.so.60.2()(64bit) needed by xiphos-4.0.7-1.2.x86_64
-can't install apache2-mod_jk-1.2.43-1.3.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_jk-1.2.43-1.3.x86_64
-can't install otrs-itsm-5.0.28-1.1.noarch:
-  package otrs-itsm-5.0.28-1.1.noarch requires otrs >= 5.0.28, but none of the providers can be installed
-  package otrs-5.0.28-1.1.noarch requires apache2-mod_perl, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
@@ -174,13 +133,6 @@ can't install patterns-caasp-Stack-4.0-3.1.x86_64:
   nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch
   nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch
   nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch
-can't install perl-Apache-Filter-1.024-239.7.x86_64:
-  package perl-Apache-Filter-1.024-239.7.x86_64 requires apache2-mod_perl, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
-can't install nextcloud-13.0.5-1.1.noarch:
-  package nextcloud-13.0.5-1.1.noarch requires mod_php_any >= 5.6.0, but none of the providers can be installed
-  package nextcloud-13.0.5-1.1.noarch requires mod_php_any < 7.3.0, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install octave-forge-vrml-1.0.13-1.9.x86_64:
   package octave-forge-vrml-1.0.13-1.9.x86_64 requires octave-forge-linear-algebra, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
@@ -196,12 +148,6 @@ can't install libQtAV1-32bit-1.12.0-2.3.x86_64:
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
-can't install nagios-www-dch-4.3.4-7.1.x86_64:
-  package nagios-www-dch-4.3.4-7.1.x86_64 requires nagios-www = 4.3.4, but none of the providers can be installed
-  package nagios-www-4.3.4-7.1.x86_64 requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install apache2-mod_php7-7.2.7-1.3.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -219,16 +165,9 @@ can't install octave-forge-mechanics-1.3.1-1.11.x86_64:
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
 can't install qore-json-module-1.4-5.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.11.x86_64
-can't install octave-forge-mapping-1.2.1-1.10.x86_64:
-  package octave-forge-mapping-1.2.1-1.10.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install apache2-mod_perl-2.0.10-2.2.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
 can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
   package wok-plugins-kimchi-2.5.0-2.2.noarch requires wok = 2.5.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install apache2-mod_auth_kerb-5.4-3.11.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_auth_kerb-5.4-3.11.x86_64
 can't install python-gcs-oauth2-boto-plugin-1.14-1.5.noarch:
   nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.5.noarch
 can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
@@ -245,40 +184,12 @@ can't install qpid-tests-1.37.0-1.2.noarch:
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidtypes.so.1()(64bit), but none of the providers can be installed
   package python-qpid-qmf-1.37.0-1.3.x86_64 requires libqpidmessaging.so.2()(64bit), but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
-can't install apache2-mod_wsgi-python3-4.5.18-2.3.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_wsgi-python3-4.5.18-2.3.x86_64
-can't install apache2-mod_dnssd-0.6-28.3.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_dnssd-0.6-28.3.x86_64
-can't install adminer-editor-4.6.3-1.1.noarch:
-  package adminer-editor-4.6.3-1.1.noarch requires adminer = 4.6.3, but none of the providers can be installed
-  package adminer-4.6.3-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install qore-xml-module-1.2-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.11.x86_64
-can't install phpPgAdmin-5.1-5.4.noarch:
-  package phpPgAdmin-5.1-5.4.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install owasp-modsecurity-crs-experimental_rules-2.2.9-2.3.noarch:
-  package owasp-modsecurity-crs-experimental_rules-2.2.9-2.3.noarch requires owasp-modsecurity-crs = 2.2.9, but none of the providers can be installed
-  package owasp-modsecurity-crs-2.2.9-2.3.noarch requires apache2-mod_security2, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_security2-2.9.2-1.3.x86_64
 can't install python-django-debug-toolbar-1.3.0-1.3.noarch:
   nothing provides python-Django >= 1.4.2 needed by python-django-debug-toolbar-1.3.0-1.3.noarch
-can't install matomo-3.5.1-1.1.noarch:
-  package matomo-3.5.1-1.1.noarch requires mod_php_any >= 5.5.9, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install bugzilla-lang-de-5.0.4-2.1.noarch:
-  package bugzilla-lang-de-5.0.4-2.1.noarch requires bugzilla = 5.0.4-2.1, but none of the providers can be installed
-  package bugzilla-5.0.4-2.1.noarch requires apache2-mod_perl >= 1.999022, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
-can't install otrs-5.0.28-1.1.noarch:
-  package otrs-5.0.28-1.1.noarch requires apache2-mod_perl, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
 can't install qpid-cpp-client-devel-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-devel-1.37.0-1.3.x86_64
-can't install mysql-workbench-6.3.10-3.3.x86_64:
-  package mysql-workbench-6.3.10-3.3.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
 can't install qore-uuid-module-1.3-3.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.12.x86_64
 can't install peerunity-qt-0.2.2-3.5.x86_64:
@@ -288,9 +199,6 @@ can't install peerunity-qt-0.2.2-3.5.x86_64:
   nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libminiupnpc.so.16()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libqrencode.so.3()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
-can't install robinhood-webgui-3.1-2.4.x86_64:
-  package robinhood-webgui-3.1-2.4.x86_64 requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install qpid-cpp-server-store-1.37.0-1.3.x86_64:
   package qpid-cpp-server-store-1.37.0-1.3.x86_64 requires qpid-cpp-server = 1.37.0, but none of the providers can be installed
   package qpid-cpp-server-1.37.0-1.3.x86_64 requires libqpidtypes.so.1()(64bit), but none of the providers can be installed
@@ -306,56 +214,21 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
-can't install adminer-sqlite-4.6.3-1.1.noarch:
-  package adminer-sqlite-4.6.3-1.1.noarch requires adminer = 4.6.3, but none of the providers can be installed
-  package adminer-4.6.3-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install OpenSceneGraph34-plugins-3.4.1-1.1.x86_64:
-  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install roundcubemail-1.3.6-1.1.noarch:
-  package roundcubemail-1.3.6-1.1.noarch requires mod_php_any >= 5.3, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install bibletime-2.11.1-1.1.x86_64:
   package bibletime-2.11.1-1.1.x86_64 requires libsword-1.7.5.so()(64bit), but none of the providers can be installed
   nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
   nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
-can't install icingaweb2-module-director-1.4.3-1.2.noarch:
-  package icingaweb2-module-director-1.4.3-1.2.noarch requires icingaweb2 >= 2.2.0, but none of the providers can be installed
-  package icingaweb2-2.5.3-5.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install libmidori-core1-32bit-0.5.11-4.3.x86_64:
   package libmidori-core1-32bit-0.5.11-4.3.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
-can't install perl-gdal-2.3.1-3.2.x86_64:
-  package perl-gdal-2.3.1-3.2.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
 can't install machinery-1.23.1-1.5.x86_64:
   package machinery-1.23.1-1.5.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
-can't install OpenSceneGraph-plugins-3.6.2-1.1.x86_64:
-  package OpenSceneGraph-plugins-3.6.2-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install moinmoin-wiki-1.9.9-1.2.noarch:
-  package moinmoin-wiki-1.9.9-1.2.noarch requires apache2-mod_wsgi, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_wsgi-4.5.18-2.3.x86_64
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install apache2-mod_fcgid-2.3.9-9.6.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_fcgid-2.3.9-9.6.x86_64
 can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
-can't install cacti-spine-1.1.38-1.2.x86_64:
-  package cacti-spine-1.1.38-1.2.x86_64 requires cacti = 1.1.38, but none of the providers can be installed
-  package cacti-1.1.38-1.1.noarch requires mod_php_any >= 5.4, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install perl-Apache2-AuthCookieDBI-2.17-5.9.noarch:
-  package perl-Apache2-AuthCookieDBI-2.17-5.9.noarch requires perl(Apache2::RequestRec), but none of the providers can be installed
-  package perl-Apache2-AuthCookieDBI-2.17-5.9.noarch requires perl(Apache2::Const), but none of the providers can be installed
-  package perl-Apache2-AuthCookieDBI-2.17-5.9.noarch requires perl(Apache2::ServerUtil), but none of the providers can be installed
-  package perl-Apache2-AuthCookieDBI-2.17-5.9.noarch requires perl(mod_perl2) >= 1.999022, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
 can't install qore-pgsql-module-2.3-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.13.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
@@ -366,9 +239,6 @@ can't install peerunityd-0.2.2-3.5.x86_64:
   nothing provides libboost_system.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
   nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
   nothing provides libminiupnpc.so.16()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
-can't install gdal-2.3.1-3.2.x86_64:
-  package gdal-2.3.1-3.2.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
 can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -378,21 +248,8 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
 can't install octave-forge-image-2.6.1-1.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-image-2.6.1-1.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-image-2.6.1-1.3.x86_64
-can't install nagios-theme-exfoliation-4.3.4-7.1.noarch:
-  package nagios-theme-exfoliation-4.3.4-7.1.noarch requires nagios-www >= 3.0, but none of the providers can be installed
-  package nagios-www-4.3.4-7.1.x86_64 requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install libgdal20-2.3.1-3.2.x86_64:
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
 can't install python-django-mediasync-2.2.0-10.8.noarch:
   nothing provides python-boto needed by python-django-mediasync-2.2.0-10.8.noarch
-can't install icingaweb2-2.5.3-5.1.noarch:
-  package icingaweb2-2.5.3-5.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install owasp-modsecurity-crs-slr_rules-2.2.9-2.3.noarch:
-  package owasp-modsecurity-crs-slr_rules-2.2.9-2.3.noarch requires owasp-modsecurity-crs = 2.2.9, but none of the providers can be installed
-  package owasp-modsecurity-crs-2.2.9-2.3.noarch requires apache2-mod_security2, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_security2-2.9.2-1.3.x86_64
 can't install gstreamer-plugins-libav-32bit-1.14.1-1.3.x86_64:
   package gstreamer-plugins-libav-32bit-1.14.1-1.3.x86_64 requires libavfilter.so.7, but none of the providers can be installed
   package gstreamer-plugins-libav-32bit-1.14.1-1.3.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
@@ -400,10 +257,6 @@ can't install gstreamer-plugins-libav-32bit-1.14.1-1.3.x86_64:
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
-can't install apache2-mod_encoding-0.0.20021209-1.6.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_encoding-0.0.20021209-1.6.x86_64
-can't install apache2-mod_authn_otp-1.1.8-1.4.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_authn_otp-1.1.8-1.4.x86_64
 can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
@@ -425,19 +278,6 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
-can't install cobbler-2.8.2-4.2.noarch:
-  package cobbler-2.8.2-4.2.noarch requires apache2-mod_wsgi, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_wsgi-4.5.18-2.3.x86_64
-can't install submin-svn-2.2.1.1-1.7.noarch:
-  package submin-svn-2.2.1.1-1.7.noarch requires subversion-server, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by subversion-server-1.10.0-2.5.x86_64
-can't install adminer-designs-4.6.3-1.1.noarch:
-  package adminer-designs-4.6.3-1.1.noarch requires adminer = 4.6.3, but none of the providers can be installed
-  package adminer-4.6.3-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install mailgraph-1.14-3.2.noarch:
-  package mailgraph-1.14-3.2.noarch requires apache2-mod_perl, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
@@ -452,10 +292,6 @@ can't install machinery-doc-1.23.1-1.5.x86_64:
 can't install libedataserverui-1_2-2-32bit-3.28.4-1.1.x86_64:
   package libedataserverui-1_2-2-32bit-3.28.4-1.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
-can't install adminer-firebird-4.6.3-1.1.noarch:
-  package adminer-firebird-4.6.3-1.1.noarch requires adminer = 4.6.3, but none of the providers can be installed
-  package adminer-4.6.3-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
@@ -472,13 +308,6 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install submin-apache-2.2.1.1-1.7.noarch:
-  package submin-apache-2.2.1.1-1.7.noarch requires apache2-mod_wsgi, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_wsgi-4.5.18-2.3.x86_64
-can't install owasp-modsecurity-crs-base_rules-2.2.9-2.3.noarch:
-  package owasp-modsecurity-crs-base_rules-2.2.9-2.3.noarch requires owasp-modsecurity-crs = 2.2.9, but none of the providers can be installed
-  package owasp-modsecurity-crs-2.2.9-2.3.noarch requires apache2-mod_security2, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_security2-2.9.2-1.3.x86_64
 can't install libavdevice58-32bit-4.0.1-1.1.x86_64:
   package libavdevice58-32bit-4.0.1-1.1.x86_64 requires libavfilter.so.7, but none of the providers can be installed
   package libavdevice58-32bit-4.0.1-1.1.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
@@ -488,16 +317,10 @@ can't install qpid-cpp-server-1.37.0-1.3.x86_64:
   package qpid-cpp-server-1.37.0-1.3.x86_64 requires libqpidcommon.so.2()(64bit), but none of the providers can be installed
   package qpid-cpp-server-1.37.0-1.3.x86_64 requires qpid-cpp-client = 1.37.0-1.3, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
-can't install perl-Apache-SessionX-2.01-244.6.x86_64:
-  package perl-Apache-SessionX-2.01-244.6.x86_64 requires apache2-mod_perl, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
 can't install libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64:
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
-can't install apache2-mod_perl-devel-2.0.10-2.2.x86_64:
-  package apache2-mod_perl-devel-2.0.10-2.2.x86_64 requires apache2-mod_perl = 2.0.10, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
 can't install libavfilter7-32bit-4.0.1-1.1.x86_64:
   nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install sword-devel-1.7.5~a1-2.2.x86_64:
@@ -517,9 +340,6 @@ can't install libQtAVWidgets1-32bit-1.12.0-2.3.x86_64:
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
-can't install cobbler-web-2.8.2-4.2.noarch:
-  package cobbler-web-2.8.2-4.2.noarch requires apache2-mod_wsgi, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_wsgi-4.5.18-2.3.x86_64
 can't install hgview-qt4-1.8.2-3.13.noarch:
   package hgview-qt4-1.8.2-3.13.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
@@ -529,8 +349,6 @@ can't install python-qpid-qmf-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
 can't install qore-mysql-module-2.0.1-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.1-4.11.x86_64
-can't install apache2-mod_wsgi-4.5.18-2.3.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_wsgi-4.5.18-2.3.x86_64
 can't install qpid-cpp-server-ha-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-server-ha-1.37.0-1.3.x86_64
 can't install python-qpid_messaging-1.37.0-1.3.x86_64:
@@ -540,24 +358,8 @@ can't install python-qpid_messaging-1.37.0-1.3.x86_64:
 can't install gns3-server-2.0.3-1.4.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
-can't install FlightGear-2018.2.2-1.1.x86_64:
-  package libSimGearCore-2018_2_2-2018.2.2-1.1.x86_64 requires OpenSceneGraph-plugins = 3.4.1, but none of the providers can be installed
-  package FlightGear-2018.2.2-1.1.x86_64 requires libSimGearCore.so.2018.2.2()(64bit), but none of the providers can be installed
-  package FlightGear-2018.2.2-1.1.x86_64 requires libSimGearScene.so.2018.2.2()(64bit), but none of the providers can be installed
-  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install apache2-mod_security2-2.9.2-1.3.x86_64:
-  nothing provides apache_mmn_20120211 needed by apache2-mod_security2-2.9.2-1.3.x86_64
 can't install openlmi-python-test-0.6.0-11.4.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.4.noarch
-can't install SimGear-devel-2018.2.2-1.1.x86_64:
-  package libSimGearCore-2018_2_2-2018.2.2-1.1.x86_64 requires OpenSceneGraph-plugins = 3.4.1, but none of the providers can be installed
-  package SimGear-devel-2018.2.2-1.1.x86_64 requires libSimGearCore-2018_2_2 = 2018.2.2, but none of the providers can be installed
-  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install owasp-modsecurity-crs-2.2.9-2.3.noarch:
-  package owasp-modsecurity-crs-2.2.9-2.3.noarch requires apache2-mod_security2, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_security2-2.9.2-1.3.x86_64
 can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
@@ -565,54 +367,17 @@ can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
 can't install gambas3-gb-pdf-3.10.0-5.4.x86_64:
   nothing provides libpoppler.so.74()(64bit) needed by gambas3-gb-pdf-3.10.0-5.4.x86_64
-can't install adminer-mysql-4.6.3-1.1.noarch:
-  package adminer-mysql-4.6.3-1.1.noarch requires adminer = 4.6.3, but none of the providers can be installed
-  package adminer-4.6.3-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install gns3-2.0.3-1.3.noarch:
   package gns3-2.0.3-1.3.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
-can't install openmw-0.43.0-2.3.x86_64:
-  package openmw-0.43.0-2.3.x86_64 requires OpenSceneGraph-plugins, but none of the providers can be installed
-  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  package OpenSceneGraph-plugins-3.6.2-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
 can't install pfstools-octave-2.0.6-1.5.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
-can't install python3-gdal-2.3.1-3.2.x86_64:
-  package python3-gdal-2.3.1-3.2.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
-  nothing provides libkea.so.1.4.7()(64bit) needed by libgdal20-2.3.1-3.2.x86_64
-can't install subversion-server-1.10.0-2.5.x86_64:
-  nothing provides apache_mmn_20120211 needed by subversion-server-1.10.0-2.5.x86_64
 can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
-can't install ganglia-web-3.7.2-3.1.noarch:
-  package ganglia-web-3.7.2-3.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install cobbler-tests-2.8.2-4.2.noarch:
-  package cobbler-tests-2.8.2-4.2.noarch requires cobbler, but none of the providers can be installed
-  package cobbler-2.8.2-4.2.noarch requires apache2-mod_wsgi, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_wsgi-4.5.18-2.3.x86_64
-can't install perl-Apache-AuthCookie-3.25-1.4.noarch:
-  package perl-Apache-AuthCookie-3.25-1.4.noarch requires perl(mod_perl2) >= 1.999022, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
-can't install bugzilla-5.0.4-2.1.noarch:
-  package bugzilla-5.0.4-2.1.noarch requires apache2-mod_perl >= 1.999022, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_perl-2.0.10-2.2.x86_64
-can't install cacti-1.1.38-1.1.noarch:
-  package cacti-1.1.38-1.1.noarch requires mod_php_any >= 5.4, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
-can't install submin-2.2.1.1-1.7.noarch:
-  package submin-2.2.1.1-1.7.noarch requires submin-backend, but none of the providers can be installed
-  package submin-svn-2.2.1.1-1.7.noarch requires subversion-server, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by subversion-server-1.10.0-2.5.x86_64
-can't install adminer-4.6.3-1.1.noarch:
-  package adminer-4.6.3-1.1.noarch requires mod_php_any, but none of the providers can be installed
-  nothing provides apache_mmn_20120211 needed by apache2-mod_php7-7.2.7-1.3.x86_64
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
