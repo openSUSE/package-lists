@@ -86,8 +86,6 @@ can't install caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch:
 can't install paperwork-0.3.2-1.7.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.7.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.7.noarch
-can't install sword-1.7.5~a1-2.2.x86_64:
-  nothing provides libicuuc.so.60.2()(64bit) needed by sword-1.7.5~a1-2.2.x86_64
 can't install libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64:
   package libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
@@ -109,10 +107,11 @@ can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
   package ruby2.5-stdlib-2.5.0-4.3.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.10.x86_64
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
+can't install libedataserverui-1_2-2-32bit-3.28.4-2.1.x86_64:
+  package libedataserverui-1_2-2-32bit-3.28.4-2.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
+  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install qpid-cpp-client-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
-can't install xiphos-4.0.7-1.2.x86_64:
-  nothing provides libicui18n.so.60.2()(64bit) needed by xiphos-4.0.7-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
@@ -214,10 +213,6 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
-can't install bibletime-2.11.1-1.1.x86_64:
-  package bibletime-2.11.1-1.1.x86_64 requires libsword-1.7.5.so()(64bit), but none of the providers can be installed
-  nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
-  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install libmidori-core1-32bit-0.5.11-4.3.x86_64:
   package libmidori-core1-32bit-0.5.11-4.3.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
@@ -261,9 +256,6 @@ can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
-can't install xiphos-lang-4.0.7-1.2.noarch:
-  package xiphos-lang-4.0.7-1.2.noarch requires xiphos = 4.0.7, but none of the providers can be installed
-  nothing provides libicui18n.so.60.2()(64bit) needed by xiphos-4.0.7-1.2.x86_64
 can't install qpid-qmf-devel-1.37.0-1.3.x86_64:
   package qpid-qmf-devel-1.37.0-1.3.x86_64 requires qpid-cpp-client-devel >= 1.37.0, but none of the providers can be installed
   package qpid-qmf-devel-1.37.0-1.3.x86_64 requires pkgconfig(qpid), but none of the providers can be installed
@@ -281,17 +273,11 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
-can't install libsword-1_7_5-1.7.5~a1-2.2.x86_64:
-  nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
-  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install machinery-doc-1.23.1-1.5.x86_64:
   package machinery-doc-1.23.1-1.5.x86_64 requires machinery = 1.23.1, but none of the providers can be installed
   package machinery-1.23.1-1.5.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
-can't install libedataserverui-1_2-2-32bit-3.28.4-1.1.x86_64:
-  package libedataserverui-1_2-2-32bit-3.28.4-1.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
@@ -323,10 +309,6 @@ can't install libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64:
   nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install libavfilter7-32bit-4.0.1-1.1.x86_64:
   nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
-can't install sword-devel-1.7.5~a1-2.2.x86_64:
-  package sword-devel-1.7.5~a1-2.2.x86_64 requires libsword-1_7_5 = 1.7.5~a1, but none of the providers can be installed
-  nothing provides libicui18n.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
-  nothing provides libicuuc.so.60.2()(64bit) needed by libsword-1_7_5-1.7.5~a1-2.2.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
