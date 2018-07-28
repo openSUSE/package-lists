@@ -86,9 +86,6 @@ can't install caasp-container-manifests-4.0.0+git_r316_7a19ed1-1.1.noarch:
 can't install paperwork-0.3.2-1.7.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.7.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.7.noarch
-can't install libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64:
-  package libgoa-backend-1_0-1-32bit-3.28.0-2.2.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
@@ -107,9 +104,6 @@ can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
   package ruby2.5-stdlib-2.5.0-4.3.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.10.x86_64
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
-can't install libedataserverui-1_2-2-32bit-3.28.4-2.1.x86_64:
-  package libedataserverui-1_2-2-32bit-3.28.4-2.1.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install qpid-cpp-client-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
@@ -140,10 +134,6 @@ can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
 can't install python-openstack-doc-tools-1.5.0-1.5.noarch:
   nothing provides python-cliff-tablib >= 1.0 needed by python-openstack-doc-tools-1.5.0-1.5.noarch
-can't install libQtAV1-32bit-1.12.0-2.3.x86_64:
-  package libQtAV1-32bit-1.12.0-2.3.x86_64 requires libavfilter.so.7, but none of the providers can be installed
-  package libQtAV1-32bit-1.12.0-2.3.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
@@ -213,9 +203,6 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
-can't install libmidori-core1-32bit-0.5.11-4.3.x86_64:
-  package libmidori-core1-32bit-0.5.11-4.3.x86_64 requires libwebkit2gtk-4.0.so.37, but none of the providers can be installed
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
 can't install machinery-1.23.1-1.5.x86_64:
   package machinery-1.23.1-1.5.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
@@ -240,15 +227,8 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
-can't install octave-forge-image-2.6.1-1.3.x86_64:
-  nothing provides liboctave.so.4()(64bit) needed by octave-forge-image-2.6.1-1.3.x86_64
-  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-image-2.6.1-1.3.x86_64
 can't install python-django-mediasync-2.2.0-10.8.noarch:
   nothing provides python-boto needed by python-django-mediasync-2.2.0-10.8.noarch
-can't install gstreamer-plugins-libav-32bit-1.14.1-1.3.x86_64:
-  package gstreamer-plugins-libav-32bit-1.14.1-1.3.x86_64 requires libavfilter.so.7, but none of the providers can be installed
-  package gstreamer-plugins-libav-32bit-1.14.1-1.3.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
@@ -294,10 +274,6 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install libavdevice58-32bit-4.0.1-1.1.x86_64:
-  package libavdevice58-32bit-4.0.1-1.1.x86_64 requires libavfilter.so.7, but none of the providers can be installed
-  package libavdevice58-32bit-4.0.1-1.1.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install qpid-cpp-server-1.37.0-1.3.x86_64:
   package qpid-cpp-server-1.37.0-1.3.x86_64 requires libqpidtypes.so.1()(64bit), but none of the providers can be installed
   package qpid-cpp-server-1.37.0-1.3.x86_64 requires libqpidcommon.so.2()(64bit), but none of the providers can be installed
@@ -305,20 +281,11 @@ can't install qpid-cpp-server-1.37.0-1.3.x86_64:
   nothing provides libboost_program_options.so.1.66.0()(64bit) needed by qpid-cpp-client-1.37.0-1.3.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
-can't install libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64:
-  nothing provides libwoff2dec.so.1.0.2 needed by libwebkit2gtk-4_0-37-32bit-2.20.3-2.1.x86_64
-can't install libavfilter7-32bit-4.0.1-1.1.x86_64:
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install switchboard-plug-networking-0.1.1-1.2.x86_64:
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
-can't install libQtAVWidgets1-32bit-1.12.0-2.3.x86_64:
-  package libQtAVWidgets1-32bit-1.12.0-2.3.x86_64 requires libQtAV.so.1, but none of the providers can be installed
-  package libQtAV1-32bit-1.12.0-2.3.x86_64 requires libavfilter.so.7, but none of the providers can be installed
-  package libQtAV1-32bit-1.12.0-2.3.x86_64 requires libavfilter.so.7(LIBAVFILTER_7), but none of the providers can be installed
-  nothing provides libzmq.so.5 needed by libavfilter7-32bit-4.0.1-1.1.x86_64
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
