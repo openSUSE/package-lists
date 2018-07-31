@@ -87,6 +87,7 @@ alsa-utils
 amarok
 amavisd-new
 amavisd-new-docs
+amtk-5-lang
 anjuta
 anjuta-extras
 anjuta-extras-lang
@@ -523,7 +524,6 @@ filesystem
 fillup
 findutils
 findutils-lang
-fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -1196,13 +1196,11 @@ kdoctools
 kdoctools-lang
 kdump
 kernel-default
-kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 kf5-kcm-fcitx
@@ -1638,6 +1636,7 @@ libaio1
 libakonadi4
 libakonadiprotocolinternals1
 libamd2
+libamtk-5-0
 libanjuta-3-0
 libao-plugins4
 libao4
@@ -1683,12 +1682,10 @@ libavc1394-0
 libavcodec57
 libavcodec58
 libavdevice58
-libavfilter6
 libavfilter7
 libavformat57
 libavformat58
 libavogadrolibs-suse0
-libavresample3
 libavresample4
 libavutil55
 libavutil56
@@ -1899,7 +1896,6 @@ libffi7
 libfftw3-3
 libfftw3_threads3
 libfind2_0
-libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -2424,7 +2420,6 @@ libpoppler77
 libpopt0
 libportaudio2
 libportmidi0
-libpostproc54
 libpostproc55
 libpowerman0
 libpq5
@@ -2990,7 +2985,6 @@ mozc-gui-tools
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
-mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -3547,7 +3541,6 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4056,6 +4049,7 @@ ruby2.5-rubygem-multipart-post
 ruby2.5-rubygem-mustermann
 ruby2.5-rubygem-mustermann-grape
 ruby2.5-rubygem-mysql2
+ruby2.5-rubygem-mysql2-0.4
 ruby2.5-rubygem-net-scp
 ruby2.5-rubygem-net-ssh
 ruby2.5-rubygem-nio4r
