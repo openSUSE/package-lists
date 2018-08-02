@@ -521,6 +521,7 @@ filesystem
 fillup
 findutils
 findutils-lang
+fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -1191,11 +1192,13 @@ kdoctools
 kdoctools-lang
 kdump
 kernel-default
+kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
+kernel-syms
 kexec-tools
 keyutils
 kf5-kcm-fcitx
@@ -1914,6 +1917,7 @@ libffi7-32bit
 libfftw3-3
 libfftw3_threads3
 libfind2_0
+libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -2891,12 +2895,12 @@ libxtables12
 libyajl2
 libyaml-0-2
 libyelp0
-libyui-ncurses-pkg8
-libyui-ncurses8
-libyui-qt-graph8
-libyui-qt-pkg8
-libyui-qt8
-libyui8
+libyui-ncurses-pkg9
+libyui-ncurses9
+libyui-qt-graph9
+libyui-qt-pkg9
+libyui-qt9
+libyui9
 libz1
 libz1-32bit
 libzapojit-0_0-0
@@ -3033,6 +3037,7 @@ mousetweaks-lang
 mozilla-nspr
 mozilla-nss
 mozilla-nss-certs
+mozilla-nss-tools
 mpfr-devel
 mpg123-openal
 mpg123-pulse
@@ -3593,6 +3598,7 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
+pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -3777,7 +3783,6 @@ python-ipaddress
 python-liblarch
 python-liblarch_gtk
 python-notify
-python-pyliblzma
 python-qt5-utils
 python-rpm-macros
 python-sip-common
@@ -3819,6 +3824,7 @@ python2-pycparser
 python2-pycryptodome
 python2-pycurl
 python2-pygame
+python2-pyliblzma
 python2-pyparsing
 python2-python-dateutil
 python2-pyudev
