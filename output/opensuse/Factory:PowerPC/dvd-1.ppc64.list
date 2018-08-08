@@ -852,8 +852,6 @@ gstreamer-plugins-ugly-lang
 gstreamer-transcoder
 gstreamer-utils
 gstreamer-validate
-gtg
-gtg-lang
 gthumb
 gthumb-lang
 gtk-vnc-lang
@@ -2345,6 +2343,8 @@ libnewt0_52
 libnfnetlink0
 libnfs11
 libnfsidmap-sss
+libnftables0
+libnftnl7
 libnghttp2-14
 libnice10
 libnl-config
@@ -3089,6 +3089,7 @@ nfs-client
 nfs-doc
 nfs-kernel-server
 nfsidmap
+nftables
 nkf
 nma-data
 nmap
@@ -3779,9 +3780,6 @@ python-gnome-dvb-daemon
 python-gobject2
 python-gtk
 python-ipaddress
-python-liblarch
-python-liblarch_gtk
-python-notify
 python-qt5-utils
 python-rpm-macros
 python-sip-common
