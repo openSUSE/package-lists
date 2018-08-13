@@ -1,4 +1,7 @@
-At revision 5d32cfe00d3d648ddf06a64f5540c213.
+Link "openSUSE:Factory:PowerPC/000product" cannot be expanded:
+ conflict in file openSUSE.product
+Use "osc repairlink" to fix merge conflicts.
+
 testing 13.1-x86_64-update.t
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC-standard-x86_64.solv'
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC:NonFree-standard-x86_64.solv'
