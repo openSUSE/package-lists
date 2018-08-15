@@ -1,7 +1,17 @@
-Link "openSUSE:Factory:PowerPC/000product" cannot be expanded:
- conflict in file openSUSE.product
-Use "osc repairlink" to fix merge conflicts.
+Server returned an error: HTTP Error 500: Internal Server Error
 
+Request: https://api.opensuse.org/source/openSUSE:Factory:PowerPC/000product?linkrev=5778b09e4b9051b008bacb454c5ecd8c&rev=latest
+Headers:
+status: 500 Internal Server Error
+x-request-id: 33c10a43-91b6-4612-bda2-e6235bb4351d
+x-powered-by: Phusion Passenger 5.3.2
+connection: close
+strict-transport-security: max-age=31536000
+content-length: 131
+server: Apache/2.4.23 (Linux/SUSE)
+x-runtime: 2.555055
+date: Wed, 15 Aug 2018 23:22:13 GMT
+content-type: application/xml; charset=utf-8
 testing 13.1-x86_64-update.t
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC-standard-x86_64.solv'
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC:NonFree-standard-x86_64.solv'
