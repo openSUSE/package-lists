@@ -1,4 +1,4 @@
-<resultlist state="5cdd9d04e2a85be79b1d86af6118efa8">
+<resultlist state="11917766d8dba49167e9076e72115add">
   <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc" code="unpublished" state="unpublished">
     <status package="bash" code="unresolvable">
       <details>nothing provides rpm-config-SUSE needed by rpm</details>
@@ -10,7 +10,7 @@
   <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64le" code="unpublished" state="unpublished">
     <status package="bash" code="succeeded" />
   </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="blocked" state="blocked">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished">
     <status package="bash" code="disabled" />
   </result>
 </resultlist>
