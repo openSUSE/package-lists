@@ -1113,6 +1113,8 @@ namespace namespace:modalias(usb:v07B8p8812d*dc*dsc*dp*ic*isc*ip*in*)) @SYSTEM
 namespace namespace:modalias(usb:v07B8pB000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v083Ap3501d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v083Ap4505d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9051d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v0846p9051d*dc*dsc*dp*ic*isc*ip*in*)) @SYSTEM
 namespace namespace:modalias(usb:v0864p410[02]d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v08E6p0430d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:v08E6p0432d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
@@ -1215,10 +1217,15 @@ namespace namespace:modalias(usb:v2357p010Dd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v2357p010Ed*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v2357p010Fd*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v2357p010[13DEF]d*dc*dsc*dp*ic*isc*ip*in*)) @SYSTEM
+namespace namespace:modalias(usb:v2357p0122d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2357p0122d*dc*dsc*dp*ic*isc*ip*in*)) @SYSTEM
 namespace namespace:modalias(usb:v256Fp*d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v2604p0012d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
+namespace namespace:modalias(usb:v2604p0012d*dc*dsc*dp*ic*isc*ip*in*)) @SYSTEM
 namespace namespace:modalias(usb:v6891pA727d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
+namespace namespace:modalias(usb:v7392pA812d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
 namespace namespace:modalias(usb:v7392pA822d*dc*dsc*dp*ic*isc*ip*in*) @SYSTEM
-namespace namespace:modalias(usb:v7392pA822d*dc*dsc*dp*ic*isc*ip*in*)) @SYSTEM
+namespace namespace:modalias(usb:v7392pA8[12]2d*dc*dsc*dp*ic*isc*ip*in*)) @SYSTEM
 namespace namespace:modalias(usb:v8086p0200d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(usb:vFFFFp0000d*dc*dsc*dp*ic*isc*ip*) @SYSTEM
 namespace namespace:modalias(virtio:d00000003v*)) @SYSTEM
@@ -1749,6 +1756,7 @@ job install name bash-completion [weak]
 job install name bash-doc [weak]
 job install name bash-lang [weak]
 job install name bbswitch-kmp-default [weak]
+job install name bbswitch-kmp-pae [weak]
 job install name bc [weak]
 job install name bcm20702a1-firmware [weak]
 job install name bcm43xx-firmware [weak]
@@ -2363,6 +2371,7 @@ job install name gzip [weak]
 job install name haveged [weak]
 job install name hddtemp [weak]
 job install name hdjmod-kmp-default [weak]
+job install name hdjmod-kmp-pae [weak]
 job install name hdparm [weak]
 job install name health-checker [weak]
 job install name heaptrack-gui [weak]
@@ -2614,6 +2623,8 @@ job install name kernel-default [weak]
 job install name kernel-default-devel [weak]
 job install name kernel-docs [weak]
 job install name kernel-firmware [weak]
+job install name kernel-pae [weak]
+job install name kernel-pae-devel [weak]
 job install name kernel-source [weak]
 job install name kernel-syms [weak]
 job install name kexec-tools [weak]
@@ -3074,6 +3085,7 @@ job install name lsof [weak]
 job install name lsscsi [weak]
 job install name ltrace [weak]
 job install name lttng-modules-kmp-default [weak]
+job install name lttng-modules-kmp-pae [weak]
 job install name lv [weak]
 job install name lvm2 [weak]
 job install name lxappearance [weak]
@@ -3138,6 +3150,7 @@ job install name messagelib-lang [weak]
 job install name metamail [weak]
 job install name mgopen-fonts [weak]
 job install name mhvtl-kmp-default [weak]
+job install name mhvtl-kmp-pae [weak]
 job install name midori-branding-openSUSE [weak]
 job install name milou5-lang [weak]
 job install name minicom [weak]
@@ -3359,6 +3372,7 @@ job install name pavucontrol [weak]
 job install name pavucontrol-lang [weak]
 job install name pbm2l7k [weak]
 job install name pcfclock-kmp-default [weak]
+job install name pcfclock-kmp-pae [weak]
 job install name pciutils [weak]
 job install name pcmanfm [weak]
 job install name pcmanfm-lang [weak]
@@ -4073,6 +4087,7 @@ job install name swig [weak]
 job install name syntax-highlighting [weak]
 job install name sysconfig [weak]
 job install name sysdig-kmp-default [weak]
+job install name sysdig-kmp-pae [weak]
 job install name syslinux [weak]
 job install name sysprof-lang [weak]
 job install name system-config-printer [weak]
@@ -4202,11 +4217,13 @@ job install name util-linux [weak]
 job install name util-linux-lang [weak]
 job install name util-linux-systemd [weak]
 job install name v4l2loopback-kmp-default [weak]
+job install name v4l2loopback-kmp-pae [weak]
 job install name vacation [weak]
 job install name valgrind [weak]
 job install name vdr [weak]
 job install name vdr-lang [weak]
 job install name vhba-kmp-default [weak]
+job install name vhba-kmp-pae [weak]
 job install name viewnior [weak]
 job install name viewnior-lang [weak]
 job install name viewvc [weak]
@@ -4356,6 +4373,7 @@ job install name xfce4-panel-plugin-sensors [weak]
 job install name xfce4-panel-plugin-sensors-lang [weak]
 job install name xfce4-panel-plugin-smartbookmark [weak]
 job install name xfce4-panel-plugin-smartbookmark-lang [weak]
+job install name xfce4-panel-plugin-statusnotifier-lang [weak]
 job install name xfce4-panel-plugin-systemload [weak]
 job install name xfce4-panel-plugin-systemload-lang [weak]
 job install name xfce4-panel-plugin-timeout [weak]
@@ -4429,6 +4447,7 @@ job install name xscreensaver-lang [weak]
 job install name xslide [weak]
 job install name xstroke [weak]
 job install name xtables-addons-kmp-default [weak]
+job install name xtables-addons-kmp-pae [weak]
 job install name xterm [weak]
 job install name xterm-bin [weak]
 job install name xtermset [weak]
@@ -6848,6 +6867,7 @@ job install name xfce4-panel-plugin-pulseaudio-lang [weak]
 job install name xfce4-panel-plugin-screenshooter [weak]
 job install name xfce4-panel-plugin-sensors [weak]
 job install name xfce4-panel-plugin-smartbookmark [weak]
+job install name xfce4-panel-plugin-statusnotifier-lang [weak]
 job install name xfce4-panel-plugin-systemload [weak]
 job install name xfce4-panel-plugin-timeout [weak]
 job install name xfce4-panel-plugin-timer [weak]
