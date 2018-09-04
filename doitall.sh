@@ -25,7 +25,7 @@ case $proj in
         ;;
 esac
 
-(cd osc/openSUSE\:$proj/$product/ && osc up -e)
+(cd osc/openSUSE\:$proj/$product/ && (osc up -u; osc up -e))
 osc api "/build/openSUSE:$proj/_result?package=bash&repository=$repo" > "$proj.state"
 if grep -q 'dirty="true"' "$proj.state" || grep -q 'state="building"' "$proj.state"; then
    echo "$repo still dirty"
