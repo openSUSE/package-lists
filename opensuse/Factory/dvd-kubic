@@ -7,6 +7,7 @@ job lock name libudev-mini1
 
 job install provides pattern() = SUSE%2dMicroOS
 job install provides pattern() = kubeadm
+job install provides pattern() = SUSE%2dCaaSP%2dalt%2donlyDVD
 job install name kernel-default
 
 #job lock name Mesa
