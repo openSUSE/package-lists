@@ -47,6 +47,7 @@ for arch in $arches; do
       if [ "$proj" = "Factory" ]; then
         ./mk_group.sh output/opensuse/$proj/dvd-kubic.$arch.list openSUSE-Kubic osc/openSUSE:$proj/$product/openSUSE-Kubic.group
         ./mk_group.sh output/opensuse/$proj/dvd-kubic-addon.$arch.list openSUSE-Kubic-DVD osc/openSUSE:$proj/$product/openSUSE-Kubic-DVD.group
+        ./mk_group.sh output/opensuse/$proj/dvd-kubic-3.$arch.list openSUSE-Kubic-DVD osc/openSUSE:$proj/$product/openSUSE-Kubic-3.group
       fi
     fi
 done
