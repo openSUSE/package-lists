@@ -157,6 +157,7 @@ for arch in $arches; do
            perl create_solv.pl openSUSE:$proj:Containers container $arch
            ./gen-kubic.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
            ./gen-kubic.pl opensuse/$proj/dvd-kubic-addon $arch "$proj" $repo
+           ./gen-kubic.pl opensuse/$proj/dvd-kubic-3 $arch "$proj" $repo
          fi
        fi
     fi

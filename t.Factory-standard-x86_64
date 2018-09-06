@@ -1,16 +1,13 @@
 repo openSUSE:Factory-standard-x86_64 0 solv trees/openSUSE:Factory-standard-x86_64.solv
 repo openSUSE:Factory:Containers-standard-x86_64 0 solv trees/openSUSE:Factory:Containers-container-x86_64.solv
-# No recommended packages on the DVD
+
+# The Kubic DVD is supposed to be small, build without recommended packages
 solverflags ignorerecommended
 
 # We can't use ignore_opensuse, as that also ignores openSUSE-Kubic-release
 job lock name libudev-mini1
 
-job install provides pattern() = SUSE%2dCaaSP%2donlyDVD
-
-job install name openSUSE-Tumbleweed-Kubic-release
-job install name systemd-presets-branding-CAASP
-job lock name systemd-presets-branding-openSUSE
+job install provides pattern() = SUSE%2dCaaSP%2dalt%2donlyDVD
 
 
 result transaction,problems <inline>
