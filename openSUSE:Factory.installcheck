@@ -14,7 +14,7 @@ can't install oxygen4-cursors-4.11.22-15.3.x86_64:
   package is obsoleted by oxygen5-cursors-5.13.4-1.2.x86_64
 can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
-can't install akonadi-runtime-1.13.0-11.5.x86_64:
+can't install akonadi-runtime-1.13.0-11.6.x86_64:
   package is obsoleted by akonadi-server-18.08.0-2.1.x86_64
 can't install libevtlog-devel-0.2.13-2.7.x86_64:
   package is obsoleted by syslog-ng-devel-3.14.1-2.2.x86_64
@@ -44,26 +44,66 @@ can't install gettext-its-gtk3-3.22.30-5.1.x86_64:
   package is obsoleted by gettext-its-gtk4-3.93.0-4.1.x86_64
 can't install libOgreMain-devel-1.9.0-3.5.x86_64:
   package libOgreMain-devel-1.9.0-3.5.x86_64 requires libOgreMain1_9_0 = 1.9.0, but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
 can't install python2-PsychoPy-1.90.3-1.1.noarch:
   package python2-moviepy-0.2.3.5-2.1.noarch requires python2-imageio >= 2.1.2, but none of the providers can be installed
   package python2-PsychoPy-1.90.3-1.1.noarch requires python2-moviepy, but none of the providers can be installed
   package python2-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+can't install trytond_purchase-4.2.6-1.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_purchase-4.2.6-1.1.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreProperty-devel-1.9.0-3.5.x86_64:
-  package libOgreProperty1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreProperty-devel-1.9.0-3.5.x86_64 requires libOgreProperty1_9_0 = 1.9.0, but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  package libOgreProperty-devel-1.9.0-3.5.x86_64 requires libOgreMain-devel, but none of the providers can be installed
+  package libOgreProperty-devel-1.9.0-3.5.x86_64 requires pkgconfig(OGRE) = 1.9.0, but none of the providers can be installed
+  package libOgreMain-devel-1.9.0-3.5.x86_64 requires libOgreMain1_9_0 = 1.9.0, but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
 can't install MyGUI-demo-3.2.2-2.3.x86_64:
-  package MyGUI-demo-3.2.2-2.3.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by MyGUI-demo-3.2.2-2.3.x86_64
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
+can't install libreoffice-l10n-bg-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-bg-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-hi-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-hi-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-is-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-is-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install qpid-tools-0.32-1.7.x86_64:
   nothing provides python-qpid-qmf needed by qpid-tools-0.32-1.7.x86_64
+can't install libreoffice-l10n-pa-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-pa-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install machinery-doc-1.23.1-1.6.x86_64:
   package machinery-doc-1.23.1-1.6.x86_64 requires machinery = 1.23.1, but none of the providers can be installed
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
@@ -75,27 +115,113 @@ can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
+can't install libreoffice-l10n-ja-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ja-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install hgview-1.8.2-3.13.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
+can't install libreoffice-l10n-lb-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-lb-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-tt-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-tt-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install gtg-lang-0.3.1-6.1.noarch:
   package gtg-lang-0.3.1-6.1.noarch requires gtg = 0.3.1, but none of the providers can be installed
   nothing provides python-liblarch_gtk >= 2.1 needed by gtg-0.3.1-6.1.noarch
 can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
+can't install libreoffice-gnome-6.1.0.3-1.4.x86_64:
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libfilelo.so()(64bit), but none of the providers can be installed
+  package libreoffice-gnome-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install qore-uuid-module-1.3-3.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.13.x86_64
+can't install libreoffice-l10n-cs-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-cs-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install libreoffice-l10n-ro-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ro-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-brx-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-brx-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-gug-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-gug-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ts-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ts-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreOverlay-devel-1.9.0-3.5.x86_64:
-  package libOgreOverlay1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
   package libOgreOverlay-devel-1.9.0-3.5.x86_64 requires libOgreOverlay1_9_0 = 1.9.0, but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreOverlay1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-l10n-am-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-am-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install libreoffice-l10n-it-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-it-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install gnome-documents-3.28.2-1.1.x86_64:
+  package gnome-documents_books-common-3.28.2-1.1.x86_64 requires typelib(LOKDocView), but none of the providers can be installed
+  package gnome-documents-3.28.2-1.1.x86_64 requires gnome-documents_books-common = 3.28.2, but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires liblibreofficekitgtk.so()(64bit), but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-qt5-6.1.0.3-1.4.x86_64:
+  nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by libreoffice-qt5-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ar-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ar-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-uz-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-uz-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-bs-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-bs-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ast-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ast-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libvotca_xtp4-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
@@ -108,44 +234,257 @@ can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.4.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.10.x86_64
 can't install libOgreOverlay1_9_0-1.9.0-3.5.x86_64:
-  package libOgreOverlay1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreOverlay1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-l10n-br-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-br-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-kab-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-kab-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install freeorion-data-0.4.7.1-2.3.noarch:
+  package freeorion-data-0.4.7.1-2.3.noarch requires freeorion = 0.4.7.1, but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_regex.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_iostreams.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_log.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_python-py2_7.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_serialization.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
 can't install paperwork-0.3.2-1.8.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.8.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
+can't install libreoffice-l10n-mk-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-mk-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-lv-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-lv-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-fi-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-fi-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
+can't install libreofficekit-6.1.0.3-1.4.x86_64:
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires liblibreofficekitgtk.so()(64bit), but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-bo-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-bo-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install trytond_currency-4.2.2-1.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_currency-4.2.2-1.1.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install guix-0.15.0-1.4.x86_64:
   package guix-0.15.0-1.4.x86_64 requires libguile-ssh11, but none of the providers can be installed
   nothing provides libssh_threads.so.4()(64bit) needed by libguile-ssh11-0.11.3-1.2.x86_64
 can't install MyGUI-3.2.2-2.3.x86_64:
-  package MyGUI-3.2.2-2.3.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by MyGUI-3.2.2-2.3.x86_64
 can't install guile-ssh-devel-0.11.3-1.2.x86_64:
   package guile-ssh-devel-0.11.3-1.2.x86_64 requires libguile-ssh11 = 0.11.3-1.2, but none of the providers can be installed
   nothing provides libssh_threads.so.4()(64bit) needed by libguile-ssh11-0.11.3-1.2.x86_64
+can't install gnome-books-3.28.2-1.1.x86_64:
+  package gnome-documents_books-common-3.28.2-1.1.x86_64 requires typelib(LOKDocView), but none of the providers can be installed
+  package gnome-books-3.28.2-1.1.x86_64 requires gnome-documents_books-common = 3.28.2, but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires liblibreofficekitgtk.so()(64bit), but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install gnome-shell-search-provider-documents-3.28.2-1.1.x86_64:
+  package gnome-documents-3.28.2-1.1.x86_64 requires gnome-documents_books-common = 3.28.2, but none of the providers can be installed
+  package gnome-documents_books-common-3.28.2-1.1.x86_64 requires typelib(LOKDocView), but none of the providers can be installed
+  package gnome-shell-search-provider-documents-3.28.2-1.1.x86_64 requires gnome-documents = 3.28.2, but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires liblibreofficekitgtk.so()(64bit), but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-eu-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-eu-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-math-6.1.0.3-1.4.x86_64:
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libi18nlangtag.so()(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.8)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.2)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libooxlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.5)(64bit), but none of the providers can be installed
+  package libreoffice-math-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-rw-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-rw-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-vec-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-vec-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install MyGUI-devel-3.2.2-2.3.x86_64:
-  package MyGUI-devel-3.2.2-2.3.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by MyGUI-devel-3.2.2-2.3.x86_64
+can't install libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64:
+  package libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install libreoffice-l10n-kmr_Latn-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-kmr_Latn-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install gtg-0.3.1-6.1.noarch:
   nothing provides python-liblarch_gtk >= 2.1 needed by gtg-0.3.1-6.1.noarch
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install gnuhealth-3.2.10-3.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package gnuhealth-3.2.10-3.1.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-pyuno-6.1.0.3-1.4.x86_64:
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ogre-demos-1.9.0-3.5.x86_64:
-  package ogre-demos-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by ogre-demos-1.9.0-3.5.x86_64
+can't install libreoffice-l10n-ml-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ml-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install octave-forge-vrml-1.0.13-1.9.x86_64:
   package octave-forge-vrml-1.0.13-1.9.x86_64 requires octave-forge-linear-algebra, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install libreoffice-draw-6.1.0.3-1.4.x86_64:
+  nothing provides libpoppler.so.77()(64bit) needed by libreoffice-draw-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-sr-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sr-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
+  package libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install trytond_account_invoice_stock-4.2.0-1.3.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_account_invoice_stock-4.2.0-1.3.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libfreeimageplus3-3.17.0-4.4.x86_64:
   package libfreeimageplus3-3.17.0-4.4.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+can't install tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64:
+  package tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64 requires tomahawk = 0.8.99~git20180422T140543, but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
+  nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
+can't install libreoffice-l10n-sl-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sl-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install photoqt-1.7.1-1.3.x86_64:
   nothing provides libraw.so.16()(64bit) needed by photoqt-1.7.1-1.3.x86_64
 can't install python3-PsychoPy-lang-1.90.3-1.1.noarch:
@@ -156,18 +495,54 @@ can't install python3-PsychoPy-lang-1.90.3-1.1.noarch:
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
+can't install libreoffice-l10n-mn-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-mn-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-lo-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-lo-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install slade-3.1.1.5-6.2.x86_64:
   package slade-3.1.1.5-6.2.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
-can't install python-openstack-doc-tools-1.5.0-1.5.noarch:
-  nothing provides python-cliff-tablib >= 1.0 needed by python-openstack-doc-tools-1.5.0-1.5.noarch
 can't install libOgreTerrain1_9_0-1.9.0-3.5.x86_64:
-  package libOgreTerrain1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_chrono.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-filters-optional-6.1.0.3-1.4.x86_64:
+  package libreoffice-filters-optional-6.1.0.3-1.4.x86_64 requires libreoffice-draw = 6.1.0.3, but none of the providers can be installed
+  nothing provides libpoppler.so.77()(64bit) needed by libreoffice-draw-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-vi-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-vi-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ko-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ko-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-gd-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-gd-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
+can't install freeorion-0.4.7.1-2.3.x86_64:
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_regex.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_iostreams.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_log.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_python-py2_7.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+  nothing provides libboost_serialization.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+can't install libreoffice-l10n-he-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-he-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -179,34 +554,233 @@ can't install wok-plugins-ginger-2.4.0-3.2.noarch:
   package wok-plugins-ginger-2.4.0-3.2.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install libreoffice-l10n-om-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-om-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreMain1_9_0-1.9.0-3.5.x86_64:
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-base-6.1.0.3-1.4.x86_64:
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libi18nlangtag.so()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.2)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libforlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libdbalo.so()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libforuilo.so()(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.2)(64bit), but none of the providers can be installed
+  package libreoffice-base-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-nn-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-nn-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-gl-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-gl-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install qore-json-module-1.4-5.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.11.x86_64
+can't install libreoffice-l10n-ne-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ne-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
   package wok-plugins-kimchi-2.5.0-2.2.noarch requires wok = 2.5.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install python-gcs-oauth2-boto-plugin-1.14-1.5.noarch:
   nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.5.noarch
+can't install libreoffice-l10n-af-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-af-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
   nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
+can't install trytond_purchase_request-4.2.3-1.2.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_purchase_request-4.2.3-1.2.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
+can't install libreoffice-l10n-de-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-de-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-zh_CN-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-zh_CN-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-en-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-en-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-tn-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-tn-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install proteus-4.2.4-1.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package proteus-4.2.4-1.1.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-th-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-th-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install gnome-documents-lang-3.28.2-1.1.noarch:
+  package gnome-documents-3.28.2-1.1.x86_64 requires gnome-documents_books-common = 3.28.2, but none of the providers can be installed
+  package gnome-documents_books-common-3.28.2-1.1.x86_64 requires typelib(LOKDocView), but none of the providers can be installed
+  package gnome-documents-lang-3.28.2-1.1.noarch requires gnome-documents = 3.28.2, but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires liblibreofficekitgtk.so()(64bit), but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-xh-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-xh-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install python3-imageio-2.3.0-1.1.noarch:
   package python3-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+can't install libreoffice-l10n-ve-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ve-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
+can't install libreoffice-l10n-tr-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-tr-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install trytond-4.2.15-1.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreRTShaderSystem1_9_0-1.9.0-3.5.x86_64:
-  package libOgreRTShaderSystem1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreRTShaderSystem1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-l10n-pt_BR-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-pt_BR-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreofficekit-devel-6.1.0.3-1.4.x86_64:
+  package libreofficekit-devel-6.1.0.3-1.4.x86_64 requires libreofficekit = 6.1.0.3, but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires liblibreofficekitgtk.so()(64bit), but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgrePaging1_9_0-1.9.0-3.5.x86_64:
-  package libOgrePaging1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgrePaging1_9_0-1.9.0-3.5.x86_64
+can't install trytond_stock_supply-4.2.2-1.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_stock_supply-4.2.2-1.1.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libfreeimage3-3.17.0-4.4.x86_64:
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
 can't install peerunity-qt-0.2.2-3.5.x86_64:
@@ -216,6 +790,10 @@ can't install peerunity-qt-0.2.2-3.5.x86_64:
   nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libminiupnpc.so.16()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libqrencode.so.3()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
+can't install libreoffice-l10n-sq-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sq-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -225,14 +803,83 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
+can't install libreoffice-l10n-et-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-et-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ks-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ks-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-kk-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-kk-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install trytond_party-4.2.4-1.3.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_party-4.2.4-1.3.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreProperty1_9_0-1.9.0-3.5.x86_64:
   package libOgreProperty1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-l10n-ss-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ss-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-tg-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-tg-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ug-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ug-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-gu-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-gu-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ka-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ka-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-eo-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-eo-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-dz-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-dz-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install libguile-ssh11-0.11.3-1.2.x86_64:
   nothing provides libssh_threads.so.4()(64bit) needed by libguile-ssh11-0.11.3-1.2.x86_64
+can't install libreoffice-l10n-nb-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-nb-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install python2-imageio-2.3.0-1.1.noarch:
   package python2-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
@@ -254,15 +901,23 @@ can't install caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch:
   nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch
 can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
+can't install libreoffice-gdb-pretty-printers-6.1.0.3-1.4.noarch:
+  package libreoffice-gdb-pretty-printers-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreVolume-devel-1.9.0-3.5.x86_64:
-  package libOgreVolume1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
   package libOgreVolume-devel-1.9.0-3.5.x86_64 requires libOgreVolume1_9_0 = 1.9.0, but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreVolume1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreVolume1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_chrono.so.1.67.0()(64bit) needed by libOgreVolume1_9_0-1.9.0-3.5.x86_64
 can't install python3-moviepy-0.2.3.5-2.1.noarch:
   package python3-moviepy-0.2.3.5-2.1.noarch requires python3-imageio >= 2.1.2, but none of the providers can be installed
   package python3-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+can't install libreoffice-l10n-sid-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sid-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
 can't install peerunityd-0.2.2-3.5.x86_64:
@@ -271,6 +926,29 @@ can't install peerunityd-0.2.2-3.5.x86_64:
   nothing provides libboost_system.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
   nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
   nothing provides libminiupnpc.so.16()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
+can't install libreoffice-impress-6.1.0.3-1.4.x86_64:
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libwriterperfectlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-impress-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -278,34 +956,97 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
 can't install libOgrePaging-devel-1.9.0-3.5.x86_64:
-  package libOgrePaging1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
   package libOgrePaging-devel-1.9.0-3.5.x86_64 requires libOgrePaging1_9_0 = 1.9.0, but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgrePaging1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-l10n-el-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-el-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-kn-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-kn-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ogre-tools-1.9.0-3.5.x86_64:
-  package ogre-tools-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by ogre-tools-1.9.0-3.5.x86_64
+can't install tomahawk-0.8.99~git20180422T140543-1.1.x86_64:
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
+  nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
+can't install unoconv-0.7-1.5.noarch:
+  package unoconv-0.7-1.5.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install python2-moviepy-0.2.3.5-2.1.noarch:
   package python2-moviepy-0.2.3.5-2.1.noarch requires python2-imageio >= 2.1.2, but none of the providers can be installed
   package python2-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+can't install libreoffice-l10n-sd-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sd-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-officebean-6.1.0.3-1.4.x86_64:
+  package libreoffice-officebean-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreTerrain-devel-1.9.0-3.5.x86_64:
-  package libOgreTerrain1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
   package libOgreTerrain-devel-1.9.0-3.5.x86_64 requires libOgreTerrain1_9_0 = 1.9.0, but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_chrono.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
 can't install qore-mysql-module-2.0.2.1-1.1.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.2.1-1.1.x86_64
+can't install libreoffice-sdk-6.1.0.3-1.4.x86_64:
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libreglo.so()(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(PRIVATE_1.1)(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libunoidllo.so()(64bit), but none of the providers can be installed
+  package libreoffice-sdk-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-zu-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-zu-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
 can't install qore-xml-module-1.2-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.12.x86_64
+can't install libreoffice-l10n-nr-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-nr-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install votca-xtp-devel-1.4.1-2.2.x86_64:
   package votca-xtp-devel-1.4.1-2.2.x86_64 requires votca-xtp = 1.4.1, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
@@ -314,6 +1055,81 @@ can't install python3-PsychoPy-1.90.3-1.1.noarch:
   package python3-PsychoPy-1.90.3-1.1.noarch requires python3-moviepy, but none of the providers can be installed
   package python3-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+can't install libreoffice-gtk2-6.1.0.3-1.4.x86_64:
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libi18nlangtag.so()(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libjvmaccesslo.so()(64bit), but none of the providers can be installed
+  package libreoffice-gtk2-6.1.0.3-1.4.x86_64 requires libvclplug_genlo.so()(64bit), but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libtomahawk-plugins-0.8.99~git20180422T140543-1.1.x86_64:
+  package libtomahawk-plugins-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install trytond_product-4.2.2-1.2.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_product-4.2.2-1.2.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-gtk3-6.1.0.3-1.4.x86_64:
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libi18nlangtag.so()(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.8)(64bit), but none of the providers can be installed
+  package libreoffice-gtk3-6.1.0.3-1.4.x86_64 requires libjvmaccesslo.so()(64bit), but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -321,26 +1137,81 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
+can't install libreoffice-l10n-zh_TW-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-zh_TW-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
   package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install libreoffice-l10n-en_ZA-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-en_ZA-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreRTShaderSystem-devel-1.9.0-3.5.x86_64:
-  package libOgreRTShaderSystem1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
   package libOgreRTShaderSystem-devel-1.9.0-3.5.x86_64 requires libOgreRTShaderSystem1_9_0 = 1.9.0, but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreRTShaderSystem1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-l10n-te-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-te-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-mai-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-mai-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install libOgreVolume1_9_0-1.9.0-3.5.x86_64:
-  package libOgreVolume1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreVolume1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreVolume1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_chrono.so.1.67.0()(64bit) needed by libOgreVolume1_9_0-1.9.0-3.5.x86_64
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install libreoffice-l10n-nso-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-nso-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install trytond_account-4.2.8-1.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_account-4.2.8-1.1.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-bn_IN-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-bn_IN-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-calc-extensions-6.1.0.3-1.4.x86_64:
+  package libreoffice-calc-extensions-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install libreoffice-l10n-da-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-da-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.8.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.8.noarch
@@ -353,49 +1224,511 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
+can't install trytond_stock_lot-4.2.0-1.3.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_stock_lot-4.2.0-1.3.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install openmw-0.44.0-1.2.x86_64:
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by openmw-0.44.0-1.2.x86_64
+  nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by openmw-0.44.0-1.2.x86_64
+  nothing provides libboost_program_options.so.1.67.0()(64bit) needed by openmw-0.44.0-1.2.x86_64
+can't install libreoffice-l10n-id-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-id-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-glade-6.1.0.3-1.4.noarch:
+  package libreoffice-glade-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-sv-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sv-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install widelands-debug-build19-3.5.x86_64:
+  nothing provides libboost_regex.so.1.67.0()(64bit) needed by widelands-debug-build19-3.5.x86_64
 can't install libOgreMain1_9_0-plugins-1.9.0-3.5.x86_64:
-  package libOgreMain1_9_0-plugins-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreMain1_9_0-plugins-1.9.0-3.5.x86_64
+can't install libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64:
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-postgresql-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.5)(64bit), but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-as-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-as-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-my-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-my-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install gnome-documents_books-common-3.28.2-1.1.x86_64:
+  package gnome-documents_books-common-3.28.2-1.1.x86_64 requires typelib(LOKDocView), but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires liblibreofficekitgtk.so()(64bit), but none of the providers can be installed
+  package libreofficekit-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
+can't install libreoffice-l10n-or-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-or-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install trytond_account_product-4.2.0-1.3.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_account_product-4.2.0-1.3.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install switchboard-plug-networking-0.1.1-1.2.x86_64:
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
+can't install libreoffice-l10n-sa_IN-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sa_IN-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-mr-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-mr-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-calc-6.1.0.3-1.4.x86_64:
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libi18nlangtag.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.8)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.2)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libfilelo.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libooxlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.5)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libwriterperfectlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libforlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libvbahelperlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libclewlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libforuilo.so()(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.3)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.7)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.10)(64bit), but none of the providers can be installed
+  package libreoffice-calc-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-sw_TZ-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sw_TZ-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ru-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ru-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64:
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-base-drivers-firebird-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install trytond_calendar-4.2.0-1.4.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_calendar-4.2.0-1.4.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
 can't install hgview-qt4-1.8.2-3.13.noarch:
   package hgview-qt4-1.8.2-3.13.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
+can't install libreoffice-l10n-ta-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ta-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-fr-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-fr-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-en_GB-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-en_GB-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-oc-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-oc-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install gns3-server-2.0.3-1.4.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
+can't install libreoffice-l10n-kok-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-kok-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-writer-extensions-6.1.0.3-1.4.x86_64:
+  package libreoffice-writer-extensions-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-cy-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-cy-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ca_valencia-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ca_valencia-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-6.1.0.3-1.4.x86_64:
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install openlmi-python-test-0.6.0-11.4.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.4.noarch
+can't install libreoffice-l10n-bn-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-bn-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-dgo-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-dgo-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-es-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-es-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-hsb-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-hsb-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-si-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-si-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
+can't install libreoffice-l10n-sat-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sat-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
+can't install libreoffice-l10n-fy-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-fy-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-hr-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-hr-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install python2-PsychoPy-lang-1.90.3-1.1.noarch:
   package python2-PsychoPy-1.90.3-1.1.noarch requires python2-moviepy, but none of the providers can be installed
   package python2-moviepy-0.2.3.5-2.1.noarch requires python2-imageio >= 2.1.2, but none of the providers can be installed
   package python2-PsychoPy-lang-1.90.3-1.1.noarch requires python2-PsychoPy = 1.90.3, but none of the providers can be installed
   package python2-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+can't install widelands-data-build19-3.5.noarch:
+  package widelands-data-build19-3.5.noarch requires widelands = build19, but none of the providers can be installed
+  nothing provides libboost_regex.so.1.67.0()(64bit) needed by widelands-build19-3.5.x86_64
+can't install libreoffice-l10n-nl-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-nl-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-mni-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-mni-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install trytond_stock-4.2.7-1.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_stock-4.2.7-1.1.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-hu-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-hu-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-mailmerge-6.1.0.3-1.4.x86_64:
+  package libreoffice-mailmerge-6.1.0.3-1.4.x86_64 requires libreoffice-pyuno = 6.1.0.3, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
 can't install gns3-2.0.3-1.3.noarch:
   package gns3-2.0.3-1.3.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
+can't install libreoffice-l10n-km-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-km-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-pt_PT-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-pt_PT-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install machinery-1.23.1-1.6.x86_64:
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
+can't install trytond_company-4.2.2-1.2.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_company-4.2.2-1.2.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
+can't install libreoffice-l10n-lt-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-lt-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install widelands-build19-3.5.x86_64:
+  nothing provides libboost_regex.so.1.67.0()(64bit) needed by widelands-build19-3.5.x86_64
+can't install libreoffice-l10n-fa-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-fa-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install trytond_account_invoice-4.2.6-1.1.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_account_invoice-4.2.6-1.1.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ga-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ga-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-uk-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-uk-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-writer-6.1.0.3-1.4.x86_64:
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libmergedlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libi18nlangtag.so()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.8)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.2)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libfilelo.so()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libooxlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libwriterperfectlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libvbahelperlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libswlo.so()(64bit), but none of the providers can be installed
+  package libreoffice-writer-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch
 can't install pfstools-octave-2.0.6-1.5.x86_64:
@@ -404,15 +1737,66 @@ can't install pfstools-octave-2.0.6-1.5.x86_64:
 can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
 can't install ogre-demos-devel-1.9.0-3.5.x86_64:
-  package libOgreMain-devel-1.9.0-3.5.x86_64 requires libOgreMain1_9_0 = 1.9.0, but none of the providers can be installed
   package ogre-demos-devel-1.9.0-3.5.x86_64 requires libOgreMain-devel = 1.9.0, but none of the providers can be installed
-  package libOgreMain1_9_0-1.9.0-3.5.x86_64 requires libfreeimage.so.3()(64bit), but none of the providers can be installed
-  nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+  package libOgreMain-devel-1.9.0-3.5.x86_64 requires libOgreMain1_9_0 = 1.9.0, but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+  nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+can't install libreoffice-l10n-be-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-be-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install freeimage-devel-3.17.0-4.4.x86_64:
   package freeimage-devel-3.17.0-4.4.x86_64 requires libfreeimage3 = 3.17.0, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
+can't install libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
+  package libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install libreoffice-l10n-pl-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-pl-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-ca-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-ca-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-st-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-st-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
+can't install libtomahawk-devel-0.8.99~git20180422T140543-1.1.x86_64:
+  package libtomahawk-devel-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk0_8_99 = 0.8.99~git20180422T140543, but none of the providers can be installed
+  nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install trytond_country-4.2.0-1.3.noarch:
+  package trytond-4.2.15-1.1.noarch requires libreoffice-pyuno, but none of the providers can be installed
+  package trytond_country-4.2.0-1.3.noarch requires trytond, but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_4.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(LIBO_UDK_4.4)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppu.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(LIBO_UDK_5.1)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3()(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_sal.so.3(UDK_3.11)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit), but none of the providers can be installed
+  package libreoffice-pyuno-6.1.0.3-1.4.x86_64 requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+can't install libreoffice-l10n-sk-6.1.0.3-1.4.noarch:
+  package libreoffice-l10n-sk-6.1.0.3-1.4.noarch requires libreoffice = 6.1.0.3, but none of the providers can be installed
+  nothing provides libboost_date_time.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
+  nothing provides libboost_locale.so.1.67.0()(64bit) needed by libreoffice-6.1.0.3-1.4.x86_64
