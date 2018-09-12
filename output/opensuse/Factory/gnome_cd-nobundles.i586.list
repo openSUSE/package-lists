@@ -339,7 +339,6 @@ gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
-gnome-shell-search-provider-gnote
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-software
@@ -362,8 +361,6 @@ gnome-version
 gnome-video-effects
 gnome-weather
 gnome-weather-lang
-gnote
-gnote-lang
 gnu-unifont-bitmap-fonts
 gnuchess
 google-carlito-fonts
@@ -1596,10 +1593,8 @@ pulseaudio-module-gsettings
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-python
 python-base
 python-rpm-macros
-python-solv
 python-talloc
 python-xml
 python2-configobj
@@ -1607,7 +1602,6 @@ python2-dbus-python
 python2-decorator
 python2-gobject
 python2-pyudev
-python2-rpm
 python2-six
 python3
 python3-PySocks
@@ -1649,12 +1643,14 @@ python3-pycurl
 python3-pyparsing
 python3-pysmbc
 python3-requests
+python3-rpm
 python3-setuptools
 python3-six
 python3-slip
 python3-slip-dbus
 python3-smbios
 python3-smbios-utils
+python3-solv
 python3-speechd
 python3-urllib3
 python3-zypp-plugin

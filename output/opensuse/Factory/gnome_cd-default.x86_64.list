@@ -221,7 +221,6 @@ gnome-shell-search-provider-gnome-clocks
 gnome-shell-search-provider-gnome-photos
 gnome-shell-search-provider-gnome-terminal
 gnome-shell-search-provider-gnome-weather
-gnome-shell-search-provider-gnote
 gnome-shell-search-provider-nautilus
 gnome-shell-search-provider-seahorse
 gnome-software
@@ -236,7 +235,6 @@ gnome-user-share
 gnome-version
 gnome-video-effects
 gnome-weather
-gnote
 gnu-unifont-bitmap-fonts
 gnuchess
 google-noto-fonts-doc
@@ -673,7 +671,6 @@ libgtk-vnc-2_0-0
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
 libgtkspell0
-libgtkspell3-3-0
 libgtop-2_0-11
 libgudev-1_0-0
 libgupnp-1_0-4
@@ -1272,10 +1269,8 @@ pulseaudio-module-gsettings
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-python
 python-base
 python-rpm-macros
-python-solv
 python-talloc
 python-xml
 python2-configobj
@@ -1283,7 +1278,6 @@ python2-dbus-python
 python2-decorator
 python2-gobject
 python2-pyudev
-python2-rpm
 python2-six
 python3
 python3-PySocks
@@ -1325,10 +1319,12 @@ python3-pycurl
 python3-pyparsing
 python3-pysmbc
 python3-requests
+python3-rpm
 python3-setuptools
 python3-six
 python3-slip
 python3-slip-dbus
+python3-solv
 python3-speechd
 python3-urllib3
 python3-zypp-plugin
