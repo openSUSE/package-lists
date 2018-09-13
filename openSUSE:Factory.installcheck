@@ -123,14 +123,8 @@ can't install paperwork-0.3.2-1.8.noarch:
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
-can't install guix-0.15.0-1.4.x86_64:
-  package guix-0.15.0-1.4.x86_64 requires libguile-ssh11, but none of the providers can be installed
-  nothing provides libssh_threads.so.4()(64bit) needed by libguile-ssh11-0.11.3-1.2.x86_64
 can't install MyGUI-3.2.2-2.3.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by MyGUI-3.2.2-2.3.x86_64
-can't install guile-ssh-devel-0.11.3-1.2.x86_64:
-  package guile-ssh-devel-0.11.3-1.2.x86_64 requires libguile-ssh11 = 0.11.3-1.2, but none of the providers can be installed
-  nothing provides libssh_threads.so.4()(64bit) needed by libguile-ssh11-0.11.3-1.2.x86_64
 can't install MyGUI-devel-3.2.2-2.3.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by MyGUI-devel-3.2.2-2.3.x86_64
 can't install libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64:
@@ -247,8 +241,6 @@ can't install libOgreProperty1_9_0-1.9.0-3.5.x86_64:
   nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install libguile-ssh11-0.11.3-1.2.x86_64:
-  nothing provides libssh_threads.so.4()(64bit) needed by libguile-ssh11-0.11.3-1.2.x86_64
 can't install python2-imageio-2.3.0-1.1.noarch:
   package python2-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
