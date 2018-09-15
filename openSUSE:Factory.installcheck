@@ -93,6 +93,12 @@ can't install libOgreOverlay-devel-1.9.0-3.5.x86_64:
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install kmail-lang-18.08.0-1.1.noarch:
+  package kmail-lang-18.08.0-1.1.noarch requires kmail = 18.08.0, but none of the providers can be installed
+  nothing provides libKF5PimCommon5 = 18.08.0 needed by kmail-18.08.0-1.1.x86_64
+    (we have libKF5PimCommon5-18.08.1-1.1.x86_64)
+  nothing provides libKF5PimCommonAkonadi5 = 18.08.0 needed by kmail-18.08.0-1.1.x86_64
+    (we have libKF5PimCommonAkonadi5-18.08.1-1.1.x86_64)
 can't install libvotca_xtp4-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
@@ -168,6 +174,12 @@ can't install libOgreTerrain1_9_0-1.9.0-3.5.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
   nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
   nothing provides libboost_chrono.so.1.67.0()(64bit) needed by libOgreTerrain1_9_0-1.9.0-3.5.x86_64
+can't install pim-sieve-editor-18.08.0-1.1.x86_64:
+  package pim-sieve-editor-18.08.0-1.1.x86_64 requires kmail, but none of the providers can be installed
+  nothing provides libKF5PimCommon5 = 18.08.0 needed by kmail-18.08.0-1.1.x86_64
+    (we have libKF5PimCommon5-18.08.1-1.1.x86_64)
+  nothing provides libKF5PimCommonAkonadi5 = 18.08.0 needed by kmail-18.08.0-1.1.x86_64
+    (we have libKF5PimCommonAkonadi5-18.08.1-1.1.x86_64)
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
@@ -208,6 +220,11 @@ can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
+can't install kmail-18.08.0-1.1.x86_64:
+  nothing provides libKF5PimCommon5 = 18.08.0 needed by kmail-18.08.0-1.1.x86_64
+    (we have libKF5PimCommon5-18.08.1-1.1.x86_64)
+  nothing provides libKF5PimCommonAkonadi5 = 18.08.0 needed by kmail-18.08.0-1.1.x86_64
+    (we have libKF5PimCommonAkonadi5-18.08.1-1.1.x86_64)
 can't install python3-imageio-2.3.0-1.1.noarch:
   package python3-imageio-2.3.0-1.1.noarch requires libfreeimage3, but none of the providers can be installed
   nothing provides libraw.so.16()(64bit) needed by libfreeimage3-3.17.0-4.4.x86_64
@@ -239,6 +256,13 @@ can't install libOgreProperty1_9_0-1.9.0-3.5.x86_64:
   package libOgreProperty1_9_0-1.9.0-3.5.x86_64 requires libOgreMain.so.1.9.0()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
   nothing provides libboost_thread.so.1.67.0()(64bit) needed by libOgreMain1_9_0-1.9.0-3.5.x86_64
+can't install pim-sieve-editor-lang-18.08.0-1.1.noarch:
+  package pim-sieve-editor-lang-18.08.0-1.1.noarch requires pim-sieve-editor = 18.08.0, but none of the providers can be installed
+  package pim-sieve-editor-18.08.0-1.1.x86_64 requires kmail, but none of the providers can be installed
+  nothing provides libKF5PimCommon5 = 18.08.0 needed by kmail-18.08.0-1.1.x86_64
+    (we have libKF5PimCommon5-18.08.1-1.1.x86_64)
+  nothing provides libKF5PimCommonAkonadi5 = 18.08.0 needed by kmail-18.08.0-1.1.x86_64
+    (we have libKF5PimCommonAkonadi5-18.08.1-1.1.x86_64)
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install python2-imageio-2.3.0-1.1.noarch:
