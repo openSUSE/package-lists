@@ -83,8 +83,8 @@ alsa-oss
 alsa-oss-32bit
 alsa-plugins
 alsa-plugins-pulse
-alsa-plugins-pulse-32bit
 alsa-utils
+amanda
 amarok
 amavisd-new
 amavisd-new-docs
@@ -412,6 +412,8 @@ drbd-kmp-default
 drbd-utils
 drkonqi5
 drkonqi5-lang
+dump
+dump-rmt
 duplicity
 duplicity-lang
 dwz
@@ -1309,7 +1311,6 @@ kpimtextedit
 kpimtextedit-lang
 kqtquickcharts
 krb5
-krb5-32bit
 krdc
 krdc-lang
 kremotecontrol
@@ -1386,7 +1387,6 @@ lftp
 libAppStreamQt2
 libFLAC++6
 libFLAC8
-libFLAC8-32bit
 libGLEW2_1
 libGLU1
 libGeoIP1
@@ -1654,7 +1654,6 @@ libao4
 libaom0
 libapparmor-devel
 libapparmor1
-libapparmor1-32bit
 libappindicator3-1
 libappstream-builder8
 libappstream-glib8
@@ -1683,7 +1682,6 @@ libatspi0
 libattica0_4
 libattr1
 libaudit1
-libaudit1-32bit
 libaugeas0
 libauparse0
 libautotrace3
@@ -1803,11 +1801,9 @@ libcolord2
 libcolorhug2
 libcom_err-devel
 libcom_err2
-libcom_err2-32bit
 libcorosync_common4
 libcpupower0
 libcrack2
-libcrack2-32bit
 libcreaterepo_c0
 libcroco-0_6-3
 libcryptmount0
@@ -1827,7 +1823,6 @@ libdar5000
 libdatrie1
 libdazzle-1_0-0
 libdb-4_8
-libdb-4_8-32bit
 libdb-4_8-devel
 libdbus-1-3
 libdbus-1-3-32bit
@@ -1910,13 +1905,12 @@ libf2fs4
 libfakekey0
 libfam0-gamin
 libfarstream-0_2-5
-libfaxutil5_6_0
+libfaxutil5_6_1
 libfcgi0
 libfcitx-4_2_9
 libfdisk1
 libfdt1
 libffi7
-libffi7-32bit
 libfftw3-3
 libfftw3_threads3
 libfind3_0
@@ -2012,7 +2006,6 @@ libglib-2_0-0-32bit
 libglibmm-2_4-1
 libglusterfs0
 libglvnd
-libglvnd-32bit
 libglyr1
 libgme0
 libgmime-3_0-0
@@ -2042,7 +2035,6 @@ libgnutls30
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
-libgobject-2_0-0-32bit
 libgoffice-0_10-10
 libgom-1_0-0
 libgomp1
@@ -2182,12 +2174,10 @@ libjansson4
 libjasper4
 libjavascriptcoregtk-4_0-18
 libjbig2
-libjbig2-32bit
 libjd0
 libjemalloc2
 libjpeg-turbo
 libjpeg8
-libjpeg8-32bit
 libjson-c4
 libjson-glib-1_0-0
 libjsoncpp19
@@ -2214,7 +2204,6 @@ libkerfuffle18
 libkeybinder-3_0-0
 libkeybinder0
 libkeyutils1
-libkeyutils1-32bit
 libkf5kdegames6
 libkioarchive5
 libkipi-data
@@ -2245,7 +2234,6 @@ liblavjpeg-2_0-0
 liblavplay-2_0-0
 liblavrec-2_0-0
 liblcms2-2
-liblcms2-2-32bit
 libldap-2_4-2
 libldap-data
 libldapcpp1
@@ -2304,7 +2292,6 @@ libmlx5-1
 libmm-glib0
 libmms0
 libmng2
-libmng2-32bit
 libmnl0
 libmodman1
 libmodplug1
@@ -2360,7 +2347,6 @@ libnotify-tools
 libnotify4
 libnpth0
 libnsl2
-libnsl2-32bit
 libnss_nis2
 libnss_usrfiles2
 libntfs-3g88
@@ -2372,7 +2358,6 @@ libobrender32
 libobt2
 libofa0
 libogg0
-libogg0-32bit
 liboggkate1
 libonig4
 libopagent1
@@ -2389,7 +2374,6 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
-libopenssl1_0_0-32bit
 libopenssl1_1
 libopenssl1_1-hmac
 libopts25
@@ -2482,7 +2466,6 @@ libpst4
 libpt2_10_11
 libpulse-mainloop-glib0
 libpulse0
-libpulse0-32bit
 libpurple
 libpurple-branding-openSUSE
 libpurple-lang
@@ -2511,7 +2494,7 @@ libpwquality1
 libpython2_7-1_0
 libpython3_6m1_0
 libpyzy-1_0-0
-libqalculate18
+libqalculate19
 libqb0
 libqca-qt5
 libqca-qt5-plugins
@@ -2524,15 +2507,10 @@ libqpdf21
 libqqwing2
 libqrencode4
 libqt4
-libqt4-32bit
 libqt4-qt3support
-libqt4-qt3support-32bit
 libqt4-sql
-libqt4-sql-32bit
 libqt4-sql-sqlite
-libqt4-sql-sqlite-32bit
 libqt4-x11
-libqt4-x11-32bit
 libqt5-qdbus
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtconnectivity-tools
@@ -2580,7 +2558,6 @@ libseccomp2
 libsecret-1-0
 libsecret-lang
 libselinux1
-libselinux1-32bit
 libsemanage-migrate-store
 libsemanage1
 libsensors4
@@ -2606,7 +2583,6 @@ libsmputils1-1
 libsnapper4
 libsnappy1
 libsndfile1
-libsndfile1-32bit
 libsnmp30
 libsodium23
 libsoftokn3
@@ -2622,14 +2598,12 @@ libspandsp2
 libspectre1
 libspeechd2
 libspeex1
-libspeex1-32bit
 libspeexdsp1
 libspice-client-glib-2_0-8
 libspice-client-glib-helper
 libspice-client-gtk-3_0-5
 libspice-server1
 libsqlite3-0
-libsqlite3-0-32bit
 libsratom-0-0
 libsrt1
 libsrtp2-1
@@ -2683,11 +2657,9 @@ libtheoraenc1
 libthunarx-3-0
 libtidy5
 libtiff5
-libtiff5-32bit
 libtinyxml0
 libtirpc-netconfig
 libtirpc3
-libtirpc3-32bit
 libtomcrypt1
 libtommath1
 libtool
@@ -2747,7 +2719,6 @@ libvdpau_nouveau
 libvdpau_r300
 libvdpau_r600
 libverto1
-libverto1-32bit
 libvidstab1_1
 libvigraimpex11
 libvirglrenderer0
@@ -2783,9 +2754,7 @@ libvncclient0
 libvncserver0
 libvoikko1
 libvorbis0
-libvorbis0-32bit
 libvorbisenc2
-libvorbisenc2-32bit
 libvorbisfile3
 libvpd2
 libvpx5
@@ -3180,7 +3149,6 @@ openssl
 openssl-1_1
 openvpn
 opie
-opie-32bit
 oprofile
 orage
 orage-doc
@@ -3198,14 +3166,11 @@ p11-kit-tools
 p7zip
 p7zip-full
 pam
-pam-32bit
 pam-config
 pam-devel
 pam_apparmor
-pam_apparmor-32bit
 pam_mount
 pam_ssh
-pam_ssh-32bit
 paprefs
 paprefs-lang
 par
@@ -3778,7 +3743,6 @@ pulseaudio-module-gsettings
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-pulseaudio-utils-32bit
 purpose
 purpose-lang
 pwgen
@@ -3936,7 +3900,7 @@ python3-xcffib
 python3-zypp-plugin
 pyzy-db-android
 pyzy-db-open-phrase
-qalculate
+qalculate-data
 qemu
 qemu-arm
 qemu-block-curl
@@ -4108,6 +4072,7 @@ ruby2.5-rubygem-jmespath
 ruby2.5-rubygem-jquery-rails
 ruby2.5-rubygem-js-routes
 ruby2.5-rubygem-json-jwt
+ruby2.5-rubygem-kgio
 ruby2.5-rubygem-kramdown
 ruby2.5-rubygem-liquid
 ruby2.5-rubygem-listen-3_0
@@ -4166,6 +4131,7 @@ ruby2.5-rubygem-rails-html-sanitizer
 ruby2.5-rubygem-railties-5.2
 ruby2.5-rubygem-railties-5_0
 ruby2.5-rubygem-railties-5_1
+ruby2.5-rubygem-raindrops
 ruby2.5-rubygem-rake
 ruby2.5-rubygem-rb-fsevent
 ruby2.5-rubygem-rb-inotify
@@ -4186,6 +4152,7 @@ ruby2.5-rubygem-sigdump
 ruby2.5-rubygem-simplecov
 ruby2.5-rubygem-simplecov-html
 ruby2.5-rubygem-simpleidn
+ruby2.5-rubygem-slim
 ruby2.5-rubygem-slop
 ruby2.5-rubygem-spring
 ruby2.5-rubygem-spring-watcher-listen
@@ -4195,6 +4162,7 @@ ruby2.5-rubygem-sqlite3
 ruby2.5-rubygem-sshkit
 ruby2.5-rubygem-strptime
 ruby2.5-rubygem-swd
+ruby2.5-rubygem-temple
 ruby2.5-rubygem-thor
 ruby2.5-rubygem-thread_safe
 ruby2.5-rubygem-tilt
@@ -4209,6 +4177,7 @@ ruby2.5-rubygem-tzinfo-data
 ruby2.5-rubygem-uglifier
 ruby2.5-rubygem-unf
 ruby2.5-rubygem-unf_ext
+ruby2.5-rubygem-unicorn
 ruby2.5-rubygem-validate_email
 ruby2.5-rubygem-validate_url
 ruby2.5-rubygem-virtus
@@ -4275,6 +4244,7 @@ sharutils-lang
 shotwell
 shotwell-lang
 siga
+signon-kwallet-extension
 signon-plugin-oauth2
 signon-plugins
 signon-ui
@@ -4320,7 +4290,6 @@ sqlite3
 squashfs
 sshfs
 sssd
-sssd-32bit
 sssd-krb5-common
 sssd-ldap
 star
@@ -4378,7 +4347,6 @@ system-user-upsd
 system-user-uucp
 system-user-wwwrun
 systemd
-systemd-32bit
 systemd-coredump
 systemd-logger
 systemd-presets-branding-openSUSE
