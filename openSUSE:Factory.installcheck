@@ -36,11 +36,43 @@ can't install kdebase4-workspace-devel-4.11.22-15.3.x86_64:
   package is obsoleted by patterns-kde-kde_plasma-20180709-4.1.noarch
 can't install akonadi-runtime-1.13.0-11.6.x86_64:
   package is obsoleted by akonadi-server-18.08.1-1.1.x86_64
+can't install vips-tools-8.5.9-1.8.x86_64:
+  package vips-tools-8.5.9-1.8.x86_64 requires libvips.so.42()(64bit), but none of the providers can be installed
+  package vips-tools-8.5.9-1.8.x86_64 requires libvips42 = 8.5.9, but none of the providers can be installed
+  package libvips42-8.5.9-1.8.x86_64 requires libmatio.so.4()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
+can't install scilab-modules-6.0.1-5.1.noarch:
+  package scilab-modules-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
+    (we have hdf5-1.10.3-1.1.x86_64)
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
+can't install ASL-doc-0.1.7-3.5.x86_64:
+  package ASL-0.1.7-3.5.x86_64 requires libasl.so.0()(64bit), but none of the providers can be installed
+  package ASL-0.1.7-3.5.x86_64 requires libaslacl.so.0()(64bit), but none of the providers can be installed
+  package ASL-0.1.7-3.5.x86_64 requires libaslcommon.so.0()(64bit), but none of the providers can be installed
+  package ASL-0.1.7-3.5.x86_64 requires libaslnum.so.0()(64bit), but none of the providers can be installed
+  package ASL-0.1.7-3.5.x86_64 requires libaslvtk.so.0()(64bit), but none of the providers can be installed
+  package ASL-doc-0.1.7-3.5.x86_64 requires ASL = 0.1.7, but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOGeometry.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOXML.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOImage.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOLegacy.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkFiltersHybrid.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOMINC.so.1()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
 can't install certbot-0.26.1-1.1.noarch:
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
+can't install octave-forge-ncarray-1.0.3-1.9.noarch:
+  package octave-forge-ncarray-1.0.3-1.9.noarch requires octave-forge-netcdf >= 1.0.2, but none of the providers can be installed
+  package octave-forge-netcdf-1.0.12-1.1.x86_64 requires libnetcdf.so.13()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
 can't install qpid-tools-0.32-1.7.x86_64:
   nothing provides python-qpid-qmf needed by qpid-tools-0.32-1.7.x86_64
 can't install machinery-doc-1.23.1-1.6.x86_64:
@@ -56,8 +88,6 @@ can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
 can't install hgview-1.8.2-3.13.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
-can't install dkgpg-1.0.7-1.2.x86_64:
-  nothing provides libTMCG.so.13()(64bit) needed by dkgpg-1.0.7-1.2.x86_64
 can't install gtg-lang-0.3.1-6.1.noarch:
   package gtg-lang-0.3.1-6.1.noarch requires gtg = 0.3.1, but none of the providers can be installed
   nothing provides python-liblarch_gtk >= 2.1 needed by gtg-0.3.1-6.1.noarch
@@ -66,6 +96,10 @@ can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install qore-uuid-module-1.3-3.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.13.x86_64
+can't install octave-forge-netcdf-1.0.12-1.1.x86_64:
+  package octave-forge-netcdf-1.0.12-1.1.x86_64 requires libnetcdf.so.13()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
@@ -80,6 +114,8 @@ can't install python-certbot-dns-nsone-0.26.1-1.1.noarch:
   package python-certbot-dns-nsone-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install libnetcdf13-openmpi-32bit-4.6.1-1.2.x86_64:
+  nothing provides libhdf5.so.101 needed by libnetcdf13-openmpi-32bit-4.6.1-1.2.x86_64
 can't install python-certbot-dns-luadns-0.26.1-1.1.noarch:
   package python-certbot-dns-luadns-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
@@ -107,15 +143,52 @@ can't install freeorion-data-0.4.7.1-2.3.noarch:
   nothing provides libboost_regex.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
   nothing provides libboost_serialization.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
   nothing provides libboost_thread.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
+can't install gdal-devel-2.3.1-5.3.x86_64:
+  package gdal-devel-2.3.1-5.3.x86_64 requires libgdal20 = 2.3.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
 can't install paperwork-0.3.2-1.8.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.8.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
+can't install python-gdal-2.3.1-5.3.x86_64:
+  package python-gdal-2.3.1-5.3.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install python-certbot-dns-rfc2136-0.26.1-1.1.noarch:
   package python-certbot-dns-rfc2136-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install QCSXCAD-devel-0.6.1-4.2.x86_64:
+  package QCSXCAD-devel-0.6.1-4.2.x86_64 requires libQCSXCAD0 = 0.6.1, but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOGeometry.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOXML.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOCore.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOImage.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingCore.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkCommonTransforms.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersCore.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersGeneral.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersGeometry.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersModeling.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersParallelDIY2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersSources.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOPLY.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkInteractionStyle.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkInteractionWidgets.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingFreeType.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOExportOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOMPIImage.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOMPIParallel.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingAnnotation.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingContextOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingGL2PSOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingLOD.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkGUISupportQt.so.1()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
 can't install libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
@@ -124,23 +197,79 @@ can't install gtg-0.3.1-6.1.noarch:
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install openmw-0.44.0-1.3.x86_64:
+  package openmw-0.44.0-1.3.x86_64 requires OpenSceneGraph-plugins, but none of the providers can be installed
+  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  package OpenSceneGraph-plugins-3.6.2-1.2.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
+can't install typelib-1_0-Vips-8_5-8.5.9-1.8.x86_64:
+  package typelib-1_0-Vips-8_5-8.5.9-1.8.x86_64 requires libvips.so.42()(64bit), but none of the providers can be installed
+  package libvips42-8.5.9-1.8.x86_64 requires libmatio.so.4()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
+can't install libnetcdf_c++4-devel-4.3.0-11.3.x86_64:
+  package libnetcdf_c++4-devel-4.3.0-11.3.x86_64 requires pkgconfig(netcdf), but none of the providers can be installed
+  package netcdf-devel-4.6.1-1.2.x86_64 requires libnetcdf13 = 4.6.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
 can't install octave-forge-vrml-1.0.13-1.9.x86_64:
   package octave-forge-vrml-1.0.13-1.9.x86_64 requires octave-forge-linear-algebra, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install scilab-lang-6.0.1-5.1.noarch:
+  package scilab-lang-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
+    (we have hdf5-1.10.3-1.1.x86_64)
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
 can't install libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install matio-tools-1.5.12-1.1.x86_64:
+  package matio-tools-1.5.12-1.1.x86_64 requires libmatio.so.4()(64bit), but none of the providers can be installed
+  package matio-tools-1.5.12-1.1.x86_64 requires libmatio4 = 1.5.12, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
+can't install libexoIIv2for-5_14_0-6.09-1.8.x86_64:
+  package libexoIIv2for-5_14_0-6.09-1.8.x86_64 requires libexodus-5.14.0.so()(64bit), but none of the providers can be installed
+  package libexodus-5_14_0-6.09-1.8.x86_64 requires libnetcdf.so.13()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
+can't install libvips-devel-8.5.9-1.8.x86_64:
+  package libvips-devel-8.5.9-1.8.x86_64 requires libvips42 = 8.5.9, but none of the providers can be installed
+  package libvips42-8.5.9-1.8.x86_64 requires libmatio.so.4()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
 can't install tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64:
   package tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64 requires tomahawk = 0.8.99~git20180422T140543, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
   nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
+can't install scilab-6.0.1-5.1.x86_64:
+  nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
+    (we have hdf5-1.10.3-1.1.x86_64)
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
+can't install python-espressopp-2.0-1.2.x86_64:
+  package python-espressopp-2.0-1.2.x86_64 requires python-h5py, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
 can't install python-certbot-dns-route53-0.26.1-1.1.noarch:
   package python-certbot-dns-route53-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
+can't install libexodus-5_14_0-6.09-1.8.x86_64:
+  package libexodus-5_14_0-6.09-1.8.x86_64 requires libnetcdf.so.13()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
+can't install python3-hdf5storage-0.1.15-1.1.noarch:
+  package python3-hdf5storage-0.1.15-1.1.noarch requires python3-h5py >= 2.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
+can't install scilab-tests-6.0.1-5.1.noarch:
+  package scilab-tests-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
+    (we have hdf5-1.10.3-1.1.x86_64)
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
+can't install labplot-kf5-lang-2.5.0-1.1.noarch:
+  package labplot-kf5-lang-2.5.0-1.1.noarch requires labplot-kf5 = 2.5.0, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by labplot-kf5-2.5.0-1.1.x86_64
+can't install perl-gdal-2.3.1-5.3.x86_64:
+  package perl-gdal-2.3.1-5.3.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
@@ -155,8 +284,6 @@ can't install freeorion-0.4.7.1-2.3.x86_64:
   nothing provides libboost_regex.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
   nothing provides libboost_serialization.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
   nothing provides libboost_thread.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
-can't install python2-jupyter_jupyterlab_widgets-0.6.15-1.4.noarch:
-  nothing provides python2-jupyter_jupyterlab >= 0.8.0 needed by python2-jupyter_jupyterlab_widgets-0.6.15-1.4.noarch
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -164,30 +291,96 @@ can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
+can't install openEMS-0.0.35-4.3.x86_64:
+  package openEMS-0.0.35-4.3.x86_64 requires libopenEMS.so.0()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libopenEMS0-0.0.35-4.3.x86_64
 can't install wok-plugins-ginger-2.4.0-3.2.noarch:
   package wok-plugins-ginger-2.4.0-3.2.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install spyder-hdf5-3.3.1-1.1.noarch:
+  package spyder-hdf5-3.3.1-1.1.noarch requires python-h5py, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
+can't install libnf2ff0-0.0.35-4.3.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libnf2ff0-0.0.35-4.3.x86_64
 can't install qore-json-module-1.4-5.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.11.x86_64
-can't install python2-jupyter_jupyterlab_templates-0.0.5-1.1.noarch:
-  nothing provides python2-jupyter_jupyterlab needed by python2-jupyter_jupyterlab_templates-0.0.5-1.1.noarch
+can't install ASL-0.1.7-3.5.x86_64:
+  package ASL-0.1.7-3.5.x86_64 requires libasl.so.0()(64bit), but none of the providers can be installed
+  package ASL-0.1.7-3.5.x86_64 requires libaslacl.so.0()(64bit), but none of the providers can be installed
+  package ASL-0.1.7-3.5.x86_64 requires libaslcommon.so.0()(64bit), but none of the providers can be installed
+  package ASL-0.1.7-3.5.x86_64 requires libaslnum.so.0()(64bit), but none of the providers can be installed
+  package ASL-0.1.7-3.5.x86_64 requires libaslvtk.so.0()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOGeometry.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOXML.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOImage.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOLegacy.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkFiltersHybrid.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOMINC.so.1()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
 can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
   package wok-plugins-kimchi-2.5.0-2.2.noarch requires wok = 2.5.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install CSXCAD-devel-0.6.1-5.3.x86_64:
+  package CSXCAD-devel-0.6.1-5.3.x86_64 requires libCSXCAD0 = 0.6.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libCSXCAD0-0.6.1-5.3.x86_64
 can't install python-gcs-oauth2-boto-plugin-1.14-1.5.noarch:
   nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.5.noarch
 can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
   nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
+can't install scilab-devel-6.0.1-5.1.x86_64:
+  package scilab-devel-6.0.1-5.1.x86_64 requires libscilab6 = 6.0.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libscilab6-6.0.1-5.1.x86_64
+can't install libnetcdf13-32bit-4.6.1-1.2.x86_64:
+  nothing provides libhdf5.so.101 needed by libnetcdf13-32bit-4.6.1-1.2.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
+can't install netcdf-openmpi-4.6.1-1.2.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by netcdf-openmpi-4.6.1-1.2.x86_64
+can't install python2-hdf5storage-0.1.15-1.1.noarch:
+  package python2-hdf5storage-0.1.15-1.1.noarch requires python2-h5py >= 2.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
+can't install labplot-kf5-2.5.0-1.1.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by labplot-kf5-2.5.0-1.1.x86_64
+can't install spyder3-hdf5-3.3.1-1.1.noarch:
+  package spyder3-hdf5-3.3.1-1.1.noarch requires python3-h5py, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install python-certbot-dns-dnsimple-0.26.1-1.1.noarch:
   package python-certbot-dns-dnsimple-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install libnetcdf_c++-devel-4.2-8.13.x86_64:
+  package libnetcdf_c++-devel-4.2-8.13.x86_64 requires libnetcdf_c++4 = 4.2, but none of the providers can be installed
+  package libnetcdf_c++4-4.2-8.13.x86_64 requires libnetcdf.so.13()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
+can't install libCSXCAD0-0.6.1-5.3.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libCSXCAD0-0.6.1-5.3.x86_64
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
+can't install python3-netCDF4-1.4.0-1.2.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by python3-netCDF4-1.4.0-1.2.x86_64
+can't install SimGear-devel-2018.2.2-1.2.x86_64:
+  package libSimGearCore-2018_2_2-2018.2.2-1.2.x86_64 requires OpenSceneGraph-plugins = 3.4.1, but none of the providers can be installed
+  package SimGear-devel-2018.2.2-1.2.x86_64 requires libSimGearCore-2018_2_2 = 2018.2.2, but none of the providers can be installed
+  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
+can't install vtk-devel-8.1.1-1.4.x86_64:
+  package vtk-devel-8.1.1-1.4.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-devel-8.1.1-1.4.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package vtk-devel-8.1.1-1.4.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package vtk-devel-8.1.1-1.4.x86_64 requires libvtkRenderingCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-devel-8.1.1-1.4.x86_64 requires libvtkRenderingOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-devel-8.1.1-1.4.x86_64 requires libvtksys.so.1()(64bit), but none of the providers can be installed
+  package vtk-devel-8.1.1-1.4.x86_64 requires libvtkInteractionImage.so.1()(64bit), but none of the providers can be installed
+  package vtk-devel-8.1.1-1.4.x86_64 requires libvtk1 = 8.1.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
+can't install libopenEMS0-0.0.35-4.3.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libopenEMS0-0.0.35-4.3.x86_64
 can't install peerunity-qt-0.2.2-3.5.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
@@ -199,6 +392,13 @@ can't install python-certbot-dns-dnsmadeeasy-0.26.1-1.1.noarch:
   package python-certbot-dns-dnsmadeeasy-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install python3-gdal-2.3.1-5.3.x86_64:
+  package python3-gdal-2.3.1-5.3.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
+can't install nip2-8.6.0-2.2.x86_64:
+  package nip2-8.6.0-2.2.x86_64 requires libvips.so.42()(64bit), but none of the providers can be installed
+  package libvips42-8.5.9-1.8.x86_64 requires libmatio.so.4()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -212,8 +412,23 @@ can't install python-certbot-nginx-0.26.1-1.1.noarch:
   package python-certbot-nginx-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install OpenSceneGraph34-plugins-3.4.1-1.1.x86_64:
+  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
+can't install mysql-workbench-6.3.10-3.4.x86_64:
+  package mysql-workbench-6.3.10-3.4.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
+can't install libvips42-8.5.9-1.8.x86_64:
+  package libvips42-8.5.9-1.8.x86_64 requires libmatio.so.4()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
 can't install ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64:
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
+can't install scilab-modules-doc-lang-6.0.1-5.1.noarch:
+  package scilab-modules-doc-lang-6.0.1-5.1.noarch requires scilab-modules-doc = 6.0.1, but none of the providers can be installed
+  package scilab-modules-doc-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
+    (we have hdf5-1.10.3-1.1.x86_64)
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch:
@@ -238,6 +453,16 @@ can't install python-certbot-dns-digitalocean-0.26.1-1.1.noarch:
   package python-certbot-dns-digitalocean-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install netcdf-devel-4.6.1-1.2.x86_64:
+  package netcdf-devel-4.6.1-1.2.x86_64 requires libnetcdf13 = 4.6.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
+can't install exodusii-devel-6.09-1.8.x86_64:
+  package exodusii-devel-6.09-1.8.x86_64 requires libexodus-5_14_0 = 6.09, but none of the providers can be installed
+  package libexodus-5_14_0-6.09-1.8.x86_64 requires libnetcdf.so.13()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
+can't install libnetcdf13-openmpi-4.6.1-1.2.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
 can't install peerunityd-0.2.2-3.5.x86_64:
@@ -252,9 +477,19 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
+can't install netcdf-openmpi-devel-4.6.1-1.2.x86_64:
+  package netcdf-openmpi-devel-4.6.1-1.2.x86_64 requires libnetcdf13-openmpi = 4.6.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+can't install python3-h5py-2.8.0-1.2.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
+can't install libscilab6-6.0.1-5.1.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libscilab6-6.0.1-5.1.x86_64
 can't install tomahawk-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
   nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
+can't install OpenSceneGraph-plugins-3.6.2-1.2.x86_64:
+  package OpenSceneGraph-plugins-3.6.2-1.2.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
@@ -264,12 +499,21 @@ can't install python-certbot-apache-0.26.1-1.1.noarch:
     (we have python2-acme-0.27.1-1.1.noarch)
 can't install qore-mysql-module-2.0.2.1-1.1.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.2.1-1.1.x86_64
+can't install AppCSXCAD-0.2.1-3.2.x86_64:
+  package AppCSXCAD-0.2.1-3.2.x86_64 requires libCSXCAD.so.0()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libCSXCAD0-0.6.1-5.3.x86_64
 can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
 can't install qore-xml-module-1.2-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.12.x86_64
+can't install python-vips-8.5.9-1.8.x86_64:
+  package python-vips-8.5.9-1.8.x86_64 requires libvips.so.42()(64bit), but none of the providers can be installed
+  package python-vips-8.5.9-1.8.x86_64 requires libvipsCC.so.42()(64bit), but none of the providers can be installed
+  package python-vips-8.5.9-1.8.x86_64 requires libvips42 = 8.5.9, but none of the providers can be installed
+  package libvips42-8.5.9-1.8.x86_64 requires libmatio.so.4()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
 can't install votca-xtp-devel-1.4.1-2.2.x86_64:
   package votca-xtp-devel-1.4.1-2.2.x86_64 requires votca-xtp = 1.4.1, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
@@ -285,21 +529,75 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
+can't install libSimGearCore-2018_2_2-2018.2.2-1.2.x86_64:
+  package libSimGearCore-2018_2_2-2018.2.2-1.2.x86_64 requires OpenSceneGraph-plugins = 3.4.1, but none of the providers can be installed
+  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
 can't install python-certbot-0.26.1-1.1.noarch:
   package python-certbot-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install libgdal20-2.3.1-5.3.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
 can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
   package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install vtk-examples-8.1.1-1.4.x86_64:
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkIOGeometry.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkIOXML.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkIOCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkIOImage.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkIOLegacy.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkRenderingCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkRenderingOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkCommonMath.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkCommonTransforms.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkFiltersCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkFiltersGeneral.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkFiltersGeometry.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkFiltersModeling.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkFiltersParallelDIY2.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkFiltersSources.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkInteractionStyle.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkInteractionWidgets.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkRenderingFreeType.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtksys.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkCommonMisc.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkFiltersExtraction.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkImagingCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkImagingHybrid.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkImagingStatistics.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkRenderingLabel.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkRenderingVolume.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtkRenderingVolumeOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-examples-8.1.1-1.4.x86_64 requires libvtk1 = 8.1.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
+can't install vtk-qt-8.1.1-1.4.x86_64:
+  package vtk-qt-8.1.1-1.4.x86_64 requires libvtk1 = 8.1.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install libnetcdf_c++4-1-4.3.0-11.3.x86_64:
+  package libnetcdf_c++4-1-4.3.0-11.3.x86_64 requires libnetcdf.so.13()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
+can't install python2-netCDF4-1.4.0-1.2.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by python2-netCDF4-1.4.0-1.2.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
+can't install python2-h5py-2.8.0-1.2.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install vips-doc-8.5.9-1.8.noarch:
+  package vips-doc-8.5.9-1.8.noarch requires libvips42 = 8.5.9, but none of the providers can be installed
+  package libvips42-8.5.9-1.8.x86_64 requires libmatio.so.4()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
 can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.8.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.8.noarch
@@ -315,8 +613,127 @@ can't install python-plaso-1.5.1-1.8.noarch:
 can't install ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64:
   package ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64 requires ruby2.5-rubygem-lolcat = 90.8.8, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
+can't install libmatio-devel-1.5.12-1.1.x86_64:
+  package libmatio-devel-1.5.12-1.1.x86_64 requires libmatio4 = 1.5.12, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
+can't install kst-2.0.8-7.1.x86_64:
+  package kst-2.0.8-7.1.x86_64 requires libnetcdf, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
+can't install octave-forge-mapping-1.2.1-1.11.x86_64:
+  package octave-forge-mapping-1.2.1-1.11.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
+can't install python3-vtk-8.1.1-1.4.x86_64:
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkParallelCore.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkParallelMPI.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtksys.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonDataModelPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonExecutionModelPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonMathPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonTransformsPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkDomainsChemistryPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersExtractionPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersGeneralPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersGeometryPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersImagingPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersModelingPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersParallelPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersSourcesPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersStatisticsPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersVerdictPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOExportPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOGeometryPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOImagePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOLegacyPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIONetCDFPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOParallelPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOXMLParserPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOXMLPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingGeneralPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkInfovisCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkInteractionStylePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkInteractionWidgetsPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkParallelCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingContext2DPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingLabelPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingVolumePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkViewsCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkViewsInfovisPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkChartsCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonColorPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonComputationalGeometryPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonMiscPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkCommonSystemPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkDomainsChemistryOpenGL2Python36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersAMRPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersFlowPathsPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersGenericPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersHybridPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersHyperTreePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersParallelDIY2Python36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersParallelGeometryPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersParallelImagingPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersParallelMPIPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersParallelVerdictPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersPointsPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersProgrammablePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersPythonPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersSMPPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersSelectionPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersTexturePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkFiltersTopologyPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkGeovisCorePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOAMRPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOEnSightPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOExodusPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOExportOpenGL2Python36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOImportPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOInfovisPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOLSDynaPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOMINCPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOMPIImagePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOMPIParallelPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOMoviePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOPLYPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOParallelNetCDFPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOParallelXMLPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOSQLPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOTecplotTablePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkIOVideoPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingColorPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingFourierPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingHybridPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingMathPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingMorphologicalPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingSourcesPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingStatisticsPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkImagingStencilPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkInfovisLayoutPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkInteractionImagePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkParallelMPI4PyPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkParallelMPIPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingAnnotationPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingContextOpenGL2Python36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingFreeTypePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingGL2PSOpenGL2Python36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingImagePython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingLODPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingOpenGL2Python36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingQtPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkRenderingVolumeOpenGL2Python36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkTestingRenderingPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkViewsContext2DPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtkViewsGeovisPython36D.so.1()(64bit), but none of the providers can be installed
+  package python3-vtk-8.1.1-1.4.x86_64 requires libvtk1 = 8.1.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
+can't install libmatio4-1.5.12-1.1.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libmatio4-1.5.12-1.1.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
@@ -326,6 +743,39 @@ can't install python-certbot-dns-google-0.26.1-1.1.noarch:
   package python-certbot-dns-google-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install gdal-2.3.1-5.3.x86_64:
+  package gdal-2.3.1-5.3.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
+can't install libQCSXCAD0-0.6.1-4.2.x86_64:
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOGeometry.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOXML.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOCore.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOImage.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingCore.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkCommonTransforms.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersCore.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersGeneral.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersGeometry.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersModeling.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersParallelDIY2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkFiltersSources.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOPLY.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkInteractionStyle.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkInteractionWidgets.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingFreeType.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOExportOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOMPIImage.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkIOMPIParallel.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingAnnotation.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingContextOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingGL2PSOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkRenderingLOD.so.1()(64bit), but none of the providers can be installed
+  package libQCSXCAD0-0.6.1-4.2.x86_64 requires libvtkGUISupportQt.so.1()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
@@ -335,29 +785,183 @@ can't install hgview-qt4-1.8.2-3.13.noarch:
 can't install gns3-server-2.0.3-1.4.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
+can't install kst-devel-2.0.8-7.1.x86_64:
+  package kst-devel-2.0.8-7.1.x86_64 requires kst = 2.0.8, but none of the providers can be installed
+  package kst-2.0.8-7.1.x86_64 requires libnetcdf, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
+can't install libnetcdf13-4.6.1-1.2.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
 can't install python-certbot-dns-cloudxns-0.26.1-1.1.noarch:
   package python-certbot-dns-cloudxns-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install FlightGear-2018.2.2-1.1.x86_64:
+  package libSimGearCore-2018_2_2-2018.2.2-1.2.x86_64 requires OpenSceneGraph-plugins = 3.4.1, but none of the providers can be installed
+  package FlightGear-2018.2.2-1.1.x86_64 requires libSimGearCore.so.2018.2.2()(64bit), but none of the providers can be installed
+  package FlightGear-2018.2.2-1.1.x86_64 requires libSimGearScene.so.2018.2.2()(64bit), but none of the providers can be installed
+  package OpenSceneGraph34-plugins-3.4.1-1.1.x86_64 requires libgdal.so.20()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libgdal20-2.3.1-5.3.x86_64
+can't install libvtk1-8.1.1-1.4.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
+can't install libnetcdf_c++4-4.2-8.13.x86_64:
+  package libnetcdf_c++4-4.2-8.13.x86_64 requires libnetcdf.so.13()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
+  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-4.6.1-1.2.x86_64
 can't install openlmi-python-test-0.6.0-11.4.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.4.noarch
+can't install vtk-tcl-8.1.1-1.4.x86_64:
+  package vtk-tcl-8.1.1-1.4.x86_64 requires libvtkParallelCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-tcl-8.1.1-1.4.x86_64 requires libvtkParallelMPI.so.1()(64bit), but none of the providers can be installed
+  package vtk-tcl-8.1.1-1.4.x86_64 requires libvtkCommonCoreTCL.so.1()(64bit), but none of the providers can be installed
+  package vtk-tcl-8.1.1-1.4.x86_64 requires libvtk1 = 8.1.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
 can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
+can't install scilab-modules-doc-6.0.1-5.1.noarch:
+  package scilab-modules-doc-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
+    (we have hdf5-1.10.3-1.1.x86_64)
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
+can't install vtk-java-8.1.1-1.4.x86_64:
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOGeometry.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOXML.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOImage.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOLegacy.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonMath.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonTransforms.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersGeneral.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersGeometry.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersModeling.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersParallelDIY2.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersSources.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOPLY.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkInteractionStyle.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkInteractionWidgets.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkParallelCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkParallelMPI.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingFreeType.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonMisc.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersExtraction.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersHybrid.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOExportOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOMINC.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOMPIImage.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOMPIParallel.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingHybrid.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingStatistics.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkInteractionImage.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingAnnotation.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingContextOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingGL2PSOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingLOD.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingLabel.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingVolume.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingVolumeOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkChartsCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonColor.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonComputationalGeometry.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkCommonSystem.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkDomainsChemistry.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkDomainsChemistryOpenGL2.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersAMR.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersFlowPaths.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersGeneric.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersHyperTree.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersImaging.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersParallel.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersParallelGeometry.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersParallelImaging.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersParallelMPI.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersParallelVerdict.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersPoints.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersProgrammable.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersSMP.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersSelection.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersStatistics.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersTexture.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersTopology.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkFiltersVerdict.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkGeovisCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOAMR.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOEnSight.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOExodus.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOExport.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOImport.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOInfovis.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOLSDyna.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOMovie.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIONetCDF.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOParallel.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOParallelNetCDF.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOParallelXML.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOSQL.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOTecplotTable.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOVideo.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkIOXMLParser.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingColor.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingFourier.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingGeneral.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingMath.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingMorphological.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingSources.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkImagingStencil.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkInfovisCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkInfovisLayout.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkLocalExample.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingContext2D.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingImage.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkRenderingQt.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkTestingRendering.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkViewsContext2D.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkViewsCore.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkViewsGeovis.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkViewsInfovis.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtkWrappingJava.so.1()(64bit), but none of the providers can be installed
+  package vtk-java-8.1.1-1.4.x86_64 requires libvtk1 = 8.1.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
+can't install netcdf-4.6.1-1.2.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by netcdf-4.6.1-1.2.x86_64
 can't install libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
 can't install gns3-2.0.3-1.3.noarch:
   package gns3-2.0.3-1.3.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
+can't install octave-openEMS-0.0.35-4.3.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by octave-openEMS-0.0.35-4.3.x86_64
 can't install machinery-1.23.1-1.6.x86_64:
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
+can't install openEMS-matlab-0.0.35-4.3.x86_64:
+  package openEMS-matlab-0.0.35-4.3.x86_64 requires openEMS = 0.0.35, but none of the providers can be installed
+  package openEMS-0.0.35-4.3.x86_64 requires libopenEMS.so.0()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libopenEMS0-0.0.35-4.3.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
+can't install ASL-devel-0.1.7-3.5.x86_64:
+  package ASL-devel-0.1.7-3.5.x86_64 requires libaslcommon0 = 0.1.7, but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOGeometry.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOXML.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOImage.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOLegacy.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkFiltersHybrid.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOMINC.so.1()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch
 can't install pfstools-octave-2.0.6-1.5.x86_64:
@@ -365,6 +969,9 @@ can't install pfstools-octave-2.0.6-1.5.x86_64:
   nothing provides liboctinterp.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
 can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
+can't install openEMS-devel-0.0.35-4.3.x86_64:
+  package openEMS-devel-0.0.35-4.3.x86_64 requires libopenEMS0 = 0.0.35, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libopenEMS0-0.0.35-4.3.x86_64
 can't install libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
@@ -376,3 +983,14 @@ can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
 can't install libtomahawk-devel-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-devel-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk0_8_99 = 0.8.99~git20180422T140543, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install libaslcommon0-0.1.7-3.5.x86_64:
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonCore.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonDataModel.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkCommonExecutionModel.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOGeometry.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOXML.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOImage.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOLegacy.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkFiltersHybrid.so.1()(64bit), but none of the providers can be installed
+  package libaslcommon0-0.1.7-3.5.x86_64 requires libvtkIOMINC.so.1()(64bit), but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by libvtk1-8.1.1-1.4.x86_64
