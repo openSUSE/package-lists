@@ -83,8 +83,6 @@ can't install python-certbot-dns-nsone-0.26.1-1.1.noarch:
   package python-certbot-dns-nsone-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
-can't install libnetcdf13-openmpi-32bit-4.6.1-1.2.x86_64:
-  nothing provides libhdf5.so.101 needed by libnetcdf13-openmpi-32bit-4.6.1-1.2.x86_64
 can't install python-certbot-dns-luadns-0.26.1-1.1.noarch:
   package python-certbot-dns-luadns-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
@@ -209,8 +207,6 @@ can't install scilab-devel-6.0.1-5.1.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by libscilab6-6.0.1-5.1.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
-can't install netcdf-openmpi-4.6.1-1.2.x86_64:
-  nothing provides libhdf5.so.101()(64bit) needed by netcdf-openmpi-4.6.1-1.2.x86_64
 can't install python2-hdf5storage-0.1.15-1.1.noarch:
   package python2-hdf5storage-0.1.15-1.1.noarch requires python2-h5py >= 2.1, but none of the providers can be installed
   nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
@@ -279,8 +275,6 @@ can't install python-certbot-dns-digitalocean-0.26.1-1.1.noarch:
   package python-certbot-dns-digitalocean-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
-can't install libnetcdf13-openmpi-4.6.1-1.2.x86_64:
-  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
 can't install peerunityd-0.2.2-3.5.x86_64:
@@ -295,9 +289,6 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
-can't install netcdf-openmpi-devel-4.6.1-1.2.x86_64:
-  package netcdf-openmpi-devel-4.6.1-1.2.x86_64 requires libnetcdf13-openmpi = 4.6.1, but none of the providers can be installed
-  nothing provides libhdf5.so.101()(64bit) needed by libnetcdf13-openmpi-4.6.1-1.2.x86_64
 can't install python3-h5py-2.8.0-1.2.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install libscilab6-6.0.1-5.1.x86_64:
