@@ -2,16 +2,28 @@ can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.06.25.2-2.1.noarch
 can't install obexd-client-0.48-5.15.x86_64:
   package is obsoleted by bluez-5.50-1.2.x86_64
+can't install python-certbot-apache-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-apache-0.27.1-1.1.noarch
+can't install python-certbot-dns-nsone-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-dns-nsone-0.27.1-1.1.noarch
+can't install python-certbot-dns-cloudflare-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-dns-cloudflare-0.27.1-1.1.noarch
 can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
+can't install python-certbot-dns-dnsmadeeasy-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-dns-dnsmadeeasy-0.27.1-1.1.noarch
 can't install kdesdk4-scripts-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-18.08.1-1.1.x86_64
 can't install libevtlog-devel-0.2.13-2.7.x86_64:
   package is obsoleted by syslog-ng-devel-3.14.1-2.2.x86_64
+can't install python-certbot-dns-cloudxns-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-dns-cloudxns-0.27.1-1.1.noarch
+can't install python-certbot-dns-luadns-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-dns-luadns-0.27.1-1.1.noarch
+can't install python-certbot-dns-dnsimple-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-dns-dnsimple-0.27.1-1.1.noarch
 can't install bpython-0.15-1.6.noarch:
   package is obsoleted by python2-bpython-0.17.1-1.2.noarch
-can't install ghostscript-mini-9.23-2.2.x86_64:
-  package is obsoleted by ghostscript-9.23-2.2.x86_64
 can't install openssl-1_0_0-1.0.2o-1.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-4.2.x86_64
 can't install libpsm2-compat-10.3.46-1.2.x86_64:
@@ -20,20 +32,30 @@ can't install gtk3-schema-3.22.30-5.1.noarch:
   package is obsoleted by gtk4-schema-3.93.0-4.1.noarch
 can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-kf5-porting-18.08.1-1.1.x86_64
+can't install python-certbot-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-0.27.1-1.1.noarch
+can't install python-certbot-dns-google-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-dns-google-0.27.1-1.1.noarch
 can't install mate-calc-1.20.2-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python3-limnoria-2018.06.25.2-2.1.noarch
+can't install ghostscript-mini-9.25-1.1.x86_64:
+  package is obsoleted by ghostscript-9.25-1.1.x86_64
 can't install oxygen4-cursors-4.11.22-15.3.x86_64:
   package is obsoleted by oxygen5-cursors-5.13.5-1.1.x86_64
 can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
+can't install python-certbot-dns-digitalocean-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-dns-digitalocean-0.27.1-1.1.noarch
 can't install kdebase4-workspace-4.11.22-15.3.x86_64:
   package is obsoleted by plasma5-desktop-5.13.5-1.1.x86_64
 can't install gettext-its-gtk3-3.22.30-5.1.x86_64:
   package is obsoleted by gettext-its-gtk4-3.93.0-4.1.x86_64
 can't install kdebase4-workspace-devel-4.11.22-15.3.x86_64:
   package is obsoleted by patterns-kde-kde_plasma-20180709-4.1.noarch
+can't install python-certbot-nginx-0.26.1-1.1.noarch:
+  package is obsoleted by python2-certbot-nginx-0.27.1-1.1.noarch
 can't install akonadi-runtime-1.13.0-11.6.x86_64:
   package is obsoleted by akonadi-server-18.08.1-1.1.x86_64
 can't install scilab-modules-6.0.1-5.1.noarch:
@@ -46,6 +68,10 @@ can't install certbot-0.26.1-1.1.noarch:
     (we have python2-acme-0.27.1-1.1.noarch)
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
+can't install buzztrax-lang-0.10.2-11.1.noarch:
+  package buzztrax-lang-0.10.2-11.1.noarch requires buzztrax = 0.10.2, but none of the providers can be installed
+  package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
+  nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install qpid-tools-0.32-1.7.x86_64:
   nothing provides python-qpid-qmf needed by qpid-tools-0.32-1.7.x86_64
 can't install machinery-doc-1.23.1-1.6.x86_64:
@@ -113,12 +139,23 @@ can't install freeorion-data-0.4.7.1-2.3.noarch:
 can't install paperwork-0.3.2-1.8.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.8.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
+can't install spyder-terminal-0.2.4-1.1.noarch:
+  package spyder-terminal-0.2.4-1.1.noarch requires spyder >= 3.2.0, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install spyder-breakpoints-lang-3.3.1-1.1.noarch:
+  package spyder-breakpoints-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
+  package spyder-breakpoints-lang-3.3.1-1.1.noarch requires spyder-breakpoints = 3.3.1, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install python-certbot-dns-rfc2136-0.26.1-1.1.noarch:
   package python-certbot-dns-rfc2136-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install python2-pylint-1.9.2-2.3.noarch:
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
@@ -131,6 +168,8 @@ can't install octave-forge-vrml-1.0.13-1.9.x86_64:
   package octave-forge-vrml-1.0.13-1.9.x86_64 requires octave-forge-linear-algebra, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install carla-1.9.7+git20171111.5b97ec1e-3.2.x86_64:
+  nothing provides libfluidsynth.so.1()(64bit) needed by carla-1.9.7+git20171111.5b97ec1e-3.2.x86_64
 can't install scilab-lang-6.0.1-5.1.noarch:
   package scilab-lang-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
@@ -139,6 +178,11 @@ can't install scilab-lang-6.0.1-5.1.noarch:
 can't install libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install buzztrax-0.10.2-11.1.x86_64:
+  package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
+  nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
+can't install mpd-0.20.18-1.8.x86_64:
+  nothing provides libfluidsynth.so.1()(64bit) needed by mpd-0.20.18-1.8.x86_64
 can't install tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64:
   package tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64 requires tomahawk = 0.8.99~git20180422T140543, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
@@ -154,6 +198,14 @@ can't install python-certbot-dns-route53-0.26.1-1.1.noarch:
   package python-certbot-dns-route53-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install spyder-pylint-lang-3.3.1-1.1.noarch:
+  package spyder-pylint-lang-3.3.1-1.1.noarch requires spyder-pylint = 3.3.1, but none of the providers can be installed
+  package spyder-pylint-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install spyder-notebook-0.1.2-2.1.noarch:
+  package spyder-notebook-0.1.2-2.1.noarch requires spyder >= 3.2.0, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
 can't install python3-hdf5storage-0.1.15-1.1.noarch:
@@ -185,6 +237,8 @@ can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
+can't install fluidsynth-dssi-1.0.0-18.12.x86_64:
+  nothing provides libfluidsynth.so.1()(64bit) needed by fluidsynth-dssi-1.0.0-18.12.x86_64
 can't install wok-plugins-ginger-2.4.0-3.2.noarch:
   package wok-plugins-ginger-2.4.0-3.2.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
@@ -207,6 +261,17 @@ can't install scilab-devel-6.0.1-5.1.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by libscilab6-6.0.1-5.1.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
+can't install python-requirements-detector-0.4-1.6.noarch:
+  nothing provides python-astroid >= 1.0.0 needed by python-requirements-detector-0.4-1.6.noarch
+can't install buzztrax-plugins-0.10.2-11.1.x86_64:
+  package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
+  package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
+  nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
+can't install python2-jupyter_ipython-iptest-5.8.0-1.1.noarch:
+  nothing provides python-matplotlib needed by python2-jupyter_ipython-iptest-5.8.0-1.1.noarch
+can't install spyder-3.3.1-1.1.noarch:
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install python2-hdf5storage-0.1.15-1.1.noarch:
   package python2-hdf5storage-0.1.15-1.1.noarch requires python2-h5py >= 2.1, but none of the providers can be installed
   nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
@@ -219,6 +284,9 @@ can't install python-certbot-dns-dnsimple-0.26.1-1.1.noarch:
     (we have python2-acme-0.27.1-1.1.noarch)
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
+can't install python2-inspektor-0.5.1-1.1.noarch:
+  package python2-inspektor-0.5.1-1.1.noarch requires python2-pylint >= 1.3.1, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install peerunity-qt-0.2.2-3.5.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
@@ -289,6 +357,10 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
+can't install spyder-breakpoints-3.3.1-1.1.noarch:
+  package spyder-breakpoints-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install python3-h5py-2.8.0-1.2.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install libscilab6-6.0.1-5.1.x86_64:
@@ -314,11 +386,21 @@ can't install qore-xml-module-1.2-4.12.x86_64:
 can't install votca-xtp-devel-1.4.1-2.2.x86_64:
   package votca-xtp-devel-1.4.1-2.2.x86_64 requires votca-xtp = 1.4.1, but none of the providers can be installed
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
+can't install qsynth-lang-0.5.0-1.3.noarch:
+  package qsynth-lang-0.5.0-1.3.noarch requires qsynth = 0.5.0, but none of the providers can be installed
+  nothing provides libfluidsynth.so.1()(64bit) needed by qsynth-0.5.0-1.3.x86_64
 can't install soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64:
   nothing provides libbladeRF.so.1()(64bit) needed by soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64
 can't install libtomahawk-plugins-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-plugins-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install quimup-1.4.3-1.2.x86_64:
+  package quimup-1.4.3-1.2.x86_64 requires mpd, but none of the providers can be installed
+  nothing provides libfluidsynth.so.1()(64bit) needed by mpd-0.20.18-1.8.x86_64
+can't install spyder-memory-profiler-0.1.2-2.1.noarch:
+  package spyder-memory-profiler-0.1.2-2.1.noarch requires spyder >= 3, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -330,10 +412,14 @@ can't install python-certbot-0.26.1-1.1.noarch:
   package python-certbot-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install tuxguitar-1.4-3.3.x86_64:
+  nothing provides libfluidsynth.so.1()(64bit) needed by tuxguitar-1.4-3.3.x86_64
 can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
   package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install carla-vst-1.9.7+git20171111.5b97ec1e-3.2.x86_64:
+  nothing provides libfluidsynth.so.1()(64bit) needed by carla-vst-1.9.7+git20171111.5b97ec1e-3.2.x86_64
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
@@ -343,6 +429,10 @@ can't install python2-h5py-2.8.0-1.2.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install spyder-dicom-3.3.1-1.1.noarch:
+  package spyder-dicom-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.8.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.8.noarch
@@ -355,9 +445,20 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
+can't install spyder-profiler-3.3.1-1.1.noarch:
+  package spyder-profiler-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64:
   package ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64 requires ruby2.5-rubygem-lolcat = 90.8.8, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
+can't install spyder-unittest-0.3.1-2.1.noarch:
+  package spyder-unittest-0.3.1-2.1.noarch requires spyder >= 3, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install ncmpcpp-0.8.2-1.5.x86_64:
+  package ncmpcpp-0.8.2-1.5.x86_64 requires mpd > 0.16, but none of the providers can be installed
+  nothing provides libfluidsynth.so.1()(64bit) needed by mpd-0.20.18-1.8.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
@@ -369,6 +470,17 @@ can't install python-certbot-dns-google-0.26.1-1.1.noarch:
   package python-certbot-dns-google-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install csound-devel-5.18.02-11.2.x86_64:
+  package csound-devel-5.18.02-11.2.x86_64 requires csound = 5.18.02, but none of the providers can be installed
+  nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
+can't install spyder-pylint-3.3.1-1.1.noarch:
+  package spyder-pylint-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install spyder-profiler-lang-3.3.1-1.1.noarch:
+  package spyder-profiler-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
+  package spyder-profiler-lang-3.3.1-1.1.noarch requires spyder-profiler = 3.3.1, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
@@ -384,6 +496,8 @@ can't install python-certbot-dns-cloudxns-0.26.1-1.1.noarch:
     (we have python2-acme-0.27.1-1.1.noarch)
 can't install openlmi-python-test-0.6.0-11.4.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.4.noarch
+can't install csound-5.18.02-11.2.x86_64:
+  nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
 can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
@@ -394,6 +508,10 @@ can't install scilab-modules-doc-6.0.1-5.1.noarch:
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
   nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
+can't install spyder-lang-3.3.1-1.1.noarch:
+  package spyder-lang-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
 can't install gns3-2.0.3-1.3.noarch:
@@ -404,8 +522,16 @@ can't install machinery-1.23.1-1.6.x86_64:
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
+can't install spyder-line-profiler-0.1.1-2.1.noarch:
+  package spyder-line-profiler-0.1.1-2.1.noarch requires spyder >= 3, but none of the providers can be installed
+  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
+  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
+  nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
+can't install qsynth-0.5.0-1.3.x86_64:
+  nothing provides libfluidsynth.so.1()(64bit) needed by qsynth-0.5.0-1.3.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch
 can't install pfstools-octave-2.0.6-1.5.x86_64:
@@ -421,6 +547,9 @@ can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
+can't install cecilia-2.0.5-282.6.noarch:
+  package cecilia-2.0.5-282.6.noarch requires csound > 3.47, but none of the providers can be installed
+  nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
 can't install libtomahawk-devel-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-devel-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk0_8_99 = 0.8.99~git20180422T140543, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
