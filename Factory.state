@@ -1,11 +1,8 @@
-
-Request: https://api.opensuse.org/build/openSUSE:Factory/_result?package=bash&repository=standard
-Headers:
-status: 503 Service Unavailable
-content-length: 189
-strict-transport-security: max-age=31536000
-server: Apache/2.4.23 (Linux/SUSE)
-connection: close
-cache-control: no-cache, no-store, must-revalidate
-date: Fri, 28 Sep 2018 09:34:43 GMT
-content-type: text/html; charset=UTF-8
+<resultlist state="11603f6bd0727fd6d9f2d0d4d27f6826">
+  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="building" state="building">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory" repository="standard" arch="i586" code="building" state="building">
+    <status package="bash" code="succeeded" />
+  </result>
+</resultlist>
