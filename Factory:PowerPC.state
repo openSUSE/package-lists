@@ -1,14 +1,14 @@
-<resultlist state="9e6d03f6a5382f0bf2dc298cef98cd70">
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc" code="building" state="building">
+<resultlist state="18c59e5b12b1eee0bebb4f2afec7d772">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc" code="building" state="building" dirty="true">
     <status package="bash" code="succeeded" />
   </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64" code="building" state="building">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64" code="unpublished" state="unpublished">
     <status package="bash" code="succeeded" />
   </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64le" code="building" state="building" dirty="true">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64le" code="scheduling" state="scheduling" dirty="true">
     <status package="bash" code="succeeded" />
   </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished" dirty="true">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished">
     <status package="bash" code="disabled" />
   </result>
 </resultlist>
