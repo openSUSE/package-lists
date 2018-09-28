@@ -228,6 +228,7 @@ bash
 bash-completion
 bash-doc
 bash-lang
+bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bcm43xx-firmware
@@ -344,6 +345,7 @@ cppcheck
 cpupower
 cracklib
 cracklib-dict-full
+crash-kmp-default
 crda
 createrepo
 cron
@@ -439,10 +441,12 @@ dolphin-part
 dolphin-part-lang
 dos2unix
 dosfstools
+dpdk-kmp-default
 dracut
 dragonplayer
 dragonplayer-lang
 drbd
+drbd-kmp-default
 drbd-utils
 drkonqi5
 drkonqi5-lang
@@ -986,6 +990,7 @@ hack-fonts
 hardlink
 haveged
 hddtemp
+hdjmod-kmp-default
 hdparm
 health-checker
 health-checker-plugins-caasp
@@ -3277,6 +3282,8 @@ lskat-lang
 lsof
 lsscsi
 ltrace
+lttng-modules
+lttng-modules-kmp-default
 lua53
 lua53-luasocket
 luit
@@ -3355,6 +3362,7 @@ metatheme-adwaita-common
 metatheme-breeze-common
 metatheme-sonar-common
 mgopen-fonts
+mhvtl-kmp-default
 midori-branding-openSUSE
 milou5
 milou5-lang
@@ -3526,6 +3534,9 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
 openSUSE-xfce-icon-theme
+openafs
+openafs-client
+openafs-kmp-default
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3672,6 +3683,7 @@ patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
 pbm2l7k
+pcfclock-kmp-default
 pciutils
 pciutils-ids
 pcmanfm
@@ -4387,6 +4399,7 @@ rsvg-thumbnailer
 rsync
 rt2860
 rtkit
+rtl8812au-kmp-default
 ruby
 ruby-common
 ruby-devel
@@ -4822,6 +4835,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
 sysprof
@@ -5081,11 +5095,13 @@ util-linux-lang
 util-linux-systemd
 util-macros-devel
 v4l-conf
+v4l2loopback-kmp-default
 vacation
 vala
 valgrind
 vdr
 vdr-lang
+vhba-kmp-default
 viewnior
 viewnior-lang
 viewvc
@@ -5100,6 +5116,9 @@ virt-manager
 virt-manager-common
 virt-sandbox
 virt-viewer
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlc
 vlc-codec-gstreamer
@@ -5358,6 +5377,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm
 xterm-bin
