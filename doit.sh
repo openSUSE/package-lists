@@ -160,6 +160,15 @@ for arch in $arches; do
          fi
        fi
     fi
+    if test "$proj" = "Factory:ARM"; then
+      #./gen.pl opensuse/$proj/promo_dvd $arch "$proj" $repo
+      #./gen.pl opensuse/$proj/dvd-addon_lang $arch "$proj" $repo
+      if test "$arch" = "aarch64"; then
+        perl create_solv.pl openSUSE:Factory:Containers container_ARM $arch
+        ./gen-kubic.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
+        ./gen-kubic.pl opensuse/$proj/dvd-kubic-addon $arch "$proj" $repo
+      fi
+    fi
 done
 
 if $(is_x86 $arch); then
