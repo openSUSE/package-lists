@@ -58,11 +58,31 @@ can't install python-certbot-nginx-0.26.1-1.1.noarch:
   package is obsoleted by python2-certbot-nginx-0.27.1-1.1.noarch
 can't install akonadi-runtime-1.13.0-11.6.x86_64:
   package is obsoleted by akonadi-server-18.08.1-1.1.x86_64
+can't install xtables-addons-kmp-default-3.2_k4.18.8_1-1.3.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by xtables-addons-kmp-default-3.2_k4.18.8_1-1.3.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install scilab-modules-6.0.1-5.1.noarch:
   package scilab-modules-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
   nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
+can't install lttng-modules-kmp-default-2.10.7_k4.18.8_1-1.10.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by lttng-modules-kmp-default-2.10.7_k4.18.8_1-1.10.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install certbot-0.26.1-1.1.noarch:
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
@@ -98,6 +118,16 @@ can't install qore-uuid-module-1.3-3.13.x86_64:
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install virtualbox-guest-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-guest-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install python-certbot-dns-cloudflare-0.26.1-1.1.noarch:
   package python-certbot-dns-cloudflare-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
@@ -109,6 +139,16 @@ can't install python-certbot-dns-nsone-0.26.1-1.1.noarch:
   package python-certbot-dns-nsone-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install bbswitch-kmp-default-0.8_k4.18.8_1-7.35.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by bbswitch-kmp-default-0.8_k4.18.8_1-7.35.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install python-certbot-dns-luadns-0.26.1-1.1.noarch:
   package python-certbot-dns-luadns-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
@@ -139,23 +179,12 @@ can't install freeorion-data-0.4.7.1-2.3.noarch:
 can't install paperwork-0.3.2-1.8.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.8.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
-can't install spyder-terminal-0.2.4-1.1.noarch:
-  package spyder-terminal-0.2.4-1.1.noarch requires spyder >= 3.2.0, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
-can't install spyder-breakpoints-lang-3.3.1-1.1.noarch:
-  package spyder-breakpoints-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-breakpoints-lang-3.3.1-1.1.noarch requires spyder-breakpoints = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install python-certbot-dns-rfc2136-0.26.1-1.1.noarch:
   package python-certbot-dns-rfc2136-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
-can't install python2-pylint-1.9.2-2.3.noarch:
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
@@ -164,17 +193,49 @@ can't install gtg-0.3.1-6.1.noarch:
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install sysdig-kmp-default-0.23.1_k4.18.8_1-1.7.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by sysdig-kmp-default-0.23.1_k4.18.8_1-1.7.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install octave-forge-vrml-1.0.13-1.9.x86_64:
   package octave-forge-vrml-1.0.13-1.9.x86_64 requires octave-forge-linear-algebra, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
 can't install carla-1.9.7+git20171111.5b97ec1e-3.2.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by carla-1.9.7+git20171111.5b97ec1e-3.2.x86_64
+can't install virtualbox-guest-desktop-icons-5.2.18-1.4.noarch:
+  package virtualbox-guest-desktop-icons-5.2.18-1.4.noarch requires virtualbox = 5.2.18, but none of the providers can be installed
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install scilab-lang-6.0.1-5.1.noarch:
   package scilab-lang-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
   nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
+can't install pcfclock-kmp-default-0.44_k4.18.8_1-265.33.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by pcfclock-kmp-default-0.44_k4.18.8_1-265.33.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
@@ -198,14 +259,17 @@ can't install python-certbot-dns-route53-0.26.1-1.1.noarch:
   package python-certbot-dns-route53-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
-can't install spyder-pylint-lang-3.3.1-1.1.noarch:
-  package spyder-pylint-lang-3.3.1-1.1.noarch requires spyder-pylint = 3.3.1, but none of the providers can be installed
-  package spyder-pylint-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
-can't install spyder-notebook-0.1.2-2.1.noarch:
-  package spyder-notebook-0.1.2-2.1.noarch requires spyder >= 3.2.0, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install virtualbox-guest-x11-5.2.18-1.4.x86_64:
+  package virtualbox-guest-x11-5.2.18-1.4.x86_64 requires virtualbox-guest-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-guest-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
 can't install python3-hdf5storage-0.1.15-1.1.noarch:
@@ -251,6 +315,17 @@ can't install qore-json-module-1.4-5.11.x86_64:
 can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
   package wok-plugins-kimchi-2.5.0-2.2.noarch requires wok = 2.5.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install openafs-client-1.8.2-1.2.x86_64:
+  package openafs-client-1.8.2-1.2.x86_64 requires openafs-kmp, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by openafs-kmp-default-1.8.2_k4.18.8_1-1.2.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install python-gcs-oauth2-boto-plugin-1.14-1.5.noarch:
   nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.5.noarch
 can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
@@ -261,17 +336,24 @@ can't install scilab-devel-6.0.1-5.1.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by libscilab6-6.0.1-5.1.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
-can't install python-requirements-detector-0.4-1.6.noarch:
-  nothing provides python-astroid >= 1.0.0 needed by python-requirements-detector-0.4-1.6.noarch
 can't install buzztrax-plugins-0.10.2-11.1.x86_64:
   package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
+can't install python3-virtualbox-5.2.18-1.4.x86_64:
+  package python3-virtualbox-5.2.18-1.4.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install python2-jupyter_ipython-iptest-5.8.0-1.1.noarch:
   nothing provides python-matplotlib needed by python2-jupyter_ipython-iptest-5.8.0-1.1.noarch
-can't install spyder-3.3.1-1.1.noarch:
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install python2-hdf5storage-0.1.15-1.1.noarch:
   package python2-hdf5storage-0.1.15-1.1.noarch requires python2-h5py >= 2.1, but none of the providers can be installed
   nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
@@ -284,9 +366,28 @@ can't install python-certbot-dns-dnsimple-0.26.1-1.1.noarch:
     (we have python2-acme-0.27.1-1.1.noarch)
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
-can't install python2-inspektor-0.5.1-1.1.noarch:
-  package python2-inspektor-0.5.1-1.1.noarch requires python2-pylint >= 1.3.1, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install vhba-kmp-default-20170610_k4.18.8_1-1.157.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by vhba-kmp-default-20170610_k4.18.8_1-1.157.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
+can't install virtualbox-qt-5.2.18-1.4.x86_64:
+  package virtualbox-qt-5.2.18-1.4.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install peerunity-qt-0.2.2-3.5.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
   nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
@@ -298,6 +399,18 @@ can't install python-certbot-dns-dnsmadeeasy-0.26.1-1.1.noarch:
   package python-certbot-dns-dnsmadeeasy-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install gcdemu-3.0.2-1.4.noarch:
+  package gcdemu-3.0.2-1.4.noarch requires cdemu-daemon >= 3.0.0, but none of the providers can be installed
+  package cdemu-daemon-3.1.0-3.2.x86_64 requires vhba-kmp, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by vhba-kmp-default-20170610_k4.18.8_1-1.157.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -311,6 +424,37 @@ can't install python-certbot-nginx-0.26.1-1.1.noarch:
   package python-certbot-nginx-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install crash-kmp-default-7.2.3_k4.18.8_1-1.17.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by crash-kmp-default-7.2.3_k4.18.8_1-1.17.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
+can't install mhvtl-1.53_release-3.20.x86_64:
+  package mhvtl-1.53_release-3.20.x86_64 requires mhvtl-kmp, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by mhvtl-kmp-default-1.53_release_k4.18.8_1-3.20.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
+can't install openafs-kmp-default-1.8.2_k4.18.8_1-1.2.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by openafs-kmp-default-1.8.2_k4.18.8_1-1.2.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64:
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
 can't install scilab-modules-doc-lang-6.0.1-5.1.noarch:
@@ -343,6 +487,17 @@ can't install python-certbot-dns-digitalocean-0.26.1-1.1.noarch:
   package python-certbot-dns-digitalocean-0.26.1-1.1.noarch requires certbot = 0.26.1, but none of the providers can be installed
   nothing provides python-acme = 0.26.1 needed by certbot-0.26.1-1.1.noarch
     (we have python2-acme-0.27.1-1.1.noarch)
+can't install virtualbox-5.2.18-1.4.x86_64:
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
 can't install peerunityd-0.2.2-3.5.x86_64:
@@ -357,10 +512,18 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
-can't install spyder-breakpoints-3.3.1-1.1.noarch:
-  package spyder-breakpoints-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install virtualbox-websrv-5.2.18-1.4.x86_64:
+  package virtualbox-websrv-5.2.18-1.4.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install python3-h5py-2.8.0-1.2.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install libscilab6-6.0.1-5.1.x86_64:
@@ -397,10 +560,6 @@ can't install libtomahawk-plugins-0.8.99~git20180422T140543-1.1.x86_64:
 can't install quimup-1.4.3-1.2.x86_64:
   package quimup-1.4.3-1.2.x86_64 requires mpd, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by mpd-0.20.18-1.8.x86_64
-can't install spyder-memory-profiler-0.1.2-2.1.noarch:
-  package spyder-memory-profiler-0.1.2-2.1.noarch requires spyder >= 3, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -418,21 +577,54 @@ can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
   package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install virtualbox-vnc-5.2.18-1.4.x86_64:
+  package virtualbox-vnc-5.2.18-1.4.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
+can't install libvirt-daemon-vbox-4.6.0-2.1.x86_64:
+  package libvirt-daemon-vbox-4.6.0-2.1.x86_64 requires virtualbox < 5.3, but none of the providers can be installed
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install carla-vst-1.9.7+git20171111.5b97ec1e-3.2.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by carla-vst-1.9.7+git20171111.5b97ec1e-3.2.x86_64
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install gcdemu-lang-3.0.2-1.4.noarch:
+  package gcdemu-3.0.2-1.4.noarch requires cdemu-daemon >= 3.0.0, but none of the providers can be installed
+  package gcdemu-lang-3.0.2-1.4.noarch requires gcdemu = 3.0.2, but none of the providers can be installed
+  package cdemu-daemon-3.1.0-3.2.x86_64 requires vhba-kmp, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by vhba-kmp-default-20170610_k4.18.8_1-1.157.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
 can't install python2-h5py-2.8.0-1.2.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
-can't install spyder-dicom-3.3.1-1.1.noarch:
-  package spyder-dicom-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.8.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.8.noarch
@@ -445,17 +637,20 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install spyder-profiler-3.3.1-1.1.noarch:
-  package spyder-profiler-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install bbswitch-0.8-7.35.x86_64:
+  package bbswitch-0.8-7.35.x86_64 requires bbswitch-kmp, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by bbswitch-kmp-default-0.8_k4.18.8_1-7.35.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64:
   package ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64 requires ruby2.5-rubygem-lolcat = 90.8.8, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
-can't install spyder-unittest-0.3.1-2.1.noarch:
-  package spyder-unittest-0.3.1-2.1.noarch requires spyder >= 3, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install ncmpcpp-0.8.2-1.5.x86_64:
   package ncmpcpp-0.8.2-1.5.x86_64 requires mpd > 0.16, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by mpd-0.20.18-1.8.x86_64
@@ -473,14 +668,16 @@ can't install python-certbot-dns-google-0.26.1-1.1.noarch:
 can't install csound-devel-5.18.02-11.2.x86_64:
   package csound-devel-5.18.02-11.2.x86_64 requires csound = 5.18.02, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
-can't install spyder-pylint-3.3.1-1.1.noarch:
-  package spyder-pylint-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
-can't install spyder-profiler-lang-3.3.1-1.1.noarch:
-  package spyder-profiler-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-profiler-lang-3.3.1-1.1.noarch requires spyder-profiler = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
+can't install mhvtl-kmp-default-1.53_release_k4.18.8_1-3.20.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by mhvtl-kmp-default-1.53_release_k4.18.8_1-3.20.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
@@ -498,6 +695,16 @@ can't install openlmi-python-test-0.6.0-11.4.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.4.noarch
 can't install csound-5.18.02-11.2.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
+can't install v4l2loopback-kmp-default-0.12.0_k4.18.8_1-1.33.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by v4l2loopback-kmp-default-0.12.0_k4.18.8_1-1.33.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
@@ -508,40 +715,142 @@ can't install scilab-modules-doc-6.0.1-5.1.noarch:
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
   nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
-can't install spyder-lang-3.3.1-1.1.noarch:
-  package spyder-lang-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
 can't install gns3-2.0.3-1.3.noarch:
   package gns3-2.0.3-1.3.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
+can't install virtualbox-host-source-5.2.18-1.4.noarch:
+  package virtualbox-host-source-5.2.18-1.4.noarch requires virtualbox = 5.2.18, but none of the providers can be installed
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install machinery-1.23.1-1.6.x86_64:
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
-can't install spyder-line-profiler-0.1.1-2.1.noarch:
-  package spyder-line-profiler-0.1.1-2.1.noarch requires spyder >= 3, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-pylint, but none of the providers can be installed
-  nothing provides python-astroid >= 1.6.5 needed by python2-pylint-1.9.2-2.3.noarch
 can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
+can't install virtualbox-guest-tools-5.2.18-1.4.x86_64:
+  package virtualbox-guest-tools-5.2.18-1.4.x86_64 requires virtualbox-guest-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-guest-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install qsynth-0.5.0-1.3.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by qsynth-0.5.0-1.3.x86_64
+can't install hdjmod-kmp-default-1.28_k4.18.8_1-24.35.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by hdjmod-kmp-default-1.28_k4.18.8_1-24.35.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
+can't install pcfclock-0.44-265.33.x86_64:
+  package pcfclock-0.44-265.33.x86_64 requires pcfclock-kmp, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by pcfclock-kmp-default-0.44_k4.18.8_1-265.33.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch
+can't install virtualbox-devel-5.2.18-1.4.x86_64:
+  package virtualbox-devel-5.2.18-1.4.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
+  package virtualbox-5.2.18-1.4.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install pfstools-octave-2.0.6-1.5.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
 can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
+can't install kernel-vanilla-devel-4.18.8-1.3.x86_64:
+  nothing provides kernel-source-vanilla = 4.18.8-1 needed by kernel-vanilla-devel-4.18.8-1.3.x86_64
+    (we have kernel-source-vanilla-4.18.9-1.2.noarch)
+can't install cdemu-daemon-3.1.0-3.2.x86_64:
+  package cdemu-daemon-3.1.0-3.2.x86_64 requires vhba-kmp, but none of the providers can be installed
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by vhba-kmp-default-20170610_k4.18.8_1-1.157.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
+can't install virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.8_1-1.4.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
+can't install dpdk-kmp-default-18.02.2_k4.18.8_1-4.1.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by dpdk-kmp-default-18.02.2_k4.18.8_1-4.1.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
+can't install drbd-kmp-default-9.0.15+git.c46d2790_k4.18.8_1-1.6.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by drbd-kmp-default-9.0.15+git.c46d2790_k4.18.8_1-1.6.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
+can't install rtl8812au-kmp-default-5.2.20.2_k4.18.8_1-1.7.x86_64:
+  nothing provides kernel-uname-r = 4.18.8-1-default needed by rtl8812au-kmp-default-5.2.20.2_k4.18.8_1-1.7.x86_64
+    (we have kernel-debug-base-4.18.9-1.1.x86_64)
+    (we have kernel-debug-4.18.9-1.1.x86_64)
+    (we have kernel-default-4.18.9-1.1.x86_64)
+    (we have kernel-kvmsmall-base-4.18.9-1.3.x86_64)
+    (we have kernel-vanilla-base-4.18.8-1.3.x86_64)
+    (we have kernel-default-base-4.18.9-1.1.x86_64)
+    (we have kernel-vanilla-4.18.8-1.3.x86_64)
+    (we have kernel-kvmsmall-4.18.9-1.3.x86_64)
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
