@@ -39,11 +39,6 @@ can't install akonadi-runtime-1.13.0-11.6.x86_64:
 can't install ktuberling-18.08.1-1.1.x86_64:
   package ktuberling-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install rapid-photo-downloader-lang-0.9.9-1.1.noarch:
-  package rapid-photo-downloader-lang-0.9.9-1.1.noarch requires rapid-photo-downloader = 0.9.9, but none of the providers can be installed
-  package rapid-photo-downloader-0.9.9-1.1.noarch requires python3-qt5 >= 5.4, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install plasmoid-active-window-control-1.7.3-5.1.x86_64:
   package plasmoid-active-window-control-1.7.3-5.1.x86_64 requires libKF5Plasma.so.5()(64bit), but none of the providers can be installed
   package libKF5Plasma5-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -56,10 +51,6 @@ can't install kalarm-lang-18.08.1-1.1.noarch:
   package kalarm-lang-18.08.1-1.1.noarch requires kalarm = 18.08.1, but none of the providers can be installed
   package kalarm-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-PsychoPy-1.90.3-1.1.noarch:
-  package python2-PsychoPy-1.90.3-1.1.noarch requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install khtml-devel-5.49.0-1.2.x86_64:
   package khtml-devel-5.49.0-1.2.x86_64 requires libKF5KHtml5 = 5.49.0, but none of the providers can be installed
   package libKF5KHtml5-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -69,12 +60,6 @@ can't install akonadi-search-devel-18.08.1-1.1.x86_64:
   package akonadi-search-devel-18.08.1-1.1.x86_64 requires akonadi-server-devel >= 18.08, but none of the providers can be installed
   package kxmlgui-devel-5.49.0-1.1.x86_64 requires libKF5XmlGui5 = 5.49.0, but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-profiler-lang-3.3.1-1.1.noarch:
-  package spyder3-profiler-3.3.1-1.1.noarch requires spyder3 = 3.3.1, but none of the providers can be installed
-  package spyder3-profiler-lang-3.3.1-1.1.noarch requires spyder3-profiler = 3.3.1, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kshutdown-4.2-1.2.x86_64:
   package kshutdown-4.2-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -104,10 +89,6 @@ can't install kjots-lang-5.0.2-1.9.noarch:
 can't install kpackage-devel-32bit-5.50.0-1.1.x86_64:
   nothing provides kpackage-devel = 5.50.0 needed by kpackage-devel-32bit-5.50.0-1.1.x86_64
     (we have kpackage-devel-5.49.0-1.1.x86_64)
-can't install fs-uae-launcher-2.8.3-1.1.noarch:
-  package fs-uae-launcher-2.8.3-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kteatime-lang-18.08.1-1.1.noarch:
   package kteatime-lang-18.08.1-1.1.noarch requires kteatime = 18.08.1, but none of the providers can be installed
   package kteatime-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -117,10 +98,6 @@ can't install kde-gtk-config5-gtk2-5.13.5-1.1.x86_64:
   package kde-gtk-config5-gtk2-5.13.5-1.1.x86_64 requires kde-gtk-config5 = 5.13.5, but none of the providers can be installed
   package libKF5NewStuff5-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install nagstamon-2.0.1-1.7.noarch:
-  package nagstamon-2.0.1-1.7.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install knewstuff-devel-32bit-5.49.0-1.1.x86_64:
   package knewstuff-devel-32bit-5.49.0-1.1.x86_64 requires libKF5NewStuff5-32bit = 5.49.0, but none of the providers can be installed
   package libKF5NewStuff5-32bit-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5, but none of the providers can be installed
@@ -148,13 +125,6 @@ can't install buzztrax-lang-0.10.2-11.1.noarch:
   package buzztrax-lang-0.10.2-11.1.noarch requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install python3-qt5-5.10.1-5.1.x86_64:
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-can't install torbrowser-launcher-0.3.0-1.1.noarch:
-  package torbrowser-launcher-0.3.0-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install konqueror-lang-18.08.1-1.1.noarch:
   package konqueror-lang-18.08.1-1.1.noarch requires konqueror = 18.08.1, but none of the providers can be installed
   package konqueror-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -213,11 +183,6 @@ can't install kmailtransport-lang-18.08.1-1.1.noarch:
   package kmailtransport-lang-18.08.1-1.1.noarch requires kmailtransport = 18.08.1, but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-notebook-0.1.2-2.1.noarch:
-  package spyder3-notebook-0.1.2-2.1.noarch requires spyder3 >= 3.2.0, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -290,10 +255,6 @@ can't install milou5-5.13.5-1.1.x86_64:
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
 can't install qore-uuid-module-1.3-3.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.13.x86_64
-can't install python3-pyqtgraph-0.10.0-3.3.noarch:
-  package python3-pyqtgraph-0.10.0-3.3.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install filelight-lang-18.08.1-1.1.noarch:
   package filelight-lang-18.08.1-1.1.noarch requires filelight = 18.08.1, but none of the providers can be installed
   package filelight-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -316,11 +277,6 @@ can't install breeze-5.13.5-1.1.x86_64:
   package breeze-5.13.5-1.1.x86_64 requires breeze5-style >= 5.13.5, but none of the providers can be installed
   package libKF5KCMUtils5-5.49.0-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-terminal-0.2.4-1.1.noarch:
-  package spyder3-terminal-0.2.4-1.1.noarch requires spyder3 >= 3.2.0, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install breeze5-style-lang-5.13.5-1.1.noarch:
   package breeze5-style-5.13.5-1.1.x86_64 requires libKF5KCMUtils.so.5()(64bit), but none of the providers can be installed
   package breeze5-style-lang-5.13.5-1.1.noarch requires breeze5-style = 5.13.5, but none of the providers can be installed
@@ -349,16 +305,6 @@ can't install kparts-devel-5.49.0-1.1.x86_64:
 can't install labplot-kf5-2.5.0-1.2.x86_64:
   package labplot-kf5-2.5.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install libqt5-creator-4.7.0-1.1.x86_64:
-  nothing provides libQt5Designer5 = 5.11.1 needed by libqt5-creator-4.7.0-1.1.x86_64
-    (we have libQt5Designer5-5.11.2-1.2.x86_64)
-  nothing provides libQt5DesignerComponents5 = 5.11.1 needed by libqt5-creator-4.7.0-1.1.x86_64
-    (we have libQt5DesignerComponents5-5.11.2-1.2.x86_64)
-  nothing provides libQt5Script5 = 5.11.1 needed by libqt5-creator-4.7.0-1.1.x86_64
-    (we have libQt5Script5-5.11.2-1.1.x86_64)
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libqt5-creator-4.7.0-1.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libqt5-creator-4.7.0-1.1.x86_64
-  nothing provides libQt5DesignerComponents.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libqt5-creator-4.7.0-1.1.x86_64
 can't install ktnef-18.08.1-1.1.x86_64:
   package ktnef-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -414,10 +360,6 @@ can't install libKF5Libkleo5-18.08.1-1.1.x86_64:
 can't install kteatime-18.08.1-1.1.x86_64:
   package kteatime-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install fs-uae-arcade-2.8.3-1.1.noarch:
-  package fs-uae-arcade-2.8.3-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install plasma5-session-wayland-5.13.5-1.2.noarch:
   package plasma5-session-wayland-5.13.5-1.2.noarch requires plasma5-session >= 5.13.5, but none of the providers can be installed
   package plasma5-session-5.13.5-1.2.noarch requires kwin5 >= 5.13.5, but none of the providers can be installed
@@ -432,10 +374,6 @@ can't install kde-gtk-config5-gtk3-5.13.5-1.1.x86_64:
   package kde-gtk-config5-gtk3-5.13.5-1.1.x86_64 requires kde-gtk-config5 = 5.13.5, but none of the providers can be installed
   package libKF5NewStuff5-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python3-matplotlib-qt5-3.0.0-1.1.x86_64:
-  package python3-matplotlib-qt5-3.0.0-1.1.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install ksirk-lang-18.08.1-1.1.noarch:
   package ksirk-lang-18.08.1-1.1.noarch requires ksirk = 18.08.1, but none of the providers can be installed
   package ksirk-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -449,17 +387,9 @@ can't install patterns-kde-kde_plasma-20180709-5.1.noarch:
     (we have libQt5Core5-5.11.2-1.1.x86_64)
   nothing provides libQt5Gui5 = 5.11.1 needed by kwin5-5.13.5-1.1.x86_64
     (we have libQt5Gui5-5.11.2-1.1.x86_64)
-can't install python2-pymol-2.2.0-1.1.x86_64:
-  package python2-pymol-2.2.0-1.1.x86_64 requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install kdevelop5-5.2.4-2.1.x86_64:
   package kdevelop5-5.2.4-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python3-qscintilla-qt5-2.10.4-1.6.x86_64:
-  package python3-qscintilla-qt5-2.10.4-1.6.x86_64 requires python3-qt5 >= 5.10.1, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
@@ -467,10 +397,6 @@ can't install kde-cli-tools5-5.13.5-1.1.x86_64:
   package kde-cli-tools5-5.13.5-1.1.x86_64 requires libKF5KCMUtils.so.5()(64bit), but none of the providers can be installed
   package libKF5KCMUtils5-5.49.0-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install suil-plugin-qt5-in-gtk2-0.10.0-2.3.x86_64:
-  package suil-plugin-qt5-in-gtk2-0.10.0-2.3.x86_64 requires python-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install latte-dock-lang-0.8.1-1.1.noarch:
   package latte-dock-lang-0.8.1-1.1.noarch requires latte-dock = 0.8.1, but none of the providers can be installed
   package latte-dock-0.8.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -495,12 +421,6 @@ can't install libktorrent-lang-2.1-1.3.noarch:
   package libktorrent-lang-2.1-1.3.noarch requires libktorrent = 2.1, but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install libqt5-qtwebview-examples-5.11.1-1.1.x86_64:
-  package libqt5-qtwebview-examples-5.11.1-1.1.x86_64 requires libQt5WebView.so.5()(64bit), but none of the providers can be installed
-  package libqt5-qtwebview-examples-5.11.1-1.1.x86_64 requires libQt5WebView.so.5(Qt_5)(64bit), but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5WebEngine.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
 can't install ksysguard5-lang-5.13.5-1.1.noarch:
   package ksysguard5-lang-5.13.5-1.1.noarch requires ksysguard5 = 5.13.5, but none of the providers can be installed
   package ksysguard5-5.13.5-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -548,14 +468,6 @@ can't install kio-devel-32bit-5.49.0-1.2.x86_64:
 can't install libKF5KHtml5-5.49.0-1.2.x86_64:
   package libKF5KHtml5-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-3.3.1-1.1.noarch:
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-can't install python3-qet_tb_generator-1.0.16-1.1.noarch:
-  package python3-qet_tb_generator-1.0.16-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install libKF5AkonadiWidgets5-18.08.1-1.1.x86_64:
   package libKF5AkonadiWidgets5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -601,10 +513,6 @@ can't install ark-lang-18.08.1-1.1.noarch:
   package ark-lang-18.08.1-1.1.noarch requires ark = 18.08.1, but none of the providers can be installed
   package ark-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-QtPy-1.4.2-1.1.noarch:
-  package python2-QtPy-1.4.2-1.1.noarch requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install yakuake-3.0.5-1.2.x86_64:
   package yakuake-3.0.5-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -668,10 +576,6 @@ can't install yakuake-lang-3.0.5-1.2.noarch:
 can't install kalarm-18.08.1-1.1.x86_64:
   package kalarm-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install openshot-qt-2.4.3-1.1.noarch:
-  package openshot-qt-2.4.3-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install freeorion-data-0.4.7.1-2.3.noarch:
   package freeorion-data-0.4.7.1-2.3.noarch requires freeorion = 0.4.7.1, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
@@ -699,11 +603,6 @@ can't install kross-devel-32bit-5.49.0-1.1.x86_64:
   package kross-devel-32bit-5.49.0-1.1.x86_64 requires kross-32bit = 5.49.0, but none of the providers can be installed
   package kross-32bit-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5, but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API) needed by libKF5XmlGui5-32bit-5.49.0-1.1.x86_64
-can't install spyder-terminal-0.2.4-1.1.noarch:
-  package spyder-terminal-0.2.4-1.1.noarch requires spyder >= 3.2.0, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install libqt5-qtscxml-devel-32bit-5.11.1-1.2.x86_64:
   nothing provides libQt5Core5-32bit = 5.11.1 needed by libqt5-qtscxml-devel-32bit-5.11.1-1.2.x86_64
     (we have libQt5Core5-32bit-5.11.2-1.1.x86_64)
@@ -720,12 +619,6 @@ can't install plasma5-pa-lang-5.13.5-1.1.noarch:
 can't install ksudoku-18.08.1-1.1.x86_64:
   package ksudoku-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder-breakpoints-lang-3.3.1-1.1.noarch:
-  package spyder-breakpoints-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-breakpoints-lang-3.3.1-1.1.noarch requires spyder-breakpoints = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install libKPimGAPICore5-18.08.1-1.1.x86_64:
   package libKPimGAPICore5-18.08.1-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -787,10 +680,6 @@ can't install oxygen5-lang-5.13.5-1.1.noarch:
   package oxygen5-lang-5.13.5-1.1.noarch requires oxygen5 = 5.13.5, but none of the providers can be installed
   package libKF5KCMUtils5-5.49.0-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python3-pymol-2.2.0-1.1.x86_64:
-  package python3-pymol-2.2.0-1.1.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install calligra-extras-okular-3.1.0-2.4.x86_64:
   package calligra-extras-okular-3.1.0-2.4.x86_64 requires okular, but none of the providers can be installed
   package calligra-extras-okular-3.1.0-2.4.x86_64 requires libOkular5Core.so.9()(64bit), but none of the providers can be installed
@@ -857,10 +746,6 @@ can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
 can't install kraft-0.81-1.1.x86_64:
   package kraft-0.81-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-qscintilla-qt5-2.10.4-1.6.x86_64:
-  package python2-qscintilla-qt5-2.10.4-1.6.x86_64 requires python2-qt5 >= 5.10.1, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install okteta-0.25.3-1.1.x86_64:
   package okteta-0.25.3-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -908,29 +793,15 @@ can't install calligra-lang-3.1.0-2.4.x86_64:
   package calligra-lang-3.1.0-2.4.x86_64 requires calligra = 3.1.0, but none of the providers can be installed
   package calligra-3.1.0-2.4.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python3-pyside2-devel-2.0~pre.1526654735.3f8c8702-1.5.x86_64:
-  package python3-pyside2-devel-2.0~pre.1526654735.3f8c8702-1.5.x86_64 requires python3-pyside2 = 2.0~pre.1526654735.3f8c8702, but none of the providers can be installed
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-pyside2-2.0~pre.1526654735.3f8c8702-1.5.x86_64
-  nothing provides libQt5Qml.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-pyside2-2.0~pre.1526654735.3f8c8702-1.5.x86_64
 can't install libkdepim-18.08.1-1.1.x86_64:
   package libKF5LibkdepimAkonadi5-18.08.1-1.1.x86_64 requires libKF5AkonadiContact.so.5()(64bit), but none of the providers can be installed
   package libkdepim-18.08.1-1.1.x86_64 requires libKF5LibkdepimAkonadi.so.5()(64bit), but none of the providers can be installed
   package libKF5AkonadiContact5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install libqt5-qtwebview-private-headers-devel-5.11.1-1.1.noarch:
-  package libqt5-qtwebview-private-headers-devel-5.11.1-1.1.noarch requires libqt5-qtwebview-devel = 5.11.1, but none of the providers can be installed
-  package libqt5-qtwebview-devel-5.11.1-1.1.x86_64 requires libQt5WebView5 = 5.11.1, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5WebEngine.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
 can't install kdenetwork4-filesharing-18.08.1-1.1.x86_64:
   package kdenetwork4-filesharing-18.08.1-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-pyqtgraph-0.10.0-3.3.noarch:
-  package python2-pyqtgraph-0.10.0-3.3.noarch requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install kssl-5.49.0-1.1.x86_64:
   package kssl-5.49.0-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -955,10 +826,6 @@ can't install konsole-part-lang-18.08.1-1.1.noarch:
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
 can't install carla-1.9.7+git20171111.5b97ec1e-3.2.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by carla-1.9.7+git20171111.5b97ec1e-3.2.x86_64
-can't install python3-pytest-qt-2.4.0-1.2.noarch:
-  package python3-pytest-qt-2.4.0-1.2.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kontact-18.08.1-1.1.x86_64:
   package kontact-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -981,10 +848,6 @@ can't install libkdevplatform52-5.2.4-2.1.x86_64:
 can't install libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
-can't install urh-2.2.3-1.1.x86_64:
-  package urh-2.2.3-1.1.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kdepim-apps-libs-18.08.1-1.1.x86_64:
   package kdepim-apps-libs-18.08.1-1.1.x86_64 requires libKF5AkonadiWidgets.so.5()(64bit), but none of the providers can be installed
   package libKF5AkonadiWidgets5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -1005,11 +868,6 @@ can't install kmag-lang-18.08.1-1.1.noarch:
   package kmag-lang-18.08.1-1.1.noarch requires kmag = 18.08.1, but none of the providers can be installed
   package kmag-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install veusz-3.0.1-1.2.x86_64:
-  package veusz-3.0.1-1.2.x86_64 requires python3-veusz = 3.0.1, but none of the providers can be installed
-  package python3-veusz-3.0.1-1.2.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install ktexteditor-5.49.0-1.1.x86_64:
   package ktexteditor-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -1076,11 +934,6 @@ can't install scilab-6.0.1-5.1.x86_64:
 can't install python-espressopp-2.0-1.2.x86_64:
   package python-espressopp-2.0-1.2.x86_64 requires python-h5py, but none of the providers can be installed
   nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
-can't install python3-PsychoPy-lang-1.90.3-1.1.noarch:
-  package python3-PsychoPy-lang-1.90.3-1.1.noarch requires python3-PsychoPy = 1.90.3, but none of the providers can be installed
-  package python3-PsychoPy-1.90.3-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kmahjongg-lang-18.08.1-1.1.noarch:
   package kmahjongg-lang-18.08.1-1.1.noarch requires kmahjongg = 18.08.1, but none of the providers can be installed
   package kmahjongg-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -1093,17 +946,6 @@ can't install libksieve-devel-18.08.1-1.1.x86_64:
 can't install libKF5Declarative5-5.49.0-1.1.x86_64:
   nothing provides libQt5Core5 = 5.11.1 needed by libKF5Declarative5-5.49.0-1.1.x86_64
     (we have libQt5Core5-5.11.2-1.1.x86_64)
-can't install spyder-pylint-lang-3.3.1-1.1.noarch:
-  package spyder-pylint-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-pylint-lang-3.3.1-1.1.noarch requires spyder-pylint = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-can't install spyder-notebook-0.1.2-2.1.noarch:
-  package spyder-notebook-0.1.2-2.1.noarch requires python-QtPy, but none of the providers can be installed
-  package python2-QtPy-1.4.2-1.1.noarch requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
 can't install libKF5Bookmarks5-lang-5.49.0-1.1.noarch:
@@ -1324,10 +1166,6 @@ can't install kaddressbook-lang-18.08.1-1.1.noarch:
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
 can't install fluidsynth-dssi-1.0.0-18.12.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by fluidsynth-dssi-1.0.0-18.12.x86_64
-can't install OpenLP-2.4.6-1.2.noarch:
-  package OpenLP-2.4.6-1.2.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install lskat-18.08.1-1.1.x86_64:
   package lskat-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -1352,10 +1190,6 @@ can't install kio-extras5-lang-18.08.1-1.1.noarch:
   package kio-extras5-lang-18.08.1-1.1.noarch requires kio-extras5 = 18.08.1, but none of the providers can be installed
   package kio-extras5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-matplotlib-qt5-2.2.3-1.1.x86_64:
-  package python2-matplotlib-qt5-2.2.3-1.1.x86_64 requires python-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install purpose-devel-32bit-5.49.0-1.1.x86_64:
   package purpose-devel-5.49.0-1.1.x86_64 requires purpose = 5.49.0, but none of the providers can be installed
   package purpose-5.49.0-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
@@ -1370,15 +1204,6 @@ can't install kompare-lang-18.08.1-1.1.noarch:
   package kompare-lang-18.08.1-1.1.noarch requires kompare = 18.08.1, but none of the providers can be installed
   package kompare-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-pylint-3.3.1-1.1.noarch:
-  package spyder3-pylint-3.3.1-1.1.noarch requires spyder3 = 3.3.1, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-can't install picard-2.0.4-1.1.x86_64:
-  package picard-2.0.4-1.1.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install libKF5NotifyConfig5-32bit-5.49.0-1.1.x86_64:
   package libKF5NotifyConfig5-32bit-5.49.0-1.1.x86_64 requires libKF5KIOWidgets.so.5, but none of the providers can be installed
   package kio-32bit-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5, but none of the providers can be installed
@@ -1435,11 +1260,6 @@ can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
 can't install scilab-devel-6.0.1-5.1.x86_64:
   package scilab-devel-6.0.1-5.1.x86_64 requires libscilab6 = 6.0.1, but none of the providers can be installed
   nothing provides libhdf5.so.101()(64bit) needed by libscilab6-6.0.1-5.1.x86_64
-can't install python2-QtAwesome-0.4.4-2.1.noarch:
-  package python2-QtAwesome-0.4.4-2.1.noarch requires python2-QtPy, but none of the providers can be installed
-  package python2-QtPy-1.4.2-1.1.noarch requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install kunitconversion-devel-32bit-5.50.0-1.1.x86_64:
   nothing provides kunitconversion-devel = 5.50.0 needed by kunitconversion-devel-32bit-5.50.0-1.1.x86_64
     (we have kunitconversion-devel-5.49.0-1.1.x86_64)
@@ -1455,11 +1275,6 @@ can't install akonadi-calendar-devel-18.08.1-1.1.x86_64:
 can't install rocs-18.08.1-1.1.x86_64:
   package rocs-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install libqt5-qtwebview-devel-5.11.1-1.1.x86_64:
-  package libqt5-qtwebview-devel-5.11.1-1.1.x86_64 requires libQt5WebView5 = 5.11.1, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5WebEngine.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
 can't install marble-doc-18.08.1-1.1.noarch:
   package marble-doc-18.08.1-1.1.noarch requires marble = 18.08.1, but none of the providers can be installed
   package marble-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -1488,26 +1303,18 @@ can't install kmymoney-devel-5.0.1-3.2.x86_64:
   package kmymoney-5.0.1-3.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
 can't install plasma-mycroft-0.1git~20180729T172858~f55c1a2-1.1.x86_64:
-  package plasma-mycroft-0.1git~20180729T172858~f55c1a2-1.1.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
+  package plasma-mycroft-0.1git~20180729T172858~f55c1a2-1.1.x86_64 requires plasma5-desktop, but none of the providers can be installed
+  package plasma5-desktop-5.13.5-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
+  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
 can't install buzztrax-plugins-0.10.2-11.1.x86_64:
   package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install python2-jupyter_ipython-iptest-5.8.0-1.1.noarch:
   nothing provides python-matplotlib needed by python2-jupyter_ipython-iptest-5.8.0-1.1.noarch
-can't install spyder-3.3.1-1.1.noarch:
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install python2-hdf5storage-0.1.15-1.1.noarch:
   package python2-hdf5storage-0.1.15-1.1.noarch requires python2-h5py >= 2.1, but none of the providers can be installed
   nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
-can't install lector-0.4-1.1.noarch:
-  package lector-0.4-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kgoldrunner-lang-18.08.1-1.1.noarch:
   package kgoldrunner-lang-18.08.1-1.1.noarch requires kgoldrunner = 18.08.1, but none of the providers can be installed
   package kgoldrunner-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -1598,11 +1405,6 @@ can't install kblocks-lang-18.08.1-1.1.noarch:
   package kblocks-lang-18.08.1-1.1.noarch requires kblocks = 18.08.1, but none of the providers can be installed
   package kblocks-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-profiler-3.3.1-1.1.noarch:
-  package spyder3-profiler-3.3.1-1.1.noarch requires spyder3 = 3.3.1, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kpartloader-18.08.1-1.1.x86_64:
   package kpartloader-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -1611,12 +1413,6 @@ can't install subtitlecomposer-0.6.6-2.4.x86_64:
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
-can't install spyder3-pylint-lang-3.3.1-1.1.noarch:
-  package spyder3-pylint-3.3.1-1.1.noarch requires spyder3 = 3.3.1, but none of the providers can be installed
-  package spyder3-pylint-lang-3.3.1-1.1.noarch requires spyder3-pylint = 3.3.1, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install calligra-extras-dolphin-3.1.0-2.4.x86_64:
   package calligra-extras-dolphin-3.1.0-2.4.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -1661,12 +1457,6 @@ can't install libksieve-18.08.1-1.1.x86_64:
   package libksieve-18.08.1-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install FreeCAD-0.17.1534399137.9948ee4f1-1.2.x86_64:
-  package FreeCAD-0.17.1534399137.9948ee4f1-1.2.x86_64 requires python3-pyside2, but none of the providers can be installed
-  package FreeCAD-0.17.1534399137.9948ee4f1-1.2.x86_64 requires libpyside2.cpython-36m-x86_64-linux-gnu.so.5.11()(64bit), but none of the providers can be installed
-  package FreeCAD-0.17.1534399137.9948ee4f1-1.2.x86_64 requires libshiboken2.cpython-36m-x86_64-linux-gnu.so.5.11()(64bit), but none of the providers can be installed
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-pyside2-2.0~pre.1526654735.3f8c8702-1.5.x86_64
-  nothing provides libQt5Qml.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-pyside2-2.0~pre.1526654735.3f8c8702-1.5.x86_64
 can't install kiten-lang-18.08.1-1.1.noarch:
   package kiten-lang-18.08.1-1.1.noarch requires kiten = 18.08.1, but none of the providers can be installed
   package kiten-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -1769,10 +1559,6 @@ can't install kopete-18.08.1-1.1.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
-can't install eric-18.09-1.1.noarch:
-  package eric-18.09-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install plasma5-workspace-lang-5.13.5-1.2.noarch:
   package plasma5-workspace-lang-5.13.5-1.2.noarch requires plasma5-workspace = 5.13.5, but none of the providers can be installed
   package plasma5-workspace-5.13.5-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -1794,11 +1580,6 @@ can't install kscreen5-5.13.5-1.1.x86_64:
 can't install kxmlgui-devel-5.49.0-1.1.x86_64:
   package kxmlgui-devel-5.49.0-1.1.x86_64 requires libKF5XmlGui5 = 5.49.0, but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-line-profiler-0.1.1-2.1.noarch:
-  package spyder3-line-profiler-0.1.1-2.1.noarch requires spyder3 >= 3, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install calligra-gemini-3.1.0-2.4.x86_64:
   package calligra-gemini-3.1.0-2.4.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -1867,19 +1648,10 @@ can't install kde-gtk-config5-5.13.5-1.1.x86_64:
   package kde-gtk-config5-5.13.5-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python3-enaml-0.10.2-1.1.x86_64:
-  package python3-enaml-0.10.2-1.1.x86_64 requires python3-QtPy >= 1.3, but none of the providers can be installed
-  package python3-QtPy-1.4.2-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install rsibreak-lang-0.12.8-1.2.noarch:
   package rsibreak-lang-0.12.8-1.2.noarch requires rsibreak = 0.12.8, but none of the providers can be installed
   package rsibreak-0.12.8-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install rapid-photo-downloader-0.9.9-1.1.noarch:
-  package rapid-photo-downloader-0.9.9-1.1.noarch requires python3-qt5 >= 5.4, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install libktorrent-devel-2.1-1.3.x86_64:
   package libKF5Torrent6-2.1-1.3.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package libktorrent-devel-2.1-1.3.x86_64 requires libKF5Torrent6 = 2.1, but none of the providers can be installed
@@ -1940,11 +1712,6 @@ can't install calligra-extras-converter-3.1.0-2.4.x86_64:
   package calligra-extras-converter-3.1.0-2.4.x86_64 requires libkostore.so.16()(64bit), but none of the providers can be installed
   package calligra-3.1.0-2.4.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python3-QtAwesome-0.4.4-2.1.noarch:
-  package python3-QtAwesome-0.4.4-2.1.noarch requires python3-QtPy, but none of the providers can be installed
-  package python3-QtPy-1.4.2-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kontactinterface-devel-18.08.1-1.1.x86_64:
   package kontactinterface-devel-18.08.1-1.1.x86_64 requires libKF5KontactInterface5 = 18.08.1, but none of the providers can be installed
   package libKF5KontactInterface5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -1961,10 +1728,6 @@ can't install mobipocket-devel-18.08.1-1.1.x86_64:
   package mobipocket-devel-18.08.1-1.1.x86_64 requires mobipocket = 18.08.1, but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install firewall-applet-0.6.2-1.1.noarch:
-  package firewall-applet-0.6.2-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install klines-18.08.1-1.1.x86_64:
   package klines-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -1994,10 +1757,6 @@ can't install granatier-lang-18.08.1-1.1.noarch:
   package granatier-lang-18.08.1-1.1.noarch requires granatier = 18.08.1, but none of the providers can be installed
   package granatier-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install cura-3.4.1-2.1.noarch:
-  package cura-3.4.1-2.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kio-5.49.0-1.2.x86_64:
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -2147,10 +1906,6 @@ can't install kdf-lang-18.08.1-1.1.noarch:
   package kdf-lang-18.08.1-1.1.noarch requires kdf = 18.08.1, but none of the providers can be installed
   package kdf-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-veusz-3.0.1-1.2.x86_64:
-  package python2-veusz-3.0.1-1.2.x86_64 requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install kross-python-18.08.1-1.1.x86_64:
   package kross-python-18.08.1-1.1.x86_64 requires libKF5KrossCore.so.5()(64bit), but none of the providers can be installed
   package kross-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -2223,10 +1978,6 @@ can't install digikam-lang-5.9.0-2.1.noarch:
 can't install kstars-2.9.8-1.2.x86_64:
   package kstars-2.9.8-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install qtodotxt-1.9.0-2.2.noarch:
-  package qtodotxt-1.9.0-2.2.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install tellico-3.1.3-1.1.x86_64:
   package tellico-3.1.3-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -2266,9 +2017,6 @@ can't install libKPimGAPICalendar5-18.08.1-1.1.x86_64:
   package libKPimGAPICalendar5-18.08.1-1.1.x86_64 requires libKPimGAPICore.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-qt5-5.10.1-5.1.x86_64:
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
 can't install skanlite-lang-2.1.0.1-1.3.noarch:
@@ -2315,19 +2063,6 @@ can't install kdevelop5-lang-5.2.4-2.1.noarch:
   package kdevelop5-lang-5.2.4-2.1.noarch requires kdevelop5 = 5.2.4, but none of the providers can be installed
   package kdevelop5-5.2.4-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install vidcutter-5.5.0-1.3.x86_64:
-  package vidcutter-5.5.0-1.3.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-can't install frescobaldi-3.0.0-2.1.noarch:
-  package frescobaldi-3.0.0-2.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-can't install spyder-breakpoints-3.3.1-1.1.noarch:
-  package spyder-breakpoints-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install juk-lang-18.08.1-1.1.noarch:
   package juk-lang-18.08.1-1.1.noarch requires juk = 18.08.1, but none of the providers can be installed
   package juk-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -2398,10 +2133,6 @@ can't install plasma5-addons-lang-5.13.5-1.1.noarch:
   package plasma5-addons-lang-5.13.5-1.1.noarch requires plasma5-addons = 5.13.5, but none of the providers can be installed
   package plasma5-addons-5.13.5-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install lcurse-1.0.0-1.4.noarch:
-  package lcurse-1.0.0-1.4.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kio_audiocd-18.08.1-1.1.x86_64:
   package kio_audiocd-18.08.1-1.1.x86_64 requires libKF5KDELibs4Support.so.5()(64bit), but none of the providers can be installed
   package libKF5KDELibs4Support5-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -2489,10 +2220,6 @@ can't install akonadi-plugin-mime-18.08.1-1.1.x86_64:
   package akonadi-plugin-mime-18.08.1-1.1.x86_64 requires libKF5AkonadiMime.so.5()(64bit), but none of the providers can be installed
   package libKF5AkonadiMime5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install fusion-icon-0.2.4-1.3.noarch:
-  package fusion-icon-0.2.4-1.3.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
@@ -2509,11 +2236,6 @@ can't install plasma-vault-backend-cryfs-5.13.5-1.1.x86_64:
   package plasma-vault-backend-cryfs-5.13.5-1.1.x86_64 requires plasma-vault = 5.13.5, but none of the providers can be installed
   package libKF5Plasma5-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-enaml-0.10.2-1.1.x86_64:
-  package python2-enaml-0.10.2-1.1.x86_64 requires python2-QtPy >= 1.3, but none of the providers can be installed
-  package python2-QtPy-1.4.2-1.1.noarch requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install knotifyconfig-devel-5.49.0-1.1.x86_64:
   package libKF5NotifyConfig5-5.49.0-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package knotifyconfig-devel-5.49.0-1.1.x86_64 requires libKF5NotifyConfig5 = 5.49.0, but none of the providers can be installed
@@ -2558,10 +2280,6 @@ can't install kbackup-lang-18.08.1-1.1.noarch:
   package kbackup-lang-18.08.1-1.1.noarch requires kbackup = 18.08.1, but none of the providers can be installed
   package kbackup-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python3-PsychoPy-1.90.3-1.1.noarch:
-  package python3-PsychoPy-1.90.3-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install calligra-devel-3.1.0-2.4.x86_64:
   package calligra-devel-3.1.0-2.4.x86_64 requires calligra = 3.1.0, but none of the providers can be installed
   package calligra-3.1.0-2.4.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -2609,11 +2327,6 @@ can't install kphotoalbum-lang-5.3-2.3.noarch:
   package kphotoalbum-lang-5.3-2.3.noarch requires kphotoalbum = 5.3, but none of the providers can be installed
   package kphotoalbum-5.3-2.3.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install kajongg-lang-18.08.1-1.1.noarch:
-  package kajongg-lang-18.08.1-1.1.noarch requires kajongg = 18.08.1, but none of the providers can be installed
-  package kajongg-18.08.1-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kdesignerplugin-5.49.0-2.1.x86_64:
   package kdesignerplugin-5.49.0-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -2628,11 +2341,6 @@ can't install okular-lang-18.08.1-1.1.noarch:
   package okular-lang-18.08.1-1.1.noarch requires okular = 18.08.1, but none of the providers can be installed
   package okular-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder-memory-profiler-0.1.2-2.1.noarch:
-  package spyder-memory-profiler-0.1.2-2.1.noarch requires spyder >= 3, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install kdepim-addons-18.08.1-1.1.x86_64:
   package kdepim-addons-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -2645,10 +2353,6 @@ can't install kdevelop5-plugin-python3-5.2.4-1.1.x86_64:
 can't install konquest-18.08.1-1.1.x86_64:
   package konquest-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install hplip-3.18.6-1.1.x86_64:
-  package hplip-3.18.6-1.1.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -2663,9 +2367,6 @@ can't install kdeclarative-tools-5.49.0-1.1.x86_64:
   package kdeclarative-tools-5.49.0-1.1.x86_64 requires libKF5Declarative.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core5 = 5.11.1 needed by libKF5Declarative5-5.49.0-1.1.x86_64
     (we have libQt5Core5-5.11.2-1.1.x86_64)
-can't install python3-pyside2-2.0~pre.1526654735.3f8c8702-1.5.x86_64:
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-pyside2-2.0~pre.1526654735.3f8c8702-1.5.x86_64
-  nothing provides libQt5Qml.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-pyside2-2.0~pre.1526654735.3f8c8702-1.5.x86_64
 can't install calligra-3.1.0-2.4.x86_64:
   package calligra-3.1.0-2.4.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -2706,17 +2407,6 @@ can't install kuiviewer-lang-18.08.1-1.1.noarch:
   package kuiviewer-lang-18.08.1-1.1.noarch requires kuiviewer = 18.08.1, but none of the providers can be installed
   package kuiviewer-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install libqt5-creator-plugin-devel-4.7.0-1.1.x86_64:
-  package libqt5-creator-plugin-devel-4.7.0-1.1.x86_64 requires libqt5-creator = 4.7.0, but none of the providers can be installed
-  nothing provides libQt5Designer5 = 5.11.1 needed by libqt5-creator-4.7.0-1.1.x86_64
-    (we have libQt5Designer5-5.11.2-1.2.x86_64)
-  nothing provides libQt5DesignerComponents5 = 5.11.1 needed by libqt5-creator-4.7.0-1.1.x86_64
-    (we have libQt5DesignerComponents5-5.11.2-1.2.x86_64)
-  nothing provides libQt5Script5 = 5.11.1 needed by libqt5-creator-4.7.0-1.1.x86_64
-    (we have libQt5Script5-5.11.2-1.1.x86_64)
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libqt5-creator-4.7.0-1.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libqt5-creator-4.7.0-1.1.x86_64
-  nothing provides libQt5DesignerComponents.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libqt5-creator-4.7.0-1.1.x86_64
 can't install libKF5AkonadiContact5-18.08.1-1.1.x86_64:
   package libKF5AkonadiContact5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -2787,10 +2477,6 @@ can't install kcron-18.08.1-1.1.x86_64:
   package kcron-18.08.1-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python2-qt5-devel-5.10.1-5.1.x86_64:
-  package python2-qt5-devel-5.10.1-5.1.x86_64 requires python2-qt5 = 5.10.1, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install plasma-vault-5.13.5-1.1.x86_64:
   package plasma-vault-5.13.5-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -2814,13 +2500,6 @@ can't install purpose-32bit-5.49.0-1.1.x86_64:
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API) needed by libKF5XmlGui5-32bit-5.49.0-1.1.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
-can't install calibre-3.31.0-1.1.x86_64:
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by calibre-3.31.0-1.1.x86_64
-  nothing provides libQt5Gui.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by calibre-3.31.0-1.1.x86_64
-  nothing provides libQt5Core5 = 5.11.1 needed by calibre-3.31.0-1.1.x86_64
-    (we have libQt5Core5-5.11.2-1.1.x86_64)
-  nothing provides libQt5Gui5 = 5.11.1 needed by calibre-3.31.0-1.1.x86_64
-    (we have libQt5Gui5-5.11.2-1.1.x86_64)
 can't install kturtle-18.08.1-1.1.x86_64:
   package kturtle-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -2864,11 +2543,6 @@ can't install kdesdk-thumbnailers-lang-18.08.1-1.1.noarch:
   package kdesdk-thumbnailers-lang-18.08.1-1.1.noarch requires kdesdk-thumbnailers = 18.08.1, but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder-dicom-3.3.1-1.1.noarch:
-  package spyder-dicom-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pybde needed by python-plaso-1.5.1-1.8.noarch
   nothing provides pyfsntfs needed by python-plaso-1.5.1-1.8.noarch
@@ -2884,11 +2558,6 @@ can't install python-plaso-1.5.1-1.8.noarch:
 can't install kwrite-18.08.1-1.1.x86_64:
   package kwrite-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-lang-3.3.1-1.1.noarch:
-  package spyder3-lang-3.3.1-1.1.noarch requires spyder3 = 3.3.1, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install akonadi-calendar-lang-18.08.1-1.1.noarch:
   package akonadi-calendar-lang-18.08.1-1.1.noarch requires akonadi-calendar = 18.08.1, but none of the providers can be installed
   package libKF5AkonadiCalendar5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -2909,15 +2578,6 @@ can't install plasma5-workspace-branding-openSUSE-15.0~git20180827T140000~c0d552
   package plasma5-workspace-branding-openSUSE-15.0~git20180827T140000~c0d552e-1.1.noarch requires plasma5-workspace >= 5.13.5, but none of the providers can be installed
   package plasma5-workspace-5.13.5-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install suil-plugin-x11-in-qt5-0.10.0-2.3.x86_64:
-  package suil-plugin-x11-in-qt5-0.10.0-2.3.x86_64 requires python-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-can't install spyder-profiler-3.3.1-1.1.noarch:
-  package spyder-profiler-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install ksudoku-lang-18.08.1-1.1.noarch:
   package ksudoku-lang-18.08.1-1.1.noarch requires ksudoku = 18.08.1, but none of the providers can be installed
   package ksudoku-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -2935,18 +2595,9 @@ can't install dolphin-part-lang-18.08.1-1.1.noarch:
 can't install quassel-mono-0.13~rc1-2.1.x86_64:
   package quassel-mono-0.13~rc1-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install kawaii-player-2.8.0.0-1.2.noarch:
-  package kawaii-player-2.8.0.0-1.2.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64:
   package ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64 requires ruby2.5-rubygem-lolcat = 90.8.8, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
-can't install spyder-unittest-0.3.1-2.1.noarch:
-  package spyder-unittest-0.3.1-2.1.noarch requires spyder >= 3, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install libKF5IdentityManagement5-18.08.1-1.1.x86_64:
   package libKF5IdentityManagement5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -3055,10 +2706,6 @@ can't install ktnef-devel-18.08.1-1.1.x86_64:
   package ktnef-devel-18.08.1-1.1.x86_64 requires kcalcore-devel, but none of the providers can be installed
   package libKF5KDELibs4Support5-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install cura-lulzbot-3.2.28-1.1.noarch:
-  package cura-lulzbot-3.2.28-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install plasma5-desktop-lang-5.13.5-1.1.noarch:
   package plasma5-desktop-lang-5.13.5-1.1.noarch requires plasma5-desktop = 5.13.5, but none of the providers can be installed
   package plasma5-desktop-5.13.5-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -3100,22 +2747,11 @@ can't install kio-gdrive-1.2.4-1.1.x86_64:
   package kio-gdrive-1.2.4-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder-pylint-3.3.1-1.1.noarch:
-  package spyder-pylint-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install mailimporter-devel-18.08.1-1.1.x86_64:
   package libKF5MailImporterAkonadi5-18.08.1-1.1.x86_64 requires libKF5AkonadiMime.so.5()(64bit), but none of the providers can be installed
   package mailimporter-devel-18.08.1-1.1.x86_64 requires libKF5MailImporterAkonadi5 = 18.08.1, but none of the providers can be installed
   package libKF5AkonadiMime5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder-profiler-lang-3.3.1-1.1.noarch:
-  package spyder-profiler-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-profiler-lang-3.3.1-1.1.noarch requires spyder-profiler = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install mbox-importer-lang-18.08.1-1.1.noarch:
   package mbox-importer-18.08.1-1.1.x86_64 requires libKF5MailCommon.so.5()(64bit), but none of the providers can be installed
   package mbox-importer-lang-18.08.1-1.1.noarch requires mbox-importer = 18.08.1, but none of the providers can be installed
@@ -3149,11 +2785,6 @@ can't install breeze5-style-5.13.5-1.1.x86_64:
 can't install bind-dyndb-ldap-10.0-2.5.x86_64:
   nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
   nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
-can't install spyder3-reports-0.1.1-4.1.noarch:
-  package spyder3-reports-0.1.1-4.1.noarch requires spyder3 >= 3.2.0, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kcolorchooser-lang-18.08.1-1.1.noarch:
   package kcolorchooser-lang-18.08.1-1.1.noarch requires kcolorchooser = 18.08.1, but none of the providers can be installed
   package kcolorchooser-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -3171,19 +2802,9 @@ can't install plasma5-workspace-libs-32bit-5.13.5-1.2.x86_64:
 can't install qtcurve-qt5-32bit-1.9.0-1.8.x86_64:
   nothing provides libQt5Gui.so.5(Qt_5.11.1_PRIVATE_API) needed by qtcurve-qt5-32bit-1.9.0-1.8.x86_64
   nothing provides libQt5Widgets.so.5(Qt_5.11.1_PRIVATE_API) needed by qtcurve-qt5-32bit-1.9.0-1.8.x86_64
-can't install spyder3-dicom-3.3.1-1.1.noarch:
-  package spyder3-dicom-3.3.1-1.1.noarch requires spyder3 = 3.3.1, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install kblocks-18.08.1-1.1.x86_64:
   package kblocks-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-breakpoints-3.3.1-1.1.noarch:
-  package spyder3-breakpoints-3.3.1-1.1.noarch requires spyder3 = 3.3.1, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install libKF5EventViews5-18.08.1-1.1.x86_64:
   package libKF5EventViews5-18.08.1-1.1.x86_64 requires libKF5AkonadiWidgets.so.5()(64bit), but none of the providers can be installed
   package libKF5AkonadiWidgets5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -3216,12 +2837,6 @@ can't install cantor-lang-18.08.1-1.1.noarch:
 can't install kgeography-18.08.1-1.1.x86_64:
   package kgeography-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-breakpoints-lang-3.3.1-1.1.noarch:
-  package spyder3-breakpoints-3.3.1-1.1.noarch requires spyder3 = 3.3.1, but none of the providers can be installed
-  package spyder3-breakpoints-lang-3.3.1-1.1.noarch requires spyder3-breakpoints = 3.3.1, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install gns3-server-2.0.3-1.4.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
@@ -3236,12 +2851,6 @@ can't install ktouch-lang-18.08.1-1.1.noarch:
   package ktouch-lang-18.08.1-1.1.noarch requires ktouch = 18.08.1, but none of the providers can be installed
   package ktouch-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install libQt5WebView5-imports-5.11.1-1.1.x86_64:
-  package libQt5WebView5-imports-5.11.1-1.1.x86_64 requires libQt5WebView.so.5()(64bit), but none of the providers can be installed
-  package libQt5WebView5-imports-5.11.1-1.1.x86_64 requires libQt5WebView.so.5(Qt_5.11.1_PRIVATE_API)(64bit), but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5WebEngine.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
 can't install plasma-nm5-openswan-5.13.5-1.1.x86_64:
   package plasma-nm5-openswan-5.13.5-1.1.x86_64 requires libplasmanm_editor.so()(64bit), but none of the providers can be installed
   package plasma-nm5-openswan-5.13.5-1.1.x86_64 requires plasma-nm5 = 5.13.5, but none of the providers can be installed
@@ -3252,10 +2861,6 @@ can't install k4dirstat-lang-3.1.3-1.2.noarch:
   package k4dirstat-lang-3.1.3-1.2.noarch requires k4dirstat = 3.1.3, but none of the providers can be installed
   package k4dirstat-3.1.3-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install qutebrowser-1.4.2-1.1.noarch:
-  package qutebrowser-1.4.2-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install plasma-framework-devel-32bit-5.49.0-1.1.x86_64:
   package plasma-framework-devel-32bit-5.49.0-1.1.x86_64 requires plasma-framework-32bit = 5.49.0, but none of the providers can be installed
   package plasma-framework-32bit-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5, but none of the providers can be installed
@@ -3282,10 +2887,6 @@ can't install plasma-nm5-pptp-5.13.5-1.1.x86_64:
 can't install kcalc-18.08.1-1.1.x86_64:
   package kcalc-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install kajongg-18.08.1-1.1.noarch:
-  package kajongg-18.08.1-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install umbrello-18.08.1-1.1.x86_64:
   package umbrello-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -3315,11 +2916,6 @@ can't install plasma5-sdk-5.13.5-2.1.x86_64:
 can't install kiten-18.08.1-1.1.x86_64:
   package kiten-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install picard-lang-2.0.4-1.1.noarch:
-  package picard-lang-2.0.4-1.1.noarch requires picard = 2.0.4, but none of the providers can be installed
-  package picard-2.0.4-1.1.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install khotkeys5-5.13.5-1.1.x86_64:
   package khotkeys5-5.13.5-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -3405,20 +3001,6 @@ can't install kpat-18.08.1-1.1.x86_64:
 can't install kaddressbook-18.08.1-1.1.x86_64:
   package kaddressbook-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install anki-2.1.0-1.1.noarch:
-  package anki-2.1.0-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-can't install spyder-lang-3.3.1-1.1.noarch:
-  package spyder-lang-3.3.1-1.1.noarch requires spyder = 3.3.1, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-can't install python2-PsychoPy-lang-1.90.3-1.1.noarch:
-  package python2-PsychoPy-lang-1.90.3-1.1.noarch requires python2-PsychoPy = 1.90.3, but none of the providers can be installed
-  package python2-PsychoPy-1.90.3-1.1.noarch requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install showfoto-5.9.0-2.1.x86_64:
   package showfoto-5.9.0-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -3447,10 +3029,6 @@ can't install gns3-2.0.3-1.3.noarch:
   package gns3-2.0.3-1.3.noarch requires gns3-server = 2.0.3, but none of the providers can be installed
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
-can't install python3-QtPy-1.4.2-1.1.noarch:
-  package python3-QtPy-1.4.2-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install libKF5ContactEditor5-18.08.1-1.1.x86_64:
   package libKF5ContactEditor5-18.08.1-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -3463,11 +3041,6 @@ can't install machinery-1.23.1-1.6.x86_64:
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
-can't install spyder-line-profiler-0.1.1-2.1.noarch:
-  package spyder-line-profiler-0.1.1-2.1.noarch requires spyder >= 3, but none of the providers can be installed
-  package spyder-3.3.1-1.1.noarch requires python-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install kcm_tablet-3.1.0-1.2.x86_64:
   package kcm_tablet-3.1.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -3485,10 +3058,6 @@ can't install kgeography-lang-18.08.1-1.1.noarch:
   package kgeography-lang-18.08.1-1.1.noarch requires kgeography = 18.08.1, but none of the providers can be installed
   package kgeography-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install plplot-python3-qt-5.13.0-9.2.x86_64:
-  package plplot-python3-qt-5.13.0-9.2.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install owncloud-client-dolphin-2.5.0-1.1.x86_64:
   package owncloud-client-dolphin-2.5.0-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -3498,11 +3067,6 @@ can't install plasma5-pk-updates-lang-0.3.2-2.1.noarch:
   package plasma5-pk-updates-lang-0.3.2-2.1.noarch requires plasma5-pk-updates = 0.3.2, but none of the providers can be installed
   package libKF5KDELibs4Support5-5.49.0-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-memory-profiler-0.1.2-2.1.noarch:
-  package spyder3-memory-profiler-0.1.2-2.1.noarch requires spyder3 >= 3, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
 can't install libKF5MailCommon5-18.08.1-1.1.x86_64:
@@ -3543,10 +3107,6 @@ can't install kontactinterface-lang-18.08.1-1.1.noarch:
   package kontactinterface-lang-18.08.1-1.1.noarch requires kontactinterface = 18.08.1, but none of the providers can be installed
   package libKF5KontactInterface5-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install python3-qt5-devel-5.10.1-5.1.x86_64:
-  package python3-qt5-devel-5.10.1-5.1.x86_64 requires python3-qt5 = 5.10.1, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch:
   nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch
 can't install pfstools-octave-2.0.6-1.5.x86_64:
@@ -3569,10 +3129,6 @@ can't install plasma-framework-components-5.49.0-1.1.x86_64:
   package plasma-framework-components-5.49.0-1.1.x86_64 requires libKF5Declarative.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core5 = 5.11.1 needed by libKF5Declarative5-5.49.0-1.1.x86_64
     (we have libQt5Core5-5.11.2-1.1.x86_64)
-can't install Photini-2018.8.0-1.1.noarch:
-  package Photini-2018.8.0-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install votca-xtp-1.4.1-2.2.x86_64:
   nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
 can't install kbounce-18.08.1-1.1.x86_64:
@@ -3709,11 +3265,6 @@ can't install kdegraphics-thumbnailers-18.08.1-1.1.x86_64:
   package kdegraphics-thumbnailers-18.08.1-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install torbrowser-launcher-lang-0.3.0-1.1.noarch:
-  package torbrowser-launcher-lang-0.3.0-1.1.noarch requires torbrowser-launcher = 0.3.0, but none of the providers can be installed
-  package torbrowser-launcher-0.3.0-1.1.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install libKF5Libkdepim5-18.08.1-1.1.x86_64:
   package libKF5Libkdepim5-18.08.1-1.1.x86_64 requires libKF5KCMUtils.so.5()(64bit), but none of the providers can be installed
   package libKF5KCMUtils5-5.49.0-2.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
@@ -3722,23 +3273,6 @@ can't install plasma-nm5-fortisslvpn-5.13.5-1.1.x86_64:
   package plasma-nm5-fortisslvpn-5.13.5-1.1.x86_64 requires libKF5KIOWidgets.so.5()(64bit), but none of the providers can be installed
   package kio-5.49.0-1.2.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
-can't install spyder3-unittest-0.3.1-2.1.noarch:
-  package spyder3-unittest-0.3.1-2.1.noarch requires spyder3 >= 3, but none of the providers can be installed
-  package spyder3-3.3.1-1.1.noarch requires python3-qt5 >= 5.2, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-can't install retext-6.0.0-2.5.noarch:
-  package retext-6.0.0-2.5.noarch requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-can't install libQt5WebView5-5.11.1-1.1.x86_64:
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-  nothing provides libQt5WebEngine.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libQt5WebView5-5.11.1-1.1.x86_64
-can't install python2-pytest-qt-2.4.0-1.2.noarch:
-  package python2-pytest-qt-2.4.0-1.2.noarch requires python2-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python2-qt5-5.10.1-5.1.x86_64
 can't install kmplot-18.08.1-1.1.x86_64:
   package kmplot-18.08.1-1.1.x86_64 requires libKF5XmlGui.so.5()(64bit), but none of the providers can be installed
   nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by libKF5XmlGui5-5.49.0-1.1.x86_64
@@ -3776,10 +3310,6 @@ can't install cecilia-2.0.5-282.6.noarch:
 can't install kpeople5-devel-32bit-5.50.0-1.1.x86_64:
   nothing provides kpeople5-devel = 5.50.0 needed by kpeople5-devel-32bit-5.50.0-1.1.x86_64
     (we have kpeople5-devel-5.49.0-1.1.x86_64)
-can't install python3-veusz-3.0.1-1.2.x86_64:
-  package python3-veusz-3.0.1-1.2.x86_64 requires python3-qt5, but none of the providers can be installed
-  nothing provides libQt5Core.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
-  nothing provides libQt5Quick.so.5(Qt_5.11.1_PRIVATE_API)(64bit) needed by python3-qt5-5.10.1-5.1.x86_64
 can't install libtomahawk-devel-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-devel-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk0_8_99 = 0.8.99~git20180422T140543, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
