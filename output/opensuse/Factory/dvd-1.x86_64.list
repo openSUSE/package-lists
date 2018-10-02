@@ -1947,7 +1947,6 @@ libcdio_cdda2
 libcdio_paranoia2
 libcdr-0_1-1
 libcelt0-2
-libcelt051-0
 libcetcd0
 libcfitsio6
 libchamplain-0_12-0
@@ -2857,7 +2856,7 @@ libreoffice-share-linker
 libreoffice-writer
 libreofficekit
 librest-0_7-0
-libretro-gtk-0_14
+libretro-gtk-0_14-0
 librevenge-0_0-0
 librmt1_0
 librsvg-2-2
@@ -3083,6 +3082,7 @@ libvirt-daemon-driver-storage-core
 libvirt-daemon-driver-storage-disk
 libvirt-daemon-driver-storage-gluster
 libvirt-daemon-driver-storage-iscsi
+libvirt-daemon-driver-storage-iscsi-direct
 libvirt-daemon-driver-storage-logical
 libvirt-daemon-driver-storage-mpath
 libvirt-daemon-driver-storage-rbd
@@ -3817,6 +3817,7 @@ perl-HTML-SimpleParse
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Tree
+perl-HTTP-Body
 perl-HTTP-Cookies
 perl-HTTP-DAV
 perl-HTTP-Daemon
@@ -3824,6 +3825,7 @@ perl-HTTP-Date
 perl-HTTP-Message
 perl-HTTP-Negotiate
 perl-HTTPS-Daemon
+perl-Hash-MultiValue
 perl-IO-HTML
 perl-IO-SessionData
 perl-IO-Socket-INET6
@@ -3950,6 +3952,7 @@ perl-Unicode-Map8
 perl-Unicode-String
 perl-Unix-Syslog
 perl-Variable-Magic
+perl-WWW-Form-UrlEncoded
 perl-WWW-RobotRules
 perl-WeakRef
 perl-X11-Protocol
@@ -4575,6 +4578,9 @@ ruby2.5-rubygem-omniauth
 ruby2.5-rubygem-openid_connect
 ruby2.5-rubygem-orm_adapter
 ruby2.5-rubygem-packaging_rake_tasks
+ruby2.5-rubygem-parallel
+ruby2.5-rubygem-parallel_tests
+ruby2.5-rubygem-passenger
 ruby2.5-rubygem-path_expander
 ruby2.5-rubygem-pathutil
 ruby2.5-rubygem-pg
@@ -4691,6 +4697,8 @@ ruby2.5-rubygem-yajl-ruby
 ruby2.5-rubygem-yard
 ruby2.5-rubygem-yast-rake
 ruby2.5-stdlib
+rubygem-passenger
+rubygem-passenger-apache2
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
 rzip
@@ -4706,7 +4714,7 @@ samba-winbind
 samba-winbind-32bit
 sane-backends
 sane-backends-autoconfig
-sasl2-kdexoauth2-3
+sasl2-kdexoauth2
 saxon6
 sazanami-fonts
 sbc
