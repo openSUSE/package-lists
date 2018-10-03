@@ -1774,7 +1774,6 @@ libcdio18
 libcdio_cdda2
 libcdio_paranoia2
 libcelt0-2
-libcelt051-0
 libcetcd0
 libcfitsio6
 libchamplain-0_12-0
@@ -1913,6 +1912,7 @@ libfcitx-4_2_9
 libfdisk1
 libfdt1
 libffi7
+libffi7-32bit
 libfftw3-3
 libfftw3_threads3
 libfind3_0
@@ -2008,6 +2008,7 @@ libglib-2_0-0-32bit
 libglibmm-2_4-1
 libglusterfs0
 libglvnd
+libglvnd-32bit
 libglyr1
 libgme0
 libgmime-3_0-0
@@ -2037,6 +2038,7 @@ libgnutls30
 libgoa-1_0-0
 libgoa-backend-1_0-1
 libgobject-2_0-0
+libgobject-2_0-0-32bit
 libgoffice-0_10-10
 libgom-1_0-0
 libgomp1
@@ -2176,10 +2178,12 @@ libjansson4
 libjasper4
 libjavascriptcoregtk-4_0-18
 libjbig2
+libjbig2-32bit
 libjd0
 libjemalloc2
 libjpeg-turbo
 libjpeg8
+libjpeg8-32bit
 libjson-c4
 libjson-glib-1_0-0
 libjsoncpp19
@@ -2236,6 +2240,7 @@ liblavjpeg-2_0-0
 liblavplay-2_0-0
 liblavrec-2_0-0
 liblcms2-2
+liblcms2-2-32bit
 libldap-2_4-2
 libldap-data
 libldapcpp1
@@ -2294,6 +2299,7 @@ libmlx5-1
 libmm-glib0
 libmms0
 libmng2
+libmng2-32bit
 libmnl0
 libmodman1
 libmodplug1
@@ -2350,7 +2356,6 @@ libnotify4
 libnpth0
 libnsl2
 libnss_nis2
-libnss_usrfiles2
 libntfs-3g88
 libntlm0
 libnuma1
@@ -2369,7 +2374,7 @@ libopenbabel5
 libopenblas_openmp0
 libopencc2
 libopencv3_4
-libopeniscsiusr0_1_0
+libopeniscsiusr0_2_0
 libopenjp2-7
 libopenjpeg1
 libopenmpt0
@@ -2512,9 +2517,13 @@ libqrencode4
 libqt4
 libqt4-32bit
 libqt4-qt3support
+libqt4-qt3support-32bit
 libqt4-sql
+libqt4-sql-32bit
 libqt4-sql-sqlite
+libqt4-sql-sqlite-32bit
 libqt4-x11
+libqt4-x11-32bit
 libqt5-qdbus
 libqt5-qtbase-platformtheme-gtk3
 libqt5-qtconnectivity-tools
@@ -2539,7 +2548,7 @@ libreadline7
 libref_array1
 libreiserfscore0
 librest-0_7-0
-libretro-gtk-0_14
+libretro-gtk-0_14-0
 librevenge-0_0-0
 librmt1_0
 librsvg-2-2
@@ -2608,6 +2617,7 @@ libspice-client-glib-helper
 libspice-client-gtk-3_0-5
 libspice-server1
 libsqlite3-0
+libsqlite3-0-32bit
 libsratom-0-0
 libsrt1
 libsrtp2-1
@@ -2660,6 +2670,7 @@ libtheoraenc1
 libthunarx-3-0
 libtidy5
 libtiff5
+libtiff5-32bit
 libtinyxml0
 libtirpc-netconfig
 libtirpc3
@@ -2742,6 +2753,7 @@ libvirt-daemon-driver-storage-core
 libvirt-daemon-driver-storage-disk
 libvirt-daemon-driver-storage-gluster
 libvirt-daemon-driver-storage-iscsi
+libvirt-daemon-driver-storage-iscsi-direct
 libvirt-daemon-driver-storage-logical
 libvirt-daemon-driver-storage-mpath
 libvirt-daemon-driver-storage-scsi
@@ -3407,6 +3419,7 @@ perl-HTML-SimpleParse
 perl-HTML-Tagset
 perl-HTML-Template
 perl-HTML-Tree
+perl-HTTP-Body
 perl-HTTP-Cookies
 perl-HTTP-DAV
 perl-HTTP-Daemon
@@ -3414,6 +3427,7 @@ perl-HTTP-Date
 perl-HTTP-Message
 perl-HTTP-Negotiate
 perl-HTTPS-Daemon
+perl-Hash-MultiValue
 perl-IO-HTML
 perl-IO-SessionData
 perl-IO-Socket-INET6
@@ -3540,6 +3554,7 @@ perl-Unicode-Map8
 perl-Unicode-String
 perl-Unix-Syslog
 perl-Variable-Magic
+perl-WWW-Form-UrlEncoded
 perl-WWW-RobotRules
 perl-WeakRef
 perl-X11-Protocol
@@ -4114,8 +4129,12 @@ ruby2.5-rubygem-nori
 ruby2.5-rubygem-openid_connect
 ruby2.5-rubygem-orm_adapter
 ruby2.5-rubygem-packaging_rake_tasks
+ruby2.5-rubygem-parallel
+ruby2.5-rubygem-parallel_tests
+ruby2.5-rubygem-passenger
 ruby2.5-rubygem-path_expander
 ruby2.5-rubygem-pathutil
+ruby2.5-rubygem-pg
 ruby2.5-rubygem-pkg-config
 ruby2.5-rubygem-polyglot
 ruby2.5-rubygem-pry
@@ -4199,6 +4218,8 @@ ruby2.5-rubygem-yajl-ruby
 ruby2.5-rubygem-yard
 ruby2.5-rubygem-yast-rake
 ruby2.5-stdlib
+rubygem-passenger
+rubygem-passenger-apache2
 rubygem-ruby-fcgi
 runvdr-extreme-systemd
 rzip
