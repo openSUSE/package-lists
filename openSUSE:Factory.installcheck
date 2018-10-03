@@ -43,9 +43,6 @@ can't install scilab-modules-6.0.1-5.1.noarch:
   nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
-can't install libqt5-qtnetworkauth-devel-32bit-5.11.1-1.2.x86_64:
-  nothing provides libQt5Core5-32bit = 5.11.1 needed by libqt5-qtnetworkauth-devel-32bit-5.11.1-1.2.x86_64
-    (we have libQt5Core5-32bit-5.11.2-1.1.x86_64)
 can't install buzztrax-lang-0.10.2-11.1.noarch:
   package buzztrax-lang-0.10.2-11.1.noarch requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
@@ -105,9 +102,6 @@ can't install freeorion-data-0.4.7.1-2.3.noarch:
 can't install paperwork-0.3.2-1.8.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.8.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
-can't install libqt5-qtscxml-devel-32bit-5.11.1-1.2.x86_64:
-  nothing provides libQt5Core5-32bit = 5.11.1 needed by libqt5-qtscxml-devel-32bit-5.11.1-1.2.x86_64
-    (we have libQt5Core5-32bit-5.11.2-1.1.x86_64)
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64:
@@ -343,9 +337,6 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install libqt5-qtremoteobjects-devel-32bit-5.11.1-2.2.x86_64:
-  nothing provides libQt5Core5-32bit = 5.11.1 needed by libqt5-qtremoteobjects-devel-32bit-5.11.1-2.2.x86_64
-    (we have libQt5Core5-32bit-5.11.2-1.1.x86_64)
 can't install ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64:
   package ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64 requires ruby2.5-rubygem-lolcat = 90.8.8, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
