@@ -1,13 +1,8 @@
-
-Request: https://api.opensuse.org/build/openSUSE:Factory/_result?package=bash&repository=standard
-Headers:
-status: 500 Internal Server Error
-x-request-id: 5e9f60f5-2999-4027-b04e-0b2b14a88275
-x-powered-by: Phusion Passenger 5.3.5
-connection: close
-strict-transport-security: max-age=31536000
-content-length: 131
-server: Apache/2.4.23 (Linux/SUSE)
-x-runtime: 0.013042
-date: Fri, 05 Oct 2018 00:11:31 GMT
-content-type: application/xml; charset=utf-8
+<resultlist state="3e0692506b6fc3bb5690684c0597839f">
+  <result project="openSUSE:Factory" repository="standard" arch="x86_64" code="scheduling" state="scheduling" dirty="true">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory" repository="standard" arch="i586" code="building" state="building">
+    <status package="bash" code="succeeded" />
+  </result>
+</resultlist>
