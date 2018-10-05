@@ -1,11 +1,13 @@
 
 Request: https://api.opensuse.org/build/openSUSE:Factory:PowerPC/_result?package=bash&repository=standard
 Headers:
-status: 503 Service Unavailable
-content-length: 189
-strict-transport-security: max-age=31536000
-server: Apache/2.4.23 (Linux/SUSE)
+status: 500 Internal Server Error
+x-request-id: 4951712e-535a-4e5e-9c17-1f4ea078b9fa
+x-powered-by: Phusion Passenger 5.3.5
 connection: close
-cache-control: no-cache, no-store, must-revalidate
-date: Thu, 04 Oct 2018 23:37:57 GMT
-content-type: text/html; charset=UTF-8
+strict-transport-security: max-age=31536000
+content-length: 131
+server: Apache/2.4.23 (Linux/SUSE)
+x-runtime: 0.022148
+date: Fri, 05 Oct 2018 00:01:03 GMT
+content-type: application/xml; charset=utf-8

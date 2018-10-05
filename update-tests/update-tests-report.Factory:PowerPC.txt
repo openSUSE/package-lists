@@ -1,15 +1,7 @@
-Server returned an error: HTTP Error 503: Service Unavailable
-
-Request: https://api.opensuse.org/source/openSUSE:Factory:PowerPC/000product?linkrev=base&rev=latest
-Headers:
-status: 503 Service Unavailable
-content-length: 189
-strict-transport-security: max-age=31536000
-server: Apache/2.4.23 (Linux/SUSE)
-connection: close
-cache-control: no-cache, no-store, must-revalidate
-date: Thu, 04 Oct 2018 23:38:04 GMT
-content-type: text/html; charset=UTF-8
+Your working copy '.' is in an inconsistent state.
+Please run 'osc repairwc .' (Note this might _remove_
+files from the .osc/ dir). Please check the state
+of the working copy afterwards (via 'osc status .')
 testing 13.1-x86_64-update.t
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC-standard-x86_64.solv'
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC:NonFree-standard-x86_64.solv'
