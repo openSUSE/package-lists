@@ -2,7 +2,7 @@ can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.06.25.2-2.1.noarch
 can't install obexd-client-0.48-5.15.x86_64:
   package is obsoleted by bluez-5.50-1.2.x86_64
-can't install kdebase4-workspace-devel-4.11.22-15.3.x86_64:
+can't install kdebase4-workspace-devel-4.11.22-15.4.x86_64:
   package is obsoleted by patterns-kde-kde_plasma-20180709-5.1.noarch
 can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
@@ -24,15 +24,17 @@ can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-kf5-porting-18.08.1-1.1.x86_64
 can't install mate-calc-1.20.2-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
+can't install python-certbot-0.27.1-1.1.noarch:
+  package is obsoleted by python2-certbot-0.27.1-2.1.noarch
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python3-limnoria-2018.06.25.2-2.1.noarch
 can't install ghostscript-mini-9.25-1.1.x86_64:
   package is obsoleted by ghostscript-9.25-1.1.x86_64
-can't install oxygen4-cursors-4.11.22-15.3.x86_64:
+can't install oxygen4-cursors-4.11.22-15.4.x86_64:
   package is obsoleted by oxygen5-cursors-5.13.5-1.1.x86_64
 can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
-can't install kdebase4-workspace-4.11.22-15.3.x86_64:
+can't install kdebase4-workspace-4.11.22-15.4.x86_64:
   package is obsoleted by plasma5-desktop-5.13.5-1.1.x86_64
 can't install akonadi-runtime-1.13.0-11.6.x86_64:
   package is obsoleted by akonadi-server-18.08.1-1.2.x86_64
@@ -276,9 +278,6 @@ can't install libscilab6-6.0.1-5.1.x86_64:
 can't install tomahawk-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
   nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
-can't install kblog-devel-18.08.1-1.2.x86_64:
-  nothing provides syndication-devel >= 18.08 needed by kblog-devel-18.08.1-1.2.x86_64
-    (we have syndication-devel-5.50.0-1.1.x86_64)
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64

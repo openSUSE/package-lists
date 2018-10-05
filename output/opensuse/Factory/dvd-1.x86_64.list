@@ -1,3 +1,4 @@
+389-ds
 AppStream
 AppStream-lang
 FastCGI
@@ -164,6 +165,7 @@ ark-lang
 armagetron
 arphic-ukai-fonts
 arphic-uming-fonts
+arptables
 arpwatch
 arpwatch-ethercodes
 as10k1
@@ -251,7 +253,6 @@ blog
 bluedevil5
 bluedevil5-lang
 bluez
-bluez-cups
 bluez-firmware
 bluez-qt-imports
 bluez-qt-udev
@@ -270,7 +271,6 @@ breeze5-icons
 breeze5-style
 breeze5-style-lang
 breeze5-wallpapers
-bridge-utils
 brltty
 brltty-driver-at-spi2
 brltty-driver-brlapi
@@ -292,6 +292,7 @@ bzr
 bzr-lang
 ca-certificates
 ca-certificates-mozilla
+calamaris
 calendarsupport
 calendarsupport-lang
 canberra-gtk-play
@@ -491,6 +492,7 @@ eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
 epiphany-lang
+epson-inkjet-printer-escpr
 espeak
 espeak-ng
 etags
@@ -556,6 +558,7 @@ fd0ssh
 fdupes
 festival
 fetchmail
+fetchmailconf
 ffmpeg-4
 ffmpegthumbs
 fifth-leg-font
@@ -1021,6 +1024,7 @@ i4l-isdnlog
 iagno
 iagno-lang
 ibus
+ibus-cangjie
 ibus-chewing
 ibus-gtk
 ibus-gtk-32bit
@@ -1933,6 +1937,7 @@ libcanberra-gtk3-0
 libcanberra-gtk3-module
 libcanberra0
 libcanberra0-32bit
+libcangjie2
 libcap-ng0
 libcap2
 libcap2-32bit
@@ -2396,6 +2401,7 @@ libiw30
 libixion-0_13-0
 libjack0
 libjansson4
+libjansson4-32bit
 libjasper4
 libjavascriptcoregtk-4_0-18
 libjbig2
@@ -2768,6 +2774,7 @@ libpwquality1
 libpython2_7-1_0
 libpython2_7-1_0-32bit
 libpython3_6m1_0
+libpython3_6m1_0-32bit
 libpyzy-1_0-0
 libqalculate19
 libqb0
@@ -2958,6 +2965,7 @@ libsuitesparseconfig5
 libsunpinyin3
 libsvn_auth_gnome_keyring-1-0
 libsvn_auth_kwallet-1-0
+libsvrcore0
 libswresample3
 libswscale5
 libsystemd0
@@ -2971,6 +2979,7 @@ libtasn1
 libtasn1-6
 libtasn1-6-32bit
 libtbb2
+libtcmalloc4
 libtcnative-1-0
 libtdb1
 libtdb1-32bit
@@ -3063,11 +3072,8 @@ libverto1-32bit
 libvidstab1_1
 libvigraimpex11
 libvirglrenderer0
-libvirt
 libvirt-client
 libvirt-daemon
-libvirt-daemon-config-network
-libvirt-daemon-config-nwfilter
 libvirt-daemon-driver-interface
 libvirt-daemon-driver-libxl
 libvirt-daemon-driver-lxc
@@ -3086,8 +3092,6 @@ libvirt-daemon-driver-storage-logical
 libvirt-daemon-driver-storage-mpath
 libvirt-daemon-driver-storage-rbd
 libvirt-daemon-driver-storage-scsi
-libvirt-daemon-driver-uml
-libvirt-daemon-driver-vbox
 libvirt-daemon-lxc
 libvirt-daemon-qemu
 libvirt-daemon-xen
@@ -3283,7 +3287,6 @@ lttng-modules
 lttng-modules-kmp-default
 lua53
 lua53-luasocket
-luit
 lv
 lvm2
 lxappearance
@@ -3365,11 +3368,9 @@ milou5
 milou5-lang
 minicom
 minicom-lang
-mirror
 mjpegtools
 mkfontdir
 mkfontscale
-mlmmj
 mlocate
 mlocate-lang
 mlterm
@@ -3541,7 +3542,6 @@ opencc
 opencc-data
 openconnect
 openconnect-lang
-openldap2
 openldap2-client
 openldap2-devel
 openslp
@@ -3667,7 +3667,7 @@ patterns-server-gateway_server
 patterns-server-kvm_server
 patterns-server-lamp_server
 patterns-server-mail_server
-patterns-server-print_server
+patterns-server-printing
 patterns-server-xen_server
 patterns-xfce-xfce
 patterns-xfce-xfce_basis
@@ -3678,7 +3678,6 @@ patterns-yast-yast2_basis
 patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
-pbm2l7k
 pcfclock-kmp-default
 pciutils
 pciutils-ids
@@ -3865,6 +3864,7 @@ perl-Module-Runtime
 perl-Module-Runtime-Conflicts
 perl-Module-Signature
 perl-Moose
+perl-Mozilla-LDAP
 perl-NKF
 perl-Net-CIDR-Lite
 perl-Net-DBus
@@ -4033,7 +4033,6 @@ php7-wddx
 php7-xmlreader
 php7-xmlwriter
 php7-xsl
-php7-zip
 php7-zlib
 pia
 pico
@@ -4114,7 +4113,6 @@ polkit-kde-agent-5-lang
 poppler-tools
 popt-devel
 posix_cc
-poster
 postfix
 postfix-doc
 postgresql
@@ -4179,6 +4177,7 @@ python-rpm-macros
 python-sip-common
 python-talloc
 python-talloc-32bit
+python-tk
 python-xml
 python2-M2Crypto
 python2-PySocks
@@ -4258,6 +4257,7 @@ python3-bind
 python3-brlapi
 python3-cairo
 python3-cairocffi
+python3-cangjie
 python3-certifi
 python3-cffi
 python3-chardet
@@ -4311,6 +4311,7 @@ python3-pyxdg
 python3-qt5
 python3-requests
 python3-rpm
+python3-selinux
 python3-setuptools
 python3-sip
 python3-six
@@ -4320,6 +4321,8 @@ python3-smbios
 python3-smbios-utils
 python3-solv
 python3-speechd
+python3-talloc
+python3-talloc-32bit
 python3-urllib3
 python3-virt-bootstrap
 python3-xcffib
@@ -4980,7 +4983,6 @@ tuned
 tv-common
 tv-fonts
 typelib-1_0-AccountsService-1_0
-typelib-1_0-AppIndicator3-0_1
 typelib-1_0-Atk-1_0
 typelib-1_0-Atspi-2_0
 typelib-1_0-Champlain-0_12
@@ -4996,7 +4998,6 @@ typelib-1_0-GES-1_0
 typelib-1_0-GFBGraph-0_2
 typelib-1_0-GMenu-3_0
 typelib-1_0-GSound-1_0
-typelib-1_0-GVnc-1_0
 typelib-1_0-GWeather-3_0
 typelib-1_0-Gck-1
 typelib-1_0-Gcr-3
@@ -5022,7 +5023,6 @@ typelib-1_0-GstVideo-1_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
-typelib-1_0-GtkVnc-2_0
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
@@ -5045,8 +5045,6 @@ typelib-1_0-Rest-0_7
 typelib-1_0-Rsvg-2_0
 typelib-1_0-Secret-1
 typelib-1_0-Soup-2_4
-typelib-1_0-SpiceClientGlib-2_0
-typelib-1_0-SpiceClientGtk-3_0
 typelib-1_0-TelepathyGlib-0_12
 typelib-1_0-TelepathyLogger-0_2
 typelib-1_0-Template-1_0
@@ -5114,10 +5112,8 @@ vim-plugin-devhelp
 vinagre
 vinagre-lang
 virt-install
-virt-manager
 virt-manager-common
 virt-sandbox
-virt-viewer
 virtualbox-guest-kmp-default
 virtualbox-guest-tools
 virtualbox-guest-x11
@@ -5190,7 +5186,6 @@ xdotool
 xdpyinfo
 xembedsniproxy
 xen
-xen-doc-html
 xen-libs
 xen-tools
 xerces-j2
@@ -5378,7 +5373,6 @@ xslide
 xstroke
 xtables-addons-kmp-default
 xtables-plugins
-xterm
 xterm-bin
 xtermset
 xtrans
@@ -5517,7 +5511,6 @@ yast2-transfer
 yast2-tune
 yast2-update
 yast2-users
-yast2-vm
 yast2-vpn
 yast2-x11
 yast2-xml
