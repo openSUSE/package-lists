@@ -22,6 +22,8 @@ can't install libpsm2-compat-10.3.46-1.2.x86_64:
   package is obsoleted by libpsm_infinipath1-3.3-10.1.x86_64
 can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-kf5-porting-18.08.1-1.1.x86_64
+can't install kdebase4-workspace-4.11.22-15.4.x86_64:
+  package is obsoleted by plasma5-desktop-5.14.0-1.1.x86_64
 can't install mate-calc-1.20.2-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
 can't install python-certbot-0.27.1-1.1.noarch:
@@ -30,14 +32,12 @@ can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python3-limnoria-2018.06.25.2-2.1.noarch
 can't install ghostscript-mini-9.25-1.1.x86_64:
   package is obsoleted by ghostscript-9.25-1.1.x86_64
-can't install oxygen4-cursors-4.11.22-15.4.x86_64:
-  package is obsoleted by oxygen5-cursors-5.13.5-1.1.x86_64
 can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
-can't install kdebase4-workspace-4.11.22-15.4.x86_64:
-  package is obsoleted by plasma5-desktop-5.13.5-1.1.x86_64
 can't install akonadi-runtime-1.13.0-11.6.x86_64:
   package is obsoleted by akonadi-server-18.08.1-1.2.x86_64
+can't install oxygen4-cursors-4.11.22-15.4.x86_64:
+  package is obsoleted by oxygen5-cursors-5.14.0-1.1.x86_64
 can't install scilab-modules-6.0.1-5.1.noarch:
   package scilab-modules-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
@@ -189,8 +189,6 @@ can't install qore-json-module-1.4-5.11.x86_64:
 can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
   package wok-plugins-kimchi-2.5.0-2.2.noarch requires wok = 2.5.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install python-gcs-oauth2-boto-plugin-1.14-1.5.noarch:
-  nothing provides python-boto >= 2.29.1 needed by python-gcs-oauth2-boto-plugin-1.14-1.5.noarch
 can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
   nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
@@ -203,8 +201,6 @@ can't install buzztrax-plugins-0.10.2-11.1.x86_64:
   package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install python2-jupyter_ipython-iptest-5.8.0-1.1.noarch:
-  nothing provides python-matplotlib needed by python2-jupyter_ipython-iptest-5.8.0-1.1.noarch
 can't install python2-hdf5storage-0.1.15-1.1.noarch:
   package python2-hdf5storage-0.1.15-1.1.noarch requires python2-h5py >= 2.1, but none of the providers can be installed
   nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
@@ -307,8 +303,6 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
-can't install tuxguitar-1.4-3.3.x86_64:
-  nothing provides libfluidsynth.so.1()(64bit) needed by tuxguitar-1.4-3.3.x86_64
 can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
   package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
@@ -389,8 +383,6 @@ can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
-can't install python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch:
-  nothing provides python3-boto needed by python3-susepubliccloudinfo-amazon-1.0.4-1.1.noarch
 can't install pfstools-octave-2.0.6-1.5.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64

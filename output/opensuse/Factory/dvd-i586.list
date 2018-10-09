@@ -478,9 +478,7 @@ enchant-data
 enscript
 eog
 eog-lang
-eog-plugin-exif-display
 eog-plugins
-eog-plugins-data
 eog-plugins-lang
 epiphany
 epiphany-branding-openSUSE
@@ -576,8 +574,6 @@ fontconfig
 fontconfig-devel
 fonts-KanjiStrokeOrders
 fonts-config
-fortune
-fossil
 fprintd
 fprintd-lang
 fprintd-pam
@@ -659,25 +655,7 @@ geany-plugins
 geany-plugins-lang
 gedit
 gedit-lang
-gedit-plugin-bookmarks
-gedit-plugin-bracketcompletion
-gedit-plugin-charmap
-gedit-plugin-codecomment
-gedit-plugin-colorpicker
-gedit-plugin-colorschemer
-gedit-plugin-commander
-gedit-plugin-dashboard
 gedit-plugin-devhelp
-gedit-plugin-drawspaces
-gedit-plugin-findinfiles
-gedit-plugin-git
-gedit-plugin-joinlines
-gedit-plugin-multiedit
-gedit-plugin-smartspaces
-gedit-plugin-synctex
-gedit-plugin-terminal
-gedit-plugin-textsize
-gedit-plugin-wordcompletion
 gedit-plugins
 gedit-plugins-data
 gedit-plugins-lang
@@ -1024,7 +1002,6 @@ i4l-isdnlog
 iagno
 iagno-lang
 ibus
-ibus-cangjie
 ibus-chewing
 ibus-gtk
 ibus-gtk3
@@ -1435,10 +1412,10 @@ kross-lang
 kruler
 kruler-lang
 krusader
-krusader-doc
 kscd
 kscreen5
 kscreen5-lang
+kscreen5-plasmoid
 kscreenlocker
 kscreenlocker-lang
 kservice
@@ -1881,6 +1858,8 @@ libboost_thread1_68_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
+libbreezecommon4-5
+libbreezecommon5-5
 libbrlapi0_6
 libbrotlicommon1
 libbrotlidec1
@@ -1906,7 +1885,6 @@ libcanberra-gtk2-module
 libcanberra-gtk3-0
 libcanberra-gtk3-module
 libcanberra0
-libcangjie2
 libcap-ng0
 libcap2
 libcapi20-3
@@ -2098,7 +2076,6 @@ libfreerdp2
 libfreetype6
 libfribidi0
 libfstrm0
-libftdi1-2
 libftgl2
 libfuse2
 libfwupd2
@@ -2122,7 +2099,6 @@ libgd3
 libgda-5_0-4
 libgda-5_0-4-lang
 libgda-5_0-bdb
-libgda-5_0-sqlcipher
 libgda-5_0-sqlite
 libgda-ui-5_0-4
 libgda-ui-5_0-plugins
@@ -2318,7 +2294,6 @@ libiptc0
 libiptcdata
 libiptcdata-lang
 libiptcdata0
-libirrecord0
 libirs160
 libisc166
 libisccc160
@@ -2414,9 +2389,7 @@ liblibkremotecontrol1
 liblightdm-gobject-1-0
 liblilv-0-0
 liblink-grammar5
-liblirc0
 liblirc_client0
-liblirc_driver0
 liblmdb-0_9_22
 liblockdev1
 libloudmouth-1-0
@@ -2552,7 +2525,6 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
-libopenssl1_0_0
 libopenssl1_1
 libopenssl1_1-hmac
 libopts25
@@ -2661,7 +2633,6 @@ libpurple-plugin-mattermost
 libpurple-plugin-mrim
 libpurple-plugin-mrim-lang
 libpurple-plugin-pack
-libpurple-plugin-pack-extras
 libpurple-plugin-pack-lang
 libpurple-plugin-prpltwtr
 libpurple-plugin-prpltwtr-lang
@@ -3101,7 +3072,6 @@ libz1
 libzapojit-0_0-0
 libzbar0
 libzebra1
-libzeitgeist-2_0-0
 libzhuyin-1_1-data
 libzhuyin13
 libzhuyin7
@@ -3125,7 +3095,6 @@ lightsoff
 lightsoff-lang
 links
 linux-glibc-devel
-lirc-core
 lklug-fonts
 lockdev
 log4j
@@ -3358,13 +3327,6 @@ numlockx
 nuoveXT2-icon-theme
 nut
 nut-cgi
-nut-devel-doc-html
-nut-devel-doc-pdf
-nut-doc-asciidoc
-nut-doc-html
-nut-doc-images
-nut-doc-pdf
-nut-drivers-net
 obconf
 obs-service-download_files
 obs-service-download_url
@@ -3897,7 +3859,6 @@ pidgin-plugin-libsteam
 pidgin-plugin-mattermost
 pidgin-plugin-mrim
 pidgin-plugin-pack
-pidgin-plugin-pack-extras
 pidgin-plugin-prpltwtr
 pidgin-plugin-rocketchat
 pidgin-plugin-sipe
@@ -4015,7 +3976,6 @@ pulseaudio-bash-completion
 pulseaudio-lang
 pulseaudio-module-bluetooth
 pulseaudio-module-gsettings
-pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
@@ -4037,6 +3997,7 @@ python-talloc
 python-tk
 python-xml
 python2-M2Crypto
+python2-PyNaCl
 python2-PySocks
 python2-PyYAML
 python2-Pygments
@@ -4044,6 +4005,8 @@ python2-SecretStorage
 python2-appdirs
 python2-asn1crypto
 python2-backports
+python2-bcrypt
+python2-boto
 python2-boto3
 python2-botocore
 python2-cairo
@@ -4075,6 +4038,7 @@ python2-monotonic
 python2-ndg-httpsclient
 python2-numpy
 python2-packaging
+python2-paramiko
 python2-ply
 python2-py
 python2-pyOpenSSL
@@ -4114,7 +4078,6 @@ python3-bind
 python3-brlapi
 python3-cairo
 python3-cairocffi
-python3-cangjie
 python3-certifi
 python3-cffi
 python3-chardet
@@ -4391,6 +4354,7 @@ ruby2.5-rubygem-json_pure
 ruby2.5-rubygem-jwt
 ruby2.5-rubygem-kgio
 ruby2.5-rubygem-kramdown
+ruby2.5-rubygem-libyui-rake
 ruby2.5-rubygem-liquid
 ruby2.5-rubygem-listen-3_0
 ruby2.5-rubygem-little-plugger
@@ -4852,7 +4816,6 @@ typelib-1_0-Gdm-1_0
 typelib-1_0-Geoclue-2_0
 typelib-1_0-GeocodeGlib-1_0
 typelib-1_0-Gepub-0_6
-typelib-1_0-Ggit-1_0
 typelib-1_0-GjsPrivate-1_0
 typelib-1_0-GnomeBluetooth-1_0
 typelib-1_0-GnomeDesktop-3_0
@@ -4870,7 +4833,6 @@ typelib-1_0-GstVideo-1_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
-typelib-1_0-Gucharmap-2_90
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
@@ -4901,7 +4863,6 @@ typelib-1_0-Vte-2.91
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
-typelib-1_0-Zeitgeist-2_0
 typelib-1_0-Zpj-0_0
 typelib-1_0-libdazzle-1_0
 ucode-amd
