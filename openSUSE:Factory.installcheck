@@ -34,6 +34,8 @@ can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
 can't install akonadi-runtime-1.13.0-11.6.x86_64:
   package is obsoleted by akonadi-server-18.08.1-1.2.x86_64
+can't install bat-0.7.1-1.1.x86_64:
+  package is obsoleted by alsabat-1.1.6-1.3.x86_64
 can't install oxygen4-cursors-4.11.22-15.4.x86_64:
   package is obsoleted by oxygen5-cursors-5.14.0-1.1.x86_64
 can't install scilab-modules-6.0.1-5.1.noarch:
@@ -76,12 +78,10 @@ can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install libvotca_xtp4-1.4.1-2.2.x86_64:
-  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
-  nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
-  nothing provides libboost_system.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
-  nothing provides libboost_serialization.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
-  nothing provides libboost_timer.so.1.65.1()(64bit) needed by libvotca_xtp4-1.4.1-2.2.x86_64
+can't install bitcoin-qt5-0.17.0-1.1.x86_64:
+  nothing provides libprotobuf.so.15()(64bit) needed by bitcoin-qt5-0.17.0-1.1.x86_64
+can't install mumble-server-1.2.19-4.2.x86_64:
+  nothing provides libprotobuf.so.15()(64bit) needed by mumble-server-1.2.19-4.2.x86_64
 can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
   package ruby2.5-2.5.0-4.4.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
@@ -207,13 +207,6 @@ can't install spyder3-hdf5-3.3.1-1.1.noarch:
   nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
-can't install peerunity-qt-0.2.2-3.5.x86_64:
-  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
-  nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
-  nothing provides libboost_system.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
-  nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
-  nothing provides libminiupnpc.so.16()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
-  nothing provides libqrencode.so.3()(64bit) needed by peerunity-qt-0.2.2-3.5.x86_64
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -223,6 +216,8 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
+can't install mumble-1.2.19-4.2.x86_64:
+  nothing provides libprotobuf.so.15()(64bit) needed by mumble-1.2.19-4.2.x86_64
 can't install ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64:
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
 can't install scilab-modules-doc-lang-6.0.1-5.1.noarch:
@@ -253,12 +248,6 @@ can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
-can't install peerunityd-0.2.2-3.5.x86_64:
-  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
-  nothing provides libboost_filesystem.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
-  nothing provides libboost_system.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
-  nothing provides libboost_thread.so.1.65.1()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
-  nothing provides libminiupnpc.so.16()(64bit) needed by peerunityd-0.2.2-3.5.x86_64
 can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -269,6 +258,8 @@ can't install python3-h5py-2.8.0-1.2.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install libscilab6-6.0.1-5.1.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by libscilab6-6.0.1-5.1.x86_64
+can't install bitcoin-test-0.17.0-1.1.x86_64:
+  nothing provides libprotobuf.so.15()(64bit) needed by bitcoin-test-0.17.0-1.1.x86_64
 can't install tomahawk-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
   nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
@@ -283,9 +274,6 @@ can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
 can't install qore-xml-module-1.2-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.12.x86_64
-can't install votca-xtp-devel-1.4.1-2.2.x86_64:
-  package votca-xtp-devel-1.4.1-2.2.x86_64 requires votca-xtp = 1.4.1, but none of the providers can be installed
-  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
 can't install soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64:
   nothing provides libbladeRF.so.1()(64bit) needed by soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64
 can't install libtomahawk-plugins-0.8.99~git20180422T140543-1.1.x86_64:
@@ -344,9 +332,6 @@ can't install switchboard-plug-networking-0.1.1-1.2.x86_64:
 can't install csound-devel-5.18.02-11.2.x86_64:
   package csound-devel-5.18.02-11.2.x86_64 requires csound = 5.18.02, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
-can't install bind-dyndb-ldap-10.0-2.5.x86_64:
-  nothing provides libdns.so.165()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
-  nothing provides libisc.so.160()(64bit) needed by bind-dyndb-ldap-10.0-2.5.x86_64
 can't install hgview-qt4-1.8.2-3.13.noarch:
   package hgview-qt4-1.8.2-3.13.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
@@ -384,8 +369,6 @@ can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
 can't install pfstools-octave-2.0.6-1.5.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
-can't install votca-xtp-1.4.1-2.2.x86_64:
-  nothing provides libboost_program_options.so.1.65.1()(64bit) needed by votca-xtp-1.4.1-2.2.x86_64
 can't install libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64

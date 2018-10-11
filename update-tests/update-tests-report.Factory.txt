@@ -1,8 +1,8 @@
-At revision 579.
+At revision 582.
 testing 13.1-x86_64-update.t
 Found 2 problems:
 Problem 1:
-package paprefs-0.9.10+20180501.534d20a-1.1.x86_64 requires pulseaudio-module-gsettings, but none of the providers can be installed
+package paprefs-1.0-1.1.x86_64 requires pulseaudio-module-gsettings, but none of the providers can be installed
 
 Solution 1:
   - keep obsolete paprefs-0.9.10-9.2.1.x86_64
