@@ -40,9 +40,9 @@ can't install oxygen4-cursors-4.11.22-15.4.x86_64:
   package is obsoleted by oxygen5-cursors-5.14.0-1.1.x86_64
 can't install scilab-modules-6.0.1-5.1.noarch:
   package scilab-modules-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
-  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
 can't install buzztrax-lang-0.10.2-11.1.noarch:
@@ -78,8 +78,6 @@ can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install bitcoin-qt5-0.17.0-1.1.x86_64:
-  nothing provides libprotobuf.so.15()(64bit) needed by bitcoin-qt5-0.17.0-1.1.x86_64
 can't install mumble-server-1.2.19-4.2.x86_64:
   nothing provides libprotobuf.so.15()(64bit) needed by mumble-server-1.2.19-4.2.x86_64
 can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
@@ -120,9 +118,9 @@ can't install carla-1.9.7+git20171111.5b97ec1e-3.2.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by carla-1.9.7+git20171111.5b97ec1e-3.2.x86_64
 can't install scilab-lang-6.0.1-5.1.noarch:
   package scilab-lang-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
-  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
 can't install libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
@@ -136,22 +134,16 @@ can't install tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
   nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
 can't install scilab-6.0.1-5.1.x86_64:
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
-  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
-can't install python-espressopp-2.0-1.2.x86_64:
-  package python-espressopp-2.0-1.2.x86_64 requires python-h5py, but none of the providers can be installed
-  nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
-can't install python3-hdf5storage-0.1.15-1.1.noarch:
-  package python3-hdf5storage-0.1.15-1.1.noarch requires python3-h5py >= 2.1, but none of the providers can be installed
-  nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install scilab-tests-6.0.1-5.1.noarch:
   package scilab-tests-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
-  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
@@ -179,9 +171,6 @@ can't install wok-plugins-ginger-2.4.0-3.2.noarch:
   package wok-plugins-ginger-2.4.0-3.2.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install spyder-hdf5-3.3.1-1.1.noarch:
-  package spyder-hdf5-3.3.1-1.1.noarch requires python-h5py, but none of the providers can be installed
-  nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
 can't install qore-json-module-1.4-5.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.11.x86_64
 can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
@@ -199,12 +188,6 @@ can't install buzztrax-plugins-0.10.2-11.1.x86_64:
   package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install python2-hdf5storage-0.1.15-1.1.noarch:
-  package python2-hdf5storage-0.1.15-1.1.noarch requires python2-h5py >= 2.1, but none of the providers can be installed
-  nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
-can't install spyder3-hdf5-3.3.1-1.1.noarch:
-  package spyder3-hdf5-3.3.1-1.1.noarch requires python3-h5py, but none of the providers can be installed
-  nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
@@ -223,9 +206,9 @@ can't install ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64:
 can't install scilab-modules-doc-lang-6.0.1-5.1.noarch:
   package scilab-modules-doc-lang-6.0.1-5.1.noarch requires scilab-modules-doc = 6.0.1, but none of the providers can be installed
   package scilab-modules-doc-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
-  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch:
@@ -254,12 +237,8 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
-can't install python3-h5py-2.8.0-1.2.x86_64:
-  nothing provides libhdf5.so.101()(64bit) needed by python3-h5py-2.8.0-1.2.x86_64
 can't install libscilab6-6.0.1-5.1.x86_64:
   nothing provides libhdf5.so.101()(64bit) needed by libscilab6-6.0.1-5.1.x86_64
-can't install bitcoin-test-0.17.0-1.1.x86_64:
-  nothing provides libprotobuf.so.15()(64bit) needed by bitcoin-test-0.17.0-1.1.x86_64
 can't install tomahawk-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
   nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
@@ -300,8 +279,6 @@ can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
-can't install python2-h5py-2.8.0-1.2.x86_64:
-  nothing provides libhdf5.so.101()(64bit) needed by python2-h5py-2.8.0-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
 can't install python-plaso-1.5.1-1.8.noarch:
@@ -349,9 +326,9 @@ can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
 can't install scilab-modules-doc-6.0.1-5.1.noarch:
   package scilab-modules-doc-6.0.1-5.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
   nothing provides hdf5 = 1.10.1 needed by scilab-6.0.1-5.1.x86_64
     (we have hdf5-1.10.3-1.1.x86_64)
-  nothing provides libhdf5.so.101()(64bit) needed by scilab-6.0.1-5.1.x86_64
 can't install libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
 can't install gns3-2.0.3-1.3.noarch:
