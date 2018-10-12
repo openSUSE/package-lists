@@ -384,6 +384,9 @@ diffutils-lang
 ding
 ding-dict-de_en
 discover
+discover-backend-flatpak
+discover-backend-fwupd
+discover-backend-packagekit
 discover-lang
 djvulibre
 dleyna-connector-dbus
@@ -962,7 +965,6 @@ i4l-isdnlog
 iagno
 iagno-lang
 ibus
-ibus-cangjie
 ibus-chewing
 ibus-gtk
 ibus-gtk3
@@ -1332,6 +1334,7 @@ krusader
 kscd
 kscreen5
 kscreen5-lang
+kscreen5-plasmoid
 kscreenlocker
 kscreenlocker-lang
 kservice
@@ -1736,6 +1739,8 @@ libboost_thread1_68_0
 libbrasero-burn3-1
 libbrasero-media3-1
 libbrasero-utils3-1
+libbreezecommon4-5
+libbreezecommon5-5
 libbrlapi0_6
 libbrotlicommon1
 libbrotlidec1
@@ -1762,7 +1767,6 @@ libcanberra-gtk2-module
 libcanberra-gtk3-0
 libcanberra-gtk3-module
 libcanberra0
-libcangjie2
 libcap-ng0
 libcap2
 libcap2-32bit
@@ -2382,6 +2386,8 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
+libopenssl1_0_0
+libopenssl1_0_0-hmac
 libopenssl1_1
 libopenssl1_1-32bit
 libopenssl1_1-hmac
@@ -2462,8 +2468,8 @@ libpresage1
 libprison0
 libprocps7
 libprotobuf-c1
-libprotobuf-lite15
-libprotobuf15
+libprotobuf-lite17
+libprotobuf17
 libproxy1
 libproxy1-config-gnome3
 libproxy1-config-kde
@@ -3767,6 +3773,7 @@ python-talloc
 python-tk
 python-xml
 python2-M2Crypto
+python2-PyNaCl
 python2-PySocks
 python2-PyYAML
 python2-Pygments
@@ -3774,6 +3781,8 @@ python2-SecretStorage
 python2-appdirs
 python2-asn1crypto
 python2-backports
+python2-bcrypt
+python2-boto
 python2-boto3
 python2-botocore
 python2-cairo
@@ -3805,6 +3814,7 @@ python2-monotonic
 python2-ndg-httpsclient
 python2-numpy
 python2-packaging
+python2-paramiko
 python2-ply
 python2-py
 python2-pyOpenSSL
@@ -3844,7 +3854,6 @@ python3-bind
 python3-brlapi
 python3-cairo
 python3-cairocffi
-python3-cangjie
 python3-certifi
 python3-cffi
 python3-chardet
@@ -4086,6 +4095,7 @@ ruby2.5-rubygem-js-routes
 ruby2.5-rubygem-json-jwt
 ruby2.5-rubygem-kgio
 ruby2.5-rubygem-kramdown
+ruby2.5-rubygem-libyui-rake
 ruby2.5-rubygem-liquid
 ruby2.5-rubygem-listen-3_0
 ruby2.5-rubygem-little-plugger
