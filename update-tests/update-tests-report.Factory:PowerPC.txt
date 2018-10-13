@@ -1,4 +1,5 @@
-At revision 1ae8d209c4703eddf8934fef0ff53e0d.
+Failed to reach a server:
+ [Errno 111] Connection refused: 'https://api.opensuse.org/source/openSUSE:Factory:PowerPC/000product?linkrev=base&rev=latest'
 testing 13.1-x86_64-update.t
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC-standard-x86_64.solv'
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC:NonFree-standard-x86_64.solv'
