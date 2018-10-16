@@ -230,7 +230,6 @@ bash
 bash-completion
 bash-doc
 bash-lang
-bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bcm43xx-firmware
@@ -346,7 +345,6 @@ cppcheck
 cpupower
 cracklib
 cracklib-dict-full
-crash-kmp-default
 crda
 createrepo
 cron
@@ -445,12 +443,10 @@ dolphin-part
 dolphin-part-lang
 dos2unix
 dosfstools
-dpdk-kmp-default
 dracut
 dragonplayer
 dragonplayer-lang
 drbd
-drbd-kmp-default
 drbd-utils
 drkonqi5
 drkonqi5-lang
@@ -574,7 +570,6 @@ filesystem
 fillup
 findutils
 findutils-lang
-fipscheck
 firewall-macros
 firewalld
 firewalld-lang
@@ -996,7 +991,6 @@ hack-fonts
 hardlink
 haveged
 hddtemp
-hdjmod-kmp-default
 hdparm
 health-checker
 health-checker-plugins-caasp
@@ -1284,13 +1278,11 @@ kdoctools
 kdoctools-lang
 kdump
 kernel-default
-kernel-default-devel
 kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
 kernel-source
-kernel-syms
 kexec-tools
 keyutils
 kf5-kcm-fcitx
@@ -2126,7 +2118,6 @@ libffi7-32bit
 libfftw3-3
 libfftw3_threads3
 libfind3_0
-libfipscheck1
 libfl-devel
 libfl2
 libflatpak0
@@ -2649,8 +2640,6 @@ libopenmpt0
 libopenraw1
 libopenssl-1_1-devel
 libopenssl-devel
-libopenssl1_0_0
-libopenssl1_0_0-hmac
 libopenssl1_1
 libopenssl1_1-32bit
 libopenssl1_1-hmac
@@ -3291,8 +3280,6 @@ lskat-lang
 lsof
 lsscsi
 ltrace
-lttng-modules
-lttng-modules-kmp-default
 lua53
 lua53-luasocket
 lv
@@ -3370,7 +3357,6 @@ metatheme-adwaita-common
 metatheme-breeze-common
 metatheme-sonar-common
 mgopen-fonts
-mhvtl-kmp-default
 midori-branding-openSUSE
 milou5
 milou5-lang
@@ -3540,9 +3526,6 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
 openSUSE-xfce-icon-theme
-openafs
-openafs-client
-openafs-kmp-default
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3687,7 +3670,6 @@ patterns-yast-yast2_basis
 patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
-pcfclock-kmp-default
 pciutils
 pciutils-ids
 pcmanfm
@@ -3751,6 +3733,7 @@ perl-Cpanel-JSON-XS
 perl-Crypt-Blowfish
 perl-Crypt-CBC
 perl-Crypt-DES
+perl-Crypt-OpenSSL-Bignum
 perl-Crypt-OpenSSL-RSA
 perl-Crypt-OpenSSL-Random
 perl-Crypt-Rijndael
@@ -3996,8 +3979,6 @@ perl-namespace-autoclean
 perl-namespace-clean
 perl-razor-agents
 permissions
-pesign
-pesign-obs-integration
 pfscalibration
 pfstmo
 pfstools
@@ -4413,7 +4394,6 @@ rsvg-thumbnailer
 rsync
 rt2860
 rtkit
-rtl8812au-kmp-default
 ruby
 ruby-common
 ruby-devel
@@ -4856,7 +4836,6 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
-sysdig-kmp-default
 sysfsutils
 syslinux
 sysprof
@@ -5111,13 +5090,11 @@ util-linux-lang
 util-linux-systemd
 util-macros-devel
 v4l-conf
-v4l2loopback-kmp-default
 vacation
 vala
 valgrind
 vdr
 vdr-lang
-vhba-kmp-default
 viewnior
 viewnior-lang
 viewvc
@@ -5130,9 +5107,6 @@ vinagre-lang
 virt-install
 virt-manager-common
 virt-sandbox
-virtualbox-guest-kmp-default
-virtualbox-guest-tools
-virtualbox-guest-x11
 vlan
 vlc
 vlc-codec-gstreamer
@@ -5390,7 +5364,6 @@ xset
 xsetroot
 xslide
 xstroke
-xtables-addons-kmp-default
 xtables-plugins
 xterm-bin
 xtermset
