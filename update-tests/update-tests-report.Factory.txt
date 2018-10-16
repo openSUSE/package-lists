@@ -1,127 +1,7 @@
-At revision 590.
+At revision 592.
 testing 13.1-x86_64-update.t
-Found 14 problems:
+Found 2 problems:
 Problem 1:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-debug-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-debug-devel-3.11.10-21.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 2:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-default-devel-3.11.6-4.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 3:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-default-devel-3.11.10-21.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 4:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-desktop-devel-3.11.6-4.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 5:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-desktop-devel-3.11.10-21.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 6:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-ec2-devel-3.11.10-21.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 7:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-syms-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-syms-3.11.6-4.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 8:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-syms-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-syms-3.11.10-21.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 9:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-trace-devel-3.11.10-21.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 10:
-nothing provides kernel-source-vanilla = 4.18.13-1 needed by kernel-vanilla-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-vanilla-devel-3.11.10-21.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 11:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-xen-devel-3.11.6-4.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 12:
-nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-
-Solution 1:
-  - keep obsolete kernel-xen-devel-3.11.10-21.1.x86_64
-  - keep obsolete kernel-devel-3.11.6-4.1.noarch
-  - keep obsolete kernel-devel-3.11.10-21.1.noarch
-  - keep obsolete kernel-source-3.11.6-4.1.noarch
-  - keep obsolete kernel-source-3.11.10-21.1.noarch
-
-Problem 13:
 package paprefs-1.0-1.1.x86_64 requires pulseaudio-module-gsettings, but none of the providers can be installed
 
 Solution 1:
@@ -131,7 +11,7 @@ Solution 1:
 Solution 2:
   - allow deinstallation of pulseaudio-module-gconf-4.0.git.270.g9490a-12.1.x86_64
 
-Problem 14:
+Problem 2:
 package python-liblarch_gtk-2.1.0-2.1.2.noarch requires python-liblarch = 2.1.0, but none of the providers can be installed
 
 Solution 1:

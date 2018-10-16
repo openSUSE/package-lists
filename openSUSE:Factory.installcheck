@@ -57,16 +57,6 @@ can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
-can't install vhba-kmp-default-20170610_k4.18.12_1-1.163.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by vhba-kmp-default-20170610_k4.18.12_1-1.163.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install hgview-1.8.2-3.13.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
 can't install gtg-lang-0.3.1-6.1.noarch:
@@ -77,18 +67,6 @@ can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install qore-uuid-module-1.3-3.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.13.x86_64
-can't install virtualbox-vnc-5.2.18-1.7.x86_64:
-  package virtualbox-vnc-5.2.18-1.7.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
@@ -102,9 +80,6 @@ can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.0-4.4.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.10.x86_64
-can't install kernel-syms-4.18.13-1.6.x86_64:
-  nothing provides kernel-devel = 4.18.13-1 needed by kernel-syms-4.18.13-1.6.x86_64
-    (we have kernel-devel-4.18.12-1.5.noarch)
 can't install freeorion-data-0.4.7.1-2.3.noarch:
   package freeorion-data-0.4.7.1-2.3.noarch requires freeorion = 0.4.7.1, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
@@ -120,31 +95,8 @@ can't install freeorion-data-0.4.7.1-2.3.noarch:
 can't install paperwork-0.3.2-1.8.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.8.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
-can't install bbswitch-0.8-7.41.x86_64:
-  package bbswitch-0.8-7.41.x86_64 requires bbswitch-kmp, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by bbswitch-kmp-default-0.8_k4.18.12_1-7.41.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
-can't install virtualbox-host-source-5.2.18-1.7.noarch:
-  package virtualbox-host-source-5.2.18-1.7.noarch requires virtualbox = 5.2.18, but none of the providers can be installed
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-plugins-telepathy-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
@@ -167,16 +119,6 @@ can't install buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install mpd-0.20.18-1.8.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by mpd-0.20.18-1.8.x86_64
-can't install drbd-kmp-default-9.0.15+git.c46d2790_k4.18.12_1-1.9.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by drbd-kmp-default-9.0.15+git.c46d2790_k4.18.12_1-1.9.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64:
   package tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64 requires tomahawk = 0.8.99~git20180422T140543, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
@@ -204,32 +146,12 @@ can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
-can't install virtualbox-guest-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-guest-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install fluidsynth-dssi-1.0.0-18.12.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by fluidsynth-dssi-1.0.0-18.12.x86_64
 can't install wok-plugins-ginger-2.4.0-3.2.noarch:
   package wok-plugins-ginger-2.4.0-3.2.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install hdjmod-kmp-default-1.28_k4.18.12_1-24.41.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by hdjmod-kmp-default-1.28_k4.18.12_1-24.41.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install qore-json-module-1.4-5.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.11.x86_64
 can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
@@ -240,63 +162,12 @@ can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
-can't install virtualbox-websrv-5.2.18-1.7.x86_64:
-  package virtualbox-websrv-5.2.18-1.7.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install buzztrax-plugins-0.10.2-11.1.x86_64:
   package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install python3-virtualbox-5.2.18-1.7.x86_64:
-  package python3-virtualbox-5.2.18-1.7.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
-can't install mhvtl-1.53_release-3.26.x86_64:
-  package mhvtl-1.53_release-3.26.x86_64 requires mhvtl-kmp, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by mhvtl-kmp-default-1.53_release_k4.18.12_1-3.26.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
-can't install dkms-2.3-1.4.noarch:
-  package dkms-2.3-1.4.noarch requires kernel-syms, but none of the providers can be installed
-  nothing provides kernel-devel = 4.18.13-1 needed by kernel-syms-4.18.13-1.6.x86_64
-    (we have kernel-devel-4.18.12-1.5.noarch)
-can't install gcdemu-3.0.2-1.4.noarch:
-  package gcdemu-3.0.2-1.4.noarch requires cdemu-daemon >= 3.0.0, but none of the providers can be installed
-  package cdemu-daemon-3.1.0-3.2.x86_64 requires vhba-kmp, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by vhba-kmp-default-20170610_k4.18.12_1-1.163.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -306,54 +177,10 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
-can't install xtables-addons-kmp-default-3.2_k4.18.12_1-1.9.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by xtables-addons-kmp-default-3.2_k4.18.12_1-1.9.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install mumble-1.2.19-4.2.x86_64:
   nothing provides libprotobuf.so.15()(64bit) needed by mumble-1.2.19-4.2.x86_64
-can't install bbswitch-kmp-default-0.8_k4.18.12_1-7.41.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by bbswitch-kmp-default-0.8_k4.18.12_1-7.41.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64:
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
-can't install pcfclock-0.44-265.39.x86_64:
-  package pcfclock-0.44-265.39.x86_64 requires pcfclock-kmp, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by pcfclock-kmp-default-0.44_k4.18.12_1-265.39.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
-can't install sysdig-kmp-default-0.23.1_k4.18.12_1-1.13.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by sysdig-kmp-default-0.23.1_k4.18.12_1-1.13.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
-can't install kernel-vanilla-devel-4.18.13-1.6.x86_64:
-  nothing provides kernel-source-vanilla = 4.18.13-1 needed by kernel-vanilla-devel-4.18.13-1.6.x86_64
-    (we have kernel-source-vanilla-4.18.12-1.5.noarch)
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch:
@@ -372,41 +199,8 @@ can't install caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch:
   nothing provides kubic-sidecar-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch
   nothing provides kubic-tiller-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch
   nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch
-can't install openafs-client-1.8.2-2.3.x86_64:
-  package openafs-client-1.8.2-2.3.x86_64 requires openafs-kmp, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by openafs-kmp-default-1.8.2_k4.18.12_1-2.3.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
-can't install rtl8812au-kmp-default-5.2.20.2_k4.18.12_1-1.13.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by rtl8812au-kmp-default-5.2.20.2_k4.18.12_1-1.13.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
-can't install virtualbox-qt-5.2.18-1.7.x86_64:
-  package virtualbox-qt-5.2.18-1.7.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
 can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
@@ -421,17 +215,6 @@ can't install tomahawk-0.8.99~git20180422T140543-1.1.x86_64:
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
-can't install virtualbox-guest-x11-5.2.18-1.7.x86_64:
-  package virtualbox-guest-x11-5.2.18-1.7.x86_64 requires virtualbox-guest-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-guest-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install qore-mysql-module-2.0.2.1-1.1.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.2.1-1.1.x86_64
 can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
@@ -440,47 +223,11 @@ can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
 can't install qore-xml-module-1.2-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.12.x86_64
-can't install openafs-kmp-default-1.8.2_k4.18.12_1-2.3.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by openafs-kmp-default-1.8.2_k4.18.12_1-2.3.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64:
   nothing provides libbladeRF.so.1()(64bit) needed by soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64
-can't install kernel-debug-devel-4.18.13-1.6.x86_64:
-  nothing provides kernel-devel = 4.18.13-1 needed by kernel-debug-devel-4.18.13-1.6.x86_64
-    (we have kernel-devel-4.18.12-1.5.noarch)
-can't install mhvtl-kmp-default-1.53_release_k4.18.12_1-3.26.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by mhvtl-kmp-default-1.53_release_k4.18.12_1-3.26.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install libtomahawk-plugins-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-plugins-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
-can't install crash-kmp-default-7.2.3_k4.18.12_1-1.20.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by crash-kmp-default-7.2.3_k4.18.12_1-1.20.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
-can't install kernel-kvmsmall-devel-4.18.13-1.6.x86_64:
-  nothing provides kernel-devel = 4.18.13-1 needed by kernel-kvmsmall-devel-4.18.13-1.6.x86_64
-    (we have kernel-devel-4.18.12-1.5.noarch)
 can't install quimup-1.4.3-1.2.x86_64:
   package quimup-1.4.3-1.2.x86_64 requires mpd, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by mpd-0.20.18-1.8.x86_64
@@ -491,18 +238,6 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
-can't install libvirt-daemon-vbox-4.8.0-1.1.x86_64:
-  package libvirt-daemon-vbox-4.8.0-1.1.x86_64 requires virtualbox < 5.3, but none of the providers can be installed
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
   package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
@@ -512,19 +247,6 @@ can't install carla-vst-1.9.7+git20171111.5b97ec1e-3.2.x86_64:
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
-can't install gcdemu-lang-3.0.2-1.4.noarch:
-  package gcdemu-3.0.2-1.4.noarch requires cdemu-daemon >= 3.0.0, but none of the providers can be installed
-  package gcdemu-lang-3.0.2-1.4.noarch requires gcdemu = 3.0.2, but none of the providers can be installed
-  package cdemu-daemon-3.1.0-3.2.x86_64 requires vhba-kmp, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by vhba-kmp-default-20170610_k4.18.12_1-1.163.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
   nothing provides gtk3-engine-unico needed by gtk3-metatheme-bluebird-1.2-1.2.noarch
 can't install ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64:
@@ -541,45 +263,14 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install lttng-modules-kmp-default-2.10.7_k4.18.12_1-1.16.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by lttng-modules-kmp-default-2.10.7_k4.18.12_1-1.16.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64:
   package ruby2.5-rubygem-lolcat-doc-90.8.8-1.6.x86_64 requires ruby2.5-rubygem-lolcat = 90.8.8, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:trollop:2.1) >= 2.1.2 needed by ruby2.5-rubygem-lolcat-90.8.8-1.6.x86_64
-can't install virtualbox-5.2.18-1.7.x86_64:
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install ncmpcpp-0.8.2-1.5.x86_64:
   package ncmpcpp-0.8.2-1.5.x86_64 requires mpd > 0.16, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by mpd-0.20.18-1.8.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
-can't install v4l2loopback-kmp-default-0.12.0_k4.18.12_1-1.39.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by v4l2loopback-kmp-default-0.12.0_k4.18.12_1-1.39.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
@@ -588,18 +279,6 @@ can't install switchboard-plug-networking-0.1.1-1.2.x86_64:
 can't install csound-devel-5.18.02-11.2.x86_64:
   package csound-devel-5.18.02-11.2.x86_64 requires csound = 5.18.02, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
-can't install virtualbox-devel-5.2.18-1.7.x86_64:
-  package virtualbox-devel-5.2.18-1.7.x86_64 requires virtualbox = 5.2.18, but none of the providers can be installed
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install hgview-qt4-1.8.2-3.13.noarch:
   package hgview-qt4-1.8.2-3.13.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
@@ -615,16 +294,6 @@ can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
-can't install pcfclock-kmp-default-0.44_k4.18.12_1-265.39.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by pcfclock-kmp-default-0.44_k4.18.12_1-265.39.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
 can't install gns3-2.0.3-1.3.noarch:
@@ -639,74 +308,17 @@ can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
-can't install kernel-default-devel-4.18.13-1.6.x86_64:
-  nothing provides kernel-devel = 4.18.13-1 needed by kernel-default-devel-4.18.13-1.6.x86_64
-    (we have kernel-devel-4.18.12-1.5.noarch)
 can't install pfstools-octave-2.0.6-1.5.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by pfstools-octave-2.0.6-1.5.x86_64
-can't install cdemu-daemon-3.1.0-3.2.x86_64:
-  package cdemu-daemon-3.1.0-3.2.x86_64 requires vhba-kmp, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by vhba-kmp-default-20170610_k4.18.12_1-1.163.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
-can't install dpdk-kmp-default-18.02.2_k4.18.12_1-4.4.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by dpdk-kmp-default-18.02.2_k4.18.12_1-4.4.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
-can't install virtualbox-guest-tools-5.2.18-1.7.x86_64:
-  package virtualbox-guest-tools-5.2.18-1.7.x86_64 requires virtualbox-guest-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-guest-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
-can't install virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64:
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
-can't install virtualbox-guest-desktop-icons-5.2.18-1.7.noarch:
-  package virtualbox-guest-desktop-icons-5.2.18-1.7.noarch requires virtualbox = 5.2.18, but none of the providers can be installed
-  package virtualbox-5.2.18-1.7.x86_64 requires virtualbox-host-kmp = 5.2.18, but none of the providers can be installed
-  nothing provides kernel-uname-r = 4.18.12-1-default needed by virtualbox-host-kmp-default-5.2.18_k4.18.12_1-1.7.x86_64
-    (we have kernel-kvmsmall-4.18.13-1.6.x86_64)
-    (we have kernel-default-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-base-4.18.13-1.6.x86_64)
-    (we have kernel-kvmsmall-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-base-4.18.13-1.6.x86_64)
-    (we have kernel-vanilla-4.18.13-1.6.x86_64)
-    (we have kernel-default-base-4.18.13-1.6.x86_64)
-    (we have kernel-debug-4.18.13-1.6.x86_64)
 can't install cecilia-2.0.5-282.6.noarch:
   package cecilia-2.0.5-282.6.noarch requires csound > 3.47, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
