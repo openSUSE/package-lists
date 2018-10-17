@@ -427,8 +427,6 @@ ed
 edict
 eekboard
 efont-unicode-bitmap-fonts
-eiciel
-eiciel-lang
 ekiga
 ekiga-lang
 ekiga-plugins-evolution
@@ -476,8 +474,6 @@ evolution-ews-lang
 evolution-lang
 evolution-plugin-bogofilter
 evolution-plugin-pst-import
-evolution-plugin-rss
-evolution-plugin-rss-lang
 evolution-plugin-spamassassin
 exif
 exiftool
@@ -908,6 +904,7 @@ gtk3-tools
 gtk4-schema
 gtkiterm
 gtksourceview-lang
+gtksourceview4-lang
 gtkspell-lang
 gtkspell3-lang
 gucharmap
@@ -1747,7 +1744,7 @@ libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
 libcamd2
-libcamel-1_2-61
+libcamel-1_2-62
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -1862,7 +1859,7 @@ libebook-contacts-1_2-2
 libecal-1_2-19
 libecpg6
 libedata-book-1_2-25
-libedata-cal-1_2-28
+libedata-cal-1_2-29
 libedataserver-1_2-23
 libedataserverui-1_2-2
 libedit0
@@ -2091,6 +2088,7 @@ libgtkhex-3-0
 libgtkimageview0
 libgtkmm-3_0-1
 libgtksourceview-3_0-1
+libgtksourceview-4-0
 libgtksourceviewmm-3_0-0
 libgtkspell0
 libgtkspell3-3-0
@@ -2286,6 +2284,7 @@ libmodman1
 libmodplug1
 libmount1
 libmozjs-52
+libmozjs-60
 libmp3lame0
 libmpc3
 libmpcdec5
@@ -2300,7 +2299,7 @@ libmtdev1
 libmtp-udev
 libmtp9
 libmusicbrainz5-1
-libmutter-2-0
+libmutter-3-0
 libmxml1
 libmygpo-qt1
 libmypaint-1_3-0
@@ -2413,7 +2412,7 @@ libphonon4qt5
 libpinyin-data
 libpinyin13
 libpipeline1
-libpipewire-0_1-0
+libpipewire-0_2-1
 libpisock9
 libpixman-1-0
 libpixman-1-0-devel
@@ -2586,7 +2585,7 @@ libsoup-2_4-1
 libsoup-lang
 libsox3
 libsoxr0
-libspa-lib0
+libspa-lib1
 libspandsp2
 libspectre1
 libspeechd2
@@ -2624,6 +2623,7 @@ libswresample2
 libswresample3
 libswscale4
 libswscale5
+libsynctex2
 libsystemd0
 libtag-extras1
 libtag1
@@ -2701,7 +2701,7 @@ libva-glx2
 libva-wayland2
 libva-x11-2
 libva2
-libvala-0_40-0
+libvala-0_42-0
 libvamp-hostsdk3
 libvdeplug3
 libvdpau1
@@ -3023,7 +3023,6 @@ nano-lang
 nasm
 nautilus
 nautilus-deja-dup
-nautilus-eiciel
 nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-terminal
@@ -3325,6 +3324,7 @@ perl-DBD-XBase
 perl-DBD-mysql
 perl-DBI
 perl-Data-OptList
+perl-Data-Validate-IP
 perl-Date-Manip
 perl-DateTime
 perl-DateTime-Format-Builder
@@ -4042,6 +4042,7 @@ ruby2.5-rubygem-eventmachine
 ruby2.5-rubygem-excon
 ruby2.5-rubygem-execjs
 ruby2.5-rubygem-faraday
+ruby2.5-rubygem-faraday-0_12
 ruby2.5-rubygem-fast_gettext
 ruby2.5-rubygem-ffi
 ruby2.5-rubygem-fluentd
@@ -4052,6 +4053,7 @@ ruby2.5-rubygem-globalid
 ruby2.5-rubygem-grape
 ruby2.5-rubygem-gssapi
 ruby2.5-rubygem-gyoku
+ruby2.5-rubygem-hashie
 ruby2.5-rubygem-highline-1_7
 ruby2.5-rubygem-hitimes
 ruby2.5-rubygem-hoe
@@ -4068,6 +4070,7 @@ ruby2.5-rubygem-jmespath
 ruby2.5-rubygem-jquery-rails
 ruby2.5-rubygem-js-routes
 ruby2.5-rubygem-json-jwt
+ruby2.5-rubygem-jwt-1_5
 ruby2.5-rubygem-kgio
 ruby2.5-rubygem-kramdown
 ruby2.5-rubygem-libyui-rake
@@ -4092,6 +4095,7 @@ ruby2.5-rubygem-mixlib-shellout
 ruby2.5-rubygem-mocha
 ruby2.5-rubygem-msgpack
 ruby2.5-rubygem-multi_json
+ruby2.5-rubygem-multi_xml
 ruby2.5-rubygem-multipart-post
 ruby2.5-rubygem-mustermann
 ruby2.5-rubygem-mustermann-grape
@@ -4102,6 +4106,10 @@ ruby2.5-rubygem-net-ssh
 ruby2.5-rubygem-nio4r
 ruby2.5-rubygem-nokogiri
 ruby2.5-rubygem-nori
+ruby2.5-rubygem-oauth2
+ruby2.5-rubygem-omniauth
+ruby2.5-rubygem-omniauth-gitlab
+ruby2.5-rubygem-omniauth-oauth2
 ruby2.5-rubygem-openid_connect
 ruby2.5-rubygem-orm_adapter
 ruby2.5-rubygem-packaging_rake_tasks
@@ -4497,7 +4505,6 @@ typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
 typelib-1_0-Grl-0_3
-typelib-1_0-Gspell-1
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -4508,6 +4515,7 @@ typelib-1_0-GstVideo-1_0
 typelib-1_0-Gtk-3_0
 typelib-1_0-GtkClutter-1_0
 typelib-1_0-GtkSource-3_0
+typelib-1_0-GtkSource-4
 typelib-1_0-IBus-1_0
 typelib-1_0-JavaScriptCore-4_0
 typelib-1_0-Json-1_0
@@ -4651,8 +4659,6 @@ xdelta3
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-desktop-portal-gtk-lang
-xdg-desktop-portal-kde
-xdg-desktop-portal-kde-lang
 xdg-desktop-portal-lang
 xdg-menu
 xdg-user-dirs
