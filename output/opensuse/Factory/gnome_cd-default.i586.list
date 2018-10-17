@@ -128,7 +128,6 @@ dracut
 e2fsprogs
 ebtables
 efibootmgr
-eiciel
 elfutils
 enchant-1-backend-voikko
 enchant-2-backend-hunspell
@@ -455,7 +454,7 @@ libcairo-gobject2
 libcairo2
 libcairomm-1_0-1
 libcamd2
-libcamel-1_2-61
+libcamel-1_2-62
 libcanberra-gtk-module-common
 libcanberra-gtk0
 libcanberra-gtk2-module
@@ -534,7 +533,7 @@ libebook-1_2-19
 libebook-contacts-1_2-2
 libecal-1_2-19
 libedata-book-1_2-25
-libedata-cal-1_2-28
+libedata-cal-1_2-29
 libedataserver-1_2-23
 libedataserverui-1_2-2
 libedit0
@@ -604,7 +603,6 @@ libglib-2_0-0
 libglibmm-2_4-1
 libglvnd
 libgme0
-libgmime-3_0-0
 libgmodule-2_0-0
 libgmp10
 libgnome-autoar-0-0
@@ -757,6 +755,7 @@ libmnl0
 libmodman1
 libmount1
 libmozjs-52
+libmozjs-60
 libmp3lame0
 libmpc3
 libmpcdec5
@@ -769,7 +768,7 @@ libmtdev1
 libmtp-udev
 libmtp9
 libmusicbrainz5-1
-libmutter-2-0
+libmutter-3-0
 libmysofa0
 libnautilus-extension1
 libncurses6
@@ -833,7 +832,7 @@ libpeas-loader-python
 libpeas-loader-python3
 libpgm-5_2-0
 libpipeline1
-libpipewire-0_1-0
+libpipewire-0_2-1
 libpixman-1-0
 libpkcs11-helper1
 libplist3
@@ -918,7 +917,7 @@ libsolv-tools
 libsord-0-0
 libsoup-2_4-1
 libsoxr0
-libspa-lib0
+libspa-lib1
 libspandsp2
 libspectre1
 libspeechd2
@@ -940,6 +939,7 @@ libstorage-ng1
 libsuitesparseconfig5
 libswresample3
 libswscale5
+libsynctex2
 libsystemd0
 libtag1
 libtag_c0
@@ -1101,7 +1101,6 @@ mutter
 mutter-data
 nano
 nautilus
-nautilus-eiciel
 nautilus-evince
 nautilus-extension-seahorse
 nautilus-extension-terminal
@@ -1458,7 +1457,6 @@ typelib-1_0-GnomeDesktop-3_0
 typelib-1_0-GnomeKeyring-1_0
 typelib-1_0-Goa-1_0
 typelib-1_0-Grl-0_3
-typelib-1_0-Gspell-1
 typelib-1_0-Gst-1_0
 typelib-1_0-GstAudio-1_0
 typelib-1_0-GstPbutils-1_0
@@ -1492,6 +1490,7 @@ typelib-1_0-UpowerGlib-1_0
 typelib-1_0-WebKit2-4_0
 typelib-1_0-Wnck-3_0
 typelib-1_0-Xkl-1_0
+typelib-1_0-libdazzle-1_0
 ucode-amd
 ucode-intel
 udev
