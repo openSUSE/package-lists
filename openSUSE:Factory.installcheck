@@ -54,9 +54,6 @@ can't install machinery-doc-1.23.1-1.6.x86_64:
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
-can't install xdg-desktop-portal-kde-lang-5.14.0-1.1.noarch:
-  package xdg-desktop-portal-kde-lang-5.14.0-1.1.noarch requires xdg-desktop-portal-kde = 5.14.0, but none of the providers can be installed
-  nothing provides libpipewire-0.1.so.0()(64bit) needed by xdg-desktop-portal-kde-5.14.0-1.1.x86_64
 can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -258,8 +255,6 @@ can't install caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch:
   nothing provides kubic-velum-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r318_46eddba-1.1.noarch
 can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
-can't install xdg-desktop-portal-kde-5.14.0-1.1.x86_64:
-  nothing provides libpipewire-0.1.so.0()(64bit) needed by xdg-desktop-portal-kde-5.14.0-1.1.x86_64
 can't install budgie-desktop-10.4-5.2.x86_64:
   nothing provides libmutter-2.so.0()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
   nothing provides libmutter-clutter-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
