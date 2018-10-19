@@ -1,11 +1,14 @@
-
-Request: https://api.opensuse.org/build/openSUSE:Factory:PowerPC/_result?package=bash&repository=standard
-Headers:
-status: 503 Service Unavailable
-content-length: 189
-strict-transport-security: max-age=31536000
-server: Apache/2.4.23 (Linux/SUSE)
-connection: close
-cache-control: no-cache, no-store, must-revalidate
-date: Fri, 19 Oct 2018 16:18:31 GMT
-content-type: text/html; charset=UTF-8
+<resultlist state="74177cbf5cf108f6430d03ef98b05998">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc" code="building" state="building">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64" code="unpublished" state="unpublished">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64le" code="unpublished" state="unpublished">
+    <status package="bash" code="succeeded" />
+  </result>
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished">
+    <status package="bash" code="disabled" />
+  </result>
+</resultlist>
