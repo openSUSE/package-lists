@@ -225,6 +225,8 @@ bash
 bash-completion
 bash-doc
 bash-lang
+bbswitch-kmp-default
+bbswitch-kmp-pae
 bc
 bcm20702a1-firmware
 bcm43xx-firmware
@@ -969,6 +971,8 @@ hack-fonts
 hardlink
 haveged
 hddtemp
+hdjmod-kmp-default
+hdjmod-kmp-pae
 hdparm
 health-checker
 health-checker-plugins-caasp
@@ -1260,6 +1264,7 @@ kernel-devel
 kernel-docs
 kernel-firmware
 kernel-macros
+kernel-pae
 kernel-pae-devel
 kernel-source
 kernel-syms
@@ -2269,8 +2274,8 @@ libibus-1_0-5
 libibverbs
 libibverbs1
 libical3
-libicu-suse62_1
-libicu62_1-ledata
+libicu-suse63_1
+libicu63_1-ledata
 libid3tag0
 libidn12
 libidn2-0
@@ -3107,6 +3112,9 @@ lskat-lang
 lsof
 lsscsi
 ltrace
+lttng-modules
+lttng-modules-kmp-default
+lttng-modules-kmp-pae
 lua53
 lua53-luasocket
 lv
@@ -3183,6 +3191,8 @@ metatheme-adwaita-common
 metatheme-breeze-common
 metatheme-sonar-common
 mgopen-fonts
+mhvtl-kmp-default
+mhvtl-kmp-pae
 midori-branding-openSUSE
 milou5
 milou5-lang
@@ -3346,6 +3356,9 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
 openSUSE-xfce-icon-theme
+openafs
+openafs-client
+openafs-kmp-default
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3483,6 +3496,8 @@ patterns-yast-yast2_basis
 patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
+pcfclock-kmp-default
+pcfclock-kmp-pae
 pciutils
 pciutils-ids
 pcmanfm
@@ -4205,6 +4220,8 @@ rsvg-thumbnailer
 rsync
 rt2860
 rtkit
+rtl8812au-kmp-default
+rtl8812au-kmp-pae
 ruby
 ruby-common
 ruby-devel
@@ -4643,6 +4660,8 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
+sysdig-kmp-pae
 sysfsutils
 syslinux
 sysprof
@@ -4894,11 +4913,15 @@ util-linux-lang
 util-linux-systemd
 util-macros-devel
 v4l-conf
+v4l2loopback-kmp-default
+v4l2loopback-kmp-pae
 vacation
 vala
 valgrind
 vdr
 vdr-lang
+vhba-kmp-default
+vhba-kmp-pae
 viewnior
 viewnior-lang
 viewvc
@@ -4910,6 +4933,9 @@ vinagre
 vinagre-lang
 virt-install
 virt-manager-common
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlc
 vlc-codec-gstreamer
@@ -5165,6 +5191,8 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
+xtables-addons-kmp-pae
 xtables-plugins
 xterm-bin
 xtermset

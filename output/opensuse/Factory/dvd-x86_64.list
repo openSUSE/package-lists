@@ -230,6 +230,7 @@ bash
 bash-completion
 bash-doc
 bash-lang
+bbswitch-kmp-default
 bc
 bcm20702a1-firmware
 bcm43xx-firmware
@@ -345,6 +346,7 @@ cppcheck
 cpupower
 cracklib
 cracklib-dict-full
+crash-kmp-default
 crda
 createrepo
 cron
@@ -443,10 +445,12 @@ dolphin-part
 dolphin-part-lang
 dos2unix
 dosfstools
+dpdk-kmp-default
 dracut
 dragonplayer
 dragonplayer-lang
 drbd
+drbd-kmp-default
 drbd-utils
 drkonqi5
 drkonqi5-lang
@@ -991,6 +995,7 @@ hack-fonts
 hardlink
 haveged
 hddtemp
+hdjmod-kmp-default
 hdparm
 health-checker
 health-checker-plugins-caasp
@@ -2363,8 +2368,8 @@ libibus-1_0-5-32bit
 libibverbs
 libibverbs1
 libical3
-libicu-suse62_1
-libicu62_1-ledata
+libicu-suse63_1
+libicu63_1-ledata
 libid3tag0
 libidn12
 libidn2-0
@@ -3284,6 +3289,8 @@ lskat-lang
 lsof
 lsscsi
 ltrace
+lttng-modules
+lttng-modules-kmp-default
 lua53
 lua53-luasocket
 lv
@@ -3361,6 +3368,7 @@ metatheme-adwaita-common
 metatheme-breeze-common
 metatheme-sonar-common
 mgopen-fonts
+mhvtl-kmp-default
 midori-branding-openSUSE
 milou5
 milou5-lang
@@ -3529,6 +3537,9 @@ openSUSE-build-key
 openSUSE-release
 openSUSE-release-dvd
 openSUSE-xfce-icon-theme
+openafs
+openafs-client
+openafs-kmp-default
 openal-soft
 openbox
 openbox-adwaita-ob-theme
@@ -3673,6 +3684,7 @@ patterns-yast-yast2_basis
 patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
+pcfclock-kmp-default
 pciutils
 pciutils-ids
 pcmanfm
@@ -4400,6 +4412,7 @@ rsvg-thumbnailer
 rsync
 rt2860
 rtkit
+rtl8812au-kmp-default
 ruby
 ruby-common
 ruby-devel
@@ -4847,6 +4860,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 syslinux
 sysprof
@@ -5102,11 +5116,13 @@ util-linux-lang
 util-linux-systemd
 util-macros-devel
 v4l-conf
+v4l2loopback-kmp-default
 vacation
 vala
 valgrind
 vdr
 vdr-lang
+vhba-kmp-default
 viewnior
 viewnior-lang
 viewvc
@@ -5119,6 +5135,9 @@ vinagre-lang
 virt-install
 virt-manager-common
 virt-sandbox
+virtualbox-guest-kmp-default
+virtualbox-guest-tools
+virtualbox-guest-x11
 vlan
 vlc
 vlc-codec-gstreamer
@@ -5376,6 +5395,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm-bin
 xtermset
