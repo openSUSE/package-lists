@@ -312,6 +312,7 @@ cppcheck
 cpupower
 cracklib
 cracklib-dict-full
+crash-kmp-default
 crda
 createrepo
 cron
@@ -408,10 +409,12 @@ dolphin-part
 dolphin-part-lang
 dos2unix
 dosfstools
+dpdk-kmp-default
 dracut
 dragonplayer
 dragonplayer-lang
 drbd
+drbd-kmp-default
 drbd-utils
 drkonqi5
 drkonqi5-lang
@@ -450,9 +453,6 @@ eog
 eog-lang
 eog-plugins
 eog-plugins-lang
-epiphany
-epiphany-branding-openSUSE
-epiphany-lang
 epson-inkjet-printer-escpr
 espeak
 espeak-ng
@@ -754,7 +754,6 @@ gnome-session-wayland
 gnome-settings-daemon
 gnome-settings-daemon-lang
 gnome-shell
-gnome-shell-browser-plugin
 gnome-shell-calendar
 gnome-shell-classic
 gnome-shell-extensions-common
@@ -763,7 +762,6 @@ gnome-shell-lang
 gnome-shell-search-provider-bijiben
 gnome-shell-search-provider-contacts
 gnome-shell-search-provider-documents
-gnome-shell-search-provider-epiphany
 gnome-shell-search-provider-gnome-calculator
 gnome-shell-search-provider-gnome-characters
 gnome-shell-search-provider-gnome-clocks
@@ -933,6 +931,7 @@ hack-fonts
 hardlink
 haveged
 hddtemp
+hdjmod-kmp-default
 hdparm
 health-checker
 health-checker-plugins-caasp
@@ -2128,8 +2127,8 @@ libibus-1_0-5
 libibverbs
 libibverbs1
 libical3
-libicu-suse62_1
-libicu62_1-ledata
+libicu-suse63_1
+libicu63_1-ledata
 libid3tag0
 libidn12
 libidn2-0
@@ -2969,6 +2968,7 @@ metatheme-adwaita-common
 metatheme-breeze-common
 metatheme-sonar-common
 mgopen-fonts
+mhvtl-kmp-default
 midori-branding-openSUSE
 milou5
 milou5-lang
@@ -3244,6 +3244,7 @@ patterns-yast-yast2_basis
 patterns-yast-yast2_install_wf
 pavucontrol
 pavucontrol-lang
+pcfclock-kmp-default
 pciutils
 pciutils-ids
 pcmanfm
@@ -3961,6 +3962,7 @@ rsvg-thumbnailer
 rsync
 rt2860
 rtkit
+rtl8812au-kmp-default
 ruby
 ruby-common
 ruby-devel
@@ -4336,6 +4338,7 @@ swig
 syntax-highlighting
 sysconfig
 sysconfig-netconfig
+sysdig-kmp-default
 sysfsutils
 sysprof
 sysprof-lang
@@ -4588,11 +4591,13 @@ util-linux-lang
 util-linux-systemd
 util-macros-devel
 v4l-conf
+v4l2loopback-kmp-default
 vacation
 vala
 valgrind
 vdr
 vdr-lang
+vhba-kmp-default
 viewnior
 viewnior-lang
 viewvc
@@ -4854,6 +4859,7 @@ xset
 xsetroot
 xslide
 xstroke
+xtables-addons-kmp-default
 xtables-plugins
 xterm-bin
 xtermset
