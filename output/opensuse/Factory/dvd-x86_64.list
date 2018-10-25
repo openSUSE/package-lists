@@ -681,6 +681,7 @@ geronimo-jta-1_1-api
 geronimo-specs-poms
 gettext-runtime
 gettext-tools
+ghc-bootstrap
 ghex
 ghex-lang
 ghostscript
@@ -2117,7 +2118,6 @@ libfcgi0
 libfcitx-4_2_9
 libfdisk1
 libfdt1
-libffi7
 libffi7-32bit
 libfftw3-3
 libfftw3_threads3
@@ -2580,6 +2580,7 @@ libmysofa0
 libmysqld19
 libmythes-1_2-0
 libnautilus-extension1
+libncurses5
 libncurses6
 libndp0
 libndr-krb5pac0
@@ -2985,7 +2986,6 @@ libtasn1
 libtasn1-6
 libtasn1-6-32bit
 libtbb2
-libtcmalloc4
 libtcnative-1-0
 libtdb1
 libtdb1-32bit
@@ -4484,11 +4484,13 @@ ruby2.5-rubygem-coffee-rails
 ruby2.5-rubygem-coffee-script
 ruby2.5-rubygem-coffee-script-source
 ruby2.5-rubygem-colorator
+ruby2.5-rubygem-colored
 ruby2.5-rubygem-commander
 ruby2.5-rubygem-concurrent-ruby
 ruby2.5-rubygem-cool.io
 ruby2.5-rubygem-crack
 ruby2.5-rubygem-crass
+ruby2.5-rubygem-cri
 ruby2.5-rubygem-delayed_job
 ruby2.5-rubygem-descendants_tracker
 ruby2.5-rubygem-devise
@@ -4507,7 +4509,6 @@ ruby2.5-rubygem-eventmachine
 ruby2.5-rubygem-excon
 ruby2.5-rubygem-execjs
 ruby2.5-rubygem-faraday
-ruby2.5-rubygem-faraday-0_12
 ruby2.5-rubygem-fast_gettext
 ruby2.5-rubygem-ffi
 ruby2.5-rubygem-fluentd
@@ -4549,7 +4550,6 @@ ruby2.5-rubygem-json-jwt
 ruby2.5-rubygem-json-schema
 ruby2.5-rubygem-json_pure
 ruby2.5-rubygem-jwt
-ruby2.5-rubygem-jwt-1_5
 ruby2.5-rubygem-kgio
 ruby2.5-rubygem-kramdown
 ruby2.5-rubygem-libyui-rake
@@ -4591,10 +4591,6 @@ ruby2.5-rubygem-netrc
 ruby2.5-rubygem-nio4r
 ruby2.5-rubygem-nokogiri
 ruby2.5-rubygem-nori
-ruby2.5-rubygem-oauth2
-ruby2.5-rubygem-omniauth
-ruby2.5-rubygem-omniauth-gitlab
-ruby2.5-rubygem-omniauth-oauth2
 ruby2.5-rubygem-openid_connect
 ruby2.5-rubygem-orm_adapter
 ruby2.5-rubygem-packaging_rake_tasks

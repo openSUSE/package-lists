@@ -39,11 +39,13 @@ filesystem
 fillup
 findutils
 gawk
+ghc-bootstrap
 gio-branding-openSUSE
 glib-networking
 glib2-tools
 glibc
 glibc-locale
+gmp-devel
 gpg2
 grep
 gsettings-desktop-schemas
@@ -97,7 +99,6 @@ libelf1
 libexpat1
 libext2fs2
 libfdisk1
-libffi7
 libfuse2
 libgcc_s1
 libgcrypt20
@@ -107,6 +108,7 @@ libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
+libgmpxx4
 libgnutls30
 libgobject-2_0-0
 libgpg-error0
@@ -135,6 +137,7 @@ libmnl0
 libmodman1
 libmount1
 libmspack0
+libncurses5
 libncurses6
 libnetfilter_conntrack3
 libnettle6

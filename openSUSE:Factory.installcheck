@@ -1,5 +1,7 @@
 can't install suse-build-key-12.0-7.1.noarch:
   package is obsoleted by patterns-caasp-MicroOS-4.0-9.1.x86_64
+can't install svrcore-devel-4.1.3-2.4.x86_64:
+  package is obsoleted by 389-ds-devel-1.4.0.18-1.1.x86_64
 can't install obexd-client-0.48-5.15.x86_64:
   package is obsoleted by bluez-5.50-1.2.x86_64
 can't install kdebase4-workspace-devel-4.11.22-15.4.x86_64:
@@ -42,11 +44,19 @@ can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-kf5-porting-18.08.2-1.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python3-limnoria-2018.09.10-1.1.noarch
+can't install ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install noise-devel-0.4.2-2.2.x86_64:
   package noise-devel-0.4.2-2.2.x86_64 requires libnoise-core0 = 0.4.2, but none of the providers can be installed
   nothing provides libgranite.so.4()(64bit) needed by libnoise-core0-0.4.2-2.2.x86_64
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
+can't install ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install buzztrax-lang-0.10.2-11.1.noarch:
   package buzztrax-lang-0.10.2-11.1.noarch requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
@@ -61,7 +71,7 @@ can't install machinery-doc-1.23.1-1.6.x86_64:
 can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
-    (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
+    (we have ruby2.5-rubygem-commander-4.4.6-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
 can't install hgview-1.8.2-3.13.noarch:
@@ -74,17 +84,34 @@ can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
 can't install qore-uuid-module-1.3-3.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-uuid-module-1.3-3.13.x86_64
+can't install python3-pysnmp-4.4.5-1.1.noarch:
+  nothing provides python3-pycryptodomex needed by python3-pysnmp-4.4.5-1.1.noarch
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
 can't install python3-PyICU-2.0.2-1.6.x86_64:
-  nothing provides libicuuc.so.suse62.1()(64bit) needed by python3-PyICU-2.0.2-1.6.x86_64
   nothing provides libicui18n.so.suse62.1()(64bit) needed by python3-PyICU-2.0.2-1.6.x86_64
+  nothing provides libicuuc.so.suse62.1()(64bit) needed by python3-PyICU-2.0.2-1.6.x86_64
 can't install noise-0.4.2-2.2.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by noise-0.4.2-2.2.x86_64
+can't install nut-drivers-net-2.7.4-10.1.x86_64:
+  nothing provides libnetsnmp.so.30()(64bit) needed by nut-drivers-net-2.7.4-10.1.x86_64
+can't install ruby2.5-rubygem-omniauth-oauth2-doc-1.5.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-oauth2-doc-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-oauth2) = 1.5.0, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
+can't install ruby2.5-rubygem-omniauth-gitlab-testsuite-2.0.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-gitlab-testsuite-2.0.0-1.1.x86_64 requires ruby2.5-rubygem-omniauth-gitlab = 2.0.0, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64:
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
   package ruby2.5-2.5.0-4.4.x86_64 requires ruby2.5-stdlib = 2.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
@@ -138,12 +165,20 @@ can't install libtomahawk-playdarapi0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
 can't install buzztrax-0.10.2-11.1.x86_64:
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
+can't install ruby2.5-rubygem-omniauth-oauth2-testsuite-1.5.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-oauth2-testsuite-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-oauth2) = 1.5.0, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64:
   package tomahawk-kde-0.8.99~git20180422T140543-1.1.x86_64 requires tomahawk = 0.8.99~git20180422T140543, but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
   nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
+can't install svrcore-devel-4.1.3-2.4.x86_64:
+  nothing provides libsvrcore0 = 4.1.3-2.4 needed by svrcore-devel-4.1.3-2.4.x86_64
+    (we have libsvrcore0-1.4.0.18-1.1.x86_64)
 can't install switchboard-plug-networking-lang-0.1.1-1.2.noarch:
   package switchboard-plug-networking-lang-0.1.1-1.2.noarch requires switchboard-plug-networking = 0.1.1, but none of the providers can be installed
   nothing provides libgranite.so.4()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
@@ -193,11 +228,11 @@ can't install ruby2.5-rubygem-lolcat-doc-99.9.19-1.1.x86_64:
   nothing provides rubygem(ruby:2.5.0:manpages:0.6) >= 0.6.1 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
   nothing provides rubygem(ruby:2.5.0:trollop) = 2.1.3 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
     (we have ruby2.5-rubygem-trollop-2.9.9-1.1.x86_64)
-can't install gnucash-devel-3.2-1.4.x86_64:
-  package gnucash-devel-3.2-1.4.x86_64 requires gnucash = 3.2, but none of the providers can be installed
-  nothing provides libicuuc.so.suse62.1()(64bit) needed by gnucash-3.2-1.4.x86_64
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
+can't install python-proliantutils-2.5.1-1.1.noarch:
+  package python-proliantutils-2.5.1-1.1.noarch requires python-pysnmp >= 4.2.3, but none of the providers can be installed
+  nothing provides python2-pycryptodomex needed by python2-pysnmp-4.4.5-1.1.noarch
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -207,15 +242,21 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
+can't install ruby2.5-rubygem-omniauth-doc-1.8.1-1.2.x86_64:
+  package ruby2.5-rubygem-omniauth-doc-1.8.1-1.2.x86_64 requires ruby2.5-rubygem-omniauth = 1.8.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install pantheon-terminal-0.4.3-2.2.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by pantheon-terminal-0.4.3-2.2.x86_64
-can't install python3-gnucash-3.2-1.4.x86_64:
-  package python3-gnucash-3.2-1.4.x86_64 requires libgnc-core-utils.so()(64bit), but none of the providers can be installed
-  package python3-gnucash-3.2-1.4.x86_64 requires libgnc-module.so()(64bit), but none of the providers can be installed
-  package python3-gnucash-3.2-1.4.x86_64 requires libgncmod-app-utils.so()(64bit), but none of the providers can be installed
-  package python3-gnucash-3.2-1.4.x86_64 requires libgncmod-engine.so()(64bit), but none of the providers can be installed
-  package python3-gnucash-3.2-1.4.x86_64 requires gnucash = 3.2, but none of the providers can be installed
-  nothing provides libicuuc.so.suse62.1()(64bit) needed by gnucash-3.2-1.4.x86_64
+can't install ptpd-2.3.1-5.2.x86_64:
+  nothing provides libnetsnmp.so.30()(64bit) needed by ptpd-2.3.1-5.2.x86_64
+  nothing provides libnetsnmpagent.so.30()(64bit) needed by ptpd-2.3.1-5.2.x86_64
+  nothing provides libnetsnmpmibs.so.30()(64bit) needed by ptpd-2.3.1-5.2.x86_64
+can't install ruby2.5-rubygem-omniauth-google-oauth2-doc-0.5.3-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-google-oauth2-doc-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-google-oauth2) = 0.5.3, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth) >= 1.1.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64:
   nothing provides rubygem(ruby:2.5.0:manpages:0.6) >= 0.6.1 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
   nothing provides rubygem(ruby:2.5.0:trollop) = 2.1.3 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
@@ -228,9 +269,17 @@ can't install typelib_1_0-Budgie-0_1-10.4-5.2.x86_64:
   nothing provides libmutter-2.so.0()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
   nothing provides libmutter-clutter-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
   nothing provides libmutter-cogl-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
+can't install ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install yishu-lang-1.0.9-1.1.noarch:
   package yishu-lang-1.0.9-1.1.noarch requires yishu = 1.0.9, but none of the providers can be installed
   nothing provides libgranite.so.4()(64bit) needed by yishu-1.0.9-1.1.x86_64
+can't install ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install qore-yaml-module-0.4-4.11.x86_64:
@@ -244,12 +293,17 @@ can't install vusb-analyzer-1.1-18.3.noarch:
 can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
-    (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
+    (we have ruby2.5-rubygem-commander-4.4.6-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
 can't install tomahawk-0.8.99~git20180422T140543-1.1.x86_64:
   nothing provides libboost_system.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
   nothing provides libboost_filesystem.so.1.67.0()(64bit) needed by tomahawk-0.8.99~git20180422T140543-1.1.x86_64
+can't install ruby2.5-rubygem-omniauth-google-oauth2-testsuite-0.5.3-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-google-oauth2-testsuite-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-google-oauth2) = 0.5.3, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth) >= 1.1.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
@@ -276,6 +330,11 @@ can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-fsm) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-pool) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-supervision) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
+can't install ruby2.5-rubygem-omniauth-oauth-testsuite-1.1.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-oauth-testsuite-1.1.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-oauth) = 1.1.0, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install spice-up-1.6.0-1.1.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by spice-up-1.6.0-1.1.x86_64
 can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
@@ -287,6 +346,11 @@ can't install carla-vst-1.9.7+git20171111.5b97ec1e-3.2.x86_64:
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install ruby2.5-rubygem-omniauth-github-testsuite-1.3.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-github-testsuite-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-github) = 1.3.0, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install libnoise-core0-0.4.2-2.2.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by libnoise-core0-0.4.2-2.2.x86_64
 can't install gtk3-metatheme-bluebird-1.2-1.2.noarch:
@@ -307,11 +371,14 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-1.4.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install gnucash-3.2-1.4.x86_64:
-  nothing provides libicuuc.so.suse62.1()(64bit) needed by gnucash-3.2-1.4.x86_64
+can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-github) = 1.3.0, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install python2-PyICU-2.0.2-1.6.x86_64:
-  nothing provides libicuuc.so.suse62.1()(64bit) needed by python2-PyICU-2.0.2-1.6.x86_64
   nothing provides libicui18n.so.suse62.1()(64bit) needed by python2-PyICU-2.0.2-1.6.x86_64
+  nothing provides libicuuc.so.suse62.1()(64bit) needed by python2-PyICU-2.0.2-1.6.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
@@ -320,15 +387,23 @@ can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
 can't install switchboard-plug-networking-0.1.1-1.2.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
   nothing provides libnm-gtk.so.0()(64bit) needed by switchboard-plug-networking-0.1.1-1.2.x86_64
+can't install python2-pysnmp-4.4.5-1.1.noarch:
+  nothing provides python2-pycryptodomex needed by python2-pysnmp-4.4.5-1.1.noarch
 can't install csound-devel-5.18.02-11.2.x86_64:
   package csound-devel-5.18.02-11.2.x86_64 requires csound = 5.18.02, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
+can't install ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth) >= 1.1.1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
+can't install ruby2.5-rubygem-omniauth-gitlab-doc-2.0.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-gitlab-doc-2.0.0-1.1.x86_64 requires ruby2.5-rubygem-omniauth-gitlab = 2.0.0, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install hgview-qt4-1.8.2-3.13.noarch:
   package hgview-qt4-1.8.2-3.13.noarch requires hgview = 1.8.2, but none of the providers can be installed
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
-can't install gnucash-lang-3.2-1.4.noarch:
-  package gnucash-lang-3.2-1.4.noarch requires gnucash = 3.2, but none of the providers can be installed
-  nothing provides libicuuc.so.suse62.1()(64bit) needed by gnucash-3.2-1.4.x86_64
 can't install gns3-server-2.0.3-1.4.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
@@ -371,12 +446,17 @@ can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
+can't install ruby2.5-rubygem-omniauth-oauth-doc-1.1.0-1.1.x86_64:
+  package ruby2.5-rubygem-omniauth-oauth-doc-1.1.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-oauth) = 1.1.0, but none of the providers can be installed
+  package ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
+  nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
+    (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64:
   package libtomahawk-widgets0_8_99-0.8.99~git20180422T140543-1.1.x86_64 requires libtomahawk.so.0.8.99()(64bit), but none of the providers can be installed
   nothing provides libboost_system.so.1.67.0()(64bit) needed by libtomahawk0_8_99-0.8.99~git20180422T140543-1.1.x86_64
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
-    (we have ruby2.5-rubygem-commander-4.4.5-1.1.x86_64)
+    (we have ruby2.5-rubygem-commander-4.4.6-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
 can't install cecilia-2.0.5-282.6.noarch:
