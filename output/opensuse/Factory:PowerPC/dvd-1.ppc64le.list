@@ -10,6 +10,7 @@ Mesa
 Mesa-demo-x
 Mesa-dri
 Mesa-dri-devel
+Mesa-dri-nouveau
 Mesa-gallium
 Mesa-libEGL1
 Mesa-libGL1
@@ -2702,6 +2703,7 @@ libvala-0_42-0
 libvamp-hostsdk3
 libvdeplug3
 libvdpau1
+libvdpau_nouveau
 libvdpau_r300
 libvdpau_r600
 libverto1
@@ -4018,10 +4020,12 @@ ruby2.5-rubygem-coffee-rails
 ruby2.5-rubygem-coffee-script
 ruby2.5-rubygem-coffee-script-source
 ruby2.5-rubygem-colorator
+ruby2.5-rubygem-colored
 ruby2.5-rubygem-commander
 ruby2.5-rubygem-concurrent-ruby
 ruby2.5-rubygem-cool.io
 ruby2.5-rubygem-crass
+ruby2.5-rubygem-cri
 ruby2.5-rubygem-delayed_job
 ruby2.5-rubygem-descendants_tracker
 ruby2.5-rubygem-devise
@@ -4039,7 +4043,6 @@ ruby2.5-rubygem-eventmachine
 ruby2.5-rubygem-excon
 ruby2.5-rubygem-execjs
 ruby2.5-rubygem-faraday
-ruby2.5-rubygem-faraday-0_12
 ruby2.5-rubygem-fast_gettext
 ruby2.5-rubygem-ffi
 ruby2.5-rubygem-fluentd
@@ -4067,7 +4070,6 @@ ruby2.5-rubygem-jmespath
 ruby2.5-rubygem-jquery-rails
 ruby2.5-rubygem-js-routes
 ruby2.5-rubygem-json-jwt
-ruby2.5-rubygem-jwt-1_5
 ruby2.5-rubygem-kgio
 ruby2.5-rubygem-kramdown
 ruby2.5-rubygem-libyui-rake
@@ -4092,7 +4094,6 @@ ruby2.5-rubygem-mixlib-shellout
 ruby2.5-rubygem-mocha
 ruby2.5-rubygem-msgpack
 ruby2.5-rubygem-multi_json
-ruby2.5-rubygem-multi_xml
 ruby2.5-rubygem-multipart-post
 ruby2.5-rubygem-mustermann
 ruby2.5-rubygem-mustermann-grape
@@ -4103,10 +4104,6 @@ ruby2.5-rubygem-net-ssh
 ruby2.5-rubygem-nio4r
 ruby2.5-rubygem-nokogiri
 ruby2.5-rubygem-nori
-ruby2.5-rubygem-oauth2
-ruby2.5-rubygem-omniauth
-ruby2.5-rubygem-omniauth-gitlab
-ruby2.5-rubygem-omniauth-oauth2
 ruby2.5-rubygem-openid_connect
 ruby2.5-rubygem-orm_adapter
 ruby2.5-rubygem-packaging_rake_tasks
@@ -4692,6 +4689,7 @@ xf86-video-i128
 xf86-video-mach64
 xf86-video-mga
 xf86-video-neomagic
+xf86-video-nouveau
 xf86-video-nv
 xf86-video-qxl
 xf86-video-r128

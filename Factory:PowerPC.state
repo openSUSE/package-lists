@@ -1,14 +1,21 @@
-<resultlist state="74177cbf5cf108f6430d03ef98b05998">
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc" code="building" state="building">
-    <status package="bash" code="succeeded" />
-  </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64" code="unpublished" state="unpublished">
-    <status package="bash" code="succeeded" />
-  </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64le" code="unpublished" state="unpublished">
-    <status package="bash" code="succeeded" />
-  </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished">
-    <status package="bash" code="disabled" />
-  </result>
-</resultlist>
+
+Request: https://api.opensuse.org/build/openSUSE:Factory:PowerPC/_result?package=bash&repository=standard
+Headers:
+x-opensuse-runtimes: {"view":null,"db":10.693742,"backend":0}
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-powered-by: Phusion Passenger 5.3.5
+connection: close
+strict-transport-security: max-age=31536000
+x-request-id: 7f04f300-9076-4e84-b23f-0d21833ff81d
+content-length: 518
+server: Apache/2.4.23 (Linux/SUSE)
+x-runtime: 0.030779
+x-opensuse-apiversion: 2.10~alpha.20181017T222735.5acd6b9c9
+x-permitted-cross-domain-policies: none
+cache-control: private, no-transform
+date: Thu, 25 Oct 2018 06:30:51 GMT
+x-frame-options: SAMEORIGIN
+referrer-policy: strict-origin-when-cross-origin
+content-type: text/html; charset=iso-8859-1
