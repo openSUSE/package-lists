@@ -240,6 +240,7 @@ job lock name gconf2-branding-SLED
 job lock name gconf2-branding-SLES
 job lock name gfxboot-branding-SLED
 job lock name gfxboot-branding-SLES
+job lock name ghc-bootstrap
 job lock name gimp-branding-SLED
 job lock name glib2-branding-SLED
 job lock name glib2-branding-SLES
@@ -628,6 +629,9 @@ job lock name yast2-registration
 
 # I don't know where bs_mirrorfull still finds a s2tc-32bit.. it's nonsense, so let's block it out
 job lock name s2tc-32bit
+
+# We ghc-boostrap is only OBS internal of use - never in the product
+job lock name ghc-bootstrap
 # end non_ftp_packages
 
 
