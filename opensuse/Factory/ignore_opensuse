@@ -241,3 +241,6 @@ job lock name yast2-registration
 
 # I don't know where bs_mirrorfull still finds a s2tc-32bit.. it's nonsense, so let's block it out
 job lock name s2tc-32bit
+
+# We ghc-boostrap is only OBS internal of use - never in the product
+job lock name ghc-bootstrap
