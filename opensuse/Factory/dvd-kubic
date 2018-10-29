@@ -1,4 +1,3 @@
-
 # The Kubic DVD is supposed to be small, build without recommended packages
 solverflags ignorerecommended
 
@@ -11,4 +10,6 @@ job install name kernel-default
 
 #job lock name Mesa
 #job lock name libgtk-3-0
+
+job lock name ghc-bootstrap
 

@@ -1,3 +1,4 @@
+GeoIP-data
 aaa_base
 attr
 audit
@@ -5,6 +6,7 @@ autofs
 babeltrace
 bash
 bash-completion
+bind-utils
 biosdevname
 blog
 boost-license1_68_0
@@ -31,6 +33,8 @@ curl
 dbus-1
 dbus-1-glib
 device-mapper
+dhcp
+dhcp-client
 diffutils
 dmidecode
 dosfstools
@@ -49,12 +53,10 @@ findutils
 fipscheck
 gawk
 gettext-runtime
-ghc-bootstrap
 gio-branding-openSUSE
 glib-networking
 glib2-tools
 glibc
-gmp-devel
 gpg2
 gptfdisk
 grep
@@ -94,6 +96,7 @@ kubernetes-kubeadm
 kubernetes-kubelet
 kubic-locale-archive
 less
+libGeoIP1
 libacl1
 libaio1
 libapparmor1
@@ -105,6 +108,7 @@ libattr1
 libaudit1
 libaugeas0
 libauparse0
+libbind9-160
 libblkid1
 libboost_system1_68_0
 libboost_thread1_68_0
@@ -125,6 +129,7 @@ libdb-4_8
 libdbus-1-3
 libdevmapper-event1_03
 libdevmapper1_03
+libdns169
 libdw1
 libebl-plugins
 libedit0
@@ -137,6 +142,7 @@ libexpat1
 libext2fs2
 libfastjson4
 libfdisk1
+libffi7
 libfipscheck1
 libfreebl3
 libfreetype6
@@ -149,7 +155,6 @@ libgio-2_0-0
 libglib-2_0-0
 libgmodule-2_0-0
 libgmp10
-libgmpxx4
 libgnutls30
 libgobject-2_0-0
 libgpg-error0
@@ -160,6 +165,10 @@ libibverbs
 libibverbs1
 libidn2-0
 libiptc0
+libirs160
+libisc166
+libisccc160
+libisccfg160
 libjansson4
 libjson-c4
 libkeyutils1
@@ -173,6 +182,7 @@ liblttng-ust0
 liblua5_3-5
 liblvm2app2_2
 liblvm2cmd2_02
+liblwres160
 liblz4-1
 liblzma5
 liblzo2-2
@@ -183,7 +193,6 @@ libmlx5-1
 libmnl0
 libmodman1
 libmount1
-libncurses5
 libncurses6
 libnetfilter_conntrack3
 libnettle6
@@ -316,6 +325,7 @@ python3-PyYAML
 python3-appdirs
 python3-asn1crypto
 python3-base
+python3-bind
 python3-blinker
 python3-cephfs
 python3-certifi
@@ -330,6 +340,7 @@ python3-jsonpointer
 python3-jsonschema
 python3-oauthlib
 python3-packaging
+python3-ply
 python3-py
 python3-pyasn1
 python3-pycparser

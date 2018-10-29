@@ -10,4 +10,5 @@ job install name openSUSE-Tumbleweed-Kubic-release
 job install name systemd-presets-branding-CAASP
 job lock name systemd-presets-branding-openSUSE
 
+job lock name ghc-bootstrap
 

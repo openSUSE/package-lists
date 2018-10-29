@@ -9,5 +9,6 @@ job lock name libudev-mini1
 
 job install provides pattern() = SUSE%2dCaaSP%2dalt%2donlyDVD
 
+job lock name ghc-bootstrap
 
 result transaction,problems <inline>
