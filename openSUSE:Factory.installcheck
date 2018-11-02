@@ -85,9 +85,6 @@ can't install python3-pysnmp-4.4.5-1.1.noarch:
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
-can't install python3-PyICU-2.0.2-1.6.x86_64:
-  nothing provides libicui18n.so.suse62.1()(64bit) needed by python3-PyICU-2.0.2-1.6.x86_64
-  nothing provides libicuuc.so.suse62.1()(64bit) needed by python3-PyICU-2.0.2-1.6.x86_64
 can't install noise-0.4.2-2.2.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by noise-0.4.2-2.2.x86_64
 can't install nut-drivers-net-2.7.4-10.1.x86_64:
@@ -372,9 +369,6 @@ can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install python2-PyICU-2.0.2-1.6.x86_64:
-  nothing provides libicui18n.so.suse62.1()(64bit) needed by python2-PyICU-2.0.2-1.6.x86_64
-  nothing provides libicuuc.so.suse62.1()(64bit) needed by python2-PyICU-2.0.2-1.6.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
