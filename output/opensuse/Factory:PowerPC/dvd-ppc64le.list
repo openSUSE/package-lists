@@ -535,7 +535,6 @@ fillup
 findutils
 findutils-lang
 fipscheck
-firewall-macros
 firewalld
 firewalld-lang
 flac
@@ -1065,6 +1064,7 @@ iw
 jakarta-taglibs-standard
 java-11-openjdk
 java-11-openjdk-headless
+javapackages-filesystem
 javapackages-tools
 jfsutils
 jhbuild
@@ -1551,6 +1551,7 @@ libQt5Help5
 libQt5Location5
 libQt5Multimedia5
 libQt5Network5
+libQt5NetworkAuth5
 libQt5Nfc5
 libQt5Nfc5-imports
 libQt5OpenGL5
@@ -1808,6 +1809,7 @@ libcreaterepo_c0
 libcroco-0_6-3
 libcryptmount0
 libcryptsetup12
+libcryptsetup12-hmac
 libcryptui-data
 libcryptui-lang
 libcryptui0
@@ -2149,7 +2151,7 @@ libindicator3-7
 libini_config5
 libinput-udev
 libinput10
-libipset11
+libipset13
 libiptc0
 libiptcdata
 libiptcdata-lang
@@ -2492,7 +2494,7 @@ libpwquality1
 libpython2_7-1_0
 libpython3_6m1_0
 libpyzy-1_0-0
-libqalculate19
+libqalculate20
 libqb0
 libqca-qt5
 libqca-qt5-plugins
@@ -2630,7 +2632,6 @@ libsvn_auth_kwallet-1-0
 libsvrcore0
 libswresample2
 libswresample3
-libswscale4
 libswscale5
 libsynctex2
 libsystemd0
