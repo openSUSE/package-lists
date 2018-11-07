@@ -110,7 +110,6 @@ alsa-plugins
 alsa-plugins-pulse
 alsa-plugins-pulse-32bit
 alsa-utils
-amanda
 amarok
 amavisd-new
 amavisd-new-docs
@@ -453,8 +452,6 @@ drbd-kmp-default
 drbd-utils
 drkonqi5
 drkonqi5-lang
-dump
-dump-rmt
 duplicity
 duplicity-lang
 dwz
@@ -574,7 +571,6 @@ fillup
 findutils
 findutils-lang
 fipscheck
-firewall-macros
 firewalld
 firewalld-lang
 flac
@@ -1127,6 +1123,7 @@ iw
 jakarta-taglibs-standard
 java-11-openjdk
 java-11-openjdk-headless
+javapackages-filesystem
 javapackages-tools
 jfsutils
 jhbuild
@@ -1701,6 +1698,7 @@ libQt5Help5
 libQt5Location5
 libQt5Multimedia5
 libQt5Network5
+libQt5NetworkAuth5
 libQt5Nfc5
 libQt5Nfc5-imports
 libQt5OpenGL5
@@ -1999,6 +1997,7 @@ libcryptmount0
 libcryptmount0-32bit
 libcryptsetup12
 libcryptsetup12-32bit
+libcryptsetup12-hmac
 libcryptui-data
 libcryptui-lang
 libcryptui0
@@ -2386,7 +2385,7 @@ libinput10
 libipmiconsole2
 libipmidetect0
 libipmimonitoring6
-libipset11
+libipset13
 libiptc0
 libiptcdata
 libiptcdata-lang
@@ -2783,7 +2782,7 @@ libpython2_7-1_0-32bit
 libpython3_6m1_0
 libpython3_6m1_0-32bit
 libpyzy-1_0-0
-libqalculate19
+libqalculate20
 libqb0
 libqca-qt5
 libqca-qt5-plugins
@@ -3873,6 +3872,8 @@ perl-Mail-SPF
 perl-Mail-SpamAssassin
 perl-MailTools
 perl-Math-Base-Convert
+perl-Math-BigInt
+perl-Math-BigInt-GMP
 perl-Module-Build
 perl-Module-Implementation
 perl-Module-Info
