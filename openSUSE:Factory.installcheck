@@ -6,8 +6,10 @@ can't install obexd-client-0.48-5.15.x86_64:
   package is obsoleted by bluez-5.50-1.2.x86_64
 can't install kdebase4-workspace-devel-4.11.22-15.4.x86_64:
   package is obsoleted by patterns-kde-kde_plasma-20180709-5.1.noarch
+can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
+  package is obsoleted by kdesdk-scripts-kf5-porting-18.08.3-1.1.x86_64
 can't install kdesdk4-scripts-17.08.3-1.3.x86_64:
-  package is obsoleted by kdesdk-scripts-18.08.2-1.1.x86_64
+  package is obsoleted by kdesdk-scripts-18.08.3-1.1.x86_64
 can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
 can't install libevtlog-devel-0.2.13-2.7.x86_64:
@@ -30,8 +32,6 @@ can't install ghostscript-mini-9.25-1.1.x86_64:
   package is obsoleted by ghostscript-9.25-1.1.x86_64
 can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
-can't install kdesdk4-scripts-kf5-porting-17.08.3-1.3.x86_64:
-  package is obsoleted by kdesdk-scripts-kf5-porting-18.08.2-1.1.x86_64
 can't install suse-build-key-12.0-7.1.noarch:
   package is obsoleted by patterns-caasp-MicroOS-4.0-9.2.x86_64
 can't install akonadi-runtime-1.13.0-11.6.x86_64:
@@ -163,10 +163,10 @@ can't install pagure-theme-chameleon-5.1.3-1.1.noarch:
   nothing provides python3-Markdown < 3 needed by pagure-5.1.3-1.1.noarch
     (we have python3-Markdown-3.0-1.1.noarch)
 can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
-  package ruby2.5-2.5.1-1.1.x86_64 requires ruby2.5-stdlib = 2.5.1, but none of the providers can be installed
+  package ruby2.5-2.5.3-1.1.x86_64 requires ruby2.5-stdlib = 2.5.3, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
-  package ruby2.5-stdlib-2.5.1-1.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.10.x86_64
+  package ruby2.5-stdlib-2.5.3-1.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.10.x86_64
 can't install freeorion-data-0.4.7.1-2.3.noarch:
   package freeorion-data-0.4.7.1-2.3.noarch requires freeorion = 0.4.7.1, but none of the providers can be installed
   nothing provides libboost_date_time.so.1.67.0()(64bit) needed by freeorion-0.4.7.1-2.3.x86_64
@@ -182,11 +182,6 @@ can't install freeorion-data-0.4.7.1-2.3.noarch:
 can't install paperwork-0.3.2-1.8.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.8.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
-can't install budgie-desktop-devel-10.4-5.2.x86_64:
-  package budgie-desktop-devel-10.4-5.2.x86_64 requires budgie-desktop = 10.4-5.2, but none of the providers can be installed
-  nothing provides libmutter-2.so.0()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
-  nothing provides libmutter-clutter-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
-  nothing provides libmutter-cogl-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
 can't install hdf5-gnu-openmpi3-hpc-devel-1.10.3-2.35.noarch:
   package hdf5-gnu-openmpi3-hpc-devel-1.10.3-2.35.noarch requires hdf5_1_10_3-gnu-openmpi3-hpc-devel = 1.10.3, but none of the providers can be installed
   package hdf5_1_10_3-gnu-openmpi3-hpc-devel-1.10.3-2.35.x86_64 requires hdf5_1_10_3-gnu-openmpi3-hpc = 1.10.3, but none of the providers can be installed
@@ -473,11 +468,6 @@ can't install ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64:
 can't install noise-lang-0.4.2-2.2.noarch:
   package noise-lang-0.4.2-2.2.noarch requires noise = 0.4.2, but none of the providers can be installed
   nothing provides libgranite.so.4()(64bit) needed by noise-0.4.2-2.2.x86_64
-can't install typelib_1_0-Budgie-0_1-10.4-5.2.x86_64:
-  package typelib_1_0-Budgie-0_1-10.4-5.2.x86_64 requires budgie-desktop = 10.4-5.2, but none of the providers can be installed
-  nothing provides libmutter-2.so.0()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
-  nothing provides libmutter-clutter-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
-  nothing provides libmutter-cogl-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
 can't install ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
@@ -528,10 +518,6 @@ can't install pagure-theme-pagureio-5.1.3-1.1.noarch:
   package pagure-theme-pagureio-5.1.3-1.1.noarch requires pagure = 5.1.3-1.1, but none of the providers can be installed
   nothing provides python3-Markdown < 3 needed by pagure-5.1.3-1.1.noarch
     (we have python3-Markdown-3.0-1.1.noarch)
-can't install budgie-desktop-10.4-5.2.x86_64:
-  nothing provides libmutter-2.so.0()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
-  nothing provides libmutter-clutter-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
-  nothing provides libmutter-cogl-2.so()(64bit) needed by budgie-desktop-10.4-5.2.x86_64
 can't install netcdf-fortran_4_4_4-gnu-openmpi3-hpc-devel-4.4.4-7.3.x86_64:
   package netcdf_4_6_1-gnu-openmpi3-hpc-devel-4.6.1-1.3.x86_64 requires hdf5-gnu-openmpi3-hpc-devel >= 1.8.8, but none of the providers can be installed
   package netcdf-gnu-openmpi3-hpc-devel-4.6.1-1.3.noarch requires netcdf_4_6_1-gnu-openmpi3-hpc-devel = 4.6.1, but none of the providers can be installed
@@ -826,6 +812,8 @@ can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
+can't install rust-src-1.30.0-1.2.noarch:
+  nothing provides /usr/bin/bash needed by rust-src-1.30.0-1.2.noarch
 can't install hdf5-gnu-openmpi2-hpc-1.10.3-2.35.noarch:
   package hdf5-gnu-openmpi2-hpc-1.10.3-2.35.noarch requires hdf5_1_10_3-gnu-openmpi2-hpc = 1.10.3, but none of the providers can be installed
   nothing provides libhdf5_cpp_1_10_3-gnu-openmpi2-hpc needed by hdf5_1_10_3-gnu-openmpi2-hpc-1.10.3-2.35.x86_64
