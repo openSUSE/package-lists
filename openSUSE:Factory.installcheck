@@ -26,6 +26,8 @@ can't install openssl-1_0_0-1.0.2o-1.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-4.2.x86_64
 can't install gtk3-schema-3.24.1-1.1.noarch:
   package is obsoleted by gtk4-schema-3.94.0-1.1.noarch
+can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
+  package is obsoleted by python3-ec2imgutils-7.0.2-1.1.noarch
 can't install mate-calc-1.20.2-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
 can't install ghostscript-mini-9.25-1.1.x86_64:
@@ -78,6 +80,9 @@ can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.6-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
+can't install python2-jupyter_cms-0.7.0-2.1.noarch:
+  package python2-jupyter_cms-0.7.0-2.1.noarch requires python3-jupyter_cms = 0.7.0, but none of the providers can be installed
+  nothing provides python3-scandir needed by python3-jupyter_cms-0.7.0-2.1.noarch
 can't install hgview-1.8.2-3.13.noarch:
   nothing provides python-pygments needed by hgview-1.8.2-3.13.noarch
 can't install gtg-lang-0.3.1-6.1.noarch:
@@ -488,6 +493,8 @@ can't install petsc-gnu-openmpi3-hpc-devel-3.8.3-6.3.x86_64:
   package hdf5_1_10_3-gnu-openmpi3-hpc-devel-1.10.3-2.35.x86_64 requires hdf5_1_10_3-gnu-openmpi3-hpc = 1.10.3, but none of the providers can be installed
   nothing provides libhdf5_cpp_1_10_3-gnu-openmpi3-hpc needed by hdf5_1_10_3-gnu-openmpi3-hpc-1.10.3-2.35.x86_64
   nothing provides libhdf5_hl_cpp_1_10_3-gnu-openmpi3-hpc needed by hdf5_1_10_3-gnu-openmpi3-hpc-1.10.3-2.35.x86_64
+can't install python3-jupyter_cms-0.7.0-2.1.noarch:
+  nothing provides python3-scandir needed by python3-jupyter_cms-0.7.0-2.1.noarch
 can't install yishu-lang-1.0.9-1.1.noarch:
   package yishu-lang-1.0.9-1.1.noarch requires yishu = 1.0.9, but none of the providers can be installed
   nothing provides libgranite.so.4()(64bit) needed by yishu-1.0.9-1.1.x86_64
