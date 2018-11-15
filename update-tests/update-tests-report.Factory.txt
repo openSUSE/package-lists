@@ -1,4 +1,13 @@
-At revision 672.
+Server returned an error: HTTP Error 500: Internal Server Error
+
+Request: https://api.opensuse.org/source/openSUSE:Factory/000product?rev=latest
+Headers:
+content-length: 26
+strict-transport-security: max-age=31536000
+server: Apache/2.4.23 (Linux/SUSE)
+connection: close
+date: Thu, 15 Nov 2018 19:39:35 GMT
+content-type: text/html; charset=iso-8859-1
 testing 13.1-x86_64-update.t
 Found 2 problems:
 Problem 1:
