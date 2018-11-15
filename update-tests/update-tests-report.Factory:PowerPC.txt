@@ -1,4 +1,13 @@
-At revision 7e745251642bc5635e4671d892e32c7b.
+Server returned an error: HTTP Error 500: Internal Server Error
+
+Request: https://api.opensuse.org/source/openSUSE:Factory:PowerPC/000product?linkrev=base&rev=latest
+Headers:
+content-length: 26
+strict-transport-security: max-age=31536000
+server: Apache/2.4.23 (Linux/SUSE)
+connection: close
+date: Thu, 15 Nov 2018 19:44:33 GMT
+content-type: text/html; charset=iso-8859-1
 testing 13.1-x86_64-update.t
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC-standard-x86_64.solv'
 testcase_read: could not open '../trees/openSUSE:Factory:PowerPC:NonFree-standard-x86_64.solv'
