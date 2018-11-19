@@ -1594,7 +1594,6 @@ namespace namespace:modalias(x86cpu:vendor%3A0002%3Afamily%3A*%3Amodel%3A*%3Afea
 
 # from dvd-1.i586.suggests
 
-job install name 389-ds [weak]
 job install name AppStream-lang [weak]
 job install name GeoIP [weak]
 job install name ImageMagick [weak]
