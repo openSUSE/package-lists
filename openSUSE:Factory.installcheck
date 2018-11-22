@@ -240,10 +240,6 @@ can't install ruby2.5-rubygem-omniauth-doc-1.8.1-1.2.x86_64:
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install pantheon-terminal-0.4.3-2.2.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by pantheon-terminal-0.4.3-2.2.x86_64
-can't install ptpd-2.3.1-5.2.x86_64:
-  nothing provides libnetsnmp.so.30()(64bit) needed by ptpd-2.3.1-5.2.x86_64
-  nothing provides libnetsnmpagent.so.30()(64bit) needed by ptpd-2.3.1-5.2.x86_64
-  nothing provides libnetsnmpmibs.so.30()(64bit) needed by ptpd-2.3.1-5.2.x86_64
 can't install ruby2.5-rubygem-omniauth-google-oauth2-doc-0.5.3-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-google-oauth2-doc-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-google-oauth2) = 0.5.3, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth) >= 1.1.1, but none of the providers can be installed
