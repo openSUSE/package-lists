@@ -1,14 +1,9 @@
-<resultlist state="273a72bb7f05861b21afa10ca9ac40e5">
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc" code="unpublished" state="unpublished">
-    <status package="bash" code="succeeded" />
-  </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64" code="unpublished" state="unpublished">
-    <status package="bash" code="succeeded" />
-  </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64le" code="unpublished" state="unpublished">
-    <status package="bash" code="succeeded" />
-  </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished">
-    <status package="bash" code="disabled" />
-  </result>
-</resultlist>
+
+Request: https://api.opensuse.org/build/openSUSE:Factory:PowerPC/_result?package=bash&repository=standard
+Headers:
+content-length: 53
+strict-transport-security: max-age=31536000
+server: Apache/2.4.23 (Linux/SUSE)
+connection: close
+date: Thu, 22 Nov 2018 08:17:35 GMT
+content-type: text/html; charset=iso-8859-1
