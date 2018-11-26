@@ -288,6 +288,7 @@ clamav
 clamz
 claws-mail
 claws-mail-lang
+clazy
 clicfs
 clutter-gtk-lang
 clutter-lang
@@ -2192,7 +2193,7 @@ libkdecore4
 libkdegames
 libkdegames-lang
 libkdepimlibs4
-libkdevplatform52
+libkdevplatform53
 libkeduvocdocument-lang
 libkerfuffle18
 libkeybinder-3_0-0
@@ -2328,7 +2329,7 @@ libnetpbm11
 libnettle6
 libnewt0_52
 libnfnetlink0
-libnfs11
+libnfs12
 libnfsidmap-sss
 libnftables0
 libnftnl11
@@ -2692,7 +2693,6 @@ libusb-1_0-0
 libusbmuxd4
 libusbredirhost1
 libusbredirparser1
-libustr-1_0-1
 libutempter0
 libutf8proc2
 libuuid-devel
@@ -4016,6 +4016,7 @@ ruby2.5-rubygem-activesupport-5_0
 ruby2.5-rubygem-activesupport-5_1
 ruby2.5-rubygem-addressable
 ruby2.5-rubygem-aes_key_wrap
+ruby2.5-rubygem-airbrussh
 ruby2.5-rubygem-arel
 ruby2.5-rubygem-arel-7
 ruby2.5-rubygem-arel-8
@@ -4078,6 +4079,7 @@ ruby2.5-rubygem-hashie
 ruby2.5-rubygem-highline-1_7
 ruby2.5-rubygem-hitimes
 ruby2.5-rubygem-hoe
+ruby2.5-rubygem-http-cookie
 ruby2.5-rubygem-http_parser.rb
 ruby2.5-rubygem-httpclient
 ruby2.5-rubygem-i18n
@@ -4091,6 +4093,8 @@ ruby2.5-rubygem-jmespath
 ruby2.5-rubygem-jquery-rails
 ruby2.5-rubygem-js-routes
 ruby2.5-rubygem-json-jwt
+ruby2.5-rubygem-json-schema
+ruby2.5-rubygem-jwt
 ruby2.5-rubygem-kgio
 ruby2.5-rubygem-kramdown
 ruby2.5-rubygem-libyui-rake
@@ -4104,6 +4108,7 @@ ruby2.5-rubygem-marcel
 ruby2.5-rubygem-mercenary
 ruby2.5-rubygem-metaclass
 ruby2.5-rubygem-method_source
+ruby2.5-rubygem-mime-types
 ruby2.5-rubygem-mime-types-data
 ruby2.5-rubygem-mimemagic
 ruby2.5-rubygem-mini_mime
@@ -4115,6 +4120,7 @@ ruby2.5-rubygem-mixlib-shellout
 ruby2.5-rubygem-mocha
 ruby2.5-rubygem-msgpack
 ruby2.5-rubygem-multi_json
+ruby2.5-rubygem-multi_xml
 ruby2.5-rubygem-multipart-post
 ruby2.5-rubygem-mustermann
 ruby2.5-rubygem-mustermann-grape
@@ -4122,9 +4128,11 @@ ruby2.5-rubygem-mysql2
 ruby2.5-rubygem-mysql2-0.4
 ruby2.5-rubygem-net-scp
 ruby2.5-rubygem-net-ssh
+ruby2.5-rubygem-netrc
 ruby2.5-rubygem-nio4r
 ruby2.5-rubygem-nokogiri
 ruby2.5-rubygem-nori
+ruby2.5-rubygem-oauth2
 ruby2.5-rubygem-openid_connect
 ruby2.5-rubygem-orm_adapter
 ruby2.5-rubygem-packaging_rake_tasks
@@ -4161,6 +4169,7 @@ ruby2.5-rubygem-rake-compiler
 ruby2.5-rubygem-rb-fsevent
 ruby2.5-rubygem-rb-inotify
 ruby2.5-rubygem-responders
+ruby2.5-rubygem-rest-client
 ruby2.5-rubygem-rouge
 ruby2.5-rubygem-rspec
 ruby2.5-rubygem-rspec-core
@@ -4190,12 +4199,16 @@ ruby2.5-rubygem-sprockets
 ruby2.5-rubygem-sprockets-rails
 ruby2.5-rubygem-sqlite3
 ruby2.5-rubygem-sshkit
+ruby2.5-rubygem-stomp
 ruby2.5-rubygem-strptime
 ruby2.5-rubygem-swd
 ruby2.5-rubygem-temple
+ruby2.5-rubygem-term-ansicolor
 ruby2.5-rubygem-thor
 ruby2.5-rubygem-thread_safe
 ruby2.5-rubygem-tilt
+ruby2.5-rubygem-timers
+ruby2.5-rubygem-tins
 ruby2.5-rubygem-tomlrb
 ruby2.5-rubygem-treetop
 ruby2.5-rubygem-trollop
@@ -4208,12 +4221,14 @@ ruby2.5-rubygem-uglifier
 ruby2.5-rubygem-unf
 ruby2.5-rubygem-unf_ext
 ruby2.5-rubygem-unicorn
+ruby2.5-rubygem-vagrant_cloud
 ruby2.5-rubygem-validate_email
 ruby2.5-rubygem-validate_url
 ruby2.5-rubygem-virtus
 ruby2.5-rubygem-warden
 ruby2.5-rubygem-web-console
 ruby2.5-rubygem-webfinger
+ruby2.5-rubygem-websocket
 ruby2.5-rubygem-websocket-driver-0_6
 ruby2.5-rubygem-websocket-extensions
 ruby2.5-rubygem-winrm-2_1
