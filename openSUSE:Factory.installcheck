@@ -16,14 +16,10 @@ can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.09.10-1.1.noarch
 can't install kdebase4-workspace-4.11.22-15.4.x86_64:
   package is obsoleted by plasma5-desktop-5.14.3-1.1.x86_64
-can't install gettext-its-gtk3-3.24.1-2.1.x86_64:
-  package is obsoleted by gettext-its-gtk4-3.94.0-1.1.x86_64
 can't install bpython-0.15-1.6.noarch:
   package is obsoleted by python2-bpython-0.17.1-1.2.noarch
 can't install openssl-1_0_0-1.0.2o-1.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-4.2.x86_64
-can't install gtk3-schema-3.24.1-2.1.noarch:
-  package is obsoleted by gtk4-schema-3.94.0-1.1.noarch
 can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
   package is obsoleted by python3-ec2imgutils-7.0.2-1.1.noarch
 can't install mate-calc-1.20.2-1.1.x86_64:
@@ -32,10 +28,16 @@ can't install ghostscript-mini-9.25-1.1.x86_64:
   package is obsoleted by ghostscript-9.25-1.1.x86_64
 can't install jaxen-bootstrap-1.1-25.2.noarch:
   package is obsoleted by jaxen-1.1.1-30.2.noarch
+can't install gtk3-schema-3.24.1-2.1.noarch:
+  package is obsoleted by gtk4-schema-3.94.0-1.2.noarch
 can't install suse-build-key-12.0-7.1.noarch:
   package is obsoleted by patterns-caasp-MicroOS-4.0-9.2.x86_64
+can't install gettext-its-gtk3-3.24.1-2.1.x86_64:
+  package is obsoleted by gettext-its-gtk4-3.94.0-1.2.x86_64
 can't install akonadi-runtime-1.13.0-11.6.x86_64:
   package is obsoleted by akonadi-server-18.08.3-1.1.x86_64
+can't install caasp-dex-2.7.1-1.2.x86_64:
+  package is obsoleted by dex-oidc-2.13.0-1.1.x86_64
 can't install oxygen4-cursors-4.11.22-15.4.x86_64:
   package is obsoleted by oxygen5-cursors-5.14.3-1.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
@@ -131,6 +133,8 @@ can't install pagure-ev-5.1.3-1.1.noarch:
     (we have python3-Markdown-3.0-1.1.noarch)
 can't install gtg-0.3.1-6.1.noarch:
   nothing provides python-liblarch_gtk >= 2.1 needed by gtg-0.3.1-6.1.noarch
+can't install python2-vulkan-1.0.61-1.3.noarch:
+  nothing provides vulkan needed by python2-vulkan-1.0.61-1.3.noarch
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
@@ -487,6 +491,8 @@ can't install scilab-6.0.1-6.2.x86_64:
     (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
     (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
     (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
+can't install python3-vulkan-1.0.61-1.3.noarch:
+  nothing provides vulkan needed by python3-vulkan-1.0.61-1.3.noarch
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-commander-4.4.6-1.1.x86_64)
