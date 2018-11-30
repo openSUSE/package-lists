@@ -223,11 +223,6 @@ can't install ruby2.5-rubygem-lolcat-doc-99.9.19-1.1.x86_64:
     (we have ruby2.5-rubygem-trollop-2.9.9-1.1.x86_64)
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
-can't install monitoring-plugins-keepalived-0.1.5-1.1.noarch:
-  package monitoring-plugins-keepalived-0.1.5-1.1.noarch requires keepalived, but none of the providers can be installed
-  nothing provides libipset.so.11()(64bit) needed by keepalived-1.4.1-2.3.x86_64
-  nothing provides libipset.so.11(LIBIPSET_1.0)(64bit) needed by keepalived-1.4.1-2.3.x86_64
-  nothing provides libipset.so.11(LIBIPSET_2.0)(64bit) needed by keepalived-1.4.1-2.3.x86_64
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -294,10 +289,6 @@ can't install ruby2.5-rubygem-rhc-testsuite-1.38.7-1.12.x86_64:
     (we have ruby2.5-rubygem-commander-4.4.6-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
-can't install keepalived-1.4.1-2.3.x86_64:
-  nothing provides libipset.so.11()(64bit) needed by keepalived-1.4.1-2.3.x86_64
-  nothing provides libipset.so.11(LIBIPSET_1.0)(64bit) needed by keepalived-1.4.1-2.3.x86_64
-  nothing provides libipset.so.11(LIBIPSET_2.0)(64bit) needed by keepalived-1.4.1-2.3.x86_64
 can't install metis-gnu-hpc-devel-5.1.0-5.1.noarch:
   package metis-gnu-hpc-devel-5.1.0-5.1.noarch requires metis_5_1_0-gnu-hpc-devel = 5.1.0, but none of the providers can be installed
   package metis_5_1_0-gnu-hpc-devel-5.1.0-5.1.x86_64 requires libmetis_5_1_0-gnu-hpc = 5.1.0, but none of the providers can be installed
