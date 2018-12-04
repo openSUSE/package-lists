@@ -10,18 +10,16 @@ can't install kdesdk4-scripts-17.08.3-1.3.x86_64:
   package is obsoleted by kdesdk-scripts-18.08.3-1.1.x86_64
 can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
-can't install libevtlog-devel-0.2.13-2.7.x86_64:
-  package is obsoleted by syslog-ng-devel-3.14.1-2.2.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.09.10-1.1.noarch
 can't install kdebase4-workspace-4.11.22-15.4.x86_64:
   package is obsoleted by plasma5-desktop-5.14.3-1.1.x86_64
+can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
+  package is obsoleted by python3-ec2imgutils-7.0.3-1.1.noarch
 can't install bpython-0.15-1.6.noarch:
   package is obsoleted by python2-bpython-0.17.1-1.2.noarch
 can't install openssl-1_0_0-1.0.2o-1.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-4.2.x86_64
-can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
-  package is obsoleted by python3-ec2imgutils-7.0.2-1.1.noarch
 can't install mate-calc-1.20.2-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
 can't install ghostscript-mini-9.25-1.1.x86_64:
@@ -40,6 +38,8 @@ can't install caasp-dex-2.7.1-1.2.x86_64:
   package is obsoleted by dex-oidc-2.13.0-1.1.x86_64
 can't install oxygen4-cursors-4.11.22-15.4.x86_64:
   package is obsoleted by oxygen5-cursors-5.14.3-1.1.x86_64
+can't install libevtlog-devel-0.2.13-2.7.x86_64:
+  package is obsoleted by syslog-ng-devel-3.18.1-1.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python3-limnoria-2018.09.10-1.1.noarch
 can't install ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64:
@@ -69,7 +69,7 @@ can't install machinery-doc-1.23.1-1.6.x86_64:
   package machinery-doc-1.23.1-1.6.x86_64 requires machinery = 1.23.1, but none of the providers can be installed
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
-    (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
+    (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
 can't install ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64:
   package ruby2.5-rubygem-rhc-doc-1.38.7-1.12.x86_64 requires rubygem(ruby:2.5.0:rhc) = 1.38.7, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
@@ -157,13 +157,6 @@ can't install pantheon-photos-lang-0.2.4-1.6.noarch:
 can't install buzztrax-0.10.2-11.1.x86_64:
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install scilab-lang-6.0.1-6.2.noarch:
-  package scilab-lang-6.0.1-6.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
-  nothing provides java = 10 needed by scilab-6.0.1-6.2.x86_64
-    (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
-    (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
-    (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
-    (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
 can't install ruby2.5-rubygem-omniauth-oauth2-testsuite-1.5.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-oauth2-testsuite-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-oauth2) = 1.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
@@ -197,11 +190,19 @@ can't install wok-plugins-ginger-2.4.0-3.2.noarch:
   package wok-plugins-ginger-2.4.0-3.2.noarch requires wok-plugins-gingerbase >= 2.3.0, but none of the providers can be installed
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install python2-sunpy-0.8.4-1.3.x86_64:
+  package python2-sunpy-0.8.4-1.3.x86_64 requires python2-astropy >= 1.0.0, but none of the providers can be installed
+  nothing provides libwcs.so.5()(64bit) needed by python2-astropy-2.0.3-1.5.x86_64
+can't install python3-sunpy-0.8.4-1.3.x86_64:
+  package python3-sunpy-0.8.4-1.3.x86_64 requires python3-astropy >= 1.0.0, but none of the providers can be installed
+  nothing provides libwcs.so.5()(64bit) needed by python3-astropy-2.0.3-1.5.x86_64
 can't install qore-json-module-1.4-5.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-json-module-1.4-5.11.x86_64
 can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
   package wok-plugins-kimchi-2.5.0-2.2.noarch requires wok = 2.5.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install python3-astropy-2.0.3-1.5.x86_64:
+  nothing provides libwcs.so.5()(64bit) needed by python3-astropy-2.0.3-1.5.x86_64
 can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
   nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
@@ -211,8 +212,6 @@ can't install buzztrax-plugins-0.10.2-11.1.x86_64:
   package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install yishu-1.0.9-1.1.x86_64:
-  nothing provides libgranite.so.4()(64bit) needed by yishu-1.0.9-1.1.x86_64
 can't install ushare-1.1a-12.7.x86_64:
   nothing provides libixml.so.2()(64bit) needed by ushare-1.1a-12.7.x86_64
   nothing provides libupnp.so.6()(64bit) needed by ushare-1.1a-12.7.x86_64
@@ -223,6 +222,14 @@ can't install ruby2.5-rubygem-lolcat-doc-99.9.19-1.1.x86_64:
     (we have ruby2.5-rubygem-trollop-2.9.9-1.1.x86_64)
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
+can't install scilab-modules-doc-lang-6.0.1-7.2.noarch:
+  package scilab-modules-doc-lang-6.0.1-7.2.noarch requires scilab-modules-doc = 6.0.1, but none of the providers can be installed
+  package scilab-modules-doc-6.0.1-7.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides java = 10 needed by scilab-6.0.1-7.2.x86_64
+    (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
+    (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
+    (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
+    (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -258,9 +265,13 @@ can't install ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install yishu-lang-1.0.9-1.1.noarch:
-  package yishu-lang-1.0.9-1.1.noarch requires yishu = 1.0.9, but none of the providers can be installed
-  nothing provides libgranite.so.4()(64bit) needed by yishu-1.0.9-1.1.x86_64
+can't install scilab-tests-6.0.1-7.2.noarch:
+  package scilab-tests-6.0.1-7.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides java = 10 needed by scilab-6.0.1-7.2.x86_64
+    (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
+    (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
+    (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
+    (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
 can't install ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
@@ -303,36 +314,27 @@ can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
 can't install qore-mysql-module-2.0.2.1-1.1.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.2.1-1.1.x86_64
-can't install scilab-modules-doc-lang-6.0.1-6.2.noarch:
-  package scilab-modules-doc-lang-6.0.1-6.2.noarch requires scilab-modules-doc = 6.0.1, but none of the providers can be installed
-  package scilab-modules-doc-6.0.1-6.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
-  nothing provides java = 10 needed by scilab-6.0.1-6.2.x86_64
-    (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
-    (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
-    (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
-    (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
 can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
-    (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
+    (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
 can't install spice-up-lang-1.6.0-1.1.noarch:
   package spice-up-lang-1.6.0-1.1.noarch requires spice-up = 1.6.0, but none of the providers can be installed
   nothing provides libgranite.so.4()(64bit) needed by spice-up-1.6.0-1.1.x86_64
 can't install qore-xml-module-1.2-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.12.x86_64
-can't install scilab-modules-6.0.1-6.2.noarch:
-  package scilab-modules-6.0.1-6.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
-  nothing provides java = 10 needed by scilab-6.0.1-6.2.x86_64
+can't install clementine-1.3.1-8.1.x86_64:
+  nothing provides libcryptopp.so.5.6.5()(64bit) needed by clementine-1.3.1-8.1.x86_64
+can't install soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64:
+  nothing provides libSoapySDR.so.0.6()(64bit) needed by soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64
+  nothing provides libbladeRF.so.1()(64bit) needed by soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64
+can't install scilab-modules-6.0.1-7.2.noarch:
+  package scilab-modules-6.0.1-7.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides java = 10 needed by scilab-6.0.1-7.2.x86_64
     (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
     (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
     (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
     (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
-can't install soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64:
-  nothing provides libSoapySDR.so.0.6()(64bit) needed by soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64
-  nothing provides libbladeRF.so.1()(64bit) needed by soapysdr0.6-module-bladerf-0.3.3-1.2.x86_64
-can't install aws-cli-1.16.48-1.1.noarch:
-  nothing provides python3-colorama <= 0.3.9 needed by aws-cli-1.16.48-1.1.noarch
-    (we have python3-colorama-0.4.0-1.1.noarch)
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -351,6 +353,8 @@ can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
   package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install python2-astropy-2.0.3-1.5.x86_64:
+  nothing provides libwcs.so.5()(64bit) needed by python2-astropy-2.0.3-1.5.x86_64
 can't install octave-forge-linear-algebra-2.2.2-1.10.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
@@ -385,6 +389,13 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
 can't install soapysdr0.6-module-lms7-18.10.0-1.1.x86_64:
   nothing provides libSoapySDR.so.0.6()(64bit) needed by soapysdr0.6-module-lms7-18.10.0-1.1.x86_64
+can't install scilab-lang-6.0.1-7.2.noarch:
+  package scilab-lang-6.0.1-7.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides java = 10 needed by scilab-6.0.1-7.2.x86_64
+    (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
+    (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
+    (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
+    (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
 can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-github) = 1.3.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
@@ -409,6 +420,14 @@ can't install ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth) >= 1.1.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
+can't install scilab-6.0.1-7.2.x86_64:
+  nothing provides java = 10 needed by scilab-6.0.1-7.2.x86_64
+    (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
+    (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
+    (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
+    (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
+can't install python-pycryptopp-0.7.1.869544967005693312591928092448767568728501330214-3.2.x86_64:
+  nothing provides libcryptopp.so.5.6.5()(64bit) needed by python-pycryptopp-0.7.1.869544967005693312591928092448767568728501330214-3.2.x86_64
 can't install ruby2.5-rubygem-omniauth-gitlab-doc-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-doc-2.0.0-1.1.x86_64 requires ruby2.5-rubygem-omniauth-gitlab = 2.0.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
@@ -420,20 +439,13 @@ can't install gns3-server-2.0.3-1.4.noarch:
 can't install metis_5_1_0-gnu-hpc-devel-5.1.0-5.1.x86_64:
   package metis_5_1_0-gnu-hpc-devel-5.1.0-5.1.x86_64 requires libmetis_5_1_0-gnu-hpc = 5.1.0, but none of the providers can be installed
   nothing provides metis_5_1_0-gnu-hpc-module = 5.1.0 needed by libmetis_5_1_0-gnu-hpc-5.1.0-5.1.x86_64
-can't install scilab-tests-6.0.1-6.2.noarch:
-  package scilab-tests-6.0.1-6.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
-  nothing provides java = 10 needed by scilab-6.0.1-6.2.x86_64
-    (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
-    (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
-    (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
-    (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
 can't install openlmi-python-test-0.6.0-11.4.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.4.noarch
 can't install csound-5.18.02-11.2.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
 can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
-    (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
+    (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
 can't install caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch:
@@ -459,16 +471,9 @@ can't install gns3-2.0.3-1.3.noarch:
 can't install machinery-1.23.1-1.6.x86_64:
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
-    (we have ruby2.5-rubygem-rack-protection-2.0.3-1.1.x86_64)
+    (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
 can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install scilab-modules-doc-6.0.1-6.2.noarch:
-  package scilab-modules-doc-6.0.1-6.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
-  nothing provides java = 10 needed by scilab-6.0.1-6.2.x86_64
-    (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
-    (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
-    (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
-    (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
 can't install ruby2.5-rubygem-omniauth-oauth-doc-1.1.0-1.1.x86_64:
@@ -481,8 +486,9 @@ can't install pagure-theme-default-upstream-5.1.3-1.1.noarch:
   package pagure-theme-upstream-5.1.3-1.1.noarch requires pagure = 5.1.3-1.1, but none of the providers can be installed
   nothing provides python3-Markdown < 3 needed by pagure-5.1.3-1.1.noarch
     (we have python3-Markdown-3.0-1.1.noarch)
-can't install scilab-6.0.1-6.2.x86_64:
-  nothing provides java = 10 needed by scilab-6.0.1-6.2.x86_64
+can't install scilab-modules-doc-6.0.1-7.2.noarch:
+  package scilab-modules-doc-6.0.1-7.2.noarch requires scilab = 6.0.1, but none of the providers can be installed
+  nothing provides java = 10 needed by scilab-6.0.1-7.2.x86_64
     (we have java-1_8_0-openjdk-1.8.0.181-1.1.x86_64)
     (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
     (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
