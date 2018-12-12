@@ -16,6 +16,8 @@ can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.09.10-1.1.noarch
+can't install fwupdate-12-2.1.x86_64:
+  package is obsoleted by fwupd-1.1.2-3.1.x86_64
 can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
   package is obsoleted by python3-ec2imgutils-7.0.3-1.1.noarch
 can't install bpython-0.15-1.6.noarch:
@@ -297,8 +299,6 @@ can't install pagure-theme-pagureio-5.1.3-1.1.noarch:
 can't install geda-gsymcheck-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gsymcheck-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gsymcheck-1.8.2-8.6.x86_64
-can't install dkgpg-1.0.9-1.1.x86_64:
-  nothing provides libTMCG.so.15()(64bit) needed by dkgpg-1.0.9-1.1.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
 can't install pagure-5.1.3-1.1.noarch:
