@@ -1,4 +1,5 @@
 namespace namespace:filesystem(btrfs) @SYSTEM
+namespace namespace:filesystem(erofs) @SYSTEM
 namespace namespace:filesystem(ext2) @SYSTEM
 namespace namespace:filesystem(ext3) @SYSTEM
 namespace namespace:filesystem(ext4) @SYSTEM
