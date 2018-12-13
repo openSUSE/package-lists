@@ -106,6 +106,7 @@ dracut
 e2fsprogs
 ebtables
 efibootmgr
+elementary-xfce-icon-theme
 elfutils
 enchant-2-backend-hunspell
 enchant-data
@@ -154,6 +155,7 @@ glibc-locale
 gnome-keyring
 gnome-keyring-pam
 gnu-unifont-bitmap-fonts
+google-noto-fonts-doc
 google-roboto-fonts
 gpart
 gparted
@@ -174,9 +176,11 @@ gstreamer
 gstreamer-plugins-base
 gtk2-branding-openSUSE
 gtk2-data
+gtk2-engine-murrine
 gtk2-immodule-amharic
 gtk2-immodule-tigrigna
 gtk2-metatheme-adwaita
+gtk2-metatheme-mint
 gtk2-theming-engine-adwaita
 gtk2-tools
 gtk3-branding-openSUSE
@@ -184,6 +188,7 @@ gtk3-data
 gtk3-immodule-amharic
 gtk3-immodule-tigrigna
 gtk3-metatheme-adwaita
+gtk3-metatheme-mint
 gtk3-tools
 gtk4-schema
 gvfs
@@ -191,6 +196,7 @@ gvfs-backend-afc
 gvfs-backends
 gvfs-fuse
 gzip
+hack-fonts
 hardlink
 haveged
 hdparm
@@ -757,6 +763,7 @@ mbimcli-bash-completion
 mdadm
 memtest86+
 metatheme-adwaita-common
+metatheme-mint-common
 mkfontdir
 mkfontscale
 mobile-broadband-provider-info
@@ -778,6 +785,8 @@ nftables
 nilfs-utils
 nma-data
 notification-daemon
+noto-coloremoji-fonts
+noto-sans-fonts
 nscd
 nss-mdns
 ntfs-3g
