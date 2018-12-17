@@ -12,6 +12,7 @@ alsa
 alsa-oss
 alsa-plugins
 alsa-utils
+apache-parent
 at-spi2-atk-common
 at-spi2-atk-gtk2
 at-spi2-core
@@ -163,6 +164,9 @@ icewm-lang
 info
 insserv-compat
 issue-generator
+java-12-openjdk-headless
+javapackages-filesystem
+javapackages-tools
 json-glib-lang
 kbd
 kbd-legacy
@@ -390,6 +394,7 @@ libpci3
 libpcre1
 libpcre2-16-0
 libpcre2-8-0
+libpcsclite1
 libpixman-1-0
 libpng16-16
 libpolkit0
@@ -479,6 +484,7 @@ libxcb-sync1
 libxcb-util1
 libxcb-xfixes0
 libxcb-xinerama0
+libxcb-xinput0
 libxcb-xkb1
 libxcb1
 libxkbcommon-x11-0
@@ -530,6 +536,7 @@ parallel-printer-support
 patterns-yast-x11_yast
 pciutils
 pciutils-ids
+pcsc-lite
 perl
 perl-CPAN-Changes
 perl-Config-Crontab
@@ -639,6 +646,7 @@ terminfo-screen
 thin-provisioning-tools
 time
 timezone
+timezone-java
 traceroute
 udev
 udisks2
@@ -656,11 +664,11 @@ xbitmaps
 xclock
 xdg-menu
 xdg-utils
-xerces-j2-xml-apis
-xerces-j2-xml-resolver
 xfsprogs
 xkeyboard-config
 xkeyboard-config-lang
+xml-commons-apis
+xml-commons-resolver
 xorg-x11-fonts-core
 xscreensaver
 xscreensaver-data

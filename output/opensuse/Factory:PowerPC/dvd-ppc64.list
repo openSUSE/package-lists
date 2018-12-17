@@ -100,6 +100,7 @@ apache-commons-dbcp
 apache-commons-io
 apache-commons-logging
 apache-commons-pool2
+apache-parent
 apache-pdfbox
 apache-rpm-macros-control
 apache2
@@ -1058,6 +1059,8 @@ iw
 jakarta-taglibs-standard
 java-11-openjdk
 java-11-openjdk-headless
+java-12-openjdk-headless
+javapackages-filesystem
 javapackages-tools
 jfsutils
 jhbuild
@@ -4706,8 +4709,6 @@ xdotool
 xdpyinfo
 xembedsniproxy
 xerces-j2
-xerces-j2-xml-apis
-xerces-j2-xml-resolver
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
@@ -4848,8 +4849,10 @@ xli
 xlockmore
 xmessage
 xml-commons
+xml-commons-apis
 xml-commons-jaxp-1.2-apis
 xml-commons-jaxp-1.3-apis
+xml-commons-resolver
 xml-commons-resolver11
 xmlbeans
 xmlcharent
