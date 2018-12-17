@@ -3826,7 +3826,6 @@ job install name samba-doc [weak]
 job install name samba-winbind [weak]
 job install name sane-backends [weak]
 job install name sane-backends-autoconfig [weak]
-job install name saxon6 [weak]
 job install name sazanami-fonts [weak]
 job install name sbc [weak]
 job install name sbl [weak]
@@ -3940,7 +3939,6 @@ job install name tar-rmt [weak]
 job install name tcpdump [weak]
 job install name tcsh-lang [weak]
 job install name technisat-usb2-firmware [weak]
-job install name tei-roma [weak]
 job install name tei-xsl-stylesheets [weak]
 job install name telepathy-mission-control [weak]
 job install name telepathy-mission-control-plugin-goa [weak]
@@ -3976,9 +3974,6 @@ job install name tlp [weak]
 job install name tlp-rdw [weak]
 job install name tmux [weak]
 job install name tnftp [weak]
-job install name tomcat [weak]
-job install name tomcat-admin-webapps [weak]
-job install name tomcat-webapps [weak]
 job install name totem [weak]
 job install name totem-lang [weak]
 job install name totem-pl-parser-lang [weak]
@@ -4218,8 +4213,6 @@ job install name xkeyboard-config-lang [weak]
 job install name xlockmore [weak]
 job install name xmlcharent [weak]
 job install name xmlformat [weak]
-job install name xmlgraphics-batik [weak]
-job install name xmlgraphics-fop [weak]
 job install name xmlstarlet [weak]
 job install name xmlto [weak]
 job install name xorg-docs [weak]
@@ -4339,6 +4332,8 @@ job install name zypper-log [weak]
 
 job lock name xerces-j2-xml-resolver
 job lock name xerces-j2-xml-apis
+job lock name xml-commons-resolver
+job lock name xml-commons-apis
 job lock name gnu-javamail
 job lock name gnuchess
 job lock name atftp
