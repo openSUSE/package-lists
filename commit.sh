@@ -20,6 +20,10 @@ case $proj in
         repo="standard"
         product=000product
 	;;
+    Factory:zSystems) arches="s390x"
+        repo="standard"
+        product=000product
+	;;
     Factory:ARM)
         arches="aarch64"
         repo="standard"
