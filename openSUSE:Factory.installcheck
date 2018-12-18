@@ -359,8 +359,6 @@ can't install metis-gnu-hpc-devel-5.1.0-5.1.noarch:
   package metis-gnu-hpc-devel-5.1.0-5.1.noarch requires metis_5_1_0-gnu-hpc-devel = 5.1.0, but none of the providers can be installed
   package metis_5_1_0-gnu-hpc-devel-5.1.0-5.1.x86_64 requires libmetis_5_1_0-gnu-hpc = 5.1.0, but none of the providers can be installed
   nothing provides metis_5_1_0-gnu-hpc-module = 5.1.0 needed by libmetis_5_1_0-gnu-hpc-5.1.0-5.1.x86_64
-can't install python3-sphinxcontrib-seqdiag-0.8.5-1.1.noarch:
-  nothing provides python3-sphinxcontrib needed by python3-sphinxcontrib-seqdiag-0.8.5-1.1.noarch
 can't install python3-sphinxcontrib-httpdomain-1.5.0-3.3.noarch:
   nothing provides python3-sphinxcontrib needed by python3-sphinxcontrib-httpdomain-1.5.0-3.3.noarch
 can't install ruby2.5-rubygem-omniauth-google-oauth2-testsuite-0.5.3-1.1.x86_64:
@@ -467,8 +465,6 @@ can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install python2-sphinxcontrib-seqdiag-0.8.5-1.1.noarch:
-  nothing provides python2-sphinxcontrib needed by python2-sphinxcontrib-seqdiag-0.8.5-1.1.noarch
 can't install scilab-modules-6.0.1-7.3.noarch:
   package scilab-modules-6.0.1-7.3.noarch requires scilab = 6.0.1, but none of the providers can be installed
   nothing provides java = 10 needed by scilab-6.0.1-7.3.x86_64
