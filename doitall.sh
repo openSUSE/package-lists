@@ -23,6 +23,9 @@ case $proj in
     Factory:ARM)
         product=000product
         ;;
+    Factory:zSystems)
+        product=000product
+        ;;
 esac
 
 (cd osc/openSUSE\:$proj/$product/ && (osc up -u; osc up -e))
