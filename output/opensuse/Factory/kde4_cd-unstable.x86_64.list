@@ -389,7 +389,6 @@ kde-gtk-config5
 kde-gtk-config5-gtk2
 kde-gtk-config5-gtk3
 kde-gtk-config5-lang
-kde-odf-thumbnail
 kde-print-manager
 kde-print-manager-lang
 kde-user-manager
@@ -703,6 +702,7 @@ libQt5Concurrent5
 libQt5Core5
 libQt5DBus5
 libQt5Gui5
+libQt5HunspellInputMethod5
 libQt5Multimedia5
 libQt5Network5
 libQt5OpenGL5
@@ -720,6 +720,7 @@ libQt5Sql5-sqlite
 libQt5Svg5
 libQt5Test5
 libQt5TextToSpeech5
+libQt5VirtualKeyboard5
 libQt5WaylandClient5
 libQt5WaylandCompositor5
 libQt5WebChannel5
@@ -949,7 +950,7 @@ libgpgmepp6
 libgphoto2-6
 libgphoto2-6-lang
 libgpm2
-libgps23
+libgps24
 libgraphene-1_0-0
 libgraphite2-3
 libgraphviz6
@@ -1197,6 +1198,7 @@ libqt5-qtquickcontrols
 libqt5-qtquickcontrols2
 libqt5-qttranslations
 libqt5-qtvirtualkeyboard
+libqt5-qtvirtualkeyboard-hunspell
 libqt5-qtwayland
 libqt5-qtwebengine
 libqt5-qtxmlpatterns-imports
@@ -1659,19 +1661,13 @@ purpose-lang
 python-base
 python-rpm-macros
 python-talloc
-python-xml
-python2-configobj
-python2-dbus-python
-python2-decorator
-python2-gobject
-python2-pyudev
-python2-six
 python3
 python3-apparmor
 python3-appdirs
 python3-base
 python3-bind
 python3-cmdln
+python3-configobj
 python3-createrepo_c
 python3-cupshelpers
 python3-curses
@@ -1686,6 +1682,7 @@ python3-ply
 python3-pycups
 python3-pycurl
 python3-pyparsing
+python3-pyudev
 python3-rpm
 python3-setuptools
 python3-six
@@ -1857,6 +1854,7 @@ xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
+xf86-input-synaptics
 xf86-input-void
 xf86-input-wacom
 xf86-video-fbdev
