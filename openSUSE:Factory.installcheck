@@ -78,19 +78,12 @@ can't install infiniband-diags-devel-2.1.0-1.2.x86_64:
   package infiniband-diags-devel-2.1.0-1.2.x86_64 requires infiniband-diags = 2.1.0, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by infiniband-diags-2.1.0-1.2.x86_64
     (we have perl-5.28.1-1.1.x86_64)
-can't install marble-doc-18.08.3-1.1.noarch:
-  package marble-doc-18.08.3-1.1.noarch requires marble = 18.08.3, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
 can't install texmaker-5.0.2-1.6.x86_64:
   package texlive-collection-latexrecommended-2018.137.svn45955-34.1.noarch requires texlive-collection-latex >= 2018, but none of the providers can be installed
   package texlive-collection-latex-2018.137.svn41614-34.1.noarch requires texlive-collection-basic >= 2018, but none of the providers can be installed
   package texmaker-5.0.2-1.6.x86_64 requires texlive-collection-latexrecommended, but none of the providers can be installed
   package texlive-collection-basic-2018.137.svn45851-34.1.noarch requires texlive-dvipdfmx >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
-    (we have perl-5.28.1-1.1.x86_64)
-can't install perl-Win-Hivex-1.3.15-1.3.x86_64:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Win-Hivex-1.3.15-1.3.x86_64
-  nothing provides perl = 5.26.2 needed by perl-Win-Hivex-1.3.15-1.3.x86_64
     (we have perl-5.28.1-1.1.x86_64)
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
@@ -131,10 +124,6 @@ can't install python3-sphinxcontrib-programoutput-0.10-2.3.noarch:
   nothing provides python3-sphinxcontrib needed by python3-sphinxcontrib-programoutput-0.10-2.3.noarch
 can't install qpid-tools-0.32-1.7.x86_64:
   nothing provides python-qpid-qmf needed by qpid-tools-0.32-1.7.x86_64
-can't install kf5-kcm-fcitx-icons-0.5.5-2.3.noarch:
-  package kf5-kcm-fcitx-icons-0.5.5-2.3.noarch requires kf5-kcm-fcitx = 0.5.5, but none of the providers can be installed
-  package kf5-kcm-fcitx-0.5.5-2.3.x86_64 requires plasma5-workspace, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install texlive-collection-langother-2018.137.svn46722-34.1.noarch:
   package texlive-collection-langother-2018.137.svn46722-34.1.noarch requires texlive-collection-basic >= 2018, but none of the providers can be installed
   package texlive-collection-basic-2018.137.svn45851-34.1.noarch requires texlive-dvipdfmx >= 2018, but none of the providers can be installed
@@ -171,9 +160,6 @@ can't install openmpi-libs-1.10.7-21.1.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
 can't install python3-sphinxcontrib-documentedlist-0.6-1.3.noarch:
   nothing provides python3-sphinxcontrib needed by python3-sphinxcontrib-documentedlist-0.6-1.3.noarch
-can't install plasma5-workspace-lang-5.14.4-1.1.noarch:
-  package plasma5-workspace-lang-5.14.4-1.1.noarch requires plasma5-workspace = 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install gammaray-2.9.1-1.1.x86_64:
   nothing provides libQt5Qml.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by gammaray-2.9.1-1.1.x86_64
   nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by gammaray-2.9.1-1.1.x86_64
@@ -257,18 +243,6 @@ can't install libnf2ff0-0.0.35-4.4.x86_64:
 can't install openmpi3-testsuite-3.1.1-4.1.noarch:
   package openmpi3-testsuite-3.1.1-4.1.noarch requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install shutter-0.94-1.5.noarch:
-  package shutter-0.94-1.5.noarch requires perl(Gtk2::AppIndicator), but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Gtk2-AppIndicator-0.15-1.16.x86_64
-can't install python2-virt-bootstrap-1.1.0-1.2.noarch:
-  package libvirt-sandbox-1_0-5-0.6.0-7.2.x86_64 requires libvirt-daemon-qemu >= 1.0.2, but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1.0.so.5()(64bit), but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1.0.so.5(LIBVIRT_SANDBOX_0.6.0)(64bit), but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1_0-5 = 0.6.0-7.2, but none of the providers can be installed
-  package libvirt-daemon-qemu-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package python2-virt-bootstrap-1.1.0-1.2.noarch requires virt-sandbox, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install geda-base-1.8.2-8.6.x86_64:
   package geda-base-1.8.2-8.6.x86_64 requires libgeda42 = 1.8.2, but none of the providers can be installed
   nothing provides libguile-2.0.so.22()(64bit) needed by libgeda42-1.8.2-8.6.x86_64
@@ -311,8 +285,6 @@ can't install libboost_mpi1_68_0-1.68.0-3.1.x86_64:
 can't install mirror-2.9-910.1.noarch:
   nothing provides perl = 5.26.2 needed by mirror-2.9-910.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64:
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install ruby2.5-rubygem-omniauth-oauth2-doc-1.5.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-oauth2-doc-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-oauth2) = 1.5.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
@@ -321,6 +293,11 @@ can't install ruby2.5-rubygem-omniauth-oauth2-doc-1.5.0-1.1.x86_64:
 can't install gmusicbrowser-lang-1.1.15-3.5.noarch:
   package gmusicbrowser-lang-1.1.15-3.5.noarch requires gmusicbrowser = 1.1.15, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by gmusicbrowser-1.1.15-3.5.noarch
+can't install php7-smbclient-0.9.0-1.1.x86_64:
+  nothing provides php(api) = 20170718 needed by php7-smbclient-0.9.0-1.1.x86_64
+    (we have php7-7.3.0-1.1.x86_64)
+  nothing provides php(zend-abi) = 20170718 needed by php7-smbclient-0.9.0-1.1.x86_64
+    (we have php7-7.3.0-1.1.x86_64)
 can't install texlive-collection-langeuropean-2018.137.svn46803-34.1.noarch:
   package texlive-collection-langeuropean-2018.137.svn46803-34.1.noarch requires texlive-collection-basic >= 2018, but none of the providers can be installed
   package texlive-collection-basic-2018.137.svn45851-34.1.noarch requires texlive-dvipdfmx >= 2018, but none of the providers can be installed
@@ -329,10 +306,6 @@ can't install texlive-collection-langeuropean-2018.137.svn46803-34.1.noarch:
 can't install pcp-pmda-activemq-4.1.1-1.1.x86_64:
   package pcp-pmda-activemq-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64
-can't install patterns-kde-kde_plasma-20180709-5.1.noarch:
-  package patterns-kde-kde_plasma-20180709-5.1.noarch requires plasma5-session, but none of the providers can be installed
-  package plasma5-session-5.14.4-1.1.noarch requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install ruby2.5-rubygem-omniauth-gitlab-testsuite-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-testsuite-2.0.0-1.1.x86_64 requires ruby2.5-rubygem-omniauth-gitlab = 2.0.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
@@ -378,9 +351,6 @@ can't install texlive-collection-mathscience-2018.137.svn47532-34.1.noarch:
   package texlive-collection-basic-2018.137.svn45851-34.1.noarch requires texlive-dvipdfmx >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install plasma5-desktop-5.14.4-2.1.x86_64:
-  package plasma5-desktop-5.14.4-2.1.x86_64 requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install siege-4.0.4-1.5.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by siege-4.0.4-1.5.x86_64
 can't install libnetcdf13-openmpi-4.6.1-2.1.x86_64:
@@ -496,11 +466,6 @@ can't install hdf5-mvapich2-devel-static-1.10.4-3.1.x86_64:
   package mvapich2-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   package mvapich2-psm2-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install patterns-kde-kde_imaging-20180709-5.1.noarch:
-  package patterns-kde-kde_plasma-20180709-5.1.noarch requires plasma5-session, but none of the providers can be installed
-  package patterns-kde-kde_imaging-20180709-5.1.noarch requires pattern() = kde_plasma, but none of the providers can be installed
-  package plasma5-session-5.14.4-1.1.noarch requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install netcdf-openmpi-devel-static-4.6.1-2.1.x86_64:
   package libhdf5_hl_cpp100-openmpi-1.10.4-3.1.x86_64 requires libmpi_cxx.so.1()(64bit), but none of the providers can be installed
   package hdf5-openmpi-devel-1.10.4-3.1.x86_64 requires libhdf5_hl_cpp100-openmpi = 1.10.4, but none of the providers can be installed
@@ -552,8 +517,6 @@ can't install texlive-context-title-2018.158.2012.04.11svn47085-39.1.noarch:
 can't install openmpi-1.10.7-21.1.x86_64:
   package openmpi-1.10.7-21.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install marble-18.08.3-1.1.x86_64:
-  nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
 can't install texlive-collection-binextra-2018.137.svn47421-34.1.noarch:
   package texlive-collection-binextra-2018.137.svn47421-34.1.noarch requires texlive-collection-basic >= 2018, but none of the providers can be installed
   package texlive-collection-basic-2018.137.svn45851-34.1.noarch requires texlive-dvipdfmx >= 2018, but none of the providers can be installed
@@ -599,9 +562,6 @@ can't install mpich-devel-3.2.1-7.1.x86_64:
   package mpich-devel-3.2.1-7.1.x86_64 requires mpich = 3.2.1, but none of the providers can be installed
   package mpich-3.2.1-7.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install frozen-bubble-2.212-14.2.x86_64:
-  nothing provides perl = 5.26.2 needed by frozen-bubble-2.212-14.2.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install yubikey-manager-qt-1.0.1-2.1.x86_64:
   package yubikey-manager-qt-1.0.1-2.1.x86_64 requires python3-pyotherside, but none of the providers can be installed
   nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyotherside-1.5.3-2.6.x86_64
@@ -717,11 +677,6 @@ can't install texlive-context-letter-2018.158.svn47085-39.1.noarch:
   package texlive-context-2018.158.svn47285-39.1.noarch requires texlive-xetex >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install gnumeric-devel-1.12.44-1.1.x86_64:
-  package gnumeric-devel-1.12.44-1.1.x86_64 requires gnumeric = 1.12.44, but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by gnumeric-1.12.44-1.1.x86_64
-  nothing provides perl = 5.26.2 needed by gnumeric-1.12.44-1.1.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install pcp-pmda-postgresql-4.1.1-1.1.x86_64:
   package pcp-pmda-postgresql-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64
@@ -767,9 +722,6 @@ can't install vtk-devel-8.1.2-2.1.x86_64:
   package vtk-devel-8.1.2-2.1.x86_64 requires python3-vtk = 8.1.2, but none of the providers can be installed
   package openmpi-1.10.7-21.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install marble-qt-18.08.3-1.1.x86_64:
-  package marble-qt-18.08.3-1.1.x86_64 requires marble = 18.08.3, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
 can't install perl-Test-Harness-3.42-1.2.noarch:
   package perl-Test-Harness-3.42-1.2.noarch requires perl(:MODULE_COMPAT_5.28.1), but none of the providers can be installed
   package perl-5.28.1-1.1.x86_64 obsoletes perl-Test-Harness <= 3.42 provided by perl-Test-Harness-3.42-1.2.noarch
@@ -803,10 +755,6 @@ can't install perl-xrood-client-admin-3.3.6-9.1.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-xrood-client-admin-3.3.6-9.1.x86_64
   nothing provides perl = 5.26.2 needed by perl-xrood-client-admin-3.3.6-9.1.x86_64
     (we have perl-5.28.1-1.1.x86_64)
-can't install shutter-lang-0.94-1.5.noarch:
-  package shutter-lang-0.94-1.5.noarch requires shutter = 0.94, but none of the providers can be installed
-  package shutter-0.94-1.5.noarch requires perl(Gtk2::AppIndicator), but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Gtk2-AppIndicator-0.15-1.16.x86_64
 can't install tlp-rdw-1.1-1.2.noarch:
   package tlp-1.1-1.2.noarch requires pciutils, but none of the providers can be installed
   package tlp-rdw-1.1-1.2.noarch requires tlp = 1.1, but none of the providers can be installed
@@ -815,10 +763,6 @@ can't install tlp-rdw-1.1-1.2.noarch:
 can't install pcp-pmda-postfix-4.1.1-1.1.x86_64:
   package pcp-pmda-postfix-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64
-can't install libvirt-daemon-uml-4.10.0-1.1.x86_64:
-  package libvirt-daemon-uml-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install pcp-pmda-rpm-4.1.1-1.1.x86_64:
   package pcp-pmda-rpm-4.1.1-1.1.x86_64 requires pcp = 4.1.1-1.1, but none of the providers can be installed
   package pcp-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
@@ -833,11 +777,6 @@ can't install mvapich2-psm2-devel-static-2.2-13.1.x86_64:
   package mvapich2-psm2-devel-static-2.2-13.1.x86_64 requires mvapich2-psm2-devel = 2.2, but none of the providers can be installed
   package mvapich2-psm2-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install patterns-server-xen_tools-20180718-2.1.x86_64:
-  package libvirt-daemon-xen-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package patterns-server-xen_tools-20180718-2.1.x86_64 requires libvirt-daemon-xen, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install hdf5-mvapich2-devel-32bit-1.10.4-3.1.x86_64:
   package libhdf5_fortran100-mvapich2-1.10.4-3.1.x86_64 requires libmpi.so.12()(64bit), but none of the providers can be installed
   package hdf5-mvapich2-devel-1.10.4-3.1.x86_64 requires libhdf5_fortran100-mvapich2 = 1.10.4, but none of the providers can be installed
@@ -867,10 +806,6 @@ can't install lammps-20180822-1.3.x86_64:
 can't install buzztrax-0.10.2-11.1.x86_64:
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install claws-mail-devel-3.17.1-4.1.x86_64:
-  package claws-mail-devel-3.17.1-4.1.x86_64 requires claws-mail = 3.17.1, but none of the providers can be installed
-  nothing provides perl = 5.26.2 needed by claws-mail-3.17.1-4.1.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install compiz-branding-SLED-0.8.16.1-1.1.x86_64:
   package compiz-0.8.16.1-1.1.x86_64 requires pciutils, but none of the providers can be installed
   package compiz-branding-SLED-0.8.16.1-1.1.x86_64 requires compiz = 0.8.16.1, but none of the providers can be installed
@@ -881,9 +816,6 @@ can't install ruby2.5-rubygem-omniauth-oauth2-testsuite-1.5.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install marble-kde-18.08.3-1.1.x86_64:
-  package marble-kde-18.08.3-1.1.x86_64 requires marble = 18.08.3, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
 can't install uhd-firmware-3.9.7-4.4.noarch:
   package uhd-firmware-3.9.7-4.4.noarch requires libuhd003 = 3.9.7, but none of the providers can be installed
   nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
@@ -987,12 +919,6 @@ can't install texlive-collection-publishers-2018.137.svn47507-34.1.noarch:
   package texlive-collection-basic-2018.137.svn45851-34.1.noarch requires texlive-dvipdfmx >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install libvirt-daemon-vbox-4.10.0-1.1.x86_64:
-  package libvirt-daemon-vbox-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
-can't install perl-Alien-SDL-1.446-2.3.x86_64:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Alien-SDL-1.446-2.3.x86_64
 can't install hgview-1.10.3-1.1.noarch:
   nothing provides python-pygments needed by hgview-1.10.3-1.1.noarch
 can't install texlive-collection-langcyrillic-2018.137.svn44895-34.1.noarch:
@@ -1053,6 +979,11 @@ can't install postgresql-plperl-10-4.2.noarch:
     (we have perl-5.28.1-1.1.x86_64)
   nothing provides perl = 5.26.2 needed by postgresql95-plperl-9.5.15-1.1.x86_64
     (we have perl-5.28.1-1.1.x86_64)
+can't install php7-xdebug-2.6.0-1.2.x86_64:
+  nothing provides php(api) = 20170718 needed by php7-xdebug-2.6.0-1.2.x86_64
+    (we have php7-7.3.0-1.1.x86_64)
+  nothing provides php(zend-abi) = 20170718 needed by php7-xdebug-2.6.0-1.2.x86_64
+    (we have php7-7.3.0-1.1.x86_64)
 can't install shorewall-5.1.12.4-1.3.noarch:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by shorewall-5.1.12.4-1.3.noarch
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
@@ -1198,11 +1129,6 @@ can't install hdf5-mvapich2-1.10.4-3.1.x86_64:
   package mvapich2-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   package mvapich2-psm2-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install gnumeric-lang-1.12.44-1.1.noarch:
-  package gnumeric-lang-1.12.44-1.1.noarch requires gnumeric = 1.12.44, but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by gnumeric-1.12.44-1.1.x86_64
-  nothing provides perl = 5.26.2 needed by gnumeric-1.12.44-1.1.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install texlive-context-account-2018.158.svn47085-39.1.noarch:
   package texlive-context-account-2018.158.svn47085-39.1.noarch requires texlive-context >= 2018, but none of the providers can be installed
   package texlive-context-2018.158.svn47285-39.1.noarch requires texlive-xetex >= 2018, but none of the providers can be installed
@@ -1223,15 +1149,11 @@ can't install usx2yloader-0.3-16.1.x86_64:
   package usx2yloader-0.3-16.1.x86_64 requires alsa-firmware, but none of the providers can be installed
   package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
-can't install perl-Wx-0.9932-3.2.x86_64:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Wx-0.9932-3.2.x86_64
 can't install libhdf5_fortran100-openmpi2-1.10.4-3.1.x86_64:
   package openmpi2-libs-2.1.5-2.1.x86_64 requires openmpi2 = 2.1.5, but none of the providers can be installed
   package libhdf5_fortran100-openmpi2-1.10.4-3.1.x86_64 requires libmpi.so.20()(64bit), but none of the providers can be installed
   package openmpi2-2.1.5-2.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install perl-Text-RecordParser-1.6.5-2.2.noarch:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Text-RecordParser-1.6.5-2.2.noarch
 can't install python2-sphinxcontrib-programoutput-0.10-2.3.noarch:
   nothing provides python2-sphinxcontrib needed by python2-sphinxcontrib-programoutput-0.10-2.3.noarch
 can't install buzztrax-plugins-0.10.2-11.1.x86_64:
@@ -1256,9 +1178,6 @@ can't install compiz-manager-0.7.0-1.6.noarch:
   package compiz-manager-0.7.0-1.6.noarch requires compiz < 0.9, but none of the providers can be installed
   package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
-can't install libvirt-daemon-driver-storage-4.10.0-1.1.x86_64:
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install razor-agents-2.85-6.13.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by razor-agents-2.85-6.13.x86_64
 can't install pcp-webapi-4.1.1-1.1.x86_64:
@@ -1286,10 +1205,6 @@ can't install texlive-context-algorithmic-2018.158.svn47085-39.1.noarch:
   package texlive-context-2018.158.svn47285-39.1.noarch requires texlive-xetex >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install plasma5-desktop-lang-5.14.4-2.1.noarch:
-  package plasma5-desktop-lang-5.14.4-2.1.noarch requires plasma5-desktop = 5.14.4, but none of the providers can be installed
-  package plasma5-desktop-5.14.4-2.1.x86_64 requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install netcdf-openmpi-devel-4.6.1-2.1.x86_64:
   package openmpi-devel-1.10.7-21.1.x86_64 requires openmpi = 1.10.7, but none of the providers can be installed
   package netcdf-openmpi-devel-4.6.1-2.1.x86_64 requires openmpi-devel, but none of the providers can be installed
@@ -1297,6 +1212,11 @@ can't install netcdf-openmpi-devel-4.6.1-2.1.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
 can't install slurm-sjstat-18.08.3-3.1.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by slurm-sjstat-18.08.3-3.1.x86_64
+can't install php7-memcached-3.0.4-1.3.x86_64:
+  nothing provides php(api) = 20170718 needed by php7-memcached-3.0.4-1.3.x86_64
+    (we have php7-7.3.0-1.1.x86_64)
+  nothing provides php(zend-abi) = 20170718 needed by php7-memcached-3.0.4-1.3.x86_64
+    (we have php7-7.3.0-1.1.x86_64)
 can't install mpich-3.2.1-7.1.x86_64:
   package mpich-3.2.1-7.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
@@ -1345,20 +1265,11 @@ can't install libblacs2-mvapich2-devel-static-2.0.2-11.1.x86_64:
   package libblacs2-mvapich2-devel-static-2.0.2-11.1.x86_64 requires libblacs2-mvapich2-devel = 2.0.2, but none of the providers can be installed
   package mvapich2-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install libvirt-daemon-lxc-4.10.0-1.1.x86_64:
-  package libvirt-daemon-lxc-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
-can't install plasma5-workspace-5.14.4-1.1.x86_64:
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install ruby2.5-rubygem-lolcat-doc-99.9.19-1.1.x86_64:
   package ruby2.5-rubygem-lolcat-doc-99.9.19-1.1.x86_64 requires ruby2.5-rubygem-lolcat = 99.9.19, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:manpages:0.6) >= 0.6.1 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
   nothing provides rubygem(ruby:2.5.0:trollop) = 2.1.3 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
     (we have ruby2.5-rubygem-trollop-2.9.9-1.1.x86_64)
-can't install marble-data-18.08.3-1.1.noarch:
-  package marble-data-18.08.3-1.1.noarch requires marble = 18.08.3, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
 can't install pciutils-ids-20181113-1.1.noarch:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
 can't install openmpi2-devel-2.1.5-2.1.x86_64:
@@ -1407,10 +1318,11 @@ can't install texlive-context-vim-2018.158.svn47531-39.1.noarch:
   nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
 can't install patterns-media-rest_cd_kde-20170319-21.1.x86_64:
-  package patterns-kde-kde_plasma-20180709-5.1.noarch requires plasma5-session, but none of the providers can be installed
-  package patterns-media-rest_cd_kde-20170319-21.1.x86_64 requires pattern() = kde_plasma, but none of the providers can be installed
-  package plasma5-session-5.14.4-1.1.noarch requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
+  package patterns-yast-yast2_install_wf-20180613-1.1.x86_64 requires yast2-installation, but none of the providers can be installed
+  package yast2-installation-4.1.25-1.2.noarch requires pciutils, but none of the providers can be installed
+  package patterns-media-rest_cd_kde-20170319-21.1.x86_64 requires pattern() = yast2_install_wf, but none of the providers can be installed
+  package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
+  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
 can't install geda-gnetlist-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gnetlist-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gnetlist-1.8.2-8.6.x86_64
@@ -1482,10 +1394,6 @@ can't install munin-2.0.40-1.2.noarch:
 can't install texlive-ptex2pdf-2018.158.20170622.0svn44664-38.1.noarch:
   nothing provides perl = 5.26.2 needed by texlive-ptex2pdf-2018.158.20170622.0svn44664-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install gnumeric-1.12.44-1.1.x86_64:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by gnumeric-1.12.44-1.1.x86_64
-  nothing provides perl = 5.26.2 needed by gnumeric-1.12.44-1.1.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install texlive-collection-langkorean-2018.137.svn42106-34.1.noarch:
   package texlive-collection-langcjk-2018.137.svn45194-34.1.noarch requires texlive-collection-basic >= 2018, but none of the providers can be installed
   package texlive-collection-langkorean-2018.137.svn42106-34.1.noarch requires texlive-collection-langcjk >= 2018, but none of the providers can be installed
@@ -1537,10 +1445,6 @@ can't install perl-FastCGI-2.4.0-172.3.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
-can't install libvirt-4.10.0-1.1.x86_64:
-  package libvirt-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install openmpi2-2.1.5-2.1.x86_64:
   package openmpi2-2.1.5-2.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
@@ -1575,9 +1479,6 @@ can't install texlive-context-mathsets-2018.158.svn47085-39.1.noarch:
   package texlive-context-2018.158.svn47285-39.1.noarch requires texlive-xetex >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install marble-lang-18.08.3-1.1.noarch:
-  package marble-lang-18.08.3-1.1.noarch requires marble = 18.08.3, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
 can't install colormake-0.9.20140503-3.8.noarch:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by colormake-0.9.20140503-3.8.noarch
 can't install perl-DBIx-Class-UUIDColumns-0.02006-2.2.noarch:
@@ -1643,8 +1544,6 @@ can't install ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64:
   nothing provides rubygem(ruby:2.5.0:manpages:0.6) >= 0.6.1 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
   nothing provides rubygem(ruby:2.5.0:trollop) = 2.1.3 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
     (we have ruby2.5-rubygem-trollop-2.9.9-1.1.x86_64)
-can't install perl-SDL-2.548-2.1.x86_64:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-SDL-2.548-2.1.x86_64
 can't install texlive-collection-langportuguese-2018.137.svn47524-34.1.noarch:
   package texlive-collection-langportuguese-2018.137.svn47524-34.1.noarch requires texlive-collection-basic >= 2018, but none of the providers can be installed
   package texlive-collection-basic-2018.137.svn45851-34.1.noarch requires texlive-dvipdfmx >= 2018, but none of the providers can be installed
@@ -1665,10 +1564,11 @@ can't install pcp-pmda-news-4.1.1-1.1.x86_64:
   package pcp-pmda-news-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64
 can't install patterns-media-rest_dvd-20170319-21.1.x86_64:
-  package patterns-kde-kde_plasma-20180709-5.1.noarch requires plasma5-session, but none of the providers can be installed
-  package patterns-media-rest_dvd-20170319-21.1.x86_64 requires pattern() = kde_plasma, but none of the providers can be installed
-  package plasma5-session-5.14.4-1.1.noarch requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
+  package patterns-yast-yast2_install_wf-20180613-1.1.x86_64 requires yast2-installation, but none of the providers can be installed
+  package yast2-installation-4.1.25-1.2.noarch requires pciutils, but none of the providers can be installed
+  package patterns-media-rest_dvd-20170319-21.1.x86_64 requires pattern() = yast2_install_wf, but none of the providers can be installed
+  package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
+  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
 can't install sendxmpp-1.24-1.7.noarch:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by sendxmpp-1.24-1.7.noarch
 can't install mpitests-mvapich2-psm2-3.2-5.1.x86_64:
@@ -1692,12 +1592,6 @@ can't install ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install gnome-boxes-lang-3.30.3-1.1.noarch:
-  package gnome-boxes-3.30.3-1.1.x86_64 requires libvirt-daemon-qemu, but none of the providers can be installed
-  package libvirt-daemon-qemu-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package gnome-boxes-lang-3.30.3-1.1.noarch requires gnome-boxes = 3.30.3, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install pcp-pmda-lustrecomm-4.1.1-1.1.x86_64:
   package pcp-pmda-lustrecomm-4.1.1-1.1.x86_64 requires pcp = 4.1.1-1.1, but none of the providers can be installed
   package pcp-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
@@ -1713,9 +1607,6 @@ can't install texlive-collection-humanities-2018.137.svn45363-34.1.noarch:
   package texlive-collection-basic-2018.137.svn45851-34.1.noarch requires texlive-dvipdfmx >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install plasma5-workspace-branding-openSUSE-15.0~git20181114T190445~21cb8a6-2.1.noarch:
-  package plasma5-workspace-branding-openSUSE-15.0~git20181114T190445~21cb8a6-2.1.noarch requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install mvapich2-doc-2.2-13.1.x86_64:
   package mvapich2-doc-2.2-13.1.x86_64 requires mvapich2 = 2.2, but none of the providers can be installed
   package mvapich2-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
@@ -1729,9 +1620,6 @@ can't install openmpi3-devel-3.1.1-4.1.x86_64:
   package openmpi3-devel-3.1.1-4.1.x86_64 requires openmpi3 = 3.1.1, but none of the providers can be installed
   package openmpi3-3.1.1-4.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install thunar-sendto-clamtk-0.06-1.2.noarch:
-  package thunar-sendto-clamtk-0.06-1.2.noarch requires clamtk >= 5.00, but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by clamtk-5.25-1.2.noarch
 can't install texlive-context-bin-2018.20180414.svn34112-54.3.x86_64:
   package texlive-context-bin-2018.20180414.svn34112-54.3.x86_64 requires texlive-context >= 2018, but none of the providers can be installed
   package texlive-context-2018.158.svn47285-39.1.noarch requires texlive-xetex >= 2018, but none of the providers can be installed
@@ -1744,13 +1632,6 @@ can't install mvapich2-psm-devel-static-2.2-13.1.x86_64:
   package mvapich2-psm-devel-static-2.2-13.1.x86_64 requires mvapich2-psm-devel = 2.2, but none of the providers can be installed
   package mvapich2-psm-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install hivex-lang-1.3.15-1.3.noarch:
-  package hivex-lang-1.3.15-1.3.noarch requires hivex = 1.3.15, but none of the providers can be installed
-  package hivex-1.3.15-1.3.x86_64 requires perl(Win::Hivex), but none of the providers can be installed
-  package hivex-1.3.15-1.3.x86_64 requires perl(Win::Hivex::Regedit), but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Win-Hivex-1.3.15-1.3.x86_64
-  nothing provides perl = 5.26.2 needed by perl-Win-Hivex-1.3.15-1.3.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install yast2-sound-4.0.1-1.4.x86_64:
   package alsa-1.1.7-2.1.x86_64 requires alsa-utils, but none of the providers can be installed
   package alsa-utils-1.1.7-1.1.x86_64 requires pciutils, but none of the providers can be installed
@@ -1769,18 +1650,13 @@ can't install wok-2.5.0-2.4.noarch:
 can't install pcp-pmda-oracle-4.1.1-1.1.x86_64:
   package pcp-pmda-oracle-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64
+can't install nextcloud-14.0.4-2.1.noarch:
+  nothing provides mod_php_any < 7.3.0 needed by nextcloud-14.0.4-2.1.noarch
+    (we have apache2-mod_php7-7.3.0-1.1.x86_64)
 can't install mvapich2-psm-devel-2.2-13.1.x86_64:
   package mvapich2-psm-devel-2.2-13.1.x86_64 requires mvapich2-psm = 2.2, but none of the providers can be installed
   package mvapich2-psm-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install virt-sandbox-0.6.0-7.2.x86_64:
-  package libvirt-sandbox-1_0-5-0.6.0-7.2.x86_64 requires libvirt-daemon-lxc >= 1.0.2, but none of the providers can be installed
-  package libvirt-daemon-lxc-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1.0.so.5()(64bit), but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1.0.so.5(LIBVIRT_SANDBOX_0.6.0)(64bit), but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1_0-5 = 0.6.0-7.2, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install libblacs2-openmpi-devel-static-2.0.2-11.1.x86_64:
   package libblacs2-openmpi-devel-2.0.2-11.1.x86_64 requires openmpi-devel, but none of the providers can be installed
   package openmpi-devel-1.10.7-21.1.x86_64 requires openmpi = 1.10.7, but none of the providers can be installed
@@ -1827,11 +1703,6 @@ can't install libscalapack2-openmpi3-devel-static-2.0.2-11.1.x86_64:
   package libscalapack2-openmpi3-devel-static-2.0.2-11.1.x86_64 requires libscalapack2-openmpi3-devel = 2.0.2, but none of the providers can be installed
   package openmpi3-3.1.1-4.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install libvirt-sandbox-1_0-5-0.6.0-7.2.x86_64:
-  package libvirt-daemon-qemu-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package libvirt-sandbox-1_0-5-0.6.0-7.2.x86_64 requires libvirt-daemon-qemu >= 1.0.2, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install irssi-devel-1.1.1-1.3.x86_64:
   package irssi-devel-1.1.1-1.3.x86_64 requires irssi = 1.1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by irssi-1.1.1-1.3.x86_64
@@ -1858,12 +1729,6 @@ can't install texlive-context-fullpage-2018.158.svn47085-39.1.noarch:
     (we have perl-5.28.1-1.1.x86_64)
 can't install perl-Test-PerlTidy-20130104-3.2.noarch:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Test-PerlTidy-20130104-3.2.noarch
-can't install hivex-1.3.15-1.3.x86_64:
-  package hivex-1.3.15-1.3.x86_64 requires perl(Win::Hivex), but none of the providers can be installed
-  package hivex-1.3.15-1.3.x86_64 requires perl(Win::Hivex::Regedit), but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Win-Hivex-1.3.15-1.3.x86_64
-  nothing provides perl = 5.26.2 needed by perl-Win-Hivex-1.3.15-1.3.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install geda-gsymcheck-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gsymcheck-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gsymcheck-1.8.2-8.6.x86_64
@@ -1896,8 +1761,6 @@ can't install pcp-system-tools-4.1.1-1.1.x86_64:
   package pcp-system-tools-4.1.1-1.1.x86_64 requires python-pcp = 4.1.1-1.1, but none of the providers can be installed
   package pcp-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64
-can't install clamtk-5.25-1.2.noarch:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by clamtk-5.25-1.2.noarch
 can't install inxi-3.0.29-1.1.noarch:
   package inxi-3.0.29-1.1.noarch requires pciutils, but none of the providers can be installed
   package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
@@ -2013,9 +1876,6 @@ can't install dh-make-1.20140617-1.6.noarch:
   package dh-make-1.20140617-1.6.noarch requires debhelper, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by debhelper-9.20150101-1.8.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install sddm-theme-openSUSE-15.0~git20181114T190445~21cb8a6-2.1.noarch:
-  package sddm-theme-openSUSE-15.0~git20181114T190445~21cb8a6-2.1.noarch requires plasma5-workspace, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install ruby2.5-rubygem-omniauth-google-oauth2-testsuite-0.5.3-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-google-oauth2-testsuite-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-google-oauth2) = 0.5.3, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth) >= 1.1.1, but none of the providers can be installed
@@ -2064,11 +1924,6 @@ can't install compiz-plugins-extra-devel-0.8.16-1.1.x86_64:
   package compiz-plugins-extra-devel-0.8.16-1.1.x86_64 requires compiz-plugins-extra = 0.8.16, but none of the providers can be installed
   package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
-can't install patterns-server-kvm_tools-20180718-2.1.x86_64:
-  package libvirt-daemon-qemu-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package patterns-server-kvm_tools-20180718-2.1.x86_64 requires libvirt-daemon-qemu, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install qore-mysql-module-2.0.2.1-1.1.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.2.1-1.1.x86_64
 can't install AppCSXCAD-0.2.1-3.2.x86_64:
@@ -2080,8 +1935,6 @@ can't install AppCSXCAD-0.2.1-3.2.x86_64:
   package AppCSXCAD-0.2.1-3.2.x86_64 requires libQCSXCAD.so.0()(64bit), but none of the providers can be installed
   package openmpi2-2.1.5-2.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install perl-Gtk2-AppIndicator-0.15-1.16.x86_64:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Gtk2-AppIndicator-0.15-1.16.x86_64
 can't install inn-2.5.4-7.9.x86_64:
   nothing provides perl = 5.26.2 needed by inn-2.5.4-7.9.x86_64
     (we have perl-5.28.1-1.1.x86_64)
@@ -2109,10 +1962,6 @@ can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
-can't install plasma5-session-wayland-5.14.4-1.1.noarch:
-  package plasma5-session-wayland-5.14.4-1.1.noarch requires plasma5-session >= 5.14.4, but none of the providers can be installed
-  package plasma5-session-5.14.4-1.1.noarch requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install spice-up-lang-1.6.0-1.1.noarch:
   package spice-up-lang-1.6.0-1.1.noarch requires spice-up = 1.6.0, but none of the providers can be installed
   nothing provides libgranite.so.4()(64bit) needed by spice-up-1.6.0-1.1.x86_64
@@ -2132,8 +1981,6 @@ can't install libcompizconfig-0.8.16-1.1.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
 can't install perl-DBIx-Class-Fixtures-1.001039-1.2.noarch:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-DBIx-Class-Fixtures-1.001039-1.2.noarch
-can't install stellarium-0.18.2-1.2.x86_64:
-  nothing provides libgps.so.23()(64bit) needed by stellarium-0.18.2-1.2.x86_64
 can't install scalapack-mvapich2-test-2.0.2-11.1.x86_64:
   package scalapack-mvapich2-test-2.0.2-11.1.x86_64 requires libmpifort.so.12()(64bit), but none of the providers can be installed
   package mpich-3.2.1-7.1.x86_64 requires mpi-selector, but none of the providers can be installed
@@ -2277,11 +2124,6 @@ can't install python2-astropy-2.0.3-1.5.x86_64:
 can't install pcp-4.1.1-1.1.x86_64:
   package pcp-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64
-can't install holodev-0.9-1.2.noarch:
-  package libvirt-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package holodev-0.9-1.2.noarch requires libvirt >= 1.3.2, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install autoyast2-4.0.68-1.1.noarch:
   package yast2-update-4.1.5-1.1.x86_64 requires yast2-installation, but none of the providers can be installed
   package autoyast2-installation-4.0.68-1.1.noarch requires yast2-update >= 3.3.0, but none of the providers can be installed
@@ -2332,12 +2174,6 @@ can't install ruby2.5-rubygem-omniauth-github-testsuite-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install libvirt-sandbox-devel-0.6.0-7.2.x86_64:
-  package libvirt-sandbox-1_0-5-0.6.0-7.2.x86_64 requires libvirt-daemon-lxc >= 1.0.2, but none of the providers can be installed
-  package libvirt-daemon-lxc-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package libvirt-sandbox-devel-0.6.0-7.2.x86_64 requires libvirt-sandbox-1_0-5 = 0.6.0-7.2, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install hdf5-openmpi2-1.10.4-3.1.x86_64:
   package openmpi2-libs-2.1.5-2.1.x86_64 requires openmpi2 = 2.1.5, but none of the providers can be installed
   package hdf5-openmpi2-1.10.4-3.1.x86_64 requires libmpi.so.20()(64bit), but none of the providers can be installed
@@ -2348,8 +2184,6 @@ can't install libboost_mpi1_68_0-devel-1.68.0-3.1.x86_64:
   package libboost_mpi1_68_0-devel-1.68.0-3.1.x86_64 requires openmpi2-devel, but none of the providers can be installed
   package openmpi2-2.1.5-2.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install qemu-block-rbd-3.0.0-3.1.x86_64:
-  nothing provides librados.so.2()(64bit) needed by qemu-block-rbd-3.0.0-3.1.x86_64
 can't install dh-autoreconf-10-1.7.noarch:
   nothing provides perl = 5.26.2 needed by dh-autoreconf-10-1.7.noarch
     (we have perl-5.28.1-1.1.x86_64)
@@ -2366,9 +2200,6 @@ can't install patterns-yast-yast2_basis-20180613-1.1.x86_64:
   package patterns-yast-yast2_basis-20180613-1.1.x86_64 requires yast2-installation, but none of the providers can be installed
   package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
-can't install kf5-kcm-fcitx-0.5.5-2.3.x86_64:
-  package kf5-kcm-fcitx-0.5.5-2.3.x86_64 requires plasma5-workspace, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install hdsploader-1.2-16.1.x86_64:
   package alsa-1.1.7-2.1.x86_64 requires alsa-utils, but none of the providers can be installed
   package alsa-firmware-1.0.29-1.5.noarch requires alsa, but none of the providers can be installed
@@ -2427,9 +2258,6 @@ can't install mvapich2-devel-static-2.2-13.1.x86_64:
   package mvapich2-devel-static-2.2-13.1.x86_64 requires mvapich2-devel = 2.2, but none of the providers can be installed
   package mvapich2-2.2-13.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install plasma5-session-5.14.4-1.1.noarch:
-  package plasma5-session-5.14.4-1.1.noarch requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install libqt5-qtscxml-examples-5.11.2-1.1.x86_64:
   package libqt5-qtscxml-examples-5.11.2-1.1.x86_64 requires libQt5Scxml.so.5()(64bit), but none of the providers can be installed
   package libqt5-qtscxml-examples-5.11.2-1.1.x86_64 requires libQt5Scxml.so.5(Qt_5)(64bit), but none of the providers can be installed
@@ -2446,10 +2274,6 @@ can't install libblacs2-openmpi3-devel-static-2.0.2-11.1.x86_64:
 can't install gnuradio-3.7.13.4-2.5.x86_64:
   package gnuradio-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
   nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
-can't install libvirt-daemon-qemu-4.10.0-1.1.x86_64:
-  package libvirt-daemon-qemu-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-github) = 1.3.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
@@ -2462,10 +2286,6 @@ can't install llcbench-1.10-4.2.x86_64:
   package llcbench-1.10-4.2.x86_64 requires openmpi2, but none of the providers can be installed
   package openmpi2-2.1.5-2.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install libvirt-daemon-xen-4.10.0-1.1.x86_64:
-  package libvirt-daemon-xen-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install compiz-plugins-experimental-devel-0.8.16-1.1.x86_64:
   package compiz-plugins-experimental-0.8.16-1.1.x86_64 requires compiz < 0.9, but none of the providers can be installed
   package compiz-0.8.16.1-1.1.x86_64 requires pciutils, but none of the providers can be installed
@@ -2511,9 +2331,6 @@ can't install mpitests-mpich-ofi-3.2-5.1.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
 can't install python2-sphinxcontrib-issuetracker-0.11-9.3.noarch:
   nothing provides python2-sphinxcontrib needed by python2-sphinxcontrib-issuetracker-0.11-9.3.noarch
-can't install clamtk-lang-5.25-1.2.noarch:
-  package clamtk-lang-5.25-1.2.noarch requires clamtk = 5.25, but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by clamtk-5.25-1.2.noarch
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
 can't install python3-compizconfig-0.8.16-1.1.x86_64:
@@ -2525,12 +2342,6 @@ can't install gnuradio-devel-3.7.13.4-2.5.x86_64:
   package gnuradio-devel-3.7.13.4-2.5.x86_64 requires gnuradio = 3.7.13.4, but none of the providers can be installed
   package gnuradio-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
   nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
-can't install gnome-shell-search-provider-boxes-3.30.3-1.1.x86_64:
-  package gnome-boxes-3.30.3-1.1.x86_64 requires libvirt-daemon-qemu, but none of the providers can be installed
-  package libvirt-daemon-qemu-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package gnome-shell-search-provider-boxes-3.30.3-1.1.x86_64 requires gnome-boxes = 3.30.3, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install medit-lang-1.2.0-2.4.noarch:
   package medit-lang-1.2.0-2.4.noarch requires medit = 1.2.0, but none of the providers can be installed
   nothing provides python-vte needed by medit-1.2.0-2.4.x86_64
@@ -2613,11 +2424,6 @@ can't install texlive-xetex-bin-2018.20180414.svn47245-54.3.x86_64:
   package texlive-xetex-bin-2018.20180414.svn47245-54.3.x86_64 requires texlive-xetex >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install patterns-kde-kde-20180709-5.1.noarch:
-  package patterns-kde-kde_plasma-20180709-5.1.noarch requires plasma5-session, but none of the providers can be installed
-  package patterns-kde-kde-20180709-5.1.noarch requires pattern() = kde_plasma, but none of the providers can be installed
-  package plasma5-session-5.14.4-1.1.noarch requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install mpitests-openmpi3-3.2-5.1.x86_64:
   package mpitests-openmpi3-3.2-5.1.x86_64 requires openmpi3, but none of the providers can be installed
   package openmpi3-3.1.1-4.1.x86_64 requires mpi-selector, but none of the providers can be installed
@@ -2670,11 +2476,6 @@ can't install simple-ccsm-0.8.16-1.1.noarch:
   package simple-ccsm-0.8.16-1.1.noarch requires compiz < 0.9, but none of the providers can be installed
   package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
-can't install gnome-boxes-3.30.3-1.1.x86_64:
-  package libvirt-daemon-qemu-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package gnome-boxes-3.30.3-1.1.x86_64 requires libvirt-daemon-qemu, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install compiz-emerald-themes-0.8.16-1.1.noarch:
   package compiz-emerald-0.8.16-1.1.x86_64 requires compiz < 0.9, but none of the providers can be installed
   package compiz-0.8.16.1-1.1.x86_64 requires pciutils, but none of the providers can be installed
@@ -2686,9 +2487,6 @@ can't install libvtk1-openmpi-8.1.2-2.1.x86_64:
   package libvtk1-openmpi-8.1.2-2.1.x86_64 requires libmpi.so.20()(64bit), but none of the providers can be installed
   package openmpi2-2.1.5-2.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install claws-mail-3.17.1-4.1.x86_64:
-  nothing provides perl = 5.26.2 needed by claws-mail-3.17.1-4.1.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install openEMS-matlab-0.0.35-4.4.x86_64:
   package libopenEMS0-0.0.35-4.4.x86_64 requires libmpi_cxx.so.1()(64bit), but none of the providers can be installed
   package openEMS-0.0.35-4.4.x86_64 requires libopenEMS.so.0()(64bit), but none of the providers can be installed
@@ -2763,10 +2561,6 @@ can't install urh-2.5.1-1.1.x86_64:
 can't install gns3-server-2.0.3-1.4.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
-can't install claws-mail-lang-3.17.1-4.1.noarch:
-  package claws-mail-lang-3.17.1-4.1.noarch requires claws-mail = 3.17.1, but none of the providers can be installed
-  nothing provides perl = 5.26.2 needed by claws-mail-3.17.1-4.1.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install python3-vtk-8.1.2-2.1.x86_64:
   package python3-mpi4py-3.0.0-2.1.x86_64 requires openmpi, but none of the providers can be installed
   package python3-vtk-8.1.2-2.1.x86_64 requires python3-mpi4py, but none of the providers can be installed
@@ -2868,23 +2662,10 @@ can't install compicc-0.8.10-1.4.x86_64:
   package compicc-0.8.10-1.4.x86_64 requires compiz < 0.9, but none of the providers can be installed
   package pciutils-3.6.2-1.1.x86_64 requires pciutils-ids, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
-can't install python3-virt-bootstrap-1.1.0-1.2.noarch:
-  package libvirt-sandbox-1_0-5-0.6.0-7.2.x86_64 requires libvirt-daemon-qemu >= 1.0.2, but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1.0.so.5()(64bit), but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1.0.so.5(LIBVIRT_SANDBOX_0.6.0)(64bit), but none of the providers can be installed
-  package virt-sandbox-0.6.0-7.2.x86_64 requires libvirt-sandbox-1_0-5 = 0.6.0-7.2, but none of the providers can be installed
-  package libvirt-daemon-qemu-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package python3-virt-bootstrap-1.1.0-1.2.noarch requires virt-sandbox, but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install pcp-pmda-sendmail-4.1.1-1.1.x86_64:
   package pcp-pmda-sendmail-4.1.1-1.1.x86_64 requires pcp = 4.1.1-1.1, but none of the providers can be installed
   package pcp-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64
-can't install plasma-mycroft-0.1git~20181010T062235~fd53513-1.1.x86_64:
-  package plasma-mycroft-0.1git~20181010T062235~fd53513-1.1.x86_64 requires plasma5-desktop, but none of the providers can be installed
-  package plasma5-desktop-5.14.4-2.1.x86_64 requires plasma5-workspace >= 5.14.4, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
 can't install openEMS-0.0.35-4.4.x86_64:
@@ -2935,10 +2716,6 @@ can't install texlive-scheme-full-2018.137.svn44177-34.1.noarch:
   package texlive-collection-xetex-2018.137.svn45489-34.1.noarch requires texlive-xetex >= 2018, but none of the providers can be installed
   nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
     (we have perl-5.28.1-1.1.x86_64)
-can't install sddm-branding-openSUSE-0.18.0-4.1.x86_64:
-  package sddm-branding-openSUSE-0.18.0-4.1.x86_64 requires sddm-theme-openSUSE, but none of the providers can be installed
-  package sddm-theme-openSUSE-15.0~git20181114T190445~21cb8a6-2.1.noarch requires plasma5-workspace, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
 can't install caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch:
   nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch
   nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch
@@ -2982,18 +2759,12 @@ can't install libhdf5_hl_cpp100-openmpi-1.10.4-3.1.x86_64:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
 can't install perl-CHI-0.60-1.8.noarch:
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-CHI-0.60-1.8.noarch
-can't install perl-Alien-wxWidgets-0.68-1.5.x86_64:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Alien-wxWidgets-0.68-1.5.x86_64
 can't install machinery-1.23.1-1.6.x86_64:
   package machinery-1.23.1-1.6.x86_64 requires rubygem(ruby:2.5.0:sinatra) >= 1.4, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
 can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install frozen-bubble-lang-2.212-14.2.noarch:
-  package frozen-bubble-lang-2.212-14.2.noarch requires frozen-bubble = 2.212, but none of the providers can be installed
-  nothing provides perl = 5.26.2 needed by frozen-bubble-2.212-14.2.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install gnuradio-examples-3.7.13.4-2.5.x86_64:
   package gnuradio-examples-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
   nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
@@ -3037,11 +2808,6 @@ can't install parpack-openmpi-3.5.0-1.6.x86_64:
   package parpack-openmpi-3.5.0-1.6.x86_64 requires libmpi_mpifh.so.12()(64bit), but none of the providers can be installed
   package openmpi-1.10.7-21.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install gnumeric-doc-1.12.44-1.1.noarch:
-  package gnumeric-doc-1.12.44-1.1.noarch requires gnumeric = 1.12.44, but none of the providers can be installed
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by gnumeric-1.12.44-1.1.x86_64
-  nothing provides perl = 5.26.2 needed by gnumeric-1.12.44-1.1.x86_64
-    (we have perl-5.28.1-1.1.x86_64)
 can't install texlive-context-simplefonts-2018.158.svn47085-39.1.noarch:
   package texlive-context-simplefonts-2018.158.svn47085-39.1.noarch requires texlive-context >= 2018, but none of the providers can be installed
   package texlive-context-2018.158.svn47285-39.1.noarch requires texlive-xetex >= 2018, but none of the providers can be installed
@@ -3142,18 +2908,10 @@ can't install hdf5-openmpi3-devel-static-1.10.4-3.1.x86_64:
   package hdf5-openmpi3-devel-static-1.10.4-3.1.x86_64 requires hdf5-openmpi3-devel = 1.10.4, but none of the providers can be installed
   package openmpi3-3.1.1-4.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install typelib-1_0-LibvirtSandbox-1_0-0.6.0-7.2.x86_64:
-  package libvirt-sandbox-1_0-5-0.6.0-7.2.x86_64 requires libvirt-daemon-lxc >= 1.0.2, but none of the providers can be installed
-  package libvirt-daemon-lxc-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage = 4.10.0-1.1, but none of the providers can be installed
-  package typelib-1_0-LibvirtSandbox-1_0-0.6.0-7.2.x86_64 requires libvirt-sandbox-1.0.so.5()(64bit), but none of the providers can be installed
-  package libvirt-daemon-driver-storage-4.10.0-1.1.x86_64 requires libvirt-daemon-driver-storage-rbd = 4.10.0-1.1, but none of the providers can be installed
-  nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
 can't install openmpi2-libs-2.1.5-2.1.x86_64:
   package openmpi2-libs-2.1.5-2.1.x86_64 requires openmpi2 = 2.1.5, but none of the providers can be installed
   package openmpi2-2.1.5-2.1.x86_64 requires mpi-selector, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
-can't install perl-Sys-Virt-4.10.0-1.1.x86_64:
-  nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Sys-Virt-4.10.0-1.1.x86_64
 can't install pcp-pmda-slurm-4.1.1-1.1.x86_64:
   package pcp-pmda-slurm-4.1.1-1.1.x86_64 requires perl-PCP-PMDA = 4.1.1-1.1, but none of the providers can be installed
   nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-PCP-PMDA-4.1.1-1.1.x86_64

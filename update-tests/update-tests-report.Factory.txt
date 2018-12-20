@@ -1,18 +1,7 @@
-At revision 753.
+At revision 754.
 testing 13.1-x86_64-update.t
-Found 88 problems:
+Found 61 problems:
 Problem 1:
-nothing provides perl = 5.26.2 needed by claws-mail-3.17.1-4.1.x86_64
-
-Solution 1:
-  - allow deinstallation of claws-mail-3.9.2-3.1.4.x86_64
-
-Solution 2:
-  - keep obsolete claws-mail-3.9.2-3.1.4.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-  - keep obsolete perl-base-5.18.1-2.1.11.x86_64
-
-Problem 2:
 nothing provides perl(:MODULE_COMPAT_5.26.2) needed by whois-5.4.0-1.1.x86_64
 
 Solution 1:
@@ -21,7 +10,7 @@ Solution 1:
 Solution 2:
   - keep obsolete whois-5.0.26-2.1.2.x86_64
 
-Problem 3:
+Problem 2:
 nothing provides perl = 5.26.2 needed by perl-Text-ChaSen-2.4.4-10.3.x86_64
 
 Solution 1:
@@ -31,7 +20,7 @@ Solution 2:
   - keep obsolete perl-Text-ChaSen-2.4.4-6.1.2.x86_64
   - keep obsolete perl-base-5.18.1-2.1.11.x86_64
 
-Problem 4:
+Problem 3:
 nothing provides perl = 5.26.2 needed by inn-2.5.4-7.9.x86_64
 
 Solution 1:
@@ -41,7 +30,7 @@ Solution 2:
   - keep obsolete inn-2.5.2-21.1.2.x86_64
   - keep obsolete perl-base-5.18.1-2.1.11.x86_64
 
-Problem 5:
+Problem 4:
 nothing provides perl = 5.26.2 needed by perl-PDA-Pilot-0.12.5-25.20.x86_64
 
 Solution 1:
@@ -51,7 +40,7 @@ Solution 2:
   - keep obsolete perl-PDA-Pilot-0.12.5-21.1.3.x86_64
   - keep obsolete perl-base-5.18.1-2.1.11.x86_64
 
-Problem 6:
+Problem 5:
 nothing provides perl(:MODULE_COMPAT_5.26.2) needed by irssi-1.1.1-1.3.x86_64
 
 Solution 1:
@@ -61,7 +50,7 @@ Solution 2:
   - keep obsolete irssi-0.8.15-16.2.1.x86_64
   - keep obsolete perl-base-5.18.1-2.1.11.x86_64
 
-Problem 7:
+Problem 6:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -70,27 +59,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-dvipdfmx-2013.72.svn30386-11.2.1.noarch
 
-Problem 8:
-nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-SDL-2.548-2.1.x86_64
-
-Solution 1:
-  - allow deinstallation of perl-SDL-2.540-4.1.3.x86_64
-
-Solution 2:
-  - keep obsolete perl-SDL-2.540-4.1.3.x86_64
-  - keep obsolete perl-base-5.18.1-2.1.11.x86_64
-
-Problem 9:
-nothing provides perl(:MODULE_COMPAT_5.26.2) needed by gnumeric-1.12.44-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of gnumeric-1.12.7-2.5.3.x86_64
-
-Solution 2:
-  - keep obsolete gnumeric-1.12.7-2.5.3.x86_64
-  - keep obsolete perl-base-5.18.1-2.1.11.x86_64
-
-Problem 10:
+Problem 7:
 nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
 
 Solution 1:
@@ -100,7 +69,7 @@ Solution 2:
   - keep obsolete mpi-selector-1.0.3-9.1.2.noarch
   - keep obsolete perl-base-5.18.1-2.1.11.x86_64
 
-Problem 11:
+Problem 8:
 nothing provides perl(:MODULE_COMPAT_5.26.2) needed by pciutils-ids-20181113-1.1.noarch
 
 Solution 1:
@@ -109,37 +78,7 @@ Solution 1:
 Solution 2:
   - keep obsolete pciutils-ids-2013.10.06-1.1.noarch
 
-Problem 12:
-nothing provides perl(:MODULE_COMPAT_5.26.2) needed by perl-Alien-SDL-1.446-2.3.x86_64
-
-Solution 1:
-  - allow deinstallation of perl-Alien-SDL-1.440-2.1.3.noarch
-
-Solution 2:
-  - keep obsolete perl-Alien-SDL-1.440-2.1.3.noarch
-  - keep obsolete perl-base-5.18.1-2.1.11.x86_64
-
-Problem 13:
-nothing provides perl = 5.26.2 needed by frozen-bubble-2.212-14.2.x86_64
-
-Solution 1:
-  - allow deinstallation of frozen-bubble-2.212-4.1.2.x86_64
-
-Solution 2:
-  - keep obsolete frozen-bubble-2.212-4.1.2.x86_64
-  - keep obsolete perl-base-5.18.1-2.1.11.x86_64
-
-Problem 14:
-nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of marble-4.11.5-186.3.x86_64
-
-Solution 2:
-  - keep obsolete marble-4.11.5-186.3.x86_64
-  - keep obsolete liborc-0_4-0-0.4.17-2.1.2.x86_64
-
-Problem 15:
+Problem 9:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -148,7 +87,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-xetex-2013.72.0.0.9999svn29847-11.2.1.noarch
 
-Problem 16:
+Problem 10:
 nothing provides perl = 5.26.2 needed by mirror-2.9-910.1.noarch
 
 Solution 1:
@@ -158,128 +97,7 @@ Solution 2:
   - keep obsolete mirror-2.9-905.1.2.x86_64
   - keep obsolete perl-base-5.18.1-2.1.11.x86_64
 
-Problem 17:
-nothing provides perl = 5.26.2 needed by claws-mail-3.17.1-4.1.x86_64
-
-Solution 1:
-  - allow deinstallation of claws-mail-lang-3.9.2-3.1.4.noarch
-
-Solution 2:
-  - keep obsolete claws-mail-lang-3.9.2-3.1.4.noarch
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-  - keep obsolete perl-base-5.18.1-2.1.11.x86_64
-
-Problem 18:
-nothing provides perl(:MODULE_COMPAT_5.26.2) needed by gnumeric-1.12.44-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of gnumeric-lang-1.12.7-2.5.3.noarch
-
-Solution 2:
-  - keep obsolete gnumeric-lang-1.12.7-2.5.3.noarch
-  - keep obsolete perl-base-5.18.1-2.1.11.x86_64
-
-Problem 19:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of kdebase4-openSUSE-13.1-6.9.11.x86_64
-
-Solution 2:
-  - keep obsolete kdebase4-openSUSE-13.1-6.9.11.x86_64
-  - keep obsolete rpm-4.11.1-6.5.1.x86_64
-  - keep obsolete liblua5_1-5.1.5-5.2.1.x86_64
-
-Problem 20:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of kdebase4-runtime-branding-openSUSE-13.1-6.9.11.x86_64
-
-Solution 2:
-  - keep obsolete kdebase4-runtime-branding-openSUSE-13.1-6.9.11.x86_64
-
-Problem 21:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of kdebase4-session-4.11-2.8.1.noarch
-
-Solution 2:
-  - keep obsolete kdebase4-session-4.11-2.8.1.noarch
-
-Problem 22:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of kdebase4-workspace-branding-openSUSE-13.1-6.9.11.x86_64
-
-Solution 2:
-  - keep obsolete kdebase4-workspace-branding-openSUSE-13.1-6.9.11.x86_64
-  - keep obsolete wallpaper-branding-openSUSE-13.1-10.4.13.noarch
-
-Problem 23:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of kdebase4-workspace-plasma-calendar-4.11.11-115.3.x86_64
-
-Solution 2:
-  - keep obsolete kdebase4-workspace-plasma-calendar-4.11.11-115.3.x86_64
-  - keep obsolete kde4-kgreeter-plugins-4.11.11-115.3.x86_64
-  - keep obsolete kdebase4-workspace-liboxygenstyle-4.11.11-115.3.x86_64
-  - keep obsolete libkde4-4.11.5-484.1.x86_64
-  - keep obsolete wallpaper-branding-openSUSE-13.1-10.4.13.noarch
-  - keep obsolete liborc-0_4-0-0.4.17-2.1.2.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-
-Problem 24:
-nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of libvirt-daemon-driver-storage-1.1.2-2.32.1.x86_64
-
-Solution 2:
-  - keep obsolete libvirt-daemon-driver-storage-1.1.2-2.32.1.x86_64
-  - keep obsolete libparted0-2.4-34.5.1.x86_64
-  - keep obsolete libvirt-daemon-1.1.2-2.32.1.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-  - keep obsolete libvirt-client-1.1.2-2.32.1.x86_64
-  - keep obsolete systemd-208-23.3.x86_64
-  - keep obsolete pm-utils-1.4.1-33.5.1.x86_64
-
-Problem 25:
-nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of marble-data-4.11.5-186.3.noarch
-
-Solution 2:
-  - keep obsolete marble-data-4.11.5-186.3.noarch
-  - keep obsolete liborc-0_4-0-0.4.17-2.1.2.x86_64
-
-Problem 26:
-nothing provides libgps.so.23()(64bit) needed by marble-18.08.3-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of marble-doc-4.11.5-186.3.noarch
-
-Solution 2:
-  - keep obsolete marble-doc-4.11.5-186.3.noarch
-  - keep obsolete liborc-0_4-0-0.4.17-2.1.2.x86_64
-
-Problem 27:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of synaptiks-0.8.1-11.1.2.noarch
-
-Solution 2:
-  - keep obsolete synaptiks-0.8.1-11.1.2.noarch
-  - keep obsolete python-sip-4.15.1-3.1.2.x86_64
-  - keep obsolete liborc-0_4-0-0.4.17-2.1.2.x86_64
-
-Problem 28:
+Problem 11:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -288,7 +106,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-basic-2013.74.svn30372-11.4.1.noarch
 
-Problem 29:
+Problem 12:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -297,7 +115,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-xetex-2013.74.svn30396-11.4.1.noarch
 
-Problem 30:
+Problem 13:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -306,7 +124,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-dvipdfmx-bin-2013.20130620.svn30845-11.6.3.x86_64
 
-Problem 31:
+Problem 14:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -315,7 +133,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-xetex-bin-2013.20130620.svn30845-11.6.3.x86_64
 
-Problem 32:
+Problem 15:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -324,7 +142,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-metapost-2013.74.svn30387-11.4.1.noarch
 
-Problem 33:
+Problem 16:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -333,7 +151,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-luatex-2013.74.svn30790-11.4.1.noarch
 
-Problem 34:
+Problem 17:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -342,7 +160,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-latex-2013.74.svn30308-11.4.1.noarch
 
-Problem 35:
+Problem 18:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -351,7 +169,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langpolish-2013.74.svn30372-11.4.1.noarch
 
-Problem 36:
+Problem 19:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -360,7 +178,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-context-2013.74.svn30458-11.4.1.noarch
 
-Problem 37:
+Problem 20:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -369,7 +187,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langportuguese-2013.74.svn30372-11.4.1.noarch
 
-Problem 38:
+Problem 21:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -378,7 +196,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langspanish-2013.74.svn30372-11.4.1.noarch
 
-Problem 39:
+Problem 22:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -387,7 +205,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langgerman-2013.74.svn30539-11.4.1.noarch
 
-Problem 40:
+Problem 23:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -396,7 +214,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langczechslovak-2013.74.svn30372-11.4.1.noarch
 
-Problem 41:
+Problem 24:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -405,7 +223,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langfrench-2013.74.svn30372-11.4.1.noarch
 
-Problem 42:
+Problem 25:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -416,7 +234,7 @@ Solution 2:
   - keep obsolete texlive-ps2pkm-2013.72.1.6_beta_1svn29764-11.2.1.noarch
   - keep obsolete texlive-ps2pkm-bin-2013.20130620.svn30088-11.6.3.x86_64
 
-Problem 43:
+Problem 26:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -425,7 +243,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-binextra-2013.74.svn30307-11.4.1.noarch
 
-Problem 44:
+Problem 27:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -436,7 +254,7 @@ Solution 2:
   - keep obsolete texlive-ps2pkm-2013.72.1.6_beta_1svn29764-11.2.1.noarch
   - keep obsolete texlive-ps2pkm-bin-2013.20130620.svn30088-11.6.3.x86_64
 
-Problem 45:
+Problem 28:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -445,7 +263,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langeuropean-2013.74.svn30457-11.4.1.noarch
 
-Problem 46:
+Problem 29:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -454,7 +272,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-fontsrecommended-2013.74.svn30307-11.4.1.noarch
 
-Problem 47:
+Problem 30:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -463,7 +281,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langitalian-2013.74.svn30372-11.4.1.noarch
 
-Problem 48:
+Problem 31:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -472,66 +290,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-collection-langenglish-2013.74.svn30372-11.4.1.noarch
 
-Problem 49:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of mono-kde4-4.11.5-330.2.x86_64
-
-Solution 2:
-  - keep obsolete mono-kde4-4.11.5-330.2.x86_64
-  - keep obsolete akonadi-runtime-1.10.3-7.1.x86_64
-  - keep obsolete libkde4-4.11.5-484.1.x86_64
-  - keep obsolete libmono-2_0-1-3.0.6-3.1.3.x86_64
-  - keep obsolete kate-4.11.5-456.7.x86_64
-  - keep obsolete libakonadiprotocolinternals1-1.10.3-7.1.x86_64
-  - keep obsolete okular-4.11.5-150.1.x86_64
-  - keep obsolete libqt4-sql-4.8.5-5.9.2.x86_64
-  - keep obsolete libqt4-4.8.5-5.9.2.x86_64
-  - keep obsolete liborc-0_4-0-0.4.17-2.1.2.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-  - keep obsolete libgpgme11-1.4.4-2.4.1.x86_64
-
-Problem 50:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of patterns-openSUSE-kde4_basis-13.1-13.6.1.x86_64
-
-Solution 2:
-  - keep obsolete patterns-openSUSE-kde4_basis-13.1-13.6.1.x86_64
-  - keep obsolete patterns-openSUSE-base-13.1-13.6.1.x86_64
-
-Problem 51:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of patterns-openSUSE-kde4_laptop-13.1-13.6.1.x86_64
-
-Solution 2:
-  - keep obsolete patterns-openSUSE-kde4_laptop-13.1-13.6.1.x86_64
-  - keep obsolete patterns-openSUSE-base-13.1-13.6.1.x86_64
-
-Problem 52:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of ruby-kde4-4.11.5-250.2.x86_64
-
-Solution 2:
-  - keep obsolete ruby-kde4-4.11.5-250.2.x86_64
-  - keep obsolete akonadi-runtime-1.10.3-7.1.x86_64
-  - keep obsolete libkde4-4.11.5-484.1.x86_64
-  - keep obsolete okular-4.11.5-150.1.x86_64
-  - keep obsolete kate-4.11.5-456.7.x86_64
-  - keep obsolete libakonadiprotocolinternals1-1.10.3-7.1.x86_64
-  - keep obsolete libqt4-sql-4.8.5-5.9.2.x86_64
-  - keep obsolete libqt4-4.8.5-5.9.2.x86_64
-  - keep obsolete liborc-0_4-0-0.4.17-2.1.2.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-  - keep obsolete libgpgme11-1.4.4-2.4.1.x86_64
-
-Problem 53:
+Problem 32:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -540,7 +299,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-filter-2013.72.svn29983-11.2.1.noarch
 
-Problem 54:
+Problem 33:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -549,7 +308,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-construction-plan-2013.72.svn23167-11.2.1.noarch
 
-Problem 55:
+Problem 34:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -558,7 +317,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-simplefonts-2013.72.svn29229-11.2.1.noarch
 
-Problem 56:
+Problem 35:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -567,7 +326,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-gantt-2013.72.svn27472-11.2.1.noarch
 
-Problem 57:
+Problem 36:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -576,7 +335,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-cyrillicnumbers-2013.72.svn29905-11.2.1.noarch
 
-Problem 58:
+Problem 37:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -585,7 +344,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-notes-zh-cn-2013.72.svn23171-11.2.1.noarch
 
-Problem 59:
+Problem 38:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -594,7 +353,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-typearea-2013.72.svn23167-11.2.1.noarch
 
-Problem 60:
+Problem 39:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -603,7 +362,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-bnf-2013.72.svn23167-11.2.1.noarch
 
-Problem 61:
+Problem 40:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -612,7 +371,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-fullpage-2013.72.svn23167-11.2.1.noarch
 
-Problem 62:
+Problem 41:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -621,7 +380,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-transliterator-2013.72.svn29801-11.2.1.noarch
 
-Problem 63:
+Problem 42:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -630,7 +389,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-chromato-2013.72.svn23167-11.2.1.noarch
 
-Problem 64:
+Problem 43:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -639,7 +398,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-bin-2013.20130620.svn29741-11.6.3.x86_64
 
-Problem 65:
+Problem 44:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -648,7 +407,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-mathsets-2013.72.svn23167-11.2.1.noarch
 
-Problem 66:
+Problem 45:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -657,7 +416,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-vim-2013.72.svn29984-11.2.1.noarch
 
-Problem 67:
+Problem 46:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -666,7 +425,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-simpleslides-2013.72.svn28300-11.2.1.noarch
 
-Problem 68:
+Problem 47:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -675,7 +434,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-algorithmic-2013.72.svn28580-11.2.1.noarch
 
-Problem 69:
+Problem 48:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -684,7 +443,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-account-2013.72.svn23167-11.2.1.noarch
 
-Problem 70:
+Problem 49:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -693,7 +452,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-lettrine-2013.72.svn23167-11.2.1.noarch
 
-Problem 71:
+Problem 50:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -702,7 +461,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-french-2013.72.svn24582-11.2.1.noarch
 
-Problem 72:
+Problem 51:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -711,7 +470,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-gnuplot-2013.72.svn30380-11.2.1.noarch
 
-Problem 73:
+Problem 52:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -720,7 +479,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-typescripts-2013.72.svn25411-11.2.1.noarch
 
-Problem 74:
+Problem 53:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -729,7 +488,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-letter-2013.72.svn28899-11.2.1.noarch
 
-Problem 75:
+Problem 54:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -738,7 +497,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-degrade-2013.72.svn23167-11.2.1.noarch
 
-Problem 76:
+Problem 55:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -747,7 +506,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-rst-2013.72.0.0.4svn29575-11.2.1.noarch
 
-Problem 77:
+Problem 56:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -756,7 +515,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-ruby-2013.72.svn28434-11.2.1.noarch
 
-Problem 78:
+Problem 57:
 nothing provides perl = 5.26.2 needed by texlive-xetex-2018.158.svn47536-38.1.noarch
 
 Solution 1:
@@ -765,81 +524,7 @@ Solution 1:
 Solution 2:
   - keep obsolete texlive-context-2013.72.svn30044-11.2.1.noarch
 
-Problem 79:
-nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of libvirt-daemon-xen-1.1.2-2.32.1.x86_64
-
-Solution 2:
-  - keep obsolete libvirt-daemon-xen-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-interface-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-libxl-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-network-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-nodedev-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-nwfilter-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-secret-1.1.2-2.32.1.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-  - keep obsolete libnetcontrol0-0.2.8-0.6.5.1.x86_64
-  - keep obsolete libparted0-2.4-34.5.1.x86_64
-  - keep obsolete libvirt-client-1.1.2-2.32.1.x86_64
-  - keep obsolete systemd-208-23.3.x86_64
-  - keep obsolete xen-libs-4.3.2_01-21.1.x86_64
-  - keep obsolete pm-utils-1.4.1-33.5.1.x86_64
-
-Problem 80:
-nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of libvirt-daemon-qemu-1.1.2-2.32.1.x86_64
-
-Solution 2:
-  - keep obsolete libvirt-daemon-qemu-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-interface-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-network-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-nodedev-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-nwfilter-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-qemu-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-secret-1.1.2-2.32.1.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-  - keep obsolete libnetcontrol0-0.2.8-0.6.5.1.x86_64
-  - keep obsolete libparted0-2.4-34.5.1.x86_64
-  - keep obsolete libvirt-client-1.1.2-2.32.1.x86_64
-  - keep obsolete systemd-208-23.3.x86_64
-  - keep obsolete pm-utils-1.4.1-33.5.1.x86_64
-
-Problem 81:
-nothing provides librados.so.2()(64bit) needed by libvirt-daemon-driver-storage-rbd-4.10.0-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of libvirt-1.1.2-2.32.1.x86_64
-
-Solution 2:
-  - keep obsolete libvirt-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-client-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-config-network-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-config-nwfilter-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-interface-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-libxl-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-lxc-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-network-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-nodedev-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-nwfilter-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-qemu-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-secret-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-uml-1.1.2-2.32.1.x86_64
-  - keep obsolete libvirt-daemon-driver-vbox-1.1.2-2.32.1.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
-  - keep obsolete libnetcontrol0-0.2.8-0.6.5.1.x86_64
-  - keep obsolete libparted0-2.4-34.5.1.x86_64
-  - keep obsolete pm-utils-1.4.1-33.5.1.x86_64
-  - keep obsolete systemd-208-23.3.x86_64
-  - keep obsolete xen-libs-4.3.2_01-21.1.x86_64
-
-Problem 82:
+Problem 58:
 package python-liblarch_gtk-2.1.0-2.1.2.noarch requires python-liblarch = 2.1.0, but none of the providers can be installed
 
 Solution 1:
@@ -851,7 +536,7 @@ Solution 2:
 Solution 3:
   - keep obsolete python-liblarch-2.1.0-2.1.2.noarch
 
-Problem 83:
+Problem 59:
 nothing provides perl(:MODULE_COMPAT_5.26.2) needed by mpi-selector-1.0.3-13.8.noarch
 
 Solution 1:
@@ -865,27 +550,7 @@ Solution 3:
   - keep obsolete perl-5.18.1-2.1.11.x86_64
   - keep obsolete perl-base-5.18.1-2.1.11.x86_64
 
-Problem 84:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of patterns-openSUSE-kde4-13.1-13.6.1.x86_64
-
-Solution 2:
-  - keep obsolete patterns-openSUSE-kde4-13.1-13.6.1.x86_64
-  - keep obsolete patterns-openSUSE-base-13.1-13.6.1.x86_64
-
-Problem 85:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of patterns-openSUSE-kde4_imaging-13.1-13.6.1.x86_64
-
-Solution 2:
-  - keep obsolete patterns-openSUSE-kde4_imaging-13.1-13.6.1.x86_64
-  - keep obsolete patterns-openSUSE-base-13.1-13.6.1.x86_64
-
-Problem 86:
+Problem 60:
 package paprefs-1.0-1.1.x86_64 requires pulseaudio-module-gsettings, but none of the providers can be installed
 
 Solution 1:
@@ -897,7 +562,7 @@ Solution 2:
 Solution 3:
   - keep obsolete paprefs-0.9.10-9.2.1.x86_64
 
-Problem 87:
+Problem 61:
 nothing provides perl = 5.26.2 needed by texlive-dvipdfmx-2018.158.svn47198-38.1.noarch
 
 Solution 1:
@@ -905,23 +570,4 @@ Solution 1:
 
 Solution 2:
   - keep obsolete texlive-collection-latexrecommended-2013.74.svn30811-11.4.1.noarch
-
-Problem 88:
-nothing provides libgps.so.23()(64bit) needed by plasma5-workspace-5.14.4-1.1.x86_64
-
-Solution 1:
-  - allow deinstallation of kdebase4-workspace-4.11.11-115.3.x86_64
-
-Solution 2:
-  - allow deinstallation of kdebase4-workspace-ksysguardd-4.11.11-115.3.x86_64
-
-Solution 3:
-  - keep obsolete kdebase4-workspace-4.11.11-115.3.x86_64
-  - keep obsolete kde4-kgreeter-plugins-4.11.11-115.3.x86_64
-  - keep obsolete kdebase4-workspace-ksysguardd-4.11.11-115.3.x86_64
-  - keep obsolete kdebase4-workspace-liboxygenstyle-4.11.11-115.3.x86_64
-  - keep obsolete libkde4-4.11.5-484.1.x86_64
-  - keep obsolete wallpaper-branding-openSUSE-13.1-10.4.13.noarch
-  - keep obsolete liborc-0_4-0-0.4.17-2.1.2.x86_64
-  - keep obsolete cyrus-sasl-2.1.25-28.1.2.x86_64
 
