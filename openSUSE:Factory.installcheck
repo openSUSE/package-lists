@@ -20,18 +20,18 @@ can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.09.10-1.1.noarch
-can't install fwupdate-12-2.1.x86_64:
-  package is obsoleted by fwupd-1.1.2-3.1.x86_64
-can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
-  package is obsoleted by python3-ec2imgutils-7.0.3-1.1.noarch
 can't install openssl-1_0_0-1.0.2o-1.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-4.2.x86_64
+can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
+  package is obsoleted by python3-ec2imgutils-7.0.4-1.1.noarch
 can't install ghostscript-mini-9.26-1.1.x86_64:
   package is obsoleted by ghostscript-9.26-1.1.x86_64
 can't install mate-calc-1.20.2-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
 can't install oxygen4-cursors-4.11.22-16.1.x86_64:
   package is obsoleted by oxygen5-cursors-5.14.4-1.1.x86_64
+can't install fwupdate-12-2.1.x86_64:
+  package is obsoleted by fwupd-1.1.2-4.1.x86_64
 can't install gtk3-schema-3.24.2-1.1.noarch:
   package is obsoleted by gtk4-schema-3.94.0-1.2.noarch
 can't install libevtlog-devel-0.2.13-2.7.x86_64:
@@ -82,9 +82,6 @@ can't install libmetis_5_1_0-gnu-hpc-5.1.0-5.1.x86_64:
   nothing provides metis_5_1_0-gnu-hpc-module = 5.1.0 needed by libmetis_5_1_0-gnu-hpc-5.1.0-5.1.x86_64
 can't install python3-sphinxcontrib-asyncio-0.2.0-2.3.noarch:
   nothing provides python3-sphinxcontrib needed by python3-sphinxcontrib-asyncio-0.2.0-2.3.noarch
-can't install gtg-lang-0.3.1-6.1.noarch:
-  package gtg-lang-0.3.1-6.1.noarch requires gtg = 0.3.1, but none of the providers can be installed
-  nothing provides python-liblarch_gtk >= 2.1 needed by gtg-0.3.1-6.1.noarch
 can't install ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-doc-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
@@ -146,8 +143,6 @@ can't install yubikey-manager-qt-1.0.1-2.1.x86_64:
   nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyotherside-1.5.3-2.6.x86_64
 can't install soapysdr0.6-module-xtrx-0.0.0+git.20171213-2.2.x86_64:
   nothing provides libSoapySDR.so.0.6()(64bit) needed by soapysdr0.6-module-xtrx-0.0.0+git.20171213-2.2.x86_64
-can't install gtg-0.3.1-6.1.noarch:
-  nothing provides python-liblarch_gtk >= 2.1 needed by gtg-0.3.1-6.1.noarch
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
