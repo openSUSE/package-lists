@@ -102,6 +102,9 @@ can't install ruby2.5-rubygem-omniauth-gitlab-testsuite-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
+can't install 0ad-0.0.23-1.10.x86_64:
+  nothing provides 0ad-data = 0.0.23 needed by 0ad-0.0.23-1.10.x86_64
+    (we have 0ad-data-0.0.23b-1.1.noarch)
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
@@ -174,9 +177,9 @@ can't install FreeCAD-0.17.1534399137.9948ee4f1-1.4.x86_64:
   nothing provides libQt5Qml.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyside2-5.11.2-1.2.x86_64
 can't install php7-xdebug-2.6.0-1.2.x86_64:
   nothing provides php(api) = 20170718 needed by php7-xdebug-2.6.0-1.2.x86_64
-    (we have php7-7.3.0-1.1.x86_64)
+    (we have php7-7.3.0-2.1.x86_64)
   nothing provides php(zend-abi) = 20170718 needed by php7-xdebug-2.6.0-1.2.x86_64
-    (we have php7-7.3.0-1.1.x86_64)
+    (we have php7-7.3.0-2.1.x86_64)
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -225,11 +228,6 @@ can't install buzztrax-plugins-0.10.2-11.1.x86_64:
   package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install php7-memcached-3.0.4-1.3.x86_64:
-  nothing provides php(api) = 20170718 needed by php7-memcached-3.0.4-1.3.x86_64
-    (we have php7-7.3.0-1.1.x86_64)
-  nothing provides php(zend-abi) = 20170718 needed by php7-memcached-3.0.4-1.3.x86_64
-    (we have php7-7.3.0-1.1.x86_64)
 can't install geda-gattrib-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gattrib-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gattrib-1.8.2-8.6.x86_64
@@ -293,7 +291,7 @@ can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install nextcloud-14.0.4-2.1.noarch:
   nothing provides mod_php_any < 7.3.0 needed by nextcloud-14.0.4-2.1.noarch
-    (we have apache2-mod_php7-7.3.0-1.1.x86_64)
+    (we have apache2-mod_php7-7.3.0-2.1.x86_64)
 can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
 can't install scilab-tests-6.0.1-8.1.noarch:
