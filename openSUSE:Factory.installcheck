@@ -102,9 +102,6 @@ can't install ruby2.5-rubygem-omniauth-gitlab-testsuite-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install 0ad-0.0.23-1.10.x86_64:
-  nothing provides 0ad-data = 0.0.23 needed by 0ad-0.0.23-1.10.x86_64
-    (we have 0ad-data-0.0.23b-1.1.noarch)
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
