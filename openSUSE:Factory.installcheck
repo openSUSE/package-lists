@@ -10,8 +10,6 @@ can't install kde-odf-thumbnail-1.0.0-5.5.x86_64:
   package is obsoleted by kio-extras5-18.12.0-1.1.x86_64
 can't install obexd-client-0.48-5.15.x86_64:
   package is obsoleted by bluez-5.50-1.2.x86_64
-can't install kdebase4-workspace-devel-4.11.22-16.1.x86_64:
-  package is obsoleted by patterns-kde-kde_plasma-20180709-5.1.noarch
 can't install kdebase4-workspace-4.11.22-16.1.x86_64:
   package is obsoleted by plasma5-desktop-5.14.4-2.1.x86_64
 can't install suse-build-key-12.0-7.1.noarch:
@@ -20,6 +18,8 @@ can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.09.10-1.1.noarch
+can't install kdebase4-workspace-devel-4.11.22-16.1.x86_64:
+  package is obsoleted by patterns-kde-kde_plasma-20181130-1.1.noarch
 can't install openssl-1_0_0-1.0.2o-1.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-4.2.x86_64
 can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
@@ -105,9 +105,6 @@ can't install ruby2.5-rubygem-omniauth-gitlab-testsuite-2.0.0-1.1.x86_64:
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install libgnuradio-3_7_12-0_0_0-3.7.13.4-2.5.x86_64:
-  package libgnuradio-3_7_12-0_0_0-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install policycoreutils-python-2.6-5.3.x86_64:
   nothing provides python-setools needed by policycoreutils-python-2.6-5.3.x86_64
 can't install ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64:
@@ -148,9 +145,6 @@ can't install ruby2.5-rubygem-omniauth-oauth2-testsuite-1.5.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install uhd-firmware-3.9.7-4.4.noarch:
-  package uhd-firmware-3.9.7-4.4.noarch requires libuhd003 = 3.9.7, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
 can't install yubioath-desktop-4.3.4-1.1.x86_64:
@@ -160,18 +154,6 @@ can't install python2-sphinxcontrib-httpdomain-1.5.0-3.3.noarch:
   nothing provides python2-sphinxcontrib needed by python2-sphinxcontrib-httpdomain-1.5.0-3.3.noarch
 can't install hgview-1.10.3-1.1.noarch:
   nothing provides python-pygments needed by hgview-1.10.3-1.1.noarch
-can't install gnuradio-wxgui-3.7.13.4-2.5.x86_64:
-  package gnuradio-wxgui-3.7.13.4-2.5.x86_64 requires libgnuradio-pmt-3.7.13.4.so.0.0.0()(64bit), but none of the providers can be installed
-  package gnuradio-wxgui-3.7.13.4-2.5.x86_64 requires libgnuradio-runtime-3.7.13.4.so.0.0.0()(64bit), but none of the providers can be installed
-  package gnuradio-wxgui-3.7.13.4-2.5.x86_64 requires libgnuradio-wxgui-3.7.13.4.so.0.0.0()(64bit), but none of the providers can be installed
-  package libgnuradio-3_7_12-0_0_0-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
-can't install FreeCAD-0.17.1534399137.9948ee4f1-1.4.x86_64:
-  package FreeCAD-0.17.1534399137.9948ee4f1-1.4.x86_64 requires python3-pyside2, but none of the providers can be installed
-  package FreeCAD-0.17.1534399137.9948ee4f1-1.4.x86_64 requires libpyside2.cpython-36m-x86_64-linux-gnu.so.5.11()(64bit), but none of the providers can be installed
-  package FreeCAD-0.17.1534399137.9948ee4f1-1.4.x86_64 requires libshiboken2.cpython-36m-x86_64-linux-gnu.so.5.11()(64bit), but none of the providers can be installed
-  nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyside2-5.11.2-1.2.x86_64
-  nothing provides libQt5Qml.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyside2-5.11.2-1.2.x86_64
 can't install php7-xdebug-2.6.0-1.2.x86_64:
   nothing provides php(api) = 20170718 needed by php7-xdebug-2.6.0-1.2.x86_64
     (we have php7-7.3.0-2.1.x86_64)
@@ -200,10 +182,6 @@ can't install python2-sunpy-0.8.4-1.3.x86_64:
   package python2-sunpy-0.8.4-1.3.x86_64 requires python2-astropy >= 1.0.0, but none of the providers can be installed
   nothing provides libcfitsio.so.6()(64bit) needed by python2-astropy-2.0.3-1.5.x86_64
   nothing provides libwcs.so.5()(64bit) needed by python2-astropy-2.0.3-1.5.x86_64
-can't install gnuradio-doc-3.7.13.4-2.5.noarch:
-  package gnuradio-doc-3.7.13.4-2.5.noarch requires gnuradio = 3.7.13.4, but none of the providers can be installed
-  package gnuradio-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install python3-sunpy-0.8.4-1.3.x86_64:
   package python3-sunpy-0.8.4-1.3.x86_64 requires python3-astropy >= 1.0.0, but none of the providers can be installed
   nothing provides libcfitsio.so.6()(64bit) needed by python3-astropy-2.0.3-1.5.x86_64
@@ -237,9 +215,6 @@ can't install ruby2.5-rubygem-lolcat-doc-99.9.19-1.1.x86_64:
     (we have ruby2.5-rubygem-trollop-2.9.9-1.1.x86_64)
 can't install qore-pgsql-module-2.3-4.14.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-pgsql-module-2.3-4.14.x86_64
-can't install python3-pyside2-5.11.2-1.2.x86_64:
-  nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyside2-5.11.2-1.2.x86_64
-  nothing provides libQt5Qml.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyside2-5.11.2-1.2.x86_64
 can't install geda-gnetlist-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gnetlist-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gnetlist-1.8.2-8.6.x86_64
@@ -368,10 +343,6 @@ can't install ruby2.5-rubygem-omniauth-oauth-testsuite-1.1.0-1.1.x86_64:
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install spice-up-1.6.0-1.1.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by spice-up-1.6.0-1.1.x86_64
-can't install python3-pyside2-devel-5.11.2-1.2.x86_64:
-  package python3-pyside2-devel-5.11.2-1.2.x86_64 requires python3-pyside2 = 5.11.2, but none of the providers can be installed
-  nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyside2-5.11.2-1.2.x86_64
-  nothing provides libQt5Qml.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyside2-5.11.2-1.2.x86_64
 can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
   package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
@@ -404,13 +375,8 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-2.1.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install soapysdr0.6-module-lms7-18.10.0-1.1.x86_64:
-  nothing provides libSoapySDR.so.0.6()(64bit) needed by soapysdr0.6-module-lms7-18.10.0-1.1.x86_64
 can't install python3-pyotherside-1.5.3-2.6.x86_64:
   nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyotherside-1.5.3-2.6.x86_64
-can't install gnuradio-3.7.13.4-2.5.x86_64:
-  package gnuradio-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-github) = 1.3.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
@@ -418,10 +384,6 @@ can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
-can't install gnuradio-devel-3.7.13.4-2.5.x86_64:
-  package gnuradio-devel-3.7.13.4-2.5.x86_64 requires gnuradio = 3.7.13.4, but none of the providers can be installed
-  package gnuradio-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install medit-lang-1.2.0-2.4.noarch:
   package medit-lang-1.2.0-2.4.noarch requires medit = 1.2.0, but none of the providers can be installed
   nothing provides python-vte needed by medit-1.2.0-2.4.x86_64
@@ -442,21 +404,11 @@ can't install scilab-lang-6.0.1-8.1.noarch:
     (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
     (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
     (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
-can't install gnuradio-examples-wxgui-3.7.13.4-2.5.x86_64:
-  package gnuradio-wxgui-3.7.13.4-2.5.x86_64 requires libgnuradio-pmt-3.7.13.4.so.0.0.0()(64bit), but none of the providers can be installed
-  package gnuradio-wxgui-3.7.13.4-2.5.x86_64 requires libgnuradio-runtime-3.7.13.4.so.0.0.0()(64bit), but none of the providers can be installed
-  package gnuradio-wxgui-3.7.13.4-2.5.x86_64 requires libgnuradio-wxgui-3.7.13.4.so.0.0.0()(64bit), but none of the providers can be installed
-  package gnuradio-examples-wxgui-3.7.13.4-2.5.x86_64 requires gnuradio-wxgui = 3.7.13.4, but none of the providers can be installed
-  package libgnuradio-3_7_12-0_0_0-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install ruby2.5-rubygem-omniauth-gitlab-doc-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-doc-2.0.0-1.1.x86_64 requires ruby2.5-rubygem-omniauth-gitlab = 2.0.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install urh-2.5.1-1.1.x86_64:
-  package urh-2.5.1-1.1.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install gns3-server-2.0.3-1.4.noarch:
   nothing provides /gns3/bin/busybox needed by gns3-server-2.0.3-1.4.noarch
   nothing provides /tmp/gns3/bin/sh needed by gns3-server-2.0.3-1.4.noarch
@@ -480,10 +432,6 @@ can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
 can't install collectd-plugin-gps-5.7.2-4.5.x86_64:
   nothing provides libgps.so.23()(64bit) needed by collectd-plugin-gps-5.7.2-4.5.x86_64
-can't install uhd-devel-3.9.7-4.4.x86_64:
-  package uhd-devel-3.9.7-4.4.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  package uhd-devel-3.9.7-4.4.x86_64 requires libuhd003 = 3.9.7, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch:
   nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch
   nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch
@@ -510,9 +458,6 @@ can't install machinery-1.23.1-1.6.x86_64:
     (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
 can't install gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
-can't install gnuradio-examples-3.7.13.4-2.5.x86_64:
-  package gnuradio-examples-3.7.13.4-2.5.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install qore-sqlite3-module-1.0.1-4.10.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-sqlite3-module-1.0.1-4.10.x86_64
 can't install scilab-modules-doc-lang-6.0.1-8.1.noarch:
@@ -538,11 +483,6 @@ can't install scilab-modules-doc-6.0.1-8.1.noarch:
 can't install libmetis-gnu-hpc-5.1.0-5.1.x86_64:
   package libmetis-gnu-hpc-5.1.0-5.1.x86_64 requires libmetis_5_1_0-gnu-hpc = 5.1.0, but none of the providers can be installed
   nothing provides metis_5_1_0-gnu-hpc-module = 5.1.0 needed by libmetis_5_1_0-gnu-hpc-5.1.0-5.1.x86_64
-can't install libuhd003-3.9.7-4.4.x86_64:
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
-can't install soapysdr0.7-module-uhd-0.3.5-1.1.x86_64:
-  package soapysdr0.7-module-uhd-0.3.5-1.1.x86_64 requires libuhd.so.003()(64bit), but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by libuhd003-3.9.7-4.4.x86_64
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-commander-4.4.6-1.1.x86_64)
