@@ -12,8 +12,6 @@ can't install obexd-client-0.48-5.15.x86_64:
   package is obsoleted by bluez-5.50-1.2.x86_64
 can't install kdebase4-workspace-4.11.22-16.1.x86_64:
   package is obsoleted by plasma5-desktop-5.14.4-2.1.x86_64
-can't install suse-build-key-12.0-7.1.noarch:
-  package is obsoleted by patterns-caasp-MicroOS-4.0-10.1.x86_64
 can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
@@ -22,6 +20,8 @@ can't install kdebase4-workspace-devel-4.11.22-16.1.x86_64:
   package is obsoleted by patterns-kde-kde_plasma-20181130-1.1.noarch
 can't install openssl-1_0_0-1.0.2o-1.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-4.2.x86_64
+can't install suse-build-key-12.0-7.1.noarch:
+  package is obsoleted by patterns-caasp-MicroOS-4.0-11.1.x86_64
 can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
   package is obsoleted by python3-ec2imgutils-7.0.4-1.1.noarch
 can't install ghostscript-mini-9.26-1.1.x86_64:
@@ -48,9 +48,6 @@ can't install ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install python3-sphinxcontrib-pecanwsme-0.9.0-1.1.noarch:
-  package python3-sphinxcontrib-pecanwsme-0.9.0-1.1.noarch requires python3-sphinxcontrib-httpdomain, but none of the providers can be installed
-  nothing provides python3-sphinxcontrib needed by python3-sphinxcontrib-httpdomain-1.5.0-3.3.noarch
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
 can't install ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64:
@@ -150,15 +147,13 @@ can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
 can't install yubioath-desktop-4.3.4-1.1.x86_64:
   package yubioath-desktop-4.3.4-1.1.x86_64 requires pyotherside, but none of the providers can be installed
   nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyotherside-1.5.3-2.6.x86_64
-can't install python2-sphinxcontrib-httpdomain-1.5.0-3.3.noarch:
-  nothing provides python2-sphinxcontrib needed by python2-sphinxcontrib-httpdomain-1.5.0-3.3.noarch
 can't install hgview-1.10.3-1.1.noarch:
   nothing provides python-pygments needed by hgview-1.10.3-1.1.noarch
 can't install php7-xdebug-2.6.0-1.2.x86_64:
   nothing provides php(api) = 20170718 needed by php7-xdebug-2.6.0-1.2.x86_64
-    (we have php7-7.3.0-2.1.x86_64)
+    (we have php7-7.3.0-3.1.x86_64)
   nothing provides php(zend-abi) = 20170718 needed by php7-xdebug-2.6.0-1.2.x86_64
-    (we have php7-7.3.0-2.1.x86_64)
+    (we have php7-7.3.0-3.1.x86_64)
 can't install ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-doc-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -206,8 +201,6 @@ can't install buzztrax-plugins-0.10.2-11.1.x86_64:
 can't install geda-gattrib-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gattrib-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gattrib-1.8.2-8.6.x86_64
-can't install python3-sphinxcontrib-newsfeed-0.1.4-3.1.noarch:
-  nothing provides python3-sphinxcontrib needed by python3-sphinxcontrib-newsfeed-0.1.4-3.1.noarch
 can't install ruby2.5-rubygem-lolcat-doc-99.9.19-1.1.x86_64:
   package ruby2.5-rubygem-lolcat-doc-99.9.19-1.1.x86_64 requires ruby2.5-rubygem-lolcat = 99.9.19, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:manpages:0.6) >= 0.6.1 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
@@ -221,9 +214,6 @@ can't install geda-gnetlist-1.8.2-8.6.x86_64:
 can't install geda-utils-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-utils-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-utils-1.8.2-8.6.x86_64
-can't install python2-sphinxcontrib-pecanwsme-0.9.0-1.1.noarch:
-  package python2-sphinxcontrib-pecanwsme-0.9.0-1.1.noarch requires python2-sphinxcontrib-httpdomain, but none of the providers can be installed
-  nothing provides python2-sphinxcontrib needed by python2-sphinxcontrib-httpdomain-1.5.0-3.3.noarch
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -253,8 +243,6 @@ can't install ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
-can't install python2-sphinxcontrib-newsfeed-0.1.4-3.1.noarch:
-  nothing provides python2-sphinxcontrib needed by python2-sphinxcontrib-newsfeed-0.1.4-3.1.noarch
 can't install ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
@@ -263,7 +251,7 @@ can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install nextcloud-14.0.4-2.1.noarch:
   nothing provides mod_php_any < 7.3.0 needed by nextcloud-14.0.4-2.1.noarch
-    (we have apache2-mod_php7-7.3.0-2.1.x86_64)
+    (we have apache2-mod_php7-7.3.0-3.1.x86_64)
 can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
 can't install scilab-tests-6.0.1-8.1.noarch:
@@ -296,8 +284,6 @@ can't install metis-gnu-hpc-devel-5.1.0-5.1.noarch:
   package metis-gnu-hpc-devel-5.1.0-5.1.noarch requires metis_5_1_0-gnu-hpc-devel = 5.1.0, but none of the providers can be installed
   package metis_5_1_0-gnu-hpc-devel-5.1.0-5.1.x86_64 requires libmetis_5_1_0-gnu-hpc = 5.1.0, but none of the providers can be installed
   nothing provides metis_5_1_0-gnu-hpc-module = 5.1.0 needed by libmetis_5_1_0-gnu-hpc-5.1.0-5.1.x86_64
-can't install python3-sphinxcontrib-httpdomain-1.5.0-3.3.noarch:
-  nothing provides python3-sphinxcontrib needed by python3-sphinxcontrib-httpdomain-1.5.0-3.3.noarch
 can't install ruby2.5-rubygem-omniauth-google-oauth2-testsuite-0.5.3-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-google-oauth2-testsuite-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-google-oauth2) = 0.5.3, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-google-oauth2-0.5.3-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth) >= 1.1.1, but none of the providers can be installed
@@ -430,8 +416,6 @@ can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
     (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
 can't install scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-gtk2-32bit-0.4.17-1.5.x86_64
-can't install collectd-plugin-gps-5.7.2-4.5.x86_64:
-  nothing provides libgps.so.23()(64bit) needed by collectd-plugin-gps-5.7.2-4.5.x86_64
 can't install caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch:
   nothing provides kubic-caasp-dex-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch
   nothing provides kubic-dnsmasq-nanny-image >= 2.0.0 needed by caasp-container-manifests-4.0.0+git_r324_f124eb9-1.1.noarch
@@ -491,6 +475,3 @@ can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
 can't install cecilia-2.0.5-282.6.noarch:
   package cecilia-2.0.5-282.6.noarch requires csound > 3.47, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
-can't install collectd-plugins-all-5.7.2-4.5.x86_64:
-  package collectd-plugins-all-5.7.2-4.5.x86_64 requires collectd-plugin-gps = 5.7.2-4.5, but none of the providers can be installed
-  nothing provides libgps.so.23()(64bit) needed by collectd-plugin-gps-5.7.2-4.5.x86_64
