@@ -7,7 +7,8 @@ solverflags ignorerecommended
 # We can't use ignore_opensuse, as that also ignores openSUSE-Kubic-release
 job lock name libudev-mini1
 
-job install provides pattern() = SUSE%2dCaaSP%2dalt%2donlyDVD
+job install provides pattern() = SUSE%2dMicroOS%2dcontainer%2druntime%2dconfig
+job install name podman-cni-config
 
 job lock name ghc-bootstrap
 

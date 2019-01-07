@@ -158,6 +158,7 @@ for arch in $arches; do
            ./gen-kubic.pl opensuse/$proj/dvd-kubic $arch "$proj" $repo
            ./gen-kubic.pl opensuse/$proj/dvd-kubic-addon $arch "$proj" $repo
            ./gen-kubic.pl opensuse/$proj/dvd-kubic-3 $arch "$proj" $repo
+           ./gen-kubic.pl opensuse/$proj/dvd-kubic-4 $arch "$proj" $repo
          fi
        fi
     fi
