@@ -26,7 +26,7 @@ can't install python3-ec2utilsbase-3.1.2-1.2.noarch:
   package is obsoleted by python3-ec2imgutils-7.0.4-1.1.noarch
 can't install ghostscript-mini-9.26-1.1.x86_64:
   package is obsoleted by ghostscript-9.26-1.1.x86_64
-can't install mate-calc-1.20.2-1.1.x86_64:
+can't install mate-calc-1.20.3-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
 can't install oxygen4-cursors-4.11.22-16.1.x86_64:
   package is obsoleted by oxygen5-cursors-5.14.4-1.1.x86_64
@@ -119,9 +119,6 @@ can't install paperwork-0.3.2-1.8.noarch:
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
-can't install yubikey-manager-qt-1.0.1-2.1.x86_64:
-  package yubikey-manager-qt-1.0.1-2.1.x86_64 requires python3-pyotherside, but none of the providers can be installed
-  nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyotherside-1.5.3-2.6.x86_64
 can't install soapysdr0.6-module-xtrx-0.0.0+git.20171213-2.2.x86_64:
   nothing provides libSoapySDR.so.0.6()(64bit) needed by soapysdr0.6-module-xtrx-0.0.0+git.20171213-2.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
@@ -144,9 +141,6 @@ can't install ruby2.5-rubygem-omniauth-oauth2-testsuite-1.5.0-1.1.x86_64:
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
-can't install yubioath-desktop-4.3.4-1.1.x86_64:
-  package yubioath-desktop-4.3.4-1.1.x86_64 requires pyotherside, but none of the providers can be installed
-  nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyotherside-1.5.3-2.6.x86_64
 can't install hgview-1.10.3-1.1.noarch:
   nothing provides python-pygments needed by hgview-1.10.3-1.1.noarch
 can't install php7-xdebug-2.6.0-1.2.x86_64:
@@ -194,6 +188,8 @@ can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
   nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
+can't install python2-jupyter_sphinx_theme-0.0.6-1.2.noarch:
+  nothing provides python2-jupyter_nbsphinx needed by python2-jupyter_sphinx_theme-0.0.6-1.2.noarch
 can't install buzztrax-plugins-0.10.2-11.1.x86_64:
   package buzztrax-plugins-0.10.2-11.1.x86_64 requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
@@ -249,9 +245,6 @@ can't install ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64:
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
-can't install nextcloud-14.0.4-2.1.noarch:
-  nothing provides mod_php_any < 7.3.0 needed by nextcloud-14.0.4-2.1.noarch
-    (we have apache2-mod_php7-7.3.0-3.1.x86_64)
 can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
 can't install scilab-tests-6.0.1-8.1.noarch:
@@ -359,8 +352,6 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-2.1.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
-can't install python3-pyotherside-1.5.3-2.6.x86_64:
-  nothing provides libQt5Quick.so.5(Qt_5.11.2_PRIVATE_API)(64bit) needed by python3-pyotherside-1.5.3-2.6.x86_64
 can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-github) = 1.3.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
