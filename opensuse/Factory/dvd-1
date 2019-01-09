@@ -30,8 +30,6 @@ namespace namespace:language(el) @SYSTEM
 #INCLUDE dvd-1.ppc64le.suggests # !x86_64 # !i586 # !ppc64 # !aarch64
 #INCLUDE dvd-1.aarch64.suggests # !x86_64 # !i586 # !ppc64 # !ppc64le
 
-job lock name xerces-j2-xml-resolver
-job lock name xerces-j2-xml-apis
 job lock name gnu-javamail
 job lock name gnuchess
 job lock name atftp
