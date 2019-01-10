@@ -10,14 +10,14 @@ can't install kde-odf-thumbnail-1.0.0-5.5.x86_64:
   package is obsoleted by kio-extras5-18.12.0-1.1.x86_64
 can't install obexd-client-0.48-5.15.x86_64:
   package is obsoleted by bluez-5.50-1.2.x86_64
-can't install kdebase4-workspace-4.11.22-16.1.x86_64:
-  package is obsoleted by plasma5-desktop-5.14.4-2.1.x86_64
 can't install gcompris-17.05-6.1.x86_64:
   package is obsoleted by gcompris-qt-0.91-2.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python2-limnoria-2018.09.10-1.1.noarch
 can't install kdebase4-workspace-devel-4.11.22-16.1.x86_64:
   package is obsoleted by patterns-kde-kde_plasma-20181130-1.1.noarch
+can't install oxygen4-cursors-4.11.22-16.1.x86_64:
+  package is obsoleted by oxygen5-cursors-5.14.5-1.1.x86_64
 can't install openssl-1_0_0-1.0.2o-1.1.x86_64:
   package is obsoleted by openssl-1_1-1.1.0h-4.2.x86_64
 can't install suse-build-key-12.0-7.1.noarch:
@@ -28,8 +28,6 @@ can't install ghostscript-mini-9.26-1.1.x86_64:
   package is obsoleted by ghostscript-9.26-1.1.x86_64
 can't install mate-calc-1.20.3-1.1.x86_64:
   package is obsoleted by galculator-2.1.4-1.2.x86_64
-can't install oxygen4-cursors-4.11.22-16.1.x86_64:
-  package is obsoleted by oxygen5-cursors-5.14.4-1.1.x86_64
 can't install fwupdate-12-2.1.x86_64:
   package is obsoleted by fwupd-1.1.2-4.1.x86_64
 can't install gtk3-schema-3.24.2-2.1.noarch:
@@ -42,6 +40,8 @@ can't install caasp-dex-2.7.1-2.1.x86_64:
   package is obsoleted by dex-oidc-2.13.0-1.1.x86_64
 can't install Supybot-0.83.4.1-28.2.noarch:
   package is obsoleted by python3-limnoria-2018.09.10-1.1.noarch
+can't install kdebase4-workspace-4.11.22-16.1.x86_64:
+  package is obsoleted by plasma5-desktop-5.14.5-1.1.x86_64
 can't install perl-Test-Harness-3.42-1.2.noarch:
   package is obsoleted by perl-5.28.1-1.1.x86_64
 can't install ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64:
@@ -50,6 +50,10 @@ can't install ruby2.5-rubygem-omniauth-oauth-1.1.0-1.1.x86_64:
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install kohana2-2.3.4-1.6.noarch:
   nothing provides php5-ZendFramework needed by kohana2-2.3.4-1.6.noarch
+can't install octave-forge-ncarray-1.0.3-1.9.noarch:
+  package octave-forge-ncarray-1.0.3-1.9.noarch requires octave-forge-netcdf >= 1.0.2, but none of the providers can be installed
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-netcdf-1.0.12-1.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-netcdf-1.0.12-1.2.x86_64
 can't install ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
@@ -58,6 +62,9 @@ can't install buzztrax-lang-0.10.2-11.1.noarch:
   package buzztrax-lang-0.10.2-11.1.noarch requires buzztrax = 0.10.2, but none of the providers can be installed
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
+can't install octave-forge-level-set-0.3.0-1.9.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-level-set-0.3.0-1.9.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-level-set-0.3.0-1.9.x86_64
 can't install qpid-tools-0.32-1.7.x86_64:
   nothing provides python-qpid-qmf needed by qpid-tools-0.32-1.7.x86_64
 can't install machinery-doc-1.23.1-1.6.x86_64:
@@ -82,9 +89,15 @@ can't install geda-gaf-1.8.2-8.6.x86_64:
   package geda-gaf-1.8.2-8.6.x86_64 requires geda-gsymcheck = 1.8.2, but none of the providers can be installed
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gsymcheck-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gsymcheck-1.8.2-8.6.x86_64
+can't install octave-forge-secs2d-0.0.8-1.6.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-secs2d-0.0.8-1.6.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-secs2d-0.0.8-1.6.x86_64
 can't install ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-doc-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
+can't install octave-forge-octproj-1.1.5-1.14.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-octproj-1.1.5-1.14.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-octproj-1.1.5-1.14.x86_64
 can't install geda-base-1.8.2-8.6.x86_64:
   package geda-base-1.8.2-8.6.x86_64 requires libgeda42 = 1.8.2, but none of the providers can be installed
   nothing provides libguile-2.0.so.22()(64bit) needed by libgeda42-1.8.2-8.6.x86_64
@@ -102,11 +115,20 @@ can't install ruby2.5-rubygem-omniauth-gitlab-testsuite-2.0.0-1.1.x86_64:
 can't install wok-plugins-gingerbase-2.3.0-2.3.noarch:
   package wok-plugins-gingerbase-2.3.0-2.3.noarch requires wok >= 2.4.0, but none of the providers can be installed
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
+can't install octave-forge-mapping-1.2.1-1.12.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-mapping-1.2.1-1.12.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-mapping-1.2.1-1.12.x86_64
+can't install octave-forge-octclip-1.0.8-1.13.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-octclip-1.0.8-1.13.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-octclip-1.0.8-1.13.x86_64
 can't install policycoreutils-python-2.6-5.3.x86_64:
   nothing provides python-setools needed by policycoreutils-python-2.6-5.3.x86_64
 can't install ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64:
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
+can't install octave-forge-instrument-control-0.3.1-1.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-instrument-control-0.3.1-1.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-instrument-control-0.3.1-1.2.x86_64
 can't install libgeda-devel-1.8.2-8.6.x86_64:
   nothing provides pkgconfig(guile-2.0) needed by libgeda-devel-1.8.2-8.6.x86_64
 can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
@@ -114,13 +136,25 @@ can't install ruby2.5-rubygem-json-2.1.0-1.10.x86_64:
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires /usr/bin/ruby.ruby2.5, but none of the providers can be installed
   package ruby2.5-rubygem-json-2.1.0-1.10.x86_64 requires ruby(abi) = 2.5.0, but none of the providers can be installed
   package ruby2.5-stdlib-2.5.3-2.1.x86_64 conflicts with namespace:otherproviders(rubygem(ruby:2.5.0:json:2.1.0)) provided by ruby2.5-rubygem-json-2.1.0-1.10.x86_64
+can't install octave-forge-specfun-1.1.0-1.13.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-specfun-1.1.0-1.13.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-specfun-1.1.0-1.13.x86_64
+can't install octave-forge-parallel-3.1.3-1.1.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-parallel-3.1.3-1.1.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-parallel-3.1.3-1.1.x86_64
 can't install paperwork-0.3.2-1.8.noarch:
   nothing provides poppler needed by paperwork-0.3.2-1.8.noarch
   nothing provides python-whoosh needed by paperwork-0.3.2-1.8.noarch
 can't install ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64:
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
+can't install octave-forge-database-2.4.3-2.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-database-2.4.3-2.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-database-2.4.3-2.2.x86_64
 can't install soapysdr0.6-module-xtrx-0.0.0+git.20171213-2.2.x86_64:
   nothing provides libSoapySDR.so.0.6()(64bit) needed by soapysdr0.6-module-xtrx-0.0.0+git.20171213-2.2.x86_64
+can't install octave-forge-struct-1.0.15-1.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-struct-1.0.15-1.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-struct-1.0.15-1.2.x86_64
 can't install ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64:
   package ruby2.5-rubygem-gettext-setup-testsuite-0.28-1.7.x86_64 requires rubygem(ruby:2.5.0:gettext-setup) = 0.28, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:fast_gettext:1.1) >= 1.1 needed by ruby2.5-rubygem-gettext-setup-0.28-1.7.x86_64
@@ -131,6 +165,12 @@ can't install octave-forge-vrml-1.0.13-1.9.x86_64:
   package octave-forge-vrml-1.0.13-1.9.x86_64 requires octave-forge-linear-algebra, but none of the providers can be installed
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+can't install octave-forge-general-2.1.0-1.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-general-2.1.0-1.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-general-2.1.0-1.2.x86_64
+can't install octave-forge-strings-1.2.0-1.14.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-strings-1.2.0-1.14.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-strings-1.2.0-1.14.x86_64
 can't install buzztrax-0.10.2-11.1.x86_64:
   package buzztrax-0.10.2-11.1.x86_64 requires gstreamer-1_0-plugins-buzztrax = 0.10.2, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by gstreamer-1_0-plugins-buzztrax-0.10.2-11.1.x86_64
@@ -141,6 +181,13 @@ can't install ruby2.5-rubygem-omniauth-oauth2-testsuite-1.5.0-1.1.x86_64:
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
 can't install scim-bridge-qt4-32bit-0.4.17-1.5.x86_64:
   nothing provides scim-bridge-32bit = 0.4.17 needed by scim-bridge-qt4-32bit-0.4.17-1.5.x86_64
+can't install octave-forge-gsl-2.1.1-1.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-gsl-2.1.1-1.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-gsl-2.1.1-1.2.x86_64
+can't install octave-forge-bim-1.1.5-1.3.noarch:
+  package octave-forge-bim-1.1.5-1.3.noarch requires octave-forge-msh, but none of the providers can be installed
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-msh-1.0.10-1.6.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-msh-1.0.10-1.6.x86_64
 can't install hgview-1.10.3-1.1.noarch:
   nothing provides python-pygments needed by hgview-1.10.3-1.1.noarch
 can't install php7-xdebug-2.6.0-1.2.x86_64:
@@ -183,11 +230,13 @@ can't install wok-plugins-kimchi-2.5.0-2.2.noarch:
 can't install python3-astropy-2.0.3-1.5.x86_64:
   nothing provides libcfitsio.so.6()(64bit) needed by python3-astropy-2.0.3-1.5.x86_64
   nothing provides libwcs.so.5()(64bit) needed by python3-astropy-2.0.3-1.5.x86_64
-can't install jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64:
-  nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
-  nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.22.0~20160920-3.8.x86_64
 can't install qpid-tests-1.37.0-1.2.noarch:
   nothing provides python-qpid-qmf >= 1.35.0 needed by qpid-tests-1.37.0-1.2.noarch
+can't install octave-forge-secs3d-0.0.1-1.5.noarch:
+  package octave-forge-secs3d-0.0.1-1.5.noarch requires octave-forge-bim, but none of the providers can be installed
+  package octave-forge-bim-1.1.5-1.3.noarch requires octave-forge-msh, but none of the providers can be installed
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-msh-1.0.10-1.6.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-msh-1.0.10-1.6.x86_64
 can't install python2-jupyter_sphinx_theme-0.0.6-1.2.noarch:
   nothing provides python2-jupyter_nbsphinx needed by python2-jupyter_sphinx_theme-0.0.6-1.2.noarch
 can't install buzztrax-plugins-0.10.2-11.1.x86_64:
@@ -207,9 +256,20 @@ can't install qore-pgsql-module-2.3-4.14.x86_64:
 can't install geda-gnetlist-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gnetlist-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gnetlist-1.8.2-8.6.x86_64
+can't install octave-forge-ltfat-2.3.1-1.3.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-ltfat-2.3.1-1.3.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-ltfat-2.3.1-1.3.x86_64
+can't install octave-forge-image-2.8.1-1.1.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-image-2.8.1-1.1.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-image-2.8.1-1.1.x86_64
 can't install geda-utils-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-utils-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-utils-1.8.2-8.6.x86_64
+can't install octave-forge-secs1d-0.0.9-1.5.noarch:
+  package octave-forge-secs1d-0.0.9-1.5.noarch requires octave-forge-bim, but none of the providers can be installed
+  package octave-forge-bim-1.1.5-1.3.noarch requires octave-forge-msh, but none of the providers can be installed
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-msh-1.0.10-1.6.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-msh-1.0.10-1.6.x86_64
 can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
   nothing provides rubygem(ruby:2.5.0:celluloid-extras) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -219,6 +279,9 @@ can't install ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64:
 can't install octave-forge-communications-1.2.1-2.3.x86_64:
   nothing provides liboctave.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-communications-1.2.1-2.3.x86_64
+can't install jhbuild-recommended-deps-3.28.0~20171102-1.1.x86_64:
+  nothing provides pkgconfig(mozjs-24) needed by jhbuild-recommended-deps-3.28.0~20171102-1.1.x86_64
+  nothing provides pkgconfig(webkitgtk-3.0) needed by jhbuild-recommended-deps-3.28.0~20171102-1.1.x86_64
 can't install ruby2.5-rubygem-omniauth-doc-1.8.1-1.2.x86_64:
   package ruby2.5-rubygem-omniauth-doc-1.8.1-1.2.x86_64 requires ruby2.5-rubygem-omniauth = 1.8.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
@@ -235,10 +298,20 @@ can't install ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64:
   nothing provides rubygem(ruby:2.5.0:manpages:0.6) >= 0.6.1 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
   nothing provides rubygem(ruby:2.5.0:trollop) = 2.1.3 needed by ruby2.5-rubygem-lolcat-99.9.19-1.1.x86_64
     (we have ruby2.5-rubygem-trollop-2.9.9-1.1.x86_64)
+can't install octave-forge-tsa-4.4.1-1.9.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-tsa-4.4.1-1.9.x86_64
 can't install ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
+can't install octave-forge-signal-1.4.0-1.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-signal-1.4.0-1.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-signal-1.4.0-1.2.x86_64
+can't install octave-forge-stk-2.5.1-1.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-stk-2.5.1-1.2.x86_64
+can't install octave-forge-netcdf-1.0.12-1.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-netcdf-1.0.12-1.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-netcdf-1.0.12-1.2.x86_64
 can't install ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-oauth2-1.5.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.2, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
@@ -247,6 +320,11 @@ can't install wok-2.5.0-2.4.noarch:
   nothing provides python-pam needed by wok-2.5.0-2.4.noarch
 can't install qore-yaml-module-0.4-4.11.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-yaml-module-0.4-4.11.x86_64
+can't install octave-forge-nan-3.1.4-1.5.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-nan-3.1.4-1.5.x86_64
+can't install octave-forge-miscellaneous-1.2.1-1.14.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-miscellaneous-1.2.1-1.14.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-miscellaneous-1.2.1-1.14.x86_64
 can't install scilab-tests-6.0.1-8.1.noarch:
   package scilab-tests-6.0.1-8.1.noarch requires scilab = 6.0.1, but none of the providers can be installed
   nothing provides java = 10 needed by scilab-6.0.1-8.1.x86_64
@@ -259,6 +337,10 @@ can't install perl-Test-PerlTidy-20130104-3.2.noarch:
 can't install geda-gsymcheck-1.8.2-8.6.x86_64:
   nothing provides libguile-2.0.so.22()(64bit) needed by geda-gsymcheck-1.8.2-8.6.x86_64
   nothing provides libguile-2.0.so.22(GUILE_2.0)(64bit) needed by geda-gsymcheck-1.8.2-8.6.x86_64
+can't install octave-forge-data-smoothing-1.3.0-1.9.noarch:
+  package octave-forge-data-smoothing-1.3.0-1.9.noarch requires octave-forge-optim >= 1.0.3, but none of the providers can be installed
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-optim-1.5.3-1.1.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-optim-1.5.3-1.1.x86_64
 can't install vusb-analyzer-1.1-18.3.noarch:
   nothing provides python-gnomecanvas needed by vusb-analyzer-1.1-18.3.noarch
 can't install medit-1.2.0-2.4.x86_64:
@@ -294,6 +376,12 @@ can't install octave-forge-fl-core-1.0.0-2.3.x86_64:
   nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-fl-core-1.0.0-2.3.x86_64
 can't install qore-mysql-module-2.0.2.1-1.1.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-mysql-module-2.0.2.1-1.1.x86_64
+can't install octave-forge-sockets-1.2.0-1.12.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-sockets-1.2.0-1.12.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-sockets-1.2.0-1.12.x86_64
+can't install pfstools-octave-2.1.0-1.3.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by pfstools-octave-2.1.0-1.3.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by pfstools-octave-2.1.0-1.3.x86_64
 can't install ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64:
   package ruby2.5-rubygem-sinatra-doc-2.0.1-2.2.x86_64 requires ruby2.5-rubygem-sinatra = 2.0.1, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
@@ -303,9 +391,16 @@ can't install spice-up-lang-1.6.0-1.1.noarch:
   nothing provides libgranite.so.4()(64bit) needed by spice-up-1.6.0-1.1.x86_64
 can't install qore-xml-module-1.2-4.12.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-xml-module-1.2-4.12.x86_64
+can't install octave-forge-statistics-1.4.0-1.1.noarch:
+  package octave-forge-statistics-1.4.0-1.1.noarch requires octave-forge-io >= 1.0.18, but none of the providers can be installed
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-io-2.4.12-1.1.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-io-2.4.12-1.1.x86_64
 can't install policycoreutils-sandbox-2.6-5.3.x86_64:
   package policycoreutils-sandbox-2.6-5.3.x86_64 requires policycoreutils-python = 2.6, but none of the providers can be installed
   nothing provides python-setools needed by policycoreutils-python-2.6-5.3.x86_64
+can't install octave-openEMS-0.0.35-5.1.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-openEMS-0.0.35-5.1.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-openEMS-0.0.35-5.1.x86_64
 can't install ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64:
   package ruby2.5-rubygem-celluloid-testsuite-0.17.3-1.13.x86_64 requires rubygem(ruby:2.5.0:celluloid) = 0.17.3, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:celluloid-essentials) >= 0 needed by ruby2.5-rubygem-celluloid-0.17.3-1.13.x86_64
@@ -321,9 +416,8 @@ can't install ruby2.5-rubygem-omniauth-oauth-testsuite-1.1.0-1.1.x86_64:
 can't install spice-up-1.6.0-1.1.x86_64:
   nothing provides libgranite.so.4()(64bit) needed by spice-up-1.6.0-1.1.x86_64
 can't install octave-forge-mechanics-1.3.1-1.12.x86_64:
-  package octave-forge-mechanics-1.3.1-1.12.x86_64 requires octave-forge-linear-algebra >= 2.0.0, but none of the providers can be installed
-  nothing provides liboctave.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
-  nothing provides liboctinterp.so.4()(64bit) needed by octave-forge-linear-algebra-2.2.2-1.10.x86_64
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-mechanics-1.3.1-1.12.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-mechanics-1.3.1-1.12.x86_64
 can't install python2-astropy-2.0.3-1.5.x86_64:
   nothing provides libcfitsio.so.6()(64bit) needed by python2-astropy-2.0.3-1.5.x86_64
   nothing provides libwcs.so.5()(64bit) needed by python2-astropy-2.0.3-1.5.x86_64
@@ -352,11 +446,23 @@ can't install python-plaso-1.5.1-1.8.noarch:
   nothing provides python-construct = 2.5.2 needed by python-plaso-1.5.1-1.8.noarch
     (we have python2-construct-2.8.12-2.1.noarch)
   nothing provides pyvshadow >= 0~20140731 needed by python-plaso-1.5.1-1.8.noarch
+can't install octave-forge-lssa-0.1.2-4.5.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-lssa-0.1.2-4.5.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-lssa-0.1.2-4.5.x86_64
 can't install ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-github-doc-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth-github) = 1.3.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-github-1.3.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1.5, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:hashie) < 3.6.0 needed by ruby2.5-rubygem-omniauth-1.8.1-1.2.x86_64
     (we have ruby2.5-rubygem-hashie-3.6.0-1.1.x86_64)
+can't install octave-forge-nurbs-1.3.10-1.12.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-nurbs-1.3.10-1.12.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-nurbs-1.3.10-1.12.x86_64
+can't install octave-forge-interval-3.2.0-1.2.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-interval-3.2.0-1.2.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-interval-3.2.0-1.2.x86_64
+can't install octave-forge-econometrics-1.1.1-1.12.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-econometrics-1.1.1-1.12.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-econometrics-1.1.1-1.12.x86_64
 can't install qore-ssh2-module-0.9.9-4.13.x86_64:
   nothing provides qore-module-api-0.20 needed by qore-ssh2-module-0.9.9-4.13.x86_64
 can't install medit-lang-1.2.0-2.4.noarch:
@@ -365,6 +471,10 @@ can't install medit-lang-1.2.0-2.4.noarch:
 can't install ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64:
   package ruby2.5-rubygem-pry_debug-testsuite-0.1.0-6.14.x86_64 requires rubygem(ruby:2.5.0:pry_debug) = 0.1.0, but none of the providers can be installed
   nothing provides rubygem(ruby:2.5.0:pry:0.9) >= 0.9 needed by ruby2.5-rubygem-pry_debug-0.1.0-6.14.x86_64
+can't install octave-forge-financial-0.5.3-1.1.noarch:
+  package octave-forge-financial-0.5.3-1.1.noarch requires octave-forge-io >= 1.0.18, but none of the providers can be installed
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-io-2.4.12-1.1.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-io-2.4.12-1.1.x86_64
 can't install csound-devel-5.18.02-11.2.x86_64:
   package csound-devel-5.18.02-11.2.x86_64 requires csound = 5.18.02, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
@@ -379,6 +489,11 @@ can't install scilab-lang-6.0.1-8.1.noarch:
     (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
     (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
     (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
+can't install octave-nlopt_optimize-2.4.2-5.3.x86_64:
+  nothing provides octave-cli = 4.4.0 needed by octave-nlopt_optimize-2.4.2-5.3.x86_64
+    (we have octave-cli-4.4.1-1.1.x86_64)
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-nlopt_optimize-2.4.2-5.3.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-nlopt_optimize-2.4.2-5.3.x86_64
 can't install ruby2.5-rubygem-omniauth-gitlab-doc-2.0.0-1.1.x86_64:
   package ruby2.5-rubygem-omniauth-gitlab-doc-2.0.0-1.1.x86_64 requires ruby2.5-rubygem-omniauth-gitlab = 2.0.0, but none of the providers can be installed
   package ruby2.5-rubygem-omniauth-gitlab-2.0.0-1.1.x86_64 requires rubygem(ruby:2.5.0:omniauth:1) >= 1, but none of the providers can be installed
@@ -400,6 +515,9 @@ can't install openlmi-python-test-0.6.0-11.4.noarch:
   nothing provides openlmi-tools >= 0.9 needed by openlmi-python-test-0.6.0-11.4.noarch
 can't install csound-5.18.02-11.2.x86_64:
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
+can't install octave-forge-image-acquisition-0.2.2-1.12.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-image-acquisition-0.2.2-1.12.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-image-acquisition-0.2.2-1.12.x86_64
 can't install ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64:
   nothing provides rubygem(ruby:2.5.0:rack-protection) = 2.0.1 needed by ruby2.5-rubygem-sinatra-2.0.1-2.2.x86_64
     (we have ruby2.5-rubygem-rack-protection-2.0.4-1.1.x86_64)
@@ -453,14 +571,35 @@ can't install scilab-modules-doc-6.0.1-8.1.noarch:
     (we have java-12-openjdk-12.0.0.0~16-1.1.x86_64)
     (we have java-1_7_0-bootstrap-1.7.0-2.1.x86_64)
     (we have java-11-openjdk-11.0.1.0-2.1.x86_64)
+can't install octave-forge-fits-1.0.7-1.12.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-fits-1.0.7-1.12.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-fits-1.0.7-1.12.x86_64
 can't install libmetis-gnu-hpc-5.1.0-5.1.x86_64:
   package libmetis-gnu-hpc-5.1.0-5.1.x86_64 requires libmetis_5_1_0-gnu-hpc = 5.1.0, but none of the providers can be installed
   nothing provides metis_5_1_0-gnu-hpc-module = 5.1.0 needed by libmetis_5_1_0-gnu-hpc-5.1.0-5.1.x86_64
+can't install octave-forge-msh-1.0.10-1.6.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-msh-1.0.10-1.6.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-msh-1.0.10-1.6.x86_64
+can't install octave-forge-tisean-0.2.3-1.16.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-tisean-0.2.3-1.16.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-tisean-0.2.3-1.16.x86_64
+can't install octave-forge-quaternion-2.4.0-1.13.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-quaternion-2.4.0-1.13.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-quaternion-2.4.0-1.13.x86_64
 can't install ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64:
   nothing provides rubygem(ruby:2.5.0:commander) < 4.3.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-commander-4.4.6-1.1.x86_64)
   nothing provides rubygem(ruby:2.5.0:httpclient) < 2.7.0 needed by ruby2.5-rubygem-rhc-1.38.7-1.12.x86_64
     (we have ruby2.5-rubygem-httpclient-2.8.3-1.9.x86_64)
+can't install octave-forge-io-2.4.12-1.1.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-io-2.4.12-1.1.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-io-2.4.12-1.1.x86_64
 can't install cecilia-2.0.5-282.6.noarch:
   package cecilia-2.0.5-282.6.noarch requires csound > 3.47, but none of the providers can be installed
   nothing provides libfluidsynth.so.1()(64bit) needed by csound-5.18.02-11.2.x86_64
+can't install octave-forge-control-3.0.0-1.13.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-control-3.0.0-1.13.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-control-3.0.0-1.13.x86_64
+can't install octave-forge-optim-1.5.3-1.1.x86_64:
+  nothing provides liboctinterp.so.5()(64bit) needed by octave-forge-optim-1.5.3-1.1.x86_64
+  nothing provides liboctave.so.5()(64bit) needed by octave-forge-optim-1.5.3-1.1.x86_64
