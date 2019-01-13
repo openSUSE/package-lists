@@ -8,7 +8,7 @@
   <result project="openSUSE:Factory:PowerPC" repository="standard" arch="ppc64le" code="unpublished" state="unpublished">
     <status package="bash" code="succeeded" />
   </result>
-  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished">
+  <result project="openSUSE:Factory:PowerPC" repository="standard" arch="x86_64" code="unpublished" state="unpublished" dirty="true">
     <status package="bash" code="disabled" />
   </result>
 </resultlist>
