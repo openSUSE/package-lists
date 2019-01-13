@@ -1,5 +1,4 @@
 repo openSUSE:Factory-standard-x86_64 0 solv trees/openSUSE:Factory-standard-x86_64.solv
-repo openSUSE:Factory:Containers-standard-x86_64 0 solv trees/openSUSE:Factory:Containers-container-x86_64.solv
 
 # The Kubic DVD is supposed to be small, build without recommended packages
 solverflags ignorerecommended

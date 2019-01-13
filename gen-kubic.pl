@@ -41,12 +41,7 @@ sub read_file_recursively($) {
 
 open(OUT, ">t.$proj-$repo-$arch");
 print OUT "repo openSUSE:$proj-$repo-$arch 0 solv trees/openSUSE:$proj-$repo-$arch.solv\n";
-if ($arch =~ "aarch64") {
-  print OUT "repo openSUSE:Factory:Containers-$repo-$arch 0 solv trees/openSUSE\:Factory\:Containers-container_ARM-$arch.solv\n";
-}
-else {
-  print OUT "repo openSUSE:$proj:Containers-$repo-$arch 0 solv trees/openSUSE\:Factory\:Containers-container-x86_64.solv\n";
-}
+
 for my $line (read_file_recursively($file)) {
   print OUT "$line\n";
 }
