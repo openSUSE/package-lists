@@ -782,6 +782,9 @@ job lock name noto-sans-jp-fonts
 job lock name amarok-lang
 
 job lock name libqt5-qtdeclarative-devel
+
+job lock name openSUSE-Tumbleweed-Kubic-release
+job lock name openSUSE-Tumbleweed-Kubic-release-dvd
 # end ignore_opensuse-dvd5
 
 
@@ -2512,6 +2515,7 @@ job install name ispell-portuguese [weak]
 job install name ispell-russian [weak]
 job install name ispell-spanish [weak]
 job install name iw [weak]
+job install name java-11-openjdk [weak]
 job install name jfsutils [weak]
 job install name jhbuild [weak]
 job install name jhbuild-lang [weak]
@@ -3096,6 +3100,7 @@ job install name libyui-qt-graph9 [weak]
 job install name libyui-qt-pkg9 [weak]
 job install name libyui-qt9 [weak]
 job install name libz1 [weak]
+job install name lifecycle-data-openSUSE [weak]
 job install name lightdm [weak]
 job install name lightdm-gtk-greeter [weak]
 job install name lightdm-gtk-greeter-branding-openSUSE [weak]
@@ -3164,6 +3169,7 @@ job install name man-pages-posix [weak]
 job install name man-pages-zh_CN [weak]
 job install name manufacturer-PPDs [weak]
 job install name mariadb [weak]
+job install name mariadb-client [weak]
 job install name mbimcli-bash-completion [weak]
 job install name mbox-importer [weak]
 job install name mbox-importer-lang [weak]
