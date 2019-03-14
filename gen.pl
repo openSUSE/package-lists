@@ -1,6 +1,7 @@
 #! /usr/bin/perl
 
 use File::Basename;
+use File::Path qw(make_path);
 
 my $file = $ARGV[0] || die 'need file';
 my $arch = $ARGV[1] || die 'need arch';
@@ -67,6 +68,7 @@ while ( <TS> ) {
 exit(1) if ($ret);
 
 close(TS);
+make_path(dirname("output/$file"));
 open(OUT, ">", "output/$file.$arch.list");
 for my $pkg (sort keys %installs) {
   print OUT "$pkg\n";
