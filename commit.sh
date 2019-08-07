@@ -90,11 +90,11 @@ if [ "$proj" = "Leap:15.0" ]; then
   osc -q ci -m "auto update" osc/openSUSE:$proj/package-lists-openSUSE-images | grep -v nothing
 fi
 
-if [ -f trees/openSUSE:$proj-$repo-x86_64.solv ]; then
+if [ -f trees/openSUSE:$proj-$repo-$arch.solv ]; then
   file="openSUSE:$proj.installcheck"
   remote="/source/openSUSE:$proj:Staging/dashboard/installcheck"
 
-  installcheck x86_64 --withobsoletes trees/openSUSE:$proj-$repo-x86_64.solv > "$file"
+  installcheck $arch --withobsoletes trees/openSUSE:$proj-$repo-$arch.solv > "$file"
   if [ "$(< "$file")" != "$(osc api "$remote")" ] ; then
     osc -d api -X PUT -f "$file" "$remote"
   fi
